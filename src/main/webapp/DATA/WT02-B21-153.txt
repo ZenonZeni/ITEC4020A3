@@ -1,0 +1,125 @@
+
+<DOC>
+<DOCNO>WT02-B21-153</DOCNO>
+<DOCOLDNO>IA052-000883-B027-156</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/interfer/interfer.html 137.229.31.144 19970210140528 text/html 4188
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:05:42 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Thursday, 30-Jan-97 02:57:22 GMT
+Content-length: 4006
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML> 
+<HEAD>
+<TITLE>Interferometry at ASF/STEP</TITLE> 
+</HEAD> <BODY BGCOLOR="#FFDEAD" TEXT="#00008F" LINK="#008B00" VLINK="#580000"
+BACKGROUND="../res/backgrounds/asf_tile.gif"> 
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> | 
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> | 
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> | 
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A>
+<P> 
+<CENTER> 
+<H1>ASF/STEP's Interferometry Software</H1> 
+</CENTER> 
+<P>
+<DL> 
+<DT><H2>Introduction</H2> 
+<DD> 
+One of the software projects we have been working on at STEP is
+interferometry. For those new to this term, interferometry is the study of
+interference patterns caused by either two signals received at the same
+source or one signal being recived at two sources. 
+<P> 
+How do we get interference patterns from one signal receiving at one
+satellite? 
+<P> 
+The ERS-1, and now ERS-2, satellite orbits the Earth in a repeat pattern. 
+This means that it will fly over the same patch of ground once every
+orbital period. However, the satellite does not fly <EM>EXACTLY</EM> over
+the same spot. With this separation and using the assumption that the
+second signal is the same as the first, we have one signal being received
+at two sources. Hence, an interference pattern can be generated. 
+</DD> 
+<DT><H2>Examples</H2> 
+<DD> 
+<UL> 
+<LI><A HREF="barrow.html">Barrow Ice</A>
+<LI><A HREF="http://www.asf.alaska.edu/step/bglacier_inf.html">Bering 
+Glacier</A>
+<LI><A HREF="http://www.asf.alaska.edu/step/chitina_inf.html">Chitina
+River</A>
+</UL>
+</DD>
+<DT><H2>Software</H2>
+<DD>
+Use these quick links to download the code necessary to preform 
+interferometry. As of now, the interferometry software has only been 
+compiled for Sun/Solaris 2.x.
+<UL>
+<LI><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/interferometry/ifm.solaris.bin.tar.Z">
+Sun/Solaris 2.x</A>
+<LI><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/interferometry/ifm.src.tar.Z">
+Source Code
+</A>
+</UL>
+</DD>
+<DT><H2>Articles, Papers, and Other Sources of Information</H2>
+<DD>
+When taken in the context of the histroy of science, interferometry using earth remote sensing satellites is brand new. However, there is plenty of information out that discusses interferometry, especially interferometry using ERS-1 SAR data. Check out our <A HREF="http://www.asf.alaska.edu/step/b_interferom.html">bibliography</A> for more information.
+<P>
+A step-by-step description of each tool and an example run of each program is also available. These programs are listed in the same order that they would be used when running an interferometry process.
+<P>
+<OL>
+<LI><a href="resolve.html">Resolve</a>
+<LI><a href="ifmshift.html">Ifmshift</a>
+<LI><a href="igram.html">Igram</a>
+<LI><a href="deramp.html">Deramp</a>
+<LI><a href="ml.html">Ml</a>
+<LI><a href="escher.html">Escher</a>
+<LI><a href="refine.html">Refine_base</a>
+<LI><a href="iter.html">Iterations</a>
+<LI><a href="elev.html">Elev (DEM generation)</a>
+</OL>
+<P>
+If you would like test data, contact <a
+href="mailto:rguritz@images.alaska.edu">Rick Guritz</a> for more
+information.
+</DD>
+
+<DT><H2>Support</H2></DT>
+<DD>
+The staff of STEP would like to thank the following people who either helped 
+with advice or contributed software or both.
+<UL>
+<LI>Rob Fatland
+<LI>Harold Garbiel
+<LI>Shusun Li
+<LI>C. K. Shum
+<LI>Howard Zebker
+</UL>
+</DD>
+</DL>  
+</BODY> 
+<ADDRESS> 
+<P>
+<IMG ALT="[---------]" SRC="../res/lines/ice_blue_line.gif" WIDTH=85%>
+<P> 
+Created By: <a href="mailto:mshindle@images.alaska.edu">Michael Shindle</a><br>
+Last Updated: January 23,1997<BR> 
+Last Updated By: <A 
+HREF="http://www.images.alaska.edu/users/mike/mike.html">Michael 
+Shindle</A><BR> If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="http://www.images.alaska.edu/comments.html">comment</A>. 
+<P> 
+</ADDRESS> 
+</HTML> 
+
+</DOC>

@@ -1,0 +1,284 @@
+
+<DOC>
+<DOCNO>WT03-B16-45</DOCNO>
+<DOCOLDNO>IA072-000459-B011-135</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/spot/spot.html 137.132.32.55 19970121022414 text/html 12801
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 12:48:26 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Saturday, 21-Dec-96 13:28:50 GMT
+Content-length: 12617
+</DOCHDR>
+<TITLE>SPOT</TITLE>
+<body bgcolor="ddccaa">
+<H1>SPOT High Resolution Visible Data  </H1>
+<H2>Table of Contents</H2>
+<PRE>
+<A HREF="#spot1">Background</A>
+<A HREF="#spot2">Extent of Coverage</A>
+<A HREF="#spot3">Acquisition</A>
+   <A HREF="#spot4">Processing Steps</A>
+<A HREF="#spot5">Data Characteristics</A>
+   <A HREF="#spot5">Spatial Resolution</A>
+   <A HREF="#spot7">Temporal Coverage</A>
+   <A HREF="#spot8">Spectral Range</A>
+<A HREF="#spot9">Data Organization</A>
+<A HREF="#spot12">Products and Services</A>
+<A HREF="#spot13">Applications and Related Data Sets</A>
+<A HREF="#spot14">References</A>
+<A HREF="#spot16">Appendix</A>
+</PRE>
+<P>
+<A NAME="spot1"><B>Background</B></A>
+<P>
+Satellite Pour l'Observation de la Terra (SPOT) is the European earth observing
+satellite system.  SPOT data are visible and near-infrared radiance data 
+obtained from High Resolution Visible (HRV) sensors carried on the SPOT-1 and
+SPOT-2 satellites.  Each satellite carries two HRVs with the capability of
+scanning in either a multispectral mode or a panchromatic mode.  The 
+multispectral mode captures data in three spectral bands: .50-.59, .61-.68 and
+.79-.89 micrometers.  The three bands are co-registered and have a ground 
+resolution of 20 meters.  The panchromatic mode images data in the spectral 
+range .51-.73 micrometers at a 10 meter ground resolution.  The viewing angle 
+of each HRV sensor can be adjusted to collect data up to 27 degrees right or 
+left of satellite nadir.  This cross-track pointing capability allows the same 
+point on the earth to be viewed from several different orbits and enables the 
+acquisition of stereoscopic imagery.
+<P>
+<A NAME="spot2"><B>Extent of Coverage</B></A>
+<P>
+The SPOT system provides global coverage between North 87 degrees latitude and
+South 87 degrees latitude.  Each nominal scene covers a 60 by 60 km (37 by 37
+square mile) area.  
+<P>
+<A NAME="spot3"><B>Acquisition</B></A>
+<P>
+The SPOT satellites operate from a sun-synchronous, near polar orbit 832 km
+(517 mi) above the earth.  The satellites are inclined 98.7 degrees, cross the
+equator at 10:30 AM local time and have an orbital cycle of 26 days.  The
+ground imaging swath is 60 km (37 mi) per HRV sensor.  With both HRVs scanning
+in the twin vertical viewing mode the cross-track swath is 117 km (73 mi).
+Each HRV sensor has the capability to scan 27 degrees off-nadir (earth 
+curvature effects produce a 31 degree angle) allowing for repeat coverage of 
+an area up to every three or four days depending upon the latitude of the area.
+The SPOT network consists of 18 worldwide ground receiving stations that 
+acquire SPOT data in a real-time mode.  Additionally, the stations at Toulouse,
+France and Kiruna, Sweden can download data acquisitions during night passes 
+that were recorded on board the satellites.  
+<P>
+<A NAME="spot4"><B>Processing Steps</B></A>
+<P>
+Data acquisition begins when a station's antenna has locked onto the SPOT 
+payload telemetry signal after automatically tracking the satellite from the 
+time it rises above the horizon.  The incoming signals received are 
+demodulated,
+synchronized (8 GHz carrier filtered away) and then recorded on 
+two high density data tapes (HDDTs) operating in full-redundancy.  Only one of 
+the two tapes is considered to be a master at any given time, the other serving
+as a back up should the first develop an error.
+<P>
+The HDDT contains all the image data transmitted by the satellite and is the
+system archive.  It is not, however, directly usable by researchers.
+<P>
+Archiving and inventory operations consist of playing back the raw data from
+the HDDTs, locating the image data, dividing the strip imaged by each HRV
+sensor into scenes and then creating a directory for the HDDT with this 
+information in it.
+<P>
+Following those steps, the SPOT catalog is automatically updated.  Each 
+archived scene is defined by the following characteristics:
+<P>
+<ul>
+<li>geographical coordinates
+<li>viewing conditions (multispectral or panchromatic, viewing angle)
+<li>Grid Reference System (<A HREF="#spot30">GRS</A>) identification of the scene
+</li></ul>
+<P>
+When a user requests a particular scene, the archived data undergoes 
+preprocessing.  Five standardized preprocessing levels are available to the 
+user:
+<ul>
+<li>level 1A - radiometric corrections
+<li>level 1B - radiometric and geometric corrections
+<li>level 2  - radiometric and geometric corrections using ground control points (GCPs)
+<li>Level 3  - radiometric and geometric corrections using GCPs and DTM
+<li>level S  - radiometric processing and geometric resampling for two scene registration
+<ul><li>(level S1 when one input scene is level 1B)
+    <li>(level S2 when one input scene is level 2)
+</li></ul></ul>
+<P>
+The raw data are decompressed, corrected and recorded onto magnetic tapes 
+usable by researchers.  These tapes are known as Computer Compatible Tapes
+(CCTs).  The tapes are needed to produce full resolution photographic film as
+well as being end products themselves.
+<P>
+<A NAME="spot5"><B>Data Characteristics</B></A>
+<P>
+<B>Spatial Resolution</B>
+<P>
+<PRE>
+              Mode       Band       Resolution
+              ----       ----       ----------
+        Multispectral     1          20 meters
+                          2          20 meters
+                          3          20 meters
+        Panchromatic      -          10 meters
+</PRE>
+<P>
+<A NAME="spot7"><B>Temporal Coverage</B></A>
+<P>
+<PRE>
+            Launch Date       Sensors          Status   
+
+SPOT 1        2/21/86         HRV(2)       Backup to SPOT 2 
+SPOT 2        1/21/90         HRV(2)       Primary Satellite
+</PRE>
+<P>
+<A NAME="spot8"><B>Spectral Range</B></A>
+<P>
+<PRE>
+                 Mode       Band      Micrometers
+                 ----       ----      -----------
+           Multispectral     1         .50 - .59
+                             2         .61 - .68
+                             3         .79 - .89
+           Panchromatic      -         .51 - .73
+</PRE>
+<P>
+
+<A NAME="spot9"><B>Data Organization</B></A>
+<P>
+SPOT digital tapes are unlabeled with the number of volumes being determined 
+by the imaging mode, viewing angle and level of processing.  SPOT scenes vary
+from approximately 27 megabytes to approximately 100 megabytes of data 
+depending on the level of processing and geometric corrections performed.  A 
+panchromatic scene consists of a single band image and the 3-band multispectral
+scene is organized as band interleaved by line (BIL).
+<P>
+Image data are recorded such that the first data pixel corresponds to the 
+extreme Northwest corner of the scene; succeeding pixels corresponding to those
+immediately East of the first pixel, then line by line from North to South.
+All image data regardless of spectral imaging mode or level of processing are
+recorded as right-justified 8-bit pixels.
+<P>
+For additional information on data organization, select one of the topics 
+listed below.
+<ul>
+<li><A HREF="cap.html#spot17">Logical Volume</A>
+<li><A HREF="cap.html#spot18">Volume Directory File</A>
+<li><A HREF="cap.html#spot19">Leader File</A>
+<li><A HREF="cap.html#spot20">Imagery File</A>
+<li><A HREF="cap.html#spot21">Trailer File</A>
+<li><A HREF="cap.html#spot22">Null Volume Directory File</A>
+</li></ul>
+<P>
+<A NAME="spot12"><B>Products and Services</B></A>
+<P>
+Standard SPOT products consist of digital 9-track tapes at 6250 bpi, 8mm Exabyte and CD-ROM
+products.  Special products such as perspective
+view images, complete geologic basin scenes, images corresponding to specific
+map areas and special slide sets are offered by some distribution offices.
+<P>
+<A NAME="spot13"><B>Applications and Related Data Sets</B></A>
+<P>
+Current uses of SPOT data include: preparing basemaps for environmental impact
+studies; evaluating major geologic faults and structures; merging SPOT data
+with elevation information to produce a perspective view used in geologic 
+exploration; forecasting crop yields; assessing natural disaster damage and 
+preparing thematic maps for cartographic, urban and regional planning or 
+transportation needs.
+<P>
+<DL>
+<DT><A NAME="spot14"><B>References</B></A>
+<P>
+<DD>C.E.R.C.O., 1988. "The SPOT System and it's Cartographic Applications,"
+Comite Europeen des Responsiables de la Cartographie, A seminar held in
+Saint-Maude, France, June 6-15, 1988, 213p.
+<P>
+<DD>CNES, SPOT Image', 1989. "SPOT User's Handbook," 3 Volumes (Volume 1: Reference
+Manual, Volume 2: SPOT Handbook, Volume 3: SPOT Handbook Appendices), Centre
+National d'Etudes Spatiales and SPOT Image Corporation, Toulouse, France and 
+Reston, VA.
+<P>
+<DD>Spot Image Corporation, 1986-1991. "Spotlight," Spot Image Corporation,
+1986-current.
+<P>
+</DL>
+<A NAME="spot16"><B>Appendix</B></A>
+<ul>
+<li><A HREF="#spot30">Grid Reference System (GRS)</A>
+<li><A HREF="cap.html#spot17">Logical Volume</A>
+<li><A HREF="cap.html#spot18">Volume Directory File</A>
+<li><A HREF="cap.html#spot19">Leader File</A>
+<li><A HREF="cap.html#spot20">Imagery File</A>
+<li><A HREF="cap.html#spot21">Trailer File</A>
+<li><A HREF="cap.html#spot22">Null Volume Directory File</A>
+</li></ul>
+<P>
+<A NAME="spot30"><B>Grid Reference System (GRS)</B></A>
+<P>
+The SPOT Grid Reference System (GRS) is used to identify the geographic 
+location of SPOT images.  The grid is made up of nodes located at the 
+intersection of columns (K) and rows (J).
+<P>
+When data strips are split into scenes, the SPOT GRS links each scene with two
+K,J designators representing a node on the GRS.  Once the K,J designators have
+been identified for a new scene, they are added to the list of the scene's main
+characteristics file.
+<P>
+The Grid Reference System indicates the nominal location of scenes that can be
+acquired in the twin vertical viewing configuration for any region in the world
+minus the polar zones.  In the case of oblique viewing, the scene centers do
+not normally coincide with the GRS nodes (defined by the surveying conditions
+of twin vertical viewing).  SPOT scenes acquired in oblique viewing mode are
+identified by the K,J designators of the node closest to the scene center.
+<P>
+The GRS divides the Earth into five zones forming a symmetrical pattern on
+either side of the Equator.  This division is dictated by the satellite's 
+orbital characteristics and more specifically by the convergence of the ground
+tracks at high latitudes:
+<ul>
+<li>The intermediate zone extends from 51.5 degrees North latitude to 51.5
+degrees South latitude.
+<li>The north and south zones extend from 51.5 degrees to 71.7 degrees
+North or South latitudes, respectively.
+<li>The north and south polar zones extend from 71.7 degrees to the pole
+North or South latitudes, respectively.
+</li></ul>
+In the north, intermediate and south zones, the K columns are arranged parallel
+to the satellite ground tracks while the J rows are latitude lines.
+<P>
+The pattern of nodes within the three zones is defined in terms of satellite
+viewing conditions corresponding to the twin vertical viewing configuration. It
+indicates the nominal location of the centers of scenes yielded by this viewing
+configuration.  Oblique viewing will place the scene center always on a J row
+but the center may not coincide in longitude with a GRS node.
+<P>
+In the two polar zones the GRS node pattern is independent of satellite orbital
+and viewing characteristics.  The pattern is obtained by hexagonal dissection
+using quasi-equilateral triangles where each side represents approximately 26
+km (16 mi).
+<P>
+The K columns are derived directly from the SPOT reference tracks.  Each track
+number N corresponds to two K columns:
+<P>
+<dt>K = 2N-1 associated with HRV-1 and located West of track N (odd number)
+<dt>K = 2N   associated with HRV-2 and located East of track N (even number)
+<P>
+The distance between these two columns (i.e. between K=2N-1 and K=2N) is 
+constant at about 58 km (36 mi) and is a direct result of the twin vertical 
+configuration.  Since the GRS nodes are located on either side of the reference
+tracks, the scene centers obtained in vertical viewing do not coincide with the
+GRS nodes.  This constitutes an important difference from the Landsat Worldwide
+Reference System (<A HREF="landsat#mss19">WRS</A>), where the nodes are located on the tracks and not on
+either side.
+<P>
+The J rows correspond to latitude lines (i.e. all GRS nodes at the same 
+latitude share the same J designator).  The interval between the rows has been 
+calculated to ensure that endlap occurs between two successive scenes.  The 
+scenes of a given data strip are segmented in such a way that the centers are 
+located on two adjacent rows, J and J+1.  
+</DOC>

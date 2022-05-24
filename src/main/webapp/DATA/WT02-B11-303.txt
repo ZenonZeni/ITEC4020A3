@@ -1,0 +1,370 @@
+
+<DOC>
+<DOCNO>WT02-B11-303</DOCNO>
+<DOCOLDNO>IA086-000618-B045-128</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.030.html 130.91.195.242 19970122054450 text/html 18109
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:44:52 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 17937
+Last-modified: Tue, 22 Nov 1994 06:31:11 GMT
+</DOCHDR>
+testimony by Steve Walker on Export controls <p>
+
+law to proceed.  The file name of the PEM programs contained in
+the "READ ME" file is changed frequently to force the anonymous
+user to read the export control caution.  We also installed
+filters that automatically refuse requests that are clearly
+coming from outside the U.S. or Canada.  But we know that those
+filters cannot stop inquiries from foreign sources that have
+accounts in the U.S.  To the best of our knowledge, our approach
+is as sound as many that others are using and better than most. <p>
+
+Before we put the system on line, though, we sought the approval
+of the Department of State and the National Security Agency.
+Initially we got acknowledgements to our phone calls describing
+our problem and proposed solution.  We were told orally at one
+time that because the PEM software was "free," it was permissible
+to proceed this way, implying that if we charged for it, somehow
+this process would not be approved.  But as we began to seek
+official approval for this process, we received fewer and fewer
+responses.  Our inquiries finally took the form of:  "Unless you
+tell us not to do this, this is how we intend to proceed." On
+June 1, 1993, we put the anonymous FTP process on line, and our
+system has responded to hundreds of requests.  We have never
+received acknowledgement that the process is either acceptable or
+unacceptable to the Government despite being told on several
+occasions that we would receive such acknowledgement. <p>
+
+The above described process is patterned after a similar process
+that takes place now in software retail stores.  Programs for
+sale over the counter containing DES or similar export controlled
+software are supposed to be marked with explicit and obvious
+labels telling the buyer that these products cannot be taken from
+the U.S. or Canada.  The burden of complying with the export laws
+rests entirely with the buyer since the seller has no
+responsibility to ascertain whether the buyer is a U.S. or
+Canadian citizen.  One has to wonder if these prominent notices,
+rather than advising buyers to beware, do not guide the foreign
+buyer, who is not concerned with violating U.S. export laws,
+directly to the product he or she wishes to buy. <p>
+
+A second situation of interest involves a potential major
+customer of PEM, the British Ministry of Defence (MoD).  For
+several years, TIS has been discussing PEM with officials in the
+MoD for use with unclassified information among MoD users and
+their industrial suppliers.  TIS has a perfectly good solution to
+MoD's problems and could have had it running there years ago.
+Unfortunately, we cannot export PEM even to the British MoD
+because PEM uses the DES and RSA encryption algorithms. <p>
+
+Last year, the SPA succeeded in obtaining expedited export
+approval for software products that use cryptography so long as
+the key length is 40 bits or less.  While this was a significant
+accomplishment, since it was the first time that any cryptography
+for confidentiality was given general export approval, the
+victory was short lived.  Forty-bit key algorithms can be
+exhaustively searched in very short times.  If a device could be
+built to exhaustively search a 56-bit key space (DES) in 176
+years, it would take less than 1 day to search a 40-bit key
+space.  Foreign customers for U.S. products who already have DES
+readily available laughed at the 40-bit U.S. restriction.  TIS
+produced a 40-bit version of Trusted Mail and obtained the
+expedited Department of State export approval but to date has
+been unable to find a foreign (or domestic) customer willing to
+accept the weak 40-bit key length. <p>
+
+After spending much energy searching for plausible solutions to
+this problem, our newly formed Trusted Information Systems (UK)
+Limited office has contracted with British scientists to
+implement a new UK version of PEM based on the same international
+specifications and using DES and RSA algorithms that are already
+available in the UK.  In a very real sense, this situation
+demonstrates that the only accomplishment of U.S. export control
+restrictions is the export of U.S. jobs. <p>
+
+To make matters even worse (in the job export sense, at least),
+because of provisions in the UK export laws, it appears that we
+can import the UK product for sale in the U.S., something we
+would never be able to do in reverse. <p>
+
+These examples of problems with the export control process or its
+consequences are typical of the situations many U.S. companies
+find as they attempt to enter the world of software cryptography. <p>
+
+Industrywide Experiences <p>
+
+Some companies do try to compete and offer excellent DES-based
+products in the U.S.  But because of the export restrictions,
+they must develop weaker versions for export if they wish to
+pursue foreign markets.  Many companies forgo the business rather
+than spend extra money to develop another inferior product that
+cannot compete with products widely available in the market. <p>
+
+The Government already has a measure of lost sales and
+dissatisfied customers in the number of State Department/NSA
+export license applications denied, modified, or withdrawn.
+However, it is impossible to estimate accurately the full extent
+of lost sales.  Many potential customers know that U.S. companies
+cannot meet their demand and thus no longer inquire.  Conversely,
+some companies have given up even trying to get export approvals
+for DES to meet customer demand. <p>
+
+Gauging the extent of economic harm to companies is an inherently
+difficult task because most companies do not want to reveal that
+sort of information.  Consequently, there exists only anecdotal
+information.  But the accumulation of anecdotal information
+collected by the SPA paints a picture of three ways in which the
+export controls on cryptographic products are hurting American
+high-tech industry. <p>
+
+(1)  First, for many data security companies, every sale is
+vital, and the loss of contracts smaller than $1 million can
+often mean the difference between life and death for these
+companies.  The confusion and uncertainty associated with export
+controls on encryption generate severe problems for small firms,
+but not as severe as the loss of business they suffer from anti-
+competitive export controls.  Examples abound: <p>
+
+o    One U.S. company reported loss of revenues equal to a
+          third of its current total revenues because export
+          controls on DES-based encryption closed off a market
+          when its customer, a foreign government, privatized the
+          function for which the encryption was used, and the
+          U.S. company was not permitted to sell to the private
+          foreign firm.  The company estimates it loses millions
+          of dollars a year because it receives substantial
+          orders every month from various European customers but
+          cannot fill them because of export controls. <p>
+
+o    One small firm could not sell to a European company
+          because that company sold to clients other than
+          financial institutions (for which export controls grant
+          an exception).  Later, the software firm received
+          reports of sales of pirated copies of its software.
+          This constituted a loss of a $400,000 contract for the
+          small U.S. software firm. <p>
+
+o    Because of existing export restrictions, an American
+          company recently found itself unable to export a mass
+          market software program that provided encryption using
+          Canadian technology based on a Japanese algorithm.  Yet
+          other European and Japanese companies are selling
+          competing products worldwide using the same Canadian
+          technology. <p>
+
+o    An SPA member's product manager in Europe reported the
+          likely loss of at least 50% of its business among
+          European financial institutions, defense industries,
+          telecommunications companies, and government agencies
+          if present restrictions on key size are not lifted. <p>
+
+o    Yet another SPA member company reported the potential
+          loss of a substantial portion of its international
+          business if it cannot commit to provide DES in its
+          programs. <p>
+
+o    A German firm that opened a subsidiary in the U.S.
+          sought a single source encryption software product for
+          both its German and U.S. sites.  A U.S. data security
+          firm that bid for the contract lost the business
+          because U.S. export controls required that the German
+          firm would have to wait approximately six months while
+          a license was processed to sell them software with
+          encryption for foreign application.  The license could
+          only be for one to three years, the three year license
+          being more expensive.  Consequently, the German firm
+          ended up purchasing a DES-based system from another
+          German company, and the U.S. firm lost the business. <p>
+
+o    A foreign government selected one software company's
+          data security product as that government's security
+          standard.  The company's application to export the DES
+          version was denied, and as a consequence the order was
+          lost.  This cost the company a $400,000 order and
+          untold millions in future business. <p>
+
+(2)  Second, multinational corporations (MNCs) are a prime source
+of business in the expanding international market for encryption
+products.  Many U.S.-based firms have foreign subsidiaries or
+operations that do not meet export requirements.  While U.S.
+products may be competitive in the U.S., many MNCs obtain from
+foreign sources encryption systems that will be compatible with
+the company's worldwide operations.  Moreover, foreign MNCs
+cannot rely on the availability of U.S. products and have been
+known to import foreign cryptography for use in their U.S.
+operations. <p>
+
+o    One U.S. firm reports the loss of business from foreign
+          MNCs that will not integrate the company's products
+          into their U.S. operations because of the export
+          restrictions that would prevent them from being
+          compatible with their domestic operations. <p>
+
+o    The Computer Business Equipment Manufacturers
+          Association reports that one of its members was denied
+          an export license and lost a $60 million sale of
+          network controllers and software for encryption of
+          financial transactions when the Western European
+          customer could not ensure that encryption would be
+          limited to financial transactions. <p>
+
+(3)  Third, encryption systems are frequently sold as a component
+of a larger system.  These "leveraged" sales offer encryption as
+a vital component of a broad system.  Yet the encryption feature
+is the primary feature for determining exportability.  Because of
+the export restrictions, U.S. firms are losing the business not
+just for the encryption product but for the entire system because
+of the restrictions on one component of it. <p>
+
+o    One data security firm has estimated that export
+          restrictions constrain its market opportunities by two-
+          thirds.  Despite its superior system, it has been
+          unable to respond to requests from NATO, the Swedish
+          PTT, and British telecommunications companies because
+          it cannot export the encryption they demand.  This has
+          cost the company millions in foregone business. <p>
+
+o    One major computer company lost two sales in Western
+          Europe within the last 12 months totaling approximately
+          $80 million because the file and data encryption in the
+          integrated system was not exportable. <p>
+
+One possible solution to the problem of export controls may be
+for U.S. companies to relocate overseas.  Some U.S. firms have
+considered moving their operations overseas and developing their
+technology there to avoid U.S. export restrictions.  Thus, when a
+U.S. company with technology that is clearly in demand is kept
+from exporting that technology, it may be forced to export jobs
+instead. <p>
+
+HOW ARE U.S. CITIZENS AND BUSINESSES BEING AFFECTED BY ALL THIS? <p>
+
+The answer to this question is painfully simple.  When U.S.
+industry forgoes the opportunity to produce products that
+integrate good security practices, such as cryptography, into
+their products because they cannot export those products to their
+overseas markets, U.S. users (individuals, companies, and
+Government agencies) are denied access to the basic tools they
+need to protect their own sensitive information.  This is where
+the greatest frustration sets in. <p>
+
+The U.S. Government established export controls in order to keep
+good quality cryptography from proliferating outside the U.S.
+The result has been exactly the opposite effect.  Good quality
+cryptography is now available everywhere in the world including
+the U.S.  But U.S. customers cannot buy it integrated into the
+information system products they normally use because U.S. export
+laws discourage U.S. suppliers from developing such products. <p>
+
+We seem caught in a vicious circle that appears to make sense
+only to those who do not want to see good quality cryptography
+used anywhere. <p>
+
+WHAT EFFECT WILL CLIPPER HAVE? <p>
+
+In the midst of all of this, on April 16, 1993, the President
+announced the Clipper initiative to ensure the public's right to
+privacy while allowing law enforcement to conduct lawful
+wiretaps. <p>
+
+The principal concern of many with Clipper is the potential it
+has for violating the privacy of citizens.  In his April 16
+announcement, the President stated that "The Administration is
+committed to policies that protect all Americans' right to
+privacy while also protecting them from those who break the law."
+It would appear that the only way both aspects of this policy can
+be carried out is if the individual's right to privacy is
+superseded by the Government's right to listen in whenever the
+Government chooses.  Many people fear that this isn't much of a
+right to privacy. <p>
+
+There are many other concerns that have been expressed about the
+Administration's Clipper Initiative and the negative aspects of
+key escrow.  But with respect to the issue of export restrictions
+on software products, Clipper represents primarily a distraction
+only serving to cloud the issues.  Unless Clipper is made
+mandatory, its requirement to use hardware and its key escrow
+provisions will cause it to have little impact on the software
+market.  No one will willingly give up the convenience of
+integrated software encryption for an expensive hardware box that
+will let the Government listen in. <p>
+
+The international aspects of Clipper are not at all thought out.
+Even if Clipper were exportable, the fact that the U.S.
+Government will hold the keys and not share them with other
+governments ensures that this will be no more successful overseas
+than the 40-bit key length "solution." <p>
+
+Clipper is a major diversion that does not solve any of the
+problems discussed above. <p>
+
+WHAT CAN BE DONE? <p>
+
+Many Calls for Action <p>
+
+Many people have been clamoring about the need to relax export
+controls on encryption for years.  The National Research Council
+has recently issued four reports expressing serious concern in
+this area (Attachment 3). <p>
+
+The computer industry has been complaining ever more loudly for
+ten years. <p>
+
+The Congressionally chartered Computer System Security and
+Privacy Advisory Board has called for a national review of these
+issues involving Government (civilian, law enforcement, and
+national security interests) and industry (users and vendors).
+The Advisory Board passed resolutions on the need for a national
+review and expressing serious concerns about the Clipper
+Initiative (Attachment 4). <p>
+
+The Administration has formed an Interagency Review at the
+request of the President to look at all aspects of the
+cryptography issue including export control.  This review is the
+highest level investigation of this problem to date.  Its report
+is due out any time, within days or weeks.  Unfortunately, the
+review is being conducted from behind closed doors with the only
+public input coming through the auspices of the Advisory Board
+and such industry groups as the Digital Privacy and Security
+Working Group. <p>
+
+Since the Interagency review began with the Clipper announcement
+and is being conducted by Government officials who are heavily
+committed to Clipper, it is unlikely that its results will assist
+business by easing the software cryptography export control
+constraints. <p>
+
+President Clinton, in commenting on the North American Free Trade
+Agreement, was quoted by the Washington Post, September 16, 1993,
+as saying: <p>
+
+I'm telling you folks, we cannot repeal the force that is
+     driving the world economy together.  We can run away from it
+     and get beat by it, or we can embrace it, do what we have to
+     do and win with it. <p>
+
+If only those who control cryptographic exports understood this. <p>
+
+On September 30, the President announced a significant relaxation
+of the export control rules for high performance computer
+technology.  It would be good if some of that change could affect
+the cryptography export area, but the present export position is
+so well entrenched, it is unlikely there will be much change from
+the Executive Branch. <p>
+
+The Congress Must Act Now! <p>
+
+The only hope for a recognition of the counterproductive nature
+of this situation is in the Congress.  No other organization has
+the breadth of constituencies to allow an honest look at all the
+concerns and the authority to come to a definitive resolution on
+the issue. <p>
+
+We need to recognize that the U.S. public has a right to a
+reasonable level of protection for its sensitive information.
+Enabling that right through allowing the export of good quality <p>
+
+</DOC>

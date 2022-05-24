@@ -1,0 +1,70 @@
+
+<DOC>
+<DOCNO>WT01-B06-55</DOCNO>
+<DOCOLDNO>IA053-000894-B002-9</DOCOLDNO>
+<DOCHDR>
+http://www.aaii.org:80/ci/val2art2.html 206.30.246.237 19970111222648 text/html 5395
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Saturday, 11-Jan-97 22:29:40 GMT
+Last-modified: Wednesday, 12-Jun-96 01:17:24 GMT
+Content-length: 5207
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>American Association of Individual Investors</title>
+
+<META HTTP-EQUIV="CVS-file"     CONTENT="$RCSfile: val2art2.html,v $">
+<META HTTP-EQUIV="CVS-revision" CONTENT="$Revision: 1.7 $">
+<META HTTP-EQUIV="CVS-date"     CONTENT="$Date: 1996/06/12 01:17:22 $ UTC">
+</head>
+
+<body background="../gif/aaiiback.gif">
+
+
+
+<P ALIGN="center">
+<A HREF="../map/head.map"><IMG SRC="../gif/head_comp.gif" ALT="header" WIDTH=600 HEIGHT=64 BORDER=0 ISMAP></A>
+<BR>
+<H2 ALIGN="center"> A Worksheet for Evaluating Stocks</H2>
+<hr>
+<STRONG>By John Bajkowski</STRONG><P>
+
+Fundamental stock valuation is a basic process performed by many of our members. While computerized tools exist to screen on fundamental factors for potential candidates, the number of computerized programs that assist in the valuation process remains small. <P>
+
+The AAII Journal started a Stock Investing Basics series in January of this year, which focuses on an aspect of stock valuation each month. Computerized Investing will accompany the series by developing a fundamental valuation spreadsheet template. The AAII Journal will present the basic valuation models, the theory behind the models, and walk readers through the process of basic valuation. We will take the models, add a few bells and whistles, and produce a valuation spreadsheet template. <P>
+
+The February 1994 AAII Journal presents a valuation worksheet that relies on historical average price-earnings ratios and dividend yields to arrive at a range of valuations for a security. Figures 1 and 2 on the following pages present a template that takes this worksheet and expands the model to include valuations based upon historical average multiples of price to sales, price to cash flow and price to book value. Adding additional valuation techniques does not necessarily lead to a better valuation; all of these valuations are basically helping to identify firms trading at prices that deviate from their historical norms. Different models enable you to analyze a larger range of company situations. For example, a dividend valuation will not work with a company that pays no dividends and a price-earnings approach fails when a company reports negative earnings. <P>
+
+<STRONG>Using the Spreadsheet</STRONG><P>
+
+The valuation spreadsheet is divided into four main sections. Cells that require user input are shaded. The very top contains basic company data such as the name, ticker, exchange and current stock data. The S&P 500 index data is entered and analyzed between rows 12 and 26. I used two sources for this S&P data--S&P Outlook, which provides a current and projected look at the earnings and dividends, and S&P Security Price Index Record from its Statistical Service, which provides a historical look at the S&P indexes. The data entered for the S&P 500 is much more detailed than that used in the AAII Journal article. We will use this data in a future issue to develop a valuation model that looks at the security multiples relative to the market multiples. <P>
+
+The raw company data is located in rows 29 through 35 and row 55. I used Value Line as the source for this data, which is a good choice for widely followed companies. S&P produces Corporate Reports (also know as tear sheets), which would cover a wider range of companies. Computerized databases such as MarketBase and Stock Investor could also be used, but would require some work on your part to convert the data to a per share format. <P>
+
+Columns J through L contain areas for estimating next year figures used in the valuations in Figure 2. Column J extends the most recent year's data assuming that it grows at the five-year growth rate. Columns K and L allow you to enter either your own estimates or estimates by other services such as Value Line. <P>
+
+Figure 2 displays the various valuations based upon the stock data entered in Figure 1. In future issues we will expand on these valuation techniques and explain their uses and limitations in greater detail. <P>
+
+<STRONG>Setting Up the Spreadsheet</STRONG><P>
+
+The formulas for the spreadsheet, which we have named VAL1, are found on page 6. Note that the labels for the spreadsheet will have to be entered from Figures 1 and 2. The formulas presented are for Lotus 1-2-3 for Windows. Formula adjustments are presented for earlier versions of Lotus 1-2-3 and Microsoft Excel. Earlier releases of Lotus 1-2-3 have traditionally treated cells containing labels as cells with a zero value. This treatment throws off functions such as counts and averages. In Lotus 1-2-3 for Windows, users can now mix numbers and labels in a range and get an accurate result. Microsoft Excel has always given users the option of how to treat labels in numerical functions. <P>
+
+John Bajkowski is editor of Computerized Investing and the financial analyst of the American Association of Individual Investors. <P>
+
+The VAL1 spreadsheet is in the software library under the fundamental analysis. <P>
+
+<HR>
+<p align=center><A HREF="../home.html">AAII Home</A> | <A HREF="../index.html">Index Page</A> | <A HREF="mailto:aaiimembr@aol.com">Email</a> | <A HREF="http://networth.galt.com">NETworth Home</A></p>
+
+<!TAIL>
+<HR>
+
+
+<!/TAIL>
+
+
+</body>
+</html>
+</DOC>

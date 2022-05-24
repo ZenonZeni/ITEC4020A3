@@ -1,0 +1,114 @@
+
+<DOC>
+<DOCNO>WT02-B11-194</DOCNO>
+<DOCOLDNO>IA087-000625-B037-119</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0068.html 130.91.195.242 19970122044146 text/html 4940
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:41:48 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 4769
+Last-modified: Sat, 30 Sep 1995 11:58:49 GMT
+</DOCHDR>
+<!-- received="Fri Sep 29 13:14:26 1995 EDT" -->
+<!-- sent="Fri, 29 Sep 1995 13:13:52 -0400" -->
+<!-- name="David Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="IP: Q&amp;A on the RSA/Cylink legal dispute" -->
+<!-- id="v02110134ac91d951a1e3@[130.91.88.102]" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: IP: Q&amp;A on the RSA/Cylink legal dispute</title>
+<h1>IP: Q&amp;A on the RSA/Cylink legal dispute</h1>
+David Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Fri, 29 Sep 1995 13:13:52 -0400</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#68">[ date ]</a><a href="thread.html#68">[ thread ]</a><a href="subject.html#68">[ subject ]</a><a href="author.html#68">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0069.html">David Farber: "IP: Committee of Ministers to Member States Concerning Problems"</a>
+<li> <b>Previous message:</b> <a href="0067.html">Prakriya: "ques.."</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+From: Jeff Barber &lt;jeffb@sware.com&gt;<br>
+Subject: Re: Q&amp;A on the RSA/Cylink legal dispute<br>
+<p>
+IANAL, but after a couple of hours of slogging through the arbitration<br>
+report, here's my layman's interpretation:<br>
+<p>
+-       Either both sides or neither side breached the agreement forming PKP<br>
+        (the arbitrators went out their way to avoid assigning blame)<br>
+<p>
+-       PKP is dissolved by mutual agreement.<br>
+<p>
+-       Cylink maintains control of the Stanford patents (Hellman-Merkle,<br>
+        Diffie-Hellman [others (?)])<br>
+<p>
+-       RSA maintains control of the MIT patents (RSA [others])<br>
+<p>
+-       It isn't clear to me whether Cylink maintained the right to use<br>
+        the RSA software in creating a product.  The arbitration order<br>
+        was as clear as mud on this point.  It is clearer that they<br>
+        maintained the right to *use the patented technology* covered by<br>
+        the MIT patents in the creation of a product.  In either case,<br>
+        it appears that their right does not extend to the point where<br>
+        they can sublicense the technology -- so it looks to me like<br>
+        Cylink can't sell you an RSA toolkit, for instance.<br>
+<p>
+-       RSA has no rights to license the Stanford patents.<br>
+<p>
+<p>
+RSA's FAQ (via baldwin@rsa.com) writes:<br>
+<p>
+<i>&gt;      A. The Panel's ruling was very specific. Everything it said about third</i><br>
+<i>&gt;      parties, including RSA customers who use software, refers to their need</i><br>
+<i>&gt;      for patent licenses. If you bought software from RSA and RSA itself had</i><br>
+<i>&gt;      the rights to make that software and license it to you, you don't need</i><br>
+<i>&gt;      a separate patent license; rights to the patents came with the product.</i><br>
+<i>&gt;      The Ruling also states, "RSA has a right to license its software."</i><br>
+<p>
+This answer is evasive.  RSA didn't give the complete sentence from the<br>
+arbitration panel's order.  It is:<br>
+<p>
+    "Therefore, after April 6, 1990, RSA has a right to license its<br>
+    (RSA's) software to third-parties but does not have the right to<br>
+    license such third-parties under the Stanford patents."<br>
+<p>
+So, their answer appears to be correct only if the RSA software doesn't<br>
+infringe the Stanford patents.  And that seems to be a matter of opinion.<br>
+Furthermore, the next sentence in the order continues:<br>
+<p>
+    "To the extent RSA provides code to third-parties which causes an<br>
+    infringement of a valid and enforceable claim of the Stanford patents,<br>
+    assuming the third party is not separately licensed under the Stanford<br>
+    patent [sic], nothing in this order shall prevent Cylink from pursuing<br>
+    its rights under the Stanford patents against such third party."<br>
+<p>
+<p>
+That's pretty clear to me folks, but make your own judgements.<br>
+<p>
+<p>
+<i>&gt;                                                                         If</i><br>
+<i>&gt;      you're using RSA's software -you didn't write your own- you don't need</i><br>
+<i>&gt;      a separate patent license under either the MIT or Stanford patents.</i><br>
+<p>
+Again, only to the extent that you're not infringing the Stanford patents.<br>
+<p>
+<p>
+So, pay your nickel, take your chances.  Does RSA's software infringe<br>
+the Stanford patents?<br>
+<p>
+(Of course these are my opinions, not my company's)<br>
+<p>
+<p>
+-- Jeff<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0069.html">David Farber: "IP: Committee of Ministers to Member States Concerning Problems"</a>
+<li> <b>Previous message:</b> <a href="0067.html">Prakriya: "ques.."</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

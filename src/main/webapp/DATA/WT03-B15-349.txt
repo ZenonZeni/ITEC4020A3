@@ -1,0 +1,165 @@
+
+<DOC>
+<DOCNO>WT03-B15-349</DOCNO>
+<DOCOLDNO>IA074-000483-B006-458</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icsurmst.html 128.125.48.102 19970125003731 text/html 9858
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:36:07 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 9627
+Last-Modified: Mon, 13 Jan 1997 17:13:00 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Quick Beginnings</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSURMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 20 Dec 1996 at 16:44:30                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Fri, 20 Dec 1996 16:44:14">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<p><img height=92 width=490 src="/Admin/docmast.gif" alt="Documentation">
+<BR>IBM Internet Connection Secure Server
+<p><cite>Quick Beginnings</cite>
+<BR>Version 4.2 for OS/2 Warp
+<p>GC31-8290-00
+<HR><H2><A NAME=ToC>Table of Contents</A></H2>
+<MENU>
+<P><B><LI><A NAME=ToC_1 HREF="icsur002.html#Header_1" >Welcome&#33;</A></B>
+<MENU>
+<LI><A NAME=ToC_2 HREF="icsur002.html#HDRROADMAP" >Information road map</A>
+<LI><A NAME=ToC_3 HREF="icsur002.html#HDRNEW42" >What's new in Version 4.2</A>
+</MENU></MENU>
+<HR><P><I><B><A NAME=ToC_4 HREF="icsur003.html#HDRPT1" >Part 1. The IBM Software Servers</A></B></I><BR>
+<MENU>
+<P><B><LI><A NAME=ToC_5 HREF="icsur003.html#HDREAGINT" >Chapter 1. Introducing IBM&#39;s Software Servers</A></B>
+<P><B><LI><A NAME=ToC_6 HREF="icsur004.html#HDRMOREAB" >Chapter 2. More about your server</A></B>
+<MENU>
+<LI><A NAME=ToC_7 HREF="icsur004.html#Header_7" >Installing and configuring the server</A>
+<LI><A NAME=ToC_8 HREF="icsur004.html#Header_8" >Using other programs with the server</A>
+<LI><A NAME=ToC_9 HREF="icsur004.html#Header_9" >Managing your server with Simple Network Management Protocol</A>
+<LI><A NAME=ToC_10 HREF="icsur004.html#Header_10" >Restricting access</A>
+<LI><A NAME=ToC_11 HREF="icsur004.html#Header_11" >Mapping resources</A>
+<LI><A NAME=ToC_12 HREF="icsur004.html#Header_12" >Logging requests and errors</A>
+<LI><A NAME=ToC_13 HREF="icsur004.html#Header_13" >Running the server as a caching proxy</A>
+<LI><A NAME=ToC_14 HREF="icsur004.html#Header_14" >Running the server with multiple IP addresses or virtual hosts</A>
+<LI><A NAME=ToC_15 HREF="icsur004.html#Header_15" >Using server-side includes</A>
+<LI><A NAME=ToC_16 HREF="icsur004.html#Header_16" >Customizing the server's error messages</A>
+<LI><A NAME=ToC_17 HREF="icsur004.html#Header_17" >Adding a search facility to your Web site</A>
+<LI><A NAME=ToC_18 HREF="icsur004.html#Header_18" >Using proxy authentication</A>
+</MENU></MENU>
+<HR><P><I><B><A NAME=ToC_19 HREF="icsur005.html#Header_19" >Part 2. Planning for and installing your server</A></B></I><BR>
+<MENU>
+<P><B><LI><A NAME=ToC_20 HREF="icsur005.html#HDRPLN" >Chapter 3. Planning for installation</A></B>
+<MENU>
+<LI><A NAME=ToC_21 HREF="icsur005.html#Header_21" >Check READ.ME</A>
+<LI><A NAME=ToC_22 HREF="icsur005.html#HDRHARDW" >Hardware requirements</A>
+<LI><A NAME=ToC_23 HREF="icsur005.html#HDRSOFTW" >Software requirements</A>
+<LI><A NAME=ToC_24 HREF="icsur005.html#HDRCOMPA" >Compatibility</A>
+<LI><A NAME=ToC_25 HREF="icsur005.html#HDRMIGISS" >Migration considerations</A>
+<MENU>
+<LI><A NAME=ToC_26 HREF="icsur005.html#Header_26" >CICS gateway</A>
+<LI><A NAME=ToC_27 HREF="icsur005.html#Header_27" >DB2 gateway</A>
+<LI><A NAME=ToC_28 HREF="icsur005.html#Header_28" >Imbeds directive</A>
+<LI><A NAME=ToC_29 HREF="icsur005.html#Header_29" >Proxy server and caching proxy server</A>
+<LI><A NAME=ToC_30 HREF="icsur005.html#Header_30" >Proxy authentication</A>
+<LI><A NAME=ToC_31 HREF="icsur005.html#Header_31" >Server IP Address</A>
+<LI><A NAME=ToC_32 HREF="icsur005.html#Header_32" >CHECKIN and CHECKOUT methods for the Enable directive</A>
+<LI><A NAME=ToC_33 HREF="icsur005.html#Header_33" >Accessory script directives</A>
+</MENU></MENU>
+<P><B><LI><A NAME=ToC_34 HREF="icsur006.html#HDRINS" >Chapter 4. Installing your server</A></B>
+<MENU>
+<LI><A NAME=ToC_35 HREF="icsur006.html#HDRINSTA" >Before you begin</A>
+<MENU>
+<LI><A NAME=ToC_36 HREF="icsur006.html#Header_36" >Choose the installation medium</A>
+<LI><A NAME=ToC_37 HREF="icsur006.html#HDRISITFRS" >Choose the type of installation to perform</A>
+</MENU>
+<LI><A NAME=ToC_38 HREF="icsur006.html#HDRFIRSTI" >Installing for the first time</A>
+<LI><A NAME=ToC_39 HREF="icsur006.html#HDRMIGOS2" >Migrating from a pre-V4R2 level server</A>
+<LI><A NAME=ToC_40 HREF="icsur006.html#HDRINSLIC" >Installing the secure server product license</A>
+<LI><A NAME=ToC_41 HREF="icsur006.html#HDRMIGPOS2" >Migrating from an export V4R2 level server</A>
+<LI><A NAME=ToC_42 HREF="icsur006.html#HDRMIGRAT" >Reinstalling the server</A>
+<LI><A NAME=ToC_43 HREF="icsur006.html#HDRAUTOINS" >Automating installation</A>
+<MENU>
+<LI><A NAME=ToC_44 HREF="icsur006.html#Header_44" >Remote attended installation</A>
+<LI><A NAME=ToC_45 HREF="icsur006.html#Header_45" >Remote unattended installation</A>
+</MENU>
+<LI><A NAME=ToC_46 HREF="icsur006.html#HDRWHAT" >What's next?</A>
+</MENU></MENU>
+<HR><P><I><B><A NAME=ToC_47 HREF="icsur007.html#Header_47" >Part 3. Using your server</A></B></I><BR>
+<MENU>
+<P><B><LI><A NAME=ToC_48 HREF="icsur007.html#HDRSTR" >Chapter 5. Starting to use your server</A></B>
+<MENU>
+<LI><A NAME=ToC_49 HREF="icsur007.html#HDRSTRSTO" >Starting the server</A>
+<MENU>
+<LI><A NAME=ToC_50 HREF="icsur007.html#Header_50" >Starting automatically from the OS/2 startup folder</A>
+<LI><A NAME=ToC_51 HREF="icsur007.html#Header_51" >Starting from the Internet Connection Secure Server icon</A>
+<LI><A NAME=ToC_52 HREF="icsur007.html#Header_52" >Starting from the command prompt</A>
+<LI><A NAME=ToC_53 HREF="icsur007.html#Header_53" >Starting multiple instances of the server</A>
+<LI><A NAME=ToC_54 HREF="icsur007.html#Header_54" >Restarting from the Internet Connection Secure Server Window</A>
+</MENU>
+<LI><A NAME=ToC_55 HREF="icsur007.html#Header_55" >Stopping the server</A>
+<LI><A NAME=ToC_56 HREF="icsur007.html#HDRVIEWFP" >Viewing your server's Front Page</A>
+<LI><A NAME=ToC_57 HREF="icsur007.html#HDRWHTNXT" >What's next?</A>
+</MENU>
+<P><B><LI><A NAME=ToC_58 HREF="icsur008.html#HDRINF" >Chapter 6. Obtaining additional information</A></B>
+<MENU>
+<LI><A NAME=ToC_59 HREF="icsur008.html#Header_59" >Viewing online information</A>
+<MENU>
+<LI><A NAME=ToC_60 HREF="icsur008.html#Header_60" >Viewing online help</A>
+<LI><A NAME=ToC_61 HREF="icsur008.html#HDRVHTMLB" >Viewing HTML books</A>
+</MENU>
+<LI><A NAME=ToC_62 HREF="icsur008.html#Header_62" >Printing and ordering books</A>
+<MENU>
+<LI><A NAME=ToC_63 HREF="icsur008.html#Header_63" >Printing books from the Web site</A>
+<LI><A NAME=ToC_64 HREF="icsur008.html#Header_64" >Ordering books</A>
+</MENU></MENU></MENU>
+<HR><P><I><B><A NAME=ToC_65 HREF="icsur009.html#Header_65" >Part 4. Appendixes</A></B></I><BR>
+<MENU>
+<P><B><LI><A NAME=ToC_66 HREF="icsur009.html#HDRCIDSYSL" >Appendix A. Installing with SystemView</A></B>
+<MENU>
+<LI><A NAME=ToC_67 HREF="icsur009.html#Header_67" >Overview</A>
+<LI><A NAME=ToC_68 HREF="icsur009.html#Header_68" >Copying the Internet Connection Server to the Code Server</A>
+<LI><A NAME=ToC_69 HREF="icsur009.html#Header_69" >Adding the Internet Connection Server to the Software Library</A>
+<LI><A NAME=ToC_70 HREF="icsur009.html#HDRCONFSR" >Configuring the Internet Connection Server</A>
+<LI><A NAME=ToC_71 HREF="icsur009.html#Header_71" >Installing the Internet Connection Server on a Remote Server Workstation</A>
+</MENU>
+<P><B><LI><A NAME=ToC_72 HREF="icsur010.html#HDRNOTICES" >Appendix B. Notices</A></B>
+<MENU>
+<LI><A NAME=ToC_73 HREF="icsur010.html#HDRTRADE" >Trademarks</A>
+</MENU>
+<P><B><LI><A NAME=ToC_74 HREF="icsur011.html#HDRGLO" >Appendix C. Glossary</A></B>
+<P><B><LI><A NAME=ToC_75 HREF="icsur012.html#HDRBIB" >Appendix D. Bibliography</A></B>
+<MENU>
+<LI><A NAME=ToC_76 HREF="icsur012.html#Header_76" >For AIX</A>
+<LI><A NAME=ToC_77 HREF="icsur012.html#Header_77" >For HP-UX</A>
+<LI><A NAME=ToC_78 HREF="icsur012.html#Header_78" >For OS/2 Warp</A>
+<LI><A NAME=ToC_79 HREF="icsur012.html#Header_79" >For Solaris</A>
+<LI><A NAME=ToC_80 HREF="icsur012.html#Header_80" >For Windows NT</A>
+<LI><A NAME=ToC_81 HREF="icsur012.html#Header_81" >Related publications</A>
+</MENU></MENU><HR><P>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icsur002.html">Next Page</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

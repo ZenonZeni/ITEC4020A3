@@ -1,0 +1,36 @@
+
+<DOC>
+<DOCNO>WT01-B02-48</DOCNO>
+<DOCOLDNO>IA054-000904-B031-452</DOCOLDNO>
+<DOCHDR>
+http://stargate.jpl.nasa.gov:1083/document/document_form.htm 137.79.108.182 19970210184627 text/html 1290
+HTTP/1.0 200 OK
+Date: Mon, 10 Feb 1997 18:45:12 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<TITLE>Structured Field Search for Document Titles</TITLE>
+<img src="/pix/greengrad.gif" alt="- ">
+<H1>Structured Field Search for Document Titles</H1>
+<img src="/pix/greengrad.gif" alt="- ">
+<P>Enter a word or words in the search dialog.
+For best results, use as many words as you think might apply.
+A maximum of 100 results will be returned, ranked by how well they match your query. 
+You can read more about <A HREF="/intro.htm#sf">structured field search</A> in the Introduction. 
+<FORM METHOD="POST" ACTION="/cgi-bin/sf.pl">
+<P><INPUT TYPE="hidden" NAME="src" VALUE="document">
+<PRE>
+<A HREF="/cgi-bin/getinfo.pl?dd:TITLE">TITLE</A>....................<INPUT TYPE="text" NAME="title" >
+<A HREF="/cgi-bin/getinfo.pl?dd:AUTHOR_NAME">AUTHOR_NAME</A>..............<INPUT TYPE="text" NAME="f2-set">
+<A HREF="/cgi-bin/getinfo.pl?dd:SESSION_DATE">SESSION_DATE</A>.............<INPUT TYPE="text" NAME="f4-set">
+<A HREF="/cgi-bin/getinfo.pl?dd:SUBJECT_TYPE">SUBJECT_TYPE</A>.............<INPUT TYPE="text" NAME="f3-set">
+</SELECT>
+<INPUT TYPE="submit" VALUE="Start Search">
+<INPUT TYPE="reset">
+</PRE>
+</FORM><HR><A HREF="/">
+<IMG SRC="/html/back_ig.gif">
+</A> The IGARSS Home Page
+</BODY>
+
+</DOC>

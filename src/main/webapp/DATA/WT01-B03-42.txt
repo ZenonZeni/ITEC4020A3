@@ -1,0 +1,72 @@
+
+<DOC>
+<DOCNO>WT01-B03-42</DOCNO>
+<DOCOLDNO>IA097-001048-B044-27</DOCOLDNO>
+<DOCHDR>
+http://mspiggy.etl.noaa.gov:80/acoust/acoust.htm 140.172.33.2 19970215104612 text/html 6136
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 05:43:58 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 11 Nov 1996 01:40:28 GMT
+Content-length: 5962
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> Acoustic Monitoring of the Ocean</TITLE>
+</HEAD>
+<BODY bgcolor="#88bbbb">
+<font face=arial>
+<a href="http://www.doc.gov">Commerce</a> / <a href="http://www.noaa.gov">NOAA</a> / <a href="http://www.oar.noaa.gov">OAR</a> / <a href="http://www.erl.noaa.gov">ERL</a> / <a href="http://www.etl.noaa.gov">ETL</a> / <a href="http://www1.etl.noaa.gov">Oceans</a> / <strong>Acoustic</strong><p>
+
+
+
+
+<center><h1><font color="ffffff">Acoustic Monitoring of the Ocean</font><br></h1><img src="/gifs/3dline.gif"></center><p>
+<blockquote>
+<img src="/gifs/why.gif"> It has been said that we know less about the ocean depths than about the surface of the moon. Yet, deep-ocean currents and temperature structure affect not only long-term global and regional climate, but also interannual weather patterns and the distribution of nutrients upon which all marine life depends. NOAA's job is to understand and forecast these influences. Because the ocean is practically opaque to all electromagnetic waves, the job of remotely probing the vast ocean interior falls upon the science of <strong>acoustic oceanography</strong>. <p>
+
+<h4>Why sound? </h4>Two properties of sound transmission in water make it especially suitable for remotely sensing the ocean interior. First, variations with time of the speed of sound in water (which is five times faster than in air) depend mainly on the water's temperature. Second, the ocean's <a href="gifs/sofar.jpg">sound channel</a> conducts low-frequency sound over global distances.<p>
+
+<h4>The Challenge: </h4>Acoustic oceanography has been issued an urgent challenge - to find out if there is any long-term trend in deep-ocean temperatures that might be traced to a human-induced greenhouse effect. The moderating effect of the oceans on <strong>global warming</strong> is a critical uncertainty in our understanding of how the climate machine works. A program called <a href="http://atocdb.ucsd.edu/index.html"><b>Acoustic Thermometry of Ocean Climate</b></a> (ATOC) is now carrying out long-range acoustic measurements in the ocean to learn more. ETL's Ocean Remote Sensing Division addresses some of the theoretical problems that must be solved before these and other acoustic measurements in the ocean can be correctly interpreted.<p><hr size=4>
+
+
+
+<h3>Monitoring Heat Flux Through the Fram Strait</h3>
+<a href="gifs/fram.jpg"><img src="gifs/fram200.jpg" width=200 height=243 border=2 align=right hspace=20></a>Greenhouse warming in the Arctic is expected to be 3 to 4 times that at lower latitudes. <b>ATOC-ARCTIC</b> is a program to monitor acoustically the net <b>heat flow between the Atlantic Ocean and the Arctic Ocean</b> through the Fram Strait, between Greenland and Spitzbergen. Containing currents that flow both into and out of the Arctic Ocean, the Strait is a crucial region to monitor for the effects of climate change. A monitoring scheme is being designed that will transmit low-frequency acoustic signals across the Strait to measure the average temperature, and acoustic scintillation techniques will measure transverse current. Propagation modeling, already underway, shows the acoustic environment to be very complex with strong mode coupling. A vertical <b>parametric array</b> will be required to obtain fine depth resolution. <P>
+For further information, contact Prof. Konstantin Naugolnykh at <a href="mailto: knaugolnykh@etl.noaa.gov">knaugolnykh@etl.noaa.gov</a>
+
+
+<p><hr size=4>
+<h3>Propagation Modeling Using Three-Dimensional Ray Tracing</h3>
+
+We have developed a general-purpose ray-tracing computer program, called <strong>HARPO</strong>. Under conditions where ray theory is valid, it can <strong>simulate underwater acoustic propagation</strong>, including the computation of acoustic travel time, for model oceans whose temperature and currents vary in <strong>three dimensions</strong>. This FORTRAN program for several platforms, including PCs, is described by <a href="/pubs.htm#harpo">Jones et al.</a> and can be downloaded from our <a href="ftp://www1.etl.noaa.gov/pub/raytracing">FTP site</a>.  <center><img src="gifs/rays.gif" width=484 height=60></center><hr size=4>
+
+
+<h3>Ocean Acoustic Tomography Inversion</h3>
+
+<a href="gifs/tomog.jpg"><img src="gifs/tomog179.jpg" width=179 height=177 border=2 align=left hspace=20></a>Ocean acoustic tomography is a method for estimating the temperature and current structure <strong>inside</strong> a volume of ocean by measuring acoustic travel times along various <strong>paths through</strong> the volume. There are several mathematical methods for "inverting" the travel-time measurements to obtain interior structure. Some assume a "background" structure and use the measurements to determine deviations from the assumed background. These inversion methods are called "perturbative," and their results are sometimes sensitive to details of the assumed background model. One inversion method developed in ETL is "<strong>nonperturbative</strong>," that is, it does not assume a background structure. The technique, based on Abel transforms, is described by <a href="/pubs.htm#nonpert">Jones et al</a>. The inversion program can be downloaded from our <a href="ftp://www1.etl.noaa.gov/pub/tomography">FTP site</a>.<p><hr size=4>
+<h3>Other areas of current ocean acoustics research:</h3>
+
+<ul>
+<li><h3>Horizontal Refraction (modal) Tomography</h3></li>
+<li><h3>WKB-Based Tomography Inversion</h3></li>
+<li><h3>Acoustic Propagation Modeling for ATOC -- Pacific Ocean</h3></li>
+<li><h3>Modeling the Impact of Mesoscale Ocean Structures</h3></li>
+<li><h3>Non-PE Propagation Model Code (MOSCOW)</h3></li>
+</ul>
+
+</blockquote>
+<HR size=4>
+
+<center><a href="/index.html">Ocean Remote Sensing Home Page</a> | <a href="http://www.etl.noaa.gov">ETL Home Page</a></center>
+
+
+<hr size=4>
+<SCRIPT>
+document.write ("Last updated on " + document.lastModified)
+</SCRIPT>
+
+</BODY>
+</HTML>
+</DOC>

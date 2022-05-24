@@ -1,0 +1,65 @@
+
+<DOC>
+<DOCNO>WT03-B14-81</DOCNO>
+<DOCOLDNO>IA057-000944-B026-126</DOCOLDNO>
+<DOCHDR>
+http://gw.sentin.com:80/mailtaw.htm 206.26.168.119 19970109200759 text/html 2588
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Thursday, 09-Jan-97 20:15:39 GMT
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+  <TITLE>Beta Evaluation Request</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" text="#000000">
+<FORM METHOD="POST" ACTION="http://www.esoftware.com/cgi-bin/EMailForm">
+  <INPUT TYPE="hidden" NAME="FaxBackName" VALUE="tawee">
+  <INPUT TYPE="hidden" NAME="trial1" VALUE="ftp://ftp.environ.com/pub/ess/products/associates/tawtrial.exe">
+  <INPUT TYPE="hidden" NAME="trial2" VALUE="ftp://ftp.environ.com/pub/ess/products/associates/tawtrial.bin">
+  <INPUT TYPE="hidden" NAME="subject" VALUE="Transporter Associate Beta Evaluation">
+  <INPUT TYPE="hidden" NAME="Distributor" VALUE="Sentinel"> <B><U>TRIAL
+  </U></B><U><B>SERIAL NUMBER REQUEST</B></U><BR>
+  We are happy to provide you with a special beta version of &nbsp;Transporter
+  Associate v2.0 for Windows/Windows 95. Please provide <U>ALL</U> of the following
+  information.
+  <P>
+  <B>Your e-mail address is used to send you a serial # and password.
+  &nbsp;</B>After filling out the form, you can download the beta trial version.
+  Feel free to contact us at
+  <B><A HREF="mailto:sentinel@traveller.com">support</A></B> or 205/534-9800 for
+  further assistance.
+  <P ALIGN=Left>
+  If your prefer to have diskettes and a manual shipped, make a note in the
+  comments below. The cost is $49.95 plus shipping/handling.<BR>
+  <PRE><TABLE BORDER CELLPADDING="2"><TR><TD><P ALIGN=Left>Name:
+</TD><TD><INPUT SIZE="40" MAXLENGTH="100" NAME="Name" TYPE="text">
+</TD></TR><TR><TD>Company:
+</TD><TD><INPUT SIZE="40" MAXLENGTH="100" NAME="Company" TYPE="text">
+</TD></TR><TR><TD>Mailing Address: 
+</TD><TD><INPUT SIZE="40" MAXLENGTH="100" NAME="Address" TYPE="text">
+</TD></TR><TR><TD>City: 
+</TD><TD><INPUT SIZE="20" NAME="City" TYPE="text">
+</TD></TR><TR><TD>State/Province:
+</TD><TD><INPUT SIZE="15" NAME="State" TYPE="text">
+</TD></TR><TR><TD>ZIP:
+</TD><TD><INPUT SIZE="15" NAME="Zip" TYPE="text">
+</TD></TR><TR><TD>Country:
+</TD><TD><INPUT SIZE="15" NAME="Country" TYPE="text" VALUE="USA">
+</TD></TR><TR><TD>Phone Number:
+</TD><TD><INPUT SIZE="40" MAXLENGTH="100" NAME="Phone" TYPE="text">
+</TD></TR><TR><TD>Fax Number:
+</TD><TD><INPUT SIZE="40" MAXLENGTH="100" NAME="Fax" TYPE="text">
+</TD></TR><TR><TD>E-mail:
+</TD><TD><INPUT SIZE="40" MAXLENGTH="100" NAME="username" TYPE="text">
+</TD></TR></TABLE> 
+Comments (or special instructions):
+<TEXTAREA NAME="Comments" ROWS="3" COLS="60"></TEXTAREA>
+</PRE>
+  <P>
+  <INPUT TYPE="submit" VALUE="Submit Request"> 
+  <INPUT TYPE="reset" VALUE="Reset">
+</FORM>
+</BODY></HTML>
+</DOC>

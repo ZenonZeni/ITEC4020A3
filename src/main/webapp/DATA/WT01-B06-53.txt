@@ -1,0 +1,168 @@
+
+<DOC>
+<DOCNO>WT01-B06-53</DOCNO>
+<DOCOLDNO>IA053-000894-B001-427</DOCOLDNO>
+<DOCHDR>
+http://www.aaii.org:80/ci/neural1.html 206.30.246.237 19970111222626 text/html 22060
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Saturday, 11-Jan-97 22:29:22 GMT
+Last-modified: Wednesday, 12-Jun-96 01:16:53 GMT
+Content-length: 21871
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>American Association of Individual Investors</title>
+
+<META HTTP-EQUIV="CVS-file"     CONTENT="$RCSfile: neural1.html,v $">
+<META HTTP-EQUIV="CVS-revision" CONTENT="$Revision: 1.6 $">
+<META HTTP-EQUIV="CVS-date"     CONTENT="$Date: 1996/06/12 01:16:51 $ UTC">
+</head>
+
+<body background="../gif/aaiiback.gif">
+
+
+
+<P ALIGN="center">
+<A HREF="../map/head.map"><IMG SRC="../gif/head_comp.gif" ALT="header" WIDTH=600 HEIGHT=64 BORDER=0 ISMAP></A>
+<BR>
+<H2 ALIGN="center"> Developing a Neural Network System
+</H2>
+<hr>
+<STRONG>by Howard Bandy</STRONG><P>
+
+A neural network is a mathematical model that processes information and generates some form of response based upon the relationship or pattern identified within the data. Higher forms of life, such as humans, possess complex neural networks in the form of a nervous system. Neural networks also exist as computer-based systems. A neural network consists of a group of relatively simple units, called neurons, that work cooperatively toward solving complex tasks such as classification or prediction. <P>
+
+This article, the first of two, addresses some of the basic issues faced when planning to develop a trading or forecasting system based upon a neural network. <P>
+
+Investors typically build trading systems by developing a strategy around one or more areas, such as fundamental or technical analysis. The points covered in this article apply equally to any underlying area whether the system uses fundamental data, technical data, relative performance data, or a combination of the three. <P>
+
+Several decisions need to be made before the neural network model (or, for that matter, any other type of model) is designed. First, you need to select which market to trade stocks, bonds, mutual funds, options, or futures. You then select the time frame for trading, whether intra-day; short-term positions, with decisions made intra-day; short-term positions, with decisions made after the market close; intermediate-term positions, with decisions made after the market close; or long-term positions of months to years. The trading style is the third decision to make. You might choose to be invested most of the time and use the model to determine which alternative has the most potential. Or you may prefer timing buy, hold, and sell signals for a specific issue. A third option might be to identify situations that occur infrequently, but that have very high reward-to-risk ratios. <P>
+
+Each decision will result in unique requirements for network design, data collection, trading system signal generation, and trading system operation. <P>
+
+
+<STRONG>Neural Network Basics</STRONG><P>
+
+The basic processing unit of a neural network is the neuron (or node). Each neuron receives input(s), sometimes along with feedback, and produces an output signal(s). Figure 3 illustrates a typical, but somewhat simplified, neural network used to model a financial time series. <P>
+
+A neural network typically has several layers. The input layer contains a neuron corresponding to each input (independent) variable. The output layer contains a neuron for each variable being predicted (dependent variable). While it is possible for a single neural network to predict more than one thing, it is usually better to design a network with exactly one output neuron. <P>
+
+The hidden layer contains neurons that are connected to both the input layer and the output layer. It is possible for a neural network to contain multiple hidden layers, but a three-layer network will be adequate for most financial forecasting applications. <P>
+
+The development of a neural network model has three basic steps. First, a portion of the historical data available is processed by the neural network modeling tools as they search for and learn the general relationships among the variables. Next, a (usually different) portion of the historical data is tested to see how well the relationships hold. Finally, the network is used to generate investment signals from current data. <P>
+
+
+<STRONG>Defining the Relationship</STRONG><P>
+
+A neural network is a mathematical model of the relationships between a dependent variable (output) and several independent variables (inputs). Conceptually, there are two categories of relationships: functional relationships and statistical relationships. <P>
+
+Functional relationships refer to those relationships that are based on well-defined principles. For example, when modeling the production flow at a chemical manufacturing facility, the laws of chemistry and physics define the underlying process. <P>
+
+Statistical relationships are not based on well-defined principles. They are instead based upon sets of data that exhibit different degrees of variation. Most financial relationships are of the statistical type. <P>
+
+A key difference between these two types of relationships is the degree to which variations around the predicted outcome will be observed. Functional relationships tend to have a low degree of variation, whereas statistical relationships tend to have a much larger degree of variation. <P>
+
+Creating a neural network model consists of making many guesses about the underlying real-world relationship, then testing to see if the guess is sufficiently accurate or profitable. One implication of the statistical nature of financial relationships is that it will be difficult or impossible to know when the best model has been found. The dynamic nature of financial relationships also complicates the statistical modeling since market relationships can change over time. <P>
+
+Design issues include the definition of what is to be predicted (the dependent variable) as well as the determination of which inputs (independent variables) will be used to make the prediction. These two areas should be defined as precisely as possible. For example, the dependent variable might be defined as the percentage change in the price of the OEX cash index over a one-week period of time, and the independent variables might be defined as including each of the past five days' values of the 15-day slow stochastic indicator of closing price. <P>
+
+If possible, all variables, independent and dependent, should be expressed in dimensionless terms. For example, use the price-to-earnings ratio, which is a dimensionless number, rather than earnings, which has the dimension of dollars. Also, changes are usually better expressed as percentages than as differences. <P>
+
+In defining the dependent variable to be predicted, I recommend that it be continuous (such as percentage of price change) rather than discrete (such as buy, hold, sell). Discrete variables, which can be arranged in a rank order, can sometimes be coded in such a way that they can be treated as continuous variables. For example, buy, hold, sell could be translated to +1, 0, -1. Be careful, however, with discrete variables that do not have rank order. For example, the days of the week usually cannot be translated to 1, 2, ..., 7. <P>
+
+It is easier to forecast the change in a moving average of daily closing prices than to forecast the change in raw daily closing prices. However, the signals that result from forecasting the change in a moving average will need to be carefully tested against the actual trading prices to see if the signaled trades are profitable. <P>
+
+
+<STRONG>Testing for Profitability</STRONG><P>
+
+Many investors exploring neural networks already have a trading system of some kind that works for them. After becoming familiar with the neural network tools, it's a good idea to model a system that you know works. This approach has several major advantages. First, you already understand the system its inputs, its outputs, some of its interrelationships, and the feel it has in given situations. Second, the system is known to work, so you can concentrate on implementing the neural network version. Third, the rate of return under realistic conditions is known, so there is a benchmark against which to measure. <P>
+
+Early in the design phase, consider how you will evaluate the model. Obtain from a vendor, or create in a spreadsheet or programming language, a profitability test routine. Assume for a moment that the model will be perfect in predicting the dependent variable. Using realistic values for commissions and for slippage due to delay between signal generation and order execution, evaluate the profitability of the model. Examine the running balance of the equity, profit, and loss. Determine maximum drawdown, reward to risk ratios, number of consecutive losses, and other metrics that you find useful. <P>
+
+Decide before proceeding any further if the results of trading this model are acceptable and consistent with your trading and investment plans. These results are the upper limit of profitability for this system and model. Because of the high amount of short-term variability in the price of the issue being traded, the correlation coefficient between the ideal output of the model and the typical neural net model will probably be less than 0.50, and the associated profitability will be much less than the upper limit. <P>
+
+<STRONG>Organizing Input Data</STRONG><P>
+
+End-of-day data will be sufficient for models used to trade all time frames except intra-day. Intra-day trading will require tick-by-tick or very short duration bars of series such as price, volume, and open interest of the issue being traded and also any of the intermarket variables which are being used. <P>
+
+It is important that you use the same type of data for predicting as for training. For example, long-term market predictions may use economic indicators. If the model includes monthly housing starts, use initial release figures for both training and prediction, do not use final revisions for training and initial releases for prediction. <P>
+
+Accuracy and consistency are equally important. Visually check both the data as it occurs in time order and its distribution. Examine and verify or correct any anomalies. <P>
+
+The time period being modeled is limited to the period that has valid data for all independent variables. If most of the data starts in 1989, but one particular item begins in 1991, then you have three choices. One, collect the missing data for that one item. Two, drop the variable with the short data from the set of independent variables. Three, begin everything from 1991. Do not extend the short data set backward with simulated or constant data. <P>
+
+If futures contracts are being used, pay careful attention to the transition periods that occur when contracts expire. Either the model must be very carefully designed, or a continuous contract must be created. <P>
+
+Create historical data files to be used in model building. There will be a lot of data for each model. It will be helpful to create a separate disk directory for each model, and keep all related data and network files in that directory. <P>
+
+As necessary, convert data reported at longer intervals (say, monthly) and shorter intervals (say, daily) to the interval length which will be used in the model (say, weekly). Arrange all data in time sequence and verify that all variables have exactly the same number of data points and that all dates agree. There must be no extra or missing values. Also verify that each observation (row) represents a set of data that would be available at the same time. <P>
+
+
+<STRONG>The Numbers Issue</STRONG><P>
+
+How many data points should you use? The short answer is as many as possible. The longer answer requires a bit of analysis and a word of caution. Before any modeling runs begin, the historical data must be partitioned into three data sets. A suggested approach is to partition the data as follows: 60% for training the model, 20% for testing the model periodically during training, and 20% for verifying the model with out-of-sample data. This last set is sometimes called the production data set. <P>
+
+During the training of the neural network, the data in the training set will be thoroughly examined and the network will learn or generalize the relationship between the dependent and independent variables. At intervals, either under the control of the network development system (the program) or of the developer (you), the partially trained network will be presented with the independent variables in the test set and will make predictions of the dependent variable, which is known. The goodness of fit of the predictions will be measured. Based upon the fit, modifications to the network might be made and training continued using the training set. The fact that the test set was examined (perhaps many times) before the model reached its final state implies that the test set is partially incorporated into the training set. <P>
+
+Consequently, a final test of the finished network is made using the production data set. The production set should include at least one block of data longer than the prediction period. If, for example, the model predicts five days ahead, the production data set might include one or more 10-day periods. Providing that the goodness of fit on these periods is adequate, then the model might be useful. If not, further modifications to the model will be required, as will a new production data set. <P>
+
+Think of the total number of input neurons plus hidden neurons as similar to the number of degrees of freedom in a regression model. By keeping this total low relative to the number of observations in the data set, you reduce the likelihood that the model will memorize a relationship. <P>
+
+Since it is difficult to know specifically which variables will be important (statistically significant), there is a tendency to create a lot of independent variables and let the network sort them out. Just as in regression analysis, when the number of independent variables (columns of inputs) becomes large relative to the number of observations (rows of data in the training set), the fit for the training set increases and the memorization of details dominates the generalization. Try to have at least 10 to 20 times as many observations in the training set as the total number of input neurons plus hidden neurons. <P>
+
+Two issues come into play in determining how many data points one should have: completeness of data and proper time frame. Data must be organized such that a balance exists between these two aspects. <P>
+
+On the one hand, try to gather as many observations into the training set as possible so that the model is not overfit to the data. The training set should include instances of the entire range of possible observations that are anticipated in the future. For example, in order to have the model signal an upcoming situation similar to October 1987, there must be observations similar to that period in the training set. Another example would be if the network models asset allocation throughout periods of economic expansion and contraction. In that case, there must be data representing at least one (and preferably more) full cycle. <P>
+
+On the other hand, too much data might lead the network to reach the wrong conclusion. If the relationship being modeled changes as time passes, older observations contribute nothing (or, worse, wrongly) to the model. In order for the modeling process to be successful, the underlying real-world relationship must hold for the entire period being modeled. <P>
+
+A simple example will illustrate why this is true. Figure 4 shows a function of time that is a simple quadratic relation. But assume that the modeler does not know that. If the relationship is guessed to be linear, then the best straight line will be fit to the data being modeled. If all 200 data points are used, the line will not predict future price well. However, if only 20 or so data points are used, the straight line will be a reasonable approximation for a short time into the future. By sliding the 20-data-point window forward periodically, the linear guess is sufficient. If the relationship is guessed to be quadratic, then the model will fit all 200 data points and will not need to be retrained as long as the parameters of the quadratic function remain the same. <P>
+
+There are some implications. In order to use many independent variables, there must be many observations so the model does not overfit the data. If many observations are used, the underlying relationship must remain unchanged. If that relationship is found, the model will be valid for a long period of time until something in the relationship changes. On the other hand, if the relationship is thought to change quickly, then the number of observations must cover a period of time no longer than the period over which the relationship can be profitably approximated. Limiting the number of observations limits the number of independent variables. And the guess regarding the relationship must be good. If the model approximates the underlying relationship for a short period of time, then it must be periodically retrained or rebuilt. <P>
+
+Consider the following example to get a feel for the kind of numbers a network might incorporate. Assume the following: daily data will be used, with about 260 trading days in a year; the underlying relationship being modeled has not changed greatly in 10 years; the next few years will not differ greatly from the past 10 years; daily data for all variables is available for the past 10 years; and one of the independent variables will be a 200-day moving average. <P>
+
+The total data set consists of 2,600 observations. Reserving the first 200 to initialize the moving average leaves 2,400 to partition into training, test, and production sets of 1,440, 480, and 480, respectively. The production set could be a single block of the most recent 22 months, or it could be selected, scattered blocks. The test set could also be either a single block or scattered smaller blocks (as small as a single day). <P>
+
+If the number of observations in the training set should be 10 to 20 times the total number of neurons, about 70 to 140 neurons can be safely used. Assuming they are in the ratio of I : 2 x (SQRT I) : 1 for input layer, hidden layer, and output layer, respectively, where I is the number of input neurons, the number of neurons in the input layer can be up to about 55 to 115. <P>
+
+
+<STRONG>Transforming & Preprocessing the Data</STRONG><P>
+
+Neural networks rarely process raw data. The raw data typically must be transformed before giving it to the network. The purpose of a transformation is to increase the usefulness of the information contained in the time series being transformed. Typical transformations include calculating various ratios, smoothing the series by computing moving averages, scaling, and normalizing. <P>
+
+It is helpful to plot and visually examine the distribution of each variable. If the distribution has outliers, they will strongly affect the model. Trimming the distribution so that outliers are brought toward the mean will usually improve the model. One way this can be accomplished is by calculating the mean and standard deviation of each variable, then creating a new variable whose upper and lower limits are some number of standard deviations from the mean. Values such as 1.50, 1.67, or 2.00 standard deviations are useful. Recall from statistics that 2 standard deviations plus or minus from the average include about 95% of the range of a normally distributed variable. Try several values and look at the resulting distributions. Figure 5 compares the untrimmed one-day percentage change in closing price of the S&P 500 with the same data trimmed to 1.67 standard deviations. Notice how all changes beyond 1.4% have been set to 1.4%. These observations still participate in the model as being days of large change, but they do not distort the model as they would if left untrimmed. <P>
+
+Because of the manner in which they are calculated, some data series that always fall within a well-defined range are self-trimming and will not require further transformation. An example is the stochastic oscillator that always moves within a range of 0.0 to 1.0. When in doubt, create both versions and experiment. <P>
+
+When creating transformations, be careful not to cheat. Neural networks are extremely good at detecting explicit relationships calculated into the transformed variables. For example, if price levels are used rather than percentage changes and simple moving averages are included as transformed variables and if the test data set consists of a random selection of observations, then the network will learn the relationship between the raw price and the average price. The fit on the training set and the short periods in the test set will be excellent, but the predictions for longer periods of unseen data will be poor. <P>
+
+The process of imagining and creating transformations of time series is called preprocessing. The majority of the modeling effort is spent in this area. <P>
+
+
+<STRONG>Summary</STRONG><P>
+
+This article discussed about half of the issues pertaining to the development of neural network investment/trading systems. We have covered the basic structure of a neural network. The next issue of Computerized Investing will feature the second half of this series. It will cover topics including network design issues, network training, network validation, and actual implementation. <P>
+
+<HR>
+Dr. Howard Bandy began computing and data analysis in 1958. His education is in areas of applied mathematics, physics, engineering and computer science. He now devotes full-time to developing and evaluating computer-based trading systems. <P>
+<HR>
+
+
+<p align=center><A HREF="../home.html">AAII Home</A> |
+<A HREF="../index.html">Index Page</A> | <A HREF="mailto:aaiimembr@aol.com">Email</a> |
+<A HREF="http://networth.galt.com">NETworth Home</A></p><hr>
+<!TAIL>
+
+
+<!/TAIL>
+
+
+
+
+
+</body>
+</html>
+</DOC>

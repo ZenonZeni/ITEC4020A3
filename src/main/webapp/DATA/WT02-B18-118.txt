@@ -1,0 +1,179 @@
+
+<DOC>
+<DOCNO>WT02-B18-118</DOCNO>
+<DOCOLDNO>IA089-000956-B030-114</DOCOLDNO>
+<DOCHDR>
+http://lagavulin.ltid.inpe.br:80/html/str.html 150.163.69.1 19970208060609 text/html 8137
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Saturday, 08-Feb-97 06:01:18 GMT
+Content-Type: text/html
+Content-Length: 7933
+Last-Modified: Monday, 18-Sep-95 19:10:49 GMT
+</DOCHDR>
+<HTML>
+<TITLE>INPE's 1/4" TAPES FORMAT</TITLE>
+<H1><HR>INPE's 1/4" Tapes Format<HR>
+<H2>INTRODUCTION</H2></H1>
+INPE distributes  the digital images  acquired by remote  sensing  satellites in two distinct formats : in the Super-Structure (also known as LTWG or CEOS) format or in Fast-Format (EOSAT).These two formats are described in manuals wich are distributed to the users along with the magnetic tapes.Their description applies basicaly to 1/2" tapes. For data recorded in 1/4" tapes, the format of the physical data recording differs slightly.
+In this document the format differences between 1/2" and the 1/4" are pointed out.
+<pre>
+<H3>      </H3>
+</pre>
+<H1><H2>BLOCKS AND RECORDS</H2></H1> 
+This document uses the terminology "blocks" and "records",wich are defined below.
+BLOCK is set of data recorded in a tape using a single tranfer. The blocks, in the tapes, are separeted by "blank" spaces (IRG: inter-record gaps). A block may contain one or more RECORDS. 
+RECORD is a logic set of data, for instance, a header or an image line.
+The manuals describing the LTWG and Fast-Format do not make any distinction between blocks and records : in the 1/2" tapes, each block contains just one record and, hence, the definitions get mixed up.
+In the 1/4" tapes, however, this distinction is important to understand the recording format.
+<pre>
+<H3>        </H3>
+</pre>
+<H1><H2>1/4" TAPES FORMAT</H2></H1>
+The records in the 1/4" tapes are exactly the same as  those in the 1/2" tapes, as described in their manuals. However, in the 1/4" tapes, the records concentrate in blocks. The method of concatenation, and the size of the blocks, are decribed below : 
+<OL>
+<LI>Blocks size<p>
+The blocks always have the same physical size, multiple of 512 bytes, and never exceed 16 kbytes.<H5>   </H5>
+<LI>Concatenation of records in blocks<p>
+The logical records are concatenated within the tape's physical blocks. Each logical record is completely contained within a single physical block, that is, a logical block is never recorded in 2 (or more) physical blocks.
+Each logical record is preceeded by a field of 4 bytes wich contains the size of the record (in bytes), as shown below :<p>
+<pre>
+<H3>              </H3> 
+----------------------------/\/---------------------------
+|a| RL1            |b| RL2      |n| RLn          |O|  p  |
+---------------------------/\/----------------------------
+<H6>     </H6> 
+<p>&lt----------------------&lt=16 KBytes-----------------------&gt
+<H3>             </H3> 
+</pre>
+field a : 4 bytes containing a binary numerical value, of size (in bytes) equals to the logical record 1.(RL1)<p>
+field RL 1 : logical record 1, of size (in bytes) described in field a.<p>
+field b : 4 bytes containing a  binary numerical value, of size (in bytes) equals to the logical record 2. (RL2) <p>
+field RL 2 : logical record 2, of size (in bytes) described in field b.<p>
+field n : 4 bytes containing a binary numerical value, of size (in bytes) equals to the logical record n.(RLn)<p>
+field RL n : logical record n, of size (in bytes) described in field n.<p>
+field 0 : 4 bytes of value 0, wich indicate the end of the records within the block.<p>
+field p : null data, with no information, necessary to complete the size of the physical block, so that it is a multiple of 512 bytes.     <H5>     </H5>
+<LI>End of file marks<p>
+The end of file marks are mentionated (EOF) in the format manuals. Whenever 1/4" tapes are used for recording, the marks are kept in the same position described in the manuals.<H5>      </H5>
+EXAMPLE :<p>
+An example of a routine (FORTRAN type), wich returns a tape logical record every time it is called, is given below. The routine presumes that there is another one available for use, (called LE_BLOCO), wich alocates the next physical block in the tape in a vector called BLOCO; the size of the physical block (in bytes) in a variable called TAMANHO_FISICO, and the reading error code (or an EOF reading code or zero, if no reading error occurs) in a variable called STATUS.
+</OL> 
+<pre>
+<H1>         </H1>
+</pre>
+<H4> SUBROUTINE LE_REGISTRO ( REGISTRO, TAMANHO_REGISTRO, STATUS )</H4>
+<pre> 
+C---------------------------------------------------------------------
+C
+C Purpose :
+C
+C  Read the 1/4" tapes distributed by INPE, containing 
+C  image data.
+C
+C  Every time this routine is called it returns a tape record.
+C  The records are described on the format manuals distributed
+C  by INPE.
+C
+C Arguments :
+C
+C REGISTRO : Vector that contains a logical record.
+C
+C TAMANHO_REGISTRO : An integer (4 bytes), that contains 
+C the size of the record to be transferred.
+C    
+C STATUS : An integer that returns the reading condition.
+C Possible values are :
+C
+C  0 : reading error 
+C -1 : end of file mark found
+C other value : reading error code
+C
+C---------------------------------------------------------------------
+C
+C     Not every compiler allows the definition of
+C     an unsigned variable.
+C     In this case, remove the instruction that compute
+C     the variable TAMANHO_REGISTRO and remove the
+C     subsequent comment lines.
+<H3>     </H3> 
+      UNSIGNED BYTE REGISTRO (16*1024-4)<p>
+      UNSIGNED BYTE BLOCO (16*1024)<H6>   </H6> 
+      INTEGER*4 TAMANHO_REGISTRO<p>
+      INTEGER*4 TAMANHO_FISICO<H6>    </H6> 
+      INTEGER PONTEIRO
+      INTEGER STATUS<p>
+      INTEGER TR(4)<H6>    </H6> 
+      LOGICAL BLOCO_DISPONIVEL /.FALSE./
+<H3>     </H3> 
+C     Not every compiler allows the maintainance of a variable
+C     value between two subroutines call. In this case, the 
+C     variables BLOCO, TAMANHO_FISICO, PONTEIRO and 
+C     BLOCO_DISPONIVEL must be in "common".<p> 
+<H6>       </H6>
+COMMON /XXX/ BLOCO,TAMANHO_FISICO,PONTEIRO,BLOCO_DISPONIVEL<p>  
+<H6>       </H6>
+C Beginning of code<p>
+<H3>       </H3>    
+    --DO WHILE (.TRUE.)                     !false loop<P>
+<H6>               |       </H6>
+   | --IF (BLOCO_DISPONIVEL) THEN<p>
+<H6>               |   |       </H6>
+   ||   --IF (PONTEIRO.LT.TAMANHO_FISICO-4) THEN<p>
+   ||  |    TAMANHO_REGISTRO = (( !if the compiler doesn't 
+   ||* |    BLOCO(PONTEIRO+3)*256+  !allow the use of UNSIGNED
+   ||* |    BLOCO(PONTEIRO+2))*256+ !variables, delete these 5 
+   ||* |    BLOCO(PONTEIRO+1))*256+ !lines and remove the
+   ||* |    BLOCO(PONTEIRO)         !following comment lines
+<H6>               |   |            |       </H6>
+  C||  |   --DO I = 0,3
+  C||  |  |  --IF (BLOCO(PONTEIRO+I).LT.0) THEN
+  C||  |  | |    TR(I+1) = 256+BLOCO(PONTEIRO+I)
+  C||  |  |  --ELSE 
+  C||  |  | |    TR(I+1) = BLOCP(PONTEIRO+I)
+  C||  |  |  --ENDIF
+  C||  |   --ENDODO
+<H6>               |   |            |        </H6>
+  C||  |     TAMANHO_REGISTRO =
+  C||* |     ((TR(4)*256+TR(3))*256+TR(2))*256+TR(1)
+<H6>               |   |            |         </H6>
+   ||  |   --IF (PONTEIRO+3+TAMANHO_REGISTRO.GT.TAMANHO_FISICO)
+   ||  |  |--THEN
+   ||  |  |    TYPE *,'TAPE'S DATA ERROR!'
+   ||  |  |    STOP
+   ||  |   --ENDIF
+<H6>               |   |            |    </H6>
+   ||  |   --IF (TAMANHO_REGISTRO.GT.0) THEN
+   ||  |  |    J = 1
+   ||  |  |  --DO I = PONTEIRO+4,PONTEIRO+4+TAMANHO_REGISTRO-1
+   ||  |  | |    REGISTRO(J) = BLOCO(I)
+   ||  |  | |    J = J + 1
+   ||  |  |  --ENDDO
+   ||  |  |    PONTEIRO = PONTEIRO+4+TAMANHO_REGISTRO
+   ||  |  |    STATUS = 0
+   ||  |  |    RETURN
+   ||  |   --ELSE
+   ||  |  |   TYPE *,'RECORDS' SIZE ERROR!'
+   ||  |  |    STOP
+   ||  |   --ENDIF
+<H6>               |   |            |          </H6>
+   ||   --ENDIF
+<H6>               |   |     </H6>
+   | --ENDIF
+<H6>               |        </H6>
+   |   CALL LE_BLOCO (BLOCO,TAMANHO_FISICO,STATUS)
+<H6>               |            </H6>
+   |   IF (STATUS.NE.0) RETURN       !reading error or EOF
+<H6>               |       </H6>
+   |   PONTEIRO = 1
+   |   BLOCO_DISPONIVEL = .TRUE.
+<H6>               |       </H6>
+    --ENDWHILE
+<H6>               </H6>
+      END
+<pre>
+<H6>          </H6>
+</pre>
+<p><a href="dsr_eng.html">Back</a>
+</DOC>

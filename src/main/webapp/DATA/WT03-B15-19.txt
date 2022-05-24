@@ -1,0 +1,366 @@
+
+<DOC>
+<DOCNO>WT03-B15-19</DOCNO>
+<DOCOLDNO>IA060-000337-B003-411</DOCOLDNO>
+<DOCHDR>
+http://www.atemi.com:80/advanced.html 206.148.208.105 19970115073905 text/html 14744
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 07:37:44 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Set-Cookie: Apache=widener18862853313864398; path=/
+Content-length: 14519
+Last-modified: Thu, 02 Jan 1997 23:37:53 GMT
+</DOCHDR>
+<!doctype html public "-//W30//DTD W3 HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE> Advanced NetShade Operation</TITLE>
+</HEAD><BODY BGCOLOR="#ffffff"><H1><CENTER>Advanced NetShade Operation
+</CENTER>
+</H1><P><HR WIDTH=90% SIZE=4>
+<P>
+This document contains some fairly detailed descriptions of NetShade's security
+features.  If any of this information seems confusing or overly technical
+to you,
+consider reviewing the <A href="basic.html">Basic NetShade Operation</A>
+document.
+<P>
+<H2>Page Contents:
+</H2><UL><LI><A href="#RSA">RSA keypair exchange</A>
+<LI><A href="#insecure">Handling insecure session requests</A>
+<LI><A href="#multi">Using multiple encryption algorithms</A>
+<LI><A href="#printers">Printers and other unencrypting devices</A>
+<LI><A href="#environment">NetShade network configurations: LAN, WAN, ARA</A>
+</UL><P><HR WIDTH=90% SIZE=4>
+<A name="RSA"></A>
+<H2><A name="RSA">RSA Keypair Exchange</A>
+</H2><P>NetShade uses <B>secret key encryption</B> to encrypt all the network
+data sent
+to and from each protected machine.  Secret key encryption methods use a
+single
+secret key to lock and unlock data.  Therefore, only the people with the
+key can
+decrypt it.  This key must, of course, be kept secret from all third parties.
+<P>
+Of course, the main problem with secret key encryption is finding a safe
+way to
+distribute the secret keys.  Fortunately, a number of methods have been developed
+for secure key distribution.  We use one called the
+<A
+href="http://www.rsa.com/">RSA public key cryptosystem</A>.
+<P>
+Instead of a single secret key, RSA uses a <B>keypair</B>, consisting of
+a public
+and a private key.  These keys are complements of one another; something
+encrypted with the public key can be unlocked only with the private key,
+and
+something encrypted with the private key can only be unlocked with the public
+key.
+<P>
+This is very useful.  In practice, the public key may be distributed freely
+to
+anyone (hence its name), whereas the private key is kept secret.  If Alice
+wants
+to send a message to Bob, she can encrypt it with his public key.  Once this
+has
+been done, no one (not even Alice) can unlock the message.  The only way
+it can
+be unlocked is with the private key, and Bob is the only one who knows this
+key.
+<P>
+Likewise, if Bob wants to reply, he can encrypt a message with Alice's public
+key; then, only she can unlock it (with her own private key).
+<P>
+NetShade uses the RSA cryptosystem to set up a <B>sealed session</B> between
+any
+two NetShade-equipped machines before they start to communicate over a network.
+The first time these machines try to communicate, NetShade will generate
+a new,
+unique secret encryption key and exchange it using the two machines' RSA
+keypairs.  The process works like this:
+<P>
+<H3>Step 1
+</H3><P>Alice's machine sends a "log-in" request to Bob's machine.  This
+request, which
+is sent in the clear, contains Alice's public key and specifies the algorithm
+that Alice wants to use for encryption (in this case, Alice has set DES as
+her
+active mode).  Remember, it doesn't matter who intercepts the public key;
+it's OK
+for everyone to see it.
+<P>
+<H3>Step 2
+</H3><P>Next, Bob's machine -- which allows the DES communication mode --
+generates a
+secret DES key at random.  This key will be used to encrypt the network traffic
+between the two machines.  The secret key is stored in the memory of Bob's
+machine.
+<P>
+<H3>Step 3
+</H3><P>Next, Bob encrypts the secret DES key using Alice's RSA public key.
+ Bob's
+machine then sends the encrypted key to Alice's machine.  Remember, no one
+will
+be able to steal the secret key as it travels across the network, since it
+is
+encrypted.
+<P>
+<H3>Step 4
+</H3><P>Finally, Alice's machine decrypts the secret key using her RSA private
+key.  At
+this point, both machines have a copy of the secret key.  From this point
+on, all
+transmissions between the two machines will be encrypted with the secret
+DES key.
+<P>
+<HR WIDTH=90% SIZE=4>
+<H2><A name="insecure">Handling Insecure Session Requests</A>
+</H2><P>Most NetShade environments will include a mix of NetShade users and
+unprotected
+machines.  Since NetShade cannot establish secure sessions with unprotected
+machines, having a greater number of unprotected machines on a network makes
+it
+more likely that someone will establish an insecure connection to your machine.
+<P>
+NetShade lets you decide how your machine will handle requests for insecure
+sessions.  If you want to ensure that data from your machine can only be
+sent
+over a secure channel, you can tell NetShade to allow only secure (i.e.,
+encrypted) connections with your machine.  If you wish to allow insecure
+connections, you may choose to have NetShade warn you whenever someone
+establishes such a connection with your machine.
+<P><A name="fig1"><CENTER><IMG src="21.GIF"></CENTER></A>
+<P>
+In Figure 1, we see that Alice has configured NetShade to allow insecure
+connections, but to warn her whenever an insecure session is about to take
+place.
+ By contrast, Bob has set his copy of NetShade to reject any attempt to set
+up an
+insecure session.  (Since Alice, Bob and Carl will all be using the server,
+the
+server's copy of NetShade has been set to allow all types of connections.)
+<P>
+In this situation, Alice will be able to establish secure connections with
+Bob
+and the server, since both of those machines are running NetShade.  If Alice
+connects to Carl (or vice versa), she will be warned that an insecure connection
+to her machine has been established.  Bob, on the other hand, will only be
+able
+to establish connections with Alice or the server; if he tries to establish
+a
+connection with Carl, NetShade will reject the connection.  Carl won't notice
+anything unusual when connecting with Alice or the server, but he will receive
+a
+"remote machine not responding" message if he tries to connect with Bob.
+<P>
+<HR WIDTH=90% SIZE=4>
+<A name="multi"></A>
+<H2><A name="multi">Using Multiple Encryption Algorithms</A>
+</H2><P>NetShade can establish several different types of secure sessions
+simultaneously,
+giving you even more flexibility in setting the level of security for each
+machine on your network.  Figure 2 shows how the machines in our sample
+configuration might take advantage of this flexibility.
+<P>
+<CENTER><A name="fig2"><IMG src="22.GIF"></A></CENTER>
+<P>
+Each copy of NetShade on this network is able to support four communication
+modes.  Listed from least secure to most secure, those modes are: No encryption,
+NightShade, DES, and Triple DES (NOTE: the standard version of NetShade only
+includes the first two modes; DES and Triple DES are available separately
+or with
+the advanced NetShade Bundles).  From this list of available modes, each
+user
+determines which communication modes will be <B>allowed</B> with his or her
+machine.  Any attempts to communicate with a machine using a mode that is
+not
+allowed will be rejected.
+<P>
+As Figure 2 shows, Alice's machine allows NightShade, DES and unencrypted
+sessions to be established with her machine.  Bob wants more security on
+his
+machine, so he allows only Triple DES and DES connections.  The server allows
+all
+four communication modes.  (Since Carl is not running NetShade, he effectively
+allows only unencrypted communication.)
+<P>
+On each NetShade machine, one of the allowed modes is always set as the
+<B>active
+mode</B>: the preferred method of communication for that machine.  (In Figure
+2,
+each user's active mode is marked with a star.)  Alice prefers to communicate
+using NightShade, since it is the quickest secure algorithm available.  Bob
+has
+set his active mode to Triple DES, since it provides the most security.
+<P>
+Whenever a NetShade machine initiates a connection to another machine, it
+tries
+to establish that connection using its active mode.  If the receiving machine
+does not allow that mode, the initiating machine tries to find a mode that
+both
+machines will allow.  If the recipient machine does not support any of the
+connecting machine's allowed modes, the connection will not be established.
+<P>
+For example, suppose that Alice wants to connect to Bob's machine.  Her active
+mode is NightShade, so she starts by trying to set up a NightShade session
+with
+Bob.  However, Bob doesn't allow the NightShade mode, so Alice's machine
+tries to
+find a mode that both parties will allow.  It turns out that the only mode
+that
+will work is DES, so NetShade establishes a DES session between Alice and
+Bob.
+<P>
+Remember: all of these session negotiation functions happen in the background.
+Each user merely connects to the desired machine using the standard method
+(e.g.,
+mounting a volume with the Chooser); everything else happens automatically
+and
+invisibly.
+<P>
+<HR WIDTH=90% SIZE=4>
+<A name="printers"></A>
+<H2><A name="printers">Printers and Other Unencrypting Devices</A>
+</H2><P>NetShade allows you to specify an "exception list" of devices that
+can only
+receive unencrypted data.  For example, since printers do not support encryption,
+you can add your printer name to this list; even if you have set NetShade
+to
+disallow unencrypted communications, all data sent to the printer will be
+unencrypted.
+<P>
+You can also add the name of a network user to this list.  In our sample
+network
+configuration, for example, Bob could add Carl's name to the exception list.
+This would enable Bob and Carl to communicate insecurely, even though Bob
+would
+typically reject all attempts to establish an insecure session.
+<P>
+To use a printer and retain maximum network security, you can assign a computer
+on your network to act as a dedicated "print spooler."  In this scenario,
+the
+printer is removed from the network and attached directly to the dedicated
+computer; that computer's only job is to forward print jobs to the printer.
+Since the print spooler can run NetShade, this setup allows you to send encrypted
+print jobs over the network.
+<P>
+<HR WIDTH=90% SIZE=4>
+<A name="environment"></A>
+<H2><A name="environment">NetShade Network Configurations</A>
+</H2><P>
+<H3>NetShade on a LAN
+</H3><P>The examples presented in the earlier parts of this document
+(<A
+href="#fig1">Figure 1</A> and <A href="#fig2">Figure 2</A>) describe typical
+NetShade-LAN environments.  Adding more or less users to this type of LAN
+environment would have little impact on NetShade's performance, although
+as more
+network users start to run NetShade, the overall security of the LAN traffic
+will
+rise accordingly.
+<P>
+<H3>NetShade on a WAN
+</H3><P>Running NetShade on a wide-area network (WAN) is fairly similar to
+the LAN
+configuration.  Figure 3 shows a typical NetShade-WAN arrangement.
+<P>
+<CENTER><IMG src="23.GIF"></CENTER>
+<P>
+In a wide-area network, multiple networks are connected using a device called
+a
+<B>router</B>.  When a machine on one network sends data to a machine on
+another
+network, it is passed through the router, which determines where the data
+needs
+to be forwarded.
+<P>
+Since many routers are designed to forward data over insecure public channels
+--
+e.g., the Internet or telephone wires -- many organizations use special
+encrypting routers to ensure that their data cannot be read in transit. 
+But
+since NetShade encrypts your network data at the source and decrypts it at
+its
+destination, no special equipment is needed to secure the routed data.
+<P>
+In fact, since NetShade encrypts and decrypts your network data at the source
+and
+destination points respectively, this is in some ways a superior solution
+to an
+encrypting router.  If the encryption took place at the router level, and
+D
+wanted to send data to G, that data would still be vulnerable to eavesdropping
+by
+all the other users on both networks.  NetShade's point-to-point encryption
+ensures that the data cannot be intercepted at any point in trasit, providing
+substantially more security.  Now, G can connect with J, A, B and D
+simultaneously, secure in the knowledge that no eavesdroppers will be able
+to tap
+into any of these links.
+<P> 
+In some cases, it may be desirable to apply greater security to cross-network
+communication than to single-network data.  Since NetShade can easily be
+upgraded
+to support ultra-secure algorithms such as DES and Triple DES, when you send
+information to a user on a separate network -- for example, when A makes
+a
+connection with J -- you could simply change your active mode to one of these
+algorithms.  After the cross-network connection is broken, you can reset
+your
+active mode to NightShade if you like.
+<P>
+<H3>NetShade over Apple Remote Access (ARA)
+</H3><P>Using NetShade over Apple Remote Access is also very similar to using
+NetShade
+over a LAN.  Figure 4 illustrates a typical NetShade-ARA configuration.
+<P>
+<CENTER><IMG src="24.GIF"></CENTER>
+<P>
+In this scenario, remote user F logs into ARA server E over a dial-up modem
+connection.  The ARA connection allows F to communicate with any machine
+on the
+network, including E.  Assuming that F shares at least one allowed communication
+mode (see <A href="#multi">Using Multiple Encryption Modes</A> section) with
+A,
+B, D and E, all the data sent between F and those machines will be encrypted.
+Since C is not running NetShade, data sent between F and C will not be encrypted.
+ By the same token, even if E (the ARA server) was not running NetShade,
+data
+sent between F and A would still be encrypted.
+<P>
+<H3>Complex NetShade Network Configurations
+</H3><P>One of the most appealing aspects of NetShade is that it can secure
+network
+traffic over complex networks, including those with multiple zones and internets,
+without requiring any knowledge of how the network is set up.  As long as
+your
+NetShade machine can send AppleTalk data to any other NetShade machine --
+regardless of how that data gets there -- you can establish a sealed session
+between those two machines.
+<P>
+If you have any questions regarding the applicability of NetShade to a specific
+network configuration, send us e-mail at
+<A
+HREF="mailto:support@atemi.com">support@atemi.com</A>.
+<P>
+<HR WIDTH=90% SIZE=4>
+<CENTER>
+Click <A href="basic.html">here</A> to read "Basic NetShade
+Operation."</CENTER>
+<P>
+<CENTER><HR WIDTH=65%></CENTER>
+<CENTER></CENTER>
+</P><CENTER><TABLE BORDER CELLPADDING="2"><TR><TD><CENTER><A 
+HREF="overview.html">Home</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="free_stuff.html">Free Stuff</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="sales_info.html">Sales</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="product_info.html">Product Info</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="links.html">Links</A>
+</CENTER>
+</TD></TR></TABLE></CENTER><P><HR>
+</BODY></HTML>
+</DOC>

@@ -1,0 +1,287 @@
+
+<DOC>
+<DOCNO>WT03-B16-87</DOCNO>
+<DOCOLDNO>IA072-000461-B019-75</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/ers/fdc_lead.html 137.132.32.55 19970121032754 text/html 19699
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 13:51:43 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 20-Dec-96 18:31:01 GMT
+Content-length: 19517
+</DOCHDR>
+<HEAD>
+<TITLE>3 LEADER FILE</TITLE>
+</HEAD>
+<BODY>
+
+<H1>3 LEADER FILE</H1>
+<P>
+
+<PRE>
+  File Descriptor Record Fixed Segment
+
+TABLE  3.1      SARLEADER FILE - FILE DESCRIPTOR RECORD                                                    
+                (FIXED SEGMENT) DEFINITION                                                                 
+                                                                                                           
+FIELD  BYTES    FORMAT  DESCRIPTION AND/OR CONTENT                                     CONTENT             
+
+1      1-4      B4      Record sequence number                                         (1 )                
+2      5        Bl      1-st record sub-type code                                      (63)                
+3      6        Bl      Record type code                                               (192)               
+4      7        Bl      2-nd record sub-type code                                      (18)                
+5      8        Bl      3-rd record sub-type code                                      (18)                
+6      9-12     B4      Length of this record                                          (512)               
+7      13-14    A2      ASCII/EBCDIC flag                                              $A                  
+8      15-16    A2      blanks                                                         $$                  
+9      17-28    A12     Format control document ID for this data file format           CEOS-SAR-CCT        
+10     29-30    A2      Format control document revision level                         $A                  
+11     31-32    A2      File design descriptor revision letter                         $A                  
+12     33-44    A12     Generating software release and revision level                 <.....>
+13     45-48    I4      File number                                                    $$$1                
+14     49-64    A16     File name                                                      ERS1.SAR.FDCLEAD    
+15     65-68    A4      Record sequence and location type flag                         FSEQ                
+16     69-76    I8      Sequence number location                                       $$$$$$$1            
+17     77-80    I4      Sequence number field length                                   $$$4                
+18     81-84    A4      Record code and location type flag                             FTYP                
+19     85-92    I8      Record code location                                           $$$$$$$5            
+20     93-96    I4      Record code field length                                       $$$4                
+21     97-100   A4      Record length and location type flag                           FLGT                
+22     101-108  I8      Record length location                                         $$$$$$$9            
+23     109-112  I4      Record length field length                                     $$$4                
+24     113      Al      Reserved                                                       <$...$>.
+25     114      Al      Reserved                                                       <$...$>
+26     115      Al      Reserved                                                       <$...$>.
+27     116      Al      Reserved                                                       <$...$>
+28     117-180  A64     Reserved segment                                               <$...$>. 
+
+  File Descriptor Record Variable Segment
+
+TABLE  3.2              SARLEADER FILE - FILE DESCRIPTOR RECORD                         
+                        VARIABLE SEGMENT
+
+FIELD  BYTES    FORMAT  DESCRIPTION                                   CONTENT
+
+29     181-186  I6      Number of data set summary records            $$$$$0    
+30     187-192  I6      Data set summary record length                $$$$$0    
+31     193-198  I6      Number of map projection data records         $$$$$0    
+32     199-204  I6      Map projection record length                  $$$$$0    
+33     205-210  I6      Number of platform pos. data records          $$$$$0    
+34     211-216  I6      Platform position record length               $$$$$0    
+35     217-222  I6      Number of attitude data records               $$$$$0    
+36     223-228  I6      Attitude data record length                   $$$$$0    
+37     229-234  I6      Number of radiometric data records            $$$$$0    
+38     235-240  I6      Radiometric record length                     $$$$$0    
+39     241-246  I6      Number of rad. compensation records           $$$$$0    
+40     247-252  I6      Radiometric compensation rec. length          $$$$$0    
+41     253-258  I6      Number of data quality summary records        $$$$$0    
+42     259-264  I6      Data quality summary record length            $$$$$0    
+43     265-270  I6      Number of data histograms records             $$$$$0    
+44     271-276  I6      Data histogram record length                  $$$$$0    
+45     277-282  I6      Number of range spectra records               $$$$$0    
+46     283-288  I6      Range spectra record length                   $$$$$0    
+47     289-294  I6      Number of DEM descriptor records              $$$$$0    
+48     295-300  I6      DEM descriptor record length                  $$$$$0    
+49     301-306  I6      Number of Radar par. update records           $$$$$0    
+50     307-312  I6      Radar par. update record length               $$$$$0    
+51     313-318  I6      Number of Annotation data records             $$$$$0    
+52     319-324  I6      Annotation data record length                 $$$$$0    
+53     325-330  I6      Number of Det.processing records              $$$$$0    
+54     331-336  I6      Det.processing record length                  $$$$$0    
+55     337-342  I6      Number of Calibration records                 $$$$$0    
+56     343-348  I6      Calibration record length                     $$$$$0    
+57     349-354  I6      Number of GCP records                         $$$$$0    
+58     355-360  I6      GCP record length                             $$$$$0    
+59     361-366  I6      spare                                         $$$$$$    
+60     367-372  I6      spare                                         $$$$$$    
+61     373-378  I6      spare                                         $$$$$$    
+62     379-384  I6      spare                                         $$$$$$
+63     385-390  I6      spare                                         $$$$$$    
+64     391-396  I6      spare                                         $$$$$$    
+65     397-402  I6      spare                                         $$$$$$    
+66     403-408  I6      spare                                         $$$$$$    
+67     409-414  I6      spare                                         $$$$$$    
+68     415-420  I6      spare                                         $$$$$$    
+69     421-426  I6      Number of Facility data records               $$$$$2    
+70     427-432  I6      Facility data record length                   $12288    
+71     433-512  A80     blanks                                        <$...$>
+
+  File Descriptor Record Variable Segment
+
+TABLE  3.2              SARLEADER FILE - FILE DESCRIPTOR RECORD                         
+                        VARIABLE SEGMENT
+
+FIELD  BYTES    FORMAT  DESCRIPTION                                   CONTENT
+
+29     181-186  I6      Number of data set summary records            $$$$$0    
+30     187-192  I6      Data set summary record length                $$$$$0    
+31     193-198  I6      Number of map projection data records         $$$$$0    
+32     199-204  I6      Map projection record length                  $$$$$0    
+33     205-210  I6      Number of platform pos. data records          $$$$$0    
+34     211-216  I6      Platform position record length               $$$$$0    
+35     217-222  I6      Number of attitude data records               $$$$$0    
+36     223-228  I6      Attitude data record length                   $$$$$0    
+37     229-234  I6      Number of radiometric data records            $$$$$0    
+38     235-240  I6      Radiometric record length                     $$$$$0    
+39     241-246  I6      Number of rad. compensation records           $$$$$0    
+40     247-252  I6      Radiometric compensation rec. length          $$$$$0    
+41     253-258  I6      Number of data quality summary records        $$$$$0    
+42     259-264  I6      Data quality summary record length            $$$$$0    
+43     265-270  I6      Number of data histograms records             $$$$$0    
+44     271-276  I6      Data histogram record length                  $$$$$0    
+45     277-282  I6      Number of range spectra records               $$$$$0    
+46     283-288  I6      Range spectra record length                   $$$$$0    
+47     289-294  I6      Number of DEM descriptor records              $$$$$0    
+48     295-300  I6      DEM descriptor record length                  $$$$$0    
+49     301-306  I6      Number of Radar par. update records           $$$$$0    
+50     307-312  I6      Radar par. update record length               $$$$$0    
+51     313-318  I6      Number of Annotation data records             $$$$$0    
+52     319-324  I6      Annotation data record length                 $$$$$0    
+53     325-330  I6      Number of Det.processing records              $$$$$0    
+54     331-336  I6      Det.processing record length                  $$$$$0    
+55     337-342  I6      Number of Calibration records                 $$$$$0    
+56     343-348  I6      Calibration record length                     $$$$$0    
+57     349-354  I6      Number of GCP records                         $$$$$0    
+58     355-360  I6      GCP record length                             $$$$$0    
+59     361-366  I6      spare                                         $$$$$$    
+60     367-372  I6      spare                                         $$$$$$    
+61     373-378  I6      spare                                         $$$$$$    
+62     379-384  I6      spare                                         $$$$$$
+63     385-390  I6      spare                                         $$$$$$    
+64     391-396  I6      spare                                         $$$$$$    
+65     397-402  I6      spare                                         $$$$$$    
+66     403-408  I6      spare                                         $$$$$$    
+67     409-414  I6      spare                                         $$$$$$    
+68     415-420  I6      spare                                         $$$$$$    
+69     421-426  I6      Number of Facility data records               $$$$$2    
+70     427-432  I6      Facility data record length                   $12288    
+71     433-512  A80     blanks                                        <$...$>
+
+
+  Facility Related Data Record MPH-SPH type(2)
+
+TABLE  3.3       FACILITY DATA RECORD MPH TYPE DEFINITION (Cont'ed)            
+                         
+                         
+FIELD  BYTES     FORMAT  DESCRIPTION                                               
+                         
+37     474-485   I12     Sum of number of calibration sub-system                   
+                         and receiver gain changes                                 
+38     486-497   I12     Number of missing lines                                   
+39     498-509   I12     Spare                                                     
+40     510-521   I12     3-dB pulse width of chirp replica                         
+                         cross-correlation pixels function                         
+41     522-533   I12     First side lobe level of point chirp replica              
+                         cross-correlation function                                
+42     534-545   I12     ISLR of chirp replica cross-correlation function          
+43     546-557   I12     Doppler centroid confidence measure.                      
+44     558-569   I12     Doppler ambiguity confidence measure.                     
+45     570-581   I12     Mean of I input data                                      
+46     582-593   I12     Mean of Q input data                                      
+47     594-605   I12     Standard Deviation of I input data                        
+48     606-617   I12     Standard Deviation of Q input data                        
+49     618-629   I12     Geodetic latitude of the first pixel of the               
+                         first line of the scene product.                          
+50     630-641   I12     East longitude of the first pixel of the first            
+                         of the first line of the scene product                    
+51     642-653   I12     Geodetic latitude of the last pixel of the first          
+                         line of the scene product                                 
+52     654-665   I12     East longitude of the last pixel of the first             
+                         pixel of the first line of the scene product              
+53     666-677   I12     Geodetic latitude of the last pixel of the last           
+                         line of the scene product                                 
+54     678-689   I12     East longitude of the last pixel of the last              
+                         line of the scene product                                 
+55     690-701   I12     Geodetic latitude of the first pixel of the last          
+                         line of the scene product                                 
+56     702-713   I12     East longitude of the first pixel of the last             
+                         line of the scene product                                 
+57     714-725   I12     Geodetic latitude of the centre pixel of the scene product
+58     726-737   I12     East longitude of the centre pixel of the scene product   
+59     738-749   I12     Origin of used chirp                                      
+60     750-761   I12     Chirp extraction index                                    
+61     762-773   I12     Chirp amplitude coefficient-constant                      
+62     774-785   I12     Chirp amplitude coefficient-linear                        
+63     786-797   I12     Chirp amplitude coefficient-quadratic                     
+64     798-809   I12     Chirp amplitude coefficient-cubic                         
+65     810-821   I12     Chirp amplitude coefficient-quartic                       
+
+  Facility Related Data Record MPH-SPH type(3)
+
+TABLE  3.3        FACILITY DATA RECORD MPH TYPE DEFINITION (Cont'ed)           
+                
+                         
+FIELD  BYTES      FORMAT DESCRIPTION                                               
+                         
+66     822-833    I12    Chirp phase coefficient-constant                          
+67     834-845    I12    Chirp phase coefficient-linear                            
+68     846-857    I12    Chirp phase coefficient-quadratic                         
+69     858-869    I12    Chirp phase coefficient-cubic                             
+70     870-881    I12    I mean for raw data correction                            
+71     882-893    I12    Q mean for raw data correction                            
+72     894-905    I12    I/Q Std Ratio for raw data correction                     
+73     906-917    I12    Output pixel bit length                                   
+74     918-929    I12    16- to 8-bit conversion coefficient-constant              
+75     930-941    I12    16- to 8-bit conversion coefficient-linear                
+76     942-953    I12    16- to 8-bit conversion coefficient-quadratic             
+77     954-965    I12    Calibration System Gain                                   
+78     966-977    I12    Receiver Gain                                             
+79     978-989    I12    Clutter noise estimate                                    
+80     990-1001   I12    Spare                                                     
+81     1002-1013  I12    Range pixel spacing                                       
+82     1014-1025  I12    Azimuth pixel spacing                                     
+83     1026-1037  I12    Pulse Repetition Frequency                                
+84     1038-1049  I12    2-way slant range time of the  first processed range cell 
+85     1050-1061  I12    Doppler centroid value at near range                      
+86     1062-1073  I12    Slope of Doppler centroid over 2-way slant range time     
+87     1074-1085  I12    Azimuth FM rate at near range                             
+88     1086-1097  I12    Slope of azimuth FM rate over 2-way slant range time      
+89     1098-1109  I12    Doppler ambiguity number                                  
+90     1110-1121  I12    Calibration coefficient (antenna) constant term           
+91     1122-1133  I12    Calibration coefficient (antenna) linear term             
+92     1134-1145  I12    Calibration coefficient (antenna) quadratic term          
+93     1146-1157  I12    Calibration coefficient (antenna) spare term              
+94     1158-1169  I12    Calibration coefficient (antenna) spare term              
+95     1170-1181  I12    EXT_SAR parameter table identifier                        
+96     1182-1193  I12    Datation inprovement                                      
+97     1194-1205  I12    SARFDP Static Transfer Function Table identifier          
+98     1206-1217  I12    SARFDP Parameter Database identifier                      
+99     1218-1229  I12    output image mean                                         
+100    1230-1241  I12    output image standard deviation                           
+101    1242-1253  I12    Range compression scalar gain                             
+102    1254-1265  I12    Azimuth FFT scalar gain                                   
+103    1266-1277  I12    Azimuth compression scalar gain                           
+104    1278-1289  I12    Overall processing gain                                   
+105    1290-2048  A759   Spare Blanks                                              
+
+
+
+
+  Facility Related Data Record PCS Type
+
+TABLE  3.4      FACILITY RELATED DATA RECORD PCS QUALITY TYPE DEFINITION 
+                                                                                          
+FIELD  BYTES    FORMAT  DESCRIPTION                                                       
+                                                                                                              
+                          
+1      1-4      B4      Sequence number                                                   (n)
+2      5        Bl      1-st record sub-type code                                         (10)
+3      6        Bl      Record type code                                                  (200)
+4      7        Bl      2-nd record sub-type code                                         (31)
+5      8        Bl      3-rd record sub-type code                                         (50)
+6      9-12     B4      Length of this record                                             (12288)
+7      13-76    A64     name of this facility related data record                         "FACILITY"
+                        "$RELATED DATA RECORD PCS QUALITY TYPE$...$"
+
+8      77-12288 B       reserved 
+</PRE>
+<P>
+<P>
+<P>
+<P>
+<HR>
+</BODY>
+
+</DOC>

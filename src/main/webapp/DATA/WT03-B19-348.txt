@@ -1,0 +1,96 @@
+
+<DOC>
+<DOCNO>WT03-B19-348</DOCNO>
+<DOCOLDNO>IA005-000053-B047-203</DOCOLDNO>
+<DOCHDR>
+http://lacebark.ntu.edu.au:80/j_mitroy/sid101/iaea/whatispris.html 138.80.61.12 19970221172604 text/html 7515
+HTTP/1.0 200 OK
+Date: Fri, 21 Feb 1997 16:56:24 GMT
+Server: Apache/1.1.3
+Content-type: text/html
+Content-length: 7344
+Last-modified: Tue, 09 Jul 1996 02:25:52 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>
+The IAEA Power Reactor Information System PRIS
+</TITLE>
+</HEAD>
+<BODY>
+<CENTER>
+<H2>International Atomic Energy Agency</H2>
+<P>
+<IMG SRC=pris.gif ALT="Power Reactor Information System">
+</CENTER>
+<P>
+<HR>
+<P>
+<STRONG>
+WHAT IS PRIS
+</STRONG>
+<P>
+<P>
+Since 1970, the IAEA has been collecting and publishing data about the world's nuclear power plants. In order to facilitate the analysis of power plant performance and to produce relevant publications, the data were computerized in 1980, and the Power Reactor Information System (PRIS) was implemented. Since then, PRIS has been continuously updated and improved and it now constitutes the most complete data bank on nuclear power reactors in the world. It has been widely used and today constitutes an essential source of information on nuclear power.
+<P>
+PRIS covers two kinds of data: general and design information on power reactors, and information about operating experience with nuclear power plants. General and design information covers all reactors that are in operation, under construction, or shut-down in IAEA Member States, and in Taiwan, China. Data on operating experience  cover operational reactors, and historical data cover shutdown reactors, in IAEA Member States and in Taiwan, China. In these areas PRIS is considered the most complete and authoritative source of statistical data.
+<P>
+PRIS makes it possible to easily identify individual nuclear units and their main characteristics, and to determine nuclear power development status and trends worldwide, in regions, or in individual countries. Since 1990,  the  IAEA has compiled information on additional technical characteristics. It covers items related to the mode of plant operation, safety characteristics, safety features, existence of safety analysis reports and of emergency plans, and the plant environment, for example. This additional information on plant characteristics provides a better overview of plant design and mode of operation.
+<P>
+In order to assess plant performance, indicators are used. PRIS provides information on availability and unavailability factors, load factor, planned unavailability factor, and unplanned unavailability factors due to causes at the plant and externally.
+<P>
+Outage analysis provides indications on the reasons for a plant's unavailability. Statistical analysis, as well as studies of individual units or utilities, can provide indications about problem areas and what remedial actions and measures can be applied to achieve performance improvements. PRIS provides data in support of such analyses.
+<P>
+Originally,  PRIS data were stored using a generalized database management system called Adabas,  developed and marketed by Software AG, in Germany. This system used Natural query language to retrieve and process the PRIS data.
+<P>
+Recently, PRIS has been re-designed and downloaded to a LAN-based environment using client-server architecture for database systems. The database is now installed on Microsoft SQL server under an OS/2 operating environment. The primary objectives of the new design were to improve flexibility of data entry,  reduce complexity of relational operations required, and provide more user-friendly interfaces for database maintenance and users. The graphical user interface was developed using a front-end (client) tool, Object View, that runs using Microsoft Windows.
+<P>
+The new system contains two different interfaces, one for database maintenance and a second for data retrieval (the reporting system). Through the reporting system, the user can access detailed information about a country, its reactor sites and  nuclear power plants. It presents general and design information for a nuclear power plant, its yearly and monthly production, including performance factors and outages. It also presents information about national electricity production and national nuclear production. The system enables the user to make flexible queries using a set of selection criteria, and it presents tables or charts and enables data to be downloaded to any Windows application. The new system has been used at the IAEA since the beginning of 1995 and is scheduled to be released to IAEA Member States through dial-up or INTERNET  by the end of the year.
+<P>
+<STRONG>
+PRIS PUBLICATIONS
+</STRONG>
+<P>
+The PRIS database is used to produce two annual IAEA publications: Operating Experience with Nuclear Power Plants in Member States, published since 1971; and Nuclear Power Reactors in the World, Reference Data Series No.2, published since 1981
+<P>
+It also is used to provide material for other IAEA  publications. Statistical analysis are also carried out either for use within the IAEA or on request from Member States and outside organizations.
+<P>
+<STRONG>
+PRIS SERVICES
+</STRONG>
+<P>
+<STRONG>On-line Access</STRONG>. In 1989 the PRIS database was made available on-line for direct access via the international public data networks or public switched telephone system. This service, called PRIS On-line, was kept operating free of charge. Currently, about 70 users in 28 Member States and 4 international organizations have on-line access. This service will be improved with the release of the new system, which enables a direct connection to the PRIS data base under Windows through the INTERNET or through direct dial-up connection to the IAEA.
+<P>
+<STRONG>MicroPRIS</STRONG>. In parallel with the on-line access system, the Agency has offered  MicroPRIS to Member States, free of charge, since January 1991. This is a personal computer (PC) version of data available on diskette in a form readily accessible by standard, commercially available PC packages. Currently, there are about 200 organizations  in 54 Member States and 8 international organizations using  MicroPRIS.
+<P>
+<STRONG>
+AD-HOC Requests
+</STRONG>
+<P>
+As noted earlier, PRIS is extensively used in the IAEA as a data source for various IAEA publications and papers.
+<P>
+Additionally, PRIS staff respond to requests from IAEA Member States ranging from simple queries to complicated analyses. These requests typically are answered by sending data sets as computer printouts on diskettes or magnetic tapes.
+<P>
+<STRONG>
+HOW TO ORDER PRIS SERVICES
+</STRONG>
+<P>
+<STRONG>PRIS On-line</STRONG>. The IAEA PRIS on-line access has been granted to Member States free of charge until further notice. To get the PRIS on-line access a Subscription Form must be completed and sent to the IAEA.  The access authorization is accomplished through the issuance of a password by the IAEA to its Member States and International Member Organizations.
+<P>
+<STRONG>MicroPRIS</STRONG>.
+MicroPRIS is provided to any Member States or International Member Organization free of charge until further notice. To order the MicroPRIS package a Subscription and License Agreement must be completed and returned to the IAEA.
+<P>
+<STRONG>
+RESPONSIBILITY FOR THE DATA BANK
+</STRONG>
+<P>
+The PRIS data bank is maintained by the IAEA Nuclear Power Engineering Section, Division of Nuclear Power.
+<P>
+Further queries regarding the data bank should be addressed to Ms. R.Spiegelberg-Planer Telephone: +43 1 2060-22788; Fax:  +43 1 20607;  Telex:  1-12645 or Electronic Mail via InterNet at
+<A HREF="MAILTO:SPIEGELB@NEPO1.IAEA.OR.AT">
+SPIEGELB@NEPO1.IAEA.OR.AT</A>
+<P>
+<HR>
+</BODY>
+</HTML>
+</DOC>

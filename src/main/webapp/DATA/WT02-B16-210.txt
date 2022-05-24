@@ -1,0 +1,58 @@
+
+<DOC>
+<DOCNO>WT02-B16-210</DOCNO>
+<DOCOLDNO>IA060-000328-B016-136</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/econtacts.html 205.168.79.27 19970115022847 text/html 2823
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 02:28:50 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:46 GMT
+Content-length: 2649
+</DOCHDR>
+<html>
+<head>
+<title>Types of Materials</title>
+</head>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>Electrical Contacts</h2>
+
+<p><font size=+2>T</font>wo very essential parts of a PV cell are the electrical contacts, because they
+are the bridges that connect the active semiconductor to the external load. The back contact of a cell 
+(away from the sun) is relatively simple and usually consists of a layer of aluminum or molybdenum metal. 
+But the front contact (facing the sun) is more complicated. When placed in sunlight, the cell generates current (flowing
+electrons) all over its surface. Attaching contacts just at the edges of a cell would not be adequate
+because of the excessive electrical resistance of the top layer in this configuration (only a small
+portion of the electrons would make it into the contact). So, the contacts must be made across the 
+entire surface to collect the most current. This is normally done with a metal "grid." Unfortunately, 
+placing a large grid on the top of the cell shades the active parts of the cell from the sun, effectively
+reducing the cell's <a href="conveff.html">conversion efficiency</a>.
+
+<p>Therefore, in designing grid contacts, we must balance electrical resistance losses against shading
+effects. The usual approach is to design grids with many thin, conductive fingers spreading to every
+part of the cell's surface. The fingers of the grid must be thick enough to conduct well (with low
+resistance), but thin enough to block a minimum of incoming light. Such a grid keeps resistance losses
+sufficiently low, while shading only about 3% to 5% of the surface.
+
+<p align=right><a href="econtacts2a.html"><em>More . . .</em> Metallic Grids</a>
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>[<a href="bandgaps.html">About Gand Gaps</a>]
+[<a href="sipolysi.html">Silicon</a>]
+[<a href="amorphous.html">Amorphous Silicon</a>]
+[<a href="thinfilms.html">Pollycrystalline Thin Films</a>]
+[<a href="gallium.html">Gallium Arsenide</a>]
+[<a href="multijunction2.html">Multijunction Cells</a>]
+[<a href="econtacts.html">Electrical Contacts</a>]
+<p>[<em>U.S. Department of Energy Photovoltaics Program, 1996</em>]
+</font>
+</center>
+</body>
+</html>
+</DOC>

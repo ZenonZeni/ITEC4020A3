@@ -1,0 +1,121 @@
+
+<DOC>
+<DOCNO>WT03-B18-55</DOCNO>
+<DOCOLDNO>IA085-000610-B040-216</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/archit/tbc.htm 150.145.4.16 19970216120931 text/html 4273
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:10:23 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 14:49:44 GMT
+Content-Length: 4075
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy  Robotics Dept.: Control Architectures</title>
+<base href="http://www.ian.ge.cnr.it/robotics/archit/tbc.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b><b><blink>
+        Control Architectures Data Base</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<h1 align="center"><i>TBC</i></h1>
+
+<h2><i>Task Based Control</i></h2>
+
+<h3 align="center">Stanford University Aerospace Robotics
+Laboratory </h3>
+
+<p>Monterey Bay Aquarium Research Institute </p>
+
+<hr>
+
+<p align="center"><img src="tbc.gif" align="center" width="290"
+height="341"> </p>
+
+<hr>
+
+<p>Task Based Control is a control architecture developed for
+cooperating robotic manipulators and for free-flying space robots;
+it has been successfully used by the MBARI vehicle, and on JASON,
+the Woods Hole Oceanographic Institute&#146;s vehicle. TBC is a
+hierarchical architecture composed of three levels: Servo Level
+or Hardware Level: performs direct control of the actuators
+through closed-loop algorithms; Coordination Level: constitutes
+the interface between the other two levels, and may also be
+called the Task Level; it is composed of &#145;tasks&#146;, i.e.
+autonomous or semi-autonomous actions that the vehicle can
+perform without human supervision; Organizational Level: performs high-level
+mission planning, unexpected situation handling, data
+interpretation and so on, and it is managed by a human operator; </p>
+
+<p>Task Based Control has been conceived as a system for
+tele-operated or semi-autonomous vehicles, which reduces communication
+link problems, such as performance degradation due to bandwidth
+restrictions: a set of task-level commands is defined, each
+allowing the vehicle to perform a given action. A high-level
+language, composed of high-density instructions, can be used to
+handle transmission between the different levels. Different
+methods have been used to encode tasks, including rule-based
+systems (NPS) and Finite State Machines. </p>
+
+<hr>
+
+<h4>Bibliography</h4>
+
+<ul>
+    <li>Wang H.H , Marks R.L. , Rock S.M. , Lee M.J. , <i>Task-Based
+        Control Architecture for Untethered, Unmanned Submersible</i>,
+        Eight International Symposium on Unmanned Untethered
+        Submersible Technology, Durham, NH (USA), 27-29 September
+        1993, p.137. </li>
+</ul>
+
+<hr>
+
+<h5><i>The Naval Automation Institute is NOT responsible for
+information related to the selected machine: all data have been
+retrieved from the bibliography included; any problem or
+suggestion should be notified to </i><a
+href="mailto:virgili@ian.ge.cnr.it"><i>virgili@ian.ge.cnr.it</i></a></h5>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

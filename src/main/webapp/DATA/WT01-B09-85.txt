@@ -1,0 +1,155 @@
+
+<DOC>
+<DOCNO>WT01-B09-85</DOCNO>
+<DOCOLDNO>IA037-000725-B012-158</DOCOLDNO>
+<DOCHDR>
+http://www.calstart.org:80/about/pngv/pngv-0411.html 207.104.9.100 19970210060517 text/html 6400
+HTTP/1.0 200 Document follows
+Date: Mon, 10 Feb 1997 05:57:27 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>CALSTART -- DARPA Consortia EV and Hybrid EV Technology Projects</title>
+</head>
+
+
+<body bgcolor=#FFFFFF><center><a href="/misc/ypsubmitform.html" onMouseOver="window.status='Get Listed Today!'; return true"><img alt="For Free Yellow Pages Listing Info, click here" border=0 src="/image/yptag1.gif"></a></center><p>
+
+
+<h2 align = "center">DARPA Consortia EV and Hybrid EV Technology Projects<br>
+<a href = "/cgi-bin/imagemap/image/maps/about.map"><img border src = "/image/toolbar.gif" ismap alt ="CALSTART Toolbar"></a></h2>
+<hr><p>
+
+
+<h3>Electricore</h3><p>
+
+<blockquote>
+<B>Project Title:  Virtual Proving Grounds <p>
+
+Performing Organization: The University of Iowa</B><p>
+
+<P>Technical POC: Prof. Edward J. Haug, (319) 335­5726</P> 
+
+<P><B>Project Summary:</B></P>
+
+<P>A high fidelity virtual proving ground is being developed for prototyping family sized
+automobiles with hybrid­electric drives. Upon implementation, such vehicles will be simulated in the vehicle virtual
+proving ground being developed by the University of Iowa, using validated electric powertrain subsystem models
+and data provided by the PNGV Systems Analysis Team.</P>
+
+<P>The goal of the project is to (1) create a proving ground design that includes high fidelity models of a family size
+passenger vehicle for which conventional powertrain data are available, (2) implement in subsequent projects a
+spectrum of hybrid­electric powertrain models in driving simulator dynamics software with data that have been
+validated by industry partners, and (3) to subsequently test and demonstrate differences between performance and
+derivability of the validated conventionally powered vehicle and hybrid­electric powered vehicle systems using the
+driving simulator­based proving ground. </P>
+
+<P>For a typical hybrid­electric vehicle model, the virtual proving ground will support the following capabilities: (1) A
+high fidelity multibody mechanical dynamics simulation program; (2) A state space modeling capability for general
+algebraic and differential equations; (3) A mathematical library that includes linear algebra, optimization and
+numerical integration functions; (4) Specific technical libraries for modeling control algorithms and electric circuits;
+(5) Specific technical libraries for modeling mechanical force modules; (6) A numerical library for data
+representation and reporting; and (7) A model animation tool.</P>
+
+<P>Even though models could be built using a high level computer language, such as C or FORTRAN, in order to
+design an effective virtual proving ground for hybrid­electric vehicles, computer packages that have been designed
+specifically for simulation of general dynamic systems that are currently being used in the engineering community
+represent a better choice. MATLAB will be used as the simulation environment for the virtual proving ground. Due
+to the complexity of vehicle models and the availability of vehicle models with different degrees of fidelity, DADS is
+chosen as the multibody dynamics simulation program. DADS version 8.0 includes the interface necessary to
+interact with MATLAB. Within the MATLAB environment, a hybrid­electric power system model is constructed
+using the SIMULINK graphic simulation language, built in numerical functions, and application specific ' libraries
+(toolboxes). If the degree of complexity of the core mechanical vehicle model is anything but simplified, then a
+model within the DADS 8.0 environment will be linked to the model in MATLAB. </P>
+
+<P>Parallel technology developments being carried out by the University of Iowa are implementing and validating
+selected components of the virtual proving ground. The driving simulation environment created under
+complementary DoD and DOT projects using the Iowa Driving Simulator (IDS), and ultimately the National
+Advanced Driving simulator (NADS) whose development is proceeding under funding of $47 million from the DOT
+and State of Iowa, is enabling this project to focus on unique aspects of hybrid­electric vehicles. A modular
+structure for simulation of drivetrain and control subsystems that are typical of electric and hybrid­electric vehicles
+is being designed to be compatible with subsystem models being developed under complementary ARPA and
+DOT support. Using this design, high fidelity models of electric and hybrid­electric vehicle subsystems developed
+by a number of organizations can be integrated into real­time software that is operational on the Iowa Driving
+Simulator. This fundamentally new capability will also be implemented in a non­real­time computer aided
+engineering (CAE) environment, for use by DoD, coalition partners, and the PNGV.</P>
+
+<P><B>Project Deliverables:</B></P>
+
+<P>The design of a high fidelity hybrid­electric vehicle virtual proving ground will be delivered to
+guide work in subsequent application projects for (1) creating highly realistic hybrid­electric vehicle models that
+can be used for subsystem testing and development in a broadly applicable hybrid­electric vehicle virtual proving
+ground, (2) integrating vehicle models and data that are based on extensively tested contemporary hybrid­electric
+powertrain subsystems, (3) supporting test and validation or vehicle electric power subsystem models that are
+being developed under the ARPA hybrid-electric combat vehicle program, and (4) providing a unique new capability
+for PNGV to carryout tradeoff studies involving vehicle handling and derivability.</P>
+
+<P><B>Project Schedule:</B></P>
+
+<P><UL><LI>Virtual proving ground design will be completed by October, 1996.</UL></P>
+
+
+</blockquote>
+
+<p><h3>Return to the <a href="pngv-0400.html">Table of Contents</a> for Electricore</h3></p>
+
+<p><hr>
+
+<h5 align = "center">| <a href="/">HOME</a> | 
+<a href="/misc/search.html">SEARCH</a> | 
+<a href="/news/">NEWS</a> | 
+<a href="/participants/">PARTICIPANTS ONLY</a> | 
+<a href="/misc/feedback.html">FEEDBACK</a> | 
+<a href="/reference/yellowpages/">YELLOW PAGES</a> | 
+<a href="/help/about.html">HELP</a> |
+</h5><p>
+
+
+<h6><address>&copy Copyright 1996 CALSTART, Inc. All Rights Reserved. Please send comments and suggestions to: <A HREF="mailto:feedback@calstart.org">feedback@calstart.org</A>
+
+</address></h6>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</DOC>

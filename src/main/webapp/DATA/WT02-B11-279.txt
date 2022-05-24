@@ -1,0 +1,373 @@
+
+<DOC>
+<DOCNO>WT02-B11-279</DOCNO>
+<DOCOLDNO>IA086-000618-B041-375</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.007.html 130.91.195.242 19970122052236 text/html 18007
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:22:36 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 17835
+Last-modified: Tue, 22 Nov 1994 06:30:50 GMT
+</DOCHDR>
+The Clipper Initiative part 3 of 3 <p>
+
+In the absence of any other actions by the Government, if non-key
+escrow telephone encryption devices (such as the new AT&amp;T
+devices) become widely available, then the sophisticated criminal
+will use these devices to protect his or her communications from
+wiretaps.  That is the stated reason3 that NSA reacted so
+strongly against the original AT&amp;T DES phone security device.
+Other criminal elements (the average ones) will probably keep
+using the phone system without protection.  Thus the Government
+will again retain the ability to tap the phones of ordinary
+citizens and average criminals but lose the ability to tap the
+phones of sophisticated criminals. <p>
+
+If the Government equips every phone with key escrow: <p>
+
+Suppose the Government decided that the wiretap issue is of such
+importance that it would pay to have every phone in the country
+equipped with a key escrow capability so that all phone calls
+would be subject to easy decryption in the case of a wiretap.
+Most citizens and average criminals would no doubt continue to
+use the new key escrow phone system in the same way they use
+phones today, thus remaining subject to wiretaps.  However,
+sophisticated criminals, realizing what is happening, would
+likely resort to other means (such as super encryption or use of
+the new AT&amp;T devices) to protect their communications on top of
+the key escrow devices, thus exempting themselves from wiretaps.
+In this scenario, the Government will retain the ability to tap
+ordinary citizens and our average criminals but still lose access
+to the communications of the sophisticated criminal (if this
+looks repetitive, it is). <p>
+
+Or, if the Government outlaws all non-key escrow encryption: <p>
+
+Another scenario is the often mentioned case in which the
+Government outlaws all forms of encryption except those that use
+key escrow.  (Please ignore the civil liberty issues that would
+arise from such an action for this discussion.)  Once again most
+citizens, including average criminals, would continue to use the
+phone system (mostly in the clear with only limited key escrow
+capability installed), the same as they do now.  These people
+would continue to be subject to the same level of wiretap as
+today.  But the sophisticated criminal who is undeterred by using
+illegal technology will have no qualms about supplementing his or
+her telephone security and thus will be able again to escape law
+enforcement's wiretap capability. Once again, the result is the
+same as for the preceding scenarios. <p>
+
+Or, ... others? <p>
+
+The reader is encouraged to examine other scenarios.  But I
+postulate that all will result in the same conclusion we saw
+repeatedly in the above cases: in the future, for those elements
+who wish to protect their communications against interception by
+the Government or anyone else, there is nothing the Government
+will be able to do to stop them.  Key escrow procedures will not
+alter this situation. <p>
+
+Technology evolves, whether we like it or not <p>
+
+The Government, like other elements of society, is subject to
+shifts in technology, which in some cases bring forth new and
+wonderful capabilities but at times also eliminate capabilities
+previously enjoyed. <p>
+
+     The laser reader at the grocery checkout allowed
+              grocery chains to run much more efficiently but also
+              took away individual pricing, which many people dearly
+              miss. <p>
+
+     The bomber was a terrifying threat until radar allowed
+              improvements to defensive measures.  Stealth technology
+              has now shifted that balance again to the offensive. <p>
+
+But we don't hear cries to ban stealth technology or to insist
+that the other guy put a little reflector on his Stealth planes
+so our radar can detect them.  We accept the shift in technology
+for what it is and do as best we can. <p>
+
+The balance of technology has long favored the ability to wire
+tap communications.  With widespread use of private branch
+exchanges and cryptography, that balance will shift no matter
+what else we might do to attempt to slow it.  We must be careful
+in our haste to  impede this technological shift lest we
+introduce expensive and invasive capabilities that do not achieve
+what we desire. <p>
+
+Footnotes for APPENIX A <p>
+
+1      Jim Kallstrom, FBI, in answer to a question before the
+       CSSPAB on July 29, 1993. <p>
+
+2      Jim Kallstrom, FBI, in answer to a question at a Clipper
+       Briefing April 24, 1993, at the New Executive Office
+       Building, Washington, DC. <p>
+
+3      Testimony by Dr. Clinton Brooks on June 2, 1993, before the
+       CSSPAB. <p>
+
+APPENDIX B <p>
+
+How will key escrow work? <p>
+
+The original Clipper announcement indicated that the Initiative
+was to be used for telephone-like communications, at least for
+now.  Many in the computer industry have been concerned about the
+impact of a hardware-only key escrow solution on their ability to
+supply products employing cryptography.  An examination of the
+information supplied to date on key escrow provides a basic
+understanding of how key escrow will work domestically in
+telephone systems but little insight into its use in computer
+systems, or internationally. <p>
+
+On July 30, 1993, NIST unveiled a draft "Escrowed Encryption
+Standard" that describes, often in purposefully vague terms, how
+a key escrow system will work.  It includes a statement of
+applicability for voice, fax, and data limited communication
+levels of up to 14.2 Kbps and below.  (For those not into
+communications jargon, that amounts to voice-grade, point-to-
+point communication links such as when one picks up the phone to
+dial another person or send a fax.)  The application of key
+escrow to high bandwidth computer communications networks is
+apparently being left for later documents. <p>
+
+The Government has insisted that the encryption being used for
+key escrow must be kept secret and only made available in
+hardware versions that are highly tamper resistant so that the
+key escrow measures cannot be subverted or bypassed. <p>
+
+First for telephones ... <p>
+
+The operation of telephone security devices (such as the AT&amp;T
+3600 "bump-in-the-wire"), in the absence of key escrow, can
+readily be understood.  In such devices, the user (typically a
+person rather than a computer) places a phone call and, once a
+connection has been established with the desired parties, presses
+the "secure" button which initiates the synchronization of both
+parties' encryption devices.  At this point encrypted
+communication proceeds until either party hangs up or presses the
+"clear" button.  This is approximately how the original AT&amp;T 3600
+that uses the DES operates. <p>
+
+The addition of key escrow to such a device occurs approximately
+as follows.  After the "secure" key is pressed and the
+cryptographic synchronization has taken place, each device
+generates a special "Law Enforcement Access Field" (LEAF) and
+exchanges it with the device at the other end of the connection.
+The LEAF contains, among other things, an encrypted version of
+the device's unique identification number. <p>
+
+If a wiretap is in place when the "secure" key is pressed, the
+wiretap authorities will be able to detect the LEAF and extract
+the unique id, which can then be sent to the Government key
+escrow agents (two of them are envisioned at present for added
+protection from improper   use).  Each key escrow agent will
+return his/her instance of the device's unique key in encrypted
+forms that together will allow the wiretap authority to decrypt
+the scrambled communications. <p>
+
+The equipment that the wiretap authority will need to detect key
+escrowed telephone communications and ascertain the target
+device's unique id will be relatively straight forward. Once it
+detects the synchronization exchange between encryption devices,
+it need only wait until the LEAF is sent to pick up the device's
+ID. <p>
+
+How will the exchange with the key escrow agents take place? <p>
+
+How the actual exchange between the law enforcement authority and
+the two key escrow agents will occur has not been publicly stated
+(at least as of this writing1).  The escrow agent must determine
+that the law enforcement authority has a valid wiretap court
+order even though he or she must not be told whom the wiretap is
+for or to whom the device ID belongs. The exchange between the
+wiretapper and the two key escrow agents must happen quickly
+because real-time taps of urgent phone calls may be taking place. <p>
+
+Under these circumstances, it is difficult to comprehend what
+particularly critical role the escrow agent is performing since
+he or she has virtually no information on which to base a
+decision to send the device's unique key to the wiretapper.  It
+is also difficult to see how the audit trail that each escrow
+agent must keep will be of any value in detecting misuse of the
+system since all it contains is the fact that a requested key was
+returned to a particular wiretap authority at a particular time. <p>
+
+How many intercept devices there will be has not yet been
+determined.  One per law enforcement jurisdiction seems too many,
+one per locality having wiretaps last year doesn't seem right,
+and a few stockpiled in Washington with the key escrow agents
+feels wrong. <p>
+
+And who will pay for all of this? <p>
+
+How much the key escrow service will cost and who will pay for it
+have not yet been determined either.  Presumably, the Government
+will pay for the costs of acquiring, storing, cataloging, and
+accessing escrow keys, though it may seek an increase in the
+Federal excise tax on phone use to fund it.  The user will have
+to pay for the device (unless the scenario in which the
+Government pays for everything comes about).  The price of the
+AT&amp;T devices today is approximately $1200 each.  Presumably, the
+Clipper version of the AT&amp;T device will not cost the consumer any
+more (even though because of the extra Clipper chip it will cost
+AT&amp;T more to make).  But unless the Clipper version is actually
+lower in price than the non-key escrow devices, it is difficult
+to see why a consumer will choose the key escrow   version over
+the ordinary one.  It also remains to be seen how many people are
+willing to pay extra (even if the price drops by a factor of ten)
+for any form of telephone security. <p>
+
+... and then for computer communications? <p>
+
+Typically, computer-to-computer communications such as electronic
+mail do not involve a time synchronization between the sender and
+the receiver.  One can originate mail that takes minutes or hours
+to deliver, and the receiver can take days to get around to
+reading it.  So the equivalent of one user pressing the "secure"
+button to synchronize the encryption devices with the receiver
+does not exist. <p>
+
+Today's electronic mail security services typically use a pseudo
+random number to encrypt the text of the message to be sent and
+then encrypt that message key using the receiver's public key to
+protect it during transmission and send it along with the
+encrypted message.  The receiver's process looks up his or her
+private key, decrypts the message key, and then decrypts the
+message itself.  It would be possible to have the originating
+process generate a LEAF and send it along with the message so
+that any wiretap could identify the unique ID of the sender.
+This would, of course, require a LEAF for every message sent. <p>
+
+Is hardware-only encryption feasible? <p>
+
+The Government has stated a firm requirement that the encryption
+process must be performed in hardware to protect the integrity of
+the encryption itself and the resulting LEAF.  Clearly that
+portion of the system that does the encryption can be implemented
+in a hardware device or smart card or PCMCIA card.  The
+electronic mail (or other) application system itself will at some
+level be implemented in software on a host computer, personal
+computer, or workstation.  That software, while it probably
+cannot compromise the hardware, can certainly bypass it, leaving
+out or modifying the LEAF.  Such action could result in
+unsuccessful decryption by the receiver's hardware device. <p>
+
+But there are several scenarios in which groups of people who
+want to defeat the key escrow process will certainly be able to
+do so.  The first case involves using another software encryption
+process (such as Pretty Good Privacy [PGP] or Privacy Enhanced
+Mail [PEM]) to superencrypt the message before sending it to the
+key escrow encryption hardware.  The message would have a
+legitimate LEAF and be fully compliant with the latest version of
+the Escrowed Encryption Standard.  But if the law enforcement
+authorities ever try to decrypt it, they will find the
+superencrypted message underneath. <p>
+
+A second approach at defeating the escrow process would be for
+the software that processes the message after it has been
+encrypted by the key escrow hardware to save the LEAF and modify
+the one that is contained in the message so that it looks okay.
+The real LEAF could be forwarded in parts in other portions of
+the communications protocols so that the receiving  system could
+reconstruct the proper LEAF, reinsert it in the message, and send
+the message to the key escrow decryption hardware.  Any law
+enforcement use would, of course, be thwarted by the improper
+LEAF. <p>
+
+A third approach would be to just encrypt the message after it
+has been through the key escrow hardware so that the message,
+LEAF and all, would be encrypted.  Of course, if one is going to
+do this, one would not bother with the key escrow hardware in the
+first place. <p>
+
+The point of all this is that truly hardware-only implementations
+of key escrow techniques are not possible in computer
+applications.  Within a very short time after the introduction of
+key escrow systems, software patches for most popular application
+programs to defeat key escrow without detection (until a wiretap
+is attempted) will be available on free software bulletin boards
+everywhere.  Anyone who wants to protect their communications
+from wiretap can do so easily without detection.  Even if the
+Government were to mandate the use of key escrow hardware, one
+can quickly expect software implementations that look like the
+hardware output (but won't work on a wiretap) to crop up just to
+save the extra cost of purchasing the hardware. <p>
+
+Interception complexity <p>
+
+The problems for the interceptor are considerably more difficult
+than in the telephone case. First of all, the wiretap must
+capture all of the data being sent to be effective.  This will be
+okay if the direct link to the user's computer is tapped, but
+much more difficult if only one of the many links in the wide
+area network over which the user's data is sent can be tapped,
+since only portions of the communications may be intercepted. <p>
+
+The interceptor's device must understand all of the computer
+protocols up to and including the specific electronic mail or
+other application protocol to be able to find the LEAF in the
+maze of protocol layers.  Given today's sophisticated protocol
+handling devices, building such an interception tool is not
+considered a technological challenge, but a general purpose tool
+capable of intercepting LEAFs in a wide variety of application
+layer protocol streams will be considerably more complex than the
+simple telephone interception device. <p>
+
+Legal side of broad network wiretaps? <p>
+
+It is also worthy of some legal scholar's review to determine if
+the provisions in the wiretap statute that require minimization
+of the intercept of traffic other than that associated with the
+actual wiretap target will render blanket searches of wide area
+network links illegal.  It certainly will be hard to avoid
+examining massive quantities of information that have absolutely
+nothing to do with the wiretap target in such a search. <p>
+
+All of these concerns taken together make it clear that
+implementing key escrow encryption in the large number of
+existing and future applications for computer communications will
+be a much more difficult task than that envisioned for telephone
+systems. <p>
+
+And who will pay? <p>
+
+Once again, presumably the Government will pay for the
+interception costs, but the user will have to pay for the actual
+hardware devices that are employed.  The cost of $25 per chip
+translates into $100 per device, once it is packaged and
+documented for end user installation. If one envisions 10 million
+such devices put into operation in the next few years, that
+amounts to $1 billion in extra cost to the user community.  This
+cost must be weighed against the essentially free software
+packages that are available.  And for what capability? <p>
+
+But does the FBI really need to obtain computer traffic by
+wiretap? <p>
+
+In all the comments I have seen to date, no one has indicated
+that the law enforcement community needs wiretaps to obtain
+computer communications.  Most computer systems have automatic
+backup capabilities that keep archive copies of all files in case
+of equipment failures.  Law enforcement authorities can obtain
+copies of electronic mail or other computer files through
+traditional search warrant procedures instead of resorting to
+difficult-to-obtain wiretaps.  A counter argument might be that
+searches yield historical data while wiretaps yield real-time
+data.  But until there is a demonstrated need for a capability,
+we must not use the possibility that we might want something as
+the excuse to pursue a path that is contrary to technological
+evolution. <p>
+
+Footnote for APPENDIX B <p>
+
+1      The information in this section of the paper is derived from
+       the testimony of Mr. Geoffrey Greiveldinger, Special
+       Counsel, Narcotic and Dangerous Drug Section of the
+       Department of Justice before the CSSPAB on July 29, 1993. <p>
+
+</DOC>

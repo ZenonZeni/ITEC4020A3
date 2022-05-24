@@ -1,0 +1,100 @@
+
+<DOC>
+<DOCNO>WT02-B25-19</DOCNO>
+<DOCOLDNO>IA067-000406-B020-345</DOCOLDNO>
+<DOCHDR>
+http://www.dsnt.com:80/090996infoworld.html 207.78.30.85 19970112210618 text/html 4595
+HTTP/1.0 200 Document follows
+Date: Sun, 12 Jan 1997 21:07:29 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html>
+<body>
+
+<font size=6>Info World Article:</font>
+<p>
+<font size=3>Publication date: September 9, 1996 (Vol. 18, Issue 37)</font><p>
+<font size=3>Author: Brooks Talley</font><p>
+<font color="#ff0000" size=4>* Encryption hardware</font><p>
+<b><font color="#ff0000" size=5>NetFortress effortlessly turns Internet into a secure, low-cost WAN.</font></b><br>
+<font size=5>Units can't be used with other machines unless reset by the manufacturer or a reseller.</font><br>
+<p>
+
+It's not often that something Internet-related comes in a small black box requiring no configuration, but Digital Secured
+Network Technology Inc. offers just such a product. 
+<p>
+The NetFortress encryption product is a great alternative for those who want to send confidential information over the Internet
+instead of using a more costly private network. 
+<p>
+I greatly appreciated the NetFortress' lack of complexity. I simply plugged in one of the units in front of the router on each side
+of an Internet connection, and the system worked flawlessly. 
+<p>
+The NetFortress works by encrypting everything at the network layer with a unique key so that the outside world can read only
+the source and destination IP address. The data inside the packet -- even which TCP/IP port the packet is bound for -- is
+effectively turned into gibberish until the packet arrives at its destination. 
+<p>
+Using the Diffie-Hellman key exchange protocol, NetFortress units can be set up at multiple sites to establish a true WAN using
+the Internet. 
+<p>
+The company burns a unique private key into the boxes when you buy them so that they can communicate only with one
+another; therefore, NetFortress units owned by different companies can't decrypt each other's traffic. 
+<p>
+(You also can get NetFortress boxes configured to either allow or deny traffic that is going to locations without a corresponding
+NetFortress.) 
+<p>
+The boxes generate new public and private keys every 24 hours. 
+<p>
+When you initially turn on the box, the NetFortress burns the IP address of the machine it's attached to into flash ROM,
+rendering the box incapable of working with a machine with any other address. 
+<p>
+A LAN version of the same box burns the class C address, and the two address types can be mixed together so that a smaller
+remote office can use the single-IP NetFortress while the main office uses the LAN version. 
+<p>
+I examined the packets traveling between two locations using Novell Inc.'s LANalyzer 3.0. Predictably, I could easily decipher
+packets captured before installing the NetFortress, and plain-text passwords for Telnet and FTP (File Transfer Protocol)
+sessions abounded. 
+<p>
+After installing the NetFortress, however, I couldn't even tell which service a given packet was from -- everything but the
+packet header itself was rendered undecipherable as it traversed the Internet. 
+<p>
+One downside to the NetFortress is the way it irreversibly burns some information into its flash ROM. Better hope your
+network numbers don't change and that you never want to move your NetFortress to another location, because a NetFortress
+won't work on any network except the one on which it was first brought up. 
+<p>
+You can return the box to the company or your reseller and have it reset, but this feature seems a bit heavy-handed. It doesn't
+protect against anything other than physical theft of the box, in which case most accomplished technology thieves also would
+have made off with the server. At the very least, the network administrator would have the burnt-in private keys for
+corresponding units reset. 
+<p>
+Brooks Talley is a technology analyst at the InfoWorld Test Center. Send him e-mail at brooks_talley@infoworld.com. 
+<p>
+THE BOTTOM LINE: VERY GOOD 
+<p>
+NetFortress 
+<p>
+This little black box offers serious security for those who want to send confidential data using the Internet as a wide area
+network. 
+<p>
+Pros: Easy setup; extreme security.
+<br>
+Cons: Complicated to reconfigure once set up. 
+<br>
+Digital Secured Network Technology Inc., Englewood Cliffs, N.J.; (201) 568-3232; fax: (201) 568-3131; <a href="mailto:info@dsnt.com">info@dsnt.com</a>;
+<a href="http://www.dsnt.com/">http://www.dsnt.com/</a>
+<p>
+Price: $4,995 for single host box; $8,995 for class C version. 
+<p>
+<center>
+<a href="index.html">[ Home ]</a>
+<a href="hacker.html">[ Products ]</a>
+<a href="news.html">[ News ]</a>
+<a href="links.html">[ Links ]</a>
+<a href="contact.html">[ Contact ]</a>
+</center>
+
+</body>
+</html>
+
+
+</DOC>

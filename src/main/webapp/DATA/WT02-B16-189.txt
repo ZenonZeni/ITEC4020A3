@@ -1,0 +1,61 @@
+
+<DOC>
+<DOCNO>WT02-B16-189</DOCNO>
+<DOCOLDNO>IA060-000328-B016-103</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/multijunction2.html 205.168.79.27 19970115022814 text/html 2724
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 02:28:17 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:48 GMT
+Content-length: 2550
+</DOCHDR>
+<html>
+<head>
+<title>Types of Materials</title>
+</head>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>Multijunction Cells</h2>
+
+<p><font size=+2>T</font>oday's most common PV devices use a single junction, or interface, to create an electric field
+within a semiconductor such as a PV cell.  In a single-junction PV cell, only photons whose
+energy is equal to or greater than the <a href="bandgaps.html">band gap</a> of the cell material
+can free an electron for an electric circuit.  In other words, the photovoltaic response of single-junction 
+cells is limited to the portion of the <a href="lightsun.html">sun's spectrum</a> whose
+energy is above the band gap of the absorbing material, and lower-energy photons are not used.
+
+<p>One way to get around this limitation is to use two (or more) different cells, with more than one
+band gap and more than one junction, to generate a voltage.  These are referred to as
+"multijunction" cells (also called "cascade" or "tandem" cells).  Multijunction devices can
+achieve a higher total <a href="conveff.html">conversion efficiency</a> because they can convert more of the energy
+spectrum of light to electricity.
+
+<p><img border=0 align=left hspace=15 vspace=3 src="images/multijunction.gif"> 
+<font color="#F79D00">A multijunction device is a stack of individual single-junction cells in 
+descending order of band gap (Eg).  
+The top cell captures the high-energy photons and passes the rest of the photons on to be absorbed by 
+lower-band-gap cells.</font>
+
+<br clear=all>
+<p align=right><a href="multijunction3.html"><em>More . . .</em> A Look Inside</a>
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>[<a href="bandgaps.html">About Gand Gaps</a>]
+[<a href="sipolysi.html">Silicon</a>]
+[<a href="amorphous.html">Amorphous Silicon</a>]
+[<a href="thinfilms.html">Pollycrystalline Thin Films</a>]
+[<a href="gallium.html">Gallium Arsenide</a>]
+[<a href="multijunction2.html">Multijunction Cells</a>]
+[<a href="econtacts.html">Electrical Contacts</a>]
+<p>[<em>U.S. Department of Energy Photovoltaics Program, 1996</em>]
+</font>
+</center>
+</body>
+</html>
+</DOC>

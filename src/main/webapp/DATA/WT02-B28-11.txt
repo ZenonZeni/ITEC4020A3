@@ -1,0 +1,288 @@
+
+<DOC>
+<DOCNO>WT02-B28-11</DOCNO>
+<DOCOLDNO>IA007-000076-B035-299</DOCOLDNO>
+<DOCHDR>
+http://www.euthanasia.org:80/resume2.html 194.88.132.128 19970222060108 text/html 10588
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 06:09:06 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+   <TITLE>Resume</TITLE>
+
+<SCRIPT LANGUAGE = "JavaScript">
+
+<!-- 
+
+var version = 0;
+        if (navigator.userAgent.indexOf("Mozilla/3.0") != -1) version = 3;
+        else if (navigator.userAgent.indexOf("MSIE") != -1) version = 1;
+        else if (navigator.userAgent.indexOf("Mozilla/2.0") != -1) version = 2;
+        else version = 0;
+        
+function message(txt){
+        window.status = txt;
+        }
+
+function remove(){
+        window.status="";
+        }
+
+var Idea = new MakeArray("Try typing \"about:cache\" into your browser and you\'ll find everything that is stored in your browser\'s cache.",
+"Web pages that automatically bookmark themselves : -\)",
+"Hold down shift when pressing reload to clear a page\'s items from cache.",
+"Type \"view-source:\" preceding a document\'s URL to automatically view its source.")
+
+function MakeArray(){
+        this.length = MakeArray.arguments.length
+        for (var i = 0; i < this.length; i++)
+        this[i+1] = MakeArray.arguments[i]
+        }
+
+function rnd(n)
+{
+now = new Date();
+r = Math.round((n * (Math.sin(now.getSeconds()))))
+if (r < 0) r = -r; if (r == 0) r++;
+return r;
+
+}
+
+/* 
+   This cool code by Andy King (aking@webreference.com).
+   I've been trying to get my own variation to work on
+   all platforms for about 3 weeks, but this code works
+   just fine w/a few modifications. -Nick 
+*/ 
+
+var name = new MakeArray("Choose Page...",
+                         "VESS Fast Access",
+                         "VESS Homepage",
+                         "VESS Online Webguide",
+                         "Mensa Links",
+                         "Movie Links");
+
+var url = new MakeArray("",
+                        "fastaccs.html",
+                        "indexx.html",
+                        "wwwmarks.html",
+                        "mensal.html",
+                        "movie1.html");
+
+function changePage(form) {
+        i = form.jumper.selectedIndex;
+        if (i == 0) return;
+        window.location.href = url[i+1];
+        }
+// -->
+
+</SCRIPT>
+
+
+</HEAD>
+<!--BEGIN FRAME MENU SCRIPT-->
+
+
+
+<BODY background="homeback2.gif" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="maroon" VLINK="#551A8B" ALINK="#EE0000"  onLoad="if( top.frames.length ) parent.register();">
+
+
+<center>
+<img src="linebrass.gif" width=100% alt="___________________________">
+</center>
+<br><br>
+
+<center><img src="homecgd.gif" alt="Chris Docker's Homepage" width=418 height=93  ONMOUSEOVER="document.bgColor='silver'"></center>
+<BR>
+<H3>
+<center>
+<img src="eyes.gif" alt="animation" ONMOUSEOVER="document.bgColor='lightblue'">
+<font face="arial">
+
+<script>
+document.write("Today:  "+Date()+"<P>")
+</script>
+
+</font>
+</center>
+</H3>
+
+<center><a href="day_life.html" onMouseOver="self.status='Click here to read about what I get up to';return true"><img src="homeweek.gif" border=0 alt="A week in the life"></a> &nbsp; <a href="indexx.html" onMouseOver="self.status='Click here to go to my site on Death and Dying';return true"><img src="homevess.gif" border=0 alt="VESS"></a> &nbsp;<a href="#resume" onMouseOver="self.status='Click here to page down to my resumé';return true"><img src="homecv.gif" border=0 alt="Curriculum Vitae"></a>   &nbsp; <a href="mensal.html" onMouseOver="self.status='Click here to find out more about my interest in Mensa';return true"><img src="homemens.gif"  border=0 alt="Mensa"></a> &nbsp; <a href="wwwmarks.html" onMouseOver="self.status='Click here to try my hotlinks and advanced search facilities page';return true"><img src="homelink.gif" border=0 alt="Favourite Links"></a></center>
+
+<h4>
+<font face="arial"><a href="http://beta.pixelsight.com/" onMouseOver="self.status='Click here to access some amazing interactive software';return true">Like to make cool graphics for your webpage like the menu items above?</a>
+<p align=right>
+<a href="http://www.vis.colostate.edu/~user1209/fractals/bg/index.html" onMouseOver="self.status='Click here to go to a fractal background creation utility';return true">Or original backgrounds?</a>
+</p>
+</font>
+
+<img src="linebrass.gif" vspace=11 width=100% alt="___________________________" >
+
+<!-- Jump Form -->
+<!-- Won't work in NS 2.0 -->
+<!-- how_many = name.length; -->
+<!--        for (i = 0; i < how_many; i++) -->
+<!--        document.writeln("<OPTION value='" +url[i+1]+ "'>" +name[i+1]); -->
+<!--document.writeln("</SELECT>"); -->
+<!--document.writeln("<INPUT TYPE = BUTTON VALUE = Jump! onClick = 'changePage(this.form)'>"); -->
+<FORM>
+<FONT SIZE = 2>JavaScript Enabled Selection Menu - Try some of my pages: - &nbsp; &nbsp; </FONT>
+<SELECT NAME="jumper" onChange="changePage(this.form)">
+<OPTION>Choose Page
+<OPTION>VESS Fast Access
+<OPTION>VESS Homepage
+<OPTION>VESS Online Webguide
+<OPTION>Mensa Links
+<OPTION>Movie Links
+</SELECT>
+<INPUT TYPE = BUTTON VALUE = Jump! onClick = 'changePage(this.form)'>
+</FORM>
+
+<img src="linebrass.gif" vspace=11 width=100% alt="___________________________" >
+<center><a href="http://www.hwg.org/"><img src="hwg.gif"></a></center>
+<br clear=all>
+
+
+<TABLE BORDER=5 CELLPADDING=11 CELLSPACING=11>
+<TR ALIGN=CENTER>
+<TD ALIGN=CENTER><img src="cgd6a.jpg" align=left alt="[photo]">
+</td>
+<td>
+<font face="courier"><h2>Welcome to my homepage. Now if this<i> were</i> my <i>home</i> you would perhaps be carrying a bottle of good red wine, a pack of Marlboro and at least a couple of interesting or amusing stories, so if you enjoy these pages, why not drop me a <A HREF="MAILTO:vess@euthanasia.org" onMouseOver="self.status='Click here to e-mail me';return true">line</a> with some interesting ideas?
+</TR></h2>></font></TD>
+</TABLE>
+
+
+<br clear=all>
+
+</h4>
+<center>
+<img src="linebrass.gif" width=100% alt="___________________________">
+</center>
+<br><br><br>
+
+<a name="resume">
+<h3>Resume</h3>
+<i>Chris Docker</i>
+<BR>17 Hart Street
+<BR>Edinburgh, EH1 3RN, Scotland UK
+<BR>didmsnj@easynet.co.uk
+<BR>+44 (0)-131-556-4404</i>
+
+<P>
+<HR SIZE=4>
+
+<H3>Employment Objective</H3>
+
+<UL>
+To work hard and have fun, and to make some contribution to humanity.
+</UL>
+
+<H3>Current Employment</h3>
+
+<ul>Executive Secretary VESS. Directing the work of the <a href="index.html">Voluntary Euthanasia Society of Scotland.</a> (Full time salaried position.) A week's work is described in an <a href="day_life.html">article</a> from VESS Newsletter.
+<BR>A biographical article has appeared in <a href="http://www.mensa.org.uk/mensa/magazine.html">Mensa Magazine</a>.
+</ul>
+<H3>Experience</H3>
+
+<UL>
+<li><strong>Webmaster</strong> for VESS - December 1995 to Present 
+<br><a href="fastaccs.html">(Extensive website)</a></li>
+<br><br>
+<li><strong>Writing</strong> &amp publishing -
+<br>Contributing chapters:
+<br><cite>Living Wills/Advance Directives</cite> in: <a href="ci.html">Contemporary Issues in Law, Medicine &amp Ethics</a> (ed. Prof Sheila McLean)
+<br><cite>The Way Forward?</cite> in: <a href="ddl.html">Death, Dying &amp the Law.</a> (ed. Prof Sheila McLean)
+<br>Books:
+<BR><cite><a href="dd.html">Departing Drugs</a></cite> (co-author)
+<br><cite><a href="bfe.html">Beyond Final Exit</a></cite> (co-author)
+<br><cite>Collected Living Wills</cite> (editor)
+<br>Journals:
+<br><a href="nl.html">VESS Newsletter</a> (assistant editor, compilation &amp production)
+<br><a href="didmsnj.html">DIDMS News Journal</a>
+<br>Booklets, brochures &amp leaflets: for VESS
+<BR><BR>
+
+<li><strong>Public speaking</strong>
+<br>Wide range of talks, seminars and conference presentations
+<br>Media appearances, including news programmes and interviews, radio and television
+<br>Guest lectures at medical law honours level and post-graduate level
+<BR><BR>
+
+<li><strong>Management and organisation</strong>
+<br>Management of staff (30+) and training
+<br>Conference managemen<br>Press releases
+<br>Day-to-day Director of VESS
+<BR><BR>
+
+<li><strong>Information technology</strong>
+<br>Camera ready copy dtp production using Corel Ventura
+<br>Programming in OPL &amp HTML
+<br>Conversant with Corel Ventura, DOS, Windows, Word, Lotus, PaintShop Pro, Arts &amp Letters.
+<BR><BR>
+
+<li><strong>Research</strong>
+<br>Methods of self-deliverance
+<br>Living wills
+<br><cite>Research conducted to academic and international, peer review publication standards</cite>
+<BR><BR>
+
+<li><strong>Teamwork responsibilities</strong>
+<br>VESS Executive Committee 1986 to present
+<br>VESS Treasurer 1987 to 1992
+<br>DIDSIG Secretary 1994 to present
+<br>Scottish Mensa Committee Vice-Chairman 1996-
+<br><br>
+
+<li><strong>Liaison &amp Networking</strong>
+<br><a href="lords.html">Submission</a> to the House of Lords Select Committee on Medical Ethics 1993
+<br>Written &amp oral submissions to the British Medical Association Working Party on Advance Statements 1994
+<br>Personal liaison for living will research with the Law Commission, Law Society, BMA, Official Solicitor, Department of Health, and the World Federation of Right to Die Societies.
+<br><br>
+
+<li><strong>Initiatives</strong>
+<br>Founded International Drugs Consensus Working Party 1993
+<br>Founded Living Will &amp Values History Project 1994
+<br>Founded Dying In Dignity MSIG 1994
+<br>Spearheaded £40,000 grant for PAS research (Glasgow University) 1995
+<br>Developed VESS Newsletter from 4 page unformatted to international 24 page dtp 1992 to present
+<br>Pioneered VESS online (2nd largest Death &amp Dying site in the world) 1995
+<br><br>
+
+<li><strong>Research</strong>
+<br>Literature search research projects and international liaison leading to leading living will documents and publications, and the first scientifically documented self-deliverance works in the world
+</li>
+</UL>
+
+
+<h3>Education</h3>
+
+<UL>
+<li>Currently completing (part-time) a Master of Philosophy Degree in Law &amp Ethics in Medicine (Glasgow University) 1994 to present
+</UL>
+
+<H3>Personal</H3>
+<ul>
+<li>Interests include Applied ethics, Mensa, etymology, travel
+</UL>
+<h3>References:</h3>
+<ul>
+<li>Work (current): Kay Carmichael, Vice-Convener VESS
+<li>Academic &amp work: Professor Sheila A.M. McLean, International Bar Association Professor of Law &amp Ethics in Medicine; Director, Institute of Law &amp Ethics in Medicine, Glasgow University. email: guba10@udcf.gla.ac.uk 
+</UL>
+
+<P>
+<HR SIZE=4>
+<center>
+<img src="cgdmelb.jpg">
+</center>
+
+</BODY>
+</HTML>
+
+
+
+</DOC>

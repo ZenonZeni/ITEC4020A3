@@ -1,0 +1,1020 @@
+
+<DOC>
+<DOCNO>WT03-B12-15</DOCNO>
+<DOCOLDNO>IA086-000622-B036-252</DOCOLDNO>
+<DOCHDR>
+http://telnet.newsnet.com:80/libiss/te33.html 205.156.212.5 19970122045433 text/html 44373
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Wednesday, 22-Jan-97 04:52:26 GMT
+Last-modified: Monday, 20-Jan-97 17:38:03 GMT
+Content-length: 44186
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/te33.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+<A HREF="../index.html"><IMG BORDER=0 SRC="/plweb/icons/nn_home.gif" ALT="NewsNet Home Page"></A><BR>
+Copyright <BR>
+EN ROUTE TECHNOLOGY via NewsNet <BR>
+October 2, 1991<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<H3>* THIS WEEK'S LEAD STORIES *</H3>
+<UL>
+<A HREF = "#1"><A HREF = "#1"><LI>SEARS STUDIES NETWORK&nbsp;ALTERNATIVES FOR PCRADIO</A>&nbsp&nbsp&nbsp<NOBR>(973 words)</NOBR></LI>
+<A HREF = "#2"><A HREF = "#2"><LI>CONVERSION TO OMNITRACS&nbsp;SIMPLE, SAYS U.S. XPRESS</A>&nbsp&nbsp&nbsp<NOBR>(1014 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>* DELIVERY *</H3>
+<UL>
+<A HREF = "#3"><A HREF = "#3"><LI>SYSTEMS LINK PLANNED ROUTES&nbsp;WITH ACTUAL PERFORMANCE DATA</A>&nbsp&nbsp&nbsp<NOBR>(1290 words)</NOBR></LI>
+<A HREF = "#4"><A HREF = "#4"><LI>CUSTOMER GIVES THUMBS-UP&nbsp;TO CLI'S FUEL DELIVERY SYSTEM</A>&nbsp&nbsp&nbsp<NOBR>(747 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>* FIELD SERVICE *</H3>
+<UL>
+<A HREF = "#5"><A HREF = "#5"><LI>MELARD EXPANDS PORTFOLIO&nbsp;WITH SERVICE ON RAM, ARDIS</A>&nbsp&nbsp&nbsp<NOBR>(1117 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>* UTILITIES *</H3>
+<UL>
+<A HREF = "#6"><A HREF = "#6"><LI>BOSTON EDISON TO EVALUATE&nbsp;STARTUP'S MOBILE DATA SYSTEM</A>&nbsp&nbsp&nbsp<NOBR>(988 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>* HEARD EN ROUTE *</H3>
+<UL>
+<A HREF = "#7"><LI>  Speedwing Mobile Communications, a division of British</A>&nbsp&nbsp&nbsp<NOBR>(89 words)</NOBR></LI>
+<A HREF = "#8"><LI>  Qualcomm, Inc. in San Diego has filed a registration</A>&nbsp&nbsp&nbsp<NOBR>(127 words)</NOBR></LI>
+<A HREF = "#9"><LI>  Ericsson GE Mobile Data in Paramus, N.J. and Racotek in</A>&nbsp&nbsp&nbsp<NOBR>(121 words)</NOBR></LI>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+EN ROUTE TECHNOLOGY via NewsNet
+October 2, 1991
+
+SEARS STUDIES NETWORK
+ALTERNATIVES FOR PCRADIO
+
+  Sears Roebuck and Co.'s Product Services Division plans to
+test the use of mobile data communications with a version of
+IBM's new PCradio in about six months, says Stan Knipe,
+executive vice president for product services at Sears in
+Chicago. Knipe expects recommendations on how Sears should
+conduct the tests, and what wireless network it should use,
+from the division's systems people in about 60 days.
+
+  Although Sears has stated its intentions to use the
+portable computer from IBM, it can't begin hands-on work with
+the product until it implements a new system to support its
+field service operations, Knipe says. The system will allow
+Sears to handle service requests through a small number of
+regional centers, rather than through its 850 local service
+centers.
+
+  Call takers will schedule appointments with customers and
+then transmit work orders to the local centers, from which
+technicians are dispatched. "We have to have this software
+system, and even the process changes that that drives, in
+place before we're going to be able to feed and support the
+remote access terminal type of thing," Knipe says. Sears
+plans to roll out the new system nationally over the next 18
+months.
+
+  When the tests occur, they might or might not involve the
+Ardis public mobile data network. In early 1990, soon after
+IBM and Motorola announced their joint venture to form Ardis,
+Knipe discussed imminent plans to test that technology for
+field service applications (see our sister publication,
+Mobile Data Report, February 12, 1990).
+
+                    Tests Never Took Place
+
+  The tests never took place, however, and now it's not clear
+whether Sears will use Ardis, Knipe says. The company might
+instead decide to use network facilities provided by Sears
+Technology Services (STS) in Schaumburg, Ill.
+
+  STS operates the data communications network for the Sears
+family of corporations, including Dean Witter, Coldwell
+Banker and Allstate Insurance as well as the retail
+operation. It also operates three information processing
+facilities -- in Schaumburg, Dallas and Columbus, Ohio --
+which serve all the Sears companies except Allstate.
+
+  The STS data network, which is based on IBM System Network
+Architecture (SNA), uses special access circuits obtained
+from local telephone companies to connect locations within a
+local access and transport area (LATA) to a concentrator.
+From the concentrator, data are transmitted to SNA boundary
+nodes over 56,000 bit/second links, and from the boundary
+nodes to host machines at the information processing
+facilities at 56,000 bits/second or T-1. The processing
+centers are linked by DS3 facilities.
+
+  Knipe and a spokesperson at STS both decline to specify
+what kind of radio frequency network STS could make available
+to link the handheld terminals to host computer systems.
+Neither will they discuss the details of the system that will
+be used to link the regional service call taking centers, the
+three information processing centers and the local service
+centers.
+
+  It's probably safe, however, to draw some analogies between
+the product service system and the system Sears employs to
+take catalog orders by phone. The 10 regional facilities
+through which Sears will handle service calls are the same
+ones at which it already operates its telecatalog service,
+Knipe says.
+
+  Telecatalog call-takers use "dumb" desktop terminals to
+interact with host systems at the data centers. There is
+considerable redundancy among systems at the three centers;
+it is Sears' intention to be able to route applications
+traffic to any of the three centers, depending on current
+traffic, to maintain the fastest possible response time, says
+the STS spokesperson.
+
+  All data used in product service applications also resides
+at the three central data facilities. Service representatives
+use desktop terminals to access information such as history
+of service on the appliance, whether the appliance is in
+warranty and whether the customer has purchased an extended
+service agreement. Under the new system, that function would
+shift to the 10 regional centers.
+
+  Adding portable terminals to the picture would allow the
+local centers to dispatch technicians in the field to new
+jobs. It would also allow technicians to close out jobs,
+exchange messages with dispatchers, access technical
+information about appliances and view schematic drawings. The
+latter would not be transmitted over the network, but would
+be stored on "a miniaturized CD-ROM," Knipe says.
+
+  To handle data transmissions as economically as possible,
+Sears expects to use a PCradio that can communicate over a
+cellular network as well as over a public or private mobile
+data network, Knipe says. Brief transactions would be routed
+over the mobile data network. Large files would be
+transmitted over cellular. (Of course, if Sears decides to
+use privately-licensed frequencies rather than a public
+network, it won't have to worry about paying by the packet
+for transmitting large files, as it would on Ardis.)
+
+                         In One Box?
+
+  IBM is working on a version of the PCradio to meet Sears'
+needs, Knipe says. But it's not possible to fit the hardware
+for both cellular and mobile data network transmissions into
+the same portable box, says Jim Robinson, the PCradio project
+coordinator at Boca Raton, Fla.
+
+  In August, IBM announced three versions of the PCradio.
+Model 001 contains a 2,400 bits/second landline modem; model
+002 contains a Motorola 400i packet assembler/disassembler
+for use on Motorola radio networks, including Ardis; and
+model 003 includes a cellular transceiver and a 2,400
+bits/second modem for transmission over cellular. The
+terminal can't accommodate both the 400i and a cellular
+transceiver, Robinson says.
+
+  A customer could, however, gain the ability to transmit
+over two kinds of wireless networks by sacrificing some
+degree of portability. For example, a customer could use an
+RS-232 link to connect the cellular PCradio to an RF modem in
+a vehicle, Robinson says. This would allow the user to
+transmit over Ardis or a private network only while in the
+vehicle, but over cellular from anywhere.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+EN ROUTE TECHNOLOGY via NewsNet
+October 2, 1991
+
+CONVERSION TO OMNITRACS
+SIMPLE, SAYS U.S. XPRESS
+
+  When Geostar Corp. declared bankruptcy this May, U.S.
+Xpress, a full truckload (TL) carrier in Tunnel Hill, Ga.,
+was left in the dark. But the firm isn't kicking itself over
+the time it spent integrating the now-defunct vehicle
+tracking and messaging system with its operations. Thanks to
+development work it did with its Geostar vendor, Hughes
+Network Systems in Germantown, Md., U.S. Xpress is now having
+an easy time linking applications on its AS/400 network with
+data from its new satellite communications system, says Jim
+Clerc, data processing manager at the trucking company.
+
+  U.S. Xpress signed a $5.3 million contract this summer with
+San Diego-based Qualcomm Inc. for service on its Omnitracs
+system. The trucking firm is currently installing Qualcomm's
+vehicle tracking and two-way messaging system on its trucks
+at the rate of 50/week. All 550 trucks should be equipped by
+sometime in November, Clerc says.
+
+  Under the contract, another 250 units will go to a sister
+company, Southwest Motor Freight in Chattanooga, Tenn. Once
+the Georgia company finishes its own implementation, it will
+replace Southwest's current dispatching and management system
+with its own software, including the Omnitracs interfaces.
+
+  The contract also includes an option to purchase an
+additional 1,000 Omnitracs units to install on newly-acquired
+trucks in the future. U.S. Xpress used the Geostar network
+for about 15 months before bankrupt Geostar pulled the plug
+on its service. The trucking firm worked closely with Hughes
+to provide interfaces to its own dispatching and management
+software, which was developed in-house.
+
+  U.S. Xpress uses vehicle position data to help automate
+fuel tax reporting, watch for trucks that go out of route and
+estimate fuel consumption, among other applications.
+
+  If Geostar had not gone out of business, U.S. Xpress
+probably would have been perfectly happy to continue using
+the system from Hughes -- but no one at the company regrets
+the relationship with Qualcomm either, Clerc says.
+
+  During the weeks when the company was "dark" -- between
+Geostar's death and the contract with Qualcomm -- the
+advantages of vehicle tracking and satellite communications
+became extremely clear, he says. The company has seen a 20
+percent increase in productivity through the use of the
+satellite systems, he says.
+
+  Unlike many of Qualcomm's other customers, U.S. Xpress is
+flying solo in providing links to Omnitracs. Usually,
+Qualcomm gives new customers a shopping list of interfaces
+and applications it can provide. Once the customer decides
+what it wants, a software applications engineer employed by
+Qualcomm writes the code needed to import data from the
+satellite network into databases used by pre-existing
+applications on the customer's host, says Jan Stevens,
+manager of software engineering at Qualcomm.
+
+  Qualcomm does a great deal of this "external applications"
+work, but Clerc recently told her that U.S. Xpress wouldn't
+need any outside programming help, Stevens says.
+
+  Applications at U.S. Xpress run on a network of five IBM
+AS/400s. One of the machines, whose main function is to
+manage communications, is currently linked by a dial-up
+connection to Qualcomm's network facilities in San Diego.
+This will soon be replaced by a leased T-1 circuit, Clerc
+says.
+
+  U.S. Xpress dispatchers work on "dumb" terminals tied to
+the mainframe network. The multi-session CRTs allow them to
+work in three applications at once, moving from one screen to
+the next without having to exit one program and enter
+another.
+
+                     Link to Southwestern
+
+  One of the functions the dispatchers can perform is to
+access Southwestern's dispatching program, running on an
+AS/400 in Chattanooga. Although the two firms dispatch their
+fleets separately, their computer systems are linked by high-
+speed lines.
+
+  A U.S. Xpress dispatcher with a new load to assign can
+query the Southwestern database to determine whether that
+company has a truck in the area that's better able to handle
+the job than a truck in his own fleet. The link between the
+two system leads to "better utilization of both companies'
+equipment. We're competing against each other, but we're also
+helping each other," Clerc says.
+
+  As part of the integration with Omnitracs, the dispatchers'
+terminals will soon give way to 80286-based IBM compatible
+personal computers operating at 16 MHz, with 2 megabytes of
+RAM and 50 megabyte hard disks. Having the PCs will allow
+U.S. Xpress to use Qualcomm's Intracs software. Intracs
+displays vehicle location data, downloaded from the host
+computer to a PC, on computerized maps.
+
+  Each dispatcher will use the map display to view the part
+of the fleet for which he is responsible. Data will be
+downloaded from the AS/400 at set intervals and when the
+dispatcher requests an update. Ultimately, Clerc wants the
+system to update positions in the PC each time they're
+updated in the host. (Generally, Qualcomm transmits a
+vehicle's position once each hour plus each time the driver
+sends a message.)
+
+  Although the advent of the PCs will put new processing
+power on dispatchers' desks, U.S. Xpress doesn't plan to take
+advantage of the added muscle when it designs applications.
+The desktop machine, with its super-VGA screen, is basically
+"a high-priced graphics display," Clerc says. "If the AS/400
+could do it [run the map display program], we probably would
+do that."
+
+  Further enhancements to the system will follow when
+Qualcomm provides U.S. Xpress with sensors, allowing it to
+transmit data from engines over the satellite network. The
+company currently gets some idea of how engines are
+functioning by making calculations based on position data,
+but that's "kind of guesswork," Clerc says.
+
+  Eventually, rather than have its system simply display
+engine conditions to dispatchers, U.S. Xpress would like the
+computer to analyze the data and make decisions about how to
+solve problems, Clerc says.
+
+  Although U.S. Xpress will probably want to go its own way
+in handling data from sensors, Qualcomm is preparing to
+release a packaged application designed to make use of that
+type of information. The Sensortracs program has been in beta
+testing for some time now, says Stevens.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+EN ROUTE TECHNOLOGY via NewsNet
+October 2, 1991
+
+SYSTEMS LINK PLANNED ROUTES
+WITH ACTUAL PERFORMANCE DATA
+
+  Like the plans of mice and men, the best-laid plans for
+delivery routes sometimes go awry. A firm might invest many
+thousands of dollars in a routing and scheduling package that
+uses sophisticated algorithms to analyze an information-
+packed database. Overnight, that software might churn out
+delivery plans designed to save fuel, use equipment
+efficiently and keep customers delighted. But once the trucks
+hit the road, real world problems -- like traffic jams,
+overheated engines and errant drivers -- can play havoc with
+ideal routes.
+
+  To help bridge the gap between plan and performance, some
+delivery organizations have been merging data from their
+routing systems with data from trip recording computers. The
+reports they obtain in this way at the end of each driver's
+run can help them identify performance problems such as
+unnecessary detours and missed delivery windows.
+
+  In addition, at least two systems on the market today can
+compare real-time data from automatic vehicle location (AVL)
+systems with pre-determined routes to detect problems while
+trucks are still on the road. These systems can calculate the
+effect that a performance lag will have on deliveries later
+in the day.
+
+  They can then plan a new route to put things back on
+track -- or at least to satisfy those customers with the most
+stringent delivery requirements. Using a mobile data
+communications network, they can automatically transmit
+revised routes to computers or terminals in the delivery
+trucks.
+
+  Routing Technology Software, Inc. (RTSI) in Vienna, Va.
+announced such a package this spring. The system uses the Ram
+Mobile Data network to transmit location data from a Global
+Positioning System (GPS) receiver mounted on a truck to a
+host computer running RTSI's Roadshow routing and scheduling
+package. For transmitting new routes and other messages to
+drivers, RTSI is remarketing mobile data terminals from
+Racotek in Burnsville, Md. and radio frequency modems from
+Ericsson GE Mobile Data in Paramus, N.J.
+
+  RTSI designed Roadshow primarily to address dense delivery
+situations in metropolitan areas, although it also has
+customers with trucks serving multiple states. The other
+product that can re-route drivers on the fly, the Mobile
+Communications System (MCS) from Rand McNally TDM in Skokie,
+Ill., is aimed at over the road operations.
+
+  MCS accepts location data transmitted over Qualcomm's
+Omnitracs or Motorola's Coverage Plus systems (and formerly
+from the now-defunct Geostar system). It compares current
+locations with planned routes, alerts the dispatcher when a
+truck is falling behind its estimated time of arrival (ETA)
+and detects when a truck is out of route.
+
+                       Visiting Shirley
+
+  A driver on a long distance trip might go out of route --
+using extra time and fuel -- because of road construction,
+bad weather or "because he's visiting Shirley," says Henry
+Feinberg, president at Rand McNally TDM. Once the problem
+becomes evident, the dispatcher can have MCS produce new
+instructions to put the the driver back on target. He then
+transmits those directions to the mobile data terminal.
+
+  The two systems seem to have tremendous potential for
+certain delivery situations, but both are still unproven in
+the marketplace. Although RTSI and Rand McNally are solidly
+entrenched in the routing systems market, they're only now
+starting to market their mobile communications products.
+Neither has yet signed a customer for its new system.
+
+  Are the benefits that result from comparing planned and
+actual routes in real time worth the extra cost of using AVL
+and mobile communications systems?
+
+  Perhaps for some operations, but not for E & J Gallo, says
+Monty Maglinte, an industrial engineer with the Modesto,
+Calif. winery. Gallo is starting to explore how to combine
+data from its routing and scheduling system with data from a
+trip recorder. Gallo's distributorships, some of which are
+corporate owned, use a routing package called Truckstops 2
+from Microanalytics in Arlington, Va.
+
+  Maglinte and his colleagues at Gallo serve as technology
+consultants to the distributors. The firm is currently
+investigating trip recorders they will recommend for various
+functions, including comparisons of actual trips with routes
+created by Truckstops 2. Like others who are combining the
+two technologies, Gallo wants not only to measure how drivers
+progress from stop to stop, but also to track other factors,
+such as how long drivers spend at each account and how many
+cases of product they unload per hour.
+
+  If the software creates effective routes, there won't be a
+lot of problems the dispatcher needs to address in real time,
+Maglinte says. A truck might break down, or problems with an
+account might cause a driver to spend an hour at a stop
+instead of the expected 20 minutes. But those complications
+don't arise often enough to merit great concern, he says.
+
+  Technology that can produce and transmit revised routes to
+drivers is great, but it's more costly than it's worth, says
+Mark Whalley, transportation product manager at STSC in
+Rockville, Md. STSC's routing and scheduling package, Trucks,
+is designed for both local and long-haul fleets. Most of its
+users are private carriers, Whalley says.
+
+  Drivers who cover the same geographic areas day after day
+know their territories well, he says. When they encounter
+delays, they can figure out their own shortcuts and
+alternative routes.
+
+  There would be no extra value to getting performance data
+in real time rather than at the end of a delivery run, says
+Gary Strzelczyk, director of transportation at Bevaco Foods
+in Pittston, Pa. Bevaco, a food service distributor, makes
+runs to 13 states out of its central location. Drivers make
+trips of one to four days, delivering to restaurants, health
+care facilities and other institutions.
+
+  Bevaco has used routing software from Roadnet Technologies
+in Timonium, Md. for about 3-1/2 years. The firm has been
+using trip recorders from Cadec Systems in Londonderry, N.H.
+for the past two years. Roadnet is now working out the bugs
+in an interface that allows the Roadnet system to accept data
+from the Cadec and produce printed exception reports,
+Strzelczyk says.
+
+  At the end of each run, a Bevaco staffer extracts data from
+the onboard computer by inserting a cartridge into the Cadec
+and then uses the cartridge to upload the data to a personal
+computer. Bevaco uses a floppy disk to transfer drivers' trip
+reports, containing the times they arrived at and left each
+stop, to a second PC running the Roadnet system.
+
+  The customers that Roadnet serves don't need real time data
+communications to monitor routes, says David Carp, national
+sales manager at the Maryland firm. Unlike long-haul trucking
+carriers, private delivery operations don't assign new stops
+to drivers while they're on the road.
+
+  "Usually if you're dealing with a beer distributor, wine
+distributor, food service distributor, they're not getting
+any orders during the day. It's all pack 'em up and send 'em
+out and let 'em come back empty," he says.
+
+                        Enough Hiccups
+
+  For drivers who make many stops in a compact, congested
+urban territory, however, the workday contains "enough
+hiccups" that it pays to track their progress all the time,
+says Donald Soults, president at RTSI. The routing
+software/trip recorder combination is a good tool for
+evaluating driver performance, but RTSI's real time system
+can help companies anticipate and avoid customer service
+problems, he says.
+
+  Dispatchers can use the mobile data network to transmit
+revised routes not only when drivers fall behind schedule,
+but also when parts of the road system become unavailable. A
+dispatcher who learns, for example, that a bridge has been
+closed uses a mouse to click on the image of that bridge on
+Roadshow's video map display.
+
+  Once the bridge is selected and deleted, the software
+calculates new instructions for any drivers whose routes are
+affected by the change, Soults says. The dispatcher can then
+transmit the changes to the drivers.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+EN ROUTE TECHNOLOGY via NewsNet
+October 2, 1991
+
+CUSTOMER GIVES THUMBS-UP
+TO CLI'S FUEL DELIVERY SYSTEM
+
+  Following a 90 day pilot on the Ram Mobile Data Network, MB
+Trucking Co. in New York City is implementing mobile data
+terminals in 20 of its fuel delivery trucks. MB is using the
+terminals in connection with the Fueltronic 2000 dispatching
+system from Carrier Logistics, Inc. (CLI) in Rye Brook, N.Y.
+CLI used the recently-concluded pilot to refine the new
+dispatching system before marketing it to other fuel delivery
+companies.
+
+  Fueltronic 2000 is based on the dispatching portion of
+CLI's Routronic 2000 routing and dispatching package for
+less-than-truckload (LTL) carriers, says Don Adams, president
+at CLI. The new application, customized for fuel delivery,
+was designed specifically to be used with a mobile data
+network.
+
+  MB Trucking delivers heating oil to private homes,
+apartment buildings and commercial buildings in the New York
+metropolitan area. Vendors that use its services include
+large companies such as Texaco and Amerada Hess as well as
+independent retailers. During the pilot, MB operated mobile
+data terminals from Ericsson GE Mobile Data in eight of its
+45 trucks. It has now decided to place terminals in the 20
+trucks that do regular residential deliveries -- to one- and
+two-family homes and small, brownstone-type apartment
+buildings -- says Joseph Magnone, general manager at MB.
+
+                   More Forgiving Schedules
+
+  Because trucks servicing larger accounts make fewer stops
+per day, they operate on more forgiving schedules, and MB
+doesn't think they need terminals "just yet," says Magnone.
+Also, because homeowners are less likely than commercial
+landlords to plan for their fuel needs in advance, there are
+more emergency calls for same-day service on the home
+delivery side of the business, he says.
+
+  MB has been using software from CLI for various aspects of
+its operations since the mid-1970s. The trucking firm's
+primary computer is a Unix-based IBM RT, which soon will be
+upgraded to an IBM RS/6000, Adams says. Fueltronic is running
+on an 80386-based personal computer in a multi-user Unix
+environment.
+
+  Customer orders entered on the RT are passed to the 386,
+where Fueltronic routes deliveries, manages communications
+with the mobile terminals and receives drivers' status
+reports. When a driver reports that a delivery is complete,
+the relevant data are passed back to applications on the RT.
+The 386 is linked to Ram's local switch via leased line.
+
+  MB expects to boost productivity and streamline operations
+enough to make back its investment in the new system in a
+year and a half, says Magnone. One area where it plans to
+improve is in assigning deliveries for "will-calls" --
+customers who call when they need oil, rather than scheduling
+deliveries in advance.
+
+  Using their mobile terminals, drivers will report the
+amount of product dispensed at each delivery, and the system
+will keep track of how much they have left. This means a
+dispatcher receiving a call for same-day service will know
+not only which drivers are closest to the account, but which
+are carrying sufficient fuel. Based on those two factors, the
+dispatcher can assign the job to the appropriate truck and,
+if necessary, reassign one of that driver's other stops to a
+different truck, Magnone says.
+
+  By transmitting data on completed deliveries in real time,
+MB also expects to eliminate many hours of data entry time on
+the RT. Currently, with that information reaching the office
+at the end of the day, during the firm's peak season the data
+entry staff often must work until midnight or 1:00 a.m. to
+update records. "We could be reducing our computer room time
+by three or four hours per day," Magnone says.
+
+                   More Announcements Soon
+
+  CLI's Routronic 2000 package can be used with or without an
+interface to a mobile data network. CLI is able to provide
+interfaces to both the Ram and Ardis public mobile data
+networks and soon expects to announce its first Routronic
+customers on both, says Adams. AAA Cooper Transportation in
+Dothan, Ala. implemented the system at its Atlanta terminal,
+with a link via private network to Motorola terminals in its
+trucks, in 1986.
+
+  Since many of the functions in the LTL system apply to
+other transportation situations as well, other specialized
+products could follow Fueltronic 2000 to market. The company
+recently completed a system for a client doing food
+distribution and could sell that package to others, with or
+without a mobile data interface, Adams says. Other niches
+might include general warehousing and delivery, furniture or
+appliance delivery and messenger services.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+EN ROUTE TECHNOLOGY via NewsNet
+October 2, 1991
+
+MELARD EXPANDS PORTFOLIO
+WITH SERVICE ON RAM, ARDIS
+
+  Melard Technologies Inc., a field service systems
+integrator in Yonkers, N.Y., has added communications over
+Ram Mobile Data to the list of services it will offer its
+customers. Melard was recently appointed a systems integrator
+for the Mobitex network operated by Ram, which is based in
+New York City. Melard previously announced that it had signed
+a joint marketing agreement with Ardis in Lincolnshire, Ill.,
+This allows Melard to offer communications over Ardis'
+nationwide mobile data network.
+
+  The commitment to wireless communications is part of an
+ongoing effort by Melard to reposition its business. The
+company was established in 1983 to design, manufacture and
+market handheld computers with communications capabilities.
+More recently, its product line has included peripheral
+hardware, such as barcode readers. Melard has carved a niche
+for itself especially in the telecommunications industry.
+
+  The firm has sold about 20,000 of its ruggedized handheld
+computers, which use a proprietary operating system, says
+Nick Scalera, Melard's director of market development.
+Melard's current plan, however, is to provide turnkey mobile
+information systems -- including hardware, software,
+communications, training and support -- to a variety of field
+service organizations.
+
+  Offering communications over mobile data networks "is an
+integral part of our business plan and always has been," says
+Scalera. The right technologies at the right prices just
+haven't been available until recently, he says.
+
+                        Stymied by PBX
+
+  Melard's product line has always included modems for
+transmitting data over the public switched telephone network.
+For many of its traditional customers, these have proven a
+satisfactory solution. Technicians working for the regional
+Bell operating companies (RBOCs) can always plug their modems
+into outdoor equipment owned by their firms. But for
+technicians working on other kinds of equipment, who might
+have to ask a client's permission to use a phone, or might be
+stymied by a client's PBX, landline modems pose a problem,
+Scalera says.
+
+  Melard's Access II product is a 2.4 lb., clamshell-style
+handheld with 56K of internal memory allocated between RAM
+and ROM and up to 512K of battery-backed RAM. The supertwist
+LCD is available in either 8 lines x 40 characters or 16
+lines x 80 characters. The 49-key QWERTY-style keyboard
+includes 16 function keys. A 300/1,200 bits/second internal
+modem is included. Melard uses a removable nicad power pack
+to run the computer.
+
+                      Engineers at Work
+
+  Melard's engineers are working on how to integrate
+Motorola's 400i radio packet modem into future products,
+Scalera says. The 400i is compatible with Ardis as well as
+with private networks using Motorola technology.
+
+  Work on a handheld for the Ram network will have to wait
+until a portable Mobitex RF modem reaches the market.
+Ericsson Mobile Data in Paramus, N.J. is expected to release
+an external model in the first quarter of 1992.
+
+  In addition to its own terminals, Melard will also provide
+other end-user devices, including DOS-based machines. If the
+system that suits a customer's needs includes Melard's own
+terminals, "that's fine; but if not, that's fine too,"
+Scalera says.
+
+  Scalera won't discuss whether Melard is working on its own
+DOS-based handheld. But, "I would think at this point anyone
+who would continue to develop proprietary kinds of systems
+would have a very short-sighted view," he says.
+
+  Although Melard has yet to sign a customer for service on
+either Ram or Ardis, it has customers conducting feasibility
+tests and has seen a great deal of interest. "All of the
+people that we've been talking to, especially those that
+don't have such ready access to tip and ring, have been
+waiting for this kind of thing to happen," Scalera says.
+
+  Melard isn't the only vendor of field service systems
+that's convinced there's a big demand for wireless
+communications. Although only the largest field service
+organizations were looking at the technology in the past,
+with the advent of public mobile data networks, smaller firms
+are also showing interest, says Rebecca Weber, marketing
+services manager at Service Automation, Inc. (SAI).
+
+  The Houston-based firm provides management systems for
+companies that service computer systems, residential
+appliances, medical equipment, telecommunications equipment,
+office machines and restaurant equipment.
+
+                   Still Piloting Internally
+
+  SAI announced a version of its Service Automation System
+for use with Ardis in April. Although the company has begun
+marketing the wireless application, it's still piloting the
+system internally and has not yet signed a customer, Weber
+says.
+
+  SAI does have about 100 service technicians transmitting
+data over Motorola's specialized mobile radio system, Privacy
+Plus, which provides local communications. Although those
+users will continue to be supported, SAI is no longer
+marketing data over Privacy Plus because Motorola is no
+longer offering it to new customers, Weber says.
+
+  A third field service applications vendor, The Data Group
+in Burlington, Mass., first developed the Remote-Plus
+wireless communications module to its Field Watch system for
+use with Motorola's Data Radio Network. That three-city
+network was combined with IBM's nationwide Digital
+Communications System -- which Motorola built -- to form
+Ardis in 1990. Ardis is jointly owned by IBM and Motorola.
+
+  Like its competitors, The Data Group has not yet signed a
+customer onto Ardis. One customer has decided to use the
+mobile data network but is still weighing the pros and cons
+of various remote devices, says Robert Fogler, senior project
+manager at The Data Group.
+
+                 Non-"Bursty" Communications
+
+  Some of the applications that interest field service
+organizations, such as transmitting new job assignments,
+closing out jobs and checking parts availability, are just
+the sort of "bursty" communications for which Ram and Ardis
+were designed. But other functions that service organizations
+want to move into the field, such as accessing equipment and
+customer history data and using expert systems to perform
+diagnostics, could demand enough airtime to make public
+mobile data networks an expensive choice.
+
+  An applications designer can keep costs down by designing
+data transactions that require as little network time as
+possible, Fogler says. It also pays to use a computer, rather
+than a "dumb" terminal, as the portable device, he says. This
+allows the system to operate in a client/server mode; data
+are downloaded over the network as needed, but most of the
+processing occurs locally.
+
+  Although paying by the packet to use an expert system may
+be costly, a lot of customers say it's worth the price, Weber
+says. "There may be enough value in what they can charge for
+that [service] call that it's okay."
+
+  Melard's tactic for dealing with large transactions will be
+to provide more than one communications option in one device.
+Customers using radio networks will still need landline
+modems for moving large amounts of data, Scalera says. Melard
+has also said it plans to offer data communications over
+cellular networks.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "6"></A>Copyright
+EN ROUTE TECHNOLOGY via NewsNet
+October 2, 1991
+
+BOSTON EDISON TO EVALUATE
+STARTUP'S MOBILE DATA SYSTEM
+
+  Boston Edison Co. is about to begin a small pilot to
+evaluate the use of mobile data in maintaining its electrical
+distribution network. After running this "prototype system"
+for a few months, the utility will use the knowledge it gains
+to write a detailed request for proposals (RFP) for a larger-
+scale system, says Larry Dexter, senior electrical engineer
+for communications, who works in Boston Edison's Waltham,
+Mass. office.
+
+  Using hardware and software from Metric Systems Corp., a
+small startup in Acton, Mass., the utility will download work
+orders overnight to Zenith laptop computers in trucks used by
+line repair crews in Waltham. During the day, repair crews
+will use the system to request more information about their
+assignments, report on their status, close out completed jobs
+and receive assignments for emergency work.
+
+  Currently, field technicians spend 15-30 minutes each
+morning picking up computer printouts that list their
+assignments for the day. By having the assignments waiting
+for crews on their laptops, Boston Edison hopes to get a jump
+on the work day, Dexter says. Also, by automating the way in
+which crews report on work they've completed, the utility
+company hopes to cut the time they spend reporting verbally
+to the supervisor at the end of the shift, he says.
+
+  Boston Edison will be using Mavric 2000, a wireless data
+communications system provided by Metric Systems. In its
+basic form, Mavric 2000 consists of: 1. a base station
+controller, containing a radio, an RF modem and interface
+circuitry, 2. several remote controllers, which are similar
+to the base station but are housed in more rugged boxes, and
+3. communications software. Mavric permits both two-way
+messaging (host-to-remote or remote-to-remote) and bulk file
+transfer.
+
+  "Messaging," in the vocabulary of Metric, includes
+interacting in real time with a host system as well as
+transmitting text messages, says William Brown, president of
+the Acton firm. It also includes completing fill-in-the-blank
+forms and transmitting the contents of those forms to another
+computer on the network.
+
+  In addition to providing the basic package, Metric is
+working with Boston Edison to develop the utility's
+application. One part of the project is designing forms the
+supervisor will use to transmit work orders at night. Working
+on an 80386 personal computer, the supervisor will obtain
+data on pending jobs from the utility's work management
+system, which is used to schedule jobs and control equipment
+inventory. Metric uses a 3270 terminal interface to connect
+the PC to the IBM mainframe running the management system,
+Brown says.
+
+  Once the supervisor sets priorities and assigns jobs to
+work crews, the Mavric system will automatically "dial" into
+the laptop on each truck and download the appropriate work
+order file. The form describing each job will consist of a
+section in fixed format and one in free text, Brown says.
+
+  Data will be transmitted over privately-licensed channels
+in the 484 MHz-487 MHz range, says Dexter. In addition to
+detailing the work to be done, the forms will outline the
+materials needed. Once they have their assignments, crews
+will stop in the parts room to stock their trucks before
+heading out.
+
+  Boston Edison chose to download the large work order files
+at night to help minimize daytime data traffic on the
+channels, which are used for voice as well, Dexter says.
+Crews will also use the radios in the Mavric system in place
+of their regular voice radios during the pilot. Voice mode
+automatically overrides data whenever a user picks up the
+radio's microphone and starts talking, Dexter says.
+
+  Concern about boosting traffic on voice channels will keep
+Boston Edison from considering mobile data for dispatching
+workers for another operation -- customer service -- in the
+near future, Dexter says. Users of wireless data networks
+often report that traffic drops when they replace voice
+communications with more spectrally-efficient digital
+messages. But since the channels are licensed primarily for
+voice, there's a limit to how much data the Federal
+Communications Commission will allow the utility to transmit,
+he says.
+
+  Boston Edison might consider the technology for customer
+service, however, after it switches its mobile communications
+to an 800 MHz trunked network in 1993 or 1994, Dexter says.
+In addition to Metric, the utility plans to investigate
+vendors of mobile data systems that can operate on trunked
+networks.
+
+  The pilot with Metric is Boston Edison's first time out
+with a mobile data network, Dexter says. The company had
+investigated the possible use of conventional mobile data
+terminals in the past but found they didn't have enough
+storage to handle the volume of data it wanted to transmit.
+Boston Edison hasn't worked with any of the established
+utility system vendors -- such as TTI Technologies and Dowty
+Control Technologies -- that can provide dispatching systems
+based on intelligent mobile computers, he says.
+
+  Although the pilot won't begin for a couple of weeks, the
+vendor and customer already anticipate a second stage that
+would allow Boston Edison to attach diagrams to work orders,
+Brown says. Computerized graphics representing sections of
+the electrical grid would be stored locally on the laptop.
+When a supervisor entered a work order on the PC, the system
+would determine what diagrams the line worker needed. Then it
+would remotely check the laptop to make sure it contained
+current versions of the necessary graphics.
+
+  If the laptop needed an update, the PC (now linked to
+computer-aided design workstations as well as to the
+mainframe and mobile data network) would obtain the necessary
+graphics and transmit them along with the text portion of the
+work order, Brown says. The details of how this would operate
+have not all been worked out.
+
+  Metric plans to use its work with Boston Edison, and with
+other early clients, to develop a variety of customizable
+hardware and software packages that could be sold to other
+organizations. The firm is concentrating primarily on the
+utility and public safety markets.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "7"></A>Copyright
+EN ROUTE TECHNOLOGY via NewsNet
+October 2, 1991
+
+  Speedwing Mobile Communications, a division of British
+
+  Speedwing Mobile Communications, a division of British
+Airways, has signed a strategic vendor agreement with
+Ericsson GE Mobile Data to market wireless data applications,
+using Mobitex networks, to the airline industry. Possible
+applications include linking roving personnel, such as
+fueling crews, baggage handlers and catering staff, to host
+computers.
+
+  An article in the September issue of the British
+publication, Mobile & Cellular, describes how British Airways
+is using Ram Mobile Data's U.K. network at Heathrow Airport.
+Ericsson GE will provide Mobitex modems and other hardware
+for the systems.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "8"></A>Copyright
+EN ROUTE TECHNOLOGY via NewsNet
+October 2, 1991
+
+  Qualcomm, Inc. in San Diego has filed a registration
+
+  Qualcomm, Inc. in San Diego has filed a registration
+statement with the Securities and Exchange Commission
+proposing an initial public offering of 3,500,000 shares of
+common stock. The company plans to offer 2,800,000 shares in
+the United States and 700,000 shares internationally. The
+offerings will be managed by Lehman Brothers; Bear, Stearns &
+Co. Inc. and Alex. Brown and Sons Inc.
+
+  Separately, Qualcomm announced a version of its Qtracs
+software for IBM and IBM-compatible mainframe computers.
+Qualcomm introduced Qtracs for IBM AS/400, System/36 and
+System/38 machines last year. With Qtracs, trucking company
+dispatchers can use Qualcomm's Omnitracs system to view
+vehicle locations and communicate with drivers on terminals
+linked to their regular host computers, rather than on a
+personal computer dedicated to Omnitracs.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "9"></A>Copyright
+EN ROUTE TECHNOLOGY via NewsNet
+October 2, 1991
+
+  Ericsson GE Mobile Data in Paramus, N.J. and Racotek in
+
+  Ericsson GE Mobile Data in Paramus, N.J. and Racotek in
+Burnsville, Minn. have signed an agreement to co-market
+Racotek's DOS-based mobile data terminals for use on Mobitex
+networks. Ericsson will supply vehicular radio modems for
+connecting the terminals to the network, as well as marketing
+and technical support.
+
+  Racotek is already providing terminals to Toronto-based
+Camco, a field service organization operating on the Rogers
+Cantel Mobitex network; and to the Hoboken, N.J. Fire Dept.,
+which recently signed an agreement for service on the Ram
+Mobile Data network. In addition, Routing Technology Software
+Inc. in Vienna, Va. is including Racotek terminals in a
+system, using Ram's network, that integrates automatic
+vehicle location, computerized routing and wireless
+messaging.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

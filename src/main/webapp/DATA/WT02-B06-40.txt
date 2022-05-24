@@ -1,0 +1,1188 @@
+
+<DOC>
+<DOCNO>WT02-B06-40</DOCNO>
+<DOCOLDNO>IA096-001029-B017-369</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/clipper_III/clipper_III_draft.html 205.177.10.31 19970215020233 text/html 48873
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 02:00:52 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<head>
+<title>Clipper III draft</title>
+</head>
+<body bgcolor=#FFFFFF>
+
+
+<center>
+             Executive Office of the President<br>
+               Office of Management and Budget<br>
+                   Washington, D.C. 20503<br>
+<p>
+
+                        May 20, 1996
+</center>
+<p>
+
+<b>MEMORANDUM FOR INTERESTED PARTIES</b>
+<p>
+SUBJECT:  Draft Paper, "Enabling Privacy, Commerce, Security
+          and Public Safety in the Global Information
+          Infrastructure"
+<p><table>
+<tr><td>FROM:     </td><td>Bruce W. McConnell [Initials]</td></tr>
+<tr><td></td><td>          Edward J. Appel [Initials]</td></tr>
+<tr><td></td><td>          Co-Chairs, Interagency Working Group on
+          Cryptography Policy</td></tr>
+</table>
+
+<p>
+     Attached for your review and comment is a draft paper
+entitled "Enabling Privacy, Commerce, Security and Public
+Safety in the Global Information Infrastructure." It presents
+a vision and course of action for developing a cryptographic
+infrastructure that will protect valuable information on
+national and international networks.
+<p>
+     The draft paper is the result of the many discussions we
+have had with interested parties concerning the use of
+encryption. While those discussions have explored the use of
+both key recoverable encryption and non-recoverable
+encryption, the draft paper addresses an infrastructure which
+uses key recoverable encryption. We believe such a key
+management infrastructure, voluntary and supported by *private
+sector* key management organizations, is the prospect of the
+near future. It would permit users and manufacturers free
+choice of encryption algorithm, facilitate international
+interoperability, preserve law enforcement access, and, most
+importantly, provide strong system security and integrity.
+<p>
+     Recognizing that a robust infrastructure is not yet a
+reality, we are also considering measures to liberalize export
+policy for some non-escrowed products. Appendix II of the
+draft paper begins to summarize current policy, and we intend
+to expand and improve that section.
+<p>
+     We believe that clearly articulating such a vision will
+accelerate the ability of the United States to realize the
+full advantages of the global network for commerce, security
+and public safety. However, such a vision cannot become a
+reality unless it is widely shared. Therefore, rather than
+being a finished product, the attached paper is a draft which
+we ask you to help us improve. We hope it will contribute to
+constructive discussion and promote a clearer understanding of
+each others' needs and concerns regarding the use of
+encryption.
+<p>
+     We welcome your comments and look forward to further
+discussion. Written comments may be sent to our attention,
+Room 10236, NEOB, Washington, D.C. 20503.
+<p>
+[End cover letter]
+<hr>
+<p>
+[Note:    All 25 pages of the typeset report have the word 
+  "Draft" printed in large letters across the text.]
+<p>
+<hr>
+[Head note of report] Last Modified: May 17, 1996
+
+<p>
+<h1>Enabling Privacy, Commerce, Security and Public Safety in the
+Global Information Infrastructure</h1>
+<p>
+<h3>Statement of the Issue</h3>
+
+     This paper outlines a course of action for developing an
+infrastructure that will protect valuable national information
+resources on national and international networks. Government
+and industry must work together to create a security
+management infrastructure and attendant products that
+incorporate robust cryptography without undermining national
+security and public safety. A policy for escrow of
+cryptographic keys which provides a basis for bilateral and
+multilateral government agreements must be determined so that
+industry can produce products for worldwide interoperability.
+Industry will participate in defining algorithms and protocol
+standards, and will develop key escrow encryption products
+suitable for the protection of both government and private
+sector information and which will assure timely, lawful,
+government decryption access. Government will help set
+standards for the Key Management Infrastructure (KMI) and
+deliver a market for robust security products. A KMI
+infrastructure and attendant key escrow products will provide
+many benefits, both domestic and internationally, as the US
+begins to realize the advantages of the global network for
+improve commerce, security and public safety.
+
+<hr>
+
+<h1>I.  Introduction</h1>
+<p>
+     Government can no longer monopolize state of the art
+cryptography. It is no longer acceptable to argue that the
+only information of a compelling national security interest is
+government information. It is unrealistic to believe that
+government can produce solutions which keep ahead of today's
+rapdily changing information technology. Increasingly, all
+institutions, military, civil, or corporate, will communicate
+across common links. The nation's commerce is moving to
+networking. With these enormous changes, means must be found
+to responsibly raise the quality of cryptographic services
+without jeopardizing effective law enforcement, imperiling
+public safety.
+<p>
+     Industry and government must partner in the development
+of a public key-based key management infrastructure and
+attendant products that will assure participants can transmit
+and receive information electronically with confidence in the
+information's integrity, authenticity, and origin and which
+will assure timely lawful government access. When we conduct
+transactions, we rely on face-to-face interactions, or
+obtaining a signature on a paper, to have confidence that
+commitments will be fulfilled. Policies and infrastructure are
+needed to assure we can have at least the same degree of
+confidence when we interact electronically. Government bears
+a significant responsibility to ensure the information
+infrastructure has the features that are essential to such
+confidence.
+<p>
+     There is a more compelling rationale for the government
+to be a partner in the development of the KMI. Not only has
+the Information Age sparked fundamental changes in the way we
+interact, but reliance on information systems makes our
+institutions vulnerable to an unprecedented degree. Almost all
+institutions upon which public safety and national security
+depend, ranging from the power grid to military command and
+control, are at severe risk because of their presence in and
+dependence upon a global information infrastructure.
+<p>
+     But the proliferation of quality cryptographic services
+is not without risk. Keys can be lost, stolen, or forgotten --
+rendering encrypted data useless. Additionally, the widespread
+use of encryption without safety features such as key recovery
+can pose serious risks to society. It will put at risk
+important law enforcement and national security investigations
+where electronic surveillance and search and seizure are
+essential in preserving and prosecuting crimes, and more
+importantly, in saving human life.
+<p>
+     Public key cryptography allows for secure authenticated
+transactions with any party, known or unknown, with assurance
+of data integrity and non-repudiation of the transaction.
+These features, together with increased network reliability,
+are needed to support electronic commerce, public services,
+redefined business processes and national security.  But to
+achieve its promise, public key cryptography must be based on
+a key management infrastructure and attendant products that
+tie individual and coprorate identities to their public key
+through a series of Certificate Authorities (CA). The key
+management infrastructure to do this on a global scale will be
+very large and complex, but it is an essential foundation.
+Without a KMI of trusted certificate authorities, users cannot
+know with whom they are dealing on the network, or sending
+money to, or who signed a document, or if the document was
+intercepted and changed by a third part. Therefore, users will
+demand a strong key management infrastructure, which may, in
+turn, be based on a voluntary system of commercial certificate
+authorities (CAs) operating within prescribed policy and
+performance guidelines. To achieve the environment for such an
+approach, a number of principles need to be accepted by
+government, industry, and other users:
+<p>
+<ul>
+<li>
+    Participation in the KMI will be voluntary. Key escrow in
+     the KMI will occur naturally through mutually trusted
+     authorities.
+<li>
+    There will be a transition period during which legacy
+     equipments which do not support key recovery can be used
+     to communicate with users in emerging full featured KMIs.
+     Government, industry, and users will need to address the
+     legitimate needs of those currently using non-key
+     recovery products to communicate with users of the full-
+     featured KMI in a manner that protects legitimate
+     government and public safety concerns. This will provide
+     a stable transition path.
+<li>
+    Products that operate with an escrowed KMI need to be
+     developed with industry taking the lead.
+<li>
+    Industry can continue to lead in establishing standards
+     for public key certificates, encryption algorithms,
+     protocols, data recovery, and security servcies.
+<li>
+    Certificate authorities will operate within performance
+     standards set by law.
+<li>
+Agreements between governments will serve as the basis
+for international cross certification.
+<li>
+    Self-escrow will be permitted under specific
+     circumstances.(1)
+<li>
+    Export controls on Key Escrow products will be relaxed
+     progressively as the infrastructure matures.
+<p>
+</ul>
+--------<br>
+(1)  The escrow agency must meet performance requirements for
+     law enforcement access.
+<hr>
+<h1>II.  Key Management Infrastructure</h1>
+<p>
+     In a key management infrastructure (KMI) based on public
+key cryptography, each user has one or more pairs of public
+and private keys. The public and private keys differ in a such
+a way that it is computationally infeasible to determine the
+private key from the public key. This allows the public key to
+be revealed without endangering the security of the private
+key. Users can communicate securely without having to share a
+"secret"; they only need to know each other's public key and
+that each public key is certified by a trusted authority.
+Without assurance on the "binding" of a user to a specific
+public key, these keys have little or no value.
+<p>
+     Public key cryptography supports security services such
+as authentication, confidentiality, data integrity and
+nonrepudiation. Access to a user's encrypted data for which
+the key is lost is a security related service referred to as
+data recovery. Providing a secure and trusted means of storing
+private keys within the Key Management Infrastructure is one
+means of providing data recovery. This capability naturally
+supports law enforcement access, under legal warrants. Thus,
+the user desire for data recovery and law enforcement's
+potential need for access can be accommodated in a single
+locale, so long as the user trusts the key storage and law
+enforcement has confidentiality of access.(2)
+<p>
+----------<br>
+(2)  For a survey of escrow mechanisms see Dorothy Denning's
+     article in the March 1996 Journal of Communications of
+     the ACM. More in depth articles on solutions to escrow
+     can be found in 
+<a 
+href="http://www.seas.gwu.edu/seas/ictsp/Activities/Videos_books_papers/
+Books/">
+<i>Building in Big Brother</i> </a> a collection of
+     papers edited by Professor Lance Hoffman that contains
+     both technical and political responses to
+     Clipper/Capstone.
+<p>
+<hr>
+<pre>
+[Diagram]
+<p>
+               Escrow
+          -->  Authority  (private key database)
+          |         |
+          |         |
+          |         | public keys
+          |         |                        Escrow and
+private   |         |                        Certificate
+key       |    Certificate                   Authorities
+(either   |    Authority                     can be combined
+way)      |         |                        into one entity
+          |         |
+          |         | public key certificate
+          |         | (binds IDs and keys)
+          |         |
+          |         |
+          -->  User A (private keys and certificates)
+</pre>
+<hr>
+<p>
+     The simplest model for a KMI meets government access
+requirements by relying on the certificate authorities (CAs).
+However, the hierarchy could be structured to include a
+separate Escrow Authority (EA) to provide law enforcement
+access. Provision for split keys to enhance personal privacy
+and security can be incorporated into the KMI. Either of these
+mechanisms lessens the burden of key escrow on users and on
+the producers of security products.
+<p>
+     To participate in the network a user needs a public key
+certificate signed by a CA which "binds" the user's identity
+to their public key. One condition of obtaining a certificate
+is that sufficient information (e.g., private keys or other
+information as appropriate) has been escrowed with a certified
+escrow authority to allow access to a user's data or
+communications.(3) (As noted before, this might be the CA or
+an independent escrow authority). The certificate creation
+process is pictured above.
+<p>
+     For users to have confidence in the KMI, CAs must meet
+minimum standards for security, performance, and liability. A
+Policy Approving Authority (PAA) certifies CAs for operation.
+The PAA sets rules and responsibilities for ensuring the
+integrity of the CAs. The PAA is also responsible for setting
+CA performance criteria to meet law enforcement needs.
+<p>
+     If law enforcement has obtained legal authority to access
+a user's encrypted data or communications, it would certify
+that authorization to the escrow authority. The escrow
+authority will then relinquish information sufficient to
+access the user's communication.
+<p>
+----------<br>
+(3)  This applies only to keys used for confidentiality
+     purposes and not keys used for signing purposes.
+<p>
+<hr>
+<p>
+<p>
+<h1>III. Some Issues</h1>
+<p>
+     Difficult issues include i) how to refine the application
+of export controls, ii) whether and to what extent to permit
+self-escrow, iii) whether legislation is required and, if so,
+what it should accomplish, and iv) the certainty and extent
+that government-to-government agreements can be established to
+ensure timely law enforcement access to keys/information held
+by a foreign country. This section of the White paper briefly
+explores each.
+<p>
+<p>
+Export Controls
+<p>
+     The most contentious issue surrounding encryption is
+export control policy. Encryption exports are controlled to
+all destinations in the interest of U.S. national security/
+foreign policy under the Arms Export Control Act. These export
+controls are often criticized as an impediment to the fielding
+of interoperable security across the GII and the
+competitiveness of U.S. industry. The government is mindful of
+these criticisms and has initiated a number of reforms to ease
+the impact export controls have on manufacturers and users of
+encryption. The task, then, is to find a method of applying
+export controls that meets the interest of national security,
+public safety, privacy, and competitiveness.
+<p>
+     Freedom to choose any mutually trusted certificate
+authority may accommodate the above interests.(4) In addition,
+allowing ready export of products of any bit length to markets
+where the key management infrastructure, which complies with
+statuatory constraints, is in place to permit government
+access to keys, would provide both a level market for U.S.
+manufacturers and higher quality security products for users.
+Products that meet defined performance requirements and which
+will not operate until the key is escrowed with an appropriate
+certificate authority will address commercial, public safety
+and national security needs. Some law enforcement and national
+security concerns would be protected since government agencies
+would be able to obtain escrowed keys pursuant to government-
+to-government agreements.
+<p>
+----------<br>
+(4)  A mutually trusted authority is an escrow agent trusted
+     by users to store keys and trusted by law enforcement to
+     provide access upon certification of lawful authority.
+<hr>
+<p>
+Transition
+<p>
+     We are working toward a policy that permits licensing of
+key recovery encryption systems regardless of algorithm, bit
+length, or whether implemented in hardware or software, once
+needed infrastructure and government-to-government agreements
+are in place. In the interim we recognize that the policy must
+make it worthwhile for manufacturers and users to invest in
+escrowed KMI. With these objectives in mind, and consistent
+with applicable statutes, the interim policy will consider:
+<p>
+Prior to formal government-to-government agreements:
+<ul><li>
+    Permitting export of products that use an escrowed KMI to
+     approved markets, e.g., Europe or Australia, consistent
+     with the policies of the destination country.
+</ul>
+
+<p>
+Prior to multi-national Public Key Infrastructure with Key
+Recovery:
+<ul><li>
+    Reviewing, on a case-by-case basis, proposals to export
+     products which require the use of an escrowed KMI to any
+     destination with which the U.S. has a government-to-
+     government key escrow agreement.
+<li>
+    Continuing and expanding the administration's previously
+     announced key escrow initiative by permitting the export
+     of 64 bit S/W or 80 bit H/W key escrow products that meet
+     defined performance requirements, after one-time review,
+     to any destination if keys will be escrowed in the U.S.,
+     or in foreign countries with which the U.S. has a
+     government-to-government key escrow agreement.
+</ul><p>
+In any condition:
+<ul><li>
+    Permitting the export of other products on a case-by-case
+     determination that such exports are consistent with US
+     interests.
+</ul>
+<p>
+     The proposals for an interim export control policy are
+founded on the assumption that the products will require the
+use of an escrowed KMI in a country with which the U.S. has a
+government-to-government agreement. Note that the contemplated
+exports are to civil end-users; exports to military end-users
+will require more extensive product review. The existing
+policies applicable to unescrowed products provide substantial
+flexibility and will continue as currently defined throughout
+the transition period (see Appendix II). Additional requests
+for near-term relief will be considered on a case-by-case
+basis consistent with existing practice.
+<p>
+     The interim policy also reflects a judgment that overseas
+escrow of key will generally be permissible with suitable
+government-to-government arrangements. There is a concern that
+U.S. products with keys escrowed in the U.S. will not be
+salable overseas. Hence, it may be possible to permit
+overseas escrow in Europe, even before government-to-
+government arraignments are completed. This exception is
+possible since the European countries are already moving to
+implement key escrow systems and we can reasonably expect to
+enter into law enforcement agreements in the near term. The
+OECD's goal of negotiating multilateral cryptography
+guidelines by 31 December 1996 is further evidence of European
+intent and momentum in infrastructure development.
+<p>
+     The interim policy reflects a differentiation between
+hardware and software products, i.e., hardware products with
+greater bit lengths are treated more favorably under this
+policy. Hardware implementations of products permit more
+confident binding between encryption and the key management,
+limiting the risk that the encryption can be easily stripped
+from the key management and used independently of key
+recovery. Software does not provide similar protection. This
+said, the interim policy to permit export of 64 bit software
+key recovery products would reflect a significant increase
+over the bit length restrictions applicable to non-key
+recovery products.
+<p>
+<p>
+Self-Escrow
+<p>
+     Self-escrow will be a principal concern of many large
+corporations that want to provide corporate data recovery,
+protect against loss of proprietary data from use of an
+outside escrow agent, and simply for reasons of efficiency and
+cost. Hence, self-escrow must be considered as an acceptable
+option.
+<p>
+     Escrow requires less architecture if the CA can be the
+escrow authority. However, in those cases in which an
+individual or corporation serves as its own certificate
+authority, government organizations could be compelled to
+request escrowed key from the subject of an investigation. The
+investigation could be compromised under such circumstances.
+While this risk could be avoided by adding independent escrow
+authorities as another layer in the PKI, such a solution would
+be costly and inefficient.
+<p>
+     A solution is a national policy which allows CAs for an
+organization to serve as escrow authorities if they can meet
+necessary performance requirements. These requirements should
+be determined by government in consultation with industry and
+should address timeliness, security, confidentiality of
+requests for, or release of, keys, and independence of the
+escrow authority from the rest of the organization. To this
+end, the government should seek legislation that would shield
+organization certificate authorities from internal pressures
+in the course of law enforcement investigations.
+<p>
+<p>
+Legislation
+<p>
+     There is some consensus that the ultimate legislative
+package should include provisions to criminalize the
+unauthorized disclosure/use of escrowed key, provisions to
+authorize civil actions by victims against those responsible
+for the unauthorized disclosure/use of escrowed key,
+provisions specifying the circumstances in which escrowed key
+may be requested and released (e.g., death of a family member
+or employee), and establishing liability protection for
+certificate authorities who exercises due prudence in the
+fulfillment of their performance obligations.
+<p>
+     Those who endorse a larger government role would seek
+legislation that would, for example, establish the government
+as a major participant in the PAA, which would be responsible
+to establish policies and guidelines governing certificate
+issuance. In this case, the government would be authorized to
+assure establishment of standards for the PKI that adequately
+provide for systems security and law enforcement access.
+Inasmuch as the integrity and reliability of the whole range
+of network centered activities, including electronic commerce,
+will depend on the integrity and reliability of the key
+management certificate process, there is good reason for
+government to play a substantial role.
+<p>
+     The enabling legislation envisioned here should reflect
+the stated needs of industry and users. To that end,
+government must work closely with industry and other affected
+parties to develop such legislation.
+<p>
+<p>
+Government to Government Agreements
+<p>
+     There is an expressed need by all governments to have
+access to information affecting their own security or public
+safety. Inevitably there will be situations in which the U.S.
+will want access to keys in a foreign country that concern
+criminal activities in violation of U.S. laws and vice versa.
+The security and other technical protocols that will serve as
+the framework of the GII should ensure key recovery is
+possible in either circumstance. The U.S. government should
+seek to frame and execute law enforcement agreements that:
+<ul><li>
+    will allow for timely access when authorized
+<li>
+    minimally impact security products
+<li>
+    operate within guidelines established for key recovery
+     methods including trusted third parties and self-escrow
+     standards used in the U.S.
+</ul><p>
+     It would be recognized that no agreement can guarantee
+access to keys/information held in a foreign country, but
+established agreements might serve as a framework to request
+lawful access to keys/information. Such arrangements will be
+based on the philosophy that authorized government access must
+be preserved consistent with the legally recognized privacy
+interests of the citizens of each country.
+<p>
+<hr>
+<p>
+<p>
+<h1>IV.  Actions</h1>
+<p>
+     Several issues discussed in this paper raise substantial
+policy questions that will not be easily resolved. The
+government, however, has an interest in seeing good security
+products populate the NII and GII as soon as possible.
+<p>
+     To demonstrate resolve and good faith, the United States
+Government should immediately:
+<p>
+     1.   Collaborate with industry and existing standards
+          groups, to develop Key Management Infrastructure
+          and attendant products performance requirements
+          (with a working draft completed within 6 months);
+<p>
+     2.   Collaborate with industry on a Federal Information
+          Processing Standard (FIPS) within government that
+          specifies a suite of algorithms and protocols for
+          encryption, key exchange, and digital signature
+          functions sufficient to protect government
+          information. The resulting FIPS should provide for
+          key recovery operations and should be mandatory for
+          government use.
+<p>
+     3.   Establish a security management infrastructure for
+          government use which complies with the standards
+          developed jointly by industry and government. This
+          is the first step in providing a market for
+          industry products which support the new FIPS.
+<p>
+     4.   Determine an appropriate government agency to work
+          with industry in specifying security requirements
+          for products used in network security applications
+          for protecting highly sensitive information.
+<p>
+     5.   Collaborate with industry to formulate legislation
+          to establish viable key management infrastructure.
+          Such legislation would, inter alia, set policies
+          for assuring the integrity of escrowed key,
+          establish an appropriate government role in this
+          PAA, and address civil liability issues.
+<p>
+     6.   Negotiate with other governments arrangements for
+          access to escrowed keys consistent with national
+          sovereignty, national security, and public safety.
+<p>
+<p>
+     As trusted partners, industry and government can share
+expertise and tackle intractable problems such as the insecure
+operating system. In times past, the cryptographic algorithm
+was the core of the solution: now it is the easy part. The
+debate over algorithms and bit lengths should end: it is time
+for industry and governments to work together to secure the
+GII in such a way that does not put the world at risk.
+<p>
+<hr>
+<p>
+<h1>Appendix I:  One View of a KMI</h1>
+<p>
+     The discussion given here is intended to provide a
+description of how a KMI might be designed and operated
+consistent with the tenets of the White Paper. This
+description is not intended to preclude consideration of
+other, equally suitable, implementations.
+<p>
+<p>
+Introduction to KMI Based Escrow
+<p>
+     In a KMI based on public key cryptography, each user has
+one or more pairs of public and private keys. The public and
+private keys differ in such a way that it is computationally
+infeasible to determine the private key from the public key.
+This allows the public key to be revealed without endangering
+the security of the private key. Users can communicate
+securely without having to share a "secret", they only need to
+know each other's public key. In practice, users may have
+multiple public/private key pairs.
+<p>
+     The key pairs may be used in applications such as key
+exchanges and digital signatures. To make use of such
+applications, a user's public keys must be available to
+intended recipients in a manner that the recipient can
+confidently associate the user with his/her public key.
+Without assurances on the "binding" of user identities to a
+specific public key, these keys have little or no value.
+<p>
+     Thus, in the context of public key cryptography, the
+strength of cryptographic mechanisms relates to protecting the
+confidentiality of the private keys and the integrity of the
+public keys. Ultimately, the viability of public key
+cryptographic applications is dependent on the evolution of a
+key management infrastructure.
+<p>
+<p>
+KMI and Certificates
+<p>
+     The KMI supports the integrity of public keys through the
+generation and distribution of public key certificates. The
+role of a certificate is to cryptographically bind a specific
+user identity with a public key and other security related
+information. A trusted system entity, generally called a
+Certificate Authority (CA), obtains information from an
+individual sufficient to verify the individual is who he says
+he is. The CA then generates and digitally signs a certificate
+specific to that individual using the CA's private signature
+key. Any system user can then validate the contents of that
+certificate by verifying the CA's digital signature (via the
+CA's public signature key).
+<p>
+     Certificate contents must be bound together by a
+mechanism which can be authenticated. The certificate format
+commonly used is based on the structure defined by the CCITT
+X.509 Recommendation. This has worldwide support in industry
+and governments.
+<p>
+     The concept of a CA can be easily extended to apply to a
+large system of users where a single CA is not feasible.
+Providing interoperability within a system containing multiple
+CAs leads to a hierarchical structure. At the very top of the
+hierarchy is a Root entity which is often referred to as a
+Policy Approving Authority (PAA). The PAA represents the
+single node in the hierarchy that all system users trust. The
+PAA creates the overall guidelines and policies for the
+operation of the KMI. The PAA exists to ensure the security
+and integrity of each and every entity within the hierarchy.
+Security and integrity are enforced by PAA certifying the
+public keys of subordinate CAs. Each of these subordinate CAs
+may also certify the public keys of other CAs or users. A
+sample hierarchy is pictured below. The PAA public signature
+key is possessed by all those in the hierarchy.
+<p>
+<hr>
+<pre>
+[Hierarchical Diagram]
+<p>
+                          PAA
+                           |
+                  CA1     CA2    CA3
+                   |       |      |
+               CA4    CA5     CA6     CA7
+                |      |       |       |
+     (------------------ Users ----------------)
+<p>
+</pre><hr>
+
+<p>
+     Any two users within a defined hierarchy can validate
+each other's public key certificates through a common
+certification path. A certification path is an ordered
+sequence of certificates between the entity to be validated
+and the trusted point in the hierarchy, i.e., PAA. This
+defines a path of trust. Validation of any system certificate
+requires that each certificate in the certification path be
+checked by verifying the digital signature over each
+certificate.
+<p>
+     To maintain trust in the path, the entities making up
+certificate authorities must follow prescribed rules for
+identifying users, issuing certificates, and protecting keys.
+Adherence to these regulations can be enforced by a PAA or as
+a condition of cross certification between two Certificate
+Authorities.
+<p>
+     After a CA generates a certificate, it is transferred to
+the user along with the certificates in the user's
+certification path. Distribution of certificates among system
+entities can be accomplished by sending them via e-mail
+(quickly becomes unwieldy) or through the use of a Directory
+System. Other users can then request and retrieve certificates
+directly from a Directory Server.
+<p>
+     The hierarchical structure is designed to support
+multiple communities of users who may need to communicate with
+each other. It is also possible that some communities of users
+in the system could remain autnomous and yet still be able to
+communicate with users outside their immediate community of
+interest. The PAA provides the means for such inter-community
+communication by functioning as the single mutually trusted
+authority for the entire hierarchy.
+<p>
+<p>
+Cross Certification
+<p>
+     There could exist one or more PAAs within the U.S. and
+non-U.S. KMIs. To permit communication between users of
+different PAA domains, a common certification path must exist.
+Cross certification will be based on the existence of accepted
+policies and standard certification criteria. PAAs from each
+KMI could then cross certify each other. This is accomplished
+by each PAA countersigning the registered public key
+certificates of the other. This cross certifying of
+certificates provides a valid certification path for all users
+in the respective KMIs.
+<p>
+<hr><pre>
+[Diagram]
+                              CC
+              U.S. PAA<-------------->Non-U.S. PAA
+          |    |   |   \                 |     |
+         CA1   |   |     \     CC        |     |
+               |   |       \----------->CAa   CAb
+              CA2  |
+                   |
+                  CA3
+<p></pre>
+<center>      Cross Certification Options Between Distinct KMIs</center>
+
+<p>
+     This scenario permits specific entities under one PAA to
+have a verifiable certification path for communications with
+entities serviced by another PAA. It is important to note,
+however, that the integrity of this cross certification system
+is only assured by limiting cross certification to bilateral
+nad direct connection between the two PAAs involved. One PAA
+should not rely on the representation of another that a third
+PAA has been authenticated.
+<p>
+<p>
+Key Recovery Performance Criteria
+<p>
+     Key recovery provides for backup storage of a user's
+private keys. This backup capability helps ensure the
+availability of a user's data even after it has been
+encrypted. It also provides for an effective means for law
+enforcement access. Key recovery requirements would be viewed
+from the perspective of the individual, the corporation, or
+governments that require access. Most of the criteria to be
+discussed have a dimension for key recovery on an individual
+basis as well as from a corporate or government perspective.
+The criteria can be grouped into three categories.
+<p>
+<p>
+1.   Key Integrity:
+<ul><li>
+    Confidentiality - Key recovery storage and release
+     mechanisms must preclude simple exploitation.
+<li>
+    Availability - Key recovery data must be available when
+     subject to authorized release.
+</ul>
+<p>
+2.   Key Accessibility:
+<ul><li>
+    Responsiveness - Timely access to key recovery
+     information requires 24 hour responsiveness and real time
+     accessibility requires a two hour response window to
+     authorized requests.
+<li>
+    Confidentiality - Confidentiality must be maintained on
+     all requests for release of key recovery information.
+<li>
+    Proof of Approval - Trustworthy on-line or off-line
+     mechanisms must exist to support identification and
+     authorized release of key recovery information.
+</ul>
+<p>
+3.   Key Recovery Use:
+<ul><li>
+    Subject Message Recovery - All information related to the
+     subject of the recovery request must be accessible
+     through the release of key recovery information
+     pertaining only to that subject.
+<li>
+    Release Window - The start and end dates of authorized
+     key recovery periods must be enforced.
+</ul>
+<hr>
+<pre>
+Key Recovery Using KMI
+
+[Diagram]
+<p>
+               Escrow
+          -->  Authority  (private key database)
+          |         |
+          |         |
+          |         | public keys
+          |         |                        Escrow and
+private   |         |                        Certificate
+key       |    Certificate                   Authorities
+(either   |    Authority                     can be combined
+way)      |         |                        into one entity
+          |         |
+          |         | public key certificate
+          |         | (binds IDs and keys)
+          |         |
+          |         |
+          -->  User A (private keys and certificates)
+
+</pre>
+<p>
+     Key recovery fits well within a public key KMI.
+Interleaving key recovery within the KMI provides for a
+concentration of trust that stands to benefit the individuals
+from a confidentiality of private key aspect and facilitates
+government access by limiting the number of access points. The
+most simple model is to rely on the existing CAs within the
+KMI to meet government access requirements. If necessary,
+however, the hierarchy can be structured to include an Escrow
+Authority (EA) as a separate trusted entity.
+<p>
+     EA hierarchy is intrinsically shallow when compared with
+the depth of the CA hierarchy. The structure is more likened
+to a peer group of EAs that all fall under the jurisdiction of
+the KMIs PAA which creates guidelines and policies for EA
+operation. To become a system endorsed EA entity, an EA must
+be certified by the PAA. Certification encompasses
+satisfactory implementation of the standards and policies put
+forth by the PAA. The PAA provides the standardization for the
+escrow functions to occur across multiple EA entities with an
+equivalent degree of trust. It is important to stress that
+some or all of the elements of the escrow infrastructure may
+be the same as those in the certificate infrastructure. The
+KMI supports both.
+<p>
+     As with the certification of subordinate CAs, the
+recognition of a certified status for a particular EA is
+embodied by the PAAs digital signature on the public key
+certificate of the EA (thus attesting to the validity of the
+service they provide). This allows a particular EA to have a
+system-wide recognized signature, one that is traceable back
+to a common trusted entity, the PAA.
+<p>
+     Two examples follow that show how the EA and CA entities
+work in tandem to provide both a certificate and data recovery
+service for users and law enforcement:
+<p>
+<p>
+1.   Certificate and Recovery Registration.
+<ul><li>
+    In this example we have a single Escrow Authority
+     distinct from the Certificate Authority. In reality, the
+     EA may be the same entity as the CA or the EA may be one
+     of a set of users certified by the government as an EA.
+     The simple protocol described below follows closely the
+     key escrow proposal made in 1993 by Silvio Micali of MIT.
+<li>
+    User A wishes to register, in the form of a public key
+     certificate, a public key exchange key with his local
+     certified KMI entity. User A does the following:
+<ul>
+  <li>    Identifies himself and securely distributes the
+          public and private components of the key pair he
+          wishes to have registered to a certified Escrow
+          Authority (EA). This may be done electronically.
+          Alternately, the EA could generate these keys for
+          User A.
+<li>
+       Uniquely identifies himself to the CA. This must be
+          done physically unless User A already possesses a
+          valid signature key.
+<li>
+         Distributes the public component of the key pair he
+          wishes to have certified to the CA.
+</ul>
+<li>
+    The EA does the following:
+<ul><li>
+         Protectively stores the private component.
+<li>
+         Notifies the CA that a valid key pair has been
+          "escrowed" for user A. (This notification can take
+          the form of a signed message from the EA that
+          contains the public key of User A.)
+</ul>
+<li>
+    The CA does the following:
+<ul><li>
+         Verifies the identity of User A.
+<li>
+         Verifies the signature on the message received from
+          the EA. This ensures that only properly escrowed
+          keys are entered into the system.
+<li>
+         Generates a public key certificate that contains
+          (at least) the public key exchange key acknowledged
+          by the EA, an identifier representing User A, an
+          identifier for EA, and validity period for
+          certificate management.
+<li>
+         Digitally signs the certificate using the CA
+          private signature key.
+<li>
+         Distributes the certificate to User A (and
+          potentially to a Directory Service). User A then
+          verifies the CA signature on the received
+          certificate as well as the information it contains.
+</ul>
+<p>
+     To more fully reflect the Key Integrity Criteria, the EA
+entity could in fact be a set of EAs that work in conjunction
+with a particular CA. Providing multiple EAs allows for
+increased flexibility with respect to the generation, storage,
+and recovery of key information. Not only would users have
+increased flexibility of choice in selecting a certified EA,
+but they essentially have a voice in who is entrusted with
+protecting their keys. Specifically, the EA entity could be a
+set of EAs, each of which only possesses a portion (key split)
+for User A's private key component. This provides a recovery
+mechanism for User A that more directly protects his private
+key component since recovery of the key by other than
+authorized requests would require collusion on the part of all
+EAs, compromise of all EA storage mechanisms, or compromise of
+all of the distribution paths used during recovery from each
+EA to User A)
+</ul>
+<p></ul>
+2.   User Key Recovery: An Archiving Example
+<ul><li>
+    In this example User A stores (archives) his data in
+     encrypted form using a locally generated key. He must
+     have alternate access to that encrypted data. Consider
+     the following:
+<ul><li>
+         User A generates a private key (session, archive,
+          message, etc.)
+<li>
+User A encrypts his information with this archive
+key.
+<li>
+User A encrypts the archive key with his public key
+exchange key (of which the private component is
+escrowed).
+<li>
+The result of this encryption is stored, along with
+          public escrow key, in the header portion of the
+encrypted file.
+<li>
+Upon loss of his key exchange key, decryption of
+the information is accomplished by requesting
+release of the private key exchange key from the
+EA.
+<li>
+User A identifies himself to the EA(s) holding his
+private key and requests its release.
+</ul>
+<li>
+The EA(s) does the following:
+<ul><li>
+Positively identifies the requestor.
+<li>
+Locates and securely transmits the private key
+component to User A.
+</ul></ul>
+3.   Law Enforcement Key Recovery: An e-mail Example
+<ul><li>
+In this example the sender of a message, generates a
+session key, encrypts the message with the session key
+and encrypts the session key he uses to protect his
+communications with the recipient's public key exchange
+key. This encrypted session key is stored in the header
+information of the encrypted message for recipient and
+government recovery purposes. The key recovery process
+proceeds in the following manner:
+<ul><li>
+Escrowed data to or from the subject of a lawful
+investigation is intercepted.
+<li>
+The subject's public key certificate is obtained
+from the data or a Directory Service.
+<li>
+The Escrow Authority ID is extracted from the
+certificate. This allows law enforcement to locate
+the private key components.
+<li>
+Legal authorization is obtained to receive the
+appropriate escrowed private key(s) components.
+<li>
+Legal authorization is presented to appropriate
+EA(s). This may involve working through foreign
+governments.
+<li>
+EA(s) verifies authenticity of request.
+<li>
+EA(s) securely transmits the private key
+component(s) to law enforcement (this could be
+accomplished physically or electronically.)
+<li>
+  Law enforcement forms the private key from its
+private key component(s) and decrypts to recover
+the session key and the message.
+</ul></ul>
+<p>
+     Law enforcement will destroy keys at the end of the
+authorized period of use. Access can be also be time bounded
+directly by users by repeating the registration process.
+<p>
+<hr>
+<h1>Appendix II: Current Encryption Export Policies</h1>
+     This appendix has been prepared to state clearly the
+existing encryption export control policies and procedures.
+<p>
+     While the government recognizes that further progress is
+needed in license processing, changes instituted to date have
+resulted in a reduction of average license turnaround time of
+39 days in 1993 to an average of 13 days in 1995. Further,
+over 99% of export licenses for proposed cryptographic
+products are approved each year.
+<p>
+
+Authorities
+<p>
+     The export of cryptographic products is regulated by the
+Department of State pursuant to the Arms Export Control Act
+(AECA) and its implementing International Traffic In Arms
+Regulations (ITAR), and by the Department of Commerce pursuant
+to the Export Administration Act (EAA) and its implementing
+Export Administration Regulations (EAR).
+<p>
+     No license is required for the import of cryptographic
+hardware or software. There are no federal laws regulating the
+use of cryptographic products within the United States. A
+license is required for the export of cryptographic products
+to all destinations except Canada. Applications are reviewed
+by the Department of Defense (NSA) for national security
+implications and by State for foreign policy concerns. The
+export licensing policy is consistent with U.S. national
+security and foreign policy.
+<p>
+     The Department of Commerce controls the export of
+rudimentary cryptographic products containing cryptographic
+functions generally limited to purposes such as data
+authentication, password protection, and access control.
+Products which are determined to be covered by the Commerce
+Control List (CCL), with certain foreign policy exceptions,
+may be exported under a General License.
+<p>
+<p>
+Procedures
+<ul><li>
+Autolist - For products reviewed and approved by NSA for
+export to approved classes of end users and end uses.
+Permits Department of State to process license
+applications for such products without further review by
+NSA.
+<li>
+Distribution Arrangements - Single license vehicle for
+export of approved products to classes of end users in
+countries or regions. Avoids need for licenses on an
+export-by-export basis.
+<li>
+Distribution Agreements - Permits single license for
+export of approved products to identified distributors.
+Again, avoids export-by-export licensing.
+<li>
+Personal Use Exemption - Products exported for the
+personal use of the exporter are excepted from pre-export
+license requirements.
+</ul>
+<p>
+Policies
+<ul><li>
+Products designed to use cryptography for access
+control/authentication purposes are export controlled as
+dual use commodities pursuant to the Export
+Administration Act.
+<li>
+Product manufacturers determine if their products are
+access control/authentication devices.
+<li>
+Generally, access control/authentication products are
+exportable under general license procedures.
+<li>
+Mass-market software products verified as implementing
+RC2/RC4 encryption algorithms, with 40-bit key space
+limitations, are designated dual use items, to be
+controlled under the Export Administration Act, after a
+one-time review completed within 7 working days of
+submission.
+<li>
+Mass-market software implementing other encryption
+algorithms and key space lengths for confidentiality are
+reviewed on a case-by-case basis for designation as dual
+use items and control under the Export Administration
+Act. By regulation, reviews must be completed within 15
+days of submission.
+<li>
+Generally, licenses are approved for export of products
+to be used in protecting U.S. proprietary information
+(i.e., intellectual property).
+<li>
+U.S. companies and their subsidiaries are allowed to
+export products with strong encryption for their internal
+use.
+<li>
+Confidentiality encryption products that incorporate the
+Data Encryption Standard (DES) are routinely approved for
+export to:
+<ul><li>
+Financial institutions and financial applications
+</ul>
+<li>
+Protecting financial information in Electronic
+commerce applications
+</ul>
+<li>    Confidentiality encryption products that incorporate the
+Data Encryption Standard (DES) are favorably considered
+for export to:
+<ul><li>
+Applications involving protection of personal
+medical data
+<li>
+Parking and toll systems; Debit applications; Other
+transaction-based systems in which encryption is
+configured to perform identified specific
+transactions.
+</ul>
+<br><table></table>  <p>
+</ul>
+<hr>
+<p>
+[End]
+<p>
+<p>
+<hr>
+<h3>Credits</h3>
+Thanks to Pat Farrell (<a 
+href="mailto:pfarrell@isse.gmu.edu">pfarrell@isse.gmu.edu</a>) and 
+John Young (<a href="mailto:jya@pipeline.com">jya@pipeline.com</a>)
+for transcribing this from a fax.
+<hr>
+Back to the <A HREF="index.html">CDT Clipper III Page</A><BR>
+Back to the <A HREF="../index.html">CDT Cryptograpy Page</A><BR>
+Back to the <A HREF="/index.html">CDT Home Page</A><BR>
+</body>
+</HTML>
+
+</DOC>

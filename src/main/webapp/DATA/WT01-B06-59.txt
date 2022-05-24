@@ -1,0 +1,140 @@
+
+<DOC>
+<DOCNO>WT01-B06-59</DOCNO>
+<DOCOLDNO>IA053-000894-B002-103</DOCOLDNO>
+<DOCHDR>
+http://www.aaii.org:80/ci/val2art3.html 206.30.246.237 19970111222731 text/html 12124
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Saturday, 11-Jan-97 22:30:26 GMT
+Last-modified: Wednesday, 12-Jun-96 01:17:30 GMT
+Content-length: 11935
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>American Association of Individual Investors</title>
+
+<META HTTP-EQUIV="CVS-file"     CONTENT="$RCSfile: val2art3.html,v $">
+<META HTTP-EQUIV="CVS-revision" CONTENT="$Revision: 1.7 $">
+<META HTTP-EQUIV="CVS-date"     CONTENT="$Date: 1996/06/12 01:17:28 $ UTC">
+</head>
+
+<body background="../gif/aaiiback.gif">
+
+
+
+<P ALIGN="center">
+<A HREF="../map/head.map"><IMG SRC="../gif/head_comp.gif" ALT="header" WIDTH=600 HEIGHT=64 BORDER=0 ISMAP></A>
+<BR>
+<H2 ALIGN="center"> Review of TechniFilter Plus<BR>
+by RTR Software, Inc.</H2>
+<hr>
+
+<STRONG>Reviewed by Henry Dunlap</STRONG><P>
+
+TechniFilter Plus supplements several technical analysis applications by performing charting of stocks and technical indicators and providing buy and sell signals based on formulas selected by the user. It provides features that most technical analysis programs lack, including the ability to filter and backtest trading strategies. TechniFilter Plus uses data created by outside technical analysis programs. It works with ASCII, MetaStock, Compu Trac, Savant, Dow Jones Market Analyzer, and TeleChart 2000 file formats. However, you must specify which format you plan to use when ordering the program. <P>
+
+
+<STRONG>System Requirements</STRONG><P>
+
+TechniFilter Plus requires the minimum of an IBM AT, a PS/2, or a 100% compatible computer running on DOS 3.1 or higher. A 386 computer or better with 1 MB of EMS is recommended, and 2 MB of hard-drive space is required for the program. Since the program uses data produced by other programs, there must be additional hard-disk capacity for those data files. <P>
+
+<STRONG>
+Tutorial</STRONG><P>
+
+Nine sample sessions are provided in the documentation to demonstrate TechniFilter Plus's main features and to acquaint the new user with the program. The sessions cover some of the program's 185 formulas, 20 strategies, and 35 prepared reports. A sample directory of data files is provided for use with the tutorial. <P>
+
+
+<STRONG>Backtesting and Optimization</STRONG><P>
+
+TechniFilter Plus provides you with the ability to test and optimize strategies using historical data. It provides 20 predefined strategies for you to use. You can also modify these strategies, or create your own. A strategy consists of formulas, signals, and rules. <P>
+
+A rule depends on one or more signals and can belong to any of nine categories: buy long, sell long, stop long, open short, cover short, stop short, reverse long-to-short, reverse short-to-long, and stop and reverse. A minimum of two rules are necessary in a strategy: one buy rule and one sell rule. <P>
+
+Signals define a relationship among the formulas (comments are permitted in defining signals and are separated by a semicolon). Examples of signals are as follows: <P>
+
+<PRE>    Buy Alert:    F1 &gt; F5 AND F2 &lt; F6
+    Buy Signal:   F3 &gt; F5
+    Sell Signal:  F8 &lt; 80 and F9 &gt; 80<P></PRE>
+
+Formulas then become the basic building blocks and can be simple data such as high, low, or closing prices for the day; the maximum price or average over a period; a technical indicator like stochastics or relative strength index (RSI); or the slope of a line defined by two points or by a least square fit of the data. The program supplies a formula library of 185 popular formulas including pattern recognition of point and figure charts or candlestick charts. <P>
+
+Once you have created a strategy, TechniFilter Plus allows you to test it against a security or a list of securities over a specified time period. After completion of the test, you can generate several types of reports that provide summary data. These reports include such figures as total profit, capital required, maximum drawdown, risk/reward ratio, percentage return, best/worst trade, longest winning/losing run, and annualized return. Information is available on both open and closed trades, and for long and short trades. <P>
+
+The optimization portion of TechniFilter Plus allows you to take a strategy and modify one or more parameters over a specified range. In this way, you can see how tweaking the parameters can affect the outcome of the strategy. You can also produce charts for this feature to get a graphical feel for the effects of making small changes in a strategy. <P>
+
+Since TechniFilter Plus comes with a number of predefined strategies for backtesting and optimization, I used them with a data set of 19 stocks for which I had daily data for eight years (1986 through 1993). Of these stocks, three had a net price decline during the period - IBM, Digital Equipment and Commonwealth Edison. It was my intent to determine which parameters performed the best with the prepared technical strategies over my group of diverse stocks. The results were unexpected in several ways. First, no strategy beat a buy and hold strategy for more than 85% of the stocks. Second, the optimal parameters varied considerably from stock to stock. And third, most of the commonly used parameters were not valid in the commonly used default terms but required longer terms for profitable trading. On the other hand, many strategies reduced risk by reducing the holdings through bear markets. The chief drawback to many strategies was the number of trades called for and the 1% commission the program assessed for each trade. (The program allows you to set entry and exit fees as either a fixed dollar amount or as a percentage.) <P>
+
+Wilder's relative strength index (RSI) strategy was the best of the prepared strategies tested. The conventional default values are 14 days with a buy when the RSI value passes from below 30 to above 30, and a sell after the RSI has reached higher than 70 and falls below 70. (Stated in simpler terms, Wilder's RSI is a ratio of advances to declines in the time period adjusted to give values from 0 to 100.) The best time period was 21 days with the upper limit set at 75. Some stocks gave the best results with a lower limit less than 30, some at 30, and some with the lower limit greater than 30. The amount of time the stocks were held during the eight years was from 50% to 90% of the period and the risk (as measured by the drawdown divided by the total profit) was substantially reduced using the best RSI set compared with buy and hold. Some stocks had from two to six winning trades versus zero losing trades over the eight-year period. One had 17 winning trades to six losing trades and came through the eight years with an annualized profit of 8.3%, compared to only a 1.6% return from buy and hold with the position being held only 51% of the eight-year period. The hope in using programs such as this is that the past relationship will continue to hold true in the future. <P>
+
+
+<STRONG>Screening</STRONG><P>
+
+The program supplies 33 predefined reports, and I ran each of them on a directory of 150 stocks. Computing time on a 486DX compatible computer lasted about an hour for all but one of the reports. The beta report alone took a half hour to compute because of the complexities of the calculations and the need for the program to compare data from two separate files, the stock and the S&P 500. <P>
+
+Viewing a report gives the user a series of options with special emphasis on sorting a column in descending order and highlighting that column. You can score any or all of the columns and then sort the report based on the score. You can print a report to the printer or to a file. You can also bring up a chart. Although the charting menu worked well when called from the main menu, I was bounced back to DOS when starting the chart from report mode. <P>
+
+You can automate the process of running a report by creating a batch file. TechniFilter Plus has the capability of complete and automatic filtering and reporting, which can be started from DOS and returns to DOS when finished. A text log is created during the automatic run and can be reviewed later if necessary. <P>
+
+
+<STRONG>Charting</STRONG><P>
+
+The charts produced by TechniFilter Plus include bar, line, point and figure, and candlestick format. More importantly, TechniFilter Plus can read patterns in all of those formats without having to call up the charts on your screen and in effect search all of your charts for patterns of your choice. <P>
+
+The graphical display allows for splitting the screen and displaying any indicator in either the top or the bottom split, except for point and figure charts (see Figure 2). The date span is controllable by setting the number of days or elements and the start and end dates. For candlestick charts on a VGA monitor, 150 days is a reasonable maximum for clarity. For point and figure charts, the number of periods depend on the activity of the security, the box size, and the number of periods required for a reversal. Using the default for chart craft box size and the default of three days reversal, a point and figure 2,000 day chart showed only dots, not boxes and X's; 1,000 days showed the boxes and X's but no months (see Figure 3); and 900 days showed the numbers for the start of the months. Text can be written on a graph, but text and lines are not saved with the graph as in MetaStock. <P>
+
+
+<STRONG>Documentation</STRONG><P>
+
+TechniFilter Plus provides documentation in a three-ring binder. It has a table of contents and an index to help locate specific topics. A program guide covers aspects about the normal usage of the program with a reference section covering construction of technical indicators. A chapter listing suggested readings is also included. <P>
+
+A second booklet covers the prepared formulas, reports, and strategies with illustrations and explanations and serves as an introduction to the program along with the sample sessions. Many users of the program will find that this booklet is sufficient to meet most of their needs. <P>
+
+
+<STRONG>Conclusion</STRONG><P>
+
+In contrast to black box investment software where the user has little knowledge and control over the algorithms used in making buy and sell decisions, TechniFilter Plus is an open tool box that invites you to construct your own indicators from your own ideas, test them over time, and apply them in an efficient manner to your own files. <P>
+
+This may not appeal to a busy investor who wants the computer to think for him. But, as a retired engineer with a yen for tinkering and a strong desire for control over the investment process, I find TechniFilter Plus a powerful tool for searching by files and pointing to stocks worthy of further investigation. <P>
+
+A word of caution is in order: TechniFilter Plus is a sophisticated program that operates at a higher level than charting programs. It is not for the novice investor, but for those who have an understanding of technical analysis and who want to utilize their computer to its full potential. <P>
+
+<STRONG>TechniFilter Plus</STRONG><P>
+
+<PRE>Rating: Performance     X X X X X <BR>
+        Usefulness      X X X X X <BR>
+        Documentation   X X X X X<BR>
+        Ease of Use     X X X X -<BR>
+        Value           X X X X X<P></PRE>
+
+Price:     $399.00<P>
+Systems:   IBM AT compatible with 640K and hard drive. <BR> 
+           Separate versions of the program are available to work <BR>
+           with data stored in ASCII, MetaStock, Compu Trac, Savant, <BR>
+           Dow Jones Market Analyzer, and TeleChart 2000 file formats. <P>
+Contact:   RTR Software, Inc. <BR>
+           19 W. Hargett St., #204<BR>
+           Raleigh, N.C. 27601<BR>
+           (919) 829-0786<P>
+
+Henry R. Dunlap has headed the Atlanta computer special investment group of the AAII for 10 years. <P>
+
+
+The figures refered to in this article are stored as gif files in the demo section of the Software Library. <P>
+
+<HR>
+<p align=center><A HREF="../home.html">AAII Home</A> | <A HREF="../index.html">Index Page</A> | <A HREF="mailto:aaiimembr@aol.com">Email</a> | <A HREF="http://networth.galt.com">NETworth Home</A></p>
+
+<!TAIL>
+<HR>
+
+
+<!/TAIL>
+
+
+
+
+</body>
+</html>
+</DOC>

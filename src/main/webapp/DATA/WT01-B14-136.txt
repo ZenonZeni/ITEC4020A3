@@ -1,0 +1,170 @@
+
+<DOC>
+<DOCNO>WT01-B14-136</DOCNO>
+<DOCOLDNO>IA097-001039-B026-32</DOCOLDNO>
+<DOCHDR>
+http://orbit.jpl.nasa.gov:80/NSCAT.html 128.149.33.88 19970215065548 text/html 8110
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 06:56:05 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>NASA SCATTEROMETER</TITLE>
+</HEAD>
+
+<BODY background="GIF/paper.gif">
+<H1><A HREF="http://airsea-www.jpl.nasa.gov/"> Air-Sea Interaction and Climate Team at JPL</A></H1><P>
+
+<H2>NASA SCATTEROMETER (NSCAT) Project </H2>
+<IMG SRC="GIF/rainbow.gif"><P>
+
+<center><IMG SRC="GIF/NSCAT.gif"> </center><P>
+
+<Blink><H2> <A HREF="http://www.jpl.nasa.gov/winds"> 
+NSCAT was successfully launched on August 17, 1996 in Japan! </A> </H2> </blink>
+<B>Project Manager: </B> <I>  James E. Graf, JPL </I><P>
+<B>Project Scientist: </B> <I><A HREF="liu.html">  W. Timothy Liu,</A> JPL </I><P>
+
+The National Aeronautics and Space Administration Scatterometer (NSCAT), 
+a microwave radar, will measure near-surface wind velocity (both speed
+and direction) over the global oceans. The information derived is critical in 
+determining regional weather patterns and global climate.
+
+<H3>Mission</H3>
+
+<A HREF="http://hdsn.eoc.nasda.go.jp/guide/guide/satellite/sendata/nscat_e.html"> 
+Japan's Advanced Earth Observing Satellite, </A> scheduled for launch in early 1996.
+<A HREF="http://newproducts.jpl.nasa.gov/calendar/nscat.html">The Jet Propulsion Laboratory 
+built the NASA Scatterometer under contract to NASA's Office of Mission to Planet Earth. </A>
+
+<H3>Science Objectives</H3>
+
+<UL>
+<LI> Acquire all-weather high-resolution measurements of near-surface winds
+  over the global oceans.
+
+<LI> Determine atmospheric forcing, ocean response and air-sea interaction 
+  mechanisms on various spatial and temporal scales.
+
+<LI> Develop improved methods of assimilating wind data into numerical weather- 
+  and wave-prediction models.
+
+<LI> Combine wind data with measurements from various scientific disciplines to
+  understand mechanisms of global climatic change and weather.</UL> <P>
+
+<H3>Measurements</H3>
+
+<UL>
+<LI> The instrument will operate continuously at 14 GHz.
+
+<LI> Six dual-polarized antennas will collect backscatter data with a resolution
+  of 25 km.
+
+<LI> Backscatter data will be combined and processed to yield 190,000
+  globally distributed wind vectors per day. </UL><P>
+
+<H3>Instrument Description</H3>
+
+<UL>
+<LI> Mass: 300 kg.
+
+<LI> Power: 275 W.
+ 
+<LI> Data rate: 2.9 kbps.</UL> <P>
+
+The NSCAT
+will measure wind speeds and directions over at least 90% of the ice-free
+global oceans every 2 days - under all weather and cloud conditions. Winds are
+a critical factor in determining regional weather patterns and global 
+climate.  At present, weather data can be acquited over land, but our only 
+knowledge of surface winds over oceans comes from infrequent and sometimes
+inaccurate reports from ships. Since oceans cover approximately 70% of
+Earth's surface, NSCAT data will play a key role in scientist's efforts to
+understand and predict complex global weather patterns and climate systems.<P>
+
+NSCAT has two major systems - the spaceborne instrument system and the
+ground data processing system. The flight instrument is a specialized microwave
+radar designed to measure winds over the oceans. It will be launched 
+into a near-polar Sun-synchronous orbit on the 
+Japanese Advanced Earth Observing Satellite (ADEOS), scheduled for flight in
+early 1996. Like its predecessor on the Seasat satellite, NSCAT will use
+an array of antennas that radiate microwave pulses at a frequency of 14 GHz
+across broad regions on Earth's surface. This array of six, 3-m-long antennas
+will scan two 600-km bands of ocean - one band on each side of the instrument's
+orbital path, separated by a gap of approximately 330 km. Obtaining backscatter
+and wind vector information nearly continuously, NSCAT will be able to make
+190,000 wind measurements per day - more than 100 times the amount of ocean
+wind information presently available from ships. <P>
+
+Ground computers will produce wind measurements within 2 weeks of receiving
+raw NSCAT data from the ADEOS spacecraft, with no backlog, throughout
+the 3-year mission. Arrangements may be made to allow near-real-time access
+to these wind data by agencies such as the National Oceanic and Atmospheric
+Administration. NSCAT data products will include global backscatter data;
+50-km resolution ocean wind vectors in the measurement swaths, and spatially
+and temporally averaged, gridded, wind field maps.<P>
+
+As part of the NSCAT project, NASA is also sponsoring a team of 15 scientific
+investigators who serve as project advisors during the development of the
+instrument and ground data processing system and who will conduct research
+based on NSCAT data. Their studies are expected to lead to improved methods of
+global weather forecasting and modeling - and possibly to a better 
+understanding of environmental phenomena (such as El Nino) that greatly 
+affect world economies. <P>
+
+Satellite scatterometers are microwave radar instruments designed specifically
+to measure near-surface wind velocity (both speed and direction) over the 
+global oceans under all weather conditions. Wind stress is the single 
+largest source of momentum to the upper ocean, driving oceanic motions on 
+scales ranging from surface waves to basin-wide current systems. Winds over 
+the ocean modulate air-sea fluxes of heat, moisture, gases and particulates, 
+regulating the crucial coupling between atmosphere and ocean that 
+establishes and maintains global and regional climate. Measurements of 
+surface wind velocity can be assimilated into regional and global 
+numerical weather models, improving our ability to predicate future weather. 
+As the only remote sensing systems able to provide accurate, frequent, 
+high-resolution measurements of ocean surface wind speed and direction 
+under both clear-sky and cloudy conditions, scatterometers will play an 
+increasingly important role in oceanographic, meteorological and climatic 
+studies during the 1990s and beyond. <P>
+
+Scatterometers use a highly indirectly technique to measure wind velocity
+over the ocean, since the atmospheric motions themselves do not 
+substantially affect the radiation emitted and received by the radar. 
+These instruments transmit microwave pulses and receive backscattered power 
+from the ocean surface.  Changes in wind velocity cause changes in 
+ocean surface roughness, modifying the radar cross section of the ocean 
+and the magnitude of the backscattered power. Scatterometers measure 
+this backscattered power, allowing estimation of the normalized radar 
+cross section of the sea surface. Backscatter cross
+section varies with both wind speed and direction when measured at moderate
+incidence angles. Multiple, collocated, nearly simultaneous
+normalized radar cross section measurement acquired from several detections can
+thus be used to solve simultaneously for wind speed and direction. <P>
+
+The first spaceborne scatterometer flew as part of the Skylab mission in
+1973 and 1974, demonstrating that spaceborne scatterometers were 
+indeed feasible. The Sea-sat-A Satellite Scatterometer (SASS) 
+operated from June to October 19878 and proved that accurate wind 
+velocity measurements could be made form
+space. The SASS cross section measurements have been used to significantly
+refine the empirical model relating backscatter to wind velocity, and the
+SASS data have been applied to a variety of oceanographic and meteorological
+studies. A single-swath scatterometer operating at C-band is presently
+flying on the European Space Agency's Remote Sensing Satellite-1 mission.
+When it is launched as part of the ADEOS mission in 1996, NSCAT will be
+the first dual-swath, Ku-band scatterometer to fly since Seasat. Additional 
+spaceborne scatterometers will be flown in the later 1990s on European and
+U.S. spacecraft. <P>
+<IMG SRC="GIF/rainbow.gif"><P>
+</BODY><P>
+
+<HR>
+<IMG SRC="GIF/return.gif"><B> Return to <A HREF="http://airsea-www.jpl.nasa.gov/index.html"> the team's main page</A> </B> <P>
+<A HREF="http://www.jpl.nasa.gov">
+<IMG SRC="GIF/jpl.gif" ALT="To JPL"> <B> Link to the JPL home page </B> </A><P>
+<I>Created by Hua Hu. Last modified on August 20, 1996. </I>
+
+</DOC>

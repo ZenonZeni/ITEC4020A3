@@ -1,0 +1,289 @@
+
+<DOC>
+<DOCNO>WT02-B22-25</DOCNO>
+<DOCOLDNO>IA060-000333-B020-192</DOCOLDNO>
+<DOCHDR>
+http://www.survey.net:80/sv-shop.htm 204.107.221.240 19970115053927 text/html 10298
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 05:33:12 GMT
+Server: Apache-SSL-US/1.0.3+1.1
+Content-type: text/html
+Content-length: 10115
+Last-modified: Mon, 25 Nov 1996 20:26:49 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>SURVEY.NET - Shopping Habits Survey #1</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" VLINK="#00007F">
+
+<P ALIGN=CENTER><A HREF="http://www.survey.net/index.html"><IMG BORDER=0
+SRC="http://www.survey.net/g/svlogo0.gif" ALT="Survey.Net Logo"></A><BR>
+<B><I>Your source for information, opinions & demographics from the Net
+Community!</I></B>
+
+<BLOCKQUOTE>
+<H5>
+<FONT COLOR="#FF0000">ANNOUNCING</FONT>: The Internet's finest interactive, totally-automated,
+immediate survey system.  We can take any form and instantly create a
+dynamic demographic database and show you the results as soon as you
+complete the survey!
+</H5>
+
+<H2 align=CENTER>Internet Shopping Habits Survey</H2>
+
+<FORM METHOD="POST" ACTION="http://www.survey.net/mpr/survey?shop">
+
+<P align=CENTER><IMG SRC="images/rule.gif" WIDTH=325 HEIGHT=10
+ALIGN=bottom>
+<P>
+
+<OL>
+<LI>Have you ever purchased a product from a company via the Internet?  This includes 
+ordering via telephone number listed on a web site.<BR>
+<SELECT NAME="01_PURCHASE">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<P>
+
+<LI>How many times have you made online purchases?<BR>
+<SELECT NAME="02_FREQ">
+<OPTION>No Answer
+<OPTION>Never
+<OPTION>Once
+<OPTION>2-3 times
+<OPTION>4-6 times
+<OPTION>7-15 times
+<OPTION>More than 15 times
+</SELECT>
+<P>
+
+<LI>If no, why not? (main reason)<BR>
+<SELECT NAME="02_WHYNOT">
+<OPTION>No Answer
+<OPTION>It was too difficult finding what I was looking for.
+<OPTION>I'm wary of ordering online due to unfamiliarity with the company.
+<OPTION>I do not want to submit personal billing information over the Internet.
+<OPTION>If I don't deal with a person, I'm afraid my order will get lost.
+<OPTION>In general I don't do alot of shopping.
+</SELECT>
+<P>
+
+<li>If yes, was your purchase(s) for an item that you specifically were
+searching for, or was it an item that you came across while Internet
+shopping and decided to buy?<BR>
+<SELECT NAME="03_WHYBUY">
+<OPTION>No Answer
+<OPTION>N/A - Never purchased anything online
+<OPTION>I was specifically looking for the item.
+<OPTION>I came across it and liked it, so I bought it.
+</SELECT>
+<P>
+
+<li>On the net, what is the <i>primary</i> factor which influences your decision to purchase items (not relating to the product, but to its presentation)?<br>
+<SELECT NAME="04_INFLUENCE">
+<OPTION>No Answer
+<OPTION>N/A - Never purchased anything online
+<option>The photo or drawing of the item that was presented.
+<option>The price
+<option>The explanation of the item and its features.
+<option>The general quality of the web site.
+<OPTION>The convienence of shopping online.
+<option>The 'ease' of finding the specific item.
+<option>The unique nature of the item.
+<option>The payment method available for purchasing the item.
+</select>
+<P>
+
+<li>On average, are your purchases a storefront in a 'mall' setting, or from a
+'standalone' storefront?<BR>
+<select name="05_MALLTYPE">
+<OPTION>No Answer
+<OPTION>N/A - Never purchased anything online
+<option>Mall
+<option>Standalone storefront
+<option>Not sure
+</select><P>
+
+<li>Would you make repeat purchases from the sites that you've patronized?<BR>
+<select name="06_REPEAT">
+<OPTION>No Answer
+<OPTION>N/A - Never purchased anything online
+<option>Yes
+<option>No
+<option>Maybe
+</select><br><br>
+
+<li>How did you pay for this online purchase (please answer for the 
+majority of your purchases)?<BR>
+<select name="07_PAYMENT">
+<OPTION>No Answer
+<OPTION>N/A - Never purchased anything online
+<option>Sent credit card via unsecure form/method.
+<option>Sent credit card via secure form/method.
+<option>Sent credit card but not sure if secure or not.
+<option>Emailed my credit card number.
+<option>Called a telephone number and provided credit card info.
+<option>Mailed a check or money order via postal service.
+<option>First Virtual account
+<OPTION>Cybercash
+<OPTION>E-Cash
+<OPTION>Digicash
+<OPTION>Another Internet-based ordering system
+<OPTION>COD
+<OPTION>Terms
+<OPTION>Other
+</select><br><br>
+
+<li>Have you ever had someone use your credit card and charge items without approval?<BR>
+<select name="07_STOPCC">
+<option>No Answer
+<OPTION>I don't have any credit cards
+<option>No
+<option>Yes - by a family member
+<option>Yes - but I cleared it up without any liability
+<option>Yes - and I ended up having to pay
+</select>
+<br><br>
+
+<li>Are you set up or do you plan to become set up for online payment
+proecssing using companies such as First Virtual, Cybercash,
+Digicash, Ecash, etc?<BR>
+<select name="08_NCASH">
+<OPTION>No Answer
+<option>Not currently and I do not plan to
+<option>Not currently but I do plan to
+<option>Yes, with one payment processor
+<option>Yes, with multiple payment processors
+</select><br><br>
+
+<li>What type of products have you purchased online?  <I>(Check all that apply)</I><BR>
+<input type="checkbox" name="09_TYPES" value="Art">Art<BR>
+<input type="checkbox" name="09_TYPES" value="Books, Information and Magazines">Books, Information and Magazines<BR>
+<input type="checkbox" name="09_TYPES" value="Business/Legal/Financial">Business/Legal/Financial<BR>
+<input type="checkbox" name="09_TYPES" value="Business Opportunities">Business Opportunities<BR>
+<input type="checkbox" name="09_TYPES" value="Clothing">Clothing<BR>
+<input type="checkbox" name="09_TYPES" value="College Services">College Services<BR>
+<input type="checkbox" name="09_TYPES" value="Communications">Communications<BR>
+<input type="checkbox" name="09_TYPES" value="Computer-related products & services">Computer-related products & services<BR>
+<input type="checkbox" name="09_TYPES" value="Cosmetics and Beauty Aids">Cosmetics and Beauty Aids<BR>
+<input type="checkbox" name="09_TYPES" value="Education">Education<BR>
+<input type="checkbox" name="09_TYPES" value="Electronics/Electrical">Electronics/Electrical<BR>
+<input type="checkbox" value="Entertainment/Hollywood/Culture">Entertainment/Hollywood/Culture<BR>
+<input type="checkbox" name="09_TYPES" value="Flowers and Plants">Flowers and Plants<BR>
+<input type="checkbox" name="09_TYPES" value="Food/Drink">Food/Drink<BR>
+<input type="checkbox" name="09_TYPES" value="Gifts">Gifts<BR>  
+<input type="checkbox" name="09_TYPES" value="Hobbies/Crafts">Hobbies/Crafts<BR>
+<input type="checkbox" name="09_TYPES" value="Home Products">Home Products<BR>
+<input type="checkbox" name="09_TYPES" value="Infant and Toddler Products">Infant and Toddler Products<BR>
+<input type="checkbox" name="09_TYPES" value="Information Resources/Help/Non-Profit Organizations">Information Resources/Help/Non-Profit<BR>
+<input type="checkbox" name="09_TYPES" value="Internet Products & Services">Internet Products & Services<BR>
+<input type="checkbox" name="09_TYPES" value="Jewelry and Accessories">Jewelry and Accessories<BR>
+<input type="checkbox" name="09_TYPES" value="Medical and Health Products">Medical and Health Products<BR>
+<input type="checkbox" name="09_TYPES" value="Mortgage Lending">Mortgage Lending<BR>
+<input type="checkbox" name="09_TYPES" value="Music and Videos">Music and Videos<BR>
+<input type="checkbox" name="09_TYPES" value="New Age">New Age Products/Services<BR>
+<input type="checkbox" name="09_TYPES" value="Real Estate-related">Real Estate-related<BR>
+<input type="checkbox" name="09_TYPES" value="Safety and Security">Safety and Security<BR>
+<input type="checkbox" name="09_TYPES" value="Adult Products/Services">Adult Products/Services<BR>
+<input type="checkbox" name="09_TYPES" value="Other Services">Other Services<BR>
+<input type="checkbox" name="09_TYPES" value="Sports and Fitness">Sports and Fitness<BR>
+<input type="checkbox" name="09_TYPES" value="Toys and Games">Toys and Games<BR>
+<input type="checkbox" name="09_TYPES" value="Travel and Vacations">Travel and Vacations<BR>
+</check>
+<br><br>
+
+<li>Have you been satisfied with the products that you have purchased online?<BR>
+<select name="10_HAPPY">
+<OPTION>No Answer
+<OPTION>N/A - Never purchased anything online
+<option>Very satisfied - no problems
+<option>Somewhat satisfied
+<option>Not satisfied - many problems
+</select><br><br>
+
+<li>How would you compare online ordering with mail ordering?<BR>
+<select name="11_MOREHAPPY">
+<OPTION>No Answer
+<OPTION>N/A - Never purchased anything online
+<option>Online ordering is more appealing
+<option>Mail-order is more appealing
+<option>They're both about the same
+</select><br><br>
+
+<li>Are you worried about giving credit card information over the telephone?<BR>
+<select name="13_TELEPHONE">
+<OPTION>No Answer
+<OPTION>I have no credit cards
+<OPTION>No
+<OPTION>Not much
+<OPTION>Yes
+</select><br><br>
+
+<li>Are you worried about giving credit card information over the internet (in a secured
+transaction)?<BR>
+<select name="14_SECURE">
+<OPTION>No Answer
+<OPTION>I have no credit cards
+<OPTION>No
+<OPTION>Not much
+<OPTION>Yes
+</select><br><br>
+
+<li>Are you worried about giving credit card information over the internet (in a non-secured
+transaction)?<BR>
+<select name="15_NONSECURE">
+<OPTION>No Answer
+<OPTION>I have no credit cards
+<OPTION>No
+<OPTION>Not much
+<OPTION>Yes
+</select><br><br>
+
+<li>In general, do you like the idea of online, computerized shopping?<BR>
+<select name="16_CSHOP">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</select>
+</OL>
+
+<H3 align=CENTER><I>Thanks very much for participating in the
+survey!</I></H3>
+
+<H4 align=center>
+To submit your survey choices, select: <BR>
+<INPUT TYPE="submit" value="        SUBMIT SURVEY         ">
+<P>
+or <INPUT TYPE="reset" value="Reset survey settings">
+</FORM>
+<P>
+You can view the latest survey results after you submit your answers.
+</H4>
+
+<H4>
+We hope you will also participate in other surveys online as well.  Please note that you should
+only complete each survey <B><U>once</U></B>.<BR>
+</H4>
+<P>
+
+<CENTER>
+<IMG BORDER=0 SRC="http://www.survey.net/images/rule.gif">
+</CENTER>
+
+<H5 ALIGN=CENTER>Copyright &copy;1996, <A HREF="http://www.icorp.net"><img
+src="http://www.icorp.net/icorp/g/ic-logo.gif" BORDER=0 ALIGN=ABSMIDDLE ALT="ICorp"></A>/InterCommerce
+Corporation,<BR>
+<I>All rights reserved worldwide</I><BR>
+Send comments to 
+<A HREF="mailto:webmaster@survey.net"><I>Webmaster@Survey.net</I></A><BR>
+</H5>
+
+</CENTER>
+
+</BODY>
+</HTML>
+</DOC>

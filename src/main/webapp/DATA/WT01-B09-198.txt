@@ -1,0 +1,63 @@
+
+<DOC>
+<DOCNO>WT01-B09-198</DOCNO>
+<DOCOLDNO>IA008-000077-B037-352</DOCOLDNO>
+<DOCHDR>
+http://www-mtnforum.igc.org:80/mtnforum/archives/search.htm 198.94.7.182 19970222071652 text/html 1634
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 07:17:14 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 1463
+Last-modified: Thu, 20 Feb 1997 22:18:32 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+<HTML>
+<!--Search PAge--rev 1.1 - 7/96 - DTO> 
+<BODY bgcolor="#ffffff" TEXT="#000000">
+<LINK REV="made" HREF="mailto:mfsupport@mtnforum.org">
+<TITLE> Mountain Forum Archive Search Page</TITLE>
+</HEAD>
+<CENTER><H2>Mountain Forum Resources Search Page</H2></CENTER>
+<P>
+ </center>
+Use the form below to search through the Mountain Forum On-Line Resources<p>
+<p>
+<form method=POST action="/scripts/mtnforum/search/search.cgi">
+<center><table border>
+<tr>
+<th>Text to Search For: </th><th><input type=text name="terms" size=40><br></th>
+</tr><tr>
+<th>Qualifier: <select name="boolean">
+<option>AND
+<option>OR
+</select> </th> <th>Case <select name="case">
+<option>Insensitive
+<option>Sensitive
+</select><br></th>
+</tr><tr>
+<th colspan=2><input type=submit value="Search the Resources"> <input type=reset><br></th>
+</tr></table></form></center>
+<hr size=4 width=95%>
+<P>
+<IMG SRC=/mtnforum/images/mtnresources.jpg>
+<A HREF=/mtnforum/archives/archives.htm> Back to the Mountain Forum Resources Page</A>
+<B>
+<P>
+<IMG SRC=/mtnforum/images/mtn-logo.jpg height=157 width=113>
+<A HREF=/mtnforum/index.html>          Return to the <STRONG>Mountain Forum</STRONG> home page</A><P>
+<P>
+<HR SIZE=3 WIDTH=80%>
+<P>
+<ADDRESS>
+<FONT COLOR="#990000">
+<CENTER>
+The Mountain Forum / <A HREF="mailto:mfsupport@mtnforum.org">mfsupport@mtnforum.org</A> / revised August 1996
+</CENTER>
+</ADDRESS>
+</BODY>
+</HTML>
+</DOC>

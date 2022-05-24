@@ -1,0 +1,641 @@
+
+<DOC>
+<DOCNO>WT02-B08-281</DOCNO>
+<DOCOLDNO>IA021-000219-B022-111</DOCOLDNO>
+<DOCHDR>
+http://tethys.jpl.nasa.gov:80/stats/wwwstats.html 128.149.33.75 19970107090919 text/html 36968
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 07-Jan-97 09:09:02 GMT
+Last-modified: Monday, 06-Jan-97 10:00:08 GMT
+Content-length: 36783
+Content-type: text/html
+</DOCHDR>
+<HTML><HEAD>
+<TITLE>World-Wide Web Access Statistics for topex-www.jpl.nasa.gov</TITLE>
+</HEAD><BODY>
+<H1>World-Wide Web Access Statistics for topex-www.jpl.nasa.gov</H1>
+<EM>Last updated: Mon, 06 Jan 1997 02:00:04 (GMT -0800)</EM>
+<UL>
+<LI><A HREF="#Daily">Daily Transmission Statistics</A>
+<LI><A HREF="#Hourly">Hourly Transmission Statistics</A>
+<LI><A HREF="#Domain">Total Transfers by Client Domain</A>
+<LI><A HREF="#Subdomain">Total Transfers by Reversed Subdomain</A>
+<LI><A HREF="#Archive">Total Transfers from each Archive Section</A>
+<LI><A HREF="http://topex-www.jpl.nasa.gov/stats/Dec.wwwstats.html">Previous Full Summary Period</A>
+</UL>
+<H2>Totals for Summary Period:  Jan  3 1997 to Jan  6 1997</H2>
+<PRE>
+Files Transmitted During Summary Period            2797
+Bytes Transmitted During Summary Period        58357276
+Average Files Transmitted Daily                     699
+Average Bytes Transmitted Daily                14589319
+</PRE>
+<HR>
+<H2><A NAME="Daily">Daily Transmission Statistics</A></H2>
+<PRE>
+%Reqs %Byte  Bytes Sent  Requests   Date
+----- ----- ------------ -------- |------------
+46.94 51.53     30072354     1313 | Jan  3 1997
+19.91 23.42     13669453      557 | Jan  4 1997
+29.71 19.49     11375935      831 | Jan  5 1997
+ 3.43  5.55      3239534       96 | Jan  6 1997
+</PRE>
+<HR>
+<H2><A NAME="Hourly">Hourly Transmission Statistics</A></H2>
+<PRE>
+%Reqs %Byte  Bytes Sent  Requests   Time
+----- ----- ------------ -------- |-----
+ 3.04  4.21      2456514       85 |  00
+ 6.90  5.02      2932111      193 |  01
+ 1.86  1.30       759539       52 |  02
+ 1.72  1.13       661618       48 |  03
+ 4.86  4.56      2660751      136 |  04
+ 3.47  0.87       505276       97 |  05
+ 2.82  1.75      1022461       79 |  06
+ 2.90  0.74       433497       81 |  07
+ 4.97  1.93      1127835      139 |  08
+ 4.97  3.16      1841944      139 |  09
+ 3.65  3.01      1758252      102 |  10
+ 5.51  4.21      2458035      154 |  11
+ 4.00  3.20      1866946      112 |  12
+ 4.83  6.02      3511676      135 |  13
+ 8.01  6.89      4020178      224 |  14
+ 4.25  6.24      3640525      119 |  15
+10.80 13.14      7665258      302 |  16
+ 2.72 11.37      6632843       76 |  17
+ 4.43  6.03      3517350      124 |  18
+ 4.11  1.90      1111410      115 |  19
+ 2.11  3.49      2038210       59 |  20
+ 4.33  8.45      4929721      121 |  21
+ 1.25  0.85       497756       35 |  22
+ 2.50  0.53       307570       70 |  23
+</PRE>
+<HR>
+<H2><A NAME="Domain">Total Transfers by Client Domain</A></H2>
+<PRE>
+%Reqs %Byte  Bytes Sent  Requests   Domain
+----- ----- ------------ -------- |------------------------------------
+ 0.04  0.38       219719        1 | at    
+ 1.72  5.58      3256567       48 | au    
+ 0.86  0.06        33744       24 | be    
+ 0.43  0.02        11640       12 | br    
+ 4.15  3.98      2321624      116 | ca    
+ 0.82  0.69       401180       23 | ch    
+ 0.21  0.03        16726        6 | cl    
+ 0.36  0.50       291010       10 | co    
+ 0.57  0.52       306100       16 | de    
+ 2.25  4.90      2857503       63 | es    
+ 0.43  0.08        49602       12 | fi    
+ 4.65  3.11      1817715      130 | fr    
+ 0.57  0.11        62772       16 | ie    
+ 0.72  0.36       211867       20 | it    
+ 2.00  6.49      3789797       56 | jp    
+ 0.79  0.22       129067       22 | kr    
+ 0.72  0.17       100471       20 | mx    
+ 0.21  0.46       267802        6 | nz    
+ 0.64  4.43      2583260       18 | pt    
+ 0.36  0.07        38935       10 | sg    
+ 0.11  0.12        72585        3 | tw    
+ 2.75  2.25      1314193       77 | uk    
+ 0.75  0.24       139828       21 | us    
+ 0.57  0.11        64126       16 | za    
+20.74 17.19     10034417      580 | com   
+ 5.22  2.62      1530512      146 | edu   
+ 1.61  0.26       152584       45 | gov   
+12.98 17.92     10455649      363 | net   
+ 0.32  0.12        67828        9 | org   
+ 7.76  3.08      1794584      217 | nasa.gov 
+24.71 23.93     13963869      691 | unresolved 
+</PRE>
+<HR>
+<H2><A NAME="Subdomain">Total Transfers by Reversed Subdomain</A></H2>
+<PRE>
+%Reqs %Byte  Bytes Sent  Requests   Reversed Subdomain
+----- ----- ------------ -------- |------------------------------------
+ 0.54  0.09        53564       15 | 1.14.10.134
+ 0.57  0.11        64126       16 | 10.71.170.148
+ 0.46  0.10        59606       13 | 102.179.46.156
+ 0.21  0.05        30348        6 | 108.38.25.157
+ 0.04  0.38       219719        1 | 118.237.163.152
+ 0.11  0.03        16432        3 | 131.144.12.207
+ 0.04  0.38       219719        1 | 132.161.122.207
+ 0.43  0.08        49602       12 | 133.53.132.205
+ 0.04  0.02        10562        1 | 135.214.155.206
+ 0.57  0.13        75404       16 | 135.98.137.206
+ 0.18  0.05        27049        5 | 139.13.181.204
+ 0.25  1.57       917050        7 | 14.247.23.200
+ 0.43  0.08        49602       12 | 14.83.157.155
+ 0.04  0.02        10562        1 | 152.218.108.206
+ 0.21  0.05        26320        6 | 169.6.250.131
+ 0.43  0.08        49602       12 | 17.102.111.128
+ 0.61  0.12        69417       17 | 177.70.170.148
+ 0.04  0.00          600        1 | 18.42.64.210
+ 0.21  0.05        26320        6 | 184.10.94.142
+ 0.54  0.50       290576       15 | 184.87.169.139
+ 0.04  0.00         1169        1 | 188.191.96.207
+ 0.04  0.00         1662        1 | 19.148.247.199
+ 0.11  0.03        18015        3 | 193.168.83.204
+ 0.43  0.08        49602       12 | 2.154.192.208
+ 0.07  0.01         7652        2 | 200.181.228.204
+ 0.93  0.88       516243       26 | 205.170.182.131
+ 0.04  0.38       219719        1 | 205.18.63.156
+ 0.43  0.08        49602       12 | 218.213.42.206
+ 0.04  0.05        30639        1 | 22.156.191.130
+ 0.25  0.06        33300        7 | 220.158.187.198
+ 0.86  0.19       108488       24 | 226.14.255.203
+ 0.14  0.03        18739        4 | 227.167.158.128
+ 5.33  5.04      2939609      149 | 240.10.227.193
+ 0.04  0.05        30639        1 | 242.99.232.203
+ 0.14  0.05        26777        4 | 26.15.255.203
+ 0.21  0.05        30348        6 | 26.250.97.157
+ 0.43  0.08        49602       12 | 27.153.254.203
+ 0.54  3.94      2301372       15 | 29.45.207.206
+ 0.68  0.16        91423       19 | 3.255.245.38
+ 0.75  0.16        91349       21 | 30.50.185.204
+ 0.18  1.56       909469        5 | 32.251.212.195
+ 0.07  0.02        11914        2 | 40.249.102.198
+ 0.04  0.38       219719        1 | 52.11.64.138
+ 0.75  0.22       127687       21 | 58.215.49.198
+ 0.61  0.13        78318       17 | 6.50.185.204
+ 1.47  0.55       319724       41 | 66.13.203.194
+ 0.04  0.20       119172        1 | 7.248.184.194
+ 0.61  0.12        69343       17 | 79.245.3.200
+ 0.43  3.55      2071376       12 | 79.5.114.206
+ 0.72  0.15        89928       20 | 8.25.9.192
+ 0.07  0.62       360361        2 | 8.67.37.166
+ 0.61  0.13        74130       17 | 80.14.255.203
+ 0.04  0.38       219719        1 | 80.233.113.162
+ 0.25  0.06        33419        7 | 88.8.78.137
+ 0.79  0.50       293251       22 | 93.13.200.205
+ 0.64  0.14        84210       18 | 94.209.228.205
+ 0.04  0.38       219719        1 | at.netway.www
+ 0.04  0.00          451        1 | au.com.senet.bogo-the-penguin
+ 0.72  2.10      1222839       20 | au.net.camtech.proxy
+ 0.11  0.26       151467        3 | au.net.tmns.go-a01-pool-245
+ 0.29  3.10      1807780        8 | au.net.tmns.pn-a02-pool-66
+ 0.57  0.13        74030       16 | au.net.vicnet.ppp241
+ 0.43  0.02        11640       12 | be.ac.ucl.astr.astr5
+ 0.43  0.04        22104       12 | be.ac.ucl.astr.astr7
+ 0.43  0.02        11640       12 | br.com.infinity.mail
+ 0.39  0.08        44311       11 | ca.bc.cyberlink.pm1.dial46
+ 0.11  0.23       133662        3 | ca.bc.intergate.pm7s8
+ 0.43  1.70       993389       12 | ca.cgocable.hy.55-123
+ 0.04  0.38       219719        1 | ca.dal.cs.ug
+ 1.36  0.82       476742       38 | ca.netcom.trt-on5-43
+ 0.04  0.38       219719        1 | ca.on.vianet.p14
+ 0.93  0.20       114767       26 | ca.orc.dial042
+ 0.11  0.03        19203        3 | ca.sympatico.on.ppp1029
+ 0.50  0.10        60269       14 | ca.sympatico.on.ppp1401
+ 0.25  0.07        39843        7 | ca.yk.yknet.tom
+ 0.04  0.38       219719        1 | ch.bluewin.dns2
+ 0.79  0.31       181461       22 | ch.unibas.bioz.am-micmac
+ 0.21  0.03        16726        6 | cl.utalca.peuco183
+ 0.36  0.50       291010       10 | co.com.epm.eeppm
+ 0.93  0.21       122995       26 | com.aer.gaea
+ 0.43  0.08        49602       12 | com.aol.ipt.172-185-169
+ 0.75  0.16        91349       21 | com.aol.ipt.172-196-143
+ 0.82  0.18       106360       23 | com.aol.ipt.172-49-94
+ 0.04  0.38       219719        1 | com.aol.proxy.www-ab8
+ 0.04  0.00           98        1 | com.aol.proxy.www-ac8
+ 0.72  0.74       429997       20 | com.aol.proxy.www-ae8
+ 0.07  0.02        11914        2 | com.aol.proxy.www-af8
+ 0.07  0.42       244821        2 | com.aol.proxy.www-ag8
+ 0.25  0.02        10793        7 | com.aol.proxy.www-aj8
+ 0.04  0.38       219719        1 | com.aol.proxy.www-ak0
+ 0.07  0.38       219817        2 | com.aol.proxy.www-ak8
+ 0.64  0.50       293239       18 | com.aol.proxy.www-al8
+ 0.07  0.75       439438        2 | com.aol.proxy.www-az2
+ 0.43  0.08        49602       12 | com.aol.proxy.www-az4
+ 0.64  0.16        95488       18 | com.aol.proxy.www-m8
+ 0.21  0.06        35560        6 | com.atext.crawl3
+ 0.07  0.03        15472        2 | com.atext.crimpshrine
+ 0.25  0.06        33419        7 | com.axime.atn01
+ 0.86  0.19       108256       24 | com.btinternet.host-73-36-175
+ 0.21  0.08        45886        6 | com.btinternet.host-73-37-30
+ 0.64  0.41       239722       18 | com.ccnet.h108-5-124
+ 0.07  0.02        10028        2 | com.compuserve.ad44-239
+ 0.04  0.00          474        1 | com.compuserve.ad62-064
+ 0.43  0.08        49602       12 | com.compuserve.dd42-154
+ 1.29  0.69       402890       36 | com.compuserve.hd36-161
+ 0.18  0.05        27638        5 | com.ecis.ecis-dyn84
+ 0.07  0.05        31243        2 | com.erols.spg-as15s68
+ 0.07  0.02        11914        2 | com.escape.slip-ppp-5-38
+ 0.43  0.08        49602       12 | com.esy.zeus
+ 0.36  0.06        37267       10 | com.fiestanet.lauren-port18
+ 0.07  0.04        21124        2 | com.gari.hexagon
+ 0.18  0.02         9165        5 | com.ge.dixon
+ 0.25  0.07        40437        7 | com.ge.mason
+ 0.04  0.38       219719        1 | com.gnn.proxy.www-c03
+ 0.07  0.75       439438        2 | com.humboldt1.ppp48
+ 0.39  0.08        48433       11 | com.ibm.raleigh.socks2
+ 0.43  0.08        49602       12 | com.illgen
+ 0.29  0.01         3752        8 | com.infoseek.homer-bbn
+ 0.43  0.08        49602       12 | com.inreach.ppp2025
+ 0.39  2.03      1186883       11 | com.interlog.hotfoot
+ 1.00  0.21       125006       28 | com.lockheed.lmsc.trusty
+ 0.04  0.38       219719        1 | com.mgic.intfw
+ 0.04  0.00          180        1 | com.microsoft.tide12
+ 0.43  0.08        49602       12 | com.mindspring.dialup.user-168-121-65-73
+ 0.82  0.16        94534       23 | com.netcom.ix.lax-ca11-18
+ 0.43  0.08        49602       12 | com.netcom.ix.scr-ca5-15
+ 0.11  0.16        91621        3 | com.netcom.ix.str-ca2-02
+ 0.04  0.04        25102        1 | com.netcr.obone
+ 0.14  0.03        18739        4 | com.nfld.remote.ts02-p11
+ 0.14  0.03        18739        4 | com.pixi.neoghidora23
+ 0.25  1.57       917050        7 | com.prodigy.piweba5y-ext
+ 0.32  1.61       942314        9 | com.roche.gatekeeper
+ 0.21  0.05        26320        6 | com.rockwell.ra.mke.redgreen
+ 0.04  0.38       219719        1 | com.saic.west.portal
+ 0.89  0.20       114630       25 | com.servtech.roc.ct1
+ 0.25  0.66       386503        7 | com.sirius.ppp054-sm0
+ 0.04  0.38       219719        1 | com.teleport.ip-pdx03-09
+ 0.43  0.08        49602       12 | com.teleport.ip-vanc2-08
+ 0.04  0.38       219719        1 | com.voicenet.cherryhill157
+ 0.04  0.38       219719        1 | com.wco.octans67
+ 0.04  0.00          468        1 | com.whowhere.spica
+ 0.93  0.19       108352       26 | com.wwa.digi2-014
+ 0.36  0.25       145379       10 | com.znet.sdts1-16
+ 0.18  0.04        25086        5 | de.dtag.btx.www05
+ 0.04  0.38       219719        1 | de.mpg.mpip-mainz.th13
+ 0.36  0.11        61295       10 | de.telekom.gatekeeper
+ 0.79  0.19       108399       22 | edu.caltech.cds.dynamics
+ 0.25  0.07        40981        7 | edu.clu.nws.fic_hp
+ 0.75  0.16        91349       21 | edu.gasou.geo.gbishop
+ 0.14  0.03        18739        4 | edu.laccd.pc10-193
+ 0.43  0.08        49602       12 | edu.maine.umeciv.eowyn
+ 0.04  0.01         3373        1 | edu.ucar.harvest
+ 0.14  0.03        18739        4 | edu.uh.public-dialups.sip-16678
+ 0.86  0.77       452093       24 | edu.ukans.rsl.labcyrixp166
+ 0.11  0.02         9276        3 | edu.usm.coam.moon
+ 0.64  0.48       280054       18 | edu.utexas.csr.lab-suntzu
+ 0.43  0.08        49602       12 | edu.washington.student.cs231-8
+ 0.21  0.05        26320        6 | edu.wcu.fwright-pc
+ 0.43  0.65       381985       12 | edu.wisc.meteor.gulf
+ 0.46  0.13        77399       13 | es.dfbizkaia.gateway
+ 0.72  0.69       404993       20 | es.redestb.224.ppp100
+ 0.50  3.94      2299707       14 | es.redestb.228.ppp84
+ 0.57  0.13        75404       16 | es.sendanet.infovia9
+ 0.43  0.08        49602       12 | fi.inet.mursu
+ 0.14  0.11        63235        4 | fr.ifremer.br146-130
+ 0.18  0.24       140546        5 | fr.ifremer.heol
+ 2.72  2.37      1382152       76 | fr.ifremer.heolbis
+ 0.14  0.04        21423        4 | fr.infobiogen.ext.appp2
+ 0.43  0.08        49602       12 | fr.jussieu.ext.ligne15
+ 0.43  0.08        49602       12 | fr.orstom.bondy.infrarouge
+ 0.18  0.11        61553        5 | fr.sct.rouen0-077
+ 0.43  0.08        49602       12 | fr.sct.rouen0-095
+ 1.29  0.06        34920       36 | gov.nasa.jpl.cebmac
+ 3.58  0.73       425522      100 | gov.nasa.jpl.eisws5
+ 0.43  0.08        49602       12 | gov.nasa.jpl.jplbjh
+ 1.18  1.11       650285       33 | gov.nasa.jpl.rogan
+ 1.29  1.09       634255       36 | gov.nasa.wsc.mts-etgt
+ 0.75  0.16        91349       21 | gov.nbs.msc.aa087
+ 0.86  0.10        61235       24 | gov.noaa.ngs.cthulhu
+ 0.57  0.11        62772       16 | ie.indigo.mary
+ 0.72  0.36       211867       20 | it.vol.volott12
+ 0.43  0.08        49602       12 | jp.ac.waseda.info.muraoka.muras5
+ 0.36  6.15      3589240       10 | jp.ad.mesh.ng.nago1du27
+ 0.43  0.08        49602       12 | jp.or.aif.d037054
+ 0.72  0.17        99268       20 | jp.or.denken.criepi
+ 0.07  0.00         2085        2 | jp.or.denken.dnkgw
+ 0.79  0.22       129067       22 | kr.co.unitel.news
+ 0.68  0.15        89909       19 | mx.net.data.t2s30
+ 0.04  0.02        10562        1 | mx.net.infosel.cuernavaca0203
+ 0.21  0.05        26320        6 | net.agt.clgrpx02-port-33
+ 0.43  0.08        49602       12 | net.agt.pcrvpx01-port-24
+ 0.46  0.11        65119       13 | net.aloha.u.hawaii-26
+ 0.43  0.08        49602       12 | net.att.dial-access.ca.san-francisco-002.222
+ 0.14  0.44       257296        4 | net.att.dial-access.fl.orlando-004.103
+ 0.04  0.38       219719        1 | net.att.dial-access.il.chicago-034.239
+ 0.11  0.02         8828        3 | net.att.dial-access.va.middletown-58.165
+ 0.04  0.20       119172        1 | net.bright.dial.woosasc1-cs-18
+ 0.11  0.03        16432        3 | net.citynet.chas6_12s
+ 0.11  0.12        70531        3 | net.citynet.hunt_28s
+ 0.43  0.08        49602       12 | net.concentric.cnc104044
+ 0.11  0.16        91621        3 | net.concentric.cnc119042
+ 0.61  0.13        78318       17 | net.concentric.cnc806130
+ 0.18  1.56       909469        5 | net.connex.barrie.bci3-100
+ 0.43  0.08        49602       12 | net.earthlink.dialup.la-ca-us.pool063-max3
+ 0.68  0.14        82255       19 | net.earthlink.max7-so-ca-15
+ 0.04  0.05        30639        1 | net.express-news.dialup058
+ 0.14  0.08        44388        4 | net.fia.ts15p23
+ 0.04  0.38       219719        1 | net.iadfw.ppp.dal15-11
+ 0.97  0.20       117949       27 | net.ica.box1-n4-ip224-toronto
+ 0.04  0.38       219719        1 | net.imsweb.asr1-p06
+ 0.07  0.75       439438        2 | net.infi.crp.pa1dsp17
+ 0.04  0.00         1662        1 | net.ipa.ftsm.pool-181
+ 0.07  0.01         3324        2 | net.ipa.ftsm.pool-187
+ 0.04  0.01         4767        1 | net.itl.jsy.p072
+ 0.04  0.38       219719        1 | net.luna.rotterdam.22-pstn
+ 0.64  0.21       121717       18 | net.mich.dialip.pm202-00
+ 0.43  1.95      1139980       12 | net.mis.peopl14
+ 0.21  0.05        26320        6 | net.mtc.mtc-cs-16
+ 0.07  0.58       338891        2 | net.sowega.pm1-29
+ 0.72  0.63       366555       20 | net.super-highway.pm2-130
+ 2.61  5.02      2930727       73 | net.swbell.snantx.ppp-207-193-27-30
+ 0.25  2.42      1409923        7 | net.syra.modem002
+ 0.07  0.02        11914        2 | net.uu.ms.ca.los-angeles.max10.cust17
+ 0.21  0.05        26320        6 | net.uu.ms.in.indianapolis.max8.cust111
+ 0.46  0.10        59045       13 | net.uu.ms.oh.cleveland.max31.cust89
+ 0.64  0.13        74634       18 | net.uu.ms.pa.philadelphia.max24.cust96
+ 0.04  0.38       219719        1 | net.uu.ms.pa.philadelphia.max41.cust97
+ 0.18  0.03        15771        5 | net.uu.ms.wa.seattle.max25.cust69
+ 0.43  0.08        49602       12 | net.uu.ms.wa.seattle.max8.cust44
+ 0.04  0.38       219719        1 | net.wico.p77
+ 0.18  0.08        48083        5 | nz.co.pcnet.ppp59
+ 0.04  0.38       219719        1 | nz.co.xtra.xtra178023
+ 0.04  0.00          180        1 | org.ciesin.starbase
+ 0.04  0.02        10562        1 | org.oclc.dev.castor
+ 0.25  0.10        57086        7 | org.open.opengovt12
+ 0.32  2.81      1639711        9 | pt.telepac.bbking
+ 0.32  1.62       943549        9 | pt.telepac.louis
+ 0.36  0.07        38935       10 | sg.net.pacific.palo3
+ 0.11  0.12        72585        3 | tw.edu.nccu.www
+ 0.07  0.02        11914        2 | uk.ac.bham.lib103
+ 1.43  0.91       532844       40 | uk.ac.leeds.webserv1
+ 0.50  0.49       286882       14 | uk.co.bbc.gateb
+ 0.43  0.07        39371       12 | uk.co.bbc.gatec
+ 0.04  0.38       219719        1 | uk.co.demon.eternal-life
+ 0.04  0.38       219719        1 | uk.co.dircon.pool.gw2-130
+ 0.04  0.00          180        1 | uk.co.netcraft.penny
+ 0.21  0.01         3564        6 | uk.co.wire.durham
+ 0.64  0.20       114525       18 | us.ca.k12.marin.ts-04
+ 0.11  0.04        25303        3 | us.va.reston.cnri.gather
+ 0.57  0.11        64126       16 | za.co.aztec.village
+</PRE>
+<HR>
+<H2><A NAME="Archive">Total Transfers from each Archive Section</A></H2>
+<PRE>
+%Reqs %Byte  Bytes Sent  Requests   Archive Section
+----- ----- ------------ -------- |------------------------------------
+ 0.07  0.00         1608        2 | /Annette/alt_def.html
+ 0.11  0.01         3459        3 | /Annette/background/how_it_works_bckgd.gif
+ 0.07  0.01         4248        2 | /Annette/background/oc_atm_bckgd.gif
+ 0.04  0.00         1993        1 | /Annette/background/oc_circ_bckgd.gif
+ 0.11  0.00         2859        3 | /Annette/background/oc_tides_bckgd.gif
+ 0.11  0.01         6078        3 | /Annette/background/sat_overview_bckgd.gif
+ 0.04  0.00         1895        1 | /Annette/background/sl_rise_bckgd.gif
+ 0.07  0.01         3720        2 | /Annette/background/wind_waves_bckgd.gif
+ 0.04  0.00          650        1 | /Annette/dynamics.html
+ 0.11  0.01         5988        3 | /Annette/educational/ed_cdrom.html
+ 0.04  0.00          659        1 | /Annette/educational/ed_compare.html
+ 0.04  0.00          583        1 | /Annette/educational/ed_coriolis.html
+ 0.11  0.02         9606        3 | /Annette/educational/ed_currents.html
+ 0.07  0.00         1164        2 | /Annette/educational/ed_eddies.html
+ 0.07  0.00         1194        2 | /Annette/educational/ed_elnino.html
+ 0.07  0.00         2106        2 | /Annette/educational/ed_energy_diff.html
+ 0.11  0.00         1857        3 | /Annette/educational/ed_factors.html
+ 0.11  0.00         2052        3 | /Annette/educational/ed_factors_change.html
+ 0.07  0.00         1780        2 | /Annette/educational/ed_factors_height.html
+ 0.07  0.00         1058        2 | /Annette/educational/ed_factors_place.html
+ 0.07  0.00         1370        2 | /Annette/educational/ed_gravity.html
+ 0.75  0.15        86058       21 | /Annette/educational/ed_intro.html
+ 0.11  0.01         6045        3 | /Annette/educational/ed_lithos.html
+ 0.07  0.00         1128        2 | /Annette/educational/ed_low.html
+ 0.07  0.01         6728        2 | /Annette/educational/ed_newlithos.html
+ 0.11  0.00         1665        3 | /Annette/educational/ed_nutrients.html
+ 0.07  0.00         2000        2 | /Annette/educational/ed_profile1.html
+ 0.04  0.00          788        1 | /Annette/educational/ed_profile2.html
+ 0.07  0.00         1088        2 | /Annette/educational/ed_ruler.html
+ 0.07  0.00         1680        2 | /Annette/educational/ed_seasons1.html
+ 0.07  0.00         1842        2 | /Annette/educational/ed_seasons2.html
+ 0.07  0.00         1226        2 | /Annette/educational/ed_ssv_compare.html
+ 0.04  0.00          602        1 | /Annette/educational/ed_ssv_variation.html
+ 0.11  0.00         1626        3 | /Annette/educational/ed_tides.html
+ 0.04  0.00          623        1 | /Annette/educational/ed_topo_range.html
+ 0.07  0.00         2612        2 | /Annette/educational/ed_tracking.html
+ 0.04  0.00          539        1 | /Annette/educational/ed_tropics.html
+ 0.07  0.00         1126        2 | /Annette/educational/ed_wind.html
+ 0.21  0.09        51090        6 | /Annette/educational/ed_workshop1.html
+ 0.11  0.06        33378        3 | /Annette/educational/ed_workshop2.html
+ 0.11  0.05        32016        3 | /Annette/educational/ed_workshop3.html
+ 0.61  0.08        46053       17 | /Annette/educational/images/aviso.gif
+ 0.61  0.10        59432       17 | /Annette/educational/images/ccar.gif
+ 0.64  0.03        15084       18 | /Annette/educational/images/construction.gif
+ 0.04  3.92      2285748        1 | /Annette/educational/images/coriolis.mov
+ 0.07  0.06        35174        2 | /Annette/educational/images/coriolis_small.gif
+ 0.61  0.11        66385       17 | /Annette/educational/images/csr.gif
+ 0.07  0.01         7402        2 | /Annette/educational/images/currents.gif
+ 0.07  0.12        69334        2 | /Annette/educational/images/data_small.gif
+ 0.04  0.03        18077        1 | /Annette/educational/images/dyn_topo.gif
+ 0.04  0.17       100313        1 | /Annette/educational/images/dyn_topo_92&96.gif
+ 0.11  0.08        47115        3 | /Annette/educational/images/dyn_topo_92&96_small.gif
+ 0.07  0.01         7860        2 | /Annette/educational/images/dyn_topo_small.gif
+ 0.04  0.16        90695        1 | /Annette/educational/images/eddies.gif
+ 0.18  0.08        44335        5 | /Annette/educational/images/eddies_small.gif
+ 0.04  0.25       147829        1 | /Annette/educational/images/elnino.gif
+ 0.04  0.03        17456        1 | /Annette/educational/images/elnino_cond.gif
+ 0.07  0.01         5488        2 | /Annette/educational/images/elnino_cond_small.gif
+ 0.18  0.11        63255        5 | /Annette/educational/images/elnino_small.gif
+ 0.04  0.52       303214        1 | /Annette/educational/images/fact.gif
+ 0.11  0.27       157245        3 | /Annette/educational/images/fact_small.gif
+ 0.04  0.09        50333        1 | /Annette/educational/images/geoid.gif
+ 0.07  0.02        14492        2 | /Annette/educational/images/geoid_small.gif
+ 0.04  0.16        91588        1 | /Annette/educational/images/global_dyn_topo.gif
+ 0.07  0.03        19112        2 | /Annette/educational/images/global_dyn_topo_small.gif
+ 0.04  0.36       212740        1 | /Annette/educational/images/gr_tracks.gif
+ 0.14  0.10        57320        4 | /Annette/educational/images/gr_tracks_small.gif
+ 0.04  0.04        23638        1 | /Annette/educational/images/hills&valleys.gif
+ 0.07  0.02        14058        2 | /Annette/educational/images/hills&valleys_small.gif
+ 0.61  0.02        12869       17 | /Annette/educational/images/map.gif
+ 0.04  0.30       172212        1 | /Annette/educational/images/marble.gif
+ 0.07  0.05        27996        2 | /Annette/educational/images/marble_small.gif
+ 0.04  0.20       115212        1 | /Annette/educational/images/meas_sys.gif
+ 0.04  0.06        33222        1 | /Annette/educational/images/meas_sys_med.gif
+ 0.14  0.08        45960        4 | /Annette/educational/images/meas_sys_small.gif
+ 0.04  0.01         5613        1 | /Annette/educational/images/money.gif
+ 0.04  0.02        14136        1 | /Annette/educational/images/norm_cond.gif
+ 0.07  0.01         4424        2 | /Annette/educational/images/norm_cond_small.gif
+ 0.04  0.03        19804        1 | /Annette/educational/images/oc_heat.gif
+ 0.07  0.01         4750        2 | /Annette/educational/images/oc_heat_small.gif
+ 0.04  0.03        15489        1 | /Annette/educational/images/oc_motion.gif
+ 0.14  0.02         9936        4 | /Annette/educational/images/oc_motion_small.gif
+ 0.04  0.18       106654        1 | /Annette/educational/images/oc_seasons.gif
+ 0.07  0.05        28522        2 | /Annette/educational/images/oc_seasons_small.gif
+ 0.68  0.30       172425       19 | /Annette/educational/images/oc_shuttle.gif
+ 0.07  0.05        29494        2 | /Annette/educational/images/overview_small.gif
+ 0.04  0.00         2334        1 | /Annette/educational/images/pac_profile1.gif
+ 0.04  0.04        24756        1 | /Annette/educational/images/podaac.gif
+ 0.14  0.03        18920        4 | /Annette/educational/images/podaac_small.gif
+ 0.07  0.04        24206        2 | /Annette/educational/images/repeat_orb_small.gif
+ 0.04  0.01         7371        1 | /Annette/educational/images/rossapr_small.gif
+ 0.04  0.01         7747        1 | /Annette/educational/images/rossdec_small.gif
+ 0.04  0.01         7640        1 | /Annette/educational/images/rossjul_small.gif
+ 0.04  0.00          962        1 | /Annette/educational/images/ruler.gif
+ 0.04  0.13        78635        1 | /Annette/educational/images/sat_earth.gif
+ 0.14  0.06        32160        4 | /Annette/educational/images/sat_earth_small.gif
+ 0.04  0.01         6061        1 | /Annette/educational/images/sea_height.gif
+ 0.07  0.01         4716        2 | /Annette/educational/images/sea_height_small.gif
+ 0.04  0.04        24756        1 | /Annette/educational/images/ssv_bottom.gif
+ 0.07  0.05        29452        2 | /Annette/educational/images/ssv_pac_small.gif
+ 0.04  0.03        19431        1 | /Annette/educational/images/ssv_top.gif
+ 0.04  0.01         7519        1 | /Annette/educational/images/sun_poles.gif
+ 0.75  0.37       214956       21 | /Annette/educational/images/topi.gif
+ 0.07  0.05        26672        2 | /Annette/educational/images/topo_small.gif
+ 0.64  0.20       119394       18 | /Annette/educational/images/tp_online.gif
+ 0.04  0.07        40863        1 | /Annette/educational/images/wind&oc_currents.gif
+ 0.07  0.03        19102        2 | /Annette/educational/images/wind&oc_currents_small.gif
+ 0.04  0.19       112484        1 | /Annette/educational/images/wind_wave_jan.gif
+ 0.14  0.10        56400        4 | /Annette/educational/images/wind_wave_jan_small.gif
+ 0.04  0.19       110507        1 | /Annette/educational/images/wind_wave_jun.gif
+ 0.14  0.10        56020        4 | /Annette/educational/images/wind_wave_jun_small.gif
+ 0.04  0.00         2310        1 | /Annette/el_nino.html
+ 0.36  0.17       100040       10 | /Annette/emswt/emswt.html
+ 0.07  0.01         2968        2 | /Annette/gps.html
+ 0.04  0.00          741        1 | /Annette/gyre_def.html
+ 0.07  0.00         2576        2 | /Annette/harvest_platform.html
+ 0.11  0.01         5229        3 | /Annette/hist_future.html
+ 0.14  0.01         8572        4 | /Annette/how_it_works.html
+ 0.04  0.00          662        1 | /Annette/hydrodyn_def.html
+ 0.04  0.10        59105        1 | /Annette/images/con_belt.gif
+ 0.04  0.06        33242        1 | /Annette/images/dyn_topo.gif
+ 0.04  0.04        24756        1 | /Annette/images/gps.gif
+ 0.07  0.01         4964        2 | /Annette/images/heat_stor.gif
+ 0.07  0.01         3512        2 | /Annette/images/meas_acc.gif
+ 0.11  0.20       119382        3 | /Annette/images/meas_sys.gif
+ 0.11  0.08        48693        3 | /Annette/images/oc_tides.gif
+ 0.04  0.05        29310        1 | /Annette/images/platform_harvest.gif
+ 0.14  0.58       339628        4 | /Annette/images/sat_annotated.gif
+ 0.04  0.01         5412        1 | /Annette/images/sat_inst.gif
+ 0.32  0.27       155547        9 | /Annette/images/sc_earth.gif
+ 0.04  0.02         9283        1 | /Annette/images/sl_hills&valleys.gif
+ 0.04  0.04        23781        1 | /Annette/images/sl_rise_graph.gif
+ 0.04  0.03        16054        1 | /Annette/images/sl_rise_map.gif
+ 0.07  0.06        35138        2 | /Annette/images/wave.gif
+ 0.07  0.06        33994        2 | /Annette/images/wind.gif
+ 0.39  0.05        30811       11 | /Annette/intro.html
+ 0.04  0.00         2190        1 | /Annette/kel_ross.html
+ 0.04  0.00         2304        1 | /Annette/kel_ross_detail.html
+ 0.07  0.15        88528        2 | /Annette/nearrealtime/images/float_off.gif
+ 0.07  0.02        13970        2 | /Annette/nearrealtime/images/gulf_o_mexico.gif
+ 0.50  0.13        77098       14 | /Annette/nearrealtime/images/nrt.gif
+ 0.18  0.42       243310        5 | /Annette/nearrealtime/images/ssa.gif
+ 0.32  0.09        55251        9 | /Annette/nearrealtime/images/ssh.gif
+ 0.54  0.09        50595       15 | /Annette/nearrealtime/images/tp_sat.gif
+ 0.11  0.01         5541        3 | /Annette/nearrealtime/nrt_gulf_o_mexico.html
+ 0.64  0.07        39600       18 | /Annette/nearrealtime/nrt_intro.html
+ 0.21  0.02        10866        6 | /Annette/nearrealtime/nrt_ssa.html
+ 0.36  0.04        25220       10 | /Annette/nearrealtime/nrt_ssh.html
+ 0.11  0.01         6270        3 | /Annette/nearrealtime/nrt_wave.html
+ 0.11  0.01         6270        3 | /Annette/nearrealtime/nrt_wind.html
+ 0.04  0.01         4511        1 | /Annette/nearrealtime/whales_press_release.html
+ 0.11  0.01         5580        3 | /Annette/oc_atm_conn.html
+ 0.04  0.00         1524        1 | /Annette/oc_seasons.html
+ 0.14  0.01         8076        4 | /Annette/oc_tides.html
+ 0.04  0.00         1847        1 | /Annette/oc_weather.html
+ 0.07  0.01         3324        2 | /Annette/orb_maintenance.html
+ 0.07  0.00         1358        2 | /Annette/sat_instr.html
+ 0.14  0.01         5440        4 | /Annette/sat_overview.html
+ 0.04  0.00          669        1 | /Annette/sci_goals.html
+ 0.04  0.00         2658        1 | /Annette/sea_level.html
+ 0.07  0.00         1364        2 | /Annette/topo_def.html
+ 0.04  0.00         1792        1 | /Annette/trade_wind_def.html
+ 0.07  0.01         3336        2 | /Annette/what_oc_circ.html
+ 0.07  0.00         2390        2 | /Annette/whats_climate.html
+ 0.07  0.01         3458        2 | /Annette/why_circ_imp.html
+ 0.11  0.01         4371        3 | /Annette/wind_waves.html
+ 0.32  0.34       198239        9 | /Raghu/vrstat/vrs7d.wrl
+ 0.04  0.02        11841        1 | /Raghu/vrstat/vrs7db.wrl
+ 0.11  0.01         5190        3 | /Raghu/vrstat/vrs7dtime.gif
+ 0.25  0.12        67123        7 | /contrib/chelton/rossby/
+ 0.04  0.00         2809        1 | /contrib/chelton/rossby/fig1.gif
+ 0.21  0.01         3642        6 | /contrib/chelton/rossby/fig1small.gif
+ 0.04  0.15        89624        1 | /contrib/chelton/rossby/fig2.gif
+ 0.21  0.07        40452        6 | /contrib/chelton/rossby/fig2small.gif
+ 0.04  0.21       121082        1 | /contrib/chelton/rossby/fig3.gif
+ 0.21  0.08        46080        6 | /contrib/chelton/rossby/fig3small.gif
+ 0.07  0.44       259224        2 | /contrib/chelton/rossby/fig4.gif
+ 0.21  0.07        39990        6 | /contrib/chelton/rossby/fig4small.gif
+ 0.04  0.01         5558        1 | /contrib/chelton/rossby/fig5.gif
+ 0.21  0.01         4620        6 | /contrib/chelton/rossby/fig5small.gif
+ 0.14  0.15        89964        4 | /contrib/jacobs/acw/
+ 0.04  0.08        44035        1 | /contrib/jacobs/acw/grl_fig12.gif
+ 0.04  0.11        62870        1 | /contrib/jacobs/acw/grl_plate3hl.gif
+ 0.04  0.02         9818        1 | /dpl/vrstat/vrs7d.wrl
+ 0.04  0.02         9828        1 | /dpl/vrstat/vrs7db.wrl
+ 3.86  0.92       535077      108 | /gifs/3star72pix.gif
+ 3.93  0.97       564970      110 | /gifs/5perclgt.gif
+ 4.11  0.55       323435      115 | /gifs/TPXimg_icn.gif
+ 0.04  0.01         3065        1 | /gifs/TopexTitleWorkInProgress.gif
+ 0.32  0.01         4275        9 | /gifs/UnderConstruction.gif
+ 5.40  0.28       162596      151 | /gifs/ballb.gif
+ 3.90  0.20       117782      109 | /gifs/ballg.gif
+ 5.93  0.32       185171      166 | /gifs/clrbar02.gif
+ 4.25  0.06        32848      119 | /gifs/new.gif
+ 0.64  0.05        31176       18 | /gifs/tpx_icn.gif
+ 4.22  0.44       258092      118 | /gifs/tpx_icn1.gif
+ 3.97  0.44       255382      111 | /gifs/tpx_icn3.gif
+ 4.04  0.34       200074      113 | /gifs/tpx_icn6.gif
+ 0.04  0.01         6465        1 | /gifs/wff_topexlogo.gif
+ 5.54  2.74      1597624      155 | /index.html
+ 1.32  0.11        61494       37 | /ninowatch/
+ 0.72  0.12        72032       20 | /ninowatch/94-95_watch.html
+ 0.29  0.14        80983        8 | /ninowatch/El_Nino_background.html
+ 0.04  0.29       170420        1 | /ninowatch/Geoid.gif
+ 0.39  0.51       294767       11 | /ninowatch/NinoWatchMapClick.gif
+ 0.82 35.11     20486790       23 | /ninowatch/S94.mpeg
+ 0.07  0.79       463080        2 | /ninowatch/S940327.gif
+ 0.07  0.79       463140        2 | /ninowatch/S940330.gif
+ 0.04  0.40       234221        1 | /ninowatch/S940406.gif
+ 0.04  0.41       238975        1 | /ninowatch/S940422.gif
+ 0.14  1.67       976472        4 | /ninowatch/S940429.gif
+ 0.04  0.41       237881        1 | /ninowatch/S940516.gif
+ 0.04  0.42       242407        1 | /ninowatch/S940529.gif
+ 0.07  0.78       457512        2 | /ninowatch/S941025.gif
+ 0.04  0.40       233339        1 | /ninowatch/S941123.gif
+ 0.04  0.43       249151        1 | /ninowatch/S941226.gif
+ 0.04  0.43       251311        1 | /ninowatch/S950128.gif
+ 0.25  0.04        21878        7 | /ninowatch/TopexTitleNinoGuide.gif
+ 0.32  0.05        31734        9 | /ninowatch/TopexTitleNinoImages.gif
+ 0.72  0.13        75900       20 | /ninowatch/TopexTitleNinoStatus.gif
+ 1.18  0.80       469250       33 | /ninowatch/Topexban3.gif
+ 0.39  0.04        22517       11 | /ninowatch/images.html
+ 1.43 14.31      8349518       40 | /stats/report.html
+ 0.46  1.41       824361       13 | /stats/wwwstats.html
+ 0.14  2.18      1271012        4 | /topex/Mission.gif
+ 0.72  0.18       104960       20 | /topex/Mission.html
+ 0.68  0.09        55138       19 | /topex/Mission_icn.gif
+ 0.68  0.15        88198       19 | /topex/TopexTitleMission.gif
+ 4.36  2.82      1644244      122 | /topex/Topexban1.gif
+ 1.11  0.11        64692       31 | /tpxim/
+ 0.07  0.00         1988        2 | /tpxim/4sBcM2.html
+ 0.07  0.24       137374        2 | /tpxim/4sBcM2.s.gif
+ 0.14  0.02        11616        4 | /tpxim/4sBcM2.ss.gif
+ 0.11  0.01         4389        3 | /tpxim/IMG16.html
+ 0.43  3.66      2135066       12 | /tpxim/IMG16.s.gif
+ 0.93  0.18       105798       26 | /tpxim/IMG16.ss.gif
+ 0.39  0.02        10878       11 | /tpxim/Lithos1.html
+ 0.14  0.01         6056        4 | /tpxim/Lithos2.html
+ 0.11  0.01         3387        3 | /tpxim/SDT37A.html
+ 0.11  0.34       197814        3 | /tpxim/SDT37A.s.gif
+ 0.14  0.02        13856        4 | /tpxim/SDT37A.ss.gif
+ 0.07  0.00         2268        2 | /tpxim/STD37.html
+ 0.14  0.04        26072        4 | /tpxim/STD37.ss.gif
+ 0.43  0.09        52535       12 | /tpxim/TPX505A.html
+ 0.32  0.07        42795        9 | /tpxim/TPX505B.html
+ 0.21  0.05        26718        6 | /tpxim/TPX505C.html
+ 0.18  0.03        19738        5 | /tpxim/TPX505D.html
+ 0.97  0.65       378242       27 | /tpxim/Topexban2.gif
+ 0.32  1.14       662674        9 | /tpxim/f42.gif
+ 0.43  0.08        48384       12 | /tpxim/f42.s.gif
+ 0.11  0.00         2454        3 | /tpxim/first.html
+ 0.43  0.06        32152       12 | /tpxim/firstpio.html
+ 0.29  1.59       927521        8 | /tpxim/topex07.s.gif
+ 0.97  0.21       125054       27 | /tpxim/topex07.ss.gif
+ 0.11  0.73       424452        3 | /tpxim/topex30.32.gif
+ 0.54  0.18       107385       15 | /tpxim/topex30.32.s.gif
+ 0.18  1.06       618170        5 | /tpxim/topex35.gif
+ 0.43  0.11        66900       12 | /tpxim/topex35.s.gif
+ 0.14  0.72       422024        4 | /tpxim/topex37.gif
+ 0.36  0.10        59150       10 | /tpxim/topex37.s.gif
+ 0.07  0.05        27344        2 | /wff_OscDrift.html
+ 1.00  0.03        15212       28 | Code 302 Redirected Requests
+ 0.57  0.01         7647       16 | Code 404 Not Found Requests
+</PRE>
+<HR>
+<ADDRESS>This summary was generated by 
+<A HREF="http://www.ics.uci.edu/WebSoft/wwwstat/">wwwstat-1.0</A>
+</ADDRESS>
+</BODY></HTML>
+</DOC>

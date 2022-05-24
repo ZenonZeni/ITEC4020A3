@@ -1,0 +1,335 @@
+
+<DOC>
+<DOCNO>WT01-B11-7</DOCNO>
+<DOCOLDNO>IA062-000357-B014-113</DOCOLDNO>
+<DOCHDR>
+http://www.monito.com:80/wankel/engines.html 206.86.185.198 19970116014125 text/html 16960
+HTTP/1.0 200 OK
+Date: Thu, 16 Jan 1997 01:41:29 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 16777
+Last-modified: Sat, 29 Jun 1996 20:46:52 GMT
+</DOCHDR>
+<HTML>
+
+<HEAD>
+
+<TITLE>   Wankel Rotary Engines - Engine List   </TITLE>
+
+<META Name="description" Content="Lists of Wankel rotary combustion
+engines:  NSU, Mazda, Curtiss-Wright, Daimler-Benz, Fichtel Sachs,
+Rolls-Royce, Norton, and others.">
+
+<META Name="keywords" Content="Wankel rotary combustion engine, NSU,
+Mazda, Curtiss-Wright, Daimler-Benz, Fichtel Sachs, Rolls-Royce,
+Norton.">
+
+</HEAD>
+
+<BODY background="../Textures/monito-logo-bkgd.gif" bgcolor="#F0F0F0"
+	text="#000000" link="#0000FF" alink="#00FF00" vlink="#00B000">
+
+<A HREF = "wankel.html"> Wankel Home </A> |
+<A HREF = "vehicles.html"> => Vehicle Lists </A>
+
+<HR>
+
+<H1> Rotary Combustion Engine Data </H1>
+
+<P> Categories are: <A HREF = "#NSU">NSU</A>,
+<A HREF = "#Mazda">Mazda</A>,
+<A HREF = "#Curtiss-Wright">Curtiss-Wright</A>,
+<A HREF = "#Daimler-Benz">Daimler-Benz</A>,
+<A HREF = "#FichtelSachs">Fichtel &#38; Sachs</A>,
+<A HREF = "#Rolls-Royce">Rolls-Royce</A>,
+<A HREF = "#Norton">Norton</A>, and
+<A HREF = "#Other">Other</A>.
+
+<IMG SRC = "../Images/engine-hist.gif" WIDTH = 504 HEIGHT = 214>
+
+<P> Power figures are SAE net unless noted SAE gross, DIN, or JIS.
+Early (1960 and before) German horsepower figures are almost certainly
+gross even if not marked as such.  American horsepower appears to have
+gone to net about 1970. Multiplying JIS by .80 or .85 gives SAE net.
+
+<P> Engine capacities are quoted as single chamber capacity.  Various
+bodies de-rate the RCE by applying coefficients of 1.7, 1.8, 2.0 or
+even 3.0 to boost the apparent size.
+
+<H2> <A NAME = "NSU"> <A HREF = "nsu.html">NSU</A> / <A HREF =
+"dr-wankel.html">Wankel</A> Engines </H2>
+
+<PRE>
+Eng.     Yrs     Model             cc x rotors    Comp BHP/rpm, Torq(lb-ft/rpm)
+
+DKM 32   35      Wankel's first experiment, non-operational
+DKM 54   57      experimental     125 x 1              29 hp net at 17,000 rpm
+KKM 125  58      (aka KKM 57)     125 x 1              25-30/10-12,000 net
+KKM 250  59      exp. auto power  250 x 1              44/9000 gross
+KKM 400  60      exp. auto        400 x 1              51/6000 net
+KKM 60   60      Mk I exp aircool  60 x 1              3/6000
+KKM 60   61      Mk II exper.      60 x 1              6/6000
+<A HREF="../Images-GG/gg-kkm150.jpg">KKM 150</A>  61      prod. prototype  150 x 1              18/6000 net
+KKM 150LI 61     port. fire pump  150 x 1              13.5/6000 net
+KKM 2x300 61                      295 x 2 =  590       66/6000 net
+KKM 500X1 61     exp.             500 x 1              60/6000 net
+         61      NATO drone           x 2
+         61      motor scooter
+KKM 60   62      Mk III exper.     60 x 1              4.2/6500
+KKM 507  63      exp. from 500X1  500 x 1              18/5000 net
+KKM 509/506 64   exp.             498 x 2 =  996       110/6000 net
+KKM 510  64      exp. air cool    215 x 1              10.5/5000 net
+<A HREF="../Images-GG/gg-kkm502p.jpg">KKM 502</A>  62-3    <A HREF="nsu.html#Spider">Spider</A> Test      498 x 1         8.6  50/6000 net 52/2500 DIN.
+<A HREF="../Images-GG/gg-wmotor.jpg">KKM 502</A>  64-67   <A HREF="../Images-GG/gg-gspmot.jpg">Spider</A>           498 x 1 =  498  8.6  64/5000, 54/3000 SAE
+KKM 512  65      exp., military   498 x 2 =  996       110/6000 net
+KKM 514  65-69   exp. air cool    500 x 2 = 1000       35/5000 net.  Fr KKM 507
+KKM 513  66      exp. liquid cool 500 x 1
+KKM 613  66-67   from KKM 612     498 x 1              49/5500 net 51/2745
+KKM 612  67-77   <A HREF="nsu.html#Ro80">Ro80</A> 115hp net   498 x 2 =  996  9.0  129/5800, 112/4500grSAE?
+KKM 514  69      exp. air cool    500 x 2 = 1000       46/5000 net
+KKM 619  69                           x 3              150-180 bhp.
+KKM 613  70      <A HREF="citroen.html">Citro&#235;n</A> M35          x 1              49/5500 net 51/2745
+KKM 622  73      Citr. GS birotor     x 2              107 bhp
+KKM 871  70-76   in Audi 100 test 750 x 2 = 1500       170 hp
+W-87             marine aircool   108 x 1 =  108  8.5  8.7 hp 5800 rpm SAE 64lb
+V-87             marine aircool   108 x 1 =  108  8.5  8.7 hp 5800 rpm SAE 68lb
+W-120            marine aircool   160 x 1 =  160  8.0  12 hp 4700 rpm SAE 67lb
+V-120            marine aircool   160 x 1 =  160  8.0  12 hp 4700 rpm SAE 76lb
+H-120            marine aircool   160 x 1 =  160  8.0  12 hp 4700 rpm SAE 85lb
+Audi     ~85     <A HREF="biblio.html#Audi">Natural Gas stratified charge</A>.
+</PRE>
+
+<H2> <A NAME = "Mazda"> <A HREF = "mazda.html">Mazda</A> Engines </H2>
+
+<PRE>
+Eng.     Yrs     Model             cc x rotors    Comp BHP/rpm, Torq(lb-ft/rpm)
+
+40A      61      experimental     386 x 1 =  386
+L8A      62      experimental     399 x 1 =  399
+L8A/0353 62      experimental     399 x 2 =  798
+L8A/3804 63      experimental     399 x 3 = 1197
+L8A/3805 63      experimental     399 x 4 = 1596       160/6000 gross
+400/3867 67      experimental     395 x 2 =  790
+400/3893 69      experimental     495 x 2 =  990
+3912     70      experimental     356 x 1 =  356       35 bhp
+X002     70      experimental     360 x 1 =  360
+3915     70      experimental         x 1 =  360?
+6A       70s     experimental     573 x 1 =  573       from 12A
+7A       70s     experimental     654 x 1 =  654       from 13B
+2002     71      experimental     491 x 4 = 1964       180/6000 (from 10A)
+10A/3820 64      prototype        491 x 2 =  982
+10A/0810 67      Cosmo L10A       491 x 2 =  982       110/7000 (gross)
+10A/0813 68      Cosmo L10B       491 x 2 =  982       128/7000 (gross)
+10A/0820 68      Cosmo            491 x 2 =  982       100/7000 (gross)
+10A/3883 68      Singapore GPrace 491 x 2 =  982       204 bhp
+10A/0820 69-72   Presto (JpnR100) 491 x 2 =  982       100/7000 98/3500
+10A/3877 69-72   R100(US)         491 x 2 =  982       100/7000 92/4000 akaM10A
+10A/0866 71-5?   RX-3(Jpn)        491 x 2 =  982       105/7000 (gross)
+10B      68-69   Cosmo                                 128 (gross)
+12A/3830 66      experimental     573 x 2 = 1146
+12A/3872 68      prototype        573 x 2 = 1146
+12A/3830 66      prototype        573 x 2 = 1146
+12A      70-71   R100             573 x 2 = 1146  9.4  100/7000 (gr.), 92/4000
+12A      70-71   RX-2             573 x 2 = 1146  9.4  120 (gross)
+12A      72      R100             573 x 2 = 1146  9.4  77/6000, 80/4000
+12A/3905 72      RX-2 US          573 x 2 = 1146  9.4  102/6800, 98/4000 net
+12A/R612 72-75   RX-3 US          573 x 2 = 1146  9.4  90/6000, 96/4000 net
+12A      73      Luce GR (Japan)  573 x 2 = 1146  9.4  120/6500, 116/3500 DIN
+12A      73      Luce GR AP (Jpn) 573 x 2 = 1146  9.4  115/6500, 114/3500 DIN
+12A      73      Luce GR II (Jpn) 573 x 2 = 1146  9.4  130/7000, 120/4000 DIN
+12A      73      Luce GR IIAP (J) 573 x 2 = 1146  9.4  125/7000, 117/4000 DIN
+12A      73      RX-2             573 x 2 = 1146  9.4  97/6500, 96/4000
+12A      73      LeMans race tune 573 x 2 = 1146       250/8000
+12A SIP  74      RX-2             573 x 2 = 1146  9.4  97/6500, 96/4000
+12A      76      RX-3 Nikki 2bl   573 x 2 = 1146  9.4  95/6000, 102/4000
+12A      77-78   RX-3SP           573 x 2 = 1146  9.4  95/6000, 102/4000
+12ASport 77      Sports Kit(race) 573 x 2 = 1146  9.4  250+/9000
+12A      79-80   <A HREF="rx-7.html#1stgen">RX-7</A>             573 x 2 = 1146  9.4  100/6000, 105/4000
+12A Lean 81-85   RX-7 US LeanBurn 573 x 2 = 1146  9.4? 100/6000?, 105/4000?
+12A 6PI  82-85   Luce,Cosmo (Jpn) 573 x 2 = 1146  
+12A/Turb 83-8?   Luce,Cosmo,RX-7  573 x 2 = 1146  8.5  160/6000JIS, 165/4000
+12A/Turb 8?-85   Luce,Cosmo,RX-7  573 x 2 = 1146  8.5  165/6000JIS, 165/4000
+12A      84-85   RX-7 (S,GS,GSL)  573 x 2 = 1146  9.4  101/6000, 107/4000
+12B      73-75   racing one distr 573 x 2 = 1146       250+/9500
+13A/0823 70-72   R130 front drv   655 x 2 = 1310  9.1  126/6000, 127/3500
+13B      73      R130 (Japan)     654 x 2 = 1308  9.1  125/6000, 127/3500
+13B      74-75   RX-4             654 x 2 = 1308  9.2  110/6000, 117/3500
+13B      76-78   RX-4             654 x 2 = 1308  9.2  110/6000, 120/4000
+13B      76-78   RX-5 (Cosmo)     654 x 2 = 1308  9.2  110/6000, 120/4000
+13B Race 77      Racing           654 x 2 = 1308  9.4  290+/9000
+13B Race 79      Le Mans Racing   654 x 2 = 1308       285/9000
+13B Race 80      Le Mans Qualify  654 x 2 = 1308       300
+13B Race 80      Le Mans Racing   654 x 2 = 1308       290/8500
+13B DEI  83+     Cosmo,Luce,RX-7  654 x 2 = 1308
+13B Race 84      Le Mans, factory 654 x 2 = 1308       330 sprint, 310 enduro
+13B Turb 84      Racing           654 x 2 = 1308  7.5  500/8000, 326/7500
+13B DEI  84-85   RX-7 (<A HREF="rx-7.html#gslse">GSL-SE</A>)    654 x 2 = 1308  9.4  135/6000, 133/2750
+13B DEI  86-89   <A HREF="rx-7.html#2ndgen">RX-7 2nd gen</A>     654 x 2 = 1308  9.4  146/6500, 138/3500
+13B Turb 86-89   RX-7 Turbo II    654 x 2 = 1308  8.5  182/6500, 183/3500
+13B      87      Tom McCabe rebld 654 x 2 = 1308       326
+13B Turb 87      Tom McCabe rebld 654 x 2 = 1308       426
+13B      89      Luce (Japan929)  654 x 2 = 1308  8.5  177/6500, 181/3500 JIS
+13B VDEI 89-92   RX-7 Light Rotor 654 x 2 = 1308  9.7  160/7000, 140/4000
+13B Turb 89-91   RX-7 T II Lt Rtr 654 x 2 = 1308  9.1  200/6500, 196/3500
+13B Twin 92+     <A HREF="rx-7.html#3rdgen">RX-7 Seq. Turbo</A>  654 x 2 = 1308  9.0  255/6500, 217/5000
+MSPRE    95+     <A HREF="rx-01.html">RX-01</A> MulSidPrt      x 2              220/8500, 159/6500
+13G              racing               x 3
+13J              racing               x 3
+15A      73      experimental     737 x 2 = 1474       135/5750gross, 145/3500
+         84/5    MX-03 (exp)      654 x 3 = 1962       320/7000 JIS, 290 lbft
+20G                                   x 3
+21A R-II 72      experimental    1046 x 2 = 2092       (22A 2x1169cc planned)
+R26B             <A HREF="lemans.html">racing</A> 448 lb-ft 654 x 4 = 2616       700/9000 62mkg/6500
+ROSCO    70s     proposed stratified charge, late 70s
+SCP              proposed precombustion chamber engine
+TISC             experimental supercharged
+DISC     80s     late 80s
+DISC-II  90s     early 90s
+Miller   90s     Miller Cycle RCE
+HR-X             exp. <A HREF="hydrogen.html">hydrogen</A>
+HRX-2            exp. hydrogen
+</PRE>
+
+<H2> <A NAME="Curtiss-Wright"> Curtiss-Wright </H2>
+
+<PRE>
+Eng.     Yrs     Application       cc x rotors    Comp BHP/rpm, Torq(lb-ft/rpm)
+
+RC1-60   59      side port in     980 x 1 =  980       105/6000 108/3500
+RC1-60   59      peripheral in    980 x 1 =  980       160/7000 135/5000
+RC4-60   60      1st multi-rotor  980 x 4 = 3920       425/6500 400/4000
+RC1-1920 60      Monster!       31500 x 1 =31500       782/1525
+RC1-4.3  61      air-cooled      70.5 x 1 =   71     3.5/4000 bhp
+RC1-4.3  61      air-cooled      70.5 x 1 =   71     3.5/4000 bhp
+RC2-8.6  61      H20 cool         141 x 2 =  282       50/12000
+RC2-602  61                       980 x 2 = 1960       215/5000 212/3500
+RC1-60J1 62      twin plugs       980 x 1 =  980       107 hp
+RC1-60   62      stratified ch.   980 x 1 =  980
+RC4-60J2 62      military         980 x 4 = 3920
+RC2-60U5 63-68   vehicles         980 x 2 = 1960       200/5500 gross 200/4300
+RC1-60J4 65      air cool         980 x 1 =  980
+RC2-60M4         marine           980 x 2 = 1960       200/5500 continuous
+RC2-60N  65?     power generation 980 x 2 = 1960       95/4800 net contin.
+RC2-60T3 66-68   military         980 x 2 = 1960       185/5000 gross
+RC2-60U10 65-67  veh., per., JP4  980 x 2 = 1960       178/5000 to RollsRoyce
+RC2-60U10 65-67  veh., side, JP4  980 x 2 = 1960       155/5000 to RollsRoyce
+RC2-60Y8 66-68   QStar, Cessna177 980 x 2 = 1960       185/5000 gross
+RC2-90Y2 66      aviation        1467 x 2 = 2934       275/6000 aka YRC-180-2
+RC1-90   67-70+  H20 cool, per.  1467 x 1 = 1467
+RC2-90J6                          980 x 2 = 1960
+RC2-75Y1 72      avi. mockup     1222 x 2 = 2444       285/6000 projected
+</PRE>
+
+<H2> <A NAME="Daimler-Benz"> Daimler-Benz </H2>
+
+<PRE>
+Eng.     Yrs     Application       cc x rotors    Comp BHP/rpm, Torq(lb-ft/rpm)
+
+KP Serie 62      experimental     700 x 1 =  700
+KP Serie 62      experimental     700 x 2 = 1400
+KA Serie 65-66   Fuel inj. Cars   450 x 2 =  900
+KA Serie 65-66   Fuel inj. Cars   450 x 3 = 1350
+KC Serie 67                       560 x 2 = 1120
+KC Serie 67                       560 x 3 = 1680
+KE Serie 69      <A HREF="mercedes.html">C111</A>             600 x 3 = 1800       280/7000 net 220/5-6500
+KE Serie 70      C111 305-400bhp  600 x 4 = 2400       350/7000 net 290/4-5500
+</PRE>
+
+<H2> <A NAME="FichtelSachs"> Fichtel &#38; Sachs </H2>
+
+<P> Horsepower figures are net.
+
+<PRE>
+Eng.     Yrs     Application       cc x rotors    Comp BHP/rpm, Torq(lb-ft/rpm)
+
+KM 3     72      lawnmower        110 x 1 =  110       3/3300
+KM 24    72+     snowmobiles      294 x 1 =  294       23/6000 21.7/4800
+KM 37    65+     stationary       108 x 1 =  108       6.6/5500
+KM 48    65+     stationary       160 x 1 =  160       8/4800
+KM 914A  67+     station. aircool 303 x 1 =  303       16/4500 18.8/3500
+KM 914B  67+     snowmobiles      303 x 1 =  303       19/5500 20.3/4000
+</PRE>
+
+<H2> <A NAME = "Rolls-Royce"> Rolls-Royce </H2>
+
+<P> Developed experimental two stage units with low and high pressure
+stages to achieve Diesel cycle operation.
+
+<PRE>
+Eng.     Yrs     Application       cc x rotors    Comp BHP/rpm, Torq(lb-ft/rpm)
+
+R1       66-67   exp. 2 stage  500 + 1126 = 1726       55/4500
+R2       66      exp. 2 stage
+R3               HP stage            1216              180/4500
+R6       72      exp 2stg (1265+3250) x 2 = 9030       350/4500 expected
+</PRE>
+
+<H2> <A NAME = "Norton"> <A HREF="norton.html">Norton</A> </H2>
+
+<PRE>
+Eng.     Yrs     Application       cc x rotors    Comp BHP/rpm, Torq(lb-ft/rpm)
+
+EMAP     70s     NVT proto.
+<A HREF="norton.html#InterpolII">Interpol</A>         motorcycle       294 x 2 =  588  9.0  63 (85bhp)/9000
+<A HREF="norton.html#Classic">Classic</A>  88      motorcycle       294 x 2 =  588  7.5  79/9000
+<A HREF="norton.html#Commander">Commander</A> 88     Commander mcycle 294 x 2 =  588  9    85/9000
+<A HREF="norton.html#F1">F1</A>       90+     sport motorcycle 294 x 2 =  588  9    95PS/9500, 57/7500
+NR 642   ~89     Light aircraft                        90 bhp
+NR 622   80s     Ultra light aircraft                  82 bhp
+P62      80s     from NR 622                           90 bhp
+NR 731   ~89     <A HREF="norton.html#drone">target drone</A>                          38 bhp
+NR 801   ~89     Ultra light aircraft 23 kg            50/7500 or 40bhp/6000
+</PRE>
+
+<H2> <A NAME = "Other"> Other Engines </H2>
+
+<PRE>
+Eng.     Yrs     Application       cc x rotors    Comp BHP/rpm, Torq(lb-ft/rpm)
+
+Graupner 71-now  models, toys       5 x 1 =    5       1.27 bhp Graupner/OS
+Yanmar   69-73   R220 outbd mar.  220 x 1              22.5/6000 net
+Yanmar   69-73   R450 outbd mar.  450 x 1              50/6000 net
+-        70+     <A HREF="../Images-GG/gg-w2000.jpg">Hercules W2000</A>   294 x 1 =  294  8.5  32/6500, 24.5/4500
+OMC 471  72+     snow             528 x 1 =  528       35/5500, 37.5/4000
+<A HREF="corvette.html">GM</A>       73      prototype                = 3300       (200ci)
+Yamaha   73      motorcycle       330 x 2 =  660       68/6500
+VW       70s     5 chamber KKM by Peter Hofbauer
+<A HREF="suzuki.html">Suzuki</A>   75-76   RE5 motorcycle   497 x 1 =  497  8.6  48/6500, 45/3500 actual
+-        76      Van Veen OCR     500 x 2 = 1000       110
+Ingersoll ~86    Ingersoll-Rand <A HREF="biblio.html#IR-2500">IR-2500</A> 41000 cc?
+Lada     80s     Soviet car           x 2
+Lada     80s     car/ambul/mil.       x 3              120-280 bhp
+J Deere  80s     stratified charged (SCORE?)           2250 bhp
+J Deere  80s     proposed tank engine                  750 bhp,22.5 cu ft space
+J Deere          <A HREF="biblio.html#JDeere">conv. Mazda to Nat. Gas</A>
+J Deere          <A HREF="biblio.html#JDeere">Nat. Gas</A>        5800 x 1
+<A HREF = "recent.html#Moller">Moller</A>   85+     R&D based on OMC single rotor air-cooled eng.
+Moller           P1060 research
+Moller   93+     RotaPower       375? x 2 = 750?
+Moller   95+     Moller 530 I RotaPower                150 hp
+Alturdyne/Alturair  based on Mazda? San Diego          350 hp
+
+
+DawnStar 95+?    Israel, 95 lbs,                       38 bhp (claim) 20 (est)
+</PRE>
+
+<P> Any additions and corrections appreciated.
+
+<HR>
+
+<A HREF = "wankel.html"> Wankel Home </A> |
+<A HREF = "vehicles.html"> => Vehicle Lists </A>
+
+<P> <A HREF="../disclaim.html">Copyright</A> &#169; 1996 <A HREF =
+"../index.html">Alan Marr</A>.  This update notice was last updated
+May 2, 1996.  Do you <A HREF = "../version.html">not see the
+monkey</A> in the rotor background?  <A HREF = "submit.html">You can
+help</A>.  You may send your comments or questions to <A HREF =
+"mailto:rce@monito.com"> <KBD>rce@monito.com</KBD></A>.
+
+</BODY>
+
+</HTML>
+</DOC>

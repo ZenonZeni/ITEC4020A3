@@ -1,0 +1,51 @@
+
+<DOC>
+<DOCNO>WT01-B04-47</DOCNO>
+<DOCOLDNO>IA080-000557-B034-422</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Comptech.html 137.79.14.197 19970103071411 text/html 8584
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f2f3.327@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:19:15 GMT
+Last-Modified: Monday, 29-Jan-96 18:07:50 GMT
+Content-type: text/html
+Content-length: 8340
+</DOCHDR>
+<TITLE>COMPONENT TECHNOLOGIES</title>
+<img src="logo.gif">
+<H1>COMPONENT TECHNOLOGIES:  ARCHIVE - DEC. 1994</h1><p>
+The program is developing a number of component technologies, which complement the demonstration-driven tasks.  Illustrative examples of these component technologies are provided below.<p>
+<B>Telepresence/Exoskeleton</b><p>
+This project augments telemanipulation capabilities through the development and evaluation of a unique force-reflecting master-slave exoskeleton anthropomorphic arm-hand system, with the emphasis on the use of EVA-rated tools and on minimum training requirements.  There is also strong interest for the backdriveable glove as a physical therapy aid to rehabilitate stroke patients paralytic hands.<p>
+<img src="exo.gif">
+<H5>JPL-23094</h5><p>
+<H4>Fig. 14 Exoskeleton Controlled by Human Operator</h4><p>
+
+The focus of this task involves the augmentation to telemanipulation capabilities through the development of human-equivalent dexterity of remotely operated hands, with emphasis on minimal training and use of human rated tools.  The technical objective is to prototype a force-reflecting master-slave arm-hand system in exoskeleton form with a 7-DOF arm and 16-DOF four fingered hand.  This includes integration with a visual telepresence system.  The programmatic objective is to determine how far an exoskeleton alternative can perform EVA-glove rated manipulative activities without changing EVA tools or adding new ones to the existing repertoire.<p>
+<H5>Point of Contact:  A. K. Bejczy, bejczy@telerobotics.jpl.nasa.gov</h5><p>
+
+<B>Wide Field-of-View Stereo</b><p>
+WFOV, the Wide Field-of-View stereo system, is a JPL-based technology developed for the DOD's Unmanned Ground Vehicles Project, UGV.  It is a real-time system which produces dense range maps from a stereo pair of cameras mounted on a HMMWV ("Hum-Vee"), the military's modern-day Jeep equivalent.  The range data is being used by higher-level vehicle-control systems for autonomously navigating around local obstacles encountered during battlefield maneuvers.<p> 
+Below is a sample image.  In the lower-right corner is the left image from a stereo pair taken in the Arroyo next to JPL.  The upper-right shows range data as distance from the cameras.  The upper left contains the subpixel disparity image, produced by the stereo system, from which the range data was computed.  The lower-left shows confidence data.  In all cases the colors span the rainbow, with red being low values and violet being high values.<p>
+Robotic vehicles have important applications in planetary exploration, hazardous waste handling, battlefield operations, and factory material transportation.  To enable these applications, robotic vehicles must be equipped to automatically detect obstacles in their path.  Obstacle detection can be achieved by using range sensors to observe the geometry of the environment, then by analyzing the geometry to find passable routes for the vehicle.  However, range sensors have not been available that meet the cost and performance requirements of most applications.  JPL has taken a major step forward in this area by demonstrating a practical range sensing system to be based on stereo vision.<p>
+Stereo vision uses two cameras to observe the environment, finds the same object in each image, and measures range to the object by triangulation; that is, by intersecting the lines of sight from each camera to the object.  Finding the same object in each image is called matching and is the fundamental computational task underlying stereo vision.  Matching objects at each pixel in the image produces a range estimate at each pixel; together, these range estimates form a range image of the scene.  Geometric analysis of the range image identifies passable routes.  For robotic vehicle applications, the primary alternatives to stereo vision-based range estimation use acoustics, radar, or scanning lasers.  Compared to these alternatives, stereo vision has the significant advantage that it achieves high resolution and simultaneous acquisition of the entire range image without energy emission or moving parts.  The key issue in making stereo vision practical was to find a combination of algorithms and processors that led to reliable, real-time range estimation with a computer system small and cheap enough to use on robotic vehicles.<p>
+The stereo vision algorithm (1) re-samples the input images to correct for geometric nonlinearities, (2) reduces the resolution of the re-sampled images by computing image pyramids, (3) applies cross-correlation to the low resolution images to find matching objects at each pixel, and (4) performs triangulation with the result of the matching process to generate range estimates.  Steps (1) through (3) involve low-level, integer operations on the image pixels and are implemented on one special-purpose image processing board.  Step (4) involves floating functions and coordinate transformations and is implemented on a general purpose CPU.  The entire computing system occupies five slots in a dual-height VME card cage, including the image processor, the CPU, and two analog-to-digital conversion boards for video acquisition.  The system currently produces 64x60-pixel range images in one-third of a second, which is a speedup of three orders of magnitude over what was possible prior to this work.<p>
+In a major demonstration performed in 1990, for the NASA planetary rover program, JPL used a version of this vision system to show that a robotic vehicle could perform autonomous obstacle avoidance while traversing 100 meters of off-road terrain.  This demonstration established the viability and practicality of stereo vision-based range imaging for robotic vehicle applications.  The impact of this work is reflected by the adoption of similar approaches for subsequent, NASA-funded robotic expeditions to volcanoes in Antarctica and Alaska, by the potential use of these algorithms in upcoming robotic missions to Mars, and by the transfer of this technology to military robotics programs funded by the Department of Defense.<p>
+<H5>Point of Contact:  L. Matthies, matthies@telerobotics.jpl.nasa.gov</h5><p>
+
+<B>Serpentine Robot</b><p>
+<img src="serp.gif">
+<H5>P-44487</h5><p>
+<H4>Fig. 16 a Small, light-weight, and highly dexterous serpentine robot or visual inspection</h4><p>
+
+A telerobotics inspection system has been developed to perform remote inspection experiments in realistic space-like environments.  The main application focus of this task is the Space Station.  The Space Station is a large space platform with complex mechanical, electrical, thermal, fluid and gas interfaces, and a changing suite of internal and external scientific experimental apparatus.  On-orbit maintenance of such a complex, changing facility requires periodic as well as "on demand" inspection capabilities.<p>
+The inspection system consists of two seven-degrees-of-freedom (7-DOF) Robotics Research Corporation manipulator arms which are mounted on two one-degree-of-freedom mobile platforms.  The arms carry cameras and lights for inspection.  These arms, however, are too large to enter the small truss structure openings.  A smaller and more dexterous arm was needed to perform inspection tasks in highly restricted regions.<p>
+JPL has developed a serpentine robot to test the feasibility of robotic inspection of such restricted areas.  The robot is 3.8 centimeters in diameter, approximately 90 centimeters  long, weighs 2.7 kilograms, and has 11 degrees of freedom.  All joints are direct-drive motor controlled, and all motors are mounted internally.  Inspection capability is provided by a fiber-optics borescope embedded inside the arm.  This borescope transfers images to a camera at the base of the arm and illuminates the inspection site.<p>
+The goal is to use this robot as an inspection tool to be picked up by one of the large manipulators.  The combined macro/micro arm will have 21 degrees of freedom.  Algorithms have been developed to guide this arm through small openings in such a way that the rest of the arm automatically follows the tip's path, thus avoiding collisions with the environment.  This technology can be used in industry and medical applications.<p>
+<H5>Point of Contact:  Samad Hayati, hayati@telerobotics.jpl.nasa.gov</h5><p>
+
+
+
+</DOC>

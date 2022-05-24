@@ -1,0 +1,609 @@
+
+<DOC>
+<DOCNO>WT03-B11-30</DOCNO>
+<DOCOLDNO>IA086-000622-B034-64</DOCOLDNO>
+<DOCHDR>
+http://telnet.newsnet.com:80/libiss/te95.html 205.156.212.5 19970122044010 text/html 23004
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Wednesday, 22-Jan-97 04:38:12 GMT
+Last-modified: Monday, 20-Jan-97 17:37:55 GMT
+Content-length: 22817
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/te95.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+<A HREF="../index.html"><IMG BORDER=0 SRC="/plweb/icons/nn_home.gif" ALT="NewsNet Home Page"></A><BR>
+Copyright <BR>
+411 NEWSLETTER via NewsNet <BR>
+January 8, 1996<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><LI>DEAR SUBSCRIBER,</A>&nbsp&nbsp&nbsp<NOBR>(649 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><LI>MOTOROLA BEATS CELLULAR "PHREAKS"</A>&nbsp&nbsp&nbsp<NOBR>(98 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#3"><LI>USE YOUR ROOFTOP TO MAKE BIG BUCKS</A>&nbsp&nbsp&nbsp<NOBR>(438 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#4"><LI>5 TIPS FOR GENERATING ROOFTOP DOLLARS</A>&nbsp&nbsp&nbsp<NOBR>(222 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#5"><LI>A LOCAL SERVICE REFUND FROM THE BELLS?</A>&nbsp&nbsp&nbsp<NOBR>(118 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#6"><LI>NEW FAX SERVICES MAKE YOU AN OFFICE HERO</A>&nbsp&nbsp&nbsp<NOBR>(415 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#7"><LI>5 TIPS ON STARTING A FAX-TO-DATA PROGRAM</A>&nbsp&nbsp&nbsp<NOBR>(209 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#8"><LI>PC CARD LIFTS YOU TO FRAME RELAY CLOUDS FOR LESS</A>&nbsp&nbsp&nbsp<NOBR>(369 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#9"><LI>NEW CTI SYSTEM SAVES $500,000 AT OCTEL</A>&nbsp&nbsp&nbsp<NOBR>(436 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#10"><LI>IN BRIEF . . .</A>&nbsp&nbsp&nbsp<NOBR>(163 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#11"><LI>THE WEEK'S BEST DEALS</A>&nbsp&nbsp&nbsp<NOBR>(211 words)</NOBR></LI>
+</UL>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+DEAR SUBSCRIBER,
+
+Don't be surprised if you walk into your phone closet and find it
+empty. That big, bulky PBX may soon be replaced by a tiny PC
+card.
+
+A PC card now sold by NetPhone, Northboro, Mass., performs all
+the standard functions of a PBX, including basic call switching,
+executing hunt groups, call forwarding and conferencing, for
+example.
+
+The best thing about the NetPhone, however, is its price. The
+card and its accompanying software only cost $4,295. That price
+easily beats spending several hundred thousand dollars for a PBX,
+says Dave Zweiban, telecom consultant at the International Group,
+Los Angeles, Calif.
+
+Here's how the NetPhone works: The Windows-based system operates
+on a 486 PC that uses Novell Netware and acts as a server on a
+LAN, says NetPhone spokesman Bob Fletcher. The card plugs into
+the 16-bit ISA slot of the PC, and is connected to phone lines on
+a punchdown block.
+
+One card can only handle six trunks and 18 extensions, but six
+cards can be installed on a single 486 PC, says Fletcher. Your
+full capacity is 36 incoming trunks and 108 extensions -- enough
+for a mid-sized site.
+
+NetPhone also includes features that aren't standard on PBXs. A
+voice mail system, an automatic attendant and a CTI program that
+links Caller ID numbers to customer records are included in
+NetPhone's software. And each PC on your LAN is loaded with
+software that receives Caller ID from the PBX server and links it
+to files, Fletcher says.
+
+But is the PC card too good to be true? Many of the long-standing
+PBX manufacturers think so. The majority of PC-card PBXs can't
+handle digital lines, T1s or ISDN yet, says Tony Tissot, a
+director of marketing at Rolm, San Jose, Calif. And, there is
+little redundancy built into the cards, adds Tissot. In most
+stand-alone PBXs, you can order back-up circuits for
+mission-critical applications, he says.
+
+Tissot is right on many counts. The NetPhone system, for example,
+can only handle analog trunks and phones for now, and doesn't
+support T1s, ISDN or frame relay. Plus, NetPhone doesn't have a
+UPS (uninterruptable power supply) built into it. But, the
+company does suggest putting at least a 30-minute UPS on your
+server.
+
+When power goes out completely, each card has an automatic "ring
+down" feature, says Fletcher. That means each card has one
+extension that works off the phone company's power, so you can
+dial out, he adds. And, if your server gets locked up or fails,
+but its power is still on, the PBX will function normally,
+although voice mail and CTI will not run.
+
+NetPhone is now working on T1 and ISDN capabilities for its
+cards, and plans to have them ready by the end of '96, says
+Fletcher. The company is also developing programming that will
+let companies link PBX servers together and control them from a
+central PC. That would eliminate one of the other current
+advantages of PBXs, says Fletcher.
+
+Ironically, Mitel doesn't think card-based PBXs are a bad idea.
+The company is developing a PBX for release in 1996 that combines
+PC cards and a LAN server, says Mitel marketing manager Rob
+Clark. The cards plug into the back of a PC and will connect to
+both digital lines and T1s, he adds. Up to 200 extensions can be
+serviced by the PBX.
+
+Manufacturing PC cards that switch calls isn't a big gamble,
+Clark explains. "Companies will be pushed into using CTI as it
+becomes more and more common in business, and customers will even
+start requesting it," he says. "And CTI is very easily integrated
+with LANs -- in some cases more so than with PBXs," Clark adds.
+
+Note: if you buy an initial NetPhone card, the card's price is
+reduced to $3,295 for additional cards. NetPhone's number is
+(508) 393-7979.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+MOTOROLA BEATS CELLULAR "PHREAKS"
+
+Worried that hackers may run up big bucks on your company's
+cellular phones? Motorola is taking a step that should prevent
+hackers from using devices to intercept your phones' electronic
+serial numbers and phone numbers.
+
+The company is launching a new line of phones with a microchip
+that encrypts each subscriber's phone number and serial number.
+Encryption encodes the numbers with algorithms that can only be
+decoded by a decryption key at cellular base stations.
+
+Phreaks will still be able to intercept signals, but shouldn't be
+able to crack encrypted codes without a decryption key.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+USE YOUR ROOFTOP TO MAKE BIG BUCKS
+
+Look up at the stars. Do you see dollar signs in the heavens? You
+could if you look a little lower and rent out your rooftop for
+wireless antennas.
+
+Rooftop management companies desperately want rooftop space to
+meet a rising demand for antenna locations from wireless
+carriers. The telecom bill and the '96 auction of PCS licenses
+will create an explosion in the number of rooftops needed for
+cellular, microwave, PCS and paging antennas over the next three
+years, says John Cipollone, vice president of Tower Economics
+Company Inc., Bala Cynwyd, Pa. Tower Economics, a rooftop
+management company, is now signing deals for rooftop space that
+pay owners between $300 and $1,300 per month, adds Cipollone.
+
+The best part of generating revenue with rooftop leases is that
+registering with the management companies is free, says Jim
+Innes, director of telecom leasing at Apex, Philadelphia, Pa. The
+companies put your buildings on their list of eligible sites and
+do all of the marketing to wireless carriers, adds Innes. And the
+rooftop companies get paid by earning a commission on the monthly
+payments a carrier gives you, but only after a deal is signed,
+explains Innes. You don't have to do any of the dirty work, like
+conducting tests for interference or writing up contracts.
+
+The Teachers College at Columbia University, New York City,
+recently got a surprise when it was offered a deal for rooftop
+space. The college was considering going with Local Area
+Telecommunications (Locate), New York City, for local service
+when Locate's technicians noticed one of the college's buildings
+was ideal for a microwave antenna, says Tom Fiorella, a business
+services analyst at the college.
+
+Locate had rooftop management company AAT Communications Corp.,
+Edison, N.J., contact the university and make an offer for space
+on the 15-story building, says Fiorella. The offer was $4,800 per
+year for 10 square feet of rooftop, he adds.
+
+What type of buildings are needed? Virtually any height is used
+by carriers, says Arne Jerfsten, manager of technical support at
+Locate. Many small buildings are positioned on hills that provide
+good locations for antennas, he adds. Plus, PCS antennas don't
+have to be located high above the ground, says Cipollone.
+
+Even if your company is located in a rural area, you should
+register with a rooftop management company, says Jim Innes,
+director of telecom leasing at Apex, Philadelphia, Pa. Carriers
+must reach rural areas if they want to stay competitive, Innes
+explains. You can register with multiple management companies,
+such as AAT at (908) 417-3993, Tower Economics at (610) 667-0351
+and Apex at (215) 875-0791.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+5 TIPS FOR GENERATING ROOFTOP DOLLARS
+
+Here are five tips from rooftop management professionals on how
+to take advantage of the upcoming need for space:
+
+1. Make sure the carrier that wants to use your rooftop does an
+interference study before its equipment is installed. Carriers
+are required to do so by FCC rules that say the integrity of the
+surrounding area and its telecom equipment must be preserved,
+says Jerfsten.
+
+2. Get a copy of the local zoning laws by contacting the city or
+county your building is located in. Some areas prohibit buildings
+from reaching certain heights.
+
+3. Make sure the rooftop company considers your building's
+structure, says Innes. When dishes grow larger than two feet
+across, some walls have to be reinforced. Structural alterations
+usually bring an increase in the monthly revenue you can make,
+however.
+
+4. If you want negotiations with a carrier to be as little of a
+burden as possible for your company, have a rooftop management
+company handle them, says Columbia University's Fiorella. But,
+you may be able to get more money if you handle the deal
+yourself, he adds.
+
+5. Don't hold out on a deal for long periods of time for extra
+money. Carriers need space so quickly that they will make an
+offer to another company while you are waiting, says Cipollone.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+A LOCAL SERVICE REFUND FROM THE BELLS?
+
+MCI has petitioned the FCC to require the Baby Bells to return
+millions of dollars in lobbying expenses that were unlawfully
+billed to customers. So, you may soon get a boost for your
+budget.
+
+The FCC found the Bells improperly charged ratepayers $116.5
+million from 1988-1991 for lobbying in a recent audit. But,
+instead of requiring the RBOCs to give back the money to
+customers, the FCC only slashed the price cap on future Bell
+access charges by $5 million, MCI claims.
+
+The FCC found BellSouth passed on $27 million in expenses, Bell
+Atlantic $21.5 million, Ameritech $18 million, Southwestern Bell
+and Nynex $14 million each, PacTel $12 million and U S West $10
+million.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "6"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+NEW FAX SERVICES MAKE YOU AN OFFICE HERO
+
+Read this and your staff may erect a statue of you. That's
+because you can save them loads of word processing by converting
+faxes into files that can be read by WordPerfect, Microsoft Word
+and Excel before they reach the office.
+
+Educational Testing Services (ETS) in Princeton, N.J., has saved
+money on data processing by using a fax-conversion service from
+Global Fax, Warren, Mich. Incoming faxes are changed into a
+language compatible with ETS's IBM mainframes, says Frank
+McKeown, principle systems engineer at ETS.
+
+Global Fax is processing the Scholastic Aptitude Test (SAT)
+registration form for ETS, says McKeown. The forms are
+standardized and have fill-in circles and blanks for hand-written
+answers, he adds.
+
+And when they are faxed to ETS's 800 number, they are routed to
+Global Fax by AT&T, says Paul Kennedy, vice president at Global
+Fax. Our company then changes the faxes into two seperate file
+formats for the educational testing company, he adds.
+
+Besides the mainframe files, ETS is having Global Fax make TIFF
+(Tagged Image File Format) files from the original faxes so ETS
+can load them into Hijack fax software for viewing, adds McKeown.
+ETS has always had a company policy of keeping original copies of
+registration forms in case questions from students arise later,
+says McKeown.
+
+Global Fax emphasizes that faxes can be converted into almost any
+language, including ASCII and DOS Text. Companies use the service
+to drop faxed product orders and invoices straight into
+accounting software, for example, says Kennedy.
+
+ETS can't pinpoint exactly how much money it has saved, but under
+its pilot program, it has received 2,000 two-page faxes in the
+past two months. Paying employees to enter the data from the
+forms into ETS's computer system would have been much more than
+it cost for Global Fax to convert them in a few hours, says
+McKeown.
+
+Global Fax says that in general, fax-to-data conversion costs
+between $1.00 and $3.00 per fax. The price depends on the length
+of the fax, the number of data fields involved, how much
+conversion from hand-written copy is needed and the amount of
+accuracy desired. Global Fax offers from 95% to 99.9% accuracy.
+
+But McKeown says to shop around. He went with Global Fax because
+the company gave him the best offer out of three companies he
+requested proposals from. You can get a list of fax-to-data
+companies by calling your 800 carrier. Global Fax's number is
+(800) 887-4329.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "7"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+5 TIPS ON STARTING A FAX-TO-DATA PROGRAM
+
+Here are five more tips from McKeown on how to begin a
+fax-to-data program that will save you bucks:
+
+1. Prevent customers from sending extra faxes on your 800 lines
+by having them include their credit card numbers on faxes. Give
+customers a warning that if more than one fax is sent with their
+credit card number, they will be charged for the extra faxes.
+
+2. Make sure your fax-to-data service provider notifies you of
+the number of faxes that come out garbled. If the number gets too
+high, you should discontinue the service.
+
+3. Market the fax service as a convenient tool for customers.
+After all, they don't have to pay for postage or a phone call to
+make orders.
+
+4. Use caution because some fax-to-data companies have you dial
+into one of their databases to retrieve faxes. If that's the
+case, make sure you have a service with enough bandwidth that
+downloading image files doesn't tie up your lines for hours.
+
+5. Find out if the fax-to-data company you are considering has an
+archiving service. Global Fax will back up faxes at its
+facilities for a period from days to weeks after they are
+received for a reasonable fee, says McKeown.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "8"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+PC CARD LIFTS YOU TO FRAME RELAY CLOUDS FOR LESS
+
+You could lay $2,000 on the table to buy a frame relay router
+that will link your LAN to a carrier's frame relay cloud.
+
+But, you'd be paying too much. You can purchase a new PC card
+from Motorola that makes the connection for only $999.
+
+The card is called the Vanguard 100 PC. And, it lets you plug a
+non-frame relay LAN router into it to send your LAN's traffic
+onto a frame relay network. You don't have to pay for an
+expensive upgrade of a current router or buy a new one to link to
+frame relay, says Rod Wilson, a marketing director at Motorola,
+Mansfield, Mass.
+
+Another good use for the Vanguard 100: At remote sites where you
+don't need more than one connection to your company's frame relay
+network. When the card is plugged into the back of a PC, its
+digital service unit can have a phone line configured for frame
+relay plugged into it.
+
+And there is a bonus with the Vanguard 100. If you can only get
+ISDN at a site, the card can be ordered with an ISDN network
+termination device on it. But watch out! It only handles one B
+and one D channel because it was designed primarily for frame
+relay, says Wilson.
+
+Motorola says it doesn't have any users of the card yet because
+it's so new. It, in fact, is the first FRAD (frame relay access
+device) on a PC card on the market.
+
+But the Vanguard 100 should find users quickly because it is an
+easy way for companies to link to frame relay networks, says Tim
+Burke, independent telecom analyst at the Yankee Group, Boston,
+Mass. At this point the technical know-how isn't always there at
+telcos when it comes to helping companies link to frame relay, he
+explains. But the Vanguard 100 makes the connection a simple
+plug-and-play operation, adds Burke.
+
+There is a disadvantage. The Vanguard 100 will only give you a
+connection speed of 56 Kbps, says Wilson. This limits the card to
+use primarily at sites that don't have long, constant hours of
+frame relay usage, adds Burke. Motorola's number is (508)
+261-1058.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "9"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+NEW CTI SYSTEM SAVES $500,000 AT OCTEL
+
+Does CTI (Computer Telephony Integration) work budget miracles?
+Linking phones and computers saved Octel Network Services,
+Carrollton, Tex., $500,000 in 1995.
+
+Using a CTI system from Fort Worth-based Teknekron Infoswitch cut
+the average time that agents spend on calls from 180 seconds to
+150 seconds. The number of calls taken by reps per hour also
+increased from 7.5 to 12, and the average wrap-up time for
+finalizing post-call records decreased from 120 seconds to 45
+seconds. And, since Octel's agents take calls on 800 numbers that
+the company pays for, the savings added up, says Kevin McKinnon,
+director of customer service at Octel.
+
+Another bonus: Although Octel's incoming calls doubled in 1995,
+the company only had to hire 50% more staff. In past years, Octel
+doubled its staff when calls doubled, says McKinnon.
+
+The Teknekron CTI system that Octel installed is called
+Orchestra!, and it sits on a central server and individual
+workstations like most CTI programs. But Octel posed a special
+problem because its workstations don't have hard drives, so the
+CTI program couldn't be loaded on them.
+
+Teknekron had to load both parts of Orchestra! onto the LAN
+server and have screen-pops delivered to workstations using their
+addresses, says McKinnon. At first, packets were not exchanged
+correctly and the timing of the screen-pops was off, he adds. But
+Teknekron fixed the problem within a few days and the CTI program
+has worked fine ever since, McKinnon says.
+
+A program called Rendezvous! makes the connection between a
+Teknekron Series III ACD on Octel's SRX PBX and Orchestra! on the
+LAN server. Rendezvous! is loaded onto a Sun SPARCstation
+minicomputer (the two are sold together) and collects call data
+from a management port on the ACD. Calls are then routed based on
+the number that the customer has dialed or the customer's Caller
+ID, among many options.
+
+You can also list the skills of each of your representatives on
+Rendezvous!, and then rank your agents' abilities on each skill.
+Calls can be routed to the best available agent based on their
+ratings.
+
+McKinnon says that the cost of the Teknekron CTI system is
+reasonable, especially considering the savings it has already
+generated for Octel. Installing the Series III ACD, Orchestra!,
+Rendezvous!, a Sun SPARCstation and AutoQuality! (which records
+calls so you can monitor agents) runs $2,500 to $5,000 per
+workstation, says John Kaiser, managing director at Teknekron.
+The system usually pays for itself within a year or two, he adds.
+
+One problem: Orchestra! only works with AT&T, Nortel and
+Teknekron PBXs. Teknekron Infoswitch's number is (817) 267-3025.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "10"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+IN BRIEF . . .
+
+-- AT&T has announced plans to cut 40,000 jobs over the next
+three years as part of its restructuring effort. Roughly 70% of
+those positions will be slashed by the end of 1996, and most cuts
+will occur in the U.S. The company also will take a $4 billion
+charge against its fourth-quarter earnings to cover expenses
+associated with its three-way split.
+
+-- The FCC has shut down again except for essential personnel.
+But, this time "essential personnel" includes employees who are
+collecting bids for the C block PCS license auctions scheduled to
+be finished in '96. So far, the first round of bids has brought
+offers of over $437 million.
+
+-- American Mobile Satellite Corp. (AMSC) and Mitsubishi
+Electronics America introduced the first transportable satellite
+phone available for use in North America. The phone operates
+anywhere in the world that AMSC's satellites cover, and retails
+for just under $3,000. Usage charges run as low as $1.49/minute
+for long distance.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "11"></A>Copyright
+411 NEWSLETTER via NewsNet
+January 8, 1996
+
+THE WEEK'S BEST DEALS
+
+1. AT&T is giving customers who order new CustomNet a one-time
+interstate usage credit per main account. The credit equals the
+usage charges of interstate calls billed during the first month
+after enrollment. It won't be greater than $5,000, and will
+appear on the second invoice. Eligible customers are: those who
+switch lines from another IXC's switched access service; or
+existing Commercial Long Distance, Small Business Option,
+CustomNet, Pro WATS/Plan Q or Distributed Network customers who
+order new CustomNet service.
+
+2. Looking for good international long distance rates? Sprint is
+offering new and existing Clarity Option A or B, or VPN Premiere
+customers discounts on international use. Existing customers must
+have less than three, six or nine months left on a one-, two-,
+three-, four- or five-year term plan and sign a new contract of
+equal or greater length. New customers are eligible on their
+first term plan. A 10% discount will be applied to international
+voice use from the U.S. to Belgium and South Africa, and 15% will
+be knocked off calls to Canada, Columbia, Ecuador, Italy, India,
+Peru, Russia, Spain and Venezuala. Customers get the price break
+for 12 months or the entire length of the term plan, whichever is
+longer.
+
+Sincerely,
+
+Reed Miller
+411 Editor
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

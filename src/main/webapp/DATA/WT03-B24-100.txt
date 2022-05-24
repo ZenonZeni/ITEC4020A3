@@ -1,0 +1,265 @@
+
+<DOC>
+<DOCNO>WT03-B24-100</DOCNO>
+<DOCOLDNO>IA053-000896-B001-155</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/vtw.html 129.174.40.15 19970123200809 text/html 9952
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:06:56 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 07 Dec 1995 22:49:26 GMT
+Content-type: text/html
+Content-length: 9769
+</DOCHDR>
+<html>
+<head>
+<title>VTW Comments to NIS&T on Clipper II</title>
+<!author=Sender: shabbir@panix.com>
+</head>
+<body>
+<hr>
+<h1>COMMENTS SUBMITTED FOR NIST KEY ESCROW WORKSHOP REPORT</h1>
+
+
+<h2>INTRODUCTION</h2>
+Thank you for the opportunity to speak here today.  I am Shabbir J.
+Safdar from the VTW (Voters Telecommunications Watch).  VTW is a public
+advocacy organization based in New York City.  We monitor civil
+liberties issues in telecommunications for the public and when civil
+liberties coincides with good business practices, small business
+interests.
+<p>
+
+There are a number of problems with the key escrow proposals (both
+Clipper and Commercial Key Escrow) that have been put before us.  Today I
+will be addressing some of the problems with the current proposal and
+exploring some myths surrounding the debate.
+
+<p><pre>
+For further information, you can reach VTW at:
+	Listserver:	listproc@vtw.org
+	Email:	vtw@vtw.org
+	WWW:	http://www.vtw.org
+	Gopher:	gopher -p1/vtw gopher.panix.com
+
+</pre>
+<p>
+TRUE OR FALSE?
+
+<p>
+True or False: Industry is clamoring for key escrow
+
+<p>
+True.  Industry is not, however, clamoring to put their keys in the hands of
+disinterested third parties.
+
+<p>
+True or False: Export controls are preventing foreign adversaries from
+obtaining commercial cryptographic technology
+
+<p>
+This is true if we're speaking of US commercial cryptographic technology,
+but false if we’re speaking about the hundreds of products available
+overseas.  As recently as this year Colombia declared a state of
+emergency and used that opportunity to conduct a number of raids on
+suspected Cali Cartel offices.  They found that Cartel members were using
+encryption to hide stored data files containing counter-intelligence
+information, encryption devices to hide their real time communications,
+and were also conducting their own surveillance program on the Colombian
+law enforcement’s communications.
+<p>
+
+Presumably, they did not have a warrant.
+
+<p>
+(References for this incident can be found in the May 26th 1995 Wall
+Street Journal cover story and the July 3, 1995 Baltimore Sun.)
+
+<p>
+
+True or False: Export controls are preventing foreign adversaries from
+obtaining public domain cryptographic technology
+
+<p>
+False.  The availability of public domain PGP overseas is currently a
+somewhat tired but true joke within forums such as this one.  In addition,
+the newest product in the PGP family, PGPFone, was released for download
+on the Internet for US and Canadian sites only.  With explicit warnings and
+annoying measures in place, it clearly informed the user (who could not
+download it without being on a site within the US or Canada) that export
+of PGPFone outside the US violated ITAR.
+<p>
+
+PGPFone was available on a European server three days and four hours
+later.
+<p>
+
+
+Issues raised by the use of key escrow agents
+
+<p>
+OVERSIGHT
+<p>
+Because the event of releasing a key is in and of itself secret, it is very
+difficult for an insider within the escrow structure to report wrongdoing
+without compromising their knowledge of an investigation.
+
+<p>
+As we know from experience, oversight of a secret government process
+does not work adequately to engender public trust.
+
+<p>
+NO EVIDENCE OF A MARKET ABROAD FOR ESCROWED PRODUCTS
+<p>
+There is no evidence that suggests that there is a market abroad for
+commercial key escrow products.  Contrary to the statements and
+optimism of the fine gentleman from the White House, it is unlikely that
+China will allow its citizenry to use communications products it cannot
+wiretap.
+<p>
+
+Considering that these people have first-hand experience with a tyrannical
+regime and it potential for damage, it is unlikely that Chinese dissidents
+will use key escrowed devices knowing that they can be accessed by the
+government.
+<p>
+
+DAMAGE STEMMING FROM A WRONGFUL DISCLOSURE IS TOO HIGH
+<p>
+The damages an escrow agent might be responsible for in the case of a
+wrongful key release is going to be greater than anyone can afford. 
+Imagine the amount of money that is involved in a campaign, a new patent,
+a new pharmaceutical drug, or a financial acquisition.  Who can afford to
+be liable for such damages?
+<p>
+
+DOCUMENTS LIVE FOREVER UNDER KEY ESCROW
+<p>
+The escrow agents can never be allowed to destroy a key, because you can
+never prove that you have stopped using a key.  This means that if your
+traditional records management system involves destroying an encrypted
+document and its decryption keys after seven years.
+
+<p>
+Under commercial key escrow you will now have to worry about the
+existence of any document or communication forever because there will
+always be a decryption key available.  In addition, because people tend to
+be less careful with transmission and storage of encrypted documents
+(because, after all they're encrypted) the likelihood of someone having
+made a rogue copy is more likely than under a non-key escrowed
+encryption system where you would have used a Brinks-mailed floppy disk
+instead of an open-line transfer.
+<p>
+
+ESCROW AGENTS CANNOT ENFORCE CONSTRAINTS OF THE WARRANT
+<p>
+Because law enforcement agents are not involved in the collection of the
+seized material, they cannot verify that when they are presented with a
+warrant, that the officers in question acted in a manner appropriate to the
+judge's orders.  Escrow agents are then reduced to nothing more than
+safety deposit box services.  Although this might meet the needs of law
+enforcement, this does not support the requirement of trust between the
+public and the escrow agent.
+<p>
+
+VOLUNTARY KEY ESCROW IS NOT CREDIBLE
+<p>
+Although the word voluntary has been bandied about publicly throughout
+the Administration's key escrow debacle, the FBI, the NSA, and the
+Department of Justice have all stated in documents obtained through the
+Freedom of Information Act that for key escrow to work, other forms of
+non-escrowed cryptography must be criminalized.  Although this is no
+surprise to anyone who has thought about the problem, this casts doubt on
+the Administration’s commitment to the continued availability of other
+forms of cryptography.  These documents can be found on the Electronic
+Privacy Information Center World Wide Web site at URL:http://www.epic.org.
+
+<p>
+In addition, the very fact that escrowed products are going to enjoy
+preferential export treatment (64 bits versus 40 bits), indicates that a
+choice between escrowed and non-escrowed products is not a voluntary
+choice, but one weighted with inappropriate incentives.
+<p>
+
+WIRETAP ABUSES DO OCCUR
+<p>
+Although it gives us no joy to point it out, throughout recent history there
+have been cases of abuses of surveillance authority.  It makes no sense to
+empower an already human-fallible system with additional powers such
+that the magnitude and damage of the human errors is increased.
+
+<p>
+EXECUTIVE BRANCH IS AN INAPPROPRIATE LOCATION FOR BOTH ESCROW
+AGENTS AND ESCROW AGENTS' REGULATORY AGENCIES
+<p>
+The regulatory structure that has been discussed so far involves the
+regulation of escrow agents solely by the Executive Branch.  Thus far no
+one has suggested that legislation is necessary, though many have
+suggested that it might be an alternative.
+<p>
+
+Should final regulatory authority rest entirely within the Executive
+Branch, escrow agents would be subject to the political whims of
+whatever the current administration felt was appropriate.   A process that
+does not have an appeals escape clause (one that allows you to predict the
+number of appeals you will have to file and when you will be appealing to
+a judicial body) can arbitrarily control the actions of escrow agents.
+
+<p>
+Without a judicial appeals process that goes outside the executive
+branch, a key escrow agent or a key escrow customer will end up appealing
+to the very same agency that is a party to any dispute.
+
+
+<p>
+CONCLUSION
+<p>
+It is an interesting game that we play here today with extremely high
+stakes.  We continually fight over what some call the "grey area" of access
+to data and communications.  Public advocates assert that law
+enforcement enjoys significant access to data already, but that a
+guarantee of access to data is not acceptable.
+
+<p>
+Law enforcement insists that the public has significant ability to keep
+data confidential, but that a guarantee of confidentiality is not
+acceptable.
+
+<p>
+It is not clear if there is a middle ground where both these parties can
+find solace, but key escrow (either commercial key escrow or through
+government held keys) is not that middle ground.
+
+<p>
+<hr>
+<pre>
+SUBSCRIPTION AND REPRODUCTION INFORMATION
+
+      *** Know of someone ANYWHERE with a fax machine but without net ***
+      *** access that's interested in VTW's issues?  Tell them to     ***
+      *** call and get on our weekly fax distribution list at         ***
+      *** (718) 596-2851 (or email us their fax number.		      ***
+
+         To get on the distribution list for BillWatch, send mail to
+      listproc@vtw.org with "subscribe vtw-announce Firstname Lastname"
+			     in the subject line.
+
+	To unsubscribe from BillWatch (and all other VTW publications)
+	send mail to listproc@vtw.org with "unsubscribe vtw-announce"
+			     in the subject line.
+
+         Email vtw@vtw.org with "send billwatch" in the SUBJECT LINE
+		  to receive the latest version of BillWatch
+
+	For permission to reproduce VTW alerts contact vtw@vtw.org
+
+</pre>
+<hr>
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 11, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell//hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

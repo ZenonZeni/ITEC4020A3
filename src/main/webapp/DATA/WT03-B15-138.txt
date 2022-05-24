@@ -1,0 +1,100 @@
+
+<DOC>
+<DOCNO>WT03-B15-138</DOCNO>
+<DOCOLDNO>IA093-000997-B032-177</DOCOLDNO>
+<DOCHDR>
+http://www.rosl.com:80/calarti.htm 206.216.148.51 19970121101706 text/html 15065
+HTTP/1.0 200 OK
+Date: Tue, 21 Jan 1997 10:13:17 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 14893
+Last-modified: Thu, 04 Apr 1996 07:51:53 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+</HEAD>
+<BODY BACKGROUND="paper3.gif">
+<TITLE>Robot and Fixture Calibration for Offline Programming</TITLE> 
+<H1>Robot and Fixture Calibration for Offline Programming</H1> 
+
+<H2>Introduction</H2>
+<P>This paper focuses on the robot and fixture calibration problem from the perspective of simulation and offline programming. The WORKSPACE PC-based robot simulation system and the ROBOTRAK three cable measuring system for calibration are introduced as examples and compared to other commercial systems, and a calibration case study presented.</P>
+
+<H2>The problem</H2>
+<P>The repeatability of most industrial robots (the ability to return repeatedly to a given position) is usually  much better than the accuracy (the ability to move to a specified xyz value in space). Typical repeatabilities are about 0.5mm while typical accuracies are of the order of 10mm or worse. This is not a problem when programming a robot using a hand-help teach-pendant and the human eye. Here it is only repeatability that is an issue. However, when programming a robot using some offline system to generate the robot locations numerically the accuracy of the robot becomes all important.</P>
+<P>In theory, it is possible to improve the accuracy so that it is as good as the repeatability. The reason that the accuracy of robots is so bad is because there are manufacturing tolerances involved in the production of each robot. The two most significant sources of error are discrepancies in the robot link lengths and in the zero position of each joint.</P>
+<P>What is required is a system that will take measurements of the xyz position of the end of the robot, compare them with the robot's own estimate of its position, and thereby find estimates for the errors and model these errors to improve the accuracy of offline programming.</P>
+
+<H2>Measuring systems</H2>
+<P>Systems for measuring robot position divide into two basic categories. The first includes all optical systems which use non-contact line-of-sight methods. The second includes all cable driven systems. An example of an optical system is the SPACE theodolite system developed by the Fraunhofer Institute (IPK) in Berlin, where a 3D target location on the end of the robot is determined by optical triangulation. Two or more motor-driven theodolites with power-focus and electronic imaging are used to obtain information on target direction via image processing software. This information drives the theodolites to track the moving target. The target must be visible from all directions, so a 6mm self-illuminated ceramic sphere is used [1]. This system has been developed and tested in collaboration with Volkswagen (VW), KUKA, and Leica.</P>
+<P>The same group have also tested a system named SMART which uses a single tracking laser interferometer to locate the 3D position of a reflector by measuring polar coordinates (two angles and one distance). This is the favoured measuring device of the group because of its operational simplicity.
+A group at Surrey University have developed a 2 laser system named Optotrac. A reflective target is attached to the end of the robot and used to reflect the 2 beams. If the target is not hit in the centre by the beams then the reflections are offset, and these offsets are used to track the target[2].</P>
+<P>A low-cost approach was adopted by a group from Amsterdam University. A CCD camera mounted on the robot-hand is pointed at a flat plate on which a pattern of circles is printed. While not able to achieve the accuracy of other measuring systems, this system might provide a cheap means for partial recalibration after repair [3].</P>
+<P>The Compugage two cable system developed by Dynalog has been used extensively in calibration [4]. While more rugged and therefore more appropriate to shop-floor use than optical systems, the set up and measurement procedure is lengthy and cumbersome. Even with extensive training the entire process can take 6 hours or more to calibrate an individual robot. An error at any stage leads to inaccurate results. The Chrysler Motor company, who have used this system, say that each minute of down-time on a production line costs them 20,000 dollars. The time taken for calibration is therefore a critical factor in choosing the right system. The shop-floor environment does not lend itself to complex or lengthy operations. What is required is a system that is accurate yet simple and quick to operate.</P>
+<P>Robotrak is a 3-cable mechanical system for measuring the x,y,z position of the endpoint of the robot to within 0.2mm. One person is capable of performing the entire setup in 20 minutes, with the total calibration completed in less than an hour. Compared to other calibration systems Robotrak is simple, rugged, and extremely cost-effective.</P>
+<P>Robotrak consists of three cables which extend from drums which are fixed at the corners of a roughly equilateral triangle somewhere within the robot workcell. The distance between the drums is typically 2 metres, but may be varied with the size of the robot to be measured. The cables meet at a fixture which is attached to the robot faceplate or tool. The length of the cables at any moment during the movement of the robot is calculated form the number of rotations of the drums and read into an IBM microcomputer. In this way the x,y,z position of the robot logged may be measured.</P>
+
+<H2>Setting up and using Robotrak</H2>
+<P>Robotrak is set up in coordination with the WORKSPACE robot simulation package as follows:<P>
+<P>1. Place the three cable drums in a roughly equilateral triangle pattern of side approximately 2m somewhere within the workcell. Note that this can be on the floor, on a fixture, on a wall, on the ceiling, or at any angle to the robot. The position of the drums relative to the robot does not need to be known since this is calculated as part of the calibration process. This flexibility of positioning Robotrak within the workcell is one of the great advantages of this system.</P>
+<P>2. Insert the Robotrak interface card into an IBM PC  compatible microcomputer which runs the WORKSPACE robot simulation.</P>
+<P>3. The encoders measuring the number of rotations of the drums and thereby indicating the extension of the cable are zeroed (with the cables at zero extension) by pressing a button within WORKSPACE.</P>
+<P>4. Each cable is then extended to the end of a metal robot of known length and another button pressed. This enables WORKSPACE to calculate the ratio of encoder counts to length of extension in mm.</P>
+<P>5. Cable 1 is extended to a known point on drum 2, cable 2 to drum 3, and cable 3 to drum 1. A button is pressed in WORKSPACE and the encoder counts at the drums are automatically recorded and converted to lengths. The relative position of all the drums is now known.</P>
+<P>6. The cables are now extended to meet at the robot endpoint. The cables meet inside a small metal fitting that can be clamped either precisely at the end of the tool (if the tool is to be calibrated at the same time as the robot) or at any unknown point on the end link or tool of the robot. Robotrak can now provide a continuous reading of the xyz position of the end of the robot relative to an arbitrary coordinate frame fixed at one of the drums.</P>
+<P>7. The robot is moved to 25 different positions and orientations throughout its working envelope. At each position the robot teach pendant is used to store a teachpoint on the robot controller, and a button is pressed in WORKSPACE to record an xyz measurement of the position end of the robot.</P>
+<P>8. The teachpoint file is then copied from the robot controller onto the IBM PC compatible microcomputer and loaded into WORKSPACE. WORKSPACE then compares the teachpoint file with the measurements and  searches for changes in the physical structure of the robot model within the simulation that would enable it to behave in the same way as the real robot.</P>
+
+<P>The WORKSPACE calibration software
+WORKSPACE is a PC-based robot simulation software package that makes extensive use of the Robotrak measuring system for calibration. Robotrak is part of the WORKSPACE system, and is used to calibrate robots prior to offline programming. The software for the calibration is an integral part of WORKSPACE and all the calibration options are available from WORKSPACE menus.</P>
+<P>The main advantages to the user of a calibration system integrated with the simulation system are that the user interface is greatly simplified and that the price is low compared with discrete calibration and simulation systems. This is the first time that such close integration has been achieved.</P>
+<P>Robot simulation, calibration, and offline programming may therefore be seen as a seamless process, in which robot programmes may be transferred to and from each stage with out any problem as is often required during the cell design process.</P>
+<P>Errors which may be detected and modelled by WORKSPACE and Robotrak include:</P>
+<P>(a) The zero position of each joint (the position of the joint where the value of the joint variable is 0),</P>
+<P>(b) The length of each link and the distance offset at each link,</P>
+<P>(c) The compliance at each joint (the sag of the arm at the joint due to the weight of the robot links when the robot is in a particular position),</P>
+<P>(d) The xyz tool offset from the mounting plate to the end of the tool,</P>
+<P>(e) The position and orientation of the measuring system coordinate frame relative to the robot base coordinate frame.</P>
+<P>The ability of WORKSPACE to calculate the correct position and orientation of the Robotrak drums relative to the robot as part of the calibration means that Robotrak may be mounted at any unknown position in the workcell.</P>
+<P>By taking one additional measurement on the tool axis using Robotrak the orientation of the approach vector of the tool may be calculated.</P>
+<P>WORKSPACE extracts these errors from the physical measurements and teachpoints by trying to find a robot model that would best fit the measured characteristics. The WORKSPACE kinematic model of the robot is then modified accordingly. Any points generated within WORKSPACE during the course of a simulation are then passed through a filter which alters the points in such a way that the uncalibrated real robot will be fooled in to moving to the point we really wanted it to move to by asking it to move to another, slightly different point. It is necessary to work this way since the real robot can have no knowledge of its physical inadequacies. Another filter may then be used when taking teachpoints back from the uncalibrated robot into calibrated model.</P>
+<P>With Robotrak measuring points to an absolute accuracy of 0.2mm it is possible to obtain results from the calibration such that the accuracy of an industrial robot such as the ABB IRB6000 during offline programming is improved from 10 to 20 mm to better than 1mm.</P>
+<P>Note that ROBOTRACK may also be used for measuring the position of the robot while it is moving along a path, for the purpose of checking the accuracy of paths generated on the robot controller. These paths may then be automatically displayed in 3D using WORKSPACE and compared with that generated during a simulation.</P>
+
+<P>Calibrating the workcell fixtures
+Once the robot has been calibrated and its offline programmed accuracy improved to a suitable level then the robot may itself be used as a measuring device to find the true position of the fixtures in the workcell relative to the robot. This is an important issue since without knowing these positions accurately the offline generated robot programmes would be unusable. Another method measuring the position of fixtures is by using Robotrak itself (any measurements taken after calibration are adjusted  by WORKSPACE so that they are expressed relative to the robot base). A third method is to use theodolites to measure the position of the robot base and all important points on the fixture. However, this method involves a great deal of time and expense.</P>
+<P>Once the position of the fixtures relative to the robot is known then the position of the models of the fixtures in the simulation package can be adjusted, enabling the simulation to accurate robot paths relative to the fixtures and the parts held in the fixtures.</P>
+
+<H2>Conclusions</H2>
+<P>If the accuracy required by a robot application of the order of 1mm and the robot programme is to be generated by an offline software package such as a graphical robot simulation then it is necessary to calibrate the robot first. Robots have no in-built knowledge of their own manufacturing tolerances and therefore the calibration results must be used at the offline stage to fool the robot into moving to a desired position by asking it to move to a slightly different position. Though many calibration systems exist, their worth should be measured by how effectively they coordinate with robot simulation software to improve the accuracy of robot programmes generated offline.</P>
+<P>In the future we can expect more and more companies to follow the lead of Reis Robots in providing partial calibration of the robot before supplying the robot to the customer, though the customer will still need to calibrate the robot tool, calibrate for zero position drift, and calibrate after the replacement of robot components. The next generation of robot controllers will be designed to be robot simulation friendly in their ability to take account of errors detected by calibration.</P>
+
+<BR>
+<BR>
+21st September 1994
+
+<H2>References</H2>
+<P>[1] S.Kyle, Leica, 'Measuring Systems for Complete Calibration', in 'Calibration Applied to Quality Control and Maintenance in Robot Production', Esprit Project CAR-5220, Edited by K.Schroer, IPK Franhofer-Institut fur Produktionsanlagen und Konstruktionstechnik, Berlin, Germany, p.28-35.</P>
+<P>[2] Internal paper, Gideon Simon, Surrey University.</P>
+<P>[3] G.D. van Albada, J.M.Lagerberg, Z.ZhongWei, 'Portable calibration systems for robots', in 'Robot Calibration', Eds R.Bernhardt, S. Albright, Chapman and Hall, London (August 1992), ISBN 0412491400, p.101-123.</P>
+<P>[4] 'Compugage, The Precision Robotic Gauge', promotional literature, Pierre de Smets, Dynalog, Detroit, USA .</P>
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG SRC="gif/home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<center><h6><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+
+<h6>Copyright &copy; 1996 Robot Simulations Ltd</h6>
+<h6>Last revision 3 April 1996</h6></center>
+</P>
+
+</BODY>
+
+</HTML>
+
+</DOC>

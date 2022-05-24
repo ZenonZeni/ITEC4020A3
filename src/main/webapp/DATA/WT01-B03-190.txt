@@ -1,0 +1,132 @@
+
+<DOC>
+<DOCNO>WT01-B03-190</DOCNO>
+<DOCOLDNO>IA046-000815-B032-89</DOCOLDNO>
+<DOCHDR>
+http://www.gothic.net:80/search.htm 205.178.27.23 19970119002529 text/html 2531
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/2.0
+Date: Sun, 19 Jan 1997 00:28:47 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Thu, 17 Oct 1996 00:46:22 GMT
+Content-Length: 2333
+</DOCHDR>
+<HTML>
+<HEAD>
+   <TITLE>Search</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF"><FORM ACTION="/search/query.idq" METHOD="GET">
+
+<P>&nbsp;
+
+<P><A HREF="index.htm"><IMG SRC="images/SGlogo.gif" WIDTH=326
+HEIGHT=77 BORDER=0 ALIGN=bottom></A>
+
+<P>&nbsp;
+
+<P><TABLE BORDER=0 CELLPADDING=1 WIDTH=464 HEIGHT=144>
+   <TR>
+      <TD COLSPAN=3>
+         <P ALIGN=CENTER><B><FONT SIZE=7 COLOR="#232B68">W</FONT><FONT SIZE=5>elcome
+         to the SuperGen Search Page.</FONT></B>
+      </TD></TR>
+   <TR>
+      <TD>
+         <P>&nbsp;
+      </TD><TD>
+         <P>
+      </TD>   Enter your query below:
+
+    <TABLE>
+
+        <TR>
+
+            <TD><INPUT TYPE="TEXT" NAME="CiRestriction" SIZE="60" MAXLENGTH="100" VALUE=""></TD>
+
+            <TD><INPUT TYPE="SUBMIT" VALUE="Start Search"></TD>
+
+            <TD><INPUT TYPE="RESET" VALUE="Clear"></TD>
+
+        </TR>
+
+
+
+        <TR>
+
+            <TD ALIGN=right></TD>
+
+        </TR>
+
+
+
+        <INPUT TYPE="HIDDEN" NAME="CiMaxRecordsPerPage" VALUE="10">
+
+        <INPUT TYPE="HIDDEN" NAME="CiScope" VALUE="/">
+
+        <INPUT TYPE="HIDDEN" NAME="TemplateName" VALUE="query">
+
+        <INPUT TYPE="HIDDEN" NAME="CiSort" VALUE="rank[d]">
+
+        <INPUT TYPE="HIDDEN" NAME="HTMLQueryForm" VALUE="/search/query.htm">
+
+    </TABLE>
+
+</FORM>
+<table border=0 width=500>
+	<tr>
+		<td rowspan=2 width=100>
+			&nbsp;
+		</td>
+		<td width=200>
+			<font size=4>
+				<a href="invest/6_4.htm">
+				Press Releases
+				</a>
+				<br><br>
+			</font>
+		</td>
+		<td width=200>
+			<font size=4>
+				<a href="product/2_2.htm">
+				Product Pipeline
+				</a>
+				<br><br>
+			</font>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<font size=4>
+				<a href="invest/6_6.htm">
+				SEC Filings
+				</a>
+				<br><br>
+			</font>
+		</td>
+		<td>
+			<font size=4>
+				<a href="invest/6_5.htm">
+				Stock Quotes
+				</a>
+				<br><br>
+			</font>
+		</td>
+	</tr>
+</table>
+
+
+<P>&nbsp;
+
+<P>&nbsp;
+
+<P>&nbsp;
+
+<P>&nbsp;<MAP NAME="lowNAV"><AREA SHAPE=rect COORDS="67,10,111,19" HREF="people/5_0.htm"><AREA SHAPE=rect COORDS="128,11,186,19" HREF="product/2_0.htm"><AREA SHAPE=rect COORDS="204,11,336,19" HREF="patent/4_0.htm"><AREA SHAPE=rect COORDS="353,11,403,19" HREF="invest/6_0.htm"><AREA SHAPE=rect COORDS="420,11,504,19" HREF="perform/3_0.htm"></MAP><IMG
+SRC="images/lowNAV.gif" WIDTH=530 HEIGHT=31 BORDER=0 ALIGN=bottom
+usemap="#lowNAV">
+</BODY>
+</HTML>
+
+
+</DOC>

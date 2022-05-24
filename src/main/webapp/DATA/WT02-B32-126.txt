@@ -1,0 +1,67 @@
+
+<DOC>
+<DOCNO>WT02-B32-126</DOCNO>
+<DOCOLDNO>IA096-001033-B045-230</DOCOLDNO>
+<DOCHDR>
+http://www.money-concepts.on.ca:80/mag.html 205.233.176.27 19970215041557 text/html 1586
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 04:29:37 GMT
+Server: Apache/1.0.3
+Content-type: text/html
+Content-length: 1415
+Last-modified: Mon, 21 Feb 1994 17:48:48 GMT
+</DOCHDR>
+<html>
+
+<head>
+
+<title>Magazine Choice</title>
+
+</head>
+
+<body background="chalk.jpg" text="#10c4500" link="#808000">
+
+<center>
+
+<img src="moneya.gif"><p>
+
+<font size=+3>Please give us your name and address below:</font>
+
+</center>
+
+<form action="http://www.inforamp.net/cgi-bin/sendmail.cgi" method="post">
+
+<input type="hidden" name="TO" value="nagy@netrover.com">
+<input type="hidden" name="SUBJECT" value="Magazine request">
+<input type="hidden" name="RETURN-URL" value="http://www.money-concepts.on.ca/aftmag.html">
+
+<b>
+
+<pre>
+
+       NAME:   <input type="text" name="name" size="40">
+    ADDRESS:   <input type="text" name="address" size="40">
+       CITY:   <input type="text" name="city" size="40">
+   PROVINCE:   <input type="text" name="province" size="40">
+POSTAL CODE:   <input type="text" name="postal_code" size="7">
+    PHONE #:   <input type="text" name="phone" size="15">
+
+</pre>
+
+Please check which magazine you would like:
+
+<pre>
+
+<input type="checkbox" name="magazine" value="nyugdigas">Penzugyi Utikalauz nyugdijas kanadai magyaroknak
+<input type="checkbox" name="magazine" value="kozepkoru">Penzugyi Utikalauz kozepkoru kanadai magyaroknak
+<input type="checkbox" name="magazine" value="fiatal">Penzugyi Utikalauz fiatal kanadai magyaroknak
+
+</pre>
+
+<input type="submit" value="submit"><input type="reset" value="clear">
+
+</body>
+
+</html>
+
+</DOC>

@@ -1,0 +1,48 @@
+
+<DOC>
+<DOCNO>WT03-B18-14</DOCNO>
+<DOCOLDNO>IA070-000447-B008-46</DOCOLDNO>
+<DOCHDR>
+http://www.invisiblegardener.com:80/wwwboard/wwwboard.htm 207.158.219.161 19970121011520 text/html 1404
+HTTP/1.1 200 OK
+Date: Tue, 21 Jan 1997 01:15:20 GMT
+Server: Apache/1.2b4
+Connection: close
+Content-Type: text/html
+Last-Modified: Sun, 19 Jan 1997 22:10:52 GMT
+ETag: "4b28cd-48b-32e29bec"
+Content-Length: 1163
+Accept-Ranges: bytes
+</DOCHDR>
+<html>
+  <head>
+    <title>The Organic InfoBank Garden forum</title>
+  </head>
+  <body>
+    <center>
+      <h1>Organic InfoBank Garden Forum</h1>
+    </center>
+Below is our Garden Forum. Leaves a comment or a question or leaves an answer.....
+<p><hr size=7 width=75%>
+<center>[ <a href="#post">Post Message</a> ] [ <a href="faq.html">FAQ</a> ]</center> <hr size=7 width=75%>
+
+<ul>
+<!--begin-->
+</ul>
+
+<a name="post"><center><h2>Post A Message!</h2></center></a>
+<form method=POST action="http://www.invisiblegardener.com/cgi-local/wwwboard.pl">
+Name: <input type=text name="name" size=50><br>
+E-Mail: <input type=text name="email" size=50><p>
+
+Subject: <input type=text name="subject" size=50><p>
+Message:<br>
+<textarea COLS=55 ROWS=10 name="body"></textarea><p>
+Optional Link URL: <input type=text name="url" size=45><br>
+Link Title: <input type=text name="url_title" size=50><br>
+Optional Image URL: <input type=text name="img" size=45><p>
+<input type=submit value="Post Message"> <input type=reset>
+</form><p>
+Scripts and WWWBoard created by Matt Wright and can be found at <a href="http://worldwidemart.com/scripts/">Matt's Script Archive</a> 
+</body></html>
+</DOC>

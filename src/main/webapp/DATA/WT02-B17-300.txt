@@ -1,0 +1,38 @@
+
+<DOC>
+<DOCNO>WT02-B17-300</DOCNO>
+<DOCOLDNO>IA060-000326-B042-152</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/biopower/buildform.cgi?netpaper.pdf 205.168.79.27 19970115014912 text/html 785
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 01:49:16 GMT
+Server: NCSA/1.5
+Content-type: text/html
+</DOCHDR>
+<html>
+<BODY bgcolor="#FFFFFF" text="#000055" link="#FF00FF" alink="#FF0000" vlink="#800080">
+<h3>BioPower</h3>
+<p><br><center>
+<b>You are About to Download a .pdf file</b>
+<table border=3 cellpadding=0 width=358>
+<tr>
+<td>
+<form method=post action="pdfredirect.cgi">
+<p>Do you have an Adobe Acrobat Reader configured to view pdf files through your browser?
+</td>
+</tr>
+<tr>
+<td>
+<p><input type=radio name="readervar" value=netpaper.pdf> Yes. Download the file
+<br><input type=radio name="readervar" value="pdfdownload.html"> No. Show me where to get the reader
+</td>
+<td valign=middle>
+<p><input type=submit value="Go!">
+</td>
+</tr>
+</form>
+</table>
+</center>
+</body>
+</html>
+</DOC>

@@ -1,0 +1,84 @@
+
+<DOC>
+<DOCNO>WT02-B26-173</DOCNO>
+<DOCOLDNO>IA075-000495-B008-32</DOCOLDNO>
+<DOCHDR>
+http://hyun.seri.re.kr:80/Projects/RDAS.html 150.183.108.63 19970122015930 text/html 4265
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 01:52:09 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 10 Jun 1996 06:42:31 GMT
+Content-length: 4091
+</DOCHDR>
+<html>
+
+<title>
+	Research and Development of the Application Software for the Meteorological Satellite Data Analysis System	
+</title>
+
+<br><br>
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Title of the Study
+</h2>
+<ul>
+<h3>
+	"Research and Development of the Application Software for the Meteorological Satellite Data Analysis System"
+</h3>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Needs and Objectives 
+</h2>
+<ul>
+<p>
+   The objectives  of the present study  are 1) to investigate  the radiative characteristics  of the infrared channels on the  NOAA/AVHRR and GMS/VISSR, 2) to develop or test retrieval algorithms for  some meteorological parameters,  and 3) to develop  a workstation to  analyze meteorological satellite data.<br>
+  Since  the  meteorological satellite  receiving  system  has  been operated at  the  Korea Meteorological  Service in  July,  1989,  it provides  valuable  information  for meteorological analysis and  forecasts around  the Korean  peninsula. However,  the system  was developed entirely by foreign  knowledge, it is difficult to integrate  our own knowledge by the system.  Moreover, it is  expecting that the maintenance, update, and  operation should heavily rely on the foreign supports in the future.  Therefore, the  integration of knowledge on  utilizing meteorological satellite data is urgently required.
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Scope  
+</h2>
+<ul>
+<p>
+<ol>
+<li>Develop  a radiative  tansfer model  that simulates  the NOAA/AVHRR  and GMS/ VISSR infrared  channel to  investigate the  radiative characteristics  of the  channe ls. Also  develop algorithms to  retrieve sea surface  temperatures and atmospheric precipitable water amounts from the channel characteristics.
+<li>Test  some  algorithms  to  analyze  cloud   amounts,  cloud  heights,  and cloud  type classification.
+<li>Test the algorithms to estimate the vegetation index.
+<li>Investigate the  feasibilty on the application of  satellite imagery for pred icting atmospheric lightning.
+<li>Investigate the data structure and application of the Space Environment Monitor.
+<li>Develop a  W/S for  satellite image  processing  and application  S/W for  m eteorological parameter retrievals.
+</ol>
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Conclusions and Recommendations
+</h2>
+<ul>
+<p>
+   It  is  suggested  that  the radiative  transfer  model  developed  properly simulates  the NOAA/AVHRR and  GMS/VISSR infrared channels.  The characteristics of  the channe ls are mostly depend on the  amount of atmospheric water vapor and the water  vapor amo unts, the precipitable water and sea surface temperature algorithms were proposed.<br><br>
+  The cloud  analyses techniques for  cloud amounts, cloud heights,  and cloud classification from satellite  images, and the  algorithm for vegetation  index has been  studi ed and tested.  The relationships among ground measurements of lightning, GMS cloud top temperat ures, and application of SEM data have been explored.<br><br>
+  Meteorolgical satellite  image processing W/S  is developing  in three parts, preprocessing S/W, image processing  S/W, and analyses S/W  for meteorlogical parameters. A me thod  for geometric correction of  satellite images has been developed  as a part of prepr ocessing S/W.  Image processing S/W  is developing by modifying  the KMIPS (KIST Microcomputer Image Processing System). The  S/W for estimating cloud amounts, cloud  heights, veget ation index, and sea surface temperature have been prepared as  the S/W for methorological pa rameters in accord with the algorithms developed in this study or reported in the literature.<br><br>
+   Verifications for some conclusions are required, and communications  among th e projects in this program are necessary to prepare the analysis S/W for meteorological parame ters.
+</p>
+</ul><br>
+
+<hr><br>
+
+<ul>
+<h3>
+<address>
+<a href="../projects.html"><img alt="" src="../Icons2/Arrows/larrow.gif" width=10% height=8%></a> Go Back One Step!
+</address>
+</h3>
+</ul><br><br>
+
+
+</html>
+</DOC>

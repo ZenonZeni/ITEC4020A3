@@ -1,0 +1,185 @@
+
+<DOC>
+<DOCNO>WT02-B31-262</DOCNO>
+<DOCOLDNO>IA020-000210-B033-164</DOCOLDNO>
+<DOCHDR>
+http://sandcastle-ltd.com:80/firewall-faq.html 199.35.141.30 19970107121515 text/html 10150
+HTTP/1.0 200 OK
+Date: Tue, 07 Jan 1997 12:16:37 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 9979
+Last-modified: Wed, 07 Aug 1996 04:01:29 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0 plus SQ/ICADD Tables//EN" "html.dtd"
+>
+<!--
+Written by Marcus J. Ranum.-->
+<HTML><HEAD>
+<TITLE>Internet Firewalls Frequently Asked Questions</TITLE></HEAD>
+<BODY bgcolor="#ffffff" link="#CC0000" alink="#FF3300" vlink="#330099"><H1>Internet Firewalls Frequently Asked Questions</H1>
+<H3>FAQ Maintainer: Marcus J. Ranum</H3><H2>About the FAQ</H2>
+<P>This FAQ is not an advertisement or endorsement for any product,
+company, or consultant. The maintainer welcomes input and comments on
+the contents of this FAQ. Comments related to the FAQ should be
+addressed to <A HREF="mailto:fwalls-faq@v-one.com">Fwalls-FAQ@v-one.com.</A>
+The FAQ is also available via WWW from <A HREF="http://www.v-one.com"
+>http://www.v-one.com.</A> As of this writing, the FAQ's primary format is
+HTML.</P><H2>Contents:</H2>
+<OL>
+<LI><P><A HREF="firewall-faq.html#head_whatis" NAME="topic_whatis">What is a
+network firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whywant" NAME="topic_whywant">Why would
+I want a firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whatprot" NAME="topic_whatprot">What can
+a firewall protect against?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whatnotprot" NAME="topic_whatnotprot">What
+can't a firewall protect against?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whatvirus" NAME="topic_whatvirus">What
+about virusses?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whatprint" NAME="topic_whatprint">What
+are good sources of print information on firewalls?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_wheremoreinfo" NAME="topic_wheremoreinfo">
+Where can I get more information on firewalls on the  network?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whatproducts" NAME="topic_whatproducts">What
+are some commercial products or consultants who sell/service firewalls?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_designissues" NAME="topic_designissues">What
+are some of the basic design decisions in a firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_types" NAME="topic_types">What are some
+of the basic types of  firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whatproxies" NAME="topic_whatproxies">What
+are proxy servers and how do they work?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_packetscreens" NAME="topic_packetscreens">
+What are some cheap packet screening tools?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_screeningcisco" NAME="topic_screeningcisco">
+What are some reasonable filtering rules for a Cisco?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_howweb" NAME="topic_howweb">How do I
+make Web/http work with a firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_howdns" NAME="topic_howdns">How do I
+make DNS work with a firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_howftp" NAME="topic_howftp">How do I
+make FTP work through my firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_howtelnet" NAME="topic_howtelnet">How do
+I make Telnet work through my firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_howfinger" NAME="topic_howfinger">How do
+I make Finger and whois work through my firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_howarchie" NAME="topic_howarchie">How do
+I make gopher, archie, and other services work through my firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_howX" NAME="topic_howX">What are the
+issues about X-Window through a firewall?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whatsourcert" NAME="topic_whatsourcert">What
+is source routed traffic and why is it a threat?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whaticmp" NAME="topic_whaticmp">What are
+ICMP redirects and redirect bombs?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_whatdeny" NAME="topic_whatdeny">What
+about denial of service?</A></P>
+</LI>
+<LI><P><A HREF="firewall-faq.html#head_glossary" NAME="topic_glossary">Glossary
+of firewall related terms</A></P></LI>
+<LI><P><A HREF="firewall-faq.html#head_contrib" NAME="topic_contrib">Contributors</A></P></LI>
+</OL>
+<H2><A HREF="firewall-faq.html#topic_whatis" NAME="head_whatis">What is a
+network firewall?</A></H2>
+<P>A firewall is a system or group of systems that enforces an access
+control policy between two networks. The actual means by which this is
+accomplished varies widely, but in principle, the firewall can be
+thought of as a pair of mechanisms: one which exists to block traffic,
+and the other which exists to permit traffic. Some firewalls place a
+greater emphasis on blocking traffic, while others emphasize permitting
+traffic. Probably the most important thing to recognize about a firewall
+is that it implements an access control policy. If you don't have a good
+idea what kind of access you want to permit or deny, or you simply
+permit someone or some product to configure a firewall based on what
+they or it think it should do, then they are making policy for your
+organization as a whole.</P><H2><A HREF="firewall-faq.html#topic_whywant" NAME="head_whywant"
+>Why would I want a firewall?</A></H2>
+<P>The Internet, like any other society, is plagued with the kind of
+jerks who enjoy the electronic equivalent of writing on other people's
+walls with spraypaint, tearing their mailboxes off, or just sitting in
+the street blowing their car horns. Some people try to get real work
+done over the Internet, and others have sensitive or proprietary data
+they must protect. Usually, a firewall's purpose is to keep the jerks
+out of your network while still letting you get your job done.</P><P>Many
+traditional-style corporations and data centers have computing security
+policies and practices that must be adhered to. In a case where a
+company's policies dictate how data must be protected, a firewall is
+very important, since it is the embodiment of the corporate policy.
+Frequently, the hardest part of hooking to the Internet, if you're a
+large company, is not justifying the expense or effort, but convincing
+management that it's safe to do so. A firewall provides not only real
+security - it often plays an important role as a security blanket for
+management.</P><P>Lastly, a firewall can act as your corporate
+"ambassador" to the Internet. Many corporations use their firewall
+systems as a place to store public information about corporate products
+and services, files to download, bug-fixes, and so forth. Several of
+these systems have become important parts of the Internet service
+structure (e.g.: UUnet.uu.net, whitehouse.gov,  gatekeeper.dec.com) and
+have reflected well on their organizational sponsors.</P><H2><A HREF="firewall-faq.html#topic_whatprot" NAME="head_whatprot"
+>What can a firewall protect against?</A></H2>
+<P>Some firewalls permit only Email traffic through them, thereby
+protecting the network against any attacks other than attacks against
+the Email service. Other firewalls provide less strict protections, and
+block services that are known to be problems.</P><P>Generally,
+firewalls are configured to protect against unauthenticated interactive
+logins from the "outside" world. This, more than anything, helps prevent
+vandals from logging into machines on your network. More elaborate
+firewalls block traffic from the outside to the inside, but permit users
+on the inside to communicate freely with the outside. The firewall can
+protect you against any type of network-borne attack if you unplug it.</P><P
+>Firewalls are also important since they can provide a single "choke
+point" where security and audit can be imposed. Unlike in a situation
+where a computer system is being attacked by someone dialing in with a
+modem, the firewall can act as an effective "phone tap" and tracing
+tool. Firewalls provide an important logging and auditing function;
+often they provide summaries to the administrator about what kinds and
+amount of traffic passed through it, how many attempts there were to
+break into it, etc.</P><H2><A HREF="firewall-faq.html#topic_whatnotprot" NAME="head_whatnotprot"
+>What can't a firewall protect against?</A></H2>
+<P>Firewalls can't protect against attacks that don't go through the
+firewall. Many corporations that connect to the Internet are very
+concerned about proprietary data leaking out of the company through that
+route. Unfortunately for those concerned, a magnetic tape can just as
+effectively be used to export data. Many organizations that are
+terrified (at a management level) of Internet connections have no
+coherent policy about how dial-in access via modems should be protected.
+It's silly to build a 6-foot thick steel door when you live in a wooden
+house, but there are a lot of organizations out there buying expensive
+firewalls and neglecting the numerous other back-doors into their
+network. <STRONG>For a firewall to work, it must be a part of a
+consistent overall organizational security architecture.</STRONG>
+Firewall policies must be realistic, and reflect the level of security
+in the entire network. For example, a site with top secret or classified
+data doesn't need a firewall at all: they shouldn't be hooking up to the
+internet in the first place, or the systems with the really secret data
+should be isolated from the rest of the corporate network.</P><P>Another
+thing a firewall can't really protect you against is traitors or idiots
+inside your network. While an industrial spy might export information
+through your firewall, he's just as likely to export it through a
+telephone, FAX machine, or floppy disk. Floppy disks are a far more
+likely means for information to leak from your organization than a
+firewall! Firewalls also cannot protect you against stupidity. Users who
+reveal sensitive information over the teleph>
+<HR><H3>Transfer interrupted!</H3>
+</DOC>

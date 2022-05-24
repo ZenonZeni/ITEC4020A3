@@ -1,0 +1,411 @@
+
+<DOC>
+<DOCNO>WT03-B15-134</DOCNO>
+<DOCOLDNO>IA093-000997-B024-332</DOCOLDNO>
+<DOCHDR>
+http://www.rosl.com:80/calib.htm 206.216.148.51 19970121094653 text/html 39070
+HTTP/1.0 200 OK
+Date: Tue, 21 Jan 1997 09:42:59 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 38898
+Last-modified: Thu, 04 Apr 1996 07:54:05 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Robot and workcell calibration  </TITLE> 
+<BODY BACKGROUND="paper3.gif">
+<H1>Robot and workcell calibration  </H1> 
+</HEAD>
+
+<h2>Robot accuracy for off-line programming</h2>
+
+<p>The repeatability of most industrial robots (the ability to return repeatedly to a given 
+position) is usually much better than the world accuracy (the ability to move to a specified 
+xyz value in space). A typical repeatability is about 0.1mm while a typical world accuracy is of 
+the order of 10mm or worse. This is not a problem when programming a robot on-line using a 
+hand-held teach-pendant and the human eye. Here it is only repeatability that is an issue. 
+However, when programming a robot using some off-line system to generate the robot locations 
+numerically the accuracy of the robot becomes all important.</p>
+<P>In theory, it is possible to improve the accuracy so that it is as good as the repeatability.
+ The reason that the accuracy of robots is so bad is because there are manufacturing tolerances 
+involved in the production of each robot that are not taken into account within the robot 
+controller. Each robot therefore has its own individual 'signature'. The most significant sources 
+of error are discrepancies in the robot link lengths, in the zero position of each joint, in the 
+alignment of joint axes, and in the joint compliance (a torsional spring effect dur to the effect 
+of the weight of the payload on the gear transmission). These errors together can account for more 
+than 95% of the overall positional error.</P>
+<P>What is required is a system that will take measurements of the xyz position of the robot's 
+end effector, compare this with the robot's own estimate of its position, and thereby find 
+estimates for these errors and model these errors to improve the accuracy obtained when off-line 
+programming the robot.</P>
+
+<h2>An overview of Robotrak</h2>
+
+<P>Robotrak is an optional measuring system for Workspace that is used to calibrate the robot. 
+It is capable of measuring static positions or motion paths to an accuracy greater than 0.2mm in 
+three dimensions.</P>
+
+<center><IMG BORDER=1 SRC="calib1.gif" ALT="[IMAGE]"></IMG></center>
+<center>The Robotrak 3D measurement system</center>
+
+<P>One person can set up Robotrak and perform a calibration within 30 minutes. Compared to other 
+calibration systems Robotrak is simple, rugged, and extremely cost-effective.</P>
+<p>The ability of Workspace to calculate the correct position and orientation of the Robotrak 
+measuring units relative to the robot as part of the calibration means that Robotrak may be 
+mounted at any unknown position in the workcell.</P>
+<p>The Robotrak measuring system consists of the following:-</P>
+<UL>
+<LI>Three Encoder Measuring Units incorporating 2500 pulses per revolution quadrature encoders. 
+    Please note that because each encoder unit contains fragile precision components it should not 
+    be dropped or treated roughly.
+<LI>Three Calibration Fixtures (machined brass fork and steel locating plate assembly used for 
+    accurately setting the cord exit point on the measuring unit).
+<LI>A Robot Tool Flange Attachment Assembly for connection to the robot under test.
+<LI>A 'Standard Length' Calibration Bar for accurately setting the encoder counts per millimetre.
+<LI>An Encoder Interface Card for linking the Robotrak hardware to an IBM compatible PC.
+<LI>Cables and connectors for use with above items.
+<LI>A menu within Workspace used for setting up Robotrak, recording measurements, and performing
+    robot calibration.
+</UL>
+
+<center><IMG BORDER=1 SRC="calib2.gif" ALT="[IMAGE]"></IMG></center>
+<center>The Encoder Measuring Unit</center>
+
+<center><IMG BORDER=1 SRC="calib3.gif" ALT="[IMAGE]"></IMG></center>
+<center>Internal View Of Encoder Measuring Unit</center>
+
+<center><IMG BORDER=1 SRC="calib4.gif" ALT="[IMAGE]"></IMG></center>
+<center>Robot Tool Flange Attachment Assembly</center>
+
+<center><IMG BORDER=1 SRC="calib5.gif" ALT="[IMAGE]"></IMG></center>
+<center>Calibration Fixture</center>
+
+<center><IMG BORDER=1 SRC="calib6.gif" ALT="[IMAGE]"></IMG></center>
+<center>Calibration Bar</center>
+
+
+<p>The three encoder units are placed at the corners of an approximately equilateral triangle 
+within the robot workcell. They may be mounted on the ground, on the ceiling, on a wall, or even 
+on a fixture. They should be roughly 2 metres apart from each other, and must be fixed so that 
+they will not move during the calibration.</P>
+<P>A small, constant, restoring force is applied by each encoder unit to the measurement cord. As 
+each Dynema cord is extended from the encoder unit a drum rotates and an encoder measures the 
+rotation of the drum, thereby measuring the extension of the cord. A constant torque is applied 
+to the drum by means of a torsional spring, thus tensioning the cord. The encoder counts, 
+representing cord extension are passed to Workspace through the encoder interface card, which must 
+be installed in the PC running Workspace.</P>
+<P>The calibration bar is used during the setting up of Robotrak to determine the scaling factor 
+of encoder counts to the cord extension in millimetres.</P>
+<P>Once calibrated the Robotrak measuring units themselves then provide a convenient way of 
+measuring the relative distance between each other. This is done by extending the cord from one 
+unit to the next and accurately locating the cord attachment fitting in the calibration fixture 
+of the next measuring unit: thus determining the distance between the two units. This procedure 
+is repeated for all three units in turn operating in an anticlockwise direction.</P>
+<P>When the set-up is complete, the robot may be calibrated. All three cords are fixed at a 
+single point on the end of the robot tool or faceplate using the robot tool flange attachment 
+assembly. By monitoring the extension of the cords Workspace can calculate the xyz position of 
+the end of the robot tool, either when the robot is stationary or when it is moving.</P>
+
+<h2>An overview of the Workspace calibration software</h2>
+
+<P>Workspace makes extensive use of the Robotrak measuring system for calibration. Robotrak is 
+part of the Workspace system, and is used to calibrate robots prior to off-line programming. 
+The software for the calibration is an integral part of Workspace and all the calibration options 
+are available from Workspace menus.</P>
+<P>The main advantages to the user of a calibration system integrated with the simulation system 
+are that the user interface is greatly simplified and that the price is low compared with 
+discrete calibration and simulation systems. This is the first time that such close integration 
+has been achieved.</P>
+<P>Robot simulation, calibration, and off-line programming may therefore be seen as a seamless 
+process, in which robot programmes may be transferred to and from each stage with out any problem 
+as is often required during the cell design process.</P> 
+<p>Errors which may be detected and modelled by Workspace and Robotrak include:</P>
+<UL>
+<LI>The zero position of each joint (the position of the joint where the value of the joint 
+    variable is 0),
+<LI>The length of each link and the distance offset at each link,
+<LI>The orientation of each joint axis,
+<LI>The compliance at each joint (each joint may be modelled as a torsional spring due to the 
+    compliance in the gearing and transmission for the joint),
+<LI>The xyz tool offset from the mounting plate to the end of the tool and the tool axis 
+    orientation,
+<LI>The position and orientation of the measuring system co-ordinate frame relative to the robot 
+    base co-ordinate frame.
+</UL>
+<P>Workspace extracts these errors from the physical measurements made by Robotrak and the 
+teachpoints reported by the robot by trying to find a robot model that would best fit the 
+measured characteristics. The Workspace kinematic model of the robot is then modified accordingly. 
+Points generated within Workspace during the course of a simulation are then passed through a filter 
+which alters the points in such a way that the uncalibrated real robot will be fooled in to moving 
+to the point we really wanted it to move to by asking it to move to another, slightly different 
+point.</P>
+<P>It is necessary to work this way since the real robot can have no knowledge of its physical 
+inadequacies.</P>
+<P>With Robotrak measuring points to an absolute accuracy of 0.2mm it is possible to obtain 
+results from the calibration such that the accuracy of an industrial robot such as the ABB IRB6000 
+during off-line programming is improved from 10 to 20 mm to better than 1mm.</P>
+<P>Note that Robotrak may also be used for measuring the position of the robot while it is moving 
+along a path, for the purpose of checking the accuracy of paths generated on the robot controller. 
+These paths may then be automatically displayed in 3D using Workspace and compared with that 
+generated during a simulation; thus giving a dynamic assessment capability.</P>
+
+<h2>The Calibration Filter</h2>
+<P>It is important to understand when and how the calibration filters are used. Otherwise 
+confusion will arise as to the correctness of any display.</P>
+<P>Teachpoints that are displayed on the screen are always unfiltered. The only situations where 
+teachpoints pass through the filter are shown below.</P>
+<P>The output filter is used when preparing points generated in the simulation for the robot in 
+the following situations:-</P>
+<UL>
+<LI>During a Send to robot command when the track contains geometry points which are being 
+    automatically converted to teachpoints;
+<LI>Writing a position in a Jetware VR file at any time;
+<LI>Converting a geometry point to a teachpoint using the Layout menu.
+</UL>
+<P>The input filter (which works in the opposite way to the output filter) is used as follows:-</P>
+<UL>
+<LI>During a Calibrate model menu command when three Datum teachpoints are imported from the 
+    robot into the simulation.
+<LI>During a Recalibrate tool menu command when four teachpoints are imported from the robot into 
+    the simulation.
+<LI>Reading a position from a Jetware VR file at any time.
+<LI>Converting a teachpoint to a geometry point using the Layout menu.
+</UL>
+
+<h2>Installing the Robotrak interface card</h2>
+
+<P>Before using Robotrak, the encoder interface card will need to be installed in the PC.</P>
+<P>First of all, the PC must be disconnected from the mains and its cover removed. From above, 
+the computer should look something like this.</P>
+
+<center><IMG BORDER=1 SRC="calib7.gif" ALT="[IMAGE]"></IMG></center>
+<center>PC motherboard</center>
+
+<P>The encoder interface board is a half-length 8-bit card. To install it, an available 8-bit or 
+16-bit slot must be found in the PC.</P>
+
+<center><IMG BORDER=1 SRC="calib8.gif" ALT="[IMAGE]"></IMG></center>
+<center>Installing the card</center>
+
+<P>The blanking plate for the slot should be removed from the case of the PC, keeping the 
+securing screw in a safe place.</P>
+<P>The interface card should be aligned with the slot and pressed down until it is fully home.</P>
+<P>The securing screw should be replaced so that the interface card is fixed into the PC.</P>
+
+<P>Once the card is installed, the PC must be moved to a suitable position outside of the robot's 
+envelope ready to connect up the encoder units.</P>
+
+<h2>WARNING!</h2>
+<P>It is important that the tension in the cords from the encoder units is maintained at all 
+times. This is so that the cord will always wrap tightly around the drum. If the tension is not 
+maintained the repeatability of Robotrak will be degraded. Therefore the cords should be moved 
+slowly (at the speed of 'walking on the moon') when moving them towards the encoder unit.Always 
+return the cords to the encoder units slowly.</P>
+
+<h2>Installing the encoder units</h2>
+
+<p>Now you can install the encoder units in the workcell, near the robot. Place the encoder units
+ at the corners of an approximate equilateral triangle whose sides are roughly 2m in length. Bear 
+in mind that when taking robot measurements using Robotrak the measured points should not be too 
+close to the plane containing the encoder units, and that very large variations in the extension 
+of one cord compared to the other cords should be avoided.  This should help you decide the 
+optimum positions for the encoder units relative to the working volume of the robot.</P>
+<P>Note that the encoders do not need to be mounted on the floor. The only configuration you must 
+not use is to have the three encoder units in a line. Also, there must be a clear line of sight 
+from one encoder unit to the next so that it is possible to use the cords to measure the distance 
+between the units. The precise position of the encoders relative to the robot does not need to be 
+known since this is calculated as part of the calibration process. This flexibility of positioning 
+Robotrak within the workcell is one of the great advantages of this system.</P>
+<P>When you have secured the encoder units, use the electrical cables supplied with them to 
+connect the encoders to the interface card on the PC. Each plug is marked with the encoder units 
+number, this should be inserted into the correspondingly marked port on the interface card.<b> N.B.</b> 
+Care should be taken not to accidentally connect the 15 way 'density and a half' D-type plug from 
+a VGA monitor into one of the input channels of the interface card as damage may result.</P>
+
+<H2>WARNING!</h2>
+<P>Whenever pulling a cord away from its base always grasp it firmly so that it does not slip, 
+since the tension in the torsional spring will cause the cord to shoot back towards its base at 
+high speed. This can damage the Robotrak components. For a similar reason, the cords should be 
+checked every now and then for signs of breaking.</P>
+
+<H2>The Workspace Robotrak Setup menu</h2>
+<p>This menu is used to setup Robotrak. Issue each command in turn from the top to the bottom of 
+the menu.</P>
+<UL>
+
+<LI>1. Run Workspace and go to the Options/Calibrate Robot sub-menu. Pull down the Robotrak setup 
+sub-menu.
+<LI>2. Use the Exact length of bar command to enter the number in mm written on the side of the 
+calibration bar.
+<LI>3. The aluminium attachment fittings should be at rest on top of each of the three encoder 
+measuring units. This is the zero position for the cord. Use the Set all zero positions command. 
+Answer yes to the question 'Are all the cords in their bases?'.
+<LI>4. The repeatability of Robotrak depends to some extent on the repeatability of its zero 
+position, which can be improved by allowing the zero position to 'settle'. Use the Check 
+repeatabilities command. The readings from the three encoders are displayed on the screen. 
+Initially the numbers will be red.
+<P>Pull a cord away from its base (at least two metres) and then return the cord to the base and 
+leave in the base for at least half a second. An audible click will be heard from the computer. 
+If you do not hear a click then pull the cord out further. Do not pull the cord out too far - 
+always leave a few winds of the cord on the drum (remove the cover of the encoder unit to see the 
+drum if you are not sure). Repeat this until the displayed reading for the encoder turns from 
+black to red. This will only happen after three consecutive zero readings for the cord have been 
+with three encoder counts of each other.</P>
+<P>Do this for all three cords (if there is more than one person available then the repeatability 
+of all three cords can be checked at the same time by each parson working on one cord).</P>
+<P>Once all three encoder readings have changed from red to black then press escape to exit. The 
+encoders will be zeroed again.</P>
+<LI>5. Now use the Set encoder length bar length for each base (timed). This command allows a 
+single user to set each encoder bar length in turn in a single operation without assistance.
+<P>When the command is called the user has 15 seconds to carefully place the wedge shaped end of 
+the calibration bar flat against the cord exit point on the first encoder unit.  The cord should 
+then be drawn out and the base of the aluminium attachment fitting allowed to rest in the slot at 
+the other end of the calibration bar.</P>
+<P>After 15 seconds a reading is taken and Workspace now calculates the scaling factor of encoder 
+counts to length of extension in mm for that encoder unit. The user then has 15 seconds to repeat 
+this operation for the second unit and a further 15 seconds for the third unit.</P>  
+<LI>6. Use the Set distance for each base command.
+<P>The use has the choice of finding the distances between all three bases one at a time or all 
+together. It is recommended that the user finds the distances one at a time.</P>
+<P>Find the two specified encoder units (they must always be numbered anticlockwise looking in 
+"Plan" from the robot down onto the Robotrak units).</P>
+<P>Take the calibration fixture (machined brass fork and steel locating plate) which has the 
+same number as the second encoder unit. Insert the pin of the brass fitting into the plate if 
+not already assembled. Insert the two locating pins from the steel plate into the top of the 
+encoder unit near where the cord leaves the unit.</P>
+<P>Extend the cord from the first unit to the second encoder unit with the calibration fixture, 
+and place in the calibration fixture. Press escape next base. Workspace now calculates the 
+distance between the two units.</P>
+<P>Repeat for all three encoder units.</P>
+7. Use the Continous cord reading command to inspect the readings from each encoder unit and check that they are now working correctly.
+
+<h2>Connecting Robotrak to the robot</h2>
+<UL>
+<LI> Attach the robot tool flange attachment assembly to the robot tool flange (faceplate of the robot tool attachment point). This is usually done by means of four cap screws screwed into the robot tool flange. If the holes on your robot are not to the ISO Series 1 preferred sizes (e.g. Fanuc robots) then suitable holes will need to be drilled in the robot tool flange attachment assembly to align with these holes.
+<LI> The aluminium attachment fittings at the end of each cord coming from the encoder units should be screwed onto the corresponding attachments on the cords coming from the robot tool flange attachment assembly.
+<LI> Use a pair of calipers to measure the length from where the cord from the encoder unit enters the assembled aluminium attachment fittings to where cord from the robot enters the triple fitting on the robot tool flange attachment assembly. Enter the measured length of the top part of the cord in millimetres, after issuing the command Length of top part of cord 1. Repeat for cords 2 and 3.
+</UL>
+
+<h2>WARNING!</H2>
+<P>When the Robotrak cords are connected to the robot the user should watch any robot movement to avoid the cords becoming entangled in the robot tool. The robot should always be moved slowly for this reason as well as to maintain the tension in the cords.</P>
+<P>Always move the robot slowly.</P>
+
+<UL>
+<LI> Use the Continuous measurement reading command to display the xyz position of where the cords meet on the robot. Move the robot to check that this value changes as would be expected. The origin of the measurement system is at encoder unit 1, the x-axis is from unit 1 to unit 2. and the y-axis is at right angles to the x-axis in the plane of the 3 units, on the unit 3 side of the x-axis. The z-axis is perpendicular to the x,y plane and passes through the origin.
+</UL>
+<center><IMG BORDER=1 SRC="calib9.gif" ALT="[IMAGE]"></IMG></center>
+<center>The Robotrak Co-ordinate Frame</center>
+
+<h2>Recording a set of calibration measurements</h2>
+<UL>
+<LI> Make a note of the tool frame, as well as the robot base frame as reported on the controller. The tool offset can be nil during calibration, or any value ( as long as that value is noted down). It is probably easiest if both the tool and the base frame are nil.
+<P>The true physical tool offset values are parameters that will revealed as part of the calibration process.</P>
+<LI> Teach 50 different positions and orientations throughout the robot's working envelope using the robot teach pendant. These positions and orientations should vary as widely as possible throughout the robot envelope. Remember always to move the robot slowly when the Robotrak cords are connected (see above warning). If creating a program to cycle through the positions a pause of at least one second should be inserted between subsequent moves (this is particularly important when using with the Auto-record feature of Workspace). Workspace can calibrate a robot with 25 positions, however more points give greater accuracy in the calibration.
+<P>When teaching the points it is recommended that the plane of the end connector where the cords meet is kept at the same angle to the cords in all the recorded positions. Or to put it another way the average vector of the cords should be the same as the approach vector of the tool. So if all the cords are forming a roughly 30 degree angle to the vertical (a fairly extreme position) then the tool should be rotated so that the end of the connector is at 90 degrees to all the cords, or (imagining a two cord Robotrak) if one cord is roughly horizontal and the other is roughly vertical that the tool should be rotated so that the end of the connector is 45 degrees to both.</P>
+<LI>Use the Check teachpoints suitable command to check the suitability of the teachpoints.
+<LI>There are two methods available within Workspace to take the readings from Robotrak. The Record Robotrak measurements command on the Robotrak special options menu requires input from the user when Workspace is required to take a measurement.
+<P>The Auto-record Robotrak measurements command automatically senses when a reading should be taken, and is the recommended method.</P>
+<P>Write a robot programme to move to each teachpoint in turn, pausing at the point for at least a second. Start the robot program.  Workspace will then take readings whenever the readings from Robotrak settle for 0.5 of a second. Pressing escape or a mouse button will terminate the process.</P>
+<P>The measurements are stored in a file with the extension EXT.</P>
+</UL>
+
+<h2>Running the robot calibration software</h2>
+<UL>
+<LI>Load the model containing the robot that is to be calibrated into Workspace. 
+<LI>Set the robot model tool frame and base frame to the same values as were noted from the robot controller.
+<LI>Use the Simulate/Simulate options/Teachpoint file option to select the teachpoint file that was used to record the measurement file.
+<LI> Use the Options/Calibrate using Robotrak/Extract errors from measurements command. This will compare the teachpoint file and the measurement file and find the errors in the robot structure and the relative position of Robotrak and the robot that would have created the values in the files. This should take about 30 seconds, depending on the speed of the PC.
+</UL>
+
+<H2>Interpreting the Calibration search data</H2>
+<P>Several pages of data are generated during execution of the Extract errors from measurements command.</P>
+<H3>PAGE 1</h3>
+<p>The search to find errors in the robot model has two stages: searching for the approximate position and orientation of the measuring system and the approximate physical tool offset, then searching for all kinematic and compliance errors (this final stage also finds the exact position and orientation of the measuring system and the exact physical tool offset).</p>
+<P>The first stage is necessary to find good initial values for some of the variables that we are seeking in the final stage. Good initial values ensure that the search finds the correct local minimum.</P>
+<P>During each stage the following lines are displayed:</P>
+<UL>
+<LI>Stage: (the current stage of the search)
+<LI>Iteration: (the number of iterations in this stage of the search so far)
+<LI>Error: (the average positional error between the end of the robot calculated using the robot model and the measurements taken by Robotrak).
+</UL>
+<P>At the end of the two stages the error displayed on the screen gives a measure of the accuracy of the calibration in millimetres.</P>
+<h3>PAGE 2</h3>
+<P>The kinematic errors detected during the search are now formally displayed. First the modified DH parameters are displayed along with the tool offset and the position and orientation of the co-ordinate frame at joint 1 relative to the measuring system co-ordinate frame, then the errors between the modified values and the uncalibrated robot model are displayed.</P>
+<P>Finally the statement 'The error between the positions measured and the reported positions may be reduced as follows by changing the kinematics of the model' is followed by the average and maximum errors without the modifications, and the average and maximum errors with the modifications. It is these values that are of greatest importance in deciding if the calibration has been successful. Many applications require the error in the position of the tool to be within a certain value relative to the position demanded by the off-line programming system.</P>
+<P>It should be remembered when interpreting these values that they refer to the absolute accuracy. Many applications require only relative accuracy, for example machining a piece of metal. Many other applications can be made to rely on relative accuracy by careful design of the workcell. Because the remaining errors are often systematic in nature the relative accuracy can often be considerably better than the absolute accuracy. For a similar reason, the accuracy can be improved by restricting the movement of the robot to a small volume within the overall envelope.</P>
+<P>The user has the option of saving the results as a bitmap.</P>
+<H3>PAGES 3 and 4</h3>
+<P>Histograms showing the spread of the positional errors before and after calibration are displayed. This gives useful information that cannot be obtained by looking at the average and maximum values alone.</P>
+
+<P>The user may decide on the basis of the results obtained either to use the results to modify the existing robot model or to discard the results. If the user decides to modify the existing model then the user may also decide whether or not to use a filter to modify any teachpoints that are generated using the calibrated robot model so that they may be used on the uncalibrated robot (note that calibration calibrates the robot model not the robot itself).</P>
+<P>When a calibrated model is being used then 'Calibrated' will also be displayed above the robots name. 
+At the end of the calibration Workspace will display a model of the Robotrak cords going from each measuring unit to the endpoint of the robot. This may be turned off by using the Options/Calibrate using Robotrak/Robotrak special options/Turn Robotrak off command.</P>
+
+<h2>How the calibrated robot model is used</h2>
+<P>The calibration results are used to improve the simulated robot model so that it matches more exactly the way that the real robot moves. Any joint-co-ordinate teachpoints which are subsequently generated off-line on the simulation may then be downloaded to the robot controller and the robot will move to the position that is required. However, it is important to understand that the robot controller has no knowledge of the errors in its understanding of the real robots kinematics. Therefore, before Cartesian co-ordinate teachpoints are downloaded to the robot controller the simulation must somehow fool the robot into moving to the true position that we require by asking it to move to another slightly different position.</P> 
+<P>For example: Suppose that we wish the end of the robot tool to move to the xyz position 1000,1000,1000. If we ask the robot to move to this position it might move to 1002,1001,1001. Instead, we ask the robot to move to 998,999,999. The robot then moves to what it thinks is 998,999,999 but which is in reality 1000,1000,1000.</P>
+<P>To fool the robot into going to the correct Cartesian teachpoint positions we pass every geometry point through a filter before writing it to a teachpoint file. Similarly, when a teachpoint is loaded from a teachpoint file and converted to a geometry point it passes through the reverse filter (see above).</P>
+<h2>Recalibrating tool values</h2>
+<p>Options on the Options/Recalibrate tool sub menu can be used to correct  tool information after damage has occured. The commands are intended for use by users who damage the tool, perhaps bending it slightly due to a collision, and need to know the new tool offset and orientation without using robotrak. It can also be used to calibrate the tool precisely if it was not possible to place the three cords accurately at the end of the tool during the calibration procedure.</p>
+<p>The commands can be more accurate than the same methods used on robot controllers because they make full use of the calibrated robot model, if such a model is available.</P>
+<P>Note that it is not necessary to use these commands if the correct tool offset and orientation have already been identified using Robotrak and no collision or tool alteration has occured.</P>
+<P>To recalibrate the tool offset the following must be done. Move the real robot to a point which is fixed in the workcell and save the point as a teachpoint in a new teachpoint file. Change the orientation of the robot and move the robot to the same point, again save the teachpoint. Repeat this several times for diferent orientations around the same point sacving each in the teach point file (at least 4 are required and it is recommended that the teachpoint orientations are varied considerably - see the Recalibrate tool menu for more information).Then issue the Recalibrate tool/Recalibrate tool offset command. Workspace will use the robot model to calculate the tool offset.</P>
+<P>The tool offset must be recalibrated before the x and z axis are recalibrated.</P>
+<P>To recalibrate the x-axis, move the robot in the direction of the tool x-axis away from the point used in the recalibrate tool offset command to another point and save that point as a teachpoint. Then issue the Recalibrate tool/Recalibrate x-axis command.</P>
+<P>To recalibrate the z-axis, move the robot in the direction of the tool y-axis away from the point used in the recalibrate tool offset command to another point and save that point as a teachpoint. Then issue the Recalibrate tool/Recalibrate z-axis command.</P>
+<P>Note that the recalibrate tool menu commands will give more accurate tool values if the robot is first calibrated.</P>
+
+<h2>Calibrating the tool orientation</h2> 
+<p>Once a robot has been calibrated then Robotrak may be used to find the tool orientation. At the end of a successful calibration remove the standard Robotrak tool attachment and replace it with an identical assembly designed by the user in which the point at which the three cords meet has been moved a short distance along a direction parallel to the desired tool z axis. Then use the Options/Calibrate robot/Robotrak special options/Calibrate tool z-axis command. Workspace calculates from this an appropriate tool orientation. A similar procedure may be used with the calibrate tool x-axis command.</P>
+
+<H2>Calibrating the workcell fixtures</h2> 
+<p>Once the robot has been calibrated and its off-line programming accuracy improved to a suitable level then the robot may itself be used as a measuring device to find the true position of the fixtures in the workcell relative to the robot (note that the xyz offset of the end of the robot tool or pointer must be found beforehand - possibly by using the Recalibrate tool offset command). This is an important issue since without knowing these positions accurately the off-line generated robot programmes would be unusable. Another method of measuring the position of fixtures is by disconnecting Robotrak from the robot and moving Robotrak to several points on the fixture (any measurements taken after calibration are adjusted by Workspace so that they are expressed relative to the robot base). This however, requires the use of an additional stylus unit fitted to Robotrak in place of the robot tool flange attachment assembly. A third method is to use theodolites to measure the position of the robot base and all important points on the fixture. However, this method involves a great deal of time and expense.</P>
+<P>Once the position of the fixtures relative to the robot is known then the position of the models of the fixtures in the simulation package can be adjusted, enabling the simulation to generate accurate robot paths relative to the fixtures and the parts held in the fixtures.</P>
+<p>Two commands are available within Workspace that aid workcell set-up.</P> 
+<p>The command Options/Calibrate model/Reposition object using 3 points command can be used to accurately place an object relative to the robot. The method for using this command is as follows. 3 geometry points should be created on the object at known location on the object, the geometry points must be named DATUM1, DATUM2 and DATUM3. Using the robot, teachpoints should be created relative to the object in the workcell at the same positions on the object as the teachpoints, again these need to be named DATUM1, DATUM2 and DATUM3. Workspace can then match  the geometry points to the teachpoints thus positioning the object correctly relative to the robot.</P>
+<p>The command Options/Calibrate model/Reposition robot using 3 points command, has a similar effect as the Reposition object using 3 points command. Except in this case the object remains fixed and the robot is repositioned.</p> 
+
+<h2>Recording robot trajectories using Robotrak</h2>
+<p>Robotrak may also be used for measuring the position of the robot while it is moving along a path to check the accuracy of paths generated by the robot controller. These paths may then be automatically displayed in 3D using Workspace and compared with that generated during a simulation.</P>
+<p>Use the Options/Calibrate robot/Robotrak special options/Record trajectory command to start recording a trajectory using Robotrak. At the end of the recording the trajectory is displayed on the screen. The relative position of this trajectory will only be correct if Workspace already knows the position of Robotrak (the robot calibration process derives this from the calibration measurements and teachpoints).</P>
+<p>Use the Simulate/Replay track and log trajectory command to log a trajectory of a robot moving along a path specified by the track file. At the end of this command the trajectory is displayed and may be compared with that recorded using Robotrak from the real robot.</P>
+
+<h2>Troubleshooting</h2>
+<P>Problems with the repeatability of the encoder zero positions:</P>
+<UL>
+<LI>If the Continuous cord reading reports larger than expected differences (more than 20) in the values reported when the cord is at the zero position (where the value ideally should be zero) then this suggests that the cord is not wrapping tightly around the drum. There may also be a problem if the cord starts to overlap the cord already wrapped around the drum - remove the unit side cover and this will be immediately apparent.
+<P>The cord should be extended and then returned to the drum very slowly so that the tension is maintained enabling the cord to wrap neatly and tightly around the drum.</P>
+<P>The very first couple of times the cord wraps around the drum care should be taken to avoid overlapping - if necessary guide the cord using a finger. In normal operation of Robotrak this is not necessary because the cord never becomes completely unwound from the drum.</p>
+<LI>If the Continuous cord reading reports large differences (more than 1000) in the values reported when the cord is at the zero position (where the value ideally should be zero) then this suggests that the interface card may be faulty and further advice should be sought from the supplier.
+</UL>
+<P>Problems with obtaining calibration results:</P>
+If the Extract errors from measurements command returns robot calibration results which report an average error after calibration, of over 3mm, or if the search does not finish and no results are reported, there may be several possible causes.
+<UL>
+<LI>Problems with obtaining average errors less than 3mm may be caused by bad repeatability of the encoder zero positions (see above).
+<LI>It may be that the robot model is not performing the inverse kinematics correctly. Check that the Cartesian positions and corresponding joint co-ordinates reported on the robot controller are the same as the Cartesian position and joint co-ordinates reported by the simulated robot model. If there are any discrepancies then fax these to Robot Simulations who will correct your robot model.
+<LI>If the point where Robotrak is attached to the robot or the encoder measuring units are moved slightly during the calibration then it will invalidate the measurement data. Make certain that everything is securely fixed and cannot move during robot motion.
+<LI>The robot world frame and the tool frame on the robot controller and on Workspace may be different. If the teachpoint file used with the robot stores the teachpoints as Cartesian (xyz and orientation) values rather than joint angles then these teachpoints will only be interpreted by Workspace correctly if Workspace uses the same robot world frame and tool frame as was used on the robot controller when the points were recorded.
+<P>Note that the true physical tool offset will be calculated by Workspace as part of the calibration so it is not important that the tool frame on the robot controller matches the physical length of the tool.</P>
+<LI>It is possible that the non-geometric errors in the real robot are more significant than expected. This is unlikely with most standard industrial revolute robots.
+</UL>
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG SRC="gif/home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<center><h6><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+
+<h6>Copyright &copy; 1996 Robot Simulations Ltd</h6>
+<h6>Last revision 3 April 1996</h6></center>
+</P>
+
+</BODY>
+
+</HTML>
+
+</DOC>

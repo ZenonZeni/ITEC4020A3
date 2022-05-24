@@ -1,0 +1,1365 @@
+
+<DOC>
+<DOCNO>WT03-B39-24</DOCNO>
+<DOCOLDNO>IA060-000326-B016-24</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/fi39.html 205.156.212.5 19970115013428 text/html 57870
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Wednesday, 15-Jan-97 01:32:30 GMT
+Last-modified: Thursday, 24-Oct-96 22:49:11 GMT
+Content-length: 57681
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/fi39.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+TRADING SYSTEMS TECHNOLOGY via NewsNet <BR>
+January 15, 1990<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<H3>* THIS WEEK'S LEAD STORIES *</H3>
+<UL>
+<A HREF = "#1"><A HREF = "#1"><LI>PRU-BACHE DRIVES MORTGAGE ANALYTICS&nbsp;WITH INTEL'S iPSC/860 SUPERCOMPUTER</A>&nbsp&nbsp&nbsp<NOBR>(713 words)</NOBR></LI>
+<A HREF = "#2"><A HREF = "#2"><LI>REUTERS TRADING SYSTEMS EXEC&nbsp;DEPARTS AFTER TRIARCH FIASCO</A>&nbsp&nbsp&nbsp<NOBR>(427 words)</NOBR></LI>
+<A HREF = "#3"><A HREF = "#3"><LI>SEC SAYS RMJ'S OPTIONS&nbsp;SYSTEM IS NO EXCHANGE</A>&nbsp&nbsp&nbsp<NOBR>(713 words)</NOBR></LI>
+<A HREF = "#4"><A HREF = "#4"><LI>KAPITI AND AREGON JOIN FORCES&nbsp;IN MOVE SEEN AS CONSOLIDATION</A>&nbsp&nbsp&nbsp<NOBR>(690 words)</NOBR></LI>
+<A HREF = "#5"><A HREF = "#5"><LI>TGB SEEKS CAPITAL AFTER&nbsp;ASSETRONICS DEAL COLLAPSES</A>&nbsp&nbsp&nbsp<NOBR>(318 words)</NOBR></LI>
+<A HREF = "#6"><A HREF = "#6"><LI>CBOE-AMEX STUDY REJECTS&nbsp;PHLX-PSE-NYSE FINDINGS</A>&nbsp&nbsp&nbsp<NOBR>(868 words)</NOBR></LI>
+<A HREF = "#7"><A HREF = "#7"><LI>TELERATE PLANS BROKER VERSION&nbsp;OF TTS TO RIVAL REUTERS SYSTEM</A>&nbsp&nbsp&nbsp<NOBR>(697 words)</NOBR></LI>
+<A HREF = "#8"><A HREF = "#8"><LI>STRATUS TOUTS JAPANESE&nbsp;DEAL STRUCK LAST SPRING</A>&nbsp&nbsp&nbsp<NOBR>(358 words)</NOBR></LI>
+<A HREF = "#9"><A HREF = "#9"><LI>TECHNOLOGY FORECASTING AND&nbsp;HUMAN FACTORS AT HP SEMINAR</A>&nbsp&nbsp&nbsp<NOBR>(988 words)</NOBR></LI>
+<A HREF = "#10"><A HREF = "#10"><LI>TECHNOLOGY FORCASTING&nbsp;PART TWO</A>&nbsp&nbsp&nbsp<NOBR>(880 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>* TIME LINE *</H3>
+<UL>
+<A HREF = "#11"><LI>  Jan. 18 -- Introduction to Real-Time Financial Market Data presented</A>&nbsp&nbsp&nbsp<NOBR>(420 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>* BRIEF TRANSMISSIONS *</H3>
+<UL>
+<A HREF = "#12"><LI>  Sydney-based B.S. Microcomp Software Ltd. Pty. is up for sale</A>&nbsp&nbsp&nbsp<NOBR>(85 words)</NOBR></LI>
+<A HREF = "#13"><LI>  Harvey Gerson, formerly general manager, North America, with</A>&nbsp&nbsp&nbsp<NOBR>(27 words)</NOBR></LI>
+<A HREF = "#14"><LI>  The Chicago Board Options Exchange expanded eligibility in its</A>&nbsp&nbsp&nbsp<NOBR>(35 words)</NOBR></LI>
+<A HREF = "#15"><LI>  The office of the Japanese Minister of Finance (MOF) has ruled</A>&nbsp&nbsp&nbsp<NOBR>(94 words)</NOBR></LI>
+<A HREF = "#16"><LI>  Peter Kingsley has resigned as vice president, international</A>&nbsp&nbsp&nbsp<NOBR>(48 words)</NOBR></LI>
+<A HREF = "#17"><LI>  Hua Nan Commercial Bank Ltd. and First Commercial Bank, both</A>&nbsp&nbsp&nbsp<NOBR>(59 words)</NOBR></LI>
+<A HREF = "#18"><LI>  Reuters Holding PLC's Instinet Corp. subsidiary bought out</A>&nbsp&nbsp&nbsp<NOBR>(43 words)</NOBR></LI>
+<A HREF = "#19"><LI>  Micrognosis Inc. has consolidated its worldwide marketing</A>&nbsp&nbsp&nbsp<NOBR>(30 words)</NOBR></LI>
+<A HREF = "#20"><LI>  FTT Alphameric has stopped marketing its Marketphone turret</A>&nbsp&nbsp&nbsp<NOBR>(96 words)</NOBR></LI>
+<A HREF = "#21"><LI>  The Securities Industry Association submitted to Congress a</A>&nbsp&nbsp&nbsp<NOBR>(71 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>* ANNOUNCEMENT *</H3>
+<UL>
+<A HREF = "#22"><A HREF = "#22"><LI>WATERS INFORMATION SERVICES ANNOUNCES A TECHNOLOGY FORUM ON...&nbsp;TRADING ROOM INFRASTRUCTURE</A>&nbsp&nbsp&nbsp<NOBR>(147 words)</NOBR></LI>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+PRU-BACHE DRIVES MORTGAGE ANALYTICS
+WITH INTEL'S iPSC/860 SUPERCOMPUTER
+
+Prudential Bache Securities Inc. is retooling its fixed income
+analytics desk around Intel Corp.'s newly-announced iPSC/860
+supercomputer. The new parallel-processing supercomputer, which
+was unveiled at the World Trade Center on Jan. 8, utilizes up to
+128 of Intel's high-performance, 64-bit i860 microprocessors and
+can deliver up to 7.6 billion floating point operations per
+second (GFlops).
+
+  About a dozen of Pru-Bache's 400 traders and salesmen currently
+have access to applications running on an iPSC/2, a precursor of
+the new iPSC/860. "Over the next six to 12 months, all
+parallelizable, cpu-consumptive applications will be
+parallelized, and a large number of our traders and salesmen will
+be using them," says Vincent Pica, managing director of Pru-
+Bache's financial strategies group.
+
+  The IPSC/2, an 80386-based supercomputer, was installed at the
+investment firm's New York office in mid-1989. In April, the
+IPSC/2 will be upgraded to performance levels of the new
+iPSC/860. The upgrade will result in a iPSC/2-860 hybrid, one
+that uses eight i860s and 24 386 chips.
+
+  In parallel processing computers, problems are divided into
+many parts and executed simultaneously, resulting in execution
+times that far surpass serial or batch processing methods.
+
+  Pru-Bache claims it is the first securities firm to use the new
+generation of supercomputers from Intel. The new machines are the
+first commercial products resulting from the joint Intel-DARPA
+(Defense Advanced Research Project Agency) Touchstone project.
+Seeking to set new standards for supercomputer performance,
+Touchstone hopes to develop a 2000 processor, 150-GFlop machine
+by 1992.
+
+  The air-cooled iPSC/860 machine, with anywhere from eight to
+128 microprocessors, ranges in price from $265,000 to $3.5
+million. Intel claims that the new machine out-price-performs a
+comparable Y-MP supercomputer from Cray Research Inc. by a factor
+of 10.
+
+  Pru-Bache has been using the iPSC/2 machine as a server on its
+ethernet network which also links IBM mainframes, Digital
+Equipment Corp. VAX minicomputers and Sun Microsystems Inc.
+workstations. The initial applications fitted to the
+supercomputer have been geared toward the firm's mortgage-backed
+securities trading business, but future developments will address
+government and corporate bond analysis needs.
+
+  Current applications running on the iPSC/2 include the creation
+of collateralized mortgage obligations (CMOs) and predictive
+performance analysis. "There is an evolving need on the part of
+sophisticated clients to know how these securities will act over
+a wider range of interest-rate scenarios, requiring more fire
+power," says Pica. Last year Pru-Bache created over $13 billion
+worth of "engineered" securities, he says.
+
+  The high-speed capability of the Intel machine has prompted
+Pru-Bache to take on more arcane and computationally intensive
+functions, such as the tax arbitrage associated with CMO
+residuals. "Without the arbitrage values, while [an issue] may
+have a high yield before tax, it may have a very low yield after
+tax," Pica says.
+
+  After-tax residual calculations that once took 20 minutes to
+execute on the firm's DEC VAX now take 90 seconds on the Intel
+iPSC/2. And converting the residual program to run in the
+supercomputer's parallel processing environment required only 40
+lines of code.
+
+  The supercomputer is also being used to speed programs used in
+the analysis of adjustable-rate mortgage-backed securities. All
+the required software conversion -- including the development of
+parallel scheduling algorithms that allow multiple users to
+interact with the iPSC/2 simultaneously -- has been performed
+collectively by Pru-Bache and Intel.
+
+  Along with its low price, Intel hopes to win customers by
+covering all the compatibility bases. The iPSC/860 purportedly
+can be linked to DEC VAX, IBM and/or UNIX-based environments.
+TCP/IP and ethernet standards are also supported. The iPSC/860 is
+available with up to 2 gigabytes of RAM. Disk storage in excess
+of 100 gigabytes can be linked to the machine.
+
+  "With any parallel computer that's new, regardless of who the
+vendor is, you have the potential of being left high and dry with
+the technology," says William Anderson, executive vice president
+of information systems at Pru-Bache. He adds: "With Intel, at
+least from a chip point of view, they control the chip that makes
+it all happen. "
+
+  "We were familiar with [Intel's] management through previous
+associations," adds Pica. "We were impressed by their involvement
+with DARPA...and Intel had a natural advantage being the
+manufacturer of the both the 386 and 860 chip."
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+REUTERS TRADING SYSTEMS EXEC
+DEPARTS AFTER TRIARCH FIASCO
+
+  Reuters Holdings PLC and Mario Rosi, its global product group
+leader for trading room systems, have gone their separate ways.
+The break comes in the wake of the recent collapse of Reuters'
+bid to install its TRIARCH 2000 digital data distribution system
+at National Westminster Bank (TST, Oct. 9, 1989).
+
+  Rosi's departure was expected for some time -- the final straw
+being the Nat West fiasco, sources say. Revenues at Reuters' Rich
+subsidiary are said to have gone from about $150 million in 1987
+to $50 million in 1989. The 1989 total is said to include
+continuing service contract revenues of about $25 million, but
+not PRISM revenue because it isn't a U.S.-developed product.
+
+  Rosi was replaced by David Morgan, formerly Reuters'
+international marketing manager for trading room systems and
+Rosi's subordinate. Morgan could not be reached for comment.
+
+  Morgan's ascendance is said by insiders at Reuters to be a blow
+for Rich president Peter Leger. Like Rosi, Morgan will be based
+in London and report to David Ure, managing director of Reuters
+Europe, Middle East and Africa Ltd. As a product group leader,
+Morgan will also report to Andre Villeneuve, who chairs
+Reuters'international product planning committee in addition to
+his regional management responsibilities.
+
+  Sources say part of the reason Leger was passed over was that
+Ure wasn't willing to let North American management gain control
+of another product group. John Hull is product group leader for
+transactional services, and Buford Smith is product group leader
+for real time information.
+
+                       An Amicable Parting
+
+  A spokesman in Reuters' London office stated last week that
+Rosi "had resigned, effective immediately, for personal reasons."
+Sources at Reuters say the senior executive was offered the
+position of director of operations in Italy, an offer he flatly
+refused.
+
+  Reached by phone at his London home, Rosi corroborated Reuters'
+statement, saying that circumstances surrounding his departure
+were "totally" amicable. Asked if the failure of Triarch 2000 in
+any way contributed to his motives for leaving, he said "not at
+all....I decided the time was right to take on something new,
+different and more challenging." Rosi says he is looking into
+"several options" for employment in the industry, including
+"setting up my own company."
+
+  Though Reuters would not elaborate on the details of Rosi's
+departure, his Reuters stock holdings are likely to have been
+considerable. Executives were given shares of Reuters stock
+before the company went public; stock options have subsequently
+been offered over the past few years. Rosi had been with Reuters
+for 16 years.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+SEC SAYS RMJ'S OPTIONS
+SYSTEM IS NO EXCHANGE
+
+  The Securities and Exchange Commission has ruled that RMJ's
+Over-the-Counter Options Trading System is not an exchange and
+that Delta Government Options Corp., the system's clearing
+agency, can operate as such.
+
+  Last summer, the commission was ordered to define an exchange
+by a Chicago federal appeals court which heard a case the Chicago
+futures exchanges brought against the SEC (TST, Sept. 11, 1989).
+The court opinion was a key event in the futures exchanges'
+sustained legal campaign against the RMJ system, which they
+viewed as a competitive market.
+
+  A spokesman for the Chicago Mercantile Exchange says the
+exchange "will review the SEC rule and consult with the Chicago
+Board of Trade on future action we would take, if any." A CBOT
+official says the exchange won't decide what to do until the SEC
+issues an official order, expected this week.
+
+  The uninterrupted operation of RMJ's system hinged on the
+commission's ruling. Had the commission ruled that the system was
+an exchange subject to the Securities Exchange Act of 1934,
+operation of RMJ and Delta might have been temporarily stopped
+while appropriate registration was sought.
+
+  The ruling also paves the way for action on the SEC's proposed
+rule on proprietary trading systems (TST, Aug. 14, 1989), which
+the commission had shelved while pondering the RMJ case. The
+decision is likely to help sponsors of proprietary systems
+understand what innovations they can and can't make.
+
+  TST learned about key points discussed at the commission
+hearing, held on Jan. 5, although SEC officials won't discuss
+what was said until the commission issues an official order. The
+Chicago court order requires the commission to issue its order by
+Jan. 18, SEC officials say.
+
+  The key to the SEC's decision is that RMJ's system functions as
+a so-called billboard without intermediary market makers who
+continuously make a two-sided market, according to Stephen
+Lynner, president of RMJ Options Trading Corp., who attended the
+commission hearing. Says Lynner: "In the SEC's mind, what most
+clearly delineates an exchange in the rules and procedures
+imposed by its sponsors is a requirement that a subgroup of
+participants in the system make bids and offers on the securities
+in the system on a continuous basis. We don't have anything in
+our procedures that requires anybody to do that."
+
+  Instead, RMJ's billboard system "displays indications of
+interest of the price at which someone wants to buy or sell, but
+there is no requirement that anybody put up an offer." Indeed,
+many days have gone by, especially since the Chicago court issued
+its order last summer, when no participants have put up bids or
+offers, Lynner says.
+
+  The RMJ system advertises indications of interest to buy or
+sell, but executions are done by telephone. In the RMJ system, a
+potential buyer calls an RMJ broker to enter a bid into the
+system, which other system participants will see on dumb
+terminals. A potential seller calls the broker to indicate his
+interest. By phone, the broker confirms the deal with both
+parties and consummates the transaction with a keystroke.
+
+                       What's an Exchange?
+
+  During the commission hearing, which lasted over an hour, staff
+in the SEC's division of market regulation presented arguments to
+the commissioners about what constitutes an exchange, according
+to Lynner. He says that among the features the staff said
+distinguish RMJ's system from an exchange are the following: the
+absence of a physical trading floor; no concept of members who
+buy a seat; and the idea that the system's sponsor selects what
+securities will be traded.
+
+  But, says Lynner, the staff indicated that even "the presence
+of any of those things with a billboard doesn't turn the system
+into an exchange." Rather, he says, the SEC staff suggested that
+"the expectation of a two-sided market may draw the system into
+more of an exchange than a billboard."
+
+  Last summer's Chicago court order created a "dearth of
+interest" from the 23 participants in RMJ's market, Lynner says.
+Now that the SEC has ruled in RMJ's favor, Lynner expects
+transaction volume to pick up shortly. He says the system's
+screens are already "filling up with bids and offers," that
+spreads are tighter and that in general "people are spending more
+time with the system."
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+KAPITI AND AREGON JOIN FORCES
+IN MOVE SEEN AS CONSOLIDATION
+
+  U.K. financial software firms Aregon International Ltd. and
+Kapiti Ltd. have merged in what appears to be a shotgun wedding
+arranged by venture capital companies Advent Ltd. and Electra
+Investment Trust, which have stakes in both companies.
+
+  The combined company will operate under Kapiti's name. Barry
+Roberts, Aregon's managing director, becomes executive chairman
+of the combined company. Dick Willott remains as Kapiti's
+managing director. Sources say Aregon has been up for sale for
+some time.
+
+  Kapiti and Aregon have not crossed paths before at client
+installations, despite Kapiti's customer list of 500 institutions
+worldwide. Previous cooperative ventures thus didn't play a role
+in bringing the two parties together.
+
+  Sources at the newly combined company attribute the move to
+product synergies. But sources say it's more likely that
+investors Advent and Electra saw the merger as a means of
+maintaining product lines while reducing costs.
+
+  The move makes sense for Kapiti, which last year launched a
+front-office deal-capture module to its Equation back-office
+package. Customers balked at the module's primitive functionality
+and high price, sources say. Aregon's FIST, a digital feed
+handler and development toolkit, and its new TS-STAR decision
+support software could enhance Kapiti's credibility in the front
+office.
+
+                     Picture of Aregon Gray
+
+  But for Aregon, the picture is different. Aregon has been going
+through a bad patch lately, sources say, although the emergence
+of TS-STAR has sparked some market interest. Some of the
+company's problems are said to spring from its relationship with
+DEC.
+
+  Aregon, which has traditionally based its products on the
+VAX/VMS platform, has looked to DEC and in particular the
+company's DECtrade initiative as a vehicle to carry it into the
+market for large trading-room systems.
+
+  DEC, however, recently acquired the PriceWatch package from
+Security Pacific Corp.'s Sequor Group subsidiary. Both FIST and
+PriceWatch perform a similar function within DECtrade; they both
+manage incoming data feeds and deliver real-time market data to
+user positions. DEC's purchase of PriceWatch suggests it will be
+favored by DEC over FIST. Observers say Aregon regarded its
+involvement in DECtrade as "vital" to the company's future.
+
+  Aregon has attempted to widen its possible market through a
+marketing agreement with IBM (TST, Feb. 27, 1989). But that
+accord has yet to bear fruit.
+
+  The new Kapiti will post 1989 sales of more than 21 million
+pounds sterling and pretax profit of 3.5 million pounds sterling.
+The company's products will include Aregon's FIST and TS-STAR
+packages and Kapiti's Equation. The complementarity of the
+products, according to Jeremy Wood, executive director at Aregon,
+is "obvious."
+
+  Aregon says the merger gives it access to an international
+sales and marketing infrastructure that will improve distribution
+channels for its products. Aregon's two offices, in London and
+New York, will be merged with those of Kapiti. Kapiti, a supplier
+of back-office processing software primarily to foreign branches
+of major banks, will gain access to Aregon's client list of more
+than 20 trading institutions.
+
+                     It Couldn't Not Happen
+
+  Aregon's products cater to the front-office trading
+environment. FIST is a digital feed handler that features an
+applications development toolkit. U.S.-based users of the system
+include J.P. Morgan & Co., Goldman, Sachs & Co., Bankers Trust
+Co. and Citicorp, Wood says. TS-STAR is a recently launched
+analytics package that delivers easy-to-digest graphical
+representations of financial data relationships (TST, Nov. 6,
+1989).
+
+  Kapiti's Equation is a back-office processing system that
+covers all functions of a bank's international department or
+foreign branch office, including money markets and capital
+markets trade processing. According to Peter Nizich, senior vice
+president at Kapiti Inc. in New York, Equation "serves as the
+mainframe for the branch office." The package runs on an IBM
+AS/400 computer with user access via IBM PCs on a local area
+network. Users in the U.S. include First Interstate Bank and
+National Australia Bank.
+
+  Both Wood and Nizich agree that the merger is almost certain to
+result in the development of a front-to-back-office package. "I
+couldn't see how it couldn't," says Wood. Nizich is certain an
+interface between FIST and Equation is technologically possible
+and will be forthcoming.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+TGB SEEKS CAPITAL AFTER
+ASSETRONICS DEAL COLLAPSES
+
+  The purported acquisition of interdealer bond broker TGB Corp.
+by Assetronics is off, according to Henry Wattson, head of TGB.
+The deal was to have given Assetronics a 20% interest in the
+brokerage innovator. TGB's regulatory capital has dipped below
+requisite levels, resulting in a suspension of trading.
+
+  Reported in the trade press as a fait accompli, the acquisition
+failed because Assetronics and its founder Jerry Kaplan reneged
+on their buyout intentions, according to Wattson. Commenting on
+the reasons behind the aborted acquisition, Wattson says
+Assetronics' Kaplan "got cold feet."
+
+  A letter of intent had been signed by Assetronics, according to
+a source close to the deal, stating that the companies would
+effectively combine their resources. The agreement was terminated
+when "contingent conditions in the letter were not met", the
+source says.
+
+  Founded in 1988, TGB hoped to gain market share by slashing
+commissions and using technology to redefine the broker-trader
+relationship (TST, July 5, 1988). TGB brokers enter orders into
+an automatic order matching system, rather than executing trades
+by voice. TGB was partially capitalized by primary dealers and
+planned to generate income by selling transaction information.
+
+  Assetronics has no business or holdings except cash, and is
+looking for acquisitions and/or mergers, a source says.
+
+  With Wattson's proven track record in interdealer bond
+brokerage, TGB was widely regarded as a company to watch.
+Although TGB still is planning for the future, it is now mired in
+financial troubles. "As of yesterday we were $40,000 under-
+capitalized," Wattson said last week. "We ran out of regulatory
+capital."
+
+  "What we're trying to do right now is refinance," Wattson says.
+"TGB is close to finalizing a deal with another source of
+capital....we've got other irons in the fire." Details were not
+available. Until it comes up with the requisite funds, TGB is not
+permitted to function as an interdealer broker for any securities
+transactions.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "6"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+CBOE-AMEX STUDY REJECTS
+PHLX-PSE-NYSE FINDINGS
+
+  A new study on multiple listing of options strongly opposes the
+recommendations of an earlier study sponsored by the Pacific,
+Philadelphia and New York stock exchanges' task force. The study,
+commissioned by the Chicago Board Options Exchange and the
+American Stock Exchange, rejects the earlier study's proposed
+Options Market Integration System (OMINTS) (TST, Oct. 23, 1989)
+for multiple trading of options.
+
+  The exchanges' lack of cooperation has prompted Richard
+Breeden, chairman of the SEC, to force them to the negotiating
+table.
+
+  In a letter to exchange officials this week, Breeden has
+amended the planned rule change set to take place on Jan. 22
+(TST, June 5, 1989). The lottery system for newly-traded issues
+will be phased out as planned, but Breeden has decided to extend
+the ban on multiple listing of existing issues until the five
+exchanges sit down and discuss a plan for linking the exchanges.
+
+  The CBOE-AMEX study says OMINTS, a proposed intermarket order-
+routing system similar to the Intermarket Trading System (ITS)
+that has linked U.S. stock exchanges since 1978, is redundant,
+outdated and would not serve the best interests of investors.
+
+  The CBOE and AMEX are the largest U.S. options exchanges in
+terms of trading volume, with 44% and 30% of the market
+respectively. Philadelphia has 13%, the Pacific exchange 11% and
+the NYSE a 2% share.
+
+                       Staying Competitive
+
+  While Nicholas Giordano, president of the Philadelphia Stock
+Exchange defends OMINTS as "a logical first step," the authors of
+the CBOE-AMEX study say the system would "lock the market into an
+old concept that will significantly impair the ability to develop
+new and more advanced solutions later."
+
+  The new study questions the OMINTS feature which allows
+specialists to choose between meeting the best inter-exchange bid
+or offer, and thereby executing the order, and re-routing a
+customer order. The study says this reduces the immediacy of
+execution, and that the broker initiating the trade from his
+office should decide the final destination of a customer order.
+
+  This, the authors believe, will compel each market maker to
+maintain a competitive bid or offer, and thus help to keep the
+markets competitive and allow the investor to execute quickly and
+cost-effectively. Both studies claim to propose measures that
+will prevent market fragmentation -- the task forces's by
+implementing an integrated order-routing system and the CBOE-
+AMEX's by preserving competition.
+
+  The new study, jointly authored by Yakov Amihud, professor of
+finance at New York University's Stern School of Business and
+Haim Mendelson, professor of decision sciences and information
+systems at Stanford University's Graduate School of Business, was
+prepared in response to the SEC's white paper calling for
+comments on multiple listing of options. The Pacific-
+Philadelphia-New York study was executed by Tellefsen Consulting
+Group Inc.
+
+                         Looking Forward
+
+  In keeping with the CBOE and AMEX's desire to take a more
+forward-looking approach, the professors have released only an
+interim study. They will not release their final recommendations
+for a market integration system until after multiple trading
+commences, allowing the impact of multiple listing to be
+assessed.
+
+  In a letter to Chairman Breeden, Nicholas Giordano, president
+of the Philadelphia Stock Exchange, says the CBOE-AMEX study
+offers no "concrete alternatives to or legitimate criticisms of
+OMINTS" and therefore the members of the task force are convinced
+OMINTS is the best alternative.
+
+  Although the exchanges continue to argue over how to integrate
+the options markets, they all consider development of new pricing
+systems for their specialists a top priority.
+
+  Options specialists at the AMEX have started using The Options
+Pricing System (TOPS), a computerized options pricing model that
+updates prices as the underlying stock prices change. TOPS was
+jointly developed by the AMEX and David Bruce & Co., a Chicago
+financial software developer, and the Securities Industry
+Automation Corp.
+
+                        Faster is Better
+
+  Selected CBOE market makers have had an online analytical
+system installed. PC Auto Quote uses different pricing models to
+quickly calculate option prices (TST, Oct. 23, 1989). The pilot
+system uses IBM PS/2 terminals with touch sensitive screens and
+has been installed at three booths covering four equity options
+series. The exchange's floor procedure committee approved the
+installation of the pilot as a test to see if online systems help
+to increase order flow.
+
+  The Philadelphia Stock Exchange is also developing an auto-
+quote system for options specialists. The auto-quote system has
+been in use for a few years on the exchange's currency floor.
+Officials say the exchange hopes to have the entire options floor
+operational by April. The auto-quote system updates options
+prices as the underlying security moves. The exchange is also
+using software developed by David Bruce, but because the software
+will run on a high-powered workstation, exchange officials claim
+Philly market makers can update prices six times faster than
+users of Amex's TOPS system.
+
+  The Pacific Stock Exchange will have an auto-quote system tied
+to its online Pacific Options Exchange Trading System (POETS) to
+allow specialists to quickly update options prices.
+
+  The NYSE is in the process of installing an online automatic
+quote system for its specialists. The system will carry quotes
+for all issues traded on the NYSE.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "7"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+TELERATE PLANS BROKER VERSION
+OF TTS TO RIVAL REUTERS SYSTEM
+
+  In response to Reuters Holdings PLC's planned launch of its
+Dealing 2000-2 foreign exchange order-matching system, Telerate
+Inc. is developing a rival system that will preserve the role of
+the broker in the interbank market. Telerate has traditionally
+maintained close relationships with brokers, particularly with
+Cantor Fitzgerald & Co., which provides Telerate with U.S.
+government securities prices under an exclusive arrangement.
+
+  The proposed system will display executable, two-way prices
+contributed by foreign exchange brokers. Subscribers to
+Telerate's Trading Service (TTS) will be able to view and hit
+firm broker prices through their TTS slates instead of having to
+trade over the telephone. Telerate says it is talking to brokers
+about participating in the system but has yet to conclude a firm
+agreement.
+
+  The system will use the same worldwide network Telerate built
+to support TTS. Telerate says development of the system -- dubbed
+the Broker Version -- is 85% completed. The only upgrade required
+to access the new system will be installation of a color version
+of the monochrome TTS dealer slate. TTS is a conversational
+interbank trading service that competes with Reuters' Monitor
+Dealing and Dealing 2000 systems.
+
+  Dealing 2000-2, which is slated for rollout before the third
+quarter of this year, will make Reuters the sole intermediary for
+its own screen-based market. The system is expected to take some
+business away from the telephone-based forex broker market.
+
+  Telerate says its Broker Version will retain the existing
+broker structure of the over-the-counter foreign exchange market.
+In that structure, banks telephone brokers to get two-way prices
+on any currency combination. The brokers match sellers and
+buyers, taking a cut in the process.
+
+                      Black Boxes Premature
+
+  In more direct competition to Reuters' Dealing 2000-2 is RADAR,
+a black-box order-matching system under development by RADAR
+Financial L.P., a joint venture comprising MAI PLC, Euro Brokers
+Inc. and a number of as yet undisclosed partners (TST, Oct. 23,
+1989). But according to Jim Wiseman, chief designer of TTS,
+Telerate doesn't believe the foreign exchange market is ready for
+an anonymous black-box trading system.
+
+  A TTS user would access the Broker Version by hitting a field
+on his slate marked with the letter B. This would change the
+format of both the slate and the screen in front of the trader.
+The Broker Version slate shows the same function fields along the
+lower edge of the slate.
+
+  Above the function fields, the slate is divided horizontally
+into two segments. The lower segment contains the bank's own
+rates for selected currency pairs. The upper segment shows the
+best three broker bid and offer rates for the currency pair the
+trader is dealing in. The bids and offers are arranged in a
+pyramid formation, with the best bid and offer side by side at
+the top-center of the slate.
+
+                          Hit the Field
+
+  To hit a broker at a particular bid or offer, the trader
+touches the relevant field on his slate. At this point, the
+transaction is immediately executed, with the system
+automatically exchanging settlement details between the two
+parties. If the trader hit the best bid or offer on the slate,
+the previous second-best bid or offer moves to the top of the
+pyramid and the new third-best bid or offer joins the pyramid at
+the bottom. If the trader hits the second- or third-best bid or
+offer, the system automatically hits the best bid or offer at the
+same time and calculates the average rate for the transaction.
+
+  At the center of the pyramid is a field that displays details
+of the most recent three transactions the trader has completed
+that day. Included in the data are the identities of the
+counterparties with which the deals were struck. The trader is
+able to scroll up and down in this field, giving him access to
+transactions made earlier in the day.
+
+  Meanwhile, a fifth quadrant superimposed onto the center of the
+trader's screen displays the best three broker bids and offers in
+the system, plus the bank's own rates. An incoming call from a
+counterparty on the TTS network would automatically take
+precedence on the screen over the broker quadrant.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "8"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+STRATUS TOUTS JAPANESE
+DEAL STRUCK LAST SPRING
+
+  Security must be pretty tight in Japan these days, because
+Yamaichi Securities has only just allowed Stratus Computer Inc.
+to announce a $1.9 million deal the computer manufacturer struck
+last spring with Toshiba Engineering Co. Two of the three XA
+2000s Yamaichi acquired in the deal have actually been up and
+running since last summer.
+
+  A Stratus Computer Inc. press release dated Jan. 2 and sent to
+TST offices via Federal Express, fax and ordinary mail boldly
+claims: "Stratus wins $1.9 million contract to supply Yamaichi
+Securities with online trading system."
+
+  The third Stratus XA 2000, which was also delivered last
+summer, will support a trading system to be developed by systems
+integrator Toshiba for Yamaichi. Stratus' contract is actually
+with the systems integrator, which is developing the futures and
+options trading system that will run on Stratus computers at
+Yamaichi offices in Japan.
+
+                     Economic with the Facts
+
+  The release also says that "the Stratus-based system...is
+already online," distributing "real-time futures and options
+prices listed on the Tokyo Stock Exchange to Sun Workstations" on
+Yamaichi's trading floor and at branch offices.
+
+  A long discussion starting on page 2 of the press release
+describes in detail what seems to be a ticker plant, not a
+trading system. There is no further mention of the futures and
+options trading system in development.
+
+  A little investigation helped sort out the situation. Yes,
+Stratus assures us, the release does describe a ticker plant that
+uses Stratus technology, and that system has been in operation
+since the summer. A Stratus XA 2000 model 120 receives the
+prices, and a model 110 distributes the data to broker
+workstations, Stratus says. Yamaichi wanted a second machine to
+perform the ticker plant function usually performed by one
+because the firm plans to run other, as yet undisclosed
+applications on it, Stratus explains.
+
+  Now that the ticker plant is up and running, a trading system
+is being developed, Stratus says. The third Stratus, another
+model 120 Yamaichi got in last spring's deal, is being used by
+Toshiba Engineering to develop a new application for futures and
+options trading, Stratus says.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "9"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+TECHNOLOGY FORECASTING AND
+HUMAN FACTORS AT HP SEMINAR
+
+  Hewlett-Packard's recent seminar on Technological Challenges
+Facing the Securities Industry might well have been subtitled
+True Confessions of Trading Systems Design. Two speakers, Scott
+Abbey, managing director and head of worldwide operations for
+Morgan Stanley & Co., and George Kenney, senior vice president of
+O'Connor & Associates, offered unusually candid and informative
+presentations. The meeting was co-sponsored by Business Week.
+
+  Morgan Stanley does its share of strategic technology
+forecasting, striving to identify the shape of trading systems to
+come. Before airing his latest prognosis, Abbey turned the clock
+back five years to review Morgan Stanley's then-current vision of
+trading systems of the future.
+
+                    "What hasn't happened..."
+
+  * The attempt to satisfy all the trader's needs -- market data,
+position management, analytics etc. -- with a single device was
+"one of the driving forces" of Morgan Stanley's development
+effort in the early-to-mid 1980s. But it met with "tremendous
+resistance."
+
+  Not only was it difficult to create a single system as good at
+multiple applications as separate systems would be, but traders
+insisted on being able to see all their data all the time.
+
+  * Morgan Stanley had expected to see a reduction in the average
+number of devices per trader. Instead, the "tower of power" at
+many traders' desks is actually getting higher.
+
+  * Large screen devices with partitions -- like the IBM 3290
+plasma display -- were a hot prospect until Abbey & company found
+out that traders didn't like not being able to see over their
+terminals.
+
+  * Abbey and his team also looked into windowing systems on
+normal-sized displays, but traders were adamant about being able
+to see "all the information," so overlapped windows were
+discarded.
+
+  * He had expected much of the analytic workload to migrate from
+mainframes to workstations. Instead, "a lot of the MIPS on the
+desk" are being applied to the user interface.
+
+  Meanwhile, "a tremendous number of Lotus spreadsheets" have
+popped up on PCs. But PC power hasn't replaced any mainframes. In
+fact, there are even more mainframes, due to increased demand for
+local data collection, storage, processing and retrieval.
+
+                     "What Has Happened..."
+
+  * Five years ago, Abbey decided to pay the small incremental
+price of making his firm's terminals "graphics-capable." Today, a
+lot more graphics are being used at Morgan Stanley -- for
+spreads, trends and graphical user interfaces.
+
+  * There's been a significant increase in the use of internal
+data. Five or 10 years ago, capital markets traders used external
+(market) data almost exclusively. Today, more traders have access
+to position data, internal research and customer data.
+
+  * More interactive software is allowing traders greater
+flexibility in configuring and passing data among applications.
+
+                           What's Next
+
+  Undaunted by his spotty forecasting track record, Abbey went on
+to share his predictions for the next five years.
+
+  * The availability of high resolution intermediate-sized (12"-
+15") monitors will result in increased use of windowing
+interfaces and mice. The higher resolution and larger size will
+satisfy traders' need to see all their data, while the shape of
+the monitors won't obstruct vision.
+
+  * Mainframe applications developed for the batch environment
+will continue to be grandfathered -- partly because of the
+investment in new applications that talk to the old ones, and
+partly because of the need to amortize the old applications
+themselves. Systems designers, Abbey seems to say, will continue
+to be held hostage by financial inertia.
+
+  This prediction may hold more meaning for Morgan Stanley -- as
+developers and users of the omnipurpose, mainframe-based Tradepro
+trade processing behemoth -- than for other firms.
+
+  * Workstations will be the focal point for integration of data
+from heterogeneous in-house mainframes as well as outside data
+sources. Morgan Stanley has devoted a lot of resources to develop
+connectivity software that will allow workstations to run
+applications that crunch data from remote, mainframe databases.
+
+  * Some of the incremental power of new workstations will
+support more sophisticated graphical user interfaces. For a 15 or
+25 MIP machine, says Abbey, one to three MIPS of window
+management is insignificant.
+
+  * A lot of money will be wasted on workstations simply because
+they're sexy and the salesman does a good job, and because buyers
+look at the one-off cost rather than quantity.
+
+  * Another dumpster load of money will be wasted because people
+don't understand how to build distributed systems. "Despite what
+anybody says," says Abbey, "I don't believe that that technology
+exists and is widely understood."
+
+  Abbey believes it will take a lot of blood, sweat and tears,
+thousands of programming hours and "not a lot of profits" to make
+a distributed system work. But he believes the investment is
+necessary. "There's no way around it; we have to fail and we have
+to stand up to our management and say, this is why we have to do
+it."
+
+                     The Facts of Half-Life
+
+  Now with O'Connor, George Kenney came from the American Stock
+Exchange where he guided the development of a theoretical options
+pricing system (TOPS). The system was developed, Kenney says,
+because specialists on the floor of the Chicago Board Options
+Exchange were consistently out-quoting the AMEX specialists.
+Kenney's AMEX experience left him with a healthy respect for the
+human and political factors of systems design.
+
+  The first duty of a trading systems designer, according to
+Kenney, is to survive long enough to complete a project.
+Unfortunately, "the time it takes to implement and design an
+architecture greatly exceeds the half-life of MIS directors."
+
+  At the AMEX, Kenney lasted two years. His successor, says
+Kenney, must decide whether to complete the project Kenney
+started or throw it away or do something that will have his name
+on it. Kenney advises systems architects to make a "sober
+assessment of the political climate, both yours personally and
+that of the firm."
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "10"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+TECHNOLOGY FORCASTING
+PART TWO
+
+                     Consider the Lowly User
+
+  But the biggest challenge facing the systems designer, says
+Kenney, is making "the impedance match between these great
+systems you're spending all this money to design and this poor
+user who has to use it."
+
+  Kenney had just come from visiting the New York offices of his
+new employer. And while praising O'Connor's "tremendous
+technology," he also points out that "a lot of the users really
+don't know how to turn the systems on, so 95% of the sparkle that
+system can deliver is really lost."
+
+  Systems designers, says Kenney, are the least qualified people
+to make the match between systems and users because they think
+differently from users. Designers, for example, are comfortable
+with "hidden information," while users are not.
+
+  Kenney told of a brief encounter with one AMEX specialist
+during tests of an electronic display book. The specialist
+remarked, You see this ticket? I can touch it. I can smell it,
+and I trust it. And I don't trust this electronic book. You'll
+sneak orders into it and I'll never know about them.'
+
+                       Eggheads Under Fire
+
+  Systems designers, according to Kenney, don't like talking to
+users. Instead, they like to deal with system specifications.
+"They get the specs and then go hide behind them and design their
+system and then they sort of throw it over the wall," said
+Kenney.
+
+  Talking to users is "very painful" for systems designers,
+according to Kenney. "It takes time -- time away from valuable
+design." Kenney likens the state of computer systems design to
+automotive engineering in the 1940s.
+
+  Apropos of systems design, Kenney acknowledges his intellectual
+debt to John D. Gould, a human factors scientist at IBM's
+Hawthorne, New York research center. Gould's paper, "How to
+Design Usable Systems," will appear as a chapter in the "Handbook
+of Human-Computer Interaction" edited by Martin Helander and to
+be published by North-Holland Press.
+
+  The Gould paper describes "good computer systems" as "easy to
+learn, easy to use, contain[ing] the... functions that allow
+people to do the things they want to do, and that are well-
+liked." To meet these goals, Gould says designers should learn to
+pay more attention to users and the user interface throughout the
+design process.
+
+                  How to Design Usable Systems
+
+  Several clever tactics for increasing user orientation -- both
+in the conceptual and testing phases -- are advocated by Gould,
+including:
+
+  * Begin writing the user manual before any code is written --
+in some cases the draft user manual can become the definitive
+design document;
+
+  * Define explicit behavioral targets (not MIPS or I/O rates)
+for systems performance and test for them. A behavioral goal
+might be, after an hour's unsupervised exposure to the system, a
+trader must be able to execute 10 trades, accurately enter the
+trade data, and check his position, in two minutes';
+
+  * Eliminate intermediaries, such as marketing research people,
+between systems designers and users;
+
+  * While observing users, ask them to think aloud about what
+they are doing as they are doing it;
+
+  * Schedule design meetings in users' work areas;
+
+  * Observe and videotape users in their work environment --
+videotapes "are often much more convincing than charts and oral
+reports;
+
+  * Include users on the design team -- participative design
+improves the probability of user acceptance;
+
+  * Sketch user scenarios and show them to the design team to
+provoke arguments about the user interface;
+
+  * Create mock-ups and simulations -- one group simulated a
+"listening typewriter" by having a concealed typist enter what
+users said.
+
+                   Living in a "Sea of Change"
+
+  Like Kenney, Gould accuses systems designers of avoiding
+contact with users whenever possible. As a result, designers tend
+to design systems to satisfy themselves, not users. "Smart
+systems designers like to build projects that have high
+intellectual content," says Kenney.
+
+  Gould also thinks designers must learn to embrace failure in
+order to succeed. Since nobody, no matter how gifted, gets it
+right the first time, designers must commit to an iterative
+process, says Gould, and be willing to work in the midst of a
+"sea of change."
+
+  Of course, an iterative design process is only possible with
+the right tools. Gould acknowledges the need for a user interface
+management system (UIMS).
+
+  The UIMS, says Gould, "provides for a well defined interface
+between that portion of the code that contains the user interface
+and that portion of the code that implements the functions of the
+user interface." Gould cites "Apollo Computer's ADM" and
+"Cosmic's (NASA software) TAE" as examples of commercially
+available UIMSs.
+
+                      Off the Drawing Board
+
+  Kenney actually used some of Gould's techniques while
+developing AMEX's TOPS. He hired two industrial psychologists who
+spent three months gaining the confidence of the specialists and
+developing a model of the user interface. He formed a users
+committee and developed story boards depicting user scenarios. He
+designed a mock-up of a custom keyboard, and prototyped a
+simulator for users on a PC.
+
+  "The users were becoming authors; they became invested in the
+system," says Kenney. "And user satisfaction is key to the
+survivability of the MIS director." Key, but no guarantee.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "11"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  Jan. 18 -- Introduction to Real-Time Financial Market Data presented
+
+  Jan. 18 -- Introduction to Real-Time Financial Market Data presented
+by Waters Information Services; New York. Call (607) 772-8086.
+
+  Jan. 22-25 -- UNIX in the 90s - Decade of the User presented by
+UniForum; Washington, D.C. Call Ed Palmer (408) 986-8840.
+
+  Jan. 22-26 -- Winter 1990 USENIX Technical Conference sponsored by
+Washington Technical Program, Software Engineering Institute and
+Carnegie Mellon University; Washington, D.C. Call Daniel Klein
+(412) 268-7791.
+
+  Jan. 28-31 -- 1990 Swiss Options and Financial Futures Investment
+Conference sponsored by SOFFEX and MATIF; Interlaken,
+Switzerland. Call Daphne Rohr 011-411-241-3114.
+
+  Jan. 30 -- UNIX Solutions for Financial Services sponsored by Oracle
+Corp.; New York. Call (800) 345-3267 ext. 140.
+
+  Jan. 30-31 -- Quantitative Investment Management sponsored by
+Institute for International Research; New York. Call (212) 883-
+1770.
+
+  Jan. 31-Feb.2 -- FIA/Sydney Futures Exchange Second Annual Asia
+Pacific Conference sponsored by the Futures Industry Association;
+Sydney, Australia. Call (202) 266-5460.
+
+  Feb. 5-8 -- CN '90 sponsored by Communications Networks; Washington,
+D.C. Call (800) 225-4698.
+
+  Feb. 7-10 -- Risk Management: Applications for the 1990s sponsored
+by the Chicago Board Options Exchange and the Chicago Board of
+Trade; Naples, Fla. Call (312) 786-7764 or (312) 435-4687.
+
+  Feb. 12-13 -- Fourth Annual Conference on Integrating Trading
+Technologies presented by Institute for International Research;
+New York. Call (212) 883-1770.
+
+  Feb. 12-15 -- Networld '90 Boston presented by H.A. Bruno Inc.;
+Boston. Call (201) 569-8542.
+
+  Feb. 15-Introduction to Market Data sponsored by Waters
+Information Services; New York. Call (607) 772-8086.
+
+  Feb. 22-23 -- 1990 ACM 18th Annual Computer Science Conference
+sponsored by Association for Computing Machinery; Washington,
+D.C. Call (703) 323-2318.
+
+  March 7-8 -- Digital Market Data Feeds sponsored by Waters
+Information Services; New York. Call (607) 772-8086.
+
+  March 7-10 -- FIA's 15th Anniversary National Futures Industry
+Conference sponsored by Futures Industry Association; Boca Raton,
+Fla. Call (202) 466-5460.
+
+  March 18-21 -- 8th International Conference Telecommunications and
+the Challenge of Innovation and Global Competition sponsored by
+Societa Italiana per l'Esercizio delle Telecomunicazioni; Venice,
+Italy. Call 39-41-5238440.
+
+  March 19-20 -- The Effective Investment Bank presented by Blenheim
+Online Ltd.; London. Call Sara Hawkes 011-441-868-4466.
+
+  March 29 -- Trading Room Infrastructure sponsored by Waters
+Information Services; New York. Call (607) 772-8086.
+
+  March 29-30 -- VOICE '90 Conference & Exposition sponsored by
+Information Publishing Corp.; Anaheim, Calif. Call (713) 974-
+6637.
+
+  Apr. 25-26 -- Automating the Exchange of the '90s presented by Waters
+Informations Services; New York. Call (607) 772-8086.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "12"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  Sydney-based B.S. Microcomp Software Ltd. Pty. is up for sale
+
+  Sydney-based B.S. Microcomp Software Ltd. Pty. is up for sale
+after being placed in the hands of receivers, sources say. The
+sources say Microcomp incurred large debts as it overstocked with
+inventory, much of which became obsolete. IBM and Australian firm
+Imagineering Ltd. are reportedly interested in acquiring the
+company, which developed the DR-one dealing-room system. IBM
+already has marketing agreements with Microcomp covering the
+Japanese and North American markets. Under its agreement with
+IBM, Microcomp sold DR-one to the Bank of Montreal in Toronto.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "13"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  Harvey Gerson, formerly general manager, North America, with
+
+  Harvey Gerson, formerly general manager, North America, with
+U.K.-based systems integrator Data Logic Inc., accepted the
+position of vice president, sales and marketing, with Decision
+Software Inc.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "14"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  The Chicago Board Options Exchange expanded eligibility in its
+
+  The Chicago Board Options Exchange expanded eligibility in its
+Retail Automatic Execution System (RAES) to up to 10 contracts in
+the most active and second months of all contracts. The previous
+limit was five contracts.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "15"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  The office of the Japanese Minister of Finance (MOF) has ruled
+
+  The office of the Japanese Minister of Finance (MOF) has ruled
+to allow overseas branches of Japanese banks to hook up with
+Globex when trading on the electronic futures trading system
+begins. Officials at the Chicago Mercantile Exchange expect
+trading to start by mid-1990 (TST, Nov.6, 1989). The CME and the
+MOF are still in talks about allowing the terminals into trading
+rooms in Japan. A U.S. Treasury Department spokeswoman says: "The
+Globex issue is important and the Treasury Department hopes and
+expects that the MOF and the CME will come to an agreement."
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "16"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  Peter Kingsley has resigned as vice president, international
+
+  Peter Kingsley has resigned as vice president, international
+operations, at Quotron Systems Inc. to rejoin Reuters Holdings
+PLC as product quality controller for Europe, Middle East and
+Africa. He will report to John Stephens, deputy managing director
+of REMA. Kingsley left Reuters in late 1987 to join Quotron.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "17"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  Hua Nan Commercial Bank Ltd. and First Commercial Bank, both
+
+  Hua Nan Commercial Bank Ltd. and First Commercial Bank, both
+based in Taiwan, have purchased IBS-90 banking software from
+Winter Partners Inc. IBS-90 supports trading activities in
+foreign exchange, money market and fixed income. It also features
+position-keeping and profit and loss reporting. Both banks have
+plans to open U.S. branches as part of reforms taking place in
+Taiwan.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "18"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  Reuters Holding PLC's Instinet Corp. subsidiary bought out
+
+  Reuters Holding PLC's Instinet Corp. subsidiary bought out
+Plexus Group's marketing rights for their Crossing Network joint
+venture. Terms weren't disclosed. Under a five-year marketing
+agreement, Plexus handled marketing and client training, while
+Instinet was responsible for operations and development of the
+system.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "19"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  Micrognosis Inc. has consolidated its worldwide marketing
+
+  Micrognosis Inc. has consolidated its worldwide marketing
+operation in California under James L. Williams, vice president,
+marketing. Janet Wood, former European marketing manager based in
+London, has left the company.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "20"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  FTT Alphameric has stopped marketing its Marketphone turret
+
+  FTT Alphameric has stopped marketing its Marketphone turret
+product, which it acquired when it bought Financial Trading
+Technologies in late 1988, sources say. Gene Ryan, FTT marketing
+manager in New York, didn't return calls seeking confirmation.
+Meanwhile, Alphameric's proposed acquisition of Tantus
+Microsystems Ltd., a software development house, is in question
+after indications that performance criteria on which the deal is
+contingent may not be met. Alphameric posted a loss in the first
+six months ended Sept. 30 of 2.5 million pounds sterling,
+compared with a deficit of 514,000 pounds sterling in the year-
+earlier period.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "21"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+  The Securities Industry Association submitted to Congress a
+
+  The Securities Industry Association submitted to Congress a
+list of recommendations to "restore public confidence" in the
+securities markets. The SIA recommended that a single entity,
+namely the Securities Exchange Commission, be designated to
+regulate equity and equity-related products. The SIA also
+recommended that the Federal Reserve be responsible for setting
+margins for equity and equity-related products. The
+recommendations come amid public concern over program trading and
+its effect on volatility.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "22"></A>Copyright
+TRADING SYSTEMS TECHNOLOGY via NewsNet
+January 15, 1990
+
+WATERS INFORMATION SERVICES ANNOUNCES A TECHNOLOGY FORUM ON...
+TRADING ROOM INFRASTRUCTURE
+
+                  Trading Room Infrastructure:
+            Strategic Choices for Network Transport,
+            Operating System, and Database Software
+
+                 Windows on the World, New York
+
+                         March 29, 1990
+
+  In 1990, Wall Street's most significant technology decisions
+will focus on distributed system infrastructure -- the choice of
+network, operating system and database software. These decisions
+will affect a firm's ability to use future vendor offerings for
+market data and trading applications. They may also determine
+whether the firm can afford to acquire or develop new
+applications.
+
+  Focusing on user strategy for systems technology, Trading Room
+Infrastructure brings together chief techologists and product
+managers from systems integrators, hardware vendors, market data
+firms, application software vendors and user firms. If you are a
+professional planning your firm's infrastructure, you must not
+miss this unique opportunity to test your assumptions and enhance
+your view of industry trends.
+
+               Call 607-772-8086 for information.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,579 @@
+
+<DOC>
+<DOCNO>WT03-B16-10</DOCNO>
+<DOCOLDNO>IA074-000483-B008-281</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg013.html 128.125.48.102 19970125004431 text/html 23772
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:43:06 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 23540
+Last-Modified: Wed, 15 Jan 1997 02:01:30 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDROWNCA" HREF="icswg012.html#PToC_792">Acting as a certification authority for a private Web network</A></H1>
+<P>
+To conduct commercial business on the Internet, you will want
+to get a secure server certificate
+from a widely known certification authority (CA),
+such as VeriSign.
+<P>
+You may, however, have a project for your company,
+university, or group where you want to act as your own CA for
+a private Web network.
+The Internet Connection Secure Server allows you to be your own CA.
+As a CA, you will use a utility called certutil,
+which is provided with the Internet Connection Secure Server, to create signed certificates.
+However, clients must have browsers, such as Secure WebExplorer or
+Netscape Navigator,
+that can receive your CA certificate and designate it as a
+trusted root.
+<P>
+<P><B>Note: </B>Your use of this utility is limited to directly certifying end user
+to end user exchange of data.  You are not authorized to issue
+certificates to third parties or allow others to do so, or to use
+this utility for any other purpose.
+<P>
+This chapter tells you how to become your own CA and then how to
+process certificate requests as a CA.
+<P>
+<P><A HREF="icswgmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_793 HREF="#HDRHOWTOCA" >Becoming a CA</A>
+<MENU>
+<LI><A NAME=PToC_794 HREF="#HDRCKRC" >Create CA's public-private key pair and request CA's certificate</A>
+<LI><A NAME=PToC_795 HREF="#HDRRECCA" >Receive CA's certificate</A>
+<LI><A NAME=PToC_796 HREF="#Header_796" >Designate the CA key as a trusted root</A>
+</MENU>
+<LI><A NAME=PToC_797 HREF="#HDRPROCCA" >Processing certificates as a CA</A>
+<MENU>
+<LI><A NAME=PToC_798 HREF="#Header_798" >Use certutil command to process client and server certificates</A>
+</MENU></MENU><HR><P>
+<HR>
+<H2><A NAME="HDRHOWTOCA" HREF="#PToC_793">Becoming a CA</A></H2>
+<P>
+Your job as CA is to verify that a certificate should
+be issued for a client or server.
+You need to make sure that the person making the request has
+a legitimate claim to the name in the request.
+For example, if your company is working on a top secret project,
+your issuance of a certificate can give a person access to top
+secret information.
+<P>
+After you have verified a person's claim, you will use
+the certutil command to
+process the certificate request.
+The output from the certutil command is a certificate
+signed with your CA private key.
+<P>
+After you verify that the information in the certificate
+created by certutil is correct, you will:
+<UL>
+<P><LI>Send your CA certificate to the client or server for whom
+you're acting as CA.
+The client or server needs to receive your CA certificate and
+designate it as a trusted root.
+<P><LI>Send the client or server its certificate, which you processed
+as a CA.
+The client or server needs to receive its certificate into its key ring
+after it has received the CA certificate and designated it as a
+trusted root.
+</UL>
+<P>
+Before you can process certificate requests as a CA, you need to do the
+following to become a CA:
+<UL>
+<P><LI>Create your CA public-private key pair and request a
+CA certificate
+<P><LI>Receive your CA certificate (which is the same as the CA certificate
+request) into your CA key ring
+<P><LI>Designate your CA key as a trusted root
+</UL>
+<P>
+You must carefully protect your CA private key.
+If it is compromised, then all the certificates you've issued
+will also be compromised.
+<P>
+<H3><A NAME="HDRCKRC" HREF="#PToC_794">Create CA's public-private key pair and request CA's certificate</A></H3>
+<P>
+This chapter describes how to use
+the Create Key and Request Certificate form to create your CA
+public-private key pair and request your CA certificate.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b09.gif" ALT="* Figure icsl0b09 not displayed."><BR></B><BR>
+<P>
+<OL>
+<P><LI>Choose <B>Other</B>.
+<P><LI>Click <B>Apply</B> to process this part of the Create Key
+and Request Certificate form.
+The Other Certificate form appears.
+<P><LI>Use <B>Create Key</B> to create your CA key pair.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o12.gif" ALT="* Figure icsl0o12 not displayed."><BR></B><BR>
+<P>
+<P><B>Specify Key name</B>:
+Specify a meaningful, unique name to identify your CA key pair.
+The key name is the label that identifies
+the key pair and certificate in the key ring.
+You may use non-alphanumeric characters in key names; however,
+keep in mind that some platforms have special uses for some of
+these characters.
+<P><B>Specify Key ring</B>:
+Specify the fully qualified path and file name for the key ring file.
+It's best to use a separate key ring to keep your CA key pair.
+If you specify a file that doesn't exist for key ring, the
+server creates the file for you.
+<P><B>Specify the Size of the Key Pair</B>:
+Your private CA key will be used to sign the server and client
+certificates you process as CA.
+Your CA public key will be used by those clients and servers to
+verify your CA signature.
+The larger the CA key pair, the more secure the key pair will be.
+If the CA private key is compromised, then all the certificates
+issued by the CA are also compromised.
+<P><LI><B>Specify a Password</B>:
+Use this part of the form to specify the password
+that protects your CA key ring.
+You should keep your CA keys in a separate key ring
+with its own password.
+If your CA private key is compromised,
+then all the certificates you've issued
+as a CA are also compromised.
+<P>
+The password must be from the U.S. English character set.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b10.gif" ALT="* Figure icsl0b10 not displayed."><BR></B><BR>
+<P>
+<P>
+The security of your CA private key, which is used to sign the
+client and server certificates you process as a CA, depends
+upon this password.
+Here are some commonly accepted rules for specifying passwords:
+<UL COMPACT>
+<LI>Make the password at least six characters.
+<LI>Make sure the password doesn't spell a word.
+<LI>Make sure the password doesn't consist of publicly
+obtainable information about
+you; for example, the initials and birth date for you, your spouse,
+or children.
+<LI>Include at least two, nonconsecutive numbers in the password.
+</UL>
+<P>
+Type the password twice to ensure that you have typed
+it correctly.
+<P>
+If you must record the password, make sure it is stored in a
+well-secured place.
+<P>
+If, as recommended, you put your CA key pair on a separate key
+ring, do <B>not</B> check <B>Automatic
+Login</B> to stash the password for the CA key ring.
+<P><LI><B>Specify Distinguished Name</B>:
+Specify the Distinguished Name you want associated with your
+CA certificate and used to identify your CA public key.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b11.gif" ALT="* Figure icsl0b11 not displayed."><BR></B><BR>
+<P>
+Provide the following information for Distinguished Name:
+<UL COMPACT>
+<LI>Server Name:  Usually the X.509 common name of the server,
+which is usually the TCP/IP fully qualified host name;
+for example, www.ibm.com.
+<LI>Optionally, Organizational Unit
+<LI>Organization
+<LI>Optionally, Locality or City
+<LI>At least <B>three</B> characters for State or Province
+<LI>Postal code or zip code.
+<LI>The two-character country code for the country in which the
+server resides
+</UL>
+<P><LI>Don't specify <B>User's e-mail address</B>.
+<P><LI><B>Specify Mailing Option</B>:
+Choose <B>Don't mail</B>.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b12.gif" ALT="* Figure icsl0b12 not displayed."><BR></B><BR>
+<P>
+<P><LI><B>Save Your Certificate Request</B>:
+Save your CA certificate
+request in a unique file.
+The server creates the file for you.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o13.gif" ALT="* Figure icsl0o13 not displayed."><BR></B><BR>
+<P>
+<P><LI>Check your form and make sure you entered each item correctly.
+<P><LI>Click <B>Apply</B> to process the form.
+You receive a Confirmation that the form was successfully processed.
+<P>
+The server:
+<UL>
+<P><LI>Stores the key pair in an encrypted format on the key ring.
+<P><LI>Creates the certificate request and stores it in the file
+you specified.
+</UL>
+</OL>
+Next, you need to receive your CA certificate request.
+<P>
+<H3><A NAME="HDRRECCA" HREF="#PToC_795">Receive CA's certificate</A></H3>
+<P>
+Use the Receive Certificate form to
+receive the CA certificate request that you saved.
+The CA's certificate is the same as the certificate request.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o14.gif" ALT="* Figure icsl0o14 not displayed."><BR></B><BR>
+<P>
+<OL>
+<P><LI>Provide:
+<P><B>Name of file containing certificate</B>:  The
+fully qualified path and file name of the
+file in which you saved the CA certificate request (<B>Save
+certificate request to file</B> on the Create Key and
+Request Certificate form).
+<P><B>Key ring</B>:  The fully qualified path and file name of
+the key ring you specified on the
+Create Key and Request Certificate form for
+your CA certificate.
+<P><B>Key ring password</B>:  The password you specified on the
+Create Key and Request Certificate form for your CA
+key ring.
+<P><LI>Check your form and make sure you entered each item correctly.
+<P><LI>Click <B>Apply</B> to process the form.
+You receive a Confirmation that the form was successfully processed.
+<P>
+The server stores your CA certificate in the CA key ring.
+It is referenced in the key ring with the
+<B>key name</B> you specified on the Create Key
+and Request Certificate form.
+</OL>
+<P>
+You now have your CA certificate
+(also known as a self-signed certificate)
+signed with your
+CA private key in your CA key ring.
+<P>
+Next, the CA key needs to be a trusted root on the server.
+<P>
+<H3><A NAME="Header_796" HREF="#PToC_796">Designate the CA key as a trusted root</A></H3>
+<P>
+Use the Key Management form.
+<P>
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o15.gif" ALT="* Figure icsl0o15 not displayed."><BR></B><BR>
+<P>
+<OL>
+<P><LI>Check the key ring file name shown on this form.
+If it is not the key ring that contains your CA key,
+go to the Security Configuration form
+and designate your CA key ring as the current key ring.
+After you receive your confirmation message,
+come back to the Key Management form, which should show
+the CA key ring as the current key ring.
+<P><LI>Specify the key ring password for the CA key.
+<P><LI>Choose the option <B>Designate Trusted Root Keys</B>.
+<P><LI>Click <B>Apply</B> to process the form.
+The Designate Trusted Root Keys form appears.
+</OL>
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o16.gif" ALT="* Figure icsl0o16 not displayed."><BR></B><BR>
+<P>
+<P>
+<P>
+On the Designate Trusted Root Keys form:
+<OL>
+<P><LI>Select the name of the CA key.
+<P><LI>Click <B>Apply</B> to process the form.
+You receive a Confirmation that the form was successfully processed.
+<P><LI>If you have a
+key ring that contains keys the server uses for secure
+network communications, it should be the current key ring.
+You can use the Security Configuration form to designate
+the server's key ring as the current key ring.
+</OL>
+<P>
+Now, you are ready to process the certificate request for clients and
+servers.
+<HR>
+<H2><A NAME="HDRPROCCA" HREF="#PToC_797">Processing certificates as a CA</A></H2>
+<P>
+After you have created your CA key pair, obtained your CA certificate,
+and designated your CA public key as a trusted root, you are ready
+to act as a CA and process certificates
+for this server and for other servers and
+clients.
+<P>
+Servers can use the Configuration and Administration forms
+to create their public-private key pair and request their
+certificate.
+They should use the Other Certificate form.
+If you provide them with your e-mail address, they can specify
+it on the form and have the certificate request electronically
+mailed to you.
+Or, they can save the certificate request in a file and
+electronically mail it to you later.
+<P>
+Some browsers, such as Secure WebExplorer and Netscape Navigator,
+allow clients to create their public-private
+key pair and request their certificate.
+Clients can electronically mail their certificate requests to
+you.
+<P>
+Some e-mail programs may alter files and should not be used
+to send or receive certificate requests or certificates.
+For example, some programs may pad the lines of the certificate
+request or certificate with blanks and invalidate it.
+<P>
+To process certificates for clients and servers, you will:
+<UL>
+<P><LI>Receive certificate requests from clients and servers and verify
+that the person making the request has a legitimate claim to the
+name in the request.
+<P><LI>Use the certutil command to process the certificate request.
+The output
+from the certutil command is a certificate signed with your CA private
+key.
+<P><LI>Check the information printed in the output file and verify
+to whom the certificate is being issued before sending it
+to the client or server.
+<P><LI>Send the client or server:
+<UL>
+<P><LI>Your CA certificate.  This certificate must be received into the
+key ring of the client or server and then designated as a trusted
+root.
+<P><LI>The client or server certificate that was processed by you as CA.
+After the client or server has received the CA certificate into its
+key ring and designated it as a trusted root, the client or server
+can receive its certificate into the key ring.
+</UL>
+</UL>
+<P>
+Then, the client or server can use the certificate you created as a
+CA to communicate securely with other clients and servers within
+your private Web network.
+<P>
+<H3><A NAME="Header_798" HREF="#PToC_798">Use certutil command to process client and server certificates</A></H3>
+<P>
+Use the certutil command to process certificate requests for the clients
+and servers for whom you're acting as CA.
+The output of the certutil command is
+a client or server certificate that has been
+signed with your private CA key.
+<P>
+Before using the certutil command, verify that the person making
+the request has a valid claim to the name in the request.
+<P>
+<H5><A NAME="Header_799">Format</A></H5>
+<P>
+<PRE>
+certutil &#91;-p <VAR>validity-period</VAR>&#93; &#91;-k <VAR>ca-key-ring</VAR>&#93; &lt; <VAR>cert-req-file</VAR> &gt; <VAR>cert-file-name</VAR>
+</PRE>
+<UL>
+<P><LI><VAR>validity-period</VAR> can be 1 to 9999
+for the number of days the certificate is valid.
+If you don't specify <VAR>validity-period</VAR>,
+the default is 365 days.
+<P><LI><VAR>ca-key-ring</VAR> is the fully qualified path and file
+name you specified for the CA <B>Key ring</B> on
+the Create Key and Request Certificate form.
+If you don't specify <VAR>ca-key-ring</VAR>,
+the default is keyfile.kyr.
+<P><LI><VAR>cert-req-file</VAR> is the fully qualified path and file
+name of the file that
+contains the client or server certificate you are processing.
+For clients or servers who mail their certificate request to
+you through e-mail, it is the file into which you received the
+certificate request with your e-mail program.
+For a certificate for this server, it is the file you specified
+for
+<B>Save certificate request to file</B> on the Create Key
+and Request Certificate form when you were requesting the
+server certificate.
+<P><LI><VAR>cert-file-name</VAR> is the unique, fully qualified path
+and file name of the output file where you want to
+put the signed certificate created by the certutil command.
+</UL>
+<P>
+<H5><A NAME="Header_800">Example</A></H5>
+<P>
+<PRE>
+certutil -p 730 -k D:/WWW/BIN/cakeyfil.kyr &lt; D:/WWW/BIN/CertReq.txt
+&gt; D:/WWW/BIN/Cert.txt
+</PRE>
+<P>
+<P><B>Note: </B>The certutil command should be on one line.
+It is shown on more than one line because of formatting.
+<P>
+After you enter the command, you are prompted for
+the password of the key ring that has the CA key.
+<P>
+If certutil cannot create the signed certificate, you will get
+an error message.
+<P>
+It's a good idea to check the output file and verify
+that the certificate correctly states to whom it is being issued.
+<P>
+What you do next depends on whose certificate you are processing:
+<UL>
+<P><LI>If you are processing this server's certificate, go to
+<A HREF="#HDRSERCERT">"Receive certificate for this server"</A>.
+<P><LI>If you are processing certificates for other servers or
+clients, go to <A HREF="#HDRCLCERT">"Send clients and other servers their processed certificates"</A>.
+</UL>
+<P>
+<H4><A NAME="HDRSERCERT">Receive certificate for this server</A></H4>
+<P>
+If you are processing this server's certificate, you need to:
+<OL>
+<P><LI>Use the Receive Certificate form to
+receive the CA certificate into the server's key ring.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o17.gif" ALT="* Figure icsl0o17 not displayed."><BR></B><BR>
+<P>
+<P>Provide:
+<UL>
+<P><LI><B>Name of file containing certificate</B>:
+Specify the file name of the file into which you saved the
+CA certificate request.
+The request is the same as the CA's certificate.
+<P><LI><B>Key ring</B>:  The key ring you specified on the
+Create Key and Request Certificate form when you
+created this server's keys and requested its certificate.
+<P><LI><B>Key ring password</B>:  The password you specified on the
+Create Key and Request Certificate form for this server's
+key ring.
+</UL>
+<P><LI>Check your form and make sure you entered each item correctly.
+<P><LI>Click <B>Apply</B> to process the form.
+You receive a Confirmation that the form was successfully processed.
+<P>
+The server stores the certificate in its key ring.
+It is referenced in the key ring with the
+<B>key name</B> you specified on the Create Key
+and Request Certificate form for the server's certificate.
+<P><LI>Go to the Key Management form.
+Make sure that the server's key ring is the current key ring.
+If it is not the current key ring, go to the Security Configuration
+form and make the server's key ring the current key ring.
+After you receive the confirmation message, come back
+to the Key Management form.
+<P><LI>On the Key Management form,
+specify the key ring password for the server's key ring.
+<P><LI>Choose the option <B>Designate Trusted Root Keys</B> and
+click <B>Apply</B> to process the form.
+The Designate Trusted Root Keys form appears.
+<P><LI>On the Designate Trusted Root Keys form,
+select the CA certificate.
+For the CA certificate, you will see the Distinguished Name (DN)
+of the CA rather than the key name.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o18.gif" ALT="* Figure icsl0o18 not displayed."><BR></B><BR>
+<P>
+<P><LI>Click <B>Apply</B> to process the form.
+You receive a Confirmation that the form was successfully processed.
+<P><LI>Use the Receive Certificate form to
+receive the server's certificate into its key ring.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o11.gif" ALT="* Figure icsl0o11 not displayed."><BR></B><BR>
+<P>
+<P>
+Provide:
+<UL>
+<P><LI><B>Name of file containing certificate</B>:
+Specify the file name you provided for <VAR>cert-file-name</VAR>
+when you used the certutil command.
+<P><LI><B>Key ring</B>:  The key ring you specified on the
+Create Key and Request Certificate form when you
+created this server's keys and requested its certificate.
+<P><LI><B>Key ring password</B>:  The password you specified on the
+Create Key and Request Certificate form for this server's
+key ring.
+</UL>
+<P><LI>Check your form and make sure you entered each item correctly.
+<P><LI>Click <B>Apply</B> to process the form.
+You receive a Confirmation that the form was successfully processed.
+<P>
+The server stores the certificate in its key ring.
+It is referenced in the key ring with the
+<B>key name</B> you specified on the Create Key
+and Request Certificate form for the server's certificate.
+<P>
+After you receive your Confirmation for the Receive Certificate form,
+you can make changes to other Configuration and Administration forms.
+However, when you are
+ready to use the server's keys for secure network communications,
+you must stop the server and then start it again.
+The server will not pick up the changes you've made to the key ring
+if you only restart it.
+</OL>
+<P>
+<H4><A NAME="HDRCLCERT">Send clients and other servers their processed certificates</A></H4>
+<P>
+You need to send the clients and other servers for whom you are
+acting as CA:
+<UL>
+<P><LI>Your CA certificate.
+Clients and other servers need to receive this certificate and
+designate it as a trusted root.
+You can send clients and servers your CA certificate request.
+It is your signed CA certificate.
+<P><LI>The client or server certificate you processed as CA.
+After the client or server has received the CA certificate and
+designated it as a trusted root, the client or server can
+receive its certificate into the key ring.
+</UL>
+<P><B>Note: </B>Some e-mail programs may alter files and should not be used
+to send or receive certificate requests or certificates.
+For example, some programs may pad the lines of the certificate
+request or certificate with blanks and invalidate it.
+<P>
+After a client or server receives the CA certificate, designates
+it as a trusted root, and receives the client or server certificate,
+the client or server certificate can be used
+for secure network communications.
+Before a server's keys are used for secure network communications,
+the server must be stopped and then started again.
+The server will not pick up the changes you made
+to the server's key ring if you only restart it.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg012.html">Previous Page</A> &#124; <A HREF="icswg014.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

@@ -1,0 +1,181 @@
+
+<DOC>
+<DOCNO>WT03-B26-65</DOCNO>
+<DOCOLDNO>IA029-000311-B020-209</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/dis1a.htm 138.44.40.1 19970114164925 text/html 9705
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:47:43 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:05 GMT
+Content-length: 9531
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>Airborne Sensing at CSIRO Water Resources</TITLE>
+</HEAD>
+<BODY>
+<B>1. INTRODUCTION<BR>
+</B><BR>
+The work done at CSIRO Division of Water Resources (DWR), based on the Itres
+(Canada) CASI airborne spectral imaging instrument, is an Applications Based
+systems development. This development is a package consisting of an Integrated
+Airborne (spectral) Sensing (IAS) instrument, ancillary instrumentation
+and processing modules. Together, these can provide high resolution information
+for environmental resource assessment in a form immediately useful to end
+users of the products. The Applications area defined for this IAS involves
+integrating models and methods based on CSIRO DWR core knowledge and skills
+with a general system comprising data collection instruments, processing
+methodologies and processing hardware and software systems.<BR>
+<BR>
+<B>2. APPLICATIONS AREA MODEL</B><BR>
+The outputs of the Applications system are final products that users want
+and are prepared to contract commercially to a processing service bureau.
+The necessary Application template for an imaging spectrometer such as (but
+not limited to) the CASI, takes into account the special circumstances provided
+by a fully calibrated spectral instrument. It integrates its output with
+a range of other airborne and ground based measurements and has nine main
+components.<BR>
+<BR>
+<I><A HREF="../gifs/dis1fig.gif">Figure 1. Simplified Applications Area
+Structure Schematic</A></I><BR>
+<BR>
+The subcomponents (primary processes) of this system have been studied in
+a detailed form as a cost/time and work/duration processing model through
+applications carried out by the established processing group at CSIRO DWR.
+That model and possible extensions based on queuing theory have been investigated
+at CSIRO DWR and by CSIRO DWR's commercial product developers as part of
+the Applications model. This model has been set up to help manage and monitor
+the progress of actual Applications projects. Figure 1 shows the main structure
+of the model:<BR>
+<BR>
+<B>2.1</B> <B>Flight Mission (Planning and Execution)</B><BR>
+Every application will have special considerations with respect to channels
+chosen for targeting user needs, environmental conditions, data scale and
+resolution. CSIRO DWR uses a set of software items which implement the flight
+planning and measurement models. These can be used to plan prior to flights
+and during the mission.<BR>
+<BR>
+<B>2.2</B> <B>Lab and Field Data Collection &amp; </B>Processing<BR>
+Some field data are collected at the time of each mission and some at other
+times. Data which must be taken at the time of flights is environmental
+(such as atmospheric data). Data such as characteristic spectra can be collected
+at other times. Separation of field and laboratory from flying missions
+is a key development in the measurement model approach being discussed here.
+Software to analyse the Lab and Field data for each measurement model for
+the analyses have been developed to implement this area.<BR>
+<BR>
+<B>2.3</B> <B>Base Data </B>Processing<BR>
+CASI Suppliers (Itres, Canada) software is used to take image, attitude
+(roll and pitch) and GPS data from the aircraft and process them to calibrated
+and (by single run) geometrically resampled images in a form ready for image
+processing. There is a future need to develop software to use the GPS data
+to more effectively and accurately model the attitude of the aircraft for
+IAS applications. This is under development by CSIRO DWR in combination
+with Itres and the CSIRO DWR commercial product developers.<BR>
+<BR>
+<B>2.4 Mosaicking and Normalisation</B><BR>
+The Base Processed airborne sensor data are assembled into mosaicks and
+atmospherically corrected in this component. Atmospheric correction means
+the data from different runs and times become normalised to surface reflectance.
+Only real differences in surface reflectance are left. At the heart of this
+process is an integrated spectral and geometric model for the data. This
+model is also the basis for fusion of the data with other data types - such
+as satellite data, other airborne data and GIS data at various scales.<BR>
+<BR>
+<B>2.5 Image Processing</B><BR>
+The necessary functions of the image processing system can be fully described
+by function rather than by options in any single image processing system.
+At present, microBRIAN (MPA and CSIRO developed software) is being used
+for the CASI based prototype Projects. The use of this specific software
+for an advanced IAS is sufficient but not necessary. CSIRO DWR supervising
+software exists for the current system which makes processing tasks quicker
+and minimises operator action.<BR>
+<BR>
+<B>2.6 Measurement Models</B><BR>
+The primary taxonomy of 'applications' from the Application system point
+of view is by measurement model. At present there are an atmospheric and
+six main surface measurement models:<BR>
+n water bodies and water covered targets (eg sea grass, reefs, water quality)<BR>
+n dense woody vegetation (eg forests &amp; mangroves)<BR>
+n open forests &amp; woodlands (eg woody weeds)<BR>
+n short grass and crops (eg crops and grasslands)<BR>
+n bare targets (eg soils)<BR>
+n (modulated by) flat and sloping ground effects<BR>
+The measurement models provide the link between the parameters of interest
+and concern to the user and those of direct significance in forming the
+signal measured by the instrument. The CASI measures radiance in the visible
+and near infrared so that CASI measurement models involve primarily radiative
+transfer and scattering in the surface layer and atmosphere. However, users
+want to know parameters of the surface such as canopy cover and structure,
+soil moisture, water use, levels of phytoplankton in water bodies, benthic
+community type or suspended sediments concentration. The measurement models
+provide the scale and physical basis for these transfers from CASI data
+to the information required by the end user.<BR>
+<BR>
+<B>2.</B>7 <B>Measurement Model Knowledge Base</B><BR>
+This area includes a Spectral Library and associated environmental information.
+The data structure and methodology for the Spectral Data Base has been developed
+at CSIRO DWR. The Measurement Model Knowledge Base, together with software
+called the 'Data Calculator', form base tools for the measurement models
+and applications. In particular, a spectral library is a primary tool for
+template matching and data modelling.<BR>
+<BR>
+<B>2.</B>8 <B>GIS Integration</B><BR>
+The system needs two-way access to GIS data and tools. The image processing
+component must also have adequate data integration tools to do this. Currently,
+CASI based Projects interface to ArcInfo and GRASS. This component can,
+however, be any adequate commercial GIS system. There is benefit in it being
+off-the-shelf. In land operations, this area of the Applications Model must
+also provide the best current DTM system data as well as cadastral information.<BR>
+<BR>
+<B>2.</B>9 <B>Interpretation</B><BR>
+Interpretation is the action of merging the information and products of
+modelling and image processing to derive the final products in the terms
+the end user needs. It involves skilled and experienced scientists labelling
+classes, attaching numerical levels and statistics and generating keys and
+summaries. The interpretation depends on the Application and on the type
+of models that have been employed. This area is a key component in the Applications
+based approach and the accumulated experience here will grow as an asset
+of any commercial implementation of the model. Final results will normally
+be included in a developing GIS and build a base of decision support for
+future missions to use.<BR>
+<BR>
+<B>2.10 Applications Products</B><BR>
+This area involves Report Generation, product generation and annotation
+and product delivery and presentation. This area can use existing hardware
+and software, the tools in the Image Processing System and the GIS system
+as well as new software. In the current CASI based prototype, most of these
+functions are provided by the microBRIAN image processing system, CorelDraw
+and standard publication tools such as Microsoft Word, Chartist and MathType.<BR>
+We can itemise the current set of specialised product areas for the Applications
+under five headings. These are: 
+<BLOCKQUOTE>
+<UL>
+<LI>Coastal zone monitoring and mapping 
+<LI>Reef and seagrass mapping and monitoring 
+<LI>Water quality mapping and monitoring 
+<LI>Forest monitoring and mapping 
+<LI>Plant community determination and monitoring. 
+</UL>
+</BLOCKQUOTE>
+<BR>
+<B>3. IMPLEMENTATION</B><BR>
+In projects undertaken at CSIRO DWR, the system described above has been
+implemented by a well equipped and trained team of remote sensing specialists.
+The cost structures have been analysed as well as processing management
+and potential efficiencies identified. There is now a very good processing
+management and planning model which can be keyed into a commercial business
+plan to provide effective commercial planning and management. This established
+team and its commercial product developers are equipped to work together
+with other service groups throughout our region.<BR>
+The current systems implementation and structure is under review with the
+commercial product developers and has a number of efficiency and throughput
+goals which will improve commercial operations. <BR>
+<HR><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<HR>
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,155 @@
+
+<DOC>
+<DOCNO>WT01-B04-51</DOCNO>
+<DOCOLDNO>IA080-000557-B035-64</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/ISPP.html 137.79.14.197 19970103071502 text/html 23030
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f31c.331@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:19:56 GMT
+Last-Modified: Friday, 02-Aug-96 20:23:48 GMT
+Content-type: text/html
+Content-length: 22785
+</DOCHDR>
+<TITLE>ISPP</title>
+<img src="ISPP.GIF">
+<H3>In Situ Propellant Production (ISPP)</h3><p>
+<H5>Point of Contact:  Donald Rapp</h5><p>
+</center>
+Use of the Martian atmosphere to produce oxygen propellant for a return trip to Earth can dramatically lower the mission payload and hence the cost and launch requirements of a Mars Sample Return mission. A figure of merit for this technology is the mass that must be launched in order to return a sample of any given weight and diversity of Mars materials to Earth. The degree to which In Situ Propellant Production (ISPP) reduces this mass is the main value of ISPP. There is also a less tangible value in that this use of ISPP provides a precursor to the more general need for In Situ Resource Utilization for human exploration. The total value must be pitted against the additional complexity and risk associated with use of ISPP, as well as the cost of developing and implementing ISPP. Various elements of prototype hardware to demonstrate these processes have been developed by several organizations, notably Lockheed Martin and the University of Arizona. The object now is to take these beginnings, and demonstrate that viable systems can be produced from them. Ultimately, these chemical conversion systems must be integrated and combined with storage/cryogenic systems, energy systems, and propulsion systems. <p>
+
+The potential for ISPP to reduce the mass of a direct entry/direct return (DE/DR) MSR mission is significant, although the benefits will be mission-dependent, and proper account must be taken of the mass of the ISPP system including its power system. Whether the actual mass reduction will be enough to reduce the required launch vehicle size remains to be seen. Ultimately, other mass reduction steps may need to be taken in conjunction with ISPP in order to secure a significant reduction in launch vehicle size (and cost). ISPP will have to be made essentially self-regulating and autonomous, including the capability of dealing with off-design conditions. Nevertheless, ISPP is clearly the single step with by far, the greatest leverage for mass reduction of a DE/DR MSR mission, and on this ground should be pursued further. On the other hand, other approaches than a DE/DR mission, if developed and verified in space, may reduce the need for ISPP. However, schemes which depend on autonomous rendezvous, docking and sample transfer in heliocentric space with time delays is a very difficult technology that will require considerable further development and expensive verification in space. If they also depend on pinpoint landing, that adds another major element of risk to such an approach. Regardless of how vital ISPP will be for a 2005 MSR mission, ISPP is one of the technical cornerstones for human exploration of Mars and the Moon. Human exploration sources might provide additional funds to speed up development of ISPP.<p> 
+
+A typical Mars ISPP process includes many steps ranging from carrying propellant tanks to Mars surface, to compressing the Martian atmosphere, chemically converting CO2 to O2 and possibly a hydrocarbon propellant, compressing, cooling and liquefying product gases and storing in empty propellant tanks and lifting off using thrusters specifically designed for the propellants produced. <p>
+
+There are two overall processes for ISPP which are the most mature.<p>
+
+One process uses the Sabatier/Electrolysis (S/E) process, in which hydrogen (brought from Earth) is reacted with compressed CO2 in a heated chemical reactor:<p>
+
+[1]	CO2 + 4 H2    ----->   CH4  +  2 H2O<p>
+
+The methane so formed is collected and saved for use as a propellant. The water is collected, deionized, and electrolyzed in an electrolysis cell:<p>
+
+[2]	2H2O + electricity ------> 2H2  +  O2<p>
+
+The oxygen is saved for use as a propellant. Under support from this RTOP, the S/E process has been studied in some detail ("In Situ Propellant Production Demonstration," Final report, Report No. MCR-95-561, JPL Contract 960247, LMA, April 3, 1996) at a lab bench level. The great advantage of this process is that it is fairly well understood and seems to work well as a system. There do not seem to be any fundamental technological challenges ahead in further perfection of the conversion plant system, although a number of engineering improvements are necessary. There are two potential problems with the S/E process. One is that the process is fairly complex and requires a number of vessels and considerable plumbing, which could drive the mass up and increase system risk. The other, which appears to be more serious, is the requirement of bringing hydrogen from Earth. This is a potential mass/cost driver for a mission, and at this juncture, it is not clear how to transport and store hydrogen on Mars within acceptable mass and power limits. If the S/E process is to be developed to a flight system, it will be important to investigate hydrogen storage.<p>
+
+The second process, typically known as the "zirconia approach," partially dissociates Martian CO2 and utilizes a solid state electrolyte (typically yttria-stabilized zirconia at ~ 900oC) to transport oxygen ions across a membrane in order to remove O2 from the partially dissociated mixture. This requires a suitable catalyst/electrode at the surface of the electrolyte to convert gaseous oxygen to oxygen ions.<p>
+
+The great attraction of the zirconia process is the conceptual simplicity of the oxygen separation process and the potential for a compact cell. However, in practice, the tradition has been to rely on tubular ceramic cells for test purposes. These are not compact, and appear to be structurally flimsy and liable to failure under launch or landing loads. A new concept for combining planar fuel cell geometry with the use of rugged single crystal sheets of zirconia interspersed with platinum electrodes holds promise for simple, inexpensive, rugged zirconia assemblies. However, these must be proven by experiment.<p>
+
+Other ISPP approaches have been proposed. These are under review. They include use of the Reverse Water Gas Shift reaction to enhance oxygen production, possible use of a gas discharge front-end for Zirconia, and possible use of diborane and carbon dioxide as propellants.<p>
+<H3>The JPL Program Plan for ISPP Technology Development</h3><p>
+
+In developing ISPP, our goal is to demonstrate a viable technology in the form of a compact, flight-like unit which can be tested in a relevant environment, consistent with sample return programmatic objectives.<p>
+
+<H3>1st Year's Work Plan (April 1995 - April 1996):</h3><p>
+
+After reviewing the funding available and the state of the technology, it was decided that the following constraints would apply to the first year's work:<p>
+<OL>
+<LI>initial work was concentrated on determining the performance characteristics and general viability of the S/E and Zirconia processes in laboratory bench scale prototypes.  
+<LI>It was decided that when sufficient data become available to indicate with reasonable probability that at least one of these processes is indeed viable, the more attractive of these will be selected for demonstration as a compact, flight-like unit which can be tested in a relevant environment. 
+<LI>Technology development on the interface technologies which tie directly to ISPP: (i) thermal and power management, (ii) compatibility with designs and configurations of descent and ascent vehicles, and (iii) gas pressurization, liquefaction and cryogenic storage, and (iv) compatibility with propulsion systems (gas-feed, and thruster performance) will follow after demonstration of compact, processing unit in later years.
+<LI>We will stay alert to new ideas in ISPP as they arise, but only as a distant secondary priority behind developing S/E or Zirconia to the demonstration stage (unless a new idea arrives which is so overwhelmingly attractive as to cause us to change this Plan). 
+</ol>
+In the first year, the two competing processes (S/E and Zirconia) were developed over a 12 month period, having starting in April 1995, with a comprehensive review and decision point on April 3, 1996 as to how to proceed with further development (select one process, go with both in parallel, or start anew).<p>
+
+This program began in January 1995, when requests were made to important players in the ISPP community to make proposals for research. Ten proposals were received. Two contracts were issued. One contract was issued to Lockheed-Martin to upgrade their S/E brassboard and carry out medium duration testing to assure that we understand its performance prior to building a compact end-to-end system. The other contract was issued to the University of Arizona to build a prototype multiple electrode zirconia cell system using flat plate (fuel cell) geometry with new approaches for seals and materials, and with an single crystal zirconia, which does not suffer from crumbling problems associated with ceramics. An all-metal system completely eliminated ceramics from the system. This system is intended to demonstrate that zirconia systems can be built rugged, resistant to thermal shock, and with adequate performance, as a precursor to a compact end-to-end system.<p>
+<H3>Review of 1st Year's Accomplishments (April 1995 - April 1996):</h3><p>
+
+The following conclusions are based on a full day review of the two competing processes held at JPL April 3, 1996.<p>
+
+Several unsettled major issues loom over any potential ISPP process, including the need for:<p>
+<OL>
+<LI>a sorption pump for carbon dioxide acquisition which can function in the Mars environment on a diurnal cycle, acquiring carbon dioxide at night with atmospheric filtering, while remaining insulated during the day, integrable with reactor waste heat; all with acceptable power requirements
+<LI>liquefaction and cryo-storage of oxygen, and 
+<LI>an adequate power system based on demonstrated long term performance of large solar arrays in the Mars environment.<p> 
+The Lockheed Martin development of the Sabatier/Water Electrolysis (S/E) process represents an outstanding achievement in terms of quality and quantity of progress made on a minimal budget. They have gone a long way toward demonstrating that an ISPP conversion system utilizing an S/E reactor and electrolyzer system is a viable process under controlled laboratory conditions. They have also made impressive progress in raising the conversion efficiency, hydrogen recovery, and automation and control of the process, as well as acquisition of carbon dioxide by a sorption pump. We also acknowledge the vital help received from Hamilton-Standard by Lockheed Martin, particularly in electrolysis unit, catalyst materials and in the hydrogen recovery pump. Hamilton-Standard has been a major contributor to this program. However, several critical issues specific to the S/E process remain:<p> 
+
+<LI>transport and long-term storage of hydrogen, 
+<LI>definition and analysis of the operating modes on Mars including a materials inventory profile including tankage use, rate of production of water, storage of water, etc., 
+<LI>procedures for start-up and shut-down, purging of lines and filters, and sensors and control system to handle off-design conditions
+<LI>liquefaction and cryo-storage of methane
+<LI>purity of gases produced.<p>
+
+The University of Arizona development of a unique zirconia process reactor design is based on two very good ideas: single crystal zirconia and an all-metal rugged structure. This design approach is worth developing further. However, this concept will not work unless several fundamental problems are solved:<p>
+<LI>a reliable method for applying Pt electrodes of desired thickness and porosity to single crystal zirconia
+<LI>a reliable method for providing uniform current density across an entire zirconia wafer (spoked electrodes, metal inserts, ...)
+<LI>a credible analysis to demonstrate reasonable gas flow and temperature uniformity in the various plena between cells
+<LI>a credible mechanical design for series connection of the cells which provides a context and configuration for the design of small experiments to verify issues 9, 10 and 11 above
+<LI>a comprehensive coupled electro/thermal/mass model must be developed which provides an understanding of the gas flows, heat flows and electrical current distribution in a cell, which provides a framework for defining acceptable gas inlets and outlets and current carrying elements attached to the wafers to achieve acceptable cell efficiency and reliability. Concomitant with this is a credible analysis of requirements for initial heating in the morning and time delays before processing can begin.<p>
+
+Future work must deal directly with these problems as well as quantification of leak rates and sealing requirements, and further vibration and shock testing.<p> 
+
+The S/E chemical conversion system is clearly more mature than the zirconia chemical conversion system. However, we are still dubious about the S/E process as a system  because <p>
+
+<LI>it requires three cryogenic subsystems: methane, oxygen and hydrogen as opposed to zirconia which only requires oxygen 
+<LI>there is no satisfactory definition and analysis of the operating modes on Mars including a materials and mass inventory profile of tankage use, rate of production of water, storage of water, etc., 
+<LI>procedures for start-up and shut-down, purging of lines and filters, and controlling the system under off-design conditions, and separation of products need to be clarified
+<LI>of its general complexity and reliance on many valves and plumbing elements, as well as sensors and controls
+</ol>
+Financial constraints and programmatic imperatives toward a 2005 MSR launch dictate that the JPL ISPP Program should limit itself to only one process: S/E or zirconia; and at this stage the choice has been reluctantly made for zirconia. The S/E process has been demonstrated to be viable in a laboratory breadboard, but there remain deep-rooted concerns about the S/E process' need for hydrogen, the need to liquefy two propellants, the general complexity of the process, and uncertainties about the materials inventory profile of tankage use, rate of production of water, storage of water, etc. Although there have been significant problems in the initial development of the zirconia system, the ultimate potential product has great appeal because of its innate potential simplicity, compactness, ease of control, freedom from hydrogen, and lesser need for cryogenics. We have therefore opted for putting all of the program's 2nd year resources into a concerted effort to verify that a zirconia cell system is viable.<p> 
+
+Most of the testing of ISPP systems can be done on Earth in Mars simulation chambers. However, it is almost certain that some aspects of ISPP technology will need to be verified via a flight demonstration (probably on the 2001 Lander) through the sequence of transport to Mars, entry, landing and operation on the surface. The leading candidates for flight experiments or demonstrations are:<p>
+<UL>
+<LI>either an experiment to characterize the dust environment for purposes of designing filters for intake into the sorption pump, or a direct demonstration of an atmospheric filter operating as the front end of a sorption pump for carbon dioxide acquisition 
+<LI>a typical solar array element operating for extended periods in the Mars environment
+<LI>heat rejection measurements to characterize the ability of surfaces to exchange heat with the dusty Mars environment
+<LI>entry and landing accelerometer measurements 
+</ul>
+These demonstrations can be done on a small scale, with minimal mass and power impacts on the Landers. It is hoped to find funds external to the RTOP to develop a flight package to demonstrate these capabilities on Mars.<p>
+
+<H3>2nd Year's Work Plan:</h3><p>
+<UL>
+<LI>A new design concept was received from Arizona for a modified approach to zirconia
+<LI>This was reviewed favorably by JPL engineers
+<LI>The design provides good gas flow, even voltage distribution and series connection of cells 
+<LI>A new proposal was received from Arizona to build and test an improved version of the zirconia MOXCE device. It has been accepted.
+<LI>A plan to develop an improved sorption pump for CO2 acquisition was developed and is now being implemented through the contract process.
+</ul>
+<H3>ISPP Roadmap:</h3><p>
+
+In order for ISPP to be ready for use on a Mars Sample Return (MSR) mission, a number of technical and systems issues must be addressed to a level of completeness and satisfaction that a hard-nosed project manager would be willing to rely on this technology for the successful completion of the mission. A critical decision would presumably be made around June 2002, 36 months before launch. <p>
+
+Four phases of development and demonstration are described in Table I which must be achieved prior to acceptance for a 2005 MSR mission. Each phase should be essentially completed before investing in the next level. These four levels are spread across the time period June, 1996 to June 2002, providing six years for development and demonstration.<p>
+
+With these assumptions, Table I shows the elements that can be funded from the combination of the JPL ISPP Task within the Mars Exploration RTOP plus HEDS funding of Row #5. The unshaded blocks represent tasks that require additional funding.<p> 
+<CENTER>
+<img src="ISPPBarGrph.GIF"><p>
+<B>Figure 1. RTOP and HEDS/Mars Project Funding for ISPP.</b><p>
+</center>
+
+<I>Table I. Phased Development Showing Shaded Regions for those Elements Which Would be Funded by the JPL ISPP Task within the Mars Exploration RTOP plus HEDS funding of Row #5</i><p>
+<CENTER>
+<img src="ISPPTbl1.GIF"><p>
+</center>
+<U><H3>Appendix I. How much leverage is there in an ISPP MSR mission?</h3></u><p>
+A crude estimation has been made of the mass of an ISPP version of the above Baseline MSR mission, assuming that oxygen only is produced by the Zirconia Electrolysis process and propane is brought from Earth.  The mass saving compared to the baseline mission is 550 kg for the injected mass, or approximately 37%.<p>
+<I>Table A1-1. Masses (kg) of the sub-spacecraft estimated for an ISPP MSR mission as estimated by D. Rapp</i><p>
+<CENTER>
+<img src="ISPPTblA11.GIF">
+</center>
+** Need not be brought from Earth - made from Martian atmosphere<p>
+
+Note that even a hypothetically perfect ISPP conversion system with zero mass cannot reduce the mass of the mission by more than roughly a factor of two because ascent propellants amount to less than half the total mass of the Baseline MSR mission.  Therefore, the oft-discussed "leverage" of various ISPP processes<p>
+<CENTER>
+<img src="ISPPEquation.GIF"><p>
+</center><p>
+is only of remote importance.  Even if this ratio is infinity, the maximum possible leverage for the mission mass is less than a factor of two.<p>
+
+On the other hand, roughly 600 kg of the ~1490 kg total mass of the Baseline MSR mission (see Table 2) is allocated to space storable propellants.  The ISPP system reduces this in two ways (the higher Isp requires less propellant, and only ~20% of the propellants (propane) need be brought from Earth).  The net result is that the total mass of the ISPP system and its concomitant power system and chemicals brought from Earth is only about 175kg, resulting in a saving of 432 kg.  Furthermore, a ripple effect will reduce many other masses (structure, propulsion for Mars entry, parachutes, etc.) because one does not have to land all this propellant on Mars.  This has been taken into account in the mass assessments, and saves about another 50 kg of dry mass and 70 kg of entry propellants, so that the total mass savings from ISPP is roughly 550 kg.  Note that the guess of 40 kg for the ISPP power system is a wild guess, and may not be accurate at all.  This estimate is based on the assumption that an ultra-lightweight inflatable array can be developed.<p>
+
+<U><H3>Appendix II. Mars Scenario for ISPP</u></h3><p>
+
+The first step in any ISPP process is usually compression of the indigenous carbon dioxide from its natural pressure of roughly 7 millibars to roughly 1 bar.  After that, chemical conversion may take place.  It appears likely that radioactive thermal generators (RTGs) will not be permitted on future Mars landers and therefore the probable scenario for operation of the S/E process will absorb carbon dioxide from the atmosphere at night in cold sorbents, while the reactor is shut down.  When the sun comes up, the initial available power is first used to pre-heat the sorption pump and generate high pressure (~1 bar) CO2.  Then the reactor is pre-heated.  Finally, power is used to operate the ISPP system and the cryo-coolers.  At night, absorption of carbon dioxide is repeated, etc.  This pump is a non-trivial part of an ISPP system, and is likely to require a canister perhaps 0.7 m high by 0.2 m in dia, weighing perhaps 10 kg.  A significant portion of the heat required to produce high pressure gas could likely come from waste heat from the reactor.<p>
+
+The Mars Lander would put the ISPP unit into operation and it would fellow this diurnal cycle for about 600 days, producing roughly 0.6 kg of oxygen every day.  After this period, the positions of Mars and Earth would be right for ascent and return to Earth.  By contrast, in the Baseline mission, the stay on Mars might be a relatively short period.  Thus, the mission operations cost of an ISPP mission is bound to be considerably higher than the Baseline mission.  However, it is possible that much exploration, science observation and sample gathering could be achieved in this 600 day period, resulting in a much bigger science payoff than would be possible with a short mission.<p>
+
+In the simplest form of the Zirconia process, fuel (probably in the form of propane) is brought from Earth.  The process produces only oxygen.  Compressed Martian CO2 is introduced into a chamber heated to ~900oC where it is partly dissociated.  A zirconia membrane coated with porous platinum on a wall of this chamber has a voltage applied to it, allowing oxygen to be conducted as ions across the membrane into an antechamber containing pure oxygen.  The oxygen is cryo-cooled and stored.<p>
+
+The design of the Mars Ascent Vehicle has significant impact on the value of any particular ISPP system, and vice versa.  The staging of the Mars Ascent Vehicle, the sizing and positioning of the tankage, and the utilization of tankage for storage of chemicals and propulsion are all closely coupled to the ISPP system.  An ISPP system cannot and should not be developed in isolation, but rather as a part of an overall program to develop a propulsion system for the MAV.<p>
+<A HREF="Mars.html">Return to menu</a><p>
+
+</DOC>

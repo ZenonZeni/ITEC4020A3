@@ -1,0 +1,266 @@
+
+<DOC>
+<DOCNO>WT02-B06-95</DOCNO>
+<DOCOLDNO>IA096-001029-B022-350</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/prev_hlines/960712_Gore_expl.html 205.177.10.31 19970215022529 text/html 16511
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 02:24:11 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>CDT | Administration Policy Explanation, 7/12/96</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<H2>US Cryptography Policy:  Why We Are Taking the Current Approach<BR>
+July 12, 1996</H2>
+<BR>
+We live in an age of electronic information.  Information technology is
+transforming society, creating new businesses, new jobs and new careers.
+ The technology also creates new opportunities for crime, and new problems
+in investigating and prosecuting crime.  As a result, electronic information,
+be it corporate trade secrets, pre-release government crop statistics, or
+a patient's medical records, must have strong protection from uninvited
+modifications of disclosure.  Cryptography enables that protection.<BR>
+<BR>
+The United States is the world leader in information technology.  US firms
+continue to dominate the US and global information systems market.  Retaining
+this leadership is important to our economic security.  The Clinton Administration,
+through its National Information Infrastructure initiative, has long recognized
+that government has an important role as a facilitator and catalyst for
+the industry-led transformation of the way we use computer and communications
+technology to work and live.<BR>
+<BR>
+In particular, government has a strong interest in promoting the legitimate
+use of robust encryption to support US international competitiveness, foster
+global electronic commerce, prevent computer crime, and ensure that the
+information superhighway is a safe place to conduct one's business.  At
+the same time, there is a growing recognition, affirmed most recently by
+the National Academy of Science that the use of encryption to conceal illegitimate
+activities &quot;poses a problem for society as a whole, not just for law
+enforcement and national security.&quot;  In brief, criminals can use encryption
+to frustrate legal wiretaps and render useless search warrants for stored
+electronic data.  We know of no technical solution to the problems that
+would result from the global proliferation of strong cryptography <A HREF="#cracking">(see box)</A>.
+ The implications of this are no small matter.<BR>
+<BR>
+Encrypted computer files have hampered the prosecution of child pornographers.
+ Militia groups advise their members to use encryption to hide illicit weapons,
+financial, and other criminal activities.  Aldrich Ames was instructed by
+his Soviet handlers to encrypt computer files that he passed to the Soviets.
+ And international terrorists and drug dealers increasingly use encryption
+to prevent law enforcement officials from reading their voice and data transmissions.
+ Grave crimes, such as a plot to shoot down several airliners over Chicago,
+have been foiled by the use of wiretaps.  Had the FBI been unable to read
+those transmissions, however, a major tragedy might have ensued.<BR>
+<BR>
+No restrictions apply to the US domestic use of cryptography, and the Administration
+has no plan to seek restrictions.  Cryptography has long been controlled
+for export for national security reasons, so as to keep it from getting
+into the hands of foreign governments.  But is has today become a dual-use
+technology, and international businesses want to use the same security products
+both domestically and abroad.  The Administration is thus under strong pressure
+to provide relief from cryptography export controls.<BR>
+<BR>
+For our cryptography policy to succeed, it must be aligned with commercial
+market forces and operate on an international basis.  Further, it should
+preserve and extend the strong position that US industry enjoys in the global
+information systems marketplace.  Accordingly, the US government is working
+with US industry and our international trading partners on an approach that
+will protect information used in legitimate activities, assure the continued
+safety of Americans from enemies both foreign and domestic, and preserve
+the ability of the US information systems industry to compete worldwide.<BR>
+<H3>Key Management and Recovery</H3>
+A consensus is emerging around the vision of a global cryptography system
+that permits the use of any encryption method the user chooses, with a stored
+key to unlock it when necessary.  The encryption key would be provided voluntarily
+by a computer user to a trusted party who holds it for safe keeping.  This
+is what many people do with their house keys -- give them to a trusted neighbor
+who can produce them when something unexpected goes wrong.  Businesses should
+find this attractive because they do not want to lock up information and
+throw away the key or give an employee -- not the company -- control over
+company information.  An individual might also use this service to ensure
+that she can retrieve information stored years ago.  This will require a
+new infrastructure, consisting of trusted parties who have defined responsibilities
+to key owners.  Under law, these trusted emergency key recovery organizations
+would also respond in a timely manner to authorized requests from law enforcement
+officials who required the key to decode information lawfully obtained or
+seized from a subject of investigation or prosecution.<BR>
+<BR>
+The Federal government will use key recovery encryption on its own computers
+because it makes good management sense.  It would be irresponsible for agencies
+to store critical records without key recovery, risking the loss of the
+information for programmatic use and the inability to investigate and prosecute
+fraud or misuse of the information.<BR>
+<BR>
+A number of US and international companies are working with the US and other
+governments to create a system of trusted parties who are certified to safeguard
+the keys.  In some cases, organizations might guard their own keys.  In
+other cases, persons will use the key recovery services provided by third
+parties, one of a suite of services that will include electronic directories
+and electronic &quot;notaries&quot; in support of online commerce.  Persons
+will be free to choose the type and strength of encryption that provide
+the degree of security they believe appropriate for their use.  Taken together,
+an overall key management infrastructure is needed to make electronic commerce
+practical on a global scale.<BR>
+<BR>
+Some commercial products and services which provide emergency key recovery
+are already available.  Testing and refinement is needed before a widespread,
+robust infrastructure is put in place.  The US government is committed to
+supporting the development of such a key management infrastructure through
+pilots and experimental trials.  The State Department is expediting the
+review of several export license applications that test commercial key recovery
+on an international scale.  An interagency working group is identifying
+several potential governmental uses of commercial cryptography - both internal
+transactions and in communications with the public - where key recovery
+can be tested.  A plan outlining these government tests will be available
+in August.  The government will be purchasing key recovery products for
+its own use, and will adopt a Federal standard for evaluating such products
+to assure agency purchasers that the key recovery features operate properly.
+ The Department of Commerce will be establishing an industry-led advisory
+committee to make recommendations regarding such a standard this Summer.<BR>
+<BR>
+While we are open to other alternatives, a key recovery system is the only
+approach we know of that accommodates all public safety interests.  And
+even it is imperfect.  Some people will not join voluntary systems, preferring
+to run the risk of losing their keys and being unable to recover their encrypted
+information.  Although in some countries (e.g., France) mandatory key escrowing
+is already in effect, we are pursuing a market-driven approach in part because
+we hope and believe that key recovery will develop as a cost-effective service
+in an electronic commerce infrastructure.  We are encourage in this effort
+by recent discussions we have had at the Organization for Economic Cooperation
+and Development (OECD) that are leading to international cryptography management
+principles which support key recovery.<BR>
+<H3>Export Controls</H3>
+No matter how successful we are in realizing this vision, American users
+of computer technology are demanding stronger encryption for international
+use now.  Although we do not control the use of encryption within the US,
+we do, with some exceptions, limit the export of non-escrowed mass market
+encryption to products using a key length of 40 bits.  (The length of the
+encryption key is one way of measuring the strength of an encryption product.
+ Systems using longer keys are harder to decrypt.)  US industry asserts
+that it is losing overseas sales to its European and Japanese competitors
+because it cannot include stronger cryptography as a component of its commercial
+software and hardware products.  It warns that loss of a significant share
+of the world information systems market would cause serious economic damage
+to the US economy, and could reduce the US government's ability to influence
+the long term future of global cryptography.  It also argues that because
+customers do not want to use one product in the US and a different one overseas,
+export controls are causing US firms to provide an unsatisfactory level
+of protection to their electronic information, making them vulnerable to
+industrial espionage by their competitors and foreign governments.<BR>
+<BR>
+While 40 bit encryption products are still strong enough for many uses,
+the Administration recognizes that some export liberalization may be useful
+to build support for a key management regime.   Accordingly, we are actively
+considering measures that would provide limited, temporary relief from cryptographic
+export controls in exchange for real, measurable commitments from industry
+(e.g., investments in products that support key recovery) toward the building
+of a key management infrastructure.  The liberalization proposals under
+discussion, which would continue the current one-time review of products
+by the National Security Agency, include: permitting products using longer
+key lengths to be exported to specific industry sectors such as health care
+or insurance (similar to current policy for the financial sector); allowing
+export of non-escrowed products to a list of trustworthy firms beyond those
+sectors, with provisions for monitoring compliance to prevent product diversion
+to other firms; export of cryptography-ready operating systems; and, most
+dramatically, the transfer of jurisdiction over commercial encryption products
+from the State Department's munitions list to the Commerce Department's
+list of dual-use technologies.  Our goal is to obtain commitments from industry
+by the Fall.<BR>
+<BR>
+We must, however, be careful in any relaxation of controls.  Other governments'
+law enforcement and national security needs to access material encrypted
+with US products could drive them to erect trade barriers by imposing import
+controls on strong non-escrow encryption products.  In addition, we do not
+want to do anything that would damage our own national security or public
+safety by spreading unbreakable encryption, especially given the international
+nature of terrorism.  Even 40 bit encryption, if widespread and not escrowed,
+defeats law enforcement.<BR>
+<BR>
+It is for these reasons that we oppose the legislation (S.1726) introduced
+in this Congress by Senator Burns and co-sponsored by Senator Lott and former
+Senator Dole.  Although it contains some provisions, such as the transfer
+of export control jurisdiction for commercial cryptography to the Commerce
+Department, with which we could agree if constructed with appropriate safeguards,
+the bill is unbalanced, and makes no effort to take into account the serious
+consequences of the proliferation it would permit.<BR>
+<BR>
+The importance of the US information technology industry, the security stakes,
+and increasing Congressional interest make it clear that there is an urgent
+need for clear policy and direction.  The Administration's proposed approach
+is broadly consistent with industry suggestions and conclusions reached
+by the National Academy of Sciences in its report.  That report recognizes
+the need to address a complex mix of commercial and security issues in a
+balanced manner.  We agree with that need.  We also agree with the report's
+recommendation that export controls on encryption products need to be relaxed
+but not eliminated, and are actively considering ways of providing short
+term relief. (We do not agree with the report's recommendation that we eliminate
+most controls on 56-bit key length products.)  Finally, we agree that key
+escrow is a promising but not fully tested solution, and are promoting the
+kinds of testing the report recommends as a way of demonstrating the solution's
+viability while providing stronger encryption internationally.<BR>
+<BR>
+We will continue discussion with industry, other members of the private
+sector, the Congress, and governments at all levels to arrive at a solution
+that promotes a future of safe computing in a safe society.<BR>
+<P><CENTER><HR WIDTH="50%"></CENTER><A NAME="cracking"></A>
+<P>
+<H3>Cracking Coded Messages</H3>
+We should not underestimate how difficult is to decode encrypted electronic
+information.  One approach advanced in the popular debate is to provide
+our law enforcement officials with more computing power.  At first glance,
+this suggestion seems promising, because in theory any encrypted message
+can be decoded if enough computing cycles are applied.  This approach fails
+for five reasons:<BR>
+<BR>
+First, it relies on mathematical theory, not operational reality.  Digital
+technology reduces voice, faxes, images, and text in any language to indistinguishable
+1's and 0's.  A great variety of encryption products are also available.
+ Under ideal conditions -- if the type of communication or file, language,
+and encryption algorithm are known with certainty, and a short key is used
+to encrypt the information -- a large, specially-designed computer could
+decode a single message relatively quickly.  But State, local, and Federal
+law enforcement officials do not operate in the clean confines of a high-tech
+computer center.  They must first capture the 1's and 0's and discern what
+kind of encryption they have encountered.<BR>
+<BR>
+Second, after the decoding problem is isolated, acquiring a machine to decode
+a message is neither quick, easy or inexpensive.  Commercially available
+computers could not be used because they will not have sufficient capacity.
+ It would, for example, take years for the computers used to process all
+social security claims, payments and earnings years to decode one message
+using the Data Encryption Standard (DES), a widely used system originally
+developed by the US government that uses a 56-bit key.<BR>
+<BR>
+Third, this approach betrays a misunderstanding of how crimes are prevented.
+ Used only in the most critical cases, legally authorized wiretaps provide
+crucial information just before a crime is to occur.  Thus a near real-time
+ability to decode messages is needed.  Days or weeks are too long to wait
+to find out that a terrorist attack is about to happen.<BR>
+<BR>
+Fourth, this approach fails to acknowledge the volume of messages that could
+need decoding.  Each wiretap results in the collection of thousands of messages
+relevant to the investigative purpose of the wiretap.  Even under the most
+ideal conditions, had these messages been encrypted, the computing resources
+required to decrypt them quickly would simply not be available.  And this
+example does not include the additional burden of decrypting, if possible,
+any digital information such as computer disks that are seized as evidence
+after a crime has been committed.<BR>
+<BR>
+Finally, revealing the precise capabilities of law enforcement agencies
+to decode messages, as would be necessary in order to present the fruits
+of that work as evidence in court, could provide a tutorial to criminal
+elements bent on eluding law enforcement.<BR>
+<BR>
+<HR>
+<P>
+<A HREF="960712_Gore.html">Back</A><BR>
+<A HREF="/index.html"><IMG SRC="/images/s_home.gif" WIDTH="20" HEIGHT="20" ALT="Home"></A> <A HREF="/index.html">CDT Home Page</A>
+<P>
+<FONT SIZE=-1>Posted on July 12, 1996 || Transcribed from hard copy</FONT>
+</BODY>
+</HTML>
+</DOC>

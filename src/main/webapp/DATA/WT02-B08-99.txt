@@ -1,0 +1,186 @@
+
+<DOC>
+<DOCNO>WT02-B08-99</DOCNO>
+<DOCOLDNO>IA003-000024-B038-92</DOCOLDNO>
+<DOCHDR>
+http://robot0.ge.uiuc.edu:80/ge370/ 128.174.127.217 19961231230957 text/html 4869
+HTTP/1.0 200 OK
+Date: Tuesday, 31-Dec-96 23:12:32 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+</DOCHDR>
+<TITLE> Introduction to Robotics </TITLE>
+<BASE HREF=http://robot0.ge.uiuc.edu/~spong/ge370/>
+
+<BODY  BACKGROUND=frost.gif>
+<CENTER>
+<H1>Introduction to Robotics</H1>
+
+<H2>
+<A HREF=http://www.uiuc.edu/admin_manual/Courses/T_D/FALL/ECE370.html>
+ECE 370</A> /
+<A HREF=http://www.uiuc.edu/admin_manual/Courses/T_D/FALL/GE370.html>
+GE 370</A>
+</H2>
+
+</CENTER>
+
+<!-- <img src=dont-pan.gif ALIGN=left HSPACE=10>  -->
+<P>
+<H2> Instructor for Fall 1996 </H2> 
+<A HREF=http://www.uiuc.edu/ph/www/seth>
+Professor Seth Hutchinson</A>,
+<BR>
+<A HREF=http://www.ece.uiuc.edu/>
+Department of Electrical and Computer Engineering</A>
+
+<HR>
+<H2> Teaching Assistant for Fall 1996: </H2>
+Sunil Sharan
+<BR>
+
+<A HREF="mailto:sharan@students.uiuc.edu">Send Mail to Sunil</A>
+
+ 
+<BR CLEAR=ALL>
+
+
+<HR>
+
+<P><H2> Catalog Description</H2>
+<BLOCKQUOTE>
+Basic Kinematics of robotic manipulators;
+emphasis on fundamental concepts and analytical methods
+for analysis and design of robotic systems; laboratory
+experiments and computer simulation complement the
+theoretical development.
+</BLOCKQUOTE>
+
+<HR>
+
+<P><H2>  Textbook </H2>
+M.W. Spong, and M. Vidyasagar, Robot Dynamics and Control, John Wiley & Sons, Inc., New York, NY, 1989.
+<BR>
+<HR>
+<P><H2> Lectures/Labs </H2>
+<UL>
+<LI>Lectures are held in 
+<A HREF=http://www.uiuc.edu/cgi-bin/where_is?bldg=tb&room=306>
+306 Transportation Building</A> from 10:00 to 11:30 T TH.  
+<BR>
+<LI> Lab is held in the <A HREF=http://robot0.ge.uiuc.edu/>
+COE Robotics and Automation Laboratory</A>,
+which is located in
+<A HREF=http://www.uiuc.edu/cgi-bin/where_is?bldg=tb&room=316>
+316 Transportation Building</A>, from 1:00-3:00 T TH. 
+
+<BR>
+<LI> <A HREF=/~spong/ge370/labs/policy.html> Lab Policies </A>
+<LI> <A HREF=/~spong/ge370/ps_files/fixed-frame.ps> Handout on
+	rotation about a fixed frame. </A>
+<LI> <A HREF=/~spong/ge370/ps_files/dh.ps> Handout on
+	assigning coordinate frames to the Puma 560 robot. </A>
+<LI> <A HREF=/~spong/ge370/ps_files/robotica-man.ps> The Robotica Manual. </A>
+</BLOCKQUOTE>
+</UL>
+
+<!--
+<P><H2>Reference Materials</H2>
+<UL>
+<LI><A HREF=ps_files/manual.ps>
+	Complete Course Manual</A> (327k)
+
+<LI><A HREF=ps_files/newman.ps>
+	Robotica Manual</A> (322k)
+
+<LI><A HREF=ps_files/robhand.ps>
+	Using Robotica on the COE Workstations</A> (16k)
+</UL>
+-->
+<HR>
+<P><H2>Exam I for Fall 1996</H2>
+<UL>
+<LI> Exam I will be given in class, Tuesday October 8.
+<LI> You will be provided with this 
+   <A HREF=exams/cover.ps> page of equations and formulae </A>
+</UL>
+
+<HR>
+<P><H2>Exam II for Fall 1996</H2>
+<UL>
+<LI> Exam II will be given at 7:00pm, Tuesday October 29.
+<br> Note -- this exam will be held in Room 161 of Everitt Lab.
+<LI> You will be provided with this 
+   <A HREF=exams/page2.ps> page of equations and formulae </A>
+</UL>
+
+<HR>
+<P><H2>Homework Assignments for Fall 1996</H2>
+<UL>
+<LI> <A HREF=/~spong/ge370/hwks/hwk1.html> Assignment 1</A>
+<LI> <A HREF=/~spong/ge370/hwks/hwk2.html> Assignment 2</A>
+<LI> <A HREF=/~spong/ge370/hwks/hwk3.html> Assignment 3</A>
+<LI> <A HREF=/~spong/ge370/hwks/hwksoln.html>
+	Corrections to Homework Solutions</A>
+<LI> <A HREF=/~spong/ge370/hwks/hwk4.html> Assignment 4</A>
+</UL>
+
+<HR>
+
+<P><H2>Laboratory Assignments for Fall 1996</H2>
+<UL>
+<LI>Lab 1 -- <A HREF=labs/lab1.ps>
+	Programming the Rhino Robots Using the Teach Pendant </A>
+<BR> <A HREF=/~spong/ge370/labs/lab1times.html>
+	Times to Demo Lab 1 to the TA </A>
+<LI>Lab 2 -- <A HREF=labs/lab2.ps>
+	Programming the Rhino Robots Using the RoboTalk </A>
+<BR> <A HREF=/~spong/ge370/labs/lab2times.html>
+	Times to Demo Lab 2 to the TA </A>
+<LI>Lab 3 -- <A HREF=labs/lab3.ps>
+	Introduction to Robotica </A>
+</UL>
+
+<!--
+<LI>Lab 2 -- <A HREF=labs/lab2_370.ps>
+	Introduction to Robotica</A> 
+<LI>Lab 3 -- <A HREF=labs/lab3_370.ps>
+	Introduction to CimStation</A>
+<LI>Lab 4 -- <A HREF=labs/lab4_370.ps>
+	Workcell Programming in CimStation</A> 
+<LI>Lab 5 -- <A HREF=labs/lab5_370.ps>
+	Inverse Kinematics for the Rhino XR-3</A>
+-->
+<HR>
+<H2> Other faculty associated with this course </H2>
+<A HREF=http://www.ge.uiuc.edu/directory/faculty/Spong.html>
+Professor M.W. Spong</A>,
+<BR>
+<A HREF=http://www.ge.uiuc.edu/> Department of General Engineering </A>
+
+<BR><BR>
+<A HREF=http://www.ece.uiuc.edu/fachtml/ahuja.html>
+Professor N. Ahuja</A>,
+<BR>
+<A HREF=http://www.ece.uiuc.edu/>
+Department of Electrical and Computer Engineering</A>
+
+
+<HR>
+<P>
+Go to 
+<A HREF=../ge389/ge389.top.html> GE389/ECE389 Robot Dynamics and Control</A>
+Home Page
+<BR><BR>
+Related <A HREF=../robot_classes/other_info.html>
+control and robotics information</A> on-line.
+
+
+<HR>
+<ADDRESS>This screen was created by
+<a href = "http://www-cvr.ai.uiuc.edu/~seth">Seth Hutchinson</a>
+ - U. of Illinois -
+ <I><A HREF="mailto:seth@uiuc.edu">seth@uiuc.edu</a></I>
+ </ADDRESS>
+</DOC>

@@ -1,0 +1,180 @@
+
+<DOC>
+<DOCNO>WT03-B15-135</DOCNO>
+<DOCOLDNO>IA093-000997-B032-13</DOCOLDNO>
+<DOCHDR>
+http://www.rosl.com:80/calartic.htm 206.216.148.51 19970121101546 text/html 19513
+HTTP/1.0 200 OK
+Date: Tue, 21 Jan 1997 10:12:04 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 19341
+Last-modified: Thu, 04 Apr 1996 07:53:10 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Robot calibration - Questions and answers</TITLE> 
+<body background="paper3.gif">
+<H1>Robot calibration - Questions and answers</H1>
+</HEAD>
+
+<H2>What is robot calibration?</H2>
+<P>Robot calibration is a means whereby a robot can be made to move more accurately to a given xyz position and orientation by creating an improved mathematical model of the robot kinematics.</P>
+
+<H2>What is the difference between accuracy and repeatability?</H2>
+<P>It is important that we understand the difference between accuracy and repeatability. Repeatability is a measure of the ability to move back to the same position over and over again, whereas accuracy is the ability to move to a given position. As an analogy, consider somebody throwing darts at a board. If all the darts go into roughly the same place then the repeatability is good, though it may not be the position that the thrower was aiming at, in which case the accuracy would be bad. If all the darts hit the position the thrower was aiming at then the accuracy and the repeatability are good.</P>
+
+<H2>Which physical errors cause robots to be inaccurate?</H2>
+<P>The difference between the physical joint zero position of the robot and the zero position reported by the robot controller usually has the biggest effect on the robot's accuracy. Common sense suggests that errors in the zero position of joints 1, 2, and 3 will have a bigger effect on the robot positional error than joints 4, 5, and 6. We can ignore the effect of joint 1 since it is compensated for using the model calibration (see later). Additionally, experience suggests that joint 2 and 3 often have the largest zero position error because at some point in the robot's life it will have been crashed into the floor - throwing out the zero position by up to a degree.</P>
+<P>The error in the robot zero position is often responsible for 90% of the robot positional error.</P>
+<P>The length of the robot links usually has the second biggest effect on the robot's accuracy. When the links are manufactured there is inevitably some variation in their dimensions from one robot to the next, as well as a variation in the orientation of the joints. Within each robot controller is a mathematical model of the robot which assumes that the links on one robot are the same length as the links on another robot of the same type, and that the relative orientations of the joints on one robot are the same as on another robot of the same type.</P>
+<P>This is not true, and this causes the robot to estimate incorrectly where its endpoint is given a set of joint angles.</P>
+<P>It is unlikely on most industrial robots that the variation in link lengths would be more than a couple of millimetres.</P>
+<P>The next most significant factor in the robot positional error is joint compliance. This may be though of as factor representing the torsional spring effect at each joint which responds to the effect of gravity each link.</P>
+
+<H2>How are these physical errors represented?</H2>
+<P>The robot kinematic structure is often represented by mathematicians using DH parameters. These are simply a compact representation of the position and orientation of each joint relative to the previous joint.</P>
+<P>There are four numbers for each joint: d, a, theta, and alpha.</P>
+<P>D and a represent distances and theta and alpha represent angles.</P>
+<P>Joint zero errors for a rotational joint are stored as theta values.</P>
+<P>Link length and distance offset errors are stored as d and a values.</P>
+<P>Relative joint orientation errors are stored as alpha values.</P>
+<P>An additional parameter beta is introduced for two joints which are parallel to represent any slight misalignment.</P>
+
+<H2>Why do we calibrate robots for offline programming but not for teach-pendant programming?</H2>
+<P>Most robots are designed to be very repeatable (typically within 0.1mm) but have a low accuracy (typically between 5 and 15mm). The robot-programmer using a teach-pendant is not usually concerned with the accuracy of the robot, only its repeatability.
+Consider a spot-welding workcell. The user uses the teach-pendant and his eye to guide the robot to a chalk mark on the metal parts where the spot-weld is to be placed. The user doesn't care whether this xyz position is (1500,800,700) or (1505,795,695). He/she will only be concerned that when he looks at the robot tool that it looks as though it is close to the chalk mark.</P>
+<P>However, if the same robot programme is written offline using a geometric model of the part to define the spot-welds then the accuracy of the robot will become very important, since it is only the numbers from the offline programme which define the robot movement and there is no visual correction by the robot-programmer.</P>
+<P>By calibrating the robot before downloading a robot programme written offline it might therefore be possible to avoid the need to touch up the teachpoints visually using the teach pendant.</P>
+
+<H2>Is there an alternative to calibrating the robot?</H2>
+<P>Yes. Instead of calibrating the robot to improve the accuracy of the offline programmed points the robot-programmer can use the teach-pendant to touch up the points. Since the robot positional error for an uncalibrated robot is at worst of the order of 15mm then all that is required to correct the programme is jogging each teachpoint using the teach-pendant a very small distance until the point looks to be correct.</P>
+
+<H2>How long does robot calibration take?</H2>
+<P>The first stage of robot calibration is to take the necessary measurements of the robot position for a number of teachpoints. If the teachpoints have been previously defined then the whole process of placing a Robotrak measurement device in a workcell, performing the set-up procedure for Robotrak, and recording measurements for 50 teachpoints takes about 30 minutes.</P>
+<P>The teachpoint file and the measurements can then be used within Workspace running on a PC to procedure a calibrated model within a few seconds.</P>
+
+<H2>When is robot calibration cost-effective?</H2>
+<P>Robot calibration is cost-effective when touching up offline programmed teachpoints is undesirable for some reason.</P>
+<P>It may be that the act of touching up points manually introduces an undesirable element of subjective judgment into an otherwise objective Computer Integrated Manufacturing environment. The overall accuracy of the position in a robotic workcell which uses a robot programme generated offline would in this situation be dependent on the accuracy of the robot programmer, which would inevitably vary with fatigue and ability. This is the justification used by many car companies to justify calibration of all the robots on an offline programmed re-spot line.</P>
+
+<H2>When is robot calibration not necessary?</H2>
+<P>Robot calibration is not required for teach-pendant programming of a robot (unless the poor accuracy of the robot has a significant effect on the quality of linear and circular trajectories).</P>
+<P>Robot calibration might not be necessary where the working volume of the robot is very small. The robot can be said to have a good relative accuracy over this small volume.
+Robot calibration might also be unnecessary if the robot is very accurate before calibration. A good test of the accuracy of the robot is the quality of the tool calibration performed using a fixed pointer and several teachpoints with different orientations. This figure is reported by the Workspace Recalibrate tool command.</P>
+
+<H2>What methods for calibrating robots exist?</H2>
+<P>Any 3d measurement system can be used to obtain measurements which are subsequently used to create a calibrated robot model. Workspace uses its own Robotrak three-cord measurement device (accurate to within 0.2mm), but other devices can also be used with Workspace such as the Leica Smart automatic theodolite (which has an accuracy measured in microns).</P>
+<P>There is even a method for calibrating robots that does not use a measurement device but instead moves the robot to a fixed pointer using different orientations (similar to the standard method for calibrating tools) though its accuracy is not as good as that measurement based calibrations.</P>
+
+<H2>How does robot calibration work?</H2>
+<P>Most methods of robot calibration work by comparing teachpoint positions for a robot to measurements of the end of the tool relative to an independent 3d measuring device. A search method is used to find which changes in the mathematical model of the robot would allow the distance between where the robot thinks it is and where the robot actually is to be minimised. The search method is contained within the Workspace software and the Workspace robot model is updated with the changes.</P>
+
+<H2>Where is the calibration data stored?</H2>
+<P>The calibration data obtained using Workspace is stored in the model of the robot and the workcell. To use this robot in a different workcell without recalibrating it is only necessary to use the calibrated robot model. Note that the robot controller and the robot itself have no knowledge of the fact that Workspace has calibrated the robot.</P>
+
+<H2>What is the difference between remastering and robot calibration?</H2>
+<P>Remastering is where the position of each joint at which it reports itself as being zero is changed so that it coincides with the physical zero position of the joint. Some robots (for example the Fanus S10) use a special fixture to define the robot physical zero position. Other robots use a mark on each link to define the robot physical zero position. To remaster the robot the user jogs the robot using the teach-pendant to the physical zero position for each joint and then issues a command to the robot controller to use this position as the new zero position.</P>
+<P>This improves the accuracy of the robot in a similar way to robot calibration, though robot calibration goes further in that it not only corrects errors in the zero position but also in the link lengths and offsets. Therefore robot calibration should provide slightly better accuracy than remastering.</P>
+
+<H2>Is remastering the robot an alternative to robot calibration?</H2>
+<P>Yes, if the user is able to remaster the robot accurately and if the small additional accuracy provided by robot calibration is not required.</P>
+<P>Remastering a robot will frequently improve the accuracy of offline programming in the same way that robot calibration will. However, remastering will make any existing robot programmes on the robot controller no longer accurate, unlike robot calibration which does not change the parameters of the robot controller.</P>
+<P>In some situations the user may wish to use robot calibration to suggest changes to the robot zero position to be used in remastering.</P>
+
+<H2>Why don't robot manufacturers calibrate their robots?</H2>
+<P>Most industrial robot manufactures remaster their robots before they leave the factory. This effectively removes errors in the joint zero positions. However, it is very rare that a robot manufacturer calibrates to compensate for the true link lengths of each individual robot.</P>
+<P>Traditional method of programming are teach-pendant based and do not require robots to be calibrated. As more and more users start to use offline methods which require calibrated robots then it is likely that the maufacturers will place a greater emphasis on calibrating the robot before it is shipped to the customer.</P>
+<P>Once the robot is installed in a production environment it is likely that it will suffer collisions which will cause the joints to loose their accuracy, so that robot calibration will again be required.</P>
+
+<H2>What is the difference between a three-point touch and robot calibration?</H2>
+<P>Three-point touch is a term used to describe model calibration. The robot is used as a measuring device to determine where the fixture is relative to the robot by touching three datum points on the fixture. These points are then brought back into the simulation model of the workcell and used to update the position of the model of the fixture in the simulation.</P>
+<P>Though the three-point touch does correct for any errors in the zero position of joint 1 it does not correct for any other factors influencing the robot's accuracy. Therefore it may be that for some workcells all that is  required is a three-point touch whereas for other workcells a robot calibration and a three-point touch is required.</P>
+
+<H2>What is tool calibration?</H2>
+<P>Tool calibration is the process whereby the true xyz offset from the mounting faceplate of the robot to the end of the tool may be found. It is important that the correct offset is used in the offline simulation so that robot programme it generates is accurate on the real robot.</P>
+<P>Some applications require that the orientation of the tool should also be found.</P>
+
+<H2>How can tools be calibrated?</H2>
+<P>Some robot controllers allow a user to calibrate a tool by moving its tip to the end of a fixed pointer in several different orientations. Workspace uses the same method for its Recalibrate tool command, though it can obtain more accurate tool offsets than the robot controller because it can use a calibrated robot model (if a robot calibration has been performed previously).</P>
+<P>In some situations the Robotrak measuring device may be fitted to the tip of the tool. This allows Workspace to calibrate the robot and the tool in one step.</P>
+
+<H2>Does tool and model calibration require use of a measuring system?</H2>
+<P>Neither tool nor model calibration require use of a measuring system.</P>
+
+<H2>How does calibration and offline programming all fit together</H2>
+<P>To understand how these techniques all fit together here is a description of several differing offline programming sequences.</P>
+<P>A) Calibration of the robot and the tool in one step.</P>
+<P>The measuring device is attached to the end of the tool. This will only be possible if the end of the tool is easily accessible.</P>
+<P>1. A path is generated in the simulation using the model of the workcell.</P>
+<P>2. The robot and tool are calibrated in one step (by moving the robot to 50 teachpoints and taking a measurement at each step).</P>
+<P>3. The model is calibrated (by moving the robot so that the tip of its tool touches each of three datum points in turn) and the fixture repositioned within the simulation.</P>
+<P>4. The path is sent to the robot as a robot programme.</P>
+<P>B) Calibration of the robot and tool in separate steps.</P>
+<P>In this situation the measuring device is attached to a point on the tool which is accessible but which is not the end of the tool.</P>
+<P>1. A path is generated in the simulation using the model of the workcell.</P>
+<P>2. The robot is calibrated.</P>
+<P>3. The tool is calibrated.</P>
+<P>4. The model is calibrated and the fixture repositioned within the simulation.</P>
+<P>5. The path is sent to the robot as a robot programme.</P>
+<P>C) Use of a special pointer tool for model calibration</P>
+<P>In this situation the tool is unwieldy and so we replace it during robot and model calibration with a special pointer tool.</P>
+<P>1. A path is generated in the simulation using the model of the workcell.</P>
+<P>2. The special pointer tool is attached to the robot. The robot and the special pointer tool are calibrated in one step.</P>
+<P>3. The model is calibrated and the fixture repositioned within the simulation.</P>
+<P>4. Special pointer tool is removed from the robot and replaced with the real tool.</P>
+<P>5. The tool is calibrated.</P>
+<P>6. The path is sent to the robot as a robot programme.</P>
+<P>D) No robot calibration</P>
+<P>Here we assume that the robot is relatively accurate over the its working volume in the workcell.</P>
+<P>1. A path is generated in the simulation using the model of the workcell.</P>
+<P>2. The tool is calibrated.</P>
+<P>3. The model is calibrated and the fixture repositioned within the simulation.</P>
+<P>4. The path is sent to the robot as a robot programme.</P>
+<P>E) Remastering of the robot</P>
+<P>Suppose that offline programming has been attempted without robot calibration and that the robot was found to be inaccurate. The robot is then remastered.</P>
+<P>1. The robot is remastered using the manufacturer's remastering procedure.</P>
+<P>2. A path is generated in the simulation using the model of the workcell.</P>
+<P>3. The tool is calibrated.</P>
+<P>4. The model is calibrated and the fixture repositioned within the simulation.</P>
+<P>5. The path is sent to the robot as a robot programme.</P>
+
+<H2>Glossary of useful terms</H2>
+<P><I>Accuracy</I> The ability of the robot to move as close as possible to a specified position.</P>
+<P><I>Calibration, model</I> The process of finding the true position of a fixture in a robot workcell, and then updating a simulation model so that the model of the fixture is in the correct position and orientation.</P>
+<P><I>Calibration, robot</I> The process of finding the physical errors in the structure of the robot that make it slightly different to the robot controller's internal mathematical model. This improves the accuracy of offline programming.</P>
+<P><I>Calibration, tool</I> The process of find the physical xyz offset from the faceplate of the robot to the endpoint of the tool.</P>
+<P><I>DH parameters</I> The parameters used in the mathematical model of the robot physical structure.</P>
+<P><I>Faceplate</I> The end of the last robot link. The tool is usually attached to the robot faceplate.</P>
+<P><I>Fixture</I> An object whose position does not change during the execution of the robot programme.</P>
+<P><I>Kinematics</I> The relationship between the angles between each successive link of a robot and the xyz position and orientation representing the tool frame relative to the base frame of the robot.</P>
+<P><I>Offline</I> Indicates any process which occurs on separate computer to the robot controller without tying up the robot controller.</P>
+<P><I>Remastering</I> The process of changing the zero position reported by the robot controller to be the same as the physical zero position of each joint.</P>
+<P><I>Repeatability</I> The ability of the robot to move back to as close as possible to a specified position again and again.</P>
+<P><I>Signature</I> Another word for the kinematics errors that cause the robot to be inaccurate before calibration.</P>
+<P><I>Three-point touch</I> A model calibration (see above).</P>
+<P><I>Zero position</I> The position at which all the joint values are zero.</P>
+
+<P><B>John Owens, Technical Director, Robot Simulations Ltd</B></P>
+
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG SRC="gif/home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<center><h6><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+
+<h6>Copyright &copy; 1996 Robot Simulations Ltd</h6>
+<h6>Last revision 3 April 1996</h6></center>
+</P>
+
+
+</BODY>
+
+</HTML>
+
+</DOC>

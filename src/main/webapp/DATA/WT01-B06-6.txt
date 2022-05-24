@@ -1,0 +1,1037 @@
+
+<DOC>
+<DOCNO>WT01-B06-6</DOCNO>
+<DOCOLDNO>IA044-000801-B015-220</DOCOLDNO>
+<DOCHDR>
+http://samsara.law.cwru.edu:80/comp_law/apple.html 129.22.184.108 19970118135234 text/html 60557
+HTTP/1.0 200 OK
+Date: Sat, 18 Jan 1997 13:56:10 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 60385
+Last-modified: Mon, 05 Aug 1996 13:25:01 GMT
+</DOCHDR>
+<html>
+<title>Apple v. Franklin</title>
+<body>
+
+<p><center> 
+<h1>Apple Computer, Inc. v. Franklin Computer Corp.</h1> 
+
+United States Court of Appeals for the Third Circuit<br> 
+714 F.2d 1240<br>
+1983
+</center>  
+ 
+
+<p>
+Before: Hunter, Higginbotham and Sloviter, Circuit Judges 
+
+<p><center> 
+<b>OPINION OF THE COURT</b> 
+</center>
+
+<p>Sloviter, Circuit Judge. 
+<center>
+<p> 
+I. 
+ 
+<p>
+INTRODUCTION
+</center> 
+ 
+<p>
+   Apple Computer, Inc. appeals from the district court's denial of a motion to
+preliminarily enjoin Franklin Computer Corp. from infringing the copyrights 
+Apple holds on fourteen computer programs. 
+ 
+   The decision to grant or refuse to grant a preliminary injunction
+is within the discretion of the district court.  <em>See A.O. Smith
+Corp</em>. v. <em>FTC</em>, 530 F.2d 515, 525 (3d Cir. 1976). Although the
+scope of our review of the action of the district court in ruling on a
+motion for preliminary injunction is narrow, reversal is warranted if
+the trial court has abused its discretion or committed error in
+applying the law.  <em>Kennecott Corp</em>. v. <em>Smith</em>, 637 F.2d
+181, 187 (3d Cir.  1980). As the Second Circuit has stated recently,
+``Despite oft repeated statements that the issuance of a preliminary
+injunction rests in the discretion of the trial judge whose decisions
+will be reversed only for `abuse', a court of appeals must reverse if
+the district court has proceeded on the basis of an erroneous view of
+the applicable law.'' <em>Donovan</em> v. <em>Bierwirth</em>, 680 F.2d 263,
+269 (2d Cir.), <em>cert. denied</em>, 459 U.S. 1069, 103 S. Ct. 488, 74
+L. Ed. 2d 631 (1982).
+ 
+   In this case the district court denied the preliminary injunction,
+<em>inter alia</em>, because it had ``some doubt as to the
+copyrightability of the programs.''  <em>Apple Computer, Inc</em>. v.
+<em>Franklin Computer Corp</em>., 545 F. Supp. 812, 812 (E.D. Pa.
+1982). This legal ruling is fundamental to all future proceedings in
+this action and, as the parties and amici curiae seem to agree, has
+considerable significance to the computer services
+industry.<a name="F1"><a href="#FN1"><sup><fontsize=-2>1</font></sup></a></a>
+Because we conclude that the district court proceeded under an erroneous
+view of the applicable law, we reverse the denial of the preliminary
+injunction and remand.
+ 
+<p>
+<center> 
+II. 
+ 
+<p>
+FACTS AND PROCEDURAL HISTORY 
+</center>
+ 
+<p>
+   Apple, one of the computer industry leaders, manufactures and markets 
+personal computers (microcomputers), related peripheral equipment such as disk 
+drives (peripherals), and computer programs (software).  It presently 
+manufactures Apple II computers and distributes over 150 programs.  Apple has 
+sold over 400,000 Apple II computers, employs approximately 3,000 people, and 
+had annual sales of $335,000,000 for fiscal year 1981.  One of the by-products 
+of Apple's success is the independent development by third parties of numerous 
+computer programs which are designed to run on the Apple II computer. 
+    
+ 
+   Franklin, the defendant below, manufactures and sells the ACE 100 personal 
+computer and at the time of the hearing employed about 75 people and had sold 
+fewer than 1,000 computers.  The ACE 100 was designed to be ``Apple compatible,'' 
+so that peripheral equipment and software developed for use with the Apple II 
+computer could be used in conjunction with the ACE 100.  Franklin's copying of 
+Apple's operating system computer programs in an effort to achieve such 
+compatibility precipitated this suit. 
+ 
+   Like all computers both the Apple II and ACE 100 have a central processing 
+unit (CPU) which is the integrated circuit that executes programs.  In lay terms, 
+the CPU does the work it is instructed to do.  Those instructions are contained 
+on computer programs. 
+ 
+   There are three levels of computer language in which computer programs may be 
+written.<a name="F2"><a href="#FN2"><sup><fontsize=-2>2</font></sup></a></a> High level language, such as the commonly used BASIC or FORTRAN, 
+uses English words and symbols, and is relatively easy to learn and understand 
+(e.g., ``GO TO 40'' tells the computer to skip intervening steps and go to the 
+step at line 40).  A somewhat lower level language is assembly language, which 
+consists of alphanumeric labels (e.g., ``ADC'' means ``add with carry''). 
+Statements in high level language, and apparently also statements in assembly 
+language, are referred to as written in ``source code.'' The third, or lowest 
+level computer language, is machine language, a binary language using two 
+symbols, 0 and 1, to indicate an open or closed switch (e.g., ``01101001'' means, 
+to the Apple, add two numbers and save the result).  Statements in machine 
+language are referred to as written in ``object code.''  
+ 
+    
+ 
+   The CPU can only follow instructions written in object code.  However, 
+programs are usually written in source code which is more intelligible to 
+humans.  Programs written in source code can be converted or translated by a 
+``compiler'' program into object code for use by the computer.  Programs are 
+generally distributed only in their object code version stored on a memory 
+device. 
+ 
+   A computer program can be stored or fixed on a variety of memory devices, two 
+of which are of particular relevance for this case.  The ROM (Read Only Memory) 
+is an internal permanent memory device consisting of a semi-conductor ``chip'' 
+which is incorporated into the circuitry of the computer.  A program in object 
+code is embedded on a ROM before it is incorporated in the computer. 
+Information stored on a ROM can only be read, not erased or rewritten.<a name="F3"><a href="#FN3"><sup><fontsize=-2>3</font></sup></a></a> The 
+ACE 100 apparently contains EPROMS (Erasable Programmable Read Only Memory) on 
+which the stored information can be erased and the chip reprogrammed, but the 
+district court found that for purposes of this proceeding, the difference 
+between ROMs and EPROMs is inconsequential.  545 F. Supp. at 813 n.3. The other 
+device used for storing the programs at issue is a diskette or ``floppy disk'', an 
+auxiliary memory device consisting of a flexible magnetic disk resembling a 
+phonograph record, which can be inserted into the computer and from which data 
+or instructions can be read. 
+ 
+    
+ 
+   Computer programs can be categorized by function as either application 
+programs or operating system programs.  Application programs usually perform a 
+specific task for the computer user, such as word processing, checkbook 
+balancing, or playing a game.  In contrast, operating system programs generally 
+manage the internal functions of the computer or facilitate use of application 
+programs.  The parties agree that the fourteen computer programs at      
+issue in this suit are operating system programs.<a name="F4"><a href="#FN4"><sup><fontsize=-2>4</font></sup></a></a> 
+ 
+   Apple filed suit in the United States District Court for the Eastern District 
+of Pennsylvania pursuant to 28 U.S.C. &#167; 1338 on May 12, 1982, alleging that 
+Franklin was liable for copyright infringement of the fourteen computer 
+programs, patent infringement, unfair competition, and misappropriation. 
+Franklin's answer in respect to the copyright counts included the affirmative 
+defense that the programs contained no copyrightable subject matter.  Franklin 
+counterclaimed for declaratory judgment that the copyright registrations were 
+invalid and unenforceable, and sought affirmative relief on the basis of Apple's 
+alleged misuse.  Franklin also moved to dismiss eleven of the fourteen copyright 
+infringement counts on the ground that Apple failed to comply with the 
+procedural requirements for suit under 17 U.S.C. &#167;&#167; 410, 411.      
+ 
+   After expedited discovery, Apple moved for a preliminary injunction
+to restrain Franklin from using, copying, selling, or infringing
+Apple's copyrights.  The district court held a three day evidentiary
+hearing limited to the copyright infringement claims.  Apple produced
+evidence at the hearing in the form of affidavits and testimony that
+programs sold by Franklin in conjunction with its ACE 100 computer
+were virtually identical with those covered by the fourteen Apple
+copyrights.  The variations that did exist were minor, consisting
+merely of such things as deletion of reference to Apple or its
+copyright notice.<a name="F5"><a href="#FN5"><sup><fontsize=-2>5</font></sup></a></a> James Huston, an Apple systems
+programmer, concluded that the Franklin programs were ``unquestionably
+copied from Apple and could not have been independently created.'' He
+reached this conclusion not only because it is ``almost impossible for
+so many lines of code'' to be identically written, but also because his
+name, which he had embedded in one program (Master Create), and the
+word ``Applesoft'', which was embedded in another (DOS 3.3), appeared
+on the Franklin master disk.  Apple estimated the ``works in suit''
+took 46 man-months to produce at a cost of over $740,000, not
+including the time or cost of creating or acquiring earlier versions
+of the programs or the expense of marketing the programs.
+
+<p>   Franklin did not dispute that it copied the Apple programs.  Its witness 
+admitted copying each of the works in suit from the Apple programs.  Its factual 
+defense was directed to its contention that it was not feasible for Franklin to 
+write its own operating system programs.  David McWherter, now Franklin's 
+vice-president of engineering, testified he spent 30-40 hours in November 1981 
+making a study to determine if it was feasible for Franklin to write its own 
+Autostart ROM program and concluded it was not because ``there were just too many 
+entry points in relationship to the number of instructions in the program.'' 
+Entry points at specific locations in the program can be used by programmers to 
+mesh their application programs with the operating system program.  McWherter 
+concluded that use of the identical signals was necessary in order to ensure 
+100% compatibility with application programs created to run on the Apple 
+computer.  He admitted that he never attempted to rewrite Autostart ROM and 
+conceded that some of the works in suit (<em>i.e.</em>  Copy, Copy A, Master Create, and 
+Hello) probably could have been rewritten by Franklin.  Franklin made no attempt 
+to rewrite any of the programs prior to the lawsuit except for Copy, although 
+McWherter testified that Franklin was ``in the process of redesigning'' some of 
+the Apple programs and that ``[w]e had a fair degree of certainty that that would 
+probably work.'' Apple introduced evidence that Franklin could have rewritten 
+programs, including the Autostart ROM program, and that there are in existence 
+operating programs written by third parties which are compatible with Apple II. 
+ 
+   Franklin's principal defense at the preliminary injunction hearing and before 
+us is primarily a legal one, directed to its contention that the Apple operating 
+system programs are not capable of copyright protection. 
+ 
+   The district court denied the motion for preliminary injunction by order and
+opinion dated July 30, 1982.  Apple moved for reconsideration in light of this 
+court's decision in <em>Williams Electronics, Inc</em>. v. <em>Artic International, Inc</em>., 685 
+F.2d 870 (3d Cir. 1982), which was decided August 2, 1982, three days after the 
+district court decision.  The district court denied the motion for 
+reconsideration.  We have jurisdiction of Apple's appeal pursuant to 28 U.S.C. 
+&#167; 1292(a)(1). 
+
+<p>
+<center> 
+
+<p>
+III. 
+<p> 
+THE DISTRICT COURT OPINION
+</center> 
+ 
+<p>
+   In its opinion, the district court referred to the four factors to be 
+considered on request for a preliminary injunction: a reasonable 
+probability of success on the merits; irreparable injury; the improbability of 
+harm to other interested persons; and the public interest.  545 F. Supp. at 825; 
+see <em>Delaware River Port Authority</em> v. <em>Transamerican Trailer Transport, Inc</em>., 501 
+F.2d 917, 919--20 (3d Cir. 1974). The court stated it based its denial of the 
+motion on the first two factors.  The court held Apple had not made the 
+requisite showing of likelihood of success on the merits because it ``concluded 
+that there is some doubt as to the copyrightability of the programs described in 
+this litigation.'' 545 F. Supp. at 812. It also stated that ``Apple is better 
+suited to withstand whatever injury it might sustain during litigation than is 
+Franklin to withstand the effects of a preliminary injunction'' because an 
+injunction would have a ``devastating effect'' on Franklin's business, <em>id</em>. at 825, 
+apparently concluding on that basis that Apple had failed to show irreparable 
+harm. 
+ 
+   It is difficult to discern precisely why the district court questioned the 
+copyrightability of the programs at issue since there is no finding, statement, 
+or holding on which we can focus which clearly sets forth the district court's 
+view.  Throughout the opinion the district court referred to the ``complexity of 
+the question presented by the present case'', 545 F. Supp. at 824, and the 
+``baffling'' problem at issue.  <em>Id</em>. at 822. 
+ 
+   The opinion expresses a series of generalized concerns which may have led the 
+court to its ultimate conclusion, and which the parties and amici treat as 
+holdings.  The district court referred to the requirement under the Copyright 
+Act of finding ``original works of authorship'', 17 U.S.C. &#167; 102(a), and seems to 
+have found that there was a sufficient ``modicum of creativity'' to satisfy the 
+statutory requirement of an ``original work''.  545 F. Supp. at 820--21. The court 
+was less clear as to whether the creation of a computer program by a programmer 
+satisfied the requirement of ``works of authorship'', <em>id</em>., and whether an 
+operating system program in ``binary code or one represented either in a ROM or 
+by micro-switches'' was an ``expression'' which could be copyrighted as 
+distinguished from an ``idea'' which could not be.  <em>Id</em>. at 821. 
+ 
+   Again, although we cannot point to a specific holding, running throughout the 
+district court opinion is the suggestion that programs in object code and ROMs 
+may not be copyrightable.  Thus, for example, in a series of discursive 
+footnotes, the district court stated that it found ``persuasive'' a district court 
+opinion ``holding that object code in ROM is not copyright protected'', 545 F. 
+Supp. at 818 n.8 (referring to <em>Data Cash Systems, Inc</em>. v. <em>JS&A Group, Inc.</em>, 480 
+F. Supp. 1063 (N.D.Ill. 1979), <em>aff'd on other grounds</em>, 628 F.2d 1038 (7th Cir. 
+1980)); described an opinion reaching a contrary conclusion as containing 
+``rather terse analysis [which] provides little guidance'', 545 F. Supp. at 818 
+n.8 (referring to <em>GCA Corp</em>. v. <em>Chance</em>, 217 U.S.P.Q. 718 (N.D.Cal. 1982), which 
+followed the reasoning of <em>Tandy Corp</em>. v. <em>Personal Micro Computers, Inc</em>., 524 F. 
+Supp. 171 (N.D.Cal. 1981)); and stated that ``Congressional intent regarding the 
+copyrightability of object codes and ROMs is not clear'', 545 F. Supp. at 819 
+n.9, and that even among members of the industry it was not clear that the 
+copyright law protects works ``like those in suit that are ROM-based,'' <em>id</em>. at 819 
+n.10. 
+ 
+   We read the district court opinion as presenting the following legal issues:
+(1) whether copyright can exist in a computer program expressed in object code,
+(2) whether copyright can exist in a computer program embedded on a ROM, (3) 
+whether copyright can exist in an operating system program, and (4) whether 
+independent irreparable harm must be shown for a preliminary injunction in 
+copyright infringement actions. 
+ 
+<center>   
+<p>
+IV.
+
+<p> 
+DISCUSSION 
+
+<p>A.
+ <p>
+<em>Copyrightability of a Computer Program</em><br>
+<em>Expressed in Object Code</em> 
+</center>
+ 
+<p>
+   Certain statements by the district court suggest that programs expressed in 
+object code, as distinguished from source code, may not be the 
+proper subject of copyright.  We find no basis in the statute for any such 
+concern.  Furthermore, our decision in <em>Williams Electronics, Inc</em>. v. <em>Artic 
+International, Inc., supra</em>, laid to rest many of the doubts expressed by the 
+district court. 
+ 
+   In 1976, after considerable study, Congress enacted a new copyright law to 
+replace that which had governed since 1909.  Act of October 19, 1976, Pub. L. No. 
+94--553, 90 Stat. 2541 (<em>codified</em> at 17 U.S.C. &#167;&#167; 101 <em>et seq</em>.).  Under the law, 
+two primary requirements must be satisfied in order for a work to constitute 
+copyrightable subject matter---it must be an ``original wor[k] of authorship'' 
+and must be ``fixed in [a] tangible medium of expression.'' 17 U.S.C. &#167; 102(a). 
+The statute provides:
+
+<p><blockquote>  
+   (a) Copyright protection subsists, in accordance with this title, in original 
+works of authorship fixed in any tangible medium of expression, now known or 
+later developed, from which they can be perceived, reproduced, or otherwise 
+communicated, either directly or with the aid of a machine or device.
+</blockquote>
+ 
+   <em>Id</em>.  The statute enumerates seven categories under ``works of authorship'' 
+including ``literary works'', defined as follows:
+
+<p><blockquote> 
+   ``Literary works'' are works, other than audiovisual works, expressed in words, 
+numbers, or other verbal or numerical symbols or indicia, regardless of the 
+nature of the material objects, such as books, periodicals, manuscripts, 
+phonorecords, film, tapes, disks, or cards, in which they are embodied.
+</blockquote> 
+ 
+   17 U.S.C. &#167; 101.A work is ``fixed'' in a tangible medium of expression when: 
+ 
+<blockquote>
+   its embodiment in a copy or phonorecord, by or under the authority of the 
+author, is sufficiently permanent or stable to permit it to be perceived, 
+reproduced, or otherwise communicated for a period of more than transitory 
+duration.  A work consisting of sounds, images, or both, that are being 
+transmitted, is ``fixed'' for purposes of this title if a fixation of the work is
+being made simultaneously with its transmission.
+</blockquote> 
+ 
+   <em>Id</em>. 
+ 
+   Although section 102(a) does not expressly list computer programs
+as works of authorship, the legislative history suggests that programs
+were considered copyrightable as literary works.  <em>See</em>
+H.R. Rep. No. 1476, 94th Cong., 2d Sess. 54, <em>reprinted in</em> 1976
+U.S. Code Cong. & Ad. News 5659, 5667 (``literary works' ...
+includes ... computer programs'').  Because a Commission on New
+Technological Uses (``CONTU'') had been created by Congress to study,
+<em>inter alia</em>, computer uses of copyrighted works, Pub. L. No.
+93--573, &#167; 201, 88 Stat. 1873 (1974), Congress enacted a status quo
+provision, section 117, in the 1976 Act concerning such computer uses
+pending the CONTU report and recommendations.<a name="F6"><a href="#FN6"><sup><fontsize=-2>6</font></sup></a></a>
+
+<p>   The CONTU Final Report recommended that the copyright law be amended, <em>inter 
+alia</em>, ``to make it explicit that computer programs, to the extent that they 
+embody an author's original creation, are proper subject matter of copyright.'' 
+National Commission on New Technological Uses of Copyrighted Works, <em>Final Report</em> 
+1 (1979) [hereinafter CONTU Report].  CONTU recommended two changes relevant 
+here: that section 117, the status quo provision, be repealed and replaced with 
+a section limiting exclusive rights in computer programs so as ``to ensure that 
+rightful possessors of copies of computer programs may use or adapt these copies 
+for their use,'' <em>id</em>.; and that a definition of computer program be added to 
+section 101.  <em>Id</em>. at 12.  Congress adopted both changes.  Act of Dec. 12, 1980, 
+Pub. L. No. 96--517, &#167; 10, 94 Stat. 3015, 3028.  The revisions embodied CONTU's 
+recommendations to clarify the law of copyright of computer software. 
+H.R. Rep. No. 1307, 96th Cong., 2d Sess. 23, <em>reprinted in</em> 1980 U.S. Code Cong. & 
+Ad. News 6460, 6482. 
+ 
+   The 1980 amendments added a definition of a computer program:
+   
+<blockquote> 
+   A ``computer program'' is a set of statements or instructions to be used 
+directly or indirectly in a computer in order to bring about a certain result. 
+</blockquote> 
+
+<p>   17 U.S.C.  &#167; 101. The amendments also substituted a new section 117 which 
+provides that ``it is not an infringement for the owner of a copy of a computer 
+program to make or authorize the making of another copy or adaptation of that 
+computer program'' when necessary to ``the utilization of the computer program'' or 
+``for archival purposes only.'' 17 U.S.C.  &#167; 117. The parties agree that this 
+section is not implicated in the instant lawsuit.  The language of the 
+provision, however, by carving out an exception to the normal proscriptions 
+against copying, clearly indicates that programs are copyrightable and are 
+otherwise afforded copyright protection. 
+ 
+   We considered the issue of copyright protection for a computer program in 
+<em>Williams Electronics, Inc</em>. v. <em>Artic International, Inc</em>., and concluded that ``the 
+copyrightability of computer programs is firmly established after the 1980 
+amendment to the Copyright Act.'' 685 F.2d at 875. At issue in <em>Williams</em> were not 
+only two audiovisual copyrights to the ``attract'' and ``play'' modes of a video 
+game, but also the computer program which was expressed in object code embodied 
+in ROM and which controlled the sights and sounds of the game.  Defendant there 
+had argued ``that when the issue is the copyright on a computer program, a 
+distinction must be drawn between the `source code' version of a computer 
+program, which ...  can be afforded copyright protection, and the ``object code'' 
+stage, which ... cannot be so protected,'' an argument we rejected.  <em>Id</em>. at 
+876. 
+ 
+   The district court here questioned whether copyright was to be
+limited to works ``designed to be ``read'' by a human reader [as
+distinguished from] read by an expert with a microscope and
+patience'', 545 F. Supp. at 821. The suggestion that copyrightability
+depends on a communicative function to individuals stems from the
+early decision of <em>White-Smith Music Publishing Co</em>. v.
+<em>Apollo Co</em>., 209 U.S. 1, 52 L. Ed. 655, 28 S. Ct. 319 (1908),
+which held a piano roll was not a copy of the musical composition
+because it was not in a form others, except perhaps for a very expert
+few, could perceive.  <em>See</em> 1 <em>Nimmer on Copyright</em>
+&#167; 2.03[B][1] (1983).  However, it is clear from the language of the
+1976 Act and its legislative history that it was intended to
+obliterate distinctions engendered by <em>White-Smith</em>.
+H.R. Rep. No. 1476, <em>supra</em>, at 52, <em>reprinted in</em> 1976
+U.S. Code Cong. & Ad. News at 5665.
+ 
+   Under the statute, copyright extends to works in any tangible means of 
+expression ``<em>from which they can be perceived</em>, reproduced, or otherwise 
+communicated, either directly or <em>with the aid of a machine or device</em>.'' 17 
+U.S.C.  &#167; 102(a) (emphasis added).  Further, the definition of ``computer 
+program'' adopted by Congress in the 1980 amendments is ``sets of statements or 
+instructions to be used <em>directly or indirectly</em> in a computer in order to bring 
+about a certain result.'' 17 U.S.C.  &#167; 101 (emphasis added).  As source code 
+instructions must be translated into object code before the computer can act 
+upon them, only instructions expressed in object code can be used ``directly'' by 
+the computer.  <em>See Midway Manufacturing Co</em>. v. <em>Strohon</em>, 564 F. Supp. 741, 750 
+(N.D.Ill. 1983). This definition was adopted following the CONTU Report in which 
+the majority clearly took the position that object codes are proper subjects of 
+copyright.  <em>See</em> CONTU Report at 21.  The majority's conclusion was reached 
+although confronted by a dissent based upon the theory that the ``machine-control 
+phase'' of a program is not directed at a human audience.  <em>See</em> CONTU Report at 
+28--30 (dissent of Commissioner Hersey). 
+ 
+   The defendant in <em>Williams</em> had also argued that a copyrightable work ``must be 
+intelligible to human beings and must be intended as a medium of communication 
+to human beings,'' <em>id</em>. at 876--77.  We reiterate the statement we made in <em>Williams</em> 
+when we rejected that argument: ``[t]he answer to defendant's contention is in 
+the words of the statute itself.'' 685 F.2d at 877.     
+   The district court also expressed uncertainty as to whether a computer 
+program in object code could be classified as a ``literary work.''<a name="F7"><a href="#FN7"><sup><fontsize=-2>7</font></sup></a></a> However, the 
+category of ``literary works'', one of the seven copyrightable categories, is not 
+confined to literature in the nature of Hemingway's <em>For Whom the Bell Tolls</em>. 
+The definition of ``literary works'' in section 101 includes expression not only 
+in words but also ``numbers, or other . . . numerical symbols or indicia'', 
+thereby expanding the common usage of ``literary works.'' <em>Cf. Harcourt, Brace & 
+World, Inc</em>. v. <em>Graphic Controls Corp.</em>, 329 F. Supp. 517, 523--24 (S.D.N.Y. 1971) 
+(the symbols designating questions or response spaces on exam answer sheets held 
+to be copyrightable ``writings'' under 1909 Act); <em>Reiss</em> v. <em>National Quotation 
+Bureau, Inc</em>., 276 F. 717 (S.D.N.Y. 1921) (code book of coined words designed for 
+cable use copyrightable).  Thus a computer program, whether in object code or 
+source code, is a ``literary work'' and is protected from unauthorized copying, 
+whether from its object or source code version.  <em>Accord Midway Mfg. Co</em>. v. 
+<em>Strohon</em>, slip op. at 25--27; <em>see also GCA Corp</em>. v. <em>Chance</em>, 217 U.S.P.A. at 
+719--20. 
+ 
+<center>
+
+<p>B. 
+
+<p><em>Copyrightability of a Computer Program</em> 
+<em>Embedded on a ROM</em> 
+</center>
+ 
+<p>
+   Just as the district court's suggestion of a distinction between source code
+and object code was rejected by our opinion in <em>Williams</em> issued three days after
+the district court opinion, so also was its suggestion that embodiment of a 
+computer program on a ROM, as distinguished from in a traditional writing, 
+detracts from its copyrightability.  In <em>Williams</em> we rejected the argument that 
+``a computer program is not infringed when the program is loaded into electronic
+memory devices (ROMs) and used to control the activity of machines.'' 685 F.2d at 
+876. Defendant there had argued that there can be no copyright protection for 
+the ROMs because they are utilitarian objects or machine parts.  We held that 
+the statutory requirement of ``fixation'', the manner in which the issue arises, 
+is satisfied through the embodiment of the expression in the ROM
+devices.  <em>Id</em>.  
+at 874, 876; <em>see also Midway Mfg. Co</em>. v. <em>Strohon</em>, slip op. at 27--30; <em>Tandy Corp</em>. 
+v. <em>Personal Micro Computers, Inc</em>., 524 F. Supp. at 173; <em>cf. Stern Electronics, 
+Inc</em>. v. <em>Kaufman</em>, 669 F.2d 852, 855--56 (2d Cir. 1982) (audiovisual display of 
+video game ``fixed'' in ROM).  Therefore we reaffirm that a computer program in 
+object code embedded in a ROM chip is an appropriate subject of copyright. 
+ <em>See also Note, Copyright Protection of Computer Program Object Code</em>, 96
+ Harv. L.Rev. 1723 (1983); <em>Note, Copyright Protection for Computer 
+Programs in Read Only Memory Chips</em>, 11 Hofstra L.Rev. 329 (1982). 
+
+<p><center> 
+C.
+
+<p><em>Copyrightability of Computer Operating</em>
+<em>System Programs</em>
+</center> 
+ 
+<p>
+   We turn to the heart of Franklin's position on appeal which is that
+computer operating system programs, as distinguished from application
+programs, are not the proper subject of copyright ``regardless of the
+language or medium in which they are fixed.'' Brief of Appellee at 15
+(emphasis deleted).  Apple suggests that this issue too is foreclosed by
+our <em>Williams</em> decision because some portion of the program at
+issue there was in effect an operating system program.  Franklin is
+correct that this was not an issue raised by the parties in
+<em>Williams</em> and it was not considered by the court.  Thus we
+consider it as a matter of first impression.
+ 
+   Franklin contends that operating system programs are <em>per se</em> excluded from 
+copyright protection under the express terms of section 102(b) of the Copyright 
+Act, and under the precedent and underlying principles of <em>Baker</em> v. <em>Selden</em>, 101 
+U.S. 99, 25 L. Ed. 841 (1879). These separate grounds have substantial analytic
+overlap. 
+ 
+   In <em>Baker</em> v. <em>Selden</em>, plaintiff's testator held a copyright on a book 
+explaining a bookkeeping system which included blank forms with ruled lines and 
+headings designed for use with that system.  Plaintiff sued for copyright 
+infringement on the basis of defendant's publication of a book containing a 
+different arrangement of the columns and different headings, but which used a 
+similar plan so far as results were concerned.  The Court, in reversing the 
+decree for the plaintiff, concluded that blank account-books were not the 
+subject of copyright and that ``the mere copyright of Selden's book did not 
+confer upon him the exclusive right to make and use account-books, ruled and 
+arranged as designated by him and described and illustrated in said book.''
+ <em>Id</em>. at 107. The Court stated that copyright of the books did not give 
+the plaintiff the exclusive right to use the system explained in the books, 
+noting, for example, that ``copyright of a work on mathematical science cannot 
+give to the author an exclusive right to the methods of operation which he 
+propounds.'' <em>Id</em>. at 103. 
+ 
+   Franklin reads <em>Baker</em> v. <em>Selden</em> as ``stand[ing] for several fundamental 
+principles, each presenting ... insuperable obstacle to the 
+copyrightability of Apple's operating systems.'' It states: 
+
+<p><blockquote> 
+   <em>First, Baker</em> teaches that use of a system itself does not infringe a 
+copyright on the description of the system.  <em>Second, Baker</em> enunciates the rule 
+that copyright does not extend to purely utilitarian works.  <em>Finally, Baker</em> 
+emphasizes that the copyright laws may not be used to obtain and hold a monopoly 
+over an idea.  In so doing, <em>Baker</em> highlights the principal difference between 
+the copyright and patent laws---a difference that is highly pertinent in this 
+case.
+</blockquote> 
+ 
+   Brief of Appellee at 22. 
+ 
+   Section 102(b) of the Copyright Act, the other ground on which Franklin 
+relies, appeared first in the 1976 version, long after the decision in <em>Baker</em> v. <em>Selden</em>. It provides: 
+
+<p><blockquote> 
+   In no case does copyright protection for an original work of authorship 
+extend to any idea, procedure, process, system, method of operation, concept, 
+principle, or discovery, regardless of the form in which it is described, 
+explained, illustrated, or embodied in such work.
+</blockquote> 
+ 
+   It is apparent that section 102(b) codifies a substantial part of the holding 
+and dictum of <em>Baker</em> v. <em>Selden</em>.  <em>See 1 Nimmer on Copyright</em> 
+&#167; 2.18[D], at 2--207. 
+ 
+   We turn to consider the two principal points of Franklin's argument.
+ 
+   1.  <em>``Process'', ``System'' or ``Method of Operation''</em>
+ 
+   Franklin argues that an operating system program is either a
+``process'', ``system'', or ``method of operation'' and hence
+uncopyrightable.<a name="F8"><a href="#FN8"><sup><fontsize=-2>8</font></sup></a></a> Franklin correctly notes that underlying section 102(b) and
+many of the statements for which <em>Baker</em> v. <em>Selden</em> is
+cited is the distinction which must be made between property subject
+to the patent law, which protects discoveries, and that subject to
+copyright law, which protects the writings describing such
+discoveries.  However, Franklin's argument misapplies that distinction
+in this case.  Apple does not seek to copyright the method which
+instructs the computer to perform its operating functions but only the
+instructions themselves.  The method would be protected, if at all, by
+the patent law, an issue as yet unresolved.  <em>See Diamond</em> v.
+<em>Diehr</em>, 450 U.S. 175, 67 L. Ed. 2d 155, 101 S. Ct.  1048 (1981).
+    
+ 
+   Franklin's attack on operating system programs as ``methods'' or ``processes'' 
+seems inconsistent with its concession that application programs are an 
+appropriate subject of copyright.  Both types of programs instruct the computer 
+to do something.  Therefore, it should make no difference for purposes of 
+section 102(b) whether these instructions tell the computer to help prepare an 
+income tax return (the task of an application program) or to translate a high 
+level language program from source code into its binary language object code 
+form (the task of an operating system program such as ``Applesoft'', <em>see</em> 
+note 4 <em>supra</em>).  Since it is only the instructions which are protected, 
+a``process'' is no more involved because the instructions in an operating system
+program may be used to activate the operation of the computer than it would be
+if instructions were written in ordinary English in a manual which described 
+the necessary steps to activate an intricate complicated machine.  There is, therefore, no reason to 
+afford any less copyright protection to the instructions in an operating system 
+program than to the instructions in an application program. 
+ 
+   Franklin's argument, receptively treated by the district court, that an 
+operating system program is part of a machine mistakenly focuses on the physical 
+characteristics of the instructions.  But the medium is not the message.  We 
+have already considered and rejected aspects of this contention in the 
+discussion of object code and ROM.  The mere fact that the operating system 
+program may be etched on a ROM does not make the program either a machine, part 
+of a machine or its equivalent.  Furthermore, as one of Franklin's witnesses 
+testified, an operating system does not have to be permanently in the machine in 
+ROM, but it may be on some other medium, such as a diskette or magnetic tape, 
+where it could be readily transferred into the temporary memory space of the 
+computer.  In fact, some of the operating systems as issue were on diskette.  As 
+the CONTU majority stated, 
+ 
+<blockquote>
+   Programs should no more be considered machine parts than videotapes should be 
+considered parts of projectors or phonorecords parts of sound reproduction 
+equipment. . . .   That the words of a program are used ultimately in the 
+implementation of a process should in no way affect their copyrightability. 
+</blockquote>
+ 
+   CONTU Report at 21. 
+ 
+   Franklin also argues that the operating systems cannot be copyrighted because 
+they are ``purely utilitarian works'' and that Apple is seeking to block the use 
+of the art embodied in its operating systems.  This argument stems from the 
+following dictum in <em>Baker</em> v. <em>Selden</em>: 
+ 
+<blockquote>
+   The very object of publishing a book on science or the useful arts is to 
+communicate to the world the useful knowledge which it contains.  But this 
+object would be frustrated if the knowledge could not be used without incurring 
+the guilt of piracy of the book.  And where the art it teaches cannot be used 
+without employing the methods and diagrams used to illustrate the book, or such 
+as are similar to them, such methods and diagrams are to be considered as 
+necessary incidents to the art, and given therewith to the public; not given for 
+the purpose of publication in other works explanatory of the art, but for the 
+purpose of practical application. 
+</blockquote>
+ 
+   101 U.S. at 103. We cannot accept the expansive reading given to this 
+language by some courts, see, <em>e.g., Taylor Instrument Companies</em> v. 
+<em>Fawley-Brost Co</em>., 139 F.2d 98 (7th Cir. 1943), <em>cert. denied</em>, 321 U.S. 785, 88 L. Ed. 1076, 64 
+S. Ct. 782 (1944). In this respect we agree with the views expressed by 
+Professor Nimmer in his treatise.  <em>See</em> 1 <em>Nimmer on Copyright</em> &#167; 2.18[C]. 
+   
+ 
+   Although a literal construction of this language could support Franklin's 
+reading that precludes copyrightability if the copyright work is put to a 
+utilitarian use, that interpretation has been rejected by a later Supreme Court 
+decision.  In <em>Mazer</em> v. <em>Stein</em>, 347 U.S. 201, 218, 98 L. Ed. 630, 74 S. Ct. 460 
+(1954), the Court stated: ``We find nothing in the copyright statute to support 
+the argument that the intended use or use in industry of an article eligible for 
+copyright bars or invalidates its registration.  We do not read such a 
+limitation into the copyright law.'' <em>Id</em>. at 218. The CONTU majority also rejected 
+the expansive view some courts have given <em>Baker</em> v. <em>Selden</em>, and stated, ``That the 
+words of a program are used ultimately in the implementation of a process should 
+in no way affect their copyrightability.'' <em>Id</em>. at 21.  It referred to ``copyright 
+practice past and present, which recognizes copyright protection for a work of 
+authorship regardless of the uses to which it may be put.'' <em>Id</em>.  The Commission 
+continued: ``The copyright status of the written rules for a game <em>or a system for 
+the operation of a machine</em> is unaffected by the fact that those rules direct the 
+actions of those who play the game or <em>carry out the process</em>.'' <em>Id</em>.  (emphasis 
+added).  As we previously noted, we can consider the CONTU Report as accepted by 
+Congress since Congress wrote into the law the majority's recommendations almost 
+verbatim.  <em>See</em> 18 Cong.Rec. H10767 (daily ed. Nov. 17, 1980) (Rep. Kastenmeier: 
+Bill ``eliminates confusion about the legal status of computer software by 
+enacting the recommendations of [CONTU] clarifying the law of copyright of 
+computer software''); 18 Cong.Rec. S14766 (daily ed. Nov. 20, 1980) (Sen. Bayh: 
+``[t]his language reflects that proposed by [CONTU'']). 
+ 
+   Perhaps the most convincing item leading us to reject Franklin's
+argument is that the statutory definition of a computer program is a
+set of instructions to be used in a computer in order to bring about a
+certain result, 17 U.S.C. &#167; 101, makes no distinction between
+application programs and operating programs.  Franklin can point to no
+decision which adopts the distinction it seeks to make.  In the one
+other reported case to have considered it, <em>Apple Computer,
+Inc</em>. v. <em>Formula International, Inc</em>., 562 F. Supp. 775
+(C.D.Cal. 1983), the court reached the same conclusion which we do,
+<em>i.e.</em> that an operating system program is not per se precluded
+from copyright.  It stated, ``There is nothing in any of the statutory
+terms which suggest a different result for different types of computer
+programs based upon the function they serve within the machine.''
+<em>Id</em>. at 780.  Other courts have also upheld the
+copyrightability of operating programs without discussion of this
+issue.  <em>See Tandy Corp</em>. v. <em>Personal Micro Computers,
+Inc</em>., 524 F. Supp. at 173 (input-output routine stored in ROM which
+translated input into machine language in a similar fashion as
+Applesoft and Apple Integer Basic proper subject of copyright);
+<em>GCA Corp</em>. v. <em>Chance</em>, 217 U.S.P.Q. at 719--20 (object
+code version of registered source code version of operating programs
+is the same work and protected).
+ 
+   2.  <em>Idea/Expression Dichotomy</em>
+ 
+   Franklin's other challenge to copyright of operating system programs relies 
+on the line which is drawn between ideas and their expression.  <em>Baker</em> 
+v. <em>Selden</em> 
+remains a benchmark in the law of copyright for the reading given it in 
+<em>Mazer</em> v. <em>Stein, supra</em>, where the Court stated, ``Unlike a patent, a copyright gives no 
+exclusive right to the art disclosed; protection is given only to the expression 
+of the idea---not the idea itself.'' 347 U.S. at 217 (footnote omitted). 
+ 
+   The expression/idea dichotomy is now expressly recognized in
+section 102(b) which precludes copyright for ``any idea.'' This
+provision was not intended to enlarge or contract the scope of
+  copyright protection but ``to restate ... the basic dichotomy
+between expression and idea remains unchanges.'' H.R. Rep. No. 1476,
+<em>supra</em>, at 57, <em>reprinted in</em> 1976 U.S. Code Cong. &
+Ad. News at 5670.  The legislative history indicates that section
+102(b) was intended ``to make clear that the expression adopted by the
+programmer is the copyrightable element in a computer program, and
+that the actual processes or methods embodied in the program are not
+within the scope of the copyright law.'' <em>Id</em>.
+ 
+   Many of the courts which have sought to draw the line between an idea and 
+expression have found difficulty in articulating where it falls.  <em>See, e.g., 
+Nichols</em> v. <em>Universal Pictures Corp</em>. 45 F.2d 119, 121 (2d Cir. 1930) (L. Hand, 
+J.); <em>see</em> discussion in 3 <em>Nimmer on Copyright</em> &#167; 13.03[A].  We believe that in the 
+context before us, a program for an operating system, the line must be a 
+pragmatic one, which also keeps in consideration ``the preservation of the 
+balance between competition and protection reflected in the patent and copyright 
+laws''.  <em>Herbert Rosenthal Jewelry Corp</em>. v. <em>Kalpakian</em>, 446 F.2d 738, 742 (9th 
+Cir. 1971). As we stated in <em>Franklin Mint Corp</em>. v. <em>National Wildlife Art 
+Exchange, Inc</em>., 575 F.2d 62, 64 (3d Cir.), <em>cert. denied</em>, 439 U.S. 880, 58 L. Ed. 
+2d 193, 99 S. Ct. 217 (1978), ``Unlike a patent, a copyright protects originality 
+rather than novelty or invention.'' In that opinion, we quoted approvingly the 
+following passage from <em>Dymow</em> v. <em>Bolton</em>, 11 F.2d 690, 691 (2d Cir. 1926): 
+ 
+<blockquote>
+   Just as a patent affords protection only to the means of reducing an 
+inventive idea to practice, so the copyright law protects the means of 
+expressing an idea; and it is as near the whole truth as generalization can 
+usually reach that, <em>if the same idea can be expressed in a plurality of totally 
+different manners, a plurality of copyrights may result</em>, and no infringement 
+will exist.
+</blockquote> 
+ 
+   (emphasis added). 
+ 
+   We adopt the suggestion in the above language and thus focus on whether the 
+idea is capable of various modes of expression.  If other programs can be 
+written or created which perform the same function as an Apple's operating 
+system program, then that program is an expression of the idea and hence 
+copyrightable.  In essence, this inquiry is no different than that made to 
+determine whether the expression and idea have merged, which has been stated to 
+occur where there are no or few other ways of expressing a particular idea. 
+<em>See, e.g., Morrissey</em> v. <em>Procter & Gamble Co</em>., 379 F.2d 675, 678--79 (1st Cir. 
+1967); <em>Freedman</em> v. <em>Grolier Enterprises, Inc</em>., 179 U.S.P.Q. 476, 478 (S.D.N.Y. 
+1973) (``[c]opyright protection will not be given to a form of expression 
+necessarily dictated by the underlying subject matter''); CONTU Report at 20. 
+ 
+   The district court made no findings as to whether some or all of Apple's 
+operating programs represent the only means of expression of the idea underlying 
+them.  Although there seems to be a concession by Franklin that at least some of 
+the programs can be rewritten, we do not believe that the record on that issue 
+is so clear that it can be decided at the appellate level.  Therefore, if the 
+issue is pressed on remand, the necessary finding can be made at that time. 
+ 
+   Franklin claims that whether or not the programs can be rewritten, there are 
+a limited ``number of ways to arrange operating systems to enable a computer to 
+run the vast body of Apple-compatible software'', Brief of Appellee at 20.  This 
+claim has no pertinence to either the idea/expression dichotomy or merger.  The 
+idea which may merge with the expression, thus making the copyright unavailable, 
+is the idea which is the subject of the expression.  The idea of one of the 
+operating system programs is, for example, how to translate source code into 
+object code.  If other methods of expressing that idea are not foreclosed as a 
+practical matter, then there is no merger.  Franklin may wish to achieve total 
+compatibility with independently developed application programs written for the 
+Apple II, but that is a commercial and competitive objective which does not 
+enter into the somewhat metaphysical issue of whether particular ideas and 
+expressions have merged. 
+ 
+   In summary, Franklin's contentions that operating system programs are <em>per se</em> 
+not copyrightable is unpersuasive.  The other courts before whom this issue has 
+been raised have rejected the distinction.  Neither the CONTU majority nor 
+Congress made a distinction between operating and application programs.  We 
+believe that the 1980 amendments reflect Congress' receptivity to 
+new technology and its desire to encourage, through the copyright laws, 
+continued imagination and creativity in computer programming.  Since we believe 
+that the district court's decision on the preliminary injunction was, to a large 
+part, influenced by an erroneous view of the availability of copyright for 
+operating system programs and unnecessary concerns about object code and ROMs, 
+we must reverse the denial of the preliminary injunction and remand for 
+reconsideration.
+
+<p><center>
+  
+D.
+
+<p><em>Irreparable Harm</em>
+</center> 
+ 
+<p>
+   The district court, without any extended discussion, found that Apple had not 
+made the requisite showing of irreparable harm, stating ``Apple is better suited 
+to withstand whatever injury it might sustain during litigation than is Franklin 
+to withstand the effects of a preliminary injunction.'' 545 F. Supp. at 812, 825. 
+In so ruling, the district court failed to consider the prevailing view that a 
+showing of a prima facie case of copyright infringement or reasonable likelihood 
+of success on the merits raises a presumption of irreparable harm.  <em>See, e.g., 
+Atari, Inc</em>. v. <em>North American Philips Consumer Electronics Corp</em>., 672 F.2d 607, 
+620 (7th Cir.), <em>cert. denied</em>, 459 U.S. 880, 103 S. Ct. 176, 74 L. Ed. 2d 145 
+(1982); <em>Wainwright Securities Inc</em>. v. <em>Wall Street Transcript Corp</em>., 558 F.2d 91, 
+94 (2d Cir. 1977), <em>cert. denied</em>, 434 U.S. 1014, 54 L. Ed. 2d 759, 98 S. Ct. 730 
+(1978); <em>Klitzner Industries, Inc</em>. v. <em>H.K. James Co</em>., 535 F. Supp. 1249, 1259 
+(E.D.Pa. 1982); <em>Custom Decor, Inc</em>. v. <em>Nautical Crafts, Inc</em>., 502 F. Supp. 154, 
+157 (E.D.Pa. 1980). A copyright plaintiff who makes out a prima facie case of 
+infringement is entitled to a preliminary injunction without a detailed showing 
+of irreparable harm.  <em>See</em> 3 <em>Nimmer on Copyright</em> &#167; 14.06[A], at 14--50 & n.16 (collecting authorities). 
+ 
+   The CONTU Final Report recognized that ``[t]he cost of developing computer 
+programs is far greater than the cost of their duplication.'' CONTU Report at 11. 
+Apple introduced substantial evidence of the considerable time and money it had 
+invested in the development of the computer programs in suit.  Thus even without 
+the presumption of irreparable harm generally applied in copyright infringement 
+cases, the jeopardy to Apple's investment and competitive position caused by 
+Franklin's wholesale copying of many of its key operating programs would satisfy 
+the requirement of irreparable harm needed to support a preliminary injunction.
+<em>See Atari, Inc</em>. v. <em>North American Philips Consumer Electronics Corp</em>., 672 F.2d 
+at 620; <em>Custom Decor, Inc</em>. v. <em>Nautical Crafts Inc</em>., 502 F. Supp. 154, 157 
+(E.D.Tenn. 1980); <em>Herbert Rosenthal Jewelry Corp</em>. v. <em>Zale Corp</em>., 323 F. Supp. 
+1234, 1238 (S.D.N.Y. 1971). 
+ 
+   In <em>Kontes Glass Co</em>. v. <em>Lab Glass, inc</em>., 373 F.2d 319, 320--21 (3d Cir. 1967), 
+this court appeared to adopt an inverse relationship approach to the irreparable 
+harm issue, suggesting that the strength of the required showing of irreparable 
+injury varies inversely with the strength of plaintiff's showing of a likelihood 
+of success on the merits.  <em>See Midway Mfg. Co</em>. v. <em>Bandai-America, Inc</em>., 546 F. 
+Supp. 125, 141--142 (D.N.J. 1982). In <em>Kontes</em>, we were not presented with a case 
+in which copyrighted material central to the essence of plaintiff's operations 
+was concededly copied, as we are here.  We believe the <em>Kontes</em> approach is best 
+suited to those cases where the injury from copying can be fairly considered 
+minimal, limited or conjectural.  In those circumstances it provides flexibility 
+in applying the equitable remedy of preliminary injunctions through evaluation 
+of the irreparable harm factor.  Normally, however, the public interest 
+underlying the copyright law requires a presumption of irreparable harm, as long 
+as there is, as here, adequate evidence of the expenditure of significant time, 
+effort and money directed to the production of the copyrighted material. 
+Otherwise, the rationale for protecting copyright, that of encouraging 
+creativity, would be undermined.  As Judge Broderick stated in <em>Klitzner 
+Industries, Inc</em>. v. <em>H.K. James & Co</em>., 535 F. Supp. at 1259--60:      
+
+<p><blockquote> 
+   Since Congress has elected to grant certain exclusive rights to the owner of 
+a copyright in a protected work, it is virtually axiomatic that the public 
+interest can only be served by upholding copyright protections and, 
+correspondingly, preventing the misappropriation of the skills, creative 
+energies, and resources which are invested in the protected work. 
+</blockquote>
+ 
+   Nor can we accept the district court's explanation which stressed
+the ``devastating effect'' of a preliminary injunction on Franklin's
+business.  If that were the correct standard, then a knowing infringer
+would be permitted to construct its business around its infringement,
+a result we cannot condone.  <em>See Atari, Inc</em>. v. <em>North
+American Philips Consumer Electronics Corp</em>., 672 F.2d at 620;
+<em>cf. Helene Curtis Industries, Inc</em>. v. <em>Church & Dwight
+Co</em>., 560 F.2d 1325, 1333 (7th Cir. 1977) (trademark infringement),
+<em>cert. denied</em>, 434 U.S. 1070, 55 L. Ed. 2d 772, 98 S. Ct. 1252
+(1978). The size of the infringer should not be determinative of the
+copyright holder's ability to get prompt judicial redress.
+
+<p><center> 
+E.
+
+<p><em>Additional Issues</em>
+</center> 
+ 
+<p>
+   Franklin has raised a number of issues concerning Apple's compliance with 
+various statutory formalities such as registration, notice and deposit.  It has 
+challenged, in a pending motion to dismiss, the copyrights of the eleven works 
+in suit which were deposited in object code format, and which were registered 
+under the Copyright Office's ``rule of doubt.''<a name="F9"><a href="#FN9"><sup><fontsize=-2>9</font></sup></a></a> Franklin challenges three 
+programs, i.e. Apple Integer Basic, Autostart ROM and DOS 3.3, on the ground 
+that they or their predecessors were published without the requisite notice.  We 
+do not reach these issue on appeal nor do we consider Franklin's claim that 
+Apple's misuse of its copyrights bars their enforcement.  The district court did 
+not consider these claims in denying the motion for preliminary injunction. 
+There are no factual findings with regard to them.  On remand, they can be 
+considered by the district court in the first instance who can also decide the 
+extent to which they are relevant, if at all, to a preliminary injunction. 
+ 
+   
+
+<p><center> 
+V.
+</center> 
+
+ <p>
+   For the reasons set forth in this opinion, we will reverse the
+denial of the preliminary injunction and remand to the district court
+for further proceedings in accordance herewith.
+
+<p><p><hr>
+
+
+<h2><center>Footnotes</center></h2>
+<p>
+
+<p><b><a name="FN1"></a><a href="#F1">1</a></b>  Four amicus curiae briefs have been submitted; briefs
+from Digital Research Inc., Microsoft Corp., and Association of Data
+Processing Service Organizations, Inc. (a trade association for the
+computer services industry), support the position of Apple, and a brief
+from Pro-log Corp. supports at least part of Franklin's position. 
+
+<hr><p><b><a name="FN2"></a><a href="#F2">2</a></b>  Useful nontechnical descriptions of computer operations appear in Note, 
+<em>Copyright Protection for Computer Programs In Read Only Memory Chips</em>, 11 Hofstra 
+L. Rev. 329 (1982), and Note, <em>Copyright Protection of Computer Program Object 
+Code</em>, 96 Harv. L. Rev. 1723 (1983).
+
+
+<hr><p><b><a name="FN3"></a><a href="#F3">3</a></b>  In contrast to the permanent memory devices a RAM (Random Access Memory) 
+is a chip on which volatile internal memory is stored which is erased when the 
+computer's power is turned off.
+
+<hr><p><b><a name="FN4"></a><a href="#F4">4</a></b>  The fourteen programs at issue, briefly described, are: 
+<blockquote> 
+   (1) <em>Autostart ROM</em> is sold as part of the Apple Computer and is embedded on a 
+ROM chip.  The program has also been published in source code as part of a 
+copyrighted book, the Apple II manual.  When the computer's power is turned on, 
+Autostart ROM performs internal routines that turn on the circuits in the 
+computer and make its physical parts (e.g. input/output devices, screen, and 
+memory) ready for use. 
+ 
+   (2) <em>Applesoft</em> is Apple's version of the Beginner's All-purpose Symbolic 
+Instruction Code (BASIC) language.  The program is stored in ROM and is sold as 
+part of the computer.  Applesoft translates instructions written in the 
+higher-level BASIC language into the lower-level machine code that the computer 
+understands. 
+ 
+   (3) <em>Floating-Point BASIC</em> is the same program as Applesoft but is stored on 
+disks rather than on ROMs.  It is used in earlier versions of the Apple II 
+computer that did not have the Applesoft program in ROM. 
+ 
+   (4) <em>Apple Integer BASIC</em>, another translator program, is stored on the DOS 3.3 
+Master Disk.  This program used Apple's first version of BASIC for the Apple II 
+computer.  It implements a simpler version of the Applesoft program. 
+ 
+   (5) <em>DOS 3.3</em>, the disk operating system program, provides the instructions 
+necessary to control the operation between the disk system (disk drive) and the 
+computer itself.  It controls the reading and writing functions of the disks and 
+includes other routines which put all the data transfers in sequence.  The DOS 
+3.3 Master Disk is sold separately from the computer, and includes several of 
+the other operating programs referred to in this note. 
+ 
+   (6) <em>Master Create</em> is stored on a disk.  When a disk is prepared for use the 
+DOS 3.3 program is placed on that disk in a form that is dependent on the amount 
+of Random Access Memory (RAM) available.  The Master Create program replaces the 
+DOS 3.3 on the disk with a version that is independent of the amount of RAM 
+available. 
+ 
+   (7) <em>Copy</em>, which is stored on a disk, enables the user to copy programs 
+written in Apple Integer BASIC from one disk to another. 
+ 
+   (8) <em>Copy A</em>, also stored on a disk, enables the user to copy programs written 
+in Applesoft from one disk to another. 
+ 
+   (9) <em>Copy OBJO</em> contains a file of subroutines used by the Copy and Copy A 
+programs. 
+ 
+   (10) <em>Chain</em>, another disk stored program, allows data to be passed between 
+different parts of a program when only one part of the program is in RAM at a 
+given time.  Thus, Chain preserves data already stored in RAM while another part 
+of the program is being loaded into RAM. 
+ 
+   (11) <em>Hello</em>, also disk stored, is the first program executed after the power 
+is turned on and a disk is ready for use.  It determines how much RAM is in the 
+computer and which version of BASIC needs to be loaded into the computer. 
+ 
+   (12) <em>Boot 13</em> is stored on disk and sold on a Master Disk.  It allows the user 
+having a disk controller card that contains the Apple 16-Sector Boot ROM to use 
+older versions of the Apple disk operating system. 
+ 
+   (13) <em>Apple 13-Sector Boot ROM</em> is stored in a ROM located on the disk 
+controller card plugged into the Mother Board.  By turning on numerous circuits 
+on the card and in the Apple II computer, this program causes other parts of the 
+disk operating system used for 13-Sector format disks to load. 
+ 
+   (14) <em>Apple 16-Sector Boot ROM</em>, stored in a ROM located on the disk controller 
+card, turns on numerous circuits on the card and in the Apple II computer and 
+causes other parts of the disk operating system used for 16-Sector format disks 
+to load.  It therefore enables the user to start or permit the running of 
+another program or to prepare the computer to receive a program.  
+</blockquote> 
+
+<p>   The above descriptions represent an effort to translate the language used by 
+computer experts into language reasonably intelligible to lay persons.  They 
+differ in some respects from the descriptions in the district court's opinion, 
+545 F. Supp. at 815-16, which were taken from the complaint.
+
+<hr><p><b><a name="FN5"></a><a href="#F5">5</a></b>  For example, 8 bytes of memory were altered
+in the Autostart ROM program so that when the computer is turned on
+``ACE 100'' appears on the screen rather than ``Apple II.'' The
+Franklin DOS 3.3. program also had 16 bytes (out of 9000) that allowed
+use of upper and lower case.
+
+<hr><p><b><a name="FN6"></a><a href="#F6">6</a></b>  Section 117
+applied only to the scope of protection to be accorded copyrighted
+works when used in conjunction with a computer and not to the
+copyrightability of programs.  H.R. Rep. No. 1476, at 116,
+<em>reprinted in</em> 1976 U.S.  Code Cong. & Ad. News at 5731.
+
+<hr><p><b><a name="FN7"></a><a href="#F7">7</a></b>  The district court stated that a programmer working directly in object 
+code appears to think more as a mathematician or engineer, that the process of 
+constructing a chip is less a work of authorship than the product of engineering 
+knowledge, and that it may be more apt to describe an encoded ROM as a pictorial 
+three-dimensional object than as a literary work.  545 F. Supp. at 821--22. The 
+district court's remarks relied in part on a quotation about ``microcode'', see 
+id. at 821 n.14; Apple introduced testimony that none of the works in suit 
+contain ``microcode.'' Moreover, Apple does not seek to protect the ROM's 
+architecture but only the program encoded upon it.
+
+<hr><p><b><a name="FN8"></a><a href="#F8">8</a></b>  We are unpersuaded by
+Franklin's initial contention that Apple is bound to this position
+because some of Apple's witnesses in the preliminary injunction
+hearing used these terms in describing the works in suit.  As the
+CONTU Report itself recognized, the distinction between copyrightable
+computer programs and uncopyrightable processes or methods of
+operation does not always seem to ``shimmer with clarity.'' CONTU
+Report at 18.  The witnesses undoubtedly had the not uncommon
+difficulty of finding the precisely correct words of description in
+this field.  It would be both unreasonable and arbitrary to consider
+the statements of non-lawyer witnesses without experience in using
+statutory language as words of art to be binding admissions against
+Apple.
+
+<hr><p><b><a name="FN9"></a><a href="#F9">9</a></b> Apparently the Register
+of Copyrights utilizes its rule of doubt when the deposit of a
+computer program is made in object code form because its examiners
+cannot interpret such code to determine if there has been
+copyrightable authorship.
+
+
+</body>
+</html>
+
+
+</DOC>

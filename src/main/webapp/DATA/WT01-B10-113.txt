@@ -1,0 +1,62 @@
+
+<DOC>
+<DOCNO>WT01-B10-113</DOCNO>
+<DOCOLDNO>IA038-000729-B038-108</DOCOLDNO>
+<DOCHDR>
+http://slimamerica.com:80/cgi-win/pizza.exe 206.148.229.34 19970111064503 text/html 2574
+HTTP/1.0 200 OK
+Date: Saturday, 11-Jan-97 09:02:11 GMT
+Server: WebSite/1.1f1 (S/N Unregistered)
+Allow-ranges: bytes
+Content-type: text/html
+Content-length: 2405
+</DOCHDR>
+<HTML><HEAD><TITLE>SlimAmerica Super Formula Order System</TITLE></HEAD>
+<BODY>
+<FORM METHOD="POST" ACTION="/cgi-win/pizza.exe">
+<body background ="/images/pap5-1.gif">
+<IMG SRC="/images/logo.gif" ALIGN=MIDDLE><B>Order Control System</B><P>
+
+Please provide the following contact information:
+It is now 1:02 AM.
+
+
+<PRE>
+    First Name: <INPUT Size=25 Name="Contact_FirstName">
+     Last Name: <INPUT Size=25 Name="Contact_LastName">
+Middle initial: <INPUT Size=4  Name="Contact_MiddleInitial">
+Street address: <INPUT Size=30 Name="Contact_StreetAddress">
+ Address Line2: <INPUT Size=30 Name="Contact_Address2">
+          City: <INPUT Size=35 Name="Contact_City">
+State/Province: <INPUT Size=35 Name="Contact_State">
+Zip/Postal code:<INPUT Size=12 Name="Contact_ZipCode">
+       Country: <INPUT Size=25 Name="Contact_Country">
+    Work Phone: <INPUT Size=25 Name="Contact_WorkPhone">
+    Home Phone: <INPUT Size=25 Name="Contact_HomePhone">
+           FAX: <INPUT Size=25 Name="Contact_FAX">
+        E-mail: <INPUT Size=25 Name="Contact_Email">
+
+
+<em>      </em><strong>BILLING Information (Your Card Will Not Be Charged Till The Product Is Shipped)</strong>
+<em>     Credit card: </em><select name="Ordering_CardType"    size=1><option selected>VISA</option><option>MasterCard</option><option>American Express</option><option>Diner's Club</option><option>Discover</option></select>
+<em> Cardholder name: </em><INPUT Size=35 Name="Ordering_CardHolderName">
+<em>     Card number: </em><INPUT Size=20 Name="Ordering_CardNumber">
+<em> Expiration date: </em><INPUT Size=5  Name="Ordering_CardExpiration">
+
+
+<p><li><H1><FONT SIZE=5>Please Enter the Department Number:</p></FONT></H1> <input size=6 maxlength=6 Name="departcode"> <br>
+
+<p><li><H1><FONT SIZE=5>Please provide the following ordering information:</p></FONT></H1>
+                   <strong> QTY              DESCRIPTION
+                   </strong><INPUT Size=6 Name="Ordering_OrderQty">  <SELECT NAME="Ordering_Ordertype">
+                   <OPTION SELECTED>30 Day Supply - $49.95 + $5.95 SH = $55.90
+                   <OPTION>60 Day Supply - $89.95 + $5.95 SH = $95.90
+                   <OPTION>90 Day Supply - $129.95 + $5.95 SH = $135.90
+                  </select> 
+To order your Super Formula press this button: <INPUT TYPE="submit"
+VALUE="Order Super Formula">.
+
+</FORM>
+<HR>
+</BODY></HTML>
+</DOC>

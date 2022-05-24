@@ -1,0 +1,294 @@
+
+<DOC>
+<DOCNO>WT03-B15-12</DOCNO>
+<DOCOLDNO>IA060-000337-B002-210</DOCOLDNO>
+<DOCHDR>
+http://www.atemi.com:80/white_paper.html 206.148.208.105 19970115073237 text/html 17068
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 07:31:14 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Set-Cookie: Apache=widener18975853313474925; path=/
+Content-length: 16843
+Last-modified: Thu, 02 Jan 1997 23:40:56 GMT
+</DOCHDR>
+<HTML><HEAD>
+<TITLE>NetShade Technical White Paper</TITLE>
+</HEAD><BODY BGCOLOR="#ffffff"><P>To download a zipped PostScript version
+of this paper, <A HREF="ns_tech.zip">click here</A>.
+<P ALIGN=Left>To download an MSWord version of this paper,
+<A HREF="ns_tech.msw">click here</A>.
+<P ALIGN=Center><HR>
+<H1><P ALIGN=Center>An Overview of the Sealed-Session Networking Paradigm
+and the
+NetShade<FONT SIZE=-1><FONT SIZE=-1>(TM)</FONT></FONT>&nbsp;Implementation
+</H1><P ALIGN=Center>
+<P ALIGN=Center>DRAFT:  June 6, 1996
+<P ALIGN=Center><HR>
+<H2>Introduction
+</H2><P>The key design principles for the NetShade v2.x architecture are
+as follows:
+<P>&#183;	<B>NetShade can provide an automatic, invisible blanket of security
+for an entire enterprise-wide network.</B>  That is, it can secure data
+associated with all common network protocols, operating systems, and network
+applications without requiring user intervention or drastically slowing network
+performance.
+<P>&#183;	<B>NetShade is designed from the ground up to support multiple
+hardware platforms (Mac, WinTel, etc.) and protocols (TCP/IP, AppleTalk ,
+IPX/SPX, etc.)</B>.  This unique architecture allows NetShade to be easily
+upgraded to support emerging technologies&emdash;IP-NG, SSL, emerging key
+management standards, new encryption algorithms, etc.
+<P>These design principles represent the heart of Atemi's sealed-session
+networking paradigm.  In essence, sealed-session networking uses asymmetric
+(i.e., public key) encryption to securely share a session key between two
+communicating machines before any data is sent; once both parties have received
+the session key, that key is used to encrypt all the data sent between the
+two parties.
+<P>An implementation of SSN offers several advantages over other popular
+approaches to network security&emdash;it is application and link independent,
+easy to use and maintain, scalable to all types and sizes of networks, etc.
+ However, a full description of the benefits of sealed-session networking
+is beyond the scope of this paper .  Instead, we will focus on how the
+sealed-session networking paradigm is implemented in the NetShade v2.x
+architecture.
+<P><HR>
+<H2>Sealed-Session Networking Design Principles
+</H2><P>The overall goal of sealed-session networking (SSN) is to add an
+invisible layer of security to all the data sent over an enterprise's network,
+protecting it from eavesdropping attacks.  Since this goal can only be
+realistically achieved if the cost per user remains low, a hardware-based
+approach to the SSN paradigm would be ineffective.  Therefore, a completely
+software-based implementation of SSN should be the primary focus.  Hybrid
+hardware-software implementations should be of lower priority.
+<P>The key requirements for an effective SSN system are:
+<P>&#183;	It must use a software mechanism to intercept and encrypt network
+data at a low level in the system&emdash;between the application and physical
+layers of the network architecture.
+<P>&#183;	It must have a mechanism for securely sharing session keys between
+the transmitter and recipient in any network session.
+<P>&#183;	It must seed each session key with an effective random number.
+<P>&#183;	It must be able to establish simultaneous sealed sessions with
+multiple machines, each using a different session key.
+<P>&#183;	It must support some type of mechanism for authentication.
+<P>
+<H3>The RSA Public Key Cryptosystem
+</H3><P>Several of these requirements can be addressed through the RSA public
+key cryptosystem .  Using this technology involves the generation of an RSA
+keypair, which includes a public component and a private component.  There
+is a complex mathematical relationship between the two components, such that
+data encrypted with one component can only be decrypted with its corresponding
+component; for example, data encrypted with a public key can only be decrypted
+with the corresponding private key.  The RSA cryptosystem is widely recognized
+as one of the most secure (and most practical) implementations of asymmetric
+cryptography, as determining a private key from its corresponding public
+key is computationally impractical for keypairs of 512 bits or greater .
+<P>We have found that the RSA public key cryptosystem can address the need
+for a secure key exchange mechanism in an SSN implementation, and can also
+provide machine-based authentication to some extent.  The actual implementation
+of the RSA technology is described in more detail in the section describing
+NetShade's implementation of SSN.
+<P>
+<H3>MD5 Random Number Generation
+</H3><P>Another important part of an SSN product is a mechanism for generating
+reasonable random numbers.  This is a non-trivial problem, since most machines
+have only primitive pseudo-random number generators.  The possibility of
+reproduction of random seed data represents a significant security hole on
+these systems.
+<P>In our approach to SSN, all random numbers are generated using an MD5
+generator.  The generator is initially seeded at startup time using a number
+of volatile low-memory system values (including the clock).  A process is
+then started whereby the mouse location is sampled at varying times; changes
+in the mouse location further seed the MD5 space.
+<P><HR>
+<H2>Establishing a Sealed Session: the NetShade Implementation
+</H2><H3>Authentication and Key Exchange
+</H3><P>A NetShade user has the option of using an RSA-based authentication
+mechanism to create a list of machines that are allowed to communicate with
+that user.  Often, user-based authentication services (i.e., password logins)
+are already provided by the upper-layer networking applications.  These are
+often sufficient, and do not require the additional management effort of
+RSA key distribution.
+<P>However, there are clearly some situations in which a second layer of
+machine-based RSA authentication is desirable.  For instance, a user password
+login cannot effectively protect against so-called "Man-in-the-Middle" attacks.
+<P>Administrators of security systems will simply need to judge their own
+security needs, and whether or not they require the more complete authentication
+mechanisms provided.  The session establishment description below describes
+the fully authenticated method.
+<P>[NOTE: Authentication functionality will not be incorporated into the
+NetShade product line until version 2.1.]
+<P>
+<H4>RSA Keypair Distribution
+</H4><P>Each NetShade machine stores two complete RSA keypairs, an exchange
+keypair (EKP) and an authentication keypair (AKP).  Each NetShade machine
+also stores a file called a "keyring," which contains IDs and public keys
+for all the machines approved to exchange data with that machine.
+<P>Details of the key management mechanisms used to actually distribute the
+AKPs are beyond the scope of this paper.  Key management is a complex problem
+with many solutions, each having benefits and deficiencies.  For this reason,
+a number of different methods should be available, such as centralized key
+services or distributed "PGP-based" trust levels.
+<P>NetShade provides a mechanism for encrypting private keys and keyrings
+with a user passphrase.  This passphrase may be up to 64 characters long,
+and may contain spaces, punctuation, etc.  If this option is used, the private
+keys are stored on the disk using Triple-DES encryption with an MD5 hash
+of the passphrase.
+<P>As described earlier, all RSA keypairs include a public element and a
+private element.  The public portion of each user's authentication keypair
+(AKP-Pub) is distributed to all the machines which are "approved" to connect
+to that user's machine; each of these machines adds this AKP-Pub to its keyring
+file.  To NetShade, the keyring represents a list of entities that can
+communicate with a machine, and provides a means of proving the identity
+of an approved entity.
+<P>Each machine's EKP and AKP are generated and maintained separately.  The
+keypairs may be of different sizes, allowing a larger keypair to be used
+for authentication; for example, a 768 bit AKP could be used with a 512 bit
+EKP.  This allows EKPs to be changed frequently (thus enhancing security)
+without making authentication management a nightmare.  Currently, NetShade
+can create RSA keypairs ranging from 512 to 1024 bits.
+<P>
+<H4>Authenticating and Establishing a Sealed Session
+</H4><P>When a NetShade user requests a network connection to another NetShade
+user's machine, the authentication process is activated.  First, a packet
+containing the requestor's ID, EKP-Pub, and other miscellaneous information
+is prepared.  The entire packet is hashed with MD5.  The hash is then signed
+using the requestor's AKP-Priv and appended to the packet; the packet is
+then sent to the responder.
+<P>Upon receipt of the packet, the responder re-hashes the packet, and verifies
+the hash using the requestor's AKP-Pub (which is found in the responder's
+keyring).  If the request is valid and unmodified, a Triple-DES key is generated
+and placed in a response packet.  The Triple-DES key is then RSA encrypted
+using the requestor's EKP-Pub.
+<P>Some additional information is added to the packet, and then the entire
+packet is hashed and signed using the responder's AKP-Priv.  Finally, everything
+except the RSA-encrypted Triple-DES key is encrypted with the Triple-DES
+key, and the response packet is sent to the requester.
+<P>Upon receipt of this packet, the requester verifies the authenticity of
+the packet using its AKP-Pub keyring.  If genuine, it decrypts the Triple-DES
+key using its EKP-Priv.
+<P>At this point, both the requester and the responder have access to the
+Triple-DES key.  This key is then used to establish secure pipes for data
+using any bulk encryption algorithm desired by the requester.  Additional
+exchange packets are both protected and authenticated by the Triple-DES key.
+<P>
+<H3>Determining the Encryption Mode
+</H3><P>Different NetShade users may prefer to use different encryption
+algorithms.  One user may allow only DES and Triple-DES, while another might
+allow only the NightShade Algorithm.  Some users may allow unencrypted
+connections with their machines, as well.
+<P>To address this potential problem, NetShade allows each user to define
+a prioritized list of allowed encryption algorithms.  Any attempts to connect
+to a NetShade machine using an algorithm that does not appear in this list
+will be rejected.  (The user may define "cleartext" as an allowed algorithm,
+which will allow insecure connections to your machine; if authentication
+is turned off, even non-NetShade users will be able to connect with you.)
+<P>When attempting to connect to another machine, NetShade determines which
+algorithms (if any) are supported by both machines.  From this list, NetShade
+selects the algorithm with the highest priority on the requestor's allowed
+list.  For example, if the requester allows DES, Triple DES and NightShade
+in that order of priority, and the responder allows Triple DES and DES in
+that order of priority, the session will be established using DES as the
+bulk encryption algorithm.
+<P>If there are no encryption algorithms supported by both the requester
+and responder, the session will not be established.  NetShade will instead
+show the requester a dialog box listing the encryption algorithms that are
+supported by the responding machine.
+<P>
+<H3>Network Packet Interception and Re-Entry
+</H3><P>One of the most challenging aspects of implementing a SSN system
+is intercepting and re-admitting network data packets.  Although the specific
+mechanism NetShade uses to intercept data is proprietary, we can offer a
+rough description of how the process works.
+<P>One flexible aspect of the main NetShade architecture is the ability to
+intercept and secure data from various different levels of the networking
+hierarchy.  This is valuable for practical rather than conceptual reasons.
+ Different implementations of different protocols (for instance, Appletalk
+vs. TCP/IP) allow for interception at varying levels.  For example, NetShade
+intercepts TCP/IP at the data stream layer, whereas it intercepts Appletalk
+at the network packet layer.  For the purposes of discussion, we will use
+the term "packet" to refer to some chunk of data intercepted by NetShade;
+not necessarily a link-level network packet.
+<P>NetShade monitors all of the incoming and outgoing  packets.  If NetShade's
+authentication feature is turned on, any incoming or outgoing packets sent
+to or from a source not listed in the keyring are immediately rejected.
+<P>When processing any approved packet, NetShade checks the identity of the
+other party in the transaction (the sender of an incoming packet, or the
+recipient of an outgoing packet).  If that party has already established
+a sealed session with the host machine, the packet is sent to the encryption
+mechanism for encryption (outgoing) or decryption (incoming) using the
+pre-determined session key.  If no sealed session has been established, NetShade
+attempts to establish a sealed session with the sender's machine.
+<P>
+<H3>Data Encryption Mechanism
+</H3><P>The currently supported block ciphers (DES, Triple-DES) are implemented
+in cipher block chaining (CBC) mode.  All block algorithms used in the future
+will be supported in this mode.
+<P>For implementation reasons, the amount of initialization vector data available
+is dependent on the network protocol used.  For TCP/IP, a full 64 bits of
+IV data is used in block encryptions.
+<P>This discussion of NetShade's encryption focuses on TCP/IP data.  Note
+that the design of the encryption engine is flexible, and that future NetShade
+upgrades will add encryption support for data sent over the AppleTalk, IPX
+and SPX network protocols in the near future.  While the structure of data
+packets sent over these protocols will differ, the basic encryption functionality
+will operate much like the TCP/IP encryption process.
+<P>
+<H4>Data Encryption Process
+</H4><P>NetShade performs bulk encryption on the data field of each TCP/IP
+data block, and prepends an unencrypted "initialization vector" to this field.
+ Figure 2 shows how a standard TCP/IP data block is modified during this
+process.
+<P>Assuming that the data block has already been approved for transmission
+by the authentication mechanism and that a sealed session has already been
+established between the sender and receiver, NetShade routes the outgoing
+packet to the encryption engine.
+<P>Next, NetShade looks up the encryption algorithm and session key that
+were set during the session establishment process.  This information is used
+to encrypt all the data in the data block except for the TCP and IP headers.
+<P>
+<P ALIGN=Center>
+<IMG ALIGN=Bottom SRC="Page1_pict3.gif" ALT="[Image]" WIDTH="281" HEIGHT="188">
+<P ALIGN=Center><B>Figure 1.  TCP/IP Data Block Encryption Results</B>
+<P>
+<P>The NetShade header includes an initialization vector and some other basic
+information about the sealed session.  This information can be sent in the
+clear without compromising the security of the sealed session.
+<H4>Data Decryption Process
+</H4><P>Again, let us assume that an incoming packet has already been approved
+by the authentication mechanism and that a sealed session has already been
+established between the sender and receiver.  Using the packet's source IP
+address to determine the identity of the sender, NetShade looks up the algorithm
+and session key that were set during the session establishment process. 
+This key is combined with the initialization vector to decrypt the data block.
+<P>
+<H3>Planning for Modular Upgrades
+</H3><P>The NetShade architecture itself is designed as a series of modules,
+making it easy to add support for additional platforms, operating systems,
+network protocols, and features (see Figure 2).  Separate modules are devoted
+to platform-specific processing (memory management, interface, driver
+information, etc.), protocol-specific processing (packet processing and
+interception), the encryption mechanism (selecting the algorithms to be used),
+and authentication (selecting the method by which the identity of connecting
+machines or users can be verified). This modular design was chosen to reduce
+the development cycle for new versions of NetShade.
+<P ALIGN=Center>&nbsp;
+&nbsp;<IMG ALIGN=Middle SRC="Page1_pict2.gif" ALT="[Image]" WIDTH="398" HEIGHT="304">
+<P ALIGN=Center><B>Figure 2 : NetShade Modular Architecture</B>
+<P>
+<P>
+<CENTER><HR WIDTH=65%></CENTER>
+<CENTER></CENTER>
+</P><CENTER><TABLE BORDER CELLPADDING="2"><TR><TD><CENTER><A 
+HREF="overview.html">Home</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="free_stuff.html">Free Stuff</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="sales_info.html">Sales</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="product_info.html">Product Info</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="links.html">Links</A>
+</CENTER>
+</TD></TR></TABLE></CENTER><P><HR>
+</BODY></HTML>
+</DOC>

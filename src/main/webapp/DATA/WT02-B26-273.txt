@@ -1,0 +1,146 @@
+
+<DOC>
+<DOCNO>WT02-B26-273</DOCNO>
+<DOCOLDNO>IA097-001047-B047-134</DOCOLDNO>
+<DOCHDR>
+http://www.science.ca:80/css/gcs/feedback.html 142.58.111.137 19970215092130 text/html 3469
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 09:21:46 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 15 Nov 1996 20:17:37 GMT
+Content-length: 3295
+</DOCHDR>
+<HTML>
+
+<HEAD>
+<TITLE>GCS: Feedback Form</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" ALINK="#ffffff" VLINK="#ff0000">
+
+
+<BR>
+<CENTER><IMG SRC="graphics/banner.gif"><BR>
+<IMG SRC="graphics/feedback.gif"><P>
+
+
+<HR NOSHADE>
+
+
+<FORM METHOD="POST" ACTION="/css/gcs/cgi/feedback.cgi">
+
+<TABLE>
+<TD WIDTH=150>
+<IMG SRC="graphics/anne.gif" ALIGN=LEFT>
+</TD><TD>
+<FONT SIZE="+2"><B>Thanks for Visiting. <P> We'd like to hear from you.</B></FONT>
+</TD>
+</TABLE>
+</CENTER>
+
+<BR>
+
+<B><FONT SIZE="+1">Three things you can do</FONT>:</B><UL>
+<LI><B>Nominate a Great Canadian Scientist that we missed.</B>
+Please give as many details as possible, where to reach them, their 
+distinction, etc.<P>
+
+<LI><B>Sponsor our project.</B>
+ We are non-profit and do this work in our spare time.
+Any donation will be gratefully accepted and we will list you on the
+credits page if you wish.<P>
+
+<LI><B>Request more information on other Great Canadian Scientists products:</B>
+a <A HREF="http://mypage.direct.ca/p/polestar/index.html">book</A>, a <A HREF="http://www.vrsystems.com/products/gcs.html">CD-ROM</A>, a video, and a Teacher's Resource Kit.
+ Each has unique qualities and each offers a different view of the
+information we have collected.<P>
+
+</UL>
+<P>
+
+
+<HR NOSHADE>
+
+
+<P>
+<DT>	Your <FONT SIZE="+2">E</FONT>-mail address:
+<DD>	<INPUT NAME="Email_addr" SIZE=40>
+<P>
+
+<DT>	Your <FONT SIZE="+2">N</FONT>ame:
+<DD>	<INPUT NAME="Name" SIZE=40>
+<P>
+
+<DT>    Your <FONT SIZE="+2">P</FONT>hone Number (optional):
+<DD>    <INPUT NAME="Phone_num" SIZE=40>
+<P>
+
+<DT>	And your <FONT SIZE="+2">C</FONT>omments:
+<DD>	<TEXTAREA WRAP=SOFT NAME="Comments" ROWS=12 COLS=60></TEXTAREA>
+<P>
+
+     <INPUT TYPE=checkbox NAME="newsletter" VALUE="yes"> <B>Yes I'm 
+     interested in receiving the GCS Newsletter</B><P>
+
+     
+
+     
+</DL>
+
+<TABLE>
+<TR>
+<TD><INPUT TYPE="submit" VALUE="Send Feedback"></TD>
+<TD><INPUT TYPE="reset" VALUE="Start Over"></TD>
+</TR>
+</TABLE>
+<P>
+
+<HR NOSHADE>
+
+<P>
+<CENTER>
+<!-- GCS Button Bar -->
+<P>
+<A HREF="home.html"><IMG BORDER="0" SRC="graphics/buttonbar/homepage.gif" ALT="Homepage"></A>
+<A HREF="search.html"><IMG BORDER="0" SRC="graphics/buttonbar/search.gif" ALT="Search"></A>
+<IMG BORDER="0" SRC="graphics/buttonbar/feedback_grey.gif" ALT="Feedback">
+<A HREF="profiles.html"><IMG BORDER="0" SRC="graphics/buttonbar/profiles.gif" ALT="Profiles"></A>
+<A HREF="reference.html"><IMG BORDER="0" SRC="graphics/buttonbar/reference.gif" ALT="Reference"></A>
+<A HREF="ask/"><IMG BORDER="0" SRC="graphics/buttonbar/ask.gif" ALT="Ask a Scientist"></A>
+<A HREF="games.html"><IMG BORDER="0" SRC="graphics/buttonbar/games.gif" ALT="Games"></A>
+<A HREF="/css/gcs/quiz/"><IMG BORDER="0" SRC="graphics/buttonbar/quiz.gif" ALT="Quiz"></A>
+<P>
+<!-- GCS Button Bar -->
+
+
+<TABLE>
+<TR><TD WIDTH="250" VALIGN="top" ALIGN="center">
+<H5>Web facilities provided courtesy of the<BR>
+<A HREF="http://fas.sfu.ca/css">Centre for Systems Science</A> 
+at <A HREF="http://www.sfu.ca">Simon Fraser University</A></H5><P>
+</TD><TD WIDTH="250" VALIGN="top" ALIGN="center"> 
+<H5>Creative web juices provided courtesy of:<BR>
+The <A HREF="credits.html">GCS Team</A></H5>
+</TD></TR>
+<TR>
+<TD COLSPAN="2" ALIGN="center">
+<H5>&copy; 1994, 1995, 1996 GCS Research Society</H5>
+</TD>
+</TR>
+</TABLE>
+<CENTER>
+
+
+
+</FORM>
+</BODY>
+
+</HTML>
+
+
+
+
+
+
+</DOC>

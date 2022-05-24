@@ -1,0 +1,138 @@
+
+<DOC>
+<DOCNO>WT02-B08-282</DOCNO>
+<DOCOLDNO>IA021-000219-B022-133</DOCOLDNO>
+<DOCHDR>
+http://tethys.jpl.nasa.gov:80/Annette/educational/ed_workshop1.html 128.149.33.75 19970107090943 text/html 8519
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 07-Jan-97 09:09:26 GMT
+Last-modified: Monday, 09-Dec-96 23:20:01 GMT
+Content-length: 8335
+Content-type: text/html
+</DOCHDR>
+<html>
+<HEAD>
+<TITLE>TOPEX/Poseidon Educational Outreach</TITLE></HEAD>
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+<H1>On-line "Workshop"</H1>
+<p>
+<h3>
+This series will familiarize you with the TOPEX/Poseidon (T/P) mission, science, and products that are available for Earth-related studies. It has 22 "slides" (presented in 3 parts) and accompanying text. Each "slide" can be selected to view a full-size version of the image, often with more detailed explanatory text.</h3>
+<p>
+<font size=+1>
+<address><a href=ed_workshop2.html>Forward to "Part 2" of Workshop</a>
+<address><a href=ed_workshop3.html>Forward to "Part 3" of Workshop</a></font>
+<p>
+<center><h2>PART 1</h2>
+<p><h3>
+Where Can You Find T/P Data?<br>
+How Does the T/P Satellite Work?<br>
+Why is There Motion in the Ocean?<br>
+What is the Connection Between Wind & Waves?</center></h3>
+<ul>
+<li><a href="#1">1- Data Images</a></li><br>
+<li><a href="#2">2 - Ocean & Climate</a></li><br>
+<li><a href="#3">3 - Satellite Ground Tracks</a></li><br>
+<li><a href="#4">4 - Measurement System</a></li><br></TD></TR>
+<li><a href="#5">5 - Motion in the Ocean</a></li><br>
+<li><a href="#6">6 - Wind Speed & Significant Wave Height: Jan '95</a></li><br>
+<li><a href="#7">7 - Wind Speed & Significant Wave Height: June '95</a></li><br>
+</H4></TD></TR></TABLE></ul>
+
+<TABLE><TR><TD><A HREF="images/podaac.gif"><IMG SRC="images/podaac_small.gif"><ALIGN="BOTTOM"></TD>
+<TD>
+<font size=+1>
+<a name="1"></a>
+<h2>1 - Data Images</H2>
+- T/P data images updated monthly beginning September, 1992.<br>
+- There are 5 types of products.  Four of these will be outlined.<br>
+- T/P is scheduled to continue collecting data through at least Fall 1998 and Jason-1, the T/P "follow-on" mission, is planned to launch in 1999.  Together, these missions will give us at least a decade of data, the minimum amount of data needed to begin to test models of Earth's long-term weather, or climate.<br>
+</TD></TR></TABLE></font>
+<font size=+1>
+- The URL for these images is <a href=http://podaac-www.jpl.nasa.gov/topex/>http://podaac-www.jpl.nasa.gov/topex/</a></font>
+<p>
+<TABLE><TR><TD><A HREF="images/sat_earth.gif"><IMG SRC="images/sat_earth_small.gif"><ALIGN="BOTTOM"></TD>
+<TD>
+<font size=+1>
+<a name="2"></a>
+<h2>2 - Ocean & Climate</h2>
+- The T/P satellite makes very precise and accurate measurements of sea surface height.<br>  
+- What can such a simple measurement tell us about our Earth?  A lot!  This is because the oceans are the greatest repository of important "greenhouse" gases such as water and carbon dioxide.  Monitoring sea height is a way to measure changes in these over time.<br> 
+- Our basic goal is monitor how the ocean is changing over time.<br> 
+- How do we accomplish this?<br>   
+</TD></TR></TABLE></font>
+<p>
+<TABLE><TR><TD><A HREF="images/gr_tracks.gif"><IMG SRC="images/gr_tracks_small.gif"><ALIGN="BOTTOM"></TD>
+<TD>
+<font size=+1>
+<a name="3"></a>
+<h2>3 - Satellite Ground Tracks</h2>
+- By following a ground track that repeats every 10 days.  This means that the trace of the satellite on the ground goes over the same spot of ocean once every 10 days.<br>  
+- T/P's ground tracks cover over 95% of the ice-free oceans every 10 days.<br> 
+- During its first month of operation, T/P collected more ocean data than all the ships had during the previous 100 years!<br>
+</TD></TR></TABLE></font>
+<p>
+<TABLE><TR><TD><A HREF="images/meas_sys.gif"><IMG SRC="images/meas_sys_small.gif"><ALIGN="BOTTOM"></TD>
+<TD>
+<font size=+1>
+<a name="4"></a>
+<h2>4 - Measurement System</h2>
+- This chart is very complicated so we're just going to focus on how the satellite's measurement is optimized.  To do this, we need to know:1) where the satellite is in its orbit and 2) the distance from the satellite to the ocean.<br>  
+- Satellite position is known relative to the center of the Earth and so we measure sea height relative to the Earth's center.<br</font>
+</TD></TR></TABLE>
+<font size=+1>
+- The position of the T/P satellite is determined using <a href=ed_tracking.html>3 methods.</A><br>
+- T/P has 2 altimeters that measure the distance from the satellite to the ocean.  These altimeters send radar signals straight down which "bounce off" the ocean surface.  The time it takes for the radar signal to return to the satellite tells us how far the satellite is from the ocean's surface.<br>
+- To improve the altimeter measurement, we measure the water content of the atmosphere. This is because water along the path of the signal changes the speed at which the altimeter signal travels.<br>
+- T/P makes very precise measurements of sea surface height.<br>
+-  Let's discuss the meaning of the term "precise:" You are given two rulers: each a foot long but one only has tick marks to indicate whole inches and the other with tick marks every 1/16th of an inch... which would provide a more precise measurement of the length of your thumb? <a href=ed_ruler.html>Answer</a><br>
+- The more precise T/P's measurement is, the smaller the ocean feature we can measure. Later, we'll focus on the relative heights of certain ocean features that scientists want to measure.<br>
+- Right now, T/P's measurement precision for sea surface height is 4.3 cm (1.7 inches).  Because the satellite flies 1330 km (830 miles) above the Earth's surface, that's comparable to knowing the sea surface height to much less than the thickness of a dime while flying in a jet at 35,000 feet altitude.<br>
+</font>
+<p>
+<TABLE><TR><TD><A HREF="images/oc_motion.gif"><IMG SRC="images/oc_motion_small.gif"><ALIGN="BOTTOM"></TD>
+<TD>
+<font size=+1>
+<a name="5"></a>
+<h2>5 - Motion in the Ocean</h2>
+-The Sun's energy and force of the wind.  Together, the oceans and atmosphere redistribute the Sun's energy from the tropics (where the Sun's energy input is highest) to the poles (where energy input is the lowest).<br>
+</TD></TR></TABLE></font>
+<font size=+1>  
+- What causes the difference in how much energy is received at the Earth's between the tropics and the poles?<a href=ed_energy_diff.html> Answer</a><br>
+-  One way the Sun drives ocean circulation is the by changing the temperature and salinity of the seawater. Near the poles, ocean water sinks because it is cold and salty. The ice formed at the poles doesn't take up salt very well and leaves it behind in the seawater.  This makes it heavy and sink.<br>
+- The most obvious way the Sun drives ocean circulation is by wind forcing. Energy is transferred directly from the atmosphere into the oceans.<br>
+</font>
+<p>
+<TABLE><TR><TD><A HREF="images/wind_wave_jan.gif"><IMG SRC="images/wind_wave_jan_small.gif"><ALIGN="BOTTOM"></TD>
+<TD>
+<font size=+1>
+<a name="6"></a>
+<h2>6 - Wind Speed & Significant Wave Height: January 1995</h2>
+-  Here's an example of 2 types of T/P data available at <a href=http://podaac-www.jpl.nasa.gov/topex/>http://podaac-www.jpl.nasa.gov/topex/</a><br>  - The upper image shows wind speed and the lower shows significant wave height.<br>  
+- In this and all other T/P data sets you'll see the color-coding is as follows:  purples and blues indicate low values and yellows and reds indicate high values.<br>
+</TD></TR></TABLE></font> 
+<font size=+1>
+- Based on these images, is there a correlation or match between wind speed and wave height?<a href=ed_wind.html> Answer</a><br>
+- These data show the conditions during January, 1995. What should these data look like during June, 1995?<br></font>
+<p>
+<TABLE><TR><TD><A HREF="images/wind_wave_jun.gif"><IMG SRC="images/wind_wave_jun_small.gif"><ALIGN="BOTTOM"></TD>
+<TD>
+<font size=+1>
+<a name="7"></a>
+<h2>7 - Wind Speed & Significant Wave Height: June 1995</h2>
+-  The wind speed and significant wave height data for June, 1995 show high values near Antarctica.  Thus, these images are the "opposite" of the previous example and clearly show the winter conditions in the Southern Hemisphere.<br>  
+- Did the tropics change character between January and June, 1995? <a href=ed_tropics.html> Answer</a><br>  
+</TD></TR></TABLE></font>
+<p>
+<font size=+1>
+<address><a href=ed_workshop2.html>Forward to "Part 2" of Workshop</a>
+<p>
+<h5>
+<address><a href=ed_intro.html>Back to Educational Outreach Overview</a></font>
+<address><a href=http://topex-www.jpl.nasa.gov/>Back to TOPEX/Poseidon Main Homepage</a></address>
+<ul>
+</BODY>
+</html>
+
+</DOC>

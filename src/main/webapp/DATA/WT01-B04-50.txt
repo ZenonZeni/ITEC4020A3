@@ -1,0 +1,101 @@
+
+<DOC>
+<DOCNO>WT01-B04-50</DOCNO>
+<DOCOLDNO>IA080-000557-B035-50</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/multistones.html 137.79.14.197 19970103071443 text/html 17917
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f311.330@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:19:45 GMT
+Last-Modified: Monday, 27-Nov-95 23:12:51 GMT
+Content-type: text/html
+Content-length: 17672
+</DOCHDR>
+<TITLE>Multiyear Task Overviews and Milestones</title>
+<H2>Mars Exploration Technology Program</h2><p>
+<H1>MULTIYEAR TASK OVERVIEWS AND MILESTONES</h1><p>
+<UL>
+<LI><A HREF="#Progmgmt">Program Management</a>
+<LI><A HREF="#Preclndg">Precision Landing</a>
+<LI><A HREF="ISPP.html">In Situ Propellant Production (ISPP)</a>
+<LI><A HREF="Sampacq.html">Sample Acquisition</a>
+<LI><A HREF="Isinstr.html">In Situ Instruments</a>
+<LI><A HREF="Lowthide.html">Low Temperature, High Density Electronics</a>
+<LI><A HREF="Thermcon.html">Thermal Control</a>
+<LI><A HREF="Hiplotb.html">High Performance, Low Temperature Batteries</a>
+<LI><A HREF="Smldst.html">Small Deep Space Transponder</a>
+</ul>
+<p>
+<A NAME="Progmgmt"><H3>Program Management</h3><a/><p>
+This task  includes technical and financial management, interfacing with other related technology tasks and Mars development and planning programs, and most important of all,  assuring that all of the tasks in the MET program address Mars Exploration mission needs in a timely way. This, in turn, requires familiarity with Mars mission plans, and in some cases, detailed analyses of the impact of technologies on the Mars missions.<p>
+
+As program planning for a Mars Sample Return mission progresses outside this RTOP, it is anticipated to eventually establish technology readiness benchmarks to measure relative levels of technology readiness for the determined cost, mass, and reliability drivers in a Mars Sample Return mission. This will be combined with an approach to select and prioritize technologies for the duration of the program, as well as an investment return analysis to provide continuous feedback that we are not only =doing things right= but also =doing the right thing=.<p>
+<A HREF="Mars.html">Return to menu</a><p>
+
+<A NAME="Preclndg"><H3>Precision Landing</h3></a><p>
+<H5>Point of Contact:  David L. Farless</h5><p>
+<img src="MARS.GIF"><p>
+<H4>Viking Lander 2, Camera 1 Picture (21F243)</h4><p>
+<CENTER>
+<H2>So, you want to land on Mars?</h2>
+</center><p>
+Mars landing site selection is based primarily on science objectives and landing safety but is complicated by the current inability to navigate to an actual landing location close to the desired location.  Precision landing is an important and perhaps enabling capability for several future Mars missions because many interesting areas of scientific investigation on Mars are either small in extent or lie within regions of hazardous terrain (see for example the picture below).  Also, precision landing may be crucial to Mars sample return scenarios in which a sample is left from a previous mission to be acquired by a return vehicle via a rover or a lander manipulator. This task will advance the state-of-the-art in specific precision landing technologies, building upon the work of others, and utilizing resources of other organizations wherever appropriate.  For example, contacts have already been established with Johnson Space Center, Lockheed-Martin Company, Phillips Laboratory, and Draper Labs. These relationships will be continued and formalized as appropriate.<p>
+<H4>LANDING ACCURACY IMPROVEMENT ILLUSTRATION</h4><p>
+<img src="Gusev.GIF"><p>
+<H4>Definition of Terms</h4><p>
+For purposes of this task, precision landing is defined as safely setting a craft down on the surface of Mars, next to a predetermined site, with some small error in position.  This error is variable, dependent on specific mission requirements, but will be defined here to be less than 1 km.  The reference to a predetermined site in this definition presumes an accurate landing, as well as a precise landing.  That is, it is not sufficient to land precisely (using a high precision terminal descent system to avoid rocks and land softly with no horizontal drift) at an arbitrary location on Mars.  The landing must be near a pre-defined target location.<p>
+
+<H4>The Mars Landing Mission</h4><p>
+The Mars landing mission begins with launch and escape from the Earth onto a Sun-centered trajectory (heliocentric).  The spacecraft travels about half way around the Sun while moving outward from the Sun.  When it reaches the distance of Mars, it is moving slower than Mars so the planet overtakes it from behind.  On arrival at Mars, the spacecraft may impact (i.e., land) directly or it may establish an orbit about Mars first, and then descend to land.  This task is primarily concerned with the direct Mars landing mission because it is less complex and shorter in duration.  However, the use of an orbital phase will be optional, and the development work done for each of the other mission phases will be largely applicable in the case of descent from orbit.<p>
+
+The table below defines a set of mission phases for the Mars lander mission:
+<img src="Phase.GIF"><P>
+Based on todays technology, as represented by the Mars Pathfinder and Mars Surveyor 98 lander mission designs, landing location errors can be more than 150 km.  Most of this error derives from two sources:  Navigation errors on the approach to Mars, and corruption of the trajectory during the entry phase by aerodynamic uncertainties.  It is also in these two mission phases, the Planetary Approach Phase and the Atmospheric Entry Phase, where the control power exists to correct errors of this magnitude.  In the subsequent mission phases, the Parachute Phase and the Terminal Descent Phase, landing location correction is very expensive in terms of landed mass, and so will be limited to a few km at best.<p>
+
+Navigation on the  Approach Phase of the interplanetary trajectory (the last 15 days before arrival), using current-technology Earth-based radio tracking, provides position errors at the entry point of 10-30 km (entry flight path angle error of 0.5-1.5 deg).  These values are the navigation knowledge at 10-15 days before entry, where the final correction maneuver is traditionally performed.  After this time, knowledge accuracy continues to improve slowly until the last few hours before entry, when it rapidly improves to about 3 km (0.15 deg entry angle error).  Maneuvers late in the  Approach Navigation Phase could convert these knowledge errors to control errors at entry.  Another option for improving these errors is the use of optical navigation on the approach to Mars (imaging the Mars moons, Phobos and Deimos) and/or the use of new radiometric data types (e.g.; Differenced Doppler, multi-s/c tracking).  These techniques could potentially reduce the entry error to the 3-km level earlier on the approach trajectory, perhaps as early as 2-4 days before entry.<p>
+
+Even if the approach navigation were perfect, errors and unknowns in the atmosphere of Mars and in the aerodynamic behavior of the entry vehicle would corrupt the trajectory during the entry phase so that the landing point error would be on the order of 100 km.  The actual error is highly dependent on the nominal entry angle (shallower entry angles lead to higher landed dispersions) and on the real (but unknown) variability in the atmosphere.<p>
+
+The only way to correct these large errors is to provide active control of the trajectory during the Entry Phase of the mission.  This can be done most effectively by the use of aerodynamic lift, modulated either by changing the pitch angle of the vehicle to change the magnitude of the lift vector or by rolling the vehicle to point the lift vector up, down, left, or right.  Current Mars entry vehicle shapes (i.e., Pathfinder and Mars 1998) could generate a lift-to-drag ratio (L/D) of only about 0.3.  This may provide enough control authority to correct for atmospheric variations and small entry errors (i.e., the 3 km errors discussed above).  To correct for the current approach navigation errors (i.e., 10-30 km), a higher L/D may be required, probably 0.8 or greater.  This could be provided by a new technology entry shape (e.g., a symmetrical bi-conic).  In either case, residual dispersions at the end of the entry phase are expected to be less than 10 km.<p>
+
+At the conclusion of the Approach and Entry phases of the Mars landing mission, the lander is left at a position a few km above the surface, and a few km away from the intended landing location (distance and direction perhaps unknown), probably hanging on a parachute.  To get from there to a safe landing near the target point, the lander will need to perform a propulsive Terminal Descent Phase, navigating to the desired landing site location.  The (unknown) distance and direction to the target site at the initiation of the Terminal Descent Phase are primarily functions of the navigation and control errors of the previous mission phases, but will also include additional components from parachute drift in the local wind and from map-tie errors. (Map-tie errors are errors or uncertainties in connecting the local coordinate frame of the map identifying the landing site with the coordinate frame of the rotating globe defined in the approach and entry trajectory model.)<p>
+
+Navigation to this target site requires a system to sense and measure the distance and direction to the target.  The only reasonable systems for this measurement are on-board systems which sense and measure the local environment directly.  For example, optical systems (cameras) could image the terrain below the lander at visible or infrared frequencies and process the image to compare it with stored map data and match the imaged terrain to a known map location.  With a known location on a map which also contains the desired landing site location, the direction and distance to the site are known.  The descent system will almost certainly include a radar altimeter as a requirement for soft landing.  The available altitude measurement can be of significant help in solving the target recognition problem by providing a scale for the optical image.  An imaging system like this could also provide hazard avoidance information late in the descent with some different image processing algorithm to look for smooth terrain.<p>
+
+<H4>Landing Accuracy Improvement Strategy</h4>
+As part of the FY95 work accomplished to date, a strategy has been developed for improving the accuracy and precision of landings on Mars.  This strategy is outlined below:<p>
+<UL>
+<LI>The Approach and Entry Phase and the Parachute and Terminal Descent Phase can be considered as separate and distinct portions of the landing mission, with an interface at parachute deployment.  That is, landed accuracy down to a few kilometers depends only on what happens in the Approach and Entry Phases, while landed accuracy below the level of a few km depends only on what happens in the Parachute and Terminal Descent Phases.
+<LI>For the Approach/Entry Phase, the goal is to reduce the position error at parachute deployment below the current value of ~ ± 150 km.  Reduction to ± 50 km would be of use, but reduction to less than ± 10 km is needed before precision landings can be accomplished.
+<LI>For the Terminal Descent Phase, the goal is to navigate over several km, correcting for;  1) errors at parachute deployment left over from the approach/entry phase, 2) wind-induced errors while on the parachute, and 3) map-tie errors.  It is assumed that a propulsion system and radar altimeter are required, regardless of precision landing requirements, just to provide a soft landing with no horizontal motion.  Both accuracy and precision in this phase require the ability to sense target-relative location and/or to sense hazards.
+</ul>
+The following chart illustrates this gradation in landed accuracy and how the application of specific technology advances can enable precision landing at Mars.
+<img src="Strategy.GIF"><p>
+<H4>FY 95 Milestones</h4><p>
+<UL>
+<LI>Quantify errors in landing site location and develop a strategy to reduce these errors. Determine approaches to error reduction through the use of technologies in on-board guidance, navigation and control, vehicle configuration, propulsive maneuverability, and remote sensing. Include approach navigation in this investigation. Evolve vehicle configuration from Mars 98 baseline. The study will compute: 1) the entry angle accuracy achievable from ground tracking versus on-board optical navigation; 2) aerodynamic error reduction using lifting body control; and 3) map-tie error reduction based local terrain navigation. The study will identify technologies that can be progressed to detailed computer simulations and selected hardware experiments and demonstrations in FY 96.
+<LI>Define potential opportunities for demonstration of technology in the 98 Lander mission (or possible Code X experiment). Focus on demonstrations of software only, with minimal effect on mission operations.
+</ul>
+<H4>FY 95 Level 1 Milestone Accomplishments</h4><p>
+<UL>
+<LI>Contributions to the error in landing site location from all mission phases have been quantified and assessed for the potential to contribute to improvement in the landing error.
+<LI>The current landing error is in the range from 100 km to 300 km, depending on mission specifics and environmental assumptions. 
+<LI>The error resulting from the Approach Navigation Phase using standard Earth-based radio navigation is about 30 km in position (about 0.15 deg in flight path angle).  This error could realistically be reduced by an order of magnitude by using optical navigation techniques in conjunction with radio navigation.  However, subsequent corruption of the trajectory during the Atmospheric Entry Phase still leaves a landing error of from 50 km to 100 km.
+<LI>Active aerodynamic maneuvering during the Atmospheric Entry Phase may reduce this error to less than 10 km, but this is still to be demonstrated.  A next-generation entry vehicle configuration with a lift-to-drag ratio of 1.1 was demonstrated to have the control authority to correct for expected atmospheric variability and the current radio-only approach navigation entry errors.  Use of a low-lift Mars 98 entry vehicle configuration severely limits the control authority available for aerodynamic maneuvering and will require the use of optical approach navigation and less conservative assumptions about atmospheric variability to achieve an accuracy of less than 10 km.
+<LI>During the Parachute Phase an additional error of up to 2 km may be accumulated due to wind drift.  There is no capability to control the trajectory in this Phase
+<LI>Reduction of these last few km of error will require the ability to navigate during the powered Terminal Descent Phase relative to the local terrain.  Guidance and control errors in this phase are small, on the order of meters, so the final landing error will depend on the quality of the navigation information.  This terminal navigation process will likely involve imaging of the surface for comparison with a terrain map stored on the lander.
+<LI>A landing accuracy improvement strategy has been developed and used to identify two areas of the Mars Landing Mission where development of new capabilities is necessary before a precision landing mission can be attempted.  Autonomous aerodynamic maneuvering in the Entry Phase is found to be the only way to compensate for the large errors introduced in this phase, and autonomous acquisition and analysis of terrain-relative position data is needed to allow navigation during the powered Terminal Descent Phase.  The two specific technologies identified for future work are:  1) control system design for active trajectory control in the Entry Phase and 2) terrain matching for terminal navigation using real-time visible light images.
+</ul>
+<H4>FY 95 Level 2 Milestone Accomplishment</h4><p>
+<UL>
+<LI>The Mars 98 lander mission and systems were examined for opportunities to demonstrate some aspects of precision landing technology.  The only potential uncovered is in the Approach Navigation Phase where it may be possible to do independent ground processing of new radio data types to try to improve the approach trajectory knowledge error.  The recent selection, as one of the lander science instruments, of a camera for terrain imaging during the Parachute and Terminal Descent Phases may open new opportunities.
+</ul>
+<H4>FY 96 Milestones</h4><p>
+<UL>
+<LI>Develop and demonstrate via computer simulation a six degree-of-freedom flight control system concept for autonomous aero-maneuvering for flight path control during the Entry Phase.  This concept will use a low lift-to-drag ratio entry vehicle configuration, a nonlinear inversion control scheme, and state-of-the-art characteristics for on-board systems (i.e., sensors, attitude control, computers, etc.).  The computer simulations will evaluate the control authority and terminal errors of this concept for a wide range of variations in the environment and in the initial state control and knowledge (i.e., Approach Navigation Phase errors).
+<LI>Develop and test techniques for terrain-matching of visible-light images of Mars-like terrain.  Images of California desert terrain (Amboy Crater in the Mojave desert and Mars Hill, in Death Valley) are available from previous Mars landing studies and these data will be used to develop specific terrain-matching techniques to demonstrate the viability of the concept.  Low-altitude images will be correlated to locations in high-altitude images with similar lighting conditions.  The correlations will be performed autonomously in computer simulations.  Algorithms which are successful in cases of similar lighting angles and look angles will then be tested for robustness with images at differing lighting and look angles.  The computer power and time constants required for successful terrain-matching will be documented.
+</ul>
+
+</DOC>

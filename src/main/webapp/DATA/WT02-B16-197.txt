@@ -1,0 +1,64 @@
+
+<DOC>
+<DOCNO>WT02-B16-197</DOCNO>
+<DOCOLDNO>IA060-000329-B022-346</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/ptype.html 205.168.79.27 19970115040701 text/html 2909
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 04:07:08 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:49 GMT
+Content-length: 2735
+</DOCHDR>
+<html>
+<head>
+<title>How It All Works</title>
+</head>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>How It All Works</h2>
+<p><strong>p-types, n-types and the Electric Field</strong>
+
+<p>To induce the electric field within a PV cell, two separate semiconductors are sandwiched
+together.  The "p" and "n" types of semiconductors correspond to "positive" and "negative"
+because of their abundance of holes or electrons (the extra electrons make an "n" type because
+an electron actually has a negative charge).
+
+<p><img border=0 hspace=15 vspace=3 src="images/holes.gif">
+<p><font color="#F79D00">Although both materials are electrically neutral, n-type silicon
+has excess electrons and p-type silicon has excess holes. Sandwiching these together creates a
+p/n junction at their interface, thereby creating an electric field.</font>
+
+<p>When the p-type and n-type semiconductors are sandwiched together, the excess electrons in the
+n-type material flow to the p-type, and the holes thereby vacated during this process flow to the
+n-type. (The concept of a hole moving is somewhat like looking at a bubble in a liquid. 
+Although it's the liquid that is actually moving, it's easier to describe the motion of the bubble as
+it moves in the opposite direction.)  Through this electron and hole flow, the two semiconductors
+act as a battery, creating an electric field at the surface where they meet (known as the
+"junction").  It's this field that causes the electrons to jump from the semiconductor out toward
+the surface and make them available for the electrical circuit.  At this same time, the holes move
+in the opposite direction, toward the positive surface, where they await incoming electrons.  
+
+<p align=right><a href="doping.html"><em>More . . .</em> Making n and p Material</a>
+
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>
+[<a href="pvhistory.html">History: The PV Effect</a>]
+[<a href="howworks.html">How It All Works</a>]
+[<a href="cells.html">From Cells to Arrays</a>]
+[<a href="flatplate.html">Flat-Plate Systems</a>]
+[<a href="concentrators.html">Concentrator Systems</a>]
+[<a href="balance.html">Balance of System</a>]
+[<a href="lightsun.html">Light and the Sun</a>]
+<p><em>U.S. Department of Energy Photovoltaics Program, 1996</em>
+</font>
+</center>
+</body>
+</html>
+</DOC>

@@ -1,0 +1,103 @@
+
+<DOC>
+<DOCNO>WT02-B26-174</DOCNO>
+<DOCOLDNO>IA075-000495-B008-231</DOCOLDNO>
+<DOCHDR>
+http://hyun.seri.re.kr:80/Projects/ASAT.html 150.183.108.63 19970122020157 text/html 3620
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 01:55:17 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 10 Jun 1996 06:42:31 GMT
+Content-length: 3446
+</DOCHDR>
+<html>
+
+<title>
+	A Study on Application Techniques of Remotely Sensed Data	
+</title>
+
+<br><br>
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Title of the Study
+</h2>
+<ul>
+<h3>
+	"A Study on Application Techniques of Remotely Sensed Data"
+</h3>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Objectives of the Study 
+</h2>
+<ul>
+<p>
+   Several industralized countries haveuntlized various  satellite imagery for many applications such  as weather  forecasting,  resource  exploration, national  land  development, crop  yield forecasting, marine and oceanic  research, etc.  The success or failure of  using these satellite imagery mainly depend on the capability of image processing software. In this context, U.S.A and Japan  started developing  image processing software  from early  1960 and there are a large number  of image processing  packages being  utilized in operational  mode.
+   In  Korea, research to develop  an image processing software  has been performed sporadically, however no significant results were made  due to the lack of fund and man  power.  Korea is a small country with a  large number of population and  the use of satellite imagery  for the efficient national land  utilization, resource development,  and maximizing crop produetion  capability is indispensible.  For this purpose, a powerful image  processing software for the analysis of the remotely sensed data needs to be developed.
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Contents and Scope of the Study 
+</h2>
+<ul>
+<p>
+   This year is the second year of the proposed three year study. The countent of the study can  be divided  into three  major sections.  The  first is the developing the  enhancement software in spatial domain  while the second section deals with the transformation  algorithms in frequency domain. These softwares were  designed to analyze the satellite imagery such as Landsat and STOP.  The third section deals with color balancing for generating hard copy of satellite imagery. It covers transformation between RGB vs HIS. The existing popular image processing software packages were surveyed and analyzed also.
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Conclusions 
+</h2>
+<ul>
+<p>
+1.  Analysis of six (6) existing popular image processing software packages.<br>
+2.  Spatial domain enhancement software development:
+    <ul>
+    o mean filter<br>                
+    o median filter<br>
+    o mode filter<br>                
+    o gradient operator<br>
+    o Laplacian operator<br>         
+    o difference operator<br>
+    o Sobel operator<br>
+    </ul>
+3.  Fourier transform and frequency domain enhancement software development:
+    <ul>
+    o FFT transform<br>            
+    o low-pass filter<br>
+    o high-pass filter<br>            
+    o exponential filter<br>
+    o Gaussian filter<br>            
+    o inverse transform<br>
+    </ul>
+4.  Color banancing for the image display and hard copy generation:
+    <ul>
+    o analysis of color perception scheme by human eye-brain combination<br>
+    o survey of the color models<br>
+    o color transformation software development<br>
+      <ul>
+      -  RGB to HIS<br>
+      -  HIS to RGB<br>
+      </ul>
+    </ul>
+</p>
+</ul><br>
+
+<hr><br>
+
+<ul>
+<h3>
+<address>
+<a href="../projects.html"><img alt="" src="../Icons2/Arrows/larrow.gif" width=10% height=8%></a> Go Back One Step!
+</address>
+</h3>
+</ul><br><br>
+
+
+</html>
+</DOC>

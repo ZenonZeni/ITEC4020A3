@@ -1,0 +1,126 @@
+
+<DOC>
+<DOCNO>WT02-B26-276</DOCNO>
+<DOCOLDNO>IA097-001047-B048-9</DOCOLDNO>
+<DOCHDR>
+http://www.science.ca:80/css/gcs/ask/ 142.58.111.137 19970215092225 text/html 4297
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 09:22:39 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 23 Jan 1997 08:37:53 GMT
+Content-length: 4123
+</DOCHDR>
+<HTML> 
+<HEAD> 
+<TITLE>GCS: Ask A Scientist</TITLE> 
+</HEAD> 
+<BODY BGCOLOR="#ffffff" ALINK="#ffffff" VLINK="#ff0000"> 
+
+
+
+<CENTER>
+<BR>
+<IMG SRC="../graphics/banner.gif"><BR>
+<IMG SRC="../graphics/ask.gif"><P>
+</CENTER>
+<HR NOSHADE>
+
+<CENTER><FONT SIZE="+2"><I>Have a science-related question?
+<BR> Ask a Scientist! 
+<BR> But please, we cannot do your homework or science fair projects
+for you.
+</FONT></CENTER>
+
+<FONT SIZE="+1">
+Here are some <A HREF="http://www.eduzone.com/tips/science.htm">ideas for science fair projects.</A> And here are <A HREF="http://www.isd77.k12.mn.us/resources/cf/steps.html"> the steps to do a science fair project with more ideas</A>.
+<P>
+If you are going to ask about a career in science try these sites instead:
+<A HREF="http://www.neaq.org/KIDS/kids.wis.career.html">A woman's career in cience.</A>
+<A HREF="http://sci.aaas.org/nextwave/"> General science careers.</A>
+<A HREF="http://kendaco.telebyte.com/billband/Career.html"> Career Resources.</A>
+<A HREF="http://recruit.sciencemag.org/feature/cp-career96.shl"> Six hot careers.</A>
+<A HREF="http://www2.nas.edu/cpc/"> Career planning centre.</A>
+<P>
+If you still have a good question, remember: these are very busy people who are volunteering their time, so please keep your questions brief and to the point. Also, please make sure that your question hasn't already been asked; check the <A HREF="ask_archive_961201.txt">archive</A>.</I></FONT><P>
+
+<CENTER>
+<FORM METHOD="POST" ACTION="ask.cgi">
+<B>Your Name:</B> <INPUT TYPE=text NAME="name" SIZE=50 MAXLENGTH=100><BR>
+
+<B>Age:</B> <INPUT TYPE=text NAME="age" SIZE=3 MAXLENGTH=3>
+
+<B></B> <INPUT TYPE=radio NAME="sex" VALUE="female"> Female 
+<INPUT TYPE=radio NAME="sex" VALUE="male"> Male<BR>
+
+<B>E-mail:</B> <INPUT TYPE=text NAME="email" SIZE=50 MAXLENGTH=100><BR>
+
+<B>Choose a topic area:</B>
+<SELECT NAME="keyword">
+<OPTION>General Science Question
+<OPTION>Astronomy
+<OPTION>Chemistry
+<OPTION>Computing Science
+<OPTION>Ecology
+<OPTION>Engineering
+<OPTION>Forestry
+<OPTION>Genetics
+<OPTION>Meteorology
+<OPTION>Oceanography
+<OPTION>Physics
+<OPTION>Psychology
+</SELECT><P>
+
+<B>Give Your Question a Short Title:</B><BR>
+<INPUT TYPE=text NAME="subject" SIZE=60 MAXLENGTH=100><P>
+
+<B>Your Question:</B><BR>
+<TEXTAREA NAME="question" ROWS=10 COLS=60 WRAP=soft>
+</TEXTAREA><P>
+<INPUT TYPE=IMAGE NAME="Send" src="../graphics/ask_button.gif" alt="Send" border=0>
+</FORM>
+</CENTER>
+
+<P>
+
+<FONT SIZE="+1"><I>If you know of a scientist who would like to participate in Ask a Scientist, please <A HREF="mailto:shell@sfu.ca">tell us</A>.</I></FONT><P>
+
+<FONT SIZE="-1">Ask A Scientist is being continuously improved. Send comments to <A HREF="mailto:iwojtowi@cs.sfu.ca">Ian Wojtowicz</A></FONT>
+
+<HR NOSHADE>
+<CENTER>
+<!-- GCS Button Bar -->
+<P>
+<A HREF="../home.html"><IMG BORDER="0" SRC="../graphics/buttonbar/homepage.gif" ALT="Homepage"></A>
+<A HREF="../search.html"><IMG BORDER="0" SRC="../graphics/buttonbar/search.gif" ALT="Search"></A>
+<A HREF="../feedback.html"><IMG BORDER="0" SRC="../graphics/buttonbar/feedback.gif" ALT="Feedback"></A>
+<A HREF="../profiles.html"><IMG BORDER="0" SRC="../graphics/buttonbar/profiles.gif" ALT="Profiles"></A>
+<A HREF="../reference.html"><IMG BORDER="0" SRC="../graphics/buttonbar/reference.gif" ALT="Reference"></A>
+<IMG BORDER="0" SRC="../graphics/buttonbar/ask_grey.gif" ALT="Ask a Scientist">
+<A HREF="../games.html"><IMG BORDER="0" SRC="../graphics/buttonbar/games.gif" ALT="Games"></A>
+<A HREF="../quiz/"><IMG BORDER="0" SRC="../graphics/buttonbar/quiz.gif" ALT="Quiz"></A>
+<P>
+<!-- GCS Button Bar -->
+
+<TABLE>
+<TR><TD WIDTH="250" VALIGN="top" ALIGN="center">
+<H5>Web facilities provided courtesy of the<BR>
+<A HREF="http://fas.sfu.ca/css">Centre for Systems Science</A> 
+at <A HREF="http://www.sfu.ca">Simon Fraser University</A></H5><P>
+</TD><TD WIDTH="250" VALIGN="top" ALIGN="center"> 
+<H5>Creative web juices provided courtesy of:<BR>
+The <A HREF="../credits.html">GCS Team</A></H5>
+</TD></TR>
+<TR>
+<TD COLSPAN="2" ALIGN="center">
+<H5>&copy; 1994, 1995, 1996 GCS Research Society</H5>
+</TD>
+</TR>
+</TABLE>
+<P>
+
+</CENTER>
+</BODY> 
+</HTML> 
+
+</DOC>

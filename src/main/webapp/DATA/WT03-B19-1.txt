@@ -1,0 +1,352 @@
+
+<DOC>
+<DOCNO>WT03-B19-1</DOCNO>
+<DOCOLDNO>IA041-000763-B003-328</DOCOLDNO>
+<DOCHDR>
+http://pisces.ucsd.edu:80/~ggunner/manual.html 132.239.190.110 19970303070222 text/html 13445
+HTTP/1.0 200 Sending Processed HTML         
+Content-length: 13312
+MIME-version: 1.0
+Server: OSU/2.1a
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>AD1020 User's Manual</TITLE>
+</HEAD>
+<BODY>
+<B>Programmer's Manual</B> <BR>
+<BR>
+<B>Supported Functions:<BR>
+<BR>
+</B><TT>01H  F(1): Read status bits (W1..4=RAMSIZE, W5=SyncBusy)<BR>
+02H  F(2): Read data (Q-stop mode)<BR>
+03H  F(3): <BR>
+08H  F(8): Test LAM request into Q<BR>
+09H  F(9): Start digitizing <BR>
+0AH F(10): Clear LAM<BR>
+0BH F(11): Clear LAM on A/D module assigned to channel A(n)<BR>
+10H F(16): Select channel A(n) for reading back<BR>
+11H F(17): A(0) Set % of post trigger samples (W1..4)<BR>
+           A(1) Set clock speed (W1..8)<BR>
+12H F(18): Set gain of channel A(n) (W1..8)<BR>
+13H F(19): <BR>
+18H F(24): Disable LAM<BR>
+19H F(25): Generate stop trigger<BR>
+1AH F(26): Enable LAM<BR>
+1BH F(27): Generate LAM on A/D module assigned to channel A(n)<BR>
+<BR>
+</TT><B>Supported Commands:<BR>
+</B><TT>Z: Reset module<BR>
+C: Reset module<BR>
+<BR>
+</TT><B>Special Notes:</B><BR>
+All F-code commands are sent to the control module only.<BR>
+All A/D modules connected to the control module will sample at the same
+time and frequency.<BR>
+All A/D Modules must have the same memory size installed in them.<BR>
+The gain of any A/D channel is individually selectable, regardless of module.<BR>
+Full scale input voltage produces 10 bits of data in W1..W10 plus a sign
+bit in W11. W12..W16 should be masked as they may be high.<BR>
+<B>RAM Size Switch Settings</B><BR>
+<BR>
+The RAM size switch only need to be set once when memory is first installed.
+All A/D modules connected to a control module should have the same amount
+of memory installed in them. The RAM size switch is labeled &quot;RAM Size&quot;
+and located on the control board.<BR>
+<BR>
+<TT># of Bits    Switch     Memory in RAM Setting Size (Words)<BR>
+    9          0        512<BR>
+   10          1          1K<BR>
+   11          2          2K<BR>
+   12          3          4K<BR>
+   13          4          8K<BR>
+   14          5         16K<BR>
+   15          6         32K<BR>
+   16          7         64K<BR>
+   17          8        128K<BR>
+   18          9        256K<BR>
+   19          A        512K<BR>
+   20          B          1M<BR>
+   21          C          2M<BR>
+   22          D          4M<BR>
+   23          E          8M<BR>
+   24          F         16M<BR>
+<BR>
+<BR>
+</TT><B>RAM Speed Switch Settings</B><BR>
+<BR>
+The RAM speed switches only need to be set once when memory is first installed.
+The switches are labeled &quot;RAM Speed&quot; and located in the A/D module
+on the memory board. These switches control the length of the write pulse
+sent to the RAMs. The write pulse length is read directly from the value
+set on the switches (in hex) plus an inherient 14ns. Pulse length is adjustable
+from 14ns to 268ns in 2ns increments. The last bit of the setting is ignored.
+Note that the most significant digit is right and that the least significant
+digit is on the left. Some possible pulse lengths are shown as examples.<BR>
+<BR>
+<TT>        Write Pulse<BR>
+SW3 SW2   Length<BR>
+ 0   0    14 ns<BR>
+ 1   0    14 ns<BR>
+ 2   0    16 ns<BR>
+ 3   0    16 ns<BR>
+ 4   0    18 ns<BR>
+ 0   1    30 ns<BR>
+ 4   1    34 ns<BR>
+ A   1    40 ns<BR>
+ 0   2    46 ns<BR>
+ 4   2    50 ns<BR>
+ A   2    56 ns<BR>
+ E   2    60 ns<BR>
+ 4   3    66 ns<BR>
+ 8   3    70 ns<BR>
+ E   3    76 ns<BR>
+ 2   4    80 ns<BR>
+ 6   4    84 ns<BR>
+ 8   4    86 ns<BR>
+ C   4    90 ns<BR>
+ 0   5    94 ns<BR>
+ 6   5   100 ns<BR>
+ 0   6   110 ns<BR>
+ A   6   120 ns<BR>
+ D   7   140 ns<BR>
+ E   F   266 ns<BR>
+ F   F   268 ns<BR>
+<BR>
+<BR>
+</TT><B>A/D Module Channel Assignment Switch Settings</B><BR>
+<BR>
+One control module can accomodate 4 A/D modules. Both the A/D module and
+the control module are connected via a high density ribbon cable on the
+back of the module. The modules may be placed in any order with the control
+module placed on either end or in the middle. If less than 4 A/D modules
+are being used, the empty spaces may also be placed in any position. A/D
+modules are addressed by their A/D channel assignment switch setting which
+is mislabeled &quot;RAM Size&quot; but correctly labeled &quot;SW1&quot;.
+It is found in the A/D module on the memory board. Never assign the same
+channels to more than one A/D module attached to the same control module.<BR>
+<B><BR>
+SW1 A/D Channel Assignment</B><BR>
+<BR>
+0 channels 0 - 3<BR>
+1 channels 4 - 7<BR>
+2 channels 8 - 11<BR>
+3 channels 12 - 15<BR>
+<BR>
+<BR>
+<B>Jumper Pad Settings<BR>
+<BR>
+Memory Size Pad Setting</B>s<BR>
+<BR>
+The pads undeneath the RAM on the A/D module are set to match the memory
+size installed in the board. They select between power and address lines
+sent to the memory chip's pins. To select between power and address, first
+position the board so that the &quot;PAD101&quot; lettering is arranged
+horizontally as you would read it. To select power on PADn01 or PADn03,
+connect the center pad to the top half-circle pad; to select address, connect
+the center pad to the bottom half-circle pad. For PADn02 or PADn04, the
+reverse is true. The top pad is for address and the bottom pad is for power.
+Although the controller board can access 16M words of memory, the A/D module
+only has room to support from 4K words to 512K words.<BR>
+<BR>
+<TT>PADn01    PADn02   # of Bits   Switch       Memory<BR>
+PADn03    PADn04    in RAM     Setting   Size (Words)<BR>
+ power    power       12          3           4K<BR>
+ power    power       13          4           8K<BR>
+ power   address      14          5          16K<BR>
+ power   address      15          6          32K<BR>
+ power   address      16          7          64K<BR>
+ power   address      17          8         128K<BR>
+address  address      18          9         256K<BR>
+address  address      19          A         512K<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</TT><B><BR>
+PAD 1-5</B><BR>
+These jumber pads are for setting the time delay between the convert pulse
+sent to the SPT-7820 a/d chips and the latch data signal sent to the memory
+system. Never connect more than one. Each pad provides 10ns of delay. Leave
+set to pad3.<BR>
+<BR>
+<B>Sampling Speed F(17) A(1) W(control word)<BR>
+<BR>
+</B><TT>Control Word    Frequency<BR>
+  24 18H          375 Hz.<BR>
+  25 19H          500 Hz.<BR>
+  26 1AH          750 Hz.<BR>
+  27 1BH            1 KHz.<BR>
+  28 1CH          1.5 KHz.<BR>
+  29 1DH            2 KHz.<BR>
+  30 1EH            3 KHz.<BR>
+  31 1FH            4 KHz.<BR>
+  32 20H         3.75 KHz.<BR>
+  33 21H            5 KHz.<BR>
+  34 22H          7.5 KHz.<BR>
+  35 23H           10 KHz.<BR>
+  36 24H           15 KHz.<BR>
+  37 25H           20 KHz.<BR>
+  38 26H           30 KHz.<BR>
+  39 27H           40 KHz.<BR>
+  40 28H         37.5 KHz.<BR>
+  41 29H           50 KHz.<BR>
+  42 2AH           75 KHz.<BR>
+  43 2BH          100 KHz.<BR>
+  44 2CH          150 KHz.<BR>
+  45 2DH          200 KHz.<BR>
+  46 2EH          300 KHz.<BR>
+  47 2FH          400 KHz.<BR>
+  48 30H          375 KHz.<BR>
+  49 31H          500 KHz.<BR>
+  50 32H          750 KHz.<BR>
+  51 33H            1 MHz.<BR>
+  52 34H          1.5 MHz.<BR>
+  53 35H            2 MHz.<BR>
+  54 36H            3 MHz.<BR>
+  55 37H            4 MHz.<BR>
+  56 38H         3.75 MHz.<BR>
+  57 39H            5 MHz.<BR>
+  58 3AH          7.5 MHz.<BR>
+  59 3BH           10 MHz.<BR>
+  60 3CH           15 MHz.<BR>
+  61 3DH           20 MHz.<BR>
+  62 3EH           30 MHz.<BR>
+  63 3FH           40 MHz.<BR>
+<BR>
+</TT><B>Sampling Speed F(17) A(1) W(control word)<BR>
+(from external clock)<BR>
+<BR>
+</B><TT>Control Word   Frequency<BR>
+  88 58H      External/80000<BR>
+  90 5AH      External/40000<BR>
+  92 5CH      External/20000<BR>
+  94 5EH      External/10000<BR>
+  96 60H      External/8000<BR>
+  98 62H      External/4000<BR>
+ 100 64H      External/2000<BR>
+ 102 66H      External/1000<BR>
+ 104 68H      External/800<BR>
+ 106 6AH      External/400<BR>
+ 108 6CH      External/200<BR>
+ 110 6EH      External/100<BR>
+ 112 70H      External/80<BR>
+ 114 72H      External/40<BR>
+ 116 74H      External/20<BR>
+ 118 76H      External/10<BR>
+ 120 78H      External/8<BR>
+ 122 7AH      External/4<BR>
+ 124 7CH      External/2<BR>
+ 126 7EH      External/1<BR>
+ 132 84H      External Direct (faster)<BR>
+ 128 80H      Clock Forced Low<BR>
+ 130 82H      Clock Forced High<BR>
+<BR>
+</TT><B>Post Trigger Counter F(17) A(0) W(control word)<BR>
+<BR>
+</B><TT>Control    %P.T.<BR>
+ Word      (% of samples after Stop Trigger is Received)<BR>
+   0       0/8 of RAM + 1 sample<BR>
+   1       1/8 of RAM<BR>
+   2       1/8 of RAM + 1 sample<BR>
+   3       2/8 of RAM<BR>
+   4       2/8 of RAM + 1 sample<BR>
+   5       3/8 of RAM<BR>
+   6       3/8 of RAM + 1 sample<BR>
+   7       4/8 of RAM<BR>
+   8       4/8 of RAM + 1 sample<BR>
+   9       5/8 of RAM<BR>
+   10       5/8 of RAM + 1 sample<BR>
+   11       6/8 of RAM<BR>
+   12       6/8 of RAM + 1 sample<BR>
+   13       7/8 of RAM<BR>
+   14       7/8 of RAM + 1 sample<BR>
+   15       8/8 of RAM<BR>
+<BR>
+</TT><B>Channel Gain F(18) A(channel) W(control word)<BR>
+<BR>
+</B><TT>Control<BR>
+ Word       Full Scale Input Voltage<BR>
+  15           +/- 100 mV<BR>
+  14           +/- 200 mV<BR>
+  11           +/- 250 mV<BR>
+   6           +/- 400 mV<BR>
+  10           +/- 500 mV<BR>
+   2           +/- 1 V<BR>
+  12           +/- 2 V<BR>
+   4           +/- 4 V<BR>
+   8           +/- 5 V<BR>
+   0           +/- 10 V<BR>
+</TT><B><BR>
+Programming Sequence<BR>
+<BR>
+F(17) A(0) W(x) Post Trigger Samples</B> This sets the amount of data points
+taken after a stop trigger is received. For example F(17) A(0) W(13) sets
+the digitizers so that 7/8 of the data points stored will be taken after
+the stop trigger signal was received. If your total memory is 512KS/channel,
+then 448K samples would be taken after the stop trigger signal.<BR>
+<BR>
+<B>F(17) A(1) W(y) Sample Speed</B> This sets the digitizer sample rate.
+For example F(17) A(1) W(59) sets the digitizers to 10 Mega Samples per
+second. The external clock input can be selected by using an external clock
+code. For example, F(17) A(1) W(132) uses the external clock input instead
+of the internal clock. The external clock may be slowed internally for special
+applications by selecting the proper code.<BR>
+<BR>
+<B>F(18) A(ch) W(z) Input Voltage Selection</B> This selects the usable
+range of input voltages. Every channel must be programmed separately. Each
+module may have different voltage range programmed into each channel. For
+example, the following commands set channel 0 to +/- 2V, channel 1 to +/-
+5V, channel 3 and 4 to +/- 1V: F(18) A(0) W(12), F(18) A(1) W(8), F(18)
+A(2) W(2), F(18) A(3) W(2). The second module uses channels 4 to 8 and so
+on, up to channel 15 on the 4th module.<BR>
+<BR>
+<B>F(10) Clear LAM</B> This clears the LAM flip-flop on the control module.<BR>
+<BR>
+<B>F(26) Enable LAM</B> This enables the LAM on the control module so that
+when the digitizers receive a stop trigger and finish digitizing, a LAM
+is sent to the LAM Encoder Module. This does not clear the LAM. If the LAM
+was previously set, an immediate interrupt will be generated.<BR>
+<BR>
+<B>F(9) Start Digitizers</B> This starts the digitizers continuously sampling
+and storing data in memory.<BR>
+<BR>
+<B>stop trigger or<BR>
+F(25) Hardware or Software Trigger</B> This stops the digitizers after the
+post trigger samples have been taken. The F(25) command and a TTL pulse
+into the stop trigger input on the front of the control module work identically.
+After the digitizer is completely finished taking data, the control module
+LAM will be set. If the LAM has been enabled, this LAM will be sent onto
+the dataway to the LAM Encoder Module.<BR>
+<BR>
+<B>F(16) A(ch) Prepare to Read Data</B> This command selects the channel
+number to be read. Channels may be read in any order and can be read more
+than once. Each time the F(16) command is issued, the A/D module will begin
+transmitting data from the beginning of the selected channel's memory, not
+from where it left off last time.<BR>
+<BR>
+<B>F(2) Read Data Word</B> This command is used to read back sequential
+data points from the digitizer's memory. Q-stop mode is available, ie, valid
+data will be signified by Q=1, invalid data by Q=0 (read past the end of
+data.)<BR>
+<BR>
+<B>F(8) Check LAM</B> This puts the status of the LAM into Q even if the
+LAM is not enabled.<BR>
+<BR>
+<B>F(27) A(ch) Generate A/D LAM</B> This command will generate a LAM which
+will come from the A/D module assigned to the specified channel. It is useful
+for identifying which A/D channel is in which slot. For example, suppose
+the controller module is in slot N=5 and 2 digitizer modules are in slots
+N=3 and N=4. Then an F(27) A(0) might generate a LAM in slot N=4 signifying
+that channel 0 to 3 were plugged into slot N=4. Remember that this and all
+other command must be issued only to the controller module.<BR>
+<BR>
+<B>F(11) A(ch) Clear A/D LAM</B> This clears the LAM on the A/D module which
+is assigned to the channel specified. Any of the 4 channels on that module
+may be used interchangeably.<BR>
+<BR>
+</BODY>
+</HTML>
+                                                                                                                                                                                                                                                                                                                
+</DOC>

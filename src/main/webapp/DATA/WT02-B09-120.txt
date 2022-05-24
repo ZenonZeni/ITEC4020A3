@@ -1,0 +1,70 @@
+
+<DOC>
+<DOCNO>WT02-B09-120</DOCNO>
+<DOCOLDNO>IA057-000945-B042-3</DOCOLDNO>
+<DOCHDR>
+http://computerline.libertynet.org:80/new.htm 204.170.205.49 19970208053738 text/html 2370
+HTTP/1.0 200 OK
+Date: Saturday, 08-Feb-97 05:37:39 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE html PUBLIC "-//Netscape Comm. Corp.//DTD HTML//EN">
+<HTML>
+<HEAD><H1></H1>
+<TITLE>Guestbook</TITLE>
+</HEAD>
+<BODY><HTML>
+<HEAD>
+<TITLE>ComputerLine's Guest Book Registry</TITLE>
+</HEAD>
+<BODY>
+<body bgcolor="#90A1E5" text="#000000" link="#5500EE" vlink="#551A8B" alink="#551A8B">
+<center>
+<h2>ComputerLine Guest Book</h2><HR>
+</center><FONT COLOR="#FFffff"><CENTER><BIG><I><B> </B></I></BIG></FONT></CENTER>
+ <form method=POST action="mailto:denise@computerline.com">
+<CENTER>Please take a moment to fill out ComputerLine's guest book. 
+<p>
+Name:  <INPUT type="Text" name="Name" size=35 maxlength="127"><br>
+Email:     <INPUT type="text" name="Email" size=35 maxlength="127"><br>
+Phone: <INPUT type="text" name="Phone" size=35 maxlength="127"><br>
+Fax #:     <INPUT type="text" name="Fax" size=35 maxlength="127"><br><br>
+Addr:    <INPUT type="text" name="Address" size=35 maxlength="127"><br>
+City:        <INPUT type="text" name="City" size=35 maxlength="127"><br>
+State:   <INPUT type="text" name="State" size=35 maxlength="127"><br>
+Zip:         <INPUT type="text" name="Zip" size=35 maxlength="127"><br>
+<br></center>
+
+<p>What can ComputerLine do for you?<br>
+<ul>
+<dt><input type="checkbox" name="train" value="Training">Training
+<dt><input type="checkbox" name="train" value="Sales">Sales
+<dt><input type="checkbox" name="train" value="Service">Service
+<dt><input type="checkbox" name="train" value="Networking">Networking
+<dt><input type="checkbox" name="train" value="Net Serve">Internet Services<br>
+<dt>If you entered Other, please state<input type="text" name="Other" size=50 maxlength=256>
+
+
+</ul>
+<p>How did you find out about ComputerLine?<br>
+<Input type="text"name="Hear" size=70 maxlength=254></p>
+We would love to hear from you, please feel free to send suggestions, or ask questions.<br>
+<textarea rows=10 cols=69 name="comment"></textarea>
+<BR>
+
+<p>
+<input type="submit" value="Send it in">
+ <input type="reset" value="Clear the form">
+
+<p> Thank You For Signing In!<p>
+<A HREF="index.htm"><IMG SRC="bl02.gif" BORDER="0">Home Page</A>
+
+</FORM>
+<IMG SRC="email.gif">Please e-mail all suggestions and inquiries to denise@computerline.com</BODY>
+</HTML>
+
+</BODY>
+</HTML>
+</DOC>

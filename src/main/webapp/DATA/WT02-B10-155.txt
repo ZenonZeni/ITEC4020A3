@@ -1,0 +1,39 @@
+
+<DOC>
+<DOCNO>WT02-B10-155</DOCNO>
+<DOCOLDNO>IA093-000995-B028-459</DOCOLDNO>
+<DOCHDR>
+http://www.nyspi.cpmc.columbia.edu:80/SEARCH.HTM 156.111.80.30 19970121072229 text/html 836
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: GLACI/2.01
+Date: Tue Jan 21 02:26:34 1997
+Content-Type: text/html
+Content-Length: 707
+</DOCHDR>
+<html>
+ <head>
+  <title>NYSPI - SEARCH ENGINE</title>
+ </head>
+ <body background="./images/marble.jpg">
+  <center>
+   <h1>NYSPI - Search Engine</h1>
+  </center>
+<hr size=2 width=75%><p>
+<form method=POST action="http://www.nyspi.cpmc.columbia.edu/cgi-bin/search.pl">
+<center><table border>
+<tr>
+<th>Text to Search For: </th><th><input type=text name="terms" size=40><br></th>
+</tr><tr>
+<th>Boolean: <select name="boolean">
+<option>AND
+<option>OR
+</select> </th> <th>Case <select name="case">
+<option>Insensitive
+<option>Sensitive
+</select><br></th>
+</tr><tr>
+<th colspan=2><input type=submit value="Search!"> <input type=reset><br></th>
+</tr></table></form></center>
+</body></html>
+</DOC>

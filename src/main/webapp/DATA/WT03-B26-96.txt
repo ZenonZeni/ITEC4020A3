@@ -1,0 +1,84 @@
+
+<DOC>
+<DOCNO>WT03-B26-96</DOCNO>
+<DOCOLDNO>IA028-000298-B033-480</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/spin69/box3.htm 138.44.40.1 19970114170452 text/html 3286
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 17:02:54 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:10:09 GMT
+Content-length: 3112
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>SPOT Images </TITLE>
+</HEAD>
+<BODY BACKGROUND="../gifs/paper1.gif">
+<HR>
+<H3>SPOT Images</H3>
+<HR>Both HRVs can work in either panchromatic or multispectral imaging modes,
+singly or together. <BR>
+The panchromatic mode uses a single spectral band, 0.51&shyp;0.73 micron
+(visible light without blue), to produce black and white images resolving
+fine geographic detail. <BR>
+<BR>
+The multispectral mode uses three bands (green, 0.50&shyp;0.59 micron; red,
+0.61&shyp;0.68 micron; and near infrared, 0.79 to 0.89 micron), each with
+its own reflectance properties, to create coloured images. Numerous landscape
+features can be interpreted from the composite images.<BR>
+<BR>
+Images are split at the telescope's focal plane. Part of the image is sent
+to a line of 6000 photodetectors which emit electrical charges when struck
+by light. These build the panchromatic image. Each detector corresponds
+to 10 m pixels, giving images 60 km wide. Images are constructed line by
+line as the satellite moves.<BR>
+<BR>
+The rest of the image goes to a dichroic beam splitter. This glass device
+directs each band to another detector strip. But these detectors receive
+insufficient light to fire, so Charged Coupled Devices generate a signal
+from two adjacent detectors, hence multispectral mode's 20 m colour resolution.
+<BR>
+SPOT encodes the images for transmission to Earth. The satellite may download
+the image to a Direct Receiving Station in real time if within range, otherwise
+the image is recorded and downloaded later. <BR>
+<HR><BR>
+<P><CENTER><IMG SRC="697c.gif" WIDTH="260" HEIGHT="234" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+SPOT can observe the same zone from different angles over a number of orbits.<BR>
+<HR></CENTER>
+<P>Images of large areas may be built up over several passes.<BR>
+<BR>
+Captured images must be preprocessed: corrected for perspective and atmospheric
+distortion. Images at various levels of preprocessing are available for
+purchase. Higher levels provide precise geometric alignment with ground
+checkpoints and existing maps, in addition to the corrections for viewing
+angle, reflectance characteristics and detector sensitivity offered at lower
+levels.<BR>
+<BR>
+SPOT''s sideways viewing allows capture of images of the same site taken
+from different angles, using parallax to create stereopairs. These are used
+for stereoplotting, topographic mapping, and automatic stereocorrelation,
+from which Digital Elevation Models (3D computer landscape images) can be
+derived.<BR>
+<BR>
+Processed images, typically 30&shyp;100 Mb, are available on CD ROM, magnetic
+tape or printed form.<BR>
+<BR>
+<HR>
+<P><CENTER><IMG SRC="697a.gif" WIDTH="260" HEIGHT="263" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+These diagrams show the types of observation possible using SPOT's two High
+Resolution Visual (HRV) scanners.<HR></CENTER>
+<P>
+<P><CENTER><IMG SRC="697b.gif" WIDTH="260" HEIGHT="353" ALIGN=bottom NATURALSIZEFLAG=
+"3"></CENTER>
+<P><HR><A HREF="spin691.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150"
+HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<HR>
+</BODY>
+</HTML>
+</DOC>

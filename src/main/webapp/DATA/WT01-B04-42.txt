@@ -1,0 +1,106 @@
+
+<DOC>
+<DOCNO>WT01-B04-42</DOCNO>
+<DOCOLDNO>IA080-000557-B034-335</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Platformrobs.html 137.79.14.197 19970103071314 text/html 9076
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f2b8.322@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:18:16 GMT
+Last-Modified: Thursday, 15-Feb-96 18:09:39 GMT
+Content-type: text/html
+Content-length: 8830
+</DOCHDR>
+<TITLE>PLATFORM ROBOTICS</title>
+<img src="logo.gif"><H3>Rover and Telerobotics Technology Program</h3><p>
+<H1>PLATFORM ROBOTICS</h1><p>
+<A NAME="segment2">In this segment:</a>
+<UL>
+<LI><A HREF="#SurfaceInsp">Remote Surface Inspection</a>
+<LI><A HREF="#DexArm4Ranger">Dexterous Arm Control for the Ranger Flight Experiment</a>
+<LI><A HREF="RangerInsp">Ranger Automated Inspection</a>
+<LI><A HREF="CalibSynView">Calibrated Synthetic Viewing</a>
+</ul><p>
+Other Segments on this homepage:
+<UL>
+<LI><A HREF="Planetrobs.html">Planetary Robotics</a>
+<LI><A HREF="Techcom.html">Technology Commercialization</a>
+<LI><A HREF="Non-NASA.html">Non-NASA Tasks</a>
+</ul><p>
+<A HREF="Menu.html">Back to Main</a><p>
+<B>========================================</b><p>
+<A NAME="SurfaceInsp"><H3>Remote Surface Inspection</h3></a><p>
+
+Complex space missions require routine and unscheduled inspection for safe operation.  A research and development program is being conducted to develop supervised inspection techniques for tedious tasks as an aid to the operator.  The telerobotic system would perform inspection relative to a given reference (e.g., the status of the facility at the time of the last inspection) and alert the operator to potential anomalies for verification and action.  One example is the inspection of truss struts for micrometeoroid damage and visible cracks on thermal radiator surfaces.  In the research being conducted, simulation of realistic dynamic lighting conditions is included.  In addition, configuration control of manipulators with redundant degrees of freedom, pioneered by JPL, has been implemented to assure dexterous manipulation near complete structures.<p>
+<CENTER>
+<img src="SURFINSP.GIF"><p>
+<H4>Teleoperated robotic arm carrying a pair of miniwrist cameras</h4><p>
+<img src="cupola.GIF"><p>
+<H4>Surface Inspection robot control station</h4><p>
+</center>
+The baseline inspection task is to teleoperate a robotic arm carrying a pair of miniwrist cameras.  The operator uses a pair of 3-degrees-of-freedom joysticks and can control the lighting to better view the scene.  Additional cameras with pan/tilt and zoom/focus control are controlled by the operator to observe the arm's motion and to inspect objects that are far away from the arm.  A local-remote architecture is employed so that space and time distances can be effectively treated.  Multisensor-based inspection of gas leak, temperature, and damage is conducted.   Subsequently, inspection tasks requiring contact, such as eddy current-based crack detection, are performed.<p>
+
+Technologies developed for the application include:<p>
+<UL>
+<LI>Simulation of realistic dynamic lighting conditions
+<LI>Teleoperation and automated inspection
+<LI>Configuration-control redundant-arm kinematics and automated manipulator base placement
+<LI>Force control
+<LI>Multisensor inspection - vision, gas, temperature, and eddy current
+<LI>Serpentine manipulator development
+<LI>Multisensor integrated gripper development
+<LI>Virtual-window viewing
+</ul><p>
+Technology is currently being transferred to prospective Space Station applications at the NASA Johnson Space Center.<p>
+
+<H5><B>Point of Contact:</b>  Won.S.Kim@jpl.nasa.gov</h5><p>
+<A HREF="#segment2">Return to Segment Menu</a><p>
+<B>========================================</b><p>
+<A NAME="DexArm4Ranger"><H3>Dexterous Arm Control for the Ranger Flight Experiment</h3></a><p>
+
+The NASA Ranger Flight Experiment, led by the University of Maryland, is aimed at the development and demonstration of robotic technologies for executing manipulation tasks in space.  The Ranger robot incorporates two dexterous 7-degrees-of-freedom manipulator arms mounted on a free-flying base.  These arms will be used, both individually and cooperatively, to perform a variety of manipulation experiments and servicing operations.  Based on a recent trade study on dexterous arm control, the configuration-control approach developed at JPL has been adopted for implementation on the Ranger dexterous arms.<p>
+<CENTER>
+<img src="Ranger3.GIF"><p>
+<H4>Ground-controlled Ranger robot for servicing operations in space</h4><p>
+</center>
+The goal of the JPL task is to augment the operational capabilities of the dexterous arms in the Ranger Flight Experiment within the configuration-control framework.  There are two specific objectives of the task.  The first is to develop the capability of on-line collision detection and avoidance for the Ranger dexterous arms.  This capability does not currently exist in the Ranger baseline control system, and erroneous operator commands can use collision between the dexterous arms and the camera and grapple arms, the base, or the task board.  This added capability will enable collision-free motions of the arms throughout the work space.  It will also cause a reduction in the Ranger operation time, since several possible motions with potential collision are not executed.  In addition, this capability will increase the safety of the Ranger during the operation of the arms, a feature vital to the success of the Ranger mission.<p>
+
+The second objective of the task is to provide the ground operator with a software tool for optimal placement of the Ranger base.  This algorithm will ensure that both dexterous arms can reach the task site and that the useful work space volume is maximized.  The algorithm will take into account the fact that the Ranger base is attached to the spacecraft by the grapple arm.  Therefore, the configuration of the grapple arm will also be taken into consideration.  At present, the placement of the Ranger base is done by the ground operator in an iterative trial-and-error fashion.<p>
+
+The collision avoidance and base placement capabilities will considerably enhance the robustness and reliability of the Ranger control system and will significantly expand the range of tasks that can be accomplished in the Ranger Flight Experiment.  A series of technology experiments will be conducted at JPL to demonstrate the efficacy of the collision avoidance and base placement algorithms.<p>
+
+<H5><B>Point of Contact:</b>  Homayoun.Seraji@jpl.nasa.gov</h5><p>
+<A HREF="#segment2">Return to Segment Menu</a><p>
+<p>
+<B>========================================</b><p>
+<A NAME="RangerInsp"><H3>Ranger Automated Inspection</h3></a><p>
+
+The objective of this task is to apply this JPL remote surface inspection technology to the Ranger Flight Experiment for the purpose of assessing/validating the telerobotic automated inspection technology in real space conditions.  A Ranger inspection taskboard will be fabricated and used in both ground-based preflight and actual flight tests.  Onboard and ground-site requirements for this task --including task scenario, user interface, command sequences, arm motion control, lighting control, and image capture/down-link-- will be defined.  A standalone automated inspection software package based on the JPL inspection technology will be developed and evaluated by analyzing Ranger inspection flight data.<p>
+<CENTER>
+<img src="Flawdet.GIF"><p>
+<H4>Automated flaw detection equipment.</h4><p>
+</center>
+In the illustration above, the reference image shown on the left corresponds to an unflawed object.  The image on the right shows the same object after a flaw is detected autonomously.  The image on teh bottom shows the detected flaw.<p>
+
+<H5><B>Point of Contact:</b>  Won.S.Kim@jpl.nasa.gov</h5><p>
+<A HREF="#segment2">Return to Segment Menu</a><p>
+<p>
+<B>========================================</b><p>
+<A NAME="CalibSynView"><H3>Calibrated Synthetic Viewing</h3></a><p>
+
+Payload alignment/mating techniques are critically needed in space station operations.  Performance of payload alignment and mating often requires the use of multiple cameras.  However, the objects being manipulated are not always seen completely by the available cameras.  Inadequate viewing camera coverage is a major concern.  The objectives of the Calibrated Synthetic Viewing task are to<p>
+<UL>
+<LI>Develop and evaluate a computer-vision-assisted calibrated synthetic viewing software environment to resolve the problem of visual occlusion and limited camera viewing during the performance of telerobotic operations.
+<LI>Demonstrate reliable model/payload alignment and berthing operations under limited camera-viewing conditions for space station telerobotic onboard and ground control.
+<LI>Install the calibrated synthetic viewing system at the NASA Johnson Space Center's Automated robotic Maintenance for Space Station (ARMSS) testbed for technology assessment and demonstration to the space station program.
+</ul><p>
+<CENTER>
+<img src="Viewing.GIF"><p>
+<H4>Calibrated synthetic viewing equipment.</h4><p>
+</center>
+<H5><B>Point of Contact:</b>  Won.S.Kim@jpl.nasa.gov</h5><p>
+<A HREF="#segment">Return to Segment Menu</a><p>
+
+</DOC>

@@ -1,0 +1,72 @@
+
+<DOC>
+<DOCNO>WT02-B12-50</DOCNO>
+<DOCOLDNO>IA087-000625-B046-385</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.080.html 130.91.195.242 19970122062805 text/html 3680
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:28:05 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3509
+Last-modified: Tue, 22 Nov 1994 06:32:03 GMT
+</DOCHDR>
+"Misunderstanding" a CERT advisory -- Europe reports <p>
+
+Date: Mon, 7 Feb 1994 16:37:14 +0100
+From: Klaus Brunnstein &lt;brunnstein@rz.informatik.uni-hamburg.d400.de&gt;
+Subject: "Misunderstanding" a CERT advisory <p>
+
+Waves went high in some German media on Friday, Feb.5 1994, when news from
+Philadelphia (via CMU-SEI's press release) and Washington's Post was mediated
+by some European news agencies. Germany's 2nd TV channel (ZDF) informed the
+surprised public that *hackers had succeeded to invade a secure network which
+had been installed in times of Cold War to protect US Armed  Forces even in
+the case of a Nuclear War*. As several 10,000 passwords had been hacked, now
+more than 20 million users have to change their password. Regional and private
+TV and radio stations followed on Saturday, though only few newspapers took
+this up on Monday. <p>
+
+Nothing of this (mis)information was in the CERT advisory distributed on
+Febrary 3, where users of some UNIX systems (esp. SunOS with  /dev/nit) were
+informed that it might be wise to take precautionary action against a potential
+sniffer attack. Now, 3 days later, responsible journalists inform us that
+there were *2 agency reports*, one delivered by German press agency (dpa)
+which was rather serious and non-speculative, and another one from Agency
+France Press (AFP) which ZDF based it's report upon (as it was the more
+"interesting one :-). Here is this in-famous text (translation by messenger): <p>
+
+"Washington, February 5 (AFP) - Computer pirates have cracked the largest
+     computer network in the world. Totally 20 million users on 'Internet'
+     should receive new passwords, told the emergency committee installed by
+     US ministry of defence. Internet is used by universities, government
+     agencies, enterprises and private persons. The network was established
+     in times of the Cold War to serve US Armed Forces also in case of Atomic
+     War as 'invulnerable' information network. The hackers, so far unidenti-
+     fied, succeeded according to the emergency committee to read data from
+     ten thousands of systems on 'Internet'. They succeeded by using a program
+     named 'Trojan Horse' which allows legal access to Internet central com-
+     puter but then does not go any further." <p>
+
+Apart from the many wrong or misunderstood facts in this news, the reaction of
+some experts was interesting. German Information Agency (GISA) said: "Old
+stuff, no reason panic!" Another expert said: "CERT is in actual fight for
+money from US administration, they needed some public attention!" General
+comments were: "Blind actionism of US' CERT!" <p>
+
+Somehow, the media uproar reminds of the Michelangelo case where cautious
+warnings of experts (infection at most small percentage of PCs) were publicly
+raised *up to 50 mio infected PC systems* by badly informed journalists.
+No expert can ever exclude that her/his warnings are always correctly under-
+stood, but in this case, the serious question is: With so many unknown
+parameters (how many different sniffer trojans existed? How many nodes were
+affected? For what purposes were the sniffers used? etc): why issued CERT/CC
+a press release (which it very rarely did so far), in addition to its advisory? <p>
+
+Unfortunately, this unjustified media hysteria will fall back, as in previous
+cases, on those who work hard for improving security and safety of systems
+and networks:-) This is why the background must be carefully analysed. <p>
+
+Klaus Brunnstein (Feb.7,1994) <p>
+
+</DOC>

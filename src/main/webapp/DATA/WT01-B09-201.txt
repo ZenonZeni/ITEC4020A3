@@ -1,0 +1,61 @@
+
+<DOC>
+<DOCNO>WT01-B09-201</DOCNO>
+<DOCOLDNO>IA008-000077-B038-22</DOCOLDNO>
+<DOCHDR>
+http://www-mtnforum.igc.org:80/mtnforum/calendar/calform.htm 198.94.7.182 19970222071717 text/html 1203
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 07:17:39 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 1032
+Last-modified: Thu, 20 Feb 1997 22:16:59 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> calendar form</TITLE>
+</HEAD>
+<BODY>
+<title>Comment Form</title>
+<P>
+<H2>Submit an event to the Mountain Forum</H2><P>
+</HEAD>
+<BODY   BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#8E236B" ALINK="#871F78" VLINK="#8E2323">
+
+
+<P>
+<STRONG>Use this form to submit an entry to the calendar, or send mail to us
+at <A HREF="mailto:mfsupport@mtnforum.org">mfsupport@mntforum.org</A>.</STRONG>
+
+
+
+<P>
+
+<FORM METHOD=POST ACTION="/scripts/mailform/mfsupport@mtnforum.org/confirm">
+
+
+<PRE>
+<STRONG>E-mail address :</STRONG> <input name="Email" size=30>
+<P>
+<STRONG>Name (optional):</STRONG> <input name="Name" size=30>
+<P>
+
+<STRONG>Event description <EM> use as many rows as you need</EM>:</STRONG>
+<P>
+<textarea name="description" rows=8 cols=60></textarea>
+<P>
+<STRONG>URL(s):</STRONG> <input name="URL" rows=2 size=50>
+
+</PRE>
+<P>
+<input type="submit" value="SEND COMMENTS">
+<input type="reset" value="CLEAR FORM">
+</FORM>
+<P>
+<HR>
+<P>
+<CLEARS=all>
+</BLOCKQUOTE>
+</BODY>
+</HTML>
+</DOC>

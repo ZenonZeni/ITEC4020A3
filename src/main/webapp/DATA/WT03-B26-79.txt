@@ -1,0 +1,172 @@
+
+<DOC>
+<DOCNO>WT03-B26-79</DOCNO>
+<DOCOLDNO>IA029-000311-B021-247</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/tasks/task3.htm 138.44.40.1 19970114165603 text/html 7621
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:54:21 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Tue, 27 Aug 1996 23:40:24 GMT
+Content-length: 7447
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>EOC primary Tasks and forward looking Working Groups for 1996/97</TITLE>
+</HEAD>
+<BODY>
+<BR>
+<B>3. THREAD COMPONENT TASKS<BR>
+<BR>
+</B>For the initial Tasks defined below as components of the primary initial
+EOC Thread, the selected data stream will be AVHRR, GMS Pathfinder and Landsat
+TM. However, the approach set out below and in the flowchart is generic
+and will not be limited to these examples in the future.<BR>
+<BR>
+<B>3.1 Instrumentation<BR>
+</B><BR>
+The EOC will develop an information system pointing to CSIRO capacity in
+field instrumentation as well as develop a common, well managed instrument
+pool (including calibration facilities)<BR>
+<BR>
+<B>Milestones:</B> 
+<BLOCKQUOTE>Central Pool developed<BR>
+calibration data base set up and maintained<BR>
+Standards for field methods documented<BR>
+Instruments &amp; site Information system in place</BLOCKQUOTE>
+<B>Task Group:</B> 
+<BLOCKQUOTE><B>Predecessor Task(s):</B> [Existing Base at DWR, DEM, ML and
+DAR] <BR>
+<B>Successor Task(s):</B> Calibration, Scene Brightness, Validation Missions</BLOCKQUOTE>
+<B>3.2 Calibration<BR>
+</B><BR>
+Current and selected new calibration sites based on land and marine targets
+are being developed collaboratively and used to establish base consistency
+for AVHRR, GMS Pathfinder and Landsat TM satellite data in the short term
+and provide a base for future EnvSat calibration operations.<BR>
+<BR>
+<B>Milestones:</B> 
+<BLOCKQUOTE>Invariant target sites investigated &amp; selected<BR>
+marine site(s) selected (thermal and visible)<BR>
+instrumentation in place<BR>
+best practice campaigns planned and executed</BLOCKQUOTE>
+<B>Task Group:</B> 
+<BLOCKQUOTE><BR>
+<B>Predecessor Task(s):</B> Instrumentation<BR>
+<B>Successor Task(s):</B> Algorithms</BLOCKQUOTE>
+<B>3.3 Scene Brightness<BR>
+</B><BR>
+The issue of scene modelling and scene physics impacts on all scales and
+is being addressed both empirically and from a scene physics base. Using
+extensive high resolution data from airborne video and aerial photography
+as well as ground based methods, it will be established if there is a consistent
+'typology' of landcover BRDF in Australia. It will also be established what
+is the current most practical approach to BRDF modelling and scene correction.<BR>
+<BR>
+<B>Milestones:</B>
+<BLOCKQUOTE>Tests of empirical vs kernel approach using existing data (include.
+airborne video)<BR>
+instrumentation and techniques for field measurement established<BR>
+Landcover BRDF consistency investigated<BR>
+Potential BRDF typology of landscapes established<BR>
+atmospheric and sensor measurement model effects investigated at calibration
+and validation sites</BLOCKQUOTE>
+<B>Task Group:</B> 
+<BLOCKQUOTE><B>Predecessor Task(s):</B> Instrumentation<BR>
+<B>Successor Task(s):</B> Algorithms &amp; Processing</BLOCKQUOTE>
+<B>3.4 Validation Missions<BR>
+</B><BR>
+Selected missions are being planned that validate selected algorithms, calibrations
+and products. Missions will be coordinated to establish protocols and tools
+for the assessment and maintenance of product quality.<BR>
+<BR>
+<B>Milestones:</B> 
+<BLOCKQUOTE>Field sites and instrumentation in place<BR>
+Integrated field and airborne methods established<BR>
+Marine targets established for thermal, visible &amp; radar validation selected<BR>
+Operational validations made<BR>
+comparisons of fixed site and campaign techniques</BLOCKQUOTE>
+<B>Task Group:</B> 
+<BLOCKQUOTE><B>Predecessor Task(s):</B> Instrumentation<BR>
+<B>Successor Task(s):</B> Algorithms &amp; Processing</BLOCKQUOTE>
+<B>3.5 Data Base of example Data<BR>
+</B><BR>
+(Includes ALRDC operations with USGS). Base tools in place as well as operational
+archiving for the ALRDC and ML 'Marine DAAC' Archives (eg IDN, IMS). Establish
+best tools for archive, browse, storage &amp; retrieval. Issues of reception
+and communications can be addressed here but a program will only be established
+in the longer term.<BR>
+<BR>
+<B>Milestones:</B> 
+<BLOCKQUOTE>IMS and IDN installation completed and databases populated<BR>
+Link to AEON established (if link established)<BR>
+Market survey of potential users to establish best selections of features<BR>
+Common tools and formats established at CSIRO reception and research 'DAAC'
+archives</BLOCKQUOTE>
+<B>Task Group:</B> 
+<BLOCKQUOTE><B>Predecessor Task(s):</B> Nil<BR>
+<B>Successor Task(s):</B> Data Management &amp; Communication</BLOCKQUOTE>
+<B>3.6 Data management &amp; communication<BR>
+</B><BR>
+Demonstrations of operational data management and communication will be
+coordinated with other Tasks. Selected streams provide the means to test
+and establish best tools for storage and retrieval as well as interface
+to algorithms and product output.<BR>
+<BR>
+<B>Milestones:</B> 
+<BLOCKQUOTE>Interface to algorithms established<BR>
+Product throughput tests of selected data series<BR>
+Product quality control tools established and demonstrated<BR>
+Advanced data communications tools demonstrated</BLOCKQUOTE>
+<B>Task Group:</B> 
+<BLOCKQUOTE><B>Predecessor Task(s):</B> Data Base<BR>
+<B>Successor Task(s):</B> Algorithms &amp; Processing</BLOCKQUOTE>
+<B>3.7 Algorithms and processing<BR>
+</B><BR>
+A common set of software tools and best (SoS or State of Science) selections
+of algorithms for processing will be established and promoted among CSIRO
+and collaborating groups. The set selected will be the base sequence in
+the product trials and the selections will be documented as an AMTBD (Algorithms
+&amp; Methods Technical Basis Document(s)). Methods include field techniques
+and laboratory practice as well.<BR>
+<BR>
+As a basis, the techniques covered will include choices for: Navigation,
+[cloud clearing], mosaicking, atmospheric correction, BRDF allowance &amp;
+balancing, thermal region atmospheric correction, LST and SST algorithms
+and some data integration.<BR>
+<BR>
+<B>Milestones:</B> 
+<BLOCKQUOTE>AMTBD documenting SoS algorithms for consistent &amp; standardised
+series<BR>
+Comparative selection and implementation<BR>
+Trials on data series for AVHRR, GMS Pathfinder &amp; Landsat TM<BR>
+Documentation of algorithms &amp; (limited) publication</BLOCKQUOTE>
+<B>Task Group:</B> 
+<BLOCKQUOTE><B>Predecessor Task(s):</B> Calibration, Scene Brightness, Validation,
+Data Management<BR>
+<B>Successor Task(s):</B> Product Presentation, Quality &amp; Standards</BLOCKQUOTE>
+<B>3.8 Product presentation, quality &amp; standards</B><BR>
+For selected data streams of AVHRR, GMS Pathfinder and Landsat TM (in the
+short term with other data types into the future) provide demonstrations
+of product quality that results from coordinated generic processing Tasks
+and the collaboration of CSIRO best teams.<BR>
+<BR>
+<B>Milestones:</B> 
+<BLOCKQUOTE>Present example products<BR>
+Establish criteria for accuracy and performance with users<BR>
+Document implications for Standards<BR>
+Document implications for Quality Control </BLOCKQUOTE>
+<B>Task Group:</B> 
+<BLOCKQUOTE><B>Predecessor Task(s):</B> Algorithms &amp; Processing<BR>
+<B>Successor Task(s):</B> [End Users], Feedback</BLOCKQUOTE>
+<BR>
+<P><CENTER><HR><A HREF="../eoc.htm"><IMG SRC="../../gifs/eochome.gif" WIDTH=
+"150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="task2.htm"><IMG SRC=
+"../../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="task4.htm"><IMG SRC="../../gifs/next.gif" WIDTH="150" 
+HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<HR></CENTER>
+</BODY>
+</HTML>
+</DOC>

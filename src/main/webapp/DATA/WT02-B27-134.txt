@@ -1,0 +1,1364 @@
+
+<DOC>
+<DOCNO>WT02-B27-134</DOCNO>
+<DOCOLDNO>IA007-000073-B032-104</DOCOLDNO>
+<DOCHDR>
+http://www.euthanasia.org:80/list.html 194.88.132.128 19970222051619 text/html 56074
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 05:24:00 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>VESS Hotlink Frames, Categories and Classes</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.0Gold (Win16; I) [Netscape]">
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Beginning of JavaScript Applet -------------------
+
+/*  Fade Script v0.1 by Kouichirou@Eto.com 1996
+
+ * Copyright (c) 1996 Kouichirou Eto. All Rights Reserved.
+ * You can freely copy, use, modify this script,
+ * if the credit is given in the source.
+ * If you would like to get information for this script,
+ * please access <http://eto.com/JavaScript/>
+
+ */
+
+function makearray(n) {
+    this.length = n;
+    for(var i = 1; i <= n; i++)
+        this[i] = 0;
+    return this;
+}
+hexa = new makearray(16);
+for(var i = 0; i < 10; i++)
+    hexa[i] = i;
+hexa[10]="a"; hexa[11]="b"; hexa[12]="c";
+hexa[13]="d"; hexa[14]="e"; hexa[15]="f";
+function hex(i) {
+    if (i < 0)
+        return "00";
+    else if (i > 255)
+        return "ff";
+    else
+        return "" + hexa[Math.floor(i/16)] + hexa[i%16];
+}
+function setbgColor(r, g, b) {
+    var hr = hex(r); var hg = hex(g); var hb = hex(b);
+    document.bgColor = "#"+hr+hg+hb;
+}
+function fade(sr, sg, sb, er, eg, eb, step) {
+    for(var i = 0; i <= step; i++) {
+        setbgColor(
+        Math.floor(sr * ((step-i)/step) + er * (i/step)),
+        Math.floor(sg * ((step-i)/step) + eg * (i/step)),
+        Math.floor(sb * ((step-i)/step) + eb * (i/step)));
+    }
+}
+/* Usage:
+ *   fade(inr,ing,inb, outr,outg,outb, step);
+ * example.
+ *   fade(0,0,0, 255,255,255, 255);
+ * fade from black to white with very slow speed.
+ *   fade(255,0,0, 0,0,255, 50);
+ *   fade(0xff,0x00,0x00, 0x00,0x00,0xff, 50); // same as above
+ * fade from red to blue with fast speed.
+ * step 2 is very fast and step 255 is very slow.
+ */
+function fadein() {
+   fade(0,0,0, 255,255,255, 25);
+}
+function fadeout() {
+    /*fade(0,0,0, 255,255,255, 25); */
+}
+/* do fadein */
+fadein();
+/***** end fade script *****/
+// -- End of JavaScript code -------------- -->
+
+</SCRIPT>
+</HEAD>
+<BODY>
+
+<CENTER><P><! FRAME SUITE COMPRISES: WWWMARKS.HTM, TWOMORE.HTM, TOPFOTO.HTM, list.HTM, BANNER.HTM></P></CENTER>
+
+<H5 ALIGN=CENTER><B><FONT FACE="arial, geneva">FRAMES: <A HREF="list.html" TARGET="_top" onMouseOver="self.status='Click here to turn frames off';return true">OFF</A>
+</FONT></B></H5>
+
+<H6><B><FONT FACE="arial, geneva"><A HREF="#comp">Computers</A> <A HREF="#ethi">Ethics</A>
+<A HREF="#lang">Language</A> <A HREF="#law">Law</A> <A HREF="#leis">Leisure</A>
+<A HREF="#medi">Medicine</A> <A HREF="#news">News</A> <A HREF="#poli">Politics</A>
+<A HREF="#reli">Religion</A> <A HREF="#scot">Scotland</A> <A HREF="#soci">Sociology</A>
+<A HREF="#trav">Travel</A> <A HREF="#vess">VESS<BR>
+</A>Check status line for descriptions... </FONT></B></H6>
+
+<TABLE BORDER=2 >
+<CAPTION ALIGN=TOP>
+<P><B><A HREF="search.html" TARGET="photos">MainSearch<BR>
+</A><FONT SIZE=-1><A HREF="http://www.avenue.com/search/" target="_blank">javasearch</A>
+ </FONT></B><script=javascript><FORM><INPUT type="button" Value="AltaVistaPop" ONCLICK="window.open('takeaway.html', 'takeaway', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=yes,width=280,height=131')"></P>
+</CAPTION>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A NAME="comp"></A>
+<H2>COMPUTER</H2>
+
+<P><A HREF="#ARTWORK">ARTWORK</A></P>
+</TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#BEGINNERS">BEGINNERS</A></TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#FONTS">FONTS</A></TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#MAGAZINES">MAGAZINES</A></TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#MISC">SECURITY</A></TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#REFERENCE">REFERENCE</A></TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#SEARCHING">SEARCHING</A></TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#SOFTWARE">SOFTWARE</A></TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#WEBAUTHORS">WEBAUTHORS</A></TH>
+</TR>
+</TABLE>
+
+<P><FORM><INPUT type="button" Value="LIST OF COLORS" ONCLICK="window.open('jvacolor.htm', 'Sample', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=0,width=600,height=360')"></FORM></P>
+
+<UL>
+<H5><A NAME="ARTWORK"></A></H5>
+
+<LI><FONT FACE="arial, geneva">Collected Images <A HREF="http://members.aol.com/ggmyg/toc.html" TARGET="photos">
+(1)</A> <A HREF="http://www.ahandyguide.com/cat1/c/c802.htm" TARGET="photos">(2)</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://beta.pixelsight.com/" TARGET="photos">Pixelsite
+Custom Graphics</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.thehub.com.au/~hoile/sjh_anlist.htm" TARGET="photos">Suzi
+Q's Animation<IMG SRC="smallnew.gif" border=0 HEIGHT=16 WIDTH=32></A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://ipix.yahoo.com/cgi-bin/isurf.cgi?dbAlias=/Computers_and_Internet/Multimedia/Pictures/" TARGET="photos">Image
+Surfer</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.ccnet.com/~elsajoy/free.html" TARGET="photos">Free
+Graphics!</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.iconbazaar.com/"  TARGET="photos">IconBAZAAR</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://trureality.com/welcome1.htm"  TARGET="photos">Tru
+Realities: Framed Browser Selection</A> </FONT><BR>
+<BR>
+<A NAME="BEGINNERS"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="4begin.html" TARGET="_top">Beginners'
+Pages</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="tutorial.html" TARGET="photos">Web
+Tutorial</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.netlinks.net/" TARGET="photos">Newbie
+Help</A> </FONT></LI>
+
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.leadingedge.com/" TARGET="photos">Technical
+Assistance</A></FONT><BR>
+<BR>
+<BR>
+<A NAME="FONTS"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://cuiwww.unige.ch/InternetFontBrowser.html" TARGET="photos">Internet
+Font Browser</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://jasper.ora.com/comp.fonts/Internet-Font-Archive/" TARGET="photos">Internet
+Font Archives</A> </FONT><BR>
+<BR>
+<A NAME="MAGAZINES"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.pcweek.com/ExecConnect/" TARGET="photos">PC
+Week Executive</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://206.66.184.176/home/filters/main.html" TARGET="photos">ZD
+Net</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.execpc.com/~jeffo/webdes/frefavmn.html" TARGET="photos">Freeware
+Favorites</A> </FONT><BR>
+<BR>
+<A NAME="MISC"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.anonymizer.com/" TARGET="photos">Anonymous
+Surfing</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.geocities.com/Tokyo/4750/tricks.htm" TARGET="photos">Security
+Alert</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://hacked-inhabitants.com/" TARGET="photos">Hacked
+Inhabitants</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.aracnet.com/~kea/crime.html" TARGET="photos">Computer
+Crime Bibliography</A> </FONT><BR>
+<BR>
+<A NAME="REFERENCE"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="comp.html" TARGET="photos">Companies
+Guide</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://wombat.doc.ic.ac.uk/" TARGET="photos">Computing
+Dictionary</A></FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.echonyc.com/~parallax/interfacts.html" TARGET="photos">Internet
+Facts &amp; Figures</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.ahandyguide.com/index.html" TARGET="_top">A
+Handy Guide</A> </FONT><BR>
+<BR>
+<A NAME="SEARCHING"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="search.html" TARGET="photos">MAIN
+SEARCH</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://metacrawler.cs.washington.edu:8080/" TARGET="photos">MetaCrawler</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.scit.wlv.ac.uk/miscellany/search.sites.html" TARGET="photos">Search
+Engines Listed</A> <A HREF="list.html#engines">MENU</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.webreference.com/content/search/features.html#which_search_page" TARGET:="photos" onMouseOver="self.status='How to get the best out of the various search engines';return true">Engines
+Compares</A> </FONT><BR>
+<BR>
+<A NAME="SOFTWARE"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.msu.edu/user/heinric6/soft.htm" TARGET="photos" onMouseOver="self.status='Rene Guerrero - Comprehensive List of Freeware, Shareware and Software Sites';return true">Free
+Software (1)</A> <A HREF="http://www.enterprise.net/cwsapps/" TARGET="photos" onMouseOver="self.status='Stroud Consumate Winsock Applications - Resource Center for the Internet';return true">(2)
+</A><A HREF="http://www.execpc.com/~jeffo/webdes/frefavmn.html" TARGET="photos" onMouseOver="self.status='Freeware Favorites';return true">(3)</A>
+<A HREF="http://members.aol.com/leithauser/othsites.html" TARGET="photos" onMouseOver="self.status='Leithauser Software';return true">(4)</A>
+<A HREF="http://www.shareware.com/" TARGET="photos" onMouseOver="self.status='CNet Online Software Search';return true">(5)</A>
+</FONT><BR>
+<BR>
+<A NAME="WEBAUTHORS"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.netscape.com/custom/index.html" TARGET="photos">Webpage
+Creation (1)</A> <A HREF="http://www.goliath.org/makepage/makepage.html" TARGET="photos">(2)</A>
+<A HREF="http://home.netscape.com/assist/net_sites/starter/wizard/index.html" TARGET="photos">(3)</A>
+<A HREF="http://www.mindport.net/~b_ruth/htmlstuff.html" TARGET="photos">Guide</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.submit-it.com/" TARGET="photos">Submit
+It! Web Publicity</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://WWW.Charm.Net/~web/Style/" TARGET="photos">High-End
+Web Site Design</A></FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.meat.com/software/cmd.html" TARGET="photos">Colour
+Design Software</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://miso.wwa.com/~boba/masters.html" TARGET="photos" onMouseOver="self.status='from WEBMASTERS';return true">Webmasters
+Tips(1)</A> <A HREF="http://www.publish.com/0896/tips/onlons.html" TARGET="photos" onMouseOver="self.status='Some more sophisticated stuff from: 101 Hot Tips By PUBLISH';return true">(2)</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://rhoque.com/book/index2.htm" TARGET="photos" onMouseOver="self.status='Retrieve your webpage and check it out to see if it is in tip-top condition';return true">Doctor
+HTML</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.webreference.com/" Webreference TARGET="photos">Webreference</A>
+</FONT></LI>
+
+<LI><IMG SRC="smallnew.gif" border=0 HEIGHT=16 WIDTH=32><FONT FACE="arial, geneva"><A HREF="http://www.vis.colostate.edu/~user1209/fractals/bg/index.html" TARGET="photos">Background Explorer</A>
+</FONT></LI>
+
+
+<LI><FONT FACE="arial, geneva"><A HREF="java.html" TARGET="photos">Java</A>
+</FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+
+<HR><A NAME="ethi"></A></P>
+
+<H2><FONT FACE="arial">ETHICS</FONT></H2>
+
+<TABLE BORDER=2 >
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#GENERAL">GENERAL</A></TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#SUBJECT">BY SUBJECT</A></TH>
+</TR>
+
+<TR ALIGN=CENTER>
+<TH ALIGN=CENTER><A HREF="#PHILOSOPHERS">PHILOSOPHERS</A></TH>
+</TR>
+</TABLE>
+
+<UL>
+<P><A NAME="GENERAL"></A></P>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://ccme-mac4.bsd.uchicago.edu/CCMEDocs/EthLinks" TARGET="photos">BioEthics
+Links</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://ei.cs.vt.edu:80/~cs3604/spring.95/ohs/summary.ethics.types.html" TARGET="photos">Ethics
+Types</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://wings.buffalo.edu/faculty/research/bioethics/contents.html" TARGET="photos">Bioethics
+Test</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cpsr.org/dox/ethics.html" TARGET="photos">Internet
+Ethics</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://gpu.srv.ualberta.ca/~ethics/bio-bull.htm" TARGET="photos">Bioethics
+Bulletins</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.medfarm.unito.it/bioethics/bioethes.html" TARGET="photos">Kennedy
+Thesaurus</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://mistral.ere.umontreal.ca/~williamg/genethics.html" TARGET="photos">Genetics</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www5.fullerton.edu/les/ethics_list.html" TARGET="photos">Ethics
+Chatroom</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://condor.depaul.edu/ethics/resource.html" TARGET="photos">Ethics
+WWW Resources</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.biol.tsukuba.ac.jp/~macer/books.html" TARGET="photos">Eubios
+Ethics Institute Book Publications - Complete Texts Online</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.changesurfer.com/Bud/BudBioEth.html" TARGET="photos">Buddhism
+&amp; Medical Ethics</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.jhu.edu/~phil/subfold/feminism.html" TARGET="photos">Feminism
+&amp; Gender Studies</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www-hsc.usc.edu/~mbernste/index.html" TARGET="photos">Bioethics
+Discussion Group</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://ccme-mac4.bsd.uchicago.edu/CCMEPolicies/index" TARGET="photos">Ethics
+Codes and Policies</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.mcw.edu/bioethics/about.html" TARGET="photos">Bioethics
+Online Service</A> </FONT><BR>
+<BR>
+<A NAME="SUBJECT"></A></LI>
+
+<TABLE BORDER=1 >
+<TR ALIGN=LEFT>
+<TH ALIGN=LEFT><FONT SIZE=-1><A HREF="#Abortion">Abortion</A></FONT></TH>
+</TR>
+
+<TR ALIGN=LEFT>
+<TH ALIGN=LEFT><FONT SIZE=-1><A HREF="#Animal Rights">Animal Rights</A></FONT></TH>
+</TR>
+
+<TR ALIGN=LEFT>
+<TH ALIGN=LEFT><FONT SIZE=-1><A HREF="fastaccs.html" TARGET="_top">Euthanasia</A></FONT></TH>
+</TR>
+
+<TR ALIGN=LEFT>
+<TH ALIGN=LEFT><FONT SIZE=-1><A HREF="#Genetics">Genetics</A></FONT></TH>
+</TR>
+
+<TR ALIGN=LEFT>
+<TH ALIGN=LEFT><FONT SIZE=-1><A HREF="#IVF">IVF</A></FONT></TH>
+</TR>
+
+<TR ALIGN=LEFT>
+<TH ALIGN=LEFT><FONT SIZE=-1><A HREF="#Sex Education">Sex Education</A></FONT></TH>
+</TR>
+
+<TR ALIGN=LEFT>
+<TH ALIGN=LEFT><FONT SIZE=-1><A HREF="#Surrogacy">Surrogacy</A></FONT></TH>
+</TR>
+</TABLE>
+
+<P><BR>
+<BR>
+<A NAME="Abortion"></A></P>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.acusd.edu/ethics/abortion.html#internet resources" TARGET="photos">Abortion
+Legislation</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cedarville.edu/employee/millsd/abortion.htm" TARGET="photos">Abortion
+links (1)</A> <A HREF="http://pwa.acusd.edu/%7Ehinman/abortion.html" TARGET="photos">(2)</A>
+</FONT><BR>
+<BR>
+<A NAME="Animal Rights"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.pavilion.co.uk/david-pearce/faqfile.htm" TARGET="photos">Animal
+Rights FAQ</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.fondationbrigittebardot.fr/uk/index.html" TARGET="photos">Brigitte
+Bardot Foundation</A> </FONT></LI>
+
+<P><FONT FACE="arial, geneva">
+</FONT></P>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.ahandyguide.com/cat1/a/a846.htm" TARGET="photos">Animal
+Rights links</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.apa.org/science/anguide.html" TARGET="photos">Ethical
+Conduct</A> </FONT><BR>
+<BR>
+<A NAME="Genetics"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.givf.com/" TARGET="photos">Genetics
+&amp; IVF Institute</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.er.doe.gov/production/oher/hug_top.html" TARGET="photos">Human
+Genome Program</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.ornl.gov/TechResources/Human_Genome/home.html" TARGET="photos">Human
+Genome Info</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.student.nada.kth.se/~nv91-asa/Trans/genes.html" TARGET="photos">Genetic
+Modifications</A> </FONT></LI>
+
+
+<LI><IMG SRC="smallnew.gif" HEIGHT=16 WIDTH=32><FONT FACE="arial, geneva"><A HREF="http://www.ncbi.nlm.nih.gov/SCIENCE96/" TARGET="photos">Human Transcript Map</a>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://gdbwww.gdb.org/" TARGET="photos">Genome
+Database</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.ornl.gov/TechResources/Human_Genome/links.html" TARGET="photos">Genetic
+World Links</A> </FONT><BR>
+<BR>
+<A NAME="IVF"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.givf.com/" TARGET="photos">Genetics
+&amp; IVF Institute</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.ihr.com/infertility/" TARGET="photos">Infertility
+Resources</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cityscape.co.uk/users/dl88/archive/6992ed.htm" TARGET="photos">IVF
+Debate</A> </FONT><BR>
+<BR>
+<A NAME="Sex Education"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cs.utk.edu/~bartley/saInfoPage.html" TARGET="photos">Sexual
+Assault Information Page</A></FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.positive.org/cps/" TARGET="photos">Sex
+Ed for Teens</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.caps.ucsf.edu/capsweb/sexedtext.html" TARGET="photos">Does
+Sex Ed Work?</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://marian.creighton.edu/~mpoly/wirc/schools.html" TARGET="photos">Sex
+Ed in Schools</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.schools.co.uk/sex/sexhome.htm" TARGET="photos">Schools
+Sex Ed</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.springfield.co.uk/springfld/policies/sex.html" TARGET="photos">Sex
+Ed Policy</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.hli.org/position/sex-ed.html" TARGET="photos">RC
+&amp; Sex Ed</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.pearson.co.uk/Education/Packs/Short/SEX1.html" TARGET="photos">Sex
+Ed Pearson Publishing</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.regsex.com/" TARGET="photos">Regarding
+Sex</A> </FONT><BR>
+<BR>
+<A NAME="Surrogacy"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.surrogacy.com/" TARGET="photos">American
+Surrogacy Center</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.surrogacy.com/article/aboutsur.html" TARGET="photos">Surrogacy
+Info</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.surrogacy.com/article/index.html" TARGET="photos">Surrogacy
+Experiences</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.surrogacy.com/legals/article/calaw.html" TARGET="photos">California
+Surrogacy Law</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.asrm.com/" TARGET="photos">American
+Society for Reproductive Medicine</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.phoenix.net/~townhall/surrogat/informat.html" TARGET="photos">Surrogate
+Motherhood</A> </FONT><BR>
+<BR>
+<A NAME="PHILOSOPHERS"></A></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lake.de/sonst/homepages/s2442/jd.html" TARGET="photos">DERRIDA</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://server.snni.com:80/~palmer/philosophy_guide/hobbes.htm" TARGET="photos">HOBBES</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://server.snni.com:80/~palmer/philosophy_guide/hume.htm" TARGET="photos">HUME</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://swift.eng.ox.ac.uk/jdr/kant.html" TARGET="photos" TARGET="photos">KANT
+(Moral Law)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://server.snni.com:80/~palmer/philosophy_guide/locke.htm" TARGET="photos">LOCKE
+(Democracy)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://swift.eng.ox.ac.uk/jdr/mill.html" TARGET="photos">JS
+MILL (Utilitarianism)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.usc.edu/dept/annenberg/thomas/nietzsche.html" TARGET="photos">NIETZSCHE</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cris.com/~Huntress/sartre.html" TARGET="photos">SARTRE</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.hd.uib.no/wab/sample/sample.htm" TARGET="photos">WITTGENSTEIN</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://users.ox.ac.uk/~worc0337/philosophers.html" TARGET="photos">Philosophers
+A-Z</A> </FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="lang"></A></P>
+
+<H2><FONT FACE="arial">LANGUAGE</FONT></H2>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="http://waterstones.co.uk/" TARGET="photos">Waterstone's
+Book Search</A> </FONT></LI>
+
+<P><FONT FACE="arial, geneva">
+</FONT></P>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.onelook.com/" TARGET="photos">One-look
+Dictionaries</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.starlingtech.com/quotes/" TARGET="photos">Quotes
+(1)</A> <A HREF="http://www.cc.columbia.edu/acis/bartleby/bartlett/" TARGET="photos">(2)</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="gopher://odie.niaid.nih.gov/77/.thesaurus/index" TARGET="photos">Thesaurus</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://c.gp.cs.cmu.edu:5103/prog/webster" TARGET="photos">Websters</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.notam.uio.no/~hcholm/altlang/" TARGET="photos">Alternative
+Dictionaries</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.infobahn.com/pages/anagram.html" TARGET="photos">Anagrams</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.ucc.ie/info/net/acronyms/index.html" TARGET="photos">Acronyms</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.travlang.com/languages/index.html" TARGET="photos">Travel
+phrases</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.iTools.com/research-it/research-it.html#Language" TARGET="photos">Research-It!
+Language Tools</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.willamette.edu/~tjones/Language-Page.html" TARGET="photos">Languages
+Page</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://the-tech.mit.edu/Shakespeare/works.html" TARGET="photos">Shakespeare</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.almac.co.uk/es/burns/index.html" TARGET="photos">Robert
+Burns</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.engr.uvic.ca/~mcampbel/etym.html" TARGET="photos">First
+Names</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://bavi.unice.fr/~jmj/lastwords.html" TARGET="photos">Famous
+Last Words</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cs.cmu.edu/Web/bookauthors.html" TARGET="photos">Books
+Online</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.mirror.org/people/ken.roberts/great.books.html" TARGET="photos">Great
+Books Index</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://the-tech.mit.edu/Classics/index.html" TARGET="photos">Classics
+Archive</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://miso.wwa.com/~meniscus/artcult.html" TARGET="photos">Culture</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cruzio.com/~hawk" TARGET="photos">The
+Hawk (Magazine)</A> </FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="law"></A></P>
+
+<H2><FONT FACE="arial">LAW</FONT></H2>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.shef.ac.uk/uni/academic/I-M/law/library/virt.html" TARGET="photos">Sheffield
+Law Server</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.law.cornell.edu/" TARGET="photos">Legal
+Information Institute</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://ming.law.vill.edu/Fed-Ct/ca09.html#usappeals" TARGET="photos">U.S.
+9th Circuit Appeals</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lawforum.net/" TARGET="photos">Law
+Forum</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www2.echo.lu/eudocs/en/maastricht/mt_top.html" TARGET="photos">Maastricht
+Treaty</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.uni-hamburg.de/law/index.html" TARGET="photos">International
+Constitutional Law</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.law.cornell.edu/source.html" TARGET="photos">Legal
+Material by Type or Source</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.gla.ac.uk/Acad/Law/legal_info.html" TARGET="photos">Glasgow
+University Legal Info Source Page</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://thelawsource.com/" TARGET="photos">Law
+Source</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lectlaw.com/tour.html" TARGET="photos">The
+'lectric Law Library</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://thomas.loc.gov/home/hot-subj.html" TARGET="photos">Hot
+Legislation Topics (US Congress)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lawcol.org.uk/" TARGET="photos">College
+of Law (UK - inc How to become a solicitor in the UK)</A> </FONT></LI>
+
+<LI><A HREF="http://www.patents.com/weblaw.sht">WebLaw</A> </LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="leis"></A></P>
+
+<H2><FONT FACE="arial">LEISURE</FONT></H2>
+
+<P><IMG SRC="drama.gif" ALT="drama" HEIGHT=61 WIDTH=75><FONT FACE="arial, geneva">
+</FONT></P>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="http://postcards.www.media.mit.edu/Postcards/" TARGET="photos" onMouseOver="self.status='The Electric Postcard';return true">Postcards
+(1)</A><A HREF="http://buildacard.com/" TARGET="photos" onMouseOver="self.status='Build a Card';return true">(2)</A><A HREF="http://www.regsex.com/postcard/index.html" TARGET="photos" onMouseOver="self.status='Passion and Postcards';return true">(3)</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.yearling.com/data/yearling/externals/lottery.html" TARGET="photos" onMouseOver="self.status='The latest lottery results';return true">UK
+Lottery Numbers</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="movie1.html" TARGET="photos" onMouseOver="self.status='The Cardiff database to every movie, latest movies, local guides and more!';return true">Movies</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.whatson.com/ukmedia/" TARGET="photos" onMouseOver="self.status='TV, movies, shows - city-by-city guide to the arts and entertainment';return true">UK
+Media</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.bbcnc.org.uk/index/schedules.html" TARGET="photos" onMouseOver="self.status='BBC TV and radio schedules and programme notes, and the BBC World Service';return true">BBC
+TV</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.algonet.se/~quark/st.html" TARGET="photos" onMouseOver="self.status='A guide to Startrek across the World Wide Web';return true">Startrek</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="mensal.html" TARGET="photos" onMouseOver="self.status='Mensa, humour, intelligence tests, personality tests and more!';return true">The
+Intelligence Page</A> </FONT><BR>
+<BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lindsaycomp.on.ca/horoscope/horoscop.htm" TARGET="photos" onMouseOver="self.status='A selection of horoscopes';return true">Horoscopes</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.elysiumbooks.com/news/chart.html" TARGET="photos" onMouseOver="self.status='Chinese astrology';return true">Chinese
+Horoscope</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://adze.com/couples/" TARGET="photos" onMouseOver="self.status='Love makes the world go round - check out famous matches... or your own!';return true">Hot
+Couples</A> </FONT><BR>
+<BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://deck.com/puzzler/sampler.html" TARGET="photos" onMouseOver="self.status='Lots of favourite puzzles';return true">Puzzles</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://odin.chemistry.uakron.edu/cbower/jumble.html" TARGET="photos" onMouseOver="self.status='beat those difficult crosswords!';return true">Crossword
+Solver</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cyberiacafe.net/cyberia/afterhours/games.html" TARGET="photos" onMouseOver="self.status='Games galore from Easynet';return true">Games
+Page</A> </FONT><BR>
+<BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.unitedmedia.com/comics/dilbert/archive/" TARGET="photos" onMouseOver="self.status='Probably the funniest cartoons on the Web - updated daily';return true">Dilbert</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://netvet.wustl.edu/e-zoo.htm" TARGET="photos" onMouseOver="self.status='A large resource with everything about animals...';return true">The
+Electric Zoo</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://world.std.com/~joeshmoe/laughweb/lweb_plain.html" TARGET="photos" onMouseOver="self.status='A guide to all the funny stuff...';return true">LaughWEB</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="news:alt.humor.best-of-usenet" TARGET="photos" onMouseOver="self.status='The best humour on Usenet';return true">Newsgroup:
+humor best-of</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.ahandyguide.com/cat1/h/h257.htm" TARGET="photos" onMouseOver="self.status='A HANDILINKS guide to humour on the Web';return true">Humour
+Handilinks</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.moneyworld.co.uk/budget96/" TARGET="photos">UK
+'96 Budget Calculator</A> </FONT></LI>
+
+<P><FONT FACE="arial, geneva">
+</FONT></P>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.crc.ricoh.com:8080/~marcush/lightbulb/random.cgi" TARGET="photos" onMouseOver="self.status='Go on try one...';return true">Random
+Light Bulb Jokes</A> </FONT><BR>
+<BR>
+</LI>
+
+<LI><IMG SRC="smallnew.gif" border=0 HEIGHT=16 WIDTH=32><FONT FACE="arial, geneva"><A HREF="http://www.geocities.com/SiliconValley/7116/jv_gchrt.html" TARGET="photos">JavaScript Guitar Chords</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="ftp://ftp.informatik.tu-muenchen.de/pub/rec/music/vocal/lyrics/uwp/" TARGET="photos" onMouseOver="self.status='Search for those elusive song lyrics';return true">lyrics:
+ftp by artist</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://metaverse.com/vibe/sleaze/index.html" TARGET="photos" onMouseOver="self.status='All the scam stories about the pop stars';return true">Tabloid
+Grapevine</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.eb.com/calendar/calendar.html" TARGET="photos" onMouseOver="self.status='Britannicas Lives';return true">Birthdays
+(1)</A> <A HREF="http://www.historychannel.com/today/" TARGET="photos" onMouseOver="self.status='This Day in History';return true">(2)</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://homearts.com/meta/mirror/meta9.htm" TARGET="_top" onMouseOver="self.status='Interesting magazine with features on health, money etc';return true">HomeArts</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.eurekalert.org/" TARGET="photos" onMouseOver="self.status='The latest science reports';return true">Eureka
+Science Updates</A> </FONT></LI>
+
+<P><FONT FACE="arial, geneva">
+</FONT></P>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.eecs.harvard.edu/collider.html" TARGET="photos" onMouseOver="self.status='Great fun! A random link generator!';return true">Supercollider</A>
+</FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+
+<HR><A NAME="medi"></A></P>
+
+<H2><FONT FACE="arial">MEDICAL</FONT></H2>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="rights.html" TARGET="photos">Healthcare
+Rights</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://dspace.dial.pipex.com/town/square/aaj84/index.htm" TARGET="photos">The
+Health Centre</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.healthgate.com/HealthGate/MEDLINE/search.shtml" TARGET="photos">HealthGate
+- Free MEDLINE</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.stayhealthy.com/" TARGET="photos">Wellness
+Interactive Network</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.idrc.org.sg/pan/cap/medical.html" TARGET="photos">Assert
+Your Medical Rights</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.healthtouch.com/" TARGET="photos">Health
+Touch</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.tiac.net/users/jtward/oldhome.htm" TARGET="photos">Multi-Media
+Medical Reference Library</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lifestyle.co.uk/acd.htm" TARGET="photos">Lifestyle
+UK Medical Information</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.luna.co.uk/~health/home.htm" TARGET="photos">Health
+Matters magazine</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.healthcall.co.uk/servidx.htm" TARGET="photos">Healthcall
+- Services for UK Doctors</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.pavilion.co.uk/schering/" TARGET="photos">Schering
+Health Care</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://149.28.3.6:1701/people/lensky/puns.medic.html" TARGET="photos">Medical
+Puns</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://falcon.cc.ukans.edu:80/~nsween/" TARGET="photos">Interactive
+Medical Student Lounge</A> </FONT><BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.priory.com/journals/med.htm" TARGET="photos">Medicine
+Online</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.szote.u-szeged.hu/doc/medical-home.html" TARGET="photos">Medical
+Resources on the Net</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.social.com/health/index.html" TARGET="photos">Good
+Health Web</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.santel.lu/SANTEL/medserv.html" TARGET="photos">Medical
+&amp; Paramedical Services</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.pointcom.com/jpegs/health/" TARGET="photos">Point
+Communications Health &amp; Medicine Links</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.kumc.edu:80/mmatrix/" TARGET="photos">Medical
+Matrix</A> </FONT></LI>
+
+<LI><IMG SRC="smallnew.gif" border=0 HEIGHT=16 WIDTH=32><FONT FACE="arial, geneva"><A HREF="http://www.nejm.org/" TARGET="photos">NEJM</A> </FONT></LI>
+
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.avicom.net/medguide/" TARGET="photos">MedGuide</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.medsource.com/" TARGET="photos">Health
+Source</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.medsource.com/hcdir.html" TARGET="photos">Internet
+Health Directory</A> </FONT><BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.bmj.com/bmj/" TARGET="photos">BMJ
+Home Page</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.elsevier.nl/catalogue/SA1/130/04000/04000/31066/31066.html" TARGET="photos">The
+Lancet</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.who.ch/Welcome.html" TARGET="photos">World
+Health Organisation</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.dgsys.com/~tgolden/1grief.html" TARGET="photos">Crisis,
+Grief, and Healing: (Tom Golden)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.pslgroup.com/docguide.htm" TARGET="photos">Doctors'
+Guide</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://pubweb.acns.nwu.edu/~ksa878/wchb/ask.htm" TARGET="photos">Ask
+a Woman Doctor - Confidential Questions Answered</A> </FONT><BR>
+<BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.kumc.edu/SAH/OTEd/jradel/effective.html target=" photos">Effective
+Presentations &amp; Speeches </A></FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="news"></A></P>
+
+<H2><FONT FACE="arial">NEWS</FONT></H2>
+
+<P><IMG SRC="news.gif" ALT="news" HEIGHT=60 WIDTH=60><FONT FACE="arial, geneva">
+</FONT></P>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.yahoo.com/headlines/news" TARGET="photos">Headlines
+(from Yahoo)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.yahoo.com/headlines/" TARGET="photos">News
+from Reuters Online</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cnn.com/WORLD/index.html" TARGET="photos">News
+from CNN</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.news-review.co.uk/" TARGET="photos">UK
+News Headlines (News Review)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://web1.cims.co.uk/eveningtimes/" TARGET="photos">Glasgow
+Evening Times</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://web1.cims.co.uk/herald/" TARGET="photos">Glasgow
+Herald</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.telegraph.co.uk" TARGET="photos">Electronic
+Herald (UK - free registration necessary)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.pa.press.net/news/" TARGET="photos">Press
+Association News Index The Papers Today etc</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.auburn.edu/~vestmon/news.html" TARGET="photos">Main
+Newsroom</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.newspage.com/" TARGET="photos">News
+Page Home Page</A> </FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="poli"></A></P>
+
+<H2><FONT FACE="arial">POLITICS</FONT></H2>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.salvo.com/index.cgi" TARGET="photos">Current
+Issues - Forthright Survival Headlines</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.traveller.com/~hrweb/index.html" TARGET="photos">Human
+Rights Web</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://csf.Colorado.EDU/dfax/ipn/">International
+Peacekeeping News</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://iberia.vassar.edu/vcl/electronics/etc/misc/human.html" TARGET="photos">Human
+Rights Resources</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.contact.org/civillib.htm" TARGET="photos" TARGET="photos">International
+Civil Liberties Resources</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.oneworld.org/amnesty/index.html" TARGET="photos">Amnesty
+International (UK)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.peacenet.apc.org/peacenet/" TARGET="photos">PeaceNet
+Home Page</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.feminist.org/gateway/po_exec2.html" TARGET="photos">Women
+in Politics</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.eff.org/blueribbon.html" TARGET="photos">Blue
+Ribbon Campaign for Online Freedom of Speech</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.usis.usemb.se/human/index.htm">Human
+Rights (US Embassy)</A> </FONT><BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.keele.ac.uk/depts/po/official.htm" TARGET="photos">Official
+Government Web Pages by Country</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://193.131.136.101/Politics.htm" TARGET="photos">More
+Politics &amp; Government Links</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.hyperweb.com/politics_fast.html" TARGET="photos">Hyperweb
+Politics Page</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.whitehouse.gov/" TARGET="photos">Welcome
+to the White House</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lm.com/~cjp/whig/Constitution.html" TARGET="photos">The
+U.S. Constitution</A> </FONT><BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.tardis.ed.ac.uk/~alba/snp/" TARGET="photos">Scottish
+National Party</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.scotlibdems.org.uk/" TARGET="photos">Scottish
+Liberal Democrats</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.libdems.org.uk/" TARGET="photos">Liberal
+Democrats</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.poptel.org.uk/labour-party/" TARGET="photos">Labour
+Party</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.conservative-party.org.uk/" TARGET="photos">The
+Conservative Party</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.fco.gov.uk/" TARGET="photos">London
+UK, Foreign &amp; Commonwealth Office</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://nyx10.cs.du.edu:8001/~dboothro/home.html" TARGET="photos">British
+Elections &amp; Politics</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.gpl.net/niic/politics/" TARGET="photos">Northern
+Ireland Politics</A> </FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="reli"></A></P>
+
+<H2><FONT FACE="arial">RELIGION</FONT></H2>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.tcp.com:8000/qrd/www/religion/orgs/iwg/iwg.html" TARGET="photos">Interfaith
+Working Group</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cnet.org/world-christian.html" TARGET="photos">World
+Christian (and other religions) Internet Resources</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://chestnut.enmu.edu/~stjeanp/quran.index.html" TARGET="photos">Quran</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.virtual.co.il/" TARGET="photos">Virtual
+Jerusalem</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www1.rider.edu/~suler/zenstory/zenstory.html" TARGET="photos">Zen
+Stories to Tell Your Neighbours</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.iTools.com/research-it/research-it.html" TARGET="photos">Research-It!
+- includes searchable King James Bible</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://challenge.tiac.net/users/dstein/nw17.html" TARGET="photos">More
+religion-related links</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://limestone.kosone.com/people/ocrt/ocrt_hp.htm" TARGET="photos">Ontario
+Centre for Religious Tolerance</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.pointcom.com/jpegs/reviews/hure.htm" TARGET="photos">Point
+Communications Religions Index</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.pointcom.com/jpegs/reviews/rosm.htm" TARGET="photos">Point
+Communications Spirituality &amp; Mysticism Index</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.westol.com/~klinder/bos.htm" TARGET="photos">Lady
+Alexcia's Book of Shadows</A> </FONT></LI>
+
+<P><FONT FACE="arial, geneva">
+</FONT></P>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://freethought.tamu.edu/freethought/joseph_mccabe/encyclopedia_crime.html" TARGET="photos">(Joseph
+McCabe:) Crimes Against the Truth</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.yahoo.com/text/Society_and_Culture/Religion/Humanism" TARGET="photos">Yahoo
+Guide to Humanism on the Net</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://freethought.tamu.edu/freethought/" TARGET="photos">The
+Freethought Web</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://freethought.tamu.edu/" TARGET="photos">The
+Secular Web</A> </FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="scot"></A></P>
+
+<P><IMG SRC="scott.gif" HEIGHT=47 WIDTH=46><FONT FACE="arial, geneva">
+</FONT></P>
+
+<H2><FONT FACE="arial">SCOTLAND</FONT></H2>
+
+<P><!IMG SRC="scota.gif" width=46 height=47 border=0 alt="thistle"></P>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.scotweb.co.uk/tp/heritage.html" TARGET="photos">Tartan
+Pages</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.almac.co.uk/es/index.html" TARGET="photos">Electric
+Scotland</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lonelyplanet.com/dest/eur/sco.htm" TARGET="photos">Lonely
+Planet - Scotland</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.gael-net.co.uk/index.html" TARGET="photos">Isle
+of Skye</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.geo.ed.ac.uk/home/scotland/scotland.html" TARGET="photos">Gateway
+to Scotland</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.dcs.gla.ac.uk/~kuffnejc/glasgow1.html" TARGET="photos">This
+is Glasgow</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.linkcafe.co.uk/ecosse/glasgow/" TARGET="photos">Glasgow
+Live!</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.arts.gla.ac.uk/tfts/MPhilProject/scotlinks.html" TARGET="photos">Scottish
+Links</A> </FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="soci"></A></P>
+
+<H2><FONT FACE="arial">SOCIOLOGY</FONT></H2>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.princeton.edu/~sociolog/links.html" TARGET="photos">Sociology
+NetLinks</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://WWW.Trinity.Edu/~mkearl/index.html" TARGET="photos">Various
+links</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.socioweb.com/~markbl/socioweb/" TARGET="photos">SocioWeb</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.w3.org/hypertext/DataSources/bySubject/Sociology/Overview.html" TARGET="photos">Sociology
+- Virtual Library</A> </FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="trav"></A></P>
+
+<H2><FONT FACE="arial">TRAVEL</FONT></H2>
+
+<P><IMG SRC="compass.gif" ALT="compass" HEIGHT=60 WIDTH=60><FONT FACE="arial, geneva">
+</FONT></P>
+
+<UL>
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.world-travel-net.co.uk/default.htm" TARGET="photos">Travel
+Net</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="places.html" TARGET="photos">Country
+A-Z</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.thomascook.com/" TARGET="photos">Thomas
+Cook</A> </FONT></LI>
+
+<P><FONT FACE="arial, geneva">
+</FONT></P>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.indo.com/distance/" TARGET="photos">How
+Far Is It?</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.travlang.com/languages/index.html" TARGET="photos">Travel
+phrases</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://bin.gnn.com/cgi-bin/gnn/currency?Britain" TARGET="photos">Currency
+Converter</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.odci.gov/cia/publications/95fact/index.html" TARGET="photos">World
+Fact Book </A></FONT><BR>
+<BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.iflybritishmidland.com" TARGET="photos">British
+Midland</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.british-airways.com/batext/textcheckin.htm" TARGET="photos">British
+Airways</A> <A HREF="http://www.airuk.co.uk/" TARGET="photos">Air UK</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.itn.net/airlines/" TARGET="photos">Other
+airlines</A> </FONT><BR>
+<BR>
+</LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cis.ohio-state.edu/hypertext/faq/usenet/travel/air/handbook/top.html" TARGET="photos">Air
+Travel FAQ</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.scotrail.co.uk/" TARGET="photos">Scottish
+Railways</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.cs.stir.ac.uk/~krp/scot/" TARGET="photos">Scottish
+Road, Rail, Ferry</A> <BR>
+<BR>
+HOTELS </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.s-h-systems.co.uk/67scot.html#Edinburgh" TARGET="photos">Edinburgh</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.s-h-systems.co.uk/glasgow.html" TARGET="photos">Glasgow</A>
+/ <A HREF="http://www.s-h-systems.co.uk/shs.html" TARGET="photos">UK</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.world-travel-net.co.uk/hotels/default.htm" TARGET="photos">Worldwide</A>
+<BR>
+<BR>
+GUIDES<BR>
+<A HREF="http://www.timeout.co.uk/" TARGET="photos">Time Out City Guides</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://wings.buffalo.edu/world/vt2/" TARGET="photos">Virtual
+Tourist</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lonelyplanet.com.au/" TARGET="photos">Lonely
+Planet</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.lib.utexas.edu/Libs/PCL/Map_collection/world_cities.html" TARGET="photos">City
+Maps</A> <BR>
+<BR>
+WEATHER </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.intellicast.com/weather/gla/" TARGET="photos">Glasgow</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.intellicast.com/weather/intl/" TARGET="photos">Worldwide</A>
+</FONT></LI>
+</UL>
+
+<P><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<HR><A NAME="vess"></A></P>
+
+<H2><BLINK><FONT FACE="arial"><A HREF="index.html" TARGET="_top">VESS</A></FONT></BLINK></H2>
+
+<LI><FONT FACE="arial, geneva"><A HREF="aims.html" TARGET="photos">Aims</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="bfe.html" TARGET="photos">Beyond
+Final Exit</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="booklist.html" TARGET="photos">Bibliography</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="books.html" TARGET="photos">Books
+from VESS </A></FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="cases.html" TARGET="photos">Case
+Histories</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="history.html" TARGET="photos">Chronology</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="contents.html" TARGET="photos">Contents</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="links.html" TARGET="photos">Death/Dying
+Websites</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="http://www.islandnet.com/~deathnet/new.html" TARGET="photos">DeathNET
+Headlines</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="dd.html" TARGET="photos">Departing
+Drugs</> </A></FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="dutch.html" TARGET="photos">Dutch
+Euthanasia</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="fastaccs.html" TARGET="photos">FAST
+ACCESS</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="ve.html" TARGET="photos">FAQ on
+Euthanasia</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="french.html" TARGET="photos">French</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="a_z.html" TARGET="photos">INDEX
+and Glossary</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="lwvh.html" TARGET="photos">Living
+Wills</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="listserv.html" TARGET="photos">Mailing
+lists</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="didmsnj.html" TARGET="photos">(Mensa)
+Dying In Dignity</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="new.html" TARGET="photos">New to
+the Website?</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="nl.html" TARGET="photos">Newsletter</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="rights.html" TARGET="photos">Rights
+for Healthcare </A></FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="index2.html" TARGET="photos">Scottish
+News</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="sd.html" TARGET="photos">Self-Deliverance</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="spanish.html" TARGET="photos">Spanish</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="quotes.html" TARGET="photos">Student
+Page</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="new_app.html" TARGET="photos">Subscriptions</A>
+</FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="news:talk.euthanasia" TARGET="photos">talk.euthanasia
+(Usenet Discussion Group)</A> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><FONT COLOR="#C100FF"><A HREF="new.html" TARGET="photos">What's
+New</A></FONT> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><FONT COLOR="#C100FF"><A HREF="else.html" TARGET="photos">World
+Overview</A></FONT> </FONT></LI>
+
+<LI><FONT FACE="arial, geneva"><A HREF="wf.html" TARGET="photos">Worldwide:
+Societies</A> <BR>
+<A NAME="engines"></A>
+<HR><BR>
+<A HREF="http://index.opentext.net/" TARGET="photos"><IMG SRC="srch-otx.gif" BORDER=0 HEIGHT=31 WIDTH=88></A>
+<BR>
+<A HREF="http://altavista.digital.com" TARGET="photos"><IMG SRC="srch-alt.gif" BORDER=0 HEIGHT=35 WIDTH=82></A>
+<A HREF="http://www.excite.com" TARGET="photos"><IMG SRC="srch-exc.gif" BORDER=0 HEIGHT=35 WIDTH=90></A>
+<A HREF="http://guide.infoseek.com/IS/Home?Home.html" TARGET="photos"><IMG SRC="srch-inf.gif" BORDER=0 HEIGHT=35 WIDTH=91></A>
+<A HREF="http://lycos.cs.cmu.edu/" TARGET="photos"><IMG SRC="srch-lyc.gif" BORDER=0 HEIGHT=35 WIDTH=80></A>
+<A HREF="http://metacrawler.cs.washington.edu:8080/" TARGET="photos"><IMG SRC="srch-mcr.gif" BORDER=0 HEIGHT=35 WIDTH=34></A>
+<BR>
+<A HREF="http://www.mcp.com" TARGET="photos"><IMG SRC="srch-rid.gif" BORDER=0 HEIGHT=35 WIDTH=38></A>
+<A HREF="http://www.cs.colostate.edu/~dreiling/smartform.html" TARGET="photos"><IMG SRC="srch-sav.gif" BORDER=0 HEIGHT=35 WIDTH=97></A>
+<A HREF="http://www.webcrawler.com/" TARGET="photos"><IMG SRC="srch-wcr.gif" BORDER=0 HEIGHT=35 WIDTH=126></A>
+<A HREF="http://www.yahoo.com" TARGET="photos"><IMG SRC="srch-yah.gif" BORDER=0 HEIGHT=35 WIDTH=145></A>
+<BR>
+<BR>
+
+<HR><BR>
+<BR>
+<A HREF="index.html" TARGET="_top"><IMG SRC="home.gif" ALT="[VESS Homepage]" HEIGHT=31 WIDTH=93></A>
+<A HREF="new_app.html" TARGET="_top"><IMG SRC="subscribe.gif" ALT="[Subscribe]" HEIGHT=31 WIDTH=111></A>
+<A HREF="a_z.html" TARGET="_top"><IMG SRC="index.gif" ALT="[A-Z]" HEIGHT=31 WIDTH=93></A>
+<A HREF="books.html" TARGET="_top"><IMG SRC="library.gif" ALT="[Books]" HEIGHT=31 WIDTH=31></A>
+<A HREF="feedback.html" TARGET="_top"><IMG SRC="comments.gif" ALT="[Comments]" HEIGHT=31 WIDTH=31></A>
+<A HREF="MAILTO:didmsnj@easynet.co.uk" TARGET="photos"><IMG SRC="email.gif" ALT="[Email]" HEIGHT=31 WIDTH=31></A>
+<A HREF="fastaccs.html" TARGET="_top" onMouseOver="self.status='A starting directory to a 3Mb site of info about euthanasia and links across the Web';return true"><IMG SRC="fasticon.gif" ALT="[FastAccess]" HEIGHT=31 WIDTH=111></A>
+
+<HR><A HREF="index.html" TARGET="photos">VESS</A> Hotlinks to the Internet.
+Webmaster: <A HREF="resume.html" ONMOUSEOVER="document.bgColor='lightblue'" TARGET="_top">Chris
+Docker</A>. </FONT>
+<HR></LI>
+
+</BODY>
+</HTML>
+</DOC>

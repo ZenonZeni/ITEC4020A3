@@ -1,0 +1,313 @@
+
+<DOC>
+<DOCNO>WT02-B12-35</DOCNO>
+<DOCOLDNO>IA087-000625-B045-38</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.066.html 130.91.195.242 19970122061710 text/html 15872
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:17:10 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 15700
+Last-modified: Tue, 22 Nov 1994 06:31:51 GMT
+</DOCHDR>
+Excerpt from PGP User's Guide <p>
+
+--------------------------
+			   PGP User's Guide
+		      Volume I: Essential Topics
+		      --------------------------
+			 by Philip Zimmermann
+			  Revised 14 Jun 93 <p>
+
+Synopsis:  PGP uses public-key encryption to protect E-mail and data
+files.  Communicate securely with people you've never met, with no
+secure channels needed for prior exchange of keys.  PGP is well
+featured and fast, with sophisticated key management, digital
+signatures, data compression, and good ergonomic design. <p>
+
+Software and documentation (c) Copyright 1990-1992 Philip Zimmermann. 
+For information on PGP licensing, distribution, copyrights, patents,
+trademarks, liability limitations, and export controls, see the
+"Legal Issues" section in the "PGP User's Guide, Volume II: Special
+Topics". <p>
+
+Quick Overview
+============= <p>
+
+Pretty Good(tm) Privacy (PGP), from Phil's Pretty Good Software, is a
+high security cryptographic software application for MSDOS, Unix,
+VAX/VMS, and other computers.  PGP allows people to exchange files or
+messages with privacy, authentication, and convenience.  Privacy
+means that only those intended to receive a message can read it. 
+Authentication means that messages that appear to be from a
+particular person can only have originated from that person. 
+Convenience means that privacy and authentication are provided
+without the hassles of managing keys associated with conventional
+cryptographic software.  No secure channels are needed to exchange
+keys between users, which makes PGP much easier to use.  This is
+because PGP is based on a powerful new technology called "public key"
+cryptography.   <p>
+
+PGP combines the convenience of the Rivest-Shamir-Adleman (RSA)
+public key cryptosystem with the speed of conventional cryptography,
+message digests for digital signatures, data compression before
+encryption, good ergonomic design, and sophisticated key management. 
+And PGP performs the public-key functions faster than most other
+software implementations.  PGP is public key cryptography for the
+masses. <p>
+
+PGP does not provide any built-in modem communications capability. 
+You must use a separate software product for that. <p>
+
+This document, "Volume I: Essential Topics", only explains the
+essential concepts for using PGP, and should be read by all PGP
+users.  "Volume II: Special Topics" covers the advanced features of
+PGP and other special topics, and may be read by more serious PGP
+users.  Neither volume explains the underlying technology details of
+cryptographic algorithms and data structures.   <p>
+
+Why Do You Need PGP?
+==================== <p>
+
+It's personal.  It's private.  And it's no one's business but yours.
+You may be planning a political campaign, discussing your taxes, or
+having an illicit affair.  Or you may be doing something that you
+feel shouldn't be illegal, but is.  Whatever it is, you don't want
+your private electronic mail (E-mail) or confidential documents read
+by anyone else.  There's nothing wrong with asserting your privacy. 
+Privacy is as apple-pie as the Constitution.   <p>
+
+Perhaps you think your E-mail is legitimate enough that encryption is
+unwarranted.  If you really are a law-abiding citizen with nothing to
+hide, then why don't you always send your paper mail on postcards? 
+Why not submit to drug testing on demand?  Why require a warrant for
+police searches of your house?  Are you trying to hide something? 
+You must be a subversive or a drug dealer if you hide your mail
+inside envelopes.  Or maybe a paranoid nut.  Do law-abiding citizens
+have any need to encrypt their E-mail? <p>
+
+What if everyone believed that law-abiding citizens should use
+postcards for their mail?  If some brave soul tried to assert his
+privacy by using an envelope for his mail, it would draw suspicion. 
+Perhaps the authorities would open his mail to see what he's hiding. 
+Fortunately, we don't live in that kind of world, because everyone
+protects most of their mail with envelopes.  So no one draws suspicion
+by asserting their privacy with an envelope.  There's safety in
+numbers.  Analogously, it would be nice if everyone routinely used
+encryption for all their E-mail, innocent or not, so that no one drew
+suspicion by asserting their E-mail privacy with encryption.  Think
+of it as a form of solidarity. <p>
+
+Today, if the Government wants to violate the privacy of ordinary
+citizens, it has to expend a certain amount of expense and labor to
+intercept and steam open and read paper mail, and listen to and
+possibly transcribe spoken telephone conversation.  This kind of
+labor-intensive monitoring is not practical on a large scale.  This
+is only done in important cases when it seems worthwhile.  <p>
+
+More and more of our private communications are being routed through
+electronic channels.  Electronic mail is gradually replacing
+conventional paper mail.  E-mail messages are just too easy to
+intercept and scan for interesting keywords.  This can be done
+easily, routinely, automatically, and undetectably on a grand scale. 
+International cablegrams are already scanned this way on a large
+scale by the NSA.  <p>
+
+We are moving toward a future when the nation will be crisscrossed
+with high capacity fiber optic data networks linking together all our
+increasingly ubiquitous personal computers.  E-mail will be the norm
+for everyone, not the novelty it is today.  The Government will
+protect our E-mail with Government-designed encryption protocols. 
+Probably most people will trust that.  But perhaps some people will
+prefer their own protective measures. <p>
+
+Senate Bill 266, a 1991 omnibus anti-crime bill, had an unsettling
+measure buried in it.  If this non-binding resolution had become real
+law, it would have forced manufacturers of secure communications
+equipment to insert special "trap doors" in their products, so that
+the Government can read anyone's encrypted messages.  It reads:  "It
+is the sense of Congress that providers of electronic communications
+services and manufacturers of electronic communications service
+equipment shall insure that communications systems permit the
+Government to obtain the plain text contents of voice, data, and
+other communications when appropriately authorized by law."  This
+measure was defeated after rigorous protest from civil libertarians
+and industry groups.   <p>
+
+In 1992, the FBI Digital Telephony wiretap proposal was introduced to
+Congress.  It would require all manufacturers of communications
+equipment to build in special remote wiretap ports that would enable
+the FBI to remotely wiretap all forms of electronic communication
+from FBI offices.  Although it never attracted any sponsors in
+Congress because of citizen opposition, it will be reintroduced in
+1993.   <p>
+
+Most alarming of all is the White House's bold new encryption policy
+initiative, under development at NSA for four years, and unveiled
+April 16th, 1993.  The centerpiece of this initiative is a
+Government-built encryption device, called the "Clipper" chip,
+containing a new classified NSA encryption algorithm.  The Government
+is encouraging private industry to design it into all their secure
+communication products, like secure phones, secure FAX, etc.  AT&amp;T is
+now putting the Clipper into all their secure voice products.  The
+catch:  At the time of manufacture, each Clipper chip will be loaded
+with its own unique key, and the Government gets to keep a copy,
+placed in escrow.  Not to worry, though-- the Government promises
+that they will use these keys to read your traffic only when duly
+authorized by law.  Of course, to make Clipper completely effective,
+the next logical step would be to outlaw other forms of cryptography. <p>
+
+If privacy is outlawed, only outlaws will have privacy.  Intelligence
+agencies have access to good cryptographic technology.  So do the big
+arms and drug traffickers.  So do defense contractors, oil companies,
+and other corporate giants.  But ordinary people and grassroots
+political organizations mostly have not had access to affordable
+"military grade" public-key cryptographic technology.  Until now. <p>
+
+PGP empowers people to take their privacy into their own hands.  
+There's a growing social need for it.  That's why I wrote it. <p>
+
+How it Works
+============ <p>
+
+It would help if you were already familiar with the concept of
+cryptography in general and public key cryptography in particular. 
+Nonetheless, here are a few introductory remarks about public key
+cryptography. <p>
+
+First, some elementary terminology.  Suppose I want to send you a
+message, but I don't want anyone but you to be able to read it.  I
+can "encrypt", or "encipher" the message, which means I scramble it
+up in a hopelessly complicated way, rendering it unreadable to anyone
+except you, the intended recipient of the message.  I supply a
+cryptographic "key" to encrypt the message, and you have to use the
+same key to decipher or "decrypt" it.  At least that's how it works
+in conventional "single-key" cryptosystems. <p>
+
+In conventional cryptosystems, such as the US Federal Data Encryption
+Standard (DES), a single key is used for both encryption and
+decryption.  This means that a key must be initially transmitted via
+secure channels so that both parties can know it before encrypted
+messages can be sent over insecure channels.  This may be
+inconvenient.  If you have a secure channel for exchanging keys, then
+why do you need cryptography in the first place? <p>
+
+In public key cryptosystems, everyone has two related complementary
+keys, a publicly revealed key and a secret key.  Each key unlocks the
+code that the other key makes.  Knowing the public key does not help
+you deduce the corresponding secret key.  The public key can be
+published and widely disseminated across a communications network.
+This protocol provides privacy without the need for the same kind of
+secure channels that a conventional cryptosystem requires. <p>
+
+Anyone can use a recipient's public key to encrypt a message to that
+person, and that recipient uses her own corresponding secret key to
+decrypt that message.  No one but the recipient can decrypt it,
+because no one else has access to that secret key.  Not even the
+person who encrypted the message can decrypt it.   <p>
+
+Message authentication is also provided.  The sender's own secret key
+can be used to encrypt a message, thereby "signing" it.  This creates
+a digital signature of a message, which the recipient (or anyone
+else) can check by using the sender's public key to decrypt it.  This
+proves that the sender was the true originator of the message, and
+that the message has not been subsequently altered by anyone else,
+because the sender alone possesses the secret key that made that
+signature.  Forgery of a signed message is infeasible, and the sender
+cannot later disavow his signature.  <p>
+
+These two processes can be combined to provide both privacy and
+authentication by first signing a message with your own secret key,
+then encrypting the signed message with the recipient's public key. 
+The recipient reverses these steps by first decrypting the message
+with her own secret key, then checking the enclosed signature with
+your public key.  These steps are done automatically by the
+recipient's software. <p>
+
+Because the public key encryption algorithm is much slower than
+conventional single-key encryption, encryption is better accomplished
+by using a high-quality fast conventional single-key encryption
+algorithm to encipher the message.  This original unenciphered
+message is called "plaintext".  In a process invisible to the user, a
+temporary random key, created just for this one "session", is used to
+conventionally encipher the plaintext file.  Then the recipient's
+public key is used to encipher this temporary random conventional
+key.  This public-key-enciphered conventional "session" key is sent
+along with the enciphered text (called "ciphertext") to the
+recipient.  The recipient uses her own secret key to recover this
+temporary session key, and then uses that key to run the fast
+conventional single-key algorithm to decipher the large ciphertext 
+message. <p>
+
+Public keys are kept in individual "key certificates" that include
+the key owner's user ID (which is that person's name), a timestamp of
+when the key pair was generated, and the actual key material.  Public
+key certificates contain the public key material, while secret key
+certificates contain the secret key material.  Each secret key is
+also encrypted with its own password, in case it gets stolen.  A key
+file, or "key ring" contains one or more of these key certificates. 
+Public key rings contain public key certificates, and secret key
+rings contain secret key certificates.   <p>
+
+The keys are also internally referenced by a "key ID", which is an 
+"abbreviation" of the public key (the least significant 64 bits of 
+the large public key).  When this key ID is displayed, only the lower
+24 bits are shown for further brevity.  While many keys may share the
+same user ID, for all practical purposes no two keys share the same
+key ID.   <p>
+
+PGP uses "message digests" to form signatures.  A message digest is a
+128-bit cryptographically strong one-way hash function of the
+message.  It is somewhat analogous to a "checksum" or CRC error
+checking code, in that it compactly "represents" the message and is
+used to detect changes in the message.  Unlike a CRC, however, it is
+computationally infeasible for an attacker to devise a substitute
+message that would produce an identical message digest.  The message
+digest gets encrypted by the secret key to form a signature.   <p>
+
+Documents are signed by prefixing them with signature certificates,
+which contain the key ID of the key that was used to sign it, a
+secret-key-signed message digest of the document, and a timestamp of
+when the signature was made.  The key ID is used by the receiver to
+look up the sender's public key to check the signature.  The
+receiver's software automatically looks up the sender's public key
+and user ID in the receiver's public key ring. <p>
+
+Encrypted files are prefixed by the key ID of the public key used to
+encrypt them.  The receiver uses this key ID message prefix to look
+up the secret key needed to decrypt the message.  The receiver's 
+software automatically looks up the necessary secret decryption key 
+in the receiver's secret key ring. <p>
+
+These two types of key rings are the principal method of storing and
+managing public and secret keys.  Rather than keep individual keys in
+separate key files, they are collected in key rings to facilitate the
+automatic lookup of keys either by key ID or by user ID.  Each user
+keeps his own pair of key rings.  An individual public key is
+temporarily kept in a separate file long enough to send to your
+friend who will then add it to her key ring. <p>
+
+About the Author
+================ <p>
+
+Philip Zimmermann is a software engineer consultant with 19 years
+experience, specializing in embedded real-time systems, cryptography,
+authentication, and data communications.  Experience includes design
+and implementation of authentication systems for financial
+information networks, network data security, key management
+protocols, embedded real-time multitasking executives, operating
+systems, and local area networks.   <p>
+
+Custom versions of cryptography and authentication products and 
+public key implementations such as the NIST DSS are available from
+Zimmermann, as well as custom product development services.  His
+consulting firm's address is:  <p>
+
+Boulder Software Engineering
+3021 Eleventh Street
+Boulder, Colorado 80304  USA
+Phone 303-541-0140 (voice or FAX)  (10:00am - 7:00pm Mountain Time)
+Internet:  prz@acm.org <p>
+
+</DOC>

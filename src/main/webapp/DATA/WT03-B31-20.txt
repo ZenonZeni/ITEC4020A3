@@ -1,0 +1,2291 @@
+
+<DOC>
+<DOCNO>WT03-B31-20</DOCNO>
+<DOCOLDNO>IA059-000323-B010-164</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/ec101.html 205.156.212.5 19970114214422 text/html 104701
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 21:41:41 GMT
+Last-modified: Thursday, 24-Oct-96 22:46:29 GMT
+Content-length: 104513
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/ec101.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+COMPUTER FINANCE via NewsNet <BR>
+January 01, 1996<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><LI>              UNDERSTANDING MIDDLEWARE ECONOMICS</A>&nbsp&nbsp&nbsp<NOBR>(3809 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><LI>             IBM MAINFRAME VALUES CONTINUE DECLINE</A>&nbsp&nbsp&nbsp<NOBR>(2479 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#3"><LI>             DESKTOP COMPUTING: ASSET OR OVERHEAD?</A>&nbsp&nbsp&nbsp<NOBR>(3902 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#4"><LI>              DATA WAREHOUSE PROJECT ECONOMICS: I</A>&nbsp&nbsp&nbsp<NOBR>(4807 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#5"><LI>                         NEWS ANALYSIS</A>&nbsp&nbsp&nbsp<NOBR>(791 words)</NOBR></LI>
+</UL>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+COMPUTER FINANCE via NewsNet
+January 01, 1996
+
+              UNDERSTANDING MIDDLEWARE ECONOMICS
+
+In trying to understand the economics of client-server systems,
+we can break them down into the client, the server, and
+everything in between. This is the domain of 'middleware',
+described as the dividing line in client-server, perhaps the most
+difficult aspect to assess - both technically and financially.
+
+Middleware is the software that no-one notices and nobody wants
+to pay for. After all, middleware is not the client-server
+software that end-users interact with every day on their desktop
+screens.
+
+It is unobtrusive, operating quietly behind the scenes. If
+middleware is noticed at any time, it is usually because it has
+failed in some way.
+
+In a way, it is software infrastructure and, like the social
+infrastructure of roads, bridges, water pipes, sewers and railway
+tracks, it is unglamorous and too often neglected. Yet experts
+from the likes of IBM and the Gartner Group insist that the
+secret to client-server success is to plan ahead and build an
+enterprise middleware infrastructure before launching into
+individual projects.
+
+If this is true, it should be possible to find some way of
+articulating the benefits of middleware in conventional
+accounting terms.
+
+                  ACTIVITY-BASED COSTS ANALYSIS
+
+A recent White Paper from specialists at the Chicago-based
+middleware software firm of Covia Technologies links the
+acquisition of middleware with the novel accounting technique
+known as Activity-Based Costing, or ABC (see Computer Finance
+April 1995).
+
+Covia's argument starts with something so simple that everyone
+can agree on it:
+
+                    Revenue - Costs = Profits
+
+Which can be broken down a little further, to arrive at:
+
+  (Quantity of Sales x Market Price) - (Variable Costs + Fixed
+                        Costs) = Profits
+
+Covia contends that this provides a framework within which the
+cost-benefit impact of a middleware solution could be determined.
+It is an approach that is conceptually simple, but very difficult
+to implement. The goal is to account for middleware investments
+at a detailed business level and to leave no items unaccounted
+for as 'unallocated overhead' or 'unallocated revenue'. This
+means it is necessary to ask such questions as:
+
+* Quantity of sales - how will the middleware solution affect the
+company's ability to increase sales turnover?
+* Market price - will the middleware solution cause customers to
+increase their perception of the value of the company's products?
+* Variable costs - is the net effect an overall decrease in
+business operation costs?
+* Fixed costs - does the middleware solution contribute to
+reducing fixed costs (perhaps in the form of obsolete assets)?
+
+Traditional cost accounting methods are prone to miss some of the
+less tangible cost-reduction effects of distributed software
+technology, while accurately identifying the upfront costs.
+
+According to Covia, a full analysis must transcend the obvious
+and extend the cost-benefit analysis as follows:
+
+* Staff. A distributed computer system affects how people do
+their work, the ways in which they cooperate, and the skills and
+expertise they require. The best analysis of this impact views
+people as company assets and capitalises the investment in them.
+Amortising this investment over time recognises that investment
+in staff has a finite lifetime.
+* Resources. The client-server infrastructure, which includes
+middleware, determines how easy or difficult it is to provide
+applications and make them work together. These applications,
+when properly utilised, can have significant impact on resources
+such as capital, raw materials - and above all, intellectual
+property.
+* Methods and technology. Distributed systems can contribute to
+improving the methods and technology used to create products, and
+sell and deliver them to customers.
+* Systems, processes, and policies. Distributed computing has the
+potential to transform a company's communications, workflow and
+management style. Appropriate middleware can automate the process
+of carrying a document to all who must deal with it, prompting
+those that handle it to do so within a specified time frame. This
+is why BPR almost always employs IT (notably workflow and
+groupware products) as a tool.
+* Structure and organisation. Even the physical layout of an
+organisation can be radically improved through the introduction
+of distributed computing. There is no longer a pressing need for
+staff to congregate in or around meeting rooms, filing cabinets
+and managers' offices. Taken to the limit, this logic embraces
+the possibility of teleworking or mobile computing.
+* Facilities. The distributed computing infrastructure becomes
+part of the facilities, i.e. the physical assets required to
+house and support business operations.
+* Product. All the ways in which the distributed system affects
+product (and service) definition, costs and saleability need to
+be examined.
+* Marketplace. Distributed computing has obvious potential for
+directly supporting innovative marketing techniques such as
+database marketing and telesales.
+
+But how can the finances of middleware be charted when the
+beneficial effects of distributed computing is proving so
+difficult to measure? Analysts cannot even agree whether client-
+server computing is cheaper, or more expensive, than more
+traditional computing approaches.
+
+The trick is to find a way of accounting for all the costs and
+all the benefits, not just the obvious ones. Covia suggests that
+an Activity-Based Costing analysis of the acquisition of a
+middleware infrastructure should help tease out the many costs,
+benefits and savings hidden in client-server implementation.
+
+                       ADDING UP THE BILL
+
+A first step is to develop what is referred to as a 'bill of
+materials', which leads on to a 'bill of activities'. The bill of
+materials lists all the components needed for a finished product,
+the quantity required and the cost of each component. By analogy,
+the bill of activities is defined as a listing of all the
+activities associated with some business task, and their cost.
+
+In theory the total cost of any business process can be found by
+adding up the total costs of the BoMs and BoAs of all its
+constituent activities: simple examples of a BoM and a BoA are
+given in Tables 1 and 2 - the specific currency is academic.
+
+A similar listing to the one shown in Table 1 would need to be
+built up in favour of middleware implementation. The influence of
+developing a client-server architecture with - and without -
+middleware could then be explored, constructing BoAs to determine
+the extent of that influence on the cost of key business
+operations.
+
+This all sound fine. In practice, however, ABC involves a great
+deal of spade work to extract the necessary financial and
+business information. In particular, the source of much of the
+detail need to raise BoAs may not be immediately apparent, though
+Covia identifies numerous activities where the use of middleware
+might be expected to contribute to improved business operations:
+
+* Staff. People become more productive. Developers produce new
+applications sooner, with fewer defects. End-users have better
+access to data and enjoy better communications with remote co-
+workers. Under the right circumstances, they can feel empowered,
+which motivates them to take more responsibility and initiative.
+* Methods and technology. Middleware decouples IT from direct
+dependence on specific networking technology. It becomes quicker
+and easier to take advantage of new technology.
+
+For instance, an organisation employing DCE or MOM (more on this
+later) would find it much easier to migrate from TCP/IP to ATM
+than if TCP/IP dependencies were written into the code of all its
+applications. In a typical case, the savings might amount to two
+programmer-years of effort, which could add up to as much as
+#100,000. However, the delay itself might cost the business far
+more.
+
+Good middleware helps to avoid pathological delays in processing
+work items. Different parts of the organisation are enabled to
+work together and share ideas - although this may meet with
+determined resistance from those with a vested interest in the
+traditional scheme of things.
+
+Middleware can also lower the barriers which currently frustrate
+the attempt to cut IT budgets by replacing older proprietary
+computers with modern PCs and servers which are much cheaper in
+terms of raw processing power. Many so-called downsizing attempts
+have backfired badly for a number of reasons, including:
+
+* Shortage of skilled programmers and operators.
+* Lack of systems management software.
+* The sheer difficulty of reliably connecting the heterogeneous
+'open systems' machines together.
+* Inability to make the 'open systems' machines communicate with
+mainframes, AS/400s and VAXes.
+
+Middleware addresses all four of these problem areas. It
+alleviates the shortage of skilled networking programmers, and
+its relevance to the last three areas is obvious.
+
+* Systems, processes and policies. BPR usually requires the rapid
+installation of distributed IT systems to support new processes.
+Middleware cuts the cost of creating these new systems, as well
+as reducing the time to delivery.
+
+This cost reduction should be reflected in the ABC Bill of
+Activities for the business process. As noted earlier, staff are
+empowered to get things done rapidly, without waiting for
+information or approval. Islands of automation can be united,
+resulting in better information sharing. As a result, 'slack'
+time can be cut out of business processes. (Anyone familiar with
+project management methods will probably see a parallel with the
+manipulation of task schedules in order to find the shortest
+critical path.)
+
+As an example of how a technical refinement can result in
+distinct business benefits, consider the choice between
+synchronous and asynchronous middleware. With the synchronous
+model, a client computer invokes a server, and waits until it
+gets a reply. Suppose the server, in turn, has to seek assistance
+from another server. Serious delays may ensue, while a customer
+service representative or the managing director's secretary
+stares at a locked screen.
+
+Asynchronous middleware, in contrast, sets the client machine
+free to get on with other tasks while it waits for a reply. A
+reduction in time to process each call of just 10% can make all
+the difference between a customer service centre that is busy but
+on top of its work, and one where phones ring endlessly, queues
+get longer, and disgruntled customers hang up to seek a more
+responsive supplier.
+
+* Structure and organisation. There is a marked trend for
+businesses to reorganise frequently, in order to remain flexible
+and responsive to market conditions. This is often accompanied by
+a reduction in staff numbers with each having to accomplish more.
+Distributed IT systems are one of several prerequisites for
+successful reorganisation.
+
+To take an example from the banking industry, more and more
+customers are enjoying the benefits of telephone banking. These
+people perceive that they are getting a far higher level of
+service than that delivered by the traditional bank branch. The
+customer can ring up at any time - 24 hours a day, 365 days a
+year - and is immediately able to query account and transaction
+details, transfer funds, or to arrange to pay bills.
+
+The contrast with a traditional branch office is overwhelming -
+the customer must travel to a fixed place, within fairly limited
+working hours, and must then queue for an audience with a busy
+clerk who usually does not have access to all the necessary
+information. Modern middleware is essential for building the IT
+support that allows service representatives to handle customers
+by doing whatever they want without delay.
+
+Improvements in wide area network (WAN) technology are such that
+within a few years geographically separated teams will be able to
+work together as conveniently as colleagues using Windows for
+Workgroups in the same office today. This will bring substantial
+savings, in reduced travel costs and will allow the best
+available people to be assigned to a project regardless of
+physical location, which will often mean that the projects can
+start sooner.
+
+                      MAKING MIDDLEWARE PAY
+
+Holiday Inns Worldwide recently used middleware from a small US
+supplier, Mitem, to put together a new distributed worldwide
+reservation system in six months. This application has already
+delivered measurable business benefits. For instance:
+
+* Confirmation rates up 5-10%.
+* Revenue per agent hour up 15-20%.
+* Average call handling time reduced by 10-20 seconds.
+* Training time reduced by 60%.
+* Lower operating costs.
+* Greater flexibility and ease of modification.
+
+Holiday Inns Worldwide, which is owned by Bass, operates more
+than 1,800 hotels with 340,000 rooms in over 50 countries. Its 14
+central reservation offices provide 30-40% of a franchised
+hotel's occupancy, and handle over 23 million calls a year -
+twice the call volume of any other reservation service. Herman
+(Holiday Inn Expert Reservation Manager) supports 1,800
+reservation sale agents worldwide, who use 765 Apple Power
+Macintosh clients to log over 60,000 calls each day.
+
+Annual cost savings are estimated to be in the tens of millions
+of dollars, based on a 10-15% productivity improvement in a
+business which turns over more than $1.3 billion a year.
+
+Holiday Inns already had a very efficient reservations system
+known as Holidex, which ran under IBM's Transaction Processing
+Facility (TPF). Since the user interface was complex and non-
+intuitive, it was decided to keep the mainframe and add a GUI
+front end. However, a client and a server do not add up to a
+client-server system: middleware was needed to bridge the gap
+between the very different worlds of Macintosh and mainframe.
+
+To write the connectivity layer in C++ would have required too
+much programming. MitemView gave Holiday Inns the GUI to screen
+mapping it needed through a message-passing approach and appeared
+to have a much shorter time to implement.
+
+In April 1994 Herman was tested with 100 clients at Holiday Inn's
+Central Reservation Office in Amsterdam. Production use started
+in June 1994. Power Macintosh clients retrieve data through
+MitemView, both locally from Sybase database servers and remotely
+from the Holidex mainframe. Effectively, Herman takes the
+processing away from the mainframe and distributes both the
+processing and the database locally.
+
+This is distributed computing fully taking advantage of each
+platform - the mainframe doing what it does best, and the desktop
+computer taking full advantage of its capabilities. The aim is to
+reduce the communications costs for the reservations application,
+because the agent can be 40 seconds into a call before the first
+entry goes back to the mainframe for inventory.
+
+The productivity gains arise from the more intuitive nature of
+the GUI, together with the system's ability to gather information
+from different sources without end-user intervention. For
+instance, agents no longer have to memorise the 12,000-plus
+industry-standard command codes used to sell a room; instead,
+they simply click on an icon and the required information appears
+on screen.
+
+                     LIFE WITHOUT MIDDLEWARE
+
+In sharp contrast to the experiences of Holiday Inns, developing
+distributed applications without middleware can be slow,
+difficult and expensive. Most notably, it requires the services
+of specialised network programmers. They have to work at a low
+level of abstraction, coding to native protocol stack functions
+or even at the 'wire' level. This is quite expensive. In Table 3,
+a comparison is made between the cost of client-server
+development with and without middleware. Figure 1 on page 6 shows
+this graphically, as a summation of the annual costs over time.
+
+The reason for the difference in staff expenses is quite simple.
+In general, the greater the degree of skill, the fewer the people
+who possess it. There are millions of 4GL and visual programmers,
+competent to build standalone PC applications. There are hundreds
+of thousands of capable 3GL programmers. However, there are very
+few who are highly skilled in network programming, and they
+naturally command high salaries. Some estimates indicate that
+this group is less than 1% of the total pool of programmers.
+
+Worse, any reasonably large and complicated system is likely to
+undergo frequent changes, as computers are added and removed,
+departments come and go, new applications are added, and so on.
+
+Each of these changes will require modifications to the network
+handling routines. Yet the more they are changed, the less likely
+they are to work reliably and consistently. Writing network
+software is a very complicated and specialised job, and only a
+small minority of programmers have the training to do it.
+Middleware automatically handles this, the hardest and most
+error-prone part of building a client-server system.
+
+In doing so middleware, which essentially consists of pre-written
+and tested networking routines, makes the application
+programmers' task much simpler, and allows them to concentrate on
+solving business problems.
+
+There are several different classes of middleware options
+available:
+
+* Remote procedure calls allow a routine running on one computer
+to call a routine on another computer, exactly as if they were
+both part of the same program.
+* Remote data access software is a specialised form of middleware
+which passes commands to remote databases. The commands usually
+take the form of SQL, the relational database query language.
+* OSF DCE, the Open Software Foundation's Distributed Computing
+Environment is a middleware suite which includes RPC, and adds
+directory, time, and security services. It also includes a
+'threads' package which allows applications to do several
+different things at once - so that a server can handle more than
+one request at a time, for instance.
+* Message oriented middleware (MOM) makes it easy for an
+application to cooperate with applications on remote computers,
+even if it does not know where they are or even whether they are
+running. If RPC and remote data access are like a telephone call,
+MOM is like a fax or letter - the sender can 'fire and forget'.
+* Object request brokers (ORBs) work at a still more abstract
+level. Conceptually, an ORB is simply a means for one object to
+send messages to other objects, without caring where they are. So
+far, it sounds like MOM. The main practical difference is that
+messages sent using MOM must be retrieved from a queue by the
+recipient, whereas an ORB finds and activates appropriate objects
+to carry out whatever tasks a client demands. This is a far more
+flexible way of working.
+* Distributed transaction processing monitors help to make sure
+that the end-user gets good service, by delivering fast response
+times to large numbers of users, and making sure that each
+transaction is either completed or rolled back.
+
+There are products which automatically generate some or all of
+the middleware required for a given client-server system. These
+tools, which include Template Software's SNAP, Open Environment
+Corporation's Entera, Hitachi's Distributed Object IQ and
+Intellicorp's Kappa, are relatively expensive, however. That
+said, the cost of acquiring them is outweighed by the savings on
+development and testing time. The resulting systems are usually
+more efficient and reliable, too.
+
+                      THE MIDDLEWARE APPEAL
+
+So middleware is a way of reusing software, with all the benefits
+reuse can bring if it is practised sensibly. But middleware is a
+relatively new idea, and innovation - no matter how beneficial -
+always encounters spirited resistance from those who are
+uncomfortable with change. Consequently, it can be quite
+difficult to sell the idea of middleware product acquisition.
+
+Technically of course, middleware has several practical
+advantages over native network programming:
+
+* It takes care of all the network control internally, leaving
+the application programmer to cope with relatively simple
+interfaces. Message oriented middleware (MOM) is best in this
+regard. One application 'posts' a message to a given mailbox
+address, and another application collects it on arrival. The
+middleware functions as a 'post office' in between; the
+application programmer need not care whether the message was
+transmitted over copper wire, microwave or wet string.
+* It provides many extra services, such as guaranteed delivery
+even if the receiving computer or part of the network should
+fail. Some products offer sophisticated options such as 'deliver
+once and once only', which is invaluable for transactions like
+debiting a bank account, where it is essential that it be done,
+but equally important that it should not be repeated.
+* The middleware supplier takes responsibility for support and
+maintenance, leaving the applications programmer free to
+concentrate on solving the company's business problems. Some MOM
+users have indicated that the use of middleware much increases
+development productivity - it has been known to double. Testing
+costs are also significantly less. Finally, fewer staff are
+needed to complete a given project.
+* Consequently the need for specialised networking programmers is
+much reduced, or even completely eliminated. The salary bill and
+training costs can be much reduced, and there is less need to
+track developments in networking technology closely - that
+becomes the job of the middleware vendor.
+* Some forms of middleware are standardised, making it possible
+to switch suppliers should the incumbent fail, or prove
+unsatisfactory.
+
+It is normal for vendors to claim that their products can deliver
+huge benefits, often given spurious authenticity by citing
+simplistic calculations, resulting in large cost savings. This
+behaviour is part of the background noise of the marketplace, and
+buyers usually tune it out without thinking. With middleware, the
+admittedly increased IT costs are sometimes more than offset by
+decreasing costs elsewhere. If this 'elsewhere' is at the
+customer front line, where the company makes its profits, then
+the incremental IT investment may well be justified.
+
+Table 1. A (partial) Bill of Materials relating to the
+development of a software program (Source: Covia).
+
+Component               Unit of measure    Quan- Unit  Total cost
+                                           tity  cost  for use
+                                                       in project
+Compiler                Hours of use       3,500 #0.05 #175
+Developer's workstation Development hours  3,500 #0.11 #385
+C++ class libraries     Each class library 4     #875  #3,500
+Total                                                  #4,060
+
+Table 2. A Bill of Activities listing for a typical customer
+order (Source: Covia).
+
+Activity               Unit of measure     Quan- Unit    Total
+                                           tity  cost    cost
+Customer qualification Customer call       1.02  #37.50  #38.25
+Product offering       Offering            4.62  #49.82  #230.17
+Order entry            Line items          2.30  #13.76  #31.63
+Fulfilment strategy    Line items          2.30  #5.16   #11.87
+Shipment strategy      Ship source         1.15  #4.80   #5.52
+Order confirmation     Order               1.00  #31.00  #31.00
+Inventory commitment   Line items          2.3   #1.85   #4.26
+Warehousing            Line items          2.3   #79.31  #182.41
+Shipping               Shipment            1.36  #90.71  #122.63
+Accounting             Accounting item     18.70 #2.15   #40.21
+Customer order inquiry Customer inquiry    0.20  #59.00  #11.80
+Customer support       Customer problem    0.01  #295.00 #2.95
+
+Table 3. Covia's proposal for the comparative economics of
+client-server development - with and without middleware.
+
+                                             Year
+                          1         2        3        4        5
+Network training          #3,000                      #5,000
+Middleware training       #3,000
+Network programmer        #100,000  Subsqt yrs = Prev yr +3%
+Application programmer    #60,000   Subsqt yrs = Prev yr +3%
+Programmer cost without middleware
+Salary                    #100,000  #103,000 #106,090 #109,273 #112,551
+Training                  #1,000    #1,000   #1,000   #1,667   #1,667
+Development capacity      100       120      120      95       100
+Cost per unit development #1,010    #867     #892     #1,168   #1,142
+Programmer cost with middleware
+Salary                    #60,000   #61,800  #63,654  #65,564  #67,531
+Training                  #300      #300     #300     #300     #300
+Development capacity      120       140      140      140      140
+Cost per unit development #503      #444     #457     #470     #485
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+COMPUTER FINANCE via NewsNet
+January 01, 1996
+
+             IBM MAINFRAME VALUES CONTINUE DECLINE
+
+New models with better price-performance profiles have already
+taken their toll on the value of used mainframes on the second-
+user market. It is predicted that the future residual values of
+all new and used machines will take quite a battering in the
+coming two quarters.
+
+Mainframe values continued to decline rapidly over the last six
+months of 1995, both for new machines and for used ones. This is
+mainly because of the effect of IBM's new 9672 CMOS mainframes,
+which have been priced by IBM to give better price-performance
+than the 9021s, and are at the same time cheaper to run.
+
+The 9672s offer two principal economic benefits over their
+bipolar predecessors that are helping to drive down the values of
+the older machines.
+
+The much improved environmentals of CMOS (lower cooling and less
+heat dissipation) mean lower running costs, but also improved
+reliability which leads to very much lower maintenance costs.
+
+In addition, these systems attract lower software licensing costs
+because of their ability to participate in PSLC (Parallel Sysplex
+Licence Charging).
+
+Together, these cost benefits have allowed IBM to claim that
+users replacing their 3090s with a new 9672 can recoup the
+purchase price within two years on the savings they make.
+
+                     CHEAPER PROCESSOR POWER
+
+The first generation 9672s, announced in September 1994, were
+built from System 390 microprocessors, with the R11 uniprocessor
+having a performance rating of around 14 MIPS. The maximum R61
+system has six processors and is rated at around 60 MIPS.
+
+IBM has not, of course, published a price list for these systems,
+either here or in the US.
+
+Reports from the field suggest that these Rx1 systems were
+originally priced at a little under #14,000 per MIPS - say around
+#13,750 - for a base configuration. One has to treat this figure
+with caution, however, as very few systems are sold with the
+basic configuration (which is just 128Mb of main memory and three
+channels). So this may be an over-estimate.
+
+However, that #13,750 figure was about 25% below the typical
+selling price for an H5 bipolar mainframe at the time, which was
+around #18,500 per MIPS.
+
+Historically, this is the first time that IBM has priced a new
+generation of mainframes at a lower price-performance than its
+predecessor. Typically the pricing has been greater than on the
+predecessor range, to allow the company to build up production
+without being swamped by the demand.
+
+The second generation 9672s were announced in June, with first
+deliveries in the third quarter. They employ developed
+microprocessors that are about 60% more powerful. The R21 entry-
+level model is rated at around 21 MIPS, while the top Rx3 model,
+with 10 processors, is at around 160 MIPS.
+
+Market research company Xephon published its estimated prices for
+these models in the August 1995 issue of its Insight IS magazine.
+Its pricing suggests a range from $18,000 per MIPS at the bottom
+end to $16,000 at the top, with an average across all models of
+$16,800. Using a conversion rate of #1 to $1.40, this translates
+to around #12,000 per MIPS.
+
+If we accept the #13,750 figure as a typical initial selling
+price for an Rx1, and the corresponding #12,000 figure for the
+second generation models, then prices fell over the current
+lifetime of the 9672-Rx1s at a rate of around 20% per year
+compound.
+
+This is significantly less than the general rate of improvement
+in the price-performance of the technology, which most analysts
+put at around 30%.
+
+                   LOWER PRICING DRIVES COSTS
+
+Surprisingly, IBM's pricing of H5 mainframes fell by a greater
+amount over the same period, in fact by around that 30% rate.
+This is surprising because the rate of improvement in the cost of
+the basic bipolar technology is only supposed to be around 15% -
+it is because it is so much less than CMOS that IBM (and every
+other mainframe vendor other than Hitachi) has bet its mainframe
+future on CMOS.
+
+Another surprise is that the fall is even across the range - even
+up to the most powerful models, which have as yet no CMOS
+equivalent.
+
+As a result, a typical H5 selling price in June 1995 had come
+down to a little over #14,000 per MIPS. This reduced the
+differential between the price-performance of new bipolar and new
+CMOS mainframes to 15%.
+
+Over the past six months, the differential has continued to fall,
+though at a slightly slower rate: it now stands at around 13%.
+
+Prices for new bipolar mainframes are still falling at around the
+same 30% annual rate, and are currently only just over #12,000
+per MIPS. CMOS prices have also fallen over this period, and
+brokers at Econocom estimate that the current price is around
+#10,000 per MIPS.
+
+The inference is that H5 prices will continue to fall at a
+greater rate than 9672 prices until the two are in line.
+
+These falls in the new prices have naturally had their effect on
+used prices. Reliable data on the going rates for used 9672s is
+not yet available: few have come onto the market, and those that
+have are configured with different memory and channel options.
+
+According to Econocom, software and maintenance charges are often
+bundled into the prices as well, which makes it difficult to tell
+exactly what the pure hardware cost is.
+
+This is likely to become increasingly the case with mainframes:
+now that the hardware is so cheap, software necessarily accounts
+for an increasingly large part of the running costs.
+
+                   SOFTWARE LICENCE ECONOMIES
+
+We have already seen this in the PC world, where licence costs
+often come to more than the price of the hardware. The same was
+true with used 3090s during the height of the recession.
+
+An implication here is that software pricing should continue to
+come down. IBM has already come under great pressure from its
+customers to reduce software prices to the level of Unix-based
+software, which means a reduction of around a half from the pre-
+usage-based pricing level.
+
+IBM executives have been consistently claiming since then that
+its pricing is fair, while at the same time steadily reducing it.
+Usage-based pricing, announced in April 1994, has been estimated
+to cut a typical customer's bill by 5% to 10%.
+
+That was a small step: the next one was much larger. Parallel
+sysplex charging (PSLC-E) was introduced with the 9672-Rx1 in
+September of that year, and IBM claims it can cut bills by as
+much as 25%.
+
+The latest development has been the announcement of the new
+OS/390 operating system in October. OS/390 will not be delivered
+until later in the current quarter, and the price list for the
+new software had not at the time of writing been finalised, so no
+definite information about the savings to be made here is yet
+available. IBM has only promised officially that the price will
+be less than the sum of the component parts.
+
+It seems possible that it will be quite a bit less. The Annex
+Bulletin has estimated that OS/390 will cost about 10% to 15%
+less than the sum of the individual components. Senior IBM
+executives are privately being even more bullish, quoting figures
+in the 30% to 40% range. (For most users, who will not be running
+all the 30 utilities included as standard in OS/390, the actual
+saving will be less, but for the vast majority it is still going
+to be significant.)
+
+Whatever the saving is, customers can add it to the savings that
+can be made by adopting MULC (usage-based pricing) and PSLC/E.
+IBM has in fact delivered substantial software savings to its
+mainframe users over the past couple of years, to the point where
+Unix software no longer seems ridiculously cheap.
+
+                      USED MARKET DYNAMICS
+
+Reverting to the used market, H5s are now freely available three
+years after the first deliveries (though they have been available
+in reasonable quantity on the used market for less than a year).
+
+Prices have fallen to around 20% of their original selling price,
+and are now in the range #6,500 to #8,000 per MIPS (apart from
+the 9x2, which is considerably more expensive).
+
+For example, an entry-level 61 MIPS 9021-711 currently fetches
+around #450,000, or #7,300 per MIPS. The three processor 169 MIPS
+model 831 commands around #1.25 million, or #6,500 per MIPS.
+
+These prices are considerably lower than they were in the summer.
+
+At that time Econocom priced a 711 at #850,000 and an 831 at #2
+million (see Table 1). So the 711 has lost half its residual
+value in six months, the 831 40% of its value.
+
+We noted in our last report (Computer Finance, August 1995 page
+7) that used H5s then looked overpriced. H5s came onto the market
+at the beginning of 1995 at a price of around #13,000 per MIPS -
+not far below IBM's typical average selling price at the time.
+
+They more or less held that value through into the summer, which
+meant that lifetime depreciation was running at less than 40% a
+year, compared to over 50% depreciation in new mainframe prices
+generally over that period.
+
+It also meant that they were priced at virtually the same as the
+cost of a new model from IBM.
+
+The current pricing is much more reasonable, at around 35% to 45%
+off the pricing of new systems from IBM. This is about the same
+discount as the second generation of the previous range, the
+3090Es, offered at the same stage of their life cycle.
+
+The top-of-the-range 9021-9X2 is substantially more expensive
+than all the other models. As Table 2 shows, Econocom is quoting
+a price of around #4.5 million, which works out at around #9,400
+per MIPS, and is down by 35% since the summer.
+
+                   CUT PRICE MAINFRAME MODELS
+
+Used models of the predecessor H2 range (the first generation
+Summit machines) are now down to below 10% of their initial
+selling prices. Typical pricing is around #5,000 per MIPS,
+offering a discount of well over half on the price of a new H5.
+
+For example, the 47 MIPS entry-level 9021-520 now fetches around
+#250,000, or #5,200 per MIPS. The top-of-the-range 248 MIPS model
+900 has very similar price-performance at its current used price
+of #1.3 million.
+
+These prices too have fallen dramatically since the summer, even
+more so than the H5s. At that point Econocom valued the 520 at
+#550,000 and the 900 at #2.35 million. So the depreciation in
+residual value has been 55% for the 520 and 45% for the 900.
+
+The H0s (340-based) 9021s have now fallen well below #1,000 per
+MIPS, and essentially have no value other than their frames and
+environmentals. These systems can be upgraded to later 9021s, but
+their 3090J-type logic circuitry is now worthless.
+
+The only residual value left in the 3090Js themselves is in the
+memory and channels, which can be used to upgrade other users'
+machines.
+
+If we assume that IBM reduces prices of large H5s by the
+traditional 15% or so per year from now on (rather than the 30%
+we have actually been seeing over the past six months), and also
+that it passes on the 30% pricing improvement in its CMOS models
+that the technology allows, then residual values of H2s and H5s
+should develop in the manner shown in Tables 3 to 5.
+
+                     RESIDUAL SLUMP FORECAST
+
+The immediate conclusion to be drawn from these projections are
+that prices will continue to fall at a much steeper rate than in
+the past, both on traditional bipolar mainframes and even more so
+on the CMOS systems.
+
+Indeed, the tables may well over-estimate future residuals.
+Sievers Consulting is forecasting that the H2 market 'is expected
+to collapse' around now.
+
+The consultancy argues that IBM could decide to clear its stocks
+of H2s that it has accumulated as a result of H2 to H5 upgrades,
+just as it did with 3090Js towards the end of 1994.
+
+Prices are certainly falling rapidly, as we have noted, but there
+is no sign of total collapse as yet. H2s are better placed than
+3090Js, as they can be upgraded to H5s.
+
+As far as the newer systems are concerned, the 30% annual fall in
+the price per MIPS of CMOS systems should mean that today's 9672
+pricing of #10,000 per MIPS should decline to #8,500 by the
+middle of next year (roughly when we should expect the next
+generation), to under #6,000 by mid-1997 and to around #4,000 by
+mid-1998.
+
+The effect on the residual values of used models is shown in the
+tables.
+
+The adoption of commodity technology in mainframes means PC-type
+pricing considerations now apply to mainframes: lower initial
+pricing, but faster depreciation and faster obsolescence. *
+
+Table 1. The state of the used hardware market between June and
+December 1995.
+
+Model            Average price end 1995  Average price mid 1995
+9021-711         #445,000                #850,000
+9021-821         #810,000                #1,375,000
+9021-831         #1,250,000              #2,000,000
+9021-941         #1,725,000              #2,800,000
+9021-962         #2,475,000              #4,125,000
+9021-9X2         #4,525,000              #7,000,000
+9021-520         #245,000                #550,000
+9021-820         #900,000                #1,650,000
+9021-860         #1,100,000              #2,087,500
+9021-900         #1,300,000              #2,362,500
+9021-340         #15,250                 #45,000
+9021-500         #29,000                 #75,000
+9021-620         #67,750                 #155,000
+9021-720         #117,500                #225,000
+
+Table 2. Analysis of existing residual values of IBM mainframes.
+
+Model     MIPS Low value   High value  Price per mips
+a) 9021-H5s
+9021-9x2  483  #4,400,000  #4,650,000  #9,110-9,627
+9021-982  397  #3,250,000  #3,450,000  #8,186-8,690
+9021-821  117  #780,000    #840,000    #6,667-7,179
+9021-711  61   #420,000    #470,000    #6,885-7,705
+b) 9021-H2s
+9021-900  248  #1,200,000  #1,400,000  #4,839-5,645
+9021-740  131  #650,000    #700,000    #4,962-5,344
+9021-520  47   #230,000    #260,000    #4,894-5,532
+c) 9021-H0s
+9021-720  114  #109,000    #126,000    #956-1,105
+9021-340  23   #13,000     #17,500     #565-761
+
+Sources: Market values from Econocom UK; MIPS calculated by
+Computer Finance from IBM performance claims.
+
+Table 3. Forecast depreciation of H2 mainframes through the next
+18 months.
+
+          1H 1996       2H 1996      1H 1997
+9021-520  #160,000      #115,000     #95,000
+9021-640  #310,000      #225,000     #185,000
+9021-740  #450,000      #325,000     #270,000
+9021-820  #700,000      #540,000     #350,000
+9021-860  #850,000      #650,000     #425,000
+9021-900  #1,000,000    #790,000     #500,000
+
+Table 4. Forecast depreciation of H5 mainframes.
+
+          1H 1996     2H 1996     1H 1997     2H 1997
+9021-711  #260,000    #175,000    #130,000    #95,000
+9021-821  #500,000    #340,000    #250,000    #180,000
+9021-831  #1,100,000  #560,000    #400,000    #295,000
+9021-941  #1,250,000  #640,000    #465,000    #330,000
+9021-952  #1,550,000  #1,150,000  #940,000    #580,000
+9021-962  #1,800,000  #1,350,000  #1,100,000  #675,000
+9021-972  #2,100,000  #1,550,000  #1,250,000  #775,000
+9021-982  #2,300,000  #1,700,000  #1,400,000  #850,000
+9021-9X2  #2,800,000  #2,100,000  #1,700,000  #1,550,000
+
+Table 5. Forecast depreciation of 9672-Rx1 mainframes.
+
+          1H 1996     2H 1996     1H 1997     2H 1997
+9672-R11  #85,000     #55,000     #45,000     #30,000
+9672-R21  #150,000    #100,000    #85,000     #55,000
+9672-R31  #215,000    #140,000    #115,000    #75,000
+9672-R41  #270,000    #175,000    #145,000    #95,000
+9672-R51  #320,000    #205,000    #170,000    #110,000
+9672-R61  #350,000    #230,000    #190,000    #125,000
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+COMPUTER FINANCE via NewsNet
+January 01, 1996
+
+             DESKTOP COMPUTING: ASSET OR OVERHEAD?
+
+The best asset management system will die on the vine without
+securing the support of all concerned. The optimal way to gain
+this support is by demonstrating productivity improvements, cost
+and risk reductions, and generally making life easier for IS and
+end-users.
+
+Although there would appear to be a slow realisation that moves
+are needed to improve control over distributed computing assets,
+there seems to be a general sense of uncertainty about where to
+start and how to proceed with desktop asset management.
+
+There is a clear need to curb runaway desktop spending. Even
+during recession capital investment on IT remained at 1% to 2% of
+turnover, depending on sector. And nowadays, the value of desktop
+assets is slowly nudging ahead of the installed base of
+centralised assets, with up to 70% of all investments going on
+distributed technology. Yet the very sites that have spent time,
+effort and money putting together tight and sophisticated
+mainframe asset management practices would be hard pressed to
+show anything comparable for their PC-LAN and internetworking
+investments.
+
+                   ASSET MANAGEMENT HESITATION
+
+In their defence, such organisations would claim that one of the
+problems is that there is no single solution for enterprise-wide
+asset management.
+
+This starts to explain the general level of hesitancy towards
+implementation of an asset management policy. The market is
+actually very fragmented and offers a multitude of point-solution
+products that address many different aspects of asset control.
+
+In some senses there is a genuine need for point solutions: there
+is said to be as many as 80,000 different desktop assets which
+can be applied in different combinations across the enterprise on
+departmental servers, across local area networks or standalone
+desktops, so tracking them is going to be difficult with
+specialist tools. In this light, there is perhaps no choice but
+to adopt a broad spread of highly specific toolsets, taking in:
+
+* Desktop utilities.
+* PC audit packages.
+* Licence management suites.
+* Software metering software.
+* Configuration management, software release and version control
+routines.
+* Network monitoring consoles and remote LAN management systems.
+* Helpdesk suites.
+* Chargeback schemes.
+
+Asset management involves a whole lot more than counting PCs. A
+physical inventory check and software asset audit is only the
+beginning, and is viewed as just a small first step to
+establishing best practice for hardware and software order
+fulfilment, asset administration, licence tracking, technology
+refresh and a range of other functions such as reconciliation of
+book values, accounts consolidation and the like, that stretch
+well into mainstream corporate financial management.
+
+It also means tracing asset histories across highly distributed
+systems, across disparate departments and end-user groups - often
+with devolved budgets. The time-costs alone, can be quite
+considerable. In fact, asset checks can lead to other, unexpected
+costs, as well.
+
+Some IT managers admit to having so far dodged the development of
+an asset management strategy chiefly because of concerns about
+just what they are likely to find once they start scrutinising
+the composition of their desktop assets. It is an aspect which
+could be described as the 'desktop legacy'. According to research
+carried out by consultants KPMG, the vast proportion of corporate
+PCs are incapable of running modern desktop applications: 50%
+having less than 4Mb memory. This makes for a considerable latent
+demand for capital expenditure before full advantage could be
+made of memory-hungry 32-bit applications and latest operating
+systems. Moreover, it is estimated that 40% of the corporate PCs
+in the UK are still not connected to the central network.
+
+To add to the anxiety, there are mounting concerns about the
+escalating cost of ownership of desktop assets, particularly over
+the 'hidden' or so-called 'soft costs' of PC operation and end-
+user support. According to Gartner, PC administrative costs
+nearly quadrupled in the five years between 1987 and 1993.
+
+                     AN AUDIT STARTING POINT
+
+In many ways there is a need to rationalise the existing asset
+base before it is possible to begin to actively manage the
+desktop computing complement.
+
+There is a need to kick off with an audit. As Table 1 indicates,
+that in itself does not run to a great expense. At around #30 per
+PC it is no great cost, but this is only an initial down-payment.
+Although it is a good starting point, put in to proper
+perspective, an asset audit has to be thought of as a first move
+in a logical progression towards a point where software
+distribution is automated, software licences are actively managed
+and asset use accurately charted. A full-blown asset management
+strategy could set an organisation back as much as #100,000 just
+in setting up a dedicated asset management database.
+
+In this context, it starts to become necessary to map out and
+quantify the benefits as well as the costs associated with asset
+management. These centre on three principal areas:
+
+* Reduced risk of software violations through improved licence
+compliance.
+* Reduced software licence costs by moving to metered software
+use and the purchase of concurrent licences.
+* Reduced cost of ownership through better management of the
+asset base.
+
+There is a history of poor licence management on two fronts.
+Yorkshire & Humberside Training Services, GEC Alsthom Low Voltage
+Equipment, London Borough of Tower Hamlets and Cow & Gate
+Nutricia are just a few of the corporations to have been pursued
+by FAST, the Federation Against Software Theft over improper use
+of desktop software licences.
+
+All the cases were settled out of court, though each firm must
+have incurred at least some costs re-licensing all the illegal
+versions that were found to be running.
+
+An indication of the actual cost of licence violations comes from
+the US Software Publishers Association, which reports that it
+records roughly 250 cases a year of licence infringements leading
+to costs of $100,000 on average, per violation.
+
+In some cases, there is a history also, of overlicensing. When
+one organisation upgraded 100 PCs with new desktop software it
+negotiated for $200,000 worth of networked applications for
+concurrent access by its 100 end-users.
+
+However, when later it moved to meter the use of its new
+applications it found that at peak use, one of the new programs
+was used by only 65 end-users and another by no more than 30 or
+so end-users at any one time.
+
+In overlicensing, it had overspent by as much as $115,000.
+
+                     ASSET MANAGEMENT APPEAL
+
+In a White Paper being circulated by Canadian asset management
+specialist Asset Software International on The Case for Asset
+Management, the point is made that, as self-evident as this
+sounds, the trick to developing an effective asset management
+policy lies in achieving two goals: maximising the use of assets
+to produce revenue while minimising overall costs.
+
+It goes on to demonstrate ten ways to improve ROI with asset
+management. Its suggestions include:
+
+1. Server/licence consolidation and rationalisation.
+
+ASI confirms that the biggest immediate return from IT asset
+management is an analysis of software licensing in order to
+rationalise on-going licence fees and software maintenance. This
+is occurring on two levels: network operating systems and
+application licensing.
+
+Two major changes in the NOS environment have lead to
+opportunities for significant cost reduction. First, the hardware
+on which these servers operate have become increasingly powerful,
+allowing fewer boxes to support more users. Secondly, the
+licensing model has changed from fixed increment purchase (50
+user, 100 user, 250 user and so on) to exact per-user pricing.
+Both changes allow significant cost reductions, both in new
+procurement and in ongoing maintenance and support costs.
+
+Some of the issues are similar for application programs
+(consolidating many licences onto fewer boxes) but applications
+have some additional twists. Many programs (especially those
+running on a large server environment) are still priced according
+to a platform tiered model.
+
+ASI cites one case where use of its AssetPRO asset management
+database led to its client achieving a six-figure saving on RDBMS
+licence maintenance fees by short-circuiting a common selling
+tactic used by these vendors - that of negotiating a site licence
+with the organisation and then aggressively promoting its use
+with end users (after all it is free), thereby locking the client
+into higher maintenance fees as instances of the database were
+promulgated throughout the organisation.
+
+By accurately identifying the number, type and use of
+applications based on the RDBMS (many quite small and deployed on
+inefficient workgroup servers) the supplier says it was able to
+reduce the overall licences in use (and thereby maintenance fees)
+by consolidating applications databases onto cost-efficient
+servers with no effect on user operations. The maintenance
+savings in the first year more than paid for the cost of adding a
+few larger servers and the cost of moving the applications to the
+consolidated servers. After nine months, net savings on licence
+maintenance could be identified even before considering the
+reduced indirect support costs of having fewer application
+servers.
+
+2. Lease termination.
+
+One of the first problems that can arise in leasing is correctly
+identifying which assets are owned outright and which are leased.
+An ad hoc study done with one ASI client indicated that the
+average PC on lease had a 28% cost base increase during its
+lifecycle. Situations can arise where assets on leases that are
+terminating are returned to the lessor with additional equipment
+(such as network interface cards and other additional
+peripherals), extra memory, software installed and so on. This
+can be especially expensive with servers that have workgroup
+licences installed and have had their performance augmented
+through additional disk drives and memory.
+
+3. The cost-effectiveness of training.
+
+One of the largest components of total cost of ownership is
+ongoing support and end-user costs and an intuitive answer is to
+invest resources in training of end-users in order to attempt to
+drive down both formal (helpdesk) support and informal (peer
+support) costs.
+
+While it would appear to be self-evident that support costs are
+somehow correlated to training investment, it is difficult to
+determine the exact correlation and thereby answer the questions
+of: is training cost-effective, will training reduce support
+costs, how efficient are various methods of training, and is a
+lack of training a primary cause of ballooning support costs?
+
+ASI says that AssetPRO assists in this analysis by tracking
+support calls and costs and linking them to specific assets,
+groups of assets (cost centres) and the end-users and their
+function in the organisation, and then correlating this cost and
+incident data against the level and specifics of training for
+those users, groups of users and systems, thereby establishing
+the crucial link between the two activities.
+
+4. Software upgrade analysis.
+
+The appearance of Windows 95 has focused the ongoing debate about
+software upgrade cost-benefits, software licensing terms and
+conditions and the overall productivity metrics of desktop
+software.
+
+By tracking the actual time spent using an application (not just
+launched on the desktop and sitting in the background, but
+actually in use) and then correlating this information to the
+asset structures, it becomes possible with some asset tools to
+determine what percentage of the installed base is being
+productively used and therefore should be upgraded. This goes
+beyond a software metering capability (that varies in capability
+from simply detecting launches of software off a network server
+to logging time used) because that metering information is viewed
+in a vacuum if it is not correlated to the assets, groups, users
+and organisational structures.
+
+5. Improvements in procurement records.
+
+Probably the single greatest oversight with enterprise asset
+management is the exclusion of procurement activities and tools.
+Many of the terms and conditions of procurement will have life-
+long effects on the overall cost of an asset. This can be as
+simple as continuing to buy makes and models with a proven record
+of high support costs and unreliability, to locking in multi-year
+maintenance costs based on list price and the vendors'
+assumptions about continued price increases throughout the
+lifetime of the software.
+
+6. Loss prevention.
+
+A very simple aspect is that asset management is a process for
+loss prevention of assets, particularly where they are more
+mobile, of higher value, more generally desirable and have
+significant opportunities for component theft (memory,
+peripherals and software).
+
+7. Warranty cover improvements.
+
+Almost every IT asset a corporation purchases falls under a
+warranty of one type or another. The cost of supporting this
+warranty is not wholly absorbed by the manufacturer but is
+averaged into the cost of the product which, of course, is paid
+by the corporate buyer.
+
+Why is so much money being spent on third-party support when
+warranties already exist? The answer lies mainly in the inability
+to discover which assets are still covered under warranty and
+which are not. A central asset management database can very
+quickly ascertain which assets are covered by a warranty and
+which are not.
+
+8. Effective technology cascade.
+
+Technology cascade involves taking a particular asset which no
+longer serves a particular user effectively and transferring it
+down to a user whose requirements are less intense. A nice theory
+but in practice there are many issues that need to be addressed
+before the technology cascade can be effective and not cost more
+money than it saves.
+
+9. Support and maintenance minimisation.
+
+One of the biggest and most immediate benefits generated by
+implementing enterprise-wide asset management is the savings from
+reduced support and maintenance corporate-wide. A central asset
+management repository can provide all sorts of useful feeds from
+procurement, helpdesk, data collection, software usage metering
+and leasing.
+
+So when sourcing the cost of a new printer, say, procurement
+traditionally would purchase the printer with the lowest price-
+tag.
+
+But by factoring in the cost to support various printers within
+the corporation, it might be determined that the printer with the
+lowest price-tag is actually 60% more expensive to run compared
+with a printer with a higher purchase price.
+
+10. Corporate standards.
+
+Standardising on various technologies and software will reduce
+the amount of support required enterprise-wide and ease the
+process of software deployment.
+
+So if the benefits of asset management extend from being able to
+better orchestrate PC purchase across the enterprise, to slowing
+down the escalating cost of end-user support, improving the speed
+of deployment of new applications or reducing equipment loss, it
+also sets the scene for outsourcing: first audit the asset base,
+then optimise, rationalise or consolidate it to improve the
+management of desktop assets, and finally look to get shot of the
+whole problem by contracting out the job.
+
+Whether such a move is financial astute or strategically naive is
+another matter all together.
+
+                      OUTSOURCNG IT ASSETS
+
+In a White Paper on Gaining Control Over Distributed Assets,
+Comdisco probes this very point. Organisations have had few
+options when it comes to asset management, it contends. They can
+try to address the problem using internal resources, but few if
+any companies have the staff, expertise, or time to do this.
+Alternatively, they can simply outsource the entire process,
+typically for a fixed cost per desktop. But the distributed
+computing environment is fraught with change. Turning over this
+critical and dynamic function, sacrificing internal control and
+flexibility, can be a very costly mistake.
+
+It points to a survey carried out by consultants Deloitte &
+Touche in which managers at 104 companies were surveyed on their
+anticipated benefits of implementing an outsourced asset
+management program, and then surveyed again in 1994 a year after
+implementation to compare actual benefits to expected benefits.
+The findings were interesting, as Table 2 shows.
+
+On the back of such findings, Comdisco maintains that the
+ultimate approach to effective IT asset management lies somewhere
+between outsourcing and 'insourcing,' an alternative it calls
+SelectSourcing .
+
+Comdisco's SelectSourcing approach addresses the complete
+lifecycle management of assets - from planning and procurement to
+installation, inventory tracking, network design and management,
+operational support, recovery and replacement.
+
+Companies can select individual services, or leave it the
+supplier to manage the complete fulfilment and administration of
+all their desktop requirements.
+
+The aim is to identify specific ways in which to reduce costs,
+improve processes, gain control, reduce risks and increase
+productivity across the enterprise. To do this, it breaks asset
+management into four functional areas:
+
+* Asset Management Planning Services: Key components of building
+a plan include benchmarking current processes and costs;
+analysing work flow; developing a functional and technical
+design; developing a data repository of IT assets to facilitate
+budgeting, forecasting, tracking, standards management, migration
+management and technology planning.
+
+The benchmark study consists of a complete inventory of all
+hardware and software assets. The study reviews the total cost of
+ownership, including acquisition, maintenance, and support costs.
+A market and book-value analysis of all installed equipment is
+also a critical element.
+
+Undertaking a work-flow analysis is analogous to conducting a
+benchmark study of current working practices. Studying work flow
+is critical, as Comdisco reckons more than 80% of total asset
+costs can result from non-hardware issues. There is a need to
+examine current procedures used to order, track and manage
+hardware and software, as well as identify potential areas for
+improvements in productivity.
+
+Frequently, simply understanding work flow better enables
+companies to reduce costs by 5% to 10%.
+
+After completing the inventory and work-flow analysis, it becomes
+possible to create a functional and technical design that ensures
+computing assets are deployed in the most efficient and cost-
+effective manner.
+
+An important piece of developing the functional and technical
+design is creating a data repository of all IT assets. This
+serves as a focal point for enterprise-wide asset information.
+The repository will enable appropriate planning for scheduled
+maintenance, as well as greatly improve the speed with which
+helpdesks and on-site support can provide assistance and reduce
+expense - both in terms of soft (lost productivity) and hard
+costs (number of helpdesk or on-site support employees required).
+
+As a result of developing an asset management plan, Comdisco
+maintains that organisations will be able to:
+
+* Redesign key business processes for greater efficiency.
+* Determine the optimal asset acquisition and disposal timing
+strategies.
+* Develop budgeting and forecasting strategies.
+* Track software and hardware information.
+* Set and maintain technology standards.
+
+* Life-Cycle Management Services: The strategic management of
+hardware and software from acquisition through disposal is key to
+reducing costs and improving efficiencies. Areas to assess in
+this regard include technology evaluation; equipment leasing and
+technology refresh; EDI-based leasing and procurement; order
+processing and fulfilment; configuration management and
+installation; integration of software management tools; asset
+identification, tagging and tracking; financial management
+reporting; equipment redeployment, trade-ins and disposal
+
+Actual procurement is a frequently overlooked area for
+improvement. Creating purchase orders, invoice handling,
+reconciliation and reporting procedures often are time-consuming
+and inefficient. The price of this inefficiency can be quite
+high. Standardisation of procurement can drastically reduce the
+procurement time and cost.
+
+For example, one of Comdisco's customers purchases more than
+2,000 PCs a year, with equipment orders originating from multiple
+locations.
+
+Prior to implementing an asset management program, the process
+followed a fairly tortuous route:
+
+1. Order is received.
+2. The purchasing department is contacted to determine the cost.
+3. A formal appropriation is requested.
+4. Multiple managers approve request.
+
+Each of these steps consumed 15 minutes to an hour. This company
+determined its cost to produce each appropriations request was
+$185. Multiply that figure by 2,000 requests, and the total
+annual cost was $370,000 - just to process paperwork.
+
+Standardising the procurement process and implementing EDI
+technology reduced the average cost to $10 per request.
+
+* Managing Technology with Leasing: not surprisingly Comdisco
+takes the line that leasing is an important asset management tool
+that can help improve the administration, tracking and lifecycle
+management of distributed equipment. In addition, leasing's
+traditional benefits are equally important. It says leasing helps
+protect against obsolescence by structuring planned technology
+upgrades. It aids in the planning for the future disposal of
+outdated desktop equipment at the time of acquisition, by taking
+advantage of automatic planning for removal and disposal of
+obsolete equipment. And it reduces the overall asset cost by
+treating assets as operating, not capital, expenses.
+
+In addition, a strategic approach to asset disposal ensures
+maximum return on investment. Carefully planned timing, coupled
+with a knowledge of the secondary equipment market, enables
+organisations to take a long-term view of asset disposal. This,
+it says, in conjunction with overall lifecycle management, helps
+companies to select the acquisition approach that best suits
+short and long-term financial management needs.
+
+It could also help ensure that assets are upgraded and deployed
+optimally throughout the organisation.
+
+* Productivity Enhancement Services: Ongoing support and
+maintenance are two of the largest hidden aspects of technology
+use. Complicating this is the haphazard nature with which assets
+are often acquired and configured. Comdisco has identified seven
+critical components that must be addressed as part of an asset
+management program:
+
+* Managing the network planning and administration.
+* Providing essential maintenance.
+* Offering helpdesk support and on-site assistance.
+* Training users.
+* Developing applications.
+* Managing installs, moves, adds and changes.
+
+Two people that perform similar functions in proximity may have
+totally different versions of PCs, operating systems and
+applications. This diversity vastly complicates network planning
+and administration, helpdesk and on-site assistance.
+
+While standardisation is a necessary and obvious step, building
+an IT asset data repository is crucial to manage the maintenance
+of thousands of disparate items and to provide quick and
+effective helpdesk support.
+
+A data repository would allow managers instant access to asset
+portfolio data - database information inquiries by equipment
+type, location, serial numbers, stop dates, leasing history and
+more. A company could then tell exactly where every hard drive,
+modem and printer is located, the cost of each item and if it was
+leased or purchased.
+
+Training, frequently considered a luxury by many organisations,
+can radically reduce annual support costs. Comdisco says it has
+found that organisations with aggressive training programs can
+cut these costs to as little as $400 per annum per user.
+
+Those without education programs can suffer costs as high as
+$8,000 per user per year. In an organisation with 1,000 users,
+the difference in annual support costs between the two
+organisations can be as high as $7.6 million. *
+
+Table 1. The cost of a PC audit across an organisation with 500
+distributed desktop machines (Source: Microsoft - LegalWare;
+Software Auditing - Costs and Benefits).
+
+Audit calls                     500
+Audit effort                    125 hours @ #30/hour  #4,375
+ + planning time                                      #1,300
+ + data consolidation           125 hours             #4,375
+ + report generation            10 hours              #300
+Software reconciliation         40 hours              #1,400
+Audit software licence purchase 500 @ #7 per desktop  #3,500
+Total cost of audit                                   #15,263
+Cost of 6-monthly review of
+  networked assets              #1,200
+
+Table 2. Expected versus actual benefits of outsourcing the asset
+management of desktop systems (Source: Comdisco, based on
+research by Deloitte & Touche).
+
+                                           Actual     Expected
+Balance sheet improvements                 16         22
+Cost reduction                             31         42
+Improved quality of service                30         49
+Increased focus on core competencies       46         53
+Vendor expertise                           40         64
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+COMPUTER FINANCE via NewsNet
+January 01, 1996
+
+              DATA WAREHOUSE PROJECT ECONOMICS: I
+
+Given the record of fiscally irresponsible delivery of even well-
+understood IT projects, what hope is there for doing any better
+on these new, particularly difficult implementations? And given
+the investment size of a data warehouse, can we afford to
+continue with past estimating practices?
+
+Data warehouses are clearly perceived as providing tremendous
+value. Industry attention has focused on the technology to the
+point where the status of data warehouse projects has
+dramatically changed from low-visibility, research experiments to
+mainstream, strategic corporate initiatives.
+
+A recent Meta Group survey of 450 companies has shown that as
+many as 44% out of those surveyed either have a data warehouse in
+production or pilot status. The same number plan to begin a data
+warehouse project within the next year. Survey responses also
+yielded the information that an average data warehouse project
+will cost $3 million - just in its implementation, not including
+the full lifecycle costs.
+
+                    A QUESTION OF INVESTMENT
+
+As a result of this change of status, and of the growing
+awareness of the investment magnitude associated with data
+warehousing, management is starting to demand much more careful
+and well-substantiated answers to the question, 'What is the
+business value of this investment?'
+
+Although informational and decision-support databases have been
+fairly common for at least two decades, there is relatively
+little experience in the projection of the costs and benefits
+that will be associated with producing a data warehouse system.
+And these projects differ from other, more conventional IT
+projects for several reasons:
+
+* They frequently utilise new and often (within any one
+organisation) untried technologies. Most data warehouse projects
+are breaking new ground for the development team members,
+requiring significant training and often long learning curves.
+* Because of the relatively immature state of data warehousing
+technology, vendor offerings are scattered and poorly integrated.
+This usually necessitates utilising a number of heterogeneous
+products and attempting a custom integration of them. History has
+shown that a great deal of the expense and the risk of software
+projects is to be found in such integration.
+* By definition, data warehouses involve the integration of data
+from disparate sources, often supplied by many departments and/or
+professional disciplines. There is a likelihood that there will
+be problems involving lack of consistent keys, conflicting data
+element definitions, and a considerable amount of confusion on
+the part of all involved parties regarding the purpose,
+reliability and relevance of the data contributed by others.
+* A major goal of many warehouse projects is to make data
+available in new and innovative ways to the end-user community.
+Yet this very availability is almost certain to reveal major
+problems in the cleanliness and usability of the data.
+Unfortunately, the lack of access to legacy databases - the very
+sources of the data used to populate the data warehouse - has
+served to conceal flaws in the initial concept of those
+databases, as well as the nearly inevitable deviations from their
+design and the 'standard' procedures used to load data into them.
+
+Because data warehouses are a relatively new phenomenon, IT
+developers have had little practice in estimating the costs,
+benefits and the risk of these projects. Indeed, most past
+estimates of IT developments appear to have been widely
+inaccurate.
+
+A report released by the Standish Group in late 1994 reported the
+results of an ambitious survey into the experiences of large and
+small companies in developing and delivering information
+technology projects (see Figure 1). It showed that nearly all IT
+projects are delivered late and significantly exceed their
+budgets. Nearly a third of the projects are cancelled before they
+are completed at all. Moreover, despite the tardy, over-budget
+performance, projects were found typically to deliver less than
+half of their originally promised functionality.
+
+                     DATA WAREHOUSING COSTS
+
+This two-part article will illustrate a means for developing a
+meaningful cost-estimation model for a data warehouse project.
+
+Part I deals with the costs, benefits and risks inherent in a
+data warehouse project, drawing on lessons from past projects -
+including both data warehouses and other IT projects. Then next
+month, the second part will include discussions of the costs,
+benefits, and risk involved in a 'typical' data warehouse
+project, and go on to present a methodology for assessing data
+warehouse projects, including an example analysis using a
+'typical' data warehouse case.
+
+In an earlier issue of Computer Finance (October 1995, pages 1-6:
+Cashing in on the Data Warehouse?), an analysis was made of data
+presented at a Gartner-organised conference on Strategic Data
+Management, showing that the average budget for a data warehouse
+implementation breaks roughly into thirds between hardware,
+software and labour (including staff costs, systems integration
+and external consultancy charges).
+
+These costs represent the initial development costs for a data
+warehouse, not including the ongoing support and maintenance that
+it will require over its useful life. Over the full lifecycle,
+these costs are likely to shift dramatically, discounting the
+software and hardware costs in favour of labour and fee-based
+(i.e. maintenance contract) charges.
+
+Figure 2 illustrates this shift. It is important to realise that,
+similar to most IT projects, the development and implementation
+phases will only comprise about one-third of the total costs to
+be incurred over the full life of the project. Thus, the right-
+hand pie chart is a much more realistic assessment of the costs
+to be expected in a typical data warehouse project.
+
+                   CHARTING A HISTORY OF COSTS
+
+Despite the characteristics that make data warehouse projects
+riskier and more expensive than many other types of IT project,
+there is still a great deal to be learned from a review of past
+project performance, not just at the overall level, but at the
+detailed level - examining good and bad estimates of individual
+cost and benefit factors.
+
+A chart of cost factors to be considered is presented opposite as
+Table 1, and some aspects of this listing are worth considering
+in a little more detail.
+
+                        COMPUTER HARDWARE
+
+Because of the large disk requirements and specialised database
+tuning required, many companies choose to implement new hardware
+to support the server requirements of their data warehouse
+projects. Periodic upgrades to the hardware capacity can also be
+anticipated as the inventory of historical information grows.
+
+In the past, these costs have often subjected to a higher level
+of management and purchasing scrutiny than other IT investments.
+In many cases, estimates for the initial (i.e. first year)
+hardware costs are based on firm quotations. Poor estimates for
+future year hardware costs have often been hidden by
+geometrically improving price-performance ratios.
+
+                 NETWORK AND TELECOMMUNICATIONS
+
+Most data warehouse projects are undertaken utilising a client-
+server approach to supplying data to the end-user. These projects
+are heavily dependent on a reliable, high-speed network
+infrastructure.
+
+In many companies, estimates for these costs have been fairly
+well estimated in the past. In marked contrast to many other IT
+areas, an enterprise approach has often been taken, providing a
+single unified network infrastructure with an integrated design
+viewpoint. As a result, costs for incremental capacity have been
+fairly well understood. Similarly to computer hardware, poor
+estimates have often been overshadowed by rapidly decreasing
+costs for commodity network bandwidth supply.
+
+                         VENDOR SOFTWARE
+
+Most data warehouse projects today are based on integration of
+numerous vendor software products. Although there often is a
+component of internal software development, vendor-provided
+software usually will supply most of the overall functionality of
+the proposed system.
+
+Vendor software licensing costs comprise a significant part of
+overall data warehouse project budgets. Estimates of these costs,
+however, tend to focus on the two 'ends' of the system (i.e. the
+database management system on the back end, and the end-user
+interface tool at the front end) and discount the costs to be
+incurred in the 'middle' (i.e. metadata management tools, copy
+and replication tools, data scrubbing tools, etc).
+
+As a result of this oversight, overall licensing budgets can
+often underestimate overall costs by 20% to 50%.
+
+It is important to include estimates of the small, inexpensive
+software products (such as database connectivity software,
+communications protocol stacks, etc.) installed on each of the
+end-users' workstations.
+
+It is easy to overlook costs for software items that cost $50 to
+$150 per copy when estimating a large project. However, if this
+software must be installed on each of, say, 1,000 end-user
+workstations, it can become significant to the overall project
+economics.
+
+Historically the costs involved in licensing a specific vendor
+software product have been fairly well estimated, largely as a
+result of their prominence in the minds of management.
+
+Terms and conditions of licensing agreements are typically
+scrutinised by both legal and management staffs. A huge exception
+to this assertion is in the area of vendor software maintenance
+costs, which have traditionally been underestimated to a great
+degree.
+
+Since most data warehouse projects are highly dependent on
+vendor-supplied software, it is reasonable to assume that they
+will incur vendor software maintenance charges throughout their
+full lifecycle. Yet these charges are among the worst estimates
+that have been made historically. Most software maintenance
+contracts call for maintenance fees to be assessed as a
+percentage (usually between 12% and 18%) of current list price
+for the software product. So the project budgets that have
+included maintenance costs (sadly, many have not even considered
+maintenance costs) generally have projected that percentage of
+the software costs for each year of the project life. However,
+this approach ignores three facts:
+
+* The maintenance fee is based on list price, rather than
+purchase price. Since many large companies purchase their
+software at a discounted price, the maintenance charge may be a
+much higher percentage of the actual purchase price.
+* The maintenance is based on the current list price. If the
+vendor raises the list price of the software over the next
+several years (a common practice, particularly when the market
+for a then-obsolete product becomes saturated, and maintenance
+becomes the main revenue producer), the maintenance fees will
+likewise increase.
+* New functionality is often offered by the vendor, not as
+upgrades to the base product, but as add-on products, with their
+own list prices and maintenance commitments.
+
+For these reasons, historical estimates of software maintenance
+costs have often been only 20 to 30% of what they should have
+been. Large budget overruns have often been incurred when source
+code for a software product is acquired and then modified to
+adapt the product to specific company needs. Although there is
+nothing wrong with this approach, numerous problems can occur,
+mostly related to maintenance and upgrade of the software.
+
+The cost of training installers and administrators of the new
+software products also needs to be accounted for. This can be
+counted in terms of both its monetary cost (e.g. tuition, travel
+and so on) and also in terms of time required (i.e. impact on the
+project schedule) before the new products can be effectively
+used.
+
+Data warehouse projects generally require configuration of
+vendor-supplied software. This process can be straightforward,
+involving only a few hours or days of work. However, significant
+costs and delays can be incurred when the process does not go as
+planned. Problems in this area often require that specialists
+(vendor technicians or consultants) visit the site, adding travel
+expenses to the already high hourly or daily rates charged by
+these experts. So it is reasonable to have worst case costs in
+this category that are an order of magnitude higher than the
+planned case.
+
+                  INTERNAL SOFTWARE DEVELOPMENT
+
+Although most of the functionality of the data warehouse will
+probably be provided by vendor software products, the fragmented
+nature of most vendors' offerings requires a significant amount
+of custom software development and systems integration effort in
+nearly all data warehouse implementations.
+
+Despite its low-visibility nature, the cost of developing,
+testing and implementing this software may prove to be a major
+component of the overall project economics.
+
+Despite the unenviable reputation of software developers for
+providing late, over-budget results, an examination of many
+projects shows that those projects noted as the worst performers
+in this regard are usually those for which there were poor
+project goals and specifications, or those for which the
+specifications changed dramatically during the process of
+developing the product.
+
+The truth of the matter is that the project costs were often
+fairly well estimated, based on the scope and expectations set at
+the time the project was started. However, by the time the
+project had been subjected to massive scope change, architectural
+adjustments, functionality modifications and target platform
+revisions, it should have been no surprise that the original
+budget was exceeded - often by several hundred percent.
+
+The bottom line in the subject of internal software development
+estimates is really an issue of project and enterprise
+management, rather than project economics. Without disciplined
+change control and scope management, no estimating methodology
+can have a hope of 'guessing' what may happen to a project after
+its approval.
+
+It is important to recognise that as problems occur in software
+development, they are seldom solved by adding staff. In nearly
+all cases, software development problems result in schedule
+delays with a fairly constant staffing level. Thus, worst-case
+scenarios should recognise that the effect of problems will be to
+delay the delivery date, and consequently the date that benefits
+will begin to be received.
+
+Many studies have shown that full lifecycle costs of internally
+developed software can be more than three times the development
+costs. Yet many project economics evaluations have assumed that
+these costs will be minimal, or ignore them altogether.
+
+The previously-cited Standish Group survey noted that the
+'successful' projects (i.e. the 69% that were not cancelled
+before completion) provided only 42% of the originally-promised
+features and functions.
+
+Much of the work of 'completing' these systems will be passed on
+to the 'maintenance' staff. Many systems have been in production
+for years, before they provide all of their originally specified
+capabilities. But the project budgets, and therefore economics
+calculations include no provision for this 'maintenance', let
+alone the bug fixes and upgrades expected as part of normal
+maintenance.
+
+Data warehouse projects can be fully expected to be as
+maintenance intensive as the 'average' IT project. A realistic
+assessment of the cost of staffing this function will be critical
+to economic assessment of the proposed project.
+
+                         ACCESS TO DATA
+
+The whole purpose of many data warehouses is to provide
+enterprise-oriented access to data that has up until now been
+secreted in departmental systems, defying any but the most
+determined attempts to integrate these 'private' databases. There
+are many obstacles, many of them non-technical, that must be
+overcome to effect this integration.
+
+The first obstacle is a clear lack of management appreciation for
+the difficulty and expense of surmounting the problem.
+Unfortunately, poor or non-existent documentation, changing data
+field definitions, poorly defined editing rules, inconsistent
+'common' keys, poorly trained data entry staff, and so on, have
+all combined to make data integration a difficult, time-consuming
+and very expensive undertaking.
+
+Data conversion, including standardisation of multiple coding
+schemes and joining of heterogeneous schemas from the existing
+'legacy' databases into the data warehouse shows similar
+characteristics. Conversion plans often assume that the data in
+the old systems is well understood and documented, but experience
+has shown that even if the documentation is comprehensive, it
+often does not reflect the reality of the data in the old
+systems. The worst-case estimate for data conversion can and
+often should be several hundred percent (or more) of the planned
+case estimate.
+
+There are several software tools on the market using rule-based
+and neural-net technologies that help automate the integration
+and conversion processes. However, the tools themselves are
+expensive, and they require a significant amount of effort to
+implement. These tools may play a key role in the success of a
+data warehouse, however they will also comprise a substantial
+fraction of the overall project cost.
+
+Data warehouses require extensive data administration. Aaron
+Zornes of the Meta Group, has irreverently dubbed the data
+warehouse the Database Administrators' Full Employment Act. In
+most cases, the source databases will remain in place, and their
+data collection processes will not undergo any dramatic changes.
+As a result, all of the problems noted for integration and
+conversion are likely to remain throughout the life of the
+warehouse. Project budgets should reflect the likely high labour
+cost needed to maintain and administer the data contained in the
+proposed warehouse.
+
+                         ONGOING SUPPORT
+
+New applications, whether data warehouses or any others, must be
+supported. Users must be trained, documentation prepared, updated
+and distributed, and helpdesk services provided. This support
+must be provided not just at project startup, but over the life
+of the product.
+
+Many projects are undertaken with the assumption that support for
+the new system will be handled by the existing end-user support
+staff. This can only be true if one of the following assumptions
+is true:
+
+* The existing user support staff is overstaffed, and needs more
+work to keep them busy.
+* Supporting the new data warehouse, in addition to the
+previously existing software products, is no more work than
+supporting the existing software alone.
+* Support for some of the existing software products will be
+dropped, thus allowing more time for the staff to support the new
+data warehouse.
+
+In most cases, none of these assumptions are true. Project
+economics assessments need to include the cost of providing this
+critical component of successful project delivery.
+
+                   THE BENEFITS OF WAREHOUSING
+
+Clearly, successful implementation of a data warehouse can
+provide tremendous benefits and these can be segmented into
+tangible and intangible categories, based on the ability to
+measure and/or audit their results in a financial context.
+
+Benefit factors that should be considered are shown over the page
+in Table 2. Once again, the fine detail of these issues is worth
+exploring.
+
+                       PERSONNEL REDUCTION
+
+Historically, personnel reduction has been one of the only
+quantitative benefits considered in justifying IT projects. Many
+of the projects undertaken during the past three decades have
+been on-line transaction processing systems, which automated many
+clerical tasks, and substantially reduced the staff required for
+these functions.
+
+Unfortunately, many past claims of this sort have been made, yet
+audits conducted a year or two after project completion show
+little or no reduction in staff. The only explanation for this
+discrepancy is often a vague claim that staff have been
+displaced.
+
+In a data warehousing scenario, the number of people whose jobs
+could potentially be replaced by the new system is considerably
+lower. In fact, in most companies, the only group likely to be
+affected in this way is the staff of the information centre,
+whose job it has been to prepare custom or semi-custom reports of
+company information to satisfy requests from the end-user
+community. If the data warehouse truly empowers end-users to find
+and process their own data, then the IT staff may be reduced.
+
+Even if the warehouse is only a limited success, the more
+powerful tools in the hands of the IT staff may enhance their
+productivity to the point where the staff could well be reduced
+to some extent.
+
+No matter what assumptions are made regarding personnel
+reduction, with this and all other 'tangible' benefits, it is
+important at the outset to have a plan for measuring the
+magnitude of the benefit that was in fact derived from the
+implementation of the data warehouse.
+
+                         COST AVOIDANCE
+
+Since a strong case has been made for explicitly including all
+costs associated with developing the data warehouse, including
+all of the supporting infrastructure (computer hardware,
+networking, software maintenance and so on), it is legitimate to
+accept credit for avoiding costs that would have been incurred if
+the project had not been undertaken.
+
+For example, if implementation of the data warehouse will move
+significant amounts of processing from a mainframe system to a
+dedicated midrange computer, or result in the avoidance of
+purchasing additional disk storage in the data centre, it would
+be acceptable to claim those incremental positive changes as
+benefits.
+
+The important point is that the benefits claimed must truly be
+incremental, and attributable directly to the effects of the
+project. Given that many data warehouse projects involve
+migration of processing and reporting to lower- cost platforms,
+this may be an important component of the financial justification
+of the project.
+
+                      END-USER PRODUCTIVITY
+
+Numerous studies have shown that professional employees spend
+about 60% of their time looking for data, reformatting data, re-
+keying data, transferring data files, etc. In other words, they
+spend three days of every five-day week doing clerical activities
+- all related to accessing data. They spend another 20% of their
+time on vacation, holidays, training, etc. This leaves a final
+20% - just one day per week to do the job that they are actually
+employed to do.
+
+The obvious inference here is that if a data warehouse can truly
+empower end-users' access to data, it should be possible to
+dramatically change the time allocations for professional
+employees. If they can only spend two days per week, instead of
+three, looking for data, they can spend the extra day on
+professional work, effectively doubling the productivity of the
+entire professional staff. This is a powerful incentive.
+
+However, to assess data warehouse project economics based on this
+benefit, it would be necessary to audit staff productivity after
+the warehouse is delivered. Assuming an enterprise-wide doubling
+of professional staff productivity is virtually guaranteed to
+produce spectacular predicted economics for almost any proposed
+project. But to invoke this benefit, there is a need to back it
+up once the project is completed.
+
+                   ON THE INTANGIBLE BENEFITS
+
+Many of the benefits claimed for data warehouse projects are
+intangible. They can be characterised as benefits to the
+performance of the enterprise as a whole, and as such are nearly
+impossible to measure. However, the following assertions can be
+made and defended without too much trouble:
+
+* IT is an integral part of success in most enterprises today.
+* If an enterprise improves its performance, improved decision-
+making based on good information was probably a contributing
+factor.
+* A data warehouse will provide better access to good
+information.
+
+Given each of these assertions, it is clear that improved
+financial performance after the implementation of a data
+warehouse can be at least partly attributed to the presence and
+use of the warehouse to support the better decisions that led to
+that improved performance. But how much?
+
+No doubt, line management will dispute any claims of 100% of the
+improvement being attributed to the data warehouse; after all, it
+was the managers' decisions, not the presence of the data that
+improved the business performance. Yet the assertions showed that
+it must be some amount. How much? It is right to claim 5% of the
+improvement as a benefit of the data warehouse? Or 50%? How can
+it be estimated?
+
+This is an important issue which will usually overshadow all of
+the tangible benefits combined. In many cases, intangible as it
+may be, benefits of this type are the reason the project was
+begun in the first place.
+
+Although it may not be possible to quantify them, it is still
+important to be aware of several distinct categories of
+intangible benefits that may apply to a particular data warehouse
+project. (Two alternate methodologies for dealing with their
+economic impact will be presented and discussed next month.)
+
+                       REVENUE ENHANCEMENT
+
+Data warehouses can contribute appreciably to the overall
+financial performance of an enterprise. Many recent publications
+have extolled the virtues of data warehouses in terms of
+supporting improved decision-making, more efficient purchasing,
+tighter inventory control, better targeted marketing, etc.
+
+It is important to understand the project goals before starting
+the project, so that project decision-makers can consider the
+economic impact of the project proposal in the correct
+perspective.
+
+                    IMPROVED CUSTOMER SERVICE
+
+Access to a data warehouse can greatly improve customer service,
+allowing employees to quickly check all of the company
+information regarding a customer during the course of a single
+contact, either face-to-face or over the telephone. This may
+include previous orders, catalogue mailings, prior payment
+history, account balances, outstanding loans, household
+characteristics, demographic information, and many other
+industry-specific data elements.
+
+                IMPROVED PRODUCT/SERVICE QUALITY
+
+In the manufacturing sector, product quality has taken on much
+increased importance in the past two decades. Implementation of
+quality information systems has produced enormous databases,
+particularly in the computer-integrated manufacturing (CIM)
+environment.
+
+These databases are usually closely integrated with (and tuned
+for) their data collection systems. Data warehouses can create a
+viable access method for processing and statistically analysing
+this data, without adversely impacting production line system
+performance. The economic impacts of providing manufacturing
+personnel with timely access to this data can have profound
+impact on overall product quality.
+
+                      COMPETITIVE ADVANTAGE
+
+Within each industry, there are specific characteristics that
+provide companies with a competitive advantage over their
+competitors. Data warehouse projects are not generic. They can
+and should be targeted to provide functionality specific to a
+particular company's needs.
+
+Whether this is managing product inventory in manufacturing
+plants, providing a rapid response to customer orders, developing
+superior retail store layouts, or a host of other
+differentiators, the results of effective utilisation of the data
+warehouse may lead to spectacular business success.
+
+                ENHANCED TECHNOLOGICAL REPUTATION
+
+Some companies will be very interested in how a project or series
+of projects affects the price of their stock. A high stock price
+is particularly valuable to a company that is considering
+acquisitions, especially if the purchase is to be acquired for
+stock, rather than for cash.
+
+Stock prices may reflect a high price/earnings (PE) ratio when a
+company is considered to have a technology infrastructure that
+exceeds those in the rest of its industry sector. This higher PE
+is justified by the other intangibles mentioned earlier.
+
+                        A QUALIFIED RISK?
+
+The subject of risk is one which has been largely ignored in
+planning IT projects in general. Because of their nature and the
+immaturity of the concept, data warehouse projects are
+considerably riskier than most 'conventional' IT projects.
+
+The risks inherent in a data warehouse project can be categorised
+into factor risk and lifecycle risk.
+
+Factor risk is the risk associated with each of the cost and
+benefit categories defined earlier. Costs may be greater than
+estimated or less than estimated, as a result of either an
+imperfect understanding of the problem or environmental changes
+(e.g. price-performance improvements, vender pricing behaviour,
+etc). Within reasonable limits, the individual factors are fairly
+independent of each other, although taken to extremes it is
+unlikely that massive cost overruns will result in greater than
+expected benefits, or vice versa.
+
+Lifecycle risks can be categorised into technical risk (e.g.
+technological, cost and project management uncertainties),
+management risk (e.g. staffing and budgeting) and client risk
+(e.g. client goals, funding and support).
+
+Put bluntly, technical risk is the risk that the project will be
+never be completed. Management risk is the risk that the budget
+or staff will be cut and the new system cannot be supported in
+the new environment. Client risk is the risk that the product
+works well, but the clients' business goals change so much that
+the system is obsolete before its lifecycle is completed. As we
+will see next month, each of these types of risk affects the
+project as a whole - as well as the individual cost and benefit
+factors. *
+
+Table 1. Checklist of costs to consider in planning a data
+warehouse project (Source: DM Witte & Associates, Plano Texas -
+214 964 7602).
+
+Computer hardware (CPU, disk, memory, end-user workstations,etc)
+                                           * Purchase
+                                           * Lease
+                                           * Installation
+                                           * Upgrade
+                                           * Maintenance
+Network and telecommunications
+                                           * Hardware purchase
+                                           * Hardware lease
+                                           * Line costs
+                                           * Maintenance
+Vendor software
+                                           * Evaluation
+                                           * Licensing
+                                           * Installation/Integration
+                                           * Customisation/Adaptation
+                                           * Upgrade
+                                           * Maintenance
+Internal software development
+                                           * Conversion of old system
+                                           * Developer training
+                                           * Development
+                                           * Implementation/Integration
+                                           * Upgrade
+                                           * Maintenance
+Access to data
+                                           * Integration
+                                           * Integrity
+                                           * New information sources
+                                           * Database administration
+Ongoing support
+                                           * End-user training
+                                           * Helpdesk services
+
+Table 2. Checklist of hard and soft benefits to consider in
+planning a data warehouse project (Source DM Witte & Associates).
+
+Tangible benefits                Intangible benefits
+* Personnel reduction            * Revenue enhancement
+* Cost avoidance                 * Improved customer service
+* End-user productivity          * Improved product/service quality
+                                 * Better competitive advantage
+                                 * Enhanced technological reputation
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+COMPUTER FINANCE via NewsNet
+January 01, 1996
+
+                         NEWS ANALYSIS
+
+           SHIFT TO SINGLE EURO CURRENCY TO STRETCH IT
+
+Emergence of the 'euro' and the subsequent shift to a single
+European currency could cost larger UK banks up to #40 million in
+development costs, a new discussion paper released by Hoskyns has
+proposed.
+
+A typical bank has dozens of separate systems in operation and
+the move to EMU will require a rewrite or enhancement decision
+for every system in a bank's portfolio, the report warns, adding
+that the necessary changes could severely stretch already
+depleted financial sector IT staff resources.
+
+After the cuts of recent years, there is little spare capacity,
+concludes the report on European Monetary Union: Some IT Supply
+Side Issues.
+
+UK banks are formidable employers of IT staff, spending an
+estimated #1,850 million a year on internal staff costs.
+
+The costs of the changes provoked by EMU is likely to add another
+#124 a year for three years.
+
+'Banks do not staff for peaks, a one-off effort of the sort
+represented by EMU will be met largely by external resources',
+Hoskyns contends in its analysis.
+
+Whether the UK services industry could cope with the demand is
+another matter, however.
+
+The likely timetable for EMU gives a broad indication of
+sequencing of software changes.
+
+Wholesale banking and payments systems will need to be EMU-
+capable before retail-oriented systems.
+
+As the retail systems will involve the greatest change, effort is
+likely to be concentrated towards the end of the EMU process
+rather than spread evenly across three years.
+
+If 70% of the total effort fell in the final year of a three-year
+migration, that would represent almost 40% of the banking
+industry's current expenditure on external IT resources.
+
+An uplift of this scale would probably exceed supply-side
+capabilities.
+
+           TELEWORKER ECONOMIES FAIL TO ATTRACT FIRMS
+
+Just one in 20 UK firms are said to employ staff that
+'telecommute', or work remotely at home using modems and Internet
+gateways to link into corporate databases, networks and
+electronic messaging systems.
+
+Despite reported cost savings and supposed productivity
+improvements, the much expected breakthrough with teleworking is
+surprisingly long overdue.
+
+A study carried out by researchers at Warwick University for the
+Economic and Social Research Council came to the conclusion that
+the average saving being made by corporates who use teleworkers
+runs at between #1,500 and #3,000 a year.
+
+This is about the same as the initial cost of #3,500 or so needed
+to set up each teleworker with all the necessary facilities. So
+after the first year, the arrangement would start to offer a
+return - namely reduced office costs.
+
+On productivity, the suggestion has been made that teleworkers
+work better and are more reliable than office-based staff. They
+also save an average of 480 hours a year commuting.
+
+              A NEW LEASE OF LIFE FOR THE DESKTOP?
+
+Dubbed 'an IT finance scheme with built-in flexibility', Life
+Cycle from the #264 million leasing and support group of P&P is a
+new lease scheme aimed at arresting the escalating expense of
+desktop assets.
+
+The company maintains there is a desperate need for more flexible
+approaches to computer leasing. Leasing frees capital but can
+prove too restrictive where technology is changing fast, it says.
+What is missing is the flexibility to upgrade desktop equipment
+without having to budget for a large capital outlay. Its new
+lease scheme offers flexibility on two counts, P&P claims.
+
+Where there is a need to preserve capital expenditure, Life Cycle
+can be scheduled to operate as an operating lease, with residual
+investment so that payments are met from expenditure budgets.
+
+Alternatively, where there is a budget shortfall, it can be
+structured as a step-lease to preserve cash flow during the
+initial months of a contract term. There is also a built-in
+upgrade path to provide flexibility in the acquisition or new
+systems or the upgrade of existing assets - there is, however, a
+need to agree swap-outs in advance.
+
+Additionally, there is an option for built-in support, so
+allowing some of the on-going variable costs of installation,
+maintenance, software distribution or training to be converted to
+a fixed overhead.
+
+Equally, P&P says certain asset control routines can be included
+into the scheme, such as the production of desktop inventory
+reports.
+
+            LACK OF CONFIDENCE REVEALED IN COST DATA
+
+A poll of US executives has shown as many as 26% do not have
+confidence in the accuracy of the cost data in their systems.
+
+According to the survey by Lawson, the financial software house,
+the quality of financial information is poor because there is too
+much reliance on systems that are based on ledger-based
+accounting methods.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

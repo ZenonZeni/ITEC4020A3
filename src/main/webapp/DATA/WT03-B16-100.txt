@@ -1,0 +1,107 @@
+
+<DOC>
+<DOCNO>WT03-B16-100</DOCNO>
+<DOCOLDNO>IA072-000459-B012-285</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/sar/sar.html 137.132.32.55 19970121023443 text/html 4504
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 12:59:27 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 19-Apr-96 11:46:45 GMT
+Content-length: 4323
+</DOCHDR>
+<html><head><title>Synthetic Aperture Radar Remote Sensing</title>
+<BODY>
+
+<h2>Synthetic Aperture Radar</h2><p>
+
+<h4>What is SAR?</h4>
+Synthetic Aperture Radar.   An active microwave instrument, producing
+high-resolution imagery of the Earth's surface in all weather.<p>
+
+There is a good introduction to imaging radar by Tony Freeman of JPL at
+<a href=http://southport.jpl.nasa.gov/desc/imagingradarv3.html>
+http://southport.jpl.nasa.gov/desc/imagingradarv3.html</a><p>
+
+<a name=SAR-SATS><h4>What are the main SAR platforms?</h4></a>
+Several past, present and future Earth Observation Satellites.   Also
+the Shuttle Imaging Radar missions.   See the table
+for a full list.
+<ul>
+<li> ERS-1/ERS-2
+<li> JERS-1
+<li> Shuttle Imaging Radar SIR-C/X-SAR
+<li> Almaz
+<li> RADARSAT
+</ul>
+the future...
+<ul>
+<li> ENVISAT
+</ul>
+<a name=SAR-OPT><h4>What distinguishes SAR from hi-res optical imagery?</h4></a>
+Two main properties distinguish SAR from optical imagery:
+<ul>
+<li>The SAR is an active instrument.   That is to say, it generates its own
+illumination of the scene to be viewed, in the manner of a camera with flash.
+The satellite's illumination is coherent: i.e. all the light in any flash is
+exactly in phase, in the manner of a laser, so it does not simply disperse
+over the distance between the satellite and the Earth's surface.
+A SAR instrument can measure both intensity and phase of the reflected
+light, resulting not only in a high sensitivity to texture,
+but also in some three-dimensional capabilities.   Experiments with the
+technique of <i>Interferometry</i> (measuring phase differences in
+exactly aligned images of the same ground area) have shown that SAR
+can accurately model relief, and appears able also to detect small
+changes over time.  A paper describing the technique and experiments is
+available at <a href=http://gds.esrin.esa.it/A0x0000001c>
+http://gds.esrin.esa.it/A0x0000001c</a>.<p>
+Some consequences of being an active instrument (and using coherent light) are:
+<ul>
+<li>Works equally day or night
+<li>Polarised - can be used to gain additional information (esp. when
+different polarisations are available on the same platform - as on
+the most recent Shuttle missions).
+<li>Needs a lot more power than passive sensors, and can therefore only
+operate intermittently.
+<li>Suffers from speckle, an artifact of interference patterns in coherent
+light, sensitive to texture.
+</ul><p>
+<li>SAR is <i>Radar</i> - i.e. it uses microwave frequency radiation.
+<i>(note that in consequence, references to "light" above should
+more strictly read "microwave radiation").</i>
+Microwave radiation penetrates cloud and haze, so SAR views the Earth's
+surface (land and sea) in all weather.   For general purpose Remote Sensing,
+this is probably <i>the</i> major advantage of SAR.<p>
+An example of its use is the ESA/Eurimage "Earthwatch" programme, producing
+imagery of natural and other disasters when weather conditions prevent other
+forms of surveillence.   Earthwatch imagery is available at 
+<a href=http://gds.esrin.esa.it/CSacquisitions>
+http://gds.esrin.esa.it/CSacquisitions</a>
+
+</ul>
+<a name=SAR-USES><h4>What are SAR images good for ?</h4></a>
+<i>this wants a better entry - else I'll just point to a bibliography
+on the Net</i>
+<ul>
+<li>Sensitive to texture: good for vegetation studies.
+<li>Ocean waves, winds, currents.
+<li>Seismic Activity
+<li>Moisture content
+</ul>
+<a name=SAR-COLOUR><h4>What is the meaning of colour in a SAR image?</h4></a>
+Of course, all SAR image colour is false colour: the notion of true colour
+is meaningless in the context of invisible microvawe radiation.<p>
+Most SAR images are monochrome.   However, multiple images of the same scene
+taken at different times may be superimposed, to generate false-colour
+multitemporal images.   Colour in these images signifies changes in the scene,
+which may arise due to a whole host of factors, such as moisture content or
+crop growth on land, or wind and wave conditions at sea.   SAR is
+particularly well-suited to this technique, due to the absence of cloud cover.
+<p>The shuttle SAR's images are the nearest to 'natural' colour, in the sense
+that they are viewing three different wavelengths, which can be mapped to
+RGB for pseudo-naturalistic display purposes (essentially the same as false
+colour in optical/IR imagery).<p>
+
+</DOC>

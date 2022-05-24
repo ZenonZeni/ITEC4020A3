@@ -1,0 +1,276 @@
+
+<DOC>
+<DOCNO>WT03-B15-352</DOCNO>
+<DOCOLDNO>IA074-000483-B007-45</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icsur002.html 128.125.48.102 19970125003828 text/html 16202
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:37:01 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 15970
+Last-Modified: Mon, 13 Jan 1997 17:12:52 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Quick Beginnings</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSURMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 20 Dec 1996 at 16:44:30                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Fri, 20 Dec 1996 16:44:14">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<P>
+<H1><A NAME="Header_1" HREF="icsurmst.html#ToC_1">Welcome&#33;</A></H1>
+<P>
+This book describes the IBM Internet Connection Secure Server for OS/2 Warp.
+<UL>
+<P><LI>Part 1 gives a brief overview of the IBM software servers and
+a more extensive overview of the Internet Connection Secure Server.
+<P><LI>Part 2 provides planning and installing information for your server.
+<P><LI>Part 3 provides information on using your server.
+</UL>
+<HR>
+<H2><A NAME="HDRROADMAP" HREF="icsurmst.html#ToC_2">Information road map</A></H2>
+<BR>
+<P><B><A NAME="Table_1">Table 1. Information road map</A></B><BR>
+<PRE><TT>
+                                                                               
+  If you want to...                      Refer to...                           
+                                                                               
+  Learn about the server                 the appropriate section               
+                                                                               
+  Plan for the server                    the appropriate section               
+                                                                               
+  Install the server without a           the appropriate section               
+  response file from a CD-ROM or a                                             
+  remote code server                                                           
+                                                                               
+  Automatically install the server       the appropriate section               
+  using a response file                                                        
+                                                                               
+  Install the server using SystemView    the appropriate section               
+                                                                               
+  Start using the server                 the appropriate section               
+                                                                               
+  Use built-in HTML forms to configure   <CITE>Webmaster's Guide</CITE>                     
+  the server                                                                   
+                                                                               
+  Use the configuration file to          <CITE>Webmaster's Guide</CITE>                     
+  configure the server                                                         
+                                                                               
+  Configure a proxy server               <CITE>Webmaster's Guide</CITE>                     
+                                                                               
+  Change the directives in the           <CITE>Webmaster's Guide</CITE>                     
+  configuration file                                                           
+                                                                               
+  Use the server commands                <CITE>Webmaster's Guide</CITE>                     
+                                                                               
+  View online documentation              the appropriate section               
+                                                                               
+  Print or order copies of the           the appropriate section               
+  documentation                                                                
+                                                                               
+  Protect your server from unwanted      <CITE>Webmaster's Guide</CITE>                     
+  access                                                                       
+                                                                               
+  Use SSL V3 functions to make your      <CITE>Webmaster's Guide</CITE>                     
+  communications secure                                                        
+                                                                               
+  Write programs that can interface      <CITE>Web Programming Guide</CITE>                 
+  with the server                                                              
+                                                                               
+  Use server-side includes to imbed      <CITE>Webmaster's Guide</CITE>                     
+  information in HTML files                                                    
+                                                                               
+  Use multiple IP addresses or virtual   <CITE>Webmaster's Guide</CITE>                     
+  hosts to manage your server                                                  
+                                                                               
+  Customize your error messages          <CITE>Webmaster's Guide</CITE>                     
+                                                                               
+  Review style guidelines and tips for   http://www.ics.raleigh.ibm.com/       
+  creating Web information                                                     
+                                                                               
+  Create HTML documents                  http://www.ics.raleigh.ibm.com/       
+                                                                               
+</TT></PRE><P>
+<HR>
+<H2><A NAME="HDRNEW42" HREF="icsurmst.html#ToC_3">What's new in Version 4.2</A></H2>
+<P>
+Enhancements for this version include
+additional function and programming language support, as well as
+performance improvements.
+<DL>
+<P><DT><B>Enhanced scalability using OS/390 workload management facility
+</B><DD>This support allows the Internet Connection Secure Server to establish policies to
+manage application workload.
+Workload management modifies the server environment to achieve
+the best overall results.
+Increased server throughput is achieved by using the workload
+management facility to spread the total server workloads among
+several multi-threaded server processes, minimizing cross-thread
+serialization and removing the hard ceiling on the total number
+of threads that can be started by the server.
+<P><DT><B>Customized response based on requesting browser
+</B><DD>Your server can now automatically
+detect the type of browser making a request and
+return Web information that is
+appropriately formatted for the particular browser.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Counter and date/time image support for Web pages
+</B><DD>You can enhance your Web pages with
+a user-access counter and the date and time as graphical images.
+See the section on customizing your Web site in the
+<CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Enhancements to logging and generating reports on server activity
+</B><DD>This version offers
+a new Java Graphical User Interface (GUI).
+You can log and analyze activity on your server
+based on URLs, host names, methods, or return codes.  You can generate
+tailored reports based on associations such as URL hits by host, host
+hits by URL, return codes by URL, and methods by URL.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>HTTP Version 1.1 compliance
+</B><DD>Support for HTTP now includes HTTP 1.1 compliance, which
+provides for persistent connections and virtual hosts.
+Persistent connections allow the server to accept multiple requests
+and to send responses over the same TCP/IP connection.  Virtual
+hosts allow one IP address to serve multiple files instead
+of requiring different IP addresses for different files.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Expanded Common Gateway Interface (CGI) support
+</B><DD>CGI support now includes the Java programming language
+in addition to the other languages already supported,
+such as C, REXX, and Perl.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Year 2000 support
+</B><DD>The Internet Connection Secure Server makes the transition into the 21st century a smooth
+conversion with reliable support for the year 2000 and beyond.
+<P><DT><B>Performance improvements
+</B><DD>Dramatic improvements in single and multiple processor
+environments coupled with significant CPU requirement reductions
+provide higher throughput and shorter response time.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Web site content rating support
+</B><DD>Based on the Platform for Internet Content Selection (PICS),
+you can use an independent rating service to rate the content of
+documents served through your Web site, or you can act as a rating
+service for your own or other Web sites.
+Users who request the ratings can then
+evaluate the Web pages for acceptable content before viewing them.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Client authentication and other enhancements to SSL support
+</B><DD>The vast majority of users are choosing the Secure Sockets Layer
+(SSL) protocol for their secure transactions instead of S-HTTP, so
+SSL is where we're putting our efforts as well.  We've removed S-HTTP
+support in this and future versions of the Internet Connection Secure Server, and we will continue
+to enhance our support of SSL.  Our support of SSL V3 now includes
+client authentication, which is a security enhancement that
+allows the server to verify, with a high degree of
+confidence, that any client is who it says it is.  Our support of
+SSL V3 also includes server authentication, data encryption, and
+additional Message Digest Hashing algorithms.
+See the <CITE>Webmaster's Guide</CITE> for details.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>SOCKS support and SSL tunneling
+</B><DD>Clients can now connect directly to a SOCKS server, instead of
+using an interim server, which lowers response time.  SSL tunneling
+allows the server to act as a proxy server for secure transactions.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Online access to server performance and status information
+</B><DD>
+Through your browser,
+you can use the Server Activity Monitor to
+observe performance and status information about your server and
+the network.
+Access log entries are also displayed.
+See the section on managing your server in the
+<CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Internet Connection Application Program Interface (ICAPI) support
+</B><DD>Improvements include expanded diagnostic capability with additional
+trace capability and additional messages.  Users may use
+existing HTTP methods or tailor them to their needs.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Java servlet support
+</B><DD>Java 1.0 support provides Sun Microsystems, Inc., standards
+for servlets.  Servlets typically offer significant performance
+enhancements over CGI programs.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Proxy authentication
+</B><DD>You can set up password protection for your
+proxy server independently
+of the password protection at the destination server.
+See the <CITE>Webmaster's Guide</CITE> for details.
+<P><DT><B>Book title change
+</B><DD>Our <CITE>Up and Running</CITE> books of previous releases have
+been renamed <CITE>Quick Beginnings</CITE>.  The focus remains the
+same:  to provide the minimal, essential information for planning for,
+installing, and starting to use your server as quickly and easily
+as possible.
+<P><DT><B>Year 2000 support
+</B><DD>The Internet Connection Secure Server smooths the transition into
+the 21st century with reliable support for the year 2000 and beyond.
+</DL>
+<B>New configuration directives</B>:
+<A NAME="SPTNEWDIRS"><I>(Ref #1.)</I></A>
+<BR>
+<PRE><TT>
+                                                                               
+  &nbsp;
+            AddCharSet AddClient AgentLog     ReportDataExpire                 
+            CGIErrorLog CacheLocalMaxBytes    ReportDataCompressionProgram     
+            CacheLocalMaxFiles                ReportDataUnCompressionProgram   
+            DisInheritEnv                     ReportDataCompressionSuffix      
+            EnableJavaServletSupport          ReportDataSizeLimit              
+            LiveLocalCache                    ReportProcessOldLogs Servlet     
+            MaxActiveJavaThreads              ServletDir ServletLog            
+            MaxPersistRequest                 SNMPCommunityName SocksServer    
+            PersistTimeout PICSDBLookup       SSLClientAuth WebMasterEmail     
+            RefererLog ReportDataArchive                                       
+                                                                               
+</TT></PRE><P>
+<B>Deleted configuration directives and subdirectives</B>&#58;
+<A NAME="SPTDELDIRS"><I>(Ref #2.)</I></A>
+<BR>
+<PRE><TT>
+                                                                               
+  &nbsp;
+            CacheClean Crypt DeleteCrypt      MinActiveThreads PostCrypt       
+            DELETE-Script GetCrypt            POST-Script PutCrypt PUT-Script  
+            IdleThreadTimeout                 Search                           
+                                                                               
+</TT></PRE><P>
+<B>Changed configuration directives</B>&#58;
+<A NAME="SPTCHGDDIR"><I>(Ref #3.)</I></A>
+<BR>
+<PRE><TT>
+                                                                               
+  &nbsp;
+            DefProt Disable Enable Exec       NameTrans Pass Protect Redirect  
+            Fail Imbeds Map                   ServerInit ServerTerm Service    
+                                              Welcome                          
+                                                                               
+</TT></PRE><P>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icsurmst.html">Previous Page</A> &#124; <A HREF="icsur003.html">Next Page</A> &#124; <A HREF="icsurmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

@@ -1,0 +1,340 @@
+
+<DOC>
+<DOCNO>WT03-B16-78</DOCNO>
+<DOCOLDNO>IA072-000459-B013-290</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/abstract.html 137.132.32.55 19970121024231 text/html 17249
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 13:07:10 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Saturday, 06-Apr-96 15:27:50 GMT
+Content-length: 17065
+</DOCHDR>
+<HEAD>
+<TITLE>Abstracts</TITLE>
+</HEAD>
+<BODY>
+<a name="007">
+<p><h3>PRECISION FOCUSSING ALGORITHMS FOR SPACEBORNE SYNTHETIC APERTURE RADAR (SAR)</h3>
+Heng, A. W-C., Lim, H., Liew, S.C. and Tan, B.T.G. (1996),<br>  
+    <i>International Journal of Remote Sensing. (Accepted for publication)</i>
+
+<p>    The two-dimensional transfer function is derived from the synthetic 
+    radar(SAR) imaging model.  Using this expression, the approximations 
+    made in the classical range-Doppler and recent chirp-scaling algorithms
+    are examined.  An alternative algorithm to the chirp-scaling algorithm 
+    is presented.  Unlike the chirp-scaling algorithm, this algorithm does not
+    require the transmitted signal to be a linear FM signal and can be easily
+    incorporated into processors using the range-Doppler algorithm.  The 
+    processing starts with range compressed data rather than from the raw SAR
+    data.  Results from processing simulated point targets and the Seasat 
+    Goldstone area data show comparable image quality.
+<p><hr><p>
+
+<A NAME ="006">
+<H3>GEOCODING OF SPACEBORNE SAR IMAGERY</h3>
+Kwoh L.K. (1995),<br>
+<i>Proceedings of Seminar on the Integration of Remote Sensing and GIS for
+Applications in South East Asia, (27-29 March 95, K.L., Malaysia)</i>
+<p>
+In GIS applications, one often has to register remote sensing images
+to the map.  Standard GIS packages usually include polynomial warping
+functions to resample images to the map with some manually selected
+control points.  Although such warping methods can gives satisfactory
+results, they have the following drawbacks:<p>
+<ol>
+      <li>    large number of control points are required;
+      <li>    parameters are not related to any physical phenomena;
+      <li>    lack robustness to errors in control points;
+      <li>    not reliable when extrapolated.
+</ol>
+<p>In this paper, a geocoding algorithm for spaceborne SAR images based
+on a rigorous model of the imaging process is described.  The model is
+based on the following considerations:
+<ol>
+      <li>    SAR signal acquisition and processing geometry;
+      <li>    Spacecraft orbital geometry.
+</ol>
+<p>The imaging geometry of SAR is different from that of optical sensors
+in many ways.  Optical imaging process is governed by the renowned
+collinearity condition (similar to aerial photography).  For SAR
+imagery, each image line is formed by the backscatter of a radar pulse
+from ground features. While travelling along in the spacecraft, the SAR
+emits thousands of pulses per second, with each pulse contributing to
+one image line.  Ideally, the pulses are sent out in a direction
+perpendicular to the flight path of the spacecraft.  But small
+deviations (squint) exists and this squint gives rise to a shear in the
+SAR image.<p>
+
+For modelling of the spacecraft orbital geometry, an elliptical orbit
+that satisfies zeroth order Keppler's laws is used.  This orbit is
+defined by the following 6 elements:<p>
+
+<dd>            (<i> a, e, I, w, v, Om </i>)
+
+<p>which denote respectively the semi-major axis, eccentricity,
+inclination, perigee argument, anomaly and longitude of ascending node. 
+For an image which is captured over only a small arc of the orbit, it
+is more practical and more accurate to use the following modified set
+of orbital elements:<p>
+
+<dd>            (<i> p, I, W, Om, ex, ey </i>)
+<p>
+which denote respectively the distance from centre of the earth to
+spacecraft, inclination, spacecraft argument, longitude of ascending
+node, <i>e</i> cos(<i>w</i>), <i>e</i> sin(<i>w</i>).<p> 
+
+The combined model has between 8 to 12 parameters.  The parameters can
+usually be computed with reasonably high accuracy from the ephemeris
+information given in the imagery leader file (CEOS format).  Geocoding
+using only the ephemeris information can give relative accuracy of about 200 m. 
+Higher accuracy (less than 10m) can be achieved if the parameters are
+refined with known ground control points.
+
+<p><hr><p>
+
+<A NAME = "005">
+<h3>DETERMINATION OF FRACTAL DIMENSION OF LOCAL AREAS IN IMAGES</h3>
+</a>
+Lim H., Lai C.H. and Oh G.L. (1995),<br>
+<i>Submitted to Int. Geoscience and Remote Sensing Symposium, 1995</i>.
+<p>     
+Natural objects tends to have a fractal structure, and such fractal
+structure is often reflected in their images.  A main parameter that
+characterises a fractal object is the fractal dimension.  Estimated
+fractal dimension of local areas of an image has been shown to be
+effective for discriminating natural and man-made objects.  In the
+context of remote sensing image classification, fractal dimension may
+be considered a supplementary parameter for description of the local
+texture of the image.  Since natural terrain features are the main
+contents of remote sensing images, fractal models may be quite
+appropriate, and parameters such as fractal dimension may prove to be
+important.
+
+<p>
+Many methods are available for estimation of the fractal dimension of
+curves and surfaces, such as the box method, variation method, spectral
+method, multi-resolution analysis method, etc.  These methods have been
+derived from the alternative mathematical definitions of fractal
+dimension, but studies of the statistical characteristics of these
+methods (systematic error and standard deviation) have seldem been
+reported.  Furthermore, these methods often assume that a large number
+of pixels is available for the estimation of the fractal dimension. 
+In image analysis, where local fractal dimension is required, the
+fractal dimension may have to be estimated from windows of size 32x32,
+or even smaller.  It is not clear if the standard methods are able to
+provide a robust estimate of the local fractal dimension.
+
+<p>
+In this paper, a thorough investigation of the systematic errors and
+statistical variance of the estimators of fractal dimension is carried
+out.   Fractal curves and surfaces generated by the fractal Brownian
+motion method, the Weierstrass Mandelbrot Cosine functions, and the
+fractal interpolation method are used as test data sets.  Three
+estimators are compared: variational method, multi-resolution method
+based on Haar wavelet basis, and multi-resolution method based on
+Lemarie wavelet basis.  Based on the analysis of thousands of fractal
+curves and surfaces, the following conclusions are drawn:
+<ol>
+      <li>The fractal dimension estimated by the multi-resolution
+             method based on the Haar basis is superior to that by the
+             multi-resolution method based on the Lemarie basis.<p>
+
+      <li>Significant systematic errors are observed in all the
+             estimators, which ranges from about 0.1 for estimates with
+             2048 pixels to 0.3 for estimates with 64 pixels.<p>
+
+      <li>For curves, 2048 pixels are needed to reduce the standard
+             deviation of the estimate to 0.1.  With 128 pixels, the
+             standard deviation increases to 0.2.<p>
+
+      <li>The estimates by the variation method and the
+             multi-resolution method exhibit opposing trends in
+             systematic errors and statistical variances.<p>
+</ol>
+Based on conclusion (5) above, a new estimator for the fractal
+dimension is devised by combining the variation and multi-resolution
+methods. With this new estimator, the systematic error is reduced to
+below 0.02, and the standard deviation to below 0.1 with only 128
+pixels for fractal curves.  For images, a 32x32 window is adequate for
+estimation of the fractal dimension to an accuracy of 0.1.
+
+
+
+
+<p><hr><p>
+
+<A NAME = "004">
+<h3>TWO NEW PRACTICAL METHODS FOR PHASE UNWRAPPING</h3>
+</a>
+Lim H., Xu, W., and Huang X. (1995),<br>
+<i>Submitted to Int. Geoscience and Remote Sensing Symposium, 1995</i>.     
+<p>
+In phase unwrapping, an error made at a pixel has a tendency to spread
+and corrupt the phase values over large areas of an interferogram.  It
+is therefore important that a phase unwrapping algorithm be designed
+with a mechanism to stop itself from unwrapping across a pixel at which
+the phase cannot be determined with confidence.  Two new phase
+unwrapping methods incorporating this requirement and have been found
+to be capable of unwrapping reasonably noisy SAR interferograms are
+reported in this paper.
+
+<p>
+The first method is based on a simple prediction scheme and the second
+method is based on consideration of local geometry.  In both of these
+methods, the phase unwrapping process begins at a location where the
+phase pattern is relatively flat, thus enabling confident determination
+of the phase values of the local pixels.  Phase unwrapping then
+proceeds by estimating the phases of the pixels in the immediate
+neighbourhood, and in this manner gradually enlarge the region of
+unwrapped phase.
+
+<p>
+In the first method, the pixels of an interferogram are classified into
+four categories: unwrapped, growth, bad, unprocessed.  An unwrapped
+pixel is one whose phase has been determined.  The phase of an
+unwrapped pixel is fixed and will not be changed in subsequent
+processing.  A pixel adjacent to a newly unwrapped pixel, if not
+already unwrapped, will become a growth pixel.  A pixel at which an
+attempt at unwrapping fails will be marked a bad pixel.  A bad pixel
+will be revived as a growth pixel if any one of its eight neighbouring
+pixels is subsequently unwrapped.  All the remaining pixels in the
+interferogram are classified as unprocessed pixels.
+
+<p>
+At each growth pixel, an attempt to determine its phase is carried out
+as follows.  First a predicted phase for the growth pixel is computed
+based on the unwrapped pixels in its neighbourhood.  Along each of the
+eight directions (horizontal, vertical, and diagonal) radiating away
+from the growth pixel, the status of the first two neighbouring pixels
+is checked.  If only the immediate neighbouring pixel is an unwrapped
+pixel, the phase of this pixel contributes itself to the predicted
+phase at a half weight.  If both pixels are unwrapped pixels, the
+linearly extrapolated phase value contributes to the predicted phase
+at a full weight.  The standard deviation of the contributions about
+the predicted phase is also calculated.  If the standard deviation is
+larger than a specified criterion, implying inconsistency in the
+predictions from different directions, the attempt is aborted and the
+pixel is marked bad.  Otherwise, an unwrapped phase is calculated based
+on the predicted phase.  If the unwrapped phase deviates from the
+predicted phase by more than a specified criterion, the attempt is
+aborted and the pixel is marked bad.   If the attempt passes both of
+the above tests, the growth pixel is promoted to an unwrapped pixel,
+with its phase fixed at the computed unwrapped phase.  All the
+unprocessed or bad pixels adjacent to this newly unwrapped pixel are
+then marked as growth pixels and queued for processing.
+
+<p>
+In the second method, the basic assumption is that after proper
+unwrapping, the phase values of the pixels in a 3x3 window may be
+closely approximated locally by a plane.  Suppose all but one pixel in
+the window have been properly unwrapped,then we may find that by adding
+or subtracting 2 pi to the phase of that pixel, a better fitting plane
+can be found.  Based on this idea, and adopting the mean-square error
+as a measure of goodness of fit, expressions have been derived for
+unwrapping up to three pixels simultaneously, provided they all lie on
+one edge of the 3x3 window.  An algorithm for phase unwrapping has been
+developed in which the window is pushed in various directions across
+the boundary of an unwrapped region, thereby allowing the phases of the
+pixels on its forward edge to be determined.  For error control, it was
+found beneficial to push the window in a direction nearly normal to the
+gradient of the local plane, so that the rate of phase change will be
+minimised.  To prevent unwrapping across pixels of uncertain phase, a
+few parameters are monitored in the process:  mean-square error of the
+plane-fitting, the gradients and intercept of the fitted plane.  A
+large mean-square error, or sharp changes in the gradients or intercept
+of the fitted plane are all indicative of difficulty in unwrapping the
+phases along that particular direction.  
+
+<p><hr><p>
+<A NAME = "003">
+<h3>TEXTURE ANALYSIS OF SAR IMAGES</h3>
+</a>
+Liew S.C., Lim H, Tay G.K. and Kwoh L.K. (1995),<br>
+<i>Submitted to Int. Geoscience and Remote Sensing Symposium, 1995</i>.
+<p>
+It has been generally recognized that different techniques are required 
+for interpretation of SAR and optical images. Different physical 
+mechanisms are involved in their image formation process. SAR is a 
+coherent imaging process which introduces speckle noise. Unlike optical 
+images, SAR images usually have resolution comparable to the objects of 
+interest. Due to these limitations, it is not sufficient to interpret 
+SAR images based on the local values of grey levels alone. In this 
+paper, we attempt to use texture features in the interpretation of SAR 
+images. Several measures of texture features have been proposed in the 
+literature. Among them are the co-occurrence matrix, grey-level 
+difference statistics, texture energy measures and fractal 
+characteristics. The fractal characteristics are promising features for 
+texture classification since it has been known that many natural 
+surfaces are fractal in nature. It is thus possible to distinguish man-
+made objects from natural ones from their fractal signatures, and to 
+differentiate between different natural regions. The fractal dimension 
+is one of the most important parameters for characterising fractal 
+surfaces. There are several techniques for estimating the fractal 
+dimension of a given fractal surface. Two of the techniques, namely the 
+variation method and the multiresolution wavelet method, are used in our 
+work.
+
+<p><hr><p>
+
+<A NAME = "002">
+<h3>Phase-Unwrapping of SAR Interferogram wiht Multi-Frequency or Multi-Baseline</h3>
+</a>
+Xu,W., Chang E.C., Kwoh L.K., Lim H and Heng W.C.A.(1994)<br>
+<i>Proceed. Int. Geoscience and Remote Sensing Symposium, 1994</i>, pp 730-732.
+<p>
+Accurate determination of terrain height by SAR interferometry depends on
+reliable phase-unwrapping method.  The phase-unwrapping methods in common
+use are often based on teh assumption that the phase difference between
+neighbouring pixels is less than pi.  Such phase unwarpping methods cannot
+correctly process interferograms over steep terrain, especially in the
+presences of noise.
+<p>
+This paper proposes a phase unwrapping mehtod based on two or more sets of
+interferograms.  After removing an approximately linear term, the terrain
+height can be shown to be proportional to the unwrapped phase.  With the
+proportional constant being a function of the carrier frequency and the
+baseline.  Interferograms of the same area formed with different baselines
+will therefore have different proportional constants and show fringes of
+different intervals.  When the fringe intervals are simple rational ratio,
+it can be shown that by combining the two interferograms, we can effectively
+generate an interferogram with a fringe interval equal to the least common
+multiple of the two original fringe intervals.  This significant lengthening
+of the phase wrap interval practically resolves the phase wrap ambiguity and
+enable correct processing of steep terrain interferograms even in the
+presence of moderate noise.  In general, the fringe intervals are not in simple
+rational ratio, but a slight adaptation of the methods allows similar effect
+to be achieved.
+<p>
+Experiments with simulated data has yielded encouraging results.  With
+existing data, our experience showed that multiple baseline processing is
+feasible.  Our analysis also suggests the possibility of designing
+multiple frequency INSAR system with judicially chosen frequencies to
+provide reliable terrain height data.
+
+
+<p><hr><p>
+
+<A NAME = "001">
+<H3>DTM GENERATION FROM 35-DAY REPEAT PASS ERS-1 INTERFEROMETRY</h3>
+</a>
+Kwoh L.K., Chang E.C., Heng W.C.A. and Lim H.(1994)<br>
+<i>Proceed. Int. Geoscience and Remote Sensing Symposium, 1994</i>, pp 2288-2290.
+<p>
+This paper presents the authors' experience in DTM generation with
+ERS-1 data of the region around Canberra, Australia.  
+Single look complex (SLC) images were generated by both the
+traditional range-Doppler method and the chirp scaling method.
+The interferograms obtained showed large regions of severe `noise'
+due probably to the temporal decorrelation of the ERS-1 images
+which were taken 35 days apart.  The temporal decorrelation
+also affected the image registration process.  Amplitude correlation
+technique has been found to be more effective than the commonly used
+complex correlation and phase fluctuation techniques for registration
+of these images.  An adaptive algorithm that takes into
+consideration the terrain slope and the quality of interferometric phase 
+has been developed for smoothing the phase images.
+<p>
+</DOC>

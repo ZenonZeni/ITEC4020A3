@@ -1,0 +1,313 @@
+
+<DOC>
+<DOCNO>WT01-B16-197</DOCNO>
+<DOCOLDNO>IA043-000785-B004-343</DOCOLDNO>
+<DOCHDR>
+http://www.alternativemedicine.com:80/alternativemedicine/subscription.shtml 206.12.188.18 19970305061448 text/html 9191
+HTTP/1.0 200 OK
+Date: Wed, 05 Mar 1997 06:12:26 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>Alternative Medicine - Subscription Information</title>
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#c80000" vlink="#c80000" alink="#ffffff" leftmargin="0" topmargin="0">
+
+<a name="top"></a>
+
+<center>
+ <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ee0000">
+  <tr valign="middle">
+   <td align="left" bgcolor="#ee0000"><a href="/alternativemedicine/"><img src="/alternativemedicine/images/navbar_home.gif" width="63" height="20" border="0" alt="[home]"></a><a href="/alternativemedicine/digest/"><img src="/alternativemedicine/images/navbar_interactiveindex.gif" width="135" height="20" border="0" alt="[interactive index]"></a><a href="/alternativemedicine/books.shtml"><img src="/alternativemedicine/images/navbar_books.gif" width="69" height="20" border="0" alt="[books]"></a><a href="/alternativemedicine/subscription.shtml"><img src="/alternativemedicine/images/navbar_subscriptions.gif" width="119" height="20" border="0" alt="[subscriptions]"></a><a href="/alternativemedicine/discussionarea/"><img src="/alternativemedicine/images/navbar_discussion.gif" width="133" height="20" border="0" alt="[discussion area]"></a> <a href="/alternativemedicine/healthcenter/index.shtml"><img src="/alternativemedicine/images/navbar_healthcenter.gif" width="111" height="20" alt="[HealthCenter]" border=0></a></td>
+   <td align="left" bgcolor="#ee0000" width="58"><a href="/alternativemedicine/information.shtml"><img src="/alternativemedicine/images/navbar_help.gif" width="50" height="20" border="0" alt="[help]"></a></td>
+  </tr>
+ </table>
+</center>
+
+<table width="100%">
+ <tr>
+  <td align="left" valign="top">
+   <img src="/alternativemedicine/images/altmed_subscriptions.gif" width="450" height="125" border="0" alt="Alternative Medicine Subscriptions">
+  </td>
+
+  <td align="right" valign="top" width="40%">
+   <font size="2" face="Arial">
+    <b>Alternative Medicine<br>
+       <font color="#ff0000">Special Offer for Internet Users!</font></b>
+   </font>
+  </td>
+ </tr>
+</table>
+
+<p>
+
+<center>
+
+<form action="/alternativemedicine/cgi-bin/alt_mail" method="post">
+<input type="hidden" name="recipient" value="subscriptions@alternativemedicine.com">
+
+<table width="100%" cellpadding="3">
+ <tr valign="top">
+  <td width="65%" align="left">
+
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#000000"><tr><td align="center">
+<table width="100%" cellpadding="6" cellspacing="0">
+ <tr>
+  <td align="center" bgcolor="#000000" colspan="2">
+    <b><font size="5" color="#ffffff" face="Arial">S</font><font face="Arial" color="#ffffff">PECIAL <font size="+1" color="#ffffff" face="Arial">O</font>FFER</font></b><br>
+    <b><font face="Arial" color="#ffffff">for Internet Users</font></b>
+  </td>
+ </tr>
+
+ <tr bgcolor="#e1a4a5">
+  <td colspan="2" align="center">
+   <font face="Arial" size="3"><b>
+    Yes! Sign me up to the Special Trial Subscription of Alternative Medicine Digest!
+   </b></font>
+   &nbsp;
+   <input type="checkbox" name="subscribe" checked>
+   <br>
+   <font face="Arial" size="-2">
+    <b>*</b> See side panel for details
+   </font>
+  </td>
+ </tr>  
+ 
+ <tr bgcolor="#f0ebe8">
+  <td width="50%" align="right">
+   <font face="Arial" size="-1"><b>
+    Name
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="name">
+  </td>
+ </tr>
+
+ <tr bgcolor="#efdbd8">
+  <td align="right">
+   <font face="Arial" size="-1"><b>
+    Address
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="address">
+  </td>
+ </tr>
+
+ <tr bgcolor="#f0ebe8">
+  <td align="right">
+   <font face="Arial" size="-1"><b>
+    City
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="city">
+  </td>
+ </tr>
+
+ <tr bgcolor="#efdbd8">
+  <td align="right">
+   <font face="Arial" size="-1"><b>
+    State/Province
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="state-prov">
+  </td>
+ </tr>
+
+ <tr bgcolor="#f0ebe8">
+  <td align="right">
+   <font face="Arial" size="-1"><b>
+    ZIP/Postal Code
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="zip-postal" maxlength="7">
+  </td>
+ </tr>
+
+ <tr bgcolor="#efdbd8">
+  <td align="right">
+   <font face="Arial" size="-1"><b>
+    Country
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="country">
+  </td>
+ </tr>
+
+ <tr bgcolor="#f0ebe8">
+  <td align="right">
+   <font face="Arial" size="-1"><b>
+    Phone Number
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="phone">
+  </td>
+ </tr>
+
+ <tr bgcolor="#efdbd8">
+  <td align="right">
+   <font face="Arial" size="-1"><b>
+    Fax Number
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="fax">
+  </td>
+ </tr>
+
+ <tr bgcolor="#f0ebe8">
+  <td align="right">
+   <font face="Arial" size="-1"><b>
+    Email Address
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="email">
+  </td>
+ </tr>
+
+ <tr bgcolor="#efdbd8">
+  <td align="right">
+   <font face="Arial" size="-1"><b>
+    How did you find this website?
+   </b></font>
+  </td>
+
+  <td>
+   <input type="text" size="20" name="find">
+  </td>
+ </tr>
+
+
+ <tr bgcolor="#f0ebe8">
+  <td colspan="2">
+   <img src="images/definitive_guide.gif" width="50" height="50" border="0" alt="Definitive Guide" align="left">
+   <font face="Arial" size="3">
+   <b>SPECIAL OFFER FOR NEW SUBSCRIBERS!</b><br>With your new subcription, get a copy of the 1100-page "bible" of alternative medicine, <font color="#990000">Alternative Medicine: The Definitive Guide</font>, for only US$40.00. A regular $59.95 value, the <font color="#880000">Guide</font> is yours for $19.95 off the cover price as a new paid subscriber.
+   </b></font>
+  </td>
+ </tr>
+
+ <tr bgcolor="#efdbd8">
+  <td align="center" colspan="2">
+   <font face="Arial" size="-1"><b>
+    <input type="checkbox" name="guideoffer" checked>
+    In addition to my trial subscription, please send me information on <font color="#dd0000">Alternative Medicine: The Definitive Guide</font> Special Offer!
+   </b></font>
+  </td>
+ </tr>
+
+ <tr bgcolor="#e1a4a5">
+  <td colspan="2" align="center">
+   <input type="image" src="images/subscribe.gif" width="143" height="45" border="0" alt="subscribe">
+  </td>
+ </tr>  
+
+</table>
+</td></tr></table>
+
+  </td>
+
+  <td valign="top" align="center">
+
+   <font face="Arial" size="+2"><b>
+    SUBSCRIBE
+    <br>
+    TODAY
+   </font>
+
+   <br>
+
+   <font face="Arial" size="+1">
+    to the most exciting
+    <br>
+    health magazine
+    <br>
+    of the 1990s.
+   </b></font>
+
+   <p>
+
+   <b>6 Issues/1 Year for US$20</b><br>
+   ($38 in Canada / $36 Foreign)<br>
+   <b>12 Issues/2 Years for US$35</b><br>
+   ($51 in Canada / $69 Foreign)<br>
+
+   <p>
+
+   <font face="Arial" color="#ee0000"><b>
+    * We are so confident you will benefit from the <font color="#880000">Alternative
+    Medicine Digest</font>, we are offering a special: subscribe now to receive your
+    first issue of <font color="#880000">Alternative Medicine</font>. If you are not completely satisfied, simply
+    write "CANCEL" on the bill when it arrives and return it. You will then get to keep
+    the first issue at no cost. We hope, however, that you recognize the value
+    of our summary of what's new and effective in alternative medicine. From your
+    home library, you can share these publications with your family and friends.
+   </b></font>
+
+   <p>
+
+   <font face="Arial" size="-1">
+    Call for more information:
+   </font>
+
+   <img src="images/1800numbers.gif" width="215" height="75" border="0" alt="US: 1-800-403-8877 / CAN: 1-888-289-7022">
+
+   <p>
+
+   <font size="-1"><sup>**</sup> All prices are in US dollars unless otherwise noted.</font>
+
+   <p>
+
+   <font size="-1"><sup>*</sup> We are sorry but, due to variable shipping costs, the subscription trial offer for the <i>Digest</i> and the discount on the <i>Definitive Guide</i> are only available in the United States and Canada. If you live outside these areas, please send us an email message or phone us toll free for rates and contacts to make your purchase as easy as possible. Thank you for your interest.</font>
+
+  </td>
+ </tr>
+</table>
+
+</form>
+
+<p>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr bgcolor="#ee0000">
+    <td align="left" valign="middle"><a href="/alternativemedicine/disclaimer.shtml"><img src="/alternativemedicine/images/navbar_disclaimer.gif" width="95" height="20" border="0" alt="Disclaimer"></a></td>
+
+    <td>
+     <center>
+      <font color="#FFFFFF" face="arial" size="1">
+       Alternative Medicine Online &copy; 1996 by <b>Future Medicine Publishing</b>.<br>
+       <!-- Web site design and hosting by <b>dotcom marketing corp.</b> (http://www.hdmdigital.com/) -->
+      </font>
+     </center>
+    </td>
+
+    <td align="right" valign="middle"><a href="mailto:info@alternativemedicine.com"><img src="/alternativemedicine/images/navbar_queries.gif" width=76 height=20 border=0 alt="Queries"></a></td>
+
+    <td align="right" valign="middle">
+     <a href="#top"><img src="/alternativemedicine/images/top.gif" width="20" height="20" border="0" alt="top"></a>
+    </td>
+   </tr>
+  </table>
+
+
+</body>
+</html>
+</DOC>

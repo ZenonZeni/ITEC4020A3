@@ -1,0 +1,91 @@
+
+<DOC>
+<DOCNO>WT03-B15-194</DOCNO>
+<DOCOLDNO>IA023-000254-B046-180</DOCOLDNO>
+<DOCHDR>
+http://206.216.148.51:80/wwwboard/messages/32.html 206.216.148.51 19970108130524 text/html 4301
+HTTP/1.0 200 OK
+Date: Wed, 08 Jan 1997 13:02:10 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 4130
+Last-modified: Wed, 11 Dec 1996 19:54:35 GMT
+</DOCHDR>
+<html>
+  <head>
+    <title>Re: Stewart Platform</title>
+  </head>
+  <body>
+    <center>
+      <h1>Re: Stewart Platform</h1>
+    </center>
+<hr size=7 width=75%>
+<center>[ <a href="#followups">Follow Ups</a> ] [ <a href="#postfp">Post Followup</a> ] [ <a href="http://www.rosl.com/wwwboard/wwwboard.html">Workspace User Group</a> ] [ <a href="http://www.rosl.com/wwwboard/faq.html">FAQ</a> ]</center>
+<hr size=7 width=75%><p>
+Posted by <a href="mailto:phil@rosl.demon.co.uk">Phil Watson</a> on June 13, 1996 at 08:54:00:<p>
+In Reply to: <a href="29.html">Stewart Platform</a> posted by Tony Vidler on June 08, 1996 at 18:01:23:<p>
+: One of our contacts has posed the question as to<br>: whether it is possible to create and simulate a Stewart<br>: Platform using Workspace.<p>Workspace can be used to simulate both serial and<br>tree type mechanisms. They are defined by modelling<br>the joints that make up the mechanism.<p>Each joint can be either rotational or translational,<br>each joint is defined between its parent object and <br>its child object, and its motion is governed by <br>user defined equations. These equations consist of <br>any number of temporary variable definitions and <br>a final definition line. This structure allow <br>complex equations to be modelled easily.<p>This method of mechanism modelling allows Workspace to simulate<br>any mechanism type including the Stewart Platform and the Neos <br>Tricept robot.<p><br>The <p><br>
+<br>
+<br><hr size=7 width=75%><p>
+<a name="followups">Follow Ups:</a><br>
+<ul><!--insert: 32-->
+<!--top: 90--><li><a href="90.html">Re: Stewart Platform</a> <b>Aldous Huxley</b> <i>11:54:34 12/11/96</i>
+(<!--responses: 90-->0)
+<ul><!--insert: 90-->
+</ul><!--end: 90-->
+<!--top: 89--><li><a href="89.html">Re: Stewart Platform</a> <b>Aldous Huxley</b> <i>11:48:12 12/11/96</i>
+(<!--responses: 89-->0)
+<ul><!--insert: 89-->
+</ul><!--end: 89-->
+<!--top: 73--><li><a href="73.html">Re: Stewart Platform</a> <b>Huseyin Ovayolu</b> <i>06:35:51 10/22/96</i>
+(<!--responses: 73-->0)
+<ul><!--insert: 73-->
+</ul><!--end: 73-->
+</ul><!--end: 32-->
+<br><hr size=7 width=75%><p>
+<a name="postfp">Post a Followup</a><p>
+<form method=POST action="http://www.rosl.com/my-cgi-bin/wwwboard.cgi">
+<input type=hidden name="followup" value="29,32">
+<input type=hidden name="origname" value="Phil Watson">
+<input type=hidden name="origemail" value="phil@rosl.demon.co.uk">
+<input type=hidden name="origsubject" value="Re: Stewart Platform">
+<input type=hidden name="origdate" value="June 13, 1996 at 08:54:00">
+Name: <input type=text name="name" size=50><br>
+E-Mail: <input type=text name="email" size=50><p>
+Subject: <input type=text name="subject"value="Re: Stewart Platform" size=50><p>
+Comments:<br>
+<textarea name="body" COLS=50 ROWS=10>
+: : One of our contacts has posed the question as to
+: : whether it is possible to create and simulate a Stewart
+: : Platform using Workspace.
+
+: Workspace can be used to simulate both serial and
+: tree type mechanisms. They are defined by modelling
+: the joints that make up the mechanism.
+
+: Each joint can be either rotational or translational,
+: each joint is defined between its parent object and 
+: its child object, and its motion is governed by 
+: user defined equations. These equations consist of 
+: any number of temporary variable definitions and 
+: a final definition line. This structure allow 
+: complex equations to be modelled easily.
+
+: This method of mechanism modelling allows Workspace to simulate
+: any mechanism type including the Stewart Platform and the Neos 
+: Tricept robot.
+
+: 
+: The 
+
+
+</textarea>
+<p>
+Optional Link URL: <input type=text name="url" size=50><br>
+Link Title: <input type=text name="url_title" size=48><br>
+Optional Image URL: <input type=text name="img" size=49><p>
+<input type=submit value="Submit Follow Up"> <input type=reset>
+<p><hr size=7 width=75%>
+<center>[ <a href="#followups">Follow Ups</a> ] [ <a href="#postfp">Post Followup</a> ] [ <a href="http://www.rosl.com/wwwboard/wwwboard.html">Workspace User Group</a> ] [ <a href="http://www.rosl.com/wwwboard/faq.html">FAQ</a> ]</center>
+</body></html>
+</DOC>

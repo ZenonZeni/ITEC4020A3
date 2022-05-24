@@ -1,0 +1,90 @@
+
+<DOC>
+<DOCNO>WT02-B19-32</DOCNO>
+<DOCOLDNO>IA070-000439-B016-359</DOCOLDNO>
+<DOCHDR>
+http://netserv.eng.usyd.edu.au:80/~bernardg/qc.colour 129.78.15.200 19970120203554 text/html 3851
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Monday, 20-Jan-97 20:35:43 GMT
+Content-Type: text/html
+Content-Length: 3647
+Last-Modified: Thursday, 05-Oct-95 09:57:10 GMT
+</DOCHDR>
+<HEADER>
+<TITLE>
+Colour images from a greyscale camera
+</TITLE>
+</HEADER>
+<BODY>
+<H1>Colour from Greyscale</H1>
+I bought myself a Connectix QuickCam at the start of 1995. For those
+who don't know them, they are a 320x240 4 bit greyscale camera. They
+come with software to run them on a Macintosh. Using this software,
+you can take grey scale still photos, or produce Quicktime movies.
+<P>
+With a little extra ingenuity, you can also use your quickcam to make
+full colour images. These are some I've done:
+<P>
+<IMG SRC=cokenmilk>
+<P>
+This was my first really successful attempt at creating a colour image.
+It was created using the program that first got me going
+with this game. It's a little thing called cambot, which came on a
+CD that I got for registering my camera. Basically, it's got three
+buttons, red green and blue, which you click while holding
+a filter of that colour in front of the lens of the camera.
+<P>
+Sadly, this method limited me to the small window size shown, so I
+felt the need to branch out. I've now started capturing 320x240 images
+direct from the camera, and then combining them over on a Unix machine.
+This gives me results like these:
+<P>
+<A HREF=lab.colour><IMG SRC=lab.colour.jpg></A>
+<A HREF=desk><IMG SRC=window.gif></A>
+<P>
+I'm still working on getting realistic colour balance in the images, but
+these at least have fairly good white point.
+<P>
+<h2>In case you're interested,</h2> the filters I'm using at the moment are made
+from cellophane, bought for $1 a sheet from the local newsagent. In order
+to get reasonable colour balance, I'm using 1 layer of red to 2 green and
+4 blue. <I>Sigh</I>, why isn't cellophane made in standard filter densities? :)
+<P>
+I'm combining the images using xv on a unix workstation. Basically, I'm
+first applying a gamma correction to the greyscale images, then colourising
+them to have the white be a fully saturated red, green or blue (whichever).
+Then using the pad function to combine two images at 50% each, and then
+combining that image with the third at 33%. That leaves me with an RGB image,
+with 24 bits per pixel, with the actual image data in the least
+significant 4 bits of
+each byte (due to the way pad works). Needless to say, this makes for
+rather dark images, so I then increase the brightness to compensate, and fiddle
+with the colour balance if I really feel I need to.
+<P>
+There are noticable colour artifacts in both of these images.  The
+yellowy patches in the top image are from the bad blue filter in my first
+filter set. The four layers are all loose and wrinkled , and so
+transmission is patchy due to reflection.
+The magenta blotch in the bottom left corner of the window shot is due to there
+being a little bit of masking tape in the bottom corner of the green filter
+in my new filter set. Overall, the new set gives better image definition,
+so I think I'll stick with it, and I'll just have to be a little more careful.
+I'm also on the lookout for a denser blue cellophane. Maybe I should try my
+incandescent light photographic filter?
+<P>
+<A HREF=http://honeybee.biz.usyd.edu.au/www/james/colourCAM/>James</A>
+is doing the same thing with some bits of my cellophane, and Adobe Photoshop.
+(James has more fun software than me :( ).
+<P>
+My next plan is to write some software to automate some of this combination,
+and also to allow me to interleave four images to make one 640x480 image. Then
+we'll really be cooking with gas! (I know this doesn't actually make any
+sense from a signal processing standpoint, but I suspect it will produce
+reasonable images anyway).
+<HR>
+<ADDRESS><A HREF="http://www.eng.usyd.edu.au/~bernardg">BJG</A></ADDRESS>
+</BODY>
+
+</DOC>

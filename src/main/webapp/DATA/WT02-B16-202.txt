@@ -1,0 +1,64 @@
+
+<DOC>
+<DOCNO>WT02-B16-202</DOCNO>
+<DOCOLDNO>IA060-000328-B016-332</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/concentrators.html 205.168.79.27 19970115023134 text/html 2851
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 02:31:25 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:46 GMT
+Content-length: 2677
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<title>DOE PV - Turning Sunlight Into Electricity</title>
+</HEAD>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>Concentrator Systems</h2>
+
+<p><font size=+2>T</font>he performance of a PV array can be improved in a number of ways.  One option is to employ
+concentrating optics, which gather sunlight with lenses, thereby increasing the intensity of
+sunlight striking the PV cell.  (This is similar to using a magnifying glass.) 
+
+<p><img border=0 align=left hspace=15 vspace=3 src="images/concentrator.gif">  
+<font color="#F79D00">A typical basic concentrator unit consists of a lens to focus the
+light, a cell assembly, a housing element, a secondary concentrator to reflect off-center light rays
+onto the cell, a mechanism to dissipate excess heat produced by concentrated sunlight, and
+various contacts and adhesives.  Notice that the module depicted uses 12 cell units in a 2x6
+matrix. These basic units may be combined in any configuration to produce the desired module.</font>
+<br clear=all>
+
+<p>The primary reason for using concentration is to decrease the area of 
+<a target="_parent" href="materials.html">solar cell material</a> being
+used in a system; solar cells are the most expensive components of a PV system, on a per-area
+basis.  A concentrator uses relatively inexpensive materials (plastic lenses, metal housings, etc.)
+to capture a large area of solar energy and focus it onto a small area, where the solar cell resides. 
+One measure of the effectiveness of this approach is the concentration ratio (how much
+concentration the cell is receiving).  
+
+<p align=right><a href="concentrators2.html"><em>More . . .</em> Advantages and Drawbacks</a>
+
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>
+[<a href="pvhistory.html">History: The PV Effect</a>]
+[<a href="howworks.html">How It All Works</a>]
+[<a href="cells.html">From Cells to Arrays</a>]
+[<a href="flatplate.html">Flat-Plate Systems</a>]
+[<a href="concentrators.html">Concentrator Systems</a>]
+[<a href="balance.html">Balance of System</a>]
+[<a href="lightsun.html">Light and the Sun</a>]
+<p><em>U.S. Department of Energy Photovoltaics Program, 1996</em>
+</font>
+</center>
+</body>
+</html>
+</DOC>

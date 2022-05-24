@@ -1,0 +1,158 @@
+
+<DOC>
+<DOCNO>WT03-B16-47</DOCNO>
+<DOCOLDNO>IA072-000459-B011-215</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/rsat/rsat.html 137.132.32.55 19970121022515 text/html 5291
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 12:49:34 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Wednesday, 18-Dec-96 02:16:30 GMT
+Content-length: 5107
+</DOCHDR>
+<HTML><HEAD><TITLE></TITLE></HEAD>
+<BODY bgcolor=DDCCAA>
+<center>
+<H1>RADARSAT</H1> 
+</center> 
+<HR>
+RADARSAT uses Synthetic Aperture Radar (SAR), 
+an active microwave sensor, allowing 24 hour data collection independent
+ of weather conditions and illumination. The SAR sensor has selective viewing
+ angles that allow a wide range of terrain conditions, applications 
+and ground coverage requirements to be accommodated.Imaging modes for
+ RADARSAT include Fine, Standard, Wide, ScanSAR (narrow and wide), 
+and Extended Beam (high and low incidence angles).</P>
+
+<center>
+<IMG SRC="beammodes.gif">
+</center>
+
+<p><hr><p>
+<H3> Beam Characteristics </H3>
+
+<TABLE CELLPADDING=4 CELLSPACING=0 BORDER=1>
+<TR>
+<TD>Beam Mode </TD>
+<TD ALIGN=center>Beam Position </TD>
+<TD ALIGN=center>Incidence Angle <NOBR>Range ()</NOBR></TD>
+<TD ALIGN=center><NOBR>Resolution (m)</NOBR> Range x Azimuth</TD>
+<TD ALIGN=center>Nominal <NOBR>Area (km)</NOBR></TD>
+</TR>
+<TR>
+<TD><FONT SIZE=-1>Fine</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>F1<BR>F2<BR>F3<BR>F4<BR>F5</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>37-40<BR>39-42<BR>41-44<BR>43-46<BR>45-48</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>9.1 x 8.4<BR>8.7 x 8.4<BR>8.4 x 8.4<BR>8.1 x 8.4<BR>7.8 x 8.4</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>50 X 50</FONT></TD>
+</TR>
+<TR>
+<TD><FONT SIZE=-1>Standard</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>S1<BR>S2<BR>S3<BR>S4<BR>S5<BR>S6<BR>S7</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>20-27<BR>24-31<BR>30-37<BR>34-40<BR>36-42<BR>41-46<BR>45-49</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>26.0x27.0<BR>22.0x27.0<BR>27.6x27.0<BR>25.7x27.0<BR>24.2x27.0<BR>22.1x27.0<BR>20.1x27.0</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>100 X 100</FONT></TD>
+</TR>
+<TR>
+<TD><FONT SIZE=-1>Wide</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>W1<BR>W2<BR>W3</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>20-31<BR>31-39<BR>39-45</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>35.5x27.0<BR>26.0x27.0<BR>22.8x27.0</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>165 x 165<BR>150x150<BR>130x130</FONT></TD>
+</TR>
+<TR>
+<TD><FONT SIZE=-1>ScanSAR Narrow</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>sN1<BR>sN2</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>20-40<BR>31-46</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>50 (approximate)</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>300 x 300</FONT></TD>
+</TR>
+<TR>
+<TD><FONT SIZE=-1>ScanSAR Wide</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>sW1</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>20-50</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>100 (approximate)</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>500 x 500</FONT></TD>
+</TR>
+<TR>
+<TD><FONT SIZE=-1>Extended Low</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>L1</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>10-23</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>36.3x27.0</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>170 x 170</FONT></TD>
+</TR>
+<TR>
+<TD><FONT SIZE=-1>Extended High</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>H1<BR>H2<BR>H3<BR>H4<BR>H5<BR>H6</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>49-52<BR>50-53<BR>52-55<BR>54-57<BR>56-58<BR>57-59</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>19.8x27.0<BR>19.4x27.0<BR>19.1x27.0<BR>18.5x27.0<BR>18.2x27.0<BR>18.0x27.0</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>75 x 75</FONT></TD>
+</TR>
+<TR>
+<TD COLSPAN=5><FONT SIZE=-1><I>Note: The numbers shown in this table are approximations.</I></FONT></TD>
+</TR>
+</TABLE>
+
+<p><hr><p>
+
+</TD>
+
+<TD width=5%></TD>
+
+</TR>
+
+</TABLE><p>
+<h3>RADARSAT Revisit Period (Days)
+</h3>
+<TABLE CELLPADDING=4 CELLSPACING=0 BORDER=1 WIDTH=100%>
+<TR>
+<TD ALIGN=center><FONT SIZE=-1><B>Latitude</B></FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1><B>Fine</B></FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1><B>Standard</B></FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1><B>Wide</B></FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1><B>ScanSAR</B></FONT></TD>
+</TR>
+<TR>
+<TD ALIGN=center><FONT SIZE=-1>Equator</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>4-10</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>2 - 5</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>2 - 5</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>2 - 5</FONT></TD>
+</TR>
+<TR>
+<TD ALIGN=center><FONT SIZE=-1>10</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>4-9</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>2 - 4.5</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>2 - 4.5</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>2 - 4.5</FONT></TD>
+</TR>
+<TR>
+<TD ALIGN=center><FONT SIZE=-1>20</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>4-8</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>2 - 4</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>2 - 4</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>2 - 4</FONT></TD>
+</TR>
+<TR>
+<TD ALIGN=center><FONT SIZE=-1>30</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>3-8</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>1.5-4</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>1.5-4</FONT></TD>
+<TD ALIGN=center><FONT SIZE=-1>1.5-4</FONT></TD>
+</TR>
+</TABLE><P>
+
+<FONT SIZE=-1>Approximate number of days it would take to revisit a point on the Earth's surface, using each of the RADARSAT beams (excluding the extended <NOBR>beam modes).</NOBR></FONT>
+
+</TD>
+
+<TD width=5%></TD>
+
+</TR>
+
+</TABLE>
+ 
+</body>
+</DOC>

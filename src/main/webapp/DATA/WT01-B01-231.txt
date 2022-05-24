@@ -1,0 +1,54 @@
+
+<DOC>
+<DOCNO>WT01-B01-231</DOCNO>
+<DOCOLDNO>IA097-001044-B043-390</DOCOLDNO>
+<DOCHDR>
+http://sea2.sea.edu:80/bilboard/index.htm 206.33.82.2 19970215105104 text/html 1585
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 10:55:00 GMT
+Server: Microsoft-Internet-Information-Server/1.0
+Content-Type: text/html
+Last-Modified: Fri, 15 Nov 1996 14:34:15 GMT
+Content-Length: 1385
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Sea Education Association</TITLE>
+</HEAD>
+<FRAMESET ROWS="135,145,*">
+
+	<FRAMESET COLS="*,206,206,206,*">
+        	<FRAME SRC="buffer.htm" NAME="buffer" SCROLLING="no" NORESIZE MARGINHEIGHT=1>
+        	<FRAME SRC="slide3.htm" NAME="slideshow" SCROLLING="no" NORESIZE MARGINHEIGHT=1>
+        	<FRAME SRC="slide12.htm" NAME="slideshow" SCROLLING="no" NORESIZE MARGINHEIGHT=1>
+        	<FRAME SRC="slide24.htm" NAME="slideshow" SCROLLING="no" NORESIZE MARGINHEIGHT=1>
+		<FRAME SRC="buffer.htm" NAME="buffer" SCROLLING="no" NORESIZE MARGINHEIGHT=1>
+      	
+	</FRAMESET>
+	<FRAMESET COLS="100%,*">
+        	<FRAME SRC="msg1.htm">
+	</FRAMESET>
+	<FRAMESET COLS="100%,*">
+        	<FRAME SRC="panel.htm">
+	</FRAMESET>
+
+	<NOFRAMES>
+	<h1 align=center <blink>Frame ALERT!</blink></h1>
+	<p>
+	This document is designed to be read using a Frame-capable browser
+	such as Netscape 2.x. If you are seeing this message, the browser 
+	you are using cannot display frames and will not allow you to access 
+	all areas of our homepage.
+	<p>
+	You can obtain a Frame-capable browser from
+	<a href=http://home.netscape.com/>Netscape Communications</a>.
+	<p>
+	If you'd like to access those portions of the SEA website that don't
+	utilize frames, 
+	<A href="http://www.sea.edu/bilboard/paneltxt.htm">
+	click here.</A>
+	</NOFRAMES>
+
+</FRAMESET>
+</HTML>
+</DOC>

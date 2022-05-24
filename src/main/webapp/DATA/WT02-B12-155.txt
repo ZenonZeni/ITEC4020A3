@@ -1,0 +1,82 @@
+
+<DOC>
+<DOCNO>WT02-B12-155</DOCNO>
+<DOCOLDNO>IA088-000636-B042-222</DOCOLDNO>
+<DOCHDR>
+http://migration.ucdavis.edu:80/cgi/mnsearch.html 128.120.36.171 19970122184334 text/html 1793
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: WebSTAR/1.3.1 ID/6378
+Message-ID: <af0a71d6.939@migration.ucdavis.edu>
+Date: Wednesday, 22-Jan-97 18:44:33 GMT
+Last-Modified: Tuesday, 03-Dec-96 01:38:14 GMT
+Content-type: text/html
+Content-length: 1538
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Migration News - Search Page</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<center>
+<table><tr><td width=465>
+
+<hr>
+
+
+<h1>Migration News - Search Page</h1>
+<hr>
+
+<FORM method=POST ACTION="/cgi/iHound.acgi">
+<!--FORM method=POST ACTION="iHound.ihnd"-->
+<!--use second request for iHound plugin version-->
+
+
+<font size=+1>
+Please enter one or more key words seperated by 'and' or 'or'. <BR>
+Example: <kbd>anartica and penguin</kbd><br>
+Search: <INPUT NAME="KEYWORDS"  SIZE=62 align=right><BR>
+<HR align=middle width=465>
+Select "substring" if you want to search for parts of words as well.<br>
+<inPUT TYPE="checkbox" NAME="SUBSTRING"
+VALUE="true"> Substring
+<p>
+How many hits do you want on each page?<br>
+<SELECT name=MAXHITS>
+<OPTION selected>10
+<OPTION >15
+<OPTION>20
+</SELECT>
+
+<HR>
+
+
+<INPUT TYPE="hidden" NAME="HEADER" VALUE="migrantHeaderfile">
+<INPUT TYPE="hidden" NAME="FOOTER" VALUE="Footerfile">
+<INPUT TYPE="hidden" NAME="INDEX" VALUE="mn.idx">
+<INPUT TYPE="hidden" NAME="LANGUAGE" VALUE="english">
+
+<!--you can define, instead of ask for, the maxhits here as well-->
+<!--INPUT TYPE="hidden" NAME="MAXHITS" VALUE="10"-->
+
+<!--you can define the substring option here as well-->
+<!--INPUT TYPE="hidden" NAME="SUBSTRING" VALUE="true"-->
+
+<INPUT TYPE=submit VALUE="Start Search">
+
+</FORM>
+<hr>
+<tr>
+<td width=465><a href="http://migration.ucdavis.edu">Home</a><p>
+This search page was brought to you by <a HREF="http://www.icatt.com/icatt_tools">ICATT iHound</A>. 
+</td></tr> 
+
+</table>
+<center>
+</body></html>
+
+
+
+
+</DOC>

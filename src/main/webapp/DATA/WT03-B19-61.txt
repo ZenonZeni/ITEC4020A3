@@ -1,0 +1,163 @@
+
+<DOC>
+<DOCNO>WT03-B19-61</DOCNO>
+<DOCOLDNO>IA001-000005-B024-239</DOCOLDNO>
+<DOCHDR>
+http://gator.seaspace.com:80/announcements/1002.html 192.150.113.150 19970101041223 text/html 6642
+HTTP/1.0 200 OK
+Date: Wednesday, 01-Jan-97 04:11:11 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Tuesday, 10-Sep-96 16:14:40 GMT
+Content-length: 6458
+</DOCHDR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<HEAD> <TITLE> SeaSpace Announcements</TITLE> </HEAD> <BODY> <TABLE BORDER=5 WIDTH=100%> <TR> <TD ALIGN=CENTER> <H1> Announcements </H1> </TD> </TR> </TABLE> <BR> <IMG SRC="/artwork/line.avhrr1.gif"><BR>
+
+<H1>Generation of value-added products using TeraScan at the German Aerospace Research Establishment</H1>
+
+<H3>September 1994</H3>
+
+<CITE>
+by Dr. Stefan W. Dech of the German Aerospace Research Establishment<BR>
+Oberpfaffenhofen, Germany
+</CITE>
+
+
+<P>
+The German Remote Sensing Data Center (DFD) of the German Aerospace Research Establishment (DLR) at Oberpfaffenhofen near Munich is about to offer an operational on-line satellite data catalog and request system, the Intelligent Satellite Data Information System (ISIS).  Through 
+ISIS, the shortcoming of the traditional archives shall be overcome by means of implementing state-of-the-art database techniques and by integrating the system into international networks.
+</P>
+
+<P>
+The major objective of ISIS is to suply a broad user community with all information required to identify suitable data for a given application, and to access the respective archives for data 
+acquisition.  Emphasis is put on the user-friendly design of the catalogue interface, the online visualization of data, and the improvement of procedures
+for the generation of value-added standard products.
+</P>
+
+<P>
+The amount and type of data being offered will be determined both by user requirements and official data policy.  In
+a first approach, users will be provided on-line with digital quicklooks of all DFD acquired raw and value-added products.
+</P>
+
+<P>
+For the operational extraction and selection of certain environmental relevant featurs the Feature Data Bank Project (FDB) has been established.  The
+main purpose of operational information extraction is, besides raw data archiving, the generation of value-added state-of-the-art standard products which are calculated on a regular basic, e.g., the
+sea surface temperatures (<A HREF="/glossary.html#SST">SST</A>), the normalized vegetation index, rectified data subsets and selected features.
+</P>
+
+<P>
+Special emphasis on the selection of environmental features is given to cretain events like the eruption of Mount Pinatubo, the fires in California, the flooding events in the USA and
+Bangladesh, the shrinking of Lakes Aral and Chad, and many more.  Raw data and products from events like these are collected and produced at the FDB and
+will be accessible via ISIS on request.
+</P>
+
+<P>
+The third part of the FDB will be the animation of high level products and selected features.  Some are already done, like the animation of <A HREF="/glossary.html#SST">SST</A> images from the Mediterranean Sea and the shrinking of the Aral Sea.  Some furhter animations
+are in work, like the animation of a time series of the Normalized Difference Vegetation Index both on a global and ona regional scale (Europe).  Others,
+like cloud animations based on geostationary systems, were begun recently.
+</P>
+
+<P>
+For all these tasks, TeraScan software is used.  As an example, an overview about the production of the daily <A HREF="/glossary.html#SST">SST</A> maps based on <A HREF="/glossary.html#AVHRR">AVHRR</A> data is given below.
+</P>
+
+<P>
+Besides the operation of the German Antarctic Receiving Station and a transportable x-band station, both for <A HREF="/glossary.html#ERS">ERS <A HREF="/glossary.html#SAR">SAR</A> data acquisition, DLR is
+operating in addition, a <A HREF="/glossary.html#Meteosat">Meteosat</A> <A HREF="/glossary.html#PDUS">PDUS</A> and a <A HREF="/glossary.html#NOAA">NOAA</A> <A HREF="/glossary.html#HRPT">HRPT</A> receiving station at its center at Oberpfaffenhofen.
+</P>
+
+<P>
+The nominal <A HREF="/glossary.html#HRPT">HRPT</A> data acquisition schedule covers the reception of at least five <A HREF="/glossary.html#NOAA">NOAA</A> passes per day.  Based on these scenes, a daily maximum temperature composite is calculated, covering the entire ocean ares of DLR's visibility circle in three
+different maps (Mediterranean Sea, West of Portugal, and the North Atlantic Ocean).  Based on the daily maximum composites, both weekly and monthly
+maps are generated.  However, these products are not restricted to the composite method used at the moment.  Minimum, maximum
+and averages from all products (daily, weekly, monthly composites) can be calculated any time depending on user requests.  These
+<A HREF="/glossary.html#SST">SST</A> products are available from March 1993 to date.  They are considered to be useful for many scientific purposes like climatology (e.g., as an important factor for climate modeling), oceanography, marine biological activity (e.g., algae
+growing), atmospheric science and many other fields.
+</P>
+
+<A HREF="/images/dlr_mediterranean.jpg"><IMG SRC="/stamps/dlr_mediterranean.gif">Averaged Maximum SST over Mediterranean</A>
+
+<P>
+The derivation of high-end products within the FDB project, like the <A HREF="/glossary.html#SST">SST</A>s from <A HREF="/glossary.html#NOAA">NOAA</A> <A HREF="/glossary.html#AVHRR">AVHRR</A> data, are aplanned for further products as well as from different sensors like, <A HREF="/glossary.html#Meteosat">Meteosat</A>, <A HREF="/glossary.html#TM">TM</A>, <A HREF="/glossary.html#SAR">SAR</A>, and in the future, <A HREF="/glossary.html#SeaWiFS">SeaWiFS</A>.
+</P>
+
+<P>
+Users who wish to get value-added products from the Feature Data Bank can access it by using the interface of the ISIS at the DLR.  For further information about ISIS and data access,
+please contact Dr. Lotz-Iwen at lotz@dfd.dlr.de.  For further information on the FDB project, please contact Dr. Dech or Ms. Holz at dech@dfd.dlr.de or holz@dfd.dlr.de.
+</P>
+
+
+<A HREF="http://129.247.162.47/welcome.html">
+<IMG SRC="/logos/DLR.gif">
+DLR - German Aerospace Research Establishment</A>
+
+
+<BR> <BR>  <A HREF=  "/announce.html"><IMG SRC= "/artwork/arrow.marble.left.gif" ALIGN=middle>   Return to Announcements   </A><BR><BR>  <A HREF= "/index.html"><IMG SRC= "/artwork/arrow.marble.up.gif" ALIGN=middle>   Return to SeaSpace Home Page   </A><BR><BR> <IMG SRC="/artwork/line.avhrr1.gif"><BR> <ADDRESS> SeaSpace Corporation<BR> </ADDRESS> <H5> For information about SeaSpace products contact <A HREF="mailto:info@seaspace.com">info@seaspace.com</A><BR> For information about this site contact <A HREF="mailto:sean@seaspace.com">sean@seaspace.com</A><BR> </H5>
+</DOC>

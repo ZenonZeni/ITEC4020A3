@@ -1,0 +1,187 @@
+
+<DOC>
+<DOCNO>WT02-B12-133</DOCNO>
+<DOCOLDNO>IA087-000631-B025-247</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.163.html 130.91.195.242 19970122070857 text/html 6716
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 07:08:59 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 6545
+Last-modified: Tue, 22 Nov 1994 06:33:26 GMT
+</DOCHDR>
+New scriptable pgp <p>
+
+Mac PGP2.3a V1.1 Readme
+                              ----------------------- <p>
+
+Why two version numbers? <p>
+
+This update mainly consists of changes to the human interface (i. e. to the =
+Mac-
+specific part). Since I expect that this part will be developed more or less
+independantly from the encryption part, I use two version numbers:
+This is the Mac implementation V1.1 of PGP 2.3a. <p>
+
+What's different? <p>
+
+Some minor bugs have been fixed, but you probably didn't have any problems
+with them.
+The menus have been adapted to look more like a typical Mac application. As
+you have
+already seen, there are now two versions of MacPGP: An Englisch version and
+a German
+translation. For more information about the translated version read the Germ=
+and
+readme. <p>
+
+The most important change (in my opinion) is that MacPGP is now AppleScript
+aware.
+You can invoke all important actions (like encrypt, decrypt, sign etc.) by
+AppleScript commands. The preferences can be changed online only. <p>
+
+The following text assumes you are already familiar with AppleScript (otherw=
+ise
+read the AppleScript User's Manual) and with PGP (Please DO read the stuff i=
+n
+the documentation folder)! <p>
+
+MacPGP V1.1 supports the Required Suite and a MacPGP Suite. You can use its
+commands
+via AppleScript or directly to communicate with other programs. E. g. the
+"Mausefalle"
+(an offline-reader for the German BBS-Network "MausNet") uses them to
+decode incoming
+mail automatically and to encrypt your own mail before sending it. If you
+include
+PGP support in your own program, I'd like you to give me a quick note (just =
+for
+curiosity), my EMail address is: "Christoph_Pagalies@HH2.maus.de". <p>
+
+The following is a rough description of the supported AppleScript commands. =
+You
+can get a nicely formatted list by the "Open Dictionary" command in the
+AppleScript
+editor. <p>
+
+Required Suite
+<hr> <p>
+
+open: =D6ffnet eine Reihe von Objekten
+print: Druckt Objekte
+quit: Beendet das Programm
+run: Wird beim Programmstart automatisch gesendet <p>
+
+MacPGP Suite
+<hr> <p>
+
+encrypt: Eine Datei codieren
+        encrypt  alias  -- die zu codierende Datei
+                to  string  -- Der Empf=E4nger
+                [user id  string]  -- Eigener Name
+                [signature  separated/included/omitted]
+                [reading  MacBinary/plaintext/normal]
+                [writing  binary/asciified] <p>
+
+Empf=E4nger oder Absenderangaben m=FCssen mit dem Namen im Schl=FCsselbund
+=FCbereinstimmen
+oder dem Anfang des Namens entsprechen. Also kann man
+"Gabriele Mustermann &lt;gabi@test.aga.de&gt;" als "Gabriele" oder "Gab"
+adressieren, aber
+nicht als "gabi", da der Anfang nicht =FCbereinstimmt. <p>
+
+Beim Codieren kann eine Unterschrift angelegt werden, die entweder hinten
+angeh=E4ngt
+wird (signature included) oder in eine getrennte Datei geschrieben wird
+(signature separated). Bei "omitted" wird keine Unterschrift angelegt. <p>
+
+Der "reading" Parameter gibt die Art der Quelldatei an. Handelt es sich um
+ASCII-
+Texte, gibt man "reading plaintext" an, bei Bin=E4rdateien "reading normal".=
+ Wenn
+eine Macintosh-Datei =FCbertragen werden soll, die einen Data- und einen Res=
+ource-
+=46ork enth=E4lt, ist "reading MacBinary" anzugeben. <p>
+
+"writing binary" bedeutet eine Ausgabe als kompakte Bin=E4rdatei, bei "ascii=
+fied"
+wird ein 7-Bit-ASCII-Text erzeugt, der =FCber EMail verschickt werden kann. <p>
+
+sign: Eine Datei unterschreiben
+        sign  alias  -- Die zu unterschreibende Datei
+                [user id  string]  -- Eigener Name
+                [signature  separated/included/clear]
+                [reading  MacBinary/plaintext/normal]
+                [writing  binary/asciified] <p>
+
+Neu ist hier der "signature clear" Parameter: Die Unterschrift wird eingef=
+=FCgt
+(wie bei "included"), der eigentliche Nachrichtentext wird im Klartext
+ausgegeben.
+Der Text kann dann gelesen werden, ohne ihn erst mit PGP decodieren zu m=FCs=
+sen.
+Allerdings kann er evtl. auf dem =DCbertragungsweg umformatiert werden,
+wodurch die
+Unterschrift dann nicht mehr stimmt. <p>
+
+execute: Eine Befehlszeile ausf=FChren.
+        execute  string  -- Die Befehlszeile <p>
+
+Hier kann ein DOS-Befehl =FCbergeben werden.
+Statt "encrypt file 'Test' to 'Gabriele' writing asciified" kann man auch
+"execute 'pgp -ea Test Gabriele'" schreiben. Hiermit lassen sich seltene
+Befehle aufrufen, die keine zugeordneten AppleScript-Befehle haben, z. B.
+"Unterschrift l=F6schen". <p>
+
+decrypt: Datei decodieren, unterschrift pr=FCfen o. =E4.
+        decrypt  alias
+                [toScreen  boolean]
+                [to  file specification]  -- Decodierte Datei speichern als
+        Result:   string <p>
+
+"toScreen" gibt den decodierten Text auf dem Bildschirm aus. Sonst wird er
+in der
+angegebenen Datei gespeichert. <p>
+
+Bei unterschriebenen Dateien wird der Name des Unterzeichners zur=FCckgegebe=
+n. <p>
+
+add: Schl=FCssel zum Schl=FCsselbund hinzuf=FCgen
+        add  alias  -- Die Datei mit dem Schl=FCssel
+                [key ring  file specification]  -- Das Schl=FCsselbund <p>
+
+extract: Schl=FCssel aus einem Bund in eine Datei schreiben
+        extract  string  -- Der zu extrahierende Schl=FCssel
+                to  file specification  -- Die Zieldatei
+                [key ring  file specification]  -- Das Schl=FCsselbund <p>
+
+remove: Schl=FCssel aus einem Bund l=F6schen
+        remove  string  -- Der fragliche Schl=FCssel
+                [key ring  file specification]  -- Das Schl=FCsselbund <p>
+
+certify: =D6ffentlichen Schl=FCssel unterschreiben
+        certify  string  -- Der zu unterschreibende Schl=FCssel
+                [key ring  file specification]  -- Das Schl=FCsselbund
+                [user id  string]  -- Einer Name <p>
+
+fingerprint: Fingerabdruck zum Schl=FCssel errechnen.
+        fingerprint  string  -- Der fragliche Schl=FCssel
+                [key ring  file specification]  -- Das Schl=FCsselbund
+        Result:   string -- Der Fingerabdruck <p>
+
+asciify: Datei zum EMail-Versand ASCIIfien (wird nicht codiert oder
+unterschrieben)
+        asciify  file specification  -- Die zu bearbeitende Datei
+                [reading  MacBinary/plaintext/normal] <p>
+
+generate: Geheimes/=F6ffentliches Schl=FCsselpaar erzeugen
+        generate  string  -- Der gew=FCnschte Benutzername
+                [length  casual/commercial/military] <p>
+
+Die L=E4ngenangabe bedeutet: "casual" =3D 384 Bit, "commercial" =3D 512 Bit,
+"military" =3D
+1024 Bit. Die Exponentenl=E4nge kann per AppleScript nicht vorgegeben werden=
+. <p>
+
+</DOC>

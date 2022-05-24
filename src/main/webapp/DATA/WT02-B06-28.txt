@@ -1,0 +1,152 @@
+
+<DOC>
+<DOCNO>WT02-B06-28</DOCNO>
+<DOCOLDNO>IA096-001029-B017-117</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/961219_Bernstein_analys.html 205.177.10.31 19970215015853 text/html 6746
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 01:57:37 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+
+<HEAD>
+    <TITLE>CDT | Analysis of Bernstein Decision</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff">
+
+<A HREF="/index.html"><IMG SRC="/images/cdtlgo.gif" ALIGN=LEFT  WIDTH=204 HEIGHT=107 BORDER=2 ALT="Center for Democracy and Technology"></A>
+<BR CLEAR=ALL>
+<BR>
+<BR>
+
+<H2>CDT Analysis of Bernstein Decision</H2>
+
+A U.S. District Court judge in San Francisco has ruled that some federal
+regulations on the export of encryption are unconstitutional restrictions
+on free speech.<BR>
+<BR>
+
+Judge Marilyn Hall Patel handed down the declaratory judgment on Wednesday
+in Bernstein v. Dept. of State, a challenge to the Cold War-era International
+Traffic in Arms Regulations (ITAR) that restrict export of encryption hardware
+and software.  The case was brought by researcher Daniel Bernstein, who
+was prevented from publishing an encryption algorithm due to the export
+controls. In her central ruling, Judge Patel held that, &quot;The ITAR licensing
+system as applied to Category XIII(B) [cryptographic systems] acts as an
+unconstitutional prior restraint in violation of the First Amendment.&quot;<BR>
+<BR>
+
+The opinion is an important first ruling by a Federal judge that there are
+serious First Amendment problems with the Administration's encryption restrictions.
+ The ruling protects the publication of encryption source code and, if upheld,
+would significantly undermine the outdated export controls that currently
+threaten the privacy of computer users. The ruling also serves as a strong
+statement of constitutional principles in the face of further encryption
+regulations threatened both domestically and internationally.<BR>
+<BR>
+
+A cautionary note: At this time the court's ruling does not- necessarily
+permit widespread encryption exports.  The ultimate effect of the ruling
+on export of encryption products, particularly under new Commerce Department
+rules expected to take effect on January 1, is unclear.<BR>
+
+<H3>Major Findings</H3>
+
+In a closely-reasoned 40 page opinion, Judge Patel presented  the most extensive
+ruling to date on the First Amendment problems raised by ITAR export controls
+on encryption.  Major holdings of the court include:
+
+<UL>
+  <LI><B>Encryption source code is protected speech</B> -- The judge reiterated
+her April ruling that &quot;source code is speech,&quot; and held that:
+&quot;Software relating to encryption is simply a topic of speech employed
+by some scientists involved in applied research. Hence, Snuffle [Bernstein's
+encryption program] is speech afforded the full protection of the First
+Amendment not because it enables encryption, but because it is itself speech.&quot;<BR>
+<BR>
+
+  <LI><B>The ITAR export controls on encryption are an unconstitutional
+prior restraint</B> -- The court held that the ITAR licensing process as
+applied to encryption exports has the effect of preventing the publication
+of software source code and thus represents a &quot;prior restraint&quot;
+on protected speech. Such restraints are highly disfavored under the First
+Amendment since they bypass the judicial process and give government officials
+broad discretion to rule on the permissibility of speech.<BR>
+<BR>
+
+Calling the ITAR scheme &quot;a paradigm of standardless discretion&quot;
+the court ruled that the government failed to meet any of the procedural
+safeguards required for prior restraints of speech. &quot;Because it fails
+to provide for a time limit on the licensing decision, for prompt judicial
+review and for a duty on the part of the [licensing agency] to go to court
+and defend a denial of a license, the ITAR licensing system as applied to
+Category XIII(B) acts as an unconstitutional prior restraint in violation
+of the First Amendment.&quot;<BR>
+<BR>
+
+  <LI><B>ITAR restrictions on &quot;technical data&quot; and &quot;defense
+articles&quot; raise constitutional issues</B> -- The court was &quot;inclined
+to agree&quot; that export controls on 'technical data,' as they relate
+to academic and scientific speech, violate the First Amendment, but was
+forced by Circuit Court precedent to uphold the restrictions. The court
+also held that ITAR definitions &quot;defense articles&quot; and &quot;technical
+data&quot; are to be more narrowly construed so as to maintain their constitutionality.
+</UL>
+
+The court did not specifically address the constitutionality of object code
+export restrictions.  The court also declined to rule on whether encryption
+rules are content-based, or whether there were other First Amendment interests
+in encryption based upon anonymity. The court largely denied Bernstein's
+other challenges based on overbreadth and vagueness, and denied Bernstein's
+motion for a preliminary injunction on the grounds that it was not necessary
+given representation's by the government .<BR>
+
+<H3>Conclusion: Questions Remain</H3>
+
+The Bernstein ruling leaves many issues unresolved:  
+
+<UL>
+  <LI>The opinion's reasoning is based on source code protection, but its
+ultimate applicability to the export of object code or commercial products
+is unclear. <BR>
+<BR>
+
+  <LI>The District Court's ruling is not controlling in other potential
+prosecutions under the export controls, though it is influential.  <BR>
+<BR>
+
+  <LI>The court did not rule on the constitutional problems raised by encryption
+export regulations that are not prior restraint, providing little guidance
+should the Administration significantly modify the licensing process.  
+</UL>
+
+Moreover, new rules from the Department of Commerce are expected to replace
+the ITAR encryption regulations as of January 1.  The immediate effect of
+Judge Patel's holding on the new Commerce rules is unclear, although the
+new rules are strikingly similar to the ITAR and appear to contain many
+of the same underlying constitutional problems.<BR>
+<BR>
+
+Despite these unanswered questions, Judge Patel's opinion represents a significant
+step forward in the efforts to reform outdated U.S. encryption regulations.
+ The ruling lays the groundwork for further challenges to encryption restrictions.
+ The ruling also spells out important First Amendment protections for source
+code as new encryption restrictions are being considered both internationally
+and domestically.   Finally, this ruling should serve as a wakeup call to
+Congress, the Administration, and the public: current U.S. encryption policies
+raise serious issues of individual liberty, and should be changed to respect
+the free speech and privacy rights of computer users.<BR>
+<BR>
+
+<HR><BR>
+<A HREF="961218_Bernstein_ruling.html">Back.</A><BR>
+<BR>
+<A HREF="index.html">CDT Home Page</A><BR>
+<BR>
+<FONT SIZE=-1>Posted on December 19, 1996</FONT>
+</BODY>
+</HTML>
+</DOC>

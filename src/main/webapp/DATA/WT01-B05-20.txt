@@ -1,0 +1,178 @@
+
+<DOC>
+<DOCNO>WT01-B05-20</DOCNO>
+<DOCOLDNO>IA035-000697-B043-38</DOCOLDNO>
+<DOCHDR>
+http://lars.nrel.gov:80/email4.html 192.174.52.126 19970111001528 text/html 8933
+HTTP/1.0 200 Request fulfilled
+Server: WN/1.02
+Date: Saturday, 11-Jan-97 00:15:33 GMT
+Last-Modified: Sunday, 28-May-95 21:15:33 GMT
+Content-type: text/html
+Content-length: 8684
+Title:  Email4
+Link: <mailto:wlord@lars.nrel.gov>; rev="Made"
+</DOCHDR>
+<title> Email4</title>
+
+<H1>Tour de Sol Email from the Race</H1>
+
+
+Date: Sat, 27 May 1995
+From: Michael H Bianchi <bianchi@bellcore.com>
+
+<H3>Subject: American Tour de Sol, 1995: Rob Wills </H3>
+<P>
+<hr width=40%)
+<p>
+<br>
+Dr. Robert Wills is the technical director of the American Tour de Sol.  He
+has overall responsibility for the technical rules that the cars must meet and
+the inspection process that verifies their compliance.<p>
+
+        But Rob is also heavily involved in the electrical usage measurements
+being taken as the plugged-in vehicles charge every night.  I posted earlier
+about the NESEA Energy Challenge tests, where they are collecting data to
+compare how far a vehicle goes when a gallon of oil taken from the ground is
+used to power a gasoline vehicle and when a gallon of oil is used to power an
+electric vehicle.<p>
+
+        Rob mentioned that they are also looking at the energy usage through
+the night.  The assumption that electric vehicles will charge at night is a
+good one, but if the vehicle is plugged in the moment it gets home, it will
+draw it's heaviest load early in the evening and tapper off over the night.
+And if that's you and me and the girl next door all coming home in our EVs,
+then that presents a significant early evening load.  So, they should get some
+very interesting data on kiloWatt-hours used for charging, measured every 15
+minutes, for 50 cars at once, as part of the oilwell-to-wheels research.<p>
+
+        Rob spoke at length about the Power Quality measurements.  Years ago
+when the loads on electric transmission systems were mostly motors, light
+bulbs, resistive heaters (that is mostly inductive and resistive loads), the
+power drawn from the grid had the same shape (waveform) as the voltage from
+the grid; both were sinusoidal.  And the current was pretty much in phase with
+the voltage, that is it had a `good power factor'.  (When the power factor is
+`good', a watt measured with a watt meter, which essentially multiplies
+instantaneous voltage times instantaneous current, represents the amount of
+energy that is actually being delivered by the grid to the load.  When the
+power factor is bad, the current leads or lags the voltage, and the watt-meter
+doesn't reflect the amount of energy being delivered.)  You still have the
+same amount of current, the same amount of heating in the wires, and the same
+losses from the current, but the electric company cannot collect money for it.
+It is then called `reactive power' or `imaginary power'.  The common fixes
+were applied at the power plant or by putting capacitors on the lines af the
+substations.<p>
+
+        Life in recent years has gotten more complicated.  In large office
+buildings up to 30% of the loads can be the plug-loads of computers and things
+like that which only take their energy at the peak of the voltage waveform.
+So, instead of having a sinusoidal current waveform, you have something that
+looks like a little bump and only happens for a part of the cycle.  Those
+current bumps, because they are not pure sine waves, have lots of harmonics,
+mostly at 3 and 5 times the voltage frequency, which is 180 and 300 Hertz (in
+power systems that operate at 60 Hz).  Transformers have higher losses at
+higher frequencies, so it is necessary to derate transformers designed for
+pure sinusoidal loads when they are faced with these spikey loads.<p>
+
+        What's this got to do with EVs?  Well, we were seeing chargers popping
+20 amp circuit breakers when the normal, average current reading meters said
+they were only drawing 15 amps.  But with a special true RMS current meter,
+which gives the equivalent heating value of the current, we were seeing 25
+amps.  And the waveforms involved were very, very spikey with a sharp current
+peak at the most positive and most negative parts of each voltage cycle;
+probably only 15 degrees of conduction in each 180 degree portion of the
+cycle.<p>
+
+        Electric utilities are concerned about this not only because it can
+cause overheating, but it can also cause distortion in the voltage waveform
+that can cause problems in other equipment on the same circuit, as far back as
+the step-down transformer on the pole!.<p>
+
+        Another related problem is caused by the 3-phase power distribution
+systems used by utilities.  In a wye-wired system, if the loads on the 3 legs
+of the distribution power was equal, the current in the neutral would be zero.
+Because of this effect, systems were commonly designed with the neutral leg
+undersized by about 20%, to save the expense of copper that "never would be
+used";  a practice allowable by the electrical code.  Many old buildings are
+wired that way.  But when people started using lots and lots of computers the
+neutral started to get overloaded and hot!  The reason is that while the first
+harmonic waveforms, the 60 Hz waveforms, add to zero in the neutral when the
+loads are in balance, but the third harmonic waveforms sum additively creating
+3 times the original current in the neutral leg.  So new power system
+practices in buildings require the neutral conductor to be larger than the
+phase conductor, and power transformers now come in harmonic or non-linear
+ratings to accommodate the extra neutral conductor load.<p>
+
+        While simple battery charges may cause the same problem as computers,
+it doesn't have to be so.  The traditional fix is to use ferro-resonant
+transformer.  An additional winding on the transformer is used to control the
+spikes and produces a rather triangular current waveform.<p>
+
+        Modern power supplies and battery charges now use high frequency
+Pulse-Width Modulation (PWM) techniques that can align their current waveforms
+to the voltage waveforms and are called "power factor correcting power
+supplies."<p>
+
+        So, during the overnight charging of the cars in the race, there will
+be a harmonic analyzer, made by Basic Measuring Instruments (BMI) from
+California (Sunnyvale?), looking at the entire charging station.  They will
+collect data on overall power, power factor, and harmonic spectrum of each
+phase of the main feed at hourly intervals, and also watch how the voltage
+on the feed changes as they bring on individual car chargers.  During the race
+they will also measure every individual charger and capture its harmonic
+spectrum.  There is a wide variety of chargers here, from Solectria's which
+are pretty well power factor corrected, to a number of old ferro-resonant
+chargers, to some that are straight rectifier chargers, to some that are SCR
+controlled and phase-angle controlled that can have poor power factor but still
+have reasonable waveform.  The biggest part of the problem is the spikey
+waveform, because that is what causes transformer and neutral overheating.<p>
+
+        There is a UL/IEEE standard, number 519, that says that you shall not
+have more than 5% harmonic distortion which means 95% of the current going
+into a load must be in-phase, fundamental current.<p>
+
+        A couple of good sources of articles on these topics are the magazines
+called "The Electrical Inspector's Journal" and also "Electrical Apparatus"
+which has great articles by one Richard Nailen.<p>
+
+        I asked Rob which cars had caught his attention (before the race had
+actually started).  He said the 3 hybrids where very interesting, because he
+wanted to see how they did in the NESEA Energy Challenge.  Hybrid design is
+not simple, but we are already hearing 80-to-90 miles per gallon numbers from
+other races.  Until the `silver bullet' battery appears on the market, hybrids
+may well be the path to the future.
+<p>
+<hr width=40%>
+<p>
+
+The above is copyright Michael H. Bianchi.  Permission to copy is granted
+provided the entire article is presented without modification and this notice
+remains attached.<P>
+
+
+Official American Tour de Sol information is available from the sponsor,
+the Northeast Sustainable Energy Association (NESEA) at 413-774-6051 and through these web pages<P>
+
+All media enquiries should be addressed to ...<P>
+<pre>  
+	        Jack Groh
+        	Groh Associates
+        	Sustainable Public Relations
+        	email: GrohPR@aol.com
+        	(401)732-1551 tel
+        	(401)732-0547 fax
+</pre>
+<p>
+
+<hr>
+<p>
+
+<center>
+<table border=2>
+<tr><td><A HREF="nesea_index.html">Homepage</A></td><td><A HREF="background.html">Background</A></td><td><A HREF="rules.html">Rules</A></td><td><A HREF="routemap.html">Route & Events</A></td><td><A HREF="entries.html">Entries</A></td><td><A HREF="results.html">Results</A></td><td><A HREF="nesea.html">Fact Sheets</A></td><td><A HREF="weather.html">Weather</A></td><td><A HREF="extra.html">Extra!</A></td>
+</tr>
+</table>
+</center>
+<p>
+
+</DOC>

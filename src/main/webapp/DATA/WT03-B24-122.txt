@@ -1,0 +1,118 @@
+
+<DOC>
+<DOCNO>WT03-B24-122</DOCNO>
+<DOCOLDNO>IA053-000894-B004-35</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/old.sept.html 129.174.40.15 19970123201304 text/html 5435
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:11:52 GMT
+Server: NCSA/1.5.2
+Last-modified: Sat, 16 Sep 1995 15:50:11 GMT
+Content-type: text/html
+Content-length: 5252
+</DOCHDR>
+<HTML>
+<head>
+<TITLE>Information on the NIS&T Key Escrow Export meeting</TITLE>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+
+<H1>NIS&T Key Escrow Export Meeting Information</H1>
+<h2>The NIS&T meeting on key escrow export</h2>
+The Clinton Administration is revising parts of the 
+ill fated Clipper initiative. The key action was a two day long
+meeting on key escrow and export regulations that took place
+September 6 and 7, 1995. 
+<p>
+<a href="./nist/pdfopinion.html">Pat's Overview Opinion</a>
+<p>
+<h2>Key information on the meeting include:</h2>
+<ul>
+<h3>Agenda and official information</h3>
+<li><a href="./crypto/welcome">Welcome message</a>
+<li>Potential <a href="./crypto/attendees">attendees</a>
+<li><a href="./crypto/agenda">agenda</a>
+<h3>Position papers:</h3>
+<li>Topic 1 <a href="./crypto/topic1.html">General issues</a>
+<li>Topic 2 <a href="./crypto/topic2.html">Escrow agent characteristics</a>
+<li>Topic 3 <a href="./crypto/topic3.html">Export issues</a>
+<h3>Handouts and presentations on Criteria</h3>
+<li><a href="./nist/bsa.html"> Business Software Aliance</a>
+<li><a href="./nist/denning.html"> Dorothy Denning's comments</a>
+<li><a href="./nist/kammer.html"> Kammer and Nelson's presentation</a>
+<li><a href="./nist/national.html">National Semiconductor's CAKE</a>
+<li><a href="./nist/tecsec.html"> TECSEC's product</a>
+<li><a href="./nist/tis.html"> TIS's comments on the criteria</a>
+<li>During the first breakout session, in the technical discussion
+of criteria # 5 and #6, an authorless (presumably government issued)
+"Example Potential Solutions" paper was distributed. It caused a lot
+of grumbling amongst the attendees, as they were supposed to discuss it,
+without any prior chance to read or react to it. Here are two versions
+of it, First,
+<a href="./nist/sample_solutions.html"> 
+Anonymous Sample Solutions (HTML by PDF)</a> 
+and a simple ASCII version <a href="./nist/sample_solutions.txt">
+Sample Solutions (ASCII text by John Young)</a>
+<p>
+I have not seen an electronic version of the paper that I received. It
+contains the following paragraph:
+<p>
+"Example Solutions to export criteria 5 and 6 are identified below to help
+give a better feel for approaches that implementors may take to satisfy the criteria. The information in
+this paper is not intended to represent fail-safe, cookie cutter solutions to
+the criteria, but only to 
+generate more detailed discussions."
+<p>
+It is also interesting to note that John Young has an electronic document
+with all of the sample solutions (a solution for each of the ten criteria).
+I never saw a paper document with all ten solutions. The one that was 
+handed to me had only two criteria, #5 and #6. I talked to attendees
+of other breakouts, and they had received nothing.
+<h3>Handouts and presentations on "approved" escrow agents</h3>
+<li>CDT's presentation is available twice, I've made 
+<a href="./nist/cdt_nist.html">a local copy </a>as CDT's web server is slow,
+and here is a link to <a href="http://www.cdt.org/crypto/cdt_nist_090795.html">
+CDT's own copy of their presentation </a>
+<li><a href="./nist/vtwover.html"> VTW's Overview (from BillAlert)</a>
+<li><a href="./nist/vtw.html"> VTW's Presentation</a> 
+<li><a href="./nist/hoffman.html">Professor Hoffman of GWU </a>
+<li><a href="./nist/kam.html">Ken Mendelsen's Presentation's text </a>
+<h3>Notes from the breakout sessions that I recorded</h3>
+<li>"official" report sent to NIST of breakout session on 
+<a href="./nist/crit56.html">Session C1/C2, Criteria 5 and 6</a>
+<li>"official" report sent to NIST of breakout session on 
+<a href="./nist/techcrit.html">Criteria Technial discussion</a>
+<li><a href="./nist/cp1.html">Cypherpunks posting, day 1 (HTML)</a> and a
+PGP-signed 
+<a href="./nist/cp1.asc"> (ASCII version) Cypherpunks posting, day 1</a>
+<li><a href="./nist/cp2.html">Cypherpunks posting, day 2 (HTML)</a> and a
+PGP-signed 
+<a href="./nist/cp2.asc"> (ASCII version) Cypherpunks posting, day 2</a>
+<h3>Media coverage</h3>
+<li><a href="./nist/nyt.html>New York Times coverage</a>
+<li><a href="./nist/post.html">Washington Post business section coverage</a>
+<h3>Links to other attendee's comments and reactions</h3>
+<li><a href="./nist/plesser.html">Ron Plesser's analysis</a>
+<li><a href="http://www.clark.net/pub/cme/html/nist-ske.html">Carl Ellison's public comments</a>
+<li>Carl Ellison's 
+<a href="http://www.clark.net/pub/cme/html/nist-ske.html#geoff">Open 
+letter to Geoff Greiveldinger</a> and Carl's paper proving
+that <a href="http://www.clark.net/pub/cme/html/no-ke.html">the Goverment
+Doesn't Want Key Escrow</a>
+<li><a href="./nist/david.html">David Lesher's posting</a>
+<li>CDT released policy paper on Clipper II, 
+<a href="./nist/cdt_policy.html"> 
+this is a local copy</a> and here is 
+<a href="http://www.cdt.org/publications/pp2440911.html">
+a link to CDT's own (slow) site</a>
+<h3>Related public testimony</h3>
+<li><a href="./nist/nsa.html">NSA Clipper testimony</a> sounds a lot
+like the NIST testimony from the Government speakers.
+</ul>
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 16, 1995.  Backto <a href="./hotlist.html">Pat's hotlist</a> Backto <a href="./index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

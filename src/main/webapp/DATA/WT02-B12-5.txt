@@ -1,0 +1,405 @@
+
+<DOC>
+<DOCNO>WT02-B12-5</DOCNO>
+<DOCOLDNO>IA087-000625-B041-8</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.036.html 130.91.195.242 19970122054929 text/html 15357
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:49:30 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 15185
+Last-modified: Tue, 22 Nov 1994 06:31:17 GMT
+</DOCHDR>
+700 Club Report on the Clipper Chip on Wednesday, October 20, 1993 <p>
+
+Date: Tue, 2 Nov 93 04:08:13 -0800
+From: mlshew@netcom.com (Mark Shewmaker)
+To: cypherpunks@toad.com <p>
+
+On October 20, 1993, the 700 Club gave a report on the Clipper chip.
+The report was fantastic.  If you want to convince people why the
+chip is so very dangerous, and why cryptographic freedoms are so
+important, I recommend that you take a good look at this. <p>
+
+Most people don't take to overly technical explanations of things,
+at least for the first round of explanations.  This is an excellent
+model of starter explanation for such people. <p>
+
+I've included a transcript of the show's Clipper segments. <p>
+
+Notice one important thing:  The report is not overtly religious in
+tone.  It does not need to be.  Encryption and privacy issues cut
+across many political and religious lines.  There is no need to
+alienate the people you are trying to convince by insulting their
+group affiliations. <p>
+
+Notes on the transcript:  It includes only the Clipper-chip segments.
+The transcript is in three sections.  The first is from the intro to
+the show where they show clips of future segments of that days show,
+the second is the pre-commercial "Next: The Clipper chip, here on the
+700 Club", and the last is the actual report. <p>
+
+All typos and inaccuracies are mine.  The editing I did to the report
+is: (1) remove "uh"'s (2) try to add returns in order to put the speech's
+format into some semblance of paragraph form for easier reading, and
+(3) change one case of two people talking simultaneously (at the end)
+to one person saying a few words, followed by the other saying a few words. <p>
+
+People in the report:  Ben Kinchlow and Terry Meeuwsen are the hosts,
+who talk about the stories between themselves, and Julia Zaher is the
+reporter for the story.  She speaks both in a voiceover to the report,
+and in the report, interviewing Jerry Berman, Lynn McNulty, Lance Hoffman,
+and of course Dorothy Denning. <p>
+
+By the way, they showed the Clipper chip itself!  Or, at least they
+showed something they claimed to be the Clipper chip.  Unfortunately,
+there was no close-up, just the chip in someone's hand, with the chip
+taking about a sixteenth of the screen.  It looked like a 28 pin PLCC
+package, with the cheaper tin plated leads.  Odd that there are so few pins. <p>
+
+Here's the transcript: <p>
+
+[The following was clipped from the intros to the that day's topics] <p>
+
+Ben Kinchlow:
+               We've also got a word of caution for you because
+               very soon, if you're familiar with this song:
+               _Every_Move_You_Make,_Every_ _Step_You_Take:  The
+               federal government could be watching you! <p>
+
+Jerry Berrman:
+                We are going to conduct our lives in electronic
+                media:  Order our movies, order our television
+                shows, decide what schools we send our children
+                to, what programs we want to, what products we
+                want to buy, what magazines we want downloaded
+                into our homes. <p>
+
+Ben Kinchlow:
+               And if you're a big fan of large government, this
+               tiny computer chip could now give the government,
+               Big Brother, instant access to every detail of your
+               private life. <p>
+
+And we'll have details of that still to come. <p>
+
+Terry? <p>
+
+Terry Meeuwsen:
+                 Right...Scary. <p>
+
+---
+[The following is the pre-commercial message.]
+--- <p>
+
+Ben Kinchlow:
+               Well coming up next... The clipper computer chip. <p>
+
+It could be a key to invading your privacy. <p>
+
+We'll have that for you as the 700 club continues. <p>
+
+---
+[The following is the actual report.]
+--- <p>
+
+Terry Meeuwsen: The famous line from the book _1984_ was
+                "Big Brother is watching you", and in the future,
+                that could prove to be true. <p>
+
+How would Big Brother watch you? <p>
+
+What method would he use? <p>
+
+Some privacy experts fear the means could be--
+                a computer chip.  CBN News correspondent
+                Julia Zaher brings us the story from Washington. <p>
+
+Julia Zaher:
+(voiceover)
+            The way we communicate is changing rapidly.  It won't
+            be long before our telephone, our computer, and
+            perhaps even our television will all be one device. <p>
+
+Jerry Berman of the Electronic Frontier Foundation
+            says we'll use that device to conduct most of our
+            daily business, our personal business; and for some of
+            us, our professional business. <p>
+
+Jerry Berrman: <p>
+
+We are going to conduct our lives in electronic
+                media:  Order our movies, order our television
+                shows, decide what schools we send our children
+                to, what programs we want, what products we want
+                to buy, what magazines we want downloaded into our
+                homes. <p>
+
+Julia Zaher:
+(voiceover)
+              Berman and others in the communications and computer
+              industries welcome the innovative technology, but
+              they also worry that a new danger is threatening the
+              privacy of every American. The danger is that a
+              computerized record of nearly all of our activities
+              will be constantly accumulating.  That record could
+              show virtually every move we make, from what we buy,
+              to how much money we make, to what political causes
+              we support. <p>
+
+To protect our privacy, Berman and others believes,
+              more people will start doing what the government and
+              the military have done for decades:  Add scrambling
+              devices to telephones and computers, to keep
+              outsiders from tapping into important information
+              and conversations.  That process of coding and
+              decoding information is called encryption. <p>
+
+Jerry Berrman:
+                Today we don't think of encrypting our
+                communications, but it will be done with a flick
+                of a button. <p>
+
+Julia Zaher:
+(voiceover)
+              Already, AT&amp;T makes a scrambling device for
+              telephones.  Many businesses, especially those with
+              overseas offices, use these scrambling devices
+              routinely. <p>
+
+They also take advantage of the almost 300 computer
+              software programs available to code and decode
+              computer programs and electronic mail. <p>
+
+The Clinton administration has taken a great
+              interest in this information revolution, and the
+              government has invented its own scrambling device. <p>
+
+Lynn McNulty:
+               This is one of the clipper chips.  The chip itself
+               costs about twenty-five dollars. <p>
+
+Julia Zaher:
+(voiceover)
+              The new invention is known as the Clipper chip.  The
+              chip is supposed to provide the strongest possible
+              method of coding phone, FAX, and computer
+              transmissions to prevent unwanted eavesdropping. <p>
+
+The chip is supposed to be on the market soon. <p>
+
+Lynn McNulty is with the National Institute of
+              Standards and Technology, known as NIST for short. <p>
+
+President Clinton has commissioned NIST to help make
+              the Clipper chip the highest standard for scrambling
+              information.  The White House wants to see more
+              businesses and individuals use the Clipper chip to
+              protect their communications once it's on the market. <p>
+
+The reportedly unbreakable scrambling code in the
+              chip would be a big plus in the fight to keep
+              information private. <p>
+
+But there's a catch. <p>
+
+Lynn McNulty:
+               A good part of the technical details of the, that
+               underlie the standard will not be made public,
+               which is a departure from the way we've done
+               business in the past. <p>
+
+Julia Zaher:
+(voiceover)
+              The details of how Clipper works and the keys that
+              can break the code are all being kept secret by the
+              government. <p>
+
+That has nearly everyone in the computer and
+              communications industries alarmed. <p>
+
+Lance Hoffman is a computer science and encryption
+              coding and decoding expert. <p>
+
+Lance Hoffman:
+                The administration wants to control the whole
+                process, and wants the government to control all
+                the keys, is what it boils down to--that's the
+                real problem. <p>
+
+Julia Zaher:
+(voiceover)
+              The government says it alone must hold the keys that
+              can break Clipper's private scrambling code.  That
+              would mean that only government agencies could
+              eavesdrop on computer and telephone transmissions.
+              Private agencies, or individuals like private
+              detectives couldn't do it. <p>
+
+The FBI and other law enforcement agencies say,
+              instead of getting court orders for wiretaps, in the
+              future they'll be routinely requesting codes that
+              are scrambling computers and telephones. <p>
+
+Dorothy Denning is one of the five outside computer
+              experts who had the chance to examine the Clipper
+              chip and try to break its code. <p>
+
+Julia Zaher:
+              And what happened? <p>
+
+Dorothy Denning:
+                  I failed.  I didn't break it. <p>
+
+Julia Zaher:
+              There was no way you could break it? <p>
+
+Dorothy Denning:
+                  There was no way I could break it. <p>
+
+Julia Zaher:
+(voiceover)
+              Denning is one of the very few people in the
+              computer science field who sees no danger in the
+              government holding the only keys that can break
+              Clipper's code. <p>
+
+Dorothy Denning:
+                  ...And this initiative does not in any way to
+                  expand the government's authority to intercept
+                  communications. <p>
+
+Julia Zaher:
+(voiceover)
+              Denning also says Clipper's unbreakable code would
+              make it more difficult for police or the FBI to do
+              illegal wiretaps. <p>
+
+But Hoffman and many others disagree.  They say that
+              all of the secrecy about how clipper works, combined
+              with the government alone holding the keys to break
+              the code, would put the privacy of everyone using
+              clipper in jeopardy. <p>
+
+Hoffman says that while the chip is just one of many
+              scrambling devices now, the government could
+              eventually argue that everyone coding their
+              information must use clipper <p>
+
+Lance Hoffman:
+                There's no reason they couldn't change their mind
+                at a later point and say "well we tried it
+                voluntari..." "We tried it as a voluntary measure,
+                it doesn't work, so now it's going to be
+                mandatory." <p>
+
+Julia Zaher:
+(voiceover)
+              Privacy advocates like Jerry Berman point out the
+              government has been known to spy on citizens when it
+              believes they hold dangerous political opinions. <p>
+
+Jerry Berrman:
+                There are good governments, there are bad
+                governments.  We've gone through abusive periods
+                where we've had intelligence agencies chasing
+                different political dissidents from the right and
+                left around. <p>
+
+We worry about these things. <p>
+
+Julia Zaher:
+(reporting)
+              Computer coding and decoding standards may all seem
+              irrelevant at this point, but they'll be important
+              in the future to protect your privacy. <p>
+
+The government's Clipper chip is the most powerful
+              coding and decoding device developed so far. <p>
+
+It hasn't been decided yet if Clipper will be the one
+              national standard used to protect electronic
+              privacy, but if it is, it could also pose the
+              greatest threat, if those decoding keys, held by the
+              government, fall into the wrong hands. <p>
+
+Julia Zaire, CBN News, Washington. <p>
+
+Ben Kinchlow:
+               And some of us would say that the wrong hands for
+               them to fall into is the government!  You know. <p>
+
+What your talking about here, essentially, is a
+               giant superhighway.  This is what the President,
+               Vice-President Gore is recommending--that we have
+               this super-highway, which on the surface is
+               wonderful.  It enables us all across the world to hook up and,
+               you know, exchange information and communications
+               with people, and that's a wonderful idea, and we
+               need to take full advantage of what's going on in
+               technology today:  Marvelous things. <p>
+
+Like one of our cameramen is hooked up to something
+               called Internet, where you can pull out files from
+               the university of Tokyo, if you will. <p>
+
+I mean, it's a wonderful idea. <p>
+
+The problem is, when the government comes in and
+               starts saying, "The only" I mean, everybody has
+               this scrambling device, but the only people who
+               can unscramble this device is the government. <p>
+
+But the government says that "we must have this"
+               in order to track down criminals and terrorists. <p>
+
+The problem is, "criminals and terrorists"
+               eventually become who the government says
+               "criminals and terrorists" are. <p>
+
+And it will not be long before anybody who
+               disagrees with the government, then, can become a
+               criminal, and his whole activities can be tracked
+               down. <p>
+
+And indeed what Orwell said about 1984 becomes a
+               reality. <p>
+
+The Big Brother has the capacity to watch you,
+               track you. <p>
+
+And by the way, interestingly enough, they do
+               have, and have developed, a small uh <p>
+
+Terry Meeuwsen:
+                 Oh, I don't want to know this <p>
+
+Ben Kinchlow:
+               tracking device that goes under <p>
+
+Terry Meeuwsen:
+                 Under the skin? <p>
+
+Ben Kinchlow:
+               under your skin.  In fact, they used some of it,
+               according to one report I read, over in the war
+               that just took place in the middle east, so they
+               could track our men by satellite. <p>
+
+Terry Meeuwsen:
+                 Well, you know [sigh], the bottom line is that
+                 it's the same thing we've been hearing day after
+                 day after day: More government control, more
+                 government control. So, we need to hear that... <p>
+
+Ben Kinchlow:
+               The operative word here being 'control.' <p>
+
+Terry Meeuwsen:
+                 Yeah. <p>
+
+Ben Kinchlow:
+                Watch it. <p>
+
+</DOC>

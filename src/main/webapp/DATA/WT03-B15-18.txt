@@ -1,0 +1,151 @@
+
+<DOC>
+<DOCNO>WT03-B15-18</DOCNO>
+<DOCOLDNO>IA060-000337-B003-382</DOCOLDNO>
+<DOCHDR>
+http://www.atemi.com:80/basic.html 206.148.208.105 19970115073838 text/html 5432
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 07:37:06 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Set-Cookie: Apache=widener18974853313826908; path=/
+Content-length: 5208
+Last-modified: Thu, 02 Jan 1997 23:38:10 GMT
+</DOCHDR>
+<!doctype html public "-//W30//DTD W3 HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE> Basic NetShade Operation</TITLE>
+</HEAD><BODY BGCOLOR="#ffffff"><H1><CENTER>Basic NetShade Operation </CENTER>
+</H1><P><HR WIDTH=90% SIZE=4>
+<P>
+NetShade is fairly easy to operate, but because it operates invisibly, it
+is not
+always obvious how your network data is being protected.  To help explain
+how
+this application works, we have developed a series of case studies that
+demonstrate how NetShade establishes secure sessions in a simple network
+environment.
+<P>
+If you are more interested in how NetShade handles RSA keypair exchange,
+insecure
+session requests and multiple encryption algorithms, or how NetShade could
+be
+installed on a LAN, WAN or Apple Remote Access (ARA) environment, consult
+the
+document titled <A href="advanced.html">Advanced NetShade Operation</A>.
+<P>
+<HR WIDTH=90% SIZE=4>
+<H2>Page Contents:
+</H2><UL><LI><A href="#case1">Case 1: An Insecure Network</A>
+<LI><A href="#case2">Case 2: Two NetShade Users</A>
+<LI><A href="#case3">Case 3: Adding a Fourth User</A>
+</UL><P><HR WIDTH=90% SIZE=4>
+<A name="case1"></A>
+<H2><A name="case1">Case 1: An Insecure Network</A>
+</H2><P>Figure 1 illustrates an extremely simple network with just three
+users: Alice,
+Bob and Trent.  Whenever one of these users wants to send private data to
+another
+user over the network, they are faced with a problem: the way the network
+is
+constructed means that the data will be sent to <B>all</B> the users on the
+network.
+<P>
+<CENTER><IMG src="11.GIF"></CENTER>
+<P>
+This means that normally, if Alice was sending network data (e-mail, shared
+files, etc.) to Bob, Trent's machine would also receive the data, but would
+then
+discard it after recognizing that the data was intended for Bob.  But using
+a
+common network utility called a <B>protocol analyzer</B>, Trent can capture
+and
+record the data before his machine discards it.  This method of network
+eavesdropping is essentially undetectable, so Alice and Bob might never know
+that
+Trent has been reading their private correspondence.
+<P>
+<HR WIDTH=90% SIZE=4>
+<H2><A name="case2">Case 2: Two NetShade Users</A>
+</H2><P>NetShade keeps private data out of eavesdroppers' hands by
+<B>encrypting</B> it,
+making it incomprehensible to anyone who doesn't know how to unscramble the
+data.
+ Whenever a network connection between two NetShade users is established,
+NetShade encrypts everything sent between those two machines, creating a
+<B>sealed session.</B>
+<P>
+<CENTER><IMG src="12.GIF"></CENTER>
+<P>
+In Figure 2, Alice has established a sealed session with Bob.  Now, when
+Trent
+tries to eavesdrop on Alice and Bob's network messages, all he will see is
+a
+stream of white noise.
+<P>
+<P>
+<HR WIDTH=90% SIZE=4>
+<A name="case3"></A>
+<H2><A name="case3">Case 3: Adding a Fourth User</A>
+</H2><P>The network environment gets a little more complex when you add a
+fourth network
+entity -- another user, a file server, etc. -- as shown in Figure 3.
+<P>
+<CENTER><IMG src="13.GIF"></CENTER>
+<P>
+As we mentioned in the previous case, NetShade can only set up secure
+sessions between NetShade users.  So if someone else's machine is not protected,
+all the data sent between your machine and that machine will be vulnerable
+to
+eavesdropping attacks.  In Figure 3, Bob has currently established a sealed
+session with Alice, and is also connected to Carol.  But since Carol is not
+running NetShade, Trent will be able to intercept all the data sent between
+Carol
+and Bob.
+<P>
+<CENTER><IMG src="14.GIF"></CENTER>
+<P>
+Installing NetShade on Carol's machine corrects this problem (see Figure
+4). 
+Now, Bob can establish secure connections with Alice and Carol simultaneously,
+protecting all of his network messages from Trent's eavesdropping attacks.
+Moreover, since each sealed session is protected with a unique key, Alice
+will be
+unable to eavesdrop on Bob's connection with Carol, even though she is running
+NetShade and is connected to Bob.  By the same token, Bob will be unable
+to
+eavesdrop on Alice's connection with Carol.
+<P>
+Because Trent is not running NetShade, all of his network data will be vulnerable
+to eavesdropping, even if he is connected to someone who is running NetShade.
+Everyone else on the network, however, will be able to share their private
+data
+without fear of being overheard.  (Note: If Alice or Bob would rather not
+allow
+Trent to connect with their machines over an insecure medium, NetShade can
+also
+be configured to reject all insecure connections.  This feature is described
+in
+more detail in the document titled <A href="advanced.html">Advanced NetShade
+Operation.</A>)
+<P>
+<HR WIDTH=90% SIZE=4>
+<CENTER></CENTER>
+<P><CENTER>
+Click <A href="advanced.html">here</A> to read "Advanced NetShade
+Operation."</CENTER>
+<P><CENTER><HR WIDTH=65%></CENTER>
+</P><CENTER><TABLE BORDER CELLPADDING="2"><TR><TD><CENTER><A 
+HREF="overview.html">Home</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="free_stuff.html">Free Stuff</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="sales_info.html">Sales</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="product_info.html">Product Info</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="links.html">Links</A>
+</CENTER>
+</TD></TR></TABLE></CENTER><P><HR>
+</BODY></HTML>
+</DOC>

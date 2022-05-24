@@ -1,0 +1,117 @@
+
+<DOC>
+<DOCNO>WT02-B06-133</DOCNO>
+<DOCOLDNO>IA096-001029-B019-7</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/nist1.html 205.177.10.31 19970215020536 text/html 4545
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 02:04:16 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>NIST Discussion Paper #1 - Export of Software Key Escrowed Encryption</title>
+</head>
+<body>
+<pre>         
+Key Escrow Issues Meeting, September 6-7, 1995
+Discussion Paper #1
+
+
+                      Issues -- Export of
+                 Software Key Escrowed Encryption
+
+
+On August 17, 1995, the Administration announced its proposal to
+permit the ready export of software encryption provided that the
+products use algorithms with key space that does not exceed 64
+bits and the key(s) required to decrypt messages/files are
+escrowed with approved escrow agents.  Under the proposal,
+products will be reviewed to verify that they satisfy the
+criteria and, if so, they will be transferred to the Commodity
+Control List administered by the Department of Commerce where the
+products can be exported under a general license (in much the
+same way that 40-bit RC2/RC4 encryption is licensed today).
+
+We are working toward creating broadly stated criteria that are
+in the nature of performance specifications.  To meet these
+criteria, encryption products will need to implement key escrow
+mechanisms that cannot be readily altered or bypassed so as to
+defeat the purposes of key escrowing.
+
+The criteria, when finalized and published, will state the
+objectives, but not the exact technical method(s), by which those
+objectives are satisfied.  This is to provide software publishers
+the flexibility to design methods for meeting our stated
+objectives in a manner that is compatible with the design of
+their products.  There are, therefore, a number of questions we
+must work together to answer in order to draft effective
+criteria.  These questions are:
+
+*    Avoiding multiple encryption -- How can the product be
+     designed so as to prevent doubling (or tripling, etc.) the
+     key space of the algorithm?
+
+*    Disabling the key escrow mechanism -- How can products be
+     made resistant to alteration that would disable or
+     circumvent the key escrow mechanism?  How can the "static
+     patch" problem be avoided?  How can this be tested?
+
+*    Access to escrow information -- What mechanisms must be
+     designed into encryption products to allow authorized access
+     to escrowed keys?  This likely includes the identity of the
+     key escrow agent(s) and a serial number for the key escrow
+     agent to use to identify the key(s)/component(s) necessary
+     to decrypt the message.  What other information will be
+     necessary to be provided to the escrow agent to identify the
+     necessary key(s)/component(s)?  Are there other comparable
+     viable approaches?
+
+*    Non-escrowed use -- How can products be made so that they do
+     not function with non-escrowed products (or tampered
+     escrowed products)?  How can this be tested?
+
+*    Limiting surveillance -- How can products be designed so
+     that information both sent and received by the user can be
+     decrypted without release of keys of other users?
+
+*    Practical Key Access -- How can mechanisms be designed so
+     that repeated involvement of escrow agents is not required
+     for decryption for multiple files/messages during the
+     specified access period?
+
+*    Assurance that keys are escrowed -- How can it be assured
+     that key escrow products are indeed satisfactorily escrowed?
+     For example, products could be required to be escrowed at
+     time of manufacture or be made inoperable until properly
+     escrowed.
+
+*    Ability to re-escrow keys -- How can products be designed so
+     that new keys can be escrowed at the user's discretion with
+     a U.S. Government approved escrow agent?
+
+*    Certified escrow agents -- Can products be designed so that
+     only escrow agents certified by the U.S. government
+     (domestic, or under suitable arrangements, foreign) are
+     utilized?  What should be the criteria for an acceptable
+     U.S. escrow agent?
+
+                         --------------
+
+With your input, we are hopeful that this effort will lead to
+definitive criteria, which will facilitate the development of
+exportable products and help minimize the time required to obtain
+export licenses.  The Administration seeks to finalize such
+criteria and make formal conforming modifications to the export
+regulations before the end of 1995.
+
+</pre>
+<hr size = 2>
+Return to the <a href = "index.html">CDT Crypto Page</a><br>
+Return to the <a href = "../index.html">CDT Home Page</a>
+
+
+</body>
+</html>
+</DOC>

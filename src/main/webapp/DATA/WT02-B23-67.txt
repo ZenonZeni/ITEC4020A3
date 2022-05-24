@@ -1,0 +1,67 @@
+
+<DOC>
+<DOCNO>WT02-B23-67</DOCNO>
+<DOCOLDNO>IA054-000911-B007-105</DOCOLDNO>
+<DOCHDR>
+http://www.marinewatch.com:80/form/Subscription.html 206.184.1.184 19970124033822 text/html 1524
+HTTP/1.0 200 OK
+Date: Fri, 24 Jan 1997 03:38:23 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 1353
+Last-modified: Mon, 26 Feb 1996 03:44:42 GMT
+</DOCHDR>
+<html><head><title>
+Subscription Form</title></head>
+<body>
+<HR><FORM METHOD="post"
+          ACTION="/cgi-bin/form_process.pl/home/marwatch/form/Order.conf">
+<CENTER><H2>Marine Watch Subscription Form</H2></CENTER>
+
+Please contact me to begin my subscription to Marine Watch..<P>
+
+<TABLE border="0" width="0">
+<TR><TD>First Name:</TD>
+    <TD><input type="text" size=45 name="First_Name"><br></td></tr>
+
+<TR><TD>Last Name:</TD>
+    <TD><input type="text" size=45 name="Last_Name"><br></td></tr>
+
+<TR><TD>Address:</TD>
+    <TD><input type="text" size=45 name="Address"><br></td></tr>
+
+<TR><TD>City:</TD>
+    <TD><input type="text" size=30 name="City">
+State:  <input type="text" size=5 name="State"><br></td></tr>
+
+<TR><TD>Zip Code:</TD>
+    <TD><input type="text" size=15 name="ZipCode"><br></td></tr>
+
+<TR><TD>Country:</TD>
+    <TD><input type="text" size=45 name="Country"><br></td></tr>
+
+
+<TR><TD>Email address:</TD>
+    <TD><input type="text" size=30 name="Email"><br></td></tr>
+
+<TR><TD valign=top>Comments:</TD>
+    <TD><input type="text" size=45 name="comments"><br></td></tr>
+
+</TABLE>
+
+
+
+
+<P>
+<INPUT TYPE="submit" VALUE="Submit my request"><BR>
+<INPUT TYPE="reset"  VALUE="Clear this form"><BR>
+</FORM><P>
+
+<A HREF="../subscriptions.html">Subscription Page</A> | 
+<A HREF="index.html">Marine Watch Front Page</A></CENTER>
+
+
+
+</BODY> 
+</HTML> 
+</DOC>

@@ -1,0 +1,66 @@
+
+<DOC>
+<DOCNO>WT02-B16-203</DOCNO>
+<DOCOLDNO>IA060-000328-B017-11</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/balance.html 205.168.79.27 19970115023156 text/html 3127
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 02:31:57 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:45 GMT
+Content-length: 2953
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<title>DOE PV - Turning Sunlight Into Electricity</title>
+</HEAD>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>Balance of System</h2>
+
+<p><font size=+2>W</font>e may think of a complete PV system as comprising three subsystems.  On one side, we have
+the PV devices (cells, modules, arrays, etc.) that convert sunlight into direct-current (dc)
+electricity.  On the other side, we have the load, or the application for which the PV electricity is
+intended. Between these, we need a third subsystem to enable the PV electricity to be properly
+applied to the load.  This third subsystem is generally referred to as the "balance of system" or
+BOS.
+
+<p><img border=0 align=right hspace=15 vspace=3 src="images/bos.gif">
+<p><font color="#F79D00">This simple illustration shows the
+elements required to get the power created by the PV system to the end load (in this example a
+house).  The stand-alone system (a) uses battery storage to provide dependable dc electricity day
+and night.  Even for a home connected to the utility grid (b), PV can produce electricity during
+the day (converted to ac through the power conditioner).  This configuration is desirable because
+extra electricity can be <a href="pvutility.html">sold to the utility</a> during the day, and the utility can in turn provide
+electricity at night or during poor weather.  See this in action.</font>
+
+<br clear=all>
+<p>The BOS typically consists of structures for <a href="balance2.html">mounting the PV arrays or modules</a>
+and the <a href="balance4.html">power-conditioning equipment</a> that adjusts and converts the dc electricity to the proper form
+and magnitude required by an alternating-current (ac) load.  If required, the BOS also includes
+<a href="balance3.html">storage devices</a>, such as batteries, for storing PV-generated electricity to be used during cloudy
+days or at night.
+
+<p align=right><a href="balance2.html"><em>More . . . </em>Mounting Structures</a>
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>
+[<a href="pvhistory.html">History: The PV Effect</a>]
+[<a href="howworks.html">How It All Works</a>]
+[<a href="cells.html">From Cells to Arrays</a>]
+[<a href="flatplate.html">Flat-Plate Systems</a>]
+[<a href="concentrators.html">Concentrator Systems</a>]
+[<a href="balance.html">Balance of System</a>]
+[<a href="lightsun.html">Light and the Sun</a>]
+<p><em>U.S. Department of Energy Photovoltaics Program, 1996</em>
+</font>
+</center>
+</body>
+</html>
+</DOC>

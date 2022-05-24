@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+
+	<display-name>ITEC4020A3</display-name>
+	
+	<servlet>
+		<servlet-name>LuceneHandler</servlet-name>
+		<display-name>LuceneHandler</display-name>
+		<description></description>
+		<servlet-class>ITEC.LuceneHandler</servlet-class>
+	</servlet>
+
+	
+	<servlet-mapping>
+		<servlet-name>LuceneHandler</servlet-name>
+		<url-pattern>/LuceneHandler</url-pattern>
+	</servlet-mapping>
+	
+  	<session-config>
+    	<session-timeout>2</session-timeout>
+  	</session-config>
+
+</web-app>
+
+

@@ -1,0 +1,69 @@
+
+<DOC>
+<DOCNO>WT03-B25-33</DOCNO>
+<DOCOLDNO>IA008-000084-B024-339</DOCOLDNO>
+<DOCHDR>
+http://thor.aps.rwth-aachen.de:80/ecm/termine/termin_e.htm 137.226.180.78 19970222102634 text/html 2095
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Saturday, 22-Feb-97 09:00:48 GMT
+Content-Type: text/html
+Content-Length: 1889
+Last-Modified: Thursday, 28-Mar-96 19:23:38 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML VERSION="2.0">
+<HEAD>
+<!-- WEBMAGIC VERSION NUMBER="2.0" -->
+<!-- WEBMAGIC TRANSLATION NAME="ServerRoot" SRC="/var/www/htdocs/" DST="/" -->
+<!-- WEBMAGIC TRANSLATION NAME="ProjectRoot" SRC="./" DST="" -->
+<TITLE>International Diary </TITLE>
+</HEAD>
+<BODY>
+<FORM METHOD="QUERY" ACTION="/cgi-bin/danke_d.exe/FORM">
+<H1><IMG SRC="http://localhost/images/melogo.gif" ALIGN="MIDDLE" HSPACE="20">International Diary</H1>
+<P>
+<HR>
+<P>The following calendar contains a selection of international conferences, workshops and evenements in the areas of mechanical, electrival engineering and informatics. Please use the form at the end of this document to receive further information. Please <A HREF="/ecm/ecm/lage_e.htm">contact us directly</A>, to add more dates to the calendar. 
+<HR>
+<H4><INPUT TYPE="CHECKBOX" NAME="termind_w1" VALUE="off"> <A HREF="./iecon96.htm">IEEE - IECON96</A></H4>
+<P><I>5 bis 9 August 1996 in Taipei, Taiwan</I> 
+<P>IECON96 is an internation conference concerning industrial applications in the field of power electronics, control systems, robotics, signal processing and artificial intelligence. 
+<P><BR>
+ 
+<HR>
+<H4>Please send me additional information to the marked events:</H4>
+<PRE>
+Company  <INPUT TYPE="TEXT" NAME="company" SIZE="68">
+
+Name     <INPUT TYPE="TEXT" NAME="name" SIZE="68">
+
+Position <INPUT TYPE="TEXT" NAME="position" SIZE="68">
+
+Street   <INPUT TYPE="TEXT" NAME="street" SIZE="68">
+
+State  <INPUT TYPE="TEXT" NAME="country" SIZE="4">  - ZC <INPUT TYPE="TEXT" NAME="pc" SIZE="10"> City <INPUT TYPE="TEXT" NAME="city" SIZE="41">
+
+
+
+</PRE>
+<P><INPUT TYPE="SUBMIT" SIZE="30" VALUE="Send"> <INPUT TYPE="RESET" SIZE="30" VALUE="Reset"> 
+<PRE>
+
+</FORM>
+
+
+
+</PRE>
+<HR>
+<PRE>
+
+</PRE>
+<P><A HREF="http://localhost/ecm_e.htm"><IMG SRC="http://localhost/images/back.gif"></A> 
+<PRE>
+
+</PRE>
+</BODY>
+</HTML>
+</DOC>

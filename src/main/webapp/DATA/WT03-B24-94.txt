@@ -1,0 +1,68 @@
+
+<DOC>
+<DOCNO>WT03-B24-94</DOCNO>
+<DOCOLDNO>IA053-000895-B043-10</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/security.html 129.174.40.15 19970123194535 text/html 2942
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:44:25 GMT
+Server: NCSA/1.5.2
+Last-modified: Sat, 02 Dec 1995 20:37:13 GMT
+Content-type: text/html
+Content-length: 2759
+</DOCHDR>
+<HTML>
+<head>
+<TITLE>Pat's Security Hotlist </TITLE>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+
+<H1>Pat's Security Hotlist</H1>
+
+<P>
+<H2>Network security sources:</H2>
+<ul>
+<li><A HREF="http://www.commerce.net/information/services/security.html"> Internet Security FAQ</A>
+<li><A HREF="http://ganges.cs.tcd.ie/mepeirce/Project/tools.html"> List of Internet security schemes </A>
+<li><A HREF="http://www.commerce.net/software/Shttpd/Docs/Shttpd/home/html">Secure NCSA HTTP </A>
+<li><A HREF="http://home.netscape.com/newsref/std/SSL.html"> Netscape's SSL protocol </A>
+<li><A HREF="http://www.tis.com/Home/NetworkSecurity/WWW.html"> Trusted Information Systems </A>
+<li><A HREF="http://info.internet.isi.edu/R80828-83564-1m/in-drafts/id-abstracts.html"> Secure TCP/IP IETF drafts </A>
+<li><A HREF="http:// "> </A>
+<li> U.S. Army Special Operations Center
+<a href="http://otserver.soc.mil/docs/security/"> Security</a> information.
+<li><a href="http://www-swiss.ai.mit.edu/~bal/bal-home.html">
+Brian LaMaccia's homepage</a>
+<li>the Information Infrastructure Task Force (IITF)
+ <a href="http://ntiaunix1.ntia.doc.gov:70/0/iitf/security/fedrole.txt">
+National Infrastructure Security Issues</a> forumn draft report.
+<li>a nice mathematical treatment of trust is in 
+<a href="http://gatekeeper.dec.com/pub/DEC/SRC/research-reports/abstracts/src-rr-083.html">
+Authentication in Distributed Systems: Theory and Practice</a>
+<li>Fred Cohen's <a href="http://all.net">Info Security Heaven</a>
+<h2>Articles</h2>
+<li> <http://www.cs.purdue.edu/coast/coast.html>   
+The AI and author-ID security programs covered in the Nov 17, 1995
+ Science article </a>
+<li> Ross Anderson's <a href="ftp://ftp.cl.cam.ac.uk/users/rja14/robustness.ps.Z">'Robustness Principles' paper? (Crypto '95 proceedings)</a>
+<h3>Not so hot security stories</h3>
+<li>Financial Times on <a href="./crypto/citicorp">Citicorp Russian fraud</a>
+<li>Financial Times on <a href="./crypto/netscapeRNG">Netscape's random number
+generator flaw</a>
+</ul>
+No reasonable research into network security would be complete without
+looking at what are called "firewalls." While I don't like the term,
+firewalls are essential for corporate use of the Internet. The best
+source that I've found on them is Brent Chapman's firewalls mailing list.
+To subscribe send email to majordomo@GreateCircle.com with the message body of:
+<br>
+    	subscribe firewalls <yourname.host>
+<hr>
+And no modern discussion of security is possible without <a href="./crypto.html">cryptography.</a>
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a> 
+December 2, 1995  Backto <a href="./hotlist.html">Pat's hotlist</a> Backto <a href="./index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

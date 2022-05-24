@@ -1,0 +1,37 @@
+
+<DOC>
+<DOCNO>WT02-B07-158</DOCNO>
+<DOCOLDNO>IA007-000071-B044-64</DOCOLDNO>
+<DOCHDR>
+http://www.ethanolrfa.org:80/quiz.html 38.242.79.206 19970222043919 text/html 933
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.12
+Date: Saturday, 22-Feb-97 04:36:20 GMT
+Last-modified: Friday, 04-Oct-96 19:43:56 GMT
+Content-length: 743
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<TITLE>RFA QUIZ</TITLE>
+<BODY BGCOLOR="#ffffff">
+
+<H2> 1. What country uses the most ethanol in its transportation fuels market?</H2>
+<form action="/cgi-bin/quiz2.bat" method="POST">
+<input type="hidden" name="total" value=0>
+<BLOCKQUOTE>
+<input type="radio" name="user_ans" value=0> <B>A.</b> Argentina<BR>
+<input type="radio" name="user_ans" value=1> <B>B.</B> Brazil<BR>
+<input type="radio" name="user_ans" value=0> <B>C.</B> China<BR>
+<input type="radio" name="user_ans" value=0> <B>D.</B> France<BR>
+<input type="radio" name="user_ans" value=0> <B>E.</B> United States
+</BLOCKQUOTE>
+<CENTER>
+<input type="submit" value="Next Question">
+<input type="hidden" name="q" value="1">
+</FORM>
+<HR>
+</body>
+</html>
+
+
+</DOC>

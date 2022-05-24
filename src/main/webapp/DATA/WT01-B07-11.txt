@@ -1,0 +1,123 @@
+
+<DOC>
+<DOCNO>WT01-B07-11</DOCNO>
+<DOCOLDNO>IA039-000745-B024-292</DOCOLDNO>
+<DOCHDR>
+http://www.rss.chalmers.se:80/WWW_rsg/exjobb.htm 129.16.35.18 19970210104702 text/html 5568
+HTTP/1.0 200 Document follows
+Date: Mon, 10 Feb 1997 10:47:14 GMT
+Server: NCSA/1.5.1
+Last-modified: Thu, 21 Nov 1996 11:56:00 GMT
+Content-type: text/html
+Content-length: 5385
+</DOCHDR>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<TITLE>Untitled</TITLE>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Microsoft Word 2.04z">
+</HEAD>
+<BODY>
+<H1>Exjobb vid Radio- och Rymdvetenskap med inriktning mot mikrov&aring;gsfj&auml;rranalys.
+</H1>
+<P>
+Institutionen f&ouml;r Radio- och Rymdvetenskap med Onsala Rymdobservatorium
+kan erbjuda intressanta examensarbeten inom flera olika forskningsomr&aring;den.
+F&ouml;r en fullst&auml;ndig upps&auml;ttning se <A HREF="http://www.oso.chalmers.se/">Onsala-listan</A>.
+Nedan finner du, efter en presentation av gruppens forskningsverksamhet,
+beskrivningar av aktuella examensarben, liksom namn p&aring; kontaktpersoner.
+<P>
+Egna id&eacute;er till projekt kan naturligtvis ocks&aring; diskuteras.
+<H2>Aktuell forskning vid fj&auml;rranalysgruppen </H2>
+<P>
+Fj&auml;rranalysgruppen utnyttjar elektromagnetiska sensorer alltifr&aring;n
+VHF till millimeter v&aring;gor f&ouml;r observationer av v&aring;r
+egen jord, t ex f&ouml;r att utr&ouml;na utstr&auml;ckning och
+egenskaper hos havsis, f&ouml;r att kartl&auml;gga skogar och
+v&aring;tmarker, eller f&ouml;r att utforska ozonskiktet. M&aring;nga
+av till&auml;mpningarna handlar s&aring;ledes om milj&ouml;m&auml;tteknik.
+En stor del av arbetet &auml;r f n fokuserat p&aring; den europeiska
+milj&ouml;satelliten ERS-1 med dess syntetiska aperturradar (SAR).
+SAR-principen anv&auml;nder satellitens r&ouml;relse f&ouml;r
+att syntetisera en st&ouml;rre antenn, och d&auml;rmed erh&aring;lls
+en mycket h&ouml;g uppl&ouml;sning. Genom att modellera hur radarsignalerna
+v&auml;xelverkar med mediet och j&auml;mf&ouml;ra med in situ-m&auml;tningar,
+kan slutsatser dras om hur radarbilderna skall tolkas. Forskningen
+&auml;r allts&aring; inriktad p&aring; v&aring;gutbredning och
+mikrov&aring;gssystem. Verksamheten syftar till att utveckla nya
+och avancerade sensorer mot en viss m&ouml;tuppgift, vilket inneb&auml;r
+att verksamheten omfattar alltifr&aring;n systemegenskaper, elektromagnetisk
+spridning, bildbehandling, signalextraktion etc. Olika examensarbeten
+kan ha sin huvudinriktning mot olika aspekter.<BR>
+<UL>
+<LI><STRONG>Dataanalys: Sm&auml;ltp&ouml;lar och isegenskaper
+i Arktis </STRONG>
+</UL>
+<P>
+1991resp 1996 deltog fj&auml;rranalysgruppen i Arktis-expeditioner
+samtidigt som satellitt&auml;ckning med syntetisk aperturradar
+(ERS-1/2 samt RADARSAT) tog bilder &ouml;ver samma omr&aring;de.
+Video fr&aring;n helikopter resp andra ytt&auml;ckande m&auml;tningar
+finns f&ouml;r karakterisering av isytan etc. Examensarbetet g&aring;r
+ut p&aring; att analysera i vilken m&aring;n man kan best&auml;mma
+havsisegenskaper i Arktis med SAR-bilderna. Dessa egenskaper &auml;r
+av betydelse f&ouml;r att kartl&auml;gga eventuella klimatf&ouml;r&auml;ndringar.
+<P>
+Kontaktperson: Prof. Jan Askne, tel. 772 1843, email: <A HREF="mailto:askne@rss.chalmers.se">askne@rss.chalmers.se</A>
+<BR>
+<UL>
+<LI><B>Dataanalys: Vindbest&auml;mning fr&aring;n syntetisk aperturradar
+bilder</B>
+</UL>
+<P>
+Vind p&aring;verkar SAR signaturen fr&aring;n havsytor starkt
+via kappil&auml;rv&aring;gorna. Fr&aring;n meteorologiska prognoser
+kan man med relativt h&ouml;g noggrannhet best&auml;mma vindriktning
+medan man fr&aring;n SAR bilder skulle kunna best&auml;mma vindstyrka
+om man k&auml;nner vindriktning. Radarsignalen kan dock bli s&aring;
+stark att sensorn m&auml;ttas. Examensarbetet g&aring;r ut p&aring;
+att analysera m&ouml;jligheterna att best&auml;mma vindegenskaper
+fr&aring;n SAR bilder &ouml;ver &Ouml;stersj&ouml;n. Projektet
+utf&ouml;rs i samarbete med SMHI.
+<P>
+Kontaktperson: Prof. Jan Askne, tel. 772 1843, email: <A HREF="mailto:askne@rss.chalmers.se">askne@rss.chalmers.se</A>
+<BR>
+<UL>
+<LI><STRONG>Signalbehandling: SAR simulator </STRONG>
+</UL>
+<P>
+F&ouml;r en SAR simulator f&aring;r man implementera satellitbanan,
+antennstorlek, DEM-input, v&auml;lja frekvens och bandbredd, data
+windows (f&ouml;r att minska sidlober) och en processningsalgoritm,
+tex Doppler-Range eller Chirp-scaling. Implementeras helst i C,
+C++ eller Fortran kod f&ouml;r snabbhet (Matlab enkelt men inte
+s&auml;rskilt snabbt f&ouml;r detta.)
+<P>
+Kontaktperson: Patrik Dammert, tel. 772 1839, email: <A HREF="mailto:dammert@rss.chalmers.se">dammert@rss.chalmers.se</A>
+<BR>
+<UL>
+<LI><STRONG>Simulering: M&auml;tning av ozonrelaterade gaser med
+Odin </STRONG>
+</UL>
+<P>
+Odin &auml;r en till st&ouml;rsta delen svensk satellit som kan
+observera ozon och relaterade gaser i strato- och mesosf&auml;ren.
+Fj&auml;rranalysgruppen skall deltaga i arbetet att utv&auml;rdera
+data ifr&aring;n Odin. Ett mycket viktigt steg i detta &auml;r
+att kunna simulera en m&auml;tserie utf&ouml;rd av satelliten.
+Arbetet best&aring;r i att skapa ett programpaket som beskriver
+str&aring;lningstransporten i atmosf&auml;ren och teknisk prestanda
+hos Odin. Examensarbetet ber&ouml;r fr&auml;mst milj&ouml;m&auml;tteknik
+och modellering och kan utf&ouml;ras av 1-2 teknologer.
+<P>
+Kontaktperson: Patrick Eriksson, tel. 772 1883, email: <A HREF="mailto:patrick@rss.chalmers.se">patrick@rss.chalmers.se</A>
+<BR>
+<P>
+Listan uppdaterad 1996-11-19
+<P>
+<A HREF="rsg.htm">Tillbaka till huvudsidan </A>f&ouml;r l&auml;nkning
+till olika typer av projekt i gruppen
+</BODY>
+</HTML>
+</DOC>

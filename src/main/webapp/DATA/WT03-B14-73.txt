@@ -1,0 +1,100 @@
+
+<DOC>
+<DOCNO>WT03-B14-73</DOCNO>
+<DOCOLDNO>IA057-000944-B026-30</DOCOLDNO>
+<DOCHDR>
+http://gw.sentin.com:80/rfq.html 206.26.168.119 19970109200613 text/html 3229
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Thursday, 09-Jan-97 20:13:51 GMT
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<center><font size=6><B>Quotation for Laboratory Services</b></font></center>
+<hr>
+<form>
+Attention:<INPUT NAME="attention" SIZE="30">
+<br><br>
+Company:<INPUT NAME="company" SIZE="30">
+<br><br>
+Address:<INPUT NAME="address" SIZE="30">
+<br><br>
+City:<INPUT NAME="city" SIZE="20"> 
+State:<INPUT NAME="state" SIZE="2">
+Zip:<INPUT NAME="zip" SIZE="10">
+<br><br>
+Phone:<INPUT NAME="phone" SIZE="20"> 
+Fax:<INPUT NAME="fax" SIZE="20">
+<br><br> 
+E-mail:<INPUT NAME="email" SIZE="30">
+<hr>
+Matrix: Soil <INPUT type=checkbox name="soil"> Water <INPUT type=checkbox name="water"> Air <INPUT type=checkbox name="air"> 
+Sample containers requied? Yes <INPUT type=checkbox name="yes"> No <INPUT type=checkbox name="no">
+<br><br>
+Is a legally defensible data package required? Yes <INPUT type=checkbox name="yes"> No <INPUT type=checkbox name="no">
+<hr>
+<TABLE ALIGN="center" BORDER="0" CELLPADDING="4" CELLSPACING="10">
+<tr align="center">
+<td align="center"># Samples</td>
+<td align="center">Parameters</td>
+<td align="center">Method</td>
+<td align="center">TA Time</td>
+<td align="center">Price</td>
+</tr>
+<tr align="center">
+<td align="center"><INPUT NAME="samples1" SIZE="2"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+</tr>
+<tr align="center">
+<td align="center"><INPUT NAME="samples1" SIZE="2"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+</tr>
+<tr align="center">
+<td align="center"><INPUT NAME="samples1" SIZE="2"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+</tr>
+<tr align="center">
+<td align="center"><INPUT NAME="samples1" SIZE="2"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+</tr>
+<tr align="center">
+<td align="center"><INPUT NAME="samples1" SIZE="2"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+<td align="center"><INPUT NAME="samples1" SIZE="10"></td>
+</tr>
+<tr align="center">
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">Total</td>
+<td align="center"><INPUT NAME="total" SIZE="10"></td>
+</tr>
+</table>
+</form>
+<hr>
+<center><font size="4"><em>Please complete the above information and Fax to</EM> 205/534-9800</FONT></CENTER>
+<BR>
+&#169;Sentinel,Inc. 1996
+</BODY>
+</HTML>
+
+
+</DOC>

@@ -1,0 +1,119 @@
+
+<DOC>
+<DOCNO>WT03-B18-44</DOCNO>
+<DOCOLDNO>IA085-000610-B039-407</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/archit/abe.htm 150.145.4.16 19970216120715 text/html 4065
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:08:08 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 14:29:21 GMT
+Content-Length: 3867
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy Robotics Dept.: Control Architectures</title>
+<base href="http://www.ian.ge.cnr.it/robotics/archit/abe.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b><b><blink>
+        Control Architectures Data Base</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<h1 align="center"><i>ABE </i></h1>
+
+<h2><i>Autonomous Benthic Explorer</i></h2>
+
+<h3 align="center">Woods Hole Oceanographic Institution</h3>
+
+<hr>
+
+<p align="center"><img src="f-abe.gif" align="center" width="481"
+height="343"> </p>
+
+<p align="center"><img src="abe.gif" align="center" width="415"
+height="312"> </p>
+
+<hr>
+
+<p>This is a distributed, hierarchical control architecture based
+on two different layers, with different computational capabilities:
+the first with a low computation capability and very low power
+requirements, and the second with large and expandable
+computational power and higher power requirements. Some of the
+modules of the layers are: #ABE: performs mission planning and
+controls the operational activity of lower modules; it runs the
+Forth language, which allows fast and simple mission programming;
+each mission consists of a programmable sequence of vehicle movements,
+sleeping periods and data collection operations; #NAV: the
+navigator, whose task is to compute trajectories and execute
+navigation algorithms; #CON: controls thrusters and executes
+closed-loop control algorithms; #AM: handles the attitude
+sensors: yaw, pitch and roll sensors, compass; #DP: handles the
+depth sensors; #CAM: handles the image acquisition and storage
+capabilities; </p>
+
+<hr>
+
+<h4>Bibliography</h4>
+
+<ul>
+    <li>Yoerger D.R. , Bradley A.M. , Walden B. , <i>System
+        testing of the Autonomous Benthic Explorer</i>, Mobile Robots
+        for Subsea Environments, Monterey, CA (USA), 2-6 May
+        1994. </li>
+    <li>Bradley A.M. , Yoerger D.R. , <i>Design and Testing of
+        the Autonomous Benthic Explorer</i>, Proceedings of the
+        AUVS-93 20th Annual Technical Symposium and Exhibition,
+        Washington D.C. (USA), 28-30 June 1993, p.1044. </li>
+</ul>
+
+<hr>
+
+<hr>
+
+<h5><i>The Naval Automation Institute is NOT responsible for
+information related to the selected machine: all data have been
+retrieved from the bibliography included; any problem or
+suggestion should be notified to </i><a
+href="mailto:virgili@ian.ge.cnr.it"><i>virgili@ian.ge.cnr.it</i></a></h5>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

@@ -1,0 +1,112 @@
+
+<DOC>
+<DOCNO>WT03-B17-160</DOCNO>
+<DOCOLDNO>IA061-000341-B032-312</DOCOLDNO>
+<DOCHDR>
+http://calanus.nfh.uit.no:80/./htmldocs/homeolep.html 129.242.211.252 19970115110236 text/html 2833
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 11:02:04 GMT
+Server: Apache/1.0.3
+Content-type: text/html
+Content-length: 2662
+Last-modified: Thu, 16 Nov 1995 09:34:24 GMT
+</DOCHDR>
+<!doctype HTML public "-//W3O//DTD W3 HTML 3.0//EN">
+
+<html> 
+  <head>
+    <title>
+      Homepage for Ole-Petter Pedersen
+     </title> 
+  </head>
+
+  <BODY background="../grafikk/bbb.jpg" TEXT="#4499ff" link="ffff00" vlink="ffff00" alink="FF0000">
+
+  <center>
+
+   <applet codebase="../classes/LEDSign/LED" code="LED.class" width="500" height="48" align="center">
+   <param name="script" value="../classes/LEDSign/scripts/olepp.led">
+   <param name="border" value="2">
+   <param name="bordercolor" value="100,130,130">
+   <param name="spacewidth" value="3">
+   <param name="wth" value="122">
+   <param name="font" value="../classes/LEDSign/fonts/default.font">
+   <param name="ledsize" value="3">
+
+  
+   If you were using a Java-enabled browser,
+   you would see an animated scrolling text sign that looks like this:
+   <BR>
+   <IMG SRC="../classes/LEDSign/WWW/LEDSign.gif">
+   
+   </applet>
+
+<BR><p>
+<FONT FACE="arial">
+
+
+<TABLE WIDTH="100%" border=0>
+  <TR>
+ 
+    <TD ALIGN=center><img src="../grafikk/bb1.gif"  WIDTH="700">
+    </TD>
+  </TR>
+ <TR>
+    <TD ALIGN=center><img src="../grafikk/opp3.gif"  WIDTH="400"><P><P>
+    </TD>
+
+  </TR>
+
+  <TR>
+    <TD ALIGN=center><img src="../grafikk/bar1.gif"  WIDTH="680"><P><P>
+    </TD>
+  </TR>
+<TR>
+    <TD ALIGN=CENTER><H2>Please sit by my table and taste my meal !</H2>
+    </TD>
+  </TR>
+
+<TR>
+    <TD ALIGN=CENTER><img src="../grafikk/russ3d4.jpg"  WIDTH="340" HEIGHT="400" usemap="#safari"><p><P>
+    </TD>
+  </TR>
+ <TR>
+    <TD ALIGN=center><img src="../grafikk/bar1.gif"  WIDTH="680"><P><P>
+    </TD>
+  </TR>
+<TR>
+    <TD ALIGN=CENTER><H2>Would you like to look at my science ?</H2>
+    </TD>
+  </TR>
+<TR>
+    <TD ALIGN=CENTER><img src="../grafikk/annual.jpg"  WIDTH="340" HEIGHT="350" usemap="#poster"><P>
+    </TD>
+  </TR>
+</TABLE>
+
+    </CENTER><BR>
+
+
+
+    <ADDRESS>  
+      <i><IMG SRC="../grafikk/mail2.gif" align="middle"> <a href="mailto:olepp&#64;nfh.uit.no">olepp &#64; nfh.uit.no </a> </i>
+
+    </ADDRESS>
+  <map name="safari">
+<area shape="circle" coords="172,162,100" href="http://calanus.nfh.uit.no/htmldocs/safari/safari.html">
+</map> 
+<map name="poster">
+<area shape="circle" coords="60,395,200" href="http://calanus.nfh.uit.no/htmldocs/safari/poster.html">
+</map>
+  
+
+  <map name="opp3">
+<area shape="rect" coords="31,22,138,137" href="http://www.xmission.com">
+<area shape="default" nohref>
+</map>
+<embed src="./brikwall.mid" width=200 height=55 ALIGN=ABSBOTTOM AUTOSTART=true LOOP=true>
+<bgsound="./brikwall.mid" width=200 height=55 ALIGN=ABSBOTTOM AUTOSTART=true LOOP=true><P>
+
+</body>
+</html>
+</DOC>

@@ -1,0 +1,183 @@
+
+<DOC>
+<DOCNO>WT03-B26-6</DOCNO>
+<DOCOLDNO>IA029-000311-B015-35</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdfmin.htm 138.44.40.1 19970114162351 text/html 6737
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:22:11 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 27 May 1996 02:51:04 GMT
+Content-length: 6563
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>Minutes from BRDF Workshop</TITLE>
+</HEAD>
+<BODY>
+<H2><HR></H2>
+<H2><CENTER>Minutes from Informal Workshop on BRDF 28-3-96<BR>
+<HR></CENTER>
+</H2>
+<BR>
+<B><A HREF="#anchor51547151">List of participants</A></B><BR>
+<BR>
+<B><A HREF="#anchor51548209">Interest Areas of Participants</A></B> <BR>
+<BR>
+<A HREF="#anchor51549375"><B>Discussion</B> </A><BR>
+<BR>
+<B><A HREF="#anchor51552709">Modelling Approaches</A></B><BR>
+<BR>
+<B><A HREF="#anchor51557339">The Factor of Scale in BRDF</A></B><BR>
+<BR>
+<B><A HREF="#anchor51557846">Outcomes</A></B><BR>
+<BR>
+<HR><BR>
+<A NAME="anchor51547151"></A><B>List of participants</B>: 
+<UL>
+<LI>Gary Bastin, Vanessa Chewings, Nicholas Coops (CSIRO DWE) 
+<LI>Graham Behn, Jeremy Wallace, Norm Campbell (CSIRO M&amp;S) 
+<LI>Alan Strahler (Boston University) 
+<LI>Megan Lewis; B.Sparrow, S.Spackman (Adelaide) 
+<LI>B.Lowe, David Lamb, Asoka Edirisinghe, John Louis (Charles Sturt Uni)
+<LI>Andrew Wilson (Forestry NZ) 
+<LI>Vittal Shettigara (DSTO) 
+<LI>Dr Frank Honey,Greg Kirkpatrick (Specterra); 
+<LI>David Jupp (CSIRO EOC) 
+<LI>Elizabeth McDonald (ERIN) 
+</UL>
+<BR>
+<A NAME="anchor51548209"></A><B>Interest Areas of Participants</B> 
+<UL>
+<LI>BRDF correction from Aerial photography and videography - best methods
+for solving the problem 
+<LI>Exploration of operational use of BRDF correction algorithms 
+<LI>Correction of BRDF for mosaicing purposes 
+<LI>Use of attitude and GPS from plane to assist in correction algorithms
+<LI>Correction of BRDF for monitoring purposes (both environmental and artificial
+objects) - temporal changes in signatures due to BRDF 
+<LI>Development of theoretical view angles. 
+<LI>Reliability indicators of spectral information 
+<LI>The use of empirical solutions using statistics 
+<LI>Shapes of curves from different cover types 
+<LI>Geometrical Optical models 
+<LI>Advantages and disadvantages of different modelling approach i.e. empirical,
+semi empirical and physical 
+<LI>The factor of scale in BRDF 
+</UL>
+<BR>
+<A NAME="anchor51549375"></A><B>Discussion</B> <BR>
+<BR>
+At small scan angles &lt; 20 degrees atmospheric effects are much reduced
+as shown by the CASI. <BR>
+<BR>
+Scanning between range of +-20 degrees BRDF effect is fairly gentle. BRDF
+effects are present but much reduced.<BR>
+At scan angles of +- 40 degrees BRDF is serious<BR>
+At scan angles of +- 60 degrees BRDF very serious<BR>
+<BR>
+The output from image scanning devices are better equiped to deal with BRDF
+effects due to the line scan geometry. In photography or videograpy the
+central perspective of the viewer becomes a problem. <BR>
+<BR>
+Three aspects of BRDF:
+<BLOCKQUOTE>1. 'hotspot' occlusion effects - hiding of objects<BR>
+2. volume BRDF- radiative transfer, structural attributes of objects<BR>
+3. Glint effects from water targets and specular effects over land</BLOCKQUOTE>
+<BR>
+Estimating the proportion of each can be difficult.<BR>
+<BR>
+For monitoring purposes, only interested in the nature of change of the
+landcover - not the changes in BRDF or in extant atmospheric effects.<BR>
+<BR>
+State of the Art BRDF Correction for the MODIS satellite 
+<BLOCKQUOTE>1. Brightness<BR>
+2. volume scattering - theory on leaves<BR>
+3. shape from shadowing<BR>
+<BR>
+Models<BR>
+Alternatives to correct for different shapes<BR>
+MODIS uses four combination and finds the best fit<BR>
+Practical approach to predicting the mean function.<BR>
+<BR>
+Shapes are variable: tall and thin VS short and fat - where is it positioned
+in the landscape - a priori knowledge of shape helps</BLOCKQUOTE>
+<BR>
+<A NAME="anchor51552709"></A><B>Modelling Approaches</B><BR>
+<BR>
+1. Empirical approach 
+<UL>
+<LI>Use of image variance and extent 
+<LI>Derivation of specific functions 
+<LI>Fitting of data to particular functions using a statistical approach
+<LI>Can use empirical models based on variance and extent if you have the
+shape of the function and then can reduce to 1 or 2 parameters. If the functional
+form of these effects is known then can start to use models. Extraction
+of functional form, complicated however by heterogeneity of ground cover.
+<LI>Implication of just changing the 'colour' of objects ie, physically
+changing the data to make it look better. 
+</UL>
+<BR>
+2. Semi-empirical approach 
+<UL>
+<LI>Mixture modelling 
+<LI>Combination of empirically derived functions and atmospheric correction
+<LI>Provision of opportunities for the inversion of surface reflectance
+models. 
+</UL>
+<BR>
+3. Physical Approach 
+<UL>
+<LI>Atmospheric Correction to obtain reflectance of objects 
+<LI>Need to have a very good understanding of the nature of BRDF 
+<LI>Use of physically based models to obtain the absorption spectra of a
+leaf 
+<LI>Derivation of composite functions to explain atmosphere and broad land
+cover effects. However, difficulties due to local mismatch - high frequency
+effects will remain. 
+</UL>
+<BR>
+<A NAME="anchor51557339"></A><B>The Factor of Scale in BRDF</B> 
+<UL>
+<LI>BRDF is a broad scale averaging effect. 
+<LI>Atmospheric effects for satellite data lead to a low level of smoothing.
+<LI>At high resolution (ie sub 1m pixel) fine scale images show broad trends
+in BRDF 
+<LI>Investigation of the patterns of light and shade 
+<LI>Small pixels provide difficult issues 
+<LI>Sunlit and shaded components at fine scale. 
+<LI>In big pixels - statistical effect of how component proportions change.
+For a particular type of landcover how do shadow effects change as a function
+of the BRDF. 
+</UL>
+<BR>
+<A NAME="anchor51557846"></A><B>Outcomes</B><BR>
+<BR>
+Multidisciplinary approach to solving the problem. <BR>
+Funding needed for comprehensive study.<BR>
+Coordination of functions<BR>
+<BR>
+Use different datasets from different platforms, different scales, sun angles,
+spectral characteristics.<BR>
+Correction VS Normalisation for monitoring purposes.<BR>
+<BR>
+How do we correct BRDF, would this be a good thing?<BR>
+What does correction really mean? <BR>
+Comparison of methods.<BR>
+Surface property effects to look at monitoring issues.<BR>
+Looking for best approach as a function of imagery.<BR>
+<BR>
+Earth Observation Centre projects will be structured by recommended projects.
+Dr Norm Campbell recommended as CSIRO contact to identify a working group
+for interested parties in the CSIRO<BR>
+<BR>
+Investigation of the methods used for BRDF correction in the upcoming MODIS
+launch. Pater outlining methods can be found at (FTP site address).<BR>
+<BR>
+<HR><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<HR>
+</BODY>
+</HTML>
+</DOC>

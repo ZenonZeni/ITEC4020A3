@@ -1,0 +1,338 @@
+
+<DOC>
+<DOCNO>WT02-B23-15</DOCNO>
+<DOCOLDNO>IA060-000333-B020-378</DOCOLDNO>
+<DOCHDR>
+http://www.survey.net:80/sv-share.htm 204.107.221.240 19970115054050 text/html 11224
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 05:34:37 GMT
+Server: Apache-SSL-US/1.0.3+1.1
+Content-type: text/html
+Content-length: 11041
+Last-modified: Mon, 25 Nov 1996 20:26:49 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>SURVEY.NET - Shareware Survey #1</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" VLINK="#00007F">
+
+<P ALIGN=CENTER><A HREF="http://www.survey.net/index.html"><IMG BORDER=0
+SRC="http://www.survey.net/g/svlogo0.gif" ALT="Survey.Net Logo"></A><BR>
+<B><I>Your source for information, opinions & demographics from the Net
+Community!</I></B>
+
+<BLOCKQUOTE>
+<H5>
+<FONT COLOR="#FF0000">ANNOUNCING</FONT>: The Internet's finest interactive, totally-automated,
+immediate survey system.  We can take any form and instantly create a
+dynamic demographic database and show you the results as soon as you
+complete the survey!
+</H5>
+
+<H2 align=CENTER>Shareware User Survey</H2>
+
+<FORM METHOD="POST" ACTION="http://www.survey.net/mpr/survey?share1">
+
+<H3 align=CENTER>
+<I>This survey covers details of Shareware.<BR>
+Do people register programs and to what degree?<BR>
+What are your thoughts on various Shareware programs & policies?</I>
+</H3>
+<FONT SIZE=2><I>* All references to currency in this survey are in US Dollars; if you are outside of the US estimate the
+US dollar amounts if possible.</I></FONT>
+
+<P align=CENTER><IMG SRC="images/rule.gif" WIDTH=325 HEIGHT=10
+ALIGN=bottom>
+<P>
+
+<OL>
+
+<LI>Have you ever registered a Shareware program?<BR>
+<SELECT NAME="01_SWREG">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>If Yes, how many programs have you registered:<BR>
+<SELECT NAME="02_REGQTY">
+<OPTION>None
+<OPTION>1
+<OPTION>2
+<OPTION>3-5
+<OPTION>6-10
+<OPTION>11-20
+<OPTION>More than 20
+</SELECT>
+<BR><BR>
+
+<LI>What is your <I>primary</I> source for obtaining Shareware?<BR>
+<SELECT NAME="03_SWSOURCE">
+<OPTION>No Answer
+<OPTION>Download from a BBS
+<OPTION>Internet FTP
+<OPTION>Compuserve
+<OPTION>America Online
+<OPTION>Other major service (Prodigy, Delphi, etc.)
+<OPTION>Mail order catalog
+<OPTION>CDROM
+<OPTION>From a friend/copying disks
+<OPTION>Point of sale display in a store
+<OPTION>A subscription service/publication disk
+<OPTION>Some other source
+</SELECT>
+<BR><BR>
+
+<LI>Have you ever payed a fee to receive a Shareware program (from a vendor)?<BR>
+<SELECT NAME="04_VENDFEE">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>If Yes, how much was this charge (per disk)?<BR>
+<SELECT NAME="05_VENDCHARGE">
+<OPTION>No Answer
+<OPTION>Under $1 
+<OPTION>$1.00-$1.50
+<OPTION>$1.51-$2.00
+<OPTION>$2.01-$3.00
+<OPTION>$3.01-$4.00
+<OPTION>$4.01-$5.00
+<OPTION>More than $5 per disk
+</SELECT>
+<BR><BR>
+
+<LI>Have you ever "purchased" a product not knowing it was Shareware, only to find out later?<BR>
+<SELECT NAME="06_VENDFALSE">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>What do you consider a reasonable <i>average</i> fee to charge to register a Shareware program?<BR>
+<SELECT NAME="07_FEE">
+<OPTION>No Answer
+<OPTION>There should be no fee at all.
+<OPTION>A postcard or some other non monetary item.
+<OPTION>Under $10
+<OPTION>$10-$20
+<OPTION>$20-$30
+<OPTION>$30-$40
+<OPTION>$40-$50
+<OPTION>$50 or more
+</SELECT>
+<BR><BR>
+
+<LI>What is the <I>highest amount</I> you have paid to register a single Shareware program?<BR>
+<SELECT NAME="08_MYFEE">
+<OPTION>No Answer
+<OPTION>Never registered
+<OPTION>A postcard or some other non-monetary item.
+<OPTION>Under $10
+<OPTION>$10-$20
+<OPTION>$20-$30
+<OPTION>$30-$40
+<OPTION>$40-$50
+<OPTION>$50-$60
+<OPTION>$60-$100
+<OPTION>more than $100
+</SELECT>
+<BR><BR>
+
+<LI>When you register a program, what do you <I>usually</I> receive in return?<BR>
+<SELECT NAME="09_RETURN">
+<OPTION>No Answer
+<OPTION>I haven't registered a program so I don't know
+<OPTION>I've never received any reply from my registration
+<OPTION>A legtimate license and a clear concience
+<OPTION>An "official", registered version of the same program
+<OPTION>A newer/commercial version with more features
+<OPTION>Additional "modules", chapters or parts
+<OPTION>The right to obtain technical support
+</SELECT>
+<BR><BR>
+
+<LI>Have you ever registered: <I>(check all that apply)</I><BR><BR>
+<INPUT TYPE="checkbox" NAME="10_SWREGTYPE" VALUE="Never registered/can't Answer"> - Never registered/can't answer<BR>
+<INPUT TYPE="checkbox" NAME="10_SWREGTYPE" VALUE="A fully-operational program"> - A fully-operational program<BR>
+<INPUT TYPE="checkbox" NAME="10_SWREGTYPE" VALUE="An operational program with a title page/unregistered label"> - An operational program with a title page/unregistered label<BR>
+<INPUT TYPE="checkbox" NAME="10_SWREGTYPE" VALUE="A program with a timeout"> - A program that only worked for a limited time/had a timeout<BR>
+<INPUT TYPE="checkbox" NAME="10_SWREGTYPE" VALUE="A program that was operational but had some features disabled"> - A program that was operational but had some features disabled<BR>
+<BR>
+<LI>Have you registered programs from any of the following sources? <I>(check all that apply)</I><BR><BR>
+<INPUT TYPE="checkbox" NAME="11_SWREGSRC" VALUE="A program purchased from a vendor"> - A program puchased from a vendor.<BR>
+<INPUT TYPE="checkbox" NAME="11_SWREGSRC" VALUE="A program downloaded from a major information service"> - A program downloaded from a major information service<BR>
+<INPUT TYPE="checkbox" NAME="11_SWREGSRC" VALUE="A program downloaded from a BBS"> - A program downloaded from a BBS<BR>
+<INPUT TYPE="checkbox" NAME="11_SWREGSRC" VALUE="A program obtained from a CDROM collection"> - A program obtained from a CDROM collection<BR>
+<INPUT TYPE="checkbox" NAME="11_SWREGSRC" VALUE="A program that came with your PC/hardware"> - A program that came with your PC/hardware<BR>
+<INPUT TYPE="checkbox" NAME="11_SWREGSRC" VALUE="A program that was recommended by a friend"> - A program that was recommended by a friend<BR>
+<BR>
+
+<LI><B><i>Honestly</i></B>,  what is the <i>main</i> motivation for you to register a Shareware program?<BR>
+<SELECT NAME="12_WHYREG">
+<OPTION>No Answer
+<OPTION>Because, morally it's the "right" thing to do
+<OPTION>Because, legally it's the "right" thing to do
+<OPTION>My company/I could get in big trouble if we're caught with unlicensed software
+<OPTION>In order to receive technical support
+<OPTION>In order to receive a fully-operational version
+<OPTION>In order to get a printed manual/package
+<OPTION>In order to get rid of annoying nag screens
+<OPTION>In order to receive the next version when it is released
+<OPTION>Because I want the author to implement a suggestion in a future release
+<OPTION>I've distributed so many copies that I might as well have a registered version
+<OPTION>Because I want to support the author in his/her efforts
+</SELECT>
+<BR><BR>
+
+<LI>Do you believe registering a product makes a difference?  Does it improve
+the chances of the program being supported and updated?<BR>
+<SELECT NAME="13_REGDIF">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>Are you currently using a Shareware program that is unregistered? (not necessarily
+at this exact moment, but in general are there some programs on your PC that you
+run that are not currently registered)<BR>
+<SELECT NAME="14_UNREGUSE">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>Approximately what percentage of the Shareware programs you use is registered:<BR>
+<SELECT NAME="15_REGPCT">
+<OPTION>No Answer
+<OPTION>None/0
+<OPTION>1%
+<OPTION>5%
+<OPTION>10%
+<OPTION>20%
+<OPTION>30%
+<OPTION>40%
+<OPTION>50%
+<OPTION>60%
+<OPTION>70%
+<OPTION>80%
+<OPTION>90%
+<OPTION>100%
+</SELECT>
+<BR><BR>
+
+<LI>For what main reason would you NOT register an otherwise useful Shareware program:<BR>
+<SELECT NAME="16_NOREG">
+<OPTION>No Answer
+<OPTION>It it's good, I'll register it
+<OPTION>I generally don't register regardless
+<OPTION>The method of registration is not convienent
+<OPTION>If I cannot get in touch with the author/developer
+<OPTION>I refuse to register a crippled program, even if I get a fully-operational ver. free
+<OPTION>If the program is too old; I'm afraid it's no longer supported
+<OPTION>The registration fee it too high
+<OPTION>The program contained some bugs
+<OPTION>There are too many licensing restrictions
+<OPTION>It makes no difference so I'll keep my money
+</SELECT>
+<BR><BR>
+
+<LI>Was there any Shareware pre-installed on your PC when you purchased it?<BR>
+<SELECT NAME="17_SWONPC">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>Are you using any Shareware internet utilities (Trumpet Winsock, WinIRC, Eudora, etc. - <I>this does not
+apply to commercial/registered versions of the same programs</I>)?<BR>
+<SELECT NAME="18_INETSW">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>Did you receive internet Shareware when you applied for an Internet account?<BR>
+<SELECT NAME="19_INETFREESW">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>Did you know that the software was Shareware and was unregistered at the time?<BR>
+<SELECT NAME="20_SWKNOWREG">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<P>
+<LI>What programs have you registered (if any)?  <I>List as many as you can, separated by commas:</I><BR>
+<input size=60 name="CMT_SWREGPRG">
+<BR><BR>
+
+<LI>In your opinion, what is the most successful Shareware product?<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="None/No Answer" CHECKED> - None/NoAnswer<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="Doom"> - Doom<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="ProComm"> - ProComm<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="Epic Pinball"> - Epic Pinball<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="Descent"> - Descent<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="PKZip"> - PKZip<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="McAffee's Virus Utilities"> - McAffee's Virus Utilities<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="Netscape"> - Netscape<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="Eudora"> - Eudora<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="Trumpet Winsock"> - Trumpet Winsock<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="Stuffit"> - Stuffit [Mac]<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="Greg's Buttons"> - Greg's Buttons [Mac]<BR>
+<INPUT TYPE="radio" NAME="21_MOSTPOP" VALUE="Other"> - Other: <input size=30 name="CMT_MOSTPOP">
+
+</OL><BR><BR>
+
+<H3 align=CENTER><I>Thanks very much for participating in the
+survey!</I></H3>
+
+<H4 align=center>
+To submit your survey choices, select: <BR>
+<INPUT TYPE="submit" value="        SUBMIT SURVEY         ">
+<P>
+or <INPUT TYPE="reset" value="Reset survey settings">
+</FORM>
+<P>
+You can view the latest survey results after you submit your answers.
+</H4>
+
+<H4>
+We hope you will also participate in other surveys online as well.  Please note that you should
+only complete each survey <B><U>once</U></B>.<BR>
+</H4>
+<P>
+
+<CENTER>
+<IMG BORDER=0 SRC="http://www.survey.net/images/rule.gif">
+</CENTER>
+
+<H5 ALIGN=CENTER>Copyright &copy;1996, <A HREF="http://www.icorp.net"><img
+src="http://www.icorp.net/icorp/g/ic-logo.gif" BORDER=0 ALIGN=ABSMIDDLE ALT="ICorp"></A>/InterCommerce
+Corporation,<BR>
+<I>All rights reserved worldwide</I><BR>
+Send comments to 
+<A HREF="mailto:webmaster@survey.net"><I>Webmaster@Survey.net</I></A><BR>
+</H5>
+
+</CENTER>
+
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,113 @@
+
+<DOC>
+<DOCNO>WT03-B25-170</DOCNO>
+<DOCOLDNO>IA070-000437-B008-382</DOCOLDNO>
+<DOCHDR>
+http://gardnerweb.com:80/prod/prod_articles/119611.html 206.112.192.204 19970120205004 text/html 4634
+HTTP/1.0 200 OK
+Date: Mon, 20 Jan 1997 20:49:59 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+Content-length: 4463
+Last-modified: Tue, 05 Nov 1996 20:02:10 GMT
+</DOCHDR>
+<HTML>
+
+<HEAD><TITLE>Automotive Production, November 96, "Tooling, Cutting, Holding, Etc: Tips for Selecting Robotic Tool Changers"</TITLE>
+<CONTENT="November 1996, Automotive Production">
+</HEAD>
+
+
+<BODY>
+<A NAME="top">
+<BODY BGCOLOR="#ffffff">
+
+<CENTER>
+<A HREF="/index.html"><IMG SRC="/home_graphics/gw_small.gif" WIDTH=250 HEIGHT=56 BORDER=0></A><BR><BR>
+
+<IMG SRC="/prod/prod_graphics/prod_sml_hdr.gif"><BR CLEAR=ALL><P>
+
+<HR>
+
+<!------------------------------------------------------>
+<H1>
+Tips for Selecting Robotic <BR>
+Tool Changers
+</H1>
+<FONT SIZE="-1">
+<BLOCKQUOTE><B>
+If you're looking for flexibility and are utilizing robots,be sure that the robot's flexibility is all that it can be--consider tool changers. Here are some things to think about...
+</BLOCKQUOTE></B>
+</CENTER>
+<HR>
+</FONT>
+<BLOCKQUOTE>
+<P>Robots are meant to provide flexibility, right? Which means the ability to do more than one thing. But if the 
+end effector, or tool on the end of the arm, is fixed, then the robot is really constrained. However, if the robot can change its end effector, then this flexibility becomes a reality.
+
+<P>One manufacturer of precision robotic tool changers is ATI Industrial Automation (Garner, NC). Its patented 
+design employs a master plate that is mounted on the robot arm, which mates to a tool plate that is attached to each of the tools that will be used. The master plate features a locking mechanism based on an air-actuated piston. The piston has a 45&#176; taper on its nose so that it can be piloted into the tool plate even if the positioning is slightly off. The unit is designed so that there is mechanical locking effected. Even in case of a power failure, the tool stays put.
+
+<P>ATI has developed some recommendations for the selection of robotic tool changers...
+
+<P>The first recommendation is to carefully check tool changer specs since manufacturers vary the factor-of-safety.
+
+<P><B>1.Calculated Method.</B> The strength of robotic tool changers is based on their moment capacity. Use the 
+following to approximate a worst-case scenario.
+<P>(a)Find the approximate center of gravity 
+(<I>CG</I>) of the heaviest end effector.
+<P>(b)Calculate the distance (<I>D</I>) from the 
+<I>CG</I> to the bottom of the tool plate.
+<P>(c)Calculate the weight (<I>W</I>) of the heaviest end effector.
+<P>(d)Multiply W by D to get an approximate static moment 
+(<I>M</I>), or a moment based on 1g of inertia.
+<P>(e)Find the quick changer with a static moment capacity with a value equal to or greater than 
+<I>M</I>.
+<P><I>Note:</I> Robots may produce moments two to five times higher than their static moment due to potential 
+high acceleration. Check the quick changer's specs for static and dynamic moment capacity.
+<P><B>2.Pneumatic and electrical.</B> Determine the number and size of pneumatic and electrical contacts 
+needed. Larger quick change devices have larger and more pneumatic ports and electrical contacts.
+<P><B>3.Temperature and chemicals.</B> Most quick change units use nitrile O-rings. Nitrile can handle 
+temperature ranges from -20&#186;F to +150&#186;F. They can withstand most chemicals. If temperatures are outside of this range or if the chemicals involved are questionable, contact the quick change unit's manufacturer.
+
+<P><B>4.Precision application.</B> If high repeatability is an issue, be sure to check the repeatability specs. Check if the units have been tested to one million cycles.
+<P><I>Note: A tool changer effects a robot's moment capacity, payload, wear, size, and repeatability.</I>
+
+</BLOCKQUOTE>
+<P>
+<!------------------------------------------------------>
+<HR>
+<P>
+<CENTER>
+<A HREF="#top">Return to Top of Page</A> | 
+<A HREF="/prod/aptr.html">Return to AP Technical Resource Center Page</A>
+</CENTER>
+
+
+<HR><BR>
+
+<CENTER>
+<TT><B>
+<FONT SIZE="3">
+[ <A HREF="http://www.gardnerweb.com">GardnerWeb Home</A> | 
+<A HREF="http://www.gardnerweb.com/visitors/visitors.html">Visitors Center</A> | 
+<A HREF="http://www.hansergardner.com">Bookstore</A> ]<BR>
+[ <A HREF="http://www.gardnerweb.com/pf/pf.html">Finishing Resource Center</A> | 
+<A HREF="http://www.gardnerweb.com/mms/mms.html">Metalworking Resource Center</A> ]
+</FONT>
+</B></TT>
+
+<P>
+<HR WIDTH=50%>
+
+<FONT SIZE="-2">
+Serving the Metalworking and Finishing Industries. <I>Since 1928</I>.<BR>
+GardnerWeb and all contents are properties of Gardner Publications, Inc.<BR>
+All Rights Reserved. 1995-1996.</FONT><P>
+
+</CENTER>
+
+
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,58 @@
+
+<DOC>
+<DOCNO>WT02-B16-187</DOCNO>
+<DOCOLDNO>IA060-000328-B016-166</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/howworks.html 205.168.79.27 19970115022905 text/html 2545
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 02:29:09 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:47 GMT
+Content-length: 2371
+</DOCHDR>
+<html>
+<head>
+<title>How It All Works</title>
+</head>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>How It All Works</h2>
+
+<p><font size=+2>T</font>he "photovoltaic effect" is the basic physical process through which a PV cell converts sunlight
+into electricity.  Sunlight is composed of photons, or particles of solar energy. These photons
+contain various amounts of energy corresponding to the different wavelengths of the solar
+spectrum (see "<a href="lightsun.html">Light and the Sun</a>" for more about that).  When photons strike a PV cell, they
+may be reflected or absorbed, or they may pass right through.  Only the absorbed photons
+generate electricity.  When this happens, the energy of the photon is transferred to an electron in
+an atom of the cell (which is actually a semiconductor).  With its newfound energy, the electron
+is able to escape from its normal position associated with that atom to become part of the current
+in an electrical circuit.  By leaving this position, the electron causes a "hole" to form.  Special
+electrical properties of the PV cell--a built-in electric field--provide the voltage needed to drive
+the current through an external load (such as a light bulb).
+
+<p><img src="images/cellwork.gif">
+
+<p align=right><a href="ptype.html"><em>More . . .</em> p-types, n-types and the electric field</a>
+<!-- <p align=right><a href="animintro.html">Animations of How a Cell Works</a> -->
+
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>
+[<a href="pvhistory.html">History: The PV Effect</a>]
+[<a href="howworks.html">How It All Works</a>]
+[<a href="cells.html">From Cells to Arrays</a>]
+[<a href="flatplate.html">Flat-Plate Systems</a>]
+[<a href="concentrators.html">Concentrator Systems</a>]
+[<a href="balance.html">Balance of System</a>]
+[<a href="lightsun.html">Light and the Sun</a>]
+<p><em>U.S. Department of Energy Photovoltaics Program, 1996</em>
+</font>
+</center>
+</body>
+</html>
+</DOC>

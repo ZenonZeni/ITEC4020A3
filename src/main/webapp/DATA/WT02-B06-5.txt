@@ -1,0 +1,2492 @@
+
+<DOC>
+<DOCNO>WT02-B06-5</DOCNO>
+<DOCOLDNO>IA095-001027-B016-211</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/ciec/transcripts/Mar_22_Bradner.html 205.177.10.31 19970215013427 text/html 87754
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 01:32:48 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Testimony of Scott Bradner - 22 Mar 96</TITLE>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF>
+
+<H2>Testimony of Scott Bradner, Internet Engineering Task 
+Force</H2>
+<STRONG>March 22, 1996</STRONG>
+<BR>
+<PRE>
+
+
+     7                    JUDGE SLOVITER:  Before we -- we are going to break
+
+     8           now until 1:30, but we would like to know from counsel your
+
+     9           best estimate of how long you think you will be with the
+
+    10           returning witness, Dr. Bradner?
+
+    11                    MR. MORRIS:  It's my understanding that the
+
+    12           Government is finished its initial cross-examination --
+
+    13                    JUDGE SLOVITER:  Yeah, that's what they told us.
+
+    14                    MR. MORRIS:  -- and --
+
+    15                    MR. BARON:  That's correct.
+
+    16                    MR. MORRIS:  -- and the plaintiffs, I would
+
+    17           anticipate perhaps 20 to 30 minutes of redirect at the most,
+
+    18           I would be surprised if it went longer than that.
+
+    19                    JUDGE SLOVITER:  Okay.
+
+    20                    JUDGE DALZELL:  Very good.
+
+    21                    JUDGE SLOVITER:  Okay, thank you.  Then 1:30 --
+
+    22           maybe -- let's make it 1:20, can we?
+
+    23                    JUDGE DALZELL:  Okay, 1:20.
+
+    24                    JUDGE SLOVITER:  All right, 1:30.
+
+    25                    JUDGE DALZELL:  1:30.  Counsel, could I ask that --
+
+                                                                           122
+
+     1           I don't know if you've done this already, but could you order
+
+     2           expedited transcript?  It would be very helpful to us --
+
+     3                    COUNSEL:  We have, your Honor.
+
+     4                    JUDGE DALZELL:  -- so we could have it next week.
+
+     5                    COUNSEL:  We have, your Honor.
+
+     6                    JUDGE DALZELL:  Okay, thank you very much.
+
+     7                    (Court in recess at 12:20 o'clock p.m.)
+
+     8                    (The following occurred in open court at 1:30 p.m.)
+
+     9                    COURTROOM DEPUTY:  All rise, please.
+
+    10                    Court is now in session.  Please be seated.
+
+    11                    MR. MORRIS:  Good afternoon, your Honors.
+
+    12                    THE COURT:  Good afternoon.
+
+    13                    (Discussion off the record.)
+
+    14                    JUDGE DALZELL:  Going back to Dr. Bradner?
+
+    15                    MR. MORRIS:  Good afternoon, your Honors.  I'm John
+
+    16           Morris, again, counsel for ALA plaintiffs --
+
+    17                    JUDGE SLOVITER:  And still.
+
+    18                    MR. MORRIS:  And still.  (Laughter.)
+
+    19                    JUDGE DALZELL:  Dr. Bradner, you're still under
+
+    20           oath.  Do you understand that?
+
+    21                    THE WITNESS:  Yes.
+
+    22                    JUDGE DALZELL:  Very good.
+
+    23                    MR. MORRIS:  Just to clarify the record, Mr. Bradner
+
+    24           is not a Dr. Bradner, although --
+
+    25                    JUDGE DALZELL:  Okay, Mr. Bradner, all right.
+
+                                                                           123
+
+     1                    THE WITNESS:  I may sound like one.
+
+     2                    JUDGE SLOVITER:  You fooled us.
+
+     3                    JUDGE DALZELL:  Sure did.
+
+     4                    SCOTT BRADNER, Previously Sworn, Resumed.
+
+     5                                REDIRECT EXAMINATION
+
+     6           BY MR. MORRIS:
+
+     7           Q   Mr. Bradner, I really just want to go back over a very
+
+     8           few points that you just talked about yesterday.  Mr. Baron
+
+     9           asked you about the Internet Protocol Version 6.  Can you
+
+    10           tell me, will the user of the Internet, typical user of the
+
+    11           Internet, notice a significant change in how the Internet
+
+    12           operates when Version 6, the next generation, is rolled out?
+
+    13           A   The IP Version 6 itself is just a replacement for the
+
+    14           wheels, the bit -- the packet format of the packets that go
+
+    15           across the net.  The applications do not change in general by
+
+    16           changing the underlayment which goes over.  There is a
+
+    17           possibility in the long term to get some increased
+
+    18           functionality to do with the ability to do real time
+
+    19           processing, telephone over the Internet kind of things, but
+
+    20           this is research work and development work yet to be done. 
+
+    21           But basically the applications will remain the same
+
+    22           applications you're currently using, and you wouldn't see any
+
+    23           different -- the user would not see any difference.
+
+    24                    JUDGE DALZELL:  So what is the change in some?
+
+    25                    THE WITNESS:  The change in some is that the
+
+                                                                           124
+
+     1           individual packet can address far more nodes, so therefore --
+
+     2                    JUDGE DALZELL:  Okay, so it's the 32 to the 128
+
+     3           bits.
+
+     4                    THE WITNESS:  Yes.
+
+     5           BY MR. MORRIS:
+
+     6           Q   And, Mr. Bradner, in your declaration submitted as direct
+
+     7           testimony here, you describe a number of structural and
+
+     8           operational issues raised by the Communications Decency Act. 
+
+     9           Would those issues still be in play and still be raised under
+
+    10           Internet Protocol Version 6?
+
+    11           A   The issues here referred to are the inability of the
+
+    12           speaker or the poster of some information to be able to
+
+    13           determine whether the recipients are all qualified non-
+
+    14           minors, is that the --
+
+    15           Q   Right.
+
+    16           A   And no, they would not change.
+
+    17           Q   Okay, let me ask you, the inability of speakers that you
+
+    18           described in your direct testimony, would that significantly
+
+    19           change at all if you accepted Mr. Baron's proposal of placing
+
+    20           a tag in an HTML file or a tag in a URL?  Would the speaker's
+
+    21           ability to ensure that minors didn't have access to speech
+
+    22           significantly change?
+
+    23           A   I would not think it would make any difference to my
+
+    24           level of comfort that my speech was so protected, because in
+
+    25           order to agree that it was, I would have to hypothesize that
+
+                                                                           125
+
+     1           all of the possibly affected minors were using web browsers
+
+     2           which supported this tagging, and they all had been
+
+     3           configured to have that configura -- the exclusion features
+
+     4           turned on.  And I would think that that would be a bit of a
+
+     5           hard push to make the -- for me as a speaker to make that
+
+     6           assumption, particularly since the pervasiveness from what I
+
+     7           read of the statute which is tedious to read, though I've
+
+     8           read it a few times, it doesn't constrain me to insure only
+
+     9           within the United States.  So I would have -- since all of my
+
+    10           speech on news groups and things go worldwide, I would think
+
+    11           that I would have to be assured that worldwide that every
+
+    12           minor who happened to have -- might potentially have access
+
+    13           would have such a browser and have it configured in a way
+
+    14           which restricts access.  And I think that would be a very
+
+    15           difficult thing for me to assume, and I wouldn't want to
+
+    16           assume that.
+
+    17                    JUDGE DALZELL:  How about if you limited it to the
+
+    18           United States?
+
+    19                    THE WITNESS:  It's still something where the
+
+    20           individual user, or the user's parent, if that be the case,
+
+    21           would have to insure that each individual minor who has
+
+    22           access through whatever means, through school, through
+
+    23           libraries or through the home, would have a compliant browser
+
+    24           and have that browser configured.  And there's no way for me
+
+    25           as a speaker to know whether that in fact is the case.  And
+
+                                                                           126
+
+     1           that's my -- the substance of my direct deposition was that,
+
+     2           that I as a speaker have no mechanism by which I can go out
+
+     3           and examine the capabilities and feature sets of what the
+
+     4           listeners are using to listen to my speech.  So I don't know
+
+     5           whether they would have that restriction in.  I could not
+
+     6           know whether they had that restriction in.
+
+     7                    JUDGE SLOVITER:  While we're on that point, I'd like
+
+     8           to ask a question so that we don't have to come back to it. 
+
+     9           On page 33 of your declaration, you, in discussing tagging,
+
+    10           you said it is impossible to imbed such flags or headers in
+
+    11           many of the documents made available by anonymous FTP gopher
+
+    12           and the Worldwide Web without rendering the files useless.
+
+    13                    JUDGE DALZELL:  Which paragraph was that?
+
+    14                    JUDGE SLOVITER:  Well, it's on page 33.
+
+    15                    JUDGE DALZELL:  Oh, page 33.
+
+    16                    JUDGE SLOVITER:  Yes, page 33.  Is that part --
+
+    17                    MR. MORRIS:  It's paragraph 79.
+
+    18                    JUDGE SLOVITER:  Oh.  Is that part of the same
+
+    19           matter that you're talking about?
+
+    20                    THE WITNESS:  No.  This is a somewhat different
+
+    21           matter.  The matter I was just speaking of is whether I as
+
+    22           the speaker could tell whether a user was operating a browser
+
+    23           that would inhibit -- that would watch those tags.  What I'm
+
+    24           speaking of in the deposition here and I also spoke of
+
+    25           yesterday for a minute was that there are certain kinds of
+
+                                                                           127
+
+     1           files, whether there be voice files or picture files or
+
+     2           executables programs, computer programs, which you couldn't
+
+     3           actually go in and modify by adding some character stream
+
+     4           which would be these tags, without making them inoperative
+
+     5           just simply because they are a particular format.  And they
+
+     6           expect to be in that format and if they're not in that format
+
+     7           and the format would be destroyed by adding some tags, then
+
+     8           they wouldn't work.
+
+     9                    That doesn't mean that a new format couldn't be
+
+    10           derived.  But the existing ones would not work.
+
+    11                    JUDGE SLOVITER:  Technologically.
+
+    12                    THE WITNESS:  Technologically, yes.
+
+    13           BY MR. MORRIS:
+
+    14           Q   Yesterday, at least on our side of the table, a little
+
+    15           bit of confusion arose in terms of the definition and the
+
+    16           explanation of links on the Worldwide Web.  Could you just
+
+    17           take a moment and explain the relationship between a link,
+
+    18           kind of a link -- the linkee and the linker.
+
+    19                    JUDGE SLOVITER:  In simple language.  (Laughter.)
+
+    20                    No, I really think that it is necessary if Judges
+
+    21           are supposed to decide matters, then it is necessary for the
+
+    22           parties and the witnesses to present it in intelligible form.
+
+    23                    THE WITNESS:  Well, that's a strong challenge, but I
+
+    24           will try.
+
+    25                    JUDGE SLOVITER:  Well, but it's a necessary one.
+
+                                                                           128
+
+     1                    THE WITNESS:  And if I fail, you will let me know, I
+
+     2           am sure.
+
+     3                    JUDGE SLOVITER:  Well, yes, and the people for whom
+
+     4           you are testifying will know, so I think it's very important.
+
+     5                    THE WITNESS:  Basically the way I would refer to a
+
+     6           link in this context is simply a pointer.  It is a piece of
+
+     7           text, and it's just a character string, it happens to have
+
+     8           some format to it, but it's a character string which
+
+     9           specifies a particular computer on the Internet, and a
+
+    10           particular file within that computer that is being pointed
+
+    11           at.
+
+    12                    It also has some structure at the beginning which
+
+    13           says what program do you use to go point at that.  So I can
+
+    14           say, use the Web or use FTP or use Telnet or use some other
+
+    15           application-level program to go look at this file.  So the
+
+    16           file itself is -- although I used an example of one in my
+
+    17           deposition of E2EVF12.IP which is one of the data files
+
+    18           that's on my machine that's referring to the performance of
+
+    19           some network device.  That's a file name.
+
+    20                    The pointer to that would include the name of my
+
+    21           machine, that's at NDTL.HARVARD.EDU and then the path to that
+
+    22           file and then that file name itself.  So all it is is it's a
+
+    23           way to globally say this is the file that I'm interested in. 
+
+    24           It's not relevant to where the viewer sits.  It is an
+
+    25           absolute reference to the particular piece of data, and the
+
+                                                                           129
+
+     1           particular piece of data is always a file of some kind,
+
+     2           although with a reference of what program to use to do that.
+
+     3                    Now, I think that the question you're asking is --
+
+     4           or the implication you're coming up with is do I have to
+
+     5           know, if I'm the provider of a file, if I have a file on my
+
+     6           computer, do I have to be involved with somebody pointing at
+
+     7           that file, and the answer is no.  I have no way of knowing
+
+     8           whether somebody has a URL, one of these pointers, which
+
+     9           refers to one of my files or refers to my computer.  It can
+
+    10           be -- other people do that.  I know they do, I don't know
+
+    11           who, but I do know that computer manu -- vendors of these
+
+    12           devices have given out pointers to their data within my
+
+    13           system.  But I don't know who did it.  I have no way of
+
+    14           knowing.  There's no involvement on my part.  It is simply
+
+    15           that somebody has said, if you're interested in finding out
+
+    16           about the performance of this product, here is the URL of the
+
+    17           file.  And so there is no relation, there is no implied
+
+    18           relationship between the pointer and the pointee, to use your
+
+    19           semi-technical words. 
+
+    20                    Was that clear enough?
+
+    21                    JUDGE SLOVITER:  Yeah, finally.  (Laughter.)
+
+    22           BY MR. MORRIS:
+
+    23           Q   Just as I understand it then, someone else, a company can
+
+    24           point to your computer and point to a file on your computer. 
+
+    25           Do they have to point to your home page, or can they point to
+
+                                                                           130
+
+     1           other files on your computer?
+
+     2           A   As I mentioned yesterday, they can point to the specific
+
+     3           file that they're interested in, bypassing any structure that
+
+     4           I have, including my home page or any subsidiary pages or any
+
+     5           directory structure.  They specify the particular file that
+
+     6           they want people to look at.  It is irrelevant to what
+
+     7           sequence I might want them to go through, if I had a home
+
+     8           page and subsidiary pages, they would be bypassed entirely if
+
+     9           the pointer so chose.  If the pointers chose to specify a
+
+    10           particular data file, it would bypass all of that.
+
+    11           Q   And so if you placed some HTML flag or tag in your home
+
+    12           page, that would be bypassed by someone linking to one of
+
+    13           your lower pages?
+
+    14           A   That is correct.  This page, the home page, would not be
+
+    15           loaded, would not be observed, would not be accessed, would
+
+    16           no be hit, to use the parlance that was talked about this
+
+    17           morning by the person who was accessing the data file.  It
+
+    18           just wouldn't be seen.
+
+    19           Q   And say -- in a lower page, say you placed a flag in a
+
+    20           lower Web page, and that Web page included a reference to an
+
+    21           image on your computer.  You didn't place a flag on the image
+
+    22           because you had a flag on the page that gave immediate access
+
+    23           to the image.  Could someone link to that image without
+
+    24           linking to the page that you have intended to be the
+
+    25           presentation of that image?
+
+                                                                           131
+
+     1           A   Yes.  You can configure browsers such as Netscape such
+
+     2           that when you are selecting an image or something like that,
+
+     3           selecting a URL, it will show up in a screen, a little window
+
+     4           in the page.  So if you type that down, type down, write down
+
+     5           that information, you have the literal pointer to a file. 
+
+     6           And if the file happens to be a picture file which is
+
+     7           imbedded in -- which I would normally embed in one of my
+
+     8           pages, then you can reference it directly.  It is just
+
+     9           another point to another file.  There is nothing special
+
+    10           about it in the context of the way things are organized on
+
+    11           the computer, it's just another file that happens to have a
+
+    12           pointer to it or more than one pointer to it, however many
+
+    13           pointers that people, including me or others, have created.
+
+    14           Q   Okay, there's been a fair bit of discussion today and
+
+    15           yesterday about the concept of a hit.  In terms of you as a
+
+    16           speaker being able to control access or screen access in some
+
+    17           way to who's getting your files, does the -- if someone comes
+
+    18           to your Web page and initiates ten hits by getting an HTML
+
+    19           file and a graphic image and an audio file, to keep content
+
+    20           from that person, would you need to screen just once, or
+
+    21           would you need to screen each request for each different
+
+    22           file?
+
+    23           A   Making the assumption which is implied in your question
+
+    24           that there is a way that I can identify the originating query
+
+    25           by using its IP address, and I want to somehow decide that
+
+                                                                           132
+
+     1           this person or this computer where the query is originating,
+
+     2           and that's what I'm using to filter on, then from the
+
+     3           server's point of view I would have to make a check for that
+
+     4           query every time a query -- a check for that address every
+
+     5           time a query came in and a query is a hit.  So for every hit,
+
+     6           my server would have to verify that address.
+
+     7           Q   So if a thousand people on a given day visited your site
+
+     8           and generated let's say 4,000 hits by looking around your
+
+     9           site, then do I understand that you would have to -- one
+
+    10           would have to screen 4,000 times or just 1,000 times?
+
+    11           A   The actual mechanism would require the screening 4,000
+
+    12           times.  Now, just the software puts things in the temporary
+
+    13           storage called cashing, such that the second look-up is
+
+    14           quicker than the first one, but it still has to look up each
+
+    15           one individually.
+
+    16           Q   Okay.  Let me just run over a few little loose ends on
+
+    17           some of the other areas that you were asked about yesterday.
+
+    18                    With listserves, can you just explain that there's
+
+    19           an individual or perhaps a company that decides to create a
+
+    20           mail exploding program, like Listserve or Major Domo.  and
+
+    21           then who actually speaks through that listserve?  Is it just
+
+    22           the company, just the individual who created the listserve,
+
+    23           or who speaks to that?
+
+    24           A   Most listserves are for discussion.  Some listserves are
+
+    25           for propogation of information like advertising.  In the
+
+                                                                           133
+
+     1           latter case then the organization that creates it, it's just
+
+     2           a mailing list for that organization, and in which case just
+
+     3           somebody from that organization speaks.  But for the vast
+
+     4           majority of listserves or mail exploders, it is a
+
+     5           communications mechanism between the people on that
+
+     6           listserve.  Anybody who sends mail to the listserve will --
+
+     7           the mail will be forwarded to all members of the listserve,
+
+     8           all addresses which are in the listserve.  
+
+     9                    There are some listserves set up so that only people
+
+    10           who have subscribed can send mail to it, and others that are
+
+    11           set up so that anybody can send mail to it, but only people
+
+    12           who have subscribed will see that mail.  But there is in most
+
+    13           cases, although than the moderated listserves where the mail
+
+    14           will go to a moderator and then be forwarded, anybody who has
+
+    15           the address of the listserve can send mail to it and it will
+
+    16           be forwarded to all of the folks whose addresses are listed
+
+    17           in the list.
+
+    18           Q   So it's a fairly open means of communication.
+
+    19           A   Yes.
+
+    20           Q   Let's briefly discuss news groups, Usenet news groups. 
+
+    21           There was actually a little uncertainty today, I believe you
+
+    22           probably were in the courtroom, about number of moderated
+
+    23           news groups.  Do you have any information that you could
+
+    24           provide the Court, any estimate of moderated news groups
+
+    25           versus unmoderated news groups?
+
+                                                                           134
+
+     1           A   I can only estimate based on when I ran the news server
+
+     2           at Harvard, which I stopped running about two years ago.  The
+
+     3           number of moderated news group was in the ten percent or
+
+     4           maybe a little bit less range.  My guess today, and this is
+
+     5           mostly a guess, would be that it would be a significantly
+
+     6           smaller amount.  As I think I've talked yesterday, news
+
+     7           groups and the number of people on the news groups are
+
+     8           growing quite rapidly, so the requirement of effort of a
+
+     9           moderator is also growing.  So that to find people who are
+
+    10           willing to wade through thousands of messages a day to decide
+
+    11           to forward them is getting harder and harder.  We don't have
+
+    12           that many masochists, I guess.  And therefore the number of
+
+    13           moderated news groups is dropping.  A number of news groups
+
+    14           that used to be moderated are no longer moderated because
+
+    15           they can't find somebody with the right degree of gumption to
+
+    16           moderate it.
+
+    17           Q   And moderators are usually volunteers?
+
+    18           A   In most cases where it's not a news group that's set up
+
+    19           by a particular organization to talk about their product,
+
+    20           they are volunteers, yes.
+
+    21           Q   Okay.  Yesterday there was also -- you were asked about
+
+    22           the creation of new news groups.  I believe you said the Alt
+
+    23           hierarchy was fairly free, people could create things
+
+    24           individually.  But the other hierarchies, could you explain
+
+    25           again who creates that?  Is there one entity or organization
+
+                                                                           135
+
+     1           that approves the creation of a new news group within a --
+
+     2           say, for example, the Biz hierarchy?
+
+     3                    JUDGE SLOVITER:  The what?
+
+     4                    MR. MORRIS:  Biz, B-I-Z, as in business.
+
+     5                    THE WITNESS:  One of the hierarchies I mentioned
+
+     6           yesterday.  Somebody within a news group, taking for example
+
+     7           the one that I used yesterday, the REC.AUTO (ph) news group,
+
+     8           the traffic got large on the REC.AUTO news group, and a
+
+     9           number of people proposed to the news group that the news
+
+    10           group be broken up into subcategories for people of different
+
+    11           interests.  A discussion ensued amongst the people who
+
+    12           subscribe to the news group, and a proposal was worked out as
+
+    13           a democratic back and forth process and a suggestion was sent
+
+    14           off to a particular news group which is called NEWS.NEWS
+
+    15           GROUPS or something like that, which is a specific news group
+
+    16           set aside to discuss the creation of new news groups, and a
+
+    17           discussion occurred on there.  Then a call for a vote is
+
+    18           given.  And then whoever is doing the proposing for this news
+
+    19           groups, which is just somebody of interest, somebody who's
+
+    20           interested in it, collects up the E-mail votes that they get,
+
+    21           and posts a list of all of the votes.  It's this many votes
+
+    22           in favor of this proposed news group and this many votes
+
+    23           opposed, over some duration of time.
+
+    24                    If the votes are more than a certain amount, and it
+
+    25           used to be that you had to have 100 votes in favor and no
+
+                                                                           136
+
+     1           more than 25 against, -- I don't know what the numbers are
+
+     2           today, that was what it was three years ago, and I suspect
+
+     3           the numbers are much higher today -- then it's declared that
+
+     4           that news group is a legitimate news group.  And by declared,
+
+     5           it's just the yes, it met -- everybody agrees it met the
+
+     6           requirements so therefore it's legitimate, and whoever put in
+
+     7           the original proposal would then issue the news group
+
+     8           creation command and it would go off and create the propagate
+
+     9           the creation of news group.
+
+    10                    Then the one other thing is that, as I mentioned
+
+    11           yesterday, there are volunteers who maintain lists of
+
+    12           approved, in the sense of this process approved news groups,
+
+    13           within different portions of the hierarchy of the news
+
+    14           hierarchy, like within the Biz hierarchy, and a volunteer
+
+    15           will add it to their list.  Then this list is periodically
+
+    16           sent out and some news servers are configured to delete any
+
+    17           news group in a hierarchy that doesn't appear on the list. 
+
+    18           So it's a democratic ad hoc process.
+
+    19           BY MR. MORRIS:
+
+    20           Q   Okay.  Briefly, could you just explain the process of
+
+    21           registering a domain name with the Internet, at least in the
+
+    22           United States, as I understand it.  Has your domain name been
+
+    23           registered with the Internet?  The NEWDEV.HARVARD.EDU(ph)?
+
+    24           A   No.  The domain name is divided up in different sections,
+
+    25           as was explained this morning about the .EDU and .HARVARD and
+
+                                                                           137
+
+     1           then NEWDEV is my particular machine.  The portion of the
+
+     2           domain name which is registered is the organization's domain
+
+     3           name.  So in this case it's HARVARD.EDU is what gets
+
+     4           registered.  Within HARVARD I have registered NEWDEV, but
+
+     5           this doesn't get registered with the Internet, it is entirely
+
+     6           within HARVARD.  I have a domain name of my own for my little
+
+     7           consulting company and I have registered that.  But the
+
+     8           computers within that I register with myself and I rarely
+
+     9           complain so I get them registered quickly.  (Laughter.)  But
+
+    10           that's only within my own domain.
+
+    11                    The domain in the simple case, it is something like
+
+    12           HARVARD.EDU, it would be a little more complicated if we have
+
+    13           a domain such as the .USTOPLEVEL domain which was also
+
+    14           mentioned this morning, that two-level country codes are one
+
+    15           of the types of top-level domains along with EDU and ORG.  In
+
+    16           the U.S. these are divided geographically. 
+
+    17                    So for example the Web page that I mentioned
+
+    18           yesterday of IETF -- WWW.IETF.ORD is actually on a computer
+
+    19           that's run by a company in Western Virginia, and the
+
+    20           company's name is CNRI, Corporation for National Research
+
+    21           Initiatives.  And their domain name is CNRI.RESTON.VA.US. 
+
+    22           And then there's computers within that.  So it's
+
+    23           IETF.CNRI.RESTON.VA.US.  The CNRI.RESTON.VA.US is what was
+
+    24           registered as the domain name but the machine within it is
+
+    25           not.
+
+                                                                           138
+
+     1           Q   Okay, just one last question.  Judge Buckwalter earlier
+
+     2           asked Dr. Croneberger if he had all the money in the world
+
+     3           and a clear definition of the patently offensive and
+
+     4           indecent, would it be possible to develop a system.  And I'd
+
+     5           be interested if you could tell the Court, is that possible? 
+
+     6           Do you think that's possible?
+
+     7           A   As a theoretical exercise, I think it probably is
+
+     8           possible.  But for me as a speaker to be able to be insured
+
+     9           that this was being met, the only thing I can think of, and I
+
+    10           have thought about this a little bit, is we would have to
+
+    11           have a mechanism by which all of the listeners, in every
+
+    12           category, listeners to news groups, listeners to listserve,
+
+    13           listeners on the Web, all of the listeners, all of the people
+
+    14           retrieving information, would have to be able to provide some
+
+    15           form of identification.
+
+    16                    Now, the identification wouldn't have to be more
+
+    17           than a "Yes, I'm over 18" kind of identification, but in
+
+    18           order to insure that that's reliable, you would have to have
+
+    19           a mechanism by which you could create this identification
+
+    20           such that it couldn't be easily forged.  There is a concept
+
+    21           that is being worked on that is called Digital Signatures,
+
+    22           and the U.S. Post Office as an organization is looking into
+
+    23           doing an identification check at post offices whereby someone
+
+    24           would come in and identify themselves and they would get a
+
+    25           bit pattern, a digital signature, which they could then use
+
+                                                                           139
+
+     1           to identify themselves in commerce and in correspondence,
+
+     2           perhaps even at some point legal correspondence.  One could
+
+     3           in theory add to that identification some flag in there to
+
+     4           indicate whether they were over or under 18.  
+
+     5                    But that would assume the mechanism were actually
+
+     6           installed and in place of going -- of people going to the
+
+     7           post office and getting these identities, and that you would
+
+     8           have to have the identity before you could surf the Web. 
+
+     9           Without that kind of structure, without making the assumption
+
+    10           of something in place so that I could be sure that a
+
+    11           listserve could be created that would only accept
+
+    12           subscriptions from those over 18, and I could query that
+
+    13           listserve to be sure that it was one which was doing that, I
+
+    14           think it would be hard.
+
+    15                    But in theory I could imagine a scenario by which
+
+    16           this could be done, but it wouldn't take quite all the money
+
+    17           in the world, as in the proposition, but I would have fun if
+
+    18           it were a cost plus contract.  (Laughter.)
+
+    19                    MR. MORRIS:  We have no further questions.
+
+    20                    JUDGE SLOVITER:  Thank you.  Is there recross?
+
+    21                    MR. BARON:  Yes, your Honor.
+
+    22                    JUDGE SLOVITER:  Mr. Baron.
+
+    23                    MR. BARON:  Good afternoon, your Honors.
+
+    24                    JUDGE SLOVITER:  Good afternoon.
+
+    25                                RECROSS-EXAMINATION
+
+                                                                           140
+
+     1           BY MR. BARON:
+
+     2           Q   Good afternoon, Mr. Bradner.
+
+     3                    Mr. Bradner, I'm going to give you a hypothetical. 
+
+     4           Let's assume you have a simple Worldwide Web Web site on a
+
+     5           Web server with a home page.  And the home page has a URL
+
+     6           associated with it.  And for purposes of this example, we'll
+
+     7           just name it this generic name.  The URL is
+
+     8           HTTP://WWW.WEBSITE.  Are you with me on that?
+
+     9           A   So far it's simple.
+
+    10           Q   Okay.  Now, let's assume that the home page also has
+
+    11           pointers to ten files on that Web site or Web server.  And
+
+    12           each of those files has a separate URL which is an extension
+
+    13           of the home pages URL.
+
+    14           A   Yes.
+
+    15           Q   And let's just for the purposes of this hypothetical say
+
+    16           that the URL for each of those ten files is
+
+    17           HTTP://WWW.WEBSITE/FILE1 and then iteratively FILE1...
+
+    18           through FILE10.  Still with me?
+
+    19           A   Yes.
+
+    20           Q   Now, you have admitted in your prior testimony that it is
+
+    21           a trivial matter for an owner of a Web site to imbed a tag or
+
+    22           label in HTML source code in the header of that source code
+
+    23           on the home page, correct?
+
+    24           A   On any particular page, whether it be the home page or
+
+    25           not, as long as it's an HTML page that would be easy to
+
+                                                                           141
+
+     1           augment it, yes.
+
+     2           Q   And as a technical matter, it would also be possible to
+
+     3           imbed a unique tag or label in HTML source code for each of
+
+     4           the files 1 through 10 with those separate URL extensions in
+
+     5           my hypothetical, correct?
+
+     6           A   I'm a little confused here, because to me you may be
+
+     7           mixing two things.  One is the files themselves, and I just
+
+     8           said that any file you could put -- any HTML file you could
+
+     9           put such a tag in.  And the URLs which are different things. 
+
+    10           You could put tags in the URLs also.
+
+    11           Q   I'm not speaking about the tags in the URL, but the tags
+
+    12           in the files.  So each of those files with a separate URL
+
+    13           address would have HTML source code associated with that file
+
+    14           and a tag could be put in for file 1, file 2, iteratively,
+
+    15           file 10.
+
+    16           A   If indeed they were HTML files, yes.
+
+    17           Q   And the operation of that tag on any one of those files
+
+    18           on that site would, assuming that it's a tag that's set up to
+
+    19           be coordinated with parental blocking mechanisms, would
+
+    20           operate to block that URL extension, that particular file on
+
+    21           that Web site, that unique file, 1 through 10.
+
+    22           A   Assuming that it was A, as you speculate, set up to do
+
+    23           so, and B, that the user was using a browser so configured to
+
+    24           do that blocking, yes, all files are equivalent in that
+
+    25           context.
+
+                                                                           142
+
+     1           Q   And any browser set up to look at the URL for a
+
+     2           particular file 6 or file 8 or file 10 would be blocked if
+
+     3           there was that mechanism for tagging and the browser was set
+
+     4           to look?
+
+     5           A   Well, to be very specific, just to not be confusing here,
+
+     6           what would happen is in your scenario that the browser would
+
+     7           go off and it would retrieve the file, file 1, file 2,
+
+     8           whatever, it would retrieve that file.  It would actually go
+
+     9           off and start to retrieve the file, perhaps even retrieving
+
+    10           the whole file, then look at the HTML if it's an HTML file,
+
+    11           then make the decision.  So the fact that it has a URL is
+
+    12           independent.  It just happens that all files that are on Web
+
+    13           servers have either real or implied or constructed URLs
+
+    14           simply because as I just said, the URL is really just a way
+
+    15           to identify a file.  So we want to make sure that we're
+
+    16           talking about two different cases, because yesterday we were
+
+    17           talking about putting tags in URLs and we're talking about
+
+    18           putting tags in the files, and I want to be sure that we've
+
+    19           got those separated because they're different concepts.
+
+    20           Q   Okay.  And in paragraph 30 -- sorry, paragraph 79 of your
+
+    21           supplemental declaration at page 33, you mention the concept
+
+    22           executable programs.  Could you explain with some concrete
+
+    23           examples what executable programs are?
+
+    24           A   The example I used yesterday was a screen saver, which
+
+    25           would draw pretty pictures on your screen instead of burning
+
+                                                                           143
+
+     1           your logo into the screen when the screen's been idle for a
+
+     2           while.  Many of those exist on the net, and you can retrieve
+
+     3           them anonymously FTP or over the Web for free.  They are
+
+     4           there because the screen saver will come up and advertise
+
+     5           some product or it's just because somebody thought that the
+
+     6           picture they did was cute, or the function they did was cute. 
+
+     7           It was an intellectual exercise or a class exercise.  So many
+
+     8           of these are out.  Hundreds of these screen savers exist and
+
+     9           you can go retrieve them, but they are binary files.
+
+    10           Q   Do they usually have a .EXE suffix?
+
+    11           A   The .EXE is for a particular kind of binary file that's
+
+    12           used on PCs.  There are other extensions for other kinds of
+
+    13           computers, for other types of binaries.
+
+    14           Q   Now, to the best of your knowledge, are any of the home
+
+    15           pages of any of the plaintiffs in this lawsuit, do they
+
+    16           comprise executable programs or files?
+
+    17           A   Since I don't know the list of the plaintiffs by heart or
+
+    18           even by remembering having read it, the full list, it seems
+
+    19           to be quite an extensive list, I couldn't answer, but it
+
+    20           would seem to be unlikely that a home page would be a binary
+
+    21           per se, though possible, because it could be a graphical
+
+    22           image, but it wouldn't seem to be very likely.
+
+    23           Q   If one had an executable program in a file, is there
+
+    24           anything about that mere fact that it's an executable program
+
+    25           that would prevent the owner of the Web site from registering
+
+                                                                           144
+
+     1           or otherwise making known the page where the executable
+
+     2           program was to the many tens or hundreds or thousands of
+
+     3           directories in cyberspace or to any of the companies that
+
+     4           operate browsers or parental control mechanisms.  Is there
+
+     5           something special about executable programs?
+
+     6           A   An executable program when viewed by the Web is just
+
+     7           another page.  It happens that when the browser goes to try
+
+     8           and retrieve it, it uses a different retrieval mechanism than
+
+     9           it does when it's trying to retrieve text or HTML.  But it's
+
+    10           just another page, and one can -- and that page has a unique
+
+    11           URL, and yes, one could register in theory any URL pointing
+
+    12           to any file that was on any server, and there is nothing
+
+    13           special in that context about a binary, no.
+
+    14                    MR. BARON:  I have no further questions.
+
+    15                    JUDGE SLOVITER:  Any more from the plaintiffs?
+
+    16                    MR. MORRIS:  No, your Honor.
+
+    17                    JUDGE SLOVITER:  Okay.  Judge Dalzell.
+
+    18                    JUDGE DALZELL:  Yes.  I wonder in paragraphs 73
+
+    19           through 76 you talk a good deal about cashing, and I must say
+
+    20           I really don't follow it.  Would you just, using the standard
+
+    21           that Chief Judge Sloviter put so well, could you just
+
+    22           rehearse for us exactly what you mean by cashing?
+
+    23                    THE WITNESS:  That standard was that it should be
+
+    24           understandable?
+
+    25                    JUDGE DALZELL:  You'll forgive the expression, yes.
+
+                                                                           145
+
+     1                    (Laughter.)
+
+     2                    THE WITNESS:  Well, let's take the example I think I
+
+     3           used.  But the basic idea is you would like to minimize the
+
+     4           number of times that you go off and you retrieve something,
+
+     5           that you actually have to go to the actual server to retrieve
+
+     6           something.  Cashing is not a new concept.  It's used in
+
+     7           computers between the processor and disk so that if you want
+
+     8           to reload the same file off of disk between the processor and
+
+     9           memory if you want to reread some portion of memory into the
+
+    10           processor, instead of going to the relatively slow memory or
+
+    11           the relatively slow disk, it goes and gets it out of the
+
+    12           cash.
+
+    13                    In the case of cashing Web servers, which is what I
+
+    14           was speaking of in there, the same concept applies.  Many
+
+    15           universities, many organizations have as a function built
+
+    16           into their firewall or built into a device sitting between
+
+    17           their network and the rest of the Internet, they have an
+
+    18           ability to watch the HTML requests go by and see what comes
+
+    19           back and save a temporary copy of what comes back.
+
+    20                    JUDGE DALZELL:  How temporary?
+
+    21                    THE WITNESS:  That's usually locally configurable
+
+    22           and it's frequently done based on how much disk space you
+
+    23           have.  Once you start getting low on disk space, you throw
+
+    24           away the things which haven't been accessed for the longest
+
+    25           period of time.  And --
+
+                                                                           146
+
+     1                    JUDGE DALZELL:  Well, you give in paragraph 73 the
+
+     2           hypothetical of cashing when a user in Europe requests access
+
+     3           to a Worldwide Web page located in the United States?
+
+     4                    THE WITNESS:  Yes.
+
+     5                    MR. MORRIS:  Your Honor, could I --
+
+     6                    JUDGE DALZELL:  Yes, sure, sure.
+
+     7                    THE WITNESS:  Yes.
+
+     8                    JUDGE DALZELL:  Now, do I understand correctly that
+
+     9           the first time that the European user accesses the American
+
+    10           information page, it is put somewhere in cyberspace on the
+
+    11           east side of the Atlantic?
+
+    12                    THE WITNESS:  In this particular hypothetical, to
+
+    13           use a word that was just being used at me, what would happen
+
+    14           is that the people who operated the transatlantic link, and
+
+    15           it happens that in the real world of data networking the
+
+    16           Europeans have to pay for their links into the U.S.  The U.S.
+
+    17           doesn't pay for the links because everybody thinks we're more
+
+    18           important and so far the Europeans have agreed with that.  I
+
+    19           think that may change in time, but they want to minimize the
+
+    20           utilization of that link.  They don't want to have it
+
+    21           retrieve the same file again and again and again from some
+
+    22           U.S. site.  So they would put on their end of the link a
+
+    23           cashing Web server.  So that when a request came in from
+
+    24           Europe, if it wasn't in the cash it would go do the request
+
+    25           across the Atlantic, across the relatively small and very
+
+                                                                           147
+
+     1           expensive link, retrieve that file and then store it in the
+
+     2           cashing Web server and pass a copy onto the requester.
+
+     3                    JUDGE DALZELL:  But storing it in the Web server in
+
+     4           your hypothetical in Europe?
+
+     5                    THE WITNESS:  That's correct.
+
+     6                    JUDGE DALZELL:  Now let's reverse the hypothetical
+
+     7           because we're told a significant percentage of the sexually
+
+     8           explicit material comes from abroad.  I mean I know you're
+
+     9           not an expert on that, but that's what we're told.
+
+    10                    THE WITNESS:  I don't know from personal experience,
+
+    11           no.
+
+    12                    JUDGE DALZELL:  Right, but that's what we're told. 
+
+    13           Let's assume that's true, okay.
+
+    14                    THE WITNESS:  Mm-hmm.
+
+    15                    JUDGE DALZELL:  So the American server, the American
+
+    16           user types in "sexy European girls," okay.  Now, that goes to
+
+    17           Europe, pulls it back and it's held for a time in somewhere
+
+    18           on this side at the west side of the Atlantic so that it
+
+    19           could be accessed again for some finite period of time?
+
+    20                    THE WITNESS:  The European, in this case because the
+
+    21           transatlantic link as operated -- as paid for by a European
+
+    22           company, if the European company put such a server on this
+
+    23           side in order to preserve the band width coming the other
+
+    24           direction, which they could easily do, then yes, it would be
+
+    25           stored for a time on this side and it would be identified by
+
+                                                                           148
+
+     1           the URL, that's basically -- URL being index into it.
+
+     2                    JUDGE DALZELL:  Same hypothetical except the
+
+     3           provider of the sexually explicit material is in Thailand. 
+
+     4           Any difference in your answer?
+
+     5                    THE WITNESS:  It's probably more likely to have a
+
+     6           Web cashing server there because the transpacific links are
+
+     7           very, very expensive, million dollars a month for a good-
+
+     8           sized link from the U.S. to Japan, for example.
+
+     9                    JUDGE DALZELL:  And who is paying for that link?
+
+    10                    THE WITNESS:  The Japanese Internet service
+
+    11           providers.
+
+    12                    JUDGE DALZELL:  Collectively.
+
+    13                    THE WITNESS:  There are a number of different links. 
+
+    14           I was quoted the million dollars a month quote by somebody
+
+    15           involved in the Asian-Pacific Network Information Center a
+
+    16           couple of months ago, and I'm not sure if that was from a
+
+    17           particular Internet provider in Japan, or whether that was
+
+    18           some conglomeration.
+
+    19                    JUDGE DALZELL:  Judge Sloviter wants to ask about
+
+    20           cashing.
+
+    21                    JUDGE SLOVITER:  Now, given now that you have
+
+    22           explained cashing in terms that maybe we can understand,
+
+    23           thanks to Judge Dalzell and to your willingness to do so,
+
+    24           what happens, what is the effect?  Now that we know the
+
+    25           concept, what is its relevance to the issues before us in
+
+                                                                           149
+
+     1           this case?
+
+     2                    THE WITNESS:  The primary relevance, the reason that
+
+     3           I brought it up in the statement is that once this is cashed,
+
+     4           you know when someone asks to see it, the original server
+
+     5           does not see the request.  The original server's request --
+
+     6           the user's request is fulfilled by the cashing server and
+
+     7           that request is not passed on to the originating server, so
+
+     8           the originating server has no way of knowing who or how many
+
+     9           or anything else.  We were talking about hits earlier.  The
+
+    10           originating server would have no way of knowing how many
+
+    11           times this file was retrieved because it wouldn't get the
+
+    12           hits.
+
+    13                    JUDGE SLOVITER:  And the file would be identified
+
+    14           though as coming from the original server?
+
+    15                    THE WITNESS:  It would -- remember that in the -- we
+
+    16           were talking -- I missed yesterday afternoon, but I was told
+
+    17           about your adventures in cyberspace --
+
+    18                    JUDGE SLOVITER:  And never get it back.
+
+    19                    THE WITNESS:  Everything is just a URL.  There is
+
+    20           nothing particularly in that URL that tells you really where
+
+    21           it came from.  There's some names in it which if given some
+
+    22           work we could figure out where some particular site exists,
+
+    23           but we don't know where SEXYEUROPEANGIRLS.COM might be, the
+
+    24           server might be.  That actually might be in the U.S., it
+
+    25           might be in Europe, could be anywhere.  There's just the URL,
+
+                                                                           150
+
+     1           which is, as I explained a minute ago, it's the application
+
+     2           followed by a site name followed by a file name.  What is
+
+     3           saved in the server, in the cashing server, is the URL and
+
+     4           the file associated with it.  So that's all that's there.  We
+
+     5           don't have any way of tying anything else together than that.
+
+     6                    JUDGE SLOVITER:  So you don't -- you can't identify
+
+     7           either the pointer or the pointee, is that the point?
+
+     8                    THE WITNESS:  It's not so much that, it's that if
+
+     9           somebody in Europe were retrieving a data file from my
+
+    10           server, let's say one of my newspaper columns, and they
+
+    11           retrieved that, I would see a retrieval from the local end of
+
+    12           the -- the cashing server in Europe or in the U.S., however
+
+    13           it was done, I would see one retrieval from that.  There
+
+    14           could be many other people who might want to read it --
+
+    15           that's not borne out by what my editor says -- but there
+
+    16           might be other people.  I would never know whether anybody
+
+    17           else read it, retrieved it within the time period of how long
+
+    18           the cashing server kept it.
+
+    19                    JUDGE SLOVITER:  And would the cashing server know
+
+    20           how many people retrieved it?
+
+    21                    THE WITNESS:  As long as it in turn wasn't behind
+
+    22           another cashing server.  Because organizations put cashing
+
+    23           servers on their boundaries to minimize the link, the
+
+    24           utilization of their link to the rest of the Internet because
+
+    25           those links are expensive, and if they're keeping, retrieving
+
+                                                                           151
+
+     1           the same files, they're making use of the link that they
+
+     2           wouldn't otherwise need to.
+
+     3                    JUDGE DALZELL:  You see, this is why I think this
+
+     4           may be important to our consideration.  Whoever it is who
+
+     5           created the Web page, let's say SEXYEUROPEANGIRLS, let's
+
+     6           hypothesize in Luxembourg, does not think or may not be
+
+     7           thinking about complying with Title V of the
+
+     8           Telecommunications Act of 1996, but the cash server in the
+
+     9           United States, as I understand your testimony, effectually
+
+    10           domesticates that Luxembourg Web page, does it not?
+
+    11                    THE WITNESS:  If indeed there is such a server
+
+    12           there, but again, it could be a server there, it could be a
+
+    13           server that's on the boundary of a corporation or a school. 
+
+    14           There could be many servers up and down the line.  Each one
+
+    15           of those, if they're within the U.S. could yes, be
+
+    16           domesticating it.
+
+    17                    JUDGE DALZELL:  Could Mr. Coppolino and his troops
+
+    18           find that domestic cash server to prosecute them?  And if so,
+
+    19           how would they do it?
+
+    20                    THE WITNESS:  You can -- actually there's nothing in
+
+    21           the information that you retrieve when you -- when somebody
+
+    22           goes to retrieve it, there's nothing to indicate where that
+
+    23           came from.  So if indeed for example the servers have been
+
+    24           tweaked so that they didn't save copies of files from
+
+    25           SEXYEUROPEANGIRLS.COM, then you wouldn't as someone reading
+
+                                                                           152
+
+     1           from this side of the Atlantic, you wouldn't be able to tell
+
+     2           that it was or was not cashed anywhere along the line.
+
+     3                    JUDGE DALZELL:  And there would be no way for me to
+
+     4           know that and therefore no way for Mr. Coppolino and his
+
+     5           troops to know that?
+
+     6                    THE WITNESS:  That's correct.
+
+     7                    JUDGE DALZELL:  Okay.  But nonetheless I would see
+
+     8           an untagged SEXYEUROPEANGIRLS; correct?
+
+     9                    THE WITNESS:  You could see that.
+
+    10                    JUDGE DALZELL:  Even if all domestic information
+
+    11           providers agreed, yes, let's tag all our URLs, the folks in
+
+    12           Luxembourg don't give a darn what our law says, but
+
+    13           nonetheless their information may come to my son, who's ten.
+
+    14                    THE WITNESS:  That's correct.
+
+    15                    JUDGE DALZELL:  Okay.
+
+    16                    THE WITNESS:  The other worry that I have in that
+
+    17           actually is a little bit perhaps even the other way.  From
+
+    18           what I understand, we went through this process of the CD
+
+    19           providers agreeing to tag rap songs with parental guidance. 
+
+    20           And the experience was that those CD's so tagged sold better
+
+    21           than the ones that were not.  (Laughter.)  I would have some
+
+    22           worry that people would actually, SEXYEUROPEANGIRLS.COM would
+
+    23           actually be quite happy to put tags on and then make sure
+
+    24           that there were browsers readily available that would seek
+
+    25           out sites that had such tags.
+
+                                                                           153
+
+     1                    JUDGE DALZELL:  Okay, that's very helpful.  A couple
+
+     2           technical questions.  FTP and gopher.  Are they forms of
+
+     3           search engines?
+
+     4                    THE WITNESS:  No, they're just file retrieval
+
+     5           devices.
+
+     6                    JUDGE DALZELL:  And how do they differ from a search
+
+     7           engine like Alta Vista (ph)?
+
+     8                    THE WITNESS:  Alta Vista builds up a database which
+
+     9           when you send a query to it, it looks into its local database
+
+    10           to see whether it has entries that match that query, and
+
+    11           return to you the pointers, URLs, that correspond to those
+
+    12           matches.
+
+    13                    JUDGE DALZELL:  As I understand, FTP and gopher or
+
+    14           Alta Vista, if I type in Scott Bradner, they're all going to
+
+    15           go looking for anything mentioning you, won't they?
+
+    16                    THE WITNESS:  FTP -- no, FTP is an interactive
+
+    17           program with which you can tell it to retrieve a particular
+
+    18           file.  So if I gave you the name of a file on my machine,
+
+    19           there is a process by which you could interactively go
+
+    20           through and retrieve that one file.  It is not the kind of
+
+    21           thing -- FTP is not the kind of thing, nor is gopher the kind
+
+    22           of thing which by itself you can say, go find every file
+
+    23           which has Scott Bradner in it.  All it does is say, here is a
+
+    24           file name.  Here is a URL.  Here is the extended URL.  In the
+
+    25           case of FTP, you actually give it the machine name separately
+
+                                                                           154
+
+     1           and the file name separately, and you have to do all kinds of
+
+     2           --
+
+     3                    JUDGE DALZELL:  But in Alta Vista I could just
+
+     4           search Scott Bradner?
+
+     5                    THE WITNESS:  It has been done.  (Laughter.)
+
+     6                    JUDGE DALZELL:  I'm sure of that, maybe by people in
+
+     7           this room.  (Laughter.)
+
+     8                    Lastly, you talk in paragraphs 70 and 71 of your
+
+     9           declaration about common gateway interface or script, a CGI
+
+    10           script?
+
+    11                    THE WITNESS:  Yes.
+
+    12                    JUDGE DALZELL:  And that you say is an option that
+
+    13           is at least possible on the Worldwide Web where the -- if you
+
+    14           had the resources you could screen out users?
+
+    15                    THE WITNESS:  It's basically -- and we were talking
+
+    16           this morning, we were talking about forms type interface
+
+    17           where you have little boxes to fill in, one of the things
+
+    18           that can happen when you fill in those little boxes is you
+
+    19           can fire up, you can start up a program and CGI is one of the
+
+    20           ways you can start up a program, which takes as its input
+
+    21           information in the boxes.
+
+    22                    So for example it could take as input somebody's
+
+    23           credit card number.
+
+    24                    JUDGE DALZELL:  All right.
+
+    25                    THE WITNESS:  And then if mechanisms existed to
+
+                                                                           155
+
+     1           verify that credit card number purely electronically or over
+
+     2           the Net, it could go ahead and do that in theory.
+
+     3                    JUDGE DALZELL:  Okay, that's very good.  Thank you
+
+     4           very much.
+
+     5                    JUDGE SLOVITER:  I'll ask a question while you're
+
+     6           thinking.
+
+     7                    JUDGE BUCKWALTER:  No, you go ahead.
+
+     8                    JUDGE SLOVITER:  When you used the term "trivial"
+
+     9           yesterday a number of times, and I'd have to go back and
+
+    10           retrieve and I don't have it all here and we don't have daily
+
+    11           transcripts so I don't know, do you mean by trivial, trivial
+
+    12           to somebody with your expertise, or technologically trivial,
+
+    13           or do you mean trivial because it doesn't take a lot of money
+
+    14           or because it doesn't -- I didn't quite understand what you
+
+    15           meant, and you used it at different times, so you may have
+
+    16           used it differently.
+
+    17                    THE WITNESS:  I believe most of the time that I used
+
+    18           it it was in response to a direct question from Mr. Baron who
+
+    19           used it in -- when we spoke last week.  But be that as it
+
+    20           may, I did use it and by that I really meant that it was
+
+    21           really easy to do, given -- I think in the deposition what I
+
+    22           said was -- or in the discussion we had last week, I said
+
+    23           something along the line of given a sample home page with a
+
+    24           fill in the blank of how you would designate naughty stuff
+
+    25           below, anybody could take that sample and modify it for their
+
+                                                                           156
+
+     1           own environment just trivially, because all it is is an
+
+     2           editing task.  It's just like editing a letter to one's
+
+     3           mother.  It's just characters.  And as long as you have a
+
+     4           model to follow and a set of instructions to follow, it's
+
+     5           easy to do.
+
+     6                    So I think in most of the contexts that I was
+
+     7           referring to yesterday, in that it's easy to do, not
+
+     8           necessarily for somebody with a great deal of expertise but
+
+     9           given the right environment, it would be easy for anybody to
+
+    10           do.  It would be difficult for me to do it today because I
+
+    11           don't happen to be an HTML expert.  I went out -- after our
+
+    12           discussion the other day I went out and bought a book because
+
+    13           he asked me some embarrassing questions I should have known
+
+    14           the answer to.  But it would take me some time and it would
+
+    15           be untrivial, both in terms of time and at my normal billing
+
+    16           rate expense for me to set up a home page to do this.  But if
+
+    17           I were given a sample home page with, if you fill in your
+
+    18           name here, everything will be fine, it would be truly trivial
+
+    19           to do.
+
+    20                    JUDGE SLOVITER:  Thank you.
+
+    21                    JUDGE BUCKWALTER:  I was thinking of carrying Judge
+
+    22           Sloviter's example being simple maybe to the ridiculous, I
+
+    23           hope not, but maybe my analogy would help me, when I was a
+
+    24           young man I wanted to be a user of the local bar when I was
+
+    25           in college.  But the provider (laughter) was by law forbidden
+
+                                                                           157
+
+     1           to serve me if I were under the age of, I think it was 21
+
+     2           back then.  Do I understand that it's somewhat analogous that
+
+     3           if the provider puts up a sign there that says no one under
+
+     4           21 allowed to drink that that's a tag?
+
+     5                    THE WITNESS:  That would be -- that would be an
+
+     6           equivalent to a tag, yes.
+
+     7                    JUDGE BUCKWALTER:  That would be equivalent to a
+
+     8           tag.  And do I further understand that if that sign were in
+
+     9           Japanese, I wouldn't be configured to understand that tag or
+
+    10           -- is that what we mean by being configured?  Make the
+
+    11           assumption that I don't understand Japanese language, but --
+
+    12                    THE WITNESS:  Well, I think that's a common
+
+    13           assumption in this room.
+
+    14                    JUDGE BUCKWALTER:  Yes.
+
+    15                    THE WITNESS:  Certainly an assumption that falls
+
+    16           with me.  Actually what I think I was referring to was a
+
+    17           little bit different than that --
+
+    18                    JUDGE BUCKWALTER:  Okay.
+
+    19                    THE WITNESS:  -- in that it was more along the line
+
+    20           of yes, I guess, am I configured to be able to read and
+
+    21           understand that sign.
+
+    22                    JUDGE BUCKWALTER:  Me, the user, I'm not configured,
+
+    23           so on --
+
+    24                    THE WITNESS:  Yeah, can you read the sign.
+
+    25                    JUDGE BUCKWALTER:  -- that point, that tab would be
+
+                                                                           158
+
+     1           no good to me.
+
+     2                    THE WITNESS:  That's correct.
+
+     3                    JUDGE BUCKWALTER:  Right now, I'm configured to
+
+     4           understand English so the tab would be good.
+
+     5                    THE WITNESS:  Yes.  That's what standards are useful
+
+     6           for.
+
+     7                    JUDGE BUCKWALTER:  However, it wouldn't be
+
+     8           sufficient to guarantee that I wouldn't get in the bar and
+
+     9           get a drink, right?
+
+    10                    THE WITNESS:  In the context of the law, I think
+
+    11           what we're to extend this simile to probably ridiculous
+
+    12           levels, it would appear to me that the provider of liquor to
+
+    13           that bar has to insure that the bar doesn't serve underage
+
+    14           people.  And that's the paradigm.  It would seem to follow
+
+    15           from the law that it's the provider of the materials that has
+
+    16           to insure, --
+
+    17                    JUDGE BUCKWALTER:  Right.
+
+    18                    THE WITNESS:  And the liquor provider of the bar
+
+    19           can't be sure that they're checking IDs at the door and --
+
+    20                    JUDGE BUCKWALTER:  He can have a gateway though
+
+    21           which is the bouncer at the door who checks the ID or the
+
+    22           password of the --
+
+    23                    THE WITNESS:  But would the liquor provider have to
+
+    24           have that bouncer, or would the bar's owner have to --
+
+    25                    JUDGE BUCKWALTER:  Well, under the example I'm
+
+                                                                           159
+
+     1           giving and the way it worked back then, the liquor provider
+
+     2           had to have the bouncer.  And isn't that what we're talking
+
+     3           about here under this law, that the Government is saying the
+
+     4           provider has to have the bouncer?
+
+     5                    THE WITNESS:  The liquor, the Jim Beam has to have
+
+     6           the bouncer, not the bar has to have the bouncer, and that's
+
+     7           the difference -- that's my extension of your scenario to
+
+     8           this law.
+
+     9                    JUDGE BUCKWALTER:  Okay.  Now, extending my scenario
+
+    10           further, are you saying that that's very difficult to --
+
+    11                    THE WITNESS:  It's very difficult for Jim Beam to
+
+    12           know that the bouncer is there and to know the bouncer is
+
+    13           following the rules set which will result in underage people
+
+    14           not being allowed into the bar.
+
+    15                    JUDGE BUCKWALTER:  Okay.  I don't want to go any
+
+    16           further with this, because it takes up too much time and
+
+    17           might not be particularly helpful, but thank you.
+
+    18                    JUDGE SLOVITER:  I have one more basic question for
+
+    19           him.  While you were willing to do some explaining, and if
+
+    20           we've done this twice, let me know, but I was trying to
+
+    21           understand the use of the password system rather than the
+
+    22           anonymous system.  We haven't gone over that today, have we?
+
+    23                    THE WITNESS:  No, we haven't.
+
+    24                    JUDGE SLOVITER:  In different language -- which you
+
+    25           talked about in your declaration.
+
+                                                                           160
+
+     1                    THE WITNESS:  Yes.
+
+     2                    JUDGE SLOVITER:  And I think you say that use of the
+
+     3           password system rather than the anonymous system
+
+     4           automatically would give the user access to the entire
+
+     5           system.
+
+     6                    THE WITNESS:  I do say that, yes.
+
+     7                    JUDGE SLOVITER:  Yes.  And if you would just quickly
+
+     8           explain that, if possible, and then tell us why couldn't the
+
+     9           access be restricted also?
+
+    10                    THE WITNESS:  What I was explaining there was the
+
+    11           existing software.  Certainly software can be changed to do
+
+    12           anything that you want it to do, given sufficient money and
+
+    13           motivation.  But the existing software for FTP which is what
+
+    14           I was specifically referring to, anonymous FTP when you log
+
+    15           in as anonymous, which is if you wanted to retrieve a file
+
+    16           from my system and I gave you the name of the file, you could
+
+    17           just go in using FTP, log in as anonymous, and then go to the
+
+    18           directory the file is in and retrieve it.
+
+    19                    But when you do that, the FTP server, the demon, the
+
+    20           server itself automatically restricts you to a subset of the
+
+    21           information that's available on my machine.  It's a
+
+    22           subportion of the directory tree.  So you can only see that,
+
+    23           and you cannot change directory out of that.  There's just --
+
+    24           the software prevents you from doing that.  It's called
+
+    25           rehoming.  It gives you a new home that's very, very
+
+                                                                           161
+
+     1           restricted.
+
+     2                    In the currently available software, the FTP demons,
+
+     3           that if you go and you log in as a regular user, which is
+
+     4           what you do when you're logging in with a user name and a
+
+     5           password, a legitimate one, my own user name and my own
+
+     6           password, for example, if I were to do that, then it gives me
+
+     7           access to the machine as if I had logged into the machine as
+
+     8           a terminal.  It gives me the same view of the machine.  And
+
+     9           that view of the machine is all of the files on the machine
+
+    10           with whatever protections those files have for every user. 
+
+    11           So that if a file is publicly readable for all users, then it
+
+    12           would be publicly readable for the FTP who was coming in on a
+
+    13           log name and password basis.  If it's not publicly readable,
+
+    14           then it wouldn't be.
+
+    15                    What I was referring there was that it lays open for
+
+    16           potential abuse the entire structure of the server site.  In
+
+    17           my case --
+
+    18                    JUDGE SLOVITER:  Of the server.  What was --
+
+    19                    THE WITNESS:  The server computer, the server site.
+
+    20                    JUDGE SLOVITER:  And you concluded from that in
+
+    21           terms relevant to this case, because I'm not sure which side
+
+    22           that goes for, but what do you conclude from this?
+
+    23                    THE WITNESS:  There were two messages I was trying
+
+    24           to convey there.  One was that it would be an administrative
+
+    25           burden for me to maintain a log name and password file for
+
+                                                                           162
+
+     1           all of the very many people, individual users, who would want
+
+     2           to come and look at and retrieve information from my site. 
+
+     3           So it's just purely an administrative nightmare to do that. 
+
+     4           And the other is that it would pose to me a security risk to
+
+     5           make all of these files open, because I know that in my
+
+     6           machine as in almost all machines I have not been perfect in
+
+     7           setting the machine up, and I may have made some errors, and
+
+     8           some files which should have been protected are not
+
+     9           protected, or there is bugs in some of the software.  And
+
+    10           people could use the visibility they have into my machine to
+
+    11           circumvent the security on it.
+
+    12                    JUDGE SLOVITER:  And you're not saying that software
+
+    13           couldn't be created that would do that, would take care of
+
+    14           this problem, --
+
+    15                    THE WITNESS:  Absolutely not saying that.
+
+    16                    JUDGE SLOVITER:  -- but it just hasn't been right
+
+    17           now.
+
+    18                    THE WITNESS:  It is not -- the current software does
+
+    19           not do this.  Future software wouldn't change the
+
+    20           administrative burden tremendously, but --
+
+    21                    JUDGE SLOVITER:  Well, unless future it may do that,
+
+    22           too.
+
+    23                    THE WITNESS:  The future is unseeable.
+
+    24                    JUDGE SLOVITER:  Okay, thank you.
+
+    25                    Mr. Baron?
+
+                                                                           163
+
+     1           BY MR. BARON:  
+
+     2           Q   I have just a couple questions.  The record may be clear
+
+     3           on this point, Mr. Bradner, but we were talking about the
+
+     4           trivialness or the ease by which a tag can be put in HTML
+
+     5           source code.  And do I understand it from your testimony that
+
+     6           those individuals who know HTML source code who would be
+
+     7           designing Web pages, for that class of individuals it would
+
+     8           be an easy, straightforward trivial task to imbed a tag in a
+
+     9           header?
+
+    10           A   Actually I was going further than that and saying that if
+
+    11           you gave me a sample of what it's supposed to look like, even
+
+    12           if I don't know HTML, it would still be trivial.
+
+    13           Q   Okay.  And this is a very important point that your
+
+    14           Honors have raised about conventions and standards for
+
+    15           looking at tags and headers.  And so my question is that you
+
+    16           recall your testimony yesterday about Netscaping
+
+    17           approximately 80 percent of the browser market, correct?
+
+    18           A   As I recall my testimony yesterday was that Netscape
+
+    19           claimed to be 80 percent of the market.
+
+    20           Q   I stand corrected.  If -- and we spent a lot of time
+
+    21           yesterday at the beginning of your testimony talking about
+
+    22           the IETF and the fact that the Internet is a standards-rich
+
+    23           environment, do you recall that?
+
+    24           A   That's a standards development group rich environment.
+
+    25           Q   Okay, all right.  (Laughter.)
+
+                                                                           164
+
+     1           A   Which is slightly different.
+
+     2           Q   There are lots and lots of standards.
+
+     3           A   Yes, some of them conflicting.
+
+     4           Q   And draft standards, proposed standards, we covered all
+
+     5           that.
+
+     6           A   Consortium standards, the end of the month club. 
+
+     7           (Laughter.)
+
+     8           Q   Now, if a Government agency or alternatively if in a
+
+     9           consortium of private parties got together and adopted a
+
+    10           convention or a standard for tagging in HTML code, that would
+
+    11           essentially operate, like the movie rating system, be an
+
+    12           adult tag, that is a technical matter, the browser market as
+
+    13           just is a matter of technical feasibility the browser market
+
+    14           represented by Netscape and Microsoft and others, could
+
+    15           certainly pick up that tag that would be adopted as a
+
+    16           standard or a convention, isn't that correct?
+
+    17           A   Yes, and they could even program the browsers to accept
+
+    18           more than one standard for the same sort of information.
+
+    19                    MR. BARON:  I have no further questions.
+
+    20                    JUDGE SLOVITER:  Any further questions?
+
+    21                    MR. MORRIS:  No, your Honor.
+
+    22                    JUDGE SLOVITER:  Okay.  
+
+    23                    JUDGE DALZELL:  But I want to follow up on that. 
+
+    24           You said and Dr. Hoffman said that the Worldwide Web was not
+
+    25           created here, it came out of Czern (ph), right?
+
+                                                                           165
+
+     1                    THE WITNESS:  That's correct.
+
+     2                    JUDGE DALZELL:  And so what Mr. Baron just asked you
+
+     3           about hypothesizes that there is a plenary group that sets
+
+     4           standards and by setting standards, doesn't that then exclude
+
+     5           the possibility of new technologies such as the Worldwide Web
+
+     6           which arose spontaneously, not even in these shores?
+
+     7                    THE WITNESS:  That is a very insightful question. 
+
+     8           (Laughter.)  That happens to be one of the subjects of the
+
+     9           meeting I was at yesterday and couldn't be here on.  
+
+    10                    The tension between standards bodies is a very
+
+    11           serious issue.  I made light of it just a second ago, but it
+
+    12           is a very serious issue and there are many places in the
+
+    13           globe where the development of standards and the control of
+
+    14           the standards development process is seen as a strategic
+
+    15           necessity on the part of some governments.  And so the
+
+    16           defining of what standards to use, how to develop them and
+
+    17           what -- the level the mandating of those standards is seen as
+
+    18           strategic.
+
+    19                    And it is absolutely true that a too-strong
+
+    20           environment saying all standards must come from standards
+
+    21           group number two has a serious impact on innovation.  The Web
+
+    22           rose out of a hole.  The whole concept of the Web rose out of
+
+    23           a need that we didn't know we had.  We didn't know we had
+
+    24           this lack of ability to do easy browsing because we didn't
+
+    25           have the concept of easy browsing.  This was something that
+
+                                                                           166
+
+     1           sprung out of innovations on some parts of some individuals. 
+
+     2           It was not part of a standards effort.  It was people doing
+
+     3           something.  It caught on because people wanted the -- saw it
+
+     4           as useful.
+
+     5                    There are other holes in the Net.  We don't know
+
+     6           what they are.  There are other needs that we don't know we
+
+     7           have.  And certainly being too reliant on "we only do those
+
+     8           things which are standard" will stifle that innovation and it
+
+     9           would be very bad for us.  We went through many years of
+
+    10           telecom where we did not have, let's say, rapid innovation
+
+    11           because of that kind of centralized standards development
+
+    12           constraint.
+
+    13                    So in the context though of what Mr. Baron was
+
+    14           asking, if a consortium were to develop a tagging structure,
+
+    15           it wouldn't have to be the same consortium that would develop
+
+    16           future extensions on HTML.  I met with somebody on Tuesday
+
+    17           where the IETF is going to actually have a document which is
+
+    18           the extensions on HTML and this is being put together with
+
+    19           the W3 consortium.  It's a nice conglomerate effort.
+
+    20                    But a group putting together a standard for labeling
+
+    21           within HTML or within URLs or within copies of any text that
+
+    22           happens to be around wouldn't necessarily have to cooperate
+
+    23           with any other standards body in doing so.  It could just
+
+    24           create it.
+
+    25                    JUDGE DALZELL:  And indeed, isn't the whole point
+
+                                                                           167
+
+     1           that the very exponential growth and utility of the Internet
+
+     2           occurred precisely because governments kept their hands out
+
+     3           of this and didn't set standards that everybody had to
+
+     4           follow?
+
+     5                    THE WITNESS:  Well, it's actually even a little bit
+
+     6           more contorted than that because the governments tried to. 
+
+     7           The U.S. Government and many other governments attempted to
+
+     8           mandate a particular kind of protocol to be used on worldwide
+
+     9           data networks, and this is the OSI protocol suite.  The U.S.
+
+    10           Government mandated its use within the U.S. Government and
+
+    11           with purchasing material with U.S. funds.  This was mandated
+
+    12           in many European countries and in Canada and many other
+
+    13           places around the world.
+
+    14                    That particular suite of protocols has failed to
+
+    15           achieve market success.  What achieved success was the very
+
+    16           chaos that the Internet is.  The strength of the Internet is
+
+    17           that chaos.  It's the ability to have the forum to innovate. 
+
+    18           And certainly a strong standards environment fights hard
+
+    19           against innovation.
+
+    20                    JUDGE DALZELL:  Thank you.
+
+    21                    JUDGE SLOVITER:  Thank you.
+
+    22                    I'm sure counsel would like to continue the
+
+    23           dialogue, but are you content to let it be at the moment?
+
+    24                    MR. MORRIS:  We are, your Honor.
+
+    25                    MR. BARON:  Yes, your Honor.
+
+                                                                           168
+
+     1                    JUDGE SLOVITER:  I guess you are.  I'm not
+
+     2           (laughter)...
+
+     3                    We'll close now to resume on the 1st of April --
+
+     4                    JUDGE DALZELL:  On the 1st at 9:30.
+
+     5                    JUDGE SLOVITER:  Although counsel is I gather going
+
+     6           to meet with Judge Dalzell.  Do they know that --
+
+     7                    JUDGE DALZELL:  Could we do that at 3:00 o'clock in
+
+     8           the robing room, if that's convenient?
+
+     9                    JUDGE SLOVITER:  Okay?  All right.  Thank you all
+
+    10           very much, and have a good week until then.
+
+    11                    THE CLERK:  All rise.
+
+    12                    (Proceedings concluded at 2:40 o'clock p.m.)
+
+    13               
+
+</PRE>
+<HR>
+<a href = "index.html">Back to Hearing Transcripts index</a><br>
+<a href = "../index.html">Back to Citizens Internet Empowerment 
+Coalition</a><br>
+
+</BODY>
+</HTML>
+
+</DOC>

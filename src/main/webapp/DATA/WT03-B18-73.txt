@@ -1,0 +1,110 @@
+
+<DOC>
+<DOCNO>WT03-B18-73</DOCNO>
+<DOCOLDNO>IA085-000610-B041-286</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/mmi/mmi_nuc.htm 150.145.4.16 19970216121321 text/html 4017
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:14:14 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 15:48:06 GMT
+Content-Length: 3819
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy Robotics Dept.: MMI Kernel</title>
+<base href="http://www.ian.ge.cnr.it/robotics/mmi/mmi_nuc.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b></font><a
+        href="/robotics/amadeus.htm"><font size="4"><b> AMADEUS </b></font></a><font
+        size="4"><b><img src="/icons/arrow.gif" width="18"
+        height="18"></b><b><blink> MMI</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<h2><i>Kernel</i></h2>
+
+<p align="center"><img src="mmi3.gif" align="center" width="497"
+height="368"> </p>
+
+<p align="left">The MMI Kernel is formed by the following
+modules: </p>
+
+<p><i>Boss</i></p>
+
+<p>The main initialisation system whose purpose is to manage the
+user&#146;s graphic interface. It controls the system's global initialization
+procedures. It manages the input devices (mouse, keyboard ,
+9-knob board) and data entry into the system; it also displays
+all messages answering system events, as well as diagnostic and
+error messages. The Boss also runs a multi-level menu structure
+that activates all windows and MMI modules. </p>
+
+<p><i>Slider</i></p>
+
+<p>Runs independent processes and manages conflicts in all
+situations in which concurrent mode is needed. All application processes
+are managed via a series of &#145;fork&#146; calls and
+communications with other modules are granted by the defined queues. </p>
+
+<p><i>Keeper</i></p>
+
+<p>Manages the Common memory area. It receives messages from High
+Level Control, verifies their integrity and inserts them into
+MECON. It checks for command messages in MECON and dispatches
+them to lower control levels. All communications with the other
+MMI modules are granted by the defined queues while
+communications with lower control levels are achieved via LAN
+links. In the case of loss of data linkage, Keeper waits ten
+minutes and then assumes that an unrecoverable error or shutdown
+has occurred in one of lower modules. </p>
+
+<p><i>Recorder</i></p>
+
+<p>Saves on disk all significant data and commands processed by
+the MMI. This allows the user to obtain up-to-date information
+about all MMI operation modes and actions so that an analysis of
+the system work-flow can be carried out. Every active MMI process
+and module writes significant data in a buffer inside MECON, and
+the Recorder&#146;s task is to read the buffer and transfer
+information into disk file(s). </p>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

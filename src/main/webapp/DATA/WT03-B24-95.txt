@@ -1,0 +1,707 @@
+
+<DOC>
+<DOCNO>WT03-B24-95</DOCNO>
+<DOCOLDNO>IA053-000896-B001-29</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/tis.html 129.174.40.15 19970123200711 text/html 29957
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:05:58 GMT
+Server: NCSA/1.5.2
+Last-modified: Tue, 02 Jan 1996 16:22:22 GMT
+Content-type: text/html
+Content-length: 29773
+</DOCHDR>
+<html><title>TIS presentation, NIST September meeting</title>
+<body>
+<pre>
+   [Handout at Key Escrow Issues Meeting, at NIST,
+   Gaithersburg, Maryland, September 6, 1995.]
+
+
+   Thoughts on the NIST Key Escrow Issues Meeting Discussion
+   Papers
+
+   Trusted Information Systems
+
+   September 1, 1995
+
+
+   1    Introduction
+
+   Trusted Information Systems(TIS) is pleased to have the
+   opportunity to present a set of thoughts on Discussion
+   Papers 1 and 2 prepared by NIST for the September 6-7,
+   1995, Key Escrow Issues Meeting. It is exciting to see
+   progress made on the export of better cryptography. The
+   goal of the government to accept products into the new
+   program by the end of this year is an impressive one.
+
+   Towards that goal, TIS offers the following comments on the
+   NIST discussion papers.
+
+
+   2    Criteria for Criteria
+
+   It is very important that the final criteria are, as stated
+   in the NIST discussion paper, *the objectives, but not the
+   exact technical method(s), by which those objectives are
+   satisfied*. The criteria must also be
+
+   +    Relevant -- the criteria must focus on meeting the
+        government's goals.
+
+   +    Objective -- the criteria cannot be subject to
+        interpretation. Vendors cannot use criteria that
+        change with each review of a product or each new
+        product.
+
+   +    Achievable -- the criteria must be implementable by
+        vendors. This will meet the goal of both government
+        and industry to export better cryptography.
+
+   +    Acceptable -- the criteria must be accepted by, and
+        result in systems that are accepted by:
+
+        - the U.S. government with respect to export policy,
+
+        - industry with respect to the vendors implementing
+          compliant systems,
+
+        - users who will buy the products, and
+
+        - the international community that will 
+          import compliant products.
+
+   One must be careful not to start down the *How to* path for
+   each of the issues presented. That is the job of each
+   solution provider. Even though the issues begin with *how
+   to*, attention must instead be focused on the particular
+   government interest at issue, and each solution provider
+   must be allowed to determine how to address that interest.
+
+   The following include a few other traps that the criteria
+   process must avoid.
+
+
+   2.1  Don't Specify Commercial Criteria
+
+   The criteria process must focus on the criteria that the
+   government will use for determining compliance for export.
+   There are plenty of additional relevant criteria for
+   creating a good escrow encryption system. The job is not to
+   specify the best, or even a good, system. Rather, it is to
+   make sure that applicable government requirements are
+   specified, and no more.
+
+   2.2  Don't Exceed the Minimum
+
+   The criteria process must focus on the minimum requirements
+   necessary to achieve compliance for export. The
+   Clipper/Capstone LEAF represents a starting point for the
+   functionality of escrowed communication. The criteria must
+   not exceed that functionality.
+
+   2.3  Don't Allow Criteria Creep
+
+   Criteria Creep must be avoided. Once criteria for export
+   are established, they should remain static. Each vendor
+   should be evaluated against the same criteria.
+
+   2.4  Don't Solve the Dual Rogue Problem
+
+   The criteria process should not attempt to solve the dual
+   rogue (two cooperating entities bypassing key escrow)
+   problem. Clipper does not solve it. Mike Nelson at the
+   August 17 announcement clearly stated that compliant
+   solutions are not expected to solve it. The criteria
+   process must not attempt to write criteria that try to
+   solve it.
+
+   2.5  Don't Over Protect
+
+   Any criteria process dealing with protection of key escrow
+   mechanisms should evaluate whether it is easier or cheaper
+   to write or procure compatible non-escrowed encryption than
+   to disable the escrow mechanism of a compliant product.
+   Remember that the use of key escrow-based encryption is not
+   required for anyone, domestically or internationally. There
+   will always be other choices available. The criteria should
+   be that defeating the exportable key escrow mechanisms
+   cannot be accomplished at a cost lower than using an
+   alternative. This is clearly a balancing act of risk
+   management; there are no absolute answers.
+
+
+   3    Nomenclature
+
+   The software key escrow community must use a generic
+   nomenclature that does not suggest any particular
+   implementation or solution. Unfortunately, the NIST issues
+   are written using terms that in many cases specifically
+   describe the Clipper implementation. For example, the
+   criteria should be written to refer to *third party agents*
+   instead of key escrow agents. Not all third party agents
+   are key escrow agents. The criteria should deal with
+   *decrypting information* instead of keys. The exact
+   placement of the keys may differ with each solution. In
+   general, the terms used in the criteria should not suggest
+   an implementation or make any assumptions about an
+   implementation.
+
+
+   4    Issues for Escrowed Encryption Products
+
+   The following sections address each of the issues raised in
+   the NIST Discussion Paper #1. Each section begins with the
+   *issue as stated by NIST*.
+
+   4.1  Avoiding Multiple Encryption
+
+        *How can the product be designed so as to prevent
+        doubling (or tripling, etc.) the key space of the
+        algorithm?*
+
+   Ensuring that the product itself does not provide a feature
+   of doubling or tripling the key space of encryption is a
+   relevant and reasonable requirement. It is in the
+   government's interest to mitigate the risk of a breakdown
+   of the key escrow mechanism by limiting the key space
+   allowed by compliant products. It is also necessary to
+   ensure that the product cannot be modified to allow
+   doubling or tripling from within a compliant product. This
+   requires the same protections, and the same level of
+   assurance, as the later issue of protecting the product
+   from being modified to disable the escrow mechanism.
+
+   However, ensuring that the product cannot be used multiple
+   times to double or triple encryption constitutes trying to
+   solve the dual rogue problem. Any use of a product outside
+   of its features requires the cooperation of both the
+   encrypting and decrypting party. Even though this is the
+   dual rogue problem, because it is of special interest to
+   the government, it should be explored in more detail.
+
+   First, if a compliant product is used multiple times, then
+   each key will be escrowed. Second, if a product is to
+   prevent itself from being used multiple times, then it must
+   maintain state about how it was used. A rogue application
+   can always be written that will require 1 more bit of state
+   than the product maintains, thus defeating any mechanism
+   attempting to prevent multiple passes over the same data.
+
+   4.2  Disabling Key Escrow Mechanism
+
+        *How can products be made resistant to alteration that
+        would disable or circumvent the key escrow mechanism?
+        How can the "static patch" problem be avoided? How can
+        this be tested?*
+
+   Resisting the disabling or circumvention of the key escrow
+   mechanism is a relevant and reasonable export requirement.
+   This requirement appears in several forms in the issue
+   list. It should probably be stated in the positive, that
+   escrowed encryption products must always use the escrow
+   feature when encrypting. This criterion must apply
+
+   +    during product distribution and initialization,
+
+   +    in spite of attempts to disable the escrow mechanism
+        by altering the software, and
+
+   +    in spite of postprocessing the output from a compliant
+        product.
+
+   Each of these issues needs to be looked at separately.
+
+   The first issue is that the escrow feature is always used
+   for a successful encryption, even if encryption is
+   attempted during product distribution and initialization.
+   This prevents a user from subverting the system by failing
+   to perform some initialization step. There are several
+   methods for vendors to meet this criteria.
+
+   Protecting the integrity of the software presents
+   interesting problems but gives rise to creative solutions
+   as well. The ability to meet any criteria relies on the
+   integrity of the software. It is also very important for
+   vendors to identify the integrity boundary of their
+   products. There will be a subset of the product that is
+   integrity protected. Alteration of the portion of the
+   product that is not integrity protected should not affect
+   the compliance of the product with any of the agreed-upon
+   criteria.
+
+   Postprocessing the cyphertext to remove the escrow
+   information presents certain difficult issues and needs to
+   be addressed separately from the integrity of the software.
+   Since postprocessing can be done outside of the escrowed
+   encryption product, the only way to prevent it is to make
+   it detectable or harder to accomplish than using a
+   different encryption method. Remember, too, that the
+   purpose of having private escrow systems is to provide
+   users with functionality as well. Postprocessing the
+   cyphertext removes the user's ability to use the features
+   of the escrow system as well.
+
+   4.3  Access To Escrow Information
+
+        *What mechanisms must be designed into encryption
+        products to allow authorized access to escrowed keys?
+        This likely includes the identity of the key escrow
+        agent(s) and a serial number for the key escrow agent
+        to use to identify the key(s)/component(s) necessary
+        to decrypt the message. What other information will be
+        necessary to be provided to the escrw agent to
+        identify the necessary key(s)/components(s)? Are there
+        other comparable viable approaches?*
+
+   This issue should to be restated to focus on the objective,
+   rather than on the mechanisms. Both the government's and
+   the commercial user's objective is that each encrypted
+   object identifies the information necessary for the
+   decryption of the object. This identity information must be
+   available to law enforcement (and the user, for that
+   matter) without any cryptographic processing.
+
+   4.4  Non-escrowed Use
+
+        *How can products be made so that they do not function
+        with non-escrowed products (or tampered escrowed
+        products)? How can this be tested?*
+
+   There are two separate reasons for this issue. This issue
+   addresses both the prevention of postprocessing of messages
+   and the promotion of the use of escrow-enabled products.
+
+   The first issue in nonescrowed use is the prevention of
+   postprocessing of messages to remove the escrow
+   information. If prevention of this attack is the goal, then
+   we need to focus on this as a threat and decide on possible
+   countermeasures. Outlawing interoperability is only one
+   possible countermeasure.
+
+   The second issue is the promotion of the proliferation of
+   escrow-enabled products. The promotion of the use of the
+   products is not a relevant requirement for the export of
+   the product. Whether a product, or technology, succeeds or
+   fails in the marketplace is not a relevant criteria for
+   export. Furthermore, requiring compliant products to refuse
+   interaction with noncompliant products may, in fact, have
+   the opposite effect. The following scenarios will
+   illustrate the point.
+
+   +    *Compliant xmtr and compliant rcvr*. There is no issue
+        here.
+
+   +    *Compliant xmtr and noncompliant rcvr*. There should
+        be no issue here. Since the xmtr is compliant, the
+        information necessary for law enforcement access will
+        be transmitted, and law enforcement needs are met.
+
+   +    *Noncompliant xmtr and compliant rcvr*. Here is the
+        alleged problem. The xmtr does not transmit the
+        information necessary for law enforcement. However, in
+        the world of commercial business, the receiver cannot
+        dictate how people send information, so in order to be
+        compatible with the noncompliant xmtr the receiver
+        moves to a noncompliant product. This hinders the use
+        of escrow enabled technology. Rather than having at
+        least one side of the conversation using this
+        technology, forcing the issue will result in no side
+        using it.
+
+   +    *Noncompliant xmtr and noncompliant rcvr*. There is no
+        issue here. Neither of the products falls under these
+        criteria.
+
+   Do not underestimate the need for interoperability for
+   product vendors. This issue can take many forms. There are
+   already interoperability standards for encrypted electronic
+   mail, such as the MIME Object Security Standard (MOSS). If
+   new products cannot interoperate with the existing
+   products, then the early adopters will have no one to
+   communicate with and will not promote the product.
+
+   A different form of the interoperability problem is within
+   a product family. If a company makes an investment in one
+   of the third party DES encryption products available today
+   and later purchases compliant exportable products for use
+   overseas, this would set up the compliant/noncompliant
+   problem. It is unlikely that a company will also upgrade
+   all of its domestic products. It is more likely that they
+   will find an interoperable product overseas.
+
+   Even if product vendors do not achieve full
+   interoperability between compliant and noncompliant
+   products due to technical issue and design decisions, a
+   government mandate against interoperability is not an
+   answer. Allowing the marketplace to control
+   interoperability lets it decide how important it is in
+   order to sell a product. Vendors will provide what is
+   necessary in order to sell their products. The government
+   criteria should not be used as a reason for products to
+   fail. That is a lose-lose proposition.
+
+   4.5  Limiting Surveillance
+
+        *How can products be designed so that information both
+        sent and received by the user can be decrypted without
+        release of keys of other users?*
+
+   This issue must be looked at with an understanding of the
+   nature of the communication method. Electronic mail is a
+   store-and-forward, one-way communication. The information
+   is protected by the sender until the receiver receives the
+   message and completes its half of the key exchange and
+   decryption. It is not realistic to expect to be able to
+   read a subject's incoming mail without the release of some
+   information from the escrow system of the transmitter. A
+   Capstone LEAF in a mail message does not do this. A new
+   system should not have to, either.
+
+   Access to both directions of communication with the release
+   of information from the third party for only one of the
+   users is reasonable for two-way communication.
+
+
+
+   4.6  Practical Key Access
+
+        *How can mechanisms be designed so that repeated
+        involvement of escrow agents is not required for
+        decryption for multiple files/messages during the
+        specified access period?*
+
+   Here is an example of the wording implying a specific
+   solution. Not all systems have escrow agents. The true
+   issue for the government is that there is some range of
+   acceptable interaction with the escrow system (a collection
+   of elements) for repeated decryptions under the same
+   authorization. Every system proposed will be involved in
+   every decryption. The issue is the form of that
+   interaction. The eventual criteria must specify what is
+   expected both in the form of human interaction and in the
+   form of automated interaction.
+
+   4.7  Assurance That Keys Are Escrowed
+
+        *How can it be assured that key escrow products are
+        indeed satisfactorily escrowed? For example, products
+        could be required to be escrowed at time of
+        manufacture or be made inoperable until properly
+        escrowed.*
+
+   This is a subset of Disabling Key Escrow. Phrased
+   differently, can one circumvent key escrow specifically by
+   not initializing the system properly? This should be
+   discussed with the other attacks to disable or circumvent
+   key escrow.
+
+   4.8  Ability to Re-Escrow Keys
+
+        *How can products be designed so that new keys can be
+        escrowed at the user's discretion with a U.S.
+        Government approved escrow agent?*
+
+   It is not clear what this issue means. It suggests two
+   different criteria. First, it suggests that if the
+   underlying cryptographic system allows, or even expects,
+   users to periodically change the keys that they use, then
+   the escrow system must also allow users to do this. It is
+   not relevant to the government's interests to require a
+   system to change keys. It is good practice to change keys,
+   but the government criteria must be limited to those issues
+   relevant to meeting the government interests.
+
+   Second, this issue suggests that there are multiple third
+   party agents to choose from. It is vital to the commercial
+   acceptance of escrowed encryption that the criteria allow
+   for a choice of third party agent.
+
+   4.9  Certified Escrow Agents
+
+        *Can products be designed so that only escrow agents
+        certified by the U.S. Government (domestic, or under
+        suitable arrangements, foreign) are utilized? What
+        should be the criteria for an acceptable U.S. escrow
+        agent?*
+
+   It is relevant that escrow systems make sure that they are
+   dealing with valid agents for the proper operation of the
+   system. However, whether the government is in a position to
+   certify agents is another question.
+
+   The entire issue of government certification of escrow
+   agents and the criteria used should be separated from the
+   discussion of the product criteria. This issue should be
+   removed from the product list and discussed with the escrow
+   agent issues list.
+
+   5    Criteria for Key Escrow Agents
+
+   The following sections address each of the issues raised in
+   the NIST Discussion Paper #2. Each section begins with the
+   issue as stated by NIST. The section titles are the
+   editor's.
+
+   Before examining this set of issues, it is necessary to
+   examine the basis for establishing any criteria for third
+   party agents. There is no basis for the certification of
+   escrow agents for use within the United States. There is no
+   legal authority or budget appropriation for a certification
+   activity. The only basis would be for escrow agents in the
+   United States used in conjunction with exported escrowed
+   products. Remember, these criteria are only for the purpose
+   of determining exportability.
+
+   However, most importing nations of escrowed encryption will
+   require the entire system to be subject to their laws. They
+   will not import the encryption products without the
+   software or hardware used by the third party agents. The
+   real issue is the criteria for allowing export of the
+   software and systems used by the third party agents, not
+   the criteria for approving the organizations within the US.
+   For purely domestic use, there is no basis for approving
+   the agents. Authorizing legislation would be required to
+   form a basis for any criteria. Futhermore, it is not
+   entirely clear that government specified criteria
+   regulating a domestic activity for the purpose of achieving
+   exportability would be considered to have a rational basis
+   by a court. Were such legislation to pass muster, however,
+   it would have to fundamentally accept that the use of
+   escrowed encryption domestically is a voluntary action that
+   a user might take in order to gain the benefits of
+   emergency recovery or other authorized third party access.
+   Appropriation legislation would also be required to allow
+   any licensing authority to exist and function. Given the
+   pace of legislation, and the current reluctance to expand
+   government operations, it is imperative that the deployment
+   of these systems not rely on the passage of legislation.
+
+   5.1  Exclusion of Organizations
+
+        *What kinds of organizations should be excluded from
+        consideration as approved key escrow agents?*
+
+   Criteria must be positive and objective. Even discussing
+   the concept of exclusion sets the stage for charges of
+   restraint of trade and discrimination. There can be no
+   preconceived notion about who might be able to meet a set
+   of criteria.
+
+   5.2  Legal Agreements
+
+        *What sort of legal agreement between the government
+        and the key escrow agent is necessary to stipulate the
+        responsibilities of the agent? Should this include the
+        terms and conditions under which release of a key is
+        required?*
+
+   This is not a criteria for third party agents. Any third
+   party agent is subject to the laws of its local
+   jurisdiction. If located in the United States, a third
+   party agent is subject to Federal, State, and local laws.
+   If current law does not address key escrow with enough
+   specificity, perhaps legislation would be in order.
+   Complying with any new legislation would not require the
+   certification of third party agents; it would just mean
+   they could comply more uniformly with the laws of their
+   respective jurisdictions.
+
+   5.3  Liability
+
+        *How will liability for unauthorized release of key be
+        handled?*
+
+   This is not a relevant concern of the government. Civil
+   liability is entirely a business concern of the third party
+   agent, not a criteria of the government. Third party agents
+   will be set up to be in business and to stay in business.
+   State statutory law, common law, as well as business
+   considerations will dictate how liability is managed.
+
+   5.4  Criminalization
+
+        *Should, for example, intentionally misreleasing or
+        destroying a key be criminalized? Should this include
+        other actions?*
+
+   Destroying the ability to perform recovery (note the more
+   generic wording) is a relevant concern of both the
+   government and the business users of an escrow service.
+   Misreleasing a key may not hamper the government's ability
+   to meet its needs, but it certainly would cause the users
+   to lose faith in the escrow system, which could then hamper
+   the government's ability to meet its interests. If a third
+   party destroys its ability to perform recovery, it has put
+   itself out of business, preventing its clients and the
+   government from accessing the information of its clients.
+   Even so, this is a subject for legislation, not
+   certification. Amendments to existing laws may be
+   sufficient to provide the requisite deterrent and
+   punishment.
+
+   5.5  Investigation Confidentiality
+
+        *How can the government's needs for confidentiality of
+        key release be handled?*
+
+   The third party agents are subject to the laws of their
+   local jurisdictions. If the authorization presented to the
+   third party agent requires confidentiality, and many, if
+   not all, do, the government's needs are met. If it does
+   not, then the government needs to change the wording of its
+   authorizations or create legislation that specifically sets
+   forth appropriate confidentiality requirements.
+
+   5.6  Public Key Infrastructure
+
+        *Should approval of key escrow mechanisms be tied to
+        a public key infrastructure (for digital signatures
+        and other purposes)?*
+
+   It would be beneficial for key escrow mechanisms to use a
+   public key infrastructure, but the development and
+   deployment of key escrow technology cannot and should not
+   be tied to the development and deployment of a public key
+   infrastructure.
+
+   5.7  Storage and Safeguarding of Keys
+
+        *What procedures need to be developed for the storage
+        and safeguarding of keys?*
+
+   First, the issue really is, what steps has the third party
+   taken to make sure that it can perform recovery? The
+   government's needs and the needs of the commercial
+   marketplace coincide here. The better the security, the
+   more trust a customer will have in the third party agent.
+   What steps will a third party agent take to make sure that
+   it can stay in business? Standard commercial practices will
+   naturally increase the level of security.
+
+   5.8  Performance Criteria
+
+        *What are the acceptable performance criteria (e.g.,
+        around-the-clock availability, accessibility,
+        reliability, etc.) for approved key escrow agents?*
+
+   This is the only relevant criteria where the government's
+   needs may exceed those of the commercial marketplace.
+   However, unless the government is willing to pay for the
+   cost of service above and beyond what is provided to the
+   marketplace, one must look at reasonable compromises that
+   third party agents can take to meet government needs
+   without putting themselves out of business. For example,
+   staffing a third party agency 7 days for 24 hours may be
+   prohibitive. But making sure that there is always a point
+   of contact with a beeper who can respond within a
+   reasonable amount of time (measured in hours, not minutes)
+   is reasonable.
+
+   5.9  Export of Third Party Components
+
+        *Under what circumstances will key escrow agents in
+        foreign countries be approved?*
+
+   This is really the key question. From the U.S. government
+   point of view, there must be appropriate bilateral
+   agreements with the importing country to allow the
+   importing country to retrieve the recovery information and
+   share it with the United States in a timely fashion, and
+   vice versa. This is not a relevant criteria that a product
+   vendor can influence. The government must take the lead in
+   auditing and augmenting its international police agreements
+   to allow its new policy to work.
+
+   5.10 Approval Process
+
+        *What process will be used to approve escrow agents?
+        Costs/who pays?*
+
+   After reviewing the issues, there does not appear to be a
+   legal basis and or legitimate need for a government
+   approval process. The issues are handled by following the
+   laws of the jurisdiction of the third party agent and by
+   following good commercial practice. If the government
+   determines that new legislation would clarify the
+   application of existing laws for the escrowed encryption
+   scenario, TIS would welcome discussions on the content of
+   such new legislation.
+
+
+   6    An Alternative to Government Certified Third Party
+        Agents
+
+   Commercial vendors are also very concerned about third
+   party agents. The failure of any third party agents casts
+   a shadow on the entire escrow system. The vendors of key
+   escrow systems will do everything that is commercially
+   reasonable to ensure the proper and successful operation of
+   the third party agents.
+
+   It is expected that vendors will apply commercial criteria
+   to "who can license" their systems. Commercial criteria
+   could include requiring a corporate certificate of good
+   standing, credit reports, and perhaps insurance or bonding
+   requirements. Rather than sell escrow components outright,
+   vendors may license components to operators with licensing
+   terms that specify performance criteria.
+
+   Compare this to government certification. The government
+   would still have to operate with objective,
+   nondiscriminatory criteria that would include certificates
+   of good standing, credit reports, etc. The only additional
+   criteria that the government has at its disposal is the
+   ability to perform background checks on the principals of
+   a third party agent. However, this may not be acceptable to
+   commercial business interested in running a third party
+   agency domestically. Furthermore, anyone can be a third
+   party agent for domestic use today with no restriction
+   whatsoever. In order for the government to apply any
+   criteria, legislation would have to be passed. This will
+   take time. Industry can, and will for its own purposes,
+   start applying commercial criteria immediately.
+
+   The marketplace is very incented to ensure the successful
+   operation of third party agents. The government interest is
+   limited to ensuring that the laws for searches and wiretaps
+   can be executed appropriately. Let industry lead in this
+   area, and both the government interests and industry
+   interests will be met.
+
+
+   7    Conclusion
+
+   There are several relevant, objective, achievable, and
+   acceptable criteria for the export of escrowed encryption
+   products that are necessary to meet the interests of the
+   government. They must be stated in a clear, generic form
+   that captures the true, concise objective to be met and not
+   the mechanism to use.
+
+   There are not, however, relevant, objective, achievable,
+   and acceptable criteria for the certification of third
+   party agents. The government must understand the
+   applicability of the existing laws that govern evidence
+   gathering and work with the vendors of third party products
+   to allow the marketplace to set the standards for third
+   party agents.
+
+   [End]
+
+
+
+
+
+
+</pre>
+
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 14, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

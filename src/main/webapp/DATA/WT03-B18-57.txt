@@ -1,0 +1,103 @@
+
+<DOC>
+<DOCNO>WT03-B18-57</DOCNO>
+<DOCOLDNO>IA085-000610-B040-273</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/archit/umihico.htm 150.145.4.16 19970216120957 text/html 3295
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:10:51 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 14:41:43 GMT
+Content-Length: 3097
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy Robotics Dept.: Control Architectures</title>
+<base href="http://www.ian.ge.cnr.it/robotics/archit/umihico.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b><b><blink>
+        Control Architectures Data Base</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<h1 align="center"><i>UMIHICO</i></h1>
+
+<h3 align="center">Mitsubishi Heavy Industries </h3>
+
+<p>Naval Postgraduate School </p>
+
+<hr>
+
+<p align="center"><img src="f-umihi.gif" align="center"
+width="229" height="118"> <img src="umihi.gif" align="center"
+width="170" height="180"> </p>
+
+<hr>
+
+<p>This is a three-layered architecture in which commands are
+sent by each layer to the one below. The layers manage waypoint
+execution, obstacle avoidance and motion control. From bottom to
+top: Servo Controller: receives heading and pitch angle commands
+and sends thrusters commands; Obstacle Avoidance: uses the sonar
+data to calculate headings and avoid obstacles; Route Tracking:
+produces the sequence of waypoints to follow and checks if the
+given goal has been achieved. </p>
+
+<hr>
+
+<h4>Bibliography</h4>
+
+<ul>
+    <li>Arinaga S. , Kambara T. , Nakano K. , Kanayama Y. , <i>A
+        layered control architecture applied to AUV navigation,</i>
+        Mobile Robots for Subsea Environments, Monterey, CA
+        (USA), 2-6 May 1994. </li>
+</ul>
+
+<hr>
+
+<h5><i>The Naval Automation Institute is NOT responsible for
+information related to the selected machine: all data have been
+retrieved from the bibliography included; any problem or
+suggestion should be notified to </i><a
+href="mailto:virgili@ian.ge.cnr.it"><i>virgili@ian.ge.cnr.it</i></a></h5>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

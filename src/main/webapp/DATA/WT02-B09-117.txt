@@ -1,0 +1,37 @@
+
+<DOC>
+<DOCNO>WT02-B09-117</DOCNO>
+<DOCOLDNO>IA057-000945-B041-243</DOCOLDNO>
+<DOCHDR>
+http://computerline.libertynet.org:80/reg.htm 204.170.205.49 19970208053649 text/html 1779
+HTTP/1.0 200 OK
+Date: Saturday, 08-Feb-97 05:36:54 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE html PUBLIC "-//Netscape Comm. Corp.//DTD HTML//EN">
+<HTML>
+<HEAD><body bgcolor="#80ACF7" text="#000009" link="#FFFFFF" vlink="#5538FF" alink="#551A8B"><H2><CENTER><IMG SRC="note16.gif"><br>Seminar Registration</CENTER></H2>
+<TITLE>Seminar Form</TITLE>
+</HEAD>
+Please fill out the form below if you are interested in attending one of ComputerLine's November 19th Seminars.  A ComputerLine representative will contact you as soon as we receive your registration.  Please feel free to call 610-853-3422 with any additional questions you might have.  We look forward to seeing you.<form method=POST action="mailto:denise@computerline.com">
+Name:<INPUT type="Text" name="Name" size=65 maxlength="127"><br>
+Email: <INPUT type="text" name="Email" size=65 maxlength="127"><br>
+Phone:<INPUT type="text" name="Phone" size=30 maxlength="20">
+Fax #: <INPUT type="text" name="Fax" size=28 maxlength="127"><br>
+Addr:  <INPUT type="text" name="Address" size=65 maxlength="127"><br>
+City:       <INPUT type="text" name="City" size=35 maxlength="127">
+State:   <INPUT type="text" name="State" size=6 maxlength="6">
+Zip:<INPUT type="text" name="Zip" size=14 maxlength="14"><br>
+<br>Number of Attendees:<INPUT type="text" name="people" size=14 maxlength="14"><br><ul>
+<dt><input type="checkbox" name="session" value="morning">8:30am-10:00am
+<dt><input type="checkbox" name="session2" value="afternoon">4:30pm-6:00pm</ul>
+<p>
+<input type="submit" value="Send it in">
+ <input type="reset" value="Clear the form">
+
+<p>Your request will be processed as soon as possible.<p>
+<A HREF="index.htm"><IMG SRC="finger_l.gif" border=0></A></form></BODY>
+</HTML>
+</DOC>

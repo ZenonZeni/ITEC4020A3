@@ -1,0 +1,56 @@
+
+<DOC>
+<DOCNO>WT02-B08-285</DOCNO>
+<DOCOLDNO>IA021-000219-B022-164</DOCOLDNO>
+<DOCHDR>
+http://tethys.jpl.nasa.gov:80/Annette/nearrealtime/nrt_ssh.html 128.149.33.75 19970107091018 text/html 2526
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 07-Jan-97 09:10:02 GMT
+Last-modified: Monday, 02-Dec-96 21:07:19 GMT
+Content-length: 2342
+Content-type: text/html
+</DOCHDR>
+<html>
+<HEAD>
+<TITLE>TOPEX/Poseidon "Near-Real-Time Data"</TITLE></HEAD>
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+<H1>"Near-Real-Time" Sea Surface Height</H1>
+<p>
+<TABLE><TR><TD COLSTART="1"><img src="images/ssh.gif" alt="Near-Real-Time Sea Surface Height"> <ALIGN="BOTTOM"></TD><TD COLSTART="2">
+<p>
+<h3>After influence of gravity is taken into account, the "dynamic ocean topography" - or hills and valleys - is mainly caused by ocean circulation or currents. Dynamic ocean topography is used to calculate the currents in a similar way to how meteorlogists use atmospheric pressure maps to determine wind speed.
+<p>
+Around the globe, the overall change in sea surface height caused by currents is about 2 meters (which is up to 75 times <i>less</i> than the influence of gravity!) The highest sea surface height is shown as read and lowest as blue.
+<p>
+</H3></TD></TR></TABLE> 
+<h3>  
+<p>
+<a href=http://www-ccar.Colorado.EDU/~leben/datahost/>Click here</a> to access the overall directory "Global Near-Real-Time Altimeter Sea Surface Height Page."
+<p>
+The <a href=http://www-ccar.colorado.edu/~leben/datahost/sshpic.html>"Global Near Real-Time Altimeter Sea Surface Height Visualization"</a> has interactive software program that lets you generate sea surface height along the satellites' "ground tracks" for<i>a single day.</i>
+<p>
+The <a href=http://shaman.colorado.edu/~leben/datahost/ssh.html>"Global Near Real-Time Altimeter Along-Track Data Host"</a> gives the following data in ASCII format:</h3>
+<h4><ul>
+<li>Calendar date (month/day/year)<br></li>
+<li>Time of day (hour:min:sec)<br></li>
+<li>Seconds past midnight 1-Jan-1996<br></li>
+<li>Latitude (degrees)<br></li>
+<li>East longitude (degrees)<br></li>
+<li>Sea Surface Height (millimeters)<br></li>
+</ul></h4>
+<p>  
+<h3>
+In addition to sea surface height is how the shape of the ocean changes over months or seasons. Maps of <a href=nrt_ssa.html>sea surface anomaly</a> - also known as sea surface variability - are used to study changes in the ocean over months or seasons. 
+</h3>
+<p>
+<h5>
+<address><a href=nrt_ssa.html>Forward to TOPEX/Poseidon "Near-Real-Time-Data" Sea Surface Anomaly</a></address>
+<address><a href=nrt_intro.html>Back to TOPEX/Poseidon "Near-Real-Time-Data" Introduction </a></address>
+<ul>
+</BODY>
+</html>
+
+
+
+</DOC>

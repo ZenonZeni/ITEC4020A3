@@ -1,0 +1,39 @@
+
+<DOC>
+<DOCNO>WT01-B03-52</DOCNO>
+<DOCOLDNO>IA097-001049-B006-278</DOCOLDNO>
+<DOCHDR>
+http://mspiggy.etl.noaa.gov:80/othr/works.htm 140.172.33.2 19970215113228 text/html 2540
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 06:30:05 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Wed, 29 Jan 1997 16:06:16 GMT
+Content-length: 2366
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> OTH Radar: Theory Page</TITLE>
+</HEAD>
+<font face=arial>
+<BODY BGCOLOR= "#88bbbb">
+<H2><A HREF="gifs/how.jpg"><IMG SRC="gifs/how2.gif" width=100 height=136 align=right HSPACE=30></A>How does OTH radar measure sea-surface conditions?</H2>
+The main contribution to sea clutter is Bragg-resonant scattering by surface gravity waves. For example, a 20-MHz radar sees only the 7.5-m-long ocean waves that travel exactly toward and away from the radar. The spectrum of the sea echo at HF exhibits a surprisingly simple structure: two sharp Doppler-shifted lines, one positively shifted echo from the Bragg-resonant waves traveling toward the radar, and a negatively shifted line from those receding from the radar. The exact shifts and relative magnitudes of these lines permit us to extract information about surface winds and currents.<BR clear=right>
+<HR>
+
+<H2><A HREF="gifs/othwind1.gif"><IMG SRC="gifs/othwind2.gif" width=100 height=76 align=left HSPACE=30></A>How is surface wind direction determined?</H2>
+Directional wind-wave energy is known to fall off monotonically with the angle from the wind direction, so that significant wave energy travels at large angles with the wind, even nearly upwind.  OTH radar samples this directional spreading pattern at two angles 180 deg. apart.  These examples show the Bragg-line ratio resulting from winds blowing along and transverse to a radar radial. Other directions produce intermediate ratios, permitting extraction of the direction, although with a left-right ambiguity with respect to the radar radial.<BR clear=left>
+<HR>
+
+<H2><A HREF="gifs/curr.gif"><IMG SRC="gifs/curr2.gif" width=100 height=86 align=right HSPACE=30></A>How are surface currents measured?</H2>
+Radially traveling gravity waves Doppler-shift the backscattered radar energy by an amount proportional to their phase velocity.  If surface currents transport the gravity waves, an extra Doppler shift is added that is proportional to the radial component of the surface current. OTH radars have to use special processing to remove biases in its current estimates that are caused by ionospheric motions.<BR clear=right><p>
+<HR>
+
+See our <A HREF="../pubs.htm#over">publications</A> for more details.
+<hr size=4>
+<center><a href="othmain.htm">Back to OTH Radar Page</a></center>
+<hr size=4>
+
+</BODY>
+</HTML>
+</DOC>

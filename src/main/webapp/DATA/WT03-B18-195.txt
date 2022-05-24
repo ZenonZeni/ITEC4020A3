@@ -1,0 +1,132 @@
+
+<DOC>
+<DOCNO>WT03-B18-195</DOCNO>
+<DOCOLDNO>IA040-000755-B022-59</DOCOLDNO>
+<DOCHDR>
+http://pisces.ucsd.edu:80/~metrolink/survey.html 132.239.190.110 19970303060446 text/html 4071
+HTTP/1.0 200 Sending Processed HTML         
+Content-length: 3939
+MIME-version: 1.0
+Server: OSU/2.1a
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>Metrolink Survey</title>
+</head>
+<body>
+<center>
+<h1>Metrolink Survey</h1>
+</center>
+
+<hr>
+
+Thank you for your interest in the unofficial home of Metrolink schedules.  
+As of March 1996, we are getting
+approximately 300 hits a week on the Metrolink schedule page.  Please tell a
+little about yourself, how you use Metrolink, and what features you would like
+to see in these web pages in the future.  Some of the things that come to mind
+are station locator maps, improved mass transit connection information, more
+clickable images, more photos, more features.<P>
+
+Note, your name and e-mail address will remain confidential; we're not looking
+to start a mailing list or sell your name (the two worst uses of the computer,
+in my opinion!).<P>
+
+<form method="POST" action="/htbin/cgi-mailto/metrolink">
+Name: <input name="name" type="text" size=40 maxlength=80><BR>
+E-mail Address: <input name="address" type=text><BR>
+How often do you use Metrolink: <select name="usage">
+<option selected> Daily
+<option> 3-4 times a week
+<option> 1-2 times a week
+<option> occasionally
+<option> never 
+</select>
+<p>
+Which line do you usually ride:
+<select name="line">
+<option selected> Ventura County (100's)
+<option> Santa Clarita Line (200's and 900's)
+<option> San Bernardino Line (300's)
+<option> Riverside Line (400's)
+<option> Orange County Line (600's)
+<option> Inland Empire Line (800's)
+</select>
+<P>
+Do you use mass transit to get to Metrolink:
+<select name="mass">
+<option selected> No
+<option> Yes - to/from Home
+<option> Yes - to/from Work
+<option> Yes - at Both Ends
+</select>
+<P>
+If you answered Yes to the previous question, what mass transit system do you
+use (please include all systems you may transfer to):<P>
+<dl>
+<dd> <input type="checkbox" name="MTA">MTA Bus
+<dd> <input type="checkbox" name="Red">MTA Red Line
+<dd> <input type="checkbox" name="Blue">MTA Blue Line
+<dd> <input type="checkbox" name="Green">MTA Green Line
+<dd> <input type="checkbox" name="DASH">DASH Lines
+<dd> <input type="checkbox" name="LADOT">LADOT Commuter Connection
+<dd> <input type="checkbox" name="Glendale">Glendale Bee Line/Shuttles
+<dd> <input type="checkbox" name="SCRTA">Santa Clarita Rapid Transit SCRTA
+<dd> <input type="checkbox" name="Foothill">Foothill Transit
+<dd> <input type="checkbox" name="Norwalk">Norwalk Transit
+<dd> <input type="checkbox" name="OCTA">Orange County OCTA
+<dd> <input type="checkbox" name="RTA">Riverside/San Bernardino RTA
+<dd> <input type="checkbox" name="SMMBL">Santa Monica SMMBL
+<dd> <input type="checkbox" name="Montebello">Montebello Municipal
+<dd> <input type="checkbox" name="Commerce">Commerce Bus Lines
+<dd> <input type="checkbox" name="NCTD">North County Transit District
+<dd> <input type="checkbox" name="Shuttle">Other Shuttle (including corporate)
+<dd> <input type="checkbox" name="OtherTransit">Other (please specify)
+</dl>
+Other Mass Transit: <input name="Other" type=text><BR>
+<P>
+What web browser do you usually use:
+<select name="browser">
+<option selected> Netscape 3.0
+<option> Netscape 2.0
+<option> Netscape 1.1
+<option> NCSA Mosaic on Unix
+<option> NCSA Mosaic on Mac
+<option> Lynx
+<option> other
+</select>
+<P>
+How did you find us on the web: <input name="refer" type="text"><BR>
+
+Features you'd like to see: <input name="features" type="text" size=60 maxlength=256><BR>
+Other comments: <input name="comments" type="text" size=60 maxlength=256><BR>
+
+<input type="submit" value="  Submit  "> <input type="reset" value="  Reset ">
+</form>
+<hr>
+
+<a href="/www/railroads/metrolink.html">
+Return to the Metrolink schedule page.</a><P>
+
+<HR>
+
+<A HREF="/htbin/mapimage.exe/www/go-back.conf">
+<IMG SRC="/www/go-back.gif" ISMAP> </A><P>
+
+<a href="/www/index.html">
+HOME</a>
+ | <a href="/www/pisces/pisces.html">
+PISCES</A>
+ | <a href="/www/railroads/railroads.html">
+TRAINS</A><P>
+
+<hr>
+
+Webmaster:
+<a href="mailto:rlehmer@ucsd.edu">
+Ron Lehmer - rlehmer@ucsd.edu</a><P>
+
+</body>
+</html>
+</DOC>

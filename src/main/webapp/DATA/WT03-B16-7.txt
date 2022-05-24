@@ -1,0 +1,878 @@
+
+<DOC>
+<DOCNO>WT03-B16-7</DOCNO>
+<DOCOLDNO>IA074-000483-B008-178</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg010.html 128.125.48.102 19970125004343 text/html 27092
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:42:17 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 26860
+Last-Modified: Wed, 15 Jan 1997 02:01:28 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDRNETWMNG" HREF="icswg009.html#PToC_712">Managing your Web server</A></H1>
+Managing Your Web Server
+<P>
+Your servers present your company to the world on the Internet
+and are an integral part of internal operations.
+To ensure continuous, secure, and efficient operation,
+Internet Connection Secure Server provides facilities for monitoring and managing your server.
+This chapter describes how to manage and monitor
+your servers and includes the following topics:
+<P>
+<P><A HREF="icswgmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_713 HREF="#HDRSNMP" >Simple Network Management Protocol</A>
+<MENU>
+<LI><A NAME=PToC_714 HREF="#HDRCMDPROT" >SNMP commands and protocol</A>
+<LI><A NAME=PToC_715 HREF="#HDRMIBOIDS" >Object IDs and variable names for the Internet Connection Secure Server MIB</A>
+<LI><A NAME=PToC_716 HREF="#HDRWMEMAIL" >Creating an e-mail address to receive SNMP problem reports</A>
+<LI><A NAME=PToC_717 HREF="#HDRENABOS2" >Enabling SNMP on your OS/2 system</A>
+<LI><A NAME=PToC_718 HREF="#HDRSNMPPWD" >Providing a security password for SNMP</A>
+<LI><A NAME=PToC_719 HREF="#HDRSNMPST" >Turning the SNMP support on and off from the httpd command</A>
+</MENU>
+<LI><A NAME=PToC_720 HREF="#HDRSTATPNL" >Monitoring server performance and status</A>
+<MENU>
+<LI><A NAME=PToC_721 HREF="#HDRUSESAM" >Using the Server Activity Monitor function</A>
+</MENU></MENU><HR><P>
+<P>
+<HR>
+<H2><A NAME="HDRSNMP" HREF="#PToC_713">Simple Network Management Protocol</A></H2>
+<P>
+A network management system is a program
+that runs continuously and is used to monitor,
+reflect status of, and control a network.
+Simple Network Management Protocol (SNMP), a popular protocol
+for communicating with devices in a network,
+is the current network management standard.
+The network devices typically have an SNMP <B><I>agent</I></B>
+and one or more subagents.
+The SNMP agent talks to the <B><I>network management station</I></B>
+or responds to command line SNMP requests.
+The SNMP <B><I>subagent</I></B> retrieves and updates data and gives
+that data to the SNMP agent to communicate back to the requester.
+<P>
+The Internet Connection Secure Server provides an SNMP <B><I>management information base</I></B>
+(<B><I>MIB</I></B>) so you can use any network management system,
+such as IBM NetView for AIX, TME10 Distributed Monitoring,
+or HP OpenView,
+to monitor your server's health, throughput, and activity.
+The MIB data describes the Web server being managed,
+reflects current and recent server status,
+and provides server performance data.
+<P>
+The network management system uses SNMP GET commands
+to look at MIB values on other machines.
+It then can notify you if specified threshold values are exceeded.
+You can affect server performance, by modifying configuration
+data for a server, to proactively tune or fix server problems
+before they become server outages.
+<P>
+<H3><A NAME="HDRCMDPROT" HREF="#PToC_714">SNMP commands and protocol</A></H3>
+<P>
+The system usually provides an SNMP agent
+for each network management station.
+The user or a programmer sends a GET command to the SNMP agent.
+In turn, this SNMP agent sends a GET command to retrieve
+the specified MIB variable values from a subagent responsible
+for those MIB variables.
+<P>
+The Internet Connection Secure Server provides a subagent that updates and retrieves MIB data.
+The subagent responds with the appropriate MIB data
+when the SNMP agent sends a GET command.
+The SNMP agent communicates the data to the network management station.
+The network management station can notify you
+if specified threshold values are exceeded.
+<P><PRE><B>+---Remove label box when art is ready - viola-------------------------------+</B></PRE><BR>
+<P><B>icsl1mb1 artwork to be in 12/19 drop to NLS</B>
+<BR><PRE><B>+----------------------------------------------------------------------------+</B></PRE><P>
+<P>
+The Internet Connection Secure Server SNMP support includes an SNMP subagent that uses
+Distributed Protocol Interface (DPI) capability.
+DPI is an interface between an SNMP agent and its subagents.
+<P>
+<H3><A NAME="HDRMIBOIDS" HREF="#PToC_715">Object IDs and variable names for the Internet Connection Secure Server MIB</A></H3>
+<P>
+The Internet Connection Secure Server MIB is modeled after the HTTP MIB proposal.
+MIB layout includes Variable Name, Object ID, Type, and Description.
+<P>The following Variable Names and Object IDs
+are provided for SNMP support with the Internet Connection Secure Server:
+<DL>
+<P><DT><B>EntityDescription
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>Identifies a server in human-readable form.
+This read-only value is not customizable.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.1.1
+<P><DT>Type
+<DD>OCTET&#95;STRING
+<P><DT>Default value
+<DD>An appropriate value for your server installation and platform.
+</DL>
+<P><DT><B>EntityObjectID
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>Identifies a particular server in machine-readable
+form, providing a globally unique name among other applications
+and versions.
+This read-only value is not customizable.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.2.1
+<P><DT>Type
+<DD>OCTET&#95;STRING
+<P><DT>Default value
+<DD>1.3.6.1.4.1.2.6.120.10.1
+</DL>
+<P><DT><B>EntityContact
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates who to contact if a problem or question
+about this running server arises.
+It is human-readable and frequently contains the e-mail address
+of the on-site system administrator responsible for server maintenance.
+The value for EntityContact may be customized with the
+WebMasterEmail directive in the httpd.conf file.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.3.1
+<P><DT>Type
+<DD>OCTET&#95;STRING
+<P><DT>Default value
+<DD>webmaster
+</DL>
+<P><DT><B>EntityProtocol
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Identifies the exact protocol and its version that
+a particular server supports.
+For a Web server, the protocol is HTTP.
+This read-only identifier is in machine-readable form
+and is not customizable.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.4.1
+<P><DT>Type
+<DD>OCTET&#95;STRING
+<P><DT>Default value
+<DD>1.3.6.1.4.1.2.12.1
+</DL>
+<P><DT><B>EntityProtocolVersion
+</B><DD>
+<DD>
+<DL>
+<P><DT>Description
+<DD>
+This human-readable string identifies the protocol this server
+supports and the protocol version.
+Similar to EntityProtocol.
+This read-only value is not customizable.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.5.1
+<P><DT>Type
+<DD>OCTET&#95;STRING
+<P><DT>Default value
+<DD>HTTP/1.0
+</DL>
+<P><DT><B>EntityName
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+This human-readable string provides the name of the host this
+Web server runs on.
+The value for EntityName may be customized with the
+HostName directive in the httpd.conf file.
+It is read-only and set by system-specific code
+at server initialization time.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.6.1
+<P><DT>Type
+<DD>OCTET&#95;STRING
+<P><DT>Default value
+<DD>www.raleigh.ibm.com
+</DL>
+<P><DT><B>EntityAddress
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+This human-readable string provides the IP address of the host
+this Web server runs on.
+It is read-only and set by system-specific code
+at server initialization time.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.7.1
+<P><DT>Type
+<DD>IpAddress
+<P><DT>Default value
+<DD>0.0.0.0
+</DL>
+<P><DT><B>EntityPort
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+This human-readable string provides the port number this
+Web server listens to.
+It is read-only and set by system-specific code
+at server initialization time.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.8.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>EntityType
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+This machine-readable integer differentiates between
+several server roles.
+<P>Possible values are:
+<DL COMPACT>
+<DT><B>1
+</B><DD>Simple or normal HTTP server
+<DT><B>2
+</B><DD>Proxy server
+<DT><B>3
+</B><DD>Caching server
+</DL>
+<P>
+It is read-only and set by system-specific code
+at server initialization time.
+The information is taken from the httpd configuration file.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.9.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>1
+</DL>
+<P><DT><B>CurrentThreads
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates how many threads the server has currently.
+The total number of active threads is the sum of
+applInboundAssociations and applOutboundAssociations.
+This information is read-only.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.10.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>MaxThreads
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the maximum number of threads the server can have.
+To affect server performance,
+use the MaxActiveThreads directive to modify
+the value for MaxThreads in the httpd.conf file.
+This is read-only information.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.11.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>MinThreads
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the minimum number of threads the server can have.
+The value for MinThreads may be modified with the
+MinActiveThreads directive in the httpd.conf file
+to affect server performance.
+This is read-write information.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.1.1.1.12.1
+<P><DT>Type
+<DD>INTEGER min&#95;threads = 0
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>SummaryRequests
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of request the server received
+plus the total number of requests the server generated
+(for example, as a proxy server).
+This read-only information is updated as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.1.1.1.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>SummaryRequestErrors
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of request errors detected by the server.
+This read-only information is updated as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.1.1.2.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>SummaryRequestDiscards
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of requests discarded by the server
+(for any reason).
+This read-only information is updated as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.1.1.3.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>SummaryResponses
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of responses generated or
+received by this server.
+This read-only information is updated as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.1.1.4.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>SummaryResponseDiscards
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of responses discarded by the server.
+This read-only information is updated as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.1.1.5.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>SummaryInUnknowns
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of unknown messages received
+by this server.
+This read-only information is updated as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.1.1.6.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>SummaryInBytes
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of bytes received by this server.
+This read-only information is updated as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.1.1.7.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>SummaryOutBytes
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of bytes sent out by this server.
+This read-only information is updated as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.1.1.8.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>TotalTimeouts
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of timeouts on all the servers
+that a master agent supports.
+This read-only information is updated as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.4.0
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>LastTimeoutEntityIndex
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+This value is for future extensibility and provides support
+for the Application Table.
+This read-only value is always 1 and is not customizable.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.5.0
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>1
+</DL>
+<P><DT><B>LastTimeoutRemoteAddress
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Provides the IP address of the machine that timed out last.
+This read-only value is updated by server code as the server runs.
+<P><DT>Object ID
+<DD>1.3.6.1.4.1.2.6.120.1.1.2.6.0
+<P><DT>Type
+<DD>IpAddress
+<P><DT>Default value
+<DD>0.0.0.0
+</DL>
+<P><DT><B>applName
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+The name that the network service application is known by.
+This read-only value is not customizable.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.2.1
+<P><DT>Type
+<DD>OCTET_STRING
+<P><DT>Default value
+<DD>An appropriate value for your server installation.
+</DL>
+<P><DT><B>applDirectoryName
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+The X.500 name for Web server.
+This read-only value is not customizable
+and is not supported by Internet Connection Secure Server Web server.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.3.1
+<P><DT>Type
+<DD>OCTET_STRING
+<P><DT>Default value
+<DD>Not available
+</DL>
+<P><DT><B>applVersion
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+The version of software the server is running.
+This human-readable value is read-only and not customizable.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.4.1
+<P><DT>Type
+<DD>OCTET_STRING
+<P><DT>Default value
+<DD>An appropriate value for your server installation.
+</DL>
+<P><DT><B>applUptime
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+This value is the time when the server was last started or rebooted.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.5.1
+<P><DT>Type
+<DD>TimeTicks
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>applOperStatus
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the operational status of the Web server.
+This is currently a read-only value.
+<P>Possible values are:
+<DL>
+<P><DT><B>1
+</B><DD>Up - indicates that the server is operational and available.
+<P><DT><B>2
+</B><DD>Down - indicates that the Web server is not available.
+<P><DT><B>3
+</B><DD>Halted - indicates that the Web server is operational but
+not available.
+<P><DT><B>4
+</B><DD>Congested - indicates that the server is operational but
+no additional inbound associations can be accommodated.
+<P><DT><B>5
+</B><DD>Restarting - indicates that the server is currently
+unavailable but is in the process of restarting and will be
+available soon.
+</DL>
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.6.1
+<P><DT>Type
+<DD>INTEGER
+<P><DT>Default value
+<DD>1
+</DL>
+<P><DT><B>applLastChange
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the time when the Web server
+entered its current applOperStatus.
+For example, if the applOperStatus changed from "congested"
+to "up", applLastChange displays the time the change occurred.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.7.1
+<P><DT>Type
+<DD>TimeTicks
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>applInboundAssociations
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the number of inbound connections currently running
+or how many threads are processing received requests.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.8.1
+<P><DT>Type
+<DD>Gauge32
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>applOutboundAssociations
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the number of outbound connections that the server
+is currently handling
+or how many threads are processing outbound requests.
+This value is 0 if the server is not acting as a proxy server.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.9.1
+<P><DT>Type
+<DD>Gauge32
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>applAccumulatedInboundAssociations
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of server's inbound connections
+until this time.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.10.1
+<P><DT>Type
+<DD>Gauge32
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>applAccumulatedOutboundAssociations
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of server's outbound connections
+until this time.
+This value is 0 if the server is not acting as a proxy server.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.11.1
+<P><DT>Type
+<DD>Counter32
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>applLastInboundActivity
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+This timestamp indicates when the last inbound connection was made.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.12.1
+<P><DT>Type
+<DD>TimeTicks
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>applLastOutboundActivity
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+This timestamp indicates when the last outbound connection was made.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.13.1
+<P><DT>Type
+<DD>TimeTicks
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>applRejectedInboundAssociations
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of requests the server has rejected.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.14.1
+<P><DT>Type
+<DD>Counter32
+<P><DT>Default value
+<DD>0
+</DL>
+<P><DT><B>applFailedOutboundAssociations
+</B><DD>
+<DL>
+<P><DT>Description
+<DD>
+Indicates the total number of the server's outbound requests
+that failed.
+This is a read-only value.
+<P><DT>Object ID
+<DD>1.3.6.1.2.27.1.1.15.1
+<P><DT>Type
+<DD>Counter32
+<P><DT>Default value
+<DD>0
+</DL>
+</DL>
+<P>
+<H3><A NAME="HDRWMEMAIL" HREF="#PToC_716">Creating an e-mail address to receive SNMP problem reports</A></H3>
+<P>
+The Internet Connection Secure Server provides a default e-mail address, <TT>webmaster</TT>,
+for the Web server administrator to receive problem reports from SNMP.
+Use the WebMasterEmail directive to customize the mail address.
+For more information about the WebMasterEmail directive,
+see <A HREF="icswg005.html#HDRWEBMEMA">"WebMasterEmail - Creating an e-mail address to receive SNMP problem reports"</A>.
+<P>
+<H3><A NAME="HDRENABOS2" HREF="#PToC_717">Enabling SNMP on your OS/2 system</A></H3>
+<P>
+To get an SNMP agent for OS/2, install the
+SystemView Agent Developers toolkit for OS/2 which can be downloaded
+from the http://www.software.ibm.com/download/ URL.
+To configure the SystemView SNMP agent, follow the instructions
+in <A HREF="#HDRSNMPPWD">"Providing a security password for SNMP"</A>.
+<P>
+<H3><A NAME="HDRSNMPPWD" HREF="#PToC_718">Providing a security password for SNMP</A></H3>
+<P>
+You can create passwords to control access to a particular
+community of monitored servers.
+The default SNMP community name is <TT>public</TT>.
+<P>
+Before creating passwords for server communities,
+configure the SystemView SNMP agent.
+<OL>
+<P><LI>From your desktop, click on the <B>SystemView Agent</B> icon.
+<P><LI>Click on the <B>OS/2 Agent Configuration</B> icon.
+<P>The SNMP Configuration Notebook displays.
+<P><LI>
+On the front page of the SNMP Configuration Notebook,
+enter the following values before testing SNMP access.
+<UL COMPACT>
+<LI>Community name: public
+<LI>Hostname: 0.0.0.0
+<LI>Netmask: 0.0.0.0
+</UL>
+<P>
+These values allow any host in any network
+to access the SNMP MIB variables.
+After you have verified that these values work, you can change
+them according to your requirements.
+<P><LI>
+Under the SNMP tab, start snmpd with the <B>-dpi</B>
+and <B>-transport udp</B> options selected.
+Other options can be specified as well.
+</OL>
+<P>
+For more information about configuring the SystemView SNMP agent,
+see the on-line <CITE>SystemView Agent for OS/2 User's Guide.</CITE>.
+<P>
+Use the SNMPCommunityName directive to define the password
+used between the Internet Connection Secure Server DPI subagent and the SNMP agent.
+The default is <TT>public</TT>.
+If you change this value, you must also add the new community name
+to the SystemView Agent
+SNMP Configuration Notebook.
+For more information about the SNMPCommunityName directive,
+see <A HREF="icswg005.html#HDRSCOMNAM">"SNMPCommunityName - Providing a security password for SNMP"</A>.
+<P>
+<H3><A NAME="HDRSNMPST" HREF="#PToC_719">Turning the SNMP support on and off from the httpd command</A></H3>
+<P>
+Use these flags to turn the SNMP support in the Internet Connection Secure Server on and off.
+<P>
+The <TT>-snmp</TT> flag turns the SNMP support on.
+The <TT>-nosnmp</TT> flag turns the SNMP support off.
+<P>
+This overrides what is defined in the httpd.conf file.
+<P>
+For more information about the httpd command, see <A HREF="icswg015.html#HDRHTTPD">"httpd command"</A>.
+<HR>
+<H2><A NAME="HDRSTATPNL" HREF="#PToC_720">Monitoring server performance and status</A></H2>
+<P>
+The Internet Connection Server Activity Monitor allows you to display server and network
+performance and status statistics, and access log entries,
+without being on the same machine that is running the server.
+This option provides significantly more information
+than opening the console window.
+<P>
+<H3><A NAME="HDRUSESAM" HREF="#PToC_721">Using the Server Activity Monitor function</A></H3>
+<P>
+You do not need to enable or configure this function.
+By default, the Server Activity Monitor is enabled by the following Service directive
+in the configuration file:
+<PRE>
+  Service   /Usage/* INTERNAL&#58;UsageFn
+</PRE>
+<P>
+To view server statistics,
+network statistics, and access log entries,
+use any browser and specify URL
+<B>http://</B><I>your.server.name</I><B>/Usage/Initial</B>,
+where <I>your.server.name</I> is the fully qualified
+name of your host, for example, <B>www.ibm.com</B>.
+You can also access
+status information from
+the Configuration and Administration Forms page by clicking
+<B>Server Activity Monitor</B> in the
+<B>System Management</B> section.
+<P>
+The following sections describe the type of information that is
+available and provide
+hints and tips on monitoring certain statistics.
+To update the
+statistics on a page, click <B>Refresh</B>.
+<P>
+<H4><A NAME="Header_722">Server activity statistics</A></H4>
+<P><A HREF="#FIGSERVACT">Figure 9</A> shows an example of the server
+statistics that are displayed on the Basic Status page.
+<P><B><A NAME="FIGSERVACT">Figure 9. Example of Basic Status page statistics</A></B><BR>
+<HR><BR>
+<P><PRE><B>+---NOTE---------------------------------------------------------------------+</B></PRE><BR>
+<P>Screen capture to be added.<BR>
+<BR><PRE><B>+----------------------------------------------------------------------------+</B></PRE><P><BR>
+<HR>
+<P><B>Hints and Tips</B>:
+<UL>
+<P><LI>
+If the number of idle threads is high, you may need
+to increase the number of threads that are available to the server.
+<P><LI>
+To monitor server response, use the
+<B>Response time for local files</B> statistic.
+<P><LI>
+To monitor traffic, use the <B>Requests processed</B>,
+<B>Bytes received</B>, and <B>Bytes sent</B> statistics.
+</UL>
+<P>
+<H4><A NAME="Header_723">Network activity statistics</A></H4>
+<P><A HREF="#FIGNETWACT">Figure 10</A> shows an example of the network
+statistics that are displayed on the Network Status page.
+<P><B><A NAME="FIGNETWACT">Figure 10. Example of Network Status page statistics</A></B><BR>
+<HR><BR>
+<P><PRE><B>+---NOTE---------------------------------------------------------------------+</B></PRE><BR>
+<P>Screen capture to be added.<BR>
+<BR><PRE><B>+----------------------------------------------------------------------------+</B></PRE><P><BR>
+<HR>
+<P><B>Note: </B><BLOCKQUOTE>
+Incoming and outgoing data values
+include data received and sent
+by the server, by other applications on the machine, and overhead
+added by the subsystem.
+</BLOCKQUOTE>
+<P>
+<H4><A NAME="Header_724">Access log</A></H4>
+<P>
+The access log page
+displays the 20
+most recent entries in the access log.
+For more information on the access log, go to <A HREF="icswg006.html#HDRTAILLOG">"Tailoring the logs your server keeps"</A>.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg009.html">Previous Page</A> &#124; <A HREF="icswg011.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

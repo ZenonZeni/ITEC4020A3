@@ -1,0 +1,465 @@
+
+<DOC>
+<DOCNO>WT03-B24-119</DOCNO>
+<DOCOLDNO>IA053-000895-B046-312</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/dec5sum.html 129.174.40.15 19970123200048 text/html 18303
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:59:35 GMT
+Server: NCSA/1.5.2
+Last-modified: Sat, 23 Mar 1996 13:55:39 GMT
+Content-type: text/html
+Content-length: 18119
+</DOCHDR>
+<HTML>
+<head>
+<title>Third Party Summary of Dec 5 1995 NIST Encryption Escrow meeting </title>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+United State Department of Commerce<br>
+National Institute of Standards and Technology<br>
+Gaithersburg, Marylsnd 20899-0001<br>
+<p>
+March 5, 1996
+<p>
+The enclosed document is an unofficial summary of the
+December 5, 1995 meeting held at the National Institute of
+Standards and Technology to discuss the 64-bit software key
+escrow encryption exportability initiative. If you would
+like to be on a distribution list to receive future
+information related to key escrow encryption export
+criteria, please send your name, address and e-mail address
+to me no later than April 1, 1996.
+<p>
+Elaine Frye<br>
+Information Specialist<br>
+Computer Security Division<br>
+National Institute of Standards and Technology<br>
+Building 820, Room 426<br>
+Gaithersburg, MD 20899<br>
+<a href="mailto:elaine.frye@nist.gov">
+e-mail: elaine.frye@nist.gov</a><br>
+_________________________________________________________
+<p>
+<center>
+Summary
+<p>
+(This summary was prepared by an outside observer
+from Martin Marietta Energy Systems, Inc.)
+<p>
+<p>
+<p>
+Proposed 64-bit Software<br>
+Key Escrow Encryption Export Criteria Meeting
+<p>
+Place:      National Institute of Standards and Technology
+(NIST)
+<p>
+Date:       December 5, 1995
+</center>
+<p>
+Moderator:  Ed Roback, National Institute of Standards and
+            Technology (NIST)
+<p>
+Panel:      Ed Appel, Michael R. Nelson, Ray Kammer, Geoff
+            Greiveldinger, Clint Brooks
+<p>
+Industry
+Presenters: Bill Sweet, Ken Mendelson, Dorothy Denning,
+            Melanie Janin, Ed Scheidt, Doug Miller,
+            Shabbir Safdar, Viktor Hampel
+<p>
+<p>
+<h2>I.   Ed Roback, National Institute of Standards and
+     Technology</h2>
+<p>
+     Welcome
+<p>
+     Mr. Ed Roback, serving as moderator for the meeting,
+     opened the meeting with a welcome, announcements
+     (including notice the meeting would be taped) and
+     introductions of the panel members.
+<p>
+<p>
+<h2>II.  Michael R. Nelson, Co-Chairman IWG/ET</h2>
+<p>
+     Perspectives, Objective of Criteria, and Future Plans
+<p>
+     Dr. Michael R. Nelson presented the Administration's
+     perspectives, objectives, and future plans. He
+     explained the five goals and objectives for the
+     December 5 meeting. They were as follows:
+<p>
+     1. explain the criteria to ensure that they are
+        clearly understood;
+<p>
+     2. discuss the Administration's proposed desirable
+        characteristics for key escrow agents and approach
+        to developing and implementing an approval
+        process;
+<p>
+     3. understand reactions and desired changes to the
+        draft criteria and proposed key escrow agent
+        characteristics;
+<p>
+     4. explain the Administration's plans to revise and
+        implement these criteria (with revisions, as
+        appropriate);
+<p>
+     5. identify other areas requiring follow-up
+        attention.
+<p>
+     Several questions from the audience included a request
+     for assurance that the current issue is not
+     establishing domestic regulation and why the key
+     length was being limited to 64-bit keys. Dr. Nelson
+     assured the group, the current discussion related to
+     EXPORT criteria only. He stated that the key length
+     (of the symmetric session key) is currently limited to
+     64-bits to see if this concept results in products for
+     which the key escrow mechanism cannot be easily
+     defeated. If, as time passes, the concept proves
+     viable and resistant to attack, changes may be
+     appropriate.
+<p>
+<h2>III. Clint Brooks, National Security Agency</h2>
+<p>
+     Exportability Criteria Discussion
+<p>
+     Dr. Clint Brooks reviewed the Draft Software Key
+     Escrow Encryption Export Criteria (11/95 version),
+     including the six criteria associated with the key
+     escrow feature, the two criteria associated with the
+     key length feature, and one criterion each associated
+     with the interoperability feature and design,
+     implementation, and operational assurance. Criterion
+     five, which requires a product's key escrow feature to
+     allow access to the key(s) needed to decrypt the
+     product's ciphertext regardless of whether the product
+     sent or received the information, generated the most
+     discussion. Dr. Brooks explained the primary need for
+     the requirement was for Law Enforcement Agencies (LEA)
+     to access a subject's communications when authorized.
+<p>
+     Criterion five generated such discussion that Mr. Ed
+     Allen (FBI) supplemented Dr. Brooks presentation by
+     detailing the LEA objective(s) for criterion 5. Some
+     of the rationale included, LEA's gaining subject['s]
+     key is consistent with the current approach of
+     electronic surveillance (i.e. tapping lines) and helps
+     preserve the ability to react in real time by
+     obtaining *only* the subject's key. Mr. Allen
+     addressed several questions regarding cooperation and
+     status of agreements with other countries and he noted
+     the Mutual Legal Assistance Treaty (MLANTS) would need
+     to be modified.
+<p>
+<h2>
+IV.  Geoff Greiveldinger, U.S. Depsrtment of Justice</h2>
+<p>
+     Draft Key Escrow Agent Characteristics
+<p>
+     Mr. Geoff Greiveldinger reviewed the draft Key Escrow
+     Agent Characteristics consisting of twenty criteria
+     addressing escrow system integrity and security and
+     key aceess requirements. The group questions primarily
+     centered around criterion seven which requires at
+     least one person who possess[es] a SECRET clearance
+     for purposes of processing classified requests and
+     requirements to maintain auditable records. Several
+     participants, including one from Netscape, stated they
+     do not endorse the Administration's proposal and that
+     they are losing sales and having products returned,
+     because of their inability to export products with
+     marketable key escrow features. Questions were raised
+     regarding what agency would grant approval and
+     maintain valid holders. Additional concerns regarding
+     escrow agents who later went out of business were
+     raised.
+<p>
+<p>
+<h2>V.   Industry Perspectives</h2>
+<p>
+<h3>     Bill Sweet, Trusted Information Systems Inc.</h3>
+<p>
+     Is There a Path to Global Information Security?
+<p>
+     Mr. Sweet's presentation included views that customers
+     do not want escrow controlled by lots of other people,
+     information owners should control their assets, not
+     the government -- the information is someone else's
+     property, the current proposal gives control to the
+     receiver not where it should be with the sender, and
+     American companies do not want some foreign countries
+     to have access to keys. One key question was whether
+     companies can designate where keys can be escrowed,
+     even if the location is not the United States. Dr.
+     Nelson responded that in addition to being held with
+     an agent approved by the U.S., the current proposal
+     does not disallow a company from designating somewhere
+     other than the U.S., for example, Holland. Answers to
+     questions regarding bilateral agreements with other
+     countries were answered when a clear statement was
+     made that no bilateral agreement need exist if keys
+     are deposited in the U.S. A bilateral agreement is
+     only necessary, when keys are exclusively held by
+     another country.
+<p>
+<h3>
+     Kenneth A. Mendelson, Trusted Information Systems,
+     Inc.
+</h3>
+     A Private Sector Proposal for Trusted Third Party
+     (a.k.a. Data Recovery Center) Registration
+<p>
+     Mr. Mendelson described his proposal for a
+     vendor-based registration framework, including a
+     "Trusted Third Party Application Form". He believes
+     already-established procedures can be used to collect
+     the required information.
+<p>
+<h3>
+     Dorothy E. Denning, Georgetown University
+</h3>
+     Criterion #5: Access Through Sender and Receiver
+     Rationale, Technical Approaches, Exposure Risks, and
+     Wording
+<p>
+     Dr. Denning reviewed different approaches to key
+     escrow encyption and to satisfying criterion #5,
+     showing that the criterion is met by most products and
+     proposals for key escrow. She also discussed the
+     privacy implications of criterion #5 vs. one that
+     would require access *only* through the sender,
+     concluding that criterion #5 is *not* more invasive of
+     privacy. Finally, her submitted paper discusses a
+     concern that the current wording does not obligate the
+     sending product to ensure access through the receiving
+     product and suggests a rewrite. Her paper can be
+     accessed at
+<p>
+        http://www.cosc.georgetown.edu/~denning/crypto/
+<p>
+<h3>
+     Melanie Janin, U. S. Council for International
+     Business
+</h3>
+     Comments on Encryption Policy at The National
+     Institute of Standards and Technology (NIST)
+<p>
+     Ms. Janin presented a comparison of the U.S. Council's
+     "Business Requirement for Encryption," issued over one
+     year ago, with the U.S. Government's proposed policy.
+     She found that some of the U.S. Council's requirements
+     have been satisfied, some not, and some are unclear.
+     Ms. Janin emphasized the U.S. Council's desire to meet
+     with the Government to clarify some of these
+     unresolved issues.
+<p>
+<h3>
+     Ed Scheidt, Tecsec
+</h3>
+     Mr. Scheidt believed the next steps were to get moving
+     and test products and the policy because it is
+     essential to provide immediate relief for escrowed
+     encryption and we need to rely on the Administration
+     to bring U.S. privacy products to the rest of the
+     world.
+<p>
+<h3>
+     Shaber Safdar, Voters Telecommunications Watch
+</h3>
+     Mr. Safdar described an Internet survey of security
+     professionals the Voters Telecommunications Watch
+     group is conducting. The survey was posted one week
+     prior to the December 5 meeting. They have received a
+     total of 26 responses. Twenty-four of the twenty-six
+     respondents stated they would never purchase software
+     or hardware with law enforcemcnt access. Sixteen of
+     these twenty-four responded they are already using
+     products without law enforcerncnt access. Respondents
+     would support industry in quest of market driven
+     cryptographic standards.
+<p>
+<h3>
+     Robert W. Holleyman II, Business Software Alliance
+</h3>
+     Testimony of Robert W. Holleyman II, President,
+     Business Software Alliance, on Encryption Export
+     Policy and thc U.S. Software Industry: Chipping Away
+     at America's International Competitiveness.
+<p>
+     Mr. Holleyman believes that despite concerns expressed
+     by companies and association, and privacy advocates,
+     during previous NIST meetings, little has changed in
+     the Administration's proposal. He believes the
+     proposal is unworkable and unacceptable. He states
+     that information security is critical and 40-bit keys
+     are pathetic and although the proposal of 64-bit keys
+     is an improvement, it is insufficient. He proposes a
+     Cost of Cracking Adjustment (COCA), in which an
+     automatic increase in the permissible key length by
+     two bits every three years. The base length is based
+     on immediately permitting the export of generally
+     available software progruns employing the Data
+     Encryption Standard (DES) algonthm or other algorithms
+     at comparable strengths.
+<p>
+<p>
+     David Sobol, Electronic Privacy Information Center
+<h3>
+     Comments on Draft Export Criteria for Key Escrow
+     Encryption
+</h3>
+     Mr. Sobol states that users are unlikely to adopt key
+     escrow systems on a voluntary basis, and is afraid
+     what is voluntary will become standard and result in
+     the eventual prohibition of non-escrowed products. He
+     questions the role of public comment in the process,
+     because it is frequently solicited but never heeded,
+     referencing the 1993 proposed Escrowed Encryption
+     Standard, or Clipper. Most comments were negative, as
+     NIST acknowledged in its Federal Register notice
+     adopting the standard. Another major issue, is the
+     Cryptographic Competitiveness Study conducted by the
+     Bureau of Export Administration has not been released.
+     EPIC has initiated litigation under the FOIA seeking
+     the release of the study. (Note: It was released on
+     1/18/96.)
+<p>
+<h3>
+     Padgett Peterson, Lockheed Martin
+</h3>
+     Mr. Peterson commented that major corporations must be
+     able to become licensed key agents, the issue of
+     property rights is important, and policies must
+     guarantee confidentiality to customers.
+<p>
+<h3>
+     Alex McIntosh, PC Security Limited (UK)
+</h3>
+     Mr. McIntosh described a system his company designed
+     for Shell. He believes control should be delivered to
+     the desktop and states the issue of liability has been
+     ignored and we must understand who will be liable.
+<p>
+<h3>
+     Doug Miller, Software Publishers Association
+</h3>
+     Comments of thc Software Publishers Association on
+     11/95 Draft Export Criteria for Key Escrow Encryption
+<p>
+     Mr. Miller states member companies are poised to meet
+     the needs of a secure, private, and trusted Global
+     Information Infiastructure (GII), but cannot because
+     of the barriers the U.S. cryptography policy continues
+     to impose. Although the 11/95 draft criteria reflect
+     a few of the suggested changes, the changes made are
+     minor compared with the fundamental problems of the
+     proposal. Members have analyzed the global marketplace
+     for encryption and concluded key escrow systems will
+     simply not be marketable in a world in which non-
+     escrow encryption is widely available at greater than
+     40 bits. He further states that the Department of
+     Commerce study will say there are not strong products
+     out there but members of SPA say they are loosing
+     business and bilateral agreanents will take a long
+     time; U.S. companies need immediate relief.
+<p>
+<h3>
+     Viktor E. Hampel, Hampel Consulting
+</h3>
+     A Consumer Protection Act for Digital Products
+     (Proposal for an International Standard on the
+     Labeling of Digital Products)
+<p>
+     Mr. Hampel reported that accountability had been
+     unanimously agreed upon as the key issue for
+     electronic commerce during panel discussions of the
+     recent international elecro-optical engineering
+     conference in Philadelphia, which included
+     representation from such diverse groups as NSA and the
+     electronic publishing association. To promote
+     accountability in electronic transactions, Mr. Hampel
+     proposed the labeling of digital products in a
+     structured header to protect the intellectual property
+     rights of providers -- equivalent to the visual
+     copyright notices found on title pages of bound
+     literary works. The descriptive digital product labels
+     in the header would uniquely identify their source and
+     contents and thus also help consumers decide what
+     products they wish to see, hear, buy and use --
+     equivalent to the *visual* food labels on containers.
+     According to Mr. Hampel's proposal, the proposed
+     structures of the information header could be based on
+     the international CALS Standards for the enveloping of
+     digital data products, and on FIPS PUB 188 for the
+     labeling of data. International standard for certified
+     Public-Key digital signatures would bind the header
+     information to the registered digital product to
+     protect its integrity and authenticity.
+<p>
+<h2>
+VI.  Wrap-up and Adjourn
+</h2>
+     Questions from the audience during the wrap up session
+     included:
+<p>
+     What is the current time line for implementing the
+     policy?
+<p>
+     The response was today if the draft criteria is met an
+     export license can be obtained. Final policy can be
+     expected in a few months since the last thing the
+     Administration wants are criteria which preclude
+     solutions to things government or industry needs.
+<p>
+     If a message is sent to 187 countries, where does the
+     Data Recovery Center (DRC) have to be located?
+<p>
+     The response was that the escrow center could be in
+     the U.S. or another country with which the U.S. has
+     appropriate law enforcement and national security
+     arrangements. However, the agent has to be certified.
+<p>
+     When and how will the policy be published?
+<p>
+     The Administration hopes to be completed in a few
+     months and since the policy is a loosening of
+     restrictions it does not have to go in the Federal
+     Register for comment. Final implementation is likely
+     to be a notice with criteria in the Federal Register.
+<p>
+     Several questions centered around the requirement for
+     a SECRET clearance for at least one person for each
+     Certified Escrow Agent.
+<p>
+     Responses included information that the person with
+     the clearance does not have to run the DRC but can
+     hold any position and standards will have to be
+     developed for the certifying process. Other issues
+     revolved around multinational companies which may be
+     in compliance for 25% U.S.-owned one day and the next
+     day may not be within the legal limits.
+<p>
+<p>
+     Overall, the meeting did appear to help clarify the
+     draft criteria for participants. No new significant
+     issues were raised.
+<p>
+     [End]
+<p>
+<p>
+<hr>
+Back to <a href="./nist951205.html">Pat's page on the December 5 NIST Clipper 2 </a>
+meeting. 
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nist/clipper2.html">
+Clipper II page.</a> 
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a> 
+March 23, 1996 
+Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">
+Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

@@ -1,0 +1,245 @@
+
+<DOC>
+<DOCNO>WT03-B15-357</DOCNO>
+<DOCOLDNO>IA074-000483-B007-195</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icsur007.html 128.125.48.102 19970125003933 text/html 10905
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:38:07 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 10673
+Last-Modified: Mon, 13 Jan 1997 17:12:56 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Quick Beginnings</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSURMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 20 Dec 1996 at 16:44:30                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Fri, 20 Dec 1996 16:44:14">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="Header_47" HREF="icsurmst.html#ToC_47">Part 3. Using your server</A></H1>
+<HR>
+<H1><A NAME="HDRSTR" HREF="icsur006.html#PToC_48">Chapter 5. Starting to use your server</A></H1>
+Using Your Server
+<P>
+This chapter contains basic instructions
+for starting and stopping your server.
+It also describes the first tasks you will
+probably want to perform after installation.
+<P>
+<P><A HREF="icsurmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_49 HREF="#HDRSTRSTO" >Starting the server</A>
+<MENU>
+<LI><A NAME=PToC_50 HREF="#Header_50" >Starting automatically from the OS/2 startup folder</A>
+<LI><A NAME=PToC_51 HREF="#Header_51" >Starting from the Internet Connection Secure Server icon</A>
+<LI><A NAME=PToC_52 HREF="#Header_52" >Starting from the command prompt</A>
+<LI><A NAME=PToC_53 HREF="#Header_53" >Starting multiple instances of the server</A>
+<LI><A NAME=PToC_54 HREF="#Header_54" >Restarting from the Internet Connection Secure Server Window</A>
+</MENU>
+<LI><A NAME=PToC_55 HREF="#Header_55" >Stopping the server</A>
+<LI><A NAME=PToC_56 HREF="#HDRVIEWFP" >Viewing your server's Front Page</A>
+<LI><A NAME=PToC_57 HREF="#HDRWHTNXT" >What's next?</A>
+</MENU><HR><P>
+<P>
+<HR>
+<H2><A NAME="HDRSTRSTO" HREF="#PToC_49">Starting the server</A></H2>
+<P>
+This section describes how to start and stop your server
+after you have finished installing it.
+If you think the server is running but you do not see the window
+for it on your OS/2 Desktop, press <B>Ctrl+Esc</B>
+to see the list of active OS/2 programs.
+If the Window List contains an entry for the server, double click
+the entry to bring the server's window into view.
+<P>
+If you are running a non-secure server,
+you will see the message
+<TT>Security not available. <VAR>filename</VAR>.dll did not load</TT>.
+This message lets you know that you are not running the Internet Connection Secure Server.
+You do not need to do anything in response to the message.
+<P>
+<H3><A NAME="Header_50" HREF="#PToC_50">Starting automatically from the OS/2 startup folder</A></H3>
+<P>
+If during installation you checked Auto Start Server at Bootup,
+the server has been added to your OS/2 Startup folder.
+Each time you start or reboot your system, the server will start.
+If you rebooted your system after installing the server,
+the server should be running now.
+<P>
+When you start the server automatically,
+it uses the current configuration settings.
+If you have not changed the server configuration since installation,
+the current configuration is based on the information you
+entered during installation along with defaults.
+<P>
+<H3><A NAME="Header_51" HREF="#PToC_51">Starting from the Internet Connection Secure Server icon</A></H3>
+<P>
+The installation procedure creates an Internet Connection Secure Server
+folder on your OS/2 Desktop.
+Inside the folder is an icon for the Internet Connection Secure Server.
+To start the server, double click the icon.
+<P>
+The server starts with the current configuration settings.
+If you have not changed the server configuration since installation,
+the current configuration is based on the information you
+entered during installation along with defaults.
+<P>
+<H3><A NAME="Header_52" HREF="#PToC_52">Starting from the command prompt</A></H3>
+<P>
+You can start the server from any OS/2 command prompt by entering:
+<P>&nbsp;
+<PRE>
+<B>httpd</B>
+</PRE>
+<P>
+This starts the server with the current configuration settings.
+If you have not changed the server configuration since installation,
+the current configuration is based on the information you
+entered during installation along with defaults.
+<P>
+The httpd command also accepts various options for changing
+configuration settings at run time.
+For details on the httpd command options,
+see the <CITE>Webmaster&#39;s Guide</CITE>.
+<P>
+<H3><A NAME="Header_53" HREF="#PToC_53">Starting multiple instances of the server</A></H3>
+<P>
+You can start multiple instances of the server,
+but each instance must listen on a separate port.
+All instances, other than the first, can be started
+by entering the following command from a command prompt:
+<P>
+<B>httpd -r <VAR>other_rule_file</VAR></B>
+<P>
+where <VAR>other_rule_file</VAR> is a configuration file that
+specifies the individual port.
+<P>
+<H3><A NAME="Header_54" HREF="#PToC_54">Restarting from the Internet Connection Secure Server Window</A></H3>
+<P>
+You can restart your server from the Internet Connection Secure Server window
+by selecting <B>Restart</B>
+from the <B>Server</B> pull-down menu on the menu bar.
+The server reloads the configuration settings from
+the configuration file it was originally started with.
+<HR>
+<H2><A NAME="Header_55" HREF="#PToC_55">Stopping the server</A></H2>
+<P>
+You can stop the server the same ways you stop other OS/2 programs.
+Do any of the following:
+<UL>
+<P><LI>Go to the Internet Connection Secure Server window and double click
+the small icon in the top left corner.
+<P><LI>Go to the Internet Connection Secure Server window and select <B>Exit</B> from the
+<B>Server</B> pull-down menu on the menu bar.
+<P><LI>Go to the Internet Connection Secure Server window and press <B>F3</B>.
+<P><LI>Press <B>Ctrl+Esc</B>.
+With the right mouse button click the Window List entry for the Internet Connection Secure Server.
+Click <B>Close</B>.
+</UL>
+<HR>
+<H2><A NAME="HDRVIEWFP" HREF="#PToC_56">Viewing your server's Front Page</A></H2>
+<P>
+After your server is up and running, you can use WebExplorer or
+any other Web browser to look at the server's Front Page.
+<P>
+If you started the server with the default configuration file
+and you have not yet created your own home page,
+you can view the Front Page by using your
+browser to open the following URL:
+<P>&nbsp;
+<PRE>
+<B>http://<VAR>your.server.name</VAR>/</B>
+</PRE>
+<P>Where <VAR>your.server.name</VAR> is
+the fully qualified name of your host.
+For example, http://www.ibm.com/.
+<P>
+The server's Front Page contains the following links:
+<UL>
+<P><LI><B>Configuration and Administration Forms</B>.  A tool that lets
+you configure your server by filling in a set of forms.
+The forms are coded with the Hypertext Markup Language (HTML).
+<P><LI><B>Sample Home Page</B>.  A sample document
+that demonstrates how to use many of the HTML tags.
+<P><LI><B>Internet Connection Family Web Site</B>.  From this Web
+site, you can download beta versions of software under development,
+product giveaways, accessory code, demo code, and other goodies.
+You can also learn more about our retail products.
+<P><LI><B>Documentation</B>.  An online HTML version of the following:
+<UL COMPACT>
+<LI><CITE>Quick Beginnings</CITE>
+<LI><CITE>Webmaster's Guide</CITE>
+<LI><CITE>Web Programming Guide</CITE>
+<LI><CITE>Web design information</CITE>
+</UL>
+</UL>
+<P>
+If you want to go to the Front Page after you create your own home
+page, just include the Front Page file name on the URL.
+The Front Page file name is Frntpage.html,
+so you would use the following URL to see it:
+<P>&nbsp;
+<PRE>
+<B>http://<VAR>your.server.name</VAR>/Frntpage.html</B>
+</PRE>
+<HR>
+<H2><A NAME="HDRWHTNXT" HREF="#PToC_57">What's next?</A></H2>
+<P>
+Now that your server is up and running, you'll probably
+want to configure it to your own specifications.
+Your server allows you to:
+<UL>
+<P><LI><B>Modify the Configuration and Administration forms</B>
+to easily configure the default settings.
+<P><LI><B>Change the default home page</B>
+to have the server return your own home page.
+The home page is the document that your server returns when a client
+sends a request that does not point to a specific directory or file.
+<P><LI><B>Change your document root directory</B>
+to serve requests that do not point to a specific directory.
+Your home page should always be on your home directory.
+<P><LI><B>Run your server as a caching proxy</B> to improve
+response time by having the proxy server store the documents
+it receives from other servers in a local cache.
+<P><LI><B>Run a proxy server and standard server</B>
+from the same host to have the convenience of running
+two different servers from one host.
+<P><LI><B>Run your server with multiple IP addresses or virtual
+hosts</B> to
+serve different files based on the IP address of the network
+connection a request comes in on or the host for whom the
+request is made.
+This is especially helpful for
+Internet access providers who want to use one server to provide
+Web sites for multiple customers.
+</UL>
+<P>
+These activities are described in the <CITE>Webmaster's Guide</CITE>.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icsur006.html">Previous Page</A> &#124; <A HREF="icsur008.html">Next Page</A> &#124; <A HREF="icsurmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

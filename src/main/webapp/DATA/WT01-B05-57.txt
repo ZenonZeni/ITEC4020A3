@@ -1,0 +1,1687 @@
+
+<DOC>
+<DOCNO>WT01-B05-57</DOCNO>
+<DOCOLDNO>IA044-000801-B012-21</DOCOLDNO>
+<DOCHDR>
+http://samsara.law.cwru.edu:80/comp_law/why1.html 129.22.184.108 19970118133035 text/html 93701
+HTTP/1.0 200 OK
+Date: Sat, 18 Jan 1997 13:34:21 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 93529
+Last-modified: Mon, 16 Dec 1996 18:11:04 GMT
+</DOCHDR>
+<html>
+<head>
+ <title>Understanding Computers and the Law</title>
+ <body>
+
+
+ <center><h1>Understanding Computers and the Law</h1></center>
+ <center>Peter D. Junger</center>
+ <center>Draft---Please Do Not Cite---December 10, 1966</center>
+
+ <p>
+ <hr>
+ <p>
+
+ <h1>Contents</h1><p>
+
+ <table>
+ <tr></tr><tr><td colspan=20>1<tt>   </tt><a href="#s1"><b>What Computers and the Law Is All About</b></a></td></tr>
+ <tr></tr><tr><td colspan=20>2<tt>   </tt><a href="#s2"><b>The Importance of Distinguishing Between Text and Process</b></a></td></tr>
+ <tr><td></td><td colspan=20>2.1<tt>   </tt><a href="#s2.1">The First Amendment and Computer Programs</a></td></tr>
+ <tr><td></td><td colspan=20>2.2<tt>   </tt><a href="#s2.2">Functional Capability <em>Versus</em> Informational
+  Value</a></td></tr>
+ <tr><td></td><td></td><td colspan=20>2.2.1<tt>   </tt><a href="#s2.2.1">On Not Getting It</a></td></tr>
+ <tr><td></td><td></td><td colspan=20>2.2.2<tt>   </tt><a href="#s2.2.2">What Do Digital Programmable Computers Do?</a></td></tr>
+ <tr><td></td><td></td><td colspan=20>2.2.3<tt>   </tt><a href="#s2.2.3">Reading and Writing Computer Programs</a></td></tr>
+ <tr></tr><tr><td colspan=20>3<tt>   </tt><a href="#s3"><b>Copyright</b></a></td></tr>
+ <tr></tr><tr><td colspan=20>4<tt>   </tt><a href="#s4"><b>Patents</b></a></td></tr>
+ <tr></tr><tr><td colspan=20>5<tt>   </tt><a href="#s5"><b>The ITAR and I</b></a></td></tr>
+ </table><p><hr>
+
+ <p>
+ <hr>
+ <p>
+
+ <h2><a name="s1">1 What Computers and the Law Is All About</a></h2>
+
+ <p> I don't suppose that it often happens that at the end of a course the
+  instructor feels the need that I now feel to explain what the course
+  is really all about.  After all, most courses in law school are about
+  so many things that they are not really about any particular thing,
+  while those courses, like Law and the Chicken,<a name="F1"><a href="#FN1"><sup><fontsize=-2>1</font></sup></a></a>  for example, that are about some one
+  thing, are clearly about that thing, and need no further explanation.
+
+ <p> But the course in Computers and the Law is not about everything under
+  the sun (and is not even about everything that the instructor's whim
+  might lead him<a name="F2"><a href="#FN2"><sup><fontsize=-2>2</font></sup></a></a> to discuss).  On the
+  other hand, the course in Computers and the Law is not really about
+  computers, but rather about what we<a name="F3"><a href="#FN3"><sup><fontsize=-2>3</font></sup></a></a> make of them, or do
+  with them, or can do with them---and how we do it.  That is,
+  Computers and the Law is not about a ``thing''---not about
+  anything---like a <em>computer</em>, but rather about a process---about
+  a ``doing''---like the process that we, rather
+  infelicitously,<a name="F4"><a href="#FN4"><sup><fontsize=-2>4</font></sup></a></a> call <em>computing</em>.  And, of
+  course, the course is also about the law, but that too is not a
+  tangible thing that just sits there like a bread box or a lump of
+  iron, for the law too is a process, something that we, especially we
+  lawyers, do.
+
+ <p> One of the things that I am striving to teach---or, rather, to assist
+  the students in understanding---in the course in Computers and the
+  Law<a name="F5"><a href="#FN5"><sup><fontsize=-2>5</font></sup></a></a> is the
+  importance of being able to distinguish between the tangible
+  computer, sitting there like a lump of plastic and hardware on the
+  desk, and the things that we do with computers---the processes that
+  we run on computers.
+
+ <p> But this distinction between the tangible thing and the intangible
+  process is not the major theme of the course.  It is, after all, not
+  that difficult in most cases to tell the dancer from the
+  dance.<a name="F6"><a href="#FN6"><sup><fontsize=-2>6</font></sup></a></a>  And even if the distinction
+  between the computer and what it does is not always that easy to
+  make, one is not likely to confuse the two in practice.<a name="F7"><a href="#FN7"><sup><fontsize=-2>7</font></sup></a></a>
+
+ <p> The critical distinction has to do, not with computers themselves,
+  not with the hardware, but with the so-called software,<a name="F8"><a href="#FN8"><sup><fontsize=-2>8</font></sup></a></a> the programs
+  that run on a computer.  That distinction is the distinction between
+  software as a text<a name="F9"><a href="#FN9"><sup><fontsize=-2>9</font></sup></a></a> and software as a process.<a name="F10"><a href="#FN10"><sup><fontsize=-2>10</font></sup></a></a>
+
+ <p> That distinction---which is also, when one gets right down to it, the
+  distinction between the law in books and the law in
+  action<a name="F11"><a href="#FN11"><sup><fontsize=-2>11</font></sup></a></a>---is the major subject of the course, and thus of this
+  article.
+
+ <p>
+
+ <h2><a name="s2">2 The Importance of Distinguishing Between Text and Process</a></h2>
+
+ <p> The distinction between between software as text and software as a
+  process is critical to an understanding of how the law of copyright
+  applies---or should apply---to computer programs.<a name="F12"><a href="#FN12"><sup><fontsize=-2>12</font></sup></a></a>  That distinction, or one very
+  similar, is also critical to an understanding of how patent law
+  applies to computer programs.<a name="F13"><a href="#FN13"><sup><fontsize=-2>13</font></sup></a></a>
+
+ <p> The distinction, however, has its greatest importance---at least for
+  a course in Computers and the Law offered in the United States---when
+  one tries to understand how the First Amendment of the federal
+  constitution applies to computer programs.
+
+ <p><h3><a name="s2.1">2.1 The First Amendment and Computer Programs</a></h3>
+ <p> Once one recognizes the distinction between software as a text and
+  software as a process, one would think that the question of how the
+  First Amendment applies to computer programs could easily be
+  resolved: the First Amendment, like the Copyright
+  Act,<a name="F14"><a href="#FN14"><sup><fontsize=-2>14</font></sup></a></a> quite obviously protects software as a
+  text, but not as a process, and, of course, it does not protect the
+  tangible, kickable hardware.<a name="F15"><a href="#FN15"><sup><fontsize=-2>15</font></sup></a></a>
+
+ <p> The difficulty that people have with this distiction, however,
+  appears to lie in recognizing it at all, rather than in figuring out
+  how the First Amendment (or, for that matter, the Copyright Act)
+  applies once the distinction has been made.  People seem to believe
+  that software is software, a program is a program, and they just do
+  not see that it makes any difference whether it---whatever ``it'' may
+  be---is being communicated as a text or run as a process.
+
+ <p> Before we go on and examine why it is difficult for many lawyers and
+  law students---and others---to recognize this distinction, it
+  probably would be best to point out that the issue of whether the
+  First Amendment protects software is not a purely academic matter.
+  At least one sort of software, ``cryptographic software'' very
+  broadly defined,<a name="F16"><a href="#FN16"><sup><fontsize=-2>16</font></sup></a></a>  is subject, at the time I write these words, to a
+  licensing scheme under the International Traffic in Arms Regulations
+  (hereinafter the ``ITAR'') that would, I submit, clearly be
+  unconstitutional were it to be applied to more traditional texts like
+  political pamphlets or Harlequin romances or Playboy magazine.  I
+  will discuss this licensing scheme and the particular problems that
+  it presents hereafter<a name="F17"><a href="#FN17"><sup><fontsize=-2>17</font></sup></a></a>, but at this time I want to bring your attention to two
+  statements that President Clinton made in an <em>Executive Order</em>
+  and in an accompanying <em>Memorandum to the Vice President</em>
+  ordering the transfer of the administration of this licensing scheme
+  from the State Department to the Department of Commerce:
+ <blockquote>
+  Because the export of encryption software, like the export of other
+  encryption products described in this section, must be controlled
+  because of such software's functional capacity, rather than because
+  of any possible informational value of such software, such software
+  shall not be considered or treated as ``technology,'' as that term is
+  defined in section 16 of the EAA (50 U.S.C. App. 2415) and in the EAR
+  (61 Fed. Reg. 12714, March 25, 1996)[.]<a name="F18"><a href="#FN18"><sup><fontsize=-2>18</font></sup></a></a>
+ </blockquote>
+  and
+ <blockquote>
+  Because encryption source code can easily and mechanically be
+  transformed into object code, and because export of such source code
+  is controlled because of the code's functional capacity, rather than
+  because of any ``information'' such code might convey, the Final
+  Regulations shall specify that encryption source code shall be
+  treated as an encryption product, and not as technical data or
+  technology, for export licensing
+  purposes.<a name="F19"><a href="#FN19"><sup><fontsize=-2>19</font></sup></a></a>
+ </blockquote>
+
+  <h3><a name="s2.2">2.2 Functional Capability <em>Versus</em> Informational  Value</a></h3>
+
+ <p> The distinction that President Clinton attempts to make in the
+  <em>Executive Order</em> between the ``functional capability''---or the
+  ``functional capacity''---of the software, on the one hand, and its
+  ``informational value''---or ``the `information' . . . [it] might
+  convey''---, on the other, is pretty much the distinction between the
+  process---the execution of instructions contained in the software---,
+  on the one hand, and the text containing those instructions, on the
+  other.  Quite clearly,<a name="F20"><a href="#FN20"><sup><fontsize=-2>20</font></sup></a></a> the President makes this distinction
+  because he recognizes that the First Amendment protects the
+  communication of information, even information about cryptography,
+  but does not so clearly protect, and arguably does not protect at
+  all, the process of running a cryptographic program on a
+  computer.<a name="F21"><a href="#FN21"><sup><fontsize=-2>21</font></sup></a></a>
+
+  The problem that the Administration faces can be easily, if not
+  succintly, stated.<a name="F22"><a href="#FN22"><sup><fontsize=-2>22</font></sup></a></a>  They<a name="F23"><a href="#FN23"><sup><fontsize=-2>23</font></sup></a></a> want to be
+  able to eavesdrop on communications throughout the world and to read
+  any stored information, which is difficult to do if the
+  communications and the information are encrypted.<a name="F24"><a href="#FN24"><sup><fontsize=-2>24</font></sup></a></a>  So they
+  would like to outlaw the use of encryption, which they probably
+  cannot do within the United States because Congress will not go along
+  with it,<a name="F25"><a href="#FN25"><sup><fontsize=-2>25</font></sup></a></a> and which they could not do, even if Congress went
+  along with it, in any effective manner outside of the United States.
+  But the Administration---the Executive Branch---does have the
+  authority to regulate exports, both as a matter of its own inherent
+  authority<a name="F26"><a href="#FN26"><sup><fontsize=-2>26</font></sup></a></a> and under the authority of the Arms
+  Export Control Act<a name="F27"><a href="#FN27"><sup><fontsize=-2>27</font></sup></a></a> (``AECA'') and the Export
+  Administration Act,<a name="F28"><a href="#FN28"><sup><fontsize=-2>28</font></sup></a></a> (``EAA'') even if the
+  latter act has expired and is no longer actually in
+  force.<a name="F29"><a href="#FN29"><sup><fontsize=-2>29</font></sup></a></a>  So the solution would seem at first
+  glance to be to forbid the export of devices that are capable of
+  encrypting communications and information, <em>i.e.</em>, that are, in
+  the words of the ITAR, capable of ``maintaining secrecy or
+  confidentiality of information or information
+  systems''.<a name="F30"><a href="#FN30"><sup><fontsize=-2>30</font></sup></a></a>
+
+  But that solution will not work---and not only because there are many
+  foreign enterprises that are capable of making dedicated
+  cryptographic devices and that would be delighted not to have
+  competition from United States firms---for the fact of the matter is
+  that any general purpose computer---even the old 8088 laptop, which
+  is not nearly powerful enough to run MSWindows and which has a
+  dysfunctional battery to boot, that I keep by the telephone and use
+  as an address book---is capable of being programmed to maintain
+  secrecy and confidentiality.  Every programmable computer is a
+  potential cryptographic device.  And, though the Administration may
+  be willing to forbid the export of a few high-end super-computers, it
+  is not willing to---and probably as a political, if not a legal, matter
+  is not able to---forbid the export of all computers.  That, after
+  all, would almost certainly have disastrous consequences for the
+  economy of the United States.
+
+ <p> So, if it is not possible to forbid the the export of computers that
+  are capable of running cryptographic programs, why not just forbid
+  the export of the programs themselves, <em>i.e.</em>, of information
+  about how to use a computer as a cryptographic device?<a name="F31"><a href="#FN31"><sup><fontsize=-2>31</font></sup></a></a>
+
+ <p> There are, however, a couple of objections to this approach, though
+  the first is easily solvable by an Administration that believes that
+  among its inherent powers is that of Humpty Dumpty to have words mean
+  only what they want them to mean.<a name="F32"><a href="#FN32"><sup><fontsize=-2>32</font></sup></a></a>
+
+ <p> The first objection is that ordinarily it is only tangible
+  goods---tangible devices, like computers---that are exportable.  The
+  solution, of course, is to define ``export'' so that it includes the
+  communication of information, even the communication of information
+  within the United States if the communication is to a foreign
+  person---or to a public that inevitably includes foreign persons---as
+  being an export.<a name="F33"><a href="#FN33"><sup><fontsize=-2>33</font></sup></a></a> 
+  So that takes care of the first problem.<a name="F34"><a href="#FN34"><sup><fontsize=-2>34</font></sup></a></a>
+
+ <p> But the other problem is trickier, because it is not just a matter of
+  definitions.  The difficulty is that the government's requiring one
+  to get a license before communicating information publically---before
+  publishing information---is the classic example of an
+  unconstitutional prior restraint in violation of the First
+  Amendment.<a name="F35"><a href="#FN35"><sup><fontsize=-2>35</font></sup></a></a>
+
+ <p> ``But,'' says our President, ``I am not forbidding the communication
+  of information, I am just forbidding the communication of the
+  functionality.''  
+
+ <p> As if one could communicate anything other than information.
+
+ <p> As if the information that may be ``conveyed'' by software is
+  anything other the way it functions.
+
+ <p> Still I am quite sure that, at least in this instance, the President
+  is being sincere.  Those who are not familiar with the way that
+  computers work---and some of those who have that familiarity---just
+  don't get it.  And I am afraid that that group includes the
+  President.<a name="F36"><a href="#FN36"><sup><fontsize=-2>36</font></sup></a></a>
+
+ <p> But sincere incomprehension of what it is that computers do---even
+  when coupled with a sincere dislike of the whole <em>infra dig</em>
+  idea of ever having even to touch a computer<a name="F37"><a href="#FN37"><sup><fontsize=-2>37</font></sup></a></a>---hardly is sufficient justification, as
+  a legal matter, for denying the protection of the First Amendment to
+  the authors and publishers<a name="F38"><a href="#FN38"><sup><fontsize=-2>38</font></sup></a></a> of computer programs, especially when it is not
+  only cryptographic software that would be deprived of First Amendment
+  protection were the courts to accept this argument from ignorance.
+  If the government can forbid the communication of the text of
+  computer programs that have the capability of ``maintaining secrecy
+  or confidentiality of information or information
+  systems''<a name="F39"><a href="#FN39"><sup><fontsize=-2>39</font></sup></a></a>
+  then it would seem that it could forbid the communication of the
+  <em>text</em> of any computer program whose <em>use</em> it finds
+  objectionable.<a name="F40"><a href="#FN40"><sup><fontsize=-2>40</font></sup></a></a>
+
+ <p> 
+  <h4><a name="s2.2.1">2.2.1 On Not Getting It</a></h4>
+ <p> The question naturally arises, if the distinction betweeen programs
+  as text and programs as process is as clear and as important as I
+  claim, why is it that so many don't get it?
+
+ <p> The short answer, of course, is that they don't get it because they
+  haven't taken my course in Computers and the Law.<a name="F41"><a href="#FN41"><sup><fontsize=-2>41</font></sup></a></a>
+
+ <p> A better answer is that most of those who fail to grasp the
+  distinction between a program as a text and a program as a
+  process<a name="F42"><a href="#FN42"><sup><fontsize=-2>42</font></sup></a></a> have never knowingly<a name="F43"><a href="#FN43"><sup><fontsize=-2>43</font></sup></a></a> read or written
+  a computer program.
+
+ <p> There is an old story about the professor who admitted, with some
+  embarassment, that he did not know how a radio worked.  One of his
+  students, surprised at such ignorance, said:  ``But that's easy.  You
+  just push the on switch and then turn the dial to the station that
+  you want to hear.''
+
+ <p> OK.  So you know how to turn a computer on, and slip in a floppy
+  disk, and use the mouse to click on the icon for whatever word
+  processor it is that you use.<a name="F44"><a href="#FN44"><sup><fontsize=-2>44</font></sup></a></a>
+  But that does not mean that you know anything about computer
+  programs or programming.
+
+ <p> Surely that is enough to explain why the ordinary computer user does
+  not grasp the distinction between programs as texts and programs as
+  processes. 
+
+ <p><h4><a name="s2.2.2">2.2.2 What Do Digital Programmable Computers Do?</a></h4>
+
+ <p> My course in Computers and the Law<a name="F45"><a href="#FN45"><sup><fontsize=-2>45</font></sup></a></a> is not about all forms of computers, for it does not deal
+  with slide rules and abaci and so-called ``neural-nets''.
+  It is only about digital, programmable computers.
+
+ <p> Now to the ordinary user<a name="F46"><a href="#FN46"><sup><fontsize=-2>46</font></sup></a></a> of such a computer,
+  the terms ``digital'' and ``programmable'' may sound familiar, but
+  they are not likely to be very meaningful, since the user seldom
+  comes across data in digital form and has neither the occasion nor
+  the ability to do any programming.  So one of the first things I to
+  do in the course is to introduce the students to those concepts and
+  even try to give them a little hands-on experience, which is not that
+  easy in a course with no lab component.<a name="F47"><a href="#FN47"><sup><fontsize=-2>47</font></sup></a></a>
+
+  Fortunately one can run simple computer programs in one's head and
+  simulate their operations on a blackboard, stepping through the
+  instructions one by one.<a name="F48"><a href="#FN48"><sup><fontsize=-2>48</font></sup></a></a>  One can also explain about digits, using one's
+  fingers or some marks on a blackboard as an example.  And one can
+  explain enough about logic gates---with a little hand-waving and the
+  use of some truth-tables---to let the students understand enough
+  about how computers manipulate digits for the purposes of the
+  course.<a name="F49"><a href="#FN49"><sup><fontsize=-2>49</font></sup></a></a>
+
+ The first case that we deal with in the course,<a name="F50"><a href="#FN50"><sup><fontsize=-2>50</font></sup></a></a> <em>Gottschalk</em> v.
+  <em>Benson</em>,<a name="F51"><a href="#FN51"><sup><fontsize=-2>51</font></sup></a></a> supplies
+  the motivation for studying this material.  It holds that an
+  algorithm,<a name="F52"><a href="#FN52"><sup><fontsize=-2>52</font></sup></a></a> even one that specifies a
+  process<a name="F53"><a href="#FN53"><sup><fontsize=-2>53</font></sup></a></a> that runs on a computer, cannot be patented, and computer
+  programs are basically algorithms written as a set of instructions to
+  a computer.<a name="F54"><a href="#FN54"><sup><fontsize=-2>54</font></sup></a></a>  So <em>Benson</em> appears to hold that
+  computer programs cannot be patented,<a name="F55"><a href="#FN55"><sup><fontsize=-2>55</font></sup></a></a> which is a good reason for trying to
+  figure out what computer programs are and what they do.
+
+ <p> <em>Benson</em> serves as a good introduction for another reason: it is
+  an excellent demonstration of the operations that are actually
+  performed by a computer: the rearrangement of signs---of the binary
+  digits ``1'' and ``0''---that we interpret as symbols.  The algorithm
+  in <em>Benson</em> specified a method for converting binary coded
+  decimal number symbols into the corresponding binary coded number
+  symbols.<a name="F56"><a href="#FN56"><sup><fontsize=-2>56</font></sup></a></a>  In other words, a program implementing the
+  algorithm would contain a set of instructions that, when implemented,
+  would cause a computer that was fed a certain pattern of one's and
+  zero's to spit out another pattern of such binary digits, patterns
+  that we can treat as symbolizing---as representing---numbers, or. if
+  we wish, as representing letters or the key to a secret code.
+
+ <p> All that digital computers do, all that they can do, is receive a
+  pattern of ones and zeros, which we may choose to interpret as being
+  the binary representation of a number, and then, in accordance with
+  the instructions<a name="F57"><a href="#FN57"><sup><fontsize=-2>57</font></sup></a></a> that comprise their program, produce a pattern---a string of
+  one and zeros---, which we may also choose to interpret as a binary
+  representation of a number, or as an English phrase, or as one of the
+  innumerable names of God.
+
+ <p> And <em>nota bene</em> that both the input and the output are simply a
+  text, text that contains a number, or an English phrase, or a
+  computer program, or some of the innumerable names of God.
+
+ <p> Now, as you have probably noticed, I do not seem to be able to do a
+  good job of explaining these matters in this article.  It is much
+  easier to actually demonstrate the points at a blackboard, by
+  stepping through the algorithm and showing how, if one just follows
+  the instructions, one pattern gets converted to another.
+
+ <p> I must confess, however, that I have never been able to actually step
+  through the <em>Benson</em> algorithm and get the right result.  I am
+  not very good at that sort of thing, and anyway we have computers to
+  do jobs like that.<a name="F58"><a href="#FN58"><sup><fontsize=-2>58</font></sup></a></a>
+
+ <p> So I solved that problem by writing a program<a name="F59"><a href="#FN59"><sup><fontsize=-2>59</font></sup></a></a> that implements a much
+  simpler algorithm---in fact, the simplest useful algorithm that I
+  have ever come across---an algorithm for encrypting a plain text
+  message by using a one-time pad.  The program itself is very short,
+  the actual machine code is only 111 bytes<a name="F60"><a href="#FN60"><sup><fontsize=-2>60</font></sup></a></a> in length.
+  The source code in assembly language is much longer, but that is
+  mainly because it contains a lot of comments explaining how it
+  works.  And the instructions for using the program are also given as
+  comments in the source code.  
+
+ <p> I include the program in my course materials<a name="F61"><a href="#FN61"><sup><fontsize=-2>61</font></sup></a></a> so that my students can read it<a name="F62"><a href="#FN62"><sup><fontsize=-2>62</font></sup></a></a> and then in
+  class we step through<a name="F63"><a href="#FN63"><sup><fontsize=-2>63</font></sup></a></a> the instructions---just the three or four critical
+  instructions<a name="F64"><a href="#FN64"><sup><fontsize=-2>64</font></sup></a></a>---and observe how they cause a byte
+  taken from the plain text---from the unencrypted message---to be
+  twiddled<a name="F65"><a href="#FN65"><sup><fontsize=-2>65</font></sup></a></a> together
+  with a byte taken from the one-time pad and the result to then be put
+  in the file that contains the encrypted text.
+
+ <p> Besides the source code in assembly language, the materials also
+  include a hexidecimal<a name="F66"><a href="#FN66"><sup><fontsize=-2>66</font></sup></a></a> representation of the
+  program's machine code, the product of running the source code
+  through an assembler program.<a name="F67"><a href="#FN67"><sup><fontsize=-2>67</font></sup></a></a>  I do not expect the students to read this text---few people
+  can actually read 8086 machine code---but I do require them to input
+  it, hexidecimal digit by hexidecimal digit, using the primitive
+  hexidecimal editor included in the MSDOS utility known as DEBUG, and
+  to save it as a file known as TWI.COM.
+
+  TWI.COM is thus an actual working version of my little encryption
+  program.  The students can get further hands-on experience by running
+  it.  Initially I supply them with a plain text<a name="F68"><a href="#FN68"><sup><fontsize=-2>68</font></sup></a></a>  and a key,
+  <em>i.e.</em>, a one-time pad.<a name="F69"><a href="#FN69"><sup><fontsize=-2>69</font></sup></a></a> Using TWI.COM and the key
+  to decrypt the secret message contained in the text produces another
+  copy of the TWI.COM program.
+
+ <p> A little more experimenting with the program should be enough to
+  convince one of the contra-intuitive fact that, if one has a text
+  that is n bytes long, with the approriate key one can demonstrate
+  that that text contains any other text of the same length.  Thus, for
+  example, one can show that the first few lines of <em>Hamlet</em>
+  contain the secret message: ``This here play was written by me, the
+  Earl of Oxford'', and that the electronic edition of <em>Alice in
+  Wonderland</em> is actually an encrypted version of the help-file
+  included in MicroSoft Windows 95.<a name="F70"><a href="#FN70"><sup><fontsize=-2>70</font></sup></a></a>
+
+ <p> And by these means I hope that the students in my course in Computers
+  and the Law do obtain a working knowledge of what programs are, and
+  understanding of the nature of programs both as text and as working
+  processes.
+
+ <p> 
+  <h4><a name="s2.2.3">2.2.3 Reading and Writing Computer Programs</a></h4>
+ <p> The Jargon File contains the following three definitions:
+ <blockquote>
+  program: n. 1. A magic spell cast over a computer allowing it to turn
+  one's input into error messages. 2. An exercise in experimental
+  epistemology. 3. A form of art, ostensibly intended for the
+  instruction of computers, which is nevertheless almost inevitably a
+  failure if other programmers can't understand
+  it.<a name="F71"><a href="#FN71"><sup><fontsize=-2>71</font></sup></a></a>
+ </blockquote>
+
+ <p> The first of these definitions defines ``program'' from the point of
+  view of a user; the third defines the term from the point of view of
+  a programmer.<a name="F72"><a href="#FN72"><sup><fontsize=-2>72</font></sup></a></a>  From a programmer's
+  point of view, a program is a text that the programmer writes that,
+  though it contains instructions that are intended ultimately to be
+  run on a computer,  must be comprehensible at least to its author and
+  normally also to other programmers.  
+
+ <p> If the programmer does not understand how the program works, then one
+  can be pretty sure that it won't work at all, and even if it does
+  work, the programmer will never be able to modify it or improve
+  it. If one is going to write a program successfully, one has to be
+  able to step through the program in one's own head.  If one cannot do
+  that, one can hardly expect to know what the program will do or how
+  it can be debugged.  Most programs of any significance, moreover, are
+  written by a team of programmers or, if they are written by a single
+  author, are part of a larger project.  So it is not only the original
+  author who has to be able to read and understand the program, it is
+  all the other programmers on the team.
+
+  Those whose job it is to maintain the program and get it to work with
+  other programs also have a need to read it and understand it.  Even
+  if the original author never reads the program, all the support
+  personnel who maintain it are going to have to read
+  it.<a name="F73"><a href="#FN73"><sup><fontsize=-2>73</font></sup></a></a>  It is only the poor user who cannot read it and usually
+  does not have access to it.  And that is why users are so often
+  losers.<a name="F74"><a href="#FN74"><sup><fontsize=-2>74</font></sup></a></a>
+
+ <p> Writing programs hardly differs from writing other functional texts.
+  It is very much like legal drafting<a name="F75"><a href="#FN75"><sup><fontsize=-2>75</font></sup></a></a>, or writing technical manuals
+  or instructions on how to assemble a lawn mower, or preparing tables
+  of useful information like the values of the sine of x for varying
+  values of x or the opening and closing prices of all issues of
+  stock sold on the New York Stock Exchange for each day of the last
+  three years, or compiling the white pages of a Telephone Directory or
+  a book of recipes entitled ``How to Cook a Seagull''.  But surely no
+  one<a name="F76"><a href="#FN76"><sup><fontsize=-2>76</font></sup></a></a>
+  would argue that a book containing mathematical tables or a sheet of
+  paper containing the instructions for assembling a lawn mower or a
+  cookbook is not a text entitled to the protection of the First
+  Amendment, just because it is functional.
+
+ <p> Consider that book of mathematical tables.  In the good old days
+  BC<a name="F77"><a href="#FN77"><sup><fontsize=-2>77</font></sup></a></a> one would use it to find the value of
+  \sin x for whatever value of x you were interested in.  Today you
+  would probably use a computer program to calculate that
+  value.<a name="F78"><a href="#FN78"><sup><fontsize=-2>78</font></sup></a></a> Thus the computer program and the book of mathematical tables
+  have exactly the same functionality.<a name="F79"><a href="#FN79"><sup><fontsize=-2>79</font></sup></a></a> The book and
+  the computer program are both texts, while looking something up in
+  the book or running the computer program is a process.
+
+ <p> As you may recall, President Clinton in his <em>Memorandum to the
+  Vice President</em> stressed that the new Commerce Department regulations
+  licensing the ``export'' of cryptography applied to source code
+  ``[b]ecause source code can easily and mechanically be transformed
+  into object code, and because export of such source code is
+  controlled because of the code's functional capacity, rather than
+  because of any ``information'' such code might
+  convey[.]''<a name="F80"><a href="#FN80"><sup><fontsize=-2>80</font></sup></a></a>
+
+ <p> This passage succinctly, if rather cryptically, restates an argument
+  that has repeatedly been made by the government's lawyers in
+  cases---including the one I brought<a name="F81"><a href="#FN81"><sup><fontsize=-2>81</font></sup></a></a>---challenging the constitutionality of those
+  provisions of the ITAR that treat the publication, or other
+  disclosure to foreign persons, of cryptographic software as an
+  ``export'' that is subject to the licensing requirements of the ITAR
+  and of the Arms Export Control Act.<a name="F82"><a href="#FN82"><sup><fontsize=-2>82</font></sup></a></a>
+
+ <p>  The problem that the government has in those cases, or at least in
+   <em>Karn</em><a name="F83"><a href="#FN83"><sup><fontsize=-2>83</font></sup></a></a> and
+   <em>Bernstein</em>,<a name="F84"><a href="#FN84"><sup><fontsize=-2>84</font></sup></a></a> that inspired this argument is
+   that the cryptographic programs at issue in those cases were
+   written---and would, if the plaintiffs prevail in those suits, be
+   published---not as working programs that would actually run on a
+   computer, but as ``source code'' written in a fairly high level
+   computer language known as ``C''.<a name="F85"><a href="#FN85"><sup><fontsize=-2>85</font></sup></a></a> Such source code is written
+  by human beings<a name="F86"><a href="#FN86"><sup><fontsize=-2>86</font></sup></a></a>
+  in the C ``language'' and is intended to be read by other human
+  beings<a name="F87"><a href="#FN87"><sup><fontsize=-2>87</font></sup></a></a> as
+  well as to be compiled into so-called ``object code'' or ``machine
+  code'', instructions represented as binary numbers that can actually
+  be executed by the computer (and that are more difficult for a human
+  being to understand, and much more difficult for for a human being to
+  modify, than the corresponding instructions in the source code.)
+  Thus, before the government could argue---or at least assert---that
+  it was imposing its licensing requirements on the program's
+  functionality rather than on its text---or on the information
+  contained in its text---, it had to argue---or at least assert---that
+  source code, which clearly does and is intended to convey information
+  to other human beings, has ``functional capability''.
+
+ <p> And, of course, source code does have functional capability, but so
+  does a book of legal forms or a cookbook.  You copy out a form on a
+  xerox machine, fill in the blanks with your ball point pen, and then
+  sign it in front of witnesses and---voila!---there you have a new
+  will.  You compile the source code of Paul Leyland's program in two
+  lines of C,<a name="F88"><a href="#FN88"><sup><fontsize=-2>88</font></sup></a></a> which might
+  not be quite as easy a job as President Clinton claims, feed it a
+  chunk of plain text and a one-time pad, and---voila!---out pops an
+  encrypted message.  You clean the seagull, place it in a large pot with
+  two pounds of parsnips, a large onion, and a pint chicken broth, add
+  a number two can of kidney beans and a bay leaf, place a cover on the
+  pot, and leave it to simmer for four hours, just as the recipe says,
+  and, after two hours---oops!---the whole mess explodes and you have a
+  good cause of action against the cookbook's author who never told you
+  that you should open that can of beans.
+
+  The fact that the source code can be compiled into object code does
+  not make that source code less of a text.  I am, after all, writing
+  this text in the form of LaTeX source code and it is only after I
+  ``easily and mechanically'' transform that source code by running it
+  through the LaTeX program to create a .dvi file---which is not what
+  I would call humanly readable---, and easily and mechanically
+  transform that .dvi file by running it through the DVIPS program to
+  create a PostScript file---which is nearly as hard to read as the
+  .dvi file---, and then send that file to a PostScript printer that
+  ``easily and mechanically'' prints out the hard-copy version of this
+  article, all nicely typeset, that there is a text in the form that
+  you are reading it.  Yet all those various forms---the LaTeX file,
+  the .dvi file, the PostScript file, and the hard-copy
+  version---are texts, and are really all the same text, since they all
+  contain the same information, <em>viz.</em>, this article.<a name="F89"><a href="#FN89"><sup><fontsize=-2>89</font></sup></a></a>
+
+ <p> And the fact that the object code---the machine code---is not easily
+  humanly readable does not keep it from being a text.  In fact, in
+  <em>Apple Computer, Inc.</em> v. <em>Franklin Computer
+  Corp.</em><a name="F90"><a href="#FN90"><sup><fontsize=-2>90</font></sup></a></a> the court held that
+  object code is not only a text, but a ``literary work'' and
+  copyrightable as such.<a name="F91"><a href="#FN91"><sup><fontsize=-2>91</font></sup></a></a>  And the fact that machine code
+  is difficult to read does not mean that it is never read; quite the
+  contrary.  If one wants to find out how a program works, and one does
+  not have access to the source, then all one can do is decompile or
+  disassemble the machine code, which one can do mechanically, if not
+  easily, and get back something that more or less resembles the
+  original source code without any comments or helpful mnemonic
+  labels.  And then one can read that decompiled or disassembled
+  machine code and find out how the program works.
+
+ <p> This ability to decompile or disassemble the machine code has
+  generated some interesting legal issues, for software publishers that
+  only supply machine code versions of their programs often claim both
+  that the machine code is protected by copyright and that it is
+  protected as a trade secret.  But if one can decompile the machine
+  code and figure out how it works, it is not much of a secret is
+  it?<a name="F92"><a href="#FN92"><sup><fontsize=-2>92</font></sup></a></a>
+
+ <p> Now frankly I would not be too upset if the courts were to grant less
+  constitutional protection to machine code than to source code.  That
+  would mean that almost all the programs that I use would still be
+  constitutionally protected since they are supplied in source code
+  form.<a name="F93"><a href="#FN93"><sup><fontsize=-2>93</font></sup></a></a> And it would mean that that the commercial programs that are
+  supplied by outfits like Micorsoft without source code would not be
+  protected.
+
+ <p> There would be a certain justice in that result.  But I do not see
+  how it could be constitutionally justified.  Microsoft's programs
+  are, when they are being sold to some unfortunate user, texts, and
+  just because those texts may be badly written and quite unreadable
+  and contain little functional capability does not mean that they
+  should not be protected as texts.  I mean, if we insisted that texts
+  be readable, then few law review articles would be entitled to
+  constitutional protection.
+
+ <p>
+
+ <h2><a name="s3">3 Copyright</a></h2>
+
+ <p> The distinction between text and process, which is, or so I contend,
+  critical to an understanding of computers and the law, is made most
+  clearly in the law of copyright. Thus the Copyright Act provides:
+ <blockquote>
+  Copyright protection subsists, in accordance with this title, in
+ original works of authorship fixed in any tangible medium of
+ expression, now known or later developed, from which they can be
+ perceived, reproduced, or otherwise communicated, either directly or
+ with the aid of a machine or device.<a name="F94"><a href="#FN94"><sup><fontsize=-2>94</font></sup></a></a>
+ </blockquote>
+  Although the term is not used, it would be hard to find a better
+  definition of ``text'' than ``a work of authorship''.  The Copyright
+  Act also provides:
+ <blockquote>
+    In no case does copyright protection for an original work of
+  authorship extend to any idea, procedure, process, system, method of
+  operation, concept, principle, or discovery, regardless of the form
+  in which it is described, explained, illustrated, or embodied in such
+  work.<a name="F95"><a href="#FN95"><sup><fontsize=-2>95</font></sup></a></a>
+ </blockquote>
+  And there we have the specific statement that copyright protection
+  does not extend to a ``process.''
+
+ <p> But there we also come across a problem with my claim that the major
+  distinction is between texts, or works of authorship, on the one
+  hand, and processes, or procedures and methods of operation, on the
+  other, for the Copyright Act lumps processes and similar concepts
+  together with ideas, concepts, principles, and discoveries, which,
+  though they are clearly not texts, are as clearly not what most of us
+  mean by the term ``processes''.  
+
+ <p> In the law of copyright the traditional distinction has not been
+  between texts and processes, it has been between ideas and the
+  expression of ideas.  Thus, for example, in <em>Mazer</em> v.
+  <em>Stein</em><a name="F96"><a href="#FN96"><sup><fontsize=-2>96</font></sup></a></a> the Supreme Court said:
+  ``Unlike a patent, a copyright gives no exclusive right to the art
+  disclosed; protection is given only to the expression of the
+  idea---not the idea itself.''<a name="F97"><a href="#FN97"><sup><fontsize=-2>97</font></sup></a></a>
+
+ <p> There is, however, a couple of good reasons for my not treating the
+  idea/expression dichotomy as fundamental.  In the first place, that
+  distinction applies only to copyrights, and not to First Amendment or
+  to Patent rights.  In the second place, if one takes the distinction
+  seriously, one is likely to get bogged down in serious metaphysical
+  problems:<a name="F98"><a href="#FN98"><sup><fontsize=-2>98</font></sup></a></a> I mean, how on earth can one have an idea without
+  expressing it?  How can one tell the idea from its expression?
+
+ <p> If we were only discussing copyright law we could say that the
+  fundamental distinction is between texts and whatever it is---idea,
+  system, or process---that the text might be said to contain.  It is
+  only when one tries to find a distinction that applies to copyright,
+  to patent, and to First Amendment law, that the text/process
+  dichotomy seems to be the fundamental distinction.  I am not, after
+  all, claiming that this distinction actually exists in some sort of
+  Platonic reality, I am only suggesting that it is a useful tool when
+  one tries to understand the subject matter of my course in Computers
+  and the Law.
+
+ <p> In that context, the major issue in copyright law has to do with
+  distinguishing between protecting a computer program as a
+  text<a name="F99"><a href="#FN99"><sup><fontsize=-2>99</font></sup></a></a> and not
+  protecting it as a process.<a name="F100"><a href="#FN100"><sup><fontsize=-2>100</font></sup></a></a>
+  The Supreme Court has never considered this issue and the circuits
+  have not treated it consistently.
+
+ <p> In <em>Apple Computer, Inc.</em> v. <em>Franklin Computer
+  Corp.</em><a name="F101"><a href="#FN101"><sup><fontsize=-2>101</font></sup></a></a> the Third
+  Circuit held that Franklin's copying of the Apple II <em>operating
+  system</em><a name="F102"><a href="#FN102"><sup><fontsize=-2>102</font></sup></a></a> was
+  an infringement of Apple's copyright, despite the clear language of
+  the statute that the protecion of copyright does not extend to
+  systems and methods of operation.  On the other hand, in <em>Lotus
+  Development Corporation</em> v. <em>Borland International,
+  Inc.</em><a name="F103"><a href="#FN103"><sup><fontsize=-2>103</font></sup></a></a> the First Circuit held
+  that Borland's copying of the ``computer menu command hierarchy'' in
+  Lotus 1-2-3 was not an infringement of Lotus's copyright, because the
+  Lotus menu command hierarchy is a system, method of operation,
+  process, or procedure.
+
+ <p> There is obviously an exam question or two lurking there.
+
+ <p>
+
+ <h2><a name="s4">4 Patents</a></h2>
+
+
+
+ <p> Patent protection, unlike copyright protection, expressly covers
+  processes.  Thus the Patent Act provides:
+ <blockquote>
+  Whoever invents or discovers any new and useful process, machine,
+  manufacture, or composition of matter, or any new and useful
+  improvement thereof, may obtain a patent therefor, subject to the
+  conditions and requirements of this title.<a name="F104"><a href="#FN104"><sup><fontsize=-2>104</font></sup></a></a>
+ </blockquote>
+
+ <p> On the other hand, the Supreme Court has read several exceptions into
+  this list of patentable subject matters.  The matters that cannot be
+  patented include ``ideas'' and ``phenomena of nature''.  And in
+  <em>Gottschalk</em> v. <em>Benson</em><a name="F105"><a href="#FN105"><sup><fontsize=-2>105</font></sup></a></a> the Court held that an algorithm for use in a
+  computer program could not be patented, perhaps because an algorithm
+  is an idea or a natural law, like magnetism,<a name="F106"><a href="#FN106"><sup><fontsize=-2>106</font></sup></a></a> but more
+  probably because an algorithm, although a process, is a mental
+  process---one that one can, at least in theory and perhaps very
+  slowly, run in one's head.<a name="F107"><a href="#FN107"><sup><fontsize=-2>107</font></sup></a></a>
+
+  On the other hand, in <em>Diamond</em> v.
+  <em>Diehr</em><a name="F108"><a href="#FN108"><sup><fontsize=-2>108</font></sup></a></a> the Court held that a
+  patent was not invalid just because it claimed a mathematical formula
+  and called for the use of a computer as part of an invention that
+  otherwise fell within the scope of patentable subject
+  matter.<a name="F109"><a href="#FN109"><sup><fontsize=-2>109</font></sup></a></a>  And the Federal Circuit of late has
+  taken to acting as if it had overruled
+  <em>Benson</em>.<a name="F110"><a href="#FN110"><sup><fontsize=-2>110</font></sup></a></a>
+
+ <p> One question that we took up in the course is whether the patent that
+  was issued on the RSA public-key encryption algorithm is
+  valid.<a name="F111"><a href="#FN111"><sup><fontsize=-2>111</font></sup></a></a>
+  A more interesting question though is whether one can get both a
+  patent on a computer program claimed as a process and a copyright on
+  the same program claimed as a text.
+
+ <p>
+
+ <h2><a name="s5">5 The ITAR and I</a></h2>
+
+ <p> A major concern of mine, that kept intruding into the course, even
+  when perhaps it was inappropriate, is the problem that the ITAR
+  causes me.
+
+ <p> Since it expressly forbids the disclosure of cryptographic software,
+  including algorithms, to foreign persons within the United States or
+  abroad and defines cryptographic software as including software
+  with the capability of maintaining secrecy or confidentiality, unless
+  one first obtains a license---a so-called Commodity Jurisdiction
+  Determination---from the Department of State, I have been unable to
+  publish my course materials and make them available on my world wide
+  web server, because they include the text of my little encryption
+  program and of Paul Leyland's similar program in two lines of C and
+  of the RSA source code and of the reverse-engineered RC2 and RC4
+  programs, and information about where one can get the Pretty Good
+  Privacy encryption program---a practicable public key encryption
+  program.
+
+ <p> Not being able to supply the world with the text of the Pretty Good
+  Privacy Program, because it has the capability when run of protecting
+  one's privacy, raises a particularly tricky legal issue, since I am
+  convinced that any lawyer who uses e-mail or the world wide web to
+  communicate with his clients has the ethical---and perhaps in some
+  cases the legal---duty to make it possible for them to effectively
+  encrypt their communications.
+
+ <p> How can one have a duty to use the process of encryption---to use
+  cryptographic software---when communicating with one's clients and at
+  the same time have a duty not to disclose the text of that software to
+  one's clients?
+
+ <p> I think that that is more than just a potential exam question.
+
+ <p>
+ <hr>
+ <p>
+
+<h1>Footnotes</h1><p>
+
+
+<hr><p><b><a name ="FN1"></a><a href="#F1">1</a></b>  This may not
+ be a good example, for any course that must deal with both the
+ <em>Sick Chicken</em> Case (A.L.A. Schechter Poultry Corp. v. United
+ States, 295 U.S. 495 (1935) (<em>holding</em> that the ``Live Poultry
+ Code'' adopted under the authority of the National Recovery Act
+ amounted to an unconstitutional delegation of legislative power by
+ Congress)) and the <em>Causby</em> Case (United States v. Causby, 328
+ U.S. 256 (1946)) (<em>holding</em> that it was a taking of property for
+ which compensation was required under the Fifth Amendment when the
+ government flew its bombers so low over the Causby's dwelling and
+ chicken farm that as many as six to ten of their chickens died in one
+ day of fright)) should probably be placed in the category of courses
+ that are about many different things.  It seems that ``the Chicken''
+ is just a placeholder for all the innumerable legal problems that may
+ arise involving chickens.
+
+<hr><p><b><a name ="FN2"></a><a href="#F2">2</a></b>  <em>Nota bene</em> that this is
+ <em>not</em> a sexist usage; I am the instructor and I am masculine.
+
+<p> One of the most useful lessons to be learned from studying computers
+ is the necessity of precision, for computers always do what you tell
+ them to do (or, if your instructions are ambiguous, crash), even if
+ what you said is not what you meant.  In my experience, the skills of
+ a legal draftsman and those of a computer programmer are identical;
+ studying one leads to mastery of the other.
+
+<hr><p><b><a name ="FN3"></a><a href="#F3">3</a></b>  Sentient beings,
+ intentional beings, human beings, or whatever.
+
+<hr><p><b><a name ="FN4"></a><a href="#F4">4</a></b>  The words ``computer'' and ``computing''
+ have an unfortunate connotation when applied to machines, since
+ computation is an act that can be performed only by intelligences,
+ and---for all practical purposes in so far as we know---only by human
+ intelligences.  In fact a ``computer'' was originally, as the Second
+ Edition of the Oxford English Dictionary puts it: ``One who computes;
+ a calculator, reckoner; spec. a person employed to make calculations
+ in an observatory, in surveying, etc.''.  (I happen to know this from
+ personal experience, not from just reading the dictionary, since the
+ teacher under whom I studied plain geometry in high school spent his
+ summers working as a computer for an oil company, and I myself, one
+ summer when I was working as a gravity observer on an oil exploration
+ crew up in the North West Territories, was drafted into spending a
+ few evenings working as the computer's assistant.)  It is rather as
+ if we were to call a typewriter simply a ``writer'' and then assume
+ that it---rather than a human author---actually does the writing.
+
+<p> To make matters worse, the type of machine that we call a
+ ``computer'' is used for much more than merely computing, it is also
+ used for word processing and data processing and language
+ translation and any other process that involves the manipulation of
+ symbols---or, rather, of signs.  
+
+<p> The French, I think, made a better choice when they elected to call
+ computers <em>ordinateurs</em>.
+
+<hr><p><b><a name ="FN5"></a><a href="#F5">5</a></b>  And as my computer writes this I realize that I should
+ change the course name to ``Computing and the Law'', a change that I
+ hope can be implemented before it is offered again next Fall.
+
+<hr><p><b><a name ="FN6"></a><a href="#F6">6</a></b>  Though it hardly helps that at the level of ultimate
+ reality there is no difference between the dancer and the dance, or,
+ rather, that there is no dancer and no dance, but only the dancing
+ itself, just as it is.
+
+<p> Or at least that is what the Buddha---so I have heard---teaches.
+
+<p> In the course in Computers and the Law I am not trying to proclaim
+ the <em>Buddha Dharma</em>, but rather only to teach the plain old
+ everyday sort of law---<em>i.e.</em>, <em>dharma</em>---that is the usual
+ subject of law courses in law schools in the United States. (I am not
+ even trying to teach about computers except to the extent that that
+ is necesary to understand the legal problems that arise from the
+ computing process; I am neither a computer scientist nor a Buddhist
+ priest).
+ 
+ I do not believe that in the United States the solution, or even the
+ posing, of legal problems should---or constitutionally can---turn on
+ the teachings about the nature of reality that are proclaimed by any
+ particular religion.  
+
+<p> And that is perhaps the greatest difficulty with teaching about
+ computers and the law.  How can one distinguish between the dancer
+ and the dance, or the words and the song, without sinking into the
+ slough of religion and metaphysics?
+
+<hr><p><b><a name ="FN7"></a><a href="#F7">7</a></b>  It
+ should be noted, however, that the Office of Defense Trade Controls
+ in the United States Department of State confused---or tried to
+ confuse---computers with their functioning when it adopted that
+ portion of the International Traffic in Arms Regulations that treats
+ software---which it insists is ``functionality''---as something like
+ a computer that can actually be exported. <em>See</em> <em>infra</em>
+ Section <a href="#s5">5</a>.
+
+<hr><p><b><a name ="FN8"></a><a href="#F8">8</a></b>  The
+ first definition of ``software'' given by the OED 2d is: ``The
+ programs and procedures required to enable a computer to perform a
+ specific task, as opposed to the physical components of the system''.
+ 
+ This sounds harmless enough, but the OED also quotes the following
+ example of the term's use, a passage that suggests, correctly, that
+ its use is often infelicitous: ``<b>1965</b> Hollingdale & Tootill
+ <em>Electronic Computers</em> 192 The cost of developing and making the
+ computer itself (the hardware) is matched by the cost of making
+ programming schemes for it (often, regrettably, termed software).''
+
+<p> The term ``software'' is misleading to the extent that it suggests
+ that software is---computer programs are---the same sort of ``ware''
+ as the hardware, <em>i.e.</em>, the computer, upon which it runs.  To
+ dispel this confusion it is perhaps enough to note that the term
+ ``wetware'' is often used by cognitive scientists to refer to the
+ (usually human) brain: it is unlikely that anyone could actually
+ believe that computers and brains and computer programs are all the
+ same sort of ``thing'', although many a cognitive scientist at least
+ tries to believe that the wetware, the brain, is just a sort of
+ complicated computer on which the programs that we call the mind are
+ running.
+
+<p> But this distinction between hardware and software just involves the
+ distinction between physical objects, on the one hand, and processes,
+ on the other.  If you want to give a cognitive scientist a hard time,
+ just ask him where the programs of the brain are stored when they are
+ not running---and then ask him what the programs are stored
+ <em>as</em>.
+
+<p> That is a good question: What are our thoughts stored as when we are
+ not thinking them?  As a text?
+
+<p> The OED 2d defines ``ware'' as: ``A collective term for: Articles of
+ merchandise or manufacture; the things which a merchant, tradesman,
+ or pedlar, has to sell; goods, commodities. '' And in this context
+ the distinction, or lack thereof, between hardware and software takes
+ on considerable legal significance: are computer programs goods that
+ are covered by the Sales Article of the UCC and subject to sales tax?
+ <em>See</em> ???.  Or are they processes or services?
+
+<hr><p><b><a name ="FN9"></a><a href="#F9">9</a></b>  Which, for just one example, can be
+ copyrighted. <em>See</em> <em>infra</em> text accompanying Note
+ <a href="#FN94">94</a>.
+
+<hr><p><b><a name ="FN10"></a><a href="#F10">10</a></b>  Which cannot be
+ protected by copyright.  <em>See</em> <em>infra</em> text accompanying
+ Note <a href="#FN95">95</a>.
+
+<hr><p><b><a name ="FN11"></a><a href="#F11">11</a></b>  Thus attempts to regulate the distribution of
+ software texts on the grounds that they are functional processes are
+ the equivalent of an attemp to regulate the distribution of legal
+ form books because the forms are functional and may be used to
+ consumate a sale---or institute a lawsuit against the government.
+ For an actual example of a failed effort to regulate the publication
+ of a legal form book, see <em>In re</em> New York County Lawyers'
+ Association v. Dacey, 21 N.Y.2d 694 (1967) (<em>holding</em> that it
+ was not the unauthorized practice of law for a non-lawyer to publish
+ a book containly chiefly legal forms and entitled ``How to Avoid
+ Probate'').
+
+<hr><p><b><a name ="FN12"></a><a href="#F12">12</a></b>  <em>See</em>
+ <em>infra</em> Section <a href="#s3">3</a>.
+
+<hr><p><b><a name ="FN13"></a><a href="#F13">13</a></b>  <em>See</em> <em>infra</em>
+ Section <a href="#s4">4</a>.
+
+<hr><p><b><a name ="FN14"></a><a href="#F14">14</a></b>  <em>See</em> <em>infra</em> text accompanying Notes
+ <a href="#FN94">94</a> & <a href="#FN95">95</a>.
+
+<hr><p><b><a name ="FN15"></a><a href="#F15">15</a></b>  Except to the extent that the
+ process itself, or the hardware, might be a part of ``the
+ press''---the process of producing and publishing texts---that is
+ specifically protected by the First Amendment.
+
+<hr><p><b><a name ="FN16"></a><a href="#F16">16</a></b>  The ITAR lists
+ ``Cryptographic (including key management) systems, equipment,
+ assemblies, modules, integrated circuits, components or software with
+ the capability of maintaining secrecy or confidentiality of
+ information or information systems'' as an item on the United States
+ Munition List [22 CFR &#167; 121.1 Category XIII(b)(1)] that cannot be
+ ``exported'' without a license and it also defines ``software'':
+<blockquote>
+ Software includes but is not limited to the system functional design,
+ logic flow, algorithms, application programs, operating systems and
+ support software for design, implementation, test, operation,
+ diagnosis and repair.
+</blockquote>
+ [22 CFR &#167; 121.8(f)].
+
+
+<hr><p><b><a name ="FN17"></a><a href="#F17">17</a></b>  <em>See</em> <em>infra</em> Section
+ <a href="#s5">5</a>.
+
+<hr><p><b><a name ="FN18"></a><a href="#F18">18</a></b>  Executive Order No.
+ ??? , November 15, 1996.
+
+<p> Here is the definition of ``technology'' set out in section 16 of the
+ Export Administration Act (``EAA''), as well as the definition of
+ ``good'':
+<blockquote>
+ As used in this Act ---
+<blockquote>
+ (3) the term ``good'' means any article, natural or manmade substance,
+ material, supply or manufactured product, including inspection and
+ test equipment, and excluding technical data;
+
+<p> (4) the term ``technology'' means the information and know-how (whether
+ in tangible form, such as models, prototypes, drawings, sketches,
+ diagrams, blueprints, or manuals, or in intangible form, such as
+ training or technical services) that can be used to design, produce,
+ manufacture, utilize, or reconstruct goods, including computer
+ software and technical data, but not the goods themselves . . . .
+</blockquote>
+</blockquote>
+ 50 U.S.C. App. 2415
+
+<p> ``Technology'' is also defined in Part 772 of the Export
+ Administration Regulations (``EAR'') as `` Specific information
+ necessary for the `development', `production', or `use' of a
+ product.''
+
+<p> EAR Part 772 also defines ``software'' as ``A collection of one or
+ more `programs' or `microprograms' fixed in any tangible medium of
+ expression''.  Part 722 also defines ``Program'' as ``A sequence of
+ instructions to carry out a process in, or convertible into, a form
+ executable by an electronic computer'' and ``microprogam'' as ``A
+ sequence of elementary instructions, maintained in a special storage,
+ the execution of which is initiated by the introduction of its
+ reference instruction into an instruction register''.
+
+<p> The requirement in the EAR's definition that a ``program'' must be
+ ``fixed in any tangible medium of expression'' is identical with the
+ beginning of requirement of the Copyright Act that for a work to be
+ entitled to copyright protection it must be ``<em>fixed in any tangible
+ medium of expression</em>, now known or later developed, from which they
+ can be perceived, reproduced, or otherwise communicated, either
+ directly or with the aid of a machine or device''. [17
+ U.S.C. &#167; 102(a) (emphasis added)]
+
+<hr><p><b><a name ="FN19"></a><a href="#F19">19</a></b>  Memorandum From President Clinton to
+ the Vice President, dated November 15, 1966, Paragraph 4.
+
+<hr><p><b><a name ="FN20"></a><a href="#F20">20</a></b>  Quite clearly since the same
+ distinction has repeatedly been made by the government in response to
+ the legal challenges brought by Karn, Bernstein, and myself to the
+ constitutionality under the First Amendment of the licensing
+ restrictions on the ``export'' of cryptographic software contained in
+ the ITAR.  <em>See</em> infra text accompaning Notes <a href="#FN83">83</a>,
+ <a href="#FN84">84</a>, and <a href="#FN81">81</a>.
+
+<hr><p><b><a name ="FN21"></a><a href="#F21">21</a></b>  For a discussion of the
+ constitutionality of a law prohibiting the use of cryptography,
+ particularly ``unescrowed strong cryptography'', see Froomkin,
+ <em>The Metaphor Is the Key: Cryptography, the Clipper Chip, and
+ the Constitution</em>, 143 U. Pa. L. Rev. 709 809-882
+ (1995).  It should be noted that a ban on the use of cryptographic
+ software would raise many constitutional issues that would not
+ necessarily be implicated by a ban on the use of other sorts of
+ software.
+
+<hr><p><b><a name ="FN22"></a><a href="#F22">22</a></b>  But not easily solved, at least not in a
+ way that is satisfactory to the Administration.
+
+<hr><p><b><a name ="FN23"></a><a href="#F23">23</a></b>  There
+ is quite clearly a division within the Administration as to what the
+ most important goals should be when it comes to regulating
+ cryptography.  Part of the problem for the Administration is that
+ they cannot agree; some of them---although I admit that this appears
+ unlikely---may even assign a high value to the freedom of speech and
+ of the press that is protected by the First Amendment.
+
+<hr><p><b><a name ="FN24"></a><a href="#F24">24</a></b>  [Stick in
+ definition of encryption, from Schneier or Froomkin ???]
+
+<hr><p><b><a name ="FN25"></a><a href="#F25">25</a></b>  And because the courts might well find such a law
+ unconstitutional.  <em>See</em> Froomkin <em>supra</em>
+ Note <a href="#FN21">21</a>.
+
+<hr><p><b><a name ="FN26"></a><a href="#F26">26</a></b>  <em>See</em> United States v. Curtiss-Wright Export
+ Corp., 299 U.S. 304 (1936).
+
+<hr><p><b><a name ="FN27"></a><a href="#F27">27</a></b>  [get cite ???]
+
+<hr><p><b><a name ="FN28"></a><a href="#F28">28</a></b>  [get cite ???]
+
+<hr><p><b><a name ="FN29"></a><a href="#F29">29</a></b>  [get cite ???]
+
+<hr><p><b><a name ="FN30"></a><a href="#F30">30</a></b>  <em>See</em> <em>supra</em> Note <a href="#FN16">16</a>.
+
+<hr><p><b><a name ="FN31"></a><a href="#F31">31</a></b>  There
+ is no need to discuss here the issues that arise when the export of a
+ tangible device is forbidden and the disclosure of information about
+ how to use that device is also forbidden.  For such a case,
+ <em>see</em> United States v. Edler Indus., 579 F.2d 516 (1975).  It
+ should be noted, however, that the cases, like <em>Karn</em>,
+ <em>infra</em> Note <a href="#FN83">83</a>, <em>Berstein</em>, <em>infra</em>
+ Note <a href="#FN84">84</a>, and <em>Junger</em>, <em>infra</em> Note <a href="#FN81">81</a>,
+ in which the government argues that under the ITAR information about
+ cryptographic software can be subject to licensing because
+ cryptographic software itself is subject to licensing, do not fit
+ into this category of cases, because crytographic software itself is
+ <em>not</em> a tangible device, no matter how much the government tries
+ to confuse the issue.
+
+<hr><p><b><a name ="FN32"></a><a href="#F32">32</a></b>  
+<blockquote> 
+ ``When <em>I</em> use a word,'' Humpty Dumpty said in a rather a
+ scornful tone, ``it means just what I choose it to mean---neither more
+ nor less.''
+
+<p>``The question is,'' said Alice, ``whether you <em>can</em> make words mean
+ different things.''
+
+<p> ``The question is,'' said Humpty Dumpty, ``which is to be
+ master---that's all.''
+</blockquote>
+ [get cite ???]
+
+<hr><p><b><a name ="FN33"></a><a href="#F33">33</a></b>  Thus the ITAR defines ``export'' as:
+<blockquote>
+    Export means:
+   (1) Sending or taking a defense article out of the United States in any
+manner, except by mere travel outside of the United States by a person whose
+personal knowledge includes technical data; or
+
+<p>   (2) Transferring registration, control or ownership to a foreign person of
+any aircraft, vessel, or satellite covered by the U.S. Munitions List, whether
+in the United States or abroad; or
+
+<p>   (3) Disclosing (including oral or visual disclosure) or transferring in the
+United States any defense article to an embassy, any agency or subdivision of a
+foreign government (e.g., diplomatic missions); or
+
+<p>   (4) Disclosing (including oral or visual disclosure) or transferring
+technical data to a foreign person, whether in the United States or abroad; or
+
+<p>   (5) Performing a defense service on behalf of, or for the benefit of, a
+foreign person, whether in the United States or abroad.
+
+<p>   . . . .
+</blockquote>
+ 22 CFR &#167; 120.17.
+
+<p> ``Technical data'' is defined in the ITAR as:
+<blockquote>
+   Technical data means, for purposes of this subchapter:
+
+<p>   (1) Information, other than software as defined in &#167; 120.10(d),
+   which is required for the design development, production,
+   manufacture, assembly, operation, repair, testing, maintenance or
+   modification of defense articles.  This includes information in the
+   form of blueprints, drawings, photographs, plans, instructions and
+   documentation.
+
+<p>   (2) Classified information relating to defense articles and defense
+   services; 
+
+<p>   (3) Information covered by an invention secrecy order;
+
+<p>   (4) Software as defined in &#167; 121.8(f) of this subchapter directly
+   related to defense articles; 
+
+<p>   (5) This definition does not include information concerning general
+   scientific, mathematical or engineering principles commonly taught
+   in schools, colleges and universities or information in the public
+   domain as defined in &#167; 120.11. It also does not include basic
+   marketing information on function or purpose or general system
+   descriptions of defense articles.
+</blockquote>
+ 22 CFR &#167; 120.10.
+
+<p> You may have noticed that despite the reference in &#167; 120.10(1) to &#167;
+ 120.10(d), there is no &#167; 120.10(d).  The government's lawyers argue,
+ however, that this is a typographical error and that the reference is
+ actually supposed to be to &#167; 120.10(4), so that &#167; 120(1) expressly
+ excludes from the definition of technical data the software that is
+ expressly included in that definition by &#167; 120(4).  (For the
+ definition of software that is contained in &#167; 121.8f, see
+ <em>supra</em> Note <a href="#FN16">16</a>.)
+
+<p> Now you may find that that is totally confusing; I certainly do.
+ When I tried to find out about the ``typo'' from an agent of the
+ National Security Agency, who worked at the Office of Defense Trade
+ Contros and whose job it was to answer questions about the
+ application of the ITAR to cryptography, her only answer was:
+ ``That's your government at work.''
+
+<p> ``Defense serice'' is defined in the ITAR as:
+<blockquote>
+   Defense service means:
+
+<p>   (1) The furnishing of assistance (including training) to foreign
+persons, whether in the United States or abroad in the design,
+development, engineering, manufacture, production, assembly, testing,
+repair, maintenance, modification, operation, demilitarization,
+destruction, processing or use of defense articles; or 
+
+<p>    (2) The furnishing to foreign persons of any technical data
+controlled under this subchapter (see &#167; 120.10), whether in the
+United States or abroad.
+</blockquote>
+
+<hr><p><b><a name ="FN34"></a><a href="#F34">34</a></b>  Unless someone
+ points out that the statutes under which the President is
+ acting---the AECA and the, now defunct, EAA---do not authorize this
+ verbal gimmick.
+
+<hr><p><b><a name ="FN35"></a><a href="#F35">35</a></b>  <em>See</em> Near v. Minnesota, [???].
+
+<hr><p><b><a name ="FN36"></a><a href="#F36">36</a></b>  And probably the Vice President as well, even
+ thought he has been televised while publicly ``chatting'' at a
+ computer terminal.
+
+<hr><p><b><a name ="FN37"></a><a href="#F37">37</a></b>  After all, that
+ is why one has secretaries.
+
+<hr><p><b><a name ="FN38"></a><a href="#F38">38</a></b>  And even speakers.
+
+<p> Voice recognition software has gotten to the point where
+ instructions, at least simple ones, can be given to computers
+ orally---and, more importantly, to the point where computers will
+ honor such oral instruction.  So we now have spoken software.
+
+<p> I suppose that I should add that though I believe that spoken
+ software is as much entitled to First Amendment protection as written
+ software, I do believe that the law can constitutionally forbid one
+ from saying, loudly, and very clearly and distinctly, 
+<blockquote>
+ ``COM PU TER   RE FOR MAT   HARD   DISK   NOW''
+</blockquote>
+ in a workplace crowded with lots of voice sensitive computers.  On
+ the other hand, I do believe that my writing and publication of this
+ text---this footnote---, even though it contains, in written form,
+ the oral instructions necessary to get a properly programmed computer
+ to wipe its hard disk clean, is protected by the First Amendment.
+ Once again: one has to distinguish between the process---which it may
+ be a crime to run---and the text---which is fully protected by the
+ First Amendment.
+
+<hr><p><b><a name ="FN39"></a><a href="#F39">39</a></b>  <em>See</em> <em>supra</em> Note <a href="#FN16">16</a>.
+
+<hr><p><b><a name ="FN40"></a><a href="#F40">40</a></b>  Even if---as is the case with cryptographic
+ software---it makes no effort to regulate the use of the program.
+
+<hr><p><b><a name ="FN41"></a><a href="#F41">41</a></b>  Or, if
+ they have, because I failed in teaching it.
+
+<hr><p><b><a name ="FN42"></a><a href="#F42">42</a></b>  That runs on a computer, or in a brain, or
+ wherever.
+
+<hr><p><b><a name ="FN43"></a><a href="#F43">43</a></b>  They have very likely used a
+ word processor of some sort, but that does not mean that they are
+ aware of the fact that the text that they type in, with all its
+ hidden codes used to specify italics or indented paragraphs and
+ things like that, is actually a program that the word processor
+ converts into instructions to the printer that in turn cause the
+ printer to print out a nicely laid out page of text.
+
+<hr><p><b><a name ="FN44"></a><a href="#F44">44</a></b>  I must admit that I cannot do
+ that; I have never seen an icon that I could understand.
+
+<p> That is partly why. when I use a computer, I use an operating system
+ that allows me to type in my instructions, rather than one with a a
+ so-called WIMP interface.  I learned, after all, how to type, and how
+ to read and write, years ago.
+
+<p> ``WIMP'', by the way, is an acronym formed from ``Window, Icon, Menu,
+ Pointing device''.  The Jargon File defines a ``WIMP envionment'' as:
+<blockquote>
+ A graphical-user-interface-based environment, as described by a
+ hacker who prefers command-line interfaces for their superior
+ flexibility and extensibility.
+</blockquote>
+
+<hr><p><b><a name ="FN45"></a><a href="#F45">45</a></b>  And consequently this
+ discussion.
+
+<hr><p><b><a name ="FN46"></a><a href="#F46">46</a></b>  The term ``user'',
+ often spelled ``luser'' and pronounced ``loser'', is rather a term of
+ contempt when used by someone who actually knows something about
+ computers.
+
+<p> There is some merit to this position, even if it is rather unkind.
+ For the user is often a loser when he struggles to make his computer
+ do something that it is supposed to do, and ends up buying an
+ expensive ``upgrade'' that does not work either.
+
+<p> One question that comes up in a course in computers and the law that
+ perhaps does not directly involve the distinction between text and
+ process is, why there is so little litigation about defective
+ software, when most computer programs---especially those sold as
+ commodities---really don't work very well.
+
+<hr><p><b><a name ="FN47"></a><a href="#F47">47</a></b>  It would be most
+ helpful, but I fear quite unprecedented, if computer centers at
+ colleges and universities---instead of offering the latest network
+ hardware and a few courses in the trivia of word processing or how to
+ cruise the internet---would actually make available to students and
+ faculty the sort introduction to computers and computing that I got
+ as a practicing lawyer in the mid-sixties when some of us---who felt
+ that we ought to know something about those new gadgets that so many
+ of our clients were installing---snuck into the IBM Executive
+ Computer Concepts Course.
+
+<p> That course was for comptrollers and financial vice-presidents of
+ large corporations who were thinking about acquiring their company's
+ first real computer.  Besides the never stated goal of selling some
+ computers, the major effort of the course was directed toward giving
+ us---all those high-powered corporate types and one rather junior
+ lawyer---enough of an understanding of how computers work to keep us
+ from being hornswaggled by the programmers and engineers who would
+ actually run our new machines.  It was, I think, the roughtest course
+ I ever took, even if everyone was guaranteed to graduate in the top
+ ten percent of the class.  It was also one of the most effective.
+
+<p> We were first introduced to a simulated model of a 1950's
+ computer---back in the days before any programming language had been
+ invented---and a card punching machine.  (Do you remember those old
+ ``Don't Bend Fold or Mutilate'' punched cards?)  Our first assignment
+ was to punch a pack of cards containing the instructions---written in
+ so-called ``machine language'' as a binary number, that is, as a
+ string of one's and zero's---that would cause the computer to
+ calculate the then present value of the thirty-eight dollars that
+ were paid for Manhattan back in the seventeenth century.  The
+ calculation seemed to work all right when the interest rate was set
+ at two or three percent---although, since the answer was printed out
+ as a rather large binary number, none of us really could be sure.
+ But when we tried to get the computer to calculate the present value
+ with an interest rate of six percent, the answer we got was just
+ plain wrong.  At six percent the number we were calculating grew too
+ large to be held in the computer's accumulator, so the computer just
+ threw away the high digits.
+
+<p> At that point the financial types looked rather uncomfortable and I
+ had visions of all sorts of interesting law suits dancing in my
+ head.  And all of us knew then far more about the things that
+ computers do than do most of the users of today.
+
+<p> And the next day they invented assembly language.
+
+<p> Now that, I think, is the sort of course that every college student
+ should be required---or at least have the opportunity---to take.  I
+ fear, however, that such a course will never be offered by academic
+ computer centers.  I mean, if they offered such a course, they might
+ not be able to hornswaggle us so easily.
+
+<hr><p><b><a name ="FN48"></a><a href="#F48">48</a></b>  This process of
+ stepping through the program---or the segment that is causing one
+ difficulties---in one's head is often the key to debugging a badly
+ behaved program.
+
+<hr><p><b><a name ="FN49"></a><a href="#F49">49</a></b>  The problems that we study in the course do not
+ involve any detailed understanding of logic gates.
+
+<hr><p><b><a name ="FN50"></a><a href="#F50">50</a></b>  Other
+ than trial court decisions in <em>Bernstein</em> and <em>Karn</em> that
+ touch on the issues of why I cannot publish my class materials or
+ permit foreign students to take the course.  <em>See</em> <em>infra</em>
+ Section <a href="#s5">5</a>.
+
+<hr><p><b><a name ="FN51"></a><a href="#F51">51</a></b>  409 U.S. 63 (1972).
+
+<hr><p><b><a name ="FN52"></a><a href="#F52">52</a></b>  ``A procedure for solving a given type of
+ mathematical problem is known as an `al-gor-ithm.''' 409 U.S. at
+ 65.  
+
+<p> ``Algorithms: Precise rules for transforming specified inputs into
+ specified outputs in a finite number of steps''.  Donald
+ E. Knuth, 2 The Art of Computer Programming, Seminumerical
+ Al-go-rithms 699 (2d ed., 1981).
+
+<hr><p><b><a name ="FN53"></a><a href="#F53">53</a></b>  The Patent Act provides that to be eligible for
+ patent protection, an invention must be either a process, an article
+ of manufacture, a composition, or a machine.  <em>See</em> 35 U.S.C.
+ &#167; 101.
+
+<hr><p><b><a name ="FN54"></a><a href="#F54">54</a></b>  Thus the ITAR specifically includes algorithms
+ in the definition of ``software''.  <em>See</em> <em>supra</em>
+ Note <a href="#FN16">16</a>.
+
+<hr><p><b><a name ="FN55"></a><a href="#F55">55</a></b>  <em>But see</em>
+ <em>infra</em> Section <a href="#s4">4</a>.
+
+<hr><p><b><a name ="FN56"></a><a href="#F56">56</a></b>  Thus the binary coded decimal representation of the
+ number ten is the pattern of binary digits---the ``bit''
+ pattern---00010000, while the binary coded representation of that
+ number is 00001010; the algorithm in <em>Benson</em> specified a series
+ of steps by which a computer when given the first pattern as input
+ would produce the second pattern as output.
+
+<p> It is worth looking again at the pattern 00010000.  If we interpret
+ it as a binary coded decimal number then its value is, as I just
+ said, ten, but if we interpret it as a binary coded number then its
+ value is sixteen.  The computer may rearrange the patterns, but it is
+ we who interpret them.
+
+<hr><p><b><a name ="FN57"></a><a href="#F57">57</a></b>  And those instructions also take the form
+ of a pattern of one and zeros that can be interpreted as a binary
+ number.
+
+<hr><p><b><a name ="FN58"></a><a href="#F58">58</a></b>  I might also add in my defense that the
+ algorithm in <em>Benson</em> seems at points to be rather ambiguous,
+ something that no algorithm should ever be.
+
+<hr><p><b><a name ="FN59"></a><a href="#F59">59</a></b>  In 8086
+ assembly language using the MASM assembler.
+
+<hr><p><b><a name ="FN60"></a><a href="#F60">60</a></b>  In the ASCII code
+ that is most often used to represent Roman characters in a computer,
+ each character is eight binary digits long (though only seven of
+ those binary digits are meaningful).  Binary digits are
+ usually called bits, and eight bits are called a byte.
+
+<hr><p><b><a name ="FN61"></a><a href="#F61">61</a></b>  And, since it
+ is an encryption program capable of maintaining secrecy and
+ confidentiality, that---that and the fact that the materials include
+ other cryptographic software and technical data---prevents me from
+ publishing my materials by posting them on my world wide web site or
+ making them available in ``hard'' copy, without first obtaining a
+ license from the State Department under the ITAR.
+
+<p> But there will be more of that hereafter.  <em>See</em> <em>infra</em>
+ Section <a href="#s5">5</a>.
+
+<hr><p><b><a name ="FN62"></a><a href="#F62">62</a></b>  As a
+ text.  The only things that one can read are texts.
+
+<hr><p><b><a name ="FN63"></a><a href="#F63">63</a></b>  Stepping through the program is a
+ process.
+
+<hr><p><b><a name ="FN64"></a><a href="#F64">64</a></b>  The rest have to do with opening a file and
+ incrementing pointers to keep track of where we are and things like
+ that that are just housekeeping and not really part of the algorithim
+ that the program implements.
+
+<hr><p><b><a name ="FN65"></a><a href="#F65">65</a></b>  Since I want to publish this and have neither the
+ time nor the inclination to apply for a license---which is called a
+ Commodity Jurisdiction Determination---under the ITAR from the State
+ Department, I am not able here to explain exactly how that
+ ``twiddling'' is done, though I do, of course, explain it in my
+ class, which foreign students are not permitted to take.
+
+<hr><p><b><a name ="FN66"></a><a href="#F66">66</a></b>  Decimal numbers include the
+ ten digits 0 through 9; hexidecimal numbers, on the other hand,
+ include the sixteen digits, 0 through 9 and then A through F.
+ Thus fifteen is written as ``15'' in decimal notation and as ``F''
+ in hexidecimal notation, while sixteen is written as ``16'' and
+ ``10'' respectively.  Hexidecimal numbers are used by computer
+ programmers in preference to decimal numbers because the hexidecimal
+ numbers from zero to fifteen can be represented exactly by four
+ binary digits.  There thus is no need to have a program, like the one
+ in <em>Benson</em>, to convert a hexidecimal coded representation of a
+ number into a binary coded representation.
+
+<hr><p><b><a name ="FN67"></a><a href="#F67">67</a></b>  The input to the
+ assembler is the text containing the source code code; the output of
+ the assembler is the text containing the machine code, the text that
+ contains instructions in the form that the machine will implement
+ when they are fed one by one into the machine's central processing
+ unit.
+
+<hr><p><b><a name ="FN68"></a><a href="#F68">68</a></b>  An article
+ about my problems with the ITAR that I posted some years ago on the
+ RISKS e-mail discussion list that I have made available on my world
+ wide web server at URL:
+ http://samsara/comp\underline law/myrisks.txt.
+
+<hr><p><b><a name ="FN69"></a><a href="#F69">69</a></b>  I had considerable difficulty
+ in making a machine readable copy of the key available to the
+ students since I felt that I could not safely post it on the web
+ server.  After all, if one knows how my program works, and that is
+ not hard to figure out if one knows anything about computers, or
+ about logic, and if you have access to both the plain text and the
+ one-time pad, then you can easily decrypt the plain text and come up
+ with a working copy of the TWI.COM program.  So I would need to get
+ permission from the State Department before publically disclosing
+ both the plain text and the one-time pad.
+
+<hr><p><b><a name ="FN70"></a><a href="#F70">70</a></b>  This raises some
+ interesting evidentiary problems, doesn't it?
+
+<hr><p><b><a name ="FN71"></a><a href="#F71">71</a></b>  The Jargon File, URL:
+ http://ww.ccil.org/jargon/.
+
+<p> The Jargon File is a dictionary of computer jargon that was
+ originally maintained at MIT.
+
+<hr><p><b><a name ="FN72"></a><a href="#F72">72</a></b>  The second footnote defines
+ ``program'' as that term is likely to be viewed as a philosopher.
+
+<p> The use of TWI.COM program described <em>supra</em> in Section
+ <a href="#s2.2.2">2.2.2</a> is, I suppose, an example of experimental epistemology.
+ In this article I have, however, tried to avoid the use of
+ philosophical terminology.  You may have noticed, for example, that I
+ have not once, until now, referred to the distinction between a sign
+ and a signifier or used the word ``semiotic''.
+
+<hr><p><b><a name ="FN73"></a><a href="#F73">73</a></b>  The reason that most software that is sold
+ as a commodity works so badly is that it typically is not sold with
+ humanly readable source code, and the support personnel at the
+ vendor's hot-line typically do not have access to the source
+ either---and probably could not understand it even if it were
+ available.
+
+<hr><p><b><a name ="FN74"></a><a href="#F74">74</a></b>  <em>See</em> <em>supra</em>
+ Note <a href="#FN46">46</a>.
+
+<p> I do not want to be a loser, under the malicious control---at least
+ it usually feels like its malicious---of some software publisher or
+ system administrator.  That is one of the reason why on my computers
+ I run an operating system called Linux, which comes with all its
+ source code, and application programs like the GNU EMACS editor and
+ the LaTeX typesetting program that also come with source code.
+ (The other reasons are that these programs are free, are more
+ powerful, and are much better supported than are their commercial
+ counterparts.)
+
+<hr><p><b><a name ="FN75"></a><a href="#F75">75</a></b>  <em>See</em> <em>supra</em>
+ Note <a href="#FN2">2</a>.
+
+<p> The only difference is that in practice, programmers have to be much
+ more precise than legal draftsmen.  Common sense, and sometimes a
+ judge, may prevent a poorly drafted contract---or governmental
+ regulation like the ITAR---from causing havoc.  But computers do not
+ have common sense and notoriously do what one tells them to do, not
+ what one intends them to do.
+
+<p> There are many computer programs that check other computer programs
+ for ambiguities, bad syntax, and inconsistencies.  It would be a
+ worthwhile project to see if these programs could be modified to
+ critique drafts of legal instruments.
+
+<hr><p><b><a name ="FN76"></a><a href="#F76">76</a></b>  Other than perhaps Judge Bork and a few others who
+ believe that the First Amendment only protects political speech.
+
+<hr><p><b><a name ="FN77"></a><a href="#F77">77</a></b>  Before Computers.
+
+<hr><p><b><a name ="FN78"></a><a href="#F78">78</a></b>  An early IBM computer was affectionately known by the
+ acronym CADET, which stood for ``Can't Add, Doesn't Even Try''.  The
+ CADET computer could not perform any arithmetical calculations, it
+ just looked the answers up in a table that was stored on its drum,
+ which was an early storage device shaped like a drum rather than a
+ disk.
+
+<hr><p><b><a name ="FN79"></a><a href="#F79">79</a></b>  Except that the program
+ probably contains more, and more accurate, information.
+
+<hr><p><b><a name ="FN80"></a><a href="#F80">80</a></b>  <em>See</em> <em>supra</em> text accompanying
+ Note <a href="#FN19">19</a>.
+
+<hr><p><b><a name ="FN81"></a><a href="#F81">81</a></b>  Junger v.
+ Christopher, U.S. District Court, Northern District of Ohio, Case
+ No. 1:96 CV 1723.
+
+<hr><p><b><a name ="FN82"></a><a href="#F82">82</a></b>  <em>See</em> <em>infra</em>
+ Section <a href="#s5">5</a>
+
+<hr><p><b><a name ="FN83"></a><a href="#F83">83</a></b>  Karn v. United States Dep't of
+  State, 925 F. Supp. 1 (1996).
+
+<hr><p><b><a name ="FN84"></a><a href="#F84">84</a></b>  Bernstein v. U.S. Dep't of
+  State, 922 F. Supp. 1426 (1996).
+
+<hr><p><b><a name ="FN85"></a><a href="#F85">85</a></b>  C is
+<blockquote>
+ [t]he name of a programming language designed by Dennis Ritchie
+ during the early 1970s and immediately used to reimplement Unix; so
+ called because many features derived from an earlier compiler named
+ `B' in commemoration of <em>its</em> parent, BCPL. . . .
+
+<p> C is often described, with a mixture of fondness and disdain varying
+ according to the speaker, as ``a language that combines all the
+ elegance and power of assembly language with all the readability and
+ maintainability of assembly language''.
+</blockquote>
+ The Jargon File <em>supra</em>.
+
+<hr><p><b><a name ="FN86"></a><a href="#F86">86</a></b>  Though it may be difficult for
+ technophobes---a class that I fear includes many lawyers and most law
+ teachers---to comprehend, computer programmers are human beings too.
+
+<hr><p><b><a name ="FN87"></a><a href="#F87">87</a></b>  Quite often programs that are written in C
+ code are not actually intended to be actually compiled and run on a
+ computer; they are just written as a convenient way to present
+ algorithms and to transmit information to other programmers.  As I
+ understand it, this was actually the case with respect to the
+ cryptographic source code of the programs at issue in <em>Karn</em> and
+ <em>Bernstein</em>.  And sometimes programs are written in C not to be
+ compiled and run, but to demonstrate the author's skill at using that
+ language.  My course materials include a one-time pad encryption
+ program in two lines of C written by Paul C. Leyland of Oxford
+ University Computing Services that falls in this category; its art
+ lies in its brevity, but it is not what I would call user
+ friendly. (But then, exactly the same can be said of my little
+ one-time pad program.)
+
+<p> Most large programs have many authors, each of whom must be able to
+ read the code written by the others, and those who have the
+ responsibility for debuging and updating the programs normally do so
+ by reading and patching the source code and then recompiling it.
+ Many programs written in C are distributed only in source code form
+ and have to be adapted to the needs of particular machines and then
+ compiled into machine code before they will actually run.  <em>See</em>
+ <em>supra</em> text accompanying Notes <a href="#FN71">71</a>-<a href="#FN74">74</a>.
+
+<hr><p><b><a name ="FN88"></a><a href="#F88">88</a></b>  <em>See</em> supra Note <a href="#FN87">87</a>.
+
+<hr><p><b><a name ="FN89"></a><a href="#F89">89</a></b>  At
+ this point you should give thanks that I am not indulging in any
+ philosophical speculations. <em>See</em> <em>supra</em> Note <a href="#FN72">72</a>.
+
+<hr><p><b><a name ="FN90"></a><a href="#F90">90</a></b>  714 F.2d 1240, 1249 (3d Cir. 1983),
+ <em>cert. dismissed</em>, 464 U.S. 1033 (1984).
+
+<hr><p><b><a name ="FN91"></a><a href="#F91">91</a></b>  For a little more on this subject,
+ see <em>infra</em> Section <a href="#s3">3</a>.
+
+<hr><p><b><a name ="FN92"></a><a href="#F92">92</a></b>  A company named RCA Data Seccurity, which holds patents
+ that supposedly cover several encryption algorithms, also published
+ two encryption programs---RC2 and RC4---that were supposedly trade
+ secrets.  Yet someone, no one knows quite who, was able to decompile
+ the machine code for RC4 and reverse engineer the program and produce
+ an implementation of that program in C, which was then posted
+ anonymously to an e-mail list on the Internet.  And a year later
+ someone did the same wtih RC2.  There was a lot of fussing and
+ gnashing of teeth, but neither of these incidents produced any
+ litigation.
+
+<p> (I cannot, of course, tell you how to get those ``reverse
+ engineered'' programs because of the requirements of the ITAR, even
+ though the programs are publically available on the internet.)
+
+<hr><p><b><a name ="FN93"></a><a href="#F93">93</a></b>  <em>See</em> <em>supra</em> Note <a href="#FN74">74</a>.
+
+<p> The definition of source code would, of course, have to include not
+ only code written in C, but also code written in interpreted
+ languages like Perl that are run directly on the computer without
+ being first converted into a separate program in object
+ code.
+
+<p> The only selfish reason that I have to object to the exclusion of
+ machine code from the protection of the First Amendment, since I
+ could distribute my programs---and the other programs that I want to
+ make available, like the Pretty Good Privacy encryption program---in
+ the form of source code, is that few of my students, or other
+ prospective readers, will have the necessary assemblers, compilers,
+ and interpreters to convert the source code into functional object
+ code.  The slaves of the machine---and of Microsoft or Apple---seldom
+ can afford those fundamental tools.
+
+<p> And I suppose that I could be forbidden to distribute the hard copy
+ version of my little cryptographic program in the form of hexidecimal
+ machine code that can be loaded into the computer using DEBUG.
+ <em>See</em> <em>supra</em> Notes <a href="#FN66">66</a>-<a href="#FN70">70</a> and accompanying
+ text.
+
+<hr><p><b><a name ="FN94"></a><a href="#F94">94</a></b>  17
+U.S.C. &#167; 102(a).
+
+<p>Computer programs, when they are protected by copyright are
+protected---as perverse as it may seem---as ``literary works''.
+<blockquote>
+   ``Literary works'' are works, other than audiovisual works,
+ expressed in words, numbers, or other verbal or numerical symbols or
+ indicia, regardless of the nature of the material objects, such as
+ books, periodicals, manuscripts, phonorecords, film, tapes, disks, or
+ cards, in which they are embodied.
+</blockquote>
+ 17 U.S.C. &#167; 101.
+
+<hr><p><b><a name ="FN95"></a><a href="#F95">95</a></b>  17 U.S.C. &#167; 102(B).
+
+<hr><p><b><a name ="FN96"></a><a href="#F96">96</a></b>  347 U.S. 201 (1954).
+
+<hr><p><b><a name ="FN97"></a><a href="#F97">97</a></b>  347 U.S. at 217.
+
+<hr><p><b><a name ="FN98"></a><a href="#F98">98</a></b>  Remember, I am trying---rather successfully I
+ think---to avoid the plague of philosophical issues that afflict the
+ subject of Computers and the Law.  <em>See</em> <em>supra</em>
+ Note <a href="#FN72">72</a>.
+
+<hr><p><b><a name ="FN99"></a><a href="#F99">99</a></b>  Which is mandated by &#167; 102(a).
+
+<hr><p><b><a name ="FN100"></a><a href="#F100">100</a></b>  Which is mandated by &#167; 102(b).
+
+<hr><p><b><a name ="FN101"></a><a href="#F101">101</a></b>  <em>See</em> <em>supra</em> Note <a href="#FN90">90</a>.
+
+<hr><p><b><a name ="FN102"></a><a href="#F102">102</a></b>  Which, by the way, was written in machine code.
+
+<hr><p><b><a name ="FN103"></a><a href="#F103">103</a></b>  49 F.3d 807 (1st Cir. 1995.).
+
+<hr><p><b><a name ="FN104"></a><a href="#F104">104</a></b>  35
+ U. S. C. &#167; 101.
+
+<hr><p><b><a name ="FN105"></a><a href="#F105">105</a></b>  <em>See</em> <em>supra</em>
+ Note <a href="#FN51">51</a>.
+
+<hr><p><b><a name ="FN106"></a><a href="#F106">106</a></b>  I do not want
+ to comment on this.  Remember, I am trying to avoid all philosophical
+ speculation.  <em>See</em> <em>supra</em> Note <a href="#FN72">72</a>.
+
+<hr><p><b><a name ="FN107"></a><a href="#F107">107</a></b>  <em>See</em> <em>supra</em>
+ Note <a href="#FN48">48</a> and text accompanying Note <a href="#FN73">73</a>.
+
+<hr><p><b><a name ="FN108"></a><a href="#F108">108</a></b>  450 U.S. 175 (1980).
+
+<hr><p><b><a name ="FN109"></a><a href="#F109">109</a></b>  In <em>Diehr</em> the claimed invention was a process
+ for curing synthetic rubber.
+
+<hr><p><b><a name ="FN110"></a><a href="#F110">110</a></b>  <em>See</em>, <em>e.g.</em>, <em>In re Alappat</em>,
+ ww F3d 1526 (Fed. Cir., 1994).
+
+<hr><p><b><a name ="FN111"></a><a href="#F111">111</a></b>  Besides the algorithm the claims in this RSA patent
+ include ``a channel of communication.''
+
+<p> Because of the ITAR I am not able to publish the RSA algorithm
+ without first getting a license.
+
+
+</body>
+</html>
+</DOC>

@@ -1,0 +1,186 @@
+
+<DOC>
+<DOCNO>WT03-B15-350</DOCNO>
+<DOCOLDNO>IA074-000483-B007-1</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswgmst.html 128.125.48.102 19970125003754 text/html 11887
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:36:27 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 11655
+Last-Modified: Wed, 15 Jan 1997 02:01:36 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+ *
+<p><img height=92 width=490 src="/Admin/docmast.gif" alt="Documentation">
+<BR>IBM Internet Connection Secure Server
+<p><cite>Webmaster&#39;s Guide</cite>
+<p>Version 4.2 for OS/2 Warp
+<BR>GC31-8486-00
+<HR><H2><A NAME=ToC>Table of Contents</A></H2>
+<MENU>
+<P><B><LI><A NAME=ToC_1 HREF="icswg002.html#Header_1" >Welcome&#33;</A></B>
+<MENU>
+<LI><A NAME=ToC_2 HREF="icswg002.html#HDRROADMAP" >Information road map</A>
+<LI><A NAME=ToC_3 HREF="icswg002.html#HDRNEW42" >What's new in Version 4.2</A>
+</MENU></MENU>
+<HR><P><I><B><A NAME=ToC_4 HREF="icswg003.html#Header_4" >Basic Configuration</A></B></I><BR>
+<MENU>
+<P><B><LI><A NAME=ToC_5 HREF="icswg003.html#HDRCNF" >Changing the default configuration</A></B>
+<MENU>
+<LI><A NAME=ToC_6 HREF="icswg003.html#Header_6" >Configuring your server</A>
+<LI><A NAME=ToC_9 HREF="icswg003.html#HDRCONTACC" >Controlling access to the Configuration and Administration forms</A>
+<LI><A NAME=ToC_10 HREF="icswg003.html#HDROWNWEL" >Changing the default home page</A>
+<LI><A NAME=ToC_15 HREF="icswg003.html#HDRPROXY" >Running your server as a proxy</A>
+<LI><A NAME=ToC_17 HREF="icswg003.html#Header_17" >Setting up your proxy server</A>
+<LI><A NAME=ToC_31 HREF="icswg003.html#HDRMULTIIP" >Running your server with multiple IP addresses or virtual hosts</A>
+<LI><A NAME=ToC_38 HREF="icswg003.html#Header_38" >Backing up files</A>
+</MENU>
+<P><B><LI><A NAME=ToC_39 HREF="icswg004.html#HDRSTR" >Starting and stopping your server</A></B>
+<MENU>
+<LI><A NAME=ToC_40 HREF="icswg004.html#HDRSTRSTO" >Starting the server</A>
+<LI><A NAME=ToC_47 HREF="icswg004.html#Header_47" >Stopping the server</A>
+</MENU></MENU>
+<HR><P><I><B><A NAME=ToC_48 HREF="icswg005.html#Header_48" >Advanced Configuration</A></B></I><BR>
+<MENU>
+<P><B><LI><A NAME=ToC_49 HREF="icswg005.html#HDRCFR" >Using the configuration file</A></B>
+<MENU>
+<LI><A NAME=ToC_50 HREF="icswg005.html#Header_50" >Overview of directives</A>
+<LI><A NAME=ToC_51 HREF="icswg005.html#HDRBASIC" >Basic - Specify required settings</A>
+<LI><A NAME=ToC_71 HREF="icswg005.html#HDRDIREC" >Directories and Welcome Page - Set viewing options</A>
+<LI><A NAME=ToC_141 HREF="icswg005.html#HDRREQUE" >Logging and Reporting - Customize access and error logs and generate access reports</A>
+<LI><A NAME=ToC_291 HREF="icswg005.html#HDRDOCUM" >Access control - Set up access control for the server</A>
+<LI><A NAME=ToC_326 HREF="icswg005.html#HDRSECUR" >Security - Set up network security for the server</A>
+<LI><A NAME=ToC_342 HREF="icswg005.html#HDRMULTIFT" >Multi-format processing - Define file extensions for multi-format processing</A>
+<LI><A NAME=ToC_366 HREF="icswg005.html#HDRMAPPI" >Resource mapping - Redirect URLs</A>
+<LI><A NAME=ToC_388 HREF="icswg005.html#HDRERRMSGS" >Error message customization - Customize error messages the server returns to clients</A>
+<LI><A NAME=ToC_393 HREF="icswg005.html#HDRTIME" >Timeouts - Close connections automatically</A>
+<LI><A NAME=ToC_403 HREF="icswg005.html#HDRMETHO" >Methods - Set method acceptance</A>
+<LI><A NAME=ToC_411 HREF="icswg005.html#HDRMETA" >Meta-Information - Name meta-information files and directories</A>
+<LI><A NAME=ToC_418 HREF="icswg005.html#HDRAPISETS" >ICAPI application processing - Specify ICAPI applications for request processing</A>
+<LI><A NAME=ToC_458 HREF="icswg005.html#HDRJAVASPT" >Servlet API Support - Configure the server for Java servlet API support</A>
+<LI><A NAME=ToC_474 HREF="icswg005.html#HDRPROXSET" >Proxy server settings - Configure server as a proxy</A>
+<LI><A NAME=ToC_545 HREF="icswg005.html#HDRPERFO" >Performance settings - Define performance settings</A>
+<LI><A NAME=ToC_576 HREF="icswg005.html#HDRSYSMGT" >System Management - Define system management settings</A>
+</MENU>
+<P><B><LI><A NAME=ToC_584 HREF="icswg006.html#HDRUSLF" >Customizing logs and reports</A></B>
+<MENU>
+<LI><A NAME=ToC_585 HREF="icswg006.html#HDRTAILLOG" >Tailoring the logs your server keeps</A>
+<LI><A NAME=ToC_611 HREF="icswg006.html#HDRUNDEREP" >Tailoring the reports your server creates</A>
+</MENU>
+<P><B><LI><A NAME=ToC_628 HREF="icswg007.html#HDRCUSTWS" >Customizing your Web site</A></B>
+<MENU>
+<LI><A NAME=ToC_629 HREF="icswg007.html#HDRDISCNT" >Displaying page count, date, time, and text on a Web page</A>
+<LI><A NAME=ToC_636 HREF="icswg007.html#HDRSSI" >Using server-side includes to insert information into CGI programs and HTML documents</A>
+</MENU>
+<P><B><LI><A NAME=ToC_658 HREF="icswg008.html#Header_658" >Rating Web sites and serving rated Web information</A></B>
+<MENU>
+<LI><A NAME=ToC_659 HREF="icswg008.html#Header_659" >Who can rate Web sites</A>
+<LI><A NAME=ToC_660 HREF="icswg008.html#Header_660" >How Web clients use PICS</A>
+<LI><A NAME=ToC_661 HREF="icswg008.html#Header_661" >How the Internet Connection Secure Server helps you manage PICS labels</A>
+<LI><A NAME=ToC_666 HREF="icswg008.html#HDRMCF" >How to manage PICS labels from a central file</A>
+<LI><A NAME=ToC_670 HREF="icswg008.html#HDRCPL" >How to create PICS labels</A>
+<LI><A NAME=ToC_672 HREF="icswg008.html#HDRRPL" >How to request PICS label information</A>
+<LI><A NAME=ToC_673 HREF="icswg008.html#HDRUCF" >How to update the PICS configuration file</A>
+</MENU>
+<P><B><LI><A NAME=ToC_681 HREF="icswg009.html#HDRPRT" >Protecting your server</A></B>
+<MENU>
+<LI><A NAME=ToC_682 HREF="icswg009.html#HDRDEFEN" >Protection methods</A>
+<LI><A NAME=ToC_683 HREF="icswg009.html#HDRACTPROT" >Step 1. Activating protection</A>
+<LI><A NAME=ToC_684 HREF="icswg009.html#Header_684" >Step 2. Passing the requests</A>
+<LI><A NAME=ToC_685 HREF="icswg009.html#Header_685" >Step 3. Deciding what type of protection to use</A>
+<LI><A NAME=ToC_689 HREF="icswg009.html#Header_689" >Step 4. Creating protection setups</A>
+<LI><A NAME=ToC_703 HREF="icswg009.html#HDRUSEACLF" >Step 5. Limiting access to individual files</A>
+<LI><A NAME=ToC_704 HREF="icswg009.html#HDRUSGF" >Using server group files</A>
+<LI><A NAME=ToC_706 HREF="icswg009.html#HDRUACLF" >Using Access Control List (ACL) files</A>
+<LI><A NAME=ToC_710 HREF="icswg009.html#HDRPROTEX" >Protection example (without SSL client authentication)</A>
+<LI><A NAME=ToC_711 HREF="icswg009.html#HDRPROTSLC" >Protection example (with SSL client authentication)</A>
+</MENU>
+<P><B><LI><A NAME=ToC_712 HREF="icswg010.html#HDRNETWMNG" >Managing your Web server</A></B>
+<MENU>
+<LI><A NAME=ToC_713 HREF="icswg010.html#HDRSNMP" >Simple Network Management Protocol</A>
+<LI><A NAME=ToC_720 HREF="icswg010.html#HDRSTATPNL" >Monitoring server performance and status</A>
+</MENU></MENU>
+<HR><P><I><B><A NAME=ToC_725 HREF="icswg011.html#Header_725" >Security</A></B></I><BR>
+<MENU>
+<P><B><LI><A NAME=ToC_726 HREF="icswg011.html#HDRSEC" >Making your communications secure</A></B>
+<MENU>
+<LI><A NAME=ToC_727 HREF="icswg011.html#Header_727" >Security concepts</A>
+<LI><A NAME=ToC_736 HREF="icswg011.html#Header_736" >Using the security built into the server</A>
+<LI><A NAME=ToC_737 HREF="icswg011.html#Header_737" >Managing your keys, certificates, and trusted roots</A>
+</MENU>
+<P><B><LI><A NAME=ToC_764 HREF="icswg012.html#HDRSSL" >Using Secure Sockets Layer (SSL)</A></B>
+<MENU>
+<LI><A NAME=ToC_765 HREF="icswg012.html#Header_765" >Overview of SSL security</A>
+<LI><A NAME=ToC_766 HREF="icswg012.html#HDRSSLSET" >Step 1. Setting up SSL</A>
+<LI><A NAME=ToC_790 HREF="icswg012.html#Header_790" >Step 2. Specifying SSL client authentication in protection setups and ACL files</A>
+<LI><A NAME=ToC_791 HREF="icswg012.html#HDRSSLUSE" >Step 3. Using SSL with your server</A>
+</MENU>
+<P><B><LI><A NAME=ToC_792 HREF="icswg013.html#HDROWNCA" >Acting as a certification authority for a private Web network</A></B>
+<MENU>
+<LI><A NAME=ToC_793 HREF="icswg013.html#HDRHOWTOCA" >Becoming a CA</A>
+<LI><A NAME=ToC_797 HREF="icswg013.html#HDRPROCCA" >Processing certificates as a CA</A>
+</MENU>
+<P><B><LI><A NAME=ToC_803 HREF="icswg014.html#HDREXP" >Supported key lengths and encryption modes</A></B>
+<MENU>
+<LI><A NAME=ToC_804 HREF="icswg014.html#Header_804" >Public and private keys</A>
+<LI><A NAME=ToC_807 HREF="icswg014.html#Header_807" >SSL encryption modes</A>
+</MENU></MENU>
+<HR><P><I><B><A NAME=ToC_810 HREF="icswg015.html#Header_810" >Appendixes</A></B></I><BR>
+<MENU>
+<P><B><LI><A NAME=ToC_811 HREF="icswg015.html#HDRCMD" >Appendix A. Command reference</A></B>
+<MENU>
+<LI><A NAME=ToC_812 HREF="icswg015.html#HDRCERTUTL" >certutil command</A>
+<LI><A NAME=ToC_816 HREF="icswg015.html#HDRCGIPA" >cgiparse command</A>
+<LI><A NAME=ToC_820 HREF="icswg015.html#HDRCGIUT" >cgiutils command</A>
+<LI><A NAME=ToC_824 HREF="icswg015.html#HDRHTADM" >htadm command</A>
+<LI><A NAME=ToC_828 HREF="icswg015.html#HDRHTIMAC" >htimage command</A>
+<LI><A NAME=ToC_831 HREF="icswg015.html#HDRHTTPD" >httpd command</A>
+</MENU>
+<P><B><LI><A NAME=ToC_834 HREF="icswg016.html#HDRNOTICES" >Appendix B. Notices</A></B>
+<MENU>
+<LI><A NAME=ToC_835 HREF="icswg016.html#Header_835" >Programming interface information</A>
+<LI><A NAME=ToC_836 HREF="icswg016.html#HDRTRADE" >Trademarks</A>
+</MENU>
+<P><B><LI><A NAME=ToC_837 HREF="icswg017.html#HDRGLO" >Appendix C. Glossary</A></B>
+<P><B><LI><A NAME=ToC_838 HREF="icswg018.html#HDRBIB" >Appendix D. Bibliography</A></B>
+<MENU>
+<LI><A NAME=ToC_839 HREF="icswg018.html#Header_839" >For AIX</A>
+<LI><A NAME=ToC_840 HREF="icswg018.html#Header_840" >For HP-UX</A>
+<LI><A NAME=ToC_841 HREF="icswg018.html#Header_841" >For OS/2 Warp</A>
+<LI><A NAME=ToC_842 HREF="icswg018.html#Header_842" >For Solaris</A>
+<LI><A NAME=ToC_843 HREF="icswg018.html#Header_843" >For Windows NT</A>
+<LI><A NAME=ToC_844 HREF="icswg018.html#Header_844" >Related publications</A>
+</MENU></MENU><HR><P>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg002.html">Next Page</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

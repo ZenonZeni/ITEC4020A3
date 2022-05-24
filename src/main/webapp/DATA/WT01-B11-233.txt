@@ -1,0 +1,48 @@
+
+<DOC>
+<DOCNO>WT01-B11-233</DOCNO>
+<DOCOLDNO>IA030-000641-B001-162</DOCOLDNO>
+<DOCHDR>
+http://www.lbs.com:80/cgi-bin/feedback 199.99.235.100 19970122104330 text/html 1471
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 10:43:32 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<title>Comments about LBS Capital Management</title>
+<link rev="made" href="mailto:webmaster@lbs.com">
+<body bgcolor="#FFFFCC" text="#000000" link="#804040" vlink="#808040" alink="#804000">
+<h2>Comments about LBS Capital Management</h2>
+
+Thanks for your feedback!  If you don't have a browser with forms capability,
+then please send us mail at the address 
+<a href="mailto:webmaster@lbs.com">webmaster@lbs.com</a>
+<p>
+If you would like more information on LBS, any of its services, or if you
+just have a comment about our web site  the Management of LBS would enjoy 
+hearing from you.  Please take a moment to
+fill out the form below and then click on the "submit your comments"
+button at the bottom of the page.<br> Thank You.
+
+<form method="POST" action="/cgi-bin/feedback/submit=1">
+
+<HR>
+<b>Your Name:</b> <input name="yourname" size=45><p>
+<b>Your Email Address:</b> <input name="email" size=30><p>
+<b>Your Postal Address:</b> <p>
+<textarea name="postal_address" rows=5 cols=50></textarea>
+<p>
+<b>Where did you hear about the LBS Web?</b> <p>
+<textarea name="where_did_you" rows=5 cols=50></textarea>
+<p>
+Below you can type in the message you wish to send to <b>LBS</b>
+<BR>
+<textarea name="comments" rows=10 cols=60></textarea>
+
+<p>
+<input type="submit" value="Submit your comments">
+<input type="reset" value="Erase your comments">
+</form>
+</body>
+
+</DOC>

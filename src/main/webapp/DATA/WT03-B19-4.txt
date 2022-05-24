@@ -1,0 +1,171 @@
+
+<DOC>
+<DOCNO>WT03-B19-4</DOCNO>
+<DOCOLDNO>IA040-000756-B024-534</DOCOLDNO>
+<DOCHDR>
+http://pisces.ucsd.edu:80/~rlehmer/synopsis.html 132.239.190.110 19970303071329 text/html 8030
+HTTP/1.0 200 Sending Processed HTML         
+Content-length: 7898
+MIME-version: 1.0
+Server: OSU/2.1a
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<!-- This document was created from RTF source by rtftohtml version
+2.7.5 -->
+<title>Synopsis of Programming
+Projects</title>
+</head>
+<body bgcolor="FFFFFF">
+<center><h1>Synopsis of Programming Projects</h1></center><p>
+<p>
+<h2>VMS Systems Projects</h2><p>
+<p>
+<h3>SRAM Memory Test System</h3><p>
+During the fabrication of the 
+<a href="/~rlehmer/camac/camac_pic.html">GL_AD1020 custom waveform
+recorders</a>, it was
+determined that a number of small daughter PC boards used for the memory
+subsystem were defective.  In order to isolate which memory boards were
+defective, a test jig with parallel data and address lines and a clock and
+strobe system was built.  The jig was driven by a DRQ3B high performance
+parallel interface card installed in a MicroVAX II.  All of the driver code for
+the test was developed in house using QIO calls to the card, as well as the
+sorting procedure to determine the severity of the memory failures.<p>
+<p>
+<h2>CAMAC Systems Projects</h2><p>
+<p>
+<h3>Development of Non-standard CAMAC module drivers into MDS</h3><p>
+The MDS data acquisition provided the hooks to allow user written CAMAC module
+drivers to be included in the standard high level MDS interface.  For the
+diagnostic work at DIII-D, drivers for scalers and clock modules not supported
+in MDS was required.  Using templates from MDS written in 
+<a href="/htbin/helpgate/HELP/FORTRAN">FORTRAN</a>, the modules'
+actions can be scripted.  In addition, CASE tools such as 
+<a href="/htbin/helpgate/HELP/CMS">CMS</a> and 
+<a href="/htbin/helpgate/HELP/CDD_PLUS">CDD</a> are
+required to correctly build the drivers and the user interface is configured
+using the TDMS forms package.<p>
+<p>
+<h3>Development of Custom 20MHz Waveform Recorders for the PISCES</h3><p>
+In addition to leading 
+<a href="/~rlehmer/camac/camac_pic.html">the design and 
+fabrication program to assemble the 64
+channel A/D system</a>, the development of the MDS user interface was critical in
+verifying the functionality of the digitizing system. Critical testing included
+the testing of clock and gain settings,  operation of the stop trigger system
+and post trigger counters, and data integrity.  FORTRAN codes and some MDS
+scripts were used to provide a rudimentary test interface for the engineering
+team to test each function of the digitizing system.<p>
+<p>
+<h3>Installation of Hytec Ethernet Crate Controllers at PISCES Lab</h3><p>
+Development of new CAMAC management software (ECCTS) compatible with Hytec ECC
+software.  Based user interface on original CTS (CAMAC Topology Server)
+developed by ORNL, however, converted logical name management to be compatible
+with new software environment.  Also provided privileged user interface to
+starting and stopping Hytec ECC communication software.<p>
+<p>
+In addition, a problem with the Ethernet hardware of the Hytec Controllers
+precluded their use in a fiber optic Ethernet network that included a repeater.
+Was able to evaluate network problem and determine that upgraded controllers
+were necessary.<p>
+<p>
+<h3>Installation of Hytec Ethernet Crate Controllers at DIII-D Tokamak</h3><p>
+Similar software/hardware integration environment, however, some CAMAC
+modules used on Langmuir probe diagnostics were affected by presence of an
+enabled Inhibit line on the CAMAC dataway.  Determined by testing that modules
+were operating normally and that Hytec default configuration is to enable the
+I-line, rather than ORNL software, that disables it.  Wrote software that
+disables I-line on ECC whenever controllers are reset by user action.<p>
+<p>
+<p>
+<h2>World Wide Web Experience</h2><p>
+<p>
+<h3>WWW Server Configuration and Management</h3><p>
+<b></b>Experience with 
+<a href="http://www.er6.eng.ohio-state.edu/www/doc/serverinfo.html">OSU 
+HTTP</a>, <a href="http://www.ncsa.uiuc.edu">NCSA httpd</a>, and MacHTTP Servers, including
+rules and mapping configuration and security considerations.  As Webmaster,
+generated a majority of server content from existing promotional material and
+scientific reports.  Provided support to other users in group in their
+production of WWW material.  Monitored server accesses and generated reports.<p>
+<p>
+<h3>CGI Programming</h3><p>
+<b></b>Experience using CGI scripts to generate 
+<a href="/www/railroads/metrolink.html">Metrolink commuter train
+schedules</a> on the fly.  Other CGI scripts give user-customized information about
+station locator maps and connecting transit information.<p>
+<p>
+<h3>WWW Content Production</h3><p>
+Two major projects: 
+<a href="/www/pisces/pisces.html">PISCES Lab Outreach Project</a> 
+and <a href="/www/railroads/railroads.html">Southern California
+Railroad Resources</a>.  The PISCES Lab Outreach Project involved the conversion of
+existing progress report material to HTML.  In addition, 
+<a href="/www/beryllium/beryllium.html">the Beryllium Safety
+System in the PISCES Lab</a> requires a variety of material updated on a regular
+basis as well as 
+<a href="/www/beryllium/be-cam.html">a real-time digital camera</a> of the facility.<p>
+<p>
+<p>
+<h2>Analysis Applications Programming</h2><p>
+<p>
+<h3>FLCTRNS - A Plasma Turbulence Analysis Package</h3><p>
+Originally written in FORTRAN with no graphical user interface, the
+FLCTRNS code was rewritten in <a href="http://www.rsinc.com">IDL</a> (a 4GL programming language) to provide an
+intuitive X windows graphical interface.  FLCTRNS takes digitized data from an
+array of Langmuir probes and computes auto and cross power spectra, wavenumber
+and coherency spectra, dispersion relations S(k,f), and an estimation of the
+transport of plasma particles due to the turbulent fluctuations.  Additional
+modules have been added for analyzing non-time stationary behavior in the
+turbulence using the Wavelet transform.  The modular nature of FLCTRNS has
+allowed for the simultaneous support of the program at five different
+facilities running three different underlying database packages.<p>
+<p>
+<h3>Time Domain Visualization of Density Structures</h3><p>
+One of the major diagnostics in the turbulence measurements at PISCES
+Lab is an array of Langmuir probes arranged in an 8 by 8 array.  Thus,
+turbulence at 64 spatial locations is recorded simultaneously.  One method for
+analyzing the intermittent turbulent behavior in the plasma is to assemble
+movies of the density fluctuations, using IDL to extract data from the database
+and generate shaded color contour plots of the fluctuation levels.  The color
+contour plots are then converted to PICT files and transferred to a Macintosh
+to generate Quicktime movies of the time dependent motion of the intermittent
+density blobs in the plasma.<p>
+<p>
+<h3>Other Analysis Codes</h3><p>
+Maintained and enhanced other analysis codes, including Langmuir probe
+analysis codes for single, double, and triple probes.  Developed tools to infer
+electric field magnitude and shear from emissive probe measurements of the
+plasma space potential.  Maintained automated codes that compute the operating
+point of power supplies, gas feed systems, and other user specified settings.<p>
+<p>
+<h2>DCL Programming</h2><p>
+<p>
+<h3>DCL Programming tasks have included the following:</h3><p>
+<ul>
+<li>User interface to control data acquisition system</li>
+<li><a href="/www/server_stat.html">Nightly 
+automation of WWW server statistics analysis</a></li>
+<li>Monthly accounting and error log processing</li>
+<li>Image backup interface with selection capability for disks and tapes</li>
+</ul>
+<p>
+<h2>VMS Software Experience</h2><p>
+<p>
+<ul>
+<li>VMS Operating System</li>
+<li>VAXCluster Software (MSCP disks, queue management, redundant design)</li>
+<li>DECnet, LAT, LAST</li>
+<li>Digital TCP/IP Services for OpenVMS (UCX)</li>
+<li>FORTRAN</li>
+<li>C (both VAXC and DECC)</li>
+<li>VAX Debugger</li>
+<li>Common Data Dictionary (CDD)</li>
+<li>Code Management System (CMS)</li>
+<li>Pathworks for Macintosh</li>
+</ul>
+<p>
+</body></html>
+</DOC>

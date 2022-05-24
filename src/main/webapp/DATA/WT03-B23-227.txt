@@ -1,0 +1,100 @@
+
+<DOC>
+<DOCNO>WT03-B23-227</DOCNO>
+<DOCOLDNO>IA096-001032-B027-139</DOCOLDNO>
+<DOCHDR>
+http://www.rixan.com:80/rv_m1.html 207.0.230.24 19970215025249 text/html 5738
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 02:51:47 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE html PUBLIC "-//IETF//DTD html 3.0//EN" "html.dtd">
+<html>
+<HEAD>
+<TITLE>RIXAN: Mitsubishi Movemaster RV-M1</TITLE>
+</HEAD>
+<BODY BACKGROUND="http://www.rixan.com/bground.gif" LINK="#0080C0" VLINK="#0080C0" ALINK="#0080C0">
+
+
+<IMG SRC="http://www.rixan.com/rv_m1.gif"align=left HSPACE=20 BORDER=2>
+
+<UL>
+<LH></LH>
+<A HREF="http://www.rixan.com/mitsu.html">
+<IMG SRC="http://www.rixan.com/mitsu.gif" width=173 height=46 align=left hspace=4></A>
+<A HREF="http://www.rixan.com/rv_m1spc.html">
+<IMG SRC="http://www.rixan.com/specs.gif" WIDTH=46 HEIGHT=46 BORDER=2 align=left hspace=4></A>
+<A HREF="http://www.rixan.com/rv_m1dwg.html">
+<IMG SRC="http://www.rixan.com/drwgs.gif" WIDTH=46 HEIGHT=46 BORDER=2></A>
+</UL>
+<P>
+
+<STRONG><FONT SIZE=+2>Movemaster RV-M1 Micro Robot</FONT></STRONG>
+
+<UL>
+<H5>
+<A HREF="#Teaching Box">Teaching Box</A><BR>
+<A HREF="#Drive Unit">Drive Unit</A><BR>
+<A HREF="#Features">Features</A><BR>
+<A HREF="#Mechanical Design">Mechanical Design and Work Space</A><BR>
+</H5>
+</UL>
+
+<HR SIZE=5><P>
+
+The Movemaster RV-M1 system consists of the robot, the teaching box and the drive unit. The system can be programmed with any standard personal computer equipped with a serial and/or parrallel interface. The PC is connected to the drive unit with either a 3 m RS-232C cable or a 1.5 m Centronics cable.<P>
+
+Commands, parameters and absolute position values are transferred from the computer to the drive unit's RAM via the interface. The RV-M1 micro robot is driven by DC servo motors with a toothed-belt transmission system. All five axes can be moved simultaneously. The current positions of each axis are registered individually by encoders and signalled to the drive unit. The home position, used to synchronise the mechanical and electronic systems, is determined by limit switches.  The system has ten programmable speed levels.<p>
+
+<A NAME="Teaching Box"></A>
+<IMG SRC="http://www.rixan.com/mitsicon.gif" WIDTH=18 HEIGHT=18> <STRONG><FONT SIZE=+1> Teaching Box</FONT></STRONG><P>
+This compact hand-held unit is used to monitor programs and alter robot positions. The teaching box is not supplied as standard equipment; it must be ordered as an optional extra.<P>
+
+With the help of the teaching box the user can enter robot positions and store them under position numbers 1 to 629. Stored positions can be selected and moved to individually. The unit can also be used to test the entire program.<p>
+
+The mechanical home position and coordinate reference positions can be selected at the touch of a button. The teaching box can also be used to initiate the transfer of program and position data from RAM to EPROM or from EPROM to RAM. All current status information is shown on an LED display.<p>
+
+<A NAME="Drive Unit"></A>
+<IMG SRC="http://www.rixan.com/mitsicon.gif" WIDTH=18 HEIGHT=18> <STRONG><FONT SIZE=+1> Drive Unit</FONT></STRONG><P>
+The drive unit is a compact, modular power supply and control unit, designed for easy servicing and transportation. It contains the CPU and power electronics required to control the robot, and is included with the system as standard equipment.<p>
+
+The drive unit communicates with the Movemaster RV-M1 via two 5 m cables. All interface ports and connections for peripheral equipment and process data and I/O are located on the rear panel. The unit is fitted with two standard interfaces (RS-232C and Centronics) for connection to personal computers.<P>
+
+An EPROM programmer is integrated in the unit as standard equipment.<p>
+
+<A NAME="Features"></A>
+<IMG SRC="http://www.rixan.com/mitsicon.gif" WIDTH=18 HEIGHT=18> <STRONG><FONT SIZE=+1> Features</FONT></STRONG><P>
+<ul>
+<li><li>5 degrees of freedom, not including hand; DC servo motor drive<br>
+<li>End position detection and overload monitoring<br>
+<li>Up to 629 programmable positions<br>
+<li>Teach-in supported with X, Y, Z planes or individual axes<br>
+<li>Simple programming with 63 commands<br>
+<li>Program development with personal computers connected via Centronics parallel or RS-232C serial port<br>
+<li>RAM or EPROM program and position memory<br>
+<li>Digital I/O interface for data and bit processing<br>
+<li>Maximum path velocity 1,000 mm/sec<br>
+<li>Positive-switching I/Os<br>
+<li>Simple correction of programmed positions<br>
+<li>Tool plate for special hand models<br>
+<li>Lifting capacity 1.2 kg including hand<br>
+<li>Power supply 120V AC, single phase, 50/60 Hz<br>
+<li>Standard hand gripping and opening force programmable
+</ul>
+
+<P>
+
+<A NAME="Mechanical Design"></A>
+<IMG SRC="http://www.rixan.com/mitsicon.gif" WIDTH=18 HEIGHT=18> <FONT SIZE=+1><STRONG> Mechanical Design and Work Space</STRONG></FONT><P>
+The Movemaster RV-M1 is an impressively compact system, measuring only 697 mm from the wrist tool plate to the rear of the robot. The shoulder is only 367 mm above the base, and has a maximum width of 230 mm. The robot can be operated in extremely confined spaces, and since it weighs a mere 19 kg it is easy to transport and install. With its sturdy construction, the robot's arm is highly resistant to heavy mechanical stresses during operation, and damage is prevented by an overload monitoring system. All drive elements are well protected against environmental influences, with thick sheet-metal covers over all transmission components.<P>
+
+<HR SIZE=5>
+<blockquote>
+<STRONG><FONT SIZE=-1>
+<A HREF="http://www.rixan.com/index.html">Return To Home Page</A><br>
+For More Information Email: <A HREF="mailto:robots@rixan.com">robots@rixan.com</FONT></STRONG></A>
+</blockquote>
+</BODY>
+</html>
+</DOC>

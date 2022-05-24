@@ -1,0 +1,99 @@
+
+<DOC>
+<DOCNO>WT03-B18-71</DOCNO>
+<DOCOLDNO>IA085-000610-B041-239</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/mmi/mmi_dat.htm 150.145.4.16 19970216121300 text/html 3864
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:13:54 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 15:47:15 GMT
+Content-Length: 3666
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy Robotics Dept.: MMI Data Structure</title>
+<base href="http://www.ian.ge.cnr.it/robotics/mmi/mmi_dat.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b></font><a
+        href="/robotics/amadeus.htm"><font size="4"><b> AMADEUS </b></font></a><font
+        size="4"><b><img src="/icons/arrow.gif" width="18"
+        height="18"></b><b><blink> MMI</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<h2><i>Data Structure</i></h2>
+
+<p><i>Data</i></p>
+
+<p>Data packets are received by the MMI in an asynchronous way.
+The structure of each packet is composed of several fields: 'data
+family', to distinguish between different kinds of messages;
+'packet number', to handle correctly the sequence of actions; and
+'message content', with series of data describing the gripper
+status. The &#145;message content&#146; part of the packet
+contains data related to: <i>the hydraulic system</i>, the
+pressure values of pumps in each finger; <i>the gripper shape and
+positioning</i>, the frames with the 3D coordinates and
+orientations of the fingers' main points; <i>forces and torques</i>
+at contact locations; <i>slipping values</i> at contact
+locations; </p>
+
+<p><i>Commands</i></p>
+
+<p>Command packets are sent to the LAN in an asynchronous way.
+The structure of each packet is composed of: 'command family' and
+'OPcode', to distinguish between different kinds of commands;
+'packet number', to handle correctly the sequence of actions to
+control; 'message content', composed of a series of fixed and
+well-defined parameters describing the present actuation strategy
+as decided by the human operator. The &#145;message content&#146;
+part of the packet contains instructions related to: <i>press</i>
+commands, the pressures of tubes inside the fingers; <i>bend</i> commands,
+length, bend and spin value as defined for each finger; <i>gripper</i>
+commands, the orders to grasp, manipulate or release an object; <i>status</i>
+commands, to shut down the whole manipulating system. An
+appropriate combination of codes written in the &#145;command
+family&#146; and in the &#145;Opcode&#146; field of the packet
+allows the MMI to determine the exact command the human operator
+wants to issue. </p>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

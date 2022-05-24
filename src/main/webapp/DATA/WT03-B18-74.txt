@@ -1,0 +1,127 @@
+
+<DOC>
+<DOCNO>WT03-B18-74</DOCNO>
+<DOCOLDNO>IA085-000610-B041-323</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/mmi/mmi_ap.htm 150.145.4.16 19970216121344 text/html 4758
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:14:33 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 15:44:16 GMT
+Content-Length: 4560
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy Robotics Dept.: MMI Application Processes</title>
+<base href="http://www.ian.ge.cnr.it/robotics/mmi/mmi_ap.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b></font><a
+        href="/robotics/amadeus.htm"><font size="4"><b> AMADEUS </b></font></a><font
+        size="4"><b><img src="/icons/arrow.gif" width="18"
+        height="18"></b><b><blink> MMI</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<h2><i>Application Processes</i></h2>
+
+<p align="center"><img src="mmi5.gif" align="center" width="504"
+height="453"> </p>
+
+<p align="left">The Application Processes have direct
+responsibility for managing data, controlling workflows and
+viewing the necessary information. </p>
+
+<p><i>Session</i></p>
+
+<p>The MMI session control process. It enables the user to set
+all session parameters (software parameters, working directories,
+projects, priorities, and so on). It also monitors and displays
+the actual parameters, such as communications status, working
+status of processes, status of lower-level processes, and so on. </p>
+
+<p><i>3Dgraph</i></p>
+
+<p>The 3D graphic representation process. Its task is to create a
+synthetic image of the gripper on the basis of its geometrical
+model and of status information contained in MECON and received
+from the HLC. Special graphic techniques allow the user to choose
+the preferred viewing options: type of visualisation, point of
+view, distance, and so on. </p>
+
+<p><i>Press</i></p>
+
+<p>The pressure control process. It lets the user manually
+control the pressure of gripper palm and fingers. It can manage parameters
+such as: <i>Knuckle</i>: angle between palm and fingers; and <i>Pressure</i>
+of tubes in each finger; </p>
+
+<p><i>Finger</i></p>
+
+<p>The finger control process. It allows the user to manually set
+the geometric position of the fingers. It can manage parameters
+such as: <i>Knuckle</i>: angle between palm and fingers; <i>Length</i>:
+length of each finger; <i>Bend</i>: curvature of each finger; <i>Spin</i>:
+rotation angle of the curvature plane of each finger. </p>
+
+<p><i>Grip</i></p>
+
+<p>The gripper control process. Its task is to enable the user to
+manage the high-level and automatic operations of grasping,
+releasing and manipulating objects. This module is give the
+pre-defined values of: <i>Speed</i>: maximum working speed at
+fingers; <i>Force</i>: maximum force the gripper can exert on
+objects. It also gives the gripper some fundamental high-level
+commands, such as: <i>Grasp</i>: grasp an object; the pre-defined
+values of force and speed may be used; <i>Manipulate</i>: rotate
+and translate the object on the basis of defined values
+describing the desired offset in position and spatial
+orientation, and which can be entered in the system through a
+procedure that will be described in the &#145;Data Entry&#146;
+section; <i>Release</i>: release the object; the pre-defined
+speed value may be used. </p>
+
+<p><i>Monitor</i></p>
+
+<p>The data monitoring process. Its purpose is to display the
+status of selected variables and parameters which could be read
+in MECON. </p>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

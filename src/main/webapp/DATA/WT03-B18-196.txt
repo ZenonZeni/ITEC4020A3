@@ -1,0 +1,118 @@
+
+<DOC>
+<DOCNO>WT03-B18-196</DOCNO>
+<DOCOLDNO>IA040-000755-B022-162</DOCOLDNO>
+<DOCHDR>
+http://pisces.ucsd.edu:80/~coaster/survey.html 132.239.190.110 19970303060553 text/html 2832
+HTTP/1.0 200 Sending Processed HTML         
+Content-length: 2700
+MIME-version: 1.0
+Server: OSU/2.1a
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>Coaster Survey</title>
+</head>
+<body>
+<center>
+<h1>Coaster Survey</h1>
+</center>
+
+<hr>
+
+Thank you for your interest in Coaster.  As of March 1996, we are getting
+approximately 120 hits a week on the Coaster schedule page.  Please tell a
+little about yourself, how you use Coaster, and what features you would like
+to see in these web pages in the future.  Some of the things that come to mind
+are station locator maps, improved mass transit connection information, more
+clickable images, more photos, more features.<P>
+
+Note, your name and e-mail address will remain confidential; we're not looking
+to start a mailing list or sell your name (the two worst uses of the computer,
+in my opinion!).<P>
+
+<form method="POST" action="/htbin/cgi-mailto/coaster">
+Name: <input name="name" type="text" size=40 maxlength=80><BR>
+E-mail Address: <input name="address" type=text><BR>
+How often do you use Coaster: <select name="usage">
+<option selected> Daily
+<option> 3-4 times a week
+<option> 1-2 times a week
+<option> occasionally
+<option> never 
+</select>
+<p>
+Do you use mass transit to get to the Coaster:
+<select name="mass">
+<option selected> No
+<option> Yes - to/from Home
+<option> Yes - to/from Work
+<option> Yes - both ends
+</select>
+<P>
+Which stations do you travel between most often<P>
+<select name="orig_station">
+<option selected> Oceanside
+<option> Carlsbad Village
+<option> Carlsbad Poinsetta
+<option> Encinitas
+<option> Solana Beach
+<option> Sorrento Valley
+<option> Old Town
+<option> Downtown San Diego
+</select>
+<P>
+<select name="dest_station">
+<option> Oceanside
+<option> Carlsbad Village
+<option> Carlsbad Poinsetta
+<option> Encinitas
+<option> Solana Beach
+<option> Sorrento Valley
+<option> Old Town
+<option selected> Downtown San Diego
+</select>
+<P>
+
+<input type="checkbox" name="Trolley">  Do you take the Trolley?<P>
+
+What web browser do you usually use:
+<select name="browser">
+<option selected> Netscape 3.0
+<option> Netscape 2.0
+<option> Netscape 1.1
+<option> NCSA Mosaic on Unix
+<option> NCSA Mosaic on Mac
+<option> Lynx
+<option> other
+</select>
+<P>
+Features you'd like to see: <input name="features" type="text" size=60 maxlength=256><BR>
+Other comments: <input name="comments" type="text" size=60 maxlength=256><BR>
+<p>
+
+<input type="submit" value="  Submit  "> <input type="reset" value="  Reset ">
+</form>
+<hr>
+<HR>
+
+<A HREF="/htbin/mapimage.exe/www/go-back.conf">
+<IMG SRC="/www/go-back.gif" ISMAP> </A><P>
+
+<a href="/www/index.html">
+HOME</a>
+ | <a href="/www/pisces/pisces.html">
+PISCES</A>
+ | <a href="/www/railroads/railroads.html">
+TRAINS</A><P>
+
+<hr>
+
+Webmaster:
+<a href="mailto:rlehmer@ucsd.edu">
+Ron Lehmer - rlehmer@ucsd.edu</a><P>
+
+</body>
+</html>
+</DOC>

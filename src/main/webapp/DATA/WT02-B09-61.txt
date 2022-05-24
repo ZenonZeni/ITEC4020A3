@@ -1,0 +1,81 @@
+
+<DOC>
+<DOCNO>WT02-B09-61</DOCNO>
+<DOCOLDNO>IA008-000083-B035-59</DOCOLDNO>
+<DOCHDR>
+http://www.freequote.com:80/charts.htm 199.227.63.4 19970222092004 text/html 4195
+HTTP/1.0 200 OK: Retrieving file
+Server: Worldgroup/2.00 ICO/2.0
+Date: Sat, 22 Feb 1997 09:24:26 GMT
+Content-Length: 3996
+Last-Modified: Sat, 22 Feb 1997 09:24:26 GMT
+Content-Type: text/html
+</DOCHDR>
+<html>
+<title>Investors Alliance / Quotes & Charts</title>
+<body bgcolor=#ffffff text=#000000 link=#ff0000 vlink=#ff0000>
+<center>
+
+<table border=0 width=80%>
+<tr>
+<td><img src="ball.gif"></td>
+<td><font size=9>Quotes & Charts</font><br><font size=2>D e l a y e d &nbsp; Q u o t e s &nbsp; a n d &nbsp; P e r f o r m a n c e &nbsp; A n a l y s i s</font></td>
+</tr>
+<tr><td colspan=2><hr></td></tr>
+</table>
+<br>
+<table border=2 width=575>
+<tr><th>Get Quote</th><th>Get Quote & Chart</th><th>Ticker Search</th><th>Company Search</th></tr>
+<tr><td align=center><form action="http://nt.freequote.com/cgi-win/iacgi.exe" method="post"><input type="hidden" name="reqtype" value="GET_QUOTE"><input type="text" name="criteria" size="10"><br><font size=1>Enter Ticker Above</font><br><input type="image" border=0 src="gquote.gif" value="Get Quote"></form></td>
+<td align=center valign=top><form action="http://nt.freequote.com/cgi-win/iacgi.exe" method="post"><input type="hidden" name="reqtype" value="GET_CHART"><input type="text" name="criteria" size="10"> <input type="image" border=0 src="gchart.gif" value="Get Chart"><br><font size=1>Enter Ticker Above</font><br><font size=2>Display a moving average?<br><input type=radio name="movavg" value="yes" checked>Yes<input type=radio name="movavg" value="no">No</font></form></td>
+<td align=center><form action="http://nt.freequote.com/cgi-win/iacgi.exe" method="post"><input type="hidden" name="reqtype" value="TICKER_SEARCH"><input type="hidden" name="type" value="beg"><input type="text" name="criteria" size="10"><br><font size=1>Enter Ticker Above</font><br><input type="image" border=0 src="search.gif" value="Search"></form></td>
+<td align=center><form action="http://nt.freequote.com/cgi-win/iacgi.exe" method="post"><input type="hidden" name="reqtype" value="COMPANY_SEARCH"><input type="hidden" name="type" value="beg"><input type="text" name="criteria" size="10"><br><font size=1>Enter Company Above</font><br><input type="image" border=0 src="search.gif" value="Search"></form></td></tr>
+</table>
+<br>
+<font color=#0000ff size=6><strong>Windows users try FreeQuote!!</strong></font>
+<a name="freequote"></a>
+<br><br>
+<table border=0 width=80%>
+<tr>
+<td valign=top><font color=#0000ff>FreeQuote for Windows</font>
+<br>
+<font size=3>FreeQuote turns your computer into a
+securities analysis workstation. Using a live Internet connection,
+you get a scrolling ticker, intraday charts updated every minute,
+and programmable trading indicators, all based on your portfolio!
+A wide range of configuration options allows you to customize
+FreeQuote for Windows to meet your specific needs.</font><br><br>
+<font size=2>Includes delayed stock ticker!<br><table border=1><tr><td><img src="ticker.gif"></td></tr></table></font>
+</td>
+<td align=center valign=top><br><a href="ss_graph.htm"><img border=0 src="ia_graph.gif" width="300" height="225"></a><br><font size=2>(click above for large view)</font></td>
+</tr>
+</table>
+<br>
+
+<table border=0 width=80%>
+<tr><td><a href="fquote.htm"><font color=#0000ff>FreeQuote Gallery</font></a></td></tr>
+<tr><td><font size=3>Want to find out more about FreeQuote for Windows? Browse our
+FreeQuote Gallery for a detailed walk-thru of the product and its features. Screen
+shots are available also.</font>
+</td></tr>
+</table>
+<br>
+
+<table border=0 width=80%>
+<tr><td><a href="dlfq.htm"><font color=#0000ff>Download FreeQuote for Windows</font></a></td></tr>
+<tr><td><font size=3>Are you ready to try FreeQuote? Click here for system requirements
+and to download your copy of FreeQuote for Windows!</font>
+</td></tr>
+</table>
+<br>
+
+<table border=0 width=80%>
+<tr><td><a href="mailto:shane@netleader.com"><font color=#0000ff>Technical Support</font></a></td></tr>
+<tr><td><font size=3>Having trouble with FreeQuote for Windows? Click above to send
+us your questions and we'll get back to you promptly!</font>
+</td></tr>
+</table>
+<br>
+</center>
+</html>
+</DOC>

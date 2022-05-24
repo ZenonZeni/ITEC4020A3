@@ -1,0 +1,207 @@
+
+<DOC>
+<DOCNO>WT03-B15-11</DOCNO>
+<DOCOLDNO>IA060-000337-B002-174</DOCOLDNO>
+<DOCHDR>
+http://www.atemi.com:80/samples.html 206.148.208.105 19970115073221 text/html 8828
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 07:30:44 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Set-Cookie: Apache=widener18862853313444731; path=/
+Content-length: 8604
+Last-modified: Thu, 02 Jan 1997 23:40:32 GMT
+</DOCHDR>
+<!doctype html public "-//W30//DTD W3 HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>How Would I Use NetShade to ... ?</TITLE>
+</HEAD><BODY BGCOLOR="#ffffff"><H1><CENTER>How Would I Use NetShade to ...
+?</CENTER>
+</H1><P><HR WIDTH=90% SIZE=4>
+<P>
+<UL><LI><A href="#point">... Secure an application that requires a point-to-point
+link?</A>
+<LI><A href="#mail">... Secure my e-mail messages?</A>
+<LI><A href="#web">... Secure a Web site?</A>
+<LI><A href="#lan">... Secure all of the data sent over a LAN?</A>
+<LI><A href="#group">... Secure a smaller LAN workgroup?</A>
+</UL><P>
+<P><HR WIDTH=90% SIZE=4>
+<A name="point"></A>
+<H2><A name="point">Securing Point-to-Point Applications</A>
+</H2><P>A "point-to-point" application is any program that establishes a
+direct link between two machines.
+Groupware, telephony, FTP, Telnet, videoconferencing programs, and client/server
+systems are all examples
+of point-to-point applications, as they all establish direct connections
+from one machine to another.  (E-mail
+systems are not usually point-to-point applications, as most of them route
+messages via intermediary machines.  See 
+<A href="#mail">below</A> for more on securing e-mail systems.)
+<P>
+Once NetShade has been installed on two machines, <B>any</B> information
+exchanged directly between those machines --
+regardless of which application is used to send the data -- will be automatically
+and invisibly encrypted.  It doesn't
+matter how the two machines are connected (Internet, LAN, VAN, WAN, serial
+link, etc.): as long as the link is 
+bi-directional, and as long as the information is exchanged using the operating
+system's TCP/IP network support, all of
+the information shared between those machines will be encrypted.  For example,
+installing NetShade on an FTP server
+or other Internet host will allow any NetShade user to establish an encrypted
+link with that host.
+<P>
+Since NetShade encrypts data at the protocol level, you won't need to modify
+any of the applications you use to
+exchange data.  Once NetShade is installed and configured on all the machines
+that communicate via point-to-point applications,
+you can keep using those applications in the same way that you use them now
+-- the only difference 
+is that with NetShade, the applications will be exchanging data across
+<B>secure</B> channels.
+<P>
+
+<HR WIDTH=90% SIZE=4>
+<A name="mail"></A>
+<H2><A name="mail">Securing E-mail Systems</A>
+</H2><P>NetShade is designed to establish a secure TCP/IP connection from
+your machine to any other machine that is
+running NetShade.  This "point-to-point" security is automatically applied
+to any application that sends data directly from one
+machine to another.  However, most e-mail systems don't send messages directly
+to the addressees' machines; instead,
+they use a technique called "store and forward."  This makes e-mail systens
+slightly more difficult to protect than applications 
+supporting point-to-point communication.
+<P>
+When you send a message to somebody using a "store and forward" e-mail system,
+it is first routed to an intermediate
+machine called a <B>mail server</B>.  Your mail server determines which mail
+server the message recipient is using,
+and routes your message to that mail server.  Usually, the message is stored
+on the recipient's mail server until the
+recipient retrieves it.
+<P>Since NetShade requires direct contact between two machines to establish
+a secure channel
+between those machines, and since store-and-forward never puts the e-mail
+sender in direct contact with the e-mail
+recipient, an extra step is needed to secure the message in transit (see
+Figure 1 below).
+<P>
+<CENTER><IMG SRC="sampf1.GIF" WIDTH="690" HEIGHT="323"></CENTER>
+<P>
+Once NetShade has been installed on the intermediate mail servers, any e-mail
+routed between those servers
+can be secured in a simple three-step process.
+For example, if Alice wants to send a secure message to Bob, NetShade should
+be installed on her mail server and on Bob's mail server.
+When Alice sends the message, her copy of NetShade encrypts the message <B>for
+her mail server</B>, not for Bob.  Alice's
+mail server decrypts the message when it arrives, and then immediately
+re-encrypts the message for Bob's mail server; 
+again, the message is decrypted by Bob's server upon arrival.  When Bob retrieves
+his 
+e-mail from the mail server, the mail server encrypts it for Bob's machine;
+Bob's machine decrypts the e-mail when it
+arrives.  Of course, the entire process happens automatically, without any
+need for user intervention.
+<P>
+Although Alice's message has been unencrypted twice en route to Bob's machine,
+the points of greatest vulnerability --
+the network pathways -- are completely secure.  Nevertheless, this scenario
+underscores the need to combine
+NetShade with a strong local encryption product (such as
+<B><A HREF="www.rsa.com">RSA Secure</A></B>) in any situation where network
+data
+will be stored on a hard drive.
+<P>
+
+<HR WIDTH=90% SIZE=4>
+<A name="web"></A>
+<H2><A name="web">Establishing a Secure Web Site</A>
+</H2><P>If NetShade is installed on a machine running a Web server, any other
+NetShade user will be able to access that 
+Web site securely.  As soon as authentication services are available (with
+version 2.1), server administrators will also be able to use NetShade to
+restrict
+access to private Web sites.
+<P>
+NetShade provides a level of security similar to that offered by the Secure
+Sockets Layer
+(SSL) security protocol.  However, NetShade is cheaper, more flexible and
+more easily maintained than the SSL system,
+which requires applications and servers to be modified at the source code
+level before their data can be secured.  Compare 
+this to NetShade's "plug-in" functionality, which adds security to all of
+your TCP/IP applications at once when it is installed.
+<P>
+
+<HR WIDTH=90% SIZE=4>
+<A name="lan"></A>
+<H2><A name="lan">Securing a Local Area Network</A>
+</H2><P>While many people already realize that Internet traffic can easily
+be targeted by intruders, few realize that a similar
+situation exists on local area networks.  But as more and more organizations
+experience internal security breaches
+(where trade secrets are intercepted and stolen by an employee), LAN security
+systems must become better able to 
+defend against internal eavesdropping attacks.  NetShade can protect LAN
+traffic just as easily as it
+protects Internet data.  See Figure 2 below.
+<P>
+<CENTER><IMG src="sampf2.GIF"></CENTER>
+<P>
+Installing NetShade on every networked machine across a TCP/IP LAN will add
+an invisible blanket of security to the
+entire network.  All of the network services and applications are used in
+exactly the same way, but the network data
+-- including e-mail, shared files, client/server sessions, etc. -- is encrypted
+to defend against eavesdropping attacks.  
+Note that since NetShade encrypts data at the protocol level, any of the
+machines on this LAN can still
+communicate securely with other NetShade users across the Internet.
+<P>
+NetShade 2.0 will work with TCP/IP intranets. &nbsp;Future versions of NetShade
+will be adapted to offer protection for other types of networks: AppleTalk,
+IPX/SPX, and others.
+(Note that <A HREF="netshade11.html">NetShade version 1.1</A> can already
+be used to encrypt Appletalk LAN traffic).
+<P>
+
+<HR WIDTH=90% SIZE=4>
+<A name="group"></A>
+<H2><A name="group">Securing a LAN Workgroup</A>
+</H2><P>If you are not interested in securing all of the machines on your
+LAN, NetShade can easily be scaled back to protect
+a smaller workgroup.  Any network data shared among members of this workgroup
+will automatically be encrypted; you can
+configure NetShade to allow unencrypted connections between the workgroup
+and non-NetShade users, or to reject any
+attempts at unencrypted communication.
+<P>
+<CENTER><IMG src="sampf3.GIF"></CENTER>
+<P>
+NetShade's flexibility of scale makes it the most cost-effective way to protect
+a subset of your network.  Since NetShade
+is a self-contained system, it can be managed entirely within its group of
+users.  And of course, it can easily be scaled
+up to protect the rest of the LAN as your organization's security needs change.
+<P>
+<P>
+<CENTER><HR WIDTH=65%></CENTER>
+<CENTER></CENTER>
+</P><CENTER><TABLE BORDER CELLPADDING="2"><TR><TD><CENTER><A 
+HREF="overview.html">Home</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="free_stuff.html">Free Stuff</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="sales_info.html">Sales</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="product_info.html">Product Info</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="links.html">Links</A>
+</CENTER>
+</TD></TR></TABLE></CENTER><P><HR>
+</BODY></HTML>
+</DOC>

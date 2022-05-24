@@ -1,0 +1,1178 @@
+
+<DOC>
+<DOCNO>WT03-B33-23</DOCNO>
+<DOCOLDNO>IA059-000323-B028-99</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/ec96.html 205.156.212.5 19970114224843 text/html 46599
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 22:46:45 GMT
+Last-modified: Thursday, 24-Oct-96 22:47:14 GMT
+Content-length: 46412
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/ec96.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet <BR>
+January 9, 1996<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<H3>*LATEST NEWS*</H3>
+<UL>
+<A HREF = "#1"><LI>A NEW STRATEGY...</A>&nbsp&nbsp&nbsp<NOBR>(476 words)</NOBR></LI>
+<A HREF = "#2"><LI>MMTF RELEASES FOUR PROPOSED MOBILE MIBS FOR SNMP</A>&nbsp&nbsp&nbsp<NOBR>(728 words)</NOBR></LI>
+<A HREF = "#3"><LI>IBM'S INET TO SPARK INTERNET APPLICATIONS</A>&nbsp&nbsp&nbsp<NOBR>(707 words)</NOBR></LI>
+<A HREF = "#4"><LI>LOTUS LAYS OUT INTERNET STRATEGY</A>&nbsp&nbsp&nbsp<NOBR>(912 words)</NOBR></LI>
+<A HREF = "#5"><LI>IBM TO EXPAND RMON SUPPORT</A>&nbsp&nbsp&nbsp<NOBR>(375 words)</NOBR></LI>
+<A HREF = "#6"><LI>IDC FORECASTS A GLOOMY 1996 FOR THE INDUSTRY</A>&nbsp&nbsp&nbsp<NOBR>(994 words)</NOBR></LI>
+<A HREF = "#7"><LI>TELEGENICS LAUNCHES TELECOM NETWORK MANAGEMENT SOLUTIONS</A>&nbsp&nbsp&nbsp<NOBR>(125 words)</NOBR></LI>
+<A HREF = "#8"><LI>HORIZONS TECHNOLOGY ENHANCES LANAUDITOR</A>&nbsp&nbsp&nbsp<NOBR>(531 words)</NOBR></LI>
+<A HREF = "#9"><LI>PLATINUM TECHNOLOGY RELEASES CHARGEBACK SYSTEM</A>&nbsp&nbsp&nbsp<NOBR>(469 words)</NOBR></LI>
+<A HREF = "#10"><LI>WEB SERVER TRAFFIC MEASUREMENT ENABLED</A>&nbsp&nbsp&nbsp<NOBR>(179 words)</NOBR></LI>
+<A HREF = "#11"><A HREF = "#11"><LI>MICROSOFT TEAMS WITH WALL DATA FOR ENTERPRISE&nbsp;CONNECTIVITY</A>&nbsp&nbsp&nbsp<NOBR>(289 words)</NOBR></LI>
+<A HREF = "#12"><LI>NETMANAGE RELEASES INTRANET FAX SERVER FOR DESKTOPS</A>&nbsp&nbsp&nbsp<NOBR>(260 words)</NOBR></LI>
+<A HREF = "#13"><LI>SPECTRUM PARTNERS MORE THAN DOUBLE IN 1995</A>&nbsp&nbsp&nbsp<NOBR>(289 words)</NOBR></LI>
+<A HREF = "#14"><LI>ON TECHNOLOGY ANNOUNCES NLM FOR IP ADDRESS MANAGEMENT</A>&nbsp&nbsp&nbsp<NOBR>(164 words)</NOBR></LI>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+A NEW STRATEGY...
+
+We knew this day would come.  Even before we launched the
+Distributed Systems Management Report in October 1994,
+we knew that network management and systems management
+would eventually become indistinguishable.  We knew that
+we would have to merge our two newsletters, Distributed
+Systems Management Report and Network Management Systems
+& Strategies -- for what good is a network without the
+systems attached to it, and what good is a system without
+a network to connect it to other systems?
+
+NMS&S has been providing information and analysis of
+advances in network management since 1989.  Although
+managing networks remains a primary concern for many
+large companies, the technology has reached a certain
+level of stability.  In the last couple of years, there
+has been a very strong trend toward extending network
+management schemes to reach out to the systems at the
+other end of the network.
+
+All four of the top network management platform vendors
+have responded to this trend, sealing the merger of the
+two disciplines:
+
+* Cabletron Systems last August formed partnerships with
+13 companies to give its Spectrum network management
+platform systems management capabilities.  The companies
+included systems management specialists like Computer
+Associates, Compuware, and Tivoli.
+
+* Hewlett-Packard over the past couple of years has added
+systems management applications to its OpenView platform.
+These include OperationsCenter for operations and problem
+management and AdminCenter for configuration and change
+management.
+
+* IBM last May introduced SystemView, which forms more
+tangible links between the systems management products
+it has offered for some time to its NetView network
+management platform.  In the future, all the systems from
+IBM will be able to be managed from a central point of
+the customer's choosing.
+
+* Sun Microsystems early last year built a systems
+management solution called Solstice around its net
+management engine, SunNet Manager.  Solstice covers eight
+different management disciplines with 15 products, and
+Sun enlisted the aid of several other companies,
+including the some of the same ones that are working with
+Cabletron.
+
+These moves are not an end, but a beginning.  Vendors
+have a long way to go before they satisfy all of the
+management requirements of their customers.  And users
+still need to figure out what it is that they need from
+vendors, as their networks continue to expand at alarming
+rates and last year's systems are connected with this
+year's.
+
+The network manager's job isn't getting any easier.  But
+in the coming years there will be new ways to do
+things -- and a lot more information that can be gathered
+from network devices and end systems.  The challenge will
+be in choosing the right tools to decipher it all.  We
+at DataTrends will lend a hand by keeping you informed
+of the latest developments and putting them into
+perspective.  Welcome to Systems & Network Management
+Report.
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+MMTF RELEASES FOUR PROPOSED MOBILE MIBS FOR SNMP
+
+The Mobile Management Task Force (MMTF) yesterday
+announced the group has finalized a family of Mobile
+Management MIBs designed to extend current network
+management standards to encompass the multiple needs of
+mobile computer users.  In addition, these proposals have
+been designed to be suitable for adoption by both the
+Internet Engineering Task Force (IETF) and the Desktop
+Management Task Force (DMTF).  The release of these four
+proposed MIBs marks the culmination of almost a year's
+work; Epilogue and Xircom began working on a Mobile
+Management MIB at NetWorld+Interop last spring, which led
+to the formation of the MMTF in August.
+
+The MMTF has developed four Mobile Management sub-MIBs
+that can be implemented as extensions to the Simple
+Network Management Protocol (SNMP): an Adapter MIB, a
+System MIB, a Link MIB, and an Extended System MIB.  By
+using these MIBs (management information bases) either
+singly or in combination, developers can create network
+management applications customized for a mobile computer
+environment.  For those interested in testing the MIBs,
+copies are available from the MMTF via the World Wide Web
+at http://www.epilogue.com/mmtf.
+
+"As we discussed mobile management with industry experts,
+we discovered there is no single definition for `mobile'
+computing," said David Preston, President and COO of
+Epilogue Technology, one of the MMTF founding members.
+"Some mobile users are looking at cellular solutions,
+others at infrared technology, and still others think of
+mobile computing as dial-up access.  With such diverse
+connectivity criteria, it became clear that if we were
+to create a single mobile management MIB to fit
+everyone's requirements, that MIB would be so large and
+require so much processing power and network overhead it
+would be impractical to deploy.  By developing four
+different mobile MIBs with specific functionality, we can
+help SNMP developers extend more targeted, customizable
+network management support to their mobile networking
+environments, rather than forcing them to use a
+one-size-fits-all approach."
+
+The four mobile MIBs define objects that address
+administration issues specific to different aspects of
+mobile computing.  The System MIB is designed to provide
+data about the mobile system drivers, card and socket
+services, power status, and related system conditions.
+The Adapter MIB provides information about the mobile
+network adapter, including network hardware information,
+whether the mobile computer is connected using a wired
+or wireless connection, etc.  The Link MIB provides
+information about the mobile network link itself, such
+as link status and performance, that can be useful in
+troubleshooting and optimizing the actual connection.
+Finally, the Extended System MIB contains information
+about system extensions, such as the Proxy Group.
+
+In creating the four mobile management MIBs, the MMTF
+development team consciously worked to draft proposed
+standards that would be acceptable to both the IETF as
+a Management Information Base (MIB) extension to SNMP,
+and to the DMTF as a Management Information Format (MIF)
+file for their Desktop Management Interface (DMI).  These
+four mobile MIBs have been developed from a core base of
+DMI MIFs, analogous to the SNMP MIB.
+
+Using a Common Agent architecture such as those used in
+DMI Software Development Kits (SDKs), the MIFs can be
+translated into corresponding MIBs.  Thus implementers
+can use MIFs under a Common Agent or DMI Service Layer,
+or MIBs under an SNMP agent, to provide either SNMP or
+DMI support for mobile users in a managed network
+environment.
+
+"From the outset, the MMTF has stated that we have no
+intention of duplicating the work of standards bodies
+like the IETF and DMTF," said Jim Soriano, Vice President
+of Product Development for Xircom, another MMTF founder
+company.  "By using creating a set of extensible mobile
+management objects that can be implemented as both MIBs
+and MIFs, we hope to help point the way to a common
+solution to mobile management problems that will be
+acceptable to both the DMTF and the IETF."
+
+The MMTF's Mobile Management MIBs has been made available
+for testing and will be submitted to both the DMTF and
+the IETF for consideration later this month.
+
+The Mobile Management Task Force was initiated by
+Epilogue Technology Corp. and Xircom Inc., to promote new
+standards to administer laptop, palmtop, and other mobile
+network computer users. Membership in the Mobile
+Management Task Force is open to computer systems
+manufacturers, software developers, MIS personnel, and
+network administrators concerned with issues surrounding
+the administration of mobile computer users.
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+IBM'S INET TO SPARK INTERNET APPLICATIONS
+
+Application developers can now "test drive" their
+Internet applications in a driving course sponsored by
+IBM.  IBM announced an iNet porting extension to its
+Solution Partnership Center (SPC) in San Mateo, Calif.
+The SPC uses the IBM RS/6000 platform, running IBM's
+version of Unix, AIX.  The iNet porting facility provides
+developers with access to systems, support, and
+tools -- either over the Internet or in person at the
+SPC.
+
+"We intend to make the RS/6000 the Internet server of
+choice," said Tom Fornoff, director of workstation
+marketing for IBM's RS/6000 Division.  "We're confident
+that developers using this facility will realize the
+advantages in performance and flexibility that the
+RS/6000 offers."
+
+INET OFFERINGS
+
+The iNet porting facility's complete list of resources,
+free to developers (as available), include:
+
+* An iNet porting World Wide Web (WWW) home page at
+http://www.spc.ibm.com that provides information on the
+center and how to use its resources
+
+* Internet access to a number of RS/6000 systems running
+AIX, allowing developers to test drive the platform and
+experience its Internet server capabilities
+
+* Scheduled, secure Internet access to a range of RS/6000
+servers, software development tools, and technical
+support that let developers port or create Internet
+applications for the RS/6000 platform
+
+In addition, developers can use the latest RS/6000
+uniprocessor, symmetric multiprocessor, and scalable
+POWERparallel systems (RS/6000 SP).  IBM development
+tools will also be available.  These include products
+from IBM and third parties like BlueStone, Illustra
+Information Technologies, Lotus, Netscape, Prodigy,
+Progressive Networks, RAD Technologies, Spyglass, VDOnet,
+Verity, Worlds, Xing Technology, and others.  These
+vendors will also provide technical support and training.
+
+Marketing support is also available for Internet
+applications created for or ported to the RS/6000
+platform.  Marketing support includes a listing on a "Hot
+Internet Applications" Web page directory on the SPC's
+home page; marketing links with IBM channels, product
+divisions, and the Industry Solution Units.
+
+BOON TO BIG BLUE, DEVELOPERS
+
+Industry observers were excited about IBM's announcement
+and said the iNet porting facility is a boon to both IBM
+and developers.  "This allows IBM to immediately allow
+developers to begin testing code, testing new market
+ideas -- without building an infrastructure of corner
+stores," said Rich Doherty, a director of The
+Envisioneering Group (Seaford, N.Y.).
+
+Doherty described IBM's iNet porting facility as a
+"virtual service bureau," but said developers who still
+want the security and sanctity of testing their
+applications in person can take their applications to the
+facility in San Mateo.
+
+The Envisioneering Group has accessed the site and built
+ports on IBM's supercomputers.  "There's nothing else
+like it," Doherty said.  "You can call into the heart of
+the technology, try out ideas in private, and have access
+to thousands of dollars of development time."
+
+TRY BEFORE THEY BUY
+
+Not only can developers test out their applications,
+developers can bring their clients in and walk through
+the applications with them to work through any problems,
+Doherty explained.  "This is a `try before they buy' set
+up," he said.  "You couldn't ask for a better match of
+customer and vendor."
+
+Other companies may try to copy elements of IBM's iNet
+porting facility, but Doherty said IBM gives developers
+lots of access to its system.  "These things are usually
+portioned out in terms of minutes, not in terms of tens
+of hours," he said.  "IBM has dozens of ports to ensure
+that each developer has 22 continuous hours.  That's
+unique -- that's not just driving the car around the
+block; that's like borrowing it from the dealer for a
+weekend."
+
+Another analyst agreed that IBM's interest in Internet
+applications is good for the company.  "IBM has a point
+of leverage in this new environment -- it's called data,"
+said John Robb, an analyst with Forrester Research Inc.
+(Cambridge, Mass.).
+
+IBM has huge amounts of data, mostly on its back-end
+systems, Robb explained.  "IBM wants to help companies
+distribute or publish or integrate that data with their
+Web offerings," he said.  "So anything that IBM can offer
+in the way of tool sets is positive.  Everyone wants to
+Web-enable their legacy systems.  IBM should be in the
+business of helping companies do that."
+(RACHEL BROWN)
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+LOTUS LAYS OUT INTERNET STRATEGY
+
+Keeping in line with the trend of major computer
+companies going public with their Internet strategies,
+IBM subsidiary Lotus Development Corp. (Cambridge, Mass.)
+held a conference last month to outline how Notes will
+integrate and interact with the Internet.
+
+The company is working with the Internet -- not against
+it, was the message Lotus stressed to conference
+attendees.  Lotus said it aims to combine its Notes's
+messaging and groupware services with the ubiquity of the
+World Wide Web (WWW).  As part of that plan, Notes
+Release 4 will support key WWW protocols, such as HTTP,
+HTML, and Java technology -- which will allow users with
+either Notes clients or Web browsers to benefit from
+Notes applications.
+
+Michael Zisman, Lotus's executive vice president and CEO,
+offered three specific strategies for Notes integration
+with the Internet:
+
+* Deliver a Notes server in 1996 that joins HTTP, HTML,
+and Java technology with existing Release 4 Notes server
+technology to provide a Web development and application
+hosting environment
+
+* Deliver extensible Web-enabled business application
+frameworks that can be customized by Lotus business
+partners and customers
+
+* Extend Notes clients with the InterNotes Web Navigator,
+a Notes Release 4 Web browsing facility that allows users
+to automate Web access in Notes applications.
+
+LOWER PRICES
+
+Fearing that many companies would shift their
+communications onto the relatively low-cost Internet as
+an alternative to pricey software, Lotus also lowered the
+price of Lotus Notes Mail to $55 per seat.  In addition,
+Lotus' InterNotes Web Publisher, which originally sold
+for $2,995, will soon be available free via the Web to
+Notes.  Also marked for discount are Lotus's upgrade for
+NotesSuite Desktop, its SmartSuite desktop productivity
+applications, and the NotesSuite Application
+Collection -- these will all be reduced by 33 percent,
+from $299 to $199.
+
+"The new, more aggressive pricing for Notes will allow
+our customers to more quickly deploy Notes throughout
+their organizations," said Jeff Papows, Lotus' executive
+vice president and chief operating officer.  "In
+particular, the new mail client and lower pricing will
+make Notes much more attractive for users who need
+electronic mail and Internet access."
+
+Lotus said its merger with IBM allowed the company to
+establish its new pricing model.  "Lotus can now take a
+longer-term financial perspective and position ourselves
+as the price and value leader in the messaging and
+groupware market," Papows said.
+
+But the company raised the price of its Notes server
+software from $275 to $495, rationalizing that the new
+and improved software will be able to link more PCs with
+Notes to centralized computers.
+
+NOTES IS THE WEB
+
+"Lotus is not giving customers a choice of Notes or the
+Web -- Lotus is saying Notes is the Web," said David
+Marshak, vice president and senior consultant for the
+Patricia Seybold Group (Boston, Mass.).  The concept of
+Notes as the Web is very appealing to users because many
+browsers don't offer E-mail, Marshak said.  "Lotus offers
+additional benefits with its browsing," he said.  "It can
+organize the work, run agents against it, have additional
+security."
+
+With Notes as a Web browser, users can browse and do all
+the things with it they can do internally with Notes --
+workflow, connecting to transaction processes, tracking,
+and monitoring, Marshak explained.  Marshak praised the
+company for lowering its prices.  "Lotus is saying that
+the price of the client should not be a barrier to
+whatever you want to do," he said.
+
+"Lotus is making a very powerful statement," Marshak
+continued.  "Lotus is saying: We want you as Notes users.
+Whether you want E-mail, a Web browser, or Notes
+applications, we have the best client in any of these
+uses."
+
+LOOK FOR VALUE
+
+But another analyst said pricing incentives are not
+necessarily the news.  "Pricing is not the issue with
+Notes and the Internet," said Tom Austin, research
+director with the Gartner Group (Stamford, Conn.).  "The
+value is in supporting Web browsers."
+
+Within two years, there will be millions of browsers out
+there, Austin said.  "By supporting the browsers and the
+Internet protocols, Lotus will have extreme breadth of
+capability," he said.  "The value to Lotus is that it
+will gain access to 100 million people."
+
+"Lotus is modifying its technology so that anyone with
+a Web browser can have access to everything that's on a
+Notes server," Austin said.  "Lotus has opened up Notes
+to the point where users can take advantage of Notes
+server without using a client."
+
+While Lotus has accomplished its Internet goals from a
+technical point of view, the company must focus on its
+marketing message, Austin said.  "How do they establish
+the tens of millions of people interested in the Internet
+as Notes users, rather than Netscape users?" Austin
+asked.  "That's their problem: marketing."
+
+Lotus needs to figure out how to establish a new positive
+image in the marketplace, as well as to make people
+understand the benefits that Lotus delivers and to make
+those benefits as easy as the Web, Austin said.  "A lot
+of people call Lotus groupware `gropeware,' with everyone
+groping around trying to find its meaning," he said.
+"Whereas the Web is intuitively obvious to users within
+five minutes."
+
+"At their conference, Lotus stressed that users can build
+great applications.  That doesn't excite people," Austin
+said.  "Lotus does the Web, Lotus does groupware --
+that's not enough.  Lotus needs a stronger marketing
+strategy."
+(RACHEL BROWN)
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+IBM TO EXPAND RMON SUPPORT
+
+Although IBM has supported RMON for some time, the
+company is introducing extensions to the network
+monitoring standard across its hub products starting in
+the next few months.
+
+The extensions include two probe modules, one designed
+to resemble the RMON 2 standard once it is finalized and
+another to generate test traffic on a local area network.
+Right now, IBM has only one probe capable of performing
+these functions: an Ethernet probe for its 8250 Nways
+intelligent hub which can monitor three Ethernet segments
+simultaneously.
+
+In the coming months, IBM will announce these
+capabilities for the 8260, at the top of IBM's line, said
+Sallie Matlack, an IBM-certified IT specialist.  Lesser
+IBM hubs will receive these extensions sometime in the
+future.
+
+RMON (remote network monitoring) is an industry-standard
+method of collecting statistical data at the physical and
+data layers of network segments and sending the data back
+to a central site for analysis.  RMON-compliant probes
+can also detect problems and send warnings to the
+management station.
+
+RMON 2 will expand the range of data that can be
+gathered, looking at higher functions such as network
+protocols and applications, and will provide an end-to-
+end view.
+
+IBM's Enterprise Communications Analysis Module (ECAM)
+is a block of software that looks at the same things RMON
+2 will when the standard is complete.  IBM has created
+a mechanism where ECAM can be automatically downloaded
+from a management station into a probe that has been
+engineered to accept modules like ECAM.
+
+IBM's other RMON extension, called Traffic Transmission
+Management Module (TTMM), can take network traffic
+collected through other monitoring tools and spit it out
+onto a local segment.  This lets network managers monitor
+the impact on that segment via performance monitoring
+tools.
+
+PUTTING IT TOGETHER
+
+To handle the information gathered through RMON probes,
+IBM last October introduced a version of its software
+product Nways Campus Manager - ReMon, a version that
+includes ECAM and TTMM.  In November, IBM brought the
+software from NetView for AIX to HP OpenView.
+
+ReMon lets managers tell the distributed agents which
+packets to capture and send back to the management
+platform.  It also displays the information gathered from
+the probes graphically.
+(JEFF CARUSO)
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "6"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+IDC FORECASTS A GLOOMY 1996 FOR THE INDUSTRY
+
+In spite of a bullish 10-year outlook for on-line
+commerce, researcher International Data Corp. (IDC)
+yesterday predicted 1996 to be a year of disappointment
+as investors and corporations suffer through the
+discouragingly slow development of a significant consumer
+base.  By this time next year, IDC predicted 20 percent
+of the Fortune 500 companies that have commercial Web
+sites will close or stop maintaining them, resulting in
+"ghost" sites.
+
+On-line information service providers (such as
+CompuServe, America Online, Microsoft Network, and
+Prodigy) will derive more than half of their revenue from
+providing access to the Web by mid-1997.  IDC predicts
+that two of the four will struggle to survive.
+
+"In 1996 we predict that the Internet/World Wide Web
+phenomenon will shift from today's `intoxication' stage
+to a `hangover' stage," said Frank Gens, senior vice
+president of research at IDC, the world's leading
+provider of information technology (IT) data, analysis,
+and counseling.  "The high-flying Internet suppliers will
+have disappointing financial results, while technical
+capabilities of the Internet are stretched to the
+breaking point."
+
+Gens also said IT industry revenues will jump from $500
+billion to more than $2.5 trillion by 2010, and corporate
+spending on IT will rise from 2 percent of revenues to
+more than 5 percent. In addition, IDC said it believes
+on-line commerce volume will hit $150 billion or more by
+the year 2000 and more than $1 trillion by 2010.
+
+"Some financial service companies, retailers, and
+publishers will bail out in the initial hangover period,"
+Gens said.  "In the process, they will cripple their
+businesses' ability to compete in the growing `virtual
+economy.' In contrast, leaders in the emerging electronic
+marketplace will significantly increase their
+investments. In the process, the seeds will be sown for
+the creation of new leadership and the downfall of some
+current giants in many industries."
+
+INTERNET APPLIANCES
+
+By this time next year, IDC predicts that manufacturers
+of "Internet appliances" -- low-cost devices that allow
+the user to access on-line information -- will ultimately
+slash prices in half by year's end.
+
+Internet Appliances will arrive in 1996, but the
+successful ones won't be priced at $500, Gens said.  They
+will come out of the gates at $100 to $300.  The game
+console crowd is already slicing away at the pricing for
+simple Web surfing devices.  Within two years, Internet
+Appliances will emerge as giveaways (less than $100 to
+free) by businesses that want customers to access their
+on-line services, according to Gens.
+
+"Price competition in data to the home will become
+brutal," Gens said.  IDC predicted that high-performance
+Internet access will be delivered to the home for as
+little as $15 to $20 per month in 1996, down from $25 to
+$70.  Pricing will drop to $10 to $15 per month within
+the next two years, partially because cable companies
+(with the help of affordable cable modems) will play the
+Internet card as their first foray in the
+telecommunications business.  Telephone companies will
+respond with more aggressive pricing.
+
+According to IDC, in 1996 and 1997, suppliers will
+aggressively explore new home PC designs to drive down
+prices of multimedia devices to $800 to $1,000 (and less)
+in an effort to penetrate broader segments of the
+increasingly important consumer market.  It will be
+paramount for PC vendors to become better acquainted with
+the mainstream consumer electronics market and mentality,
+and learn a whole new meaning of "price-competitive."
+Without doubt, the winners in the PC business in the
+coming decade will be those that crack the mass-market
+barrier, IDC said.
+
+MICROSOFT
+
+IDC predicted Microsoft will have a great year in 1996,
+but its hold will be challenged by the Internet-based
+"Revenge of the (Unix) Nerds."  One effect of the
+Internet phenomenon of 1995 has been that many on Wall
+Street and within the IT industry now are forecasting the
+undoing of Microsoft's hold on the industry, and hailing
+the rise of Netscape and Sun Microsystems as the new
+industry leaders.
+
+"While IDC recognizes the potential of the Internet world
+to weaken several of Microsoft's key levers on the
+industry, such as OLE and Visual Basic, there will be
+relatively little revenue effect from this in 1996," Gens
+said.  "We also believe in spite of the recurring rumors
+of Department of Justice investigations, Microsoft will
+escape any major antitrust activity in 1996, an election
+year.  Additionally, Microsoft will conclude that its
+ventures into new businesses will have a greater chance
+of success without the Microsoft brand."
+
+OTHER PREDICTIONS FOR THE NEW YEAR
+
+* There will be an Internet-driven shakeout in the
+application software and application development tools
+businesses in 1996 and 1997.  The emergence of the Web,
+and the growing importance of entertaining,
+multimedia-rich interfaces, will challenge the current
+crop of client/server tool suppliers like Microsoft,
+Powersoft, Dynasty, Forte, and Seer, as well as
+application package companies like SAP and Peoplesoft.
+
+* Software licensing will support network access and
+short-term "rental."  Behind the scenes, suppliers are
+currently exploring how to "crack the code"  on this
+charging model; the leaders will begin experimenting in
+the marketplace in 1996 and 1997.
+
+* Large systems will become "politically correct."
+High-end servers will increasingly be required to scale
+to support direct access by thousands to potentially
+millions of users, as opposed to today's hundreds to
+thousands of corporate users.  This accelerated scaling
+requirement will put pressure on Microsoft's enterprise
+strategy due to NT's relatively low-end design point,
+and boost the Unix camp's high-end business.
+Beneficiaries will be IBM, Hewlett-Packard, Sun
+Microsystems, and -- perhaps -- a rejuvenated Digital.
+
+* The increased scope of the Net will favor suppliers
+that excel in creating "virtual organizations."
+Successful suppliers will be able to play well in a
+"virtual organization"  structure -- able to act as
+creator, investor, producer, and/or partner.
+
+A full copy of IDC's 1996 predictions can be found on
+IDC's home page.  The address is
+http://www.idcresearch.com.
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "7"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+TELEGENICS LAUNCHES TELECOM NETWORK MANAGEMENT SOLUTIONS
+
+Telegenics announced last month that its Embedded
+Telecommunications Solutions (ETS) product line for
+advanced network management is now available.  The ETS
+product suite manages advanced networks, such as
+SONET/SDH, ATM, and PCS, by providing integrated,
+optimized, embedded software solutions for
+telecommunications equipment.  Eight equipment
+manufacturers are integrating the ETS product suite into
+their telecommunications products.
+
+ETS products are vertically profiled for specific
+protocol stacks, subnetworks, and MIBs.  These modules
+integrate into a number of supported real-time operating
+system (RTOS) environments.  The product suite also
+supports software downloading and remote login.  Current
+elements of ETS support CMIP agent and SONET/SDH
+management over both full and partial OSI protocol stacks
+and a variety of subnetworks including 802.3, X.25, and
+the embedded data communications channel.
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "8"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+HORIZONS TECHNOLOGY ENHANCES LANAUDITOR
+
+Horizons Technology Inc. (HTI) recently adopted a
+subscription license model for its flagship network
+management product LANauditor.  The news coincides with
+the release of LANauditor 3.1, which incorporates new
+features and major enhancements.  LANauditor provides
+continuous hardware/software inventory scanning of local
+area networks.  LANauditor works as a standalone product
+or can be integrated into popular help desk,
+troubleshooting, asset management and accounting systems.
+The enhancements in the 3.1 version include:
+
+* Windows 95 and Windows NT workstation auditing
+
+* Audit of registered DMI information
+
+* Enhanced client scanning, including TCP/IP address and
+sub-net collection
+
+* New customizable administration screen for up to 46
+fields
+
+* Compaq and Dell detail recognition, including BIOS
+information
+
+Registered LANauditor 3.1 users will also receive the Win
+'95 Migration Tool for free.  This cost analysis tool
+lets users determine the productivity gains needed to
+recover the potential investment costs of migrating to
+Windows 95.  HTI's Win '95 Tool is based on a financial
+cost analysis model developed with the chairman of the
+Finance Department of the Business School of San Diego
+State University.  With more than 20 user-defined
+variables for aspects ranging from cost per hour for
+training and upgrade support to the cost for hard disk
+upgrades, the Win '95 Migration Tool can be applied to
+planning scenarios for many types of business.
+
+LANauditor is available in 25-user and 100-user perpetual
+license packages from resellers worldwide.  Both packages
+include the database and the Console Module to access the
+database.  Packages can be integrated to match the node
+count of the user network.  For example, two 100-user
+packages and one 25-user package will support a network
+with 225 nodes.  One year Premium Support is included
+with the package product and can be renewed on an annual
+and biannual basis.
+
+NEW PACKAGE
+
+With LANauditor 3.1 HTI is introducing its Enterprise
+Program for customers who need to manage information from
+large sites and desire a lower-cost alternative to
+standard packaged products.  Participants in the
+Enterprise Program can license LANauditor for either one
+year (Gold Program) or two years (Platinum Program).  At
+the end of the license period, the user can renew the
+license, or the software can be returned to HTI.  The
+Enterprise Program allows licensing for exactly the
+number of nodes required and nodes can be added at any
+time during the licensing period.  A Platinum user can
+buy the product outright through a perpetual license for
+a small additional per-node fee.
+
+The Premium Support Program is designed to assure users
+of continuous enhancements and improvements as PC systems
+evolve.  The program includes: free upgrades, quarterly
+software dictionary and hardware agent upgrades, free
+utilities for LANauditor such as the Win '95 Migration
+Tool, free telephone support, free Internet technical
+support, free monthly electronic newsletter, and product
+tips.
+
+As an asset management tool, LANauditor provides
+continuously updated, detailed records of network assets.
+For help desk and troubleshooting operations,
+LANauditor's reports on changes to network node
+configurations highlight probable causes of problems for
+quick and easy correction.  LANauditor is the only
+inventory product that tracks all user and network
+changes that occur between each scheduled inventory.
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "9"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+PLATINUM TECHNOLOGY RELEASES CHARGEBACK SYSTEM
+
+PLATINUM technology inc. last month released CIMS, an
+integrated chargeback system for heterogeneous,
+distributed computing environments.  The system provides
+critical chargeback services that track information
+resources used organization-wide.  The CIMS
+applications -- including job accounting, chargeback,
+cost analysis, resource utilization reporting, capacity
+planning, and resource monitoring -- simplify the IS
+management process, according to PLATINUM.
+
+On Dec. 13, 1995, PLATINUM technology acquired the
+developer of the CIMS integrated chargeback system, the
+privately-held BMS of Newcastle, Calif.  BMS will become
+a wholly owned subsidiary of PLATINUM technology.  Terms
+of the agreement were not disclosed.  The company said
+the addition of BMS chargeback software is a key
+component of PLATINUM's plan to provide complete,
+integrated operations and systems management solutions
+for the Open Enterprise Environment (OEE).
+
+HOOKS TO CABLETRON
+
+In related news, PLATINUM technology formed an alliance
+with Cabletron Systems.  The company said a broad array
+of its diverse software product line will support and
+integrate with Cabletron Systems' Spectrum Enterprise
+Manager.  As part of a technology alliance to provide
+platform integration, PLATINUM will provide its systems
+and database management customers the ability to manage
+a wide variety of open, distributed enterprise networked
+environments using SPECTRUM.
+
+PLATINUM has recently announced additional relationships
+with HP and AT&T, as well as development plans for its
+own framework, POEMS.
+
+Various point products could be adapted to hook into
+SPECTRUM by different means.  The first phase of
+integration for most partners is through the use of a
+Cabletron-provided toolkit that PLATINUM could use to
+enable event passing, database information exchange, and
+script integration.  Another phase of integration would
+be via published APIs.  Further levels of integration
+between SPECTRUM and PLATINUM -- including enhanced alarm
+integration and knowledge-based integration -- will be
+evaluated on an application-by application-basis.
+Regardless, the companies said they are confident the
+open nature of SPECTRUM will allow quick integration to
+take place.
+
+Among the PLATINUM products being considered for
+adaptation to SPECTRUM are:
+* Apriori, PLATINUM's client/server help desk product:
+customers have the need for network events, such as an
+exceeded network threshold, to be reported to the
+corporate help desk.
+
+* Xfer, PLATINUM's software distribution tool: IS support
+staffs need to have a way to distribute software and
+revisions across networks.  When integrated with
+SPECTRUM, Xfer actions can be seen from SPECTRUM's
+network map, providing a graphical view of distribution
+actions.
+
+* AutoSys, PLATINUM's client/server job management tool:
+clients need to reliably schedule jobs across their
+entire networked enterprise.
+
+* DBVision, PLATINUM's database performance management
+and monitoring tool: customers need to monitor and ensure
+database availability across networks and assure database
+integrity.
+
+* Database management tools: PLATINUM's database
+management products support the DB2 family, Sybase,
+Microsoft SQL Server, Oracle, and Informix.  SPECTRUM
+exports to these and other popular formats.
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "10"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+WEB SERVER TRAFFIC MEASUREMENT ENABLED
+
+Network security and analysis software vendor e.g.
+Software introduced WebTrends 1.0, a way to obtain
+detailed analysis of the traffic on web servers.
+WebTrends automatically produces reports showing user
+activity by market, interest level in specific pages or
+services, which products are most popular, and whether
+a visitor has a local or national origin.
+
+It offers access not only to the number of potential
+buyers who visit a web site but also their demographics.
+The program also includes a built-in scheduler to print
+reports based on specified criteria.  Reports generated
+by WebTrends include statistical and graphical
+information that can be viewed either on a local server
+or from a remote location, as well as tables and graphs
+generated as HTML files that can be edited or viewed by
+any browser.
+
+WebTrends also includes an international database of
+Internet addresses, including company name and address
+by city, state, and country.  Beta and trial versions of
+WebTrends are available immediately through
+http://www.egsoftware.com.  The retail version will be
+available in February 1996 for a suggested single-user
+price of $299.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "11"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+MICROSOFT TEAMS WITH WALL DATA FOR ENTERPRISE
+CONNECTIVITY
+
+Microsoft Corp. and Wall Data Inc. released the RUMBA-SNA
+Server Solution Pack, which provides an enterprise
+connectivity solution for business users.  IBM mainframe
+and AS/400 users can now access and use host data from
+Microsoft desktops.  The product package consists of
+Microsoft SNA Server, five client access licenses for SNA
+Server, and five copies of Wall Data RUMBA OFFICE for
+SNA Server.  The product is offered exclusively by Tech
+Data, a U.S. distributor, and is available immediately
+for an estimated retail price of $1,484.  The Solution
+Pack is also available in 25-, 100-, and 250-user
+versions.
+
+RUMBA OFFICE is a Windows-based software product that
+provides access to a range of latent client/server
+capabilities on business-critical systems which include
+IBM mainframe and AS/400 systems.  It enables users to
+leverage business information and applications across the
+enterprise.  RUMBA OFFICE also includes Data Access,
+which provides direct access to relational databases so
+that end users can easily integrate business-critical
+data into their Windows-based applications, and
+QuickAssist, which can increase productivity by
+remembering and entering information in user entry
+screens based on previous actions.
+
+Using a client/server architecture, Microsoft SNA Server
+offloads the communications processing from host
+computers and desktop PCs.  Each PC uses only standard
+LAN protocols, such as TCP/IP, IPX/SPX, Named
+Pipes/NetBEUI, Banyan VINES or AppleTalk to connect to
+one or more SNA Servers.  The SNA Servers then connect
+to the mainframe and AS/400 systems using SNA protocols.
+
+SNA Server offers advanced tools for easy system setup
+and centralized graphical administration. It supports
+every important PC and network operating system, LAN
+type, SNA host connection, and host type. You can connect
+clients and manage SNA Servers across LAN and WAN
+bridges, routers and over dial-up lines.
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "12"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+NETMANAGE RELEASES INTRANET FAX SERVER FOR DESKTOPS
+
+NetManage Inc. released a Windows-based Fax Server that
+allows users to send and receive facsimile documents
+directly from their Windows PC using Internet technology.
+Chameleon Fax Server lets users send, receive, route and
+manage their faxes over the Internet.
+
+The product integrates with NetManage's Chameleon Desktop
+mail client and runs on Windows and Windows 95 platforms.
+Chameleon Mail supports MAPI (Messaging Application
+Programming Interface) and provide users with a point-
+and-click solution for sending and receiving MS Word or
+other MAPI-compliant application files.  Chameleon
+Desktop includes the NEWTView application for viewing fax
+documents.  Chameleon Fax Server's DID (Direct Inward
+Dial) support allows users to automatically receive faxes
+in their mailbox as a MIME (Multi-purpose Internet mail
+extension) attachment.
+
+Users can store important fax numbers in the Chameleon
+Mail Address Book or in the company's ECCO phonebook.
+Once the user sends a fax the data is stored in the Fax
+Log by date, time, number dialed, size and length of
+document. Additionally, inbound faxes are marked by
+subject and sender and can be stored into folders by
+defining Chameleon Mail rules.
+
+Chameleon Fax Server is available immediately for US $299
+for a 30 user license.  Chameleon Mail is included in the
+Chameleon Desktop application suite and is available in
+Windows and NT platforms.  Chameleon Desktop is priced
+at $400 per single copy and includes over 50 desktop
+applications including host connectivity, file and
+printer sharing, messaging, workgroup collaboration,
+desktop management and Internet access.  A Windows 95
+version will be available in the first quarter of 1996.
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "13"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+SPECTRUM PARTNERS MORE THAN DOUBLE IN 1995
+
+The number of Spectrum partners has grown more than 125
+percent during 1995.  Spectrum partners support
+Cabletron's Spectrum Enterprise Manager for network and
+systems management in three ways: application providers;
+integrator and professional service providers; and
+academic or research affiliations.  Currently there are
+133 Spectrum partners worldwide with broad geographical
+support -- in 31 countries -- including partners in
+Europe, South America, North America, Africa, Australia
+and Asia. Of these, 74 provide applications, 55 provide
+integration capabilities, and seven support Spectrum
+through research.  Through its partners as well as
+in-house development, Spectrum offers more than 220
+applications.
+
+Some of the most recent partners to join the Spectrum
+Partners Program are:
+
+* PLATINUM technology inc. provides products and
+integrated solutions that help IS organizations manage
+complex, multiplatform, multi-operating system,
+multivendor environments -- from help desk support to job
+scheduling to database management (see related story).
+
+* Telco Research Corp.'s TRU SERVER System addresses the
+daily operations and the recurring problems of a business
+telecommunications office.  The system provides functions
+for accounting, decision-making tools for planning
+expenditures, tools for work-order generation and
+tracking, tools for maintaining inventories, tools for
+optimizing employee productivity and tools to monitor and
+report telephone abuse.
+
+* Storage Computer Corp. develops and markets a
+comprehensive line of high-performance, high-availability
+storage systems. Customers will be able to manage Storage
+Computer's RAID7 Storage Servers from Spectrum through
+the company's newly announced Storage Administrator by
+pointing and clicking on icons within the Spectrum
+screen.
+
+* BMC Software Inc.'s PATROLVIEW for Cabletron gives
+Spectrum customers an integrated view of information
+about applications and data managed by PATROL Autonomous
+Agents.  This new partner further enhances Spectrum's
+rich set of options in systems and automated management.
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "14"></A>Copyright
+SYSTEMS & NETWORK MANAGEMENT REPORT via NewsNet
+January 9, 1996
+
+ON TECHNOLOGY ANNOUNCES NLM FOR IP ADDRESS MANAGEMENT
+
+ON Technology Corp. announced the first NetWare Loadable
+Module (NLM) that provides central IP address management,
+a frustrating and onerous task placed on NetWare
+administrators in the rush to get Internet access to
+every desktop.  Awareness of the IP address management
+problem has grown as a result of demand for Internet
+access and a shortage of IP addresses under the current
+addressing system.
+
+The company said the new product, IPTrack, is the first
+implementation of a TCP/IP protocol called Dynamic Host
+Configuration Protocol (DHCP) specifically designed as
+an NLM for NetWare environments.  ON Technology's IPTrack
+automates the work it takes for a NetWare administrator
+to assign an IP address, maintain a log of address
+assignments, track the address if the workstation is
+moved, troubleshoot IP address conflicts, and re-assign
+inactive addresses.
+
+To purchase IPTrack or receive additional information,
+network administrators should send inquiries over the
+Internet to info@on.com or visit the ON Technology home
+page on the World Wide Web at http://www.on.com.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

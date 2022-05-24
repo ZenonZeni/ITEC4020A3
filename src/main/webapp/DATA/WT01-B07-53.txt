@@ -1,0 +1,316 @@
+
+<DOC>
+<DOCNO>WT01-B07-53</DOCNO>
+<DOCOLDNO>IA068-000417-B010-146</DOCOLDNO>
+<DOCHDR>
+http://www.aivc.org:80/sam.html 194.217.120.80 19970113032318 text/html 14047
+HTTP/1.0 200 OK
+Date: Mon, 13 Jan 1997 03:23:03 GMT
+Server: Apache/0.8.14
+Content-type: text/html
+Content-length: 13874
+Last-modified: Mon, 09 Sep 1996 10:57:40 GMT
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+
+<META NAME="AUTHOR" CONTENT="Air Infiltration and Ventilation Centre">
+
+<META NAME="DOCCOMM" CONTENT="r           ">
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT="I >
+<META NAME="CREATIM" CONTENT="1996:9:9:11:52:">
+
+<META NAME="VERSION" CONTENT="1">
+
+</HEAD>
+
+<BODY>
+
+<P>
+Air Infiltration Review, Volume 17, No 4, September 1996, World
+Wide Web Edition
+<P>
+&#169; Copyright Oscar Faber PLC on behalf of the International
+Energy Agency, 1996<HR>
+
+<H1>Sensitivity Analysis for Modellers<A NAME="Beginning"></A>
+</H1>
+<HR>
+
+<H3>Jean-Marie F&uuml;rbringer</H3>
+
+<P>
+Guest researcher, <A HREF="http://www.bfrl.nist.gov/bed.html" >National Institute of Standards and Technology  
+</A>, Gaithersburg, USA
+<P>
+Email: jean-marie.furbringer@nist.gov
+<MENU>
+<LI><A HREF="#Introduction" >Introduction  </A>
+<LI><A HREF="#Techniques" >Techniques  </A>
+<LI><A HREF="#MISA" >MISA (Multirun Interface for Sensitivity Analysis)  
+</A>
+<LI><A HREF="#Conclusions" >Conclusions  </A>
+<LI><A HREF="#Acknowledgements" >Acknowledgements  </A>
+<LI><A HREF="#References" >References  </A>
+</MENU>
+
+<H2><A NAME="Introduction">Introduction</A></H2>
+
+<P>
+This short article aims to inform modellers and model users about
+efficient sensitivity analysis methods. Also presented is a tool
+under development aimed at simplifying the application of sensitivity
+methods. Such techniques are essential to add confidence to numerical
+prediction. Too often, simulation data are presented without any
+error bars and any information on their accuracy. They are obtained
+with a single run of the model, and the influence of the input
+uncertainty is ignored. Sometimes, although less often, a one-parameter-at-a-time
+sensitivity analysis is performed, requiring a relatively long
+time and providing no indication of interactions and unsuspected
+effects.
+<P>
+It is important to understand that efficient methods exist for
+sensitivity analysis and that they are widely used in such fields
+as environmental risk analysis, economics, and the aircraft, nuclear
+and defence industries. In those fields, modellers are required
+to verify their results with sensitivity and error analyses <A HREF="#References" >[6]  
+</A>.
+<H2><A NAME="Techniques">Techniques</A></H2>
+
+<P>
+It is a challenge for modellers to distribute models which cannot
+be misused too easily. This means asking the user about the uncertainty
+of the input, calculating confidence intervals, providing means
+to perform sensitivity and error analysis, and addressing these
+topics in the user manual and in simulation reports. It can also
+mean including a specialist on sensitivity analysis in the development
+team.
+<P>
+One of the arguments used to justify the avoidance of sensitivity
+analysis is that the problem has too many input parameters. This
+can be overcome by using techniques such as the 'Monte Carlo'
+which is capable of being used to calculate confidence intervals
+in one hundred runs for any number of varying input parameters
+(&#177;14% accuracy if Gaussian hypothesis is valid) <A HREF="#References" >[3,10]  
+</A>. Plackett and Burman designs exist which allow users to calculate
+all main effects of N parameters with N+1 runs, for N up to 100
+or more <A HREF="#References" >[15]  </A>. Sobol method exists
+which makes possible apportionment of the linear and nonlinear
+sensitivity between parameters or groups of parameters <A HREF="#References" >[8,19]  
+</A>. Sequential bifurcation exists which screens important effects
+with a small number of runs much smaller than the number of varying
+parameters (i.e. 136 runs to extract 23 major parameters from
+390) <A HREF="#References" >[16,17]  </A>. For parametric or optimization
+studies, statistical techniques are available which minimize the
+number of simulations. They are usually based on surface response
+techniques <A HREF="#References" >[11]  </A>.
+<P>
+In September 1995, the SAMO (Sensitivity Analysis of Model Output)
+conference in Belgirate was dedicated to those techniques and
+their use in different fields. The proceedings can be obtained
+via the Internet by connecting to <A HREF="http://rea.ei.jrc.it/SAMO/" >http://rea.ei.jrc.it/SAMO/  
+</A>and down-loading files <A HREF="#References" >[18]  </A>.
+Further information on this topic can also be located on the WWW
+by searching under 'sensitivity analysis'.
+<P>
+A common starting point is the textbook by Box et al. on design
+of experiments <A HREF="#References" >[1]  </A>. The use of experimental
+design in simulation was initiated by Naylor in 1969 <A HREF="#References" >[14]  
+</A>. Several textbooks on simulation introducing classical techniques
+are also available <A HREF="#References" >[9,11]  </A>. More sophisticated
+and also recent techniques are published in the following journals:
+<UL>
+<LI>American journal of Mathematical and Management Sciences
+<LI>Biometrica
+<LI>Communication in statistics (Theory and Method)
+<LI>Communication in statistics (Simulation and Computation)
+<LI>Communication ACM
+<LI>Computational statistics and data analysis
+<LI>Computer in physics
+<LI>European journal of operational research
+<LI>Journal of statistical computation and simulation
+<LI>Journal of mathematical physics
+<LI>Journal of quality technology
+<LI>Management sciences
+<LI>Mathematics and computers in simulation
+<LI>Reliability engineering and system safety
+<LI>Simuletter
+<LI>Simulation
+<LI>Tecnometrics
+</UL>
+
+<P>
+This list is not at all comprehensive but few are read by building
+physics practitioners. It is very difficult to keep track of what
+is going on in secondary subjects, especially in statistics because
+the vocabulary is sometimes different, and extracting practical
+information is not straightforward. Key papers are surveys of
+the subject by J.C. Helton, T. Turanyi or J. Kleijnen which contain
+many valuable pointers <A HREF="#References" >[7,20,13]  </A>.
+<P>
+As part of IEA Annex 23 'Multizone air flow modelling', an important
+effort was targeted on the problem of simulation confidence. This
+addressed experimental as well as user-introduced uncertainty.
+The final report contains theoretical points, techniques and several
+case studies <A HREF="#References" >[2,5]  </A>, thus representing
+a good introduction to the subject of sensitivity analysis for
+ventilation practitioners.
+<H2><A NAME="MISA">MISA </A>(Multirun Interface for Sensitivity
+Analysis)</H2>
+
+<P>
+In practice tools are needed which are efficient but at the same
+time are good tutorials. One such tool, known as MISA (Multirun
+Interface for Sensitivity Analysis) is currently being developed
+at NIST. It is a Windows version of a tool developed as part of
+Annex 23. The aim of this software is to provide practitioners
+with a way to use up-to-date statistical methods for simulation
+and to allow them to perform a sensitivity analysis within a couple
+of hours. MISA is designed for encapsulating a DOS or a UNIX modelling
+program that works in batch mode with unformatted input and output
+file(s). The computation procedure follows <A HREF="#References" >[4]  
+</A>:
+<OL>
+<LI>The project file (the input file representing the project
+under study) is flagged to point the parameters to be studied
+and becomes a reference file.
+<LI>The ranges of the parameters to be varied are entered.
+<LI>Depending on the type of statistical method to be used, a
+design consisting of a special matrix of standardized values is
+selected. The design matrix has one line per simulation run and
+one row per parameter to be varied.
+<LI>A new input file is generated by processing the reference
+file, the range information and a line of the design matrix. The
+new input file is run.
+<LI>Step 4 is repeated as many times as necessary to complete
+the design.
+<LI>Numerical treatments such as mean, standard deviations and
+correlation coefficients or meta-model regression are applied
+to the output to extract the sensitivity indices or uncertainty
+information related to the selected statistical technique.
+</OL>
+
+<P>
+The general idea of the interface (see <A HREF="#Figure_1" >Figure 1  
+</A>) is to represent the flow of information during the multirun
+process and, within this scheme, to provide the user with tools
+to perform analyses. The graphical interface, making the structure
+evident, gives the user easy access to the multirun facility,
+and he can then spend more effort on the statistical strategy
+to follow and the analysis of the results.<BR>
+
+<P>
+<I><A NAME="Figure_1">Figure 1</A>: Main window of MISA (Multirun
+Interface for Sensitivity Analysis). It is a graphical representation
+of the flow of information during the procedure. The user enters
+commands through push buttons and pop-up menus which are placed
+into the scheme according to their influence. Help windows are
+available which explain the main point of each step of the procedure
+</I>.
+<H2><A NAME="Conclusions">
+<IMG SRC="model.gif" ALIGN="BOTTOM" >
+Conclusions</A></H2>
+
+<P>
+Simulation work should incorporate a sensitivity analysis indicating
+the confidence limits of output data. This can be done efficiently
+by using up-to-date statistical techniques as it is done in others
+fields. There are many such techniques, and a statistical handbook
+for simulation could be of great help.
+<P>
+Sensitivity Analysis must be considered when developing models
+and user interfaces as well as when beginning a new study. To
+assist this approach, MISA will be available very soon.
+<P>
+For further information please contact the author, who has a 'beta'
+version of MISA under evaluation.
+<H2><A NAME="Acknowledgements">Acknowledgements</A></H2>
+
+<P>
+This work is supported by the FNRS (National Science Fund - Switzerland)
+and NIST (National Institute for Standards and Technology- USA).
+<H2><A NAME="References">References</A></H2>
+
+<OL>
+<LI>Box G.E.P., Hunter W.G., Hunter J.S.: Statistics for experimenters,
+an Introduction to design, data analysis and model building. John
+Wiley, New York, 1978.
+<LI>F&uuml;rbringer J.-M., Roulet C.-A., Borchiellini R. ed.:
+Evaluation of COMIS, final report IEA.ECB&amp;CS Annex 23 Multizone
+Air flow Modeling. LESO-PB, EPFL, 1015 Lausanne Switzerland, 1995.
+<LI>F&uuml;rbringer J.-M., Roulet C.-A.: Comparison and combination
+of factorial and Monte Carlo design. Building and Environment,
+vol. 30, No.4, pp. 505-519, 1995.
+<LI>F&uuml;rbringer J.-M., Roulet C.-A.: Confidence of simulation
+results: put a SAM in your model. Submitted to Energy and Building
+1996.
+<LI>F&uuml;rbringer J.-M., Roulet C.-A., Borchiellini R.: An overview
+on the evaluation activities of IEA ECB&amp;CS Annex 23. Submitted
+to Energy and Building 1996.
+<LI>Gass S.I., Thompson B. W.: Guidelines for model evaluation:
+an abridged version of the U.S. general accounting office exposure
+draft. Operations research, vol. 28, no. 2, pp. 431-439, 1980.
+<LI>Helton, J. C.: Uncertainty and sensitivity analysis techniques
+for use in performance assessment for radioactive waste disposal.
+Rel. Eng. and System Safety, 42, 327&#173;367, 1993.
+<LI>Homma T., Saltelli A.: Global sensitivity analysis of nonlinear
+models importance measures and Sobol' sensitivity indices. EUR
+16052/EN 1994.
+<LI>Law A.M., Kelton W.D.: Simulation modelling and analysis.
+McGraw-Hill, New York, 1982.
+<LI>Lomas K., Eppel H. : Sensitivity analysis for building thermal
+simulation programs. Energy and buildings,No19, pp21-44, 1992.
+<LI>Kleijnen J., Van Groenendaal W.: Simulation a statistical
+perspective. John Wiley, New York, 1992.
+<LI>Kleijnen J.: Sensitivity analysis of simulation experiments:
+regression analysis and statistical design. Mathematics and Computers
+in Simulation, 34, pp. 297-315, 1992.
+<LI>Kleijnen J.: Sensitivity Analysis and related analyses: a
+survey of statistical techniques. SAMO'95. Theory and applications
+of sensitivity Analysis of Model Output in computer simulation,
+Belgirate Italy, 25-27 September 1995.
+<LI>Naylor T.H. ed.: The design of computer simulation experiments.
+Duke Univ. press, Durham, NC, 1969.
+<LI>Plackett R.L., Burman J.P.: The design of optimum multifactorial
+experiments, Biometrika, n&#161; 33, 1946.
+<LI>Rahni N., Ramdani N., Candau Y., Dalicieux P.: Application
+of group screening to dynamic building energy simulation models,
+submitted to Jour. of Statistical Computation and Simulation,
+1996.
+<LI>Saltelli, A., Andres T.H., Homma T.:Sensitivity Analysis of
+model output. Performance of the Iterated Fractional Factorial
+Design (IFFD) method. Computational Statistics and Data Analysis,
+20, 387-407 1995
+<LI>Saltelli A. and von Maravic' H. Editors: Proceedings of the
+Symposium on Theory and Applications of Sensitivity Analysis of
+Model Output in Computer Simulation (SAMO), Belgirate (I), Sept.
+1995, EUR report 16331, ISBN 92-827-5530-4, Luxembourg 1996.
+<LI>Sobol', I. M.: Sensitivity estimates for nonlinear mathematical
+models, Matematicheskoe Modelirovanie, 1990, Vol. 2(1), 112&#173;118
+(in Russian), translated in Mathematical Modelling and Computational
+Experiments, 1(4) 407&#173;414, 1993.
+<LI>Turany T.: Sensitivity analysis of complex kinetic systems.
+Tools and applications. Journal of Mathematical Chemistry 5, pp.
+203-248, 1990.
+</OL>
+<HR>
+
+<P>
+<A HREF="#Beginning" >Beginning of article  </A>
+<P>
+<A HREF="elecair.html" >AIR front page  </A>
+</BODY>
+
+</HTML>
+</DOC>

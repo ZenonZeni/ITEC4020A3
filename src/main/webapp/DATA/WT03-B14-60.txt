@@ -1,0 +1,208 @@
+
+<DOC>
+<DOCNO>WT03-B14-60</DOCNO>
+<DOCOLDNO>IA057-000944-B024-113</DOCOLDNO>
+<DOCHDR>
+http://gw.sentin.com:80/lead.html 206.26.168.119 19970109200311 text/html 7178
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Thursday, 09-Jan-97 20:10:50 GMT
+Content-type: text/html
+</DOCHDR>
+<HTML> 
+<HEAD>
+<TITLE>Lead</TITLE>
+</HEAD>
+<script>
+<!-- Beginning of JavaScript Applet -------------------
+/* Copyright (C)1996 Web Integration Systems, Inc. DBA Websys, Inc.
+   All Rights Reserved.
+   This applet can be re-used or modified, if credit is given in the source code.
+   We will not be held responsible for any unwanted effects due to the usage of this applet or any derivative.  No warrantees for usability 
+   for any specific application are given or implied.
+
+   Hacked by James H. Godsey 8/22/96
+*/
+function scrollit_r2l(seed)
+{
+
+
+	var m1  = "Did you know that LEAD poisoning is the NUMBER 1 killer among American pre-school children ?     ";
+
+        var m2  = " ";
+
+	var m3  = " ";
+
+	var m4  = " ";
+
+	var msg=m1+m2+m3+m4;
+
+	var out = " ";
+
+	var c   = 1;
+
+	if (seed > 100) {
+
+		seed--;
+
+		var cmd="scrollit_r2l(" + seed + ")";
+
+                            timerTwo=window.setTimeout(cmd,100);
+
+
+	}
+
+	else if (seed <= 100 && seed > 0) {
+
+		for (c=0 ; c < seed ; c++) {
+
+			out+=" ";
+
+		}
+
+		out+=msg;
+
+              	seed--;
+
+              	var cmd="scrollit_r2l(" + seed + ")";
+
+
+
+                 	    window.status=out;
+
+		timerTwo=window.setTimeout(cmd,100);
+
+
+
+	}
+
+	else if (seed <= 0) {
+
+
+		if (-seed < msg.length) {
+
+			out+=msg.substring(-seed,msg.length);
+
+			seed--;
+
+			var cmd="scrollit_r2l(" + seed + ")";
+
+			window.status=out;
+
+			timerTwo=window.setTimeout(cmd,100);
+
+
+		}
+
+
+              	else {
+
+
+			window.status=" ";
+
+			timerTwo=window.setTimeout("scrollit_r2l(100)",75);
+
+
+
+		}
+
+
+	}
+
+
+
+}
+
+
+
+// -- End of JavaScript code -------------- -->
+
+</script>
+<BODY onLoad="timerONE=window.setTimeout('scrollit_r2l(100)',500);" background="world.gif" text="#00007D" link="#800080" vlink="#004080">
+<TABLE width="100%" ALIGN="center" BORDER="0" CELLPADDING="5" CELLSPACING="0">
+<tr>
+<TD width="10%" VALIGN="TOP" bgcolor="#0000FF">
+<br>
+<center><IMG SRC="earth.gif" WIDTH="50" HEIGHT="50"></center>
+<br>
+<center><font size="7" color="#FFFFFF"><b>S<br>E<br>N<br>T<br>I<br>N<br>
+E<br>L</b></font>
+</td>
+<td align="left" width="90%">
+<center><font size=6><b>LEAD RELATED SERVICES</b></font></center>
+<br>
+<center><img src="senhr.gif" height="5" width="536"></center>
+<br>
+<center>Reduce your Liability....<br>
+<font size=4><b>RELY ON SENTINEL TO PROVIDE LEAD INSPECTIONS,<BR>
+RISK ASSESMENTS & LABORATORY ANALYSIS.</b></font></center>
+<br>
+<center><img src="senhr.gif" height="5" width="536"></center>
+<br><br>
+<font size=4>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;The incidence of Lead-Based Paint (LBP) poisoning is the Number 1 environmental cause of illness and death among pre-school children. The federal Centers for Disease Control reported that approximately one in six young children have elevated blood-lead levels associated with such adverse health problems as hemotologic and endocrinologic disorders, decreased intelligence and learning ability and behavioral distrubances.  As concerned parents, teachers, and owners of childcare centers and pre-schools, it is imperative to know if our homes, educational institutions, and recreational facilities pose potential Lead-Based Paint hazards to our children.  
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;The horrors of Lead-Based Poisoning are common and all too real; the good news is Lead-Based Paint Poisoning IS entirely preventable.  There are two basic assessment techniques recognized by federal and state governments to determine Lead-Based Hazards.  The first is the Lead-Based Paint Risk Assessment which is designed to identify circumstances where children are at risk for Lead-Based Paint Poisoning generally in the forms of Lead contaminated dusts generated from renovations, soils and water.  The second is the Lead Inspection which is design to identify each structural component within the home or other facility which contains Lead-Based Paint.  Though banned in 1978, it is estimated that approximately fifty-seven million homes, excluding public housing contain Lead-Based paint.  
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;Sentinel is committed to the elimination of childhood Lead poisoning; as a public service, we have designed the following Risk Assessment & Lead Inspections informational surveys.  These surveys are intended to alert parents and owners of facilities frequented by pre-school children of potential Lead-Based Paint dangers.  After completing the surveys, please proceed to the informational section entitled "Lead-Based Paint Poison Prevention" if your survey results indicate LBP risk factors are present.
+</p>
+<br>
+<center><img src="senhr.gif" height="5" width="536"></center>
+<br>
+Sentinel provides comprehensive Lead-Related Services to meet Federal & State requirements:
+<ul>
+<li>Accredited Lead Inspectors & Risk Assesors</li>
+<li>Acrredited Lead Supervisors & Abatement Designers</li>
+<li>Accredited AIHA Enviromental Lead Laboatory ID# 12133</li>
+<li>AIHA ELPAT participant</li>
+<li>USEPA Contract Laboratory (CLP) ID: SENTIN</li>
+<li>Professional liability insurance, minimum $1 million</li>
+<li>Member AIHA, ABIH, NREP, IHMM</li>
+<li>Experienced environmental professionals serving Huntsville since 1983</li>
+</ul>
+<br>
+<center><img src="senhr.gif" height="5" width="536"></center>
+<br>
+<A NAME="link2"><!-- --></A>
+<center><FORM ACTION="http://www.sentin.com/form.html"><table border="7" cellspacing=0 cellpadding=0><td><INPUT TYPE=submit VALUE="To Order"></td></table></FORM></center>
+<center><img src="senhr.gif" height="5" width="536"></center>
+<br>
+<center><A href="risk.html"><img src="risk.jpg" HSPACE="5" width="87" height="65"></A>
+    <A href="hli.html"><img src="hlins.jpg" HSPACE="5" width="87" height="65"></A>
+    <A href="lpdw.html"><img src="dwtr.jpg" HSPACE="5" width="87" height="65"></A>
+    <A href="lbpp.html"><img src="poip.jpg" HSPACE="5" width="87" height="65"></A>
+</center>
+<br><br>
+<center><a href="index.html#links"><img src="home.gif" alt="Home" border="0" width="40" height="40"></a></center>
+<br>
+<center><img src="senhr.gif" height="5" width="536"></center>
+<br></font>
+<center><font size=5>Sentinel,Inc.</font><br>
+<font size=4>2800 Bob Wallace Ave.<br>
+Suite L-3<br>
+Huntsville,Alabama 35805<br>
+Phone: 205-534-9800 &nbsp;&nbsp;Fax: 205-534-9878
+<br><br>
+<em>Member</em> AIHA, ABIH, NREP, IHMM, AAM, NRM</font></center>
+<br>
+<center><img src="senhr.gif" height="5" width="536"></center>
+<br>
+<center><font size=4>Send Questions and or Comments to:</font></center><br>  
+<center><A href="MAILTO:sentinel@traveller.com"><img src="mail.gif" alt="Mail To" border="0" width="40" height="40"></A></center>
+<br>
+<center>sentinel@traveller.com</center>
+<br>
+<center><img src="senhr.gif" height="5" width="536"></center>
+<br>
+<center><font size=2>DISCLAIMER</center><br>
+&nbsp;&nbsp;&nbsp;&nbsp;This information is provided to assist the public in making knowledgable decisions regarding Lead-Based Paint.  Sentinel, Inc. bears no liability for the manner in which the material is interpreted and used.
+<br><br>
+<center><img src="senhr.gif" height="5" width="536"></center>
+<br>
+&#169;Sentinel,Inc. 1996
+</td>
+</tr>
+</table>
+</BODY>
+</HTML>
+</DOC>

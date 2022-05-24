@@ -1,0 +1,823 @@
+
+<DOC>
+<DOCNO>WT03-B20-86</DOCNO>
+<DOCOLDNO>IA005-000051-B019-233</DOCOLDNO>
+<DOCHDR>
+http://lacebark.ntu.edu.au:80/j_mitroy/sid101/wind2/windlecture.html 138.80.61.12 19970221152500 text/html 42682
+HTTP/1.0 200 OK
+Date: Fri, 21 Feb 1997 14:54:43 GMT
+Server: Apache/1.1.3
+Content-type: text/html
+Content-length: 42510
+Last-modified: Tue, 09 Jul 1996 02:25:47 GMT
+</DOCHDR>
+<html><head>
+<title>Current Technology: full document</title>
+</head><body>
+<h1>Current Wind Turbine Technology</h1><p>
+
+<h3><a href="http://www.cranfield.ac.uk/public/sme/People/Staff/hales_r.html">Richard Hales</a>, 
+<a href="http://www.cranfield.ac.uk/">Cranfield University</a></h3><p>
+
+<i>This article may be freely copied and used <b>for personal or academic purposes</b>
+; copying or use, in whole or in part, for any other purpose is only allowed 
+with the prior permission, in writing, from the author.</i><p>
+
+<hr><p>
+
+
+<h2>Introduction</h2><p>
+
+<a href="vestas100.gif">
+  <img
+   src="images2_btn.gif"
+   alt="[Image]"></a>
+<b>  PICTURE </b>size 110kb<p>
+<!-- PICTURE
+     CAPTION A typical modern wind turbine.
+     DETAILS The machine is a typical Danish type:  horizontal-axis, three-bladed and stall-regulated.  It is manufactured by Vestas/Danish-Wind-Technology.  The machine has a 20m diameter rotor and is rated at 100kW;  the rotor turns at 46rpm.  The machi
+ne can start to operate in winds as low as 4m/s but would shut down in winds exceeding 25m/s;  it achieves its rated power in winds of 15m/s.  The picture appears to show a wind farm in a Danish landscape:  although the source does not say so explicitly, 
+ I *think* the farm is Velling Maersk/Taendpibe located near the town of Herning on the main land (Jylland) of Denmark.
+     SOURCE  Brochure on the Vestas/DWT company of Denmark ( Smed Hansens Vej 27, DK-6940 Lem, Denmark  tel +45 97 34 11 88  fax +45 97 34 14 84  tlx 60733 vestas dk ).  The glossy brochure, of 24 pages, is undated but appears to be from about 1990,  and 
+describes the company, its products and activities.
+             -->
+
+Wind energy is currently viewed as one of the most promising of the 
+renewable energy sources, with an enormous resource in the 
+British Isles and a steadily maturing technology base in Europe 
+and North America.  Wind turbines deployed in single units, in 
+small groups of four or five, and increasingly in wind farms of 
+up to fifty machines, are becoming a feature on the landscape of 
+many European countries, especially Denmark, the Netherlands, 
+northern Germany, and now Spain and Britain.  In three areas of 
+California (Altamont, Tehachapi and San Gorgonio) wind farming 
+developed on a massive scale in the 1980s with well over 15000 
+machines now installed.  But what does this renewable technology 
+involve, and how much of a contribution can it actually make to 
+the UK electricity supply industry?  This two hour lecture will 
+give a picture of the present state of this technology and 
+describe current trends in its application.
+<p>
+
+
+<h2>Technology I</h2><p>
+
+The most distinctive feature of a wind turbine is its <b>rotor</b>, 
+converting the fluid mechanical energy of the wind to rotational 
+energy in the main shaft.  Most modern machines work by 
+developing aerodynamic lift from the air flow; this is created 
+by the suction caused on the <b>blade</b> by the acceleration of the 
+air over it, along the same principle as an aircraft wing.  Any 
+aerodynamic force is proportional to the square of the incident 
+air speed.  For the <b>horizontal-axis</b> wind turbine (HAWT), where 
+the axis of the rotor is parallel to the wind direction, the 
+angle of attack at any point along the blade is more-or-less 
+constant for a given wind speed.  Up to the stall point, the 
+lift force created is proportional to this angle of attack.  The 
+rotor driving force is largely made up of the in-plane component 
+of the lift along the blade, but the out-of-plane component 
+causes a thrust load on the rotor, tending to bend the blades 
+and blow the turbine over.  Put very simply: it is the in-plane 
+component of force which 'brings in the money' since it 
+determines the driving torque, but the thrust load 'costs the 
+money' since it determines the strength requirement and to a 
+large extent the fatigue life of the machine.  For the 
+<b>vertical-axis</b> configuration (VAWT), where the rotor axis is 
+perpendicular to the wind stream, the angle of attack at any 
+point on the blade varies in time, so the aerodynamic power and 
+loads are unsteady.  Although this is a complication, the 
+vertical-axis wind turbine does have the advantage of not 
+requiring re-alignment with the wind when its direction changes.<p>
+
+The power of a wind turbine is proportional to the swept area of 
+its rotor, and at a typical site about 500W per square metre 
+would be the upper limit of what could be expected from any 
+machine.  Machines vary in <b>size</b> from 600mm diameter, rated at 
+about 50W, to 60m diameter, rated at about 3MW.  The 'best' size 
+for a turbine for a particular application will be a topic we 
+shall return to later.  The main components of a turbine are 
+illustrated in the
+<a href="vestasline.gif">annotated drawing (size 84kb)</a>
+<!-- PICTURE
+     CAPTION Annotated line drawing of the main components of a typical HAWT.
+     DETAILS The drawing shows the nacelle of the Vestas/DWT V20-100 HAWT: three-bladed, stall-regulatedi, with a diameter of 20m and a rated power of 110kW.
+     SOURCE  Product description of Vestas V20-100 available from Vestas/DWT ( Smed Hansens Vej 27,  DK-6940 Lem,  Denmark  tel +45 97 34 11 88  fax +45 97 34 14 84  tlx 60733 VESTAS DK ) dated 15.02.1991
+             -->
+
+- the numbers used for the mechanical components in this text refer to 
+that drawing.
+A wide variety of 
+materials have been used for blade manufacture, including glass 
+fibre on a foam core, glass-reinforced polyester (GRP), 
+wood/epoxy laminate, and steel.  The <b>number of blades</b> (4) on a 
+rotor is to some extent dependent on size, with two blades being 
+generally preferred on larger machines, and three blades for 
+machines under 500kW.  For a two-bladed rotor there would be a 
+cost reduction associated with the reduced rotor weight, and a 
+reduced gearbox cost because of the higher running speed; but 
+the three-bladed rotor produces slightly more power and 'looks 
+better'.  The increased tip speed of a two-blader might also 
+cause increased aerodynamic noise.  On some HAWTs the rotor is 
+placed <b>downwind</b> of the tower to improve the <b>yaw</b> behaviour of the 
+rotor - its ability to track the wind as its direction changes 
+- and improve the clearance between tower and blades under load; 
+but an <b>upwind rotor</b> does not have the disadvantage of operating 
+through the disturbed air flow behind the tower, with the 
+associated aerodynamic noise penalty that would bring.<p>
+
+Rotational speed is roughly inversely proportional to rotor 
+diameter, so as to give a blade tip speed somewhere between 
+50m/s (smaller machines) and 100m/s (larger machines).  The 
+rotor <b>main shaft</b> (2), which will often carry a <b>disc brake</b> (5), 
+transmits the torque to the <b>gearbox</b> (not numbered in the 
+drawing, but located under the brake <b>hydraulic unit</b> (7)).  On 
+larger machines (MW scale) a planetary gearbox is often used for 
+reasons of weight and size, but for smaller (kW scale) machines 
+a simpler parallel shaft gearbox is often preferred.  The 
+<b>generator</b> (6) will commonly be of the simple induction type, 
+providing damping to the transmission system; the alternative 
+synchronous type has the advantage of being excited from the 
+grid, but demands precise rotor speed control for synchronising 
+at start up.  The function of the <b>controller</b> is to match the 
+output of the wind turbine generator (WTG) to the wind available 
+and to the power demand; an important function on a HAWT is to 
+change the orientation of the turbine, via a <b>yaw drive</b> (8), to 
+match the wind direction.  All of this equipment will be mounted 
+in a <b>nacelle</b> to provide protection from the elements, but access 
+will always be required for maintenance.<p>
+
+The rotor and nacelle are mounted atop a <b>tower</b>, nowadays often of 
+tubular steel construction but many lattice towers can still be 
+seen supporting earlier WTGs; guyed pole towers are an option 
+for VAWTs and for smaller HAWTs.  The height of the tower is a 
+trade-off between the benefits of catching the 'better' wind at 
+some height above ground level versus the increased 
+bending moment at the base.  The <b>foundations</b> must not only 
+withstand the bending moment arising from the thrust load on the 
+rotor, but also cope with any vibrations arising from the 
+rotational frequency.  On any given site, the solid rock from 
+which the foundations are built may be many metres below the 
+surface.  These civil engineering aspects of the project then 
+raise the whole question of WTG <b>installation</b>.  For a larger 
+machine (over say 100kW) the tower will be built up on site from 
+sections fabricated elsewhere, but the nacelle (possibly 
+weighing several tons) must be hoisted to the top and the blades 
+mounted at the hub.  This would require a large crane, which is 
+usually expensive and, if the terrain is very rough, impossible 
+to deploy.  An alternative method of installation would require 
+some kind of hoisting from the ground, necessitating 'hard 
+points' on both the nacelle and on the site.  The volume and 
+weight of the WTG and installation equipment may be such as to 
+demand the construction of <b>access roads</b> to the site, depending 
+on the nature of the terrain and the distances involved; such a 
+road network could add substantially to the total cost of a wind 
+energy project.<p>
+
+For operational convenience, the monitoring and control panel 
+will be located at the base of the tower, within the shelter of 
+the tubular tower itself.  Power cables, possibly under ground, 
+will lead from the base of the tower to a <b>transformer station</b>; 
+in a wind farm consisting of a number of WTGs, a local network 
+of distribution points will be installed, leading eventually to 
+the electricity utility's nearest <b>substation</b> where the 
+connection to the grid is made.  Cabling costs to a very remote 
+site could easily outweigh the benefit to income of even a most 
+favourable wind regime.  Although by no means essential 
+equipment at a wind farm site, the use of <b>anemometry</b> to measure 
+wind speed could give the operator useful performance indicators 
+on individual turbines and the farm as a whole.<p>
+
+This then has been a first look at what the technology involves; 
+we shall return to the subject again after giving some attention 
+to the wind itself, both as the bountiful resource and the 
+hostile environment.<p>
+
+
+<h2>The Wind</h2><p>
+<p>
+The local wind speed is the most important parameter for a 
+prospective site.  The energy in the wind is proportional to the 
+cube of the wind speed (its force - or more precisely its 
+pressure - multiplied by its velocity), so the energy yield of 
+the proposed WTG is most sensitive to the site wind speed.  
+Since the wind is continually varying, we use the <b>mean annual 
+wind speed</b> (MAWS) to give a broad indication of the site's 
+potential.  Generally the windy parts of Europe are the Western 
+and Northern coastal regions, but of course the regional 
+landscape and local topography affect this picture greatly.  The 
+mistral winds of southern France and the seasonal winds over the 
+islands of Greece are a distinctive exception to this broad 
+rule.  The <a href="atlas.gif">map (size 70kb)</a>
+<!-- PICTURE
+     CAPTION The European wind atlas.
+     DETAILS The map shows the distribution of wind resources for the twelve member states (1988) of the European Community.  Read the main text and the associated table for an explanation of the legend.
+     SOURCE  E.L.Petersen, I. Troen, N.G. Mortensen  "The European wind enrgy resources", European Community Wind Energy Conference and Exhibition, Herning Dk, June 1988, pp103-109
+             -->
+reproduced (from Ref 1) here
+shows the MAWS distribution for the twelve member states of the 
+European Community, 
+together with the annual average energy density.<p>
+
+The map is 
+presented in terms of a 'flattened landscape', so the 
+appropriate topographic conditions must be selected from the following 
+table to give an indication of the regional wind resource.
+By means of this table, the available wind energy can be estimated at the height of 50m for four topographic conditions.  (Regions where local concentration effects may occur are not indicated.  Such regions are expected to exist in the United Kingdom, Fr
+ance, Portugal, Spain, Italy and Greece.)<p>
+
+<pre>
+--+-------------+-------------+--------------+----------------
+  | Flat, open  |    At the   |  More than   |   Well-exposed
+  |  farmland   |  sea coast  |10km offshore |  hills & ridges
+--+-------------+-------------+--------------+----------------
+  | m/s  W/m/m  | m/s  W/m/m  | m/s   W/m/m  |  m/s    W/m/m
+==+=============+=============+==============+================
+A |  >8    >600 |  >9    >800 |  >10    >950 |   >12     >2000
+B | 7-8 400-600 | 8-9 500-800 | 9-10 650-950 | 10-12 1200-2000
+C | 6-7 250-400 | 7-8 300-500 | 8- 9 400-650 |  9-10  800-1200
+D | 5-6 150-250 | 6-7 200-300 | 7- 8 250-400 |  8- 9  600- 800
+E |  <5    <150 |  <6    <200 |  < 7    <250 |   < 8     < 600
+--+-------------+-------------+--------------+----------------
+</pre>
+
+<p>
+All 
+the well-exposed hills and ridges of mainland Scotland, the 
+Western Isles, the Orkney Isles, and the Shetland Isles have a 
+MAWS greater than 12m/s and an energy density greater than 2kW 
+per square metre.  As will be discussed in the final chapter, 
+current wind farm developments in the UK are concentrated on the 
+good sites of Cornwall, Wales, Cumbria, and the East coast 
+regions of England, with MAWSs greater than 7m/s.  The 
+'technical potential wind energy resource' for the UK has been 
+conservatively estimated (Ref 2) to be 45 TWh/y, around 15% of 
+annual electricity supply.<p>
+<p>
+As has been mentioned earlier, the wind varies (in both speed 
+and direction) with height above ground level, as in any 
+boundary layer flow.  This <b>wind shear</b> effect can be quite 
+significant for a large WTG (more than 20m diameter), in 
+providing a wind pressure gradient across the rotor disc; the 
+loading on a turbine blade will fluctuate periodically as it 
+rotates.  The wind shear profile is often assumed to follow a 
+'one seventh power law', but the reality can be significantly 
+different where for example a hill top causes a local 
+acceleration of the wind.  The wind speeds given in the European 
+wind atlas are quoted for a reference height of 50m above 
+ground, which is representative of the hub height of a MW scale 
+wind turbine; standard UK Meteorological Office data is quoted 
+for a height of 10m, which is therefore probably an 
+under-estimate of the hub-height wind speed.  Historical records 
+of wind speed at the Cranfield control tower anemometer indicate 
+a MAWS of around 4m/s which is rather less than the 6-7m/s 
+suggested by the wind atlas.<p>
+<p>
+<b>Variations of wind speed</b> occur over a wide range of time scales.  
+Some years are windier than others, and there may well be an 
+historical trend of changing wind speeds.  Seasonal variations 
+are marked, even for the temperate climate of Northern Europe; 
+the monsoons of SE Asia for example would place critical 
+loadings on a WTG.  The variations associated with the passage 
+of weather systems over the site have a time scale of around 
+three days.  Diurnal variations also have an implication for 
+wind power production: when the wind dies down in the late 
+afternoon, other grid-connected sources are required to provide 
+the power for the early evening peak demand.  Our personal 
+experience of the wind, standing on the top of an exposed hill 
+for instance, tells us that second-by-second variations can be 
+very considerable.  This variability is caused by turbulent 
+eddies in the flow, generated by thermal gradients and 
+topographic features.  Wind <b>gusting</b> superimposes random blade 
+vibrations on top of the periodic oscillations due to wind shear; 
+fluctuations in rotor torque impose severe demands on the wind 
+turbine gearbox and could mean that the electrical power quality 
+is unacceptable to the utility.  For the estimation of 
+structural excitation and fatigue damage, it is often useful to 
+use a spectral approach to the wind variability, considered as 
+continuous <b>turbulence</b>.<p>
+
+<a href="turbulence.gif">
+  <img
+   src="images2_btn.gif"
+   alt="[Image]"></a>
+<b>PICTURE</b> size 88kb<p>
+<!-- PICTURE
+     CAPTION A turbine in a turbulent wind.
+     DETAILS The figure illustrates the fact that "atmospheric turbulence causes important fluctuating aerodynamic forces on wind turbines - the stress and power output fluctuations of a wind turbine are strongly a function of both the rotation of the rot
+or and the moment-by-moment variations of turbulent wind velocity in both space and time".
+     SOURCE  slightly modified from  J.R. Connell  "A primer of turbulence at the wind turbine rotor" Solar Energy, Vol. 41, No. 3, 1988, pp281-293
+             -->
+
+It can be seen, therefore, that associated with high wind speeds 
+are various harmful effects of great concern to the wind turbine 
+manufacturer.  To first order, turbulence levels are 
+proportional to the wind speed - levels of 20% are not atypical 
+for good sites.  Sites in mountainous regions may have quite 
+excellent average wind speeds, but the air is so churned up by 
+the terrain itself that the turbulent loadings demand a costly 
+'over-design' to a number of critical components.  Simply 
+because the wind turbine is placed high up on a tower it will be 
+exposed to the worst of driving rain.  In Northern regions, and 
+at high altitudes, the precipitation comes down as snow and 
+forms ice.  In coastal regions, the wind turbine must be 
+protected against the corrosive effects of sea water.  And at 
+the other extreme, in the deserts of California, temperatures 
+are very high, and sand erosion and dust penetration are 
+important problems.  These elements form the hostile environment 
+in which a WTG must operate.<p>
+
+
+<h2>Technology II</h2><p>
+
+The target lifetime for a wind turbine is generally 20 years.  
+Since they are intended for installation in remote and exposed 
+areas, maintenance will be both costly and limited.  On-site 
+inspections of many components can be carried out regularly, but 
+failed components will be replaced rather than repaired.  
+Sophisticated examination procedures cannot be carried out 
+on-site, and specialist repairs (to the gearbox for example) 
+must be carried out at the factory.  Problems with the rotor 
+(blades and hub) are likely to be costly since they will require 
+access and possibly removal.  Elaborate monitoring 
+instrumentation (over and above basic operational status and 
+power production) on every machine in a wind farm would add 
+significantly to the total project cost.<p>
+
+Component fatigue is obviously a major concern to a 
+manufacturer, and very roughly speaking the <b>stochastic loading</b> 
+associated with turbulence accounts for 50% of the fatigue 
+damage on the rotor.  But for a HAWT, particularly vulnerable 
+components are the yaw drive and yaw brake which take a lot of 
+punishment especially on turbulent sites.  Continual wind 
+veering means that for a large proportion of the time the rotor 
+is misaligned to the wind, resulting in loss of power, increased 
+blade bending moments, and torque at the yaw axis.  It has been 
+found counter-productive to make the yaw controller too active 
+in following the wind direction changes, since that in itself 
+can significantly increase fatigue damage.  Any kind of 
+imbalance in the rotor can also add to the vibratory loading on 
+the yaw drive.<p>
+
+The variability of the wind also raises the need for power 
+control.  Power cannot be allowed to increase much beyond the <b>
+rated power</b>  of the machine because of the risk of damage to the 
+gearbox and generator.  There are three methods of power control 
+in wide use.  <b>Full-blade pitch control</b> provides a mechanism for 
+varying the pitch angle of each blade so as to reduce the angle 
+of attack in high winds; the hub of a pitch-controlled HAWT is 
+quite complicated and the actuator system must have enough power 
+to rotate the whole blade.  A simpler solution is <b>tip control</b> 
+where only the outer 20% (say) of the blade is rotated.  The 
+<a href="pitchperf.gif"> figure (size 21kb)</a>
+<!-- PICTURE
+     CAPTION Performance curve for a typical pitch-regulated HAWT.
+     DETAILS Power performance data for the James Howden HWP 330/33 wind turbine (330kW rated power, 33m diameter),  non-dimensionalised as described in the main text.
+     SOURCE  Figure 16 (p61) from  P. Jamieson  "Evaluation of the concept of a stall-limited rotor",  ETSU WN 6026, 1990
+             -->
+shows power versus wind speed (m/s) of a 
+tip-controlled rotor - the measured mean power over each 10 
+minute interval has been normalised by the rated power of 330kW.  
+The hub and blade root details of a tip-controlled HAWT will be 
+simpler than for full-blade pitch control; maintenance of the 
+actuator and tip bearings of a tip-regulated blade can be done 
+from an access door half way up the tower with the blade at 
+bottom-dead-centre.<p>
+
+<b>Stall regulation</b> on the other hand, relies on the inherent 
+aerodynamic stalling of the aerofoil sections to limit the power 
+in high winds, and so in principal is the simplest and cheapest 
+method of power control to engineer.  The 
+<a href="stallperf.gif"> next figure (size 21kb)</a> shows 
+<!-- PICTURE
+     CAPTION Performance curve for a typical stall-regulated HAWT.
+     DETAILS Power performance data for the Micon 108 wind turbine (110kW rated power, 20m diameter),  non-dimensionalised for a peak power of 125kW as described in the main text.
+     SOURCE  Figure 10 (p55) from  P. Jamieson  "Evaluation of the concept of a stall-limited rotor",  ETSU WN 6026, 1990
+             -->
+a similarly-treated power curve for a stall-regulated HAWT, this 
+time normalised for a maximum power of 125kW; actually this 
+turbine is rated by the manufacturer at 108kW, which illustrates 
+the problem of over-production for stall-regulated turbines.  
+Stall-regulated rotors must also have small, pitchable tips 
+fitted to provide aerodynamic braking in an emergency if the 
+rotor should over-speed (when the mechanical brake would be 
+unable to stop the rotor).  Most small WTGs (under say 150kW) 
+are stall-regulated; there is some interest in simplifying the 
+rotors of larger machines by using stall-control, if only there 
+was confidence that the power would actually be limited.<p>
+
+<b>Variable speed</b> control aims to continuously vary the rotor speed 
+with the wind speed so as to keep the ratio of the two constant 
+for optimum rotor efficiency.  The necessary AC-DC-AC inverter 
+links have now been developed to make this a possibility.  An 
+innovative German manufacturer has now developed a variable 
+speed WTG without gearbox, using a directly-coupled large rim 
+generator.<p>
+
+The point has been made earlier about the desirability of 
+simplifying the rotor for the sake of <b>reliability and 
+maintainability</b>.  Indeed, the achievement of <b>simplicity</b> has 
+become something of a creed in the wind industry, with the 
+widespread view that the more complicated a component is made 
+(often for the purpose of increasing energy capture), the less 
+reliable and more difficult to maintain and repair it will be.  
+By far the biggest proportion of reported component failures is 
+to the electrical control system.  Failure of the grid itself is 
+not infrequent and will result in the WTG shutting down.  
+Failures on the rotor are significant and, as has already been 
+mentioned, are generally difficult to correct.  Problems with 
+the specialist equipment such as gearbox and generator, though 
+not particularly frequent, are associated with a high level of 
+down time.<p>
+
+Where mechanical failures have occurred in great numbers, they 
+were invariably the result of poor design detailing and/or 
+manufacturing quality control.  These <b>type failures</b> are most 
+serious for the operator.  One of the most (in)famous examples 
+concerned the Alternegy GRP blades fitted to something like 1500 
+wind turbines in California; after a relatively short period of 
+operation, some of these blades experienced root failures which 
+were subsequently found (1986) to be associated with inadequate 
+quality control (incorrect tightening of root bolts, excessive 
+stiffness in the root bushings, and lack of root filling).  Law 
+suits were the inevitable outcome, and an extensive blade 
+replacement programme.  This, and a few other failures like 
+it, are now seen to be the result, to a large extent, of the 
+'over-stimulation' of a juvenile wind energy industry by the tax 
+credits offered for renewable energy plant in California in the 
+early 1980s.<p>
+
+Since that time, the technology has improved considerably, 
+through a process of emulation of the best and rejection of the 
+worst.  <b>Availability factors</b> of 95% or more, and <b>overall load 
+factors</b> of up to 40%, are now being claimed for the most 
+successful machines.  And many of the reasons for 
+'under-performance' of wind turbines are now better understood: 
+poor positioning in relation to the local landscape and to other 
+turbines (micro-siting) is the cause in many cases.  Operation 
+in the rain and blade soiling are also reasons for 
+under-performance in various locations.<p>
+
+<b>Vertical-axis wind turbines</b> have been mentioned only briefly so 
+far.  In general, they have not lived up to the expectations 
+their proponents have raised;  none of the supposed advantages 
+over the HAWT configuration have been realised in practice, and 
+they have suffered more than their share of vibration problems 
+and type failures.  Worldwide, there are now very few 
+manufacturers actively producing vertical-axis machines.  Indeed 
+the House of Commons Public Accounts Committee has recently 
+criticised the UK's VAWT development as a waste of resources.<p>
+
+
+<h2>Economics</h2><p>
+
+Like any other renewable energy source, the fuel for a WTG is 
+free, with no delivery charges to the site.  So why is economics 
+an issue?  Well, the turbine must be bought, delivered to the 
+site, installed and commissioned.  This requires capital, and 
+there is a cost associated with that capital, even if only the 
+'loss' of not getting any interest when you 
+take the money out of your savings account to buy the wind turbine.  
+Then there are costs incurred when the WTG is operated and 
+maintained.  All these costs are encapsulated by the concept of 
+the  <b>cost of energy</b>  (CoE), which is an expression for the total 
+generation cost per unit of electricity produced:<p>
+<pre>
+<h3>                  G  =  C ( R + M ) / E </h3>
+</pre>
+<p>
+where <b>C</b> are the initial capital costs, <b>R</b> is the annual charge 
+rate on capital, <b>M</b> is the annual operation and maintenance costs 
+as a fraction of the initial capital, and <b>E</b> is the annual energy 
+yield given by:<p>
+<pre>
+<h3>                  E  =  h W F </h3>
+</pre>
+<p>
+where <b>h</b> is the number of hours in a year (8760), <b>W</b> is the rated 
+power of the wind turbine, and <b>F</b> is the overall load factor.  So 
+the generation costs are:<p>
+<pre>
+<h3>                  G  =  ( C / W ) ( R + M ) / ( h F ) </h3>
+</pre>
+<p>
+This is the expression given for CoE in Ref 3, which is 
+essentially that presented in the final chapter (Ref 4) of the 
+most useful British text book.
+The ratio <b>C / W</b>  describes the initial capital cost per 
+kW of rated power, the sum <b>R + M</b>  describes the annual costs of 
+capital and maintenance as a fraction of the initial capital, 
+and the product <b>h F</b> is the effective number of hours in the year 
+when the WTG can be considered to be operating at rated power.<p>
+
+The annual charge rate can be expressed in terms of the interest 
+or discount rate <b>r</b> net of inflation, and the repayment term <b>n</b> 
+years:<p>
+<pre>
+<h3>                  R  =  r / { 1 - ( 1 + r ) ^ (-n) } </h3>
+</pre>
+<p>
+The overall load factor may be expressed as the product of the 
+capacity factor <b>L</b> of the wind turbine, reduced by factors 
+representing machine availability <b>A</b> and other causes of loss of 
+energy or efficiency <b>a</b>, such as inter-machine interference or 
+transmission losses, which are not accounted for in the machine 
+performance characteristics:<p>
+<pre>
+<h3>                  F  =  L A a </h3>
+</pre>
+<p>
+The capacity factor <b>L</b> is determined from the machine performance 
+characteristics and the wind speed frequency distribution.  
+Reasonable assumptions can be made for the performance 
+characteristic as a function of wind speed (or wind speed 
+normalised by the rated wind speed <b>Ur</b>  ); the
+ <a href="windperf.gif">figure (size 29kb)</a>
+<!-- PICTURE
+     CAPTION Wind availability and machine performance.
+     DETAILS Simplified non-dimensionalised power curve (single curve, right-hand scale),  and wind availability distributions (three curves, left-hand scale).  As described in the main text.
+     SOURCE  Figure 18.1 (p377) from  D.T. Swift-Hook  "Economics", Chapter 18 in the text book  L.L. Freris (ed)  "Wind Energy Conversion Systems"  Prentice-Hall, London, 1990  (ISBN 0-13-960527-4)   Permission to reproduce the figure for publication has
+ kindly been given by the author Prof D.T. Swift-Hook.
+             -->
+(reproduced from Ref 4)
+shows a cubic curve over the range between the start-up wind speed and the 
+rated speed, with zero power above the shut-down speed.  For the 
+wind speed probability, a Rayleigh distribution is usually 
+assumed in the absence of any site-specific data: this gives an 
+expression for the probability of exceeding a given speed as a 
+function of the site MAWS <b>Um</b> .  The 
+ <a href="windperf.gif">same figure </a>
+also shows such probability distributions for typical 
+values of the ratio <b>Ur / Um</b> .  The capacity factor is then 
+determined as the integrated sum (over all possible wind speeds) 
+of the power production multiplied by the wind speed 
+probability.  For a given wind turbine, this is a strong 
+function of the site MAWS.<p>
+
+The expression for the cost of energy can now be evaluated using 
+some representative values: 2% for operation and maintenance 
+costs, 95% for machine availability, and a factor of 90% for 
+other losses.  Assuming a turbine with a rated wind speed of 
+13.3m/s and a site with a MAWS of 7.8m/s (so that the ratio <b>Ur / Um</b>  
+is equal to 1.71), the capacity factor turns out to be 37% which 
+is representative of the first wind farm sites to be developed 
+in the UK.  If we further assume that the capital is borrowed 
+at a real rate of return of 8% per annum, and repayed over a 
+term of 8 years, then the annual charge comes to 17.4%.  
+Finally, for a capital cost of 
+ £880 
+ per kW of rated power, the 
+cost of energy (over the period of the repayment) comes out as 
+6.3p/kWh.  This number should not be taken as the definitive 
+cost of wind-generated electricity, but merely an indicative 
+value; the 
+ <a href="spider.gif">next figure (size 39kb)</a>
+<!-- PICTURE
+     CAPTION Sensitivity of cost of electricity to various parameters.
+     DETAILS "A spider diagram ... shows the effect of the various parameters (capital cost, capital repayment, real rate of return, annual charge, & generating cost) and [the figure] shows how percentage changes in some of the parameters change the cost 
+of electricity, also as a percentage".
+     SOURCE  Figure 18.3 (p381) from  D.T. Swift-Hook  "Economics", Chapter 18 in the text book  L.L. Freris (ed)  "Wind Energy Conversion Systems"  Prentice-Hall, London, 1990  (ISBN 0-13-960527-4)  Permission to reproduce the figure for publication has 
+kindly been given by the author Prof D.T. Swift-Hook.
+             -->
+(again reproduced from Ref 4) shows the sensitivity of this CoE to 
+variations in the assumed values (logarithmic scales).  Wind 
+speed is more significant than any other factor.  We have 
+earlier discussed the issues affecting machine availability; 
+capital cost is a function of machine size, production volume, 
+and site accessibility.<p>
+
+The current trend is to use an alternative formulation for cost 
+of energy based on costs per unit of rotor swept area, rather 
+than costs per unit of rated power.  Thus the CoE equation 
+becomes:<p>
+<pre>
+<h3>                  G  =  ( C / S ) R / (E / S)  +  M C / E </h3>
+</pre>
+<p>
+where <b>S</b> is the rotor swept area, and the <b>specific yield</b> is given 
+by the empirical relation<p>
+<pre>
+<h3>              E / S  =  2.5 Um ^ 3 </h3>
+</pre>
+<p>
+In a recent analysis of UK developments (the BWEA submission to 
+the Renewable Energy Advisory Group (Ref 5)), the following 
+table of capital costs was given as a linear function of site 
+MAWS<p>
+<pre>
+<b>
+                             Wind        Capital
+                            speed         cost
+                           ( m/s )      ( £/m/m ) 
+
+     Very good site          8.5           420
+     Good site               7.5           350
+     Reasonable site         6.5           280
+</b>
+</pre>
+<p>
+and a value of 2.5% was recommended for the O&M costs.  
+Assuming a capital recovery factor <b>R</b>  of .174 as before, and 
+taking a hub-height wind speed of 7.8m/s, gives CoE of 
+6.2p/kWh which is very close to the previous value.<p>
+
+In making 
+<b>cost comparisons</b> with other sources of electricity, it is 
+important to use similar assumptions concerning the capital 
+recovery in each case.  The generation of electricity by coal, 
+gas and nuclear is a capital-intensive operation carried out 
+by a large industrial company (National Power, PowerGen, and 
+Nuclear Electric in the UK), and new generation plant is 
+financed internally over a long time-scale.  The Renewable 
+Energy Advisory Group (Ref 5) has recently estimated that "a 
+typical onshore wind turbine would generate electricity at a 
+cost of about 7p/kWh assuming a 20 year life, 7.5m/s wind 
+speed at hub height and a 15% required rate of return".<p>
+
+There have been two distinct trends in the <b>size of wind 
+turbines</b>.  What may be described as "the Danish approach" 
+involved stretching the simple and small-scale technology 
+which had its roots in agricultural engineering; this led from 
+machines of 22kW, upwards to 100kW and currently machines of 
+around 300kW.  The other approach started with an initial 
+decision to develop large (MW) machines using aerospace 
+engineering, but the prototypes were prone to failure and 
+uneconomic - these "manufacturers have gradually reduced the 
+size to find a machine which is commercially viable.  The two 
+approaches have now met at machines with rated capacities of 
+approximately 300kW and rotor diameters of 25m." (Ref 6). A 
+recent study on the potential of large machines (Ref 7) has 
+concluded there will be little difference in the manufacturing 
+cost (per annual kWh) of turbines with diameters in the range 30m to 80m; a 
+related study (Ref 8) makes the same conclusion in relation to 
+CoE over this diameter range, with the implication that "the 
+best use of land" will be a decisive criterion for selecting the 
+size of large wind turbines.<p>
+
+An <b>energy accounting</b> approach to the cost of wind energy has 
+been taken in Ref 9.  A 'harvest factor' was defined as the 
+ratio of displaced primary energy by energy generated from the 
+WTG to the primary energy consumed in its manufacture; the best 
+machines were shown to have a harvest factor of 4, which means 
+that within one year, 4 times the primary energy input was 
+displaced by the wind electricity generation.<p>
+
+It is beyond the scope of this lecture to present comparative 
+costs of the different supply technologies, since that would 
+require the adoption of common standards in each case.  But the 
+opportunity must be taken to raise the issue of <b>external costs</b>, 
+the costs which may be added to the financial costs to account 
+for the external consequences of electricity production, 
+including damage to the environment and health, the cost of 
+clearing up polluted areas, defending oil routes, etc.  Many 
+countries are now introducing 'carbon taxes' which are a 
+practical attempt to add something for external costs to the 
+fossil-fuel sources.  An estimate of the avoided cost of using 
+wind energy is given in Ref 10 for both the Netherlands and UK.  
+In the UK, that study finds a figure of 4.6p/kWh is saved by 
+using wind energy, of which 1.9p/kWh is for the cost of 
+emissions; these estimates may be conservative since they 
+exclude the external costs associated with particulate and solid 
+pollutants.  Clearly estimates of this magnitude would make a 
+significant difference to our interpretation of comparative 
+costs, but the methodology needs to gain a broad acceptance 
+before it can provide a rational basis to decision making.  A 
+recent critical survey (Ref 11) of published electricity 
+generation costs and trends has concluded that a realistic 
+carbon tax, scheduled for the year 2000, would add 1.2p to the 
+cost of generating a kWh from coal, 0.8p for gas, and 0.5p for 
+nuclear.<p>
+
+
+<h2>Current Developments in the UK</h2> <p>
+<h4>this section is most in need of updating:  scheduled for January 1995</h4>
+
+The situation of wind power (and, indeed, the other renewables) 
+has changed dramatically in the UK since the turn of the decade.  
+Prior to then, there were just a few, isolated and experimental, 
+wind turbines scattered across England, Wales and Scotland.  The 
+UK's Department of Energy (now disbanded) began a modestly-
+funded R&D programme in the mid 1970's, concentrating most of 
+its support for the large prototypes eventually built on the 
+Island of Orkney, Scotland (the 60m diameter HAWT rated 3MW) and 
+at Carmarthen Bay, Wales (the 25m diameter VAWT rated 130kW).  
+From the late 1970s onwards, the electricity utility for England 
+and Wales, the Central Electricity Generating Board (now 
+disbanded) showed a steadily-increasing interest in wind energy, 
+to the extent of developing the site at Carmarthen Bay as a 
+demonstration centre for wind energy, and building a 55m 
+diameter HAWT (rated 1MW) at Richborough in Kent.  Then, at the 
+end of the 1980s, the CEGB announced a major plan to develop 
+wind farms, of about 25 machines each, at three named sites.<p>
+
+But that plan was blown sideways by the Government's decision to 
+privatise the UK electricity supply industry.  The CEGB was 
+split into four companies:  National Power, PowerGen, Nuclear 
+Electric and the National Grid Company.  The 12 regional area 
+boards, which distributed and sold on the electricity to the 
+consumer, became independent companies, called Regional 
+Electricity Companies, jointly owning the National Grid Company.  
+Also at this time (late 1989 - early 1990), the real costs of 
+nuclear power were emerging from the public inquiry into the 
+proposed Sizewell B reactor (now started up), giving 
+rise to the need for the Government to retain ownership of the 
+nuclear power stations through Nuclear Electric.  
+Simultaneously, a change to the rating system (local property 
+tax) eliminated the unfair distinction between generation plant 
+operated by the CEGB and plant operated by the independents.  
+From this major upheaval, via the mechanism of the Non-Fossil 
+Fuel Obligation, has emerged the Government stimulus which has 
+had such a dramatic impact on renewables in the UK.<p>
+
+The NFFO is a requirement placed upon the 12 RECs "to contract 
+for a specified amount of generating capacity from non-fossil 
+sources (ie nuclear and the renewables, including wind). ... The 
+additional cost to the RECs resulting from satisfying NFFO 
+orders is recovered by them via a levy on electricity sales. ... 
+The first renewables order was made [in 1990] and the contracts 
+made by the Non-Fossil Purchasing Agency to comply with it 
+include nine for wind, of which five are wind farms" (Ref 12). 
+A second order was placed in 1991, including a total of 49 wind 
+projects, of which 38 are wind farms. These wind projects are 
+listed in the attached <a href="farmlist.html">table</a>, 
+and their locations indicated on 
+the attached <a href="map.gif">map</a>.<p>
+
+
+<h2>References</h2> <p>
+<pre>
+
+1.     E.L. Petersen, I. Troen, N.G. Mortensen  
+       "The European wind energy resources", 
+       ECWEC, Herning Dk, June 1988, pp103-109<p>
+
+2.     Department of Energy, 
+       "Renewable energy in the UK: the way forward", 
+       Energy Paper No 55, 1988<p>
+
+3.     BWEA  
+       "Wind Power for the UK", 
+       January 1987<p>
+
+4.     D.T. Swift-Hook
+       "Economics", Chapter 18 in
+              L.L. Freris  (ed)
+              "Wind Energy Conversion Systems", 
+              Prentice Hall, 1990<p>
+
+5.     Department of Trade and Industry, 
+       "Renewable Energy Advisory Group: Report to the 
+              President of the Board of Trade", 
+       Energy Paper No 60, November 1992<p>
+
+6.     EWEA  
+       "Wind Energy in Europe - a Time for Action", 
+       October 1991<p>
+
+7.     R. Harrison, G. Jenkins, A.N. Macrae  
+       "Study on the next generation of large wind 
+              turbines - Manufacturing cost analysis", 
+       ECWEC, Madrid, September 1990, pp 433-437<p>
+
+8.     E. Hau  
+       "Study on the next generation of large wind 
+              turbines - Energy cost analysis and 
+              conclusions", 
+       ECWEC, Madrid, September 1990, pp443-447<p>
+
+9.     J. Schmid, H.P. Klein  
+       "Database on existing wind turbines and 
+              climates in the Community", 
+       EC Wind Energy Contractors' Meeting, 
+              Maastricht, June 1991, pp 47-54<p>
+
+10.    A.J.M. vanWijk, W.C. Turkenburg  
+       "The value of wind energy", 
+       BWEA13, Swansea, April 1991, pp1-9<p>
+
+11.    D.J. Milborrow  
+       "Energy generation costs - now and for the 
+              year 2000", 
+       BWEA15, York, October 1993<p>
+
+12.    R.A. Meir  
+       "The NFFO - a Department of Energy view", 
+       BWEA13, Swansea, April 1991, pp11-13<p>
+
+13.    Department of the Environment  
+       "Planning policy guidance note: renewable 
+              energy", 
+       PPG22, February 1993<p>
+</pre>
+
+
+<p><hr><p>
+
+
+<a href="lectmenu.html">
+  <img
+   src="go_up_btn.gif"
+   alt="[Up]"></a>
+<b>up to</b> Current Wind Turbine Technology - menu<p>
+
+</body></html>
+</DOC>

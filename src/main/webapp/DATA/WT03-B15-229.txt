@@ -1,0 +1,279 @@
+
+<DOC>
+<DOCNO>WT03-B15-229</DOCNO>
+<DOCOLDNO>IA024-000255-B010-259</DOCOLDNO>
+<DOCHDR>
+http://206.216.148.51:80/robotrak.htm 206.216.148.51 19970108135853 text/html 15865
+HTTP/1.0 200 OK
+Date: Wed, 08 Jan 1997 13:55:39 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 15693
+Last-modified: Thu, 04 Apr 1996 07:58:39 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>A low cost, high performance, dynamic testing device for tracking the tool point of industrial robots</TITLE> 
+<body background="paper3.gif">
+<H1>A low cost, high performance, dynamic testing device for tracking the tool point of industrial robots</H1> 
+</HEAD>
+
+<H2>Dr. R. S. McMaster</H2>
+
+<P>The dynamic testing of industrial robots is an important area of interest to both manufacturers and end users alike. This paper presents a dynamic testing system capable of tracking the tool point of industrial robots. Details of the ROBOTRACK system concept, mechanical and electronic design and system software are presented. A full performance specification is given together with examples of robot testing conducted on a Unimation Puma 560 robot.</P>
+
+<P>Dr. R. McMaster is a member of the council of the British Robot Association, an independent consultant in robotics and Director of Robotics at the Cranfield Institute, UK.</P>
+
+<H2>Table of contents</H2>
+<P>1. <A href="#1">Introduction</a></P>
+<P>2. <A href="#2">System concept and overview</a></P>
+<P>3. <A href="#3">Measuring units</a></P>
+<P>4. <A href="#4">Electronic interface unit</a></P>
+<P>5. <A href="#5">Computer Hardware/Software system</a></P>
+<P>6. <A href="#6">Measurement performance specification</a></P>
+<P>7. <A href="#7">Robot test example</a></P>
+<P>8. <A href="#8">Conclusions</a></P>
+
+<H2><A name="1">1. Introduction</a></H2>
+
+<P>Due to the ever increasing demands placed upon the industrial robot in terms of application requirements involving precise path following, both robot manufacturers and industrial end users require to know the dynamic behaviour of the robotics system. In particular it is becoming critically important to know the precise trajectory taken by the robot tool point ( Ref.1 ). Hence there is a need for a measuring system capable of tracking a selected tool point. The system should be portable have good world accuracy capability, be flexible in its use in terms of velocity range, acceleration range and data capture period, and above all, be affordable.</P>
+
+<P>This paper presents such a measuring system which has been the subject of three years intense research conducted by the author and his associates both academic and industrial.</P>
+
+<IMG SRC="robofig1.gif"></IMG>
+fig. 1
+<H2><a name="2">2.0 System Concept and Overview.</a></H2>
+
+<P>The robot tracking system, ROBOTRAK, utilises three wires, the lengths of which are continually measured over a fast time base using three measuring units placed at known locations in space. A calibration triangle is used to set the location of the measuring units and to set the origin of ROBOTRAK relative to the world co-ordinate system of the robot under test. Knowing the accurate positions of the measuring units relative to each other and the instantaneous position of the robot point can be calculated ( Ref. 2. ) in a Cartesian co-ordinate system based in the measuring unit positions, ( Fig. 1 ). The system equations derived by considering the geometry of the three wires and measuring unit are:-</P>
+<P>Px = Bx²  +  Ra²  -  Rb²</P>
+2Bx
+
+<P>Py = Cy²  +  Ra²  -  Rc²</P>
+2Cy
+<P>Pz² = Ra²  -  Px²  -  Py²</P>
+
+<P>where : Px, Py and Pz are the instantaneous co-ordinates of the tool point relative to the origin; measuring unit (1). All variables are shown in Fig. 1.</P>
+
+<P>Digital signals from the three measuring units are fed to an electronic interface unit which is connected to a PC for data reduction and analysis. The results are presented graphically with hard copies available from a four colour pen plotter. Time histories of position, velocity and acceleration are produced and path plots of any two position axes from the three available generated. ROBOTRAK may be considered to consist of three basic sub-systems ; the measuring units, the electronic interface unit and the computer hardware/software system. ( Ref. 3 ).</P>
+
+<H2><A name="3">3.0 Measuring Units.</a></H2>
+
+<P>The three measuring units consist of a storage drum, a pulley fitted with an incremental encoder and a wire guide. All three parts are mounted on a single plate.</P>
+
+<P>The storage drum is used as a take up spool for the tensator spring, it is supported on a needle roller bearing and is free to slide on the shaft.</P>
+
+<P>The main pulley and encoder unit is assembled on a single turned component which bolts onto the mounting plate. A shaft bolts directly onto the encoder shaft and is supported by the bearing in the encoder and a ball bearing at the pulley end of the shaft. The tensator spring is bolted onto the pulley to supply the drive. Wire is wrapped around the pulley and fed out through the wire guide. It is terminated using a swivel jointed clip.</P>
+
+<P>Fig 2. Shows an assembly design drawing of the measuring units used.</P>
+
+<H2><A name="4">4.0 Electronic Interface Unit.</a></H2>
+
+<P>The interface unit is a three channel device complete with its own power supply. Three decoding circuits are used to process data from the encoders and input 16 bit values, on request, to a PC through a 1MHz communications bus. The decoding circuit cards are slot mounted in a standard 19 inch rack which also houses the power supply.</P>
+
+<H2>4.1. Decoding Circuits.</H2>
+
+<P>These circuits consist of essentially 4 I.C's.</P>
+
+<P>a)	LS 2000 Direction discriminator<P>
+<P>b)	LS 373 Octal D type latches.</P>
+<P>c)	LS 138 Decoders/multiplexor.</P>
+<P>d)	LS 14 Hex Schmitt-trigger inverters</P>
+
+<P>The outputs to the circuits are connected to the 1 MHz bus.</P>
+
+<P>Operation is relatively simple.</P>
+
+<P>The LS 2000 keeps track of the encoder value. On receiving the correct signal on the 1 MHz bus (fed through the LS 138 multiplexor ) the value is latched by the LS 373 and can be read by the PC.</P>
+
+<P>The circuit is an 8 bit circuit so that two " reads " are needed to get a complete 16 bit encoder value.</P>
+
+<P>The latching of all circuits is performed when encoder 1 is read. This ensures that all three values are taken at the same time. The values can then be read into the PC.</P>
+
+<P>Reading the following addresses; in the PC performs the following :-</P>
+
+<P>Address	&FCOO	Latches all lsb and reads lsb enc. 1.</P>
+<P>		&FCO1	Reads lsb enc. 2.</P>
+<P>		&FCO2	Reads lsb enc. 3.</P>
+<P>		&FCO4	Latches all msb and reads msb enc. 1.</P>
+<P>		&FCO5	Reads msb enc. 2.</P>
+<P>		&FCO6	Reads msb enc. 3.</P>
+
+<P>A line diagram of the circuit is shown in Fig. 3.</P>
+
+Fig. 3.
+
+
+
+
+
+
+<H2><A name="5">5.0 Computer Hardware/Software.</A></H2>
+
+<P>The function of this sub-system is to receive 16 bit numbers from the 3 channel electronic interface unit. To pre-process, store and data reduce this information and produce graphical output in a usable format.</P>
+
+<H2>5.1 Computer Hardware.</H2>
+
+<P>An IBM PC compatible 386 with 40MB hard disk and 2 MB of RAM</P>
+
+<H2>5.2 System Software.</H2>
+
+<P>The system software consists of a suite of programmes in Windows(tm) used to run and calibrate ROBOTRAK. The software is menu driven and functions are selected by either a mouse or user defined function keys. Fig. 4. shows the menu selection flowchart. On start up, the system automatically selects the Introduction menu.</P>
+
+<H3>Introduction Menu</H3>
+	
+<P>Three options are presented :-</P>
+
+<P>1.	Set up Parameters. - This option is used to define the test routine to be used and under what filename the data is to be stored. On selection a Parameter Menu is entered.</P>
+
+<P>2.	Perform Test. - This option is used to actually record the data. The test routine being defined as previously defined in the Parameter menu. The user is given the option to Rezero the encoders prior to the test routine being performed. If it is suspected that the counters have been reset while the wires have been connected to the robot at any stage, this option must be followed. ( Pressing the Break key resets the 1 MHz bus and hence the counters to zero ). The test routine is then performed and a Testing Menu offered on completion of the test.</P>
+
+<P>3.	Analyse the Results. - This option is for processing the stored data and selecting the output required.</P>
+
+<H3>Parameter Menu	( Set up Parameters ).</H3>
+
+<P>This menu allows the operator to set the following test parameters.</P>
+
+<P>1.	Filename. - The filename for storing results. A maximum of 5 characters will be accepted.<P>
+
+<P>2.	Sample Rate. - The data sampling rate can be set within the range of 200 to 1000 	readings per second.</P>
+
+
+<P>3.	Test Length. - Up to a maximum of 4000 points can be recorded. The maximum 	allowable time in seconds for the chosen sampling rate is displayed.</P>
+
+<P>4.	Start Mode. - Three start modes are available :</P> 
+		
+<P>M - manual mode starts on pressing the spacebar of the computer.</P>
+
+<P>A - Automatic mode starts when motion of the robot is sensed.</P>
+
+<P>E - External mode utilises an external trigger connected to the User Port of the Microcomputer to trigger the recording.</P>
+
+<P>5.	Comments. - A string of up to 30 characters can be added to define the test. These 	can be printed by the plotter if required.</P>
+
+<P>Once all the parameters have been set the user can change them simply by pressing the appropriate function key and re-entering the data.</P>
+
+<P>When the parameters are correct F6 returns the user to the Introductions Menu.</P>
+
+<H3>Testing Menu( Perform Test )</H3>
+
+<P>This is entered by selecting the second option of the Introduction Menu. The user is first given the option to reset the counters and then the test is performed.</P>
+
+<P>On completion of the test, three options are available :-</P>
+
+<P>1.	Redo - Allows the operator to re-run the test.</P>
+
+<P>2.	Save - Validates the date, calculates the Cartesian co-ordinates of the end effector of the robot and stores the results in the file name specified by the parameter Menu. This procedure takes approximately 60 seconds/250 points.</P>
+
+<P>3.	Quit. - Returns the user to the introduction menu without saving the data.</P>
+
+<H3>Plot Menu Selection</H3>
+
+<P>This menu is entered on selecting the third option of the introduction menu if no previous screen are available for analysis. It is used to define the starting screen for the analysis.</P>
+
+<P>The first menu offers two options :-</P>
+
+<P>1.	Time - Plots against time</P>
+<P>2.	Plane - Plots views of the Cartesian planes.</P>
+<P>On selecting the Time option the following options are available :-</P>
+<P>1.	X-T	X position against time</P>
+<P>2.	Y-T	Y position against time</P>
+<P>3.	Z-T	Z position against time</P>
+<P>4.	V-T	Velocity against time</P>
+<P>5.	A-T	Acceleration against time</P>
+<P>On selecting the Plane option the following views are offered:-</P>
+
+<P>1.	X-Y</P>
+<P>2.	Y-Z</P>
+<P>3.	Z-X</P>
+
+<P>On completion of the selection the axes are plotted and the user is returned to the Control Menu.</P>
+
+<H3>Control Menu( Analyse the Results )</H3>
+
+<P>This is the main menu for the analysis of the data. It allows the operator to define files to plot graphs, to draw and scaling of axes.</P>
+
+<P>Five options are available :-</P>
+
+<P>1.	Windo - Allows one to change the graph shown, either to a different scale or to different axes.</P>
+
+<P>2.	Hcopy - Gives a hard copy of the results. Copy Menu is presented.</P>
+
+<P>3.	Nwfil - Defines filenames to be plotted. Inputting * and tapping "Shift" will scroll through the filenames currently available on disk.</P>
+
+<P>4.	Erase - Deletes one of the currently selected files.</P>
+
+<P>5. 	Quit - Returns to the Introduction Menu.</P>
+
+<H3>Window Menu</H3>
+
+<P>1.	Draw - A box can be drawn around any part of the plot to be enlarged.</P>
+
+<P>2.	Specify - The axes range can be specified numerically.</P>
+
+<P>3.	Reset - Resets the axes scales to the default sizes.</P>
+
+<P>4. 	Plane - Selects a new graph to be plotted. See Plot Selection Menus.</P>
+
+<P>5.	Quit - Returns to the Control Menu and replots the data without changing the data. This can be used in the event of a system failure to return to the previously plotted screen.</P>
+
+<H3>Copy Menu</H3>
+
+<P>1.	Print - Dumps the current screen to a printer.</P>
+
+<P>2.	Plot - Selects output for a colour plotter. Two further options are given in this mode:</P>
+
+<P>1.	New - Sets the plotter for a paper change.</P>
+
+<P>2.	Old - Plots over the old graph.</P>
+
+<P>On selecting New any sheet in the plotter will be ejected and the user prompted to insert a new sheet.</P>
+
+<H2><A name="6">6.0 Measured Performance Specification</a></H2>
+
+<P>In order to validate the output results from ROBOTRAK, performance trials were conducted. Particular trajectories of known velocity and acceleration were set up under laboratory conditions and the ROBOTRAK system used to measure these. The output from ROBOTRAK was then compared against these known values. From these trials ROBOTRAK was found to conform to the following performance specifications.</P>
+
+<P>Static repeatability</P>
+<P>Better than ±0.2mm within 2m x 2m x 1.2m</P>
+<P>Variable path ±0.32mm within 2m x 2m x 0.7m</P>
+<P>Dynamic repeatability</P>
+<P>Same path same speed ±0.5mm with 2m³</P>
+<P>Same path variable velocity  ±0.7mm within 2m³</P>
+<P>Maximum allowable velocity = 4m/s</P>
+<P>Maximum allowable acceleration = 10m/s²</P>
+
+<H2><A name="7">7.0 Robot Test Examples.</a></H2>
+
+<P>Representative test data obtained during trials on a Unimation Puma 560 are shown in Figs 5 - 11. A simple rectangle path was programmed by teaching the Puma Robot four points. The plane of the rectangle was set perpendicular to the x - y plane of ROBOTRAK, and at 45 degrees to the x axis. The Puma program was set for continuous motion, with no delay or settling times set at the taught points, with the exception of the start / stop point. This was chosen to show the effect of tracking around smooth corner radii. Plots of x against z, y against z and x against y are shown in Figs 5, 6 and 7 respectively. Time histories of x against T and y against T were also plotted and can be seen in Figs 8 and 9 respectively.</P>
+
+<P>Both velocity and acceleration profile plots were produced and are shown in Figs 10 and 11. These two plots show clearly the effect of tracking the corner radii, with the larger peak representing the start / stop point.</P>
+
+<H2><A name="8">8.0 Conclusions</a></H2>
+
+<P>The ROBOTRAK, robot dynamic tracking system presented here has been extensively used for the assessing the performance characteristics of industrial robots both within the GRAG laboratory at Cranfield and "on-site" at various industrial establishments.</P>
+
+<H2>References</H2>
+
+<P>(1)	Mayer, R. & Parker G.A.	Optical Considerations in a 3D Laser Tracking Instrument. ROVISEC 6 Int. Conference, Paris. June 1986 pp 217-228.</P>
+<P>(2)	Amin, P. Design & Evaluate Low Cost, Robot Tracking Device. MSc. Thesis, College of Manufacturing. Sept. 1985.</P>
+<P>(3)	Wright, L. Robot Tracking Device Technical Manual. Crag Internal Document. College of Manufacturing. March 1986.</P>
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG SRC="home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<center><h6><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+
+<h6>Copyright &copy; 1996 Robot Simulations Ltd</h6>
+<h6>Last revision 3 April 1996</h6></center>
+</P>
+
+
+
+</BODY>
+</HTML>
+
+</DOC>

@@ -1,0 +1,78 @@
+
+<DOC>
+<DOCNO>WT03-B15-295</DOCNO>
+<DOCOLDNO>IA049-000852-B018-244</DOCOLDNO>
+<DOCHDR>
+http://www.camecon.demon.co.uk:80/order.htm 194.222.200.55 19970120000829 text/html 3532
+HTTP/1.0 200 OK
+Server: thttpd/1.00.dis++
+Content-type: text/html
+Content-length: 3401
+Last-modified: Tue, 12-Nov-96 11:08:37 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//SQ//DTD HTML 2.0 + all extensions//EN" "hmpro3.dtd">
+<HTML>
+<HEAD>
+<TITLE>Cambridge Econometrics - Order Form</TITLE></HEAD>
+<BODY>
+<HR>
+<CENTER>
+<H1>ORDER FORM</H1></CENTER>
+<HR>
+<FORM ACTION="http://www.camecon.demon.co.uk/cgi-bin/mailform">
+<P>Please send me <INPUT TYPE="TEXT" NAME="NumCopies" SIZE="3" ALIGN="MIDDLE">
+copies of
+<SELECT NAME="ReportName" SIZE="1">
+<OPTION VALUE="EuroReg(ab)" SELECTED="SELECTED">European Regional Prospects
+(abridged version) at &#163;80 (Ecu100)</OPTION>
+<OPTION VALUE="EuroReg">European Regional Prospects at &#163;1600 (Ecu2000)</OPTION>
+<OPTION VALUE="Euro2001">Europe in 2001 at &#163;1150 (Ecu1400)</OPTION>
+<OPTION VALUE="Reg(ab)">Regional Economic Prospects (abridged version) at &#163;45</OPTION>
+<OPTION VALUE="Reg">Regional Economic Prospects at &#163;1,750</OPTION>
+<OPTION VALUE="UKEnEnv">UK Energy and the Environment at &#163;1,250</OPTION>
+<OPTION VALUE="Indust">Industry and the British Economy at &#163;1,750</OPTION>
+<OPTION VALUE="UKConstr">UK Construction Prospects at &#163;95</OPTION></SELECT></P>
+<P>Please invoice me, quoting reference or purchase order number
+<INPUT TYPE="TEXT" NAME="OrderNum"></P>
+<P> <INPUT TYPE="RADIO" CHECKED="CHECKED" NAME="VAT" VALUE="InReg">We are in
+the European Union and our Value-Added Tax number is <INPUT TYPE="TEXT" NAME=""><BR>
+<INPUT TYPE="RADIO" NAME="VAT" VALUE="NotIn">We are not in the European Union<BR>
+<INPUT TYPE="RADIO" NAME="VAT" VALUE="NotReg">We are not registered for
+Value-Added Tax</P>
+<P>Name:<BR><INPUT TYPE="TEXT" NAME="Name" SIZE="60"><BR>Position:<BR><INPUT
+TYPE="TEXT" NAME="Position" SIZE="60"><BR>Organisation:<BR><INPUT
+TYPE="TEXT" NAME="Organisation" SIZE="60"><BR>Address:<BR>
+<TEXTAREA ROWS="5" COLS="80" NAME="CustAddr" WRAP="Off"></TEXTAREA><BR>Telephone:<BR><INPUT
+TYPE="TEXT" NAME="Telephone" SIZE="60"><BR>Fax:<BR><INPUT
+TYPE="TEXT" NAME="Fax" SIZE="60"><BR>E-Mail:<BR><INPUT
+TYPE="TEXT" NAME="EMail" SIZE="60"><BR>Date:<BR><INPUT
+TYPE="TEXT" NAME="Date" SIZE="60"></P>
+<P>I should like to be sent information about Cambridge Econometrics:</P>
+<TABLE WIDTH="100%" BORDER="0" ALIGN="CENTER">
+<TR>
+<TD WIDTH="10%"></TD>
+<TD WIDTH="40%" ALIGN="LEFT" VALIGN="MIDDLE">European Regional Service</TD>
+<TD WIDTH="5%" ALIGN="LEFT" VALIGN="MIDDLE"><INPUT
+TYPE="CHECKBOX" NAME="EuroReg"></TD>
+<TD WIDTH="40%" ALIGN="LEFT" VALIGN="MIDDLE">UK Industrial Service</TD>
+<TD WIDTH="5%" ALIGN="LEFT" VALIGN="MIDDLE"><INPUT TYPE="CHECKBOX" NAME="UKInd"></TD></TR>
+<TR>
+<TD></TD>
+<TD ALIGN="LEFT" VALIGN="MIDDLE">UK Regional Service</TD>
+<TD ALIGN="LEFT" VALIGN="MIDDLE"><INPUT TYPE="CHECKBOX" NAME="UKReg"></TD>
+<TD ALIGN="LEFT" VALIGN="MIDDLE">Energy/Environment Service</TD>
+<TD ALIGN="LEFT" VALIGN="MIDDLE"><INPUT TYPE="CHECKBOX" NAME="E/E"></TD></TR>
+<TR>
+<TD></TD>
+<TD ALIGN="LEFT" VALIGN="MIDDLE">UK Urban and Local Economy Service</TD>
+<TD ALIGN="LEFT" VALIGN="MIDDLE"><INPUT TYPE="CHECKBOX" NAME="UKLEFM"></TD>
+<TD ALIGN="LEFT" VALIGN="MIDDLE">full information pack</TD>
+<TD ALIGN="LEFT" VALIGN="MIDDLE"><INPUT TYPE="CHECKBOX" NAME="Full"></TD></TR></TABLE>
+<HR>
+<P><INPUT TYPE="RESET" VALUE="Reset form"> 
+<INPUT TYPE="SUBMIT" VALUE="Submit Order"></P></FORM>
+<HR>
+<P></P>
+<CENTER>
+<P><A HREF="http://www.camecon.demon.co.uk/index.htm">Return To CE Homepage</A></P></CENTER></BODY></HTML>
+</DOC>

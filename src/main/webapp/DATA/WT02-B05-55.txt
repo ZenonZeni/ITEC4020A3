@@ -1,0 +1,1140 @@
+
+<DOC>
+<DOCNO>WT02-B05-55</DOCNO>
+<DOCOLDNO>IA095-001027-B012-38</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/publications/FTC_June96_test.html 205.177.10.31 19970215011932 text/html 67007
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 01:18:05 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>CDT Testimony at FTC Hearings, June 1996</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<H2></H2>
+<H2><CENTER>Statement of the<BR>
+<BR>
+<A HREF="/index.html"><IMG SRC="/images/cdtlgo.gif" BORDER=1 ALT="CDT Logo"></A><BR>
+<BR>
+Jerry Berman<BR>
+Janlori Goldman<BR>
+Daniel J. Weitzner<BR>
+Deirdre K. Mulligan<BR>
+<BR>
+before the<BR>
+<BR>
+Federal Trade Commission<BR>
+Workshop on Consumer Privacy on the<BR>
+Global Information Infrastructure<BR>
+<BR>
+June 4-5, 1996</CENTER>
+</H2>
+<BR>
+<HR><BR>
+<H3>Contents</H3>
+<A HREF="#exec_sum">Executive Summary</A><BR>
+<BR>
+<A HREF="#sec_1">I. Privacy in the Digital Age</A> 
+<MENU><A HREF="#sec_1a">A. Privacy and Democracy</A><BR>
+<A HREF="#sec_1b">B. Weakness of current privacy protections</A><BR>
+<A HREF="#sec_1c">C. New challenges to privacy</A> 
+</MENU>
+<A HREF="#sec_2">II. The Empowered User: Implementing Privacy Policy in
+the Digital Age</A> 
+<MENU><A HREF="#sec_2a">A. Individual Empowerment Solutions Support Core
+Privacy Priniciples</A><BR>
+<BR>
+  <MENU>
+  <LI><A HREF="#sec_2a_1">1. Advancing Individual Control</A> 
+  <LI><A HREF="#sec_2a_2">2. Maximizing the Democratic Potential of the
+Internet</A> 
+  </MENU>
+</MENU>
+<A HREF="#sec_3">III. Technologies of Privacy</A> 
+<MENU><A HREF="#sec_3a">A. Privacy Preferences: Enable Individuals to Control
+the Flow of Personal Information</A><BR>
+<BR>
+  <MENU>
+  <LI><A HREF="#scen_3a_1">Scenario 1: The Web Site that pleases all users</A>
+  <LI><A HREF="#scen_3a_2">Scenario 2: The Perfect Match: Individual's privacy
+preferences and Web site's practices match.</A> 
+  <LI><A HREF="#scen_3a_3">Scenario 3: A Mis-match of Preference and Practice:
+Individual's preferences and Web site's practices differ.</A> 
+  </MENU>
+<BR>
+<A HREF="#sec_3b">B. Block Bad Actors: Limit Access to Sites With Abusive
+Information Collection Practices</A><BR>
+<BR>
+  <MENU>
+  <LI><A HREF="#scen_3b_1">Scenario 1: The Pro-privacy list: Individual
+only wants to visit &quot;good&quot; actors</A> 
+  <LI><A HREF="#scen_3b_2">Scenario 2: The Protective Parent: Parent limits
+child's access to &quot;good&quot; actors</A> 
+  </MENU>
+</MENU>
+<A HREF="#sec_4">IV. Protecting Children's Privacy Online</A> 
+<MENU><A HREF="#sec_4a">A. Empowering Parents</A><BR>
+<A HREF="#sec_4b">B. Avoiding rules that may infringe on other rights</A>
+</MENU>
+<A HREF="#sec_5">V. European Union Data Protection Directive</A> 
+<MENU><A HREF="#sec_5a">A. Goals of the Directive</A><BR>
+<A HREF="#sec_5b">B. U.S. Privacy Policy, the Internet, and the EU Directive</A>
+</MENU>
+<A HREF="#conclusion">Conclusion</A><BR>
+<BR>
+<A HREF="#footnotes">Footnotes</A><BR>
+<A NAME="exec_sum"></A><BR>
+<HR>
+<H2>Executive Summary</H2>
+The Center for Democracy and Technology believes that interactive communications
+media such as the Internet hold great potential for enhancing democratic
+values and supporting the full realization of individual freedoms. Policies
+that support and encourage the development of technologies that give individuals
+control over the ideas and beliefs to which they are exposed, and the collection,
+use and disclosure of their personal information, will lay the foundation
+for a robust, thriving democracy in the Digital Age. <BR>
+<BR>
+While optimistic about the privacy enhancing potential of the Digital Age,
+we believe that the core privacy principles of notice and individual control
+over personal information must inform the design of the information infrastructure
+if this potential is to be fully realized. We have a window of opportunity
+-- offering the chance to put privacy-enhancing technologies into the hands
+of individuals. To realize this promise, all members of the Internet community
+must come together to build an infrastructure that supports privacy policies
+and applications.<BR>
+<BR>
+Our testimony offers a vision of an individual with the information and
+tools to make decisions about the collection, use and disclosure of personal
+information during each and every transaction on the Internet. <BR>
+<BR>
+<A HREF="#sec_1">Section I</A> sets the stage for a discussion of the Individual
+Empowerment solution by providing an overview of privacy considerations
+in the Digital Age. <A HREF="#sec_2">Sections II</A> and <A HREF="#sec_3">III</A>
+outline our Individual Empowerment model and offer a number of models for
+its implementation. <A HREF="#sec_4">Section IV</A> examines the application
+of Individual Empowerment solutions to protecting children's privacy. Finally,
+<A HREF="#sec_5">Section V</A> explores the potential of the Individual
+Empowerment model to move the Internet towards compliance with the EU Directive.<BR>
+<BR>
+The Center for Democracy and Technology (CDT) is dedicated to preserving
+and enhancing democratic values and civil liberties on the Internet and
+other interactive communications media. CDT pursues its mission through
+public education, grass roots organizing, litigation, and coalition building.
+CDT is a non-profit, public interest organization (501 (c)(3)).<A NAME=
+"sec_1"></A><BR>
+<P><CENTER><HR WIDTH="75%"></CENTER>
+<H2>I. Privacy in the Digital Age</H2>
+At its core, the Digital Age represents a dramatic shift in computing and
+communication power. The decentralized, open nature of the network coupled,
+with an emphasis on user control over information, are central to achieving
+the First Amendment potential of the Internet. Through interactive technology,
+individuals today can enjoy a here-to-fore unknown ability to exercise First
+Amendment freedoms. Access to the Internet empowers individuals with an
+enormous capacity to speak and be heard, and listen and learn. The development
+of filtering and blocking devices that empower individuals to control the
+inflow of information gives new meaning to the core First Amendment principle
+that individuals should determine the ideas and beliefs deserving of expression,
+consideration, and adherence.<SUP><A HREF="#ft_1">1</SUP></A><BR>
+<BR>
+However, at this moment the impact of the Digital Age on individual privacy
+remains an open question. Will the Digital Age be a period in which individuals
+lose all control over personal information? Or does the Digital Age offer
+a renewed opportunity for privacy? The development of technologies that
+empower individuals to control the collection and use of personal information
+and communications -- such as encryption, and anonymous remailers, web browsers
+and payment systems -- are inspiring examples of the privacy-enhancing possibilities
+of interactive technology. However, we believe that the architecture of
+the Internet must be designed to advance individual privacy by facilitating
+individual control over personal information. <BR>
+<BR>
+The rise of technologies that empower users of interactive communications
+media to affirmatively express control over personal information can fundamentally
+shift the balance of power between the individual and those seeking information.
+CDT believes this technological shift is possible and necessary, and offers
+us an unprecedented opportunity to advance individual privacy. However,
+this shift will only occur if interactive media is harnessed to advance
+individual privacy.<BR>
+<BR>
+Rather than responding to the very real risks posed by new technology with
+the Luddite-call of &quot;smash the machine,&quot; we are calling for a
+reversal of the technological status quo by demanding that technology be
+designed to empower people. We should seize the opportunity to vest individuals
+with the information and tools to express their desire for privacy in clear
+and effective ways, and have those desires acknowledged by information users,
+we can advance privacy. We believe that this post-Luddite approach will
+reinvigorate individual privacy in the Digital Age. <BR>
+<BR>
+While strengthening existing laws, such as the Fair Credit Reporting Act
+and the Right to Financial Privacy Act, and enacting legislation to protect
+health records, are crucial to protecting individual privacy, individual
+empowerment technologies offer a powerful method of implementing the core
+principle of individual control where current gaps and weaknesses leave
+individual privacy vulnerable. We believe that user controlled technologies
+that enable individuals to protect the privacy of their communications and
+personal information, offer an unprecedented opportunity to extend real
+protections for individual privacy around the world. <A NAME="sec_1a"></A>
+<H3>A. Privacy and Democracy</H3>
+Understanding the value of privacy to individuals and society, and developing
+the principles through which privacy can best be preserved is essential,
+if we are to develop a cohesive, rational model for realizing individual
+privacy on the Internet.<SUP><A HREF="#ft_2">2</SUP></A> We must understand
+why preserving and enhancing privacy is an ultimate &quot;good,&quot; and
+agree upon a set of privacy principles, before we can come to decisions
+on how best to apply them to this new media.<BR>
+<BR>
+An emblem of a vibrant, participatory democracy is the ability of people
+to develop as individuals, separate and distinct from one another, with
+the confidence to hold and express their own political opinions, beliefs
+and preferences. A free society tolerates -- even revels in -- such individuality,
+recognizing it as the bedrock of an open society, as a necessary precursor
+to free speech and political participation.<BR>
+<BR>
+People must be able to maintain some control over personal information in
+order to fully realize other core values, including autonomy, liberty, free
+expression and civic participation. This facet of privacy is uniquely implicated
+in our move to interactive technology.<SUP><A HREF="#ft_3">3</A> </SUP> By
+preserving privacy, society provides individuals with the solitude and isolation
+necessary for the individual to develop her identity, form her own thoughts
+and opinions, and establish intimate connections with others. Equally important,
+privacy allows the individual to step forward to participate in the affairs
+of society without losing all control over personal information. It is axiomatic
+that an individual's willingness to engage in the activities of the community
+will be tempered by the degree to which he or she is able to maintain control
+over the development and presentation of one's self.<SUP><A HREF="#ft_4">4</SUP></A>
+In the absence of control over the development of one's self, individual
+autonomy and self-determination are eroded.<A NAME="sec_1b"></A>
+<H3>B. Weakness of current privacy protections</H3>
+A number of factors have contributed to the weak state of individual privacy
+protection in the U.S. First, until fairly recently, technology has been
+in the hands of the government and large corporations. It has been deployed
+to meet governmental needs -- often the need to monitor, survey, and track
+individuals -- using increasingly invasive techniques. Similarly, technology
+has been used by businesses to collect information on individuals often
+without their knowledge or consent and, frequently, to use personal information
+collected for one purpose to make decisions about the individual in unrelated
+contexts. <BR>
+<BR>
+Second, in the U.S., privacy protections for personal information are incomplete
+and scattered throughout case law<SUP><A HREF="#ft_5">5</A> </SUP>, federal
+and state statutes, and executive branch reports.<SUP><A HREF="#ft_6">6</SUP></A>
+Despite the clear articulation of principles that would, if implemented,
+preserve individual privacy, individuals continue to experience an erosion
+of privacy. In particular, individuals in this country report an escalating
+fear that individual privacy is in greater peril each day due to increased
+computerization of personal information.<SUP><A HREF="#ft_7">7</SUP></A>
+<BR>
+<BR>
+The use of technology to meet the information needs of government and business
+has disempowered individuals. Technology has escalated the collection of
+detailed personal information and enabled massive data sharing between entities
+for unrelated purposes -- all without the individual's consent. Today, privacy
+protection frequently takes the form of an eight page disclaimer waiving
+any claim to privacy which the individual must sign prior to receiving a
+service or benefit. The perception of technology as an invasive tool of
+&quot;big brother&quot; and &quot;big government&quot; has led civil libertarians
+and average citizens to consistently demand legal protection -- be it judicial
+or legislative -- from the incursions on privacy and liberty made possible
+by the uncontrolled use of technology.<BR>
+<BR>
+Even where there has been an attempt to codify fair information practices
+through statute, regulations, or industry guidelines, the results have generally
+fallen far short of the desired goal -- to have individuals control the
+collection, use, and disclosure of personal information. This is not to
+underestimate the importance of hard fought battles to craft statutory privacy
+protections for personal information. Existing privacy laws in areas such
+as banking, cable, credit, educational and video records set important limits
+on the use and disclosure of personal information. However, there is not
+a statute on the books that gives the individual simple, meaningful, up-front,
+control over personal information. The sector by sector approach of existing
+U.S. law makes analytic sense, but progress has been slow and many gaps
+remain.<BR>
+<BR>
+As a result of this dynamic, efforts to preserve information privacy can
+be characterized as a constant struggle to set limits on the invasions of
+privacy -- the misuse, unauthorized collection, and unauthorized disclosure
+of personal information -- made possible and practical through technology.
+<A NAME="sec_1c"></A>
+<H3>C. New challenges to privacy</H3>
+Once divulged, bits of personal information can reveal what we think, believe,
+and feel. No other medium generates personal information with the granularity
+of the Internet. Information is generated and captured each time an individual
+enters a Web site, views a picture, FTP's a file, or sends an email. Information
+is needed to complete each transaction; however, this information, disclosed
+over a period of time, in a variety of circumstances, can reveal details
+of the individual's habits, beliefs, and affiliations. The individual &quot;womb
+to tomb dossiers&quot; of personal information Arthur Miller warned us of
+30 years ago may be readily available -- not stored in a central database,
+but culled from a variety of sources and pulled together instantaneously
+to create a detailed profile of nearly anyone on the Internet.<SUP><A HREF="#ft_8">8</SUP></A>
+<BR>
+<BR>
+Currently few people are aware of the vast amount of information generated
+and captured -- and potentially used and disclosed -- during the use of
+interactive communications media. Unlike the traditional paper-based world
+where the individual is typically aware that they are providing an entity
+with information (they present a credit card, or receive a billing statement
+from the phone company) much of the information gathering on the Internet
+occurs during browsing or other relatively passive activities. Individuals
+visit Web sites, read articles, and examine pictures under the illusion
+that their activities are anonymous or at least unobserved. <BR>
+<BR>
+In an effort to increase public demand for privacy protection, last week
+CDT launched a privacy demonstration Web site which greets each visitor
+with detailed personal information including their name, email address,
+computer and browser type and the universal resource locator (URL) indicating
+the Web site from which they came. Initial visitors expressed alarm at the
+detailed personal information that is routinely recorded by Web sites, Internet
+providers, and online commercial service providers. In addition, CDT has
+established an online clearinghouse to highlight existing privacy policies
+of commercial online service providers. Over the next year, we will expand
+the clearinghouse to include information on the information practices of
+Internet service providers, content providers and browsers. Through education
+we hope to create public demand for stronger more ubiquitous privacy policies
+and applications.<SUP><A HREF="#ft_9">9</SUP></A><BR>
+<BR>
+Interactive media offers new challenges to privacy. There is growing public
+concern that the non-consensual, surreptitious collection of personal information
+is undermining individual privacy.<SUP><A HREF="#ft_10">10</SUP></A> The
+lack of transparency about information collection and use on the Internet
+builds upon this concern. Without the knowledge that information is being
+collected and used, individuals are unable to make informed decisions to
+preserve their privacy. People are uncomfortable when they learn that software
+is available and in use that allows Web site operators and other content
+providers to easily record their online activities unbeknownst to them.<SUP><A HREF="#ft_11">11</SUP></A>
+<BR>
+<BR>
+As news stories expose the privacy risks of new services and applications
+such as Deja News<SUP><A HREF="#ft_12">12</SUP></A>, and cookies<SUP><A HREF="#ft_13">13</SUP></A>,
+individuals may become more reticent in their use of the Internet. The lack
+of accurate information about the collection, use and disclosure practices
+of entities on the Internet, may chill speech and political activity on
+the Internet. Individuals may hesitate and pull back from participating
+in desirable activities such as signing online petitions to Congress.<A HREF="#ft_14"><SUP>14</SUP></A>
+They may withdraw from participating in online discussions or visiting Web
+sites that contain information on sensitive topics such as sex and health.
+<BR>
+<BR>
+Policy makers around the world our beginning to address the privacy concerns
+that threaten to undermine individuals' willingness to partake in First
+Amendment and commercial activities on the Internet. While few concrete
+solutions have been proposed, privacy's pivotal role in promoting speech
+and other democratic values has been recognized. Despite general agreement
+that individual privacy must be preserved -- and even enhanced -- in cyberspace,
+we are just beginning to explore the means to make privacy work in this
+new media.<SUP><A HREF="#ft_15">15</SUP></A> <A NAME="sec_2"></A><BR>
+<P><CENTER><HR WIDTH="75%"></CENTER>
+<H2>II. The Empowered User: Implementing Privacy Policy in the Digital Age</H2>
+Interactive communications media offer both risks and opportunities to securing
+individuals' privacy. To have privacy in the Digital Age one must be able
+to both enjoy solitude and to make decisions about what, if any, personal
+information to divulge, to whom and for what purpose. In the Digital Age
+technology can be harnessed to advance privacy by empowering individuals
+to control the flow of information on a case by case, setting by setting
+basis, by expressing his or her privacy desire. Through the implementation
+of existing laws, continued pressure to develop additional laws to protect
+personal information in various sectors, and the implementation of individual
+empowerment solutions that give people the ability to control personal information
+through full notice and meaningful consent, the Internet can be shaped to
+support individual privacy. <BR>
+From the Luddite movement of the early Nineteenth century through publication
+of David Burnham's <EM>Rise of the Computer State</EM>, technology has rightfully
+been viewed as a tool by which the interests of the individual are subsumed
+to the more powerful interests of the government and big business. While
+privacy advocates must continue to push for laws, the ability to empower
+people to directly express privacy choices through user controlled technologies
+has the potential to significantly alter the traditional relationship between
+individuals and technology. <BR>
+<BR>
+We must seize the opportunity to move beyond the current debate over the
+intrusive nature of technology and seize the opportunity to ensure that
+privacy protection is a core element of this new communications media.<SUP><A HREF="#ft_16">16</SUP></A>
+By building privacy in at the front-end we can craft an environment where
+each individual gets to decide the level at which information is protected
+instead of relying on the government and the private sector to mete out
+weak protections on a sector by sector basis leaving large quantities of
+personal information unprotected and vulnerable.<BR>
+<BR>
+The privacy potential of interactive communications media will be realized
+only through the concerted efforts of policy makers, the public interest
+community and the communications and computer industries. CDT is exploring
+the creation of a PICS-like process for privacy with the Massachusetts Institute
+of Technology (MIT), the World Wide Web Consortium, public interest organizations,
+and Internet content and service providers. If embraced and implemented,
+we believe that technology tools, coupled with fair information practices
+can provide an effective method of making individual privacy a reality on
+the Internet. Individual empowerment technologies which facilitate both
+the communication of Web site operator's information practices to users,
+and the communication of individuals' privacy preferences to Web site operators,
+will give users maximum control over personal information. <A NAME="sec_2a"></A>
+<H3>A. Individual Empowerment Solutions Support Core Privacy Principles
+</H3>
+Individual empowerment solutions support core individual privacy and First
+Amendment principles and offer an effective method of ensuring respect for
+individual privacy in a medium populated by a diversity of players. While
+existing laws that protect personal information in particular sectors must
+apply regardless of the medium, much of the information generated online,
+and many of the Internet service and content providers who collect and use
+information, are not covered by existing statutes. <BR>
+<BR>
+Due to the extent and detailed nature of personal information that can be
+generated, collected and used during online activities, it is essential
+that individuals be able to control the flow of this information. Through
+the implementation of core privacy principles through policies and technologies
+that empower the individual to independently control the flow of personal
+information, we can give individuals a meaningful tool with which to fill
+existing gaps in both law and practice. <A NAME="sec_2a_1"></A><BR>
+<BR>
+<STRONG>1. Advancing Individual Control</STRONG><BR>
+<BR>
+CDT believes that people should be provided meaningful notice of information
+practices, and the tools to control the use and disclosure of personal information.
+Privacy is valued differently by each person. Similarly, an individual's
+desire for privacy may vary in different situations. Decisions about the
+collection, use and disclosure of personal information have a profound impact
+on an individual's ability to exercise First Amendment protected activities.
+The individualized nature of privacy and the impact that privacy decisions
+may have on other rights and activities, support an approach that vests
+control in the individual. Individual empowerment solutions can provide
+individuals with the information and tools to make decisions with independence
+and flexibility.<SUP><A HREF="#ft_17">17</SUP></A> <BR>
+<BR>
+Through individual empowerment solutions we can advance individual control
+over personal information by: 
+<UL>
+<LI>enabling individuals, and parents, to exercise control over the collection,
+use and disclosure of their or their children's personal information through
+a set of individually chose preferences; 
+<LI>developing a common language to assist Web site operators in notifying
+users of their information practices in a standard, easily understood format;
+<LI>enabling third parties to provide additional information to users regarding
+the information practices of information providers. <A NAME="sec_2a_2"></A>
+</UL>
+<STRONG>2. Maximizing the Democratic Potential of the Internet</STRONG><BR>
+<BR>
+Individual empowerment solutions use the Internet's unique features to advance
+privacy. Individual empowerment solutions build upon the medium's interactivity.
+The two-way communication supported by interactive media make the exchange
+of information about privacy preferences and practices simple, inexpensive,
+and in many instances seamless. The diversity of players on the Internet
+-- from the individual with a personal Web site, to the many political Web
+sites, to large corporations, require that if we are to develop a uniform
+approach to privacy -- which we believe we should -- it must be a solution
+that addresses the privacy needs of individuals in each interaction. Shaping
+the architecture of the Internet to support individual control over personal
+information offers an effective method of preserving privacy in this context.
+<BR>
+<BR>
+Similar to the characteristics of the medium itself, the social and political
+nature of Internet users is distinct in ways that may be important to privacy
+considerations. First, even in its nascent stage, the Internet has shown
+itself to be responsive to those who populate it.<SUP><A HREF="#ft_18">18</SUP></A>
+Second, many pioneers of the electronic frontier are self-described libertarians.
+Third, the Internet is alive with people engaged in a host of activities
+that many consider sensitive.<SUP><A HREF="#ft_19">19</SUP></A> Both the
+people engaged in these activities and those establishing the areas where
+they take place, have a strong interest in developing an environment that
+engenders trust and confidence in its users. This may bode well for privacy.
+The combination of a medium that has been responsive to its users, early
+users who are known privacy fundamentalists, and a tradition of people engaging
+in activities that they want to keep private, may prove a hopeful combination
+for individual privacy. <A NAME="sec_3"></A><BR>
+<P><CENTER><HR WIDTH="75%"></CENTER>
+<H2>III. Technologies of Privacy</H2>
+We believe that technologies must be designed to give people control over
+personal information by allowing users to avoid Web sites with inappropriate
+information collection and use practices, and allowing them to set privacy
+preferences that prevent or limit the collection, use and disclosure of
+personal information. Building upon the success of the Platform for Internet
+Content Selections (PICS) -- a values-neutral platform that enables parents
+to exercise control over children's access to inappropriate material --
+and other user empowering technologies, CDT believes that we can develop
+applications that maximize individual control over information. In the past
+ten months, the PICS platform has evolved from concept to final release
+of standards. Over the next few months, every major browser and online service
+will update products to include the programming necessary to read and interpret
+PICS labels. At least four different content labeling and rating services
+will be available to the public. And there will be two Web-based bureaus
+where content owners can create their own descriptive labels. In the very
+near future, PICS will be widely available on the Internet.<A NAME="sec_3a"></A>
+<H3>A. Privacy Preferences: Enable Individuals to Control the Flow of Personal
+Information </H3>
+Technologies that allow users to communicate privacy preferences to Web
+sites can promote individual control over the extent and nature of personal
+information, if any, that flows to each Web site and its subsequent use
+and disclosure. In the normal course of an interaction between a Web site
+and a user much information is exchanged in both directions. The user receives
+whatever content the Web site has to display. The Web site often maintains
+logs of personal transactional information on each visitor. <BR>
+<BR>
+By allowing the individual or parent to configure their own privacy preferences
+that are communicated by their browser to each Web site they visit, individual
+empowerment solutions enable individuals to view material on a Web site
+while maintaining control over personal information. Technology can be used
+to communicate limits on the use and disclosure of personal information
+revealed<SUP><A HREF="#ft_20">20</SUP></A>, or block the collection of personal
+information altogether.<SUP><A HREF="#ft_21">21</SUP></A> <BR>
+<BR>
+The following three scenarios play out possible interactions between a Web
+site equipped with this enhanced PICS application and a user who has configured
+privacy preferences. <A HREF="#scen_3a_1">Scenario 1</A> describes the interaction
+between a Web site with a policy of accepting all visitors and complying
+with all limits they have set on the collection, use and disclosure of personal
+information. Scenarios 2 and 3 describe the interaction between the individual
+and a Web site with specific information practices. In <A HREF="#scen_3a_2">Scenario
+2 </A>the individual's privacy preferences and the Web site's information
+practices match. In <A HREF="#scen_3a_3">Scenario 3</A> the individual's
+privacy preferences and the Web site's information practices are incompatible.
+<A NAME="scen_3a_1"></A><BR>
+<BR>
+<STRONG>Scenario 1: <BR>
+The Web Site that pleases all users<BR>
+</STRONG><BR>
+A Web site operator has made the decision to maximize the number of individuals
+who visit their site. Using capabilities built into his server software
+that carry individuals' privacy preferences along with their personal information,
+the Web site operator has configured his site to accept individuals with
+all privacy preferences. 
+<DL>
+<DT>Step 1 
+<DD>Using a standard format to describe information preferences, the individual
+sets her privacy preferences, indicating how she wants personal information
+handled. <BR>
+<BR>
+<DT>Step 2 
+<DD>The Web site operator configures his server software to accept individuals
+with various privacy preferences. (For example preferences such as: do not
+collect information; or, do not use for unrelated purposes.)<BR>
+<BR>
+<DT>Step 3 
+<DD>Once her privacy preferences are set, the individual browses the Internet.
+The browser will automatically communicate her preferences to the site which
+will then record the appropriate restrictions on the collection, use, and
+disclosure of her personal information. <BR>
+<BR>
+<DT>Step 4 
+<DD>Notice and choice about information practices in this instance occurs
+transparently, providing users of the Internet the seamless flow of information
+they expect. The Web site has decided to conduct business regardless of
+the individually established limits on the use of personal information.
+<A NAME="scen_3a_2"></A>
+</DL>
+<STRONG>Scenario 2:<BR>
+The Perfect Match: Individual's privacy preferences and Web site's practices
+match.</STRONG><BR>
+<BR>
+Using a standard format a Web site operator provides notice of their information
+practices which is read by the individual's browser and compared with the
+individual's privacy preference. They are compatible so the person enters
+the Web site without further dialogue. 
+<DL>
+<DT>Step 1 
+<DD>The individual sets her privacy preferences, indicating how she wants
+personal information handled. <BR>
+<BR>
+<DT>Step 2 
+<DD>The Web site operator develops a notice accurately describing the site's
+information practices. (For example, notice would include information about
+collection, use, disclosure, access, correction, and retention and other
+factors.)<BR>
+<BR>
+<DT>Step 3 
+<DD>Once her privacy preferences are set, the individual browses the Internet.
+The browser will automatically compare her preferences with the notice of
+information practice provided by sites. <BR>
+<BR>
+<DT>Step 4 
+<DD>When the user enters the URL for a Web site, the browser will automatically
+compare the individual's preferences with the individual's configured preferences.
+Where the individual's preferences and site's notice of information practices
+match (or if site's practices are more privacy protective) she will enter
+the site directly. <BR>
+<BR>
+<DT>Step 5 
+<DD>Notice and choice about information practices in this instance occurs
+transparently, providing users of the Internet the seamless flow of information
+they expect on the Internet. <A NAME="scen_3a_3"></A>
+</DL>
+<STRONG>Scenario 3:<BR>
+A Mis-match of Preference and Practice: Individual's preferences and Web
+site's practices differ.</STRONG><BR>
+<BR>
+As in scenario 2, a Web site operator has provided a notice of information
+practice in a standard format and the individual has a browser which is
+capable of, and configured to, read and compare the notice with the individual's
+privacy preference. In this instance the individual's preference and Web
+site's practices are incompatible. 
+<DL>
+<DT>Step 1 
+<DD>The individual sets her privacy preferences (or sets preferences for
+their children), indicating how she wants personal information handled.<BR>
+<BR>
+<DT>Step 2 
+<DD>The Web site operator develops a notice accurately describing the site's
+information practices. (For example, notice would include information about
+collection, use, disclosure, access, correction, and retention and other
+factors.)<BR>
+<BR>
+<DT>Step 3 
+<DD>Once her privacy preferences are set, the individual browses the Internet.
+The browser will automatically compare her preferences with the notice of
+information practice provided by sites. (Does this require a common description
+of information practices?)<BR>
+<BR>
+<DT>Step 4 
+<DD>When the user enters the URL for a Web site, the browser will automatically
+compare the individual's preferences with the individual's configured preferences.
+<BR>
+<BR>
+<DT>Step 5 
+<DD>In this case, the Web site's practices do not match the individual's
+privacy preferences. The browser will notify the individual of the mis-match
+in one of two ways: <BR>
+1) the Web site may choose to respond -- a window would appear informing
+the individual of the mis-match and allowing the individual to choose to
+view the information practices, directly enter the site, or leave; or,<BR>
+2) the Web site may choose not to respond (or if they have no information
+practice notice they will have nothing to respond with), in which case once
+notified of the mis-match the individual can choose whether to enter the
+site.<A NAME="sec_3b"></A> 
+</DL>
+<H3>B. Block Bad Actors: Limit Access to Sites With Abusive Information
+Collection Practices</H3>
+Existing PICS technology can enable individuals to block access to World
+Wide Web sites which engage in unfair information collection procedures
+(defined by either the individual or an organization).<SUP><A HREF="#ft_22">22</SUP></A>
+The PICS approach is flexible enough that an individual can prevent access
+to pages that contain information collection forms, without prohibiting
+access to the entire Web site. Today, consumer groups, privacy organizations,
+or industry self-regulatory bodies can easily create PICS rating systems
+which would be used to block access to Web pages based on the strength or
+lack of privacy practices.<BR>
+<BR>
+The following two scenarios play out the privacy applications possible with
+current PICS technology. In Scenario 1 a third-party has developed a list
+of &quot;good actors&quot; (based on any subjective criteria) which is used
+by an individual to control her access to the Web. In Scenario 2 a third-party
+has developed a list of &quot;good actors&quot; which a mother is using
+to direct her child's access to Web sites. <A NAME="scen_3b_1"></A><BR>
+<BR>
+<STRONG>Scenario 1: <BR>
+The Pro-privacy list: Individual only wants to visit &quot;good&quot; actors<BR>
+</STRONG><BR>
+Consumer only wants to visit sites that Privacy First has placed on its
+index of pro-privacy Web sites. 
+<DL>
+<DT>Step 1 
+<DD>Using her PICS-compatible web browser an individual would set her browser
+to only allow access to Web sites that are on Privacy First's pro-privacy
+list (held on a server somewhere). 
+<DT>Step 2 
+<DD>When she enters a URL, her browser will compare the entry with the list
+compiled by Privacy First. <BR>
+<BR>
+<DT>Step 3 
+<DD>If the site is on the pro-privacy list the connection will be made seamlessly.<BR>
+<BR>
+<DT>Step 4 
+<DD>If the site is not on the pro-privacy list the connection will be blocked.
+The user can choose to override her preference and enter anyway, or can
+choose not to enter the site. <A NAME="scen_3b_2"></A>
+</DL>
+<STRONG>Scenario 2: <BR>
+The Protective Parent: Parent limits child's access to &quot;good&quot;
+actors<BR>
+</STRONG><BR>
+Parent only wants child to visit Internet sites that are on Privacy First's
+&quot;child list&quot; of Web sites that don't solicit personal information.<BR>
+<BR>
+Here we have a parent who is concerned about her son's activities on the
+Internet. In particular, she is concerned that her son may be revealing
+his name, and email and street addresses to others. She is interested in
+limiting her son's access to pages of Web sites that contain information
+collection forms. 
+<DL>
+<DT>Step 1 
+<DD>Using her PICS-compatible web browser an individual would set her browser
+to only allow her son access to Web sites that are on Privacy First's &quot;child
+list.&quot; <BR>
+<BR>
+<DT>Step 2 
+<DD>When her eight year old son enters a URL, the browser will compare the
+entry with the list compiled by Privacy First. <BR>
+<BR>
+<DT>Step 3 
+<DD>If the site is on the &quot;child list&quot; the connection will be
+made seamlessly.<BR>
+<BR>
+<DT>Step 4 
+<DD>If the site is not on the &quot;child list&quot; the connection will
+be blocked. Her son will be notified that the site is blocked and he can
+request his mom's permission to enter. 
+</DL>
+The scenarios above represent the potential for the Internet to develop
+and flourish as a medium that allows the strongest expression of personal
+privacy. The individual is able to decide in an informal manner, at the
+front-end, without coercion, what if any information to divulge and for
+what purpose it may be used. We have an opportunity to truly empower individuals
+to take charge and control the flow of personal information by developing
+and implementing technologies that vest simple methods for exercise meaningful
+control over personal information in the individual. If our goal is to fully
+implement the core privacy principle -- individual's have the right to control
+the collection, use and disclosure of their personal information -- on the
+Internet, policies that build upon the innate ability of interactive communications
+media to support individual control hold great promise. <BR>
+<BR>
+Clearly individual empowerment solutions are meaningless unless they are
+effective. Enforcement is a crucial part of any privacy solution. We believe
+the FTC has an effective method of enforcing privacy policy on the Internet.
+Once an entity has put forth a privacy policy or agreed to adhere to an
+individual's preferences, any deviation or breach of the terms set out would
+be actionable as a deceptive and unfair practice. We believe the FTC has
+full jurisdiction to ensure that entities operate fairly on the Internet
+and conform to their stated information practice policies. <A NAME="sec_4"></A><BR>
+<P><CENTER><HR WIDTH="75%"></CENTER>
+<H2>IV. Protecting Children's Privacy Online</H2>
+The issue of children's information privacy on the Internet has caught the
+public's eye. Children are an increasingly large segment of the Internet
+user population. The Internet offers children, like adults, a tremendous
+opportunity to exchange ideas and participate in a world outside their window.
+However, the ease with which children can access ideas, reveal information
+about themselves, and participate in a range of activities without parental
+supervision, has and will continue to be a subject of concern. <BR>
+<BR>
+CDT is dedicated to enhancing children's privacy on the Internet. We believe
+that individual empowerment solutions coupled with fair information practices
+and policies, parental involvement, and strong government response to deceptive
+and unfair information collection practices, can best protect children's
+privacy. <A NAME="sec_4a"></A>
+<H3>A. Empowering Parents</H3>
+The Internet is currently being designed to support parental empowerment
+solutions which can be implemented without curtailing the availability of
+information, nor limiting the speech and associational rights of other Internet
+users. Through user control technology parents can: 
+<UL>
+<LI>prevent their child from accessing Web sites with inappropriate information
+practices -- as defined by the parent or a consumer or privacy organization
+of the parent's choice; 
+<LI>prevent their child from revealing personal information such as name,
+address, and email address to others; 
+<LI>allow their child to access sites but limit the collection, use and/or
+disclosure of their child's personal information; 
+<LI>exercise control over their child's personal information without directly
+supervising their Internet activities; 
+<LI>install security measures such as passwords that prevent their child
+from changing rules established by the parent regarding Web site access
+or information disclosure, collection and use. 
+</UL>
+CDT believes that parental empowerment technologies provide a solution that
+gives parent's real control over information. Technologies that allow minors
+or parents to exercise control over the collection, use and disclosure of
+children's personal information both affirm minors' independent interest
+in making decisions regarding personal information, and provide the flexibility
+to accommodate different parental judgments and preferences regarding childrearing
+and privacy. By allowing parents to decide the age at which, or situations
+in which, a minor is mature enough to independently exercise control over
+personal information, and those in which the parent will decide in their
+stead, user controlled technologies support minors' independent rights,
+facilitate parental involvement, and avoid one-size-fits-all solutions.<A
+NAME="sec_4b"></A>
+<H3>B. Avoiding rules that may infringe on other rights</H3>
+The close nexus between individual privacy and First Amendment freedoms
+demands careful inspection of rules designed to protect privacy. Protecting
+children's privacy online requires a policy that fosters individual privacy
+while facilitating minors and parents to in addressing their particular
+privacy and safety concerns. <BR>
+<BR>
+Individual empowerment technologies avoid a host of thorny constitutional
+issues raised by age-based limitations and provide parents with the ability
+to exercise control over personal information on behalf of their children.
+Alternative proposals for protecting children which turn on age-based rules
+to control information use may require entities operating online to verify
+the age of each individual with whom they interact. Age verification may
+well escalate the collection of personal information and ultimately lead
+to the creation of a nation-wide lists of users and their ages which would
+directly implicate fundamental rights of freedom of association,<SUP><A HREF="#ft_23">23</SUP></A>
+and undermine individual privacy. In addition, implementing identification
+requirements on the Web would limit all Internet users ability to read,
+speak, receive information<SUP><A HREF="#ft_24">24</SUP></A>, and interact
+online under Constitutionally-protected conditions of anonymity.<SUP><A HREF="#ft_25">25</SUP></A>
+<A NAME="sec_5"></A><BR>
+<P><CENTER><HR WIDTH="75%"></CENTER>
+<H2>V. European Union Data Protection Directive</H2>
+In July, 1995, the European Union (EU) adopted the Directive On the Protection
+of Individuals with regard to the Processing of Personal Data and on the
+Free Movement of such Data (known as the &quot;Data Protection Directive&quot;).
+In essence, the Directive sets forth rules relating to individual access
+to personal data, requires individual consent prior to certain uses of personal
+information, calls for &quot;appropriate&quot; security safeguards to be
+put in place by companies handling personal information, and requires member
+countries to create &quot;supervisory authorities&quot; to oversee implementation
+of the Directive. The intent behind the Directive is to harmonize the data
+protection laws within the EU, providing European citizens with a minimum
+level of data protection. <BR>
+<BR>
+The Directive's reach stretches far beyond the limits of the European community
+by limiting the transfer of data to non-member countries that do not ensure
+an &quot;adequate&quot; level of data protection.<SUP><A HREF="#ft_26">26</SUP></A>
+Although the contours of the &quot;adequacy&quot; standard are unclear,
+it is certain that the Directive has the potential to seriously impede the
+flow of data from member states to the United States. <A NAME="sec_5a"></A>
+<H3>A. Goals of the Directive</H3>
+The goal of the Directive is &quot;to protect the fundamental rights and
+freedoms of natural persons, and in particular their right to privacy, with
+respect to the processing of personal data &quot;that is automated or contained
+in a &quot;filing system&quot; structured to permit easy access to personal
+data. (Articles 1 &amp; 3) Data protection -- referred to in the United
+States as information privacy --is considered a fundamental human right
+in Europe, which must be preserved as the EU moves to a common, internal
+market.<SUP><A HREF="#ft_27">27</SUP></A> To protect privacy, the Directive
+establishes a core set of fair information practice principles to apply
+to data held by both the public and private sectors. <BR>
+<BR>
+Consistent with the Fair Information Practice Principles developed by HEW
+in 1973, the Directive calls for clear notice, informed consent for data
+use, individual access and correction rights, and data reliability and security
+. In addition, the Directive calls on Member countries to provide judicial
+remedies for failures to comply with the directive and to establish independent
+&quot;supervisory authorities&quot;-- with whom all data controllers must
+register -- to oversee implementation and enforcement of the Directive.
+<BR>
+<BR>
+The core of the Directive -- as with information privacy policy in general
+-- is the consent provision. The Directive requires that all processing
+of personal data occur only with the subject's unambiguous consent. Consent
+is defined by the Directive as &quot;any freely given specific and informed
+indication&quot; of the data subject's wishes, by which he or she &quot;signifies
+agreement to personal data relating to him being processed.&quot; (Article
+2 (h)) Further, the Directive requires that data subjects be able to object
+to data processing for commercial or charitable marketing activity at no
+cost. (Article 14b) Buttressing the consent provision is the requirement
+that all individuals be given full and accurate information about the data
+processing activity.<SUP><A HREF="#ft_28">28</SUP></A> <BR>
+<BR>
+The Directive sets additional limits on the collection of data. All data
+must be adequate, relevant and not excessive in relation to the purposes
+for which they are processed,&quot; and the purposes must be explicit and
+legitimate and determined at the time of collection. The purpose of any
+additional processing &quot;shall not be incompatible with the purposes
+as they were originally specified.&quot; (Articles 6 &amp; 7) <BR>
+<BR>
+The Directive carves out particular types of information for heightened
+protection. It requires &quot;the data subject's explicit consent&quot;
+for the processing of sensitive data (capable by their nature of infringing
+fundamental freedoms or privacy, such as data relating to racial or ethnic
+origin, political opinions, religious or philosophical beliefs, trade union
+membership, and data relating to health or sex life). In addition, the Directive
+allows that some countries may prohibit the processing of data despite the
+consent of the subject. (Article 8)<BR>
+<BR>
+The Directive acknowledges that privacy, like other values, is not absolute
+and exists in relation to, and at times in tension with, other important
+societal values. The Directive acknowledges circumstances in which personal
+data may be processed without consent, such as for &quot; the performance
+of a task carried out in the public interest or in the exercise of official
+authority, or in the legitimate interests of a natural or legal person,
+provided that the interests or the rights and freedoms of the data subject
+are not overriding.&quot; Further, the Directive explicitly recognizes and
+provides exceptions to protect important speech and free flow of information
+interests. The Directive states that where processing is solely for journalistic,
+artistic or literary purposes, exceptions may apply if they are necessary
+to reconcile the right to privacy with the rules governing freedom of expression.
+(Article 9)<BR>
+<BR>
+Most important for U.S. policy, the Directive prohibits the transfer of
+personal data to non-Member countries that do not have &quot;adequate levels
+of protection.&quot; The Directive provides that the adequacy of a non-member
+country's protection &quot;must be assessed in light of all the circumstances
+surrounding the transfer operation. Particular consideration shall be given
+to the nature of the data... and the rules of law, both general and sectional,
+in force, and the professional rules and security measures which are complied
+with in that country.&quot; (Article 25) Further, even where a non-member
+country's protection is deemed inadequate, the transfer of data may still
+be acceptable if the data subject has consented, or the transfer is necessary
+in relation to a contract, the protection of an important public interest,
+or where the &quot;controller&quot; of the data offers &quot;appropriate
+safeguards.&quot; (Article 26) <A NAME="sec_5b"></A>
+<H3>B. U.S. Privacy Policy, the Internet, and the EU Directive</H3>
+The EU Directive has been an external force subtlety driving U.S. policy
+makers and industry to examine privacy issues. As its implementation looms
+near, industry, privacy advocates, and policy makers alike are attempting
+to discern how the Internet should meet the &quot;adequacy&quot; standard.
+<BR>
+<BR>
+CDT believes that individual empowerment solutions, along with a continued
+emphasis on strengthening existing statutes, crafting new laws to protect
+information on a sector by sector basis, strong enforcement, and prosecution
+of unfair and deceptive information practices, will advance individual privacy
+on the Internet -- consistent with the core goals of the EU Directive. <BR>
+<BR>
+The implementation of individual empowerment technologies that allow individuals
+to exercise control over information in a simple, effective manner are a
+means of implementing the core notice and consent requirements of the EU
+Directive. Through the development of a standard format for expressing information
+practices and a method for exchanging individual privacy preferences and
+entities information practices, individual empowerment solutions would assist
+entities operating on the Internet to meet the notice and consent provisions
+of the EU Directive in a nearly seamless fashion.<BR>
+<BR>
+There are a number of factors that should guide attempts to apply the EU
+Directive to the Internet. First, the global, decentralized nature of the
+Internet does not easily lend itself to regional regulation. Second, unlike
+the sectoral approach taken by U.S. policy makers, the EU Directive -- especially
+when applied to the Internet -- casts a wide net over a very disparate cast
+of content providers, including the operators of hundreds of thousands of
+Web sites. Third, the Internet has shown itself to be particularly suited
+to supporting First Amendment activities and careful attention should be
+paid not to unintentionally interfere with its ability to support robust
+speech.<BR>
+<BR>
+In considering the Directive's application we should be particularly careful
+of its impact on other core values. For example, the requirement that each
+data controller register with the &quot;supervisory authority&quot; appears
+at first to be a useful accountability provision. However, in practice,
+requiring every individual with a Web site to register with a government
+authority may have a chilling effect on individual speech and communication.
+The application of similarly well-intentioned regulations have been found
+infirm where they may impact on protected First Amendment rights.<SUP><A HREF="#ft_29">29</SUP></A>
+<BR>
+<BR>
+While the impact of applying the entire EU Directive to the Internet raises
+some concerns, meeting the notice and consent provisions of the EU directive
+is a goal that is attainable, and one that would advance individual privacy
+and the democratic potential of the Internet. Currently very few entities
+operating on the Internet provide individuals with notice of their information
+practices. Similarly, the consent requirement set out in the Directive,
+while codified in certain sectors, is not a standard on which the Internet
+currently operates. The development of statutory protections to fill the
+many holes in U.S. privacy law is unlikely, and it is clear that current
+practice on the Internet does not meet the Directive's adequacy standard.
+<BR>
+<BR>
+While there are a host of additional factors that will be examined in determining
+adequacy, we believe that assisting individuals to exercise meaningful,
+front-end control over the collection, use and disclosure of personal information
+will bring the Internet in line with the Directive's core mission of advancing
+individual privacy and support individuals' continued ability to speak and
+receive information on the Internet. <A NAME="conclusion"></A><BR>
+<P><CENTER><HR WIDTH="75%"></CENTER>
+<H2>VI. Conclusion</H2>
+In the Digital Age, technology can be the individual's ally, not the intrusive,
+meglomaniacal villain, it has been in so many other settings. Through technological
+mechanisms that put individuals in control of their information by providing
+them with notice of companies information practices and real opportunities
+to clearly express the method in which they want their information handled,
+the Internet can offer individuals the capacity to protect their privacy
+while preserving core First Amendment values. <BR>
+<BR>
+The potential to meet the goals of protecting privacy and speech, and increase
+child safety through a solution that maximizes individual and parental control
+should be attractive to privacy advocates, First Amendment advocates and
+child advocates alike. We have the opportunity to reverse the pattern of
+using technology to undermine individual privacy. Ensuring that the architecture
+of the Global Information Infrastructure is designed to support individual
+empowerment solutions will have a profound effect on individual privacy
+in the Twenty-first Century. <A NAME="footnotes"></A><BR>
+<P><CENTER><HR WIDTH="75%"></CENTER>
+<H2><A NAME="ft_1"></A>Footnotes</H2>
+1 See Turner Broadcasting Syst., Inc. v. FCC, 114 S.Ct. 2445, 2458 (1994).<A
+NAME="ft_2"></A><BR>
+<BR>
+2 Information privacy incorporates two components -- at times distinct and
+at times inextricable -- &quot;the right to be let alone &quot; first articulated
+by Justice Louis Brandeis over a century ago, and the right to control information
+about oneself, even after divulging it to others, first defined by Professor
+Alan Westin in Privacy and Freedom.<A NAME="ft_3"></A><BR>
+<BR>
+3 See the writings of Erving Goffman, Edward Blaustein and Julie Inness
+for more discussion of the societal impact of inadequate privacy.<A NAME=
+"ft_4"></A><BR>
+<BR>
+4 For a discussion of legal theories related to the development of &quot;personhood&quot;
+and autonomy in society, see Margaret Radin, &quot;Property and Personhood,&quot;
+34 STANF. L.F. 957 (1982), &quot;The Consequences of Conceptualism,&quot;
+41 U. MIAMI L.Rev. 239 (1986), &quot;Market-Inalienability,&quot; 100 HARV.
+L.R. 1849 (1987); and Charles Reich, &quot;The New Property,&quot; 73 YALE
+LAW J. 733 (1964), &quot;Beyond the New Property,&quot; 56 BROOK. L.R. 731
+(1990); &quot;The Liberty Impact of the New Property,&quot; 31 WM. &amp;
+MARY L. REV. 295 (1990).<A NAME="ft_5"></A><BR>
+<BR>
+5 While there is no definitive case finding a constitutional right of information
+privacy, the Supreme Court acknowledged that such a privacy right exists
+in Whalen v. Roe.429 U.S. 589 (1977) (upholding a state statute that required
+doctors to disclose information on individuals taking certain highly addictive
+prescription drugs for inclusion on a state database) &quot;This information
+is made available only to a small number of public health officials with
+a legitimate interest in the information. [Broad] dissemination by state
+officials of such information, however, would clearly implicate constitutionally
+protected privacy rights. . . Id. at 606.<BR>
+<BR>
+However, the &quot;reasonable expectation&quot; standard set out in U.S..
+v. Katz , initially hailed as the landmark privacy decision, has consistently
+been used to permit the use of technology to undermine privacy interests.
+As technology has advanced, and as societal demands for sensitive personal
+information have increased, the Court has increasingly circumscribed the
+&quot;zones&quot; one may justifiably consider private. Subsequent decisions
+have consistently allowed the circumstances of modern existence to define
+the &quot;reasonable expectation of privacy.&quot; If an intrusion is technically
+possible, one's expectation of privacy in certain activities is unreasonable.<A
+NAME="ft_6"></A><BR>
+<BR>
+6 The lack of strong constitutional privacy protection has placed added
+emphasis on federal and state statutory protections. While statutory privacy
+protections for personal information have been crafted on a sector by sector
+basis, many are based on a common set of principles -- The Code of Fair
+Information Principles . Developed by the Department of Health Education
+and Welfare in 1973 printed in the Report of the Secretary's Advisory Committee
+on Automated Personal Data Systems, Records, Computers and the Rights of
+Citizens, U.S. Dept. of Health, Education &amp; Welfare, July 1973.<A NAME=
+"ft_7"></A><BR>
+<BR>
+7 See recent polls on the public's growing worries over the lack of information
+privacy, by Louis Harris &amp; Associates, Time/CNN, Mastercard and the
+American Civil Liberties Union. <A NAME="ft_8"></A><BR>
+<BR>
+8 Deja News is an example of the profiling capacity made available to anyone
+on the Internet. Through the use of a search engine it is simple to compile
+all usenet postings of a single indivdiual. While usenet is a public forum,
+the capacity to at the stroke of a key pull together an indivdiuals words
+scattered between 1979 and 1996 in potentially thousands of different usenet
+groups provides a glimpse of the type of profiling that is made inexpensive
+and practical in this media. <A NAME="ft_9"></A><BR>
+<BR>
+9 <A HREF="http://www.cdt.org/privacy/">http://www.cdt.org/privacy/</A><A
+NAME="ft_10"></A><BR>
+<BR>
+10 See recent polls on the public's growing worries over the lack of information
+privacy, by Louis Harris &amp; Associates; Time/CNN; Mastercard; and, the
+American Civil Liberties Union. <A NAME="ft_11"></A><BR>
+<BR>
+11 Margot Williams, Usenet Newsgroups Great for Research, But Watch What
+You Say, Wash. Post., March 11, 1996, at WashTech; Public Cyberspace, Wash.
+Post, March 14, 1996, A26; Anne Eisenberg, Privacy and Data Collection on
+the Net, Scientific American, March 1996, p 120; Mark Powell, Orwellian
+Snooping, USA Today, April 2, 1996, 13A.<A NAME="ft_12"></A><BR>
+<BR>
+12 DejaNews is a service that organizes all usenet postings into a searchable
+index by author's name.<A NAME="ft_13"></A><BR>
+<BR>
+13 Cookies is a Netscape feature that assists merchants in tracking users
+activities at Web sites. See, Joan E. Rigdon, Internet Users Say They'd
+Rather Not Share Their `Cookies', WSJ, Feb. 14, 1996, B6.<A NAME="ft_14"></A><BR>
+<BR>
+14 McIntyre v. The Ohio Elections Comm., 115 S.Ct. 1511 (1995); NAACP v.
+Alabama ex rel. Patterson, 357 U.S. 449, 463-65 (1958) (reversing civil
+contempt judgment against NAACP for failure to turn over membership list).<A
+NAME="ft_15"></A><BR>
+<BR>
+15 In addition to the Federal Trade Commission's ongoing efforts, The National
+Information Infrastructure Advisory Council issued its &quot;Privacy and
+Security-Related Principles&quot; last year, followed by the Inter-agency
+Information Infrastructure Task Force's Privacy Principles. More recently,
+the Department of Commerce's NTIA released its report on &quot;Privacy and
+Telecommunications-Related Data,&quot; which concluded that the private
+sector must implement privacy standards or face a legislative mandate. In
+addition, Rep. Bob Franks (R-NJ) recently introduced the &quot;Children's
+Privacy Protection and Parental Empowerment Act,&quot; to protect children's
+privacy.<A NAME="ft_16"></A><BR>
+<BR>
+16 As the recent Department of Commerce report, &quot;Privacy and the NII:
+Safeguarding Telecommunications-Related Personal Information,&quot; concluded:
+&quot;The promised interactivity of the NII may diminish the need to make
+a policy choice between opt-in and opt-out. Such interactivity would make
+it possible for service providers to obtain consent to use transaction-related
+personal information] from subscribers electronically before any services
+were rendered.&quot; October, 1995 report, p.26.<A NAME="ft_17"></A><BR>
+<BR>
+17 Of course there are instances where the individual's ability to make
+decisions regarding the flow of personal information may be encumbered.
+For example, where the government seeks access to personal information on
+an individual held by a third-party the individual's ability to intervene
+and exercise control may demand that they receive notice of the request
+for access. Similarly, in the context of medical treatment, providing individuals
+with the ability to exercise meaningful control over the flow of personal
+may require procedures that protect the individual during this moment of
+vulnerability from rapacious information demands. These settings should
+be addressed with solutions that assist individuals, or those acting in
+their stead, to control personal information.<A NAME="ft_18"></A><BR>
+<BR>
+18 Internet users have sent powerful responses to those who have &quot;abused&quot;
+the Net. Mass emailings typically result in spamming -- tons of angry messages
+deluging the original sender. Deja News quickly added a mechanism to allow
+users to flag postings that they did not want archived. Similarly, most
+&quot;look-up&quot; services on the Net give individuals the opportunity
+to opt-out via the Net.<A NAME="ft_19"></A><BR>
+<BR>
+19 Support groups on topics ranging from sexual abuse to drug addiction,
+discussions on political topics from anarchy to Cuba to Newt Gingrich, and
+pictures and stories of sexual and other fantasies abound on the Internet.<A
+NAME="ft_20"></A><BR>
+<BR>
+20 After several press stories about DejaNews, a service that organizes
+all usenet postings into a searchable index by author's name, the company
+stated that they were instituting a flag that would allow people to notify
+them that they did not want a particular posting to be archived. This is
+an example of a limit on subsequent use of information, it is particularly
+interesting because many users of the Internet would state that usenet postings
+are public and subject to no reasonable privacy expectation.<A NAME="ft_21"></A><BR>
+<BR>
+21 Community Connexion, an Internet Service Provider, recently debuted the
+Anonymizer which allows individuals to surf the Internet without revealing
+transactional data to the Web sites they visit.<A NAME="ft_22"></A><BR>
+<BR>
+22 In addition, software -- similar to products on the market to limit children's
+access to objectionable content -- could be developed to limit access to
+sites that have unacceptable information practices. <A NAME="ft_23"></A><BR>
+<BR>
+23 NAACP v. Alabama ex rel. Patterson, 357 U.S. 449, 463-65 (1958) (reversing
+civil contempt judgment against NAACP for failure to turn over membership
+list).<A NAME="ft_24"></A><BR>
+<BR>
+24 Lamont v. Postmaster General, 381 U.S. 301 (1965) (invalidating restrictions
+on the mailing of foreign communist political propaganda).<A NAME="ft_25"></A><BR>
+<BR>
+25 Plaintiffs in ACLU's case challenging the constitutionality of the Communications
+Decency Act, including EFF, EPIC, and others, made this point quite eloquently.
+In addition, parental empowerment approach allows children, like all Internet
+users, to remain relatively anonymous during transactions and interactions
+on the Internet. This anonymity may help protect them from people who would
+single children out for harm.<A NAME="ft_26"></A><BR>
+<BR>
+26 The Directive has been five years in the making, the first draft circulated
+in the fall, 1990. Earlier drafts of the Directive required non-Member countries
+to have &quot;equivalent&quot; levels of data protection before personal
+data could flow from Member countries. An &quot;equivalency&quot; test was
+considered to be too stringent by many in the private sector. A debate within
+the EU continues as to how &quot;adequacy&quot; will be measured, and whether,
+in application, an adequacy test will be lass rigorous than an equivalency
+standard.<A NAME="ft_27"></A><BR>
+<BR>
+27 As the Directive states in its preamble: &quot; Whereas data processing
+systems are designed to serve man; whereas they must, whatever the nationality
+or residence of natural persons, respect their fundamental rights and freedoms,
+notably the right to privacy, and contribute to economic and social progress,
+trade expansion, and the well-being of individuals. The Directive relies,in
+part on the 1980 OECD Data Protection Guidelines, as well as the Council
+of Europe Convention of 1981 for the Protection of Individuals with Regard
+to Automatic Processing of Personal Data.<A NAME="ft_28"></A><BR>
+<BR>
+28 The Directive requires that data subjects learn of the existence of a
+processing operation, where data is collected from the individual, and must
+be given full and accurate information about the data processing activity.
+<A NAME="ft_29"></A><BR>
+<BR>
+29 See, NAACP v. Button, 371 U.S. 415 (1963) (holding a provision which
+prohibited any organization from retaining a lawyer in connection with litigation
+to which it was not a party invalid as applied to the NAACP's activities).
+<BR>
+<BR>
+<HR><A HREF="/privacy/contents.html">Back to the CDT Privacy Issues Page</A><BR>
+<A HREF="index.html">Back to the CDT Publications Page</A><BR>
+<BR>
+<A HREF="/index.html"><IMG SRC="/images/s_home.gif" ALT="Home"></A> <A HREF="/index.html">Back to the CDT Home Page</A><BR>
+<BR>
+Posted on June 5, 1996 | For more information, write <A HREF="mailto:webmaster@cdt.org">webmaster@cdt.org</A>
+<BR>
+</BODY>
+</HTML>
+</DOC>

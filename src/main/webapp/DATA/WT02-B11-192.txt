@@ -1,0 +1,228 @@
+
+<DOC>
+<DOCNO>WT02-B11-192</DOCNO>
+<DOCOLDNO>IA087-000625-B037-77</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0070.html 130.91.195.242 19970122044125 text/html 7360
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:41:22 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 7189
+Last-modified: Mon, 02 Oct 1995 08:34:49 GMT
+</DOCHDR>
+<!-- received="Sun Oct  1 06:18:24 1995 EDT" -->
+<!-- sent="Sun, 1 Oct 1995 06:17:54 -0400" -->
+<!-- name="David Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="FWD:  Crypto tools for privacy lovers" -->
+<!-- id="v0211013bac941b3d2196@[130.91.88.102]" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: FWD:  Crypto tools for privacy lovers</title>
+<h1>FWD:  Crypto tools for privacy lovers</h1>
+David Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Sun, 1 Oct 1995 06:17:54 -0400</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#70">[ date ]</a><a href="thread.html#70">[ thread ]</a><a href="subject.html#70">[ subject ]</a><a href="author.html#70">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0071.html">David Farber: "take a look at http://www.Verisign.com"</a>
+<li> <b>Previous message:</b> <a href="0069.html">David Farber: "IP: Committee of Ministers to Member States Concerning Problems"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+Found in alt.privacy:<br>
+<p>
+<p>
+<p>
+<p>
+-----BEGIN PGP SIGNED MESSAGE-----<br>
+<p>
+<p>
+         *PGP made easier*<br>
+<p>
+PGP is a system of breathtaking mathematical<br>
+elegance, but not always charming to work with.<br>
+I just started using a program called<br>
+Private Idaho:  it's a breeze-easy way to<br>
+handle PGP and to chain PGP remailers.  (For<br>
+Windows only.)<br>
+<p>
+There's info at<br>
+<p>
+<a href="http://www.eskimo.com/~joelm">http://www.eskimo.com/~joelm</a><br>
+<p>
+I've put the most recent version in<br>
+ftp.iinet.net.au/incoming/dos<br>
+<p>
+Two files:<br>
+<p>
+PIDAHO.ZIP<br>
+PIDAHO.SIG<br>
+<p>
+The Sig file is the MD5 hash of the Zip file (to<br>
+verify you got what I put there, if you want to do<br>
+that).  If you don't know what MD5 is or how to<br>
+use it, there's stuff about it at<br>
+<a href="http://www.iinet.net.au/~heath/">http://www.iinet.net.au/~heath/</a><br>
+<p>
+If you don't know where to get PGP, iinet has<br>
+versions in their ftp site.  Or you can get a<br>
+PGP-signed file from:<br>
+<p>
+ftp.mantis.co.uk/pub/cryptography/<br>
+<p>
+<p>
+<p>
+                *One time pad*<br>
+<p>
+This is everyone's ultimate weapon against anti-crypto<br>
+officials.  It's an unbreakable encryption system<br>
+that's so simple it would be impossible to stamp out.<br>
+<p>
+Let me say a couple of things, in case you don't<br>
+know about this.<br>
+<p>
+You need two things:  your plain text as a disk file,<br>
+and a file of random numbers that's at least as long<br>
+as the plain-text file.  (Don't worry about getting the<br>
+random numbers  -  there are ways.)<br>
+<p>
+To encrypt: the plain text is XORed with the<br>
+random file.  Don't leave the room  - it's easy to<br>
+follow this.<br>
+<p>
+0 XOR 0 = 0<br>
+0 XOR 1 = 1<br>
+1 XOR 0 = 1<br>
+1 XOR 1 = 0<br>
+<p>
+So if your plain text was 0011 (the left-hand column),<br>
+and your random numbers were the second column (0101),<br>
+then your encrypted message would be 0110.<br>
+<p>
+To get back your plain text couldn't be easier.  Just<br>
+XOR the encrypted message with the same random numbers<br>
+again.  Like this:<br>
+<p>
+0 XOR 0 = 0<br>
+1 XOR 1 = 0<br>
+1 XOR 0 = 1<br>
+0 XOR 1 = 1<br>
+<p>
+Voila.  0011, the message back again.<br>
+<p>
+You don't have to do any of this yourself,<br>
+of course. XOR is a very primitive function<br>
+in computers and not even governments will be<br>
+able to outlaw it.<br>
+<p>
+The encrypted message you get by doing this is<br>
+just as random as the random numbers you use.<br>
+There is no way to break this system.  Which<br>
+is why governments often use it to communicate<br>
+with their nuclear subs, embassies and spies.<br>
+<p>
+You need to get a disk of random numbers to the person<br>
+you want to communicate with.  (Not hard, if<br>
+you're motivated by knowing or suspecting that<br>
+someone is trying to read your messages.)  And<br>
+you only use the random numbers once -<br>
+nibbling away at them, and erasing the ones you've<br>
+used.<br>
+<p>
+What I like is that it will always<br>
+be possible to do this, from scratch, as long<br>
+as there are computers.  So easy.<br>
+<p>
+I've put one program that handles the<br>
+details in ftp.iinet.net.au/incoming/dos<br>
+<p>
+OTP-10.ZIP  (for "one-time-pad")<br>
+OTP-10.SIG  (the MD5 hash)<br>
+<p>
+The instructions with it are clear -  indeed fun.<br>
+<p>
+Geeks:  I haven't checked this program at the<br>
+bit level, but it looks fine so far.  If anyone<br>
+discovers problems, let us all know.  It works<br>
+well on the macro level, wipes used parts of the<br>
+pads, and keeps track of which pads are for<br>
+encryption and which are for decryption.  It also<br>
+suggests how to get the random numbers we all<br>
+need in these troubled times.<br>
+<p>
+<p>
+<p>
+          *hiding the random numbers*<br>
+<p>
+You probably know that you don't have to stop there.<br>
+You can hide an encrypted message in a gif or<br>
+jpeg.  (Steganography.)  If you do that when<br>
+you're using a one-time pad, then even if someone<br>
+manages to extract your encrypted message, there<br>
+is no way to distinguish it from random<br>
+junk.  No possible way.<br>
+<p>
+On the other hand, if you hide a PGP message this<br>
+way, and someone extracts the encrypted message, then<br>
+it's easy to find out it IS encrypted:  PGP will<br>
+tell you! (Because PGP files have headers.)  You<br>
+can get around that by stripping off the headers -<br>
+leaving data that looks as random as a haystack<br>
+in a tornado.  Private Idaho will do that for you.<br>
+<p>
+You can get "stego" tools from<br>
+<p>
+ftp.mantis.co.uk/pub/cryptography/<br>
+<p>
+and<br>
+<p>
+ftp.funet.fi<br>
+<p>
+<p>
+<p>
+               *why all this?*<br>
+<p>
+The Attorney General's Office in Australia has made it<br>
+plain that they want to cripple our ability<br>
+to communicate privately over the Net.  I object to<br>
+that on grounds that go all the way back to Runnymede<br>
+in 1215 AD.  I have joined a Chorus of Objection.<br>
+<p>
+Do you believe that forcing everyone to lodge their<br>
+private encryption keys with a government escrow<br>
+agent will deter criminals?  I don't. There are too<br>
+many ways around it. But that's what Mr Orlowski<br>
+at the Attnorney General's Office has in mind.<br>
+<p>
+If criminals won't be deterred, why do it?  Why<br>
+should the rest of us have to duck and cower<br>
+because unelected officials decide they<br>
+can't tolerate seeing effective privacy tools<br>
+in the hands of "general users" -<br>
+Mr Orlowski's view of us, it seems.<br>
+<p>
+<p>
+Jim Heath<br>
+<p>
+<p>
+<p>
+-----BEGIN PGP SIGNATURE-----<br>
+Version: 2.6.2<br>
+<p>
+iQCVAgUBMGoC9VeTnsiWvtlpAQFWkQQAo5hh69xRhBF3X6n4OB0A8ufS1q156YIS<br>
+TCxYZayVGj1T67GXKPZ8fCW1r1TG8J1mpvTc1OH6hngtCBqtX6DGWF0mJK6rZAJm<br>
+zbeTlCZ74dxlfPYpDC8+YSQLFOta4To1b8jtAVDV+g2eT5Fy+9K/GIDj2sgzj7zc<br>
+G0Hd6yZ7QHU=<br>
+=m6MR<br>
+-----END PGP SIGNATURE-----<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0071.html">David Farber: "take a look at http://www.Verisign.com"</a>
+<li> <b>Previous message:</b> <a href="0069.html">David Farber: "IP: Committee of Ministers to Member States Concerning Problems"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

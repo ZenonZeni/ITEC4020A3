@@ -1,0 +1,76 @@
+
+<DOC>
+<DOCNO>WT02-B16-237</DOCNO>
+<DOCOLDNO>IA060-000330-B031-209</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/thinfilms3.html 205.168.79.27 19970115045534 text/html 3783
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 04:55:36 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:51 GMT
+Content-length: 3609
+</DOCHDR>
+<html>
+<head>
+<title>Types of Materials</title>
+</head>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>Polycrystalline Thin Films</h2>
+<p><strong>The Materials</strong>
+
+<p>Copper indium diselenide (CuInSe<sub>2</sub>) has an extremely high absorptivity that allows 99% of the
+available light to be absorbed in the first micron of the material. The most common
+material for the window layer in CuInSe<sub>2</sub> devices is cadmium sulfide (CdS), although
+sometimes zinc is added to improve the transparency. Adding small amounts of gallium to the
+absorbing CuInSe<sub>2</sub> layer boosts its <a href="bandgaps.html">band gap</a> 
+(from its normal 1.0 eV), which improves the voltage and therefore the 
+<a href="conveff.html">efficiency</a> of the device.
+
+<p>Cadmium telluride (CdTe) is another prominent polycrystalline thin-film material.  With a
+nearly ideal band gap of 1.44 eV, CdTe also has a very high absorptivity.  Although CdTe is
+most often used in PV devices without being alloyed, it is easily alloyed with zinc, mercury, and
+some other elements to vary its properties.  Like CuInSe<sub>2</sub>, CdTe films can be manufactured
+using low-cost techniques.
+
+<p><img border=0 align=right hspace=15 vspace=3 src="images/01703.gif">
+<p><font color="#F79D00">Solar Cells, Inc., is one of the first U.S. companies to manufacture cadmium
+telluride PV modules.  The manufacturing process was developed in cooperation with DOE's
+Photovoltaic Manufacturing Technology (PVMaT) project. (Photo: Solar Cells, Inc.)</font>
+
+<p>Like CuInSe<sub>2</sub>, the best CdTe cells employ a heterojunction interface, with cadmium sulfide
+(CdS) acting as a thin window layer.  Tin oxide is used as a <a href="econtacts2.html">transparent 
+conducting oxide</a> and
+antireflection coating. One problem with CdTe is that p-type CdTe films tend to be highly
+resistive electrically, which leads to large internal losses. A solution is to allow the CdTe layer to
+be intrinsic (natural, neither <a href="ptype.html">p-type nor n-type</a>), and adding a layer of p-type zinc telluride
+(ZnTe) between the CdTe and the back electrical contact.  Even though the n-type CdS and the
+p-type ZnTe are separated, they still form an electrical field that extends right through the
+intrinsic CdTe.  
+
+<p><img border=0 align=left hspace=15 vspace=3 src="images/0633341.gif">
+<p><font color="#F79D00">One way around contacting problems inherent in typical CdTe
+cells is to use an n-i-p structure, with an intrinsic layer of CdTe sandwiched between an n-type
+CdS layer and a p-type ZnTe layer.</font>
+
+<p align=right><a href="thinfilms.html"><em>Back . . .</em> to Polycrystalline Thin Films</a>
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>[<a href="bandgaps.html">About Gand Gaps</a>]
+[<a href="sipolysi.html">Silicon</a>]
+[<a href="amorphous.html">Amorphous Silicon</a>]
+[<a href="thinfilms.html">Pollycrystalline Thin Films</a>]
+[<a href="gallium.html">Gallium Arsenide</a>]
+[<a href="multijunction2.html">Multijunction Cells</a>]
+[<a href="econtacts.html">Electrical Contacts</a>]
+<p>[<em>U.S. Department of Energy Photovoltaics Program, 1996</em>]
+</font>
+</center>
+</body>
+</html>
+</DOC>

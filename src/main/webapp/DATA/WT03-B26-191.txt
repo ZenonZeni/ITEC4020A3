@@ -1,0 +1,139 @@
+
+<DOC>
+<DOCNO>WT03-B26-191</DOCNO>
+<DOCOLDNO>IA055-000922-B002-181</DOCOLDNO>
+<DOCHDR>
+http://www.vital-info.com:80/form.htm 204.69.248.245 19970208003949 text/html 5003
+HTTP/1.0 200 OK
+Date: Sat, 08 Feb 1997 00:51:10 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 4832
+Last-modified: Tue, 04 Feb 1997 20:53:24 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>Vital Information - Stock Pick</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+<h1 align="center">Stock Pick of the Week Mailing List<br>
+<font size="5">And/Or <br>
+</font>The Saxena Stock Challenge</h1>
+
+<p align="left"><font color="#000000" size="3"><b>Fill Out The
+Form Below:<br>
+</b></font></p>
+
+<p align="left"><font color="#000000" size="3"><b><img
+src="checker.gif" width="32" height="32"> To be added to the
+Mailing List for the Stock Pick of the Week<br>
+<img src="checker.gif" width="32" height="32"> To enter your Best
+Stock Pick for the Saxena Stock Challenge<br>
+<img src="checker.gif" width="32" height="32"> Or Both</b></font></p>
+
+<p><font color="#FF0000" size="4"><b>Think you have a good stock
+pick? </b></font>Take the <em><strong>Saxena Stock Challenge</strong></em>
+for a chance to win a complimentary one year subcription to the
+top-performing <strong>Hot Stocks Digest</strong>, a <em>$999.00
+value</em>. </p>
+
+<p>To win, your pick must be the BEST-performing stock for the
+month of all entries. The winner for each month and his/her pick
+will be posted on our home page. One entry per person per month,
+please.</p>
+
+<p>RULES: Stock must be traded domestically (U.S.) and be priced
+over $5. If there is a tie between entries, a random drawing
+among the winners will determine who is awarded the prize. Entry
+must be received by the close of the last business day of the
+month for eligibility the next month.</p>
+
+<form action="/cgibin/stockpix.cgi" method="POST">
+    <div align="center"><center><table border="1">
+        <tr>
+            <td>Name:</td>
+            <td><!--webbot bot="Validation"
+            b-value-required="TRUE" i-minimum-length="1" --><input
+            type="text" size="20" name="fname">First <!--webbot
+            bot="Validation" b-value-required="TRUE"
+            i-minimum-length="2" --><input type="text" size="20"
+            name="lname">Last</td>
+        </tr>
+        <tr>
+            <td>Address:<br>
+            <strong>(required)</strong></td>
+            <td><!--webbot bot="Validation"
+            b-value-required="TRUE" i-minimum-length="1" --><input
+            type="text" size="30" name="addr1">Street<br>
+            <input type="text" size="30" name="addr2"><br>
+            <!--webbot bot="Validation" b-value-required="TRUE"
+            --><input type="text" size="30" name="city">City<br>
+            <!--webbot bot="Validation" b-value-required="TRUE"
+            i-minimum-length="2" --><input type="text" size="3"
+            name="state">ST<!--webbot bot="Validation"
+            b-value-required="TRUE" i-minimum-length="5" --><input
+            type="text" size="6" name="zip">Zip</td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="text" size="30" name="phone">Daytime
+            Number<br>
+            <input type="text" size="30" name="fax">Fax</td>
+        </tr>
+        <tr>
+            <td>Email:<br>
+            <b>(required)</b></td>
+            <td><!--webbot bot="Validation"
+            b-value-required="TRUE" i-minimum-length="7" --><input
+            type="text" size="30" name="email">Internet Email<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Stock Pick: </td>
+            <td><input type="text" size="30" name="stock">Stock
+            Name<br>
+            <input type="text" size="6" name="symbol">Stock
+            Symbol<p>You may only enter one stock selection per
+            month. Good Luck!</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Stock Pick<br>
+            Of The Week<br>
+            Mailing List:</td>
+            <td><input type="radio" checked name="Mailing List"
+            value="Yes">Yes<input type="radio"
+            name="Mailing List" value="No">No</td>
+        </tr>
+        <tr>
+            <td>Please Tell Us<br>
+            How You Found Us: </td>
+            <td><select name="Source" size="1">
+                <option>Investors Business Daily</option>
+                <option>Telescan</option>
+                <option>Lombard</option>
+                <option>Quote.com</option>
+                <option>The SmallCap Investor</option>
+                <option>By E-mail</option>
+                <option>US Postal Mail</option>
+                <option>Friend</option>
+                <option>Just Browsing</option>
+            </select></td>
+        </tr>
+    </table>
+    </center></div><p><input type="submit" value="Send"><input
+    type="reset" value="Clear the form"><font size="2"><strong>
+    Note: There is no cost for this contest or mailing list.</strong></font></p>
+</form>
+
+<p>&nbsp;</p>
+</body>
+</html>
+</DOC>

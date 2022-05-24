@@ -1,0 +1,251 @@
+
+<DOC>
+<DOCNO>WT02-B21-149</DOCNO>
+<DOCOLDNO>IA052-000883-B027-71</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/calibrate/calhisto.html 137.229.31.144 19970210140447 text/html 8449
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:05:01 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Thursday, 16-Jan-97 02:36:01 GMT
+Content-length: 8267
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+<TITLE>Radiometric Calibration: Histograms</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#00008A" LINK="#008A00" VLINK="#A47B7E"
+BACKGROUND="../res/backgrounds/asf_tile.gif">
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> |
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> |
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> |
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> 
+<P>
+<H1>
+RADIOMETRIC CALIBRATION: HISTOGRAMS
+</H1>
+<I>
+This document was created in response to the number of questions 
+concerning radiometric calibration. This document was prepared by <A 
+HREF="mailto:tlogan@images.alaska.edu">Tom Logan</A> to help answer some 
+of these questions. To help explain radiometric calibration, this 
+document follows the same procedures as our software program 
+<B>calibrate</B>. If you have any questions, feel free to contact Tom.
+<P>
+Thumbnails of each figure are included in this document. To see the full 
+resolution version of these figures, click on the image.<BR>
+- Michael Shindle
+</I>
+
+<H2>Introduction</H2>
+
+Before any image to image comparisons can be performed with ASF SAR
+images, the data values must be converted to backscatter (s0).  This
+process, known as radiometric calibration, converts image data values into
+scene independent backscatter values.  This facilitates mosaicking and
+animation of SAR images by removing inter- and intra-scene differences
+related to the radar transfer characteristics, leaving images that are
+self-consistent and consistent with others of the same area. 
+
+<P>
+
+With each calibrated ASF SAR image product, a radiometric data record is
+included in the CEOS metadata structures.  This record contains the
+calibration coefficients and a table of Noise versus Range values.  These
+<A HREF="cal_fig1.gif"><IMG SRC="tcal_fig1.gif" ALIGN=LEFT ALT="[Figure
+1]"></A> are utilized by the STEP software tool calibrate which applies
+the look up table and calibration cofficients, performs log to linear
+conversion, and creates a byte valued output image.  Given an input
+image's histogram, we will track what changes calibrate makes to the
+histogram in creating the output image.  We take our example image to be
+that of Fairbanks, image ID 17972. The data range of <A
+HREF="cal_fig1.gif">figure 1</A> is from 37 to 255. 
+
+<P>
+
+Conversion of a data number to backscatter value requires applying noise
+scaling, linear conversion, and value offsets.  These coefficients
+(a1,a2,a3) are calculated at image creation and can be found at the
+beginning of the radiometric calibration recor d.  The conversion of data
+value, d, to backscatter in units of dB uses the equation,
+
+<CENTER>
+s0 = 10*log10[a2 * ( d * d - a1 * n(r) ) + a3]
+</CENTER>
+
+where n(r) is the noise versus range function.  s0 values are then scaled
+to byte values within a specified range.
+
+<H2>Calibration Coefficients</H2>
+
+In applying the calibration coefficients, we change the data histogram. 
+In particular, the squaring operation stretches out the set of possible
+values, so that evenly spaced histogram bins collect different numbers of
+squared values.  Here is a simple e xample.  Suppose the original data
+take on the values 0,1,2,...,10, with uniform distribution.  Then the
+squares can have values 0,1,4,9,16,...,100.  If we make a histogram with a
+bin size of 10, then the relative number of values in each bin will be:
+4,1 ,1,1,1,0,1,0,1,1 (e.g. there are no perfect squares in the interval
+from 50 to 60).  So we get positive spikes at the low end of the histogram
+and negative spikes at the high end, as observed in the calibrated SAR
+data.  Graphically, here is the same example but with values from 1 to
+255, uniformly distributed. (See <A HREF="cal_fig2.gif">Figure 2</A> and 
+<A HREF="cal_fig3.gif">Figure 3</A>). 
+
+<P>
+
+<A HREF="cal_fig2.gif"><IMG SRC="tcal_fig2.gif" ALT="[Figure 2]"></A>
+<A HREF="cal_fig3.gif"><IMG SRC="tcal_fig3.gif" ALT="[Figure 3]"></A>
+ 
+<H2>Noise Versus Range Look Up Table</H2>
+
+<CENTER>
+<I>
+&quot;The noise in the image varies with range due to the internal
+radiometric compensation for antenna pattern, range to target, and
+incidence angle.  Accurate conversion to backscatter requires subtraction
+of the noise...&quot; 
+</I>
+<P>
+Tom Bicknell, ASF SAR Processor System - User's Guide to Products.
+</CENTER>  
+
+<P>
+
+<A HREF="cal_fig4.gif">
+<IMG SRC="tcal_fig4.gif" ALT="[Figure 4]" ALIGN=RIGHT>
+</A>
+
+For each ASF image, a look up table (LUT) of noise vs. range values is
+created.  The full resolution ASF ERS-1 image has 8192 range samples per
+line, but only 256 values are included in the table.  The same table is
+used for the low resolution images as for the full resolution.  Thus,
+interpolation from one data point to another in the table is required. 
+Suppose we have ns range samples in our data set.  Then given a LUT of 256
+values (rdr.noise[0-255]), each LUT value must be used for ns / 256 data
+sam ples.  For a given sample number, <I>r</I>, we set
+
+<P>
+
+<PRE>
+ 	ispace = ns / 256	
+	base   = r / ispace
+	delta  = r mod ispace
+</PRE>
+
+then,
+
+<PRE>
+	 		        (rdr.noise[base+1]-rdr.noise[base])
+     n(r) = rdr.noise[base] +  -------------------------------------  * delta
+		                  	       ispace
+</PRE>
+
+interpolates the look up table values for this sample number.
+
+<P>
+
+After application of the calibration coefficients and the noise vs. range
+LUT, the data histogram is that shown in the Intermediate 1 figure (see 
+<A HREF="#fig5">figure 5</A>). 
+<P>
+
+<A NAME="fig5"></A>
+<CENTER>
+<IMG SRC="cal_fig5.gif" ALT="[Figure 5]">
+<P>
+<B>
+Data Range: 0.005620 to 0.388644
+</B>
+</CENTER>
+
+<H2>Logarithm To Linear Conversion</H2>
+	
+Performing the log10 operation also modifies the appearance of the data
+histogram.  An example of this change is graphically illustrated below. 
+Given an even distribution of 1 occurrence of the numbers from 0.0015 to
+0.3825 (stepping by 0.0015), we get the histogram on the left. (See <A
+HREF="cal_fig6.gif">Figure 6</A>.) Taking the log10 of these numbers, we
+end up with the histogram on the right. <A HREF="cal_fig7.gif">Figure
+7</A>.)
+
+<P>
+<A HREF="cal_fig6.gif"><IMG SRC="tcal_fig6.gif" ALT="[Figure 6]"></A>
+<A HREF="cal_fig7.gif"><IMG SRC="tcal_fig7.gif" ALT="[Figure 7]"></A>
+<P>
+
+Obviously, this operation compacts the data, so that evenly spaced bins
+collect different numbers of data occurences.  We end up with large holes
+where no bins were hit and a ramping at the positive end of the data.  In
+effect, this nearly reverses the appearance of the histogram, as we can
+see by comparing the intermediate 1 histogram above with the intermediate
+2 histogram below. (See <A HREF="cal_fig8.gif">Figure 8.</A>)
+
+<P>
+
+<CENTER>
+<A HREF="cal_fig8.gif">
+<IMG SRC="tcal_fig8.gif" ALT="[Figure 8]">
+</A>
+<P>
+<B>
+Intermediate 2 Data Range:  Min: -22.503008   Max: -4.104481
+</B>
+</CENTER>
+
+<H2>Scaling Values To Byte Quantities</H2>
+
+After the calibration coefficients have been applied, the data is next
+scaled to byte quantities within the minimum and maximum s0 range.  By
+default this range is Dmin = -25.5 to Dmax = 0.0 This final quantization
+takes place as folows: 
+
+<PRE>
+	   /
+	       | Dmax					if s0 > Dmax
+     o  =      | Dmin					if s0 < Dmin
+	       | (s0 - Dmin)/(Dmax-Dmin)*255+0.5	Otherwise
+	   \
+</PRE>
+
+<P>
+
+<CENTER>
+<A HREF="cal_fig9.gif">
+<IMG SRC="tcal_fig9.gif" ALT="[Figure 9]">
+</A>
+<P>
+<B>
+Output Data Range:  Min: 30.000000    Max: 214.000000
+</B>
+</CENTER>
+
+<P>
+
+In conclusion, if you've noticed that your SAR data histograms are
+changing when you perform radiometric calibration using the ASF STEP tool
+calibrate, don't panic.  In performing the non-linear operations of
+squaring, applying the noise vs. range f unction, and taking the log10 of
+the data, the histogram is supposed to be changed... 
+
+<P>
+
+<HR WIDTH=85% ALIGN=CENTER>
+<H5>
+Created by: <A HREF="mailto:tlogan@images.alaska.edu">Tom Logan</A><BR>
+Last Updated: January 15, 1997 <BR>
+Last Updated By: <A HREF="users/mike/mike.html">Michael Shindle</A><BR>
+If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="comments.html">comment</A>.
+<P>
+</H5>
+</BODY>
+</HTML>
+
+
+
+</DOC>

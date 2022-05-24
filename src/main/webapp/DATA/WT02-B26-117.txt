@@ -1,0 +1,165 @@
+
+<DOC>
+<DOCNO>WT02-B26-117</DOCNO>
+<DOCOLDNO>IA074-000481-B029-75</DOCOLDNO>
+<DOCHDR>
+http://ads.barrons.com:80/cgi-bin/calc.cgi 143.131.194.10 19970125040839 text/html 3905
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.1
+Date: Saturday, 25-Jan-97 04:12:53 GMT
+Content-type: text/html
+</DOCHDR>
+<HTML> 
+<HEAD><TITLE>Barron's Ad Calculator / Reservation System</TITLE></HEAD> 
+<BODY bgcolor="cccc33"> 
+
+<img src="/ADVERTISING/IMAGES/header.gif"><br><br><br>
+
+<table width=550 cellpadding=5>
+<tr>
+<td width=174></td>
+<td colspan=2><H3>Barron's Ad Calculator<br>Reservation System</H3>
+</td>
+</tr>
+<tr>
+<td width=174 valign=top align=right rowspan=3><font size=2>
+<a href="/ADVERTISING/PAGES/frontplate.html">
+<img src="/ADVERTISING/IMAGES/back.gif" border=0></a>
+<br><br><br>
+<a href="/ADVERTISING/../index.html">
+<img src="/ADVERTISING/IMAGES/home.gif" border=0></a>
+<BR></font>
+</td>
+<td valign=top colspan=2>
+
+
+<P>This ad calculator will take into consideration a number of variables, and give you an instant estimate for advertising space in Barron's. Should you choose to reserve ad space for the price quoted, you may do so online after calculating your quote. 
+</P>
+
+
+
+
+<P>To select more than one date or region, hold down the 
+&quot;shift&quot; or &quot;control&quot; key for PCs and the 
+&quot;apple&quot; key for Macs while clicking on your selections.</P>
+
+
+</td>
+</tr>
+<tr>
+
+<td  valign=top width=60>
+<FORM ACTION="calculate-ad.cgi" METHOD=POST>
+
+Dates <SELECT NAME="Dates" MULTIPLE SIZE=10><br>   
+<OPTION>Jan 27, 1997
+<OPTION>Feb 3, 1997
+<OPTION>Feb 10, 1997
+<OPTION>Feb 17, 1997
+<OPTION>Feb 24, 1997
+<OPTION>Mar 3, 1997
+<OPTION>Mar 10, 1997
+<OPTION>Mar 17, 1997
+<OPTION>Mar 24, 1997
+<OPTION>Mar 31, 1997
+<OPTION>Apr 8, 1997
+<OPTION>Apr 15, 1997
+<OPTION>Apr 22, 1997
+<OPTION>Apr 29, 1997
+<OPTION>May 6, 1997
+<OPTION>May 13, 1997
+<OPTION>May 20, 1997
+<OPTION>May 27, 1997
+<OPTION>Jun 3, 1997
+<OPTION>Jun 10, 1997
+<OPTION>Jun 17, 1997
+<OPTION>Jun 24, 1997
+<OPTION>Jul 1, 1997
+<OPTION>Jul 8, 1997
+<OPTION>Jul 15, 1997
+<OPTION>Jul 22, 1997
+<OPTION>Jul 29, 1997
+<OPTION>Aug 5, 1997
+<OPTION>Aug 12, 1997
+<OPTION>Aug 19, 1997
+<OPTION>Aug 26, 1997
+<OPTION>Sep 2, 1997
+<OPTION>Sep 9, 1997
+<OPTION>Sep 16, 1997
+<OPTION>Sep 23, 1997
+<OPTION>Sep 30, 1997
+<OPTION>Oct 7, 1997
+<OPTION>Oct 14, 1997
+<OPTION>Oct 21, 1997
+<OPTION>Oct 27, 1997
+<OPTION>Nov 3, 1997
+<OPTION>Nov 10, 1997
+<OPTION>Nov 17, 1997
+<OPTION>Nov 24, 1997
+<OPTION>Dec 1, 1997
+<OPTION>Dec 8, 1997
+<OPTION>Dec 15, 1997
+<OPTION>Dec 22, 1997
+<OPTION>Dec 29, 1997
+<OPTION>Jan 5, 1998
+<OPTION>Jan 12, 1998
+<OPTION>Jan 19, 1998
+
+</SELECT>
+</td>
+<td valign=top>
+
+Region <SELECT ALIGN="top" MULTIPLE SIZE="10" NAME="Editions"><br>  
+<OPTION>National
+<OPTION>Eastern
+<OPTION>Midwestern
+<OPTION>Southwestern
+<OPTION>Western
+</SELECT>
+</td>
+</tr>
+<tr>
+
+<td valign=top colspan=2>
+Size <SELECT SIZE=10 NAME="Size"><br>  
+<OPTION>Full Page Spread-Bleed
+<OPTION>Junior Page Spread-Bleed
+<OPTION>Half Page Spread-Bleed
+<OPTION>Full Page 
+<OPTION>Junior Page 
+<OPTION>Half Page 
+<OPTION>Quarter Page
+<OPTION>Eighth Page
+<OPTION>Sixteenth Page
+</Select><BR><BR><BR>
+<INPUT NAME="Priority" TYPE="CHECKBOX">I Prefer Priority Placement
+for our ad (15% surcharge)<BR><BR>
+
+<INPUT NAME="Color" TYPE="CHECKBOX">Color Ad ($3000 surcharge)<BR><BR>
+
+<INPUT NAME="Combo" TYPE="CHECKBOX">I am also a WSJ, Far Eastern
+Economic Review, or AmericaEconomia Advertiser (10% discount)<BR><BR>
+
+<INPUT NAME="Sporting" TYPE="CHECKBOX">The advertisement will be for
+fashion, sporting goods or consumable products. (25% discount)<BR><BR>
+
+<INPUT NAME="Travel" TYPE="CHECKBOX">The advertisement will be for
+travel services. (10% discount)<BR><BR>
+
+<INPUT NAME="Advisor" TYPE="CHECKBOX">I am an investment advisor. (12% 
+discount)<BR><BR>
+
+<INPUT TYPE="submit" VALUE="Calculate Quote"><BR><BR><BR>
+Note: Ad space in the European edition is available as a full page only
+at $1,000/page.
+</FORM>
+
+<br><BR>
+<BR><br><BR>
+<BR><br><BR>
+
+&copy; <EM><font size=2>1996, Dow Jones & Company, Inc. All Rights Reserved.</font></EM>
+</td></tr></table>
+</BODY> 
+</HTML>
+</DOC>

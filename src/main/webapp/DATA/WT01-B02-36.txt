@@ -1,0 +1,47 @@
+
+<DOC>
+<DOCNO>WT01-B02-36</DOCNO>
+<DOCOLDNO>IA054-000904-B030-393</DOCOLDNO>
+<DOCHDR>
+http://stargate.jpl.nasa.gov:1083/document/ 137.79.108.182 19970210184226 text/html 2137
+HTTP/1.0 200 OK
+Date: Mon, 10 Feb 1997 18:41:13 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+
+<HTML><HEAD><TITLE>Document Search </TITLE> </HEAD>
+<BODY bgcolor="#fafffe" link="#CC0000" alink="FF3300" vlink="#330099">
+<P> </P><img src="/pix/greengrad.gif" alt="- "><H1>Document Information </H1>
+<img src="/pix/greengrad.gif" alt="- "><P><b>There are 1036 Document titles in the catalog.</b>  You may conduct a full-text search, follow a keyword/value search path by selecting a keyword, or you may conduct a structured field search of Document information.
+
+<HR><H2>Search for  Titles</H2><P>Enter a word or words in the search dialog.  For best results, use as many words as you think might apply.  A maximum of 100 results will be returned, ranked by how well they match your query.
+
+  You can read more about <A HREF="/intro.htm#search">searching</A> in the Introduction. 
+<FORM METHOD=GET ACTION="/cgi-bin/dcsearch.pl"><P><INPUT TYPE="TEXT" NAME="isindex" SIZE=40><INPUT TYPE="submit" VALUE="Submit Query"></FORM>
+<H2>Document Keywords</H2>
+
+
+<P><DL>
+<DT><DD><img src="/pix/greenball.gif" alt="- "> <A HREF="/document/dc1_r1.htm">Author Name</A>
+<DT><DD><img src="/pix/greenball.gif" alt="- "> <A HREF="/document/dc2_r1.htm">Session Date</A>
+<DT><DD><img src="/pix/greenball.gif" alt="- "> <A
+HREF="/document/dc3_r1.htm">Topic or Subject Type</A>
+<DT><DD><img src="/pix/greenball.gif" alt="- "> <A HREF="/document/dc4_r1.htm">Title</A>
+
+<DD><img src="/pix/greenball.gif" alt="- ">
+    <A HREF="/html/author.htm">Find Papers by Author</A>
+<dd><img src="/pix/greenball.gif" alt="- ">
+    <A HREF="/html/session.htm">Find Papers by Session</A>
+<dd><img src="/pix/greenball.gif" alt="- ">
+    <A HREF="/html/withimg.htm">Find Papers with Images</A>
+<dd><img src="/pix/greenball.gif" alt="- ">
+     <A HREF="/html/pnumber.htm">Find Papers by Paper Number (94xxxx)</A>
+</DL>
+<H1>Structured Field Search</H1><P><DL><DT><DD><img src="/pix/greenball.gif" alt="- "> <A HREF="/document/document_form.htm">Structured Field Search Query Form</A></DL><HR><P>
+<A HREF="/">
+<IMG SRC="/html/back_ig.gif">
+</A> The IGARSS Home Page
+</BODY>
+
+</DOC>

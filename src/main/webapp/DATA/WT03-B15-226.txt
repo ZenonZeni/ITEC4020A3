@@ -1,0 +1,135 @@
+
+<DOC>
+<DOCNO>WT03-B15-226</DOCNO>
+<DOCOLDNO>IA024-000255-B010-203</DOCOLDNO>
+<DOCHDR>
+http://206.216.148.51:80/jirart.htm 206.216.148.51 19970108135820 text/html 14130
+HTTP/1.0 200 OK
+Date: Wed, 08 Jan 1997 13:55:06 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 13958
+Last-modified: Thu, 04 Apr 1996 07:57:09 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Robot Simulations Ltd.
+</TITLE> 
+</HEAD>
+<BODY background="paper3.gif">
+<H1>Robot Simulations Ltd.
+</H1> 
+
+<H2>Article taken from Japanese Industrial Robot Association Newsletter</H2>
+
+<P>Robot Simulations Ltd., is the designer of the WORKSPACE range of robotic simulation software. The development started in 1985 by the Technical Director Dr. John Owens. The latest version WS3.3 will be released in October 1994 as the first seamless industrial PC based system on the market.</P>
+
+<P>Roger Verrall is the Managing Director of Robot Simulations.</P>
+
+<H2>Table of Contents</H2>
+<P><A HREF="#1">1. Introduction</a></P>
+<P><A HREF="#2">2. The need for simulation</a></P>
+<P><A HREF="#3">3. Introducing WORKSPACE.</a></P>
+<P><A HREF="#4">4. WORKSPACE Features.</a></P>
+<P><A HREF="#5">5. Case Studies.</a></P>
+
+<H2><A NAME="1">1. Introduction</a></H2>
+
+<P>Simulation is a tool that is readily accepted within education and industry as a means to see, by computer design, the futures requirements. Every University sets a project to produce a simulation system, there are many systems on the market today each with benefits suitable for individual requirements, but few that can be called truly commercial.</P>
+
+<P>Robot Simulations Ltd., have developed the first PC based robotics simulation system that can compete with main frame and graphics work station systems at a fraction of the cost. The aim is to bring the applications of robotics to the student, the trainee, the designer and, in fact, any type of user.</P>
+
+<H2><A NAME="2">2. The need for simulation.</a></H2>
+
+<P>The designing of efficient work cells is a difficult task. The need to predict robot movement, to avoid interference between robots and determine the optimum placement for maximum reach is essential for the workcell design engineer. The ability to design within confined spaces where there is a high risk of collision together with identification of possible production bottlenecks is of the utmost importance and then,  to know how long each process within a cycle will take.</P>
+
+<P>The changing of an existing workcell means down-time. Studies indicate that it can take more than 60 working hours to redesign a single robot manufacturing cell. Time is money and the cost of robot ownership must be kept to a minimum as the diagram (fig. 1) shows.</P>
+
+<IMG SRC="jirfig1.gif"></IMG>
+fig.1
+
+<P>When a new design is to be incorporated, the concepts must be clearly communicated to all team members. A 3D system is preferred, as a 2D system can be misinterpreted. Simulation allows the planning of safety factors because operating robots can carry a risk of injury. Safety equipment can be placed in accordance with regulations and the training of robot operators can be supervised without risk to either trainer or trainee.</P>
+
+<P>The benefits of  using simulation can easily be measured. With a faster design of new work cell layouts, the engineering effort is reduced creating less pressure on the team. Faster redesign means reduced down-time in line shutdowns for on-line programming. New ideas can be tested on the computer, eliminating costly mistakes. Cycle times can be reset to produce optimum schedules by verifying robot reach and collision detection. More importantly optimisation of the workcell can be achieved off-line, allowing the robot to continue operating during the planning phase. Off-line programming is available for similar reasons, and can be downloaded to the robot controller.</P>
+
+<P>The potential applications of simulation are varied. In the automotive industry there is Arc and Spot welding, Paint spraying, adhesives, sealants and more. In the machine tool industry there is CNC machine loading and unloading, deburring and others. Recently new applications such as remote telemanipulation, nuclear decommissioning, deep sea robotics and space research are all using simulation as the tool to bring the projects to maturity.</P>
+
+<P>What tools are needed to enable the user to get the best out of a simulation package? Firstly we must look at the needs of the user. The obvious first requirement is powerful user friendly software. To run the system, powerful computer hardware, recent advances in computer technology have made such systems available on a PC's either on Desk-top or Lap-top. Within the software there must be a comprehensive CAD system and a data exchange format. Accurate models of real industrial robots must be easily accessed together with mechanical modelling tools. the simulation language must be sophisticated in order to service the full requirements of the program and the user.</P>
+
+<P>As we are specifically dealing in robot simulation, there must be robot placement tools to test robot reach, check tool orientation and highlight any changes of configuration. A robot does not work alone, other devices such as conveyors, part feeders, CNC machines, ROV's can be simulated. A calibration facility to ensure that each model matches the real world workcell is imperative. Again collision detection must be a feature included in the software.</P>
+
+<H2><A NAME="3">3. Introducing WORKSPACE(tm)</a></H2>
+
+<P>Having listed the requirements of a professional industrial simulation system, WORKSPACE 3 can be introduced. WS3.2 is the world's most advanced PC based robot simulation system, using a standard PC compatible microcomputer. Let us look at the benefits of a PC based system and the features that are available. Firstly the features: High quality 3D graphics in Super VGA gives workstation quality on-screen shaded imaging. An off-line programming capability operated by a mouse driven draw-down menu method gives the system user flexibility. A library of standard industrial robots such as ABB, KUKA, Fanuc, Nachi, Kawasaki, Adept, Unimation and others gives the user more options to choose from, incorporating  the visual design and simulation with a consistent user-friendly interface.</P>
+
+<H2><A NAME="4">4. WORKSPACE Features.</a></H2>
+
+<P>The sophisticated industrial standard 3D CAD system contains a library of standard primitives, Constructive Solid Geometry, Bézier surfaces, easy to use CAD editor, dimensioning and an industrial standard DXF and IGES interface. All models can be in wireframe, hidden-line or shaded.</P>
+
+<P>With a kinematics and inverse kinematics modeller for serial and parallel joint mechanisms, visual editing of the robot dimensions is possible and parameters such as joint limits, velocities and accelerations are easily set by the user.</P>
+
+<P>The simulation language also incorporates an advanced robot language to enable such programming routines as variables, sub-routines, loop structures, logic structures and sophisticated logic commands. Programmes are created visually by using the menu interface. This allows any number and brand of robots, mechanisms, conveyors, parts feeders and AGV's to be programmed and run concurrently. There are other robot language options available.</P>
+
+<P>Within the programming facility there is a text editor which acts as an integral editor for program files. A "trace" function is installed to assist in the creation of error free robot programmes. Another interactive text and simulation system is the CAL (Computer Aided Learning) system. This allows training exercises to be mixed with text giving multi-option questions and answers. Simulation is an ideal teaching tool, students can work on accurate industrial models in complete safety, the need for full time supervision is reduced allowing quality teaching. Finally simulation eliminates the need for expensive robotics hardware until the students and trainees are more capable and knowledgeable of the subject.</P>
+
+<P>The open architecture of WORKSPACE allows the import of external simulation routines and it will allow the user to modify or add inverse kinematics solutions. WS3.2 also contains a complete robot and workcell calibration system which is necessary for off-line programming.</P>
+
+<P>General mechanisms can be simulated, with either serial or branch models and with translational and rotational joints, as can parallelograms. The mechanisms can be controlled independently or as an auxiliary axis. This feature allows complex grippers to be modelled. To determine the movement of slave joints arithmetic expressions are used.</P>
+
+<P>Dynamics are shown to analyse demand, torque, forces, actual trajectory and joint error. The user can go into the section of relevant source code and modify the algorithms to suit other dynamics requirements using the "Userdyn" command. The controller parameters are adjustable and all results can be graphically displayed.</P>
+
+<P>The open architecture of WORKSPACE has many advantages, the Dynamic Linked Library allows the integration of user defined Pascal, C and C++ routines. "Usercall" permits special functions to be added to a track language by the user. "Autoexec" is a feature that can control WORKSPACE by an external script generated by another program.</P>
+
+<P>The number of robot languages within workspace is increasing all the time. Currently installed are Karel(tm) 2 & 3.06, ABB ARLA(tm), VAL(tm), VAL II(tm), V/V+(tm) and AS. Others to be implemented are RAL 10-II(tm), DARL(tm), ROBOSTAR(tm), AML3(tm) and others. </P>
+
+<P>One of the unique features of the WORKSPACE integrated system is the off-line programming facility. The programmes are written in the native controller language that can either be downloaded by floppy disk or RS interface and are compatible with other programming protocols. Calibration of robots within WS3 gives the differences between the ideal robot and real-world robot affected by manufacturing tolerances. This can be extended to the calibration of the workcell, giving accurate placement of objects and devices. The physical link between the robot and the controller can be adapted. Floppy disk transfer is possible but most controllers support serial connection with either an RS 232 interface or RS 422. It may be necessary to have a patchbox for correct wiring. The distance from the computer to the controller can be overcome by simply installing WS3.2 on to a portable PC, thus taking the simulation to the factory floor. (see fig.2). WORKSPACE can also read from the controller back to the PC.</P>
+
+<IMG SRC="jirfig2.gif"></IMG>
+fig.2
+
+<P>WORKSPACE 3 has only recently been released but already it is solving real problems in both industry and education.</P>
+
+<H2><A NAME="5">5. Case studies.</a></H2>
+
+<H3>Case Study 1. Cimtas, Turkey.</H3>
+
+<P>Cimtas are a forward looking company in the manufacture of large steel structures for the construction industry. </P>
+
+<P>The application was the arc welding of large steel "I" beams. They needed a 10 axes movement of the workcell simulated as it was difficult to visualise all the movements. It was not possible to confirm the choice of robot before purchase and it was impossible to test ideas on the factory floor. Because of the orientation problems there was a high chance of collisions at the extremes of the robot envelope. (See fig.3)</P>
+
+
+<IMG SRC="jirfig3.gif"></IMG>						fig.3
+
+
+
+<P>First a model workcell was built in WORKSPACE, as in fig. 3, this contained 1 overhead robot fixed to a rotating table, in turn bolted to an extended overhead gantry, a track mounted rotating table at 90° from horizontal plane. The two chosen robots were tested in the simulation environment. The movement of the auxiliary axes was optimised to give maximum working envelope and minimise the risk of collisions. Then the exact height was obtained for the robot above floor level to avoid exceeding joint limits during welds. WORKSPACE helped the system become operational within a few weeks and eliminated the ongoing problems. A choice of robot was made, the optimum height was fixed, potential collisions eradicated and considerable time and money saved.</P>
+
+<H3>Case Study 2. University of Plymouth, UK.</H3>
+
+<P>Plymouth needed a software system which enabled students as much time as possible dealing in "real world" robotics. The problems encountered were: (i) The cost of robots to meet the demands of the robotics group. (ii) The cost of existing software running on workstations.  (iii) The number within the group had to be reduced in order to provide effective supervision and teaching.</P>
+
+<P>The solution was for Robot Simulations Ltd., in discussions with the University, to provide various features that could be used specifically for teaching. Several features in WS3 were already being implemented for industrial applications such as , Userdyn, Dynamic Linked Libraries, Usercall and Autoexec which could be adapted for education. Each of these features allows the lecturer to set individual course work for an increased number of students.</P>
+
+<P>The result of this development was a B.Sc (Hons) course in Robotics and Automation which started in September 1993, with WS3 as the core software for the full 4 year course. The savings in both robotics and computer hardware/software gave greater flexibility to the budget allowing more students to enroll ( +60%), more 1 to 1 teaching, upgrading of existing equipment and purchase of new robots from basic educational units through various standards to main brand industrial types to enable industrial level project work.</P>
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG SRC="home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<center><h6><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+
+<h6>Copyright &copy; 1996 Robot Simulations Ltd</h6>
+<h6>Last revision 3 April 1996</h6></center>
+</P>
+
+
+
+</BODY>
+
+</HTML>
+
+</DOC>

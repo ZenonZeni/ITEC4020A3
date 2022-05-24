@@ -1,0 +1,1017 @@
+
+<DOC>
+<DOCNO>WT03-B32-19</DOCNO>
+<DOCOLDNO>IA059-000323-B023-347</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/ec25.html 205.156.212.5 19970114221339 text/html 53576
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 22:10:52 GMT
+Last-modified: Thursday, 24-Oct-96 22:46:40 GMT
+Content-length: 53389
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/ec25.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+INTELLIGENT SOFTWARE STRATEGIES via NewsNet <BR>
+January 1990<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<H3>*** MARKET ANALYSIS ***</H3>
+<UL>
+<A HREF = "#1"><LI>WHERE DOES THE U.S. EXPERT SYSTEMS MARKET STAND NOW?</A>&nbsp&nbsp&nbsp<NOBR>(5678 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*** PREDICTIONS ***</H3>
+<UL>
+<A HREF = "#2"><LI>WHAT WILL HAPPEN IN 1990</A>&nbsp&nbsp&nbsp<NOBR>(2397 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*** TRENDS AND NEWS BRIEFS ***</H3>
+<UL>
+<A HREF = "#3"><LI>Arthur Andersen Consulting and Inference Corp. Sign an Agreement</A>&nbsp&nbsp&nbsp<NOBR>(130 words)</NOBR></LI>
+<A HREF = "#4"><LI>Ask Dan, Now Andrew Tobia$' Tax Cut</A>&nbsp&nbsp&nbsp<NOBR>(187 words)</NOBR></LI>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+INTELLIGENT SOFTWARE STRATEGIES via NewsNet
+January 1990
+
+WHERE DOES THE U.S. EXPERT SYSTEMS MARKET STAND NOW?
+
+     Once again we have decided to begin the year by trying to
+provide our readers with an overview of what happened during the
+past year and then to project what we think will happen in the
+year ahead.
+     As in the past two years, we have used a less than scientific
+methodology.  We have asked vendors to give us information on
+their sales, their customers, their number of employees, and the
+applications they believe their products are being used for.  We
+have talked with selected companies that are using expert systems
+and asked them what they used in 1989 and what they plan to do in
+1990.  We have checked notes that we took in conversations during
+the past year, called a few people to ask discreet questions, and
+checked the various documents that try to estimate the size of the
+market, report companies sales, etc.  Then we put all the data
+together and massaged it until it seemed to be more or less
+consistent. We don't believe that any specific number is correct,
+but we are confident that the overall picture is reasonably
+correct. (When we obtained more specific information about
+numbers we used in the past, we usually found that we erred by
+being a little high.)
+     We are late with this issue in large part because many
+vendors who were quick to cooperate in the past were very
+reluctant to do so this year. This partly reflects the fact that
+the companies are increasingly dominated by marketing people
+rather than technical people.  And,  it partly reflects the fact
+that 1989 was a worse year for several vendors than they had
+expected.
+     We have promised anonymity to our sources  in the process of
+gathering our data, so we will not discuss very many specific
+numbers.  Instead, we will simply estimate the overall size of
+each niche, and the relative position we believe the major players
+occupy.
+
+The Expert System Market in 1989 and in 1990:  An Overview
+
+     Overall, we believe that the expert systems market enters
+1990 in the best shape its been in during the last three years.
+Broadly speaking, there are two aspects to the market.  There are
+the companies that buy expert systems products and develop expert
+systems to accomplish their corporate goals, and there are the
+expert systems vendors: companies that sell hardware and software
+to help people develop expert systems.
+
+The Users
+
+     The companies that buy and use expert systems products have
+been steadily growing more confident during the last three years.
+They have purchased expert systems products; they have built a few
+systems; they have found that the technology works.  Their MIS
+folks have been skeptical (most still are), but as new products
+that work on mainframes have been introduced and as more people
+learned about the practical details of expert systems development,
+the companies have systematically increased their commitment.
+     We currently estimate that the expert systems are being used
+by the following industries in the following proportions:
+     Manufacturing                           34%
+     Defense and other governmental agencies 24%
+     Finance                                 18%
+     Other business and industry             11%
+     Education                                8%
+     Corporate R&D                            5%
+     Our sample is relatively small, and the confusion about how
+to classify certain applications is so great, that these numbers
+must be considered only approximate. Even within categories there
+are big differences. Computer manufacturers have been particularly
+active in expert systems development and we have included them in
+manufacturing.  Within the financial industry, insurance companies
+are very active, brokerage firms are active, and banks are still
+only mildly active. In both finance and manufacturing, we have
+avoided trying to determine whether the expert systems
+applications were actually related to core business functions, or
+were used for generic overhead functions. (An expert system used
+to manage a chip fabrication production line would perform a core
+business function; a system used by the same company to assist
+managers in analyzing personnel problems would perform an
+overhead function.)
+     Industries that fall into the "other business and industry
+category that have a considerable interest in expert systems
+include transportation, energy, and communications. There is also
+a rising interest among retailers.
+     In 1988, successful expert systems applications reached the
+point where anyone really interested could convince themselves
+that the technology worked and was here to stay.  There are now
+several hundred working, mid-sized to large strategic applications
+and several thousand small to mid-sized systems that are
+accomplishing more modest tasks (like help desks and equipment
+troubleshooting).  Nineteen eighty-nine saw the introduction of
+the first large multi-user expert system, a trend that will
+accelerate rapidly in 1990 as systems developed in 1989 are
+fielded.
+     Nineteen eighty-nine was the year that companies began to
+standardize on the tools they would use to integrate expert
+systems technology throughout their organizations. It was also the
+year that companies began to worry about systematic methodologies
+they could use to train their programmers to identify and develop
+expert systems.
+
+The Vendors
+
+     On the other hand, the ranks of expert systems tool vendors
+were thinned in 1987 and 1988.  Several companies went out of
+business, while others realized their strategies were not working
+and began re-sizing and re-coding in an effort to survive.  These
+were the years that the Lisp vendors realized that only a very few
+companies were going to want to buy their tools.
+     In 1989, mainframe tools triumphed.  Vendors that hadn't
+thought you could run expert systems on mainframes suddenly
+decided to develop a mainframe version, while the companies that
+had focused on mainframes all along did very well.
+     From the perspective of both the users and the vendors who
+are now correctly positioned, 1990 will be a good year.  The
+ramp-up for corporate-wide use of expert systems is just
+beginning, however, and 1991 and 1992 promise to be even better.
+
+Who Sold What
+
+     We'll consider what happened in 1989 by first considering
+what happened within various niches, and then we'll try to pull it
+all together.
+
+Hardware Companies
+
+     While Lisp machine, language, and most tool vendors went
+through a tough time during the last three years, the major
+hardware vendors who are selling equipment to the companies that
+are actually using expert systems have been doing OK. The
+conventional hardware vendors enjoyed significant hardware sales
+(which they attribute to expert systems) and they expect more in
+the years ahead. Indeed, given how relatively slow hardware sales
+have been in the last two years, conventional hardware vendors
+such as IBM, DEC, and Sun now see expert systems as one of the
+more promising ways to sell more hardware in the 90s.
+     We expect that the hardware being used primarily for expert
+systems development and implementation is being sold by the
+following vendors in roughly the following proportions:
+     Various PCs running MS-DOS (IBM and clone makers) 20%
+     Macintoshes (most equipped with TI or Symbolics    5%
+          Lisp chips)
+     PCs and Unix workstations running Unix            15%
+     DEC hardware running VMS                          15%
+     IBM mainframes running MVS                        15%
+     Lisp workstations from Symbolics and Texas        20%
+          Instruments
+     Other                                             10%
+     Some of the hardware being used may have already been in
+place (e.g. the mainframes) but most companies have or will be
+acquiring new hardware as they continue to expand their expert
+systems development efforts, and if present trends hold up, they
+should be acquiring them from the companies listed above.
+     The Lisp workstation figure looks high at 20%, we believe
+most of those workstations were purchased before 1989 and that the
+use of Lisp workstations will decline steadily over the next two
+to three years.
+     We think that some companies (including the military, NASA,
+and the aerospace companies that service them) will continue to
+acquire Lisp workstations for high-end applications, but we
+predict that most of the companies using Lisp-based software will
+begin running Lisp on a Lisp co-processor or on DEC hardware. (The
+military will probably move toward Lisp-chips embedded in other
+hardware.)
+     SUN sold about 60% of the Unix workstations being used for
+expert systems development.  SUN claims that it derives about 5%
+of its revenues from the AI market and that AI is its second
+largest market in Europe.
+     In 1989 companies began deploying expert systems on
+mainframes so multiple users could access the systems
+simultaneously.  We expect that multi-user applications will
+expand rapidly in the next few years, and that the overall use of
+mainframes will increase accordingly.
+     No companies reported applications running in OS/2, but we
+expect that that is a result of our sample size.  In any case, we
+believe this will change in the next few years as OS/2 begins to
+replace DOS at more companies.
+
+Language Vendors
+
+     Some high-end users are working directly in Lisp on Lisp
+machines, on DEC hardware, on Unix workstations, and on
+Macintoshes equipped with Lisp co-processors.  In addition, anyone
+who is using a Lisp-based expert systems building tool needs to
+have Lisp resident on their hardware. A few people in the U.S. are
+still experimenting with Prolog.  Thus, there is a continuing
+niche for symbolic l   guage vendors.
+     The dominant commercial vendor is Lucid, whose Lisp is on
+most commercial platforms. (A new fast version of Lucid Lisp was
+just announced for DEC hardware, adding DEC to the already
+impressive list of hardware vendors supporting Lucid, including
+IBM, Sun, HP, Apollo, and NCR.) In addition, KEE, the best selling
+Lisp tool, is written in Lucid.  Clearly, Lucid is going to
+survive.
+     Lisp  is used extensively in schools.  However, much of it is
+Gold Hill's Golden Common Lisp.  So, Gold Hill can also survive by
+selling Lisp and tools to the university market. Franz Lisp,
+Quintus Prolog, and Arity Prolog are all still selling
+interpreters and compilers as well. None of these companies has
+become as large as its founders had hoped, but they all seem to
+have found some level at which they can survive.
+     Lisp will not go away.  It is a powerful and very flexible
+language that is just right for rapidly prototyping very large and
+complex systems. Several different companies in 1989 went out of
+their way to tell us that they expect to be doing more work in
+Lisp in the future.  The latest versions of Lisp are much faster
+and easier to manage than the versions of only a few years ago. As
+more and more students move from school, where they learned Lisp,
+into companies, Lisp will grow slowly and continue to occupy a
+highly specialized niche. (The same is also true, to a much lesser
+degree, of Prolog).
+
+Tool Vendors
+
+     The expert systems tool market changed quite a bit in 1989
+and some of the changes caught us off guard:
+
+Small PC/Mac Tool Vendors
+
+     We define small PC and Mac tools as tools that sell for from
+$100 to about $1000.
+     Many small PC vendors have disappeared in the last two years.
+Of those that remain, Paperback Software's VP-Expert occupies an
+overwhelmingly dominant position.  VP-Expert has now sold some
+60,000 copies, which means it doubled its sales in 1989.  A large
+portion of the VP-Expert sales went to schools, but VP-Expert is
+also the most popular small PC tool in the corporate environment.
+     As we write this, the trial between Paperback Software and
+Lotus over VP-Planners's alleged infringement of VP-Planner on
+Lotus 1-2-3's interface is taking place. Assuming Paperback
+Software survives this challenge and continues to improve
+VP-Expert, it should be able to hold on to the low end of the
+expert systems tool market for the foreseeable future.
+     Information Builders' Level5 is clearly the second
+best-selling small PC tool, and it certainly sold several thousand
+units.
+     We always have trouble classifying Level5.  The PC version is
+priced as a small tool and it has about the same capabilities as
+most of the small tools -- rules and backward chaining -- but it
+is associated with Focus and there are versions of the tool
+running on DEC machines and on IBM mainframes. In addition, Level5
+has features that facilitate its integration and assure easy
+database access. Where Paperback Software is really mass marketing
+VP-Expert, we expect that most of Information Builders' sales are
+to companies who acquire site licenses.
+     Other tools that companies are using to develop small systems
+include 1st-Class, Exsys, KnolwedgePro from Knowledge Garden, and
+Crystal from Intelligent Environments.  TI's Personal Consultant
+Easy is still being used, although it is less common now than a
+year ago.
+     With the exception of VP-Expert, which is priced and sold as
+a mass-market commodity (and Level5, which we'll consider later
+when we consider workstation and mainframe vendors), the other
+small tool vendors are either hurting or face the prospect of very
+modest growth.
+     Figure 1 shows our estimates of the small PC tool sales in
+1987, 1988, and 1989 (see printed version of this issue, available
+from Cutter Information Corp.; (800) 888-8939, (617) 648-8700).
+Last year we projected that small tool vendors would sell 70,000
+units in 1989. Obviously the small tool market has not grown as
+fast as we expected.
+     Paperback Software sold the great majority of units sold in
+1989.  The income the small tools market received was lower than
+expected both because fewer units were sold and because VP-Expert
+sells for only $249 (often discounted to much less).
+     We expect that Paperback Software, having the momentum it
+has, will continue to sell well in 1990, but we anticipate that
+the overall market for small tools will be about the same in 1990
+as 1989.  Educational institutions and individuals who want to
+experiment with expert systems account for most of the sales.
+These sales will continue, but they're probably not going to
+experience much growth in the coming year.
+     Another factor that limited the growth of the market for
+small tools was the relative lack of Macintosh sales. Human
+Intellect Systems' Instant Expert ($69) is probably the best
+selling tool for the Macintosh.  Information Builders introduced a
+Mac version of Level5 in 1989, but apparently there isn't much of
+a market for expert systems tools among Mac users.
+     We expect that some of the smaller tool vendors will merge
+with other companies during 1990.  Some of these tools would
+provide the right vertical marketing company with a great
+foundation on which to develop a series of problem- or
+application-specific tools.  A training company could take one of
+these tools, modify its interface, and create a whole series of
+highly specific tools to help trainers (who are generally not
+programmers) develop manuals, small equipment repair aids, etc.
+     We keep expecting small, reasonably priced PC tools that are
+specialized for specific applications (like manual development, or
+small help desks, etc.) to appear.  So far they haven't.  Thus,
+the people using the small PC tools are mostly "Lotus-literate
+programmers or students who are using the tools as a way to learn
+about expert systems technology or are using them to develop small
+applications.
+     In our opinion, there are real opportunities for the small
+tools that help non-programmers accomplish specific tasks. The
+current crop of tools, including VP-Expert, are still too
+difficult to use to attract this audience.  Hence, as companies
+standardize, they will increasingly use tools they acquired under
+site licenses, and the market for the various standalone, generic
+small PC tools will decrease.
+
+Mid-Sized, PC/Workstation Tool Vendors
+
+     We define these tools as products that run on PCs, Unix
+workstations (i.e. SUN), or DEC hardware. These tools range in
+price from $2,500 to $25,000, but most sell for between $5,000 and
+$8,000.
+     Last year we assumed that 4,500 mid-sized PC/workstation
+tools were sold in 1988.  We realize now that some of the units we
+included in that figure were, in fact, European sales.  We now
+estimate that the total PC/workstation tools sold in the U.S. in
+1988 actually totalled some 3,500 units, and the sales income
+generated by mid-sized tool sales was $23.5 million.
+     We projected that 1989 mid-sized tool sales would climb to
+7,000 units.  We now believe that, in fact, there were about 4,500
+mid-sized tools sold in 1989. We believe the vendors made about
+$30 million on such sales. Clearly the market didn't grow as fast
+as we projected.
+     What is much more interesting is who sold the most mid-sized
+tools in 1989 -- Aion Corp.  We did not anticipate this, nor did
+the managers to whom we talked in early 1989 about their plans for
+the year. Apparently companies decided to standardize in 1989,
+and, having made that decision, they decided to buy PC tools that
+were compatible with the mainframe tools they intended to buy.
+Since many companies chose Aion's ADS for their mainframe tool in
+1989, they also chose to cut site licenses with Aion. In
+considering who sold the most units, we only considered
+developmental versions of tools.  Aion led in developmental
+versions sold, but they also sold a phenomenal number of delivery
+or runtime licenses, mostly in conjunction with site licenses.  A
+telling bit of information:  the Texas Instruments instructors at
+TI's Information Systems Center, who formerly taught internal
+courses on how to use Personal Consultant Plus, now teach TIers
+how to use the PC version of Aion's ADS.
+     Other important vendors selling in this market include Neuron
+Data (Nexpert Object), AI Corp (KBMS), Software A&E (KES II),
+Inference Corp. (ART/IM), and Information Builders Inc. (Level5
+for the VAX).  AI Corp introduced a DOS version of KBMS in
+mid-1989.  We expect that the same logic (i.e. that companies that
+have standardized on a mainframe tool will buy PC versions of the
+same tool) will hold in 1990 and that companies choosing the
+mainframe version of KBMS will also push KBMS PC sales up rapidly.
+Inference Corp.'s Unix workstation version of ART/IM enjoyed
+significant sales in 1989, presumably because companies who are
+considering using ART on the mainframe want to explore its
+potential.
+     Information Builders Inc. didn't play a large role in the
+mid-sized tool market in 1989, but it will probably play a larger
+role in 1990. In mid-1990, Information Builders is set to
+introduce their new tool, Level5 Object.  Unlike Level5, which is
+a backward-chaining simple rule tool, Level5 Object will be a
+powerful hybrid tool with high quality user and developer
+graphics. The PC version will to be priced at around $1,000. If
+the tool is as good as the demos and sells for $1,000, it will set
+a new price/value standard for the industry and put both the small
+PC vendors and most of the mid-sized tool vendors under
+considerable pressure.
+     In effect, the mid-sized/workstation niche, as an independent
+market niche, is disappearing (at least in the U.S.). Companies
+clearly want to field expert systems on mainframes and they are
+committing to mainframe companies. Once committed, they are using
+the PC tools sold by those companies rather than buying mid-sized
+tools from vendors specializing in selling tools for $5,000 to
+$8,000.
+     The exceptions, at the moment, are companies that want to
+develop and field their applications on VAX hardware. We expect
+that Nexpert Object may still be the best-selling mid-sized tool
+for DEC hardware, but it must be getting some competition from
+DEC's VAX Decision Expert and will soon get some more from DEC's
+Epitool.  That's an important exception, of course, because DEC
+equipment is being widely used in manufacturing --  the industry
+that is buying most of the expert systems software at the moment.
+
+     AI Corp has just introduced a DEC version of KBMS and Aion
+has committed to developing a DEC version in the future. Thus, at
+some point in the near future, even those operating on DEC
+hardware will have the option of buying tools that not only run on
+a DEC, but on an IBM as well.
+     Some new vendors entered the mid-sized market in 1989.  The
+most interesting tool is probably Meta Knowledge's Kappa.  Still,
+given what we have just said, new vendors that start out on the PC
+and then try to add platforms until they finally get a mainframe
+version are going to have a very hard time.
+     It's probably too late for any small to mid-sized company to
+try to introduce a new generic tool.  The market wants
+integration, and there are some good vendors in the market that
+are offering exactly that. It will be very hard for a small
+company to compete by offering a tool that just runs on a single
+platform when there are vendors that have tools running on PCs,
+Unix workstations, VAX machines, and IBM mainframes.
+     We expect that the mid-sized tool market will grow modestly
+in 1989.  With the benefit of hindsight, we expect that most of
+the mid-sized sales will be to companies that have standardized on
+a mainframe tool and then buy PC or DEC versions of that tool to
+use in training and in the development of expert systems.
+
+Mainframe Tool Vendors
+
+     The mainframe vendors sold about 175 units and made $11
+million on tool sales in 1988.  We projected that they would sell
+400 units and make $25 million in 1989.  In fact, we believe they
+sold about 237 units and made about $22 million selling mainframe
+tools.
+     We just described the sharp increase in market share that
+Aion achieved in the PC/workstation market. We expect that in 1990
+the PC versions of Level5 Object and KBMS will also enjoy
+considerable sales.  We had not anticipated this, although clearly
+we should have.  Many companies have apparently decided to go with
+mainframe tools but, logically enough, they have begun by
+acquiring only one or a few mainframe versions of the tool, and
+then have proceeded to acquire a large number of PC versions of
+the tool.  This strategy allows their developers to begin learning
+about the technology and to create and test applications without
+forcing the company to spend the larger amounts of money required
+to make the tools available on the mainframe.
+     It seems that companies are committing to mainframe delivery,
+but are holding off on purchasing the software required for that
+delivery until it is needed. In other words, mainframe tool sales
+will lag behind the sales of the PC versions of the mainframe
+tools.
+     Accordingly, even though mainframe tool sales fell below what
+we expected this year, we believe the mainframe tool market is in
+very good shape.  We predict that mainframe tool sales will easily
+reach 400 by the end of 1990, and will accelerate even faster
+thereafter as companies develop the applications that require the
+mainframe software for delivery.
+     Clearly, the dominant mainframe tool vendor in 1989 was Aion.
+Equally clear is the fact that almost everyone who is considering
+buying ADS is also considering KBMS.  The fierce competition
+between these two companies will continue unabated through 1990
+and probably for several years thereafter.  (We will be reviewing
+Aion's ADS and AI Corp's KBMS in the next issue of the
+newsletter.)
+     Nineteen ninety will witness the introduction of Information
+Builders' Level5 Object and IBM's TIRS.  In addition, Inference
+Corp. will probably play a larger role as a result of its recent
+deal with Arthur Andersen Consulting (See Trends).
+     In 1989, we saw the triumph of the mainframe approach to
+expert systems.  From now on, with the exception of relatively
+specialized vendors like Paperback Software, the Lisp vendors, the
+domain-or problem-specific vendors, and perhaps one or two tools
+that are very effective on DEC VAX systems, any company that does
+not have a credible mainframe version of their product will not be
+able to play a significant role in the expert systems tool market.
+The competition in the mainframe market should be very fierce in
+1990.
+     IBM probably didn't make much money selling expert systems
+tools in 1989, but it was very active.  In addition to continuing
+to work on ESE and KnowedgeTool, they began selling IBM/KEE and,
+much more important, they announced their AD/Cycle with a
+knowledge-based systems component.  In the context of its AD/Cycle
+announcement, IBM also announced that it will begin selling a new
+hybrid tool with impressive graphics, called TIRS.  We expect TIRS
+will quickly replace all three of IBM's early offerings and become
+the first tool that IBM sells in any significant numbers. (That
+TIRS is limited to mainframes and OS/2 machines will limit its
+sales, but there are enough people who want to buy from IBM and
+have been waiting for a credible tool, to guarantee that IBM will
+play an increased role in the tool market in 1990.
+
+Lisp Tool Vendors
+
+     In 1988 the large Lisp vendors sold about 900 units and made
+about $20 million on tool sales.  We projected that they would
+sell 1100 units in 1989 and make about $23 million on tool sales.
+In fact, we believe that 970 Lisp-based tools were sold in 1989
+and that the vendors made about $22.5 million in the process.
+     Last year we considered IntelliCorp's KEE, Inference Corp.'s
+Lisp version of ART, and Carnegie Group's Knowledge Craft in this
+category.  We placed Gold Hill Computer's GoldWorks in the
+mid-sized tool category and we placed Gensym's G2 in the
+domain-specific category.  This year we have included both
+GoldWorks and G2 in the Lisp category. We changed because we
+decided that the fact that a tool is written in Lisp is much more
+important to potential clients than the hardware or the size of
+the tool.  In addition to the vendors listed above, we considered
+both AIT's Mercury and DEC's Epitool as part of this market.
+Epitool has just been introduced in the U.S., but has significant
+sales in Europe.
+     Clearly IntelliCorp's KEE is still the best selling Lisp tool
+and almost everyone agrees that it defines the top of the entire
+expert systems market in terms of features and functionality.
+Inference has switched most of its attention to selling the C
+version of ART and Carnegie Group is concentrating on consulting
+and on problem-specific tools.  AIT's Mercury (fast database
+access) and Gensym's G2 (real-time applications) are currently
+attracting buyers with specialized needs, and DEC's Epitool is
+about to test the proposition that customers will buy a Lisp tool
+if the programming interface makes you think you are programming
+in Pascal rather than Lisp.  We expect Lisp tool sales to decline
+to 900 units in 1990, and we expect the income vendors earn on
+Lisp tool sales to decline accordingly.
+     There is a continuing rumor that IntelliCorp will introduce a
+C-based tool in 1990.  If they do introduce it within the first
+half of 1990 and it is as successful as Inference Corp.'s C
+version of ART, we expect that overall Lisp tool sales may decline
+significantly, since, in effect, the last major Lisp tool vendor
+will appear to be moving out of Lisp and will be refocusing its
+sales effort on the non-Lisp tool market.  That might mean a few
+more Lisp sales for some of the more specialized vendors, but it
+will probably be the final blow to generic Lisp tools.  There will
+continue to be a small market for problem- or
+application-specific tools written in Lisp.  However, most of the
+people who want to work in Lisp will probably work in the language
+itself.
+
+Problem- and Application-Specific Tool Vendors
+
+     There were a number of domain-specific tools introduced in
+1989.  Carnegie Group added Service Maintenance Planner, Text
+Categorization System, and Cost & Manufacturability Guide to their
+earlier diagnostic specific tool, TestBench.  TI, which also sells
+TestBench, added Line Balancer, Technicians Assistant, and a
+variety of airline planning and scheduling applications that it
+developed in its Symbolic Spreadsheet product.  TI is eager to
+tailor any of these applications to help solve any transportation
+company's needs. IntelliCorp introduced KLUE.  DEC announced XSAFE
+and started marketing AI WARE's CAD/Chem product. Syntelligence
+sold a copy of Syntel, its tool for developing financial
+applications. These products range in price from a few hundred to
+one million dollars.
+     Last year we estimated that 100 problem- or
+application-specific tools had been sold and that the vendors had
+made some $3 million.  We projected the sale of 200 units in 1989
+and revenue of $6 million.  We believe that more than 200 units
+were sold, but we are very unsure of the money that vendors made
+in the process. For our summary calculations we take the very
+unreliable figure of $6 million and project an equally unreliable
+$12 million for 1990.  In most cases, these sales blend into
+consulting and these figures have to be regarded as particularly
+suspect.
+
+Application Vendors
+
+     The early vendors who tried to sell expert systems off the
+shelf failed to make a go of it (although Syntelligence is still
+trying).  At the moment, there are many small to mid-sized expert
+systems applications being sold. Most are modest in size and very
+narrowly defined.  We have not tried to estimate the number sold
+or the money being made in the process. Later this year we will
+publish a catalogue of expert systems for sale.  We'll try to make
+a reasonable estimate of the market at that time.
+
+Consultants and Software Houses
+
+     Companies like Cimflex-Teknowledge and Carnegie Group have
+really transformed themselves into software development shops that
+specialize in expert systems development.  IntelliCorp and
+Inference Corp. will probably follow in the next couple of years.
+In addition, some of the small expert systems tool vendors are
+making most of their money from consulting and will probably be
+absorbed by software development groups in the coming year.
+     Almost all of the expert systems tool vendors earn a
+considerable amount of their money from expert systems consulting
+(which we have tried not to count as a part of their tool
+revenue).  TI, for example, is earning far more money selling
+consulting services than it is selling tools.  As a general rule,
+you can add 35% to 40% to the tool income of an expert systems
+vendor to reflect the income that vendor is earning from
+consulting. (There are only a few significant exceptions -- Neuron
+Data and Aion, for example.)
+     In addition, established software development groups are
+doing lots of work in expert systems.  The largest is clearly
+Arthur Andersen Consulting (see Trends), followed probably by
+Coopers & Lybrand and Arthur D. Little.  In addition, most of the
+other major software development groups are doing at least a
+little work in expert systems consulting.  There are likely a
+number of groups doing specialized work for the military that we
+don't know about.
+     We don't have any hard estimate of the money the conventional
+software houses made by doing expert systems consulting or by
+incorporating expert systems into their other work, but we assume
+that, taken together, the figure must be over $20 million.
+
+The Total Size of the U.S. Expert Systems Market
+
+     Nineteen eighty-nine was a good year for users of expert
+systems, but it was a confusing year for vendors. In retrospect,
+1989 was part of the transition that began in 1987. The transition
+was not simply away from Lisp-based tools, as some thought, but
+toward tools that could be based on mainframes and hence be
+simultaneously delivered to multiple users.  The C-based
+standalone workstation tools had trouble this year just as the
+Lisp-based tool vendors did in 1987 and 1988. The only expert
+systems tool vendors who really look good right now are those that
+have the same tools on all of the major platforms, including the
+mainframe.
+     Aion and AI Corp are in the best position.  Information
+Builders Inc., Software A&E, Inference Corp. and Neuron Data are
+all still in the market, but each will be playing catch-up in 1990
+as they try to improve their tools capabilities and their
+mainframe credentials to match the two leaders. We only expect a
+couple of them to really make it.
+     IBM and DEC are both limiting their tool offerings by
+limiting the platforms on which their products will run, but IBM
+could be a very serious contender in 1991 if TIRS turns out to be
+as nice as it looks and companies really begin to shift from DOS
+to OS/2 (TIRS doesn't run in DOS).
+     Last year we tried to put a dollar figure on the total expert
+systems market and then on the total AI market.  This year we
+thought that there was too much information we didn't have, so we
+decided to take a pass.
+     We have calculated the total income of tool vendors in 1989
+and projected it for 1990.  The numbers are presented in Table 1
+(see printed version of this issue, available from Cutter
+Information Corp.; (800) 888-8939, (617) 648-8700).
+     We expect that the best-positioned vendors will expand their
+PC/workstation sales next year and begin to get the mainframe
+sales that this year's sales have, in effect, set in motion.
+     If you really want information on the broader market and can
+afford to pay for it, you should buy Ovum Ltd.'s new report
+"Knowledge-based Systems: Markets, Suppliers and Products." ($995,
+$1035 outside North America) It arrived just as we were completing
+this newsletter and we examined it closely to see how Ovum's
+assumptions matched our own.  We have a few disagreements; we
+think they overestimate the role of Symbolics and AI Corp and
+don't give enough weight to Aion and IntelliCorp.  Moreover, they
+say VP-Expert sales have faded, which is clearly wrong. (It's as
+if they gathered their information on the East Coast and didn't
+spend enough time in Palo Alto). Ovum's figures are about twice
+ours; we expect they didn't take into account the discounts the
+vendors are offering and the effect of site licenses on income.
+Still, we know how hard it is to come up with reasonable
+information on the various parts of the AI market and this report
+seems to us worth quite a bit of study if you are interested in
+vendor income estimates.
+     In addition to a complete analysis of the U.S. market, the
+Ovum report has the best analysis we've seen of the expert systems
+market in Europe.
+     For more information about "Knowledge-based Systems: Markets,
+Suppliers and Products," contact Cutter Information Corp., 1100
+Massachusetts Avenue, Arlington, MA U.S.A., 02174; (617)648-8700,
+Fax: (617)648-8707
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+INTELLIGENT SOFTWARE STRATEGIES via NewsNet
+January 1990
+
+WHAT WILL HAPPEN IN 1990
+
+How Did We Do in 1989?
+
+     Before we begin to make predictions for 1990, let's take a
+look at what we predicted for 1989.
+     1. "Lisp machine vendors and Lisp-based generic tools will
+all but disappear in 1989.  Lisp-based problem- or domain-specific
+tools will do better, but..."
+     We said this last year and still predicted that some 1100
+Lisp-based generic tools would be sold. We estimate that about 979
+units were, in fact, sold.
+     Although Symbolics is showing a profit, it has switched its
+energy toward software and TI is maintaining a very low profile
+these days.  We think we were right on this one.
+     2. "C, Mac, and mainframe tools will dominate the news in
+1989."
+     As noted above, nothing much happened on the Mac, but C and
+mainframe tools certainly dominated the news.  We'll take a mostly
+right on this one.
+     3. "Several new problem- and domain-specific tools will be
+introduced."
+     We were certainly right on this one.
+     4. "The hottest subject in 1989 will be object-oriented
+programming techniques.  All of the tool vendors are scrambling to
+introduce or improve their capabilities.  Object-oriented
+techniques make developing expert systems faster and easier.
+Rule-based tools provided most of us with an introduction to
+expert systems, but hybrid tools are now rapidly becoming the
+standard for expert systems work."
+     This was certainly correct.  ADS now has objects and
+Information Builders' Level5 Object (formerly called Level5
+(Release2) is in beta testing and about to be released.  We talked
+to several companies about standardization during 1989 and no one
+was considering a tool that didn't have (or was about to have)
+objects.  Everyone now realizes that objects are necessary for
+many high-end applications.
+     In addition, the object-oriented conferences were very hot in
+1989. Many programmers who know little or nothing about expert
+systems are rushing to learn about OOP.
+     5. "The Mac tools introduced in 1989 will be really
+impressive and will raise the standard for what we expect for the
+small PC tools."
+     Human Intellect Systems Instant-Expert Plus (introduced in
+1988) remained the most interesting small tool on the Mac.
+Hyperpress' Intelligent Developer was interesting but needed more
+work. The same goes for Logic Programming Associates' (and Quintus
+Computer Systems) Flex. IBI's Level5 for the Mac is a very
+professional tool, but not very exciting.  Paperback Software
+failed to deliver its Mac tool, as did Gold Hill. Little's Cameo
+(in Hypercard) is interesting, but not commercially available.
+     The Mac is being used by Lisp programmers in conjunction with
+either a TI or a Symbolics Lisp co-processor to run larger
+Lisp-based tools like ART or KEE, but those are hardly small PC
+tools.
+     We missed on this one. So far, the Mac isn't playing a very
+interesting role in the world of small expert systems.
+     6. "Nexpert Object will dominate the workstation tool market
+in 1989, but will probably start to face some real competition
+from tools that have about the same capabilities and interface but
+cost closer to $800."
+     Nexpert Object no longer dominates the mid-sized workstation
+tool market, Aion does.  It hasn't gotten any $800 competitors,
+but it will when Level5 Object comes out at $1,000 in mid-1990.
+We were wrong on this one.
+     7. "The major marketing battle in 1989 will be fought between
+ADS and KBMS. Aion will try to add object-oriented capabilities
+while KBMS will concentrate on getting its tool to run as fast as
+ADS-HPO."
+     We were right on here.  Aion did add objects and AI Corp did
+manage to get KBMS to run a lot faster.  And they certainly did
+battle in the offices of many companies that are trying to decide
+which tool to buy.
+     8. "The overall market will grow slowly as companies continue
+to try to sort out how to integrate expert systems techniques with
+their current practices."
+     We were right on this one.  Actually the market grew a little
+faster than we expected because companies began to standardize and
+several site licenses were sold, but we still think this
+prediction accurately reflects the overall market in 1989.
+     9. "Consultants and vertical market VARs will do very well,
+since companies will turn to them both for assistance in training
+their own personnel and for developing high-value tailored expert
+systems applications with high price tags."
+     We believe that we were right on this one, too.
+     10. "The research community will continue to show a lot of
+interest in neural nets, but there won't be very many commercial
+applications."
+     Right again.
+     11. "Interest in and applications of natural language will be
+more pronounced in 1989 than in previous years, driven primarily
+by the introduction of KBMS with its Intellect interface."
+     There certainly was a growing interest in natural language in
+1989. Natural language vendors showed up in numbers at the AAAI
+convention (IJCAI in Detroit) for the first time.
+     Most of the natural language activity was incorporated in
+expert systems applications or focused on front ends for
+databases.  MCI International, for example, developed a system
+that scans incoming messages and sorts out time-critical money
+orders. They have sold the system to several banks.
+     Natural language hardly begins to rival the interest in
+expert systems, nor is it worth the effort for most expert systems
+applications, but it is slowly and surely growing.  We'll take a
+right on this one too.
+     We admit that our 1989, predictions were pretty general and
+rather conservative, but we're still pleased to say that we got 8
+right, 1 mostly right and only 2 wrong.  Buoyed up by our success
+in 1989 we have decided to be more specific and less conservative
+in predicting what will happen in 1990.  We'll be really happy if
+we get 75% of our 1990 predictions right.
+
+What We Predict for 1990
+
+     1. 1990 will be a good year for people promoting expert
+systems within corporations and for the few expert systems tool
+vendors who are positioned correctly.
+     In spite of tight money and continued confusion about
+hardware, operating systems, and networking, corporations will
+invest in expert systems because they are directly related to
+solving hard, strategic problems; increasing productivity; and
+improving quality; all key corporate concerns.
+     Fortune 500 companies will continue to standardize on tools
+and buy site licenses, which will make the winning expert systems
+tool vendors stronger, while eliminating the less successful
+vendors from the market.
+     Most corporate MIS groups are only beginning to be won over
+to expert systems, so 1990 won't see really large numbers of
+systems deployed or integrated in the way that DEC has.  We
+believe 1991 and 1992 will be even better years, as MIS people
+realize just how many problems they can ameliorate or solve with
+expert systems techniques.
+     In other words, the AI winter is over, the weaker vendors
+have been weeded out or are dying, and the vendors who have
+successful products are about to enjoy some prosperous years.  The
+people within corporations who have been championing expert
+systems are about to become respectable prophets, as MIS groups
+slowly but surely realize that expert systems technology will be
+an important key to success throughout the 1990s.
+     2. The term "expert systems is about to disappear. By the end
+of 1990, almost everyone will be saying"knowledge-based systems
+(KBS). We certainly admit that "expert systems suggests the wrong
+thing; (it refers to a specific role that only a small minority of
+the systems ever played) and that "knowledge-based systems puts
+the emphasis on the technology, where it belongs. (The only proper
+alternative would be inference-based systems.)
+     "Expert systems has held on primarily because the media have
+used the term in popular articles. As the hype around expert
+systems dies down (and the popular computer press focuses on OOP
+and neural networks), corporate analysts and programmers will
+prefer to talk about the technology using a more accurate term.
+     We'll have a hard time adjusting; "expert systems just comes
+tripping off our tongue, but we'll try. (We may even change the
+name of the newsletter.)
+     3. Throughout 1990, the main marketing news will continue to
+be generated by Aion and AI Corp, although later in 1990, IBM's
+TIRS will begin to give both companies some modest competition.
+     By the end of 1990, Aion will be the most successful expert
+systems vendor, with sales topping $30 million.
+     4. Level5 Object will be very well received and will
+effectively drop the price of a good, hybrid mid-sized tool to
+$1,000.
+     5. The Lisp-based hardware and tool vendors are still in for
+a rough time.
+     IntelliCorp will introduce a C version of KEE.  KEE will
+remain the best of the Lisp-based tools and the preferred choice
+of high-end developers, but IntelliCorp will be forced to shrink
+since it is still too large for its limited niche.  Symbolics will
+try to shift from hardware to software, but they will have trouble
+and they too will probably also find themselves trying to shrink
+their overhead.
+     TI will increasingly focus on doing Lisp development in the
+context of highly targeted consulting.  They will focus on
+introducing a SPARC II chip with Lisp-like capabilities and then
+position themselves in the Unix world.
+     Gold Hill will need to shrink some more and will probably
+increasingly focus on supplying Lisp software for universities.
+     The Lisp companies that survive will follow TI, Teknowledge,
+and Carnegie Group and become specialized software development
+houses. They will de-emphasize software sales and focus on helping
+clients develop strategic software applications.
+     One or more of them will be purchased by larger software
+houses who want to add an expert systems capability to their
+portfolio of consulting capabilities.
+     At least one major Japanese or European software house will
+enter the U.S. market by acquiring one of the Lisp vendors to get
+a foothold in sophisticated software development in the U.S.
+     The use of Lisp will continue to grow throughout the decade.
+The demand for Lisp-based products and consulting services during
+1990, however, will be less than the supply being offered by the
+various Lisp vendors.
+     6. DEC and IBM will both play a steadily increasing role in
+the expert systems market.  They will both continue to benefit
+from the growth of expert systems-driven hardware purchases.
+     DEC will play a larger role in the short run by helping
+manufacturing companies develop an overall strategy for using
+expert systems and integrating them throughout the company.
+     IBM will play a greater role in the longer term by continuing
+to work on its tool offerings until it gets a winner -- probably
+in the context of their AD/Cycle.
+     Both companies will continue to play a limited role in the
+tool market in 1990 because both companies are still trying to use
+their tools try to force companies to commit to their hardware.
+Most companies, however, will insist on buying tools that run on
+several different platforms, including mainframes, PCs (in DOS and
+later in OS/2), VAX machines, and Unix workstations.
+     7. Neural network applications will increase and you will
+hear more about them as they get integrated into existing expert
+systems building tools. Neural networks will still remain a
+research subject and not a commercial technology throughout 1990.
+     8. Object-oriented programming will continue to be a hot
+topic throughout 1990.  Many programmers who know nothing of
+expert systems will get excited about using C++, Object-oriented
+CASE tools and Object-oriented databases. (By the middle of the
+decade, C++ will be the dominant OOP language and will begin to
+replace C.)
+     Most of the OOP folks don't know much about expert systems.
+They stress rapid prototyping but don't understand inferencing or
+the use of heuristic rules. In 1991 and 1992 there will be a real
+opportunity for expert systems people within corporations to help
+the OOP folks develop a methodology based on what they (the expert
+systems people) have learned about developing object-based
+programs and managing rapid prototyping efforts.
+     By 1992 or 1993, the best of the OOP tools will incorporate
+some inferencing and will be positioned as CASE tools. Some of
+them will probably be developed by the same vendors who are now
+selling expert systems tools.
+     We regard OOP as a spin-off of AI, or at least a kindred
+technology, and will devote an increasing amount of attention to
+it as it matures.  We haven't tried to estimate the financial size
+of the OOP market in this issue, but we will take a crack at it
+later in the year.
+     9. Problem- and application-specific tools will continue to
+be introduced.  No one tool will have a large impact because each
+will be specialized for very specific niches, but they will
+certainly create consulting opportunities for companies that will
+increasingly consider themselves software consulting firms, as
+Texas Instruments' Knowledge Engineering Group has done.
+     10. While the early vendors of expert systems applications
+were unsuccessful, there is a growing number of vendors, mostly
+selling expert systems that run on PCs (see the Trends article on
+Ask Dan) or applications that are highly specialized, such as
+DuPont's Packaging Advisor or Beckman's PepPro, that are doing
+quite well. The successful products all emphasize that they
+perform a job well and de-emphasize the technology that underlies
+the product.  No one wants to buy a tax program simply because
+it's an expert system -- they want to buy a tax program that's
+more powerful, flexible, and easier to use than its rivals.
+     (We'll be publishing a catalogue, "Expert Systems for Sale,",
+1990.  We don't expect people to buy expert systems from a
+catalogue, but we want to show just how large and diverse this
+specific subset of expert systems applications has become.  We
+haven't tried to put any financial numbers on application sales in
+this issue, but we'll come up with an estimate as we develop the
+catalogue, and we predict that it will be a more impressive number
+than most will expect.)
+     11. The hot expert systems topic of 1990 will be a systematic
+methodology.  There will still be some market for consultants and
+trainers who want to talk about "What Expert Systems Are but the
+most successful consultants will be those who can help companies
+train conventional programmers to recognize opportunities, build
+expert systems, and integrate with existing corporate systems.
+     If someone develops a methodology that rests on a structured
+approach to developing hybrid systems (the successor to the
+top-down structured programming systems based on data flow
+diagrams), corporations will beat a path to their door.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+INTELLIGENT SOFTWARE STRATEGIES via NewsNet
+January 1990
+
+Arthur Andersen Consulting and Inference Corp. Sign an Agreement
+
+     Just as we were going to press, we received an announcement
+that Inference and Arthur Andersen Consulting have signed an
+agreement whereby Andersen will have access to Inference's expert
+systems tools for use in its system integration business.  The
+agreement also provides for Inference to assist Andersen in
+application development.  Inference estimates this agreement will
+produce between $5 and $10 million in revenue over the next three
+years.
+     This agreement will go a long way to ensure that Inference is
+seen as a vendor who can supply tools that run on PCs, Unix
+machines, VAX hardware, and on IBM mainframes.
+     It also lends support to our contention that conventional
+software consultants will want to acquire the consulting skills
+that are currently possessed by companies like Inference,
+IntelliCorp, and Carnegie Group.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+INTELLIGENT SOFTWARE STRATEGIES via NewsNet
+January 1990
+
+Ask Dan, Now Andrew Tobia$' Tax Cut
+
+     For the last two years we have recommended Ask Dan, a
+PC-based expert systems application that helps individuals and
+small business prepare their taxes.  (We weren't alone in this --
+"Business Week" rated Ask Dan #1 for two years in a row, as well.)
+The important thing about this program is that it doesn't put a
+lot of emphasis on being an expert system; it just does the job
+better than the competing (non-expert) programs.  The interface is
+really excellent -- it reproduces the IRS forms and allows you to
+fill out the forms, open windows to get advice, and eventually,
+print out your returns.
+     For those who are interested, Ask Dan in now being
+distributed as part of the Andrew Tobia$ series under the name TAX
+CUT.  If you have been using Ask Dan, Tax Cut will seem completely
+familiar. If you use the Tobia$ Managing Your Money software, Tax
+Cut will work with the data from that program.
+     Tax Cut is available from MECA Ventures, Inc. and is
+available in most software stores.  List price is $79.95, but
+Egghead Software has it listed for $45.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

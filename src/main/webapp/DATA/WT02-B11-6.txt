@@ -1,0 +1,153 @@
+
+<DOC>
+<DOCNO>WT02-B11-6</DOCNO>
+<DOCOLDNO>IA011-000111-B042-402</DOCOLDNO>
+<DOCHDR>
+http://www.takeout-info.com:80/PowerSubmit/index_register_power.html 206.184.157.62 19970216170834 text/html 3555
+HTTP/1.0 200 OK
+Date: Sun, 16 Feb 1997 17:08:52 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 3373
+Last-modified: Sun, 02 Feb 1997 00:46:23 GMT
+</DOCHDR>
+<HTML>
+
+<HEAD>
+     <META name="resource-type" content="document"> 
+     <META name="keywords"      content="Search submit engine">
+     <META name="author"        content="Michael Z. Moricz">
+     <META name="date"          content="01/01/1997">
+
+  <TITLE> PowerSubmit Page </TITLE>
+</HEAD>
+
+
+<BODY>
+
+<CENTER>
+<H2><FONT COLOR="FF0000"><EM>
+  PowerSubmit Registration Page
+</EM></FONT></H2>
+</CENTER>
+
+<HR>
+<BR>
+
+<B>
+The following information is needed for registration:<BR>
+(Or register by phone at 415-962-1288, or email us at
+<A HREF="mailto:femychan@mailzone.com">femychan@mailzone.com</A>)
+</B>
+
+<BR>
+<P>
+
+<CENTER>
+<FORM ACTION="cgi-bin/reg_request.cgi" METHOD=post>
+<TABLE>
+<tr>
+  <td align="left">
+    <font color=000000><b>Duration of registration: </b></font></td>
+  <td align="left">
+    <input type="radio" name="duration_type" value="1m"> 1 month
+    <input type="radio" name="duration_type" value="3m"> 3 months
+    <input type="radio" name="duration_type" value="6m" CHECKED>  6 months
+    <input type="radio" name="duration_type" value="12m"> 12 months
+    </td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>Your Name:</b></font></td>
+  <td align="left">
+    <input name="name" maxlength=69  size=50
+           value=""></td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>Address:</b></font></td>
+  <td align="left">
+    <input name="addr" maxlength=69  size=50
+           value=""></td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>City:</b></font></td>
+  <td align="left">
+    <input name="city" maxlength=69  size=50
+           value=""></td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>State/Province: </b></font></td>
+  <td align="left">
+    <input name="state" maxlength=69  size=50
+           value=""></td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>Country: </b></font></td>
+  <td align="left">
+    <input name="country" maxlength=69  size=50
+           value="USA"></td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>Telephone (optional): </b></font></td>
+  <td align="left">
+    <input name="tel" maxlength=69  size=50
+           value=""></td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>Your Email: </b></font></td>
+  <td align="left">
+    <input name="email" maxlength=69  size=50
+           value=""></td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>Credit card number: </b></font></td>
+  <td align="left">
+    <input name="card" maxlength=69  size=50
+           value=""></td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>Expiration date: </b></font></td>
+  <td align="left">
+    <input name="exp_date" maxlength=69  size=50
+           value=""></td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>Credit card type: </b></font></td>
+  <td align="left">
+    <input type="radio" name="card_type" value="MC" CHECKED> MC
+    <input type="radio" name="card_type" value="VISA"> VISA
+    </td></tr>
+
+<tr>
+  <td align="left">
+    <font color=000000><b>Comments:<br></b></font></td>
+  <td align="left">
+    <textarea name="comments" maxlength=200 cols=50 rows=3></textarea>
+    </td>
+
+<tr>
+  <td align="left">
+    <center><input type="reset" value="        Clear        "></center></td>
+  <td align="left">
+    <center><input type="submit" value="Get Password "></center></td></tr>
+
+</TABLE>
+</FORM>
+</CENTER>
+
+
+
+
+</BODY>
+</HTML>
+</DOC>

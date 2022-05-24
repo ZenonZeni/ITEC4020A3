@@ -1,0 +1,122 @@
+
+<DOC>
+<DOCNO>WT01-B03-43</DOCNO>
+<DOCOLDNO>IA097-001048-B044-211</DOCOLDNO>
+<DOCHDR>
+http://mspiggy.etl.noaa.gov:80/lidar/glint.htm 140.172.33.2 19970215104745 text/html 5239
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 05:45:44 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Tue, 12 Nov 1996 18:15:38 GMT
+Content-length: 5065
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Laser Glint Wave Sensing</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.0Gold (Win95; I) [Netscape]">
+</HEAD>
+<BODY BGCOLOR="#88BBBB">
+
+<P><A HREF="http://www.doc.gov">Commerce</A> / <A HREF="http://www.noaa.gov">NOAA</A>
+/ <A HREF="http://www.oar.noaa.gov">OAR</A> / <A HREF="http://www.erl.noaa.gov">ERL</A>
+/ <A HREF="http://www.etl.noaa.gov">ETL</A> / <A HREF="http://www1.etl.noaa.gov">Oceans</A>
+/ <B>Lidar</B> </P>
+
+<H1 ALIGN=CENTER><font color="#ffffff">Laser Glint Wave Sensing</font></H1>
+
+<CENTER><P><IMG SRC="gifs/3dline.gif" HEIGHT=10 WIDTH=555> </P></CENTER>
+
+<BLOCKQUOTE>
+<P><IMG SRC="gifs/why.gif" HEIGHT=28 WIDTH=59> Measurements of sea-surface roughness,
+especially slope statistics and wind-wave spectra, are necessary for <b>understanding
+air-sea interaction and ocean-wave processes</b>, and for interpreting signals
+from remote-sensing instruments that view the ocean. For example, inferring
+near-surface wind speed and direction from microwave radars and radiometers
+requires understanding how the surface roughness is affected by the local
+environment, particularly by windspeed and air-sea temperature difference.
+One effective method for studying surface roughness is by measuring the
+spatial and temporal variations of glint patterns (light specularly reflected
+from the surface). To remove ambiguities that arise with natural light
+sources, we use lasers to produce the glints.</P>
+
+<P>
+<HR size=4></P>
+
+<H2>How does it work?</H2>
+
+<P><a href="glt_im.htm"><IMG SRC="gifs/calm2c_100.gif" hspace=15 HEIGHT=100 WIDTH=133 ALIGN=RIGHT border=3></a>Specular reflections
+from a light source in a known position tell us the slope of a small piece
+of the ocean surface. By recording the angular positions of glints as we
+scan a narrow laser beam over the surface, we can map out the slope distribution
+for a region of ocean surface. Doing this for many scans produces surface-slope
+statistics. Similarly, images of a surface region illuminated by a broad
+laser beam tell us how the slopes are distributed. Two-dimensional slope
+statistics can be obtained by averaging many sequential images.</P>
+
+<P>
+<HR size=4></P>
+
+<H2>Glint Measurements at Sea</H2>
+
+<P><a href="gifs/flip2.jpg"><IMG SRC="gifs/flip.jpg" align=left HSPACE=10 HEIGHT=80 WIDTH=100 border=3></a>We tested two prototype
+laser-glint instruments for three weeks in September 1995 on the <A HREF="http://www-sio.ucsd.edu/">Scripps
+Institution of Oceanography</A>'s FLoating Instrument Platform <A HREF="http://sio.ucsd.edu/supp_groups/shipsked/FLIP/FLIP.html">(FLIP)</A>.
+<a href="gifs/flip4.jpg"><IMG SRC="gifs/flip3.jpg" HSPACE=20 HEIGHT=100 WIDTH=70 ALIGN=RIGHT border=3></a>The FLIP&nbsp;was moored approximately 20 km west of Tillamook, Oregon
+during this time, as part of the Coastal Ocean Probing Experiment (COPE).
+Laser-glint data were collected along with long-wave height, wind speed,
+air-sea temperature differences, and other meteorological and oceanographic
+parameters. </P>
+
+<P>In this
+photo, the laser-glint instrument package is the black box suspended from
+the boom on the starboard side of the FLIP. For details, see the instrument
+page or the data page.</P>
+
+<P><B>For more information</B>, please e-mail Joseph Shaw: <A HREF="mailto:jshaw@etl.noaa.gov">jshaw@etl.noaa.gov
+</A></P>
+
+<P>
+<HR size=4></P>
+
+<H2>Glint Measurements on Russian Research Vessels</H2>
+
+<P><FONT FACE="arial">Similar scanning-laser glint methods have been tested
+using shipborne lidars on these Russian oceanographic vessels:</FONT></P>
+
+<center><P><a href="gifs/ship1.jpg"><IMG SRC="gifs/ship1_120.gif" BORDER=3 ></a>
+
+<a href="gifs/ship2.jpg"><IMG SRC="gifs/ship2_120.gif" BORDER=3 ></a>
+</FONT></P></center>
+
+<P><FONT FACE="arial"><B>R/V Akademik Boris Konstantinov</B> (left) and
+<B>R/V Akademik Nikolai Anreeev</B> (right) are twin vessels of about
+10,000 T displacement, designed for large-scale ocean exploration. They
+carry equipment for geophysical, acoustical, optical, hydrological, marine
+geological and biological investigations. The R/V 'ABK' carries mainly
+acoustic transmitting equipment for generating sound waves between several
+hertz and several hundred kilohertz, while the R/V 'ANA' has different
+receiving arrays. Both vessels have 'bathyposts' to lower stabilized acoustic
+platforms and hydrological systems. The 'ABK' carries a <B>stabilized laser
+scanning system</B> for ocean surface investigations. Both ships can reach
+15 kt.</FONT></P>
+
+<P><FONT FACE="arial"> For further information, contact Prof. Konstantin
+Naugolnykh at <A HREF="mailto: knaugolnykh@etl.noaa.gov">knaugolnykh@etl.noaa.gov</A>
+</FONT></P>
+
+
+<HR size=4><CENTER><A HREF="/index.html">Ocean Remote Sensing
+Home Page</A> | <A HREF="http://www.etl.noaa.gov">ETL Home Page</A></CENTER>
+<HR size=4>
+
+<SCRIPT>
+document.write ("Last updated on " + document.lastModified)
+</SCRIPT>
+
+</BLOCKQUOTE>
+
+</BODY>
+</HTML>
+</DOC>

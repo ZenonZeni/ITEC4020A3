@@ -1,0 +1,906 @@
+
+<DOC>
+<DOCNO>WT02-B11-136</DOCNO>
+<DOCOLDNO>IA087-000625-B033-150</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0125.html 130.91.195.242 19970122042232 text/html 40444
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:22:27 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 40272
+Last-modified: Mon, 06 Nov 1995 01:10:36 GMT
+</DOCHDR>
+<!-- received="Sun Nov  5 18:06:37 1995 EST" -->
+<!-- sent="Sun, 5 Nov 1995 17:58:14 -0500" -->
+<!-- name="Dave Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="cybercash" -->
+<!-- id="199511052258.RAA05297@linc.cis.upenn.edu" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: cybercash</title>
+<h1>cybercash</h1>
+Dave Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Sun, 5 Nov 1995 17:58:14 -0500</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#125">[ date ]</a><a href="thread.html#125">[ thread ]</a><a href="subject.html#125">[ subject ]</a><a href="author.html#125">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0126.html">Dave Farber: "The DP presents: Joan Feigenbaum"</a>
+<li> <b>Previous message:</b> <a href="0124.html">Dave Farber: "Public Reviews of CheckFree Wallet system?"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+  CHECKFREE WALLET WITH CYBERCASH<br>
+README.TXT<br>
+<p>
+<p>
+Introduction ***************************************************<br>
+<p>
+Thank you for using CheckFree Wallet with CyberCash, the secure <br>
+online payment method for electronic commerce. CheckFree Wallet <br>
+offers the most secure, easy, and convenient way to purchase <br>
+products and services over the Internet.<br>
+<p>
+CheckFree Wallet is offered by Checkfree Corporation, the <br>
+nation's leader in electronic commerce solutions, in conjunction <br>
+with CyberCash, a leader in secure Internet payment systems. <br>
+CheckFree Wallet makes shopping on the World Wide Web (Web) as <br>
+easy as shopping in your local mall, but free of traffic and <br>
+parking hassles!<br>
+<p>
+Wallet benefits include:<br>
+<p>
+Simplicity . . . CheckFree Wallet is used the same way that <br>
+credit cards in your own wallet are used. You enter billing <br>
+address and credit card information, then use the information <br>
+each time you make a purchase on the Web.<br>
+ <br>
+Security . . . CheckFree Wallet uses proven RSA encryption for <br>
+safe, secure financial transactions. The encryption technology <br>
+used by CheckFree Wallet has been approved by the U.S. government <br>
+for export. Using CheckFree Wallet for remote payment is as <br>
+secure as using your Visa card at your favorite retailer.<br>
+ <br>
+Seamless Browser Integration . . . CheckFree Wallet's browser <br>
+software module is already bundled with several commercial <br>
+browser packages, and will be included in other popular browsers <br>
+in the near future. You can also download CheckFree Wallet and <br>
+use it with your current Internet browser.<br>
+<p>
+<p>
+Hardware/Software Requirements *********************************<br>
+<p>
+If you already use the Internet, you probably have all the <br>
+necessary tools to use CheckFree Wallet when you shop. Just <br>
+download the software and follow the instructions in the <br>
+try www.checkfree.com<br>
+<p>
+<p>
+Installation section of this file.<br>
+<p>
+If you are not already on the Internet, be sure your system meets <br>
+the following requirements:<br>
+<p>
+*   IBM compatible 80386 (25 MHz) computer <br>
+    (486 class or higher recommended)<br>
+<p>
+*   Windows 3.1 (or higher)<br>
+<p>
+*   Modem (14.4k baud or faster recommended)<br>
+<p>
+*   2 MB free hard disk space<br>
+<p>
+*   4 MB RAM<br>
+<p>
+*   TCP/IP communications stack (Winsock 1.1 compliant).<br>
+    Many commercial and shareware TCP/IP stacks are available.<br>
+<p>
+*   Web browser software (Winsock 1.1 compliant). <br>
+    Many commercial and shareware browsers are available.<br>
+<p>
+*   Access to the Web through a local or national service <br>
+    provider.<br>
+<p>
+For Mac users, CheckFree plans to release a version of CheckFree <br>
+Wallet for the Macintosh that will run on System 7.01 or above. <br>
+The Mac software will also require 2 MB hard disk, 4 MB RAM, <br>
+modem, and Internet browser software.<br>
+<p>
+<p>
+How to Get Help ************************************************<br>
+<p>
+In most cases, financial transactions with CheckFree Wallet are <br>
+easy and trouble-free. If, however, you should need to contact <br>
+CheckFree with a question or problem, a qualified CheckFree <br>
+Customer Care Representative can be reached through:<br>
+<p>
+*   E-mail at wallethelp@checkfree.com<br>
+<p>
+*   Web site at <a href="http://www.checkfree.com">http://www.checkfree.com</a><br>
+<p>
+If you need help as you are configuring CheckFree Wallet, online <br>
+help is available by clicking the Help button at the bottom of <br>
+most dialog boxes. We are aware that early releases of a software <br>
+program may be confusing or may not operate as expected. If you <br>
+have any problems or comments, we would like to hear from you.<br>
+<p>
+<p>
+Installation ***************************************************<br>
+<p>
+CheckFree Wallet software is provided free of charge. You can <br>
+download CheckFree Wallet software and/or software updates from <br>
+the CheckFree home page (<a href="http://www.checkfree.com">http://www.checkfree.com</a>) or from many <br>
+merchant home pages while you shop.<br>
+<p>
+When you download and run the WINCYBER.EXE self-extracting <br>
+archive routine, six files are copied to your computer. These <br>
+files are used by the setup application during the installation <br>
+of CheckFree Wallet.<br>
+<p>
+If you receive CheckFree Wallet on a diskette rather than by <br>
+downloading, you will not have a self-extracting archive routine. <br>
+Instead, all of the files necessary for installation have already <br>
+been extracted and are ready for use on the diskette.<br>
+<p>
+<p>
+Follow these instructions to install CheckFree Wallet:<br>
+<p>
+Before You Install<br>
+<p>
+1.  Back-up your CheckFree Wallet software<br>
+<p>
+2.  If you are upgrading existing Wallet software, back-up your <br>
+    data files<br>
+<p>
+3.  Be sure you have at least 2 MB hard disk space free<br>
+<p>
+4.  Turn off any virus protection programs, they may interfere <br>
+    with the installation<br>
+ <br>
+5.  Quit any open applications<br>
+<p>
+6.  If you receive CheckFree Wallet on a diskette, proceed <br>
+    directly to step 10 in the next section, Installing CheckFree <br>
+    Wallet. If you downloaded CheckFree Wallet, continue with <br>
+    steps 7 - 9 below.<br>
+<p>
+7.  Create a temporary directory:<br>
+<p>
+       MKDIR C:\TEMP<br>
+<p>
+    This README file will use C:\TEMP as an example<br>
+<p>
+8.  Copy the self-extracting archive, WINCYBER.EXE, to the <br>
+    temporary directory<br>
+<p>
+9.  Run WINCYBER.EXE to extract the installation files to your <br>
+    computer <br>
+<p>
+Users who are installing CheckFree Wallet as an upgrade or in <br>
+place of other Wallet applications (CompuServe Wallet with <br>
+CheckFree or CyberCash Wallet) will need to make a small <br>
+modification to the .INI file(s) of their Web browser(s). All of <br>
+these Wallet applications share a common entry in browser .INI <br>
+files. Before running the SETUP application, delete all lines <br>
+that contain "CYBER" from the browser .INI file(s). This deletion <br>
+will enable the SETUP application to make the modifications <br>
+necessary to run CheckFree Wallet.<br>
+<p>
+<p>
+Installing CheckFree Wallet<br>
+<p>
+10. Return to Windows (or launch Windows) and type one of the <br>
+    following commands in the Windows File/Run dialog box:<br>
+<p>
+    If you received CheckFree Wallet on a diskette, type<br>
+<p>
+       A:\SETUP<br>
+<p>
+       where A:\ is the name of the drive where you have placed<br>
+       the CheckFree Wallet diskette.<br>
+<p>
+    OR<br>
+<p>
+    If you downloaded CheckFree Wallet, type<br>
+<p>
+       C:\TEMP\SETUP<br>
+<p>
+       where C:\TEMP is the name of the directory where you have <br>
+       extracted the CheckFree Wallet files.<br>
+<p>
+    This launches a typical Windows setup routine that installs <br>
+    CheckFree Wallet and links it to your Web browser. The setup <br>
+    routine presents a dialog box asking for the directory where <br>
+    CheckFree Wallet will be installed. This directory is <br>
+    different than the temporary directory used to download and <br>
+    extract the files.<br>
+<p>
+11. Click OK to accept the default directory (CFWALLET), where <br>
+    CheckFree Wallet files will be installed, or type a different <br>
+    directory name. If the specified directory does not exist, it <br>
+    will be created at this time. <br>
+<p>
+    CheckFree Wallet automatically searches your computer for any <br>
+    installed Web browsers and asks if these browsers should be <br>
+    linked to CheckFree Wallet. A dialog box is displayed asking <br>
+    to link CheckFree Wallet to browsers.<br>
+<p>
+12. Click Yes to automatically modify the browser .INI file(s). <br>
+    This allows the browser(s) to recognize CheckFree Wallet. If <br>
+    more than one browser is installed on your computer, you must <br>
+    respond Yes or No to the prompt for each browser. <br>
+<p>
+    Additional Web browsers may be linked to CheckFree Wallet at <br>
+    a later time. Simply use the Web Browser function located in <br>
+    the Miscellaneous area of the Wallet Administration menu to <br>
+    link other browsers. Details are given in a later section of <br>
+    this file.<br>
+<p>
+When CheckFree Wallet is installed, a new program group called <br>
+CheckFree Wallet is created. This contains an icon for CheckFree <br>
+Wallet program and a Notepad icon for this README file. <br>
+<p>
+A dialog box appears telling you that a wallet persona containing <br>
+your credit card information must be created before you can use <br>
+CheckFree Wallet to make purchases.<br>
+<p>
+<p>
+Creating a New Persona *****************************************<br>
+<p>
+Before you can use CheckFree Wallet, you must enter critical <br>
+information such as a unique Wallet ID, a password, and other <br>
+information specific to online security. This information (called <br>
+a persona) identifies you as the legitimate bearer of the credit <br>
+information, and is stored on your computer using an RSA <br>
+public/private key encryption method. Your persona is entered in <br>
+the system only once.<br>
+<p>
+A persona can be thought of as an individual wallet. Using <br>
+personas, you have the ability to create multiple wallets on one <br>
+computer. You can create one persona for yourself and others for <br>
+a spouse, friend, child, etc.<br>
+<p>
+When you enter your credit card information it is linked to your <br>
+persona. This information is securely encrypted and transmitted <br>
+to CheckFree for confirmation with the bank that issued the card.<br>
+<p>
+To enter a persona:<br>
+<p>
+13. At the New Persona dialog box, click New to enter your wallet <br>
+    persona. If you do not wish to enter your persona at this <br>
+    time, you can access CheckFree Wallet Administration dialog <br>
+    box later by double-clicking the CheckFree Wallet icon on <br>
+    your desktop.<br>
+<p>
+    When you click New, your Web browser initiates a <br>
+    communications test and attempts to communicate with the <br>
+    CheckFree server on the Internet. In order for this <br>
+    communications test to occur, you must be online and have an <br>
+    active connection to your Internet service provider.<br>
+<p>
+14. When communications are successful, a Wallet software <br>
+    licensing screen appears. Please read and understand the <br>
+    license agreement before clicking "I Agree" to continue. If <br>
+    you do not wish to agree to the licensing terms, click "I Do <br>
+    Not Agree" to exit the installation routine.<br>
+<p>
+15. At the CheckFree Wallet Persona Information dialog box, enter <br>
+    an ID that will be used with your Wallet. This ID must be at <br>
+    least 6 characters long (example: John Doe).<br>
+<p>
+16. Enter your Internet e-mail address.<br>
+<p>
+17. Select the language you wish to use with CheckFree Wallet. <br>
+    English is the only selection available at this time.<br>
+<p>
+18. Click OK to continue to the Password dialog box. <br>
+<p>
+19. Enter a password in the first field, then press Tab and enter <br>
+    the same password (for confirmation) in the next field. <br>
+    CheckFree Wallet automatically generates unique security keys <br>
+    that will ensure that your wallet persona information is <br>
+    completely secure. When your security keys are generated, a <br>
+    dialog box appears prompting you to store copies of these <br>
+    keys. For security purposes, you should store the copies on <br>
+    floppy diskettes rather than your hard drive.<br>
+<p>
+20. Identify the disk location for security key storage, and <br>
+    click OK. When the keys have been backed up to the selected <br>
+    location, remove the floppy diskette and store the copy in a <br>
+    safe place.<br>
+<p>
+The Link Credit Card dialog box appears, and you are now ready to <br>
+enter credit card information. Press the Tab key or use the mouse <br>
+to move from field to field. The Link screen contains all the <br>
+information needed for you to pay for purchases with a credit <br>
+card using CheckFree Wallet. Be sure to complete each field <br>
+correctly.<br>
+<p>
+As you fill out this screen, online help is available by clicking <br>
+the Help button at the bottom of the screen.<br>
+<p>
+<p>
+In the Credit Card section:<br>
+<p>
+21. Enter your credit card number. A graphic representing the <br>
+    credit card type (Visa, MasterCard, etc.) appears based on <br>
+    the first four digits of the credit card number, and its name <br>
+    is selected in the pull-down menu box beside the card number. <br>
+    If this card type is incorrect, you can select the correct <br>
+    type using the pull down menu.<br>
+<p>
+22. Enter your Customer Identification Number if the credit card <br>
+    is American Express.<br>
+<p>
+23. Enter the Expiration Date and Card Description (such as <br>
+    "John's Business Visa") in the appropriate boxes. The <br>
+    description provides a way to attach unique names to your <br>
+    credit cards. This is especially useful when you are using <br>
+    multiple cards of the same type.<br>
+<p>
+<p>
+In the Billing Address section:<br>
+<p>
+24. Enter your street address, city, state, and zip code. This <br>
+    information must be entered exactly as it appears on your <br>
+    credit card billing statement.<br>
+<p>
+25. For international use, enter your country code. Click the <br>
+    Help button for online help if you do not know the country <br>
+    code. This field defaults to the United States and is <br>
+    optional for purchases made within the United States.<br>
+<p>
+26. Enter your area code and telephone number.<br>
+<p>
+27. Click OK if the information is correct. Click Cancel if you <br>
+    do not want to enter the persona information at this time. If <br>
+    you click Cancel, any information entered in the fields will <br>
+    not be saved.<br>
+<p>
+When you click OK, the new persona is encrypted and sent to <br>
+CheckFree for confirmation. You are now ready to use CheckFree <br>
+Wallet. Additional credit cards can be added at a later date <br>
+using the CheckFree Wallet Administration menu. Please read the <br>
+section at the end of this file for more information on the <br>
+administration features available through this dialog box.<br>
+<p>
+<p>
+Using CheckFree Wallet *****************************************<br>
+<p>
+Shopping online with CheckFree Wallet is as simple as shopping in <br>
+a local store or placing catalog orders using your telephone. In <br>
+fact, shopping remotely on the Internet is more convenient <br>
+because you can:<br>
+<p>
+*   Read detailed product descriptions<br>
+*   View full-color screen graphics of the items <br>
+*   Check inventory before you purchase<br>
+*   View multimedia product demonstrations<br>
+*   Read additional product information such as warranties and <br>
+    shipping terms<br>
+<p>
+To purchase goods and services with CheckFree Wallet:<br>
+<p>
+1.  Log onto the Internet and access the Merchant's Web site <br>
+    where you wish to shop. A list of merchants that accept <br>
+    Wallet transactions can be found at the end of this section.<br>
+<p>
+2.  Browse the merchant's pages of product information (all <br>
+    linked for easy navigation) and place items selected for <br>
+    purchase in your "virtual shopping basket." The shopping <br>
+    basket is a running list that tracks the items you mark for <br>
+    purchase. Items in the basket are tallied by unit price, <br>
+    quantity and total purchase price including applicable sales <br>
+    tax and shipping and handling charges so you know exactly how <br>
+    much you are spending. (NOTE: The shopping metaphor used by <br>
+    each merchant, such as the virtual shopping basket, and the <br>
+    information presented may differ from merchant to merchant.)<br>
+ <br>
+3.  When you have finished shopping, click the Purchase button on <br>
+    the bottom of the Shopping Basket page to pay using CheckFree <br>
+    Wallet. (NOTE: Buttons and wording on shopping pages may <br>
+    differ from merchant to merchant. Click the button that best <br>
+    describes what you want to do.) <br>
+<p>
+    When you select Purchase, the browser shows the types of <br>
+    payment methods that are accepted by the merchant, and <br>
+    displays an order summary page. You may also have to complete <br>
+    fields in other dialog boxes such as shipping information.<br>
+ <br>
+    During the purchase process, your CheckFree Wallet will <br>
+    automatically be activated and appear on your screen.<br>
+<p>
+4.  Enter your CheckFree Wallet password. When the password is <br>
+    entered correctly, CheckFree Wallet accesses the encrypted <br>
+    account information stored on your computer and displays a <br>
+    Request For Payment page with a list of accepted credit cards <br>
+    that are configured in your CheckFree Wallet. (NOTE: If the <br>
+    Merchant does not accept a card that you have in your Wallet, <br>
+    that card is disabled and is not available for use.) <br>
+ <br>
+5.  Select the credit card you wish to from the cards available <br>
+    in the list. When you click on the credit card name, the <br>
+    account information you loaded previously is encrypted and <br>
+    passed to the Merchant. <br>
+<p>
+<i>&gt;From this point, the Merchant completes the purchase transaction. </i><br>
+The payment request is sent to CheckFree for authorization and <br>
+funds transfer (settlement). Like credit card purchases made in a <br>
+traditional store, an authorization response is returned <br>
+immediately to the merchant who then begins the process to ship <br>
+the goods you purchased. A final dialog box appears on your Web <br>
+browser indicating successful credit card payment and giving a <br>
+purchase and payment summary.<br>
+<p>
+<p>
+A Sample Shopping Adventure ************************************<br>
+<p>
+Lets look at a sample shopping adventure at WebThreads, a <br>
+fictitious merchant on the Web.<br>
+<p>
+1.  Chris wants some new clothes and is anxious to shop on the <br>
+    Internet at WebThreads.<br>
+ <br>
+2.  WebThreads' home page is filled with a variety of eye-<br>
+    catching graphics that present basic information such as <br>
+    payment methods accepted, contact information, and hyperlinks <br>
+    to specific shopping pages. Chris clicks on the Special Sales <br>
+    and Offers message to browse the shopping pages. This page <br>
+    lists and briefly describes the sweater styles that are on <br>
+    sale. A photograph of each style gives Chris a good idea of <br>
+    what each style actually looks like.<br>
+ <br>
+3.  Chris likes the Wool Cable sweater, and clicks on it to <br>
+    display another page with specific information pertaining <br>
+    only to this sweater. On this page, Chris sees a larger, more <br>
+    detailed photograph of the sweater with a detailed <br>
+    description and ordering information. Also on this page are <br>
+    links to the Shopping Basket, and additional shopping pages. <br>
+ <br>
+4.  The blue sweater looks perfect, but the red one may be nice <br>
+    too. Chris clicks on Red in the color list to view the <br>
+    sweater in red. Too bright! The blue one is best after all. <br>
+ <br>
+5.  Next Chris completes the Quantity field, then clicks the Add <br>
+    to Shopping Basket button to add the item to the list of <br>
+    items to purchase. The Shopping Basket page is automatically <br>
+    displayed showing all of the items selected so far including <br>
+    unit cost, quantity, and basket totals. (Chris could have <br>
+    clicked the Continue Shopping at WebThreads button without <br>
+    adding the sweater to the list if desired.)<br>
+ <br>
+6.  Chris is done shopping for now and clicks the Purchase Items <br>
+    in Your Basket button to make the purchase. Chris completes <br>
+    the fields of the Shipping Address dialog box, then the <br>
+    payment page appears displaying the CheckFree Wallet password <br>
+    dialog box. <br>
+ <br>
+7.  Chris enters a password that gives access to CheckFree <br>
+    Wallet. In Chris' Wallet, the American Express is disabled <br>
+    because WebThreads does not accept that form of payment. <br>
+    (Good thing Chris didn't need to leave home!)<br>
+ <br>
+8.  Chris selects Visa. All of the account information is <br>
+    encrypted and passed to WebThreads for processing and order <br>
+    fulfillment. A final dialog box appears indicating successful <br>
+    credit card payment and gives a purchase and payment summary. <br>
+    Chris has purchased the sweater.<br>
+ <br>
+<p>
+Wallet Merchants ***********************************************<br>
+<p>
+You can use CheckFree Wallet with CyberCash at many stores on the <br>
+Internet, and more merchants are offering payment using CheckFree <br>
+Wallet daily. A complete list of Wallet merchants is available on <br>
+the CheckFree home page (<a href="http://www.checkfree.com">http://www.checkfree.com</a>).<br>
+<p>
+<p>
+Additional Features Available from <br>
+CheckFree Wallet Administration Menu ***************************<br>
+<p>
+In addition to adding your personal address and credit card <br>
+information, the CheckFree Wallet Administration menu gives <br>
+access to the following features:<br>
+<p>
+<p>
+Persona<br>
+<p>
+Personal Information . . . Click this button to display a dialog <br>
+box summarizing your current Wallet ID, Internet address, and <br>
+selected language. You can modify and/or delete a Wallet Persona <br>
+using this feature.<br>
+ <br>
+Credit Cards . . . Click this button to display a list of credit <br>
+cards currently configured in CheckFree Wallet. You can add new <br>
+credit cards to the list by clicking the Add Card button and <br>
+completing the Link New Credit Card screen. You can also change <br>
+or delete credit card data. <br>
+ <br>
+Change Password . . . Click this button to change your password. <br>
+Complete the Old Password, New Password, and Confirm Password <br>
+fields. Click OK to enable the new password.<br>
+ <br>
+Transaction Log . . . Click this button to view a summary of <br>
+transactions and communications made with CheckFree Wallet. <br>
+Specific details for each transaction listed in the summary are <br>
+available by clicking the Detail button.<br>
+<p>
+<p>
+Miscellaneous<br>
+<p>
+Software Options . . . Click this button to view and/or modify <br>
+communication settings including seconds before time out, number <br>
+of retries to connect, and proxy information.<br>
+ <br>
+Backup Data to Diskette . . . Click this button and select backup <br>
+file destinations for your persona, security keys, and other data <br>
+files such as credit cards.<br>
+ <br>
+Restore Data From Diskette . . . Click this button to restore <br>
+backed-up data from the storage location you specified in the <br>
+backup procedure.<br>
+<p>
+Web Browsers . . . Click this button to initiate a search for Web <br>
+browsers that have been installed since CheckFree Wallet was <br>
+installed. This lets you link CheckFree Wallet to any new <br>
+browsers.<br>
+ <br>
+Exit to Main Menu . . . Click this button to exit from the <br>
+Administration Menu and return to the Main Menu.<br>
+<p>
+<p>
+Troubleshooting ************************************************<br>
+<p>
+Although shopping with CheckFree Wallet is generally problem- and <br>
+error-free, this section is included to help you resolve errors <br>
+and answer commonly asked questions. Please check this section <br>
+before contacting a CheckFree Customer Care Representative.<br>
+<p>
+Frequently Asked Questions and Answers<br>
+<p>
+Q.  What are the benefits of CheckFree Wallet?<br>
+<p>
+A.  CheckFree Wallet has an easy to use interface that allows <br>
+    shoppers to complete secure credit card transactions over the <br>
+    World Wide Web. Consumers can download CheckFree Wallet for <br>
+    FREE and start shopping in a matter of minutes. CheckFree <br>
+    Wallet does not have complicated registration requirements <br>
+    and consumers pay no fees or service charges for using it.<br>
+<p>
+<p>
+Q.  How much does it cost to use CheckFree Wallet?<br>
+<p>
+A.  As a conusmer, there is no cost to you for the CheckFree <br>
+    Wallet software and CheckFree does not impose any additional <br>
+    fees for using CheckFree Wallet to make purchases with your <br>
+    credit cards. Fees for the CheckFree Wallet credit card <br>
+    service are paid by merchants as part of their standard <br>
+    credit card transaction costs.<br>
+<p>
+<p>
+Q.  What's the difference between CheckFree Wallet with <br>
+    CyberCash, CompuServe Wallet with CheckFree, and CyberCash <br>
+    Wallet?<br>
+<p>
+A.  To the consumer, there is no difference. All of these Wallets <br>
+    are completely compatible and can be used for payment at any <br>
+    merchant that accepts a Wallet. As CheckFree technology is <br>
+    incorporated into other Internet applications you may see <br>
+    more co-branded wallets. Don't worry, your CheckFree Wallet <br>
+    will always be accepted by on-line merchants!<br>
+<p>
+<p>
+Q.  Is CheckFree Wallet secure?<br>
+<p>
+A.  Yes, CheckFree Wallet is extremely secure. All of your <br>
+    sensitive credit card information is protected by secure <br>
+    encryption technology licensed from RSA Data Security, Inc. <br>
+    Your credit card information is protected by a 768-bit, dual-<br>
+    key encryption system. The information is encrypted both on <br>
+    your computer and during transmission.<br>
+<p>
+<p>
+Q.  Can "hackers" on the Internet get and use my credit card <br>
+    number?<br>
+<p>
+A.  No. Your credit card information resides only on your <br>
+    computer and all data is encrypted both on your computer and <br>
+    before it is transmitted on the Internet.<br>
+<p>
+<p>
+Q.  I already use a secure web browser, why do I need <br>
+    CheckFree Wallet?<br>
+<p>
+A.  First, CheckFree Wallet is completely compatible with all of <br>
+    the secure web browsers and servers currently on the market. <br>
+    Since CheckFree Wallet only encrypts financial information, <br>
+    it can use the strongest available encryption technology and <br>
+    still be exportable. CheckFree Wallet is a more secure and <br>
+    convenient method of Internet commerce for both consumers and <br>
+    merchants.<br>
+<p>
+<p>
+Q.  What merchants use CheckFree Wallet? How can I find out who <br>
+    uses CheckFree Wallet?<br>
+<p>
+A.  More and more merchants are using CheckFree Wallet because <br>
+    their customers appreciate the ease and security of commerce <br>
+    on the Internet. A complete list of Wallet-associated <br>
+    merchants can be obtained on the CheckFree Web site <br>
+    (<a href="http://www.checkfree.com">http://www.checkfree.com</a>).<br>
+<p>
+<p>
+Q.  I shop at local stores and through printed catalogs, why do I <br>
+    need to shop on-line?<br>
+<p>
+A.  Think of the World Wide Web as the world's largest store, <br>
+    open 24 hours a day, 365 days a year. You have the ability to <br>
+    shop at your convenience and can visit as many or as few <br>
+    places as you like. Stores and merchandise, unavailable <br>
+    locally, are readily available on the Internet. You don't <br>
+    have to fill out lengthy order forms and you never have to <br>
+    wait on the phone for the next available operator.<br>
+<p>
+<p>
+Q.  What if I want to return a purchase or am not satisfied with <br>
+    the merchandise I purchase online?<br>
+<p>
+A.  Your online purchases are identical to those made at a local <br>
+    store or over the telephone. Return policies are established <br>
+    by the merchant and are not changed by the method of payment. <br>
+    All returns and problems should be handled directly through <br>
+    the merchant. Also, when a purchase is made with a credit <br>
+    card there may be extended solutions available to consumers.<br>
+<p>
+<p>
+Q.  What is a persona and why is it used in a payment?<br>
+<p>
+A.  The persona is a representation of the consumer when payments <br>
+    are made on the Internet. The persona name can be your name <br>
+    or other highly identifying group of characters (e.g. <br>
+    JeffSmith, BigBadWolf, etc.) Using a persona, consumers are <br>
+    given a high degree of privacy in payment transactions. This <br>
+    privacy is balanced by the merchant's need for authentication <br>
+    and anti-tampering in a payment service.<br>
+<p>
+<p>
+Q.  What is credit card linking?<br>
+<p>
+A.  When you prepare CheckFree Wallet software for use, you must <br>
+    associate information from the credit cards you intend to use <br>
+    when you shop. Information such as the credit card number, <br>
+    expiration date, name, and address is encrypted and stored on <br>
+    your computer until you are ready to make a purchase and <br>
+    transmit the payment information to the merchant. <br>
+<p>
+<p>
+Q.  Does CheckFree or the online merchant keep track of my credit <br>
+    card numbers?<br>
+<p>
+A.  Absolutely not! Your credit card information is encrypted and <br>
+    stored only on your computer. Every time you make a purchase, <br>
+    the information is encrypted and transmitted through the <br>
+    merchant to CheckFree. This information is used only for <br>
+    authorization and settlement of the credit card transaction <br>
+    and is not stored for any future use. Unlike other Internet <br>
+    commerce systems that keep your credit card information in a <br>
+    database, CheckFree Wallet links all sensitive information to <br>
+    your persona. You are the only one who stores that <br>
+    information.<br>
+<p>
+<p>
+Q.  How does the payment process work?<br>
+<p>
+A.  To the consumer it's not important to completely understand <br>
+    the payment process. But, since you are paying with a credit <br>
+    card the process is similar to that which occurs when you <br>
+    shop at a local store or over the telephone. <br>
+<p>
+    At your request, encrypted payment instructions are sent to <br>
+    the merchant. The merchant adds their version of the payment <br>
+    instructions to the still-encrypted information and digitally <br>
+    "signs" the packet of information. CheckFree receives the <br>
+    encrypted information and decrypts everything. To guard <br>
+    against fraud, CheckFree compares the consumer's version of <br>
+    the payment instructions to merchant's version. If everything <br>
+    matches, an authorization request is sent to the appropriate <br>
+    credit card network. CheckFree receives an authorization or <br>
+    decline code from the credit card network and forwards this <br>
+    response to the merchant. After authorization, the <br>
+    appropriate funds are debited from the consumer's credit card <br>
+    account and credited to the merchant's account.<br>
+<p>
+<p>
+Q.  Can I use CheckFree Wallet on other platforms?<br>
+<p>
+A.  Currently CheckFree Wallet is available only for Microsoft <br>
+    Windows 3.1. The software has been successfully used on OS/2, <br>
+    Windows 95, and Windows NT machines but no support is <br>
+    currently being provided for these platforms. Future releases <br>
+    of CheckFree Wallet will be available for other platforms <br>
+    including the Macintosh OS.<br>
+<p>
+<p>
+Q.  Is CheckFree Wallet based on an open standard?<br>
+<p>
+A.  Yes, CheckFree Wallet is based on an open standard. This <br>
+    means that other companies can add features or services based <br>
+    upon CheckFree Wallet technology and that the technology will <br>
+    be adopted and used by a wide range of merchants. The <br>
+    protocol behind this open standard is described in the<br>
+    Internet draft CyberCash Credit Card Protocol dated 7/8/95 <br>
+    (<a href="ftp://ds.internic.net/internet-drafts/draft-eastlake-">ftp://ds.internic.net/internet-drafts/draft-eastlake-</a><br>
+    cybercash-v08.txt.)<br>
+<p>
+<p>
+Q.  Is CheckFree Wallet exportable?<br>
+<p>
+A.  Yes, CheckFree Wallet -- including the secure encryption <br>
+    system -- has been approved for export by the US government. <br>
+    The US government limits export of encryption technology to <br>
+    small keys only for bulk encryption applications. In bulk <br>
+    encryption, the system encrypts all information that is <br>
+    passed between two computer systems. Since CheckFree Wallet <br>
+    encrypts only the credit card information, the US government <br>
+    allows export of the larger, 768-bit, key.<br>
+<p>
+<p>
+Q.  Which World Wide Web browsers have been tested for use with <br>
+    CheckFree Wallet?<br>
+<p>
+A.  The following Web browsers have been tested and validated for <br>
+    this version of CheckFree Wallet (other browsers not included <br>
+    in this list may also work):<br>
+<p>
+       FTP &amp; Spyglass Enhanced NCSA Mosaic Version 1.15.111.0<br>
+       FTP &amp; Spyglass Enhanced NCSA Mosaic Version 2.0<br>
+       Internet In A Box - Spry AirMosaic Version 03.0A.01.04<br>
+       InternetWorks Version 1.0.3<br>
+       Mosaic In A Box - Spry AirMosaic Version 04.00.08.08<br>
+       NCSA Mosaic Version 2.0.0b4<br>
+       Netscape Navigator Versions 1.1b3, 1.1, and 1.2<br>
+       O'Rielly And Associates Enhanced NCSA Mosaic Release 1<br>
+       QuarterDeck Mosaic Prerelease 4<br>
+<p>
+<p>
+Q.  Which TCP/IP communications stacks have been tested for use <br>
+    with CheckFree Wallet?<br>
+<p>
+A.  The following TCP/IP stacks have been tested and validated <br>
+    for this version of CheckFree Wallet (other TCP/IP stacks not <br>
+    included in this list may also work):<br>
+<p>
+       Microsoft Version 3.11<br>
+       Internet In A Box - Chameleon<br>
+       Chameleon<br>
+       NetManage - Chameleon<br>
+       Wallongong Version 2.0<br>
+       Trumpet Version 2.0b<br>
+       Distinct Version 3.3<br>
+       Super TCP Version 4.0<br>
+<p>
+<p>
+Q.  What are the future plans for CheckFree Wallet?<br>
+<p>
+A.  The future will see many features added to CheckFree Wallet. <br>
+    Current plans are for the addition of payment by personal <br>
+    check and "electronic cash" as well as credit card. Future <br>
+    releases of CheckFree Wallet will be available for other <br>
+    platforms including Macintosh OS. Every day brings more <br>
+    merchants using CheckFree Wallet as the method of payment at <br>
+    their on-line store. Keep watching for an ever-increasing <br>
+    list of CheckFree Wallet merchants.<br>
+<p>
+<p>
+Common Problems and Solutions **********************************<br>
+<p>
+Problem:    The browser did not download CheckFree Wallet <br>
+            software. <br>
+<p>
+Solution:   Check the browser/communication parameters and be <br>
+            sure the software is configured to download. This <br>
+            parameter is often found under the Preferences menu.<br>
+<p>
+<p>
+Problem:    CheckFree Wallet files are lost on my computer.<br>
+<p>
+Solution:   The browser may have downloaded the files to a <br>
+            default location that you are unaware of. Use <br>
+            Windows' "Find" command to locate the files. Search <br>
+            for the file name WINCYBER.EXE. Be sure to start the <br>
+            search from the root directory (C:\) and include all <br>
+            directories and subdirectories in the search. <br>
+<p>
+            If you have run the self-extracting archive routine <br>
+            (WINCYBER.EXE) and cannot find the extracted files, <br>
+            you can also use the Windows' "Find" command to <br>
+            locate the files. Search for the file name <br>
+            CFWALLET.*. Be sure to start the search from the root <br>
+            directory (C:\) and include all directories and <br>
+            subdirectories in the search.<br>
+<p>
+<p>
+Problem:    The download process began successfully but did not <br>
+            finish completely. <br>
+<p>
+Solution:   CheckFree Wallet software is approximately 600K in <br>
+            size and takes approximately 6 to 8 minutes to <br>
+            download using a 14.4 modem. Some modems work faster <br>
+            than others, and some browsers do not indicate when <br>
+            a download is in progress. Do not give up too soon <br>
+            or you might interrupt the download process.<br>
+<p>
+<p>
+Problem:    CheckFree Wallet software is not available for use <br>
+            when I am on the Web.<br>
+<p>
+Solution:   Be sure your Internet "complete package" has WINSOCK <br>
+            connection capabilities to the Internet. If a <br>
+            WINSOCK connection is not supported, you cannot use <br>
+            CheckFree Wallet at this time.<br>
+<p>
+<p>
+Problem:    CheckFree Wallet software is not available for use <br>
+            through my Web browser.<br>
+<p>
+Solution:   Most commercial and shareware Web browsers are <br>
+            supported by CheckFree Wallet. If you would like to <br>
+            try an unsupported browser, you may setup CheckFree <br>
+            Wallet as a viewer/helper application yourself. Each <br>
+            browser has a different method to do this, but the <br>
+            following information is essential:<br>
+<p>
+            File Type:      application<br>
+            Mime Type:      x-cybercash<br>
+            Suffix:         .cym<br>
+            Application:    cyber.exe<br>
+                            (This file is in the directory <br>
+                            specified during the setup process.)<br>
+<p>
+            NOTE: CheckFree Wallet will not work with Web <br>
+            browsers that contain their own TCP/IP stack. Support <br>
+            for these browsers may be included in future <br>
+            releases.<br>
+<p>
+<p>
+Problem:    I cannot get past the call for Proxy information to <br>
+            use CheckFree Wallet. <br>
+<p>
+Solution:   Some organizations set up a "firewall" to keep <br>
+            unauthorized users out of their systems. If you are <br>
+            facing a firewall, you must have an HTTP proxy for <br>
+            CheckFree Wallet to work. You can enter the proxy you <br>
+            are using through the Software Options selection from <br>
+            the CheckFree Wallet Administration dialog box. When <br>
+            the correct proxy information is entered and saved, <br>
+            you should have no further trouble getting past the <br>
+            firewall.<br>
+<p>
+<p>
+Online help may also be available by clicking the Help button on <br>
+the bottom of most CheckFree Wallet dialog boxes.<br>
+<p>
+<p>
+****************************************************************<br>
+<p>
+Copyright (c) 1995 Checkfree Corporation. All rights reserved. <br>
+CheckFree is a registered trademark of Checkfree Corporation. <br>
+CheckFree Wallet and CheckFree Wallet with CyberCash are service <br>
+marks of Checkfree Corporation. CyberCash is a registered <br>
+trademark of CyberCash, Inc. All other trademarks are the <br>
+properties of their respective owners.<br>
+<p>
+CheckFree Wallet with CyberCash<br>
+README.TXT File - 10/17/95<br>
+<p>
+****************************************************************<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0126.html">Dave Farber: "The DP presents: Joan Feigenbaum"</a>
+<li> <b>Previous message:</b> <a href="0124.html">Dave Farber: "Public Reviews of CheckFree Wallet system?"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

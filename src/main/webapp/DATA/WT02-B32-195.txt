@@ -1,0 +1,80 @@
+
+<DOC>
+<DOCNO>WT02-B32-195</DOCNO>
+<DOCOLDNO>IA095-001019-B037-287</DOCOLDNO>
+<DOCHDR>
+http://telnet.newsnet.com:80/nndemo.html 205.156.212.5 19970121212152 text/html 3005
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 21-Jan-97 21:20:04 GMT
+Last-modified: Thursday, 24-Oct-96 18:42:11 GMT
+Content-length: 2819
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//W30//DTD W3 HTML 2.0//EN">
+<HTML>
+<HEAD>
+<TITLE>FREE Demo</TITLE>
+</HEAD>
+<BODY bgcolor="#ffffff">
+<h2 align=center><img src="b_demo.gif" alt="Free Web Demo"></h2>
+The following demo offers you the opportunity to interact with the NewsNet
+database, including NewsNet's powerful electronic news clipping service,
+NewsFlash, in much the same way as a subscriber to the service.
+During this demo you will be able to:
+
+<UL>
+<LI>perform keyword searches on the NewsNet database of 1,000 business periodicals<P>
+<LI>browse through current news services and business periodicals<P>
+<LI>access late-breaking news from selected worldwide newswire feeds<P>
+<LI>sample the NewsFlash electronic clipping service, retrieving full-text articles on current topics<P>
+</UL>
+
+To gain access, please complete the following form. We may use the information
+you provide to contact you by phone or e-mail later.  After submitting the
+form, type <B>demo</B> in both the User Name and Password fields when prompted 
+unless a NewsNet
+representative has provided you with a different User Name and Password.<P>
+
+
+<hr>
+<FORM METHOD=POST ACTION="http:/home-cgi/demo.cgi">
+<input type=hidden name="TO" value="info@newsnet.com">
+<input type=hidden name="FROM" value="A_web_user">
+<input type=hidden name="SUBJECT" value="Free Web Demo">
+<PRE>
+Name:         <INPUT SIZE=50  TYPE="TEXT" NAME="01. NAME">
+Title:        <INPUT SIZE=50 TYPE="TEXT" NAME="02. TITLE">
+Company Name: <INPUT SIZE=50 TYPE="TEXT" NAME="03. COMPANY">
+Address:      <INPUT SIZE=50 TYPE="TEXT" NAME="04. ADDRESS">
+City:         <INPUT SIZE=10 TYPE="TEXT" NAME="05. CITY"> State/Prov: <INPUT SIZE=2 TYPE="TEXT" NAME="06. ST PROV"> Zip/Postal Code:<INPUT SIZE=10 TYPE="TEXT" NAME="07. ZIP POST">
+Country:      <INPUT SIZE=15 TYPE="TEXT" NAME="08. COUNTRY">
+Phone:        <INPUT SIZE=15 TYPE="TEXT" NAME="09. TEL"> Fax: <INPUT SIZE=15 TYPE="TEXT" NAME="10. FAX">
+E-mail:       <INPUT SIZE=30 TYPE="TEXT" NAME="11. EMAIL">
+How did you hear about our Web site?
+              <INPUT SIZE=50 TYPE="TEXT" NAME="12. SOURCE">
+</pre><p>
+<hr>
+
+<INPUT TYPE="submit" VALUE="Submit"> 
+<INPUT TYPE="reset" VALUE="Clear">
+</FORM>
+
+
+</blockquote>
+<hr noshade>
+<center><font size=3>
+<a href="nnabout.html">About NewsNet</a> &#183; 
+<a href="nntour.html">Tour of NewsNet</a> &#183; 
+<a href="nnic.html">NewsNet Information Sources</a><BR>
+<a href="nncase.html">Case Histories</a> &#183; 
+<a href="nndemo.html">FREE Web Demo</a> &#183; 
+<a href="telnet://newsnet.com">Telnet for NewsNet Subscribers</a><BR>
+<a href="nnlinks.html">NewsNet's Hot Links</a> &#183; 
+<a href="mailto:info@newsnet.com">Send E-Mail to NewsNet</a> &#183; 
+<a href="index.html">Return to Home Page</a><P>
+<B>&copy; 1996. NewsNet, Inc. All rights reserved.</B>
+</font></center><P><BR>
+</BODY>
+</HTML>
+</DOC>

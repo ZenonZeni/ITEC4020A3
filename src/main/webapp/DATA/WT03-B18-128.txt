@@ -1,0 +1,206 @@
+
+<DOC>
+<DOCNO>WT03-B18-128</DOCNO>
+<DOCOLDNO>IA018-000200-B032-180</DOCOLDNO>
+<DOCHDR>
+http://www.rwt.com:80/magart/archive/rt295.htm 199.227.153.245 19970106223210 text/html 13108
+HTTP/1.0 200 OK
+Date: Mon, 06 Jan 1997 22:37:46 GMT
+Server: Stronghold/1.3.2 Ben-SSL/1.3 Apache/1.1.1
+Content-type: text/html
+Content-length: 12907
+Last-modified: Sat, 30 Mar 1996 20:00:26 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>
+RWT: Magazine Articles: Robotics Today: 2nd Qtr. 1995</TITLE> 
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word 1.0Z">
+<META NAME="AUTHOR" CONTENT="John Lapham">
+<META NAME="OPERATOR" CONTENT="John Lapham">
+</HEAD> 
+<BODY BGCOLOR="FFFFFF">
+<H1 ALIGN="CENTER">
+<B>Microcomputer-Based Industrial Robot Simulator and Off-Line Programming
+System</B>
+</H1>
+<P ALIGN="CENTER">
+<B>Dr. John Owens</B>, Technical Director, <A HREF="http://www.rosl.com">Robot
+Simulations Ltd.</A> (Newcastle upon Tyne, England)
+</P>
+<TABLE WIDTH="600"><TR><TD COLSTART="1"><P><IMG
+ALIGN="LEFT" SRC="w.gif" ALT="W">orkspace (version 3.2), an industrial robot
+simulation software package, is a graphic simulation system and a means of
+off-line programming a robot cell. The software package will create and simulate
+robot programs in the native language of the robot. For example, users of Fanuc
+robots may write robot programs in Karel, and ABB robot users may write robot
+programs in ARLA. There is therefore no need for postprocessors to translate
+from a simulation language to the robot language: the full power of the robot
+language is available to the user through off-line programming.<BR>
+<IMG ALIGN="LEFT" SRC="rt295-1.gif" BORDER="1" VSPACE="10" HSPACE="10"><IMG
+ALIGN="BOTTOM" SRC="20space.gif">It is also possible to transfer existing robot
+programs from the robot controller back into Workspace for optimization, so
+off-line programming is a two-way process. This is facilitated by the use of
+portable microcomputers which may be taken onto the factory floor and used next
+to a robot workcell.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">The user first selects the target
+robot language required. To create a robot program, the user clicks the mouse on
+robot commands on a pull-down menu. These commands are immediately written to an
+ASCII text file. In this way, a robot program is created without the necessity
+of typing the command words, though the user may also use a built-in text editor
+if desired. As each command is written to the file, it is simulated graphically
+on the computer screen in color 3D graphics.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">Programs may be debugged by tracing
+through line by line, seeing at each line what is happening in the simulation.
+The value of variables may be watched or examined throughout. If an error occurs
+at any point, then the user will immediately be placed in the Workspace text
+editor at the position in the robot program where the error occurred, enabling
+the error to be promptly corrected.
+<BR> <IMG ALIGN="BOTTOM" SRC="20space.gif">The full structure of the robot
+languages is implemented, including typed variables, teachpoints, subroutines,
+looping, branching on condition, signals, and condition handler interrupts.
+<BR> <IMG ALIGN="BOTTOM" SRC="20space.gif">Several robots working in
+coordination, each under the control of a separate robot program, may be
+simulated to produce one animation (<I>Figure 1</I>). During the simulation of
+the robot program, any collisions that occur between any objects in the workcell
+may be automatically reported, and a clock indicates the time taken for the
+overall sequence of movements. The 3-D volume of the envelope may be plotted, or
+2-D slices through the envelope displayed on the screen.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">All the main industrial and
+educational robot languages are implemented, and a library of over 140 robot
+models is available to the user (though it is also possible for users to create
+their own robots).
+</P>
+</TD></TR><TR><TD COLSTART="1"><P><B>The 3D CAD System &amp; Kinematics
+Modeler</B><BR><IMG ALIGN="BOTTOM" SRC="20space.gif">3-D solid objects
+(including combinations created using Constructive Solid Geometry) or surfaces
+(including Bspline, Parametric, or Bezier surfaces) may be created using
+Workspace's own 3-D CAD system or imported from an external CAD system using the
+DXF file format (common among microcomputer-based CAD systems such as AutoCAD)
+or the IGES file format (common among graphics-workstation-based CAD systems
+such as CATIA). The use of an unlimited number of layers for storing different
+levels of detail makes it possible to turn off the display of objects irrelevant
+to the current task or display them in wireframe for speed.
+<BR> <IMG ALIGN="BOTTOM" SRC="20space.gif">The movement of any mechanism may
+be modeled using a kinematics modeler. The mechanism may have any number of
+joints in any serial or tree-structure combination. Conveyors, automatic guided
+vehicles, and other independently moving objects may also be modeled.
+</P></TD></TR><TR><TD COLSTART="1"><P><B>Defining Positions</B><BR>
+<IMG ALIGN="BOTTOM" SRC="20space.gif">Positions and paths for the robot tool to
+move to may be defined in several ways. A software emulation of a teach pendant
+is available to move the robot either by stepping individual joint angles or by
+stepping the XYZ Cartesian position of the tool relative to the robot world
+coordinate frame. Positions may be saved as teachpoints for use later in a robot
+program. These are displayed on the screen graphically as coordinate frames. If
+the robot is placed in a different position in the workcell, then the
+teachpoints will change color if they are no longer achievable due to the limits
+on the joints of the robot or due to the limited reach of the robot.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">Positions may also be defined by
+clicking the mouse at different positions on the computer screen (changing the
+view if necessary to define a 3-D position). Orientations may be defined in many
+different ways-for example, by dragging the approach vector of the teachpoint
+coordinate frame in a particular direction using the mouse.
+</P></TD></TR><TR><TD COLSTART="1"><P><B>Geometry Points</B><BR><IMG
+ALIGN="BOTTOM" SRC="20space.gif">The easiest, most powerful way of defining
+robot positions is to use the geometry of objects. Points may be defined along
+the seam between two surfaces in such a way that the position of the point on
+the seam, the distance of the point from the seam, the lean of the approach
+vector of the tool towards the seam, or the angle between the adjacent surfaces
+and the tool approach vector is set by the user. This is of use in applications
+such as arc welding.<BR> <IMG ALIGN="BOTTOM" SRC="20space.gif">Points may also
+be defined normal to a surface so that the position on the surface and the
+distance from the surface to the point is set by the user. As the point is moved
+over the surface, the point is always maintained normal to the surface. This is
+of use in applications such as spot welding, sealant dispensing, waterjet
+cutting, buffing, polishing, and surface finishing.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">Paths to follow a 2-D curve may be
+defined automatically. Straight line and segments of the curve are translated
+directly into linear and circular motions for the robot tool to follow. This is
+of use in applications such as waterjet cutting.
+</P></TD></TR><TR><TD COLSTART="1"><P><B>Calibration</B><BR><IMG
+ALIGN="BOTTOM" SRC="20space.gif">Calibration is an important issue in off-line
+programming and simulation, because the resulting robot program is only as
+accurate as the model of the workcell. Workspace supports three types of
+calibration.<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">Calibration of the robot
+tool involves finding the XYZ offset that must be added onto the kinematics of
+the robot to account for the tool attached to the end of the robot. This uses a
+procedure in which the robot and tool are moved repeatedly to a fixed location
+and the resulting teachpoints taken from the robot controller back into
+Workspace. A multivariable search technique is then used to calculate the tool
+offset. This procedure may need to be repeated if the tool is knocked out of
+alignment during use.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">A similar technique may be used to
+find the true zero position of the robot. This is necessary since the zero
+position of every joint of the robot is subject to drift during use. The
+resulting offsets are used to produce a more accurate robot model than the
+kinematics used on the robot controller itself.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">Finally, the true position of
+objects in the workcell may be measured using the robot as a measuring device,
+and the resulting teachpoints taken back into Workspace and either used to
+redefine vertices or else used to redefine known positions within the model.
+Workspace can integrate with a mechanical calibration system- called Robotrak -
+for measuring 3-D positions within the workcell independently of the robot.
+</P></TD></TR><TR><TD COLSTART="1"><P><B>Replaying Simulations in Real Time</B><BR><IMG
+ALIGN="BOTTOM" SRC="20space.gif">Simulations may be replayed within Workspace
+in real time, but recent advances in animation technology enable even more
+realistic playback. The simulations may be translated into the FLC file format
+used by Autodesk Animator and replayed using a utility at speeds up to 50
+frames/second. The resulting full-screen animations are very realistic, even on
+a medium-range 486 color notebook, that it is like looking through a window onto
+the factory floor. The utility for replaying FLC files will be bundled with the
+Workspace software.</P></TD></TR><TR><TD COLSTART="1"><P><B>Simulation of
+Dynamics</B><BR><IMG ALIGN="BOTTOM" SRC="20space.gif">It's possible to
+simulate the dynamics of a robot using Workspace for a defined sequence of
+movements. The equations relating the torques and accelerations at each joint
+and their interactions for a six-axis robot are modeled using numerical
+integration. Two type of controller equation may be used: classical and
+discrete-time control. The constant multipliers in the controller equations may
+be modified and the resulting effect on the trajectory examined. The effect of
+attaching a payload to the end of the robot may also be examined. However, until
+it is possible to obtain accurate estimates for the mass, inertia matrices,
+center of gravity, and controller constants at each joint, dynamics simulation
+is only of use in demonstrating general principles and obtaining qualitative,
+not quantitative, information.
+</P></TD></TR><TR><TD COLSTART="1"><P><B>The Future</B><BR><IMG
+ALIGN="BOTTOM" SRC="20space.gif">For many years, robot companies have not been
+cooperative in providing the information required to accurately simulate the
+paths generated by the robot controller when moving through via points. Without
+this information it is difficult for a simulation to provide precise
+cycle-times. Now, large automotive robot users, have fully committed themselves
+irrevocably to off-line programming, are beginning to make it a condition of
+future robot orders that this information is provided as a black box to the
+simulation companies.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">However, simulation and off-line
+programming will only become widely accepted if there is a change in attitude
+within the simulation companies, who at present seem unwilling to get involved
+on the factory floor. Simulation is often carried out on the other side of the
+factory, or in some cases on the other side of the country. The resulting
+programs are then taken down onto the factory floor  This is where the problems
+for the people on the factory floor begin. Reality is seldom the same as a
+simulation, and the robot programs usually require modification, but by this
+time the simulation is being used on the next project.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">This gap between the factory floor
+and the simulation is one that Workspace is designed to close by letting a
+portable microcomputer to be taken down to the factory floor and the simulation
+to be used next to the robot controller, and by letting robot programs to be
+shuffled backwards and forwards between the simulation and the robot controller
+as many times as required.</P></TD></TR>   
+
+</TABLE>
+<P>Reprinted with permission from Robotics International of the
+<A HREF="http://www.sme.org">Society of Manufacturing Engineers</A><IMG
+SRC="smelogo.gif" ALT="SME logo" ALIGN="MIDDLE"></P>
+<P><A HREF="http://www.rwt.com/magart/magart.htm"><IMG
+ALIGN="MIDDLE" SRC="back.gif" ALT="Back" VSPACE="10" HSPACE="10" BORDER="0"></A>Back
+to
+<A HREF="http://www.rwt.com/magart/magart.htm">Previous Page</A><BR><A
+HREF="http://www.rwt.com"><IMG
+ALIGN="MIDDLE" SRC="home.gif" ALT="Home" HSPACE="10" BORDER="0"></A>Back to
+<A HREF="http://www.rwt.com">RWT Home Page</A></P>
+<HR WIDTH="500" ALIGN="LEFT">
+<H6>Copyright &#169; 1996 Robotic Workspace Technologies, Inc. All rights
+reserved.<BR>For more information, contact RWT at
+<A HREF="mailto:info@rwt.com"><EM>info@rwt.com</EM></A><BR>Workspace is a
+registered trademark of Robot Simulations, Ltd.</H6></BODY></HTML>
+</DOC>

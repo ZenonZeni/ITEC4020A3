@@ -1,0 +1,82 @@
+
+<DOC>
+<DOCNO>WT03-B20-166</DOCNO>
+<DOCOLDNO>IA050-000857-B009-147</DOCOLDNO>
+<DOCHDR>
+http://www.smokemag.com:80/subscrib.htm 192.41.17.142 19970111124930 text/html 2294
+HTTP/1.0 200 Document follows
+Date: Sat, 11 Jan 1997 12:49:22 GMT
+Server: ISERVER/1.5.1
+Last-modified: Wed, 04 Dec 1996 07:00:13 GMT
+Content-type: text/html
+Content-length: 2108
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Subscribe to SMOKE Magazine!</TITLE>
+</HEAD>
+<BODY BACKGROUND="burlap.jpg">
+<H4 ALIGN=center>
+<IMG SRC="logo.gif"alt="[IMAGE]"></H4>
+<p>
+
+<H1 ALIGN=center>Sign up now to receive <i>SMOKE</i> at home!</H1>
+<h2 align=center> Receive 1 year (4 issues) for only $13.99!</h2>
+
+<center><IMG SRC="bronzl.gif"></center>
+
+<form method="POST" action="http://www.smokemag.com/cgi-bin/subscrib.pl">
+
+<input type="hidden" name="recipient" value="newsub@smokemag.com">
+<input type="hidden" name="subject" value="Subscription order..."> 
+
+<pre>
+Name:
+<INPUT NAME="Name" SIZE="40" MAXLENGTH="40">
+Address1:
+<INPUT NAME="Address1" SIZE="60" MAXLENGTH="60">
+Address2:
+<INPUT NAME="Address2" SIZE="60" MAXLENGTH="60">
+City:
+<INPUT NAME="City" SIZE="20" MAXLENGTH="30">
+State:,   Zip:
+<INPUT NAME="State" SIZE="6" MAXLENGTH="15">   <INPUT NAME="Zip" SIZE="7" MAXLENGTH="7">
+Country:
+<INPUT NAME="Country" SIZE="12" MAXLENGTH="12">
+Telephone:
+<INPUT NAME="telephone" SIZE="20" MAXLENGTH="20">
+email: (optional)
+<INPUT NAME="email" SIZE="35" MAXLENGTH="45">
+
+</pre>
+<center>
+<input type="submit" value="Submit order">
+<input type="reset" value="Clear">
+</center>
+</form>
+<center><IMG SRC="bronzl.gif"></center><p>
+<h3 align=center>
+<i>SMOKE</I> Magazine will bill you $13.99 for a one year's subscription. 
+Canadian orders add $5.50, all other foreign orders add $12. Please allow six to eight weeks for processing.</h3><p>
+<center><IMG SRC="bronzl.gif"></center><p>
+<center>
+<b>For those using browsers that do not support forms such as this, mail your
+subscription order to:</b><p>
+<h3>
+Smoke Magazine<br>
+P.O. Box 56510<br>
+Bolder, CO 80323-6510<p>
+
+Or email our <a href="mailto:subscriptions@smokemag.com">subscription 
+department</a> with your name and address...</h3>
+<h2><i>Inquiries? Call us toll-free at:</i></h2>
+<h1>(800) 766-2633</h1>
+</center>
+
+<center><h5><HR>
+<i>HTML production and Copyright &copy; 1996, 
+<a href="mailto:keystech@pennekamp.com">Keys Technologies</a>.</i> 
+All rights reserved.</h5></center>
+
+</BODY></HTML>
+</DOC>

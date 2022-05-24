@@ -1,0 +1,137 @@
+
+<DOC>
+<DOCNO>WT01-B06-56</DOCNO>
+<DOCOLDNO>IA053-000894-B002-37</DOCOLDNO>
+<DOCHDR>
+http://www.aaii.org:80/ci/val2art1.html 206.30.246.237 19970111222659 text/html 14974
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Saturday, 11-Jan-97 22:29:56 GMT
+Last-modified: Wednesday, 12-Jun-96 01:17:17 GMT
+Content-length: 14785
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>American Association of Individual Investors</title>
+
+<META HTTP-EQUIV="CVS-file"     CONTENT="$RCSfile: val2art1.html,v $">
+<META HTTP-EQUIV="CVS-revision" CONTENT="$Revision: 1.7 $">
+<META HTTP-EQUIV="CVS-date"     CONTENT="$Date: 1996/06/12 01:17:15 $ UTC">
+</head>
+
+<body background="../gif/aaiiback.gif">
+
+
+
+<P ALIGN="center">
+<A HREF="../map/head.map"><IMG SRC="../gif/head_comp.gif" ALT="header" WIDTH=600 HEIGHT=64 BORDER=0 ISMAP></A>
+<BR>
+<H2 ALIGN="center"> Fundamental Valuation: Revising the worksheet </H2>
+<hr>
+<STRONG>By John Bajkowski</STRONG><P>
+
+The March/April issue of Computerized Investing included a stock valuation spreadsheet template based upon the fundamental valuation worksheet that Maria Crawford Scott and I used in the Stock Investing Basics series currently running in the AAII Journal. This worksheet, which I called VAL1, relied on historical multiples of price to sales, price to cash flow, price to earnings, price to book value, and dividend to price coupled with next year's estimates to arrive at a range of valuations for a stock.<P>
+
+In this issue a second valuation spreadsheet template, VAL2, is presented. It builds upon its predecessor to offer an expanded number of financial ratios, a value-to-price comparison ratio for a quick comparison of a valuation relative to the current stock price, two valuation models that relate company multiples to market multiples, and additional areas for a user to test out assumptions and perform sensitivity analysis. <P>
+
+
+<STRONG>Using the Spreadsheet</STRONG><P>
+
+
+As before, the spreadsheet is divided into four main areas - current stock and market data (Figure 1), historical market data (Figure 1), historical stock data (Figure 1), and valuations (Figures 2 and 3). Cells that require user input are shaded in the figures. <P>
+
+
+The top section of Figure 1 contains current data for both the stock under analysis and the market. This area contains basic information such as date of the analysis, company name, ticker, exchange, current price, and beta. The area labeled Current Stock Data uses trailing 12-month figures for every factor except dividends per share (DPS) to compute the current market multiples. The indicated dividend is used for the dividend per share figure. The indicated dividend is a rough approximation of the expected annual dividend. For a company paying dividends quarterly, it is computed by multiplying the latest dividend payment by four. These market multiples are ratios that compare a company's financial data element, such as earnings per share, to the stock price, which is set by the market. <P>
+
+
+The Current Market Data (S&P 500) section is new to the spreadsheet and comes into use with the price-earnings (P/E) relative and dividend yield relative models. The S&P Outlook was used as the source for the current earnings and dividend figures. P/E ratios and dividend yields for the market can generally be found in section C of the Monday Wall Street Journal. The Barron's Stock Market Laboratory in the Market Week section provides current earnings, dividends and book value for the market. Note that the book value figure reported in Barron's tends to be slightly dated. In its May 2 edition, Barron's was reporting 1991 and 1992 book value figures. <P>
+
+
+<STRONG>S&P 500 Market Data Section</STRONG><P>
+
+
+The market data section of the spreadsheet provides a historical perspective of the market needed for the market relative valuations. The first addition you may notice from VAL1 is the source of the data in cell B12. Variations in data reporting exist between different data services, so it is a good idea to get into the habit of indicating its source. If you should have some questions about the data at a later point in time or share the spreadsheet with someone else, the original data can be more easily referenced. <P>
+
+
+Another addition made to this section is the market close figure for each of the last five years. VAL1 relied on the high and low price along with an average between the two to calculate the various market multiples. The close was added to replace the average and provide an indication of the market (or stock) at a specific point in time. When you see that the high for the S&P 500 in 1991 is the same as the close, then you know that the year closed on a strong point. <P>
+
+
+When entering the formulas you may also notice that the five-year growth rates have become more complicated. Previously the formula worked only when the item under consideration had a positive value both five years ago and for the most recent year. Through a series of nested if/then statements, the growth rate formula was adjusted to deal with a wider range of possibilities. <P>
+
+
+The final modification to the market data section was to provide space to enter personal P/E estimates and dividend yield estimates. These estimates allow you to play what-if analyses with the valuations below. Room for the entry of similar company market multiple estimates was also allotted in the stock data section. These estimates allow you to see the impact upon the stock valuation if the expected market multiple changes. Multiples reflect the expectations built into the price. For example, a high price-earnings ratio indicates that the market is willing to support a higher price in relation to current earnings per share because there is a high chance for even greater earnings per share in the future. Multiples adjust as the level of optimism for the market, industry, or company change. The ability to try various multiple estimates was provided in this section so that you can scan the historical multiples, examine past ranges, hopefully spot a trend, and input an expected future multiple. <P>
+
+
+<STRONG>Stock Data Section</STRONG><P>
+
+
+Data for Bristol-Myers Squibb is entered into the stock data section. This is the same company analyzed in the Stock Investing Basics article in the May AAII Journal. Readers comparing that worksheet with this may notice, however, that the data differs for certain items such as earnings per share. The differences arise from using different data sources that treat certain items differently. Here we used Stock Investor, AAII's fundamental database and stock screening program, as the primary source of stock data. Value Line was used as the data source in the AAII Journal article. Earnings per share figures for 1989, 1992, and 1993 differ because of the treatment of extraordinary losses Value Line excludes them from its primary data presentation. This discrepancy points up the desirability of using one data source for all of your comparative analysis and the importance of fully understanding that source's strengths and weaknesses. <P>
+
+
+Three additional company data elements can now be entered - the annual price close, total assets per share and total liabilities per share. As previously discussed, the year-end close replaces the average price for the year. The total assets per share and total liabilities per share were added to provide input for some additional financial ratios. <P>
+
+
+The new financial ratios include asset turnover, return on assets, total liabilities to total assets, total liabilities to equity, and sustainable growth. Return on assets (ROA) is a measure of profitability, as is return on equity (ROE) and profit margin. ROA measures how well management is using the assets of the firm to generate profits. One way to calculate return on assets is to multiply profit margin by asset turnover. In judging ROA it is helpful to look at these components: Management can increase ROA with higher profit margins or higher asset turnover. Profit margins are improved by lowering expenses relative to sales. Asset turnover can be improved by using assets more effectively selling more goods with a given level of assets. Like all financial ratios, these items should be examined over time to look for trends. Steadily increasing ROA ratios are considered positive. To determine if the ratios are high, they should be compared against industry norms. Relative to our drug stock example, a supermarket would be expected to have lower profit margins, but higher turnover. <P>
+
+
+Return on equity (ROE) takes into consideration the impact of the firm's operating performance and its capital structure. ROE can be calculated by dividing ROA by the remainder of the total liabilities to total assets ratio subtracted from one. To increase ROE, a firm can increase its operating performance (ROA) or use greater financial leverage. Bristol-Myers has been able to increase its ROE from 14.8% to 32.8% over five years by boosting both its ROA and its level of debt. <P>
+
+
+The sustainable growth rate was the final ratio added to VAL2. It measures the growth potential of the firm considering its profitability (ROE) and how much money is reinvested into the firm. It provides a baseline growth potential of the firm. To increase the sustainable growth, the firm must increase its ratio of earnings to equity or plow back more of the earnings into the firm instead of paying it out in the form of dividends. A negative figure as shown in 1989 for Bristol-Myers indicates that the firm is paying out more in dividends than it is earning, which will limit its future growth potential if continued for an extended period. Comparing the 1992 sustainable growth ratio of 7.9% to the five-year growth in earnings of 27.7% helps to show that this high level of growth cannot be sustained for long. The weakness with the earnings growth figure is that Bristol-Myers had extraordinary write-offs affecting earnings for both 1989 and 1993 leading to suspect historical growth rates. <P>
+
+
+<STRONG>Valuation Estimates:<BR>
+Average Multiple Models</STRONG><P>
+
+
+The valuation estimates represent the heart of the spreadsheet and have undergone three primary changes to allow for greater sensitivity analysis and quicker comparisons to the current price. Models considering the average price have been replaced with models derived from the annual close price. The average price models simply provided the midpoint values between the high and low multiple models and did not provide as much insight as desirable. While the models based on the closing price will also fall between the high and low range models, they provide the ability to perform a valuation when only closing data is available. <P>
+
+
+The value-to-price ratio was added to provide a quick snapshot of how the valuation compares to the current stock price. A ratio of 100% means that the valuation is equal to the current price, ratios above 100% indicate valuations above the current price, and ratios below 100% indicate valuations below the current price. A ratio of 150% indicates that the valuation is 50% above the current price. <P>
+
+
+While VAL1 allowed you to vary the estimates for next year's figures, it did not provide for an easy way to vary the multiples and see the impact upon the valuation. VAL2 addresses that weakness by providing room to enter estimates for market multiples and perform even greater what-if analyses. With this capability you can measure the impact on price of a change in the market expectations for a company. <P>
+
+
+<STRONG>Valuation Estimates:<BR>
+Relative Market Multiple Models</STRONG><P>
+
+
+Comparing the relationship of a stock to the market can reveal interesting information about a company beyond just looking at the company's historical market multiples. Based upon growth expectations, companies trade at multiples greater or smaller than that of the market. For example, one would expect companies with prospects better than the market as a whole to trade with higher multiples than that of the market. <P>
+
+
+By dividing a company's multiple by that of the market's, a multiple relative is determined. VAL2 uses the P/E relative and dividend yield relative because it can be difficult to obtain other multiples for the market. <P>
+
+
+The first step in using the model is to divide the company's multiple by the market's multiple. After determining the multiple relative, you must determine the expected market multiple and multiply it by the multiple relative to determine the adjusted company multiple. Applying the expected earnings or dividend figure for next year to this adjusted company multiple provides a valuation. <P>
+
+
+Using the Bristol-Myers Squibb relative P/E valuation as an example, you can see that the market's opinion of the prospect of the company has trended down over time. Early on, the company commanded premiums above the market, but most recently it has been trading at a discount to the market. One key for determining the company's fair price is deciding if the market is correctly interpreting the company's prospects. The five-year average P/E relative for Bristol-Myers ranges from 1.24 to 1.38. Multiplying these P/E relatives by the current S&P P/E produces a range of adjusted P/Es from 25.5 to 28.4 roughly double the current P/E of 14.1. <P>
+
+
+However, before you decide that a valuation based on this adjusted P/E is valid, you should consider whether the current S&P 500 P/E ratio of 20.6 is reasonable. If you expect the market       P/E to go down as earnings increase during the economic recovery, then a lower market P/E may be appropriate. The S&P Outlook is forecasting the earnings for the S&P 500 to increase to $29.17 by the end of this year. At the S&P price level, that would translate to a P/E of 15.5. Multiplying the 15.5 market P/E by the range of the company's P/E relatives results in adjusted company P/Es ranging from 19.2 to 21.3. Multiplying the range of projected company earnings by these P/Es results in the valuation range shown in rows 168 through 170, columns G, I, and K. The spreadsheet also allows you to input P/E relative estimates to check the sensitivity of this item on the valuation. <P>
+
+
+Using a spreadsheet such as VAL2 has a number of benefits. It provides a consistent technique for examining a company and its relationship to the market. It helps to identify the factors driving the current market price and test various assumptions to arrive at a fair price. Stock valuation is not an easy process, as the valuation template presented here illustrates. However, performed effectively, it can be rewarding. <P>
+
+
+
+John Bajkowski is editor of Computerized Investing and the financial analyst of the American Association of Individual Investors. <P>
+
+
+The VAL2 spreadsheet is in the software library under the fundamental analysis. <P>
+
+<HR>
+<p align=center><A HREF="../home.html">AAII Home</A> | <A HREF="../index.html">Index Page</A> | <A HREF="mailto:aaiimembr@aol.com">Email</a> | <A HREF="http://networth.galt.com">NETworth Home</A></p>
+
+<!TAIL>
+<HR>
+
+
+<!/TAIL>
+
+
+</body>
+</html>
+</DOC>

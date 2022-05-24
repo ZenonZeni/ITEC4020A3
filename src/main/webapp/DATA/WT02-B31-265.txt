@@ -1,0 +1,188 @@
+
+<DOC>
+<DOCNO>WT02-B31-265</DOCNO>
+<DOCOLDNO>IA020-000210-B034-60</DOCOLDNO>
+<DOCHDR>
+http://sandcastle-ltd.com:80/Papers/INET.html 199.35.141.30 19970107121937 text/html 9958
+HTTP/1.0 200 OK
+Date: Tue, 07 Jan 1997 12:21:02 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 9787
+Last-modified: Sun, 29 Sep 1996 19:20:44 GMT
+</DOCHDR>
+<html><head><!-- This document was created from RTF source by rtftohtml version
+2.7.5 --></head><body><h1>
+<a name="RTFToC1">IP
+Security, Creating Secure Intranets over the Internet.
+</a></h1>
+<address><i>James P. Hughes<br>Network Systems Corporation</i></address>
+<h2>
+<a name="RTFToC2">Abstract</a></h2>
+The technology to create interoperable secure encrypted tunnels over the
+internet is now possible. Secure intranets over the internet is an intriguing
+cost savings solution to replace high cost leased lines or frame relay services
+while at the same time increasing the security of that traffic.<p>
+The concept of an Intranet is a private network "Intra" a corporation or inside
+a corporation using the Internet as the underlying media. This concept is not
+new, but is just now becoming possible. The enablers for this technology has
+been the commercialization of the Internet backbone, the proliferation of WWW
+and IP security. Now that every company needs a WWW connection to the Internet,
+it is logical to overlap that use with other office to office traffic,
+especially when that network is significantly cheaper than buying leased or
+even frame relay services.<p>
+IP security is another enabler for the Intranet. The Internet is a scary "free
+for all" that allows any to any connectivity. If you are building a network
+specialized to carry private company information the last thing you want is any
+to any connectivity where the any can be your competitors. In addition to
+keeping the competitors out, you also need to make sure that there the
+companies proprietary data is indeed unreadable to your competition when it is
+being transferred over the Internet. <p>
+The IP security standards suite uses encryption technology. Encryption is more
+than just the scrambling of bits so that the data can not be seen. Encryption
+technology, as envisioned by the IPsec working group, includes capability not
+only to create private transmissions, to provide authentication of parties to a
+conversation and to provide data integrity so that you know that the traffic
+was from the original sender and was not modified in transit by an attacker.
+These mathematical transformations can be implemented at several places in an
+IP network and can be used to protect data from host to host, site to site or
+any combination.<p>
+Creating secure tunnels is one issue, but another issue is how do people agree
+on secrets (session keys) even if there are eavesdroppers listening in. The
+IPsec Oakley key management protocol provides the ability to privately
+negotiate a key while also ensuring that the key you negotiated was indeed to
+the intended source. The authentication of the initial source and the creation
+of (two party) shared secret keys is the prime motivation.<p>
+When to negotiate a key is also another issue. The ISA/KMP protocol allows keys
+and traffic parameters to be negotiated before they are needed.<p>
+Finally, a way to reliably undeniably know that an endpoint that you may have
+never heard of is who they say they are even in the event that keys are stolen,
+compromised or simply revoked is part of yet another protocol defined by the
+DNSsec working group. DNSsec can send the authenticated credentials to validate
+that an end point is who they say they are.<p>
+These mathematical transformations can be implemented at several places in an
+IP networks that have or do not have firewalls.<p>
+Packet formats for IPsec compatible encapsulations will be shown as well as
+future challenges such as public key certificates.
+<h2>
+<a name="RTFToC3">Capabilities
+of Encryption
+</a></h2>
+Encryption is a set of mathematical transformations. It is a tool. This tool
+can be used to create several important capabilities when applied to the
+protection of private data on public networks.<p>
+Technically an integrity, key exchange and authentication are not encryption
+per-se, they do, however, use the same properties of irreversibility that make
+encryption possible.
+<h3>
+<a name="RTFToC4">Privacy
+</a></h3>
+Privacy is the ability to keep data private on networks where others may be
+listening. This is where the common "symmetric ciphers" such as DES, 3DES
+(pronounced triple-DES), CDMF (40 bit DES), IDEA, RC4 and others. There are
+many ciphers that can be used. The IPsec standard is mandating a conservative
+standard of DES. DES is a well understood and royalty free algorithm, and has
+successfully withstood 20 years of public scrutiny<a
+href="INET_fn.html#fn0">[1]</a>.
+<h3>
+<a name="RTFToC5">Integrity
+</a></h3>
+Integrity is the method of ensuring that the data has not been modified in
+transit from the source to the destination. Typically, in networks and on
+computer disks, the protection used ensure that data is not modified uses
+Cyclic Redundancy Checks (CRCs). These are very good at catching random events,
+but to the attackers, CRCs are very predictable and easily reversed. In
+addition the sizes of CRCs 16, 32 or 64 bits are all too small to stop a
+birthday attack<a href="INET_fn.html#fn0">[2]</a>.<p>
+The integrity function is usually performed by a hashing function. The two
+currently in use today are MD5 and SHA. Hashing algorithms can also be used to
+create authenticated hashes. These hashes are used to both ensure that the data
+has not been changed and it is from the correct source. IPsec uses both MD5 and
+a keyed variant of MD5, HMAC.
+<h3>
+<a name="RTFToC6">Replay
+Prevention
+</a></h3>
+This capability ensures that data is received at most, once, and never again.
+In an IP network, traffic is not guaranteed to arrive in order and it is also
+not guaranteed to arrive at all. Replay prevention provides a means of ensuring
+that data, once received can not be recorded and played back later. Replay
+attacks can be useful even if the data is never decrypted.
+<h3>
+<a name="RTFToC7">Key
+Exchange
+</a></h3>
+How does one create and communicate a secret when there are others listening?
+There are two basic algorithms that do this, one is Diffie-Hellman and the
+other is Elliptical curves. The mathematics of Diffie Hellman are simple and
+easy to follow.<p>
+First a x is chosen from random bits. The sender then calculates g^x and send
+that to the other side. In the mean time the receiver chooses its own y and
+calculates g^y and sends it to the other side. The sender then calculates
+(g^y)^x and the receiver calculates (g^x)^y. In both cases, they have
+calculated G^(xy). (All of these calculations are performed using modular
+arithmetic) What makes this elegant is that. Even if the eavesdroppers listen
+to the conversations, and knows g, g^x and g^y, unless they can perform
+discrete logarithm over a finite field, then G^(xy) will remain a mystery. If
+the numbers are large enough, then the reversal is not possible.<p>
+Another aspect Diffie Hellman is that, if the bits are calculated new and not
+reused in any way, the keys generated will be completely unrelated and if one
+key is cracked, the attacker knows nothing about any other keys that has been
+used or will be used in the future.
+<h3>
+<a name="RTFToC8">Authentication
+</a></h3>
+The method of ensuring that the data received is from the expected source.
+While it is possible to create a key with someone and use it, there is a
+possibility that the caller is not who they say they are. In that case, the
+data will be protected while on the network and sent to the wrong destination.
+To solve this authentication protocols and algorithms are used. Most privacy
+systems use RSA to authenticate a party to a conversation. RSA has the ability
+to publish your public key and if you keep your private key private, then it is
+theoretically impossible to impersonate you.<p>
+These public keys, when combined with a certification authority, provides means
+of not only storing and sending out public keys to callers, it also provides
+for the integrity of the keys as well as to allow the certifying authority the
+ability to revoke a key so that if a key is lost, then it can be made useless.
+<h2>
+<a name="RTFToC9">IPsec</a></h2>
+IPsec is a family of RFCs that can be used to create secure communications.
+They are the data encapsulation, key exchange algorithm and key exchange
+framework. These RFCs represent the minimum implementation that can be called
+"IPsec".
+<h3>
+<a name="RTFToC10">draft-ietf-ipsec-arch-02.txt</a></h3>
+This is the overall architecture. This can be used to define the various
+encapsulations.
+<h3>
+<a name="RTFToC11">draft-ietf-ipsec-hmac-md5-00.txt</a></h3>
+This contains the creation of a secure keyed MD5 operation. This allows the MD5
+packet integrity check to be keyed so that the source can authenticate its
+packet. 
+<h3>
+<a name="RTFToC12"><br>draft-ietf-ipsec-esp-des-md5-00.txt</a></h3>
+Is the actual implementation of the tunnel. This transform contains privacy
+(DES) integrity and authentication (HMAC) and replay protection.
+<h3>
+<a name="RTFToC13">draft-ietf-ipsec-oakley-00.txt</a></h3>
+This is a key management protocol that is going to be used to both exchange
+keys and authentication.
+<h3>
+<a name="RTFToC14">draft-ietf-ipsec-isakmp-04.txt</a></h3>
+This is the framework that the key management protocols work under.
+<h3>
+<a name="RTFToC15">Others</a></h3>
+There are several other RFCs and may more to come.
+<h2>
+<a name="RTFToC16">Status</a></h2>
+Many vendors are working towards these standards, but the current sticking
+point is the wide deployment of the key management and the integration of the
+key management system with DNSsec or other Certificate servers.
+<h2>
+<a name="RTFToC17">Conclusion</a></h2>
+This paper has discussed the networking, security and standards aspects of
+creating a secure Intranet over the Internet. You can not buy this exact suite
+of interoperable algorithms and protocols, but they will become real in the
+near future.<p>
+</body></html>
+</DOC>

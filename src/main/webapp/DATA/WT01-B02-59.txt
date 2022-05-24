@@ -1,0 +1,61 @@
+
+<DOC>
+<DOCNO>WT01-B02-59</DOCNO>
+<DOCOLDNO>IA054-000904-B032-402</DOCOLDNO>
+<DOCHDR>
+http://stargate.jpl.nasa.gov:1083/html/uxreadme.htm 137.79.108.182 19970210185052 text/html 2426
+HTTP/1.0 200 OK
+Date: Mon, 10 Feb 1997 18:49:37 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE HTML SYSTEM "html.dtd">
+<TITLE>IGARSS '94 Electronic Digest Software Installation Instructions
+</TITLE>
+<H1>IGARSS '94 Electronic Digest Software Installation Instructions
+</H1>  
+<P>Be sure to read the <A HREF="aareadme.htm">Read Me First</A> file
+(aareadme.txt) and <A HREF="aboutcd.htm">About the IGARSS '94 CD</A>
+(aboutcd.txt).</P>
+<H2>Unix Platform</H2>   
+<OL><LI>INSTALLING NCSA MOSAIC<UL>
+<LI>Copy the following files from the software/unixapps directory  to
+your home directory<PRE>mailcap
+mimetype</PRE></LI>
+<LI>NCSA Mosaic expects these files to be dot files, so rename  them<PRE>
+mv mailcap .mailcap
+mv mimetype .mime.types</PRE></LI>                          
+<LI>Choose the NCSA Mosaic binary for your specific Unix machine  from
+the software/unixapps/mosbin directory</LI>    
+<LI>Copy the appropriate Mosaic binary to a directory on your file 
+system, preferably to a directory that is in your path (otherwise, you
+will need to add this directory to your path)</LI>    
+<LI>Change the name of the NCSA Mosaic binary to "mosaic"</LI>     
+<LI>Make the NCSA Mosaic binary executable         <PRE> chmod +x mosaic</PRE></LI>
+  </UL></LI>    
+<LI>INSTALLING ADOBE ACROBAT READER<UL>
+<LI>Make an "adobe" directory on your file system.  If you have root
+privileges, make the directory /usr/adobe
+</LI> 
+<LI>cd to that directory
+</LI> 
+<LI>Copy the file software/unixapps/acroread.tar</LI>    
+<LI>Untar the file with the following command        <PRE>tar xvf acroread.tar</PRE>
+</LI>  
+<LI>Change to the AcroRead_1.0 directory</LI>   
+<LI>Type the following command to set Acrobat's environment variable   
+   <PRE> setenv ACROEXCH_HOME `pwd`</PRE>
+</LI>   
+<LI>Copy the execute script to a directory on your file  system that is
+in your path (otherwise, you will need to add this  directory to your
+path)        <PRE>cp bin/acroread /usr/local/bin/ # for example</PRE></LI>
+   
+</UL></LI>   
+<LI>STARTING NCSA MOSAIC <UL>
+<LI>Mount the IGARSS94 CDROM on your filesystem</LI>    
+<LI>cd to the IGARSS94 CDROM 
+</LI>        
+<LI>Use the "-home" option of NCSA Mosaic to point to the IGARSS94     
+  home page.  <PRE>mosaic -home igarss.htm &</PRE></LI>        </UL></LI></OL>
+<HR><A HREF="../igarss.htm"><IMG  WIDTH=108 HEIGHT=45 SRC="back_ig.gif"></A>
+</DOC>

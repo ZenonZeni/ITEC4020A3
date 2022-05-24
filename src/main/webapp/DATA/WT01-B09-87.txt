@@ -1,0 +1,190 @@
+
+<DOC>
+<DOCNO>WT01-B09-87</DOCNO>
+<DOCOLDNO>IA037-000725-B009-67</DOCOLDNO>
+<DOCHDR>
+http://www.calstart.org:80/about/pngv/pngv-0102.html 207.104.9.100 19970210055402 text/html 6582
+HTTP/1.0 200 Document follows
+Date: Mon, 10 Feb 1997 05:45:48 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>CALSTART -- DARPA Consortia EV and Hybrid EV Technology Projects</title>
+</head>
+
+
+<body bgcolor=#FFFFFF><center><a href="/misc/ypsubmitform.html" onMouseOver="window.status='Get Listed Today!'; return true"><img alt="For Free Yellow Pages Listing Info, click here" border=0 src="/image/yptag1.gif"></a></center><p>
+
+
+<h2 align = "center">DARPA Consortia EV and Hybrid EV Technology Projects<br>
+<a href = "/cgi-bin/imagemap/image/maps/about.map"><img border src = "/image/toolbar.gif" ismap alt ="CALSTART Toolbar"></a></h2>
+<hr><p>
+
+
+<h3>Hawii Electric Vehicle Demonstration Project (HEVDP)</h3><p>
+
+<blockquote>
+
+<B>Project Title:  Data Acquisition Systems, Powertrain Monitors, Controller and Battery Management System<p>
+
+Performing Organization:  Detection Limit Technology (DLT)</B><p>
+
+c/o 531 Cooke Street<br>
+Honolulu, Hi 96813<br>
+Technical POC: Dr. Christian Schoen<br>
+Phone: 3077420555<br>
+Fax: 3077420168<br>
+EMail: cschoen@spectra.eng.hawaii.edu<p>
+
+<P><B>Project Summary: </B></P>
+
+<P>Detection Limit Technology (DLT) provides data acquisition services for all vehicles
+under HEVDP's '93 and '94 programs. These services include: data acquisition systems,
+sensors, powertrain monitors, electric vehicle local controller and battery management
+systems; and data logger replacements for electric vehicles. 
+</P>
+
+<P><B>Data Acquisition Systems (DAS) </B></P>
+
+<P>The DAS consists of an expandable 12 bit analog to digital sensor controller (SC) which
+digitizes the analog signals from the sensors. The SC is also equipped with a frequency
+counter to accept signals from the speedometer/odometer. The computing and logging
+functions are performed by a 386SX based embedded PC (EPC). For driver interaction,
+it uses a handheld keyboard with a 32 character, 8 line LCD display. The SC is
+connected to the EPC via a RS232 serial port. IDLMS100 is the application software that
+controls the system. It logs data, provides useful data for the driver in an easy to read
+format, simple single key operation, intelligent switching from drive mode to charge mode
+and back, checks for low stateofcharge and alarm levels, and real time data analysis to
+keep track of stateofcharge, mileage, and min./max. values of parameters. The system
+also has an automatic powerup/powerdown option. This allows the system to be a fully
+automatic "turnkey" system. The sensors were designed especially for the noisy
+environment of an electric vehicle, utilizing temperature compensated halleffects that
+makes the sensors completely isolated from the parameters being measured . The
+signals are conditioned and filtered for clean and accurate data. DH sensors measure
+DC voltage, DC current, and temperature. WAV sensors measure true RMS AC voltage,
+true RMS AC current, true power, and temperature. AT sensors measure altitude, tilt, and
+temperature. DB sensors measure accessories' on/off. Payload Sensors for the '94
+program are in the design stages. These sensors will incorporate Linear Voltage
+Displacement Transducer (LVDT) technology which conveys vehicle payload to the DAS
+when hooked to the coil or leaf springs. Input AC power sensors will also be installed
+under the '94 program. 
+</P>
+
+<P><B>Powertrain Monitors</B></P>
+
+<P>Powertrain Monitors for the '94 program are in the design stages. They will monitor the
+true RMS AC voltage, true RMS AC current, and true power between the motor and
+controller. The biggest obstacle is accessing the cables of interest. DLT has been
+working with Hughes Power Control Systems to resolve this problem. </P>
+
+<P><B>Controller and Battery Management Systems </B></P>
+
+<P>Electric vehicle local controller and battery management systems (BMS) for the '94
+program are also in the design stages. The local controller will provide range estimation,
+speedometer/odometer, input and output for control, and output ports for data logging.
+The BMS will level voltage of batteries, determine stateofcharge, and provide a
+programmable platform for fast and regular charging methods. </P>
+
+<B>Project Deliverables:</B>
+
+Data Acquisition Systems 
+
+<P>DLT has designed and built ten complete DAS. Six have been installed in electric
+vehicles in the 93 program. Installation of the other four DAS await delivery of vehicles.
+Auto powerup/powerdown option has been built and installed in three of ten vehicles in
+the '94 program. Sensors have been installed in 27 of the 35 vehicles in the '93 program;
+the remaining eight will be installed during component retrofits operations by the vehicle
+manufacturer. One of 30 input AC power sensors in the '94 program have been installed.
+Five vehicles will be equipped with payload sensors. One of 30 AC infest Dower sensors
+has been installed.</P> 
+
+<P><B>Powertrain Monitors</B> </P>
+
+<P>Five vehicles will be equipped with powertrain monitors. </P>
+
+<P><B>Controller and Battery Management Systems</B></P> 
+
+<P>Twenty vehicles will be equipped with the BMS system for the '94 program. </P>
+
+<B>Project Schedule: </B>
+
+<P>Data Acquisition Systems</P> 
+
+<P>Six of ten DAS systems have been installed. Three systems will be installed by March 31,
+1996. One awaits delivery of the vehicle by the manufacturer. Six auto
+powerup/powerdown options will be installed by March 31, 1996. The remaining one
+awaits delivery of the vehicle; tentative date is May 1996. Sensors have been installed in
+27 vehicles; the remaining eight sensor packages should be installed by July 31, 1996.
+Payload Sensor fabrication should begin in August 1996. Twentynine AC input power
+sensors will be installed over the next 12 months. </P>
+
+<B>Powertrain Monitors</B>
+
+<P>Fabrication should begin in June 1996. </P>
+
+<P><B>Controller and Battery Management Systems</B></P> 
+
+<P>Fabrication should begin in October 1996.</P>
+
+</blockquote>
+
+<p><h3>Return to the <a href="pngv-0100.html">Table of Contents</a> for (HEVDP)</h3></p>
+
+<p><hr>
+
+<h5 align = "center">| <a href="/">HOME</a> | 
+<a href="/misc/search.html">SEARCH</a> | 
+<a href="/news/">NEWS</a> | 
+<a href="/participants/">PARTICIPANTS ONLY</a> | 
+<a href="/misc/feedback.html">FEEDBACK</a> | 
+<a href="/reference/yellowpages/">YELLOW PAGES</a> | 
+<a href="/help/about.html">HELP</a> |
+</h5><p>
+
+
+<h6><address>&copy Copyright 1996 CALSTART, Inc. All Rights Reserved. Please send comments and suggestions to: <A HREF="mailto:feedback@calstart.org">feedback@calstart.org</A>
+
+</address></h6>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</DOC>

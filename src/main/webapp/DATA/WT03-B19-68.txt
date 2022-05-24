@@ -1,0 +1,160 @@
+
+<DOC>
+<DOCNO>WT03-B19-68</DOCNO>
+<DOCOLDNO>IA001-000005-B026-331</DOCOLDNO>
+<DOCHDR>
+http://gator.seaspace.com:80/FAQ_image_proc.html 192.150.113.150 19970101042108 text/html 3395
+HTTP/1.0 200 OK
+Date: Wednesday, 01-Jan-97 04:19:55 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Tuesday, 10-Sep-96 16:14:41 GMT
+Content-length: 3211
+</DOCHDR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<HEAD> <TITLE>  TeraScan Image Processing FAQ  </TITLE> </HEAD> <BODY> <TABLE BORDER=5 WIDTH=100%> <TR> <TD ALIGN=CENTER> <H1>  TeraScan Image Processing FAQ   </H1> </TD> </TR> </TABLE> <BR> <IMG SRC="/artwork/line.avhrr1.gif"><BR>
+
+<OL>
+<LI><B>Question:</B>When I try to start up xvu, it fails and returns<BR>
+<UL>
+<DT><SAMP>unable to allocate 192 colors</SAMP>
+</UL>
+What's wrong?
+
+<P>
+<B>Answer:</B>A process currently running has allocated part of the color 
+pallette, you could either kill the other application or start xvu with
+the '-imcolors xx' option, where 32 < xx < 240.  In some instances, you
+may need to exit the window manager and restart.</P>
+
+<LI> <B>Question:</B> How do I flicker more than 16 windows in XVU?
+
+<P>
+<B>Answer:</B>
+Easy, just use <KBD>1^25</KBD>, which is the same as 1 2 3 4 . . . 25; the internal limit of the function
+is 100.
+</P>
+
+<LI><B>Question:</B>I have installed TeraScan software on a Solaris machine, and
+recieved the following message when I tried to start <B>xvu</B>:<BR>
+<UL>
+<SAMP>
+<DT>ld.so.1:  xvu:  fatal:  libX11.so.4:  can't open file:  errno=2<BR>
+<DT>Killed<BR>
+</SAMP>
+</UL>
+What's wrong?
+
+<P>
+<B>Answer:</B>On our Solaris machines, there is a link in /usr/lib to libX11:<BR>
+<SAMP>lrwxrwxrwx 1 root	26 Feb 10 12:21 libX11.so.4 -> ../openwin/lib/libX11.so.4*</SAMP><BR>
+There should be a shared-object library in the library path.  You might have 
+libX11 in /usr/lib/X11.  Then you could add '/usr/lib/X11' to the library
+search path <VAR>$LD_LIBRARY_PATH</VAR>.</P>
+
+<LI><B>Question:</B>When I run 'avcal', it returns the message:<BR>
+<UL>
+<DT><SAMP>avcal.coef: Cannot access AVHRR calibration table
+<DT>avcal.coef: Using pre-launch coef's for visible channels'</SAMP>
+</UL>
+What does this mean?
+
+<P>
+<B>Answer:</B>This is not an error, 'avcal' has an optional parameter that 
+lets you reset the channel 1 & 2 slope and offset, and save to a file.
+If the file doesn't exist, avcal uses pre-launch coeffecients like it always
+has.  You could also pass your own coeffecients to avcal from the command line
+like so:<BR>
+<UL>
+<DT><KBD>%avcal vis_coefs='0.11968 -3.73000 0.13715 -3.39000'</KBD></P>
+</UL>
+
+<LI><B>Question:</B> How do I filter values from data?
+
+<P>
+<B>Answer:</B>
+Use 'emath', for example, if you'd like to remove all channel 4 IR temperatures below 10 degrees
+Celsius from a AVHRR data set, use 'emath' like so:<BR>
+<BR>
+<SAMP>%emath</SAMP> <KBD>input_avhrr_data output_avhrr_data</KBD><BR>
+<SAMP>
+expr_vars = avhrr_ch4<BR>
+expression = (x1 < 10) ? badval:x1<BR>
+	.<BR>
+	.<BR>
+	.<BR>
+</SAMP>
+
+</P>
+
+
+</OL>
+
+<BR> <BR>  <A HREF=  "/FAQ_index.html"><IMG SRC= "/artwork/arrow.marble.left.gif" ALIGN=middle>   Return to FAQ Index   </A><BR><BR>  <A HREF= "/index.html"><IMG SRC= "/artwork/arrow.marble.up.gif" ALIGN=middle>   Return to SeaSpace Home Page   </A><BR><BR> <IMG SRC="/artwork/line.avhrr1.gif"><BR> <ADDRESS> SeaSpace Corporation<BR> </ADDRESS> <H5> For information about SeaSpace products contact <A HREF="mailto:info@seaspace.com">info@seaspace.com</A><BR> For information about this site contact <A HREF="mailto:sean@seaspace.com">sean@seaspace.com</A><BR> </H5>
+</DOC>

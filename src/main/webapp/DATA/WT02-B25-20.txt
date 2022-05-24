@@ -1,0 +1,103 @@
+
+<DOC>
+<DOCNO>WT02-B25-20</DOCNO>
+<DOCOLDNO>IA067-000406-B020-375</DOCOLDNO>
+<DOCHDR>
+http://www.dsnt.com:80/091796pcweek.html 207.78.30.85 19970112210655 text/html 14090
+HTTP/1.0 200 Document follows
+Date: Sun, 12 Jan 1997 21:08:18 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html>
+<body>
+
+<font size=6>PCWeek Online Article:</font>
+<p>
+<font size=3>Publication date: September 17, 1996</font><p>
+<font size=3>Author: <A HREF="Mailto:Lauren_Paul@Zd.Com">Lauren Gibbons Paul</a></font><p>
+<b><font color="#ff0000" size=5>Tunnel vision</font></b><br>
+<font color="#fb334d" size=5>Many companies are eyeing virtual private networks to forge a secure tunnel in the very public Internet.</font><br>
+<P>
+
+Buy, don't build. Does that sound familiar? It's the strategy most companies are embracing for application development. But in some circles, that mantra is beginning to apply to corporate networks.<P>
+The rethinking is in part due to the explosion of intranet/Internet access, which threatens to wreak havoc on the traffic patterns of corporate LANs and WANs. Hefty monthly telecommunications bills for the private leased lines or frame-relay services that form the backbone of most corporate WANs, along with heightened concerns about security on the World Wide Web, have left many IT execs grappling for a better way.<P>
+One fast-emerging option is the VPN (virtual private network). Here, companies with high security needs carve out a piece of the Internet--the "tunnel"--and secure it with firewalls. Sounds simple enough, but what about those companies looking to get out of the construction business entirely when it comes to network infrastructure? For them, a growing number of telecommunications carriers and ISPs (Internet service providers) are offering outsourced VPN services, so remote offices don't miss out on the bounty of the corporate intranet. Either way, CIOs who've taken the VPN plunge are reporting big payoffs when it comes to reduced costs, better security and even improved performance.<P>
+<H3>Business case</H3>
+For Pat Rauchet, senior director of telecommunications for Simon &amp; Schuster Inc. (the $2.4 billion division of $12 billion entertainment behemoth Viacom Inc.), the decision was purely economic. The New York-based company was looking for a way to bring users at 50 remote international offices into its private network, comprising a dedicated frame relay WAN.<P>
+Users at the international offices were not hooked up to the WAN--they had only Lotus Development Corp. cc:Mail LAN E-mail capability and were missing out on key corporate intranet goodies, such as a critical sales-force automation application. But creating the infrastructure would demand a hefty investment in an international leased line or a leased frame relay link, in addition to installing and managing the hardware connections. Rather than break the bank, Rauchet's group looked to InfoNet Services Corp.'s InfoLAN service.<P>
+"We determined that, using InfoNet, the costs are about 10 percent of what it would have cost us to build our own dedicated network," says Rauchet. Another bonus: InfoNet's 24-by-7 help desk, which reduces the support head count somewhat, he adds.<P>
+Costs might have been the motivator for Simon &amp; Schuster, but other companies are driven to outsourcing VPNs by the huge hype surrounding security on the Internet. Improved protection is one of the biggest attractions, according to Chip Schooler, director of Internet services for InfoNet, in El Segundo, Calif. "In the end, unless you're in the military, you'll always be on a public network. Even on a shared frame relay network, someone can break into it," Schooler says. Because the InfoLAN service is provided on InfoNet's private network--rather than tunneling through the Internet, as is usually the case with a VPN--the risks are fewer, he argues.<P>
+
+
+
+<table border=1 cellpadding=6>
+<tr valign=top align=left>
+<td width=360>
+<center><h3>Alphabet soup</h3></center><P>
+<center>Glossary of terms for the brave new world of networking:</center> <P>
+<ul>
+<STRONG>VPN (virtual private network)</STRONG><BR>
+<font size=2>The object of VPNs is to use the Internet as if it were a private network by "tunneling" across the public Internet and through corporate firewalls. The "tunnel" is encapsulated and encrypted to create a secure data path. Companies can outsource to an ISP (Internet service provider) or a VAN for this service or create their own by using a product such as DSN Technology's NetFortress.</font><P>
+<STRONG>SVC (Switched Virtual Circuit)</STRONG> <BR>
+<font size=2>Some ISPs are offering SVCs and Internet service over the same line. Companies needing a swift, guaranteed, secure pipeline for their intranet traffic can opt for SVC service, which uses frame relay or asynchronous transfer mode technology.</font><P>
+<STRONG>RSVP (Resource Reservation Protocol)</STRONG><BR> <font size=2>Enables so-called "bandwidth on demand" by allowing  a receiver to request a specific amount of bandwidth for a particular data stream and receive a reply indicating whether the request has been granted or not. RSVP is in the draft stage of approval with the Internet Engineering Task Force.</font>
+</ul>
+<P>
+<tr>
+</table>
+
+
+
+
+<P>
+Another consideration for CIOs looking to implement some or all of their intranets on InfoNet's network is performance. Intranet traffic will hit the WAN, where many companies are now running mission-critical applications, such as SAP America Inc.'s R/3 (see <a href="#mix">"It's not all mix and match"</a>), "and that will impact their performance," often in an unforeseen way, says Schooler.<P>
+<H3>Safe passage</H3>
+If a VPN fits the bill but the idea of outsourcing a key corporate network to an ISP doesn't, companies always have the option of building their own. That's where hiring a security expert or a consultant comes in, or you can assemble your own with one of many products now available.<P>
+Digital Secured Networks Technology Inc. offers one, NetFortress, a hardware-based solution that provides black boxes that are placed between two points on the Internet, creating the secure "tunnel." As data is passed through the tunnel, it is encrypted using a heavy-duty 512-bit encryption scheme. The secure tunnel can be further safeguarded by placing firewalls at both ends, if companies already have an investment in them.<P>
+DSN founder and Chairman Aharon Friedman maintains that additional security is unnecessary. Because NetFortress' encryption takes place at the network layer of the OSI data-packet model--rather than at the higher layers, as is the case with many firewalls--it is inherently much more secure, says Friedman, in Englewood Cliffs, N.J. Additionally, NetFortress provides automated public/private-key authentication between the two black boxes, with the private keys changing every 24 hours.<P>
+Given the package, Friedman maintains NetFortress is not vulnerable to the pitfalls that firewalls are subject to--for example, "IP spoofing," where an intruder changes an IP address to that of a user who has access behind the firewall.<P>
+But more than security, Friedman agrees that cost savings is the advantage VPNs have over leased lines. "Cost is a larger issue because their networks are so huge; they're paying a lot of money for those private lines," he says.<P>
+Adds Peter Dyson, online editor and analyst at the Seybold Report on Desktop Publishing, in Philadelphia: "Once you get into long lines, it's frighteningly expensive to run them yourself."<P>
+DSN claims companies can save between 33 percent and 50 percent on telecommunications costs by using NetFortress to create their own VPN rather than going with leased lines. The company paid a consultant to prepare price comparisons for different network topologies. According to the DSN-sponsored study, for example, the monthly AT&amp;T Corp. charges for a T-1 mesh network from Los Angeles to Chicago to New York to Atlanta would be $26,942, vs. $11,280 for a comparable network implemented as an Internet VPN by PSInet, a popular ISP. "By saving on lines, [companies] can invest more in network equipment," says Friedman.<P>
+Clark Frederick, chief applications officer for Interactive Broadcasting Systems Inc., an ISP in Madison, N.J., says using VPNs allows companies to get better performance at a lower cost because the traffic goes through a hub at the providers' location. "We are connected through the MFS [Metropolitan Fiber System] nationwide loop, so if you have locations in Arizona and New York, we connect them through our location. That traffic never even hits the Internet," says Frederick. "You get the utility of the Internet, but only the traffic that needs to goes out to the Internet."<P>
+Whether the prophecy of some industry wags comes true, and private networks disappear altogether and are replaced by VPNs running over the Internet, remains to be seen. Yet there is unquestionably a transition toward hybrid networks that are part private, part outsourced. "How much of private networks that will get handed off to carriers that have spent billions on network infrastructure is an open question," says Steve Howard, president of network modeling tool vendor Make Systems Inc., in Mountain View, Calif. "But there is a process of migration to a hybrid network. That evolution is occurring now."<P>
+David Linthicum, manager at AT&amp;T Solutions, in Vienna, Va., says people are increasingly going to realize they can gain value by connecting into the public network rather than the private network. "Why build it yourself? The third parties have already built their own," he says. "Let them worry about it."<P>
+<i>Deputy Editor Lauren Gibbons Paul can be reached at <A HREF="MAILTO:lauren_paul@zd.com">lauren_paul@zd.com</A>.</i><P><P>
+<P>
+
+
+<hr width=60% align=center>
+<H3><center><a name="mix">It's not all mix and match</a></center></H3>
+So, you're in the process of rolling out a sparkling new intranet and finally getting around to giving Internet access to everyone in the corporation. Congratulations. But if your company is one of the hundreds nationwide that has invested heavily in SAP R/3, PeopleSoft or any other enterprise application suite, you'd better consider this: These tools and intranets don't always mix.<P>
+That's the message being evangelized by Steve Howard, president and CEO of Make Systems Inc., maker of the NetMaker X/A suite of application-profiling and network modeling tools in Mountain View, Calif. Howard says if you don't do some advance planning, I-net (Internet/intranet) applications can hog all the bandwidth intended for critical enterprise planning or financial applications. That's not a pleasant thought: critical corporate data being held up in favor of someone in the mailroom checking the scores at the ESPN SportsZone.<P>
+It often comes as a surprise to CIOs who are planning or are in the midst of a multimillion-dollar SAP rollout that critical R/3 applications will have to arm wrestle with I-net surfers to get needed bandwidth. That being the case, top IT executives were not initially much interested in tools for profiling Internet applications. "I don't know any CIO who would feel compelled to give you better performance for your [World Wide Web] browser, but for applications like SAP, response time becomes critical," Howard says.<P>
+Because R/3 applications have their own dedicated applications and database servers, CIOs often think bandwidth won't be a problem. Not so. Says Howard: "R/3 will get hurt by the Web traffic. The R/3 server farm is usually in one location, but there are users in Europe and other countries. Everyone has to get across the network."<P>
+Make Systems offers network resource planning for companies deploying R/3.<P>
+Peter Dyson, online editor for The Seybold Report on Desktop Publishing, says he knows of no current product that will reserve bandwidth for a critical application like R/3 while letting Web surfers take the performance hit. "All packets going over the network are equal. If you have 400 users and they're all running Pathfinder, it's going to be like the Callahan Tunnel after a flight gets in at [Boston's] Logan [Airport]," says Dyson, in Philadelphia.<P>
+And that means R/3 applications will be clogged up with the rest of the packets trying to make their way to the communications lines until the traffic jam clears up.<P>
+<B><center>Nice profile</center><P>
+</B><P>
+The solution, says Howard, is to treat I-net applications like any other application: Profile them and plan network resources for them. In some cases that may mean something as simple as setting usage guidelines. For example, you could set certain hours of the day--perhaps the afternoon when Web traffic is at a notorious high--during which surfing is verboten.<P>
+When planning to turn on an intranet, however, more substantive profiling and network resource planning is warranted, Howard says. "The Internet needs to be controlled. The intranet needs to be managed."<P>
+<P>
+<A HREF="http://www.pcweek.com/ExecConnect"><IMG SRC="http://www.pcweek.com/ExecConnect/graphics/exec.gif" align=right ALT="Go to ExecConnect" Height=42 width=108 hspace=8 vspace=8 BORDER =0></A><P>
+Seybold's Dyson says CIOs with mission-critical applications on the shared client/server network must do network planning and modeling and traffic simulation. "But in reality, most people probably just buy what they can afford. Capacity planning tools are not designed to tell you what you really need, but to help you justify to upper management that you need more money," says Dyson. <BR>
+<i>-- L.G.P.</i><P>
+<P>
+<font size=1>Copyright (c) 1996 Ziff-Davis Publishing Company. All rights reserved. Reproduction in whole or in part in any form or medium without express written permission of Ziff-Davis Publishing Company is prohibited. PC Week and the PC Week logo are trademarks of Ziff-Davis Publishing Company. PC Week Online and the PC Week Online logo are trademarks of Ziff-Davis Publishing Company.</font>
+<p>
+
+<center>
+<a href="index.html">[ Home ]</a>
+<a href="hacker.html">[ Products ]</a>
+<a href="news.html">[ News ]</a>
+<a href="links.html">[ Links ]</a>
+<a href="contact.html">[ Contact ]</a>
+</center>
+
+</body>
+</html>
+
+
+</DOC>

@@ -1,0 +1,124 @@
+
+<DOC>
+<DOCNO>WT03-B16-11</DOCNO>
+<DOCOLDNO>IA074-000483-B008-298</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg014.html 128.125.48.102 19970125004504 text/html 4990
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:43:29 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 4759
+Last-Modified: Wed, 15 Jan 1997 02:01:32 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDREXP" HREF="icswg013.html#PToC_803">Supported key lengths and encryption modes</A></H1>
+Encryption Modes
+<P>
+The U.S. regulates products used for encryption and prohibits
+their export unless their key size is strictly limited.
+This chapter summarizes the key sizes and the SSL
+encryption modes for U.S. and export products.
+These key sizes and encryption modes are dictated
+by U.S. export rules.
+<P>
+Customers in the U.S. and Canada can install the U.S.-Canadian version
+or the export version of the Internet Connection Secure Server.
+<P>
+<P><A HREF="icswgmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_804 HREF="#Header_804" >Public and private keys</A>
+<LI><A NAME=PToC_807 HREF="#Header_807" >SSL encryption modes</A>
+</MENU><HR><P>
+<HR>
+<H2><A NAME="Header_804" HREF="#PToC_804">Public and private keys</A></H2>
+<P>
+Public and private keys are used to encrypt and decrypt messages,
+data, and message digests.
+They are also used for creating message digests
+as part of digital signature.
+<P>
+<H5><A NAME="Header_805">Key sizes for U.S.-Canadian version</A></H5>
+<P>
+The U.S.-Canadian version of the server can do the following:
+<UL COMPACT>
+<LI>Generate keys from 508-1024 bits
+<LI>Encrypt data with keys from 508-1024 bits
+<LI>Sign data with keys from 508-1024 bits
+<LI>Check signatures with keys from 508-1024 bits
+</UL>
+<P>
+<H5><A NAME="Header_806">Key sizes for export version</A></H5>
+<P>
+The export version of the server can do the following:
+<UL COMPACT>
+<LI>Generate keys from 508-512 bits
+<LI>Encrypt data with keys from 508-512 bits
+<LI>Sign data with keys from 508-1024 bits
+<LI>Check signatures with keys from 508-1024 bits
+</UL>
+<P>
+As US export laws are updated, the supported key lengths
+and algorithms
+are subject to change.
+Refer to the Internet Connection Family web site at
+<VAR>http://ics.raleigh.ibm.com</VAR>
+for the
+latest information.
+<HR>
+<H2><A NAME="Header_807" HREF="#PToC_807">SSL encryption modes</A></H2>
+<P>
+SSL uses a security handshake to initiate the TCP/IP connection
+between the client and the server.
+During the handshake, the client and server agree on the level
+of security they will use, and the client authenticates the server.
+After that, SSL is used to encrypt and decrypt
+the information in both the request and the server
+response.
+<P>
+<H5><A NAME="Header_808">SSL modes for U.S.-Canadian version</A></H5>
+<UL COMPACT>
+<LI>RC4 128 bit
+<LI>RC2 128 bit
+<LI>DES 56 bit
+<LI>Triple DES (EDE) 192 bit
+</UL>
+<P>
+<H5><A NAME="Header_809">SSL Modes for export version</A></H5>
+<UL COMPACT>
+<LI>RC4 export (128 bit, 40 secret)
+<LI>RC2 export (128 bit, 40 secret)
+<LI>DES 56 bit
+</UL>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg013.html">Previous Page</A> &#124; <A HREF="icswg015.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

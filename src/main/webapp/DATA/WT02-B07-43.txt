@@ -1,0 +1,372 @@
+
+<DOC>
+<DOCNO>WT02-B07-43</DOCNO>
+<DOCOLDNO>IA095-001027-B010-234</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/publications/pp240911.html 205.177.10.31 19970215011213 text/html 15728
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 01:10:53 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>CDT Policy Post No. 24 -- Administration's New Crypto Conference 
+Flops at Conference</title>
+</head>
+<body>
+<pre>
+
+------------------------------------------------------------------------
+   ******    ********    *************
+  ********   *********   *************
+  **         **      **       ***               POLICY POST
+  **         **      **       ***
+  **         **      **       ***               September 11, 1995
+  **         **      **       ***               Number 24
+  ********   *********        ***
+   ******    ********         ***
+
+  CENTER FOR DEMOCRACY AND TECHNOLOGY
+------------------------------------------------------------------------
+  A briefing on public policy issues affecting civil liberties online
+------------------------------------------------------------------------
+CDT POLICY POST Number 24                       September 11, 1995
+
+CONTENTS: (1) Administration's New Crypto Policy Flops At Conference
+          (2) The Administration's Proposal
+          (2) Subcribe To The CDT Policy Post Distribution List
+          (3) About CDT, Contacting Us
+
+This document may be re-distributed freely provided it remains in its
+entirety.
+------------------------------------------------------------------------
+
+(1) ADMINISTRATION CRYPTO POLICY FLOPS AT CONFERENCE
+
+On September 6 and 7, the Clinton Administration unveiled a new national 
+cryptography policy at a conference sponsored by the National Institute 
+of Standards and Technology (NIST). 
+
+CDT believes that the new proposal fails to provide adequate privacy 
+protection, would effectively eliminate the domestic market for non-
+escrowed encryption applications, and is weighed too heavily toward the 
+interests of the National Security Agency.
+
+The administration has proposed to relax export controls on 
+cryptographic applications (both software and hardware) with key lengths 
+up to 64 bits provided that:
+
+* The keys required to decrypt a message or file are escrowed with an 
+  agent certified by the US government (including private entities)
+
+* The product does not decrypt messages or files encrypted with non-
+  escrowed products or products whose escrow mechanisms have been 
+  altered or disabled.
+
+* As well as eight other criteria (the proposal is attached below).
+
+NEW PROPOSAL FAILS TO ADHERE TO CRITERIA IN GORE LETTER TO CANTWELL.
+
+In a July 1994 letter to then Representative Maria Cantwell, Vice 
+President Gore announced that the Administration intended to re-examine 
+its cryptography policy. The Gore letter, which was widely viewed as an 
+abandonment of the Clipper Chip Government Key Escrow scheme, pledged to 
+develop a policy framework that would promote the development of 
+encryption systems that would meet the following criteria:
+
+* Implementation in hardware of Software
+* Public, Unclassified Algorithms
+* Voluntary
+* Forth Amendment privacy Safeguards
+* Statutory liability rules to protect users
+* Multiple Escrow Agents
+
+On hearing that the Administration had set out to develop a new 
+encryption policy based on the principles outlined in the Gore letter, 
+the Center for Democracy and Technology was guardedly optimistic that a 
+genuine policy breakthrough was possible.  However, having had the 
+opportunity to review the current proposal, every principle, except the 
+first (software implementation) and second (public algorithms), outlined 
+in the July 1994 letter is violated or, in one case, left in doubt, by 
+the September 1995 policy statement.
+
+The September 1995 policy statement diverges from the July 1994 letter 
+in the following critical respects.  In our view, these divergences 
+represent fundamental defects in the proposed policy.
+
+* NOT VOLUNTARY:  The current proposal effectively compels all domestic 
+  users to use key escrow systems if they ever intend to communicate 
+  internationally.  Point 6 of the export criteria requires that an 
+  exportable system must not interoperate with any system that non-
+  escrow systems.  Thus, in order for a user in the United States to 
+  communicate with anyone who uses a United States-made system on the 
+  Internet but outside of the United States, the American user must 
+  employ a key escrow system.  Domestic users are not legally compelled 
+  to use key escrow products, but the proposed policy forces, in 
+  practice, all but the most insular Internet user toward a key escrow 
+  system. Moreover, this proposal further illustrates that the 
+  Administration seeks to use export controls to push the domestic use 
+  of escrowed cryptography. A policy based on such compulsion can hardly 
+  be called voluntary. 
+
+* INADEQUATE SECURITY:  Point 1 precludes export of systems with key 
+  lengths beyond 64 bits.  Though this key size is larger than what is 
+  currently exportable, it is a level of security already judged 
+  inadequate for some applications.  Given the rate at which computing 
+  power increases, even a 64 bit key would be subject to attach before 
+  long. Ironically, even the Clipper Chip provided a stronger (80 bit) 
+  key length
+
+  The premise of the key escrow policy is to provide law enforcement 
+  and national security agencies a "front door" to be used to decrypt 
+  messages when the agency obtains proper legal authorization.  Yet, the 
+  architects of the current policy apparently are not willing to trust 
+  that key escrow systems will meet law enforcement needs inasmuch as 
+  the key length limit suggests that the Administration is intent on 
+  maintaining an extra-legal method of decrypting communications.  The 
+  Gore letter contains no suggestion that key escrow systems would also 
+  be subject to key length limits but the Administration seems to have 
+  lost faith in its own proposal.  Such a half-hearted effort cannot be 
+  the basis of a long-lasting policy.
+
+* NO PRIVACY PROTECTION FOR USERS OF ESCROWED SYSTEMS:  The ten export 
+  principles make no mention of privacy safeguards which the Vice 
+  President previously recognized as necessary to safeguard individual 
+  privacy and Fourth Amendment principles.  Any escrow policy must 
+  contain safeguards against abuse and statutory liability provisions 
+  for the operators of private escrow systems.
+
+* FAILS TO PROMOTE INTERNATIONAL INTEROPERABILITY:  Points 6 and 10 of 
+  the export criteria raise grave doubts as to the likelihood that the 
+  current proposal will give rise to a secure global communications 
+  environment.  Point 10 forces users in other countries (and their 
+  governments) to accept United States-based escrow of all keys until 
+  bilateral access agreements are entered into.  Such tactics seem 
+  unlikely to produce satisfactory international agreements, and hold 
+  global communications security hostage to the completion of such 
+  agreements.
+
+NSA/ADMINISTRATION SEEK TO RUSH IMPLEMENTATION OF NEW POLICY
+
+The NIST Key escrow conference was billed as an opportunity to begin a 
+dialogue between the administration and industry on the new cryptography 
+policy. However, as the conference began it quickly became apparent that 
+many of the critical policy issues, including the 64 bit key length, 
+interoperability with non-escrow products, and some requirements for key 
+escrow agents (including whether individuals, corporations, and foreign 
+entities are eligible) have already been decided. 
+
+The Administrations attempt to rush many of the critical policy 
+decisions drew sharp reaction from virtually all of the conference 
+participants, including CDT, other public interest groups, and 
+representatives from several major software and hardware manufacturers. 
+Although the administration and NSA officials all indicated that they 
+got the message, they still intend to publish a revised policy in the 
+next 30 days for comment.
+
+INDUSTRY BALKS
+
+Industry reaction to the new policy proposal was, with a few limited 
+exceptions, decidedly negative. Both during formal presentations and in 
+small group sessions, representatives from several of the largest 
+hardware manufacturers and software publishers questioned whether the 
+market would support products designed to adhere to the administration's 
+proposal, particularly in light of the 64 bit key length limit.
+
+CDT believes that the administration must make every effort to 
+accommodate the concerns of the public, civil liberties groups, software 
+publishers, hardware manufacturers, users, and other interested parties 
+before adopting any new national cryptography policy. The current 
+proposal fails to address many of the critical concerns of public 
+interest groups and industry, and should be abandoned.
+
+NEXT STEPS
+
+The administration intends to published a revised policy within the next 
+30 days (October 7). CDT will closely monitor this issue and will inform 
+you as it develops.
+
+PATHS TO RELEVANT DOCUMENTS:
+
+More information, including CDT's testimony from the NIST conference,
+other conference documents, etc. can be found at CDT's Crypto Issues 
+Page:
+
+URL:http://www.cdt.org/crypto.html
+
+------------------------------------------------------------------------
+
+(2) THE ADMINISTRATION'S NEW CRYPTOGRAPHY POLICY
+
+9/1/95 Proposed Cryptography Policy for Software Key Escrow
+
+Key Escrow Issues Meeting, September 6-7, 1995
+Discussion Paper #3
+
+            Export Criteria Discussion Draft --
+           64-bit Software Key Escrow Encryption
+
+As discussed at the SPA/AEA meeting on August 17, 1995, the
+Administration is willing to allow the export of software
+encryption provided that the products use algorithms with key
+space that does not exceed 64 bits and the key(s) required to
+decrypt messages/files are escrowed with approved escrow agents. 
+On the same date, the September 6-7 key escrow issues meeting at
+NIST was also announced.  The two principal topics at the meeting
+will be:  discussion of issues of exportability of 64-bit
+software key escrow encryption and 2) desirable characteristics
+for key escrow agents. 
+
+In order to help make most productive use of the limited time
+available at the upcoming meeting and to better focus
+deliberation, the following criteria are being distributed for
+discussion purposes.  Since it is important that final criteria
+be clear, straightforward, consistent, and implementable, please
+review these draft criteria and be prepared to discuss 
+how they may be refined and made more specific.  
+
+                          --- Draft Export Criteria ---
+
+for Software Key Escrow Encryption 
+
+Software key escrow encryption products meeting the following
+criteria will be granted special export licensing treatment
+similar to that afforded other mass-market software products with
+encryption.  
+
+1.    The product will use an unclassified encryption algorithm
+      (e.g., DES, RC4) with a key length not to exceed 64 bits.
+
+2.    The product shall be designed to prevent multiple
+      encryption (e.g., triple-DES).
+
+3.    The key required to decrypt each message or file shall be
+      accessible through a key escrow mechanism in the product,
+      and such keys will be escrowed during manufacture in
+      accordance with #10.  If such keys are not escrowed during
+      manufacture, the product shall be inoperable until the key
+      is escrowed in accordance with #10.
+
+4.    The key escrow mechanism shall be designed to include with
+      each encrypted message or file, in a format accessible by
+      authorized entities, the identity of the key escrow
+      agent(s), and information sufficient for the escrow
+      agent(s) to identify the key or key components required to
+      decrypt that message.
+
+5.    The product shall be resistant to any alteration that would
+      disable or circumvent the key escrow mechanism, to include
+      being designed so that the key escrow mechanism cannot be
+      disabled by a static patch, (i.e., the replacement of a
+      block of code by a modified block).
+
+6.    The product shall not decrypt messages or files encrypted
+      by non-escrowed products, including products whose key
+      escrow mechanisms have been altered or disabled.
+
+7.    The key escrow mechanism allows access to a user's
+      encrypted information regardless of whether that user is
+      the sender or the intended recipient of the encrypted
+      information.
+
+8.    The key escrow mechanism shall not require repeated
+      involvement by the escrow agents for the recovery of
+      multiple decryption keys during the period of authorized
+      access.
+
+9.    In the event any such product is or may be available in the
+      United States, each production copy of the software shall
+      either have a unique key required for decrypting messages
+      or files that is escrowed in accordance with #10, or have
+      the capability for its escrow mechanism to be rekeyed and
+      any new key to be escrowed in accordance with #10.
+
+10.   The product shall accept escrow of its key(s) only with
+      escrow agents certified by the U.S. Government or by
+      foreign governments with which the U.S. Government has
+      formal agreements consistent with U.S. law enforcement and
+      national security requirements.
+
+Note: Software products incorporating additional encryption
+methods other than key escrow encryption methods will be
+evaluated for export on the basis of each encryption method
+included, as is already the case with existing products. 
+Accordingly, these criteria apply only to the key escrow
+encryption method incorporated by a software product, and not to
+other non-escrowed encryption methods it may incorporate.  For
+instance, non-escrowed encryption using a key length of 40 bits
+or less will continue to be exportable under existing export
+regulations.
+
+------------------------------------------------------------------------
+
+(3) HOW TO SUBSCRIBE TO THE CDT POLICY POST LIST
+
+CDT Policy Posts, which is what you have just finished reading, are the 
+regular news publication of the Center For Democracy and Technology. CDT 
+Policy Posts are designed to keep you informed on developments in public 
+policy issues affecting civil liberties online.
+
+SUBSCRIPTION INFORMAITON
+
+1. SUBSCRIBING TO THE LIST
+
+To subscibe to the policy post distribution list, send mail to 
+"Majordomo@cdt.org" with:
+
+    subscribe policy-posts 
+
+in the body of the message (leave the subject line blank)
+
+
+2. UNSUBSCRIBING FROM THE LIST
+
+If you ever want to remove yourself from this mailing list,
+you can send mail to "Majordomo@cdt.org" with the following command
+in the body of your email message:
+
+    unsubscribe policy-posts youremail@local.host (your name)
+
+(leave the subject line blank)
+
+-----------------------------------------------------------------------
+(4) ABOUT THE CENTER FOR DEMOCRACY AND TECHNOLOGY/CONTACTING US
+
+The Center for Democracy and Technology is a non-profit public interest
+organization. The Center's mission is to develop and advocate public
+policies that advance constitutional civil liberties and democratic
+values in new computer and communications technologies.
+
+Contacting us:
+
+General information on CDT can be obtained by sending mail to 
+info@cdt.org
+
+World-Wide-Web:
+
+   http://www.cdt.org/
+
+ftp:
+
+   ftp://ftp.cdt.org/pub/cdt/
+
+snail mail:
+
+Center For Democracy and Technology
+1001 G Street, NW Suite 700 East
+Washington, DC 20001
+voice: +1.202.637.9800
+fax:   +1.202.637.0968
+                                  ###
+
+</pre>
+<hr size = 2>
+Return to the <a href = "pubs.html">CDT Publications Index</a><br>
+Return to the <a href = "../crypto.html">CDT Crypto Issues Page</a><br>
+Return to the <a href = "../index.html">CDT Home Page</a><br>
+
+</body>
+</html>
+
+</DOC>

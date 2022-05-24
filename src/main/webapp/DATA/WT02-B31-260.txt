@@ -1,0 +1,212 @@
+
+<DOC>
+<DOCNO>WT02-B31-260</DOCNO>
+<DOCOLDNO>IA020-000210-B033-128</DOCOLDNO>
+<DOCHDR>
+http://sandcastle-ltd.com:80/related.html 199.35.141.30 19970107121446 text/html 8814
+HTTP/1.0 200 OK
+Date: Tue, 07 Jan 1997 12:16:10 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 8643
+Last-modified: Fri, 20 Dec 1996 03:11:13 GMT
+</DOCHDR>
+<html>
+<head>
+        <title>Security Related Utilities</title>
+</head>
+
+<body bgcolor="#ffffff" TEXT="#000000" LINK="#0000ff" ALINK="#ff0000" VLINK="#175A73">
+
+<center>
+<table>
+	<tr>
+       <td align=right valign=top><img src="Objects/leftsq.gif"></td>
+       <td align=center valign=top><h1><i>Security Related Utilities</i></h1></td>
+       <td align=left valign=top><img src="Objects/rightsq.gif"></td>
+    </tr>
+</table>
+</center>
+
+<table border="2" width="100%">
+	<tr>
+		<td align="center"><a target="reference" href="http://www.almondseed.com/auu.html">
+		Almond Utilities</a></td>
+		<td>UNIX version of Norton Utilities. Includes U.S. DOD approved ScrubDisk and ScrubFile.</td>
+	</tr>
+	<tr>
+		<td align="center"><a target="reference" href="ftp://sable.ox.ac.uk/pub/comp/security/software/crackers/">
+		Crack</a></td>
+		<td>A password cracker.</td>
+	</tr>	
+    <tr>
+        <td align="center"><a target="reference" href="ftp://garbo.uwasa.fi/pc/security/crypl110.zip">
+		cryptlib</a></td>
+        <td>This encryption library provides a universal
+        interface to a number of conventional and public-key
+        encryption algorithms. </td>
+    </tr>
+    <tr>
+        <td align="center"><a target="reference" href="ftp://coast.cs.purdue.edu/pub/tools/unix/satan/defenses/courtney/">
+		Courtney</a></td>
+        <td>Program to detect SATAN scans.</td>
+    </tr>
+    <tr>
+        <td align="center"><a target="reference" href="http://www.lat.com/gabe.htm">
+		Gabriel</a></td>
+        <td>Network probe detector for SATAN.</td>
+    </tr>
+	<tr>
+		<td align="center"><a target="reference" href="ftp://ftp.freebird.org/unixware/freebird/internet/systools/harden">
+			Harden</a></td>
+		<td>Harden is a software tool to "harden" a system to be a secure Internet/Intranet/
+			Partner-Net server.</td>
+	</tr>	
+    <tr>
+        <td align="center"><a target="reference" href="http://www.almac.co.uk/business_park/mis/iwall.htm">
+		Ironwall</a></td>
+        <td>IronWall is an encryption-based access and data
+        security system, controlling who can log onto your
+        computer, what files and directories they can read and
+        what ports and devices they can access.</td>
+    </tr>
+    <tr>
+        <td align="center"><a target="reference" href="http://nii.isi.edu/info/kerberos">
+		Kerberos</a></td>
+        <td>Kerberos is a network authentication system for use
+        on physically insecure networks, based on the key
+        distribution model presented by Needham and Schroeder.
+        <font size="1"> </font><a target="reference" href="mailto:kerberos-request@mit.edu"><font size="1">[Mailing
+        List]</font></a><font size="1"> </font>
+	<a target="reference" href="http://www.ov.com/misc/krb-faq.html"><font size="1">[FAQ]</font></a> 
+        </td>
+    </tr>
+	<tr>
+		<td align="center"><a target="reference" href=ftp://wzv.win.tue.nl/pub/security/>
+			logdaemon</a></td>
+		<td>The logdaemon kit contains a set of security enhanced system utilities including
+		ftpd, login, rexec, rlogin, and rsh. <font size="1"><a href="mailto:majordomo@wzv.win.tue.nl">[Mailing List]</a>Body: subscribe logdaemon-announce</font></td>
+    </tr>
+    <tr>
+        <td align="center"><a target="reference" href="http://www.integralis.co.uk/integral/products/mimeswee/mime.html">
+			MIMEsweeper</a></td>
+        <td>MIMEsweeper is an email router which automatically
+        and transparently scans both incoming and outgoing email
+        for the presence of viruses or macro bombs within
+        attachments. All suspect messages are quarantined before
+        reaching the user and potentially causing damage to your
+        network. </td>
+    </tr>
+	<tr>
+		<td align="center"><a target="reference" href="ftp://ftp.dartmouth.edu/pub/security/">
+			Passwd+</a></td>
+		<td>Passwd+ is a proactive password checker which replaces the system passwd command.
+		 It enforces the selection of good passwords.</td>
+	</tr>
+    <tr>
+        <td align="center"><a target="reference" href="http://web.mit.edu/network/pgp.html">
+			PGP</a></td>
+        <td>PGP (short for Pretty Good Privacy) is a high-security
+        cryptographic software application that allows people to
+	exchange messages with both privacy and authentication.</td>
+	</tr>
+	<tr>
+		<td align="center"><a target="reference" href=ftp://wzv.win.tue.nl/pub/security/>
+			S/Key</a></td>
+		<td>One time password scheme. S/Key can be found in the logdaemon package.</td>
+    </tr>
+	<tr>
+		<td align="center"><a target="reference" href="ftp://ftp.cs.widener.edu/pub/src/adm/">
+			Shadow</a></td>
+		<td>This package includs everything that is necessary to impliment a shadow password
+		 file.</td>
+	</tr>
+	<tr>
+		<td align="center"><a target="reference" href="http://skip.incog.com/">
+			SKIP</a></td>
+		<td>SKIP - Simple Key management for Internet Protocols.</td> 	
+	</tr>
+    <tr>
+        <td align="center"><a target="reference" href="http://www.cs.hut.fi/ssh/">Secure Shell
+        (ssh)</a></td>
+        <td>Ssh (Secure Shell) is a program to log into another
+        computer over a network, to execute commands in a remote
+        machine, and to move files from one machine to another.
+        It provides strong authentication and secure
+        communications over insecure channels. <a
+        target="reference" href="http://www.uni-karlsruhe.de/~ig25/ssh-faq/"><font
+        size="1">[FAQ]</font></a></td>
+    </tr>
+    <tr>
+        <td align="center"><a target="reference" href="http://www.psy.uq.oz.au/~ftp/Crypto/">
+			SSLeay</a></td>
+        <td>SSLeay is a free implementation of Netscape's Secure
+        Socket Layer - the software encryption protocol behind
+        the Netsite Secure Server and the Netscape Browser. <a
+        target="reference" href="http://www.psy.uq.oz.au/~ftp/Crypto/"><font
+        size="1">[FAQ]</font></a><font size="1"> </font><a
+        target="reference" href="ftp://ftp.psy.uq.oz.au/pub/Crypto/SSL/"><font
+        size="1">[Source FTP]</font></a><font size="1"> </font><a
+        target="reference" href="ftp://ftp.psy.uq.oz.au/pub/Crypto/SSLapps/"><font
+        size="1">[Apps FTP]</font></a></td>
+    </tr>
+    <tr>
+        <td align="center"><a target="reference" href="ftp://idea.sec.dsi.unimi.it/cert-it/stel.tar.gz">
+			STEL</a></td>
+        <td valign="top">STEL is a free telnet surrogate which
+        provides strong mutual authentication, encryption, secure
+        file transfer, automatic s/Key password generation,
+        centralization and management of S/Key passwords and
+        more.</td>
+    </tr>
+    <tr>
+        <td align="center"><a target="reference" href="ftp://ftp.cert.org/pub/tools/tcp_wrappers">
+			tcp_wrapper</a></td>
+        <td>With this package you can monitor and filter incoming requests for the
+		SYSTAT, FINGER, FTP, TELNET, RLOGIN, RSH, EXEC, TFTP, TALK, and other
+		network services.</td>
+    </tr>
+    <tr>
+        <td align="center"><a target="reference" href="ftp://ftp.cert.org/pub/tools/tripwire">
+			tripwire</a></td>
+		<td>Tripwire is a file and directory integrity checker, a utility that
+		compares a designated set of files and directories against information
+		stored in a previously generated database.</td>
+    </tr>
+    <tr>
+        <td align="center"><a target="reference" href="http://netra.mcafee.com:80/prod/av/webscan.html">
+			WebScan</a></td>
+        <td>Industry's fire secure anti-virus solution for Network Firewalls <a
+        target="reference" href="http://netra.mcafee.com:80/corp/press/051496.html"><font
+        size="1">[Press release]</font></a></td>
+    </tr>
+	<tr>
+		<td align="center"><a target="reference" href="ftp://wuarchive.wustl.edu/packages/wuarchive-ftpd/">
+		Wu-ftpd</a></td>
+		<td>A replacement ftp server for UNIX systems that many features including extensive
+		 logging and a way of limiting number of ftp users. </td>
+	</tr>
+	<tr>
+		<td align="center"><a target="reference" href="ftp://qiclab.scn.rain.com/pub/security/">
+		Xinetd</a></th>
+		<td>A replacement for inetd which has extensive logging and access control
+		 capabilities for both TCP and UDP services.</td>
+	</tr>	
+</table>
+<table width="100%">
+    <tr>
+        <td align="center" colspan="3"><font size="2">
+        Copyright &copy; 1996 <a href="http://www.SandCastle-Ltd.com">SandCastle Ltd.</a>
+		All rights reserved.
+        <br>
+        Use this information at your own risk.<BR>
+        Neither SandCastle Ltd. nor any of its employees shall be liable<BR>
+        for any damage or losses inccured by using the information provided here.
+        </font></td>
+    </tr>
+</table>
+
+<a href="software.html"><img src="Images/back.gif" alt="Previous" border=0></a>
+</body>
+</html>
+</DOC>

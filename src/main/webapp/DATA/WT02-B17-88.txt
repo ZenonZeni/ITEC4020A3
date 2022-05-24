@@ -1,0 +1,169 @@
+
+<DOC>
+<DOCNO>WT02-B17-88</DOCNO>
+<DOCOLDNO>IA060-000330-B035-6</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/hydrogen/modeling.htm 205.168.79.27 19970115051157 text/html 4360
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 05:12:00 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 08 Jul 1996 22:35:26 GMT
+Content-length: 4186
+</DOCHDR>
+<HTML>
+<head>
+<title>Hydrogen InfoNet</title>
+</head>
+<body>
+
+<B>Modeling Biomass Pyrolysis for Hydrogen Production;<br>
+
+Josette Bellan, Principal Investigator, <br><a 
+href="http://www.jpl.nasa.gov">Jet Propulsion Laboratory, California 
+Institute of Technology </a></B>
+
+<P>
+
+Hydrogen production from biomass is a technology for clean fuel 
+production.  Biomass is 
+
+readily available in most parts of the world, and hydrogen is an 
+extremely clean and versatile 
+
+fuel.  What remains to be demonstrated is efficient hydrogen production 
+from biomass, and thus 
+
+commercial attractiveness.
+
+<P>
+
+In collaboration with the National Renewable Energy Laboratory (NREL), 
+we are modeling 
+
+biomass fast-pyrolysis reactors.  NREL provides, based upon experimental 
+observations, the 
+
+initial and boundary conditions for the calculations as well as the data 
+for model validation.  Our rationale is that, whereas experiments can 
+provide quantitative information about discrete regimes of operation, the 
+numerical results from model-based calculations can provide a predictive 
+tool to determine optimum regimes.  
+
+<P>
+
+We have developed a multilevel model of conservation equations 
+describing injected clusters of 
+
+spherical porous biomass particles that are followed on their 
+trajectories as they slide on the 
+
+helical reactor wall.  The inner-most level describes the behavior of a 
+single particle immersed in 
+
+hot gaseous surroundings, undergoing heating to produce char, tar and 
+volatiles.  The tar further 
+
+reacts to produce volatiles.  The particle model is based on the 
+fundamental transient, 
+
+spherically-symmetric conservation equations for mass, species, momentum 
+and energy.  These 
+
+account for gas species convection and diffusion through the particle 
+voids, for heating by 
+
+conduction and radiation, and for kinetic reactions.  The kinetic 
+schemes are given by volumetric 
+
+reactions and follow the reactions up to the production of the secondary 
+vapor.  Interaction of 
+
+the particle with the wall and with the turbulent boundary layer on the 
+wall represent the next 
+
+levels in the model.  Boundary conditions couple the different levels of 
+the model.  Submodels 
+
+for liquid scraping on the wall and for particle heating by the wall 
+through the liquid film are part 
+
+of the coupling.
+
+<P>
+
+<b><I>Recent Advances</I></b>:
+
+<P>
+
+At NREL on 4/2/96, a JPL staff member presented our results,
+
+and further conversations resulted in the decision that JPL will
+
+try to correlate hemicellulose and wood kinetics from literature
+
+data with NREL's help; NREL will make initial estimates of the
+
+heats of reactions based on bond breaking and bond formation.
+
+ We visited laboratories at NREL and were informed that the small
+
+fluidized-bed reactor needed to be optimized.
+
+<P>
+
+A new wood kinetic scheme is being developed that incorporates
+
+all the major facts about wood kinetics.  Among the three major
+
+wood components (cellulose, hemicellulose, and lignin), lignin
+
+produce the most char.  Among the three major wood components,
+
+hemicellulose decomposes first; hemicellulose has a rate of reaction
+
+about one order of magnitude larger than cellulose.  Lignin decomposes
+
+over a much wider range of temperatures than cellulose and hemicellulose
+
+
+but has the smallest rate of decomposition.  The information used
+
+for correlation is from limited but relevant sources, so as to
+
+leave enough capacity for further comparison with data not used
+
+in the correlation; this is the only way to ensure that the kinetics
+
+is representative and not merely a &quot;calibration.&quot;  The
+
+new kinetic scheme will be tested against all relevant, known
+
+experimental information.
+
+<P>
+
+We compared our new kinetics with kinetics in the literature and
+
+with the data of Scott et al., and we compared our new kinetics for 
+lignin
+
+with data on lignin residual mass fraction.  Our work included
+
+duplication of the residual weight versus temperature for different
+
+heating rates from Koufopanos et al.  This is only kinetic information;
+
+additional information on energetics will be used in the particle
+
+model that has already been developed.
+
+<P>
+
+
+
+</body>
+
+</HTML>
+
+</DOC>

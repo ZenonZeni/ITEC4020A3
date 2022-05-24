@@ -1,0 +1,65 @@
+
+<DOC>
+<DOCNO>WT01-B04-41</DOCNO>
+<DOCOLDNO>IA080-000557-B034-316</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/ExRobs.html 137.79.14.197 19970103071303 text/html 11263
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f2ac.321@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:18:04 GMT
+Last-Modified: Monday, 29-Jan-96 18:06:22 GMT
+Content-type: text/html
+Content-length: 11018
+</DOCHDR>
+<TITLE>JPL EXPLORATION ROBOTICS</title>
+<img src="logo.gif"><img src="Rover.GIF"><p>
+<H1>EXPLORATION ROBOTICS:  ARCHIVE - DEC. 1994</h1>
+<H3>PLANETARY ROVER TECHNOLOGY</h3>
+
+<B><I>The microrovers that are currently the focus of the rover technology program draw from a large technology base in larger rovers and control strategies designed and tested in the 1980's.</i></b><p>
+
+<B>Mars Rovers for Sample Return:  1980's View</b><p>
+
+<B>Robby:  </b>
+Robby is a six-wheeled, three-body, articulated vehicle that offers enhanced mobility compared to a conventional four-wheeled, single body vehicle.  The three-cab design allows the front and rear cabs to steer and roll with respect to the vehicle center-line, and the vehicle hinges about the center axle as well to allow the six wheels to comply to complex terrain geometry.  Figure 1 illustrates Robby navigating in outdoor terrain. 
+This vehicle provided a substantial technology base in navigation and remote control to support development of the microrovers which are currently the focus of this program.  Some of these control strategies are outlined below.<p>
+<img src="Robby.gif">
+<H5>P-35715 Bc</h5><p>
+<H4>Fig. 1 Robby, A Planetary Rover Testbed Navigating in Outdoor Terrain</h4><p>
+<H5>Point of Contact:  B. H. Wilcox, wilcox@robotics.jpl.nasa.gov</h5><p>
+
+<B>Rover Control Strategies:  </b>
+Rover control and navigation is one the key technologies where JPL has made significant contributions.  Operation of rovers with some form of remote or semi-autonomous control is desirable to reduce the cost and increase the capability and safety of many types of missions.  However, the long time delays and relatively low bandwidths associated with radio communications between planets preclude a total “telepresence” approach to controlling the vehicle.  Different control implementations with varying degrees of human supervision can be contrasted; three of these developed at JPL are illustrated by Computer Aided Remote Driving (CARD), Semiautonomous Navigation (SAN), and Behavior Control. Each of these represents points on a continuous spectrum of human-machine interaction.  With CARD, stereo pictures from the rover are sent to Earth, where they are viewed by a human operator using a stereoscopic display.  The operator designates a path using a 3-D cursor, giving a safe path for the vehicle to follow as far ahead as the operator can see accurately in three dimensions.  A ground based computer computes the turn angles and path segment distances that correspond to the designated path.  The information is then up-linked to the rover for execution, and the process repeats.  With Semiautonomous Navigation, local routes are planned autonomously using range information obtained on the vehicle, guided by global routes planned on Earth using a topographic map which is obtained from images produced by a satellite orbiting the planet of interest.  Expectations are monitored, and a perception-planning-monitoring-execution cycle is instantiated.  In Behavior Control, an approximate range and heading to a goal location is up-linked to the vehicle which attempts to reach it’s destination by autonomously instantiating sensor- based reactive behaviors of varying complexity.  These might include obstacle avoidance, search for specific features, sample acquisition, etc.  Behaviors can be combined and layered to give more robust and richer overall system performance.  Important considerations in choice between alternative control techniques concern robustness, predictability, and validation for mission use on one hand, and computational, sensor, and other resource requirements on the other.<p>
+<B>B. Microrovers</b><p>
+In response to NASA's goals of implementing more affordable, faster, better missions, the JPL Rover and Telerobotics Technology Program has a thrust in miniature rovers to do science and exploration missions which can serve as precursors to larger robotic and possibly manned missions.  This includes a complete system (i.e. microrover, lander, and control station) developed from the outset using science requirements and potential flight constraints as drivers (plausible mass, power, communication, and computation).<p>
+<B>Rocky-4:  </b>
+The Rocky-4 chassis is a springless suspension system called the “rocker-bogie,” which consists of two pairs of rocker arms or “bogies.”  Each pair consists of a main rocker arm and a secondary arm whose pivot point is at the front end of the main arm.  The two rocker-arm assemblies are connected through a differential gear at the center of gravity.  The main body of the robot is mounted on the differential.  The pitch of the main body is thus the average pitch of the two rocker-arm assemblies, providing a stable mount for instruments and sensors.  Rocky-4 is 61 cm long , 38 cm  wide and 36 cm  high.  The rover has six 13 cm diameter  wheels made of strips of steel foil and cleats to provide traction.  It weighs about 7 kilograms  but eventually may have to be scaled down to 5 kg for inclusion in future missions (e.g. Mars Surveyor).  There is a motor in the hub of each wheel so the vehicle can be steered by its front or rear wheels.  The suspension system is unique in that it does not use springs and provides a great degree of stability for traversing rocky, uneven targets including rocks as high as 18 cm.  Proximity and tilt sensors are used to prevent rollover.<p>
+<B>Mars Science Microrover Demonstration.  </b>
+A ground based demonstration of relevant capability was performed at JPL in June 1992 using Rocky-4.  The experiment demonstrated the (a) ability to deploy a small(<150 gm) seismometer within 5-10 meters from the lander, (b) ability to acquire a soil sample and return it to the lander, (c) ability to integrate and operate a small (<500 gm) spectrometer to determine mineralogical composition, (d) ability to conduct visible imaging (camera < 150 gm) of local terrain, (e) ability to navigate in a field with rock distribution similar to that seen in the Viking 1 mission, and (f) ability to remove 10-30 microns from a weathered rock to perform spectrometry.<p>
+This experiment suggested further study, several of which are currently being conducted.  These include safe operation of the rover without line-of-sight to the lander.  This involves the addition of proximity and ranging sensors on the microrover, fusion of ranging at the lander with imagery captured directly on the rover, addition of low-cost machine vision on the rover for terminal corrections, etc.  A number of technology and design measurements quantify the paths taken by the rover under various scenarios, determine designation accuracies, test macro-commanding options, measure the traversability of terrain, etc.  In addition, manipulation capability is being tested for instrument emplacement capability, surface grinding, and sample acquisition.  Improved algorithms for data compression can make a significant contribution.  Finally, tradeoffs of tether management vs. autonomy and flight electronic/software constraints needs to be further evaluated.<p>
+<img src="Rocky4.gif">
+<H5>JPL-19278 Ac</h5><p>
+<H4>Fig. 2 Rocky 4 During Mars Science Microrover Demonstration</h4>
+<H5>Point of Contact:  J. A. Cutts, james.a.cutts@jpl.nasa.gov</h5><p>
+
+<B>MFEX:  Microrover Flight Experiment</b><p>
+The success of the rover technology development and demonstration program led to a plan to incorporate a microrover with roughly the same size and control approach into the Mars Pathfinder mission.  This mission calls for a small landed package to arrive at Mars in July, 1997 with a lander and a microrover.  The MFEX is a focused rover flight demonstration program (distinct from the Rover and Telerobotics Technology Program) responsible for developing, building and operating the Mars Pathfinder microrover.  MFEX is part of the Office of Mars Exploration which is managed by Donna Shirley.  The current development model for the Mars Pathfinder microrover builds upon the technology provided by the Rover and Telerobotics Technology Program, but equips it with flight-like processors and sensors and deals with such other disciplines as telecommunications, power, and data compression.  The MFEX program offers the prospect that small rovers and small missions will accomplish the science objectives which were once believed to be possible only with larger rovers and multi-billion dollar missions.<p>
+<img src="MFEX.GIF"><p>
+<H4>Fig. 3 MFEX is part of the Pathfinder Mission to Mars</h4>
+<H5>Point of Contact:  D. L. Shirley, donna.l.shirley@cc:mail.jpl.nasa.gov</h5><p>
+
+<B>Microrovers Beyond Pathfinder</b><p>
+An active research and development program aimed at significant capabilities beyond the Pathfinder microrover is in place at JPL.  This technology base will greatly expand the current MESUR/Pathfinder micro-rover performance in the areas of goal identification, increased vehicle mobility, intelligent terrain navigation with in-situ
+resource management, and manipulation of science instrumentation.  The goal is to combine both research and system demonstrations to advance the state of rover technologies while maintaining flight program relevance.  Specific goals over the next four years are:  (1) Performance characterization of multiple short traverses over Viking I type terrain within sight of lander; (2) Fresh rock sampling mechanism integrated on rover, single science target confirmation, traverse variable terrain (VL I and VL II), deployable or pointable solar array; (3) 9-10 kg vehicle, thermal insulation, multiple science target confirmation, multiple sampling and instrument pointing/deployment modes, traverse with return to lander; (4) Miniaturized vehicle (goal is 5 kg); non line of sight traverse, component capabilities tested in vacuum chamber.<p>
+A series of rover vehicles are being used to conduct these tests.  Rocky 3.2 is a research vehicle shown in Fig. 4 that is being used to test and demonstrate the advanced rover technologies.  The Rocky 3.2 vehicle has been equipped with CCD imagers and laser stripe projectors which allow a wide range of plausible terrain hazards to be detected prior to a possible catastrophic engagement with the vehicle.  This rover is currently used for research in the rover technology program, which is developing hardware and algorithms for advanced science sampling, dense-hazard navigation, and further miniaturization of these rover systems.<p>
+<img src="rocky3.gif">
+<H5>P-43160 Ac</h5>
+<H4>Fig. 4 Rocky 3.2 Microrover Technology Beyond Pathfinder</h4><p>
+
+The rover technology program is being implemented with extensive university and industrial involvement in such areas as:  Sensor suites for long distance navigation on planetary surfaces; legged vs. wheeled vehicle mobility; virtual environment operator interfaces; robotic grasping devices; and behavior based obstacle avoidance and fault-tolerance.<p>
+<H5>Point of Contact:  W. Zimmerman, zimmerman@telerobotics.jpl.nasa.gov</h5><p>
+
+
+</DOC>

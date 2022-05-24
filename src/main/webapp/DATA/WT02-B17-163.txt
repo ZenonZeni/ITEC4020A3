@@ -1,0 +1,2479 @@
+
+<DOC>
+<DOCNO>WT02-B17-163</DOCNO>
+<DOCOLDNO>IA060-000326-B042-90</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/biopower/snowpapr.html 205.168.79.27 19970115014847 text/html 97125
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 01:48:50 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 30 Sep 1996 22:24:58 GMT
+Content-length: 96950
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Cost and Performance Analysis of Three Integrated Biomass Gasification Combined Cycle Power Systems</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+<CENTER><H2>Cost and Performance Analysis of Three Integrated Biomass Gasification
+Combined Cycle Power Systems</H2>
+Kevin R. Craig and Margaret K. Mann<BR>
+National Renewable Energy Laboratory<BR>
+Golden, CO 80401</CENTER>
+<P>
+<H3>Introduction</H3>
+Currently, there are approximately 8.5 GW of grid-connected biomass electrical
+generating capacity in the U.S., including that from landfill
+gas and municipal solid waste (see <A HREF="#fig1">Figure 1</A>).  Unfortunately,
+a substantial fraction of this existing capacity employs relatively
+unsophisticated and inefficient direct steam technology.  Average
+efficiencies for existing systems are less than 25%.  As a consequence,
+the size of a given biomass power installation historically has
+been limited by these low efficiencies and the amount of fuel
+within an economical transportation radius.  The resulting low
+output yields a high capital cost for these systems on a dollars
+per kilowatt basis ($/kW).  A number of recent developments are
+changing the nature and constraints of the biomass power option,
+however.
+<P>
+Significant technical advancements are being made that
+will allow for substantially increased utilization efficiency
+of biomass as a fuel.  Advanced gas turbine and combined cycle
+technology is being commercially deployed and demonstrated with
+natural gas as well as solid fuels such as coal through the use
+of gasification technology.  Biomass gasification technologies
+are also being developed and demonstrated.  Linking these conversion
+and utilization processes will nearly double current biomass electrical
+generation efficiencies.  Concurrently, DOE, NREL, and ORNL are
+actively pursuing development and demonstration of Dedicated Feedstock
+Supply Systems (DFSS).  Such systems would allow operation of
+plants requiring as much as 2000 dry T/day of biomass feed.  The
+combination of advancing technology and improved fuel supply will
+increase the feasible biomass power plant size into a range attractive
+to utilities, and thus expand the market for biomass power beyond
+the independent power producers and co-generators who have, to
+date, been the principal players in the biomass power industry.
+<P>
+Moreover, these biomass power systems will further leverage research
+dollars by directly and substantially benefitting from the technological
+advances being made by government and industry funded gas turbine
+and fuel cell development programs.  These utilization technologies
+are the subject of substantial development efforts, and are being
+demonstrated in integrated systems with coal gasifiers under the
+Clean Coal Technology Program.   
+<P>
+<A NAME="fig1"><CENTER><IMG SRC="images/fig1.gif"></CENTER></A>
+<P>
+<CENTER><STRONG>Figure 1.  Grid Connected Electricity from Renewables</STRONG></CENTER>
+<P>
+<H4>Purpose of Study</H4>
+The purpose of this study was
+to determine the efficiency and cost of electricity of IGCC systems
+incorporating biomass gasification technology.  The systems we
+examined incorporate state-of-the-art, commercially available
+aero-derivative and utility gas turbine technology as well as
+scale-appropriate modern steam cycle technology.  The resulting
+performance and cost numbers indicate the commercial potential
+for these systems, and define areas for continued and focused
+research.  We also examined different options for gas cleaning
+prior to combustion in the gas turbine combustor, and compared
+our results to previous studies on this subject.
+<H4>Systems Studied</H4>
+ASPEN simulations were performed on three biomass IGCC systems: an air-blown
+(i.e. direct-fired) pressurized fluidized bed gasifier of the
+type under development by the Institute of Gas Technology (IGT),
+the Battelle Columbus Laboratory (BCL) low pressure indirectly-heated
+biomass gasifier, and an air-blown low pressure gasifier similar
+to that developed by Thermiska Processor AB (TPS) in cooperation
+with ABB-Flakt.  Process development unit (PDU) experimental results,
+where available, provided the basis for gasifier performance predictions.
+A high degree of process integration between the gasifier and
+combined cycle was incorporated to maximize system efficiency.
+ The combined cycles investigated were based on aero-derivative
+and state-of-the-art utility gas turbines of appropriate sizes.
+ To make a direct comparison of different combined cycle systems,
+the high pressure direct-fired gasifier was integrated with both
+an aero-derivative gas turbine and an utility gas turbine.  The
+aero-derivative gas turbine selected for this study was the General
+Electric LM5000PC.  This unit has a higher pressure ratio (24.8)
+and firing temperature (in excess of 1150&#176;C) than the utility
+machines selected for most previous biomass IGCC studies.  The
+utility-scale gas turbine selected was the GE MS-6101FA, an advanced
+turbine that moves GE's "F" technology (high firing
+temperature, high efficiency) down to a 70 MW-class machine.
+<P> 
+Because of lower overall system efficiencies (as compared with
+the utility turbine case) and higher fuel pressures required,
+cases integrating the low pressure gasifiers with the LM5000 turbine
+were not considered.  All systems employing the utility turbine
+used a two-pressure reheat steam cycle.  The LM5000 case used
+a small, non-reheat steam cycle.  Gas cleanup in all cases included
+a tar cracker to reduce the quantity of higher hydrocarbon species
+in the gas, followed by gas cooling via direct or indirect quench
+to condense alkali species.  For the high pressure gasifier, a
+hot ceramic candle filter of the type being offered by Westinghouse
+and being demonstrated under the Clean Coal Technology Program
+was used to remove particulate matter including these condensed
+alkali compounds.  In this case, the quench step cooled the gas
+down to less than 538&#176;C.  Particulate removal in the low-pressure
+gasifier cases was accomplished with cyclones and a fabric filter.
+ The direct quench that follows in these latter cases reduces
+the fuel gas temperature to 96&#176;C in preparation for compression.
+<P>
+Other alternate designs that were studied include greenfield plant construction
+instead of an existing plant site basis, indirect cooling of the
+synthesis gas, various levels of humidification of the syngas,
+and different moisture levels of the feedstock.  It should be
+noted that not all of these variations were examined with each
+gasifier combined cycle system.  Performance, cost, and economic
+data were developed for each of the cases tested, and are presented
+in this report.
+<H3>Methodology</H3>
+The intent
+of this study was to evaluate the ultimate potential for application
+of IGCC technology to biomass-based power systems of large scale
+(&gt; 30 MWE).  Therefore, the plant designs examined were assumed
+to be for mature, "n<SUP>th</SUP>-plant" systems.  The aggressive
+sparing and redundancies typically utilized for "first-plant"
+designs and the attendant cost associated with such an approach
+were not applied to the systems examined here.  However, the technology
+and equipment utilized in all of the system designs is currently,
+though not in all cases commercially, available.  In some cases,
+the technology selected for these systems is under development
+for increased reliability, availability, and maintainability.
+ However, projected technological advances that may result from
+on-going research were not included or assumed.
+<P>
+The base year of
+1990 was chosen for cost and economic analyses in this study.
+ In part, this reference year was chosen to facilitate comparison
+of our costs with previous studies in this area.
+<H4>Process Analysis</H4>
+Detailed
+process models were developed using the Advanced System for Process
+ENgineering (ASPEN/SP) process simulator to evaluate the performance
+of the three biomass IGCC systems.  The material and energy balance
+results of these simulations were used to size and cost major
+pieces of equipment from which the resulting cost of electricity
+was calculated.  As part of this development, data from PDU operation
+of the IGT and BCL gasifiers were regressed and incorporated into
+a user-specified yield reactor.  Detailed information on gasifier
+operation and performance at a variety of conditions was not available
+for the low-pressure direct gasifier.  Therefore, this case utilized
+a quasi-equilibrium model and reactant ratios developed from limited
+data contained in a Lurgi report on fluidized bed gasification
+of biomass<A HREF="#1">[1]</A>.
+<P>
+Gas turbine performance when utilizing low
+energy content biomass derived fuel gas was estimated based on
+the operating parameters (air flow, pressure ratio, firing temperature,
+outlet temperature) of the selected gas turbine<A HREF="#2">[2]</A>, <A HREF="#3">[3]</A>.
+ A simulation was developed that matches its performance (output,
+heat rate) on natural gas fuel by "tuning" the efficiency
+of the various compression and expansion stages as well adjusting
+heat losses, cooling air extraction  etc.  Utilizing these same
+"tuning" parameters, the resulting turbine model was
+incorporated, along with the biomass gasifier and cleanup section
+models, into an overall gasification combined cycle simulation.
+ The simulation was configured such that the amount of biomass
+fed to the system was calculated based on the amount of gaseous
+fuel required by the gas turbine to achieve its design firing
+temperature.  Changes in the gas turbine output and efficiency
+because of the increased mass flow of the low energy content gas
+and the higher fuel gas temperature are thus roughly predicted.
+ This approach has been employed in numerous studies performed
+at the Morgantown Energy Technology Center (METC) for coal-based
+IGCC systems.  This prediction method has also been validated,
+within certain limits, by results obtained by turbine manufacturers
+and engineering firms that have prepared detailed designs of the
+such systems.  It must be realized, especially in the air-blown
+gasifier cases, that modification of the gas turbine combustor
+may be required in order to efficiently combust the low calorific
+value fuel gas produced.  The design limits of the turbine compressor
+must also be kept in mind when mass flow through the turbine section
+is increased.  Such a scenario arises, again, due to the reduced
+(compared to natural gas) chemical energy content of the fuel
+gas produced from biomass.
+<P>
+The simulation calculates the overall
+biomass-to-electricity efficiency for the system based on total
+feed to the system and the net electrical power produced.  The
+major auxiliary equipment items (feed water pumps, boost compressor,
+blowers, etc.) are explicitly included in the simulation, and
+their power requirements subtracted from the gross plant output.
+ A 3% charge was taken against this preliminary net power (gross
+minus major equipment) to account for balance of plant electrical
+power including wood handling and drying.
+<H4>Site Conditions</H4>
+Since this was not a site specific design, ranges of ambient conditions
+were not available.  Therefore, International Standards Organization
+(ISO) conditions (15&#176;C, 1 bar atmospheric pressure, 60%
+relative humidity) were assumed as the ambient conditions for
+this evaluation.  Air fed to the plant was assumed to be composed
+of 20.73 mol% oxygen, 78.22 mol% nitrogen, 1.02 mol% water, and
+0.03 mol% carbon dioxide.
+<H4>Wood Analysis</H4>
+The biomass used in each analysis was that used most extensively
+in testing each gasifier.  Wisconsin maple wood chips have been
+tested at a number of gasifier conditions in the IGT RENUGAS&#174;
+9 T/day process development unit (PDU), and are therefore used
+in the high pressure simulations.  According to tests at BCL,
+the biomass used for the low pressure indirectly-heated gasifier
+simulation is typical of woody biomass such as hybrid poplar.
+ Wisconsin maple was also used as the feedstock in the low pressure
+direct gasifier simulation.  The ability to feed biomass to gasification
+systems, high and low pressure, has been demonstrated in experimental
+work at a variety of scales.  Detailed analyses of the feedstock,
+product gas, and solid residues are available from experimental
+data for the IGT and BCL gasifiers.  For the low-pressure direct
+gasifier case, feed data is available and char and product gas
+composition is estimated.  In the ASPEN simulations, biomass and
+char were simulated as non-conventional components; the elemental
+and property analysis for each biomass type are shown in <A HREF="#table1">Table
+1</A>.  The heat of combustion was calculated by adjusting the standard
+ASTM correlation for biomass. 
+<P>
+<A NAME="table1"></A><TABLE BORDER=1 CELLPADDING=2 ALIGN=right>
+<TR>
+	<TH COLSPAN=3>Table 1:  Biomass Analysis</TH>
+</TR>
+
+<TR>
+	<TD><BR></TD>
+	<TD>Wisconsin<BR>Maple</TD>
+	<TD>Hybrid Poplar</TD>
+</TR>
+
+<TR>
+	<TD>Ultimate Analysis<BR>(weight %, dry basis)</TD>
+	<TD><BR></TD>
+	<TD><BR></TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Carbon</TD>
+	<TD>49.54</TD>
+	<TD>50.88</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Oxygen (by difference)</TD>
+	<TD>43.73</TD>
+	<TD>41.90</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Hydrogen</TD>
+	<TD>6.11</TD>
+	<TD>6.04</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Nitrogen</TD>
+	<TD>0.10</TD>
+	<TD>0.17</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Sulfur</TD>
+	<TD>0.02</TD>
+	<TD>0.09</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Chlorine</TD>
+	<TD>0.00</TD>
+	<TD>0.00</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Ash</TD>
+	<TD>0.50</TD>
+	<TD>0.92</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Heat of combustion,<BR>HHV, Btu/lb, dry basis</TD>
+	<TD>8,476</TD>
+	<TD>8,722</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Moisture, as received</TD>
+	<TD>38%</TD>
+	<TD>50%</TD>
+</TR>
+</TABLE>
+<P>
+<H4>General Plant Requirements</H4>
+With the exception of the greenfield analysis of the high pressure
+direct gasifier, the plants examined are assumed to be located
+at or near an existing generating facility and to share facilities
+such as land and an electrical  substation.  Additionally, all
+plants are assumed to be in close proximity to roads or railroad
+spurs adequate for delivery of the biomass feedstock.  This is
+likely to be true when a dedicated feedstock supply system (DFSS)
+is employed since the power plant would be sited near the center
+of the agricultural area representing its biomass "shed".
+ In addition to the major process areas and equipment discussed
+later in the report, the following items and systems are assumed
+to be part of the plants evaluated in this study:  cooling water
+systems, plant and instrument air, potable and utility water,
+effluent water treatment, flare system, fire-water system, interconnecting
+piping, buildings, lighting, computer control system, and electrical
+system.
+<H3>Process Descriptions</H3>
+<H4>Description of Plant Sub-sections</H4>
+The biomass-based IGCC electric generating plants considered in this
+study consist of the following process sections:
+<P>
+<UL>
+<LI>Fuel receiving, sizing, preparation, and drying
+	<UL>
+	<LI>Truck unloading system
+	<LI>Wood yard and storage
+	<LI>Sizing and conveying system
+	<LI>Dryers
+	<LI>Live storage area
+	</UL>
+<P>
+<LI>Gasification and gas cleaning (Gasification Island)
+	<UL>
+	<LI>Wood feeding unit
+	<LI>Gasifier
+	<LI>Char combustion and air heating
+	<LI>Primary cyclone
+	<LI>Tar cracker
+	<LI>Gas quench
+	<LI>Particulate removal operation
+	</UL>
+<P>
+<LI>Power Island
+	<UL>
+	<LI>Gas turbine and generator
+	<LI>Heat Recovery Steam Generator (HRSG)
+	<LI>Steam turbine and generator
+	<LI>Condenser, cooling tower, feed water and blowdown treating unit 
+	</UL>
+<P>
+<LI>General plant utilities and facilities
+</UL>
+<P>
+All systems simulated incorporate
+a fairly high level of integration between plant sections.  In
+each system examined, a char combustor is used to convert any
+un-gasified carbon.  The resulting energy provides pre-heating
+for the gasifier steam and air (where required), as well as heat
+for the biomass drying.  In actual practice, carbon conversion
+in the direct gasifiers may be sufficiently high that a separate
+char combustor is not required.  In the indirectly-heated gasification
+system, the char is combusted to heat sand which is circulated
+to the gasifier.  There, the hot sand provides heat for the endothermic
+gasification reactions.
+<P>
+Air for the direct-fired gasifiers was
+removed from the gas turbine compressor discharge scroll and boosted
+or let down in pressure, as appropriate, with a compressor or
+turbine.  This air extraction is necessary to avoid significantly
+increased mass flow in the expansion section of the gas turbine,
+and thus compressor surge.  Without air extraction, turbine mass
+flow would be increased due to high fuel gas flows necessitated
+by the fuel gas's low energy content.  Gasification steam, where
+required, was extracted from an appropriate location in the steam
+cycle.
+<P>
+For the aero-derivative turbine (LM5000) cases, a single
+train for all process sections and units was used.  The "small"
+utility turbine (MS-6101FA) case required use of two gasification
+trains to provide adequate fuel gas.  This also imparts some part-load
+redundancy in these systems.  Each plant section is discussed
+further below.
+<H4>Wood Preparation and Drying</H4>
+Design of the wood receiving, handling, and drying operations was based
+on a number of existing studies in this area <A HREF="#4">[4]</A>, <A HREF="#5">[5]</A>, <A HREF="#6">[6]</A>.  Wood chips sized to 0 x 2" are delivered by truck to the
+plant site at a cost of $46/bone dry Tonne ($42/bone dry ton).
+The feed requirements for each plant are shown in <A HREF="#table2">Table 2</A>.  The
+wood was unloaded and moved to the paved storage yard that was
+sized to provide one week of feed storage.  Wood reclaimed from
+the storage yard was sized to less than 1&#189;" and conveyed
+to the wet feed storage silo (one day of storage).  Wood from
+the silo was conveyed from the silo to the dryers (2 in parallel)
+and then to the "live" or "day" storage tank
+from which it is fed to the gasifier.
+<P>
+<A NAME="table2"></A><CENTER><TABLE BORDER=1 CELLPADDING=2>
+<TR>
+	<TH COLSPAN=2>Table 2:  Biomass Feed Requirements for Each Analysis</TH>
+</TR>
+
+<TR>
+	<TD><BR></TD>
+	<TD ALIGN=center>Feed Requirements<BR>(dry T/day)</TD>
+</TR>
+
+<TR>
+	<TD>High pressure gasifier, aero-derivative gas turbine</TD>
+	<TD ALIGN=center>712</TD>
+</TR>
+
+<TR>
+	<TD>High pressure gasifier, indirect quench</TD>
+	<TD ALIGN=center>712</TD>
+</TR>
+
+<TR>
+	<TD>High pressure gasifier, greenfield plant</TD>
+	<TD ALIGN=center>712</TD>
+</TR>
+
+<TR>
+	<TD>High pressure gasifier, advanced utility gas turbine</TD>
+	<TD ALIGN=center>1,620</TD>
+</TR>
+
+<TR>
+	<TD>Low pressure indirectly-heated gasifier, utility gas turbine</TD>
+	<TD ALIGN=center>1,486</TD>
+</TR>
+
+<TR>
+	<TD>Low pressure air-blown gasifier, utility gas turbine</TD>
+	<TD ALIGN=center>1,352</TD>
+</TR>
+</TABLE></CENTER>
+<P>
+The wood dryers are of the co-current rotary drum type.  Design
+conditions selected for the wood drying section result in a moisture
+content of 11% by weight (17% in the low-pressure direct case
+for reasons that will be explained later).  In the direct-fired
+gasifier plants, the gas used for wood drying was a mixture of
+combustion products from a small fluidized bed combustor flue
+gas extracted from the HRSG.  For the indirectly-heated gasifier,
+a mixture of ambient air and char combustor flue gas is used.
+ For each design, sufficient ambient air is mixed with the combustion
+products to reduce the gas temperature to 204&#176;C (400&#176;F)
+prior to introduction to the dryers.  While this can result in
+a relatively high oxygen content (16 mole %), the temperature
+is believed to be sufficiently low to avoid the possibility of
+dryer fires.  Gas leaving the dryers at a temperature of 80&#176;C
+(175&#176;F) enters the dryer cyclone and then a baghouse to reduce
+particulate emissions. The temperature level at the baghouse is,
+again, believed to be sufficiently low to mitigate fire danger.
+ The dried wood exits the dryers at 68&#176;C (155&#176;F) and
+cools further during final transport to the feed system.
+<H3>High Pressure, Air-Blown Gasification</H3>
+The high pressure gasifier system selected for this study was a fluidized
+bed unit similar to that under development by the Institute of
+Gas Technology (IGT) and marketed under the name RENUGAS&#174;.
+A schematic of this gasifier integrated with the combined cycle
+plant is shown in <A HREF="#fig2">Figure 2</A>.  This is a pressurized, air-blown,
+single stage fluidized bed gasifier.  The gasifier bed material
+is typically an inert solid such as alumina.  The bed material
+improves fluidization quality and increases bed depth and heat
+capacity, solid residence time, and carbon conversion.  The IGT
+gasifier has been operated over a wide range of temperature, pressure,
+oxidant, and fuel types at the process development (PDU) scale,
+and is the subject of a larger scale demonstration projects in
+the United States (Hawaii) and Europe (Finland).  
+<P>
+Wood from the feed lockhopper is introduced into the pressurized
+feed hopper with live-bottom metering screws to meter the feed
+into an injection screw that introduces the feed into the gasifier
+near the bottom of the bed.  Air and a small amount of steam are
+introduced to effect the gasification and combustion reactions.
+ The operating temperature selected for the gasifier for this
+study was 830&#176;C (1526&#176;F).  The gasifier operating
+pressure for aero-derivative turbine case was 3.24 MPa (32 atm)
+and 2.07 MPa (20 atm) for the utility gas turbine system.  The
+former pressure is outside the currently demonstrated range for
+this gasifier which is 23 atm, but is believed to be achievable
+due to experience with coal gasifier designs operated at similar
+pressures.  These pressures take into account the pressure drop
+through the gas cleaning systems and allow for a 25% pressure
+drop across the gas turbine fuel control valve.  Gasifier design
+and operating conditions are contained in <A HREF="#table3">Table 3</A>.  Composition
+of the gasifier product gas was based on experimental data from
+the IGT PDU gasifier tests with maple wood chips.  Continued development
+by IGT has lead to improved gas quality and increased carbon conversion
+since these data were obtained.  It is expected that the commercial
+design for this gasification technology would realize these benefits
+as well.  The product gas composition used in this study is contained
+in <A HREF="#table4">Table 4</A>.  Product gas from the gasifier enters the primary
+cyclone which removes char and ash particles prior to entering
+the tar cracking unit.
+<P>
+<A NAME="table3"></A><TABLE ALIGN=right BORDER=1 CELLPADDING=2>
+<TR>
+	<TH COLSPAN=2>Table 3: High Pressure Gasifier Design<BR>Parameters and Operating Conditions</TH>                           
+</TR>
+
+<TR>
+	<TD>Gasifier temperature</TD>
+	<TD>830&#176;C (1526&#176;F)</TD>
+</TR>
+
+<TR>
+	<TD>Gasifier pressure</TD>
+	<TD>3.17/2.07 MPa (31.3/20 atm.)</TD>
+</TR>
+
+<TR>
+	<TD>Dried wood feed to gasifier</TD>
+	<TD>811 T/day (893 t/day)</TD>
+</TR>
+
+<TR>
+	<TD>Dried wood moisture content</TD>
+	<TD>11%</TD>
+</TR>
+
+<TR>
+	<TD>Gasifier internal diameter</TD>
+	<TD>2.86 m (9.4 ft.)</TD>
+</TR>
+
+<TR>
+	<TD>Solids throughput</TD>
+	<TD>6018 kg/hr-m2 (1,230 lb/hr-ft2)</TD>
+</TR>
+
+<TR>
+	<TD>Air / wood ratio (wt/wt, MAF)</TD>
+	<TD>1.07</TD>
+</TR>
+
+<TR>
+	<TD>Steam / wood ratio (wt/wt, MAF)</TD>
+	<TD>0.32</TD>
+</TR>
+</TABLE>
+<P>
+Direct quenching produces a fuel gas with
+a lower heating value (LHV) of  4.3 MJ/m3 (115 Btu/standard cubic
+foot).  Indirect quench produces a fuel gas of slightly higher
+quality 4.8 MJ/m3 (128 Btu/standard cubic foot).  Analysis indicates
+that indirect quenching is relatively cost neutral so could be
+used in cases where gas quality is important.
+<P>
+<BR CLEAR=all>
+<P>
+<A NAME="fig2"><CENTER><IMG VSPACE=60 SRC="images/fig2.gif"></CENTER></A>
+<P>
+<CENTER><STRONG>Figure 2.  General High Pressure BIGCC Schematic</STRONG></CENTER>
+<P>
+<A NAME="table4"></A><TABLE BORDER=1 CELLPADDING=2 ALIGN=right>
+<TR>
+	<TH COLSPAN=2>Table 4:  High Pressure Gasifier<BR>Product Gas Composition</TH>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Component</TD>
+	<TD>Volume %</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>H2</TD>
+	<TD>8.91</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>CO</TD>
+	<TD>6.71</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>CO2</TD>
+	<TD>13.45</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>H2O</TD>
+	<TD>39.91</TD>
+</TR>
+	
+<TR ALIGN=center>
+	<TD>N2</TD>
+	<TD>24.18</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>CH4</TD>
+	<TD>6.51</TD>
+</TR>
+	
+<TR ALIGN=center>
+	<TD>C2H4</TD>
+	<TD>0.01</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>C6H6</TD>
+	<TD>0.07</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Tars</TD>
+	<TD>0.16</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>H2S</TD>
+	<TD>0.005</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>NH3</TD>
+	<TD>0.06</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=2>LHV = 4.3 MJ/m3 (115 Btu/SCF)</TD>
+</TR>
+</TABLE>
+<P>
+<H4>Gasifier Design</H4>
+General gasifier size determination was based on information
+from the IGT 9 T/day PDU as well as the design for the scaled-up,
+91 T/day unit operating at the Hawaiian Commercial and Sugar Company
+(HC&S) sugarmill at Paia, Maui, by the Pacific International
+Center for High Technology Research (PICHTR).  Additional demonstrations
+of this technology include a 64 T/day unit in Finland.  The solid
+throughput, gas superficial velocity, and the ratio of bed to
+disengaging zone cross-sectional area were all maintained at the
+same level as for the 91 T/day demonstration unit.  This yielded
+a gasifier vessel with a bed diameter of 2.86 meters (9.4 feet)
+between the  refractory lined walls and a vessel outside diameter
+of 4.26 meters (14 feet).
+<H4>Gas Clean-up</H4>
+For this case, gas cleanup was accomplished by cooling the product
+gas to less than 538&#176;C (1000&#176;F) via direct quench
+to condense alkali species.  A hot ceramic candle filter of the
+type being offered by Westinghouse and being demonstrated in the
+Clean Coal Technology Program is then used for removal of particulate
+matter including, it is hoped, the condensed alkali compounds.
+ Recent tests of tar cracking and this particulate and alkali
+removal strategy were conducted at the IGT PDU unit in Chicago.
+ Results from these tests indicate that a tar cracker may not
+be necessary in an eventual commercial system design.  The tars
+are produced in fairly small quantities, and appear to be substantially
+cracked prior to reaching the tar cracking vessel.  The particulate
+filters tested at IGT also did not experience any plugging problems
+due to tars, and were successful in reducing the particulate matter
+and alkali species in the gas stream to very low levels.  Long-term
+testing of the filters will be conducted in the coming year at
+the PICHTR facility.  For the purposes of this study, therefore
+quenching followed by the ceramic candle filters was assumed to
+be sufficient for fuel gas cleaning.
+<H4>High Temperature Gas Cooling</H4>
+Alkali species present in the fuel gas can cause corrosion and deposition if introduced
+into the expansion section of a gas turbine.  Therefore, it was
+necessary to remove these species prior to combustion.  These
+must be removed to extremely low levels, typically less than one
+part per million. Fortunately, most alkali components present
+in biomass synthesis gas have relatively high condensation temperatures.
+ Therefore, cooling to below 538&#176;C (1000&#176;F) results
+in condensation of the bulk of these species, usually as fine
+particles that can be removed with the rest of the particulates.
+ This cooling can be accomplished in a number of ways.  The base
+case analyzed here performs this cooling by direct injection of
+water into the gas stream.  While this dilutes the fuel gas stream
+and reduces its heating value, it was the simplest and least expensive
+from an equipment standpoint.  An alternate case utilized indirect
+cooling of the fuel gas, utilizing the recovered heat in the steam
+cycle.
+<H4>High Temperature Particulate Removal</H4>
+Westinghouse has been developing high temperature ceramic barrier filters for
+use in advanced IGCC and pressurized fluidized bed combustor (PFBC)
+systems.  The most promising of these so far, is the ceramic candle
+filter unit utilizing silicon carbide filters.  A unit of this
+type was currently being demonstrated at the Tidd PFBC site under
+the Clean Coal Technology (CCT) Program.  Several other demonstrations
+of this unit are planned under additional CCT projects including
+the Tampa Electric IGCC demonstration and Sierra Pacific's Pi&ntilde;on
+Pine IGCC project.  This unit will allow removal of particulates
+to levels acceptable to a gas turbine expansion section.  This
+unit has recently become available as a commercial offering with
+the attendant performance guarantees.
+<H4>Char Combustion</H4>
+In this system, the fluidized bed char combustor provides the energy
+for gasifier air/steam heating, and boiler heat for the steam
+cycle.  Char burned in the combustor has a carbon content of approximately
+87%.  The combustor operates at a temperature of 843&#176;C (1550&#176;F)
+with 20% excess air.  Tubes are included in the combustor system
+to provide air/steam heating and to recover heat for the steam
+cycle.  Carbon conversion in the combustor was assumed to be essentially
+complete.  As discussed earlier, the commercial version of this
+gasifier is likely to have very high carbon conversion (&gt; 99%).
+ In this case, a char combustor would be unnecessary and energy
+for air/steam heating and wood drying would be obtained from elsewhere
+in the process.
+<H3>Low Pressure Indirectly Heated Gasification - The BCL Gasifier</H3>
+The low pressure indirectly-heated gasifier selected for this study
+was developed at Battelle Columbus Laboratory specifically for
+biomass gasification.  A schematic of this gasifier integrated
+with the combined cycle is shown in <A HREF="#fig3">Figure 3</A>.  The distinctive
+feature of the BCL unit was that unlike direct-fired gasifiers
+which use both steam and air, only steam was injected with the
+biomass to promote gasification.  Therefore, the fuel gas has
+a higher heating value than that produced by direct-fired gasifiers.
+ Without rehumidifying the fuel gas, the higher heating value
+of the fuel gas is 16.4 MJ/m3 (441 Btu/scf); if the fuel gas is
+rehumidified to 20% by weight, its higher heating value is 14.2
+MJ/m3 (379 Btu/scf).  The heat necessary for the endothermic gasification
+reactions was supplied by sand circulating between a fluidized
+bed char combustor and the gasification vessel.  In addition to
+acting as the heat source, the sand was the bed material for the
+gasifier, designed as an entrained fluidized bed reactor.  Of
+the total amount of sand circulating between the gasifier and
+char combustor, 0.5% is purged to prevent ash build-up in the
+system.  Because this stream is nearly 100% sand, it is likely
+that its means of disposal would not be subject to the same requirements
+as pure ash from directly-heated gasifier systems.
+<P>
+<A NAME="fig3"><CENTER><IMG SRC="images/fig3.gif"></CENTER></A>
+<P>
+<CENTER><STRONG>Figure 3.  Low Pressure Indirect BIGCC Schematic</STRONG></CENTER>
+<P>
+This integrated gasification combined cycle plant was simulated in ASPEN/SP; a
+Fortran subroutine controls the simulation of the gasifier.  The
+equations in this subroutine which control the component mass
+balance in the gasifier were developed from regressing the experimental
+data from the Battelle Columbus Laboratory 9 T/day PDU <A HREF="#7">[7]</A> <A HREF="#8">[8]</A>. Because of the low pressure, wood from the dryers was fed to
+the gasifier using an injection screw feeder.  According to the
+simulation, the gasifier operates at  nearly atmospheric pressure
+(172 kPa, 25 psi) and 825&#176;C (1517&#176;F).  The design parameters
+and operating conditions of the indirectly heated gasifier are
+shown in <A HREF="#table5">Table 5</A>.  The product gas composition, calculated in
+the Fortran subroutine during the ASPEN simulation is shown in
+<A HREF="#table6">Table 6</A>.  The composition of the char is dependent upon the temperature
+of the gasifier, which in turn is dependent upon the heat balance
+between the char combustor and the gasifier.  The char composition
+is determined, therefore, by the Fortran subroutine, and is shown
+in <A HREF="#table7">Table 7</A>.
+<P>
+<A NAME="table5"></A><TABLE BORDER=1 CELLPADDING=2 ALIGN=left>
+<TR>
+	<TH COLSPAN=2>Table 5:  Indirectly Heated Gasifier Design<BR>Parameters and Operating Conditions</TH>
+</TR>
+
+<TR>
+	<TD>Gasifier temperature</TD>
+	<TD>826&#176;C (1519&#176;F)</TD>
+</TR>
+
+<TR>
+	<TD>Gasifier pressure</TD>
+	<TD>0.17 MPa (25 psi)</TD>
+</TR>
+
+<TR>
+	<TD>Dried wood feed to gasifier</TD>
+	<TD>1,486 T/day (1,638 t/day)</TD>
+</TR>
+
+<TR>
+	<TD>Dried wood moisture content</TD>
+	<TD>11%</TD>
+</TR>
+
+<TR>
+	<TD>Gasifier internal diameter</TD>
+	<TD>2.93 m (9.6 ft)</TD>
+</TR>
+
+<TR>
+	<TD>Steam / wood ratio (wt/wt, MAF)</TD>
+	<TD>0.45</TD>
+</TR>
+
+<TR>
+	<TD>Sand / wood ratio into gasifier (wt/wt)</TD>
+	<TD>34.4</TD>
+</TR>
+</TABLE>
+<P>
+<A NAME="table6"></A><TABLE BORDER=1 CELLPADDING=2 ALIGN=right>
+<TR>
+	<TH COLSPAN=2>Table 6: Indirectly Heated Gasifier<BR>Product Gas Composition, dry basis</TH>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Component</TD>
+	<TD>Volume %</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>H2</TD>
+	<TD>21.22</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>CO</TD>
+	<TD>43.17</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>CO2</TD>
+	<TD>13.46</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>CH4</TD>
+	<TD>15.83</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>C2H2</TD>
+	<TD>0.36</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>C2H4</TD>
+	<TD>4.62</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>C2H6</TD>
+	<TD>0.47</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Tars</TD>
+	<TD>0.40</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>H2S</TD>
+	<TD>0.08</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>NH3</TD>
+	<TD>0.37</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=2>LHV = 13.2 MJ/m3 (354 Btu/SCF)<BR>HHV = 14.2 MJ/m3 (379 Btu/SCF)</TD>
+</TR>
+</TABLE>
+<P>
+<BR CLEAR=all>
+<P>
+<A NAME="table7"></A><TABLE BORDER=1 CELLPADDING=2>
+<TR>
+	<TH COLSPAN=2>Table7:  Char Composition in the<BR>Indirectly-Heated Gasifier Simulation</TH>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Component</TD>
+	<TD>Weight %</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Ash</TD>
+	<TD>3.23</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Carbon</TD>
+	<TD>66.46</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Hydrogen</TD>
+	<TD>3.09</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Nitrogen</TD>
+	<TD>0.04</TD>
+</TR>
+	
+<TR ALIGN=center>
+	<TD>Sulfur</TD>
+	<TD>0.03</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Oxygen</TD>
+	<TD>27.15</TD>
+</TR>
+</TABLE>
+<P>
+<H4>Drying Requirements</H4>
+To assess the feasibility of operating
+the low pressure indirectly-heated gasifier without a drying system,
+different feedstock moisture levels were tested.  Results, showing
+the relationship between moisture content of the feed versus gasifier
+temperature, are shown in <A HREF="#fig4">Figure 4</A>.  These curves represent two
+system designs where the air to the char combustor is fed at either
+ambient conditions (15&#176;C) or is preheated to 538&#176;C.
+ It was found that as the moisture level increases, the heat available
+from the char is no longer sufficient to maintain gasification
+and also vaporize the water in the feed.  <A HREF="#fig4">Figure 4</A> shows that
+if the char combustion air is not preheated, a dryer is necessary.
+ In real operation, the gasifier temperature would continue to
+plummet below 650&#176;C; the curve plateaus at this point because
+of the lower limit set on the gasifier temperature in the ASPEN
+simulation.  Although a dryer is still deemed necessary if the
+moisture content of the feed is higher than approximately 25%
+and the air is preheated, the drying requirements can be reduced
+from what is typically thought to be required (approximately 10%
+moisture levels) and still maintain temperatures necessary for
+gasification. 
+<P>
+<A NAME="fig4"><CENTER><IMG SRC="images/fig4.gif"></CENTER></A>
+<P>
+<CENTER><STRONG>Figure 4.  Gasifier Temperature as a Function of Feedstock Moisture Content</STRONG></CENTER>
+<P>
+<H4>Gas Clean-up</H4>
+Fuel gas produced by the low pressure indirectly heated gasifier was cleaned
+using a tar cracker to reduce the molecular weight of the larger
+hydrocarbons, and a cyclone separator to remove particulates.
+A direct water quench was used to remove alkali species and cool
+the gas to 97&#176;C for compression.  As an additional 
+safeguard, a baghouse filter was also included to remove any fine particulates
+that were not removed in the cyclone separator, and to ensure
+that any alkali species that were not removed in the quench are
+not fed to the compression and turbine systems.  Although a tar
+cracker was not necessarily required since the gas was cooled
+using a direct water quench, one was included in this design to
+avoid losing the substantial heating value of the tars.
+<H4>Fuel Gas Compression</H4>
+Compression of the fuel gas prior to the gas turbine combustor was accomplished in
+a five stage centrifugal compressor with interstage cooling. 
+This series of compressors increased the pressure from 172 kPa
+to 2,068 kPa (25 psi to 300 psi).  The maximum interstage temperature
+was 158&#176;C, and the interstage coolers reduced the temperature
+of the syngas to 93&#176;C.  This unit operation was optimized
+at five stages according to the purchased equipment cost and horsepower
+requirements.  After compression, the syngas is heated indirectly
+to 371&#176;C with process heat from the quench and char combustor
+flue gas. 
+<H4>Rehumidification of the Syngas Prior to Combustion</H4>
+For the indirectly-heated gasifier, the efficiency, electricity output,
+and cost of electricity were also studied as a function of the
+moisture level of the syngas prior to combustion in the gas turbine
+combustor.  During quench and compression, the water in the syngas
+is reduced to 7% by weight.  Feeding this syngas directly to the
+combined cycle results in an efficiency of 35.67% and a cost of
+electricity of $0.0576/kWh on a constant dollar basis.  If, however,
+a portion of the water that drops out of the syngas during compression
+is compressed and re-added such that the moisture content is 20%
+by weight, the efficiency and constant dollar cost of electricity
+are 35.40% and $0.0572/kWh, respectively.  Thus, rehumidifying
+the syngas prior to combustion decreases the overall efficiency
+of the system but increases the power output; this results in
+a slightly lower cost of electricity, although 2% more biomass
+feed is required.  Increasing the moisture level of the fuel gas
+past 20% is not feasible as the gas turbine mass flow limit is
+reached and the ability of the turbine combustor to burn the wood
+is decreased.  Naturally, the heating value of the fuel gas is
+reduced when water is added to it.  Without rehumidifying the
+fuel gas, the higher heating value of the fuel gas is 16.4 MJ/m3
+(441 Btu/scf); at 20% by weight, its higher heating value is 14.2
+MJ/m3 (379 Btu/scf).  
+<H3>Low Pressure, Air-Blown Gasification</H3>
+The last commercially available gasifier type investigated was the
+low pressure direct system.  The most well-known gasifier of this
+type is that offered by TPS and is also known as the Studsvik
+gasifier.  The TPS gasifier has been selected for the World Bank's
+Global Environment Facility (GEF) project in Brazil.  The GEF
+project will couple a TPS gasifier fueled with eucalyptus to a
+GE LM-2500 aero-derivative gas turbine system for power generation
+in northern Brazil.  The TPS gasifier was also examined in a biomass
+IGCC application as part of a DOE/NREL sponsored site-specific
+feasibility study conducted by Weyerhauser <A HREF="#9">[9]</A>.  Other low
+pressure, direct air-blown gasifiers that have been operated with
+biomass include the Lurgi circulating fluidized-bed gasifier and
+the Energy Products of Idaho (EPI) gasifier.  A schematic of the
+system used in this study is shown in <A HREF="#fig5">Figure 5</A>.
+<P>
+<A NAME="table8"></A><TABLE BORDER=1 CELLPADDING=2 ALIGN=right>
+<TR>
+	<TH COLSPAN=2>Table 8: Low Pressure, Direct-Fired Gasifier Design<BR>Parameters and Operating Conditions</TH>
+</TR>
+
+<TR>
+	<TD>Gasifier temperature</TD>
+	<TD>870&#176;C (1,600&#176;F)</TD>
+</TR>
+
+<TR>
+	<TD>Gasifier pressure</TD>
+	<TD>0.14 MPa (1.36 atm)</TD>
+</TR>
+
+<TR>
+	<TD>Fuel gas pressure</TD>
+	<TD>1.89 MPa (18.6 atm)</TD>
+</TR>
+
+<TR>
+	<TD>Dried wood feed to gasifier</TD>
+	<TD>1,460 T/day (1,606 t/day)</TD>
+</TR>
+
+<TR>
+	<TD>Dried wood moisture content</TD>
+	<TD>15.8%</TD>
+</TR>
+
+<TR>
+	<TD>Air / wood ratio (wt/wt, MAF)</TD>
+	<TD>2.1</TD>
+</TR>
+
+<TR>
+	<TD>Steam / wood ratio (wt/wt, MAF)</TD>
+	<TD>0</TD>
+</TR>
+</TABLE>
+<P>
+Unfortunately, little concrete data is publicly available on the operating conditions,
+reactant ratios, and fuel gas produced by the TPS gasifier.  For
+this study, therefore, data from biomass testing in a small-scale
+Lurgi circulating fluidized-bed gasifier <A HREF="#10">[10]</A> was used
+to estimate gasifier performance.  The operating conditions selected
+for this gasifier were a temperature of 870&#176;C (1,600&#176;F)
+and a pressure of 0.14 MPa (1.36 atm).  Survey of available data
+on gasifiers of this type indicates that steam is rarely used
+as part of the gasification process.  It was noted that the moisture
+content of the dried biomass used in these gasifiers is somewhat
+high (up to slightly over 20%); it is assumed that this moisture
+serves as the source of "steam" for the steam-carbon gasification
+reaction.  Relatively high air/biomass ratios also seem to be
+common for gasifiers of this type, though again, detailed information
+on this point is difficult to obtain.  <A HREF="#table8">Table 8</A> summarizes the
+operating conditions for the gasifier used in this case.
+<P>
+<A NAME="fig5"><CENTER><IMG SRC="images/fig5.gif"></CENTER></A>
+<P>
+<CENTER><STRONG>Figure 5.  Low Pressure Direct BIGCC Schematic</STRONG></CENTER>
+<P>
+In order to estimate gasifier performance and fuel gas composition, a quasi-equilibrium
+model was used.  This process employed the RGIBBS model in ASPEN/SP
+along with its capability to accommodate equilibrium approach
+temperatures for specified reactions.  The problem was further
+complicated by the lack of information on air preheat temperature.
+ The problem was solved by selecting the gasifier temperature
+and pressure and a probable air/biomass ratio.  The air preheat
+level was adjusted to yield a heat loss expected for a unit of
+this scale (1.5%), and the equilibrium approach temperatures for
+the various gasification reactions adjusted to match reported
+fuel gas composition.  These, of course, are not independent variables
+so an iterative approach was required.  Nitrogen in the fuel gas
+provided a check on the selected air/biomass ratio.  The derived
+fuel gas composition after the gas cleaning and conditioning described
+below is shown in <A HREF="#table9">Table 9</A>.
+<P>
+<A NAME="table9"></A><TABLE BORDER=1 CELLPADDING=2 ALIGN=right>
+<TR>
+	<TH COLSPAN=2>Table 9: Low Pressure, Direct-Fired<BR>Gasifier Product Gas Composition</TH>
+</TR>
+
+<TR ALIGN=center>
+	<TD>Component</TD>
+	<TD>Volume %</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>H2</TD>
+	<TD>18.87</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>CO</TD>
+	<TD>23.66</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>CO2</TD>
+	<TD>8.29</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>H2O</TD>
+	<TD>4.85</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>N2</TD>
+	<TD>44.22</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD>CH4</TD>
+	<TD>0.11</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=2>LHV = 4.8 MJ/m3 (129 Btu/SCF)</TD>
+</TR>
+</TABLE>
+<P>
+<H4>Gasifier Design</H4>
+Owing to the aforementioned dearth of detailed information on this gasifier, it was not possible
+to perform a detailed gasifier design.  Instead, the design and
+cost information for the TPS gasifier case contained in the Weyerhauser
+feasibility study was scaled to fit the system examined in this
+report.  Portions of the following system description in this
+section are extracted from the Weyerhauser final report, and additional
+details can be found therein.  
+<P>
+Biomass is fed to the gasifier
+by two screw feeders that are isolated from the upstream components
+by  pressurized rotary valves.  The gasifier is a two-zone fluidized
+bed rector that used sand as a bed material.  Biomass fed to the
+gasifier drops into the lower, dense phase fluidized bed.  This
+portion of the gasifier provides sufficient residence time for
+gasification of the larger biomass particles.  Preheated primary
+air enters the gasifier near the base of the vessel and maintains
+fluidization of this dense portion of the bed.  Secondary air
+in added above the dense bed to produce a "fast" fluidized
+bed region.  In this section, remaining fuel is fully pyrolized
+and gasified by the combined action of heat, air, and gas components.
+ <P>
+Air for gasification is extracted from the gas turbine compressor
+and let down to gasifier operating pressure through a turbine.
+ This generates an additional 8.4 MW<SUB>e</SUB> of power, almost half the
+amount required to drive the fuel gas compressor.  The air extraction
+rate in this case was such that the combined air and combustion
+product mass flow through the gas turbine expansion section and,
+thus the power output, was not significantly different from the
+design values on natural gas.
+<H4>Gas Clean-up</H4>
+Fuel gas exiting the gasifier cyclones enters a circulating fluidized
+bed tar cracking unit.  This unit reduces the quantity of higher
+hydrocarbon species in the fuel gas that could otherwise foul
+the fuel gas cooler, plug the fabric filters, and increase wastewater
+treatment loads from the gas scrubber.  Dolomite is used as the
+bed material in the tar cracker.  The higher temperature of the
+tar cracker (920&#176;C, 1688&#176;F) also ensures conversion
+of any un-gasified solids that escape the gasifier.
+<P>
+After exiting the second stage tar cracker cyclone, the fuel gas enters the
+syngas cooler.  In a slight modification to the Weyerhauser report
+design, this unit is used to preheat gasification air as well
+as provide heat to the steam cycle.  In actual practice, the potential
+safety risk of this scheme would have to be carefully evaluated
+though we have some assurances that such an approach is feasible<A HREF="#11">[11]</A>.
+ In the syngas cooler, the temperature of the fuel gas is reduced
+to 288&#176;C (550&#176;F).
+<P>
+Any particulates remaining in the fuel gas are removed in a bag filter unit.  As the fuel gas is
+cooled, volatile alkali species present in the gas stream condense
+on the remaining particulate matter and are removed from the system
+by the filter bags.  The particulate-free fuel gas is cooled further
+in a direct contact water scrubber that removes any trace higher
+hydrocarbons and most of the water in the fuel gas stream.  This
+operation also removes a significant amount of the ammonia from
+the fuel gas.  Following this step, the gas is further washed
+with a dilute sulfuric acid stream.  These combined steps remove
+over 95% of the ammonia from the fuel gas.  This ammonia would
+otherwise be likely to produce NO<SUB>x</SUB> in the gas turbine combustor.
+ Purge streams from both towers are sent to wastewater treatment.
+ The fuel gas then enters a knockout drum prior to the fuel gas
+compressors.
+<H4>Fuel Gas Compression</H4>
+Following final fuel gas cleaning, the fuel gas is compressed for introduction
+into the gas turbine combustor.  Although the turbine pressure
+ratio is only 14.9, the fuel gas is compressed to 1.89 MPa (18.6
+atm) to allow for pressure drop across the fuel control valve.
+ This compression is accomplished in a multi-stage, inter-cooled
+centrifugal compressor.  This portion of the process was not detailed
+in the Weyerhauser report and so was evaluated as part of the
+ASPEN/SPsimulation.  It was noted that fewer compression/inter-cooling
+stages were required to maintain gas temperature within acceptable
+limits in this case than in the indirect gasifier case.  Presumably
+this is due to differences in the gas composition.
+<H3>Combined Cycle Power Generation</H3>
+Since the output, performance, and conditions of the combined cycles
+vary across the cases examined, only the general features of the
+power island are discussed here.  Output and efficiency data are
+contained later in the discussion of the results of this study.
+ All of the equipment discussed in this section was commercially
+available.  The MS-6101FA gas turbine will see its first commercial
+demonstration at Sierra Pacific's Pi&ntilde;on Pine IGCC plant
+being funded under DOE's Clean Coal Technology Program.
+<H4>Gas Turbine</H4>
+Hot (538&#176;C for the pressurized gasifier system, 371&#176;C for the low pressure indirectly-heated
+gasifier system, 225&#176;C for the low pressure direct gasifier)
+clean fuel gas is introduced into the gas turbine combustor along
+with air from the high pressure turbine compressor.  All scenarios
+tested, including those with direct quench produced fuel gas that
+was well within the projected requirements for combustion of low
+energy content gas in gas turbines.  The use of a direct quench
+or humidification in some of the systems studied produces a fuel
+gas with higher moisture levels which helps reduce formation of
+nitrogen oxides in the combustor and increases the mass flow through
+the turbine expander and, thus, the turbine's power output.  However,
+in all if the cases studied, the overall increase in mass flow
+through the turbine expander was less than 10% since the increased
+flow of low energy content fuel gas was partially offset by gasification
+air extracted from the compressor discharge.
+<P>
+An important technical qualification to selection of the turbines in this study is the
+ability to extract gasification air for the air-blown gasifiers
+from the compressor discharge.  This extraction was necessary
+not only to realize the efficiency benefits of tight integration,
+but to maintain compressor/turbine power balance.  Because of
+the reduced heating value of the gasifier product gas, a larger
+amount of this fuel gas (compared to natural gas) was required
+to achieve design turbine firing temperatures.  This additional
+fuel can increase the mass flow into the turbine section, depending
+on the amount of air extracted, and thus the turbine's power output.
+ Without air extraction, this increase can cause compressor stall.
+ In the case of the indirectly heated gasifier, air extraction
+is probably not necessary because the fuel gas produced is of
+a medium heat content.  The air/biomass ratio for the low pressure
+direct gasifier (and thus the air extraction rate) is such that
+the turbine mass flow and power output is essentially unchanged
+from the natural gas design values.
+<P>
+The aero-derivative gas turbine
+selected for this study was the General Electric LM5000PC.  The
+LM5000 has a higher pressure ratio (24.8) and firing temperature
+(in excess of 1150&#176;C) than the utility machines selected
+for previous biomass IGCC studies.  The smaller size turbines
+used in earlier studies were selected because of the smaller amounts
+of biomass fuel available compared to systems using coal or natural
+gas.  Unfortunately, small scale utility turbines are generally
+the last to benefit from technological advances in the field.
+ Therefore, resulting system efficiencies were correspondingly
+low relative to coal or gas IGCC systems.  One of the goals of
+this study was to evaluate the effect the latest turbines had
+on biomass system efficiency.  A combined cycle was selected rather
+than the steam-injected LM5000 because of the lower water usage
+required for the combined cycle.  This allows maximum flexibility
+for siting the plant, reduces feed water treating, and conserves
+water resources.  The similarly sized and higher efficiency LM-6000
+turbine was not selected for the study because of its even higher
+pressure ratio of 30.
+<P>
+Air extraction has not yet been demonstrated
+with the LM5000 gas turbine; however, an investigation of the
+feasibility and mechanics of this practice has been investigated
+by DOE's Fossil Energy program and such a scheme has been investigated
+with the related LM2500 turbine being used in the GEF project.
+ General Electric and other turbine manufacturers are incorporating
+air extraction provisions into some utility turbine designs including
+the MS-6101FA discussed below.  Westinghouse also commercially
+offers for biomass-derived as well as natural gas fuels, the 251B12
+"ECONOPAC&#153;" combined cycle system.  This package
+is nominally rated at 50 MW, includes low-NO<SUB>x</SUB> combustion technology,
+and has a net efficiency of 46.5% (LHV basis) on natural gas fuel.
+<P>
+ Within the last few years, a smaller, advanced utility gas turbine
+has also become available, the GE MS-6101FA.  This turbine moves
+GE's "F" technology (high firing temperature, high efficiency)
+down from the company's 160 MW MS-7221FA machine to a 70 MW class
+machine.  This increases the Frame 6 efficiency to 34.2% (simple
+cycle, LHV, natural gas) from the 30% range previously typical
+for this scale and type of machine.  The increased mass flow and
+temperature of the turbine exhaust also allows the use of more
+sophisticated steam cycles in this size range.  The pressure ratio
+of utility machines (14.9 for the 6FA) was also more compatible
+with demonstrated biomass gasifier operation.  Further, the MS-6101FA
+is able to accommodate extraction of up to 20% of the compressor
+discharge flow to supply a gasifier<A HREF="#12">[12]</A>.  A recent Gas Turbine
+World article <A HREF="#13">[13]</A> also discusses GE's 20% uprate of this
+turbine's power output when fueled with synthesis gas.   For these
+reasons, systems incorporating the Frame 6FA turbine were also
+evaluated.  It was believed that the substantially increased efficiency
+would offset the system size increase and keep the feed requirements
+within what might be available from a dedicated feedstock supply
+system (DFSS).
+<H4>Heat Recovery Steam Generator</H4>
+Gas turbine exhaust was ducted to the heat recovery steam generator
+(HRSG).  For the LM5000 based cases, the HRSG design and conditions
+were derived from published information on the LM5000 steam-injected
+turbine <A HREF="#14">[14]</A>.  This was done to avoid issues of availability
+of high performance HRSG's for small-scale turbines and the associated
+cost data.  The HRSG incorporates a superheater, high and low
+pressure boilers and economizers.  Superheated steam (394&#176;C,
+5.3 MPa) was provided for the gasifier and the steam cycle.  Medium
+pressure steam (1.4 MPa) was also provided for the steam cycle.
+ The exhaust temperature from the HRSG in all cases, 140&#176;C
+(284&#176;F), was sufficiently high to avoid any possible corrosion
+in the stack and to mitigate plume visibility issues.
+<P>
+Given the higher turbine exhaust temperature (618&#176;C, 1145&#176;F),
+a more complicated HRSG was utilized for the systems integrated
+with the MS-6101FA gas turbine.  In this case, the HRSG provides
+steam superheating and steam reheat, as well as the high and low
+pressure boilers and economizers.  For all designs, HRSG's were
+designed with superheater temperature approaches of  16-33&#176;C
+(30-60&#176;F) and pinch points of 22&#176;C (40&#176;F).  Boiler
+blowdown was assumed to be 2%, and feedwater heating and deaeration
+are performed in the HRSG system.  All feedwater pumps are motor
+driven rather than steam turbine driven.  In all direct gasifier
+systems studied, supplemental heat for drying is provided by flue
+gas extraction from an appropriate point in the HRSG.
+<H4>Steam Turbine System</H4>
+The steam turbine system for the LM5000 cases was relative simple comprising
+high (HP) and low pressure (LP) power turbines and a generator.
+ Superheated steam (394&#176;C, 5.3 MPa) was introduced into the
+high pressure turbine and expanded to 1.4 MPa (200 psia).  Exhaust
+from the HP turbine was combined with additional steam from the
+LP boiler and introduced to the LP turbine which exhausts to the
+condenser at 6,900 Pa (2 in. Hg).
+<P>
+For the MS-6101FA case, the
+steam cycle was somewhat more advanced.  Superheated steam at
+538&#176;C and 10 MPa (1000&#176;F, 1465 psia) was expanded in
+the HP turbine.  Gasification steam, where required, was extracted
+from the HP exhaust.  The remaining steam was combined with steam
+from the LP boiler, reheated, and introduced into the intermediate
+pressure (IP) turbine.  Exhaust from the IP turbine was passed
+though the LP turbine and condensed at 6,900 Pa (2 in. Hg).  Expanded
+steam quality leaving the LP turbine in all cases was 90 per cent.
+ Assumed generator efficiency was 98.5%.
+<H4>General Facilities</H4>
+A mechanical induced-draft cooling tower was assumed for each design.
+ This includes all of the necessary pumps for condenser cooling
+and makeup water needs.  Balance of plant equipment includes plant
+water supply and demineralization facilities, firewater system,
+waste water treating, service and instrument air system, and the
+electric auxiliary systems.  General facilities included are roads,
+administrative, laboratory and maintenance buildings, potable
+water and sanitary facilities, lighting, heating and air conditioning,
+flare, fire water system, startup fuel system, and all necessary
+computer control systems.  In addition, the greenfield case included
+costs for land and land development, as well as an electrical
+substation for transmission access.
+<H3>Overall System Performance</H3>
+Process conditions and system performance for each of the cases examined
+are summarized in <A HREF="#table10">Table 10</A>.  Net system output ranges from 55.5
+MW<SUB>e</SUB> for the LM5000 cases to 131.7 MW<SUB>e</SUB> for the high pressure gasifier
+MS6101FA case.  Net system efficiency ranges from 35.4% for the
+low pressure indirect gasifier case to 39.7 for the high pressure
+gasifier MS-6101FA case.  Gas turbine output and efficiency based
+on fuel heating value are greater than those listed in the literature
+for natural gas fuel.  These increases are primarily the result
+of high fuel gas temperatures and the increased mass flow through
+the turbine expander (due to lower energy content fuel gas). 
+The gas turbine power output in the high pressure gasifier case
+is in excess of the 20% performance augmentation claimed by GE
+for their turbine operated on synthesis gas fuel.  The turbine
+may need to be de-rated in this case using more sophisticated
+modeling techniques. 
+<P>
+The performance results from the simulation
+demonstrate a number of salient points.  It was clear that use
+of advanced turbine technology results in significant efficiency
+gains.  Predicted efficiency of the worst case considered was
+nearly eight percentage points higher than the best previous biomass
+IGCC system study.  It is also clear that the lower gas turbine
+efficiency of the MS-6101F (as compared to the LM5000) was more
+than compensated by the more advanced steam cycle that was possible
+with its increased exhaust flowrate and temperature.  
+<P>
+<A NAME="table10"></A><TABLE BORDER=1 CELLPADDING=2>
+<TR>
+	<TH COLSPAN=5><CENTER>Table 10:  Process Data Summary and System Performance Results</CENTER></TH>
+</TR>
+
+<TR>
+	<TD><BR></TD>
+	<TD>High pressure gasifier,<BR>aero-derivative gas<BR> turbine</TD>
+	<TD>High pressure<BR>gasifier, advanced<BR>utility turbine</TD>
+	<TD>Low-pressure indirectly-<BR>heated gasifier, advanced<BR>utility gas turbine</TD>
+	<TD>Low pressure air-blown<BR>gasifier, advanced utility<BR>gas turbine</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=5><STRONG>Gasifier Requirements</STRONG></TD>
+</TR>
+
+<TR>
+	<TD>Wood flowrate, kg/s (lb/hr)</TD>
+	<TD>8.9 (70,261)</TD>
+	<TD>19.1 (151,361)</TD>
+	<TD>17.2 (136,494)</TD>
+	<TD>16.9 (133,838)</TD>
+</TR>
+
+<TR>
+	<TD>Air flowrate, kg/s (lb/hr)</TD>
+	<TD>9.2 (72,674)</TD>
+	<TD>18.1 (143,178)</TD>
+	<TD>0</TD>
+	<TD>29.7 (235,469)</TD>
+</TR>
+
+<TR>
+	<TD>Steam flowrate, kg/s (lb/hr)</TD>
+	<TD>2.5 (20,044)</TD>
+	<TD>5.4 (43,181)</TD>
+	<TD>7.7 (61,346)</TD>
+	<TD>0</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=5><STRONG>Fuel Gas</STRONG></TD>
+</TR>
+
+<TR>
+	<TD>Fuel gas flowrate, kg/s (lb/hr)</TD>
+	<TD>23.0 (182,520)</TD>
+	<TD>47.7 (378,360)</TD>
+	<TD>14.5 (114,734)</TD>
+	<TD>43.8 (347,040)</TD>
+</TR>
+
+<TR>
+	<TD>Fuel gas heating value, LHV,<BR> wet basis,  MJ/m<sup>3</sup> (Btu/SCF)</TD>
+	<TD>4.3 (115)</TD>
+	<TD>4.3 (115)</TD>
+	<TD>13.2 (353.9)</TD>
+	<TD>4.8 (129)</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=5><STRONG>Power Island</STRONG></TD>
+</TR>
+	
+<TR>
+	<TD>Gas turbine</TD>
+	<TD>GE LM5000PC</TD>
+	<TD>GE MS-6101FA</TD>
+	<TD>GE MS-6101FA</TD>
+	<TD>GE MS-6101FA</TD>
+</TR>
+
+<TR>
+	<TD>Turbine PR</TD>
+	<TD>24.8</TD>
+	<TD>14.9</TD>
+	<TD>14.9</TD>
+	<TD>14.9</TD>
+</TR>
+
+<TR>
+	<TD>Turbine firing temperature,<BR>&#176;C (&#176;F)</TD>
+	<TD>1,154 (2,110) estimated</TD>
+	<TD>1,288 (2,350) estimated</TD>
+	<TD>1,288 (2,350)</TD>
+	<TD>1,288 (2,350)</TD>
+</TR>
+
+<TR>
+	<TD>Steam cycle conditions, Mpa/&#176;C /&#176;C|<BR>(psia/&#176;F/&#176;F)</TD>
+	<TD>5.3/395 (770/742)</TD>
+	<TD>10/538/538 (1,465/1,000/1,000)</TD>
+	<TD>10/538/538 (1,465/1,000/1,000)</TD>
+	<TD>10/538/538 (1,465/1,000/1,000)</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=5><STRONG>Power Production Summary</STRONG></TD>
+</TR>
+
+<TR>
+	<TD>Gas turbine output, MW<SUB>e</SUB></TD>
+	<TD>50.3</TD>
+	<TD>93.1</TD>
+	<TD>82.1</TD>
+	<TD>72.9</TD>
+</TR>
+
+<TR>
+	<TD>Steam turbine output, MW<SUB>e</SUB></TD>
+	<TD>8.95</TD>
+	<TD>46.6</TD>
+	<TD>55.1</TD>
+	<TD>47.6</TD>
+</TR>
+
+<TR>
+	<TD>Internal consumption, MW<SUB>e</SUB></TD>
+	<TD>3.79</TD>
+	<TD>8.02</TD>
+	<TD>15.2</TD>
+	<TD>15.1</TD>
+</TR>
+
+<TR>
+	<TD>Net system output, MW<SUB>e</SUB></TD>
+	<TD>55.5</TD>
+	<TD>131.7</TD>
+	<TD>122</TD>
+	<TD>105.4</TD>
+</TR>
+
+<TR>
+	<TD>Net plant efficiency, %, HHV basis</TD>
+	<TD>36.7</TD>
+	<TD>39.7</TD>
+	<TD>35.40</TD>
+	<TD>37.9</TD>
+</TR>
+</TABLE>
+
+<H3>Economic Analysis</H3>
+The selling price of electricity in 1990 (the base year for this report) was $0.047/kWh,
+$0.073/kWh, and $0.078/kWh for industrial, commercial, and residential
+customers, respectively (EIA, Annual Energy Review, 1993).  By
+calculating the economics of the processes being studied and comparing
+the results to the prices within the electricity generating market,
+the potential profitability can be assessed.
+<H4>Economic Analysis Methodology</H4>
+The levelized cost of electricity from three BIGCC systems was calculated by setting
+the net present value of the investment to zero.  The method and
+assumptions that were used are based on those described in the
+EPRI Technical Assessment Guide (TAG) <A HREF="#15">[15]</A> and reflect typical utility
+financing parameters.  Independent power producers or cogenerators
+would clearly have different analysis criteria.  The spreadsheet
+used for COE calculations was developed at DOE's Morgantown Energy
+Technology Center.  A summary of the economic assumptions is presented
+in <A HREF="#table11">Table 11</A>.
+<P>
+<A NAME="table11"></A><TABLE BORDER=1 CELLPADDING=2>
+<TR>
+	<TH COLSPAN=6>Table 11:  Economic Assumptions</TH>
+</TR>
+
+<TR>
+	<TD COLSPAN=6>December, 1990 dollars</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=6>30 year project life</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=6>30 year book life</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=6>20 year tax life</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=6>Accelerated Cost Recovery System (ACRS) depreciation</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=6>Federal and state income tax rate = 41%</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=6>Yearly inflation rate for calculation of current dollar cost = 4%</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD COLSPAN=2>Financial Structure</TD>
+	<TD COLSPAN=2>Current Dollar</TD>
+	<TD COLSPAN=2>Constant Dollar</TD>
+</TR>
+
+<TR>
+	<TD>Type of Security</TD>
+	<TD>% of Total</TD>
+	<TD>Cost, %</TD>
+	<TD>Return, %</TD>
+	<TD>Cost, %</TD>
+	<TD>Return, %</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Debt</TD>
+	<TD>50</TD>
+	<TD>8.6</TD>
+	<TD>4.3</TD>
+	<TD>4.5</TD>
+	<TD>2.3</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Preferred Stock</TD>
+	<TD>8</TD>
+	<TD>8.3</TD>
+	<TD>0.7</TD>
+	<TD>4.2</TD>
+	<TD>0.3</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD ALIGN=left>Common Stock</TD>
+	<TD>42</TD>
+	<TD>14.6</TD>
+	<TD>6.1</TD>
+	<TD>10.3</TD>
+	<TD>4.3</TD>
+</TR>
+
+<TR ALIGN=center>
+	<TD COLSPAN=3 ALIGN=left>Discount Rate (cost of capital)</TD>
+	<TD>11.1</TD>
+	<TD><BR></TD>
+	<TD>6.9</TD>
+</TR>
+</TABLE>
+<P>
+<H4>Capital Cost Estimates</H4>
+Capital costs for the systems were
+estimated using a combination of capacity factored and equipment-based
+estimates.  Capacity factored estimates utilize the ratio of the
+capacity (flowrate, heat duty, etc.) of  an existing piece of
+equipment to the new equipment multiplied by the cost of the existing
+equipment to estimate the cost of the new equipment. A scale-up
+factor particular to the equipment type was applied to the capacity
+ratio.  The equipment-based estimates were determined from more
+detailed equipment design calculations based on the process conditions
+and results of the simulations.  All costs were estimated in instantaneous
+1990 dollars.  Where necessary, costs were corrected to 1990 using
+the M&S or Chemical Engineering equipment cost indices.  A
+charge of 20% of the installed cost of the major plant sections
+was taken to account for all balance of plant (BOP) equipment
+and facilities.  Additional costs a for substation and land were
+included for the greenfield case.  The major equipment costs were
+multiplied by a factor to arrive at the total direct cost of the
+installed equipment.  <A HREF="#table12">Table 12</A> lists the factors used to determine
+total direct cost.  In the design of the various pieces of process
+equipment, every effort was made to specify units that were modular
+and capable of being shop fabricated and shipped by rail.  It
+was believed that this approach will help keep capital costs low
+and shorten  the learning curve in deployment of plants of this
+type. 
+<P>
+<A NAME="table12"></A><CENTER><TABLE BORDER=1 CELLPADDING=2>
+<TR>
+	<TH COLSPAN=2>Table 12:  Cost Factors Used for Calculation of Total Direct Cost</TH>
+</TR>
+
+<TR>
+	<TD>Installation</TD>
+	<TD>15% of delivered equipment cost</TD>
+</TR>
+
+<TR>
+	<TD>Piping</TD>
+	<TD>45% of delivered equipment cost</TD>
+</TR>
+
+<TR>
+	<TD>Instrumentation</TD>
+	<TD>10% of delivered equipment cost</TD>
+</TR>
+
+<TR>
+	<TD>Buildings and Structures</TD>
+	<TD>10% of delivered equipment cost</TD>
+</TR>
+
+<TR>
+	<TD>Auxiliaries</TD>
+	<TD>25% of delivered equipment cost</TD>
+</TR>
+
+<TR>
+	<TD>Outside Lines</TD>
+	<TD>10% of delivered equipment cost</TD>
+</TR>
+
+<TR>
+	<TD><STRONG>Total Direct Plant Cost (TDC)</STRONG></TD>
+	<TD><STRONG>215% of delivered equipment cost</STRONG></TD>
+</TR>
+</TABLE></CENTER>
+<P>
+<H4>Wood Preparation and Drying Costs</H4>
+The majority of the equipment necessary for solids handling, storage,
+sizing, and conveying was scaled from a study performed by Tecogen
+for a similar sized IGCC plant based on the BCL indirectly heated
+gasifier <A HREF="#16">[16]</A>.  A magnetic separator was added as one was not
+explicitly included in the Tecogen analysis.  Costs for the separator
+were determined from a detailed study on wood handling equipment
+<A HREF="#17">[17]</A>.  The dryers were sized based on the methodology outline
+in the Tecogen study and the costs were developed from Perry's
+Chemical Engineers' Handbook <A HREF="#18">[18]</A>.  A baghouse was added
+to remove wood particles from the dryer exit.  Costs for the baghouse
+were developed used the CHEMCOST program.  The equipment included
+in the wood preparation and drying section includes the following:
+truck unloaders and truck scales, chip yard handling equipment,
+one week storage paved chip yard, one day storage silo, sizing
+bin/chip hogger, conveyor/bucket elevator, magnetic separator,
+rotary drum dryers, and baghouse filter.
+<H4>Gasification Costs</H4>
+The costs of the high pressure air-blown gasifier and its associated
+equipment were initially based on work done for EPRI by Southern
+Company Services <A HREF="#19">[19]</A>.  Because of the similarities in design
+and operating conditions, the cost for the gasifier and its associated
+equipment was based on that for the Kellogg-Rust-Westinghouse
+(KRW) coal gasifier.  While the report was being revised and finalized,
+however, more recent and applicable cost data became available.
+ In May of 1995, Northern States Power (NSP) completed a report
+on a site-specific feasibility study that evaluated biomass gasification
+combined cycle technology for rural power generation <A HREF="#20">[20]</A>.
+ This report included cost estimates for the Tampella Power Systems
+(not associated in any way with TPS) biomass gasifier.  Tampella
+are a licensee of the IGT gasifier technology and it is believed
+that their design and costs are representative of the high-pressure
+gasifier used in this study.  Therefore, the gasification section
+cost contained in the NSP report was scaled and modified to reflect
+a projected n<SUP>th</SUP> plant cost and used in the final version of the
+cost figures for systems incorporating the high pressure direct
+gasifier.  These revised, higher, costs also reflect the consensus
+position on the cost of n<SUP>th</SUP> plant biomass IGCC systems developed
+in discussions with EPRI, Princeton, Colorado School of Mines,
+and others and documented in an EPRI paper <A HREF="#21">[21]</A>.  The original
+cost figures can be found in an ASME paper by the authors <A HREF="#22">[22]</A>.
+ For the utility turbine case, two gasification trains of equal
+size were used to provide the required quantity of fuel gas to
+the turbine.  The boost compressor for the gasification air was
+sized based on  the ASPEN/SP simulation and its cost determined
+from a standard references <A HREF="#23">[23]</A>,<A HREF="#24">[24]</A>,<A HREF="#25">[25]</A>,<A HREF="#26">[26]</A>.
+<P>
+The costs associated with the low pressure indirectly heated
+gasifier were determined by studying and evaluating the accuracy
+of costs developed by several independent sources <A HREF="#27">[27]</A>,<A HREF="#28">[28]</A>,<A HREF="#29">[29]</A>,<A HREF="#30">[30]</A>.
+ It was assumed that two gasification trains of equal capacity
+will be needed.  Equipment included in the gasification section
+include the gasifier, char combustor, char combustor cyclone,
+sand surge pots, ash cyclone, sand makeup hopper, startup burner
+and blower, and steam supply valves.
+<P>
+The costs of the low pressure
+air-blown gasifier were developed from information contained in
+the Weyerhauser feasibility study <A HREF="#31">[31]</A> for the TPS gasification
+system.  The capital costs are reported by overall plant section
+(e.g. "Gasification", "Power Block") so detailed
+analysis and scaling was not possible for each piece of equipment.
+ Given that the gasification system design was essentially identical
+to that used in our simulation, the entire gasification section
+cost was scaled to the size required for use with an MS-6101FA
+gas turbine using an overall scale factor of 0.8.  This assumes,
+of course, that a single train could be increased in scale by
+60%.  Otherwise, two parallel trains would be required.  This
+would increase the gasification section capital cost by approximately
+15%.
+<H4>Gas Clean-up Costs</H4>
+<STRONG>Tar cracker</STRONG><BR>
+The initial tar cracker design was
+developed using laboratory data <A HREF="#32">[32]</A> including space velocities
+of 2000 hr<SUP>-1</SUP>;  however, this resulted in extremely large and shallow
+beds.  Further examination of the laboratory data revealed that
+very large space velocities were utilized to quickly test catalyst
+life.  Therefore, a reduced space velocity (35% of the lab value)
+was adopted for the design.  This resulted in reasonable superficial
+gas velocities and a vessel size of 4.26 x 12.8 meters (14 x 42
+ft.).  The module cost for the tar cracker was determined using
+the CHEMCOST program and the cost factor applied.
+<P>
+<STRONG>High temperature gas cooling</STRONG><BR>
+For the cases that used a direct quench, the cost of a quench pump
+was determined with the CHEMCOST program.  For the indirect gas
+cooling case, the area and size of the heat exchanger required
+was calculated utilizing standard methods <A HREF="#33">[33]</A> and based on
+data from the system simulation.  The cost of this indirect cooler
+was determined from the CHEMCOST program.  In both cases, a cost
+factor of 0.7 was applied to the basic equipment cost.
+<P>
+<STRONG>High temperature particulate removal</STRONG><BR>
+Based on information supplied by the equipment vendor <A HREF="#34">[34]</A>, it was
+believed that a hot gas filtration unit similar in size to that
+being demonstrated with the Tidd pressurized fluidized bed combustor
+(PFBC) system under the Clean Coal Program would be appropriate
+for a gasification train of the size being evaluated in this report.
+ The vendor supplied an FOB cost for the hot gas filtration unit.
+ The installation factor applied to the particulate filter was
+reduced slightly given the highly modular, shop fabricated nature
+of the unit.  This cost was further confirmed against data contained
+in the NSP report which used a similar system.
+<H4>Compression Costs for Low Pressure Gasifier Systems</H4>
+In the low pressure indirectly heated gasifier plant, a five stage
+compression system with interstage cooling was used to boost the
+pressure of the syngas prior to combustion in the gas turbine
+combustor. The purchase price and total power requirement for
+this compression operation were estimated to be $3.8 MM and 9.6
+MW<SUB>e</SUB>, respectively.  This unit was optimized at five stages according
+to the purchased cost and horsepower requirements which were higher
+for both four stage ($4.1 MM, 9.7 MW<SUB>e</SUB>) and six stage ($3.9 MM,
+9.7 MW<SUB>e</SUB>) compression systems.
+<P>
+The cost for the fuel gas compressor
+is included in the gasification section system cost from the Weyerhauser
+report that was used to develop an overall cost for the gasification
+system up to the combined cycle system.  Therefore, cost details
+for the compressor itself are not available.  Data from the ASPEN
+simulation indicates that two or three compressor stages with
+inter-cooling would be required to raise the fuel gas to the necessary
+pressure.  The number of stages is largely constrained by the
+allowable outlet temperature of each stage and the thermodynamic
+characteristics of the fuel gas.
+<H4>Char Combustor Cost for High Pressure Gasifier System</H4>
+The base cost for the char combustor for the direct gasification systems
+was determined from the ENFOR reports <A HREF="#35">[35]</A> on commercially available
+equipment for wood combustion and the result independently confirmed
+<A HREF="#36">[36]</A>.  The size was determined based on the heat duty of
+the unit.  The total cost for the combustor system was reduced
+by 30% from that found in the ENFOR reports, since a substantial
+fraction of the heat recovery in the commercial system (and therefore
+a substantial fraction of the heat exchange area) was not needed
+for this application.  The system cost included the feed system,
+primary air, boil, and ash removal system.  The final cost for
+the wood handling and drying section was compared with an independent
+cost estimate for a system of similar size<A HREF="#37">[37]</A>, and found
+to be similar.
+<P>
+As discussed earlier, if gasifier carbon conversion
+achieves high levels in the final commercial, this plant section
+will not be required.  This would result in a total capital requirement
+savings of $2.1 million in the aero-derivative turbine case and
+$3.3 million in the utility gas turbine case as well as an indeterminate
+amount of O&M expense.
+<H4>Combined Cycle Power Generation Costs</H4>
+<STRONG>Gas Turbine</STRONG><BR>
+Costs for the gas turbines utilized
+in this study were determined from published data <A HREF="#38">[38]</A> or from
+the manufacturer.  Again, installation factors were slightly reduced
+because of the modular nature of the gas turbines and associated
+equipment.
+<P>
+<STRONG>Heat Recovery Steam Generator</STRONG><BR>
+The cost of the HRSG for the LM5000 turbine was estimated  from  published
+sources <A HREF="#39">[39]</A>, <A HREF="#40">[40]</A>.  The HRSG cost for the MS-6101FA
+turbine was scaled from the cost for a similar unit for the MS-7001FA
+turbine <A HREF="#41">[41]</A>.
+<P>
+<STRONG>Steam Turbine System</STRONG><BR>
+The cost for the steam cycles for both systems were determined from
+capacity costs ($/kW) from a number of sources <A HREF="#42">[42]</A>, <A HREF="#43">[43]</A>, <A HREF="#44">[44]</A>.  The estimated cost included all ancillary equipment for the cycle including mechanical draft cooling tower, feedwater
+pumps, condenser, etc, and was estimated to be $250/kW of the
+steam turbine output for the large steam cycles and $350/kW for
+the smaller steam cycles.
+<H4>Total Plant Cost, Total Plant Investment, and Total Capital Requirements</H4>
+To obtain the total plant cost (TPC), capital costs were added to
+the installed equipment cost for general plant facilities (10% of process plant cost), engineering fees (15%), and project contingency (15% of process plant cost + general plant facilities
+cost).  The percentages were selected from ranges provided in
+EPRI TAG <A HREF="#45">[45]</A>.  No process contingencies were applied to the
+individual plant sections as this was assumed to be a mature plant.
+<P>
+The total plant investment (TPI) was determined by adding the
+interest cost plus inflation to the TPC.  The period of construction
+was assumed to be 2 years and construction interest was assumed
+to be 4.5%.  The total capital requirement (TCR) for the plant
+was the sum of the TPC, TPI, royalties, startup costs, initial
+catalyst and chemicals, working capital, spare parts, and land
+(where applicable).  A summary of the capital costs for each case
+was contained in <A HREF="#table13">Table 13</A>.
+<H4>Operation and Maintenance Costs</H4>
+Operating and maintenance costs for the plant were based on an 80% capacity
+factor.  Wood costs were assumed to be $46/Mg ($42 per bone dry
+ton).  It was assumed that 2 operators per shift were required
+for the LM5000 based systems, and 5 operators per shift for the
+MS6101FA based system.  This number of operators is substantially
+reduced over the EPRI TAG numbers and those contained in our earlier
+evaluation.  This revised estimate is a result of developing operating
+trends and the consensus position arrived at between NREL, EPRI,
+Princeton, and others.  A summary of annual operating costs for
+each case is contained in <A HREF="#table14">Table 14</A>.  Ash disposal costs for the
+indirectly-heated gasifier case are significantly higher than
+in the other cases because a large amount of sand was purged to
+prevent build-up of ash in the system.  It is likely that this
+sand stream will not be disposed of in the same manner as pure
+ash streams from the other gasifiers, but a more conservative
+approach was taken in assuming the cost per tonne was the same.
+ <P>
+<A NAME="table13"></A><TABLE BORDER=1 CELLPADDING=2>
+<TR>
+	<TH COLSPAN=6>Table 13:  Capital Costs</TH>
+</TR>
+
+<TR>
+	<TD><BR></TD>
+	<TD COLSPAN=5><CENTER>Installed Equipment Cost, $K (1990)</CENTER></TD>
+</TR>
+
+<TR>
+	<TD>Plant Section Description</TD>
+	<TD>High P, aero-deriv gas turbine</TD>
+	<TD>High P, greenfield plant</TD>
+	<TD>High P, utility gas turbine</TD>
+	<TD>Low P, indirect, utility gas turbine</TD>
+	<TD>Low P, direct, utility gas turbine</TD>
+</TR>
+
+<TR>
+	<TD>Wood Handling</TD>
+	<TD>2,173</TD>
+	<TD>2,173</TD>
+	<TD>4,346</TD>
+	<TD>4,400</TD>
+	<TD>3,478</TD>
+</TR>
+
+<TR>
+	<TD>Wood Drying</TD>
+	<TD>2,724</TD>
+	<TD>2,724</TD>
+	<TD>5,448</TD>
+	<TD>5,448</TD>
+	<TD>4,360</TD>
+</TR>
+
+<TR>
+	<TD>Gasification</TD>
+	<TD>20,972</TD>
+	<TD>20,972</TD>
+	<TD>44,475</TD>
+	<TD>14,185</TD>
+	<TD ROWSPAN=4> |<BR> |<BR> |<BR> |<BR>V<BR>33,481</TD>
+</TR>
+
+<TR>
+	<TD>Gas Cleanup</TD>
+	<TD>2,700</TD>
+	<TD>2,700</TD>
+	<TD>5,400</TD>
+	<TD>5,400</TD>
+</TR>
+
+<TR>
+	<TD>Tar Cracker</TD>
+	<TD><BR></TD>	
+	<TD><BR></TD>
+	<TD><BR></TD>
+	<TD>454</TD>
+</TR>
+
+<TR>
+	<TD>Direct Quench</TD>
+	<TD>15</TD>
+	<TD>15</TD>
+	<TD>30</TD>
+	<TD>30</TD>
+</TR>
+
+<TR>
+	<TD>Gas Turbine</TD>
+	<TD>13,161</TD>
+	<TD>13,161</TD>
+	<TD>17,220</TD>
+	<TD>17,850</TD>
+	<TD>17,220</TD>
+</TR>
+
+<TR>
+	<TD>HRSG</TD>
+	<TD>2,208</TD>
+	<TD>2,208</TD>
+	<TD>8,000</TD>
+	<TD>7,686</TD>
+	<TD>8,000</TD>
+</TR>
+
+<TR>
+	<TD>Steam Cycle</TD>
+	<TD>3,133</TD>
+	<TD>3,133</TD>
+	<TD>11,675</TD>
+	<TD>12,668</TD>
+	<TD>11,900</TD>
+</TR>
+	
+<TR>
+	<TD>Boost Compressor</TD>
+	<TD>590</TD>
+	<TD>590</TD>
+	<TD>1,180</TD>
+	<TD>5,691</TD>
+	<TD>included with<BR>gasification </TD>
+</TR>
+
+<TR>
+	<TD>Char Combustor System</TD>
+	<TD>1,215</TD>
+	<TD>1,215</TD>
+	<TD>2,282</TD>
+	<TD>included with<BR>gasification costs</TD>
+	<TD>included with<BR>gasification</TD>
+</TR>
+
+<TR>
+	<TD>Balance of Plant</TD>
+	<TD>9,778</TD>
+	<TD>9,778</TD>
+	<TD>20,011</TD>
+	<TD>14,762</TD>
+	<TD>15,688</TD>
+</TR>
+
+<TR>
+	<TD>Substation</TD>
+	<TD>0</TD>
+	<TD>3,958</TD>
+	<TD>0</TD>
+	<TD>0</TD>
+	<TD>0</TD>
+</TR>
+
+<TR>
+	<TD>Subtotal, Process Plant Cost</TD>
+	<TD>58,669</TD>
+	<TD>62,627</TD>
+	<TD>120,067</TD>
+	<TD>88,575</TD>
+	<TD>94,127</TD>
+</TR>
+
+<TR>
+	<TD>General Plant Facilities</TD>
+	<TD>5,867</TD>
+	<TD>6,263</TD>
+	<TD>12,007</TD>
+	<TD>8,657</TD>
+	<TD>9,413</TD>
+</TR>
+
+<TR>
+	<TD>Engineering Fees</TD>
+	<TD><BR></TD>
+	<TD>9,394</TD>
+	<TD>18,010</TD>
+	<TD>13,286</TD>
+	<TD>14,119</TD>
+</TR>
+
+<TR>                                                             
+	<TD>Project Contingency</TD>
+	<TD>9,680</TD>
+	<TD>10,333</TD>
+	<TD>19,811</TD>
+	<TD>14,615</TD>
+	<TD>15,531</TD>
+</TR>
+
+<TR>
+	<TD>Total Plant Cost (TPC)</TD>
+	<TD>83,017</TD>
+	<TD>88,617</TD>
+	<TD>169,895</TD>
+	<TD>125,333</TD>
+	<TD>133,189</TD>
+</TR>
+
+<TR>
+	<TD>Adjustment for Interest and Inflation</TD>
+	<TD>200</TD>
+	<TD>213</TD>
+	<TD>408</TD>
+	<TD>301</TD>
+	<TD>320</TD>
+</TR>
+
+<TR>
+	<TD>Total Plant Investment (TPI)</TD>
+	<TD>83,216</TD>
+	<TD>88,831</TD>
+	<TD>170,303</TD>
+	<TD>129,635</TD>
+	<TD>133,510</TD>
+</TR>
+
+<TR>
+	<TD>Prepaid Royalties</TD>
+	<TD>293</TD>
+	<TD>313</TD>
+	<TD>600</TD>
+	<TD>443</TD>
+	<TD>471</TD>
+</TR>
+
+<TR>
+	<TD>Startup Costs</TD>
+	<TD>2,250</TD>
+	<TD>2,382</TD>
+	<TD>4,649</TD>
+	<TD>4,081</TD>
+	<TD>3,683</TD>
+</TR>
+
+<TR>
+	<TD>Spare Parts</TD>
+	<TD>415</TD>
+	<TD>443</TD>
+	<TD>849</TD>
+	<TD>627</TD>
+	<TD>666</TD>
+</TR>
+
+<TR>
+	<TD>Working Capital</TD>
+	<TD>1,978</TD>
+	<TD>1,982</TD>
+	<TD>4,251</TD>
+	<TD>4,425</TD>
+	<TD>4,480</TD>
+</TR>
+
+<TR>
+	<TD>Land</TD>
+	<TD>0</TD>
+	<TD>1,000</TD>
+	<TD>0</TD>
+	<TD>0</TD>
+	<TD>0</TD>
+</TR>
+
+<TR>
+	<TD>Total Capital Requirement (TCR)</TD>
+	<TD>88,112</TD>
+	<TD>94,951</TD>
+	<TD>180,653</TD>
+	<TD>135,211</TD>
+	<TD>141,810</TD>
+</TR>
+
+<TR>
+	<TD>TCR ($/kW></TD>
+	<TD>1,588</TD>
+	<TD>1,696</TD>
+	<TD>1,371</TD>
+	<TD>1,108</TD>
+	<TD>1,350</TD>
+</TR>
+</TABLE>
+<P>
+<A NAME="table14"></A><TABLE BORDER=1 CELLPADDING=2>
+<TR>
+	<TH COLSPAN=6>Table 14:  Annual Operating Costs, $K</TH>
+</TR>
+
+<TR>
+	<TD><BR></TD>
+	<TD>High P gasifier, aero- deriv. gas turbine</TD>
+	<TD>High P gasifier, greenfield plant</TD>
+	<TD>High P gasifier, advanced utility gas turbine</TD>
+	<TD>Low P indirectly-heated gasifier, utility gas turbine</TD>
+	<TD>Low-pressure air-blown gasifier, utility gas turbine</TD>
+</TR>
+
+<TR>
+	<TD>Wood (dry), $42/T</TD>
+	<TD>9,198</TD>
+	<TD>9,198</TD>
+	<TD>19,794</TD>
+	<TD>20,087</TD>
+	<TD>16,250</TD>
+</TR>
+
+<TR>
+	<TD>Water, $0.60/T</TD>
+	<TD>49</TD>
+	<TD>49</TD>
+	<TD>105</TD>
+	<TD>211</TD>
+	<TD>53</TD>
+</TR>
+
+<TR>
+	<TD>Ash Disposal Cost, $8.00/T</TD>
+	<TD>9</TD>
+	<TD>9</TD>
+	<TD>19</TD>
+	<TD>822</TD>
+	<TD>16</TD>
+</TR>
+
+<TR>
+	<TD>Operating Labor (incl. Benefits)</TD>
+	<TD>356</TD>
+	<TD>356</TD>
+	<TD>891</TD>
+	<TD>2,139</TD>
+	<TD>891</TD>
+</TR>
+
+<TR>
+	<TD>Supervision and Clerical</TD>
+	<TD>306</TD>
+	<TD>320</TD>
+	<TD>675</TD>
+	<TD>1,243</TD>
+	<TD>587</TD>
+</TR>
+
+<TR>
+	<TD>Maintenance Costs</TD>
+	<TD>1,660</TD>
+	<TD>1,772</TD>
+	<TD>3,398</TD>
+	<TD>2,507</TD>
+	<TD>2,664</TD>
+</TR>
+
+<TR>
+	<TD>Insurance and Local Taxes</TD>
+	<TD>1,660</TD>
+	<TD>1,772</TD>
+	<TD>3,398</TD>
+	<TD>2,507</TD>
+	<TD>2,664</TD>
+</TR>
+
+<TR>
+	<TD>Royalties</TD>
+	<TD>92</TD>
+	<TD>92</TD>
+	<TD>198</TD>
+	<TD>201</TD>
+	<TD>162</TD>
+</TR>
+
+<TR>
+	<TD>Other Operating Costs</TD>
+	<TD>102</TD>
+	<TD>107</TD>
+	<TD>225</TD>
+	<TD>414</TD>
+	<TD>196</TD>
+</TR>
+
+<TR>
+	<TD>Net Operating Costs</TD>
+	<TD>13,433</TD>
+	<TD>13,675</TD>
+	<TD>28,702</TD>
+	<TD>32,638</TD>
+	<TD>23,442</TD>
+</TR>
+</TABLE>
+<P>
+<H4>Cost of Electricity</H4>
+Based on the above cost information and the economic assumptions listed in <A HREF="#table11">Table
+11</A> and <A HREF="#table12">Table 12</A>, the levelized costs of electricity (COE) were calculated
+for each case.  The method utilized was based on that described
+in EPRI TAG <A HREF="#46">[46]</A>.  The resulting electricity costs are summarized
+along with other pertinent cost data in <A HREF="#table15">Table 15</A>.  These electricity
+and capital costs are compared with a number of other studies
+in <A HREF="#fig6">Figure 6</A> & <A HREF="#fig7">Figure 7</A>.
+<P>
+<A NAME="table15"></A><TABLE BORDER=1 CELLPADDING=2>
+<TR>
+	<TH COLSPAN=6>Table 15:  Cost and Economic Summary for NREL Cases</TH>
+</TR>
+
+<TR>
+	<TD><BR></TD>
+	<TD>High pressure gasifier, aero- deriv. gas turbine</TD>
+	<TD>High pressure gasifier, greenfield plant</TD>
+	<TD>High pressure gasifier, advanced utility gas turbine</TD>
+	<TD>Low-pressure indirectly-heated gasifier, utility gas turbine</TD>
+	<TD>Low-pressure air-blown gasifier, utility gas turbine</TD>
+</TR>
+
+<TR>
+	<TD>Output (Mw<SUB>e</SUB>)</TD>
+	<TD>56</TD>
+	<TD>56</TD>
+	<TD>132</TD>
+	<TD>122</TD>
+	<TD>105</TD>
+</TR>
+
+<TR>
+	<TD>Efficiency<BR>(%, HHV)</TD>
+	<TD>36.01</TD>
+	<TD>36.01</TD>
+	<TD>39.70</TD>
+	<TD>35.40</TD>
+	<TD>37.9</TD>
+</TR>
+
+<TR>
+	<TD>Capital Cost (TCR, $/kW)</TD>
+	<TD>1,588</TD>
+	<TD>1,696</TD>
+	<TD>1,371</TD>
+	<TD>1,108</TD>
+	<TD>1,350</TD>
+</TR>
+
+<TR>
+	<TD>Operating Cost include. fuel ($1,000/yr)</TD>
+	<TD>13,433</TD>
+	<TD>13,675</TD>
+	<TD>28,703</TD>
+	<TD>27.983</TD>
+	<TD>23,4742</TD>
+</TR>
+
+<TR>
+	<TD>COE<BR>(&#162;/kW, Current $)</TD>
+	<TD>7.91</TD>
+	<TD>8.2</TD>
+	<TD>6.99</TD>
+	<TD>6.55</TD>
+	<TD>7.03</TD>
+</TR>
+
+<TR>
+	<TD>COE<BR>(Constant $)</TD>
+	<TD>6.1</TD>
+	<TD>6.31</TD>
+	<TD>5.39</TD>
+	<TD>5.11</TD>
+	<TD>5.43</TD>
+</TR>
+</TABLE>
+<P>
+<A NAME="fig6"><CENTER><IMG SRC="images/fig6.gif"></CENTER></A>
+<P>
+<CENTER><STRONG>Figure 6.  Cost of Electricity vs. Plant Size From Several Studies</STRONG></CENTER>
+<P>
+<A NAME="fig7"><CENTER><IMG SRC="images/fig7.gif"></CENTER></A>
+<P>
+<CENTER><STRONG>Figure 7.  Capital Cost of Biomass IGCC Systems vs. Size From Several Studies</STRONG></CENTER>
+<P>
+<H3>Analysis, Discussion, and Conclusions</H3>
+It is clear from these analyses that gasification/turbine systems
+can produce electricity at up to twice the average efficiency
+of today's biomass power industry.  The highest efficiency system
+examined here uses an advanced utility-scale gas turbine (the GE
+MS6101FA).  Such a system benefits not only from economy of scale,
+but from the increased turbine efficiency and, perhaps most significantly,
+the reheat steam cycle that is feasible at this scale and turbine
+exhaust temperature.
+<P>
+Historically, generating systems of this
+scale (&gt; 100 MW<SUB>e</SUB>) have been deemed infeasible for biomass-based
+systems because of the associated feedstock requirements.  However,
+the use of advanced combined-cycle technology reduces fuel requirements
+to manageable levels because of the striking increase in generating
+efficiency.  Also, smaller, industrial-scale, gas turbines with
+very high efficiencies are being developed under the UDSOE's Advanced
+Turbine System (ATS) program.  These are likely to be attractive
+for biomass systems as they will require reduced quantities of
+biomass to access high efficiency turbine systems.
+<P>
+Complementary to this trend is the development of dedicated feedstock supply
+systems that are intended to sustainably supply larger quantities
+of feedstock than were heretofore available.  Properly managed,
+these trends are positioned to merge and provide a new generation
+of high-efficiency and cost-competitive biomass-based electricity
+generating stations.
+<P>
+It is also clear from this study however that
+even the most promising electricity cost from biomass is higher
+than currently quoted avoided costs and new, high-efficiency natural
+gas combined cycle systems.  This is certainly one of the challenges
+faced by the industry today.  Deregulation is likely to bring
+many opportunities as well as challenges however.  Among these
+are capturing the market for "green power" demonstrated
+by innumerable public surveys.  Also promising is deployment of
+these technologies into the cogeneration and distributed generation
+markets.  This avoids head-to-head competition with large central
+station fossil-fueled plants.  Additionally, such systems may
+have access to low cost feedstocks or favorable treatment by regulatory
+bodies.  Smaller scale distributed generations systems employing
+industrial turbines or fuel cells are also applicable to the burgeoning
+international market for electricity generation.
+<P>
+Advanced utilization
+systems are currently under development that hold the potential
+for even more significant improvements in cost and efficiency
+than the systems examined here.  It is important to continue development
+and demonstration of current technology and dedicated feedstock
+supply systems to be positioned to take advantage of these advances.
+<H4>References</H4>
+<OL>
+<LI><A NAME="1"></A>Mahrling, P.; Vierrath, H. (June 1989). <I>Gasification of Lignite and Wood in the Lurgi Circulating Fluidized-Bed Gasifier.</I>  EPRI GS-6436.  Frankfurt am Main, Germany. Lurgi GmbH. Available from Electric Power Research Institute, Palo Alto, CA.
+<P>
+<LI><A NAME="2"></A>Anderson, R.O. (1993). <I>Ms6001FA - An Advanced Technology 70 MW-Class 50/60 Hertz Gas Turbine.</I> Available from General Electric Company, Schenectady, NY.
+<P>
+<LI><A NAME="3"></A><I>Gas Turbine World 1992-93 Handbook</I> (1993). Fairfield, CT: Pequot Publishing Inc.
+<P>
+<LI><A NAME="4"></A>Breault, R.; Morgan, D. (October 1992). <I>Design and Economics or Electricity Production from an Indirectly Heated Biomass Gasifier.</I> TR4533-049-92. Columbus, OH: Battelle Memorial Institute. Work performed by Tecogen Inc., Waltham, MA.
+<P>
+<LI><A NAME="5"></A>Wiltsee, G. A. (November 1993). <I> Strategic Analysis of Biomass and Waste Fuels for Electric Power Generation.</I> EPRI TR-102773. Sevenson Ranch, CA: Appel Consultants, Inc. Available from Electric Power Research Institute, Palo Alto, CA.
+<P>
+<LI><A NAME="6"></A>Ebasco Environmental. (October 1993). <I>Wood Fuel Cofiring at TVA Power Plants.</I> Contract 3407-1. Sacramento, CA: Ebasco Services Inc. Available from the Electric Power Research Institute, Palo Alto, CA.
+<P>
+<LI><A NAME="7"></A>Bain, R. (January, 1992). <I> Material and Energy Balances for Methanol from  Biomass Using Biomass Gasifiers.</I> Golden, Colorado: National Renewable Energy Laboratory.
+<P>
+<LI><A NAME="8"></A>Feldmann, J.; Paisley, M.A. (May 1988). <I>Conversion of Forest Residues to a Methane-Rich Gas in a high-throughput Gasifier.</I> Columbus, Ohio: Battelle Columbus Laboratory.
+<P>
+<LI><A NAME="9"></A>Weyerhauser et al. (June 1995). <I>New Bern Biomass to Energy Project, Phase 1 Feasibility Study.</I> NREL/TP-421-7942. Golden, CO: National Renewable Energy Laboratory. Work performed by Weyerhauser, Inc.
+<P>
+<LI><A NAME="10"></A>Mehrling, P. (June 1989)
+<P>
+<LI><A NAME="11"></A>Overend, R. P. (December 1995) Personal communication. National Renewable Energy Laboratory.
+<P>
+<LI><A NAME="12"></A>Anderson, R. O. (1993). <I>MS6001FA - An Advanced Technology 70 MW-Class 50/60 Hertz Gas Turbine.</I> Available from General Electric Company, Schenectady, NY.
+<P>
+<LI><A NAME="13"></A><I>100-MW Nevada IGCC Operational Next Year.</I> (July-August 1995). Gas Turbine World. pp. 30-32
+<P>
+<LI><A NAME="14"></A>Corman, J.C. (September 1986). <I>System Analysis of Simplified IGCC Plants.</I> DOE/ET-14928-2233. Morgantown, WV; Morgantown Energy Technology Center. Work performed by General Electric Company Corporate Research and Development, Schenectady, NY.
+<P>
+<LI><A NAME="15"></A>Electric Power Research Institute. (June 1993). <I>TAG - Technical Assessment Guide.</I> EPRI TR-102276-V1R7 Volume 1: Rev. 7. Palo Alto, CA.
+<P>
+<LI><A NAME="16"></A>Breault, R.; Morgan, D. (October 1992).
+<P>
+<LI><A NAME="17"></A>Simons Resource Consultants and B. H. Levelton and Assoc. Ltd. (December 1983). <I>ENFOR Project C-258, A Comparative Assessment of Forest Biomass Conversion to Energy Forms.</I> Report to Energy, Mines, & Resources Canada. v. III pp.4-38
+<P>
+<LI><A NAME="18"></A>Perry, R. H.; Chilton, C.H. (1973). <I>Chemical Engineer's Handbook.</I> 5th Edition. New York: McGraw-Hill.
+<P>
+<LI><A NAME="19"></A>Gallaspy, D. T.; Johnson, T. W.; and Sears, R. E. (July 1990). <I>Southern Company Services' Study of a KRW-Based GCC Power Plant.</I> EPRI GS-6876. Palo Alto, CA: Electric Power Research Institute. Work performed by Southern Company Services Inc., Birmingham, AL.
+<P>
+<LI><A NAME="20"></A>Northern States Power et al. (May 1995). <I>Economic Development Through Biomass Systems Integration - Sustainable Biomass Energy Production.</I> NREL/TP-421-20517. Golden, CO. Work performed for the National Renewable Energy Laboratory and the Electric Power Research Institute by Northern States Power, Minneapolis, MN.
+<P>
+<LI><A NAME="21"></A>Craig, K.R., Bain, R.L., Overend, R.P., (October 1995). "Biomass Power: Where Are We, Where Are We Going, and How Do We Get There? The Role of Gasification." Proceedings of  <U>EPRI Conference on New Power Generation Technology.</U> San Francisco, CA.
+<P>
+<LI><A NAME="22"></A>Craig, K.R., M.K. Mann, R.L. Bain. October 1994. "Cost and Performance Potential of Advanced Integrated Biomass Gasification Combined Cycle Power Systems." Published in "ASME Cogen Turbo Power '94, 8th Congress & Exposition on Gas Turbines in Cogeneration and Utility, Industrial and Independent Power Generation." Portland, OR. ISBN No. 0-7918-1213-8
+<P>
+<LI><A NAME="23"></A>Peters, M. S.; Timmerhaus, K. D. (1980). <I>Plant Design and Economics for Chemical Engineers.</I> 3rd Edition. New York: McGraw-Hill.
+<P>
+<LI><A NAME="24"></A>Peters, M.; Timmerhaus, K. (1991). <I>Plant Design and Economics for Chemical Engineers.</I> 4th Edition. New York: McGraw-Hill.
+<P>
+<LI><A NAME="25"></A>Garrett, D. (1989). <I>Chemical Engineering Economics.</I> New York: Reinhold.
+<P>
+<LI><A NAME="26"></A>Pikulik, A.; Diaz, H. (October 10, 1977). "Cost Estimating for Major Process Equipment." <I>Chemical Engineering:</I> Vol. 84, [21], pp. 106-122.
+<P>
+<LI><A NAME="27"></A>Breault, R.; Morgan, D. (October 1992).
+<P>
+<LI><A NAME="28"></A>Double, J.M.; (1988) <I>Design, Evaluation and Costing of Biomass Gasifiers.</I> Doctoral Thesis
+<P>
+<LI><A NAME="29"></A>Dravo Engineering Companies. (1987). Gasification Capital Cost Estimation. Obtained from Mark Pailey in personal correspondence, August, 1994. Battelle Columbus Laboratory.
+<P>
+<LI><A NAME="30"></A>Weyerhauser. (1992) Gasification Capital Cost Estimation Obtained from mark Paisley in personal correspondence, August, 1994. Battelle Columbus Laboratory.
+<P>
+<LI><A NAME="31"></A>Weyerhauser et al. (June 1995).
+<P>
+<LI><A NAME="32"></A>Battelle. (January 1993). <I>Operation and Evaluation of an Indirectly Heated Biomass Gasifier Phase Completion Report.</I> Contract YM-2-11110-1. Golden, CO. National Renewable Energy Laboratory
+<P>
+<LI><A NAME="33"></A>Perry, R. H.; Chilton, C.H. (1973).
+<P>
+<LI><A NAME="34"></A>Wiant, B. (September 28, 1993). Westinghouse Electric Corporation, Orlando, FL.
+<P>
+<LI><A NAME="35"></A>Simons Resource Consultants and B.H. Levelton and Assoc. Ltd. (December 1983). ENFOR Project C-258, A Comparative Assessment of Forest biomass conversion to Energy Forms. Report to Energy, Mines, & Resources Canada. V. III p.4-38 Table 4-7.
+<P>
+<LI><A NAME="36"></A>Levelton, B.H., <I>Sawmill and Small Scale Combustion Systems,</I> Published in Proceeding of "Energy Generation and Co-Generation from Wood." p. 80-26.
+<P>
+<LI><A NAME="37"></A>Ebasco Environmental. (October 1993).
+<P>
+<LI><A NAME="38"></A><I>Gas Turbine World 1992-93 Handbook</I> (1993). Fairfield, CT: Pequot Publishing Inc.
+<P>
+<LI><A NAME="39"></A>Corman, J.C. (September 1986).
+<P>
+<LI><A NAME="40"></A>Esposito, N. T. (June 1990). <I>A Comparison of Steam-Injected Gas Turbine and Combined Cycle Power Plants: Technology Assessment.</I> EPRI GS-2387-4. Palo Alto, CA: Electric Power Research Institute. Work performed by Jersey CP&L, Morristown, NJ.
+<P>
+<LI><A NAME="41"></A>Ibid.
+<P>
+<LI><A NAME="42"></A>Ibid.
+<P>
+<LI><A NAME="43"></A>Wiltsee, G. A. (November 1993).
+<P>
+<LI><A NAME="44"></A>Corman, J.C. (September 1986).
+<P>
+<LI><A NAME="45"></A>Electric Power Research Institute. (September 1985). <I>TAG - Technical Assessment Guide.</I> EPRI P-6587-L Volume 1. Palo Alto, CA.
+<P>
+<LI><A NAME="46"></A>Ibid.
+</OL>
+</BODY>
+</HTML>
+</DOC>

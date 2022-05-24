@@ -1,0 +1,71 @@
+
+<DOC>
+<DOCNO>WT02-B17-47</DOCNO>
+<DOCOLDNO>IA060-000326-B034-74</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/menus/addasite.html 205.168.79.27 19970115010458 text/html 1982
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 01:05:03 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Wed, 20 Nov 1996 17:13:13 GMT
+Content-length: 1808
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN" "html.dtd">
+<HTML>
+<HEAD>
+<TITLE>Add a Site on EREN</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF" vlink="#843131" text="#000000"
+link="#323294">
+
+<H2>Add a Site on EREN</H2>
+
+<! ----- Intro text ----->
+<p>Before you submit information about an Internet resource to us
+for 
+consideration, please review the following criteria.  We will review 
+submitted resources within three weeks.  We reserve the right to
+make 
+all decisions in regard to what material is added to EREN, including 
+the right to reject submissions.
+
+<p>1.Information on the site must relate to energy efficiency or
+renewable
+energy (ee/re) technologies or ee/re education and training.
+
+<p>2.  Information on the site needs to be substantive, unique, regularly
+updated, well-organized, accurate, complete,
+well-developed, and easily understood.
+<p><br><br>
+
+<! ----- Insert Form ----->
+<FORM METHOD=POST ACTION="/cgi-bin/addasite.cgi">
+
+<! ----- Input fields ----->
+<P><STRONG>Title:</STRONG>  <INPUT TYPE="text" NAME="title" SIZE=30>
+<P><STRONG>URL: </STRONG> <INPUT TYPE="text" NAME="URL" SIZE=31>
+<P><STRONG>Brief description: </STRONG> <INPUT TYPE="text"
+NAME="description"
+SIZE=45>
+<P><STRONG>Producer:</STRONG>  <INPUT TYPE="text" NAME="producer"
+SIZE=14>
+<p><STRONG>Webmaster email: </STRONG> <INPUT TYPE="text"
+NAME="Web_email"
+SIZE=14>
+<P><STRONG>Your name: </STRONG> <INPUT TYPE="text" NAME="name"
+SIZE=20>
+<p><strong>Your email:</strong> <INPUT TYPE="text" NAME="your_email"
+SIZE=14>
+<p><strong>Comments:</strong><TEXTAREA NAME="Comments" ROWS=5
+COLS=50></textarea>
+<P><INPUT TYPE="submit" VALUE="Send">  <INPUT TYPE="reset">
+
+<p>Please contact the EREN webmaster at <A HREF="mailto:
+webmaster.eren@nrel.gov">webmaster.eren@nrel.gov</A> if you have
+questions.
+
+</FORM>
+</BODY>
+</HTML>
+</DOC>

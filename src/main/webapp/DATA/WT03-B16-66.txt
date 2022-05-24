@@ -1,0 +1,171 @@
+
+<DOC>
+<DOCNO>WT03-B16-66</DOCNO>
+<DOCOLDNO>IA072-000459-B012-238</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/spot/cap.html 137.132.32.55 19970121023356 text/html 7244
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 12:58:36 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Saturday, 21-Dec-96 13:32:55 GMT
+Content-length: 7061
+</DOCHDR>
+<html><head>
+<TITLE>Spot Image Formats</TITLE>
+</head>
+<body bgcolor="ddccaa">
+<H1>The '<A NAME="cap">SPOT Standard Digital product format</A>'</H1>
+
+<This format corresponds to the format of the SPOT scene digital products. <p>
+These digital products are delivered either on 1/2" magnetic tapes (6250 bpi CCT), Exabytes or on CD-Rom.<p>
+It is also called the "CAP format", since it was produced for the "Centre d'Archivage et de Pr&eacute;traitement (CAP)", located at Spot Image in Toulouse as well as SSC-Satellitbild facilities in Kiruna.<p>
+
+This format concerns the SPOT scenes which are processed at level 1A, 1B, 2A or 2B.<p>
+This format is upward compatible with the old SPOT Standard Product CCT format and
+ is capable of handling the additional Short Wave Infra-Red (SWIR) band on SPOT 4.<p>
+
+<P>
+<A NAME="spot17"><B>Logical Volume</B></A>
+<P>
+The files in a single SPOT Product Logical Volume are:
+<ul>
+<li><A HREF="#spot17">Logical Volume</A>
+<li><A HREF="#spot18">Volume Directory File</A>
+<li><A HREF="#spot19">Leader File</A>
+<li><A HREF="#spot20">Imagery File</A>
+<li><A HREF="#spot21">Trailer File</A>
+<li><A HREF="#spot22">Null Volume Directory File</A>
+</li></ul>
+<P>
+The files are separated by END OF FILE (EOF) tape marks.  The Null Volume 
+Directory File is followed by three EOFs designating an END OF SET (EOS).
+<P>
+Imagery records can have a fixed length of one of the following depending on
+the length of the image line:
+<PRE>
+
+         3960 bytes (split record size option)
+         5400 bytes (line length < 5300 pixels)
+         8640 bytes (5301 < line length < 8450 pixels)
+        10980 bytes (8541 < line length < 10880 pixels)
+</PRE>
+<P>
+To accommodate image processing systems that cannot read large image record
+lengths, a split record format is available.  Digital scenes produced using
+this option have a maximum record length of 3960 bytes and are only available
+on 1600 bpi magnetic tapes.
+<P>
+<A NAME="spot18"><B>Volume Directory File</B></A>
+<P>
+The Volume Directory File is the first file on any SPOT CCT and contains 
+information about the logical volume.  It consists of five records of 360 bytes
+each:
+<P>
+<dl>
+<dd>Volume Descriptor Record
+<dd>Pointer Record for the Leader File
+<dd>Pointer Record for the Imagery File
+<dd>Pointer record for the Trailer File
+<dd>Text Record
+</dl>
+<P>
+The Volume Descriptor record identifies the logical volume within a volume set
+and the number of files on this volume.  Each Pointer record references one of
+the three data files in the logical volume and identifies the file format used
+to read the file.  The Text record contains information about the creation of
+the tape and is useful in identifying the tape.
+<P>
+<A NAME="spot19"><B>Leader File</B></A>
+<P>
+The Leader File contains auxiliary information related to the SPOT scene 
+(identification parameters defining the geometry and the radiometry of the 
+scene, preprocessing data, etc.).  The leader file consists of 27 records of 
+3960 bytes each:
+<dl>
+<dd>Leader File Descriptor
+<dd>One Header Record
+<dd>One Ancillary (Ephemeris/Attitude) Record
+<dd>16 Ancillary (Radiometric/Calibration) Records
+<dd>One Modelization Record
+<dd>One Ancillary (Ground Control Points) Record
+<dd>Four Ancillary (Histograms) Records
+<dd>One Ancillary (Map Projection) Record
+<dd>One Annotation Record
+</dl>
+The File Descriptor record identifies the data contained within the following
+leader file records.
+<P>
+The Header record contains information about the scene identification, the
+scene characteristics including corner latitude and longitude coordinates, the
+mission, the preprocessing done to the scene and the organization of the 
+Ancillary Data records which follow.
+<P>
+The remaining records in the Leader file contain information which can be used
+to do further processing (radiometric or geometric) and on the preprocessing
+applied to the raw SPOT scene.
+<P>
+<A NAME="spot20"><B>Imagery File</B></A>
+<P>
+An Imagery File contains one file descriptor record repeated on each physical
+volume in the case of multi-volume scenes and; image data records, the total
+number depending on the spectral mode and level of processing.
+<P>
+The Imagery Descriptor record variable segment gives the number and length of
+the imagery records; how the image pixels are packed, the left and right margin
+locations and the size of the prefix and suffix data.  The range of values
+for each pixel is between 1 and 255.  A pixel count of 0 corresponds to a 
+nonsignificant radiometric value and is reserved for margins around the imagery
+data, and for level 1A bad data lines and dead detectors.
+<P>
+<A NAME="spot21"><B>Trailer File</B></A>
+<P>
+The Trailer File contains information about the recording of the magnetic tape
+and the preprocessing.  This file consists of three or more records of 1080
+bytes each:
+<P>
+<dl>
+<dd>Trailer File Descriptor
+<dd>One Trailer Quality Record
+<dd>One Geometric Transformation Record
+<dd>One Grid Parameter Record
+<dd>(n) Rectification Grid Record(s) for Level 2 or S scenes
+</dl>
+<P>
+<A NAME="spot22"><B>Null Volume Directory File</B></A>
+<P>
+The Null Volume Directory file is the last file recorded on a digital SPOT
+scene.  It consists of only one 360 byte record containing a subset of the 
+information recorded in the Volume Descriptor record of the Volume Directory
+file.  The Null Volume Directory file is followed by three end-of-file (EOF)
+markers denoting the end of set.
+<P>
+<B>Logical Construction of a Single Volume Scene</B>
+<PRE>
+FILE           RECORD                          # of RECORDS          RECORD
+----           ------                          ------------          ------
+Volume         Volume Descriptor                    1                  360
+               File Pointer                         3                  360
+Directory      Text                                 1                  360
+Leader         Leader File Descriptor               1                 3960
+               Header                               1                 3960
+               Ancillary Ephemeris/Attitude         1                 3960
+               Ancillary Radiometric/Calibration   16                 3960
+               Ancillary Modelisation               1                 3960
+               Ancillary Ground/Reference Controls  1                 3960
+               Ancillary Histogram                  4                 3960
+               Ancillary Map Projection             1                 3960
+               Annotation                           1                 3960
+Imagery        Imagery File Descriptor              1             3960 or 5400
+               Image Data                           n* for PAN        8640
+                                                   3n* for MULTI     10980
+Trailer        Trailer File Descriptor              1                 1080
+               Trailer                              2 or more         1080
+Null           Null Volume Descriptor               1                  360
+
+(n*) corresponds to the number of lines of image data.
+
+
+</PRE>
+</DOC>

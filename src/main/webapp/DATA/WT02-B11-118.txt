@@ -1,0 +1,406 @@
+
+<DOC>
+<DOCNO>WT02-B11-118</DOCNO>
+<DOCOLDNO>IA086-000622-B010-10</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0139.html 130.91.195.242 19970122041633 text/html 18974
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:16:32 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 18802
+Last-modified: Tue, 05 Dec 1995 06:48:51 GMT
+</DOCHDR>
+<!-- received="Mon Dec  4 21:40:55 1995 EST" -->
+<!-- sent="Mon, 04 Dec 1995 21:40:31 -0500" -->
+<!-- name="Dave Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="Re: Meeting notes from ANSI X.9 Meeting on Electronic Payment" -->
+<!-- id="2.2b8.32.19951205024031.00bcaeb8@linc.cis.upenn.edu" -->
+<!-- inreplyto="Meeting notes from ANSI X.9 Meeting on Electronic Payment" -->
+<title>Daily Chat on CIS899: Re: Meeting notes from ANSI X.9 Meeting on Electronic Payment</title>
+<h1>Re: Meeting notes from ANSI X.9 Meeting on Electronic Payment</h1>
+Dave Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Mon, 04 Dec 1995 21:40:31 -0500</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#139">[ date ]</a><a href="thread.html#139">[ thread ]</a><a href="subject.html#139">[ subject ]</a><a href="author.html#139">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0140.html">Dave Farber: "IP: INTERNET SECURITY RISKS FOR CONSUMERS OVERBLOWN"</a>
+<li> <b>Previous message:</b> <a href="0138.html">Dave Farber: "How to steal ecash (was: Questions/Comments on ecash protocol)"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+PostedDate: Fri, 1 Dec 1995 22:43:46 -0500 (EST)<br>
+From: "Debbie O'Dell" &lt;dlo@dsunix2.dsrd.ornl.gov&gt;<br>
+To: Electronic Commerce Working Group Reflector &lt;fstc-ecomm@monroe.llnl.gov&gt;<br>
+Subject: Meeting notes from ANSI X.9 Meeting on Electronic Payment Standard<br>
+<p>
+ABA Meeting of the X.9 ANSI Meeting 11/29/95, on Electronic Payments:<br>
+Cindy Katzen (?) gave an introduction.  She said that the ANSI X.9 which is<br>
+accredited to develop financial industry standards, has approved this work<br>
+item on Electronic Payments.  X.9 has 6 subcommittees, 30 active working<br>
+groups, and manage 70 standards, and technical specifications.  We do 5 year<br>
+reviews on each.  Also they are the US technical advisory group to ISO<br>
+Technical Committee 68 (TC68), and they also provide a secretariat.  TC68<br>
+has 3 subcommittees.  Mark Zalewski of Cybercash is nominated chair for TC68.<br>
+<p>
+This is domestic standards development.  Define work and tell them what<br>
+needs to be done.  If there does not need to be a domestic standard but an<br>
+international one that is okay.  Intel has offered to provide a Chairperson,<br>
+Tom Jones.<br>
+<p>
+Tom lead the meeting with the following agenda:<br>
+Scope of work item<br>
+Proposal to extend the work item into other areas<br>
+2 presentations on other standards, Taher Elgamal on SEPP, and FSTC on Echeck<br>
+<p>
+The general purpose of this work item is to produce an American national<br>
+standard on secure electronic payment syntax.  Since the group is large, Tom<br>
+suggested nominating a small editing group of 6-10 people to put together a<br>
+document and bring it back to the larger group.<br>
+<p>
+Tom said that he wanted to get through the work item in 18 months, and to do<br>
+that there would have to be a draft in 9 months.  The following document was<br>
+a strawman distributed to start discussion on a proposed X9 new work item.<br>
+<p>
+"Towards an American National Standard:  Secure Payment Syntax<br>
+Scope:<br>
+The payment syntax described in this standard is designed to order a<br>
+Financial Institution to make a payment to a merchant from an account of a<br>
+purchaser based on the near term delivery of low monetary  value goods or<br>
+services.  It should be possible to include this payment order in any<br>
+electronic protocol that is based on communications between the purchaser<br>
+and the merchant, and between the merchant and a Financial Institution.<br>
+This standard does not describe, nor recommend, any particular communication<br>
+protocol.<br>
+<p>
+When used within a complete payment infrastructure, the secure payment order<br>
+described below shall offer privacy and integrity of the purchaser's payment<br>
+information, and shall prevent the purchaser from successfully repudiating<br>
+the sending, or the merchant from successfully repudiating the receiving, of<br>
+a valid payment order.  Non-repudiation of receipt will require secure<br>
+acknowledgment messages.  Thus the Financial Institution can be sure that<br>
+its customer requested the payment and that the merchant can be accurately<br>
+identified on the account statement.<br>
+<p>
+Purpose:<br>
+Consumers, operating from within their own home or business, have access to<br>
+an increasingly wide range of electronic displays of merchant's wares.  The<br>
+source of this electronic cornucopia can be provided by networked<br>
+connections, broadcast or narrowcast TV, the physical distribution of<br>
+electronic media, such as CD-ROM, or future media connections which are now<br>
+only in the conceptual stage.  Regardless of the source of the information,<br>
+there is an increasingly urgent demand that user's make the purchase<br>
+decision directly from the electronic media, and the purchase decision be<br>
+transmitted together with payment information to the merchant.  The merchant<br>
+wants to receive the payment information prior to delivering the merchandise<br>
+to cut down on fraud loss and the purchaser seems to want immediate access<br>
+to the goods or services, purchased.<br>
+<p>
+This standard is intended to close the electronic loop by providing a secure<br>
+means for the purchaser to make payment information available to the<br>
+merchant, without revealing any secret information that could be used in a<br>
+fraudulent manner to access the purchaser's accounts.  The payment<br>
+information will only be accessible by the purchaser, and the purchaser's<br>
+Financial Institution, but the merchant can be assured, in real-time, that<br>
+payment will be honored by his Financial Institution.<br>
+<p>
+Content of the Payment Order:<br>
+The fields required for the payment order are separated into the plain text<br>
+segment and enciphered segment.<br>
+<p>
+Transparent fields from CyberCash Credit Card Protocol (CH1)<br>
+  type: card-payment<br>
+  id<br>
+  order-id<br>
+  merchant-ccid<br>
+  transaction<br>
+  date<br>
+  pr-hash<br>
+  pr-signed-has<br>
+  cyberkey<br>
+<p>
+EPO fields from "NetBill Security and Transaction Protocol"<br>
+  purchaser's ID<br>
+  Product ID<br>
+  Negotiated Price<br>
+  Merchant ID<br>
+  Crypto Checksum of Product Request Data<br>
+  Crypto Checksum of Purchaser's Account No with a nonce<br>
+  Globally-unique EPOID (Transaction ID)<br>
+<p>
+Security for the Payment Order (from the Purchaser)<br>
+Only those fields that are in the enciphered segment will be protected from<br>
+disclosure or alteration by cryptographic means.<br>
+<p>
+Opaque fields from CyberCash Credit Card Protocol (CH1)<br>
+  swversion<br>
+  amount&amp;currency<br>
+  card (expiry, number, type, salt) - must be pre-approved<br>
+  signature<br>
+<p>
+EPO fields from "NetBill Security and Transaction Protocol"<br>
+  Ticket proving the customer's TRUE ID<br>
+  Authorization Tokens<br>
+  Purchaser's Account No<br>
+  nonce<br>
+  Purchaser's memo field<br>
+<p>
+Security for Merchant Fields<br>
+Those fields that are in the merchant's enciphered segment will be protected<br>
+from disclosure or alteration by cryptographic means.<br>
+<p>
+Merchant Opaque fields from CyberCash Credit Card Protocol (CM1/2)<br>
+  type<br>
+  order-id<br>
+  merchant-amount&amp;currency<br>
+  pr-hash<br>
+  pr-signed-hash<br>
+  id<br>
+  transaction<br>
+  date<br>
+  merchant-signature<br>
+<p>
+EPO fields from "NetBill Security and Transaction Protocol" added by merchant<br>
+  Merchant's account number<br>
+  Merchant's memo field<br>
+  Goods decryption key<br>
+  Merchant signature<br>
+"<br>
+<p>
+Discussion on scope:<br>
+<p>
+The result of this group will be a message set and sequence diagram.  There<br>
+will be a lot of work going into what is in those messages.<br>
+<p>
+There was some discussion about the use of the terms low monetary value and<br>
+merchant.<br>
+<p>
+Graham asked if other payment flows would be considered.  Tom said that he<br>
+wanted to have a scope that is small and easily achievable, so that is why<br>
+we are focusing the flow from consumer to merchant to financial institution.<br>
+<p>
+Right now this cannot support cash, as it requires the consumer to have a<br>
+bank account.  It can support credit or debit.<br>
+<p>
+There are a relatively small group of encryption algorithms about to be<br>
+approved by X-9.<br>
+<p>
+Three have been approved:   DES,  Triple DES is in the works, RSA and<br>
+Vhelman (?).  Digital Signature and Secure Hash is a standard; attribute<br>
+lists are being worked on.  Security folks in X9f will be active in this<br>
+work item.<br>
+<p>
+It may be necessary to specify encryption schemes.  Key exchange is quite<br>
+different.  If you allow more than one, you get into interoperability<br>
+problems.<br>
+<p>
+NSA representative said that the length of the encryption key should not be<br>
+an issue, but what is encrypted should be of more concern for the group.<br>
+The group should not limit this standard based on a regulation that could<br>
+change in a few months.<br>
+<p>
+The 820 is complicated and could be used to accomplish this activity, but<br>
+this work item is trying to come up with a relatively simple consumer<br>
+oriented transaction.<br>
+<p>
+If you are going to say privacy, integrity and non-repudiation, then you<br>
+will have to define cryptography.  X.9 has standards that define the<br>
+cryptography protocols so we can reference them.<br>
+<p>
+The comments on the scope will be incorporated and a new draft will be<br>
+submitted to the group for review.<br>
+<p>
+Will the usage specification operate with current regulation and clearing<br>
+and settlement system?<br>
+<p>
+If you use Party A, Party B and a Bank, instead of using the term merchant,<br>
+then you could move it in any way.  If there are 2 parties and only one<br>
+bank, then this will not effect any clearing system.  If it is 2 parties and<br>
+2 banks then the clearing system comes into play.<br>
+<p>
+Should the second bank be added to the scope?  Do we want to support flows<br>
+between financial institutions.<br>
+<p>
+We need to rely on the banks to tell us if this is  implementable.  Dan<br>
+suggested that the standard be expanded to support information exchanged<br>
+between banks.<br>
+<p>
+Tom said that we should work to understood the needs of customers and limit<br>
+ourselves to the problems that we know and not try and solve problems we<br>
+don't know about.<br>
+<p>
+We can produce guidelines for reference implementations, but they are not<br>
+part of the standard.  We encourage organizations that are developing<br>
+implementations to advise us of any issues in implementing the standard.<br>
+<p>
+Tom said that he will do best to narrow the scope.  If any suggestion<br>
+increases the scope significantly, I will recommend that they become a<br>
+separate work item.<br>
+<p>
+Talk on SEPP:  John Gould of MasterCard said that the Secure Electronic<br>
+Payment Protocol (SEPP) is intended to solve MC's business model.  We expect<br>
+to conclude revision to the SEPP review process in less than 60 days.  We<br>
+have a time pressure by customers and member banks to secure our brand<br>
+products quickly.  We will be piloting the result hopefully with VISA and<br>
+X9.  Take the SEPP document as an informational, living, document.  We will<br>
+not know how good it is until we start to pilot it.<br>
+<p>
+Taher Elgamal, of Netscape, said that SEPP is a vertical solution rather<br>
+than a horizontal message format.  SEPP solves the credit card transaction<br>
+where there is a consumer, merchant and merchant's bank.  We were not trying<br>
+to solve the world's payment problems.  Credit cards are the simplest model<br>
+to use.  People feel comfortable because the liability is to the benefit of<br>
+the consumer most of the time.  We tried to minimize the impact on the<br>
+existing medium, banking protocols and networks.  The design is a front end<br>
+to the existing bank network.<br>
+<p>
+We had to solve the authentication problem.  It is not really exactly known<br>
+how this will work and if it will scale properly.  We tried not to change<br>
+relationship between parties.  We started with a generic philosophy to use<br>
+standards where they exist.<br>
+<p>
+SEPP will be implemented independently by different vendors that have to<br>
+achieve interoperability.  The merchant does not have to see the credit card<br>
+number even though he does today.  The payment/order has dual encryption.<br>
+The payment instruction is opaque to the merchant.  The order details are<br>
+not of interest to the bank.<br>
+<p>
+The message formats are the tools in SEPP, to achieve the product, that is<br>
+useful.  There is an attempt to solve the grand picture.  The credit card<br>
+system is complex.<br>
+<p>
+Does the merchant really need to know the identity of the consumer.  The<br>
+merchant is only interested that the person is capable of using the amount.<br>
+They may want to know, but they may not need to know.<br>
+<p>
+We built in an online certification system, which certifies consumers and<br>
+merchants.   For SEPP, the acquiring bank does the certification.  Dan<br>
+mentioned that this is not quite analogous to how it works in the paper model.<br>
+<p>
+Frank Jaffe spoke about Echeck.<br>
+He said that the future is likely to bring more alternatives, not less.  We<br>
+wanted to move the check to a paperless instrument.  Eliminate paper and use<br>
+cryptographic methods to secure it.  We're looking at digital signatures to<br>
+replace hand signatures.<br>
+The Electronic Check supports multiple check flows.  Deposit and Clear<br>
+(Normal) flow, Cash Check, Z flow, Lockbox flow, and transfer flow.<br>
+Electronic Check supports multiple business models:  Certified Check flow,<br>
+Interchange, Third Party Payer.<br>
+Overview:<br>
+-Develop a secure, all-electronic instrument modeled on paper check<br>
+primarily for use in electronic commerce<br>
+-Enable this instrument to be flexible and represent other physical<br>
+instruments such as cashier's checks, traveler's checks<br>
+-Develop a general programmatic set of tools and standard interfaces,<br>
+protocols and formats so that E-Check functions can be used for other<br>
+applications.<br>
+-Test approach through a commercial pilot.<br>
+<p>
+We would like to develop a reference implementation and tools to make it<br>
+easier to use it.<br>
+<p>
+Electronic Check objectives:<br>
+-provide individuals and businesses a safe convenient debit payment option<br>
+-use inexpensive public networks<br>
+-enable merchants to automate complete transactions<br>
+<p>
+ We're not trying to specify encryption, to allow parties to use what they<br>
+want.<br>
+<p>
+Key component summary:<br>
+-hardware token for electronic and checkbook cryptographic key storage<br>
+-digital signatures for transaction authentication<br>
+-electronic certificates for account and bank authentication<br>
+-secure hash for tamper-proofing<br>
+-encryption for privacy is optional<br>
+-remittance/invoice/order form included for automated accounts receivable<br>
+processes<br>
+-public networks for transmission<br>
+<p>
+The scope of the project is to issue payment orders against accounts in banks.<br>
+If customer wants it, banks can afford it, and it can be done securely than<br>
+why not?<br>
+<p>
+Tom started discussion again on the X.9 Work item.  He said that we need to<br>
+address: what do customers want, what risks do banks want to take and how<br>
+fast do you want to do it?<br>
+<p>
+The banking industry needs a protocol standard for electronic  payments.<br>
+This could be the beginning of something bigger; define a scope for this<br>
+work item, but as the beginning of a payment protocol.<br>
+<p>
+Frank suggested that the project should focus more than just consumer to<br>
+merchant.<br>
+<p>
+Several people suggested trying to develop a more encompassing payment<br>
+protocol than just consumer to merchant payments, because it is easier to<br>
+design up front than redesign after it has been implemented.<br>
+<p>
+Others suggested that we ought to start with something manageable, like<br>
+debit or credit cards, but not design ourselves into a corner.<br>
+<p>
+If this group does not address payment types, than client software will have<br>
+to identify between payment types and what merchants and/or banks take what.<br>
+<p>
+Taher pointed out that SEPP will not do debit cards well.<br>
+<p>
+Will consumers use account based systems in the volume that you expect?<br>
+<p>
+Many agreed that speed is important, and encouraged staying focused for time<br>
+considerations.<br>
+<p>
+There was a suggestion to have separate groups developing payment syntax for<br>
+credit, debit, echeck.<br>
+<p>
+One suggestion was to help the consumer to quickly negotiate a payment<br>
+system of choice.<br>
+<p>
+Spending time on credit seems to make sense since it is more widely used on<br>
+the Internet.<br>
+<p>
+NACHA is addressing the check issue.<br>
+<p>
+Tom summarized the discussion saying that it appeared that most agreed to<br>
+stay cognizant of all issues, but focus on the credit model and allow the<br>
+architecture to expand.<br>
+<p>
+We should find what is in common to all payment systems.  Make it modular to<br>
+add on types or variations.<br>
+Someone suggested a steering committee to address these extensions.<br>
+<p>
+Tom proposed an editing group of 6-10 people to get document out on the<br>
+credit model.  He proposed having a meeting of the editing group on January<br>
+16th in San Francisco.<br>
+<p>
+The full group will meet Feb. 29th at Cylink in Sunnyvale.<br>
+and tentatively June 7th in Boston at the Fed.<br>
+<p>
+However other groups would like to deal with the other issues is up to them.<br>
+<p>
+FSTC will find a way to work with this committee through their joint<br>
+membership.<br>
+<p>
+Tom asked Frank to feed back to X9 how FSTC wants to fit Echeck into this<br>
+work group.<br>
+<p>
+All this work item was written to deal with is the syntax, we are not going<br>
+to deal with the protocol.   There would be a multiplicity of protocols that<br>
+would use it, phone, modem, http.<br>
+<p>
+SEPP has an application protocol that is independent of communications.<br>
+<p>
+Mohammad Khan volunteered to lead a group to discuss management issues<br>
+including negotiation.  VISA, MC, Discover, IBM, and Cybercash volunteered<br>
+to participate in that group.<br>
+----------- End Forwarded Message -----------<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0140.html">Dave Farber: "IP: INTERNET SECURITY RISKS FOR CONSUMERS OVERBLOWN"</a>
+<li> <b>Previous message:</b> <a href="0138.html">Dave Farber: "How to steal ecash (was: Questions/Comments on ecash protocol)"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

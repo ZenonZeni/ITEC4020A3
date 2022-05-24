@@ -1,0 +1,119 @@
+
+<DOC>
+<DOCNO>WT01-B03-53</DOCNO>
+<DOCOLDNO>IA097-001049-B007-205</DOCOLDNO>
+<DOCHDR>
+http://mspiggy.etl.noaa.gov:80/othr/othb.htm 140.172.33.2 19970215113558 text/html 5512
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 06:32:56 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 25 Oct 1996 16:08:18 GMT
+Content-length: 5338
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> OTH-B Radars </TITLE>
+</HEAD>
+<font face=arial>
+<BODY BGCOLOR="#88bbbb">
+<H2>Nominal Coverage of East- and West-Coast OTH-B Radars</H2>
+<IMG SRC="gifs/covrbw.gif">
+<H2>Nominal OTH-B radar properties</H2>
+
+Operator -- U.S. Air Force, Air Combat Command, Newport News, VA / Lockheed Martin Co.<BR>
+Radar Type	 -- FM/CW Bistatic Doppler<BR>
+Antenna Types --	Horizontal Linear Phased Arrays<BR>
+Maximum CW Radiated Power	-- 1,000,000 W  (12 transmitters)<BR>
+Effective Radiated Power -- 80 dBW (100 MW)<BR>
+Transmit Array Design	-- Canted Dipoles, Vertical Backscreen<BR>
+Transmit Frequency	-- 5-28 MHz in 6 Bands<BR>
+Transmit Array Elements	-- 12 per band<BR>
+Subarray Apertures	-- 304, 224,167,123, 92, 68 m<BR>
+Transmit Azimuth Beamwidth (3 dB)	-- 7.5 deg<BR>
+Transmit Elevation Beam (3-dB points)	--  8-33 deg @ 5 MHz,  5-15  deg @ 28 MHZ<BR>
+Transmit Azimuth Beam Steer	±30  deg <BR>
+Receive Array Design	-- 246  5.4-m Vertical Elements with 20-m Backscreen<BR>
+Receive Frequency	-- 5-28 MHz in 3 Bands<BR>
+Receive Array Aperture	 -- 1519, 1013,  506 m<BR>
+Number of Active Receive Elements	--  82<BR>
+Receive Azimuth Beamwidth (3 dB) -- 1.25  deg (no weighting),  2.5  deg (raised-cosine weighting)<BR>
+Receive Elevation Beam (3-dB points)	-- 8-33 deg  @ 5 MHz,  5-15  deg @ 28 MHZ<BR>
+Receive Azimuth Beam Steer	--  ±30 deg<BR>
+ECRS Receive Location  --  44.79 N,  67.79 W<BR>
+ECRS Azimuth Limits (modified)	--  31.5-91.5-151.5-211.5  deg East of North<BR>
+ECRS Transmitter-Receiver Separation	--  160 km<BR>
+ECRS Operations Center	--  Bangor ANGB, ME<BR>
+WCRS Receive Location	--  41.70 N, 121.18 W<BR>
+WCRS Azimuth Limits (3 segments)	--  160-220-280-340 deg East of North<BR>
+WCRS Transmitter-Receiver Separation	-- 160 km<BR>
+WCRS Operations Center	 -- Mountain Home AFB, ID<BR>
+Waveform Repetition Frequency -- 10-60 Hz<BR>
+Waveform (chirp) Bandwidth -- 	5-40 kHz<BR>
+Coherent Integration Time	--  0.7-20.5 s<BR>
+<p><b>STATUS: Both the ECRS and the WCRS are in "warm storage" and can be recovered for use.
+</b>
+
+<hr size=6>
+<p><h3>Background</h3>
+The U.S. Air Force's over-the-horizon-backscatter (OTH-B) air defense radar 
+system is by several criteria the largest radar system in the world.  It was 
+developed over the last 25 years at a cost of $1.5 billion to warn against 
+Soviet bomber attacks when the planes were still thousands of miles from 
+U.S. air space. Six one-million-watt OTH radars see far beyond the range of 
+conventional microwave radars by bouncing their 5-28-MHz waves off 
+the ionosphere, an ionized layer about 200 km above the earth.  With the end 
+of the Cold War, just months after their deployment, the three OTH radars on 
+the West Coast were mothballed, but the three radars in Maine were 
+redirected to counter-narcotics surveillance.
+<p> 
+In 1991, NOAA recognized the vast potential of these military relics of the
+cold war for environmental monitoring and asked the Air Force's permission to look
+at the part of the radar echo that the Air Force throws away -- the ocean clutter. 
+NOAA's tests showed that this clutter can be processed to extract ocean 
+surface wind direction over huge, data-sparse ocean areas -- vital 
+information that affects climate and the ocean's circulation. Tropical 
+storms and hurricanes were tracked, and a system for delivering 
+radar-derived winds to the National Hurricane Center was developed. The 
+combined coverage of the six OTH-B radars is about 90 million square 
+kilometers of open ocean where few weather instruments exist. Recent tests 
+have also demonstrated OTH radars ability to map ocean currents.
+<p>
+Whereas OTH radars map surface wind directions on demand over large, fixed 
+ocean areas, active and passive microwave instruments on board several 
+polar-orbiting satellites measure wind speeds along narrow swaths determined
+by their orbital geometries.  Satellites, however, do not measure wind
+directions very well.  The capabilities of ground-based and satellite-based 
+ocean-wind sensors thus obviously complement each other.  The two products 
+have been merged for the first time <a href="http://www1.etl.noaa.gov/othr/othmain.htm#data">here</a>.
+<p> 
+Our experimental online <a href="othdata.htm">data sets</a> are the products of ongoing tests of OTH 
+radar's enviromental monitoring capabilities.  They are provided, with the 
+usual caveats, for use by the research community and for evaluation by 
+operational weather forecasters.  The cost of converting the OTH-B radars to 
+this kind of ocean-monitoring service is less than 1% of their cost.
+
+<p> 
+For more information, see the following papers:
+<p> 
+Georges, T.M. and J.A. Harlan, "New horizons for over-the-horizon radar?" 
+<i>IEEE Antennas and Propagation Magazine</i>, vol. 36, No. 4,  pp. 14-24, 1994.
+
+<p> 
+Georges, T.M. and J.A. Harlan, "Military over-the-horizon radars turn to 
+ocean monitoring," <i>Marine Technology Society Journal</i>, vol. 27, No. 4, pp. 
+31-38, 1994.
+<p>
+Georges, T. M., "Costs and benefits of using the Air Force over-the-horizon radar system for
+environmental research and services," NOAA Tech. Memo. ERL ETL-254, 1995, 39 pp. 
+
+
+
+<hr size=4>
+<b><a href="othmain.htm">Back</a> to OTH Radar Page</b>
+<hr size=4>
+
+
+</BODY>
+</HTML>
+</DOC>

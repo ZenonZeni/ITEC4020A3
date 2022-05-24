@@ -1,0 +1,248 @@
+
+<DOC>
+<DOCNO>WT02-B21-177</DOCNO>
+<DOCOLDNO>IA052-000883-B029-198</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/interfer/escher.html 137.229.31.144 19970210141146 text/html 9854
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:11:51 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 31-Jan-97 00:41:22 GMT
+Content-length: 9674
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML> 
+<HEAD>
+<TITLE>Interferometry at ASF/STEP: Escher</TITLE> 
+</HEAD> <BODY BGCOLOR="#FFDEAD" TEXT="#00008F" LINK="#008B00" VLINK="#580000"
+BACKGROUND="../res/backgrounds/asf_tile.gif"> 
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> | 
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> | 
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> | 
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> |
+<A HREF="http://www.images.alaska.edu/interfer/">Interferometry</A> 
+<H1 align=center>
+Escher
+</H1>
+
+<DL>
+<DT><H2>Introduction</H2></DT>
+<DD>
+Escher, named after the Dutch artist M.C. Escher, unwraps a phase file using the 
+Goldstein branch-cut method. To understand how the branch-cut method works, it 
+is important to understand that all the phase values in an image are not 
+absolute values. The phase values listed in all of the phase files up to this 
+point have been modulo 2 pi. To understand this point, think of a spoke on a 
+bicycle wheel. When you ride your bicycle, a spoke on your front spins around 
+<b>y</b> times.  When you stop your bike, you can measure the angle of the spoke 
+with respect to the center of the wheel. However, you cannot determine how many 
+times the wheel went around unless you measure the distance traveled and the 
+radius of the wheel. 
+<P>
+The same holds true for a satellite in space. When the signal returns to the 
+satellite, the satellite can measure the current "angle" or more precisely the 
+<em>phase</em> of the signal, but it cannot measure the total number of phase 
+cycles (or complete turns of the bicycle wheel) that the signal has gone 
+through. So, the satellite records the current phase of the signal at a 
+particular pixel and continues on scanning the Earth.
+<P>
+Before you despair and think that these phase values are useless, there is one 
+more property of the phase values in your data. The phase value have meaning 
+relative to each other. If the phase changes from one pixel to the next, then 
+the change must be caused by either a change in the land structure or a change 
+in motion. (<I>Note: I am simplifying for the purpose of explanation. Please see 
+any of the numerous articles of interferometry for a more thorough explanation. 
+This explanation is for those new to interferometry.</I>)
+<P>
+If our image scene is over farmland or mountains, we can reasonably assume that 
+the change in phase is due to elevation. If our scene is over a glacier or ice, 
+the change can be both elevation and motion. In either case, we need to 
+determine the phase cycle differences from one pixel to the next. Since none of 
+the phase values are absolute values, we can choose one at random. After we 
+choose our reference pixel, we can calculate the phase difference of every other 
+pixel.
+<P>
+What happens when a phase jumps from 2 pi at one pixel to 0 at the next? Or from 
+pi to -pi? When this occurs, we say that the phase has cycled and mark it. For 
+example, if a string of pixels has phase values that increase in the following 
+manner: 0, pi/2, pi, 3pi/2, 0, pi/2. We can reason that the jump from 3pi/2 to 0 
+is not a jump backwards, but a jump forwards to 2pi which is the same as 0. 
+Hence, we increase that 0 by 2pi and all the followimg pixels. Therefore, our 
+new sequence would look like: 0, pi/2, pi, 3pi/2, 2pi, 5pi/2, etc.
+<P>
+However, one drawback to the branch-cut method is if we cannot reason out that a 
+jump should be from one level to the next. If this occurs, we create what is 
+called a singularity. If a singularity is found, escher searches for another 
+singularity. When it finds one, escher draws a line from one singularity to the 
+next. It then sets a flag stating that integration (or unwrapping of the image) 
+cannot occur across that line. The program will have to integrate around this 
+cut. These cuts can result in a loss of data not only in the data lost to the 
+cut, but also if cuts enclose an area of the file and prevent it from being 
+integrated. Escher creates an unwrapping mask to show areas of cuts, 
+integration, and zeroes (areas of non-integration).   
+</DD>
+
+<DT><H2>Example</H2></DT>
+<DD>
+For details on the command line syntax, please see the <a 
+href="http://www.images.alaska.edu/cgi-bin/man-request.pl?asftool=escher&amp;sec
+tion=1">man page</a>.
+<P>
+A sample run looks like the following:
+<P><PRE>
+sparc1k [9]: escher ml12 uwp12
+escher: begin unwrapping phase...
+loading wrapped phase...
+wrapped phase data loaded...
+ - grounded border
+starting to make mask...
+ - made mask
+                        
+doStats():  after makeMask():          
+                        
+      5242880 sites                         
+      5178540 zeros        98.773 %
+            0 integrated    0.000 %
+        50525 residues      0.964 %
+->      25264 +residues     0.482 %
+->      25261 -residues     0.482 %
+        13815 grounds       0.264 %
+            0 in tree       0.000 %
+            0 cuts          0.000 %
+                                   
+ ** cordon file 'cordon' does not exist; skipped installation **
+starting branch cut scan [cutMask()]...
+  ...at 320 of 2560
+  ...at 640 of 2560
+  ...at 960 of 2560
+  ...at 1280 of 2560
+  ...at 1600 of 2560
+  ...at 1920 of 2560
+  ...at 2240 of 2560
+ - finished branch cutting
+                        
+doStats():  after cutMask():          
+                        
+      5242880 sites                         
+      5067746 zeros        96.660 %
+            0 integrated    0.000 %
+        50525 residues      0.964 %
+->      25264 +residues     0.482 %
+->      25261 -residues     0.482 %
+        74167 grounds       1.415 %
+            0 in tree       0.000 %
+       161636 cuts          3.083 %
+                                   
+saved a mask array to the file test.phase.mask ...
+initUwp() finished
+
+
+calcParams() finished
+
+
+starting integratePhase() at (1024, 1280), seed phase -2.575006
+
+total integrated = 4900000
+integratePhase() integrated 4943538 pixels...
+                        
+doStats():  after integratePhase():          
+                        
+      5242880 sites                         
+       124208 zeros         2.369 %
+      4943538 integrated   94.291 %
+        50525 residues      0.964 %
+->      25264 +residues     0.482 %
+->      25261 -residues     0.482 %
+        74167 grounds       1.415 %
+            0 in tree       0.000 %
+       161636 cuts          3.083 %
+                                   
+saved a mask array to the file uwp12.phase.mask ...saved unwrapped phase...
+Total wall clock time = 211 seconds.
+
+
+</PRE><P>
+Note that the line <I>integrated = ...</I> will update as the program runs.
+
+<P>
+<center>
+<TABLE borders=0>
+<caption align=top>
+Unwrap Mask<br>
+uwp12.phase.mask
+</caption>
+<td>
+  <a href="uwp12maskfs.gif">
+  <img src="uwp12mask.gif" width=256 height=320 alt="[Unwrap Mask]"></img>
+  </a>
+</td>
+</table>
+</center>
+</DD>
+
+<DT><H2>Description</H2></DT>
+<DD>
+Escher begins by loading the wrapped phase file, ml12.phase, into memory. The 
+outer edge is grounded because an edge pixel is missing a set of neighbors to 
+compare to. A ground works like a singularity with one major exception, 
+grounding points do not need to pair up. If two singularities, one positive and 
+one negative, meet up, they are considered neutral. A third singularity cannot 
+connect with a neutral pair of singularities since it would make the pair 
+non-neutral. However a ground, since it connects to the edge, is always 
+considered neutral regardless of the amount of singularities that connect with 
+it.
+<P>
+Escher then proceeds to make a mask of the image and determine where 
+singularities lie. It informs, in both pixels and percentages, the amount of 
+data in the file that is of a certain type. Zeroes are non-integrated data; 
+residues are singularities; cuts are the lines between singularities; and 
+grounds are cuts that connect to the edge. The important values for us are 
+zeroes, residues, and integrated. We want to maximize the number of integrated 
+pixels.
+<P>
+After making the mask and determining residues, escher connects or inserts cuts 
+between the residues. After cutting, escher then integrates the entire image 
+based upon a reference value determined from the seed location. If the default 
+seed location is trapped by cuts, you should enter new seed values.
+<P>
+After integration, the data is saved to file and a mask is created. As you can 
+see in the above mask image, our data set integrated <b>extremely</b> well. 
+<B>Do not always expect this kind of integration. Data in mountainous areas is 
+notoriously difficult to integrate and can result in percentages around 50% or 
+lower.</B>
+</DD>
+
+<DT><H2>Next Step</H2></DT>
+<DD>
+After integrating our file, we need to refine our base line using the <a 
+href="refine.html">refine_base</a> program. Refining our baseline decreases the 
+effect of the Earth's curvature on our image and allows us a more accurate 
+assessment of topography.
+</DD>
+</DL>
+
+<P>
+<a href="ml.html">
+<img src="../res/buttons/leftarrow.gif" alt="[Go Back]" WIDTH=29 HEIGHT=30>
+</a>
+<a href="refine.html">
+<img src="../res/buttons/rightarrow.gif" alt="[Go Ahead]" WIDTH=29 HEIGHT=30>
+</a>
+<P>
+<CENTER>
+<IMG ALT="[---------]" SRC="../res/lines/ice_blue_line.gif" WIDTH=85%>
+</CENTER>
+<H4> 
+Last Updated: January 23,1997<BR> 
+Last Updated By: <A 
+HREF="http://www.images.alaska.edu/users/mike/mike.html">Michael 
+Shindle</A><BR> If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="http://www.images.alaska.edu/comments.html">comment</A>. 
+<H4> 
+</BODY>
+</HTML> 
+
+</DOC>

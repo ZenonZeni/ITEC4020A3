@@ -1,0 +1,164 @@
+
+<DOC>
+<DOCNO>WT03-B18-25</DOCNO>
+<DOCOLDNO>IA085-000610-B038-237</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/intcontr.htm 150.145.4.16 19970216120243 text/html 6748
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:03:38 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 14:56:35 GMT
+Content-Length: 6550
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy  Robotics Dept.: Intelligent Control</title>
+<base href="http://www.ian.ge.cnr.it/robotics/intcontr.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b><b><blink>
+        Intelligent Control</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<h4>Intelligent Control is a good solution to underwater robotics
+problems</h4>
+
+<table border="0">
+    <tr>
+        <td valign="top"><font size="3">Underwater vehicles are
+        conceived for operation in an unstructured environment
+        and have to cope with typically poor sensor information
+        and unpredictable events. While the traditional approach
+        to performing complex tasks in these conditions is
+        tele-operation, research is now oriented towards
+        increasing autonomy to reduce human control, even in
+        conditions of increasing uncertainty.</font></td>
+        <td align="right"><a name="intcontr" </a><img
+        src="subrob.gif" width="350" height="260"></a></td>
+    </tr>
+    <tr>
+        <td><a name="intcontr" </a><img src="intcontr.gif"
+        width="350" height="260"></a></td>
+        <td><font size="3">This can be done either by improving
+        sensor technology to increase knowledge of system status
+        or by increasing system intelligence, i.e. the ability to
+        act in an uncertain environment in such way as to raise
+        the probability of successful command execution. A
+        particularly suitable approach that overcomes the present
+        limitations of sensor technology is a hierarchical
+        control architecture based on the principle of
+        &#145;Increasing Precision - Decreasing Intelligence'. A
+        three-level hierarchical control architecture has been
+        adopted on some of the latest UUVs (Vortex, NPS PHOENIX,
+        MARIUS).</font></td>
+    </tr>
+</table>
+
+<hr>
+
+<h4>IPDI Three-Level Control Architecture</h4>
+
+<ul>
+    <li><font size="3">Continuous (Synchronous) sensing and
+        actuation level </font></li>
+    <li><font size="3">Discrete (Asynchronous) decision-making
+        level </font></li>
+    <li><font size="3">Interface between these levels</font></li>
+</ul>
+
+<table border="0">
+    <tr>
+        <td><font size="3">The upper level, called
+        Organization/Mission/Strategic Level, answers the
+        question: &quot;What sequence of activities must the
+        robot perform to execute commands given by the user?&quot;.
+        This module plans the mission off-line according to user
+        requirements. When working on line, the Organizer can
+        decide whether the mission should be aborted or replanned
+        according to information about detection of malfunction
+        or deviations from the nominal plan.The medium level is
+        called Coordination/Control-Task/Tactical Level and
+        answers the question: &quot;How can activities specified
+        by the Organization Level be performed?&quot;. It schedules
+        the specific tasks which are needed to perform the
+        activity specified by the Organizer, chooses the
+        &quot;best&quot; algorithm for carrying out each task,
+        synchronizes tasks and allocates the necessary
+        resources.The lower level, named Execution/Servo-control
+        Level, performs direct sensing and actuation. This level
+        is subject to severe time constraints, and for this
+        reason its algorithms are synchronous. However, the
+        Coordination Level can at any time detect an event based
+        on data received from the Execution Level. In brief, the
+        Coordination Level is the interface between the world of
+        asynchronous event-driven decisions (AI) and synchronous
+        continuous control.</font></td>
+        <td align="right"><a name="3levels" </a><img
+        src="3level.gif" width="350" height="378"> </a></td>
+    </tr>
+</table>
+
+<hr>
+
+<p><font size="3"><strong>Programming languages and operating
+systems</strong></font></p>
+
+<p><font size="3">Each control level performs activities which
+are different in qualitative terms and for this reason need to be implemented
+in different languages. The Organization Level performs functions
+typical of Artificial Intelligence: computation is purely
+symbolic and contains mission/doctrine specifications. The Prolog
+language may be particularly suitable for implementing the
+Organizer (NPS PHOENIX). The Coordination Level manages task
+scheduling and synchronization and consists of object modules
+which communicate via messages. It could be implemented using a programming
+language that supports concurrency such as ADA. Conversely, the
+Coordination Level can be based on a C++ object-oriented
+implementation and concurrency is managed by Basic OS, supplied
+by VxWorksTM (ROMEO). The Execution Level will be written in C++
+with the implementation of objects which define not only sensor
+management and filtering, but also the control algorithms.
+Software implementation will be carried out according to Object
+Oriented programming.</font></p>
+
+<p>&nbsp;</p>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

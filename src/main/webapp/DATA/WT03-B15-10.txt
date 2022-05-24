@@ -1,0 +1,270 @@
+
+<DOC>
+<DOCNO>WT03-B15-10</DOCNO>
+<DOCOLDNO>IA060-000337-B002-134</DOCOLDNO>
+<DOCHDR>
+http://www.atemi.com:80/ns2.html 206.148.208.105 19970115073154 text/html 10993
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 07:30:17 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Set-Cookie: Apache=widener18974853313417836; path=/
+Content-length: 10768
+Last-modified: Thu, 02 Jan 1997 23:39:19 GMT
+</DOCHDR>
+<!doctype html public "-//W30//DTD W3 HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE> NetShade v2.0 Overview</TITLE>
+</HEAD><BODY BGCOLOR="#ffffff"><H1><CENTER>NetShade v2.0 Overview </CENTER>
+</H1><P><HR WIDTH=90% SIZE=4>
+<H2>Page Contents:
+</H2><UL><LI><A href="#why">Why should I be encrypting my TCP/IP sessions?</A>
+<LI><A href="#how">How does NetShade work?</A>
+<LI><A href="#compare">How is NetShade different from other encryption
+products?</A>
+</UL><P>
+<H2><A name="why">Why should I be encrypting my TCP/IP sessions?</A>
+</H2><P>Unfortunately, the technology on which the Internet and LANs are
+built is inherently insecure. &nbsp;Data does not travel directly from your
+machine to the intended destination. &nbsp;Instead, it is bounced and broadcast
+through a number of computer networks, until it can finally be grabbed off
+the network by the "receiver". &nbsp;The fact is, nothing stops other people
+from grabbing the data off the network, too. &nbsp;It is much like a party-line
+telephone; there is a polite agreement that other users of the line won't
+listen in, but nothing else protects your privacy.
+<P>In the past, network <B>eavesdropping</B> required a great deal of technical
+skill, as well as expensive hardware analysis tools. Today, stealing data
+off a LAN or the Internet is as easy as running a simple application called
+a 
+<B>protocol analyzer</B> -- some of which are available as shareware. &nbsp;For
+this reason, <B>it takes no skill or special ability to steal network data</B>,
+including email, file transfers, web data, or even login IDs and passwords.
+<P>Most computer professionals agree that <B>encryption</B> is the best way
+to prevent this type of network
+eavesdropping. Encryption can be used to transform messages into
+<B>ciphertext</B>, 
+making them unintelligible to network eavesdroppers.  When a message arrives
+at its destination, it can be <B>decrypted</B>: 
+restored to its original state with the "key" that was used to scramble it.
+<P>
+NetShade uses encryption to protect <B>all</B> of the TCP/IP data sent from
+your machine to other NetShade users.  
+While most network security tools use encryption to protect specific kinds
+of data (for example, e-mail), NetShade 
+can protect your e-mail, your FTP sessions, your Telnet sessions, your Web
+server -- in short, it can protect every
+type of data that can be sent over the Internet or any other type of TCP/IP
+network.  To learn how, read on.  (Also see
+<A href="samples.html">Sample NetShade Configurations</A> for specific
+implementation strategies.)
+<P>
+<HR WIDTH=90% SIZE=4>
+<A name="how"></A>
+<H2><A name="how">How does NetShade work?</A>
+</H2><P>NetShade automatically and invisibly encrypts all of the TCP/IP (e.g.,
+Internet) 
+data sent from one NetShade user to another, using a combination of secret
+key and public
+key encryption techniques (see below).
+<P>
+
+NetShade is transparent to the upper layers of the network architecture;
+that is,
+it runs independently of applications and system features that use your network
+services.  This means that it will work with Telnet, FTP, client/server
+applications, remote backup programs, remotely published documents, e-mail,
+remote databases, Web browsers/servers and any other TCP/IP-compatible
+application.
+<P>
+
+NetShade is also transparent to the lower layers of the system; that is,
+it runs
+independently of the network hardware.  This means that it will work with
+SLIP, PPP, Ethernet, token ring, wireless, etc.
+<P>
+<H3>Secret key encryption
+</H3><P>NetShade uses a number of different encryption methods that fall
+into two main
+categories: <B>secret key</B> encryption and <B>public key</B> encryption.
+<P> 
+Secret key encryption methods use a single secret key to lock and unlock
+data; 
+therefore, only someone with access to the key can decrypt the data.  This
+key must, of
+course, be kept secret from all third parties.
+<P>
+
+When data is encrypted, it becomes <B>ciphertext</B> and looks like garbage
+or noise. 
+Ideally, no information about the original data can be determined from this
+noise
+without knowledge of the secret key.  However, an entire branch of mathematics
+is devoted to finding an original message from its corresponding ciphertext.
+ This science is
+called <B>cryptanalysis</B> (you can think of it as the art of cracking
+encryption
+methods).  It is an extremely complex science which requires an in-depth
+mathematical knowledge of cryptography.
+<P>
+
+<A name="algs">NetShade currently supports the following algorithms:</A>
+<P>
+<UL><LI><B><A href="http://www.rsa.com/rsalabs/faq/faq_des.html">DES</A>.</B>
+(pronounced D.E.S. or "dezz") This algorithm was adopted as a
+standard by the US government in the 1970's.  Since then, it has held up
+well
+against analysis, so many people have a great deal of confidence in its security.
+ However, it is still possible to build multi-million dollar supercomputers
+which
+can try every possible key, thus unlocking ciphertext by "brute force." 
+Again,
+DES should protect your data from anyone but a government or other powerful
+entity.<BR>
+<LI><B>Triple-DES.</B>  This algorithm works by encrypting data
+three times with three different keys.  This makes the process of brute-force
+cryptanalysis take so long that it cannot even be done by the US government.
+ (It is
+much more than three times as strong as DES; it is more like a million-billion
+times stronger).  Triple-DES is widely considered to be unbreakable at this
+time.<BR>
+<LI><B>NightShade Algorithm.</B>  This is a "scrambling" algorithm designed
+specifically for encrypting network data at high speeds.  Although not as
+cryptographically strong as DES or IDEA, it is still much better than sending
+data with no encryption at all. &nbsp;In order to "crack" a message, an attacker
+would have to perform mathematical cryptanalysis, which is more than most
+people are willing or able to do. &nbsp;It is so fast that it can be left
+running at all times, so you will never have to send data in the clear.
+</UL><H3>Public key encryption
+</H3><P>Of course, the main problem with secret key encryption is finding
+a safe way to
+distribute the secret keys.  Fortunately, a number of methods have been developed
+for secure key distribution.  We use one called the
+<A href="http://www.rsa.com/">RSA public key cryptosystem</A>.
+<P>
+
+RSA requires each party wishing to communicate to have a pre-generated
+<B>keypair</B>, 
+consisting of a public and a private key.  These keys are complements of
+one another; 
+something encrypted with the public key can be unlocked only with the private
+key, 
+and something encrypted with the private key can only be unlocked with the
+public key.
+<P>
+
+This is very useful.  In practice, the public key may be distributed freely
+to
+anyone (hence its name), whereas the private key is kept secret.  If Alice
+wants
+to send a message to Bob, she can encrypt it with Bob's public key.  Once
+this has
+been done, no one (not even Alice) can unlock the message.  The only way
+it can
+be unlocked is with the private key, and Bob is the only one who knows this
+key.
+<P>
+
+Likewise, if Bob wants to reply, he can encrypt a message with Alice's public
+key; then, only she can unlock it (with her own private key).  For more
+information on 
+the RSA public key cryptosystem, visit the <A href="http://www.rsa.com/">RSA
+Web site.</A>
+<P>
+<H3>How NetShade uses these encryption methods
+</H3><P>NetShade sets up sealed sessions between any two NetShade-equipped
+machines
+before they start to exchange data.  Here's how the process works:
+<P>
+
+<B>Step 1:</B>
+<P>
+
+Alice's machine sends a "log-in" request to Bob's machine.  This request,
+which
+is sent in the clear, contains Alice's public key and specifies the algorithm
+that Alice wants to use for encryption (in this case, Alice has set DES as
+her
+primary mode).  Remember, it doesn't matter who intercepts the public key;
+it's
+OK for everyone to see it.
+<P>
+
+<B>Step 2:</B>
+<P>
+
+Next, Bob's machine generates a secret DES key at random.  This key will
+be used
+to encrypt the network traffic between the two machines.  The secret key
+is
+stored in the memory of Bob's machine.
+<P>
+
+<B>Step 3:</B>
+<P>
+
+Next, Bob encrypts the secret key using Alice's RSA public key.  Bob's machine
+then sends the encrypted key to Alice's machine.  Remember, no one will be
+able
+to steal the secret key off the network, since it is encrypted.
+<P>
+
+<B>Step 4:</B>
+<P>
+
+Finally, Alice's machine decrypts the secret key using her RSA private key.
+ At
+this point, both machines have a copy of the secret key.  From this point
+on, all
+transmissions between the two machines will be encrypted with the secret
+DES key.
+<P>
+
+Of course, this entire process takes place automatically, without user
+intervention.  All the user will notice is a slight pause at the beginning
+of the
+session, caused by the slowness of RSA encryption.
+<P>
+<CENTER>***</CENTER>
+<P>
+For a more technical description of how NetShade establishes secure sessions,
+consult the 
+<A HREF="white_paper.html">NetShade white paper</A>.  Also, the page describing
+<A href="samples.html">
+sample NetShade configurations</A> may be helpful.
+<P>
+<HR WIDTH=90% SIZE=4>
+<A name="compare"></A>
+<H2><A name="compare">How is NetShade different from other encryption
+products?</A>
+</H2><P>Most network security software products are only designed to secure
+specific types of data, such as
+e-mail or shared files.  By contrast, NetShade can secure any type of data
+that can be sent over the Internet
+or a TCP/IP LAN, regardless of what application sends the data or what it
+will be used for.  Over the next few
+years, people will be using the Internet to share information in many new
+ways: groupware, telephony, 
+videoconferencing, and more.  With NetShade, you'll never have to change
+your network/Internet security 
+system again; even better, you won't have to upgrade any new applications
+to support NetShade.  (In contrast, 
+security standards like the Secure Sockets Layer require applications to
+be rewritten in support of SSL.)
+<P>
+NetShade is also easier to use than most network security products.  As soon
+as NetShade has been configured with your
+specific security settings, it will run in the background and encrypt all
+of your TCP/IP data automatically.  You won't 
+have to learn any new applications, or even learn any new ways to use your
+existing ones: NetShade will simply apply
+an invisible blanket of security to all of your network activity.
+<P><CENTER><HR WIDTH=65%></CENTER>
+</P><CENTER><TABLE BORDER CELLPADDING="2"><TR><TD><A 
+HREF="overview.html">Home</A>
+</TD><TD><A HREF="free_stuff.html">Free Stuff</A>
+</TD><TD><A HREF="sales_info.html">Sales</A>
+</TD><TD><A HREF="product_info.html">Product Info</A>
+</TD><TD><A HREF="links.html">Links</A>
+</TD></TR></TABLE></CENTER><P><HR>
+</BODY></HTML>
+</DOC>

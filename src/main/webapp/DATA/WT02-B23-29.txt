@@ -1,0 +1,75 @@
+
+<DOC>
+<DOCNO>WT02-B23-29</DOCNO>
+<DOCOLDNO>IA019-000204-B033-56</DOCOLDNO>
+<DOCHDR>
+http://hypatia.confluence.com:80/products-Perform.htm 206.5.118.102 19970106235809 text/html 1719
+HTTP/1.0 200 OK
+Date: Mon, 06 Jan 1997 23:45:54 GMT
+Server: Microsoft-Internet-Information-Server/1.0
+Content-Type: text/html
+Last-Modified: Thu, 25 Jul 1996 02:58:06 GMT
+Content-Length: 1519
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>FundStation/Perform</TITLE>
+</HEAD>
+
+<BODY>
+<BODY BGCOLOR="#ffffff">
+<H1><IMG SRC="graphics\cti-perform.jpg" ALT="FundStation/Perform" ALIGN="BOTTOM">
+</H1>
+
+<P>
+<B>FundStation/Perform</B> is an on-line application that calculates
+total rates of return for mutual funds. Perform uses FundStation
+data to answer performance-related requests for information in
+real-time. It offers the following features:
+<P>
+<B>Calculate Rates of Return for:</B> 
+<UL>
+<LI>Single time period (any date to any date)
+<LI>Any five time periods ending on the same date
+<LI>Any periodic interval (weekly, monthly, quarterly, etc.) 
+</UL>
+
+<P>
+<B>Request Rates of Return for:</B> 
+<UL>
+<LI>Individual Funds
+<LI>Lists of Funds
+<LI>Composite Funds (an aggregation of several individual funds)
+
+</UL>
+
+<P>
+<B>Choose these options for Rate of Return calculations:</B> 
+<UL>
+<LI>Annualized or Cumulative
+<LI>With load or without load (handles front-end and back-end
+loads) 
+</UL>
+
+<P>
+<B>Results of calculations can be:</B> 
+<UL>
+<LI>Displayed on the screen
+<LI>Printed on a printer
+<LI>Exported to a data file in user-defined format 
+</UL>
+
+<P>
+<B>All calculations are:</B> 
+<UL>
+<LI>Done using a daily, time-weighted algorithm
+<LI>In compliance with SEC and AIMR guidelines
+<LI>Based on data stored in FundStation's database
+<LI>Performed when requested, so the user always gets accurate
+results based on the most recent FundStation data 
+</UL>
+
+</BODY>
+
+</HTML>
+</DOC>

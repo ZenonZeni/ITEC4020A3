@@ -1,0 +1,45 @@
+
+<DOC>
+<DOCNO>WT02-B18-51</DOCNO>
+<DOCOLDNO>IA031-000660-B042-18</DOCOLDNO>
+<DOCHDR>
+http://minerva.forestry.umn.edu:80/SSiF/help2.html 128.101.70.48 19970209092748 text/html 1400
+HTTP/1.0 200 Document follows
+Date: Sun, 09 Feb 1997 ? GMT
+Server: NCSA/1.4.1
+Content-type: text/html
+Last-modified: Wed, 05 Feb 1997 ? GMT
+Content-length: 1238
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Search Help for CNIDR Boolean Searching</TITLE>
+</HEAD>
+
+<BODY>
+
+<h1>Search Help</h1>
+
+<BR>
+<FONT SIZE="+1">
+Items in <i>italics</i> represent what you might type.<P>
+
+For this search option you type the words you want to search on
+into one or both of the text boxes and click on the Search button. 
+Words typed into the same box are assumed to be separated by the 
+boolean operator OR so typing <i>analysis study</i> into the first
+ text box would retrieve citations that have the word analysis or 
+the word study. You can choose the boolean operator {AND OR ANDNOT} 
+with which to separate the words in the two text boxes. Typing 
+<i>analysis study</i> into the first text box, selecting the AND operator, and typing
+<i>recreation</i> into the second text box would retrieve citations
+ that have the words analysis and recreation or the words study
+ and recreation. The searches are literal so if you wanted the last search
+ to pick up citations with the words studies and recreation you would have 
+needed to type <i>analysis study studies</i> into the first text box. You 
+can also use the wildcard character * so typing <i>stud*</i> would 
+pick up study, studies, studied, among other words.<P>
+
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,249 @@
+
+<DOC>
+<DOCNO>WT02-B12-81</DOCNO>
+<DOCOLDNO>IA087-000631-B020-70</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.111.html 130.91.195.242 19970122064238 text/html 12648
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:42:40 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 12476
+Last-modified: Tue, 22 Nov 1994 06:32:34 GMT
+</DOCHDR>
+FIRP report comments -- forward to your lists if you wish <p>
+
+Date: Tue, 15 Feb 94 17:12:30 -0500
+From: Stephen D Crocker &lt;crocker@tis.com&gt; <p>
+
+These are the meat of the comments I've supplied in response to the
+draft FIRP report.
+
+     Response to the Draft Report of the Federal Internetworking
+              Requirements Panel (FIRP), 14 January 1994 <p>
+
+Part 1: Strategic Comments <p>
+
+Stephen D. Crocker
+          Vice President, Trusted Information Systems, Inc.
+                     IETF Security Area Director <p>
+
+15 February 1994 <p>
+
+INTRODUCTION <p>
+
+"The Federal Internetworking Requirements Panel (FIRP) was established
+by the National Institute of Standards and Technology (NIST) to
+reassess federal requirements for open systems networks and to
+recommend policy on the [U.S.] Government's use of networking
+standards."  [Preface, para 1.] <p>
+
+The FIRP report describes the need for the U.S. Federal Government to
+embrace not only the OSI protocol suite but also the ubiquitous TCP/IP
+Protocol Suite.  In fact, Internet Standards, which include the TCP/IP
+Protocol Suite, are in very wide use in the Government, throughout the
+U.S. and throughout the world.  Some OSI products and systems exist,
+and it may be impossible to switch completely to TCP/IP-based systems.
+Nonetheless, the report says, it is time to acknowledge the widespread
+use of the Internet Standards and give formal sanction to their use in
+the Government. <p>
+
+This is indeed a welcome change, and it should help the Government
+take better advantage of modern data networking. <p>
+
+This memo is the first of two responses to the report.  In this memo,
+some issues are raised with respect to the recommendations in the FIRP
+report, and suggestions are made for avoiding problems in the future. <p>
+
+In the other memo, comments are given with respect to specific
+sections of the report. <p>
+
+STRATEGIC COMMENTS <p>
+
+This panel was convened in response to a divergence between the
+strategy the U.S. Federal Government had been following for several
+years and the direction of the marketplace.  As the report makes
+clear, the divergence had become so great that the policy no longer
+reflected attainable objectives.  The accommodation of the Internet
+Standards brings policy into line with widespread practice and removes
+obstacles for rational management decisions in the future. <p>
+
+In this light, it's worth examining the recommendations to ascertain
+if they are sufficient to avoid similar problems in the future.  As
+with any large organization, the U.S. Federal Government pursues
+multiple policy objectives and has ingrained organizational
+imperatives.  Recommendations that respond only to the current
+marketplace without also anticipating the future or without including
+the flexibility to follow the lead of the marketplace may lead to the
+convening of a similar panel in the not too distant future. <p>
+
+The FIRP report makes five recommendations: <p>
+
+1. The role of oversight and integration across federal agency
+  internetworking activities should be strengthened within the Office of
+  Management and Budget. <p>
+
+2. The roles and responsibilities for fostering standards and
+  assessing technological change should be refocused and strengthened by
+  the Department of Commerce. <p>
+
+3. The roles and responsibilities for infrastructure development and
+  operations to support all internetworking services from advanced
+  research and development to leading edge to core/commodity services
+  should be clearly defined and formally assigned through the
+  Information Infrastructure Task Force. <p>
+
+4. The roles and responsibilities of affinity groups should be
+  defined, including how they are created and coordinated by the
+  Government Information Technology Services working group. <p>
+
+5. In accordance with OMB Circular A-119, Revised October 1992,
+  voluntary standards should be adopted and used by Federal agencies,
+  and international standards should be considered in the interests of
+  promoting trade.  The current GOSIP policy should be modified by the
+  Department of Commerce to reflect the wider range of international
+  voluntary standards for internetworking. <p>
+
+Recommendation 1 asks that OMB's role be strengthened.  OMB has the
+charter to review the roles, responsibilities and performances of the
+various agencies which provide, develop or guide the U.S. Government's
+internetworking activities. <p>
+
+This is an important role.  The OMB should develop guidelines for
+measuring the performance of the assigned agencies and the attainment
+of the overall objectives.  Although there is usually a preference to
+avoid duplication of activities, some degree of competition,
+exploration of alternative strategies and comparison of results is
+desirable because it tends to produce more cost effective products and
+services that are better matched to the needs of the users.  Wherever
+feasible, the OMB should also foster multiple approaches and/or
+participation by multiple agencies in order to provide for maximum
+feedback within the system. <p>
+
+Recommendation 2 suggests the Department of Commerce be tasked with
+new responsibility for "fostering standards." <p>
+
+Presumably the context of this recommendation is with respect to
+internal standards within the U.S.  Government.  The general arena for
+developing Internet Standards is the Internet Engineering Task Force
+(IETF) which operates in conjunction with the Internet Architecture
+Board (IAB) under the auspices of the Internet Society.  The Internet
+Society, along with NSF, ARPA, DOE and NASA, provide considerable
+financial support to the standards activities.  This process enjoys
+wide spread support form the industrial, academic and government
+communities, and as a result, the standards developed in this arena
+reflect the needs of marketplace and are usually adopted widely and
+quickly. <p>
+
+Even if this recommendation is understood to be limited to refer to
+internal use of the U.S. Government, the recommendation is flawed.
+"Department of Commerce" here certainly includes NIST, but is likely
+to include other parts of the Department.  While NIST is indeed the
+federal agency tasked with promoting and developing standards, NIST
+and the rest of the Department have at least two difficulties to
+overcome. <p>
+
+First, NIST has been the lead agency with respect to GOSIP.  NIST
+personnel are deeply knowledgeable about the OSI suite and less
+familiar with the TCP/IP Protocol Suite.  NIST is not now in a
+position to provide leadership in this area, although it does have the
+technical strength to follow, assist and participate in the ongoing
+standards activities.  One challenge for NIST in the next few years
+will be to strengthen its staff and adjust its direction to move
+toward a stronger involvement in the Internet Standards activities.  A
+significant part of this challenge is working in a standards arena in
+which the U.S. Government does not have de jure authority or veto
+power. <p>
+
+Second, the Department of Commerce is heavily committed to a
+particular strategy with respect to cryptography that is currently in
+conflict with the forces in the marketplace.  NIST is the lead agency
+involved in the promulgation of the Digital Signature Standard (DSS)
+and the "Clipper" escrowed-key encryption system.  Both of these
+initiatives are meeting very strong resistance from industry and
+academia.  The RSA algorithm is the de facto standard for signatures
+and key exchange, and some form of DES and/or some proprietary
+algorithms, e.g. RC2 and RC4, are likely to be the de facto standards
+for bulk encryption. <p>
+
+The U.S. Government's orientation toward cryptography comes from the
+specific concerns of the intelligence and law enforcement agencies.
+While not denying the principle that the intelligence and law
+enforcement agencies have legitimate concerns, it is far from clear
+that the approach being taken by the Department in support of these
+concerns will be successful.  In fact, it is entirely possible these
+initiatives will not succeed in the marketplace.  If so, the result
+will be the existence of dual standards in which the Government
+algorithms will be used only under duress, both the Government and the
+general population will bear unnecessary costs dealing with dual
+standards, the introduction of strong security controls will be
+retarded, and the intelligence and law enforcement agencies will not
+succeed in preventing the use of strong encryption, except in so far
+as they succeed in retarding the use of encryption altogether.  On
+February 4, 1994, the Department announced it had made substantial
+progress in its review of policies governing cryptography.  Its
+announced that export controls on DES and similar cryptography will
+remain in place, that the Department will continue to promulgate the
+Digital Signature Standard despite uncertainties about the patent and
+licenses, and it will adopt the escrowed encryption system (Clipper)
+as a Government standard.  Nothing in the public record supports these
+decisions, and it was made clear that these decisions are driven by
+the views of the law enforcement and intelligence agencies. <p>
+
+The purpose of citing these controversies concerning cryptography
+policy here is to explicate a consequence relevant to the FIRP report.
+The Commerce Department, and in particular NIST, have a conflict of
+interest.  Like a lawyer with two clients with intertangled interests,
+the Department is trying to serve two constituencies.  One
+constituency is the federal government as a whole, and in that role,
+it must do the best job it can of interpreting the market forces and
+adopting federal standards that are consistent with the marketplace. <p>
+
+The Department's other constituency is the particular needs of the law
+enforcement and intelligence agencies.  Those agencies desire to
+influence and change the direction of the marketplace.  In service of
+this role, NIST is adopting federal standards that reflect the
+direction the law enforcement and intelligence agencies want the
+market to go. <p>
+
+The only way for the Department to be successful is if the law
+enforcement and intelligence agencies prevail and the marketplace
+adopts the standards the Government is promulgating.  Perhaps this
+will happen, and if so, the Government's gamble will pay off.
+However, if the marketplace continues to adopt RSA as the preferred
+public key algorithm, if DES and other non-escrowed algorithms are
+used for symmetric key encryption, and if products with encryption are
+become prevalent in non-U.S. markets, not only will the stated goals
+of the law enforcement and intelligence communities be lost, the rest
+of the federal government and indeed the rest of the country will have
+paid the price in struggling with dual standards. <p>
+
+Like a stubborn child with a tensed jaw, the U.S. Government seems
+bent on pressing forward with these initiatives.  So be it.  But in
+handing out accolades because NIST is now willing to accommodate the
+protocols that have been commonplace for many years, it's fair to note
+that NIST and the rest of the Department are engaged in an exercise
+which promises to bring a repeat of the same divergence, confusion and
+waste of resources which the FIRP report documents. <p>
+
+Recommendation 3 suggests that each role and responsibility should be
+tasked to some specific agency.  Apparently this is aimed at reducing
+duplication.  While useful in principle, this approach is fragile.  If
+the assigned agencies are incompetent or inefficient, everyone
+suffers.  The report does suggest that some assignments may be
+decentralized.  Decentralization should be emphasized.  Wherever
+possible, multiple approaches and multiple agencies should be
+encouraged.  Competition and comparison are enormously useful forces.
+As noted above with respect to recommendation 1, the OMB should
+encourage as much decentralization as possible and should oversee the
+agencies establishing a means of measuring the results. <p>
+
+Recommendations 4 and 5 are oriented toward implementation of the
+first three recommendations and raise fewer strategic concerns except
+that recommendation 5 implicitly acknowledges that the role of the
+U.S. Government in the standards process shift from one of controlling
+the process to one of participating in the process.  As noted above
+with respect to recommendation 2, this shift poses an institutional
+challenge for the Government in general and NIST in particular. <p>
+
+</DOC>

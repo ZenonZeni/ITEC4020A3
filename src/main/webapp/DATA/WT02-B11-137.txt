@@ -1,0 +1,98 @@
+
+<DOC>
+<DOCNO>WT02-B11-137</DOCNO>
+<DOCOLDNO>IA087-000625-B033-173</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0124.html 130.91.195.242 19970122042243 text/html 3787
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:22:44 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3616
+Last-modified: Sun, 05 Nov 1995 23:06:51 GMT
+</DOCHDR>
+<!-- received="Sun Nov  5 13:09:59 1995 EST" -->
+<!-- sent="Sun, 5 Nov 1995 13:09:23 -0500" -->
+<!-- name="Dave Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="Public Reviews of CheckFree Wallet system?" -->
+<!-- id="199511051809.NAA18475@linc.cis.upenn.edu" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: Public Reviews of CheckFree Wallet system?</title>
+<h1>Public Reviews of CheckFree Wallet system?</h1>
+Dave Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Sun, 5 Nov 1995 13:09:23 -0500</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#124">[ date ]</a><a href="thread.html#124">[ thread ]</a><a href="subject.html#124">[ subject ]</a><a href="author.html#124">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0125.html">Dave Farber: "cybercash"</a>
+<li> <b>Previous message:</b> <a href="0123.html">Vinod Valloppillil: "EMU_boo (fwd)"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+Posted-Date: Sun, 5 Nov 1995 12:43:26 -0500 (EST)<br>
+From: "Harry S. Hawk" &lt;habs@warwick.com&gt;<br>
+Subject: Public Reviews of CheckFree Wallet system?<br>
+To: cypherpunks@toad.com (Good Guys)<br>
+Date: Sun, 5 Nov 1995 12:43:26 -0500 (EST)<br>
+Sender: owner-cypherpunks@toad.com<br>
+<p>
+Here is some more information on the Checkfree Wallet (tm) system. I've<br>
+learn about it from some reporting I've been doing on it..<br>
+<p>
+1) Has there been any public review of this product?<br>
+<p>
+Here is the basic run down<br>
+<p>
+It uses a 768-bit key. They claim it is not escrow-ed with the US<br>
+government. It is export able to most countries except for Sudan, Cuba,<br>
+North Korea, Syria, Libya, Iraq ot Iran.<br>
+<p>
+It encrypts limited bits of information (like Credit Card Numbers)<br>
+which is why they claim it was able to get export approval.<br>
+<p>
+User configures the Wallet(tm) by downloading and installing and<br>
+configuring it. It works with Proxy servers which I have<br>
+successfully tested.<br>
+<p>
+It generates a public and private key pair using RSA technology.<br>
+<p>
+It keeps the payer anonymous to the merchant via the internet. Merchants can<br>
+learn the payer's name out of band (e.g., by phone).<br>
+<p>
+No credit card info is stored on a merchant's site.<br>
+<p>
+Payment is encrypted and signed buy the payer and sent to the merchant<br>
+who add's there version of the transaction and their signature. It is<br>
+forwarded to check free who then decrypt, compare the payers' and<br>
+merchant's view of the transaction and if they agree process it.<br>
+<p>
+It use is very very quick and easy. It auto configures itself to<br>
+Netscape. Payment information is sent to the Wallet (TM) from the<br>
+merchant in a Mime segment, which triggers a launch of the Wallet, the<br>
+payer binds in their credit card data (all ready at Checkfree (at<br>
+installation) e.g., which card to use. Then the whole thing is sent to<br>
+the merchant then the onto Checkfree for processing as indicated<br>
+above.<br>
+<p>
+I was very impressed with the software and it's easy of use. Currently<br>
+only works on Windows but soon on the Mac..<br>
+<p>
+/hawk<br>
+<p>
+  --<br>
+                Harry Hawk<br>
+                Manager of Interactive Communications<br>
+                Warwick Baker &amp; Fiore<br>
+                212 941 4438<br>
+                habs@warwick.com<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0125.html">Dave Farber: "cybercash"</a>
+<li> <b>Previous message:</b> <a href="0123.html">Vinod Valloppillil: "EMU_boo (fwd)"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

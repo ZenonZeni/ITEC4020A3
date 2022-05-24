@@ -1,0 +1,211 @@
+
+<DOC>
+<DOCNO>WT02-B06-41</DOCNO>
+<DOCOLDNO>IA096-001029-B018-23</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/clipper_III/clipper_III_analysis.html 205.177.10.31 19970215020256 text/html 12177
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 02:01:40 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>CDT - Clipper III Analysis</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<IMG SRC="/images/cdtlgo.gif" BORDER="0" ALIGN=LEFT ALT="Center for Democracy and Technology"><BR CLEAR=ALL>
+<BR>
+<BR>
+<STRONG>TO: Interested Parties<BR>
+FROM: Center for Democracy and Technology<BR>
+DATE: May 21, 1996<BR>
+SUBJECT: Preliminary Analysis of &quot;Clipper III&quot; Encryption Proposal<BR>
+</STRONG><BR>
+The Administration's latest encryption policy proposal, already dubbed &quot;Clipper
+III,&quot; would use a new government-sanctioned certification system as
+an incentive to virtually impose key escrow on domestic encryption users.
+The draft proposal, &quot;Achieving Privacy, Commerce, Security and Public
+Safety in the Global Information Infrastructure,&quot; would establish a
+new &quot;public key infrastructure&quot; for encryption. Such a public
+key infrastructure would enable users of encryption to clearly identify
+the people they are communicating with, and is widely viewed as an important
+prerequisite for the widespread use of secure electronic communications.
+However, the Clipper III proposal would establish this infrastructure at
+a price: All users of the public key infrastructure would have to ensure
+government access to their encryption keys through an approved key escrow
+agent. <BR>
+<BR>
+Clipper III will not meet the privacy and security needs of Internet users.
+While the proposal represents real progress by the Administration in recognizing
+the importance of encryption, in reality it provides few provisions to protect
+individual privacy. The proposal is hardly voluntary -- it makes key escrow
+a virtual precondition for participation in a secure GII. It targets domestic
+users of encryption, contains few guidelines for key exchanges with foreign
+governments, and encourages collection of highly sensitive private key information.
+Moreover, it contains none of the standards for key holder liability, limits
+on access to keys by law enforcement, or audit requirements that many have
+already identified as crucial to protecting individual privacy in even a
+voluntary key escrow system. For these reasons, CDT believes that the Clipper
+III proposal is another step in the wrong direction for U.S. encryption
+policy.
+<H3>Overview of the Administration Proposal</H3>
+Taking a nod from the European Commission's recent Trusted Third Party initiative,
+the Clipper III proposal would develop a needed public key infrastructure,
+couched in the language of privacy and security, and use it as an incentive
+for development of a de facto key escrow system. The Clipper III proposal:
+<UL>
+<LI>Acknowledges the importance of encryption and the need for a public
+key infrastructure (PKI) -- The proposal reaffirms the importance of encryption
+and the emerging need for a system to certify public encryption keys. Such
+a &quot;public key infrastructure&quot; would allow users to certify to
+other users that their public keys in fact belonged to them, allowing the
+keys to be used and trusted for encrypted commerce and communication. Without
+such a system, &quot;users cannot know with whom they are dealing on the
+network, or sending money to, or who signed a document, or if the document
+was intercepted and changed by a third party.&quot;<SUP><A HREF="#note_1">1</A></SUP><BR>
+<BR>
+<LI>Establishes a complex new Key Management Infrastructure (KMI) -- The
+proposal would form a new public key infrastructure to tie encryption users
+to their public keys. The KMI would establish new certification authorities
+that would guarantee -- and be held liable for -- the identity of a public
+key. The new entities proposed under the Administration plan include:<BR>
+<BR>
+  <UL>
+  <LI>Certification Authorities (CAs) - to identify and issue certificates
+to users; 
+  <LI>Escrow Authorities (EAs) - to hold private key information as required;
+and 
+  <LI>Policy Approving Authorities (PAAs) -- overarching bodies, possibly
+under governmental control, responsible for certifying trusted escrow authorities.
+  </UL>
+<BR>
+<LI>Requires key escrow as a condition of participation in the new public
+key infrastructure -- In order to participate in the new Key Management
+Infrastructure, users would be required to ensure law enforcement access
+to encrypted information. &quot;One condition of obtaining a certificate
+is that sufficient information (e.g., private keys or other information
+as appropriate) has been escrowed with a certified escrow authority to allow
+access to a user's data or communications.&quot;<SUP><A HREF="#note_2">2</A></SUP>
+The escrow agent could be the certification authority or another third-party,
+so long as they meet &quot;minimum standards&quot; including &quot;performance
+criteria to meet law enforcement's needs.&quot; Self-escrow would also be
+allowed for entities that meet certain unspecified &quot;necessary performance
+requirements.&quot;<BR>
+<BR>
+<LI>Relaxes export controls for key escrow products as in Clipper II --
+The proposal would &quot;continue and expand&quot; the NIST &quot;Clipper
+II&quot; export control provisions proposed this fall, allowing 64 bit software/80
+bit hardware exports to any destination if keys are escrowed in the U.S.
+or if the U.S. has a bilateral escrow agreement. Other exports to certain
+markets would be considered, upon case-by-case review and under certain
+conditions. Key length limits would presumably expand as law enforcement
+confidence in the key escrow authorities grew. 
+</UL>
+<H3>Critique and Areas of Concern</H3>
+Clipper III does represent a major step forward by the Administration in
+acknowledging the importance of encryption and public key cryptography:
+&quot;Government can no longer monopolize state of the art cryptography.
+... It is unrealistic to believe that government can produce solutions which
+keep ahead of today's rapidly changing information technology.&quot;<SUP><A HREF="#note_3">3</A></SUP>
+The proposal goes on to note that, &quot;[Public key cryptography features]
+are needed to support electronic commerce, public services, redefined business
+processes, and national security.&quot; <BR>
+<BR>
+However, Clipper III is also a clear attempt to force the widespread adoption
+of key escrow by leveraging the need of encryption users to participate
+in a public key certification system. Major problems with the proposal include:
+<UL>
+<LI>It makes key escrow a precondition for participation in the public key
+infrastructure - Other than law enforcement access, there is no reason the
+public key infrastructure must store private keys. On the contrary, the
+essential breakthrough of public key cryptography is the ability it gives
+users to share public key information and partake fully in authenticated,
+secure communications without revealing any private key information to third
+parties. Data recovery -- the ability to recover encrypted data if a private
+key is lost -- is the main rationale presented for key escrow. However,
+data recovery can be done independently of the public key infrastructure
+if desired, and in a more secure manner.<BR>
+<BR>
+<LI>It is not voluntary -- Though participation is theoretically &quot;voluntary,&quot;
+under Clipper III users will have no choice but to escrow their keys or
+forego participation in the Information Age economy. The proposal itself
+calls the key infrastructure a &quot;basic and entirely essential foundation.&quot;
+To participate, users will need to escrow their keys; if they choose not
+to participate in the KMI, users will be unable to obtain the essential
+certifications that the Administration foresees as being the standard for
+secure electronic communications and commerce. <BR>
+<BR>
+<LI>It targets domestic users -- While export controls have ostensibly been
+aimed at controlling the use of encryption by foreign users, the Clipper
+III proposal is clearly aimed at domestic users of encryption.<BR>
+<BR>
+<LI>It leaves international key exchange problems unresolved -- Without
+a system of international agreements, interoperability is at risk. The same
+encryption and/or authentication scheme exportable to Germany or France
+might not be exportable to India or China in the absence of appropriate
+bilateral agreements. Bilateral agreements raise their own issues: under
+what standards will keys be released to foreign governments, especially
+those with no tradition of Fourth Amendment search and seizure protection?<BR>
+<BR>
+<LI>It contains no key escrow privacy provisions -- The Administration proposal
+only tangentially addresses the privacy problems posed by key escrow systems.
+As others have already noted in the encryption policy debate, any key escrow
+system (even if voluntary) raises issues regarding the need for: liability
+rules for unauthorized key disclosures by escrow agents; standards for law
+enforcement access; auditing requirements for escrow agents; and guidelines
+for decryption information access.<SUP><A HREF="#note_4">4</A></SUP> Clipper III contains
+no such standards or guidelines.<BR>
+<BR>
+<LI>It compromises network security by encouraging storage of private key
+information -- Clipper III requires the accumulation of private keys or
+other decryption information in dangerous and vulnerable points-of-failure
+-- the escrow agents. At the same time as it seeks to design a secure infrastructure,
+the proposal builds enormous new vulnerabilities into the system.<BR>
+<BR>
+<LI>It is not responsive to years of feedback from industry and policy advocates
+--The proposal answers few of the concerns repeatedly raised by privacy
+advocates or industry. It reflects a policy-making process still driven
+by national security and law enforcement concerns rather than the privacy
+needs of individuals and the security needs of the online economy. 
+</UL>
+<H3>Conclusion</H3>
+As the European Commission prepares to release its Trusted Third Party encryption
+proposals in Europe, the very similar Clipper III proposal provides a preview
+of the choices being made around the world to sacrifice privacy concerns
+in the name of law enforcement access. The Administration proposal has the
+potential to hold the budding public key infrastructure -- an important
+component of secure communications online -- hostage to the demands of law
+enforcement. Instead, CDT believes the Administration should use this opportunity
+to develop a more secure and trusted communications infrastructure for all
+users, even those in countries without the same tradition of Fourth Amendment
+protection afforded to U.S. citizens. CDT looks forward to continuing to
+work towards voluntary, private-sector security standards for the information
+infrastructure independent of escrow requirements or export controls.<BR>
+<P><CENTER><HR WIDTH="50%"></CENTER>
+<H3>Footnotes</H3>
+<A NAME="note_1"></A><BR>
+<SUP>1</SUP> Achieving Privacy, Commerce, Security and Public Safety in the Global
+Information Infrastructure, at 3 (May 17, 1996).<BR>
+<A NAME="note_2"></A><BR>
+<SUP>2</SUP> Achieving Privacy, Commerce, Security and Public Safety in the Global
+Information Infrastructure, at 5 (May 17, 1996).<BR>
+<A NAME="note_3"></A><BR>
+<SUP>3</SUP> Achieving Privacy, Commerce, Security and Public Safety in the Global
+Information Infrastructure, at 2 (May 17, 1996).<BR>
+<A NAME="note_4"></A><BR>
+<SUP>4</SUP> Some data recovery or interception mechanisms (e.g., the TIS data recovery
+center model, etc.) allow for much less intrusive means of decryption access
+than others. For example, if a system provides access to private keys, than
+every communication using that key is compromised. The costs of accidental
+disclosure are consequently much higher than they need to be, and there
+is no ability to narrowly tailor law enforcement requests. To the extent
+that key escrow is ever used, standards should be put in place to keep access
+to encrypted information as narrowly tailored as possible. <BR>
+<BR>
+<HR>Back to the <A HREF="index.html">CDT Clipper III Page</A><BR>
+Back to the <A HREF="/crypto/index.html">CDT Cryptography Page</A><BR>
+Back to the <A HREF="/index.html">CDT Home Page</A><BR>
+</BODY>
+</HTML>
+</DOC>

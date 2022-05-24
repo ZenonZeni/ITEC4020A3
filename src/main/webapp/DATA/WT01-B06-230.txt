@@ -1,0 +1,89 @@
+
+<DOC>
+<DOCNO>WT01-B06-230</DOCNO>
+<DOCOLDNO>IA087-000625-B003-257</DOCOLDNO>
+<DOCHDR>
+http://www.sema.org:80/cgi-html/list.html 207.171.2.114 19970122034255 text/html 2231
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 03:38:39 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 2060
+Last-modified: Thu, 31 Oct 1996 00:24:25 GMT
+</DOCHDR>
+
+<HTML>
+<HEAD>
+<TITLE>
+SEMA E-mail List Signup</TITLE>
+
+
+<meta name="description" content="">
+
+<meta name="keywords" content="">
+</HEAD>
+
+<BODY bgcolor="ffffff">
+
+
+<center>
+
+<IMG SRC="/pics/newlogo.gif" ALT="SEMA LOGO" ALIGN="BOTTOM"> <BR>
+</center>
+
+<center>
+<h1>SEMA's E-Mail List</h1>
+
+<h3><font color=#FF0000>Become part of our e-mail list of important events or recent news.</h3></font>
+ <h5>This list will be kept confidential and is for SEMA's use only.</h5>
+</center>
+<hr size=3>
+<br clear=all>
+<form method="POST" action="/cgi-bin/list.cgi">
+<table>
+<tr><td>Your Name: <td colspan=3><input name="name" type="text" size="30" maxlength="30"><br>
+<tr><td>E-mail Address: <td colspan=3><input name="email" type="text" size="30" maxlength="30"><br>
+<tr><td>I am a: <td colspan=3><input type=radio name=ctype value="trades" checked>tradesperson <input type=radio name=ctype value="consumer">consumer
+</table>
+<center>
+<font size=+2>Thank you for becoming involved!</font>
+<hr size=3>
+<p><input type="submit" value="Submit"> <input type="reset" value="Undo"><br>
+</center>
+</form>
+
+<p>
+
+<!--FOOTER START-->
+<table>
+<tr><td width=550>
+<BR CLEAR=ALL>
+<center>
+<HR>
+<A HREF="/index.html"><IMG border=0 SRC="/pics/b_home.gif" ALT="[SEMA]"></A>
+
+<A HREF="/cgi-html/contact.html"><IMG border=0 SRC="/pics/b_mail.gif" ALT="[Mail]"></A>
+
+<A HREF="/searchsema.html"><IMG border=0 SRC="/pics/b_find.gif" ALT="[Site Search]"></A>
+
+<A HREF="/postit/"><IMG border=0 SRC="/pics/b_bbs.gif" ALT="[Message Boards]"></A>
+
+<A HREF="/cgi-html/list.html"><IMG border=0 SRC="/pics/b_email.gif" ALT="[E-Mail List]"></A>
+
+</center>
+
+<br>
+<FONT SIZE=-1>
+ Last updated: Oct. 30, 1996 by <a href="mailto:aland@sema.org">Webmaster.</a><Br>
+Copyright &copy Specialty Equipment Market Association (SEMA)-All rights reserved.<br>
+<align=right>
+<em><strong>This site is brought to you by...<br></strong></em>
+ <a href="http://www.ibcc.com">The Internet Business Consulting Company</A><br>
+ </FONT SIZE>
+</td></tr>
+</table>
+</center>
+<!--10/30/96 4.00 AD-->
+<!--FOOTER END-->
+</body></html>
+</DOC>

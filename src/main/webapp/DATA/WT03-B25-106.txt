@@ -1,0 +1,175 @@
+
+<DOC>
+<DOCNO>WT03-B25-106</DOCNO>
+<DOCOLDNO>IA070-000437-B014-160</DOCOLDNO>
+<DOCHDR>
+http://gardnerweb.com:80/pf/pf_articles/089604.html 206.112.192.204 19970120211332 text/html 15096
+HTTP/1.0 200 OK
+Date: Mon, 20 Jan 1997 21:13:25 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+Content-length: 14924
+Last-modified: Fri, 23 Aug 1996 17:57:20 GMT
+</DOCHDR>
+<HTML>
+
+<HEAD><TITLE>Products Finishing, August 96, "Collecting Data Within an Electrocoating Tank"
+</TITLE>
+<CONTENT="August 1996, Products Finishing">
+</HEAD>
+
+<A NAME="top">
+
+<BODY>
+<A NAME="top">
+<BODY BGCOLOR="#ffffff">
+
+<CENTER>
+<A HREF="http://www.gardnerweb.com"><IMG SRC="/home_graphics/gw_small.gif" WIDTH=250 HEIGHT=56 BORDER=0></A><BR><BR>
+
+<IMG SRC="/pf/pf_graphics/pf_sml_hdr.gif"><BR CLEAR=ALL><P>
+</CENTER>
+<HR>
+
+<!------------------------------------------------------>
+<CENTER>
+<H1>
+Collecting Data Within 
+<BR>an Electrocoating Tank
+</H1>
+<BLOCKQUOTE>
+<B>Submersible data acquisition unit measures voltage and current at specific areas on the part...
+</B>
+<P><I>By Joseph Subda
+<BR>DuPont Electrocoating Technical Group
+<BR>Mt. Clemens, Michigan</I>
+</CENTER>
+<P>In the electrocoat process, quality is everything. A first-class electrocoat finish is difficult to obtain unless you know precisely what is happening inside the electrocoating tank. Electrocoat application depends on numerous factors: voltage, current, time, temperature and 
+chemistry. Chemically, there is an abundance of knowledge on what happens during the electrocoating process. The knowledge base for what happens to temperature, voltage and current is less abundant.
+
+<P>Traditionally, electrocoat tank monitoring devices measure the total output of voltage and current at the rectifier/anode and the average temperature of the electrocoat bath. These measurements reveal little about what is happening at specific areas of parts in the tank. Parts, such as automobiles, are comprised of complex metal shapes. When these vehicles are processed through an electrocoat tank, voltage, current and temperature vary 
+from point to point. In addition, voltage, current and temperature vary for a given area as the vehicle processes through the tank.
+
+<P>Optimizing system performance requires an understanding of what is happening at specific areas of the vehicle as it passes through an electrocoat tank. Traditional monitoring devices do not provide the data needed to obtain such an understanding. In the past, improvements to the system were 
+done using trial and error.
+
+<P>Gaining insight into what actually happens in an electrocoat tank requires an instrument that measures and records voltage, current and temperature on specific areas of a vehicle during the electrocoating process. In the spring of 1994, work on such an instrument began. In the winter of 1994, a submersible data acquisition unit was born. The device measures voltage and current at specific points during electrocoating.
+
+<P><B>Meet the Sub.</B> The instrument can determine the condition of an anolyte cell, estimate film build and determine the electric field produced by an anolyte cell. In addition, data gathered are used to optimize the anolyte 
+cell configuration and determine the behavioral characteristics of electrocoat in a production tank.
+
+<P>The instrument consists of an electronic recorder, circuit board, leak proof container, probes and grounding wires. Its nickname, &quot;The Sub,&quot; is derived from the shape of the leakproof container.
+
+<P>Using magnets, probes are attached to various points on the parts. They sense the amount of voltage or current at that point. The probes are constructed of 12-gauge cold-rolled steel with an insulating coating on the back.
+
+<P>Grounding wires are attached to the part, which completes the circuit from the probe. The probes are positive and the ground wires negative, same as the part, assuming cathodic electrocoating is used.
+
+<P>The probes and ground wires are connected to the circuit board. The circuit board converts the signal from the probes into a signal the recorder can read. The signals are recorded at set time intervals. The leakproof container is 
+a nonconductive pipe with a stand, handle, removable cap and a collar that the wires run through. The leakproof container houses the circuit board and recorder.
+
+<P><B>Operation. </B>A typical run starts by placing the recorder into the device and turning it on. The instrument is then sealed and placed inside the vehicle. The device is strapped to the vehicle with a bungee cord to prevent 
+movement during the run. The ground wires are clamped to the vehicle, and the probes are placed on the vehicle. The instrument is removed after the electrocoating tank.
+
+<P>Data  from the recorder is down loaded into an IBM computer. The data create a line graph for each probe. Then the voltage curve for each probe<B> </B>is integrated, using Simpson's Rule (a mathematical equation for deriving the area under a curve). This area is expressed in &quot;Subda Units.&quot; In addition, the data are used to determine factors from the run, such as peak voltage or peak current reached, and the time at or above a certain voltage. 
+
+<P><B>Data Analysis. </B>Currently, data from the device can be used to determine the condition of an anolyte cell, estimate the film build, and determine the electrical field produced by an anolyte cell. In addition, the data are used 
+to optimize the anolyte cell configuration and determine the behavioral characteristics of electrocoat in a production tank.
+
+<P>The instrument was initially developed to analyze the behavioral characteristics of electrocoat in a production tank. Other capabilities were discovered and refined during development testing. The discovery and refinement of cell condition and film build provide insight into the data analysis for these characteristics.
+
+<P><B>Data Analysis: Cell Condition. </B>The device's ability to determine the condition of an anolyte cell is an important by-product of its use in an electrocoat operation. Equipment used in the Sub was initially developed and tested 
+in a research laboratory. 
+
+<P><B>Lab Voltage Curve.</B> After developing and testing the equipment, a leakproof container to house the equipment was built. Then the instrument was off to an assembly plant for its maiden voyage.
+
+<P>It did not fair well on its maiden voyage. A few bugs had to be worked out, such as leaks, probes falling off, and the clamps and probes undergoing coating. These problems were resolved and successful runs were accomplished routinely. 
+
+<P>The curve for the plant run is different from the lab runs. The curves from the lab were smooth, no dips or peaks, so the results were somewhat unusual. A second run produced the same results. What was causing the irregularities in the plant voltage curve? Logic led to the assumption that the placement of the anolyte cells could affect the curve. 
+The size and location of each anolyte cell were determined and then plotted on the chart with the voltage curve. The anolyte cells matched the peaks on the curve. The dips in the curve were between the cells. The device could detect whether or not the anolyte cells were working. Since the instrument was not originally intended for use as a diagnostic tool, to check anolyte cells, this was a bonus. 
+
+<P><B>Data Analysis: Film Build</B>.  The amount of electrocoat applied is mainly a function of voltage, time and temperature. The submersible data acquisition instrument measures time and voltage, the overall bath temperature 
+is known so it would be only natural to assume the unit could determine film build. The concept sounded simple enough but it turned out to be a little more complicated.
+
+<P>Once all of the bugs were worked out, the instrument was used frequently at many assembly plants. The data from the runs were compiled and graphed. The first instrument had the capability to measure voltage or current at four points. So for each run there would be a graph with four curves. Upon reviewing the graphs, it was noted that the curves, for different points on a vehicle, were different. The shape of the curve and the area under the curve depended on the location of the probe.
+
+<P>The electrocoat film build is not the same for different locations of a vehicle. Exterior points are generally higher in film build than interior points. Could the shape and area under the curve be related to the film build for that location? The area under each curve was calculated using 
+Simpson's Rule. The area under the curve was originally expressed in volt seconds. Volt seconds was later changed to &quot;Subda Units.&quot;  Subda Units for each curve were compared to the film build for each location. Correlation 
+between Subda Units and film build did not exist for all runs taken as a whole. However, if the data were broken down by assembly plant, correlation for a single assembly plant seemed much better.
+
+<P>The individual plant data was analyzed by linear regression technique. Correlation between volt seconds on the instrument output and measured film build was high when linear regression was performed on the data. 
+
+<P>When linear regression was used the correlation between film build and Subda Units was good; however, it was not good enough to accurately predict film build. Further refinements analyzed the data on a run by run basis. 
+This appeared to be even better at accurately predicting film build. However this accuracy is run dependent. Two runs were used to illustrate the difference that can occur between runs. 
+
+<P>The data used the two runs was broken down by run. A linear regression was performed on the data for each run. The equation, from the linear regression, was used to create the calculated film build lines. The actual film build was then plotted on the calculated film build lines.
+
+<P>The film build lines for the two runs are different. This was typical for all the plants. The difference for the two runs is attributed to tank temperature. There were many factors that affected the film build versus Subda Units, such as tank temperature, pH, line stops and oven temperature.
+
+<P>The instrument measured film build mainly in recessed areas of a vehicle, which would normally be cut open for measurement. A probe is placed in the recessed area before the vehicle is assembled. The other probes are placed 
+on the unit prior to the electrocoat tank.
+
+<P>The data from the probes in the areas where the film build can be measured is analyzed by linear regression. The linear equation, resulting from the analysis, is used to determine the film build in the area that cannot be measured on the vehicle.
+
+<P><B>Data Analysis: Electrical Field. </B>The electric field produced in an electrocoat tank is a function of the shape of an anode, distance between anodes and shape of the anodes.
+
+<P>Looking at assembly plants using flat anolyte cells, the electrical field of a flat cell is confined to the width of 
+the cell. That is why a dip in the recorded voltage is seen between flat cells. The electrical field for a ccell or a tube cell spreads out beyond its width. In a plant that has ccells, the only dips that are in the voltage line are 
+in areas with large gaps between the cells. The high peaks in the exterior floor pan are from bottom anodes. Also note the difference between the right and left door; the left door is higher in voltage than the right. The door hook 
+for the right door had fallen out for this run, so the right door was closed. The left door was open, so it was closer to the anodes, thus a higher voltage.
+
+<P>A comparison of the electrical field produced by the different types of anodes could not be done in the field, because conditions varied from plant to plant too much for good comparison. A laboratory experiment to test the fields of different anodes was designed and completed. An anolyte cell test stand was built and the different types of anodes were acquired. Careful precautions were included in the experimental design to ensure the same conditions existed for all anodes tested. The anodes were all equal in area 
+and occupied the same space in the tank. The substrate was stationary and two monitoring probes were placed on the substrate. Probe 1 was placed directly in front of the anode and probe 2 was placed to the right of the anode. 
+
+<P>The tube cell appears to have the broadest electrical field using this test. Which implies more coating time for the substrate with this cell. Additional confirmation testing is now in progress.
+
+<P><B>Data Analysis: Anode Configuration. </B>The placement of anodes can affect film build, film build variability, and the minimum film build. Data from the data acquisition unit, in conjunction with film build data were analyzed to determine if anode placement could be changed to improve electrocoat film builds. Film build data are reviewed to determine where deficiencies might exist. Sub data are analyzed to determine the root cause of the deficiencies. Once the root cause is identified, actions are formulated to eliminate it.
+
+<P>Assembly Plant X's electrocoat tank was designed with a large gap in the side anolyte cells between V1 and V2. The interior film build was affected by this gap. The voltages in V1 and V2 were operated at a higher set point to achieve interior film build. The higher voltages caused an excess amount of film build on the exterior of the vehicle, especially the vertical surfaces. This problem was resolved by adding an anolyte cell to the front of the tank and relocating the overhead anodes.
+
+<P>The addition of the anolyte cells and relocation of the overhead anodes enabled Plant X to reduce the exterior film build, and increase the interior film build. 
+
+<P>The submersible data acquisition device has generated data that has opened up a whole new world that may benefit the electrocoat industry. The unit has provided insight into what actually happens inside an electrocoat tank. Data and information provided are helping build a knowledge base 
+that will influence anode shape and configuration, the number of rectifiers in a system and the design of vehicles in the future.
+
+<P>Further refinements and uses are still being explored in DuPont's coating laboratories to enhance this tool's effectiveness in the future. 
+<B>     PF</B>
+
+</BLOCKQUOTE>     
+
+
+<!------------------------------------------------------>
+<HR>
+<P>
+<CENTER>
+<A HREF="#top">Return to Top of Page</A> | 
+<A HREF="/pf/pftr.html">Return to PF Technical Resource Center Page</A>
+</CENTER>
+
+
+<HR><BR>
+
+<CENTER>
+<TT><B>
+<FONT SIZE="3">
+[ <A HREF="http://www.gardnerweb.com">GardnerWeb Home</A> | 
+<A HREF="http://www.gardnerweb.com/visitors/visitors.html">Visitors Center</A> | 
+<A HREF="http://www.hansergardner.com">Bookstore</A> ]<BR>
+[ <A HREF="http://www.gardnerweb.com/prod/production.html">Automotive Manufacturing Resource Center</A> | 
+<A HREF="http://www.gardnerweb.com/mms/mms.html">Metalworking Resource Center</A> ]
+</FONT>
+</B></TT>
+
+<P>
+<HR WIDTH=50%>
+
+<FONT SIZE="-2">
+Serving the Metalworking and Finishing Industries. <I>Since 1928</I>.<BR>
+GardnerWeb and all contents are properties of Gardner Publications, Inc.<BR>
+All Rights Reserved. 1995-1996.</FONT><P>
+
+</CENTER>
+
+
+</BODY>
+</HTML>
+</DOC>

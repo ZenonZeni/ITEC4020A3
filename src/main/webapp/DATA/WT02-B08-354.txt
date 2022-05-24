@@ -1,0 +1,49 @@
+
+<DOC>
+<DOCNO>WT02-B08-354</DOCNO>
+<DOCOLDNO>IA021-000219-B022-188</DOCOLDNO>
+<DOCHDR>
+http://tethys.jpl.nasa.gov:80/Annette/nearrealtime/nrt_wave.html 128.149.33.75 19970107091055 text/html 2094
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 07-Jan-97 09:10:36 GMT
+Last-modified: Monday, 02-Dec-96 21:07:21 GMT
+Content-length: 1910
+Content-type: text/html
+</DOCHDR>
+<html>
+<HEAD>
+<TITLE>TOPEX/Poseidon "Near-Real-Time Data"</TITLE></HEAD>
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+<H1>"Near-Real-Time" Significant Wave Height Data"</H1>
+<p>
+<h3>Significant wave height is calculated based on the shape of a radar pulse after it bounces off the sea surface. This pulse shape gives the <a href=nrt_wind.html>wind speed,</a> as well.
+<p>
+<a href=http://www-ccar.Colorado.EDU/~leben/waves/>Click here</a> to access the overview "Global Near-Real-Time Altimeter Significant Wave Height Page."
+<p>
+Access the <a href=http://www-ccar.colorado.edu/~leben/waves/wavepic.html>"Global Near Real-Time Altimeter Significant Wave Height Visualization"</a> for an interactive software program that lets you create maps of wave heights over almost any region of the ocean.
+<p>
+If it's data you're interested in, go the the <a href=http://shaman.colorado.edu/~leben/waves/wave.html> "Global Near Real-Time Altimeter Significant Wave Height Data Host" </a> that gives the following data in ASCII format:</h3>
+<h4><ul>
+<li>Calendar date (month/day/year)<br></li>
+<li>Time of day (hour:min:sec)<br></li>
+<li>Seconds past midnight 1-Jan-1996<br></li>
+<li>Latitude (degrees)<br></li>
+<li>East longitude (degrees)<br></li>
+<li>Wave height (centimeters)<br></li>
+<li>Sigma wave height (centimeters)<br></li>
+<li>Sigma naught (.01 dB)<br></li>
+</ul></h4>
+<h3>
+<p>  
+Check out an <a href=http://www-ccar.colorado.edu/~okeane/movie/waves_canes.mpg>
+animation of wave heights during the 1996 North Atlantic hurricane season</a>. Black diamonds show hurricane locations from the National Hurricane Center for each day.  Generally there are 4 locations each day.  They agree well with the locations of the high waves.
+</h3>
+<p>
+<h5>
+<address><a href=nrt_intro.html>Back to TOPEX/Poseidon "Near-Real-Time-Data" Introduction </a></address>
+<ul>
+</BODY>
+</html>
+
+</DOC>

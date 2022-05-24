@@ -1,0 +1,116 @@
+
+<DOC>
+<DOCNO>WT02-B07-128</DOCNO>
+<DOCOLDNO>IA046-000823-B024-187</DOCOLDNO>
+<DOCHDR>
+http://www.tritontech.com:80/demoform.html 165.227.192.45 19970119064828 text/html 3753
+HTTP/1.0 200 OK
+Date: Sun, 19 Jan 1997 06:48:25 GMT
+Server: Apache/1.0.0
+Content-type: text/html
+Content-length: 3582
+Last-modified: Thu, 29 Feb 1996 19:26:17 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+
+<HTML><HEAD><TITLE>Triton Isis&#174; Demo Form</TITLE>
+<LINK REV="made" HREF="mailto:sales@tritontech.com">
+</HEAD>
+
+
+<BODY BACKGROUND="opaq0006.jpg" TEXT="#000000">
+
+<H1 ALIGN=CENTER>Triton Isis Demo Download Form</H1>
+<H5 ALIGN=CENTER>You can download the code now but you need our password to pkunzip it</H5>
+<HR>
+
+
+<P>This version of Isis demonstrates most of the functionality of Isis with the following exceptions:
+<UL>
+<LI>Playback of only special demo files
+<LI>No hardcopy capability
+<LI>No Target analysis
+<LI>No record mode (However, record mode SETUP is available)
+</UL>
+<H2>System Requirements</H2>
+<UL>
+<LI>pkunzip PASSWORD which we will e-mail to you (or give you by phone)
+<LI>256-color graphics adapter
+<LI>high-res (1024x768) display (looks crummy otherwise)
+<LI>8MB of memory
+<LI>10MB free disk space (mostly for the sample data files)
+<UL>
+</P>
+
+<HR>
+
+<FORM METHOD="POST" ACTION="http://www.teleport.com/cgi-bin/fb.pl">
+<STRONG>Please Note:</STRONG> [R] indicates a <STRONG>Required</STRONG> field
+in the form. Your submission will not be accepted if these fields are left
+empty.
+
+<INPUT TYPE="HIDDEN" NAME="recipient" value="demo@tritontech.com">
+<INPUT TYPE="HIDDEN" NAME="pos_loc" value="http://www.tritontech.com/success.html">
+<INPUT TYPE="HIDDEN" NAME="neg_loc" value="http://www.tritontech.com/failure.html">
+
+<PRE>
+Your Name [R]       <INPUT TYPE="name" SIZE=46 NAME="firstname">
+Organization [R]    <INPUT TYPE="org"  SIZE=46 NAME="lastname">
+E-mail [R]          <INPUT TYPE="addr" SIZE=46 NAME="email">
+Title               <INPUT  SIZE=46 NAME="_Title">
+Address             <INPUT  SIZE=46 NAME="_Address">
+Address             <INPUT  SIZE=46 NAME="_Address2">
+City                <INPUT  SIZE=46 NAME="_City">
+State               <INPUT  SIZE=46 NAME="_State">
+Zip/Post Code       <INPUT  SIZE=46 NAME="_Code">
+Country             <INPUT  SIZE=46 NAME="_Country">
+
+Phone               <INPUT  SIZE=46 NAME="_Phone">
+Fax                 <INPUT  SIZE=46 NAME="_Fax">
+URL                 <INPUT  SIZE=46 NAME="_URL">
+</PRE>
+<P>Are you an Isis or Q-MIPS user ? <select NAME="_curuser">
+<OPTION selected VALUE="No">No
+<option VALUE="Yes">Yes
+</SELECT></P>
+
+
+<H2>Operating System</H2>
+
+<STRONG>Isis</STRONG> is currently available for evaluation on the following operating systems. 
+Please indicate the version you wish to test.
+
+<PRE>
+Windows 3.x   <INPUT type=checkbox NAME="_win31">   
+<BR>
+Windows 95    <INPUT type=checkbox NAME="_win95">
+<BR>
+Windows NT    <INPUT type=checkbox NAME="_winnt"> 
+</PRE>
+<BR>
+<HR>
+<P>
+<INPUT TYPE="submit" VALUE=" Submit "> form for a demonstration copy of Isis.</P>
+
+<P>By submitting this form you will automatically be added to our Triton
+mailing list.
+For further information or general comments, please e-mail <A HREF="mailto:sales@tritontech.com">sales@tritontech.com</A> or contact your local <A HREF="/reps.html">representative</A>.</P>
+
+</FORM>
+
+<HR>
+
+<P><FONT SIZE="-1">Isis is a registered trademark of Triton Technology, Inc.
+All other brand and product names mentioned herein are trademarks or registered trademarks
+of their respective owners.</FONT></P>
+<HR> <FONT SIZE=-1> Copyright &#169; 1996 Triton Technology, Inc. 
+All rights reserved.</FONT>
+<center>
+<h5>This page has been 
+accessed <img src="/cgi-bin/counter?ft=9|frgb=69;139;50|tr=0|trgb=0;0;0|wxh=15;20|md=5|dd=B|df=triton4572.dat"> times 
+since February 1996
+</h5>
+</center>
+</BODY>
+</HTML>
+</DOC>

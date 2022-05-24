@@ -1,0 +1,183 @@
+
+<DOC>
+<DOCNO>WT03-B25-261</DOCNO>
+<DOCOLDNO>IA029-000311-B010-209</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/eocpln8a.htm 138.44.40.1 19970114160749 text/html 10490
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:05:57 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:06 GMT
+Content-length: 10315
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>EOC SCIENCE PROJECTS PLAN</TITLE>
+</HEAD>
+<BODY>
+<H2>4. EOC SCIENCE PROJECTS PLAN (continued)<BR>
+<HR></H2>
+<H3><A NAME="anchor15467105"></A>4.3 Initial EOC Working Groups</H3>
+As described in Section 3, the development of future EOC projects will start
+with Working Groups. At present there are a number of options and working
+group areas that will provide initial planning documents for the EOC. These
+are ones that have already been discussed and developed within the context
+of the previous priority setting criteria and have had some activity under
+previous arrangements but are in need of re-defining and re-scoping: 
+<H4>4.3.1 Generic Processing Algorithms</H4>
+The current best practice in atmospheric correction and physical scene modelling
+needs to be made available to the user community. The EOC also has a responsibility
+to develop innovative ways to remotely sense the properties the Earth. This
+Working Group will establish the foundation areas for analysis of data from
+future satellites to which Australian scientists can best contribute, as
+well as specifiy the currently best methods by which Divisions can monitor
+important environmental variables.<BR>
+<BR>
+The working group on generic algorithms will specifically examine two main
+issues of scene physics:<BR>
+<BR>
+(1) The results of processing needed in many applications are surface reflectances
+and temperatures, but their derivation from satellite radiances cannot be
+effected without assumptions concerning aerosols (including sub-visual cloud),
+atmospheric composition (including water vapour and ozone), and the temperature
+profile of the atmosphere. The Working Group will examine the sensitivity
+of the end-products to each of these factors in order to determine the accuracy
+with which each must be known to guarantee specified accuracies in the end-products.
+Using this information, a Science Project addressing generic retrieval algorithms
+will be developed and recommended for a selected set of platform/sensor
+combinations including GMS and AVHRR.<BR>
+<BR>
+(2) Atmospheric correction, time series image analysis, image mosaicking
+and earth surface interpretation in Visible/NIR, SWIR and Thermal regions
+are all affected by the varying scene radiance known as the Bidirectional
+Reflectance Distribution Function (BRDF). The Working Group will identify
+areas where the EOC activity can contribute to the advanced products needed
+by Australian value added suppliers and to the international work in this
+subject.<BR>
+<BR>
+The Projects arising from these WGs will address generic issues and encompass
+proposed interactions with the processing Threads that will develop for
+Japanese, US and ESA satellites and sensors (eg GMS, ASTER, MODIS, ADEOS,
+AVHRR and others), potential Australian developments (ARIES) as well as
+airborne and near surface measurements. 
+<H4>4.3.2 Calibration &amp; Validation</H4>
+It is essential that the EOC translate theoretical analyses into quality
+controlled and validated products. Therefore, a Working Group will examine
+the establishment and long-term maintenance of sites for vicarious calibration
+of visible and near infrared sensors, as well as validation of derived products
+such as aerosol optical thickness and land surface termperature. The activities
+identified will build on the existing investment in the CIGSN sites for
+AVHRR and AATSR thermal calibration and validation. In particular, AVHRR
+and GMS calibration in visible and AVHRR, AATSR and ADEOS in the thermal
+regions. The current CIGSN and Bureau of Meteorology sites will be reviewed
+for their suitability and their data records and experience used to the
+fullest extent in the projects developed.<BR>
+<BR>
+The GMS Pathfinder project is a specific 'Thread' in the calibration work.
+It is a joint initiative of BoM, CSIRO, AIMS and SCRIPPS, the latter through
+NASA sponsorship. The first objective is to produce a base level data set
+covering the benchmark period July 1994 to December 1995, using best available
+methods for geo-location and radiometric calibration. Following this, higher
+level data products will be generated. The Working Group on Vicarious Calibration
+will also address calibration of the GMS visible channel. This will involve
+selection of high reflectivity, uniform and stable targets, instrumented
+to measure spectral reflectance of the surface and loadings of aerosols
+and water vapour. The instrumentation must also allow recovery of the aerosol
+phase function so that top of atmosphere radiance calculations may be made.<BR>
+<BR>
+Vicarious calibration activities underpin work relating to all platforms
+and sensors and provide the sites to test and validate models as well as
+undertake scaling and data fusion studies. The WG will provide the basic
+discussion of the role of sites in permanent data collection as well as
+calibration missions. Its recommendations will also extend to field measurement
+methods and ancillary data requirements as well as the basic assets needed
+for an EOC equipment 'library'. 
+<H4>4.3.3 Scene Brightness Modelling and Correction</H4>
+The issue of scene brightness is one stretching across scales and involving
+investigations ranging from pragmatic, through statistical to advanced model
+based answers to the problems facing users in: 
+<UL>
+<LI>Constructing mosaics from video, scanner and satellite data 
+<LI>Comparing data in time series for real change in surface conditions
+<LI>Developing products based on BRDF and scene variance 
+</UL>
+CSIRO scientists have the capacity to develop solutions to these problems
+ranging from empirical to those based on atmospheric and scene physics.
+This WG will outline the significant applications issues of scene brightness
+and recommend a set of projects to achieve solutions satisfactory to current
+user needs.<BR>
+<BR>
+The brightness variations due to surface BRDF and atmospheric effects are
+at the heart of progress that can be made for land surface targets. Atmospheric
+correction and land spectral data interpretation all need information on
+these effects which can be developed by modelling and field data campaigns.<BR>
+<BR>
+A Meeting held as part of ARSC8 involving industry (Frank Honey) and international
+groups (Alan Stahler/MODIS) has nominated Norm Campbell (CSIRO DMS) and
+Elizabeth McDonald (ERIN) to coordinate interest with a small committee
+and set parameters for this Working Group. Some of the theoretical options
+have been summarised in Jupp and Strahler (1996). The WG may develop a proposal
+for a Science Project involving a combination of empirical and scene physics
+based studies and their testing on a well specified common base of data.
+There is also scope for a thorough study of field instrumentation and procedures
+that will complement EO data to allow the scene brightness effects to be
+well handled. An outline of the supporting data for the test data sets may
+also lead to documentation of wide use in field mission planning. 
+<H3><A NAME="anchor15468724"></A>4.4 General Working Group Development</H3>
+The actual mass centres of generic activity in CSIRO and the needs of CSIRO
+and other researchers and Earth Observation data users for greatest collaboration
+and support may not be well represented by the initial Projects. The initial
+projects reflect the past activities, the immediate obligations to address
+the Simpson Report and the level of readiness of some proposals compared
+with others. <BR>
+<BR>
+There is therefore to be a call for CSIRO scientists to suggest, attend
+and support Working Groups (WGs) for EOC projects. Funds are being set aside
+for travel and support for scientists to meet and provide material for the
+resulting documents. The WGs will be reported in accordance with WG guidelines
+and discussed by the Science Advisory Committee and EOC management. <BR>
+<BR>
+The proposals generated by this activity will be developed in accordance
+with well defined guidelines and ranked against CSIRO, Divisional and EOC
+priorities.<BR>
+Areas that could be investigated include 
+<UL>
+<LI>ground site and field mission instrumentation and procedures (including
+the scope for an EOC equipment 'library'); 
+<LI>thermal region remote sensing at a number of scales; 
+<LI>Australian satellite sensor mission support (atmospheric correction,
+sensor specification, Cal/Val, Spectral Libraries and advanced algorithms);
+<LI>optical water quality and ocean colour; as well as 
+<LI>radar and microwave developments. 
+</UL>
+Provided there is satisfactory agreement among contributing groups, value
+in the cooperative, outcome oriented model as opposed to a single Divisional
+activity, a demonstrated CSIRO niche and capability and sufficient staff
+and financial resources, the projects with highest priority will become
+major EOC activities. In keeping with the EOC distributed Project concept,
+the location of the team and its Task leader will depend on all issues of
+efficiency of outcome and can be at any adquately resourced location.<BR>
+<BR>
+Working Groups will generally be one of two types. One type is a generic
+studies WG where the EOC Task is already specified and the job is to ouitline
+its scope and impacts. The second is the Thread based WG where a product
+or a general area of EO data analysis is discussed. For example, Thread
+WGs may be for a satellite and sensor combination like ASTER, MODIS or GMS
+Pathfinder or be for an application such as optical water quality. Out of
+Thread WGs will come recommendations for one or more Science Projects and/or
+one or more Implementation Teams to focus on generic Tasks that support
+the Thread activity. Thread oriented WGs are obviously more client focussed
+as well. Thread WGs will often involve the same people in a number of contexts.
+However, the principle of Working Groups is to define the Tasks to minimise
+duplication and maximise the effectiveness of the generic Tasks. Maximum
+Threads and minimum Tasks is the desired result.<BR>
+<HR><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="eocpln8.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="eocpln9.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<HR>
+</BODY>
+</HTML>
+</DOC>

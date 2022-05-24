@@ -1,0 +1,314 @@
+
+<DOC>
+<DOCNO>WT03-B24-108</DOCNO>
+<DOCOLDNO>IA053-000895-B048-24</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/tecsec.html 129.174.40.15 19970123200656 text/html 14254
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:05:38 GMT
+Server: NCSA/1.5.2
+Last-modified: Tue, 02 Jan 1996 16:17:46 GMT
+Content-type: text/html
+Content-length: 14070
+</DOCHDR>
+<html><title>TECSEC remarks, NIST Sept Meeting</title>
+<body>
+<pre>
+   [Handout at Key Escrow Issues Meeting, at NIST,
+   Gaithersburg, Maryland, September 6, 1995.]
+
+
+   Private Escrow Key Management: A Method and Its Issues
+
+   Remarks by
+   Edward M. Scheidt, CEO & 
+   Dr. Jon L. Roberts, President
+   TECSEC, Incorporated
+
+   [No date]
+
+
+   Introduction
+
+   During the past few years a debate has been raging around
+   the conflict between the rights of an individual to privacy
+   in information to foster its competitiveness and the
+   Government's need to access information for national
+   security and law enforcement purposes. At the heart of the
+   debate is the difficulty in arriving at a position whereby
+   a robust implementation of an encryption process can be
+   accomplished that protects sensitive private or industrial
+   data yet insures that the government can have access to
+   information if that information is part of a criminal
+   conspiracy or enterprise, or other action hostile to the
+   United States.
+
+   The U. S. Government initially tendered a cryptographic
+   scheme known as the Clipper Escrow Key management plan.
+   Using communication encryption technology, the government
+   wanted to mandate an encryption process for which it
+   maintained the key used for the decrypting of information
+   transiting any communications path. This key would be split
+   and distributed to escrow agents. The split key would have
+   to be combined if the government were to use the key to
+   decrypt and monitor criminal or other such activities. That
+   methodology met with howls of protest from much of U.S.
+   society (industry and private) due to a certain mistrust of
+   the government and its handling of private information (for
+   example, various IRS scandals). The debate has shifted from
+   the technical solution provided by the Clipper initiative
+   to alternate methods that define key escrow in terms of a
+   commercial or private entity.
+
+   A NIST-sponsored key escrow meeting was held on August 17,
+   1995 to listen to the government's proposal to work towards
+   a solution which industry and the international community
+   would accept and which would provide needed security to
+   private information. The meeting was a positive step
+   towards resolving the conflicting issues surrounding
+   cryptography. The government's proposal to extend the key
+   length of any cryptographic algorithm used to 64 bits to
+   enable export of cryptographic products more readily is a
+   small step towards industry's desire for "good"
+   cryptography. As a result, the government has set the stage
+   to extend cryptography into the broader international field
+   of electronic commerce. Privacy is still an issue and must
+   be included in the resultant key escrow solution.
+
+   Since the very onset ofthe debate TECSEC has espoused
+   private key escrow as the only method that individuals,
+   industry and the international community would accept for
+   cryptography. A split key method has been developed that
+   could satisfy many of the issues. The technology is called
+   Constructive Key Management ("CKM"), the resultant product
+   using CKM is called VEIL. VEIL is a software key management
+   design that utilizes multiple key splits with labels as
+   cryptographic triggers. It offers complete administrative
+   control of the key, and it includes an inherent method to
+   construct the key used for encrypting a file or database
+   that results in a fixed header and audit information. By
+   defining the roles of the escrow agent as a mix between
+   government and private as necessarv VEIL can be applied to
+   solve the private key escrow question
+
+
+   The Internet: A Paradox for Information Flow and
+   Information Control
+
+   At the heart of the escrow debate lies the philosophical
+   goal of competition. Economic competition on an
+   international electronic information highway such as the
+   Internet can only be fostered with a judicious balance
+   among the free flow of information, the respect for the
+   privacy of selected information, and the legitimate
+   requirements of law enforcement and national security
+   concerns.
+
+   The information highway of the Internet is already handling
+   large amounts of critical data where privacy is becoming a
+   more visible issue. Access to presidents, universities,
+   electronic commerce, government databases -- all of these
+   activities are available on today's Internet. While
+   government, industry and individuals want equal access to
+   the Intemet, they do not necessarily want equal access to
+   all the data that is flowing over the Internet ...
+   especially if it is their own!
+
+   Industry has always had a concern for keeping valuable
+   information of all types (corporate, healthcare, personnel)
+   safe from increasingly sophisticated curious hackers and
+   those with more malevolent objectives. Data security and
+   privacy are big businesses for both U. S. industries and
+   our foreign competitors. The U. S. security industry, like
+   industry in general, must have an environment where it can
+   compete overseas. Some foreign obstacles to this
+   competition are bad enough, but must we have additional
+   obstacles in the name of restrictive key escrow policies?
+   The compromise lies in defining a privately managed key
+   escrow scheme in which the governrnent can participate and
+   share in its administration and control, but only when
+   absolutely necessary.
+
+   Key escrow and encryption offer a methodology to achieving
+   privacy on the Internet by capitalizing on trends in
+   information processing and protection. Traditionally,
+   communications security technology has been concerned with
+   the protection of the mechanics of information processing
+   and not with protecting the information itself. Thus the
+   emphasis has been concerned with protecting the channels of
+   communications. If the security paradigm is moved to file
+   management and protection, a new methodology to protect
+   information emerges that can shift the protection of
+   information to the user of that information and away from
+   the manager of the means of communicating that information.
+   Since the nature of file management and the encryption
+   process necessitates the retention of keys to recover prior
+   encrypted files, the user of the information would be
+   responsible for protecting that information: hence, private
+   escrow key management.
+
+
+   The Private Key Escrow Process
+
+   There are different approaches to private key escrow that
+   need to be addressed. Of importance is that the individual
+   or the company must have confidence that they are in
+   control of the release of their information. Proprietary
+   data can determine a company' s competitiveness. It should
+   not simply be available to third parties. Key escrow agent
+   responsibility may be administered through the company or
+   through a third party. Liability issues and confidence will
+   dictate the extent to which third party agents are used.
+
+   One method to private key escrow is where the company
+   maintains the keys in a split form and the government has
+   access through the judicial process. The key escrow agent
+   is the company. (In some current banking implementations
+   the keys are split between two senior bank officials to
+   ensure that no one person has total access. The keys are
+   reassembled when needed.) The government's access to the
+   keys and the protected information is through regulation
+   and legislation that are enforced through the judicial
+   process. No one would need to turn over their keys to
+   encrypted files without a showing of probable cause as is
+   now done to obtain subpoenas. Failure to comply with a
+   subpoena could result in fines or other penalties. How long
+   key splits are maintained may be limited to a period of how
+   long the file is retained. It should be pointed out that
+   this form of key escrow does not offer the government any
+   technical means to access encrypted information without the
+   company's participation.
+
+   A second method of private key escrow could include an
+   additional key split for the government's use. The scenario
+   becomes key splits for the company and a key split for the
+   government. To reconstruct the key used for encrypting the
+   information mathematically could remain rigorous but now
+   the government would retain one of the splits. The
+   government key split could be fixed, whereas, the company's
+   key splits could be dynamic. Of course other variations are
+   possible on the mix of key splits. An additional key split
+   could be reserved for a foreign government's use and only
+   known to them. In the latter scenario key splits would be
+   administered by the U. S. government, a local government
+   authority, and the company. Administering the process can
+   be streamlined though a hierarchical key management scheme.
+   The government would still have to exercise its authority
+   through the judicial process.
+
+   The costs of key escrow could be assumed by the company if
+   the company is responsible for the key splits. The more the
+   government wants to administer the key escrow process, the
+   more the company would want to shift the costs of the
+   process to the government
+
+
+   What if the Private Key Escrow Process Is Not Used?
+
+   If the governrnent elects to accept another method to key
+   escrow other than a private form, there will be no domestic
+   U.S. solution to cryptography. The individual or industry
+   must believe they have control over their information and
+   have trust in the encryption process. If that trust does
+   not exist, industry will be reluctant to get involved.
+
+   A consequence of such policy will be that the import of
+   cryptographic products will increase for non-escrow
+   techniques since the government currently does not regulate
+   imports. It might be possible for the government to
+   administer import control under the current Department of
+   State regulations for cryptography.
+
+   Other actions that could happen include:
+
+   --   Jobs in the cryptographic field are lost to off shore
+        industries.
+
+   --   U.S. Ieadership in cryptography will be lost.
+
+   --   U.S. industries would be vulnerable to outside
+        intelligence activities through foreign product trap
+        doors.
+
+   --   U.S. international businesses will be forced to use
+        non-U. S. technology.
+
+
+   Private Escrow Key Management: A Method
+
+   Constructive Key Management (CKM) offers a technology that
+   capitalizes on combining key splits, a label process based
+   on cryptographic triggers which associates the key splits
+   to the inforrnation processes, and a three step process for
+   creating and distributing the key splits. A Label Maker
+   begins the process for creating the labels and their
+   respective key splits, a Key Disk Maker identifies the
+   labels, key splits, access authority to the individual
+   including read/write authority and stores that resultant
+   data on a token (a floppy disk), and a Workstation Setup is
+   offered that can limit what algorithms are present at a
+   workstation (algorithrns and labels can be used to separate
+   data within a three dimensional organizational array). In
+   the case of VEIL, the user is given a floppy disk to
+   encrypt and decrypt files that an administrator authorizes
+   based on organizational structure and procedures. The key
+   management process can be viewed as a house key management
+   process -- the physical key is made with notches that only
+   work with your home's lock, can be keyed to open only one
+   lock or many, shared with only those who you would want
+   access to your home, and can be readily replaced at the
+   locksmith. This variation on the older technology of crypto
+   ignition key management where key splits were the
+   predominant feature, facilitates the key handling process
+   and makes the user part of that process. VEIL is an
+   implementation of the CKM technology that includes
+   application program interface capabilities, multiple
+   algorithm management, and token management. Version 2.0
+   uses a floppy disk for a token. The algorithm(s) are bound
+   to the key escrow prograrn. An export version with single
+   DES (Data Encryption Standard) has been approved for
+   Canada, England, and Australia (governments).
+
+
+   Private Escrow Key Management: Conclusion
+
+   Constructive Key Management is one encryption methodology
+   of probably several that can meet the intent of key escrow.
+   Defining the role of specific key splits can expand or
+   minimize government's involvement. The technology is
+   flexible. A demonstrable product, VEIL, is available.
+
+   With the advent of increased usage on the Internet with
+   cryptographic products, the government will need to wrestle
+   with the more difficult situation of controlling free
+   access to encryption products. In short, how does the
+   government extend its current munitions control over
+   encryption products to the Internet? Already, encryption
+   products well beyond those currently sanctioned through
+   export regulation are available, from the U.S., over the
+   Internet. The desired balance is the realization of
+   encryption as a possible weapon and encryption as a vehicle
+   for fostering economic competitiveness
+
+   The debate concludes with the question, Who is going to
+   decide how the privacy of information is protected? The
+   resultant answer has far reaching impact on the economic
+   competitiveness of U.S. commerce.
+
+   [End]
+
+
+
+
+
+
+</pre>
+
+BÿBack to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 8, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

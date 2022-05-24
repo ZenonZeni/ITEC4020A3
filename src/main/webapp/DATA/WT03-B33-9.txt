@@ -1,0 +1,653 @@
+
+<DOC>
+<DOCNO>WT03-B33-9</DOCNO>
+<DOCOLDNO>IA059-000323-B025-255</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/ec52.html 205.156.212.5 19970114222934 text/html 30513
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 22:27:44 GMT
+Last-modified: Thursday, 24-Oct-96 22:46:56 GMT
+Content-length: 30326
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/ec52.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+OBJECT-ORIENTED STRATEGIES via NewsNet <BR>
+October 1991<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><LI>A NEW NEWSLETTER</A>&nbsp&nbsp&nbsp<NOBR>(348 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><LI>THE OBJECT-ORIENTED MARKET IN THE FALL OF 1991</A>&nbsp&nbsp&nbsp<NOBR>(2210 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#3"><LI>OBJECT-ORIENTED PRODUCTS BEING SOLD IN THE US</A>&nbsp&nbsp&nbsp<NOBR>(86 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*** TRENDS AND NEWS BRIEFS ***</H3>
+<UL>
+<A HREF = "#4"><LI>OMG Settles on ORB</A>&nbsp&nbsp&nbsp<NOBR>(645 words)</NOBR></LI>
+<A HREF = "#5"><LI>Borland C++ & Application Frameworks</A>&nbsp&nbsp&nbsp<NOBR>(451 words)</NOBR></LI>
+<A HREF = "#6"><LI>IBM Continues Push Into OO Domain</A>&nbsp&nbsp&nbsp<NOBR>(326 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*** CALENDAR ***</H3>
+<UL>
+<A HREF = "#7"><LI>     The following conferences should be of interest to those</A>&nbsp&nbsp&nbsp<NOBR>(18 words)</NOBR></LI>
+<A HREF = "#8"><LI>1991 North America</A>&nbsp&nbsp&nbsp<NOBR>(181 words)</NOBR></LI>
+<A HREF = "#9"><LI>1991 International</A>&nbsp&nbsp&nbsp<NOBR>(27 words)</NOBR></LI>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+OBJECT-ORIENTED STRATEGIES via NewsNet
+October 1991
+
+A NEW NEWSLETTER
+
+     We had originally intended this to be the September issue of
+Intelligent Software Strategies, a newsletter that we have been
+publishing for the last six years (originally as Expert Systems
+Strategies).  But the rapidly growing amount of information on
+object-oriented products and applications led us to conclude that
+we could better serve our subscribers by starting a second
+newsletter.
+     Before deciding to launch a newsletter on object-oriented
+technology, we surveyed the market to see if other newsletters
+were already covering the same subjects that we will cover.  We
+didn't find any.  Object-Oriented Strategies will begin with a
+survey of the entire market.  Having grouped products into
+competitive niches, we will provide information about the key
+concerns facing managers trying to decide when and how to use
+products from each niche.  As major contenders emerge within a
+niche, we will provide reviews that compare and contrast the key
+products.  (Our hard-hitting reviews will be designed to help
+managers make tough decisions.  We don't accept advertising.)  We
+will report on how companies are actually using object-oriented
+technology and what kinds of problems they are encountering.  In
+addition, every few months, we will step back and provide an
+overview of the whole market so that readers can keep the big
+picture in mind.  Our newsletter is designed for managers and
+developers who are charged with buying and using object-oriented
+technologies in corporate environments.
+     Our focus is not on research trends or noncommercial
+products and applications.  We will not include information about
+management changes or announcements of new versions; readers can
+get these in the weekly computer newspapers.  We will notify
+readers of announcements that illustrate significant trends and
+deserve to be placed in some broader context.  Occasionally we
+will have articles by specialists in niche markets, but the great
+majority of the newsletter will be written by Paul Harmon and
+Curt Hall.  This will assure a comprehensive, consistent
+perspective on this rapidly developing technology.  We are
+convinced that no other newsletter can offer the market
+expertise, managerial perspective, and comprehensive coverage we
+intend to provide.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+OBJECT-ORIENTED STRATEGIES via NewsNet
+October 1991
+
+THE OBJECT-ORIENTED MARKET IN THE FALL OF 1991
+
+     The move toward object-oriented (OO) technology marks a very
+fundamental change in the development, maintenance, and use of
+computer software.  Interest in object-oriented programming (OOP)
+is very intense at the moment, but the market for products is
+just beginning.  Most companies are just starting to experiment
+with OO technologies.  The market for products should grow
+substantially over the next three years.
+     A wide variety of object-oriented products are being
+introduced very quickly.  The current crop of object-oriented
+products ranges from languages and software development tools to
+operating systems, networks, and databases.  The market for these
+products is new and most people have difficulty discriminating
+between the uses and features of the different products.  To make
+things even more confusing, the generic term "object" has been
+used in computing in a variety of different ways.  And, of
+course, some people are trying to cash in on the current interest
+in OO technology by claiming that their projects have OO
+capabilities when they don't.
+     Figure 1 provides an easy way to conceptualize the overall
+market and current and future trends (see printed version of this
+issue, available from Cutter Information Corp.; (800) 888-8939 or
+(617) 648-8700).  In effect, all computing will shift in the
+course of the 1990s.  By the end of this decade, three new types
+of products will replace a wide variety of current products.
+     Object-Oriented Operating Systems will replace the existing
+crop of operating systems.  A true OO operating system will
+combine the ease of an object-oriented environment with OO-based
+development tools and an OO-based client-server architecture.
+This will ensure that all systems running the operating system
+can transparently communicate with other operating systems on
+local area networks.
+     The Mac operating system, Windows 3.0, and New Wave are
+steps in the direction of a true object-oriented operating
+system, but they are only first approximations.  Until there is a
+real OO operating system, there will be lots of products
+competing to enhance existing operating systems.  Once true OO
+operating systems appear and begin to gain market share, they
+will eliminate the need for most of the current operating system
+interface development and enhancement products.
+     Object-Oriented Application Development Tools will replace
+the existing group of OO languages (OOLs) and OO environments,
+CASE tools, and expert systems tools.  In effect, these products
+will either merge or eliminate each other in competition, until
+powerful application development environments emerge and come to
+dominate corporate software development.  The wide variety of
+CASE and application development tools will soon narrow to a few
+tools that will incorporate all of the basic paradigms.
+     Object-Oriented Databases (OODBs) will replace relational
+databases by the end of the decade.  Meanwhile, OODBs will
+develop as the preferred databases for more specialized
+applications like CAD/CAM.  The large-scale success of OODBs will
+depend on the prior acceptance of OO-based client-server
+networks and the continued technological push of more complex
+applications (e.g., multimedia).  The success of OODBs will mean
+that databases, individually or collectively, will become a model
+of the company and that class libraries used in both the
+operating system and the application development tools will be
+kept in OODBs.
+     Most of the current object-oriented products should be
+thought of as approximations or steps toward one of these three
+products.  It follows that there will be increased competition or
+mergers between products that are tending toward the same
+ultimate end.  Thus, CASE tools, expert systems tools, and OO
+languages and tools will necessarily find themselves
+incorporating features currently possessed by the other types of
+products as they fight for the same customers.
+
+Object-Oriented Products
+
+     Figure 2 is an overview of the object-oriented market in the
+US (see printed version of this issue, available from Cutter
+Information Corp.; (800) 888-8939, (617) 648-8700).  We have
+divided the market into niches by clustering products with
+similar functionality.  Initially we wanted to include a
+comprehensive list of the OO products being sold in each niche,
+but it proved too large for a single page.  Instead, we list some
+of the better known products to illustrate the constituents of
+each group.  The rows suggest some of the very different uses to
+which object-oriented techniques are being applied.  We have
+further divided the products by suggesting where they lie on a
+continuum that runs from languages through environments to tools
+or shells and finally to finished applications.  (This continuum
+gets a little fuzzy in some cases, but the general idea is that
+products to the right are built using products to the left.
+Likewise, products on the left require more programming skills
+while products closer to the right side are more likely to be
+used by end users.)
+     Products in bold type in Figure 2 are those that we will
+consider in more detail later in the newsletter (Tables 1-4 in
+the printed version of this issue, available from Cutter
+Information Corp.; (800) 888-8939 or (617) 648-8700).  We will
+consider other products in detail in future issues on OO
+operating systems, OODBs, and interface builders.  Before
+considering specifics, however, let's consider each of the
+general niches suggested by Figure 2.
+
+OO Programming Languages
+
+     There are a number of different OOLs.  New OOLs are being
+developed, and in many cases there are several compilers
+available for a single OOL.  From a commercial perspective, there
+is only one OOL of any importance: C++.  We expect that the
+commercial interest in Smalltalk and other more flexible OOLs
+will fade as developers realize that they want to work in tools
+rather than languages.  We observed this same phenomenon in the
+AI world.  Initially theorists argued about Prolog and Lisp and
+assured everyone else that they would need to use a symbolic
+language to really do the kinds of things they would want to do.
+In five years everyone realized that they could do everything
+they wanted in powerful tool environments while developing
+programs much faster than they ever could in a language.  C++
+would be uncommercial if it weren't positioned as the next
+generation of C.  As it is, many companies are experimenting with
+an OOL to learn what the technology is all about.  By 1993, the
+emphasis will be entirely on tools and the number of language
+vendors will have decreased considerably.
+
+OO Programming Environments
+
+     As you move across the continuum, the first place to the
+right of a language is the programming environment, with a class
+library and some editing and display utilities.  Since OOLs tend
+to include most of these things in the basic language, it's very
+easy for language vendors to expand their libraries and create an
+environment.  This is exactly what ParcPlace did when it moved
+from Smalltalk80 to ObjectWorks.
+
+OO Application Development Tools
+
+     One more step to the right and you arrive at a tool or
+shell.  A tool should provide an application development
+environment that is similar to a CASE tool.  A tool ought to have
+everything an environment has plus a lot more.  A tool certainly
+ought to have a graphical interface and interface development
+utilities.  In addition, tools usually incorporate code
+generation capabilities.  A great example of an OO tool is
+Prograph.  Prograph structures the application development
+process so well that it places Macintosh OO application
+development within the range of nonprogrammers.  You don't write
+code in Prograph, you create diagrams and the tool generates the
+code.
+
+Class Libraries
+
+     Some companies are offering class libraries by themselves.
+We don't expect this to last very long.  Tool vendors will
+incorporate libraries and developers will find it much easier to
+examine and use libraries within an application or interface
+development tool.
+
+OO Design Tools
+
+     Object International is offering tools that document OO
+analysis and design efforts, using the Coad-Yourdon notational
+system.  This type of product might sell for a while, but it will
+surely disappear as soon as OO development tools or CASE tools
+offer graphical analysis and design interfaces that are directly
+tied to code generation capabilities.
+
+Conventional CASE Tools
+
+     There are a number of conventional CASE vendors that claim
+they are adding OO capabilities to their products.  The claims
+are rather weak just now, but over the course of the next three
+or four years we expect that at least some of the major CASE
+vendors will incorporate powerful, graphical OO programming
+environments within their products.  The problem they face is
+modifying the structured, procedural methodologies that most
+conventional CASE users expect to use.  The OO application
+development tool vendors are free to start from scratch and
+develop their products around an OO methodology.  The
+conventional CASE vendors will try to combine a conventional
+methodology with an OO methodology.  The advantage of the OO
+vendors' approach will be elegance and clarity, while the
+conventional CASE vendors' approach will be popular with the
+large number of programmers that use structured methodologies.
+We expect that many CASE vendors will try to resolve their
+dilemma by buying OO development tools and offering their
+customers two different approaches.
+
+OO Operating Systems
+
+     Within three years we will see true OO operating systems.
+In the meantime, we see operating systems that provide only
+limited OO capabilities.  The Mac operating system has offered a
+number of OO capabilities for a long time and many people
+associate windows and graphics with OOP.  Suffice it to say that
+if there were any real OO operating systems in common use, there
+wouldn't be a market for the OO interface development tools that
+are springing up all over the place.
+
+OO Operating System Interface Development Tools
+
+     Interface development tools are built around class libraries
+that make it easy to develop an interface for one or more
+operating systems.  The tool makes it easy to assemble the
+interface, and in most cases, makes it easy to attach code to the
+interface that is developed.  Borland's ObjectVision is a nice
+example of a graphical, 4GL interface developer that allows the
+developer to create an interface form and then relate data from
+Borland spreedsheets or databases to appropriate slots on the
+form.  As long as operating systems like Windows 3.0 are popular,
+developers will need tools to help them develop user interfaces.
+As OO operating systems become available, the functionality
+provided by the interface development tools will be incorporated
+into the operating system itself.
+
+Hypermedia Languages and Hypermedia Environments
+     Hypermedia languages and environments facilitate limited,
+user-friendly object-oriented programming.  We assume that true
+OO operating systems will incorporate most of the features people
+like about HyperCard and ToolBook, and that most of this
+functionality will simply become part of a good operating system.
+Meanwhile, however, hypermedia constitute the main interface
+between OO technology and lots of end users.
+
+OO Databases
+     Some of the OODBs are really databases, but most of the
+products in this category are OODB management systems that rely
+on more conventional databases to actually store data.  There
+will be a fight between the relational database vendors and the
+true OODB vendors to see which will prevail.  We assume that, in
+the long run, the true OODB vendors will prevail and corporate
+databases will gradually become dynamic simulations of the
+corporations that create them.
+
+Expert Systems Tools
+     The best expert systems tools include powerful OO
+programming environments.  Moreover, the better expert systems
+tools are already adapted to conventional IS environments (CICS
+and IMS, VMS, Unix, PCs, various relational databases, etc.).  As
+companies become serious about developing and fielding major
+object-oriented systems, the expert systems vendors will find
+themselves competing with the major OO development environments.
+
+CAD/CAM Tools
+     There are a number of problem- or domain-specific
+application development tools that depend on OO techniques.  The
+current crop of CAD/CAM tools is a good example.  Developers
+using CAD/CAM tools may not think of themselves as OO
+programmers, but they are currently developing applications using
+some of the most sophisticated OO tools on the market.
+
+Other Niches
+     We didn't consider applications in this article, although
+there are fielded applications in most of the categories we have
+discussed.  (We'll feature outstanding commercial applications of
+OO technology in the May issue of OOS.)
+     Another use of OO technology that we left out of Figure 2
+involves the use of OO technology in OO-based client-server
+systems.  We expect that all client-server systems will
+eventually be based on an OO architecture and that future OO
+operating systems will incorporate the ability to manage sending
+and receiving messages from any other client or server on the
+network.
+     Given this brief overview of the wide variety of different
+products that all incorporate OO techniques, it's not surprising
+that companies and programmers new to the field often become
+confused about what OO is or what it's good for.  In the months
+ahead we'll explore each of these niches in more detail.  We'll
+consider the key technical concepts and the resistance each group
+of products will face as it vies for commercial acceptance.  We
+will also review the strengths and weaknesses of both the leading
+products in each niche and the companies that are promoting them.
+(In February 1992 we will begin our annual estimates of the
+market size and project the annual growth of each of these market
+niches.)
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+OBJECT-ORIENTED STRATEGIES via NewsNet
+October 1991
+
+OBJECT-ORIENTED PRODUCTS BEING SOLD IN THE US
+
+     In the course of each year, we will try to review all the OO
+products on the market and provide information so that readers
+can keep up with the variety and features of the products in each
+niche.  In this issue, we include tables on four groups of
+products (see printed version of this issue, available from
+Cutter Information Corp.; (800) 888-8939, (617) 648-8700): (1) OO
+Application Development Environments and Tools, (2) OO Interface
+Development Tools, (3) OO Design Tools, and (4) OO Databases.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+OBJECT-ORIENTED STRATEGIES via NewsNet
+October 1991
+
+OMG Settles on ORB
+
+     The Object Management Group (OMG), formed in 1989, is the
+leading object-oriented (OO) standards group in the world.
+Virtually every major software and hardware company involved in
+OO technology is working under the OMG umbrella to establish
+standards to facilitate the growth of OO technology.  OMG's
+first goal is a standard format for passing messages on a
+network, called the Object Request Broker (ORB).
+     OMG requires that its standards be on existing,
+commercial-grade technology.  The company proposing an approach
+agrees to license its technology for relatively little money and
+OMG members agree that they will support whatever technology is
+chosen.
+     OMG put out a request for ORB technology in the fall of
+1990.  Initially, the group accepted 10 proposals.  By June 1991,
+at Object World (OMG's annual convention), the ORB proposals were
+down to 2: (1) The HP/Sun proposal (also supported by NCR and
+ODI) and (2) The HyperDesk/DEC proposal.  Each proposal embodies
+a technically different approach to message passing.
+     The HP/Sun/NCR/ODI proposal.  This proposal embodies a
+static approach to message passing, based on a new language
+called class definition language (CDL).  CDL structures the
+classes and relationships to be used in an application
+integration scheme.  It also involves an application programming
+interface (API) for accessing the functionality of those
+structures at run time, and a distributed object management
+facility (DOMF).  Together, the CDL language and the DOMF API
+provide a static language-based solution to building distributed
+applications.  In theory, a static approach should result in
+faster message passing since most of the work can be precompiled.
+It should also facilitate compile-time type checking, and the
+unique language definition should lead to greater portability
+than one written in an existing language.
+     The HyperDesk/DEC proposal.  This proposal embodies a
+dynamic approach to message passing.  It assumes an application
+interface (syntax) that can be called from C, C++, or other
+languages.  The argument for a dynamic approach, of course, is
+that one often can't anticipate the priority of the interfaces
+that might be used at runtime.  In return for building parameter
+argument lists and marshaling arguments at run time, the dynamic
+API approach allows decisions to be made as late as possible.
+This is especially important for applications like browsers and
+resource managers.  In addition, this approach doesn't require
+learning another language; the developer writes the calls in a
+language he or she already knows, like C or C++.
+     Faced with a choice between a static definition language
+(CDL) or dynamic calling from within an existing language, the
+ORB committee decided it wanted both and asked the two groups to
+combine the two approaches.
+     The decision to accept a common standard for message passing
+represents a major triumph for OMG and the OO industry as a
+whole.  It also suggests that the way to set standards is to get
+in early and choose a very basic technology.  Even if all OMG
+members support the ORB, they will still be able to implement it
+in a number of different ways.  (An application can handle
+messages any way it wants internally, it only needs a mechanism
+to convert outgoing and incoming messages from the accepted ORB
+format.)
+     OMG's next task is to define a model for an object and
+specify its use in data management.  Since this will come a lot
+closer to implementation, OMG may find consensus on a model much
+harder to come by.  Still, it is off to a good start and wide-
+spread acceptance of even its initial effort should speed the
+acceptance of OO techniques and open systems.  (We'll consider
+the ORB in greater detail in a future issue when we consider OO
+operating systems and networks.)
+     For more information, contact: Richard Soley, Technical
+Director, The Object Management Group, 492 Old Connecticut Path,
+Framingham, MA 01701, USA; (508) 820-4300, Fax: (508) 820-4303.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+OBJECT-ORIENTED STRATEGIES via NewsNet
+October 1991
+
+Borland C++ & Application Frameworks
+
+     Application frameworks are intended to simplify application
+development by providing an object-oriented (OO) foundation on
+which to build software.  In effect, they enhance programmer
+productivity by providing a prebuilt application that can be
+customized, instead of forcing developers to write programs from
+scratch.
+     Borland, which has been particularly successful in offering
+languages and environments for OOP development, has announced
+that it is now bundling its popular C++ programming language with
+two new application framework facilities for developing programs
+for MS Windows and DOS operating systems.  According to Gene
+Wang, VP and GM of Borland's Language Business Unit, Borland has
+shipped more than 400,000 copies of C++.
+     The new product -- Borland C++ & Application Frameworks --
+includes two new application frameworks: ObjectWindows and Turbo
+Vision.
+     ObjectWindows provides a generic, functioning Windows
+application that can be used as a template to save programmers
+time and code.  It lets programmers add windows, menus, dialogs,
+buttons, list boxes, edit fields, icons, etc. to their
+applications.  Full source code for ObjectWindows is included as
+well.
+     Turbo Vision provides basically the same functionality in
+the DOS environment that ObjectWindows provides for the Windows
+environment, enabling programmers to produce DOS applications
+with character-based Windows user interfaces.  Full source code
+for Turbo Vision is also included.
+     Borland C++ & Application Frameworks includes Borland C++
+2.0, which has a 100% ANSI C compiler, a C++ compiler, and
+provides complete support for developing Windows applications,
+including Dynamic Link Libraries and EXEs.  The Whitewater
+resource toolkit is also included, which allows programmers to
+write Windows applications without using the MS Windows' Software
+Development Kit.
+     Borland C++ & Application Frameworks runs on IBM PCs and
+100% compatibles and sells for $695.  Current Borland C++ users
+can upgrade to Borland C++ & Application Frameworks for $199.95;
+ObjectWindows or Turbo Vision for $99.95.
+     In other developments, Borland is selling "The World of
+Objects," a videotape aimed at expanding the use of OOP
+technology, narrated by Philippe Kahn, Borland's chairman,
+president, and CEO.  The video features such leading computer
+scientists as Alan Kay (Apple), Marvin Minsky (MIT), Bjarne
+Stroustrup (designer of C++, AT&T Bell Labs), Joseph Weizenbaum
+(professor of Computer Science, MIT), and Niklaus Wirth (designer
+of Pascal and professor of Computer Science, ETH Zurich).
+     In "The World of Objects," Mr.  Kahn uses real-world
+metaphors to explain OOP and how this revolution in software
+technology benefits both software developers and end users.  The
+21-minute videotape (VHS) is intended for software developers and
+technical programmers who want to learn more about OOP
+technology.  It retails for $19.99.
+     For more information, contact: Borland International, 1800
+Green Hills Rd., P.O. Box 660001, Scotts Valley, CA 95067-0001,
+USA; (800) 331-0877 or (408) 439-4825.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "6"></A>Copyright
+OBJECT-ORIENTED STRATEGIES via NewsNet
+October 1991
+
+IBM Continues Push Into OO Domain
+
+     About four months ago, IBM announced that its CASE
+repository, AD/Cycle, would be based on an object-oriented (OO)
+foundation.  Two months ago, IBM stunned the computing world by
+announcing a joint venture with Apple to develop a new OO
+operating system (based on a system underway at Apple, code-named
+"Pink").  IBM has also integrated former Metaphor personnel into
+the operating system effort.  Now, in a series of announcements
+made in September, IBM has not only reinforced its commitment to
+open systems, but stated that it will expand its concept of
+Netview into a multivendor, enterprise-wide network management
+system.  (The new version of Netview will be Version 2, Release
+3.  No shipment date has been set.)  At the same time, the
+company announced that its Network product will combine two
+graphical standards, GMF (Graphics Monitor Facility) and
+Netcenter.  To facilitate this, the new version will incorporate
+a "Resource Object Data Manager," a kind of OO clearinghouse that
+will provide real-time information about the status and
+configuration of both IBM and non-IBM networks.
+     IBM claims that the OO component of the Netview system will
+make it easier for developers to create network management
+applications and will guarantee that users of applications based
+on the Resource Object Data Manager will be able to manage
+worldwide networks in real-time.
+     Surveys of IS managers at Fortune 500 companies indicate
+that most have heard about OOP, but consider it a technology for
+the future and not one of today's high priorities.  As IBM keeps
+announcing products that depend on OO techniques, and that will
+underlie most of the systems that Fortune 500 IS managers will be
+depending upon in the years ahead, corporate consciousness
+regarding OOP and the urge to find out more about the technology
+will grow rapidly.  In fact, given IBM's moves, we expect that
+1992 will find OOP at the top of most IS managers' lists of
+things to find out about.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "7"></A>Copyright
+OBJECT-ORIENTED STRATEGIES via NewsNet
+October 1991
+
+     The following conferences should be of interest to those
+
+     The following conferences should be of interest to those
+involved in the commercial application of object-oriented
+technologies.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "8"></A>Copyright
+OBJECT-ORIENTED STRATEGIES via NewsNet
+October 1991
+
+1991 North America
+
+     October 6-11.  OOPSLA '91 (Conference on OOP, Systems,
+Languages, and Applications).  Phoenix, Arizona.  Sponsor: ACM.
+Contact: John Richards, OOPSLA'91 Conference Chair, IBM Research
+Center, P.O. Box 704, Yorktown Heights, NY 10598, USA; (914)
+784-7616, Fax: (914) 784-7279.
+     October 17-18.  International Workshop on Object-Orientation
+in Operating Systems.  Palo Alto, California.  Sponsor: IEEE
+Computer Society Technical Committee on OS.  Contact: Vincent
+Russo, Computer Science Dept., Purdue University, West Lafayette,
+IN 47907, USA; (317) 494-6008, Fax: (217) 494-0737.
+     October 28-31.  The Object-Oriented Approach in Information
+Systems.  Quebec City, Canada.  Sponsored by IFIP (Working Group
+8.1).  Contact: Frans Van Assche, Conference IFIP-Quebec'91,
+James Martin Associates, Genevestraat 10 B4, Brussels, Belgium;
+Fax: (32) 2-242 1592.
+     November 18-21.  C++ At Work.  Santa Clara, California.
+Sponsored by The C++ Report and the Wang Institute of Boston
+University.  Will cover a broad area of the uses of C++, from
+introduction to C++ to managing C++ projects.  Contact: C++ At
+Work, 588 Broadway, Ste. 604, New York, NY 10012, USA; (212)
+274-0640, Fax: (212) 274-0646.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "9"></A>Copyright
+OBJECT-ORIENTED STRATEGIES via NewsNet
+October 1991
+
+1991 International
+
+     October 28-31.  SCOOP Europe.  London, UK. Contact: Boston
+University Corporate Education Center, 72 Tyng Road, Tyngsboro,
+MA 01879, USA; (508) 649-9731, Fax: (508) 649-6926.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

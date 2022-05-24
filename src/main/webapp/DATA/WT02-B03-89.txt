@@ -1,0 +1,114 @@
+
+<DOC>
+<DOCNO>WT02-B03-89</DOCNO>
+<DOCOLDNO>IA014-000152-B034-102</DOCOLDNO>
+<DOCHDR>
+http://rafos.gso.uri.edu:80/nac_clim.html 198.116.10.111 19970217131530 text/html 2569
+HTTP/1.0 200 Document follows
+Date: Mon, 17 Feb 1997 13:15:01 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> North Atlantic Climatology Interface</TITLE>
+<LINK REV="made" href="edk@rafos.gso.uri.edu">
+</HEAD>
+
+<BODY 
+	BGCOLOR="#FFFFEF"
+	TEXT="#000000"
+	LINK="#0000FF"
+	VLINK="#009999"
+	ALINK="#FF0000"
+>
+
+<CENTER>
+<HR> <H1> North Atlantic Climatology Interface</H1> <HR>
+</CENTER>
+
+<p>
+This climatology is presented as a service to researchers who are working in
+the Newfoundland Basin and the North Atlantic Ocean. Please <A
+HREF="mailto:edk@rafos.gso.uri.edu">notify Ed Kearns</a> if you intend to use
+the products from this page; in this way any important information concerning
+this climatology may be passed on to you in a timely fashion.
+
+<p>
+Upon selecting the appropriate variables below, you will be presented with an
+in-line GIF89a image of your selection as well as links to the ASCII and
+netCDF format data.
+
+<FORM METHOD="POST" ACTION="/cgi-bin/nac_menu.sh">
+Select Variable Type: 
+<SELECT NAME="var">
+<OPTION> Depth
+<OPTION> Temperature
+<OPTION> Salinity
+<OPTION> Potential_Vorticity
+<OPTION> Sigma_Theta
+<OPTION> Montgomery_Potential
+<OPTION> Number_Obs
+<OPTION> Number_Years
+</SELECT> 
+<BR>
+Select Time Period:
+<SELECT NAME="time">
+<OPTION> All
+<OPTION> Spring
+<OPTION> Summer
+<OPTION> Fall
+<OPTION> Winter
+<OPTION> 1950-1959
+<OPTION> 1960-1969
+<OPTION> 1970-1979
+<OPTION> 1980-1988
+<OPTION> 1955-1959
+<OPTION> 1970-1974
+</SELECT>
+<BR>
+Select Specific Volume Anomaly Surface Value (referenced to 4.9 C 34.6 PSU):
+<SELECT NAME="sva">
+<OPTION> 34.3 (approx 27.0 sigma-theta)
+<OPTION> 24.8 (approx 27.1 sigma-theta)
+<OPTION> 15.3 (approx 27.2 sigma-theta)
+<OPTION> 5.8 (approx 27.3 sigma-theta)
+<OPTION> -3.5 (approx 27.4 sigma-theta)
+<OPTION> -12.7 (approx 27.5 sigma-theta)
+<OPTION> -21.9 (approx 27.6 sigma-theta)
+<OPTION> -31.4 (approx 27.7 sigma-theta)
+<OPTION> -43.7 (approx 27.8 sigma-theta)
+</SELECT>
+<BR>
+Select Type of Gridded Field:
+<SELECT NAME="field">
+<OPTION> Median
+<OPTION> Standard_deviation
+</SELECT>
+<BR>
+
+<H4> When you are ready, click to submit or reset: </H4>
+<CENTER>
+<INPUT TYPE="submit" VALUE="Submit Order">
+<INPUT TYPE="reset" VALUE="Reset Order">
+</CENTER>
+</FORM>
+
+<HR>
+<H3> Related links </H3>
+
+<UL>
+<LI><A HREF="/nac.html">
+	North Atlantic Current Observational Studies</A></LI>
+<LI><A HREF="http://seip.gso.uri.edu/nac/nac.html">
+	North Atlantic Current Dynamics from the modelling group</A></LI>
+</UL>
+
+<HR>
+
+<p>
+<font size=2> 
+This page was last modified on December 5, 1996.
+</font>
+</HTML> 
+</DOC>

@@ -1,0 +1,529 @@
+
+<DOC>
+<DOCNO>WT03-B25-282</DOCNO>
+<DOCOLDNO>IA029-000311-B013-188</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/pubs/wgiss96.htm 138.44.40.1 19970114161750 text/html 24922
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:16:05 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Tue, 25 Jun 1996 04:11:44 GMT
+Content-length: 24747
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>CEOS Working Group on Information Systems and Services<BR>
+<BR>
+<HR></H2>
+<H3><I>Summary report on meeting 2, Tokyo 26-31 May 1996</I></H3>
+<B><I>J Kingwell, CSIRO Office of Space Science &amp; Applications/Earth
+Observation Centre, GPO Box 3023, Canberra Australia 2601</I></B> 
+<H4><HR></H4>
+Executive summary<BR>
+<BR>
+The meeting was highly successful, completing the structural adjustments
+which followed the merger of two former working groups, and agreeing on
+a Five Year plan. This includes about 25 Projects in the areas of data management,
+network operations, standards, formats, user tools/ services, in relation
+to Earth observation and auxiliary data sets. <BR>
+<BR>
+The first two tasks in the 5 year plan are led by CSIRO: <BR>
+i) CD-ROM for educational organisations and developing countries and <BR>
+ii) Network Demonstration showing real time and archived satellite data
+and products, to be conducted at the time of the CEOS Plenary in Canberra,
+13-15 November 1996. <BR>
+<BR>
+Other Projects of topical interest include an Information Locator Service,
+aimed at increasing the ability of developing countries to log their own
+data, and access that of others; global mapping projections suitable for
+computer visualisation; metadata standards; natural disaster fast reaction;
+network architecture; and yellow pages guide to Data Centres. Further details
+are in project summaries contained in the Plan, which will be presented
+to the CEOS Plenary for formal endorsement in November.<BR>
+<BR>
+Former sub-groups of i) WG on Data and ii) interim WG on Networks were mapped
+onto a new structure, as follows:
+<UL>
+<LI>&quot;Catalogues&quot; becomes &quot;Access&quot;, concentrating on
+standards and tools which increase the ability of users to access information
+and services. The chair is Terry Fisher of CCRS, vice is Dr Luigi Fusco
+of ESA.
+<LI>&quot;Networks&quot; and WGN becomes &quot;Networks&quot;, concentrating
+on infrastructure, security and performance measure. Chair is Dick desJardins
+of NASA, vice is Professor Kohei Arai, Saga University/NASDA.
+<LI>&quot;Formats&quot; and &quot;Auxiliary Data Sets&quot; become &quot;Data&quot;,
+emphasising interuse of data by ensuring compatibility of data content,
+format and data application tools (including ingest, processing, integration
+tools). Chair is Gunther Schreier (DARA/DLR/CEC) and vice is Wyn Cudlip,
+UK Defence Research Agency. 
+</UL>
+<BR>
+A User Panel has also been established, with the interim leader Dr Gerard
+Szejwach. This panel will reinforce the WG's strong client-oriented approach.<BR>
+<BR>
+The meetings were held in conjunction with a number of events, including
+sub-group meetings; a special interest meeting on the ESCAP &quot;Earth
+Space Information Network for Asia and the Pacific&quot; and its possible
+connection with the APEC &quot;Information Infrastructure Initiative&quot;;
+a Project Team meeting, chaired by CSIRO, on the Network Demonstration;
+and a meeting on the US/Japan &quot;Global Observation Information Network&quot;,
+GOIN. <BR>
+<BR>
+Meetings were hosted by the National Space Development Agency of Japan,
+in their new Earth Observation Research Centre, Roppongi. The EORC is a
+new NASDA initiative designed to increase the usefulness and take-up rate
+of EO data from NASDA missions. Its budget is approximately $50 million.
+The Centre will host research by Japanese and foreign scientists. <BR>
+<BR>
+Further details: refer to &quot;Reports&quot; section of CSIRO Office of
+Space Science &amp; Applications/Earth Observation Centre Home Page, www.eoc.csiro.au
+- or contact Mr Jeff Kingwell, jeffk@eoc.csiro.au /GPO Box 3023, Canberra
+ACT 2601<B><BR>
+<BR>
+<BR>
+Attendance<BR>
+</B><BR>
+About 35 representatives took part at WGISS, with an additional 20 or so
+at sub-group and related meetings. Australian participants were:<BR>
+<BR>
+Jeff Kingwell, CSIRO Office of Space Science &amp; Applications/Earth Observation
+Centre<BR>
+<BR>
+Murray Wilson, CSIRO EOC<BR>
+<BR>
+Dr Peter Turner, CSIRO Division of Atmospheric Research<BR>
+<BR>
+Dr John Lilleyman, CSIRO Division of Information Technology<BR>
+<BR>
+Mr Karl Nissen, Australian Centre for Remote Sensing.<BR>
+<BR>
+Dr Lilleyman's trip was funded by NASDA, which is supporting the CSIRO-led
+Plenary Network Demonstration. Mr Nissen's visit was primarily NASDA funded,
+for attendance at the ESCAP meeting. <BR>
+<BR>
+<B>Background<BR>
+</B><BR>
+The primary international Earth Observation body, the Committee on Earth
+Observation Satellites (CEOS), is an informal organisation in which space
+agencies work towards matching planned Earth-observing space missions to
+the requirements of data users. Members include virtually all civil agencies
+managing Earth observing (ie remote sensing, including meteorological) satellites
+or carrying out major research programs in this area. International institutional
+users of Earth observation data, or organisations with extensive ground-based
+EO responsibilities, are eligible for Affiliate or Observer status, respectively.
+Typical Affiliates are the World Meteorological Organization, the UN Food
+and Agriculture Organization, the Intergovernmental Oceanographic Commission,
+and the Global Climate Observing System.<BR>
+<BR>
+CEOS began in 1984 among the G7 group of advanced economic nations. In addition
+to founding organisations from North America (NASA, NOAA), Europe (ESA),
+and Japan (STA/NASDA), CEOS now includes satellite-management agencies from
+Russia, Ukraine, China, and space research organisations from India, Brazil
+and Australia. CSIRO joined in 1989; its membership represents a commitment
+to maximise Australia's environmental, social and economic benefits from
+space technology.<BR>
+<BR>
+The CSIRO Office of Space Science &amp; Applications (COSSA) represents
+CSIRO interests in CEOS and is the only Australian member. CSIRO co-ordinates
+on CEOS matters with the Commonwealth Spatial Data Committee, the Australian
+Centre for Remote Sensing, the Space Council, and other interested agencies.
+COSSA's Head, Dr Brian Embleton, is the current chair of CEOS, and CSIRO
+will host the 10th Plenary, comprising about 100 space agency heads and
+research managers, in Canberra, 13-15 November 1996.<BR>
+<B><BR>
+CEOS Working Groups<BR>
+</B><BR>
+CEOS' Working Group on Calibration and Validation (WGCV) manages international
+efforts to verify the accuracy and reliability of satellite data. <BR>
+<BR>
+CEOS's Working Group on Information Systems and Services (WGISS) carries
+out technical tasks and standards definition, on data management; access
+tools (such as WWW user interfaces); and in network infrastructure and performance.
+WGISS was created in Moscow, November 1995, from a merger of the former
+WG Data and the WG on International Network Services. It encourages a client-oriented
+perspective on Earth observation data management and distribution. <BR>
+<B><BR>
+CSIRO interests in WGISS<BR>
+</B><BR>
+CSIRO has been an active member of WGISS and its predecessor, WGD, since
+1992. The first two of WGISS' twenty-odd projects are led by CSIRO. The
+first, the <I>&quot;CEOS Plenary Network Demonstrator</I>&quot;, will demonstrate
+high-bandwidth real-time data transmission of satellite data, from the ADEOS
+satellite due to be launched by Japan's National Space Development Agency
+on 17 August. Using a dedicated leased 300 kbps line, moving window quick
+look data from ADEOS, as received at the Hatoyama ground station, will be
+relayed to the CEOS 10th Plenary in the National Convention Centre, Canberra.
+The viewer's impression will be as if the observer was travelling on the
+spacecraft, looking down at Earth in the vicinity of Japan. This is believed
+to be the first example of intercontinental real-time image transmission
+from a remote sensing satellite. The demonstrator will also show both realtime
+and off-line data searching and retrieval, from Earth observation data centres
+in India, China, Australia, and possibly Thailand. Using the Experimental
+Broadband Network and the facilities of CRCs in Research Data Networks and
+Advanced Computational Systems, these data will be processed in real time
+in a distributed high performance computing environment.<BR>
+<BR>
+The second Australian-led technical project under WGISS is an educational
+CD-ROM, containing case studies and datasets illustrating the social benefits
+of earth observation. This package is designed to be particularly useful
+in developing countries, and in schools. It will contain information previously
+only available at high cost, or to those with substantial network capacity.<BR>
+<BR>
+CSIRO's efforts in geoscience data networks have also included contributions
+to feasibility studies by the UN Economic and Social Commission for Asia
+and the Pacific (ESCAP), towards an Earth-Space Information Network for
+Asia and the Pacific, ESINAP. In September 1994, over 20 Ministers responsible
+for space programs in the Asia-Pacific region assembled in Beijing, where
+they endorsed a new ESCAP &quot;Space Technology Applications for Sustainable
+Development Program&quot;. ESINAP is being promoted under this Program,
+notably through sponsorship by the government of Japan, which is also supporting
+contemporaneous and similar proposals bilaterally with the USA (the &quot;Global
+earth Observation Information Network, GOIN), and regionally, through APEC's
+&quot;Asia-Pacific Information Infrastructure Initiative&quot;, and internationally,
+through the G7 Environment and Natural Resources Information Network pilot
+project.<BR>
+<BR>
+To a high degree, these represent congruent proposals, under different forums.
+CSIRO believes that its own work on Earth science data networks, which are
+focused on the Asia Pacific region, can contribute significantly to the
+objectives of CEOS, ESCAP, and APEC. <BR>
+<BR>
+<B>Introductions</B><BR>
+<BR>
+Tasuku Tanaka spoke on the Earth Observation Research Centre, which he has
+led since it opened in April. The EORC and employs about 100 staff (currently
+includes several officers seconded from CNES) plus about 50 contractors.
+The EORC has appointed Program scientists for each of NASDA major missions
+- ADEOS, TRMM, and JERS. <BR>
+<BR>
+Hiroshi Kikuchi noted that NASDA have also established a series of semi-private
+organisations to facilitate international co-operation. They have employed
+Ms Cheiw from China, Mr Chaudhury (ex ESCAP), based in Bangkok, and a number
+of others, for training and liaison purposes.<BR>
+<BR>
+<B>Plenary issues</B><BR>
+<BR>
+I delivered a message on behalf of the CEOS Chair: <BR>
+<UL>
+<LI>the WGISS plan shows clearly the function of the WG, and guides its
+form accordingly. The user orientation of WGISS is timely , and has helped
+place CEOS in the driver's seat for long term co-ordination of Earth environment
+monitoring.
+<LI>For information, the following issues have been identified as high profile
+themes for the current year:
+  <UL>
+  <LI>planning and analysis task force on gaps &amp; overlaps in space missions
+  <LI>integration of space &amp; in situ measurement
+  <LI>continuing validity of differentiation of members, observers &amp;
+affiliates
+  <LI>developing country issues
+  <LI>appropriate technology
+  <LI>access &amp; training
+  <LI>agency/national actions (ILS, CD, ESINAP)
+  <LI>promotion of value of EO (Yellow Pages, InfoSys, CD, Newsletter)
+  </UL>
+<LI>On horizon, CEOS faces the following challenges:
+  <UL>
+  <LI>enhanced EO capability of photogrammetric quality stereo near real
+time imagery
+  <LI>related issue of relationship between public &amp; private sector
+data providers
+  </UL>
+</UL>
+Chair welcomes appointment of Sec's Dr Alan Belward as incoming WGCV chair.
+New process of consultation off-line chosen in order to increase proportion
+of Plenary time available for substantive issues and technical demonstrations.
+<BR>
+<BR>
+<B>Summary of IGOS meeting in Seattle</B><BR>
+<BR>
+Refer documents 8, 9. CSIRO Space Industry News, Edition 68, was also noted
+as containing a summary of the Seattle meeting. The Integrated Global Observing
+Strategy is an exciting development which in some ways was anticipated by
+work conducted by WGISS on data interuse, and on the use of single data
+systems for multiple user communities. <BR>
+<BR>
+<B>Five year plan</B><BR>
+<BR>
+The following sub-group appointments were approved:<BR>
+<BR>
+Networks. Chair: Mr Richard desJardins (desjardi@eos.nasa.gov), NASA. Vice
+chair Professor Kohei Arai, Saga University/NASDA.<BR>
+<BR>
+Access. Chair: Mr Terry Fisher, CCRS. Vice Chair Dr Luigi Fusco, ESA/ESRIN.
+<BR>
+<BR>
+Data. Chair: Mr Gunther Schreier, DARA/DLR. Vice chair Dr Wyn Cudlip, BNSC/DRA.
+<BR>
+<BR>
+The new appointments are to be effective immediately, and the past sub group
+chairs be requested to assist the new chairs in making a swift and effective
+transition to the new structure. <BR>
+<BR>
+The role of the User Sub-group (or Panel) caused the greatest difficulty.
+Among the issues were - should user input be mandatory and structured, for
+every task, including existing ones? How can the interests of users who
+are not in Affiliated organisations be recognised? And should user interests
+be a matrix activity, rather than a parallel sub-group? <BR>
+<BR>
+The Version 0.5b, plus agreed change list, plus new language on user panel,
+was accepted as Version 1 (the 1996 issue) of the WGISS 5  year  plan, with
+thanks to the writing panel recorded. <BR>
+<BR>
+The former SG chairs were thanked for their achievements and the chair was
+asked to write on behalf of WGISS to their respective agencies, noting that
+evolution of WGISS has resulted in the former groups becoming superseded,
+thanking the former chairs for the body of accomplishment, thanking the
+agencies for their support, and where appropriate, seeking a continuing
+involvement in SG actions. <BR>
+<BR>
+<B>New Tasks</B><BR>
+<BR>
+i) Natural Hazards<BR>
+<BR>
+Martha Maiden spoke about Miriam Baltuck's proposal for a new WGISS task
+in Natural Hazards. This has some elements in common with the CSIRO CD-ROM
+project, for example, the contact details guide, and with the Plenary Network
+Demonstrator, with the scenario based approach to data retrieval, analysis
+and distribution. (Reference 19). Discussion led to conclusion that the
+initiative should involve a broader group; should carefully define the output
+products, and incorporate in its initial phase a review of current related
+action. This could take the form of a Workshop, initiated by CEOS. <BR>
+<BR>
+ii) Network work area themes<BR>
+<BR>
+desJardins outlined a program of network security; network performance;
+and network architecture. <BR>
+<BR>
+What were formerly known as &quot;network tools&quot; are now called &quot;user
+tools&quot; and will be run by the Access sub-group, with related tasks
+such as the WWW. <BR>
+<BR>
+Security <BR>
+<BR>
+desJardins spoke to a NASA/NASDA white paper (Reference 5). Issues include
+<BR>
+<UL>
+<LI>user authentication
+<LI>unauthorised use
+<LI>data set protection
+<LI>data set exchange
+</UL>
+iii) CEOS Information Locater Service Demonstrator Project<BR>
+<BR>
+Thomas Ruuwe spoke to Reference 20. CILS will use the CEO ESWE software
+(public domain). Semi automatic generation of IDN DIFs. Presentation at
+Toulouse Plenary, then at WGISS4. <BR>
+<BR>
+IMS protocol to major catalogues, with CIP upgrade path. Will draw together
+with G7 ENRM metadata task (chaired CEO/EEA). Planned that US Government
+Information Locator System, CEOS IDN upgrades, CEO advertising &amp; announcement
+service, ESA's MUIS, and NASA's EosDIS, will all have interfaces with CILS.
+CSIRO has been invited by DLR to act as the Asia-Pacific node for CILS,
+with a CILS server at the CSIRO EOC, for the demonstration phase of the
+project (~1997). This would place the EOC at a strategic junction point
+between low and high-level information networks and their upgrades and interfaces.
+<BR>
+<BR>
+iv) Strategy <BR>
+<BR>
+Kikuchi proposed a Strategy task, with a time scale of 10/15 years, with
+the responsibility to consider long term issues and preparing for 5 year
+plan revision and transition between near and long term action plans. This
+idea met general acceptance: the WGISS chairs, sub-group chairs, and others
+will comprise the team. <BR>
+<BR>
+<B>Task reports</B><BR>
+<BR>
+Yellow Pages<BR>
+<BR>
+This is a directory of on-line services, led by Shinichi Sobue of NASDA.
+Deadline for inputs is July 1996. Presentation will be at WGISS 3<BR>
+<BR>
+Plenary Network Demonstrator<BR>
+<BR>
+Kingwell gave an introduction to the Demonstrator (WGISS Task 1), covering
+purpose (Asia-Pacific mission displays; promote achievements of WGISS, develop
+network and distributed processing methods). Reference 11. A special Project
+Team meeting was chaired by Lilleyman on 30 May.<BR>
+<BR>
+CSIRO CD-ROM<BR>
+<BR>
+Kingwell discussed Reference 10 covering WGISS Task 2 - genesis, purpose,
+content, future plans relative to the CD for developing countries and educational
+institutions. Feedback included NASA declaring continued interest; repeated
+offer of CD version of CEOS InfoSys, time permitting; suggestion to include
+all or part of Yellow Pages guide; and action to provide contact information
+to CSIRO. <BR>
+<BR>
+Ocean colour<BR>
+<BR>
+John Withrow spoke on Reference 24. Work is leading to a Workshop on data
+merging and integration, and publication of data distribution policies,
+and distribution of algorithms for processing ocean colour data. Part of
+objective is to devise means of integrating ocean colour data from different
+sources. Users have specific requirements:<BR>
+. one format<BR>
+. access to algorithms<BR>
+. guide to data policies<BR>
+<BR>
+European Wide Service Exchange<BR>
+<BR>
+Ken Ingliss covered this. One advantage was that it allowed users, who have
+their own data, to into relevant information on the system. In effect ,
+EWSE is a self-building information system which contains advertisements,
+data centre descriptions, and provides resources, including data browse,
+access and ordering services. <BR>
+<BR>
+G-7 ENRM<BR>
+<BR>
+Ken Ingliss also spoke on the G7 Environment &amp; Natural Resource Management
+data project (Reference 26). It seems as if CEO is creating a niche in large
+scale data management projects funded by European Community, and is effectively
+drawing together the growing number of &quot;information superhighway&quot;
+proposals championed by disparate communities. For example, the CEO is the
+common link between, and is ensuring compatibility and best fit of, G-7,
+CEOS International Directory Network, DARA's Information Locator Service,
+and related work. Australia is participating in the G-7 through Kate Ord
+of ERIN, but we have yet to forge a similar link between AEON, CEOS Plenary
+Network demonstrator, ANZLIC/CSDC, NRIC's directory database, etc. <BR>
+<BR>
+<B>Sub group Reports</B><BR>
+<BR>
+Format report<BR>
+<BR>
+Wyn Cudlip noted an ESA report on format approaches - Common format, HDF,
+CEOS superstructure, etc. This seemed like a comprehensive and useful reference.<BR>
+<BR>
+FS has a Data interuse reference (conceptual) model.<BR>
+<BR>
+Agency reports<BR>
+<BR>
+ISRO<BR>
+<BR>
+National Resources information system links ISRO with user departments.
+Covered IRS-1c, IRS-P3 (with MOS), launched early 1996. IRS-P4 to be launched
+1997, with 9 band ocean colour instrument. IRS-P6, in 1999, to have 2.5
+m pixel. Being studied - CARTO-2, with &lt; 1m pixel, ~ 2002. Applications/missions
+studied include DTM (&lt; 5 m), multi-crop analysis. Current applications
+shown in crop monitoring with IRS-1C; cadastral review; snow/cloud differentiation.
+<BR>
+<BR>
+<B>Next meeting</B><BR>
+<BR>
+September 16-20 Sub group meetings, inc, Sioux Falls, EROS DC Globe, Mapping<BR>
+<BR>
+October 8-10 WGISS 3 Neustralitz, 100 km north of Berlin, hosted by DARA/DLR.<BR>
+<BR>
+The WGISS-3 meeting will focus on:<BR>
+. Task reviews (with exception of CSIRO's 1, 2, covered this meeting)<BR>
+. User group initial actions and approach. <BR>
+<BR>
+April/May 1997 WGISS-4, Ottawa CCRS Canada. <BR>
+<BR>
+Options: 6-8, 7-9, 13-15 May, or 15-17 April. CCRS asking for preferences.
+<BR>
+<BR>
+29 May 1996: <BR>
+<BR>
+Joint WGISS/sub-group meeting<BR>
+<BR>
+Presentation on Earth Space Information Network for Asia and Pacific<BR>
+<BR>
+Dr He Changchui made a presentation on behalf of the 60 members of ESCAP,
+comprising 57% of world's population and about 31 m km2 . He explained the
+relevance of the Network in addressing regional problems - natural disasters,
+national development, poverty alleviation. <BR>
+<BR>
+Issues included:<BR>
+<BR>
+- rationalisation of ground segment<BR>
+- access to information (equity, speedy distribution)<BR>
+- data management including archiving<BR>
+<BR>
+He gave example which showed how ESINAP concept is already working at level
+of human network and manual data transfer - fires in China, and assistance
+from Thai, Indian ground stations. <BR>
+<BR>
+He stated that after the feasibility study, one of Australia, Thailand or
+Japan were suggested as the master node. <BR>
+<BR>
+For implementation of network, ESCAP estimate a budget of about <BR>
+$US125 000 for a &quot;minimum test mode&quot;, consisting of one primary
+node and a client. &quot;Full test node&quot;, with 8 national nodes in
+the region, would cost about $US500 000. Recurrent costs would be about
+$US400 000. This will be based on voluntary support, with &quot;basic&quot;
+funding from ESTO. He was pleased that the CEOS Plenary Network Demonstration
+was, in effect, a test of the ESINAP prototype. (This was a dynamic presentation,
+very complimentary to CSIRO and Australia). <BR>
+<BR>
+<B>Five year plan</B><BR>
+<BR>
+Helen Wood and Alan Haskell presented the approved plan (Version 1.0). Noted
+the new tasks in Networks, Natural Hazards, the ILS; and the new themes
+on strategic planning and promotion. <BR>
+<BR>
+Resources must be assigned for tasks to be accepted, and Task leaders must
+sign-off on concluded or abandoned tasks, citing lessons learnt. <BR>
+<BR>
+<B>Other meetings</B><BR>
+<BR>
+I had several side meetings with NASDA personnel, and took part in the Plenary
+Network Project Team meeting (separate report by J Lilleyman refers), and
+the special meeting on ESCAP issues. <BR>
+<BR>
+<B>Reference list</B><BR>
+<BR>
+1. Agenda and participant's list.<BR>
+2. CEOS WGISS Five Year Plan V0.5b (bound, 77pp).<BR>
+3. CIESIN: information for a changing world. (folder inc. &quot;Our Changing
+Planet&quot; - US Global Change Research Program FY1996 Report). <BR>
+4. NASA/NSIDC, Distributed Active Archive Centers: supporting Earth Observing
+Science in 1995 (booklet, 33pp). <BR>
+5. NASA/NASDA; WGISS security activities (paper, 4p).<BR>
+6. CNES, Polder on ADEOS. (booklet).<BR>
+7. NASDA, Earth Observation Research Centre. OHP, 7pp.<BR>
+8. IGOS organising committee, &quot;Executive Summary of the Draft Report
+from the ad hoc CEOS meeting on space component of an Integrated Global
+Observing Strategy&quot;.<BR>
+9. CSIRO, &quot;Summary report on the Seattle Meeting, 27-29 March 1996&quot;.
+OHP, 6pp.<BR>
+10. Kingwell, 1996, CSIRO, &quot;CD-ROM for developing countries: presentation
+for studying social benefits of Earth Observation&quot;. OHP, 9pp. Plus
+original OHP transparencies.<BR>
+11. Clarke, Lilleyman, 1996, CSIRO, &quot;Project Overview: Plenary Technical
+Demonstration Project&quot;, document, 2 May 1996, 10pp. Plus original OHP
+transparencies. <BR>
+12. CEOS (previous) sub group on Auxiliary Data sets: presentation to WGISS-2.
+OHP, 9pp.<BR>
+13. DLR, Country/agency report for Germany. Paper, 19pp +.<BR>
+14. ISRO, Country/agency report for India (Rao, Parihar, Jayaraman and Chandrasekhar).
+Paper, 16pp.<BR>
+15. ISRO, IRS-1C. Illustr. colour pamphlet. <BR>
+16. European Commission, Directorate XII. Report to WGISS-2 on G-7 Environment
+&amp; Natural Resources Management Pilot Project. OHP.<BR>
+17. Anon., GC-ASK Global Change - Assisted Search for Knowledge. Paper,
+2pp.<BR>
+18. NSRA, 1995. Interface: A bulletin from the NRSA data centre. Vol 6,
+No. 2, April-June. <BR>
+19. NASA, Proposal for Natural Hazards Task Team. OHP, 2p.<BR>
+20. DLR, 1996. CEOS Information Locator Service. OHP, 9pp.<BR>
+21. NASDA, WGISS strategy. Paper, 2pp.<BR>
+22. EOSAT, 1995. IRS-1C Pricing. Leaflet, 1p, labelled &quot;EOSAT confidential,
+shred to discard&quot;, distributed at meeting.<BR>
+23. Cudlip., W., CEOS WGISS Format subgroup status report.<BR>
+24. IOC/UNESCO, 1995. IOC Workshop on Ocean colour data requirements and
+utilization, Sydney, Canada, 21-22 September 1995. <BR>
+25. NOAA Agency Report to WGISS-2. Paper, 8pp.s<BR>
+26. CEC/CEO, 1996. Proposal for pilot server for G7-ENRM. Paper, 5pp.<BR>
+27. He, Changchui, ESCAP, 1996. Introduction to ESINAP. OHP. <BR>
+28. NASDA Agency report to WGISS 2, OHP, 12pp. <BR>
+<BR>
+</BODY>
+</HTML>
+</DOC>

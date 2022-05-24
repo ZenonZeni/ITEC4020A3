@@ -1,0 +1,77 @@
+
+<DOC>
+<DOCNO>WT01-B02-60</DOCNO>
+<DOCOLDNO>IA054-000904-B032-428</DOCOLDNO>
+<DOCHDR>
+http://stargate.jpl.nasa.gov:1083/html/mcreadme.htm 137.79.108.182 19970210185106 text/html 3403
+HTTP/1.0 200 OK
+Date: Mon, 10 Feb 1997 18:49:53 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE HTML SYSTEM "html.dtd">
+<TITLE>IGARSS '94 Electronic Digest Software Installation Instructions</TITLE>
+<H1>IGARSS '94 Electronic Digest Software Installation Instructions</H1>
+<P>Be sure to read the <A HREF="aareadme.htm">Read Me First</A>
+(aareadme.txt) file, and <A HREF="aboutcd.htm">About the IGARSS'94 CD</A>
+(aboutcd.txt).</P>
+<H2>Macintosh Platform</H2>
+<P><B>Note:</B>You may experience a memory problem when NCSA Mosaic
+launches applications, such as Adobe Acrobat (TM), JPEGView, etc., if
+the application is not closed each time.  If this occurs, you will
+receive an error message indicating that the file you are trying to
+display cannot be read, and you will need to restart Mosaic.</P>
+<OL><LI>Open the software/macapps folder.<P></P></LI> 
+<LI>Install Acrobat(TM) Reader 1.0<P></P><UL>
+<LI>Double click on the Acrobat Reader Installer  under the Installer
+Disk 1 folder
+</LI>    
+<LI>A contract message will appear - click on "Accept"  </LI>   
+<LI>Follow the instructions to install Acrobat Reader 1.0 on your hard
+drive   </LI></UL><P></P></LI>
+<LI>For optimal performance, increase the Acrobat Reader partition size
+(memory allocation) to 4096kb or greater.  To do this:<UL>
+<LI>Highlight the Acrobat Reader 1.0 application icon.</LI>
+<LI>Choose "Get Info" from the "File" menu.</LI>
+<LI>Type "4096" in both of the editable boxes in the lower right corner
+of the dialog box.</LI>
+<LI>Close the dialog box.</LI></UL><P></P></LI>
+<LI> Install NCSA Mosaic
+<P>If you do not have NCSA Mosaic already installed on your machine, do
+the following:</P><UL>
+<LI>Copy the NCSA Mosaic folder to your hard drive.
+</LI>    
+<LI>Start NCSA Mosaic  </LI>
+<LI><B>Your installation is complete.</B></LI></UL><P></P></LI>    
+<LI> <B>OR</B> Tailor NCSA Mosaic's Preferences<P>If you already had
+Mosaic on your system and you did not install it from the CD-ROM, you
+may want to replace your Preferences file with the one provided, <B>or</B>,
+you may just want to update your own Preferences file as described
+below.</P> <UL>
+<LI>Start NCSA Mosaic</LI>
+<LI>Select Preferences under the Options menu
+</LI>    
+<LI>Type in "file:///IGARSS94/igarss.htm" in the Home dialog box.  This
+will set the default Home page. <B>Note:</B> You will be using Mosaic
+in <I>Local</I> mode.</LI>
+<LI>Select Helper applications</LI>   
+<LI>Click on "Add document type"</LI>    
+<LI>Type "application/acrobat"
+</LI>   
+<LI>Scroll through the list of document types (on the right of your
+screen) and  highlight (click on) "application/acrobat"</LI>     
+<LI>Click on "Set application"</LI>     
+<LI>Move through the directory structure of your hard drive and
+highlight  Acrobat Reader 1.0 - click on "Open"</LI>    
+<LI>When prompted to pick a file type, click on "PDF file type"</LI>   
+<LI>Click on "Add extension"</LI>     
+<LI>Type "pdf" and select "OK", then select "application/acrobat" from 
+the document type list
+</LI>
+<LI>You may add or change other helper applications using this  method
+to tailor your NCSA Mosaic client further.</LI>
+<LI>Click on "OK" and "Apply" to exit</LI>
+<LI>Quit NCSA Mosaic</LI>   
+<LI>Restart NCSA Mosaic</LI></UL></LI> </OL>
+<HR><A HREF="../igarss.htm"><IMG  WIDTH=108 HEIGHT=45 SRC="back_ig.gif"></A>         
+</DOC>

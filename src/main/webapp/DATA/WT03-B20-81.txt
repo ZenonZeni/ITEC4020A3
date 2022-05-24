@@ -1,0 +1,823 @@
+
+<DOC>
+<DOCNO>WT03-B20-81</DOCNO>
+<DOCOLDNO>IA006-000055-B006-53</DOCOLDNO>
+<DOCHDR>
+http://lacebark.ntu.edu.au:80/j_mitroy/sid101/chernobyl2/c09.html 138.80.61.12 19970221174935 text/html 34963
+HTTP/1.0 200 OK
+Date: Fri, 21 Feb 1997 17:19:24 GMT
+Server: Apache/1.1.3
+Content-type: text/html
+Content-length: 34791
+Last-modified: Tue, 09 Jul 1996 02:25:47 GMT
+</DOCHDR>
+<a name="chape">
+<B> EXPLANATION OF TERMS </B>
+<P>
+<B>Activity </B>
+<P>
+Quantity of a radionuclide. It describes the rate at which spontaneous
+nuclear transformations (i.e., radioactive decay) occur in it.
+It is measured in becquerels (Bq), where 1 Bq equals one nuclear
+transformation per second.
+<P>
+Several multiples of the becquerel (Bq) are used throughout the
+text. They are the following:
+<P>
+ exabecquerel (EBq)   =  1018 Bq
+<P>
+ petabecquerel (PBq)   =  1015 Bq
+<P>
+ terabecquerel (TBq)   =  1012 Bq
+<P>
+ gigabecquerel (GBq)   =  109 Bq
+<P>
+ megabecquerel (MBq)  =  106 Bq
+<P>
+ kilobecquerel (kBq)   =  103 Bq
+<P>
+<B>Collective dose </B>
+<P>
+Total dose over a population group exposed to a given source.
+It is represented by the product of the average dose to the individuals
+in the group by the number of persons comprising the group. It
+is measured in person-sieverts (person-Sv).
+<P>
+<B>Dose </B>
+<P>
+A general term denoting a quantity of radiation. Depending on
+its application it can be qualified as &quot;absorbed dose&quot;,
+&quot;equivalent dose&quot; and &quot;effective dose&quot;.
+<P>
+<I><B> Absorbed dose </B></I>
+<P>
+Quantity of energy imparted by radiation to a unit mass of matter
+such as tissue. Absorbed dose is measured in grays (Gy), where
+1 Gy equals 1 joule of energy absorbed per kilogramme of matter.
+One gray produces a different intensity of biological effects
+on tissue depending on the type of radiation (alpha, beta, gamma,
+neutrons). One common submultiple of the gray, the milligray,
+is often used. One milligray (mGy) is equal to 10-3 Gy.
+<P>
+<I><B> Effective dose </B></I>
+<P>
+Weighted sum of the &quot;equivalent doses&quot; to the various
+organs and tissues multiplied by weighting factors reflecting
+the differing sensitivities of organs and tissues to radiation.
+The weighting factor for each organ or tissue expresses the fractional
+contribution of the risk of death or serious genetic defect from
+irradiation of that organ or tissue to the total risk from uniform
+irradiation of the whole body. Effective dose is measured in sieverts
+(Sv). Some submultiples of the sievert are used throughout the
+text. They are the following:
+<P>
+<B> </B>millisievert (mSv)  =  10-3 Sv
+<P>
+ microsievert (Sv)   =  10-6 Sv
+<P>
+<I><B> Equivalent dose </B></I>
+<P>
+Quantity obtained by multiplying the &quot;absorbed dose&quot;
+in an organ (e.g., thyroid) or tissue by a factor representing
+the different effectiveness of the various types of radiation
+in causing harm to the organ or tissue. This factor, whose value
+varies between 1 and 20 depending on the type of radiation, has
+been introduced in order to allow grouping or comparing biological
+effects due to different radiations. Equivalent dose is measured
+in sieverts (Sv). One sievert produces the same biological effect,
+irrespective of the type of radiation.
+<P>
+<B>Health effects</B>
+<P>
+<I><B> Acute radiation syndrome </B></I>
+<P>
+A clinical scenario characterized by a complex of acute deterministic
+effects affecting various organs and body functions in the irradiated
+person.
+<P>
+<I><B> Deterministic effects (</B></I>also called<I><B> acute
+health effects) </B></I>
+<P>
+Early deleterious radiation effects on living tissues (e.g., body,
+organ or tissue death, cataracts), which generally occur only
+above a threshold of dose and whose severity depends on the level
+of dose absorbed. They become generally evident within a short
+time from the irradiation (hours, days or weeks, depending on
+the dose received). Throughout the text the doses producing Deterministic
+effects are expressed in grays (Gy).
+<P>
+<I><B> Genetic effects (</B></I>also called<I><B> hereditary effects)
+</B></I>
+<P>
+Stochastic effect which occur in the progeny of the exposed person.
+<P>
+<I><B> Stochastic effects (</B></I>also called<I><B> late health
+effects) </B></I>
+<P>
+Late deleterious radiation effects (e.g., leukaemia, tumours)
+whose severity is independent of dose and whose probability of
+occuring is assumed to be proportional to the dose received. It
+is also assumed that there is no threshold dose below which stochastic
+effects will not occur. The stochastic effects occur, therefore,
+at doses lower than those producing deterministic effects and
+may manifest themselves after a long time (years, decades) from
+the irradiation. Throughout the text the doses producing stochastic
+effects are expressed in sieverts (Sv).
+<P>
+<B>Intervention level </B>
+<P>
+The value of a quantity (dose, activity concentration) which,
+if exceeded or predicted to be exceeded in case of an accident,
+may require the application of a given protective action.
+<P>
+<B>LIST OF ACRONYMS</B>
+<P>
+AUDR  Soviet All-Union Dose Registry
+<P>
+CRPPH  NEA Committee on Radiation Protection and Public Health
+<P>
+DNA  Desoxyribonucleic acid
+<P>
+EC   European Commission
+<P>
+ECCS  Emergency Core Cooling System
+<P>
+FAO  Food and Agriculture Organisation
+<P>
+GSF  Forschungszentrum f&uuml;r Umwelt und Gesundheit
+<P>
+IAEA  International Atomic Energy Agency
+<P>
+IARC  International Agency for Research on Cancer
+<P>
+ICRP  International Commission on Radiological Protection
+<P>
+INES  International Nuclear Event Scale
+<P>
+INEX  NEA Nuclear Emergency Exercises Programme
+<P>
+INSAG  International Nuclear Safety Advisory Group
+<P>
+IPHECA International Programme on the Health Effects of the  
+   Chernobyl Accident
+<P>
+IPSN  Institut de Protection et de S&eacute;curit&eacute; Nucl&eacute;aire
+
+<P>
+JAERI  Japan Atomic Energy Research Institute
+<P>
+NAZ  Nationale Alarmzentrale
+<P>
+NCRP  Soviet National Committee on Radiation Protection
+<P>
+NEA  OECD Nuclear Energy Agency
+<P>
+OECD  Organisation for Economic Cooperation and Development
+<P>
+RNMDR Russian National Medical Dosimetry Registry
+<P>
+SKI   Swedish Nuclear Power Inspectorate
+<P>
+UNSCEAR United Nations Scientific Committee on the Effects
+<P>
+      of Atomic Radiation
+<P>
+WHO  World Health Organisation
+<P>
+<B>REFERENCES</B>
+<P>
+Al89 Yu.A. Aleksandrovskij, &quot;Psychoneurotic Disorders Associated
+with the Chernobyl Accident&quot;, <I>Medical Aspects of the Chernobyl
+Accident</I>, TECDOC 516, IAEA, Vienna, 1989. 
+<P>
+Al93 R.M. Aleksakhin, &quot;Radioecological Lessons of Chernobyl&quot;,
+<I>Radiat. Biol. Ecol.,</I> <B>33</B>: 3-80, 1993.
+<P>
+An88  R. Lynn et al., &quot;Global Impact of the Chernobyl Reactor
+Accident&quot;, <I>Science</I>, <B>242</B>:1513-1519, 1988.
+<P>
+Ba93 M.I. Balonov, &quot;Overview of Doses to the Soviet Population
+from the Chernobyl Accident and the Protective Actions Applied&quot;,
+<I>The Chernobyl</I> <I>Papers</I>,<B> 1</B>:23-45, Ed. S.E. Merwin
+and M.I. Balonov, Research Enterprises, Richland, WA, 1993.
+<P>
+Ba94 R.M. Barkhudarov et al., &quot;Characterization of Irradiation
+Levels of the Population in the Controlled Areas within the First
+Four Years after the Chernobyl NPP Accident&quot;, Institute of
+Biophysis, Moscow, 1994.
+<P>
+Be87  G. Bengsston, &quot;Radiation Doses in Europe after the
+Chernobyl Accident&quot;, <I>Med. Oncol. Tumor. Pharmacother,</I>
+<B>4</B>(3-4): 33-137, 1987. 
+<P>
+Be90  S.N. Bergichev et al., &quot;Radioactive Releases Due to
+the Chernobyl Accident&quot;, <I>Fission Product Transport Processes,</I>
+Ed. J.T. Rogers, Hemisphere, 1990.
+<P>
+Be91 S.T. Bedyaev et al., &quot;The Chernobyl Source Term&quot;,
+<I>Proc. Seminar on Comparative Assessment of the Enviromental
+Impact of Radionuclides Released during Three Major Nuclear Accidents:
+Kyshtym, Windscale, Chernobyl</I>, EVR-13574, CEC, pp. 71-91,
+1991.
+<P>
+Be92 V. Beral, G. Reeves et al., &quot;Childhood Thyroid Cancer
+in Belarus&quot;, <I>Nature</I>, <B>359</B>:680-681, 1992.
+<P>
+Be94  &quot;Eight Years after Chernobyl&quot;, <I>The Republic
+of Belarus Information Bulletin </I>[published by TRIC, 22001,
+17 Moscowskaya, Minsk, Belarus], 1994.
+<P>
+Be95  V.P. Beskorovajnyj et al., &quot;Radiation Effects of Collapse
+of Structural Elements of the Sarcophagus&quot;, <I>Sarcophagus
+Safety '94: Proceedings of an International Conference, Zeleny
+Mys, Chernobyl, Ukraine, (14-18 March 1994),</I> pp. 196-202,
+OECD/NEA, Paris, 1995.
+<P>
+Bo93 G.C. Bonnazzola et al., &quot;Profiles and Downward Migration
+of 137Cs and 106Ru Deposited on Italian Soils After the Chernobyl
+Accident&quot;, <I>Health</I> <I>Physics</I>, <B>64</B>(5):479-484,
+1993. 
+<P>
+Bo94 J. Boice and M. Linet, &quot;Chernobyl, Childhood Cancer,
+and Chromosome 21&quot;, <I>BMJ</I>, Editorial, <B>309</B>:139-140,
+1994.
+<P>
+Br88 J.A. Broadway et al., &quot;Estimates of the Radiation Dose
+and Health Risks to the United States Population Following the
+Chernobyl Nuclear Plant Accident&quot;, <I>Health Physics</I>,
+<B>55</B>(3):533-539, 1988.
+<P>
+Br92 H. Braselmann et al., &quot;Chromosome Analysis in a Population
+Living in an Area of Germany With the Highest Fallout from the
+Chernobyl Accident&quot;, <I>Mutation Research</I>, <B>283</B>:221-225,
+1992.
+<P>
+Bu91 W. Burkart et al., &quot;Assessing Chernobyl's Radiological
+Consequences&quot;, <I>Nuclear Europe Worldscan</I>, <B>1</B>(
+3-4):27-30, 1991. 
+<P>
+Bu93 Y.P. Buzulukov and Y.L. Dobrynin, &quot;Release of Radionuclides
+During the Chernobyl Accident&quot;, <I>The Chernobyl Papers</I>,
+<B>1</B>:321, Eds. S.E. Merwin and M.I. Balonov, Research Enterprises,
+Richland, WA,1993.
+<P>
+Bv95 A.A. Borovoy, &quot;On the Nuclear Safety of Ukritiye&quot;,
+Personal communication, 1995.  
+<P>
+Ca87 R.S. Cambrai et al., &quot;Observations on Radioactivity
+from the Chernobyl Accident&quot;, <I>Nuclear Energy</I>, <B>26</B>:77,
+1987.
+<P>
+Ch90 J.-P. Chaussade, &quot;Public Confidence and Nuclear Energy&quot;,
+<I>IAEA Bull</I>., <B>2</B>:7- 10, 1990. 
+<P>
+Co92 D.L. Collins, &quot;Behavioural Differences of Irradiated
+Persons Associated with the Kyshtym, Cheliabinsk and Chernobyl
+Nuclear Accidents&quot;, <I>Military</I> <I>Medicine</I>, <B>157</B>(10):548-552,
+1992.
+<P>
+De87 &quot;Health and Environmental Consequences of the Chernobyl
+Nuclear Power Plant Accident&quot;, <I>A Report to the US Department
+of Energy</I>, DOE/ER-0332, 1987.
+<P>
+De90 A. Dehos, &quot;Haematological and Immunological Indicators
+for Radiation Exposure&quot;, <I>Kerntechnik</I>, <B>55</B>(4):
+211-218, 1990.
+<P>
+De94 E.P. Demidchik et al., &quot;Thyroid Cancer in Children After
+the Chernobyl Accident: Clinical and Epidemiological Evaluation
+of 251 cases in the Republic of Belarus&quot;, <I>Proc. of Nagasaki
+Symposium on Chernobyl: Update and Future</I>, pp. 21-30, Ed.
+Shigenobu Nagataki, Elsevier, 1994.
+<P>
+De95 L. Devell et al., &quot;The Chernobyl Reactor Accident Source
+Term: Development of a Consensus View&quot;, CSNI Report in preparation,
+OECD/NEA, Paris.
+<P>
+Dr93 B.M.  Drottz-Sjoberg and L. Persson, &quot;Public Reaction
+to Radiation: Fear, Anxiety or Phobia?&quot;, <I>Health Physics</I>,
+<B>64</B> (3):223-231, 1993.
+<P>
+Du94  G.H. Dubreuil, &#171; Un premier bilan des effets psychiques
+et sociaux de l'accident de Tchernobyl&#187;, <I>Radioprotection,
+</I><B>29</B>(3):363 - 376, 1994.
+<P>
+Dz95 S.P. Dzepo et al., &quot;Hydrogeological Effects of the Principal
+Radioactive Waste Burial Sites Adjacent to the Chernobyl NPP&quot;,
+(Review) <I>Sarcophagus Safety 94, Proceedings of an International
+Conference, Zeleny Mys, Chernobyl, Ukraine, 14-18 March 1994,
+</I>pp. 370-382, OECD/NEA, Paris, 1995.
+<P>
+EC87 &quot;Council Decision of 14 December 1987 on Community arrangements
+for the early exchange of information in the event of a radiological
+emergency&quot;, European Commission, 1987.
+<P>
+EC89 &quot;Council Directive of 27 November 1989 on informing
+the general public about health protection measures to be applied
+and steps to be taken in the event of a radiological emergency&quot;,
+European Commission, 1989.
+<P>
+EC89a &quot;Council Regulation (Euratom) No. 3954/87 of 22 December
+1987 laying down maximum permitted levels of radioactive contamination
+of foodstuffs and of feedingstuffs following a nuclear accident
+or any other case of radiological emergency&quot;, European Commission,
+1989.
+<P>
+EC89b &quot;Commission Regulation (Euratom) No. 944/89 of 12 April
+1989 laying down maximum permitted levels of radioactive contamination
+in minor foodstuffs following a nuclear accident or any other
+case of radiological emergency&quot;, European Commission, 1989.
+<P>
+EC89c &quot;Council Regulation (EEC) No. 2219/89 of 18 July 1989
+on the special conditions for exporting foodstuffs and feedingstuffs
+following a nuclear accident or any other case of radiological
+emergency&quot;, European Commission, 1989.
+<P>
+EC92 &quot;Report on the Meeting to Discuss Reports of an Excess
+of Thyroid Cancer in the Minsk Region&quot;, Organised by the
+EC, Neuherberg, 1992.
+<P>
+EC93  &quot;Thyroid Cancer in Children Living Near Chernobyl&quot;,
+EC Expert Panel Report (EUR 15248), EC, 1993.
+<P>
+EC93a &quot;Council Regulation (EEC) No. 737/90 of 22 March 1990
+on the conditions governing imports of agricultural products originating
+in third countries following the accident at the Chernobyl nuclear
+power station&quot;, European Commission, 1993.
+<P>
+EC94 &quot;Environmental Radioactivity in the European Community
+1987-1988-1989-1990&quot;, DGXI. EUR 15699, EC, 1994.
+<P>
+EG88 &quot;Preliminary Evaluation of the Impact of the Chernobyl
+Radiological Contamination on the Frequency of Central Nervous
+System Malformations in 18 Regions of Europe&quot;, The Eurocat
+Working Group, <I>Paediatr. Perinat.</I> <I>Epidemiol</I>, <B>2</B>(3):253-264,
+1988.
+<P>
+Er94 V. Erkin et al., &quot;External Doses from Chernobyl Fall-out:
+Individual Dose Measurements in the Brjansk Region of Russia&quot;,<I>
+Rad. Prot. Dosim.,</I> <B>51</B>(4):265-273, 1994.
+<P>
+FA91 Joint FAO/WHO Food Standards Programme, <I>Codex Alimentarius</I>,
+Vol. 1 (1991), section 6.1, &quot;Levels for Radionuclides&quot;,
+1991.
+<P>
+Fu92 A. Furmanchuk et al., &quot;Pathomorphological Findings in
+Thyroid Cancers of Children from the Republic of Belarus: A Study
+of 86 Cases Occurring Between 1986 (post-Chernobyl) and 1991&quot;,
+<I>Histopathology</I>, <B>21</B>:401-408, 1992.
+<P>
+Fu93 A.W. Furmanchuk et al., &quot;Occult Thyroid Carcinomas in
+the Region of Minsk, Belarus. An Autopsy Study of 215 Patients&quot;,
+<I>Histopathology</I>, <B>23</B>:319-325, 1993.
+<P>
+Gl95 V.N. Glygalo et al., &quot;The Current State of the Regulations
+on the Safety of Unit 4 at the Chernobyl NPP&quot;, <I>Sarcophagus
+Safety '94: Proceedings of an International Conference, Zeleny
+Mys, Chernobyl, Ukraine, (14-18 March 1994),</I> pp. 37-42, OECD/NEA,
+Paris, 1995.
+<P>
+Go93 V.Yu. Golikov et al., &quot;Estimation of External Gamma
+Radiation Doses to the Population After the Chernobyl Accident&quot;,
+<I>The Chernobyl Papers</I>, <B>1</B>:247-288, Ed. S.E. Merwin
+and M.I. Balonov, Research Enterprises, Richland, WA, 1993.
+<P>
+Go95 N.V. Gorbacheva et al., &quot;Hypothetical Accidents in the
+Sarcophagus&quot;, <I>Sarcophagus Safety '94: Proceedings of an
+International Conference, Zeleny Mys, Chernobyl, Ukraine, (14-18
+March 1994),</I> pp. 203-209, OECD/NEA, Paris, 1995.
+<P>
+Go95a G.M. Goulko et al., &quot;Estimation of Thyroid Doses for
+the Evacuees from Pripyat&quot;, Submitted to <I>Radiat. Environ.
+Biophys</I>., 1995.
+<P>
+Gu89 P.H. Gudiksen et al., &quot;Chernobyl Source Term, Atmospheric
+Dispersion, and Dose Estimation&quot;, <I>Health Physics,</I>
+<B>57</B>(5):697 - 706, 1989. 
+<P>
+Ha91 L. H&aring;kansson, &quot;Radioactive Caesium in Fish in
+Swedish Lakes After Chernobyl - Geographical Distributions, Trends,
+Models and Remedial Measures&quot;, <I>The Chernobyl Fallout in
+Sweden,</I> pp. 239-281, Ed. L. Moberg, Stockholm, 1991.
+<P>
+Ha92 T. Harjulehto-Mervalaa et al., &quot;The Accident at Chernobyl
+and Trisomy 21 in Finland.&quot;, <I>Mutation Research</I>, <B>275</B>:81-86,
+1992.
+<P>
+Ha92a M.C.H.Haeusler et al., &quot;The influence of the Post-Chernobyl
+Fallout on Birth Defects and Abortion Rates in Austria&quot;,
+<I>Amer. J Obstet.</I> <I>Gynecol, </I><B>167</B>:1025-1031, 1992.
+<P>
+Hj94 U. Hjalmars et al., &quot;Risk of Acute Childhood Leukaemia
+in Sweden After the Chernobyl Reactor Accident&quot;, <I>BMJ,
+</I><B>309</B>(16):154, 1994.
+<P>
+Ho91 &quot;The use of Chernobyl Fallout Data to Test Model Predictions
+of the Transfer of 131I and 137Cs from the Atmosphere through
+Agricultural Food Chains&quot;, <I>Report CONF-910434-7</I>, F.O.
+Hoffman Oak Ridge National Lab., TN (USA), 1991. 
+<P>
+Ho94 M. Hoshi et al., &quot;137Cs Concentration Among Children
+in Areas Contaminated with Radioactive Fallout from the Chernobyl
+Accident: Mogilev and Gomel Oblasts, Belarus&quot;, <I>Health
+Physics</I>, <B>67</B>(3):272-275, 1994. 
+<P>
+Ho95 E. Holm, &quot;Fluxes and Technological Enhancement of Radionuclides
+in the Forest Industry&quot;, <I>Proc. of NEA Workshop on the
+Agricultural Issues Associated with Nuclear Emergencies, (June
+1995), </I>OECD/NEA, Paris, 1996.
+<P>
+Hu87 P. Hull, &quot;Preliminary Dose Assessment of the Chernobyl
+Accident&quot;, BNL Report 38550, Brookhaven National Laboratory
+, 1987.
+<P>
+Hu88 P. Hull, &quot;Update and Comparison of Dose Estimates following
+the Chernobyl Accident&quot;, <I>Transactions of the American
+Nuclear Society</I>; <I>Off-site Consequences and Related Insights
+from Chernobyl,</I> <B>15</B>:163-169, 1988.
+<P>
+IA86  <I>Post-Accident Review Meeting on the Chernobyl Accident</I>,
+IAEA, Vienna, 1986. 
+<P>
+IA86a &quot;Summary Report on the Post-Accident Review Meeting
+on the Chernobyl Accident&quot;, <I>Safety Series No. 75</I> INSAG-1,
+IAEA, Vienna, 1986.
+<P>
+IA86b <I>IAEA Convention on Early Notification of a Nuclear Accident</I>,
+IAEA, Vienna, 1986.
+<P>
+IA86c <I>IAEA Convention on Mutual Assistance in the Event of
+a Nuclear Accident or Radiological Emergency</I>, IAEA, Vienna,
+1986.
+<P>
+IA87a &quot;Techniques and Decision-Making in the Assessment of
+Off-Site Consequences of an Accident in a Nuclear Facility&quot;,
+<I>Safety Series No. 86, </I>IAEA, Vienna, 1987.
+<P>
+IA89  &quot;Medical Aspects of the Chernobyl Accident&quot;, TECDOC-516,
+IAEA, Vienna, 1989. 
+<P>
+IA89a &quot;Radioactive Fallout in Food and Agriculture&quot;,
+TECDOC-494, IAEA, Vienna, 1989.
+<P>
+IA89b &quot;Cleanup of Large Areas Contaminated as a Result of
+a Nuclear Accident&quot;, <I>Technical Report Series No. 300,
+</I>IAEA, Vienna, 1989.
+<P>
+IA89c &quot;Principles and Techniques for Post-Accident Assessment
+and Recovery in a Contaminated Environment of a Nuclear Facility,
+<I>Safety Series No. 97, </I>IAEA, Vienna, 1989.
+<P>
+IA91 IAEA, &quot;The International Chernobyl Project-Assessment
+of Radiological Consequences and Evaluation of Protective Measures&quot;,
+Report by an International Advisory Committee, IAEA, Vienna, 1991.
+
+<P>
+IA91a &quot;Planning for Cleanup of Large Areas Contaminated as
+a Result of a Nuclear Accident, <I>Technical Report Series No.
+327, </I>IAEA, Vienna, 1991.
+<P>
+IA92 &quot;Disposal of Waste from the Cleanup of Large Areas Contaminated
+as a Result of a Nuclear Accident, <I>Technical Report Series
+No. 330, </I>IAEA, Vienna, 1992.
+<P>
+IA94 &quot;Guidelines for Agricultural Countermeasures Following
+an Accidental Release of Radionuclides&quot;, <I>IAEA/FAO Technical
+Report Series No. 363</I>, IAEA, Vienna, 1994. 
+<P>
+IA94a &quot;Intervention Criteria in a Nuclear or Radiation Emergency&quot;,
+<I>Safety Series No. 109, </I>IAEA, Vienna, 1994.
+<P>
+IC90 ICRP, &quot;1990 Recommendations of the International Commission
+on Radiological Protection&quot;<I>,</I> ICRP Publication 60<I>,</I>
+<I>Annals of the ICRP,      </I><B>21</B>(1-3), 1991.
+<P>
+IC92 ICRP, &quot;Principles for Intervention for Protection of
+the Public in a Radiological Emergency&quot;, ICRP Publication
+63<I>,</I> <I>Annals of the ICRP</I>, <B>22</B>(4), 1992.
+<P>
+Il87 L.A. Ilyin and A.O. Pavlovskij, &quot;Radiological Consequences
+of the Chernobyl Accident in the Soviet Union and Measures Taken
+to Mitigate Their Impact&quot;, IAEA Bulletin <B>4</B>, 1987.
+<P>
+Il90 L.A.Ilyin et al., &quot;Radiocontamination Patterns and Possible
+Health Consequences of the Accident at the Chernobyl Nuclear Power
+Station, <I>J.</I> <I>Radiol. Prot., </I><B>10</B>(1):3-29, 1990.
+<P>
+IP95 IPSN, &#171; Tchernobyl 9 ans apr&egrave;s &#187;, Dossier
+de presse, Institut de protection et de s&ucirc;ret&eacute; nucl&eacute;aire
+(IPSN), Mission Communication, 1995.
+<P>
+Ir91 L.M. Irgens et al., &quot;Pregnancy Outcome in Norway After
+Chernobyl&quot;, <I>Biomed. &amp; Pharmacother</I>, <B>45</B>:33-241,
+1991.
+<P>
+Iv93 E.P. Ivanov et al., &quot;Child Leukaemia after Chernobyl&quot;,
+Letter to <I>Nature</I> <B>365</B>:702, 1993.
+<P>
+Iv94 V.K. Ivanov et al., &quot;Planning of Long-term Radiation
+and Epidemiological Research on the Basis of the Russian National
+Medical and Dosimetric Registry&quot;, <I>Proceedings of Nagasaki
+Symposium on Chernobyl: Update and Future, </I>pp. 203-216, Ed.
+Shigenobu Nagataki, Elsevier, 1994.
+<P>
+Iv95 N.P. Ivanova et al., &quot;Population Doses in Russia from
+Plutonium Fallout Following the Chernobyl Accident&quot;, <I>Rad.
+Prot. Dosim</I>, <B>58</B>(4):255-260, 1995.
+<P>
+Ka92 V.S.Kasakov et al. and Baverstock et al., &quot;Thyroid Cancer
+After Chernobyl&quot;, <I>Nature</I>, <B>359</B>:21-22, 1992.
+<P>
+Ko90 V.I. Komarov, &quot;Radioactive Contamination and Decontamination
+in the 30 km zone surrounding the Chernobyl Nuclear Power Plant&quot;,
+IAEA-SM-306/124, <B>2</B>:3-16, 1990
+<P>
+Kr95 I.I. Kryshev, &quot;Radioactive Contamination of Aquatic
+Ecosystems Following the Chernobyl Accident&quot;, <I>J. Environ.
+Radioactivity,</I> <B>27</B>(3):207-219, 1995. 
+<P>
+Ku95 V.A. Kurnosov et al., &quot;Design of Shelter - Experience
+of Planning and Construction in 1986&quot;, <I>Sarcophagus Safety
+'94: Proceedings of an International Conference, Zeleny Mys, Ukraine
+(14-18 March 1994), </I>pp. 243-250, OECD/NEA, Paris, 1995.
+<P>
+La95 J.M. Lavie, Personal communication, 1995.
+<P>
+Li89 L.A. Likhtarev et al., &quot;Radioactive Contamination of
+Water Ecosystems and Sources of Drinking Water&quot;, <I>Medical
+Aspects of the Chernobyl Accident</I>, TECDOC 516, IAEA, Vienna,
+1989.
+<P>
+Li92 R.T. Lie et al., &quot;Birth Defects in Norway by Levels
+of External and Food-based Exposure to Radiation from Chernobyl&quot;,
+<I>Am. J. Epidemiol.</I>,   <B>136</B>:377-388, 1992.
+<P>
+Li93 J. Little, &quot;The Chernobyl Accident, Congenital Anomalies
+and Other Reproductive Outcomes&quot;, <I>Paediatr. Perinat. Epidemiolog.,</I>
+<B>7</B>(2):121-151, 1993
+<P>
+Li93a I.A. Likhtarev et al., &quot;Exposure Doses to Thyroid of
+the Ukrainian Population After the Chernobyl Accident&quot;, <I>Health
+Physics, </I><B>64</B>:594-599, 1993.
+<P>
+Li94 I.A. Likhtarev et al., &quot;Retrospective Reconstruction
+of Individual and Collective External Gamma Doses of Population
+Evacuated after the Chernobyl Accident&quot;, <I>Health Physics,</I>
+<B>66</B>(6):43-652, 1994.
+<P>
+Ma89 C.J. Martin et al., &quot;Caesium-137, Cs-134 and Ag-110m
+in Lambs Grazing Pasture in NE Scotland Contaminated by Chernobyl
+Fallout&quot;, <I>Health Physics,</I> <B>56</B>:(4):459-464, 1989.
+<P>
+Ma91 J. Malone et al., &quot;Thyroid Consequences of Chernobyl
+Accident in the Countries of the European Community&quot;, <I>J.
+Endocrinol..Invest</I>., <B>14</B>:701-717, 1991.
+<P>
+Me92 F.A. Mettler et al., &quot;Administration of Stable Iodine
+to the Population Around the Chernobyl Nuclear Power Plant&quot;,
+<I>J. Radiol. Prot.,</I>       <B>12</B>(3):159-165, 1992
+<P>
+Mo87 M.Morrey et al., &quot;Preliminary Assessment of the Radiological
+Impact of the Chernobyl Reactor Accident on the Population of
+the European Community&quot;, A Report to the Commission of the
+European Community, 1987.
+<P>
+NE87 &quot;The Radiological Impact of the Chernobyl Accident in
+OECD Countries&quot;, OECD/NEA, Paris, 1987.
+<P>
+NE88 G. Boeri and C. Viktorsson, &quot;Emergency Planning Practices
+and Criteria in the OECD Countries After the Chernobyl Accident:
+A Critical Review&quot;, OECD/NEA, Paris, 1988.
+<P>
+NE89 &quot;Nuclear Accidents: Intervention Levels for Protection
+of the Public&quot;, OECD/NEA, Paris, 1989.
+<P>
+NE89a &quot;The Influence of Seasonal Conditions on the Radiological
+Consequences of a Nuclear Accident&quot;,<I> Proceedings of an
+NEA Workshop, Paris September 1988,</I> OECD/NEA, Paris, 1989.
+<P>
+NE89b &quot;Emergency Planning in Case of Nuclear Accident: Technical
+Aspects&quot;, <I>Proceedings of a Joint NEA/CEC Workshop, Brussels,
+June 1989,</I> OECD/NEA, Paris, 1989.
+<P>
+NE90 &quot;Protection of the Population in the Event of a Nuclear
+Accident&quot;, OECD/NEA, Paris, 1990.
+<P>
+NE93 &quot;Off-site Nuclear Emergency Exercises&quot;, <I>Proceedings
+of an NEA Workshop, The Hague, November 1991,</I> OECD/NEA, Paris,
+1993.
+<P>
+NE94 &quot;Radiation Protection Today and Tomorrow: A Collective
+Opinion of the Committee on Radiation Protection and Public Health&quot;,
+OECD/NEA, Paris, 1994.
+<P>
+NE95 &quot;INEX1: An International Nuclear Emergency Exercise&quot;,
+OECD/NEA, Paris, 1995.
+<P>
+NE95a &quot;Short-Term Countermeasures After a Nuclear Emergency&quot;,
+<I>Proceedings of an NEA Workshop, June 1994, Stockholm,</I> OECD/NEA,
+Paris, 1995.
+<P>
+NE96 &quot;Agricultural Issues Associated with Nuclear Emergencies&quot;,
+<I>Proceedings of an NEA Workshop, June 1995,</I> OECD/NEA, Paris,
+1996.
+<P>
+NE96a &quot;Emergency Data Management&quot;, <I>Proceedings of
+an NEA Workshop, Zurich, September 1995,</I> OECD/NEA, Paris,
+1996.
+<P>
+Ni94 Y. Nikiforuk and D.R. Gnepp, &quot;Paediatric Thyroid Cancer
+After the Chernobyl Disaster&quot;, <I>Cancer,</I> <B>74</B>(2):748-766,
+1994.
+<P>
+OF93 &quot;Environmental Radioactivity and Radiation Exposure
+in Switzerland- 1993&quot;, Federal Office of Public Health, Bern,
+1993.
+<P>
+Pa88 H.G. Paretzke, &quot;The Impact of the Chernobyl Accident
+on Radiation Protection&quot;, <I>Health Physics,</I> <B>55</B>(2):139-143,
+1988.
+<P>
+Pa89 N. Parmentier and J-C. N&eacute;not, &quot;Radiation Damage
+Aspects of the Chernobyl Accident&quot;, <I>Atmospheric Environment</I>,
+<B>23</B>:771-775, 1989. 
+<P>
+Pa92 D.M. Parkin et al., &quot;Childhood Leukaemia Following the
+Chernobyl Accident&quot;, <I>The European Childhood Leukaemia-Lymphoma
+Incidence Study (ECLIS),</I> DM Parkin/ob/mg-1089, 1992.
+<P>
+Pa93 L. Padovani et al., &quot;Cytogenetic Study in Lymphocytes
+from Children Exposed to Ionizing Radiation after the Chernobyl
+Accident&quot;, <I>Mutation</I> <I>Research</I>, <B>319</B>:55-60,
+1993.
+<P>
+Pa94 W. Paile and S. Salomaa, &quot;Radiogenic thyroid cancer
+in Belarus: Fact or fiction?&quot;, <I>Note: J. Radiolog. Prot</I>.,
+<B>14</B>(3):265-269, 1994.
+<P>
+Pe88 G. Pershagen, &quot;Health Effects of Chernobyl&quot;, <I>BMJ</I>,
+<B>297</B>:1488-1489, 1988.
+<P>
+Pr91 A. Prisyazhiuk et al., &quot;Cancer in the Ukraine, Post
+Chernobyl&quot;, <I>Letter to the Lancet,</I> <B>338</B>:1334-1335,
+1991.
+<P>
+Pr95 B.S. Prister et al., &quot;Agricultural Aspects of Consequences
+of the Accident on the Chernobyl NPP in the Ukraine&quot;,<I>
+Proc. of NEA workshop on The Agricultural Issues Associated with
+Nuclear Emergencies, (June 1995),</I> OECD/NEA, Paris, 1996.
+<P>
+Pu92 E.E. Purvis, III and M. Goldman, &quot;Statement to the U.S.
+Senate, Committee on Environment and Public Works&quot;, Los Alamos
+Technical Associates Inc., July 1992.
+<P>
+Re87 P. Reizenstein, &quot;Carcinogenicity of Radiation Doses
+Caused by the Chernobyl Fall-out in Sweden, and Prevention of
+Possible Tumors&quot;, <I>Med.</I> <I>Oncol. Tumor. Pharmacother,<B>
+</B></I><B>4</B>(1):1-5, 1987.
+<P>
+Ri94 &quot;Estimation of the Individual and Collective Doses Received
+During Post-Accident Period by the Inhabitants of Belarus&quot;,
+Research Institute of Radiation Medicine, Minsk, 1994.
+<P>
+Ri95 J.I. Richards et al., &quot;Standards and Criteria Established
+by International Organisations for Agricultural Aspects of Radiological
+Emergency Situations&quot;, <I>Proc. of NEA workshop on The Agricultural
+Issues Associated with Nuclear Emergencies, (June 1995),</I> OECD/NEA,
+Paris, 1996.
+<P>
+Ro92 E. Ron et al., Letter to the Editor, &quot;Thyroid Cancer
+Incidence&quot;, <I>Nature, </I><B>360</B>:113, 1992.
+<P>
+Sa94 B. Salbu et al., &quot;The Mobility of 137Cs and 90Sr in
+Agricultural Soils in the Ukraine, Belarus and Russia 1991&quot;,
+<I>Health</I> <I>Physics</I>, <B>67</B>(5):518-528, 1994.
+<P>
+Sc93 W. Scheid et al., &quot;Chromosome Aberrations in Human Lymphocytes
+Apparently Induced by Chernobyl Fallout&quot;, <I>Note to Health
+Physics,</I> <B>64</B>(5):531-534, 1993.
+<P>
+Sc94 K. M. Schlumberger, &quot;Thyroid Cases after Chernobyl:
+Importance of Prophylaxis&quot;, <I>Radioprotection,</I> <B>29</B>(3):397-404,
+1994.
+<P>
+Se95 A.V. Sevan'kaev et al., &quot;Chromosomal Aberrations in
+Lymphocytes of Residents of Areas Contaminated by Radioactive
+Discharges from the Chernobyl Accident&quot;, <I>Rad. Prot. Dosim</I>.,
+<B>58</B>(4):247-254, 1995.
+<P>
+Se95a A.V. Sevan'kaev et al., &quot;High Exposures to Radiation
+Received by Workers Inside the Chernobyl Sarcophagus&quot;, <I>Rad.
+Prot. Dosim</I>., <B>59</B>(.2):85-91, 1995.
+<P>
+Si94 A.R. Sich, &quot;Chernobyl Accident Management Actions&quot;,
+<I>Nuclear</I> <I>Safety</I>, <B>35</B>(1), 1994.
+<P>
+Si94a A.R. Sich, &quot;Chernobyl Thesis&quot;, Letter to the Editor,
+<I>Science</I>, <B>265</B>:859-861, 1994.
+<P>
+Sj87 L. Sjoberg and B.M. Drottz, &quot;Psychological Reactions
+to Cancer Risks After the Chernobyl Accident&quot;, <I>Med. Oncol.
+Tumor. Pharmacother</I>,       <B>4</B>(3-4):259-271, 1987.
+<P>
+So95 G. Souchkevitch, &quot;Participants in the Clean-up Operations
+Following the Chernobyl Disaster: State of Health and Medical
+Monitoring in Belarus, Russia and Ukraine&quot;, Personal communication,
+1995.
+<P>
+Sp91  K. Sperling et al., &quot;Frequency of Trisomy 21 in Germany
+Before and After the Chernobyl Accident&quot;, <I>Biomed. &amp;
+Pharmacother</I>. <B>45</B>:255-262,1991.
+<P>
+St92 E.R. Stiehm, &quot;The Psychologic Fallout From Chernobyl&quot;,
+<I>AJDC</I>,    <B>146</B>:761-762, 1992.
+<P>
+St93 G. Stephan and U. Oestreicher, &quot;Chromosome Investigation
+of Individuals Living in Areas of Southern Germany Contaminated
+by Fallout from the Chernobyl Reactor Accident&quot;, <I>Mutation
+Research</I>, <B>319</B>:189-196, 1993.
+<P>
+St95 Stsjazhko V.A. et al., &quot;Childhood Thyroid Cancer Since
+Accident at Chernobyl&quot;, Letter to the Editor, <I>BMJ, </I><B>310</B>(6982):801,
+1995.
+<P>
+Ta94 T. Ito et al., &quot;Activated RET Oncogene in Thyroid Cancers
+of Children from Areas Contaminated by Chernobyl Accident&quot;,
+<I>Lancet,</I> <B>344</B>:259, 1994.
+<P>
+To95 V.K. Tolstonogov, &quot;Current State of the Sarcophagus
+and Safety Problems&quot;, <I>&quot;Sarcophagus Safety '94&quot;,
+Proceedings of an International Conference, Zeleny Mys, Chernobyl,
+Ukraine, (14-18 March 1994), </I>pp. 13-36, OECD/NEA, Paris, 1995.
+<P>
+Ts94 A.F. Tsyb et al., &quot;Disease Incidences of the Thyroid
+and Their Dose Dependence in Children Affected as a Result of
+the Chernobyl Accident&quot;, <I>Proc. of Nagasaki Symposium on
+Chernobyl: Update and Future</I>, pp. 9-19, Ed. Shigenobu Nagataki
+Elsevier, 1994.
+<P>
+UN88 United Nations Scientific Committee on the Effects of Atomic
+Radiation (UNSCEAR), Report to the United Nations, 1988.
+<P>
+US91 &quot;Radiation Maps in the Territory of the European Part
+of the USSR as of December 1990. Densities of Area Contamination
+by Caesium-137, Strontium-90, and Plutonium-239, 240&quot;, <I>USSR
+State Committee on Hydrometeorology,</I> Minsk, SCH, 1991
+<P>
+Ve93 L Verschaeve et al., &quot;Chromosome Aberrations of Inhabitants
+of Byelorussia: Consequence of the Chernobyl accident&quot;, <I>Mutation
+Research</I>, <B>287</B>:253-259, 1993.
+<P>
+Vo95 I. F. Vovk et al., &quot;Geological and Hydrogeological Features
+of the ChAES 30-kilometer Zone and Possibilities for the Deep
+or Shallow Burial of Radioactive Wastes&quot;, <I>&quot;Sarcophagus
+Safety '94&quot;, Proceedings of an International Conference,
+Zeleny Mys, Chernobyl, Ukraine, (14-18 March 1994),</I> pp. 341-357,
+OECD/NEA, Paris, 1995.
+<P>
+Wa87 E.A. Warman, &quot;Soviet and Far-Field Radiation Measurements
+and an Inferred Source Term from Chernobyl.&quot;, TP87-13<I>,
+Stone and Webster</I> <I>Engineering Corp,</I> Boston, MA. 1987.
+<P>
+WH87 &quot;Nuclear Accidents: Harmonisation of the Public Health
+Response&quot;, WHO Regional Office for Europe, Copenhagen, 1989.
+<P>
+WH88 &quot;Derived Intervention Levels for Radionuclides in Food&quot;,
+WHO, Geneva, 1988.
+<P>
+WH90 WHO, &quot;The Effects on the Thyroid of Exposed Populations
+Following the Chernobyl Accident&quot;, A Report on a Symposium:
+Chernikov, 3-6 December 1990, EUR/ICP/CEH/101, WHO Regional Office
+for Europe, Copenhagen, 1990.
+<P>
+WH90a Report of a WHO Working Group on Psychological Effects of
+Nuclear Accidents held in Kiev, USSR, 28 May-1 June 1990, EUR/ICP/CEH
+093(S) 7236r, WHO Regional Office for Europe, Copenhagen, 1990.
+<P>
+WH94 WHO, &quot;Report of the Expert Meeting on Thyroid Cancer
+After the Chernobyl Accident&quot;, Kiev, Ukraine, 18-21 October,
+1993, WHO, Geneva, 1994.
+<P>
+WH95 WHO, &quot;Report on the Pilot Phase of the International
+Programme on the Health Effects of the Chernobyl Accident&quot;,
+(IPHECA), WHO, Geneva, 1995.
+<P>
+Wi94 D. Williams, &quot;Chernobyl, eight years on&quot;, <I>Nature,</I>
+<B>371</B>:556, 1994.
+<P>
+Wi94a D. Williams, &quot;Thyroid Cancer in United Kingdom Children
+and in Children Exposed to Fall-out from Chernobyl&quot;, <I>Proc.
+of Nagasaki Symposium on Chernobyl: Update and Future,</I> pp.
+89-94, Ed. Shigenobu Nagataki Elsevier, 1994.
+<P>
+Ze86 J. Bischoffet al., &quot;It Can't Go On Like That. From Brokdorf
+to Wackersdorf: Will the Revived Resistance Against Atomic Energy
+End in a Dead Circle of Violence&quot;, <I>Zeit</I>, <B>41</B>(25):25-29,
+1986. 
+<P>
+Zv93 I.A. Zvonova and M.I. Balonov, &quot;Radioiodine Dosimetry
+and Prediction of Consequences of Thyroid Exposure of the Russian
+Population following the Chernobyl Accident&quot;, <I>The Chernobyl
+Papers,</I> <B>1</B>:71-125, Eds. S.E. Merwin &amp; M.I. Balonov,
+Research Enterprises, Richland, WA, 1993.
+</DOC>

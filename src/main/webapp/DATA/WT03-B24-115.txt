@@ -1,0 +1,175 @@
+
+<DOC>
+<DOCNO>WT03-B24-115</DOCNO>
+<DOCOLDNO>IA053-000895-B045-79</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/ntnetworking.html 129.174.40.15 19970123195502 text/html 6103
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:53:28 GMT
+Server: NCSA/1.5.2
+Last-modified: Wed, 15 Jan 1997 20:06:49 GMT
+Content-type: text/html
+Content-length: 5920
+</DOCHDR>
+<HTML>
+<head>
+<TITLE>Pat Farrell's Pointer to information about NT and the Internet</TITLE>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+Microsoft's WindowsNT operating has the potential to be a great Internet host.
+But Microsoft is not very facile with Internet standards, and
+most Internet "experts" have a serious Unix-bias.
+<p>
+This is a list of helpful information for making a Windows NT computer
+be a full member of the Internet community.
+<ul>
+<li>Read the "site description" at <a href="http://www.somar.com">Somar
+software for info on how to Gateway to the Internet with NT</a>
+<li><a href="http://www.somar.com/security.htm">NT security background</a>
+<li>John Piraino's guide for 
+<a href="http://www.execpc.com/~jpiraino/ppp.html">Connecting NT Workstations
+to the 'net using PPP</a>
+<li>Software.com has a lot of NT software, including a
+<a href="http://www.software.com/">Free BIND (DNS daemon) for NT</a>
+<li>An article about enabling NT's 
+<a href="http://w3.melig.co.il/Vadim/routing.htm">RAS tcp/ip routing</a>
+It tells you about regedt32 entries that you have to create.
+<li>Here is some more information:
+<blockquote>
+After you configure your registry to enable packets from other sources 
+and turn on IP routing, you must do 3 other things
+<ol>
+<li>  Partician your net into at least 2 subnets.  You can do this from 
+the TCP/IP configuration under the networks control panel.  I'm using the 
+subnet mask 255.255.255.128  Your RAS IP address must fall into a 
+different subnet than your server's IP or workstations.
+<p>
+RAS IP         152.160.184.254 (upper subnet *.*.*.128-255)<br>
+Server IP      152.160.184.100 (lower subnet *.*.*.0-127)<br>
+Workstation IP 152.160.184.10  (lower subnet *.*.*.0-127)<br>
+<p>
+<li>  Add static routes to your routing table for each workstation.  Go to 
+DOS prompt on the server and type route add (workstation IP) (server IP)
+<p>
+You now should be able to ping your server with RAS running, and IP 
+addresses outside your net.
+
+3.<li> Set the DNS entry on your workstations to the DNS address of your 
+ISP. 
+</ol>
+I'm putting up a complete and detailed instructions on my Web page
+<a href="http://www.owenrudy.com/"> www.owenrudy.com</a>, should be up in next couple of days.....
+If you have any other questions email me at ocreger@ic.net
+</blockquote>
+<li>and still more:
+<blockquote>
+Next thing is to make sure, that the IP-Addres you use 
+for RemoteAccess is always the same 
+(you'll need it to specify the routings)
+<p>
+At last you must tell all your Clients to use the NT-Machine as deault gateway and enter 
+persistent routes on your NT-Machine for each Client.
+<p>
+Example: let's say your RAS-IP-Address is 192.0.1.1 
+and the LAN-IP-Address of your Gateway is 
+192.0.2.1, your Clients have Addresses 192.0.2.2 etc.
+<p>
+Enter the following Line for each Client:
+<p>
+route -p 192.0.2.2 192.0.2.1
+<br>
+(don't forget the -p or you'll have to do it again after your next reboot)
+<p>
+</blockquote>
+<li>and this...
+<blockquote>
+And acutally your RAS connection will deliver you TWO IP addresses,
+one on the client and one on the server. My NT server has IP address
+A1 on the NIC with gateway address G1. The RAS server give the clients
+address C1, but it also keeps an address C2 for the RAS server. On the
+client side I'm set up with Nic address A2, gateway empty (as to be
+filled by the RAS connection).
+
+I can set up a static route with the ROUTE command. I can route back
+from the server by entering C1 as destination address, and C2 as the
+gateway address. That way, NT routes all packets it can not address on
+the local subnet mask to G1 except packets to C1. Those go via C2 to
+C1. Basically you tell NT to use a different gateway address for a
+certain IP. This gateway address over RAS seems to be the second RAS
+ip address (the one that the RAS server keeps) and not the RAS client
+address. Means it seems to use C2 rather than C1.
+<p>
+I'm not all the way there, but I'm pretty darn close to get RAS full
+routing to work.
+<p>
+Hier my IP addresses:<br>
+NT server 1.1.1.10
+<p>
+Gateway to the Internet on this LAN (ISDN via Pipeline 50) 1.1.1.1<br>
+RAS IPs 1.1.1.20-1.1.1.22 (Range set in RAS setup)<br>
+NT client (on a different LAN) 1.1.2.10<BR>
+NT client demands 1.1.1.22 as it's RAS IP address.
+<p>
+
+<pre>
+gateway--------LAN-NT Server-RAS-----------RAS-NT server-LAN<br>
+1.1.1.1       1.1.1.10       1.1.1.20          1.1.1.22      1.1.2.10
+</pre>
+<p>
+
+
+As I said, I'm almost there. If anyone has been there yet, please drop
+me a note.
+<p>
+
+Frank
+<p>
+--
+see http://www.techex.com/~frank for signature
+(finger is currently disabled)
+--0i<p>
+</blockquote>
+</UL>
+
+<P>
+<IMG alt="_____" SRC="./color_line.gif">
+<P>
+<li>Dec's
+<a href="http://www.altavista.digital.com">Altavista search engine</a>
+is awesome. It is more complete and much faster than 
+<A HREF="http://www.yahoo.com">Yahoo!</A> Search engine or 
+<a href="http://www.lycos.com/">Lycos search engine</a>
+
+<li> A direct link, taken from Altavista's tip page
+<FORM method=GET action="http://altavista.digital.com/cgi-bin/query">
+<INPUT TYPE=hidden NAME=pg VALUE=q>
+<B>Search <SELECT NAME=what>
+<OPTION VALUE=web SELECTED>the Web
+<OPTION VALUE=news>Usenet
+</SELECT>
+and Display the Results <SELECT NAME=fmt>
+<OPTION VALUE="" SELECTED>in Standard Form
+<OPTION VALUE=c>in Compact Form
+<OPTION VALUE=d>in Detailed Form
+</SELECT></B><BR>
+<INPUT NAME=q size=55 maxlength=200 VALUE="">
+<INPUT TYPE=submit VALUE=Submit>
+</FORM>
+
+ 
+<A HREF="./webinfo.html">Making a homepage</A>
+<P>
+<ul>
+<li>Slirp is a free package that lets you talk TCI/IP over
+a dumb serial line. Here is 
+<a href="http://www.ece.gatech.edu/users/flur/slirp/slirp.html">
+the Slirp Manual</a>
+</ul>
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a>
+March 19, 1996.  
+Backto <a href="./hotlist.html">Pat's hotlist</a> Backto <a href="./index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

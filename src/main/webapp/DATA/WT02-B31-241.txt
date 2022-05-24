@@ -1,0 +1,54 @@
+
+<DOC>
+<DOCNO>WT02-B31-241</DOCNO>
+<DOCOLDNO>IA078-000530-B019-170</DOCOLDNO>
+<DOCHDR>
+http://www.merlan.ca:80/mailing-lists/catalogue.html 206.116.73.58 19970211021011 text/html 1952
+HTTP/1.0 200 OK
+Date: Tue, 11 Feb 1997 02:10:20 GMT
+Server: Apache/1.0.0
+Content-type: text/html
+Content-length: 1781
+Last-modified: Fri, 30 Aug 1996 17:15:46 GMT
+</DOCHDR>
+<HTML>
+<!-- This is the FREE Catalog Web Page -->
+<!-- Forms designed by Hammerschmidt Software www.tap.net/~hammer -->
+
+<HEAD><TITLE>FREE Catalog</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFFF" >
+<CENTER><IMG SRC="../images/merlan.gif" WIDTH="171" HEIGHT="55" BORDER="0" ALT="Merlan Logo"></CENTER>
+<center><h1>Fill in this form to recieve a FREE Catalogue!</h1></center>
+<P>Enter your mailing information here and you will receive our catalogue in September, listing over 40 products.
+</FONT>
+<P>Note: Students products are available only to Canadian residents.
+<FORM METHOD="POST" ACTION="mail.cgi?catalogue">
+<HR NOSHADE>
+<PRE>
+<BR>Your Name:          <INPUT NAME="require:ignore:from-name" SIZE="30">
+<BR>Your Email Address: <INPUT NAME="ignore:from-email" SIZE="30">
+    <BR>Address:	<INPUT TYPE="text" NAME="require:Address" SIZE=40>   Apt: <INPUT TYPE="text" NAME="Apt" SIZE=5>
+    <BR>City:		<INPUT TYPE="text" NAME="require:City" SIZE=15>
+    <BR>Province:	<INPUT TYPE="text" NAME="require:Prov" SIZE=15>
+    <BR>Postal Code:	<INPUT TYPE="text" NAME="require:Postal" SIZE=7>
+    <BR>School:         <INPUT TYPE="text" NAME="Schoolname" SIZE=40>
+    <BR>
+<INPUT TYPE="submit" VALUE="Submit!"> <INPUT TYPE="reset" VALUE="Clear everything"> 
+<INPUT TYPE="hidden" NAME="ignore:previous-url" VALUE="">
+<INPUT TYPE="hidden" NAME="ignore:subject" VALUE="FREE CATALOG OFFER">
+</PRE>
+</FORM>
+<BR>
+<P>
+<HR NOSHADE>
+<P>Recieve up to date information on a regular basis via your Email.
+  Merlan's <A HREF="http://www.merlan.ca/mailing-lists">Mailing-Lists</A> for 
+Students and Faculty.
+<HR NOSHADE>
+ <CENTER>
+  [ <A HREF="http://www.merlan.ca">Home</A> | <A HREF="http://www.merlan.ca/student.html">Student Home Page</A> ]
+ </CENTER>
+
+</BODY>
+</HTML>
+</DOC>

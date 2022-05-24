@@ -1,0 +1,290 @@
+
+<DOC>
+<DOCNO>WT01-B07-57</DOCNO>
+<DOCOLDNO>IA068-000417-B010-328</DOCOLDNO>
+<DOCHDR>
+http://www.aivc.org:80/air_cen.html 194.217.120.80 19970113032644 text/html 10818
+HTTP/1.0 200 OK
+Date: Mon, 13 Jan 1997 03:25:44 GMT
+Server: Apache/0.8.14
+Content-type: text/html
+Content-length: 10645
+Last-modified: Tue, 12 Mar 1996 10:31:32 GMT
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+
+<META NAME="AUTHOR" CONTENT="Dorer Viktor">
+
+<META NAME="DOCCOMM" CONTENT="r              ">
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT >
+<META NAME="CREATIM" CONTENT="1996:3:1:14:4:">
+
+<META NAME="VERSION" CONTENT="1">
+
+</HEAD>
+
+<BODY>
+<HR>
+
+<H1>The CEN Work on Calculation Methods for the Determination
+of Air Flow Rates in Dwellings</H1>
+<HR>
+
+<P>
+<A HREF="countries.html#switzerland " >Viktor Dorer  </A>
+<P>
+Swiss Federal Institute for Material Testing and Research (EMPA),
+Switzerland
+<MENU>
+<LI><A HREF="#Introduction" >Introduction </A>
+<LI><A HREF="#Content" >Content of the draft standard </A>
+<LI><A HREF="#Input" >Input data </A>
+<LI><A HREF="#house" >Calculation method for whole house air flow rates  
+</A>
+<LI><A HREF="#room" >Calculation method for room air flow rates  
+</A>
+<LI><A HREF="#References" >References </A>
+</MENU>
+
+<H2><A NAME="Introduction">Introduction</A></H2>
+
+<P>
+In the frame of the European standardization work, an ad hoc group
+of CEN TC 156, WG2 'Mechanical and natural powered residential
+ventilation', is presently working out calculation methods for
+the determination of air flow rates for dwellings. A first draft
+standard has been prepared and is currently under revision by
+the working group and experts of the national CEN shadow committees.
+Since the draft with its annexes is rather comprehensive, this
+article summarizes only roughly the basic assumptions and the
+methods developed so far, without giving the definitions and equations
+in detail. For this, the reader is referred to the <A HREF="#References" >draft standard  
+</A>.
+<H2><A NAME="Content">Content</A> of the draft standard</H2>
+
+<P>
+In the draft standard, methods are presented to calculate air
+flows for the whole dwelling as well as room air flow rates, both
+for single family houses and individual apartments. The methods
+may be used for applications such as energy loss calculations,
+heat load calculations and indoor air quality evaluations. Natural
+as well as mechanical extract and balanced ventilation systems
+are considered. Flows due to window opening are also considered,
+but only as a single sided effect (no cross ventilation). Depending
+on the application and the building type, only outdoor air flow
+rates or both outdoor and internal flows are considered. For these
+different applications, the same basic methods apply. Nevertheless
+the input parameter values have to be selected according to the
+requirements set out for the specific application. Informative
+annexes of the standard provide
+<P>
+a) a selection of input data (such as leakage values, wind pressure
+coefficients) and guidance for the selection of climatic data
+as well as window opening factors
+<P>
+b) calculation examples for both single and multifamily houses
+as well as comparison with results from measurements and calculation
+with single and multizone models
+<P>
+c) a bibliography.
+<H2><A NAME="Input">Input</A> data</H2>
+
+<P>
+The input data needed for the three calculation methods are largely
+identical. Information on the following main aspects of the building,
+the dwelling under consideration, the ventilation system and the
+external conditions is needed to use the methods outlined in the
+draft standard:
+<P>
+Building and dwelling:
+<UL>
+<LI>the type of building
+<LI>the building height
+<LI>the shielding from the wind
+<LI>the number of facades of the dwelling which are exposed to
+wind
+<LI>the air leakage of the dwelling
+<LI>the distribution of the air leakage over the envelope
+</UL>
+
+<P>
+Ventilation system:
+<UL>
+<LI>the type of system (natural, mechanical extract or mechanical
+balanced system)
+<LI>the capacity of the ventilation system
+</UL>
+
+<BLOCKQUOTE>
+- natural ventilation openings
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+- mechanical flows
+</BLOCKQUOTE>
+
+<UL>
+<LI>the time these provisions are assumed to be used
+</UL>
+
+<P>
+Finally the climatic data have to be known.
+<H2>Calculation method for whole <A NAME="house">house</A> air
+flow rates</H2>
+
+<P>
+For the determination of the whole house air flow rates, two methods
+are given.
+<P>
+The first method is an explicit method. This means that if all
+the input data are known one can carry out the calculation procedure
+step by step.
+<P>
+The second method is the implicit method. This method is based
+on a single zone model using a simple flow balance equation that
+has to be solved iteratively for the unknown internal pressure.
+This solving process normally requires a computer. The advantage
+of this method is that the interactions between the wind induced
+flow, the stack induced flow and the flows from the mechanical
+system are considered correctly. Due to the nonlinearity of these
+interactions, the explicit method needs many empirical and approximative
+factors to characterize these interaction effects.
+<P>
+The methods given must be declared as <U>simplified methods </U>when
+comparing them e.g. to multizone air flow models available today.
+<H3>The explicit method</H3>
+
+<P>
+It is assumed, that the air flow is dominated by a single leakage
+and that across this leakage there is an effective pressure difference,
+which is a summation of windward and leeward pressures. The internal
+pressure is assumed to be close to the leeward side pressure.
+<P>
+Default values for wind pressure coefficients, valid for a wind
+sector of approximately 60 degrees to the facade axis, are given
+in the standard . The wind direction is not considered more specifically.
+<P>
+The basic procedure for the calculation is shown in Figure 1.
+The total flow is composed of additive flow terms accounting for
+the natural flows, the flows of the mechanical system, the flows
+due to airing and combustion appliances, and, for apartments,
+also for internal flows.
+<P>
+ 
+<P>
+
+<IMG SRC="cen_fig.gif" ALIGN="BOTTOM" >
+
+<P>
+Figure 1
+<P>
+ 
+<P>
+Natural flows due to stack and wind are calculated separately
+for leakage and purpose provided openings as a powerlaw function
+of the flow coefficient and the pressure. For both stack and wind
+induced infiltration flows, an additional factor accounts for
+the leakage distribution effects. Ducts are considered for stack
+pressures of both infiltration and purpose provided flows.
+<P>
+For mechanical extract and balanced systems respectively, the
+interaction with the natural flows is considered.
+<P>
+Airing is treated as a single sided, single room ventilation effect
+through open window and doors. Cross-ventilation effects are not
+considered.
+<P>
+Combustion induced flows are determined by a factor which accounts
+for the fact that a certain proportion of the natural or extract
+flow may be used to cover the additional flow needed for the combustion
+process, by a factor which considers whether the combustion air
+flow is separated from the room (closed system) or not, by the
+specific air flow per fuel type needed for the combustion process
+and the proportion of time the combustion appliance is activated.
+<P>
+For the determination of the internal flow in an apartment, information
+on the leakage distribution and thus on neutral pressure level
+in the staircase is necessary.
+<P>
+Open/closed ducts and windows, and intermittent operation of the
+mechanical system are all considered in the resulting flow by
+time weighted addition of the respective flows.
+<H3>The implicit method</H3>
+
+<P>
+This method is based on a single zone model. This means that the
+dwelling is represented by one zone with one temperature and one
+pressure value. This zone pressure value has to be determined
+iteratively based on a flow balance equation for all flows entering
+and leaving this zone. The model is based on the same input parameters
+as needed for the explicit method. Nevertheless, individual leakage
+values for the facades and the roof have to be determined as percentages
+of the overall leakage. Guidance for the selection of cp-coefficient
+values at the external nodes is given in an annex of the draft
+standard.
+<P>
+In order to model stack driven flows correctly, distributed leaks
+may be modelled by two individual, vertically separated leakages.
+This is especially important for natural systems with no vertical
+duct.
+<P>
+The building can be modelled in a more complex way, taking into
+account more than two facades. In this case though, the relevant
+information on the leakage and wind pressure distribution must
+be available. The implicit method can also be applied to apartment
+building types.
+<P>
+Besides the unknown pressure in the zone under consideration,
+also the pressure in the staircase is unknown. Therefore, this
+building type is normally treated using multizone air flow models.
+Nevertheless, two extreme cases can be calculated using the method
+in the standard: a) The staircase is not considered as a part
+of the building, b) The staircase is considered as a part of the
+zone (pstaircase = pzone). Flows for both cases must be calculated
+and the results be considered according to the specific application.
+<H2>Calculation method for <A NAME="room">room</A> air flow rates
+</H2>
+
+<P>
+The method gives total flow rates for an individual room in the
+dwelling. To perform the calculations, the whole dwelling flows
+must be determined first, using the methods outlined above.
+<P>
+It is assumed that the internal doors to the room under investigation
+are closed. More than one room may be considered as one zone if
+the internal partitions are removed or the connecting doors open.
+<P>
+The calculation procedure is applicable to heat load calculations
+only, giving conservative high flow rate values.
+<P>
+For indoor air quality evaluations, information on internal flows
+is needed that can only be determined by multizone modelling.
+For energy calculations, room air flow values are not considered
+to be relevant.
+<H2><A NAME="References">References</A></H2>
+
+<P>
+Draft standard CEN TC 156/ WG2/N203 : 'Calculation Methods for
+the Determination of Air Flow Rates in Dwellings', 16. Oct. 1995
+<HR>
+
+<P>
+<A HREF="#Introduction" >Beginning of article </A>
+<P>
+<A HREF="elecair.html" >AIR front page  </A>
+</BODY>
+
+</HTML>
+</DOC>

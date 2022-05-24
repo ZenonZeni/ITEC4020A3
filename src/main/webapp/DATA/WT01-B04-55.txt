@@ -1,0 +1,78 @@
+
+<DOC>
+<DOCNO>WT01-B04-55</DOCNO>
+<DOCOLDNO>IA080-000557-B035-137</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Thermcon.html 137.79.14.197 19970103071547 text/html 12070
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f351.335@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:20:49 GMT
+Last-Modified: Thursday, 04-Jan-96 19:24:39 GMT
+Content-type: text/html
+Content-length: 11823
+</DOCHDR>
+<TITLE>Thermal Control</title>
+<H3>Thermal Control</h3><p>
+<H5>Point of Contact:  Ramachandra Manvi</h5><p>
+The Martian environment imposes a very wide variation in ambient temperatures from  day to night.  Most electronics developed for Earth application require operating temperatures in the range 233 Kelvin to 313 Kelvin, and limits  for survival in extreme temperatures.  While it is hoped that some day, special electronics will be developed which can survive low temperatures and possibly even operate at low temperatures, the continuing pressure to drive costs down on space missions usually implies that low-cost standard electronics developed for room temperature operation will be employed on future Mars Landers.  We are working on the development of technology for low-temperature survivable electronics in a companion task in this RTOP. In addition, other components, particularly batteries lose performance as the temperature is lowered, and eventually become non-operable at very low temperatures.  Therefore, protecting electronics, batteries and other components from the low temperature Martian night environment is a critical need of Mars Lander missions.<p>
+
+Future Mars Landers are expected to draw their power from photovoltaic (PV) arrays.  As a result, significant power will only be available during sunlit hours. While batteries can be used to provide minimal power over night, the power they can supply is limited, and furthermore, they must be protected from very low temperatures at night.  It is exactly when temperatures are lowest that the least power is available for heaters to maintain the warmth of key components<p>
+     
+In order to cope with this problem, the Mars Pathfinder and 98 Lander missions will house electronics and batteries within enclosures which are very effectively insulated, and which contain Radioisotope Heating Units (RHUs) which produce a considerable amount of heat  for their mass (~ 1 W per 50 g).  Because mass is always very scarce, lightweight enclosures have been developed using ultra-efficient insulation (Ref. 27).  However RHUs are no longer being produced and the 98 Mars Lander will have to depend on left-over spare RHUs from the Cassini mission.  It is expected that RHUs will probably not be available for Mars missions after the 1998 launch.<p>
+
+Without RHUs to provide heat overnight, such warm electronics enclosures will go through very wide temperature swings during the diurnal cycle, despite the excellent warm electronics box (WEB) design developed by the Mars Pathfinder Program at JPL.  Therefore, post-1998 Mars Landers face a potential crisis in thermal control.  Based on recent modeling conducted under this RTOP, it is believed that the best way to provide thermal control in the absence of RHUs is to employ a scheme whereby heat is collected and stored during the day when the sun shines, and the heat is released at night to significantly reduce the diurnal temperature variation in an electronics/battery enclosure.  There is a ready source of heat during the day because the photovoltaic arrays associated with the lander generally operate above ambient temperature, and the structural members (frames or supports) for these PV arrays may be regarded as a substantial heat source for needs during the day.<p>
+
+Heat can be stored efficiently in phase-change material (PCM), a material that undergoes repeated cycles of melting and resolidification when thermally cycled above and below its melting point.  Dodecane, with its melting point of about 263K, is an obvious choice for our application.  Heat can be transported from the PV arrays to the PCM within the enclosure by means of miniature heat pipes filled with a working fluid such as butane or propylene.<p> 
+     
+However, even though use of PCM is a very appealing approach on paper, the application of PCM for heat storage has been problematic for several reasons.  One is that it is necessary to supply and remove heat from all parts of the PCM, and this in turn requires good conduction heat transfer within the bulk of the PCM. Secondly, there is always a significant change in volume when a material melts or solidifies, and if the voids left by a previous solidification are not uniformly distributed, large stresses can build up locally upon subsequent melting if no voids are available to a region of PCM to accommodate the resulting volume change.  Thirdly, many materials tend to supercool below their melting points without solidification, unless nodes are present as nucleation sites to serve as solidification  starting points.<p>  
+<img src="Manvi1.GIF"><p>
+<CENTER>
+<H4>Figure 1</h4>
+</center>
+The PCM composite materials are being developed by ESLI (A small business in San Diego) with SBIR funding, sponsored by the United States Air Force (Air Force Material Command, Phillips Laboratory, Kirtland AFB, New Mexico 87117-5777; Point of Contact:  Marko  Stoyanof, tel. 505-846-0775; Phase 1 Contract Number F29601-95-C-0098).  ESLI has developed a unique material which appears to overcome these three problems to using PCM as thermal capacitors.  It involves a network of high thermal conductivity carbon fibers (flocks) which occupy perhaps only 5% of a volume, as shown in Figure 1.  PCM is poured in to this matrix, which holds the PCM with capillary forces.  Heat transfer throughout the PCM region is rapid due to the network of carbon fibers.  Voids tend to collect at fiber tips and thus get distributed fairly uniformly throughout the bulk of the PCM.  Furthermore, the fibers also act as nucleation points for solidification, thus reducing supercooling.  This material is used to fabricate the MET warm electronics enclosure, as shown in Figure 2, for a highly efficient PCM heat storage.<p>
+<img src="Manvi2.GIF><p>
+<CENTER>
+<H4>Figure 2</h4>
+</center>
+An additional challenge lies in the diode heat pipe design.  We must be assured that the heat pipe is a diode with very low reverse conductance so it can transfer heat efficiently during the day and not lose much heat at night.  The plan is to use the naturally occurring gravity and have the exterior end of the heat pipe lower than the interior end.  Thus, at night, the working fluid will condense out and remain outside.  The conductance of the walls of the heat pipe must be sufficiently low to produce reverse conductance values that are low.  Figure 3 shows the present design.<p> 
+<img src="Manvi3.GIF><p>
+<CENTER>
+<H4>Figure 3</h4>
+</center>
+The initial effort in thermal control is to demonstrate the viability of a warm electronics/battery enclosure (WEE) using a PCM thermal capacitor, and including a diode heat pipe.  We will also attempt to use similar technology for energy saving in ISRU systems.<p> 
+     
+<H4>FY 95 Accomplishments</h4><p> 
+<UL>
+<LI>For missions to Mars without the use of Radioisotope Heater Units (RHUs), analysis of the MFEX Rover Warm Electronics Box (WEB) design showed that the aerogel only insulation design would not be adequate.  Analysis showed that the integration of Phase Change Material (PCM) panels with the aerogel insulation would meet the thermal requirements for diverse future Mars missions, including microrovers and power limited landers.  Carbon fiber flock PCM panels were developed and thermally cycled to show PCM panel concepts robustness. Miniature diode heat pipes were incorporated into the PCM panels and shown to have a high thermal efficiency.
+<LI>Designed and fabricated PCM panels  into a Warm Electronic Enclosure (WEE)  with foam insulation. The WEE was tested at both  1 atmosphere  pressure and 10 torr ambient pressure for 3 diurnal temperature cycles (- 80 degrees to 0 degrees C) representative of the Mars Pathfinder landing site.  During the 10 torr testing, the WEE maintained the interior temperatures within  -10 to +20 degrees C for a  72 W-hr heater power duty and within -25 to -3 degrees C for a 57.6 W-hr heater power duty load.
+</ul>
+<H4>FY96 Milestones</h4><p>
+<UL>
+<LI>Further demonstrate Martian diurnal thermal cycle performance of a simple generic WEE structure incorporating improved aerogel/composite insulation, PCM energy storage capability at ~ 270 K and miniature diode heat pipes.  Optimize the design of composite PCM panels for thermal enclosures. Demonstrate improved mechanical performance while improving thermal performance by increasing PCM mass fraction and reducing structural  mass.
+<LI>Demonstrate  a design for more realistic brassboard WEE's which provide thermal control during simulated earth operations, during simulated cruise, and after simulated landing on Mars.   Design  and build a brassboard WEE with application either for a Microrover or for use on a lander such as the Mars 98 or Mars 01 landers and evaluate its performance.  
+</ul>
+<H4>FY97 Milestones</h4><p>
+<UL>
+<LI>Perform long-term thermal cycling tests on realistic brassboard WEE's which provide thermal control during simulated earth operations, simulated cruise, and after simulated landing on Mars; one for use on a microrover, and the other for use on a lander.  Test in a vacuum and in a simulated Mars environment to ascertain creep, possible degradation in thermal performance, and structural load carrying capability. Characterize observations and document findings.
+<LI>Demonstrate significantly improved performance of the realistic brassboard WEE's compared to the present state-of-the-art WEB which do not include RHUs.
+</ul>
+<H4>Accomplishments</h4>
+During the FY'95, ESLI completed fabrication of a 6-inch side PCM (Dodecane) composite panels, and one special panel containing the Butane DHP.  Approximately 100 deep thermal cycling tests (-50 degrees C to +30 degrees C) were conducted on PCM panels, and 15 cycles on the DHP panel to assure that these performed as expected and were mechanically reliable .  A warm electronic enclosure (WEE) was then made by joining these panels and was fully instrumented with heaters and thermocouples and insulated with a 1-inch thick Rohacell insulation all around to undergo three deep thermal cycles at 1 atmosphere pressure, and approximating the Mars thermal environment.  The heater power (0 to 5 W ) was adjusted to mimic a typical payload duty cycle.  The warm electronic enclosure performed as expected by demonstrating that test results were repeatable as per design specifications.  They fully instrumented WEE assembly was then delivered to JPL for subsequent thermal vacuum tests.
+<CENTER>
+<H4>Figure 4</h4>
+</center>
+<img src="Manvi4&5.GIF">
+<CENTER>
+<H4>Figure 5</h4>
+</center>
+The WEE was tested at JPL in simulated 10-Torr Mars environment.  The WEE consisted of a 6-inch cubical box that included 5 Dodecane PCM panels and one Dodecane PCM panel with integrated butane diode heat pipe from Energy Sciences Laboratory (ESLI).  These panels were enclosed within a 1-inch thick Rohacell foam insulated box, as shown in Figure 5.  The test consisted of evaluating  the performance of the WEE and a reference thermal foam enclosure through three diurnal thermal cycles with heating applied to a simulated electronics mass to mimic a typical payload duty cycle.  Two duty cycles were evaluated, 8 watts maximum and 6.4 Watts maximum, for total heating of 72 W-hrs and 57.6 W-hrs.  The test showed reproducible phase transitions and maintained interior test temperatures within +20 degrees C and -25 degrees C.  These tests have demonstrated that the proposed WEE thermal control design is feasible.<p>
+<img src="Manvi6.GIF">
+<CENTER>
+<H4>Figure 6</h4>
+</center>
+Finite element models (FEM) have been developed to perform transient thermal analyses of the WEE.  The models are well suited for investigating moving phase fronts, and for studying optimization of PCM mass, as shown in Figure 6.
+<A HREF="Mars.html">Return to menu</a><p>
+<p>
+</DOC>

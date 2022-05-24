@@ -1,0 +1,204 @@
+
+<DOC>
+<DOCNO>WT02-B17-109</DOCNO>
+<DOCOLDNO>IA060-000330-B035-124</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/hydrogen/integrat.htm 205.168.79.27 19970115051312 text/html 4814
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 05:13:12 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 08 Jul 1996 22:35:25 GMT
+Content-length: 4640
+</DOCHDR>
+<HTML>
+<head>
+
+<title>Hydrogen InfoNet</title>
+
+</head>
+
+<body>
+
+<B>Integrated Analysis of Transportation Demand Pathway Options for <br>
+
+
+Hydrogen Production, Storage, and Distribution;<br>
+
+C.E. (Sandy) Thomas, Principal Investigator,<br>
+Directed Technologies, Inc.</B>
+
+<P>
+
+Most experts agree that hydrogen-powered vehicles could simultaneously 
+reduce crude oil 
+
+imports, urban air pollution and greenhouse gas emissions, particularly 
+if that hydrogen were 
+
+eventually produced from renewable energy such as solar, wind, 
+hydroelectric or biomass.  We 
+
+all know the end goal, but how do we get from here to there?  How do we 
+convince legislators, 
+
+government officials, the public and particularly industry that 
+hydrogen-powered vehicles can 
+
+compete in the marketplace without government subsidy?  How do we 
+construct a realistic, 
+
+viable pathway to move from virtually total dependence on 
+gasoline-powered vehicles to clean 
+
+hydrogen vehicles?
+
+<P>
+
+Previous studies have independently analyzed hydrogen production, 
+storage and distribution 
+
+options, along with fuel cell vehicle technology and, to a limited 
+degree, market penetration 
+
+scenarios for hydrogen powered vehicles.  This project will integrate 
+previous work into a set of 
+
+coherent programmatic pathways that illustrate how hydrogen-powered 
+vehicles can enter the 
+
+market in substantial quantities.
+
+<P>
+
+Each programmatic pathway will include a computer model integrating four 
+elements of the 
+
+transportation sector: vehicle technology; hydrogen refueling 
+infrastructure; market scenarios; 
+
+and government actions.  Each segment is represented in the model by a 
+time series, such as the 
+
+price of hydrogen over time, or the number of fuel cell vehicles sold 
+over time, or the amount of 
+
+industry investment in fuel cell vehicles or hydrogen infrastructure 
+over time.  The elements are 
+
+interrelated; the fuel cell vehicle (FCV) price depends on the total 
+number of vehicles 
+
+manufactured through the previous year.  The number of FCVs sold depends 
+in part on the 
+price.  And price depends on government and industry investments.
+
+<P>
+
+The key inputs to this model are government actions, including but not 
+limited to R&D 
+
+investments, incentives, codes and standards, demonstration projects, 
+and education.  The 
+
+primary outputs are the return on investment for industry and, for 
+government, the contribution 
+
+to societal objectives of cleaner air, reduced oil imports and reduced 
+greenhouse gas emissions.  
+
+The intent of the model is to permit the DOE Program Manager to assess 
+the effects of making 
+
+government investments - by investing a relatively small amount now in 
+hydrogen R&ampD, 
+
+industry will be induced to make the much larger investments needed 
+later to make fuel cell 
+
+vehicles a reality.  
+
+<P>
+
+<b><I>Recent Activities:</I></b>
+
+<P>
+
+We completed a preliminary literature search in the three target
+
+areas:  fuel cell vehicle technology, hydrogen infrastructure
+
+studies, and fuel cell vehicle market penetration analysis.  We
+
+also identified major reports on the environmental impact of fuel
+
+cell vehicles.  A time-dependent, interactive model structure
+
+was written that includes eight major time series from 1996 to
+
+2030:
+
+<P>
+
+<ul>
+
+<li>Cumulative number of fuel cell vehicles (FCVs)
+
+sold over time
+
+<li>FCV price over time
+
+<li>FCV investment over time (government and industry)
+
+<li>Industry profit over time
+
+<li>Hydrogen production required over time
+
+<li>Hydrogen cost over time
+
+<li>Hydrogen investment over time
+
+<li>Hydrogen industry profits over time.
+
+</ul>
+
+<P>
+
+These various functions are interdependent.  For example, the
+
+model assumes that the number of FCVs sold each year depends on
+
+the FCV price relative to the competition.  The FCV price depends
+
+on the initial price, the degree of R&D investment (input
+
+parameter) in fuel cell systems, and the cumulative number of
+
+FCVs sold.  Initially, the FCV price is too high for significant
+
+sales, so the model assumes government-industry cost-shared 
+demonstration
+
+projects to bring the price down.  A manufacturing "learning
+
+curve" is assigned to each element of the FCV, so that
+
+the price falls as more units are produced.  As more FCVs are sold,
+
+the price falls further, simulating the actual marketplace.  We
+
+have entered reliable data on hydrogen costs, based primarily
+
+on the extensive hydrogen gas industry study conducted by the
+
+Ford Motor Company as part of the DOE direct hydrogen fuel cell
+
+vehicle project.  The amount of hydrogen is linked to the cumulative
+
+number of FCVs on the road.
+
+</body>
+
+</HTML>
+
+</DOC>

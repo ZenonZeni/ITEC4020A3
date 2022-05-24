@@ -1,0 +1,153 @@
+
+<DOC>
+<DOCNO>WT03-B15-316</DOCNO>
+<DOCOLDNO>IA049-000852-B019-445</DOCOLDNO>
+<DOCHDR>
+http://www.camecon.demon.co.uk:80/microfit/mic_book.htm 194.222.200.55 19970120001554 text/html 5564
+HTTP/1.0 200 OK
+Server: thttpd/1.00.dis++
+Content-type: text/html
+Content-length: 5433
+Last-modified: Fri, 17-Jan-97 10:23:20 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//SQ//DTD HTML 2.0 + all extensions//EN" "hmpro3.dtd">
+<HTML>
+<HEAD>
+<TITLE>Working with Microfit - Booking Form</TITLE></HEAD>
+<BODY>
+<HR>
+<CENTER>
+<H1><I>Working with Microfit</I></H1>
+<H1>Booking Form</H1></CENTER>
+<HR>
+<FORM>
+<TABLE WIDTH="100%" BORDER="0" ALIGN="CENTER">
+<TR>
+<TD WIDTH="20%">Last name:</TD>
+<TD><INPUT TYPE="TEXT" NAME="L_name" SIZE="30"></TD></TR>
+<TR>
+<TD>First name:</TD>
+<TD><INPUT TYPE="TEXT" NAME="F_name" SIZE="30"></TD></TR>
+<TR>
+<TD>Organisation:</TD>
+<TD><INPUT TYPE="TEXT" NAME="Org" SIZE="50"></TD></TR>
+<TR>
+<TD>Address:</TD>
+<TD>
+<TEXTAREA ROWS="4" COLS="54" NAME="Addr"></TEXTAREA></TD></TR>
+<TR>
+<TD>Tel:</TD>
+<TD><INPUT TYPE="TEXT" NAME="Tel"></TD></TR>
+<TR>
+<TD>Date:</TD>
+<TD><INPUT TYPE="TEXT" NAME="Date"></TD></TR></TABLE>
+<P></P>
+<TABLE WIDTH="100%" BORDER="0" ALIGN="CENTER">
+<TR>
+<TD WIDTH="70%">I wish to attend the course <I>Working with Microfit</I> at
+Newnham College, Cambridge on</TD>
+<TD ALIGN="LEFT">9th April 1997</TD>
+<TD><INPUT TYPE="CHECKBOX" NAME="9th"></TD></TR>
+<TR>
+<TD></TD>
+<TD ALIGN="LEFT">10th April 1997</TD>
+<TD><INPUT TYPE="CHECKBOX" NAME="10th"></TD></TR>
+<TR>
+<TD></TD>
+<TD ALIGN="LEFT">11th April 1997</TD>
+<TD><INPUT TYPE="CHECKBOX" NAME="11th"></TD></TR></TABLE>
+<P></P>
+<P>Numbers attending the course are restricted.  To reserve a place, please
+complete and post this form as soon as possible to: Ben Gardiner, Workshop
+Organiser, Cambridge Econometrics, Covent Garden, Cambridge CB1 2HS, United
+Kingdom. Tel (0)1223 460760, Fax (0)1223 464378</P>
+<P>Cost for one person (Academic and CE subscriber discounts available)</P>
+<TABLE WIDTH="100%" BORDER="0" ALIGN="CENTER">
+<TR>
+<TD COLSPAN="2">3 days residential (overnight 9th &amp; 10th)</TD>
+<TD ALIGN="RIGHT" WIDTH="15%">&#163;899 + VAT</TD>
+<TD><INPUT TYPE="RADIO" NAME="Duration" VALUE="3d_res" CHECKED="CHECKED"></TD></TR>
+<TR>
+<TD COLSPAN="2">3 days non-residential</TD>
+<TD ALIGN="RIGHT">&#163;819 + VAT</TD>
+<TD><INPUT TYPE="RADIO" NAME="Duration" VALUE="3d_nonres"></TD></TR>
+<TR>
+<TD COLSPAN="2">2 days residential (overnight 9th or 10th)</TD>
+<TD ALIGN="RIGHT">&#163;739 + VAT</TD>
+<TD><INPUT TYPE="RADIO" NAME="Duration" VALUE="2d_res"></TD></TR>
+<TR>
+<TD COLSPAN="2">2 days non-residential</TD>
+<TD ALIGN="RIGHT">&#163;699 + VAT</TD>
+<TD><INPUT TYPE="RADIO" NAME="Duration" VALUE="2d_nonres"></TD></TR>
+<TR>
+<TD COLSPAN="2">1 day non-residential</TD>
+<TD ALIGN="RIGHT">&#163;479 + VAT</TD>
+<TD><INPUT TYPE="RADIO" NAME="Duration" VALUE="1d_nonres"></TD></TR>
+<TR>
+<TD COLSPAN="2">Add if required:</TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD WIDTH="3%"></TD>
+<TD WIDTH="30%">previous night (8th)</TD>
+<TD ALIGN="RIGHT">&#163;27 + VAT</TD>
+<TD><INPUT TYPE="CHECKBOX" NAME="prev_ni"></TD></TR>
+<TR>
+<TD></TD>
+<TD>following night (11th)</TD>
+<TD ALIGN="RIGHT">&#163;27 + VAT</TD>
+<TD><INPUT TYPE="CHECKBOX" NAME="follo_ni"></TD></TR>
+<TR>
+<TD COLSPAN="2">Non-participating companion</TD>
+<TD></TD>
+<TD><INPUT TYPE="CHECKBOX" NAME="N.P.C"></TD></TR>
+<TR>
+<TD></TD>
+<TD>enter details</TD>
+<TD></TD>
+<TD><INPUT TYPE="TEXT" SIZE="60"></TD></TR></TABLE>
+<P>(If you wish to bring a non-participating companion, such as a wife or
+husband, please contact Lynda Edwards (Cambridge Econometrics) for details of
+charges <I>before</I> completing this booking form.)</P>
+<P>ADVANCE BOOKING DISCOUNTS:  Three-day bookings will be available at the
+discounted rates of &#163;849 + VAT (residential) and &#163;769 + VAT
+(non-residential) until 7th March, and will be charged at the full rates
+thereafter.  The other types of booking will be available only after that date.</P>
+<P>Both residential and non-residential participants are provided with all
+meals and refreshments (including the Course Dinner on 9th April) and also
+conference materials.  Refunds in respect of any cancellation are available if
+notice in writing is received by 7th March, but not thereafter.  We reserve the
+right to cancel the course. Cheques should be made out to Cambridge
+Econometrics.</P>
+<TABLE WIDTH="100%" BORDER="0" ALIGN="CENTER">
+<TR>
+<TD COLSPAN="2">I enclose payment (please add 17.5% VAT if UK purchaser)</TD>
+<TD><INPUT TYPE="RADIO" NAME="payment" VALUE="pay_enc" CHECKED="CHECKED"></TD></TR>
+<TR>
+<TD COLSPAN="2">I request invoice (please provide reference or order number if
+possible)</TD>
+<TD><INPUT TYPE="RADIO" NAME="payment" VALUE="invoice"><INPUT
+TYPE="TEXT" SIZE="30" NAME="inv_det"></TD></TR>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD>We are in the European Union and our Value-Added Tax number is</TD>
+<TD><INPUT TYPE="RADIO" NAME="VAT" VALUE="in_EU" CHECKED="CHECKED"><INPUT
+TYPE="TEXT" NAME="VAT_num" SIZE="30"></TD></TR>
+<TR>
+<TD></TD>
+<TD>We are not in the European Union / we are not registered for Value-Added
+Tax</TD>
+<TD><INPUT TYPE="RADIO" NAME="VAT" VALUE="out_EU"></TD></TR>
+<TR>
+<TD COLSPAN="2">I have the following special requirements (e.g. vegetarian menu
+at Course Dinner):</TD>
+<TD><INPUT TYPE="TEXT" SIZE="35" NAME="spe_req"></TD></TR></TABLE>
+<HR>
+<CENTER>
+<P><INPUT TYPE="RESET" VALUE="Restore to defaults"></P></CENTER></FORM>
+<HR>
+<CENTER>
+<P><A HREF="http://www.camecon.demon.co.uk/microfit/microfit.htm">Return To
+Programme</A>  <A HREF="http://www.camecon.demon.co.uk/microfit/mic_teac.htm">Course
+Teachers</A></P></CENTER></BODY></HTML>
+</DOC>

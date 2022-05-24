@@ -1,0 +1,166 @@
+
+<DOC>
+<DOCNO>WT02-B21-101</DOCNO>
+<DOCOLDNO>IA032-000663-B022-239</DOCOLDNO>
+<DOCHDR>
+http://www.zeco.com:80/intrest.html 198.68.188.69 19970209122450 text/html 6612
+HTTP/1.0 200 Document follows
+Date: Sun, 09 Feb 1997 12:23:54 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 24 Jan 1997 23:28:51 GMT
+Content-length: 6438
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>ZEGRAHM EXPEDITIONS RESPONSE FORM</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF" TEXT="000000" LINK="0000FF" VLINK="FF0000" ALINK="00FF00">
+<CENTER>
+<IMG SRC="zeg.gif" ALT="zeg.gif" WIDTH=326 HEIGHT=126>
+<P>
+<TABLE BORDER=1 BGCOLOR=ADEAEA ALIGN=CENTER><TR><TD><B><FONT SIZE=7><CENTER>RESPONSE FORM</CENTER></FONT></TD></TR></TABLE><BR>
+</CENTER>
+<P>
+<HR>
+<FORM ACTION="/cgi-bin/formmail.pl" METHOD=POST>
+<INPUT TYPE=hidden name="return_link_url" VALUE="http://www.zeco.com/zeco.html">
+<INPUT TYPE=hidden name="return_link_title" VALUE="Back to Zegrahm Expeditions">
+<INPUT TYPE=hidden name="title" VALUE="Responce Form">
+<INPUT TYPE=hidden name="sort" VALUE="order:First_Name,Last_Name,Street_Address,City_State_Zip,Country,Phone,Fax,email,Found_Us,Name_of_Ad,Name_of_Mag,Other,Brochures,Interests,Travel_Interests,Time_of_Year,Months_in_Advance,Length_of_Travel">
+<INPUT TYPE=hidden name="print_config" value="subject,email">
+<INPUT TYPE=hidden name="env_report" VALUE="REMOTE_HOST,HTTP_USER_AGENT,REMOTE_ADDR,HTTP_REFERER">
+<INPUT TYPE=hidden name="subject" VALUE="Response Form">
+<INPUT TYPE=hidden name="recipient" VALUE="zoe@zeco.com">
+
+<BR><FONT SIZE=4><B>First Name:</B>        <INPUT TYPE="text" NAME="First_Name" SIZE=25 VALUE=""></FONT>
+<BR><FONT SIZE=4><B>Last Name:</B>         <INPUT TYPE="text" NAME="Last_Name" SIZE=25 VALUE=""></FONT>
+<BR><FONT SIZE=4><B>Street Address:</B>    <INPUT TYPE="text" NAME="Street_Address" SIZE=35 VALUE=""></FONT>
+<BR><FONT SIZE=4><B>City, State, Zip:</B>  <INPUT TYPE="text" NAME="City_State_Zip" SIZE=35 VALUE=""></FONT>
+<BR><FONT SIZE=4><B>Country:</B>           <INPUT TYPE="text" NAME="Country" SIZE=30 VALUE=""></FONT>
+<BR><FONT SIZE=4><B>E-Mail Address:</B>    <INPUT TYPE="text" NAME="email" SIZE=35 VALUE=""></FONT>
+<BR><FONT SIZE=4><B>Phone Number:</B>      <INPUT TYPE="text" NAME="Phone" SIZE=25 VALUE=""></FONT>
+<BR><FONT SIZE=4><B>Fax Number:</B>        <INPUT TYPE="text" NAME="Fax" SIZE=25 VALUE=""></FONT>
+<P>
+
+<HR WIDTH=50% ALIGN=LEFT>
+<B>How did you find our Web Site?</B>
+<BR><I>Multiple items may be chosen.</I>
+<BR><B><INPUT TYPE="checkbox" NAME="Found_Us" VALUE="Search">Internet Search Engine (Yahoo, Lycos, Webcrawler, etc.)</B>
+<BR><B><INPUT TYPE="checkbox" NAME="Found_Us" VALUE="Link">Link From Another Site</B>
+<BR><B><INPUT TYPE="checkbox" NAME="Found_Us" VALUE="Zoe_Mail">Zegrahm Newsletter or Brochure</B>
+<BR><B><INPUT TYPE="checkbox" NAME="Found_Us" VALUE="Ad">Advertisement</B>
+<BR>Name of Publication: <INPUT TYPE="text" NAME="Name_of_Ad" SIZE=26 VALUE="">
+<BR><B><INPUT TYPE="checkbox" NAME="Found_Us" VALUE="Magazine">Magazine or Newspaper Article</B>
+<BR>Name of Publication: <INPUT TYPE="text" NAME="Name_of_Mag" SIZE=26 VALUE="">
+<BR><B><INPUT TYPE="checkbox" NAME="Found_Us" VALUE="Referral">Friend or Referral</B>
+<BR><B>Other: <INPUT TYPE="text" NAME="Other" SIZE=26 VALUE=""></B>
+<P>
+<HR WIDTH=50% ALIGN=LEFT>
+<B>Please send me <U>brochures</U> on the following destinations:</B>
+<BR><I>Hold Down CTRL key for Multiple Selections</I>
+<BR><SELECT NAME="Brochures" Size=5 MULTIPLE>
+<OPTION> Antarctica
+<OPTION> Antarctica The Far Side
+<OPTION> Antarctica South Georgia and The Falklands
+<OPTION> Kimberley/Australian Outback
+<OPTION> Polynesia Under Sail (with Easter Island Extension)
+<OPTION> Micronesia (Palau/Yap)
+<OPTION> Peru (land program)
+<OPTION> Seychelles/Madagascar/Comores/Zanzibar
+<OPTION> Botswana
+<OPTION> 'Round Britain
+<OPTION> Circumnavigation of Baffin Island
+<OPTION> Spitsbergen and Franz Joseph Land
+<OPTION> Winter Samiland Expedition
+<OPTION> North Pole
+<OPTION> Kamchatka Peninsula and Aleutian Island
+<OPTION> Egypt
+<OPTION> India
+<OPTION> Bali and Torajaland
+</SELECT>
+<P>
+<HR WIDTH=50% ALIGN=LEFT>
+<B>Please add me to the <U>Interest list</U> for the following future expeditions which are presently on the Drawing Board.  Once the brochure has been printed, you will be among the first to receive it.</B>
+<BR><I>Hold Down CTRL key for Multiple Selections</I>
+<BR><SELECT NAME="Interests" Size=5 MULTIPLE>
+<OPTION> Sub-Antarctic Islands "Down Under"
+<OPTION> Circumnavigation of South Georgia and the Falklands
+<OPTION> Burma (Myanmar)/Laos
+<OPTION> Papua New Guinea
+<OPTION> Asmat/Indonesia
+<OPTION> West Coast of South America (Peru/Chile)
+<OPTION> Pantanal (Brazil)
+<OPTION> Maldives
+<OPTION> Shetlands/Faeroe Islands/Iceland
+<OPTION> Greenland
+<OPTION> Canadian Arctic
+<OPTION> NorthWest Passage
+<OPTION> Yemen and Oman
+<OPTION> Turkey/Greek Islands (by sailing vessel)
+</SELECT>
+<P>
+<HR WIDTH=50% ALIGN=LEFT>
+<B>What <U>Travel interests</U> do you have?</B>
+<BR><I>Hold Down CTRL key for Multiple Selections</I>
+<BR><SELECT NAME="Travel_Interests" Size=5 MULTIPLE>
+<OPTION> Anthropology
+<OPTION> Archeaology
+<OPTION> Birding
+<OPTION> Diving
+<OPTION> Geology
+<OPTION> History
+<OPTION> Marine History
+<OPTION> Museums/Art
+<OPTION> Photography
+<OPTION> Snorkeling
+</SELECT>
+<P>
+<HR WIDTH=50% ALIGN=LEFT>
+<B>What <U>Time of year</U> do you prefer traveling?</B>
+<BR><SELECT NAME="Time_of_Year">
+<OPTION>
+<OPTION> Jan/Feb
+<OPTION> Mar/Apr
+<OPTION> May/Jun
+<OPTION> Jul/Aug
+<OPTION> Sep/Oct
+<OPTION> Nov/Dec
+</SELECT>
+<P>
+<B>How <U>far in advance</U> do you plan your expeditions?</B>
+<BR><SELECT NAME="Months_in_Advance">
+<OPTION>
+<OPTION> 3 months 
+<OPTION> 6 months
+<OPTION> 9 months
+<OPTION> 12 months
+<OPTION> more than a year
+</SELECT>
+<P>
+<B>How <U>long</U> do you like to travel?</B>
+<BR><SELECT NAME="Length_of_Travel">
+<OPTION>
+<OPTION> 1 week
+<OPTION> 2 weeks
+<OPTION> 3 weeks
+<OPTION> more than 4 weeks
+</SELECT>
+<P>
+<BR>
+<INPUT TYPE="submit" VALUE="Submit"> <INPUT TYPE="reset" VALUE="Reset">
+</FORM>
+<HR>
+<A HREF="index.html" TARGET="_top"><IMG SRC="back.gif" ALT="back.gif" WIDTH=60 HEIGHT=25> Back To Zegrahm Expeditions</A>
+<P>
+<FONT SIZE=2><B><img src="letter.gif" ALT="letter.gif" WIDTH=35 HEIGHT=18>e-mail:  </FONT></B><FONT SIZE=4><B>zoe@zeco.com<BR CLEAR=Right></B></FONT>
+<FONT SIZE=3><B>Zegrahm Expeditions</B><BR CLEAR=Right></FONT>
+<FONT SIZE=2><B>1414 Dexter Ave N #327<BR CLEAR=Right>
+Seattle, WA. 98109<BR CLEAR=Right>
+<MARQUEE ALIGN=middle BGCOLOR=FFFFFF BEHAVIOR=Scroll LOOP=infinite DIRECTION=left SCROLLDELAY=10 SCROLLAMOUNT=2 HEIGHT=2% WIDTH=100% VSPACE=1><BLINK>Call us Toll Free 1-800-628-8747</BLINK></MARQUEE><BR CLEAR=Right>
+(206) 285-4000<BR CLEAR=Right>
+FAX (206)285-5037<BR CLEAR=Right></B></FONT>
+<FONT SIZE=1>&#169; 1996 Zegrahm Expeditions</FONT>
+</BODY>
+</HTML>
+</DOC>

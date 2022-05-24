@@ -1,0 +1,203 @@
+
+<DOC>
+<DOCNO>WT01-B06-60</DOCNO>
+<DOCOLDNO>IA053-000894-B002-134</DOCOLDNO>
+<DOCHDR>
+http://www.aaii.org:80/ci/val2art4.html 206.30.246.237 19970111222832 text/html 14735
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Saturday, 11-Jan-97 22:31:10 GMT
+Last-modified: Wednesday, 12-Jun-96 01:17:35 GMT
+Content-length: 14546
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>American Association of Individual Investors</title>
+
+<META HTTP-EQUIV="CVS-file"     CONTENT="$RCSfile: val2art4.html,v $">
+<META HTTP-EQUIV="CVS-revision" CONTENT="$Revision: 1.7 $">
+<META HTTP-EQUIV="CVS-date"     CONTENT="$Date: 1996/06/12 01:17:33 $ UTC">
+</head>
+
+<body background="../gif/aaiiback.gif">
+
+
+
+<P ALIGN="center">
+<A HREF="../map/head.map"><IMG SRC="../gif/head_comp.gif" ALT="header" WIDTH=600 HEIGHT=64 BORDER=0 ISMAP></A>
+<BR>
+<H2 ALIGN="center"> Review of Super Charts 1.0<BR>
+Omega Research, Inc.</H2>
+<hr>
+<STRONG>Reviewed by Howard Bandy</STRONG><P>
+
+SuperCharts is a Windows-based charting and technical analysis program that plots data for stocks, bonds, futures, options, and mutual funds. The software includes many technical indicators and supports the creation of new ones. Trading systems can be created and tested on historical data. <P>
+
+<STRONG> -System Requirements-</STRONG> <P>
+
+SuperCharts requires a 286, 386 or 486 processor with 2 megabytes of memory, although 4 megabytes are recommended. Windows version 3.0 or higher is needed with about 5 megabytes of hard disk space. A math co-processor is fully supported, but not essential. A color graphics monitor is required, preferably with high resolution. A high density floppy drive is required to load the program. <P>
+
+The separate, self-contained SuperCharts demonstration program requires about 2.5 megabytes, and will run from DOS. <P>
+
+<STRONG> -Data Requirements-</STRONG> <P>
+
+SuperCharts will accept data directly in formats supported by major data services and other technical analysis programs including: TeleChart 2000, MetaStock, AIQ, CSI, ASCII, Tick Data Inc., Knight Ridder, and CompuTrac.  Data frequency can be tick-by-tick, daily, weekly, or monthly. Data compression, if desired, is handled on-the-fly as data files are read. The data you have already collected can probably be used without modification. SuperCharts does offer direct downloading of security data from on-line vendors. <P>
+
+Storing price and volume data will require about 10 kilobytes per stock per year of daily data. <P>
+
+SuperCharts provides tools to maintain the database. Securities can be added, deleted, or renamed. Data can be added, inserted, deleted, edited, or adjusted for splits. <P>
+
+<STRONG> -Installation-</STRONG> <P>
+
+It is a good idea to install and run the demo first. Windows must be installed prior to installation of SuperCharts. The only difficulty I experienced was a conflict between the DOS 6.0 anti-virus TSR routine and the SuperCharts installation routine. A call to Omega Research technical support quickly identified the problem, the TSR was temporarily removed, and the remainder of the installation went smoothly. <P>
+
+As one step of installation, Super-Charts scans all hard drives installed, identifies data it is able to process, and places the drive and directory paths in one of its pull-down menus for later access. As another step, it verifies the correct operation of all studies, systems, and functions on your computer. Finally, it creates a Program Manager Group containing the SuperCharts icons. <P>
+
+<STRONG> -Tutorial-</STRONG> <P>
+
+For first-time Windows users, Super-Charts includes a tutorial that begins with an introduction to the use of a mouse, the elementary operation of Windows programs, and the manipulation of files. Experienced users can skip this part. <P>
+
+The tutorial then goes through six lessons that include:
+<UL><LI> Manipulating pages (screen layouts)
+<LI>  Creating new pages and charts
+<LI>  Applying graphical tools such as trend lines
+<LI>  Applying analytical and indicator tools such as moving averages
+<LI>  Creating custom indicators
+<LI>  Creating and testing a custom trading system</UL>
+
+<STRONG> -Overview-</STRONG> <P>
+
+The primary unit of SuperCharts data is the page. Pages are saved to and retrieved from the hard disk. Each page can contain from one to 20 chart windows. Each chart window contains the historical price data of a stock (or commodity, index, etc.) Optionally displayed with the first price data series (the one that is being analyzed) are price data series from additional stocks or indexes, and technical indicators and studies. <P>
+
+A typical page could contain one stock and several indicators and studies; or it could contain a set of related stocks and indexes along with some technical indicators and studies. Figure 4 illustrates a page displaying three automotive stocks and the S&P 500. <P>
+
+The individual chart windows can be arranged, moved, and resized as desired. Upon retrieval, the page is restored to the configuration it had when stored. A typical page takes 2,000 to 10,000 bytes of hard disk space in addition to the data files. <P>
+
+In order to set up a chart, a new window is opened and the data is loaded into that window. When loading, tick data can be compressed into intra-day bars of any number of ticks or minutes. Daily data can be loaded as daily or compressed into weekly or monthly data. You can load either the entire data series or a portion of it. Over 50 years of daily data (or about 16,000 ticks) can be accommodated. <P>
+
+Once a page is defined and saved, changes and additions to the data file will be displayed automatically when the page is re-opened. <P>
+
+After setting up one page with price, volume, and several indicators, it is an easy procedure to create copies of that page that are alike in every respect except the data file. Up to 1,000 pages can be saved. My memory of which securities and indicators were on a given page began to fail, so I took advantage of the find command to locate particular pages. <P>
+
+<STRONG> -Tools-</STRONG> <P>
+
+Toolbars along the edges of the screen contain icons for the most common tools or operations. Each tool is also accessible through keyboard strokes. A macro facility is available to record and playback keyboard operations. <P>
+
+Tools include those that create and modify chart items such as trend lines, equally spaced cycle lines, Fibonacci cycle lines, rectangles, ellipses, Gann fan lines, arrows, and text. Complete control over the configuration of each tool is provided. Line type (solid, dashed, dotted), line color, and line width can all be set as the user desires. <P>
+
+It is easy to place a tool on a chart. And it is easy to modify, move, or erase it. Tools will remain in the same position relative to the data when the page is next opened. Those tools that extend past the right margin, such as trendlines, will be automatically extended as additional data is added to the file. <P>
+
+There are four ways to control the amount of data charted. Bar spacing can be adjusted so bars are close together or apart. Scroll bars can be used to scroll left or right. Users can zoom in on an area of the chart. Data can be compressed, from daily to weekly, for example. If trendlines are in place when data is compressed, they stay in their correct positions. <P>
+
+<STRONG> -Technical Indicators-</STRONG> <P>
+
+A library of over 100 technical indicators is provided Table 2 contains a partial listing. Each has been written using the QuickEditor and EasyLan-guage  and can be used as-is or modified as desired. Most indicators have parameters that can be easily changed without having to re-enter the formula. This allows for a quick change of moving average periods, for example. <P>
+
+Any number of indicators can be displayed along with price or in one of seven optional subgraphs in that same window. All graphs in a window are linked by dates, so scrolling and compression are handled correctly. <P>
+
+Tools, such as trendlines, can be applied to indicators just as they can be applied to prices. <P>
+
+SuperCharts is also compatible with all indicator studies (and trading systems) written using TradeStation and System Writer 3.0, to the extent that SuperCharts will allow those studies to be plotted but not modified. <P>
+
+While simple in concept, QuickEditor seems limiting with its fill-in-the-blank style and single-line limitation. It is sometimes difficult to see or imagine an entire study at one time. <P>
+
+There are a limited number of formulas or equations in an indicator or a system test. If one formula refers to an earlier one, the formula must be re-entered rather than simply referenced. (At least I was unable to link indicators and studies together without retyping the formulas.) <P>
+
+<STRONG> -Features-</STRONG> <P>
+
+The Show Me feature places a colored dot above or below a set of bars that satisfy a set of conditions. Figure 5  shows all occurrences of four successively lower closing prices followed by a higher close. <P>
+
+A small, useful library of Show Me studies is provided. They also act as models for custom studies. <P>
+
+The Paint Bars feature changes the colors of the price bars that satisfy a set of conditions. <P>
+
+Paint Bars and Show Me are excellent tools for locating patterns that precede market action. <P>
+
+<STRONG> -Profitability Testing-</STRONG> <P>
+
+SuperCharts accepts long and short positions, commissions, slippage, and several varieties of stops. It recognizes the relationship between the size of a futures contract, the minimum price movement, and the dollar value of each move. Targets and stops can be set in percentages or in dollar values. <P>
+
+After testing, a graphical display of buy and sell signals is displayed along with the price data. A written or printed trade-by-trade listing and summary is also available. Like trendlines and other studies, when additional data is added to the file, the profitability test will be brought up to date the next time the page is opened, showing clear buy and sell signals. Figure 6 displays the signals from a simple moving average trading system, and Figure 7 shows a portion of the summary report (similar sections detail the long transactions and short transactions). <P>
+
+A small library of classical trading systems is included. The QuickEditor can be used to create others. <P>
+
+SuperCharts is weak in system testing and optimization operations. It is very slow and tedious to change arguments to a system and reapply that system to a single stock. There are no features to apply a trading system to a selection of stocks or apply a selection of systems to a single stock. There are no features to vary an argument through a range and observe the effect on a trading system; however, Omega Research does offer System Writer and TradeStation for that purpose. <P>
+
+The following is a Library of available indicators available in Supercharts 1.0<P>
+                   
+<PRE>Accumulation Distribution         Paint Bar Library<BR>
+Accumulation Swing Index          Close Average &gt; Open Average<BR>
+Bearish Divergence                Close Average &lt; Open Average<BR>
+Bollinger Bands                   Momentum Increasing<BR>
+Bullish Divergence                Momentum Decreasing<BR>
+Commodity Channel Index           Percent R &gt; x<BR>
+Commodity Selection Index         Percent R &lt; x<BR>
+Directional Movement Index        Price &gt; x Bar Average<BR>
+Down Ticks                        Price &lt; x Bar Average<BR>
+Gapless Bar Chart                 Volume<BR>
+Herrick Payoff Index              Volatility<BR>
+Linear Regression Angle           Up Ticks<BR>
+Linear Regression Slope           Ultimate Oscillator<BR>
+Linear Regression Value           Trend Line Value<BR>
+Market Facilitation Index         Trend Line Slope<BR>
+McClellan Oscillator              Trend Line Angle<BR>
+Momentum Oscillator               Total Ticks<BR>
+Moving Average Convergence Divergence<BR>
+Moving Average Displaced          Swing Index<BR>
+Moving Average Envelopes          Stochastics - Slow<BR>
+Moving Average Exponential        Stochastics - Fast<BR>
+Moving Average Weighted           Standard Deviation<BR>
+On Balance Volume                 Spread<BR>
+Open Interest                     Relative Strength Index (RSI) <BR>
+Parabolic                         Rate of Change<BR>
+Percent R                         Price Channel<BR>
+Show Me Library                   Trading Systems<BR>
+Break Out of x Bar High           CCI Average Crossover<BR>
+Break Out of x Bar Low            Channel Breakout<BR>
+Consecutive x Bar Up              Consecutive Closes<BR>
+Consecutive x Bar Down            Divergence<BR>
+Gap Up                            Key Reversal<BR>
+Gap Down                          MACD<BR>
+Inside Bar                        Moving Average Crossover<BR>
+Island Reversal Up                Parabolic<BR>
+Island Reversal Down              Percent R Oscillator<BR>
+Key Reversal Up                   RSI Oscillator<BR>
+Key Reversal Down                 Stochastic Crossover<BR>
+Outside Bar                       Weighted Average Crossover<BR>
+XAverage Crossover</PRE><P>
+
+<STRONG> -Documentation-</STRONG> <P>
+
+Full help from a drop-down menu is available at all times. The help screens essentially duplicate the reference manual. <P>
+
+Omega Research maintains a bulletin board for registered users of its products. At the time I logged on, the bulletin board contained some updated device drivers. <P>
+
+The manual needs to be expanded with more explanations and examples, particularly in the description of functions. It could also use a better index. <P>
+
+<STRONG> -Customizing SuperCharts-</STRONG> <P>
+
+One of the strengths of SuperCharts is the ease of its customization. Windows can be sized and positioned as desired. Tools can be placed, modified, and moved. Library studies can be modified. Custom indicators and studies can be created. Icons can be assigned to pages, indicators, or studies. Toolbars can be relocated or hidden. <P>
+
+<STRONG> -Conclusion-</STRONG> <P>
+
+SuperCharts is a powerful and flexible graphically oriented technical analysis package that deserves serious consideration by every person looking for his or her first technical analysis program and by most people who already have one. The program's features that preserve and extend tools and studies  as new data is added are particularly helpful. <P>
+
+Howard Bandy began his computer career in 1958. He has worked in private industry and higher education, specializing in modeling and simulation. <P>
+
+The figures refered to in this article are stored as gif files in the demo section of the Software Library. <P>
+
+<HR>
+<p align=center><A HREF="../home.html">AAII Home</A> | <A HREF="../index.html">Index Page</A> | <A HREF="mailto:aaiimembr@aol.com">Email</a> | <A HREF="http://networth.galt.com">NETworth Home</A></p>
+
+<!TAIL>
+<HR>
+
+
+<!/TAIL>
+
+
+
+</body>
+</html>
+</DOC>

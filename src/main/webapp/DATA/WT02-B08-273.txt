@@ -1,0 +1,338 @@
+
+<DOC>
+<DOCNO>WT02-B08-273</DOCNO>
+<DOCOLDNO>IA021-000219-B022-45</DOCOLDNO>
+<DOCHDR>
+http://tethys.jpl.nasa.gov:80/ 128.149.33.75 19970107090734 text/html 10497
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 07-Jan-97 09:05:54 GMT
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE htmlplus PUBLIC "-//Internet/RFC xxxx//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Topex/Poseidon Home Page</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+
+<CENTER>
+<IMG SRC="topex/Topexban1.gif">
+</CENTER>
+<P>
+
+<IMG SRC="gifs/clrbar02.gif">
+<CENTER>
+<h3><a href="Annette/emswt/emswt.html">TOPEX/POSEIDON Extended Mission Investigation Plans Announced</a><img src="gifs/new.gif"></h3></blink>
+</CENTER>
+
+<CENTER>
+<h3><a href="Annette/educational/ed_intro.html">Educational Resources</a><img src="gifs/new.gif"></h3>
+</CENTER>
+
+<CENTER>
+<h3><a href="Annette/nearrealtime/nrt_intro.html">"Near-Real-Time" Ocean Altimetry Data.</a></h3>
+</CENTER>
+
+<table border=0 width=576 height=20>  <!-- begin table-->
+<tr> <td width=576> 
+<CENTER>
+<!applet code="anim", width=187 height=232>
+<param name="PREFIX" value="image">
+<param name="BGCOLOR" value="ffffff">
+<param name="NOS OF IMAGES" value="5">
+<param name="NOS OF CYCLES" value="-1">
+<param name="URL" value="http://topex-www.jpl.nasa.gov/Topex_images">
+<param name="DELAY" value="500">
+<param name="ALT TEXT" value="The Big Picture">
+</applet>
+</CENTER>
+</td></tr></table>
+
+<!IMG SRC="gifs/clrbar02.gif">
+
+
+<P>
+<IMG SRC="gifs/clrbar02.gif">
+<P>
+ 
+<table border=0 width=600 height=20>  <!-- begin table-->
+<tr> <td width=100> 
+<CENTER>
+<IMG SRC="gifs/tpx_icn1.gif"> 
+</CENTER>
+</td>
+<td width=500> 
+<H2>About TOPEX/POSEIDON</H2><P>
+<IMG SRC="gifs/ballb.gif">  A brief <A HREF="topex/Mission.html">description
+     </A> of the TOPEX/POSEIDON mission. 
+</td> </tr>
+<P>
+<tr><td width=100> </td>
+<td>
+<IMG SRC="gifs/ballb.gif">  <A HREF="tpxim/index.html">Press release images </A>
+and other images prepared specifically for publication or public release
+(including the one used in this page's title banner).
+</td> </tr>
+<P>
+<tr><td width=100> </td>
+<td>
+<IMG SRC="gifs/ballb.gif">  <A HREF="Annette/intro.html"> Prime Mission
+Results. </A>
+</td> </tr>
+</table>
+
+<P>
+<IMG SRC="gifs/clrbar02.gif">
+<P>
+
+<table border=0 width=600 height=20>  <!-- begin table-->
+<tr> <td width=100>
+<CENTER>
+<IMG SRC="gifs/TPXimg_icn.gif" ALIGN=BOTTOM> 
+</CENTER>
+</td>
+<td width=500> 
+<H2>TOPEX/POSEIDON Images and Data</H2> <P>
+A complete collection of <A HREF="http://podaac-www.jpl.nasa.gov/topex/">
+TOPEX/POSEIDON Images and Data </A> is continuously updated by the JPL PODAAC 
+and the TOPEX/POSEIDON Project. The images represent data obtained from late
+1992 until now, for four different products. Also available are animations
+samples using these images.
+</td> </tr>
+</table>
+
+<P>
+<table border=0 width=600 height=20>  <!-- begin table-->
+<tr> <td width=100></td>
+<td width=500><h3><a href="http://podaac-www.jpl.nasa.gov/tecd.html">The TOPEX/POSEIDON Informational CD-ROM is here! </a></h3>
+</CENTER>
+</td></tr>
+
+<tr>
+<td width=100>
+</td>
+<td width=500>
+<H2>TOPEX Oscillator Drift Correction<img src="gifs/new.gif"></H2>
+<P>
+<A HREF=wff_OscDrift.html> Click here</A> to view the cycle-by-cycle
+correction table provided by NASA
+Wallops and description of the nature of the oscillator drift algorithm change.
+The table shows that, the 1 mm level, a single number per cycle is adequate.
+Note that the oscillator drift error has not affected past analyses of TOPEX
+data other than the absolute bias and the determination of long-term mean global
+sea level changes.
+</td> </tr>
+
+</table>
+
+<P>
+<IMG SRC="gifs/clrbar02.gif">
+<P>
+
+<table border=0 width=600 height=20>  <!-- begin table-->
+<tr> <td width=100> 
+<CENTER>
+</CENTER>
+</td>
+<td width=500> 
+<H2>Work by TOPEX/POSEIDON <br> Principal Investigators</H2> <P>
+</td> </tr>
+</table>
+<P>
+<table border=0 width=600 height=20>  <!-- begin table-->
+<tr> 
+<td width=100></td> 
+<td width=20> 
+<CENTER>
+<!A HREF="contrib/chelton/rossby" onMouseOver="window.status='See Rossby Wave Page'; return true">
+<!IMG SRC="contrib/chelton/rossby/fig4small2.gif" ALIGN=BOTTOM></A> 
+<IMG SRC="gifs/ballb.gif" ALIGN=BOTTOM></A> 
+</CENTER>
+</td>
+<td width=480> 
+<A HREF="contrib/jacobs/acw" onMouseOver="window.status='See Antartic Wave Page'; return true">
+Ocean circulation variations associated with the Antarctic
+Circumpolar Wave</A>, <br> by G. A. Jacobs and J. L. Mitchell
+</td> </tr>
+
+<tr> 
+<td width=100></td> 
+<td width=20> 
+<CENTER>
+<!A HREF="contrib/chelton/rossby" onMouseOver="window.status='See Rossby Wave Page'; return true">
+<!IMG SRC="contrib/chelton/rossby/fig4small2.gif" ALIGN=BOTTOM></A> 
+<IMG SRC="gifs/ballb.gif" ALIGN=BOTTOM></A> 
+</CENTER>
+</td>
+<td width=480> 
+<A HREF="contrib/chelton/rossby" onMouseOver="window.status='See Rossby Wave Page'; return true">Global Observations of Oceanic Rossby Waves</A>, <br> by Dudley Chelton and Michael Schlax.
+</td> </tr>
+
+<tr> 
+<td width=100></td> 
+<td width=20> 
+<CENTER>
+<!A HREF="contrib/chelton/rossby" onMouseOver="window.status='See Rossby Wave Page'; return true">
+<IMG SRC="gifs/ballb.gif" ALIGN=BOTTOM></A> 
+</CENTER>
+</td>
+<td width=480> 
+<A HREF="http://www.soest.hawaii.edu/TOPEX/tpcal.html" onMouseOver="window.status='See TOPEX/POSEIDON and WOCE tide gauge intercomparison.'; return true">TOPEX/POSEIDON and WOCE tide gauge intercomparison.</A>, <br> by Gary T. Mitchum.
+</td> </tr>
+
+<tr> 
+<td width=100></td> 
+<td width=20> 
+<CENTER>
+<!A HREF="contrib/chelton/rossby" onMouseOver="window.status='See Rossby Wave Page'; return true">
+<IMG SRC="gifs/ballb.gif" ALIGN=BOTTOM></A> 
+</CENTER>
+</td>
+<td width=480> 
+<A HREF="http://www.soest.hawaii.edu/TOPEX/Wake_Island.html" onMouseOver="window.status='See The Source of 90-day Oscillations at Wake Island.'; return true">The Source of 90-day Oscillations at Wake Island.</A>, <br> by Gary T. Mitchum.
+</td> </tr>
+
+<tr> 
+<td width=100></td> 
+<td width=20> 
+<CENTER>
+<IMG SRC="gifs/ballb.gif" ALIGN=BOTTOM></A> 
+</CENTER>
+</td>
+<td width=480> 
+<A HREF="http://www.soest.hawaii.edu/TOPEX/bo_kuroshio_dyn.html" onMouseOver="window.status='See Kuroshio extension dynamics.'; return true">Kuroshio extension dynamics</A>, <br> by Bo Qiu
+</td> </tr>
+
+<tr> 
+<td width=100></td> 
+<td width=20> 
+<CENTER>
+<IMG SRC="gifs/ballb.gif" ALIGN=BOTTOM></A> 
+</CENTER>
+</td>
+<td width=480> 
+<A HREF="http://www.nw.saic.com/tptec" onMouseOver="window.status='See Ionospheric Electron Content'; return true">Global Ionospheric Climatology from TOPEX/Poseidon</A>, <br> by J. L. Johnson, H. R. Anderson and G. Lagerloef
+
+</td> </tr>
+</table>
+
+<P>
+<IMG SRC="gifs/clrbar02.gif">
+<P>
+
+<table border=0 width=650 height=20>  <!-- begin table-->
+<tr> <td width=100> 
+<CENTER>
+<IMG SRC="gifs/tpx_icn6.gif" ALIGN=BOTTOM> 
+</CENTER>
+</td>
+<td width=550> 
+<H2>Other Sources of Information</H2><P>
+Other links related to TOPEX/POSEIDON that may be of interest are:<P>
+<FONT Size=2>
+<IMG SRC="gifs/ballb.gif">
+<A HREF="http://volcans.tamu.edu">
+TOPEX / POSEIDON Science Working Team </A><br>
+<IMG SRC="gifs/ballb.gif">
+<A HREF="http://quest.arc.nasa.gov/topex/welcome.html">
+TOPEX/Poseidon On-Line.</A><br>
+<IMG SRC="gifs/ballb.gif">
+<A HREF="http://oraac.gsfc.nasa.gov/~rienecke/topex.html">
+Goddard Space Flight Center's TOPEX/POSEIDON page.</A><br>
+<IMG SRC="gifs/ballb.gif">
+ <A HREF="http://www.grdl.noaa.gov/SAT/SAT.html">
+National Oceanic and Atmospheric Administration (NOAA) TOPEX/POSEIDON page.</A><br>
+<IMG SRC="gifs/ballb.gif">
+<A HREF="http://www-ccar.colorado.edu/~wwwadmin/topex/html/topex.html">
+<!A HREF="http://www-ccar.colorado.edu/">
+ Colorado Center for Astrodynamics Research (CCAR) TOPEX/POSEIDON page.</A><br>
+<IMG SRC="gifs/ballb.gif">
+ <A HREF="http://ftp.csr.utexas.edu/sst.html">
+ University of Texas, Center for Space Research (UTCSR) TOPEX/POSEIDON page.</A><br>
+<IMG SRC="gifs/ballb.gif">
+ <A HREF="http://www.soest.hawaii.edu/TOPEX/uhtopex.html">
+  University of Hawai`i, satellite altimetry page.</A><br>
+<IMG SRC="gifs/ballb.gif">
+ <A HREF="http://192.134.216.41">
+The AVISO Home Page.</A><br>
+<IMG SRC="gifs/ballb.gif">
+ <A HREF="http://dutlru8.lr.tudelft.nl/pages/ssrt.html">
+Delft University of Technology (TUDelft) Altimetry Atlas.</A><br>
+<IMG SRC="gifs/ballb.gif">
+ <A HREF="http://osb3.wff.nasa.gov">
+WFF Topex Home Page</A><br>
+<IMG SRC="gifs/ballb.gif">
+ <A HREF="http://seawifs.gsfc.nasa.gov/OCEAN_PLANET/HTML/ocean_planet_overview.html">
+Ocean Planet Exhibit at the Smithsonian</A><br>
+<IMG SRC="gifs/ballb.gif">
+ <A HREF="ftp://bodhi.jpl.nasa.gov/pub/topex/WWW/topex_gdpf.html">
+TOPEX/Poseidon GPS Data Processing Facility</A><br>
+<IMG SRC="gifs/ballb.gif">
+<A HREF="http://neptune.gsfc.nasa.gov/ocean.html">
+Ocean Altimeter PATHFINDER</A><br>
+<IMG SRC="gifs/ballb.gif">
+ <A HREF="http://www.brunel.ac.uk:8080/~cb94mmb/WOD/index.html">
+World Oceans' Day - Increase Awareness of Marine Wildlife and our Oceans and Seas</A><br>
+<IMG SRC="gifs/ballg.gif">
+ <A HREF="http://www.jpl.nasa.gov/">
+JPL/NASA - main home page</A><br>
+</FONT>
+</td> </tr>
+</table>
+
+
+<P>
+<IMG SRC="gifs/clrbar02.gif">
+<P>
+<table border=0 width=600 height=20>  <!-- begin table-->
+<tr> <td width=100> 
+<CENTER>
+<IMG SRC="gifs/tpx_icn3.gif" ALIGN=BOTTOM> 
+</CENTER>
+</td>
+<td width=500> 
+<H2>Statistics</H2> <P>
+Have a look at the 
+<A HREF="stats/wwwstats.html">access statistics</A> for the topex-www server.
+<P>
+And if you have VRML browsing capability, these are 3D graphs of server
+activity:
+<br>
+<A HREF="Raghu/vrstat/vrs7d.wrl">Number of hits</A>
+<br>
+<A HREF="Raghu/vrstat/vrs7db.wrl">Number of bytes transfered</A>
+</td> </tr>
+</table>
+
+<P>
+<IMG SRC="gifs/clrbar02.gif">
+<P>
+
+<table border=0 width=576> 
+<tr> <td width=576>
+If you have any comments or suggestions regarding this page, please send email
+to <br>
+<!IMG SRC="gifs/smiley.gif"> 
+Ramanujam Raghunath, <A HREF="mailto:raghu@andaman.jpl.nasa.gov"><I>raghu@andaman.jpl.nasa.gov</I></A>.
+<P>
+For questions about the scientific content of the various documents and graphics,
+contact Dr. Lee-Lueng Fu, <A HREF="mailto:llf@pacific.jpl.nasa.gov"><I>llf@pacific.jpl.nasa.gov</I></A>, <br>
+or Annette DeCharon, <A HREF="mailto:annette.v.decharon@jpl.nasa.gov"><I>annette.v.decharon@jpl.nasa.gov</I></A>.
+<P>
+<I> The original design and construction of this home page was the work of 
+Denis Leconte.</I>
+:dpl:1996
+<P>
+<center> 
+<!a href=http://www.pointcom.com/><img align=middle border=0 src=/gifs/5perclgt.gif></a>
+<!a href=http://www.mckinley.com/><img border=0 align=middle src=/gifs/3star72pix.gif></a>
+</center>
+<I>Last updated by Raghu on 12/12/96</I>
+</td></tr>
+</table>
+</CENTER>
+</BODY>
+</HTML>
+</DOC>

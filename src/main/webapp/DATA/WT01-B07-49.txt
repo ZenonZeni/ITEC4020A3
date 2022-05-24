@@ -1,0 +1,280 @@
+
+<DOC>
+<DOCNO>WT01-B07-49</DOCNO>
+<DOCOLDNO>IA068-000416-B012-147</DOCOLDNO>
+<DOCHDR>
+http://www.aivc.org:80/whittle.html 194.217.120.80 19970113032054 text/html 11717
+HTTP/1.0 200 OK
+Date: Mon, 13 Jan 1997 03:20:52 GMT
+Server: Apache/0.8.14
+Content-type: text/html
+Content-length: 11544
+Last-modified: Wed, 27 Nov 1996 15:02:32 GMT
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+
+<TITLE>FLOW SIMULATION USING COMPUTATIONAL FLUID DYNAMICS</TITLE>
+
+<META NAME="AUTHOR" CONTENT="Air Infiltration and Ventilation Centre">
+
+<META NAME="DOCCOMM" CONTENT="r              ">
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT >
+<META NAME="CREATIM" CONTENT="1996:11:27:11:49:">
+
+<META NAME="VERSION" CONTENT="1">
+
+</HEAD>
+
+<BODY>
+
+<P>
+Air Infiltration Review, Volume 18, No 1, December 1996, World
+Wide Web Edition
+<P>
+&#169; Copyright Oscar Faber PLC on behalf of the International
+Energy Agency, 1996<HR>
+
+<H1>Flow<A NAME="Beginning"></A> Simulation Using Computational
+Fluid Dynamics</H1>
+
+<H2>- A Cost Effective Tool for Flow Simulation</H2>
+<HR>
+
+<H3><I>Geoff Whittle,<BR>
+Simulation Technology Ltd<BR>
+</I></H3>
+
+<MENU>
+<LI><A HREF="#Introduction" >Introduction </A>
+<LI><A HREF="#defined" >What must be defined when using CFD software?  
+</A>
+<LI><A HREF="#results" >How are the results presented? </A>
+<LI><A HREF="#realistic" >Are CFD results realistic? </A>
+<LI><A HREF="#Examples" >Examples </A>
+<LI><A HREF="#Conclusions" >Conclusions </A>
+<LI><A HREF="#References" >References </A><BR>
+
+</MENU>
+
+<H2><A NAME="Introduction">Introduction</A></H2>
+
+<P>
+Computational fluid dynamics (CFD) is increasingly being used
+at the design stage for the evaluation of air distribution and
+smoke control systems in a wide range of building types.
+<P>
+CFD computer software operates by numerically solving the equations
+governing fluid flow <A HREF="#References" >[1] </A>. These comprise
+conservation statements for mass, momentum, energy and turbulence
+parameters. The equations contain partial derivatives, are highly
+non-linear and require an iterative solution procedure<I><B> 
+</B></I>to yield results.
+<H2>What must be <A NAME="defined">defined </A>when using CFD
+software?</H2>
+
+<P>
+The process of running CFD software involves defining the factors
+which drive the flow (boundary conditions) such as supply air
+diffusers, natural ventilation openings, exhaust locations and
+flow rates, heat gains, and hot or cold surfaces together with
+any objects or obstructions in the space. These are mapped to
+a computational grid which forms three-dimensional volumes of
+space completely filling the enclosure to be modelled. The equations
+are solved at each one of these 'control volumes', usually called
+'cells' in 'finite-volume' codes and 'elements' in the alternative
+'finite-element' codes. Historically, the finite-volume approach
+was developed in cartesian (rectangular) geometries. The finite-element
+method has traditionally allowed more complex and hence realistic
+geometries to be modelled although the developments which have
+taken place in CFD mean that many of the old distinctions have
+become blurred. More accurate techniques for numerically integrating
+the flow equations coupled with complex geometry capability in
+finite-volume codes provide a similar level of functionality to
+the traditional finite-element approach. Finite element codes
+themselves are changing, further reducing the distance between
+them.
+<P>
+The user has control over the grid and it is the resolution of
+the grid which can have an important influence on the accuracy
+of results. The finer the grid the better but the longer it will
+take to achieve a solution. A typical grid will comprise many
+thousands of 'cells' <A HREF="#References" >[2, 3] </A>. Most
+commercial CFD software uses the finite-volume approach to form
+the numerical integral of the partial differential equations.
+Regarding complexity of modelling, much can still be done with
+cartesian geometry representations - taking advantage of the much
+easier model building and faster execution speed.
+<P>
+In using CFD, which places major demands on computer processor
+speed and RAM (memory), there is always a compromise to be made
+between accuracy and speed of solution. However, CFD software
+is becoming more user-friendly and computers very much faster
+such that high-specification PC's (e.g. fast 486's, Pentium and
+Pentium Pro) can be particularly cost-effective in running CFD
+codes and contributing successfully within the time-frame of the
+design process.
+<H2>How are the <A NAME="results">results </A>presented?</H2>
+
+<P>
+Once a solution is obtained the results can be viewed in graphical
+form as flow patterns (vector plots), temperature and smoke contours,
+etc. (An example is shown in <A HREF="#Figure1" >Figure 1 </A>.)
+The numerical values can be interpreted to make judgements about
+the acceptability of the thermal environment in terms of air velocities,
+temperatures, temperature gradients and ventilation effectiveness.
+In fire modelling it is temperatures and the development and movement
+of smoke which is the focus of interest either in a 'steady-state'
+form or evolving with time.<BR>
+
+<P>
+<I><A NAME="Figure1">Figure 1</A> Results presented in graphical
+form.</I>
+<P>
+
+<IMG SRC="gwfig1.gif" ALIGN="BOTTOM" >
+<BR>
+
+<H2>Are CFD results <A NAME="realistic">realistic</A>?</H2>
+
+<P>
+Validation is always an issue with any computer calculation method.
+With CFD the issue is more complex than usual because of the influence
+the user can have over the quality of results. This is particularly
+important in the context of setting boundary conditions, defining
+the computational grid and procuring converged solutions in high
+Rayleigh Number (highly buoyant) flow fields within an acceptable
+computation time. Turbulence modelling is also still an area requiring
+more research and development. Here, it is the 'k-epsilon' model
+which is still the 'industry standard' for engineering calculations.
+Despite the ever present need for more work, sufficient validation
+has already been done such that, with experience and care, one
+can have a good level of confidence in the quality of the results
+<A HREF="#References" >[4] </A>. (Much analysis has taken place
+in IEA ECBCS Annex 26 &quot;Air Flow in Large Enclosures&quot;
+to evaluate the performance of CFD and to determine the conditions
+under which it is applicable <A HREF="#References" >[5] </A>.)
+<H2><A NAME="Examples">Examples</A></H2>
+
+<P>
+Figures 1, 2 and 3 show example results from three different types
+of CFD simulations. The first simulation, <A HREF="#Figure1" >Figure 1  
+</A>, is of temperatures and flow patterns in a three-dimensional
+model of a naturally ventilated shopping mall. The ventilation
+system comprises low level openings with flow entering from the
+left in the Figure and exiting at high level through the roof
+exhaust stack. The outdoor temperature is 16 &#176;C. Occupancy,
+lighting and solar gains elevate the temperature up to approximately
+21 &#176;C at high level. Here, the CFD code used has predicted
+the natural ventilation flow rate based on external wind pressures,
+stack (buoyancy) effect and the resistance of the openings.<BR>
+
+<P>
+<I><A NAME="Figure2">Figure 2</A> Flow in a laboratory space ventilated
+by laminar flow panels in ceiling.</I>
+<P>
+
+<IMG SRC="gwfig2.gif" ALIGN="BOTTOM" >
+<BR>
+
+<P>
+The second example, shown in <A HREF="#Figure2" >Figure 2 </A>,
+represents flow in a laboratory space ventilated by laminar flow
+panels in the ceiling. The exhaust air is taken through a fume
+cupboard extract. The Figure shows speed contours, illustrating
+the acceleration of flow into the fume cupboard and the wake-influence
+due to the proximity of the operator. Both the room air distribution
+and the fume cupboard containment effectiveness are being examined
+here.
+<P>
+In the third simulation, <A HREF="#Figure3" >Figure 3 </A>, the
+development of temperatures and smoke concentrations are predicted
+in the atrium and occupied areas of a multi-floor office building.
+Outdoor air enters the atrium at ground level and natural smoke
+vents allow the smoke to escape at roof level. The temperature
+stratification in the smoke layer can be seen. At ground level,
+the volume of outside air entering the building maintains a clear
+layer, and on the upper floors it is noticeable that floor supply
+air diffusers (which remain in operation supplying fresh air)
+are helping to minimise the full impact of the smoke temperatures.
+From the information generated by CFD judgements can be made regarding
+the safety and escape of occupants.<BR>
+
+<P>
+<I><A NAME="Figure3">Figure 3</A> Development of temperatures
+and smoke concentration in the atrium and occupied areas of a
+multi-floor office building.</I>
+<P>
+
+<IMG SRC="gwfig3.gif" ALIGN="BOTTOM" >
+<BR>
+
+<H2><A NAME="Conclusions">Conclusions</A></H2>
+
+<P>
+Fortunately, much of the complexity of a user-friendly CFD code
+is transparent to the user, who need not concern him/herself about
+partial differential equations. What is important, though, is
+that the user is able to properly describe the application to
+be modelled, to ensure that the solution obtained satisfies certain
+criteria regarding grid resolution and the consequent residual
+errors in the solution, and then exercise engineering ability
+in interpreting the results. An advantage of CFD is that, if necessary,
+improvements can readily be made to the air distribution design
+or smoke control system and the calculation re-run.
+<P>
+The question of cost-effectiveness is particularly important.
+Historically, such computer codes have been too expensive and
+too difficult to use to make a substantial impact in the buildings
+and construction industry. Now, however, CFD software prices are
+falling and performance and usability increasing such that acquiring
+an in-house CFD capability or, indeed, commissioning external
+CFD studies can be a realistic and relatively low-cost option
+giving a substantial return in the quality of the project.
+<H2><A NAME="References">References</A></H2>
+
+<OL>
+<LI>S V Patankar, <I>Numerical heat transfer</I>, Hemisphere,
+Washington (1980).
+<LI>G E Whittle, &quot;Computation of air movement and convective
+heat transfer within buildings&quot; <I>Int. J. Ambient Energy
+</I>, (1986).
+<LI>P J Jones and G E Whittle, &quot;Computational fluid dynamics
+for building air flow prediction - current status and capabilities&quot;,
+<I>Building and Environment</I>, Vol. 27, No. 3, pp 321-338 (1992).
+<LI><I>Room air and contaminant flow, evaluation of computational
+methods, Subtask-1 Summary report</I>, International Energy Agency,
+<A HREF="http://www.ecbcs.org/annex20.html" >Annex 20  </A>, TNO
+Building and Construction Research, PO Box 29, 2600 AA Delft,
+The Netherlands (December 1993).
+<LI>M W Liddament, &quot;<A HREF="a23a26.html" >Two Air Flow Studies Completed  
+</A>&quot;, <I>Air Infiltration Review</I>, Vol. 17 No. 4 (September
+1996).
+</OL>
+<HR>
+
+<P>
+<B>Dr Geoff Whittle is Managing Director of Simulation Technology
+Ltd, PO Box 4211, Streatley-on-Thames, Reading RG8 9YQ, United
+Kingdom. Tel: +44 (0) 1491 875070, Fax: +44 (0) 1491 875171, Email:
+simtech@patrol.i-way.co.uk.</B><HR>
+
+<P>
+[<A HREF="#Beginning" >Beginning of article  </A>]
+<P>
+[<A HREF="elecair.html" >AIR front page  </A>]
+</BODY>
+
+</HTML>
+</DOC>

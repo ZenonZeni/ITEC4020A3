@@ -1,0 +1,82 @@
+
+<DOC>
+<DOCNO>WT03-B19-117</DOCNO>
+<DOCOLDNO>IA005-000052-B004-186</DOCOLDNO>
+<DOCHDR>
+http://business.vic.gov.au:80/KPMG.html 203.21.84.108 19970221152738 text/html 1665
+HTTP/1.0 200 OK
+Date: Fri, 21 Feb 1997 15:28:00 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 1494
+Last-modified: Fri, 30 Aug 1996 04:49:36 GMT
+</DOCHDR>
+
+<HTML>
+<HEAD>
+<TITLE> Cost Benchmarking Study</title>
+</HEAD>
+
+<BODY>
+<img src="gifs/bvlogo.gif">
+<P>
+<h1> Cost Benchmarking Study</h1>
+
+See for yourself how Melbourne Compares.
+<p>
+Here are some examples of how Melbourne costs compare with
+<br>
+those of other cities in the study. 
+<p>
+Costs are indicative only.  For full information about these and
+other costs, please run your invest plans by us.
+
+
+
+<form method="GET" ACTION="/cgi/run/business-vic/KPMG.cgi">
+
+
+<h3> Select Category</h3>
+<SELECT NAME="index"> 
+<OPTION VALUE="p1">Construction Cost
+<OPTION VALUE="c1">International Calls
+<OPTION VALUE="c2">Local Calls
+<OPTION VALUE="c3">Satellite Circuit - Leased Data Line
+<OPTION VALUE="c4">Fibre Circuit - Leased Data Line
+</SELECT>
+
+<br><p>
+
+<h3> Select Your Location</h3>
+<SELECT NAME="location"> 
+<OPTION VALUE="b">Sydney
+<OPTION VALUE="c">Brisbane
+<OPTION VALUE="d">Auckland
+<OPTION VALUE="e">Bangkok
+<OPTION VALUE="f">Guangzhou
+<OPTION VALUE="g">Jakarta
+<OPTION VALUE="h">Kuala Lumpur
+<OPTION VALUE="i">Los Angeles
+<OPTION VALUE="j">Osaka
+<OPTION VALUE="k">Singapore
+<OPTION VALUE="l">Stuttgart
+</SELECT>
+
+<h3> Select Your Likely/Actual Investment Amount</h3>
+$ <input name="amount" size="15"><br>
+
+<H4>
+<input type="submit" value="Submit"> Submit Query</FONT><p>
+<input type="reset" value="Reset"> To Clear and Start Over.<p>
+</h4>
+</form>
+<P>
+<P><br><p>
+<P>
+<a href="homepage.html">
+<img src="gifs/arrow.back.gif"></a>
+<i>  Click here to return to Home Page</i>
+</BODY>
+
+</HTML>
+</DOC>

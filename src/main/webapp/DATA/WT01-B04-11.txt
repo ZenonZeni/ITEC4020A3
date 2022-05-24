@@ -1,0 +1,457 @@
+
+<DOC>
+<DOCNO>WT01-B04-11</DOCNO>
+<DOCOLDNO>IA046-000815-B034-157</DOCOLDNO>
+<DOCHDR>
+http://www.gothic.net:80/invest/6_1.htm 205.178.27.23 19970119003244 text/html 7998
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/2.0
+Date: Sun, 19 Jan 1997 00:35:58 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Wed, 23 Oct 1996 22:51:47 GMT
+Content-Length: 7800
+</DOCHDR>
+<HTML>
+
+<HEAD>
+
+   <TITLE>Order Supergen Investor Materials</TITLE>
+
+   <X-SAS-WINDOW TOP=42 BOTTOM=632 LEFT=4 RIGHT=638>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+
+
+<P><MAP NAME="newnav"><AREA SHAPE=rect COORDS="396,1,440,12" HREF="../people/5_0.htm"><AREA SHAPE=poly COORDS="344,11,374,2,391,16,394,30,371,37,368,61,349,59,341,33,344,11" HREF="../people/5_0.htm"><AREA SHAPE=rect COORDS="435,54,495,65" HREF="../product/2_0.htm"><AREA SHAPE=poly COORDS="406,27,424,46,428,72,407,94,386,90,385,84,369,66,369,61,371,38,406,27" HREF="../product/2_0.htm"><AREA SHAPE=rect COORDS="393,114,525,124" HREF="../patent/4_0.htm"><AREA SHAPE=poly COORDS="330,75,366,64,384,86,390,110,366,134,334,126,325,103,330,75" HREF="../patent/4_0.htm"><AREA SHAPE=rect COORDS="205,75,271,96" HREF="../invest/6_0.htm"><AREA SHAPE=poly COORDS="313,56,329,74,324,102,327,110,313,123,286,117,273,91,279,65,313,56" HREF="../invest/6_0.htm"><AREA SHAPE=rect COORDS="196,30,282,41" HREF="../perform/3_0.htm"><AREA SHAPE=poly COORDS="291,28,323,16,338,34,345,58,330,72,313,54,290,61,286,49,291,28" HREF="../perform/3_0.htm"><AREA SHAPE=rect COORDS="8,2,105,25" HREF="../index.htm"><AREA SHAPE=rect COORDS="9,46,81,61" HREF="../contact.htm"><AREA SHAPE=rect COORDS="10,62,80,77" HREF="../search.htm"><AREA SHAPE=rect COORDS="10,78,79,93" HREF="../map.htm"></MAP><TABLE
+
+
+
+BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+
+   <TR>
+
+      <TD>
+
+         <P><IMG SRC="http://www.supergen.com/images/newnav.gif" WIDTH=528 HEIGHT=136
+
+
+
+         BORDER=0 ALIGN=top usemap="#newnav">
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P><MAP NAME="map2"><AREA SHAPE="rect" COORDS="116,37,308,60" HREF="6_0.htm"></MAP><IMG ISMAP
+
+         SRC="http://www.supergen.com/invest/images/6_1.gif" WIDTH=419 HEIGHT=79 BORDER=0 ALIGN=left
+
+
+
+         usemap="#map2">
+
+      </TD></TR>
+
+</TABLE></P>
+
+
+
+<P>&nbsp;</P>
+
+
+
+<FORM METHOD="POST" ACTION="http://www.supergen.com/scripts/polyform.dll/orders">
+
+
+
+<P><TABLE BORDER=0 CELLPADDING=1 WIDTH=547 HEIGHT=11>
+
+   <TR>
+
+      <TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>First Name:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="text" NAME="oofirstname" VALUE="" SIZE=26>
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Last Name:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="text" NAME="01lastname" VALUE="" SIZE=25>
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Company:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="text" NAME="02company" VALUE="" SIZE=26>
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Describe yourself:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><SELECT NAME="03description">
+
+            <OPTION SELECTED>Selections
+
+            <OPTION>Broker
+
+            <OPTION>Analyst
+
+            <OPTION>Individual Investor
+
+            <OPTION>Institutional Investor
+
+            <OPTION>Media
+
+            <OPTION>Other
+
+         </SELECT>
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Area Code:</FONT>
+
+      </TD><TD>
+
+         <P><INPUT TYPE="text" NAME="04phareacode" VALUE="" SIZE=10>
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Phone:</FONT>
+
+      </TD><TD>
+
+         <P><INPUT TYPE="text" NAME="05phone" VALUE="" SIZE=10>
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Ext:</FONT>
+
+      </TD><TD>
+
+         <P><INPUT TYPE="text" NAME="06phext" VALUE="" SIZE=10>
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Area Code:</FONT>
+
+      </TD><TD>
+
+         <P><INPUT TYPE="text" NAME="07faxareacode" VALUE="" SIZE=10>
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Fax:</FONT>
+
+      </TD><TD>
+
+         <P><INPUT TYPE="text" NAME="08fax" VALUE="" SIZE=10>
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Ext:</FONT>
+
+      </TD><TD>
+
+         <P><INPUT TYPE="text" NAME="09faxext" VALUE="" SIZE=10>
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Email:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="text" NAME="10email" VALUE="" SIZE=26>
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Assistant:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="text" NAME="11assistant" VALUE="" SIZE=26>
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Address:</FONT>
+
+      </TD><TD COLSPAN=5>
+
+         <P><INPUT TYPE="text" NAME="12address" VALUE="" SIZE=71>
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>City:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="text" NAME="13city" VALUE="" SIZE=26>
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>State:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="text" NAME="14state" VALUE="" SIZE=25>
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Country:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="text" NAME="15country" VALUE="" SIZE=26>
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><FONT SIZE=4>Zip Code:</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="text" NAME="16zipcode" VALUE="" SIZE=25>
+
+      </TD></TR>
+
+</TABLE></P>
+
+
+
+<P><TABLE BORDER=0 CELLPADDING=1 WIDTH=467 HEIGHT=178>
+
+   <TR>
+
+      <TD>
+
+         <P>&nbsp;
+
+      </TD><TD COLSPAN=2>
+
+         <P><B><FONT SIZE=5 COLOR="#731754">Please send
+
+         me:</FONT></B>
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P>&nbsp;
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="checkbox" NAME="17invest_press"
+
+         VALUE="investors_presskit"><FONT SIZE=4>The Investors/Press Kit</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P>&nbsp;
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P>&nbsp;
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="checkbox" NAME="18prospectus"
+
+         VALUE="prospectus"><FONT SIZE=4>Just the prospectus</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P>&nbsp;
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P>&nbsp;
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="checkbox" NAME="19audiotape"
+
+         VALUE="audiotape"><FONT SIZE=4>The audio tape</FONT>
+
+      </TD><TD COLSPAN=2>
+
+         <P>&nbsp;
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P>&nbsp;
+
+      </TD><TD COLSPAN=2>
+
+         <P><INPUT TYPE="checkbox" NAME="20videotape"
+
+         VALUE="videotape"><FONT SIZE=4>The video tape</FONT>
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD></TR>
+
+   <TR>
+
+      <TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD><TD>
+
+         <P ALIGN=RIGHT><INPUT TYPE="submit" NAME="21submit"
+
+         VALUE="submit">
+
+      </TD><TD>
+
+         <P><INPUT TYPE="reset" VALUE="Reset">
+
+      </TD><TD>
+
+         <P>&nbsp;
+
+      </TD></TR>
+
+</TABLE></P>
+
+
+
+<P><MAP NAME="lowNAV"><AREA SHAPE=rect COORDS="67,10,111,19" HREF="../people/5_0.htm"><AREA SHAPE=rect COORDS="128,11,186,19" HREF="../product/2_0.htm"><AREA SHAPE=rect COORDS="204,11,336,19" HREF="../patent/4_0.htm"><AREA SHAPE=rect COORDS="353,11,403,19" HREF="../invest/6_0.htm"><AREA SHAPE=rect COORDS="420,11,504,19" HREF="../perform/3_0.htm"></MAP><FONT COLOR="#FFFFFF"><IMG
+
+
+
+SRC="http://www.supergen.com/images/lowNAV.gif" WIDTH=530 HEIGHT=31 BORDER=0 ALIGN=bottom
+
+
+
+usemap="#lowNAV"></FONT></P>
+
+</FORM>
+
+</BODY>
+
+</HTML>
+
+</DOC>

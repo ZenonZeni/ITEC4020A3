@@ -1,0 +1,66 @@
+
+<DOC>
+<DOCNO>WT03-B16-70</DOCNO>
+<DOCOLDNO>IA072-000459-B012-401</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/ers/sarpri.html 137.132.32.55 19970121023645 text/html 2084
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 13:01:33 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 20-Dec-96 18:31:04 GMT
+Content-length: 1903
+</DOCHDR>
+<HEAD>
+<TITLE>ERS1.SAR.PRI FORMAT SPECIFICATIONS</TITLE>
+</HEAD>
+<BODY>
+<H1>SAR Precision Image</H1>
+
+The Precision Image is a multi-look (speckle-reduced), ground range, system corrected image. It is the product applicable for most
+users interested in remote sensing applications. 
+<p>The product is calibrated and corrected for the SAR
+antenna pattern and range-spreading loss: radar backscatter can be derived from the product for geophysical modelling, but no
+correction is applied for terrain-induced radiometric effects. The image is not geocoded, and terrain distortion (foreshortening and
+layover) has not been removed.
+<p><hr><p>
+
+<h2>Product characteristics</h2>
+<pre>
+
+Pixel size (range - across track)       12.5 m 
+           (azimuth - across track)     12.5 m 
+Scene area (range - across track)       100 km 
+           (azimuth - along track)      at least 102.5 km 
+Scene size (range - pixels)             8000 pixels per line 
+           (azimuth - lines)            at least 8200 lines 
+Pixel depth                             16 bits 
+Product location accuracy               200 m  
+Total product volume                    ~ 131 Mbytes 
+Annotation in image                     lat./long. of scene centre and 
+                                        the four corners 
+Projection                              ground-range 
+Number of looks                         3 
+</pre>
+<h2>Media</h2> 
+<ul>
+<li>CCT
+<li>Exabyte 8200 
+<li>Exabyte 8500
+<li>CDROM 
+</ul>
+<p><hr><p>
+
+<H1>ERS1.SAR.PRI FORMAT SPECIFICATIONS</H1>
+<DL>
+<DT><DD><A HREF="pri_intro.html">1. INTRODUCTION</A> 
+<DT><DD><A HREF="pri_vol.html">2. VOLUME DIRECTORY FILE FORMAT DEFINITION</A> 
+<DT><DD><A HREF="pri_lead.html">3. LEADER FILE FORMAT DEFINITION</A> 
+<DT><DD><A HREF="pri_data.html">4. DATA SET FILE FORMAT DEFINITION</A> 
+<DT><DD><A HREF="pri_null.html">5. NULL VOLUME FILE FORMAT DEFINITION</A> 
+</DL>
+<HR>
+</BODY>
+
+</DOC>

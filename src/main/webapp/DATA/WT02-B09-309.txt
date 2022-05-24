@@ -1,0 +1,125 @@
+
+<DOC>
+<DOCNO>WT02-B09-309</DOCNO>
+<DOCOLDNO>IA038-000728-B003-93</DOCOLDNO>
+<DOCHDR>
+http://www.deprenyl.com:80/request.htm 208.129.179.70 19970111075441 text/html 5316
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/2.0
+Date: Sat, 11 Jan 1997 07:54:29 GMT
+Content-Type: text/html
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//W3O/DTD HTML//EN">
+
+<html>
+<head>
+<title>Information Request</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+<meta name="FORMATTER" content="Microsoft FrontPage 1.1">
+</head>
+<body background="images/Paper12l.jpg" bgcolor="#FFFFFF"
+text="#000000" link="#FF0000" vlink="#400080" alink="#FFFF00">
+<h1 align="center">Request for Information</h1>
+<hr>
+<!--
+MAILFORM MAILTO="dahimaster@deprenyl.com" SUBJECT="Request for Information" SENDER="dahimaster@deprenyl.com" CONFIRMATION="confirm.htm" EMAIL_TEMPLATE="email.tpl"-->
+<form action="cgi-bin/mailform.exe?request.htm" method="POST">
+    <p><a name="Question-1">Please provide the following
+    information</a>. When finished, click on <img
+    src="images/submit.gif" align="absmiddle" width="72"
+    height="23">at the bottom of the page to send the request.</p>
+    <blockquote>
+        <pre><em>      First name </em><input type="text"
+size="25" maxlength="256" name="Contact_FirstName">
+<em>       Last name </em><input type="text" size="25"
+maxlength="256" name="Contact_LastName">
+<em>           Title </em><input type="text" size="35"
+maxlength="256" name="Contact_Title">
+<em>    Organization </em><input type="text" size="35"
+maxlength="256" name="Contact_Organization">
+<em>  Street address </em><input type="text" size="35"
+maxlength="256" name="Contact_StreetAddress">
+<em> Address (cont.) </em><input type="text" size="35"
+maxlength="256" name="Contact_Address2">
+<em>            City </em><input type="text" size="35"
+maxlength="256" name="Contact_City">
+<em>  State/Province </em><input type="text" size="35"
+maxlength="256" name="Contact_State">
+<em> Zip/Postal code </em><input type="text" size="12"
+maxlength="12" name="Contact_ZipCode">
+<em>         Country </em><input type="text" size="25"
+maxlength="256" name="Contact_Country">
+<em>      Work Phone </em><input type="text" size="25"
+maxlength="25" name="Contact_WorkPhone">
+<em>             FAX </em><input type="text" size="25"
+maxlength="25" name="Contact_FAX">
+<em>          E-mail </em><input type="text" size="25"
+maxlength="256" name="Contact_Email">
+</pre>
+    </blockquote>
+    <p>Check<a name="Question-2"> the items you want to receive:</a></p>
+    <div align="center"><center>
+    <table width="90%">
+        <tr>
+            <td valign="top" width="45%"><strong>Information
+            about:<br>
+            </strong><input type="checkbox" name="Ckbox_InvRelat"
+            value="ON">Draxis Investor <br>
+            &#160; &#160; &#160; Relations</td>
+            <td valign="top" rowspan="2" width="55%"><strong>Article
+            Reprints:<br>
+            </strong><input type="checkbox" name="Ckbox_Caring"
+            value="ON"><em>Caring for Your Aging Pet<br>
+            </em><font size="2">&#160; &#160; &#160;
+            &#160;Newsweek, November 2, 1992</font><br>
+            <input type="checkbox" name="Ckbox_Newsletter"
+            value="ON"><em>Animal Health Newsletter</em> <br>
+            <font size="2">&#160; &#160; &#160; &#160;Cornell
+            University College of Veterinary <br>
+            &#160; &#160; &#160; &#160;Medicine, January, 1994</font><br>
+            <input type="checkbox" name="Ckbox_Sickpets"
+            value="ON"><em>Sick Pets: A Healthy <br>
+            &#160; &#160; &#160; Pharmaceutical Market</em><br>
+            <font size="2">&#160; &#160; &#160; &#160;The Wall
+            Street Journal, January 3, 1996</font><br>
+            <input type="checkbox" name="Ckbox_Catsmeow"
+            value="ON"><em>Well, Aren't You The Cat's Meow?</em><br>
+            <font size="2">&#160; &#160; &#160; &#160;Barron's,
+            April 1, 1996</font></td>
+        </tr>
+        <tr>
+            <td valign="top" width="45%"><strong>Scientific
+            Reprints:<br>
+            </strong><input type="checkbox" name="Ckbox_Cushings">Cushing's
+            Disease<br>
+            <input type="checkbox" name="Ckbox_Senility">Senility
+            (Cognitive <br>
+            &#160; &#160; &#160; Dysfunction)<br>
+            </td>
+        </tr>
+    </table>
+    </center></div>
+    <p>&#160;</p>
+    <p><input type="submit" value="Submit Form"> <input
+    type="reset" value="Reset Form"> </p>
+</form>
+<hr>
+<p align="center">[ <a href="index.htm" target="_top">DAHI Home
+Page</a> | <a href="frmvettp.htm" target="_top">Veterinarians</a>
+| <a href="frmowntp.htm" target="_top">Pet Owners</a> | <a
+href="frminvtp.htm" target="_top">Investors</a> ]</p>
+<p align="center">[ <a href="about.htm">About DAHI</a> | <a
+href="contents.htm" target="_top">Contents</a> | <a
+href="contacts.htm">Contacts</a> | <a href="Links.htm">Links</a>
+| <a href="Press.htm">Press Releases</a> | <a href="request.htm">Request
+for Information</a> ]</p>
+<hr>
+<p><font size="2"><em>Send comments to DAHI webmaster: </em></font><a
+href="mailto:dahimaster@deprenyl.com"><font size="2"><em>dahimaster@deprenyl.com</em></font></a><font
+size="2"><em><br>
+Copyright &#169; 1996 </em>Deprenyl Animal Health, Inc.<em> All
+rights reserved.<br>
+Revised: December 17, 1996.</em></font></p>
+</body>
+</html>
+</DOC>

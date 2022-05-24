@@ -1,0 +1,213 @@
+
+<DOC>
+<DOCNO>WT02-B17-336</DOCNO>
+<DOCOLDNO>IA083-000589-B019-133</DOCOLDNO>
+<DOCHDR>
+http://www.conservation.org:80/web/aboutci/question.htm 38.253.200.3 19970216022149 text/html 9078
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.13
+Date: Sunday, 16-Feb-97 02:26:44 GMT
+Last-modified: Thursday, 06-Feb-97 14:12:25 GMT
+Content-length: 8893
+Content-type: text/html
+</DOCHDR>
+<html>
+
+<HEAD>
+<TITLE>Ecotourism Questionnaire</TITLE>
+
+
+</HEAD>
+
+<BODY BACKGROUND="../../resource/icons/bg2.jpg" LINK="#006600" VLINK="#0080C0">
+
+<CENTER>
+<IMG SRC="../../resource/icons/aboutcit.gif" width=445 height=97 alt="aboutci">
+</CENTER>
+
+<BR>
+<BR>
+
+<FORM METHOD="POST" ACTION="/cgi-bin/survey.bat">
+
+<BLOCKQUOTE>
+
+<STRONG><FONT SIZE="+1"><CENTER>Ecotourism Questionnaire</CENTER></FONT></STRONG>
+
+
+<P>
+
+Ecotourism -- A sustainable conservation and development alternative, or just another "green" marketing trend?  We want to know what you think.
+<P>
+Conservation International's <A HREF="../FIELDACT/C-C_PROG/Eco1.htm">Ecotourism Program</A> is developing an Internet-based informational service about ecotourism. But first, we want to know people's impressions about ecotourism 
+and find out how people access information about ecotourism.  Please tell us how you find information about the ecotourism field, which includes educational travel, 
+nature-based tourism, low-impact and sustainable tourism.  Your responses will be kept confidential, and will be used only for the purposes of this study.  Results of 
+this study will be posted here as soon as the data is analyzed.
+<P>
+Thank you for taking the time to complete the following survey. Your responses are very important to us.  
+<P>
+<BR>
+<BR>
+
+Have you ever heard the term "ecotourism" before?
+<P>
+<FORM METHOD=POST>
+<INPUT NAME="Heard" TYPE="RADIO" VALUE="yes" ALIGN=left>Yes<BR>
+<INPUT NAME="Heard" TYPE="RADIO" VALUE="no" ALIGN=left>No
+<P>
+Have you ever gone on an ecotour?
+<P>
+<INPUT NAME="Toured" TYPE="RADIO" VALUE="yes" ALIGN=top>Yes
+
+<BR>
+<INPUT NAME="Toured" TYPE="RADIO" VALUE="no" ALIGN=top>No
+<P>
+Please describe the trip and the tour operator:
+<P>
+<TEXTAREA NAME="trip describe" ROWS=5 COLS=75></TEXTAREA>
+<P>
+What would be your main motivation for going on an ecotourism vacation?
+<P>
+<INPUT NAME="motivation" TYPE="RADIO" VALUE="visiting">Visiting unique or endangered ecosystems<BR>
+<INPUT NAME="motivation" TYPE="RADIO" VALUE="interacting">Interacting with different cultures<BR>
+<INPUT NAME="motivation" TYPE="RADIO" VALUE="observing">Observing the flora and fauna of an area<BR>
+<INPUT NAME="motivation" TYPE="RADIO" VALUE="educational">Educational value<BR>
+<INPUT NAME="motivation" TYPE="RADIO" VALUE="support conserv.">Lending support toward conservation efforts in the area visited<BR>
+<INPUT NAME="motivation" TYPE="RADIO" VALUE="support dev.">Lending support toward the sustainable development of the community visited<BR>
+<INPUT NAME="motivation" TYPE="RADIO" VALUE="physical">Physical adventures (i.e. hiking, trekking, boating, etc.)<BR>
+<INPUT NAME="motivation" TYPE="RADIO" VALUE="historical">Historical importance of an area<BR>
+<INPUT NAME="motivation" TYPE="RADIO" VALUE="other">Other:  <INPUT NAME="motivation" TYPE="TEXT" size="50">
+<P>	
+Where do you find information about ecotourism? (Please check all those that apply)
+<P>
+<INPUT NAME="ecotour info" TYPE="CHECKBOX" VALUE="mag/pub">Magazines and Publications <BR>
+<INPUT NAME="ecotour info" TYPE="CHECKBOX" VALUE="online">On-line networks (i.e. Internet conferences, World Wide Web home pages, etc.)<BR>
+<INPUT NAME="ecotour info" TYPE="CHECKBOX" VALUE="travel/tour">Travel Agents/Tour Operators<BR>
+<INPUT NAME="ecotour info" TYPE="CHECKBOX" VALUE="conference">Conferences<BR>
+<INPUT NAME="ecotour info" TYPE="CHECKBOX" VALUE="memb. orgs">Membership Organizations<BR>
+<INPUT NAME="ecotour info" TYPE="CHECKBOX" VALUE="other">Other:  <INPUT NAME="ecotour info" TYPE="TEXT" size="50">
+<P>                                 
+Please name the top three sources which you most often use to access information regarding ecotourism:
+<P>
+1.  <INPUT NAME="source" TYPE="TEXT" Size="40"><BR>
+2.  <INPUT NAME="source" TYPE="TEXT" Size="40"><BR>
+3.  <INPUT NAME="source" TYPE="TEXT" Size="40">
+<P>
+If you have found Internet sources of ecotourism information, please list the sites which you most often visit and use:
+<P>
+1.  <INPUT NAME="site" TYPE="TEXT" Size="40"><BR>
+2.  <INPUT NAME="site" TYPE="TEXT" Size="40"><BR>
+3.  <INPUT NAME="site" TYPE="TEXT" Size="40"><BR>
+4.  <INPUT NAME="site" TYPE="TEXT" Size="40">
+<P>
+Have you ever made travel plans using on-line services?
+<P>
+<INPUT NAME="travel plans" TYPE="RADIO" VALUE="yes" ALIGN=left>Yes<BR>
+<INPUT NAME="travel plans" TYPE="RADIO" VALUE="no" ALIGN=left>No
+<P>
+Are you satisfied with the content and quality of the information you find about ecotourism?     
+<P>
+<INPUT NAME="satisfied" TYPE="RADIO" VALUE="yes" ALIGN=left>Yes<BR>
+<INPUT NAME="satisfied" TYPE="RADIO" VALUE="no" ALIGN=left>No
+<P>
+In what areas would you like to see more or better information about ecotourism?
+<P>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="tours">Tours/Destinations<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="pubs/resources">Publications/Resources<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="experiences">Tourist Experiences/Interactive Discussions<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="comm. ecotourism">Community-Based Ecotourism Efforts<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="culture">Local Culture/Ecology<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="suppliers">Suppliers' Directory (i.e. tour operators, lodges, etc.)<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="health">Health/Security<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="calendar">Calendar of Events<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="ethics">Guidelines/Ethics<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="pro oppor.">Professional Opportunities<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="discounts">Discounts on Services<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="cons & tourism">Conservation & Tourism<BR>
+<INPUT NAME="better info" TYPE="CHECKBOX" VALUE="comm dev.">Community Development & Tourism<BR>
+<P>
+Do you belong to any associations or membership organizations which provide information and/or services in the ecotourism field?
+<P>
+<INPUT NAME="memberships" TYPE="RADIO" VALUE="yes" ALIGN=left>Yes<BR>
+<INPUT NAME="memberships" TYPE="RADIO" VALUE="no" ALIGN=left>No
+<P>
+If "yes", please list them:
+<P>
+1.  <INPUT NAME="orgs" TYPE="TEXT" Size="40"><BR>
+2.  <INPUT NAME="orgs" TYPE="TEXT" Size="40"><BR>
+3.  <INPUT NAME="orgs" TYPE="TEXT" Size="40">
+<P>
+<STRONG>Optional Information</STRONG>:
+<P>
+Age:  <INPUT NAME="age" TYPE="TEXT" COLS=5 SIZE="7">
+<P>
+Sex:  <INPUT NAME="gender" TYPE="RADIO" VALUE="male" ALIGN=left>male
+<INPUT NAME="gender" TYPE="RADIO" VALUE="female" ALIGN=left>female
+<P>
+Occupation:  <INPUT NAME="occupation" TYPE="TEXT" COLS=75 SIZE="25">
+<P>
+Marital Status:  <INPUT NAME="marital status" TYPE="RADIO" VALUE="married" ALIGN=left>married
+<INPUT NAME="marital status" TYPE="RADIO" VALUE="single" ALIGN=left>single
+<P>
+Number of Children:  <INPUT NAME="# children" TYPE="TEXT" COLS=5 SIZE="2">
+<P>
+Geographic Location:  <INPUT NAME="location" TYPE="TEXT" VALUE="City, State" COLS=5 SIZE="20">
+<P>
+Education Level:  <SELECT NAME="education" SIZE= 1>
+<OPTION>High School Diploma or Less
+<OPTION>Some College
+<OPTION>Bachelor's Degree
+<OPTION>Graduate or Ph.D. Degree
+</SELECT>
+<P>
+Annual Income:  <SELECT NAME="income" SIZE= 1>
+<OPTION>$15,000 or Less
+<OPTION>$16,000 - $30,000
+<OPTION>$31,000 - $45,000
+<OPTION>$45,000 - $60,000
+<OPTION>$61,000 or More
+</SELECT>
+<P>
+Average Number of Vacations Taken in a Year:  <INPUT NAME="# vacations" TYPE="TEXT" COLS=5 SIZE="2">
+<P>
+Average Length of Vacation:  <INPUT NAME="vacation length" TYPE="TEXT" COLS=5 SIZE="10">
+<P>
+Average Expenditures per Vacation:  <INPUT NAME="vacation $" TYPE="TEXT" VALUE="$" COLS=5 SIZE="6">
+<P>
+<INPUT  TYPE="SUBMIT" value="Send">
+<INPUT  TYPE="RESET">
+
+
+
+</FORM>
+
+</BLOCKQUOTE>
+
+<BR>
+<BR>
+<BR>
+
+
+
+
+
+<CENTER>
+<PRE>
+<A HREF="../aboutci/aboutci.htm"><IMG hspace=3 SRC="../../resource/icons/girl.gif" BORDER=0 height=82 width =80 alt="about ci"></A><A HREF="../fieldact/fieldact.htm"><IMG hspace=3 SRC="../../resource/icons/tree.gif" BORDER=0 height=82 width =80 alt="field act"></A><A HREF="../news/news.htm"><IMG hspace=3 SRC="../../resource/icons/wave.gif" BORDER=0 height=82 width =80 alt="news"></A><A HREF="../how2help/how2help.htm"><IMG hspace=3 SRC="../../resource/icons/hands.gif" BORDER=0 height=82 width =80 alt="how2help"></A><A HREF="../fieldact/c-c_prog/science.htm"><IMG hspace=3 SRC="../../resource/icons/owl.gif" BORDER=0 height=82 width =80 alt="library"></A><BR><IMG hspace=3 SRC="../../resource/icons/space.gif" BORDER=0><BR><A HREF="../../ciap.htm"><IMG SRC="../../resource/icons/aboutcih.gif" BORDER=0 alt="homepage" width=445 height=24></A>
+</PRE>
+</CENTER>
+
+
+
+<BR>
+<BR>
+
+</BODY>
+</HTML>
+
+
+
+
+
+
+</DOC>

@@ -1,0 +1,139 @@
+
+<DOC>
+<DOCNO>WT03-B21-85</DOCNO>
+<DOCOLDNO>IA048-000838-B041-10</DOCOLDNO>
+<DOCHDR>
+http://www.cabotm.com:80/cmm/form.htm 204.167.107.17 19970119153634 text/html 4437
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Sunday, 19-Jan-97 15:36:23 GMT
+Content-Type: text/html
+Content-Length: 4232
+Last-Modified: Wednesday, 08-Jan-97 20:35:07 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Cabot Money Management, Inc. - Inquiry Form</TITLE>
+</HEAD>
+<BODY>
+<center>
+<H2><font face="arial,helvetica" color="#000080">Cabot Money Management, Inc.<BR>
+Request for Information</font></H2>
+</center>
+<HR>
+
+<FORM METHOD="POST" ACTION="/htbin/generic">
+<input type=hidden name=mail_to value=cmm,andyl>
+<input type=hidden name=confirmtext value="Thank you for your interest in Cabot. We will process your request at once. - Cabot Money Management, Inc.">
+<input type=hidden name=mail_subject value="Request for Information from Web Page">
+
+<P>
+Please send me the following FREE information (select one, two or all three):
+<P>
+<b><font face="arial,helvetica" color="#000080">By Postal Mail</font></b><BR>
+<UL>
+<INPUT TYPE="RADIO" NAME="StartNow" value=Y> How to Start a Cabot Account - <b>(Note: minimum account size is $75,000)</b><BR>
+<INPUT TYPE="RADIO" NAME="QtlyUpdates" value=Y> <b>FREE:</b> Quarterly Investment Report and Market Research
+</UL>
+<P>
+<b><font face="arial,helvetica" color="#000080">By E-Mail</b></font><BR>
+<UL>
+<INPUT TYPE="RADIO" NAME="PeriodicUpdates" value=Y> <b>FREE:</b> Periodic Investment Reports, Equity Research and Market Updates
+</UL>
+<P>
+<b>Investment Research and Updates</b> may include the following:
+<UL>
+<LI type="square">recommended stocks
+<LI type="square">market timing strategy
+<LI type="square">bond fund suggestions
+<LI type="square">favorite mutual funds
+<LI type="square">heritage stock reviews
+<LI type="square">all-season strategy
+</UL>
+<P>
+<P>
+
+
+<center><table border=0 width=90%>
+<tr><td><font size=3>Your Name<TD><INPUT NAME="Full_Name" size=40></td></tr>
+<tr><td><font size=3>E-Mail Address<TD><INPUT TYPE=TEXT NAME=mail_from size=40></td></tr>
+<tr><td><font size=3>Street Address<TD><INPUT NAME="Address1" size=20></td></tr>
+<tr><td><font size=3>Apt. or Suite #<TD><INPUT NAME="Address2" size=20></td></tr>
+<tr><td><font size=3>City<TD><INPUT NAME="City" size=20></td></tr>
+<tr><td><font size=3>State<TD><INPUT NAME="State" size=20></td></tr>
+<tr><td><font size=3>Zip Code<TD><INPUT NAME="zipcode" size=20></td></tr>
+<tr><td><font size=3>Home Phone<TD><INPUT NAME="HPhone" size=14></td></tr>
+<tr><td><font size=3>Work Phone<TD><INPUT NAME="WPhone" size=14></td></tr>
+<tr><td><font size=3>Fax Number<TD><INPUT NAME="Fax" size=14></td></tr>
+</TABLE>
+<BR>
+<HR>
+
+</center>
+
+<H3><font face="arial,helvetica" color="#000080">30 Second Survey</font></H3>
+
+What kind of investor are you?
+   <SELECT NAME="InvestorType">
+   <OPTION VALUE="ultraconserv">I'm ultra conservative
+   <OPTION VALUE="conservative">I'm somewhat conservative
+   <OPTION VALUE="growth">I'm growth oriented
+   <OPTION VALUE="aggressive">I'm super-aggressive
+</SELECT>
+<P>
+How many years have you been investing?
+   <SELECT NAME="YearsInvesting">
+   <OPTION VALUE="0-3years">0 - 3 years
+   <OPTION VALUE="3-10years">3 - 10 years
+   <OPTION VALUE="10-25years">10 - 25 years
+   <OPTION VALUE="25+years">a long time
+</SELECT>
+<P>
+What is the size of your investment portfolio?
+   <SELECT NAME="SizeAccount">
+   <OPTION VALUE="100,000">$75,000 - $100,000
+   <OPTION VALUE="100-300">$100,000 - $300,000
+   <OPTION VALUE="300-500">$300,000 - $500,000
+   <OPTION VALUE="500-750">$500,000 - $750,000
+   <OPTION VALUE="over750">over $750,000
+</SELECT>
+<P>
+
+
+
+
+What kind of investing do you do currently:<BR>
+<UL>
+<INPUT TYPE="RADIO" NAME="GrowthStocks" value=Y>Stocks<BR>
+<INPUT TYPE="RADIO" NAME="MutualFunds" value=Y>Mutual Funds<BR>
+<INPUT TYPE="RADIO" NAME="Bonds/Income" value=Y>Bonds/Income<BR>
+<INPUT TYPE="RADIO" NAME="CDs" value=Y>CDs<BR>
+<INPUT TYPE="RADIO" NAME="MarketTiming" value=Y>Market Timing<BR>
+<INPUT TYPE="RADIO" NAME="AssetAllocation" value=Y>Asset Allocation<BR>
+
+
+</UL>
+<P>
+
+
+<INPUT TYPE="SUBMIT" NAME="submit" VALUE=" SUBMIT INFORMATION REQUEST "><INPUT TYPE="RESET" NAME="reset" VALUE="  RESET   ">
+</FORM>
+
+<P>
+<i><b>Thank You For Your Interest In Cabot</b></i>
+<P>
+<P>
+
+<center>
+<font face="arial,helvetica"><strong>
+[ <A HREF="http://www.cabotm.com/cmm.html">Back to Cabot Money Management</A> ]
+</strong>
+</font>
+</center>
+
+<P>
+<P>
+</BODY>
+</HTML>
+</DOC>

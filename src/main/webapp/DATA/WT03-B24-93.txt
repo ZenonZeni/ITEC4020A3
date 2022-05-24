@@ -1,0 +1,446 @@
+
+<DOC>
+<DOCNO>WT03-B24-93</DOCNO>
+<DOCOLDNO>IA053-000895-B047-332</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/bsa.html 129.174.40.15 19970123200530 text/html 20779
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:04:15 GMT
+Server: NCSA/1.5.2
+Last-modified: Tue, 02 Jan 1996 16:16:11 GMT
+Content-type: text/html
+Content-length: 20595
+</DOCHDR>
+<html>
+<title>Business Software Alliance Comments</title>
+<body>
+<pre>
+   [Handout at Key Escrow Issues Meeting, at NIST,
+   Gaithersburg, Maryland, September 6, 1995.]
+
+
+   Testimony of
+   Robert W. Holleyman, President, Business Software Alliance
+
+   On The Export of Software with Encryption Capabilities
+
+   September 6, 1995
+
+   National Insitute of Standards and Technology
+   Gaithersburg, MD
+
+
+   Introduction and Summary
+
+   My name is Robert Holleyman and I am President of the
+   Business Software Alliance ("BSA"). BSA promotes the
+   interests of the American software industry through its
+   programs in the United States and more than 60 countries
+   worldwide. Our members produce what is commonly referred to
+   as "mass market" or pre-packaged software and include such
+   leading companies as: Autodesk Inc., Bentley Systems, Inc.,
+   Intergraph Corp., Lotus Development Corp., Microsoft Corp.,
+   Novell, Inc., The Santa Cruz Operation, and Sybase, Inc.
+
+   These companies are among America's most internationally
+   competitive firms. Export sales for most of them account
+   for more than one-half of revenues. Overall, the American
+   software industry has a 75% worldwide market share for
+   pre-packaged software. Software has been one of the fastest
+   growing industries in the United States during the last 15
+   years and today is larger than all but five manufacturing
+   industries. Moreover, the industry has highly skilled,
+   highly paid jobs.
+
+   Unfortunately, the continued success and growth of our
+   industry is directly threatened by the United States
+   Government's continuing refusal to adopt realistic export
+   control policies. America's software companies still are
+   unable to sell worldwide software programs with encryption
+   features that will provide the strong information security
+   demanded by their customers.
+
+   *Specifically, the Administration's announcement last month
+   failed to provide immediate relief to software companies
+   because it did nothing to liberalize export controls on
+   generally available software employing non-key escrow
+   encryption. Moreover, the Administration's announcement and
+   the preliminary criteria set forth by NIST regarding key
+   escrow encryption continue to reflect a misunderstanding of
+   the market place and, if implemented in anything like their
+   current form, will prevent key escrow encryption from ever
+   being commercially adopted.*
+
+   The government has come forth with government designed
+   criteria focused entirely on fulfilling the government's
+   desire to be able to access encrypted information. But what
+   the government fails to recognize is that key escrow
+   encryption approaches must be commercially desirable and
+   voluntarily adopted. Computer users must want to buy
+   programs with such features. America's software companies
+   can't sell what users won t buy -- they have not become as
+   successful as they are by trying to force their customers
+   to purchase products with unwanted features. Therefore,
+   unless there is market demand for key escrow encryption,
+   software companies are not likely to produce programs with
+   such features.
+
+   Perhaps government officials believe that they know more
+   than American industry about what computer users worldwide
+   are demanding by way of information security. If that is
+   so, then we must strongly disagree. We also wonder about
+   the Administration's apparent decision to try and rely on
+   a few companies offering specialty hardware-based key
+   escrow encryption systems to "demonstrate" that they work
+   and that there is a market for such systems (even if a
+   limited one). Is the Administration really going to pick
+   winners and losers in the computing industries when it
+   comes to providing information security?
+
+   An even more ominous interpretation of the Administration's
+   recent announcements also suggests itself -- the government
+   is pursing a "Son of Clipper" strategy that could lead to
+   the *mandatory* use of key escrow encryption. How so?
+   Clearly the government is trying to force America's
+   software companies to include government sought key escrow
+   features in its software as the "price" for export
+   approval. Because of the companies' strong desire to
+   develop and sell a single version of their programs
+   worldwide, the government thus hopes to be able to have
+   users abroad and in the United States use software with
+   such key escrow encryption features. Even if, initially,
+   the domestic use of such government approved key escrow
+   encryption is only an option, it is easy to see how the
+   government could then pursue legislation making its use
+   mandatory and criminalizing the use of any other
+   encryption. After all, at that point the government could
+   argue that it was simply asking for Americans to use a
+   feature in their software they already have. Yet I can
+   assure you that the American software industry is not
+   interested in making the installed U.S. software base
+   "Clipper ready." (We also note that the government has said
+   it will propose revisions to the Escrow Encryption Standard
+   in line with the suggested criteria that will then cover
+   electronic computer communications, not just voice
+   communications!)
+
+   In short, the Administration's "new" encryption policy
+   appears to be little more than the old policy in new
+   clothing. It still does not enable American software
+   companies to export programs sought by their customers
+   worldwide.
+
+   Accordingly, we strongly urge the Administration to:
+
+   +  Immediately permit the export of generally available
+      software programs with non-key escrow encryption
+      capabilities employing the DES algorithm or other
+      algorithms at comparable strengths (56-bit key lengths)
+      to maintain the American software industry's
+      international competitiveness; and
+
+   +  Permit the export of software programs employing data
+      encryption and commercial key recovery systems: (1) with
+      algorithms using at least 64-bit key lengths; (2) in
+      which users in the U.S. or abroad are able to specify a
+      key holder: (3) the key recovery system will be bound to
+      the encryption function pursuant to good commercial
+      practices such that the time and effort involved in
+      by-passing the key recovery component or "spoofing" will
+      be greater than that necessary to simply employ very
+      strong (e.g. triple DES) non-key escrow encryption; (4)
+      the programs themselves will not provide for multiple
+      encryption; and (5) the system will identify the key
+      holder without notification to the party encrypting the
+      information.
+
+
+   Background
+
+   It has been three years since the U.S. Government permitted
+   the export of mass market software programs with moderate
+   encryption (i.e. with 40-bit keys). At that time, the
+   Government committed to permit stronger encryption over
+   time (i.e. to increase the key lengths) to provide adequate
+   information security against commercial attacks (given
+   advances in computing power) and maintain American
+   companies' international competitiveness (given the
+   proliferation of foreign manufactured programs with strong
+   encryption). But no further export control liberalization
+   occurred.
+
+   More than a year ago, Vice President Gore agreed to study
+   anew the short-run impact of existing export controls on
+   the American software industry's international
+   competitiveness and to reassess those controls based on the
+   studies. He also called for the government to work the
+   industry on exportable "key escrow encryption" systems that
+   would "provide strong encryption, acceptable through users
+   world wide. and address the national security needs as
+   well. Key escrow encryption system can permit the use of
+   very strong encryption (e.g. 128 bit keys) because the
+   government will be able to obtain the keys from third party
+   escrow agents in appropriate circumstances and thus be able
+   to decrypt information.
+
+   Unfortunately, during the last year American companies were
+   not permitted to increase the strength of the encryption in
+   their exportable programs and there was only minimal
+   consultation with the software industry with regards to
+   making commercial key escrow encryption systems a reality.
+
+   On August 1 7, 1994 the Administration announced a renewed
+   dialogue with industry to discuss key escrow encryption
+   issues, including proposed liberalization of export
+   controls for such software programs.
+
+
+   The Administration's Announcement Ignores The Immediate
+   Need To Liberalize Export Controls on Non-Key Escrow
+   Encryption Software Programs
+
+   The Administration's policy is silent with respect to
+   permitting the use of stronger encryption in exportable
+   generally available software programs. This means that
+   American software companies must continue to limit the
+   strength of their encryption to the 40-bit key length
+   levels first proposed in 1991 and adopted in 1992.
+
+   The failure to increase the key lengths reneges on the
+   commitment made by the government at that time to regularly
+   review and revise the strength of the encryption. The
+   insistence on the 40-bit key length also fails to
+   acknowledge that longer key lengths are the worldwide
+   standard. The refusal to change this standard denies the
+   existence of hundreds of foreign programs on the market
+   employing DES (with 56-bits keys) and other strong
+   encryption. Finally, it means that information encrypted at
+   the moderate level is subject to successful attack by those
+   employing commercially available resources (e.g. office
+   work stations at night). Further proof was widely reported
+   in the press just the other week: a French student at the
+   Ecole Polytechnique "cracked" the 40-bit RSA "export
+   version" security scheme used by Netscape Communications
+   Corp., a company which is working hard to make the GII a
+   commercial reality.
+
+   We understand that the Department of Commerce has recently
+   completed its latest study assessing the marketplace and
+   the availability of foreign programs and products. We are
+   confident that study confirms what our member companies'
+   marketing forces have reported for some time -- growing
+   availability of foreign programs and products offering
+   strong security features which stand to supplant U.S.
+   products if left unchecked. The White House has the study.
+   The time has come to recognize reality and rectify the
+   competitive disadvantage imposed on American industry.
+
+
+
+   The Administration's Proposed Criteria Will Prevent Key
+   Escrow Encryption From Ever Being Commercially Adopted
+
+   1. The Administration Fundamentally Misunderstands the
+      Marketplace.
+
+   The Administration's "new" policy as set forth in the
+   proposed criteria relies upon a government-designed
+   solution intended to satisfy the government's desire to be
+   able to access information. But it fails to understand the
+   two reasons why computer users in the office or at home may
+   want to use (and thus would be willing to buy) a commercial
+   key recovery encryption system.
+
+   First, users themselves may wish to be able to recover
+   their keys easily and conveniently from someone they trust.
+   A simple example will illustrate the point. When one of the
+   secretaries at our counsel's law firm was let go, in a fit
+   of pique she deleted six months worth of an attorney's
+   files. Fortunately, the law firm was able to recover these
+   files from its backup drives. But what if she had encrypted
+   those files and no one else had the key? Thus, corporations
+   have begun to express interest in the idea of an
+   arrangement whereby the information systems manager or
+   someone else in the company would hold the key. Similarly,
+   among individual users, the ability to recover a key in the
+   event it is lost or forgotten, coupled with possible ties
+   to authentication or directory services or improved ease of
+   use, could attract a number of users to a commercial key
+   recovery encryption approach.
+
+   It is important to understand, however, that users are
+   really only interested in the ability to recover the keys
+   to encrypted stored data -- files and such. None of our
+   customers has expressed any interest in a key recovery
+   system for communications. That's just not important to
+   them because the key is only useful for the duration of the
+   communication. Moreover, given the tremendous number of
+   communications the administrative burden could be
+   overwhelming.
+
+   The second reason why users might be willing to use a key
+   recovery system is the possibility of using much stronger
+   encryption in programs used worldwide. Because the
+   government ultimately would have access to encrypted
+   information if a key recovery system was employed there
+   really is no need to restrict the choice of algorithm or
+   limit the key lengths. Yet the Administration's new policy
+   would limit the strength of encryption keys to 64-bits when
+   used with a key recovery encryption svstem..
+
+   The greater the number of individuals at home and in
+   business who employ a key recovery encryption system, the
+   greater will be the government's ultimate access to
+   encrypted information. But a voluntary commercial key
+   recovery encryption system will be widely accepted only if
+   it is a market-driven process in which people want to have
+   others hold their keys. Yet the Administration's proposed
+   criteria outlines a system designed for the convenience of
+   the government -- not the user.
+
+   The government contemplates "certifying" a limited number
+   of key escrow encryption agents. It appears to envision
+   stringent qualifications and requirements. It seems
+   directed towards communications -- even though there is no
+   commercial demand for key recovery systems in this area. It
+   arbitrarily limits the key length size as well.
+   Importantly, it fails to address the key issue of the
+   ability of foreign parties to hold the keys for foreign
+   users.
+
+   Instead, it appears that the government has in mind
+   imposing a telephone-based model of surveillance on all
+   electronic information communications worldwide. We have
+   noted that the NIST statement did say that revisions were
+   being contemplated to the Escrow Encryption Standard to
+   cover electronic data transmitted over computer networks
+   (not just telephone networks).
+
+   2. Criteria For A Workable Commercial Key Recovery
+   Encryption System
+
+   Let's be clear from the start -- key escrow encryption or
+   key recovery encryption is not some "Holy Grail." Much as
+   there is not one religion for everyone, and within any one
+   religion there will always be skeptics, there are likely to
+   be some computer users worldwide who will not be interested
+   in letting anyone else "hold" their encryption keys. But at
+   the same time, as explained above, there are several market
+   driven reasons why many computer users might be interested
+   in such systems. And to the extent that such systems are
+   voluntarily employed within the United States and worldwide
+   then we believe the U.S. Government's interests would be
+   served because such systems ensure ultimate access to
+   encrypted information.
+
+   We believe commercial key recovery encryption systems that
+   users would want or accept, and thus could be sold, would
+   feature:
+
+   +  A variety of encryption algorithms using at least 64-bit
+      keys (and more likely much longer keys).
+
+   +  User specification of a key holder. While users must
+      have the choice of whom to give their keys, we believe
+      many if not most will gravitate towards significant
+      business entities as trusted third parties. Moreover, we
+      believe the Administration should take steps to
+      encourage -- but not require -- the formation of such
+      key holders. It also is essential that foreign parties
+      or entities be able to hold keys for foreign users. Yet
+      the Administration' s guidelines are very vague on this
+      point and seem to suggest that before this could occur
+      new bilateral agreements would have to be negotiated.
+      But unless and until American software companies know
+      that this is possible -- and thus there is a reasonable
+      prospect that foreign users will buy their programs --
+      they have no incentive or reason to proceed!
+
+   +  Binding the key recovery system to the encryption
+      function pursuant to good commercial practices such that
+      by-passing the key recovery component or "spoofing" the
+      system will require more time and effort than would be
+      involved in simply using very strong non-key escrow
+      encryption (e.g. triple DES; RC2 with 128 bit key) in
+      the first place.
+
+   +  The program will not itself provide for multiple
+      encryption. Thuss the system would not be designed so
+      that information could be encrypted by the program
+      itself more than once. Of course, no one can protect
+      against the problem of "super encryption" -- the problem
+      of someone encrypting information with a different non-
+      key recovery system program (e.g. DES) and then using
+      the program with the key recovery component.
+
+   +  Identify the key holder without notification to the
+      party encrypting the information. This could be done
+      through "headers" or other technological means.
+
+   It also should be remembered, however, that it is likely to
+   take two years or so --a product cycle -- to develop and
+   produce programs with commercial key recovery systems once
+   the decision is made to do so. So we are really talking
+   about a longer term approach -- which emphasizes yet again
+   the need for immediate export control liberalization for
+   non-key escrow encryption programs!
+
+
+   Conclusion
+
+   The continued delay in providing immediate relief to
+   American software companies by liberalizing export controls
+   on generally available software with non-key escrow
+   encryption capabilities is harming the software industry.
+   The Administration's inability to shake off the Clipper
+   mind set is effectively precluding the adoption of
+   realistic criteria for commercial key recovery encryption
+   systems. Perhaps most importantly, the future of the Global
+   Information Infrastructure and electronic commerce are
+   being jeopardized. Instead of paving the roads, the
+   Administration has left in place roadblocks on the
+   Information Highway.
+
+   The time for study is over. The time for action is now. The
+   American software industry deserves the right to be able to
+   compete in the world marketplace.
+
+   Let me be clear: we are entering a new wave of computing.
+   One in which consumers are demanding -- because they will
+   need -- security features to be able to access and exchange
+   data on a global basis. American software companies are
+   presently. and arbitrarily, forced to stand on the
+   sidelines as we enter this new era of computing, all
+   because of outmoded restrictions which limit the ability of
+   U.S. companies to sell programs abroad with greater than
+   40-bit key length encryption. Nothing in the
+   Administration's proposal will change this imbalance
+   because the proposal does not adequately recognize that a
+   key recovery system must be market driven, not government
+   imposed, for it to gain popular acceptance and widespread
+   utilization. By setting the bar too high, the
+   Administration risks failure in satisfying its security
+   objectives and, in doing so, takes the heretofore
+   competitive American software industry out of its most
+   important emerging market.
+
+   It need not be this way. We urge the Administration to
+   re-think its current proposal and work with the software
+   industry to devise truly workable, market driven, criteria
+   for exportable software programs with information security
+   features.
+
+   Thank you.
+
+   [End]
+
+</pre>
+
+BÿBack to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 8, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

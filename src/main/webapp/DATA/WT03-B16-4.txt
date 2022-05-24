@@ -1,0 +1,939 @@
+
+<DOC>
+<DOCNO>WT03-B16-4</DOCNO>
+<DOCOLDNO>IA074-000483-B008-93</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg007.html 128.125.48.102 19970125004309 text/html 39593
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:41:37 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 39361
+Last-Modified: Wed, 15 Jan 1997 02:01:24 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDRCUSTWS" HREF="icswg006.html#PToC_628">Customizing your Web site</A></H1>
+Customizing Your Web Site
+<P>
+This chapter describes methods for customizing the appearance of
+your Web site and includes the following topics:
+<P>
+<P><A HREF="icswgmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_629 HREF="#HDRDISCNT" >Displaying page count, date, time, and text on a Web page</A>
+<MENU>
+<LI><A NAME=PToC_630 HREF="#HDRCONHTC" >Configuration instructions</A>
+<LI><A NAME=PToC_631 HREF="#HDROPTHTC" >Options</A>
+</MENU>
+<LI><A NAME=PToC_636 HREF="#HDRSSI" >Using server-side includes to insert information into CGI programs and HTML documents</A>
+<MENU>
+<LI><A NAME=PToC_637 HREF="#HDRSSICON" >Considerations for using server-side includes</A>
+<LI><A NAME=PToC_638 HREF="#HDRSSSET" >Preparing to use server-side includes</A>
+<LI><A NAME=PToC_639 HREF="#HDRSSCMD" >Format for server-side includes</A>
+<LI><A NAME=PToC_641 HREF="#HDRDIRSSI" >Directives for server-side includes</A>
+</MENU></MENU><HR><P>
+<P>
+<HR>
+<H2><A NAME="HDRDISCNT" HREF="#PToC_629">Displaying page count, date, time, and text on a Web page</A></H2>
+<P>
+This section explains how to use the htcounter program
+to display the following information on a Web page:
+<DL>
+<P><DT>Page count
+<DD>
+The page counter is incremented each time the Web page is accessed,
+and the current value is displayed on the Web page.
+<P><DT>Date and time
+<DD>
+The current date and time are displayed on the Web page.
+<P><DT>Text
+<DD>
+User-specified text is displayed on the Web page.
+</DL>
+<P>
+<H3><A NAME="HDRCONHTC" HREF="#PToC_630">Configuration instructions</A></H3>
+<P>
+To use the htcounter program:
+<OL>
+<P><LI>
+Uncomment lines in the server configuration file
+for the functions you are using.
+<UL>
+<P><LI>
+Page count:
+<PRE>
+  # Service  /cgi-bin/apicounter* <VAR>server_root</VAR>/cgi-bin/htcounter&#58;HTCounter*
+</PRE>
+<P><LI>Date and time:
+<PRE>
+  # Service  /cgi-bin/datetime* <VAR>server_root</VAR>/cgi-bin/htcounter&#58;HTCounter*
+</PRE>
+<P><LI>Text:
+<PRE>
+  # Service  /cgi-bin/text2gif* <VAR>server_root</VAR>/cgi-bin/htcounter&#58;HTCounter*
+</PRE>
+</UL>
+<P>
+For <VAR>server_root</VAR>, enter the directory
+where the server is installed.
+The default directory is <TT>C:\WWW\Bin</TT>.
+<P><LI>
+Create the counter file and initialize the counter.
+<P>
+The Web administrator must create the counter file
+and initialize the counter to some value, for example,&nbsp;0.
+This enables the Web administrator to control access to the Web site
+and to Web site resources used to display the requested information.
+<P>
+The counter file must be located in the
+<VAR>server_root</VAR>\Counters directory.
+<P>
+Sample counter files are located in
+the <VAR>server_root</VAR>\HTML directory,
+or you can go to the following URLs:
+<PRE>
+   http://<VAR>your.server.name</VAR>/counter1.html
+   http://<VAR>your.server.name</VAR>/counter2.html
+</PRE>
+<P>
+The sample files include an explanation of error messages
+that may be issued by the htcounter program
+when you begin using the counter file.
+<P><LI>
+Insert lines in the Web page HTML file
+for the functions you are using.
+<UL>
+<P><LI>Page count:
+<PRE>
+<img src="<VAR>your.server.name</VAR>/cgi-bin/apicounter/<VAR>counter_name</VAR>?
+&#91;<VAR>common_options</VAR>&#93;&nbsp;
+&#91;<VAR>counter_option</VAR>&#93;">
+</PRE>
+<P><B>Note: </B>In the previous example, everything should be on one line.
+<P><LI>Date and time:
+<PRE>
+<img src="<VAR>your.server.name</VAR>/cgi-bin/datetime?&#91;<VAR>common_options</VAR>&#93;&nbsp;&#91;<VAR>date_and_time_option</VAR>&#93;">
+</PRE>
+<P><LI>Text:
+<PRE>
+<img src="<VAR>your.server.name</VAR>/cgi-bin/text2gif?&#91;<VAR>common_options</VAR>&#93;&nbsp;&#91;<VAR>text_to_gif_option</VAR>&#93;">
+</PRE>
+</UL>
+<P>
+For <VAR>your.server.name</VAR>, enter the fully qualified name of
+your host, for example, <B>http://www.ibm.com</B>.
+<P>
+For <VAR>counter_name</VAR>, enter the name of the counter file
+you created, for example, <B>cntfile.cnt</B>.
+</OL>
+<P>
+<H3><A NAME="HDROPTHTC" HREF="#PToC_631">Options</A></H3>
+<P>
+This section describes the options you can use for displaying
+the page count, date, time, and text on your Web page.
+<P><B>Notes: </B><OL>
+<P><LI>
+Defaults are shown in <B>bold</B> letters.
+<P><LI>
+Option names and values are <B>not</B> case-sensitive.
+<P><LI>
+Use an ampersand (&amp;) to separate options.
+<P>
+For example, to display a page counter with a foreground color of
+blue and a background color of white, use the following URL:
+<PRE>
+<img src="<VAR>your.server.name</VAR>/cgi-bin/apicounter/<VAR>counter_name</VAR>?FG=blue&amp;BG=white">
+</PRE>
+<P><LI>
+The <VAR>RRGGBB</VAR> color option allows you to specify the color
+using a hexadecimal color code, where <VAR>RR</VAR>, <VAR>GG</VAR>,
+and <VAR>BB</VAR> are the hexadecimal digits that specify the
+Red, Green, and Blue values of the color.
+Examples of color values are:
+<PRE>
+   Black       000000
+   Red         FF0000
+   Orange      FFA500
+   Green       00FF00
+   Blue        0000FF
+   Yellow      FFFF00
+   White       FFFFFF
+</PRE>
+<P>For example, to display a page counter with a foreground color
+of yellow, you would use the following URL:
+<PRE>
+<img src="<VAR>your.server.name</VAR>/cgi-bin/apicounter/<VAR>counter_name</VAR>?FG=FFFF00">
+</PRE>
+<P>For more colors demonstrated online, see Lem Apperson&#39;s
+Color Index at <B>http://www.infi.net/wwwimages/colorindex.html</B>.
+</OL>
+<P>
+<H4><A NAME="Header_632">Common options</A></H4>
+<DL>
+<P><DT><B>FG=<VAR>color</VAR>
+</B><DD>where <VAR>color</VAR> specifies the foreground color, and can be:
+<UL COMPACT>
+<LI><B>Black</B>
+<LI>White
+<LI>Red
+<LI>Green
+<LI>Blue
+<LI><VAR>RRGGBB</VAR>
+</UL>
+<P><DT><B>BG=<VAR>color</VAR>
+</B><DD>where <VAR>color</VAR> specifies the background color, and can be:
+<UL COMPACT>
+<LI><B>Transparent</B>
+<LI>Black
+<LI>White
+<LI>Red
+<LI>Green
+<LI>Blue
+<LI><VAR>RRGGBB</VAR>
+</UL>
+<P><DT><B>BorderColor=<VAR>color</VAR>
+</B><DD>where <VAR>color</VAR> specifies the border color, and can be:
+<UL COMPACT>
+<LI><B>Green</B>
+<LI>Black
+<LI>White
+<LI>Red
+<LI>Blue
+<LI><VAR>RRGGBB</VAR>
+</UL>
+<P><DT><B>BorderWidth=<VAR>width</VAR>
+</B><DD>where <VAR>width</VAR> specifies the width
+of the border around the image, and can be:
+<DL COMPACT>
+<DT><B>0</B>
+<DD>No border (the default)
+<DT><VAR>n</VAR>
+<DD>The number <VAR>n</VAR> determines the thickness of the border.
+</DL>
+<P><B>Example</B>:
+<P><B><A NAME="FIGBWEX">Figure 3. Example of the BorderWidth option</A></B><BR>
+<P><BR>
+<B><BR><IMG SRC="icsctsc3.gif" ALT="* Figure icsctsc3 not displayed."><BR></B><BR>
+<P>
+<P><DT><B>BorderIndent=<VAR>highlighting</VAR>
+</B><DD>where <VAR>highlighting</VAR> specifies highlighting for
+upper and right border edges (3D beveled effect), and can be:
+<DL COMPACT>
+<DT><B>In&nbsp;</B>
+<DD>Upper and right border edges are shaded.
+<DT>Out
+<DD>Lower and left border edges are lighter.
+</DL>
+<P><B>Example</B>:
+<P><B><A NAME="FIGBIEX">Figure 4. Example of the BorderIndent option</A></B><BR>
+<P><BR>
+<B><BR><IMG SRC="icsctsc5.gif" ALT="* Figure icsctsc5 not displayed."><BR></B><BR>
+<P>
+<P><DT><B>BorderIndentColor=<VAR>color</VAR>
+</B><DD>where <VAR>color</VAR> specifies the color
+for the border edge (3D beveled effect), and can be:
+<UL COMPACT>
+<LI><B>BorderColor</B>
+<LI>Black
+<LI>White
+<LI>Red
+<LI>Green
+<LI>Blue
+<LI><VAR>RRGGBB</VAR>
+</UL>
+<P><DT><B>BorderIndentWidth=<VAR>width</VAR>
+</B><DD>where <VAR>width</VAR> specifies the width of the
+border edge (3D beveled effect), and can be:
+<DL COMPACT>
+<DT><B>0</B>
+<DD>No border edge (the default)
+<DT><VAR>n</VAR>
+<DD>The number <VAR>n</VAR>
+determines the thickness of the border edge.
+</DL>
+<P><B>Example</B>:
+<P><B><A NAME="FIGBIWEX">Figure 5. Example of the BorderIndentWidth option</A></B><BR>
+<P><BR>
+<B><BR><IMG SRC="icsctsc4.gif" ALT="* Figure icsctsc4 not displayed."><BR></B><BR>
+<P>
+<P><DT><B>FontName=<VAR>font</VAR>
+</B><DD>where <VAR>font</VAR> specifies the font used,
+and can be:
+<UL COMPACT>
+<LI><B>Block1</B>
+<LI>LCD
+</UL>
+<P><DT><B>FontSize=<VAR>size</VAR>
+</B><DD>where <VAR>size</VAR> specifies the font size (width x height),
+and can be:
+<UL COMPACT>
+<LI><B>8x12</B>
+<LI>7x11
+<LI>9x13
+<LI>10x14
+</UL>
+<P><B>Example</B>:
+<P><B><A NAME="FIGFONTEX">Figure 6. Example of Fonts and Font Sizes</A></B><BR>
+<P><BR>
+<B><BR><IMG SRC="icsctsc1.gif" ALT="* Figure icsctsc1 not displayed."><BR></B><BR>
+<P>
+</DL>
+<P>
+<H4><A NAME="Header_633">Counter option</A></H4>
+<DL>
+<P><DT><B>Format=<VAR>format</VAR>
+</B><DD>where <VAR>format</VAR>
+specifies the format for displaying the <VAR>counter_value</VAR>,
+and can be:
+<DL COMPACT>
+<DT><B><B>%%d</B>
+</B><DD>No padding
+<DT><B>%%<VAR>n</VAR>d
+</B><DD>Pad with blanks;
+width=<VAR>n</VAR>
+<DT><B>%%0<VAR>n</VAR><B>%d</B>
+</B><DD>Pad with zeros;
+width=<VAR>n</VAR>
+</DL>
+<P><B>Example</B>:
+<P><B><A NAME="FIGCOUNTEX">Figure 7. Example of counter format options</A></B><BR>
+<P><BR>
+<B><BR><IMG SRC="icsctsc2.gif" ALT="* Figure icsctsc2 not displayed."><BR></B><BR>
+<P>
+</DL>
+<P>
+<H4><A NAME="Header_634">Date and time option</A></H4>
+<DL>
+<P><DT><B>Format=<VAR>strftime()-format</VAR>
+</B><DD>Specifies the format for displaying the
+<VAR>date</VAR> and <VAR>time</VAR>:
+<UL>
+<P><LI><B>Default</B>: http_time format
+<P><LI><VAR>strftime()-format</VAR>
+<UL COMPACT>
+<LI>Use %20 to represent a blank.
+<LI>For all other options, see <A HREF="#TBLSTRFFOR">Table 3</A>.
+</UL>
+</UL>
+<P><DT><B>Timebase=<VAR>time</VAR>
+</B><DD>Specifies the time used:
+<UL COMPACT>
+<LI><B>Local</B>
+<LI>GMT (Greenwich mean time)
+</UL>
+<P><B>Example</B>:
+<P><B><A NAME="FIGDTEX">Figure 8. Example of date and time formats</A></B><BR>
+<P><BR>
+<B><BR><IMG SRC="icsctsc6.gif" ALT="* Figure icsctsc6 not displayed."><BR></B><BR>
+<P>
+</DL>
+<P>
+<H4><A NAME="Header_635">Text to gif option</A></H4>
+<DL>
+<P><DT><B>Text=<VAR>string</VAR>
+</B><DD>Specifies the text
+string that will be converted to a gif.
+Use %20 to represent a blank.
+</DL>
+<P><B>Example</B>:
+<P>The following URLs show an example of how you can display
+text and page count on a Web page:
+<PRE>
+<img src="<VAR>your.server.name</VAR>/cgi-bin/text2gif?BG=white&amp;Text=This%20Web%20page%20has%20been%20accessed%20">
+<img src="<VAR>your.server.name</VAR>/cgi-bin/apicounter/<VAR>counter_name</VAR>?FG=red&amp;BG=white">
+<img src="<VAR>your.server.name</VAR>/cgi-bin/text2gif?BG=white&amp;Text=%20times%20since%20January%201,%201997.">
+</PRE>
+<P>
+The URLs in this example display the following information
+on the Web page:
+<PRE>
+This Web page has been accessed <VAR>n</VAR> times since January 1, 1997.
+</PRE>
+<P>In this example:
+<UL COMPACT>
+<LI>The text is displayed in black (default)
+using a transparent background.
+<LI>The page count (<VAR>n</VAR>)
+is displayed in red on a white background.
+</UL>
+<HR>
+<H2><A NAME="HDRSSI" HREF="#PToC_636">Using server-side includes to insert information into CGI programs and HTML documents</A></H2>
+<P>
+Server-side includes allow you to insert information into
+CGI programs and HTML documents that the server sends to the client.
+This section describes the command format for using server-side includes
+and explains how to use the commands needed
+to make server-side includes
+work in your CGI programs and
+HTML documents.
+<P>
+<H3><A NAME="HDRSSICON" HREF="#PToC_637">Considerations for using server-side includes</A></H3>
+Before using server-side includes on your server,
+there are a few issues you should consider.
+One issue is performance.
+Performance can be significantly impacted when the server
+is processing files while sending them.
+Another issue is security.
+Letting ordinary users execute commands can be a security risk.
+Be very careful when deciding which directories you use
+server-side includes in and which directories you use
+the <TT>exec</TT> command in.
+You can minimize the security risk
+if you do not enable the <TT>exec</TT> command.
+<P>
+You should also note that you cannot reference files recursively.
+For example, if you are running file <TT>sleepy.html</TT>
+and the program finds <TT>&lt;&#45;&#45;!#include file="sleepy.html" &#45;&#45;&gt;</TT>
+the server doesn't detect the error and the server loops until
+the server abends.
+However, you can reference files within files.
+For example, file <TT>sleepy.html</TT> references
+file <TT>smiley.html</TT> and file <TT>smiley.html</TT>
+references <TT>dopey.html</TT>.
+<P>
+<P>
+<H3><A NAME="HDRSSSET" HREF="#PToC_638">Preparing to use server-side includes</A></H3>
+<P>To use server-side includes, you need to add the
+AddType directive to your configuration file.
+Two examples follow:
+<P>
+<B><I>Examples</I></B>&#58;
+<PRE>
+   AddType .shtml text/x-ssi-html 8 bit 1.0
+   AddType .htmls text/x-ssi-html 8 bit 1.0
+</PRE>
+<P><B>Note: </B>If you use file extensions other than .shtml or .htmls,
+you should check the AddType directive to see
+if that extension already exists.
+See the configuration file, appendix listing,
+or the MIME form for a list of existing AddType directives.
+<P>You can also use the imbeds directive to specify
+whether server-side includes can be used in HTML documents,
+CGI programs, or both.
+Examples of this directive follow&#58;
+<P>
+<B><I>Examples</I></B>&#58;
+<PRE>
+   imbeds <VAR>value</VAR>
+   imbeds <VAR>on</VAR>
+</PRE>
+<P>
+<B><I>Default&#58;</I></B>
+<TT>imbeds <VAR>on</VAR>
+</TT>
+<P>
+For more information about the imbeds directive,
+see <A HREF="icswg005.html#HDRIMBEDS">"imbeds - Specify whether server-side includes will be dynamically imbedded"</A>.
+<P>
+The server does not process your error files for imbeds, regardless
+of the file extensions or use of the imbeds directive.
+<P>
+<H3><A NAME="HDRSSCMD" HREF="#PToC_639">Format for server-side includes</A></H3>
+<P>
+The current date, the size of a file, the last change of a file
+are examples of the kind of information that can be sent to the client.
+There are commands that need to be included
+in the HTML document comments.
+The commands have the following format:
+<P>
+<H4><A NAME="Header_640">Syntax</A></H4>
+The following is the syntax format for enabling server-side
+includes on the server:
+<PRE>
+   &lt;!&#45;&#45;#directive tag=value ... &#45;&#45;&gt;
+   &lt;!&#45;&#45;#directive tag="value" ... &#45;&#45;&gt;
+</PRE>
+<P>The quotes around <VAR>value</VAR> are optional.
+They are required for imbedding spaces.
+<P>
+<H3><A NAME="HDRDIRSSI" HREF="#PToC_641">Directives for server-side includes</A></H3>
+<P>
+This section explains the directives that are accepted
+by the server for server-side includes.
+<P>
+<H4><A NAME="HDRCNFGSSI">config - controls file processing</A></H4>
+<P>Use this directive to control certain aspects of file processing.
+Valid tags are cmntmsg, errmsg, sizefmt, and timefmt.
+<P>
+<H5><A NAME="HDRCMNTMSG">cmntmsg - specify the message appended to the beginning of text</A></H5>
+<P>Use this tag to specify the message that gets appended
+to the beginnning of any text that follows a
+directive specification and comes before "&#45;&#45;&gt;".
+<P>
+<B><I>Example&#58;</I></B>
+<PRE>
+   &lt;!&#45;&#45;#config cmntmsg="&#91;This is a comment&#93;" &#45;&#45;&gt;
+   &lt;!&#45;&#45;#echo var=" " extra text &#45;&#45;&gt;
+</PRE>
+<P>
+<B><I>Result</I></B>&#58;  (Output from the <TT>echo</TT>)
+<TT>&lt;!&#45;&#45;This is a comment extra text &#45;&#45;&gt;
+</TT>
+<P>
+<B><I>Default&#58;</I></B>
+<TT>&#91;the following was extra in the directive&#93;
+</TT>
+<P>
+<H5><A NAME="HDRERRMSG">errmsg - specify the message sent to the client</A></H5>
+<P>Use this directive to specify the message that gets sent
+to the client if an error occurs when a file is being processed.
+The message gets logged in the server's error log.
+<P>
+<B><I>Example&#58;</I></B>
+<PRE>
+   &lt;!&#45;&#45;#config errmsg="&#91; An error occurred&#93;" &#45;&#45;&gt;
+</PRE>
+<P>
+<B><I>Default&#58;</I></B>
+<TT>
+"&#91;an error occurred while processing this directive&#93;"
+</TT>
+<P>
+<H5><A NAME="HDRSIZEFMT">sizefmt - specify file size format</A></H5>
+<P>Use this directive to specify the format to be used when
+the file size is displayed.
+In the following examples,
+<TT>bytes</TT> is the value used for a formatted
+number of bytes.  <TT>abbrev</TT> is used for displaying
+the number of kilobytes or megabytes.
+<P>
+<B><I>Example 1&#58;</I></B>
+<PRE>
+   &lt;!&#45;&#45;#config sizefmt = bytes &#45;&#45;&gt;
+   &lt;!&#45;&#45;#fsize file=foo.html &#45;&#45;&gt;
+</PRE>
+<P>
+<B><I>Result&#58;</I></B>  <TT>1024</TT>
+<P>
+<B><I>Example 2&#58;</I></B>
+<PRE>
+   &lt;!&#45;&#45;#config sizefmt=abbrev &#45;&#45;&gt;
+   &lt;!&#45;&#45;#fsize file=foo.html &#45;&#45;&gt;
+</PRE>
+<P>
+<B><I>Result&#58;</I></B>  <TT>1K</TT>
+<P>
+<B><I>Default&#58;</I></B> <TT>"abbrev"</TT>
+<P>
+<H5><A NAME="HDRTIMEFMT">timefmt - specify date format</A></H5>
+<P> Use this directive to specify the format to be used
+when providing dates.
+<P>
+<B><I>Example&#58;</I></B>
+<PRE>
+   &lt;!&#45;&#45;#config timefmt="%T %D" &#45;&#45;&gt;
+   &lt;!&#45;&#45;#flastmod file=foo.html &#45;&#45;&gt;
+</PRE>
+<P>
+<B><I>Result&#58;</I></B>  <TT>"10/18/95  12:05:33"</TT>
+<P>
+<B><I>Default&#58;</I></B>  <TT>"%a, %d %b-%Y %T %Z"</TT>
+<P>
+The following strftime() formats are valid with the timefmt tag&#58;
+<BR>
+<P><B><A NAME="TBLSTRFFOR">Table 3. Conversion Specifiers Used by strftime()</A></B><BR>
+<PRE><TT>
+                                                                              
+  Specifier              Meaning                                              
+                                                                              
+  %%                     Replace with %.                                      
+                                                                              
+  %a                     Replace with the abbreviated weekday name.           
+                                                                              
+  %A                     Replace with the full weekday name.                  
+                                                                              
+  %b                     Replace with the abbreviated month name.             
+                                                                              
+  %B                     Replace with the full month name.                    
+                                                                              
+  %c                     Replace with the date and time.                      
+                                                                              
+  %C                     Replace with the century number (year divided by     
+                         100 and truncated).                                  
+                                                                              
+  %d                     Replace with the day of the month (01-31).           
+                                                                              
+  %D                     Insert the date as %m/%d/%y.                         
+                                                                              
+  %e                     Insert the month of the year as a decimal number     
+                         (01-12). Under C POSIX only, it is a 2-character,    
+                         right-justified, blank-filled field.                 
+                                                                              
+  %E&#91;cCxyY&#93;              If the alternative date/time format is not
+                         available, the %E descriptors are mapped to their    
+                         unextended counterparts. For example, %EC is mapped  
+                         to %C.                                               
+                                                                              
+  %Ec                    Replace with the alternative date and time           
+                         representation.                                      
+                                                                              
+  %EC                    Replace with the name of the base year (period) in   
+                         the alternative representation.                      
+                                                                              
+  %Ex                    Replace with the alternative date representation.    
+                                                                              
+  %EX                    Replace with the alternative time representation.    
+                                                                              
+  %Ey                    Replace with the offset from %EC (year only) in the  
+                         alternative representation.                          
+                                                                              
+  %EY                    Replace with the full alternative year               
+                         representation.                                      
+                                                                              
+  %h                     Replace with the abbreviated month name. This is     
+                         the same as %b.                                      
+                                                                              
+  %H                     Replace with hour (23-hour clock) as a decimal       
+                         number (00-23).                                      
+                                                                              
+  %I                     Replace with hour (12-hour clock) as a decimal       
+                         number (00-12).                                      
+                                                                              
+  %j                     Replace with the day of the year (001-366).          
+                                                                              
+  %m                     Replace with the month (01-12)                       
+                                                                              
+  %M                     Replace with minute (00-59).                         
+                                                                              
+  %n                     Replace with a new line.                             
+                                                                              
+  %O&#91;deHlmMSUwWy&#93;        If the alternative date/time format is not
+                         available, the %E descriptors are mapped to their    
+                         unextended counterparts. For example, %Od is mapped  
+                         to %d.                                               
+                                                                              
+  %Od                    Replace with the day of the month, using the         
+                         alternative numeric symbols, filled as needed with   
+                         leading zeroes if there is any alternative symbol    
+                         for zero, otherwise with leading spaces.             
+                                                                              
+  %Oe                    Replace with the day of the month, using the         
+                         alternative numeric symbols, filled as needed with   
+                         leading spaces.                                      
+                                                                              
+  %OH                    Replace with the hour (24 hour clock) using the      
+                         alternative numeric symbols.                         
+                                                                              
+  %OI                    Replace with the (12 hour clock) using the           
+                         alternative numeric symbols.                         
+                                                                              
+  %Om                    Replace with the month using the alternative         
+                         numeric symbols.                                     
+                                                                              
+  %OM                    Replace with the minutes using the alternative       
+                         numeric symbols.                                     
+                                                                              
+  %OS                    Replace with the seconds using the alternative       
+                         numeric symbols.                                     
+                                                                              
+  %OU                    Replace with the week number of the year (Sunday as  
+                         the first day of the week, rules corresponding to    
+                         %U) using the alternative numeric symbols.           
+                                                                              
+  %Ow                    Replace with the weekday (Sunday=0) using the        
+                         alternative numeric symbols.                         
+                                                                              
+  %OW                    Replace with the week number of the year (Monday as  
+                         the first day of the week) using the alternative     
+                         numeric symbols.                                     
+                                                                              
+  %Oy                    Replace with the year (offset from %C) in the        
+                         alternative representation and using the             
+                         alternative numeric symbols.                         
+                                                                              
+  %p                     Replace with the local equivalent of AM or PM.       
+                                                                              
+  %r                     Replace with the string equivalent to %I:%M:%S %p    
+                                                                              
+  %R                     Replace with time in 24 hour notation (%H:%M)        
+                                                                              
+  %S                     Replace with seconds (00-61).                        
+                                                                              
+  %t                     Replace with a tab.                                  
+                                                                              
+  %T                     Replace with a string equivalent to %H:%M:%S.        
+                                                                              
+  %u                     Replace with the weekday as a decimal number (1 to   
+                         7), with a 1 representing Monday.                    
+                                                                              
+  %U                     Replace with the week number of the year (00-53)     
+                         where Sunday is the first day of the week.           
+                                                                              
+  %V                     Replace with the week number of the year (01-53)     
+                         where Monday is the first day of the week.           
+                                                                              
+  %w                     Replace with the weekday (0-6) where Sunday is 0.    
+                                                                              
+  %W                     Replace with the week number of the year (00-53)     
+                         where Monday is the first day of the week.           
+                                                                              
+  %x                     Replace with the appropriate date representation.    
+                                                                              
+  %X                     Replace with the appropriate time representation.    
+                                                                              
+  %y                     Replace with the year with the century.              
+                                                                              
+  %Y                     Replace with the year with the current century.      
+                                                                              
+  %Z                     Replace with the name of the time zone or no         
+                         characters if the time zone is unknown.              
+                                                                              
+</TT></PRE><P>
+<P>The operating system configuration determines the full and
+abbreviated month names and years.
+<P>
+<H4><A NAME="HDRECHO">echo - specify environment variables</A></H4>
+<P>Use this directive to display the value for
+specified environment variables using the <TT>var</TT> tag.
+If a variable is not found, a <B>(None)</B> is displayed.
+The following environment variables can be displayed:
+<DL>
+<P><DT>DATE_GMT
+<P><DD>The current date and time in Greenwich Mean Time.
+The formatting of this variable is defined using the
+<TT>config timefmt</TT> directive.
+<P><DT>DATE_LOCAL
+<P><DD>The current date and local time.
+The formatting of this variable is defined using the
+<TT>config timefmt</TT> directive.
+<P><DT>DOCUMENT_NAME
+<P><DD>This is the name of the topmost document.
+If the HTML was generated by a CGI,
+this will contain the name of the CGI.
+<P><DT>DOCUMENT_URI
+<P><DD>The full URL the client entered, without the query string.
+<P><DT>LAST_MODIFIED
+<P><DD>The current date and time that the current document
+was last modified.
+The formatting of this variable is defined
+using the <TT>config timefmt</TT> directive.
+<P><DT>QUERY_STRING_UNESCAPED
+<P><DD>The search query sent by the client.
+This is undefined unless HTML was generated by a CGI.
+<P><DT>SSI_DIR
+<P><DD>The path of the current file, relative to SSI_ROOT.
+If the current file is in SSI_ROOT, this value is "/".
+<P><DT>SSI_FILE
+<P><DD>The file name of the current file.
+<P><DT>SSI_INCLUDE
+<P><DD>The value used in the include command that retrieved this file.
+This is not defined for the topmost file.
+<P><DT>SSI_PARENT
+<P><DD>The path and file name of the includer, relative to SSI_ROOT.
+<P><DT>SSI_ROOT
+<P><DD>The path of the topmost file.
+ All include requests must be in this directory
+ or a child of this directory.
+<P>
+<B><I>Example</I></B>&#58;
+<PRE>
+   &lt;!&#45;&#45;#echo var=SSI_DIR &#45;&#45;&gt;
+</PRE>
+</DL>
+<P>Also, <B>echo</B> can display a value set by the
+<B>set</B> or <B>global</B> directives.
+<P>
+<H4><A NAME="HDREXECS">exec - specify CGI programs</A></H4>
+<P>Use this directive to include the output of a CGI program.
+Exec discards any HTTP headers CGI outputs EXCEPT for:
+<DL>
+<P><DT>content-type
+<P><DD>determines whether to parse the body of
+the output for other Includes.
+<P><DT>content-encoding
+<P><DD>determines if translation needs to be done (ebcdic/ascii).
+<P><DT>last-modified
+<P><DD>replaces the current last modified header value if it is later.
+</DL>
+<P>
+<H4><A NAME="HDRCGI">cgi - specify CGI program URL</A></H4>
+<P>Use this directive to specify the URL of a virtual path to a
+CGI program.
+<P>
+<B><I>Example 1</I></B>&#58;
+<PRE>
+   &lt;!&#45;&#45;#exec cgi="/cgi-bin/program/path_info?query_string"&#45;&#45;&gt;
+</PRE>
+<P>In the example, <TT>program</TT> is the cgi program
+to be executed, <TT>path&#95;info</TT> are the parameter
+passed to the program as environment variables, and
+<TT>query&#95;string</TT> are the parameters passed to
+the program as environment variables.
+<P>
+<B><I>Example 2</I></B>&#58;
+<PRE>
+   &lt;!&#45;&#45;#exec cgi="&path;&cgiprog;&pathinfo;&querystring;"&#45;&#45;&gt;
+</PRE>
+<P>Example 2 shows the use of variables.
+<P>
+<H4><A NAME="HDRFLSTMOD">flastmod - display time and date document was changed</A></H4>
+<P>Use this directive to display the last time and date
+the document was changed.
+The formatting of this variable is defined using
+the <TT>config timefmt</TT> directive.
+The <TT>file</TT> and <TT>virtual</TT> tags
+are valid with this directive, and the meaning is the same as it is
+for the <TT>include</TT> directive.
+<P>
+<B><I>Directive Formats</I></B>&#58;
+<TT>
+   &lt;!&#45;&#45;#flastmod file="/path/file" &#45;&#45;&gt;
+   &lt;!&#45;&#45;#flastmod virtual="/path/file" &#45;&#45;&gt;
+</TT>
+<P>
+<B><I>Example</I></B>&#58;
+<PRE>
+   &lt;!&#45;&#45;#flastmod file="FOO" extra text &#45;&#45;&gt;
+</PRE>
+<P>
+<B><I>Result&#58;</I></B>
+<TT>12May96 &lt;!&#45;&#45;This is extra text&#45;&#45;&gt;
+</TT>
+<P>
+<H4><A NAME="HDRFSIZE">fsize - display file size</A></H4>
+<P>Use this directive to display the size of the specified file.
+The formatting of this variable is defined
+using the <TT>config sizefmt</TT> directive.
+The <TT>file</TT> and <TT>virtual</TT> tags are valid
+with this directive, and the meaning is the same as it is
+for the <TT>include</TT> directive.
+<P>
+<B><I>Examples</I></B>&#58;
+<P>
+<PRE>
+   &lt;!&#45;&#45;#fsize file="/path/file" &#45;&#45;&gt;
+   &lt;!&#45;&#45;#fsize virtual="/path/file" &#45;&#45;&gt;
+</PRE>
+<P>
+<B><I>Result&#58;</I></B>
+<TT>1K
+</TT>
+<P>
+<H4><A NAME="HDRGLOBAL">global - defines global variables</A></H4>
+<P>Use this directive to define global variables that can be
+echoed later by this file, or any included files.
+<P>
+<B><I>Example</I></B>&#58;
+<PRE>
+   &lt;!&#45;&#45;#global var=VariableName value="Some Value" &#45;&#45;&gt;
+</PRE>
+<P>
+<H4><A NAME="HDRINCLD">include - includes a document in output</A></H4>
+<P>Use this directive to include a document (the text from
+a document) in the output.
+The <TT>file</TT> and <TT>virtual</TT> tags
+are valid with this directive:
+<P>
+<H5><A NAME="HDRFILE">file - specify file name</A></H5>
+<P>Use this tag to specify the name of a file.
+<P>For <B>flastmod</B>, <B>fsize</B>,
+and <B>include</B>, <B>file</B> is assumed to be
+relative to SSI_ROOT if preceded by a '/'.
+Otherwise, it is relative to SSI_DIR.
+The file specified must exist either in
+SSI_ROOT or in one of its descendents.
+<P>
+<B><I>Example</I></B>&#58;
+<PRE>
+   &lt;!&#45;&#45;#include file="/path/file" &#45;&#45;&gt;
+</PRE>
+<P>
+<H5><A NAME="HDRVRTL">virtual - specify a document URL</A></H5>
+<P>Use this tag to specify the URL of a virtual
+path to a document.
+<P>For <B>flastmod</B>, <B>fsize</B>, and <B>include</B>,
+<B>virtual</B> is always passed through the server's mapping
+directives.
+<P>
+<B><I>Example</I></B>&#58;
+<PRE>
+   &lt;!&#45;&#45;#include virtual="/path/file" &#45;&#45;&gt;
+</PRE>
+<P>
+<H4><A NAME="HDRSETSSI">set - sets variables to be echoed</A></H4>
+<P>Use this directive to set a variable that can be
+echoed later by only this file.
+<P>
+<B><I>Example</I></B>&#58;
+<P>
+<PRE>
+   &lt;!&#45;&#45;#set var="Variable 2" value="AnotherValue" &#45;&#45;&gt;
+</PRE>
+<P>
+<H5><A NAME="Header_657">Variables</A></H5>
+<P>
+Server-side includes also allow you to echo a variable already set.
+While defining a directive, you can echo a string in the
+middle of "value".
+For example:
+<PRE>
+   &lt;!&#45;&#45;#include file="&amp;filename;"&#45;&#45;&gt;
+</PRE>
+If an unrecognized variable is found, nothing gets displayed.
+<P>Server-side includes looks for the variable, echos where
+the variable is found, and proceeds with the function.
+You can have multiple variable references.
+When server-side includes encounter a variable reference
+INSIDE a server-side include directive, it attempts to resolve
+it on the SERVER side.
+The following example escapes the & so that server-side includes
+does not recognize it as a variable.  In the second line,
+the variable "&index;" is a server-side varilabe and is used to
+construct the variable name "var1".  The variable &ecirc; is a client
+side variable, so the & is escaped to create the value
+"&#58;fr&ecirc;d" or "fred" with a circumflex over the e.
+<PRE>
+   &lt;!&#45;&#45;#set var="index" value="1" &#45;&#45;&gt;
+   &lt;!&#45;&#45;#set var="var&index;" value="fr\&ecirc;d" &#45;&#45;&gt;
+   &lt;!&#45;&#45;#echo var="var1" &#45;&#45;&gt;
+</PRE>
+The following characters that can be escaped.
+Note that escaped variables are preceded with a backslash (\).
+<PRE>
+   \a     Alert(bell)
+   \b     Backspace
+   \f     Form feed (new page)
+   \n     New line
+   \r     Carriage return
+   \t     Horizontal tab
+   \v     Vertical tab
+   \'     Single quote mark
+   \"     Double quote mark
+   \?     Question mark
+   \\     Backslash
+   \-     Hyphen
+   \.     Period
+   \&     Ampersand
+</PRE>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg006.html">Previous Page</A> &#124; <A HREF="icswg008.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

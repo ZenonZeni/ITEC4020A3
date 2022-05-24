@@ -1,0 +1,169 @@
+
+<DOC>
+<DOCNO>WT02-B26-195</DOCNO>
+<DOCOLDNO>IA005-000053-B022-150</DOCOLDNO>
+<DOCHDR>
+http://camelot.es.anl.gov:80/htmls/sensor.html 146.139.76.150 19970221172142 text/html 6520
+HTTP/1.0 200 OK
+Date: Friday, 21-Feb-97 17:22:03 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Thursday, 10-Oct-96 21:21:50 GMT
+Content-length: 6338
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> Intelligent Gas Microsensor Page </TITLE>
+<BODY BGCOLOR="#FFFFFF"  TEXT="#000000">
+
+<CENTER>
+<TABLE>
+<TR>
+<TD>
+<H2>Intelligent, Rugged Microsensor Identifies Wide Range of Gases</H2>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<P>
+<B>Problem/Opportunity</B>
+<P>
+In addition to environmental monitoring needs (such as continuous monitoring of soil contaminants and detection of greenhouse gas emissions from landfills and undisturbed ecosystems), regulation of emissions of volatile organic compounds (VOCs) and hazardous organic compounds from industrial plants is becoming more stringent, requiring operators to install emissions monitoring systems even for relatively small equipment.  Many available sensors for measuring gaseous emissions are too delicate to withstand the hostile, high-temperature,  environments found in industrial stacks, or they are not portable and involve sample collection and transportation.  These sensors can also be expensive, and their versatility and sensitivity are limited.  
+<P>
+<P>
+<B>Approach</B>
+<P>
+Argonne National Laboratory has developed a small electrocatalytic microsensor made of ceramic-metallic (cermet) materials that identifies many different gases by their electrical signatures.  The microsensor relies on an innovative combination of cermet materials, cyclic voltammetry, and neural network signal processing.  Work is under way to train the sensor to differentiate gases in mixtures and to evaluate it performance.  
+<P>
+The microsensor, produced by using thick-film screening methods, is constructed of four overlapping thick films with an incorporated thick-film heating element on the back.  As a cyclic voltage is ramped through the upper and lower electrodes, gases adsorbed on the surface react catalytically, changing the concentration of ions at the three-phase boundary between the gas, electrode, and solid electrolyte. This, in turn, changes the ionic current flow measured through the microsensor.  The applied voltage and measured current produce a voltage/current signature that is unique for each individual gase and mixture.  The microsensor's intelligent signal processing uses neural networks to recognize the gas signature patterns and quantify the gases by their shape changes.
+<P>
+<CENTER>
+<IMG SRC="../jpegs/sensor.header.jpeg"><IMG SRC="../jpegs/sensor.pcb.jpeg"><BR>
+<IMG SRC="../jpegs/notebook.das.jpeg"> <IMG SRC="../jpegs/voltammogram.jpeg"><BR>
+<P>(top to bottom, left to right)<BR>
+<B>EC Microsensor, Miniature Support Electronics,</B><BR>
+<B>Benchtop Demonstration System, and Typical Voltammogram Response</B>
+</CENTER>
+<P>
+Researchers are evaluating applications for the microsensor, including monitoring stacks and flues for gaseous emissions of regulatory concern, characterizing environmental contaminants in the field, providing early fire warning, monitoring fugitive emissions from machinery, detecting CO2 and O2 for underwater breathing apparatus, detecting CO for indoor air quality, and providing input information to process control systems.
+<P>
+<P>
+<B>Results</B>
+<P>
+<UL>
+<LI>The microsensor's intelligent pattern recognition system can be trained to recognize a wide variety of gases and gas mixtures.</LI>
+<LI>The microsensor is inexpensive to produce ( &lt  25¢ per microsensor ), yet it may prove rugged enough to survive in hostile, high-temperature  environments, if necessary.</LI>
+<LI>The microsensor can be remotely cleaned and does not require electrolyte replenishment or replacement.</LI>
+<LI>Compared with conventional sensors, power requirements are low (milliwatts).</LI>
+<LI>The neural network processing will soon fit onto a microcontroller chip, which will minimize support electronics and transfer the burden of signal generation from the microsensor itself to the support electronics.</LI>
+</UL>
+<P>
+<P>
+<B>Future Plans</B>
+<P>
+The cermet sensor research team is also developing other microsensors.  Researchers are working to apply new measurement techniques to tin oxide sensors and thin-film/thick-film hybrids, using advanced materials.  The team is also rebuilding the microsensors to exploit a new thin-film process called "metal organic chemical vapor deposition", which could reduce the microsensor's size and improve its sensitivity.
+<P>
+
+<CENTER>
+
+<A HREF="information.html">
+Reports and publications discussing this project are available at the ESD Publications On-Line page...<BR>
+<IMG SRC="../jpegs/cool.info.banner.red.jpeg" BORDER=0></A>
+
+
+
+<TABLE>
+
+<TR>
+<TD ALIGN=CENTER>
+<B>Principal Investigators:</B>
+</TD>
+
+<TD ALIGN=CENTER>
+<B>Research Assistants:</B>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=CENTER>
+<A HREF="http://wp.anl.gov:8888/Rcn%3dMichael%20C%20Vogt%2c%20ou%3dEnergy%20Systems%2c%20o%3dArgonne%20National%20Laboratory%2c%20c%3dUS">
+<B>Michael Vogt</B></A>
+, Erika Shoemaker
+</TD>
+
+<TD ALIGN=CENTER>
+<A HREF="http://wp.anl.gov:8888/Rcn%3dTara%20N%20Turner%2c%20ou%3dEnergy%20Systems%2c%20o%3dArgonne%20National%20Laboratory%2c%20c%3dUS">
+<B>Tara Turner</B></A>
+, Daniel McShane
+</CENTER>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=CENTER>
+<IMG SRC="../jpegs/mike.erika.jpeg">
+</TD>
+
+<TD ALIGN=CENTER>
+<IMG SRC="../jpegs/dan.tara.jpeg">
+</TD>
+</TR>
+
+</TABLE>
+</CENTER>
+<P><BR><P>
+<CENTER>
+<TABLE BORDER=5>
+<TR>
+
+<TD>
+<A HREF="http://www.es.anl.gov">
+<IMG SRC="../jpegs/navbar.esdhome.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/division.html">
+<IMG SRC="../jpegs/navbar.aboutesd.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/esdstaff.html">
+<IMG SRC="../jpegs/navbar.staff.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/esd.construction.html">
+<IMG SRC="../jpegs/navbar.facilities.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/information.html">
+<IMG SRC="../jpegs/navbar.info.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/whatsnew.html">
+<IMG SRC="../jpegs/navbar.whatsnew.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/projects.html">
+<IMG SRC="../jpegs/navbar.businessneeds.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/sitemap.html">
+<IMG SRC="../jpegs/navbar.sitemap.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+</TR>
+</TABLE>
+</CENTER>
+
+<P>
+091296
+<HR SIZE=2 WIDTH=95%>
+</BODY>
+</HTML>
+</DOC>

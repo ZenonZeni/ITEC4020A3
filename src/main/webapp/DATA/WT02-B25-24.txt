@@ -1,0 +1,289 @@
+
+<DOC>
+<DOCNO>WT02-B25-24</DOCNO>
+<DOCOLDNO>IA067-000406-B021-17</DOCOLDNO>
+<DOCHDR>
+http://www.dsnt.com:80/june12speech.html 207.78.30.85 19970112210812 text/html 12198
+HTTP/1.0 200 Document follows
+Date: Sun, 12 Jan 1997 21:09:33 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>DSN - June 12th Speech</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+
+<br>
+<br>
+
+<table width=100% border=0 cellpadding=5 cellspacing=0>
+<tr>
+	<td rowspan=25><img src="bl130.gif"></td>
+</tr>
+<tr>
+	<td>
+	<center>
+	<font size=4>
+	Testimony supporting the relaxation of encryption export laws as put forth
+	in S.1726, The Promotion of Commerce Online in the Digital Era Act of 1996, or "Pro-CODE"
+	<p>
+	</font>
+	
+	<i><font size=4>Presented by Dr. Aharon Friedman<br>
+	to the Commerce Sub-Committee on Science, Technology and Space</i></font>
+	<br><br><br>
+	</center>
+	June 12, 1996
+	<p>
+	Chairman and members of the committee, thank you for the opportunity to speak
+	to you today.
+	<p>
+	I am here to support "The Promotion of Commerce Online in the Digital Era Act of 1996",
+	referred to as Pro-CODE.
+	<p>
+	Let me begin by introducing myself.  My name is Aharon Friedman.  I am the founder,
+	chairman and chief technology officer of Digital Secured Network Technology, of DSN.
+	Established in 1995 with headquarters in New Jersey, DSN develops and markets
+	encryption and authentication solutions for open network communications, such as the
+	Internet.  My previous positions include scientist at Brookhaven National Laboratories,
+	senior researcher at SAIC, and professor of electrical engineering at the University
+	of Maryland.  I received my Ph.D. Summa Cum Laude in Physical Electronics from
+	Tel-Aviv University.
+	<p>
+	I am here today to discuss how Pro-CODE benefits American cryptography companies
+	by relaxing laws that restrict the export of American encryption products.  By
+	relaxing these export laws, this bill allows American companies such as DSN to
+	compete on an equal footing with foreign competitors.  Loosening these restrictive
+	laws dramatically improves our competitive position in both international and
+	domestic markets.  Yet Pro-CODE supports American companies without jeopardizing
+	national security.  Existing export laws are impractical and unenforceable and
+	need to be reevaluated in light of the availability of advanced technologies.
+	<p>
+	As you probably know, encryption is accomplished by scrambling and de-scrambling
+	data with a numeric key.  this encryption process makes it extremely difficult
+	and time consuming for anyone other than those with the correct keys to recover and 
+	read the original text.  The more sophisticated the mathematical formula and the
+	longer the key, the better a product will defend computer systems and information
+	against an attack.  According to a recently released report by a panel of leading
+	security and cryptography experts, to provide adequate protection against serious
+	threats, keys should be at least 75-bits long.&#185;
+	<p>
+	<font size=4>
+	Effect of Existing Export Laws on American Companies in the International
+	Market
+	</font>
+	<p>
+	By law, American companies can only export security solutions with a maximum
+	key length of 40-bits.  This level of encryption does not in any way provide
+	adequate protection against attackers.  The report cited above found that widely
+	available $400 computer chips enable hackers to break 40-bit keys in five hours.
+	A company spending $300,000 could find the right 40-bit key in an average
+	of 0.18 seconds.  Clearly, a 40-bit key solution is not a viable encryption
+	product.
+	<p>
+	Existing laws do allow American companies to export DES encryption products
+	with 56-bit keys providing foreign clients are willing to place part of the 
+	key in escrow with a third party.  Despite the additional strength of a
+	56-bit key, foreign clients will be reluctant to purchase these products
+	since expert calculations show that DES is cheaper and easier to break than
+	previously thought.  With a $300,000 investment in computer network
+	equipment, a legitimate or illegitimate business could find a DES key in an
+	average of 19 days using off-the-shelf technology.  With this same
+	$300,000 investment, using a custom developed chip, a key can be found
+	in 3 hours.  For future reference, I have included a matrix that provides
+	more details on the vulnerability of 40 and 56-bit key encryption solutions.
+	<br>
+	(See <a href="#MATRIX">matrix</a> at bottom of this page).
+	<p>
+	Please keep in mind, these numbers only refer to the keys used to encrypt
+	data (cipher key lengths).  Keys that are exchanged between parties, or
+	public keys, require a greater key length.
+	<p>
+	It's clear that the 40 and 56 bit key encryption will not adequately 
+	protect electronic communications.  Foreign companies will not want
+	to buy these products.  In order to survive, American companies will
+	bypass these laws and develop their products in foreign countries.
+	This would be a tremendous loss for America's economy.  A recent study
+	commissioned by a group of high-tech CEO's (Computer Systems Policy
+	Project) estimates that the opportunity loss to US companies as a
+	result of current export policy restrictions in the next four years is
+	$60 billion and the loss of 200,000 jobs many of which are high-skill
+	and high-paying.
+	<p>
+	On a personal note, DSN has a steady stream of requests for product information
+	frmo foreign companies.  We have also had a number of meetings with a major
+	Japanese company interested in evaluating uor security solution for several
+	large installations.  This company is attracted to our product because of
+	its advanced use of a 512-bit key.  However, under existing export laws,
+	the product's strength becomes a liability.  If these policies are not
+	changed to allow the export of competitive encryption products, we will
+	clearly lose this lucrative contract to a foreign competitor.
+	<p>
+	<font size=4>
+	Effect of Export Laws on the Domestic Market
+	</font>
+	<p>
+	Export restrictions threaten to lock American companies out of our own
+	domestic market as well.  Advanced American encryption products can be used
+	by an American company, for example IBM, to secure communications to another
+	American company.  Yet IBM will not be able to use this same product to secure 
+	communications with foreign companies.  For two parties to encrypt their data 
+	transmissions, they must use the same keys and protocols at both ends.  
+	Under current export restrictions, a foreign company would not be able to 
+	encrypt messages to IBM if IBM used a high-end American encryption product.  
+	Faced with this dilema, IBM may choose to buy its security product from a 
+	foreign company that can sell its products unrestricted on a global basis.
+	<p>
+	As a matter of fact, NTT has quietly begun selling a powerful data-scrambling
+	chip (Triple DES) and has already made sales in 15 countries, including in the
+	United States.  It just so happens that one of these companies is IBM.
+	<p>
+	It should also be noted, that under existing laws an American company developing
+	a product based on this NTT chip will not be able to sell the product back to 
+	Japan, not even to NTT.
+	<p>
+	In our opinion, American companies will not purchase encryption products developed by
+	American companies because it just doesn't make good business sense.  Export
+	laws responsible for this predicament clearly need to be changed.  Start-up companies
+	such as DSN have better and more powerful solutions available but we are 
+	consistently stymied by government restrictions.  Small businesses have enough problems
+	without having to deal with senseless government regulations.  All we want is to be
+	on a level playing field with foreign developers of encryption products.  
+	Senator Burns' bill does just that.
+	<p>
+	<font size=4>
+	Current Laws Do Not Solve the Problem -- Criminal Elements Can Easily Violate Them
+	</font>
+	<p>
+	Due to the availability of powerful computing capabilities, current laws and
+	regulations governing American encryption products are impractical and
+	unenforceable.  There is at present no way of stopping terrorist
+	organizations and criminals from writing, or hiring someone to write their
+	own code based on published unbreakable encryption algorithms.  For example,
+	I have with me today a widely available book titled, <i>Applied Cryptography</i>
+	written by Bruce Schneier.  On pages 637 through 643, Mr. Schneier provides all
+	the source code a hacker would need to write a powerful encryption program.
+	A hacker would simply need to scan the text on these pages into his
+	computer to circumvent existing export laws.  We can safely assume these
+	criminals are not going to register part of these keys in escrow with the 
+	government.
+	<p>
+	Thus we are confronted with an unfortunate irony.  While existing laws deny
+	adequate ecryption to companies engaged in legal activities, access to more
+	powerful encryption solutions remain available for illegal purposes.  In the
+	words of Monday's New York Times editorial, "clearly it is time to revise
+	Government encryption policy to fit this new universe".&#178;	
+	<p>
+	Senator Burns' proposal allows American companies to export encryption products
+	that match products available in the international arena.  As a representative
+	of a business that markets and develops powerful, state of the art encryption
+	products, I can tell you that this bill restores America's competitive
+	advantage in a rapidly expanding market.
+	<p>
+	Once again, thank you for the privilege of speaking with you today.  I hope
+	my testimony will be of value to the committee, and I would be happy to
+	entertain any questions you might have.
+	<p>
+	<br>
+	<a name="MATRIX">
+	<h2>MATRIX</H2></a>
+	<table border=1 cellpadding=4 cellspacing=0 width=100%>
+	<tr>
+		<td><b>Type of Attacker</b></td>
+		<td><b>Budget</b></td>
+		<td><b>Tool</b></td>
+		<td colspan=2>
+		<table border=0 cellpadding=0 cellspacing=0 width=100%>
+		<tr>
+			<td align=center colspan=2><b>Time and Cost per key recovered</b></td>
+		</tr>
+		<tr>
+			<td align=center><b>40</b> bits</td>
+			<td align=center><b>56</b> bits</td>
+		</tr>
+		</table>
+		</td>
+		<td><b>Length needed for<br>protection in late 1995</b></td>
+	</tr>
+	<tr>
+		<td rowspan=2>Pedestrian Hacker</td>
+		<td>Tiny</td>
+		<td>Scavenged computer time</td>
+		<td>1 week</td>
+		<td>infeasible</td>
+		<td>45</td>
+	</tr>
+	<tr>
+		<td>$400</td>
+		<td>FPGA</td>
+		<td>5 hours<br>($0.08)</td>
+		<td>38 years<br>($5,000)</td>
+		<td>50</td>
+	</tr>
+	<tr>
+		<td>Small Business</td>
+		<td>$10,000</td>
+		<td>FPGA</td>
+		<td>12 min.<br>($0.08)</td>
+		<td>556 days<br>($5,000)</td>
+		<td>55</td>
+	</tr>
+	<tr>
+		<td>Corporate Department</td>
+		<td>$300K</td>
+		<td>FPGA or Application Specific Integrated Circuits (ASIC)</td>
+		<td>24 sec.<br>($0.08)<br>0.18 sec.<br>($0.001)</td>
+		<td>19 days<br>($5,000)<br>3 hours<br>($38)</td>
+		<td>60</td>
+	</tr>	
+	<tr>
+		<td>Big Company</td>
+		<td>$10M</td>
+		<td>FPGA or ASIC</td>
+		<td>0.7 sec.<br>($0.08)<br>.005 sec<br>($0.001)</td>
+		<td>13 hours<br>($5,000)<br>6 min.<br>($38)</td>
+		<td>70</td>
+	</tr>
+	<tr>
+		<td>Intelligence Agency</td>
+		<td>$300M</td>
+		<td>ASIC</td>
+		<td>.0002 sec.<br>($0.001)</td>
+		<td>12 sec.<br>($38)</td>
+		<td>75</td>
+	</tr>
+	</table>
+
+
+
+	<hr noshade>
+	&#185;M. Blaze, W. Diffie, R.L. Rivest, B. Schneier, T. Shimomura, E. Thompson,
+	and M. Wiener.  <i>Minimal Key Lengths for Symmetric Ciphers to Provide Adequate
+	Commercial Security</i><br>
+	<a href="http://seusa.sumitomo.com/docs/security/IPSEC/swIPe/keylength.txt">http://seusa.sumitomo.com/docs/security/IPSEC/swIPe/keylength.txt</a>
+	<br>
+	&#178;"The New Encryption Universe", <i>The New York Times, June 10, 1996.</i><br>
+	<a href="http://www.nytimes.com/">http://www.nytimes.com/</a>
+
+	</td>
+</tr>
+</table>
+
+<br>
+<br>
+<br>
+
+<center>
+<a href="index.html">[ Home ]</a>
+<a href="hacker.html">[ Products ]</a>
+<a href="news.html">[ News ]</a>
+<a href="links.html">[ Links ]</a>
+<a href="contact.html">[ Contact ]</a>
+</center>
+
+<p>
+</body>
+</html>
+</DOC>

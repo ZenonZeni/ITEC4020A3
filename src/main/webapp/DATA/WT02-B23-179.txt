@@ -1,0 +1,68 @@
+
+<DOC>
+<DOCNO>WT02-B23-179</DOCNO>
+<DOCOLDNO>IA089-000954-B002-219</DOCOLDNO>
+<DOCHDR>
+http://www.ldanatl.org:80/Email.html 206.86.190.251 19970109182148 text/html 1581
+HTTP/1.0 200 OK
+Date: Thu, 09 Jan 1997 18:21:53 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 1399
+Last-modified: Fri, 20 Sep 1996 14:18:01 GMT
+</DOCHDR>
+<html>
+<!--Webtechs Mozilla checked 27 July 96 -->
+<head>
+   <title>How to contact LDA</title>
+</head>
+
+<body text="#000000" bgcolor="#F0F0E0">
+
+<h1>How to contact LDA</h1>
+
+<h3>Write or phone us at our national office:</h3>
+
+<blockquote>
+<p><b>Learning Disabilities Association
+<br>4156 Library Road 
+<br>Pittsburgh, PA 15234-1349
+<br>(412) 341-1515 (voice)
+<br>(412) 344-0224 (FAX)</b><br> 
+</blockquote>
+
+<h3>E-mail us at 
+  <a
+href="mailto:lda@ldanatl.org,ldanatl@usaor.net">ldanatl@usaor.net</a>
+or use the form below:</h3>
+<p><b>(Please include your mailing address if requesting
+information or assistance.)</b>
+
+ 
+<CENTER>
+<form method="post" action="form.cgi">
+<PRE>
+<b>Name</b>   <input type="text" name="Name" value="" size=30>      
+<b>Email</b>  <input type="text" name="email" value="" size=30>      
+<b>Phone</b>  <input type="text" name="phone" value="" size=30>      
+</PRE>
+<b>Mailing Address<br>
+<textarea name="Address" rows=3 cols=61></textarea>
+<br>
+<br>
+<b>Please type your message below</b><br>
+<textarea name="Message" rows=10 cols=61></textarea>
+<br>
+<input type="submit" value="Submit Form">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="Clear Form">
+</form>
+</CENTER>
+<hr width="75%">
+<p align=center><b>
+ <a href="lda/membership.html">Membership Information</a> &nbsp; | &nbsp;
+ <a href="">LDA Home Page</a></b>
+
+</body>
+</html>
+</DOC>

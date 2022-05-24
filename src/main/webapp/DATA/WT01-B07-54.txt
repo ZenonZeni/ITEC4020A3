@@ -1,0 +1,435 @@
+
+<DOC>
+<DOCNO>WT01-B07-54</DOCNO>
+<DOCOLDNO>IA068-000417-B010-198</DOCOLDNO>
+<DOCHDR>
+http://www.aivc.org:80/a23a26.html 194.217.120.80 19970113032411 text/html 19663
+HTTP/1.0 200 OK
+Date: Mon, 13 Jan 1997 03:23:47 GMT
+Server: Apache/0.8.14
+Content-type: text/html
+Content-length: 19490
+Last-modified: Fri, 06 Sep 1996 13:55:54 GMT
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+
+<META NAME="AUTHOR" CONTENT="Air Infiltration and Ventilation Centre">
+
+<META NAME="DOCCOMM" CONTENT="">
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="CREATIM" CONTENT="1996:9:6:12:26:">
+
+<META NAME="VERSION" CONTENT="1">
+
+</HEAD>
+
+<BODY>
+
+<P>
+Air Infiltration Review, Volume 17, No 4, September 1996, World
+Wide Web Edition
+<P>
+&#169; Copyright Oscar Faber PLC on behalf of the International
+Energy Agency, 1996<HR>
+
+<H1>Two Air Flow Studies Completed<A NAME="beginning"></A></H1>
+<HR>
+
+<H3>Martin Liddament reviews two recently completed air flow annexes
+</H3>
+
+<H2>Introduction</H2>
+
+<P>
+Ultimately, the quality of indoor air and thus the health of occupants
+is dependent on the interaction and mixing behaviour of pollutants
+with clean air. In addition, the heating and refrigerative cooling
+of a space is exceptionally energy intensive with the result that
+unnecessary or uncontrolled air flow from buildings still results
+in a largely undefinable but significant proportion of total energy
+loss. Only by continuing to develop measurement and calculation
+techniques, and by producing practitioner tools, can energy efficient
+solutions to indoor environmental problems be achieved.
+<P>
+In its strategy plan for 1994 to 1997, the IEA Executive Committee
+for <A HREF="http://www.ecbcs.org/" >Energy Conservation in Buildings and Community Systems
+</A> (ECBCS) concluded that ventilation and air movement will
+become the dominant heat and cooling loss mechanism in buildings
+of the next century. Its impact on global energy use will also
+increase substantially. Thus a goal was established to determine
+indoor air quality and optimal ventilation needs and to identify
+alternative energy efficient strategies to control the indoor
+environment. In support of this, various research annexes were
+established including:
+<UL>
+<LI>Annex 23 Multi-Zone Air Flow Modelling
+<LI>Annex 26 Energy Efficient Ventilation of Large Enclosures
+</UL>
+
+<P>
+These annexes have now been completed and the results were presented
+at the recent Roomvent Conference held in Yokohama, Japan on 17th-19th
+July 1996. A review of the outcome is summarised below.
+<H2><A HREF="http://www.ecbcs.org/annex23.html" >Annex 23 Multi-Zone Air Flow Modelling (COMIS)
+</A></H2>
+
+<H3>Background and Objectives</H3>
+
+<P>
+Having its origins as a year long international workshop held
+at the Lawrence Berkeley Laboratory in California, the 'Conjunction
+Of Multizone Infiltration Specialists' (COMIS) became adopted
+as IEA Annex 23 in 1992. The Operating Agent responsible for the
+development and management of this task is Dr Helmut Feustel of
+the Energy and Environment Division of the LBL. Its focus was
+to develop a new multi-zone (inter-room) air flow and pollutant
+transport model. In support of this, the task also involved the
+most comprehensive evaluation of such models ever attempted. This
+activity attracted the co-operation of researchers from nine countries,
+it included the intercomparison of many existing models and involved
+measurements made in more than a dozen buildings and structures.
+While currently not widely used, multi-zone models are invaluable
+for predicting the pattern of air flow and pollutant migration
+throughout an entire building. They have also been applied to
+the prediction of air flow in a single enclosed space (Annex 26).
+Further applications include evaluating the performance of ventilation
+systems, identifying the impact on air flow and air change rate
+of window or vent opening, and predicting flow rates in mechanical
+or natural ventilation ducts. Additionally, they may be coupled
+to thermal models to provide a much more accurate evaluation of
+heat loss and temperature distribution than is possible by simply
+assuming a fixed air change rate or ventilation duty cycle.
+<H3>The Tasks</H3>
+
+<P>
+Tasks included:
+<UL>
+<LI>devising a robust algorithm incorporating the fundamental
+features of interzonal air and pollutant flow.
+<LI>developing a user friendly interface.
+<LI>evaluating the algorithm for numerical reliability.
+<LI>evaluating potential user difficulties.
+<LI>comparing numerical prediction with experimental data.
+</UL>
+
+<H3>The Algorithm</H3>
+
+<P>
+COMIS is designed to solve a network of equations representing
+air flow between individual rooms or zones within a building and
+between the inside and outside of a building. It is modular in
+concept and contains algorithms to handle many flow problems including
+flow through cracks, large openings, vertical openings, ductwork
+and natural and mechanical ventilation systems. It also evaluates
+pollutant migration and pressure distribution. In principle, further
+modules covering other aspects may be added as the need arises.
+Mass air flow rates are solved for known air path distributions
+and for mechanical and natural driving forces.
+<H3>The User Interface</H3>
+
+<P>
+Two user interfaces have been developed to aid the input of data.
+The first, 'COMERL', is DOS based and has been developed at EMPA
+in Switzerland as a simple tool to complement COMIS. The second
+is a totally interactive Windows based graphical interface, 'IISIBat'
+which has been developed at the Centre Scientifique et Technique
+du Batiment (CSTB), France. This latter version introduces considerable
+transparency into the operation of COMIS and very much relieves
+the user of the need to understand the COMIS program. Both interfaces
+have provision for 'default' information, including data from
+the AIVC's <A HREF="numdb.html" >Numerical Database</A>.<BR>
+
+<P>
+<I>COMIS IISIBat Graphical User Interface</I>
+<P>
+
+<IMG SRC="s10.gif" ALIGN="BOTTOM" >
+
+<H3>Numerical Reliability</H3>
+
+<P>
+A variety of tests were introduced to ensure that the program
+contained no numerical errors and would provide the same results
+irrespective of computer or operating system. This included 'User
+Test 1' which was developed as part of a joint contribution by
+the AIVC and LESO in Lausanne, Switzerland. This test represented
+a very simple network in which all openings and driving forces
+were defined and extreme parameters were set, aimed at establishing
+the ability of the algorithm to converge to a consistent solution
+under all possible conditions. This and other numerical tests,
+which compared results with known solutions, enabled inconsistencies
+and problems in the code to be quickly identified and rectified.
+<H3>Evaluating Potential User Difficulties</H3>
+
+<P>
+A further test, 'User Test 2', was developed to evaluate the ability
+of the user to interpret input data and apply the data to a multi-zone
+model. Judgement was needed on the specification of items such
+as the number and location of flow paths, leakage coefficients,
+and wind pressure distribution. This approach pinpointed potential
+difficulties and highlighted further explanations that were needed
+in the COMIS User Guide. Results also showed that the ability
+of the user was critical in securing reliable predictions.
+<H3>Comparing Numerical Predictions with Experimental Data</H3>
+
+<P>
+Ultimately the performance of a model can only be judged against
+its ability to compare favourably with reliably measured results.
+A comprehensive measurement programme and data sensitivity analysis
+was therefore undertaken. This included a mix of real buildings
+and test structures, with each being used to focus on a different
+aspect of multi-zone air flow. When compared against measurement
+data, numerical predictions were found to be generally of the
+correct magnitude, although there were sometimes significant differences
+in individual results. Much still depends on the interpretation
+placed on the input data by the user and there are clearly uncertainties
+over assigning wind pressure and air leakage data. Extensive testing
+has shown, however, that the algorithm itself is error free and
+accurately solves the basic flow equations.
+<H3>Outcome and Conclusions</H3>
+
+<P>
+The main development of this annex has been the production of
+the COMIS model which is available in the public domain as a stand
+alone 'FORTRAN' Code. This has been thoroughly evaluated using
+a wide range of measurement data. Also available in the public
+domain is the Swiss interactive input algorithm, COMERL. Following
+further testing, the full Windows environment interface, IISIBat,
+will be available as a commercial product from CSTB in France.
+<P>
+Effort is still needed to improve the accuracy and transparency
+of input data. Nevertheless, provided the user is familiar with
+the implications of input data and has a good concept of the source
+and flow characteristics of openings and driving forces, the COMIS
+Model is capable of making a positive contribution to ventilation
+design and pollutant prediction.
+<H3>For More Information</H3>
+
+<P>
+The current versions of COMIS and COMERL will be available by
+download from the Internet. Further details are available from
+the Operating Agent: Dr. Helmut Feustel, Lawrence Berkeley Laboratory,
+Building 90, Room 3074, Berkeley, CA 94720, USA, Tel: +1 510 486
+4021 Fax: +1 510 486 6658 E-mail: hefeustel@lbl.gov
+<P>
+The Graphical User Interface IISIBat is available from Dr Roger
+Pelletret, CSTB, BP 209, 06 904 Sophia Antipolis, France: Tel:
++33 93 95 6700, Fax: +33 93 95 6733, E-mail: pelletret@cstb.fr
+<P>
+The COMIS User Guide and Fundamentals is available from the <A HREF="address.html" >AIVC 
+</A>price &#163;50.00 including postage and packing. The COMIS
+User Guide is also available 'free-of-charge' by 'ftp'. To obtain
+a copy, login using the following commands:
+<P>
+ftp epb1.lbl.gov NAME:ftp PASSWORD: (your email address)
+<P>
+FTP&gt;&gt;cd package
+<P>
+FTP&gt;&gt;binary
+<P>
+FTP&gt;&gt;mget*
+<P>
+FTP&gt;&gt;quit
+<P>
+This electronic version is a postscript file which can be printed
+out using your own printer.
+<P>
+Fully supported commercial versions of COMIS are also envisaged
+and details will be announced at a later date.
+<H2><A HREF="http://www.les.iet.ethz.ch/annex26/annex26.html" >Annex 26 Air Flow in Large Enclosures
+</A></H2>
+
+<H3>Background and Objectives</H3>
+
+<P>
+Large enclosed spaces are becoming a feature of modern architecture
+and are evolving in response to consumer expectations. Examples
+include shopping malls, atria buildings, airport terminals and
+covered sports stadia. Each presents enormous design problems
+in relation to heating and cooling loads, the provision of good
+air quality, and protection against smoke and fire movement. Without
+modern computational and measurement techniques, it is arguable
+that such buildings could not be constructed to an acceptable
+level of energy and environmental performance. Many spectacular
+buildings have now been designed and constructed on the basis
+of computational fluid dynamic analysis combined with physical
+scale modelling. However, as more designers wish to follow this
+route, it has become critical to ensure that these design techniques
+are correctly applied. A complete understanding of the implications
+of these methods is needed to avoid the risk of fundamental mistakes
+or to prevent too much reliance being placed on simulated predictions.
+Annex 26 was conceived to investigate the potential pitfalls and
+provide design guidance on the application of measurement and
+computational tools for understanding air flow patterns in large
+enclosures. The Operating Agent and Co-ordinater is Dr Alfred
+Moser of the Swiss Federal Institute of Technology, ETH, Zurich.
+Typical building sizes included in this study vary from approximately
+1000 m3 to over 100,000 m3. These are essentially buildings in
+which thermal effects dominate and in which the occupied zones
+are small compared to the total enclosed volume.
+<H3>The Tasks</H3>
+
+<P>
+Tasks included:
+<UL>
+<LI>developing design guidance and producing a design principles
+guide
+<LI>documenting and assessing analysis and prediction techniques
+<LI>documenting design case studies of existing large enclosures
+</UL>
+
+<H3>The Design Principles Guide</H3>
+
+<P>
+The design principles guide provides recommendations and advice
+for the planning of ventilation and air distribution systems in
+large enclosures. It focuses on information specific to the needs
+of such spaces, especially where this may differ from more conventional
+buildings. Particular aspects cover meeting ventilation, comfort,
+air quality and safety needs as well as energy implications, ventilation
+strategies, design techniques, applications, commissioning and
+feedback. Included in the Guide are worked examples, information
+on selecting ventilation rates, and advice on design parameters
+and strategy selection.
+<H3>Analysis and Prediction Techniques</H3>
+
+<P>
+Measurement and calculation methods form a vital part of the design
+and evaluation process. Methods are evolving rapidly and some
+of the most up-to-date techniques (both elementary and complex),
+as currently used by researchers and specialists, are reviewed.
+The relevance of each approach within the context of the design,
+construction and evaluation process is considered. Design begins
+with 'macroscopic' methods based on engineering experience and
+simple analytical tools. As development continues, more sophisticated
+techniques are often necessary. Examples look at individual flow
+element models, zonal models (where the air space of a single
+room is subdivided into a relatively small number of zones or
+layers), computational fluid dynamics, physical (scale) models,
+ventilation efficiency evaluation and, ultimately, commissioning
+and evaluation measurements.
+<H3>Case Studies</H3>
+
+<P>
+To support the analytical and design guide development, a total
+of twenty six case study buildings were monitored. Of these, seven
+reference case study buildings were selected for detailed measurements.
+These were two university auditoriums (De Montfort University,
+United Kingdom, 870 m3, and Torino Polytechnic, Italy), an experimental
+1/5th scale model atrium (Japan, 135 m3), two sports halls (Norway,
+128,340 m3, and Germany, 2,230 m3), a factory unit (France, 8,820
+m3) and a large atrium office building (Switzerland, 20 m high).
+Measurements included ventilation rates, air and surface temperature
+distribution, air velocity distribution and outdoor weather conditions
+(e.g. temperature and wind velocity). In most cases, thermal transfer,
+temperature and air flow velocity distributions were compared
+with various computational fluid dynamics and other modelling
+approaches.
+<H3>Outcome and Results</H3>
+
+<P>
+The work of this team, both as <A HREF="http://www.les.iet.ethz.ch/annex26/annex26.html" >Annex 26
+</A> and formerly <A HREF="http://www.ecbcs.org/annex20.html" >Annex 20
+</A>, has consistently produced simple guidance to assist in the
+reliable use of computational modelling and measurement techniques.
+This particular study has developed and perfected new methods
+and has provided new guidance on the operational needs and applicability
+of computational fluid dynamics models.
+<P>
+'Simple' analysis tools intended for basic engineering application
+include the 'flow element' technique in which the total flow field
+is predicted by analysing each element of flow, i.e. jets, plumes,
+boundary layer flow etc., individually. Similarly a simplified
+measurement procedure to evaluate building air leakage has been
+devised, aimed at identifying the position of the neutral pressure
+plane. This has been successfully applied to identify unexpected
+sources of air leakage in an enclosure.
+<P>
+At the more complex level, the performance of computational fluid
+dynamics models has been compared with measurement results. This
+has demonstrated the potential to predict flow and thermal patterns,
+to a reasonable degree of accuracy, especially as measured in
+the well instrumented Japanese test atrium. A zonal model, in
+which the space was discretised into control volumes, was also
+able to give a good prediction of thermal stratification. Important
+discoveries and conclusions concerning the use of computational
+fluid dynamics models include:
+<UL>
+<LI>Conventional computational fluid dynamics approaches incorporating
+k-e type turbulence representation were found to be capable of
+giving reliable prediction results for temperature, air velocity
+and pollutant fields.
+<LI>Small changes to boundary conditions may significantly affect
+the main pattern of air flow and temperature distribution. It
+was therefore essential that boundary conditions were accurately
+represented. The extra effort expended to obtain realistic data
+is of proven value.
+<LI>Radiative heat transfer is a sensitive component of energy
+transport and must be incorporated in any computational fluid
+dynamics analysis.
+<LI>Convective heat transfer from boundaries to the air were not
+reliably predicted using coarse grid systems and log law wall
+functions. Results tended to be grid spacing dependent. The use
+of prescribed convective heat transfer coefficients were proposed
+instead, although it was acknowledged that this might not always
+be easy. New wall functions for free-convection heat transfer
+are now being developed by Annex 26 participants, and the application
+of these functions are presently being tried out.
+<LI>Slow or non-existant convergence of the solution procedure
+was found in some instances. This tends to occur when flow is
+dominated by free convection forces (i.e. thermal buoyancy). It
+was demonstrated that this problem could be overcome by using
+a 'coupled' rather than a conventional 'sequential' (SIMPLE) solver.
+In addition, instability in solutions was found in an isothermal
+calculation of the air jets in the sports hall in Germany. It
+is believed that the physical flow exhibits low-frequency oscillations.
+It is concluded that such flows may only be modelled by time-dependent
+computation. A steady-state model will never converge.
+</UL>
+
+<H3>For More Information</H3>
+
+<P>
+The final Annex 26 report is entitled:
+<P>
+&quot;Ventilation of Large Spaces in Buildings&quot;, and will
+have three main parts as follows:
+<OL>
+<LI>&quot;Design Guide&quot;, edited by Robert J. Waters.
+<LI>&quot;Case Studies&quot;, edited by Dirk Mueller and Norbert
+Vogl
+<LI>&quot;Analysis and Prediction Techniques&quot;, edited by
+Per K. Heiselberg.
+</OL>
+
+<P>
+Details of availability of the final report will be published
+in this newsletter, and information may be obtained from the Operating
+Agent on &lt;&lt;moser@iet.mavt.ethz.ch&gt;&gt;.
+<H2>Acknowledgements</H2>
+
+<P>
+Much of the information presented in this review was based on
+reports and assistance provided by the Operating Agent of Annex
+23 - Dr. Helmut Feustel of the Energy and Environment Division
+of the Lawrence Berkeley Laboratory, California, and the Operating
+Agent of Annex 26 - Dr. Alfred Moser of the Swiss Federal Institute
+of Technology , ETH, Zurich. <HR>
+
+<P>
+<A HREF="#Beginning" >Beginning of article  </A>
+<P>
+<A HREF="elecair.html" >AIR front page  </A>
+</BODY>
+
+</HTML>
+</DOC>

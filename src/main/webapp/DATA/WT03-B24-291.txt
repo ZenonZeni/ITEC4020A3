@@ -1,0 +1,100 @@
+
+<DOC>
+<DOCNO>WT03-B24-291</DOCNO>
+<DOCOLDNO>IA009-000087-B036-151</DOCOLDNO>
+<DOCHDR>
+http://www.nciba.com:80/feedback.html 207.44.128.99 19970222112325 text/html 4334
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 11:23:44 GMT
+Server: Apache/1.1.3
+Content-type: text/html
+Content-length: 4163
+Last-modified: Mon, 17 Feb 1997 00:07:26 GMT
+</DOCHDR>
+<HTML>
+
+<!-------------------------------------------------------------------------------------->
+<!--   AUTHOR:  thomas gladysz  email: thomasg@pandorasbox.com -->
+<!--   CREATED:  July, 1996  Best viewed using Netscape or Microsoft Explorer  -->
+<!--   MODIFIED:  December, 1996   -->
+<!--   FILE: feedback.html   -->
+<!--   PURPOSE: NCIBA mailing list page  -->
+<!---------------------------------------------------------------------------------------->
+
+<HEAD>
+<TITLE>NCIBA mailing list</TITLE>
+
+<META Name="description" Content="Welcome to the Northern California Independent Booksellers Association mailing list page - here you will find an opportunity to join our mailing list and receive free updates from the world of books.">
+
+<META Name="keywords" Content="Northern California Independent Booksellers Association NCIBA books reading author bookstore consumer information literature mailing list books news bookstores consumer information fun mailing list books news bookstores consumer information fun mailing list books news bookstores consumer information fun mailing list books news bookstores consumer information fun">
+
+</HEAD>
+<BODY bgcolor=#ffffff>
+
+<HR SIZE=1>
+<CENTER><B>N<FONT SIZE=-1>ORTHERN</FONT> C<FONT SIZE=-1>ALIFORNIA</FONT> I<FONT SIZE=-1>NDEPENDENT</FONT> B<FONT SIZE=-1>OOKSELLERS</FONT> A<FONT SIZE=-1>SSOCIATION</FONT></B></CENTER>
+<HR SIZE=1>
+
+<CENTER><FONT SIZE=+2 color=brown><B><FONT SIZE=+3>J</FONT>OIN <FONT SIZE=+3>O</FONT>UR <FONT SIZE=+3>M</FONT>AILING <FONT SIZE=+3>L</FONT>IST <FONT SIZE=+3> !</FONT> </B></FONT> </CENTER>
+
+<IMG border=0 height=48 width=46 SRC="image/nciba_sm.gif"><B><FONT SIZE=+1>If</FONT></B> you would like to join our mailing list and receive free updates from the world of books (we promise no more than a dozen emails per year), just fill out the form below. Its that simple! Your name and address will remain confidential. (<I>And no, we don't collect cookies</I>.)
+
+<P>By joining our list, we'll let you know when book prizes are announced, when events, festivals and other happenings take place (such as Tahoe's <B>Books-by-the-Lake</B> or San Francisco's<B> Books-by-the-Bay</B>) or when new features are added to our web site. We will also send consumer information, internet tips, suggested book-related web sites and more. If you love reading and the world of books, this list is for you!
+
+<BR>
+
+<ul>
+
+<FORM METHOD=POST ACTION="/cgi-bin/cgiemail/~nciba/feedback.txt">
+
+<B>EMAIL ADDRESS: </B> <INPUT TYPE=TEXT NAME="required-email"> <BR>
+
+<font color=green><B>Please enter your email address.</B></font><P>
+
+<B>YOUR NAME: </B> <INPUT TYPE=TEXT NAME="required-realname"> <BR>
+
+<font color=green><B>Please enter your name or "handle."</B></font><P>
+
+<B>INTEREST :</B> <INPUT TYPE=TEXT NAME="required-category"> <BR>
+
+<font color=green><B>Please state your interest:</font></B> [consumer, librarian, media, publishing, bookseller, "just plain interested," etc...]. <P>
+
+<B>COMMENTS: </B> <BR>
+
+<font color=green><B>We're interested in hearing from you ! </B></font>
+
+<P><TEXTAREA NAME="required-comments" ROWS=15 COLS=60></TEXTAREA><P>
+
+</ul>
+
+<BR>
+<CENTER><font color=brown><B>To submit your request, please press this button:</B></font>
+
+<P> </CENTER><CENTER><INPUT TYPE=SUBMIT NAME="button" VALUE="Send Request"></CENTER>
+
+<INPUT TYPE=HIDDEN NAME="success" VALUE="/~nciba/thankyou.html">
+
+</FORM>
+
+<BR>
+
+<CENTER><B><P>WE APPRECIATE YOUR INTEREST !</B></CENTER>
+
+<P>
+
+<CENTER>
+<P>
+<P><B><FONT SIZE=-1>[ <a href="stores.html">BOOKSTORES</a> | <a href="bestsell.html">BESTSELLERS</a> | <a href="goodread.html">GOOD READS</a> | <a href="censor.html">FREE SPEECH</a> | <a href="resource.html">READER RESOURCES</a> ]</FONT></B>
+
+<p><B>We would enjoy hearing from you.<BR>
+Please email your comments or suggestions to <A
+HREF="mailto:office@nciba.com">office@nciba.com</a>
+
+<P><B> <IMG valign=middle SRC="image/l_hand.gif" ALT="thata way" HEIGHT=14 WIDTH=33>Return
+to the <A HREF="Welcome.html">NCIBA Homepage<BR><IMG border=0 height=48 width=46 SRC="image/nciba_sm.gif"></B></a>
+</P></CENTER>
+
+
+</BODY>
+</HTML>
+</DOC>

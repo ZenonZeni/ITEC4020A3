@@ -1,0 +1,117 @@
+
+<DOC>
+<DOCNO>WT02-B11-162</DOCNO>
+<DOCOLDNO>IA087-000625-B034-305</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0100.html 130.91.195.242 19970122042859 text/html 5647
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:29:02 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 5476
+Last-modified: Wed, 18 Oct 1995 21:39:46 GMT
+</DOCHDR>
+<!-- received="Wed Oct 18 15:28:02 1995 EDT" -->
+<!-- sent="Wed, 18 Oct 1995 15:27:12 -0400" -->
+<!-- name="Dave Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="Human ID through insecure channel" -->
+<!-- id="199510181927.PAA18100@linc.cis.upenn.edu" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: Human ID through insecure channel</title>
+<h1>Human ID through insecure channel</h1>
+Dave Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Wed, 18 Oct 1995 15:27:12 -0400</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#100">[ date ]</a><a href="thread.html#100">[ thread ]</a><a href="subject.html#100">[ subject ]</a><a href="author.html#100">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0101.html">Meng Weng Wong: "The DP presents: Peter Winkler"</a>
+<li> <b>Previous message:</b> <a href="0099.html">Dave Farber: "Problem on Thursday"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+<i>&gt;Posted-Date: Mon, 16 Oct 1995 13:51:27 -0700</i><br>
+<i>&gt;Date: Mon, 16 Oct 1995 13:51:27 -0700</i><br>
+<i>&gt;From: Hal &lt;hfinney@shell.portal.com&gt;</i><br>
+<i>&gt;To: cypherpunks@toad.com</i><br>
+<i>&gt;Subject: Human ID through insecure channel</i><br>
+<i>&gt;Sender: owner-cypherpunks@toad.com</i><br>
+<i>&gt;</i><br>
+<i>&gt;Here is an example of the Matsumoto/Imai scheme for identifying yourself</i><br>
+<i>&gt;via a shared secret over an insecure channel, a system which is simple</i><br>
+<i>&gt;enough to be done in your head but which can withstand repeated</i><br>
+<i>&gt;observations by an adversary without being broken.</i><br>
+<i>&gt;</i><br>
+<i>&gt;The idea is that there is a challenge and response.  In one example they</i><br>
+<i>&gt;give, the challenge is:</i><br>
+<i>&gt;</i><br>
+<i>&gt;28517364</i><br>
+<i>&gt;</i><br>
+<i>&gt;What happens here is that there are two secrets.  The first is which</i><br>
+<i>&gt;characters are special in the challenge.  In this example let us assume</i><br>
+<i>&gt;that is 1,2,4,6.  The second is a secret response string of the same</i><br>
+<i>&gt;length; in this case let it be 3124.  Now what you do is to enter a</i><br>
+<i>&gt;response string of the same length as the challenge.  Only the characters</i><br>
+<i>&gt;in the same spot as those which held special characters in the challenge</i><br>
+<i>&gt;(1,2,4,6) matter, and those four should spell out the secret word 3124.</i><br>
+<i>&gt;So a correct challenge and response could be:</i><br>
+<i>&gt;</i><br>
+<i>&gt;*  *  **</i><br>
+<i>&gt;28517364</i><br>
+<i>&gt;34312124</i><br>
+<i>&gt;</i><br>
+<i>&gt;I have marked the spots in the challenge which use 1,2,4 or 6, and if you</i><br>
+<i>&gt;look at the response in those marked spots you have 3124.</i><br>
+<i>&gt;</i><br>
+<i>&gt;This is not too bad, but as more realistic examples the authors suggest</i><br>
+<i>&gt;much larger strings.  In the first example the alphabet of characters</i><br>
+<i>&gt;would be the lower case letters and the digits 0-9, 36 characters in all.</i><br>
+<i>&gt;The challenge string would also be 36 characters long.  Your secret word</i><br>
+<i>&gt;would be 18 letters, but the response alphabet is only the binary digits 0</i><br>
+<i>&gt;and 1.</i><br>
+<i>&gt;</i><br>
+<i>&gt;So, suppose the special characters are befhjkmnpqtvwz1468, and the secret</i><br>
+<i>&gt;word is 011010111010110101.  The secret can be memorized in hex as 1aeb5.</i><br>
+<i>&gt;This is not so much to remember, but try applying it in practice.  Here</i><br>
+<i>&gt;is a challenge:</i><br>
+<i>&gt;</i><br>
+<i>&gt;5fmp67yez2rnq4wd3uthsg1i8l09bkoavjxc</i><br>
+<i>&gt;</i><br>
+<i>&gt;To create the response, we go across, putting down random 0's and 1's,</i><br>
+<i>&gt;until we recognize our special characters.  The first is f, the 2nd</i><br>
+<i>&gt;letter.  So we are careful to put down 0 there since that is the first of</i><br>
+<i>&gt;our secret word letters.  Then the m is special, so we put down 1; the p</i><br>
+<i>&gt;and 6 are special too, so we put down 10.  Then the 7 and y are not</i><br>
+<i>&gt;special so we put random characters down there, and so on.  So our</i><br>
+<i>&gt;initial response might be:</i><br>
+<i>&gt;</i><br>
+<i>&gt;0011010...</i><br>
+<i>&gt;</i><br>
+<i>&gt;Try coming up with the rest of the response, and see if you think you</i><br>
+<i>&gt;could learn to do this by memory.</i><br>
+<i>&gt;</i><br>
+<i>&gt;Another example the authors offer uses a somewhat shorter secret word and</i><br>
+<i>&gt;set of special characters, but as a tradeoff the challenge alphabet is 50</i><br>
+<i>&gt;characters (upper and lower case letters, say, minus 2 of them), and the</i><br>
+<i>&gt;challenge is 50 characters long.  The secret word need be only 10</i><br>
+<i>&gt;letters, and the response alphabet is 3 letters, say 0, 1 and 2.  So</i><br>
+<i>&gt;suppose the special characters are bruzCEHMOQ, and the secret word is</i><br>
+<i>&gt;2012100211.  Here is a challenge:</i><br>
+<i>&gt;</i><br>
+<i>&gt;tJWTEjrkiqxsfmdAelvDIPguonKzFUHXwSaNVcpBQhGybRLMOC</i><br>
+<i>&gt;</i><br>
+<i>&gt;Coming up with the response is left as an exercise for the reader.</i><br>
+<i>&gt;</i><br>
+<i>&gt;Hal</i><br>
+<i>&gt;</i><br>
+<i>&gt;</i><br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0101.html">Meng Weng Wong: "The DP presents: Peter Winkler"</a>
+<li> <b>Previous message:</b> <a href="0099.html">Dave Farber: "Problem on Thursday"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

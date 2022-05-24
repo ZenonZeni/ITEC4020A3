@@ -1,0 +1,60 @@
+
+<DOC>
+<DOCNO>WT01-B09-209</DOCNO>
+<DOCOLDNO>IA008-000077-B039-128</DOCOLDNO>
+<DOCHDR>
+http://www-mtnforum.igc.org:80/mtnforum/archives/intros/intrform.htm 198.94.7.182 19970222072008 text/html 1133
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 07:20:30 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 963
+Last-modified: Thu, 20 Feb 1997 22:17:19 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Introduction Form</TITLE>
+</HEAD>
+<BODY>
+<P>
+<H2>Submit your introduction to the Mountain Forum</H2><P>
+</HEAD>
+<BODY   BGCOLOR="#FFFFFF" TEXT="#000000">
+
+
+<P>
+<STRONG>Use this form to submit your introduction to us, or send mail to us
+at <A HREF="mailto:mfsupport@mtnforum.org">mfsupport@mntforum.org</A>.</STRONG>
+
+
+
+<P>
+
+<FORM METHOD=POST ACTION="/scripts/mailform/mfsupport@mtnforum.org/confirm">
+
+
+<PRE>
+<STRONG>E-mail address :</STRONG> <input name="Email" size=30>
+<P>
+<STRONG>Name:</STRONG> <input name="Name" size=30>
+<P>
+
+<STRONG>Please describe yourself <EM> use as many rows as you need</EM>:</STRONG>
+<P>
+<textarea name="description" rows=8 cols=60></textarea>
+<P>
+<STRONG>URL(s):</STRONG> <input name="URL" rows=2 size=50>
+
+</PRE>
+<P>
+<input type="submit" value="SEND COMMENTS">
+<input type="reset" value="CLEAR FORM">
+</FORM>
+<P>
+<HR>
+<P>
+<CLEARS=all>
+</BLOCKQUOTE>
+</BODY>
+</HTML>
+</DOC>

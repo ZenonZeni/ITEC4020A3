@@ -1,0 +1,51 @@
+
+<DOC>
+<DOCNO>WT02-B24-124</DOCNO>
+<DOCOLDNO>IA089-000954-B012-236</DOCOLDNO>
+<DOCHDR>
+http://www.ldanatl.org:80/Virginia/feedback.html 206.86.190.251 19970109185601 text/html 1227
+HTTP/1.0 200 OK
+Date: Thu, 09 Jan 1997 18:55:50 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 1045
+Last-modified: Sat, 07 Sep 1996 04:04:03 GMT
+</DOCHDR>
+<html>
+<!--Webtechs Mozilla checked 27 July 96 -->
+<head>
+   <title>LDAV feedback</title>
+</head>
+
+<body text="#000000" bgcolor="#E8E8E8" background="../images/15.jpg">
+
+<h1 align=center>LDAV Feedback Form</h1>
+
+<p><font SIZE=+1>Questions? Comments? Suggestions? Just fill out and
+submit the form below - we'll get back to you very soon.</font>
+ 
+<CENTER>
+<form method="post" action="form_va.cgi">
+<PRE>
+<b>Name</b>   <input type="text" name="Name" value="" size=30>      
+<b>Email</b>  <input type="text" name="email" value="" size=30>      
+<b>Phone</b>  <input type="text" name="phone" value="" size=30>      
+</PRE>
+<b>Mailing Address<br>
+<textarea name="Address" rows=3 cols=61></textarea>
+<br>
+<br>
+<b>Please type your message below</b><br>
+<textarea name="Message" rows=10 cols=61></textarea>
+<br>
+<input type="submit" value="Submit Form">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="Clear Form">
+</form>
+</CENTER>
+
+<p align=center><b>Back to <a href="">LDAV Home Page</a></b>
+
+</body>
+</html>
+</DOC>

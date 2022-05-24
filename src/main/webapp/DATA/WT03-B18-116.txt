@@ -1,0 +1,209 @@
+
+<DOC>
+<DOCNO>WT03-B18-116</DOCNO>
+<DOCOLDNO>IA018-000200-B032-30</DOCOLDNO>
+<DOCHDR>
+http://www.rwt.com:80/wsinfo/robotrak/robotrak.htm 199.227.153.245 19970106223027 text/html 9665
+HTTP/1.0 200 OK
+Date: Mon, 06 Jan 1997 22:36:06 GMT
+Server: Stronghold/1.3.2 Ben-SSL/1.3 Apache/1.1.1
+Content-type: text/html
+Content-length: 9465
+Last-modified: Fri, 20 Dec 1996 19:29:40 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>RWT: Workspace Info: Robotrak</TITLE> 
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word 1.0Z">
+<META NAME="AUTHOR" CONTENT="John Lapham">
+<META NAME="OPERATOR" CONTENT="John Lapham">
+</HEAD> 
+<BODY bgcolor="#FFFFFF" link="#FF0000" vlink="#0000FF">
+<H1 ALIGN="CENTER"><B>WORKSPACE<sup>&#174;</sup><BR>ROBOT AND WORKCELL CALIBRATION</B></H1>
+<P>
+<B>INHERENT PROBLEMS WITH OFF-LINE PROGRAMMING</B>
+</P>
+<P>
+Once the decision has been made to off-line program robots, the next step in the
+process is calibration. When working in the virtual world of robot simulation
+and off-line programming, everything in the workcell is perfect. The robot is
+accurate and the fixtures are perfectly placed.
+</P>
+<P><IMG
+ALIGN="LEFT" SRC="rt.gif" ALT="Robotrak" BORDER="1" HSPACE="10" WIDTH="301" HEIGHT="269">
+Once a program is taken to the floor, however, it is often found that the robot
+is not placed exactly as it should have been, the fixture does not rotate in an
+exact circle, and <a href="../accrep/accrep.htm" target="Main">the robot itself has inaccuracies</a> that have not been taken
+into account in the simulation. These inaccuracies are not the fault of the
+robot manufacturers, or the fixture installers, it is just a fact of life that
+installations are not exact.
+</P>
+<P>
+Traditionally, this is the place where off-line programming has found it's
+biggest critics. When the programs are first run, some programs miss the
+teachpoints by as much as three inches. A robot operator must then go back and
+re-teach the entire program with a teach pendant. Not only does this take time,
+but the assumed advantage of off-line programming has been completely negated.
+</P>
+<P>
+Besides the money and time spent re-programming the robot with the teach
+pendant, a significant amount of money is also spent trying to duplicate exactly
+the positioning of the robot and fixtures. Using lasers and other high-tech
+devices, the fixtures and robots in a factory are placed as accurately and as
+level as possible. Although this improves the chances the program will work, it
+is still not as accurate as the simulation<I>. As much as $50,000 per workcell
+can be spent to get the positioning &quot;close.&quot;</I>
+</P>
+<P>
+The robot in the simulation does not suffer from the inaccuracies of the real
+robot (tolerances in the manufacturing process, backlash, and general wear and
+tear). In order to fix this there must be some way of finding these errors and
+reducing them as much as possible. Once the errors are found they can be used to
+modify the kinematics of the robot model within the simulation.
+</P>
+<P>
+<B>ROBOTRAK IS THE SOLUTION</B>
+</P>
+<P>
+The solution to this is to find the &quot;signature&quot; of the robot and the
+workcell through calibration. Calibration only really works, however, if it is
+tied directly to a simulation program When tied with a simulation program, the
+kinematics of the robot model can more easily be modified.
+</P>
+<P>
+<IMG
+ALIGN="RIGHT" SRC="comps.gif" ALT="Robotrak Components" BORDER="1" HSPACE="10" WIDTH="300" HEIGHT="276">Robotrak
+is an optional measuring system for Workspace, a PC-based simulation and
+off-line programming system. It is capable of measuring static positions or
+motion paths to an accuracy of 0.2 mm (0.008 inches) in three dimensions. The
+software needed to analyze the robot performance and to modify the robot model's
+kinematics is combined within Workspace as one piece of seamless software. No
+other system offers this worldwide. 
+</P>
+<P>
+The Robotrak calibration system consists of the following components:
+</P>
+<UL>
+<LI>Three incremental encoder measuring units.
+</LI>
+<LI>A robot end effector interface.
+</LI>
+<LI>An ISA computer interface card.
+</LI>
+<LI>A reference bar of known length.
+</LI>
+<LI>A PC running Workspace with the Calibration+ option.
+</LI> 
+</UL>
+<P>
+<B>USING ROBOTRAK</B>
+</P>
+<P>
+The three high resolution encoder units are placed anywhere within the working
+envelope of the robot The units should be placed roughly at the corners of an
+equilateral triangle. This placement does not have to be precise, however,
+setting the units in a straight line must be avoided. The encoder units are then
+plugged into the computer running Workspace through the data acquisition card.
+</P>
+<P>
+A non-stretch cord with a constant tension on it is then pulled from each of the
+encoder units and calibrated with the use of a reference bar. Once a conversion
+of encoder counts to length is established for each unit, the relative distance
+between the three encoder units is determined by pulling the cords from each
+unit to the adjacent unit. At this point the encoder units are ready to begin
+calibrating the robot.
+</P>
+<P>
+<B>FINDING A ROBOT'S &quot;SIGNATURE&quot;</B>
+</P>
+<P>
+Each cord is then pulled from the encoder and attached to the robot end-effector
+interface, which has already been attached to the robot faceplate or tool. Once
+the cords are in position, Robotrak uses the length of each cord to determine
+the X, Y, and Z coordinates of the robot end-effector, essentially becoming a
+Coordinate Measuring Machine (CMM).
+</P>
+<P>
+The robot is then moved through 50 points in space, and at each point the
+Workspace software records the robot's position through the three Robotrak
+encoders. Over the length of the test, as many joints as possible should be
+moved. The points can either be taught manually with a teach pendant, or
+generated in Workspace and downloaded into the robot controller. This teachpoint
+file can then be kept in the controller for any future time when the robot may
+need to be re-calibrated.
+</P>
+<P>
+Once the points have been recorded, Workspace will compare the measured
+positions (where the robot actually was) with the teachpoints (where the robot
+thought it was), and the errors associated with the kinematics of the robot are
+extracted and stored within Workspace. Errors which are detected include:
+</P>
+<UL>
+<LI>The zero position of each joint (where the values of the joint variables is
+zero).
+</LI>
+<LI>The length of each link and the distance offset at each link.
+</LI>
+<LI>The compliance at each joint.
+</LI>
+<LI>Robotrak will also calculate the tool offset if a tool is attached to the
+robot.
+</LI> 
+</UL>
+<P>
+Once these errors are calculated, the kinematics of the robot model in Workspace
+are modified to account for the differences between the real robot and the robot
+model A filter is then used within Workspace to modify the teachpoint file so
+that they represent actual positions on the real-world robot controller.
+Programs can then be generated by Workspace that will be precise, sending the
+robot to the correct position in real space.
+</P>
+<P>
+<B>CALIBRATING A WORKCELL</B>
+</P>
+<P>
+Positions of fixtures and other peripheral equipment within a workcell can also
+be measured and merged into Workspace, allowing for the calibration of an entire
+workcell Even individual stations within a rotating fixture can be measured to
+take into account any errors between stations, or errors in the rotation of a
+fixture. In essence, this is using the power of the Workspace software to make
+any of the adjustments for inaccurate robots and the less accurate positioning
+of equipment by calibrating the workcell once the equipment is in place. The
+time and money spent getting the robot and fixtures precisely into place is
+reduced.
+</P>
+<P>
+The entire calibration process takes less than one hour per robot, including the
+time it takes to set up the encoder units and calibrate them
+</P>
+<P>
+However, the need to calibrate does not end once a workcell is set-up. If a
+robot crashes during it's operation and bends a tool, Robotrak can be very
+helpful. By setting up Robotrak and recording only a few points, the new  tool
+offset can be determined. Then, through Workspace, the program can be
+re-simulated to look for any collisions (using the collision detection feature
+in Workspace) that may take place with the workpiece or a fixture. If there are
+no collisions, the tool may be able to be used until the end of a shift,
+limiting down-time. Also, as a robot ages, gear backlash and wear increase the
+errors in a robot. By periodically re-calibrating a robot, the operator cam be
+assured that any programs written for that robot will work.
+</P>
+<P>
+Off-line programming can be of great value to a manufacturing firm. It allows
+the robot to continue to operate while the program is being written, allows for
+greater flexibility when writing programs, and more control over a process.
+Interchangeability of programs between robot cells gives manufacturers
+flexibility in scheduling and equipment utilization. Unless the robot is
+calibrated, the program becomes little more than a guide to the robot operator
+who will have to re-teach the entire program if it is too far off from what is
+needed. Robotrak, along with Workspace, is the solution to this problem, and it
+allows off-line programming to live up to its expectations.
+</P> 
+<P><A HREF="http://www.rwt.com" target="_parent"><IMG
+ALIGN="MIDDLE" SRC="home.gif" ALT="Home" HSPACE="10" BORDER="0"></A>Back to
+<A HREF="http://www.rwt.com" target="_parent">RWT Home Page</A></P> 
+<H6><a href="../copyright.html" target="Main">Copyright &#169; 1996 Robotic
+Workspace Technologies, Inc. All rights reserved.</a><BR>
+For more information, contact RWT at <A HREF="mailto:info@rwt.com"><EM>info@rwt.com</EM></A><BR></H6></BODY></HTML>
+</DOC>

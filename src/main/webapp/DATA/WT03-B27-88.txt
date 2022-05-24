@@ -1,0 +1,261 @@
+
+<DOC>
+<DOCNO>WT03-B27-88</DOCNO>
+<DOCOLDNO>IA097-001043-B026-489</DOCOLDNO>
+<DOCHDR>
+http://www.florinsa.com:80/processsalesorder.htm 199.227.116.49 19970215080657 text/html 9676
+HTTP/1.0 200 OK
+Date: Saturday, 15-Feb-97 08:07:21 GMT
+Server: FrontPage-PWS32/1.1.2.6
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Monday, 21-Oct-96 17:47:52 GMT
+Content-length: 9479
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//W3O/DTD HTML//EN">
+
+<html>
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>Process Sales Order</title>
+<meta name="FORMATTER" content="Microsoft FrontPage 1.1">
+</head>
+<body background="images/grytxtr5.jpg" bgcolor="#d5d5d5">
+<h1>Process Sales Order</h1>
+<hr>
+<p>Please send an order for 1 dozen long stem roses delivered
+overnight (via FedEx).</p>
+<form action="_vti_bin/shtml.exe/processsalesorder.htm"
+method="POST">
+    <input type="hidden" name="VTI-GROUP" value="0">
+    <p>&#160;</p>
+    <p>To process your order correctly, please provide the
+    following information:</p>
+    <blockquote>
+        <table border="0">
+            <tr>
+                <td><strong>QTY <br>
+                (in dozens)</strong></td>
+                <td><input type="text" size="6" maxlength="6"
+                name="Ordering_OrderQty0"></td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                <p align="center"><strong>Color Preference(s)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>1st Choice</td>
+                <td><select name="FirstColorChoice" size="1">
+                    <option selected>Farm Select from Best
+                    Available</option>
+                    <option>Red</option>
+                    <option>Yellow</option>
+                    <option>White</option>
+                    <option>Pinks</option>
+                    <option>Assorted</option>
+                    <option>Perach</option>
+                    <option>Hot Pink</option>
+                    <option>Orange</option>
+                    <option>Coral</option>
+                    <option>Red/White Varigation</option>
+                </select></td>
+                <td>&#160;</td>
+            </tr>
+            <tr>
+                <td>2nd Choice</td>
+                <td><select name="SecondColorChoice" size="1">
+                    <option selected>Farm Select from Best
+                    Available</option>
+                    <option>Red</option>
+                    <option>Yellow</option>
+                    <option>White</option>
+                    <option>Pinks</option>
+                    <option>Assorted</option>
+                    <option>Perach</option>
+                    <option>Hot Pink</option>
+                    <option>Orange</option>
+                    <option>Coral</option>
+                    <option>Red/White Varigation</option>
+                </select></td>
+                <td>&#160;</td>
+            </tr>
+            <tr>
+                <td>3rd Choice</td>
+                <td><select name="ThirdColorChoice" size="1">
+                    <option selected>Farm Select from Best
+                    Available</option>
+                    <option>Red</option>
+                    <option>Yellow</option>
+                    <option>White</option>
+                    <option>Pinks</option>
+                    <option>Assorted</option>
+                    <option>Perach</option>
+                    <option>Hot Pink</option>
+                    <option>Orange</option>
+                    <option>Coral</option>
+                    <option>Red/White Varigation</option>
+                </select></td>
+                <td>&#160;</td>
+            </tr>
+        </table>
+        <table border="0">
+            <tr>
+                <td align="center" colspan="2"><font size="5"><em><strong></strong></em></font>
+                <p><font size="5"><em><strong>Billing Information</strong></em></font></p>
+                </td>
+            </tr>
+            <tr>
+                <td><em>Credit card</em></td>
+                <td><select name="Ordering_CardType" size="1">
+                    <option selected>VISA </option>
+                    <option>MasterCard </option>
+                    <option>American Express </option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Cardholder name</em></td>
+                <td><input type="text" size="35"
+                name="Ordering_CardHolderName"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Card number</em></td>
+                <td><input type="text" size="35"
+                name="Ordering_CardNumber"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Expiration date</em></td>
+                <td><input type="text" size="5" maxlength="5"
+                name="Ordering_CardExpiration"> </td>
+            </tr>
+        </table>
+        <table border="0">
+            <tr>
+                <td><font size="5"><em><strong></strong></em></font>
+                <p><font size="5"><em><strong>Send to</strong></em></font></p>
+                </td>
+            </tr>
+            <tr>
+                <td><em>Name</em></td>
+                <td><input type="text" size="35" name="T1"></td>
+            </tr>
+            <tr>
+                <td align="right"><em>Street address</em></td>
+                <td><input type="text" size="35"
+                name="Ordering_StreetAddress"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Address (cont.)</em></td>
+                <td><input type="text" size="35"
+                name="Ordering_Address2"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>City</em></td>
+                <td><input type="text" size="35"
+                name="Ordering_City"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>State/Province</em></td>
+                <td><input type="text" size="35"
+                name="Ordering_State"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Zip/Postal code</em></td>
+                <td><input type="text" size="12" maxlength="12"
+                name="Ordering_ZipCode"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Country</em></td>
+                <td><input type="text" size="25"
+                name="Ordering_Country"> </td>
+            </tr>
+        </table>
+    </blockquote>
+    <blockquote>
+        <table border="0">
+            <tr>
+                <td><font size="5"><em><strong>And You Are...?</strong></em></font></td>
+                <td>&#160;</td>
+            </tr>
+            <tr>
+                <td align="right"><em>Name</em></td>
+                <td><input type="text" size="35"
+                name="Contact_FullName"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Organization</em></td>
+                <td><input type="text" size="35"
+                name="Contact_Organization"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Street address</em></td>
+                <td><input type="text" size="35"
+                name="Contact_StreetAddress"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Address (cont.)</em></td>
+                <td><input type="text" size="35"
+                name="Contact_Address2"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>City</em></td>
+                <td><input type="text" size="35"
+                name="Contact_City"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>State/Province</em></td>
+                <td><input type="text" size="35"
+                name="Contact_State"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Zip/Postal code</em></td>
+                <td><input type="text" size="12" maxlength="12"
+                name="Contact_ZipCode"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Country</em></td>
+                <td><input type="text" size="25"
+                name="Contact_Country"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Work Phone</em></td>
+                <td><input type="text" size="25" maxlength="25"
+                name="Contact_WorkPhone"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Home Phone</em></td>
+                <td><input type="text" size="25" maxlength="25"
+                name="Contact_HomePhone"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>FAX</em></td>
+                <td><input type="text" size="25" maxlength="25"
+                name="Contact_FAX"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>E-mail</em></td>
+                <td><input type="text" size="25"
+                name="Contact_Email"> </td>
+            </tr>
+        </table>
+    </blockquote>
+    <blockquote>
+        <p><font size="4"><strong>What would you like written on
+        the delivery card?</strong></font></p>
+        <p>
+        <textarea name="deliverycard" rows="5" cols="35"></textarea>
+        <br>
+        </p>
+    </blockquote>
+    <p><input type="submit" value="Submit Form"> <input
+    type="reset" value="Reset Form"> </p>
+</form>
+<hr>
+<h5>Copyright information goes here.<br>
+Last revised: October 21, 1996</h5>
+</body>
+</html>
+</DOC>

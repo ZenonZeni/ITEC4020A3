@@ -1,0 +1,183 @@
+
+<DOC>
+<DOCNO>WT01-B15-2</DOCNO>
+<DOCOLDNO>IA075-000494-B047-410</DOCOLDNO>
+<DOCHDR>
+http://www.privacy.org:80/pi/conference/copenhagen/koch.html 199.34.33.146 19970209034724 text/html 13038
+HTTP/1.0 200 OK
+Date: Sun, 09 Feb 1997 03:47:32 GMT
+Server: Apache/0.8.14
+Content-type: text/html
+Content-length: 12865
+Last-modified: Mon, 15 Apr 1996 04:47:10 GMT
+</DOCHDR>
+<HTML> 
+<HEAD><TITLE>European Data Protection - Against the Internet?</TITLE></HEAD> 
+<BODY> 
+
+<CENTER>
+
+
+<H2>European Data Protection - Against the Internet?</H2>
+<br>
+<H3>Frank A. Koch</H3>
+
+<br>
+
+Conference on Advanced Surveillance Technologies        
+<br>
+Copenhagen, <br>
+4 September 1995<br>
+<br><br>
+
+
+<br></CENTER>
+
+<B>1.  The Conflict between the freedom of the net and data protection</B><br><br>
+
+The Internet is the paradigm of an open, interconnected and worldwide set of information nets. There is no centralized agency, organisation or whatever institution controlling the net. You can secure your own system by building a firewall around it but there is no firewall around the whole Internet or even around parts of it, especially not around the territory of the European Union (EU).
+<P>
+
+
+Data Protection according to the Directive 95/45/EC  -  adopted by the European Parliament and the Council of the EU  ( Official Journal No. L 281 ,  23.11.1995, p. 31 )  -   requires control over the medium available for transfers of personal data, the recipients of these data and the way those data are used. The open structure of Internet seems to be quite incompatible with these requirements.
+<P>
+
+
+If you talk to system operators about this problem, in most cases you get the answer that every "sysop" has to take care about his own system determining who is allowed to access his system or who might be recipient of personal data transferred from the sysops' system.   I  am  not absolutely sure whether this idea of free operations in a free net (voiced even by some IBM representatives) might ever work. 
+<P>
+
+
+But even if so, free transfer of personal data is against the law, at least against the new European Directive on Data Protection to be transformed into the law of the Member States of the EU until 23.11.1998 at the latest.     From that data protection point of view the Internet is an uncontrollable data haven to be excluded from any transfers of personal data except some very strict requirement outlined at the end of this papers are met.
+
+
+<P>
+
+We therefore have to take a closer look at the regulations of the Directive. By doing so one can show, I think, that at least some of the regulations contain principles which any responsible system operator had to comply with anyway.
+<P>
+
+
+Countries outside the EU are defined as third countries in the reading of the Directive. This even holds for Norway and Switzerland though the data protection legislation of these countries is equivalent to that of the EU. Data transfers are allowed only to those countries which "ensure an adequate level of protection" (Art.25 sect. 1 Directive) compared to the standards of the EU Member States..
+<P>
+
+
+The Member States of the EU have to assess the level  of  protection  afforded  by the third country  "in the light of all the circumstances surrounding a data transfer or a set of data transfer operations" (Art. 25 sect. 2 Directive)  before any transfer of personal data is taking place. The Directive makes clear that particular consideration should be given to the "nature of the data, the purpose and duration of the proposed processing operation or operations, the country of origin and the country of final destination" (!), "the rules of law, both general and sectoral, in force in the third country in question and the professional rules and security measures which are complied with in that country" (Art.25 sect.2).
+<P>
+
+
+If anything is clear from this lenghty paragraph it seems to be that you cannot do such an in-depth-assessment just by controlling your  system and the individuals you plan to communicate with on your own. What you need is an elaborated policy of such assessments formulated and executed by the Member States themselves. Data protection therefore cannot be reduced to some rules to be imposed on and followed by system operators alone.
+<P>
+
+
+
+                                                                                                                                 
+<B>2. Restricting access to and disclosure of data</B>
+<P>
+
+
+Any "natural or legal person, public authority, agency or any other body which determines the purposes and means of the processing of personal data" qualifies for being a "controller" in the sence of the Directive (of Art.2 lit.(d)).
+<P>
+
+
+Each such controller will be obliged to "implement appropriate technical and organizational measures to protect personal data against".... "unauthorized  disclosure or access in particular where the processing involves the transmission of data over a network, and against all other unlawful forms of processing" (Art.17 sect. 1).
+
+
+<P>
+
+
+Therefore any uncontrolled  logging in of a third-country-recipient not identified in advance and/or from third countries into the part of a system where personal data are stored is unlawful under the Directive.  System operators have to make sure that only identified and legitimized users may access those parts of the system or be recipients of personal data to be disclosed. There can be therefore  no  free   Internet or any  other  Datahighway   access to personal data in any system on the territory of the EU.  Any anonymous- or guest-account giving access to such data therefore has to be blocked.
+<P>
+
+
+This point granted every "sysop" processing any personal data of users or other data subjects has to control who is logging into his system and to find out in advance and authenticate the user identity and country  where the user resides, what kind of data might be disclosed to this user and in what way the recipient may use the data transferred during which period. The examination requires case-by-case-decisions and cannot be done by an automated routine.<P>
+
+
+
+<B>3. Informing data persons about data transfers and rights </B>
+<P>
+
+
+Controllers as defined by the Directive must provide a data subject (i.e. any identified or identifiable person) from whom data relating to himself are collected at least with informations on the recipients or categories of recipients of the data and on the existence of the right of access to and the right to rectify the data concerning him (Art.10  lit.(c)).
+<P>
+
+
+If there is no guaranteed way the data subject can exercise these rights in the recipient countries outside the EU the data transferral will be unlawful because the data are leaking into countries without comparable standards of data protection thereby violating the data subject's rights guaranteed under Art.12. It is  n o t   in the sole discretion of the system operator to decide whether a country has introduced an adequate level of data protection. The Member States of the EU themselves are obliges to examine the adequacy and to take measures necessary to prevent the transfer of protected data to countries not ensuring an adequate level of protection (Art.25 sect.4).
+<P>
+
+
+The Member States therefore - and controllers as well - have to take all measures necessary to make sure that personal data needing protection are not transferred into communication nets from which transfers into those countries cannot prevented. 
+<P>
+
+
+The Directive, seen in this way, is fencing in the territory of the EU. No controller is allowed to use nets for personal data transfers if that net transgresses, by what technical means ever,  EU borders and makes a country-related control impossible. And that is exactly what the Internet does. Using Internet or subnets thereof  - and even the more recent Intranets - or nets comparable to the Internet for transferring personal data or even for giving mere access to personal data bases might open Pandora's data box and therefore will be violating the forthcoming  European law on data protection.
+<P>
+
+
+
+                                                                                                                                 
+
+<B>4. No data transfer to recipients without representatives within the EU</B>
+<P>
+
+
+And there is one further hurdle only few third-country-recipients can surmount at the moment. If a controller established outside the territory of the EU Member States makes use of equipment, automated or otherwise, situated on the territory of at least one of the said Member States the controller must designate a representative established on the territory of that Member State, without prejudice to legal actions which could be initiated against the controller himself (Art.4 sect.1 lit. (  c) and sect. 2).  Now any natural or legal  is to be regarded as controller  in the language of the Directive who determines the purpose and means of  (his) processing of personal data (see Art. 2 lit. (d)). Furthermore the Directive defines any collecting, recording, retrieving, storing and using of personal data as "processing" in the aforementioned sense.  So any recipient storing received personal data and determining the purpose and means of their further use is to be regarded as "controller" under the Directive. 
+<P>
+
+
+If any such "making use of equipment" is to be understood as online-connecting to a system, logging into it and downloading data files from that system, then any such transfer of personal data requires that the recipient as such a controller outside the EU territory in advance designates a representative within the Member State where the data transfer is to be done. To my knowledge until to date, there are not too many outside controllers  fulfilling those requirements. What follows from that for EU controllers is that only those non-EU users/sysops qualify for being a legal recipient of personal data who have designated a representative within the Member State - even if the recipient state has an adequate level of data protection. 
+<P>
+
+
+
+<B>5. Controlling what the recipient is doing with the data</B>
+<P>
+
+
+One final point should be stressed:
+<P>
+
+
+The recipient of personal data is not free in utilizing the personal data received - even if the processing of those data transferrals itself is compatible with the Directive.
+<P>
+
+
+The controller will be obliged to find out for each data transfer
+<P>
+
+
+ -  the purpose and duration of the proposed processing operation or operations,<br>
+ -  the country of final destination (!)  of the data,<br>
+ -  the rules of law in force in the third country and<br>
+ -  the professional rules and security measures (!) which are complied with in the third country    (Art.25 sect.2) and implemented by the recipient.<br><br>
+
+
+<B>6. Liability</B>
+<br><br>
+Any damage a data subject suffers from an unlawful transborder data transfer into a third country may entitle the data subject to receive compensation from the controller transferring the data to the third-country-recipient (cf Art.23 sect.1).
+<br><br>
+
+                                                                                                                                 
+<B>7. Summary and conclusion</B>
+<br><br>
+Personal data may not be freely transferred worldwide through the Internet, at least not when EU borders. Unlimited access to and disclosure of personal data is unlawful. As a system operator within the EU you may transfer personal data to recipients outside the EU borders if
+<br><br>
+(a)   the recipient of these data has designated a representative in the Member State from where you want to start the data transfer  a n d <br><br>
+(b)    you can ensure that the data protection legislation in the recipient state is equivalent to that in your Member State  a n d<br><br>
+
+(c)    you can make sure that nobody unidentified or not entitled to do so is able to get access to the part of your system where personal data are stored or can benefit from personal data disclosed to him   a n d
+<br><br>
+(d)    you have informed the data subject (from whom you store personal data) of the recipients of these data and the rights the data subject has to access the system of the recipient and to demand reatification of his data if necessary   a n d
+<br><br>
+(e)    you find out in what way the recipient uses the data during what time, what security measurements have been implemented by the recipient and whether there is a second recipient as final destination to whom apply rules (a) - (e) of course.
+<br><br>
+All these requirements you have to fulfil before   starting the transfer operation. In that case and under those tightly defined conditions you may use the Internet for transferring personal data but even then at the risk of being liable in case you did not find out  the country of final destination  or cannot prove that you are not responsible for an event causing damage to the data subject.
+<br><br><br>
+<pre>
+C Frank A. Koch, July/Sept. 1995 / March 1996  
+Maximilianstr.54, D-80538 Munich/Germany
+Tel: ++49-89-221330      Fax: ++49-89-227673
+CompuServe 100443,1372 (via Internet: 100443.1372@compuserve.com)
+
+</pre>
+</BODY> 
+</HTML> 
+</DOC>

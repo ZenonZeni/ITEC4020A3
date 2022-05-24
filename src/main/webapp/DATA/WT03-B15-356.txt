@@ -1,0 +1,1054 @@
+
+<DOC>
+<DOCNO>WT03-B15-356</DOCNO>
+<DOCOLDNO>IA074-000483-B007-160</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icsur006.html 128.125.48.102 19970125003919 text/html 37756
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:37:54 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 37524
+Last-Modified: Mon, 13 Jan 1997 17:12:56 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Quick Beginnings</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSURMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 20 Dec 1996 at 16:44:30                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Fri, 20 Dec 1996 16:44:14">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDRINS" HREF="icsur005.html#PToC_34">Chapter 4. Installing your server</A></H1>
+Installing Your Server
+<P>
+This chapter describes how to install your server and covers the
+following topics:
+<P>
+<P><A HREF="icsurmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_35 HREF="#HDRINSTA" >Before you begin</A>
+<MENU>
+<LI><A NAME=PToC_36 HREF="#Header_36" >Choose the installation medium</A>
+<LI><A NAME=PToC_37 HREF="#HDRISITFRS" >Choose the type of installation to perform</A>
+</MENU>
+<LI><A NAME=PToC_38 HREF="#HDRFIRSTI" >Installing for the first time</A>
+<LI><A NAME=PToC_39 HREF="#HDRMIGOS2" >Migrating from a pre-V4R2 level server</A>
+<LI><A NAME=PToC_40 HREF="#HDRINSLIC" >Installing the secure server product license</A>
+<LI><A NAME=PToC_41 HREF="#HDRMIGPOS2" >Migrating from an export V4R2 level server</A>
+<LI><A NAME=PToC_42 HREF="#HDRMIGRAT" >Reinstalling the server</A>
+<LI><A NAME=PToC_43 HREF="#HDRAUTOINS" >Automating installation</A>
+<MENU>
+<LI><A NAME=PToC_44 HREF="#Header_44" >Remote attended installation</A>
+<LI><A NAME=PToC_45 HREF="#Header_45" >Remote unattended installation</A>
+</MENU>
+<LI><A NAME=PToC_46 HREF="#HDRWHAT" >What's next?</A>
+</MENU><HR><P>
+<HR>
+<H2><A NAME="HDRINSTA" HREF="#PToC_35">Before you begin</A></H2>
+<P>
+Before beginning the installation procedure,
+you need to choose the installation medium and
+the type of installation.
+<P>
+<H3><A NAME="Header_36" HREF="#PToC_36">Choose the installation medium</A></H3>
+<P>
+Choose one of the following methods for installing your server:
+<DL>
+<P><DT>
+CD-ROM
+<DD>
+Remove the CD-ROM from the server box and
+go to <A HREF="#HDRISITFRS">"Choose the type of installation to perform"</A>.
+<P><DT>
+Remote code server
+<DD>
+To install from a remote code server, you must
+first copy the
+server product files from the
+CD-ROM onto the remote code server.
+Also, your system must have a LAN connection to the remote code server,
+and you must have access to the directory where the server files are
+located.
+<P>
+Because the server complies with IBM&#39;s Configuration,
+Installation, and Distribution (CID) architecture,
+you can automate installation by using a CID response file.
+The response file contains pre-set values for the installation
+variables you are prompted for during a regular installation.
+If you <B><I>are</I></B> using a response file, go to
+<A HREF="#HDRAUTOINS">"Automating installation"</A>.
+<P>
+If you <B><I>are not</I></B> using a response file to automate
+installation, go to <A HREF="#HDRISITFRS">"Choose the type of installation to perform"</A>.
+</DL>
+<P>
+<H3><A NAME="HDRISITFRS" HREF="#PToC_37">Choose the type of installation to perform</A></H3>
+<P>
+Choose which type of installation you want to perform:
+<DL>
+<P><DT>
+First time installation
+<DD>
+If this is the first time you have installed the server
+on your machine, follow the steps under <A HREF="#HDRFIRSTI">"Installing for the first time"</A>.
+<P><DT>
+Migration
+<DD>
+If you already have a release of the server on your machine, you
+can migrate to the current release of the server.
+Migrating allows you to save your current configuration settings.
+Follow the instructions under <A HREF="#HDRMIGOS2">"Migrating from a pre-V4R2 level server"</A>.
+For planning information, go to <A HREF="icsur005.html#HDRMIGISS">"Migration considerations"</A>.
+<P><DT>
+Reinstallation of the server
+<DD>
+If you want to reinstall the server, follow the instructions
+under <A HREF="#HDRMIGRAT">"Reinstalling the server"</A>.
+</DL>
+<HR>
+<H2><A NAME="HDRFIRSTI" HREF="#PToC_38">Installing for the first time</A></H2>
+<P>
+To install your server:
+<OL>
+<P><LI><B>Prepare to install</B>.
+<UL>
+<P><LI>
+Depending on the method you are using to install,
+do one of the following:
+<DL>
+<P><DT>
+CD-ROM
+<DD>
+Put the server CD-ROM in your CD-ROM drive,
+and enter the install command.
+<UL>
+<P><LI>
+Change to the OS2 subdirectory.
+<P><LI>If your CD-ROM contains the
+English language server only, enter the following
+command at an OS/2 prompt:
+<PRE>
+   <VAR>d&#58;\OS2\</VAR><B>install</B>
+</PRE>
+<P><LI>If your CD-ROM contains servers for
+all available languages, including English,
+enter the following
+command at an OS/2 prompt:
+<PRE>
+   <VAR>d&#58;\OS2\language</VAR>\<B>install</B>
+</PRE>
+<P>For
+<VAR>d&#58;</VAR>, enter
+the drive where you put the server CD-ROM.
+<P>For
+<VAR>language</VAR>, enter
+the 3-character abbreviation of the language you are installing.
+</UL>
+<P><DT>
+Remote code server
+<DD>
+Ensure that your network drive is set up
+to access the directory that contains the server files.
+<P>
+At an OS/2 prompt, enter:
+<PRE>
+   <VAR>z&#58;\path\</VAR><B>install</B>
+</PRE>
+<P>For
+<VAR>z&#58;\path\</VAR>, enter
+the drive and path
+where the server files reside on the code server.
+</DL>
+<P><LI>
+From the Instructions for Installation window,
+click <B>Continue</B>.
+<P><LI>
+From the Install window, click <B>OK</B>.
+</UL>
+<P><LI><B>Select the installation packages</B>.
+<P>
+From the Install - directories window,
+select the product components that you want to install.
+<P><B>Note: </B><BLOCKQUOTE>
+The server documentation is automatically installed.
+</BLOCKQUOTE>
+<UL>
+<P><LI><B>IBM Internet Connection Server</B>
+to install the base server files.
+<P><LI><B>Security Files</B> to install files for the secure server.
+<P>
+The Nodelock Administration Tool is also installed if it is
+not already on your system.
+This tool is used to
+install the secure server product license.
+<P><LI><B>Installation and maintenance</B> to install the
+server installation utility.
+</UL>
+<P><LI><B>Change the default installation directories</B>.
+<P>
+Optionally, use the fields in the bottom half of the
+Install - directories window to
+change the default installation directories.
+These directories define
+where you want to install the server components and where
+you want to store the resources you will be
+making available through the server.
+<P>
+You can change these paths by clicking <B>Disk space</B> and
+selecting the drive where you want the directories installed.
+<P><B>Attention:</B>  You must use
+the scroll bar to see the complete list of directories.
+Each directory you specify must be on a drive in a
+High Performance File System (HPFS) partition.
+<UL>
+<P><LI><B>Executables directory</B>
+<P>
+The server executable program
+files and other related files are installed in this directory.
+<P><LI><B>DLL directory</B>
+<P>The server
+DLL files are installed in this directory.
+<P><LI><B>Documentation directory</B>
+<P>The server publications
+<CITE>Quick Beginnings</CITE> and the <CITE>WebMaster's Guide</CITE>
+are installed in this directory.
+<P><LI><B>CGI Bin scripts directory</B>
+<P>
+Your script programs that use the Common Gateway Interface (CGI)
+and the server htimage program are installed in this directory.
+<P><LI><B>HTML directory</B>
+<P>
+Your HTML documents,
+the server sample HTML pages, and the
+server Front Page are installed in this directory.
+<P><LI><B>Remote admin directory</B>
+<P>
+The files used by the
+server Configuration and Administration forms are stored
+in this directory.
+<P><LI><B>Icons and graphics directory</B>
+<P>
+The default directory
+list icons are installed in this directory.
+You may also choose to put your own
+icon and graphics files in this directory.
+<P><LI><B>Logs directory</B>
+<P>
+The server puts
+log files
+in this directory.
+<P><LI><B>Labels directory</B>
+<P>
+Example labels
+for Platform for Internet Content Selection (PICS) support are
+installed in this directory.
+<P><LI><B>Trusted servlets directory</B>
+<P>This is the directory where you want to keep all trusted Java
+servlets.
+This will allow these servlets to run in the same process as the
+server and can improve performance.
+<P><LI><B>Servlets directory</B>
+<P>This is the directory where you want to keep all untrusted Java
+servlets.
+This will ensure that these servlets run in a separate process
+than the server and will not bring down the server if they fail.
+</UL>
+<P><LI><B>Start the installation</B>.
+<P>Click <B>Install</B>.
+<P><LI><B>Select optional default values</B>.
+<P>
+From the server Install Configuration window,
+optionally change the default values for:
+<UL>
+<P><LI><B>Host Name</B>
+<P>
+The default value is the host name defined in your CONFIG.SYS file.
+If you want to use an alias, you can change this field to a
+fully qualified host name that is defined in your domain name server.
+<P><LI><B>HTTP Port</B>
+<P>
+The default value of 80 is the well known port number for
+Hypertext Transfer Protocol (HTTP).
+Other port numbers less
+than 1024 are reserved for other TCP/IP applications.
+Port
+numbers 8080 and 8008 are commonly used for testing servers.
+<P><LI><B>SSL Port</B>
+<P>
+This is
+the port you want your server to listen to for
+requests for documents protected by the Secure Sockets Layer
+(SSL) protocol.
+The default is 443.
+<P><LI><B>Key ring file</B>
+<P>This is
+the name of the file where you want to store public-private
+key pairs that the server can use for secure communications.
+The key ring file that is displayed is taken from your previous
+HTTPD.CNF file, if you had one.
+The default value is <TT>C&#58;\WWW\BIN\keyfile.kyr</TT>.
+<P><LI><B>Administrator ID</B>
+<P>This is
+the ID of your server administrator.  Anyone attempting to use the
+server Configuration and Administration forms will be prompted
+to enter this ID.
+The default value is <TT>webadmin</TT>.
+It is strongly recommended that you change the default during
+installation.
+<P><LI><B>Password</B>
+<P>This is
+the password you use
+to protect access to the
+Configuration and Administration forms.  Anyone attempting to use the
+Internet Connection Secure Server Configuration and Administration forms
+will be prompted to enter this password.
+The default value is <TT>webibm</TT>.
+It is strongly recommended that you change the default during
+installation.
+</UL>
+<P><LI><B>Select automatic server startup</B>.
+<P>
+Use the <B>Auto Start Server at Bootup</B> check box
+to indicate if you want the server to start automatically
+when you start your host machine.
+If you check the box, the server will be added to
+your OS/2 Startup folder.
+<P><LI><B>Note target directory assignments</B>.
+<P>
+Target directories cannot be changed.
+You may want to make a note of the information
+in this window because it shows where the server will look for
+certain files when it is running.
+<UL>
+<P><LI><B>Configuration file</B>
+<P>This is the
+file that contains the server configuration settings.
+The file is named httpd.cnf and is put in the
+path specified on the SET ETC statement in your CONFIG.SYS
+file.
+<P><LI><B>CGI scripts</B>
+<P>This is the same directory you specified for
+your CGI script programs on the Install - directories window.
+<P><LI><B>HTML documents</B>
+<P>
+This is the same directory you specified for
+your HTML documents on the Install - directories window.
+<P><LI><B>Configuration password file</B>
+<P>
+This is the server password file that will contain the
+values you entered in the
+<B>Administrator ID</B> and <B>Password</B> fields.
+The file is named ADMIN.PWD and is put in the path
+specified on the SET ETC statement in your CONFIG.SYS file.
+</UL>
+<P>Click <B>OK</B> to continue.
+<P><LI><B>Enable Java support</B>.
+<UL>
+<P><LI>
+You will be asked if you want to enable
+Java servlet support.
+<P><LI>
+Click <B>Yes</B> or <B>No</B> to continue.
+</UL>
+<P><LI><B>Complete the installation</B>.
+<P>
+From the server Installation window,
+click <B>Exit</B> to complete the installation.
+<P>
+If the installation procedure updated your CONFIG.SYS file, you
+will be prompted to reboot your system before starting the server.
+<P>
+If you checked the <B>Auto Start Server at Bootup</B>
+check box in the server Install Configuration window,
+the server will be placed in your OS/2 Startup folder and
+will start each time you start or reboot your system.
+<P>
+When you first start the server, it uses the information
+you entered during installation for Host name,
+HTTP Port, SSL Port, Administrator ID, Password,
+and Key ring file.
+It uses default values for the other configuration settings.
+<P><LI><B>Install the secure server product license</B>.
+<P><B>Note: </B><BLOCKQUOTE>
+If you do not install the secure server product license,
+your server will operate as a secure server for only 60 days.
+You can install the secure server product license any time during
+that 60-day period or any time after 60 days without
+having to reinstall the server.
+</BLOCKQUOTE>
+<UL>
+<P><LI>In the License Use Runtime folder,
+start the
+Nodelock Administration Tool
+by double clicking
+on its icon.
+<P><LI>Click <B>Products</B> on the menu bar, then
+click the <B>New</B> option.
+<P><LI>In the New Product window,
+click <B>Import</B>.
+<P><LI>Select the name of the file that contains the Enrollment
+Certificate, <VAR>icsspd42.lic</VAR>.
+<P><LI>Exit the
+Nodelock Administration Tool.
+</UL>
+<P><LI><B>Connect to your server</B>.
+<P>
+Use your favorite browser to connect to your server&#39;s Front
+Page by going to the URL
+<B>http://<VAR>your.server.name</VAR></B>,
+where <VAR>your.server.name</VAR> is the fully qualified name of your
+host.
+The Front Page contains additional links that let you:
+<UL COMPACT>
+<LI>Access the Configuration and Administration forms
+<LI>Create sample home pages
+<LI>Access the Internet Connection Family Web site
+<LI>Read online Internet Connection Secure Server documentation
+</UL>
+<P>
+See the <CITE>Webmaster's Guide</CITE> to learn
+how to configure your server to your exact specifications.
+</OL>
+<HR>
+<H2><A NAME="HDRMIGOS2" HREF="#PToC_39">Migrating from a pre-V4R2 level server</A></H2>
+<P>
+You can migrate from a previous release
+to Version 4.2.
+During the migration procedure, you will first delete the current version
+of the server, then install the Version&nbsp;4.2 files.
+<P><B>Notes: </B><OL>
+<P><LI>
+A backup configuration file and password file are
+saved during the
+migration procedure.
+<P><LI>
+The DB2 and CICS gateway functions are not included in
+Version 4.2.
+If you have existing DB2 or CICS gateways,
+do not delete these components during the migration procedure.
+</OL>
+<P>
+For planning information, go to <A HREF="icsur005.html#HDRMIGISS">"Migration considerations"</A>.
+To begin the migration procedure,
+go to <A HREF="#HDRMIGRAT">"Reinstalling the server"</A>.
+<HR>
+<H2><A NAME="HDRINSLIC" HREF="#PToC_40">Installing the secure server product license</A></H2>
+<P>
+If you do not install the secure server product license,
+or you download an evaluation copy of the server from the
+Internet Connection Family web site <VAR>http://ics.raleigh.ibm.com</VAR>,
+your server operates as a secure server for only 60 days.
+You can install the secure server product license any time during
+that 60-day period or any time after 60 days without
+having to reinstall the server.
+The secure server product license is available on the Internet Connection Secure Server CD-ROM.
+<P>To install the secure server product license:
+<UL>
+<P><LI>In the License Use Runtime folder,
+start the
+Nodelock Administration Tool
+by double clicking
+on its icon.
+<P><LI>Click <B>Products</B> on the menu bar, then
+click the <B>New</B> option.
+<P><LI>In the New Product window,
+click <B>Import</B>.
+<P><LI>Select the name of the file that contains the Enrollment
+Certificate, <VAR>icsspd42.lic</VAR>.
+<P><LI>Exit the
+Nodelock Administration Tool.
+</UL>
+<HR>
+<H2><A NAME="HDRMIGPOS2" HREF="#PToC_41">Migrating from an export V4R2 level server</A></H2>
+<P>
+If you have installed the export version of the
+V4R2 Internet Connection Secure Server, and want to reinstall the US-Canadian version of
+the V4R2 Internet Connection Secure Server, you must first
+uninstall the <B>internet&#95;server.*</B>
+filesets.
+<P><B>Note: </B><BLOCKQUOTE>You do not have to uninstall the <B>ifor&#95;ls.*</B>
+filesets.
+The configuration
+and password file are not deleted during the uninstall.
+The reinstall process prompts you to indicate whether you want
+to use the
+existing configuration and password files.
+</BLOCKQUOTE>
+Refer to <A HREF="#HDRMIGRAT">"Reinstalling the server"</A> for procedures on
+reinstalling the Internet Connection Secure Server.
+<HR>
+<H2><A NAME="HDRMIGRAT" HREF="#PToC_42">Reinstalling the server</A></H2>
+<P>
+<B>Notes about reinstalling:</B>
+<OL>
+<P><LI>
+All of your current configuration settings are saved
+except for the protection setup that protects
+the Configuration and Administration forms.
+In the configuration file, this protection setup
+has a name of PROT-ADMIN.
+Your current PROT-ADMIN protection is overwritten
+with the default administration protection setup.
+If you changed this protection setup in your previous
+configuration file, it goes back to the default protection setup.
+You can either use the default or
+change it again after reinstalling the server.
+<P><LI>
+By default, the ADMIN.PWD password file on the
+path specified on the SET ETC statement in your CONFIG.SYS file
+controls access to the Configuration and Administration forms.
+During reinstallation, the ADMIN.PWD password file is replaced.
+The new file contains only one entry with the user name and
+password you entered in the <B>Administrator ID</B> and
+<B>Password</B> fields.
+</OL>
+<P>
+To reinstall the server:
+<OL>
+<P><LI><B>Prepare to install</B>.
+<UL>
+<P><LI>
+Depending on the method you are using to install,
+do one of the following:
+<DL>
+<P><DT>
+CD-ROM
+<DD>
+Put the server CD-ROM in your CD-ROM drive,
+and enter the install command:
+<UL>
+<P><LI>If your CD-ROM contains the
+English language server only, enter the following
+command at an OS/2 prompt:
+<PRE>
+   <VAR>d&#58;</VAR><B>install</B>
+</PRE>
+<P><LI>If your CD-ROM contains servers for
+all available languages, including English,
+enter the following
+command at an OS/2 prompt:
+<PRE>
+   <VAR>d&#58;\language</VAR>\<B>install</B>
+</PRE>
+<P>For
+<VAR>d&#58;</VAR>, enter
+the drive where you put the server CD-ROM.
+<P>For
+<VAR>language</VAR>, enter
+the 3-character abbreviation of the language you are installing.
+</UL>
+<P><DT>
+Remote code server
+<DD>
+Ensure that your network drive is set up
+to access the directory that contains the server files.
+<P>
+At an OS/2 prompt, enter:
+<PRE>
+   <VAR>z&#58;\path\</VAR><B>install</B>
+</PRE>
+<P>For
+<VAR>z&#58;\path\</VAR>, enter
+the drive and path
+where the server files reside on the code server.
+</DL>
+<P><LI>
+From the Instructions for Installation window,
+click <B>Continue</B>.
+</UL>
+<P><LI><B>Delete server components</B>
+<P>From the Installation Options window:
+<UL>
+<P><LI>
+Click <B>Delete the installed product and re-install</B>
+to delete and reinstall
+the current version of your server.
+<P><LI>Click <B>Continue</B>.
+<P><LI>From the Delete window,
+select the components you want to delete, either by clicking them
+individually or by clicking <B>Select all</B>.
+<P><B>Note: </B><BLOCKQUOTE>
+The DB2 and CICS gateway functions are not included in
+Version 4.2.
+If you have existing DB2 or CICS gateways,
+do not delete these components.
+For more information on migrating DB2 and CICS gateways,
+go to <A HREF="icsur005.html#HDRMIGISS">"Migration considerations"</A>.
+</BLOCKQUOTE>
+<P><LI>Click <B>Delete</B>.
+<P>
+Only the components you select are deleted.
+This procedure does not delete other related files
+such as your configuration file, log files,
+Access Control List files, or protection setup files.
+<P><LI>From the Installation and Maintenance window, click
+<B>OK</B>.
+<P><LI>From the Installation window, click <B>OK</B>.
+<P><LI>Reboot your system.
+</UL>
+<P><LI><B>Reinstall the server</B>.
+<UL>
+<P><LI>
+Depending on the method you are using to install,
+do one of the following:
+<DL>
+<P><DT>
+CD-ROM
+<DD>
+Put the server CD-ROM in your CD-ROM drive,
+and enter the install command.
+<UL>
+<P><LI>If your CD-ROM contains the
+English language server only, enter the following
+command at an OS/2 prompt:
+<PRE>
+   <VAR>d&#58;</VAR><B>install</B>
+</PRE>
+<P><LI>If your CD-ROM contains servers for
+all available languages, including English,
+enter the following
+command at an OS/2 prompt:
+<PRE>
+   <VAR>d&#58;\language</VAR>\<B>install</B>
+</PRE>
+<P>For
+<VAR>d&#58;</VAR>, enter
+the drive where you put the server CD-ROM.
+<P>For
+<VAR>language</VAR>, enter
+the 3-character abbreviation of the language you are installing.
+</UL>
+<P><DT>
+Remote code server
+<DD>
+Ensure that your network drive is set up
+to access the directory that contains the server files.
+<P>
+At an OS/2 prompt, enter:
+<PRE>
+   <VAR>z&#58;\path\</VAR><B>install</B>
+</PRE>
+<P>For
+<VAR>z&#58;\path\</VAR>, enter
+the drive and path
+where the server files reside on the code server.
+</DL>
+<P><LI>
+From the Instructions for Installation window,
+click <B>Continue</B>.
+<P><LI>
+From the Install window, click <B>OK</B>.
+</UL>
+<P><LI><B>Select the installation packages</B>.
+<P>
+From the Install - directories window,
+select the product components that you want to install.
+<P><B>Note: </B><BLOCKQUOTE>
+The server documentation is automatically installed.
+</BLOCKQUOTE>
+<UL>
+<P><LI><B>IBM Internet Connection Server</B>
+to install the base server files.
+<P><LI><B>Security Files</B> to install files for the secure server.
+<P>
+The Nodelock Administration Tool
+is also installed if it is
+not already on your system.
+This tool is used to
+install the secure server product license.
+<P><LI><B>Installation and maintenance</B> to install the
+server installation utility.
+</UL>
+<P><LI><B>Change the default installation directories</B>.
+<P>
+Optionally, use the fields in the bottom half of the
+Install - directories window to
+change the default installation directories.
+These directories define
+where you want to install the server components and where
+you want to store the resources you will be
+making available through the server.
+<P>
+You can change these paths by clicking <B>Disk space</B> and
+selecting the drive where you want the directories installed.
+<P><B>Attention:</B>  You must use
+the scroll bar to see the complete list of directories.
+Each directory you specify must be on a drive in a
+High Performance File System (HPFS) partition.
+<UL>
+<P><LI><B>Executables directory</B>
+<P>
+The server executable program
+files and other related files are installed in this directory.
+<P><LI><B>DLL directory</B>
+<P>The server
+DLL files are installed in this directory.
+<P><LI><B>Documentation directory</B>
+<P>The server publications
+<CITE>Quick Beginnings</CITE> and the <CITE>WebMaster's Guide</CITE>
+are installed in this directory.
+<P><LI><B>CGI Bin scripts directory</B>
+<P>
+Your script programs that use the Common Gateway Interface (CGI)
+and the server htimage program are installed in this directory.
+<P><LI><B>HTML directory</B>
+<P>
+Your HTML documents,
+the server sample HTML pages, and the
+server Front Page are installed in this directory.
+<P><LI><B>Remote admin directory</B>
+<P>
+The files used by the
+server Configuration and Administration forms are stored
+in this directory.
+<P><LI><B>Icons and graphics directory</B>
+<P>
+The default directory
+list icons are installed in this directory.
+You may also choose to put your own
+icon and graphics files in this directory.
+<P><LI><B>Logs directory</B>
+<P>
+The server puts
+log files
+in this directory.
+<P><LI><B>Labels directory</B>
+<P>
+Example labels
+for Platform for Internet Content Selection (PICS) support are
+installed in this directory.
+<P><LI><B>Trusted servlets directory</B>
+<P>This is the directory where you want to keep all trusted Java
+servlets.
+This will allow these servlets to run in the same process as the
+server and can improve performance.
+<P><LI><B>Servlets directory</B>
+<P>This is the directory where you want to keep all untrusted Java
+servlets.
+This will ensure that these servlets run in a separate process
+than the server and will not bring down the server if they fail.
+</UL>
+<P><LI><B>Start the installation</B>.
+<P>Click <B>Install</B>.
+<P><LI><B>Select optional default values</B>.
+<P>
+From the server Install Configuration window,
+optionally change the default values for:
+<UL>
+<P><LI><B>Host Name</B>
+<P>
+The default value is the host name defined in your CONFIG.SYS file.
+If you want to use an alias, you can change this field to a
+fully qualified host name that is defined in your domain name server.
+<P><LI><B>HTTP Port</B>
+<P>
+The default value of 80 is the well known port number for
+Hypertext Transfer Protocol (HTTP).
+Other port numbers less
+than 1024 are reserved for other TCP/IP applications.
+Port
+numbers 8080 and 8008 are commonly used for testing servers.
+<P><LI><B>SSL Port</B>
+<P>This is
+the port you want your server to listen to for
+requests for documents protected by the Secure Sockets Layer
+(SSL) protocol.
+The default is 443.
+<P><LI><B>Key ring file</B>
+<P>This is
+the name of the file where you want to store public-private
+key pairs that the server can use for secure communications.
+The key ring file that is displayed is taken from your previous
+HTTPD.CNF file, if you had one.
+The default value is <TT>C&#58;\WWW\BIN\keyfile.kyr</TT>.
+<P><LI><B>Administrator ID</B>
+<P>This is
+the ID of your server administrator.  Anyone attempting to use the
+server Configuration and Administration forms will be prompted
+to enter this ID.
+The default value is <TT>webadmin</TT>.
+It is strongly recommended that you change the default during
+installation.
+<P><LI><B>Password</B>
+<P>This is
+the password you use
+to protect access to the
+Configuration and Administration forms.  Anyone attempting to use the
+Internet Connection Secure Server Configuration and Administration forms
+will be prompted to enter this password.
+The default value is <TT>webibm</TT>.
+It is strongly recommended that you change the default during
+installation.
+</UL>
+<P><LI><B>Select automatic server startup</B>.
+<P>
+Use the <B>Auto Start Server at Bootup</B> check box
+to indicate if you want the server to start automatically
+when you start your host machine.
+If you check the box, the server will be added to
+your OS/2 Startup folder.
+<P><LI><B>Note target directory assignments</B>.
+<P>
+Target directories cannot be changed.
+You may want to make a note of the information
+in this window because it shows where the server will look for
+certain files when it is running.
+<UL>
+<P><LI><B>Configuration file</B>
+<P>This is the
+file that contains the server configuration settings.
+The file is named httpd.cnf and is put in the
+path specified on the SET ETC statement in your CONFIG.SYS
+file.
+<P><LI><B>CGI scripts</B>
+<P>This is the same directory you specified for
+your CGI script programs on the Install - directories window.
+<P><LI><B>HTML documents</B>
+<P>
+This is the same directory you specified for
+your HTML documents on the Install - directories window.
+<P><LI><B>Configuration password file</B>
+<P>
+This is the server password file that will contain the
+values you entered in the
+<B>Administrator ID</B> and <B>Password</B> fields.
+The file is named ADMIN.PWD and is put in the path
+specified on the SET ETC statement in your CONFIG.SYS file.
+</UL>
+<P>
+Click <B>OK</B> to continue.
+<P><LI><B>Select configuration file settings</B>
+<P>
+If the installation process finds that you already have a
+server configuration file named httpd.cnf,
+you will be asked if you want to keep the existing configuration file.
+<UL>
+<P><LI>
+Click <B>No</B> if you want to install with the
+default configuration settings.
+<P><B>Note: </B><BLOCKQUOTE>
+Your current httpd.cnf configuration file will be copied
+to a file named httpd.$nf.
+</BLOCKQUOTE>
+<P>It is recommended
+that you choose <B>No</B>, which is the default,
+because
+many new directives have been added
+to the configuration file.
+For a list of new directives,
+see page <A HREF="icsur002.html#SPTNEWDIRS">reference #1</A>.
+<P><LI>
+Click <B>Yes</B> if you are reinstalling and want to save
+your current configuration settings.
+</UL>
+<P>Click <B>OK</B> to continue.
+<P><LI><B>Enable Java support</B>.
+<UL>
+<P><LI>
+You will be asked if you want to enable
+Java servlet support.
+<P><LI>
+Click <B>Yes</B> or <B>No</B> to continue.
+</UL>
+<P><LI><B>Complete the installation</B>.
+<P>
+From the server Installation window,
+click <B>Exit</B> to complete the installation.
+<P>
+If the installation procedure updated your CONFIG.SYS file, you
+will be prompted to reboot your system before starting the server.
+<P>
+If you checked the <B>Auto Start Server at Bootup</B>
+check box in the server Install Configuration window,
+the server will be placed in your OS/2 Startup folder and
+will start each time you start or reboot your system.
+<P>
+When you first start the server, it uses the information
+you entered during installation for Host name,
+HTTP Port, SSL Port, Administrator ID, Password,
+and Key ring file.
+It uses default values for the other configuration settings.
+<P><LI><B>Install the secure server product license</B>.
+<P><B>Note: </B><BLOCKQUOTE>
+If you do not install the secure server product license,
+your server will operate as a secure server for only 60 days.
+You can install the secure server product license any time during
+that 60-day period or any time after 60 days without
+having to reinstall the server.
+</BLOCKQUOTE>
+<UL>
+<P><LI>In the License Use Runtime folder,
+start the
+Nodelock Administration Tool
+by double clicking
+on its icon.
+<P><LI>Click <B>Products</B> on the menu bar, then
+click the <B>New</B> option.
+<P><LI>In the New Product window,
+click <B>Import</B>.
+<P><LI>Select the name of the file that contains the Enrollment
+Certificate, <VAR>icsspd42.lic</VAR>.
+<P><LI>Exit the
+Nodelock Administration Tool.
+</UL>
+<P><LI><B>Connect to your server</B>.
+<P>
+Use your favorite browser to connect to your server&#39;s Front
+Page by going to the URL
+<B>http://<VAR>your.server.name</VAR></B>,
+where <VAR>your.server.name</VAR> is the fully qualified name of your
+host.
+The Front Page contains additional links that let you:
+<UL COMPACT>
+<LI>Access the Configuration and Administration forms
+<LI>Create sample home pages
+<LI>Access the Internet Connection Family Web site
+<LI>Read online Internet Connection Secure Server documentation
+</UL>
+<P>
+See the <CITE>Webmaster's Guide</CITE> to learn
+how to configure your server to your exact specifications.
+</OL>
+<HR>
+<H2><A NAME="HDRAUTOINS" HREF="#PToC_43">Automating installation</A></H2>
+If you are installing the server from a remote code server,
+you can use a Configuration, Installation, and Distribution
+(CID) response file to automatically install or update the server.
+This section describes how to perform the following two types of
+automated installation:
+<UL COMPACT>
+<LI>Remote attended installation
+<LI>Remote unattended installation
+</UL>
+<P>
+<H3><A NAME="Header_44" HREF="#PToC_44">Remote attended installation</A></H3>
+<P>
+If a remote code server has the server product files, the clients
+of the code server can perform a remote attended installation.
+Clients must meet the server hardware and software requirements,
+have a LAN connection, and have access to the remote code server
+directory that contains the server product files.
+For more information on hardware and software requirements,
+see <A HREF="icsur005.html#HDRPLN">Chapter 3. "Planning for installation"</A>.
+<P>
+The code server must have a server response file.
+The response file contains pre-set values for the installation
+variables.
+The default response file for the server is named websrvr.rsp.
+The default response file contains comments that explain the
+different variables and how to set them.
+<P>
+From the client where you want to install the server,
+follow these instructions for a remote attended installation:
+<OL>
+<P><LI>Verify that you have access to the remote code server and that
+the server response file is in the same directory of the code server
+as the product files.
+<P><LI>At an OS/2 prompt, enter
+<PRE>
+   <VAR>z&#58;\path\</VAR><B>install /r&#58;</B><VAR>z&#58;\path\websrvr.rsp</VAR>
+</PRE>
+<P>where:
+<UL>
+<P><LI><B><VAR>z&#58;\path\</VAR></B> is the drive and path
+where the server files reside on the code server.
+<P><LI><B>/r&#58;</B>
+indicates that the name of a response file follows.
+<UL>
+<P><LI><VAR>z&#58;\path\websrvr.rsp</VAR>
+is the name of the response file to be used.
+You must give the full drive and path name
+if it is different from the current directory.
+</UL>
+</UL>
+<P><B>Note: </B>There are no spaces in the
+<B>/r&#58;<VAR>z&#58;\path\</VAR>websrvr.rsp</B> string.
+<P><LI>As the installation process continues,
+either use the pre-set values from the response file
+or modify them to meet your own particular needs.
+</OL>
+<P>
+<H3><A NAME="Header_45" HREF="#PToC_45">Remote unattended installation</A></H3>
+<P>
+<P>
+You can use a software distribution manager to
+perform remote unattended installations of the server.
+Remote unattended installation allows you to distribute software
+from a software distribution manager to workstations.
+You must have a network connection established between the
+software distribution manager and the target workstations.
+The target workstations must have the client software for the
+software distribution manager installed.
+<P>
+For remote unattended installation of the server using other
+software distribution managers, use the install command as follows:
+<P>&nbsp;
+<PRE>
+   <B>install  /x  /r&#58;</B><VAR>z&#58;\path\websrvr.rsp</VAR>  <B>/l1&#58;</B><VAR>z&#58;\path\error.log</VAR>  <B>/l2&#58;</B><VAR>z&#58;\path\history.log</VAR>
+</PRE>
+<P>where:
+<UL>
+<P><LI><B>/x</B> indicates unattended installation.
+<P><LI><B>/r&#58;</B> indicates that the name
+of a response file follows.
+<UL>
+<P><LI><VAR>z&#58;\path\websrvr.rsp</VAR>
+is the name of the response file to be used.
+</UL>
+<P><LI><B>/l1&#58;</B> indicates that the name of the error log
+file follows.
+<UL>
+<P><LI><VAR>z&#58;\path\error.log</VAR> is the name of the file
+where the installation procedure should write error messages.
+</UL>
+<P><LI><B>/l2&#58;</B> indicates that the name of the history log
+file follows.
+<UL>
+<P><LI><VAR>z&#58;\path\history.log</VAR> is the name of the file
+where the installation procedure should write information messages.
+</UL>
+</UL>
+<P><B>Notes: </B><OL>
+<P><LI>
+There are no spaces between the parameter indicators (/r, /l1, and /l2)
+and the file specifications.
+<P><LI>
+You must give the full drive and path names for files if they are
+different from the current directory.
+</OL>
+<HR>
+<H2><A NAME="HDRWHAT" HREF="#PToC_46">What's next?</A></H2>
+<P>
+Go to <A HREF="icsur007.html#HDRSTR">Chapter 5. "Starting to use your server"</A> for information on the HTML documents
+shipped with the server and instructions
+on making your own documents available.
+<P>
+Use the information in the <CITE>Webmaster's Guide</CITE>
+to change your server default configuration settings and control
+access to your server.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icsur005.html">Previous Page</A> &#124; <A HREF="icsur007.html">Next Page</A> &#124; <A HREF="icsurmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

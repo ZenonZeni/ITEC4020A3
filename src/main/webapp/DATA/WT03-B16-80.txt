@@ -1,0 +1,247 @@
+
+<DOC>
+<DOCNO>WT03-B16-80</DOCNO>
+<DOCOLDNO>IA072-000461-B015-87</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/ers/raw_intro.html 137.132.32.55 19970121031637 text/html 8748
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 13:41:18 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 20-Dec-96 18:31:03 GMT
+Content-length: 8567
+</DOCHDR>
+<HEAD>
+<TITLE>1. INTRODUCTION </TITLE>
+</HEAD>
+<BODY>
+<H1>1. INTRODUCTION</H1>
+<P>
+<P>
+<H2>Sar Raw Data</H2>
+<P>
+<P>Acronym: <STRONG>SAR.RAW</STRONG>
+<P>Decommutated raw SAR echos data suitable for input to a processor.
+<P>The product is stored on two CCTs.
+<P>
+<H3>1) General CCTs structure</H3>
+<P>
+<P><STRONG>CCT1</STRONG> contains the following three files :
+<P>Volume Directory File    Leader File    Data Set File
+<P>
+<H3>2) Files description</H3>
+<P>
+<P>
+<H3>a) Volume Directory File:</H3>
+<P>
+<P>
+
+<PRE>     volume descriptor record           360 bytes (mandatory)
+
+     leader file pointer record         360 bytes (mandatory)
+
+     data set file pointer record       360 bytes (mandatory) 
+
+     text record                        360 bytes (mandatory)</PRE>
+<P>
+<H3>b) Leader File:</H3>
+<P>
+<P>
+
+<PRE>    file descriptor record                       720 bytes (mandatory)            
+
+     data set summary record                    1886 bytes (mandatory)
+
+     platform position data record              .... bytes (optional)
+
+     radiometric compensation record            .... bytes (optional)
+
+     radar parameter update data record         .... bytes (optional)
+
+     facility related data record              12288 bytes (mandatory)  
+     general type
+
+     facility related data record              12288 bytes (optional)  
+     pcs quality type</PRE>
+<P>
+<H3>c) Data Set File:</H3>
+<P>
+<P>
+
+<PRE>     file descriptor record                    11644 bytes (mandatory)         
+
+     13600 signal data record                  11644 bytes (mandatory)</PRE>
+<P>
+<P><STRONG>CCT2</STRONG> contains the following three files :
+<P>
+<H3>Volume Directory File       Data Set File      Null Volume File</H3>
+<P>
+<P>
+<H3>d) Volume Directory File (update of CCT1):</H3>
+<P>
+<P>
+
+<PRE>     volume descriptor record              360 bytes (mandatory)
+
+     leader file pointer record            360 bytes (mandatory)
+
+     data set file pointer record          360 bytes (mandatory) 
+
+     text record                           360 bytes (mandatory)</PRE>
+<P>
+<H3>e) Data Set File:</H3>
+<P>
+<P>
+
+<PRE>     ..... signal data records             11644 bytes (mandatory)</PRE>
+<P>
+<H3>f) Null Volume File:</H3>
+<P>
+<P>
+
+<PRE>     volume descriptor record                360 bytes (mandatory)</PRE>
+<P>
+<P>Notation conventions :
+<P>$       - the use of the "$"' (dollar  sign) in the documentation denotes a requirement           for the blank character (ie.
+the ASCII or EBCDIC space character).
+<P>(n)     - this expression is used to denote the contents of an integer binary field           which will vary depending on the
+product type or data origin and will have           to be supplied on the CCT by the facility generating the CCT.
+<P><.....> - this expression is used to denote the contents of an alphanumeric field,           which will vary depending on the
+product type or data origin and will have           to be supplied on the CCT by the facility generating the CCT.
+<P><$...$> - this expression is used to denote a blank field.
+<P>
+
+<PRE>File Class                           Class Code         Data Type
+
+"8$BIT$ASCII$0NLY$$$$$$$$$$$$"      "ASCO"              ASCII only data
+"EBCDIC$0NLY$$$$$$$$$$$$$$$$$"      "EBCO"              EBCDIC only
+"BCD$0NLY$$$$$$$$$$$$$$$$$$$$"      "BCDO"              BCD only
+"BINARY$0NLY$$$$$$$$$$$$$$$$$"      "BINO"              binary only data
+"MIXED$BINARY$AND$ASCII$$$$$$"      "MBAA"              binary & ASCII
+"MIXED$BINARY$AND$EBCDIC$$$$$"      "MBAE"              binary & EBCDIC
+"MIXED$BINARY$AND$BCD$$$$$$$$"      "MBAB"              binary & BCD
+"UNDEFINED,$ETC.$$$$$$$$$$$$$"      "UNDF"              undefined
+"C0MPLEX$$$$$$$$$$$$$$$$$$$$$"      "COMP"              complex
+"REAL$$$$$$$$$$$$$$$$$$$$$$$$"      "REAL"              floating point
+
+
+Data Interpretation                 Format             Length
+
+"INTEGER*1$$$$$$$$$$$$$$$$$$$"      "I*1$"             (1 byte wide)
+"INTEGER*2$$$$$$$$$$$$$$$$$$$"      "I*2$"             (2 byte wide)
+"INTEGER*4$$$$$$$$$$$$$$$$$$$"      "I*4$"             (4 byte wide)
+- one, two and four byte two"s complement integer representation
+
+"SIGNED$INTEGER*1$$$$$$$$$$$$"      "IS1$"             (1 byte wide)
+"SIGNED$INTEGER*2$$$$$$$$$$$$"      "IS2$"             (2 byte wide)
+"SIGNED$INTEGER*4$$$$$$$$$$$$"      "IS4$"             (4 byte wide)
+- one, two and four byte signed integer with the  most significant
+  bit used to denote sign
+
+"UNSIGNED$INTEGER*1$$$$$$$$$$"      "IU1$"             (1 byte wide)
+"UNSIGNED$INTEGER*2$$$$$$$$$$"      "IU2$"             (2 byte wide)
+"UNSIGNED$INTEGER*4$$$$$$$$$$"      "IU4$"             (4 byte wide)
+- one, two and four byte un    -signed integer with the  most significant
+  bit used as part of the pixel value, the pixel is always positive.
+
+"REAL*2$$$$$$$$$$$$$$$$$$$$$$"      "R*2$"             (2 byte wide)
+"REAL*4$$$$$$$$$$$$$$$$$$$$$$"      "R*4$"             (4 byte wide)
+"REAL*8$$$$$$$$$$$$$$$$$$$$$$"      "R*8$"             (8 byte wide)
+- two, four and eight byte two's complement floating point representation
+  with the exponent denoted in two's complement binary.(note that the REAL*8
+  representation is the same as double precision.)
+
+
+Data Interpretation                 Format             Length
+
+
+"REAL*2$HEXADECIMAL$$$$$$$$$$"      "R*2H"             (2 byte wide)
+"REAL*4$HEXADECIMAL$$$$$$$$$$"      "R*4H"             (4 byte wide)
+"REAL*8$HEXADECIMAL$$$$$$$$$$"      "R*8H"             (8 byte wide)
+- two, four eight byte hexadecimal floating point representation with the 
+  exponent denoted as a hexadecimal exponent. (note that the REAL*8.
+  representation is the same as double precision.)
+
+"C0MPLEX*4$$$$$$$$$$$$$$$$$$$"      "C*4$"             (4 byte wide)
+"C0MPLEX*8$$$$$$$$$$$$$$$$$$$"      "C*8$"             (8 byte wide)
+- four byte field with the first half (two bytes) containing the two"s
+  complement floating point representation value of the real component and
+  the second half containing the imaginary component.Similarly for the eight
+  byte type, with each half of the field containing the real and imaginary
+  pairs.
+ 
+"C0MPLEX$INTEGER*2$$$$$$$$$$$"      "CI*2"             (2 byte wide)
+"C0MPLEX$INTEGER*4$$$$$$$$$$$"      "CI*4"             (4 byte wide)
+"C0MPLEX$INTEGER*8$$$$$$$$$$$~      "CI*8"             (8 byte wide)
+- similar to the complex floating point representation above except that
+  each component is stored as a two"s complement integer.
+
+"C0MPLEX$SIGNED$INTEGER*2$$$$"      "CIS2"             (2 byte wide)
+"C0MPLEX$SIGNED$INTEGER*4$$$$"      "CIS4"             (4 byte wide)
+"C0MPLEX$SIGNED$INTEGER*8$$$$"      "CIS8"             (8 byte wide)
+- similar to the complex floating point representation above except that
+  each component is stored as a signed integer.
+
+"C0MPLEX*4$HEXADECIMAL$$$$$$$"      "C*4H"             (4 byte wide)
+"C0MPLEX*8$HEXADECIMAL$$$$$$$"      "C*8H"             (8 byte wide)
+- same as the floating point complex notation above except that the
+  representation follows the hexadecimal conventions.
+
+
+Records in products                                      CEOS   Codes
+
+Volume Directory File
+
+- VOLUME DESCRIPTOR RECORD                              (192,192,18,18)
+- FILE POINTER RECORD                                   (219,192,18,18)
+- TEXT RECORD                                           (18,63,18,18)
+
+Leader File
+
+- FILE DESCRIPTOR RECORD                                (63,192,18,18)
+- DATA SET SUMMARY RECORD                               (10, 10,31,20)
+- PLATFORM POSITION DATA RECORD                         (10, 30,31,20)
+- RADIOMETRIC COMPENSATION RECORD                       (10, 51,31,20)
+- RADAR PARAMETER DATA UPDATE RECORD                    (10,100,31,20)
+- FACILITY RELATED DATA RECORD GENERAL TYPE             (10,200,31,50)
+- FACILITY RELATED DATA RECORD PCS QUALITY TYPE         (10,200,31,50)
+
+SAR Data File
+
+- FILE DESCRIPTOR RECORD                                (63,192,18,18)
+- RAW SIGNAL DATA RECORD                                 (50,10,31,20)
+
+Null Volume
+
+- NULL VOLUME DESCRIPTOR RECORD                         (192,192,63,18)</PRE>
+<P>
+<P>
+<H3>Note:</H3>
+<P>
+<P>Fields not provided are treated as follows:( for a case of a field 8 bytes long) 
+<P>
+
+<PRE>   Field type           Format           Filler
+
+   alphanumeric           A8             8 blanks
+
+   numeric integer        Iw             -9999999
+
+   numeric floating point F8.2           -9999.99
+
+   numeric exponential    E8.2           -9999.99E-99  
+</PRE>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+</BODY>
+
+</DOC>

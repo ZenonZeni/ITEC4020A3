@@ -1,0 +1,349 @@
+
+<DOC>
+<DOCNO>WT03-B24-112</DOCNO>
+<DOCOLDNO>IA053-000895-B046-226</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/crit56.html 129.174.40.15 19970123200008 text/html 16272
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:58:51 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 07 Dec 1995 22:58:09 GMT
+Content-type: text/html
+Content-length: 16088
+</DOCHDR>
+<html>
+<head>
+<title>NIS&T Key Escrow Export Meetting, Breakout on #5 and #6</title>
+</head>
+<body>
+<p>
+<h2>Criteria #5 and #6</h2>
+Recorded/reported by Pat Farrell<br>
+PhD Graduate Student<br>
+School of Information Technology and Engineering<br>
+George Mason University<br>
+Fairfax, Virginia
+<h2>Breakout Groups C1 and C2</h2>
+This document reports on the first breakout session for groups
+C1 and C2 for the NIS&T's Encryption Key Escrow Expost meeting. The
+breakout session was held at approximately 1:30 PM, on September 6, 1995.
+<p>
+Groups c1 and c2 were small and were combined into one. The group
+discussed criterias 5 and 6 of Topic 3.
+They are short enough to reproduce here.
+
+<p>
+5.    The product shall be resistant to any alteration that would
+      disable or circumvent the key escrow mechanism, to include
+      being designed so that the key escrow mechanism cannot be
+      disabled by a static patch, (i.e., the replacement of a
+      block of code by a modified block).
+
+<p>
+6.    The product shall not decrypt messages or files encrypted
+      by non-escrowed products, including products whose key
+      escrow mechanisms have been altered or disabled.
+
+<p>
+After I commented that the person writing the notes has the ability to
+detirmine what was said, the folks from NSA and NIS&T asked me to take 
+the notes. I should insert the standard disclaimer here: just because I'm
+taking notes in the breakout session, don't assume that I'm endorsing
+the concepts being discussed.
+
+<p>
+In the middle of this discussion, a government-generated, but anonymnous
+paper was distributed. It had "Example Suggested Solutions." It suggested
+that source code not be available for products suitable for export. It also
+suggested other ideas, such as storing a checksum/hash and having the
+system "check the cryptographic code several times during its use." There 
+was a strong reaction against these suggestions, not because they were
+bad ideas, but because the paper was delivered with no prior publication.
+This precluded any planned response to its ideas.
+
+<p>
+There was a fair amount of discussion as to what the criteria meant.
+The government's wording is bureacratic and wordy at best, and
+open to too much subjective interpretation. There was a strong desire for a 
+crisply worded criteria. This was to allow the goverment evaluators to
+easily make decisions in the approval process without requiring subjective
+evaluations. It also allows vendors to set sharp-edged criteria for
+their developers and engineers to use while developing products.
+<p>
+The group reworded #5 to say "want to Trust the Product." This means that it 
+is untampered, works as expected, etc. We then hashed out ways to 
+know this. The list ended up looking like:
+<ul>
+<li> is available only as object code
+<li> contains some "hash" function to check for modifications
+<li> contains some unique hash, with uniqueness based upon something 
+        like "site," "per copy" or "per release" 
+<li> Contains policies against modification, such as liscense language        
+        against decompilation.
+<li> OS-related security, such as runs "protected mode" instead of as a 
+        wild DOS program.
+</ul>
+<p>
+Representatives of the software vendors objected strongly
+ against "per copy" identifiers,
+saying it would add two orders of magnitude worth of problems to 
+manufacturing.
+
+<p>
+The items on the list were not "must have all of these" rather it was
+a pick-and-chose menu. We expected exportable products to have some 
+combination of these, not all of them. 
+We also required that the standard allow flexibility
+for technical innovation to keep up with the evolving state of the art.
+<p>
+I pointed out that some of the goals that we just listed are not
+completely realistic with the current state of the art. For example, the
+definition of "object code" is quite fluid with modern super-scaler
+CPUs that reinterpret instructions and convert them on the
+fly from one format to another. Similarly, many modern Object Oriented
+languages blur the distinctions between source and executable. Still other
+languages typically are shipped with source code to everything,
+and don't really have a concept of "object code."
+<p>
+The discussion of #6 was more lively. We took a long time figuring out what
+it said. For instance, could ViaCrypt sell a product that was compatible
+with PGP 2.6.2 (non-escrowed) that also worked with the new escrowed
+ciphers? It seems to me, and a lot of other folks there, that such a product
+would be non-exportable. 
+<p>
+We tried to invent a rewording of Criteria #6 that said, clearly, what
+we thought the Government wanted it to say. The result was:
+<p><i>
+	The product shall check for the presence of properly constructed
+escrow field (information) prior to decryption of any message. If the
+field is missing or improperly formed, the product will not decrypt the 
+message. Equivalent approaches are acceptable.</i>
+<p>
+After a lot of discussion, we decide that our "improved" wording was not
+that much better. We tried again. 
+We simplified the criteria to:
+  "right products won't talk to wrong products."
+with "right products" meaning those that are exportable, and wrong products
+being those that aren't, or are hacked, or ...
+<p>
+We then talked about modifying it to say:
+  "right products won't talk to wrong products or anything else."
+The group thought that this seemed to be closer to what 
+the LEA (law enforcement agencies) community wanted. It was definitely not 
+what the commercial software vendors wanted.
+<p>
+We then developed "goals" including:<br>
+1. One version for sale worldwide<br>
+2. Allow development in the US<br>
+3. Domestic Law Enforcement Agencies want Escrowed (I almost wrote GAK :-)<br>
+4. Must interoperate with everything<br>
+5. Receiver can only decrypt if escrow agencies can decrypt.<br>
+
+<p>
+This leads to a bunch of issues and observations, including:
+<p>
+First Issue (A) Can goals 1, 2, and 4 be met simultaneously?
+<p>
+No one could argue that they could be met. Goal 4 was required to allow 
+the product to have "sales attractiveness." It was the consensus that
+sales attractiveness meant that it had to interoperate with existing standards.
+This seemed to require that the software be developed in a country,
+such as Isreal or Germany, that understands the needs of the business
+community.
+<p>
+There was a suggestion of a "friendly man-in-the-middle" who would
+receive an escrowed conversation, and strip off the escrowed encryption 
+parts, and reencrypt it, and retransmit it to a non-escrowed user. 
+This "friend" is only friendly to parties that want to destroy the 
+effectiveness of key escrowed encryption. I guess this means that friendship is 
+relative.
+This concern leads to:
+<p>
+Second Issue (B) Can we prohibit a friendly MITM?
+<p>
+We could not invent a solution. It appeared to the group that any
+technical solution was suseptible to this "attack." It was not
+clear how important this issue is to the LEA community.
+<p>
+The last and biggest issue was:
+<p>
+Third Issue (C). Startup compatibility. No one will buy products unless 
+they have
+sales attractiveness. This means compatibility with existing systems.
+Yet the government's criteria #6 seems to say that approved products must refuse
+backwards compatibility.
+
+<p>
+This was labeled a "non starter" by the group. Interoperability was
+declared a requirement.
+
+<p>
+The consensus was that companies can develop a substantial competitive
+advantage by developing off-shore and offering both escrowed encryption
+and compatibility with existing systems.
+
+<p>
+There was a discussion of grandfathering in some technologies.
+This was to help interoperability. The conversation became fuzzy,
+Grandfather technologies included DES, 3-DES, IDEA, and long key RC4.
+There is a clear conflict here. DES and triple-DES are commonly used today 
+in commercial (although not exportable) systems. IDEA and long key RC4 are
+gaining acceptance. All four of these are clearly candidates for
+interoperability.
+<p>
+One key idea was that it may make sense to allow software that encrypts with
+escrowed keys, but can also decrypt with any algorithm. This allows the LEA's
+to access outgoing messages, while allowing interoperability.
+<p>
+The discussions frequently wandered to discuss the language of the criteria.
+The wording was considered simultaneously too subjective  and impractical.
+For example, we considered the phrase "tamper resistant" to be preferable 
+to the original "prevent tampering," because it is impossible to absolutly
+prevent modification to software.
+<p>
+The issue of interoperability was raised repeatedly. 
+It is critical that exportable products interoperate with other,
+existing export products. 
+
+<p>
+The last issue in the session was that the length of the key, 64-bits,
+was defined in criteria #1. There was no discussion at the conference on
+this criteria. It seems that the NIS&T and NSA staff believe that
+this is a closed topic. The people in the session did not agree. They
+felt that 64-bits was not enough.
+
+<p>
+Once the breakout session was over, the entire conference met together, 
+and the "reporter" from each session reported their comments and findings.
+
+<p>
+All breakout sessions had suggested changes. The group that discussed
+criteria #9 recommended removing it. The group that discussed criteria #2 
+(no multiple encryption) reported that industry was working on a general 
+solution to the problem of key recovery, and that their solution would 
+probably appear as quickly without the government's "help." 
+
+<p>
+Several groups identified that there are at least two separate 
+problem domains: communications and data storage. Communications 
+typically is short term, and has unique keys for each session. 
+Data storage has far fewer keys that are used
+for long periods. Several speakers suggested that while communications
+keys were not suited to be escrowed, there was a large need for
+key recovery for data storage. There was no response from the government
+representatives to any of these points. One government speaker
+did say that there would be a Federal key escrow standard, period.
+<p>
+This last statement caused me to reflect on the value of
+participating in the session.
+<a name="opinion">
+<hr> </a>
+<h2>Pat Farrell's personal opinion</h2> 
+I believe that there was a lot of talking, and 
+very little listening at the meeting.
+<ol>
+<h3>What I heard the industry say was:</h3>
+<li>there are two separate classes of encrypted data, 
+communications and long term storage. There is a commercial need for
+key recovery (key escrow) for long term storage. There is no
+commercial need for key recovery for communications.
+<li>Industry has no essential problem with cooperating with
+government and LEA needs for key escrow, as long as it
+is acceptable to, and driven by, the market.
+<li>Without interoperability with current defacto standards
+(e.g. strong algorithms, long keys, triple-DES, IDEA, etc.)
+the products will not succeed in the market.
+<li> there is no such thing as a US Domestic market. There is one,
+worldwide market.
+<li>If there are no restrictions on importing software, and serious
+restrictions on exporting it, industry will be driven offshore.
+<h3>What I head from the privacy and civil liberty advocates:</h3>
+<li>Encrypted speach is free speach, protected under the Constitution.
+<li>Attempts to regulate and restrict domestic use of strong encryption will
+result in a loud, messy, and very public fight.
+<li>This is not a technical debate, it is a political one, and should
+occur in a political forum.
+<h3>Yet what I heard from the government folks was:</h3>
+<li>These standards are voluntary.
+<li>The LEA community wants and requires escrow of keys used for communications.
+<li>The need for this was justified by a number of heart-tugging appeals to the emotions with unsubstantiated
+claims of rampant crime caused by Drug Dealers, pedophiles, and terrorists
+that requires key escrow.
+<li>that a standard would be set essentailly as proposed, 
+without regard to the comments of industry, privacy advocates, 
+or civil liberty advocates.
+</ol>
+It is clear to me that the groups were talking past each other. I believe
+that there are legitimate LEA concerns, and that industry wants
+to be responsive to those concerns. 
+<p>
+I have not heard any
+credible justification for and explanation of the LEA concerns. 
+I have been following this debate since 1992, and have yet
+to see a emotion-free explanation as to why the LEAs are so adamantly
+against cryptography. After years of honing their arguments, I'd expect
+a solid, fact-filled case from the LEAs.
+The public record fails to show any significant number of
+investigations that have been hindered by criminal use of cryptography.
+Statements that
+these standards are <i>voluntary</i> and will stay voluntary are simply
+not credible when the only justifications given are domestic examples
+with no more solid grounding than Time Magazine's cries that the Internet
+is being overrun with pornography. The LEAs need to tone down their rhetoric
+and base the discussion on facts if they want to he heard.
+<p>
+I have described myself as a PhD student. I have a strong interest in
+security. I had a peer-reviewed paper published in the National
+Computer Security Conference (1992).
+To support my family while working on my PhD, I have a 
+part-time job developing software.
+I work at a large (5000+ staff, $400 million yearly revenue) company.
+I can't speak for the company, but I can say what I see as an employee.
+We used to sell mainframe finiancial applications to banks, insurance firms,
+and large multinational companies. We can not longer sell mainframe software;
+our customers insist on client/server solutions. I have looked hard, and found
+only one solution to the security and authentication issues that 
+are caused by client/server architectures. That solution is strong 
+cryptography. The customers do not, yet,  have the experience to understand
+that they need strong encryption, at least as strong as Kerberos. They 
+don't see it now, but they will soon. We will
+have to provide security and authentication for our systems.
+<p>
+Of concern with the topic of these export meetings, the company's
+growth is in Europe. We compete today against European software firms. I have
+personal interests (I like living in Virginia) in 
+being able to develop and sell software that
+competes with the European developed code. They will not be restricted
+to 64-bit, US escrowed keys. This is the market reality that my firm sees.
+<p>
+The government is offering 64-bit encryption, including DES. They
+are sorely behind the times. While still in use, DES is
+considered too weak for serious consideration.
+Today, the standards for encryption are 2000 bit public key (RSA) for
+long term keys, and 128-bit (IDEA) or 168-bit (3-DES) session keys.
+Industry says that session keys are not worth escrowing. Yet they are
+too long to be acceptable to the government. Simply stating that only
+64 bit keys are acceptable is not a realistic position for the 
+LEAs to take if they want to claim that this is a credible conversation.
+<p>
+Standardizing on weak encryption, that meets neither the needs of business
+nor the privacy needs of citizens, based upon the weak justification
+presented to date by the LEAs
+is not appropriate for a free democratic society. 
+<p>
+I have tried to accurately report the discussions, with the hope
+that the two or three sides can reach a common ground. I did not see
+any progress during the breakout session, or at any other time
+during the two days.
+<hr>
+Follow this link to the writeup of <a href="./techcrit.html">
+next breakout session, Technical Criteria</a>
+<p>
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nist/nist950906.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a> 
+December 7, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

@@ -1,0 +1,400 @@
+
+<DOC>
+<DOCNO>WT01-B09-182</DOCNO>
+<DOCOLDNO>IA007-000075-B039-88</DOCOLDNO>
+<DOCHDR>
+http://www-mtnforum.igc.org:80/mtnforum/survey/survey.htm 198.94.7.182 19970222071255 text/html 20843
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 07:13:14 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 20671
+Last-modified: Thu, 20 Feb 1997 22:16:31 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> Survey/subscription form</TITLE>
+</HEAD>
+<!-- Survey/subscription form--rev 1.3 - 1/97 - DTO--> 
+<BODY bgcolor="#ffffff" TEXT="#000000">
+<LINK REV="made" HREF="mailto:mfsupport@mtnforum.org">
+<BODY>
+<A NAME="top">
+<H1><CENTER>Join our On-Line Discussions</CENTER></H1><HR>
+<FORM METHOD=POST ACTION="/scripts/mailform/mfsupport@mtnforum.org/confirm">
+<P>
+The <FONT COLOR="#990000"> <STRONG>Mountain Forum</STRONG> <FONT COLOR="#000000">e-conference consists of four discussion lists, with additional lists to be added as participation expands.  The most recent addition is the Latin American discussion list:
+<P>
+     i.  "<STRONG>mtn-forum</STRONG>"   This is the common area of the Mountain
+Forum.  All who wish to subscribe are welcome and encouraged to
+participate in the open discussion.  This list is moderated to
+promote discussion.
+<P>
+     ii.  "<STRONG>mf-intro</STRONG>"   A list dedicated to introducing
+subscribers to one another.  New subscribers are asked to post a
+few sentences describing themselves and their interest in the
+Mountain Forum discussion list.  Just as in a face-to-face
+conference, we tend to feel more comfortable in the discussion as
+we begin to get to know each other.
+<P>
+     iii.  "<STRONG>mf-summary</STRONG>"   A weekly read-only summary of the
+topics discussed in the open "mtn-forum" list.  This summary is
+simply a list made up of the subject line of each posting in the
+last week, and a repeat posting of important announcements and
+information newly available on-line.  As additional discussion
+lists are opened within the Mountain Forum, this weekly summary
+will help indicate when and where the active discussion is taking
+place.  For those subscribers who do not wish to receive the full
+traffic of the open lists, this summary provides a concise way to
+stay in touch with what's happening in the Mountain Forum.  <P>
+
+iv. "<STRONG>mf-lac</STRONG>"  This moderated discussion list focusses on biodiversity and agriculture in the Andes.  It will be conducted in Spanish and all Spanish-speakers with an interest in this area are encouraged to participate.
+
+
+<P>To <B>subscribe</B> to the mtn-forum and mf-intro lists, fill out the form below and click the 
+&quot;Process Request&quot; button. You will receive an E-mail
+confirmation of your subscription within 24 hours.</P>
+<P>If your Browser does not support FORMs, try sending mail to
+<A HREF="mailto:majordomo@mtnforum.org">Majordomo@mtnforum.org</A> with the line &quot;<B>subscribe
+    mtn-forum</B>&quot; as the first line in the body of mail.</P> 
+<P><STRONG>Your Name : <INPUT TYPE="text" NAME="fullname" SIZE=30 MAXLENGTH=80><BR>
+Your E-mail : <INPUT TYPE="text" NAME="email" SIZE=30 MAXLENGTH=80 VALUE="">
+</STRONG>
+<P><EM>Please check one of the following boxes:</EM>
+<P><STRONG>
+<INPUT TYPE=checkbox NAME="subscribe mtn-forum" UNCHECKED>Mountain Forum General <EM>and</EM>Introductions <BR>   
+ <INPUT TYPE=checkbox NAME="Mountain Forum Summary Only" UNCHECKED>Mountain Forum Summary Only   <BR> 
+<INPUT TYPE=checkbox NAME="General, intros and summary" UNCHECKED>General, Introductions and Summary <BR>  
+
+<INPUT TYPE=checkbox NAME="Latin American list" UNCHECKED> Latin American list (in Spanish)<BR>  
+
+
+</STRONG> 
+<P>
+<H3><INPUT TYPE="submit" VALUE="Subscribe Now!">  <INPUT TYPE="reset" VALUE="Clear Form">
+</H3> 
+</FORM></PRE>
+<P>
+<HR SIZE=4 WIDTH=85%>
+<P>
+<FORM METHOD=POST ACTION="/scripts/mailform/mfsupport@mtnforum.org/confirm">
+<P>
+<A NAME="survey">
+<FONT COLOR="#000000">
+<H1>Membership Registration and Survey</H1><HR>
+<P>
+Membership in the Mountain Forum is free of charge.  There are no
+annual, subscription, or other fees.  If you have already sent in
+your registration and survey, please skip the rest of this
+message.  If you have not yet filled it out, please take a moment
+to do so now.  Please send it to the appropriate regional
+coordinator, as listed in section II. below.
+<P>
+If you do not wish to become a member of the Mountain Forum, you
+are still welcome and encouraged to participate in the electronic
+discussions.  Please fill out sections III - VI of the survey to
+assist us in providing useful services to you and other
+participants.  You may return it the appropriate <A HREF=/mtnforum/members/region.htm>regional
+coordinator</A>.
+<P>  
+<P>To fill out and send the <B>Survey Form</B> to the Mountain Forum, fill out the form below and click the 
+&quot;Process Request&quot; button. </P>
+<P>If your Browser does not support FORMs, try sending a blank e-mail message to our auto-reply address
+<A HREF="mailto:mfinvite-info@mtnforum.org">mfinvite-info@mtnforum.org</A>, and you will receive a copy of the membership registration and survey in your mail within 24 hours.</p>
+<P> 
+<H2> Contact Information </H2>
+Your First (given) Name : <INPUT TYPE="text" NAME="fname" SIZE=20 MAXLENGTH=30><br>
+Your middle initial : <INPUT TYPE="text" NAME="mname" SIZE=20 MAXLENGTH=30><br>
+Your Last (family) Name : <INPUT TYPE="text" NAME="lname" SIZE=20 MAXLENGTH=30><br>
+Your Title (Mr., Ms., Dr., Prof., Other) : <INPUT TYPE="text" NAME="title" SIZE=15 MAXLENGTH=20><br>  
+Your Organization/Affiliation : <INPUT TYPE="text" NAME="org" SIZE=30 MAXLENGTH=50><br>
+<P> <STRONG>Mailing Information:</STRONG><P>
+Mailing Address : <INPUT TYPE="text" NAME="mail1" SIZE=30 MAXLENGTH=50><br>
+City : <INPUT TYPE="text" NAME="city" SIZE=30 MAXLENGTH=50><br>
+Province or State : <INPUT TYPE="text" NAME="state" SIZE=30 MAXLENGTH=50><br>
+Postal code:    <INPUT TYPE="text" NAME="pcode" SIZE=10 MAXLENGTH=20><br>
+Country :       <INPUT TYPE="text" NAME="country" SIZE=30 MAXLENGTH=50><br>
+Street Address (if different) :  <INPUT TYPE="text" NAME="mail1" SIZE=30 MAXLENGTH=60><br>
+<P> <STRONG> Telephone/Fax/e-mail Information</STRONG><P>
+Telephone Country Code: <INPUT TYPE="text" NAME="ccode" SIZE=10 MAXLENGTH=20><br>
+Telephone City or Area Code : <INPUT TYPE="text" NAME="acode" SIZE=10 MAXLENGTH=20><br>
+Telephone Number : <INPUT TYPE="text" NAME="phone" SIZE=20 MAXLENGTH=30><br>
+Fax Country Code : <INPUT TYPE="text" NAME="fccode" SIZE=10 MAXLENGTH=20><br>
+Fax City or Area Code : <INPUT TYPE="text" NAME="facode" SIZE=10 MAXLENGTH=20><br>
+Fax Number : <INPUT TYPE="text" NAME="fax" SIZE=20 MAXLENGTH=30><br>
+E-mail:<INPUT TYPE="text" NAME="e-mail" SIZE=30 MAXLENGTH=80<br>
+<P>
+<H2> Regional Affiliation</H2>
+<P>
+Please indicate your regional affiliation(s) below, and send your
+membership registration and survey to the address for that
+region.  This will insure your inclusion in regional networks and
+activities.  Africa, Europe, and North America have not yet
+identified a regional node or members of their Regional
+Facilitating Committees.  Until these are identified, the Interim
+Facilitating Committee Convener will maintain your membership.
+<P>
+<STRONG>Please Select one or more regions of interest: </strong>
+<P>
+<INPUT TYPE=checkbox NAME="Asia" UNCHECKED>Asia/Pacific <BR>   
+<INPUT TYPE=checkbox NAME="LatAmer" UNCHECKED>Latin America <BR>
+<INPUT TYPE=checkbox NAME="africa" UNCHECKED>Africa   <BR> 
+<INPUT TYPE=checkbox NAME="Europe" UNCHECKED>Europe <BR>   
+<INPUT TYPE=checkbox NAME="NAmer" UNCHECKED>North America  <BR> 
+<INPUT TYPE=checkbox NAME="Global" UNCHECKED>Global  <BR>  
+<P>
+<STRONG>In addition, please indicate your main region (for contact information):</strong>
+<SELECT NAME="mregion">
+<OPTION> Asia
+<OPTION> LatAmer
+<OPTION> Africa
+<OPTION> Europe
+<OPTION> NAmer
+</SELECT>
+<P>
+<STRONG>NOTE:<EM>This form will automatically be e-mailed to the correct regional forum manager.</EM> 
+<P></PRE><PRE>
+<DL COMPACT>
+<DT> Asian regions send to:                             Latin American regions send to:
+<DD><CODE> Attn: Shahid Akhtar, MF Membership           Attn: Ana Ponce, MF Membership
+<DD>       ICIMOD                                       Centro Internationale de la Papa
+<DD>       GPO Box 3226                         Apartado Postal 1558
+<DD>       Kathmandu, NEPAL                             Lima 100 PERU
+<DD>       Fax:    +9771-524-509                        Fax:    +51-14-351-570
+<DD>       Telex:  2439 ICIMOD NP
+<DD>       E-mail: mforum@icimod.org.np         E-mail: A.Ponce@cgnet.com
+<DD>
+<DD>            Africa, Europe, and North America regions send to:
+<DD>                    Attn: Jason Espie, MF Membership
+<DD>                    The Mountain Institute
+<DD>                    P.O. Box 907
+<DD>                    Franklin, WV 26807  USA
+<DD>                    Fax:    +1-304-358-2400
+<DD>                    E-mail: mfsupport@mtnforum.org
+</DL></CODE></PRE>
+<P>
+<HR>
+<H2>Participant Background Information</H2>
+<P>
+For the rest of the questions in this survey, please check as many answers as apply, and write out any responses or additions as you wish.  If you are replying by e-mail, please indicate your choices by writing out the appropriate question number and letter(s)_that apply, and filling in the blanks.  All comments are welcome, and all answers are confidential.  Survey results will be made available in summary form only. <EM>For the multiple-entry boxes, please check one or more answers that apply to you.</EM>
+<P>
+<STRONG>1. On which mountain range(s) or massif(s) do you work? (please type names separated by commas):</STRONG>
+<TEXTAREA NAME="massif" ROWS=2 COLS=40>
+ </TEXTAREA>
+<P>
+<STRONG>2. How would you characterize the geographic extent of your work?</STRONG><P>
+<INPUT TYPE=checkbox NAME="extenta" UNCHECKED> one mountain range or massif <BR>
+<INPUT TYPE=checkbox NAME="extentb" UNCHECKED> mountains in general <BR>
+<INPUT TYPE=checkbox NAME="extentc" UNCHECKED> one particular mountain <BR>
+<INPUT TYPE=checkbox NAME="extentd" UNCHECKED> several mountain regions<BR>
+<INPUT TYPE=checkbox NAME="extento" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="extenttext" ROWS=2 COLS=40>
+</TEXTAREA>
+<P>
+<STRONG>3. How would you identify your principal type(s) of work?</STRONG><P>
+<INPUT TYPE=checkbox NAME="worka" UNCHECKED> activism <BR>
+<INPUT TYPE=checkbox NAME="workb" UNCHECKED> administration <BR>
+<INPUT TYPE=checkbox NAME="workc" UNCHECKED> college or graduate studies <BR>
+<INPUT TYPE=checkbox NAME="workd" UNCHECKED> policy development <BR>
+<INPUT TYPE=checkbox NAME="worke" UNCHECKED> project implementation <BR>
+<INPUT TYPE=checkbox NAME="workf" UNCHECKED> research <BR>
+<INPUT TYPE=checkbox NAME="workg" UNCHECKED> teaching <BR>
+<INPUT TYPE=checkbox NAME="worko" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="worktext" ROWS=2 COLS=40>
+ </TEXTAREA>
+ <P>
+<STRONG>4. Would you consider yourself as a:</STRONG><P>
+<INPUT TYPE=checkbox NAME="persona" UNCHECKED> mountain inhabitant <BR>
+<INPUT TYPE=checkbox NAME="personb" UNCHECKED> person interested in mountains <BR>
+<INPUT TYPE=checkbox NAME="personc" UNCHECKED> professional working in mountains or on mountain issues <BR>
+<INPUT TYPE=checkbox NAME="persond" UNCHECKED> visitor or user of mountains<BR>
+<INPUT TYPE=checkbox NAME="persono" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="persontext" ROWS=2 COLS=40>
+ </TEXTAREA>
+<P>
+<STRONG>5. Please list your subject specialization(s) or
+interests(s):</STRONG>
+<P><TEXTAREA NAME="subject" ROWS=3 COLS=30>
+ </TEXTAREA>
+<P>
+<STRONG>6. How would you describe your institutional affiliation?</STRONG><P>
+<INPUT TYPE=checkbox NAME="affila" UNCHECKED> donor organization <BR>
+<INPUT TYPE=checkbox NAME="affilb" UNCHECKED> government <BR>
+<INPUT TYPE=checkbox NAME="affilc" UNCHECKED> intergovernmental organization <BR>
+<INPUT TYPE=checkbox NAME="affild" UNCHECKED> no affiliation (private individual) <BR>
+<INPUT TYPE=checkbox NAME="affile" UNCHECKED> non-governmental organization <BR>
+<INPUT TYPE=checkbox NAME="affilf" UNCHECKED> university or research institution <BR>
+<INPUT TYPE=checkbox NAME="affilo" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="affiltext" ROWS=2 COLS=40>
+ </TEXTAREA>
+<P>
+<HR>
+<H2>Electronic access</H2>
+<P>Note:  this information will help us to build a database of support resources for participants, especially those in remote
+areas.
+<P>
+<STRONG>7. Do you have access to:</STRONG><P>
+<INPUT TYPE=checkbox NAME="accessa" UNCHECKED> e-mail <BR>
+<INPUT TYPE=checkbox NAME="accessb" UNCHECKED> ftp (file transfer protocol) <BR>
+<INPUT TYPE=checkbox NAME="accessc" UNCHECKED> gopher <BR>
+<INPUT TYPE=checkbox NAME="accessd" UNCHECKED> World Wide Web (WWW) <BR>
+<INPUT TYPE=checkbox NAME="accesso" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="accesstext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<STRONG>8. In addition to a monthly or hourly connection fee, do you have to pay to receive each e-mail message?</STRONG>
+(Enter Y/N)<INPUT TYPE="text" SIZE=1 NAME="paymaila"><BR>
+<P>other (please describe):<P><TEXTAREA NAME="paymailtext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<P>
+<STRONG>9. Which e-mail software do you currently use?  Please be
+specific by providing program name and version number.</STRONG><P>
+<SELECT NAME="email1">
+<OPTION> Eudora 1.x (free version)
+<OPTION> Eudora 2.x (Pro version)
+<OPTION> Pegasus Mail 
+<OPTION> MS-Exchange
+<OPTION> MS-Mail, cc:Mail, Novell Groupwise (LAN-Based)
+<OPTION> unix PINE, ELM, etc.
+</SELECT>
+<P><TEXTAREA NAME="email2" ROWS=2 COLS=40>
+ </TEXTAREA>
+<P><STRONG>10. If you know, who is your Internet service provider?:</STRONG><P><TEXTAREA NAME="internet" ROWS=2 COLS=40>
+ </TEXTAREA>
+<P>
+<STRONG>11. Have you participated in e-mail discussion lists?</STRONG><P>
+(Enter Y/N)<INPUT TYPE="text" SIZE=1 NAME="emailexa"><BR>
+<P>other (please describe):<P><TEXTAREA NAME="emailextext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<STRONG>12. If yes, which lists have you found useful or valuable and
+why?</STRONG><P>
+<TEXTAREA NAME="lista" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<HR>
+<H2>Networking</H2>
+<STRONG>13. How did you hear about the Mountain Forum?</STRONG><P>
+<INPUT TYPE=checkbox NAME="hearda" UNCHECKED> Internet <BR>
+<INPUT TYPE=checkbox NAME="heardb" UNCHECKED> printed material or publications <BR>
+<INPUT TYPE=checkbox NAME="heardc" UNCHECKED> professional colleague or friend <BR>
+<INPUT TYPE=checkbox NAME="heardd" UNCHECKED> World Wide Web <BR>
+<INPUT TYPE=checkbox NAME="heardo" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="heardtext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<STRONG>14. Would you consider yourself:</STRONG><P>
+<INPUT TYPE=checkbox NAME="newa" UNCHECKED> familiar with the Mountain Forum <BR>
+<INPUT TYPE=checkbox NAME="newb" UNCHECKED> new to the Mountain Forum <BR>
+<INPUT TYPE=checkbox NAME="newo" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="newtext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<STRONG>15. Would you consider your current network of colleagues to be:</STRONG><P>
+<INPUT TYPE=checkbox NAME="networka" UNCHECKED> global <BR>
+<INPUT TYPE=checkbox NAME="networkb" UNCHECKED> local <BR>
+<INPUT TYPE=checkbox NAME="networkc" UNCHECKED> regional <BR>
+<INPUT TYPE=checkbox NAME="networko" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="networktext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<STRONG>16. When you need information on mountains, which resources do you usually go to?</STRONG><P>
+<INPUT TYPE=checkbox NAME="infoa" UNCHECKED> colleagues <BR>
+<INPUT TYPE=checkbox NAME="infob" UNCHECKED> Internet or world wide web <BR>
+<INPUT TYPE=checkbox NAME="infoc" UNCHECKED> libraries <BR>
+<INPUT TYPE=checkbox NAME="infoo" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="infotext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<STRONG>17. To which mountain related journals and newsletters do you subscribe already?</STRONG>
+<P>  Please list:<P><TEXTAREA NAME="journaltext" ROWS=2 COLS=50></TEXTAREA>
+<P>
+<STRONG>18. If you work in a grassroots community organization or in project implementation, do you feel that your experience and
+knowledge currently impact government or intergovernmental
+policy?</STRONG><P>
+<INPUT TYPE=checkbox NAME="impacta" UNCHECKED> no<BR> 
+<INPUT TYPE=checkbox NAME="impactb" UNCHECKED> not applicable<BR>
+<INPUT TYPE=checkbox NAME="impactc" UNCHECKED> possibly<BR> 
+<INPUT TYPE=checkbox NAME="impactd" UNCHECKED> yes<BR>
+<INPUT TYPE=checkbox NAME="impacto" UNCHECKED> other (please describe):<BR> 
+<P><TEXTAREA NAME="impacttext" ROWS=2 COLS=40>
+ </TEXTAREA><P><HR>
+<H2>How can the Mountain Forum best serve you?</H2>
+<P>
+<STRONG>19. Which of these Mountain Forum electronic services do you anticipate using:</STRONG>
+<P>
+<INPUT TYPE=checkbox NAME="servicea" UNCHECKED>electronic magazine or e-mag (we do not have financial
+     support for the electronic magazine yet, but we will seek
+     support if sufficient demand exists) <BR>
+<INPUT TYPE=checkbox NAME="serviceb" UNCHECKED> e-mail auto-reply document service<BR>
+<INPUT TYPE=checkbox NAME="servicec" UNCHECKED> e-mail discussion lists <BR>
+<INPUT TYPE=checkbox NAME="serviced" UNCHECKED> ftp archives (will be set up if sufficient demand exists) <BR>
+<INPUT TYPE=checkbox NAME="servicee" UNCHECKED> gopher archives (coming on-line in 1996) <BR>
+<INPUT TYPE=checkbox NAME="servicef" UNCHECKED> World Wide Web pages  <BR>
+<INPUT TYPE=checkbox NAME="serviceo" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="servicetext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+
+<STRONG>20. What do you hope to gain from the e-mail discussion lists?</STRONG>
+<P>
+<INPUT TYPE=checkbox NAME="hopea" UNCHECKED> access to mountain-specific information resources <BR>
+<INPUT TYPE=checkbox NAME="hopeb" UNCHECKED> broader knowledge of mountain issues<BR>
+<INPUT TYPE=checkbox NAME="hopec" UNCHECKED> exposure to different viewpoints <BR>
+<INPUT TYPE=checkbox NAME="hoped" UNCHECKED> greater sense of community with other mountain peoples <BR>
+<INPUT TYPE=checkbox NAME="hopee" UNCHECKED> greater voice for your constituents or stakeholders <BR>
+<INPUT TYPE=checkbox NAME="hopef" UNCHECKED> impact on local, regional, and global policy formation<BR>
+<INPUT TYPE=checkbox NAME="hopeg" UNCHECKED> participation in mountain conferences, publications, or 
+     other initiatives of the Mountain Forum <BR>
+<INPUT TYPE=checkbox NAME="hopeh" UNCHECKED> specific knowledge of case studies and real-life experiences <BR>
+<INPUT TYPE=checkbox NAME="hopei" UNCHECKED> wider network of colleagues <BR>
+<INPUT TYPE=checkbox NAME="hopeo" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="hopetext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<STRONG>21. What special discussion lists would you like to see set up? We will set up "chat rooms" whenever there is sufficient
+interest:</STRONG>
+<P>non-English language: which language?<BR><TEXTAREA NAME="language" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<P>regional: which region?<BR><TEXTAREA NAME="region" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<P>special groups (eg. women, community facilitators,
+     students, etc.): which group?<BR><TEXTAREA NAME="group" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<P>thematic (eg. cultural diversity, tourism, climate 
+     change, natural hazards, water resources, sustainable 
+     development, production systems, energy, biodiversity, 
+     water resources, sacred mountains, etc.): which theme?<BR><TEXTAREA NAME="theme" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<P>other (please describe):<BR><TEXTAREA NAME="chattext" ROWS=2 COLS=40>
+ </TEXTAREA><P>
+<STRONG>22. Would you be interested in contributing to the electronic networking services of the Mountain Forum through:</STRONG>
+<P>
+<INPUT TYPE=checkbox NAME="contriba" UNCHECKED> assisting in database searches for participants with 
+     limited (eg. e-mail only) electronic access <BR>
+<INPUT TYPE=checkbox NAME="contribb" UNCHECKED> assisting in locating technical support for new 
+     participants in your local or regional area <BR>
+<INPUT TYPE=checkbox NAME="contribc" UNCHECKED> contributing case studies, documents, bibliographies, 
+     references, or reports to the electronic archives <BR>
+<INPUT TYPE=checkbox NAME="contribd" UNCHECKED> moderating or helping to moderate a discussion list <BR>
+<INPUT TYPE=checkbox NAME="contribo" UNCHECKED> other (please describe):<BR>
+<P><TEXTAREA NAME="contribtext" ROWS=2 COLS=40>
+ </TEXTAREA>
+<P>
+<P>
+<STRONG>23. Do you have any other suggestions to make the Mountain Forum more responsive to your needs? Please list:</STRONG>
+<P><TEXTAREA NAME="suggest" ROWS=4 COLS=25>
+ </TEXTAREA><P>
+<P>
+<P>
+<H3><INPUT TYPE="submit" VALUE="Send in your Survey">  <INPUT TYPE="reset" VALUE="Clear Form"></h3> 
+</FORM></PRE>
+<P>
+<HR>
+<P>
+<P>
+<IMG SRC=/mtnforum/images/mtn-logo.jpg height=157 width=113>
+<A HREF=/mtnforum/index.html>          Back to the Mountain Forum home page</A><P>
+<P>
+<HR SIZE=3 WIDTH=80%>
+<P>
+<FONT COLOR="#990000">
+<ADDRESS>
+<CENTER>
+The Mountain Forum / <A HREF="mailto:mfsupport@mtnforum.org">mfsupport@mtnforum.org</A> / revised July 1996
+</CENTER>
+</ADDRESS>
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,138 @@
+
+<DOC>
+<DOCNO>WT02-B32-166</DOCNO>
+<DOCOLDNO>IA072-000465-B049-32</DOCOLDNO>
+<DOCHDR>
+http://wlib.com:80/guest2.html 165.254.203.4 19970208220734 text/html 2608
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.1
+Date: Sunday, 09-Feb-97 01:06:14 GMT
+Last-modified: Tuesday, 14-Jan-97 18:58:45 GMT
+Content-length: 2419
+Content-type: text/html
+</DOCHDR>
+<html>
+
+<head><title>GuestBook</title></head>
+
+<body bgcolor = "#ffffff" text = "#000000">
+
+<center>
+
+<h2>GUESTBOOK</h2>
+<hr>
+<DL><P>
+<TABLE><P>
+<tr><P>
+<td>
+ <IMG SRC="guestbook.gif"></td><td>Please sign our guestbook!</tr></td></table>
+Register on the WLIB website, for your chance to win great prizes. . .<P>
+By completely filling out this form, you will automatically be entered into the<br> <FONT COLOR="FF3366">POWER WHEEL OF PRIZES</FONT>!  <p>There will be a chosen few, but the POWER WHEEL winners will receive a Ria Express gift pack! (Gift pack includes:  "Strictly The Best" cassettes, volume 17 & 18 - compliments of VP Records, a Ria Express hat, and a six month subscription to the Jamaican Weekly Gleaner!) <p><BLINK><FONT COLOR="0000DD">1190am WLIB - One Family. . .ON-AIR & NOW ONLINE!</FONT></BLINK><P>
+
+
+
+<form method=post action="../cgi-bin/gwlib.cgi">
+
+<table border=0>
+
+<tr><th colspan=2 align=left>General Infomation:</th></tr>
+
+<tr>
+
+	<td>First Name</td><td><input type=text size=30 name="first name:"></td>
+
+</tr>
+
+<tr>
+
+	<td>Last Name</td><td><input type=text size=30 name="last name:"></td>
+
+</tr>
+
+<tr>
+
+	<td>Area</td><td><select name="Area:">
+
+						<option value="Manhattan">Manhattan
+
+						<option value="Brooklyn">Brooklyn
+
+						<option value="The Bronx">The Bronx
+
+						<option value="Queens">Queens
+
+						<option value="Staten Island">Staten Island
+
+						<option value="Northern NJ">Northern NJ
+
+						<option value="Southern NJ">Southern NJ
+
+						<option value="Connecticut">Connecticut
+
+						<option value="Long Island">Long Island
+
+						<option value="Westchester County">Westchester County
+
+						<option value="Upstate NY">Upstate NY
+
+						<option value="Other">Other
+
+					</select>
+
+					</td>
+
+</tr>
+
+<tr>
+
+	<td>Age</td><td><select name="Age:">
+
+						<option value="25-30">25-30
+
+						<option value="30-35">30-35
+
+						<option value="35-40">35-40
+
+						<option value="40-45">40-45
+
+						<option value="45-55+">45-55+
+
+					</select>
+
+					</td>
+
+</tr>
+
+<tr><th colspan=2 align=left>Contact Information:</th></tr>
+
+<tr>
+
+	<td>Street</td><td><input type=text size=30 name="Address1:"></td>
+
+</tr>
+
+<tr>
+
+	<td>City, State Zip</td><td><input type=text size=30 name="Address2:"></td>
+
+</tr>
+
+<tr>
+
+	<td>Email Address</td><td><input type=text size=30 name="Email:"></td>
+
+</tr>
+
+</table>
+
+<input type=submit value="Submit Information">
+
+</form>
+
+</center>
+
+</body>
+
+
+
+</DOC>

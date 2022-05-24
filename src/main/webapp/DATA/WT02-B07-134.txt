@@ -1,0 +1,52 @@
+
+<DOC>
+<DOCNO>WT02-B07-134</DOCNO>
+<DOCOLDNO>IA046-000823-B026-38</DOCOLDNO>
+<DOCHDR>
+http://www.tritontech.com:80/techdocu.html 165.227.192.45 19970119065529 text/html 2898
+HTTP/1.0 200 OK
+Date: Sun, 19 Jan 1997 06:55:10 GMT
+Server: Apache/1.0.0
+Content-type: text/html
+Content-length: 2727
+Last-modified: Wed, 18 Dec 1996 19:30:09 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> Technical Support </TITLE>
+</HEAD>
+<BODY>
+<h2>Misc. support files</h2>
+<h3>(These can also be found on the FTP link)</h3>
+<LI></A>DOS-based tape utility that copies files between disk and tape: <A HREF="ftp://ftp.scruznet.com/users/triton/public/EXABYTE.EXE">exabyte.exe</A>
+<LI></A>Documentation for Triton's use of the SEG-Y file format: <A HREF="ftp://ftp.scruznet.com/users/triton/public/SEGY_FMT.ZIP">SEGY_FMT.ZIP</A>
+<LI></A>Source code, program and documentation for reading .XTF files: <A HREF="ftp://ftp.scruznet.com/users/triton/public/demo_xtf.zip">demo_xtf.zip</A>
+<LI></A>Source code, program and documentation for reading .DAT files: <A HREF="ftp://ftp.scruznet.com/users/triton/public/demo_dat.zip">demo_dat.zip</A>
+<LI></A>Program for re-computing heading values in .DAT files: <A HREF="ftp://ftp.scruznet.com/users/triton/public/fixhead.EXE">fixhead.EXE</A>
+<LI></A>Program for synchronizing ping times and nav times in .DAT files: <A HREF="ftp://ftp.scruznet.com/users/triton/public/synctime.exe">synctime.exe</A>
+<LI></A>Program (with source) to convert XTF files to DAT: <A HREF="ftp://ftp.scruznet.com/users/triton/public/xtf2dat.zip">xtf2dat.zip</A>
+<LI></A>Flat-filesystem reader program for Sony M-O drives: <A HREF="ftp://ftp.scruznet.com/users/triton/public/sony.exe">sony.exe</A>
+<LI></A>Program to fix corrupted XTF file headers caused by Isis v2.25 bug: <A
+HREF="ftp://ftp.scruznet.com/users/triton/public/fix225.exe">fix225.exe</A>
+<LI></A>Support files for using DDE with Isis.  Includes ISIS.DLL, the DDE driver for Coastal Oceanographics HYPACK <A HREF="ftp://ftp.scruznet.com/users/triton/public/isisdde.zip">isisdde.zip</A>
+<LI></A>Console utility to change M-O cartridge formatting from Floppy to Hard Disk.  Makes data readable under Windows NT.  Includes option to erase a cartridge.  Runs under Windows 95 or DOS, but not Windows NT. <A
+HREF="ftp://ftp.scruznet.com/users/triton/public/fixmo.exe">fixmo.exe</A>
+<p>
+<td>
+<h2>Links to Isis hardware drivers (Windows 95 and NT support)</h2>
+<LI>Check out <A HREF="http://www.adaptec.com/support/BBS_EZSCSI.html#EZSCSI">Adaptec</A> for ASPI drivers (download ASPI32.EXE).
+<LI><A HREF="http://www.nine.com/drivers.html">Number Nine</A></BODY> has drivers for the Imagine-128 graphics card (click on "Imagine 128").
+<LI>(Windows NT only) For the latest Software Sentinel drivers, see <A HREF="http://www.rnbo.com">Rainbow</A>'s web page.
+<P>
+<hr>
+<a href="/index.html">
+<img src="/logo4.gif" ALT="Triton Logo">
+<cite>Return to Triton Technology's Home page</cite>
+</a>
+<br>
+<hr>
+<FONT SIZE="-3">Copyright &#169; 1996,Triton Technology,Inc.
+All Rights Reserved.</FONT>
+</BODY>
+</HTML>
+</DOC>

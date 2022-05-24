@@ -1,0 +1,253 @@
+
+<DOC>
+<DOCNO>WT03-B15-355</DOCNO>
+<DOCOLDNO>IA074-000483-B007-133</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icsur005.html 128.125.48.102 19970125003910 text/html 10901
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:37:44 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 10669
+Last-Modified: Mon, 13 Jan 1997 17:12:54 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Quick Beginnings</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSURMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 20 Dec 1996 at 16:44:30                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Fri, 20 Dec 1996 16:44:14">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="Header_19" HREF="icsurmst.html#ToC_19">Part 2. Planning for and installing your server</A></H1>
+<HR>
+<H1><A NAME="HDRPLN" HREF="icsurmst.html#ToC_20">Chapter 3. Planning for installation</A></H1>
+Planning for Installation
+<P>Use this chapter to prepare for installing your server.
+<P>
+<P><A HREF="icsurmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_21 HREF="#Header_21" >Check READ.ME</A>
+<LI><A NAME=PToC_22 HREF="#HDRHARDW" >Hardware requirements</A>
+<LI><A NAME=PToC_23 HREF="#HDRSOFTW" >Software requirements</A>
+<LI><A NAME=PToC_24 HREF="#HDRCOMPA" >Compatibility</A>
+<LI><A NAME=PToC_25 HREF="#HDRMIGISS" >Migration considerations</A>
+<MENU>
+<LI><A NAME=PToC_26 HREF="#Header_26" >CICS gateway</A>
+<LI><A NAME=PToC_27 HREF="#Header_27" >DB2 gateway</A>
+<LI><A NAME=PToC_28 HREF="#Header_28" >Imbeds directive</A>
+<LI><A NAME=PToC_29 HREF="#Header_29" >Proxy server and caching proxy server</A>
+<LI><A NAME=PToC_30 HREF="#Header_30" >Proxy authentication</A>
+<LI><A NAME=PToC_31 HREF="#Header_31" >Server IP Address</A>
+<LI><A NAME=PToC_32 HREF="#Header_32" >CHECKIN and CHECKOUT methods for the Enable directive</A>
+<LI><A NAME=PToC_33 HREF="#Header_33" >Accessory script directives</A>
+</MENU></MENU><HR><P>
+<P>
+<HR>
+<H2><A NAME="Header_21" HREF="#PToC_21">Check READ.ME</A></H2>
+<P>Prior to installing your server, look at the READ.ME file
+for any late changes to the planning information,
+installation procedure, or other information in this book.
+<HR>
+<H2><A NAME="HDRHARDW" HREF="#PToC_22">Hardware requirements</A></H2>
+<UL>
+<P><LI>Any personal computer, PS/2 computer, or IBM Personal System/55
+that can support OS/2 Warp V3.0 or later, or OS/2 Warp-J
+<P><LI>A mouse or compatible pointing device
+<P><LI>Any communication hardware adapter that is supported by the
+TCP/IP protocol stack
+<P><LI>A minimum of 12 MB of RAM; recommended RAM is 24 MB
+<P><LI>Up to 14 MB of free disk space:
+<UL COMPACT>
+<LI>Approximately 7 MB to install the server,
+which includes the base files and the message catalog
+<LI>Approximately 1 MB to
+install the security files, which includes
+Secure Sockets Layer (SSL) protocol
+<LI>Approximately 6 MB to
+install the Nodelock Administration Tool (NAT) which is used to
+install the secure server product license
+</UL>
+<P><LI>CD-ROM drive
+</UL>
+<HR>
+<H2><A NAME="HDRSOFTW" HREF="#PToC_23">Software requirements</A></H2>
+<UL>
+<P><LI>OS/2 Warp V3.0 or later, or OS/2 Warp Server, or OS/2 Warp-J
+<P><LI>A partition formatted using the High Performance File System (HPFS).
+Only the server needs to be on the HPFS partition, not the
+entire operating system.
+<P><LI>One of the following:
+<UL>
+<P><LI>TCP/IP V3.0, which is a part of Warp Connect and OS/2 Warp Server
+<P><LI>Internet Connection for OS/2, which is included in all versions
+of Warp including Warp Connect.
+<P>If you are using the Internet Connection, you must install either the
+"TCP/IP Base Update" package or the fix for APAR PN71501.
+To get the "TCP/IP Base Update" package,
+use the "Retrieve Software Updates" icon.
+To get the fix for APAR PN71501, use anonymous ftp to go
+to ftp.ibm.net and get pn71501.zip from the pub/pn71501 directory.
+<P><LI>TCP/IP V2.0
+<P>If you are using TCP/IP 2.0, you must upgrade
+to the latest Corrective Service Diskette (CSD) for TCP/IP 2.0.
+The latest CSD is level UN64092 dated 8/30/94.
+If you are not certain of your CSD level for TCP/IP,
+enter <B>syslevel</B> at an OS/2 command prompt.
+To get CSD UN64092, use anonymous ftp to go to
+software.watson.ibm.com and get files tcp20c1.exe, tcp20c2.exe,
+tcp20c3.exe, and tcp20c4.exe in the pub/tcpip/os2 directory.
+<P>After installing the CSD you must install the fix for APAR PN71501.
+To get the fix for APAR PN71501, use anonymous ftp to go
+to ftp.ibm.net and get pn71501.zip from the pub/pn71501 directory.
+</UL>
+<P><LI>For performance enhancements:
+<P>The following APARs can improve performance:
+<UL COMPACT>
+<LI>IC14052:  TCP/IP Warp Connect (component ID 562281300)
+<LI>IC14053:  TCP/IP Warp Server (component ID 562259100)
+</UL>
+<P><LI>For using Simple Network Management Protocol (SNMP),
+the following applies:
+<UL>
+<P><LI>For OS/2 V3 (WARP), SNMP support was shipped with the product.
+<P><LI>For OS/2 V4, install one of the following:
+<UL>
+<P><LI>The SystemView Agent Developers toolkit can be downloaded
+from the http://www.software.ibm.com/download/ URL.
+<P><LI>The TME 10 NetFinity Server can be downloaded
+from the http://www.software.ibm.com/download/ URL.
+</UL>
+</UL>
+</UL>
+<HR>
+<H2><A NAME="HDRCOMPA" HREF="#PToC_24">Compatibility</A></H2>
+<P>
+IBM&#39;s Web clients and servers use industry standard protocols
+and are compatible with other Web clients and servers
+that are compliant with these protocols.
+<HR>
+<H2><A NAME="HDRMIGISS" HREF="#PToC_25">Migration considerations</A></H2>
+<P>
+This section describes issues that you should consider when
+migrating from a previous release.
+<P>
+<H3><A NAME="Header_26" HREF="#PToC_26">CICS gateway</A></H3>
+<P>
+Version 4 Release 2
+does not include the CICS gateway function.
+For existing
+CICS gateways, you must manually migrate the CICS pass rules.
+To obtain current information about
+the CICS gateway, use your Web browser to go to the following URL:
+<B>http://www.hursley.ibm.com/cics/saints/index.html</B>.
+<P>
+<H3><A NAME="Header_27" HREF="#PToC_27">DB2 gateway</A></H3>
+<P>
+Version 4 Release 2
+does not include the DB2 gateway function.
+For existing DB2 gateways, you must manually update the
+<TT>db2.www.ini</TT> file.
+To obtain current information about
+the DB2 gateway, use your Web browser to go to the following URL:
+<B>http://www.software.ibm.com/data/db2/db2wgafs.html</B>.
+<P>
+<H3><A NAME="Header_28" HREF="#PToC_28">Imbeds directive</A></H3>
+<P>
+In Version 4 Release 2,
+the imbeds directive is required for server-side includes.
+In previous releases,
+you could specify that documents with
+a specific extension or suffix be processed for server-side includes.
+If you specified an extension or suffix of .html or .htm,
+you do not need to make any changes to your configuration file.
+If you specified any other extension or suffix, you need to check
+the AddType directives and make sure you have an AddType defined
+for that suffix that has a content type of text/x-ssi-html.
+See the <CITE>Webmaster's Guide</CITE> for information about
+this directive.
+<P>
+<H3><A NAME="Header_29" HREF="#PToC_29">Proxy server and caching proxy server</A></H3>
+<P>
+The Configuration and Administration forms for defining proxy and
+caching proxy settings have been rearranged and changed slightly.
+Two forms have been deleted and the information from them has
+been added to the other proxy forms.
+<P>
+These forms have been deleted:
+<UL COMPACT>
+<LI>Time Limit for Cached Files
+<LI>Cache File Expiration
+</UL>
+<P>
+In addition, the CacheTimeMargin directive has been deleted.
+See the <CITE>Webmaster's Guide</CITE> for information about configuring
+your server as a proxy server or caching proxy server.
+<P>
+<H3><A NAME="Header_30" HREF="#PToC_30">Proxy authentication</A></H3>
+In Version 4 Release 1, the server did not distinguish
+between a user ID and password used for authentication at the
+proxy server and those used for authentication at the end-point server.
+In Version 4 Release 2, request authentication is supported.
+See the <CITE>Webmaster's Guide</CITE> for information
+about proxy authentication.
+<P>
+<H3><A NAME="Header_31" HREF="#PToC_31">Server IP Address</A></H3>
+<P>
+Beginning with Version 4.2, a wildcard character can no longer
+be specified for a server's IP address.
+This applies to the following directives:
+<UL>
+<P><LI>imbeds
+<P><LI>Welcome
+<P><LI>DefProt
+<P><LI>Protect
+<P><LI>Exec
+<P><LI>Fail
+<P><LI>Map
+<P><LI>Pass
+<P><LI>Redirect
+<P><LI>Enable
+<P><LI>NameTrans
+<P><LI>Service
+</UL>
+<P>
+<P>
+<H3><A NAME="Header_32" HREF="#PToC_32">CHECKIN and CHECKOUT methods for the Enable directive</A></H3>
+<P>
+Beginning with Version 4.2, the
+CHECKIN and CHECKOUT methods are no longer supported.
+You can use the PUT method for CHECKIN and the GET method for
+CHECKOUT; however, the
+Internet Connection Secure Server does not perform locking or versioning.
+<P>
+<H3><A NAME="Header_33" HREF="#PToC_33">Accessory script directives</A></H3>
+<P>The accessory script directives, DELETE-Script, POST-Script,
+PUT-Script, and Search, are no longer supported.  You need to
+port your scripts to ICAPI applications.  See the <CITE>Web
+Programming Guide</CITE> for more information.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icsur004.html">Previous Page</A> &#124; <A HREF="icsur006.html">Next Page</A> &#124; <A HREF="icsurmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

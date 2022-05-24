@@ -1,0 +1,194 @@
+
+<DOC>
+<DOCNO>WT03-B16-154</DOCNO>
+<DOCOLDNO>IA006-000056-B001-31</DOCOLDNO>
+<DOCHDR>
+http://viam.com:80/storyform.html 207.82.65.35 19970221173928 text/html 8612
+HTTP/1.0 200 OK
+Date: Fri, 21 Feb 1997 17:37:03 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+Content-length: 8441
+Last-modified: Mon, 20 Jan 1997 21:26:47 GMT
+</DOCHDR>
+<!-- created by Robert Chiappetta for Viam Communications Group Ltd., July 1996 -- >
+<!-- last updated 12 December -- >
+
+
+<html>
+
+
+<head>
+<title>VBJ Story Form</title>
+</head>
+
+
+<body bgcolor="#FFFFFF">
+
+
+<center><img src="graphics/banner.gif" alt="The Vietnam Business Journal"></center><br>
+
+
+<body>
+
+<center> <table>
+<tr><td valign="middle"><img src="graphics/check.gif"></td><td align="right"> <b><font size=+4>Yes</font></b>, I want to order <b>VBJ S<small>TORIES</small></b><br>for US$5.00 a story.</td></table>
+<br><br>
+</center>
+
+
+<form method="post" action="http://viam.com/cgi-bin/viam.com/stories.cgi">
+
+<pre>
+			<input type="radio" name="title1" value="mr" checked> Mr.  <input type="radio" name="title1" value="mrs"> Mrs.  <input type="radio" name="title1" value="ms"> Ms.  <input type="radio" name="title1" value="dr"> Dr.
+Name 			<input name="name" size="60">
+Title			<input name="title2" size="60">
+Company			<input name="company" size="60"><br>
+Type of Position 	<select name="position">
+<option value="Senior_Manager">senior management
+<option value="Middle_Manager">middle management
+<option value="Junior_Mananger">junior management
+<option value="Government">government
+<option value="Education">education
+<option value="Professional">professional
+<option value="other">other
+<option value="no_choice_made" selected>select a position
+</select>
+Type of Business 	<select name="business_type">
+<option>manufacturing/wholesale/retail/fashion
+<option>import/export/trading
+<option>shipping/transportation/distribution
+<option>banking/financial/investment
+<option>insurance/real estate
+<option>agriculture/forestry/fishing/plantation
+<option>oil/chemicals/petrochemicals/mining
+<option>building/construction/engineering
+<option>power/energy/water/public utilities
+<option>travel/tourism/hotels/food services
+<option>other business services
+<option>education
+<option>government/military
+<option>media/entertainment/communications
+<option>other personal services
+<option>technology &amp; telecommunications
+<option>other
+<option value="no_choice_made" selected>select a type of business
+</select>
+
+
+Address			<input name="address_line1" size="60">
+			<input name="address_line2" size="60">
+City			<input name="city" size="60">
+Province/State		<input name="state" size="60">
+Country			<input name="country" size="23">    Postal Code <input name="zipcode" size="19">
+
+
+Telephone		<input name="telephone" size="60">
+Fax			<input name="fax" size="60">
+E-mail Address		<input name="email" size="60">
+
+
+<b>Select Stories (at US$5.00 per story)</b>
+<font size=-1>On some browsers, it may be necessary to hold down the
+<small>CONTROL</small>, <small>SHIFT</small> and/or <small>COMMAND</small> keys to select multiple items.</font>
+
+		<select name="story" multiple size="10">
+
+<option value="vol4no6a">Table of Contents November/December 1996
+<option value="vol4no6b">Street Talk!" by Mr. Nguyen November/December 1996
+<option value="vol4no6c">For Your Information November/December 1996
+<option value="vol4no6d">Cover Story: Vietnam's Most Promising Companies by J. Levine
+<option value="vol4no6e">Garment Makers Have MFN in Sight by C. Moore
+<option value="vol4no6f">Free Power for Sale by J. Levine
+<option value="vol4no6g">The Market for Dairy Products by M. Berman
+<option value="vol4no6h">Construction and Property Special Report
+<option value="vol4no6i">New Construction Decrees by M. Lockwood
+<option value="vol4no6j">Vietnamese Demographics by J. Tombes
+<option value="vol4no6h">The Booming Art Business by Q.C. Nguyen
+<option value="vol4no5a">Table of Contents September/October 1996
+<option value="vol4no5b">Street Talk!" by Mr. Nguyen September/October 1996
+<option value="vol4no5c">For Your Information September/October 1996
+<option value="vol4no5d">Cover Story: Telecom Special Report by J. Levine
+<option value="vol4no5e">P&G and Unilver Face Off by C. Moore
+<option value="vol4no5f">Law on Foreign Investment by F. Burke
+<option value="vol4no5g">Book Reviews: Dragon Ascending and Asia Rising by J. Tombes
+<option value="vol4no5h">Beer-Makers Compete by M. Berman
+<option value="vol4no5i">Investors Await 10th Assembly by A. Stopak
+<option value="vol4no5j">Pharmaceutical Industry Update by A. Everitt
+<option value="vol4no5k">Travel: Drifting on the Mekong by N.Q. Duc
+<option value="vol4no4a">Table of Contents July/August 1996
+<option value="vol4no4b">"Street Talk!" by Mr. Nguyen July/August 1996
+<option value="vol4no4c">For Your Information July/August 1996
+<option value="vol4no4d">Oil & Gas Industry by C. Moore
+<option value="vol4no4e">Commercial Debt Deal by J. Levine
+<option value="vol4no4f">Making Bikes in HCMC by A. Everitt
+<option value="vol4no4g">Which Economic Model: South Korea or Taiwan by J. Tombes
+<option value="vol4no4h">Industrial Zones by F. Burke
+<option value="vol4no4i">Government Support Agencies by I. Wu
+<option value="vol4no4j">Future Securities Regulation by J. Finch
+<option value="vol4no4k">Travel: Touring Vietnam by Bike by D. Radack
+<option value="vol4no3a">Insurance in Vietnam by J. Levine 
+<option value="vol4no3b">Eighth Party Congress by J. Levine
+<option value="vol4no3c">Mining Law by M. Lockwood and T.H. Nguyen
+<option value="vol4no3d">Australia Rethinks Asia by A. Everitt
+<option value="vol4no3e">What the Gov't is Doing Right by C. Moore
+<option value="vol4no3f">Commodities: Rice by C. Moore
+<option value="vol4no3g">Book Review: From Plan to Market by L. Packard
+<option value="vol4no3h">Greater Mekong Subregion by C. Goscha
+<option value="vol4no3i">Myanmar: A Place to Invest by A. Mitchell
+<option value="vol4no3j">Travel: Continental Hotel by M.P. Yablonka
+<option value="vol4no2a">The Changing Expat Scene by A. Everitt
+<option value="vol4no2b">Finding Your Computer by C. Moore
+<option value="vol4no2c">Foreign Banks Emerge by J. Levine
+<option value="vol4no2d">Financing a Cement Plant by C. Moore
+<option value="vol4no2e">Draft Law on Mortgages by C. Thao
+<option value="vol4no2f">Building Materials Manufacturing by C. Moore
+<option value="vol4no2g">Foreign Lease Law by M. Polkinghorne
+<option value="vol4no1a">Aircraft Focus by C. Moore
+<option value="vol4no1b">Trade Prospects by D.O. Dapice
+<option value="vol4no1c">US-Southeast Asia Relationship by F.Z. Brown
+<option value="vol4no1d">Hotel Project Guidelines by M. Polkinghorne and I. Prodhomme
+<option value="vol4no1e">Civil Code by F. Burke
+<option value="vol4no1f">Product Marketing and Distribution by M. Bradley
+<option value="vol4no1g">Commodities: Coffee by A. Stopak
+</select>
+
+
+			<input type="radio" name="payment_type" value="visa" checked> VISA   <input type="radio" name="payment_type" value="master"> MasterCard   <input type="radio" name="payment_type" value="amex"> AMEX
+Card Number		<input name="card_number" size="60">
+Expiration Date		<input name="expiration_date" size="60">
+
+Mode of Delivery	<input type="radio" name="delivery_type" value="mail" checked> via mail  <input type="radio" name="delivery_type" value="fax"> via facsimile  <input type="radio" name="delivery_type" value="email"> via e-mail
+
+
+				<input type="submit" value="Submit Order">   <input type="reset" value="Reset Order Form">
+</pre>
+</form>
+
+
+<center><br><br>
+<i>If you prefer, you may fax or mail your request to:</i><br><b>
+VIAM Communications Group Ltd.</b><br>c/o Archives Department<br>114 East 32nd Street, Suite 1010<br>New York, NY 10016 USA<br>fax (1-212) 725-8160<br><br>Please send inquires regarding back issues by e-mail to <a href="maito:archives@viam.com">archives@viam.com</a>.<br><br><b>Thank you for your interest in <b>T<small>HE</small> V<small>IETNAM</small> B<small>USINESS</small> J<small>OURNAL</small></b>!</b></center>
+
+
+<center>
+<br><br><nobr>
+<a href="about.html"><img src="graphics/buttons/viam_but.gif" border=0 align=middle alt="about VIAM"></a>
+<a href="subform.html"><img src="graphics/buttons/order_but.gif" border=0 align=middle alt="Subscribe"></a>
+<a href="index.html"><img src="graphics/vbj_but.gif" border=0 align=middle alt="VBJ Home"></a>
+<a href="mailto:vbj@viam.com"><img src="graphics/buttons/email_but.gif" border=0 align=middle alt="Send E-mail"></a>
+<a href="masthead.html"><img src="graphics/buttons/staff_but.gif" border=0 align=middle alt="The VBJ Staff"></a>
+</nobr></center>
+
+
+<hr width=260 noshade>
+<font size=-2>
+<center>
+last updated 12 January 1997<br>
+<a href="copyright.html">&copy; 1997 VIAM Communications Group Ltd.</a>
+</font>
+
+
+</body>
+</html>
+</DOC>

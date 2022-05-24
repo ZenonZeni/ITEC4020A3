@@ -1,0 +1,45 @@
+
+<DOC>
+<DOCNO>WT03-B24-25</DOCNO>
+<DOCOLDNO>IA053-000892-B033-309</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/JIIS/X0009.html 129.174.40.15 19970123190627 text/html 1447
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:05:18 GMT
+Server: NCSA/1.5.2
+Last-modified: Mon, 11 Mar 1996 02:04:05 GMT
+Content-type: text/html
+Content-length: 1264
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>Kluwer Academic Publishers Style Documents</TITLE>
+</HEAD>
+<BODY BGCOLOR="#e3c094" TEXT="#09336f" LINK="#0000ff" VLINK="#9c1894" ALINK=
+"#00ff00">
+<H1><CENTER>Guidelines for Authors and JIIS Styles</CENTER>
+</H1>
+<BR>
+A number of documents are available here for prospective authors or for
+ftp: 
+<UL>
+  <LI><A HREF="Guidelines.html">Author Guidelines</A> for JIIS special issue
+submissions. 
+  <LI><A HREF="smjrnl.sty">Main style file: smjrnl.sty</A> for LaTeX (47K
+bytes). 
+  <LI><A HREF="smjfonts.sty">Optional postscript font file smjfonts.sty</A>
+(19K). If you use this file, please change the names of the .tfm fonts files
+at the beginning of the file to match those on your system. The default
+fonts are computer modern. 
+  <LI><A HREF="smjrnl.doc">Documentation: smjrnl.doc</A> (82K). 
+  <LI><A HREF="smjsamp.tex">Sample file: smjsamp.tex</A> (16K), complements
+the documentation. 
+  <LI><A HREF="smjtmpl.tex">Template file: smjtmpl.tex</A> makes it easier
+to enter the correct commands in the correct order (5K). 
+  <LI><A HREF="ftp://www.isse.gmu.edu//pub/incoming/JIIS/Kluwer.tar.gz">Kluwer.tar.gz</A>:
+all the above and other journal instructions as a binary compressed tar
+file, available via FTP (43K). 
+</UL>
+</BODY>
+</HTML>
+</DOC>

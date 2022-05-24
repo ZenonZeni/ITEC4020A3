@@ -1,0 +1,110 @@
+
+<DOC>
+<DOCNO>WT03-B18-118</DOCNO>
+<DOCOLDNO>IA018-000200-B032-55</DOCOLDNO>
+<DOCHDR>
+http://www.rwt.com:80/wsinfo/userinfo/userinfo.htm 199.227.153.245 19970106223044 text/html 4145
+HTTP/1.0 200 OK
+Date: Mon, 06 Jan 1997 22:36:21 GMT
+Server: Stronghold/1.3.2 Ben-SSL/1.3 Apache/1.1.1
+Content-type: text/html
+Content-length: 3945
+Last-modified: Fri, 20 Dec 1996 20:15:51 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//SQ//DTD HTML 2.0 HoTMetaL + extensions//EN">
+<HTML><HEAD><TITLE>RWT: Workspace Info: User Info</TITLE></HEAD>
+<BODY BACKGROUND="smemlogo.jpg" BGCOLOR="BABCBA"><H1>Workspace Questionnaire</H1>
+<P><B>Before downloading the sample programs and files, please answer the
+following questions:<BR>NOTE: You must fill in all the questions to proceed.</B></P>
+<FORM METHOD="post" ACTION="/cgi-bin/logusers.cgi">
+<P>
+</P>
+
+<table border=0>
+<tr>
+	<td> <b>First Name:</B> </td>
+	<td><INPUT NAME="First"></td>
+	<td> <B>Last Name:</B></td>
+	<td><INPUT NAME="Last"></td>
+</tr>
+<tr>
+	<td><B>Company:</B></td>
+	<td colspan=3>  <INPUT NAME="Company" SIZE="50"></td>
+	
+</tr>
+<tr>
+	<td> <B>Address1:  </B></td>
+	<td colspan=3> <INPUT NAME="Address1" SIZE="50"></td>
+	
+</tr>
+<tr>
+	<td> <B>Address2:  </B> </td>
+	<td colspan=3><INPUT NAME="Address2" SIZE="50"> </td>
+</tr>
+<tr>
+	<td><B>City:</B> </td>
+	<td><INPUT NAME="City"></td>
+	<td><B>  State: </B></td>
+	<td><INPUT NAME="State"></td>
+</tr>
+<tr>
+	<td> <B>Zip:</B> </td>
+	<td> <INPUT NAME="Zip" SIZE="11"></td>
+	<td><B>Country: </B></td>
+	<td><INPUT NAME="Country"></td>
+</tr>
+<tr>
+	<td><B>Phone:</B></td>
+	<td><INPUT NAME="Phone"></td>
+	<td><B>  Fax: </B></td>
+	<td><INPUT NAME="Fax"></td>
+</tr>
+<tr>
+	<td> <B>E-mail:</B></td>
+	<td> <INPUT NAME="e-mail"></td>
+</tr>
+</table>
+<P><B>Please classify the type of user you are:<BR><INPUT
+TYPE="RADIO" NAME="User" VALUE="Industrial"> Industrial<BR><INPUT
+TYPE="RADIO" NAME="User" VALUE="Educational"> Educational</B></P>
+<P><B>What kind of computer are you currently using?<BR><INPUT
+TYPE="RADIO" NAME="Computer" VALUE="286"> 286<BR><INPUT
+TYPE="RADIO" NAME="Computer" VALUE="386"> 386<BR><INPUT
+TYPE="RADIO" NAME="Computer" VALUE="486"> 486<BR><INPUT
+TYPE="RADIO" NAME="Computer" VALUE="Pentium"> Pentium<BR><INPUT
+TYPE="RADIO" NAME="Computer" VALUE="Pentium Pro"> Pentium Pro<BR><INPUT
+TYPE="RADIO" NAME="Computer" VALUE="Other"> Other</B></P>
+<P><B>Are you a user or supplier of robots?<BR><INPUT
+TYPE="RADIO" NAME="User/Supplier" VALUE="User"> User<BR><INPUT
+TYPE="RADIO" NAME="User/Supplier" VALUE="Supplier"> Supplier</B></P>
+<P><B>Which CAD packages, if any, are you familiar with?</B><BR><TEXTAREA
+NAME="CAD" ROWS="1" COLS="100"></TEXTAREA></P>
+<P><B>What make and model robot(s) do you use or have you used?<BR><TEXTAREA
+NAME="Robots" ROWS="1" COLS="100"></TEXTAREA></B></P>
+<P><B>Do you have plans to incorporate robot simulation into your daily
+operations?<BR> If  yes, please explain.<BR><TEXTAREA
+NAME="Operations" ROWS="1" COLS="100"></TEXTAREA></B></P>
+<P><B>Will you use a simulation system for off-line programming?<BR><INPUT
+TYPE="RADIO" NAME="OLP" VALUE="Yes"> Yes<BR><INPUT
+TYPE="RADIO" NAME="OLP" VALUE="No"> No</B></P>
+<P><B>Is off-line programming a high priority?<BR><INPUT
+TYPE="RADIO" NAME="Priority" VALUE="Yes"> Yes<BR><INPUT
+TYPE="RADIO" NAME="Priority" VALUE="No"> No</B></P>
+<P><B>How soon do you plan to use a simulation system in your operations?<BR><INPUT
+TYPE="RADIO" NAME="How Soon" VALUE="Immediately"> Immediately<BR><INPUT
+TYPE="RADIO" NAME="How Soon" VALUE="3 months"> 3 Months from now<BR><INPUT
+TYPE="RADIO" NAME="How Soon" VALUE="6 months"> 6 Months from now<BR><INPUT
+TYPE="RADIO" NAME="How Soon" VALUE="1 year"> 1 Year from now<BR><INPUT
+TYPE="RADIO" NAME="How Soon" VALUE="over 1 year"> More than 1 Year from now</B></P>
+<P><INPUT TYPE="SUBMIT" NAME="Submit" VALUE="Submit Form">
+<INPUT TYPE="RESET" NAME="Reset" VALUE="Reset Form"></P></FORM>
+
+<P><A HREF="http://www.rwt.com" target="_parent"><IMG
+ALIGN="MIDDLE" SRC="home.gif" ALT="Home" HSPACE="10" BORDER="0"></A>Back to
+<A HREF="http://www.rwt.com" target="_parent">RWT Home Page</A></P> 
+<H6><a href="../copyright.html" target="Main">Copyright &#169; 1996 Robotic
+Workspace Technologies, Inc. All rights reserved.</a><BR>
+For more information, contact RWT at <A HREF="mailto:info@rwt.com"><EM>info@rwt.com</EM></A><BR></H6>
+
+</BODY></HTML>
+</DOC>

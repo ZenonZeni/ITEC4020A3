@@ -1,0 +1,339 @@
+
+<DOC>
+<DOCNO>WT03-B15-292</DOCNO>
+<DOCOLDNO>IA049-000852-B018-9</DOCOLDNO>
+<DOCHDR>
+http://www.camecon.demon.co.uk:80/e3me.htm 194.222.200.55 19970120000615 text/html 13857
+HTTP/1.0 200 OK
+Server: thttpd/1.00.dis++
+Content-type: text/html
+Content-length: 13725
+Last-modified: Fri, 15-Nov-96 09:51:46 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//SQ//DTD HTML 2.0 HoTMetaL + extensions//EN">
+<HTML>
+<HEAD>
+<TITLE>E3ME Newsletter</TITLE></HEAD>
+<BODY>
+<HR>
+<CENTER>
+<P><IMG SRC="http://www.camecon.demon.co.uk/gifs/e3me.gif" ALIGN="MIDDLE"></P></CENTER>
+<HR>
+<P></P>
+<H4>This Issue:</H4>
+<UL>
+<LI>Start-up Meeting for Completion/Extension Project</LI>
+<LI>Results From Model Simulations</LI>
+<LI>Other E3ME Modelling Activities</LI></UL>
+<HR>
+<CENTER>
+<H2>Start-up Meeting for Completion/Extension Project</H2></CENTER>
+<P>Following the A1 grading given to the proposal to complete and extend the
+E3ME model by the Commission's independent evaluation committee, a start-up
+meeting was held on 27-28th February 1996 in Brussels to discuss the various
+areas of work.  The project is divided into seven identifiable workpackages
+which are briefly described below:</P>
+<H4>Workpackage 1: Completion of the `core' model</H4>
+<P>This workpackage is sub-divided into three groups</P>
+<UL>
+<LI>Collection of data</LI>
+<LI>Validation of equation parameters</LI>
+<LI>Validation of base-line scenario</LI></UL>
+<P>It is envisaged that this workpackage will be completed by the end of
+September 1996.</P>
+<H4>Workpackage 2: Extension to the new EU Member States, Norway and
+Switzerland</H4>
+<P>The enlargement of the EU at the start of 1995 justifies the inclusion of
+the new Member States in E3ME.  This work will follow the three tasks identified
+in workpackage 1.</P>
+<H4>Workpackage 3: Completion of energy/environment systems</H4>
+<P>It is intended that energy and emissions in E3ME be modelled using an
+approach which is based more on energy and emission abatement technologies. 
+This work area also includes revisiting the relationships between energy,
+environment and economy.</P>
+<H4>Workpackage 4: Developments and innovations in economic modelling</H4>
+<P>Research will be undertaken on the supply-side of the model focusing on
+output.  The introduction of forward-looking variables and solutions in E3ME is
+envisaged.  Research will seek out ways of introducing limited rational
+expectations behaviour in key areas of the model.  Other areas of research will
+focus on completion of the international sector of E3ME, in particular the trade
+equations.  The investment equations are to be extended to cover investment by
+asset and new equations estimated.  The consumption equations are to be updated
+with an allocation structure for private consumption by use of a more
+disaggregated energy module.  Input-output coefficients are to be analysed with
+the aim of endogenising the currently fixed set of coefficients in E3ME.  The
+economic/institutional treatment in E3ME is to be completed with re-estimation
+of economic relationships taking place.</P>
+<H4>Workpackage 5: Base scenarios (by region)</H4>
+<P>This workpackage involves the validation of assumptions and an assessment of
+the short-term growth rates in output.  This workpackage also involves a base
+case projection with validation.</P>
+<H4>Workpackage 6: One-region solution</H4>
+<P>The Chambre de Commerce et d'Industrie de Paris are involved in the
+application of E3ME to the French economy, thus enabling the model to solve for
+one region alone.</P>
+<H4>Workpackage 7: User-friendly software</H4>
+<P>The objective is to make E3ME easier to use.  Cambridge Econometrics is
+currently investigating alternative software packages for processing of
+assumptions and presentation of results.</P>
+<P></P>
+<HR>
+<TABLE WIDTH="100%" BORDER="0" ALIGN="CENTER">
+<TR>
+<TD COLSPAN="3">
+<H4 ALIGN="CENTER">TABLE 1:  THE CURRENT VERSION OF THE E3ME MODEL</H4></TD></TR>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD WIDTH="45%"></TD>
+<TD WIDTH="50%"></TD></TR>
+<TR>
+<TD COLSPAN="3">
+<H4 ALIGN="CENTER">E3ME11 (Version resulting from the previous JOULE II
+research programme)</H4></TD></TR>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD WIDTH="45%"></TD>
+<TD WIDTH="50%"></TD></TR>
+<TR>
+<TD COLSPAN="2">
+<H4 ALIGN="CENTER">Industrial Classification</H4></TD>
+<TD>
+<H4 ALIGN="CENTER">NACE-CLIO 25 (+ expanded fuel and power sector)</H4></TD></TR>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD WIDTH="45%"></TD>
+<TD WIDTH="50%"></TD></TR>
+<TR>
+<TD COLSPAN="2">	Industries</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	32</TD></TR>
+<TR>
+<TD WIDTH="5%">		</TD>
+<TD WIDTH="45%">of which services</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	10</TD></TR>
+<TR>
+<TD COLSPAN="2"> Regional Coverage</TD>
+<TD ALIGN="CENTER">EU11 (EU12 except for Greece)</TD></TR>
+<TR>
+<TD COLSPAN="2">	Price Base</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	1985</TD></TR>
+<TR>
+<TD COLSPAN="2">	Estimation period:</TD>
+<TD></TD></TR>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD WIDTH="45%">from</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	1960-70</TD></TR>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD WIDTH="45%">to</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	1991</TD></TR>
+<TR>
+<TD COLSPAN="2">	Solution period</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	1985-2010</TD></TR>
+<TR>
+<TD COLSPAN="2">	National Accounts</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	EUROSTAT and QUEST</TD></TR>
+<TR>
+<TD COLSPAN="2">	Accounting system</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	ESA</TD></TR>
+<TR>
+<TD COLSPAN="2">	Base input-output tables</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	1985</TD></TR>
+<TR>
+<TD COLSPAN="2">	Count of matrix stochastic equations</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	18</TD></TR>
+<TR>
+<TD COLSPAN="2">	Count of estimated stochastic equations</TD>
+<TD ALIGN="CENTER" VALIGN="MIDDLE">	3511</TD></TR></TABLE>
+<HR>
+<H4>Key dates and deliverables</H4>
+<P>It is intended to update the existing version of the model with new data,
+parameters and a model solution (E3ME12) by the end of September 1996.  The
+extension of the new member states, and incorporation of developments and
+innovations in economic modelling is expected by the end of 1997, by which time
+a new model solution (E3ME21) will be made available.</P>
+<CENTER>
+<H2>Results from Model Simulations</H2></CENTER>
+<P>A recent paper by Terry Barker and Ben Gardiner entitled `The Direct Effects
+of Energy-Saving R&amp;D on International Competitiveness and Employment in the
+European Union', makes use of the E3ME model.  A 10% increase in total business
+R&amp;D across the EU was allocated across industries in proportion to their
+energy costs.  The increase in energy-saving R&amp;D expenditure was assumed to
+be financed by a reallocation of the public sector expenditure on military R&amp;D,
+so that there was no change in total R&amp;D spending.  This financing was
+assumed to determine the allocation across member states, so that France and the
+UK, with the largest military R&amp;D budgets, would also have the largest
+increases in energy-saving R&amp;D. The paper describes in detail the components
+of such a policy exercise: the effect that R&amp;D in general might be expected
+to have on different areas of the economy; the size of the different R&amp;D
+budgets and the design of the scenarios to reallocate these budgets; and results
+from the model solution showing the <I>direct</I> effect on employment and
+competitiveness (both domestic and internationally) that the R&amp;D policy will
+have.  The paper concludes that significant and permanent reductions in energy
+demand and improvements in international competitiveness are likely if R&amp;D
+budgets are switched towards energy-saving by industrial enterprises.  The
+effects on employment are mixed, but overall employment is expected to be
+higher.</P>
+<P>The results for the EU11 are summarised in Table 2.  This shows percentage
+differences from base solutions for 9 variables in E3ME for the years 2000, 2005
+and 2010.  These are the <I>direct effects</I> of the extra R&amp;D.  A full
+model solution would include further interaction effects, which could be twice
+are large as those reported.</P>
+<P></P>
+<HR>
+<TABLE WIDTH="100%" BORDER="0" ALIGN="CENTER">
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD COLSPAN="5">
+<H4 ALIGN="CENTER">TABLE 2:  DIRECT EFFECTS OF AN EXTRA ENERGY-SAVING R&amp;D
+FROM 1996 ONWARDS IN THE EU-11</H4></TD></TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD WIDTH="35%"></TD>
+<TD ALIGN="RIGHT" WIDTH="20%"><B>2000</B></TD>
+<TD ALIGN="RIGHT" WIDTH="20%"><B>2005</B></TD>
+<TD ALIGN="RIGHT" WIDTH="20%"><B>2010</B></TD></TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD COLSPAN="2"> Industrial R&amp;D</TD>
+<TD ALIGN="RIGHT">9.9</TD>
+<TD ALIGN="RIGHT">9.4</TD>
+<TD ALIGN="RIGHT">8.8</TD></TR>
+<TR>
+<TD COLSPAN="2"> Energy Demand</TD>
+<TD ALIGN="RIGHT">-0.2</TD>
+<TD ALIGN="RIGHT">-0.6</TD>
+<TD ALIGN="RIGHT">-0.9</TD></TR>
+<TR>
+<TD COLSPAN="2"> Exports</TD>
+<TD ALIGN="RIGHT">0.1</TD>
+<TD ALIGN="RIGHT">0.3</TD>
+<TD ALIGN="RIGHT">0.5</TD></TR>
+<TR>
+<TD COLSPAN="2"> Imports</TD>
+<TD ALIGN="RIGHT">-0.1</TD>
+<TD ALIGN="RIGHT">-0.1</TD>
+<TD ALIGN="RIGHT">-0.2</TD></TR>
+<TR>
+<TD COLSPAN="2"> Employment</TD>
+<TD ALIGN="RIGHT">0.1</TD>
+<TD ALIGN="RIGHT">0.1</TD>
+<TD ALIGN="RIGHT">0.2</TD></TR>
+<TR>
+<TD COLSPAN="2"> Quality Effects</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD> </TD>
+<TD>domestic prices</TD>
+<TD ALIGN="RIGHT">0.0</TD>
+<TD ALIGN="RIGHT">0.1</TD>
+<TD ALIGN="RIGHT">0.1</TD></TR>
+<TR>
+<TD> </TD>
+<TD>export prices</TD>
+<TD ALIGN="RIGHT">0.0</TD>
+<TD ALIGN="RIGHT">0.1</TD>
+<TD ALIGN="RIGHT">0.2</TD></TR>
+<TR>
+<TD> </TD>
+<TD>import prices</TD>
+<TD ALIGN="RIGHT">-0.0</TD>
+<TD ALIGN="RIGHT">-0.1</TD>
+<TD ALIGN="RIGHT">-0.1</TD></TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR></TABLE>
+<HR>
+<CENTER>
+<H2>Other E3ME Modelling Activities</H2></CENTER>
+<H4>Telecommunications Project</H4>
+<P>Title:   <B>Impact on employment of liberalisation/privatisation in the
+Telecommunications sector.</B></P>
+<P>Project number:   <B>V/CO24/94</B></P>
+<P>The data and equations of E3ME are used in the project is to run a variety
+of simulations to the year 2005.  The simulations look at various aspects of the
+telecoms liberalisation process and their effects on industry prices,
+competitiveness, and ultimately employment creation/destruction.</P>
+<H4>The Internal Market and Employment Project</H4>
+<P>Title:   <B>The effect of the intra-EU trade on manufacturing employment
+and labour costs due to the Internal Market programme.</B></P>
+<P>Project number:   <B>XV/95/42/A
+</B></P>
+<P>This project uses the E3ME model to analyse the effects of the Internal
+Market programme (IMP) on the EU labour market.  Two interim reports and a final
+report has been submitted thus far.  For the final report the baseline and
+antimonde simulations were developed with research focusing on possible changes
+to the modelling structure in the light of a literature review on
+trade-employment linkages.  The changes mainly involve the labour-market
+equations but other areas, eg trade-investment causality, were also
+investigated.</P>
+<H4>Fiscal Instruments Project</H4>
+<P>Title:   <B>Potential impact on employment creation of fiscal instruments
+(namely of a reduced VAT rate for selected sectors).</B></P>
+<P>Project number:   <B>XXI/96/CB-3001</B></P>
+<P>Cambridge Econometrics was awarded a contract to analyse the potential
+effects of the fiscal instrumentation on employment creation.  A final report
+has been submitted.  The study uses the E3ME model to establish a counterfactual
+scenario, ie if the changes in taxation had not occurred, and compare this with
+baseline model simulation results for employment in the UK, Italy, Belgium,
+Spain and Germany.</P>
+<H4>ERECO Projections</H4>
+<P>Title:   <B>Europe in 2001, Economic Analyses and Forecasts</B></P>
+<P>The E3ME model was used to provide an initial sectoral forecast to 2001. 
+The baseline was guided by a macroeconomic growth pattern for the components of
+GDP to ensure a consistency between the meso and macro levels.</P>
+<H4>Environmental Fiscal Reform</H4>
+<P>This project is concerned with the equity aspects of substantial
+environmental fiscal reform.  Five aspects are to be considered: first, the
+income distribution of household expenditure on environmentally-sensitive goods
+and services, such as electricity consumption, spending on petrol; second, the
+effect of any extra employment and reductions in unemployment on the incomes of
+the low-paid and of low-income households; third, the income distribution of
+those who suffer damage from environmental costs; fourth, the effects of reform
+on vulnerable demographic groups, such as the retired population; and fifth the
+effects on rural versus urban households.  E3ME is to be used as a framework for
+the statistics being collected and used by the project.</P>
+<P>The project is being co-ordinated by the Department of Applied Economics,
+University of Cambridge (Sidgwick Avenue, Cambridge CB3 9DE, UK, tel +44 1223
+335289, fax +44 1223 335299).  The set-up meeting of the project took place in
+late January.</P>
+<P></P>
+<HR>
+<P>For further information please contact:</P>
+<P></P>
+<P>Ben Gardiner, Cambridge Econometrics</P>
+<P>Covent Garden, Cambridge, CB1 2HS, United Kingdom</P>
+<P></P>
+<P>Tel:  (+44) 01223 460760</P>
+<P>Fax:  (+44) 01223 464378</P>
+<P><IMG SRC="http://www.camecon.demon.co.uk/gifs/keyboard.gif" ALIGN="MIDDLE">
+
+<A HREF="mailto:bg.cam%23u%23econ@notes.compuserve.com">E-Mail Via Internet</A>
+
+<A HREF="mailto:notes:bg@cam_econ">E-Mail Via Compuserve</A></P>
+<HR>
+<P></P>
+<CENTER>
+<P><A HREF="http://www.camecon.demon.co.uk/index.htm">Return To CE Homepage</A></P></CENTER></BODY></HTML>
+</DOC>

@@ -1,0 +1,181 @@
+
+<DOC>
+<DOCNO>WT02-B10-301</DOCNO>
+<DOCOLDNO>IA038-000734-B028-247</DOCOLDNO>
+<DOCHDR>
+http://zippo.com:80/faqnews.htm 205.185.79.4 19970210062818 text/html 12519
+HTTP/1.0 200 Document follows
+Date: Mon, 10 Feb 1997 06:30:19 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Sat, 07 Dec 1996 02:15:15 GMT
+Content-length: 12344
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "+//ISBN 82-7640-037::WWW//DTD HTML//EN//2.0" "HTML.DTD"
+<HTML>
+<HEAD>
+<TITLE>Super Zippo</TITLE>
+</HEAD>
+<center> 
+<body background="paper.gif">
+<IMG SRC="tdn.gif">
+</center><p>
+<center><table cellpadding=5 width=640>
+<TR>
+<td>
+<center><h3>Frequently Asked Questions</h3></center><P>
+
+<a name=a8>
+<img src="nwzrdra.gif"> <strong>How do I setup <strong>Agent</strong> as my newsreader to access Zippo's news server?</strong><p>
+
+When initially starting Agent a <strong>Setup</strong> dialogue box will appear. The following fields need to be specified and are described below:<p>
+
+<ul>
+<li><strong>News (NNTP) Server:</strong><br>
+<strong><tt>snews.zippo.com</tt></strong> (for the Super Zippo West news server)<br>
+<tt><strong>snews2.zippo.com</tt></strong> (for the Super Zippo East news server)<br>
+<tt><strong>news.zippo.com</tt></strong> (for the Original Zippo Membership)<p>
+
+
+<li><strong>Mail (SMTP) Server:</strong> The SMTP server offered by your ISP, or the SMTP server included with a Super Zippo subscription.</li><p>
+
+<li><strong>Email Address:</strong> The Email address provided by your ISP, or the mailbox included with a Super Zippo subscription.</li></ul><p>
+
+
+<strong>Go Online now?</strong>: When this dialogue box appears, select <strong>NO</strong>. At this point you still need to specify your username and password settings, to pass the authentication process, before downloading the newsgroup list.<p>
+
+Now go to the <b>Options</b> menu bar and select the <b>Preferences</b> option. Then select the <b>Profile</b> folder to enter the following information:
+<ul>
+<strong><li></strong>Check the <b>Server requires authorization login</b> options box to enable the <strong>User Name</strong> field. Once enabled, enter in your username.</li>
+<strong><li></strong>Check the <b>Remember Password between sessions</b> options box to enable the <strong>Password</strong> field. Once enabled, enter in your password.</li></ul>
+
+The authentication process is case-sensitive, so be sure to use upper-case and lower-case characters when appropriate. Now that your username and password are setup, you can select <b>Refresh Group List</b> from the <b>Online</b> pull-down menu. The newsgroup list will then begin to download.<p>
+
+<hr>
+<p><a name=a9>
+<img src="nwzrdrb.gif"> <strong>How do I setup <strong>WinVN</strong> as my newsreader to access Zippo's news server?</strong><p>
+
+When initially starting WinVN, create the winvn.ini and newsrc file by selecting OK for each. These are temporary files which eventually get used by the application once you specify your settings and a newsgroup list is downloaded.<p>
+
+Within the initial <strong>Communications Options</strong> dialogue box, specify the following:<p>
+
+<ul>
+<li><strong>NNTP Server:</strong><br>
+<strong><tt>snews.zippo.com</tt></strong> (for the Super Zippo West news server)<br>
+<strong><tt>snews2.zippo.com</tt></strong> (for the Super Zippo East news server)<br>
+<strong><tt>news.zippo.com</tt></strong> (for the Original Zippo Membership)<p>
+
+<li><strong>Username:</strong> Enter your username for access to the services.</li><p>
+
+<li><strong>Password:</strong> Enter your password. Your Username and Password settings will be used for the authentication process. Be sure to use upper-case and lower-case characters when appropriate, because the process is case sensitive.</li><p>
+
+<li><strong>SMTP Server:</strong> You can use the SMTP server offered by your ISP, or the SMTP server included with a Super Zippo subscription.</li></ul><p>
+ 
+Once these fields are entered, you can then select <strong>OK</strong>. The <strong>Personal Information</strong> dialogue box will then appear so that you can setup your email information.<br>
+<ul><li><strong>Your name:</strong> your name</li><p>
+<li><strong>Your email address:</strong> The mailbox provided by your ISP, or the mailbox included with a Super Zippo subscription.</li><p>
+<li><strong>Reply-to email address:</strong> Usually the same as your email address. You would use the email address offered through your ISP, or the mailbox included with a Super Zippo subscription.</li></ul><p>
+
+<strong>Request the latest group list from server?</strong> Select <strong>YES</strong> to initiate the download of the newsgroup list. The list should begin to download.<p>
+
+<hr>
+<p><a name=a10>
+<img src="nwzrdrc.gif"> <strong>How do I setup <strong>NewsXpress</strong> as my newsreader to access Zippo's news server?</strong><p>
+For Super Zippo, you would need NewsXpress V2.0 because it supports more than 16,000 newsgroups. Version 1.0 will only handle up to 16,000 so the entire Super Zippo newsgroup list will not download properly through this version. NewsXpress is currently only available in the 32-bit format so an alternative newsreader may be necessary if accessing through Windows 3x.<p>
+
+At the initial <strong>Options</strong> dialogue box, you would enter the following information:<p>
+
+<strong>Servers and Directory</strong> folder -<br>
+<ul><li><strong>News (NNTP) server:</strong><br> 
+<strong><tt>snews.zippo.com</tt></strong> (for the Super Zippo West news server)<br>
+<strong><tt>snews2.zippo.com</tt></strong> (for the Super Zippo East news server)<br>
+<strong><tt>news.zippo.com</tt></strong> (for the Original Zippo Membership)<p>
+
+<li><strong>Username:</strong> Enter your username to access the services.</li><p>
+
+<li><strong>Password:</strong> Enter your password. Your Username and Password settings will be used to pass the authentication process. Be sure to use upper-case and lower-case characters when appropriate because the process is case sensitive.</li><p>
+
+<li><strong>SMTP Server:</strong> You can use the SMTP server offered by your ISP, or the SMTP server included with a Super Zippo subscription.</li></ul><p>
+ 
+<strong>Personal Information</strong> folder -<br>
+<ul><li><strong>Full Name:</strong> your name</li></br> 
+<li><strong>E-Mail address:</strong> You would use the email address offered by your ISP, or the mailbox included with a Super Zippo subscription.</li></ul><p>
+
+After these settings are specified, you would begin to download the newsgroup list by selecting <strong>Connect</strong> from the <strong>File</strong> pull-down menu. The newsgroup list should begin to download at this point.<p>
+
+<hr>
+<p><a name=a11>
+<img src="nwzrdre.gif"> <strong>How do I setup <strong>NewsWatcher</strong> as my newsreader to access Zippo's news server?</strong><p>
+The newest version of NewsWatcher 2.1.2 supports the authentication process, so you would need to get this version. The various preference settings will be described below for setting up NewsWatcher.<p>
+
+At the <strong>Preferences</strong> dialogue box, you would need the following information. The <strong>Preference</strong> options can be found within the <strong>File</strong> menu. The necessary <strong>Topics</strong> are described below:<p>
+<strong>Server Addresses -</strong>
+<ul>
+<li><strong>News Server:</strong><br>
+<strong><tt>snews.zippo.com</tt></strong> (for the Super Zippo West news server)<br>
+<strong><tt>snews2.zippo.com</tt></strong> (for the Super Zippo East news server)<br>
+<strong><tt>news.zippo.com</tt></strong> (for the Original Zippo Membership)<p>
+
+<li><strong>Mail Server:</strong>  The SMTP server offered through your ISP, or the SMTP server included with a Super Zippo subscription.</li></ul><p>
+
+<strong>Personal Information -</strong>
+<ul>
+<li><strong>Full Name:</strong> your name</li>
+<li><strong>Organization:</strong> <tt>(optional)</tt></li>
+<li><strong>Email address:</strong> You would use the email address offered through your ISP, or the mailbox included with a Super Zippo subscription.</li></ul><p>
+
+<strong>Authentication -</strong>
+<ul>
+<li><strong>Username:</strong> Enter your username to access the services.</li>
+<li><strong>Password:</strong> Enter your password. Your Username and Password settings will be used to pass the authentication process. Be sure to use upper-case and lower-case characters when appropriate because the process is case sensitive.</li>
+<li><strong>Always authenticate option:</strong> select <strong><tt>(yes)</tt></strong>. Zippo's news servers require authentication for reading and posting.</li>
+<li><strong>Authenticate only when requested option:</strong> do not select this option. This option is for servers that require authentication on posting only.</li></ul><p>
+
+<hr>
+<p><a name=a12>
+<img src="nwzrdrf.gif"> <strong>How do I setup Internet News as my newsreader to access Zippo's news server?</strong><p>
+When you initially install MS's Internet News, you will be presented with the <strong>Internet News Configuration</strong> dialogue box. From here you would enter the following information:<p>
+
+<strong>News Server:</strong><br>
+<ul> 
+<li><strong><tt>snews.zippo.com</tt></strong> (for the Super Zippo West news server)</li><br>
+<li><strong><tt>snews2.zippo.com</tt></strong> (for the Super Zippo East news server)</li><br>
+<li><strong><tt>news.zippo.com</tt></strong> (for the Original Zippo Membership)<p></li></ul>
+
+<strong>My news server requires me to logon:</strong> select <tt><strong>(yes)</strong></tt><p>
+
+<strong>Logon Settings:</strong>
+<ul><strong><li>Account Name: </strong>Enter your username to access the services</li>
+<strong><li>Password: </strong>Enter your password. Your Username and Password settings will be used to pass the authentication process. Be sure to use upper-case and lower-case characters when appropriate because the process is case sensitive.</li></ul><p> 
+
+After select the <strong>Next</strong> button, the following information should also be filled out:<p>
+<strong>Email address: </strong>You would use the email address offered through your ISP, or the mailbox included with a Super Zippo subscription.</li></ul><p>
+
+If Internet News is already install you would select <strong>Options</strong> from the <strong>Message</strong> pull-down menu. From here the <strong>Options</strong> dialogue box will appear. Simply select the <strong>Add</strong> button and utilize the above information to add a new news server.<p>
+
+<hr>
+<p><a name=a13>
+<img src="nwzrdrd.gif"> <strong>Can I use rtin to access Zippo's news server?</strong><p>
+Newer versions of tin support the authentication process and can be used if your system is configured correctly. A few environmental variables need to be specified in order to successfully connect. If you do not have access to the specific files to make changes, you would need to contact your systems or network administrator.<p>
+For the sake of simplicity, <strong>snews.zippo.com</strong> will be used to describe below. If Super Zippo East is used instead, be sure to specify <strong>snews2.zippo.com</strong> as the NNTP server instead. Original Zippo Members would utilize <strong>news.zippo.com</strong> as the NNTP server.<p>
+<ul>
+<li><strong>Define Server Name:</strong> Have <strong><tt>snews.zippo.com</tt></strong> specified as the NNTP server in the environment variable <strong><tt>NNTPSERVER</tt></strong>, or specified as the <strong><tt>/etc/nntpserver</tt></strong> file.</li><p>
+
+<li><strong>Specify Password:</strong> because either of the servers utilizes username/password authentication, a password for the chosen server needs to be specified.<br>
+Enter as:   <strong><tt>snews.zippo.com password</tt></strong><br>   (newsservername(spacebar)yourpassword) in the  <strong><tt>$HOME/.newsauth</tt></strong> file.</li><p>
+
+<li><strong>Choosing a Zippo Username:</strong> The <strong>login name</strong> to your system has to match your chosen <strong>username</strong>. When the news server authenticates a user, it will utilize your login name as the Username. Be sure to have both match.</li></ul><p>
+
+If you do not have access to these files, you may need to contact your systems administrator. You would also use <strong>rtin</strong> or <strong>tin -r</strong> to access either of the remote nntp servers.<p>
+
+<hr>
+<center><a href="faqidx.htm">Back</a></center>
+
+</TD>
+</TR>
+</TABLE></center>
+
+<center><h6><a href="copy.htm">© 1995,1996 </a>Zippo Dot Com Incorporated, All rights reserved</h6>
+</center>
+</body></html>
+</DOC>

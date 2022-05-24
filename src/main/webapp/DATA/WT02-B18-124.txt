@@ -1,0 +1,114 @@
+
+<DOC>
+<DOCNO>WT02-B18-124</DOCNO>
+<DOCOLDNO>IA089-000956-B030-228</DOCOLDNO>
+<DOCHDR>
+http://lagavulin.ltid.inpe.br:80/html/desc_2.html 150.163.69.1 19970208060707 text/html 5287
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Saturday, 08-Feb-97 06:02:17 GMT
+Content-Type: text/html
+Content-Length: 5083
+Last-Modified: Friday, 01-Sep-95 17:37:59 GMT
+</DOCHDR>
+<body bgcolor=500fdf text=f0f0f0 alink=808080 link=fffa00 vlink=#ffff00>
+
+<html><head><!-- This document was created from RTF source by rtftohtml version
+2.7.5 -->
+<font size=+1>
+<center>
+<title>LTID</title></head><body><b>O LABORAT&Oacute;RIO DE TRATAMENTO DE IMAGENS
+DIGITAIS DO INPE<br> <br> <br>
+<a href="http://www.inpe.br"><img align=left src="../pics/inpep.gif"></a>
+<a href="../intro.html"><img align=right src="../pics/fundo21.gif"></a>
+<br> LTID
+<p>
+<br> <br> 
+<hr>
+<br>
+<b>HIST&Oacute;RICO</b>
+<center>
+<p>
+	O Laborat&oacute;rio de Tratamento de Imagens Digitais do INPE teve sua origem
+em 1974 quando foi adquirido o primeiro sistema de processamento de imagens
+para o Deapartamento de Sensoriamento Remoto, o Image-100. Este equipamento era
+constituido de um computador PDP11-45 com 256 Kbytes de mem&oacute;ria e 13
+discos remov&iacute;veis de 80 Mbytes cada e o processador propriamente dito,
+composto de 5 planos de imagens (mem&oacute;ria) de tamanho de 512 linhas por
+512 pixels cada e ficava instalado em uma sala do pr&eacute;dio Beta. Em 1981
+foi  construido um local para a instala&ccedil;&atilde;o deste  equipamento
+anexo ao pr&eacute;dio do Sensoriamento Remoto, o qual tamb&eacute;m abrigava
+todo o pessoal de desenvolvimento de software. <p>
+<p>
+	Com a vig&ecirc;ncia da lei de inform&aacute;tica, tornou-se imposs&iacute;vel
+a atualiza&ccedil;&atilde;o desse equipamento, bem como a
+importa&ccedil;&atilde;o de novos, obrigando o INPE a desenvolver seu
+pr&oacute;prio sistema de processamento de imagens, o SITIM, sendo instalados
+no LTID, 3 unidades desse equipamento, interligados por uma rede local de baixa
+velocidade. <p>
+<p>
+	Com o final da lei de inform&aacute;tica em 1989, pode-se repensar a
+configura&ccedil;&atilde;o do hardware do laborat&oacute;rio. O sistema
+Image-100, j&aacute; totalmente obsoleto, foi desativado e um servidor de rede
+foi adquirido da Sun Microsystems e mais 8 esta&ccedil;&otilde;es SITIM
+vers&atilde;o 150. Todo esse equipamento foi interligado em rede Ethernet,
+possibilitando a troca de dados entre a servidora e os sistemas de
+processamento de imagens. Em 1991 mais 4 esta&ccedil;&otilde;es de trabalho
+foram adquiridas, softwares para o sistema operacional Unix e todo o
+laborat&oacute;rio foi interligado &agrave; rede Internet, possibilitando o
+acesso a dados em todo o mundo.<p>
+<p>
+<b></b><p>
+<hr>
+<b></b><p>
+<b>O LTID NOS DIAS DE HOJE</b><p>
+<b></b><p>
+<b>	</b>Ap&oacute;s sucessivas atualiza&ccedil;&otilde;es de hardware e uma
+grande expans&atilde;o da rede local, o LTID &eacute; sem d&uacute;vida um dos
+laborat&oacute;rios mais bem equipados do hemisf&eacute;rio sul. Sua
+configura&ccedil;&atilde;o atual &eacute; de uma servidora Sun sparc 1000 com
+128 Mbytes de RAM, 2 CPU's, 20 Gbytes de disco, 3 saidas Ethernet
+(subdivis&atilde;o da rede local em sub-redes), todos os tipos de leitoras de
+fitas e cd rom. A rede local (dom&iacute;nio ltid.inpe.br) se espalha ao longo
+dos pr&eacute;dios da &aacute;rea de Sensoriamento Remoto, conectando
+v&aacute;rias esta&ccedil;&otilde;es de trabalho de diversos fabricantes, bem
+como microcomputadores. <p>
+	Ao longo de cada "tent&aacute;culo" dessa rede foram ainda definidas
+sub-redes, com servidores escravos, com a finalidade de diminuir o
+tr&aacute;fego pela servidora.<p>
+	Quanto aos softwares instalados, pode-se citar:<p>
+	- Arc Info : sistema de informa&ccedil;oes geogr&aacute;ficas<p>
+	- PCI : sistema de processamento de imagens (inclui radar)<p>
+	- Spring : sistema de processamento de imagens e informa&ccedil;&otilde;es
+geogr&aacute;ficas<p>
+	- ER Mapper : sistema de processamento de imagens<p>
+	- SITIM - sistema de processamento de imagens em microcomputadores<p>
+	- SGI : sistema de informa&ccedil;&otilde;es geogr&aacute;ficas em
+microcomputadores<p>
+	- Grads : sistema de processamento de imagens meteorol&oacute;gicas<p>
+	- IDL : linguagem de programa&ccedil;&atilde;o para processamento de imagens<p>
+	- Compiladores C, C++,Fortran,gcc e g++<p>
+	- V&aacute;rios utilit&aacute;rios de dom&iacute;nio p&uacute;blico.<p>
+<hr>
+<p>
+<b>O LTID PARA O FUTURO</b><p>
+<b></b><p>
+<b></b>	Dentre as previs&otilde;es j&aacute; consolidadas para o
+laborat&oacute;rio, prev&ecirc;-se para meados do pr&oacute;ximo ano a
+substitui&ccedil;&atilde;o da atual rede de 10 Mbits por uma rede de 100 Mbits
+baseada em fibra &oacute;tica interligando as m&aacute;quinas principais e
+concentradores Ethernet (HUB's) e subredes baseadas em par tran&ccedil;ado
+(fast ethernet). Tamb&eacute;m j&aacute; est&aacute; aprovado a
+atualiza&ccedil;&atilde;o das m&aacute;quinas mais antigas para Sun-Sparc-20,
+ampliando a capacidade total instalada de disco no LTID para mais de 50
+Gbytes.<p>
+<p>
+	&Eacute; filosofia do laborat&oacute;rio permitir aos pesquisadores e alunos
+da p&oacute;s-gradua&ccedil;&atilde;o em Sensoriamento Remoto, o acesso ao
+maior n&uacute;mero poss&iacute;vel de sistemas de processamento de imagens e
+informa&ccedil;&otilde;es geogr&aacute;ficas, provendo interfaces
+amig&aacute;veis entre m&aacute;quinas e usu&aacute;rios.<p>
+<p>
+</body></html>
+</DOC>

@@ -1,0 +1,76 @@
+
+<DOC>
+<DOCNO>WT02-B03-69</DOCNO>
+<DOCOLDNO>IA071-000457-B025-249</DOCOLDNO>
+<DOCHDR>
+http://relay.dot.gov:80/help/searchform.html 152.120.130.100 19970121034311 text/html 2208
+HTTP/1.0 200 Document follows
+Date: Tue, 21 Jan 1997 03:41:14 GMT
+Server: NCSA/1.5.2
+Last-modified: Wed, 11 Dec 1996 20:56:13 GMT
+Content-type: text/html
+Content-length: 2025
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>DOT WAISgate Search Form</TITLE>
+</HEAD>
+
+<BODY>
+
+<IMG SRC="/help/searchpg.gif"><P>
+
+<HR>
+<FORM ACTION=http://www.dot.gov/cgi-bin/waisgate method=POST>
+
+Currently, most of the DOT administrations operate their own WWW servers.  
+Please note that this search index only stores the documents at the server 
+http://www.dot.gov/.  Below is a list of known search pages on other servers
+within DOT:<P> 
+
+<B><I>Other DOT Search Engines</I></B><BR>
+<TABLE Width=550 Border=1>
+<TR>	<TD Align="Center" Width=20%><A HREF="http://www.faa.gov/search/iaquery.cgi">FAA</A>
+	<TD Align="Center" Width=20%><A HREF="http://www.bts.gov/Architext/AT-SMARTquery.html">BTS</A>
+	<TD Align="Center" Width=20%><A HREF="http://www.fta.dot.gov/Architext/AT-wwwquery.html">FTA</A>
+	<TD Align="Center" Width=20%><A HREF="http://www.nhtsa.dot.gov/search.html">NHTSA</A>
+	<TD Align="Center" Width=20%><A HREF="http://www.fra.dot.gov/search/AT-fraquery.html">FRA</A>
+</TR>
+</TABLE><P>
+
+<H3><A HREF="/help/search-help.html">How to use the search query</A></H3>
+
+<H3>Select the database to search from:</H3>
+
+<UL>
+	<LI><input type="radio" checked name="WAISdbName" value="dotindex@relay.dot.gov:1080">Entire Database
+	<LI><input type="radio" name="WAISdbName" value="dotnews@relay.dot.gov:1080">DOT Press/News releases
+	<LI><input type="radio" name="WAISdbName" value="orders@relay.dot.gov:1080">Aviation Orders
+</UL>
+
+<H3>Search For: <input type="text" name="WAISqueryString"  size=50></H3>
+
+
+<H3>Limit to: <select name="WAISmaxHits"> 
+           <option> 5 
+           <Option selected> 10 
+           <option> 20 
+	   <option> 50 
+           </select> Documents</H3>
+
+<!-- <H3>Match Options: <select name="op">
+           <option selected value="AND">AND - All search terms.
+           <option value="OR">OR - Any search term.
+           </select></H3>
+-->
+
+<input type="submit" name="Submit search">
+<input type="hidden" name="WAIStemplate" value="results.html">
+</FORM>
+
+<HR>
+<H6>Form updated December 11, 1996</H6>
+</BODY>
+</HTML>
+
+</DOC>

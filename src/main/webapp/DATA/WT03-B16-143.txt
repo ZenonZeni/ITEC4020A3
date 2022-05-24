@@ -1,0 +1,157 @@
+
+<DOC>
+<DOCNO>WT03-B16-143</DOCNO>
+<DOCOLDNO>IA006-000055-B047-76</DOCOLDNO>
+<DOCHDR>
+http://viam.com:80/subform.html 207.82.65.35 19970221173720 text/html 5453
+HTTP/1.0 200 OK
+Date: Fri, 21 Feb 1997 17:34:52 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+Content-length: 5282
+Last-modified: Thu, 19 Dec 1996 22:23:46 GMT
+</DOCHDR>
+<!-- created by Robert Chiappetta for Viam Communications Group Ltd., July 1996 -- >
+<!-- last updated 12 December 1996 -- >
+
+
+<html>
+
+
+<head>
+<title>VBJ Subscription Form</title>
+</head>
+
+
+<body bgcolor="#FFFFFF"
+					VLINK="#E8171A"
+					ALINK="#E8171A">
+
+
+<center>
+<img src="graphics/banner.gif" alt="The Vietnam Business Journal">
+</center><br>
+
+
+<body>
+
+
+<center><img src="graphics/guarantee.gif"></center><br>
+
+
+<center>
+<table border=0>
+<tr><td valign="middle">
+<img src="graphics/check.gif"></td><td align="right"> <b><font size=+4>Y<small>ES</small></font>,<br>I want to receive<br>essential information and expert insight!<br>Please deliver the printed edition of<br><b>T<small>HE</small> V<small>IETNAM</small> B<small>USINESS</small> J<small>OURNAL</small></b><br>to my home or office.
+</table>
+</center>
+<br><br>
+
+
+<form method="post" action="http://viam.com/cgi-bin/viam.com/form.cgi">
+
+<pre>
+			<input type="radio" name="title1" value="Mr." checked> Mr.  <input type="radio" name="title1" value="Mrs."> Mrs.  <input type="radio" name="title1" value="Ms."> Ms.  <input type="radio" name="title1" value="Dr."> Dr.
+Name 			<input name="name" size="60">
+Title			<input name="title" size="60">
+Company			<input name="company" size="60"><br>
+Type of Position 	<select name="position">
+<option value="Senior_Manager">senior management
+<option value="Middle_Manager">middle management
+<option value="Junior_Mananger">junior management
+<option value="Government">government
+<option value="Education">education
+<option value="Professional">professional
+<option value="other">other
+<option value="no_choice_made" selected>select a position
+</select>
+Type of Business 	<select name="business_type">
+<option>manufacturing/wholesale/retail/fashion
+<option>import/export/trading
+<option>shipping/transportation/distribution
+<option>banking/financial/investment
+<option>insurance/real estate
+<option>agriculture/forestry/fishing/plantation
+<option>oil/chemicals/petrochemicals/mining
+<option>building/construction/engineering
+<option>power/energy/water/public utilities
+<option>travel/tourism/hotels/food services
+<option>other business services
+<option>education
+<option>government/military
+<option>media/entertainment/communications
+<option>other personal services
+<option>technology &amp; telecommunications
+<option>other
+<option value="no_choice_made" selected>select a type of business
+</select>
+
+
+Delivery Address	<input name="address_line1" size="60">
+			<input name="address_line2" size="60">
+City			<input name="city" size="60">
+Province/State		<input name="state" size="60">
+Country			<input name="country" size="23">    Postal Code <input name="zipcode" size="19">
+
+
+Telephone		<input name="telephone" size="60">
+Fax			<input name="fax" size="60">
+E-mail Address		<input name="email" size="60">
+
+
+			<b>Global Rate</b>
+			<input type="radio" name="rate" value="12_globalrate" checked> 12 issues for US$108.00 (save 10%)
+			<input type="radio" name="rate" value="6_globalrate"> 6 issues for US$60.00
+
+			<b>Canada Rate</b>
+			<input type="radio" name="rate" value="12_carate"> 12 issues for US$81.00 (save 10%)
+			<input type="radio" name="rate" value="6_carate"> 6 issues for US$45.00
+
+			<b>United States and Vietnam Rate</b>
+			<input type="radio" name="rate" value="12_usvnrate"> 12 issues for US$54.00 (save 10%)
+			<input type="radio" name="rate" value="6_usvnrate"> 6 issues for US$30.00
+
+
+			<input type="radio" name="payment_type" value="visa" checked> VISA   <input type="radio" name="payment_type" value="mastercard"> MasterCard   <input type="radio" name="payment_type" value="amex"> AMEX   <input type="radio" name="payment_type" value="bill"> Bill Me
+Card Number		<input name="card_number" size="60">
+Expiration Date		<input name="expiration_date" size="60">
+
+
+				<input type="submit" value="Submit Order">   <input type="reset" value="Reset Order Form">
+</pre>
+</form>
+
+
+<center><br><br>
+<i>If you prefer, you may fax or mail your subscription request<br>with a US$ check made payable to VIAM Communications to:</i><p>
+<b>VIAM Communications Group Ltd.</b><br>c/o Subscriptions Department<br>114 East 32nd Street, Suite 1010<br>New York, NY 10016 USA<br>Fax (1-212) 725-8160<br><br>
+Please send inquires regarding subscriptions by e-mail to <a href="maito:subscriptions@viam.com">subscriptions@viam.com</a>.<br><br><b>Thank you for your interest in <b>T<small>HE</small> V<small>IETNAM</small> B<small>USINESS</small> J<small>OURNAL</small></b>!</b></center>
+
+
+
+<center>
+<br><br><nobr>
+<a href="about.html"><img src="graphics/buttons/viam_but.gif" border=0 align=middle alt="about VIAM"></a>
+<a href="subform.html"><img src="graphics/buttons/order_but.gif" border=0 align=middle alt="Subscribe"></a>
+<a href="index.html"><img src="graphics/vbj_but.gif" border=0 align=middle alt="VBJ Home"></a>
+<a href="mailto:vbj@viam.com"><img src="graphics/buttons/email_but.gif" border=0 align=middle alt="Send E-mail"></a>
+<a href="masthead.html"><img src="graphics/buttons/staff_but.gif" border=0 align=middle alt="The VBJ Staff"></a>
+</nobr></center>
+
+
+<hr width=260 noshade>
+<font size=-2>
+<center>
+last updated 12 December 1996<br>
+<a href="copyright.html">&copy; 1996 VIAM Communications Group Ltd.</a>
+</font>
+
+
+</body>
+</html> Ltd.</a>
+</font>
+
+
+</body>
+</html>
+</DOC>

@@ -1,0 +1,71 @@
+
+<DOC>
+<DOCNO>WT02-B16-200</DOCNO>
+<DOCOLDNO>IA060-000328-B016-267</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/cells.html 205.168.79.27 19970115023022 text/html 2942
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 02:30:28 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:45 GMT
+Content-length: 2768
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<title>DOE PV - Turning Sunlight Into Electricity</title>
+</HEAD>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>From Cells to Arrays</h2>
+
+<p><font size=+2>T</font>he PV cell is the basic unit in a PV system.  An individual PV cell typically produces between
+1 and 2 watts, hardly enough power for the great majority of applications.  But we can increase the
+power by connecting cells together to form larger units called modules.  Modules, in turn, can be
+connected to form even larger units known as arrays, which can be interconnected for more
+power, and so on.  In this way, we can build a PV system to meet almost any power need, no
+matter how small or great.
+
+<p>Modules or arrays, by themselves, do not constitute a PV system. We must also have structures
+on which to put them and point them toward the sun, and components that take the <a href="acdc.html">direct-current
+(dc)</a> electricity produced by the modules or arrays and condition the electricity so it can be used
+in the specific application.  These structures and components are referred to as the <a href="balance.html">
+balance of system (BOS)</a>.
+
+<p><br>
+<center>
+<table border=3 cellpadding=2 width=388>
+<tr>
+<td width=100%>
+<p><img border=0 hspace=0 vspace=5 align=left src="images/0633301.gif">
+<br clear=all>
+<p><font color="#F79D00">The basic photovoltaic cell typically produces only a small
+amount of power.  To produce more power, cells can be interconnected to form modules, which
+can in turn be connected into arrays to produce yet more power.  Because of this modularity, PV
+systems may be designed to meet any electrical requirement, no matter how large or how small.</font>
+</td>
+</table>
+</center>
+
+<p align=right><a href="cellimages.html">More . . . A Closer Look</a>
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>
+[<a href="pvhistory.html">History: The PV Effect</a>]
+[<a href="howworks.html">How It All Works</a>]
+[<a href="cells.html">From Cells to Arrays</a>]
+[<a href="flatplate.html">Flat-Plate Systems</a>]
+[<a href="concentrators.html">Concentrator Systems</a>]
+[<a href="balance.html">Balance of System</a>]
+[<a href="lightsun.html">Light and the Sun</a>]
+<p><em>U.S. Department of Energy Photovoltaics Program, 1996</em>
+</font>
+</center>
+</body>
+</html>
+</DOC>

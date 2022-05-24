@@ -1,0 +1,203 @@
+
+<DOC>
+<DOCNO>WT02-B21-172</DOCNO>
+<DOCOLDNO>IA052-000883-B029-102</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/interfer/resolve.html 137.229.31.144 19970210141050 text/html 8277
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:11:02 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Wednesday, 29-Jan-97 23:36:32 GMT
+Content-length: 8094
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML> 
+<HEAD>
+<TITLE>Interferometry at ASF/STEP: Resolve</TITLE> 
+</HEAD> <BODY BGCOLOR="#FFDEAD" TEXT="#00008F" LINK="#008B00" VLINK="#580000"
+BACKGROUND="../res/backgrounds/asf_tile.gif"> 
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> | 
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> | 
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> | 
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> | 
+<A HREF="http://www.images.alaska.edu/interfer/">Interferometry</A>
+<P>
+<H1 ALIGN=CENTER>
+Resolve
+</H1>
+<DL>
+<DT><H2>Introduction</H2></DT>
+<DD>
+<P>
+Before starting interferometry with the ASF/STEP tools, check to make sure that
+your two images are short integer complex, 2bytes real data and 2 bytes
+imaginary data.  The complex data product produced by ASF is in this format.
+The data product produced using ASF/STEP's Alaska SAR Processor program is in float
+complex (4 bytes real, 4 bytes imaginary) format.  At this time resolve will not
+handle float complex data, and therefore, the data will need to be converted.
+<P>
+Once you have your two data images, you will need to make sure you have enough
+disk space.  The entire interferometry process will use close to a gigabyte of
+disk space <b>if you keep all intermediary products</b>.  You can get rid of
+certain intermediary products while you process your interferogram, however I
+would suggest that you do not delete everything.  You will reuse certain files,
+and by keeping them you will significantly reduce your processing time.
+<P>
+Once you have enough disk space and selected your two images, you can begin
+running the software.  For the purpose of this tutorial/example, I have two
+images named <b>asc1</b> and <b>asc2</b>.  This data was processed at ASF before
+the July 1996 upgrade.  Therefore the data files are <b>asc1.dat</b> and
+<b>asc2.dat</b>.  There are also corresponding metadata files that have the same
+basename but different extensions.  The extensions for this example are
+<b>ldr</b> and <b>trl</b>.
+<P>
+<I>
+Note: The ASF interferometry software also works on the ERS-1/2 Tandem mission
+processed after the upgrade.  At STEP we refer to these two versions of ASF
+products as PRE-RADARSAT and POST-RADARSAT.  The main difference between the two
+data sets are an increased metadata header on the data file.  Also, the metadata
+file have been combined.  There is only a leader file with POST-RADARSAT data.
+If you have the newer data set, the data file has an extension of <b>D</b> and
+the metadata file has the extension <b>L</b>.
+</I>
+</DD>
+<DT><P><H2>Example</H2></DT>
+<DD>
+For details on the command line, please see the <a href="http://www.images.alaska.edu/cgi-bin/man-request.pl?asftool=resolve&amp;section=1">man page</a>.
+<P>
+A sample run looks like the following:
+<P>
+<PRE>
+sparc1k [52]: resolve asc1 asc2 base.0 ctrl
+get_platform_data():
+	UTC time at the image center is 1995:285:07:27:57.170
+	incidence angle at image center = 23.9207
+get_platform_data():
+	UTC time at the image center is 1995:284:07:27:53.395
+	incidence angle at image center = 23.9183
+get_st_vecs():
+	For sate1, x = 3.065861e+03  y = -1.067997e+03  z = 6.376455e+03
+	For sate2, x = 3.046674e+03  y = -1.121245e+03  z = 6.376524e+03
+The coordinates for the center is = 5.695098	2.704268	-1.549900
+
+angle, in deg.,  of the 1st fan = 0.230700
+angle of 2nd fan = 0.230700
+length of 1st arc = 28.808464
+length of 2nd arc = 28.808464
+arc = 57.616928	vel = 7.462839	dtime = 0.003016
+r = 7154.764160
+n2_elem = 5121	pos1_0 = 1276	pos2_0 = 2556	pos3_0 = 3837
+sepa_c1 = 1.745297e-01	sepa_b1 = -5.303754e-02
+sepa_c2 = 1.724012e-01	sepa_b2 = -5.242833e-02
+sepa_c3 = 1.702534e-01	sepa_b3 = -5.059547e-02
+Baseline change rate along track = 4.276320e+00 (meters per scene)
+d_rows = -16.506348	d_cols = 8.803921
+original d_sepa_b = 0.000000 (cycles per 2560 lines)
+proj_b = -5.242833e-02	proj_c (baseline) = 1.724012e-01
+
+resolve: Starting matching using FFT
+	original del_row = -16	del_col = 9
+fft_best_match():
+	leading = 12
+	seedx = 1024	seedy = 6400
+	size = 1024	s_win_1 = 769
+	nrows = 12800  ncols = 2048  row_off = -16
+	seek_row_in1 = 5872
+	seek_row_in2 = 6272
+	seek_col_in1 = 512
+	seek_col_in2 = 896
+fft_best_match(): start fourn for fast fourier transform
+fft_best_match():
+	nn[1] = 1024  nn[2] = 1024  size = 1024
+fft_best_match(): start 2nd fourn for fast fourier transform
+fft_best_match():	orig_x_off = 9  orig_y_off = -16
+	save_i = 378  save_j = 390  s_half_win = 384
+	new_x_off = 6  new_y_off = -22
+End fft_best_match
+
+	2nd image offset from 1st image
+	cols = -6  rows = 22
+Total wall clock time = 153 seconds.
+
+resolve: ends successfully
+</PRE>
+</DD>
+
+<DT><H2>Description</H2></DT>
+<DD>
+Resolve calculates an intial offset between the two images from information located in the metadata. Using this inital estimate, <b>resolve</b> then cross-correlates the two images. By default, resolve starts its cross-correltion at the center of the image. However, if a better estimate can be obtained by cross-correlating at different location, the user can specify these new seed values on the command line.
+<P>
+Resolve creates two files: a baseline file and a control file. The baseline file is an initial estimate at the separation of the satellites between images 1 and 2. This estimate is produced off of information in the metadata. The format of the baseline file is:
+<P>
+<center><pre>
+Perpendicular   Delta_Perp    Parallel     Delta_Para
+</pre></center>
+<P>
+Each of these values are in meters. The baseline file created above, base.0, looks like:
+<center><pre>
+172.401230  4.276320  -52.428333  -2.442077
+</pre></center>
+The baseline file will be used when we run <a href="deramp.html">deramp</a> on the interferogram phase file. This initial estimate, while a good initial estimate, is not good enough for interferometry and will need to be revised.
+<P>
+The control file is another simple ASCII file that is used by <a href="ifmshift.html">ifmshift</a> and the <a href="subpixel.html">subpixel registartion</a> routines. The control file controls how these other programs should preform image registration. The control file has the following syntax:
+<P>
+<ol>
+<li><b>xoff</b> - column offset. 
+<li><b>yoff</b> - row offset.
+<li><b>chip size</b> - size of each chip in sub-pixel registration
+<li><b>oversample</b> - oversampling factor
+<li><b>xMEP</b> - Allowed maximum error pixel in column direction
+<li><b>yMEP</b> - Allowed maximum error pixel in row direction
+</ol>
+<P>
+The first two numbers are the most important. These numbers determine how far an image must be shifted in order for the pixels to line up. Xoff and yoff relate to image1 and image2 by the following equations:
+<pre>
+image2 = image1 + xoff
+image2 = image1 + yoff
+</pre>
+The control file, ctrl, created by the above example is
+<P>
+<pre>
+-6
+22
+16
+4
+1.300000
+1.300000
+</pre>
+<P>
+Resolve sets the last 4 parameters automatically. If you wish to change them, you will need to do so using any text editor such as emacs or vi.
+</DD>
+
+<DT><H2>Next Step</H2></DT>
+<DD>
+The next step in interferometry processing is <a href="ifmshift.html">ifmshift</a>. Subpixel registration could also be performed at this point, however I would suggest waiting until after you analyze the results from pixel registration.
+</DD>
+</DL>
+
+<P>
+<a href="interfer.html">
+<img src="../res/buttons/leftarrow.gif" alt="[Go Back]" WIDTH=29 HEIGHT=30>
+</a>
+<a href="ifmshift.html">
+<img src="../res/buttons/rightarrow.gif" alt="[Go Ahead]" WIDTH=29 HEIGHT=30>
+</a>
+<P>
+<CENTER>
+<IMG ALT="[---------]" SRC="../res/lines/ice_blue_line.gif" WIDTH=85%>
+</CENTER>
+<H4> 
+Created By: <a href="mailto:mshindle@images.alaska.edu">Michael Shindle</a><br>
+Last Updated: January 23,1997<BR>
+Last Updated By: <A 
+HREF="http://www.images.alaska.edu/users/mike/mike.html">Michael 
+Shindle</A><BR> If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="http://www.images.alaska.edu/comments.html">comment</A>. 
+<H4> 
+</BODY>
+</HTML> 
+
+</DOC>

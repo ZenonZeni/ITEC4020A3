@@ -1,0 +1,93 @@
+
+<DOC>
+<DOCNO>WT03-B15-228</DOCNO>
+<DOCOLDNO>IA024-000255-B010-247</DOCOLDNO>
+<DOCHDR>
+http://206.216.148.51:80/paper94.htm 206.216.148.51 19970108135846 text/html 11851
+HTTP/1.0 200 OK
+Date: Wed, 08 Jan 1997 13:55:31 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 11679
+Last-modified: Thu, 04 Apr 1996 07:57:56 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Workspace - a Microcomputer-based Industrial Robot Simulator and Offline Programming System</TITLE> 
+<body background="paper3.gif">
+<H1>Workspace - a Microcomputer-based Industrial Robot Simulator and Offline Programming System</H1> 
+</HEAD>
+
+<H2>Published in 1994</H2>
+
+<H2>Introduction.</H2>
+<P>WORKSPACE has been developed by a team led by the Author as the world's first industrial robot simulation software package. Since its commercial release in 1989 it has undergone many revisions. With the latest software release (version 3.2) WORKSPACE is in use on over 500 industrial and educational sites world-wide as both a graphic simulation system and a means of off-line programming a robot workcell.</P>
+
+<P>Creating and simulating robot programmes. WORKSPACE is a software package which will create and simulate robot programmes in the native language of the robot. For example, users of Fanuc robots may write robot programmes in Karel, ABB robot users may write robot programmes in ARLA. </P>
+<P>There is therefore no need for postprocessors to translate from a simulation language to the robot language: the full power of the robot language is available to the user through off-line programming. It is also possible to transfer existing robot programmes from the robot controller back into WORKSPACE for optimisation. Off-line programming is therefore a two-way process using WORKSPACE. is This particularly facilitated by the use of portable microcomputers which may be taken down onto the factory floor and used next to a robot workcell.</P>
+<P>The user first selects the target robot language required. To create a robot programme the user clicks the mouse on robot commands on a pull-down menu. These commands are immediately written to an ASCII text file. In this way a robot programme is created without the necessity for typing the command words, though the user may also use an in-built text editor if desired. As each command is written to the file it is simulated graphically on the computer screen in colour 3d solid graphics.</P>
+<P>Programmes may be debugged by tracing through line by line seeing at each line what is happening in the simulation. The value of variables may be watched or examined throughout. If an error occurs at any point then the user will immediately be placed in the WORKSPACE text editor at the position in the robot programme where the error occurred, enabling the error to be promptly corrected.</P>
+
+Figure 1 - Off-line programming is a two-way process using WORKSPACE
+
+<P>The full structure of the robot languages is implemented, including typed variables, teachpoints, subroutines, looping, branching on condition, signals, and condition handler interrupts.</P>
+
+<P>Several robots working in co-ordination, each under the control of a separate robot programme, may be simulated to produce one animation.
+During the simulation of the robot programme any collisions that occur between any objects in the workcell may be automatically reported, and a clock indicates the time taken for the overall sequence of movements. The 3D volume of the envelope may be plotted, or 2D slices through the envelope displayed on the screen.</P>
+
+<P>All the main industrial and educational robot languages are implemented, and a library of over 140 robot models is available to the user (though it is also possible for users to create their own robots).</P>
+
+<P>The 3D CAD system and kinematics modeller. 3D solid objects (including combinations created using Constructive Solid Geometry) or surfaces (including Bspline, Parametric, or Bezier surfaces) may be created using WORKSPACE's own 3D CAD system, or else imported into WORKSPACE form an external CAD system using the DXF file format (common amongst microcomputer based CAD systems such as AUTOCAD) or the IGES file format (common amongst graphics workstation based CAD systems such as CATIA). The use of an unlimited number of layers for storing different levels of detail makes it possible to turn off the display of object irrelevant to the current task, or display them in wireframe for speed.</P>
+
+<P>The movement of any mechanism may be modelled using a kinematics modeller. The mechanism may have any number of joints in any serial or tree-structure combination. Conveyors, automatic vehicles, and other independently moving objects may also be modelled.</P>
+
+<H2>Defining positions</H2>
+<P>Positions and paths for the robot tool to move to may be defined in several ways. A software emulation of a teach pendant is available to move the robot either by stepping individual joint angles or by stepping the xyz Cartesian position of the tool relative to the robot world co-ordinate frame. Positions may be saved as teachpoints for use later in a robot programme. These are displayed on the screen graphically as co-ordinate frames. If the robot is placed in a different position in the workcell then the teachpoints will change colour if they are no longer achievable due to the limits on the joints of the robot or due to the limited reach of the robot.</P>
+<P>Positions may also be defined by clicking the mouse at different positions on the computer screen (changing the view if necessary to define a 3D position). Orientations may be defined in many different ways: for example by dragging the approach vector of the teachpoint co-ordinate frame in a particular direction using the mouse.</P>
+
+<H2>Geometry Points</H2>
+<P>The easiest and most powerful way of defining robot positions is to use the geometry of objects. </P>
+<P>Points may be defined along the seam between two surfaces in such a way that the position of the point on the seam, the distance of the point from the seam, the lean of the approach vector of the tool towards the seam, or the angle between the adjacent surfaces and the tool approach vector is set by the user. This is of use in applications such as arc-welding.</P>
+
+Figure 2 - Defining Geometry points normal to a surface
+
+<P>Points may also be defined normal to a surface so that the position on the surface and the distance form the surface to the point is set by the user. As the point is moved over the surface the point is always maintained normal to the surface. This is of use in applications such as spot-welding.</P>
+<P>Paths to follow a 2D curve may be defined automatically. Straight line and segments of the curve are translated directly into linear and circular motions for the robot tool to follow. This is of use in applications such as water-jet cutting.</P>
+
+<H2>Calibration</H2>
+<P>Calibration is an important issue in off-line programming and simulation because the resulting robot programme is only as accurate as the model of the workcell. WORKSPACE supports three types of calibration.</P>
+<P>Calibration of the robot tool involves finding the xyz offset that must be added onto the kinematics of the robot to account for the tool attached to the end of the robot. This uses a procedure in which the robot and tool is moved repeatedly to a fixed location and the resulting teachpoints taken from the robot controller back into WORKSPACE. A multivariable search technique is then used to calculate the tool offset. This procedure may need to be repeated if the tool is knocked out of alignment during use.</P>
+<P>A similar technique may be used to find the true zero position of the robot. This is necessary since the zero position every joint of the robot is subject to drift during use. The resulting offsets are used to produce a more accurate robot model than the kinematics used on the robot controller itself.</P>
+<P>Finally, the true position of objects in the workcell may be measured using the robot as a measuring device, and the resulting teachpoints taken back into WORKSPACE and either used to define planes whose intersection redefines vertices or else used to redefine known positions within the model.</P>
+<P>In the future it is hoped that WORKSPACE will be integrated with a mechanical calibration system for measuring 3D positions within the workcell independently of the robot.</P>
+
+<H2>Replaying simulations in real-time</H2>
+<P>Simulations may be replayed within WORKSPACE in real-time, but recent advances in animation technology enable even more realistic playback. WORKSPACE simulations may be translated into the FLC file format used by AUTODESK Animator and replayed using a utility at speeds up to 50 frames a second. The resulting full screen animations are so realistic, even on a medium range 486 colour notebook, that it is like looking through a window onto the factory floor. The utility for replaying FLC files will be bundled with the WORKSPACE software.</P>
+
+<H2>Simulation of Dynamics</H2>
+<P>It is possible to simulate the dynamics of a robot using WORKSPACE for a defined sequence of movements. The equations relating the torques and accelerations at each joint and their interactions for a 6-axis robot are modelled using numerical integration. Two type of controller equation may be used: classical and discrete-time control. The constant multipliers in the controller equations may be modified and the resulting effect on the trajectory examined. The effect of attaching a payload to the end of the robot may also be examined. However, until it is possible to obtain accurate estimates for the mass, inertia matrices, centre of gravity, and controller constants at each joint, dynamics simulation is only of use in demonstrating general principles and obtaining qualitative not quantitative information.</P>
+
+<H2>The Future</H2>
+<P>For many years robot companies have not been co-operative in providing the information required to accurately simulate the paths generated by the robot controller when moving through via points. Without this information it is difficult for a simulation to provide precise cycle-times. Now, the large Automotive robot users, many of whom have committed themselves irrevocably to off-line programming, are beginning to make it a condition of future robot orders that this information is provided as a black box to the simulation companies.</P>
+<P>However, simulation and off-line programming will only become widely accepted if there is a change in attitude within the simulation companies, who at present seem unwilling to get involved on the factory floor. Simulation is often carried out on the other side of the factory, or in some cases on the other side of the country. The resulting programmes are then taken down onto the factory floor  This is where the problems for the people on the factory floor begin. Reality is seldom the same as a simulation, and the robot programmes usually require modification, but by this time the simulation is being used on the next project.</P>
+<P>This gap between the factory floor and the simulation is one that WORKSPACE is designed to close, by enabling a portable microcomputer to be taken down onto the factory flood and the simulation to be used next to the robot controller, and by allowing robot programmes to be shuffled backwards and forwards between the simulation and the robot controller as many times as required.</P>
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG SRC="home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<center><h6><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+
+<h6>Copyright &copy; 1996 Robot Simulations Ltd</h6>
+<h6>Last revision 3 April 1996</h6></center>
+</P>
+
+
+</BODY>
+
+</HTML>
+</DOC>

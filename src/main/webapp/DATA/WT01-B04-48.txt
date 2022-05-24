@@ -1,0 +1,43 @@
+
+<DOC>
+<DOCNO>WT01-B04-48</DOCNO>
+<DOCOLDNO>IA080-000557-B035-10</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Spinoffs.html 137.79.14.197 19970103071421 text/html 7110
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f2fc.328@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:19:24 GMT
+Last-Modified: Monday, 29-Jan-96 18:08:28 GMT
+Content-type: text/html
+Content-length: 6866
+</DOCHDR>
+<TITLE>COMMERCIALIZATION SPIN-OFFS</title>
+<img src="logo.gif">
+<H1>COMMERCIALIZATION SPIN-OFFS:  ARCHIVE - DEC. 1994</h1><p>
+<B>A. Robot Assisted Microsurgery:  A New Telerobot Enhances and Extends Surgeons' Skills.</b><p>
+Building from its established NASA technology base in teleoperations and telerobotics, JPL is developing a new robotic microdexterity platform with important applications to medicine.  Through a cooperative NASA-Industry effort, the Robot Assisted Microsurgery (RAMS) task develops a dexterity-enhanced master-slave telemanipulator enabling breakthrough procedures in micro/minimally invasive surgery.  A cooperative commercial development agreement with Micro Dexterity Systems, Inc. is in place to bring the JPL technology to the point of application.  The applicable medical practice includes eye, ear, nose, throat, face, hand, and cranial surgeries.  As part of planned task activities, the resulting NASA robot technologies will be benchmarked in actual operating room procedures for vitreous retinal surgery.<p>
+The primary objective of this task is to provide an integrated robotic platform for master-slave dual-arm manipulation operational in a one cubic inch work volume at features in the 100 micron range (our goal is to extend these capabilities to features in the 20 micron range).  The research is a natural evolution of our extensive experience in force-reflecting teleoperation with dissimilar master/slave.  Capabilities will include force-reflection and textural tactile feedback, and in situ multiple-imaging modalities for improved surgical visualization and tissue discrimination. Potential NASA applications may include EVA/IVA telescience, bioprocessing, materials process and micro mechanical assembly, small-instrument servicing, and terrestrial environmental testing in vacuum.<p>
+A joint Technology Cooperation Agreement with Micro-Dexterity Systems, Inc., is in place to further develop and commercialize the JPL RAMS technology, with vitreous retinal surgery as the initial application.  Longer range application targets include ear, nose, throat, face, hand, and cranial surgeries.<p>
+<H5>Point of Contact:  P. S. Schenker, schenker@telerobotics.jpl.nasa.gov</h5><p>
+
+<B>B. Commercialization of Virtual Environment Calibration Technology</b><p>
+<img src="deneb.gif">
+<H5>Photo Courtesy of Deneb Robotics</h5><p>
+<H4>Fig. 12 Overlay of calibrated 3-D graphic models (wire frames with semi-transparent surfaces) on live video for telerobotic satellite servicing</h4><p>
+JPL recently developed a virtual reality calibration technique that enables reliable and accurate matching of a graphically simulated virtual environment in 3-D geometry and perspective with actual video camera views.  This technique enables high-fidelity preview/predictive displays with calibrated graphic overlay on live video for telerobotic servicing applications.  Its effectiveness was successfully demonstrated in a recent JPL/NASA-GSFC ORU (Orbital Replacement Unit) change-out remote servicing task.  With NASA's recent thrust toward increased collaboration with industry, JPL and Deneb Robotics, Inc., have established a technology cooperation agreement.  JPL transfers the virtual reality calibration software technology to Deneb, and Deneb inserts this software technology into its commercial product, thus enabling  Deneb to commercialize an upgraded  product.<p>
+Key new features of the JPL calibration technique include; 1) An operator-interactive method is adopted to obtain reliable correspondence data.  2) A robot arm itself is used as a calibration fixture for camera calibration, eliminating a cumbersome procedure of using external calibration fixtures.  3) The object localization procedure is added after the camera calibration as a new approach to obtain graphic overlay of both the robot arm and the object(s) on live video and enable effective use of the computer-generated trajectory mode in addition to the teleoperation mode.  4) A projection-based linear least-squares algorithm is extended to handle multiple camera views for object localization.  5) Nonlinear least-squares algorithms combined with linear ones are employed for both camera calibration and object localization.  The enhanced product, including the JPL-developed technology, will be in market in early 1995.<p>
+<H5>Point of Contact:  kim@telerobotics.jpl.nasa.gov</h5><p>
+
+<B>C. Commercialization of Redundant Arm Control Algorithms:  Robot Control Schemes are Transferred to Commercial Products</b><p>
+Robotics Research Corporation (RRC) manufactures a family of dexterous 7-DOF arms that are used extensively at JPL, JSC, LaRC, GSFC, as well as by a number of government agencies, private companies, and universities.  These robotic arms are anthropomorphic and have the potential to perform complex tasks that demand human-like dexterity and versatility unavailable in the standard 6-DOF industrial robots.  The 7-DOF arms are sold with a rudimentary controller that provides only basic capabilities that do not exploit the intrinsic dexterity present in the 7-DOF arms.<p>
+Since 1987, JPL has been developing for NASA advanced control techniques for seven jointed arms, such as the Robotics Research Arms.  A new approach to "Configuration Control" of redundant manipulators with seven or more joints has been developed at JPL.  The research leading to this development has evolved from analysis and simulation to full-scale implementation and experimentation.  The configuration control approach provides a general framework in which the user can utilize the arm redundancy in order to accomplish a variety of additional tasks beyond the basic task of end-effector placement.  Typical additional tasks that have been implemented and demonstrated are:  Elbow placement, joint limit avoidance, singularity robustness, base placement, and collision avoidance.  This research has been reported in many publications and patents, and has been implemented at a number of universities and R & D centers.<p>
+The Robotics Research Corporation has been very interested in transferring the JPL developed configuration control techniques and algorithms to their next generation commercial products, since they have realized that it will enhance the functionality and capability of their products considerably.  A Joint Technology Cooperation Agreement was signed in 1993 between JPL and RRC for commercialization of the JPL configuration control methods.  At the present time, JPL is achieving this transfer into a PC-based real-time system which will be the new platform for their next generation products.  The enhanced product will be in the market in 1995.<p>
+<img src="arm.gif">
+<H5>P-36299 Ac</h5><p>
+<H4>Fig. 13 Robotics Research Arm Under Configuration Control</h4>
+<H5>Point of Contact:  H. Seraji, seraji@telerobotics.jpl.nasa.gov</h5><p>
+
+
+</DOC>

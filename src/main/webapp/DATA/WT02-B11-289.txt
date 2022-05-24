@@ -1,0 +1,221 @@
+
+<DOC>
+<DOCNO>WT02-B11-289</DOCNO>
+<DOCOLDNO>IA086-000618-B043-12</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.017.html 130.91.195.242 19970122052945 text/html 10506
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:29:40 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 10334
+Last-modified: Tue, 22 Nov 1994 06:30:59 GMT
+</DOCHDR>
+<TITLE>Phil Karn's comments to NIST (Phil is an old hand)</TITLE>
+<H1>Phil Karn's comments to NIST (Phil is an old hand)</H1>
+
+<PRE>
+                                        7431 Teasdale Avenue
+                                        San Diego, CA 92122
+                                        karn@unix.ka9q.ampr.org
+                                        September 27, 1993
+
+Director, Computer Systems Laboratory
+ATTN: Proposed FIPS for Escrowed Encryption Standard
+Technology Building, Room B-154
+National Institute of Standards and Technology
+Gaithersburg, MD 20899
+
+Re: A Proposed Federal Information Processing Standard for an Escrowed
+Encryption Standard (EES)
+Docket No 930659-3159
+RIN 0693-AB19
+</PRE>
+
+<H2>Comments of Philip R. Karn, Jr</H2>
+
+Sirs: <p>
+
+I am writing in response to your call for comments on the
+aforementioned matter that appeared in the Federal Register on July
+30, 1993. I am writing as a concerned individual with BS and MS
+degrees in electrical and computer engineering and 15 years of
+professional experience in communications, computer networking and
+security at leading edge R&amp;D organizations. I currently work in the
+digital cellular telephone industry, a ripe application for robust
+encryption if there ever was one. I feel that my experience in this
+field qualifies me to comment on the practicality of the proposed
+standard. <p>
+
+First of all, I am totally opposed to the entire concept of key
+escrow. It is a dangerous, un-American and fatally flawed idea that
+should never have been proposed. In my opinion, everyone has the
+Constitutional right to use the encryption scheme of their choice,
+whether or not the government can break it. The impact of strong
+encryption on the enforcement of legitimate laws is and will remain
+minimal.  Even unbreakable encryption is incapable of thwarting
+standard investigational techniques such as informants, testimony
+compelled through grants of immunity, "end point" surveillance (e.g.,
+hidden microphones), the gathering of physical evidence of crimes and
+so forth. <p>
+
+Strong un-escrowed encryption will, on the other hand, finally put an
+end to illegal, often politically motivated interceptions of private
+electronic communications without having to rely on anyone's goodwill,
+such as the still-unnamed "key escrow agencies". Precisely because
+eavesdropping has been so easy to do and so hard to detect, the
+government has repeatedly proven itself untrustworthy in this regard,
+as documented in great detail by the Watergate investigations and the
+Church Committee hearings of the 1970s. Why should we trust it now? <p>
+
+Although the government currently claims that the EES will be a
+"voluntary" standard, many of its features make no sense whatsoever in
+this context.  For example, why must the Skipjack algorithm be kept
+secret if individuals remain free to use other algorithms such as
+triple-key DES or IDEA that are quite probably even stronger? <p>
+
+The government's claim is completely transparent, as one simply cannot
+escape the conclusion that the EES is a prelude to a ban on all other
+encryption schemes, or at least a ban on those the government can't
+crack. And this presents a profoundly disturbing threat to some very
+important Constitutional principles. <p>
+
+Countless others have argued forcefully against the proposal on these
+and other grounds. For example, see the points made by the Computing
+Professionals for Social Responsibility (CPSR) in the attached
+Appendix. I fully agree with CPSR and feel that they alone should have
+been enough to stop the proposal long ago. <p>
+
+However, the fact that the Escrowed Encryption Standard has advanced
+so quickly despite these serious problems reveals the totally
+one-sided nature of the decision process. Far from being an
+independent and impartial agency, NIST has proven itself to be merely
+a pawn for the National Security Agency, the Federal Bureau of
+Investigation and other powerful intelligence and law enforcement
+agencies.  Despite (or perhaps because of) encryption's enormous
+potential to put real "teeth" into the Constitutional principles of
+privacy and freedom of speech and association, these agencies are
+notably unsympathetic to the widespread use of strong encryption. By
+their very nature, these agencies are unlikely to be persuaded even by
+the most profound concerns about civil liberties. <p>
+
+Therefore, as strongly as I oppose the EES on philosophical grounds,
+restating these arguments here in further detail would be a waste of
+time. I would instead like to dwell on one particular practical
+drawback to EES as proposed, one that renders it utterly useless for
+its intended purpose. <p>
+
+<H2>The Ees Is Unacceptable Because Of Its Hardware-Only Nature</H2>
+
+Many of the potential applications for the proposed standard involve
+mass produced and highly miniaturized consumer electronics devices
+where the physical space and power requirements, cost and availability
+of each of thousands of hardware components is of critical
+importance. <p>
+
+In such products, there is a very strong preference to implement as
+many functions in software as possible.  There are many reasons for
+this: general purpose microprocessors and memories tend to be produced
+in much higher volume than special purpose devices, thus providing
+substantial economies of scale; software can be upgraded more easily
+in a production run or after sale than can hardware; and once written,
+software has essentially zero incremental costs of production. Indeed,
+even the incremental hardware cost of adding a particular software
+function is often also zero, thanks to the unused ROM, RAM and CPU
+cycles often found in imbedded microcomputer systems. <p>
+
+Driving this emphasis on software are the fights marketing people and
+design engineers regularly have over the use of individual parts
+costing as little as a few pennies each.  The smaller and lighter the
+product, the greater the price it will command in the marketplace,
+even if it is functionally equivalent to a larger and heavier
+product. No rational designer will add a part to do something that he
+could easily do in software. <p>
+
+In my own field, digital cellular telephony, it is clear that strong
+encryption using published algorithms can easily be implemented in
+software on existing microcontrollers, particularly at the low data
+rates involved.  The MYK-78 chip, rumored to cost $90-$100 each and
+capable of running at megabit rates, is enormous overkill that the
+extremely competitive cellular market cannot afford. It is a complete
+non-starter. <p>
+
+Even if a chip like the MYK-78 were redesigned to cost substantially
+less, designers will be extremely reluctant to use highly proprietary
+devices available from only a single supplier. No rational
+manufacturer will make his production line depend entirely on the
+health of a single small company, especially one such as Mykotronix
+with whom so few have any prior experience. <p>
+
+<H2>Summary</H2>
+
+The Escrowed Encryption Standard is not only fatally flawed on any
+number of Constitutional considerations, its sole reliance on hardware
+implementation makes it completely impractical and uneconomical for
+the mass consumer market.  It is likely that the proposal is nothing
+more than a cynical attempt by federal intelligence agencies to be
+seen "helping" to secure civilian communications while actually doing
+everything possible to thwart actual progress.  However, in the hope
+that NIST is sincerely interested in truly meaningful and practical
+security for all, I offer these comments. <p>
+
+The present proposal should be completely abandoned. Furthermore, NIST
+should advocate the complete removal of roadblocks (particularly
+export controls) that have so far effectively thwarted any real
+progress by the civilian communications industry to apply widely known
+cryptographic techniques to its products. <p>
+
+Sincerely, <p>
+
+Philip R. Karn, Jr.
+
+<HR> 
+<H2>Appendix</H2>
+
+The following text was taken from an electronic message from Computing
+Professionals for Social Responsibility (CPSR) that was widely distributed
+on the Internet. I fully agree with each of the points that are made. <p>
+
+<UL>
+<LI> The potential risks of the proposal have not been assessed and
+many questions about the implementation remain unanswered.  The
+NIST notice states that the current proposal "does not include
+identification of key escrow agents who will hold the keys for the
+key escrow microcircuits or the procedures for access to the
+keys."  The key escrow configuration may also create a dangerous
+vulnerability in a communications network.  The risks of misuse of
+this feature should be weighed against any perceived benefit. <p>
+
+<LI> The classification of the Skipjack algorithm as a "national
+security" matter is inappropriate for technology that will be used
+primarily in civilian and commercial applications.  Classification
+of technical information also limits the computing community's
+ability to evaluate fully the proposal and the general public's
+right to know about the activities of government. <p>
+
+<LI> The proposal was not developed in response to a public concern
+or a business request.  It was put forward by the National
+Security Agency and the Federal Bureau of Investigation so that
+these two agencies could continue surveillance of electronic
+communications. It has not been established that is necessary for
+crime prevention.  The number of arrests resulting from wiretaps
+has remained essentially unchanged since the federal wiretap law
+was enacted in 1968. <p>
+
+<LI> The NIST proposal states that the escrow agents will provide the
+key components to a government agency that "properly demonstrates
+legal authorization to conduct electronic surveillance of
+communications which are encrypted."  The crucial term "legal
+authorization" has not been defined.  The vagueness of the term
+"legal authorization" leaves open the possibility that court-
+issued warrants may not be required in some circumstances.  This
+issue must be squarely addressed and clarified. <p>
+
+<LI> Adoption of the proposed key escrow standard may have an adverse
+impact upon the ability of U.S. manufacturers to market
+cryptographic products abroad.  It is unlikely that non-U.S. users
+would purchase communication security products to which the U.S.
+government holds keys. <p>
+
+</UL>
+</DOC>

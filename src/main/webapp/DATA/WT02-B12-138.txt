@@ -1,0 +1,286 @@
+
+<DOC>
+<DOCNO>WT02-B12-138</DOCNO>
+<DOCOLDNO>IA087-000631-B026-84</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.168.html 130.91.195.242 19970122071115 text/html 13066
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 07:10:45 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 12894
+Last-modified: Tue, 22 Nov 1994 06:33:29 GMT
+</DOCHDR>
+An International Cryptographic Experiment A Solution to the International Use of Cryptography? <p>
+
+An International Cryptographic Experiment
+      A Solution to the International Use of Cryptography? <p>
+
+Stephen T. Walker
+                Trusted Information Systems, Inc. <p>
+
+April 12, 1994 <p>
+
+Summary <p>
+
+This document proposes a program that could fundamentally change
+the international availability of information security products. <p>
+
+There is an ever growing need by individuals, corporations, and
+governments for improved protection of their sensitive
+information.  At the same time, governments worldwide need to
+maintain their prerogatives to control the use and export of
+cryptography by their own countries.  This paper proposes a
+development plan to provide a range of solutions to the
+international availability of cryptography which meets the needs
+of both governments and industry. <p>
+
+This international plan has emerged from a variety of ideas
+proposed by industry and governments in several countries. <p>
+
+The Overall Problem <p>
+
+As the world of business moves ever further into the information
+age, the need to protect sensitive information from unauthorized
+access is rapidly growing in all segments of the economy.
+Failure to provide appropriate mechanisms for protecting
+information vital to the functioning of an organization (be it a
+business or government) threatens the very existence of that
+organization.  Lack of such mechanisms will severely damage the
+potential of any national or global information highway. <p>
+
+And yet, the very availability of technological solutions to
+protect essential business and government information threatens a
+vital function of modern government in the information age, the
+monitoring of communications of its adversaries, be they
+terrorists, criminals, or others. <p>
+
+The dilemma posed by these fundamental and conflicting interests
+is causing difficult and emotional debates within many countries
+today.  The lack of a solution acceptable to both sides is
+frustrating both government and business interests and keeping
+much highly sensitive information at risk of compromise. <p>
+
+The Ingredients of the Problem <p>
+
+Until very recently, the use of cryptographic techniques for
+protecting information from unauthorized access was the exclusive
+domain of governments.  Only in the past fifteen years have
+algorithms such as the Data Encryption Standard and techniques
+such as public key cryptography made cryptography available to
+ordinary business interests.  Only in the past few years has the
+wide spread use of information networks raised the general
+public's awareness of the need for such protection. <p>
+
+Governments have long protected their prerogatives in
+cryptography through control of its export, import, and, in some
+cases internal use.  As cryptography has become available
+worldwide, continuation of these controls by governments has been
+seen as increasingly futile and restrictive by information system
+developers and users.  Nevertheless, the restrictions remain and
+the penalties are sufficiently severe to strongly curtail the
+availability of popular information system products with
+integrated cryptographic capabilities.  Vendors of major mass
+market software systems with worldwide markets will not afford to
+build products they cannot ship to all their existing and
+potential markets. <p>
+
+Meanwhile in an effort to establish what it feels is a reasonable
+balance between the interests of privacy and those of the law
+enforcement community, the US government has introduced a
+technique it calls key escrow that makes available strong
+cryptography while maintaining the interests of law enforcement
+by allowing decryption of key-escrowed communications when
+legally authorized. <p>
+
+The recently announced Tessera initiative by the US National
+Security Agency (NSA) places the cryptographic functions for
+protection of unclassified but sensitive information in an
+external card (called a PCMCIA card) that interfaces to
+applications running on a workstation or laptop computer.  This
+approach, which employs key escrow, has the advantage of
+isolating the cryptography from the computer system, thus making
+it difficult to modify and easier to control its distribution. <p>
+
+While the details of key escrow bother some, the US is proceeding
+with Tessera for at least government use.  Other governments are
+said to be considering similar programs. <p>
+
+Meanwhile, business groups within most western countries continue
+to try to convince their governments that the growing worldwide
+availability of cryptography makes further control of
+cryptographic export both futile and highly restrictive to the
+economic interests of those countries.  These efforts may
+eventually succeed in loosening some export control restrictions,
+but any coordinated worldwide relaxation of controls is highly
+unlikely in the near future. <p>
+
+An Interim Solution That Meets the Needs of Both Sides? <p>
+
+In the meantime, it is useful to explore alternatives that may
+provide at least partial solutions to this international dilemma
+while satisfying the interests of both sides.  The seeds of one
+potential solution come from a number of sources within various
+national government and industry initiatives. <p>
+
+The success of the NSA Tessera initiative depends upon the
+information systems industry adopting a common set of interface
+standards for Cryptographic Application Programming Interfaces
+(CAPIs).  The Tessera program has defined an initial set of such
+standards, but they must be endorsed industry-wide to succeed. <p>
+
+Various vendors such as Hewlett-Packard and National
+Semiconductor have proposed the development of additional PCMCIA
+card configurations that would make use of standard CAPIs and
+allow individual countries to implement their own collections of
+cryptographic algorithms serving their own particular needs.  If
+common CAPIs were to be widely adopted, initiatives such as the
+Tessera program in individual countries would be much more likely
+to succeed. <p>
+
+In the United Kingdom, the Ministry of Defence (MoD) has begun a
+Security in Open Systems (SOS) Technology Demonstration Programme
+(TDP) with a specific objective of defining such CAPIs and
+attempting to get them widely adopted by industry and government
+throughout the world. <p>
+
+These proposals, sparked in part by the Tessera program, could
+bring about a fundamental change in the availability of
+information security capabilities.  With common CAPIs at
+sufficiently high levels of abstraction, mass market software
+developers could include the capability for cryptographic
+functions in their products without implementing any particular
+cryptographic algorithms.  Such products, which rely on the user
+selecting the actual cryptography to be used at the time of
+actual use, should be readily exportable.  The user in a
+particular country would choose among those available
+cryptographic PCMCIA cards in that country to perform the actual
+encryption functions. <p>
+
+This approach offers the dual advantages of freeing major
+software vendors to include some form of cryptographic function
+in their products while allowing governments to retain the same
+controls they now have over the export, import, and use of
+cryptography.  Governments that wish to pursue techniques like
+key escrow can "enter the marketplace" and "prove" the advantages
+of their approach. <p>
+
+A program to define and place such CAPIs in use internationally
+requires no legislation (at least in most western countries) and
+can be adopted through industry-wide cooperation, drawing from
+already available draft CAPI standards. <p>
+
+An International Cryptographic Experiment <p>
+
+What is needed now is a consortium of interested parties in
+industry and government to define preliminary standards and place
+them in use on an experimental basis for a period of a year or
+two.  After this test period, international standards
+organizations would be requested to adopt the resulting CAPIs for
+widespread use throughout the world. <p>
+
+This paper proposes three phases for such an experiment: <p>
+
+CAPI Definition Phase (3 to 6 months) <p>
+
+A rapid effort over three to six months to define an initial
+     set of cryptographic application programming interfaces for
+     use in the experiment.  These interfaces would be derived
+     from the Tessera interface standards, a National Institute
+     of Standards and Technology draft entitled Standard for
+     Cryptographic Service Calls, other publicly available
+     specifications from industry in the US, UK, Canada, Germany
+     and elsewhere, and from the efforts of programs such as the
+     UK Technology Demonstration Programme.  This effort should
+     look at such interfaces in the context of multiple
+     cryptographic algorithms. <p>
+
+Development Phase (3 to 6 months) <p>
+
+Application Software Development.  Major software
+     application developers would include cryptographic function
+     calls to the high-level CAPIs within their products.
+     Products containing these function calls would be tested
+     against the PCMCIA implementations that would be developed
+     in the next phase.  These high-level products that contain
+     no cryptography themselves should not be subject to export
+     controls in most countries.  All exports of these products
+     will be coordinated with the country's government in which
+     they are developed. <p>
+
+PCMCIA card implementations.  Cryptographic functions that
+     meet the CAPIs would be implemented in each participating
+     country in accordance with the cryptography available in
+     that country.  These implementations may not be exportable
+     from the country of implementation depending upon the type
+     of cryptography used. <p>
+
+Experimental Use Phase (one to two years) <p>
+
+As soon as applications using the CAPIs are generally
+     available and PCMCIA implementations of specific
+     cryptography are available in specific countries, a one-to-
+     two-year experimental period will commence.  During this
+     period, coordination of use within each participating
+     country and among participating countries (where compatible
+     cryptography is available) will validate the design and
+     implementation of the CAPIs and lead to additional
+     application development.  Because the actual use of
+     cryptography is constrained to be in accordance with the
+     internal regulations of each  participating country, there
+     should be no export issues with this phase.  Following the
+     experimental use phase, international standards
+     organizations will be consulted to begin adoption of the
+     validated CAPIs as international standards. <p>
+
+Additional Thoughts <p>
+
+The approach proposed herein relies on the use of PCMCIA cards
+for isolating the selection of cryptographic functions to a
+user's decision at the time of use rather than a developer's
+decision at the time of implementation.  This time-of-use feature
+is essential to allowing application developers to employ high-
+level cryptographic functions without encountering export
+controls. <p>
+
+However, the use of PCMCIA devices is considered a disadvantage
+by many because of extra hardware costs and potential performance
+issues.  It may be possible within a particular country to
+implement system level cryptographic software compatible with the
+PCMCIA CAPIs.  Such software functions would be subject to export
+control and if integrated directly into the general purpose
+application, would render that version of the application
+unexportable.  If a sufficient market existed within a particular
+country, overcoming the hardware disadvantages may be worth the
+export restrictions. <p>
+
+Some will argue that this approach does not satisfy government's
+concerns with the widespread availability of cryptography.  In
+reality, though, this approach gives governments that wish to
+pursue techniques such as key escrow their best chance for
+success by providing a wide marketplace of application programs
+that can easily be used by their PCMCIA cards so long as they are
+compatible with the evolving worldwide standards. <p>
+
+So Where Do We Go From Here? <p>
+
+Persons interested in participating in such a consortium should
+send email to ice@tis.com; or correspondence to Stephen T.
+Walker, Trusted Information Systems, Inc., 3060 Washington Road
+(Rt. 97), Glenwood, MD  21738.  Please use the words "Crypto API"
+in the subject field of your internet message or letter and
+indicate whether you are interested in: <p>
+
+application development,
+     cryptographic function development,
+     participating as a user, or
+     something else. <p>
+
+As our contacts in various industries and governments develop, we
+will be back to you with details on how to proceed. <p>
+
+- ------- End of Forwarded Message <p>
+
+------- End of Forwarded Message <p>
+
+</DOC>

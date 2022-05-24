@@ -1,0 +1,72 @@
+
+<DOC>
+<DOCNO>WT02-B15-108</DOCNO>
+<DOCOLDNO>IA059-000319-B007-65</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/menus/survey.html 205.168.79.27 19970114193037 text/html 1621
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 19:30:34 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 17 Jun 1996 21:45:36 GMT
+Content-length: 1447
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>DOE EREN - User Feedback Survey </TITLE>
+
+</HEAD>
+<BODY bgcolor="#FFFFFF" vlink="#843131" text="#000000" link="#323294">
+
+<center>
+<a href="/cgi-bin/imagemap.cgi/picts/eren.map"><img src="/picts/eren.gif" ISMAP border=0></a>
+<H1>User Feedback Survey
+</H1>
+<IMG SRC="/picts/topbar.gif">
+</center>
+<BR>
+<H4>Please help us to improve the Energy Efficiency and Renewable Energy Network by giving us your comments and suggestions.</H4>
+<FORM method=POST ACTION="/cgi-bin/survey.cgi">
+<H2>Personal Information</H2>
+<H4>
+Name: <INPUT NAME="name" SIZE=30>
+<P>
+E-mail: <INPUT NAME="email" SIZE=30>
+<P>
+Institution: <INPUT NAME="institution">
+</H4>
+<H2>Suggestion Area:</H2>
+<H4>
+Best Features:
+<P>
+<INPUT NAME="best" SIZE=60,3>
+<P>
+Features you would like to see added:
+<P>
+<INPUT NAME="new" SIZE=60,3>
+<P>
+Additional information or data sources you could suggest<P>
+<INPUT NAME="addinfo" SIZE=60,3>
+<P>
+Data Usefulness, General Comments/Suggestions:<P>
+<INPUT NAME="comments" SIZE=60,3>
+<P>
+<PRE><INPUT TYPE="submit" VALUE="Submit Survey">                <INPUT TYPE="reset" VALUE="Clear Form"></PRE>
+</H4>
+</FORM>
+<BR>
+<IMG SRC="/picts/erenbar.gif">
+<center>
+<pre>
+</pre>
+<p><H4>
+Return to <A HREF="/">EREN Home Page <IMG ALIGN=BOT SRC="/picts/return1.gif"></A><P>
+</center></H4>
+
+<IMG SRC="/picts/erenbar.gif">
+<P>
+Please send comments to:<br>
+<A HREF="mailto:webmaster.eren@nrel.gov">webmaster.eren@nrel.gov</A><P>
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,174 @@
+
+<DOC>
+<DOCNO>WT02-B26-171</DOCNO>
+<DOCOLDNO>IA075-000495-B007-158</DOCOLDNO>
+<DOCHDR>
+http://hyun.seri.re.kr:80/Projects/DVIS.html 150.183.108.63 19970122015619 text/html 5368
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 01:50:14 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 10 Jun 1996 06:42:31 GMT
+Content-length: 5194
+</DOCHDR>
+<html>
+
+<title>
+	Development of A Visual  Inspection System Using Computer Vision and Artificial Intelligent Technology	
+</title>
+
+<br><br>
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Title of the Study
+</h2>
+<ul>
+<h3>
+	"Development of A Visual  Inspection System Using Computer Vision and Artificial Intelligent Technology"
+</h3>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Objectives of the Study 
+</h2>
+<ul>
+<p>
+   The automatic  vision inspection systems  whose development was  started in e
+arly  1970s are widely  used for the  industry applications such  as automobile, electrical and electronics. food and pharmacetical,  chemical and metallic, etc, in industrialized  countries. These systems are connected to  the robots and functions as robot  eyes for the process control and  product quality control  and also used  for the variety of  applications such as  judging the product's quality, inspecting  the faults  of the  product, counting  the special  features in the  product, identifying and the sorting the product, etc.
+   <ul>
+   The automatic vision inspection systems can:<br>
+   o  eventually free the workers from simple repetitive jobs,<br>
+   o  reduce the production cost,<br>
+   o  replace human workers in the hostile work environment,<br>
+   o  perform inspection of massively producted    commodities fast and accurately in real time fashion,<br>
+   o  perform very sophistigated inspection which human workers can not perform
+and thus the necessity, importance and market prospect is growing rapidly.<br><br>
+   The domestic research  activity in this field has not  been much active excep
+t some  basic researches performed in the universities and the large  scale research for the d evelopment and utilization of automatic vision inspection system in Korea seems to be one of the indispensible and paramount task for the immediate necessity.
+   </ul>
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Contents and Scope of the Study 
+</h2>
+<ul>
+<p>
+   This is  the first  year of  prospected three year  project and  building up basic research eveironment and  developing tools for the  automatic vision inspection system  was the prime target of this years research. The contents and scope of this year's research are as follows:<br><br>
+A. Analysis of the state-of the state-of-the-art in automatic vision inspection
+industry:
+     <ul>
+     Technology trend in industrialized countries<br>
+     Application fields<br>
+     Application case study<br>
+     </ul>
+B. Analysis of consideration elements for the automatic vision inspection system
+ design:
+     <ul>
+     Image acquisition devices<br>
+     Sensors<br>
+     Lighting, light sources and illuminating techniques<br>
+     Hardware<br>
+     </ul>
+C. Analysis of the automatic vision inspection algorithm and software implementa
+tion:
+     <ul>
+     Preprocessing<br>
+     Image analyses and representations<br>
+     </ul>
+D. Development of prototype keyboard inspection system:
+     <ul>
+     Hardware<br>
+     Software<br>
+     </ul>
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Results of the Study 
+</h2>
+<ul>
+<p>
+   The results of this year's study can be divided into three major sections which are survey of the state-of-the-art, development of visual inspection algorithm  library and development of prototype keyboard inspection system.<br><br>
+
+A. Survey of the state-of-the-art:
+     <ul>
+     Technology trend:
+       <ul>
+       - inspection chip and board<br>
+       - sensor and camera<br>
+       - lighting<br>
+       - ranging<br>
+       - inspection system<br>
+       </ul>
+     </ul>
+     <ul>
+     Industrial application of visual inspection systems:
+       <ul>
+       - automobile<br>
+       - ceramics and bottles<br>
+       - electrical and electronics<br>
+       - chemical and metallic<br>
+       - food and pharmacetical<br>
+       - others<br>
+       </ul>
+      </ul>
+B. Considerations for system design:
+     <ul>
+     hardware<br>
+     software<br>
+     </ul>
+C. Development of inspection algorithm library (in progress):
+     <ul>
+     Preprocessing:
+       <ul>
+       - geometric correction<br>
+       - noise removal<br>
+       - edge extraction<br>
+       - segmentation and binarization<br>
+       - thinning<br>
+       - matrix-list mapping<br>
+       - erosion and dilation<br>
+       </ul>
+     </ul>
+     <ul>
+     Image description:
+       <ul>
+       - connected component<br>
+       - Euler number<br>
+       - Fourier representation<br>
+       - moment calculation<br>
+       - distant measurement<br>
+       - area calculation<br>
+       - position and orientation<br>
+       - compactness<br>
+       - slope density function<br>
+       - shape number<br>
+       </ul>
+     Image transformation<br>
+     Inspection algorithm:<br>
+     </ul>
+D. Development of prototype keyboard inspection system:
+     <ul>
+     Hardware design<br>
+     Algorithm development and software implementation<br>
+     </ul>
+</p>
+</ul><br>
+
+<hr><br>
+
+<ul>
+<h3>
+<address>
+<a href="../projects.html"><img alt="" src="../Icons2/Arrows/larrow.gif" width=10% height=8%></a> Go Back One Step!
+</address>
+</h3>
+</ul><br><br>
+
+
+</html>
+</DOC>

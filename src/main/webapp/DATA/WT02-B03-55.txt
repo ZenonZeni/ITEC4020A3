@@ -1,0 +1,94 @@
+
+<DOC>
+<DOCNO>WT02-B03-55</DOCNO>
+<DOCOLDNO>IA002-000022-B023-238</DOCOLDNO>
+<DOCHDR>
+http://www.questercorp.com:80/harwich.html 204.174.117.37 19961231213822 text/html 8055
+HTTP/1.0 200 OK
+Date: Tue, 31 Dec 1996 21:38:30 GMT
+Server: Stronghold/1.3.2 Ben-SSL/1.3 Apache/1.1.1
+Content-type: text/html
+Content-length: 7855
+Last-modified: Tue, 24 Dec 1996 18:44:38 GMT
+</DOCHDR>
+<HTML><head>
+<title>Quester Tangent QTC VIEW at the Port of Harwich</title>
+
+</head>
+<body  bgcolor="#ffffff" BACKGROUND="graphics/paper4.jpg"  text="#333399" link="#00A000" alink="#EE0000" vlink="#861C8E">
+
+
+<IMG SRC="graphics/qtc.gif" alt=" ">
+
+
+<TABLE BORDER=0>
+<TR><TD><IMG ALIGN=LEFT HSPACE=8  SRC="graphics/spacer.jpg" alt=" "></TD><TD> 
+<H1>Port of Harwich</H1>
+The Port of Harwich is one of the largest container ports in the United Kingdom. The harbour floor is mapped regularly utilizing single and multibeam bathymetric surveys and seabed sampling techniques.  Seismic profiling, subsurface sampling and bathymetric mapping are used to assist in managing large-scale dredging operations.<P>
+A QTC VIEW trial was held as the Harwich Haven Authority wished to evaluate echosounder-based seabed classification technology to assist dredging programs and provide details for harbour-floor environmental monitoring.<P>
+<H3>System Configuration</H3>
+The QTC VIEW seabed classification system was used for this trial.  The survey platform was a 12m launch with an ODOM 208 kHz echosounder.  The transducer was rigged to the vessel's side.  The QTC VIEW was linked via a junction box located between the transducer and sounder to monitor the transmitted pulse and first returning echo.  A 486DX laptop computer was connected to the QTC VIEW using a PCMCIA interface and a RS232 serial connection.  GPS information was transmitted to the laptop via a RS232 serial connection, and utilized a NMEA 183 GGA format.  The QTC VIEW system was powered by two car-sized batteries supplying 24 volts.<P>
+<H3>Geological Setting</H3>
+The survey area was located adjacent to a jetty (Fig. 1).  A dredged berthing basin along the face of the jetty had an average water depth of 10 - 12m and the basin's western boundary was marked by a small slope.  Directly west of the basin was the main channel, a dredged trough approximately 12-15m deep.  To the west of the trough was a shallow shelf approximately 8m below sealevel.
+Previous dredging and grab sampling data indicated the shelf was a mud veneer over boulders and cobbles in a matrix of medium to fine sand and mud.  The toe of the slope leading from the shelf consisted of well-sorted fine to medium sand in a muddy matrix.  Mud or fine sand was expected in the main channel or berthing basin.<P>
+Figure 1.	Schematic representation of the survey area showing the shelf, main channel, berthing basin and jetty. Circled numbers represent approximate locations of calibration sites.
+<H3>Calibration</H3>
+System calibration was completed by collecting approximately 200 echo's at sites representative of each bottom type to be mapped.  Although calibration from the complete range of seabed types was ideal, it was not absolutely necessary as new seabed classes can be recognized and mapped during post-processing.
+Four calibration sites were identified from previous grab sampling and dredging operations including two sites on the shelf, one at the toe of the slope, and one in the main dredged channel.  A total of six calibration samples were taken: one from each of the four basic areas, one extra sample at the toe of the slope, and one to the south of the survey area (Fig. 1).  Grab samples were collected from each site, excepting site 6 south of the survey area.
+A catalogue of seabed classes was defined using the information collected during the calibration exercise 
+(Table 1).  Classes were defined based upon a visual estimate of grain size and sediment consolidation identified in the grab sample. 
+
+<CENTER><TABLE WIDTH=70% cellspacing=5 cellpadding=5 BORDER=1>
+<CAPTION><STRONG>Table 1</STRONG></CAPTION>
+     
+     <TR>
+          <TD WIDTH=20%>Class 1</TD>
+          <TD>Pebbles in a matrix of fine sand and mud</TD>
+     </TR>
+     <TR>
+          <TD>Class 2</TD>
+          <TD>Mud, compacted</TD>
+     </TR>
+     <TR>
+          <TD>Class 3</TD>
+          <TD>Mud, liquefied</TD>
+     </TR>
+     <TR>
+          <TD>Class 4</TD>
+          <TD>Fine sand, mud, bioturbated</TD>
+     </TR>
+     <TR>
+          <TD>Class 5</TD>
+          <TD>Mud, liquefied, over very well sorted medium to fine sand and 10% shell hash</TD>
+     </TR>
+ <TR>
+          <TD>Class 6</TD>
+          <TD>N/A, (assumed sand and gravel)</TD>
+     </TR></TABLE></CENTER>
+
+<H3>Survey Operations</H3>
+Fifteen east-west lines and 2 north-south tie-lines were completed. The main east-west lines were approximately 1300m long at 100m intervals.  Seas were moderate with a strong tidal current.  The survey speed was 7 knots.<P>
+<H3>Results</H3>
+The initial assessment of the data indicated the shelf consisted of classes 1, 2, and 4 (areas of pebbles, sand, mud; compact mud; and fine sand).  The main channel was highly variable and contained classes 3, 4, 5, and 6 suggesting a bottom of soft mud, fine sand and mud, soft mud over well-sorted sand, and sand and gravel (assumed).  Class 3 was more abundant towards the eastern side of the main channel.  The east end of the survey area (berthing basin) contained classes 4, 5, and 6 suggesting a seabed of fine sand, soft mud over fine sand, and sand and gravel (assumed).<P>
+The calibration data was analyzed and the result indicated the acoustic signal from class 3 was similar to class 5.  This was likely caused by limited penetration of the 200 kHz sounder in the soft mud deposited over the sand at site 5.  As signals from sites 3 and 5 were likely the response from the liquefied mud, class 5 was merged into class 3.  Sites 4 and 6 were acoustically similar, suggesting site 6 consisted primarily of sand instead of assumed sand and gravel.  Class 6 was merged into class 4.<P>
+The seabed classification result is shown in Figure 2.  It indicates the shelf area is primarily fine sand with patches of compact mud and pebbles in a muddy sand matrix.  The floor of the main channel is soft mud, and the berthing basin has soft mud and fine sand to the south grading to fine sand to the north.  A patch of compacted mud and pebbles in a muddy sand matrix occurred in the northeast corner of the survey area.<P>
+Figure 2.	Map of seabed classification over a 3-D plot of the bathymetry.  The seabed consists of four classes including mud, fine sand with silt and some pebbles, pebbles in a sandy mud matrix, and pebbles in a muddy sand matrix.
+<H3>Summary</H3>
+Seabed classification technology is well-suited to this type of application with the calibration and surveying exercise generating satisfactory real-time results.  The QTC VIEW technology and classification method provides efficient post-processing of data.  Analysis of the calibration data, specifically the acoustic signal from the various calibration sites, revealed similarities between classes and warranted the merging of these classes before producing a  final plot.<P>
+</TD><TD>&#160;&#160;</TD></TR></TABLE>
+
+<IMG ALIGN=LEFT HSPACE=8  SRC="graphics/spacer.jpg" alt=" "><HR SIZE=4><BR><CENTER><font size="+1"><A HREF="chesapea.html">[Chesapeake Bay, Maryland Survey Report]</A>&#160;&#160;<A HREF="qtcview.html#more">[QTC VIEW Details]</A></font></CENTER><BR CLEAR=ALL>
+
+<A HREF="index.html"><IMG HSPACE=15 Border=0 Align=Left SRC="graphics/queshome.gif" alt=" "></A>
+<TABLE  BORDER=0>
+<TR><TD><FONT SIZE=4>Go to <BR><A HREF="index.html">HOME PAGE</A>
+<P></TD><TD>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<P></TD>
+<TD><strong>How to reach us:<BR>
+
+&#160;&#160;&#160;&#160;Phone: 1-250-656-6677 <br>
+&#160;&#160;&#160;&#160;Fax: 1-250-655-4696<BR>
+&#160;&#160;&#160;&#160;E-mail: <a href=mailto:sales@questercorp.com>sales@questercorp.com</a></strong></FONT></TD></TR></TABLE>
+<IMG ALIGN=LEFT HSPACE=8  VSPACE=30 SRC="graphics/spacer.jpg" alt=" "><HR SIZE=4><FONT SIZE="-1">Copyright &#169; 1996 by QUESTER TANGENT CORPORATION<BR>
+9865 West Saanich Road, Sidney, B.C. Canada V8L 3S1
+</body></html>
+</DOC>

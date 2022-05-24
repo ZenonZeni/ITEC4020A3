@@ -1,0 +1,143 @@
+
+<DOC>
+<DOCNO>WT01-B06-54</DOCNO>
+<DOCOLDNO>IA053-000894-B001-447</DOCOLDNO>
+<DOCHDR>
+http://www.aaii.org:80/ci/neural2.html 206.30.246.237 19970111222634 text/html 16516
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Saturday, 11-Jan-97 22:29:32 GMT
+Last-modified: Wednesday, 12-Jun-96 01:16:58 GMT
+Content-length: 16327
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>American Association of Individual Investors</title>
+
+<META HTTP-EQUIV="CVS-file"     CONTENT="$RCSfile: neural2.html,v $">
+<META HTTP-EQUIV="CVS-revision" CONTENT="$Revision: 1.6 $">
+<META HTTP-EQUIV="CVS-date"     CONTENT="$Date: 1996/06/12 01:16:57 $ UTC">
+</head>
+
+<body background="../gif/aaiiback.gif">
+
+
+
+<P ALIGN="center">
+<A HREF="../map/head.map"><IMG SRC="../gif/head_comp.gif" ALT="header" WIDTH=600 HEIGHT=64 BORDER=0 ISMAP></A>
+<BR>
+<H2 ALIGN="center"> Developing A Neural Network System Part 2</H2>
+<hr>
+<STRONG>By Howard Bandy</STRONG><P>
+
+This article is the second of a two-part discussion of the basics of using a neural network to build a financial forecasting system. <P>
+
+The first part [see the July/August issue of Computerized Investing also on AOL] gave an overview of neural networks, emphasized the importance of carefully defining the forecast to be made and of having a method available for determining whether any given set of forecasts would be profitable. It also discussed the selection and preparation of data. This conclusion will continue discussion of the design of the forecasting model, measurement of the model's accuracy, and the transition from development of the model to its implementation. <P>
+
+Neural networks are tools that can be used equally well with fundamental data (such as commodity prices, interest rates, profit margins, and market share) and technical data (such as share price relative to its moving average). They are particularly powerful for combining fundamental, technical, and inter-market factors together in a single model. In some ways, neural networks can be thought of as generalizations of regression analysis. <P>
+
+
+<STRONG>Designing the Neural Network</STRONG><P>
+
+There are many methods of implementing the internal workings of neural networks. Most programs give the user some control over some of the options such as the number of layers to use and the number of neurons in each hidden layer. See Figure 1, a reprint from Part 1 of this series, for a depiction of what a typical network looks like. <P>
+
+Determining the optimal number of layers and hidden neurons will require some trial and error. For most applications, one hidden layer is sufficient. The network requires enough hidden neurons to learn the general features of the relationship. With too many hidden neurons, it will begin to learn idiosyncrasies in the training set and will predict the test set poorly; with too few, it will fail to learn the general features and will fail to train on the training set. The goal is to use as few neurons in the hidden layer as possible while still retaining the network's ability to learn the relationships among the data. <P>
+
+Assuming that there is only one output neuron, experience suggests to begin by setting the number of hidden layer neurons to the square root of the number of input layer neurons. If the model fails to train, increase the number of hidden layer neurons and try again. If the model trains well and validates poorly, decrease the number of hidden layer neurons and try again (the process of training and validation are explained later in this article). When the model trains well and validates well, you have found the right number. If the model is successful, it will probably not be extremely sensitive to the number of hidden neurons. For example, if the model works well with 12 hidden neurons, it will probably also work nearly as well with 10, 11, 13, or 14. <P>
+
+If you cannot get the model to both train well and validate well, then either additional (or different) independent variables are needed, or the dependent variable cannot be modeled (as would be the case if it were random). <P>
+
+It is popularly thought that neural networks can be presented with large amounts of data in many independent data streams and that the networks will determine what is important and ignore the rest. I have found that, in modeling financial time series, neural networks often perform poorly when given too many extraneous independent variables. Unfortunately, it is very difficult to determine which variables are important and which are not. Consequently, it is difficult to prune out unnecessary input variables in order to make room for others. And, since cross-variable interactions are often important, it is difficult to test blocks of variables. <P>
+
+
+<STRONG>Training the Model</STRONG><P>
+
+During the training process, the goodness of fit between the actual target output and the value predicted by the network is measured. Recall from the previous article that the training is an iterative process incorporating both the training set and the test set. The neural net uses the training set of data, the first 60% of the time series, to learn the relationships between the input variables and the output variable. The goodness of fit is measured by running the model against both the training set and the test set, the next 20% of data in the time series. The information resulting from this process is used to guide the process of modifying the model and repeating the training process until a successful model is found. <P>
+
+The goodness of fit can be judged from several different perspectives. Depending on your trading system, you may want the model to give the lowest average error or you may want the model to give the most conservative worst error. Which of these is best can be determined only later by testing the trading signals that result from the model. To begin with, tell the neural network development system to minimize mean square error. Stop training after either the error in the training set is minimum or the error in the test set has reached a minimum and begun to increase the stopping criteria will depend in part upon the options provided by the program. <P>
+
+
+<STRONG>Validating the Model</STRONG><P>
+
+After the model successfully learns the training set and predicts the test set, apply it to the production set (the last 20% of data in the time series) and measure the goodness of fit for this set. This process is referred to as validation. <P>
+
+The validation step is extremely important. The key point in this step is to compare the goodness of fit that results for each of the three data sets. <P>
+
+Look at the three data sets separately. If a functional relationship among the independent and dependent variables exists, as it might in a chemical manufacturing process, the three will be similar in correlation and in scatter plot. With very noisy data, such as financial data, expect the training set to have the best fit, the testing set next best, and the production set the worst fit. <P>
+
+Three quick and dirty methods can be used for judging the goodness of fit. The first is to compare the mean square error reported by the program as it processes each of the three data sets. The second is to compare the correlation between the network prediction and the associated target value (the known point that the network is trying to model) for each of the three data sets. <P>
+
+The third is to create a scatter plot for each data set. Plot the neural network prediction along the horizontal axis and the associated target value along the vertical axis (see Figure 2). Perfect learning (a perfect fit) will be indicated by all the points falling on a line running from lower left to upper right, while no learning (a random fit) will be indicated by the points being distributed in a circular cloud. The more likely result is partial learning, which will be indicated by a well formed ellipse. <P>
+
+The next decision about the model's goodness of fit will probably be based on the model's success in predicting the production set. Choosing a production set that includes a block of recent data enables the modeler to verify the current validity of the trading signals and equates to traditional paper trading of a new system. <P>
+
+Unlike regression models, it will be difficult to determine what the functional relationship is among the independent variables in any neural network. Some neural network tools allow the weights associated with connections between neurons to be displayed. Relatively large (positive or negative) weights correspond to relatively important contributions. But the neural network modeling process is inherently non-linear, so straightforward interpretation of the weights or of the relationship, particularly related to the hidden neurons, is difficult. Worse, from the point of personal understanding, two versions of the same model that result from different starting points in the modeling process may have very different weight sets, yet both may give accurate predictions. <P>
+
+
+<STRONG>Examining the Bottom Line</STRONG><P>
+
+The ultimate goodness of fit indictor is the bottom line in the trading account. It is important that you evaluate the risk and reward aspects of a neural trading model. Take the values predicted by the model and use some set of profit and loss testing tools to perform this analysis. Unfortunately most software for developing neural network models lack adequate profit and loss testing tools, so you might have to use a spreadsheet or separate program to accomplish this task. <P>
+
+The buy and sell prices used in the evaluation of the model should be those that will be used in actual trading. If the model predicts the percentage change in net asset value of a mutual fund one week ahead and if signals are computed over the weekend using Friday's closing data, then the buy and sell price will probably be Monday's close. Using Friday's closing prices as the trading price will probably give an inaccurate result. Try using both prices and compare if there is a big difference, it might be worthwhile to develop a procedure to anticipate signals, then trade on Friday. <P>
+
+You need to quantify the reward and risk for making trading decisions based upon the model's predicted values for the dependent variable. Include realistic provisions for commissions and slippage (slippage is the cost of buying at the offer price and selling at the bid price or somewhere in between). Compare the bottom line obtained from this system with alternatives such as money market only, buy-and-hold, other trading systems. <P>
+
+
+<STRONG>Creating an Operational System</STRONG><P>
+
+After the model has been successfully developed, it must be made operational it must be set up to give useful trading signals. That is, it must be integrated with whatever system is used for data acquisition. <P>
+
+In operation, data must be gathered and processed with the same frequency as signals will be generated. If end-of-day signals will be generated, data can be collected after the markets close, converted into the necessary storage formats, and processed by programs or spreadsheets to compute a new observation (row) with the same transformed variables used in building the model. <P>
+
+A prediction module that examines the newly created row of inputs is then called to produce a prediction, and the prediction interpreted into a trading signal. If intra-day signals will be generated, all of this processing must take place in real time. <P>
+
+If the neural network is being used with fundamental data or technical data that is gathered less frequently (such as monthly or quarterly profitability figures) there is less urgency, but the important point remains that the operation of a neural network model will be quite different than its development. <P>
+
+At the current time, neural network programs seem to fall into three categories regarding on-going operations: <P>
+
+- Stand-alone programs that require all transformations be made externally by whatever method the user prefers. Fully transformed data is imported into the neural network development program, which is run to give a prediction. These programs are adequate only for systems that are run very infrequently. <P>
+
+- Spreadsheet add-ins. Raw data is imported into a spreadsheet, transformations take place in the spreadsheet, and the prediction is displayed in a spreadsheet cell. These can be used for systems that use end-of-day information to generate signals daily or less frequently. To be useful, be sure there is a way to automatically gather data and place it in the correct cells of the spreadsheet. <P>
+
+- Neural networks, which could be either of the first two types for the development phase, that generate a programming language subroutine (typically BASIC or C), which is incorporated into a production system. The production system contains modules necessary to gather data, transform data, call the neural model for an evaluation, and postprocess to result in a trading signal. Custom programming is required to create a complete trading system. These systems can be used real-time or end-of-day data and can be automated. <P>
+
+For further information about how to select neural network programs, see my recent article in the NeuroVe$t Journal, Thoughts on Desirable Features for a Neural Network-Based Financial Trading System (P. O. Box 764, Haymarket, Va. 22069, 703/754-0696). The article includes discussion of features of stand-alone neural network products versus spreadsheet add-ins. <P>
+
+
+<STRONG>Retraining the Model</STRONG><P>
+
+The neural network model needs to be retrained periodically. The frequency of this retraining depends on the ongoing agreement between the predictions made by the model and the target being modeled. <P>
+
+If the training set includes several years and the model predicts well for production sets of several months, then retraining will be necessary only a few times a year. On the other hand, if the model predicts well only a short time beyond the prediction period, then frequent retraining will be necessary. <P>
+
+The retraining process is essentially the same as the model development process, but it should be easier because the previous model establishes  a good starting point. <P>
+
+
+<STRONG>Conclusion</STRONG><P>
+
+Do neural networks work for financial forecasting? Yes. Is it easy? No. Is there help available? Very little. Are  development tools adequate? Barely. Are the production tools adequate? Not yet. <P>
+
+Should you try it? Maybe. Remember that neural networks are more analysis tools than direct solutions. If you do try it, expect to spend a lot of time in the development phase locating data, thinking up transformations, transforming data, training the model, and testing the model. When you finally get your first model that works, expect to spend a lot of time generating signals downloading raw data, performing transformations, referencing the neural prediction module either by hand or writing the programs to perform these tasks automatically. Developing your second model will be easier, partially because you know the general procedure and partially because portions of the first model will be reusable. Signal generation from your second model will be easier only if you developed programs with the first model. <P>
+
+Each tradable issue and time frame combination needs its own model. The models can be very large, so you'll need a lot of computer power. Based on the assumption that there will be 40 independent variables, there will need to be 1,000 to 2,000 rows of data. A spreadsheet to store and manipulate this will be several megabytes. And there will be several versions of the model, each with its own spreadsheet. Model development is computationally very intensive an 80386 or equivalent is the minimum processor required. <P>
+
+What tools should you use? Along with some very high quality programs, there are some widely advertised, expensive, but (from the perspective of financial forecasting) very poor neural network programs. Before committing to an expensive product, get either a limited capability, lower-cost, trial version or negotiate a trial period with a written, money-back guarantee. 
+<P>
+Howard Bandy, Ph.D., develops and evaluates computer-based trading systems. Questions and comments for Dr. Bandy can be sent on CompuServe (74672,2600). To send on AOL 74672,2600@compuserve.com. <P>
+
+<HR>
+
+<p align=center><A HREF="../home.html">AAII Home</A> |
+<A HREF="../index.html">Index Page</A> | <A HREF="mailto:aaiimembr@aol.com">Email</a> |
+<A HREF="http://networth.galt.com">NETworth Home</A></p><hr>
+<!TAIL>
+
+
+
+<!/TAIL>
+
+
+</body>
+</html>
+</DOC>

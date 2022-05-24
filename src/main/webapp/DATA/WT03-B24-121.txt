@@ -1,0 +1,281 @@
+
+<DOC>
+<DOCNO>WT03-B24-121</DOCNO>
+<DOCOLDNO>IA053-000896-B001-175</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/hoffman.html 129.174.40.15 19970123200827 text/html 10861
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:07:13 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 07 Dec 1995 23:02:52 GMT
+Content-type: text/html
+Content-length: 10677
+</DOCHDR>
+<html>
+<head>
+<Title>Professor Lance J. Hoffman's Presentation</title>
+<center>
+<h1><a href="http://www.seas.gwu.edu/faculty/hoffman/">
+Professor Lance J. Hoffman</a></h1>
+<h2><a href="http://www.seas.gmu.edu/seas/instctsp/ictsp.html">
+Institute for Computer and Telecommunications Systems Policy</a></h2>
+<h2>George Washington University</h2>
+</center>
+Presentation to NIS&T Encryption Exort Key Escrow workshop.
+<p>
+This presentation was given Thursday September 7, 1995.
+<p>
+<i>Note from pfarrell: 
+The tables use <strong>
+Netscape 1.1 extensions</strong>, and may not look correct with other browsers.
+This presentation was submitted as WordPerfect
+tables. I couldn't make them into HTML, so I reentered the data. 
+Any typos are mine.</i>
+<h2>Slide 1, Vice President Gore's Criteria</h2>
+This slide shows the criteria contained in Vice President Gore's letter
+to Rep. Maria Cantwell, 20 July 1994.
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD> NIS&T Key Escrow Draft Software Criteria Number.
+</TD><TD> Strong Crypto	
+</TD><td> OK for Commercial
+</td><td> OK for National Security</td></TR>
+<TR><TD> 1</td><td> </td> <td> </td> <td> </td></tr>
+<tr><td> 2</td></tr>
+<tr><td> 3</td></tr>
+<tr><td> 4</td></tr>
+<tr><td> 5</td></tr>
+<tr><td> 6</td></tr>
+<tr><td> 7</td></tr>
+<tr><td> 8</td></tr>
+<tr><td> 9</td></tr>
+<tr><td> 10</td></tr>
+</TABLE>
+</CENTER>
+This visual is based upon Mike Nelson's 6 September 1995 slide.
+
+<h2>Slide 2, Nothing Magic about Ten Criteria</h2>
+We can add or delete criteria to Satisfy the Vice President's Requirements.
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD> NIS&T Key Escrow Draft Software Criteria Number.
+</TD><TD> Strong Crypto	
+</TD><td> OK for Commercial
+</td><td> OK for National Security</td></TR>
+<TR><TD> 1</td><td> </td> <td> </td> <td> </td></tr>
+<tr><td> 2</td></tr>
+<tr><td> 3</td></tr>
+<tr><td> 4</td></tr>
+<tr><td> 5</td></tr>
+<tr><td> 6</td></tr>
+<tr><td> 7</td></tr>
+<tr><td> 8</td></tr>
+<tr><td> 9</td></tr>
+<tr><td> 10</td></tr>
+<tr><td> 11</td></tr>
+<tr><td> 12</td></tr>
+</TABLE>
+</CENTER>
+
+
+<h2>Slide 3, Seem to Have Got National Security Requirements Right </h2>
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD> NIS&T Key Escrow Draft Software Criteria Number.
+</TD><TD> Strong Crypto	
+</TD><td> OK for Commercial
+</td><td> OK for National Security</td></TR>
+<TR><TD> 1</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 2</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 3</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 4</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 5</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 6</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 7</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 8</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 9</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 10</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 11</td><td> </td><td> </td><td>  </td></tr>
+<TR><TD> 12</td><td> </td><td> </td><td>  </td></tr>
+</TABLE>
+</CENTER>
+
+
+<h2>Slide 4, Only Criteria #1 Addresses <i>Strong</i> Crypto</h2>
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD> NIS&T Key Escrow Draft Software Criteria Number.
+</TD><TD> Strong Crypto	
+</TD><td> OK for Commercial
+</td><td> OK for National Security</td></TR>
+<TR><TD> 1</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 2</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 3</td><td> -- </td><td>  </td><td> + </td></tr>
+<TR><TD> 4</td><td> -- </td><td>  </td><td> + </td></tr>
+<TR><TD> 5</td><td> -- </td><td>  </td><td> + </td></tr>
+<TR><TD> 6</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 7</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 8</td><td> -- </td><td>  </td><td> + </td></tr>
+<TR><TD> 9</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 10</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 11</td><td> -- </td><td> </td><td>  </td></tr>
+<TR><TD> 12</td><td> -- </td><td> </td><td>  </td></tr>
+</TABLE>
+</CENTER>
+
+
+<h2>Slide 5, Only Four of the Draft Criteria Satisfy Commercial Requirements</h2>
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD> NIS&T Key Escrow Draft Software Criteria Number.
+</TD><TD> Strong Crypto	
+</TD><td> OK for Commercial
+</td><td> OK for National Security</td></TR>
+<TR><TD> 1</td><td> </td><td> </td><td> + </td></tr>
+<TR><TD> 2</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 3</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 4</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 5</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 6</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 7</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 8</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 9</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 10</td><td> -- </td><td> </td><td> + </td></tr>
+<TR><TD> 11</td><td> -- </td><td> </td><td>  </td></tr>
+<TR><TD> 12</td><td> -- </td><td> </td><td>  </td></tr>
+</TABLE>
+</CENTER>
+
+
+<h2>Slide 6, Four Criteria Don't Satisfy Commercial Requirements</h2>
+<h3>I don't know about Two Others</h3>
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD> NIS&T Key Escrow Draft Software Criteria Number.
+</TD><TD> Strong Crypto	
+</TD><td> OK for Commercial
+</td><td> OK for National Security</td></TR>
+<TR><TD> 1</td><td> not! </td><td> not! </td><td> + </td></tr>
+<TR><TD> 2</td><td> -- </td><td> not! </td><td> + </td></tr>
+<TR><TD> 3</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 4</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 5</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 6</td><td> -- </td><td> not! </td><td> + </td></tr>
+<TR><TD> 7</td><td> -- </td><td> ??? </td><td> + </td></tr>
+<TR><TD> 8</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 9</td><td> -- </td><td> ??? </td><td> + </td></tr>
+<TR><TD> 10</td><td> -- </td><td> not! </td><td> + </td></tr>
+<TR><TD> 11</td><td> -- </td><td> </td><td>  </td></tr>
+<TR><TD> 12</td><td> -- </td><td> </td><td>  </td></tr>
+</TABLE>
+</CENTER>
+
+
+<h2>Slide 7, Stay Focused</h2>
+So up to six criteria have to be tweaked or redone to 
+meet Vice President Gore's Goals.
+<p>
+But 23 of the 3 x 10 = 30 matrix cells are OK -- stay focused on the remaining 
+seven.
+<p>
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD> NIS&T Key Escrow Draft Software Criteria Number.
+</TD><TD> Strong Crypto	
+</TD><td> OK for Commercial
+</td><td> OK for National Security</td></TR>
+<TR><TD> 1</td><td> Tweak/Fix </td><td> Tweak/Fix </td><td> + </td></tr>
+<TR><TD> 2</td><td> -- </td><td> Tweak/Fix </td><td> + </td></tr>
+<TR><TD> 3</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 4</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 5</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 6</td><td> -- </td><td> Tweak/Fix </td><td> + </td></tr>
+<TR><TD> 7</td><td> -- </td><td> Tweak/Fix </td><td> + </td></tr>
+<TR><TD> 8</td><td> -- </td><td> + </td><td> + </td></tr>
+<TR><TD> 9</td><td> -- </td><td> Tweak/Fix </td><td> + </td></tr>
+<TR><TD> 10</td><td> -- </td><td> Tweak/Fix </td><td> + </td></tr>
+</TABLE>
+</CENTER>
+23 out of 30 are done.  <strong>STAY FOCUSED!</strong>
+<h2>Slide 8, Gore's Characteristics</h2>
+Vice President Gore's Characteristics for Key Escrow Agents 
+(source: letter to Rep. Maria Cantwell, 20 July 1994)
+<p>
+<strong>STAY FOCUSED</strong>
+<p>
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD>Gore Characteristics (possibilities offered at workshop (Below))
+</TD><TD> No Unauthorized Surveillance
+</TD><td> Key Disclosure only Under Legal Authorization 
+</td><td> Audit Procedures</td>
+</td><td> Liability</td>
+</td><td> Private Sector</td>
+</td><td> Number of Escrow Agents.</td>
+</TR>
+<tr><td> Excluded Organizations</td></tr>
+<tr><td> Government/Agent Legal agreement</td></tr>
+<tr><td> Liability</td></tr>
+<tr><td> Criminalization</td></tr>
+<tr><td> Govt. need for confidentialility</td></tr>
+<tr><td> tie agent approval to public key infrastructure</td></tr>
+<tr><td> storage/safeguard criteria</td></tr>
+<tr><td> performance criteria</td></tr>
+<tr><td> Foreign agents</td></tr>
+<tr><td> approval process and costs</td></tr>
+</TABLE>
+</CENTER>
+<strong><i>STAY FOCUSED!</i></strong>
+<h2>Slide 9, Stay Focused on getting an OK in every cell</h2>
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD> What area
+</td><td> #
+</TD><TD> Strong Crypto	
+</TD><td> OK for Commercial
+</td><td> OK for National Security
+</TD><TD> No Unauthorized Surveillance
+</TD><td> Key Disclosure only Under Legal Authorization 
+</td><td> Audit Procedures
+</td><td> Liability
+</td><td> Private Sector
+</td><td> Number of Escrow Agents.</td> </TR>
+<tr><td>C</td><td> 1</td><td> </td><td></td><TD>OK</td></tr>
+<tr><td>R</td><td> 2</td><td>OK </td><td></td><TD>OK</td></tr>
+<tr><td>Y</td><td> 3</td><td>OK </td><td> OK </td><TD>OK</td></tr>
+<tr><td> P</td><td> 4</td><td>OK </td><td> OK </td><TD>OK</td></tr>
+<tr><td> T</td><td> 5</td><td>OK </td><td> OK </td><TD>OK</td></tr>
+<tr><td> O</td><td> 6</td><td>OK </td><td> </td><TD>OK</td></tr>
+<tr><td> </td><td> 7</td><td>OK </td><td> </td><TD>OK</td></tr>
+<tr><td> </td><td> 8</td><td>OK </td><td> OK </td><TD>OK</td></tr>
+<tr><td> </td><td> 9</td><td>OK </td><td> </td><TD>OK</td></tr>
+<tr><td> </td><td> 10</td><td>OK </td><td> </td><TD>OK</td></tr>
+<tr><td>A</td><td> 11</td><td> </td><td></td><TD> </td></tr>
+<tr><td> G</td><td> 12</td><td> </td><td></td><TD> </td></tr>
+<tr><td> E</td><td> 13</td><td> </td><td></td><TD> </td></tr>
+<tr><td> N</td><td> 14</td><td> </td><td></td><TD> </td></tr>
+<tr><td> T</td><td> 15</td><td> </td><td></td><TD> </td></tr>
+<tr><td> S</td><td> 16</td><td> </td><td></td><TD> </td></tr>
+<tr><td> </td><td> 17</td><td> </td><td></td><TD> </td></tr>
+<tr><td> </td><td> 18</td><td> </td><td></td><TD> </td></tr>
+<tr><td> </td><td> 19</td><td> </td><td></td><TD> </td></tr>
+<tr><td> </td><td> 20</td><td> </td><td></td><TD> </td></tr>
+</TABLE>
+</CENTER>
+<strong><large><i>STAY FOCUSED!</i></large></strong>
+<p>
+The presentation presented by 
+<a href="http://www.seas.gwu.edu/faculty/hoffman/">
+Professor Lance J. Hoffman</a><br>
+<a href="http://www.seas.gwu.edu/seas/instctsp/ictsp.html">
+Institute for Computer and Telecommunications Systems Policy</a><br>
+George Washington University
+<hr>
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 14, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

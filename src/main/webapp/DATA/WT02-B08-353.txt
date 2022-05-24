@@ -1,0 +1,50 @@
+
+<DOC>
+<DOCNO>WT02-B08-353</DOCNO>
+<DOCOLDNO>IA021-000219-B022-177</DOCOLDNO>
+<DOCHDR>
+http://tethys.jpl.nasa.gov:80/Annette/nearrealtime/nrt_wind.html 128.149.33.75 19970107091046 text/html 2094
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 07-Jan-97 09:10:29 GMT
+Last-modified: Monday, 02-Dec-96 21:07:28 GMT
+Content-length: 1910
+Content-type: text/html
+</DOCHDR>
+<html>
+<HEAD>
+<TITLE>TOPEX/Poseidon "Near-Real-Time Data"</TITLE></HEAD>
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+<H1>"Near-Real-Time" Wind Speed Data</H1>
+<p>
+<h3>If you want to make waves... you need wind over the ocean! To get wind speeds, we determine how the shape of a radar pulse changes after being bounced off the sea surface. The way the pulse shape is changed gives the wind speed and <a href=nrt_wave.html>significant wave height.</a> 
+<p>
+<a href=http://shaman.colorado.edu/~leben/winds/index.html>Click here</a> to access the overview "Global Near-Real-Time Altimeter Wind Speed Page."
+<p>
+Access the <a href=http://shaman.colorado.edu/~leben/winds/windpic.html>Global Near Real-Time Wind Speed Data Viewer</a> for an interactive software program that lets you create maps of the oceanic wind speeds almost anywhere in the world.
+<p>
+If it's data you're interested in, go to the <a href=http://shaman.colorado.edu/~leben/winds/wind.html> "Global Near-Real-Time Altimeter Wind Data Host" </a> that gives the following data in ASCII format:</h3>
+<h4><ul>
+<li>Calendar date (month/day/year)<br></li>
+<li>Time of day (hour:min:sec)<br></li>
+<li>Seconds past midnight 1-Jan-1996<br></li>
+<li>Latitude (degrees)<br></li>
+<li>East longitude (degrees)<br></li>
+<li>Wind speed (0.1 meters per second)<br></li>
+<li>Sigma naught (.01 dB)<br></li>
+</ul></h4>
+<h3>
+<p>  
+Check out an <a href=http://www-ccar.colorado.edu/~okeane/movie/winds_canes.mpg>
+animation of ocean winds during the 1996 North Atlantic hurricane season</a>. Black diamonds show hurricane locations from the National Hurricane Center for each day.  Generally there are 4 locations each day.  They agree well with the locations of the heavy winds.
+</h3>
+<p>
+<h5>
+<address><a href=nrt_intro.html>Back to TOPEX/Poseidon "Near-Real-Time-Data" Introduction </a></address>
+<ul>
+</BODY>
+</html>
+
+
+
+</DOC>

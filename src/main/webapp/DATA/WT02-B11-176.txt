@@ -1,0 +1,106 @@
+
+<DOC>
+<DOCNO>WT02-B11-176</DOCNO>
+<DOCOLDNO>IA087-000625-B035-166</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0086.html 130.91.195.242 19970122043300 text/html 4883
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:32:49 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 4712
+Last-modified: Sun, 08 Oct 1995 21:43:27 GMT
+</DOCHDR>
+<!-- received="Fri Oct  6 18:27:05 1995 EDT" -->
+<!-- sent="Fri, 6 Oct 1995 18:26:24 -0400" -->
+<!-- name="David Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="netscape's ssl flaws" -->
+<!-- id="v02110105ac9b5d7b3224@[130.91.88.102]" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: netscape's ssl flaws</title>
+<h1>netscape's ssl flaws</h1>
+David Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Fri, 6 Oct 1995 18:26:24 -0400</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#86">[ date ]</a><a href="thread.html#86">[ thread ]</a><a href="subject.html#86">[ subject ]</a><a href="author.html#86">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0087.html">Peter Kuperman: "Re: must come!!!!!!"</a>
+<li> <b>Previous message:</b> <a href="0085.html">Dave Farber: "Check list"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+From: don@cam.ov.com (Donald T. Davis)<br>
+Newsgroups: alt.security,sci.crypt,alt.security.pgp,talk.politics.crypto<br>
+Subject: netscape's ssl flaws<br>
+Date: 6 Oct 1995 12:26:47 -0400<br>
+Organization: OpenVision Technologies, Inc.<br>
+Lines: 53<br>
+Nntp-Posting-Host: gza-client1.cam.ov.com<br>
+Xref: netnews.upenn.edu alt.security:31127 sci.crypt:44903<br>
+alt.security.pgp:44836 talk.politics.crypto:13160<br>
+Apparently-To: farber@pcpond.cis.upenn.edu<br>
+<p>
+jim gillogly wrote:<br>
+<i>&gt;&gt; Netscape had not used a fully random bit string to generate session keys,</i><br>
+<i>&gt;&gt; but rather some of the bits were easily determined by a hacker.</i><br>
+<i>&gt; There were three recent Netscape cracks:</i><br>
+<i>&gt; The first one was a challenge prepared by Hal Finney for a 40 bit Netscape</i><br>
+<i>&gt; session, and Damien Doligez of INRIA (France) cracked it...</i><br>
+<i>&gt; The second challenge, also prepared by Hal Finney, was again for a 40 bit</i><br>
+<i>&gt; Netscape session, and it was cracked by a large team of Cypherpunks...</i><br>
+<i>&gt; The third crack was the one you refer to, which, in the most favorable</i><br>
+<i>&gt; conditions, resulted in finding the correct key in under a minute.</i><br>
+<p>
+here are some other weaknesses in netscape's ssl:<br>
+<p>
+an early version of netscape's software used a weak prng to generate keys.<br>
+<p>
+an early version of the ssl spec made no provision for message-integrity<br>
+checking, which is very necessary with a vernam cipher like rc4.<br>
+<p>
+in 7/95, i presented a man-in-the-middle attack on netscape's ssl,<br>
+at the 1st usenix workshop on electronic commerce in manhattan. my<br>
+attacker would distribute altered netscape browsers, containing<br>
+spurious certification-authority keys. users of these browsers will<br>
+then accept forged merchant certificates from the attacker. the<br>
+attacker sets up a simultaneous session with the merchant, translating<br>
+the encryption of the key-sharing messages. once the session-key is<br>
+established, the attacker's active role ends; with the session-key<br>
+in hand, he eavesdrops on the rest of the session. note that this is<br>
+not the m-i-t-m attack addressed in the ssl specification by el gamal.<br>
+<p>
+my attack exploits three flaws in netscape:<br>
+  * no secure channel for the verisign CA key: the netscape browser<br>
+    executables are easy to modify in this way, but are hard for a<br>
+    naive user to integrity-check.<br>
+  * freeware distribution of executables: netscsape's browser is<br>
+    commonly redistributed by other sites, including insecure<br>
+    academic sites.<br>
+  * without client-side authentication, the merchant's server can't<br>
+    detect the man-in-the-middle.<br>
+<p>
+of these flaws, client-side authentication would seem to be the<br>
+easiest to fix: the client uses the merchant's public-key first,<br>
+then signs the resulting ciphertext with his own private key.<br>
+however, signing ciphertext is vulnerable to another attack,<br>
+as was pointed out by burrows, abadi, &amp; needham in '89, and by<br>
+i'anson &amp; mitchell in '90. so, it's necessary to sign some of<br>
+the plaintext, encrypt the signature, and sign the ciphertext,<br>
+too. this solution is pretty cumbersome.<br>
+<p>
+i might also remark that their recent random-seed generation problem<br>
+is not merely a "bug." it is very hard to fix, and netscape's track<br>
+record shows that they're unlikely to get it right.<br>
+<p>
+                                        -don davis, boston<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0087.html">Peter Kuperman: "Re: must come!!!!!!"</a>
+<li> <b>Previous message:</b> <a href="0085.html">Dave Farber: "Check list"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

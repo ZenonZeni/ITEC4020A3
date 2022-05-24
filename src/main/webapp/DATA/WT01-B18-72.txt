@@ -1,0 +1,148 @@
+
+<DOC>
+<DOCNO>WT01-B18-72</DOCNO>
+<DOCOLDNO>IA021-000230-B030-26</DOCOLDNO>
+<DOCHDR>
+http://www.corvallis.disposal.com:80/no_frame/com_form.html 198.68.7.46 19970107213347 text/html 6093
+HTTP/1.0 200 OK
+Date: Tue, 07 Jan 1997 21:33:46 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 5922
+Last-modified: Tue, 25 Jun 1996 17:18:00 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>Commercial/Industrial Service Request Form</TITLE>
+</HEAD>
+<BODY BGCOLOR="#f7fbfd">
+<FORM ACTION="/cgi-bin/formmail?info@corvallis.disposal.com" ENCTYPE="x-www-form-encoded"
+METHOD="POST">
+<P><CENTER><A NAME="top"></A><IMG SRC="../frames/images/reqestnv.gif" BORDER=
+"0" WIDTH="200" HEIGHT="350" ALIGN="LEFT" HSPACE=15 VSPACE=10 NATURALSIZEFLAG=
+"0"></CENTER>
+<H1><CENTER>Commercial Service Request Form</CENTER>
+</H1>
+<H4>If you wish to start commercial service at your business, please contact
+Corvallis Disposal by telephone at 754-0444, Monday thru Friday, 8 am to
+5 pm.</H4>
+<BR>
+<BR>
+You can now request services from Corvallis Disposal on line. <BR>
+Services are arranged in two categories: 
+<DIR>
+  <LI>Delivery Services - get a cart, dumpster, or other container for use.<BR>
+<BR>
+  <LI>Pickup Services - have a container or other item emptied or taken away. 
+</DIR><BR><BR><BR>
+<CENTER><A HREF="../index.html">HOME</A> 
+| <A HREF="recycle.html">RECYCLING</A> 
+| <A HREF="compost.html">COMPOSTING</A> 
+| <A HREF="waste.html">SERVICES</A> 
+| <A HREF="areainfo.html">COMMUNITY INFORMATION</A></CENTER>
+<BR CLEAR=LEFT>
+<H2>1. All requests require your name, address, and phone number.</H2>
+<TABLE border="0"> <TR><TD>Name:<BR>
+</TD><TD><INPUT NAME="name" TYPE="text" SIZE="30"></TD></TR> 
+<TR><TD>Business Name:<BR>
+</TD><TD><INPUT NAME="business" TYPE="text" SIZE="30"></TD></TR> 
+<TR><TD>Service Address:<BR>
+</TD><TD><INPUT NAME="service address" TYPE="text" SIZE="30"></TD></TR>
+<TR><TD>City:<BR>
+</TD><TD><INPUT NAME="city" TYPE="text" SIZE="30"></TD></TR> 
+<TR><TD>Phone Number:<BR>
+</TD><TD><INPUT NAME="phone" TYPE="text" SIZE="30"></TD></TR>
+<TR><TD>e-mail (optional):<BR>
+</TD><TD><INPUT NAME="email" TYPE="text" SIZE="30"></TD></TR> </TABLE> 
+<H2>2. Please select one type of service:</H2>
+<H4><A HREF="#deliver">Delivery</A> - get a cart, dumpster, or other container from
+Corvallis Disposal<BR>
+<BR>
+<A HREF="#pickup">Pickup</A> - have a container emptied or taken away</H4>
+<H2><HR></H2>
+<H1><CENTER><A NAME="deliver"></A>Delivery Services</CENTER>
+</H1>
+<H2>I need:</H2>
+<BR>
+1 <INPUT TYPE="checkbox" NAME="checkbox" VALUE="1 red recycling bin requested">
+2 <INPUT TYPE="checkbox" NAME="checkbox" VALUE="2 red recycling bins requested">
+Red recycling bin(s) delivered to my business<BR>
+<INPUT TYPE="checkbox" NAME="checkbox" VALUE="office paper recycling setup requested">
+Office paper recycling setup delivered to my business<BR>
+Other: <INPUT NAME="other delivery requested" TYPE="text" SIZE="30">
+<BR>
+Temporary dumpsters: <BR>
+<BR>
+<INPUT TYPE="checkbox" NAME="checkbox" VALUE="request for a 1.5 yard dumpster">1.5
+cu. yard dumpster (small blue container, 6 ft. long, 4 ft tall, 3 ft wide)
+$3.90/ week min. rental + $19.75 per empty. The container will be delivered
+within 2 working days, unless in a rural area.<BR>
+<BR>
+<BR>
+<INPUT TYPE="checkbox" NAME="checkbox" VALUE="request for a 30 yard dumpster">30
+cu. yard dumpster (22 feet long, 6 ft tall, 8 ft wide) $120 each time it
+is hauled to the landfill, ($145 outside city limits), $20 per ton, $8 per day rental charge (5 days
+no rental charge, no rent charged on weekends). <BR>
+This container will be delivered within 2 working days. If you would like
+it delivered at a later date, please specify in the special instructions:<BR>
+<BR>
+<TABLE border="0"> <TR><TD>Your billing address:</TD><TD><INPUT NAME="name"
+TYPE="text" SIZE="30"></TD></TR><BR>
+<TR><TD>Where shall we set this container?<BR>(in a driveway, etc.)</TD><TD><TEXTAREA NAME="name"
+ROWS="6" COLS="32"
+></TEXTAREA></TD></TR><BR>
+<TR><TD>Special Instructions:</TD><TD><TEXTAREA NAME="name" ROWS="7" COLS=
+"27"
+></TEXTAREA></TD></TR></TABLE><BR>
+<BR>
+<BR>
+<INPUT NAME="submit" TYPE="submit" VALUE="Submit a request for delivery">
+<INPUT NAME="name" TYPE="reset" VALUE="Clear Form"><BR>
+<BR>
+<A HREF="#top">Back to the top of this form.</A> 
+<H2><HR></H2>
+<H1><CENTER><A NAME="pickup"></A>Pickup Services</CENTER>
+</H1>
+<H2>I need:</H2>
+<BR>
+<INPUT TYPE="checkbox" NAME="checkbox" VALUE="request office paper picked up">Office
+paper picked up<BR>
+<INPUT TYPE="checkbox" NAME="checkbox" VALUE="composter requested">Dumpster
+emptied at my business. <BR>
+Special instructions:<TEXTAREA NAME="special instructions" ROWS="4" COLS=
+"42"
+></TEXTAREA><BR>
+<BR>
+<INPUT NAME="submit" TYPE="submit" VALUE="Submit a request for pickup"><INPUT
+NAME="name" TYPE="reset" VALUE="Clear Form"><BR>
+<BR>
+<A HREF="#top">Back to the top of this form.</A> 
+<H2><HR></H2>
+<H1><CENTER>Special Pickup Service Request</CENTER>
+</H1>
+<H4><INPUT TYPE="checkbox" NAME="checkbox" VALUE="pickup of pile of debris or large item">
+Special Pickup of a pile of debris or a large item (sofa, mattress, etc.).<BR>
+<INPUT TYPE="checkbox" NAME="checkbox" VALUE="pickup of large metal appliance">
+I have a large metal appliance (such as a stove, refrigerator, etc.) </H4>
+<TABLE border="0"> <TR><TD>Type of debris (yard debris, fencing, stove,
+sofa, etc.):<BR>
+</TD><TD><INPUT NAME="type of debris" TYPE="text" SIZE="30"></TD></TR> <TR><TD>Where
+will this pile/item be sitting? <BR>
+</TD><TD><TEXTAREA NAME="location of pile/item" ROWS="3" COLS="40"
+></TEXTAREA></TD></TR><BR>
+<TR><TD>Special instructions:<BR>
+</TD><TD><TEXTAREA NAME="special instructions" ROWS="4" COLS="39"
+></TEXTAREA></TD></TR><TR><TD colspan="2">Your pickup will occur within
+2 working days. Metal appliances are picked up on Thursdays.<BR>
+</TD></TR></TABLE> <BR>
+<INPUT NAME="submit" TYPE="submit" VALUE="Submit a request for pickup"><INPUT
+NAME="name" TYPE="reset" VALUE="Clear Form"><BR>
+<BR>
+<A HREF="#top">Back to the top of this form.</A><BR>
+<P><CENTER><A HREF="../index.html">HOME</A> | <A HREF="recycle.html">RECYCLING</A>
+| <A HREF="compost.html">COMPOSTING</A> | <A HREF="waste.html">SERVICES</A>
+| <A HREF="form.html">ASK US</A> | <A HREF="request.html">REQUEST SERVICES</A></CENTER>
+</FORM>
+</BODY>
+</HTML>
+</DOC>

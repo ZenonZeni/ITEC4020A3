@@ -1,0 +1,998 @@
+
+<DOC>
+<DOCNO>WT03-B16-3</DOCNO>
+<DOCOLDNO>IA074-000483-B008-46</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg006.html 128.125.48.102 19970125004247 text/html 42015
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:41:20 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 41783
+Last-Modified: Wed, 15 Jan 1997 02:01:22 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDRUSLF" HREF="icswg005.html#PToC_584">Customizing logs and reports</A></H1>
+Customizing Logs and Reports
+<P>
+Your server can create several types of logs:
+<UL COMPACT>
+<LI>Access logs
+<LI>Agent logs
+<LI>Error logs
+<LI>Cache access logs, if your server is a caching proxy
+<LI>CGI error logs
+<LI>Referer logs
+</UL>
+<P>For access logs, you can set filters and create reports
+that help you analyze the information in the access logs.
+You can also set maintenance options.
+For error logs, you can set certain maintenance options.
+For the other types of logs, you can specify the name of the log
+and where you want it to be filed.
+<P>
+This chapter explains how to tailor the
+access and error logs to meet your needs, and also how create
+customized reports from the information in the logs.
+<P>&nbsp;
+<P><A HREF="icswgmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_585 HREF="#HDRTAILLOG" >Tailoring the logs your server keeps</A>
+<MENU>
+<LI><A NAME=PToC_586 HREF="#HDRGLOBSET" >Specifying global settings for all logs</A>
+<LI><A NAME=PToC_589 HREF="#HDRSPACCL" >Specifying options for the access, agent, and referer logs</A>
+<LI><A NAME=PToC_599 HREF="#HDRSPERRL" >Specifying options for the error logs</A>
+<LI><A NAME=PToC_606 HREF="#HDRSCENA" >Sample scenario for configuring log files</A>
+<LI><A NAME=PToC_609 HREF="#HDRSPPRXL" >Specifying the path for the proxy server's cache access log</A>
+</MENU>
+<LI><A NAME=PToC_611 HREF="#HDRUNDEREP" >Tailoring the reports your server creates</A>
+<MENU>
+<LI><A NAME=PToC_612 HREF="#HDRCRETEMP" >Overview of report templates</A>
+<LI><A NAME=PToC_613 HREF="#Header_613" >Creating a report template</A>
+<LI><A NAME=PToC_614 HREF="#Header_614" >Viewing reports</A>
+<LI><A NAME=PToC_615 HREF="#HDRSCENREP" >Sample scenarios for configuring reports</A>
+</MENU></MENU><HR><P>
+<HR>
+<H2><A NAME="HDRTAILLOG" HREF="#PToC_585">Tailoring the logs your server keeps</A></H2>
+<P>
+The server creates many types of logs.
+Each day at midnight, the server closes the logs for that day and creates
+new logs.
+<P>
+The server logs activity in the <B><I>access log</I></B> files
+and stores them on the hard drive each night.
+At midnight each night, the server closes the current access log and
+creates a new access log file for the coming day.
+The access log contains entries for page request mode to the server.
+<P>
+For each access request your server receives, an
+entry is made in the access log showing:
+<UL COMPACT>
+<LI>What was requested
+<LI>When it was requested
+<LI>Who requested it
+<LI>The method of the request
+<LI>The type of file that your
+server sent in response to the request
+<LI>The return code, which indicates
+whether the request was honored
+</UL>
+<P>The server can also create an <B><I>agent log</I></B> and a
+<B><I>referer log</I></B>.
+The agent log
+indicates which Web browser was used to access a Web page.
+The referer log identifies the Web page that referred (or linked to)
+the requested Web page.
+By default the server writes an entry to the agent and referer
+logs each time
+a client sends the server a request.
+For every entry made in the access log:
+<UL>
+<P><LI>The agent log has a corresponding
+entry that indicates the browser used to display the
+page or file requested by the client
+<P><LI>The referer log has a corresponding
+entry that indicates the referring page
+</UL>
+<P>
+The server creates
+an <B><I>error log</I></B> that includes errors encountered
+by your server's clients, such as timing out or not getting access.
+<P>
+The server also creates a <B><I>CGI error log</I></B> that
+logs standard error output (stderr) from CGI
+programs.
+<P>If your server is running as a proxy, the server can create two
+different types of logs:
+<UL>
+<P><LI>A <B><I>proxy access log</I></B>, which contains access requests
+for files that come from the proxy server
+<P><LI>A <B><I>cache access log</I></B>, which contains access requests
+for files that come from the proxy server's cache
+</UL>
+<P>
+This section describes how to set up the
+logs to suit your particular needs.
+If you are satisfied with the default setting for an option,
+you can skip the step.
+Look at the sections that apply to you:
+<OL>
+<P><LI>If you want to change the default global settings,
+read <A HREF="#HDRGLOBSET">"Specifying global settings for all logs"</A>.
+<P><LI>If you want to set up your access, agent, and referer logs,
+read <A HREF="#HDRSPACCL">"Specifying options for the access, agent, and referer logs"</A>.
+<P><LI>If you want to set the path and the maintenance options for
+your error and CGI error logs, read <A HREF="#HDRSPERRL">"Specifying options for the error logs"</A>.
+<P><LI>If you want to set the path for your proxy server's cache access log,
+read <A HREF="#HDRSPPRXL">"Specifying the path for the proxy server's cache access log"</A>.
+</OL>
+<P><B>Note: </B>You can change the default settings for the logs either by using
+the online Configuration and Administration forms or by manually editing
+the directives in the configuration file.
+<P>
+<H3><A NAME="HDRGLOBSET" HREF="#PToC_586">Specifying global settings for all logs</A></H3>
+<P>
+In most cases, you will want to accept the default global settings,
+which apply to all logs.
+<P>
+If you plan to use the reporting functions described under
+<A HREF="#HDRUNDEREP">"Tailoring the reports your server creates"</A>, you must accept the default file format, common.
+<P>
+If you want to have log information sent to the Internet Connection Secure Server window
+in addition to sending it to the log files, you must change the default.
+<P>
+To change the global settings, we recommend that you specify them
+on the <B>Global Log File Configuration</B> form.
+<P>
+<H5><A NAME="Header_587">Defaults</A></H5>
+<P>
+Common file format, which is used by most Web servers
+and local time format are used.
+By default, access log information is written only to the access log,
+(not the syslog) and
+error log information is written only to the error log,
+(not the syslog).
+<P>
+<H5><A NAME="Header_588">Directives</A></H5>
+<UL>
+<P><LI>For time stamp, edit the LogTime directive.
+<P><LI>For file format, edit the LogFormat directive.
+<P><LI>For logging to the Internet Connection Secure Server window, edit the LogToGUI directive.
+</UL>
+You cannot change whether the logs are written nightly.
+<P>
+<H3><A NAME="HDRSPACCL" HREF="#PToC_589">Specifying options for the access, agent, and referer logs</A></H3>
+<P>This section describes the following tasks:
+<UL COMPACT>
+<LI><A HREF="#HDRACCPATH">"Specifying the access, agent, and referer log paths"</A>
+<LI><A HREF="#HDRACCMAIN">"Choosing log maintenance options for the access, agent, and referer logs"</A>
+<LI><A HREF="#HDRACCFILT">"Setting filters for the access, agent, and referer logs"</A>
+</UL>
+<P>
+<H4><A NAME="HDRACCPATH">Specifying the access, agent, and referer log paths</A></H4>
+<P>
+From the <B>Access Log File Configuration</B> form,
+you can specify the path and name of the directory
+where you want to place the access, agent, and referer log files.
+The directory must be on an HPFS-formatted drive.
+<P>
+<H5><A NAME="Header_591">Defaults</A></H5>
+<P>We strongly recommend that you accept the default path, which is
+the value you entered for <B>Logs directory</B> at installation.
+<P>
+<H5><A NAME="Header_592">Directives</A></H5>
+<OL>
+<P><LI>For the access log path, edit the AccessLog directive.
+<P><LI>For the agent log path, edit the AgentLog directive.
+<P><LI>For the referer log path, edit the RefererLog directive.
+</OL>
+<P>
+<H4><A NAME="HDRACCMAIN">Choosing log maintenance options for the access, agent, and referer logs</A></H4>
+<P>With the log maintenance options, you can specify how
+to handle the accumulation of daily logs for days past.
+<P>You can choose whether you want to keep old logs, remove logs
+after they reach a certain age and/or a collective size,
+or run your own program at midnight each night to handle old logs.
+Note that the "collective size" is the collective size of all access
+logs only (not combined with agent and referer logs), or of all agent
+logs only (not combined with access and referer logs), or of all referer
+logs only (not combined with access and agent logs).
+<P>To reduce the space the access, agent, and referer logs require,
+you can specify that the logs be automatically removed,
+based on the age of the log and/or the collective size of the logs.
+<P>If you are interested in running your own backup program
+to store the logs, you can specify a user exit.
+In this case, you specify the path to your program and the parameters
+to pass to your program.
+The server appends to this information the
+path to the logs on your hard drive.
+<P>
+We recommend you define these options on the
+<B>Access Log File Configuration</B> form, but you can edit
+the configuration file to include the appropriate directives.
+The settings you specify on the <B>Access Log File Configuration</B>
+form
+apply to agent and referer logs, as well.
+<P>
+<H5><A NAME="Header_594">Defaults</A></H5>
+<P>
+By default, all access, agent, and referer log files are kept on
+the hard drive at the path location you specify on the
+<B>Access Log File Configuration</B> form.
+(or the AccessLog, AgentLog, and RefererLog directives).
+<P>
+<H5><A NAME="Header_595">Directives</A></H5>
+<P>
+The directives you specify for access logs apply to agent and referer
+logs, as well.
+<UL>
+<P><LI>To keep access log files, no directive is required.
+<TT>AccessLogArchive none</TT> is the default.
+<P><LI>To remove access log files based on age, edit these directives:
+<UL COMPACT>
+<LI><TT>AccessLogArchive purge</TT>
+<LI><TT>AccessLogExpire <VAR>number-of-days</VAR></TT>
+</UL>
+<P><LI>To remove access log files based on collective size, edit these
+directives:
+<UL COMPACT>
+<LI><TT>AccessLogArchive purge</TT>
+<LI><TT>AccessSizeLimit <VAR>number-of-megabytes</VAR></TT>
+</UL>
+<P><LI>To run a user exit, edit the
+<TT>AccessLogArchive userexit</TT> directive.
+</UL>
+<P>For details on these directives, refer to <A HREF="icswg005.html#HDRACCLOGA">"AccessLogArchive - Remove existing access, agent, or referer log files or run a user exit"</A>.
+<P>
+<H4><A NAME="HDRACCFILT">Setting filters for the access, agent, and referer logs</A></H4>
+<P>
+For the access log, you can set filters so that the access, agent,
+and referer logs
+includes only the information you are interested in.
+<P>
+To improve your ability to use the information included in the
+access, agent, and referer log
+files, you can filter out extraneous information so that the log includes
+only information that is meaningful to you.
+You filter out information by excluding
+entries that match a particular pattern.
+We recommend you define these options on the
+<B>Access Log File Configuration</B> form, but you can edit
+the configuration file to include the appropriate directives
+for the filters you want to set.
+You can specify filters based on any of the following:
+<UL COMPACT>
+<LI>URL (directories and/or files)
+<LI>IP address or host name
+<LI>Method
+<LI>MIME type
+<LI>Return code
+</UL>
+<P><B>Note: </B>Keep in mind that information filtered out from the access log
+will not show up in any access report and will not be available for
+future use.
+<P>
+Here are some reasons for controlling what gets logged.
+<P>
+<B>To reduce the size of the logs:</B>
+You might be interested in reducing the number of entries in an
+access log to include only meaningful access requests.
+Access log files can grow rapidly, since by default they contain entries
+for all access requests for GIF images, HTML pages, and so on.
+You might want to configure your access logs so that they include
+log entries for access requests to HTML pages, but not for the
+access requests for the GIF images that the HTML contains.
+For example, an HTML page might include several GIF images,
+which can cause the size of the access log to grow rapidly.
+<P>
+<B>To collect information about external hits only:</B>
+You might be interested only in who is accessing your server from
+outside your company.
+In this case, you would filter out access requests that originate
+from internal company IP addresses.
+<P>
+<B>To gather information about who is accessing a particular
+Web site:</B>
+To help you determine the size of the audience
+for a particular Web site, you might want to create
+an access log that shows only the hits to one URL.
+<P>
+<H5><A NAME="Header_597">Default</A></H5>
+<P>
+By default, everything is logged to the access log, unless you
+choose to filter out (exclude) something.
+From the
+<B>Access Log File Configuration</B> form, you can specify
+what you want to filter out from the access log.
+You do not need to fill in the entire form.
+<P>Scroll to the
+<B>Exclusions from the Access log</B> section of the form.
+Choose which of the following you want to base filtering on:
+<UL COMPACT>
+<LI>Directories and files
+<LI>Host names or IP addresses
+<LI>Methods (GET, PUT, POST, DELETE)
+<LI>MIME types (images, text, applications, audio, video, multimedia,
+and other)
+<LI>Return code (success, redirection, client error, and server
+error)
+</UL>
+<P>
+If you want to filter based on directories and files or IP addresses
+and host names, you need to update the index list
+on the
+<B>Access Log File Configuration</B> form.
+You can insert or remove entries in the list to specify what
+you want filtered out.
+To exclude entries based on methods, MIME types, or return codes,
+click the boxes that describe what you want to filter out.
+<P>
+When you have finished specifying what you want to exclude on the
+<B>Access Log File Configuration</B> form,
+click <B>Apply</B> to have the filters take effect.
+<P>
+<H5><A NAME="Header_598">Directives</A></H5>
+<UL>
+<P><LI>To filter out files or directories that match a particular pattern,
+edit the AccessLogExcludeURL directive.
+<P><LI>To filter out entries of a particular method,
+edit the AccessLogExcludeMethod directive.
+<P><LI>To filter out entries of a particular MIME type, edit the
+AccessLogExcludeMimeType directive.
+<P><LI>To filter out entries receiving a particular set of return codes,
+edit the AccessLogExcludeReturnCode directive.
+</UL>
+<P>
+<H3><A NAME="HDRSPERRL" HREF="#PToC_599">Specifying options for the error logs</A></H3>
+<P>This section describes the following tasks:
+<UL COMPACT>
+<LI><A HREF="#HDRERRPATH">"Specifying the path for the error and CGI error logs"</A>
+<LI><A HREF="#HDRERRMAIN">"Choosing log maintenance options for the error and CGI error logs"</A>
+</UL>
+<P>
+<H4><A NAME="HDRERRPATH">Specifying the path for the error and CGI error logs</A></H4>
+<P>
+From the <B>Error Log File Configuration</B> form,
+you can specify the path and name of the directory
+where you want to place the error and CGI error log files.
+The directory must be on an HPFS-formatted drive.
+As an alternative, you can specify this information manually by editing
+the directive listed below.
+<P>
+<H5><A NAME="Header_601">Defaults</A></H5>
+<P>We strongly recommend that you accept the default path, which is
+the value you entered for <B>Logs directory</B> at installation.
+<P>
+<H5><A NAME="Header_602">Directives</A></H5>
+<P>For path, edit the ErrorLog directive.
+<P>
+<H4><A NAME="HDRERRMAIN">Choosing log maintenance options for the error and CGI error logs</A></H4>
+<P>You can choose whether you want to keep old logs,
+remove logs after they reach a certain age and/or a
+collective size, or run your own program
+at midnight each night to handle old logs.
+Note that the "collective size" is the collective size of all
+error logs only
+(not combined with CGI error logs) or all CGI error logs only
+(not combined with error logs).
+<P>To reduce the space error and CGI error logs require,
+you can specify that the logs be automatically removed,
+based on the age of the log and/or the collective size of the logs.
+<P>If you are interested in running your own backup program
+to store the logs, you can specify a user exit.
+In this case, you specify the path to your program and the parameters
+to pass to your program.
+The server appends to this information
+the path to the logs on your hard drive.
+<P>
+<H5><A NAME="Header_604">Default</A></H5>
+<P>
+By default, all error and CGI error
+log files are kept on the hard drive at the
+path location you specify on the
+<B>Error Log File Configuration</B> form
+(or the ErrorLog directive.)
+<P>
+We recommend you define these options on the
+<B>Error Log File Configuration</B> form, but you can edit
+the configuration file to include the appropriate directives.
+The settings you specify on the
+<B>Error Log File Configuration</B> form
+apply to CGI error logs, as well.
+<P>
+<H5><A NAME="Header_605">Directives</A></H5>
+<P>
+The directives you specify for error logs apply to CGI error
+logs, as well.
+<UL>
+<P><LI>To keep error log files, no directive is required.
+<TT>ErrorLogArchive none</TT> is the default.
+<P><LI>To remove error log files based on age, edit these directives:
+<UL COMPACT>
+<LI><TT>ErrorLogArchive purge</TT>
+<LI><TT>ErrorLogExpire <VAR>number-of-days</VAR></TT>
+</UL>
+<P><LI>To remove error log files based on collective size, edit these
+directives:
+<UL COMPACT>
+<LI><TT>ErrorLogArchive purge</TT>
+<LI><TT>ErrorSizeLimit <VAR>number-of-megabytes</VAR></TT>
+</UL>
+<P><LI>To run a user exit, edit the
+<TT>ErrorLogArchive userexit</TT> directive.
+</UL>
+<P>For details on these directives, refer to <A HREF="icswg005.html#HDRERRLGA">"ErrorLogArchive - Remove existing error or CGI error log files or run a user exit"</A>.
+<P>
+<H3><A NAME="HDRSCENA" HREF="#PToC_606">Sample scenario for configuring log files</A></H3>
+<P>
+In the following example, you have just purchased
+and installed the Internet Connection Secure Server.
+You want to set up your server to
+log access information and error information in the following ways:
+<UL COMPACT>
+<LI>You want both types of logs to
+use a local time stamp and a common log file format.
+<LI>You want the access logs to be purged when they are more than 30 days
+old and/or when they reach a collective size of 25 megabytes.
+You do not want following requests to be logged to the access log:
+<UL COMPACT>
+<LI>Requests for GIF images
+<LI>Requests from hosts with IP addresses that match 9.67.*.*
+<LI>Redirection requests (requests that yield a return code
+between 300 and 399)
+</UL>
+<LI>You do not want the error logs to be purged.
+</UL>
+<P>
+You can specify these criteria by using the Configuration and
+Administration forms, or by updating the configuration file
+directives.
+<P>
+<H5><A NAME="Header_607">Forms</A></H5>
+<UL>
+<P><LI>Use the <B>Global Log File Configuration Settings</B> form
+to set the time and file format
+<P><LI>Use the
+<B>Access Log File Configuration</B> form to:
+<UL>
+<P><LI>Set the interval for removing old access logs
+<P><LI>Exclude the MIME type of images/GIF
+<P><LI>Exclude requests
+from hosts with IP addresses in the pattern 9.67.*.*
+<P><LI>Exclude requests that yield a return code between 300 and 399
+<P><LI>Specify the path for the access log file
+</UL>
+<P><LI>Use the <B>Error Log File Configuration</B> form
+to indicate that you want to keep the error log files.
+</UL>
+<P>
+<H5><A NAME="Header_608">Directives</A></H5>
+<P>For the above scenario, update the configuration
+file as follows:
+<PRE>
+LogFormat                           Common
+LogTime                             LocalTime
+AccessLogArchive                    purge
+AccessLogExpire                     30
+AccessLogSizeLimit                  25
+AccessLogExcludeURL                 *.gif
+NoLog                               9.67.*.*
+AccessLogExcludeReturnCode          300
+ErrorLogArchive                     none
+</PRE>
+<P>
+<H3><A NAME="HDRSPPRXL" HREF="#PToC_609">Specifying the path for the proxy server's cache access log</A></H3>
+If the server is running as a proxy, you can log requests to the cache
+separately from other requests.
+<P>
+From the
+<B>Access Log File Configuration</B> form,
+you can specify the path and file name
+where you want the server to put access requests that
+are satisfied from the proxy server's cache.
+As an alternative, you can specify this information manually
+by editing the directives listed below.
+<P>For more information, refer to <A HREF="icswg005.html#HDRCACLOG">"CacheAccessLog - Specify the path for the cache access log files"</A>.
+<P>
+<H5><A NAME="Header_610">Directives</A></H5>
+<P>For the cache access log path, edit the CacheAccessLog directive,
+in addition to those described under <A HREF="icswg005.html#HDRCACLOG">"CacheAccessLog - Specify the path for the cache access log files"</A>.
+<HR>
+<H2><A NAME="HDRUNDEREP" HREF="#PToC_611">Tailoring the reports your server creates</A></H2>
+<P>
+Several types of files are used in report creation.
+These files are located in the reports root directory
+<UL COMPACT>
+<LI>Access log data file, named access.<VAR>mmddyyyy</VAR>
+<LI>Report data file, named <VAR>template_name</VAR>.txt
+<LI>Report template file, named <VAR>template_name</VAR>.log
+<LI>Report template list, named Templates
+</UL>
+<P>The <B><I>access log data file</I></B>
+(access.<VAR>mmddyyyy</VAR>) corresponds to the
+httpd-log.<VAR>mmddyyyy</VAR> file that is in the access log directory.
+For each entry in the access log file, there is an entry in the access
+log data file.
+The format of the data in the access log data file is:
+<PRE>
+<VAR>IP_address</VAR> <VAR>URL</VAR> <VAR>seconds_since_1970</VAR> <VAR>number_of_bytes_transferred</VAR> <VAR>method</VAR> <VAR>code</VAR>
+</PRE>
+<P>The <B><I>report data file</I></B>
+(<VAR>template_name</VAR>.txt) includes data from all the
+access log data files filtered through the template definition.
+For example, for the template "Top100", there is a data file
+called Top100.txt, which corresponds to all the access.<VAR>mmddyyyy</VAR>
+files filtered through the Top100 template definition and saved to the
+Top100.txt data file.
+The format of the data in the report data file is:
+<PRE>
+<VAR>IP_address</VAR> <VAR>URL</VAR> <VAR>seconds_since_1970</VAR> <VAR>number_of_bytes_transferred</VAR> <VAR>method</VAR> <VAR>code</VAR>
+</PRE>
+<P>The <B><I>report template file</I></B>
+(<VAR>template_name</VAR>.log) is the definition of the template.
+For example, the template "Top100" has a Top100.log file
+associated with it, which consists of the Top100 template definition
+in an ASCII file.
+<P>The <B><I>report template list</I></B> (the file name is Templates)
+is a list of all the templates that have been defined.
+<P>
+Before you can see a report, you must create a report template
+that is stored as the report template file.
+For instructions on how to create a report template, see <A HREF="#HDRCRETEMP">"Overview of report templates"</A>.
+<P>
+Your server creates reports that include some or all of the
+contents of the access logs.
+At midnight each night, the server closes the current access log and
+creates a new access log file for the coming day.
+Reports are generated at that time using the access log that was just
+closed.
+Reports can also be generated for logs that have been archived.
+<P><B>Note: </B>If you have specified the CacheAccessLog directive or if you
+have indicated on the
+<B>Access Log File Configuration</B> form a path
+and file name for the proxy server's cache access log, your
+reports <I>will not</I> contain access requests for cached files.
+If you do not have a cache access log, access requests
+for a proxy server are logged in the access log and can be included
+in an access report.
+<P>
+<H3><A NAME="HDRCRETEMP" HREF="#PToC_612">Overview of report templates</A></H3>
+<P>You control what is included in reports by
+filtering out entries that match a particular pattern.
+These options are defined either by using the
+Configuration and Administration
+forms or by editing the configuration file.
+You can use the forms or the configuration file to
+specify filters based on any of the following:
+<UL COMPACT>
+<LI>URL (directories and files)
+<LI>IP address or host name
+<LI>Method
+<LI>Return code
+</UL>
+<P>
+The contents of the report are governed by the following factors:
+<UL COMPACT>
+<LI>The log file
+filters that were in effect when the log file was created
+<LI>The report filters that are in effect when the report is created
+</UL>
+<P>
+At report creation time, you control only the report
+filters that are currently in effect.
+You cannot include in the report entries that were filtered out from
+the log file.
+<P>
+You can specify report filters in two ways; you must decide which
+is easier in your situation.
+<UL>
+<P><LI>If you want to include in your report
+only a small percentage of the contents of the access log,
+it might be simplest to specify what to <B><I>include</I></B>,
+rather than everything you want to exclude.
+Think of specifying one or a few include filters as a shortcut
+to specifying many exclude filters.
+<P><LI>If you want to include in your report most of the contents
+of the access log, it might be simplest to specify
+what to <B><I>exclude</I></B>, rather than everything you want to include.
+</UL>
+<P>
+In some cases, you will find it simplest
+to specify both include and exclude filters.
+In this case, it is important to understand
+how include and exclude filters work together.
+The include filters are processed first.
+The report function searches the access log to find all entries
+that match any include filter patterns.
+If several include filters are specified,
+the filters act as OR Boolean expressions.
+In other words, entries that match at least one
+of the include filters are included.
+<P>
+The exclude filters are processed after all include filters
+have been processed.
+The exclude filters work only on the set of entries that have been
+already included by the include filters.
+For clarification, refer to the examples under <A HREF="#HDRSCENREP">"Sample scenarios for configuring reports"</A>.
+<P>
+The include and exclude filters are specified on the
+<B>Access Log Report Template Creation</B> form
+or can be specified with
+the AccessReport directives.
+<P>
+Here are some reasons for controlling what gets reported.
+<P>
+<B>To reduce the scope of the report:</B>
+You might be interested in reducing the scope of the report so that
+it includes only a portion of what is contained in the log.
+You can even create several reports, each to gather different
+information from the same log.
+You might want to create your report template so that it includes
+log entries for access requests to HTML pages, but not for the
+access requests for the GIF images that the HTML contains.
+<P>
+<B>To collect information about external hits only:</B>
+You might be interested only in who is accessing your server from
+outside your company.
+In this case, you would filter out access requests that originate
+from internal company IP addresses.
+<P>
+<B>To gather information about who is accessing a particular
+Web site:</B>
+To help you determine the size of the audience for a particular
+Web site, you might want to create a report that shows only the hits
+to one URL.
+<P>
+<B>To discover the top Web pages on your server:</B>
+To help you determine the popularity of a particular Web site, you
+filter out everything in the report, except for the most visited
+Web pages.
+<P>
+<H3><A NAME="Header_613" HREF="#PToC_613">Creating a report template</A></H3>
+<P>
+Before you create a report, you must modify or create a report template
+that outlines what you want the report to contain.
+To start configuring a report template, choose one of the following
+options from the <B>Access Log Report Templates</B> form:
+<UL>
+<P><LI>
+If you want to create
+a report that is very different from your existing reports,
+choose <B>Create a new template</B>.
+<P>If you have never created a report, before
+it might be easier to copy an existing template and edit the copy,
+rather than creating a new template.
+To use an existing report template as the basis of a new
+report, choose <B>Copy existing template</B>.
+<P><LI>To update an existing report template, choose
+<B>Edit existing template</B>.
+<P><LI>To delete an existing report template, choose
+<B>Delete existing template</B>.
+</UL>
+When you choose <B>Create a new template</B> or <B>Edit existing
+template</B>, the <B>Access Log Report Template Creation</B>
+form appears.
+<P>When you have finished filling in the form, choose <B>Apply</B>.
+<P>
+On this form, you can specify some or all of the following:
+<UL>
+<P><LI>Basic settings, such as the report name, description, and
+the number of entries to include in the report (for example, the
+top 10)
+<P><LI>Entries from the access log that you want to exclude from the
+report (based on directories and file names, host names or IP addresses,
+methods, or return codes)
+<P><LI>Entries from the access log that you want to include (as a
+shortcut to many excludes)
+</UL>
+<P>
+Specifying entries to include is a shortcut to specifying many,
+many excludes.
+When you want to include only a few types of entries in the report,
+it is easier to specify what to include rather than excluding
+nearly everything.
+For example, if you want to include only access requests for a
+particular URL, you would include that URL, rather than excluding
+all the others.
+<P>
+The <B>Access Log Report Template Creation</B> form
+allows you to specify includes and excludes.
+It is important to understand how includes and
+excludes affect each other.
+<UL>
+<P><LI>In the index list, if nothing is listed with a Filter Action of
+"Include", the entire log is included in the report, minus the
+entries that are excluded.
+<P><LI>If anything is listed with a Filter Action of "Include",
+the report will contain only the information that is to be
+included, minus the entries that are excluded.
+</UL>
+<P>
+If you are using the <B>Access Log Report Templates</B> form, you see
+at the bottom of the form the field <B>Report root directory</B>.
+This field is filled in with a default directory.
+We recommend that you accept the default, rather than changing it.
+If you choose to change the default, you will need to create a new
+directory for the path you specify, give the directory the
+appropriate permissions and add a PASS statement to enable the server
+to honor requests to store access logs in that directory.
+<P>
+<H3><A NAME="Header_614" HREF="#PToC_614">Viewing reports</A></H3>
+<P>
+To see a report,
+from the Configuration and Administration Form page,
+choose <B>Access reports</B>.
+From there, select the following options:
+<UL>
+<P><LI>Report template
+<P><LI>One of the following filters:
+<UL COMPACT>
+<LI>URL (directories and files)
+<LI>IP address or host name
+<LI>Method
+<LI>Return code
+</UL>
+<P><LI>Date range
+</UL>
+<P>The report is created and displayed after you select the options.
+<P>
+<H3><A NAME="HDRSCENREP" HREF="#PToC_615">Sample scenarios for configuring reports</A></H3>
+<P>
+You have just purchased and installed the Internet Connection Secure Server and
+you want to set up your server to automatically generate four different
+access log reports.
+<P>
+<H4><A NAME="Header_616">Sample report&#58;  Top 100 page hits</A></H4>
+<P>You are interested in knowing which Web pages
+on your server get the most attention.
+You decide to create a report that meets the following criteria:
+<UL>
+<P><LI>The name of the report is "Top100"
+<P><LI>The report description says "Top 100 page hits"
+<P><LI>Requests for GIF images are not included
+</UL>
+<P>
+You can specify these criteria by using the Configuration and
+Administration forms, or by updating specific directives in
+the configuration file.
+<P>
+<H5><A NAME="Header_617">Forms</A></H5>
+<OL>
+<P><LI>From the Access Log Report Templates form,
+choose <B>Create a new template</B>.
+Select <TT>before</TT> in the <B>List it</B> field.
+<P><LI>Change nothing in the <B>Root report directory</B> field.
+<P><LI>Choose <B>Apply</B>.
+<P><LI>On the Access Log Report Template Creation form,
+for <B>Report name</B>, type <TT>Top100</TT>.
+<P><LI>For <B>Report description</B>, type <TT> Top 100 page
+hits&#45;&#45;Report on the top 100 items accessed</TT>
+<P><LI>For <B>Report on top</B>, type <TT>100</TT>
+<P><LI>Scroll down the form.
+<P><LI>Choose <B>Add</B> and <B>Include
+Directories/Files listed below</B>
+<P><LI>In the text box, type <TT>*.GIF</TT>.
+<P><LI>Scroll down to the end of the form and choose <B>Apply</B>
+</OL>
+<P>
+<H5><A NAME="Header_618">Directives</A></H5>
+<PRE>
+AccessReportTemplate  Top100   &#123;
+        AccessReportDescription     Top 100 page hits
+        AccessReportTopList         100
+        AccessReportExcludeURL      *.GIF
+           &#125;
+</PRE>
+<P>
+<H4><A NAME="Header_619">Sample report&#58; PUT requests to beta subdirectory</A></H4>
+<P>
+You are running a site that distributes beta-level software
+and are interested in knowing what is
+being written to the beta directory and who is requesting PUT access.
+You decide to create a report that meets the following criteria:
+<UL>
+<P><LI>The name of the report should be "BetaPuts"
+<P><LI>The report description should say "PUT requests to beta
+subdirectory"
+<P><LI>The report should
+include only requests for PUT access to the beta subdirectory,
+which is located at <TT>/www/beta</TT>
+</UL>
+<P>
+You can specify these criteria by using the Configuration and
+Administration forms, or by updating specific directives in
+the configuration file.
+<P>
+<H5><A NAME="Header_620">Forms</A></H5>
+<OL>
+<P><LI>From the
+<B>Access Log Report Templates</B> form,
+choose <B>Create a new template</B>.
+Select <TT>before</TT> in the <B>List it</B> field.
+<P><LI>Change nothing in the <B>Root report directory</B> field.
+<P><LI>Choose <B>Apply</B>.
+<P><LI>On the
+<B>Access Log Report Template Creation</B> form,
+for <B>Report name</B>, type <TT>BetaPuts</TT>.
+<P><LI>For <B>Report description</B>, type <TT>PUT requests to beta
+subdirectory</TT>.
+<P><LI>Scroll down the form.
+<P><LI>Choose <B>Add</B> and <B>Include
+Directories/Files listed below</B>
+<P><LI>In the text box, type <TT>/www/beta/*</TT>.
+<P><LI>Scroll down the form.
+<P><LI>Under <B>Exclude following Methods...</B> choose <B>GET</B>,
+<B>POST</B>, and <B>DELETE</B>.
+<P><LI>Scroll down to the end of the form and choose <B>Apply</B>.
+</OL>
+<P>
+<H5><A NAME="Header_621">Directives</A></H5>
+<PRE>
+AccessReportTemplate  BetaPuts   &#123;
+        AccessReportDescription     PUT requests to beta subdirectory
+        AccessReportIncludeURL      /www/beta/*
+        AccessReportExcludeMethod   GET
+        AccessReportExcludeMethod   POST
+        AccessReportExcludeMethod   DELETE
+           &#125;
+</PRE>
+<P>
+<H4><A NAME="Header_622">Sample report&#58; Accesses, excluding beta subdirectory and alpha7 requests</A></H4>
+<P>
+You are interested in knowing which files on your server are being
+accessed.
+However, you want to exclude beta programs, which have files located
+in the beta subdirectory.
+You also do not want to include any information on the "Alpha7"
+project, which has pages named <TT>Alpha7*.*</TT> in various
+subdirectories.
+You decide to create a report that meets the following criteria:
+<UL>
+<P><LI>The name of the report should be "NoBetaAlpha7"
+<P><LI>The report description should say "Accesses, except beta
+subdirectory and alpha7"
+<P><LI>The report should
+include all accesses, except those to the beta subdirectory
+at <TT>\www\beta</TT> or those files with the name <TT>alpha7</TT>
+anywhere on the server.
+</UL>
+<P>
+You can specify these criteria by using the Configuration and
+Administration forms, or by updating specific directives in
+the configuration file.
+<P>
+<H5><A NAME="Header_623">Forms</A></H5>
+<OL>
+<P><LI>From the
+<B>Access Log Report Templates</B> form,
+choose <B>Create a new template</B>.
+Select <TT>before</TT> in the <B>List it</B> field.
+<P><LI>Change nothing in the <B>Root report directory</B> field.
+<P><LI>Choose <B>Apply</B>.
+<P><LI>On the
+<B>Access Log Report Template Creation</B> form,
+for <B>Report name</B>, type <TT>NoBetaAlpha7</TT>.
+<P><LI>For <B>Report description</B>, type <TT>Accesses, except beta
+subdirectory and alpha7</TT>.
+<P><LI>Scroll down the form.
+<P><LI>Choose <B>Add</B> and <B>Exclude
+Directories/Files listed below</B>
+<P><LI>In the text box, type
+<PRE>
+/www/beta/*
+/www/beta/alpha7*.*
+</PRE>
+<P><LI>Scroll down the form.
+<P><LI>Scroll down to the end of the form and choose <B>Apply</B>.
+</OL>
+<P>
+<H5><A NAME="Header_624">Directives</A></H5>
+<PRE>
+AccessReportTemplate  NoBetaAlpha7   &#123;
+        AccessReportDescription     Accesses, excluding beta and alpha7 requests
+        AccessReportExcludeURL      /www/beta/*
+        AccessReportExcludeURL      alpha7*.*
+           &#125;
+</PRE>
+<P>
+<H4><A NAME="Header_625">Sample report&#58; Accesses for department server and for the beta subdirectory except Alpha7*.* files</A></H4>
+<P>
+Your server is a department server and
+you want to know the access requests for that server.
+You also want to know access requests for the beta subdirectory,
+but you are not interested in knowing access requests
+for any Alpha7*.* files.
+You decide to create a report that meets the following criteria:
+<UL>
+<P><LI>The name of the report should be "DeptServer_Beta-NotAlpha7"
+<P><LI>The report description should say "Accesses for Department Server
+and accesses for beta subdirectory, excluding Alpha7 files"
+<P><LI>The report should
+include all accesses to the IP address that represents the
+department server.
+<P><LI>The report should
+include all access requests to /www/beta/*.
+<P><LI>The report should
+exclude all access requests to Alpha7*.* files.
+</UL>
+<P>
+You can specify these criteria by using the Configuration and
+Administration forms, or by updating specific directives in
+the configuration file.
+<P>
+<H5><A NAME="Header_626">Forms</A></H5>
+<OL>
+<P><LI>From the
+<B>Access Log Report Templates</B> form,
+choose <B>Create a new template</B>.
+Select <TT>Add</TT> in the <B>List it</B> field.
+<P><LI>Change nothing in the <B>Root report directory</B> field.
+<P><LI>Choose <B>Apply</B>.
+<P><LI>On the
+<B>Access Log Report Template Creation</B> form,
+for <B>Report name</B>, type <TT>DeptServer_Beta-NotAlpha7</TT>
+<P><LI>For <B>Report description</B>, type <TT>
+Accesses for Department Server and accesses for beta subdirectory,
+except Alpha7 files</TT>.
+<P><LI>Scroll down the form.
+<P><LI>Choose <B>Add</B> and <B>Exclude
+Directories/Files listed below</B>
+<P><LI>In the text box, type
+<PRE>
+/www/alpha
+/www/gamma
+/www/delta
+Alpha7*.*
+</PRE>
+<P><LI>Choose <B>Add</B> and <B>Include
+host names listed below</B>
+<P><LI>In the text box, type 9.67.*.*
+<P><LI>Scroll down to the end of the form and choose <B>Apply</B>.
+</OL>
+<P>
+<H5><A NAME="Header_627">Directives</A></H5>
+<PRE>
+AccessReportTemplate  &#123;
+        AccessReportTemplate        DeptServer_Beta-NotAlpha7
+        AccessReportDescription     Accesses for Department Server
+             and accesses for beta subdirectory,
+             excluding Alpha7 files
+        AccessReportExcludeURL      /www/alpha
+        AccessReportExcludeURL      /www/gamma
+        AccessReportExcludeURL      /www/delta
+        AccessReportExcludeURL      Alpha7*.*
+        AccessReportIncludeHostName 9.67.*.*
+           &#125;
+</PRE>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg005.html">Previous Page</A> &#124; <A HREF="icswg007.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

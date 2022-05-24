@@ -1,0 +1,174 @@
+
+<DOC>
+<DOCNO>WT01-B03-40</DOCNO>
+<DOCOLDNO>IA097-001048-B043-318</DOCOLDNO>
+<DOCHDR>
+http://mspiggy.etl.noaa.gov:80/othr/othmain.htm 140.172.33.2 19970215104437 text/html 12688
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 05:41:23 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Wed, 27 Nov 1996 17:21:23 GMT
+Content-length: 12513
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>OVER-THE-HORIZON RADAR</TITLE>
+</HEAD>
+<BODY BGCOLOR="#88bbbb" LINK="#0000FF" VLINK="#800040" ALINK="#00FF80">
+<font face="Arial">
+
+<A NAME="top"></A>
+
+<a href="http://www.doc.gov">Commerce</a> / <a href="http://www.noaa.gov">NOAA</a> / <a href="http://www.oar.noaa.gov">OAR</a> / <a href="http://www.erl.noaa.gov">ERL</a> / <a href="http://www.etl.noaa.gov">ETL</a> / <a href="http://www1.etl.noaa.gov">Oceans</a> / <strong>OTHR</strong>
+<center><h6>Click on images for a larger view</h6>
+
+<H2><A HREF="gifs/pg4othr.jpg"><IMG SRC="gifs/pg4othr2.gif" width=100 height=78 hspace=20 align=center></A> <font color="#ffffff">OVER-THE-HORIZON RADAR</font>  <A HREF="gifs/rothr.jpg" ><IMG SRC="gifs/rothr2.gif" width=100 height=75 hspace=20 align=center></A>
+</H2>
+
+
+
+<!--- ANIMATED GIF<center><IMG SRC="gifs/slidebar.gif" HEIGHT=2 WIDTH=555></center> --->
+<H2>Ground-Based Ocean Remote Sensing on Basin-Wide Scales</CENTER></H2>
+<!---ANIMATED GIF <center><IMG SRC="gifs/slidebar.gif" HEIGHT=2 WIDTH=555></center> --->
+<center><img src="gifs/3dline.gif"></center>
+<blockquote> 
+
+<img src="/gifs/why.gif" width=59 height=28><A HREF="http://www.noaa.gov">NOAA</A> needs more data over the oceans to initialize and validate numerical weather prediction models, to track storms at sea, and to monitor ocean circulation patterns that affect global change. <A HREF="http://www.etl.noaa.gov">ETL</A>'s <A HREF="http://www.etl.noaa.gov/division.htm">Ocean Remote Sensing Division</A> works with the U.S. Air Force and the U.S. Navy to see if Cold War air-defense radar systems can be adapted to remotely monitor ocean-surface winds and currents over data-sparse ocean areas that would otherwise require thousands of widely dispersed in-situ instruments. This page shows some results of our tests.</P></center>
+<HR size=4>
+
+
+<h2>Contents</h2>
+<UL>
+<LI> <a href="#work">How does over-the-horizon radar work?</a>
+<li> <a href="#measure">What ocean properties can OTH radar measure?</a>
+<li> <a href="#see">How far can OTH radars see?</a>
+<li> <a href="#atlantic">Synoptic and mesoanalysis over the tropical Atlantic</a>
+<li> <a href="#hurricanes">Can OTH radars track tropical storms and hurricanes?</a>
+<li> <a href="#claudette">Tracking Hurricane Claudette</a>
+<li> <a href="#straits">Surface currents in the Florida Straits</a>
+<li><a href="#mexico"> Surface currents in the Western Caribbean and Gulf of Mexico</a>
+<li> <a href="#map">The first dual-OTH-radar surface current map!</a>
+<li><a href="#data"> Can OTH radar data be merged with satellite data?</a>
+<li> <a href="#now">What OTH radar data are available now?</a>
+<li> <a href="#radar">Other applications of OTH radar</a>
+</ul><HR size=4>
+
+<a name="work"></a><P><H2><A HREF="gifs/sky.jpg"><IMG SRC="gifs/sky2.gif" width=100 height=93 align=left HSPACE=30></A>How does over-the-horizon radar work?</H2>
+Over-the-horizon (OTH) radars were developed to detect military targets far beyond the optical horizon. They use 5-28-MHz radio waves, which reflect from the ionosphere, reaching up to 3,500 km in one "hop." Properties of the ocean surface are extracted from the minute amount of energy scattered by the sea surface back to the radar.  To find out how we extract ocean-surface properties from what the military discards as "sea clutter," see our <A HREF="works.htm"><B>THEORY PAGE</B>.</A><BR clear=left></P>
+<HR size=4>
+
+<a name="measure"></a><H2>What ocean properties can OTH radar measure?</H2>
+<P>In order of increasing difficulty,
+<UL>
+<LI> Surface wind (Bragg-resonant wave) direction
+<LI> Radial surface currents
+<LI> Sea state (eg., rms wave height)
+<LI> Surface wind speed
+<LI> Dominant wave period
+<LI> Dominant wave direction
+<LI> Non-directional (scalar) ocean wave spectrum
+<LI> Combined swell and wind-wave spectrum</UL></P>
+<HR size=4>
+
+
+<a name="see"></a><P><H2><A HREF="gifs/pg4pacif.gif"><IMG SRC="gifs/pg4paci2.gif" width=100 height=82 align=left HSPACE=30></A> How far can OTH radars see?</H2>
+Using one ionospheric reflection, an OTH radar normally covers the range interval between about 500 and 3,500 km. This experimental surface wind-direction map, which covers about 40-million square kilometers of the Pacific Ocean, was made in about three hours with the three Air Force <A HREF="othb.htm">OTH-B</A> radars on the California-Oregon border. Only direction is indicated here; wind speed was not measured. Mesoscale structure of surface cyclones, anticyclones, and fronts is clearly resolved.<BR clear=left><p>
+<HR size=4></P>
+
+<a name="atlantic"></a><P><H2><A HREF="gifs/sep20.gif"><IMG SRC="gifs/sep202.gif" width=100 height=65 align=right hspace=30></A>Synoptic and mesoanalysis over the tropical Atlantic</H2>
+NOAA adapted the Air Force <A HREF="othb.htm">OTH-B</A> radars in Maine to map surface wind streamlines in the hurricane breeding grounds of the tropical Atlantic. Tropical waves crossing the Atlantic can be seen in detail not available with any other sensor. Under favorable conditions, such waves develop into tropical storms and hurricanes. Working with NOAA's <a href="http://www.aoml.noaa.gov/hrd/">Hurricane Research Division</a>, we provided these experimental maps to the <A HREF="http://www.nhc.noaa.gov/nhchome.html">National Hurricane Center</A> for 40 days during the 1994 hurricane season. <BR clear=right></P>
+
+Take a look at a 19-day <a href="gifs/hurr94a.gif"><b>MOVIE LOOP</b></a> of OTH-B streamline maps. (192K GIF) This is not a model -- it's real data! See <a href="../pubs.htm#wf">Young et al. [1996]</a><p>
+<HR size=4>
+
+<a name="hurricanes"></a><P><H2><A HREF="gifs/pg4hurc.gif"><IMG SRC="gifs/pg4hurc2.gif" width=100 height=86 align=left HSPACE=30></A> Can OTH radars track tropical storms and hurricanes?</H2>
+This surface wind direction map was made in less than one hour with the Air Force <A HREF="othb.htm">OTH-B</A> radar in Maine, just as Hurricane Andrew was heading toward its devastating encounter with the South Florida coast.<BR clear=left></p>
+<img src="gifs/NEW.gif" align=center> 1996 ROTHR <a href="/othr/hort.htm">Surface Wind and Current Maps</a> of Hurricane Hortense.<P>
+<HR size=4>
+
+<a name="claudette"></a><P><H2><A HREF="gifs/claud.gif"><IMG SRC="gifs/claud2.gif" width=100 height=96 align=right HSPACE=30></A>Tracking Hurricane Claudette</H2>
+The <A HREF="othb.htm">OTH-B</A> radar in Maine captured five images of the surface wind-direction pattern associated with 1993 Hurricane Claudette, which just missed Bermuda.  Eye locations derived from these radar images are compared here with the official <A HREF="http://www.nhc.noaa.gov/nhchome.html">National Hurricane Center</A> track for the storm. See [<A HREF="/pubs.htm#claudette">Georges and Harlan, 1993</A>] for more details. <BR clear=right></P>
+<HR size=4>
+
+
+
+<a name="straits"></a><P><H2><A HREF="gifs/aug11.gif"><IMG SRC="gifs/aug112.gif" width=100 height=86 ALIGN=left HSPACE=30></A>Surface currents in the Florida Straits</H2>
+This map of the radial component of ocean surface currents was made using the U.S. Navy Relocatable Over-the-Horizon Radar (ROTHR) to the north in Virginia. Currents flowing toward the radar (that is, nearly northward) are colored red and orange. Currents flowing away from the radar are colored green and blue.<BR clear=left><p>
+<HR size=4>
+
+
+<a name="mexico"></a><P><H2><A HREF="gifs/tx.gif"><IMG SRC="gifs/tx2.gif" width=100 height=83 align=right hspace=30></A>Surface currents in the Western Caribbean and Gulf of Mexico</H2>
+This map of radial currents made by the Texas ROTHR (to the northwest) shows details of the Atlantic Western Boundary Current as it flows through the Yucatan Passage, makes a 180-deg turn in the Gulf of Mexico (the Loop Current) and flows eastward into the Florida Straits. Bifurcations and eddies in the western Caribbean reveal the influence of bottom topography.<BR clear=right></P>
+<HR size=4>
+
+<a name="map"></a><P><H2><A HREF="gifs/dualvaju.gif"><IMG SRC="gifs/dualvaju2.gif" width=100 height=86 align=left hspace=30></A>The first dual-OTH-radar surface current map!</H2>
+This test, performed by simultaneously illuminating the Florida Straits with both the U.S. Navy ROTHR radars in Texas and Virginia, reveals the structure of the Florida Current, and ancilliary flows, with 10-km resolution [<A HREF="/pubs.htm#nature">Georges et al., 1996</A>]<BR clear=left></P>
+
+<HR size=4>
+
+<a name="data"></a><P><H2><A HREF="gifs/oth_ers.gif"><IMG SRC="gifs/ers2.gif" width=101 height=71 align=right HSPACE=30></A>Can OTH radar data be merged with satellite data?</H2>
+The color strips show 24 hours of <A HREF="http://140.90.191.231/oceanwinds1.html">ERS-1 scatterometer</A> coverage over the North Atlantic. Wind speed is color coded, with orange indicating highest speeds. The OTH-B wind directions for the same day are superimposed, filling in the gaps in the satellite data [<a href="../pubs.htm#merg">Georges et al., 1996</a>].  Data merged by Paul Chang at <A HREF="http://140.90.191.231/Welcome.html">NESDIS</A>.<BR clear=right></P>
+<HR size=4>
+
+<a name="now"></a><P><H2>What OTH radar data are available now?</H2>
+NOAA's tests with the Air Force and Navy radars have so far been for research and demonstration purposes only. Therefore,  only <A HREF="http://www1.etl.noaa.gov/othr/othdata.htm">archival </A> data are available. The Air Force has deactivated its <A HREF="othb.htm">OTH-B</A> system and now maintains the six East Coast and West Coast OTH-B radars in a state called “warm storage,” which preserves the physical and electrical integrity of the system and permits recall, should a need arise.  The incremental cost of operating the East Coast OTH-B system for environmental research and services is about $1.0M to $1.5M per year [<A HREF="/pubs.htm#cost">Georges, 1995</A>]. The environmental monitoring aspects of the system are unclassified. Similar coverage in the eastern Pacific could be obtained at about the same cost. The two U.S. Navy ROTHRs are presently in full-time military service, but occasional brief environmental-monitoring tests are permitted. <a href="/othr/96rothr.html">See 1996 ROTHR current maps</a>. Other OTH radars in France, Australia, and Russia could be adapted to environmental monitoring.</P>
+<HR size=4>
+
+
+
+<a name="radar"></a><P><H2>Other applications of OTH radar</H2><UL>
+
+<li><A HREF="hurr.htm">Hurricane Tracking and Forecasting</A>
+<li><A HREF="nwp.htm">Numerical Weather Prediction</A>
+<li><A HREF="spawx.htm">Space Weather Forecasts</A>
+<li><A HREF="marfor.htm">Marine Weather Forecasts</A>
+<li><A HREF="poll.htm">Pollution Control</A>
+<li><A HREF="fish.htm">Fisheries Oceanography</A>
+<li><A HREF="atc.htm">Air-traffic control</A>
+<li><A HREF="search.htm">Search and Rescue</A>
+<li><A HREF="calval.htm">Calibration and Validation of Satellite Ocean Sensors</A>
+<li><A HREF="swr.htm">Shortwave Radio Forecasting</A>
+<li><A HREF="clim.htm">Climate Change</A>
+<li><A HREF="marwx.htm">Marine Weather Research</A>
+<li><A HREF="coastal.htm">Coastal Wave Forecasting</A>
+<li><A HREF="ionos.htm">Ionospheric Research</A>
+<li><A HREF="ice.htm">Iceberg Tracking</A>
+</UL></P>
+
+<HR size=4>
+<H2>Related Links</H2>
+<P>
+<img src="gifs/NEW.gif" align=center><a href="/othr/96rothr.html">1996 ROTHR Current and Wind Direction Maps</a><br>
+<A HREF="othdata.htm">OTH Radar Data and Image Archive</A><BR>
+<A HREF="http://140.90.191.231/oth.html">ERS-1 Wind Speed Overlays from NESDIS</A><BR>
+<A HREF="http://hpcc1.hpcc.noaa.gov/orgs.html">NOAA Servers Directory</A><BR>
+<A HREF="/biography/tgeorges.html">Tom Georges</A>'s photo and bio<BR>
+<A HREF="/biography/jharlan.html">Jack Harlan</A>'s photo and bio<BR>
+</P>
+<HR size=4>
+
+<P><strong>Questions? Comments? Suggestions? E-mail to:</strong><br>
+<A HREF="mailto:tgeorges@etl.noaa.gov">Dr. T. M. Georges</A> ( tgeorges@etl.noaa.gov ) or <BR>
+<A HREF="mailto:jah@etl.noaa.gov">Jack Harlan </A>( jah@etl.noaa.gov )
+-- or see these <A HREF="../pubs.htm#over">publications</A>
+</P>
+</blockquote>
+<HR size=4>
+
+<center><a href="/index.html">Ocean Remote Sensing Home Page</a> | <a href="http://www.etl.noaa.gov">ETL Home Page</a></center>
+
+
+<hr size=4>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide this
+document.write ("Last updated on " + document.lastModified)
+// end hide -->
+</SCRIPT>
+
+<font size=-2><a href="mailto:tgeorges@etl.noaa.gov">tgeorges@etl.noaa.gov</a></font>
+
+</BODY>
+</HTML>
+</DOC>

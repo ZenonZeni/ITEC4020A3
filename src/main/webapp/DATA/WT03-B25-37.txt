@@ -1,0 +1,97 @@
+
+<DOC>
+<DOCNO>WT03-B25-37</DOCNO>
+<DOCOLDNO>IA008-000084-B025-134</DOCOLDNO>
+<DOCHDR>
+http://thor.aps.rwth-aachen.de:80/aps/studies/arbei_d.htm 137.226.180.78 19970222102854 text/html 3665
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Saturday, 22-Feb-97 09:03:06 GMT
+Content-Type: text/html
+Content-Length: 3459
+Last-Modified: Thursday, 28-Mar-96 12:13:49 GMT
+</DOCHDR>
+<HTML><HEAD>
+<TITLE>Aktuelle Studien- und Diplomarbeiten</TITLE>
+</HEAD>
+
+<body>
+<h1><IMG SRC="../images/apslogos.gif" ALIGN="middle" hspace="20">Studien- und Diplomarbeiten</H1><tr>
+
+<HR>
+
+<ol>
+<li><a href="#Fromm_1">Entwicklung einer intelligenten 4-Quadranten Motorregelung f&uuml;r Elektrorollst&uuml;hle (Diplomarbeit)</a>
+<li><a href="#Fromm_2">Realisierung eines Drehmomentsensors (Studien-/Diplomarbeit)</a>
+</ol>
+
+<HR>
+
+<h4><a name="Fromm_1">Thema: Entwicklung einer intelligenten 4-Quadranten Motorregelung f&uuml;r Elektrorollst&uuml;hle</a></h4>
+
+<i>Hardware, Leistungselektronik, Mikrocontroller</i>
+
+<p>Zur Unterst&uuml;tzung des Benutzers eines Aktivrollstuhls soll ein Elektroantrieb bestehend aus zwei 
+Radnabenmotoren, einer 4-Quadranten Motorregelung und einem Mikrocontroller eingesetzt 
+werden. Abh&auml;ngig von der aktuellen Fahrbewegung (Beschleunigung, Bremsen, etc.) und den 
+frei w&auml;hlbaren Benutzerparametern (Dauerunterst&uuml;tzung, Aktivierung bei Steigungen, etc) soll 
+der Antrieb zugeschaltet werden bzw. als Generator die Batterien aufladen. Zur Ansteuerung der 
+Motorregelung wird ein kommerzieller Mikrocontroller eingesetzt. Die Speisung der Motoren 
+erfolgt aus einer gemeinsamen Batterie.</p>
+
+<p>Schwerpunkt der Arbeit ist Entwicklung der Motorregelung. Folgende Funktionen der 
+Motorregelung sind vorzusehen:</p>
+
+<ul>
+<li>Individuelle Einstellung des Quadranten f&uuml;r jeden der beiden Motoren
+<li>Vorgabe der Solldrehzahl/Solldrehmoment der Motoren bei Antrieb
+<li>Vorgabe des Bremsdrehmomentes der Motoren bei R&uuml;ckspeisebetrieb
+<li>Ausgabe der Betriebscharakteristika an den Mikrocontroller
+</ul>
+
+<p>Bei der Entwicklung ist auf einen guten Wirkungsgrad der Regelung sowie die Wahl einer geeigneten Schnittstelle zum Mikrocontroller zu achten. Die Arbeit umfaﬂt insbesondere folgende Arbeitspakete: </p>
+
+<ul>
+<li>Entwicklung der Schaltung f&uuml;r die Regelung mit dem Programm ORCAD
+<li>Realisierung eines ersten Prototypen
+<li>Integration des Prototypen in einen Rollstuhl und Testen des Systems
+<li>Basierend auf den praktischen Erfahrungen Verbesserung des Prototypen
+<li>Dokumentation der Arbeit
+</ul>
+
+<p><b>Ansprechpartner: Dipl.-Ing. Peter Fromm, Tel. 8864-246</b>
+
+</HR>
+
+<h4><a name="Fromm_2">Thema: Realisierung eines Drehmomentsensors</a></h4>
+
+<i>Hardware, Sensorik, Me&szlig;technik</i>
+
+<p>Im Rahmen eines Forschungsvorhabens soll ein Hybridantrieb f&uuml;r einen Aktivrollstuhl entwickelt werden. Hierzu soll das vom Benutzer aufgebrachte Antriebsmoment gemessen werden und gegebenenfalls ein Elektroantrieb zugeschaltet werden. Die Messung des Antriebsmomentes soll &uuml;ber einen im Greifrad integrierten Drehmomentsensor erfolgen.</p>
+
+<p>Schwerpunkt der Arbeit ist die mechanische Entwicklung des Drehmomentsensors und die Implementierung einer geeigneten Signalverarbeitung auf einem handels&uuml;blichen Mikrocontroller unter C. Die Arbeit umfaﬂt insbesondere folgende Arbeitspakete: </p>
+
+<ul>
+<li>Entwicklung der Sensormechanik
+<li>&Uuml;berwachung der Fertigung eines ersten Prototypen
+<li>Integration des Prototypen in einen Rollstuhl und Testen des Systems
+<li>Entwicklung der Signalverarbeitung
+<li>Dokumentation der Arbeit
+</ul>
+
+<p><b>Ansprechpartner: Dipl.-Ing. Peter Fromm, Tel. 8864-246</b>
+
+<HR>
+
+<P><A HREF="../aps_d.htm"><IMG SRC="../images/back.gif"></A>
+</P>
+</FORM></HTML>
+
+
+
+
+
+
+
+</DOC>

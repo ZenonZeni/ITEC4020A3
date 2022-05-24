@@ -1,0 +1,82 @@
+
+<DOC>
+<DOCNO>WT02-B21-103</DOCNO>
+<DOCOLDNO>IA032-000663-B022-296</DOCOLDNO>
+<DOCHDR>
+http://www.zeco.com:80/zegnews.html 198.68.188.69 19970209122512 text/html 2579
+HTTP/1.0 200 Document follows
+Date: Sun, 09 Feb 1997 12:24:14 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 24 Jan 1997 00:20:26 GMT
+Content-length: 2405
+</DOCHDR>
+<HTML>
+<HEAD>
+</HEAD>
+<TITLE>NEWS LETTERS</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Beginning of WebMania/JavaScript Applet -------------------
+/* Copyright (C)1996 Q&D Software Development
+   All Rights Reserved.
+
+*/
+function scroll_status (seed)
+{
+        var msg = "Call us Toll Free 1-800-628-8747";
+        var out = " ";
+        var c   = 1;
+
+        if (150 < seed) {
+                seed--;
+                var cmd="scroll_status(" + seed + ")";
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 150 && 0 < seed) {
+                for (c=0 ; c < seed ; c++) {
+                        out+=" ";
+                }
+                out+=msg;
+                seed--;
+                var cmd="scroll_status(" + seed + ")";
+                window.status=out;
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 0) {
+                if (-seed < msg.length) {
+                        out+=msg.substring(-seed,msg.length);
+                        seed--;
+                        var cmd="scroll_status(" + seed + ")";
+                        window.status=out;
+                        timerTwo=window.setTimeout(cmd,100);
+                }
+                else {
+                        window.status=" ";
+                        timerTwo=window.setTimeout("scroll_status(150)",100);
+                }
+        }
+}
+// -- End of JavaScript code -------------- -->
+
+</SCRIPT>
+<BODY onLoad="timerONE=window.setTimeout('scroll_status(100)',50);" BGCOLOR="FFFFFF" TEXT="000000" LINK="0000FF" VLINK="FF0000" ALINK="00FF00">
+<CENTER>
+<table border=4 CELLSPACING=6 CELLPADDING=2 ALIGN=CENTER>
+<TR><TH BGCOLOR=ADEAEA><FONT SIZE=2>ZEGRAHM NEWS</FONT>
+</TH></TR><TR><TD><A HREF="/news71/index.html" TARGET="_top">January, 1997<BR><FONT SIZE=2>Volume 7 No. 1</FONT></A></TD></TR>
+</TH></TR><TR><TD><A HREF="/news64/index.html" TARGET="_top">October, 1996<BR><FONT SIZE=2>Volume 6 No. 4</FONT></A></TD></TR>
+</TH></TR><TR><TD><A HREF="/news63/index.html" TARGET="_top">July, 1996<BR><FONT SIZE=2>Volume 6 No. 3</FONT></A></TD></TR>
+</TABLE>
+<HR>
+<table border=5 CELLSPACING=6 CELLPADDING=2 ALIGN=CENTER>
+<TR><TH BGCOLOR=ADEAEA><FONT SIZE=2> Back To 
+</FONT>
+</TH></TR><TR><TD><A HREF="index.html" TARGET="_top">Zegrahm
+Expeditions Main Page</A></TD></TR>
+</TABLE>
+</CENTER>
+<P>
+<FONT SIZE=1>&#169; 1996 Zegrahm Expeditions</FONT>
+</BODY>
+</HTML>
+</DOC>

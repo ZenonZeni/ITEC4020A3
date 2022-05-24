@@ -1,0 +1,326 @@
+
+<DOC>
+<DOCNO>WT02-B10-304</DOCNO>
+<DOCOLDNO>IA011-000111-B041-143</DOCOLDNO>
+<DOCHDR>
+http://www.takeout-info.com:80/vitamins/index.html 206.184.157.62 19970216170409 text/html 9116
+HTTP/1.0 200 OK
+Date: Sun, 16 Feb 1997 17:04:24 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 8934
+Last-modified: Tue, 11 Feb 1997 20:26:51 GMT
+</DOCHDR>
+<html>
+<HEAD>
+  <title>AAdvanced Herbal Alternatives</title>
+
+  <META Name="description" Content="Blend of herbs formulated for overall
+              health and energy.  Specifically designed for masculine
+              and female functions, memory enhancement, weight loss,
+              optimal rest and sleep and respiratory functions.
+              Vitamins and herbs -- the natural alternatives!">
+
+  <META Name="keywords" Content="natural sex, male potency, vitamins, health,
+        herbs, collection, catalog, search, search engines, weight loss,
+        Chinese herbs">
+
+<EMBED SRC="../sound/vitamins.mid" autostart=true hidden=true>
+<BGSOUND src="../sound/vitamins.mid">
+
+<SCRIPT LANGUAGE="JavaScript">
+
+/* Copyright (C)1996 Web Integration Systems, Inc. DBA Websys, Inc. FChan, Inc.
+   All Rights Reserved.
+
+   This applet can be re-used or modified, if credit is given in 
+   the source code.
+
+   We will not be held responsible for any unwanted effects due to the 
+   usage of this applet or any derivative.  No warrantees for usability 
+   for any specific application are given or implied.
+
+   Chris Skinner,  January 30, 1996.
+   Michael Moricz, July 4, 1996.
+*/
+
+<!-- Beginning of JavaScript Applet -------------------
+function rot_banner_indx(seed)
+{
+        var m1  = "Welcome to F. Chan's homepage on health and nutrition        ";
+        var m2  = "    Vitamins and herbs ...    ";
+        var m3  = "    Safe, effective, no side effects, all natural ...     ";
+        var m4  = "    Guaranteed to work!       ";
+        var m5  = "Vitamins and herbs, vitamins and herbs, vitamins and herbs...   ";
+        
+        var msg=m1+m2+m3+m4+m5;
+        var out = " ";
+        var c   = 1;
+
+        if (seed > 100) {
+                seed--;
+                var cmd="rot_banner_indx(" + seed + ")";
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 100 && seed > 0) {
+                for (c=0 ; c < seed ; c++) {
+                        out+=" ";
+                }
+                out+=msg;
+                seed--;
+                var cmd="rot_banner_indx(" + seed + ")";
+                    window.status=out;
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 0) {
+                if (-seed < msg.length) {
+                        out+=msg.substring(-seed,msg.length);
+                        seed--;
+                        var cmd="rot_banner_indx(" + seed + ")";
+                        window.status=out;
+                        timerTwo=window.setTimeout(cmd,100);
+                }
+                else {
+                        window.status=" ";
+                        timerTwo=window.setTimeout("rot_banner_indx(100)",75);
+                }
+        }
+}
+// -- End of JavaScript code -------------- -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BACKGROUND="herb.gif"
+      onLoad="timerONE=window.setTimeout('rot_banner_indx(100)',500);">
+
+
+<CENTER>
+  <!-- BEGIN LOGO -->
+  <!-- img width=440 height=40 border=1 ismap -->
+  <img
+  alt="Herbal Alternatives"
+  src="../logo/herb.jpg">
+  <!--  END LOGO  -->
+</CENTER>
+
+<BR>
+
+<EM>
+In recent years, modern science has discovered the long held belief
+    of Chinese herbalists
+that certain herbs have beneficial contribution to overall health
+    and wellness.
+Finally, in combination with ancient wisdom and the latest in western
+    knowledge,
+<font color="FF0000">Herbal Alternatives</font>  have been developed
+    to enhance the quality of your life.
+</EM>
+
+<br>
+<br>
+
+   <hr>
+
+<br>
+
+
+<center>
+<table border=4 cellspacing=4 cellpadding=2 width=100%>
+
+<tr>
+    <!-- --------------------------------------------- -->
+    <!--             Masculine Herbal Complex          -->
+    <!-- --------------------------------------------- -->
+    <th align="center" width=400 height=80>
+    <table>
+      <tr>
+      <th align="center">
+        <a href="index_msc.html">
+        <!-- a href="index_all.html#Masculine" -->
+          <font color="FF0000" size=+1>Masculine Herbal Complex</font></a>
+      <tr>
+      <br>
+      <th align="left">
+        <ul>
+        <li> Promotes physical endurance
+        <li> Sensational sex booster
+        </ul>
+    </table>
+
+    <!-- --------------------------------------------- -->
+    <!--             Feminine Herbal Complex           -->
+    <!-- --------------------------------------------- -->
+    <th align="center" width=400 >
+    <table>
+      <tr>
+      <th align="center">
+        <a href="index_fmn.html">
+          <font color="FF0000" size=+1>Feminine Herbal Complex</font></a>
+      <tr>
+      <br>
+      <th align="left">
+        <ul>
+        <li> Promotes physical energy
+        <li> Increases sexual desire
+        </ul>
+    </table>
+
+
+<tr>
+    <!-- --------------------------------------------- -->
+    <!--             Mind Enhancement System           -->
+    <!-- --------------------------------------------- -->
+    <th align="center" width=400 height=80>
+    <table>
+      <tr>
+      <th align="center">
+        <a href="index_mind.html">
+          <font color="FF0000" size=+1>Mind Enhancement System</font></a>
+      <tr>
+      <br>
+      <th align="left">
+        <ul>
+        <li> Sharpens memory
+        <li> Helps with concentration
+        </ul>
+    </table>
+
+    <!-- --------------------------------------------- -->
+    <!--             Herbal Rest and Relax             -->
+    <!-- --------------------------------------------- -->
+    <th align="center" width=400 >
+    <table>
+      <tr>
+      <th align="center">
+        <a href="index_hrr.html">
+          <font color="FF0000" size=+1>Herbal Rest and Relax</font></a>
+      <tr>
+      <br>
+      <th align="left">
+        <ul>
+        <li> Relieves headaches
+        <li> Induces natural sleep
+        </ul>
+    </table>
+
+
+<tr>
+    <!-- --------------------------------------------- -->
+    <!--        Weight Loss (Night trim) System        -->
+    <!-- --------------------------------------------- -->
+    <th align="center" width=400 height=80 >
+    <table>
+      <tr>
+      <th align="center">
+        <a href="index_weight.html">
+          <font color="FF0000" size=+1>Weight Loss (Night trim) System
+          </font></a>
+      <tr>
+      <br>
+      <th align="left">
+        <ul>
+        <li> Increases the efficiency of metabolism
+        <li> Lose inches while sleeping
+        </ul>
+    </table>
+
+    <!-- --------------------------------------------- -->
+    <!--             Herbal Respiratory Formula        -->
+    <!-- --------------------------------------------- -->
+    <th align="center" width=400 height=80 >
+    <table>
+      <tr>
+      <th align="center">
+        <a href="index_rfofh.html">
+          <font color="FF0000" size=+1>Herbal Respiratory Formula</font></a>
+      <tr>
+      <br>
+      <th align="left">
+        <ul>
+        <li> Relieves allergy and asthma symptoms
+        <li> Opens up sinus
+        </ul>
+    </table>
+
+
+<tr>
+    <!-- --------------------------------------------- -->
+    <!--             Optimal Life Formula              -->
+    <!-- --------------------------------------------- -->
+    <th align="center" width=400 height=80 >
+    <table>
+      <tr>
+      <th align="center">
+        <a href="index_opt.html">
+          <font color="FF0000" size=+1>Optimal Life Formula</font></a>
+      <tr>
+      <br>
+      <th align="left">
+        <ul>
+        <li> Strengthens the immune system
+        <li> Slows down the aging process
+        </ul>
+    </table>
+
+    <!-- --------------------------------------------- -->
+    <!--             Herbal Cleansing Complex          -->
+    <!-- --------------------------------------------- -->
+    <th align="center" width=400 >
+    <table>
+      <tr>
+      <th align="center">
+        <a href="index_hcc.html">
+          <font color="FF0000" size=+1>Herbal Cleansing Complex</font></a>
+      <tr>
+      <br>
+      <th align="left">
+        <ul>
+        <li> Relieves constipation
+        <li> Cleans and detoxifies the colon
+        </ul>
+    </table>
+
+</table>
+</center>
+
+<br>
+
+     <hr>
+
+<br>
+<table>
+<tr><th>  <font size=+0> <a Href="order_online.html"> To order: </a></font>
+    <th align="left">  <font size=+0> <a Href="order_online.html"> Online </a></font>      
+    <th align="left">  <font size=+0> <a Href="order_online.html"> (click here) </a></font>
+
+<tr><th><th align ="left"> <font size=+0> By phone  </font>
+    <th align="left"> <font size=+0> 1-415-962-1288 </font></tr>
+</table>
+</h2>
+
+
+<br>
+<center>
+<font size=+1> Site is visited since August 12, 1996:  </font><br>
+<br>
+<img src="../counter/cgi-bin/counter.script.cgi?vitamins">
+</center>
+
+<br>
+<hr>
+
+<br>
+<center>
+<font size=+1><a href="testimonial.html"> Product Testimonials </a> |</font>
+<font size=+1><a href="../PowerSubmit/index.html"> Link to
+                 <FONT COLOR="FF0000">PowerSubmit</FONT> </a></font>
+</center>
+
+</body>
+<address>
+<!--  Copyright &#169 1996 , by F. Chan  -->
+</address>
+</html>
+</DOC>

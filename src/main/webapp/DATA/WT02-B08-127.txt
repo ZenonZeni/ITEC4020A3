@@ -1,0 +1,77 @@
+
+<DOC>
+<DOCNO>WT02-B08-127</DOCNO>
+<DOCOLDNO>IA003-000025-B016-164</DOCOLDNO>
+<DOCHDR>
+http://robot0.ge.uiuc.edu:80/~spong/ge222/clist2.html 128.174.127.217 19961231232045 text/html 1860
+HTTP/1.0 200 OK
+Date: Tuesday, 31-Dec-96 23:23:20 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<BODY BGCOLOR='#FFFFFF'>
+<TITLE>GE 222 Checklist for Exam Number 2</TITLE>
+<BR>
+
+<H1>Checklist for Exam Number 2</H1>
+<BR>
+
+<P>
+The following is a list of the important keywords and concepts
+for Exam number 2. 
+
+<H2>Time Response of Linear Systems</H2>
+<BR>
+<ul>
+<li>Relation between pole location and time response</li>
+<li>Time Constant and DC-gain</li>
+<li>Natural (free) response, force response, transient response, steady state</li>
+<li>Natural frequency and damping ratio for second order systems</li>.
+<li>Underdamped, critically damped, overdamped response</li>
+<li>Overshoot, rise time, settling time and how they are determined by the
+pole locations and by the natural frequency and damping ratio</li>
+<li>Closed loop versus open loop response</li>
+<li>The effect of added poles and zeros</li>
+</ul>
+<br>
+
+<h2>Block Diagram Reduction</h2>
+<br>
+<ul>
+<li>You should know the basic rules for block diagram reduction and be able to
+calculate the equivalent block diagram</li>
+</ul>
+<br>
+
+<h2>Stability</h2>
+<br>
+<ul>
+<li>Definition of BIBO stability and its relation to pole location</li>
+<li>Stability and marginal stability</li>
+<li>Routh-Hurwitz stability criterion, how to calculate the Routh-Hurwitz
+array and how to use it to determine stability</li>
+</ul>
+<br>
+
+<h2>Steady State Response</h2>
+<br>
+<ul>
+<li>System type number, error constants, and how to use them to determine the
+steady state error to step, ramp, and parabola reference inputs</li>
+</ul>
+<br>
+
+<h2>Sensitivity</h2>
+<br>
+<ul>
+<li>Know the basic definition of the sensitivity function and what it means. You
+do not need to know the details of frequency response at this point.  Frequency
+response will be covered later in detail.
+</li>
+</ul>
+
+</BODY>
+</HTML>
+</DOC>

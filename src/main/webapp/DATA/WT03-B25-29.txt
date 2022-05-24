@@ -1,0 +1,75 @@
+
+<DOC>
+<DOCNO>WT03-B25-29</DOCNO>
+<DOCOLDNO>IA008-000084-B024-224</DOCOLDNO>
+<DOCHDR>
+http://thor.aps.rwth-aachen.de:80/ecm/projekt/ab4_e.htm 137.226.180.78 19970222102550 text/html 2519
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Saturday, 22-Feb-97 09:00:04 GMT
+Content-Type: text/html
+Content-Length: 2313
+Last-Modified: Thursday, 28-Mar-96 17:10:41 GMT
+</DOCHDR>
+<HTML><HEAD>
+<TITLE>Advanced Robots</TITLE>
+</HEAD>
+
+<FORM METHOD="QUERY" ACTION="/cgi-bin/danke_e.exe/FORM">
+
+<h1><IMG SRC="../images/melogo.gif" ALIGN="middle" hspace="20">Advanced Robots</H1><tr>
+
+<P>The following overview provides a first description of our work carried out in the area of robotics and mobile platforms. For further information please reply to us the form at the end of this document or contact us <a href="../ecm/lage_e.htm">directly</a>.
+<P></P>
+
+<HR>
+
+<P>The development of innovative mobile service robots as well as the adaption of standard industrial handling systems for specific production tasks are the mayor working areas of the ECM in the field of advanced robotics. Keywords of the current research efforts are 
+
+<ul>
+<li>system mobility
+<li>future control systems
+<li>integration of smart sensors
+<li>application of knowledge based modules
+<li>implementation of autonomous functions
+<li>improved programming tools
+<li>and last but not least the realisation of future robot generations, like climbing, walking and diving systems
+</ul>
+<p>The physical restrictions of mankind often do not allow the operation of humans under harming working conditions, like poluted or radioactive areas. Therefore, the development of mobile robot systems operating under water, in the air or on the land is becoming more and more important. To assure a safe autonomous operation of the platforms, they must be equipped with intelligent sensors for the specific task to be solved, e.g. navigation, local path planning etc.
+
+
+
+<HR>
+<p><b>Please send us additional information to the following areas:</b></p>
+<PRE>
+<TT>
+Area of interest <INPUT NAME="area" SIZE="60"><BR>
+<BR>
+Company  <INPUT NAME="company" SIZE="68"><BR>
+Name     <INPUT NAME="name" SIZE="68"><BR>
+Position <INPUT NAME="position" SIZE="68"><BR>
+Street   <INPUT NAME="street" SIZE="68"><BR>
+State    <INPUT NAME="country" SIZE="4">  - ZC <INPUT NAME="pc" SIZE = "10"> City <INPUT NAME="city" SIZE="39"><BR>
+Phone    <INPUT NAME="Phone" SIZE="22">  Fax <INPUT NAME="FAX" SIZE="22"><br>
+email    <INPUT NAME="email" SIZE="51"><BR>
+<BR>
+</TT>
+<P><INPUT TYPE=SUBMIT VALUE="SEND" SIZE="30">    <INPUT TYPE=RESET VALUE="RESET" SIZE="30">
+</P>
+
+<hr>
+<P><A HREF="../ecm_e.htm"><IMG SRC="../images/back.gif"></A>
+</P>
+</FORM></HTML>
+
+
+
+
+
+
+
+
+
+
+</DOC>

@@ -1,0 +1,123 @@
+
+<DOC>
+<DOCNO>WT03-B27-3</DOCNO>
+<DOCOLDNO>IA055-000922-B005-273</DOCOLDNO>
+<DOCHDR>
+http://www.vital-info.com:80/hfaordf.htm 204.69.248.245 19970208010251 text/html 4158
+HTTP/1.0 200 OK
+Date: Sat, 08 Feb 1997 01:14:10 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3987
+Last-modified: Fri, 03 Jan 1997 22:04:53 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>Vital Information - Mutual Funds Bulletin Application</title>
+</head>
+
+<body bgcolor="#FFFFE0" text="#000000">
+
+<h1 align="center">Hot Funds Analyst</h1>
+
+<h3 align="center">Subscription Application </h3>
+
+<p align="center"><font color="#FF0000" size="4"><b>50% OFF</b><b><i>
+Special</i></b><b>Savings Certificate</b></font> </p>
+
+<p><font color="#FF0000" size="4"><b>YES!</b></font> I want to
+start doubling my money every 3-4 years with the help of the
+top-performing <b><i>HOT FUNDS ANALYST.</i></b> Please enter my
+subscription as I have checked below. </p>
+
+<form action="/cgibin/mfb-ordf.cgi" method="POST">
+    <table border="1">
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" size="30" name="name">First,
+            Last </td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" size="30" name="addr1">Street <br>
+            <input type="text" size="30" name="addr2"><br>
+            <input type="text" size="30" name="city">City <br>
+            <input type="text" size="3" name="state">ST <input
+            type="text" size="6" name="zip">Zip </td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="text" size="30" name="phone">Daytime
+            Number<br>
+            <input type="text" size="30" name="fax">Fax </td>
+        </tr>
+        <tr>
+            <td>Email:<br>
+            <b>(required)</b></td>
+            <td><input type="text" size="30" name="email">Internet
+            Email<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Credit Card:</td>
+            <td><select name="card" size="1">
+                <option selected>Visa </option>
+                <option>Mastercharge </option>
+                <option>American Express </option>
+                <option>Check</option>
+            </select> <br>
+            <input type="text" size="30" name="cardnum">Number <br>
+            <input type="text" size="30" name="cardexp">Expires
+            (mm/yy) <p>You may also call in your Credit Card
+            number (800-237-8400 Ext.112) </p>
+            <p>If paying by check, please make checks payable to
+            Vital Information. </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Delivery Option:<br>
+            (check one)</td>
+            <td><input type="radio" name="delivery" value="fax">Fax<br>
+            <input type="radio" name="delivery" value="internet">Internet<br>
+            <input type="radio" checked name="delivery"
+            value="usmail">First Class Mail </td>
+        </tr>
+        <tr>
+            <td>Subscription Option:<br>
+            (pick one)</td>
+            <td><table border="0">
+                <tr>
+                    <td><input type="radio" name="subscribe"
+                    value="trial"></td>
+                    <td>3 month trial for $39. (Please note,
+                    there are no refunds and no bonuses with the
+                    trial offer) </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="subscribe"
+                    value="1yr"></td>
+                    <td>I prefer 1 year, 12 monthly issues for
+                    just $179 (regularly $359) and save $180 </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" checked
+                    name="subscribe" value="2yr"></td>
+                    <td>I prefer 2 years, 24 monthly issues for
+                    just $299 (regularly $599) and save $300,
+                    locking these low rates </td>
+                </tr>
+            </table>
+            </td>
+        </tr>
+    </table>
+    <p><input type="submit" value="Send Order"><input
+    type="reset" value="Clear the form"> </p>
+</form>
+</body>
+</html>
+</DOC>

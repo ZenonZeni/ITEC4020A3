@@ -1,0 +1,284 @@
+
+<DOC>
+<DOCNO>WT02-B21-204</DOCNO>
+<DOCOLDNO>IA060-000333-B022-199</DOCOLDNO>
+<DOCHDR>
+http://www.survey.net:80/sv-rlg.htm 204.107.221.240 19970115054645 text/html 8180
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 05:40:24 GMT
+Server: Apache-SSL-US/1.0.3+1.1
+Content-type: text/html
+Content-length: 7998
+Last-modified: Mon, 25 Nov 1996 20:26:49 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>SURVEY.NET - Religion Survey #1</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" VLINK="#00007F">
+
+<P ALIGN=CENTER><A HREF="http://www.survey.net/index.html"><IMG BORDER=0
+SRC="http://www.survey.net/g/svlogo0.gif" ALT="Survey.Net Logo"></A><BR>
+<B><I>Your source for information, opinions & demographics from the Net
+Community!</I></B>
+
+<BLOCKQUOTE>
+<H5>
+<FONT COLOR="#FF0000">ANNOUNCING</FONT>: The Internet's finest interactive, totally-automated,
+immediate survey system.  We can take any form and instantly create a
+dynamic demographic database and show you the results as soon as you
+complete the survey!
+</H5>
+
+<CENTER><H2>Internet Religion Survey #1</H2></CENTER>
+<P>
+<FORM METHOD="POST" ACTION="http://www.survey.net/mpr/survey?rlg1">
+
+<P align=CENTER><IMG SRC="images/rule.gif" WIDTH=325 HEIGHT=10
+ALIGN=bottom>
+<P>
+<OL>
+
+<LI>Do you believe in a supreme being?<BR>
+<SELECT NAME="01_SUPREME">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+<OPTION>Do not know for sure
+</SELECT>
+<BR><BR>
+
+<LI>Among the options below, what best describes your religious beliefs?<BR>
+<SELECT NAME="02_FREQ">
+<OPTION>No Answer
+<OPTION>Christianity
+<OPTION>Athiesm
+<OPTION>Agnosticism
+<OPTION>Aboriginal
+<OPTION>Baha'i
+<OPTION>Buddhism
+<OPTION>Ceremonial magick (Kabbala, OTO, etc.)
+<OPTION>Confucianism
+<OPTION>Druidry/Faerie/Old Gods
+<OPTION>Discordian
+<OPTION>Goddess Worship
+<OPTION>Hinduism
+<OPTION>Hainism
+<OPTION>Hedonism
+<OPTION>Islam
+<OPTION>Judaism
+<OPTION>Muslim
+<OPTION>Black Muslim
+<OPTION>Native Spirituality
+<OPTION>New Age Spirituality
+<OPTION>Santeria
+<OPTION>Satanism
+<OPTION>Scientology
+<OPTION>Shinto
+<OPTION>Sikhism
+<OPTION>Taoism
+<OPTION>Unitarian-Universalist
+<OPTION>Universal Life Church
+<OPTION>Wicca/Witchcraft
+<OPTION>Zoroastrianism
+<OPTION>Zen
+<OPTION>OTHER
+</SELECT>
+<BR><BR>
+
+<LI>If your religion is not listed, specify here: <INPUT NAME="CMT_RELIGION" SIZE=30>
+<BR><BR>
+
+<LI>If you are Christian, what sect/church do you belong to?<BR>
+<SELECT NAME="03_CHR">
+<OPTION>No Answer
+<OPTION>Non-Christian
+<OPTION>Roman Catholic
+<OPTION>Eastern Orthadox
+<OPTION>Baptist
+<OPTION>Church of Christ
+<OPTION>Episcopalian
+<OPTION>Anglican
+<OPTION>Lutheran
+<OPTION>Latter-Day-Saints/Mormon
+<OPTION>Methodist
+<OPTION>Pentecostal
+<OPTION>Presbyterian
+<!-- protestant -->
+<OPTION>OTHER - not listed
+</SELECT>
+<BR><BR>
+
+<LI>Do you believe in the concept of heaven and hell in one form or another?<BR>
+<SELECT NAME="03_HEAVEN">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>Regarding an 'afterlife', do you believe in:<BR>
+<SELECT NAME="04_AFTERLIFE">
+<OPTION>No Answer
+<OPTION>Reincarnation
+<OPTION>Resurrection
+<OPTION>Eternal life on another level
+<OPTION>When you die, that's it
+<OPTION>I don't know what to believe
+</SELECT>
+<BR><BR>
+
+<LI>What percentage of the time do you follow/adhere to your religious guidelines?<BR>
+<SELECT NAME="05_PRACTICE">
+<OPTION>No Answer
+<OPTION>100%
+<OPTION>90%
+<OPTION>80%
+<OPTION>70%
+<OPTION>60%
+<OPTION>50%
+<OPTION>40%
+<OPTION>30%
+<OPTION>20%
+<OPTION>10%
+<OPTION>None
+<OPTION>My beliefs do not impose strict guidelines
+</SELECT>
+<BR><BR>
+
+<LI>How often do you attend communal religious ceremonies & functions (i.e. Church, rituals, gatherings with other believers, etc.)?<BR>
+<SELECT NAME="06_CHURCH">
+<OPTION>No Answer
+<OPTION>Daily
+<OPTION>Weekly
+<OPTION>Monthly
+<OPTION>Several times a year
+<OPTION>Annually
+<OPTION>Rarely
+<OPTION>Never
+</SELECT>
+<BR><BR>
+
+<LI>Are your religious beliefs the same as those of your family or cultural tradition?<BR>
+<SELECT NAME="07_CULTURE">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>Are your beliefs at this time different than what they were in your youth?  I.e. Were you baptized into another religion or "converted"?<BR>
+<SELECT NAME="08_CONVERT">
+<OPTION>No Answer
+<OPTION>Yes - I have changed religious beliefs from one ideology to another
+<OPTION>Yes - I was previously not religious and "found" religion
+<OPTION>Yes - I was previously religious and now am not.
+<OPTION>No - I've always believed in the same principals
+</SELECT>
+<BR><BR>
+
+<LI>Would you say that the passage of time has made you:<BR>
+<SELECT NAME="09_TIME">
+<OPTION>No Answer
+<OPTION>More religious
+<OPTION>Less religious
+<OPTION>About the same
+</SELECT>
+<BR><BR>
+
+<LI>In your opinion, how significant is religion to our society?<BR>
+<SELECT NAME="10_SIG">
+<OPTION>No Answer
+<OPTION>Extremely constructive
+<OPTION>Somewhat constructive
+<OPTION>Not very important
+<OPTION>Somewhat destructive
+<OPTION>Extremely destructive
+</SELECT>
+<BR><BR>
+
+<li>Indicate what principals/ideals/entities you believe in: <I>(Check all that apply)</I><BR>
+<input type="checkbox" name="11_BELIEF" value="The Golden Rule">The Golden Rule<BR>
+<input type="checkbox" name="11_BELIEF" value="Bible - Old Testament">Bible - Old Testament<BR>
+<input type="checkbox" name="11_BELIEF" value="Bible - New Testament">Bible - New Testament<BR>
+<input type="checkbox" name="11_BELIEF" value="Book of Mormon">Book of Mormon<BR>
+<input type="checkbox" name="11_BELIEF" value="Pro-Life">Pro-Life<BR>
+<input type="checkbox" name="11_BELIEF" value="Pro-Choice">Pro-Choice<BR>
+<input type="checkbox" name="11_BELIEF" value="Repect for those who believe differently">Respect for those who believe differently<BR>
+<input type="checkbox" name="11_BELIEF" value="Tithe">Tithe<BR>
+<input type="checkbox" name="11_BELIEF" value="Torah">Torah<BR>
+<input type="checkbox" name="11_BELIEF" value="Jesus">Jesus<BR>
+<input type="checkbox" name="11_BELIEF" value="The Trinity">The Trinity<BR>
+<input type="checkbox" name="11_BELIEF" value="The 'Devil'">The 'Devil'<BR>
+<input type="checkbox" name="11_BELIEF" value="Family planning/birth control">Family planning/birth control<BR>
+<input type="checkbox" name="11_BELIEF" value="Homosexuality (tolerance)">Homosexuality (tolerance)<BR>
+<input type="checkbox" name="11_BELIEF" value="Evolution">Evolution<BR>
+<input type="checkbox" name="11_BELIEF" value="Creationism">Creationism<BR>
+<input type="checkbox" name="11_BELIEF" value="Sex education in schools">Sex education in schools<BR>
+<input type="checkbox" name="11_BELIEF" value="Poligamy">Poligamy<BR>
+<input type="checkbox" name="11_BELIEF" value="Eating pork">Eating pork<BR>
+<input type="checkbox" name="11_BELIEF" value="Eating any meat">Eating any meat<BR>
+
+</check>
+<br><BR>
+
+<LI>What best describes, in general, your attitude towards religion?<BR>
+<SELECT NAME="12_FINAL">
+<OPTION>No Answer
+<OPTION>Religion is the key to happiness and eternal peace.
+<OPTION>If you do not believe, you are lost.
+<OPTION>Religion is the opiate of the masses.
+<OPTION>Religion is communal psychotherapy.
+<OPTION>Religion is a concept used to maintain control.
+<OPTION>Religion is a concept necessary to maintain values.
+<OPTION>Religion is personal.
+</SELECT>
+<BR><BR>
+
+<LI>If you care to, please describe (in a sentence or two) your religious
+philosophy:  (Enter a few sentences; do not press ENTER
+unless you're ready to submit your entire survey.)<BR>
+
+<INPUT NAME="CMT_PHIL" SIZE=50>
+<BR><BR>
+
+
+</OL>
+
+<H3 align=CENTER><I>Thanks very much for participating in the
+survey!</I></H3>
+
+<H4 align=center>
+To submit your survey choices, select: <BR>
+<INPUT TYPE="submit" value="        SUBMIT SURVEY         ">
+<P>
+or <INPUT TYPE="reset" value="Reset survey settings">
+</FORM>
+<P>
+You can view the latest survey results after you submit your answers.
+</H4>
+
+<H4>
+We hope you will also participate in other surveys online as well.  Please note that you should
+only complete each survey <B><U>once</U></B>.<BR>
+</H4>
+<P>
+
+<CENTER>
+<IMG BORDER=0 SRC="http://www.survey.net/images/rule.gif">
+</CENTER>
+
+<H5 ALIGN=CENTER>Copyright &copy;1996, <A HREF="http://www.icorp.net"><img
+src="http://www.icorp.net/icorp/g/ic-logo.gif" BORDER=0 ALIGN=ABSMIDDLE ALT="ICorp"></A>/InterCommerce
+Corporation,<BR>
+<I>All rights reserved worldwide</I><BR>
+Send comments to 
+<A HREF="mailto:webmaster@survey.net"><I>Webmaster@Survey.net</I></A><BR>
+</H5>
+
+</CENTER>
+
+</BODY>
+</HTML>
+</DOC>

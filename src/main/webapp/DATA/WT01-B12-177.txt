@@ -1,0 +1,492 @@
+
+<DOC>
+<DOCNO>WT01-B12-177</DOCNO>
+<DOCOLDNO>IA018-000194-B039-299</DOCOLDNO>
+<DOCHDR>
+http://www.kemper.com:80/lite/about/application.html 198.152.185.42 19970106161735 text/html 16185
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Monday, 06-Jan-97 16:13:37 GMT
+Last-modified: Thursday, 22-Aug-96 03:47:16 GMT
+Content-length: 16000
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Kemper Online Application</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<IMG ALIGN=LEFT SRC="../gifs/headers/date_hd.gif" ALT="Kemper.com">
+<IMG ALIGN=LEFT SRC="../gifs/headers/search_spacer_hd.gif">
+<A HREF="../search.html"><IMG ALIGN=LEFT BORDER=0 SRC="../gifs/headers/search_hd.gif" ALT="Search"></A>
+
+<IMG ALIGN=RIGHT SRC="gifs/headers/application_wht_hd.gif" 
+ALT="Online Application">
+<IMG ALIGN=RIGHT SRC="gifs/headers/slash_gry_hd.gif" 
+ALT="/">
+<A HREF="opportunities.html">
+<IMG ALIGN=RIGHT BORDER=0 SRC="gifs/headers/opportunities_gry_hd.gif" 
+ALT="Employment Opportunities"></A>
+
+<BR CLEAR=ALL>
+<HR>
+<NOBR>
+<A HREF="../prospectus.html"><IMG SRC="../gifs/link_wht_prospectuses.gif" ALIGN=LEFT BORDER=0 ALT="Prospectuses And Important Information"></A>
+<A HREF="../learn/contact_learn.html"><IMG SRC="../gifs/link_wht_contactkemper.gif" BORDER=0 ALT="Contact Kemper"></A>
+<A HREF="../sitemap.html"><IMG SRC="../gifs/link_wht_sitemap.gif" BORDER=0 ALT="Site Map"></A>
+</NOBR>
+<BR CLEAR=ALL>
+<P><BR>
+
+
+<BLOCKQUOTE>
+
+
+<IMG SRC="gifs/application_head.gif" ALT="Application for Employment">
+<BR>
+<FONT SIZE=-1>(An Equal Opportunity Employer)</FONT SIZE=-1>
+
+<P>
+
+Please complete this entire application.
+<P>
+
+<FORM 
+ACTION="/cgi-bin/lite/application" METHOD="POST">
+
+<STRONG>Personal Information</STRONG>
+<P>
+
+First Name <INPUT NAME="firstname" TYPE="text" SIZE="30"> M.I. <INPUT NAME="middleintial" TYPE="text" SIZE="3"> </TD>
+<BR>
+Last Name <INPUT NAME="lastname" TYPE="text" SIZE="30"></TD>
+<BR>
+Social Security Number <INPUT NAME="ssn" TYPE="text" SIZE="30"></TD>
+<BR>
+Street Address <INPUT NAME="address" TYPE="text" SIZE="30"></TD>
+<BR>
+City <INPUT NAME="city" TYPE="text" SIZE="30"></TD>
+<BR>
+State <INPUT NAME="state" TYPE="text" SIZE="30"></TD>
+<BR>
+Zip Code <INPUT NAME="zip" TYPE="text" SIZE="30"></TD>
+<BR>
+Home telephone <INPUT NAME="homephone" TYPE="text" SIZE="30"></TD>
+<BR>
+Work telephone <INPUT NAME="workphone" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<BR>
+Have you ever worked or attended school under a different name?
+<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="diffname">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="diffname">No
+
+<P>
+
+If yes, what name and at what school and/or employer?
+<BR>
+<TEXTAREA NAME="diffnamewhat" ROWS="4" COLS="50"></TEXTAREA>
+<P>
+
+If hired can you provide proof that you are eligible to work in the United
+States?
+<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="poofworkusa">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="poofworkusa">No
+
+<P>
+
+Are you at least 18 years of age?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="areyoulegal">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="areyoulegal">No
+
+<P>
+
+Position applying for (and if part time, hours available per week)<BR>
+<INPUT NAME="posapplied" TYPE="text" SIZE="30">
+
+<P>
+
+Starting salary expected: <INPUT NAME="salary" TYPE="text" SIZE="19">
+
+<P>
+<BR>
+
+<STRONG>General Information</STRONG>
+
+<P>
+
+What prompted you to seek employment with us? 
+<BR>
+<INPUT NAME="whyapply" TYPE="text" SIZE="40">
+
+<P>
+
+Have you previously applied for a position with or been employed by a Zurich
+company?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="prevapply">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="prevapply">No
+
+<P>
+
+If yes, list dates and company:<BR>
+<TEXTAREA NAME="prevapplywhat" ROWS="4" COLS="50"></TEXTAREA>
+
+<P>
+
+Are you a relative of an employee of a Zurich company?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="relemployee">Yes
+<INPUT TYPE="radio" VALUE="no" NAME="relemployee">No<BR>
+<BR>
+If Yes, which company and department?<BR>
+<TEXTAREA NAME="relemployeewhat" ROWS="4" COLS="50"></TEXTAREA><BR>
+<BR>
+Please provide any additional information such as special skills, training,
+experience, equipment operation or qualifications you feel will be helpful
+to us in considering your application.<BR>
+<BR>
+<TEXTAREA NAME="addinfowhat" ROWS="4" COLS="50"></TEXTAREA>
+
+<P>
+<BR>
+
+<STRONG>Educational Background</STRONG>
+
+<P>
+
+Highest education level completed:
+<BR>
+ 
+<SELECT NAME="highestschool">
+<OPTION>Elementary
+<OPTION>High School
+<OPTION SELECTED>College
+<OPTION>Graduate
+</SELECT>
+
+<SELECT NAME="highestschoolnumber">
+<OPTION SELECTED>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>1 - 6
+<OPTION>7 - 8
+</SELECT>
+
+<P>
+
+High School
+<BR>
+Name <INPUT NAME="highschoolname" TYPE="text" SIZE="30"></TD>
+<BR>
+City <INPUT NAME="highschoolcity" TYPE="text" SIZE="30"></TD>
+<BR>
+State <INPUT NAME="highschoolstate" TYPE="text" SIZE="30"></TD>
+<BR>
+Number of years attended <INPUT NAME="highschoolyears" TYPE="text" SIZE="30"></TD>
+<BR>
+Major Field of Study <INPUT NAME="highschoolmajor" TYPE="text" SIZE="30"></TD>
+<BR>
+Degree, Diploma <BR>
+or Credit Received <INPUT NAME="highschooldegree" TYPE="text" SIZE="30"></TD>
+<BR>
+Year Degree Received <INPUT NAME="highschooldegreeyear" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<P>
+
+College
+<BR>
+Name <INPUT NAME="collegename1" TYPE="text" SIZE="30"></TD>
+<BR>
+City <INPUT NAME="collegecity1" TYPE="text" SIZE="30"></TD>
+<BR>
+State <INPUT NAME="collegestate1" TYPE="text" SIZE="30"></TD>
+<BR>
+Number of years attended <INPUT NAME="collegeyears1" TYPE="text" SIZE="30"></TD>
+<BR>
+Major Field of Study <INPUT NAME="collegemajor1" TYPE="text" SIZE="30"></TD>
+<BR>
+Degree, Diploma <BR>
+or Credit Received <INPUT NAME="collegedegree1" TYPE="text" SIZE="30"></TD>
+<BR>
+Year Degree Received <INPUT NAME="collegedegreeyear1" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<P>
+
+College
+<BR>
+Name <INPUT NAME="collegename2" TYPE="text" SIZE="30"></TD>
+<BR>
+City <INPUT NAME="collegecity2" TYPE="text" SIZE="30"></TD>
+<BR>
+State <INPUT NAME="collegestate2" TYPE="text" SIZE="30"></TD>
+<BR>
+Number of years attended <INPUT NAME="collegeyears2" TYPE="text" SIZE="30"></TD>
+<BR>
+Major Field of Study <INPUT NAME="collegemajor2" TYPE="text" SIZE="30"></TD>
+<BR>
+Degree, Diploma <BR>
+or Credit Received <INPUT NAME="collegedegree2" TYPE="text" SIZE="30"></TD>
+<BR>
+Year Degree Received <INPUT NAME="collegedegreeyear2" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<P>
+
+College
+<BR>
+Name <INPUT NAME="collegename3" TYPE="text" SIZE="30"></TD>
+<BR>
+City <INPUT NAME="collegecity3" TYPE="text" SIZE="30"></TD>
+<BR>
+State <INPUT NAME="collegestate3" TYPE="text" SIZE="30"></TD>
+<BR>
+Number of years attended <INPUT NAME="collegeyears3" TYPE="text" SIZE="30"></TD>
+<BR>
+Major Field of Study <INPUT NAME="collegemajor3" TYPE="text" SIZE="30"></TD>
+<BR>
+Degree, Diploma <BR>
+or Credit Received <INPUT NAME="collegedegree3" TYPE="text" SIZE="30"></TD>
+<BR>
+Year Degree Received <INPUT NAME="collegedegreeyear3" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<P>
+
+Other
+<BR>
+Name <INPUT NAME="othername" TYPE="text" SIZE="30"></TD>
+<BR>
+City <INPUT NAME="othercity" TYPE="text" SIZE="30"></TD>
+<BR>
+State <INPUT NAME="otherstate" TYPE="text" SIZE="30"></TD>
+<BR>
+Number of years attended <INPUT NAME="otheryears" TYPE="text" SIZE="30"></TD>
+<BR>
+Major Field of Study <INPUT NAME="othermajor" TYPE="text" SIZE="30"></TD>
+<BR>
+Degree, Diploma <BR>
+or Credit Received <INPUT NAME="otherdegree" TYPE="text" SIZE="30"></TD>
+<BR>
+Year Degree Received <INPUT NAME="otherdegreeyear" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<P>
+
+<STRONG>Other Information</STRONG>
+
+<P>
+
+Have you ever been refused a bond? <INPUT TYPE="radio" VALUE="yes" NAME=
+"refusebond">Yes <INPUT TYPE="radio" VALUE="no" NAME="refusebond">No<BR>
+If yes, please explain<BR>
+<TEXTAREA NAME="refusedbondexplain" ROWS="4" COLS="50"></TEXTAREA>
+<P>
+
+Have you ever been convicted, pleaded guilty or <EM>nolo contendere</EM>
+(&quot;no contest&quot;) to any felony?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="convictfelony">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="convictfelony">No
+<BR>
+If yes, please explain<BR>
+<TEXTAREA NAME="felonyexplain" ROWS="4" COLS="50"></TEXTAREA><BR>
+<BR>
+Have you ever been convicted, pleaded guilty or <EM>nolo contendere</EM>
+(&quot;no contest&quot;) to a misdemeanor involving a fraudulent or dishonset
+act?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="convictmisdemeanor">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="convictmisdemeanor">No<BR>
+If yes, please explain<BR>
+<TEXTAREA NAME="misdemeanorexplain" ROWS="4" COLS="50"></TEXTAREA>
+
+<P>
+<EM>Note: A conviction will not necessarily be a bar to employment. Factors
+such as age and time of the offense, seriousness and nature of the violation,
+and rehabilitation will be taken into account.</EM>
+
+<P>
+<BR>
+
+<STRONG>Employment History</STRONG>
+
+<P>
+
+LIST MOST RECENT JOB FIRST. All employers prior to your current employer
+may be contacted to verify the information provided.
+
+<P>
+
+May we contact your current employer at this time? 
+<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="contactemployer">Yes 
+<INPUT TYPE="radio" VALUE="no" NAME="contactemployer">No
+
+<P>
+
+Company <INPUT NAME="prevcompanyname" TYPE="text" SIZE="30"><BR>
+Address <INPUT NAME="prevcompanyaddress"  SIZE="30"><BR>
+Telephone <INPUT NAME="prevcompanyphone" TYPE="text" SIZE="30"><BR>
+Position <INPUT NAME="prevcompanyposition" TYPE="text" SIZE="30"> 
+<INPUT TYPE="radio" VALUE="fulltime" NAME="prevcompanystatus"> Full Time 
+<INPUT TYPE="radio" VALUE="parttime" NAME="prevcompanystatus">Part Time<BR>
+EmployedFrom (mo./yr.): <INPUT NAME="prevcompanydatestart" TYPE="text" SIZE="12">To (mo./yr.):
+<INPUT NAME="prevcompanydateend" TYPE="text" SIZE="12"><BR>
+Salary Start <INPUT NAME="prevcompanysalstart" TYPE="text" SIZE="11">End 
+<INPUT NAME="prevcompanysalend" TYPE="text" SIZE="9"><BR>
+Supervisor <INPUT NAME="prevcompanysupervisor" TYPE="text" SIZE="30"><BR>
+Duties <TEXTAREA NAME="prevcompanyduties" ROWS="4" COLS="40"></TEXTAREA><BR>
+<BR>
+Reasons for leaving <INPUT NAME="prevcompanyleave" TYPE="text" SIZE="43"><BR>
+
+
+<P>
+
+Company <INPUT NAME="prevcompanyname2" TYPE="text" SIZE="30"><BR>
+Address <INPUT NAME="prevcompanyaddress2" TYPE="text" SIZE="30"><BR>
+Telephone <INPUT NAME="prevcompanyphone2" TYPE="text" SIZE="30"><BR>
+Position <INPUT NAME="prevcompanyposition2" TYPE="text" SIZE="30"> 
+<INPUT TYPE="radio" VALUE="fulltime" NAME="prevcompanystatus2">Full Time 
+<INPUT TYPE="radio" VALUE="parttime" NAME="prevcompanystatus2">Part Time<BR>
+Employed From (mo./yr.): <INPUT NAME="prevcompanydatestart2" TYPE="text" SIZE="12">To (mo./yr.):
+<INPUT NAME="prevcompanydateend2" TYPE="text" SIZE="12"><BR>
+Salary Start <INPUT NAME="prevcompanysalstart2" TYPE="text" SIZE="11">End 
+<INPUT NAME="prevcompanysalend2" TYPE="text" SIZE="9"><BR>
+Supervisor <INPUT NAME="name" TYPE="prevcompanysupervisor2" SIZE="30"><BR>
+Duties <TEXTAREA NAME="prevcompanyduties2" ROWS="4" COLS="40"></TEXTAREA><BR>
+<BR>
+Reasons for leaving <INPUT NAME="prevcompanyleave2" TYPE="text" SIZE="43"><BR>
+</TR>
+</TABLE>
+
+<P>
+
+Company <INPUT NAME="prevcompanyname3" TYPE="text" SIZE="30"><BR>
+Address <INPUT NAME="prevcompanyaddress3" TYPE="text" SIZE="30"><BR>
+Telephone <INPUT NAME="prevcompanyphone3" TYPE="text" SIZE="30"><BR>
+Position <INPUT NAME="prevcompanyposition3" TYPE="text" SIZE="30"> 
+<INPUT TYPE="radio" VALUE="fulltime" NAME="prevcompanystatus3">Full Time 
+<INPUT TYPE="radio" VALUE="parttime" NAME="prevcompanystatus3">Part Time<BR>
+Employed From (mo./yr.): <INPUT NAME="prevcompanydatestart3" TYPE="text" SIZE="12">To (mo./yr.):
+<INPUT NAME="prevcompanydateend3" TYPE="text" SIZE="12"><BR>
+Salary Start <INPUT NAME="prevcompanysalstart3" TYPE="text" SIZE="11">End 
+<INPUT NAME="prevcompanysalend3" TYPE="text" SIZE="9"><BR>
+Supervisor <INPUT NAME="prevcompanysupervisor3" TYPE="text" SIZE="30"><BR>
+Duties <TEXTAREA NAME="prevcompanyduties3" ROWS="4" COLS="40"></TEXTAREA><BR>
+<BR>
+Reasons for leaving <INPUT NAME="prevcompanyleave3" TYPE="text" SIZE="43"><BR>
+
+<P>
+
+Company <INPUT NAME="prevcompanyname4" TYPE="text" SIZE="30"><BR>
+Address <INPUT NAME="prevcompanyaddress4" TYPE="text" SIZE="30"><BR>
+Telephone <INPUT NAME="prevcompanyphone4" TYPE="text" SIZE="30"><BR>
+Position <INPUT NAME="prevcompanyposition4" TYPE="text" SIZE="30"> 
+<INPUT TYPE="radio" VALUE="fulltime" NAME="prevcompanystatus4">Full Time 
+<INPUT TYPE="radio" VALUE="parttime" NAME="prevcompanystatus4">Part Time<BR>
+Employed From (mo./yr.): <INPUT NAME="prevcompanydatestart4" TYPE="text" SIZE="12">To (mo./yr.):
+<INPUT NAME="prevcompanydateend4" TYPE="text" SIZE="12"><BR>
+Salary Start <INPUT NAME="prevcompanysalstart4" TYPE="text" SIZE="11">End 
+<INPUT NAME="prevcompanysalend4" TYPE="text" SIZE="9"><BR>
+Supervisor <INPUT NAME="prevcompanysupervisor4" TYPE="text" SIZE="30"><BR>
+Duties <TEXTAREA NAME="prevcompanyduties4" ROWS="4" COLS="40"></TEXTAREA><BR>
+<BR>
+Reasons 
+<BR>
+for leaving <INPUT NAME="prevcompanyleave4" TYPE="text" SIZE="43"><BR>
+
+<P>
+
+Zurich companies comply with federal, state and local laws governing
+employment and business practices, and provide equal employment opportunities
+to all applicants and employees in a manner that will not discriminate against
+any person because of race, color, religion, age, sex. national origin,
+disability or other status protected by applicable law.<BR>
+<BR>
+Carefully read the following statements <STRONG>BEFORE</STRONG> agreeing
+below.<BR>
+<BR>
+I understand that accuracy and completeness of the information provided
+on this application are required. I understand that any misstatement or
+omission of fact on this application may result in the failure to be hired
+or discharged.<BR>
+<BR>
+I understand that it is a requirement of employment that I be bonded (at
+the expense of the employer) and that my employment is therefore subject
+to my acceptance by the bonding company.<BR>
+<BR>
+I authorize Zurich to make a thorough investigation of my past employment,
+education and other activities and release from all liability all persons
+and entities supplying such information. I understand that it is the practice
+of this company to obtain fingerprints of all employees and submit them
+to the Federal Bureau of Investigation. I agree, if employed, to permit
+Zurich to obtain my fingerprints.<BR>
+<BR>
+I understand that some positions at Zurich have special continuing qualification
+requirements, such as the acquisition and maintenance of a license and/or
+the passing of an examination after employment begins, or such other qualification
+requirements as may be established by the company, and acknowledge that
+employment in any position must terminate if a job qualification requirement
+is not met.<BR>
+<BR>
+I understand that as part of the normal procedure for processing my employment
+application, a consumer report may be prepared. Such reports may include
+information as to credit standing, character and general reputation. I also
+understand that I have the right to make a written request within a reasonable
+period of time to receive additional detailed information about the nature
+and scope of this investigation.<BR>
+<BR>
+In the event that I am hired, and as a requirement of any employment with
+Zurich, I agree to conform to the rules and standards of conduct of my employing
+company. I understand that my employment can be terminated for any or no
+reason and with or without notice, at any time, at the option of either
+the company or myself. I understand that no employee or agent of Zurich
+is authorized to offer me an employment relationship other than one that
+is terminable at will.<BR>
+<BR>
+I also understand and agree that the terms and conditions of my employment
+(other than my at-will status) as well as any employee benefits with Zurich
+may be changed or discontinued at any time with or without notice.
+
+<P>
+
+<CENTER><INPUT NAME="iagree" TYPE="submit" VALUE="I Agree">           
+         <INPUT NAME="idisagree" TYPE="submit" VALUE="I Disagree"></CENTER>
+</FORM>
+
+<P>
+
+</BLOCKQUOTE>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<TR>
+<TD VALIGN=TOP ALIGN=RIGHT>
+  <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+  <TR>
+  <TD VALIGN=TOP>
+  <A HREF="../menu.html">
+  <IMG BORDER=0 SRC="../gifs/icons/kemper_blkwht.gif"
+  ALT="Kemper Funds - Principal Underwriter: Kemper Distributors, Inc."></A><BR>
+  <IMG SRC="../gifs/icons/kemper_spacer.gif"><FONT SIZE=-1></FONT></TD>
+  </TR>
+  </TABLE></TD>
+</TR>
+</TABLE>
+
+<P>
+
+</BODY>
+</HTML>
+
+
+</DOC>

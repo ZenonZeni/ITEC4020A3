@@ -1,0 +1,213 @@
+
+<DOC>
+<DOCNO>WT02-B11-249</DOCNO>
+<DOCOLDNO>IA087-000625-B040-345</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0013.html 130.91.195.242 19970122050406 text/html 9309
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:03:57 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 9138
+Last-modified: Sun, 24 Sep 1995 00:50:26 GMT
+</DOCHDR>
+<!-- received="Wed Sep 20 06:31:06 1995 EDT" -->
+<!-- sent="Wed, 20 Sep 1995 06:30:57 -0400" -->
+<!-- name="David Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="THE CLIPPER CHIP: A TECHNICAL SUMMARY" -->
+<!-- id="v02110114ac859dc9c69a@[130.91.88.102]" -->
+<!-- inreplyto="" -->
+<title>CIS 899: Electronic Commerce: THE CLIPPER CHIP: A TECHNICAL SUMMARY</title>
+<h1>THE CLIPPER CHIP: A TECHNICAL SUMMARY</h1>
+David Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Wed, 20 Sep 1995 06:30:57 -0400</i>
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0014.html">Michael Nenashev: "today's class"</a>
+<li> <b>Previous message:</b> <a href="0012.html">David Farber: "1994 online debate between John Perry Barlow of the"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+From: denning@guvax.acc.georgetown.edu<br>
+Subject: REVISED TECHNICAL SUMMARY OF CLIPPER CHIP<br>
+Date: 21 Apr 93 19:26:15 -0400<br>
+<p>
+Here is a revised version of my summary which corrects some errors<br>
+and provides some additional information and explanation.<br>
+<p>
+<p>
+                     THE CLIPPER CHIP: A TECHNICAL SUMMARY<br>
+<p>
+                               Dorothy Denning<br>
+<p>
+                           Revised, April 21, 1993<br>
+<p>
+<p>
+INTRODUCTION<br>
+<p>
+On April 16, the President announced a new initiative that will bring<br>
+together the Federal Government and industry in a voluntary program<br>
+to provide secure communications while meeting the legitimate needs of<br>
+law enforcement.  At the heart of the plan is a new tamper-proof encryption<br>
+chip called the "Clipper Chip" together with a split-key approach to<br>
+escrowing keys.  Two escrow agencies are used, and the key parts from<br>
+both are needed to reconstruct a key.<br>
+<p>
+<p>
+CHIP CONTENTS<br>
+<p>
+The Clipper Chip contains a classified single-key 64-bit block<br>
+encryption algorithm called "Skipjack."  The algorithm uses 80 bit keys<br>
+(compared with 56 for the DES) and has 32 rounds of scrambling<br>
+(compared with 16 for the DES).  It supports all 4 DES modes of<br>
+operation.  The algorithm takes 32 clock ticks, and in Electronic<br>
+Codebook (ECB) mode runs at 12 Mbits per second.<br>
+<p>
+Each chip includes the following components:<br>
+<p>
+   the Skipjack encryption algorithm<br>
+   F, an 80-bit family key that is common to all chips<br>
+   N, a 30-bit serial number (this length is subject to change)<br>
+   U, an 80-bit secret key that unlocks all messages encrypted with the chip<br>
+<p>
+The chips are programmed by Mykotronx, Inc., which calls them the<br>
+"MYK-78."  The silicon is supplied by VLSI Technology Inc.  They are<br>
+implemented in 1 micron technology and will initially sell for about<br>
+$30 each in quantities of 10,000 or more.  The price should drop as the<br>
+technology is shrunk to .8 micron.<br>
+<p>
+<p>
+ENCRYPTING WITH THE CHIP<br>
+<p>
+To see how the chip is used, imagine that it is embedded in the AT&amp;T<br>
+telephone security device (as it will be).  Suppose I call someone and<br>
+we both have such a device.  After pushing a button to start a secure<br>
+conversation, my security device will negotiate an 80-bit session key K<br>
+with the device at the other end.  This key negotiation takes place<br>
+without the Clipper Chip.  In general, any method of key exchange can<br>
+be used such as the Diffie-Hellman public-key distribution method.<br>
+<p>
+Once the session key K is established, the Clipper Chip is used to<br>
+encrypt the conversation or message stream M (digitized voice).  The<br>
+telephone security device feeds K and M into the chip to produce two<br>
+values:<br>
+<p>
+   E[M; K], the encrypted message stream, and<br>
+   E[E[K; U] + N; F], a law enforcement field ,<br>
+<p>
+which are transmitted over the telephone line.  The law enforcement<br>
+field thus contains the session key K encrypted under the unit key U<br>
+concatenated with the serial number N, all encrypted under the family<br>
+key F.  The law enforcement field is decrypted by law enforcement after<br>
+an authorized wiretap has been installed.<br>
+<p>
+The ciphertext E[M; K] is decrypted by the receiver's device using the<br>
+session key:<br>
+<p>
+   D[E[M; K]; K] = M .<br>
+<p>
+<p>
+CHIP PROGRAMMING AND ESCROW<br>
+<p>
+All Clipper Chips are programmed inside a SCIF (Secure Compartmented<br>
+Information Facility), which is essentially a vault.  The SCIF contains<br>
+a laptop computer and equipment to program the chips.  About 300 chips<br>
+are programmed during a single session.  The SCIF is located at<br>
+Mykotronx.<br>
+<p>
+At the beginning of a session, a trusted agent from each of the two key<br>
+escrow agencies enters the vault.  Agent 1 enters a secret, random<br>
+80-bit value S1 into the laptop and agent 2 enters a secret, random<br>
+80-bit value S2. These random values serve as seeds to generate unit<br>
+keys for a sequence of serial numbers.  Thus, the unit keys are a<br>
+function of 160 secret, random bits, where each agent knows only 80.<br>
+<p>
+To generate the unit key for a serial number N, the 30-bit value N is<br>
+first padded with a fixed 34-bit block to produce a 64-bit block N1.<br>
+S1 and S2 are then used as keys to triple-encrypt N1, producing a<br>
+64-bit block R1:<br>
+<p>
+        R1 = E[D[E[N1; S1]; S2]; S1] .<br>
+<p>
+Similarly, N is padded with two other 34-bit blocks to produce N2 and<br>
+N3, and two additional 64-bit blocks R2 and R3 are computed:<br>
+<p>
+        R2 = E[D[E[N2; S1]; S2]; S1]<br>
+        R3 = E[D[E[N3; S1]; S2]; S1] .<br>
+<p>
+R1, R2, and R3 are then concatenated together, giving 192 bits. The<br>
+first 80 bits are assigned to U1 and the second 80 bits to U2.  The<br>
+rest are discarded.  The unit key U is the XOR of U1 and U2.  U1 and U2<br>
+are the key parts that are separately escrowed with the two escrow<br>
+agencies.<br>
+<p>
+As a sequence of values for U1, U2, and U are generated, they are<br>
+written onto three separate floppy disks.  The first disk contains a<br>
+file for each serial number that contains the corresponding key part<br>
+U1.  The second disk is similar but contains the U2 values.  The third<br>
+disk contains the unit keys U.  Agent 1 takes the first disk and agent<br>
+2 takes the second disk.  Thus each agent walks away knowing<br>
+an 80-bit seed and the 80-bit key parts.  However, the agent does not<br>
+know the other 80 bits used to generate the keys or the other 80-bit<br>
+key parts.<br>
+<p>
+The third disk is used to program the chips.  After the chips are<br>
+programmed, all information is discarded from the vault and the agents<br>
+leave.  The laptop may be destroyed for additional assurance that no<br>
+information is left behind.<br>
+<p>
+The protocol may be changed slightly so that four people are in the<br>
+room instead of two.  The first two would provide the seeds S1 and S2,<br>
+and the second two (the escrow agents) would take the disks back to<br>
+the escrow agencies.<br>
+<p>
+The escrow agencies have as yet to be determined, but they will not<br>
+be the NSA, CIA, FBI, or any other law enforcement agency.  One or<br>
+both may be independent from the government.<br>
+<p>
+<p>
+LAW ENFORCEMENT USE<br>
+<p>
+When law enforcement has been authorized to tap an encrypted line, they<br>
+will first take the warrant to the service provider in order to get<br>
+access to the communications line.  Let us assume that the tap is in<br>
+place and that they have determined that the line is encrypted with the<br>
+Clipper Chip.  The law enforcement field is first decrypted with the<br>
+family key F, giving E[K; U] + N.  Documentation certifying that a tap<br>
+has been authorized for the party associated with serial number N is<br>
+then sent (e.g., via secure FAX) to each of the key escrow agents, who<br>
+return (e.g., also via secure FAX) U1 and U2.  U1 and U2 are XORed<br>
+together to produce the unit key U, and E[K; U] is decrypted to get the<br>
+session key K.  Finally the message stream is decrypted.  All this will<br>
+be accomplished through a special black box decoder.<br>
+<p>
+<p>
+CAPSTONE: THE NEXT GENERATION<br>
+<p>
+A successor to the Clipper Chip, called "Capstone" by the government<br>
+and "MYK-80" by Mykotronx, has already been developed.  It will include<br>
+the Skipjack algorithm, the Digital Signature Standard (DSS), the<br>
+Secure Hash Algorithm (SHA), a method of key exchange, a fast<br>
+exponentiator, and a randomizer.  A prototoype will be available for<br>
+testing on April 22, and the chips are expected to be ready for<br>
+delivery in June or July.<br>
+<p>
+<p>
+ACKNOWLEDGMENT AND DISTRIBUTION NOTICE.  This article is based on<br>
+information provided by NSA, NIST, FBI, and Mykotronx.  Permission to<br>
+distribute this document is granted.<br>
+<p>
+<p>
+<p>
+---------------------------------------------------------------------------<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0014.html">Michael Nenashev: "today's class"</a>
+<li> <b>Previous message:</b> <a href="0012.html">David Farber: "1994 online debate between John Perry Barlow of the"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

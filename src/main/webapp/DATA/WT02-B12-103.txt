@@ -1,0 +1,141 @@
+
+<DOC>
+<DOCNO>WT02-B12-103</DOCNO>
+<DOCOLDNO>IA087-000631-B022-162</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.133.html 130.91.195.242 19970122065126 text/html 6505
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:51:28 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 6334
+Last-modified: Tue, 22 Nov 1994 06:32:55 GMT
+</DOCHDR>
+Re: CPSR Clipper Petition /rsp [one more round it is Denning -&gt; Rotenberg -&gt; Denning .. djf] <p>
+
+From: denning@cs.cosc.georgetown.edu (Dorothy Denning)
+Subject: Re: CPSR Clipper Petition /rsp
+To: farber@central.cis.upenn.edu <p>
+
+Dave, <p>
+
+I don't know if you want to continue the "Rotenberg/Denning debate" on
+Interesting People, but this was my response to Marc. <p>
+
+Dorothy
+--------
+The following comments are in response to responses posted in RISKS 15.50
+on my earlier comments: <p>
+
+&gt;From Marc Rotenberg:
+&gt;
+&gt; The NSA is responsible for foreign signal interception.  It has no legal
+&gt; authority to conduct wire surveillance.  What are the NSA's "national
+&gt; security" interests in domestic wire surveillance?
+&gt;
+I do not believe that NSA has any particular interest in domestic wire
+surveillance.  I expect their concern is that if a product with a very
+strong algorithm such as SKIPJACK were to be manufactured without keys
+being escrowed, then such products would be very attractive on the
+foreign black market (presumably, such products would not be
+exportable) where they could interfere with foreign intelligence.
+&gt;
+&gt; The FBI made certain claims that cryptography was impeding criminal
+&gt; investigation conducted by wiretap.  CPSR investigated the FBI's claims by
+&gt; filing a Freedom of Information Act suit to obtain the relevant documents.
+&gt; The documents provided to us by the Department of Justice revealed that none
+&gt; of the FBI field officers had encountered any obstacles.  The Department of
+&gt; Justice has just informed us that they provided to us all relevant documents
+&gt; concerning the Clipper proposal.
+&gt;
+In testimony before the Computer Systems Security and Privacy Advisory
+Board (CSSPAB) at NIST, James Kallstrom of the FBI said that encryption
+was styming the effort in more than three but less than ten of ongoing
+cases.  The FBI does not give details of ongoing investigations, so this
+information would not be available through FOIA. <p>
+
+&gt; There is one reported case where cryptography made it difficult for law
+&gt; enforcement to obtain evidence. That case concerned reading the contents of a
+&gt; file on a hard disk after it was seized.
+&gt;
+&gt; If this is the problem that the Clipper proposal is intended to solve, then
+&gt; the key escrow scheme must be extended to every single encrypted file -- not
+&gt; just encrypted communications -- everywhere in the world.
+&gt;
+I've heard of 3 cases now where encrypted files could not be decrypted,
+but law enforcers seem to be much more concerned about communications
+than stored files.  Clipper does not address file encryption.
+&gt;
+&gt; An FBI legislative proposal now under consideration at the White House would
+&gt; mandate a Clipper-like scheme.  That proposal is backed by fines up to $10,000
+&gt; per day and jail time.
+&gt;
+Everything I've seen has said Clipper is voluntary.  Quoting from the standard:
+"This standard does not mandate the use of escrowed encryption devices by
+Federal government agencies, the private sector or other levels of government."
+Dept. of Commerce, NIST, Docket No. 930659-4017, RIN 063-AB19, Approval
+of FIPS 185, Escrowed Encryption Standard (EES).
+&gt;
+&gt; &gt;  I support this objective.  Unfortunately, it is not
+&gt; &gt;  possible for most of us to be fully informed of the
+&gt; &gt;  national security implications of uncontrolled
+&gt; &gt;  encryption.  For very legitimate reasons, these cannot
+&gt; &gt;  be fully discussed and debated in a public forum.
+&gt;
+&gt; This assertion has never been supported by evidence.  It has been used simply
+&gt; to stifle criticism.
+&gt;
+Certain information relating to foreign intelligence operations is
+classified.  Are you saying that decisions should not be based on
+classified information or that foreign intelligence information should
+not be classified?
+&gt;
+&gt; CPSR did not participate in the inter-agency policy review.  Our position from
+&gt; the very beginning is that these decisions must be made openly.
+&gt;
+As part of the inter-agency review, the CSSPAB was asked to sponsor
+hearings on the proposal.  These were held in June.  The testimony that
+was presented was given to the government.  Marc gave a presentation
+at those hearings, as did David Banisar of CPSR.  Several people in
+the government who have been participating in the inter-agency review
+were present at the hearings.  There have been several other forums
+as well, including one sponsored by CPSR last June.  Again, several
+people participating in the inter-agency review were present. <p>
+
+&gt; &gt;  In the absence of understanding
+&gt; &gt;  the national security issues, I believe we need to
+&gt; &gt;  exercise some caution in believing that we can
+&gt; &gt;  understand the full implications of encryption on
+&gt; &gt;  society.
+&gt;
+&gt; This premise, if accepted, would mean that people in the United States would
+&gt; have no right to express political views when the government claimed "national
+&gt; security." Certainly, there are matters of national security that must be <p>
+
+I did not mean to suggest that people should not express their views.  Being
+cautious is different from being silent. <p>
+
+As followup to what I said in RISKS, I'd like to respond to another of
+Marc's comments, made in reference to the 5 of us who reviewed SKIPJACK. <p>
+
+&gt; Dorothy endorsed the proposal before she joined the "review" team.  The
+&gt; group that she refers to, a White House task force, has an interesting
+&gt; history.  The majority of cryptographers asked to participate
+&gt; declined. <p>
+
+I believe that approximately half accepted. <p>
+
+My support of Clipper is contingent on it providing a very high level
+of protection, including protection against compromises or abuses of
+keys.  The main reason I agreed to be a reviewer was to make sure that
+the system was in fact secure.  I believe the others share my concern.
+Before I supported Clipper, I already knew quite a bit about how the
+whole system was going to be structured, so I felt confident that the
+goal of high security would be achieved.  Nothing I have seen so far
+has changed my assessment.  However, if as a result of our complete
+review, I come to the conclusion that the risks of Clipper are not
+acceptable, I will withdraw my support. <p>
+
+Dorothy <p>
+
+</DOC>

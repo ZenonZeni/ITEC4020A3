@@ -1,0 +1,129 @@
+
+<DOC>
+<DOCNO>WT02-B26-129</DOCNO>
+<DOCOLDNO>IA074-000481-B029-476</DOCOLDNO>
+<DOCHDR>
+http://ads.barrons.com:80/CIRCULATION/PAGES/request.html 143.131.194.10 19970125041233 text/html 3909
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.1
+Date: Saturday, 25-Jan-97 04:16:47 GMT
+Last-modified: Wednesday, 18-Dec-96 14:19:00 GMT
+Content-length: 3716
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD><TITLE>SOUTHWEST:Barron's Free Teaching Materials Form</TITLE></HEAD>
+<BODY bgcolor="330066" text="ffffff" link="ffffff" vlink="ffffff"> 
+
+<img src="../IMAGES/header.gif"><br><br><br>
+<FORM METHOD="GET" ACTION="request.cgi">
+
+<table width=550 cellpadding=5 border=0>
+<tr>
+<td width=174 valign=top align=right></td>
+<td 376 valign=top><H3>Request Form</H3></td>
+</tr>
+<tr>
+<td width=174 valign=top align=right><font size=2>
+<a href="frontplate.html"> 
+<img src="../IMAGES/back.gif" border=0></a>
+<br><br>
+<a href="../../index.html"> 
+<img src="../IMAGES/home.gif" border=0></a>
+</font>
+</td>
+<td 376 valign=top>
+
+Please fill out this form to select the materials you would 
+like to receive.
+<BR><BR>
+<INPUT TYPE="text" NAME="NumFinPro" SIZE="2"><STRONG> Talk Like a Pro</STRONG><BR>
+Please indicate the number of copies you would 
+like, limit 50 copies please.
+<br><br>
+<INPUT TYPE="text" NAME="NumBarEd" SIZE="2"><STRONG> Barron's Educational Edition</STRONG><br> 
+Please indicate the number of copies you 
+would like, limit 50 copies please.<BR><BR>
+
+<INPUT TYPE="text" NAME="HowProf" SIZE="2"><strong>
+How Professors use Barron's in the classroom.<BR></strong>
+
+<BR>
+<HR>
+
+<STRONG>Personal Information</STRONG><BR>
+
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Title" VALUE="Mr">Mr.<BR>
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Title" VALUE="Ms">Ms.<BR>
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Title" VALUE="Mrs">Mrs.<BR>
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Title" VALUE="Professor">Professor<BR>
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Title" VALUE="Dr">Dr.<BR><BR>
+
+
+First Name/Last Name:<BR><INPUT TYPE="TEXT" NAME="FirstName" SIZE="19">
+<INPUT TYPE="TEXT" NAME="LastName" SIZE="19"><BR>
+University or College:<BR><INPUT TYPE="text" NAME="School" SIZE="40"><BR>
+Delivery Address:<BR><INPUT TYPE="text" NAME="DelivAddress" 
+SIZE="40"><BR>
+Apartment or Suite:<BR><INPUT TYPE="text" NAME="Apartment" SIZE="40"><BR>
+City/State/Zip:<BR>
+<INPUT TYPE="text" NAME="City" SIZE="25">
+<INPUT TYPE="text" NAME="State" SIZE="2">
+<INPUT TYPE="text" NAME="Zip" SIZE="9"><BR>
+Area Code and Phone #:<BR><INPUT TYPE="text" NAME="AreaCode" SIZE="3">
+<INPUT TYPE="text" NAME="Phone" SIZE="10"><BR>
+E-Mail:<BR><INPUT TYPE="TEXT" NAME="Email" SIZE="14"><BR><BR><BR>
+
+Please indicate which semester matierials are required:<BR>
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Semester" VALUE="SPRING">Spring<BR>
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Semester" VALUE="SUMMER">Summer<BR>
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Semester" VALUE="FALL">Fall<BR><BR>
+
+Which type of college do you teach at?<BR>
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="CollegeType" VALUE="2yearCollege">
+2 Year College/University<BR>
+
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="CollegeType" VALUE="4yearCollege">
+4 Year College/University<BR><BR>
+
+
+Which region are you submitting from? <BR>
+If you are not sure, <a href="regions.html">please click here.</a><BR>
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Region" VALUE="North">
+Northeast<BR>
+
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Region" VALUE="South">
+South<BR>
+
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Region" VALUE="East">
+Midwest<BR>
+
+<img src="../IMAGES/pixel.gif">
+<INPUT TYPE="radio" NAME="Region" VALUE="West">
+West<BR><BR><BR>
+
+
+<INPUT TYPE="submit" VALUE="Submit Entry">
+
+<BR><BR><BR><BR>
+&copy; <EM><font size=2>1996 <a href="http://www.dowjones.com">Dow Jones & Company, Inc.</a> All Rights Reserved.</font></EM>
+</td>
+</tr>
+</table>
+</FONT>
+</BODY>
+</HTML>
+</DOC>

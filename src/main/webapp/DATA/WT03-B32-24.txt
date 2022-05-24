@@ -1,0 +1,518 @@
+
+<DOC>
+<DOCNO>WT03-B32-24</DOCNO>
+<DOCOLDNO>IA059-000323-B024-149</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/ec99.html 205.156.212.5 19970114221549 text/html 20484
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 22:14:04 GMT
+Last-modified: Thursday, 24-Oct-96 22:47:16 GMT
+Content-length: 20297
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/ec99.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+LAN PRODUCT NEWS via NewsNet <BR>
+January 1996<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><LI>NEW RECORDS ESTABLISHED FOR PC LAN SERVERS</A>&nbsp&nbsp&nbsp<NOBR>(1039 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><LI>NEW PRINTERS HAVE LAN CONNECTIVITY VIA OPTIONAL INTERFACE</A>&nbsp&nbsp&nbsp<NOBR>(638 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#3"><LI>SWITCH INTERCONNECTS MOST LAN-BASED E-MAIL SYSTEMS</A>&nbsp&nbsp&nbsp<NOBR>(1163 words)</NOBR></LI>
+</UL>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+LAN PRODUCT NEWS via NewsNet
+January 1996
+
+NEW RECORDS ESTABLISHED FOR PC LAN SERVERS
+
+Digital Equipment Corporation and Microsoft Corporation has
+unveiled audited transaction benchmark results that establish
+new records in the highly competitive market for database,
+application and PC LAN servers. The results further
+demonstrate the companies' leadership in providing customers
+the industry's most powerful, most cost-effective open server
+platforms.
+
+Breakthrough results of 3194.4 transactions per minute (tpmC)
+at $196/tpmC, based on the TPC-C(2) benchmark Revision 3.0,
+were achieved on the AlphaServer 2100 5/300 64-bit SMP system
+running Microsoft Windows NT Server operating system V3.51 and
+Microsoft SQL Server V6.5 client/server database management
+system. No other Microsoft SQL Server platform from any system
+vendor delivers such impressive results.
+
+The 3194.4 at $196/tpmC result is the industry's best price/
+performance using any system, any database, or any operating
+system. In fact, no other system has ever come close to
+breaking the less-than-$200/tpmC barrier.
+
+With a total system cost of $626,102, the AlphaServer 2100
+5/300 delivers transaction performance and price/performance
+superior to any other system priced below $1 million -- 24%
+better throughput performance and $46/tpmC less than its
+closest competitor, the Intel-based Compaq ProLiant 5/133
+
+Model 2. It also provides better performance and price/
+performance than many systems costing much more than $1
+million (see charts below).
+
+The Digital/Microsoft combination even outperforms a Tandem
+Himalaya K10000-16 system with 16 processors and costing $3.5
+million. And compared with competitive systems from IBM, HP,
+Sun, Bull, AT&T, and others, these results are far superior.
+
+"These independent benchmark results again demonstrate the
+breakthrough performance and affordability of the Alpha
+architecture," said Pauline Nist, Digital vice president of
+the Alpha Server Business Segment. "For customers, this
+represents the industry's best value in high-performance
+server capabilities. It also further demonstrates the
+engineering achievements of our strategic alliance with
+Microsoft."
+
+The TPC-C benchmark is the industry-standard test for
+measuring database transaction processing performance and
+price/performance. The $/tpmC result reflects the cost of
+acquisition and ownership of the system over a five-year
+period, including hardware and software maintenance, software
+upgrades, and extended warranties.
+
+"Today's news is one more way Digital and Microsoft are
+bringing to customers computing solutions that offer
+unprecedented value and flexibility," said Rich Tong, general
+manager of the Business Systems Division at Microsoft.
+
+"These TPC results demonstrate the power of the Microsoft SQL
+Server and Digital Alpha platform for transaction- and
+compute-intensive business applications in heterogeneous
+environments."
+
+Heterogeneous Computing Environment
+
+The AlphaServer 2100 5/300 benchmark was conducted using three
+CPUs and 2 gigabytes of memory. These results were achieved
+in a heterogeneous computing environment, using Visigenics
+ODBC client software for SCO UNIX running on Digital's
+Intel-based Prioris PC systems.
+
+"No longer must customers limit themselves to a single
+operating system to get interoperability, performance, and
+affordability," said Nist. "With these results, Digital has
+proved that one of the best ways to solve business problems
+can include a heterogeneous environment. Digital demonstrates
+that a customer can leverage the strengths of both Windows NT
+and UNIX to provide a cost-effective high-performance
+solution." Competitive Comparisons
+
+PRICE PERFORMANCE tpmC $/tpmC total system cost
+
+Digital AlphaServer 2100 5/300 3194.40 $196 $626,101
+
+Compaq ProLiant 4500 5/133-2 2454.97 242 593,216
+
+Digital AlphaServer 8400 5/300 9414.06 316 2,972,726
+
+Compaq ProLiant 4500 5/100-1 1516.77 319 484,108
+
+IBM RS/6000 PowerPC J30 3119.16 349 1,089,831
+
+HP 9000 K410 3809.46 364 1,384,763
+
+TRANSACTION THROUGHPUT tpmC $/tpmC total system cost
+
+HP 9000 K410 3809.46 $364 $1,384,763
+
+Sun SPARCCenter 2000E 3534.20 495 1,751,004
+
+AT&T 3555/4-XP 3312.70 587 1,942,593
+
+Digital AlphaServer 2100 5/300 3194.40 196 626,102
+
+IBM RS/6000 PowerPC J30 3119.16 349 1,089,831
+
+Tandem Himalaya K10000-16 3043.49 1160 3,529,520
+
+Bull ESCALA Deskside D401/8 2660.03 530 1,409,965
+
+Compaq ProLiant 45005/133-2 2454.97 242 593,216
+
+Customers Deploying Enterprise Database Solutions
+
+The Potomac Group, of Nashville, Tenn., provides doctors and
+hospitals in 20 states instant on-line access to Medicaid
+subscriber data. According to Bill McClary, executive vice
+president of operations, "Our AlphaServer 2100 / Microsoft SQL
+Server solution enables us to compete and win in a market
+dominated by giant companies with multi-million dollar legacy
+systems."
+
+At Ruben H. Donnelley Corporation, the world's oldest
+publisher of Yellow Pages, AlphaServer 2100 systems and
+Microsoft SQL Server are greatly expanding the company's
+Interactive Yellow Pages, with new features such as
+FAX-on-demand and sophisticated database manipulation.
+
+And at the Los Angeles Times, the third largest newspaper in
+the country, AlphaServer 2100 systems and Microsoft SQL
+Server, together with Autologic for Windows NT, are powering a
+rastor image processing (RIP) systems that enables the Times
+to product more pages faster, with more graphics and higher
+resolution, at lower cost.
+
+300MHz Processor Upgrade, Special Pricing
+
+In announcing the benchmark results, Digital also unveiled a
+processor upgrade program for the AlphaServer 2100 and 2000
+systems, raising the performance of the Alpha 21164 CPU used
+in this system to a blazing 300MHz. The Alpha 21164
+microprocessor is still the industry's fastest and only BIPS
+(billion instructions per second) chip.
+
+Through December, this upgrade is specially priced at only
+$4,000. Complete 300MHz AlphaServer 2100 systems will be
+generally available in Q1 of CY1996.
+
+60-Day Payment-Free Leasing Offer
+
+Digital also announced a limited-time leasing offer on all
+Alpha servers and workstations. Through June 1996, Digital
+Financial Services, a division of GE Capital, is offering
+customers who migrate to Digital from competitors' systems a
+60-day payment holiday on all 36-month leases. The program is
+available to all direct and partner channels worldwide.
+
+The Digital/Microsoft Alliance
+
+Digital's AlphaServer systems provide a highly scalable
+enterprise platform for the Microsoft BackOffice suite, which
+includes Microsoft Windows NT operating system, Microsoft SQL
+Server, Microsoft Systems Management Server, Microsoft SNA
+Server, and Microsoft Mail Server. In June, Digital announced
+an OEM agreement with Microsoft to bundle the Microsoft
+BackOffice server suite with Digital AlphaServers and
+Intel-based Prioris servers.
+
+In August, Digital and Microsoft announced a major alliance,
+the Microsoft-Digital Alliance for Enterprise Computing,
+which will help customers implement and support Windows-based
+computing in the enterprise. The enterprise level performance
+numbers announced today demonstrate the results of the joint
+efforts of Digital and Microsoft to deliver Windows NT-based
+solutions to the enterprise.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+LAN PRODUCT NEWS via NewsNet
+January 1996
+
+NEW PRINTERS HAVE LAN CONNECTIVITY VIA OPTIONAL INTERFACE
+
+LG08plus, LG12plus and LA30N Printers Meet User Demand for
+Mission-Critical, High-Volume Printing Solutions
+
+Digital Equipment Corporation has reinforced its position as a
+leader in printing solutions with the announcement of the
+LGO8plus and LG12plus line matrix printers and the LA30N dot
+matrix companion printer. These three new impact printers, all
+of which will be demonstrated at the Digital Equipment
+Corporation User Society (DECUS) trade show in San Francisco,
+enable unparalleled connectivity in open office or industrial
+computing environments. Offering unsurpassed openness and the
+lowest cost of ownership in their respective classes, the
+printers are ideal for users seeking mission-critical,
+high-volume printing solutions.
+
+"Not only does Digital continue to support its customers with
+a new generation of ANSI printers, but is committed to
+ensuring these products are compatible in open system
+environments," said Jeb Hurley, acting vice president,
+Printing Systems Business. "Digital uniquely offers users the
+ability to distribute printing throughout the enterprise and,
+because of our wide range of products, enables them to select
+a printer with just the right price, speed and performance to
+meet their needs."
+
+LGO8plus and LG12plus Line Matrix Printers
+
+The LGO8plus and LG12plus printers expand Digital's successful
+LGplus family of high-speed line matrix printers (first
+launched in May, 1995, with the LG04plus printer). These
+printers are ideal for a variety of mission-critical
+applications such as bar coding, multi-part forms, accounting
+statements and internal reports -- in many cases supplanting
+the need for more costly laser printers for these types of
+applications.
+
+Benefits of the LGO8plus and LG12plus line matrix printers
+include:
+
+* unsurpassed reliability with an unlimited duty cycle and
+10,000 hour mean time before failure (MTBF)
+
+* high-quality output and the lowest cost per page in its
+class
+
+* support for a variety of platforms including OpenVMS, UNIX,
+Windows NT and Windows '95
+
+* compatible with a number of emulations including ANSI,
+ProPrinter, LP, LG, Epson and P Series protocols as well as
+optional emulations (including Magnum Code V [VGL] and
+Printronix Graphics Language)
+
+* maximum flexibility in multi-user environments with both
+serial and parallel ports
+
+* high-speed 800 line per minute and 1,200 line per minute
+printing (for the LG08plus and LG12plus printers,
+respectively)
+
+* allows users to upgrade their printing speed with the use of
+an upgradeable printhead for LGplus series printers
+
+* backward compatibility with software applications written to
+support existing LG models
+
+* LAN connectivity via the RapidPrint 200 interface box, an
+optional Ethernet interface device supporting TCP/IP, LAT, and
+Novell network protocols
+
+LA30N Dot Matrix Companion Printer
+
+As a third generation product in Digital's ANSI dot matrix
+printer family, the powerful LA30N dot matrix companion
+printer is designed to withstand rigorous use and provide
+outstanding performance for customers in a wide range of
+industries. The LA30N printer supports not only Digital's ANSI
+printing protocol, but also the IBM Proprinter X24E and Epson
+ESC/P2 protocols, enabling it to function in workstation as
+well as
+
+Specific benefits of the LA30N dot matrix companion printer
+include:
+
+* outstanding reliability and performance with a 3,500
+page-per-month duty cycle and 8,000 hour MTBF
+
+* high-quality print output at speeds up to 330 characters per
+second
+
+* superior flexibility with two user-selectable configurations
+as well as auto-switching serial and parallel interfaces
+
+* advanced paper-handling capabilities that allow for either
+rear or bottom paper feed as well as push or pull tractor feed
+
+Pricing and Availability
+
+Pricing and availability for the LGO8plus line matrix printer,
+the LG12plus line matrix printer and the LA30N dot matrix
+companion printer will be announced in January, 1996. All
+three products will be available through Digital's worldwide
+network of reseller and distributor partners. For more
+information within the U.S. call 800-777-4343, or your
+authorized Digital representative.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+LAN PRODUCT NEWS via NewsNet
+January 1996
+
+SWITCH INTERCONNECTS MOST LAN-BASED E-MAIL SYSTEMS
+
+Corporate America's growing dependence on E-mail to facilitate
+high speed communication in the workplace, and the use of
+different platforms to perform different tasks has given rise
+to a new problem: Multiple, incompatible E-mail systems that
+cannot communicate with each other. With fast, reliable and
+cost-effective communication being essential to maintaining a
+competitive edge in today's global marketplace, the inability
+to communicate with clients, vendors, distributors, and other
+employees can hinder growth and stifle profits.
+
+With increasing frequency, companies are finding that they
+have a mix of E-mail programs that don't communicate with each
+other installed on PCs, Macintoshes, UNIX workstations and
+legacy mainframes. When E-mail systems can't communicate with
+each other, savings gained by effective communications cannot
+be realized.
+
+At some point, senior management wakes up to the fact that in
+the "paperless office", corporate-wide E-mail is essential.
+The task of integration is usually assigned to the corporate
+Information Systems (IS) group who are faced with the
+challenge of integrating the various existing departmental
+E-mail systems.
+
+This is a complicated task that involves making systems
+interoperate, share directory information and documents across
+different platforms.
+
+This does not mean, however, that a standardized,
+corporate-wide E-mail system needs to be purchased. Mail
+integration technology is widely used to connect disparate
+systems. The numerous benefits of integrating existing systems
+make the concept a sensible alternative.
+
+First, businesses preserve their initial investment. This
+investment is not limited to the cost of the original E-mail
+system packages, but includes the cost of servers needed to
+run the system and the training of users.
+
+These users often have limited computer experience and are
+reluctant to give up their favorite E-mail system after
+spending hours getting accustomed to its features and
+capabilities. By switching E-mail systems in an effort to
+standardize, users are taken out of their friendly computer
+environment and placed into an unknown one.
+
+Mail integration software solves this problem by allowing
+users to seamlessly communicate with a variety of other mail
+systems in a "friendly" manner. The address and message is
+"switched" to make it appear as if users are communicating
+with a computer on their very same E-mail system!
+
+Second, mail integration can buy a company time to implement
+an enterprise-wide migration strategy to wean users off older
+legacy based mainframe systems and prepare them for a
+standard-based information system. Additional benefits depend
+on the particular features offered by the mail integration
+software they select.
+
+The technological demands of integration are extensive.
+Choosing a mail integrator requires a careful examination of
+features, benefits and reputation. Integration vendors
+approach the issue differently and the results differ. Alisa
+Systems has long been an industry leader in mail systems
+integration. They have a reputation for being the best in the
+business according to high tech computer publications and
+other independent sources whose job it was to compare
+integration systems.
+
+Alisa offers a complete mail integration package called
+AlisaMail. AlisaMail is a full-featured E-mail switch that
+interconnects the most popular LAN-based electronic mail
+systems. It provides seamless and transparent exchange of
+electronic messages, fully editable documents and binary files
+between WordPerfect GroupWise, Microsoft Mail, Lotus cc:Mail,
+CE Software QuickMail, X.400, SMTP and Digital VMSmail,
+ALL-IN-1 and Message Router. This includes spread sheets, word
+processing documents, graphic and binary files. Most
+importantly, AlisaMail is built on a relational database,
+Sybase, that makes the system extremely flexible. "The really
+strong point of the system is it's easy to customize how
+information is presented." said Don Cole, president of Alisa
+Systems.
+
+The OpenDirectory, Automatic Directory Synchronization and
+Message Switch are the strengths of the system and separate
+AlisaMail from the competition.
+
+The OpenDirectory is implemented using a Sybase SQL relational
+database and can be used as a corporate directory service.
+OpenDirectory, a unique AlisaMail feature, eliminates
+complicated addressing schemes by maintaining a common address
+book synchronized with each mail system.
+
+This "master" directory can include an address book of
+customers, employees and vendors that contains information
+such as their title, organization, department name, E-mail and
+postal address, telephone and FAX number, as well as a
+photograph. The OpenDirectory provides a centralized address
+book for all the E-mail users in their company. It is accessed
+by either the user's E-mail client or an Alisa client/server
+application called PeopleFinder.
+
+PeopleFinder supports quick and easy on-line searching of the
+AlisaMail Open Directory. Users may search specific fields in
+the database such as Name, Title, Organization and Location.
+Available for Windows, Macintosh and DEC VMS, PeopleFinder
+allows users to browse the OpenDirectory and its contents to
+display information not accessable in the user's address book.
+
+Existing desktop client/server development tools and
+applications can also be used to access the OpenDirectory.
+With Sybases's openserver technology you can even connect to
+other corporate databases.
+
+Auto Directory Synchronization works hand in hand with the
+OpenDirectory and is the key to mail systems integration.
+Without Auto Directory Synchronization, the Open Directory
+would be useless. Open Directory creates and maintains a
+master directory of all E-mail users in by requesting
+directory updates from each separate mail system. When changes
+are made in one E-mail system such as adding, modifying or
+deleting an E-mail address, the information is then
+transferred to the master directory and then used to update
+all the other directories.
+
+In medium to large companies where there can be many changes,
+AlisaMail allows the updating to be performed automatically.
+The superior performance of our Auto Directory Synchronization
+is made possible by the flexibility of the SQL database. "In
+essence, AlisaMail makes each mail system's directory an
+aggregate of all the users. It represents the entire
+population and there is no distinction in where these people
+live." said Cole.
+
+AlisaMail utilizes a multi-port gateway which connects the
+different E-mail systems to the AlisaMail Message Switch.
+
+The gateway and Message Switch act as a store-and-forward
+message hub and also handle the conversion of message formats
+as required by the E-mail systems. The Message Switch
+preserves the functionality of each mail system because it
+stores the message in its unaltered format. The format of the
+message is then converted only if the recipient mail system
+requires conversion. If the receiving mail system does not
+support all the functionality of the sender's, the Message
+Switch will preserve as much functionality as possible.
+
+Alisa Systems takes full responsibility for the success of
+your E-mail integration. Alisa Systems will conduct on-site
+surveys to determine your specific mail integration needs and
+provide a customized solution. They will even install
+AlisaMail on site for you, train you and help you fine-tune
+the system to maximize performance in your environment.
+
+"There's lots of bits and places for information to be stored
+in a corporation and people need access to it," says Cole,
+"There is a technology out there that can help you run your
+business and save money."
+
+For more information, call Alisa Systems at (800)628-3274.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

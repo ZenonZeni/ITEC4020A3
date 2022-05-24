@@ -1,0 +1,718 @@
+
+<DOC>
+<DOCNO>WT02-B25-12</DOCNO>
+<DOCOLDNO>IA067-000404-B015-337</DOCOLDNO>
+<DOCHDR>
+http://www.dsnt.com:80/whitepaper.html 207.78.30.85 19970112210316 text/html 33196
+HTTP/1.0 200 Document follows
+Date: Sun, 12 Jan 1997 21:04:23 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>DSN White Paper</TITLE>
+</HEAD>
+<BODY bgcolor="#ffffff">
+<center><H1>NetFortress</H1>
+<H3>Technical White Paper</H3>
+<H5>Secure Virtual Networks in an <br>
+Open Systems World</H3>
+<IMG SRC="whitegraphics/dsnlogo_white2.gif">
+<br>
+<br>
+<br>
+</center>
+<p>Digital Secured Networks Technology, Inc.
+Corporate Headquarters:
+580 Sylvan Ave.
+Englewood Cliffs, NJ 07632<br>
+Tel: (201) 568-3232
+Fax: (201) 568-3131
+Net: info@dsnt.com</p><p>
+September 1996 Copyright &#169; 1996 DSN<sup>&#174;</sup> Technology,  Inc.</p><p>
+All rights reserved. No part of this publication may be reproduced 
+or transmitted in any form or by any means, electronic or mechanical, 
+without the written permission of DSN Technology, Inc., 580 Sylvan
+Ave., 
+Englewood Cliffs, NJ 07632.</p><p>
+NetFortress<sup><font size=-2>TM</font></sup> is a trademark of DSN<sup>&#174;</sup> Technology, Inc. 1996 by DSN
+Technology, Inc. All Rights Reserved.</p>
+<hr size=0>
+
+<center><h2>Security and the Internet:</h2>
+<h4>Secure Virtual Networks in an<br>
+Open Systems World</h4>
+</center>
+<h2>Abstract</h2>
+<p>Open standards have created a paradox for the Internet. On one hand
+they enable the protocols 
+necessary for rapid transfer of data between dissimilar systems. On the
+other hand they usually permit potential security and data integrity
+problems to occur. The explosive growth of the Internet and resultant
+low cost access are powerful financial incentives for businesses to
+move corporate networks from leased or dedicated lines to the Internet. 
+However, most security methods are expensive, unreliable and do not
+take into account the full range of attacks hackers are making on
+systems. DSN's NetFortress blocks hacker attacks and provides an
+inexpensive, effective tool for building Virtual Private Networks over
+the Internet. It is a hardware/software solution that applies secure
+authentication, coupled with encryption techniques and advanced
+security protocols to the network layer of data communication. It is
+also useful for securing communication within enterprise-wide
+intranets.
+<p>
+<h2>Introduction</h2>
+<p>
+Most companies, federal and state governments
+have complicated data communications networks that have evolved over
+several generations of computing systems. The networks routinely run
+many different protocols through Wide Area Networks (WANs) and Local
+Area Networks (LANs). The WANs are usually based on a variety of
+different services over costly leased lines to maintain a high degree
+of availability, security and data integrity. In addition, most
+companies have Internet connectivity and routinely run World Wide Web
+(WWW) sites that are loosely coupled, if at all, to their corporate
+networks. The reasons for the latter are many and frequently include
+security and data integrity issues. This adds to the complexity of
+managing the Web site and complicates remote site management for most
+companies.
+<p> 
+This document introduces the NetFortress solution for creating secure,
+virtual private networks over public lines such as the Internet. It
+examines the problems companies face when trying to build Virtual
+Private Networks (VPNs) over public media and describes how these can
+be overcome.
+<p> 
+Computer security has become a highly technical subject. Hackers are
+increasingly sophisticated in their attacks and the availability of
+powerful and inexpensive computing power has made their efforts even
+easier. This paper does not intend to present a complete introduction
+to the subject of cryptography and computer security -- hundreds or
+thousands of pages would be needed for that. It does introduce and
+explore key technological issues relating to computer security to help
+the reader understand and evaluate security strategies, as well as the
+benefits of the NetFortress solution.
+<p>
+<center><img src="whitegraphics/box.gif"></center>
+<p>
+<hr size=0>
+<p>
+<h2>The Data Communication Imperative</h2>
+<p>
+Information Technology (IT) is a key differentiator for predicting
+business success. Intelligent use of corporate data, the speed and
+accuracy of internal and external communication, as well as the
+flexibility and 
+adaptability of network structures and applications help determine
+which businesses will succeed and which will fail.
+<p>
+In both the public and private sector, customers are demanding better,
+faster service for less money. They want answers now and they have a
+low tolerance for errors.
+<p>
+In this environment, IT departments are hard pressed to deliver
+everything that management and their users want and most IT shops have
+backlogged projects. Because of this, security sometimes
+suffers.
+<p>
+More importantly, open standards in network architectures and computing
+paradigms pose tremendous security risks. This can expose company
+information, processes, sales contacts and R&D breakthroughs to the
+prying reach of malicious hackers or competitors. Not even leased T1 or
+other high speed lines guarantee security.
+<p>
+What is needed is a strategy to confidently build secure virtual
+networks that leverage the low cost and high availability of the
+Internet. The NetFortress fills this need with a hardware/software
+solution that encrypts at the lowest all-software level of data
+communication. This simultaneously protects proprietary data and foils
+hacker attacks. With the NetFortress, companies can safely build VPNs
+that leverage the Internet's growing advantages.
+<p>
+<h2>The Low Cost Internet Alternative</h2>
+<p>
+For many large companies,
+the first line of defense against hackers has been high-cost leased T1
+(1.544 megabit per second) lines guarded by expensive and hard to
+maintain firewalls. The expense is high for large companies; for medium
+to small companies, the costs can be prohibitive.
+<p>
+These high costs make the Internet an attractive alternative for
+corporate traffic.
+<p>
+For example, a company with T1 lines connecting four offices in Los
+Angeles, Chicago, New York and Atlanta may spend $25,000/month on
+telecom expenses. That expense drops to between $12,000 and $15,000
+when the network is moved to the Internet, a savings of 40% to
+50%.
+<p>
+<center><img src="whitegraphics/ti.gif"></center>
+<p>
+<hr size=0>
+<p>
+<h2>Hackers: What They Want</h2>
+<p>
+Hackers come in many forms --
+from kids who have picked up some of the many tools and algorithms for
+breaking into systems that are available on the Internet, to graduate
+students who have tremendous 
+knowledge about the inner workings of computers and seemingly unlimited
+amounts of time, to the professional who works for an intelligence
+agency or, more likely, a competitor. Each is dangerous and can cause
+untold millions of dollars of damage to businesses or government
+agencies.
+<p>
+Hackers have many different motivations and goals: simple curiosity,
+the thrill of a challenge, the desire to read or steal private
+information, planting false or misleading information, crashing
+computer systems, etc. 
+<p>
+Despite their differences, they have some techniques in common:
+<p>
+<ol>
+<li><b>Listening in</b>. If an ongoing conversation is not encrypted, or is
+encrypted in a way that can be broken, listening in may provide all the
+information that is desired. More often, listening in is a preliminary
+action used to gain information such as password data which will allow
+further access to a system.
+<p>
+<li><b>Password guessing</b>. Programs exist today to guess the system
+passwords. Some of these are surprisingly successful at gaining
+unauthorized access.
+<p>
+<li><b>Protocol abuse</b>. This uses a company's established procedures
+against it.  For example, by listening in, a hacker may be able to
+determine the exact point in a two-way communication when an encrypted
+credit card number is passed between two computers. Although the hacker
+can't always decrypt the message to recover the actual card number, he
+can capture the encrypted number. By mimicking the rest of the protocol
+and feeding the encrypted credit card number at the appropriate time,
+the hacker may gain access or be able to register a charge. By studying
+the company's protocol, he can violate system security without breaking
+any encryption algorithm. 
+<p>
+<li><b>IP spoofing</b>. Using this attack, the hacker changes his IP address
+to one he knows is considered safe by the targeted system. Now
+recognized as a friend, he may gain unauthorized access. 
+<p>
+<li><b>Trojan Horse</b>. Having gained access to a system using some other
+method, the hacker leaves a program in the compromised system which
+quietly and unobtrusively wreaks havoc on a system and/or sends him
+all the data he needs.
+</ol>
+<p>
+Most of these approaches do not depend on
+breaking a particular encryption algorithm. Encryption is important, but
+it is only the key to a door. Unfortunately there are other doors,
+there are windows and there are even walls that may be penetrated. The
+hacker may not care at all about the weekly report one remote office
+sent to the corporate office last Tuesday. But by capturing the report,
+he may recover enough information in the plaintext header to gain
+access to the corporate office any time he wants.
+<p>
+<hr size=0>
+<p>
+<h2>Existing Network Security Products</h2>
+Generally, there are two categories of available products:
+<ol>
+<li><b>Software products.</b> Products which use encrypted
+mail, secured http, one-time passwords, etc., are common. Most of these
+encrypt user information at the application or presentation layers,
+leaving potentially dangerous information exposed in lower layer packet
+headers. These products assume the host computer is, and will remain,
+secure -- that they only need to protect user data when it leaves the
+corporate network. The "security" they appear to provide is completely
+undermined once the system itself has been compromised. 
+<p>
+What's more, many of these products use inefficient or inadequate
+encryption algorithms such as the Data Encryption Standard (DES), or 40
+bit encryption keys. One outstanding problem with the DES approach is
+the high amount of computing resources taken to encrypt data. In most
+cases this would require a dedicated machine to perform the operations.
+In addition, according to Bruce Schneier, author of "Applied
+Cryptography", many 40-bit ciphers can be broken in as little as 0.18
+seconds. This has led to various pipelined approaches for encrypting
+data such as triple DES. The current export restrictions from the
+Federal NSA limiting encryption keys to 40 bits have contributed to
+this problem.
+<p>
+<li><b>Firewalls.</b> These include products such as Janus and ANS.
+Firewalls are hardware/software solutions designed to monitor and
+control the flow of information into and out of private networks by
+allowing/disallowing requests based on who is attempting the action,
+where the request originates, etc.
+<p>
+Firewalls are expensive, ranging in price from $14,000 to $130,000,
+plus the cost of hardware. More importantly, they require a high level
+of expertise to install and maintain. The most sophisticated and
+effective firewalls require a specially trained technician or engineer
+for constant tuning and maintenance. Even when combined with
+encryption, firewalls generally operate at the Transport layer (TCP),
+which leaves all header information at the Network layer (IP) exposed.
+Most firewalls are implemented as full service computers including
+operating systems and file systems which may be logged into for
+administration and maintenance. However, access by the wrong person
+turns them into a liability rather than an aid to security. 
+<p>
+Firewalls are best used for monitoring and controlling the flow of data
+into and out of a company. They are not particularly good for building
+VPNs.
+</ol>
+<p>
+<h2>The NetFortress Solution</h2>
+<p>
+The NetFortress is a hardware/software solution like a firewall, but
+is a sealed box that cannot be logged into. Hence, it cannot be
+compromised the way a firewall can.
+<p>
+The NetFortress works at a lower level than firewalls -- the IP layer --
+below the level of most hacker attacks. It needs no special
+configuration for different network applications and its security
+protocols are implemented without human intervention, thus avoiding any
+chance of human error.
+<p>
+<hr size=0>
+<p>
+<h2>NetFortress Security Protocols</h2>
+<h3>NetFortress Set-Up and Configuration</h3>
+<p>
+The NetFortress comes in two flavors: host and LAN. The host box
+provides protection for a single node or client (host computer). The
+standard LAN box provides security for up to 254 client nodes on the
+same Class C LAN. This means that the LAN version acts as a  gateway
+protecting the 254 client nodes from potential security threats.
+<p>
+Set-up consists of plugging the NetFortress into the single node or
+host computer or client LAN, and the open network on the other side.
+Its two ethernet interfaces accept BNC (thin coax) or 10BaseT (twisted
+pair) connectors.
+<p>
+<center><img src="whitegraphics/bnc.gif"></center>
+<p>
+Configuration is automatic. When the client
+sends its first message through the host box, the NetFortress burns the
+client's IP and MAC addresses into memory. This permanently ties the
+NetFortress to its host computer. (As an added security feature, the
+host box hides its host's MAC address by answering Address Resolution
+Protocol (ARP) requests with its own MAC address. Outside users do not
+see or have access to the host's MAC address.)
+<p>
+Similarly, the LAN box burns the class C IP address of its LAN into
+permanent memory. This ties the LAN box to that Class C LAN, thereby
+thwarting any attempt to breach security by moving the NetFortress to a
+LAN with a different Class C IP address.
+<p>
+<center><img src="whitegraphics/models.gif"></center>
+<p>
+<hr size=0>
+<p>
+<h3>Secure Key Exchange</h3>
+<p>
+There are many encryption algorithms, but most fall into two general categories:
+<p>
+<ol>
+<li>Secret key cryptography
+<li>Public key cryptography
+</ol>
+<p>
+Secret key algorithms use encryption and decryption keys that are
+closely related, usually the same, so are termed "symmetric" or
+"common". The sender encrypts a message (m) with the common key (S),
+sends the ciphertext (E<sub>s</sub> (m)) to the receiver who decrypts
+it using the same, or a closely related, key.
+<p>
+<center><img src="whitegraphics/secret.gif"></center>
+<p>
+Public key algorithms use two keys which cannot be computed one from
+the other. The "public" key is used to encrypt plaintext; the "private"
+key is used to decrypt ciphertext, so are termed "asymmetric". The
+sender encrypts and then sends a message (m) with the receiver's public
+key (P<sub>B</sub>), which only the receiver is able to decrypt using
+his private key (S<sub>B</sub>). For both security and authentication
+of the sender, double encryption can be used as shown on the diagram.
+<p>
+<center><img src="whitegraphics/public.gif"></center>
+<p>
+The primary stumbling block with secret key systems is finding a
+secure way to get two authorized users to agree on a common key -- the
+common key certainly can't be sent as plaintext over the Internet.
+Public key systems avoid this problem, but are generally too slow for
+encrypting entire messages.
+<p>
+Often, a hybrid approach is used; public key cryptography is used to
+exchange a common secret key which is then used to encrypt the data.
+While this is theoretically sound, it is open to attack. 
+<p>
+At least as important as the encryption algorithm is the "security
+protocol". As defined by Schneier,  "A <b>protocol</b> is a series of
+steps, involving two or more parties, designed to accomplish a task....
+A <b>cryptographic protocol</b> is a protocol that uses
+cryptography".
+<p>
+<center><img src="whitegraphics/alice.gif"></center>
+<p>
+<hr size=0>
+<p>
+History has repeatedly proven that the most secure encryption
+algorithm can be defeated by a poorly designed or implemented security
+protocol.
+<p>
+For example, assume Bob and Alice wish to communicate via the Internet.
+Bob sends Alice his public key (P<sub>B</sub>) which Alice uses to
+encrypt a common key (k). She sends Bob the encrypted common key which
+they both use to exchange messages (E<sub>P<sub>B</sub></sub> (k)).
+Even though they have used sound public and common key algorithms,
+their communication is open to attack.
+<p>
+Bob and Alice didn't know Malice had been listening in on their
+communication for years. When Bob sent Alice his public key
+(P<sub>B</sub>), Malice intercepted the message and forwarded his own
+public key (P<sub>M</sub>) to Alice. When Alice encrypted the common
+key (k), she unknowingly used Malice's public key. Malice intercepted
+the message (E<sub>P<sub>M</sub></sub> (k)), decrypted it to recover
+the common key, then encrypted the common key using Bob's public key
+and forwarded it (E<sub>P<sub>B</sub></sub> (k)) to Bob who was none
+the wiser.
+<p>
+From this point forward any messages Bob or Alice encrypt with the
+common key,  Malice decrypts easily.
+<p>
+This kind of attack, called the "man-in-the-middle", is common and can
+be very effective. Bob and Alice failed to securely communicate because
+they did not use a key exchange protocol that would authenticate with
+whom they were actually talking.
+<p>
+<center><img src="whitegraphics/malice.gif"></center>
+<p>
+Several classes of key exchange protocols address this problem. Two
+common ones are Key Distribution Center (KDC) and Diffie-Hellman key
+exchange.
+<p>
+Under the KDC protocols, a central, trusted authority maintains a
+database of public keys. When Bob and Alice wish to communicate, Alice
+contacts the KDC to get Bob's public key. She uses this key to encrypt
+the common key and sends the encrypted key to Bob. This protocol
+assumes the KDC is absolutely trustworthy. Alice "knows" she is talking
+to Bob because she trusts the KDC to give her his public key. Based on
+this trust, she "knows" that only Bob will be able to decrypt her
+message. Because the KDC family of protocols depend on the absolute
+trustworthiness of the key holder, they are technically complex and
+expensive to maintain. Moreover, when compromised, any security value
+is reversed and they become a security liability.  Only a KDC which
+uses an added level of key exchange and encryption, such as DSN's First
+Trust, can truly be considered secure.
+<p>
+Diffie-Hellman is a public key algorithm used for secure key exchanges.
+According to Schneier it "gets its security from the difficulty of
+calculating discrete logarithms in a finite field, as compared with the
+ease of calculating exponentiation in the same field." The
+Diffie-Hellman protocol has the additional advantage of being
+straightforward to implement.
+<p>
+Schneier describes it as follows:
+<p>
+...First, Alice and Bob agree on large primes, <i>n</i> and <i>g</i>,
+such that <i>g</i> is primitive mod <i>n.</i></p><p> These two integers
+don't have to be secret; Alice and Bob can agree to them over some
+insecure channel. They can even be common among a group of users. It
+doesn't  matter.	
+<p>
+Then, the protocol goes as follows:</p>
+<ol>
+<p>
+<li>Alice chooses a random large integer x and sends Bob
+
+		 <center>X = g<sup>x</sup> mod <i>n</i></center>
+<li>Bob chooses a random large integer y and sends Alice
+
+		<center>Y = g<sup>y</sup> mod <i>n</i></center>
+<li>Alice computes
+	
+		 <center>k = Y<sup>x</sup> mod <i>n</i></center>
+<li>Bob computes
+
+		 <center>k' = X<sup>y</sup> mod <i>n</i></center></ol>
+
+Both <i>k</i> and <i>k'</i>  are equal to <i>gxy</i> mod <i>n.</i> No
+one listening on the channel can compute that value; they  only know
+<i>n, g, X,</i> and <i>Y.</i>
+
+In the above example, <i>x</i> and <i>y</i> represent the private keys;
+<i>X</i> and <i>Y</i> represent the public keys and <i>k = k'</i> is
+the common secret key. Notice that in the Diffie-Hellman Key Exchange,
+the private keys and the common secret key are never divulged.
+</p><center><img src="whitegraphics/diffe.gif"></center>
+
+<p><b>NetFortress First Trust.</b> Each NetFortress has a permanent 128
+bit private key installed at the time of manufacture. At first power
+up, each box computes and stores its own 512-bit permanent public key.
+</p><p>
+
+When two NetFortress-equipped sites first attempt to communicate, they
+initiate the Diffie-Hellman protocol: they exchange their 512-bit
+permanent public keys and calculate a permanent common secret key which
+is common to only those two boxes. This key, along with the IP address
+of the other NetFortress, is 
+permanently stored in memory. </p><p>
+
+The exchange of permanent public keys is the first and last time any
+unencrypted communication passes between the two sites, other than
+Internet Control (ICMP) or Internet Gateway (IGMP) messages.</p><p>
+
+<b>Dynamic Key Exchange.</b> In addition to the permanent private key,
+each NetFortress generates a random, dynamic private key (which is
+changed every 24 hours). After the permanent key exchange, the two
+NetFortresses perform another Diffie-Hellman protocol using their
+dynamic keys. However, this time the protocol is encrypted using the
+permanent common secret key with an algorithm called the International
+Data Encryption Algorithm (IDEA). </p><p>
+
+This new encrypted Diffie-Hellman exchange produces a 128-bit dynamic
+common secret key which is again common to only those two
+NetFortresses. It, too, is stored in memory and is used with the IDEA
+algorithm to encrypt regular network traffic. (See "Secure Data
+Exchange" and "Secure Packet Handling" sections below.)</p><p>
+
+Every 24 hours the dynamic keys expire. When the two NetFortresses next
+communicate after key expiration, they perform another Diffie-Hellman
+protocol, again encrypting the exchange with their 
+permanent common secret key. </p><p>
+
+Encrypting the Diffie-Hellman exchange and changing the dynamic common
+key every 24 hours foils "man-in-the-middle" attacks because each
+renegotiation authenticates the two boxes to each other.</p><p>
+
+<h3>Secure Data Exchange</h3>
+<p>Before the 1970s, cryptography was largely the domain of military
+and governmental spy organizations-very little was written about
+cryptography in public journals or press. As data communication began
+to grow, so too did the need for a national encryption standard. After
+several years of discussion, The National Bureau of Standards (NBS),
+now called the National Institute of Standards and Technology (NIST),
+adopted the Data Encryption Standard (DES) on November 23, 1976. In the
+years since, a tremendous amount of academic work and writing has been
+dedicated to examining DES and cryptography in general.
+<p>
+Almost from the beginning, DES was criticized, due to two factors:
+<p>
+<ol>
+<li>The National Security Agency (NSA) had a hand in its
+development and some have postulated  they inserted a trapdoor.
+<p>
+<li>
+DES' short 56-bit key. (In the original design the key was 112
+bits; the NSA shortened  it to 56 bits.)
+</ol>
+<p>
+Because of these problems and technology advances since the 1970s,
+DES is considered insecure. According to Schneier, one researcher
+estimated that a brute-force DES-cracking machine costing 
+$1 million in 1993 could find and crack a DES key in an average of 3.5
+hours; he also reported on rumors that the NSA was able to crack DES in
+3 to 15 minutes with a machine costing as little as $50,000.
+</p><p>Because of DES' problems, the NetFortress uses IDEA, a symmetric
+algorithm which operates on 64-bit blocks of plaintext, encrypting
+64-bit blocks of plaintext into 64-bit blocks of ciphertext. IDEA was
+developed without involvement from the NSA and uses a much larger key
+(128 bits) than DES. Its first version appeared in 1990 and
+subsequently went through a round of revision, improvement and
+strengthening. 
+
+</p><p>A. Tannenbaum in his book  "Computer Networks" wrote that "...no
+currently known technique or machine is thought to be able to break
+IDEA."
+
+</p><p>According to Schneier:</p>
+
+<blockquote>"In my opinion, it [IDEA] is the best and most secure block
+algorithm available to the public at this time.<br>
+...<br>
+IDEA's key length is 128 bits -- over twice as long as DES. Assuming
+that a brute-force attack is the most efficient, it would require 2^128
+(10^38) encryptions to recover the key. Design a chip that can test a
+billion keys per second and throw a billion of them at the problem, and
+it will still take 10^13 years -- that's longer than the age of the
+universe. An array of 10^24 such chips can find the key in a day, but
+there aren't enough silicon atoms in the universe to build such a
+machine. Now we're getting somewhere...." (Applied Cryptography, page
+323)</blockquote>
+
+<p>IDEA is also faster than DES - about twice as fast - which helps the
+NetFortress achieve high throughput speeds of 1.18mbs - 1.72mbs.</p><p>
+
+As mentioned above, attacks on the NetFortress are made even more
+difficult by changing the key used with IDEA every 24 hours. Key
+renegotiation is automatic and user transparent.</p>
+<h3>Secure Packet Handling</h3>
+<p>As previously discussed, hackers attack systems in various ways. In
+some cases, their interest is not in the content of a particular
+message, but in information about the system -- the kind of information
+normally exposed in a packet header.</p><p>
+
+To block these attacks, the NetFortress works at the OSI network layer
+- lower than most security products on the market. The Network layer
+(IP) is the lowest purely software layer in the OSI model; the Data
+Link layer below it deals directly with the hardware. Because the
+Network Layer is so close to the hardware, its headers expose very
+little system data and virtually no user data -- all higher layer
+information is encapsulated into the Network payload. Despite the
+Network layer's relative security, the NetFortress hides and encrypts
+much of its header, in addition to encrypting the entire data payload.
+Only essential information needed by routers, such as the source and
+destination addresses, is left exposed.</p><p>
+
+<b>Encrypting the IP datagram.</b> When the NetFortress receives an IP
+datagram for transmission, the payload is compressed, which can result
+in a plus or minus 30% change in its size. The purpose of the
+compression is not to save space, but to change and hide the actual
+size. (Hackers often want to find out the size of an encrypted message
+because this information can be used in some types of attacks.) The
+original size, which was recorded in the original IP header, is moved
+to the payload for later encryption.</p><p>
+
+The original transport protocol identifier is also moved from the IP
+header to the payload. This identifier specifies the transport layer
+protocol -- usually TCP -- and can specify other transport protocols
+depending on the originating system. Hackers look for this information
+to help construct a map of the applications running on a targeted
+system or firewall. The transport protocol identifier is replaced with
+the Digital Secured Networks Technology (DSN) protocol code which tells
+the hacker nothing about the host.</p>
+<center><img src="whitegraphics/ip.gif"></center>
+
+<p>The compressed IP payload, the original size, and the original
+transport protocol identifier are then encrypted with IDEA. The size of
+the new, encrypted payload is computed and inserted into the IP header.
+If, after compression and encryption, the new datagram exceeds the
+allowed size, the NetFortress fragments the datagram before sending and
+defragments at the receiving end.
+<p>
+The new IP datagram exposes no information -- except the source and
+destination IP addresses, a payload size that doesn't match the actual
+size, a generic transport protocol identifier which reveals nothing
+about the originating system, and an encrypted payload that can't be
+read.
+<p>
+The hacker knows only that something was sent from the source to the
+destination, but knows nothing else about it.</p>
+
+<h3>NetFortress Options</h3>
+<p><b>Standard vs. Segmented NetFortress.</b> The standard NetFortress
+configuration rejects data packets received from all non-NetFortress
+sources, or which cannot be decrypted using the common key associated
+with the originating IP address. This prevents unauthorized access to
+the company network. </p><p>
+
+A segmented version of the NetFortress is available which
+encrypts/decrypts packets traveling between secured sites and also
+provides limited access to sites which are not protected by a
+NetFortress.  This model allows NetFortress clients to use IP services
+(telnet, ftp, etc.) provided by unprotected sites while 
+preventing those sites from accessing these services on the NetFortress
+client.  Both secure and segmented boxes allow Internet Control Message
+(ICMP) and Internet Gateway Message (IGMP) Protocol  packets to pass
+unencrypted. These include "EchoRequest" packets, commonly used by 
+"ping" utilities. </p>
+<center><img src="whitegraphics/opt.gif"></center>
+<p>The segmented version provides a high degree of security, especially
+when coupled with a firewall, but it is not the recommended network
+topology. When both secured and unsecured use is required, the
+preferred topology is to use a standard NetFortress box for secured
+access with a separate access point for 
+unsecured communication. </p><p>
+
+It is important to note that the Class C LAN box recognizes
+transmissions from any of its clients that have already been encrypted
+by another NetFortress, and passes this data through with no further
+processing. The LAN box thereby protects the entire LAN, while
+accommodating NetFortress-equipped individual nodes that need a higher
+level of privacy or security. </p><p>
+
+<b>Factory First Trust.</b> To further enhance the First Trust
+protocol, two NetFortresses can be locked to each other before
+placement in the field. Under this protocol, the two boxes perform
+their first-contact Diffie-Hellman exchange in the lab so no
+unencrypted communication ever occurs on any public line. This is an
+optional protocol which is unnecessary in all but the most extreme
+security situations.</p><p>
+
+<b>Company Proprietary Signature.</b> For companies that will never
+need a secure line to non-company sites and want an added level of
+security, DSN can equip their NetFortresses with an optional
+proprietary company signature. This unique company signature is
+encrypted and embedded in each IP packet. Company NetFortresses only
+accept packets that include their signature and reject all others.
+<p>
+<hr size=0>
+<p>
+<h2>Software Structure</h2>
+<p>The NetFortress software structure includes:</p>
+<ol><li>The operating system:
+ 	<p>The operating system is an embedded kernel that does not permit
+logins. <p><br><li>The networking system:
+	<p>The networking code handles communication, key exchange,
+encryption, configuration, etc. It also invokes the key computation
+application. <p><br><li>The key calculation routines:
+	<p>Key computation is implemented as a memory resident module that
+receives information from the kernel, although it does not use kernel
+resources and is not restricted by usual kernel routine limitations.
+<p><br><li> The encryption routines:
+ 	<p>Encryption is implemented as a module and is replaceable should
+a need to upgrade the encryption routine ever arise.</ol>
+<p>Because the IDEA encryption is a fast algorithm, and because there
+is very little operating system overhead, the NetFortress delivers high
+performance-- it can manage communication with upwards of 1000 hosts
+simultaneously and can store IP address and key information for tens of
+thousands of nodes.
+<p>
+<hr size=0>
+<p>
+<h2>Databases</h2>
+<p>
+The NetFortress maintains one static and one dynamic database. 
+<p>
+The static database resides in Flash ROM. It holds permanent
+information about NetFortress-equipped nodes including each node's IP
+address, the time entered into the database and the permanent public
+key. The dynamic database contains information about secured and
+unsecured hosts. It holds each node's IP address, the time last
+updated, a flag indicating whether the node is secured, a flag
+indicating whether the node is in transition (in the middle of a key
+exchange) and a pointer to the common (secret) key.</p>
+<br>
+<h2>Conclusion</h2>
+<p>
+The NetFortress is a total solution to building Virtual Private
+Networks over public media. It integrates hardware protection,
+sophisticated key exchange protocols, state of the art encryption and
+low level data hiding to block hacker attacks.
+<p>
+Open systems communication security problems have made this difficult
+or dangerous. Due to the increased complexity of corporate networks and
+the growing sophistication of hackers' tools and techniques, enterprise
+networks over dedicated lines can also be compromised.
+<p>
+The NetFortress undercuts these problems by implementing sound security
+protocols using unbroken encryption methods that protect corporate data
+and  hide clues from hackers intent on attacking a system.
+<p>
+<hr size=0>
+<p>
+<h4>Digital Secured Networks Technology,  Inc.</h4>
+<p>
+<br>
+<br>
+<br>
+<center>
+<a href="index.html">[ Home ]</a>
+<a href="hacker.html">[ Products ]</a>
+<a href="news.html">[ News ]</a>
+<a href="links.html">[ Links ]</a>
+<a href="contact.html">[ Contact ]</a>
+</center>
+
+
+</Body>
+</HTML>
+</DOC>

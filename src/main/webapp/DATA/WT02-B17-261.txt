@@ -1,0 +1,138 @@
+
+<DOC>
+<DOCNO>WT02-B17-261</DOCNO>
+<DOCOLDNO>IA060-000328-B027-198</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/Harvest/brokers/Attributes.html 205.168.79.27 19970115031449 text/html 3350
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 03:14:56 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 07 Sep 1995 21:17:02 GMT
+Content-length: 3176
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Attributes supported by the Harvest Gatherer</TITLE>
+</HEAD>
+<BODY>
+<H1>Attributes supported by the 
+<A HREF="http://harvest.cs.colorado.edu/">Harvest</A> 
+Gatherer</H1>
+<DL>
+<dt>  <A NAME="Abstract"><STRONG>Abstract</STRONG></A> 
+<dd> Brief abstract about the object.
+<p>
+<dt>  <A NAME="Author"><STRONG>Author</STRONG></A> 
+<dd> Author(s) of the object.
+<p>
+<dt>  <A NAME="Description"><STRONG>Description</STRONG></A> 
+<dd> Brief description about the object.
+<p>
+<dt>  <A NAME="File-Size"><STRONG>File-Size</STRONG></A> 
+<dd> Number of bytes in the object.
+<p>
+<dt>  <A NAME="Full-Text"><STRONG>Full-Text</STRONG></A> 
+<dd> Entire contents of the object.
+<p>
+<dt>  <A NAME="Gatherer-Host"><STRONG>Gatherer-Host</STRONG></A> 
+<dd> Host on which the Gatherer ran to extract information from 
+the object.
+<p>
+<dt>  <A NAME="Gatherer-Name"><STRONG>Gatherer-Name</STRONG></A> 
+<dd> Name of the Gatherer that extracted information from the
+object.  (eg.  Full-Text, Selected-Text, or Terse).
+<p>
+<dt>  <A NAME="Gatherer-Port"><STRONG>Gatherer-Port</STRONG></A> 
+<dd> Port number on the Gatherer-Host that serves the Gatherer's
+information.
+<p>
+<dt>  <A NAME="Gatherer-Version"><STRONG>Gatherer-Version</STRONG></A> 
+<dd> Version number of the Gatherer.
+<p>
+<dt>  <A NAME="Keywords"><STRONG>Keywords</STRONG></A> 
+<dd> Searchable keywords extracted from the object.
+<p>
+<dt>  <A NAME="Last-Modification-Time"><STRONG>Last-Modification-Time</STRONG></A> 
+<dd> The time that the object was last modified
+(in seconds since epoch).
+<p>
+<dt>  <A NAME="MD5"><STRONG>MD5</STRONG></A> 
+<dd> MD5 16-byte checksum of the object.
+<p>
+<dt>  <A NAME="Partial-Text"><STRONG>Partial-Text</STRONG></A> 
+<dd> Only the selected contents from the object.
+<p>
+<dt>  <A NAME="Refresh-Rate"><STRONG>Refresh-Rate</STRONG></A> 
+<dd> How often the Broker attempts to update the content summary
+(in seconds relative to Update-Time).
+<p>
+<dt>  <A NAME="Time-To-Live"><STRONG>Time-to-Live</STRONG></A> 
+<dd> How long content summary is valid (in seconds relative to Update-Time).
+<p>
+<dt>  <A NAME="Title"><STRONG>Title</STRONG></A> 
+<dd> Title of the object.
+<p>
+<dt>  <A NAME="Type"><STRONG>Type</STRONG></A> 
+<dd> The object's type.  Some example types are:
+	Archive, 
+	Audio, 
+	Awk, 
+	Backup, 
+	Binary, 
+	C, 
+	CHeader, 
+	Command, 
+	Compressed, 
+	CompressedTar, 
+	Configuration, 
+	Data, 
+	Directory, 
+	DotFile, 
+	Dvi, 
+	FAQ, 
+	FYI, 
+	Font, 
+	FormattedText, 
+	GDBM, 
+	GNUCompressed, 
+	GNUCompressedTar, 
+	HTML, 
+	Image, 
+	Internet-Draft, 
+	MacCompressed, 
+	Mail, 
+	Makefile, 
+	ManPage, 
+	Object, 
+	OtherCode, 
+	PCCompressed, 
+	Patch, 
+	Perl, 
+	PostScript, 
+	RCS, 
+	README, 
+	RFC, 
+	SCCS, 
+	ShellArchive, 
+	Tar, 
+	Tcl, 
+	Tex, 
+	Text, 
+	Troff, 
+	Uuencoded, and
+	WaisSource
+<p>
+<dt>  <A NAME="Update-Time"><STRONG>Update-Time</STRONG></A> 
+<dd> The time that Gatherer updated (generated) the content summary
+from the object (in seconds since the epoch).
+<p>
+<dt>  <A NAME="URL"><STRONG>URL</STRONG></A> 
+<dd> The original URL of the object.
+<p>
+<dt>  <A NAME="URL-References"><STRONG>URL-References</STRONG></A> 
+<dd> Any URL references present within HTML objects.
+</DL>
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,913 @@
+
+<DOC>
+<DOCNO>WT02-B07-77</DOCNO>
+<DOCOLDNO>IA096-001029-B016-318</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/policy/freespeech/godwin724.html 205.177.10.31 19970215015630 text/html 47911
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 01:55:06 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>Written Testimony of Mike Godwin,EFF</title>
+<body>
+<pre>
+
+
+   
+                              Testimony of
+
+                              Mike Godwin
+    
+                             Staff Counsel
+                                of the  
+                   Electronic Frontier Foundation (EFF)
+
+                              Regarding
+
+ The "Protection of Children From Computer Pornography Act of 1995" 
+                               (S. 892)
+
+                                before
+
+                    the Senate Judiciary Committee
+
+                             July 24, 1995
+
+
+I.	The Challenge of a New Medium
+
+My name is Mike Godwin, and I am staff counsel for the Electronic 
+Frontier Foundation. I'd like to thank you, Mr. Chairman, on behalf of 
+my organization, the Electronic Frontier Foundation, for allowing EFF to 
+submit testimony concerning the important issues, and significant 
+problems, we believe are raised by S. 892. One of our goals at EFF is to 
+assist policymakers and legislators in developing a framework to 
+understand the legal and social significance of what is, in effect, a 
+wholly new medium -- computer communications. EFF is dedicated to 
+expanding and preserving the democratic potential of this new medium, 
+whose social and political significance may ultimately exceed that of 
+the very first mass medium, the printing press. The issues raised by 
+computer communications transcend partisan politics and require of us 
+all that we stretch our imaginations -- the worst mistake we can make on 
+the threshold of this revolution is to assume that this new medium is, 
+so far as the Constitution and laws of the United States are concerned, 
+essentially the same as broadcasting, or more or less similar to 
+telephony. Computer communications -- and especially those 
+communications that depend on computer networks of national or global 
+reach, raise new problems and questions for lawmakers. At the same time, 
+this medium promises to be the fulfillment of our oldest First Amendment 
+values. 
+
+But I come here not just as a lawyer who is concerned about the First 
+Amendment. I'm also a father. My little girl will be the first person in 
+my family to have grown up with the Internet. As a parent, I'm deeply 
+concerned with protecting Ariel from bad material and from bad people. 
+And this concern is the other reason for my being here -- I want to help 
+ensure that whatever legislation or policy comes from Congress regarding 
+the Internet will help me as a parent in protecting my little girl, 
+while at the same time ensuring that she's able to benefit fully from 
+access to the Net.
+
+While I do want to talk a bit about some of the Constitutional issues 
+raised by S. 892, I don't want to duplicate the thoughtful, thorough 
+analysis submitted to this committee by Jerry Berman of the Center for 
+Democracy and Technology. Instead, I want to focus on giving you a 
+better historical and technical understanding of why computer 
+communications are fundamentally new and different from previous 
+communications media. 
+
+Now, figuring out the proper legal framework for the Net is tricky. Even 
+if you didn't know anything else about computer communications, you'd 
+know it's tricky from one simple fact: you've got Rush Limbaugh and Newt 
+Gingrich and the ACLU on one side of the issue, and Senators Robert Dole 
+and Dianne Feinstein on the other side. What this tells us, I think, is 
+that one's approach to making policy about computer communications 
+derives less from one's political affiliations than it does from how one 
+sees it in relation to traditional communications media. 
+
+You see, the more you know about computer networks and the Internet, the 
+clearer it becomes that the these networks are different in several 
+respects from traditional communications media such as print, 
+broadcasting, and the telephone. And these differences, once grasped, 
+entail that top-down, government-centered approaches to protecting 
+children will be ineffective. They also entail that the "least 
+restrictive means" test of First Amendment jurisprudence will lead to 
+different results in this medium from those results we've seen in 
+traditional media, such as telephony. (See, e.g., Sable Communications 
+v. FCC, 1989). We begin with what I promise will be a short history of 
+the Internet. 
+
+
+II.	The Humble Beginnings
+
+In spirit, at least, the Internet--the global "network of networks" that 
+is increasingly the link among commercial online providers, businesses, 
+government, computer bulletin-board systems, and other modes of computer 
+communications -- was conceived 30 years ago by Paul Baran, a RAND 
+Corporation researcher. In a highly theoretical paper, Baran addressed a 
+quintessentially Cold War problem: How could U.S. authorities 
+successfully communicate in the aftermath of a nuclear war? 
+
+The problem was that traditional communications network designs were 
+vulnerable to strategic attacks. Hubs and main arteries could be 
+destroyed, isolating whole sections of the country. And any central 
+control authority would be a particularly enticing target for a surgical 
+strike.
+
+Baran developed a theory of a truly decentralized, "distributed" 
+communications network, with no central authority, and no main hubs or 
+arteries. Any given communication on the network was sliced into what 
+later were called "packets," and each packet was separately addressed, 
+then thrust by the network in the general direction of the 
+communication's destination. Each packet might take a separate route 
+across the network, and some of those routes might involve serious 
+detours (a packet might travel from Chicago to Seattle by way of Texas, 
+for example). If a particular route had been damaged by natural disaster 
+or military attack, a given packet would simply continue trying new 
+routes until it found one that worked. The recipient computer on the far 
+end would collect each packet as it arrived and assemble it in the 
+correct order. This kind of network design probably sounds highly 
+inefficient. That's because it is -- but it is also highly robust, and 
+it turns out to be very difficult to guarantee that you've stopped a 
+given message from reaching its destination.
+
+Baran's theoretical design remained just that -- theory -- for several 
+years. Then, in 1969, a group of engineers working for ARPA (the federal 
+government's Advanced Research Projects Agency), actually planted the 
+first seeds of what later became known as the Internet. Although these 
+engineers had never heard of Paul Baran or his paper, they'd brought his 
+theory to fruition anyway. And once the RAND Corporation and other early 
+participants in this network recognized that ARPA had implemented a 
+working version of Baran's concept, they lost no time in playing up the 
+military value of the new network (which turned out to be a plus when 
+seeking appropriations under the constraints of the Mansfield 
+Amendment). 
+
+At first it was called the ARPAnet -- only later was the term "Internet" 
+coined. The new network grew quickly: in late 1969, there were only four 
+computers on the network, but by 1972 there were 37 sites. By the 1990s, 
+the number of computer sites on the Internet had grown exponentially -- 
+in 1992, Internet sites numbered in the hundreds of thousands; this year 
+they number in the millions.
+
+One reason the Internet grew so rapidly is that one doesn't have to 
+construct special wires or conduits to connect to it -- connectivity 
+depend on software standards, and not on hardware. And connecting to the 
+Internet cost the taxpayer little or nothing, since each node was 
+independent, and had to handle its own financing and its own technical 
+requirements. It is no wonder that communications traffic on the 
+Internet has increased 1000 times between January 1988 and October 1994. 
+
+Also fueling the explosive growth of the Internet was the increasing 
+availability and decreasing price of desktop computers. Any one of the 
+desktop (or even laptop) computers commonly sold today can become part 
+of the Internet.
+
+III. Democratic and Economic Opportunities 
+
+But the cheapness of computing power these days tells only part of the 
+story. The rest lies in the answer to the question of why so many people 
+want to be connected to the Internet. While there are many uses of the 
+Internet --
+e-mail, long-distance computing, file transfers, searches of remote 
+databases -- there is no doubt that one of the most compelling reasons 
+people are excited about the Internet is freedom of speech. 
+
+You see, unlike every other mass medium that has ever existed, the 
+Internet (and similar computer networks) has no central authority. There 
+is no person in charge of the "printing press," no "editor-in-chief," no 
+holder of a broadcast license. Americans have discovered that one can 
+reach a large audience on the Internet without having to assemble a lot 
+of capital or seek the approval of an editor. In this the Internet is 
+similar to the telephone (no one tries to edit your phone conversations 
+while they're happening), but the potential scope of the communications 
+are far greater. While it might take millions of dollars to start on 
+urban newspaper or TV station, it takes only a few hundred dollars to 
+reach large audiences. If, as A.J. Liebling once commented, freedom of 
+the press belongs to those who own one, the Internet suggests that we 
+all may someday own one.
+
+In short, the First Amendment's free-press clause, which many citizens 
+still take to be a right reserved to the highly capitalized media 
+establishment, has suddenly become a meaningful right for every 
+individual American.
+
+This kind of empowerment of individuals is something new under the sun, 
+and it blurs traditional distinction between "content producers" and 
+"consumers" (everyone on these computer networks can produce "content"). 
+This may blur the line between reporter and reader -- to take only the 
+most recent example: it was an ad-hoc group of individual Internet users 
+who assembled the material that demonstrated the flaws in the Martin 
+Rimm/Carnegie Mellon pornography study that you may have heard about. 
+And while the mainstream media might have taken months to discover the 
+study's flaws, these individuals uncovered them in mere weeks. 
+
+To touch briefly on some other things that make this medium different: 
+since computer hardware and software are ubiquitous and less expensive 
+all the time, the medium cannot be considered a "scarce" resource in the 
+way the Supreme Court characterized the broadcasting spectrum in Red 
+Lion. 
+
+And since content is primarily "pulled" by user choices rather than 
+"pushed" by content producers, the medium lacks the "pervasive" 
+character of broadcasting that was central to the Court's decision in 
+the Pacifica case.
+
+Finally, the relatively low cost of acquiring access to the Internet 
+means that would-be entrepreneurs face relatively low barriers to entry 
+into this new market. Now that the government no longer plays even a 
+nominal role in administering the Internet, the international network of 
+networks is becoming a playing field for pure capitalism. To start a 
+successful business on the Internet, you don't need to be a millionaire, 
+and you don't need venture capital -- all you need is a good idea. 
+
+Ill-considered regulation, however, could thwart both the democratic and 
+the economic promise of computer communications. S. 892, with its clear 
+intent to impose new duties and broader legal risks for service 
+providers, would simultaneously chill freedom of speech and distort the 
+market for services by raising barriers to entry. What exacerbates this 
+problem is that a provider's liability for content hinges not on legal 
+obscenity, but on the far broader, far vaguer concept of "indecency," a 
+term imported from the realm of broadcasting regulation whose meaning 
+has never been defined by either Congress or the Supreme Court. And even 
+if the term had been defined, it would be inapplicable to a medium that 
+is neither "scarce" nor "pervasive" in the Constitutional senses of 
+those terms. Our federal government's special role in regulating the 
+content of the broadcast media and of the dial-a-porn services is 
+grounded in particular factual findings about the characteristics of 
+those media. There have been no such findings with regard to computer 
+communications, and, given the nature of the medium as discussed above, 
+it is difficult to see how there could be.
+
+Compounding the "chilling effect" this legislation would have on lawful 
+speech is the sheer ineffectiveness of the measure when it comes to 
+willfully illegal communications. Because of the decentralized, "bomb-
+proof" nature of the Internet, an individual provider's decision to 
+censor certain content may have no effect at all with regard to its 
+general availability. This is especially true when one remembers that an 
+increasing number of Internet sites are operated in foreign countries, 
+and their owners, while theoretically extraditable and prosecutable in 
+the United States, would rarely be meaningfully deterred -- they know 
+that only a very few foreign offenders will ever be pursued by a U.S. 
+attorney. In general, a foreign criminal using computer networks to 
+commit a crime in the United States can dodge both the providers' 
+attempts at monitoring and the law-enforcement agencies' attempts at 
+policing by originating message traffic offshore or by routing illegal 
+information through a chain of intermediate sites that obscures its 
+origin. S. 892 would not even pose a meaningful threat to those who prey 
+on children -- no limit on "indecency" prevents the solicitation of 
+innocent children with nonobscene, nonindecent speech.
+
+IV.	A Better Approach.
+
+As a parent who happens to be a lawyer, I know that federal and state 
+laws already define a framework for the prosecution of those trafficking 
+in obscenity, those who possess or distribute child pornography, and 
+those who prey on children. It is clear that the legal tools are in 
+place, but Senator Grassley's instincts are right when he perceives that 
+there is still a gap in the defense of children that needs to be filled. 
+One thing we know about those who engage in child sexual abuse, for 
+example, is that they are rarely deterred by legal risks -- even in the 
+face of likely prosecution they are driven by their sickness to continue 
+preying on children. And as a parent I can assure you that it is little 
+comfort to me to know that if such an offender harms my child, that 
+person may be caught, prosecuted, and imprisoned at some point -- the 
+damage, which may last a lifetime, has already been done.
+
+This is why I believe that the right role for Congress to play is to 
+encourage the development of software filters that prevent my child and 
+others from being harmed in the first place. 
+
+Recall that the basic technology we're talking about here is the 
+computer -- the most flexible, programmable, "intelligent" technology we 
+build and market. Filtering software enables parents to screen certain 
+language, certain kinds of content, certain people, or certain areas on 
+the networks from their children.
+
+Such an approach does no damage to First Amendment values (it does not, 
+for example, put a nonlawyer hobbyist who operates a tiny computer 
+bulletin-board system in the position of having to determine what is 
+"indecent"), yet it does solve the problems (e.g., solicitation through 
+nonindecent communications, or offenders who conceal the origin of their 
+harmful communications) that S. 892 has no hope of addressing. 
+
+Furthermore, since such tools are designed to be customizable, parents 
+are empowered to set their own standards of what is acceptable for their 
+children, rather than relying on what the nonelected officials at the 
+FCC choose to include under the definition of "indecency." For example, 
+even if the FCC determines that detailed information about safe-sex 
+techniques is not indecent, a parent who believes that her children 
+should receive all their sexual information from her and not from the 
+Internet could customize the family computer's "filters" to block that 
+information. 
+
+V. Conclusions
+
+We already have the laws in place. Federal and state laws prohibit the 
+distribution of obscenity, every state I know of has laws prohibiting 
+the exposure of children to inappropriate or harmful material. Federal 
+and state laws prohibit child porn and child abuse, regardless of the 
+medium used to facilitate it.
+
+Speaking as a concerned parent and a lawyer, I believe the question 
+isn't "Do we need more criminal laws?" -- it's "What can we do to 
+supplement the legal framework with policies and tools that empower 
+parents to protect their children and preserve the values of their 
+families?" And answering that question will require the Congress to 
+draft laws and support policies that are grounded not in simplistic 
+analogies to old media, but in a thorough understanding of this new 
+medium and of what makes it different. 
+
+Members of the committee, you are at a crossroads. Down one road lies a 
+future in which parental rights are supported by a Congress that has 
+abandoned the outdated, big-government approach to solving social 
+problems. Like the parents and children whose letters to you follow my 
+statement here, we hope for a Congress that does not set the First 
+Amendment and welfare of families against other, but that instead 
+chooses policies that strengthen both.
+
+
+
+LETTERS FROM MAMIE AND HOWARD RHEINGOLD
+
+
+To the Members of the Committee,
+
+I am Mamie Rheingold. I am ten years old, and I have been using e-mail 
+since I was eight years old. I also use the World Wide Web sometimes to 
+help with my homework.
+
+When I started using e-mail, my dad told me to use good sense. Like when 
+somebody calls my house on the telephone and asks me whether I am home 
+alone, I know I don't have to answer that person. And my parents taught 
+me that if somebody calls on the telephone and I don't know them, and I 
+feel funny about something they say or ask, I should talk to my mom and 
+dad and not say anything. The same thing with e-mail. If people ask me 
+personal questions and I dont know them, I ask my dad. I like to send e-
+mail to my dad when he travels, and get e-mail from him. And I have a 
+few penpals. It really isnt a problem.
+
+Sometimes, I can use the World Wide Web for homework. My dad found a 
+place where I can type in the name of what I am looking for and then I 
+can click on what it finds and see pictures from outer space or other 
+things. It's like having an encyclopedia that has movies, too. 
+
+I think kids need to learn how to use things and parents need to trust 
+us to use them the right way and not use them the wrong way. 
+
+Mamie Rheingold
+mame@well.com
+
+----------
+
+To the United States Senate and the Members of the Committee: 
+
+I am a parent, a PTA member, and an active volunteer in our daughter's 
+public school. I believe very strongly that parents have an obligation 
+to teach our children values, to give them the opportunity to make their 
+own moral choices, and to help them understand the media such as 
+television and internet that are so important in their lives today. 
+
+I would like to be able to have control over the information my daughter 
+receives through the television or the internet, but I don't believe it 
+is right to give the State the power to exercise that control. Parents 
+and teachers, not the government, are the ones who ought to determine 
+what information and values are appropriate in our homes and schools. 
+
+Democracy in America was founded upon freedom of expression. 
+Communications technologies have made it possible to spread 
+objectionable material. I know that tools for FILTERING information that 
+comes into the home, rather than CENSORING it at the source, are much 
+more practical, easier to administer, and most importantly, do not erode 
+our liberties. I support filtering tools for parents, including rating 
+systems. 
+
+Most importantly, I feel that parents need to understand that we have a 
+responsibility to instill good sense in our children, to sit down with 
+them in front of the television and in front of the computer screen, to 
+ask them questions, and to answer their questions. Taking that 
+responsibility out of the hands of parents is going to further weaken 
+the family, and create a censorship bureaucracy that we might later come 
+to regret.
+
+I personally paid for an internet and WWW link to my daughter's 6th 
+grade classroom. I spoke to the students and told them that there are 
+indecent pictures out there on the net, and that I trust that they will 
+use this tool responsibly. I said: "If you do anything that you wouldn't 
+want your parents to know, then probably you will get caught at it and 
+you won't have the Internet in your classroom any more. And there 
+probably won't be Internet in any other classrooms around here. But if 
+you are responsible pioneers, you will show the other classrooms and 
+teachers in this school, and in this school district, that kids and 
+teachers can use this new tool. I'm counting on you to be pioneers." 
+That's what I told them, and they didn't fail me. If we don't give our 
+kids the opportunity to make moral choices, and yes, the chance of 
+failing, then how are they going to learn? 
+
+Howard Rheingold
+hlr@well.com
+
+
+About Mamie Rheingold:
+
+Age ten, student at Tam Valley elementary school, a public school in 
+Mill Valley California. This year, Mamie was selected from all the 
+students in Marin County to receive the Terwilliger Award for community 
+service, because of her work in community recycling programs and in 
+regularly entertaining seniors in local retirement and convalescent 
+communities. 
+
+
+About Howard Rheingold:
+
+Author of "Virtual Reality" (Simon & Schuster, 1985), "The Virtual 
+Community," (Addison Wesley, 1993), founding executive editor of 
+HotWired, Wired Magazines commercial publication on the World Wide Web, 
+author of "Tomorrow," a newspaper column syndicated in 16 newspapers 
+nationwide by King Features.
+
+
+LETTERS FROM JENNIE BROWN AND PAT MCGREGOR 
+
+To the Members of the Committee,
+
+I am 15, and a sophmore at Oak Ridge HS in Eldorado Hills, CA. Mom 
+showed me how to do things on the net to do research on papers and 
+things when I was about 10; I've done papers on the Holocaust, plant 
+growth under differing lights, absorbency of paper diapers, Hero 
+symbolism in Indiana Jones, Nuclear waste and radiation's affect on the 
+body, and looked for clip art to put on papers and charts.
+
+My mom and dad are divorced, and I've used email to keep in touch with 
+the one I'm not living with since 4th grade. I also talk to my cousins 
+in England every day by email, and some of my aunts and uncles. Email is 
+a really good thing.
+
+This year I discovered Mudding, and it's really cool. I've met loads of 
+people all over the world and have talked with them and worked with 
+them. Mom has always been really firm that I shouldn't tell my phone 
+number or address to people on the net, and I don't. It's like not 
+giving it to people you meet at the Mall until you know them better. I 
+feel like the Net's a pretty safe place if you take care of yourself and 
+pay attention to what you're doing.
+
+There's a lot of really cool stuff on the net. Restricting what people 
+can put up isn't the way to go: parents and school should do what they 
+do now: make rules and agreements, with consequences if you break them. 
+
+Jennie Brown (jbrown@spider.lloyd.com)
+
+------------
+
+To the Members of the Committee,
+
+I worried for a long time about letting Jen go "out" mudding by herself, 
+but she seems to be paying attention to our basic ground rules and 
+keeping herself safe from unwanted attention. I worry when she and her 
+friends go out for a day to the local shopping strip, too. ;-) 
+
+Jennie uses the Net like she uses other research tools --and sometimes 
+she finds out weird and unusual stuff in the library at school, too. To 
+our minds (her parents) the Net is an unparalleled communication tool, 
+and it's helped us stay close to Jennie when she's been in the custody 
+of one or the other of us.
+
+The computer that Jennie uses is in the living room, and we all talk 
+about what we find online. Jennie asked about porn on the net after the 
+discussion erupted this spring: we talked about what sort of stuff was 
+available and she said, and I quote, "Yuch." 
+
+Parents who set up sensible guidelines and communicate with their 
+children are the best filtering technology for the Internet. 
+
+Pat McGregor (JennieUs mom)
+Consultant, Lloyd Internetworking
+Cameron Park, CA
++1 916 676 1147
++1 916 676 3442 (fax)
+http://spider.lloyd.com/~patmcg
+pat@lloyd.com
+Co-Author, "Mastering the Internet," Sybex Books, Feb 1995 Staff Writer, 
+I/O Magazine (http://www.mother.com/iomag) 
+
+
+LETTER FROM BRAD NEUBERG
+
+To the Members of the Committee,
+
+Howdy. My name is Brad Neuberg. I am 19 and currently live in South 
+Texas.
+
+I grew up using bulletin board systems and the internet. As a matter of 
+fact, I learned how to read and do mathematics on an old Texas 
+Instruments computer! In my high school, the Science Academy of South 
+Texas, I communicated with professors, educators, and children from all 
+over the world using internet access which my school provided. 
+Currently, I use the internet to keep in touch with breaking news, 
+congressional legislation using Thomas, and vast discussion groups on 
+many different topics. My life has been very enriched due to computers 
+and online networks.
+
+Today you will probably hear convincing legislation that the internet is 
+full of a massive amount of pornography. You will be told that a recent 
+Carnegie Mellon research report, used by Time magazine in an article, 
+documents that 85% of the internet is pornography. A large number of 
+experts have disputed this article, and have shown, in fact, that there 
+is an extremely small amount of pornography available on the internet, 
+more around 0.5%.
+
+Some people here today may not truly understand what the internet is. 
+One important part of the internet, called newsgroups, is like a huge 
+cork bulletin board, such as the bulletin board inside the entrance of a 
+common super-market. People with their home computers call up, using 
+their telephone line, onto this huge cork bulletin board from all over 
+the world, where they can put up messages. So just as at the super-
+market I can put up a message saying, "I lost my little dog; if you have 
+seen it call 631-2142," someone on the internet can type a message on 
+their keyboard and post it to this huge bulletin board, accessible by 
+people from all over the world. Now, there can be millions of these huge 
+bulletin boards on the internet, so instead of only having one bulletin 
+board at the super-market, imagine if there were thousands in the store, 
+and each bulletin board had a different topic. Let's say one bulletin 
+board at the super-market had a sign on top with the word "Agriculture" 
+on it, or another bulletin board with a sign saying "Movies." Well, on 
+the "Movies" bulletin board people who are interested in movies could 
+post message, or even sounds clips, because one of the special things 
+about the internet is that you can post many different kinds of data, 
+from text, to voice, to pictures. And so, all over the world, through 
+the internet, communities are forming, where people are discussing, 
+every imaginable topic, from scientists talking about lasers, to 
+kindergarden teachers talking about the techniques they use to teach 
+their class. So many people talking is truly a phenomenal thing (well, 
+unless it's a talk show :).
+
+There are about ten-thousand of these "cork-bulletin" boards on the 
+internet, filled with every imaginable topic, from kids talking about a 
+particular video game to Chinese dissidents discussing how to create a 
+democracy in China. What the Time magazine article was talking about was 
+roughly about 15 of these=7F bulletin boards. These fifteen bulletin 
+boards are discussing mostly sexual topics, such as pedophilia or 
+homosexuality, and=7F are the "cork boards" where there are a great deal 
+of dirty pictures. When the author of the Time magazine article wrote 
+that 85% of the internet was filled with dirty pictures, what he=7F was 
+really saying was that 85% of the messages on these fifteen sexual 
+bulletin boards were actually pornographic pictures. Keep in mind that 
+this is 85% of the ten sexual bulletin boards of the ten-thousand 
+bulletin boards available on the internet. In other words, a very small 
+amount. With other factors included this means that only one-half 
+percent of the internet contains pornographic images! This is almost 
+like the two dirty books at a library with tens of thousands of books. 
+
+A parent would still like to prevent their children from seeing these 
+pictures, even if only 0.5% of the internet contains this pornography. 
+In spite of the fact that it actually takes quite complex software to 
+see these dirty images, there are already companies who see a need for 
+software that can prevent children from seeing the bad 0.5% of the 
+internet. These pieces of software scan for dirty words, block access to 
+the sexual bulletin boards, record the locations children visit, or use 
+other techniques to help parents monitor what their children are doing. 
+This software, without government censorship, without government 
+control, can help keep children from accessing the bad portions of the 
+internet, and allow adults to continue to communicate their thoughts. 
+
+If one of the reasons for the Republican sweep of Congress was to help 
+remove government from our lives, and to restore our free-market 
+economy, then why should we allow the government to have more control 
+over what we say by censoring our thoughts on the internet? We should 
+empower parents by letting the free- market provide solutions for the 
+pornography problem; let's keep government out of our lives.
+
+Thank you very much,
+Brad Neuberg
+McAllen, Tx
+
+P.S. - Don't forget the oath you took at the beginning of your term to 
+uphold the Constitution of the United States -- as well as the Bill of 
+Rights.
+
+
+LETTERS FROM CHRISTOPHER O'CONNELL AND CHRISTINA O'CONNELL 
+
+To the Members of the Committee,
+
+I am a seventeen year old who has been using BBSs, America Online, and 
+the Internet for 7 years. It has been an educational and priceless 
+experience for me. From the start on local Bulletin Board Systems I have 
+made friends and learned skills that will help me when I enter the 
+workplace. Because of my experiences online I was able to assist my 
+fellow students at my high school with the library's computers and CD-
+Rom system. I have learned programming languages, computer skills, and 
+played chess with a former Semi-Grand Master. In fact, many of my 
+friends are in occupations and areas that I am considering studying in 
+college, and much of my interest is due to their support and help. 
+
+And their support went beyond that. During my parents divorce I had them 
+to talk to, and it was an immeasurable aid during that trying time. 
+During my seven years online, I have never felt anything but safe, and 
+have never been made uncomfortable in any way. Sure, there is 
+pornography available, but it is just as available in magazine or book 
+form to my friends at school who are not online and don't even own 
+computers.
+
+Through the online discussion forums, I have been able to discuss 
+everything from religion to politics to computers to science fiction to 
+poetry. It has given me a chance to speak my mind, develop my thoughts, 
+and be heard in a way that most teenagers never have. It has developed 
+my thinking and reading skils, and has helped my writing ability in a 
+way that no high school english class could hope to match, despite the 
+very high quality of the local public school that I attend. I have also 
+become a staff-member of one of the online games I frequent, where I am 
+learning the value of helping and aiding others. 
+
+All of this has also made me aware of the issues facing our nation 
+today. In a day and age when legislators are stressing the value of 
+putting religious education, and many other values and moral concerns, 
+back in the hands of the family and not the government, why are the same 
+legisators proposing to take away a clear right of the parents? The idea 
+of laws to censor the Internet ignores not only the first amendment but 
+the very basic rights of Americans to govern what their children see and 
+raise them as they see fit. My mother, who is a single-parent to my 
+sister and myself, has always governed what we see and read. From a 
+young age she imposed limits on the amount of television viewing and 
+what I was allowed to watch. This has made me an avid reader of books 
+who would much rather take in a book of poetry or literature than a 
+sitcom any day. This has not made me hate her or get angry, it has 
+brought us closer together as a family. All of us spend evenings over 
+dinner conversing about our reading, whether it be a science fiction 
+book that I am reading, one of my mother's favorite mystery novels, or 
+the books on horses that my 9 year old sister, soon to get her own 
+Internet account, has begun to read. For that matter, we also spend 
+hours discussing what I see on the Internet, ensuring that I understand 
+and am not harmed by anything I see. The very idea that this would be 
+taken away from us is not only abhorrent and disgusting, but insulting 
+to myself, my mother, and every other American family. It says that you 
+do not trust parents to do their jobs. 
+
+Christopher O'Connell
+Rindge, New Hampshire
+Vulpine@gold.mv.net
+
+
+
+
+
+
+---------------
+To the Members of the Committee,
+
+I'm the mother of two chidren, a son 17 and a daughter 9. My son has 
+been online via BBSs, AOL and the Internet from age 10. We have always 
+discussed his time online, what he was doing, who he was talking with. 
+His experiences have been overwhelmingly positive - he's had the chance 
+to learn chess from a state champion, discuss authors with both friends 
+from several online games and the rec.arts.* newsgroups he follows, 
+debate politics with people of all ages, learn a new programming 
+language, and more. But perhaps most importantly, he has found a genuine 
+community of friends online, from many countries, backgrounds and age 
+groups who have helped him through some rough times and who he has 
+helped in return. 
+
+As a parent, I am very angry at the attempts to censor the Internet in 
+the guise of protecting children. I have seen firsthand the value of 
+being online in my son's life. On the rare occasions when he has run 
+into questionable material, he has not suddenly lost his good sense nor 
+the morals he has been raised with -- just as with tv, music, books, we 
+discuss things which bother him. Just because material is on the Net, it 
+does not somehow magically destroy the relationship we have built nor 
+the strong inner sense of right and wrong he has developed over the 
+years. And to those who somehow feel that the government must interfere 
+here because "parents are too busy" let me just note that I am a 
+divorced mother raising my children alone - I work long hours to support 
+myself and my children, but that does not stop me from parenting them! 
+
+My daughter has had several internet penpals, an activity which is 
+encouraging her writing skills. I have just gotten her her first 
+separate net account and she is joining a mail list for young riders. In 
+fact, we are planning on using this list in September as part of the 
+activities of our local 4H group.
+
+>From my experience, I'd say that the proponents of net censorship 
+should 
+learn more firsthand about what is available on the Net. I know that 
+there is material online which does not fit my morality - but I'm not 
+forced to look at it and neither are my children. I know that there are 
+some sick people online as well - but there are sick people in my small 
+rural town too - I've taught my children to take proper precautions with 
+strangers and that teaching stands online or at the local shopping 
+center. And while I've seen a lot of scandal-sheet type headlines about 
+kids and the net, in over 7 years of experience, as a mother and a net 
+reader, I have yet to see anything that remotely reflects those over 
+hyped headlines. 
+
+Christina O'Connell, parent [of Christopher O'Connell] Rindge, New 
+Hampshire
+coco@gold.mv.net
+
+
+LETTER FROM SHARON HENDERSON
+
+To the Members of the Committee,
+
+I felt it was important to tell you about my son, Brian. 
+
+Brian is 12 years old, almost thirteen. When he was a little tot, he was 
+diagnosed as neo-autistic: "sort-of, kinda autistic, but not really, so 
+we don't know what else to call him." Until he was almost four, he did 
+not speak at all--only tears and laughter, with far more laughter. He 
+was a bright, responsive baby and toddler, charming, funny, and 
+fascinated by technology. When he finally learned to talk, he was 
+entirely echolalic for almost three more years--a condition which 
+essentially boils down to his ability to repeat back to you, verbatim 
+and in your vocal intonation, anything you have said to him. Or anything 
+he has heard on TV. Or anything he has heard .... at all. This made him 
+a fine mimic--and gave him, as a kind of compensation for his 
+disability, a spectacular memory. He may not always pay attention--but 
+when he does, you only need to tell him something once. He remembers it 
+forever. His language is now age-appropriate--and then some; he 
+expresses himself like the learned young man that he is.
+
+His intro to technology came through the family's Atari game system and 
+the TV. He comes of a long line of engineers on his Dad's side--folks 
+who like to take things apart and put them back together. Computers have 
+always fascinated him, and this remains the case to this day. Games, 
+programming, email, the WorldWide Web, you name it, he loves it. Other 
+people memorize mathematical theorems; Brian memorizes the Gopher and 
+FTP sites where he can find information on history, maps, railroad 
+trains, collectible card games, and metal gaming miniatures. His peers 
+can name all the Power Rangers and their abilities; Brian can tell you 
+which Web sites will grant you access to pictures from the American 
+Civil War, which ones will tell you about the re- enactment of 
+Revolutionary War battles, and where you go to find out the history of 
+armored vehicles as used in the armies of the world, since armored 
+vehicles existed. 
+
+Does he know there is pornography on the Internet? Sure, he does. He can 
+read as well as anyone else. But because he is an American citizen, and 
+knows the Constitution better than many of our Congresspeople, he knows 
+there is freedom of speech, expression, and pursuit of life, liberty, 
+and happiness. He knows these things are (and I'm quoting him, here) 
+"ucky, gross stuff for people with little imagination," and he knows how 
+to stay away from them. If he did not know how, I would do my parental 
+duty and teach him--and I would probably put software on our home 
+computer that would keep him from involuntarily running across anything 
+my husband and I didn't want him to see.
+
+This child, who uses the local libraries to the hilt, realizes there are 
+libraries and archives and universities all over the world to which he 
+will probably never get in person. But he knows the Internet can reach 
+them, and a lot faster and cheaper than an airplane flight could get him 
+to the exact same place. So he comes to work with me on weekends, and 
+helps beta-test software by using it. He looks to see what new card 
+collectibles there are. He checks stock quotes on his Mom's work benefit 
+stock plan. He looks at pictures of old trains. He reads the history of 
+the great air, sea and armor battles of WW2. He goes to movie sites and 
+checks to see whether "Braveheart" or "First Knight" would be a better 
+choice. (he chose "First Knight," because: "Well yeah, the history 
+stinks and nobody ever wore stuff like that, but it's got Sean Connery, 
+Mom, and he played Indiana Jones' Dad!!") He has recently downloaded 
+pictures of parts of England and Germany from which his ancestors came, 
+and a really neat map of the Chicago railway transportation system that 
+was found online. He has printed out PICTs and JPEGs of US Navy vessels, 
+and old British steam trains. Do we supervise his use of the Net? Sure 
+we do. That's the kind of parents we are. We try to live our religion 
+and our belief in love, democracy, and learning. 
+
+A world has opened up to this terrific, intelligent child who, because 
+of lingering bits of his "neo-autism," is shy among people his own age. 
+He learns things that he can tell his friends about, and so seem less 
+"different" and separate from them. He can sit for hours in front of the 
+computer, surfing the 'Net, having a grand exploration for himself--and 
+then he goes out to play, excited, happy, his mind engaged in a way that 
+television rarely affects him, and delighted to live in such a diverse, 
+wonderful world. He lives daily with the InterNet, since I develop 
+software for it, and he is a good citizen of the Net because he was 
+first a good citizen of his country, and a good Virginia gentleman. Do 
+you flame people in email or on the newsgroups, or use bad or nasty 
+language? "Nope. That's really tacky manners." Do you mass-mail 
+advertisements to newsgroups you've never read? "Uh-uh. That's invasion 
+of privacy." Do you look at things your parents don't want you to? "No, 
+that would be wrong." So should that stuff be there? "Yes, because not 
+everybody likes what I like."
+
+You know what I like?
+
+I like my kid. I like his style. I like his sense of history, his 
+understanding of the laws of his democratic country, his tolerance of 
+other people, and his love of learning. I like the fact that, when it 
+comes my time to face St. Peter, I can do so with a mother's humble 
+pride: I can say yessir, my life had one overwhelming worth, besides 
+what I was able to accomplish on my own: my husband and myself worked 
+together to create, raise, and teach the wonderful, marvelous, honest, 
+honorable young Virginia Gentleman and American, Brian Henderson. He 
+doesn't misuse the Net, because he doesn't misuse anything else. Good 
+rearing, good manners, and proper adult supervision can, after all, 
+produce some real, tangible results. I wish people would stop blaming 
+the faceless entity known as the Internet, and start looking in their 
+own mirrors. I wish the Powers that Be would wake up and realize that 
+regulating the Internet won't change a single, solitary thing--because 
+change is only effective when it is learned from home. For too long, we 
+have all lived by the credo of "don't do as I do, do as I say." And our 
+kids today are far too intelligent to swallow that old dog. If we raise 
+them right--if we actually do the things we tell them they should do--
+they will be good people who love their country, understand and obey its 
+laws, worship the deity of their choice, and behave the way they have 
+been taught to, whether they are interacting with their friends at 
+school, colleagues at work, or with computer systems all over the world 
+on the Internet. 
+
+It's that simple. It always has been. It always will be. 
+
+So the legislatures need to wise up, no? 
+
+Thanks for letting me use your soapbox. Feel free to contact me: 
+
+Sharon Henderson
+Brian's Loving Mom
+Quality Control Engineer and Net Surfer
+5521 Starboard Court
+Fairfax, VA 22032-4011
+(703) 425-8284
+
+
+LETTER FROM BETTY HARRIS AND JIM GLOVER
+
+To the Members of the Committee,
+
+We have a 14 year old daughter, and over that last few months have 
+encouraged her to use the World Wide Web to explore topics that interest 
+her. When Christopher Reeve had his riding accident, we searched the web 
+and found a frequently asked questions (FAQ) file on spinal cord 
+injuries that contained some excellent information. We also found a 
+graphic that illustrated the relationship between level of injury and 
+loss of function. The web was also very useful for one of her school 
+projects on UFOs where we searched and found information and graphics. 
+She has also used the web to find information about her favorite music 
+groups. We live in Oklahoma City and have also used the web for keeping 
+current on information about the OKC bombing.
+
+We keep hearing via the media how easy it is for children to find 
+sexually related images and had discussed this with her (Quotes like 
+"Your children probably already have found this information."). We 
+discussed this with her and she told us that as a result of our 
+conversation, she'd looked for over FOUR hours and had only found the 
+Playboy magazine home page. We then initiated a discussion with her 
+about how we believe the images she found tended to portray women as 
+objects and why we object to this type of thing. Her difficulty in 
+finding what she was looking for validates my experience (of six years) 
+and my husband's experience (of 5 years) with the internet. Sexually 
+related images do not just appear on your computer, you have to 1) know 
+what you are looking for, 2) understand how the net is set up and know 
+how to use the various tools (FTP, gopher, etc) to find what you are 
+looking for and 3) you have to spend time searching. If the child is 
+spending this amount of time on the computer, the parent should be aware 
+of it and should be participating and guiding the child's efforts in 
+healthy directions. It is the parent's place to control their children's 
+access to the internet, just as they should in regards to other sources 
+of information and entertainment (e.g., books, movies, radio, and 
+television).
+
+From what we've read on current legislation designed to address access 
+to information on the net, we do NOT support the Communications Decency 
+Act, or the Protection of Children from Computer Pornography Act. We DO 
+support the Leahy study, because we believe that when making decisions 
+that could have quite serious ramifications regarding freedom of speech 
+on the internet, we need to consider carefully the possible alternatives 
+and choose alternatives that provide the best outcomes (protecting 
+children) with the fewest adverse effects (more restrictions on freedom 
+of speech). Our local internet service providers (ISP) have already 
+initiated procedures requiring proof of age (e.g., photo identification) 
+prior to allowing access to clearly adult areas such as the adult Usenet 
+news groups. We suspect that software developers and service providers 
+will be able to come up with creative solutions to restrict children's 
+net access to domains that their parents are comfortable with. For us, 
+the combination of parental supervision and voluntary ISP cooperation is 
+more than adequate to protect our daughter from any potentially adverse 
+effects of the internet, while allowing her to reap great benefits from 
+the diversity of information and people available on the internet. We 
+use the internet, just like we use TV and the other media--we attempt to 
+restrict access to age-appropriate content and use these sources to 
+initiate discussions of what's right and wrong to help our daughter 
+develop her own code of ethics.
+
+
+Thanks for your time,
+
+Betty Harris & Jim Glover
+PSYCHE@drycas.club.cc.cmu.edu
+Oklahoma City, Oklahoma
+
+</pre>
+
+</pre>
+<hr size = 2>
+Return to the <a href="724list.html">index of testimony from the 7/24 
+hearing</a><br>
+Return to the <a href="http://www.cdt.org/cda.html">CDT Home Page</a>
+
+</body>
+</html>
+
+</DOC>

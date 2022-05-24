@@ -1,0 +1,44 @@
+
+<DOC>
+<DOCNO>WT02-B08-111</DOCNO>
+<DOCOLDNO>IA003-000025-B016-382</DOCOLDNO>
+<DOCHDR>
+http://robot0.ge.uiuc.edu:80/~whitmore/mail.html 128.174.127.217 19961231232322 text/html 799
+HTTP/1.0 200 OK
+Date: Tuesday, 31-Dec-96 23:25:58 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+</DOCHDR>
+<TITLE> I'm mailing Brad :) </TITLE>
+
+<H1> I'm mailing Brad! </H1>
+
+<FORM METHOD="POST" ACTION="http://robot0.ge.uiuc.edu/cgi-bin/whitmore-bin/mail_me">
+
+O.k. you've gotten this far... now it is time to tell me about it.<BR>
+(<B>Note:</B>  This service is only availible with WWW FORMS support.)<BR>
+(<I>But you knew that right?</I>)<P>
+ 
+<P>Name: <inPUT NAME="name">
+<P>Email: <inPUT NAME="email">
+
+<P>Phone: <inPUT NAME="phone" SIZE=15>
+
+<P>Your Mail: 
+<TEXTAREA NAME="suggestions" ROWS="10" COLS="70"></TEXTAREA>
+<P>
+ 
+<P><input TYPE="submit"
+VALUE="Gimme, Gimme, Gimme!">
+ 
+</FORM>
+<HR>
+ 
+<ADDRESS>
+<A HREF=http://robot0.ge.uiuc.edu/~whitmore/>
+bwhitmor@uiuc.edu </A>
+</ADDRESS>
+
+
+</DOC>

@@ -1,0 +1,106 @@
+
+<DOC>
+<DOCNO>WT02-B15-107</DOCNO>
+<DOCOLDNO>IA059-000319-B007-31</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/menus/register.html 205.168.79.27 19970114193013 text/html 3362
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 19:30:19 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 18 Jul 1996 15:50:45 GMT
+Content-length: 3188
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>DOE EREN - Registration Form </TITLE>
+
+</HEAD>
+<BODY bgcolor="#FFFFFF" vlink="#843131" text="#000000" link="#323294">
+
+<center>
+<a href="/cgi-bin/imagemap.cgi/picts/eren.map"><img src="/picts/eren.gif"
+ISMAP
+border=0></a>
+<H1>Registration Form
+</H1>
+<IMG SRC="/picts/topbar.gif">
+</center>
+<BR>
+
+This is a form for registering for the EREN Users Group mailing list.  Users
+Group members are sent e-mail messages about new resources on EREN on a weekly
+basis.<p>
+
+To register here, your Web browser must support forms.  If it does not, please
+send an e-mail message to webmaster.eren@nrel.gov to register.  Please include
+your complete e-mail address so that we may e-mail messages to you.<p>
+
+The information you provide will help us develop EREN to better serve your
+needs, and is only for use by developers of EREN.
+
+<HR>
+<FORM METHOD=POST ACTION="/cgi-bin/update_regstrn.cgi">
+
+<B>NAME:</B>            <INPUT TYPE="text" NAME="name" SIZE=40 MAXLENGTH=80>
+<p>
+<B>COMPLETE E-MAIL ADDRESS:</B>  <INPUT TYPE="text" NAME="email" SIZE=40
+MAXLENGTH=80>
+<p>
+<B>AFFILIATION:</B>     <INPUT TYPE="text" NAME="affil" SIZE=40
+MAXLENGTH=80><p>
+
+<B>TYPE OF AFFILIATION/ORGANIZATION</B><br>
+	<INPUT TYPE="radio" NAME="affil_type" VALUE="Academia"> Academia<br>
+	<INPUT TYPE="radio" NAME="affil_type" VALUE="Commercial"> Commercial<br>
+	<INPUT TYPE="radio" NAME="affil_type" VALUE="Consumer/Private Citizen">
+Consumer/Private Citizen<br>
+	<INPUT TYPE="radio" NAME="affil_type" VALUE="Federal Government"> Federal
+Government<br>
+	<INPUT TYPE="radio" NAME="affil_type" VALUE="State/Local Government">
+State/Local Government<br>
+	<INPUT TYPE="radio" NAME="affil_type" VALUE="Utility"> Utility<br>
+	<INPUT TYPE="radio" NAME="affil_type" VALUE="Other"> Other<p>     
+
+<B>AREAS OF INTEREST (You may select as many as apply)</B><br>
+	<INPUT TYPE="checkbox" NAME="ai0" VALUE="Agriculture"> Agriculture<br>
+	<INPUT TYPE="checkbox" NAME="ai1" VALUE="Biomass"> Biomass<br>
+	<INPUT TYPE="checkbox" NAME="ai2" VALUE="Buildings"> Buildings<br>
+	<INPUT TYPE="checkbox" NAME="ai3" VALUE="Hydropower"> Hydropower<br>
+	<INPUT TYPE="checkbox" NAME="ai4" VALUE="Industrial"> Industrial<br>
+	<INPUT TYPE="checkbox" NAME="ai5" VALUE="Ocean Energy"> Ocean Energy<br>
+	<INPUT TYPE="checkbox" NAME="ai6" VALUE="Photovoltaics"> Photovoltaics<br>
+	<INPUT TYPE="checkbox" NAME="ai7" VALUE="Solar"> Solar<br>
+	<INPUT TYPE="checkbox" NAME="ai8" VALUE="Transportation">
+Transportation<br>
+	<INPUT TYPE="checkbox" NAME="ai9" VALUE="Wind"> Wind<br>
+	<INPUT TYPE="checkbox" NAME="ai10" VALUE="All Energy Efficiency Sectors">
+All Energy Efficiency
+Sectors<br>
+	<INPUT TYPE="checkbox" NAME="ai11" VALUE="All Renewable Energy
+Technologies"> All Renewable Energy
+Technologies<p>
+
+<CENTER><INPUT TYPE="submit" VALUE="Register Me !">         <INPUT
+TYPE="reset"
+VALUE="Clear Form"></CENTER>
+
+
+</FORM>
+<BR>
+<IMG SRC="/picts/erenbar.gif">
+<center>
+<pre>
+</pre>
+<p><H4>
+Return to <A HREF="/">EREN Home Page <IMG ALIGN=BOT
+SRC="/picts/return1.gif"></A><P>
+</center></H4>
+
+<IMG SRC="/picts/erenbar.gif">
+<P>
+Please send comments to:<br>
+<A HREF="mailto:webmaster.eren@nrel.gov">webmaster.eren@nrel.gov</A><P>
+</BODY>
+</HTML>
+</DOC>

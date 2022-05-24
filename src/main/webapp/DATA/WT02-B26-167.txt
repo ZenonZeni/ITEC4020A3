@@ -1,0 +1,25 @@
+
+<DOC>
+<DOCNO>WT02-B26-167</DOCNO>
+<DOCOLDNO>IA075-000495-B006-133</DOCOLDNO>
+<DOCHDR>
+http://hyun.seri.re.kr:80/Java_applet/audioitem/index.html 150.183.108.63 19970122015040 text/html 527
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 01:44:49 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Tue, 11 Jun 1996 05:48:04 GMT
+Content-length: 354
+</DOCHDR>
+<title>AudioItem</title>
+<h1>Welcome!</h1>
+<applet code="AudioItem" width=15 height=15>
+<param name=snd value="Hello.au|Welcome.au">
+</applet>
+<p>
+As soon as you visit this page you will hear
+an audio clip being played. This is done by
+the AudioItem applet that is embedded in this
+page. It is a little welcoming sound!
+<h4>Thanks to Lisa Friendly!</h4>
+</DOC>

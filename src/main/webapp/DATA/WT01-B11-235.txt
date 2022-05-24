@@ -1,0 +1,64 @@
+
+<DOC>
+<DOCNO>WT01-B11-235</DOCNO>
+<DOCOLDNO>IA030-000641-B001-239</DOCOLDNO>
+<DOCHDR>
+http://www.lbs.com:80/about_lb/technolo/ga.htm 199.99.235.100 19970122104434 text/html 4527
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 10:44:22 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 12 Sep 1996 19:18:38 GMT
+Content-type: text/html
+Content-length: 4344
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<title>Genetic Algorithms</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+</head>
+
+<body bgcolor="#FFFFCC" text="#000000" link="#804040" vlink="#808040" alink="#804000">
+<h1>Genetic Algorithms</h1>
+<p>Genetic algorithms are general-purpose search techniques for solving complex problems. Based upon genetic and evolutionary 
+principles, GAs work by repeatedly modifying a population of artificial structures through the application of selection, 
+crossover, and mutation operators. The choice of an appropriate structure for a particular problem is a major factor 
+determining a GAs success. GAs are capable of operating upon a variety of structures, including binary strings (Goldberg, 
+1989), computer programs (Koza, 1992), neural networks (Whitley, Starkweather, &amp; Bogart, 1990), and <i>if-then</i> rules 
+(Bauer, 1994). GAs have traditionally been used for optimization, but with a few enhancements, can be applied to 
+classification and prediction as well. </p>
+<p>We first examine how a traditional GA performs optimization. The goal in optimization is to find the best possible solution to a 
+problem. In real-world problem solving, one does not usually know the best possible solution. Therefore, a more realistic 
+objective is to find a <i>good</i> solution; or, given a current benchmark, to search for a <i>better</i> solution. A GAs <i>fitness function</i> 
+measures the quality of a particular solution. </p>
+<p>The traditional GA begins with a population of <i>n</i> randomly generated structures, where each structure encodes a solution to the 
+task at hand. The GA proceeds for a fixed number of generations. During each generation, the GA improves the structures in 
+its current population by performing selection, followed by crossover, followed by mutation. After a number of generations, the 
+GA converges, meaning that all structures in the population become identical or nearly identical. The user typically chooses the 
+best structure of the last population as the final solution. </p>
+<p><i>Selection</i> is the population improvement or &quot;survival of the fittest&quot; operator. Basically, it duplicates structures with higher 
+fitnesses and deletes structures with lower fitnesses. A common selection method is to randomly choose two structures from 
+the population and hold a tournament, advancing the fitter structure to the crossover stage. A total of <i>n</i> such tournaments are 
+held to fill the input population of the crossover stage. </p>
+<p><i>Crossover</i>, when combined with selection, results in good components of good structures combining to yield even better 
+structures. Crossover forms n/2 pairs from the mutation stage. The offspring are the results of cutting and splicing the parent 
+structures at various crossover points. The crossover stage advances a total of n elements to the mutation stage. </p>
+<p><i>Mutation</i> creates new structures that are similar to current structures. With a small, prespecified probability, mutation 
+randomly alters each component of each structure. The mutation stage advances <i>n</i> elements to the selection stage of the next 
+generation, completing the cycle. </p>
+<p>Figure 1 illustrates one generation of a GA with a population of size <i>n</i> = 4. Structures are represented as rectangles, each 
+containing two square components. Components may take on one of two values, represented by the colors, black and white. 
+Assume that structures with two black components have the highest fitness, structures with two white components have the 
+lowest fitness, and mixed structures have intermediate fitness. The selection stage holds four tournaments between randomly 
+chosen pairs of individuals. The crossover stage then cuts and splices structures at component boundaries. Finally the mutation 
+stage, through random choices, mutates only the leftmost component of Structure 9, yielding Structure 13. Although the initial 
+population has no optimal structures, after the generation shown, an optimal structure emerges (Structure 14). </p>
+<p align=center><img src="../../pics/ga.gif" align=bottom border=2 width=543 height=292></p>
+<hr>
+<p>Copyright (c) 1996 by LBS Capital Management, Inc.</p>
+</body>
+
+</html>
+</DOC>

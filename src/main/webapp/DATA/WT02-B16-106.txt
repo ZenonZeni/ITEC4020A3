@@ -1,0 +1,55 @@
+
+<DOC>
+<DOCNO>WT02-B16-106</DOCNO>
+<DOCOLDNO>IA059-000321-B008-412</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/energytips/enrgform.htm 205.168.79.27 19970114202150 text/html 1905
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 20:21:47 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 23 Sep 1996 17:14:06 GMT
+Content-length: 1731
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN" "html.dtd">
+<HTML>
+<HEAD>
+<TITLE> Energy Tips Form </TITLE>
+</HEAD>
+<BODY Bgcolor="#FFFFFF" vlink="#6699FF" text="#000000" link="#003399">
+<b>U.S. Department of Energy</b>
+<img src="barbottom.gif" alt="graphic" width=500><br>
+<IMG SRC="bulblogo.gif" width=82 height=122 ALT="Light Bulb icon" align=bottom >
+
+<p><blockquote>
+<H2>Energy Saving Tips for Small Businesses</H2>
+<H3>To receive a free booklet listing additional ways to cut energy expenses, <br>complete this form and press the 'Send' button.</H3>
+
+<BR>
+<BR>
+<FORM METHOD=POST ACTION="comment.cgi">
+<p><strong>Publication Requested:</strong>  <input type="text" name="pub"
+value="Energy Saving Tips for Small Businesses" size=50>
+<P><STRONG>Name:</STRONG>  <INPUT TYPE="text" NAME="name" SIZE=30>
+<P><STRONG>Title: </STRONG> <INPUT TYPE="text" NAME="title" SIZE=31>
+<P><STRONG>Organization: </STRONG> <INPUT TYPE="text" NAME="organization" SIZE=45>
+<P><STRONG>Occupation: </STRONG> <INPUT TYPE="text" NAME="occupation" SIZE=45>
+<P><STRONG>Street Address:</STRONG>  <INPUT TYPE="text" NAME="street" SIZE=48>
+<P><STRONG>City:</STRONG>  <INPUT TYPE="text" NAME="city" SIZE=20><STRONG> State:</STRONG>  <INPUT TYPE="text" NAME="state" SIZE=10><STRONG> Zip:</STRONG>  <INPUT TYPE="text" NAME="zip" SIZE=10>
+<P><STRONG>Phone:</STRONG>  <INPUT TYPE="text" NAME="phone" SIZE=14>
+<STRONG>Fax: </STRONG> <INPUT TYPE="text" NAME="fax" SIZE=14>
+<P><STRONG>E-mail: </STRONG> <INPUT TYPE="text" NAME="email" SIZE=20>
+<P><INPUT TYPE="submit" VALUE="Send">  <INPUT TYPE="reset">
+</FORM>
+</blockquote>
+<p>
+<hr>
+<p>
+<center>
+<A HREF="http://www.doe.gov">[DOE]</A>
+<A HREF="http://www.eren.doe.gov">[EREN]</A>
+</center>
+<p>
+</BODY>
+</HTML>
+</DOC>

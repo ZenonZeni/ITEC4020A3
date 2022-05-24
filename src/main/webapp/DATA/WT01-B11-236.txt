@@ -1,0 +1,42 @@
+
+<DOC>
+<DOCNO>WT01-B11-236</DOCNO>
+<DOCOLDNO>IA030-000641-B001-183</DOCOLDNO>
+<DOCHDR>
+http://www.lbs.com:80/about_lb/technolo/es.htm 199.99.235.100 19970122104341 text/html 1851
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 10:43:39 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 12 Sep 1996 19:18:38 GMT
+Content-type: text/html
+Content-length: 1668
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<title>Expert Systems</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+</head>
+
+<body bgcolor="#FFFFCC" text="#000000" link="#804040" vlink="#808040" alink="#804000">
+<h1>Expert Systems</h1>
+<p>Expert systems are computer programs designed to review a set of facts (knowledge base) and apply a set of rules to arrive at 
+the same conclusion that a team of experts would make if presented with the same set of facts. There are three primary 
+components to an expert system: rules, knowledge base, and inference engine. </p>
+<p>An expert system begins by capturing human expertise in the form of IF/THEN rules. For example, the rule &quot;IF the traffic light 
+is red THEN step on the brake,&quot; captures one small aspect of driving expertise. Often dozens (or hundreds) of such rules are 
+required to arrive at solutions to complicated problems. </p>
+<p>The next step in the process involves applying the rules against a set of facts to determine which rules apply. Embedded within 
+the expert system is an inference engine which determines when and how to apply the rules. </p>
+<p>The unique order in which the rules are applied to a given set of facts allows the expert system to be dynamic. As one might 
+expect given the features and capacity of these technologies, the number of potential good solutions to a problem can be vast. 
+To further analyze the vast array of good solutions, LBS employs another type of Computational Intelligence known as Genetic 
+Algorithms. </p>
+<hr>
+<p>Copyright (c) 1996 by LBS Capital Management, Inc.</p>
+</body>
+
+</html>
+</DOC>

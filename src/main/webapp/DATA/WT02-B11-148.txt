@@ -1,0 +1,183 @@
+
+<DOC>
+<DOCNO>WT02-B11-148</DOCNO>
+<DOCOLDNO>IA087-000625-B034-18</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0114.html 130.91.195.242 19970122042503 text/html 11267
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:25:03 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 11095
+Last-modified: Wed, 01 Nov 1995 13:37:59 GMT
+</DOCHDR>
+<!-- received="Sat Oct 28 14:59:25 1995 EDT" -->
+<!-- sent="Sat, 28 Oct 1995 14:59:00 -0400" -->
+<!-- name="Dave Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="Re: newsweek oct 30 Levy digital cash article" -->
+<!-- id="199510281859.OAA19233@linc.cis.upenn.edu" -->
+<!-- inreplyto="newsweek oct 30 Levy digital cash article" -->
+<title>Daily Chat on CIS899: Re: newsweek oct 30 Levy digital cash article</title>
+<h1>Re: newsweek oct 30 Levy digital cash article</h1>
+Dave Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Sat, 28 Oct 1995 14:59:00 -0400</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#114">[ date ]</a><a href="thread.html#114">[ thread ]</a><a href="subject.html#114">[ subject ]</a><a href="author.html#114">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0115.html">Dave Farber: "[Fwd: IBM unveils service to secure rights online]"</a>
+<li> <b>Previous message:</b> <a href="0113.html">Osman Nuri Ertugay: "problem: tru double-spender not revealed"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+<i>&gt;Posted-Date: Fri, 27 Oct 95 13:49:34 -0700</i><br>
+<i>&gt;To: Steven Levy &lt;steven@echonyc.com&gt;</i><br>
+<i>&gt;Cc: cypherpunks@toad.com</i><br>
+<i>&gt;Subject: Re: newsweek oct 30 Levy digital cash article </i><br>
+<i>&gt;Date: Fri, 27 Oct 95 13:49:34 -0700</i><br>
+<i>&gt;From: "Vladimir Z. Nuri" &lt;vznuri@netcom.com&gt;</i><br>
+<i>&gt;Sender: owner-cypherpunks@toad.com</i><br>
+<i>&gt;</i><br>
+<i>&gt;</i><br>
+<i>&gt;S.L.:</i><br>
+<i>&gt;&gt;&gt;also, my question about whether one loses the downloaded Chaumian bucks</i><br>
+<i>&gt;&gt;if one's hard drive crashes was answered in the affirmative by Levy.</i><br>
+<i>&gt;&gt;</i><br>
+<i>&gt;&gt;But as I said, if the drive is backed up you don't lose it. It's my </i><br>
+<i>&gt;&gt;understanding this is the case with the current Digicash/Twain bucks.  </i><br>
+<i>&gt;&gt;But not necessarily with all implementations.</i><br>
+<i>&gt;</i><br>
+<i>&gt;you apparently didn't notice but there were some other posts on this</i><br>
+<i>&gt;list about writing down the random seed that a person used to generate</i><br>
+<i>&gt;the cash, and then being able to restore the cash somehow based on knowing</i><br>
+<i>&gt;the random seed, however privacy is sacrified in this case apparently.</i><br>
+<i>&gt;this with the Chaumian implementation, from what I understood.</i><br>
+<i>&gt;</i><br>
+<i>&gt;if this is true, I wanted to point out in my post that this is a property</i><br>
+<i>&gt;that real cash does not have. you cannot ever say to your bank from which</i><br>
+<i>&gt;you withdrew cash, "oops, I lost a piece, could you replace it? also, if</i><br>
+<i>&gt;someone spends the piece that I lost, tell them they can't?"</i><br>
+<i>&gt;</i><br>
+<i>&gt;how would the bank handle a situation in which the consumer says, "oops,</i><br>
+<i>&gt;my hard drive was compromised. all of the following cash was NOT spent</i><br>
+<i>&gt;by me." notice this is precisely what happens with stolen credit cards today</i><br>
+<i>&gt;all the time. the bank, if it was real cash, would have to say, "sorry,</i><br>
+<i>&gt;you're out of luck. it's your responsibility to keep your cash secret".</i><br>
+<i>&gt;</i><br>
+<i>&gt;or, the bank might say, "oh, well, that cash was not spent yet. we can issue</i><br>
+<i>&gt;a replacement and bar the cash from being spent". this idea of "replacing"</i><br>
+<i>&gt;cash is of course unique to the electronic realm. if the bank does it,</i><br>
+<i>&gt;the consumer would be required to notify the bank before the cash is </i><br>
+<i>&gt;spent, again another unusual property unique to e-cash.</i><br>
+<i>&gt;</i><br>
+<i>&gt;I would suggest to all companies developing e-cash that they print up</i><br>
+<i>&gt;a carefully designed FAQ in which their cash properties </i><br>
+<i>&gt;are compared directly with parallel</i><br>
+<i>&gt;properties of credit cards such as like the item above, because the</i><br>
+<i>&gt;consumer is of course very familiar with credit cards. (this will be very</i><br>
+<i>&gt;crucial for longterm customer education and acceptance imho. otherwise</i><br>
+<i>&gt;the customer may make assumptions like, "since the cash comes on a card</i><br>
+<i>&gt;it behaves like a credit card", etc.)</i><br>
+<i>&gt;</i><br>
+<i>&gt;I would like to see someone elucidate what happens with lost Chaumian cash</i><br>
+<i>&gt;in a detailed post (the oneliners I saw so far don't address the complexity </i><br>
+<i>&gt;and seriousness of this issue. this is a really significant issue with digital </i><br>
+<i>&gt;cash IMHO that will become very obvious once people who were used to the </i><br>
+<i>&gt;"mushiness" of credit card transactions switch to cash).</i><br>
+<i>&gt;there seem to be many caveats with this "restoration".</i><br>
+<i>&gt;</i><br>
+<i>&gt;one immediate problem I can imagine: the recent netscape bug showed</i><br>
+<i>&gt;very well that a short random number generation process can be hacked.</i><br>
+<i>&gt;so in other words, if the random numbers are short enough to write down,</i><br>
+<i>&gt;it makes me wonder about the security of the cash generated from this</i><br>
+<i>&gt;seed.</i><br>
+<i>&gt;</i><br>
+<i>&gt;&gt;This "lose your money" with digital cash really does seem to get to </i><br>
+<i>&gt;&gt;people. I always point out that when you take $ out of an ATM machine, </i><br>
+<i>&gt;&gt;you don't expect to get it back if you lose it.  For those forms of </i><br>
+<i>&gt;&gt;e-money that are irretrevable when lost users are warned not to download </i><br>
+<i>&gt;&gt;huge amounts. </i><br>
+<i>&gt;</i><br>
+<i>&gt;yes, it is clearly an emotional issue. the problem with a lot of technology</i><br>
+<i>&gt;is that people are very emotional and irrational, and hyperactively so when it</i><br>
+<i>&gt;comes to spending money. all marketing campaigns are designed to </i><br>
+<i>&gt;capitalize on this. various competitors can be tainted merely by</i><br>
+<i>&gt;cheap psychological ploys that have no basis in fact. (the back and</i><br>
+<i>&gt;forth between AT&amp;T, MCI and Sprint and other competitors is an example</i><br>
+<i>&gt;of the endless mudslinging, marginally based on reality, that can ensue.)</i><br>
+<i>&gt;</i><br>
+<i>&gt;as I wrote in my earlier post, the key is to let people know of the weaknesses</i><br>
+<i>&gt;in the product ahead of time so they are prepared. and the analogies that</i><br>
+<i>&gt;you offer are precisely the kind the company can give to the customer to</i><br>
+<i>&gt;make them feel more comfortable that "this stuff is more convenient than</i><br>
+<i>&gt;real cash and not really any more dangerous". it's critical that they do</i><br>
+<i>&gt;so ahead of time however, before the customer gets zapped by his own naivete.</i><br>
+<i>&gt;</i><br>
+<i>&gt;&gt;Question: will people's worries about losing their e-money lead them to </i><br>
+<i>&gt;&gt;accept a higher degree of tracibility as a tradeoff?  </i><br>
+<i>&gt;</i><br>
+<i>&gt;that's exactly the issue I tried to raise in my post, unfortunately perhaps in</i><br>
+<i>&gt;not the crisp way you do here. (of course, you're the one that makes a living</i><br>
+<i>&gt;off your prose, heh.)</i><br>
+<i>&gt;</i><br>
+<i>&gt;one can see advertising as a kind of yin/yang game. you have to imagine</i><br>
+<i>&gt;that if your competitor says, "gosh, you could lose cash with so-and-so's</i><br>
+<i>&gt;system", you can always reply "yes, but you retain privacy-- can you do</i><br>
+<i>&gt;that with so-and-so's system"?  digital cash is not a panacea. it is</i><br>
+<i>&gt;in fact a design compromise that simply applies more importance to</i><br>
+<i>&gt;various aspects of transaction capabilities: ease of use, privacy, etc.</i><br>
+<i>&gt;</i><br>
+<i>&gt;checks and cash are at two ends of the economic transaction spectrum.</i><br>
+<i>&gt;in contrast to other cypherpunks I don't really see either as intrinsically</i><br>
+<i>&gt;superior to the other. many businesses may *never* end up using digital</i><br>
+<i>&gt;cash in certain transactions (i.e. with other companies, not individual</i><br>
+<i>&gt;buyers) for traceability reasons. it seems to me</i><br>
+<i>&gt;there are many agreements in which hiding the identity of one or both</i><br>
+<i>&gt;parties is simply intrinsically unacceptable to both, and no amount of</i><br>
+<i>&gt;handwaving smoke-and-mirrors appeals to magic "reputation agencies" will</i><br>
+<i>&gt;completely alleviate this.</i><br>
+<i>&gt;</i><br>
+<i>&gt;so my bottom line is that I think digital cash is going to become a</i><br>
+<i>&gt;very, very important part of the future economic ecology, but it will</i><br>
+<i>&gt;coexist with other methods. it may very well become the dominant method,</i><br>
+<i>&gt;but I suspect there will be significant areas of commerce that actively</i><br>
+<i>&gt;resist digital cash technology out of the preferences of all parties.</i><br>
+<i>&gt;</i><br>
+<i>&gt;something the hardcore cypherpunks in general fail to consider, that was </i><br>
+<i>&gt;brought out in a great article in the WSJ about the counterfeit </i><br>
+<i>&gt;$100 superbills circulating:</i><br>
+<i>&gt;the cash aspects of the global economy are negligible in comparison to</i><br>
+<i>&gt;"identified" transactions such as through credit and checks. (hence the</i><br>
+<i>&gt;treasury's lukewarm approach to stopping counterfeiting, which scares</i><br>
+<i>&gt;the willies out of me personally). there is absolutely an *enormous*</i><br>
+<i>&gt;dedication to "identified" transactions in the world today, and cypherpunks</i><br>
+<i>&gt;seem to me to be somewhat misguided in the ways they exalt cash.</i><br>
+<i>&gt;</i><br>
+<i>&gt;it is true that cash is the medium of choice for the individual, but the</i><br>
+<i>&gt;vast majority of economic transactions are *not* made by the individual</i><br>
+<i>&gt;in virtually any civilized society. digital cash may change this slightly,</i><br>
+<i>&gt;but not significantly, I suspect. businesses exchange money as part of</i><br>
+<i>&gt;complex agreements and contracts in which liability is a key ingredient.</i><br>
+<i>&gt;liability is an exceedingly problematic issue with digital cash. if anyone</i><br>
+<i>&gt;is going to create a widespread cash economy based on total anonymity</i><br>
+<i>&gt;they have an uphill battle easily far more difficult than Chaum has</i><br>
+<i>&gt;encountered so far. (remember Chaum only implements "semi-anonymity", </i><br>
+<i>&gt;anonymity on payer side but not payee side).</i><br>
+<i>&gt;</i><br>
+<i>&gt;--</i><br>
+<i>&gt;</i><br>
+<i>&gt;anyway, congrats on the fine article SL. you get my "honorary </i><br>
+<i>&gt;cypherpunk of the week" award for the article &lt;g&gt;</i><br>
+<i>&gt;</i><br>
+<i>&gt;</i><br>
+<i>&gt;</i><br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0115.html">Dave Farber: "[Fwd: IBM unveils service to secure rights online]"</a>
+<li> <b>Previous message:</b> <a href="0113.html">Osman Nuri Ertugay: "problem: tru double-spender not revealed"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

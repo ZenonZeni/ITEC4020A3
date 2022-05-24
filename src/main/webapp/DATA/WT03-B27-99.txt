@@ -1,0 +1,69 @@
+
+<DOC>
+<DOCNO>WT03-B27-99</DOCNO>
+<DOCOLDNO>IA059-000318-B037-308</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/nnbaton.html 205.156.212.5 19970114190409 text/html 2885
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 19:02:17 GMT
+Last-modified: Friday, 26-Jul-96 14:57:16 GMT
+Content-length: 2701
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//W30//DTD W3 HTML 2.0//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Free Baton Software</TITLE>
+</HEAD>
+<BODY bgcolor="#ffffff">
+<center><img src="b_baton.gif" alt="Free Baton Software and Online Time"><BR>
+<I>(Free Time Offer for New Subscribers Only)</I><P></center>
+
+Our Baton<SUP><FONT SIZE=1>TM</FONT></SUP> software provides a tremendously powerful way to access NewsNet's deep information archives. Baton is a  Windows<SUP><FONT SIZE=1>&reg;</SUP></FONT>-based communications program that makes it very easy to retrieve information and to maintain your NewsFlash clipping profile. Note that Baton requires a modem that supports at least 9600 baud.<P>
+
+For free Baton software and one hour of access, please complete the simple form below. Once completed, a NewsNet customer service representative will contact you with an ID and password. Contact us via <A HREF="mailto:info@newsnet.com">e-mail</A> for additional information.<P>
+
+We suggest you take a <A HREF="nntour.html">Tour of NewsNet</A> prior to using our Baton software.<P>
+
+<hr>
+<FORM METHOD=POST ACTION="http:/home-cgi/baton.cgi">
+<input type=hidden name="TO" value="info@newsnet.com">
+<input type=hidden name="FROM" value="A_web_user">
+<input type=hidden name="SUBJECT" value="Baton Software">
+<PRE> 
+Name:         <INPUT SIZE=50  TYPE="TEXT" NAME="01. NAME">
+Title:        <INPUT SIZE=50 TYPE="TEXT" NAME="02. TITLE">
+Company Name: <INPUT SIZE=50 TYPE="TEXT" NAME="03. COMPANY">
+Address:      <INPUT SIZE=50 TYPE="TEXT" NAME="04. ADDRESS">
+City:         <INPUT SIZE=10 TYPE="TEXT" NAME="05. CITY"> State/Prov: <INPUT SIZE=2 TYPE="TEXT" NAME="06. ST PROV"> Zip/Postal Code:<INPUT SIZE=10 TYPE="TEXT" NAME="07. ZIP POST">
+Country:      <INPUT SIZE=15 TYPE="TEXT" NAME="08. COUNTRY">
+Phone:        <INPUT SIZE=15 TYPE="TEXT" NAME="09. TEL"> Fax: <INPUT SIZE=15 TYPE="TEXT" NAME="10. FAX">
+E-mail:       <INPUT SIZE=30 TYPE="TEXT" NAME="11. EMAIL">
+How did you hear about our Web site?
+              <INPUT SIZE=50 TYPE="TEXT" NAME="12. SOURCE">
+</pre><p>
+<hr>
+
+<INPUT TYPE="submit" VALUE="Submit"> 
+<INPUT TYPE="reset" VALUE="Clear">
+</FORM>
+
+
+</blockquote>
+<hr noshade>
+<center><font size=3>
+<a href="nnabout.html">About NewsNet</a> &#183; 
+<a href="nntour.html">Tour of NewsNet</a> &#183; 
+<a href="nnic.html">NewsNet Information Sources</a><BR>
+<a href="nncase.html">Case Histories</a> &#183; 
+<a href="nndemo.html">FREE Web Demo</a> &#183; 
+<a href="telnet://newsnet.com">Telnet for NewsNet Subscribers</a><BR>
+<a href="mailto:info@newsnet.com">Send E-Mail to NewsNet</a> &#183; 
+<a href="index.html">Return to Home Page</a><P>
+<B>&copy; 1996. NewsNet, Inc. All rights reserved.</B>
+</font></center><P><BR>
+</BODY>
+</HTML>
+</DOC>

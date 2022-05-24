@@ -1,0 +1,461 @@
+
+<DOC>
+<DOCNO>WT02-B21-198</DOCNO>
+<DOCOLDNO>IA060-000333-B023-249</DOCOLDNO>
+<DOCHDR>
+http://www.survey.net:80/sv-faq.htm 204.107.221.240 19970115055050 text/html 21451
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 05:44:26 GMT
+Server: Apache-SSL-US/1.0.3+1.1
+Content-type: text/html
+Content-length: 21268
+Last-modified: Mon, 25 Nov 1996 20:26:48 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>SURVEY.NET - Frequently-Asked-Questions (FAQ)</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" VLINK="#00007F">
+
+<P ALIGN=CENTER><A HREF="http://www.survey.net/index.html"><IMG BORDER=0
+SRC="http://www.survey.net/g/svlogo0.gif" ALT="Survey.Net Logo"></A><BR>
+<B><I>Your source for information, opinions & demographics from the Net
+Community!</I></B>
+
+<P align=center>
+<IMG SRC="http://www.survey.net/images/infodeskheader.gif">
+<P>
+
+<CENTER><TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=500>
+<TR>
+<TD valign=top>
+
+<H2 ALIGN=CENTER>SURVEY.NET FAQ</H2>
+
+Last updated: 01/30/1995
+
+<H3><A NAME="1.0.0">What is SURVEY.NET?</A></H3><H4>
+
+SURVEY.NET is a public service network of servers designed to poll 
+users and generate information on demographics, public opinion, 
+trends, etc.  SURVEY.NET is based around a customized, ever-evolving 
+script engine developed by Michael Perry (wisdom@icorp.net).
+<P>
+What makes SURVEY.NET special is that users have the ability to 
+instantly view the latest results of each questionnaire - upon 
+submission of your survey, the system automatically compiles the 
+data and generates a new report, adding your responses to the data 
+pool.
+<P>
+The nucleus of SURVEY.NET is the special engine, which has many 
+advanced features, including the ability to handle user-specified 
+comments (essay-type answers) as well as regular multiple-choice 
+responses.  New features are continually being added to the system 
+as more is learned from the process of querying users' opinions and 
+perspectives.
+<P>
+But perhaps more important than anything else, the SURVEY.NET site 
+represents a location users on the web can go and seek demographics, 
+opinions and other information - as well as contribute their own.  
+The underlying engine would be useless if the site itself did not 
+attract a wide variety of internet participants - and this is an 
+aspect that is as critical as anything else - as a result, we strive 
+to keep the site vibrant and alive with opinion and controversy in 
+order to consistently attract users and keep regulars coming back.  
+Each of our surveys is considered a living entity: dynamic; 
+sometimes predictable, sometimes chaotic - just like life.  In fact 
+it can be facinating to watch the surveys on various events change 
+in relation to the events unfolding themselves - the OJ Simpson 
+trial survey is a prime example - we captured public opinion before 
+and during each of the side's presentation of their case.  The same 
+technique will be used to monitor the events leading up to the 1996 
+US Presidential election.  When scenarios change which affect public 
+opinion, sometimes old surveys will be closed and archived and new 
+ones will be opened - to chronicle not only public opinion in 
+general, but changes in perspectives through time.
+<P>
+Unlike other sites, at SURVEY.NET, the users are the true value - if 
+they're going to submit information, they should have instant access 
+to that information - this is the main reason for making the results 
+automatically available - the data collected is for the enjoyment 
+and education of everyone - and not something devised under the 
+guise of verifying a preset agenda.
+<P>
+If there is an ulterior motive in all of this, it's nowhere near as 
+controversial as our surveys - it is simply to be considered an 
+accurate, reliable source of information on public opinion - the 
+highest honor we can imagine.
+<P>
+
+<H3><A NAME="1.1.0">
+Who Runs SURVEY.NET?
+</A></H3><H4>
+
+SURVEY.NET is run by Mike Perry, an independant software developer 
+and president of Progressive Computer Services (established in 
+1986).  Mike has been involved in developing information systems 
+since the age of 13, creating sites on systems from Control Data's 
+PLATO network, to developing SIGs (Special Interest Groups) on The 
+Source (now CompuServe) and other networks long before the Internet 
+was conceived.  Mike has been running a BBS since 1979 and has been 
+awarded "Editor's Choice" in PC Magazine, as well as numerous other 
+honors and endorsements from major publications and writers 
+(including John C. Dvorak) for his programming projects.  In the 
+area of marketing, demographics and market research, Mr. Perry has 
+extensive experience in working with advertising agencies, broadcast 
+media and print media - no formal training - just a PhD from the 
+University of Reality in association with services provided to a 
+plethora of very prominent firms.
+<P>
+Ok, this is me (Mike) and obviously I'm also the author of this FAQ 
+- I hate writing about myself in the third person - it's pretty 
+weird, but I'm also not particularly interested in using this forum 
+to blow my own horn (I'd rather be judged by my work exclusively), 
+but I guess these are valid questions and responses to put in a 
+FAQ...
+<P>
+I run SURVEY.NET.  I guess you could say it's my baby.  It never has 
+been profitable, which IMO is probably the true mark of integrity (ha ha
+- that's easy to say when you're poor isn't it?). 
+Like everybody else out there, I want to make a mark - I want to do 
+something important, and SURVEY.NET is something I take great pride 
+in.
+<P>
+I'm associated with Inter Commerce
+Corporation, a local internet service provider - 
+they have been kind enough to indulge my experimentation and 
+attempts to establish this system, and for that I am grateful.  If 
+you're looking for an ISP and you're in the area, take a look at 
+what they have to offer.  Beyond this friendly suggestion, that's 
+about as much influence as you'll see from me or this site with 
+respect to my hosts; I might have a link to their homepage 
+in places or promos for other local sites, but that's it - anything 
+more would in my opinion be inappropriate considering that we're trying 
+to make this site as 
+objective as possible.
+
+<H3><A NAME="1.2.0">
+How does SURVEY.NET work?  What's the methodology in collecting 
+information?
+</A></H3><H4>
+
+Obviously, the idea of collecting information online in an automated 
+manner presents some interesting challenges.  Traditional polls rely 
+on a 'human factor' and a supposed 'random sample' from which to 
+generate results.  It has been argued that traditional polls could 
+be more accurate than the SURVEY.NET system - someone once commented 
+that my system was "biased towards those who are willing to 
+participate."  That's funny.  I challenge anyone to show me any 
+survey which endeavors to collect accurate information which isn't 
+as biased.  The scenario doesn't exist.
+<P>
+Unlike other survey methods, SURVEY.NET is incapable of prejudice.  
+Anyone able to participate is welcome to.  There are safeguards to 
+protect against 'spamming' however (see later sections of the 
+document).
+<P>
+The ONLY bias or slant in SURVEY.NET demographics is that our 
+respondents have access to the Internet's World-Wide-Web.  If you 
+want to argue whether this group is representative of any sizeable 
+portion of the world society, that's a good topic for debate - but 
+not here.  It is my opinion that it's just a matter of time before 
+those who have access to the net will represent a major portion of 
+the world community.  Aside from that, we can consider SURVEY.NET's 
+results to be the opinions of those who are on the Internet with WWW 
+access.  And as we speak, this segment is getting larger and larger 
+by the minute!
+<P>
+A typical survey in the system presents a small set of questions - 
+usually multiple choice.  The results are automatically compiled 
+upon submission of the form.  These answers are then added to a 
+"master database" of responses to each question, updated, and then 
+the system re-creates a new report (an html page) reflecting the 
+latest results.  The answers to each question are sorted based on 
+the number of respondents, with the most-popular answer being listed 
+first and the least-popular last.
+<P>
+Enhancements are currently underway to implement special variations 
+of surveys which dynamically present new questions based on the 
+results of previous answers - a truly dynamic surveying system... 
+There are also plans to be able to generate results based on 
+specific conditions and responses to specific questions - stay 
+tuned...
+
+
+<H3><A NAME="1.3.0">
+How accurate is the SURVEY.NET information?  What about multiple 
+users posting answers?
+</A></H3><H4>
+
+There are numerous techniques implemented to protect against users 
+trying to taint the
+survey results by completing surveys more than once.  For me to 
+elaborate on our 
+protection scheme would defeat its purpose.  
+<P>
+In the intial stages of developing the system, we had more than our 
+fair share of people attempt to 'spam' the surveys - it helped us 
+protect against such tactics.  In a few cases where users were 
+successful, we were able to identify them in cooperation with their 
+ISP and take appropriate action.  There is one person out of a job 
+and one person expelled from a major university as a result of such 
+subversive activities - and even now, they could not repeat their 
+performance as a result of our new protection.  Those that were 
+caught that did not have diciplinary action taken against them have 
+had their entire system banned from the survey system - yes we do 
+have an automated blacklist (it's very small though).  This isn't to 
+say that it's impossible to defeat our protection against people 
+posting multiple answers, but if you do it, we will catch you and 
+you'll be sorry.  In the computer world, ultimately there is no 
+fool-proof security - just like in every other segment of society, 
+people should be left to their own devices to act appropriate and 
+not destroy the work of others.  With that being said, at any time 
+we can produce log files identifying the integrity of our surveys.
+<P>
+However, I stand behind the integrity of the SURVEY.NET data and
+can produce log files which clearly demonstrate that the information
+comes from unique respondents all over the net.
+
+<H3><A NAME="1.4.0">
+Are the Surveys anonymous?
+</A></H3><H4>
+
+YES, YES they are.  The system in its present configuration does not 
+keep track of any individual survey answers - never at any time are 
+user responses even written to disk - they are instantly compiled 
+with the main data file.  There is no way we can specifically 
+identify what answers any specific user has provided to any specific 
+question - period!
+<P>
+The survey system does log activity however, but it is limited in 
+its scope of what we can identify.  The Internet is by its very 
+nature somewhat anonymous - anyone using a browser can fake an 
+e-mail address - so it's very difficult to identify users 
+specifically.  We have always had the option of authenticating users 
+and requiring valid information in order to access the site, but we 
+are not implementing this option - for the most part, 99.99999% of 
+our visitors are honorable and honest in answering questions and 
+following the rules - our logs prove this.  We don't want to make it 
+a hassel of getting to the site by specifying a username and 
+password - this hasn't become an issue and we hope it never will.
+
+<H3><A NAME="1.5.0">
+What language is the Survey system written in?  What system can run 
+it?
+</A></H3><H4>
+
+The Survey engine is written in Ansi C and has been tested in a 
+variety of environments - it can probably run on just about any 
+computer that is capable of connecting to the web with a standard 
+Ansi C-compiler available.  The source code is about 7,000 lines and 
+growing as we add more features.  We have executable code for Novell 
+Unixware, BSD, Sun, and other platforms. 
+
+<H3><A NAME="1.5.1">
+Is the Survey engine available to others?
+</A></H3><H4>
+
+At the present time there are no plans to make this software publicly available.
+The main reason for this is that having too many copies of the Survey Engine
+on the net would dilute the value of our site, and if other people were running
+more-biased survey systems, it might reflect badly upon SURVEY.NET's reputation
+as being objective.  This is not to say that there are no other versions of
+SURVEY.NET available online.  We're currently working on setting up a European
+version called "InterPoll" which will be run in the United Kingdom, and of course,
+being a starving artist, if the money is right, we may consider licensing use
+of the system.  <A HREF="mailto:wisdom@icorp.net">Email</A> me if you are
+seriously interested in utilizing the technology - we might be able to work
+something out.
+
+
+<H3><A NAME="1.6.0">
+How are new surveys designed?  Who decides or creates a new survey?
+</A></H3><H4>
+
+I pretty-much decide what goes up on the site.  I rely heavily on 
+user-input to decide what surveys should be added or how surveys 
+should be modified.  I try not to modify a survey after it's been 
+released - at the most I'll correct spelling errors (which I'm 
+slowly becoming famous for (grin)).
+<P>
+The decision to add a new survey is not solely my own - I may have 
+an idea for a topic that I feel may be investigated, but at that 
+point I use the full advantage of the net to seek out other, 
+more-experienced people to help me create a survey.  Our current 
+religion survey is a good example.  Regardless of my personal 
+religious philosophy, there was no way I or any single individual 
+could come up with an appropriate questionnaire on this topic that 
+would not alienate particular groups - I contact the an agency, the 
+Ontario Centre for Religious Tolerance and asked for their guidance 
+in helping me develop an appropriate survey.  Quite often, the 
+intial survey is run for a short period of time; I get feedback, 
+revise the survey and start a new one with enhanced questions.
+
+<H3><A NAME="1.7.0">
+If I have an idea for a survey, what should I do?
+</A></H3><H4>
+
+Send me <A HREF="mailto:wisdom@icorp.net">e-mail</A>.  
+Most of what's online is the result of user 
+feedback so please feel free to offer your suggestions for new 
+surveys or enhancements to existing surveys.
+<P>
+The more organized your response is, the more-likely it will become 
+a reality.  If you present a well-thought-out list of questions & 
+answers, there may be a good chance it could be the basis for a 
+future survey.  BUT, please be advised that we primarily publish
+surveys of a general nature - if you're looking for something
+specific, there's not a great chance that we will run a survey.
+
+<H3><A NAME="1.8.0">
+What if I wanted you to run a specific survey?  Will you do that for 
+organizations?
+</A></H3><H4>
+
+Yes.  It depends upon the nature of the survey however, as to 
+whether or not it would be included in the main SURVEY.NET system.  
+There is a standard which the main system adheres to.  Being a 
+starving artist, I'll gladly produce surveys for commercial 
+entities, especially if I can help subsidize my activities, but if 
+it is something in conflict with our principals of objectivity, I 
+may ask that the survey be isolated and promoted independetly.  
+Along this line, I'll also entertain offers to license the Survey 
+Engine for use on other systems by other organizations - this use 
+will be limited in most cases - either for private, non-competitive 
+use, or in accordance with the Survey Net standard of being as 
+un-biased as possible.  
+<P>
+Recently, I was contacted by the folks at MegaMall who wanted to 
+accumulate some demographics & opinions on online shopping - 
+obviously this is something of great value so we worked together to 
+create an appropriate survey.  Everyone is now able to exploit the 
+information generated.  I'm particularly interested in major sites 
+sponsoring surveys - especially if they direct traffic to SURVEY.NET 
+- the more people the merrier!
+
+<H3><A NAME="1.9.0">
+If my company wanted to license your software or have something 
+customized done, is it possible?
+</A></H3><H4>
+
+Yes.  You'll have to contact me, but I'm open to a variety of ideas 
+on this.  Send e-mail to wisdom@icorp.net or wisdom@enterprise.net.  
+I develop net-based client-server applications
+in my business, and if you like SURVEY.NET, then you have an idea of
+the quality of my work.  I also have a number of other advanced systems
+which have been created after SURVEY.NET, including "The Engine", an
+automated shopping mall system, and WebSet - a program that can be
+used to create web pages using "templates" from a browser.  WebSet is
+currently being implemented in SURVEY.NET to allow authorized columnists
+to automatically update sections of the SURVEY.NET site - in this manner
+the authorized writers can update their own pages without any intervention.
+
+<H3><A NAME="1.10.0">
+Can the survey results be republished?  Are there any restrictions?
+</A></H3><H4>
+
+All information generated by SURVEY.NET is republishable in any 
+form.  We ask that you give us credit in your reference in return - 
+that's all.  If possible, list our WWW URL of 
+"http://www.survey.net/index.html, or credit "source: Mike Perry/SURVEY.NET".  
+Other than that, feel free to re-print the information.  Please 
+endeavor to reprint the information in it's entirety however - we do 
+not want the data to be extrapolated and used out of context.  It's 
+ok to extrapolate responses to individual questions, but do not 
+endeavor to mis-represent the data accumulated.  We reserve the 
+right to restict any organization's ability to republish data from 
+our site if it is distorted in its presentation.  We ask that any 
+republished information be sent to use (primarily for my own 
+amusement) to:
+  PCS, PO Box 7638, Metairie, LA 70010
+<P>
+More information can be found on the 
+<A HREF="http://www.survey.net/license.htm">License Page</A>.
+
+<H3><A NAME="1.11.0">
+I've noticed some disparity between the number of respondents and 
+total survey answers to specific questions, what gives?
+</A></H3><H4>
+
+This disparity seems to be the result of certain types of browsers 
+not completely sending all forms data to the script - it's beyond 
+our capability to deal with.  We try to keep the number of survey 
+questions limited so that those who are running 'buggy' browsers 
+don't make the numbers not properly add-up.  This doesn't affect the 
+accuracy of survey data - however there may be some cases where some 
+users' answers to specific questions are simply not recorded.   It's 
+very difficult to track down the cause of this problem - it is 
+noticable when you get into the area of having a thousand or more 
+surveys completed - so it's not very common.  Different browsers 
+handle forms data in different manners - some browsers will NOT send 
+a survey answer if the user didn't specifically pick the response 
+(and instead left the default answer as it was).  If you're 
+analyzing survey data, assume any disparity in the number of answers 
+to a specific question to be defined as "No answer."
+<P>
+In some RARE cases, the disparity may be due to the survey being 
+modified after it was released and the results not cleared.  If I 
+run across a survey where I feel an additional question should be 
+added, I may add the question/answers to the survey - I've only done 
+this once and will not do it often.  And in such a case, the rule 
+above applies.  If 75 people answered a survey and I decide to add a 
+new question, you may notice that one question has 75 less responses 
+than all the others - just consider those 75 to be null or "no 
+answer" since the question wasn't there before.  This will very 
+rarely occur.  I'm more apt to reset an entire survey if I make any 
+major changes.
+<P>
+
+The END  (for now)
+
+
+</H4>
+</TD></TR></TABLE></CENTER>
+
+<P align=CENTER>
+<IMG BORDER=0 SRC="http://www.survey.net/images/rule.gif">
+<P>
+
+<H3 align=center>
+<A HREF="http://www.survey.net/index.html">Return to the
+<IMG align=absmiddle BORDER=0 SRC="http://www.survey.net/g/svlogo2.gif">
+Home Page</A>.
+</H3>
+
+<P><CENTER><TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=575>
+   <TR>
+      <TD>
+         <P><CENTER><FONT SIZE=2><A HREF="http://www.survey.net/m0.htm"><IMG
+         SRC="images/buttbnp2.gif" WIDTH=175 HEIGHT=35 BORDER=0
+         ALIGN=bottom></A></FONT><FONT SIZE=2><A HREF="http://www.survey.net/m1.htm"><IMG
+         SRC="images/buttsne2.gif" WIDTH=175 HEIGHT=35 BORDER=0
+         ALIGN=bottom></A></FONT><FONT SIZE=2><A HREF="http://www.survey.net/letters.htm"><IMG
+         SRC="images/buttlett2.gif" WIDTH=175 HEIGHT=35 BORDER=0
+         ALIGN=bottom></A></FONT><FONT SIZE=2><BR>
+         
+         </FONT><FONT SIZE=2><A HREF="http://www.survey.net/columns.htm"><IMG
+         SRC="images/buttedit2.gif" WIDTH=175 HEIGHT=35 BORDER=0
+         ALIGN=bottom></A></FONT><FONT SIZE=2><A HREF="http://www.survey.net/info.htm"><IMG
+         SRC="images/buttinfo2.gif" WIDTH=175 HEIGHT=35 BORDER=0
+         ALIGN=bottom></A></FONT><FONT SIZE=2><A HREF="mailto:wisdom@icorp.net"><IMG
+         SRC="images/buttfeed2.gif" WIDTH=175 HEIGHT=35 BORDER=0
+         ALIGN=bottom></A></FONT></CENTER>
+      </TD></TR>
+</TABLE></CENTER>
+
+<H5 ALIGN=CENTER>Copyright &copy;1996, <A HREF="http://www.icorp.net"><img
+src="http://www.icorp.net/icorp/g/ic-logo.gif" BORDER=0 ALIGN=ABSMIDDLE ALT="ICorp"></A>/InterCommerce
+Corporation,<BR>
+<I>All rights reserved worldwide</I><BR>
+Send comments to 
+<A HREF="mailto:webmaster@survey.net"><I>Webmaster@Survey.net</I></A><BR>
+</H5>
+
+</CENTER>
+
+</BODY>
+</HTML>
+
+
+</DOC>

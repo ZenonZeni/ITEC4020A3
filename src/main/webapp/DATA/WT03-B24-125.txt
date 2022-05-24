@@ -1,0 +1,135 @@
+
+<DOC>
+<DOCNO>WT03-B24-125</DOCNO>
+<DOCOLDNO>IA053-000896-B001-105</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/cdt_nist.html 129.174.40.15 19970123200746 text/html 15929
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:06:31 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 07 Dec 1995 23:16:42 GMT
+Content-type: text/html
+Content-length: 15745
+</DOCHDR>
+<html>
+<head>
+<title>Testimony of CDT Deputy Director Daniel Weitzner at NIST 9/7/95</title>
+</head>
+<body>
+<p>
+<p>
+<p>
+<h3><center>Testimony of<br>
+Daniel J. Weitzner, Deputy Director<br>
+<p>
+on behalf of the<br>
+<p>
+Center for Democracy and Technology<br>
+<p>
+On Privacy and Security Policy Issues Raised by<br>
+Commercial Key Escrow Systems
+<p>
+September 7, 1995<br>
+National Institute of Standards and Technology
+Gaithersburg, MD<br>
+</h3></center>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<h3>I. Introduction</h3>
+<p>
+My name is Daniel Weitzner, Deputy Director of the Center for Democracy and Technology.  The Center is pleased to have opportunity to provide comments on the Administrations proposed private key escrow policies.  The Center for Democracy and Technology is an independent, non-profit public interest policy organization in Washington, DC. The Center's mission is to develop and implement public policies to protect and advance individual liberty and democratic values in new digital communications media. The Center achieves its goals through policy development, public education, and coalition building.  CDT also coordinates the Digital Privacy and Security Working Group (DPSWG), an ad hoc coalition of more than 50 computer, communications, and public interest organizations and associations working on communications privacy issues.  In the past, members of the Working Group have strongly opposed the Administration's Clipper Chip and worked on the Digital Telephony bill now passed into law. 
+<p>
+CDT is pleased that the Administration has made the commitment to develop a comprehensive communications security policy.  The original announcement to base such a policy on the private key escrow principles espoused in the Vice President' letter of July 1994 had great promise.  As we will illustrate below, however, the policy announced in September 1995 falls far short of the goals outlined by the Vice President and the needs of individual users and the industry.  Indeed, without substantial modification, the policy offers little to users, the market, or privacy advocates.  However, we remain committed to working with the Administration and the Congress to develop a comprehensive and balanced encryption policy that will meet user privacy needs and the legitimate interests of law enforcement agencies.  We continue to believe that the Gore letter contained the road map for such a policy and hope that the current efforts can be redirected along those lines.
+<p>
+<h3>II.	The Promise of the Gore Letter:  Potential for policy breakthrough to meet the needs users, industry, and law enforcement</h3>
+<p>
+With the explosive growth of the Internet and other interactive media, United States encryption policy has gone from a relatively unnoticed backwater of national security policy, to a highly visible and highly contentious area of technology policy of great concern to many industry groups and privacy advocates alike.  In this transition, there have been some missteps, including the Clipper Chip initiative.  After an unsuccessful effort to build support for the Clipper Chip in the market and the policy arena, the Clinton Administration announced its intention to develop a new encryption policy that would strike a more reasonable balance between the needs of users, the demands of the computer and communications marketplace, and the legitimate needs of law enforcement.  
+<p>
+The move away from reliance on the Clipper Chip marked an important turning point in the development of encryption policy.  First announced in a letter from Vice President Al Gore to Congresswoman Maria Cantwell on July 20, 1994, the Administration made a commitment to develop a policy framework that would promote the development of encryption systems that would meet the following criteria:
+<p><ol>
+<li><b>Implementation in hardware or software:</b>  After the hardware-only Clipper solution, the Administration recognized that any system must, according to the Gore letter, be "implementable in software, firmware, hardware, or any combination thereof."
+<p>
+<li><b>Public, unclassified algorithms:</b>  In order to assure users that their communications are truly secure, systems must employ encryption algorithms that are public, and thus subject to scrutiny by the broadest possible technical community.  Thus, the Vice President promised that the new policy "would not rely upon a classified algorithm."
+<p>
+<li><b>Voluntary:</b>  Although the Clipper Chip was always described as a voluntary technology, considerable fears arose that its use might one day become mandatory.  The Gore letter asserted that any new policy must be based on purely voluntary standards.
+<p>
+<li><b>Fourth Amendment privacy safeguards:</b>  Electronic surveillance constitutes an invasion of the most private realms of individual activity.  In order to protect individuals from unnecessary or excessive invasions by law enforcement agencies, Congress and the courts have instituted careful safeguards in the realm of traditional electronic surveillance through the telephone.  The Vice President's letter called for the extension of these protections in the form of "safeguards to provide for key disclosure only under legal authorization and should have audit procedures to ensure the integrity of the system."
+<p>
+<li><b>Statutory liability rules to protect users:</b>  In order to encourage users to trust private escrow systems, "escrow holders should be strictly liable for releasing keys without legal authorization," according to the Gore letter.
+<p>
+<li><b>Multiple escrow agents:</b>  Users must be free to chose their own escrow agents, unlike the Clipper proposal, so the Vice President declared that "a new key escrow encryption system must permit the use of private-sector key escrow agents as one option.... Having a number of escrow agents would give individuals and businesses more choices and flexibility in meeting their needs for secure communications."
+</ul><p>
+
+<h3>III.	Current Administration Proposal Fails to Meet High Standards Set out by the Vice President</h3>
+<p>
+The policy announced by the Administration in its September 1, 1995 paper, unfortunately fails to meet many of the criteria that the Vice President himself announced just one year ago in the above mentioned letter.  On hearing that the Administration had set out to develop a new encryption policy based on the principles outlined in the Gore letter, the Center for Democracy and Technology was guardedly optimistic that a genuine policy breakthrough was possible.  However, having had the opportunity to review the current proposal, every principle, except the first (software implementation) and second (public algorithms), thoughtfully outlined in the July 1994 letter is violated or, in one case, left in doubt, by the September 1995 policy statement.
+<p>
+The September 1995 policy statement diverges from the July 1994 letter in the following critical respects.  In our view, these divergences represent fundamental defects in the proposed policy and must be corrected.
+<p><ul>
+<li><b>Not Voluntary:</b>  The current proposal effectively compels all domestic users to use key escrow systems if they ever intend to communicate internationally.  Point 6 of the export criteria requires that an exportable system must not interoperate with any system that non-escrow systems.  Thus, in order for a user in the United States to communicate with anyone who uses a United States-made system on the Internet but outside of the United States, the American user must employ a key escrow system.  Domestic users are not legally compelled to use key escrow products, but the proposed policy forces, in practice, all but the most insular Internet user is propelled toward a key escrow system.  A policy based on such compulsion can hardly be called voluntary.
+<p>
+<li><b>Inadequate Security: </b> Point 1 precludes export of systems with key lengths beyond 64 bits.  Though this key size is larger than what is currently exportable, it is a level of security already judged inadequate for some applications.  Given the rate at which computing power increases, even a 64 bit key would be subject to attach before long.  
+<p>
+The premise of the key escrow policy is to provide law enforcement and national security agencies a "front door" to be used to decrypt messages when the agency obtains proper legal authorization.  Yet, the architects of the current policy apparently are not willing to trust that key escrow systems will meet law enforcement needs inasmuch as the key length limit suggests that the Administration is intent on maintaining an extra-legal method of decrypting communications.  The Gore letter contains no suggestion that key escrow systems would also be subject to key length limits but the Administration seems to have lost faith in its own proposal.  Such a half-hearted effort cannot be the basis of a long-lasting policy.
+<p>
+<li><b>No privacy protection for users of escrowed systems:</b>  The ten export principles make no mention of privacy safeguards which the Vice President previously recognized as necessary to safeguard individual privacy and Fourth Amendment principles.  Any escrow policy must contain safeguards against abuse and statutory liability provisions for the operators of private escrow systems.
+<p>
+<li><b>Fails to Promote International Interoperability:</b>  Points 6 and 10 of the export criteria raise grave doubts as to the likelihood that the current proposal will give rise to a secure global communications environment.  Point 10 forces users in other countries (and their governments) to accept United States-based escrow of all keys until bilateral access agreements are entered into.  Such tactics seem unlikely to produce satisfactory international agreements, and hold global communications security hostage to the completion of such agreements.
+</ul><P>
+
+<h3>IV.	Recommendations to Restore Current Process to Principles of Gore Letter</h3>
+<p>
+The Administration's September 1 paper leaves many privacy concerns unanswered or simply rejected, and falls far short of the goals set in the Gore letter of July 1994.  However, CDT still believes that the Administration has embarked on a serious process which, along with appropriate Congressional involvement, can lead to a long-lasting resolution to the encryption policy morass that exists today.  CDT recommends the following steps be taken immediately to supplement the September 1 policy framework.
+<p><ul>
+<h3>A.	Legislation to protect user privacy, address legitimate law enforcement needs, and guarantee voluntariness</h3></ul>
+<p>
+Encryption is now a key enabling technology in the development of the National and Global Information Infrastructure.  The growth of electronic commerce, the protection of intellectual property, and the very viability of cyberspace as an economic, social, cultural and political arena depend on the widespread availability of strong encryption.  As such, encryption policy can no longer be made in the closed halls Executive Branch national security policy.  
+<p>
+Like the Clipper Chip before it, the proposed key escrow policy framework places the National Security Agency in control of private sector computer security policy.  Such a role for the NSA is both detrimental to the growth of the information infrastructure and contrary to the principles of the Computer Security Act of 1987.  The Computer Security Act clearly established that neither military nor law enforcement agencies are the proper protectors of personal privacy.  When considering the law, Congress asked, "whether it is proper for a super-secret agency [the NSA] that operates without public scrutiny to involve itself in domestic activities...?"  The answer was a clear "no."
+<p>
+As important as the principle of civilian control was in 1987, it is even more critical today.  The more individuals around the country come to depend on secure communications to protect their privacy, the more important it is to conduct privacy and security policy dialogues in public, civilian forums.
+<p>
+If encryption policy is to be based on private key escrow as proposed by the Administration, legislative action is required to assure:
+<p><ol>
+<li><b>Complete voluntariness: </b> No government action should compel individuals or corporations to use key escrow systems;
+<p>
+<li><b>User choice of among multiple private escrow agents:</b>  Any entity that meets statutory criteria should be allowed to be an escrow agent.  Free market mechanisms should be allowed to meet the varying needs of users;
+<p>
+<li><b>User choice of encryption algorithm: </b>Different users with different applications will need varying degrees of security and should be allowed to chose the level and type of encryption appropriate to their needs.  Individual choice and market innovation, not government fiat, should guide choice of encryption algorithm;
+<p>
+<li><b>Statutory framework for law enforcement access and agent liability for improper disclosure:</b>  Under law, a private escrow agent could only legally disclose a users to those who are approved by the user, or to an authorized law enforcement agency, upon presentation of a 4th Amendment warrant. Private escrow agents (PEAs) would operate under a statutory framework which requires a PEA to hold private keys for users under a special standard of care and creates remedies in the event of unauthorized disclosure.  
+<p>
+In providing assistance to enable law enforcement to decrypt communications, the PEA may not disclose the target's private key to law enforcement.  However, as stated in the ten criteria and as much as is technically feasible, law enforcement should be assured speedy, uninterrupted access to decrypted communications once the surveillance is judicially approved.
+<p>
+<li><b>Audit trails for law enforcement access: </b>PEA's would be legally required to configure their systems in such a way to create a trusted and complete audit trail of all key access events.  This audit function would provide key holders with the ability to seek damages from the PEA if necessary and could act as a check on law enforcement activity. 
+</ol><p>
+<h3>B.	Export Control Reform</h3>
+<ol><p>
+<li><b>Full Export Authorization:</b>  Private key escrow systems that meet these principles should be fully exportable, under Commerce Department jurisdiction.
+<p>
+<li><b>End key-size limitations: </b> All properly escrowed encryption systems must be eligible for export, regardless of key size.  Since escrow systems would give law enforcement and national security agencies access to all communications, there can no longer be any justification for limiting key size.
+<p></ol></ul>
+
+<h3>V.	Conclusion</h3>
+<p>
+As measured by the demands of privacy and security, and by the standards set out in the 1994 Gore letter, the current key escrow policy proposals fall short of the mark.  However, CDT remains committed to working within the process set out by the Administration, and with the Congress, toward a speedy resolution of all of these critical encryption policy issues.
+<p>
+<p>
+For more information, please contact:
+<p>
+Daniel Weitzner, CDT Deputy Director <a href = "mailto:djw@cdt.org">djw@cdt.org</a><br>
+Jonah Seiger, CDT Policy Analyst <a href = "mailto:jseiger@cdt.org">jseiger@cdt.org.</a>
+<p>
+<hr size = 2>
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 11, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

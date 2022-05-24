@@ -1,0 +1,96 @@
+
+<DOC>
+<DOCNO>WT01-B04-44</DOCNO>
+<DOCOLDNO>IA080-000557-B034-369</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Techcom.html 137.79.14.197 19970103071333 text/html 12535
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f2cd.324@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:18:37 GMT
+Last-Modified: Monday, 18-Mar-96 22:22:30 GMT
+Content-type: text/html
+Content-length: 12290
+</DOCHDR>
+<TITLE>TECHNOLOGY COMMERCIALIZATION</title><p>
+<img src="logo.gif"><H3>Rover and Telerobotics Technology Program</h3><p>
+<H1>TECHNOLOGY COMMERICALIZATION</h1><p>
+<A NAME="segment3">In this segment:</a>
+<UL>
+<LI><A HREF="#Medicalrobs">Microtelerobotics and Medical Applications</a>
+<LI><A HREF="#DexArmAlgorithms">Dexterous Arm Control Algorithms</a>
+<LI><A HREF="#VRCalibTech">Virtual-Reality Calibration Technology</a>
+<LI><A HREF="#RovTelepresence">Rover Telepresence and Control Technology</a>
+</ul>><p>
+Other Segments on this homepage:
+<UL>
+<LI><A HREF="Planetrobs">Planetary Robotics</a>
+<LI><A HREF="Platformrobs.html">Platform Robotics</a>
+<LI><A HREF="Non-NASA.html">Non-NASA Tasks</a>
+</ul><p>
+<A HREF="Menu.html">Back to Main Menu</a><p>
+
+<B>========================================</b><p>
+<A NAME="Medicalrobs"><H3>Microtelerobotics and Medical Applications</h3></a><p>
+
+Medical applications of robotics are attracting major interest in both the commercial and research and development sectors.  Advances in small manipulators, miniaturized in situ sensors, dexterous teleoperative controls, virtual-reality/telepresence displays, and real-time three-dimensional imaging --and their integration into robotic and computer-assisted surgical systems-- promise to extend surgeons' capabilities, improve operative outcomes, minimize patient recovery times, and lower the compounded costs of overall health-care delivery.<p>
+<CENTER>
+<img src="RAMS.GIF"><p>
+<H5>P-46531 Bc</h5><p>
+<H4>Novel telerobotic system for dexterity-enhanced microsurgery.</h4><p>
+</center>
+Working through a Technology Cooperation Agreement with the Memphis-based MicroDexterity Systems (MDS), Inc., JPL is developing a novel telerobotic system for dexterity-enhanced microsurgical procedures of the brain, eye, ear, face, hand, and spine.  The JPL task effort, entitled Robot-Assisted Microsurgery (RAMS), is funded by NASA and performs robotic technology design, development, and engineering benchtop evaluation.  MDS carries out complementary work in medical requirements, system concept definition, and medical testing under independent funding.  A NASA-convened medical advisory board periodically reviews the overall JPL-MDS effort.  MDS, with end-market distributor participation, plans to have its first clinical trials in two-three years and seeks widespread market availability of dexterity-enhancement microsurgery system/tooling within this decade.<p>
+
+The RAMS concept is a master/slave, motion-and-force-scaling telemanipulator with user-programmable controls.  JPL has completed design, fabrication, and preliminary testing of a new 6-degrees-of-freedom slave robot, as well as a new master hand controller with force reflection in the three Cartesian axes.  The primary system mode is teleoperative positioning.  The surgeon will also be able to interactively designate and "share" automated presentation and control of robot trajectories --e.g., implement virtual force boundaries/constraints on motions (in position, velocity, or acceleration) or program supervisory motion controls referenced to three-dimensional medical imagery.  The RAMS system, as currently configured, will enable highly gifted surgeons to teleoperatively refine the physical scale of their unaided manual procedures by two to five times.  The RAMS controls also provide a "tremor compensation" function to smooth input positioning in the face of myoclonic jerk and tremor that limit most individuals' fine-motion skills.<p>
+
+The 6-degrees-of-freedom slave has a body consisting of a torso, shoulder, and elbow, with a non-intersecting three-axis wrist (the kinematic design of which is based on Ross-Hime Designs, Inc., "Omni-Wrist" and related patents licensed to MDS).  The slave is approximately 40 centimeters full extent, including the base with drive-train --the motors of which are fully enclosed and easily detached and reattached to facilitate sterilization of the remaining assembly.  Slave actuation is based on a new JPL revolute joint and cable-drive mechanism design providing near-zero backlash, constant cable-length excursions, and minimized joint coupling.  The robot electromechanical design and associated controls are conceived to ultimately allow relative positioning of surgical tools to within 10 micrometers of a target throughout a continuous hemispherical work space of more than 400 cubic centimeters.  In the first engineering laboratory experiments, repeatable, smoothly resolved motions as fine as 25 micrometers were achieved.<p>
+
+<H5><B>Point of Contact:</b>  Hari.Das@jpl.nasa.gov</h5><p>
+<A HREF="#segment3">Return to Segment Menu</a><p>
+<p>
+<B>========================================</b><p>
+<A NAME="DexArmAlgorithms"><H3>Dexterous Arm Control Algorithms</a></h3><p>
+
+Robotics Research Corporation (RRC) manufactures a family of dexterous 7-degrees-of-freedom arms that are used extensively at JPL and at NASA's Johnson Space Center, as well as by a number of government agencies, private companies, and universities.  These robotic arms are anthropomorphic and have the potential to perform complex tasks that demand human-like dexterity and versatility unavailable in standard 6-degrees-of-freedom industrial robots.  The 7-degrees-of-freedom arm is sold with a rudimentary controller that provides only basic capabilities that do not exploit the arm's intrinsic dexterity.<p>
+<CENTER>
+<img src="RRC.GIF"><p>
+<H4>Personal computer-based control of RRC seven-jointed robot arm.</h4><p>
+</center>
+Since 1987, JPL has been developing for NASA advanced control techniques for seven-jointed arms such as the RRC arms.  A new approach to configuration control of redundant manipulators with seven or more joints has been developed at JPL.  The research leading to this development has evolved from analysis and simulation to full-scale implementation and experimentation.  The configuration -control approach provides a general framework in which the user can utilize arm redundancy to accomplish a variety of additional tasks beyond the basic task of end-effector placement.  This research has been reported in many publications and patents and has been implemented at a number of universities and research and development centers.<p>
+
+RRC has been very interested in transferring the JPL-developed configuration-control techniques and algorithms to its next-generation commercial products, since these techniques will enhance the functionality and capability of RRC products considerably.  A Joint Technology Cooperation Agreement was signed by JPL and RRC in 1993 for commercialization of the JPL configuration-controls methods.  At the present time, JPL is achieving this transfer into a real-time system, based on a personal computer, that will be the new platform for RRC;s next-generation products.  The JPL configuration-control software was successfully integrated into the first RRC new commercial product, which was delivered to the Army Research and Development Laboratory in New Jersey in May 1995.<p>
+
+<H5><B>Point of Contact:</b>  Homayoun.Seraji@jpl.nasa.gov</h5><p>
+<A HREF="#segment3">Return to Segment Menu</a><p>
+<p>
+<B>========================================</b><p>
+<A NAME="VRCalibTech"<H3>Virtual-Reality Calibration Technology</a></h3><p>
+
+There is a growing interest in the virtual-reality calibration technique of matching graphically simulated virtual environments in three-dimensional geometry and perspective with actual video-camera views.  JPL recently developed such a technique that enables high-fidelity preview/predictive displays with reliable, accurate calibrated graphics overlay on live video for telerobotic applications, and demonstrated its effectiveness in the May 1993 JPL-NASA Goddard Space Flight Center remote servicing task.<p>
+
+Within NASA's recent thrust for industrial collaboration, in September 1993, JPL established a Technology Cooperation Agreement with Deneb Robotics, Inc.  Through this agreement, JPL has been transferring the virtual-reality calibration technology and its evolving additions to Deneb, and Deneb has been inserting this technology into its commercial product.  This joint technology collaborative work enables Deneb to commercialize an upgraded industry product that will greatly benefit both space and terrestrial telerobotic applications.<p>
+<CENTER>
+<img src="vidimage.gif"><p>
+<H4>System that calibrates robot-arm simulation with actual video image.</h4><p>
+</center>
+Deneb recently completed the beta version of the operator-interactive virtual-reality calibration option for the new release of TELEGRIP 2.4 and already shipped three copies to customers.  This option allows a multiple windows display of graphics, video, and calibrated graphics overlay on video, as shown in the figure above.  Seen in the figure are three views of a robot arm:  A calibrated video overlay in the lower-left window, a simulation in the large main window, and a video image in the right window.  The buttons on the right side of the main window provide the interface for the operator-interactive virtual-reality calibration consisting of camera calibration and object localization.<p>
+
+<H5><B>Point of Contact:</b>  Won.S.Kim@jpl.nasa.gov</h5><p>
+<A HREF="#segment3">Return to Segment Menu</a><p>
+<p>
+<B>========================================</b><p>
+<A NAME="RovTelepresence"><H3>Rover Telepresence and Control Technology</h3></a><p>
+
+Development of planetary rover telepresence and control technology is a central JPL thrust in planetary robotics.  In parallel with the ongoing technology development focusing on planetary missions, a Technology Cooperation Agreement has been established between JPL and International Space Enterprises, Inc., to explore the latter's concurrent, dual-use application of this technology in the commercial sector.  The near-term goal of this agreement is the development of technology required to support commercial applications of rover and control products for schools and science centers.  The longer-term goal is the development of technologies to support low-cost lunar and Mars missions that may be partially supported commercially.<p>
+
+A closely related objective of the Technology Cooperation Agreement is that of educational and public outreach, intended to stimulate and inspire student and public interest in space exploration in general, and more specifically, in planetary rover technologies and missions.  To this end, a series of demonstrations are being conducted:  Planetary rover prototypes are operating in simulated Mars terrain at JPL with the rovers being commanded remotely from a school or museum site participating in the Technology Cooperation Agreement Program.<p>
+
+In June 1995, such a demonstration was conducted from the Thomas Jefferson High School for Science and Technology in Alexandria, Virginia.  This demonstration involved an integrated system consisting of a planetary rover prototype and a command and control workstation at the school.  Students at the school, drawing from JPL's technology base in planetary rovers, assisted in the setup of the workstation and in conducting the remote control operations.  International Space Enterprises plans to use this initial demonstration system as a baseline for development, in fiscal year 1996 and beyond, of a commercial product consisting of the rover and the corresponding command and control workstation.<p>
+
+In addition to the development of commercialization opportunities, the Technology Cooperation Agreement is also contributing to NASA missions.  The demonstrations and tests conducted as a part of the agreement increase the robustness and reliability of the planetary rover technology to be used in space.  A particular technical challenge is to guarantee robustness and reliability while testing with unspecialized operators (e.g., students).  Another challenge is that of repeated operations from various control sites.  In the longer term, it is anticipated that the Technology Cooperation Agreement-supported demonstrations will increase public interest in the JPL rover technology base, and in planetary missions in NASA's short-term and long-term horizons<p>
+
+<H5><B>Point of Contact:</b>  Guillermo.Rodriguez@jpl.nasa.gov</h5><p>
+<A HREF="#segment2">Return to Segment Menu</a><p>
+
+</DOC>

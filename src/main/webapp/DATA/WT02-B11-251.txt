@@ -1,0 +1,349 @@
+
+<DOC>
+<DOCNO>WT02-B11-251</DOCNO>
+<DOCOLDNO>IA086-000618-B039-388</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0011.html 130.91.195.242 19970122050901 text/html 17180
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:08:44 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 17008
+Last-modified: Sun, 24 Sep 1995 00:50:26 GMT
+</DOCHDR>
+<!-- received="Wed Sep 20 06:14:33 1995 EDT" -->
+<!-- sent="Wed, 20 Sep 1995 06:09:36 -0400" -->
+<!-- name="David Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="Getting Started with MacPGP" -->
+<!-- id="v02110112ac8598c89d08@[130.91.88.102]" -->
+<!-- inreplyto="" -->
+<title>CIS 899: Electronic Commerce: Getting Started with MacPGP</title>
+<h1>Getting Started with MacPGP</h1>
+David Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Wed, 20 Sep 1995 06:09:36 -0400</i>
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0012.html">David Farber: "1994 online debate between John Perry Barlow of the"</a>
+<li> <b>Previous message:</b> <a href="0010.html">David Farber: "Financial Services Technology Consortium"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+                     Getting Started with MacPGP<br>
+                             March, 1995<br>
+<p>
+This is an introduction to MacPGP.  It is based upon Mac PGP 2.6.2<br>
+which is distributed by MIT.  You can obtain information about MIT's<br>
+PGP distributions on the World-Wide Web at<br>
+<a href="http://web.mit.edu/network/pgp.html">http://web.mit.edu/network/pgp.html</a>.<br>
+<p>
+****************************************<br>
+This guide:<br>
+<p>
+1.  Presents a brief overview of PGP.<br>
+<p>
+2. Shows you how to generate a test key pair.  We strongly recommend<br>
+that you do this before you start using PGP for real.<br>
+<p>
+3.  Shows you how to generate a real key.<br>
+<p>
+4.  Shows you how to obtain keys from others and start sending and<br>
+receiving messages.<br>
+<p>
+****************************************<br>
+COMMENTS ON USING AND INSTALLING MACPGP<br>
+<p>
+MacPGP is distributed by MIT in both source and binary forms.  Most<br>
+first-time users will want to use the binary, rather than compile the<br>
+sources from scratch.  However, there is a rather complex installation<br>
+procedure you must go through.  The reason for this complexity is that<br>
+you will be using PGP's own authentication mechanisms to verify that<br>
+the program is the original MIT distribution, and has not ben tampered<br>
+with.  If you are a beginning user, you may want to get help with this<br>
+part of the installation procedure.<br>
+<p>
+MIT also distributes Apple Scripts that provide a PGP interface to<br>
+Eudora.  If you are a Eudora user, these scripts will greatly simplify<br>
+your use of PGP.  MIT hopes to be distributing PGP interfaces to other<br>
+popular mailers in the future.  However, even if you are planning to<br>
+use the Eudora interface, we suggest that you work through this<br>
+document and make at least a little use of "raw" MacPGP so that you<br>
+will understand what the scripts are doing.<br>
+<p>
+Finally, before making any serious use of PGP, you should read Volume<br>
+I of the PGP User's Guide by Philip Zimmermann.  All distributions of<br>
+PGP should come with copies of the User's Guide.  If you have obtained<br>
+a version of PGP that does not include the User's Guide, the<br>
+distribution was incomplete, and you should obtain another version.<br>
+<p>
+<p>
+****************************************<br>
+PART I:  OVERVIEW OF PGP<br>
+<p>
+What is it?<br>
+<p>
+PGP or Pretty Good (TM) Privacy is a high-security cryptographic<br>
+software application that allows people to exchange files or messages<br>
+with both privacy and authentication.  Privacy means that only those<br>
+intended to receive a message can read it.  By providing the ability<br>
+to encrypt messages, PGP provides protection against anyone<br>
+eavesdropping on the network.  Even if a packet is intercepted it will<br>
+be unreadable to the snooper.  Further, by providing the ability to<br>
+digitally sign any file or message PGP provides authentication and<br>
+ensures that messages that appear to be from a particular person can<br>
+only have originated from that person.<br>
+<p>
+In addition to its facilities for exchanging messages, PGP also enables<br>
+you to encrypt files stored on your computer.<br>
+<p>
+<p>
+How does it work?<br>
+<p>
+PGP is based on the public key cryptosystem, RSA.  Unlike conventional<br>
+cryptosystems which require the same key to encrypt and decrypt a<br>
+message, public key systems use two related complementary keys, a<br>
+public key and a secret key.  The secret key unlocks the code that the<br>
+public key makes and the public key unlocks the code that the secret<br>
+key makes.  Knowing one of the keys does not help you deduce the<br>
+other.<br>
+<p>
+You are free to publish your public key anywhere you like including on<br>
+electronic bulletin boards or the World-Wide Web.  Anyone who wants to<br>
+send you an encrypted message can use your public key to encrypt it<br>
+knowing that only you have the secret key which will decrypt it.  You<br>
+can use your secret key to authenticate messages that you send.  You<br>
+"sign" your messages with your secret key thus proving to the receiver<br>
+that you are the true sender of the message and that it no one has<br>
+tampered with it.  The recipient checks the signature with your public<br>
+key.<br>
+<p>
+It is possible to provide both privacy and authentication by signing<br>
+the message with your secret key and then encrypting the message with<br>
+the recipient's public key.  The recipient then uses her secret key to<br>
+decrypt the message and your public key to authenticate the signature.<br>
+PGP does this all automatically.<br>
+<p>
+How can I trust a public key?<br>
+<p>
+Never trust a public key you have downloaded from a bulletin board or<br>
+elsewhere unless that key is signed by someone you trust.  You must<br>
+make sure that a public key really belongs to the person to whom it<br>
+appears to belong and that it has no one has tampered with it.<br>
+<p>
+PGP provides an elaborate mechanism of "key signing" that allows<br>
+people to sign keys whose authenticity they vouch for.  If you obtain<br>
+a key that is signed by a person you trust, then you can have some<br>
+assurance that the key really is valid.<br>
+<p>
+How do I safeguard my secret key?<br>
+<p>
+Store your secret key on a machine over which you have physical<br>
+control.  Be sure to keep a back-up copy of your secret key.  Remember<br>
+you have the ONLY copy of it.  If you lose it, all copies of your<br>
+public key are useless.<br>
+<p>
+In addition, when you create your keys you will be asked for a pass<br>
+phrase to encrypt your secret key.  Since only you know your pass<br>
+phrase, only you have access to your secret key.  If you forget your<br>
+pass phrase, your secret key is irretrievably lost.<br>
+<p>
+Can I use PGP from a shared computer or from a terminal over a<br>
+network?<br>
+<p>
+Yes, but this is not as secure as using it from a computer over which<br>
+you have physical control.  It is possible for others to read your<br>
+encrypted secret key and possibly intercept your key strokes and thus<br>
+discover your pass phrase.<br>
+<p>
+Is PGP convenient to use?<br>
+<p>
+Unfortunately, no.  With raw PGP you must save your message to a<br>
+file, run PGP to encrypt it and then mail the encrypted file.  MIT<br>
+currently distributes interfaces that provide much more convenient<br>
+integration to Eudora (for the Mac) and to Emacs (for Unix).  There<br>
+are also interfaces to Windows available from other sources.  See the<br>
+MIT PGP page on the World-Wide Web for up-to-date information.<br>
+<p>
+Will PGP solve all security problems?<br>
+<p>
+Absolutely not.  While PGP provides excellent protection against two<br>
+big security risks: eavesdroppers and impostors, it does little to<br>
+protect your system from being accessed by an unauthorized individual.<br>
+Choosing good passwords and setting sensible access controls are still<br>
+necessary.<br>
+<p>
+****************************************<br>
+PART II.  GENERATING A TEST KEY PAIR<br>
+<p>
+Start by obtaining a copy of MacPGP and installing it on your<br>
+computer.  This is a fairly elaborate process, which involves using<br>
+PGP itself to check the integrity of the files you have obtained, to<br>
+make sure that this really is the program distributed by MIT.<br>
+<p>
+At the end of this process, you should have a PGP folder that<br>
+contains, the Mac PGP application, as well as documentation files.<br>
+This folder will eventually also contain files called pubring.pgp,<br>
+secring.pgp, and randseed.bin which hold your public and secret key<br>
+rings, and also information used to seed PGP's random number<br>
+generator.  Don't worry if these files are not there initially.  They<br>
+will be generated as part of making your first key pair.<br>
+<p>
+Start PGP by double clicking on the application, then click once on<br>
+the startup information window.  MacPGP may complain that it cannot<br>
+find your public and secret keyring files -- just click "OK".  You<br>
+should see a window named "PGP Messages."  This shows output from PGP.<br>
+<p>
+Select "generate key" from the KEY menu.  PGP may complain at this<br>
+point that it cannot find the PGP User's Guide.  PGP will not generate<br>
+a key unless it can find the User's Guide in the "doc" file.  Please<br>
+place the User's Guide there if it is not already there.<br>
+<p>
+For this test key, use 512 bits as the key length.  Use "test1" for<br>
+the key ID (ignore the part about an email address).  Don't worry<br>
+about changing the key exponent.  Also use "test1" for the passphrase.<br>
+Don't ask to show the pass phrase.  PGP will ask you to type some<br>
+keystrokes to provide a source of random data.  Then it will generate<br>
+the key.  This will also create the pubring, secring, and randseed<br>
+files if they didn't already exist.<br>
+<p>
+Now we'll encrypt a message.<br>
+<p>
+Create a short text file called, e.g., "message", using your favorite word<br>
+processor or some other way.<br>
+<p>
+In PGP, pick "encrypt/sign" from the FILE menu and indicate that you<br>
+want to encrypt the message file.  PGP will ask you to indicate which<br>
+user you want to encrypt the message for.  Click on the test1 key,<br>
+which should produce a check mark next to it.  (If there are other<br>
+possible keys shown here, they got put in the key ring as part of the<br>
+distribution process.  You can remove these from your key ring later<br>
+if you like.)<br>
+<p>
+After checking test1, click "OK".  In the next dialogue window, check<br>
+the button marked "encrypt" and check the box marked "produce output<br>
+in ASCII Radix-64 format."  In general you will always produce output<br>
+in Radix 64 format, so you can send it via E-mail.  Do NOT check the<br>
+box marked "use conventional encryption".  This is for encrypting<br>
+files, not messages.<br>
+<p>
+This process should create a file called "message.asc".  You can look<br>
+at it with your word processor to verify that it looks like gibberish,<br>
+delimited by begin and end message markers.<br>
+<p>
+Now let's decrypt the message.<br>
+<p>
+You could decrypt the message in this case by simply clicking on the<br>
+message.asc file, but do it instead by selecting open/decrypt from the<br>
+FILE menu.  Indicate that you want to decrypt message.asc.  In the<br>
+next dialogue, choose "depending on type..." and give some name to be<br>
+used for the decrypted output.<br>
+<p>
+PGP will now ask you to type your pass phrase (which, recall, was<br>
+"test1").  If all goes well, the file will decrypt and you can open it<br>
+and read it with your word processor.<br>
+<p>
+Normally, you will not only encrypt a message, you will encrypt and<br>
+sign it, so people getting the message will know it really came from<br>
+you.  You can also sign a message without encrypting it.  This<br>
+operation (called "clearsigning") is used to ensure that messages you<br>
+send will not be modified -- otherwise the signature will not verify.<br>
+Signing a message requires that you type your passphrase.<br>
+<p>
+At this point, we strongly suggest that you take a little time to play<br>
+around with PGP.  Generate another key pair called test2.  Encrypt a<br>
+message for test2 signed by test1 and see if you can decrypt it using<br>
+test2's passphrase.  Sign a message and verify the signature.  It's<br>
+also a good idea to purposely make some mistakes.  Type the passphrase<br>
+incorrectly and see what error messages you get.  Take a signed or<br>
+encrypted message and modify it (using your word processor).  Then<br>
+decrypt it and see what PGP says.<br>
+<p>
+****************************************<br>
+III.  GENERATING A REAL KEY PAIR<br>
+<p>
+Generate a key as before.  For the length, use 1024 bits.  The reality<br>
+is that unless you are trying to keep information from the world's<br>
+most powerful government agencies (and maybe even then) 512 bits is<br>
+probably safe.  But people are tending to use 1024 bits these days so<br>
+you may as well, too.  The only real disadvantage is that it takes<br>
+longer (maybe 5 minutes) to generate the key, but you're not going to<br>
+be generating new keys very often.  For the key ID, use your name,<br>
+followed by your complete email address enclosed in angle brackets.<br>
+This form for the key ID is purely a convention, but this is a good<br>
+way to make sure people can associate your key ID with you.<br>
+<p>
+Test your key by encrypting a message and/or signing something.  When<br>
+you're done, you may want to remove the test keys from your keyring.<br>
+(Use "remove keys" from the KEY menu.)  But there's no harm in<br>
+keeping them around either.<br>
+<p>
+****************************************<br>
+IV.  COMMUNICATING WITH OTHER PEOPLE<br>
+<p>
+The point of all this, of course, is that you want to communicate with<br>
+other people, not just make test messages for yourself.  To send<br>
+someone a message, you need to have that person's public key.  You<br>
+encrypt the message using the recipient's public key, and then send<br>
+the encrypted message as Email.<br>
+<p>
+At some point, someone will send you a key.  Save the key in a file<br>
+(or just save the entire message that contains the key).  Start PGP<br>
+and select "add keys" from the KEY menu.  Indicate the file that<br>
+contains the key, and indicate that you want the key added to<br>
+pubring.pgp.  After the key has been added, you can use "view keyring"<br>
+from the KEY menu to look at pubring.pgp to see that it is there.<br>
+<p>
+If people are going to send you messages, they need to have your<br>
+public key.<br>
+<p>
+To send your key to someone else, select "extract keys" from the KEY<br>
+menu.  Make sure you select the key from pubring.pgp, not from<br>
+secring.pgp.  Also make sure to check "ascify the output".  The<br>
+resulting key file (whose name ends in .asc) should be some lines of<br>
+ASCII gibberish delimited by begin and end public key block markers.<br>
+You can include this in a message to send to other people so that they<br>
+can now encrypt messages to send to you.<br>
+<p>
+There are some elaborate rituals associated with exchanging keys,<br>
+which help ensure that they keys do indeed come from their purported<br>
+senders.  One ritual is to call the person on the phone and verify<br>
+that the key you received has the correct "fingerprint" (a list of 32<br>
+bytes written in hex format).  Use "fingerprint key" from the KEY menu<br>
+to see a key fingerprint.<br>
+<p>
+Another security mechanism is the whole structure of signing keys and<br>
+assigning trust parameters to keys and signatures.  This get pretty<br>
+arcane.  Read the PGP User's Guide if you really want to know.<br>
+<p>
+Another thing you can do is to post your key to a public key server<br>
+and get other people's keys from a server.  You do this by email.  For<br>
+more information, send a message to public-key-server@mit.edu, with<br>
+the word "help" in the subject line.<br>
+<p>
+You should now be pretty well set in PGP basics.  Read the PGP docs<br>
+for more info.<br>
+<p>
+MacPGP also has extensive help information.  Look under "help" in the<br>
+Apple menu.<br>
+<p>
+Two points to remember: (1) If you are encrypting email, you should<br>
+always choose to produce ASCII Radix 64 output.  Otherwise the mail<br>
+program may (and probably will) mess up the file you send. (2) If you<br>
+are going to create a message with a word processor to be sent to a<br>
+lot of people, create the message as a plain text message.  Otherwise,<br>
+the decrypted message will contain all the formatting information<br>
+generated by your word processor.  Of course, if you know that the<br>
+people on the other end can read files in this format, it's fine to<br>
+encrypt formatted files.  PGP itself does not care whether the files<br>
+it is encrypting are text files, or contain special characters or<br>
+other binary information.<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0012.html">David Farber: "1994 online debate between John Perry Barlow of the"</a>
+<li> <b>Previous message:</b> <a href="0010.html">David Farber: "Financial Services Technology Consortium"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

@@ -1,0 +1,65 @@
+
+<DOC>
+<DOCNO>WT02-B16-232</DOCNO>
+<DOCOLDNO>IA060-000329-B024-24</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/concentrators2.html 205.168.79.27 19970115041328 text/html 3005
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 04:13:27 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:46 GMT
+Content-length: 2831
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<title>DOE PV - Turning Sunlight Into Electricity</title>
+</HEAD>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>Concentrator Systems</h2>
+
+<p><strong>Advantages and Drawbacks</strong>
+<p>Besides increasing the power and reducing the size or number of cells used, concentrators have
+the additional advantage that <a href="conveff.html">cell efficiency</a> increases under concentrated light.  How much the
+efficiency increases depends largely on the cell design and the cell material used.  Another
+advantage of the concentrator is that it can use small individual cells--an advantage because it is
+harder to produce large-area, high-efficiency cells than it is to produce smaller-area cells.
+
+<p>There are, on the other hand, several drawbacks to using concentrators.  The concentrating
+optics they require, for example, are significantly more expensive than the simple covers needed
+for flat-plate modules, and most concentrators must <a href="tracking.html">track the sun</a> 
+throughout the day and year to
+be effective.  Thus, higher concentration ratios mean using not only expensive tracking
+mechanisms but also more precise controls than <a href="flatplate.html">flat-plate systems</a> 
+with stationary structures.
+
+<p>High concentration ratios are a particular problem, because the operating temperature of cells increases when excess radiation is concentrated, and this creates heat.  Cell efficiencies decrease
+as temperatures increase, and higher temperatures also threaten the long-term stability of PV
+cells.  Therefore, PV cells must be kept cool.
+
+<p><img border=0 align=left hspace=15 vspace=3 src="images/00183.gif">  
+<font color="#F79D00">This PV tracking concentrator array is part of the Photovoltaics for Utility-Scale
+Applications (PVUSA) project in northern California.</font>
+<br clear=all><br>
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>
+[<a href="pvhistory.html">History: The PV Effect</a>]
+[<a href="howworks.html">How It All Works</a>]
+[<a href="cells.html">From Cells to Arrays</a>]
+[<a href="flatplate.html">Flat-Plate Systems</a>]
+[<a href="concentrators.html">Concentrator Systems</a>]
+[<a href="balance.html">Balance of System</a>]
+[<a href="lightsun.html">Light and the Sun</a>]
+<p><em>U.S. Department of Energy Photovoltaics Program, 1996</em>
+</font>
+</center>
+</body>
+</html>
+</DOC>

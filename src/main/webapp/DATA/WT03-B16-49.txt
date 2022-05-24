@@ -1,0 +1,132 @@
+
+<DOC>
+<DOCNO>WT03-B16-49</DOCNO>
+<DOCOLDNO>IA072-000459-B011-281</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/crisp_oview.html 137.132.32.55 19970121022603 text/html 4338
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 12:50:49 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 20-Dec-96 20:58:46 GMT
+Content-length: 4157
+</DOCHDR>
+<HEAD>
+<TITLE>CRISP's Ground Station Overview</TITLE>
+</HEAD>
+<BODY>
+<center> 
+<h2>OVERVIEW of CRISP's GROUND STATION</H2>
+<img src="pic/lookline.gif">
+<br>
+
+<img src="pic/coverage.gif"><br>
+Ground Station Coverage<p>
+</center>
+
+<h2>Background</H2>
+
+<A HREF="pic/crs_ant.jpg"><i>CRISP's remote sensing satellite ground station</i></a> 
+is one of the first multi-mission
+ground stations built around the open system concept, with high level
+of flexibility to accommodate future satellite missions.
+It is able to acquire images of the 
+earth's surface within a radius of about 3000km; covering the following countries:
+
+<dl><dl>
+<dt><img src="pic/redball.gif"> Brunei
+<dt><img src="pic/redball.gif"> <A HREF="http://mawar.inn.bppt.go.id/">Indonesia</a>
+<dt><img src="pic/redball.gif"> Kampuchea
+<dt><img src="pic/redball.gif"> Laos
+<dt><img src="pic/redball.gif"> <A HREF="http://mimos.my/">Malaysia</a>
+<dt><img src="pic/redball.gif"> Myanmar
+<dt><img src="pic/redball.gif"> <A HREF="http://www.mozcom.com/SCF/SCF.html">Philippines</a>
+<dt><img src="pic/redball.gif"> <A HREF="http://www.ncb.gov.sg/sog/sog.html">Singapore</a>
+<dt><img src="pic/redball.gif"> <A HREF="http://suif.stanford.edu/~lanka/sri_lanka.html">Sri Lanka</A><BR>
+<dt><img src="pic/redball.gif"> <A HREF="http://emailhost.ait.ac.th/Asia/infoth.html">Thailand</a>
+<dt><img src="pic/redball.gif"> Vietnam
+<dt><img src="pic/redball.gif"> the southern regions of 
+<A HREF="china.html">China</a>
+<p>
+</dl></dl>
+In the first year of operation (1996), <i>CRISP</i> will receive and process
+data from <b>SPOT</b>, <b>ERS</b> and <b>Radarsat</b> satellites.<p>
+
+<h2>Antenna System</h2>
+
+<i>CRISP's ground station</i> is equipped with a <A HREF="pic/crs_ant.jpg">
+13-meter solid reflector, 3 axis, X band antenna<i>(32k)</i></A>
+ for reception of satellite signal. 
+The 13-meter antenna is one of the largest of its kind in Asia. 
+Compared to smaller antenna system, the 13-meter antenna has the
+following advantages:
+<dl>
+
+    <dt><h3><img src="pic/redball.gif">  Superior G/T</h3> 
+    <dl> 
+    <dt>The 35 db/K obtainable from this antenna provides
+        a wide performance margin above the requirements of all current
+        satellite systems.<p>
+     </dl>
+
+    <dt><h3><img src="pic/redball.gif">  Superior Quality of Received Signal</h3> 
+    <dl>
+     <dt>The higher G/T will result
+        in better quality of received signal, e.g. lower noise level and
+        reduced occurence of drop lines.<p>
+     </dl>
+</dl>
+The 7 degree tilt third axis of the antenna allows overhead tracking of
+satellites at an altitude as low as 400 km, without overdriving the
+antenna servo system.<p>
+
+The whole antenna system is controlled by a sophisticated Ground
+Station Computer, which enable automatic tracking of
+satellites.<p>
+
+
+<h2>Data Processing System</h2>
+
+The data processing system are based on standard Silicon Graphics
+Computers.  The host is <i>a 4 CPU Silicon Graphics Challenge</i>,
+capable of delivering up to 96 Mega-flops processing power.  <i>Four
+Silicon Graphics Indigo2</i> workstations augment the Challenge host to provide all
+the functions of the data processing system.<p>
+
+Except for frame synchronisation, all function essential for processing
+of the satellite signal are implement with software.  This gives
+the system a high degree of reliability, flexibility and
+maintainability.<p>
+
+<hr>
+
+<h2>Catalog Browse System</h2>
+
+<i>CRISP</i> has implemented an WWW catalog browse system for any users
+to query <i>CRISP's catalog of data archive</i>.<p> 
+<a href="http://137.132.32.55/crisp.html#quicklook"><b>Quicklooks</b> of images
+ received and archived at CRISP (SPOT, ERS and RADARSAT)</a> can also be viewed.
+
+<hr>
+<address>
+
+<h3>For further information, please contact</h3>
+
+Centre for Remote Imaging, Sensing and Processing<br>
+National University of Singapore<br>
+c/o Faculty of Science<br>
+Lower Kent Ridge Road<br>
+Singapore 0511<br>
+
+Telephone       : (65) 772 3220<br>
+Facsimile       : (65) 775 7717<br>
+E-mail          : crisp@nus.sg<br>
+</address>
+
+<p><hr><P>
+<A HREF="crisp.html"><img src="pic/back.gif"> Back to CRISP's HomePage</A><p>
+</BODY>
+</HTML>
+
+</DOC>

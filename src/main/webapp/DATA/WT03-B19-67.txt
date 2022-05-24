@@ -1,0 +1,243 @@
+
+<DOC>
+<DOCNO>WT03-B19-67</DOCNO>
+<DOCOLDNO>IA001-000005-B026-317</DOCOLDNO>
+<DOCHDR>
+http://gator.seaspace.com:80/FAQ_data_acq.html 192.150.113.150 19970101042057 text/html 4894
+HTTP/1.0 200 OK
+Date: Wednesday, 01-Jan-97 04:19:44 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Tuesday, 10-Sep-96 16:14:40 GMT
+Content-length: 4710
+</DOCHDR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<HEAD> <TITLE>  TeraScan Data Acquisition FAQ  </TITLE> </HEAD> <BODY> <TABLE BORDER=5 WIDTH=100%> <TR> <TD ALIGN=CENTER> <H1>  TeraScan Data Acquisition FAQ   </H1> </TD> </TR> </TABLE> <BR> <IMG SRC="/artwork/line.avhrr1.gif"><BR>
+
+
+<H1>TeraScan Data Acquisition FAQ</H1>
+
+<OL>
+<LI><B>Question:</B>   
+How do I get orbital elements?
+<P><B>Answer:</B>
+Ftp to califia.seaspace.com (192.150.113.144).
+Use the login/password supplied to you by SeaSpace customer support.
+Get <B>elements.new</B> or get <B>elements.xxx</B> (where xxx is the
+julian date for the elements you need.  Elements.new is the
+current day's orbital elements formatted for your TeraScan
+system.</P>
+
+<LI><B>Question:</B> What are the fields in the 1-line orbital elements?
+
+<P>
+<B>Answer:</B>
+Here's a sample 1-line element set for NOAA-11:
+</P>
+
+<P>
+<PRE>
+19531.9345229.8289872.00013.0012233.1291966.6637404.2753627.930629 7
+</PRE>
+</P>
+
+<H3>Meaning</H3>
+<TABLE BORDER=1>
+<TR VALIGN=TOP>
+    <TH ALIGN=RIGHT>Value</TH>
+    <TD>19531</TD>
+    <TD>9345229</TD>
+    <TD>8289872</TD>
+    <TD>00013</TD>
+    <TD>0012233</TD>
+    <TD>1291966</TD>
+    <TD>6637404</TD>
+    <TD>2753627</TD>
+    <TD>930629 </TD>
+    <TD>7</TD>
+</TR>
+<TR VALIGN=TOP>
+    <TH ALIGN=RIGHT>Description</TH>
+    <TD>Satellite ID</TD>
+    <TD>Mean anomaly</TD>
+    <TD>Mean motion</TD>
+    <TD>Decay</TD>
+    <TD>Eccentricity</TD>
+    <TD>Argument of perigee</TD>
+    <TD>Longitude of ascending node</TD>
+    <TD>Inclination</TD>
+    <TD>Epoch</TD>
+</TR>
+<TR VALIGN=TOP>
+    <TH ALIGN=RIGHT>Units</TH>
+    <TD></TD>
+    <TD>revs</TD>
+    <TD>radians/Herg</TD>
+    <TD>radians/Herg</TD>
+    <TD></TD>
+    <TD>revs</TD>
+    <TD>revs</TD>
+    <TD>revs</TD>
+    <TD>YYMMDD</TD>
+    <TD></TD>
+</TR>
+</TABLE>
+
+<P></P>
+
+<LI><B>Question:</B> What is the current status of the NOAA, GOES and DMSP satellites?
+
+<P>
+<B>Answer:</B>
+<UL>
+    <LI><A HREF="http://140.90.207.25:8080/COB/pstatus.asc">Current Status</A>
+    <LI><A HREF="http://140.90.207.25:8080/EBB/ml/specialbull.html">Special Bulletins</A>
+    <LI>DMSP f-12 transmitting OLS visible and infrared, SSMI unreliable.
+    <LI>DMSP f-13 transmitting visible, infrared, and SSMI (SSM/T2 sensor not functional).
+
+</UL>
+<H3>
+Satellite Reference
+</H3>
+<TABLE BORDER=5>
+<TR ALIGN=CENTER>
+    <TH>Satellite</TH>
+    <TH>ID</TH>
+    <TH>Carrier Frequency<BR>(MHz)</TH>
+</TR>
+<TR ALIGN=LEFT>
+    <TH>NOAA-10</TH>
+    <TD>16969</TD>
+    <TD>1698</TD>
+</TR>
+<TR ALIGN=LEFT>
+    <TH>NOAA-11</TH>
+    <TD>19531</TD>
+    <TD>1707</TD>
+</TR>
+<TR ALIGN=LEFT>
+    <TH>NOAA-12</TH>
+    <TD>21263</TD>
+    <TD>1698</TD>
+</TR>
+<TR ALIGN=LEFT>
+    <TH>NOAA-14</TH>
+    <TD>23455</TD>
+    <TD>1707</TD>
+</TR>
+<TR ALIGN=LEFT>
+    <TH>GOES-7</TH>
+    <TD>17561</TD>
+    <TD>1685.7</TD>
+</TR>
+<TR ALIGN=LEFT>
+    <TH>GOES-8</TH>
+    <TD>23051</TD>
+    <TD>1685.7</TD>
+</TR>
+<TR ALIGN=LEFT>
+    <TH>GOES-9</TH>
+    <TD>23581</TD>
+    <TD>1685.7</TD>
+</TR>
+<TR ALIGN=LEFT>
+    <TH>f-12</TH>
+    <TD>23233</TD>
+    <TD>2252</TD>
+</TR>
+<TR ALIGN=LEFT>
+    <TH>f-13</TH>
+    <TD>23533</TD>
+    <TD>2252</TD>
+</TR>
+</TABLE>
+</P>
+<P>These are up to date as of 18 December 1995.  The status of any
+of these satellites could change at any time. </P> 
+
+<LI><B>Question:</B> What is the cause of overhead dropouts in polar orbiter data?
+
+<P>
+<B>Answer:</B>Overhead dropouts are usually indicative of system (cpu) time inaccuracies.  Your system must keep accurate (+/- 5 seconds) time in order to 
+properly track polar orbiting satellites.  If the system time is off by more
+ than 5 seconds, the antenna wil not point accurately at the satellite,
+particularly for high zenith passes.
+Bad or Old (more than two weeks) orbital elements may also cause overhead
+dropouts.  You should update the orbital elements if they are more than two
+weeks old (see Question #1 above). Lastly, your antenna may have a pointing (azimuth)
+error, which can be corrected by (1) sunalignment (2) manual alignment or
+(3) autoalignment.  If none of the aforementioned cures the overhead
+data losses, then contact customer support.   
+</P>
+
+</OL>
+
+
+<BR> <BR>  <A HREF=  "/FAQ_index.html"><IMG SRC= "/artwork/arrow.marble.left.gif" ALIGN=middle>   Return to FAQ Index   </A><BR><BR>  <A HREF= "/index.html"><IMG SRC= "/artwork/arrow.marble.up.gif" ALIGN=middle>   Return to SeaSpace Home Page   </A><BR><BR> <IMG SRC="/artwork/line.avhrr1.gif"><BR> <ADDRESS> SeaSpace Corporation<BR> </ADDRESS> <H5> For information about SeaSpace products contact <A HREF="mailto:info@seaspace.com">info@seaspace.com</A><BR> For information about this site contact <A HREF="mailto:sean@seaspace.com">sean@seaspace.com</A><BR> </H5>
+</DOC>

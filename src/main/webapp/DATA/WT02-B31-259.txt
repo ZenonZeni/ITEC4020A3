@@ -1,0 +1,140 @@
+
+<DOC>
+<DOCNO>WT02-B31-259</DOCNO>
+<DOCOLDNO>IA020-000210-B033-105</DOCOLDNO>
+<DOCHDR>
+http://sandcastle-ltd.com:80/freeware.html 199.35.141.30 19970107121405 text/html 6647
+HTTP/1.0 200 OK
+Date: Tue, 07 Jan 1997 12:15:30 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 6476
+Last-modified: Fri, 20 Dec 1996 02:12:13 GMT
+</DOCHDR>
+<html>
+<head>
+        <title>Freeware &amp; Shareware Firewalls</title>
+</head>
+
+<body bgcolor="#ffffff" TEXT="#000000" LINK="#0000ff" ALINK="#ff0000" VLINK="#175A73">
+
+<center>
+<table>
+	<tr>
+       <td align=right valign=top><img src="Objects/leftsq.gif"></td>
+       <td align=center valign=top><h1><i>Freeware &amp; Shareware Firewalls</i></h1></td>
+       <td align=left valign=top><img src="Objects/rightsq.gif"></td>
+    </tr>
+</table>
+</center>
+
+<table border="1" width="100%">
+   <tr align="left" valign="top"> 
+        <td>
+        <h2>Firewall Packages</h2>
+        <dir>
+            <li><a
+                target="reference" href="http://coombs.anu.edu.au/~avalon/">Darren
+                Reed's IP-Filter package</a><a
+                target="reference" href="ftp://coombs.anu.edu.au/pub/net/firewall/ip-filter/"><font
+                size="1"> [Kit]</font></a>is a packet filtering firewall that
+		runs on many UNIX systems.</li>
+            <li><a
+                target="reference" href="http://www.etl.go.jp/etl/People/ysato@etl.go.jp/DeleGate/">DeleGate</a><br>
+		The DeleGate is a proxy server for various TCP/IP protocols, including HTTP,
+		Gopher, WAIS, FTP, Telnet, NNTP, SMTP, POP and so on. It relays communications
+		among clients and servers which are isolated by a firewall for security.</li>
+            <li><a
+                target="reference" href="ftp://src.doc.ic.ac.uk/computing/security/unix/tamu/">Drawbridge</a> is a packet filtering firewall that runs on a PC.</li>
+            <li><a
+                target="reference" href="http://www.soscorp.com/products/Freestone.html">Freestone</a> is a derivative of SOS Corporation's commercial proxy firewall called "Brimstone".</li>
+			<li><a target="reference" href="http://www.iol.ie/~fod/ffc.html">
+				Firewall Foundation Classes</a> <br>
+				A C++ class library designed to assist in the
+				construction of safe internet gateways, clients and services.</li>
+            <li><a
+                target="reference" href="ftp://ftp.tis.com/pub/firewalls/toolkit/">
+                TIS Firewall Toolkit</a> <a
+                href="mailto:fwall-support@tis.com"><font
+                size="1">[Support E-mail]</font></a> The toolkit is the basis for the commercial proxy firewall "Gauntlet".
+		<dir>
+            	<li><a
+               	 target="reference" href="ftp://ftp.tis.com/pub/firewalls/toolkit/README">TIS
+                Toolkit Patches</a> </li>
+            	<li><a
+               	target="reference" href="ftp://ftp.perihelion.co.uk/pub/TIS/toolkit">More
+                patches for the TIS Toolkit</a></li>
+            	<li><a
+                target="reference" href="http://www.hdshq.com/fixes/fwtk">Several patches including modifications
+                to http-gw for Java/Javascript protection</a></li>
+            	<li><a
+                target="reference" href="http://www.micrognosis.com/%7enreadwin/fwtk.html">Firewall
+                Toolkit Answers</a> at Micrognosis</li>
+		<li><a target="reference" href="ftp://ftp.edelweb.fr/pub/contrib/fwtk/">
+			Christophe Touvet's ssl-gw proxy</a></li>
+		<li><a target="reference" href="ftp://mdi.meridian-data.com/pub/tis.fwtk/ssl-gw">
+			Netscape Secure News version of Touvet's ssl-gw proxy</a></li>
+		<li><a target="reference" href="ftp://ftp.uni-mainz.de/pub/internet/security/ssl/SSL-MZapps">
+			SSL-Telnet</a>
+        	</dir></li>
+        </dir>
+        </dir>
+        </td>
+    </tr>
+    <tr align="left" valign="top"> 
+        <td>
+        <h2>Firewall Utilities</h2>
+        <dir>
+            <li><a
+                target="reference" href="ftp://sparky.cs.yale.edu/pub/long/src/network/security/wwwblock.tar.gz">H.
+                Morrow Long's wwwblock</a> provides web site blocking from a proxying httpd.</li>
+            <li><a target="reference" href="http://www.psionic.com/logcheck.html">Logcheck</a>
+		Logcheck helps spot problems and security violations in your logfiles
+             	automatically and will send the results to you in e-mail.</li>
+            <li><a
+                target="reference" href="ftp://wzv.win.tue.nl/pub/security/">logdaemon</a> is a collection of
+		system utilities with ehanced security features.<a
+                target="reference" href="majordomo@wzv.win.tue.nl"><font
+                size="1">[Mailing List]</font></a><font size="1">
+                Body: subscribe logdaemon-announce</font></li>
+            <li><a target="reference" href="ftp://ftp.nntpcache.org/pub/nntpcache/">NNTPcache</a>
+		provides cached access to NNRP news servers.
+                </font><a
+                target="reference" href="mailto:nntpcache-users-request@nntpcache.org"><font
+                size="1">[Mailing List]</font></a><font size="1">
+                Subject: subscribe</font></li>
+            <li><a
+                target="reference" href="http://www.realaudio.com/products/firewall">RealAudio
+                Firewall Proxy Kit</a></li>
+            <li><a
+                target="reference" href="http://www.socks.nec.com/whatissocks.html">SOCKS</a> is an internet secure socket server</li>
+            <li><a
+                target="reference" href="ftp://ftp.op.net/pub/src/syn-prophylactica/">SYN-Attack Patches</a> 
+				Jeff Weisberg's SunOS patches to combat SYN attacks. <a target="reference" href="sun_security_bulletin_136.html"><font size="1">Sun Security Bulletin #136</font></a></li>
+            <li><a
+                target="reference" href="http://www.cs.berkeley.edu/~daw/mike/tcpshow.c">tcpshow</a>
+		Quickie to decode a &quot;tcpdump&quot; savefile.The application data
+                is displayed as ASCII -- application protocols
+                are not decoded.</li>
+            <li><a
+                target="reference" href="http://ftp.digital.com/pub/X11/R6-contrib/utilities/xroute.README">xroute</a> routes X packets from one machine to another.</li>
+        </dir>
+        </td>
+    </tr>
+</table>
+<table width="100%">
+    <tr>
+        <td align="center" colspan="3"><font size="2">
+        Copyright &copy; 1996 <a href="http://www.SandCastle-Ltd.com">SandCastle Ltd.</a>
+		All rights reserved.
+        <br>
+        Use this information at your own risk.<BR>
+        Neither SandCastle Ltd. nor any of its employees shall be liable<BR>
+        for any damage or losses inccured by using the information provided here.
+        </font></td>
+    </tr>
+</table>
+<a href="software.html"><img src="Images/back.gif" alt="Previous" border=0></a>
+</body>
+</html>
+</DOC>

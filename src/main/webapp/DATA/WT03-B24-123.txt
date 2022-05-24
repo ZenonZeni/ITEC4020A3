@@ -1,0 +1,91 @@
+
+<DOC>
+<DOCNO>WT03-B24-123</DOCNO>
+<DOCOLDNO>IA053-000896-B001-219</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/techcrit.html 129.174.40.15 19970123200856 text/html 3668
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:07:37 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 07 Dec 1995 22:57:13 GMT
+Content-type: text/html
+Content-length: 3485
+</DOCHDR>
+<html>
+<head>
+<title>Breakout Session C1/C2, Technical Criteria</title>
+</head>
+<body>
+<h2>Technical Criteria</h2>
+Recorded/reported by Pat Farrell<br>
+PhD Graduate Student<br>
+School of Information Technology and Engineering<br>
+George Mason University<br>
+Fairfax, Virginia.
+<p>
+This records notes and comments from the second C1/C2 breakout session at
+the NIS&T Encryption Key Escrow Export meeting. The session occured
+about 4:00 PM on September 6, 1995.
+<p>
+The session started with the folks from National Semiconductor described their
+CAKE system. This is a smartcard/PCMCIA device that uses 2000+ bit 
+public/private key encryption and signatures. They are hoping for export
+approval; it is necessary for the project to be viable.  The system looks
+pretty interesting, but it too complicated to describe here. In short, 
+random session keys are generated and signed with a Data Recovery Center's
+(DRC) public key. The LEAs could then send encrypted session keys to the DRC, 
+which would decrypt them, and return the unencrypted session keys which
+the LEA could then used to decrypt the messages.
+
+<p>
+While this is a hardware system, its concepts could be transfered to 
+a software implementation.
+
+<p>
+One obvious problem is that CAKE's system doesn't meet criteria #8 (requiring
+repeated involvement of the escrow agent), since it may require
+hundreds or thousands of session key decipherments. 
+<p>
+A second problem exists if the National Semiconductor product's 
+approach is implemented in software. It is possible that the software could
+modified so that a bogus DRC key is used. The rest of the protocol 
+would work, but the sessions would not be recoverable. This would 
+preclude any authorized government access to the sessions.
+<p>
+It also has a number of attractive features, such as 
+never sending the private key anywhere, only the session key is escrowed.
+<p>
+The general discussion showed concerns that in the international
+community, requiring government escrow may cause loss of valuable data,
+as some foriegn governments are not as trustworthy as the US. It was
+the consensus that requiring users to have 50 or more escrow centers was
+unworkable. Yet this could be required for large multinational companies
+working in 50 or more countries, if each required a local key escrow service.
+
+<p>
+The CAKE model would allow both date stamping of session keys, and periodic
+rekeying. Either would satisfy my "unaccepted" Citeria #11, technical
+limits to the time that a court ordered decryption could be executed.
+
+<p>
+There was a discussion of changing the criteria so that only the transmission
+of data was concerned with escrow. This would simplify the issue of
+multinational escrow. We did not resolve whether this would be sufficient
+or acceptable.
+
+<p>
+I believe that most of the participants had "run out of steam" before,
+or during, this session. It did not generate the lively discussions
+that occured constantly during the earlier session.
+<hr>
+Follow this link to the <a href="./crit56.html">writeup of
+the breakout session on Criterias #5 and 6.</a>
+<p>
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nist/nist950906.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a> 
+December 7, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

@@ -1,0 +1,639 @@
+
+<DOC>
+<DOCNO>WT01-B13-203</DOCNO>
+<DOCOLDNO>IA018-000197-B007-18</DOCOLDNO>
+<DOCHDR>
+http://www.kemper.com:80/about/application.html 198.152.185.42 19970106174649 text/html 20373
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Monday, 06-Jan-97 17:42:48 GMT
+Last-modified: Monday, 19-Aug-96 22:22:01 GMT
+Content-length: 20190
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Kemper Online Application</TITLE>
+</HEAD>
+
+<BODY BACKGROUND="gifs/application_bk.gif" BGCOLOR="#FFFFFF">
+
+<IMG ALIGN=LEFT SRC="../gifs/headers/date_hd.gif" ALT="Kemper.com">
+<IMG ALIGN=LEFT SRC="../gifs/headers/search_spacer_hd.gif">
+<A HREF="../search.html"><IMG ALIGN=LEFT BORDER=0 SRC="../gifs/headers/search_hd.gif" ALT="Search"></A>
+
+<IMG ALIGN=RIGHT SRC="gifs/headers/application_wht_hd.gif" 
+ALT="Online Application">
+<IMG ALIGN=RIGHT SRC="gifs/headers/slash_gry_hd.gif" 
+ALT="/">
+<A HREF="opportunities.html">
+<IMG ALIGN=RIGHT BORDER=0 SRC="gifs/headers/opportunities_gry_hd.gif" 
+ALT="Employment Opportunities"></A>
+
+<BR CLEAR=ALL>
+<BR><P><BR>
+
+<IMG ALIGN=LEFT SRC="gifs/opportunities_sidebar.gif">
+
+<DL><DT>
+
+
+<IMG SRC="gifs/application_head.gif" ALT="Application for Employment">
+<BR>
+<FONT SIZE=-1>(An Equal Opportunity Employer)</FONT SIZE=-1>
+
+<BR><BR>
+
+Please complete this entire application.
+<BR><BR>
+
+<FORM 
+ACTION="/cgi-bin/application" METHOD="POST">
+
+<STRONG>Personal Information</STRONG>
+<BR><BR>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>First Name</TD>
+<TD NOWRAP WIDTH=12 ROWSPAN=12></TD>
+<TD VALIGN=TOP><INPUT NAME="firstname" TYPE="text" SIZE="30"></TD>
+<TD VALIGN=TOP>
+M.I. <INPUT NAME="middleintial" TYPE="text" SIZE="3"> </TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Last Name</TD><TD VALIGN=TOP><INPUT NAME="lastname" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Social Security 
+<BR>
+Number</TD><TD VALIGN=TOP><INPUT NAME="ssn" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Street Address</TD><TD VALIGN=TOP><INPUT NAME="address" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>City</TD><TD VALIGN=TOP><INPUT NAME="city" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>State</TD><TD VALIGN=TOP><INPUT NAME="state" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Zip Code</TD><TD VALIGN=TOP><INPUT NAME="zip" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Home telephone</TD><TD VALIGN=TOP><INPUT NAME="homephone" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Work telephone</TD><TD VALIGN=TOP><INPUT NAME="workphone" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<BR>
+Have you ever worked or attended school under a different name?
+<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="diffname">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="diffname">No
+
+<BR><BR>
+
+If yes, what name and at what school and/or employer?
+<BR>
+<TEXTAREA NAME="diffnamewhat" ROWS="4" COLS="50"></TEXTAREA>
+<BR><BR>
+
+If hired can you provide proof that you are eligible to work in the United
+States?
+<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="poofworkusa">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="poofworkusa">No
+
+<BR><BR>
+
+Are you at least 18 years of age?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="areyoulegal">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="areyoulegal">No
+
+<BR><BR>
+
+Position applying for (and if part time, hours available per week)<BR>
+<INPUT NAME="posapplied" TYPE="text" SIZE="30">
+
+<BR><BR>
+
+Starting salary expected: <INPUT NAME="salary" TYPE="text" SIZE="19">
+
+<BR><BR>
+<BR>
+
+<STRONG>General Information</STRONG>
+
+<BR><BR>
+
+What prompted you to seek employment with us? 
+<BR>
+<INPUT NAME="whyapply" TYPE="text" SIZE="40">
+
+<BR><BR>
+
+Have you previously applied for a position with or been employed by a Zurich
+company?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="prevapply">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="prevapply">No
+
+<BR><BR>
+
+If yes, list dates and company:<BR>
+<TEXTAREA NAME="prevapplywhat" ROWS="4" COLS="50"></TEXTAREA>
+
+<BR><BR>
+
+Are you a relative of an employee of a Zurich company?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="relemployee">Yes
+<INPUT TYPE="radio" VALUE="no" NAME="relemployee">No<BR>
+<BR>
+If Yes, which company and department?<BR>
+<TEXTAREA NAME="relemployeewhat" ROWS="4" COLS="50"></TEXTAREA><BR>
+<BR>
+Please provide any additional information such as special skills, training,
+experience, equipment operation or qualifications you feel will be helpful
+to us in considering your application.<BR>
+<BR>
+<TEXTAREA NAME="addinfowhat" ROWS="4" COLS="50"></TEXTAREA>
+
+<BR><BR>
+<BR>
+
+<STRONG>Educational Background</STRONG>
+
+<BR><BR>
+
+Highest education level completed:
+<BR>
+ 
+<SELECT NAME="highestschool">
+<OPTION>Elementary
+<OPTION>High School
+<OPTION SELECTED>College
+<OPTION>Graduate
+</SELECT>
+
+<SELECT NAME="highestschoolnumber">
+<OPTION SELECTED>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>1 - 6
+<OPTION>7 - 8
+</SELECT>
+
+<BR><BR>
+
+High School
+<BR>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>Name</TD><TD NOWRAP WIDTH=12 ROWSPAN=12><TD VALIGN=TOP><INPUT NAME="highschoolname" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>City</TD><TD VALIGN=TOP><INPUT NAME="highschoolcity" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>State</TD><TD VALIGN=TOP><INPUT NAME="highschoolstate" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Number of years attended</TD><TD VALIGN=TOP><INPUT NAME="highschoolyears" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Major Field of Study</TD><TD VALIGN=TOP><INPUT NAME="highschoolmajor" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Degree, Diploma <BR>
+or Credit Received</TD><TD VALIGN=TOP><INPUT NAME="highschooldegree" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Year Degree Received</TD><TD VALIGN=TOP><INPUT NAME="highschooldegreeyear" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+College
+<BR>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>Name</TD><TD NOWRAP WIDTH=12 ROWSPAN=12><TD VALIGN=TOP><INPUT NAME="collegename1" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>City</TD><TD VALIGN=TOP><INPUT NAME="collegecity1" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>State</TD><TD VALIGN=TOP><INPUT NAME="collegestate1" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Number of years attended</TD><TD VALIGN=TOP><INPUT NAME="collegeyears1" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Major Field of Study</TD><TD VALIGN=TOP><INPUT NAME="collegemajor1" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Degree, Diploma <BR>
+or Credit Received</TD><TD VALIGN=TOP><INPUT NAME="collegedegree1" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Year Degree Received</TD><TD VALIGN=TOP><INPUT NAME="collegedegreeyear1" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+College
+<BR>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>Name</TD><TD NOWRAP WIDTH=12 ROWSPAN=12><TD VALIGN=TOP><INPUT NAME="collegename2" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>City</TD><TD VALIGN=TOP><INPUT NAME="collegecity2" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>State</TD><TD VALIGN=TOP><INPUT NAME="collegestate2" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Number of years attended</TD><TD VALIGN=TOP><INPUT NAME="collegeyears2" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Major Field of Study</TD><TD VALIGN=TOP><INPUT NAME="collegemajor2" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Degree, Diploma <BR>
+or Credit Received</TD><TD VALIGN=TOP><INPUT NAME="collegedegree2" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Year Degree Received</TD><TD VALIGN=TOP><INPUT NAME="collegedegreeyear2" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+College
+<BR>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>Name</TD><TD NOWRAP WIDTH=12 ROWSPAN=12><TD VALIGN=TOP><INPUT NAME="collegename3" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>City</TD><TD VALIGN=TOP><INPUT NAME="collegecity3" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>State</TD><TD VALIGN=TOP><INPUT NAME="collegestate3" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Number of years attended</TD><TD VALIGN=TOP><INPUT NAME="collegeyears3" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Major Field of Study</TD><TD VALIGN=TOP><INPUT NAME="collegemajor3" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Degree, Diploma <BR>
+or Credit Received</TD><TD VALIGN=TOP><INPUT NAME="collegedegree3" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Year Degree Received</TD><TD VALIGN=TOP><INPUT NAME="collegedegreeyear3" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+Other
+<BR>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>Name</TD><TD NOWRAP WIDTH=12 ROWSPAN=12><TD VALIGN=TOP><INPUT NAME="othername" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>City</TD><TD VALIGN=TOP><INPUT NAME="othercity" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>State</TD><TD VALIGN=TOP><INPUT NAME="otherstate" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Number of years attended</TD><TD VALIGN=TOP><INPUT NAME="otheryears" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Major Field of Study</TD><TD VALIGN=TOP><INPUT NAME="othermajor" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Degree, Diploma <BR>
+or Credit Received</TD><TD VALIGN=TOP><INPUT NAME="otherdegree" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP>Year Degree Received</TD><TD VALIGN=TOP><INPUT NAME="otherdegreeyear" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+<STRONG>Other Information</STRONG>
+
+<BR><BR>
+
+Have you ever been refused a bond? <INPUT TYPE="radio" VALUE="yes" NAME=
+"refusebond">Yes <INPUT TYPE="radio" VALUE="no" NAME="refusebond">No<BR>
+If yes, please explain<BR>
+<TEXTAREA NAME="refusedbondexplain" ROWS="4" COLS="50"></TEXTAREA>
+<BR><BR>
+
+Have you ever been convicted, pleaded guilty or <EM>nolo contendere</EM>
+(&quot;no contest&quot;) to any felony?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="convictfelony">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="convictfelony">No
+<BR>
+If yes, please explain<BR>
+<TEXTAREA NAME="felonyexplain" ROWS="4" COLS="50"></TEXTAREA><BR>
+<BR>
+Have you ever been convicted, pleaded guilty or <EM>nolo contendere</EM>
+(&quot;no contest&quot;) to a misdemeanor involving a fraudulent or dishonset
+act?<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="convictmisdemeanor">Yes <INPUT TYPE="radio"
+VALUE="no" NAME="convictmisdemeanor">No<BR>
+If yes, please explain<BR>
+<TEXTAREA NAME="misdemeanorexplain" ROWS="4" COLS="50"></TEXTAREA>
+
+<BR><BR>
+<EM>Note: A conviction will not necessarily be a bar to employment. Factors
+such as age and time of the offense, seriousness and nature of the violation,
+and rehabilitation will be taken into account.</EM>
+
+<BR><BR>
+<BR>
+
+<STRONG>Employment History</STRONG>
+
+<BR><BR>
+
+LIST MOST RECENT JOB FIRST. All employers prior to your current employer
+may be contacted to verify the information provided.
+
+<BR><BR>
+
+May we contact your current employer at this time? 
+<BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="contactemployer">Yes 
+<INPUT TYPE="radio" VALUE="no" NAME="contactemployer">No
+
+<BR><BR>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>Company</TD>
+<TD NOWRAP WIDTH=12 ROWSPAN=10></TD>
+<TD VALIGN=TOP><INPUT NAME="prevcompanyname" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Address</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyaddress"  SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Telephone</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyphone" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Position</TD><TD VALIGN=TOP NOWRAP><INPUT NAME="prevcompanyposition" TYPE="text" SIZE="30"> 
+<INPUT TYPE="radio" VALUE="fulltime" NAME="prevcompanystatus"> Full Time 
+<INPUT TYPE="radio" VALUE="parttime" NAME="prevcompanystatus">Part Time
+</TR>
+<TR>
+<TD VALIGN=TOP>Employed</TD><TD VALIGN=TOP NOWRAP>From (mo./yr.): <INPUT NAME="prevcompanydatestart" TYPE="text" SIZE="12">To (mo./yr.):
+<INPUT NAME="prevcompanydateend" TYPE="text" SIZE="12"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Salary Start</TD><TD VALIGN=TOP><INPUT NAME="prevcompanysalstart" TYPE="text" SIZE="11">End 
+<INPUT NAME="prevcompanysalend" TYPE="text" SIZE="9"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Supervisor</TD><TD VALIGN=TOP><INPUT NAME="prevcompanysupervisor" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Duties</TD><TD VALIGN=TOP><TEXTAREA NAME="prevcompanyduties" ROWS="4" COLS="40"></TEXTAREA><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Reasons 
+<BR>
+for leaving</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyleave" TYPE="text" SIZE="43"><BR>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>Company</TD>
+<TD NOWRAP WIDTH=12 ROWSPAN=10></TD>
+<TD VALIGN=TOP><INPUT NAME="prevcompanyname2" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Address</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyaddress2" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Telephone</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyphone2" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Position</TD><TD VALIGN=TOP NOWRAP><INPUT NAME="prevcompanyposition2" TYPE="text" SIZE="30"> 
+<INPUT TYPE="radio" VALUE="fulltime" NAME="prevcompanystatus2">Full Time 
+<INPUT TYPE="radio" VALUE="parttime" NAME="prevcompanystatus2">Part Time
+</TR>
+<TR>
+<TD VALIGN=TOP>Employed</TD><TD VALIGN=TOP NOWRAP>From (mo./yr.): <INPUT NAME="prevcompanydatestart2" TYPE="text" SIZE="12">To (mo./yr.):
+<INPUT NAME="prevcompanydateend2" TYPE="text" SIZE="12"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Salary Start</TD><TD VALIGN=TOP><INPUT NAME="prevcompanysalstart2" TYPE="text" SIZE="11">End 
+<INPUT NAME="prevcompanysalend2" TYPE="text" SIZE="9"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Supervisor</TD><TD VALIGN=TOP><INPUT NAME="name" TYPE="prevcompanysupervisor2" SIZE="30"><BR>
+</TR> 
+<TR>
+<TD VALIGN=TOP>Duties</TD><TD VALIGN=TOP><TEXTAREA NAME="prevcompanyduties2" ROWS="4" COLS="40"></TEXTAREA><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Reasons 
+<BR>
+for leaving</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyleave2" TYPE="text" SIZE="43"><BR>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>Company</TD>
+<TD NOWRAP WIDTH=12 ROWSPAN=10></TD>
+<TD VALIGN=TOP><INPUT NAME="prevcompanyname3" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Address</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyaddress3" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Telephone</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyphone3" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Position</TD><TD VALIGN=TOP NOWRAP><INPUT NAME="prevcompanyposition3" TYPE="text" SIZE="30"> 
+<INPUT TYPE="radio" VALUE="fulltime" NAME="prevcompanystatus3">Full Time 
+<INPUT TYPE="radio" VALUE="parttime" NAME="prevcompanystatus3">Part Time
+</TR>
+<TR>
+<TD VALIGN=TOP>Employed</TD><TD VALIGN=TOP NOWRAP>From (mo./yr.): <INPUT NAME="prevcompanydatestart3" TYPE="text" SIZE="12">To (mo./yr.):
+<INPUT NAME="prevcompanydateend3" TYPE="text" SIZE="12"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Salary Start</TD><TD VALIGN=TOP><INPUT NAME="prevcompanysalstart3" TYPE="text" SIZE="11">End 
+<INPUT NAME="prevcompanysalend3" TYPE="text" SIZE="9"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Supervisor</TD><TD VALIGN=TOP><INPUT NAME="prevcompanysupervisor3" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Duties</TD><TD VALIGN=TOP><TEXTAREA NAME="prevcompanyduties3" ROWS="4" COLS="40"></TEXTAREA><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Reasons 
+<BR>
+for leaving</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyleave3" TYPE="text" SIZE="43"><BR>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD VALIGN=TOP>Company</TD>
+<TD NOWRAP WIDTH=12 ROWSPAN=10></TD>
+<TD VALIGN=TOP><INPUT NAME="prevcompanyname4" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Address</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyaddress4" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Telephone</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyphone4" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Position</TD><TD VALIGN=TOP NOWRAP><INPUT NAME="prevcompanyposition4" TYPE="text" SIZE="30"> 
+<INPUT TYPE="radio" VALUE="fulltime" NAME="prevcompanystatus4">Full Time 
+<INPUT TYPE="radio" VALUE="parttime" NAME="prevcompanystatus4">Part Time
+</TR>
+<TR>
+<TD VALIGN=TOP>Employed</TD><TD VALIGN=TOP NOWRAP>From (mo./yr.): <INPUT NAME="prevcompanydatestart4" TYPE="text" SIZE="12">To (mo./yr.):
+<INPUT NAME="prevcompanydateend4" TYPE="text" SIZE="12"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Salary Start</TD><TD VALIGN=TOP><INPUT NAME="prevcompanysalstart4" TYPE="text" SIZE="11">End 
+<INPUT NAME="prevcompanysalend4" TYPE="text" SIZE="9"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Supervisor</TD><TD VALIGN=TOP><INPUT NAME="prevcompanysupervisor4" TYPE="text" SIZE="30"><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Duties</TD><TD VALIGN=TOP><TEXTAREA NAME="prevcompanyduties4" ROWS="4" COLS="40"></TEXTAREA><BR>
+</TR>
+<TR>
+<TD VALIGN=TOP>Reasons 
+<BR>
+for leaving</TD><TD VALIGN=TOP><INPUT NAME="prevcompanyleave4" TYPE="text" SIZE="43"><BR>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+Zurich companies comply with federal, state and local laws governing
+employment and business practices, and provide equal employment opportunities
+to all applicants and employees in a manner that will not discriminate against
+any person because of race, color, religion, age, sex. national origin,
+disability or other status protected by applicable law.<BR>
+<BR>
+Carefully read the following statements <STRONG>BEFORE</STRONG> agreeing
+below.<BR>
+<BR>
+I understand that accuracy and completeness of the information provided
+on this application are required. I understand that any misstatement or
+omission of fact on this application may result in the failure to be hired
+or discharged.<BR>
+<BR>
+I understand that it is a requirement of employment that I be bonded (at
+the expense of the employer) and that my employment is therefore subject
+to my acceptance by the bonding company.<BR>
+<BR>
+I authorize Zurich to make a thorough investigation of my past employment,
+education and other activities and release from all liability all persons
+and entities supplying such information. I understand that it is the practice
+of this company to obtain fingerprints of all employees and submit them
+to the Federal Bureau of Investigation. I agree, if employed, to permit
+Zurich to obtain my fingerprints.<BR>
+<BR>
+I understand that some positions at Zurich have special continuing qualification
+requirements, such as the acquisition and maintenance of a license and/or
+the passing of an examination after employment begins, or such other qualification
+requirements as may be established by the company, and acknowledge that
+employment in any position must terminate if a job qualification requirement
+is not met.<BR>
+<BR>
+I understand that as part of the normal procedure for processing my employment
+application, a consumer report may be prepared. Such reports may include
+information as to credit standing, character and general reputation. I also
+understand that I have the right to make a written request within a reasonable
+period of time to receive additional detailed information about the nature
+and scope of this investigation.<BR>
+<BR>
+In the event that I am hired, and as a requirement of any employment with
+Zurich, I agree to conform to the rules and standards of conduct of my employing
+company. I understand that my employment can be terminated for any or no
+reason and with or without notice, at any time, at the option of either
+the company or myself. I understand that no employee or agent of Zurich
+is authorized to offer me an employment relationship other than one that
+is terminable at will.<BR>
+<BR>
+I also understand and agree that the terms and conditions of my employment
+(other than my at-will status) as well as any employee benefits with Zurich
+may be changed or discontinued at any time with or without notice.
+
+<BR><BR>
+
+<CENTER><INPUT NAME="iagree" TYPE="submit" VALUE="I Agree">           
+         <INPUT NAME="idisagree" TYPE="submit" VALUE="I Disagree"></CENTER>
+</FORM>
+
+<BR><BR>
+
+</DL>
+
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<TR>
+<TD VALIGN=TOP ALIGN=RIGHT>
+  <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+  <TR>
+  <TD VALIGN=TOP COLSPAN=2>
+  <A HREF="../menu.html">
+  <IMG BORDER=0 SRC="../gifs/icons/kemper_blkwht.gif"></A></TD>
+  </TR>
+  <TR>
+  <TD VALIGN=TOP>
+	<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+	<TR>
+	<TD VALIGN=TOP NOWRAP WIDTH=45></TD>
+	<TD VALIGN=TOP><BR><FONT SIZE=-1></FONT SIZE=-1></TD>
+	</TR>
+	</TABLE></TD>  
+  </TD>
+  </TR>
+  </TABLE>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+</BODY>
+</HTML>
+
+
+</DOC>

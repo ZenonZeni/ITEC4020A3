@@ -1,0 +1,58 @@
+
+<DOC>
+<DOCNO>WT01-B11-11</DOCNO>
+<DOCOLDNO>IA062-000357-B014-442</DOCOLDNO>
+<DOCHDR>
+http://www.monito.com:80/wankel/j-epi.html 206.86.185.198 19970116014611 text/html 1500
+HTTP/1.0 200 OK
+Date: Thu, 16 Jan 1997 01:46:07 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 1318
+Last-modified: Sun, 26 May 1996 22:20:14 GMT
+</DOCHDR>
+<HTML>
+
+<TITLE>   Wankel Rotary Engines - Epitrochoid Generation (Java)   </TITLE>
+
+<HEAD>
+
+<META Name="description" Content="Demonstration (Java) of derivation of
+Wankel rotary combustion engine shape (peritrochoid or epitrochoid).">
+
+<META Name="keywords" Content="Wankel rotary combustion engine Java demo
+epitrochoid peritrochoid">
+
+</HEAD>
+
+<BODY background="../Textures/monito-logo-bkgd.gif" bgcolor="#F0F0F0"
+	text="#000000" link="#0000FF" alink="#00FF00" vlink="#00B000">
+
+<A HREF = "wankel.html"> Wankel Home </A> |
+<A HREF = "rce.html"> Back to Theory </A>
+
+<H1> Demonstration of Epitrochoid Generation </H1>
+
+<P> Please allow enough time for the java application to load, about
+3 minutes at 9.6 kbaud.
+
+<APPLET CODE="Epi.class" WIDTH=500 HEIGHT=430
+	CODEBASE=".">
+	<PARAM NAME=FramesPerSec VALUE=15>
+</APPLET>
+
+<P> <A HREF = "wankel.html"> Wankel Home </A> |
+<A HREF = "rce.html"> Back to Theory </A>
+
+<P> <A HREF="../disclaim.html">Copyright</A> &#169; 1996 <A HREF =
+"../index.html">Alan Marr</A>.  This update notice was last updated
+April 5, 1996.  Do you <A HREF = "../version.html">not see the
+monkey</A> in the rotor background?  <A HREF = "submit.html">You can
+help</A>.  You may send your comments or questions to <A HREF =
+"mailto:rce@monito.com"> <KBD>rce@monito.com</KBD></A>.
+
+</BODY>
+
+</HTML>
+</DOC>

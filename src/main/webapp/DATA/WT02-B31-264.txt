@@ -1,0 +1,108 @@
+
+<DOC>
+<DOCNO>WT02-B31-264</DOCNO>
+<DOCOLDNO>IA020-000210-B033-330</DOCOLDNO>
+<DOCHDR>
+http://sandcastle-ltd.com:80/Papers/firewallPerformance.html 199.35.141.30 19970107121735 text/html 5785
+HTTP/1.0 200 OK
+Date: Tue, 07 Jan 1997 12:19:01 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 5614
+Last-modified: Fri, 01 Nov 1996 15:23:14 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<title>Firewall Performance Measuring Techniques</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+</head>
+
+<body bgcolor="#FFFFFF" link="#CC0000" vlink="#330099" alink="#FF3300">
+<h1>Firewall Performance Measurement 
+Techniques: A scientific approach</h1>
+<address><p>mjr@v-one.com </p>
+</address>
+<p>This is a draft of an approach I was working on but never completed for lack of adequate lab 
+space. I think this approach would permit a fairly scientific evaluation of the load a firewall is 
+capable of bearing, by modelling its performance against a scaled number of measured loads.</p>
+<ol>
+<li>Monitor a firewall for a month and store its logs <p><b>Observation:</b>this gives some idea of a load through a firewall, whether it's packet or 
+application level. If the firewall is an application level firewall like a toolkit-based one this is 
+pretty easy. If it is a packet-level firewall like a router, some kind of log-reduction will be 
+necessary using something like tcpdump or NNstat. </p>
+</li>
+<li>Sort the logs into &quot;quanta&quot; by time of day, per hour. <p><b>Observation:</b> some hours of the day have higher peaks than others (3:00am versus 
+11:00am) and will exhibit different load characteristics. Sorting the logs by quanta of one 
+hour will prove or disprove this assumption </p>
+</li>
+<li>Tabulate the quanta by services, yielding values like: <ul>
+<li>Number of email messages during that quantum </li>
+<li>Average size of email messages during that quantum </li>
+<li>Average time between arrival of email during that quantum </li>
+<li>Number of web hits during that quantum </li>
+<li>Average size of retrieved web objects during that quantum </li>
+<li>Average time between web accesses during that quantum </li>
+<li>Number of FTP retrieves during that quantum </li>
+<li>Average size of FTP objects retrieved during that quantum </li>
+<li>Average time between FTP retrievals during that quantum </li>
+<li>Number of TELNET sessions during that quantum </li>
+<li>Maximum concurrent TELNET sessions during that quantum </li>
+<li>Amount of NNTP traffic in during that quantum </li>
+<li>Amount of NNTP traffic out during that quantum </li>
+<li>Average time between NNTP sessions during that quantum </li>
+</ul>
+</li>
+<li>Note the <b>peak</b> load in any one quantum for each service wherever it occurs <p><b>Observation:</b> if we tried to put <i>ALL</i> that load through the firewall in one quantum's worth 
+of time, we'd have a simulation of the worst-case load we have yet observed </p>
+</li>
+<li><b>Implementation:</b> Tools to generate these loads from existing logs would be pretty 
+straightforward and could be run at any site wishing to perform this test. Presumably the 
+values would be different for each site but maybe not very. A number of expect scripts or 
+PERL scripts, using static file data could simulate the load through the firewall without 
+having to actually do the work. </li>
+<li>We have a characteristic &quot;workload by quantum&quot; for the organization, including peaks and 
+a worst case scenario Assumption: we have a characteristic &quot;rate of load increase&quot; by 
+watching what happens to the rate of service requests between busy hours and non-busy 
+hours. <p><b>Observation:</b> We know that the &quot;workload by quantum&quot; value is sustainable by the 
+firewall because we measured it. :) the question is how far from the doable load level is the 
+load level at which the firewall topples? This is the point of the exercise. :) </p>
+</li>
+<li>Write a test harness that invokes the emulators in a way that will develop the same load 
+model. Values that the test driver will need to control are: <ul>
+<li>Number of concurrent loads for service X </li>
+<li>Size of accesses for service X </li>
+<li>Interval between accesses for service X </li>
+</ul>
+</li>
+<li>Run the test harness with the load configured to match the loadout at a given time that is 
+not peak but someplace near it. </li>
+<li>Compare the run times for the near peak load with the actual measured near peak load. <p><b>Observation: </b>they should be about the same!! </p>
+</li>
+<li>Run the test harness to emulate the peak load </li>
+<li>Compare the run times for the peak load with the run times for the actual measured peak 
+load. <p><b>Observation:</b> they should be about the same!! </p>
+</li>
+<li><i>NOW</i> we can start to see what happens to the firewall when we increase the load above 
+real measured values!! <p><b>Observation: </b>To &quot;increase&quot; the load beyond a real measured value we need to plot the 
+increase rate we observed <i>AND</i> the rate at which service invocations increased. The goal 
+here is to generate test loads that *should* fit through the firewall within our time quantum. </p>
+</li>
+<li>Run the test harness with the fictional worst case load (the one where everything runs at its 
+observed peak at once) <p><b>Observation:</b> This represents the *observed* worst case. If the firewall handles it OK 
+that's an interesting fact. </p>
+<p><b>Assumption:</b> The firewall will have &quot;topped out&quot; when it can no longer run the generated 
+load within a time quantum. I.e., as soon as it takes longer than an hour to run the load it 
+has peaked out. </p>
+</li>
+<li>Keep adding a load quantum factor until the firewall topples OR the firewall cannot 
+manage the load within a time quantum. </li>
+<li>Publish some results. :) </li>
+</ol>
+<hr>
+</body>
+
+</html>
+</DOC>

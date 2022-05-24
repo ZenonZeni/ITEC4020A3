@@ -1,0 +1,217 @@
+
+<DOC>
+<DOCNO>WT01-B04-40</DOCNO>
+<DOCOLDNO>IA080-000557-B034-296</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Planetrobs.html 137.79.14.197 19970103071251 text/html 26411
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f2a1.320@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:17:53 GMT
+Last-Modified: Thursday, 15-Feb-96 18:01:25 GMT
+Content-type: text/html
+Content-length: 26164
+</DOCHDR>
+<TITLE> PLANETARY ROBOTICS 1/96</title>
+<img src="logo.gif"><H3>Rover and Telerobotics Technology Program</h3><p>
+<H1>PLANETARY ROBOTICS</h1><p>
+<A NAME="segment">In this segment:</a>
+<UL>
+<LI><A HREF="#MoSciLab">Mobile Science Laboratory</a>
+<LI><A HREF="#MiniTech">Rover Miniaturization and Survival Technology</a>
+<LI><A HREF="#Nanorovers">Nanorovers</a>
+<LI><A HREF="#MarsYard">JPL MarsYard</a>
+<LI><A HREF="#MarsLandexMan">Mars Lander Dexterous Manipulator</a>
+<LI><A HREF="#Aerobots">Aerobots</a>
+<LI><A HREF="#SmallBodies">Exploration of Small Bodies</a>
+<LI><A HREF="#EPMActuators">Electrostrictive Polymer Muscle Actuators</a><p>
+</ul>
+Other Segments on this homepage:
+<UL>
+<LI><A HREF="Platformrobs.html">Platform Robotics</a>
+<LI><A HREF="Techcom.html">Technology Commercialization</a>
+<LI><A HREF="Non-NASA.html">Non-NASA Tasks</a>
+</ul><p>
+<A HREF="Menu.html">Back to Main Menu</a><p>
+<B>========================================</b><p>
+<A NAME="MoSciLab"><H3>Mobile Science Laboratory</h3></a><p>
+JPL is developing small robotic rovers for planetary surface exploration.  The Microrover flight Experiment on the Mars Pathfinder mission (scheduled to arrive at Mars in 1997) is a focused rover flight demonstration program.  In parallel, research and technology development are being conducted to expand the current capabilities of these microrovers, while further reducing their mass and power consumption.  The rover technology efforts have two major thrusts:  Science rover development and miniaturized rovers.<p>
+<CENTER>
+<img src="Rocky7.GIF"><p>
+<H5>JPL-26482 Ac</h5><p>
+<H4>Rocky 7, a next-generation microrover with low-power stereovision.</h4><p>
+</center>
+The Mobile Science Laboratory task develops technologies that enable 20-kilogram-class microrovers to autonomously traverse many kilometers on the surface of Mars, perform scientist-directed experiments, and return relevant data back to Earth.  Present microrover technology has several limitations precluding more ambitious science-rich missions.  Current microrovers have very limited traverse capability (tens of meters), are not capable of sample acquisition and manipulation --that is, soil and rock acquisition, subsurface access, and burial of instruments-- have limited science packages on board, are designed for short-term (10-day) missions, and require careful and repetitive ground monitoring and control (limited autonomy).<p>
+
+A complementary activity involves autonomous acquisition of multiple science targets and sites.  Given specified goal locations for daily operations, new capabilities are being developed to maximize the number of science activities that the rover system can perform between cycles of communication with Earth.  Primary among three new capabilities is autonomous goal identification, together with autonomous performance of the designated science sample acquisition task.  Onboard machine intelligence provides capabilities for autonomous search and recognition of potentially interesting targets, as well as capabilities for sensor platform planning and utilization.  Acquisition of scientific samples requires miniature sampling devices and autonomous control of them.  New robotic mechanisms are being developed to enable the performance of science tasks such as<p>
+<UL>
+<LI>Sensor pointing, emplacement, or burial.
+<LI>Soil and rock sample acquisition and transport.
+<LI>Fresh rock Exposure.
+<LI>Camera positioning for scientific imaging, navigation, and vehicle self-inspection.<p>
+</ul>
+Recent experimental tests conducted in the JPL MarsYard reflect the status of the technology under development by the Mobile Science Laboratory task.  One such test involved an experimental microrover named Rocky 7, which has low-power stereovision, a manipulator arm, and the ability to autonomously recognize designated targets.  Rocky 7 performed a survey of a 20- x 20-meter area, in variable terrain ranging from 0.6 to 2 large obstacles per square meter.  Executing 10 science sorties, the microrover performed site imaging and soil sampling with only five command uplinks.  In each sortie, the microrover identified at least one scientific target or acquired at least one sample at designated sites, then returned to  the vicinity of the lander.  As part of the test, recovery from selected major failure modes was demonstrated.<p>
+
+One additional goal of the Mobile Science Laboratory task is to enable and enhance rover-based scientific exploration of planetary surfaces by integrating science instruments on small rover platforms for field testing of terrestrial prototypes.  The task involves collaboration with planetary scientists to identify science instruments important to future missions, and science data reduction methods.  Two main areas are being explored:<p>
+<UL>
+<LI>Science instrument usage --the identification and integration of science instruments on small rover platforms for experimentation and demonstration of capabilities.
+<LI>Science data analysis --computer-based characterization of data via heuristics and data analysis methods, allowing confirmation of science objectives as well as prioritization of data returned to Earth.<p>
+</ul>
+Closely related to these two areas is research in intelligent vision and touch-guided grasping being done in collaboration with researchers (K. Salisbury is the principal investigator) at the Massachusetts Institute of Technology.  The goal is to develop the technology required for the autonomous onboard selection of interesting rock samples, and for autonomous execution of the subsequent rock-grasp and -retrieve operation.  The capability will allow a human controller to command and operate the remote system using only relatively easy-to-use high-level commands, while relying on the remote system itself to perform the desired operation reliably.<p>
+<CENTER>
+<img src="r7-spec.gif"><p>
+<H4>Rover-mounted spectrometer for analysis of rock and soil samples</h4><p>
+<img src="computer.gif"><p>
+<H4>Computer-generated model of a planetary surface and rover</h4><p>
+</center>
+The Mobile Science Laboratory task is also developing a ground-based operator interface and associated enabling technologies for control of planetary science missions.  The interface will enable multiple mission scientists at various locations to view downlink science and terrain data and interactively and simultaneously input desired mission tasks for the next command cycle.  These commands will be merged into a daily mission command sequence by the mission sequence planner module based on task priorities and terrain traversability.<p>
+
+<H5><B>Point of Contact:</b>  Samad.A.Hayati@jpl.nasa.gov</h5><p>
+<p>
+<A HREF="#segment">Return to Segment Menu</a><p>
+<B>========================================</b><p>
+<A NAME="MiniTech"><H3>Rover Miniaturization and Survival Technology</h3></a><p>
+
+The basic goal of this work is to shift the 5-kilogram microrover paradigm to one of higher-yield, longer-duration science --for both equatorial and polar Martian extremes.  Fundamental issues include<p>
+<UL>
+<LI>Reducing mass and volume of rover structural and actuator design.
+<LI>Achieving high-density power delivery over wide thermal ranges.
+<LI>Maintaining a stable thermal environment, which will facilitate use of more conventional, mass-and-volume-efficient commercial electronics.
+<LI>Creating new classes of ultra-light, environmentally resistant miniaturized robotic sampling devices, including active tooling.
+<LI>Controlling force-contact tasks of an ultra-light rover-manipulator platform on uneven terrain.
+<LI>Integrating broad-capability science instruments into these rover architectural innovations.<p>
+</ul>
+In fiscal year 1996, the goal is to develop and demonstrate in ground operational configuration a new collapsible mobility architecture enabling approximate doubling of the wheel diameter of the Mars Pathfinder rover (named Sojourner), while allowing rover stowage in a smaller flight volume.  The overall design will be consistent with a target flight rover mass of 5 kilograms.  The Rover Miniaturization and Survival Technology task will evaluate the ability of the new rover to traverse up to 10 meters in simulated Mars Viking Lander-1 and -2 scenarios while using onboard navigational guidance and hazard-detection capabilities.  The task will benchmark against relevant Sojourner and Rocky 7 characteristics.<p>
+<CENTER>
+<img src="5kgrover.gif"><p>
+<H4>Under 5-kilogram rover prototype, using Mars Pathfinder heritage.</h4><p>
+</center>
+The technology products resulting from the Rover Miniaturization and Survival Technology task will be valuable both to breakthrough microrover design for local operations, and the larger-scale science rovers dedicated to long-distance traverse and orbiter-based communications.  If most of these objectives can be addressed, a 5-kilogram rover would become a viable vehicle for extended-duration Mars Surveyor Program science under line-of-sight (10-100 meters), and could also provide a major technology option for a sample-return mission around 2005, particularly in the context of a likely precision landing capability by that time.<p>
+
+In fiscal year 1995, an intensive effort was established to examine the feasibility of providing a viable near-term, low-mass, low-cost 5-kilogram rover that could be available for the Mars '98 mission of the Mars Surveyor Program.  This paradigm allows for sophisticated instrumentation on the lander, with the small rover obtaining samples and returning them to the lander.  Led by W. F. Zimmerman and B. H. Wilcox, the effort addressed the following key issues:<p>
+<UL>
+<LI>Mass reduction over Sojourner of at least a factor of two.
+<LI>Cost reduction over Sojourner of a factor of five.
+<LI>Providing minimal soil/rock retrieval and return-to-lander capability.
+<LI>Providing minimal mobility capability to deploy science instruments away from the lander, on the order of 5-30 meters maximum.
+<LI>Examining viable rover deployment and sample-delivery concepts.
+<LI>Demonstrating target selection, sample retrieval, and return to lander using a prototype system that is within the mass and functionality envelopes.
+<LI>Providing instrument/vehicle packaging concepts.<p>
+</ul>
+As a follow-up to this initial FY'95 effort, a longer range thrust toward miniaturization and survival technology was --- for future missions.<p>
+
+<H5><B>Point of Contact:</b>	Pauls.S.Schenker@jpl.nasa.gov</h5><p>
+<p>
+<A HREF="#segment">Return to Segment Menu</a><p>
+<B>========================================</b><p>
+<A NAME="Nanorovers"><H3>Nanorovers</h3></a><p>
+<img src="nrov.GIF"><p>
+<H4>Nanorover prototype with 25-gram mobility chassis.</h4><p>
+Nanorovers are small planetary surface explorers with a mass of 10-100 grams.  The principal objective of such explorers is to move about on the surface of another planet such as Mars in search of scientific and engineering resources like water ice or other volatiles, or to take photomicrographs of surface features.  The large number of such systems that can be accommodated help to enhance the overall robustness of the mission to individual failures.<p>
+
+One concept for a nanorover is a small tracked vehicle, like a tank.  It is powered by solar cells on the top surface and has an ultra-miniaturized sensing and control package combining vision, planning, and control in a package of 1 gram or less.  It moves about in a "reactive" mode on the surface, much the same way as an insect does.  That is, if there is an obstacle on the left, it moves right, and vice versa.  If it begins to move out of the sunlight and is losing power, it changes course.  If it senses more of what it is seeking (e.g., water vapor) on one side than the other, it turns toward its goal.  Solid-state adsorption-based chemical sensing will be the principal means of scientific exploration with these devices, in addition to imaging.<p>
+
+<H5><B>Point of Contact:</b>  Brian.H.Wilcox@jpl.nasa.gov</h5><p>
+<p>
+<A HREF="#segment">Return to Segment Menu</a><p>
+<B>========================================</b><p>
+<A NAME="MarsYard"><H3>JPL MarsYard</h3></a><p>
+<img src="marsyard.gif"><p>
+The MarsYard is a simulated Mars landscape developed by the JPL Rover and Telerobotics Technology Program for testing and evaluation of rovers and robotics technology for future Mars surface exploration.<p>
+<CENTER>
+<img src="r7inyard.GIF"><p>
+<H4>Rover undergoing testing in MarsYard's simulated Mars landscape.</h4><p>
+</center>
+An Important part of rover and robotics development is testing of prototype systems in relevant environments.  Outdoor evaluation is particularly important as it provides natural lighting conditions and large test areas.  In the past, rover testing was done in the Arroyo Seco east of JPL but this was less than ideal as the terrain was not representative of Mars' and excessive time was spent in setting up and breaking down the equipment each day.  Development of a large outdoor test area within the bounds of JPL seemed most desirable.<p>
+
+The MarsYard, located at the corner of Explorer and Surveyor roads near the center of the JPL Oak Grove facility, has an area of approximately 450 square meters (about 24 by 18 meters).  Decomposed granite fines (sand) material was selected as ground cover because its spectral qualities are similar to those expected on Mars.  (This is the same material used by scientists at the University of Arizona Mars Garden.)  To provide approximately 20 centimeters of cover over the entire area, 200 tons of decomposed granite were used.  A hill or sand dune was developed in the middle of the area to add variety.  To populate the area, 20 tons of volcanic rocks of different types (different colors, textures, and densities) were used.<p>
+
+On a concrete retaining wall along the west, north, and east sides of the MarsYard is a mural depicting the Red Planet.  The mural, based on Viking Lander-1 and -2 imagery, shows a rocky plain extending to the horizon.<p>
+
+One of the most important features of the MarsYard is the distribution of rocks based on actual Viking Lander data.  The Moore's model, a probabilistic rock density for a given rock size based on Viking Lander-1 and -2 imagery, was used to generate the rock distribution map required to lay out the volcanic rocks in the MarsYard --recreating areas like those associated with both landing sites, as well as a Mars nominal environment with theoretical average Mars rock density.  Having good models of rock distribution is critical for testing rovers of all sizes to ensure that they are able to effectively maneuver and carry out scientific exploration.<p>
+
+<H5><B>Point of Contact:</b>  Richard.V.Welch@jpl.nasa.gov
+<B>Point of Contact:</b>  Richard.A.Volpe@jpl.nasa.gov</h5><p>
+<p>
+<A HREF="#segment">Return to Segment Menu</a><p>
+<B>========================================</b><p>
+<A NAME="MarsLandexMan"><H3>Mars Lander Dexterous Manipulator</h3></a><p>
+
+This task develops robotic capabilities for lander-based planetary exploration and emphasizes technology innovations that will reduce robotic payload mass, volume, power, and cost.  NASA's planned Mars Surveyor Program missions of 1998-2005 are possible applications, in which lander-based robots may acquire soil and rock specimens, deploy and retrieve surface instrumentation, and microscopically view and spectroscopically scan surface features of interest --often working over large lander near-field areas of 2-3-meter radius and carrying end-effector payloads over 1 kilogram.  To gain a sense of this application scale, note that the Mars '98 mission lander science package is limited to 20 kilograms, 70 liters, 25 watts (daytime average), and $20 million, and the science payload allocates 25 percent or less of these resources to a robot giving good 2-3-meter near-field coverage (a large arm) or beyond (viz., a small rover).<p>
+<CENTER>
+<img src="sampacq.GIF"><p>
+<H4>New high-strength lightweight, composite-material robot arm.</h4><p>
+</center>
+Correspondingly, the Mars Lander Dexterous Manipulator task focuses on coordinated innovation in structural, electromechanical, and materials designs and their integration into minimum mass/volume/power flight engineering concept robots of potentially large reach.  One important development, in cooperation with the Massachusetts Institute of Technology, targets new flight-qualifiable miniature solid-state motors (piezoelectrically driven); another technology thrust develops new robot-arm architectures based in high-strength, lightweight composites.  The fiscal year 1995 effort has demonstrated the first such 3-degrees-of-freedom laboratory arm design.  This novel telescopically deployed arm has been utilized in a realistic laboratory simulation of Mars lander-based sample access and analysis, enabling such functions as sample microviewing, point spectrometry, and physical sample acquisition via an instrumented end-effector.  A derived flight concept for use in the Mars '98 mission has been proposed and approved.  Flight design goals include a 3.5-kilogram mass (arm and actuation), 1.5-kilogram arm payload, 2-meter reach, and gas-deployable segmented linkage allowing arm launch stowage in a volume of 10 liters or less.<p>
+
+<H5><B>Point of Contact:</b>  Paul.S.Schenker@jpl.nasa.gov</h5><p>
+<p>
+<A HREF="#segment">Return to Segment Menu</a><p>
+<B>========================================</b><p>
+<A NAME="Aerobots"><H3>Aerobots</h3></a><p>
+
+Planetary aerobots are an innovative, new type of lightweight and low-cost telerobot, on that can fly and navigate in planetary atmospheric environments.  The challenges of flying a planetary aerobot are providing mobility and autonomous navigation in a constantly changing three-dimensional environment --one in which the robotic vehicle is almost never stationary.  JPL has recently developed and demonstrated a balloon buoyancy control concept applicable to several planets.  This altitude  control concept employs phase change fluids such that a planet's atmosphere is used as a giant heat engine to provide the mobility energy to ascend and descend at will.  There are potential flight experiment opportunities as early as 1999 for Venus, 2001 for Mars, and 2000-2004 for Saturn's moon Titan.<p>
+
+Planetary Aerobots will enable the acquisition of surface and atmospheric science at multiple sites designated by scientists and mission designers providing possibly global coverage over a planet surface.  there are, however, challenging technical problems in vehicle mobility, onboard perception, and autonomous control and navigation.  Technology in these areas will be demonstrated in a series of gradually more ambitious terrestrial flights.  There are also concurrent terrestrial applications to global climate and pollution studies as well as to autonomous ocean exploration.<p>
+<CENTER>
+<img src="Titan.GIF"><p>
+<H5>P-46531Ac</h5><p>
+<H4>Artist's rendering of an aerobot a flying robot, for exploring Titan</h4><p>
+</center>
+A proposed vehicle concept for Venus, Titan, and the outer planets is a closed-system reversible-fluid balloon that uses the atmospheric temperature difference as a function of altitude as a heat engine to provide the motive power to effect altitude change.  A reversible fluid is either a gas or a liquid, depending on pressure and temperature.  It is this phase change that can be used to control the buoyancy of a balloon system.  When the reversible fluid is in the gas phase, the balloon has a lower average density than the surrounding atmosphere, thus providing a net increase in lift.  Conversely, when the fluid is in the liquid phase, the balloon has a higher average density than the surrounding atmosphere, thus providing a negative lift.<p>
+
+The choice of reversible fluid determines the equilibrium altitude about which the balloon system oscillates indefinitely.  However, if the liquid is sealed in a pressure vessel before the balloon drops below this equilibrium altitude, the balloon will descend to the surface or a deep atmosphere of a planet.  To control altitude range and equilibrium level, a primary balloon filled with helium or hydrogen can be combined with a secondary buoyancy-control balloon filled with a reversible fluid that allows the vehicle to go to a high equilibrium altitude.<p>
+<CENTER>
+<img src="Jupiter.GIF"><p>
+<H5>P-46531 Ac</h5><p>
+<H4>Aerobot designed with balloon buoyancy control for vertical mobility</h4><p>
+</center>
+By controlling vertical mobility, aerobots can select altitudes where wind speeds and directions provide them with a wide range of horizontal mobility.  This is especially true at Mars and Venus where rich altitude-variable wind gradients enable near-global planetary access.<p>
+
+The objectives of the fiscal year 1996 program are to<p>
+<UL>
+<LI>Develop telerobotic control of aerobots, including vertical and horizontal mobility with landing ability and autonomous navigation using onboard flight dynamics models and sensory perception.
+<LI>Construct a Planetary Aerobot Testbed vehicle for conducting a series of Earth-based demonstrations beginning with teleoperation and leading to long-range autonomous mobility.
+<LI>Transfer telerobotics technology to emerging flight opportunities.
+</ul>
+Testing of the Planetary Aerobot Testbed vehicle will exploit the fact that Earth's troposphere at an altitude between 0 and 6 kilometers has similar temperature-versus-pressure gradients as the Venus atmosphere at an altitude of 50-60 kilometers.  Several passive, free-flight terrestrial experiments have been conducted using prototype vehicles developed by some of the researchers in a program funded by the JPL Director's Discretionary Fund.<p>
+
+<H5><B>Point of Contact:</b>  Kerry.T.Nock@jpl.nasa.gov</h5><p>
+<p>
+<A HREF="#segment">Return to Segment Menu</a><p>
+<B>========================================</b><p>
+<A NAME="SmallBodies"><H3>Exploration of Small Bodies</h3></a><p>
+
+Landing and operation in the low-gravity environments of small bodies are extremely challenging and require technology development in a variety of areas to ensure mission success.  The Exploration of Small Bodies task is therefore focusing on developing the technologies enabling in situ scientific studies of these interplanetary objects.  This multiyear task explores three key technology areas:<p>
+<UL>
+<LI>Surface and subsurface sampling.  The gathering of surface and subsurface samples for scientific exploration is an important part of such missions.  Low-mass/low-power mechanisms for sample acquisition are explored as well as concurrent development of sensors and control methods enabling autonomous operation in materials of unknown composition.
+<LI>Sample manipulation.  Once a sample is acquired, it must be delivered to onboard science instruments for in situ analysis.  Systems for sample handling and sample preparation in a microgravity environment will therefore be developed.
+<LI>Landing and anchoring.  The low-gravity environment of small bodies allows for free-fall and unpowered landing but requires ways of absorbing impact energy as well as attaching the lander to the surface and reacting to sampling forces.  Passive energy absorption systems such as crushable materials, as well as anchoring systems such as rocket-deployed spikes, are explored.<p>
+</ul><p>
+<CENTER>
+<img src="comet-sampler.gif"><p>
+<H4>Device for obtaining samples from the surface and subsurface of a comet.</h4><p>
+</center>
+In fiscal year 1995, work began by developing and testing sampling systems specific to comets to meet the technology needs of the NASA-Centre National d'Etudes Spatiales Champollion comet lander (part of the European Space Agency's International Rosetta Mission).  The comet-sampling system is required to gather several cubic centimeters of material from up to a meter beneath a comet's surface and deliver that sample to multiple onboard instruments within an extremely challenging mass/power budget.  A prototype system has been developed that incorporates multiple sensors --not only allowing autonomous operation but also gathering data on material properties as sampling is done.  A cryogenic test chamber enabling testing of a prototype sampling system in cryogenic comet facsimile materials of various densities has also been assembled.<p>
+
+<H5><B>Point of Contact:</b>  Donald.R.Sevilla@jpl.nasa.gov</h5><p>
+<p>
+<A HREF="#segment">Return to Segment Menu</a><p>
+<B>========================================</b><p>
+<A NAME="EPMActuators"><H3>Electrostrictive Polymer Muscle Actuators</h3></a><p>
+
+This research program is dedicated to the development of actuation technology based on electrostrictive polymers (ESP).  Efficient ESP materials and actuation mechanisms are being developed in the form of "muscles."  The goals of the program are as follows.<p>
+<UL>
+<LI>Demonstrate the unique and superior actuation capabilities of ESP compared to those of electrostrictive ceramics.
+<LI>Establish muscle-drive mechanisms for potential application to powered space suits and for future technology transfer to meet medical requirements.<p>
+</ul>
+ESP materials will be developed and fabricated using a polymer combination of a backbone and a pendant group.  The pendant group, which is a polymer having a high polarity, is needed to produce the desired strong electrostriction effect.  The backbone polymer provides a large free-volume to allow easy alignment of the pendant groups in response to an activating electric field.<p>
+
+The application of ESP involves technical challenges being addressed by this program.  Muscle drivers are currently being configured, and their performance will be demonstrated in a series of rigorous tests.  i-PMMA, reported to have a relatively high electrostriction effect, is being studied as a baseline.  To demonstrate the performance of ESP, the program will design and fabricate an arm that will be driven by ESP muscle actuators.  This arm will be designed to represent technology relevant to a flight experiment.<p>
+
+<H5><B>Point of Contact:</b>  Yoseph.Bar-Cohen@jpl.nasa.gov</h5><p>
+<A HREF="#segment">Return to Segment Menu</a><p>
+
+
+</DOC>

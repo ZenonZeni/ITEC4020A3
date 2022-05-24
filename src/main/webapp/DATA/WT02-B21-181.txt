@@ -1,0 +1,235 @@
+
+<DOC>
+<DOCNO>WT02-B21-181</DOCNO>
+<DOCOLDNO>IA052-000883-B029-284</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/data-ers1.html 137.229.31.144 19970210141236 text/html 6420
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:12:47 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Tuesday, 17-Dec-96 22:27:05 GMT
+Content-length: 6239
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+<TITLE>Software Tools for ERS-1 data</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#00008A" LINK="#008A00" VLINK="#A47B7E"
+BACKGROUND="res/backgrounds/asf_tile.gif">
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> |
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> |
+<A HREF="http://www.images.alaska.edu/swdesc.html">Software Info</A> |
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> 
+<P>
+<TABLE BORDER=5 CELLPADDING=4>
+<tr valign="middle">
+<th colspan=5 align=center><H1>ERS-1 Software</H1></th>
+</tr>
+<th rowspan=2>Tool</th><th rowspan=2>Program</th>
+<th colspan=2>SUN</th><th>SGI</th>
+<tr>
+<th>SunOS 4.1.3</th><th>Solaris 2.x</th><th>IRIX 5.2</th>
+<tr>
+<td align=center>Accumulated Image Offset</A></td>
+<td align=center><A HREF="swdesc.html#accum">accum_offset</A></td>
+<td align=center>2.3</td>
+<td align=center>2.3</td>
+<td align=center>2.3</td>
+<tr>
+<td align=center>Along Track Mosaicking</td>
+<td align=center><A HREF="swdesc.html#mosaic">auto_swath_mosaic</A></td>
+<td align=center>1.21</td>
+<td align=center>1.21</td>
+<td align=center>1.21</td>
+
+<tr align=center valign=middle>
+ <td rowspan=8>Automatic Geocoding</td>
+  <td><A HREF="swdesc.html#geocode">sarautoreg</A></td>
+  <td>3.0</td>
+  <td>3.0</td>
+  <td>3.0</td>
+</tr>
+<tr align=center valign=middle>
+  <td><A HREF="swdesc.html#geom1p">geom1p</A></td>
+  <td>7.1</td>
+  <td>7.1</td>
+  <td>7.1</td>
+</tr>
+<tr align=center valign=middle>
+  <td><A HREF="swdesc.html#polyfit">polyfit</A></td>
+  <td>7.1</td>
+  <td>7.1</td>
+  <td>7.1</td>
+</tr>
+<tr align=center valign=middle>
+  <td><A HREF="swdesc.html#projprm">projprm</A></td>
+  <td>7.2</td>
+  <td>7.2</td>
+  <td>7.2</td>
+</tr>
+<tr align=center valign=middle>
+  <td><A HREF="swdesc.html#sarin">sarin</A></td>
+  <td>4.1</td>
+  <td>4.1</td>
+  <td>4.1</td>
+</tr>
+<tr align=center valign=middle>
+  <td><A HREF="swdesc.html#sartps">sartpsgrid</A></td>
+  <td>2.4</td>
+  <td>2.4</td>
+  <td>2.4</td>
+</tr>
+<tr align=center valign=middle>
+  <td><A HREF="swdesc.html#tie">tiemerge</A></td>
+  <td>7.0</td>
+  <td>7.0</td>
+  <td>7.0</td>
+</tr>
+<tr align=center valign=middle>
+  <td><A HREF="swdesc.html#trancoord">trancoord</A></td>
+  <td>7.3</td>
+  <td>7.3</td>
+  <td>7.3</td>
+</tr>
+
+<tr>
+<td align=center rowspan=2>CEOS Metadata Handlers</td>
+<td align=center><A HREF="swdesc.html#ceos">metadata</A></td>
+<td align=center>2.01</td>
+<td align=center>2.01</td>
+<td align=center>2.01</td>
+<tr>
+<td align=center><A HREF="swdesc.html#ceos">ex_corners</A></td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<tr>
+<td align=center>Display DDR files</td>
+<td align=center><A HREF="swdesc.html#dspddr">dspddr</A></td>
+<td align=center>3.0</td>
+<td align=center>3.0</td>
+<td align=center>3.0</td>
+<tr>
+<td align=center>General Tape Reader</td>
+<td align=center><A HREF="swdesc.html#tape">dump_multi_volume</A></td>
+<td align=center>1.3</td>
+<td align=center>1.3</td>
+<td align=center>1.3</td>
+<tr>
+<td align=center>Ice Deformation</td>
+<td align=center><A HREF="swdesc.html#gps_vector">gps_vector</td>
+<td align=center>2.1</td>
+<td align=center>2.1</td>
+<td align=center>2.1</td>
+<tr>
+<td align=center rowspan=2>Image Combining</td>
+<td align=center><A HREF="swdesc.html#concat">concat</A></td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<tr>
+<td align=center><A HREF="swdesc.html#concatm">concatm</A></td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<tr>
+<td align=center rowspan=2>Image Identification</td>
+<td align=center><!A HREF="swdesc.html#concat">idimage</A></td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<tr>
+<td align=center><!A HREF="swdesc.html#concat">idtable</A></td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<td align=center>1.0</td>
+<tr>
+<td align=center>Image to/from Geo. Converters</td>
+<td align=center><A HREF="swdesc.html#image">twoway</A></td>
+<td align=center>2.1</td>
+<td align=center>2.1</td>
+<td align=center>2.1</td>
+<tr>
+<td align=center>Large Scale Mosaicking</td>
+<td align=center><A HREF="swdesc.html#mosaic">auto_sar_mosaic</A></td>
+<td align=center>2.6</td>
+<td align=center>2.6</td>
+<td align=center>2.6</td>
+<tr>
+<td align=center>Orbit Prediction Tools</td>
+<td align=center><A HREF="swdesc.html#orbit">orb_pred</A></td>
+<td align=center>2.0</td>
+<td align=center>2.0</td>
+<td align=center>2.0</td>
+<tr>
+<td align=center>Radiometric Calibration</td>
+<td align=center><A HREF="swdesc.html#calibrate">calibrate</A></td>
+<td align=center>2.4</td>
+<td align=center>2.4</td>
+<td align=center>2.4</td>
+<tr>
+<td align=center>Resample Images</td>
+<td align=center><A HREF="swdesc.html#resamp">resample</A></td>
+<td align=center>3.3</td>
+<td align=center>3.3</td>
+<td align=center>3.3</td>
+<tr>
+<td align=center rowspan=7>Terrain Correction</td>
+<td align=center>2dmap</td>
+<td align=center>NR</td>
+<td align=center>2.0</td>
+<td align=center>2.0</td>
+<tr>
+<td align=center>demclip</td>
+<td align=center>NR</td>
+<td align=center>2.0</td>
+<td align=center>2.0</td>
+<tr>
+<td align=center>despike</td>
+<td align=center>NR</td>
+<td align=center>7.0</td>
+<td align=center>7.0</td>
+<tr>
+<td align=center>greycorr</td>
+<td align=center>NR</td>
+<td align=center>9.0</td>
+<td align=center>9.0</td>
+<tr>
+<td align=center>prereg</td>
+<td align=center>NR</td>
+<td align=center>1.1</td>
+<td align=center>1.1</td>
+<tr>
+<td align=center>terrcorr</td>
+<td align=center>NR</td>
+<td align=center>2.3</td>
+<td align=center>2.3</td>
+<tr align=center>
+<td>tpl_search</td>
+<td>NR</td>
+<td>2.0</td>
+<td>2.0</td>
+<tr>
+<td align=center rowspan=1>Support Programs</td>
+<td align=center><A HREF="swdesc.html#sargeo">sargeoin</A></td>
+<td align=center>2.1</td>
+<td align=center>2.1</td>
+<td align=center>2.1</td>
+</TABLE>
+<ADDRESS>
+<HR>
+Last Updated: October 21, 1996 <BR>
+Last Updated By: <A HREF="http://www.images.alaska.edu/users/mike/mike.html">
+Michael Shindle</A><BR>
+If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="http://www.images.alaska.edu/comments.html">comment</A>.
+<P>
+</ADDRESS>
+</BODY>
+</HTML>
+
+</DOC>

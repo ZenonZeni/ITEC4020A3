@@ -1,0 +1,99 @@
+
+<DOC>
+<DOCNO>WT03-B19-103</DOCNO>
+<DOCOLDNO>IA005-000052-B004-21</DOCOLDNO>
+<DOCHDR>
+http://business.vic.gov.au:80/helpline.html 203.21.84.108 19970221152502 text/html 3425
+HTTP/1.0 200 OK
+Date: Fri, 21 Feb 1997 15:25:24 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3254
+Last-modified: Fri, 30 Aug 1996 04:49:37 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>  Business Victoria Inquiries</TITLE>
+</HEAD>
+<BODY>
+<img src="gifs2/vicmap25.gif"><img src="gifs/bvlogo.gif">
+<p><br>
+<img src="gifs/line.colorbar.gif">
+<P>
+<B><FONT SIZE="+3">Helpline and Client Feedback</FONT>
+<P>
+Business Victoria welcomes your enquiries.  If you would like to speak 
+to someone, please call 13 22 60 or outside Victoria, please call 1800 655 142. 
+<form method="POST" ACTION="/cgi/run/business-vic/helpline">
+<P>
+<B>Please complete your enquiry details below,<br>
+remembering to include the recipient's name for your enquiry.<br>
+<TEXTAREA name="enquiry" cols="60" rows=10></TEXTAREA>
+<P>
+Business Victoria also welcomes your comments on our Web Site.<p>
+<P>
+Why did you visit our Web Site?<br>
+<SELECT NAME="purpose">
+<OPTION> Browsing
+<OPTION> Collecting Data
+<OPTION> Survey Investment Conditions
+<OPTION> Survey Government Assistance
+</SELECT>
+<P>
+Most useful pages?<br>
+(to select more than one, hold down the control key and click)<BR>
+<SELECT NAME="pages" MULTIPLE size="10">
+<OPTION> Bulletin board 
+<OPTION> Skill City - Advantage Melbourne
+<OPTION> Guide for Investors
+<OPTION> Business trends and opportunities
+<OPTION> Country Victoria Information
+<OPTION> Services for Business 
+<OPTION> Industry Information
+<OPTION> Enterprise Improvement
+<OPTION> Export
+<OPTION> Innovation
+</SELECT>
+<P>
+Why did you find them useful?<br>
+<TEXTAREA name="usefulpage" cols="60" rows=5></TEXTAREA>
+<P>
+Could we provide you with more information? Please give details.<br>
+<TEXTAREA name="information" cols="60" rows=5></TEXTAREA>
+<P>
+Extra comments?<br>
+<TEXTAREA name="comments" cols="60" rows=5></TEXTAREA>
+<p>
+<P ALIGN=CENTER> <IMG SRC="gifs/line.colorbar.gif" ALT="-----"><br>
+<P>
+<B>Please complete your contact details below</B>
+<P>
+<table>
+<td>Name:</td><td> <input name="Name" size="45"></td><tr>
+<td>Company: </td><td><input name="Company" size="45"></td><tr>
+<td>E-mail Address: </td><td><input name="SENDER" size="25"> e.g. fred@business.vic.gov.au</td><tr>
+<td>Address: </td><td><input name="Address" size="45"> </td><tr>
+<td>City: </td><td><input name="City" size="15"> </td><tr>
+<td>State: </td><td><input name="State" size="15"></td><tr>
+<td>Country: </td><td><input name="Country" size="15"></td><tr>
+<td>Postal Code: </td><td><input name="Postcode" size="10"></td><tr>
+<td>Telephone: </td><td>(W)<input name="Work_Number" size="15"> (H)<input name="After_Number" size="15"></td><tr>
+<td>Facsimile:  </td><td><input name="Fax_Number" size="15"></td><tr>
+<td></td><td>(use full International codes if you are not in Australia)</td><tr>
+</table>
+<P ALIGN=CENTER><IMG SRC="gifs/line.colorbar.gif" ALT="-----"><br>
+<br><p>
+<input name="user" value="Business Victoria WWW Enquiry user" type="hidden">
+<input name="recipient" value="helpline@business.vic.gov.au" type="hidden">
+<input name="subject" value="Business Victoria WWW Enquiries" type="hidden">
+<input name="fields" value="true " type="hidden">
+<input type="reset" value="Reset">to clear your message and start over.<p>
+<input type="submit" value="Forward to">helpline@business.vic.gov.au<p>
+</form>
+<P ALIGN=CENTER> <IMG SRC="gifs/line.colorbar.gif" ALT="-----"><br>
+<P><br>
+<a href="">
+<img src="gifs/bvlogo.gif" border=0></a>
+</BODY>
+</HTML>
+</DOC>

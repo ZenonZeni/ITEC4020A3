@@ -1,0 +1,260 @@
+
+<DOC>
+<DOCNO>WT03-B15-354</DOCNO>
+<DOCOLDNO>IA074-000483-B007-104</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icsur004.html 128.125.48.102 19970125003900 text/html 12195
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:37:34 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 11963
+Last-Modified: Mon, 13 Jan 1997 17:12:54 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Quick Beginnings</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSURMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 20 Dec 1996 at 16:44:30                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Fri, 20 Dec 1996 16:44:14">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDRMOREAB" HREF="icsurmst.html#ToC_6">Chapter 2. More about your server</A></H1>
+<P>
+The IBM Internet Connection Secure Server
+provides the foundation for building your
+company's presence on the Internet.
+Your business can use the Internet Connection Secure Server on the World
+Wide Web to reach customers and suppliers around the world.
+Or you can use the Internet Connection Secure Server
+within your business to communicate with employees.
+<P>
+With the IBM Internet Connection Secure Server, your business can implement
+Secure Sockets Layer (SSL)
+to ensure that your business transactions are secure.
+<P>
+This chapter describes some of the key features of the server.
+<HR>
+<H2><A NAME="Header_7" HREF="icsurmst.html#ToC_7">Installing and configuring the server</A></H2>
+<P>
+You can easily install the server using the
+OS/2 installation tool, Software Installer.
+<P>
+After you install the server, you can start it using the
+configuration values you specified during installation.
+Default values are supplied for all the other configuration values.
+Using a Web browser, you can then connect to the server.
+<P>
+Once you connect to your server, you'll see the Front Page, which it
+uses as its home page.
+The Front Page provides a valuable assortment of
+tools and information, including links to:
+<UL COMPACT>
+<LI>Configuration and Administration Forms
+<LI>Sample Home Page
+<LI>Internet Connection Family Web Site
+<LI>Documentation
+</UL>
+For installation steps, see <A HREF="icsur006.html#HDRINS">Chapter 4. "Installing your server"</A>.
+<HR>
+<H2><A NAME="Header_8" HREF="icsurmst.html#ToC_8">Using other programs with the server</A></H2>
+<P>
+The server supports the Common Gateway Interface (CGI),
+which allows you to create external programs (CGI programs)
+that interface with your server
+and perform tasks such as searching and forwarding e-mail messages.
+<P>
+To assist you in writing CGI programs, the server
+includes utilities for extracting forms data, writing
+document headers, and processing image maps.
+<P>The server also supports the Internet Connection
+Application Programming Interface (ICAPI).
+This interface is designed specifically for the server's
+threaded processing and allows you to easily extend the server's
+base functions.
+Using the ICAPI you can write extensions to perform
+site-specific processing, such as publishing customized
+pages based on client's code level, enhancing the basic
+authentication, and adding error routines to track problems
+or alert you about serious conditions.
+<P>
+For more information, see the <CITE>Web Programming Guide</CITE>
+and the <CITE>Webmaster's Guide</CITE>.
+<HR>
+<H2><A NAME="Header_9" HREF="icsurmst.html#ToC_9">Managing your server with Simple Network Management Protocol</A></H2>
+<P>The Simple Network Management Protocol (SNMP) subagent built
+into Internet Connection Secure Server maintains server information and performance data
+in an SNMP Management Information Base (MIB).
+The MIB data describes the server being managed, reflects current
+and recent server status, and provides server performance data.
+From any SNMP-capable network manager, you can display, monitor,
+and adjust thresholds for your server's performance to proactively
+tune or fix server problems before they become server outages.
+<P>
+For more information, see the <CITE>Webmaster's Guide</CITE>.
+<HR>
+<H2><A NAME="Header_10" HREF="icsurmst.html#ToC_10">Restricting access</A></H2>
+<P>
+Most likely, you will not want everyone to be able to access
+all the information on your server.
+For example, you probably would not want everyone to be able to
+access your CGI programs.
+<P>
+You can restrict access based on user name and
+password, or the address of the requester.
+Access authorization is controlled using the configuration file and
+possibly one or more other files, including:
+<UL>
+<P><LI>A protection setup, which defines the protection being used
+<P><LI>A password file, which allows you to define user names and
+passwords
+<P><LI>A group file, which allows you to define groups of user names
+<P><LI>An Access Control List (ACL) file, which allows you to define access
+for individual files or groups of files on a protected directory
+</UL>
+For more information, see the <CITE>Webmaster's Guide</CITE>.
+<HR>
+<H2><A NAME="Header_11" HREF="icsurmst.html#ToC_11">Mapping resources</A></H2>
+<P>
+You can create a virtual hierarchy of Web resources.
+As part of the server's configuration, you can specify
+resource mapping rules, which associate a request template
+with the actual path to a document or resource.
+Each request that comes to the server is checked against
+these rules to determine if the request should be accepted
+and where the requested resource is actually located.
+<P>For more information, see the <CITE>Webmaster's Guide</CITE>.
+<HR>
+<H2><A NAME="Header_12" HREF="icsurmst.html#ToC_12">Logging requests and errors</A></H2>
+<P>
+To help you determine whether or not your Internet message
+is reaching the intended audience, you can keep <B><I>access logs</I></B>
+that show who is accessing your server and when.
+To see internal server errors, you can check your server's
+<B><I>error logs</I></B>.
+If your server is a caching proxy,
+you can keep logs of requests
+for cached files in a <B><I>cache access log</I></B>.
+<P>
+In addition, your server creates <B><I>agent logs</I></B>,
+<B><I>referer logs</I></B>, and <B><I>CGI error logs</I></B>.
+Agent logs
+indicate which Web browser was used to access a Web page.
+Referer logs indicate the page that linked to or referred to the page.
+CGI error logs contain standard error output (stderr) from CGI
+programs.
+<P>
+You can control what gets logged by filtering out entries
+that match a particular pattern.
+Your server automatically creates a report for each log,
+so you can view the contents of the log.
+You can modify these default report templates so that you include
+and/or exclude log entries contained in the report.
+<P>
+Because the logs are written in a format that is common to most Web
+servers, you can use any of several generic statistical programs to
+analyze the log contents.
+<P>
+You can compress log data,
+archive reports, and include old
+log data in reports.
+<P>For more information, see the <CITE>Webmaster's Guide</CITE>.
+<HR>
+<H2><A NAME="Header_13" HREF="icsurmst.html#ToC_13">Running the server as a caching proxy</A></H2>
+<P>
+When you configure your server as a caching proxy server,
+you can improve performance, as well as allow users
+of your internal network to access documents on the Internet.
+<P>
+You can specify many configuration options
+for a caching proxy, including:
+<UL COMPACT>
+<LI>Which files you want (and do not want) to store in cache
+<LI>The maximum amount of space allotted to cache storage
+<LI>Automatic reclamation of cache storage space
+<LI>Routing of requests to other proxy servers
+</UL>
+<P>For more information, see the <CITE>Webmaster's Guide</CITE>.
+<HR>
+<H2><A NAME="Header_14" HREF="icsurmst.html#ToC_14">Running the server with multiple IP addresses or virtual hosts</A></H2>
+<P>
+You can configure your server to serve different files based on
+the IP address of the network connection a request comes in on
+or the host for whom a request is made.
+This is particularly valuable to Internet service
+providers who want to use one server to provide Web sites for
+multiple customers.
+The server allows you to configure:
+<UL>
+<P><LI>Welcome Pages: to determine
+how the server responds to requests that do not contain a file name
+<P><LI>Mapping Rules: to set map requests to physical files
+and to determine whether the server processes a request
+<P><LI>Access Control: to activate different protection rules for
+requests depending on which address the request comes in on or
+which host name is specified in a URL
+</UL>
+<P>For more information, see the <CITE>Webmaster's Guide</CITE>.
+<HR>
+<H2><A NAME="Header_15" HREF="icsurmst.html#ToC_15">Using server-side includes</A></H2>
+<P>Server-side includes enable the server to do some processing
+of Web pages before the page is sent to the client.
+The current date, the size of the file, the last change of a file are
+examples of the kind of information that can be sent to the client.
+<P>For more information, see the <CITE>Webmaster's Guide</CITE>.
+<HR>
+<H2><A NAME="Header_16" HREF="icsurmst.html#ToC_16">Customizing the server's error messages</A></H2>
+<P>The Internet Connection Secure Server design is based on the work at CERN.
+You can customize basic CERN messages that your server
+sends back to the client when error conditions are encountered.
+For example, you can change a message
+to include more information about the cause of the
+problem and suggest possible solutions to fix it.
+For internal networks, you might provide
+a contact person for your users to call.
+<P>For more information, see the <CITE>Webmaster's Guide</CITE>.
+<HR>
+<H2><A NAME="Header_17" HREF="icsurmst.html#ToC_17">Adding a search facility to your Web site</A></H2>
+<P>
+The Internet Connection Secure Server includes the NetQuestion search facility in a package that
+you can install separately.
+NetQuestion enables
+you to build and maintain searchable indexes to the information on
+your Web site.  NetQuestion includes a search engine, a command
+interface, and HTML forms that aid Web site navigation and
+administration.
+<P>
+For more information, see the documentation that comes with
+the NetQuestion package.
+<HR>
+<H2><A NAME="Header_18" HREF="icsurmst.html#ToC_18">Using proxy authentication</A></H2>
+The server distinguishes
+between authorized user IDs and passwords that are used
+by the end-point server and the proxy server.  This allows
+you to require authentication for proxy requests.
+<P>For more information, see the <CITE>Webmaster's Guide</CITE>.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icsur003.html">Previous Page</A> &#124; <A HREF="icsur005.html">Next Page</A> &#124; <A HREF="icsurmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

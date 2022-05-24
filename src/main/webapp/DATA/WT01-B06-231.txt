@@ -1,0 +1,323 @@
+
+<DOC>
+<DOCNO>WT01-B06-231</DOCNO>
+<DOCOLDNO>IA087-000625-B004-17</DOCOLDNO>
+<DOCHDR>
+http://www.sema.org:80/cgi-html/survey.html 207.171.2.114 19970122034348 text/html 14359
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 03:39:16 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 14187
+Last-modified: Thu, 31 Oct 1996 01:12:15 GMT
+</DOCHDR>
+<html>
+<head><title>SEMA Online Survey</title></head>
+<body bgcolor=#ffffff>
+<center>
+<IMG SRC="/pics/newlogo.gif" ALT="SEMA LOGO" ALIGN="BOTTOM"> <BR>
+<h1>SEMA Online Survey</h1></center>
+<hr><form action=../cgi-bin/survey.cgi method=post>
+<ol type=1>
+<li><ol type=a>
+<li>How many vehicles are in your immediate household? 
+<select name="#ve">
+<option>0<option selected>1<option>2<option>3
+<option>4<option>5<option>6<option>7<option>8
+<option>9<option>10<option>10+</select>
+<li>How many are:
+cars?
+<select name="#ca">
+<option>0<option selected>1<option>2<option>3
+<option>4<option>5<option>6<option>7<option>8
+<option>9<option>10<option>10+</select>
+trucks?
+<select name="#tr">
+<option selected>0<option>1<option>2<option>3
+<option>4<option>5<option>6<option>7<option>8
+<option>9<option>10<option>10+</select>
+UV's?
+<select name="#uv">
+<option selected>0<option>1<option>2<option>3
+<option>4<option>5<option>6<option>7<option>8
+<option>9<option>10<option>10+</select>
+vans?
+<select name="#va">
+<option selected>0<option>1<option>2<option>3
+<option>4<option>5<option>6<option>7<option>8
+<option>9<option>10<option>10+</select>
+</ol><p>
+<li>How many automotive events do you...<br>
+attend annually?
+<select name="#at">
+<option selected>0<option>1<option>2<option>3
+<option>4<option>5<option>6<option>7<option>8
+<option>9<option>10<option>10+</select>
+watch on TV annually?
+<select name="#wa">
+<option selected>0<option>1<option>2<option>3
+<option>4<option>5<option>6<option>7<option>8
+<option>9<option>10<option>10+</select>
+<p>
+<li>Are you interested in any of the following?  <em>(mark all that apply)</em>
+<ul>
+<table>
+<tr><td><input type=checkbox name="isr">street rods and customs<br></td>
+<td><input type=checkbox name="imc">muscle cars<br></td>
+<td><input type=checkbox name="irv">restoring vehicles<br></td></tr>
+<tr><td><input type=checkbox name="ire">restyling vehicles<br></td>
+<td><input type=checkbox name="ira">racing<br></td>
+<td><input type=checkbox name="ior">off-road vehicles<br></td></tr>
+<tr><td><input type=checkbox name="itr">light trucks<br></td>
+<td><input type=checkbox name="imc">motorcycles<br></td>
+<td><input type=checkbox name="ito">trailer towing<br></td></tr>
+<tr><td colspan=3><input type=checkbox name="iot">other: <input type=text name="iott" size=40 maxlength=100"></td></tr>
+</table>
+</ul><p>
+<li><ol type=a><li>Do you regularly read any automotive magazines?
+<select name="rm"><option selected>No<option>Yes</select><br>
+If yes, which?  <input type=text size=40 maxlength=100 name="rmt">
+<li>Do you belong to any automotive related clubs/organizations?
+<select name="bc"><option selected>No<option>Yes</select><br>
+If yes, please specify:<ul>
+Name: <input type=text size=40 maxlength=100 name="cna"><br>
+Address: <input type=text size=40 maxlength=100 name="cad"></ul>
+</ol><p>
+<li>Please rate the importance of the following:<p>
+<table>
+<tr><th><td align=right>Most<th>1<th>2<th>3<th>4<th>5<td align=left>Least<br></tr>
+<tr><th align=right>personal comfort<td>
+<td><input type=radio name="comf" value=1 checked>
+<td><input type=radio name="comf" value=2>
+<td><input type=radio name="comf" value=3>
+<td><input type=radio name="comf" value=4>
+<td><input type=radio name="comf" value=5><td><br></tr>
+<tr><th align=right>vehicle power<td>
+<td><input type=radio name="pow" value=1 checked>
+<td><input type=radio name="pow" value=2>
+<td><input type=radio name="pow" value=3>
+<td><input type=radio name="pow" value=4>
+<td><input type=radio name="pow" value=5><td><br></tr>
+<tr><th align=right>personalized vehicle looks<td>
+<td><input type=radio name="look" value=1 checked>
+<td><input type=radio name="look" value=2>
+<td><input type=radio name="look" value=3>
+<td><input type=radio name="look" value=4>
+<td><input type=radio name="look" value=5><td><br></tr>
+<tr><th align=right>vehicle safety<td>
+<td><input type=radio name="safe" value=1 checked>
+<td><input type=radio name="safe" value=2>
+<td><input type=radio name="safe" value=3>
+<td><input type=radio name="safe" value=4>
+<td><input type=radio name="safe" value=5><td><br></tr>
+<tr><th align=right>vehicle durability<td>
+<td><input type=radio name="dura" value=1 checked>
+<td><input type=radio name="dura" value=2>
+<td><input type=radio name="dura" value=3>
+<td><input type=radio name="dura" value=4>
+<td><input type=radio name="dura" value=5><td><br></tr>
+<tr><th align=right>maintaining vehicle value<td>
+<td><input type=radio name="valu" value=1 checked>
+<td><input type=radio name="valu" value=2>
+<td><input type=radio name="valu" value=3>
+<td><input type=radio name="valu" value=4>
+<td><input type=radio name="valu" value=5><td><br></tr>
+<tr><th align=right>gas mileage<td>
+<td><input type=radio name="gas" value=1 checked>
+<td><input type=radio name="gas" value=2>
+<td><input type=radio name="gas" value=3>
+<td><input type=radio name="gas" value=4>
+<td><input type=radio name="gas" value=5><td><br></tr>
+<tr><th align=right>new gadgets/technology<td>
+<td><input type=radio name="gadg" value=1 checked>
+<td><input type=radio name="gadg" value=2>
+<td><input type=radio name="gadg" value=3>
+<td><input type=radio name="gadg" value=4>
+<td><input type=radio name="gadg" value=5><td><br></tr>
+<tr><th align=right>vehicle practicality<td>
+<td><input type=radio name="pract" value=1 checked>
+<td><input type=radio name="pract" value=2>
+<td><input type=radio name="pract" value=3>
+<td><input type=radio name="pract" value=4>
+<td><input type=radio name="pract" value=5><td><br></tr>
+</table><p>
+<li><ol type=a>
+<li>On average, how much do you spend annually on 
+specialty automotive equipment? <input type=text name="ssp" size=40 maxlength=100>
+<li>During the last year, what specialty automotive products have you purchased?<br>
+<textarea name="wsp" rows=10 cols=40></textarea>
+</ol><p>
+<li>
+<ol type=a><li>
+Where do you most often purchase engine performance parts such as: headers, high
+performance ignitions, intake manifolds, high performance filters, etc.?<p><em>(mark all that apply)</em><br>
+<input type=checkbox name="eacs">automotive chain store (AutoZone, Pep Boys)<br>
+<input type=checkbox name="edfm">direct from manufacturer<br>
+<input type=checkbox name="eds">discount store (WalMart, Target, K Mart)<br>
+<input type=checkbox name="eig">independent garage<br>
+<input type=checkbox name="ems">machine shop<br>
+<input type=checkbox name="emo">mail order<br>
+<input type=checkbox name="envd">new vehicle dealer<br>
+<input type=checkbox name="eprss">performance retailer/speed shop<br>
+<input type=checkbox name="esio">specialty installer/outlet<br>
+<input type=checkbox name="etd">tire dealer<br>
+<input type=checkbox name="ewc">wholesale club<br>
+<input type=checkbox name="etas">truck accessory specialist<br>
+<input type=checkbox name="eaps">auto parts store<br>
+<input type=checkbox name="eo">other: <input type=text name="eot" size=40 maxlength=100><br>
+<li>Where do you most often purchase appearance/body accessory products such as: running
+boards, bedliners, floor mats, sun roofs, dashboard covers, seat covers, etc.?<p><em>(mark all that
+apply)</em><br>
+<input type=checkbox name="aacs">automotive chain store (AutoZone, Pep Boys)<br>
+<input type=checkbox name="adfm">direct from manufacturer<br>
+<input type=checkbox name="ads">discount store (WalMart, Target, K Mart)<br>
+<input type=checkbox name="aig">independent garage<br>
+<input type=checkbox name="ams">machine shop<br>
+<input type=checkbox name="amo">mail order<br>
+<input type=checkbox name="anvd">new vehicle dealer<br>
+<input type=checkbox name="aprss">performance retailer/speed shop<br>
+<input type=checkbox name="asio">specialty installer/outlet<br>
+<input type=checkbox name="atd">tire dealer<br>
+<input type=checkbox name="awc">wholesale club<br>
+<input type=checkbox name="atas">truck accessory specialist<br>
+<input type=checkbox name="aaps">auto parts store<br>
+<input type=checkbox name="ao">other: <input type=text name="aot" size=40 maxlength=100><br>
+<li>Where do you most often purchase wheels, tires and suspension products such as
+custom wheels, sway bars, high-performance shocks, body-lowering kits, high performance
+brakes, etc?<p><em>(mark all that apply)</em><br>
+<input type=checkbox name="wacs">automotive chain store (AutoZone, Pep Boys)<br>
+<input type=checkbox name="wdfm">direct from manufacturer<br>
+<input type=checkbox name="wds">discount store (WalMart, Target, K Mart)<br>
+<input type=checkbox name="wig">independent garage<br>
+<input type=checkbox name="wms">machine shop<br>
+<input type=checkbox name="wmo">mail order<br>
+<input type=checkbox name="wnvd">new vehicle dealer<br>
+<input type=checkbox name="wprss">performance retailer/speed shop<br>
+<input type=checkbox name="wsio">specialty installer/outlet<br>
+<input type=checkbox name="wtd">tire dealer<br>
+<input type=checkbox name="wwc">wholesale club<br>
+<input type=checkbox name="wtas">truck accessory specialist<br>
+<input type=checkbox name="waps">auto parts store<br>
+<input type=checkbox name="wo">other: <input type=text name="wot" size=40 maxlength=100><br>
+</ol>
+<li>Which factors most influence <em>where</em> you choose to purchase automotive products?
+<p><em>(mark all that apply)</em><br>
+<input type=checkbox name="wad">advertising<br>
+<input type=checkbox name="wav">availability (how soon you can get them)<br>
+<input type=checkbox name="wcs">customer service<br>
+<input type=checkbox name="wgu">guarantee  (easy exchange/replacement)<br>
+<input type=checkbox name="wsr">salesperson recommendation<br>
+<input type=checkbox name="wlo">location<br>
+<input type=checkbox name="wms">on site machine shop<br>
+<input type=checkbox name="wpr">price<br>
+<input type=checkbox name="wsv">saw on another vehicle<br>
+<input type=checkbox name="wse">selection (brands & # of vehicles parts fit)<br>
+<input type=checkbox name="wis">on site installation service<br>
+<input type=checkbox name="wpo">payment options (cash, check, credit)<br>
+<input type=checkbox name="wap">ability to see product before purchase<br>
+<input type=checkbox name="wsd">store display<br>
+<input type=checkbox name="wo">other: <input type=text name="wot" size=40 maxlength=100>
+<p>
+<li>Which factors most influence what brand you choose to purchase when buying
+automotive products?<p>
+<em>(mark all that apply)</em><br>
+<input type=checkbox name="ctv">TV show or commercial<br>
+<input type=checkbox name="cav">availability (how soon you can get them)<br>
+<input type=checkbox name="cgu">guarantee (easy exchange/replacement)<br>
+<input type=checkbox name="cks">knowledgeable salespeople<br>
+<input type=checkbox name="cpr">price<br>
+<input type=checkbox name="crf">recommendations of friends<br>
+<input type=checkbox name="cre">reputation<br>
+<input type=checkbox name="cta">technical assistance<br>
+<input type=checkbox name="cma">magazine advertisement<br>
+<input type=checkbox name="cmt">magazine article<br>
+<input type=checkbox name="cpu">previous use of product or brand<br>
+<input type=checkbox name="cwv">used on winning vehicles<br>
+<input type=checkbox name="csd">store display<br>
+<input type=checkbox name="cot">other: <input type=text name="cott" size=40 maxlength=100>
+<p>
+<li>How long have you been involved with automotive aftermarket specialty products?
+<input type=text name="hlaa" size=10 maxlength=10><p>
+<li>Were you aware of SEMA before now?
+<select name="awSE"><option selected>No<option>Yes</select><p>
+</ol>
+<p><p>
+<strong>Personal Information</strong>
+<p>
+<ol start=12>
+<li>
+<ul>Gender: <select name="gen"><option selected>M<option>F</select><br>
+Age: <input type=text name="age" size=10 maxlength=3><br>
+</ul><p>
+<li>Education: <select name="edu">
+<option selected>high school graduate
+<option>some college
+<option>college grad
+<option>post grad
+</select><p>
+<li>What are some of your favorite recreational activities?<p>
+<em>(mark all that apply)</em><br>
+<input type=checkbox name="fpb">playing basketball<br>
+<input type=checkbox name="fbc">bicycling<br>
+<input type=checkbox name="fbo">boating<br>
+<input type=checkbox name="fpg">playing golf<br>
+<input type=checkbox name="fhi">hiking<br>
+<input type=checkbox name="fjo">jogging<br>
+<input type=checkbox name="fps">playing softball<br>
+<input type=checkbox name="fwm">watching movies<br>
+<input type=checkbox name="fpb">playing racquetball<br>
+<input type=checkbox name="fwo">working out<br>
+<input type=checkbox name="fpt">playing tennis<br>
+<input type=checkbox name="fbw">bowling<br>
+<input type=checkbox name="fws">watching sports<br>
+<input type=checkbox name="fsw">swimming<br>
+<input type=checkbox name="fre">reading<br>
+<input type=checkbox name="fhu">hunting<br>
+<input type=checkbox name="ffi">fishing<br>
+<input type=checkbox name="fpt">pleasure travel<br>
+<input type=checkbox name="fsk">skiing<br>
+<input type=checkbox name="fhw">home workshop<br>
+<input type=checkbox name="flm">listening to music<br>
+<input type=checkbox name="fmc">motorcycling<br>
+<input type=checkbox name="fot">other: <input type=text name="fott" size=40 maxlength=100>
+<p>
+<li>Annual household income: <input type=text name="ahi" size=10 maxlength=20>
+</ol><p><center>
+<input type=submit value="Submit my survey"> <input type=reset value="Clear the form">
+</form>
+<h1>Thank you for your help!!</h1></center>
+
+<!--FOOTER START-->
+<table>
+<tr><td width=550>
+<BR CLEAR=ALL>
+<center>
+<HR>
+<A HREF="/index.html"><IMG border=0 SRC="/pics/b_home.gif" ALT="[SEMA]"></A>
+
+<A HREF="/cgi-html/contact.html"><IMG border=0 SRC="/pics/b_mail.gif" ALT="[Mail]"></A>
+
+<A HREF="/searchsema.html"><IMG border=0 SRC="/pics/b_find.gif" ALT="[Site Search]"></A>
+
+<A HREF="/postit/"><IMG border=0 SRC="/pics/b_bbs.gif" ALT="[Message Boards]"></A>
+
+<A HREF="/cgi-html/list.html"><IMG border=0 SRC="/pics/b_email.gif" ALT="[E-Mail List]"></A>
+
+</center>
+
+<br>
+<FONT SIZE=-1>
+ Last updated: Oct. 30, 1996 by <a href="mailto:aland@sema.org">Webmaster.</a><Br>
+Copyright &copy Specialty Equipment Market Association (SEMA)-All rights reserved.<br>
+<align=right>
+<em><strong>This site is brought to you by...<br></strong></em>
+ <a href="http://www.ibcc.com">The Internet Business Consulting Company</A><br>
+ </FONT SIZE>
+</td></tr>
+</table>
+</center>
+<!--10/30/96 4.00 AD-->
+<!--FOOTER END-->
+</body></html>
+
+</DOC>

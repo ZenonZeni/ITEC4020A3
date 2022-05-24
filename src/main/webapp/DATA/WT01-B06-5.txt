@@ -1,0 +1,514 @@
+
+<DOC>
+<DOCNO>WT01-B06-5</DOCNO>
+<DOCOLDNO>IA044-000801-B015-182</DOCOLDNO>
+<DOCHDR>
+http://samsara.law.cwru.edu:80/comp_law/benson.html 129.22.184.108 19970118135159 text/html 28259
+HTTP/1.0 200 OK
+Date: Sat, 18 Jan 1997 13:55:42 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 28087
+Last-modified: Mon, 16 Sep 1996 00:08:06 GMT
+</DOCHDR>
+<html>
+<title>In Re Benson</title>
+<body>
+
+
+<p><center>
+<h1><strong>In re Benson</strong></h1>
+United States Court of Customs and Patent Appeals<br>
+441 F.2d 682, 58 C.C.P.A. 1134<br>
+1971
+</center>
+
+<p>Before Rich, Almond, Baldwin, Lane, Associate Judges, and Re,
+Judge, sitting by Designation.
+
+<p>   Rich, Judge, delivered the opinion of the court.
+
+<p>   This appeal is from the January 31, 1968 decision of the Patent Office Board
+of Appeals<a name="F1_1"><a href="#FN1_1"><sup><fontsize=-2>1</font></sup></a></a> affirming the rejection of claims 8 and 13, the only claims
+remaining in appellants' application serial No. 315,050, filed October 9, 1963,
+and assigned to Bell Telephone Laboratories Incorporated, entitled ``Conversion
+of Numerical Information.'' We reverse.  
+ 
+<center>
+
+<p><em>The Invention</em>
+
+<p></center>
+
+<p>   The invention of the appealed claims is in the field of computer technology
+and relates to data processing systems.  The claims are both directed to
+methods.  The opening sentence of the specification states that the invention
+relates to the processing of data by program and more particularly to the
+programed conversion of numerical information.  The particular conversion to
+which both of the claims on appeal are directed is the conversion of ``binary
+coded decimal'' (BCD) numerical information in the form of ``signals'' (claim 8) or
+``representations'' (claim 13) into binary number signals or representations,
+respectively.  Though we presume this statement would be an adequate explanation
+to those skilled in the computer art, for the benefit of those not so skilled we
+will elucidate further.
+
+<p>        Most digital computers perform their computing operations on
+information in binary form, a system of representation having only two
+elementary constituents, called ``bits,'' indicated by ``1'' and ``0''.  Men, on the
+other hand, are accustomed to quantitative information in decimal form and, for
+the computer to work on or      utilize it, it must be converted into
+binary form.  It has become a general practice to make this conversion in two
+stages: from decimal to BCD; from BCD to binary.  The following table shows the
+ten familiar decimal digits and their binary equivalents expressed in groups of
+four bits: 
+
+<p><center>
+<table>
+<tr valign=top>
+<td colspan=1 align=center nowrap>
+Decimal </td>
+<td colspan=1 align=center nowrap>Binary </td>
+<td colspan=1 align=center nowrap>Decimal </td>
+<td colspan=1 align=center nowrap>Binary</td></tr>
+<tr valign=top>
+<td colspan=1 align=center nowrap>
+0 </td>
+<td colspan=1 align=center nowrap>0000 </td>
+<td colspan=1 align=center nowrap>5 </td>
+<td colspan=1 align=center nowrap>0101</td></tr>
+<tr valign=top>
+<td colspan=1 align=center nowrap>
+1 </td>
+<td colspan=1 align=center nowrap>0001 </td>
+<td colspan=1 align=center nowrap>6 </td>
+<td colspan=1 align=center nowrap>0110</td></tr>
+<tr valign=top>
+<td colspan=1 align=center nowrap>
+2           </td>
+<td colspan=1 align=center nowrap>0010	</td>
+<td colspan=1 align=center nowrap>7           	</td>
+<td colspan=1 align=center nowrap>0111</td></tr>
+<tr valign=top>
+<td colspan=1 align=center nowrap>
+3           </td>
+<td colspan=1 align=center nowrap>0011	</td>
+<td colspan=1 align=center nowrap>8           	</td>
+<td colspan=1 align=center nowrap>1000</td></tr>
+<tr valign=top>
+<td colspan=1 align=center nowrap>
+4           </td>
+<td colspan=1 align=center nowrap>0100	</td>
+<td colspan=1 align=center nowrap>9           	</td>
+<td colspan=1 align=center nowrap>1001</td></tr>
+<tr valign=top>
+<td colspan=1 align=center nowrap>
+</td></tr>
+</table>
+</center>
+
+<p>   In BCD notation the decimal number 53 would be represented as 0101 0011, the
+binary form of 5 followed by the binary form of 3, each group of four bits being
+a BCD ``digit.'' Although the BCD notation is in terms of ``1'' and ``0'' only and can
+be represented in a binary machine, it is not in a form in which the machine can
+utilize it to perform its computing operations.  In true binary the decimal
+number 53 is represented by 110101.  The problem is to convert the intermediate
+BCD representation into the true binary.  Various ways of doing this were known
+prior to appellants' invention.  They claim to have discovered a better and
+simpler way of doing it having various advantages recited in the specification
+such as reducing the number of steps required to be taken, dispensing with the
+repetitive storing and retrieval of partially converted information, eliminating
+the need for interchanging signals among various equipment components and the
+need for auxiliary equipment, and decreasing the chance of error.
+
+<p>   The digital computer which is to receive the information in BCD form can
+itself be programed to convert it into binary form.  The specification gives as
+an illustrative example an actual program for converting a binary-coded decimal
+number to ordinary binary and apparatus is described in conventional block
+diagram form in which the program can be carried out.
+
+<p>   The two claims on appeal read as follows:
+
+<p><blockquote>
+   8.  The method of converting signals from binary coded decimal form into
+binary which comprises the steps of
+
+<p>   (1) storing the binary coded decimal signals in a reentrant shift register,
+
+<p>   (2) shifting the signals to the right by at least three places, until there
+is a binary ``1'' in the second position of said register,
+
+<p>   (3) masking out said binary ``1'' in said second position of said register,
+
+<p>        (4) adding a binary ``1'' to the first position of said register,
+
+<p>   (5) shifting the signals to the left by two positions,
+
+<p>   (6) adding a ``1'' to said first position, and
+
+<p>   (7) shifting the signals to the right by at least three positions in
+preparation for a succeeding binary ``1'' in the second position of said register.
+
+<p>
+   13.  A data processing method for converting binary coded decimal number
+representations into binary number representations comprising the steps of
+
+<p></blockquote>
+
+<p>   (1) testing each binary digit position i, beginning with the least
+significant binary digit position, of the most significant decimal digit
+representation for a binary ``0'' or a binary ``1'';
+
+<p>   (2) if a binary ``0'' is detected, repeating step (1) for the next least
+significant binary digit position of said most significant decimal digit
+representation;
+
+<p>   (3) if a binary ``1'' is detected, adding a binary ``1'' at the (i + 1)th and (i
++ 3)th least significant binary digit positions of the next lesser significant
+decimal digit representation, and repeating step (1) for the next least
+significant binary digit position of said most significant decimal digit
+representation;
+
+<p>   (4) upon exhausting the binary digit positions of said most significant
+     decimal digit representation, repeating steps (1) through (3) for the
+next lesser significant decimal digit representation as modified by the previous
+execution of steps (1) through (3); and
+
+<p>   (5) repeating steps (1) through (4) until the second least significant
+decimal digit representation has been so processed.
+
+   As to these claims, no prior art is cited and no question is raised as to
+utility, novelty, or unobviousness.The asserted advantages and the implicit
+advance resulting therefrom in the data-processing art have not been questioned.
+
+<p><center>
+   <em>The Rejection</em>
+</center>
+
+<p>   The first problem it is necessary to settle is what the ground or grounds of
+rejection is or are.  Appellants' brief correctly states ``The only explicit
+rejection outstanding against claims 8 and 13 is the rejection on the grounds
+[<em>sic</em>] that these claims are directed to subject matter not embraced by Section
+101.'' Study of the two Examiner's Answers makes it clear that that was the only
+ground he relied on.  In his first Answer the examiner specified that ``all
+grounds of rejection are withdrawn except the art rejections and nonstatutory
+subject matter rejections.'' We no longer have any art rejections.  In his second
+Answer, on remand, he said:
+
+<p><blockquote>
+   In summary, the remaining ground of rejection of claims 8 and 13 now in the
+case is that these claims are directed to non-statutory subject matter.
+</blockquote>
+
+<p>   In reciting what the rejection was, the board opinion says:
+
+<p><blockquote>
+   Claims 8 and 13 stand rejected as for subject matter not embraced by 35
+U.S.C. 101 in that they set forth ``mental processes'' and ``mathematical steps,''
+neither being an ``art'' as construed by a long line of decisions * * *.
+</blockquote>
+
+<p>        Nowhere does the board opinion indicate that any new ground of
+rejection is being made.
+
+<p>   In discussing appellants' arguments traversing the contention that the claims
+are directed to non-statutory subject matter, the board, answering the argument
+that ``The only way applicants' claims can be construed to include mental steps
+is to construe them contrary to the disclosure rather than in accord therewith,''
+made the following somewhat off-the-point observations:
+
+<p><blockquote>
+   We are not convinced by appellants' arguments to the effect that the
+disclosure in an application, not the claims thereof, should be the proper basis
+for judging whether the claims are drawn to subject matter outside the statute.
+Certainly a claim which embraces that which was already in the prior art or was
+obvious therefrom could not be sustained under 35 U.S.C. 102 or 103 merely
+because there may have been something patentable disclosed in the specification.
+35 U.S.C. 112 [2d par., 1st sentence] <em>requires the claim to point out the
+subject matter which the applicant regards as his invention so that a claim
+which is so broad and indistinct as to embrace within its terms subject matter
+that can not be patented under section 101 of the statute, similarly must be
+unpatentable.</em> [Emphasis ours.]
+</blockquote>
+
+<p>   While from that point on in its opinion the board discussed the breadth of
+the claims and what in its opinion they cover, it never so much as suggested
+that the claims are ``indistinct'' or do not point out ``the subject matter which
+the applicant regards as his invention.'' The board did not again refer to
+section 112 nor in any way suggest failure of the claims to comply with the
+second paragraph of that section and merely affirmed the rejection on the ground
+that the claims, as it read them, were directed to methods which are
+non-statutory under section 101.  It is our opinion that up until the time of
+the appeal to this court there was only one ground of rejection relied on and
+that was non-compliance with section 101.
+
+<p>   However, apparently out of an abundance of caution and noting the board's
+     reference to section 112 in the above-quoted passage, as well as a
+similar passage in the Examiner's Answer on Remand,<a name="F1_2"><a href="#FN1_2"><sup><fontsize=-2>2</font></sup></a></a> appellants' main brief,
+toward its end, says of the italicized passage in the above quotation from the
+board's opinion that it could be construed as another example similar to the
+sections 102 and 103      example preceding, <em>or it could also be
+construed as an entirely new ground of rejection under section 112</em>,
+simultaneously deploring the ``vagaries of prosecution [which] leave some of the
+basic issues in doubt.'' Appellants thereupon spent a page of their brief stating
+their reasons why a rejection under the second paragraph of section 112, <em>if</em> such
+had been made, would be in error.  That would seem a cautious thing to do but it
+does not bring such a rejection into the case unless it was already there.  
+ 
+   The brief for the Patent Office trades heavily on this situation.  On page 2
+it quotes appellants as saying that they ``have no alternative but to consider a
+rejection under Section 112 as having been raised and requiring a response'' and
+proceeds to the conclusion that ``A rejection under 35 USC 112, 2nd paragraph,
+would thus also appear to [be] present,'' pointing out that a reason of appeal in
+appellants' Notice of Appeal alleges that the board erred
+
+<p>   * * * in sustaining the Examiner's rejection of claims 8 and 13 as failing to
+point out the subject matter which appellants regard as their invention under 35
+U.S.C. 112 in that the claims are so broad and indistinct as to embrace within
+their terms subject matter that can not be patented under 35 U.S.C. 101.
+
+<p>   This, it will be seen, is a close paraphrase of what the board said in the
+paragraph quoted above.  It was an appropriate reason of appeal to file to cover
+the contingency that what the board said might be a new ground of rejection.
+The Patent Office brief goes on to argue, it would seem as its <em>principal</em>
+contention,<a name="F1_3"><a href="#FN1_3"><sup><fontsize=-2>3</font></sup></a></a> not that the claims are directed to non-statutory subject matter
+because directed to mental or mathematical steps, which do no constitute an
+``art,''<a name="F1_4"><a href="#FN1_4"><sup><fontsize=-2>4</font></sup></a></a> <em>but</em> that ``the rejection under 35 USC 112 should be affirmed'' because
+appellants admitted during prosecution that their process is capable of manual
+implementation with the aid of pencil and paper, that this is ``beyond that which
+they presently regard as their invention,'' and that the claims must be rejected
+<em>under section 112</em> by reason of our decision in <em>In re Prater and Wei</em>, 56 CCPA
+1381, 415 F.2d 1393, 162 USPQ 541 (1969). 
+ 
+<center>
+   Opinion
+</center>     
+
+<p>   We have decided a number of cases in the general field of computer science in
+addition to the <em>Prater</em> case, <em>supra</em>, since the briefs in this case were filed
+which we list here for convenient reference:
+<blockquote>
+        <em>In re Bernhart</em>, 57 CCPA 737, 417 F.2d 1395, 163 USPQ 611 (1969)<br>
+   <em>In re Mahony</em>, 57 CCPA 939, 421 F.2d 742, 164 USPQ 572 (1970)<br>
+   <em>In re Musgrave</em>, 57 CCPA 1352, 431 F.2d 882, 167 USPQ 280 (1970)<br>
+   <em>In re Foster</em>, 58 CCPA 1001, 438 F.2d 1011, 169 USPQ 99 (1971)
+</blockquote>
+
+<p> This is an appropriate place to point out a significant difference
+between most of those cases and the present case.  The claims in this
+case are directed solely to the art of data-processing itself whereas
+in most of the above cases some subsidiary or additional art was
+involved.  In <em>Bernhart</em> it was ``Planar Illustration Method
+and Apparatus'' by which two-dimensional illustrations of
+three-dimensional objects could be produced; in <em>Mahony</em> we
+were concerned with dataprocessing itself in that the invention was a
+method of locating the framing bits in a bit stream; in both
+<em>Musgrave</em> and <em>Foster</em> computers were used to process
+seismograms; and in <em>Prater</em> the invention related to the
+spectrographic analysis of gases.  All of the above cases and the
+present case have in common, however, the fact that they are the
+outgrowth of a blanket Patent Office policy, which remained in
+existence for some time after the decision of the board in this case,
+to deny claims such as those before us here on the ground that they
+were not for statutory subject matter.<a name="F1_5"><a
+href="#FN1_5"><sup><fontsize=-2>5</font></sup></a></a> This policy was
+later modified.<a name="F1_6"><a
+href="#FN1_6"><sup><fontsize=-2>6</font></sup></a></a> The decision
+here for review is a typical product of its time.
+
+<p>   Reverting now to the first problem which confronts us, what rejection do we
+have before us for decision?  We conclude, appellants' apprehension
+notwithstanding, that the examiner and the board relied on only one ground,
+predicated on 35 USC 101, that claims 8 and 13 are either directed to or at
+least embrace non-statutory subject matter.  Neither of them complained that the
+claims are unclear, ambiguous, indistinct, or otherwise incomprehensible so as
+not to comply with section 112, second paragraph.  In <em>Mahony</em> we made it clear
+that ``To inject any question of statutory subject matter into that paragraph is
+to depart from its wording and to complicate the law unnecessarily.'' The
+solicitor's attempt to build up a rejection on section 112 in order to defeat
+appellants under the second <em>Prater</em> case decision--a decision not rendered until
+five months after appellants      filed their main brief in this court--must fail. It would have to fail in any case for, as appellants point out in
+their reply brief, in <em>Prater</em> appellants admitted in the course of the appeal
+that their claims read on a mental step implementation and we based our decision
+on that admission insofar as we affirmed the rejection, whereas here appellants
+have made no such admission and, for reasons hereinafter stated, we do not think
+the claims read on any ``mental step'' implementation.
+
+<p>   We turn then to consideration of what the solicitor's brief admits is the
+``principal rejection'' predicated on section 101, which we find to be the only
+rejection.
+
+<center>
+   <em>Claim 8</em>
+</center>
+
+<p> We have set forth claim 8 above and have stated that the examiner and
+board rejected it because they considered it to be directed to ``mental
+processes'' and ``mathematical steps.'' The reasoning of the board's opinion bears
+a remarkable      similarity to the opinion of the board in <em>Musgrave</em>,
+which is not surprising since it was the same board and the opinion was by the
+same member.  The same line of cases is relied on here that was relied on in
+<em>Prater</em> and <em>Musgrave</em> and we have given them full consideration before,
+particularly in those two cases in which we considered at length the ``mental
+steps'' doctrine.  One of the many sound ideas expressed in the concurring
+opinion delivered by Judge Baldwin in <em>Musgrave</em> is ``that in reality very little
+remains [as a result of our recent decisions] of the `mental steps' doctrine.''
+Another is that as a result of <em>Prater</em> and <em>Mahony</em>--If, indeed, it has not always
+been so<a name="F1_7"><a href="#FN1_7"><sup><fontsize=-2>7</font></sup></a></a>--there  is a ``standard of reasonableness'' in the interpretation
+of claims which is that they should be given the meaning they would have ``to one
+of ordinary skill in the pertinent art when read in light of and consistently
+with the specification.'' The question Judge Baldwin asked in <em>Musgrave</em> is the
+question we have here: ``* * * would a <em>reasonable</em> interpretation of the claims
+include coverage of the process implemented by the human mind?'' The answer
+clearly is ``No,'' for the same reasons it had to be ``No'' in <em>Mahony</em> and in
+<em>Musgrave</em>. Claim 8 is for a method to be practiced in part on particular
+<em>apparatus</em> specified to be a ``reentrant shift register.'' The first sentence of a
+three-paragraph definition of ``shift register'' in the ``Condensed Computer
+Encyclopedia'' edited by Jordain, McGraw-Hill Book Co. (1969), is: ``A hardware
+element constructed so as to perform the      shifting of its contained
+data.'' At argument, the Patent Office Solicitor admitted that the reference to
+this piece of apparatus in the claim was, for him, its ``most embarrassing
+phrase.'' It is not only a phrase, it is referred to expressly in elements (1),
+(2), (3), (4) and (7) and by implication in element (5) which refers to
+``shifting.'' Claim 8, moreover, refers to the operations of storing, shifting,
+and masking ``signals'' which, by a <em>reasonable</em> interpretation in the light of the
+specification, can only mean signals of the kind upon which the disclosed
+electronic digital computer hardware operates.  The signals are like the ``bits''
+and ``bit streams'' with which we were concerned in <em>Mahony</em>. Claim 8 therefore
+covers only a machine-implemented process and the apparatus for carrying it out
+has been disclosed.  The process can be carried out with no intervention by a
+human being once the apparatus is set up--that is to say, the appropriate
+computer system has been assembled and programmed.  The solicitor would have us
+hold  the method is not a ``process'' within section 101 on the ground that a
+programmable computer is merely a ``tool of the mind'' and the method is basically
+``mental'' in character, apparently because the ``workstuff'' of the method is
+numbers which are mathematical abstractions.  As the Patent Office would say, we
+do not find the argument persuasive.  Cash registers, bookkeeping machines, and
+adding machines also work only with numbers but this has never been considered a
+ground for taking them out of the ``machine'' category of section 101.  
+ 
+<center>
+   <em>Claim 13</em>
+</center>
+
+<p>   This claim was rejected on the same ground as claim 8 from which it
+differs in containing no reference to any apparatus and in referring
+to the thing operated upon not as ``signals'' but as
+``representations.'' The claimed method is one for converting ``binary
+coded decimal number representations'' into ``binary number
+representations.'' The supporting disclosure against which the claim
+must be reasonably interpreted is the identical programmed digital
+computer system which supports claim 8.  The operational steps to be
+carried out call for ``testing each binary digit position'' to
+determine whether it is a ``binary `0''' or a ``binary `1''' and
+performing a specified act according to what is found, i.e., moving to
+the next position if it is ``0'' and repeating the test or adding a
+binary ``1'' at two specified positions and then moving to the next
+position, and so on, each action being prescribed so that no human
+judgment or decision is required--merely observation and taking
+prescribed action according to what is observed.  Apparatus,
+machinery, ``hardware''--whatever it may be called--is disclosed by
+which the steps can be carried out without human intervention but at
+the same time, since the claim does not itself call for any particular
+hardware, the method within the claim can be practiced either with
+apparatus other than that described or with the simplest of equipment
+which will enable one to provide and to manipulate ``binary coded
+decimal representations'' and convert them into ``binary number
+representations.'' This could <em>in theory</em> be any kind of writing
+implement and any kind of recording medium--``pencil and paper''--or
+even, we suppose, red and blue poker chips and a surface to put them
+on or slots to put them in so that ``0''s and ``1''s can be
+represented.
+
+<p>   It will aid in understanding the terms of claim 13 to state that the
+discovery which is the essence of appellants' invention was that, for each bit
+position in each BCD digit, conversion can be accomplished by adding a binary
+``1'' to two specific bit positions of the next lesser significant BCD digit and
+that in normal notation ``significance'' of bits or digits increases to the left,
+e.g., in the decimal number ``53'' the 5 is more significant than the 3.  Thus
+conversion can be carried out by the steps of (1) testing each BCD bit position
+for all but the least significant BCD digit and (2) for each ``1'' bit detected,
+adding a binary ``1'' to each of two specified bit positions in the next lesser
+significant BCD digit.
+    The only argument put forward by the Patent Office for holding claim 13
+non-statutory under section 101 is that the method is basically ``mental'' in
+character.  Looking at the present case in the light of all its circumstances,
+we observe in claim 13 a process consisting of a sequence of steps which can be
+carried out by machine implementation as disclosed in the specification, by
+still another machine as disclosed during the prosecution, and even manually
+although in actual practice it seems improbable anyone would ever do that, speed
+measured in milli- or even micro-seconds being essential in the practical
+utilization of such a process.  Only in the manual performance would it require
+the operator even to think and then only to the extent necessary to assure that
+he is doing what the claim tells him to do.  In no case is the exercise of
+judgment required or even the making of a decision as between alternatives.
+
+<p>   Realistically, the process of claim 13 has no practical use other than the
+more effective operation and utilization of a <em>machine</em> known as a digital
+computer.  It seems beyond question that the machines--the computers--are in
+the technological field, are a part of one of our best-known technologies, and
+are in the ``useful arts'' rather than the ``liberal arts,'' as are all other types
+of ``business machines,'' regardless of the uses to which their users may put
+them.  How can it be said that a process having no practical value other than
+enhancing      the internal operation of those machines is not likewise
+in the technological or useful arts?  We conclude that the Patent Office has put
+forth no sound reason why the claims in this case should be held to be
+non-statutory.
+
+<p>   The decision of the board is reversed.  
+
+<p>
+<p><hr><p>
+<h3><center>Footnotes</center></h3><p>
+
+
+
+
+<hr><p><b><a name="FN1_1"></a><a href="#F1_1">1</a></b>  Consisting of Kreek, Keely, and Andrews, Examiners-in-Chief, opinion by
+Andrews.
+
+<hr><p><b><a name="FN1_2"></a><a href="#F1_2">2</a></b>  Continuing the statement quoted above as the first quotation in this
+section, the examiner said:
+
+<p><blockquote>
+   ``The method set forth is by applicants' own assertion `directed to a machine
+algorithm'; and as understood recites a series of steps for manipulation of data
+required to be carried out by a programmed computer.  Such a method, set forth
+in this manner, is not considered to properly set forth a process within the
+meaning of 35 USC 101, in light of prior decisions and the requirements of 35
+USC 112. The subject matter of the claims is thus deemed non-statutory.''
+</blockquote>
+
+<p>   That paragraph by the examiner therefore begins and ends with the summary
+statement of his position that the single ground of rejection is that the claims
+are directed to non-statutory subject matter under 35 USC 101. In short, a
+method carried out by a programmed computer is non-statutory. His reference to
+section 112 is not clear as to its purpose and seems superfluous.
+
+<hr><p><b><a name="FN1_3"></a><a href="#F1_3">3</a></b>  More than 5 of the 7 pages of argument are devoted to this point.  The
+brief begins by stating, however, that the <em>principal</em> rejection, of course, is
+that ``[claims] 8 and 13 stand rejected as for subject matter not embraced by 35
+U.S.C. 101 in that they set forth `mental processes' and `mathematical steps,'
+neither being an `art' * * *''
+
+<hr><p><b><a name="FN1_4"></a><a href="#F1_4">4</a></b>  The term ``art,'' of course, is the term used in the statutes prior to 1953,
+the term now being ``process'' (35 USC 101) which is defined to include ``art or
+method'' (35 USC 100(b)).  The board used the term ``art'' because it was referring
+to a number of pre-1953 cases which dealt with the meaning of that term in R.S.
+4886, old Title 35 USC, section 31.
+
+<hr><p><b><a name="FN1_5"></a><a href="#F1_5">5</a></b>  For a full exposition of that policy see the speech of Commissioner of
+Patents Brenner of October 22, 1968, which is part of the proceedings of that
+year of the Computers-in-Law Institute, National Law Center, George Washington
+University, section B-1, entitled ``The Future of Computer Programs in the U.S.
+Patent Office.''
+
+<hr><p><b><a name="FN1_6"></a><a href="#F1_6">6</a></b>  See the speech by Commissioner Schuyler, October 8, 1969, 1969
+Computers-in-Law Institute, Section H, entitled ``Protecting Property in Computer
+Software.''
+
+<hr><p><b><a name="FN1_7"></a><a href="#F1_7">7</a></b> See ``Patent
+Claims'' by Ridsdale Ellis (1949), Chapt. 3 entitled ``General Rules
+of Claim Construction'' especially Secs. 21, 22 referring to
+reasonableness in claim interpretation and citing decisions of the
+Court of Appeals for the District of Columbia in 1924 and 1915.
+</DOC>

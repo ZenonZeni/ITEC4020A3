@@ -1,0 +1,132 @@
+
+<DOC>
+<DOCNO>WT03-B25-173</DOCNO>
+<DOCOLDNO>IA070-000437-B008-138</DOCOLDNO>
+<DOCHDR>
+http://gardnerweb.com:80/prod/prod_articles/109608.html 206.112.192.204 19970120204717 text/html 10880
+HTTP/1.0 200 OK
+Date: Mon, 20 Jan 1997 20:47:12 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+Content-length: 10708
+Last-modified: Tue, 15 Oct 1996 13:52:49 GMT
+</DOCHDR>
+<HTML>
+
+<HEAD><TITLE>Automotive Production, October 96, "Software, Computers, Etc: Things to Know <I>About STEP</I>"</TITLE>
+<CONTENT="October 1996, Automotive Production">
+</HEAD>
+
+
+<BODY>
+<A NAME="top">
+<BODY BGCOLOR="#ffffff">
+
+<CENTER>
+<A HREF="http://www.gardnerweb.com"><IMG SRC="/home_graphics/gw_small.gif" WIDTH=250 HEIGHT=56 BORDER=0></A><BR><BR>
+
+<IMG SRC="/prod/prod_graphics/prod_sml_hdr.gif"><BR CLEAR=ALL><P>
+
+<HR>
+
+<!------------------------------------------------------>
+<H1>
+Things to Know <BR>
+<I>About STEP</I></H1>
+<FONT SIZE="-1">
+<BLOCKQUOTE><B>
+If you're involved in any way in the exchange of CAD information, <BR>
+you should be interested in STEP:<BR>
+The reason: It could make your life a whole lot easier.
+</BLOCKQUOTE></B>
+</CENTER>
+<HR>
+</FONT>
+<CENTER>
+<P><I>
+By GARY S.VASILASH, Editor-In-Chief</I><P>
+</CENTER>
+<BLOCKQUOTE>
+<P>The place to begin is defining the term: STEP signifies the <I>St</I>andard for the <I>E</I>xchange of 
+<I>P</I>roduct Model data. Which is a whole lot more easy to remember and easier to say than its &quot;official&quot; name, which is ISO 10303. STEP is an ISO standard. This is 
+not something that has been formulated by a single vendor or a group of vendors. But whether or not STEP will come to a CAD terminal near you has a whole lot to do with vendors. That is, if they don't develop products that are in conformance to STEP, then you may not have the opportunity to use it. A case could be made for the pull of the technology, as in a sufficient number of user, or customer, companies demanding it.
+
+<P>Yes, STEP is being developed. Several parts of it are done and can be used today. But, perhaps, the most-important factor is that it is &quot;open.&quot; It's non-proprietary. Which is extremely useful.
+
+<P>STEP is a neutral format for product definition data. That isn't particularly illuminating. But the illumination can come from taking a look at a real-life example of working with non-neutral product definition data.
+
+<P>Jerry Widmer is a program manager, Simultaneous Product &amp; Process Development, Corporate Research &amp; 
+Development, Eaton Corp. (Southfield, MI). He is presently on loan to the Automotive Industry Action Group (AIAG) as an associate director. At Eaton, the computer-aided design (CAD) system that's used is Pro/Engineering (Pro/E) from Parametric Technology. Eaton, as a tier-one supplier, does work for several of the OEMs. Each of the OEMs has its CAD system of choice. There are translators for the CAD systems so that something &quot;written&quot; on one system can be understood by another system. But just as is the case 
+with human languages, those who know the native tongues are able to capture nuances and meaning that can be lost in 
+translation. So Eaton, in addition to Pro/E, has a number of other CAD systems so that it can work with its customers in their native languages.
+
+<P>Complicating matters a bit more: it has suppliers that may not have the CAD systems used by Eaton or Eaton's 
+OEM customers. So to facilitate working with its suppliers, Eaton has still more CAD systems.
+
+<P>Given that a &quot;seat&quot; for a CAD system--hardware and software--can cost on the order of $40,000 to $80,000 (we're talking the full-blown types as used by the larger organizations, not the shrink-wrapped PC-based packages), there is an investment in gear that Eaton has made that is not insignificant. In addition to this capital investment, there are additional costs incurred, as well: Dr. Thomas A. Phelps, principal member, Technical Staff, Industrial Technology Institute, presently working with AIAG on a STEP development and implementation program, AutoSTEP, notes, &quot;CAD systems are different. No one person can be 
+<I>really</I> good at two unless they are superhuman.&quot; Not all of those CAD seats at Eaton have people in them at any given time. People have been trained to use more than one systemit would be impractical to have people trained for one and only one system who might sit there for extended periods surfing the Net or something, waiting to work. This means that there has been an investment in training that is not always being utilized. And when an individual sits down at a workstation she hasn't visited for a while, she'll have a learning curve to climb while becoming more familiar with it (e.g., &quot;Oh, <I>that's</I> what that command does...I'd forgotten.&quot;)
+
+<P>All of which means that heterogeneous CAD systems add cost, complexity and time to processes and can make 
+quality tougher to realize.
+
+<P>And it should be noted that Eaton is not in the least bit unusual in its setup. Plenty of companies have this multiplicity of systems. Because the people at AIAG recognize that this has the effect of adding to the costs of companies without really having benefits to the end customer, they are working to achieve a workable STEP implementation program.
+
+<P>Of course, a company should have the right to use whatever CAD system it wants to, assuming, of course, that it can fulfill the requirements of its customer(s). So the fundamental rationale behind the development of STEP is the elimination of the cost, complexity and time related to multiple CAD systems without pulling the plug on any of those systems. (Realize, also, that the standard is being developed for all industries, not just automotive. There are similar concerns, for example, in the aerospace industry.) As Phelps puts it, &quot;The STEP application protocol is a neutral representation of data that anybody can use. Companies can move data between dissimilar systems.&quot; Eaton, then, could continue to use Pro/E and, in effect, eliminate the various other systems. This reduces costs. Its people could concentrate on one system and get completely adept at using it. This improves throughput and quality. When it needed to transfer files with a customer, what it would send would go out 
+looking like Pro/E to the last <I>person</I> who looked at it (obviously, the machines don't see the same thing that we do), then show up at the customer's site appearing as a file formatted as whatever CAD system is being used there. Consequently, each firm is able to work with its preferred system.
+
+<P>It sounds great. So why isn't it being used right now? There are a number of issues, which is why AIAG created the 
+AutoSTEP program. It is a three-phase program, initiated in 1995 and scheduled for completion in 1998. Phase one included the OEMs and tier-one suppliers (TRW, Eaton, Dana, AlliedSignal, and Delphi Saginaw). The issue here is exchanging solid model information. Phase two adds a few other tier-ones (Delco Electronics and Kearfott) and tier-two suppliers for each of the tier-ones. Also joining phase two are General Dynamics Land Systems and United Defense Limited Partners because the Dept. of Defense is interested in improving its supply chain. Phase two involves solids, drafting, surfaces, and configuration management. Then phase three, which is to start in late 1997 or early 1998, will bring in tier-three suppliers. This will be a test of 
+the automotive umbrella application protocol (AP), AP 214: Automotive Mechanical Design. &quot;This is the dream of the grand, united approach,&quot; Phelps says, adding, &quot;The jury is still out on it.&quot; In addition to the companies cited, AutoSTEP is also being supported by CAD vendors, STEP tool suppliers, and others.
+
+<P>In addition to these technical exchanges, there is a concurrent Supply Chain Integrated Product and Process Development (IPPD) Pilot running, which looks at business issues related to how information is handled through 
+organizations. This includes making as-is assessments of companies, then benchmarking. The output will be best-practice recommendations, to be followed by pilot implementations. The concern is to make certain that people can actually use the technology in a profitable manner once it has been developed.
+
+<P>The technical development is something that remains as a concern. The primary issue here is one of whether the data that is being transferred from one system to another is complete. The risk of sending information and not having all of it arrive, and not knowing what's missing, can have project-stopping and career-ending consequences. Each of the Big Three has made public statements of the CAD systems that they plan to use, each of which is different from the other, and there is an evident expectation that their 
+suppliers will be compliant with those systems. Which makes this whole STEP effort seem somewhat curious. But Phelps said that in the near term, once there is high confidence in the protocols, that it is likely that the tier-one suppliers will use it with their suppliers, rather than with the OEMs--at least not in any major way. The long-term objective, of course, is to make STEP the preferred method 
+of exchange for OEMs and suppliers alike. So while STEP may make it into the supply base as a way of working before the turn of the century, the OEMs are unlikely to get aboard until sometime in the next decade.
+
+<P>STEP Made Simple
+
+<P>Although the programmers and technical people are 
+undoubtedly doing some rather impressive feats of digital dexterity to make the Standard for the Exchange of Product Model Data a reality, what you really need to know is that the intent is:
+
+<P>To create a global standard (there are efforts underway in Europe, Japan and North America) for product information (not just CAD files, but full information, including things like a bill of materials, germane to the product) that's independent of the CAD system (create the file on one brand of system, work on it with another) and that allows sharing of data throughout the product life cycle (from concept through disposal).
+
+</BLOCKQUOTE>
+<P>
+<!------------------------------------------------------>
+<HR>
+<P>
+<CENTER>
+<A HREF="#top">Return to Top of Page</A> | 
+<A HREF="/prod/aptr.html">Return to AP Technical Resource Center Page</A>
+</CENTER>
+
+
+<HR><BR>
+
+<CENTER>
+<TT><B>
+<FONT SIZE="3">
+[ <A HREF="http://www.gardnerweb.com">GardnerWeb Home</A> | 
+<A HREF="http://www.gardnerweb.com/visitors/visitors.html">Visitors Center</A> | 
+<A HREF="http://www.hansergardner.com">Bookstore</A> ]<BR>
+[ <A HREF="http://www.gardnerweb.com/pf/pf.html">Finishing Resource Center</A> | 
+<A HREF="http://www.gardnerweb.com/mms/mms.html">Metalworking Resource Center</A> ]
+</FONT>
+</B></TT>
+
+<P>
+<HR WIDTH=50%>
+
+<FONT SIZE="-2">
+Serving the Metalworking and Finishing Industries. <I>Since 1928</I>.<BR>
+GardnerWeb and all contents are properties of Gardner Publications, Inc.<BR>
+All Rights Reserved. 1995-1996.</FONT><P>
+
+</CENTER>
+
+
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,119 @@
+
+<DOC>
+<DOCNO>WT02-B21-173</DOCNO>
+<DOCOLDNO>IA052-000883-B029-121</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/interfer/ifmshift.html 137.229.31.144 19970210141057 text/html 4425
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:11:12 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 24-Jan-97 03:03:33 GMT
+Content-length: 4245
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML> 
+<HEAD>
+<TITLE>Interferometry at ASF/STEP: Ifmshift</TITLE> 
+</HEAD> <BODY BGCOLOR="#FFDEAD" TEXT="#00008F" LINK="#008B00" VLINK="#580000"
+BACKGROUND="../res/backgrounds/asf_tile.gif"> 
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> | 
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> | 
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> | 
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> |
+<A HREF="http://www.images.alaska.edu/interfer/">Interferometry</A> 
+<H1 ALIGN=CENTER>
+Ifmshift
+</H1>
+<DL>
+<DT><H2>Introduction</H2></DT>
+<DD>
+Once the offsets have been calculated between image 1 and image 2, the images
+need to be registered to within pixel accuracy.  Ifmshift performs this
+registration by moving the second image to line up with the first image. 
+Ifmshift will also convert the short int complex data to float complex data. The 
+floating point complex data is the format that the rest of the interferometry 
+programs require. It will also remove any metadata attached to the data file.
+Also by default, ifmshift will split the complex data into its specific 
+components: amplitude and phase. 
+<P>
+At STEP, when the data is split into its component parts, we will sometimes call 
+that polar format as opposed to complex format. Ifmshift can produce complex 
+format data, but the majority of our programs require polar format instead.
+<P>
+If ifmshift runs in default mode, you will have four output files upon 
+completion. You will have float-valued amplitude and phase files corresponding 
+to each of your input images. These output files can be interfered with the <a 
+href="igram.html">igram</a> program.
+
+<DT><H2>Example</H2></DT>
+<DD>
+For details on the command line syntax, please see the <a 
+href="http://www.images.alaska.edu/cgi-bin/man-request.pl?asftool=ifmshift&amp;s
+ection=1">man page</a>.
+<P>
+A sample run looks like the following:
+<P><pre>
+sparc1k [51]: ifmshift asc1 asc2 asc1 asc2 ctrl
+  Wid = 2048  Len = 12800
+  Col. header = 12 bytes
+  Header rows = 1
+  Xoff = -6
+  Yoff = 22
+Processing Line 12800
+Total wall clock time = 362 seconds.
+</pre><P>
+The line <I>Processing Line...</I> changes as each set of lines is processed.
+
+<DT><H2>Description</H2></DT>
+<DD>
+The first two parameters to ifmshift are the ASF data files. The source image, 
+asc1.dat, goes first. (<I>Note: We define the source image as the image that was 
+taken by the satellite first.</I>) The next two parameters are the output names 
+of the converted and modified source and target images. In our example, asc1.dat 
+creates two output files asc1.amp and asc1.phase. Asc1.amp and asc1.phase have 
+the same data dimensions as asc1.dat (2048 cols x 12800 rows). Asc1.amp is the 
+amplitude of asc1.dat with 4-byte float values per pixel. Asc1.phase is the 
+phase of asc1.dat also with 4-byte float values per pixel. 
+<P>
+The same data conversion also occurs for asc2.dat. In addition, asc2.dat is 
+shifted by 6 cols and 22 rows. Any rows or columns of invalid data on the target 
+image are set to zero.
+</DD>
+
+<DT><H2>Next Step</H2></DT>
+<DD>
+The next step in interferometry processing is <a href="igram.html">igram</a>. 
+Unless you plan on re-registering the data, you can take the original data files 
+offline. However, you will need the metadata file(s) of your source image later 
+during processing. In this example, you will need to keep asc1.ldr and asc1.trl 
+online.
+</DD>
+</DL>
+
+ 
+<P>
+<a href="resolve.html">
+<img src="../res/buttons/leftarrow.gif" alt="[Go Back]" WIDTH=29 HEIGHT=30>
+</a>
+<a href="igram.html">
+<img src="../res/buttons/rightarrow.gif" alt="[Go Ahead]" WIDTH=29 HEIGHT=30>
+</a>
+<P>
+<CENTER>
+<IMG ALT="[---------]" SRC="../res/lines/ice_blue_line.gif" WIDTH=85%>
+</CENTER>
+<H4> 
+Created By: <a href="mailto:mshindle@images.alaska.edu">Michael Shindle</a><br>
+Last Updated: January 23,1997<BR> 
+Last Updated By: <A 
+HREF="http://www.images.alaska.edu/users/mike/mike.html">Michael 
+Shindle</A><BR> If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="http://www.images.alaska.edu/comments.html">comment</A>. 
+<H4> 
+</BODY>
+</HTML> 
+
+</DOC>

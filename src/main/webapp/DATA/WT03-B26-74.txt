@@ -1,0 +1,152 @@
+
+<DOC>
+<DOCNO>WT03-B26-74</DOCNO>
+<DOCOLDNO>IA029-000311-B021-98</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdf8.htm 138.44.40.1 19970114165343 text/html 7204
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:52:00 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:09 GMT
+Content-length: 7030
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>Image Brightness &amp; BRDF Workshop Issues<BR>
+<HR></H2>
+<B>3.3.2 Kernels</B> <BR>
+<BR>
+The Ross kernels are derived from a formula presented by Ross (1981) for
+the directional reflectance above a horizontally homogeneous plant canopy
+calculated from radiative transfer theory in a single scattering approximation.
+The Ross-thick kernel was derived and described by Roujean et al. (1992).
+It is based on an approximation for large LAI values:<BR>
+<P><CENTER><IMG SRC="symbols/image42.gif" WIDTH="169" HEIGHT="35" ALIGN=
+bottom NATURALSIZEFLAG="3"><BR>
+<BR>
+<IMG SRC="symbols/image43.gif" WIDTH="104" HEIGHT="28" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+<IMG SRC="symbols/image44.gif" WIDTH="127" HEIGHT="30" ALIGN=bottom NATURALSIZEFLAG=
+"3"></CENTER>
+<P>In the kernel, <IMG SRC="symbols/image45.gif" WIDTH="12" HEIGHT="15"
+ALIGN=middle NATURALSIZEFLAG="3">and <IMG SRC="symbols/image46.gif" WIDTH=
+"13" HEIGHT="15" ALIGN=middle NATURALSIZEFLAG="3">are zenith angles for
+illumination and view, respectively; <IMG SRC="symbols/image47.gif" WIDTH=
+"9" HEIGHT="15" ALIGN=middle NATURALSIZEFLAG="0">is the relative azimuth
+of illumination and view directions; and<IMG SRC="symbols/image48.gif" 
+WIDTH="8" HEIGHT="15" ALIGN=middle NATURALSIZEFLAG="0"> is the phase angle
+of scattering, <BR>
+<IMG SRC="symbols/image49.gif" WIDTH="185" HEIGHT="16" ALIGN=middle NATURALSIZEFLAG=
+"3">.<BR>
+In the constants, <I>s</I> is leaf reflectance (= leaf transmittance; <IMG SRC=
+"symbols/image50.gif" WIDTH="14" HEIGHT="15" ALIGN=bottom NATURALSIZEFLAG=
+"3">is the (assumed isotropic) surface reflectance of the soil or understory;
+<I>LAI</I> is the leaf area index; and <I>B</I> is the average of secants
+of possible view and illumination zenith angles. For this formulation, a
+spherical leaf angle distribution is assumed.<BR>
+<BR>
+The Ross-thin kernel simplifies Ross's equation based on an approximation
+for small LAI values:<BR>
+<P><CENTER><IMG SRC="symbols/image51.gif" WIDTH="164" HEIGHT="34" ALIGN=
+bottom NATURALSIZEFLAG="3"><BR>
+<BR>
+<IMG SRC="symbols/image52.gif" WIDTH="57" HEIGHT="28" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+<IMG SRC="symbols/image53.gif" WIDTH="76" HEIGHT="28" ALIGN=bottom NATURALSIZEFLAG=
+"3"></CENTER>
+<P>Although this kernel applies primarily to the case of a thin canopy of
+scatterers over a uniform background, it can also be appropriate for a very
+dense, uniform canopy of high leaf area, since in that case the leaf layers
+below the uppermost can act like a uniform background (Strahler et al.,
+1995).<BR>
+<BR>
+The derivation of the Roujean geometric-optical kernel is presented in the
+appendix to the paper of Roujean et al. (1992). The kernel may be regarded
+as accounting for the scattering of a random arrangement of three-dimensional
+rectangular solids (&quot;bricks&quot;) with isotropic scattering surfaces.
+Shadows are taken as perfectly black. Mutual shadowing, in which the shadow
+of one object falls on another object, is not taken into account. The bricks
+are long with respect to their height <I>h</I> and width <I>b</I>. The kernel
+is:<BR>
+<P><CENTER><IMG SRC="symbols/image54.gif" WIDTH="339" HEIGHT="61" ALIGN=
+bottom NATURALSIZEFLAG="3"><BR>
+<BR>
+<IMG SRC="symbols/image55.gif" WIDTH="47" HEIGHT="28" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+<IMG SRC="symbols/image56.gif" WIDTH="38" HEIGHT="15" ALIGN=bottom NATURALSIZEFLAG=
+"3"></CENTER>
+<P>The Li kernels are derived from the modeling approach of Li and Strahler
+(1986, 1992). In this approach, the surface is taken as covered by randomly-placed
+projections (e.g., tree crowns) that are taken to be spheroidal in shape
+and centered randomly within a layer above the surface. The BRDF is modeled
+as a function of the relative areas of sunlit and shaded, crown and background
+that are visible from the viewing position in the hemisphere. For the Li-sparse
+kernel, it is assumed that shaded crown and shaded background are black,
+and that sunlit crown and background are equally bright. Under these circumstances,
+and with some further approximations in the way that view and illumination
+shadows overlap, the Li-sparse kernel is:<BR>
+<P><CENTER><IMG SRC="symbols/image57.gif" WIDTH="277" HEIGHT="28" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>where <BR>
+<P><CENTER><IMG SRC="symbols/image58.gif" WIDTH="172" HEIGHT="28" ALIGN=
+bottom NATURALSIZEFLAG="3"><BR>
+<BR>
+<IMG SRC="symbols/image59.gif" WIDTH="177" HEIGHT="41" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+<IMG SRC="symbols/image60.gif" WIDTH="211" HEIGHT="22" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+<IMG SRC="symbols/image61.gif" WIDTH="189" HEIGHT="16" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+<IMG SRC="symbols/image62.gif" WIDTH="95" HEIGHT="30" ALIGN=bottom NATURALSIZEFLAG=
+"3"></CENTER>
+<P>In these expressions, <I>b </I>is the vertical radius of the spheroid;
+<I>r</I> is the horizontal radius of the spheroid; and <I>h</I> is the height
+of the center of the spheroid. For this model,<BR>
+<P><CENTER><IMG SRC="symbols/image63.gif" WIDTH="58" HEIGHT="19" ALIGN=
+bottom NATURALSIZEFLAG="3"><BR>
+<IMG SRC="symbols/image65.gif" WIDTH="35" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG=
+"3"></CENTER>
+<P>Here, <I>C</I> is the brightness of sunlit surface, and <IMG SRC="symbols/lam1.gif"
+WIDTH="7" HEIGHT="10" ALIGN=bottom NATURALSIZEFLAG="3">is the count density
+of spheroids (number of spheroids per unit area). <BR>
+<BR>
+The Li-dense kernel differs from the Li-sparse kernel in that it accommodates
+mutual shadowing. It assumes a random distribution of crown heights to maximize
+the geometric-optical effect in a dense ensemble of canopies. <BR>
+<P><CENTER><IMG SRC="symbols/image67.gif" WIDTH="194" HEIGHT="35" ALIGN=
+bottom NATURALSIZEFLAG="3"><BR>
+<BR>
+<IMG SRC="symbols/image68.gif" WIDTH="35" HEIGHT="28" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+<IMG SRC="symbols/image66.gif" WIDTH="35" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG=
+"3"></CENTER>
+<P>These kernels are not yet linear in that they still contain two parameters,
+namely the ratios <I>b/r</I> and <I>h/b </I>, describing crown shape and
+relative height. The kernels therefore actually represent two families of
+kernels, governed by the values of these two internal parameters. For the
+present, we provide two choices for each parameter, thus providing four
+kernels within each family. For the <I>b/r</I> ratio, the values 2.5 (prolate
+shape) and 0.75 (oblate shape) are used; for <I>h/b </I>the ratio, we use
+values of 2.5 (tall) and 1.5 (short). <BR>
+<BR>
+<HR><A HREF="brdf1.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="brdf7.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="brdf9.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif"
+WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><HR><BR>
+</BODY>
+</HTML>
+</DOC>

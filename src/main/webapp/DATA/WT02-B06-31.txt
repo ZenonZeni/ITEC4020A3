@@ -1,0 +1,203 @@
+
+<DOC>
+<DOCNO>WT02-B06-31</DOCNO>
+<DOCOLDNO>IA096-001029-B017-185</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/pro_CODE_analysis.html 205.177.10.31 19970215020004 text/html 10184
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 01:58:46 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>CDT Analysis of S.1726/Pro-CODE</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<A HREF="../index.html"><IMG SRC="../images/cdtlgo.gif" ALIGN=LEFT BORDER=0 ALT="Center for Democracy and Technology"></A><A HREF="index.html"><IMG SRC="../images/big-key.gif" BORDER=1 ALIGN=RIGHT ALT="[Golden Key]"></a>
+<BR CLEAR=ALL>
+<BR>
+<BR>
+<H3><CENTER>Analysis of S.1726, the &quot;Promotion of Electronic Commerce
+<BR>
+in the Digital Era (Pro-CODE) Act of 1996&quot;</CENTER>
+</H3>
+<BR>
+<FONT SIZE=+1><B>Summary.</FONT></B>  S.1726, the encryption bill authored
+by Senator Conrad Burns (R-MT) and others, offers the electronic commerce counterpoint
+to S. 1587, the pro-privacy encryption bill offered earlier this session
+by Senator Burns, Senator Patrick Leahy (D-VT), and others. 
+<p>
+S.1726 would:
+<UL>
+<LI>Relax current export controls by lifting restrictions on all encryption
+hardware and software, regardless of key length, that is &quot;generally
+available&quot; or in the public domain in the United States. Hardware and
+software not available in the mass market or public domain would fall under
+an export scheme that would currently allow up to roughly DES-strength (i.e.,
+56-bit key length) security.<P>
+<LI>Give the Commerce Department exclusive jurisdiction over encryption
+exports, rather than the State Department.<P>
+<LI>Affirm domestic use and sale of encryption and explicitly prohibits
+mandatory key escrow.<P>
+<LI>Prohibit Commerce Department standard-setting activities on encryption.<P>
+<LI>Present broad new Congressional finding on the negative impact of current
+encryption regulations on electronic commerce.
+</UL>
+The bill does not contain any of the key holder standards found in S.1587,
+or the criminal provisions found in S.1587 and its House counterpart H.R.
+3011. Taken together, the provisions of S.1726 are designed to make strong
+encryption products more widely available and remove many of the competitive
+barriers facing U.S. industry and individuals.<BR>
+<BR>
+<HR WIDTH=50%>
+<BR>
+<FONT SIZE=+1><STRONG>Major provisions.</FONT></STRONG> The &quot;Promotion
+of Commerce On-Line in the Digital Era (Pro-CODE) Act of 1996&quot; would
+substantially change current encryption controls in the areas of export
+controls, domestic use and distribution, and Commerce Department standard-setting.<BR>
+<BR>
+<STRONG>Export Controls:  </STRONG><BR>
+<BR>
+	Under the Arms Control Export Act and subsequent ITAR regulations, encryption
+products and technology are classified as &quot;munitions&quot; subject
+to a complex export licensing scheme involving the State Department and
+Commerce Department. Currently, products with encryption keys over 40 bits
+long -- a level of security increasingly viewed as inadequate for many uses
+-- generally cannot be exported. The Administration has used these regulations
+to support policies whereby moderately stronger systems could be exported
+if they guarantee government access to encryption keys through government
+or third-party key escrow systems. Moreover, due to the need for international
+interoperability and the difficulty of creating domestic and international
+product lines, the export controls have had the effect of preventing the
+widespread availability of strong encryption products within the United
+States.<BR>
+<BR>
+S. 1726 would relax these export controls:
+<UL>
+<LI>Any encryption software, or hardware incorporating such software, that
+is &quot;generally available, as is, and designed for installation by the
+user or purchaser,&quot; or that is &quot;in the public domain,&quot; would
+be exportable, regardless of key lengths. &quot;Generally available&quot;
+software includes encryption software distributed over the Internet, widely
+offered for sale or transfer in the U.S. (including software disseminated
+as shareware or freeware), or preloaded on computer hardware. The government
+would retain the ability to regulate encryption under the more narrow national
+security standards of the Trading With The Enemy Act or International Emergency
+Economic Powers Acts. <BR>
+<BR>
+The category of freely exportable encryption products appears to cover a
+broad class of hardware and software. Many of the popular web browsers,
+PGP, or encryption in other widely available software would all be exportable
+with unlimited key lengths once made publicly available in the U.S. The
+basic premise appears to be: If encryption is available in your local software
+store, via mail order catalogs, or widely distributed over the Net, then
+it should be freely exportable.<BR>
+<BR>
+<LI>Other encryption hardware and software products would be exportable
+under license to countries &quot;in which exports of computer software of
+similar capability are permitted for use by financial institutions ... not
+... controlled in fact by U.S. persons.&quot; Currently,  this scheme makes
+non-mass market hardware and software exportable with up to roughly DES-strength
+(i.e., 56-bit key length) security. (This represents a minor change from
+S.1587, which had the same standard for software but permitted export of
+non-mass-market hardware if products of similar security were commercially
+available abroad.)<BR>
+<BR>
+The Secretary of Commerce would be empowered to deny such exports where
+there is &quot;substantial evidence&quot; that the products in question
+would be &quot;diverted to a military end-use&quot; or &quot;modified for
+military or terrorist end-use.&quot; <BR>
+<BR>
+<LI>The Department of Commerce would receive exclusive jurisdiction over
+export controls for encryption hardware, software, and technology, except
+such encryption technology that is specifically designed or modified for
+military use.
+</UL>
+<STRONG>Domestic Use and Sale of Encryption:</STRONG><BR>
+<BR>
+No restrictions on sale or distribution of encryption in interstate commerce - 
+S.1726 would prohibit the Federal government, or any State, from restricting
+or regulating the sale of encryption products in interstate commerce.<BR>
+<BR>
+Prohibits mandatory key escrow - the bill would also prohibit the Federal
+government, or any State, from imposing any key disclosure requirements
+as a condition of sale in interstate commerce.<BR>
+<BR>
+<STRONG>Commerce Department Standards Activities:</STRONG><BR>
+<BR>
+The bill restricts Commerce Department standard-setting activities on encryption.
+ The Department, through the National Institute of Standards or otherwise,
+may not &quot;promulgate, or enforce regulations, or otherwise adopt standards
+or carry out policies that result in encryption standards for use by businesses
+or entities other than Federal computer systems.&quot;<BR>
+<BR>
+The Commerce Department would also be prohibited from promulgating regulations
+that impose government-designed encryption standards on the private sector
+by restricting exports.<BR>
+<BR>
+<HR>
+<H3><CENTER>Comparison of S.1726 with S.1587 (the Leahy-Burns encryption
+bill) and H.R. 3011.  </CENTER>
+</H3>
+<BR>
+S.1726, the Pro-CODE, provides the electronic commerce equivalent to S.1587,
+the pro-privacy encryption bill introduced by Senator Leahy, Burns, Dole,
+Pressler and Murray two months ago, and S.1587's House counterpart, H.R.
+3011, introduced by Rep. Goodlatte and others.  Pro-CODE would relax export
+controls in a roughly similar way, but contains none of the key holder provisions,
+and no new crime for using encryption to obstruct justice. Where S.1587
+is more narrowly applicable to only wire or electronic communications, S.1726
+applies to encryption of both communications and other information such
+as stored files. Pro-CODE also contains a new provision to prohibit the
+Commerce Department from imposing encryption standards.<BR>
+<BR>
+Major areas for comparison include:<BR>
+<UL>
+<LI>Encryption of stored information: The definition of encryption in S.1587
+applies only to &quot;wire and electronic communications,&quot; while S.1726
+includes &quot;wire and electronic communications and information.&quot;
+S.1726 would thus appear to protect encryption hardware and software for
+non-communicated information, such as encryption of locally stored files
+or disk media.<BR>
+<BR>
+<LI>Export provisions: S.1587 and H.R.3011 have very similar export provisions
+to S.1726.  In all three, software and hardware that is &quot;generally
+available, as is, and designed for installation by the user or purchaser,&quot;
+or that is &quot;in the public domain,&quot; would be exportable, regardless
+of key lengths. Other encryption hardware and software would be exportable
+using the &quot;currently exportable to  foreign financial institutions&quot;
+standard (i.e.,  roughly DES strength; see explanation above) under S.1726.
+The same standard is used for other software in S.1587 and H.R. 3011, but
+hardware is subject to a more liberal test of what is already &quot;commercially
+available&quot; abroad.  <BR>
+<BR>
+<LI>Key holder provisions:  S.1726 and H.R. 3011 contain none of the extensive
+provisions in S.1587 regarding the responsibilities of third-party encryption
+key holders, or standards for release of keys to law enforcement.<BR>
+<BR>
+<LI>Use of encryption to obstruct justice: S.1726 does not contain the provision
+found in S.1587 and H.R.3011 that would criminalize the use of encryption
+to obstruct communications from law enforcement officials in furtherance
+of a felony.<BR>
+<BR>
+<LI>Personal use exemption: S.1726 does not contain the broader personal
+use exemption for U.S. users of encryption traveling abroad, found in S.1587.<BR>
+<BR>
+<LI>Commerce Department Standards activities: S.1726 prohibits any actions
+by the Commerce Department that have the effect of imposing government designed
+encryption standards. S.1587 has no analogous provision.<BR>
+<BR>
+<LI>New findings: S.1726 contains a broad new set of findings emphasizing
+the importance of encryption to the development of electronic commerce.<BR>
+</UL>
+<HR>
+<P>
+<a href="pro_CODE.html">Back to the Pro-CODE Page</a><br>
+<a href = "index.html">Back to the CDT Cryptography Page</a><br>
+<a href = "../index.html">Back to CDT Home Page</a><br>
+<BR>
+</BODY>
+</HTML>
+</DOC>

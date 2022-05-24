@@ -1,0 +1,2155 @@
+
+<DOC>
+<DOCNO>WT03-B33-22</DOCNO>
+<DOCOLDNO>IA059-000323-B028-70</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/ec102.html 205.156.212.5 19970114224755 text/html 107898
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 22:45:45 GMT
+Last-modified: Thursday, 24-Oct-96 22:46:29 GMT
+Content-length: 107710
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/ec102.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+SOFTWARE FUTURES via NewsNet <BR>
+January 01, 1996<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><A HREF = "#1"><LI>                  "IT'S THE END OF THE WORLD,&nbsp;                         AND WE KNOW IT"</A>&nbsp&nbsp&nbsp<NOBR>(3575 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><A HREF = "#2"><LI>                APPLICATION PARTITIONING ASIDE:&nbsp;                     WHAT'S FORTE GOOD FOR?</A>&nbsp&nbsp&nbsp<NOBR>(3067 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#3"><A HREF = "#3"><LI>                   NEW WINE IN OLD BOTTLES:&nbsp;                        CINCOM AND UNIFY</A>&nbsp&nbsp&nbsp<NOBR>(3416 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#4"><A HREF = "#4"><LI>                RATIONAL SOFTWARE: THE ADA KIDS&nbsp;                       WIDEN THEIR APPEAL</A>&nbsp&nbsp&nbsp<NOBR>(2139 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#5"><A HREF = "#5"><LI>                 LET'S GET USER FRIENDLY: THE&nbsp;                      DSDM APPROACH TO RAD</A>&nbsp&nbsp&nbsp<NOBR>(2240 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#6"><LI>                     MY OWN PRIVATE I-WAY</A>&nbsp&nbsp&nbsp<NOBR>(898 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#7"><LI>                         INPUT/OUTPUT</A>&nbsp&nbsp&nbsp<NOBR>(385 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#8"><LI>                       NEWS AT A GLANCE</A>&nbsp&nbsp&nbsp<NOBR>(878 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#9"><LI>                          UK PRODUCTS</A>&nbsp&nbsp&nbsp<NOBR>(831 words)</NOBR></LI>
+</UL>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+SOFTWARE FUTURES via NewsNet
+January 01, 1996
+
+                  "IT'S THE END OF THE WORLD,
+                         AND WE KNOW IT"
+
+When you read these words, it'll be early January 1996. To put
+that in a perspective that might cause you a minor spasm of
+panic: there are less than 210 weekends left before the end of
+the century.
+
+The Year 2000 will start on a Saturday, which is probably very
+good news. Because you will be spending between now and that
+Friday night, December 31st, 1999, spending vast amounts of time
+and development dollars combing through code. And no, you won't
+be re-engineering, re-developing or re-vamping. You'll be engaged
+in a simple, desperate drive to stop your company - and maybe
+your country - breaking its neck on the banana slip of the
+infamous Year 2000 problem.
+
+Say what? You probably know the routine by now, but you decided
+to forget about it until third quarter of 99. It goes like this:
+When a lot of business computer applications were first deployed,
+in the 1960s (some were rolled out in the 1950s!), space was at a
+premium, and languages like Cobol typically stored dates in a
+truncated fashion. Thus programmers quickly became habituated to
+writing date routines in the form 01-01-96, or MM-DD-YY.
+
+That works fine until programs start having to compute around
+dates that cross (bi-directionally, remember!) century
+boundaries. This began to happen to some companies in the
+insurance industry in the mid-1980s. Because of course there's no
+"CC" for "19" or "20" in a lot of those (now buried? lost? still
+active?) system calls. So when we deal with "2000" do the two
+zeros indicate to the computer that it is 1900, 2000, undefined,
+or an error condition? Well, could be any of the above, right?
+
+So slowly but surely there's been a rising sense of danger in
+some quarters as organizations begin to fearfully wonder if
+they're going to be presented with some Godawful headaches around
+the turn of the century to do with century invalidity.
+
+These problems range from the trivial to the catastrophic. You've
+probably already heard the ones about sweet little old ladies of
+104 being invited to kindergarten because the local school
+records system sees they were born in "88" (only it was 1888, not
+1988!). Then there's the weird danger of things like planes not
+taking off because computers thrash in panic at the "discovery"
+that they haven't been serviced in 100 years. Then there'll be
+headline stories about customers being presented with a hundred
+years' worth of unpaid interest on their credit card bills, or
+perhaps more happily, a hundred years of "unearned" interest on
+their savings. Going up the scale of danger, how about old folks
+not being sent urgent age-related medical screening reminders,
+because they're too "young"? How would you feel if your Dad
+doesn't get his prostate test in time because of some dumb
+hospital program that thinks he should be being fixed for braces
+instead?
+
+And then there's the danger that companies will screw up their
+financial health by non-payment or over-payment or mispayment-
+payment or whatever. The Gartner Group's Bruce Hall has said in
+all seriousness that less than half of US companies are likely to
+be century compliant by the year 2000.
+
+Ed Yourdon (Application Development Strategies, June 1995)
+produced a quite sobering account of some of the time-line
+problems. Last year - though you may have been unaware of it -
+many five year financial forecast programs failed. This year,
+we'll have (at least) some five year driver license expiration
+problems in the US. Next year, look for insurance policy crashes;
+the year after, credit-card expiration snafus; the year after
+that, purchase order and one-year contract bugs; and the
+millennium will herald the start of those age calculation errors
+that the press will so enjoy writing (remember all those $10m
+telephone bill stories we thought we'd lived down in the
+Seventies?).
+
+More startlingly - Gartner has done some calculations based on
+the amount of Cobol out there (no-one really knows - 50 billion
+lines in production use, according to IDC, with 80% of all code
+written in the language?) and the industry average cost of fixing
+lines of code (at least $1.50). It's seriously predicting a
+global IT spend on the Year 2000 problem of anywhere between
+$300bn to $600bn. The lowest figure anyone can come up with is
+$17.5bn for the US alone.
+
+If you want to cross-check with some other ways of putting a
+metric on all this proposed work, Gartner's minimum suggested
+resource allocation is 24 people working for one full year. And
+also please bear in mind that since you'll have to test the
+system practically to death, you'll need ideally to be at that
+stage one full year before that possibly cataclysmic Friday night
+- ie you need to do all this between this month and December
+1998.
+
+(Gartner has also been so concerned as to suggest that as many as
+10% of IT-using companies could go bust directly as a result of
+the Year 2000 crisis.)
+
+Think about that. Then think about the fact that the IRS is just
+starting to look at fixing the problem. Then do what Ed Yourdon
+recommends - check all your money out in gold coins and go and
+live on a Pacific island for two years until the dust from the
+crash of civilization settles!
+
+Hence the "End Of The World" scenario we've cheekily quoted from
+REM. And do you feel fine?
+
+Maybe you do if you were one of the far-seeing individuals who
+made it to the Software Productivity Group (of Westboro, Mass)
+sponsored Year 2000 conference in Orlando, Florida last October.
+
+Of the over 300 attendees, 13% were of IS director level and 18%
+were CIOs, Senior VPs or VPs, with over half (52%) other
+management and only 17% on the developer or consultant level. The
+preponderance of management can be taken as a good sign, for as
+we'll see the Year 2000 is not so much a technical as a
+management issue.
+
+Century date change and re-engineering specialist Adpac, of San
+Francisco, took the opportunity to poll attendees on their
+current level of awareness and action on Year 2000 (see diagram).
+
+                     1 PER CENT ARE FINISHED
+
+As you can see, quite a few folks are still very much at the
+planning and early adoption stage - only 1% were at the final
+test stage! But the scale of the problem can be glimpsed by other
+aspects of the survey. Over ten per cent of the respondents have
+over 100,000 Cobol programs - not lines of code, programs. Most
+(27%) have between 2,500 and 10,000, and nearly a fifth simply
+don't know how many they've got. When asked if there were
+application or database files that do indeed have only 2-digit
+years, an astonishing 85% admitted that was so. And a bare
+majority - 51% in this survey - said they were confident that
+application components are "easily identified" by naming
+techniques.
+
+It would be easy to continue to throw around some of these mind-
+numbing statistics, but we think the point is clear: the Year
+2000 problem is a problem, and there is a scale of possible dire
+consequences ranging from no effect to worldwide economic and
+social catastrophe. Obviously it's prudent to believe the actual
+impact on you and your development team is going to be somewhere
+in the middle - and like it or not, chums, that means that those
+200-odd weekends left to the end of the century are more likely
+than not to be taken up with fixing this problem, rather than any
+fun stuff (like new development) or sensible stuff (re-
+engineering badly deteriorating systems).
+
+Software Futures was interested in participating in the Orlando
+experience precisely because we wanted to sift away some of the
+Armageddon hoopla, so we could try and determine what real live
+situations and strategies are going on regarding the "Millennial
+Bug."
+
+If we heard any phrase in Orlando more often than "The year 2000
+is a serious problem and we've got to start doing something about
+it," it was "Start with inventory management - it's important!"
+We say this because of all the user war stories (and yes, there
+are a few - some people are already doing the right thing!) the
+inventory management issue stands out as the common theme. Like
+they say in metrics, if you don't measure something, how will you
+know how you've done when you're finished? Inventory management
+is the right first step because it can help you answer such
+firefighting questions as, How much source code is missing from
+your application portfolio? How many systems can be retired in
+the next four years with no impact? And so forth.
+
+As Jennifer Schmidt, managing partner for Chicago-based systems
+renovation consulting firm SPR, puts it, you'll find that the
+actual physical changing of lines of code will be the smallest
+element of your cost, ironically. Based on her experience of a
+number of Year 2000 projects, a good rule of thumb would be 40%
+planning, 50% testing, and only 10% rewrites, she estimates.
+
+(By the way, that inventory check isn't meant to just cover your
+in-house developed code - what about all your packaged software
+applications. Yes, that means you, Mr Smug Client/Server. How
+sure are you that all your glittering new distributed
+applications are century-compliant?)
+
+The inventory management angle was in any case a factor in the
+experience of Mike Smith, director of the Great American
+Insurance Company, of Cincinnati,who co-ordinated the company's
+recent Year 2000 fix.
+
+"We have a bit of everything," he admits cheerfully, detailing a
+mixed legacy and PC environment where systems using CICS, Cobol,
+Assembler, VSAM and PC upload to mainframe screens are all happy
+equals. And buried in this richness? At least 75 combinations of
+letters and characters that dealt with dates, in the case of the
+PICTURE, REDEFINES and VALUE literals of his Cobol applications.
+
+We're sure Mike isn't the only one who might have to say after
+looking at some of his working code, "I didn't know you could go
+on for that many pages before a full stop." Assembler proved an
+easier language to date decode, he adds, but warns that macros in
+the language need careful handling.
+
+                      NOT MERE CODE PARSING
+
+In terms of fixing as a percentage of time spent, he agrees with
+Schmidt. "We found that impacted code was only about 5% - but
+impacted logic was 80%."
+
+In other words, tracing the Year 2000 impact on all systems as a
+Gestalt was more important than mere physical code parsing. Two
+other valuable insights into getting the Year 2000 fix right:
+source and project management. As we said about that inventory
+(have we told you it's important yet?!?), using JCL is actually a
+surprisingly good way of doing easier impact analysis - but if
+you have missing source, problem. He suggests using your JCL
+resource as a good roadmap. As for project management: "It's too
+dangerous to think you can do all this in one go. The only reason
+I'm able to speak to you today about it is we did it in phases."
+
+One thing that you must take away from Mike's project is that in
+the end, with the right tools and approach, it became a
+manageable problem. A lot of the hard coded procedural logic
+proved acceptable so long as the right top level interface is
+changed, for example. In over 95% of cases of needed code change,
+a simple expansion to include a century date field was all that
+was necessary. And he was able to use a cheap and plentiful
+programmer resource - "A task force of college kids did most of
+the mechanical work," he grins.
+
+But don't take that one user story as a safety blanket: "There
+are three certainties in life - death, taxes, and the Year 2000,"
+says Hall. "And it doesn't matter about the statistics - in the
+end, it's all about your situation."
+
+Dan Spragle, seconded from Andersen Consulting to the Yellow
+Corp, a mid-Western trucking firm, does have some statistics,
+though. "Inventorying was easily the most time consuming aspect
+of our fix," he notes, since 9,000 programs were involved. In the
+end it took 17 people 3 years of effort to complete the work, or
+50 person years (350 in dog years, as he says...). That averaged
+out at about $75 an hour per programmer, a not inconsiderable
+sum. The team had also used the Adpac source editing tool to
+facilitate that process.
+
+Bank of America's Year 2000 team had a neat way to persuade
+senior management that this apparently "empty" way to spend good
+IT investment (remember, you only have time to fix the Year 2000
+bug - you would be reckless to think you can do that long-
+postponed systems re-engineering at the same time). One of its
+VPs, Howard Adams, declares, "We sold it to management purely and
+simply as a business opportunity - we will use this work to gain
+market share and win customers in the face of our competitors'
+non-compliance."
+
+Howard contracted James Martin & Co, the Atlanta-based consulting
+firm, to use its TSRM (The Systems Redevelopment Methodology). He
+found a massive 75 million lines of code needed scrubbing,
+including 50 different dialects of Cobol alone. "No tool can cope
+with all that code on its own; a methodology for process and
+project management is vital," he believes.
+
+                        BUSINESS DRIVERS
+
+Abbott Labs, a Chicago-based pharmaceutical and health care
+company, used a combination of product and consulting from
+Quintic Systems, Inc (also of Chicago). Again, this was a
+situation involving not just mainframe but DEC and AS/400 and,
+yes, over 30,000 PCs.
+
+The reason the organization took on trying to pick over this
+gigantic IT inventory was simple - a system fell over in 1990 and
+another produced incorrect results. Since a lot of its system
+output has to go to the Federal Food & Drug Administration since
+the 50,000 strong outfit develops and sells new drugs, this was
+kind of an important business driver...
+
+To trap the problem before it got more out of hand, the company
+instigated a programming standard in May of 1990 to ensure that a
+four digit year was always used. It then divided up the problem
+into four areas of concern; its mainframe legacy, PC and
+unsupported code, the software it purchased and the software it
+produced or sold.
+
+The next step was to decide that as far as possible a four digit
+year code could be simulated as often as practical, rather than
+physically trapping and changing occurrences. This is similar to
+the Great American Insurance approach, and also puts all those
+perhaps simplistic Year 2000 Cost = Lines Of Code x Change Per
+Line doomsday equations.
+
+If that was the case the Abbott Labs inventory would have been
+potentially cripplingly expensive - 8,700 external sorts, 8,800
+separate programs and 445 production systems needed attention.
+And as we said before, the decision to carefully carve out the
+systems that will die a natural death soon anyway can reduce the
+workload even further - 320 of the production systems were thus
+eliminated as Year 2000 fix candidates.
+
+Using this project management tip, the user was able to go back
+and cut the projected Year 2000 cost by 50%. But note that based
+on this particular case, the systems inventory work isn't a once-
+only - quarterly updates may be advisable (old systems have a
+habit, as we all know, of never quite dying on their own).
+
+Sandy Carroll, the Year 2000 project manager for Business and
+Student Information Services at the University of Minnesota, in
+the twin cities of St.Paul-Minneapolis, faced a similar
+apparently vast problem with 5 million lines of code (5,000
+programs). Thankfully, she too was able to revise her original
+costs down by bringing in the help of Phoenix, Arizona based
+Viasoft's Impact 2000 product, cutting the impact analysis phase
+alone down from 8.5 months to 6 weeks. Of the 5,000 programs,
+again, it turned out that not all needed changing - only 3,500
+were actually in need of attention.
+
+Don't think Software Futures is saying that this Year 2000 is a
+trivial problem simply because in practical terms it's the
+feeling from some of these plucky century-date change pioneers
+that in practice the actual amount of effort involved is simply a
+lot - not crushing. All that means is that don't be so daunted by
+the thing that you throw up your hands and don't start at all.
+But obviously the sooner the better.
+
+You might object that without support from the corner office, you
+might as well hunker down and wait for the food riots. If you
+hear the slightest note of objection, you might want to point to
+the example of Lou Gerstner.
+
+The financial engineer now turning IBM around has thrown his
+considerable presence into supporting Big Blue's own efforts to
+clean house for Year 2000.
+
+If you download the very useful IBM's 180 page document on its
+approach to the crisis (at http://www.software.ibm.com) you'll
+only get more confirmation that Gerstner knows it's vital IBM
+gets this right.
+
+The word from IBM spokespeople on the Year 2000 project is that
+Gerstner expects a full update every two months on the ongoing
+rollout of compliant products, and a 17-strong customer council
+has been established to help him get it right. In terms of IBM
+products and system software that need fixing, apparently VSE and
+MVS are on the minor casualty list, while VM needs quite a bit of
+work (not surprising, being that much older). While AS/400
+software is kosher, AIX is pretty much okay with a hint of
+caution - make sure routines that work with the counter all use
+four digits for years, not two.
+
+On the PC BIOS side (and you've probably made the private joke to
+yourself about resetting the systems clock to 2000 and looking at
+the, er, funny things the computer does), IBM claims a hardware
+BIOS fix will be in place this year. (However, don't be surprised
+if you have to get up a bit early from the "big party" to reset
+some system clocks once again, just in case.) All in all, IBM
+faithfully promises to be clean on the products side by the end
+of 1996, and on applications by the end of next year.
+
+IBM will also warn you about the Millennial Bug in a responsible
+way, (quoting, once again, Gartner), "The time is now, the
+problem is real, the solution is ugly."
+
+                   OUTSOURCING MIGHT NOT WORK!
+
+Well, one solution a lot of customers might immediately be
+tempted to go for is outsourcing the whole wretched mess once and
+for all. Simple, no? Hang on to your card from that nice guy at
+EDS or Andersen for a while longer. In a good article on the
+crisis in the July, 1995 issue of CFO, technology editor John
+Xenakis pointed out that the fixed-price contract nature of a lot
+of typical outsourcing deals doesn't fit well with the open-ended
+nature of a 2000 fix.
+
+"This problem is so big that we will consider these bugs to be
+out of the scope of our normal maintenance contract," says Benny
+Popek, managing partner for applications management for Coopers &
+Lybrand LLP in Burlington, Massachusetts. "For those clients who
+insist that we should take responsibility, we'll exercise the
+cancellation clause and terminate the outsourcing contract."
+
+One firm we've already namechecked as active in both Year 2000
+fixes and outsourcing, Cap Gemini America, now specifically
+mentions the issue in its contracts. More than mentions; its
+inclusion raises the cost of a typical five year contract by
+between 5 and 20 per cent a year!
+
+Just to rub it in, Computer Sciences Corp has been quoted as
+saying it doubts "[any outsourcing vendor] will ever assume the
+cost of fixing this problem."
+
+There are any number of strategies like thinking you can ignore
+the problem until the weekend before the century change, or
+through outsourcing, or hiring a bunch of cheap and cheerful
+programmers in India or Russia to do it for you. The Web page
+devoted to the issue (http://www.2000.com) even has an amusing
+David Letterman style Top Ten reasons for ducking the issue; our
+favorites are, Nostradamus never mentioned this, I believe in the
+sanctity of all life - including computer bugs; and What date
+problem? Bill Gates will solve it.
+
+The Year 2000 problem is upon us. It's not a joke, but it's not
+like a comet crashing into the Earth - ie, you can do something
+about it. And it won't cost billions for you - just time and
+effort, now.
+
+An analogy we'll steal from the management consultants is the
+story about the frog in hot water. Put the little green fellow in
+a pan of boiling H20 and he'll naturally spring right out.
+
+But put him in a pan of cold water and slowly heat it up, and the
+poor thing will stay happily there not noticing the temperature
+rise until it is far, far too late. Feel that water bubble?
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+SOFTWARE FUTURES via NewsNet
+January 01, 1996
+
+                APPLICATION PARTITIONING ASIDE:
+                     WHAT'S FORTE GOOD FOR?
+
+Californian start-up Forte Software has always shouted loudest
+about the joys of application partitioning. Clare Haney wonders,
+now that AP is becoming pretty commonplace, what else the company
+has up its sleeve?
+
+Being first with a technology (or even first to coin a groovy
+buzzword) can garner you lots of praise. But often the
+breakthrough artiste rapidly loses its appeal as the world and
+his dog jumps up on the bandwagon. Suddenly, the lone player on
+the stage is swamped by the entire company of actors and his or
+her message is drowned out by the loud acclamations of the
+chorus.
+
+No one, as we saw last month, would dare to dispute the fact that
+Forte Software, based in Oakland, California, has made the most
+noise about application partitioning (AP) and all but forced the
+rest of the application development tools vendors to declaim
+(whether truly or falsely) that they have it too. Today's concern
+about Forte is: Has it won enough user hearts and minds to ensure
+its continued position as a leading three-tier second generation
+client/server enterprise tool? Since most development tools
+vendors are now practicing the black art of AP, does Forte need to
+pull another interestingly shaped rabbit out of its top hat to
+get its magic tricks elevated above the jostling ranks of other
+would-be conjurers?
+
+Forte management has already admitted that maybe it's overplayed
+the application partitioning card to the detriment of the rest of
+its technology. Company president and CEO Marty Sprinzen told us
+last month, "We over-emphasized AP; now we're much more balanced
+in our approach. We don't push technology. We're both an
+engineering and a sales driven company."
+
+We still tend to think of Forte as a tiny Californian start-up,
+but it's been nearly five years since ex-Ingres managers Sprinzen
+and Paul Butterworth founded the company, and it now employs
+around 180 people. Of course, it took a while for real product to
+appear, with Forte Application Environment 1.0 only being released
+to general availability in August 1994. This month should see the
+shipping of version 2.0 of the tool (see diagram).
+
+                      FORTE'S NEW RELEASES
+
+Release 2.0 is really a response to Forte's critics who savaged
+version 1.0 for being too proprietary. The company has opened up
+the system, meaning that Forte middleware independent servers are
+now accessible not only through the Forte messaging system itself,
+but also via DCE and CORBA and users can employ the Encina
+transaction processing (TP) monitor to manage Forte services. The
+tool now additionally supports OLE 2.0. There's increased
+platform support for NT (as both clients and servers on either
+Intel or Digital Alpha chips), native PowerMacintosh clients and
+added database support for ODBC, IBM's DB/2 6000, Microsoft SQL
+Server and Informix Online. It's added international language
+support and, on the object-oriented side, now allows developers
+to use cross-platform window inheritance.
+
+If that wasn't enough, Forte is already looking for another
+differential in the overcrowded tools market. Sprinzen was
+uncharacteristically tight-lipped when we met him recently, but
+he did say that Forte has already acquired some exciting new
+technology from an unnamed company which it will release this
+September. "It's a new area, but it's still application
+development. It'll be a fully Forte product. We've got a group of
+people already working on it and we'll keep it secret. The
+company that sold the technology to us has no motivation for
+letting the news out," he confided. Intriguing. Apparently, this
+development doesn't necessarily require Forte, another signal that
+the company is becoming less proprietary in its tools approach.
+Meanwhile, this month should see the release of an automatic
+application generator for Forte which has been under beta testing
+since September and was solely developed at the tools vendor's
+Oakland HQ.
+
+All this acquisition and development takes plenty of green stuff,
+so how does the heavily venture capitalist-funded company's
+financials look? As of last month, Forte says it did around $25m
+in revenue. We use the word "says" since the company is still
+privately owned. Its first full year of sales, ending in June
+1995, netted Forte $15m in corporate revenues. It's hoping to make
+the surprisingly ambitious $60m revenue mark over the course of
+this year.
+
+Critics will of course point to the whacking $36m VC investment
+Forte has taken over the course of four equity financing rounds,
+the last of which occurred in October 1994, as obligating the
+company to perform over and above the usual expectations of a hot
+start-up. However, Sprinzen, who doesn't expect to add to that
+$36m seed funding, retorts that the VCs which hold about 58% of
+the company, among them Greylock Management Corp and Norwest
+Venture Capital, exert very little pressure on his management
+team. Interestingly, among the Forte VC ranks nestle hardware
+veteran Data General, owning 4% of the company, and Mitsubishi,
+which is described as Forte's "master" Japanese distributor,
+holding a 3% stake.
+
+Sprinzen plans to take Forte public sometime this year, probably
+in the summertime, and its banks are already carrying out due
+diligence. Just watch for the predictable "company adds new board
+members" announcement as signalling the IPO process is truly
+underway. "Going public will give us a significant amount of free
+publicity. We are doing very well financially, and it's a way of
+getting that information out there," he says. According to
+Sprinzen, Forte has about $10m left in the bank, and he points out
+that the company's also now generating cash. "This quarter marks
+a major milestone for us - we'll turn profitable."
+
+On the user side, Sprinzen reckons Forte has around 170 companies
+currently using its tool, with the average system supporting
+between 50 and 100 users. The company puts the average number of
+developers involved in a Forte project at seven. Competitors will
+carp that Forte is getting vast chunks of its business through its
+relationship with Digital, which allows DEC to sell and support
+Forte worldwide as a Digital product. Sprinzen replies that
+Digital sales of Forte account for between 20% and 25% of total
+company sales and only contributes 10% to Forte's revenues. That
+notwithstanding, VARs and systems integrators have been vital to
+Forte winning deals, with Sprinzen saying a half to a third of its
+sales are done through partners.
+
+The Forte story in the UK hasn't been anything like as starry as
+its Stateside success, but Sprinzen reckons that the appointment
+of Mike Hedger, another ex-Ingres staffer, as head of European
+business, based in Bracknell, Berkshire, should turn that
+situation around... fast. Currently the UK accounts for a meagre
+10% of revenue with a paltry eight customers. Europe as a whole,
+taking into account both indirect and direct sales, makes up
+about 20% of total revenues. The company is just putting the
+phones into French and German satellite operations. The UK
+operation employs 14 people, which will swell to 20 by April.
+Both Sprinzen and Hedger are keen to see Europe contributing 40%
+to revenues, but Hedger admits this is unlikely to be achieved
+before the millennium. He told us, "I think the UK will grow 300%
+next year. OK, that's off a pretty small base, but the average
+software deal will be #250,000 ($400,000) plus. We feel quite
+bullish."
+
+What of those users signing up for Forte? Well, SHL Systemhouse is
+currently hard at work redeveloping the 911 emergency IT system
+for New York City in Forte. Definitely a mission critical system!
+It should be deployed later this year and the systems integrator
+is hoping to be able to modify it and resell it to other cities
+due to the tool's object-oriented capabilities.
+
+In order to gauge Forte's appeal among the user community, we
+spoke to two US organizations which, like NYC, are starting to
+use the tool in anger to build mission critical systems.
+
+                       WHO'S USING FORTE?
+
+First up we talked with Mark Joyce, supervisor, Fibre Systems
+Engineering, Computer and Information Services at Corning
+Incorporated's Telecommunications Product Division, based in
+Wilmington, North Carolina. Global sales for 1994 for the Fortune
+500 organization which splits its businesses into three areas -
+communications, environment and life sciences - totalled $4.8bn.
+Corning's Wilmington plant is the world's largest manufacturer of
+fibre optic waveguides and is currently in the pleasant position
+of not being able to produce enough product to satisfy demand. To
+this end, the organization recently undertook a $150m expansion
+and a further $250m expansion is currently going ahead.
+
+As part of Corning's order fulfillment process, it provides all
+the relevant data to its customers at product delivery time,
+including quantitive information about the length and strength of
+the fibre. Each customer expects this data in differing formats.
+Using Forte, Corning is developing an application that will gather
+all the data, format it according to specifications, and then
+generate it automatically. Corning expects the application to go
+into production early next year. "It's a beat your business on
+application because it's part of what the customer will see,"
+says Joyce.
+
+Despite being a Digital Rdb shop, Corning didn't get into Forte
+via DEC, identifying the tool instead primarily by trawling
+through IT publications. About two years ago, it begun the
+process of identifying and selecting a new application
+development environment. It considered Visual Basic, PowerBuilder
+and Dynasty; and having rejected these, then spent six or seven
+months evaluating IEF from Texas Instruments because it seemed to
+fit its Rdb with Digital's ACMS TP Monitor environment reasonably
+well, but decided against it on grounds of inflexibility in
+November 1994. Forte was the next product on its list. Corning
+then carried out a five to six month evaluation of the tool and
+did a dozen or so pilot projects using Forte.
+
+Was Corning worried about Forte's relative youth and small size?
+
+"One of our primary concerns was that Forte was a version 1.0
+product, and was new to the marketplace. However, several reasons
+weighed in favor of the tool. Its partnership with Digital was a
+strong selling point for us; we thought we would get good support
+for our existing environment given that relationship. Also, the
+entire market for distributed objects was so new, it was hard to
+find any vendor with a history of any kind. Finally, we saw Forte
+as a market leader and were impressed by the company's
+technology. Our concern about the newness of the product was
+mitigated by these factors," says Joyce. "Forte will become our
+development tool of choice." The company currently has about a
+dozen developers on Forte - six working on the original order
+fulfillment project and six on smaller projects.
+
+Around 80% of Corning's desktop units are Macintoshes. "One of
+Forte's primary selling points for us was that it supported all
+different kinds of clients straight out of the box as version
+1.0, for example, Mac."
+
+As for future plans, "We believe in distributed computing and
+distributing objects over the network. We intend to implement a
+CORBA backplane some time this year to make that happen. What
+really excites us about Forte version 2.0 is that you can now
+define your own objects inherited from base classes. You couldn't
+do that in version 1.0. International support is important to us
+because we have international customers. We're looking closely at
+Encina TP integration. Performance improvements are also
+important to us, such as native PowerMac and some native thread
+support."
+
+Next we talked with David St. Clair, president and chief
+executive at MEDecision, based in Philadelphia, Pennsylvania. His
+company specializes in producing software for healthcare
+insurance companies aimed at ensuring that in-patient and out-
+patient procedures for individuals covered by such policies are
+medically necessary. Half of MEDecision's business comes from
+Blue Cross/Blue Shield and its software is used to determine
+coverage for requested procedure for around 20 million Americans.
+
+MEDecision decided that it needed to rewrite its current MUMPS-
+based application known as Utility Control System (UCS) which
+runs on PC LANS early last year. The company wanted to be able to
+create a series of GUI screens which could be used both by
+insurance companies and hospitals.
+
+St. Clair explains, "As the whole area of technology evolves, we
+see more and more of the decision support technology being used
+by the hospitals themselves, based on rules that insurance
+companies are happy with." The company also knew it needed a
+three-tier product, since the bulk of the new application was
+going to be implemented in the middle application services tier,
+independent of desktop presentation services and input/output
+mechanisms such as databases and Electronic Document Interchange
+(EDI). "We want to have all the clinical intelligence available
+and put the logic out on the network and create an invisible
+three-tier application," he adds. The first decision the company
+had to make was whether to build the application itself in-house
+or go out and find an integrated development environment
+elsewhere in the marketplace. St. Clair vetoed his technical
+staff's suggestion that they should build the application
+themselves. He felt that with only 70 employees, 30 of whom were
+programmers, MEDecision didn't really have the necessary
+capability both to support and maintain the product, given that
+each of its customers would have their own variants of the
+system. So in the first quarter of last year, he turned to the
+marketplace. "We looked through everything from PowerBuilder to
+Visual Basic. There were only a few that were true three-tier
+architectured products - Forte and Dynasty."
+
+So why choose Forte? "The key distinction between the two for us
+was that Forte used true messaging and had more of its tools built
+in and integrated. With Dynasty we could've made messaging work,
+but it already existed in Forte. With Dynasty you had the option
+to build tools, but it was really both an option and a
+requirement. The more a vendor can deliver to us in an integrated
+way, the less we have to do on that side and the more we can
+concentrate on developing the application," St. Clair told us.
+
+We wondered if MEDecision was at all phased by Forte's relative
+immaturity and heavy VC-backing. "We're a start-up ourselves.
+It's very difficult to fault someone for being in the same
+position, certainly that issue was a topic of conversation when I
+visited them in Oakland. However the technology was new enough
+and creative enough that it was highly unlikely that someone like
+IBM would have come out with it," he replied.
+
+A key essential was scalability, both up and down. As St. Clair
+puts it, "The interesting thing in all these discussions is that
+everyone is talking about scalability in terms of how large you
+can get an application, very few people are discussing how small
+you can get it."
+
+"A significant area of growth for us is with start-up companies,
+for example, managed care ventures. We've been very successful in
+helping companies start with two to four users and then grow.
+Often they grow explosively and that means they pay more license
+fees to us. Some of the alternatives to Forte and Dynasty, in
+order to make them work at all, you would have had to buy very
+expensive transaction monitors, which made something like that
+totally unfeasible for a company with a small number of users.
+With both Forte and Dynasty we had the opportunity to go very
+small and grow."
+
+Just to prove scalability upwards is just as important to the
+company, MEDecision's average customer site has 120 users, but
+some sites number 250 users and the company is keen to pursue
+business with customers who have 500 to 800 users. Having opted
+for Forte by the end of March 1995, MEDecision then spent the next
+four months training its staff on the tool and developing three
+significant prototypes. It only really begun its true development
+efforts in early September. The company's currently in the middle
+of the design and development phase of the as yet unnamed
+successor to UCS. St. Clair expects to have the application ready
+for the market by the end of 1996. It will run on Unix boxes as
+the database servers, remaining with Windows on the client side.
+
+He adds that the company intends to develop rather comprehensive
+core products and then be able to add enhancements for individual
+customers. It intends to make use of Forte's object-oriented
+capabilities, in particular, inheritance, in order to handle
+customization. So that, for example, users can either stick with
+the MEDecision standard eligibility screen or can override that
+with their own customized version, by using empty subclasses,
+which ensure that the original screen is still kept intact.
+
+"This is a bet your company decision for us - if Forte fails,
+we're in trouble," St. Clair concludes. He sees the relationship
+as very much a two-way street, since MEDecision will be paying
+Forte a small amount of future licenses of its new product. "It's
+in their interests to support us; we're dependent on each other."
+He reckons that so far the project has cost $1.5m, with
+investment in Forte accounting for 10% of that figure, but puts
+the total cost of the project at around $4m. A pretty substantial
+investment for a company that expects to do $6m of business this
+year and proof if any were needed that there are users out there
+prepared to wager all on Forte.
+
+Naturally, we have yet to see the fruits of these mission-
+critical applications written in Forte. If they go well, this
+together with the company's IPO later this year will undoubtedly
+boost its name higher on users' most wanted tools lists. If
+however some of these systems crash or do not appear on time,
+Marty and the rest of the gang will have the kind of "can't
+scale" cleaning up operation Sybase's Powersoft got hit by back
+in 1994. And as we all know, Powersoft hasn't yet fully recovered
+from that body blow.
+
+                           CONCLUSION
+
+For the time being, Forte is definitely making all the right
+noises in widening its tool's appeal and exploring other related
+application management and development areas. So, we'd have to
+conclude that once the hoopla over application partitioning dies
+down, Forte will still be a worthy tool for you to include on your
+high-end development shopping list.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+SOFTWARE FUTURES via NewsNet
+January 01, 1996
+
+                   NEW WINE IN OLD BOTTLES:
+                        CINCOM AND UNIFY
+
+Gary Flood hears how two survivors of the software industry are
+back in action once again
+
+For both Cincom, perennially of Cincinnati, Ohio, and Unify, now
+of San Jose, California, the management consulting wisdom of
+Geoffrey Moore seems apt.
+
+Moore's 1991 "must-read" for high-tech executives, Crossing The
+Chasm, explains how the market for innovative and exciting new
+technology must be cultivated properly. "The point of greatest
+peril in the development of a high-tech market lies in making the
+transition from an early market dominated by a few visionary
+customers to a mainstream market dominated by a large block of
+customers who are predominantly pragmatists in orientation. The
+gap between these two markets, heretofore ignored, is in fact so
+significant as to warrant [it] being called a chasm, and crossing
+this chasm must be the primary focus of any long-term high-tech
+marketing plan. A successful crossing is how high-tech fortunes
+are made; failure in the attempt is how they are lost."
+
+Sound advice, indeed. Both Cincom and Unify are even as we speak
+placing their toes on the thin, quivering tightrope that
+stretches over that very chasm. On the side they're now on lies
+stagnation and tiny market share; beckoning far in the distance
+is the shining Shangri La of cash-in heaven typified by another
+old survivor's recent good fortune, Toy Story beneficiary Mr
+Steven Jobs.
+
+But even though Cincom actually contracted Moore to help its
+recent re-engineering effort, and Unify has recruited a whole new
+all-star management team from Informix and some of the other
+database companies, both find themselves in the curious position
+of being long in the tooth and yet firing up their engines on the
+starting line like hot new prospects. It's as if it weren't 1996
+at all, but their two respective annus mirabilii, 1968 and 1984
+respectively. Truly, new wine in old bottles.
+
+Let's see what each in turn is trying to use to excite those
+famous visionary customers and what they later earnestly trust
+will be the stuff that the much-desired pragmatist larger block
+will vote for. What chance do these players have of dancing
+nimbly across the software marketing chasm?
+
+Cincom is a 28-year old privately held software operation that
+has long specialized in database (relational and non-relational)
+and application development (4GL and now object-oriented)
+products. With its newly announced Total Framework (which in
+itself gives a tip of the head to Tom Nies, founder and 99%
+"stock" holder, and his penchant for products with "Total" in the
+name) the company is focusing on that most talked about and
+tantalizing of markets, the high-end complex client/server
+development market (with a hint of workflow to flavor the mix).
+
+Unify on the other hand is on at least its third iteration as a
+company; it was born as a Unix database company in the early
+1980s, had a second run as a 4GL (Accell) supplier in the late
+1980s/early 1990s, and is now reborn a third time under its third
+CEO at least as a Forte-Dynasty-Seer competitor. With its new
+AppMan extension to its flagship Vision product it hopes to carve
+out a new place in the sun as a "complete client/server product
+for building managed applications." As we said when its new
+marketing team came to visit us here in New York, "We thought
+we'd killed you guys off years back." So blind to our insight is
+its energizing new head Reza Mikailli that he's going ahead and
+planning an IPO in July!
+
+We'll look at chasm-crosser Cincom first. Its fortunes seem to
+have peaked in 1992 at $157m, but that figure has been declining
+ever since; it now quotes simply "over $150m" in its literature,
+but it's quite open that 500 of its 1,500 staff have been cut in
+a re-engineering program in train since November 1993. Over 60%
+of that figure ($90m) in any case is based on maintenance revenue
+from its existing Total, Supra, Mantis and AD/Advantage database
+and 4GL offerings.
+
+We last covered Cincom in any depth way, way back in September
+1992 when we talked to Nies and others on his team about a great-
+sounding distributed database product, the third version of its
+Supra relational dbms... that Cincom in fact pulled back from
+releasing at the last minute. For it was around that time that it
+had tempted DEC Rdb Star luminary Marco Emrich back (he'd worked
+there in the early 1980s) to become senior director of its
+Advanced Technology Group.
+
+                       SAME TERMS AS NEXT
+
+In this new role Emrich has spent the last three years crafting a
+new application development strategy based around objects and
+object-relational databases, in a bid to establish Cincom as a
+technology force to be reckoned with in the same terms as
+Taligent or Next. With this in mind a new superglossy rdbms that
+would have been trampled in the dust by Oracle 7 or even Sybase
+System 10 would hardly have helped put the outfit back on track,
+Nies had decided.
+
+Hints of what Emrich and his elves have been cooking up have been
+filtering out for a while (we alluded to it ourselves in our July
+piece on object databases). At last month's DB/Expo in New York
+he and marcomms manager Randy Saunders sat down with Software
+Futures to tell us what this Total Framework thing really is.
+
+In essence it's a suite of application development tools based
+largely on products from third party software houses but
+integrated by Cincom as a set of services, so that from a
+customer's viewpoint they exist under a single point of support.
+
+The system includes Assembly, Workflow and Persistence frameworks
+backboned by a CORBA object request broker. It went to Austin,
+Texas-based UniSQL Corp for its object-relational database
+management technology, to Burlington, Massachusetts-based Easel
+Corp, now part of VMark Software, for its ObjectStudio
+development tools, and to Alameda, California based Action for
+its workflow software. Thus Total Framework an object-relational
+database including an object-relational model, large globs of
+support for Microsoft OLE, multimedia data integration framework,
+object-oriented SQL, call-level interface and graphical database
+access and application development tools; and an object-oriented
+application development technology that comes bundled with
+Smalltalk class libraries and comprises a series of related
+tools, both general and focused. It is targeted at application
+developers, and Cincom says it has settled for Smalltalk because
+it is available under Windows, OS/2 and Unix.
+
+One problem that strikes one regarding Framework is trying to see
+how it will be of interest to anyone other than existing Cincom
+users unless it is directed at outside prospects with the right
+tag-line.
+
+This could be challenging. The company is hardly a name to
+conjure with on Marketing 101 syllabuses. It was thus extremely
+hard to determine what precisely the thing is in the sense of,
+does it compete with products a, b, or c, or offerings, x, y. and
+z?
+
+For instance, Saunders chirruped that it had no competitors.
+Yeah, yeah. Then Emrich chimed in that it was an application
+assembly framework; on the slides it says it's best for "cross-
+functional business process requirements." Then turn and turn
+about, Saunders posited it would be best for workflow based
+applications while Emrich sees it working in scenarios where the
+customer had already looked at CommonPoint or NeXTStep.
+
+This muddle may be perfectly legitimate multi-faceted stuff
+caused by the richness and complexity of the Framework - or just
+as likely it's due to the extremely tiny brain God blessed your
+humble reporter with. We tried again. Who's it going to be sold
+to, and then we'll see what it'll be used for? There are two
+aspects to Cincom's answer. One is that there are three
+industries being addressed - insurance, banking and financial
+services. The second is that Cincom plans to bypass MIS and talk
+directly to the VPs of customer services, sales and marketing. So
+if you're in that kind of company, expect one of the 40
+salespeople in Cincom (50% of the total) who have no existing
+clients to look after to come a-knocking on your door.
+
+When our sister paper Computer Business Review spoke to the
+Cincomers back in September, there were nine trial customers by
+mid-August for the Framework. Two are quoted in the backgrounder,
+amid a host of enthusiastic statements from the right sorts of
+analysts. The customers referenced are an Alaskan based log
+distance telephone carrier called GCI, which is using the
+software to develop an integrated billing system, and a Swedish
+finance organization called Time-To-Market which is developing a
+private-bond issuing application.
+
+We spoke to two other Cincom customers - Toronto-based consulting
+company Mark Winter & Associates and Dublin, Ohio-based CD-ROM
+manufacturer Metatec. Both were enthusiastic endorsers of the
+Framework, which is a good sign. But the fuzziness of the Total
+Framework message was not radically cleared up by our
+discussions.
+
+For example, Mark Winter has been using some of the parts of
+Framework for over five years but has only been in discussions
+with Cincom for two. "It's very stable and very functional," he
+told us, going on to detail applications built with Framework
+components for an oil company, a savings and loan organization
+and some retailers. But we were as hard-pressed with Winter as we
+had been with Saunders to understand what niche the new Cincom
+product might fit into other than it was a first-rate technology.
+
+Again, maybe it's a case of us just not being able to see the
+wood for the trees, but be it a better mousetrap than the rest,
+it's focus that you need to stay above the rushing waters in that
+chasm...
+
+As for Metatec, an existing Supra customer, Alex Deak, its CIO,
+said that his team was in "active evaluation" of Framework. A
+pilot manufacturing process application is in progress, and the
+developers at Metatec like the combination of the object-
+relational database and the Smalltalk aspect, he adds. He
+acknowledges that the 28 year old company has a great technology
+pedigree but that he's never been overawed by some other aspects
+of its attack. "We've been a Supra user for seven or eight years
+and have known for a long time that Cincom is a strong technology
+company but is light on the marketing end. This has had
+implications for us when we periodically review our suppliers and
+we have to say that Cincom is not high on the list of databases
+supported by a lot of the third parties out there. This has been
+an area of concern for us. Though I do believe that they will
+succeed with Total Framework, I don't think it's going to be easy
+for them."
+
+How much does it matter in addition that a lot of the good stuff
+in Total Framework is from third parties and is not "owned" by
+Cincom? Emrich laughs, "It was a matter or build, buy or steal!"
+He goes on to stress that many of the links between VMark and
+UniSQL are based not on flimsy "joint marketing" but on "joint
+R&D agreements." He also notes that Cincom has a substantial team
+of engineers (he himself brought 12 over from DEC when he
+defected) who are working on finessing the products behind the
+scenes. Both Winter and Deak were emphatic in saying that they
+think this "best-of-breed" approach is the best one for Cincom.
+
+Home brewed excellence rather than elegant synthesis seems to be
+the theme at Unify, which in a veritable Dracula re-run has once
+again risen from its grave.
+
+                    THE "SMART TOOLS" COMPANY
+
+Unify now styles itself "The Smart Tools Company." And using
+those self-same Smart Tools are a claimed 6,000 Vision licenses
+sold and over 200 "paying entities" paying support, according to
+its VP marketing (and yet another ex-Informixer!) Scott Canali.
+That doesn't count the surprisingly high claim of 350,000 end
+users using its Unify and Unify 2000 relational databases. All
+told, this business has made the tightly held and sometimes
+willfully obscure company into a $30m operation employing 180
+people worldwide - comparable to rivals Forte. Note that a year
+ago that was 300 - a side-effect of the appointment of Reza
+Mikailli as CEO in November 1994, as we'll see.
+
+Why hasn't Unify faded away years ago? Well, it kept releasing
+software like Vision that was just great enough not for it to be
+tossed into the midden. Tony Lacy-Thompson, who was involved with
+the launch of another second-generation client/server development
+tool, Informix's NewEra, typifies the sentiment as to why some
+experienced software types have come over to the old-newcomer:
+"Coming from the NewEra stable, there were a lot of things I knew
+were required in a high end tool that I said would be in NewEra -
+or I at least knew were coming soon. One of the things that
+attracted me to Vision was all those things were there, such as
+RAD, ease of use, real native database drivers, and such like."
+
+In November it released version 2.1 of Vision, which is itself
+interestingly enough a total C-based rewrite of the existing
+Accell product using the Galaxy high-end toolset from Visix,
+which we will be revisiting this quarter. The biggest single
+change is enhanced software distribution features, primarily
+through integration of Tivoli TME.
+
+What is Vision? Unify claims Vision offers a "unique" Scalable
+RADD (Rapid Application Development and Deployment) architecture
+that provides developers with the ability to quickly and easily
+produce complex, mission-critical business applications using
+second generation, client/server technology. Development
+scalability is delivered through elements including components,
+built-in application and transaction models, an object-oriented
+programming environment, and repository-based, team development
+facilities
+
+Now Unify has extended Vision through AppMan, a move into a new
+area it's calling application (as opposed to systems or network
+or server) management. It's a consequence, argues Unify, of the
+new style distributed object applications, a new frontier that
+has caused some interesting challenges for second generation
+client/server developers and pioneers.
+
+Applications developed using Unify's Vision 2.1 development
+environment plus the new add-on layer called AppMan are claimed
+to automatically generate and report statistics about themselves
+in the areas of configuration, performance and thresholds. In its
+first iteration AppMan addresses centralized event management,
+performance monitoring, software distribution and configuration
+management and administration. (Security and asset management and
+licensing will follow in a subsequent release.)
+
+AppMan's centralized event management can report some 400 built-
+in events from Vision applications, and includes agents which
+support BMC Software's Patrol, Tivoli Enterprise/Console and SNMP
+management systems. On the performance management front it's
+offering includes agents for HP MeasureWare and PerfView, BMC
+Patrol and SNMP management tools. AppMan's software distribution
+component supports Microsoft SMS and Tivoli Courier, and the
+AppMan console can manage Vision application partitions and
+servers. A further release will include a baseline set of event
+management and performance management capabilities. AppMan 2.0,
+due in the third quarter, will provide agent-based integration
+with systems management products for security, controlled access
+to application services, and asset management and licensing.
+
+To hear Unify folk talk it's almost like AppMan signals a whole
+new area of application development - perhaps its answer to
+Forte's famed AP? "This is a new distributed applications
+problem," says Lacy-Thompson.
+
+"We had a recent example with a defense contractor consultant
+customer of ours, who rolled out a mission-critical application
+only to see it break. It spent six weeks trying to fix the
+problem, spending all our taxpayer money, and in the end had to
+go in from the top and get out the can opener. It turned out to
+be an overloaded partition. That was something that none of the
+existing tools had detected. It was pure and simple an
+application problem. We're listening to hear these problems - but
+the applications aren't talking."
+
+Another aspect to AppMan, says Unify, is the whole integration of
+products like Tivoli's software distribution product Courier.
+Again, Lacy-Thompson has a startling anecdote - heard the one
+about the company that actually hires a Lear Jet once a month to
+distribute its 6,000 floppies to the field? Now that really is
+SneakerNet - SneakerNet++, if you like.
+
+But then again it's drawing back from claiming that this is the
+start of a whole new sub-industry; AppMan is purely for Vision
+users, and is essentially an added extra goodie. So how do the
+Vision customers out there feel about it and the company?
+
+We spoke to a customer who has been quoted a couple of times in
+the press already about Vision - Greg Hindson of Tustin,
+California financial apps provider Nortridge Software. He has
+been using Vision (and before that Accell) since 1987, and told
+Software Futures he was "very happy" with Vision's functionality
+and performance, while noting of course that it'll never be quite
+as fast as compiled C.
+
+And AppMan - good, bad or ugly? "I think it's a fabulous idea,"
+he says. "With this we're going to be able to cover a lot of
+things that other products don't have. Just in software
+distribution - I'm tickled to death Unify's going to look after
+the licensing issue for me, a big issue in client/server."
+
+Now this sounds familiar when we recall Cincom: as for Unify as a
+company, he's happy with the new talent on board, but adds, "It's
+always been weak in getting new sales and getting that message
+out there. I've shown it to PowerBuilder developers who say it's
+neat, but they've just never heard of it. And they have a
+fabulous database with no market share."
+
+Uh oh. Feel the winds from the chasm tugging at your
+shirtsleeves?
+
+Not so Reza Mikailli, the Unify CEO, who enthuses that his track
+record alone as lead developer of the OnLine rdbms for Informix
+and previous work at Ingres (where he claims he helped sell
+Ingres to ASK - wouldn't brag too much about that one, Reza)
+should restore some much needed street cred to his operation.
+
+"At Ingres and Informix we all had a lot of respect, internally,
+for Unify," he says. "But now I'm here I find that previous CEOs
+have not concentrated on growing the business; they seemed more
+interested in cutting down as much as possible in order to sell
+the company."
+
+While admitting that the first release of Vision was a kind of
+"me-too" product, he says that the company is now doubling Vision
+revenues every quarter and the firm is now firmly back in the
+black. He has stripped out some "tired" executives and whipped up
+enthusiasm among some Silicon Valley ex-colleagues over the
+prospects for Vision in the telecommunications vertical in
+particular. (By the way he's also hired people from Borland and
+Oracle, so it's not all Informix II.) "We can easily grow to be a
+$150m operation," he enthuses.
+
+We asked Unify staffers on their New York press tour stop if they
+had any sense of who was top dog in this whole Forte-Seer-Dynasty
+dog and pony show. (Seer they see a lot, but Dynasty very little.
+"In fact less and less people are seeing Dynasty," quips Lacy-
+Thompson, the wag.) Internal figures that its UK marketing chief
+Jeremy Jackson told us put it on a very respectable 17% of the
+enterprise-level client/server market worldwide.
+
+So two quite mature companies are standing at the edge of the
+black and awesome market acceptance chasm. Cincom faces the
+challenge of refining precisely what it is that it's trying to
+bring to market - at the moment it still smacks a little of magic
+beans. Plus it must ensure that it wins new beachheads outside
+its successful but essentially static manufacturing home base.
+For Unify, issues of differentiation and credibility are
+paramount. Software Futures attended the 1989 launch of Unify
+2000 - and that has hardly swept all pretenders before it in the
+rdbms market.
+
+                        THE WATER OF LIFE
+
+As they stand on the brink both companies have the vital
+ingredient of maturity on their side. Both have tempered
+leadership who have seen more than one cycle in this industry and
+could use that hard-won experience well. And remember that what
+the Scots call the water of life - whisky - tastes that way
+because it's matured in nice old aged sherry barrels. Will these
+new vintages tempt your development tastebuds?
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+SOFTWARE FUTURES via NewsNet
+January 01, 1996
+
+                RATIONAL SOFTWARE: THE ADA KIDS
+                       WIDEN THEIR APPEAL
+
+If you were evaluating dynamic programming languages, the chances
+are darling of the defense industry, Ada, wouldn't top your list.
+Clare Haney asks whether Rational Software, previously one of
+Ada's strongest adherents, can successfully move across into
+selling more mainstream tools?
+
+What do you think of when you hear the name Rational Software?
+Well, if you've ever had any dealings with them, the word
+immediately on the tip of your tongue would be "Ada." But no one,
+not even the programming language's most fanatical adherents,
+would claim that the market for Ada is exactly booming. As one
+user pointed out to us, "Most people who want Ada are probably
+already using it." Another corporate described Ada as "a bit of a
+stigma" for any organization.
+
+So, obviously a tools company like Rational can't continue to
+thrive upon dwindling Ada revenues alone. The Santa Clara,
+California-based vendor has indeed already begun to cast about
+for other means to make its fortune, by broadening its tools to
+support other languages, notably every object-oriented
+programmer's favorite, C++. We look at its efforts so far, and
+assess how successful they're likely to be in the future.
+
+Something to bear in mind at this juncture is that the Rational
+management have also had the smarts to try and put an end to the
+object-oriented methodologies infighting that's been going on for
+years. And they've gone about it in a rather interesting way. The
+company already had OO guru Grady Booch, the man behind the Booch
+methodology, as its chief scientist. He joined Rational in 1982.
+Next, the tools vendor persuaded Jim Rumbaugh, of OMT (Object
+Modeling Technique) fame, to leave General Electric in 1994, and
+sign on as a Rational Fellow. Then late last year, Rational added
+a third OO guru, bringing on board Ivar Jacobson, responsible for
+Use-Case, as vice president, business engineering - by the simple
+expediency of buying his company lock, stock and management!
+
+Who's next on its object guru shopping list? Double act Stephen
+Mellor and Sally Schlaer perhaps, or Ed Yourdon? Truth to tell,
+Rational probably doesn't need anyone else. According to IDC, if
+you lump Booch and Rumbaugh followers together, they account for
+over 50% of the OO methodology marketplace.
+
+Ever since Rumbaugh joined the company, Booch and he have been
+hard at work on creating a joint methodology known as the Unified
+Method, and have already released a draft version 0.8 of the
+Unified Method Notation. Rational says it has received 250
+requests per day via email for the draft. The putting aside of
+old enmities was suggested in Rumbaugh's spoof on Joni Mitchell's
+song Both Sides Now, which he released on an unsuspecting public
+at OOPSLA '95 in Austin, Texas.
+
+We quote: "But now our fans are acting strange/ Hey, Jim and
+Grady, you've both changed/ Well, something's lost, but
+something's gained/ In building unity.
+
+We've seen OO from both sides now/ Both his and mine, and still
+somehow/ It's OO strengths we'll still pursue/ We've tried to
+bring the best to you." Hmm, well Shakespeare it ain't, but we're
+sure you get the point!
+
+Adding in some Jacobson use-case stuff doesn't seem like it
+should present too much of a problem. Apparently, Use-Case is
+already in the Unified Method notationally.
+
+Gerard Rudisin, vice president, marketing at Rational US, told
+us, "Both OMT-2 and Booch '93 embraced use-cases. Booch and
+Rumbaugh say they're 85% to 95% there on their own already to
+integrate Use-Case seamlessly." The dynamic OO guru duo is taking
+public comment up until next month and then hopes to finalize
+summer release of the Unified Method 1.0 which will then be in
+the public domain.
+
+"If we make it good enough, we want the Object Management Group
+and users to embrace it as a standard," says Rudisin. "We want to
+take the fight out of what OO methodology to choose and move it
+onto which tools to use. I expect that the Unified Method will
+make OO grow even faster and reduce confusion in the market," he
+adds.
+
+Certainly this is something users welcome, particularly
+corporates beginning to investigate OO. As one Rational Ada
+software user told us, "With the company acquiring the object
+gurus, the method we'll adopt is likely to be the industry
+standard." Surely, having the de facto OO methodology, if that's
+the way it works out, is also going to help sell a bunch of
+Rational tools. So let's investigate the range of the company's
+product offerings (see diagram).
+
+                      TAKING A ROUND-TRIP?
+
+The most important Rational product right now and for the future
+is its software engineering family of Rose tools, which allows
+users to graphically develop, verify and document the analysis
+and design model of their software. According to Rudisin,
+comparing fiscal 1995 with fiscal 1994, Rose revenues increased
+by 100%, a trend he expects will be repeated, if not bettered in
+fiscal 1996. Like most software companies, Rational doesn't split
+its revenues down into which products contributed how much, but
+it does admit that while Rose storms ahead, revenues for its Ada
+software are 'stable'. As Rudisin puts it, "The Ada market is
+still larger than the Smalltalk market, but we have no
+expectations that Ada will dominate in the mainstream market. Ada
+is a slow growth market." Rational has grown its Ada business to
+a 29% market share, largely through the gambit of acquiring other
+smaller Ada players.
+
+In fact, Rational is witnessing a something of a turnaround in
+its traditional markets. Back in FY 1993, 88% of its revenues
+came from those Ada hardcore advocates the aerospace and defense
+industries. As of FY 1995 that business had shrunk to 65%, with
+the commercial sector making up the remaining 35%. By the first
+half of fiscal 1996, commercial business had grown to 42%.
+Rudisin predicts, "In fiscal year 1997, we'll flip that
+completely in favor of the commercial sector."
+
+Returning to Rose - it derives 51% of its revenues from the
+telecoms sector, and only 4% from the aerospace and defense
+industries. It comes in a vanilla language-independent version,
+as well as product variants which support Ada, C++ and Smalltalk.
+Client/server application development, including code generation
+and reverse engineering, is catered for by versions of Rose for
+Sybase's PowerBuilder and Gupta's SQLWindows. Next up is Rose for
+Visual Basic due in March of this year. In addition, Digital
+funded Rose/IDL for its CORBA efforts. Rational has not yet
+productized this, but did demonstrate the software at last year's
+Object World (San Francisco). Japanese Rose user and Rational
+partner Osaka Gas Information Systems Research Institute (OGIS-
+RI) has already developed a Forte integration with Rose, which
+Rational intends to offer as a product in the near future.
+
+In connection with Rose, Rational rants a good deal about "round-
+trip engineering" which it defines as follows: "A user can go
+from graphical design to generation of source code, modify the
+resulting source code, reverse engineer the new source code to
+generate a graphical depiction of the system as it exists after
+being modified, and merge any changes made in the source code
+back into the model and vice versa."
+
+We're talking "controlled iterative development" here - one of
+Rational's three main buzzwords, the other two being OO
+technology (naturellement!) and architecture-driven process. The
+company claims Rose C++ is unique because it can support an
+unlimited number of "round-trips" without losing any data on the
+way. Rudisin sums up its appeal. "The old CASE tools largely
+failed because if you changed the code and then tried to
+regenerate it, the model fell apart. It didn't support iterative
+development. That's what Booch along with Rational has been
+preaching for years."
+
+In terms of competition, stacked up against Rose are product
+offerings from the likes of IDE, Select Software Tools and Cadre.
+The latter seems to be specializing in hoovering up other CASE
+vendors of late, notably Westmount and Bachman.
+
+Speaking of acquisitions, Rational is very keen to scotch the
+suggestion that it only acquired Objectory to bring OO
+methodology guru Ivar Jacobson into the fold. "We wanted to add
+to our expertise in business process re-engineering," says
+Rudisin. "Users need the same integrated support for systems
+requirements and systems engineering as they do for software
+engineering. That's been a real chasm. People just throw the code
+over the wall - we'll knit them together." Objectory also produce
+a software process which assists organizations in achieving ISO
+9000 certification. He revealed that Rational itself is hoping to
+become ISO 9000 certified by the end of this year.
+
+Rational's strategy is to extend its other tools for software
+development, until now mostly Ada-based, across to other
+programming languages, notably C++.
+
+We wondered if the company planned to extend the same courtesy to
+Smalltalk? Rudisin replies, "We've no plan to do the same for
+Smalltalk yet. It could make sense. We've got to think, what's
+the business opportunity? People are skeptical. They're worrying
+about Smalltalk's scalability and that Smalltalk may become a
+proprietary IBM language, since the ParcPlace/Digitalk merger
+seems to have been complete a mess. There's real concern about
+viability of Smalltalk going forward."
+
+                         RATIONAL USERS
+
+Turning to users of Rational Software, we chatted with Alan
+Nugent, executive vice president, global strategy and advanced
+technology, Global Process and Information Management (GPIM) at
+Xerox, based in Rochester, New York. The self-styled "Document
+Company" has made a significant commitment to Rational's Rose
+tool and has been using it for the past two years. Nugent
+explains why the organization opted for Rose, "The genesis of it
+was really Xerox's decision to outsource its legacy systems and
+to begin to focus its internal management community on developing
+and delivering object-based client/server applications. I came on
+board to develop the architecture, methods and tools."
+
+Why choose Rose? "It was really the elegance, pureness and
+simplicity of the methodology and the graphical notation that
+drove us to Rational. We looked at Booch, Rumbaugh and a variety
+of tools vendors. Grady Booch was the only one who was driving
+for convergence. We kind of bought into the company, and into
+Grady and his ideas and his passion for creating consolidation
+within the industry. Rational getting Rumbaugh and Jacobson just
+strengthens that resolve," he says.
+
+Xerox uses a variety of different development environments for
+its object-based applications, notably C++, PowerBuilder and
+Forte. In fact, the company paid Rational to do a PowerBuilder
+version of Rose. It was willing to do the same for Forte, but
+Rational already had that covered with OGIS-RI. It's also
+interested in the Visual Basic release for Rose since it has
+about a dozen VB programmers.
+
+The Rose tool is currently standard on Xerox engineers' desktops.
+Its Information Management (IM) organization is rolling out
+object-based applications for internal use to help run the
+business, while other Xerox divisions are busy creating OO
+applications which are either visible to its customers or
+embedded in its products. Nugent reckons that at present the
+company has between 400 and 500 Rose licenses, but estimates that
+eventually close to 4,000 developers will use Rose. Xerox also
+uses Rational to do all of its Rose training and is also hiring
+people out of the company to fill consultative roles.
+
+Although Xerox only uses Rose, it is well aware of Rational's
+current product family and the vendor's future directions. Nugent
+meets up with Rational's co-founder, chief technical officer and
+chairman of the board, Mike Devlin, twice a year to discuss where
+Xerox is heading and how Rational dovetails into that strategy.
+Already, some of the company's division are are showing some
+interest in Rational's SoDA, software which allows users to
+generate documentation automatically from a variety of external
+information sources
+
+So what does Nugent reckon to Rational? "Bringing Jim Rumbaugh
+and Ivar Jacobson and his entire company on board gives them a
+lot of opportunity. Rational's doing a lot of the right things.
+Given the size of the company they are, their lineage and
+planning for the future and the fact that they're well managed
+and led, they should have a very bright future."
+
+                           CONCLUSION
+
+Rational does seem to be playing a very smart game. Weaning
+itself gradually away from its Ada heartland into the real OO
+battleground of C++ and Smalltalk and supporting mainstream tools
+such as Sybase's PowerBuilder and Microsoft's Visual Basic is
+definitely the right thing to do. But there's a veritable forest
+of ifs and buts for the company to safely navigate through before
+this turnabout plan can be deemed successful. At least no one can
+accuse it of not trying to made a real go of things. The Ada kids
+have it all to play for!
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+SOFTWARE FUTURES via NewsNet
+January 01, 1996
+
+                 LET'S GET USER FRIENDLY: THE
+                      DSDM APPROACH TO RAD
+
+Organizations embarking on their first Rapid Application
+Development project often feel baffled about how to manage the
+process. Clare Haney visits the Dynamic Systems Development
+Method consortium to discover how it can assist confused
+corporates
+
+Imagine the scene. An architect has drawn up the plans for
+building a house. A bunch of builders are responsible for making
+the blueprints a reality. Only some of them are none too happy
+with some of the architect's suggestions. They're just not
+practicable. In fact these bricklayer has some ideas of their own
+on how the house should look. But what are they to do? They're
+only the poor guys who've got to use the existing specifications
+to make something workable. Right?
+
+Sound familiar? Just mutate the architect into a systems
+programmer and the hapless bricklayers into end users and you've
+got a situation that still exists in many corporates today.
+Systems developers and end users are still not communicating
+adequately, and systems are still being built that are destined
+for early obsolescence because no one bothered asking the people
+who'll actually have to use the applications what they really
+wanted and needed.
+
+Enter the Dynamic Systems Development Method (DSDM) Consortium, a
+non-profit making UK-based organization with the lofty aim of
+creating a non-proprietary user-centered Rapid Application
+Development (RAD) method which covers the whole of a project's
+lifecycle. According to DSDM literature, the method "provides a
+framework for building and maintaining systems which meet tight
+time constraints through the use of incremental prototyping in a
+controlled project environment."
+
+We last visited with the consortium back in December 1994. At
+that time it had been going for under a year and had only managed
+to attract 50 members, 40% of which were end users. The prime
+movers behind the consortium included corporate users such as
+Abbey Life Assurance Co, Allied Domecq Retailing and British
+Airways, as well as the UK operations of vendors like IBM, Logica
+and Select Software Tools.
+
+What a difference a year makes! The body now claims that DSDM has
+become the UK's de facto standard for RAD development and boasts
+more than 500 supporters, with end users accounting for more than
+80% of the consortium's membership. Of this 500-plus figure, more
+than 400 are Associate Subscribers which means for their #95
+($152) annual membership fee they receive the DSDM documentation
+and can go along to conferences, but are purely passive members
+without voting rights. The rest, nearly 100-strong, are Full
+Members, with end user organizations paying #980 ($1,568) a year
+for the privilege which allows them access to the two monthly
+User Forums and gives them voting rights at these gatherings.
+Vendors pay #2,800 ($4,480) to be Full Members and can become
+DSDM Accredited Training Organizations - there are currently 10
+of these, with more than 1,000 users and project members having
+successfully completed this consortium endorsed training. At last
+month's European RAD Conference held in London, the organization
+decided to introduce another membership category, that of a
+Consultant at an annual fee of #400 ($640), which is an
+individual active membership, allowing the person one vote at all
+DSDM meetings.
+
+Also in London last month, the organization unveiled version 2.0
+of its methodology; version 1.0 appeared last February. DSDM 2.0
+has been strongly influenced by the experiences of six so-called
+Early Adopter projects, one of which we'll look at later, which
+have been formally monitored to introduce feedback, new ideas and
+metrics into the new release of the method. Particular new areas
+of focus in 2.0 are maintenance and reuse of RAD applications.
+The consortium intends to introduce more metrics into DSDM 3.0
+and to spend 1996 catching up on what RAD projects its members
+are undertaking.
+
+So what constitutes the DSDM development lifecycle? Let's take a
+look at the diagram on page 19. The dark arrows show the transfer
+points from one phase of the lifecycle into the next, while the
+light arrows show the points where development can easily return
+to an earlier phase. Fundamental to the DSDM approach is that
+"nothing is built perfectly first time, but that 80% of the
+solution can be produced in 20% of the time it would take to
+produce the total solution." In comparison to the traditional
+waterfall approach to development which assumes that each stage
+in development is completed before the next is embarked upon,
+DSDM assumes that you can always revisit previous steps and
+indeed suggests that "the current step need be completed only
+enough to move to the next step." At this point we should stress
+the importance of configuration management (CM). The DSDM 2.0
+manual reminds us: "A DSDM development environment can represent
+a very chaotic situation. Various areas of functionality may be
+in the process of development at any point in time. Within each
+area of development, different cycles of iteration are in
+progress. Differing versions of the final system may be installed
+at multiple sites, many being geographically widely located.
+Configuration management is vitally important to ensure the
+project does not degenerate into anarchy. Wherever possible,
+configuration management should be automated."
+
+Returning to the DSDM lifecycle. You begin with the Feasibility
+Phase which considers both the feasibility of the project and the
+suitability of DSDM and should take no more than a couple of
+weeks. Next is the Business Study, probably of one to two weeks
+duration, where you determine the business functions that will be
+supported by your new system. The consortium stresses that the
+lines aren't so clearcut in real life as the diagram suggests and
+that there can be blurring between the different areas, ie, you
+may choose to combine the Feasibility and Business Study phases.
+The main part of the lifecycle comes in two iterative prototyping
+cycles, the first concentrating on eliciting requirements and the
+second ensuring the prototypes are sufficiently well engineered.
+The implementation phase marks the handover of the system to
+users, along with training them up and determining future
+development requirements.
+
+Why do we at Software Futures think that the activity of the DSDM
+consortium is important? Well, RAD's been around since the mid-
+1980s as one of those hot to trot technologies that users are
+supposed to get really excited about. But when you get down to
+basics, it's more often one of those "anything you want it to be"
+acronyms... in other words, not very useful. The consortium
+itself contends that vendors have offered users very little help
+about how to manage RAD projects; instead, they've tended to
+merely talk up the capabilities of their individual tools. This
+has led to mucho confusion, with corporates often blaming a tool
+for a poor system instead of the developers who never bothered to
+canvass end user needs before building the wretched thing.
+
+The DSDM 2.0 manual contains a couple of valuable caveats about
+RAD tool usage. Namely, "The inexperienced tool purchaser should
+be aware of imposters. Many toolset vendors are rebadging
+existing toolsets as new RAD tools. In practice the functionality
+provided is very limited. In most cases, the tools support only
+rapid program development, which is only a small subset of RAD."
+Obviously, it would be too politically sensitive for the
+Consortium itself to actually name names, but it does produce a
+list of 15 characteristics to which a RAD tool should conform.
+UK-based research organization Bloor Research is planning a RAD
+tools report based on these characteristics, to be published
+later this year.
+
+The consortium advises, "When selecting a DSDM support
+environment, it is important first of all to decide on your
+development process, then select the techniques which support
+your process and then decide on the required level of tool
+support. Many organizations fail to achieve the most from their
+support tools by buying the tools first." It also suggests that
+development teams should be skilled in using RAD tools well
+before embarking on a critical project.
+
+So let's hear from one of the early adopters of DSDM version 1.0,
+The Boston Globe, the leading quality newspaper in the Boston,
+Massachusetts region and most of the most respected US print
+journalism titles, with a daily circulation of 500,000 copies.
+This user is particularly interesting, given that DSDM is at
+present largely a UK phenomenon. Ever ambitious, the consortium
+wants to evangelize the message worldwide. "The UK has a
+reasonable reputation in that we created methodologies in the
+first place. But we're very concerned not to go and impose DSDM
+on another country. We're seeking people to kick start operations
+elsewhere." So says Nick Gill, manager, methods & tools,
+applications and systems integration services at Olivetti UK
+based in London and chairman of the DSDM's promotional workgroup.
+There are already affiliate organizations in Australia, France,
+Holland and Belgium and interest has been expressed in launching
+DSDM in Scandinavia and the US. Gill expects DSDM to be
+introduced in Russia next month.
+
+Back to The Globe. It needed to be able the track the production
+of the newspaper, to be able to know at which stage individual
+pages were, ie, if they were ready for printing or still needed
+headlines or captions to be added. Initially the paper's prepress
+software supplier Atex together with an unnamed software vendor
+tried over the course of 18 months to create such a tracker
+system. "They built a Macintosh Quark extension. It was trying to
+force us into a round hole. I was writing criticisms and
+suggestions that were largely ignored. It was as though they were
+trying to wait us out," Paul McGeary, systems editor at The
+Boston Globe told us. The system, developed in isolation from the
+editorial staff that would use it, was ultimately never
+implemented. "It wasn't that the information on the pages wasn't
+there. It was that it was inaccessible to the casual user," he
+adds.
+
+It was at this time that UK systems integrator and DSDM
+consortium member Sysdeco came into the picture. Since it had
+acquired Atex, it was a natural choice for The Globe to go with
+the company for development of the Tracker system.
+
+So what was it like working the DSDM way with Sysdeco? McGeary
+enthuses, "They wanted to know about our processes. They had a
+generic tool, Systemator, that was very customizable and were
+using a standard database and interface tools. It's a fruitful
+working relationship. Their people have an office in the
+building, I meet them every day. They code all day and I test it
+at night. They're very prompt in making changes. The give and
+take attitude really moves things along," He describes how the
+Sysdeco people came and sat at the newsdesk and observed how The
+Globe's editorial staff worked from 3pm to midnight in order to
+get a handle on how Tracker needed to work.
+
+"We have a 120-page newspaper to get out," McGeary explains. "Our
+first deadline is at 10.30pm and then we have repeat deadlines
+until 3am. We need to monitor the pages as the night goes on and
+give the person managing the flow, the night editor, a sense of
+where the problems are. We need to know at 8pm if there's a
+problem; between 8pm and 10pm we can solve it. We literally do
+most of our work in the last hour. We're working in a very
+compressed amount of time. It's really a matter of minutes and
+seconds."
+
+The Tracker system puts each page on a clock and after a certain
+period of time, an alarm will go off, alerting the editor to the
+fact that there's a problem. It could be that something's missing
+from a page or simply that someone's forgotten about it and
+neglected to push it on to the next stage. Sysdeco and The Globe
+are currently working on developing an electronic thumbnail of
+each page. "What's crucial to the speed of the project and
+understanding and efficiency is the constant interchange of ideas
+between us and Sysdeco," McGeary says.
+
+The Tracker project took six months from The Globe's first
+meeting with Sysdeco in late February 1995 until the paper had a
+usable product in early September, with three months of actual
+coding. Interestingly, it formed a neat comparison between
+traditional waterfall methods and the DSDM RAD approach. Sysdeco
+ran two development projects for Tracker. One was creating a
+background database demon to update the database, and the other
+was developing a user interface so that the night editor could
+easily see the status of the pages. The database demon used the
+waterfall technique, the user interface tried the DSDM approach.
+Looking at metrics, the DSDM project produced double the number
+of function points compared with the waterfall approach, and
+performed in terms of function points per man month three times
+better than the traditional project.
+
+As we've seen the DSDM approach can significantly improve some
+end user organizations' understanding of how to direct their RAD
+development efforts, as well as putting in place good business
+practice for future projects. What RAD technology has always
+needed is some common sense rules and with DSDM, finally we have
+it. Take this comment from a customer to their software house
+quoted in the DSDM 2.0 manual as an able demonstration of this
+fact: "About now, I would be worrying about what you (the
+software house) were up to. With DSDM I know." What greater
+recommendation do you need?
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "6"></A>Copyright
+SOFTWARE FUTURES via NewsNet
+January 01, 1996
+
+                     MY OWN PRIVATE I-WAY
+
+Gary Flood reviews Bill Gates' new book on the Information
+Highway, "The Road Ahead"
+
+Something's wrong with this list, and I wonder if you can point
+out the mistake to a certain William Gates, III, an entrepreneur
+currently building a house for himself and his new bride near
+Seattle: Apple, Compaq, DEC, HP, IBM, and Intel.
+
+Splendid companies all, as we know, and all important in their
+respective ways to the start of the Personal Computer revolution
+that made Mr Gates the richest man in the US. However, they have
+not that much to do with the ostensible subject of the Microsoft
+supremo's first book, The Road Ahead, the information highway,
+yet their names come up time and time again.
+
+For in all of this 286 page book we hear a lot about Bill's first
+computer program (written when he was 13), his friendship with
+Paul Allen, playing poker at Harvard, the extremely sanitized
+view of how he played around with the grownups at IBM, PCs (why
+they're cool and why everyone should have one), wallet PCs, PC
+set-top boxes, PC software in general, and some stuff about what
+the Highway might be like. But completely absent are the words
+"Netscape," "Sun," and "Java." Silicon Graphics gets one name
+check in the rather poor index while Oracle, the tribe following
+Bill's rival software chieftain and I-Way contender Larry
+Ellison, which is at least mentioned en passant, gets precisely
+none.
+
+Since 1995 has seen the supernova appearance of Netscape
+Communications (not to omit Spyglass or Apache), the surge of
+interest in Sun's Java and the endless debate about whether
+Microsoft's Network (MSN) would destroy America On-Line and
+Compuserve at a stroke - not to mention the forbidden merger
+talks with Intuit (no, it's not mentioned either) - this is
+somewhat of a partisan map of the Infobahn landscape. Come to
+think of it, CNN gets talked about while NBC, in which Gates just
+invested $220m, is blanked.
+
+So don't pick up The Road Ahead expecting the full unbiased
+vision thing (check out Daniel Burstein and David Kline's Road
+Warriors instead). No, what we have here is more than a curious
+experiment in vanity publishing. This is not John F Kennedy's
+Pulitzer Prize-winning Profiles In Courage (which he didn't write
+either), or not even a work as monumentally bad as Mussolini's
+play about Napoleon, an item far from being a suggestive insight
+into a great leader's secret soul like Winston Churchill's
+paintings.
+
+This is Bill at his most down-home, gosh-gee, American Everyman
+(the prose is real written-by-committee stuff) telling the world
+in the clearest words for those who read between the lines: I did
+it once, you saps, and I'm gonna do it all over again. Outta my
+I-Way!
+
+"My focus is to keep Microsoft in the forefront through constant
+renewal," writes Bill. "It's a little scary that as computer
+technology has moved ahead there's never been a leader from one
+era who was also a leader in the next. Microsoft has been a
+leader in the PC era. So from a historical perspective, I guess
+Microsoft is disqualified from leading in the highway era of the
+Information Age. But I want to defy historical tradition.
+Somewhere ahead is the threshold dividing the PC era from the
+highway era. I want to be among the first to cross over when that
+moment comes. I think the tendency for successful companies to
+fail to innovate is just that: a tendency... I never anticipated
+Microsoft's growing so large, and now... I unexpectedly find
+myself a part of the establishment. My goal is to prove that a
+successful corporation can renew itself and stay in the
+forefront."
+
+Hence Bill spends the first three chapters attempting to convince
+the mass of Joe Q Public readers, who don't know (or care) where
+the computer industry bodies are buried, that he and his buddy
+Paul started the PC thing, which seems to have done rather well,
+and that lightning will most emphatically strike twice. "If you
+want to know how the race to build the information highway is
+going, keep your eye on PCs connected to the Internet," he
+solemnly advises. "At least that's what I'm going to do."
+
+So the "information appliance" concept is simply written out of
+Bill's future history; it's the PC that will bring the Highway to
+us, not some pipsqueak 9,000 line program (as he dismissed
+Netscape recently, according to US economist and technology
+commentator George Gilder).
+
+Gilder gives us the best summing up of Bill's book that I've
+heard so far. Bill is seen on Annie Leibovitz's front cover snap
+in a cuddly sweater standing on an empty road somewhere. "So
+there's Bill standing in the middle of the road ahead trying to
+persuade the world that he's not missed the bus. He's out there,
+and he's going to catch it someday!"
+
+This book is a good introduction for plain folks and works fine
+that way. For other readers it will provoke a raised eyebrow or
+two, but that's not the point. This is Bill's raspberry to the
+punks who think he's falling behind, and deserves very careful
+scrutiny in the offices of all I-Way companies.
+
+"The Road Ahead," by Bill Gates, Nathan Myhrvold and Peter
+Rinearson. Viking/Penguin, 1995, ISBN 0-670-77289-5, pp286 with
+companion CD-ROM. $29.95 (US).
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "7"></A>Copyright
+SOFTWARE FUTURES via NewsNet
+January 01, 1996
+
+                         INPUT/OUTPUT
+
+                DOES APPLE HAVE A CORE ANY MORE?
+
+Like hyenas cackling around a fatally injured animal, the likes
+of IBM and HP have been circling around the sick bed of Apple.
+But what, on the software side, does the company really have to
+offer a potential buyer?
+
+Whatever Apple may say about Windows 95 being a pale imitation of
+the Macintosh operating system, no one really cares any more.
+Microsoft walked off with the desktop market in its pocket years
+back and only Apple and IBM would argue any different. And, who's
+the largest supplier of Mac applications? None other than the
+lovable Redmond Rampager, which could (not so lovingly) dump the
+product line any time it chooses.
+
+Elsewhere, we've seen IBM, like a spurned suitor, giving Apple
+back the fruits of their joint foray into multimedia, Kaleida;
+while their object endeavor Taligent has wound up as an IBM
+subsidiary. Both ventures were mega money pits and have still to
+hit pay dirt, if indeed, they ever do. Other Apple work on
+developing applications for its unsuccessful Newton PDA has also
+yet to prove sellable.
+
+The most likely bidder at the Apple auction is IBM - after all,
+it still has several billion dollars left in its acquisitions war
+chest. A few years back, when IBM first attempted to buy Apple,
+the prognosis was not good. Wits came up with the joke, "What do
+you get if you cross IBM with Apple?" The punchline, as newly Big
+Blue-assimilated Lotus found out to its cost all too chillingly
+recently is, "IBM."
+
+Many top execs at Apple are reputedly in favor of selling the
+company. In fact, that's the reason behind so many of them
+quitting. But CEO Michael Spindler is holding firm and refusing
+to jump the sinking ship. Maybe Apple should, as Oracle's Larry
+Ellison suggested earlier this year, sell off its hardware
+business, and concentrate on what it's good at, developing
+software and hardware technology. He believes an Apple
+unencumbered by the Mac would be perfect for designing his
+"network computer." Can Apple save itself before it's swallowed
+whole by one of those hyenas? Or is it doomed to become the
+favored MBS term paper in ten years' time: How Apple Flubbed It -
+Big Time?
+
+Clare Haney
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "8"></A>Copyright
+SOFTWARE FUTURES via NewsNet
+January 01, 1996
+
+                       NEWS AT A GLANCE
+
+                            INDUSTRY
+
+* Farmington Hills, Michigan-based Compuware Corp will upgrade
+its Uniface application development environment in the first
+quarter. Over a year on from acquiring the Dutch eponymous
+software company, some might say this is overdue. Compuware says
+version 6.2 will include new model entities, features and
+extensions to accommodate additional forms, reports
+andapplication objects. Upper CASE tools will also be able to
+transfer design work into Uniface automatically, the company
+claims.It adds that 6.2 incorporates the canonical four object
+techniques (abstraction, encapsulation, inheritance and
+polymorphism, class!). The company also plans to introduce
+dynamic partitioning by the end of 1996, which will include its
+EcoTools distributed management performance software.
+
+* Umang Gupta has had to fall on his sword to save what's left of
+his company. The start of the year found the ex-Oracle founder
+announcing his departure from his once eponymous company (to be
+renamed the anonymous Centura Software). New head Sam Inman (who
+has been jointly running the company since April) took the
+opportunity to push through a 17% headcount reduction (taking
+staff numbers down to 330) and it will also have to take a
+restructuring charge of $9m for the quarter. We at Software
+Futures were surprised - mainly because we'd been so sure it
+would fall to stakeholder Computer Associates instead.
+
+* Howls of protest were heard throughout the Valley at President
+Clinton's decision to veto a widely-supported bill to curb the
+number of lawsuits hi-tech companies have to face from supposedly
+irate shareholders each time they have a poor quarter. The
+American Electronics Association notes in its angry statement
+after the last minute blockage that this is a $2.4bn quasi-
+industry, which benefits lawyers reaping a third of that figure.
+
+* The Object Management Group took its recent emphasis on
+vertical markets to retune itself along such lines: and as a
+result its technology request process will be exanded to include
+business applications as well as underlying infrastructure
+software. The body now also claims an impressive 555 members - of
+whom only 103 have full voting rights, however.
+
+* Now how's about this for responsible behaviour? A Spanish
+student called Alvaro Martinez spotted a weak point in the
+Internet connection of his prime minister, Felipe Gonzalez. But
+rather than egregiously misbehaving, the 23-year old called the
+authorities to point out the danger, and then preceded to
+volunteer to come and fix it. Glad to hear that not all hackers
+are irresponsible clowns, we wish him Feliz Navidad!
+
+                            BUSINESS
+
+* Just exactly how many people are on the Internet - 25, 30, 40
+million? According to what's claimed to be the first
+statistically defensible study of Internet users, the whole of
+the USA only contains 5.8 million real users. The study, put
+together by Internet veterans O'Reilly and Associates and Trish
+Information Services, polled 29,901 individuals, giving a
+sampling error of less than 1% it's claimed. The previous dearth
+of hard data is highlighted by the fact that the company got
+funding from International Thompson Publishing, IBM/Lotus, Turner
+Broadcast Systems/CNN, MCI/News Corp Online Ventures and a few
+others who might reasonably want real data. The study defined
+'Internet users' as people of 18 years of age or over who have
+direct access to the Net and use email, as well as one or more
+Internet-specific applications, such as FTP, gopher, telnet or a
+Web browser. Thus people who connected via a commercial online
+service aren't included in that six million. The company predicts
+that the total online population will grow to 15.7 million; the
+number of pure online-service users is reckoned to remain
+constant at 3.9 million, with a further 6 million using both
+online and Internet services and 5.8 million using nothing but
+direct Internet feeds.
+
+* Just prior to the holidays (could that timing be a
+coincidence?) Taligent Inc's fate was sealed, with the ill-fated
+joint venture rolling back into IBM and becoming a subsidiary
+called the Taligent Object Technology Center. More than half of
+its 400-odd staff will be laid off, with the rest continuing to
+operate out of its premises in Cupertino, California. Its other
+two investors, Apple and Hewlett-Packard, will continue to have
+rights to the unit's CommonPoint technology, though only IBM has
+displayed any real enthusiasm for the C++ system.To the amusement
+of our sister paper Unigram.X, a HP spokesperson claimed the
+company had met all reasearch goals expected from Taligent - but
+was flummoxed because the piece of paper they were reading from
+didn't list what those goals might have been...
+
+* Hats off to Buzz! Pixar Animation Studios Inc has repaid
+bigtime for Steve Jobs - its IPO made him a paper billionaire for
+the first time, with his stake valued at $1.2bn on the first day
+close - more than his Apple shares were ever worth while he was
+there! And that for a firm bought for an estimated $10m, but in
+which admittedly he went on to invest at least $50m. Pixar
+created its own cluster of 117 Sun 20 workstations - 87 duals and
+30 four-processor models, to handle the rendering of each of the
+114,000 frames in the 77-minute Toy Story epic. Expect
+parallelised versions of its software for Sparc and Solaris
+architectures.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "9"></A>Copyright
+SOFTWARE FUTURES via NewsNet
+January 01, 1996
+
+                          UK PRODUCTS
+
+                       BROWSING ASYMETRIX
+
+Bellevue, Washington-based Windows multimedia and client/server
+tools vendor Asymetrix has announced a new database browser Info
+Assistant. The company claims the software "replaces arcane
+database terminology with plain language commands." Primarily
+aimed at large corporates in multi-user environments, Info
+Assistant is designed to help users of complex databases - Oracle
+7, Sybase SQL Server 10, Microsoft SQL Server and Borland's
+dBase, Paradox and InterBase - extract information in the form
+they require. It uses the Borland Database Engine to obtain
+direct access to the database systems. In addition, users can
+import data from Excel, Lotus 1-2-3 and Quattro Pro spreadsheets,
+or text files. The browser is a 32-bit Windows 95 application,
+compatible with industry standards such as MAPI, OLE and ODBC. It
+consists of four elements: Fact Browser, Query Generation,
+Analysis and Presentation Views and Integration with popular
+office suite software. Info Assistant is available from UK value
+added distributor ICS Solutions initially at an introductory
+price of #349 plus VAT for at least the first three months of
+this year. Thereafter the price will be #545 plus VAT and you can
+reach ICS on (01256) 469 460.
+
+                     LBMS' SYSTEMS ENGINEER
+
+Now fully settled in its new home of Houston, Texas, former UK
+CASE company LBMS is shipping the latest version of its flagship
+product Systems Engineer (SE) Version 6.1. This is a
+client/server analysis and design tool for workgroup-based
+application development. Optimised for Windows 95, the tool
+contains design objects with what the company describes as a rich
+set of properties beyond their standard name and textual
+description for easy editing in a tabsheet approach. This means
+users can now view and edit all properties of an object in one
+window. The software incorporates OLE linkage through the
+repository, enabling any SE object to be linked in any OLE-
+capable application, including email, word processing and drawing
+packages. Along with the Windows 95 enhancements, the CASE vendor
+claims that the new features will simplify object creation and
+editing, reduce the number of key strokes for users and improve
+integration with other desktop tools. Speaking of third party
+products, Systems Engineer Version 6.1 works with leading 4GL
+tools including Microsoft's Visual Basic and Sybase's
+PowerBuilder. Supported databases include DB/2, Oracle, Sybase
+and Microsoft SQL Server. In terms of platform requirements, the
+tool needs Windows 95, 3.1 or NT for the client workstation and
+DOS, OS/2, NetWare 3.x and 4.x and Windows NT 3.5x for the
+SE/Repository server. TCP/IP workstation connectivity is
+supported for NT servers. Systems Engineer Version 6.1 costs
+#3,000 per user. If you require further information, please feel
+free to contact Pete Stone at LBMS on (0171) 878 8762.
+
+                    SEEING IN FOUR DIMENSIONS
+
+Just when you thought the Windows client/server database market
+must be fully saturated with the likes of Access, Approach and
+Paradox, along comes another would-be entrant. Already dominant
+in the Macintosh rdbms arena (according to Newsweek, it has 75%
+of the worldwide market), software vendor ACI wants a piece of
+the Windows piece. To this end, it has launched 4D Server 1.5,
+its client/server relational database which now supports both the
+Windows and Mac environments. 4D Server is the multi-user version
+of 4th Dimension, ACI's platform-independent relational database
+solution. The company claims that 4D Server 1.5 manages team
+development simply and logically by acting as an application
+server as well as a data server and can automatically control
+object locking and version control by check in/check out
+capabilities. The database ships with 4D Backup which allows full
+backup and restore, logfiles and logfile restoration and
+mirroring to a range of media. Both 4D Server 1.5 for Macintosh
+and Windows come with two clients at a cost of #995. Existing 4D
+Server uses can upgrade to the new Mac version for #395 or to the
+Windows release for #795. Additional user licences can be added
+in units of 1, 5 or 10 by purchasing expansion disks. If you need
+more data, please ring ACI UK on (01625) 536 178.
+
+                    FIREWALLING THE INTERNET
+
+European network connectivity specialist Integralis,
+headquartered in Theale, near Reading, Berkshire, has released a
+new version of one of its Internet security products. Checkpoint
+Firewall-1 version 2.0 features multiple encryption schemes
+including FWZ1, a proprietary algorithm which allows
+organisations to encrypt all communications. The application's
+address translation capabilities enable companies to leverage a
+small number of registered IP addresses into multiple
+connections. Organisations can use this for day-to-day Internet
+correspondence which reduces reliance on public telecoms or
+expensive leased lines. The software provides comprehensive
+remote connectivity for all TCP, UDP and RPC applications,
+supporting standard smart cards or soft key solutions, such as
+Security Dynamics SecureID. Supported platforms include SunOS
+4.1.3 and Solaris 2.4 for Sparc, Intel 80x86 and Pentium-based
+systems, along with HP-9000 workstations and servers running HP-
+UX. Firewall-1 version 2.0 is available from Integralis priced
+from around #4,000. If you require further details, please
+contact Paula Irvine at Integralis on (01734) 306 060.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

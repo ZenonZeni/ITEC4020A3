@@ -1,0 +1,234 @@
+
+<DOC>
+<DOCNO>WT02-B07-135</DOCNO>
+<DOCOLDNO>IA046-000823-B026-134</DOCOLDNO>
+<DOCHDR>
+http://www.tritontech.com:80/q1-96.html 165.227.192.45 19970119065642 text/html 13715
+HTTP/1.0 200 OK
+Date: Sun, 19 Jan 1997 06:56:38 GMT
+Server: Apache/1.0.0
+Content-type: text/html
+Content-length: 13543
+Last-modified: Thu, 08 Feb 1996 15:39:26 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<H1>
+Newsletter Jan-Mar 1996</H1>
+</HEAD>
+<BODY BACKGROUND="/opaq0006.jpg">
+<UL>
+
+<LI><H2>U.S. Army Corps of Engineers selects Isis&#174;</H2>
+Triton Technology has delivered another Isis system to the 
+<A HREF="http://www.orl.usace.army.mil/"><B>U.S. Army Corps of Engineers</B></A>.
+Current interfaces include the 
+<A HREF="http://www.reson.com/"><B>Reson</B></A> SeaBat 9001 and 9002 systems 
+as well as the Odom Echoscan, which take advantage of the new Isis Multibeam Digital 
+Interface Module developed to log and display co-located bathymetry and imagery.
+ 
+Following six at-sea tests with the SeaBat 9001, Triton delivered Isis with the Multibeam interface to  
+both the Detroit and Louisville Districts of the U.S. Army Corps of Engineers for shallow water survey 
+operations. Both systems were delivered in conjunction with the Reson SeaBat 9001.  Richard Lear, 
+General Manager of Reson UK said, Isis complements the SeaBat by its ability to display and combine 
+both the bathymetry and imagery from the profiler.  Isis can overlay a backscatter intensity value for 
+each of the 60 beams or the actual sidescan information on top of the 3-D bathymetry display.
+<p>
+<LI><H2>Isis selected as topside for 
+<A HREF="http://www.ncdc.noaa.gov/noaa.html"><B>NOAA</B></A>'s Focused Multibeam Sidescan Systems</H2>
+NOAA recently awarded a contract  to Klein Associates for a high-speed, high-resolution, focused 
+multibeam side scan sonar. Triton’s Isis was selected as the topside processor for the system. NOAA 
+expects to order up to eleven systems over five years. The first delivery is scheduled for June 96.  
+Isis was selected for its ability to acquire, digitize, process, display in  real-time, and store  high-
+resolution imagery. Isis leads the industry with  state-of-the-art features that include: virtual resolution; Windows 95 and NT operating systems; and high-speed hardware that allows data to be played back as fast as the eye can see.   
+Other outstanding Isis features include: signal/pixel processing with selectable downsampling methods to 
+fit the application; image analysis with logging to disk; and user interface with comprehensive On-Line 
+Help.
+<p>
+<LI><H2>New Isis Modules and Features</H2>
+<UL>
+<LI><H3>TriPort data converter</H3>
+TriPort Ver.1.0, was released in January, 1995, enabling Isis and Q-MIPS Users to convert imagery 
+stored as .DAT files to a format compatible with most popular GIS and word processing packages.  
+TriPort runs under Windows 3.1, 95 and NT. 
+<p>
+<LI><H3>Digital SLS Interfaces</H3>
+Triton has added digital interfaces for several more digital sidescan systems.  Current digital interfaces 
+include the Klein System-2000, EG&G DF-1000 and the Datasonics SIS-1000 systems.  Other digital 
+interfaces require only that a digital server and hardware interface be developed. Contact the Sales 
+department for pricing information. 
+<p>
+<LI><H3>Auto Freespan Detection</H3>
+A new module for automatically detecting and logging pipeline freespans has been developed and 
+implemented in Isis for offshore pipeline survey operations.  The new module was developed by Triton 
+and tested by Stolt Comex Seaway in Haugesund, Norway. Using imagery from a sidescan sonar, the new 
+module will display and log a freespan’s start and stop location. The new package is also capable of 
+tracking up to four pipelines simultaneously in both real- and post-time as well as displaying the span 
+information and a maximum span length and height detected.  
+<p>
+<LI><H3>Graph</H3>
+Triton has added the new graphing capability to Isis as standard (provided free to Users with current 
+EMA or warranty). The graph feature allows the User to graph all attitude, navigation, CTD and most any 
+other sensor data as a function of time. 
+ 
+The advantage of the graph feature is the ability to monitor data quality in real-time and to aid in the 
+calibration of various sensors.  The User controls the time intervals for the display windows and Isis 
+displays an average value for each display (e.g. trim, list, etc.). 
+<p> 
+<LI><H3>32-bit version of Isis</H3>
+Triton has just released a 32-bit version of Isis capable of running under both Windows 95 and NT.  The 
+32-bit upgrade was included with the latest 16-bit upgrade version that all Isis Users under EMA received 
+in early December. 
+Users interested in upgrading to 32-bit Isis are required to purchase a copy of either Windows 95 or NT.  
+Triton currently recommends Windows 95 because of the better User interface and 2K x 2K virtual 
+resolution. 
+<p>
+<LI><H3>Interface to Seatex MRU</H3>
+For Isis users incorporating a motion reference unit in their system, Triton has developed a two-way 
+interface to the Seatex range of MRU's.  The new interface requires only that a serial connection be made 
+between Isis and the MRU and Isis will automatically configure itself to extract only the required attitude 
+information. Contact Clark Friesen at Seatex, Inc. at (206) 836-8021.
+
+</UL>
+</UL>
+<br>
+ 
+<H2>Technical Trends at Triton Technology, Inc.</H2>
+
+Happy New Year! 
+In keeping with the new year, Triton's technical manuals are “turning over a new leaf” and  taking on a 
+cleaner look. As a taste of things to come,   Triton's newest manuals now feature: 
+<UL>
+<LI>More graphics 
+<LI>Chapter-driven tables of contents 
+<LI>Chapter-driven indexes 
+<LI>The new format will make it easier and faster for you to find help in the manuals. 
+<LI>Soon you will be able to access more of our documentation on-line.  
+</UL>    
+We are experimenting with a product called FrameViewer, which lets you browse our 
+manuals on-line. With it you can read and print information that interests you. 
+One of the main benefits of the on-line version of the new manuals is that when you click on a table of 
+contents or index entry, the on-line system takes you directly to the subject in the manual. We hope this 
+on-line approach will cut down on the time it takes you to find the information you need most. 
+New users' manuals for Isis and Vista for Windows 95 and NT are now available.  
+ 
+For those of you who still prefer technical information from traditional hardcopy, Triton will continue to 
+offer it to you that way. Extra manuals in the form of hardcopy are available at $25/copy. 
+
+<br>
+<H2>Isis Demonstrations</H2>
+
+<A HREF="http://www.connix.com/~coastalo/"><B>Coastal Oceanographics</B></A> and the US Army Corps of Engineers Topographic Engineering Center (TEC) 
+are co-hosting the Advanced Hydrographic Surveying Workshop in Mobile, Alabama.  The conference 
+is scheduled for the week of March 18-22, 1996. 
+The Isis system will be demonstrated on the US Army Corps of Engineers vessel supplied by the Mobile 
+District.  In addition to the Isis system, a SeaBat 9001, Seatex MRU-6, and Coastal Oceanographics 
+HYPACK will be integrated as a complete system. 
+
+<p>Triton will also have an exhibit booth at the conference.  Please stop by our display to pick up brochures 
+and technical information on our products.  We are also available to discuss system integration if you 
+plan to purchase a multibeam system or if you  want to discuss leasing a system.  To receive a package of 
+information now, contact John Tamplin at Tel: 408-722-7373 or Fax: 408-722-1405, or by 
+<A HREF="mailto:support@tritontech.com">email</A>.
+
+<p>For additional information on the Survey Workshop contact Dave Clarke of Coastal Oceanographics at 
+Tel: 201-666-6969. 
+If you are planning the purchase of a sonar (sidescan, multibeam, subbottom, etc.) and would be 
+interested in a demonstration of the Isis system, contact the sales department. 
+Oceanology International 96 
+We will be exhibiting Isis, VISTA, and all of the other modules for Isis at the Oceanology International 
+96 conference being held in Brighton, England during the week of 4-8 March, 1996.  The Isis will be 
+displayed on the joint exhibit of EIVA A/S - Scantron Ltd., our Scandinavian and UK representatives. 
+Please stop by Triton's booth #303 to chat or to get a personal demonstration of Isis and our other 
+product.
+<br>				 
+<H2>Isis F.A.Q.'s</H2>
+<DL>
+<DT>Q.  How can an Isis User tell if the sonar is triggering?
+<DT>A.  There is an LED light located on the front of the Signal Interface Unit (SIU-4) that should be blinking 
+in time with the received trigger.
+<p>
+<DT>Q.  How can I troubleshoot the cause of no imagery displayed in Isis after a recording session has been 
+initiated? 
+<DT>A.  Open a voltage window under the main menu item WINDOW, VOLTAGE, SIGNAL.  If there is a 
+signal coming across, imagery will be generated.  Make sure that the Threshold setting is appropriate for 
+the signal that is being received.  If the signal is low, adjust the THRESHOLD slide bar so that imagery  
+is visible. 
+If you do not see a signal in the Isis voltage window, make sure that the SIU4 unit has a blinking light.  If 
+so, check the 5BNC connectors coming from the sonar into the SIU4 and the DB-37 connector that plugs 
+into the back of Isis. 
+Restart Isis after all connections have been checked.  If recording is still unsuccessful, hook up an 
+oscilloscope to the sonar's outputs to check the signal.  
+If the signal from the sonar is correct, hook the scope to the output channels of the SIU4 to verify that 
+signals are being output. 
+<p> 
+<DT>Q.  What are the most common causes of failure of the Magneto-Optical drives? 
+<DT>A.  Overheating and dirt.  To maintain the proper temperature inside the Isis chassis, the User should 
+clean the filters located on the front and back of Isis.  Keeping these filters clean allows for proper air 
+circulation.  M-O drives put out a great amount of heat and require clean filters to maintain the needed air 
+flow. 
+<p> 
+<DT>Q.  What should be done if an optical drive in Isis suddenly stops working? 
+<DT>A.  Shut down Isis and let it cool.  Allow enough time so the M-O drive cools down completely.  Check 
+and clean your air filters while Isis is off.  Restart the computer and, while it is booting, look at the M-O 
+drive.  A light on the far left should blink 5 to 7 times (depending on the operating system).  If the light 
+on the right goes on, and stays on, your drive needs to be returned for repair. 
+<p>
+<DT>Q.  Before I go out on my  survey, I need to estimate the amount of disk space (or magneto-optical space) 
+I should reserve for my data in Isis or Q-MIPS. How do I do that? 
+<DT>A.  The key variable to measure is the number of bytes per ping that will be “used” during your survey. 
+Bytes per ping depend on the following factors: 
+<UL>
+<LI>How many samples per channel are specified to be stored for each ping
+<LI>Whether each pixel captured by a ping will represent 16 bits or 8 bits of data 
+<LI>Whether you will be saving both raw and corrected imagery, or just one or the other (Q-MIPS only) 
+<LI>How many channels will be operating during the data survey 
+<LI>The operational length of time of your data survey 
+</UL>
+Refer to page B-2 and the equations on page B-3 of the Isis User's Manual for a comprehensive 
+discussion on this issue. 
+<p>
+<DT>Q.  When do you plan to release the Windows version of VISTA Mosaic? 
+<DT>A.  An advance version of Vista for Windows 95 and NT will be released to selected Users and Triton 
+Distributors and Reps  in January 1996. 
+<p>
+The Beta program for VISTA for Windows was a success over the last year and we expect to iron out any 
+remaining issues over the next month.  The first release of the program will be February 1, 1996.   
+Please contact the sales department to get more information or to get a preliminary copy of VISTA.	
+</DL>
+<br>
+<H2>Triton adds New Distributors & Reps.</H2>
+
+<A NAME="newreps"></A>Triton has added three 
+new distributors and two new representatives to its <A HREF="/reps.html">worldwide sales network</A>.  
+The geographic areas added are:	 
+<UL>
+<LI><H4>South Africa</H4>
+In South Africa, Triton has signed Underwater Surveys, Ltd. (USL) in Capetown.  USL is owned and 
+operated by Bill Cargill. USL has been using Isis in support of offshore diamond mining. Contact USL 
+via e-mail:  
+usurvey@ct-pop.iaccess.za  or Tel:   27-21-511-5926 
+<p>
+<LI><H4>The UK</H4>
+Triton's new Distributor in the UK is Scantron Ltd., of Aberdeen, Scotland.  All inquires should be 
+directed to David Currie, Scantron's Sales Director.  Contact Scantron at: Tel: 44-1224-899522. 
+<p>
+<LI><H4>The Netherlands and Caspian Sea</H4>
+In Holland, Triton welcomes aboard Nico van Woerkom of NeSA B.V., a subsidiary of the Racal Group. 
+NeSA is an engineering and service firm supporting the offshore and inshore survey sector in Holland.  
+NeSA Holland also supports Triton products in the Caspian Sea  region out of their Baku office.  NeSA 
+can be reached at: Tel: +31-10-413-0610 and NeSA Caspian at Tel:+99-412-986-516. 
+<p>
+<LI><H4>Canada</H4>
+Representing Triton in Canada is Pelagos Atlantic Ltd., headed by Rick Hunter.  Contact Pelagos 
+Atlantic via Tel: 902-468-6322.  
+<p>
+<LI><H4>Finland</H4>
+<p>Jertec Oy has just been signed by Triton as the representative for Finland, Estonia and St. Petersburg, 
+Russia.  Jertec Oy is a sales and service company specializing in Marine and Underwater Electronics. The 
+contact in Finland is Mr. Kari Aintilla, Department Manager, at Tel: +358-527-1254.  
+</UL>
+</BODY>
+</NOFRAMES></HTML>
+
+</DOC>

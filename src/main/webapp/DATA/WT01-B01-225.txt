@@ -1,0 +1,95 @@
+
+<DOC>
+<DOCNO>WT01-B01-225</DOCNO>
+<DOCOLDNO>IA097-001044-B042-342</DOCOLDNO>
+<DOCHDR>
+http://sea2.sea.edu:80/shared/sievform.htm 206.33.82.2 19970215104838 text/html 2698
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 10:52:23 GMT
+Server: Microsoft-Internet-Information-Server/1.0
+Content-Type: text/html
+Last-Modified: Tue, 26 Nov 1996 17:55:03 GMT
+Content-Length: 2498
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Sign me up! </TITLE>
+<META NAME="GENERATOR" CONTENT="The Meyer Group">
+<META NAME="AUTHOR" CONTENT="Bill Meyer">
+</HEAD>
+
+<BODY BACKGROUND="../shared/seatile1.jpg">
+
+
+<form method=post action="http://www.mbl.edu/cgi-bin/SEAadmis.pl">
+
+<CENTER><H1> Sign Me Up! </H1></CENTER>
+If you'd like to know more about SEA, please fill in the form
+below.  To allow us to help you better, please answer each 
+question completely.
+<P>
+If your WWW browser does not allow you to fill out this questionaire,
+we urge you to send your answers to the questions via email to
+<A HREF="mailto:admission@sea.edu">admission@sea.edu</A>, or call 
+<I><B>800.552.3633</B></I>
+<P>
+  Return to the <A HREF="../bilboard/index.htm">SEA home page</A>.
+
+<input type="hidden" NAME="To" value="">
+<HR>
+
+<TABLE>
+<TR>
+	<TD WIDTH="300"><B>Your Full Name: </B><INPUT NAME="From" VALUE="" ></TD>
+	<TD WIDTH="300"><B>Your Email Address: </B><INPUT NAME="Reply" VALUE="" ></TD>
+</TR>
+<TR>
+	<TD WIDTH="300"><B>Your Phone Number: </B><INPUT NAME="Phone" VALUE="" ></TD>
+	<TD WIDTH="300"><B>Your School Name: </B><INPUT NAME="SchoolName" VALUE="" ></TD>
+</TR>
+<TR>
+	<TD WIDTH="300"><B>What year are you in school? </B><INPUT NAME="Year" VALUE="" ></TD>
+	<TD WIDTH="300"><B>Type of School:</B>
+<SELECT NAME="SchoolType" >
+<OPTION>University or College
+<OPTION>Community College
+<OPTION>High School
+<OPTION>Elementary School
+<OPTION>Other</SELECT><BR>
+</TR>
+</TABLE>
+
+<BR>
+<BR>
+
+<B>Which SEA Program are you interested in?</B>
+<dl>
+<dd><input type="radio" name="Program" value="SEA Semester">SEA Semester (College Level)
+<dd><input type="radio" name="Program" value="SEA Summer Semester">SEA Summer Semester (College Level)
+<dd><input type="radio" name="Program" value="SEA Island Semester">SEA Island Semester (College Level)
+<dd><input type="radio" name="Program" value="High School Seminars">High School Seminars
+<dd><input type="radio" name="Program" value="Teachers Seminars">Teachers Seminars
+</dl>
+
+<B>Which upcoming academic quarter do you plan to come to SEA?</B>
+<SELECT NAME="When" >
+<OPTION>Fall
+<OPTION>Winter
+<OPTION>Spring
+<OPTION>Summer
+<OPTION>I'm not sure yet</SELECT>
+
+<BR>
+<BR>
+<B>Do you have any specific questions?</B><BR>
+<TEXTAREA NAME="Body" ROWS=5 COLS=60 WRAP>
+</TEXTAREA>
+<BR>
+<INPUT type="submit" value="Send Form"> <INPUT TYPE="RESET">
+<BR>
+
+</FORM>
+</BODY>
+</HTML>
+</DOC>

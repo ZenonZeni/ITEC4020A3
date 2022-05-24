@@ -1,0 +1,186 @@
+
+<DOC>
+<DOCNO>WT01-B12-262</DOCNO>
+<DOCOLDNO>IA018-000196-B044-6</DOCOLDNO>
+<DOCHDR>
+http://www.kemper.com:80/lite/funds/fundsvsindices.html 198.152.185.42 19970106165952 text/html 6620
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Monday, 06-Jan-97 16:55:54 GMT
+Last-modified: Friday, 01-Nov-96 21:55:27 GMT
+Content-length: 6438
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Compare Kemper Funds vs. Market Indices</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<IMG ALIGN=LEFT SRC="../gifs/headers/date_hd.gif" ALT="Kemper.com">
+<IMG ALIGN=LEFT SRC="../gifs/headers/search_spacer_hd.gif">
+<A HREF="../search.html"><IMG ALIGN=LEFT BORDER=0 SRC="../gifs/headers/search_hd.gif" ALT="Search"></A>
+
+<IMG ALIGN=RIGHT SRC="gifs/headers/marketindices_wht_hd.gif" 
+ALT="Market Indices">
+<IMG ALIGN=RIGHT SRC="gifs/headers/slash_gry_hd.gif" 
+ALT="/">
+<A HREF="kemperfunds.html">
+<IMG ALIGN=RIGHT BORDER=0 SRC="gifs/headers/kemperfunds_gry_hd.gif" 
+ALT="Kemper Funds"></A>
+
+<BR CLEAR=ALL>
+<HR>
+<A HREF="../prospectus.html"><IMG SRC="../gifs/link_wht_prospectuses.gif" BORDER=0 ALIGN=LEFT ALT="Prospectuses And Important Information"></A>
+<A HREF="../shareholders/contact_shareholders.html"><IMG SRC="../gifs/link_wht_contactkemper.gif" BORDER=0 ALT="Contact Kemper"></A>
+<A HREF="../sitemap.html"><IMG SRC="../gifs/link_wht_sitemap.gif" BORDER=0 ALT="Site Map"></A>
+<BR CLEAR=ALL>
+<BR>
+
+<BLOCKQUOTE>
+
+When assessing the return of your mutual fund investment, you should
+consider it in context of the markets in which the fund strives to
+perform.
+<P>
+
+The most widely quoted measure of the performance of the financial
+markets is the Dow Jones Industrial Average. Unfortunately, "the Dow"
+may provide very little insight on how your mutual fund investment is
+progressing. The Dow Jones Industrial Average is a group of 30 blue chip
+industrial stocks. 
+<P>
+
+More useful to you will be the performance of the particular index - an
+unmanaged group of similar investments - that your mutual fund uses as
+a benchmark for its investment objective. 
+<P>
+
+Comparing your fund against its index can be enlightening. Note, though,
+that a fund's return will depend upon its specific investments. To
+understand why your fund outperformed or underperformed its index, it
+may also be helpful to compare the composition of your fund's portfolio
+with the composition of the index over the same period of time.
+Significant performance differences may arise if your fund and the index
+were invested in different companies and industries throughout the
+period. Other factors, such as cash flows in and out of a fund and fees
+and expenses, may affect the relationship between fund performance and
+the index.
+<P>
+
+<STRONG>Which broad market index would you like to compare your fund's 
+performance against?</STRONG> (The graph will present the comparative
+total returns for Class A shares of your fund for the last 10 years 
+and year-to-date, through the most recent quarter end, unadjusted for 
+a <A HREF="salescharges.html">sales charge</A>. Multiple classes not 
+available for Kemper Worldwide 2004 Fund and Kemper Retirement Fund;
+fund performance shown.)
+<P>
+
+<FORM METHOD="POST" ACTION="http://kemper.adj.com/cgi-bin/test/lite/comparefunds">
+
+Select a Kemper fund:
+<BR>
+<SELECT NAME="fund">
+<OPTION VALUE="39">Kemper Europe Fund
+<OPTION VALUE="1" SELECTED>Kemper Global Income Fund
+<OPTION VALUE="2">Kemper International Fund
+<OPTION VALUE="3">Kemper Growth Fund
+<OPTION VALUE="4">Kemper-Dreman Small Cap Value Fund
+<OPTION VALUE="40">Kemper Quantitative Equity Fund
+<OPTION VALUE="5">Kemper Small Capitalization Equity Fund
+<OPTION VALUE="6">Kemper Technology Fund
+<OPTION VALUE="7">Kemper Value+Growth Fund
+<OPTION VALUE="8">Kemper Blue Chip Fund
+<OPTION VALUE="9">Kemper-Dreman Contrarian Fund
+<OPTION VALUE="10">Kemper-Dreman High Return Fund
+<OPTION VALUE="11">Kemper Horizon 20+ Portfolio
+<OPTION VALUE="12">Kemper Horizon 10+ Portfolio
+<OPTION VALUE="13">Kemper Horizon 5 Portfolio
+<OPTION VALUE="14">Kemper Total Return Fund
+<OPTION VALUE="15">Kemper Retirement Fund - Series I
+<OPTION VALUE="16">Kemper Retirement Fund - Series II
+<OPTION VALUE="17">Kemper Retirement Fund - Series III
+<OPTION VALUE="18">Kemper Retirement Fund - Series IV
+<OPTION VALUE="19">Kemper Retirement Fund - Series V
+<OPTION VALUE="20">Kemper Retirement Fund - Series VI
+<OPTION VALUE="21">Kemper Worldwide 2004 Fund
+<OPTION VALUE="22">Kemper Intermediate Municipal Bond Fund
+<OPTION VALUE="23">Kemper Municipal Bond Fund
+<OPTION VALUE="24">Kemper California Tax-Free Income Fund
+<OPTION VALUE="25">Kemper Florida Tax-Free Income Fund
+<OPTION VALUE="26">Kemper Michigan Tax-Free Income Fund
+<OPTION VALUE="27">Kemper New Jersey Tax-Free Income Fund
+<OPTION VALUE="28">Kemper New York Tax-Free Income Fund
+<OPTION VALUE="29">Kemper Ohio Tax-Free Income Fund
+<OPTION VALUE="30">Kemper Pennsylvania Tax-Free Income Fund
+<OPTION VALUE="31">Kemper Texas Tax-Free Income Fund
+<OPTION VALUE="32">Kemper Adjustable Rate U.S. Government Fund
+<OPTION VALUE="33">Kemper Diversified Income Fund
+<OPTION VALUE="34">Kemper High Yield Fund
+<OPTION VALUE="35">Kemper Income and Capital Preservation Fund
+<OPTION VALUE="36">Kemper Short-Intermediate Government Fund
+<OPTION VALUE="37">Kemper U.S. Government Securities Fund
+<OPTION VALUE="38">Kemper U.S. Mortgage Fund
+</SELECT>
+
+<P>
+
+Select an index whose returns you'd like to compare the Kemper
+fund's returns (unadjusted for a <A HREF="salescharges.html">sales charge</A>) against:
+<BR>
+<SELECT NAME="index">
+<OPTION VALUE="1" SELECTED>Consumer Price Index
+<OPTION VALUE="2">Dow Jones Industrial Average
+<OPTION VALUE="12">FT/S&#38;P - Actuaries World Index - Europe
+<OPTION VALUE="8">Lehman Brothers Aggregate Bond
+<OPTION VALUE="3">Lehman Brothers Government/Corporate Bond
+<OPTION VALUE="9">Lehman Brothers Municipal Bond
+<OPTION VALUE="4">Morgan Stanley Capital International EAFE
+<OPTION VALUE="10">Russell 1000 Growth
+<OPTION VALUE="5">Russell 2000 Growth
+<OPTION VALUE="6">Standard & Poor's 500
+<OPTION VALUE="11">Salomon Brothers World Government Bond
+<OPTION VALUE="7">Wilshire Large Company Growth
+</SELECT>
+
+<P>
+
+<CENTER>
+<INPUT TYPE="submit" VALUE=" Compare the fund and index ">
+</CENTER>
+</FORM>
+
+<P>
+
+<FONT SIZE=1>&copy; Copyright Kemper Distributors, Inc. 1996 - All
+rights reserved.</FONT SIZE=1>
+
+</BLOCKQUOTE>
+
+<P>
+
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<TR>
+<TD VALIGN=TOP ALIGN=RIGHT>
+  <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+  <TR>
+  <TD VALIGN=TOP>
+  <A HREF="../menu.html">
+  <IMG BORDER=0 SRC="../gifs/icons/kemper_blkwht.gif"
+  ALT="Kemper Funds - Principal Underwriter: Kemper Distributors, Inc."></A><BR>
+  <IMG SRC="../gifs/icons/kemper_spacer.gif"><FONT SIZE=-1>1011000</FONT></TD>
+  </TR>
+  </TABLE></TD>
+</TR>
+</TABLE>
+
+<P>
+
+</BODY>
+</HTML>
+
+
+</DOC>

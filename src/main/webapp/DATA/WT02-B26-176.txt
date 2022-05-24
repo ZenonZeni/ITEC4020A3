@@ -1,0 +1,167 @@
+
+<DOC>
+<DOCNO>WT02-B26-176</DOCNO>
+<DOCOLDNO>IA074-000493-B024-81</DOCOLDNO>
+<DOCHDR>
+http://hyun.seri.re.kr:80/Projects/TDCN.html 150.183.108.63 19970122020812 text/html 9684
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 02:02:42 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 10 Jun 1996 06:42:31 GMT
+Content-length: 9510
+</DOCHDR>
+<html>
+
+<title>
+	The Development of the Car Navigation Information System for the Transportation of the Next Generation	
+</title>
+
+<br><br>
+<h2>
+   <img src="../Icons2/Balls/yl_ball.gif">
+   Title of the Study
+</h2>
+<ul>
+<h3>
+	"The Development of the Car Navigation Information System for the Transportation of the Next Generation"
+</h3>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/yl_ball.gif">
+   Objective of the Study 
+</h2>
+<ul>
+<p>
+    The goal of the research is to develop the major part of the car navigation system which consists of  the most advanced  electronic system for guiding  the optimal driving  path with analyzing informations about car location, road condition, and traffic status.<br>
+  Navigation Information System(NIS) for vehicles is the system which  drivers can see the optimal driving path from the  current location to the destination by displaying map  and road information through  the LCD  display.   These NIS for  vehicles provides  the drivers  more comfortable driving environment with the  connection of the most advanced eletro nics and car engineering.<br>
+  NIS  for vehicles  is a  noticeable  and a  high valued  industry  which con sists  of the Geographic Information System(GIS) technology (which is  being developed very fa st today to solve the faced social problems  such as a local unbalanced increasemant of urba n population, traffic jam, etc.), Satellite Communication, Microprocessor Production, etc.  and thus collectiong the technologies about  these fields are required  and spreading effects to  other related fields are also expected.<br>
+  Today,  the increment  of cars  and  bad road  condition  produces social  problems like economical loss  and environmental polution  by bearing severe  traffic jam. NIS for vehicles atively deals with  these kind of problems and increase  the efficiency of road use, and  some developed countries have already made an investment related to this as as infra-structure.<br>
+    NIS for  vehicles provides  beginners of  first trip  drivers an  optimal driving path  and comfortable driving environment  so that they can  drive safely, reduce the cost ,  and prevent the accident before it happens.<br>
+    Car industry  tends to  be a high  ranked industy  with adding  some kinds of  eletronic devices and these NIS for vehicles is essential for the next car industry.  So the development of  this system  provides  not only  the  increment  of a  foreign  competition but  also  the protection of a domestic market.  Japan will  be expected that in 1995, there will be a market with 200 billion yen, and in Korea there  will be also a big  market as soon as it is widely used.
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/yl_ball.gif">
+   Contents and Scope of the Study	  
+</h2>
+<ul>
+<p>
+    We performed the l'st  period research out of three periods  which is the basic design of driving path guiding system, and  realized the specific function which is included in the basic design.  We  developed the program of deciding  the present location and finding the optimal driving  path as  the  basic part  of the  driving  path guiding  system.   And we finished standardized sampled area map data input.  The contents and the scope of the lst period study are as follows.
+    <ol>
+    <li> The investigation about present NIS technique.
+    <li> Basic design of a driving path guide system.
+    <li> The Study of the standardization about map data
+    <li> Present location decision by GPS
+    <li> Development of an algorithm for the standard map image data and road data display.
+    <li> Study of an algorithm about extracting the optimal driving path
+    <li> Standard map image data and road data input and building a D/B of a sampl ed data
+    <li> Development of an intelligent sensing and control system for a safe drive .
+    </ol>
+    Map data  itself can't  be used as  a path  extracting information and  additional driving information about their  driving environment.  Road data requires  constant exertions for both exrtacting the optimal driving path and guiding  the present location about drivers.  Map data and road  data require constant exertions  and time for inserting  and making data, and  they affect the  structure of the  optimal driving  path guiding system.   So in  order to join  and simplify the system design, map standardizartion and road standardization are highly required.<br>
+  Present location decision  is the key element  of the automatic drive  guiding system and thus we  measured the  present car location  by GPS  sattelites.  To  do this, GPS sattelite receiving  system  is  required  and  communication  between   this  receiving system  and microprocessor is required.<br>
+  We examined the  basic process for extracting the  optimal driving path and we  choosed the appropriate searching method suitable for the road condition.  It is required that how well we can  model the appropriate searching  method according to the  complicated practical road condition, and we will  deal with this kind of research  in 2'nd period of the research  and in 1'st period, we extracted  the optimal driving path with considering  road distance, number of lane, and the coefficient of utilization.<br>
+  We developed an algorythm which provides drivers data with excellent visual efficieny and it is  easy to  use and reduce  the responsibility  of the  microprocessor. Now we  developed interface  emphasised display  module with  the  use of  MS-WINDOWS which  is  used as GUI(Graphical User  Interface) environment  in personal  computer. We  made that a car  is always located in center of the monitor  by organizing the map as four pieced images so that it can be possible to display a real time display which doesn't disturb the drivers' eye<br>
+  We added a process of  driving locus trace and inserted the important location information in Daejeon area in addition.
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/yl_ball.gif">
+   The results of the Study 
+</h2>
+<ul>
+<p>
+   We developed  the techniques of  basic elements about  the data  standardization with the decision of  present locaion,data  display and the  optimal driving  path extraction. The  more specific explanations about those are as follows.
+<br><br>
+1. Investigation of present car navigation information system status
+   <ul>
+   o Japan, USA, etc
+   </ul>
+2. Basic design of the car navigation information system
+   <ul>
+   o hardware
+      <ul>
+      - portable computer<br>
+        (486DX-33, TFT 9" momitor, 180M removable HDD)<br>
+      - GPS receiver(TransPakll GPS Personal Navigator)<br>
+      </ul>
+   o software
+      <ul>
+      - map data standardization<br>
+      - decision of present location by GPS system<br>
+      - map data display<br>
+      - optimal driving path finding and guidance<br>
+      </ul>
+   </ul>
+3. Parts of map data standardization
+   <ul>
+   o current status in other countries.
+      <ul>
+      - USA : study about map data standardization in SAE and SDTS<br>
+      - Germany : Travelpilot Database construction status<br>
+      - Japan :  status about map data standardization and  database constructio n in JDRMA<br>
+      </ul>
+   o study about the map image data standardization
+      <ul>
+      - input contrast and emphasis<br>
+      - geometric correction<br>
+      </ul>
+   o study about the road data standardization
+      <ul>
+      - input the road data by digitizing<br>
+      - make a topological network<br>
+      - define and input the attributes about road information<br>
+      </ul>
+   </ul>
+4. Parts of deciding the present location
+   <ul>
+   o location decision by GPS<br>
+   o development of the GPS signal sending/receiving program<br>
+   </ul>
+5. Program development about 1 second-interval real time map data display<br>
+6. Implementation of the optimal driving path program which can be obstacle addable<br>
+7. Parts of building the D/B of a sample area
+   <ul>
+   o building the image D/B about Daejeon area
+      <ul>
+      - 1 : 25,000 scale map[Keumnam, Sintanjin, Yuseong, Daejeon]<br>
+      - 1 : 50,000 scale map[Daejeon]<br>
+      - resolution 200dpi, 1,200 x 1,440(col x row), 16 color<br>
+      - 45 files(1:25,000 36 files, 1:50,000 9 files)<br>
+      - 1,200 x 1,440 x 4 bits = 6,912,000 bits = 864,000 bytes<br>
+      </ul>
+   o input the road data and building the D/B about Daejeon area
+      <ul>
+      - 1 : 25,000 scale map<br>
+      - using the PC ARC/INFO system<br>
+      </ul>
+   </ul>
+
+8. Parts of developing an intelligent sensing and control system for a safe drive.<br>
+9. The others
+   <ul>
+   o tracing the navigation locus and display<br>
+   o data input about the important facilities and D/B construction<br>
+   </ul>
+<br>
+   We performed  the basic system  design which includes the  key functions needed  as car driving guide system, and realized the main  functions. We expect that with the result of this research, it can be commercialized whithin 2'nd or 3'rd period the research.<br>
+  But in  order to manimize  the efficiency of the  result of this  study, government leading teamwork and  investment should be  considered for D/B  construction of  the whole country using large  scale map,  operating a traffic  information broadcasting for collecting real  time road information, and etc.
+</p>
+</ul><br>
+
+<hr><br>
+
+<ul>
+<h3>
+<address>
+<a href="../projects.html"><img alt="" src="../Icons2/Arrows/larrow.gif" width=10% height=8%></a> Go Back One Step!
+</address>
+</h3>
+</ul><br><br>
+
+
+</html>
+</DOC>

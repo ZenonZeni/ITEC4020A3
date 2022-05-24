@@ -1,0 +1,269 @@
+
+<DOC>
+<DOCNO>WT02-B32-34</DOCNO>
+<DOCOLDNO>IA031-000655-B044-336</DOCOLDNO>
+<DOCHDR>
+http://afpc11.rdg.ac.uk:80/people/pnoble/index.htm 134.225.165.16 19970122114701 text/html 8205
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.13
+Date: Wednesday, 22-Jan-97 12:50:23 GMT
+Last-modified: Friday, 15-Nov-96 15:11:46 GMT
+Content-length: 8013
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>M.J. Noble's Home Page</title>
+<script>
+<!-- hiding content from old browsers
+/* Script to Display time and date in a Form */
+var timerID = null;
+var timerRunning = false;
+function stopclock (){
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+
+function startclock () {
+stopclock();
+showtime();
+}
+
+function showtime () {
+var now = new Date();
+document.clock.IN.value = now;
+timerID = setTimeout("showtime()",1000);
+timerRunning = true;
+}
+
+// end hiding content-->
+</script>
+<script>
+<!-- hiding content from old browsers
+
+/* 
+This script and all others are copyright (c) 1996 by Tomer Shiran and Yehuda Shiran. They will all be posted in
+our upcoming book on JavaScript, along with many others. Feel free to copy the script. A link to this
+page would be a nice gesture in return. The official site of the t-banner is http://www.geocities.com/Hollywood/4250/t-banner.htm
+The JavaScript collection is located at http://www.geocities.com/Hollywood/4250/index.html
+*/
+var i = 0;
+var TextNumber = 0;
+var TextInput = new MakeArray(2); // (0, 1, 2)
+var HelpText="";
+var Text = "";
+var Speed=300   
+var WaitSpace="      "
+TextInput[0] = 'Welcome to my Home Page';  
+TextInput[1] = "It is still under construction."
+TextInput[2] = 'Send me a message with comments and stuff....'
+TotalTextInput = 2; // (0, 1, 2)
+
+
+for (var Tomer = 0; Tomer <= TotalTextInput; Tomer++) {
+	TextInput[Tomer]+=WaitSpace
+}
+
+
+	
+var TimerId
+var TimerSet=false;
+
+function startBanner ()  {
+	TimerSet=!TimerSet
+	if (TimerSet)
+		banner();
+	else
+		kill();
+}
+
+function banner() {
+	Text=rollMessage();
+	TimerId = setTimeout("banner()", Speed)
+	window.status=Text;
+	
+}
+
+function rollMessage () {
+	Wait_yn=false;
+	i++;
+	var CheckSpace = HelpText.substring(i-1, i);
+	CheckSpace = "" + CheckSpace;
+	if (CheckSpace == " ") {i++;}
+	if (i >= HelpText.length+1) {
+		i=0; 
+		if (TextNumber < TotalTextInput) 
+			TextNumber++
+		else 
+			TextNumber = 0; 
+		init();
+	}
+	Text = HelpText.substring(0, i);
+	return (Text);
+}
+
+function init () {
+	Text = TextInput[TextNumber]
+	HelpText = Text;
+}
+
+function kill () {
+	clearTimeout (TimerId)
+}
+
+function DoPause () {
+	kill ();
+	TimerId = setTimeout("banner()", 3000);
+}
+
+function DoMessages(Message) {
+	DoPause();
+	window.status = Message
+}
+
+function MakeArray(n) {
+	this.length = n;
+	for (var i = 1; i <= n; i++) { 
+		 this[i] = 0
+	}
+	return this
+}
+
+
+// end hiding content-->
+
+</SCRIPT>
+</head>
+<Body onLoad="startclock(); init(); startBanner();"  BACKGROUND="/textures/cn.jpg" BGCOLOR="#cccccc" TEXT="#000000" >
+
+
+ 
+</a> <h1>M. J . Noble</h1>
+<address>
+Tel : +44 (0)118 9318700 ext 7304<br>
+Fax : +44 (0)118 9310080<br>
+Email : <a href="mailto:M.J.Noble@afnovell.reading.ac.uk" onMouseOver="DoPause ()">M.J.Noble@afnovell.reading.ac.uk</a></address><BR>
+<HR><BR>
+<CENTER>
+<TABLE Width=80% align=center Border=5 >
+<TR>
+<TD ALIGN=CENTER>
+<SCRIPT>
+<!-- Hide Code
+document.write ("<FORM NAME=\"button\">");
+document.write ("<INPUT  TYPE=\"button\" VALUE=\"Send me some e-mail\" onClick=\"parent.location='mailto:M.J.Noble@afnovell.rdg.ac.uk?subject=Whatever Your Subject is!!'\">");
+document.write ("</FORM>");
+//END OF SCRIPT -->
+</SCRIPT>
+</TD>
+<TD ALIGN=CENTER>
+<SCRIPT>
+<!-- Hide Code
+/* JavaScript to display a form so you dont get an empty form with a non Java browser :) */
+document.write ("<FORM NAME=\"clock\">");
+document.write ("<INPUT   TYPE=\"text\"  NAME=\"IN\"  SIZE=\"19\">");
+document.write ("</FORM>");
+// END OF SCRIPT -->
+</SCRIPT>
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=2>
+<SCRIPT LANGUAGE="JavaScript">
+
+<!--  
+var where = document.referrer
+document.write("<CENTER> You have been refered from:  "+where+"</CENTER>")
+// -->
+
+</SCRIPT>
+</TD>
+</TR>
+<TR>
+
+<TD COLSPAN=2 ALIGN=CENTER>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Hide Script
+
+	document.write("You are using: ")
+	document.write(navigator.appCodeName)
+	document.write(" (")
+	document.write(navigator.appName)
+	document.write(") Version:")
+	document.write(navigator.appVersion)
+      
+// -->
+</Script>
+
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<BR>
+
+
+<HR>
+<br><IMG WIDTH=100% ALIGN=MIDDLE SRC="constr.gif"  HEIGHT=11> 
+<FONT  COLOR=#FF0000>
+<CENTER><h2><MARQUEE SCROLLDELAY=20 BEHAVIOR=SCROLL DIRECTION=RIGHT>Under Construction</MARQUEE></H2>
+</CENTER></FONT>                                
+<IMG WIDTH=100% ALIGN=MID       DLE SRC="constr.gif" HEIGHT=11>
+<br><BR><FONT  SIZE=+1>
+Here is the compulsory blurb about myself, I am 22, and a PhD student at  <A HREF="http://www.rdg.ac.uk" onMouseOver="DoPause ()">Reading University</A> working on protein purification using  <A HREF="aphron.htm" onMouseOver="DoPause ()"
+>Colloidal Gas Aphrons</A>. My first degree was in Biochemistry, which I also studied in <A HREF="http://www.state51.co.uk/knowhere/114.html" onMouseOver="DoPause ()"
+>Reading</A>.  I originally come from <A HREF="http://www.state51.co.uk/knowhere/532.html" onMouseOver="DoPause ()"
+>Haverfordwest</A> , a small town in <A HREF="http://pembrokeshire.gov.uk/"> Pembrokeshire </A>, west Wales. <br> <br> <BR><BR>
+
+<a href="http://www.enterprise.net/gem/PT/" onMouseOver="DoPause ()">
+<IMG hspace=10 align=middle SRC="turtle.gif" WIDTH=68 HEIGHT=56></A>If you happen to be in Reading, check out the <A HREF="http://www.enterprise.net/gem/PT/" onMouseOver="DoPause ()"
+>Purple Turtle.</A> <br>
+&nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp Or you could drop into <A HREF="http://www.sounds-good.co.uk/alleycat/index.html" onMouseOver="DoPause" > <IMG SRC="alleycat.gif" ALT="Alleycat Live" BORDER=0 WIDTH=100 HEIGHT=30></A> <br> <br>
+
+
+
+&nbsp &nbsp <a href="links.htm" onMouseOver="DoPause ()"
+><IMG HSPACE=10 BORDER=0 Align=middle SRC="go_to.gif" WIDTH=34 HEIGHT=33><a href="links.htm" onMouseOver="DoPause ()"
+></A>&nbsp &nbsp &nbsp <a href="links.htm" onMouseOver="DoPause ()"> Here are some links.</a> <br> <br> <br>
+
+
+<a href="search.htm" onMouseOver="DoPause ()"
+><IMG border=0 hspace=10 align=left SRC="search.gif" WIDTH=82 HEIGHT=24><A HREF="search.htm" onMouseOver="DoPause ()"
+>Search The Internet.</A> <br> <br> <br>
+
+
+<A HREF="http://www2.comp.glam.ac.uk/pages/students/gwnoble/" onMouseOver="DoPause ()"><IMG SRC="g.gif" WIDTH=40 HEIGHT=40 HSPACE=10 BORDER=0 ALIGN=middle></A> If you are really bored, you can visit <A HREF="http://www2.comp.glam.ac.uk/pages/students/gwnoble/" onMouseOver="DoPause ()">my brothers home page.</A><br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Visit <A HREF="http://www.fst.rdg.ac.uk/people/pboyd/" onMouseOver="DoPause()">  Jonathan Boyd</A>'s Home page.<br> <BR>
+<hr></FONT>
+
+
+<CENTER>This page has been visited  
+<IMG SRC="http://counter.digits.com/wc/-d/4/Kuos"
+     ALIGN=middle WIDTH=60 HEIGHT=20 BORDER=0 HSPACE=4 VSPACE=2> times. <br></CENTER>
+<CENTER>Counter provided by <A HREF="http://www.digits.com/" onMouseOver="DoPause ()"
+>www.digits.com</A> <br><HR>
+ 
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide stuff from old browsers
+	var theDate = ""
+	theDate = document.lastModified
+	document.write("Last Updated:");
+	document.write(theDate);
+	document.write();
+// -->
+</SCRIPT>
+<BR><HR>
+<BR>
+ <A HREF="http://www.microsoft.com/ie/" onMouseOver="DoPause ()"><IMG ALIGN=MIDDLE SRC="ie_anima.gif" WIDTH=88 HEIGHT=31></A>&nbsp &nbsp Download Microsoft Internet Explorer. <BR><BR>
+
+
+Go to <a href="/index.htm" onMouseOver="DoPause ()"
+>FS&amp;T</a> home page. <a href="/credits.htm" onMouseOver="DoPause ()"
+>About</a> this server. Mail to: <a href="mailto:webmaster@afnovell.reading.ac.uk" onMouseOver="DoPause ()"
+>webmaster@afnovell.reading.ac.uk</a>
+<hr>
+<IMG SRC=http://www.sausage.com/dogicon.gif height=45 width=50 ALIGN=MIDDLE 
+> This page was created with the <a href="http://www.sausage.com " onMouseOver="DoPause ()"
+><strong>Hot Dog Pro</strong></a> Web Page Editor <br> <br></CENTER>
+</body></html>
+</DOC>

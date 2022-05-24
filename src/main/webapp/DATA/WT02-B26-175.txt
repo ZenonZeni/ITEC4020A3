@@ -1,0 +1,106 @@
+
+<DOC>
+<DOCNO>WT02-B26-175</DOCNO>
+<DOCOLDNO>IA074-000493-B023-327</DOCOLDNO>
+<DOCHDR>
+http://hyun.seri.re.kr:80/Projects/TDIV.html 150.183.108.63 19970122020435 text/html 3055
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 01:57:29 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 10 Jun 1996 06:42:31 GMT
+Content-length: 2881
+</DOCHDR>
+<html>
+
+<title>
+	The Development of the Intelligent Vector Processing System of Geographic Information	
+</title>
+
+<br><br>
+<h2>
+   <img src="../Icons2/Balls/gr_ball.gif">
+   Title of the Study
+</h2>
+<ul>
+<h3>
+	"The Development of the Intelligent Vector Processing System of Geographic Information"
+</h3>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/gr_ball.gif">
+   Objective of the Study 
+</h2>
+<ul>
+<p>
+   Computerisation has opened new vistas in both documentaion and the prognoses essential to all decision-making and dissemination of information.  Since the mid 1970s, specialized computer systems have been developed to process georeferenced information in various ways.  The collective name for such systems is Geographic Information Systems, abbreviated GIS.  Traditionally,  geographic data is presented on maps using symbols,  lines and colours.  Most maps have a legend in which these geometric elements are listed and explained.<br>
+   Compared to maps,  GIS has the inherent advantage that data storage and data presentation are separate.  As a result,  data may be presented and viewed in various ways.<br>
+   So, the goal of the research is to develop the intelligent vector process system software for various GIS entertainment. That will be used foreign as well as domestic.
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/gr_ball.gif">
+   Contents and Scope of the Study	  
+</h2>
+<ul>
+<p>
+We performed the 1'st period research out of three perieds which is the basic design for user interface, editor(I), DB management(I), and realized the specific fuction which is included in the basic design.<br><br>
+The contents and the scope of the 1st period study  are as follows.<br>
+1. Basic design of user interface
+        <ul>
+        Support of Multi-Window<br>
+        Support of Hanguel<br>
+        Analysis of Remote sensing data<br>
+        Object-oriented design<br>
+        </ul>
+2. Editor(I)
+        <ul>
+        Create geometrical figure<br>
+        Create coverage topolygy by using input geometrical figure<br>
+        Transfomation geometrical figure<br>
+        </ul>
+3. Transform
+        <ul>
+        Transform the coordinate of digitized coverage by using control point
+        </ul>
+4. DB Management
+        <ul>
+        Define of DB Schema<br>
+        Insert/Delete<br>
+        Update<br>
+        Search<br>
+        </ul>
+5. Database Interface<br>
+
+6. Support of Device
+        <ul>
+        Digitizer<br>
+        </ul>
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/gr_ball.gif">
+   The results of the Study 
+</h2>
+<ul>
+<p>
+Basic design and specific fuction of GIS  are completed.  Performed functions are storage, input/output, editting, DB management.
+</p>
+</ul><br>
+
+<hr><br>
+
+<ul>
+<h3>
+<address>
+<a href="../projects.html"><img alt="" src="../Icons2/Arrows/larrow.gif" width=10% height=8%></a> Go Back One Step!
+</address>
+</h3>
+</ul><br><br>
+
+
+</html>
+</DOC>

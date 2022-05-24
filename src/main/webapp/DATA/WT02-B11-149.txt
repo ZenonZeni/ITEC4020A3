@@ -1,0 +1,76 @@
+
+<DOC>
+<DOCNO>WT02-B11-149</DOCNO>
+<DOCOLDNO>IA087-000625-B034-46</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0113.html 130.91.195.242 19970122042521 text/html 3629
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:25:20 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3458
+Last-modified: Sat, 28 Oct 1995 18:59:29 GMT
+</DOCHDR>
+<!-- received="Thu Oct 26 15:48:26 1995 EDT" -->
+<!-- sent="Thu, 26 Oct 1995 15:48:03 -0400" -->
+<!-- name="Osman Nuri Ertugay" -->
+<!-- email="ertugay@gradient.cis.upenn.edu" -->
+<!-- subject="problem: tru double-spender not revealed" -->
+<!-- id="199510261948.PAA04170@gradient.cis.upenn.edu" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: problem: tru double-spender not revealed</title>
+<h1>problem: tru double-spender not revealed</h1>
+Osman Nuri Ertugay (<i>ertugay@gradient.cis.upenn.edu</i>)<br>
+<i>Thu, 26 Oct 1995 15:48:03 -0400</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#113">[ date ]</a><a href="thread.html#113">[ thread ]</a><a href="subject.html#113">[ subject ]</a><a href="author.html#113">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0114.html">Dave Farber: "Re: newsweek oct 30 Levy digital cash article"</a>
+<li> <b>Previous message:</b> <a href="0112.html">Osman Nuri Ertugay: "Detecting Double-Spending by Hal Finney"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+I'll try to sketch the problem that I came across with the information<br>
+given in Hal Finney's description of How double-spending is prevented<br>
+in off-line anonymous e-money schemes.<br>
+<p>
+The main idea is that each piece of cash carries some &lt;info&gt; belonging<br>
+to the person who originally withdrew it. Now, A being the original<br>
+withdrawer, if A double-spends the cash (say x^d) to both B and C then<br>
+combining the information that B and C got from the cash itself (at the<br>
+time B and C both sent this info to the bank) reveals out the &lt;info&gt;<br>
+that was embedded in the cash. Since this &lt;info&gt; belongs to A, who is<br>
+the double-spender, you've identified the true person.<br>
+<p>
+Now, consider the case that A spent x^d to B. Remeber that B cannot play<br>
+with the contents of x since it's signed by the bank. Thus, if B wants to spend<br>
+x he will spend it exactly as it is, B has no way of putting his own &lt;info&gt;<br>
+into x. Furthermore, B wouldn't like to put his &lt;info&gt; into x even if he could<br>
+if he has the intention of double-spending it.<br>
+<p>
+Consider B double-spent x to C and D. Then C and D extracted their parts of<br>
+information embedded in x and sent to the bank. Now, the bank can reveal<br>
+out the &lt;info&gt; which belongs to the original withdrawer of x, namely A, but<br>
+A is not the double-spender. Thus, B got away with the much that he bought<br>
+upto the time bank detected the double-spending, and still he didn't face<br>
+any serious problems that would jeopardize his anonimity.<br>
+<p>
+There should be more behind the mechanism told in the paper that I got<br>
+this information from. Otherwise, there is no off-line anonymous e-money.<br>
+<p>
+I would like to hear your comments about this problem, or any extra information<br>
+that could help us convince ourselves, atleast technically, that one piece of <br>
+ecash can be spent over and over again without the need to deposit each piece<br>
+of cash that we receive, and get brand-new ones with new serial numbers.<br>
+<p>
+osman nuri ertugay<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0114.html">Dave Farber: "Re: newsweek oct 30 Levy digital cash article"</a>
+<li> <b>Previous message:</b> <a href="0112.html">Osman Nuri Ertugay: "Detecting Double-Spending by Hal Finney"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

@@ -1,0 +1,146 @@
+
+<DOC>
+<DOCNO>WT01-B18-20</DOCNO>
+<DOCOLDNO>IA026-000281-B014-174</DOCOLDNO>
+<DOCHDR>
+http://msi20.zo.utexas.edu:80/forms/register.htm 192.138.168.29 19970113203527 text/html 7320
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.12
+Date: Monday, 13-Jan-97 20:45:41 GMT
+Last-modified: Tuesday, 07-Jan-97 14:49:58 GMT
+Content-length: 7130
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>University of Texas Marine Science Institute - Summer Program Application</title>
+</head>
+
+<BODY TEXT= black BACKGROUND="../../images/chalk.gif">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Beginning of WebMania!/JavaScript Applet -------------
+/* Copyright (C)1996,97 Q&D Software Development
+All Rights Reserved.
+*/
+function checkdata()
+{
+     return confirm('Your registration for has been received and will be processed soon.');
+}
+// -- End of JavaScript code -------------- -->
+
+</SCRIPT>
+<center><h1>University of Texas - Marine Science Institute</h1></center>
+<p>Please note: Although it is most unlikely that you will experience any problems responding to this form, certain non-standard browsers will not respond properly.  If you experience any difficulties (or if you are not using a forms-capable browser) you may e-mail your response to this form to: <a href="mailto:summer@utmsi.zo.utexas.edu">summer@utmsi.zo.utexas.edu</a>.
+<p>
+<center><h3>Summer Program Application Form</h3></center>
+<FORM NAME="WM_1" ACTION="mailto:summer@utmsi.zo.utexas.edu" METHOD=POST onSubmit="return checkdata()">
+<INPUT TYPE="hidden" NAME="Test1" VALUE="1">
+<INPUT TYPE="hidden" NAME="Test2" VALUE="2">
+<INPUT TYPE="hidden" NAME="WFTestWF" VALUE="2.0a">
+ <CENTER><IMG SRC="../images/summer.jpg" WIDTH=299 HEIGHT=217 BORDER=0 ALT="class on R/V Katy deck"></CENTER>
+     <p>To apply for the MSI Summer Program on this Web server, fill out this form. If your browser does not support forms, you can request a hardcopy of the application by e-mail:
+ <A HREF="mailto: summer@utmsi.zo.utexas.edu">summer@utmsi.zo.utexas.edu</A> 
+    <p><b>Application deadline: April 15, 1997</b><br>
+    <p><p>
+Note: Complete all fields below<p>
+<hr><br>
+    <p><b>PERSONAL INFORMATION:</b><br>
+    <p><menu>
+        <INPUT TYPE="radio" NAME="title" VALUE="Mr.">Mr.
+        <INPUT TYPE="radio" NAME="title" VALUE="Ms." >Ms.
+<br>
+    </menu>
+     <p><i>Student name</i>: <BR>           <INPUT TYPE="text" NAME="<i>Student_name</i>" SIZE=50 VALUE="">
+    <p><i>Current address</i>:<BR>         <INPUT TYPE="text" NAME="<i>Current_address</i>" SIZE=75 VALUE="">
+    <p><i>Permanent address</i>:<BR>       <INPUT TYPE="text" NAME="<i>Permanent_address</i>" SIZE=75 VALUE="">
+    <p><i>Phone number</i>:<BR>            <INPUT TYPE="text" NAME="<i>Phone_number</i>" SIZE=50 VALUE="">
+    <p><i>Social Security Number</i>:<BR>  <INPUT TYPE="text" NAME="<i>Social_Security_Number</i>" SIZE=50 VALUE="">
+    <p><i>Email address</i>:<BR>           <INPUT TYPE="text" NAME="<i>Email_address</i>" SIZE=50 VALUE="">
+    <p><hr>
+<p>
+<B>ACADEMIC STATUS:</B><br>
+     <i>Current institution:</i>
+    <p><menu>
+        <INPUT TYPE="radio" NAME="inst" VALUE="Present student of UT Austin" >Present student of UT Austin
+<br>
+        <INPUT TYPE="radio" NAME="inst" VALUE="Former student of UT Austin">Former student of UT Austin
+<br>
+        <INPUT TYPE="radio" NAME="inst" VALUE="Other university">Student of other university
+<br>
+     </menu>
+    <p><i>Institution (if other than UT Austin)</i>:
+<br>
+<INPUT TYPE="text" NAME="<i>Institution</i>" SIZE=50 VALUE="">
+    <p><i>Major</i>:<BR>	<INPUT TYPE="text" NAME="<i>Major</i>" SIZE=50 VALUE="">
+    <p><B>Non UT students must submit an official  transcript or course record and apply for transient student status.</B><br>
+    <p><i>Classification as of June 1997:</i><br>
+    <p><menu>
+        <INPUT TYPE="radio" NAME="class" VALUE="Junior" >Junior
+        <INPUT TYPE="radio" NAME="class" VALUE="Senior">Senior
+        <INPUT TYPE="radio" NAME="class" VALUE="Masters">Masters
+        <INPUT TYPE="radio" NAME="class" VALUE="PhD">PhD
+        <INPUT TYPE="radio" NAME="class" VALUE="Other">Other
+<br>
+    </menu>
+    <p><hr>
+<h4>Courses (click on any course for a course description):</h4>
+<b>First session, June 4-July 11</b><br>
+     <INPUT TYPE="checkbox" NAME="course" VALUE="Marine Botany" ><A HREF="../academic/summer97.htm#botany">Marine Botany - MNS f352D</A>
+<br>
+    <INPUT TYPE="checkbox" NAME="course" VALUE="Marine Invertebrates"><A HREF="../academic/summer97.htm#inverts">Marine Invertebrates - MNS f3541</A>
+<br>
+<p>
+<b>Second session, July 14-August 18</b><br>
+    <INPUT TYPE="checkbox" NAME="course" VALUE="Biology of Fishes"><A HREF="../academic/summer97.htm#fishes">Biology of Fishes - MNS s354C</A>
+<br>
+    <INPUT TYPE="checkbox" NAME="course" VALUE="Marine Environmental Sciences"><A HREF="../academic/summer97.htm#envsci">Marine Environmental Sciences - MNS s354Q</A>
+<br>
+    <INPUT TYPE="checkbox" NAME="course" VALUE="Biological Oceanography (grad)"><A HREF="../academic/summer97.htm#biooce">Biological Oceanography (graduate only) - MNS s384T</A>
+<BR>
+<p>
+    <i>Multiple courses may be chosen.</i>
+    <p>Summer tuition and registration fees for in-state students are (estimates) $390.00 for one six-week session, 3 hours credit; or $530.00 for one six-week session, 6 hours credit.  For out-of-state students, summer tuition and registration fees are $1,025 for one six-week session, 3 hours credit; or $1,750 for one six-week session, 6 hours credit (this does not include lab or incidental fees). Further information on registration will be mailed after you have been accepted for admission.<br>
+    <p><hr>
+<h4>Residency:</h4>
+    <p><menu>
+        <INPUT TYPE="radio" NAME="residence" VALUE="Texas resident" >Texas resident
+<br>
+        <INPUT TYPE="radio" NAME="residence" VALUE="Non-resident">Non-resident
+<br>
+    </menu>
+    <p><hr>
+<h4>Housing:</h4><br>
+    <p><menu>
+        <INPUT TYPE="radio" NAME="housing" VALUE="I need housing" >I need housing
+<br>
+        <INPUT TYPE="radio" NAME="housing" VALUE="I do not need housing">I do not need housing
+<br>
+    </menu>
+    <p><hr>
+<h4>Scholarships:</h4>
+Financial aid is available for students needing funds to cover both sessions of study.  The scholarship covers room and board for the second session attended.  A personal statement on why you should be considered for a scholarship is required.<br>
+    <p><menu>
+        <INPUT TYPE="radio" NAME="money" VALUE="I wish to apply" >I wish to apply
+<br>
+        <INPUT TYPE="radio" NAME="money" VALUE="I do not wish to apply">I do not wish to apply
+<br>
+    </menu>
+    <p><b>Statement</b>:<br><TEXTAREA name="<b>Statement</b>" rows=4 cols=60></TEXTAREA><p>
+<hr>
+    <p><b>Comments/Questions:</b>:<br><TEXTAREA name="<b>Comments/Questions:</b>" rows=2 cols=60></TEXTAREA><p>
+<p>
+
+    <p><INPUT TYPE="hidden" NAME="WebFormID" VALUE="1">
+    <p><INPUT TYPE="submit" VALUE="Submit Application Form"> <INPUT TYPE="reset" VALUE="Clear Form"> 
+<p>
+<hr>
+<P><IMG SRC="../wideshot.gif" ALT="[Visitors Center]" HSPACE="5" BORDER="1" HEIGHT="75" WIDTH="225" ALIGN="ABSCENTER"><A
+
+HREF="../../index.htm">Return to MSI Home Page </A></P> 
+<HR> 
+</FORM>
+<p>
+<hr><FONT SIZE=-2>WebMania!&#153; 2.0a Professional Edition - &#169;1995,96,97 Q&amp;D Software Development<br><a href="http://www.q-d.com" TARGET="_top">http://www.q-d.com</a></FONT>
+</body>
+</html>
+</DOC>

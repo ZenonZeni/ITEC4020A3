@@ -1,0 +1,68 @@
+
+<DOC>
+<DOCNO>WT01-B04-53</DOCNO>
+<DOCOLDNO>IA080-000557-B035-104</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Isinstr.html 137.79.14.197 19970103071524 text/html 7489
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f33b.333@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:20:27 GMT
+Last-Modified: Tuesday, 28-Nov-95 00:45:46 GMT
+Content-type: text/html
+Content-length: 7244
+</DOCHDR>
+<TITLE>In Situ Instruments</title>
+<H3>In Situ Instruments</h3><p>
+<H5>Point of Contact:  Sam Kim</h5><p>
+<img src="NMR2.GIF"><p>
+<H5>JPL-26198</h5><p>
+The science goals of the Mars Exploration Program are: 1) Life (evidence of past or present); 2) Climate (weather processes and history); 3) Resources (environment and utilization).  The search for water (when, where, form and amount) acts as the common thread for three thrusts. In situ instruments have been identified as an important need by the Mars Exploration Office. A search was made of potential instruments (Ref. 15). With this great emphasis on water, it was decided to develop an instrument uniquely capable of detecting and characterizing water in different states, a miniature Magnetic Resonance Spectrometer (Ref. 21). Resonance instruments work on the principle that a magnetic field is applied to the sample, thus splitting the energy levels of either the nuclear or electronic spin states, and then energy is pumped into the states. Measurement is made of either the energy absorbed, or the re-emitted energy as a function of wavelength. Characteristic spectra reveal the composition of the sample. The advantages of magnetic resonance techniques are that<p>
+<UL>
+<LI>samples are tested under ambient conditions
+<LI>minimal preparation or disruption of samples (gram to milligram)
+<LI>analysis is not confounded by sample matrix
+<LI>the spectrum is molecule-specific.
+</ul>
+The special features of Nuclear Magnetic resonance (NMR) are that it can detect:<p>
+<UL>
+<LI>presence of water in soil, minerals, rocks
+<LI>free water in pores
+<LI>adsorbed water on surfaces
+<LI>chemically bound water
+</ul>
+The special features of EPR are that it can detect:<p>
+<UL>
+<LI>nature of oxidant in Martian soil
+<LI>oxidation state of paramagnetic ions in soil (mineralogy)
+<LI>characterization of volatiles (carbonates, sulfates)
+<LI>radicals in icy samples (characterization at impurity level)
+<LI>organics in subsoil
+</ul>
+Laboratory instruments use cw (change of impedance) or pulsed mode (observe re-emitted radiation). These instruments use large electromagnets to apply the magnetic field.  For a space instrument, a miniature permanent magnet system would be used (Ref. 24). The scanning method would depend on the application. Scanning at fixed magnetic field with variable frequency is relatively easy for NMR because circuitry to scan rf radiation is readily available. On the other hand, EPR requires scanning at microwave frequencies and this poses much more of a challenge.<p>
+
+A goal of this task is to exploit prototype instrument probe systems for preliminary in-situ characterization of Martian surface chemistry, and to support the sample selection, and site selection objectives of this Task. The goal is to utilize innovative new technology in an external detection mode, which does not require separate sampling procedure for analysis. Since the search for water has been chosen as the theme for Mars exploration, initial emphasis in our program is on building and testing of a miniature Magnetic Resonance Spectrometer (MRS) with combined capabilities of Nuclear Magnetic Resonance (NMR) and Electron Paramagnetic Resonance (EPR). Conventional NMR and EPR systems in the laboratory  employ very large, heavy electromagnets and sweep the magnetic field to observe spectra. We plan to achieve miniaturization by using small permanent magnets, and use a tunable RF cavity to achieve a frequency sweep. It is projected that mass reduction of several hundred to one will be possible. This would provide a non-invasive analytical technique with a unique combination of capabilities such as detection of water, characterization of volatiles, active oxygen species, oxidation states of paramagnetic ions, and detection of possible organics from soil, minerals and rocks. All probes will be made compatible with the mechanisms and control systems developed under the SA/ET Task. The investigator under this task will also provide the team with insight into science needs for Mars surface missions.<p>
+<img src="KIM.GIF">
+<H5>P-46173 Cd</h5><p>
+<H4>FY95 Accomplishments</h4><p>
+<UL>
+<LI>The miniature Nuclear Magnetic Resonance (NMR) spectrometer is being developed as a lander micro-instrument for the detection of water in the soil, minerals and rocks on Martian surface.  NMR can characterize different forms of water in the sample, such as adsorbed water (e.g., soil or clay), or chemically bound water in minerals (e.g., gypsum).  The analyses will be quantitative and require no modification of the sample.  Typical sample size is 0.1 - 1 gram.<p>
+The picture shows the essential components of NMR; sample coil (probe), electronic detection and processing circuit, and the permanent magnet (Halbach).  Depending on mission requirements, such components can be deployed in several configurations as a penetrator, a lander or a rover sensor element.  It will be a compact, light weight (about 400 gram), low power (<0.5 W) instrument.<p>
+In FY'95, we have developed miniature NMR electronics for two configurations, one which requires a sample to be placed inside the coil (conventional NMR) as shown in the first picture titled, "Digital Surface Mount NMR," and the other which can detect water externally by merely placing the NMR sensor over the sample surface (Inside-Out NMR."  The Inside-Out NMR circuit was tested with a laboratory electromagnet.  We obtained NMR spectra of adsorbed water in a clay sample as shown in the third picture.  Variation of the spectral intensity is shown, as expected, the NMR intensity decreases as the spacing between the sensor coil and the sample is increased.<p>
+</ul>
+<H4>FY96 Milestones</h4><p>
+<UL>
+<LI>Demonstrate a permanent magnet assembly to generate the Inside-Out field configuration for the miniature NMR spectrometer probe.  Demonstrate integration of the miniature NMR electronic circuit with the permanent magnet assembly, and optimize for  best performance as a system (target sensitivity, about 2 wt% H2O).  Design and fabricate a wideband mirowave sensor (scan range of 0.5 GHz - 5 GHz) for a miniature Electron Paramagnetic Resonance (EPR) spectrometer.<p>
+<img src="inside-out.GIF"><p>
+</ul>
+<H4>FY 97 Milestones</h4><p>
+<UL>
+<LI>Microwave Antenna Technology for Geologic and Volatile Sample Detection. Build and test a microwave antenna for an EPR spectrometer and an EPR signal processing circuit with a solid state microwave source and demonstrate functionality of microwave antenna and EPR signal processing circuit using a laboratory electromagnet. Demonstrate integration of miniature antenna, miniature magnet assembly and EPR electronics and optimize for best performance as a system using standard and geologic samples (ppm level). EPR will detect the presence of other volatiles in the form of:  carbonates and sulfates; active oxygen species; oxidation states of paramagnetic ions for characterization of mineralogy.  
+</ul>
+<H4>FY98 Milestones</h4><p>
+<UL>
+<LI>NMR/EPR Probe Integrated with Sample Acquisition System. Demonstrate an integrated NMR and EPR probe with supporting electronics for use in the sample acquisition system developed under SA/ET.
+</ul>
+<A HREF="Mars.html">Return to menu</a><p>
+</DOC>

@@ -1,0 +1,122 @@
+
+<DOC>
+<DOCNO>WT01-B03-75</DOCNO>
+<DOCOLDNO>IA039-000748-B035-219</DOCOLDNO>
+<DOCHDR>
+http://www.rosenmotors.com:80/techdesc.htm 205.139.120.101 19970210094605 text/html 10158
+HTTP/1.0 200 OK
+Date: Mon, 10 Feb 1997 09:46:53 GMT
+Server: WebSitePro/1.1h
+Accept-ranges: bytes
+Content-type: text/html
+Last-modified: Tue, 07 Jan 1997 23:27:34 GMT
+Content-length: 9962
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<title>Technical Description - Rosen Motors</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+</head>
+
+<body background="/controls/chalk.jpg" vlink="#BF0000">
+<p align=center><img src="/controls/rmlogo.gif" align=bottom width=500 height=71> </p>
+<h2 align=center>Technical Description of the Rosen Motors<br>
+Hybrid Electric Powertrain</h2>
+<p align=center><a href="/ptdiag.htm"><img src="/controls/rmbpd.gif" align=bottom border=0 width=100 height=30></a> </p>
+<p>The internal combustion engine, the principal component of today's automotive powertrain, has been used to power 
+automobiles for over 100 years. But this one source of power creates undesirable compromises: high-power engines provide 
+high acceleration but poor fuel economy, while low-power engines provide better fuel economy but poor acceleration 
+performance. In addition, noxious emissions are an unavoidable byproduct of operation.</p>
+<p>In stark contrast to the internal combustion engine, the Rosen Motors hybrid electric powertrain offers the capability to obtain 
+<em>simultaneously</em> high acceleration, high fuel economy, and nearly zero emissions. The Rosen Motors powertrain consists of a 
+turbogenerator, a flywheel motor-generator, an electric drive motor, and an electronic control system.</p>
+<p>The heat engine for the powertrain is a gas turbine, which powers a generator (together, referred to as a <em>turbogenerator</em>). It is 
+used to satisfy the relatively low average power demands of the vehicle, while the flywheel driven motor-generator is used to 
+supply the surge power demands of the motor vehicle, as well as to recover power from regenerative braking.</p>
+<p>In the Rosen Motors hybrid electric powertrain, only the electric drive motor connects directly to the drivetrain of the vehicle. 
+Unlike many other hybrid concepts, it is not simply a &quot;range extender&quot; for a chemical battery-powered vehicle. Rather, the 
+electronic controller dynamically selects the blend of flywheel-generated and turbine-generated power that provides the 
+optimum vehicle performance at all points in the driving cycle.</p>
+<h3>Turbogenerator</h3>
+<p>The turbogenerator is the fuel burning engine of the powertrain. It burns unleaded gasoline in its catalytic combustor, producing 
+virtually zero pollutants.</p>
+<p>The rotor of the generator, the compressor wheel, the turbine wheel and the shaft comprise the rotating group. This rotating 
+group, the single moving part of the turbogenerator, is supported by self-pumping air bearings. The cooling for the 
+turbogenerator is provided by the inlet air flow, so there is no need for liquid cooling. The turbogenerator requires no 
+lubrication and no regularly-scheduled maintenance, except for occasional changings of the air filter.</p>
+<p>A recuperator is used to improve the efficiency of the turbogenerator. The turbogenerator itself is controlled by feedback 
+loops to the speed and inlet temperature that corresponds to its highest efficiency for the particular power demand.</p>
+<p>The turbogenerator for the Rosen Motors powertrain is supplied by <a href="http://www.capstoneturbine.com/">Capstone Turbine Corporation</a>, which also builds 
+turbogenerators for stationary power generation. In the current Rosen Motors experimental vehicle, the turbogenerator 
+provides up to 24 kilowatts of electrical output at 30 percent thermal efficiency. A turbogenerator having a maximum power 
+output of 45 kilowatts will be used in future Rosen Motors powertrains.</p>
+<h3>Flywheel</h3>
+<p>The flywheel-motor-generator combination provides surge power for the hybrid electric vehicle and provides energy storage 
+that allows for regenerative braking. It performs these functions with more efficiency, at a much lower weight and with a much 
+longer useful life than chemical batteries.</p>
+<p>The flywheel rotating assembly consists of a carbon filament-wound composite cylinder and ring, a titanium hub and a steel 
+shaft. The rotor of the motor-generator and the rotating elements of the flywheel magnetic bearing assemblies are mounted on 
+the shaft and supported by the magnetic bearings.</p>
+<p>Due to the extremely high speeds at the surface of the cylinder, the rotating assembly must be contained in a vacuum enclosure. 
+The continuously evolving residual gases from the enclosure are pumped by a molecular drag pump into a second 
+higher-pressure chamber containing molecular sieves.</p>
+<p>The stator of the flywheel motor-generator is cooled by passing coolant through a jacket which surrounds the stator. (This 
+liquid also cools the stators of the magnetic bearings.) The rotor of the motor-generator is cooled by radiation, primarily to the 
+stator.</p>
+<p>The spin axis of the rotor is controlled to a vertical orientation. The vacuum housing is supported by a two-axis gimbal system, 
+which isolates the rotor from vehicular angular motions.</p>
+<p>The vacuum housing is surrounded by a containment system which prevents escape of the rotor material in the unlikely event of 
+an accidental burst of the flywheel rotor.</p>
+<p>The flywheel is designed for a long self-discharge time, on the order of a thousand hours (about six weeks). In the event the 
+flywheel is allowed to run down after long storage without recharge, it can be recharged by the turbine. (In the case of a 
+discharged flywheel, the turbine itself would be started by the 12 volt battery.)</p>
+<p>At its maximum charge, the flywheel can store one kilowatt-hour of energy, of which 80 percent is available over the flywheel 
+operating speed range of 28,000 - 62,000 RPM. (The flywheel <em>quiescent speed</em> -- not braking or accelerating -- is about 
+55,000 RPM.) The flywheel motor-generator can deliver or accept energy at a maximum rate of 120 kilowatts. Larger power 
+outputs may be used in future Rosen Motors powertrains.</p>
+<p>Rosen Motors has seven patents pending, and one patent issued in regard to various aspects of its flywheel motor-generator 
+design.</p>
+<h3>Drive motor</h3>
+<p>The drive motor(s) delivers torque (through a fixed gear reduction) to the drive wheels in response to the positions of the 
+accelerator and brake pedals. It also responds to the position of the hand lever, which is used to select forward or reverse.</p>
+<p>The field current of the drive motor is adjusted to obtain optimum performance for any driving condition. The electronic 
+controller provides a pulse-width controlled signal, whose magnitude depends on the desired speed and torque to the drive 
+motor.</p>
+<p>The characteristics of an electric drivetrain and the use of a fixed gear reduction result in a vehicle acceleration as smooth -- 
+i.e., no gears shifting --as that obtained with a continuously variable transmission. Moreover, maximum torque is provided by 
+the drive motor instantaneously. This, in conjunction with the high power flywheel, results in the extraordinarily high 
+acceleration characteristics of the vehicle.</p>
+<h3>Electronic controller</h3>
+<p>The electronic power control consists of the logic, power electronics and software which control the three motor-generators 
+(associated with the gasoline turbine, flywheel and drive motor, respectively) in the starting, accelerating, cruising, braking, hill 
+climbing and hill descending operations of the motor vehicle. The control of the motor-generators is designed to provide 
+excellent fuel economy, high acceleration capability, and minimum use of the friction brakes.</p>
+<p>This control is effected by varying the duty cycle of the pulse-width modulator outputs. These outputs switch the 
+inverter-rectifiers on and off to synthesize the sinusoidal waveforms for the three motor-generators, all of which (generally) 
+operate at different rotational speeds.</p>
+<p>Each of the powertrain's motor-generators is connected to a separate inverter-rectifier. The inverter-rectifiers are Insulated 
+Gate Bipolar Transistor (IGBT) modules. The inverter-rectifiers are in turn connected to a common 400 volt d.c. bus. When 
+the motor-generator is in the motor mode, the inverter-rectifier acts as an inverter to power the motor; when in the generator 
+mode, the inverter-rectifier acts as a rectifier to charge the bus.</p>
+<p>The turbogenerator and flywheel are controlled during normal driving with feedback loops, while the drive motor torque 
+responds directly to the driver input through the accelerator pedal. The parameters for these control loops are designed to 
+maintain the flywheel speed, bus voltage, turbine temperature and turbine speed within their respective operating ranges, while 
+providing smooth response to driver input.</p>
+<p>Rosen Motors has one patent pending on its electronic controller. </p>
+<p><!-- Navigation text --></p>
+<hr>
+<div align=center><center>
+<table cellpadding=0 cellspacing=0 width=100>
+<tr><td><a href="/index.html"><img src="/controls/rmbhp.gif" align=bottom border=0 width=100 height=30></a></td><td><a href="/pressre2.htm"><img src="/controls/rmbpra1.gif" align=bottom border=0 width=100 height=30></a></td><td><a href="/pressre1.htm"><img src="/controls/rmbpr.gif" align=bottom border=0 width=100 height=30></a></td><td><a href="/corpback.htm"><img src="/controls/rmbcb.gif" align=bottom border=0 width=100 height=30></a></td></tr>
+<tr><td></td><td><a href="/facts.htm"><img src="/controls/rmbfs.gif" align=bottom border=0 width=100 height=30></a></td><td><a href="/mgmtbio.htm"><img src="/controls/rmbma.gif" align=bottom border=0 width=100 height=30></a></td><td></td></tr>
+</table>
+</center></div>
+<hr>
+<h5><i>Web services provided by </i><a href="http://webservices.cmihub.com"><i>CMI, Inc.</i></a><i> (503)227-7425; email </i><a href="mailto:services@cmihub.com"><i>services@cmihub.com</i></a> </h5>
+</body>
+
+</html>
+</DOC>

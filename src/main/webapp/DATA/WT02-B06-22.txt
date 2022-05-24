@@ -1,0 +1,352 @@
+
+<DOC>
+<DOCNO>WT02-B06-22</DOCNO>
+<DOCOLDNO>IA096-001029-B017-39</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/clipper311/961108_BSA_wrkng_ltr.html 205.177.10.31 19970215015805 text/html 19020
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 01:56:45 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>CDT | BSA letter to Working Group, 11/8/96</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<H2>BSA Letter to Interagency Working Group on Encryption</H2>
+<BR>
+<BR>
+November 8, 1996<BR>
+<BR>
+Mr. Bruce McConnell<BR>
+Information Policy &amp; Technology<BR>
+Office of Management &amp; Budget<BR>
+New Executive Office Building - Room 10236<BR>
+17th &amp; Pennsylvania Avenue, NW<BR>
+Washington, DC 20504<BR>
+<BR>
+Mr. Ed Appel<BR>
+National Security Council<BR>
+Old Executive Office Building - Room 300<BR>
+17th &amp; Pennsylvania Avenue, NW<BR>
+Washington, DC 20504<BR>
+<BR>
+Dear Bruce and Ed:<BR>
+<BR>
+On behalf of America's leading publishers of software I wanted to thank
+you again for the Administration's recent decision to liberalize export
+controls for commercial encryption products. As BSA said at the time, it
+is clearly a step in the right direction. However, as we have also explained
+on numerous occasions since the announcement, there were some notable omissions
+as well as a great number of unanswered questions. Therefore, we sincerely
+appreciate your willingness to work with us on an expedited basis to hopefully
+resolve remaining issues and to make further progress. .<BR>
+<BR>
+Based on our recent discussions and meetings with Administration officials,
+we believe there are four major outstanding areas that need immediate clarification.
+This letter is intended to provide the Administration with BSA's reactions
+to what we have heard to date as well as our concrete recommendations for
+moving forward in these areas.
+<H3>1. Interim Export Control Relief.</H3>
+BSA's members have said for some time now that the ability to immediately
+export 56-bit encryption products is critical to maintaining the international
+competitiveness of the software industry and to providing computer users
+worldwide with acceptable information security. This also was the major
+recommendation of the National Research Council Study. Such exports also
+were clearly permitted under legislation pending before Congress.<BR>
+<BR>
+Therefore, we welcome your decision to permit the export under Department
+of Commerce General License beginning January 1, 1997 of products using
+56-bit encryption keys. We believe that many American software companies
+will be ready to ship such products on January 1st. We trust that any necessary
+government action will be completed by then.<BR>
+<BR>
+Our specific concerns and suggestions follow:<BR>
+<BR>
+<B><I>Licensing Procedures and Rewrite of Regulations:</I></B> We expect
+that: 
+<UL>
+  <LI>the decision covers all commercial software and hardware programs
+and products employing encryption for general text (data) confidentiality
+purposes;<BR>
+<BR>
+  <LI>after the transfer of licensing jurisdiction to DOC, exports of all
+commercial products will occur under the least restrictive DOC General License
+(License Exception) - either GTDU (TSU) or, if a new license is created
+or a new ECCN established, the terms and conditions should permit the export
+to all non-embargoed countries without requirement of written assurances;<BR>
+<BR>
+  <LI>all products already reviewed and approved for export will continue
+to be exportable (under whatever DOC General License) without the need for
+any further approvals, and independent of any new requirement or process
+for &quot;commitments&quot; on key recovery, including:<BR>
+<BR>
+1. 40-bit key length mass market products<BR>
+<BR>
+2. 56-bit or longer key length products for the financial services sector
+(which, as explained below, needs to be immediately increased to 128 bits
+for Internet financial applications)<BR>
+<BR>
+3. other 56-bit or longer key length products (e.g. to U.S. subsidiaries,
+certain foreign multinationals, certain foreign governments)<BR>
+<BR>
+  <LI>with respect to new products and programs:<BR>
+<BR>
+1. for all mass market products already approved for export at the 40 bit
+level, if the only change is to 56 bits, then a simple letter to that effect
+from the company (exporter) should be sufficient for General License treatment;<BR>
+<BR>
+2. initial reviews of new products and programs with 56-bit key lengths
+will occur under the same stringent time frame (7 to 15 days) that currently
+exist for mass market products;<BR>
+<BR>
+3. any commercial products with key lengths longer than 56-bits that are
+not eligible for General License treatment should still be eligible for
+export under a Validated License with terms and conditions substantially
+similar to existing State Department export licenses. 
+</UL>
+We appreciate the time constraints under which the Administration is laboring;
+however, we also believe it is essential to get the regulations done right.
+Therefore we strongly urge you to involve industry associations in the drafting
+of the new rules. Industry involvement is essential if the Administration
+is to make good on the promise of achieving liberalized export controls
+through transfer of jurisdiction over encryption software from State to
+Commerce. Otherwise the new regime may be more restrictive than the current
+dual agency regime.<BR>
+<BR>
+<B><I>Periodic Upward Adjustments in Key Lengths.</I></B> We were disappointed
+that the Administration did not also institute automatic, periodic adjustments
+in key lengths that simply would maintain the same level of information
+protection in the future. Such adjustments are necessary because predictable
+advances in computing power will make attacks on encrypted information cheaper
+and easier. This was the rationale behind BSA's earlier recommendation of
+a &quot;cost of cracking adjustment.&quot; The NRC CRISIS Report also called
+for periodic adjustments. We note again that such adjustments would not
+further disadvantage the government in performing any required brute force
+attacks because it is precisely these attacks that benefit from the advances
+in computing power!<BR>
+<BR>
+<B><I>Financial Applications.</I></B> While the announcement confirms that
+longer key lengths will continue to be approved for products dedicated to
+the support of financial applications, no specific decision was made to
+permit the export of such products with 128-bit encryption keys (under General
+License GTDU (TSU)). Immediate action in this area is critical as the worldwide
+financial sector currently demands this level of information security, foreign
+competitors already are providing it, and safeguards are available to ensure
+that such products are not used as general confidentiality products. (Industry
+is familiar and comfortable with the binding standards currently used by
+NSA - essentially a &quot;work factor&quot; test in which it would take
+more effort to reconfigure the program than to do a separate one.) It is
+essential to remember that if the U.S. Government does not provide immediate
+export control relief in this area that foreign software companies are now,
+and will become even more aggressive in, supplying such products - but without
+the safeguards - thereby defeating our government's efforts to limit such
+encryption worldwide. For example, a German product explicitly advertises
+on the Internet its ability to provide &quot;highly secure 128 bit transaction
+encryption despite U.S. export restrictions.&quot;<BR>
+<BR>
+<B><I>Personal Use Exemption.</I></B> We also believe further progress needs
+to be made in the areas of the so-called &quot;personal use exemption&quot;
+and non-confidentiality uses of encryption. Specifically, reporting requirements
+should be eliminated or significantly simplified to ease administrative
+burdens. Moreover, the exemption should be extended to foreign nationals
+(except those from embargoed countries) employed by U.S. or Canadian companies
+or subsidiaries/affiliates of U.S. companies.
+<H3>2. Definition of Key Recovery.</H3>
+Importantly, the Administration's announcement conditions the export of
+56-bit encryption products upon &quot;industry commitments to build and
+to market future products that support key recovery.&quot; Such products
+would have no algorithm restrictions or key length limits.<BR>
+<BR>
+To be successful, any key recovery initiative must be voluntary and market-driven.
+Users must see the value of key recovery features and want to use them.
+American companies cannot sell what users will not buy. In this regard,
+BSA's members have said for some time that they believe there may well be
+commercial demand for products that enable the recovery of stored data and
+that could be saleable worldwide.<BR>
+<BR>
+We think it also is in the government's interest to see the deployment of
+such key recovery products for stored data. We believe the government should
+focus on what is &quot;doable&quot; in the near term. See what works; get
+real world experience.<BR>
+<BR>
+<B><I>What Key Recovery Means.</I></B> As we have repeatedly explained,
+we believe a &quot;key recovery&quot; encryption confidentiality product
+should be exportable if it includes features making the recovery of &quot;plain
+text&quot; stored information accessible without the assistance of the individual
+who has encrypted the information.<BR>
+<BR>
+<B><I>Key Recovery Is Different Than Key Escrow.</I></B> A purchaser or
+user of a product being able to recover his data is different than, and
+separate from, the decision whether to voluntarily empower a trusted third
+party to be able to recover the data. Indeed, this distinction between a
+&quot;key recovery&quot; product that enables third party access to stored
+information. and &quot;key escrow&quot; which requires such advance third
+party access, makes all the difference in terms of industry and user acceptance.
+Quite simply, there should be no requirement that a copy of the user's key,
+or the means to access or reconstruct the key, be given to anyone (let alone
+required to do so with government certified agents or with a U.S entity).
+Indeed, we also note that even if certain individuals wanted to give a copy
+of their key to a third party, the existence of a trusted third party infrastructure
+in each country does not yet exist and could take some time to develop.<BR>
+<BR>
+Thus, while we believe that in many cases businesses and other entities
+would have access to keys used by their employees and (in time) commercial
+key recovery services would be able to recover keys of their subscribers,
+yet other computer users might choose not to give a copy of their key to
+anyone (instead perhaps printing out a copy on a floppy disk or paper or
+content to have it reside in a separate file on their hard drive). The analogy
+to what people do with their house keys seems apt -- some give a copy to
+a neighbor or friend, businesses often hold &quot;passkeys&quot; to their
+employees offices, others put a copy in a safe deposit box or a drawer.
+Importantly, in each situation the government can obtain the plain text
+of information by lawfully obtaining the key where ever it might be kept.<BR>
+<BR>
+<B><I>Key Recovery Should Be A Condition Of Export Only For Stored Data.</I></B>
+As we have explained on many occasions, there is little if any commercial
+demand for a key recovery function in real-time communications. The reason
+is simple: if the communication is unsuccessful then it is simply tried
+again until the transfer of information is successfully completed. Users
+only want the ability to recover in plain text form their stored encrypted
+information after the fact of transmission. Moreover, software companies
+have been focusing on meeting this user demand - recovery of stored data.
+They understand technically how to do this. In the short run, it is an achievable
+objective.<BR>
+<BR>
+We are concerned, however, that some in government seem intent on arguing
+that because a few products can technically perform key recovery for communications
+it should be a widespread requirement. To the contrary, our members have
+seen nothing to suggest that any<BR>
+product developed to date can work on a mass market scale or that there
+is significant commercial demand for such products.<BR>
+<BR>
+Therefore, an encryption product that provides key recovery for stored data
+should be exportable even if it also encrypts communications without key
+recovery.<BR>
+<BR>
+<B><I>Licensing Procedures.</I></B> Finally, BSA believes that key recovery
+encryption products for stored data should be exportable: 
+<UL>
+  <LI>regardless of key generation technique of technology used (i.e. no
+limits on how often keys may be changed or replaced);<BR>
+<BR>
+  <LI>without additional requirements or conditions precedent such as new
+bilateral agreements;<BR>
+<BR>
+  <LI>to all destinations subject only to generally applicable limitations
+on non-controlled commodities (e.g. embargoed countries); and<BR>
+<BR>
+  <LI>pursuant to DOC General License or License Exception (GTDU (TSU) or
+equivalent) after a one-time review comparable to that provided for mass
+market software. 
+</UL>
+<H3>3. Industry Commitments.</H3>
+Based on what we have heard to date, unfortunately we believe the Administration
+may adopt an approach that is based much more on sticks than carrots. We
+think there is a better way.<BR>
+<BR>
+<B><I>The Administration's Tentative Approach.</I></B> We understand that
+the Administration may interpret &quot;industry commitments&quot; to building
+and marketing key recovery products so as to require each company to provide
+detailed information to the government regarding its plans for developing,
+producing and marketing key recovery products and services. Moreover, under
+such an approach companies would have to make resource commitments and concrete
+benchmarks. The government would review each company's plan every six months.
+If the government decided that inadequate progress had been made then it
+could end a company's interim General License to export 56-bit products.<BR>
+<BR>
+We believe this approach is misguided and unnecessary. Undoubtedly it would
+subject the Administration to charges of micromanagement and industrial
+policy. Moreover, such detailed governmental involvement could well threaten
+the continued success of America's highly dynamic and competitive software
+and hardware industries. Finally, the burdens of such an approach would
+limit the ability of companies to participate, thereby reducing the number
+of companies who could afford to develop key recovery products.<BR>
+<BR>
+<B><I>A Better Way.</I></B> As we explained, we believe that a much more
+productive and efficient approach is to rely on the fundamental incentive
+inherent in the government's decision: after two years companies wishing
+to export encryption programs with long key lengths will only be allowed
+to do so if those programs and products have key recovery functions for
+stored data.<BR>
+<BR>
+We understand that the Administration is nervous about industry actually
+moving forward with development of key recovery products. But the government
+already knows that companies will develop and offer key recovery programs
+for stored data because a number of companies either have such products
+now, are currently working on such products, or have announced individual
+or joint efforts to develop such products. They are doing so because users
+want such products. Indeed, Administration officials have already acknowledged
+that a &quot;critical mass&quot; of companies are at work on such key recovery
+products.<BR>
+<BR>
+We believe these activities should be sufficient and that any company should
+be allowed to immediately begin exporting 56-bit products. We do not think
+it is appropriate or wise to condition each individual company's ability
+to export 56-bit encryption products on that company's plans to develop
+or offer key recovery products.<BR>
+<BR>
+However, if the Administration nevertheless believes such a requirement
+is necessary, then we strongly urge you to adopt the simplest possible process:
+make such a commitment to develop or offer key recovery products a term
+of the General License (or Exception). By exporting products pursuant to
+the General License, companies would have &quot;self certified&quot; that
+they are making the requisite commitment. This would obviate the need for
+an entire separate regulatory scheme, with letters, meetings, reviews, etc.
+We also believe it is essential that the license simply require a commitment
+to develop or offer key recovery products generally, not a key recovery
+version of each and every 56-bit product being exported pursuant to the
+General License.
+<H3>4. What Happens After Two Years</H3>
+There are several issues presented by the Administration's announcement
+that after two years American companies will be unable, as a general proposition,
+to continue exporting 56 bit encryption products without key recovery.<BR>
+<BR>
+<B><I>Interoperability.</I></B> The Administration maintains that the &quot;domestic
+use of key recovery will be voluntary, and any American will remain free
+to use any encryption system domestically.&quot; As we have explained all
+along, we do think that there always will be some demand for non-key recovery
+encryption programs and products. Thus, we understand the Administration's
+decision to mean: 
+<UL>
+  <LI>companies may continue to sell domestically, to U.S. citizens abroad,
+and to U.S. subsidiaries abroad, non-key recovery encryption programs and
+products without regard to key length;<BR>
+<BR>
+  <LI>companies may continue to sell worldwide non-key recovery encryption
+programs and products which are approved for export; and<BR>
+<BR>
+  <LI>Exportable key recovery encryption programs and products will be able
+to interoperate with non-key recovery programs and products at the encryption
+strength of those other programs and products (for domestic users this means
+no limits and for international users at whatever level is approved for
+export (e.g. 56 bit keys as adjusted upwards in the future)). 
+</UL>
+<B><I>The Installed Base.</I></B> Any interim export control relief will
+be a mirage unless it meets serious business needs. No commercial user will
+purchase such products unless they know they can purchase similar products
+in the future for expanding needs (e.g. a bigger site license), can get
+replacement products if something is wrong, can install upgrades in the
+product (even if the encryption remains the same), and can get continued
+service and customer support. Yet we have heard nothing that addresses these
+issues. The Administration's decision must be implemented so that whatever
+is permissible at the end of two years will continue to be so (i.e. approvals
+already granted must be reasonably interpreted in the future).<BR>
+<BR>
+BSA and its member companies remain committed to working with the Administration
+to specifically address these important questions and implementation details.<BR>
+<BR>
+Sincerely,<BR>
+<BR>
+[signature]<BR>
+<BR>
+Becca Gould<BR>
+Vice President, Public Policy<BR>
+<BR>
+<HR><A HREF="index.html">Back.</A><BR>
+<BR>
+<FONT SIZE=-1>Posted on December 5, 1996</FONT><BR>
+</BODY>
+</HTML>
+</DOC>

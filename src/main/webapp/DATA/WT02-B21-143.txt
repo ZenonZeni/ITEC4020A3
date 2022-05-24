@@ -1,0 +1,86 @@
+
+<DOC>
+<DOCNO>WT02-B21-143</DOCNO>
+<DOCOLDNO>IA052-000883-B026-365</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/software.html 137.229.31.144 19970210140342 text/html 2882
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:03:48 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 31-Jan-97 00:47:29 GMT
+Content-length: 2702
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+<TITLE>ASF/STEP Software Products</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#00008A" LINK="#008A00" VLINK="#A47B7E"
+BACKGROUND="res/backgrounds/asf_tile.gif">
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> |
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> |
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> |
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> 
+<P>
+<H1>Information Headquarters for ASF/STEP Software and Tools</H1>
+One of the goals of the ASF/STEP program is to create software and 
+software tools to help manipulate and explore SAR data. Software, as used 
+by the ASF/STEP devlopment team, is defined as an individual program that 
+preforms one specific task. However, when working with SAR data, a user 
+will need to preform many tasks to achieve the desired result. For 
+example, if a user wants to combine multiple SAR images, the user will 
+have to preform radiometric calibration, geocoding, and maybe even a 
+resampling of the images to obtain what he or she wants.
+<P>
+To help in this process, STEP has created software tools. A tool helps 
+the user by preforming all the specific tasks to accompils what the user 
+wants. Using the mosaicking example from the last paragraph, a user could 
+use a software tool to preform all the specific tasks automatically.
+<P>
+Why do we offer both tools and software? We offer the user both because
+the user has better idea of what he or she wants to do with their data. 
+The software programs by themselves can be used in other ways besides our
+tools. We offer the software programs (including the source code) so that
+each user can use the programs to his or her best advantage. 
+<P>
+<HR>
+<P>
+<H2>
+<IMG SRC="res/bullets/list.gif" ALT="[BULLET]">
+Software tools
+</H2>
+<OL>
+<LI><!A HREF="calibrate/calibrate.html">Calibration<!/A>
+<LI>Geocoding
+<LI><A HREF="interfer/interfer.html">Interferometry</A>
+<LI>Mosaicking
+<LI>Terrain Correction
+</OL>
+<H2>
+<IMG SRC="res/bullets/list.gif" ALT="[BULLET]">
+Software programs
+</H2>
+<OL>
+<LI><A HREF="">An alphabetical listing of our software</A>
+<LI><A HREF="man.html">View the man page for each program</A>
+<LI><A HREF="download.html">Download software</A>
+<LI><A HREF="version.html">Version and Release Information</A>
+<LI><A HREF="">Release Updates</A>
+</OL>
+</BODY>
+<ADDRESS>
+<HR>
+Last Updated: July 19, 1996 <BR>
+Last Updated By: <A HREF="users/mike/mike.html">Michael Shindle</A><BR>
+If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="comments.html">comment</A>.
+<P>
+</ADDRESS>
+</HTML>
+
+
+
+</DOC>

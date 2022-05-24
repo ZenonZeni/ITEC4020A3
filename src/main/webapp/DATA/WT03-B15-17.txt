@@ -1,0 +1,209 @@
+
+<DOC>
+<DOCNO>WT03-B15-17</DOCNO>
+<DOCOLDNO>IA060-000337-B003-352</DOCOLDNO>
+<DOCHDR>
+http://www.atemi.com:80/security.html 206.148.208.105 19970115073803 text/html 8363
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 07:36:42 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Set-Cookie: Apache=widener18865853313802577; path=/
+Content-length: 8139
+Last-modified: Thu, 02 Jan 1997 23:40:45 GMT
+</DOCHDR>
+<!doctype html public "-//W30//DTD W3 HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE> NetShade v1.1 Overview</TITLE>
+</HEAD><BODY BGCOLOR="#ffffff"><H1><CENTER>NetShade v1.1 Overview </CENTER>
+</H1><P><HR WIDTH=90% SIZE=4>
+<H2>Page Contents:
+</H2><UL><LI><A href="#issues">What do I need to know about network
+security?</A>
+<LI><A href="#different">How is NetShade different from other network
+security products?</A>
+<LI><A href="#works">How does NetShade work?</A>
+<LI><A href="#screen">What does NetShade's interface look like?</A>
+<LI><A href="#specs">What platforms does NetShade support?</A>
+<LI><A href="#future">When will NetShade be available for other
+platforms and protocols?</A>
+<LI><A href="#algs">What encryption algorithms does NetShade
+support?</A>
+<!-- <li><a href="#table">Main menu</a>-->
+</UL><P><HR WIDTH=90% SIZE=4>
+
+<A name="issues"></A>
+<H2><A name="issues">What you need to know about network
+security</A>
+</H2><P>Most people don't realize that <B>everything</B> sent over most networks
+and modem links
+can be intercepted and read by anyone who cares to listen.  Using a common
+network management tool called a
+<A href="http://www.cis.ohio-state.edu/text/faq/usenet/computer-security/sniffers/faq.html">
+protocol analyzer</A>, it is easy for anyone with access to your network
+to tap into all the
+data sent over it -- including passwords, user IDs, e-mail, shared files,
+etc.
+<P>For telecommuters, the eavesdropping problem is even more critical.  The
+telephone
+is a notoriously insecure medium, and there are dozens of ways for a determined
+intruder
+to access your telephone lines and tap into data sent during a remote session.
+ This problem
+puts business data at so much risk that many organizations do not let their
+employees telecommute at all.
+<P>
+Fortunately, there is a simple way to protect your AppleTalk network users
+and ARA telecommuters
+from these attacks.  NetShade v1.1 prevents eavesdropping and spoofing by
+<A
+href="http://www.rsa.com/rsalabs/faq/faq_gnrl.html">encrypting</A> all
+of your AppleTalk sessions before they reach the network.  To an eavesdropper,
+all of your network and ARA traffic will be completely unintelligible.
+<P>
+Here's how it works: when you send a message to another NetShade user, NetShade
+transforms it into <B>ciphertext</B> using a complex <B>secret key</B> (known
+only to you and the 
+message's recipient). To prevent an intruder
+from analyzing and duplicating your secret key, NetShade changes it
+with every new network session, and uses <A href="http://www.rsa.com/">RSA's
+public
+key
+cryptosystem</A> to share the new key securely with the receiving
+party.
+<P>
+If you need more speed or more security at any time, NetShade can change
+the way it
+encrypts your network data.  The military-strength
+<A
+href="http://www.rsa.com/rsalabs/faq/faq_des.html">DES</A>
+and Triple DES algorithm upgrades are available for maximum data
+protection, while the proprietary NightShade(TM) Algorithm scrambles data
+so fast that
+you won't even notice it running.
+<P>
+NetShade's ability to encrypt all your AppleTalk data automatically and invisibly
+makes it unique among software security products.  Your network users will
+never have to
+decide which data is sensitive enough to merit protection; in fact, they
+won't even need
+to change the way they use their network applications at all.  Best of all,
+you won't ever need to upgrade
+NetShade to support a new network application; groupware, multimedia tools
+and any other application
+that uses AppleTalk will be secured automatically and invisibly.
+<P>
+NetShade v1.1 -- just turn it on and leave it on, and rest assured that your
+entire network will remain
+safe and private.
+<P>
+
+<HR WIDTH=90% SIZE=4>
+<H2><A name="different">How is NetShade different from other network
+security products?</A>
+</H2><H3><CENTER>NetShade is Flexible.</CENTER>
+</H3><P>NetShade protects all types of network traffic--regardless of source,
+purpose or
+destination--from being intercepted and analyzed by hackers or
+industrial spies. &nbsp;Security is not limited to a single application.
+<P>
+<CENTER></CENTER>
+<H3><CENTER>NetShade is Easy to Use.</CENTER>
+</H3><P>Because NetShade is so easy to install, configure and operate, you
+won't need to train your personnel in how to use it.  And because
+NetShade is so affordable, you can use it to secure every machine across
+your enterprise, rather than buying expensive protection for a few
+"mission critical" network users and leaving everyone else vulnerable
+to network attacks.
+<P>
+<CENTER></CENTER>
+<H3><CENTER>NetShade is Invisible.</CENTER>
+</H3><P>NetShade is designed to be as inconspicuous as possible.  Once you
+have
+loaded and configured NetShade, you won't ever have to think about it
+again; all of your network traffic will be encoded automatically and
+invisibly, preventing anyone other than the intended recipients from
+reading it.  And since NetShade won't slow your network's speed
+noticeably, it's easy to forget that NetShade was even installed on
+your computer.
+<CENTER></CENTER>
+<H3><CENTER>NetShade Secures Everything.</CENTER>
+</H3><P>NetShade is the only network security solution designed to protect
+<B>everything</B> you send over your network without affecting the way
+you work.  Now, network security can be the rule for your organization,
+rather than the exception.
+<P>
+
+<HR WIDTH=90% SIZE=4>
+<A name="works"></A>
+<H2><A name="works">How does NetShade work?</A>
+</H2><P>Atemi has developed two papers to answer this question:
+<UL><LI><A HREF="basic.html">Basic NetShade Operation.</A>
+This paper offers a high-level explanation of how NetShade protects network
+traffic from eavesdroppers.  This is a non-technical look at NetShade's
+operation.
+<P>
+<LI><A href="http://www.atemicorp.com/advanced.html">Advanced NetShade
+Operation.</A> This paper covers NetShade's functionality from a technical
+perspective.  Topics here include RSA keypair exchange, insecure session
+handling, multi-algorithm operation, NetShade and non-encrypting devices,
+and
+NetShade configuration on a LAN, on a WAN, and over Apple Remote Access.
+</UL><P>
+<HR WIDTH=90% SIZE=4>
+<H2><A name="screen">What does NetShade's interface look like?</A>
+</H2><P>To see a screen shot from NetShade v1.1, click
+<A
+href="screenshot.html">here</A>.
+<P>
+<HR WIDTH=90% SIZE=4>
+<H2><A name="specs">What platforms does NetShade support?</A>
+</H2><DL><DT><B>Platforms supported:</B>
+<DD>MacOS (Accelerated for PowerMac)
+<DT>
+<DT><B>Protocols supported:</B><BR>
+<DD>AppleTalk, including Apple Remote Access (ARA)
+<DT><B>System requirements:</B><BR>
+<DD>Macintosh SE/30 or larger with at least 2 MB of RAM
+<DD>Apple System 7.0 or later
+<DD>AppleTalk version 57 or later
+</DL><P><HR WIDTH=90% SIZE=4>
+<H2><A name="future">When will NetShade be available for other
+platforms and network protocols?</A>
+</H2><P>See the information on <A href="ns2.html">NetShade v2.0</A> for the
+answer to this question.
+<P>
+
+<HR WIDTH=90% SIZE=4>
+<H2><A name="algs">What encryption algorithms does NetShade
+support?</A>
+</H2><P>At the present time, NetShade supports three main algorithms:
+<A href="http://www.rsa.com/rsalabs/faq/faq_des.html">DES</A>,
+Triple DES, and the NightShade Algorithm.  DES and Triple DES provide
+the strongest security, while NightShade is designed to maximize
+network throughput.  The RSA public key cryptosystem is used to share
+the secret keys for these algorithms securely.
+<P>
+Atemi is willing to develop NetShade modules for any encryption
+algorithm requested by our customers.  We are currently considering
+developing modules for RC5, IDEA and Blowfish; if you are interested in
+using these ciphers (or any others) with NetShade, please call us
+directly.
+<P>
+<P>
+<CENTER><HR WIDTH=65%></CENTER>
+<CENTER></CENTER>
+</P><CENTER><TABLE BORDER CELLPADDING="2"><TR><TD><CENTER><A 
+HREF="overview.html">Home</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="free_stuff.html">Free Stuff</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="sales_info.html">Sales</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="product_info.html">Product Info</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="links.html">Links</A>
+</CENTER>
+</TD></TR></TABLE></CENTER><P><HR>
+</BODY></HTML>
+</DOC>

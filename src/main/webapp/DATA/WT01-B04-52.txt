@@ -1,0 +1,98 @@
+
+<DOC>
+<DOCNO>WT01-B04-52</DOCNO>
+<DOCOLDNO>IA080-000557-B035-86</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Sampacq.html 137.79.14.197 19970103071514 text/html 18013
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f330.332@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:20:16 GMT
+Last-Modified: Tuesday, 28-Nov-95 00:43:51 GMT
+Content-type: text/html
+Content-length: 17767
+</DOCHDR>
+<TITLE>Sample Acquisition</title>
+<H3>Sample Acquisition</h3><p>
+<H5>Point of Contact:  Paul S. Schenker</h5><p>
+<img src="MLRS.GIF"><p>
+Sample acquisition is a significant part of any surface exploration project, whether it be in situ or sample return (ref. 25, 26). Ref. 1 discusses sampling requirements for a MSR. These requirements are summarized in Table 2.<p>
+<p>
+<img src="Table2.GIF"><p>
+<p>
+Even for a low cost sample return, careful sample selection will be necessary, and rocks are highly desirable, although constraints may be such that only loose soil and pebbles may be collected. In Ref. 1, size and power limitations were thought to preclude sawing or coring, and it was hoped that the need for unweathered rock would be answered by collecting pebbles and utilizing material from their interiors. However, the ability to chip or core during the sample collection process itself might still prove feasible, and could be of great scientific value. Furthermore, a mission concerned with water detection would probably concentrate on acquisition of sub-soil samples by drilling.<p>
+
+It is possible that in order to reduce costs, future MSR planners may accept smaller samples, but the values given in Table 1 seem to represent a consensus of opinion of the minimum desired sample size. Note that Ref. 13 assumes a 5 kg sample on the grounds that the MESUR-based sample return study (conducted by Lockheed-Martin and JPL in 1993) determined that for any given sample, 100 grams of material is sufficient to correctly characterize the sample type. However, they recommend 5 kg as a reasonable starting point for the total sample set in order to carry out needed analyses on a range of samples.<p> 
+
+In Ref. 1, it was conjectured that a scoop mounted on a one degree-of-freedom (DOF) arm at the front of a mini-rover should be sufficient to obtain samples of both pebbles and regolith. Samples would be stored in a carousel assembly in the Lander, consisting of three carousels stacked vertically. Prior to taking a sample, a can is placed on the rover by a mechanism on the lander. Sampling takes place on the rover, the forward motion of which scoops material into the can. Cans are retrieved and sealed by the Lander.<p>
+
+It is difficult to know how appropriate this scenario from Ref. 1 will be for use in a future MSR mission. Questions remain as to how much intervention and selection will be made by operators from Earth, and whether we will be able to afford a rover. All samples might be taken directly by a Lander, using various Lander-based robotic mechanisms and controls to selectively sample both the near surface area and sub-surface strata of the landing site. Thus, the Lander-based phase of the scenario, e.g. sample acquisition and transfer to the Lander, sample preparation, in situ analysis and packaging (for a potential sample return) all need further elucidation, and are a central focus of this program.  Because these capabilities are important whether or not a rover operates in conjunction with the Lander, we give them priority in our program planning, both as to earlier development and relative technology  emphasis.<p>
+
+Sampling requirements for the 1998 and 2001 Lander missions are also somewhat unclear. Thirty-six of the 64 potential Mars surface instruments would require horizontal deployment on the surface, with roughly 2/3 of these requiring deployment distances of ² 1 m, and about 1/3 requiring deployment distances of 1 to 10 m. Two instruments need deployment distances greater than 10 m (Ref. 15). Some instruments require vertical deployment with a mast or balloon. Thirty-nine instruments require bringing a sample back to the instrument. Of these, 17 required soil, 11 rock, 7 unweathered rock, 2 duricrust and 2 required ice. Surface manipulators to acquire these samples were suggested as scoops, soil cores, trenchers, chippers, augers and drills. It seems highly desirable to develop a limited sampling capability which might be applicable to the 1998 mission (as a prelude to more capable sampling systems on future missions), which emphasizes mass and power reduction, and allows for maximal flexibility for sample selection.<p>
+
+Based on this mission perspective, the starting assumptions for Sample Acquisition/Evaluation Testbed (SA/ET) technology work of the program are:<p>
+<OL>
+<LI>Initial sampling capability development within this program will be Lander based; rover based sampling is being developed in a complementary Rover Technology Program also supportive of the Mars Exploration Program. 
+<LI>The Lander will have a capability to examine its surroundings, either by remote near-field observation, or by applying a probe on a sampling arm to nearby soil and rocks.).
+<LI>Operators on Earth may make limited selections of areas for taking samples, by visually designating areas/objects of science interest about the Lander.
+<LI>Mechanisms deployed by the Lander will take samples, by limited degree-of-freedom manipulation of a robot arm in the near field, or possibly by coring below the lander site. Use of a robotic arm will initially emphasize grasping and scooping, and evolve to probing and actively controlled sample extraction (e.g., core-drill, chip, scrape).
+<LI>The sampling system for an in situ project will be similar to that for a sample return project, the difference being that in the former case, samples are analyzed with instruments on the Lander, while in the latter case, samples are processed and loaded into cans in a carousel and transferred to a sample return capsule.
+<LI>It is desirable to have an evolutionary program which can contribute increasingly more capable sampling technology to a succession of landers, leading eventually to a sample return mission.
+</ol>
+Specifically, this program will develop capabilities in the following sampling technology areas:<p>
+<UL>
+<LI>visual user interfaces and work site calibration for the operators sample selection
+<LI>efficient control of robotic motions during sampling (free-space, guarded, and contact) including power and energy conservation/management
+<LI>sensor processing/perception for robot guidance, sample acquisition and analysis
+<LI>robot control behavior for robust autonomy in response to real-time sensor data
+<LI>control architecture integrating sensor and knowledge-driven sampling activities
+</ul>
+These advances will be coordinated with a parallel RTOP task entitled Lander Manipulators under the Telerobotics Program, which will design, fabricate, and test the mechanical structures (joints, actuators, links, end-effectors, etc.) needed to be controlled by the systems developed in this RTOP. The combined effort will lead to demonstration of Lander-based sample acquisition/evaluation approaches which include:<p>
+<UL>
+<LI>autonomous acquisition of samples from random locations about the Lander
+<LI>operator-designated acquisition of samples from areas and objects of interest
+<LI>coring of samples from selective strata beneath the Lander site
+<LI>transfer of robotically acquired samples to Lander for sample analysis or return
+<LI>automated sample preparation and in situ analysis within the module
+<LI>coordination of the previous activities with rover sample acquisition
+</ul>
+The goal of this task is strategically coordinated advances in robotic mechanization, controls, and perception to enable Mars surface/sub-surface sampling in the near field of a miniature lander. This work will be carried out in mutually beneficial cooperation with manipulator technology developments of the NASA Code X Telerobotics Program. Specifically, the Mars Exploration Technology Program will emphasize perception and control functions for robust lander-based sampling operations and intelligent in situ sample analysis, while the Telerobotics Program will innovate sample acquisition devices consistent with the mass, power, volume, and cost constraints of Mars Surveyor-class science packages.<p>
+
+The focus of the task is on mid-term Mars Surveyor science goals--the Mars 2001 Lander is representative, with evolution to Mars Sample Return a longer range task technology objective. R&D partnerships with the science community, NASA and outside, will be important to foster coherent sampling concepts, flight robotics technology insertion, and coupling to NASA strategic goals of cost-effective small-scale technologies. This task will therefore include strategic outside partnerships for in situ robotic science, for example coordinated robotic sample acquisition and spectroscopic sample analysis, with increasing miniaturization, autonomy, and data efficiency.<p>
+
+There is an immediate opportunity to influence and perhaps contribute to Mars 1998 Lander science capabilities. Specifically, this task is making an accelerated effort in FY95 to define a relevant robotic sample acquisition subsystem for 1998 flight science integration. Progress in this work will be demonstrated through mid-FY95 laboratory technology concept demonstrations, broad communication of these capabilities to the Mars Science Working Group, and potential teaming relationships with interested science investigators for proposals into the $20M Mars 1998 Science AO package (this last effort to be conducted under separate funding). Consistent with primary funding goals of this task, the subject work will evolve to FY95-end new technology results in such areas as power-optimal sampling control strategies and volume-and-mass efficient deployable manipulator designs.<p>
+
+The planned task developments in terms of yearly Level 1 Milestones are:<p>
+
+<H4>FY95 Milestones</h4><p>
+<UL>
+<LI>Develop and demonstrate proof-of-concept for lander-based robotic sampling. Specifically, demonstrate capability for a robotic arm to reach out from a simulated lander platform to known near-field locations, scan and acquire samples of interest, and deposit a sample to a pre-specified lander location. The subject manipulator and controls development will provide a laboratory concept 3-d.o.f. serial arm of 2 meter (deployed) length--extensible to a replica flight implementation at 3.5 kg mass, 1.5 kg full extent payload, and 15x15x40 cubic-cm stowed volume.  As a derived product of this work, JPL proposed a robotic arm payload for the Mars 1998 Science AO (D. Paige, PI, UCLA/Mars Volatiles and Climate Surveyor) and was selected.
+<LI>In the context of lander-based sampling, demonstrate flight-relevant innovations in control of the manipulator trajectories and sensor-referenced automated behaviors, with respective operations goals of minimizing power utilization for a given sampling objective and autonomously verifying task status & sampling system health during same.
+</ul>
+<H4>FY 96 Milestones</h4><p>
+<UL>
+<LI>In FY'95, the 3-d.o.f. Mars robotic arm prototype was operated under open loop control -- moving in free space, into abrupt contact, and through simulated soil/rocks based on programmed position controls only.  During FY'96, we will develop capabilities for sensor-based dexterous manipulation in closed-loop position and force.  This will enable such important science functions as commanding of the arm to an exact, operator designated location in the near field, a precision proximity camera scan of a sample surface, force-controlled emplacement of instruments and probes, and closed-loop position/force behaviors for trenching, sample grasp, and manipulation (e.g., flipping a rock over).  We will comparatively benchmark these new control-and-perception paradigms against FY'95 capabilities, using planned Mars Surveyor '98 lander task activities as reference studies.
+<LI>Demonstrate capability of the lander-based sampling manipulator to autonomously place a simulated science sensor adjacent to an operator-selected location/object in the near field, thereby enabling a scan of immediate surroundings for information of geologic interest.
+<LI>Develop, with science partners, lander-based Mars geological sample processing, utilizing an onboard instrument in-situ preparation-and-analysis of a simulated surface sample, e.g. material characterization by imaging spectroscopy.
+<LI>Develop perceptual and algorithmic concepts for the lander-based intelligent automation of sample analysis, motivated by goals of down-link data compression and on-board science sample prioritization (extracting primary syntactic and semantic features of the sample data and ranking/classifying these relative to a particular training set or science-user defined attributes). Demonstrate this basic approach for discrimination and identification of basic Mars surface substrate materials by their characteristic visible and near-IR imaging spectra features.
+</ul>
+<H4>FY 97 Milestones</h4><p> 
+<UL>
+<LI>Develop an appropriate mechanization and sensor-referenced controls to enable sub-surface lander-based sampling up to depths of 1 meter in simulated Mars environments. Demonstrate retrieval of this sub-surface strata to a lander-based analysis, autonomously carrying out the sample acquisition, preparation, preliminary on-board analysis, and packaging (for hypothesized Mars sample return).
+<LI>Develop and demonstrate an opportunistic science capability wherein a sensor of practical interest, used in coordination with thematic data obtained by a lander-mounted camera(s)/instrumentation, and carried by a lander-based robotic mechanism, scans the lander near-field proximity for objects of geologic interest, cataloguing its results (A science user will designate lander areas/objects of broad interest, and scanning will proceed semi-autonomously).
+<LI>Develop and demonstrate sci-boom: a laboratory proof of concept for lander-based robotic science under extreme mass/volume/power/ cost constraints. This device concept is a telescopically-deployed (and prismatically-driven) mechanism that will carry integral end-of-arm microscopic viewing and point image spectroscopy sensors, and allow return of small quantity soil samples from at least a  hemisphere of the lander near field (flight targets: 3 meter reach, 1 kg mass, 3 watts power utilization, 10 cubic-cm sample volume, and 1M$).
+<LI>Demonstrate and benchmark experiments for lander-based robotic science with on-board intelligent data analysis and compression. In this work, the goal is to evaluate science value and engineering efficiency of down-linking full, versus featurally-compressed sample data for a science instrument of major interest. Several different algorithmic approaches will be illustrated (drawn from statistical/fuzzy/heuristic decision criteria). The comparative accuracy and confidence of science sample analysis will be assessed, contrasting science users ability to achieve their goals using full versus compressed data sets. These experiments will be carried out as actual laboratory-simulated operations of a Mars science scenario, utilizing a lander-based robotic arm to retrieve user-designated blind samples from the near field. One candidate instrument is an on-board imaging spectrometer, and others will be utilized as science interest provides and motivates.
+</ul>
+<H4>FY 98 Milestones</h4><p> 
+<UL>
+<LI>Demonstrate generalized sampling operations wherein lander-based robotic mechanization (utilizing various and possibly exchangeable end-effector tooling/sensors), science instrumentation, and hierarchically structured on-board controls enable autonomous near-field scanning, multi-mode sample acquisition (viz., scrape, chip, drill), and in situ characterization/discrimination as to relative science value.
+<LI>Based on this generalized sampling subsystem, show an automation capability to intelligently coordinate, prioritize and sequence a further set of opportunistic behaviors for high-yield, diversified in situ science. For example, if the initial scan of a nearby object is perceived interesting, then appropriately codified actions will be taken by the lander subsystem as might a field geologist performing analogous knowledge-based rudimentary analysis.
+<LI>Supporting these advanced control capabilities, develop advanced machine perception functions to provide required robustness. Specifically: 1) computationally efficient means of visually localizing and servo in manipulator end-point trajectories to objects of interest; 2) visual and proximity sensing sufficient to verify in real-time sequence the action/success relative to a sampling objective (confirmed: the-designated-rock-is-grasped); 3) machine learning whereby a science user can interactively teach a set of basic sample acquisition primitives/behaviors for later semi-autonomous on-board execution
+</ul>
+<H4>FY 99 Milestones</h4><p> 
+<UL>
+<LI>Demonstrate a lander-based robotic sample acquisition subsystem operating in flexible autonomy with a nearby micro-rover. The basic scenario will be an initial visual mapping of the lander surround for science values of general interest (including any areas of explicitly designated by a science user), followed independent robot and rover collection/analysis of representative samples in the near and far field. Based on this initial determination of area science values, lander-based sampling (and on-board analysis) and micro-rover will coordinate their further control and perception for strategic area sample acquisition, processing, characterization, and packaging. Such scenarios may include deployment and collection of data from science instruments, sample hand-off from rover to robot, robot end-of-arm scans of rover-delivered specimens, etc. The general goal is to have this scenario proceed under high-level automation with temporal efficiency, achieving field geologist-like flexibility of sample collection and assessment.<p>
+</ul>
+<A HREF="Mars.html">Return to menu</a><p>
+</DOC>

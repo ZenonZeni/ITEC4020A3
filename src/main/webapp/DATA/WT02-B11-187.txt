@@ -1,0 +1,137 @@
+
+<DOC>
+<DOCNO>WT02-B11-187</DOCNO>
+<DOCOLDNO>IA087-000625-B036-298</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0075.html 130.91.195.242 19970122043827 text/html 7014
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:38:29 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 6843
+Last-modified: Tue, 03 Oct 1995 05:18:28 GMT
+</DOCHDR>
+<!-- received="Mon Oct  2 20:01:15 1995 EDT" -->
+<!-- sent="Mon, 2 Oct 1995 20:00:29 -0400" -->
+<!-- name="David Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="Crypto APIs" -->
+<!-- id="v0211011cac962d6ea635@[130.91.88.102]" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: Crypto APIs</title>
+<h1>Crypto APIs</h1>
+David Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Mon, 2 Oct 1995 20:00:29 -0400</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#75">[ date ]</a><a href="thread.html#75">[ thread ]</a><a href="subject.html#75">[ subject ]</a><a href="author.html#75">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0076.html">Ricky Liswan: "Re: welcome to cis899"</a>
+<li> <b>Previous message:</b> <a href="0074.html">tucker@meadow.mdso.vf.ge.com: "public key"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+Posted-Date: Mon, 02 Oct 1995 16:29:26 -0400<br>
+To: cypherpunks@toad.com<br>
+Subject: Crypto APIs<br>
+Date: Mon, 02 Oct 1995 16:29:26 -0400<br>
+From: Matt Blaze &lt;mab@crypto.com&gt;<br>
+Sender: owner-cypherpunks@toad.com<br>
+Precedence: bulk<br>
+<p>
+A couple of weeks ago I attended a meeting at the NATO SHAPE Technical<br>
+Center in the Hague to discuss international cryptographic APIs.  Several<br>
+high-ranking NSA types were there, as well as their counterparts from<br>
+various NATO countries plus a handful of industry crypto people (like<br>
+me).  The idea of the meeting was to find a way to separate<br>
+cryptographic function from cryptographic interfaces, in a way that<br>
+allows the applications that call the cryptographic functions to be<br>
+more freely exported.  That is, I can write and export an application<br>
+that calls the crypto API but that doesn't actually implement the<br>
+cryptography, and then, when it reaches its destination, the<br>
+locally-preferred cryptosystem can be plugged right in.  Crypto might<br>
+be implemented in hardware (e.g., Fortezza) or software (e.g., with a<br>
+shared library or pseudo-device driver).<br>
+<p>
+Obviously, this idea is somewhat (completely?) at odds with the<br>
+criteria presented at last month's NIST workshops for exportable<br>
+software key escrow systems.  One of the requirements given for such<br>
+systems is that it be difficult to replace the crypto with something<br>
+that doesn't implement key escrow.  But who ever said the government<br>
+was consistent?  Interestingly, it was clear that many people in NSA<br>
+believe that applications that call an API are controlled under ITAR,<br>
+but there is some recognition that this may be wishful thinking or may<br>
+change soon.  So while some (maybe most) of NSA wants to prevent<br>
+development of standard APIs and prevent the export of applications<br>
+that use them, others recognize that these will evolve by themselves<br>
+anyway and will be very hard to control once they do.  Anyway, the<br>
+situation is far from clear.  It seems best to encourage the realistic<br>
+side of NSA as much as possible...<br>
+<p>
+I learned a few interesting things at the meeting.  First of all,<br>
+overwhelmingly, there is recognition, especially on the part of the<br>
+non-US government security agencies, that there is enormous value in<br>
+being able to buy off-the-shelf applications like Microsoft Word or<br>
+Netscape Navigator and just plugging in the local military cryptosystem<br>
+and using it for classified traffic.  Everyone seemed to agree that<br>
+there is a growing need for this and that it's too expensive to rely<br>
+on custom software.  There is also movement away from the traditional<br>
+military ``link encryption'' approach that involves centrally-<br>
+controlled secure networks in favor of a ``risk management'' approach<br>
+that favors end-to-end security with off-the-shelf products.  In other<br>
+words, the parts of the military that are concerned with actually<br>
+securing communications want exactly what we want, and are just<br>
+starting to realize it.  While lots of us have always known this, I<br>
+had never heard it articulated as quite clearly (or as loudly) by<br>
+actual comsec/infosec people before.<br>
+<p>
+Second, the senior NSA guy mentioned a few things I hadn't heard<br>
+before.  Fortezza is now approved for classified traffic through the<br>
+SECRET level.  Also, the ``type 1'' (classified) through ``type 4''<br>
+(unevaluated) cryptography standard is being scrapped in favor of a<br>
+three ``tier'' system, as follows (these are approximate quotes, from<br>
+my rough notes):<br>
+<p>
+Tier 1 traffic is stuff related to ``national command authority''.<br>
+(Seems to be secret and top secret and up).  It will require NSA<br>
+cryptosystems, hardware implementation, and will NOT employ key escrow<br>
+(because of the ``obvious risks''!).<br>
+<p>
+Tier 2 traffic is information that, if disclosed, would have<br>
+``national implications'' if revealed.  Examples given include things<br>
+like the national power grid, the banking system, etc.  It was<br>
+unclear whether any classified traffic would be included in tier 2.<br>
+Clearly, some of what is now called ``sensitive but unclassified''<br>
+(SBU) will be in tier 2.  Anyway, tier 2 systems will be approved by<br>
+NIST (not NSA, although there will obviously be NSA input into the<br>
+standards) and will require hardware implementation.  Tier 2 traffic<br>
+will be escrowed, and the government will escrow its own keys.<br>
+Fortezza is an example tier 2 device (but read on...)<br>
+<p>
+Tier 3 traffic will be that which would have ``private implications''<br>
+if disclosed.  Examples given included personal financial and medical<br>
+records, etc.  Current SBU traffic not in tier 2.  Tier 3 would also<br>
+be handled by NIST, employ commercial or government key escrow (like<br>
+tier 2) and would be permitted to be implemented in software.<br>
+<p>
+Here's the surprise: Tiers 2 and 3 will be interoperable.  So there<br>
+will be published algorithms for tier 3.  It is possible that tiers 2<br>
+and 3 will have the same algorithms, and that the government will<br>
+suggest them.  It was unclear with interoperability will require that<br>
+all tier 2 algorithms will be published and implementable in tier 3<br>
+software or whether this means that tier 2 devices will also have to<br>
+implement the tier 3 algorithms.  There is an obvious choice of a tier<br>
+2/3 algorithm: Skipjack (although there were concerns that this is<br>
+``too slow'').  So we may eventually find out whether ``S1'' was<br>
+really Skipjack after all....<br>
+<p>
+-matt<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0076.html">Ricky Liswan: "Re: welcome to cis899"</a>
+<li> <b>Previous message:</b> <a href="0074.html">tucker@meadow.mdso.vf.ge.com: "public key"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

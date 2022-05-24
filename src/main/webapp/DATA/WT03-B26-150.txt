@@ -1,0 +1,105 @@
+
+<DOC>
+<DOCNO>WT03-B26-150</DOCNO>
+<DOCOLDNO>IA059-000318-B041-166</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/avout3.htm 138.44.40.1 19970114182341 text/html 5318
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 18:22:04 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:03 GMT
+Content-length: 5144
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H1><CENTER>Land AVHRR Workshop<BR>
+<HR></CENTER>
+</H1>
+<BR>
+<B>3. OUTCOMES AND DISCUSSIONS FROM THE LAND AVHRR WORKSHOP</B><BR>
+<BR>
+Data receiving stations should process data so that the base and standard
+products are both correct and repeatable within and between stations. That
+is, for the same region observed by two stations during a single overpass
+both the base and standard product digital counts must be the same. 
+<UL>
+<LI>1. Accurate and quantifiable measures of correctness should be defined
+jointly and then adhered to. 
+<LI>2. Geometric accuracy was suggested to be at RMS of 1pixel. This quality
+specification can be determined by a number of GCP's being selected in each
+image to ensure that the geometric accuracy is being meet. 
+<LI>3. Absolute radiometric correction was suggested to be specifiable to
+5%. The main issue for such a specification is how to provide the supporting
+measures. Options include a combination of ground based or remotely sensed
+data collected from other satellite systems to enable radiometric quality
+to be documented for both base and standard products. 
+<LI>4. Additional data quality levels to the receiving stations standards
+should be produced and monitored by appropriate groups. 
+</UL>
+There needs to be understanding of the complexities involved by all members
+of the AVHRR community. For example, all members would like a correct, accurate
+and fast cloud detection and cloud contamination algorithm in place in all
+receiving stations. Some initial research has been undertaken on this topic.
+However, due to computational demands few if any algorithms have been operationally
+implemented. There still exists the opportunity that research will be of
+benefit due to a combination of algorithm development and faster processing
+computers. We would all like the AVHRR data to be physically correct and
+obtainable in a timely fashion to predefined standards. To do this, we must
+define the problems and offer solutions to them. There is an important opportunity
+and obligation for CSIRO to engage some basic research. Solutions should
+be scientifically correct and also operationally implementable. This has
+obvious advantages to all members of the AVHRR community.<BR>
+<BR>
+Several issues were raised about how to ensure that present data archives
+are made consistent and correct. Such archives will form a baseline for
+future environmental monitoring projects and the need to ensure correctness
+and consistency is paramount. It was decided that rather then reprocess
+all images based on the notion that someone may want to use such data in
+the future, what is required is the knowledge, and specifications to be
+clearly, completely and correctly documented to allow reprocessing of special
+data archives. Is all this information known and documented?<BR>
+<BR>
+It is thought that CSIRO Marine Labs, CSIRO DAR, AIMS, WASTAC and the BofMet
+need to get their systems all consistent and meeting the same common set
+of standards. Operational running of receiving stations and base data archiving
+also needs to be eventually transferred from CSIRO to BofMet. There is currently
+an agreement being discussed between the two organisations and greater discussions
+need to be undertaken not only between these two but also include ACRES
+and the AIMS/Townsville facility. <BR>
+<BR>
+Data standards need to address the needs of the user community. Most important
+is the operational data user community, those agencies who are currently
+using AVHRR data to make management decisions. Any changes to data formats,
+standards etc need to be documented and feedback from the user community
+obtained before they take place. This needs to be rigorously planned and
+implemented on predetermined known dates and not undertaken in an ad hoc
+way.<BR>
+<BR>
+There were also concerns about data availability expressed by some members
+of the user community. Management systems have been developed in which AVHRR
+data are the central element and continuity, both of geometrically and radiometrically
+correct data must be ensured to the level of control that the data acquisition,
+base and standard product community have. Also, issues of CSIRO data gatherers
+providing data to research applications internal to CSIRO must be addressed.
+This is an issue for CSIRO to address possibly under the banner of the recently
+formed EOC.<BR>
+<BR>
+People must be willing to accept that some changes in the Australian AVHRR
+reception and subsequent processing pathways will occur. The changes will
+allow for a better consistent national set of standards to be met. All members
+of the remote sensing community that receive, process and use AVHRR data
+must be taken into account before any changes are made.<BR>
+<HR><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="avout2.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="avout4.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<HR>
+</BODY>
+</HTML>
+</DOC>

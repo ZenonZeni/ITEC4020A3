@@ -1,0 +1,883 @@
+
+<DOC>
+<DOCNO>WT03-B24-130</DOCNO>
+<DOCOLDNO>IA053-000895-B046-288</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/pdf.nist2.html 129.174.40.15 19970123200037 text/html 37067
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:59:25 GMT
+Server: NCSA/1.5.2
+Last-modified: Tue, 02 Jan 1996 19:19:27 GMT
+Content-type: text/html
+Content-length: 36883
+</DOCHDR>
+<HTML>
+<head>
+<TITLE>Report on the December 5 Clipper II meeting </TITLE>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+Under construction...
+<H1> Clipper II, meeting December 5 1995 </H1>
+<p>
+<h2>Table of contents</h2>
+<ul>
+<li><a href=#Summary>Summary</a>
+<li>Comments on <a href=#ProductCriteria>product criteria</a>
+<li>Comments on <a href=#Interoperability>interoperability concerns</a>
+<li>comments on <a href=#AgentCriteria>key escrow agent entity criteria</a>
+<li>Comments on <a href=#Presentations>presentations</a>
+<li><a href=#Closing>Government Closing remarks and misc.  comments</a>
+<li><a href=#WhoWho>Who's Who</a>
+<li><a href=#MyOpinion>My Personal Opinions</a>
+<li><a href=#Epilog>Copyrights and other similar stuff</a>
+</ul>
+<a name="Summary">
+<hr>
+<h2>Summary</h2>
+One of the most significant things was obvious in
+the parking lot.  Unlike September's meeting, this time it was empty.
+Inside the hall, it was obvious that no one came. It was packed in
+September, and now, entire rows were empty. I'm bad at guessing numbers,
+but its easy  to guess that only 1/3 as many people showed. Maybe less.
+<p>
+The meeting was hosted by <a href=#Roback>Ed Roback </a>
+of NIST, who quickly introduced
+<a href=#Nelson>Mike Nelson</a> of the White House. 
+Mike is clearly a political guy.
+His handout says: "We believe that our proposal for exportable 64-bit key
+escrow encryption meets these goals [the goals of VP Gore's letter to Rep
+Cantwell, July 20, 1994]." He said that the criteria describe a solution,
+but not the only solution.  He said it does not preclude other
+implementations in the future. He anticipates that the State Department
+will issue guidance based upon these criteria in "early 1996," and that
+between now and then, any product that meets the criteria will be elegible
+for expidited approval. Of course, the existing (slow as molasass) process
+will continue.
+
+<p>
+I asked the first questions from the floor. The two questions were:
+(1) Is this meeting concerned solely with export
+of software, or does it deal with controling domestic use of strong
+cryptography? and (2) since the 64-bit limit was severly criticized at
+the Sept meeting, why is it still needed if there is also escrow?
+
+<p>
+His answer was that there is "no intention to control domestic encryption"
+and on the 64-bit issue, that the government is "not certain it will
+work." he says they "want to see it implemented and want to see
+how it works" because 64-bit encryption is very strong. If the escrow
+doesn't work, they don't want a lot of softare to be in widespread use.
+<p>
+He said that they have studied the encryption that is supposed to be widely
+available on the Internet. He said that viewed by crypto experts, not
+much is very good. He mentioned "two incidents" where Netscape had
+weak implimentations. He feels that companies will not trust software
+over the 'net. that they "want the US Government to say that 'this is
+good enough'."
+<p>
+[I don't know what two incidents that he spoke of. There were four separate
+noteworthy postings about Netscape, two were breaking RC4-40, Ian Goldberg
+showed that the random seed was ineptly implemented, and Ray Cromwell
+showed a trivial buffer overflow bug that could lead to serious 
+security problems.]
+<p>
+Clint Brooks, of NSA, then went over the revised criteria. He claimed that
+they were surprized at the industry concern over "one product" for
+worldwide markets. There were lots of questions. He eventually admitted
+that because of the "one product" concern, export regulations will effect
+domestic products. [all the more reason for Netscape to keep building ten
+or whatever it is.]
+<p>
+Brooks admitted that it is impossible to prevent multiple encryption.
+Cypherpunks would do that by using PGP and then sending it using GAK.
+He said "as a person, you can set up a secure communication method, and
+nothing can be done about it." His concern is not that smart people can
+have stronger crypto, but that strong crypto will be easy and widely used.
+<p>
+He said that the 64-bit key limit is not meant to restrict RSA keys to
+64-bits, but rather to restrict the session keys that are encrypted using
+RSA. Unspoken was the assumption that the 2000 bit RSA secret key would
+have to be escrowed.
+<p>
+There were some interesting (and bad IMHO) implications of interoperability.
+I'll cover them more in the long version. Basically, they admitted that
+the interoperability restrictions made it stupid to have an export
+version, you should have a strong domestic version, and an international
+version developed offshore for sale to the rest of the world.
+<p>
+They admitted that there can be no controls over export of data, so once
+interoperating software is available both domestically and from offshore
+sources, there is no value in the export controlled, crippled version.
+<p>
+My favorite policeman, <a href=#GeoffG>Geoff Greiveldinger,</a> 
+then described the
+characteristics of an acceptable key escrow agent. There was a long list
+of criteria, all unseen before the meeting. The general reaction
+of the audience was that these were "yet another set of criteria that
+must be met." Geoff claimed that they were simply trying to address
+the questions raised at the earlier meeting about who is an
+acceptable escrow agent. One point that caused a lot of concern
+was that at least one employee of the escrow agent has to have a SECRET
+clearence.
+<p>
+Industry, with a few exceptions, soundly said that this is a dumb idea,
+that there is no market, that the criteria are too hard, etc. Except
+Padgett Petersen, representing Lockheed-Martin. He said that LM thought
+that the criteria were just peachy. The  usual civil liberties folks
+also soundly trashed it.
+<p>
+There was a representative from Netscape. He said that they, as a company
+think this is a terrible idea. They oppose it now, and will be issuing
+a company policy soon. I didn't catch his name, and couldn't find him
+to get the obviously carefully prepared text. 
+<p>
+One of what I thought were the most important admissions was made 
+by Geoff G. in response to a question phrased about corporations
+"holding their own keys." He was forced to admit that we
+do "have a right to hold your own keys."
+<a name="ProductCriteria">
+<hr>
+<h2>Product Criteria</h2>
+This covers the product criteria, except interoperability.
+<p>
+There is a fair amount of information on the NIST web server. Use url:
+<a href="http://csrc.ncsl.nist.gov/keyescrow/">
+http://csrc.ncsl.nist.gov/keyescrow/</a>
+<p>
+Nelson said that they have studied the encryption that is 
+supposed to be widely available on the Internet.
+He said that viewed by crypto experts, not much is 
+very good. He mentioned "two incidents" where
+Netscape had weak implementations. He feels that companies 
+will not trust software over the 'net. that
+they "want the US Government to say that 'this is good enough'."
+<p>
+Clint Brooks, of NSA, then went over the revised criteria. He claimed that they
+were surprised at the industry concern over "one product" for worldwide markets.
+<p>
+He stated that they were addressing "not domestic policy, per se, but we
+keep wrapping around" because of the 'one product' issue.
+<p>
+The criteria are on the NIST page,
+<a href="http://csrc.ncsl.nist.gov/keyescrow/">
+url: http://csrc.ncsl.nist.gov/keyescrow/criteria.txt</a>
+
+<p>
+They handed out a guide to the changes in the criteria between September
+and now. This is available from NIST as url:
+<a href="http://csrc.ncsl.nist.gov/keyescrow/bground.html">
+http://csrc.ncsl.nist.gov/keyescrow/bground.html</a>
+
+<p>
+Here is a portion of it:
+<ul>
+<li> Old Criterion 1.     Moved to #7;
+<li>Old Criterion 2.     Moved to #8;
+<li>Old Criterion 3.     Split into #1 and #2
+<li>Old Criterion 5.     Moved to #10
+<li>Old Criterion 6.     Moved to #9;
+<li>Old Criterion 7.     Moved to #5;
+<li>Old Criterion 8.     Moved to #6;
+<li>Old Criterion 9.     Deleted.
+<li>Old Criterion 10.    Moved to #3;
+</ul>
+<p>
+Only in Washington. Oh yeah, they also clarified a lot of the wording.
+<p>
+<h3>Ideas that I thought important enough to make notes of concerning the
+criteria:</h3>
+<p>
+These criteria do not address either hardware nor non-escrow encryption.
+Export controls of these are not changed, they can be exported with the
+current procedures.
+<p>
+Brooks said that these rules are not applicable to the protection of
+internal data for US corporations, even for overseas locations of US firms.
+He said that getting permission to export for _internal corporate use_ is
+easy, if it is to protect corporate secrets and for internal communication.
+I took this to mean that a multi-national, US-based corporatgon can get a
+permit for ViaCrypt and export it for their own use. [later in the day,
+some people mentioned that this isn't nearly as easy as Brooks claimed.]
+<p>
+He said that the intent in the new wording is flexibility. They don't want
+to prescribe implementation details, he wants industry to invent what
+sells. He specifically stated that the meetings were not about setting
+standards. This caused at least a fair amount of confusion, probably due to
+the fact that NIST used to be called National Bureau of Standards, and NBS
+set standards all the time. For example, a couple of folks were interested
+in interoperability, say between a Netscape encryption system and one made
+by, say, Microsoft. This meeting did not address this level of
+interoperability.
+<p>
+about #2, <blockquote>"The product's key escrow cryptographic functions shall be
+inoperable until the key(s) is escrowed in accordance with #3."</blockquote>
+Brooks said
+that the intent was to allow vendors to make a single product that doesn't
+activate the key-escrow function if not needed. The idea was that when the
+keys are escrowed, the encryption engine would be activated. He also said
+that "manufacturers may not want to be in the key escrow business" and
+would therefore want to ship products that could be activated by a third
+party escrow agent.
+
+<p>
+While talking about #3, 
+<blockquote>3. The product's key escrow cryptographic functions' key(s)
+shall be escrowed with escrow agent(s) certified by the U.S.
+Government, or certified by foreign governments with which
+the U.S. Government has formal agreements consistent with
+U.S. law enforcement and national security requirements.
+</blockquote>
+<p>
+He stated that this does not preclude the use of "other agents." This
+became a major issue throughout the day. Ken Mendelson, staff attorney at
+TIS, asked (roughly) "Under what authority does the US Government grant
+certification to agents?" The response was a run around. Another hot issue
+was whether you can "hold your own keys" rather than using a third party.
+Seems that the corporate users are arguing that they want to hold their own
+keys, and the government reacted to that favorably (not unfavorably?).
+[Later in the day, Geoff Greiveldinger was asked if US citizens have the
+right to hold their own keys. Geoff was forced to admit that, "yes, you can
+hold your own keys"]
+<p>
+<blockquote> "5.    The product's key escrow feature shall allow access to the
+key(s) needed to decrypt the product's ciphertext regardless
+of whether the product generated or received the ciphertext."</blockquote>
+<p>
+Contains a significant change that was not discussed in September. It means
+that having the key for either end is sufficient. Brooks conceded that this
+was a big change, but claimed it was needed. The claim that one-ended
+surveillance is easier is most likely true.  It clearly is easier if one
+end is US based and using GAK and the other is foreign where there is
+respect for civil liberties.
+<p>
+He even claimed that it made the system less intrusive: His argument was
+roughly:
+<blockquote>
+Lets say they are snooping on me.  With one-ended, they can read all of my
+messages, to and from, without needing the keys of my correspondents. (lets
+pick Geoff G. as an arbitrary correspondent) With two ended, they'd have to
+get both my key and Geoff's, and then they could read all of the messages
+Geoff gets or sends.
+</blockquote>
+<p>
+I said it was <i>their</i> argument. Seems to me to be groundless, unless they
+got the keys of everyone in the chain, all of the folks that I talk to, all
+of the folks that everyone I talk to, etc.
+<p>
+Several questioners asked if <i>any</i> will met criteria #5.
+<a href=#Smid>Miles Smid</a> described a trick for meeting Criteria #5, 
+if you encrypt the session key with your own public 
+key, in addition to the key of your destination, and 
+if you have escrowed your private key with an Escrow 
+Agent, then nearly any approach meets criteria #5.
+<p>
+<blockquote>"7.    The product's key escrow cryptographic functions shall use
+an unclassified encryption algorithm with a key length not
+to exceed sixty-four (64) bits."</blockquote>
+<p>
+This is really aimed at session keys, or at least non-RSA keys. I suggested
+that they really needed some wording that make it clear.
+<p>
+He said that the 64-bit key limit is not meant to restrict RSA keys to
+64-bits, but rather to restrict the session keys that are encrypted using
+RSA. Unspoken was the assumption that the 2000 bit RSA secret key would have to be escrowed.
+<p>
+<blockquote>"8.    The product's key escrow cryptographic functions shall not
+provide the feature of multiple encryption (e.g., triple-
+DES)."</blockquote>
+<p>
+He pointed out that the wording used to say "prevent" and now just says
+"not provide".  He acknowledged that "prevent" was impossible.
+<p>
+<blockquote>"9.    The product's key escrow cryptographic functions shall
+interoperate only with key escrow cryptographic functions in
+products that meet these criteria, and shall not
+interoperate with the cryptographic functions of a product
+whose key escrow encryption function has been altered,
+bypassed, disabled, or otherwise rendered inoperative."
+</blockquote>
+<p>
+Brooks said that this was intended to allow multiple modes, such as
+compatibility with other encryption schemes. Of course, he said, the other
+modes are subject to export restrictions.
+<p>
+Somewhere in the discussion, Ed Appel took over for Brooks. Appel is
+"Director of Counter Intelligence Programs, National Security Council, The
+White House" He was introduced as FBI.
+<p>
+Ed Appel: the LEA’s are very interested in Criteria #5 
+(two ended decryption) as they have more than 100 
+international offices.
+<p>
+There were some interesting (and bad IMHO) implications of interoperability.
+I'll cover them more in the next section
+<a name="Interoperability">
+<hr>
+<h2>Interoperability Issues</h2>
+Part 2 of three hasn't been written, it is supposed to 
+address the issues related to interoperability. I 
+decided it was better to get this part out than to 
+wait.
+
+<a name="AgentCriteria">
+<hr>
+<h2>Key Escrow Agent Entity Criteria</h2>
+<p>
+Geoff G. says that the discussions on agent criteria 
+are simply a follow-on to the main criteria #3.
+The criteria themselves have been spam'd to the list.
+They are also available at url:
+<a href="http:/www.isse.gmu.edu/~pfarrell/nist/escagent.html">
+http:/www.isse.gmu.edu/~pfarrell/nist/escagent.html</a>
+<p>
+There was a lot of reactions to the SECRET clearance
+requirement, which they claimed was to handle
+secure investigations (e.g. FISA). 
+The logic is that since some investigations are classified,
+and since you can't even see a classified document 
+unless you have a proper clearance, each Key Escrow Agent Entity,
+must have at least one properly cleared employee. This
+was not a popular requirement.
+<p>
+David Lesher asked a series of questions concerning 
+the requirement that the Key Escrow Entity employ a 
+person with a SECRET clearance. They included: what 
+agency will issue the clearance? Who will authorize 
+for the BI (background investigation)? Who will pay 
+for it? Who does the existing RBOC clearances? Geoff 
+dodged nearly all of them. He acknowledged that "they" 
+will have to pay, but made no effort to define who 
+"they" are.
+<p>
+Geoff said that they may want legislation support for 
+protecting against illegal release of keys, failure to 
+release, etc.
+<p>
+A fair number of the agent criteria would be considered
+professional business practice (no single point of
+failure, dual locations, etc.) if you thought that
+escrowing keys was a good thing.
+<p>
+<a name="Presentations>
+<hr>
+<h2> User/Industry presentations</h2>
+<h3>Bill Sweet of TIS</h3>
+Bill gave a presentation about his CKE product, and 
+how hard he is working to "find a global solution."
+<p>
+This is actually the same product that Bill talked 
+about in September when he worked for National 
+Semiconductor. It was impressive then (private keys 
+are NOT escrowed, only session keys, etc.) and is 
+still not approved for export.
+<p>
+Bill talked about "information owners," they 
+ultimately decide which security systems get deployed 
+"in spite of various government requirements around the 
+world." He said that "if rational key escrow systems 
+are not offered, or do not adequately protect their 
+information, owners will use unescrowed encryption 
+from whatever sources available (Germany, et al)."
+<p>
+Bill talked about a UK University (Royal Holloway) 
+study on UK/European needs for key escrow. He said 
+that there was a lot of overlap with the NIST 
+criteria, but that there were criteria that were 
+judged as totally unacceptable. The first and loudest 
+finding was:
+<p>
+"the use of the scheme should provide visible benefits 
+to the user."
+<p>
+This begs the obvious question, what 
+visible benefits to the user does GAK bring?
+<p>
+Two other interesting findings in the study were:
+<ul>
+<li> An entity with a warrant should not be able to 
+fabricate false evidence."
+<li> Abuse by either side should be detectable by the 
+other.
+</ul>
+He suggested that these criteria be added to the NIST 
+list of 10.
+<p>
+Bill went on to look at the NIST criteria. He said, 
+concerning Criteria #3 (agents certified by US 
+Government or reciprocal agreement), that "this is a 
+show stopper!" because:
+<ul>
+<li>no reciprocal agreements exist today, anywhere.
+<li>what about countries where justice systems are 
+different, and what about where "these agreements are 
+not desirable (e.g. Nigeria, Mexico, Saudi Arabia, 
+Argentina, Poland, etc.)?
+<li> even for NATO countries, agreements will be 
+different (Germany has data privacy laws, in Greece), 
+or we may not want to be reciprocal (in Greece, the 
+government likes to bug the opposition)
+</ul>
+He also says that Criteria #7, 64-bit keys, is 
+unacceptable. CE Infosys currently sells a PCMCIA (PC 
+Card) encryptor that does triple-DES at T1 speeds. TIS 
+uses it, and sells it in the US. [as an aside, I was 
+told that they can import and resell them, but when 
+one breaks, TIS can’t ship it back to Germany for 
+repairs. Sigh.]
+<p>
+Sweet had two recommendations:
+<ul>
+<li>develop a tiered crypto policy, with hardware and 
+software under differing levels of rules,
+<li> allow a pilot project, where TIS can sell VPN 
+(virtual private networks) using strong encryption. A 
+VPN is the use of the Internet as a private network 
+for a corporation by adding appropriate firewalls, 
+encryption, etc.
+</ul>
+It seems to me that while TIS' CKE doesn't meet the 
+criteria, it could be made to, with a few changes.
+They've have to change the design to allow GAK
+for any one target. (Criteria #5) This would mean
+for generating one DRF (ie., LEEF) for each recipient 
+as well as for the sender (as opposed to just for 
+the sender) The neat thing about CKE is that each 
+LEEF holds only the session key -- so you never 
+give away your private key. (I think the govenment
+really expects that we'll be willing to 
+escrow our private keys. Fat chance!)
+<p>
+But this is a bit of a catch 22, because 
+to follow all the criteria, you can't stop there.
+<ul>
+<li>For each encryption, you generate a DRF for the 
+sender and each recipient
+<li>
+For each DRF generated, you must have and check 
+a certificate chain for the chosen DRC and 
+refuse to encrypt unless all recipients and 
+the sender have validly certified (ie., USGovt
+approved) DRC public keys.
+<li>
+Each receiving application must refuse to 
+decrypt unless every other recipient and 
+the sender have validly certified DRC
+public keys. This gets into the interoperability
+issues that I need to write up...
+<li>
+I don't know how they can meet the revised #6. It
+seems to be designed specifically to break CKE.
+</ul>
+To get govie approval, each DRC needs to meet all the
+key escrow agent entity criteria. I'm really not at
+all convinced that it is actually practical. This is
+sad, because CKE is obviously designed with the spirit
+of the government at heart, with just some modifications
+to make it marketable. Guess TIS needs an Ireland office 
+too.
+<p>
+<h3>Ken Mendelson of TIS</h3>
+Ken gave a solid presentation describing how all of 
+the Government’s need for data about key escrow agents 
+could be met with a commercial "vendor registration" 
+approach instead of a Government mandated 
+"certification" scheme. This would be in keeping with 
+the current "spend less money, have less government 
+bureaucratic rules" political climate. I have copies 
+of his slides, I’d rather not type them in. With any 
+luck, he’ll put them up on the TIS web site url: 
+http://www.tis.com
+<p>
+<h3>Dorothy Denning of Georgetown University</h3>
+<p>
+Dorothy Denning gave a presentation based upon an article that 
+will be published in the March 96 Communications of 
+the ACM. It analyzes currently available products (and 
+vapor products) and sees how well they meet Criteria 
+#5. It says that eight of the sixteen approaches that 
+she surveyed currently meet Criteria #5. She lists her 
+web page as http://www.cosc.georgetown.edu/~denning, 
+but as of Sunday 12/10, the text is not available.
+<p>
+<h3>Melanie Janin, US Council for International Business</h3>
+Ms. Janin’s speech presented the US Council for 
+International Business’ comments on GAK. They are a NY 
+based trade group, representing 300 clients. They 
+don’t like GAK. She called for a coherent policy on 
+all encryption. Major topics in the presentation 
+include:
+<ul>
+<li>free choice
+<li>open to the public
+<li>international acceptance
+<li>flexibility of implementation
+<li>User key management
+<li>Key escrow (where they "embrace key escrow as one 
+possible method of managing encryption keys.")
+<li>Liability
+</ul>
+<h3>Ed Scheidt, Tecsec</h3>
+Presented both comments on the criteria and his 
+company’s VEIL and Export VEIL Version 2.0 products. 
+He raised a number of points, including:
+<ul><li>how do we protect our commercial information unless 
+we have the best cryptography?
+<li>we need "constructive key management technology" to 
+manage keys, key splits, and different algorithms for 
+extended data separation.
+<li>solution must address issues such as international 
+trust in a key escrow.
+</ul>
+He said that his "Export VEIL 2.0" product meets "the 
+intent of 11/95 export criteria today."
+<p>
+<h3>Daniel Weitzner of CDT</h3>
+<p>
+Mr. Weitzner agreed to shorten his presentation so 
+that he could yield some time to VTW.
+<p>
+He opened by pointing out that while the schedule had 
+both him and Jerry Berman were supposed to talk, Jerry 
+was too busy to make the meeting. "Jerry is out 
+defending pornographers, so I’ll be here defending 
+terrorists."
+<p>
+I expect that his text will be on CDT’s webpage, url: 
+http://www.cdt.org. I’ll just enter the key points.
+<p>
+The first thing he said is that "this is the wrong 
+forum" and that "the [NIST] process will not work." He 
+proposed a open, privately sponsored forum to develop 
+alternatives that will work.
+<p>
+"The NIST proposal will not provide adequate security, 
+privacy, promote secure communications worldwide, or 
+guarantee user privacy." Major issues are:
+<ul>
+<li>Inadequate security
+<li> No viable policy framework for the long-term
+<li> Hinders the deployment of globally interoperable 
+secure systems
+<li> not necessarily voluntary
+<li> not viable in the marketplace
+<li> no constitutional privacy protections
+<li> will not meet the needs of law enforcement, since it 
+will "not deny criminals or terrorists access to 
+strong encryption, the stated objective of the 
+policy."
+</ul>
+<h3>Shaber Safdar, Voters Telecommunication Watch</h3>
+Described the results of an Internet-based, non-
+scientific survey that the VTW recently made. Not 
+surprisingly, those who replied were overwhelmingly 
+against the NIST proposal. I don’t have the slides, 
+but VTW has a website with most of their information. 
+The url is <a href="http://www.vtw.org">
+http://www.vtw.org</a>
+<p>
+There were 26 respondents to the survey. 24 out of 26 
+said that they would never buy products with law 
+enforcement access. 16 out of 24 are already using 
+security products.
+<p>
+He described a Technology Pledge that VTW is 
+presenting to politicians (available at url: 
+<a href="http://www.vtw.org/pledge/">
+http://www.vtw.org/pledge/)</a> and stated that Rep. 
+Ronald Wyden (D-OR) signed the pledge with pro-
+freedom, pro-market answers.
+<h3>David Sobol, EPIC</h3>
+As expected, EPIC doesn’t like much about the NIST 
+proposal. Their comments are on their web page, url:
+<a href="http://www.epic.org/crypto/EPIC_Statement.html">
+http://www.epic.org/crypto/EPIC_Statement.html</a>
+<p>
+A key statement is "Given the reality that users are 
+unlikely to adopt key escrow systems on a voluntary 
+basis, we believe that the current policy will result 
+in the eventual prohibition of non-escrowed products. 
+Indeed, documents released to EPIC under the Freedom 
+of Information Act (FOIA) reveal that NSA and FBI 
+concluded nearly three years ago that
+<blockquote>
+‘Technological solutions such as they are, will 
+only work if they are incorporated into all 
+encryption products.’"
+</blockquote>
+Major points 
+<ul>
+<li>Public comment is frequently solicited but never 
+heeded.
+<li>Relevant information has not been released. 
+<li>The proposal conceals the attempt to expand 
+wiretapping capability 
+</ul>
+As a result, EPIC proposes the following Policy 
+Recommendations
+<ul>
+<li>Relax export controls on encryption and permit the 
+free flow of encryption products across national 
+borders
+<li>Withdraw FIPS 185 (the Clipper standard for voice, 
+fax,...  and low speed data networks in the 
+federal government)
+<li>Remove "cryptology" from items that may be 
+classified ...  under executive order
+<li>Do not fund the Telephone Carrier Compliance Program         
+(the "Digital Telephony" proposal)
+<li>Do not permit the use of classified algorithms for         
+public networks
+<li>Examine the activities of the National Security 
+Agency ... since passage of the Computer Security 
+Act of 1987.
+</ul>
+NOTE: during Mr. Sobel’s discussion, a FBI 
+representative sitting at the head table said  that 
+the issues addressed by key escrow are "not just 
+wiretapping, they include search and seizure of all 
+stored media." I was not able to identify the person. 
+He was sitting at Ed Appel’s seat, but did not have a 
+namecard. No one sitting near me recognized him 
+either.
+<h3>Padgett Petersen, Lockheed Martin</h3>
+Noted Internet personality, Padgett Petersen took a 
+rarely held position, he spoke as a Security officer 
+of Lockheed Martin, rather than speaking as a private 
+net-citizen.
+<p>
+He said that "these criteria are acceptable and can be 
+made to work." He also said that "without US 
+agreements, there is no reason to be concerned with 
+export." Lockheed Martin was looking forward to 
+participating in using and buying the escrowed 
+products that will hit the market as a result of this 
+process.
+<h3>Robert Hollyman, Business Software Alliance</h3>
+Mr. Hollyman said that "the facts are clear, companies 
+are unanimous against" the NIST proposal. His members 
+agree that:
+<ul>
+<li> security is critical
+<li> 40 bit is not viable
+<li> the 1992 government review requires a change in 
+policy.
+<p>
+He recommended:
+<li> immediate approval of DES or equal strength 
+alternative for export.
+<li> encourage companies to build encryption software by 
+submitting code to NIST (under non-disclosure) for 
+review
+<li> add two bits ever three years to allowable key 
+lengths in recognition of Moore’s law. He called this 
+a COCA allowance (cost of cracking algorithms).
+<li> removal of restrictions on interoperability because 
+they are artificial and antithetical to the Global 
+Information Infrastructure.
+</ul>
+He stated that the current criteria are vague, and 
+will take years for approval. Yet he notes that in 
+industry, the average life cycle of software is 18 
+months.
+<h3> Alex McIntosh, PC Security</h3>
+PC Security sells key management systems. Shell is a 
+customer. He addresses a couple of areas that his 
+commercial customers ask. 
+<p>
+The first question is "why encrypt?" He said that the 
+answer is to protect confidential data. These data 
+include email, PC files, and archival data. 
+<p>
+This leads to the obvious question, why use key 
+management? The two separate answers are to have  
+operational backup and to allow compliance with 
+internal and external law enforcement.
+<p>
+He said that he has a surprise for the NIST folks 
+concerning key escrow agents. The corporate customer 
+is the key escrow agent.
+<p>
+Other key observations:
+<ul><li> Companies, such as Shell, often do business in 
+countries where they can not trust the government.
+<li> Shell handles over a million email messages a day. 
+This defines engineering requirements for any system 
+to meet.
+<li> Liability is a huge issue, and the amounts are 
+huge. Geologic information, market strategies, etc. 
+are worth staggering amounts of money. The "US 
+Government can NOT cover Shell’s liabilities."
+</ul>
+<h3>Doug Miller, Software Publishers Association</h3>
+Mr. Miller said that his members need immediate relief 
+from the current encryption export policies. "our 
+members are poised, but cannot leap, because of the 
+barriers that U.S. cryptographic policy continues to 
+impose." He wants to be able to export 56-bit DES. His 
+position paper says, "we believe the discussion should 
+also include assessment of the exportability of 
+products employing the DES algorithm. DES-strength 
+(56-bit) products can compete with 179 foreign 
+products (80 of which are software products) that 
+employ DES. Liberalization of the export restrictions 
+of software with encryption capabilities is essential 
+if U.S. companies are to compete with strong, widely 
+available non-escrowed products."
+<h3> Viktor Hampel, Hampel Consulting </h3>
+Proposed "a ‘Consumer Protection Act for Digital 
+Products’ to support electronic commerce and to 
+control the increasing abuse and lack of security on 
+the national information highways." A copy can be 
+obtained from Hampel Consulting, 1515 Jefferson Davis 
+Highway, Crystal Square Suite 913, Arlington VA 22202-
+3312.
+<p>
+In his remarks, Mr. Hampel said that trust is 
+important between business. Business worries about 
+issues as varied as what accountability is in the 
+system and how much is the per minute interest on a 
+billion dollar money transfer? These cause business to 
+need solutions that NIST hasn’t raised.
+<p>
+He recommended that a public key infrastructure be 
+included into the Uniform Commercial Code.
+<a name="Closing">
+<hr>
+<H2> Closing comments.</h2>
+Mike Nelson noted that the meeting had some time for 
+floor questions.
+<p>
+He was asked what is the timeframe for finishing the 
+process. He danced, saying that promising a fixed date 
+for policy decisions is bad for your career, but 
+thought it would be done in a couple of months.
+<p>
+Someone asked about the "Personal Use" export process 
+(the one that will allow you to export PGP on a laptop 
+computer for personal use, and that was promised for 
+"in a couple of weeks" at the September NIST meeting). 
+They said that it is about to go to the Federal 
+Register, and should be available within weeks.
+<p>
+Nelson was asked about foreign escrow agents. He said 
+that "if there exists bilateral diplomatic agreements, 
+then the US will allow specification of Foreign Escrow 
+agents." [Of course, no such agreements exist now.]
+<p>
+Ed Appel of the White House said that the intent is to 
+make export "as easy as 40-bit" is under the existing 
+policies. The existing export policies will continue.
+<p>
+He also said "so far, we are only controlling export" 
+and that "the government has very strong cryptography 
+available to them, so they are not worried about 
+export." He said they hope to control export in two 
+ways, first by applying the combined purchasing power 
+of the US Government to encourage the market, and by 
+controlling export.
+<hr>
+After the meeting closed, I invited both Mike Nelson 
+and Ed Appel to the next <a href="http://www.isse.gmu.edu/~pfarrell/dccp/">
+DC Cypherpunks meeting. </a>
+Somehow I expect it when they declined. But they
+both said they were interested in future meetings.
+We'll see if they were just being polite.
+<p>
+<a name="WhoWho">
+<hr>
+<h2>Who is Who amongst the Government folks</h2>
+<ul>
+<li><a name="Appel">Ed Appel's card says <br>
+Director of CounterIntellegence Programs<br>
+National Security Council<br>
+The White House
+<p>
+He is clearly a very smart law enforcement guy.
+<p>
+<li><a name="GeoffG">Geoff Greiveldinger is 
+listed in the agenda as being with "U.S. Department
+of Justice." He is clearly very high up in the organization. All of
+the examples he gives are domestic, so he is probably FBI instead of NSA.
+He also constantly refered to "equipment" instead of software.<p>
+<li><a name="Nelson">Mike Nelson's card says <br>
+Michael R. Nelson, PhD.<br>
+Special Assistant, Information Technology<br>
+Executive Office of the President<br>
+Office of Science and Technology Policy<br>
+OEOB (Old Executive Office Building, on the White House grounds)
+<p>
+He is a geophysist by degree. An impressive politician.
+<p>
+<li><a name="Roback">Ed Roback works at NIST. He coordinated
+these meetings. After the meetings, a number of us kidded him
+about "comming out" and admiting that he really is
+only doing this because NSA insists.<p>
+<li><a name="Smid">Miles Smid works at NIST. He is rumoured to have
+been the brains behind the design of the Clipper system. He knows
+a lot about cryptography. Other rumours say he learned about
+Cryptography while employed at NSA.
+</ul>
+
+<a name="MyOpinion">
+<hr>
+<h2>Pat's Opinions</h2>
+The meeting was in general a repeat of September's meeting, and similar
+meetings that have been going on for years. Both sides talk past each
+other. I think this has degenerated into a parallel with the abortion
+debate. There is no common ground.
+<p>
+The biggest items that I heard was the admission by Geoff G. that 
+we do have "the right to hold your own keys." This admission
+means that they know they have no expectation that outlawing
+unescrowed encryption is constitutional. This, sadly, doesn't mean
+that they won't try.
+<p>
+<h3>What I think it means:</h3>
+<p>
+I believe that the government deeply wants to restrict domestic use of
+strong encryption, but they have no legal justification for doing so.
+They can't expect that they will get it if they go to Congress. So they
+are attempting an end-arround using the export criteria, which they
+<strong>do control.</strong> 
+They hope that the pain of having multiple versions will be
+so high that no vendor will bother, and all we'll have is crippled
+software.
+<p>
+The usual civil liberties lobby folks (CDT, EPIC, etc.) want to
+hold their own, industry sponsored meetings to develop workable systems.
+<p>
+I think that the real key is for everyone, worldwide to insist on
+both strong crypto and interoperability. The Germans are already
+writing fine software and making fast hardware. Microsoft and Netscape
+can easily afford to do some of their development offshore. If the products
+sell and are deployed, it won't matter what the govies want.
+<p>
+<a name="Epilog">
+<hr>     
+<h2>Copyright, Epilog, etc.</h2>
+A note on quoting within this document: I did not take a 
+tape recorder to the meeting. Words in quotes were taken
+from either my hardcopy of handouts, words in documents
+on cited webpages, or from my notes. I tried hard to 
+keep the words accurate and in context. There may be some
+cases where my quotes are incorrect. If I've misquoted
+anyone, it is not delibrate, and if told, I'll post
+corrections.
+<p>
+Copyright (c) 1995, Pat Farrell.
+Permission granted to electronically redistribute, provided
+it is transmitted in the whole and unaltered.
+<hr>
+Back to <a href="./nist951205.html">Pat's page on the December 5 NIST Clipper 2 </a>
+meeting. 
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nist/clipper2.html">
+Clipper II page.</a> 
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a> 
+December 10, 1995  
+Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">
+Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

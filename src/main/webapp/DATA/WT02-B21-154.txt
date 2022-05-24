@@ -1,0 +1,104 @@
+
+<DOC>
+<DOCNO>WT02-B21-154</DOCNO>
+<DOCOLDNO>IA052-000883-B027-180</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/man.html 137.229.31.144 19970210140536 text/html 2338
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:05:50 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Thursday, 23-Jan-97 23:11:45 GMT
+Content-length: 2156
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+<TITLE>ASF Software & Tools OnLine Manual</TITLE>
+</HEAD>
+<BODY BGCOLOR="#888888" TEXT="#00008F" LINK="#008F00" VLINK="#580000"
+BACKGROUND="res/backgrounds/recycledpaper.jpg">
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> |
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> |
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> |
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> 
+<P>
+<H1>Alaska SAR Facility's Manual Pages for Software and Tools</H1>
+The purpose of this page is to allow users and developers to obtain 
+information about a specific ASF STEP program or tool over the Web. Please 
+send any comments or suggestions to <a 
+href="mailto:mshindle@images.alaska.edu">Michael Shindle 
+(mshindle@images.alaska.edu)</a>.
+<P>
+<HR>
+<FORM METHOD="POST" 
+ ACTION="http://www.images.alaska.edu/cgi-bin/man-request.pl">
+<!INPUT TYPE="reset" VALUE="Clear Form">
+<H2>Select Tool:
+<SELECT NAME="asftool">
+<OPTION VALUE="">Select Software/Tool
+<OPTION>2dmap
+<OPTION>accum_offset
+<OPTION>auto_sar_mosaic
+<OPTION>auto_swath_mosaic
+<OPTION>calibrate
+<OPTION>concat
+<OPTION>concatm
+<OPTION>demclip
+<OPTION>despike
+<OPTION>dspddr
+<OPTION>dump_multi_volume
+<OPTION>geom1p
+<OPTION>gps_vector
+<OPTION>greycorr
+<OPTION>idimage
+<OPTION>idtable
+<OPTION>metadata
+<OPTION>polyfit
+<OPTION>prereg
+<OPTION>projprm
+<OPTION>resample
+<OPTION>resolve
+<OPTION>rtc_add
+<OPTION>sarautoreg
+<OPTION>sargeoin
+<OPTION>sarin
+<OPTION>trancoord
+</SELECT>
+</H2>
+<H2>Section:
+<SELECT NAME="section">
+<OPTION VALUE="all">All Sections
+<OPTION>keyword
+<OPTION>1
+<OPTION>1M
+<OPTION>2
+<OPTION>3
+<OPTION>3C
+<OPTION>3F
+<OPTION>3X
+<OPTION>4
+<OPTION>5
+<OPTION>6
+<OPTION>7 
+<OPTION>8
+<OPTION>9
+</SELECT>
+</H2>
+<P>
+<INPUT TYPE="submit" VALUE="Request man page">
+</FORM>
+</BODY>
+<ADDRESS>
+<HR>
+Last Updated: July 22, 1996 <BR>
+Last Updated By: <A HREF="users/mike/mike.html">Michael Shindle</A><BR>
+If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="comments.html">comment</A>.
+<P>
+</ADDRESS>
+</HTML>
+
+</DOC>

@@ -1,0 +1,43 @@
+
+<DOC>
+<DOCNO>WT01-B07-122</DOCNO>
+<DOCOLDNO>IA030-000648-B028-231</DOCOLDNO>
+<DOCHDR>
+http://www.dais.net:80/guest/addguest.html 207.158.236.70 19970122130939 text/html 1929
+HTTP/1.1 200 OK
+Date: Wed, 22 Jan 1997 13:09:38 GMT
+Server: Apache/1.2b4
+Connection: close
+Content-Type: text/html
+Last-Modified: Thu, 07 Nov 1996 15:34:18 GMT
+ETag: "25edcc-698-3282017a"
+Content-Length: 1688
+Accept-Ranges: bytes
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>DAIS Corporation Web Server : Add to Our Guestbook</TITLE></HEAD>
+<body BACKGROUND="paper1.gif" bgcolor="#ffffff" text="#004080" link="#0000ff" alink="#ff0000" vlink="#9f0000">
+<BASEFONT SIZE=3>
+<CENTER><IMG SRC="daislog.jpg" BORDER=1></center><P></P>
+<center><font size=2 face=arial><b>environmentally friendly fuel cell technology</b></font></center>
+<HR>
+<CENTER><H2><font size=+3 face=arial>A</font><FONT FACE="ARIAL">DD</FONT> <font size=+3 face=arial>T</font><FONT FACE="ARIAL">O </FONT><font size=+3 face=arial>O</font><FONT FACE="ARIAL">UR</FONT> <font size=+3 face=arial>G</font><FONT FACE="ARIAL">UESTBOOK</FONT></CENTER></H2>
+<p align=left>
+
+    <FONT FACE="ARIAL">Fill in the blanks below to add to our guestbook.  The only blanks that you 
+    have to fill in are the comments and name section.  Thanks!</FONT><hr>
+    <form method=POST action="http://www.dais.net/cgi-local/guestbook.pl">
+      <FONT FACE="ARIAL">Your Name:</FONT><input type=text name=realname size=30><br>
+      <FONT FACE="ARIAL">E-Mail: </FONT><input type=text name=username size=40><br>
+      <FONT FACE="ARIAL">URL: </FONT><input type=text name=url size=50><br>
+      <FONT FACE="ARIAL">City: </FONT><input type=text name=city size=15>, State: <input type=text name=state size=2><FONT FACE="ARIAL"> Country: </FONT><input type=text value=USA name=country size=15><p>
+      <FONT FACE="ARIAL">Comments:</FONT><br>
+      <textarea name=comments COLS=60 ROWS=4></textarea><p>
+      <input type=submit> * <input type=reset>
+    </form>
+    <hr>
+    * <a href="http://www.dais.net/guest/guestbook.html"><FONT FACE="ARIAL">Back to the Guestbook Entries</FONT></a><br>
+  </body>
+</html>
+</DOC>

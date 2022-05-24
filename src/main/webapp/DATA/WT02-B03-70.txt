@@ -1,0 +1,63 @@
+
+<DOC>
+<DOCNO>WT02-B03-70</DOCNO>
+<DOCOLDNO>IA071-000457-B031-117</DOCOLDNO>
+<DOCHDR>
+http://relay.dot.gov:80/help/viewing.html 152.120.130.100 19970121040403 text/html 2405
+HTTP/1.0 200 Document follows
+Date: Tue, 21 Jan 1997 04:01:49 GMT
+Server: NCSA/1.5.2
+Last-modified: Mon, 05 Feb 1996 16:54:04 GMT
+Content-type: text/html
+Content-length: 2222
+</DOCHDR>
+<HTML>
+<HEAD>
+<Title>Viewing And Downloading Files</Title>
+</HEAD>
+
+<BODY>
+<H2>Viewing And Downloading Files</H2>
+
+Most of the files on the DOT Web server are stored in one 
+of the 3 following formats:
+
+<UL>
+<LI>	<B>Native HTML</B> - These files are formated in HTML and are viewable
+	only with a Web browser.  With HTML we can format text and insert
+	graphics in our documents.  <P>
+
+<LI>	<B>ASCII Text</B> - These files have no formatting and can be viewed
+	on any system.  This of course is the simplest way to ensure
+	that anybody can read a file, but it's the least attractive. <P>
+
+<LI>	<B>Adobe Acrobat</B> - Acrobat is an application that will take print
+	output and save it in a format that can be recreated at will.
+	Using the Acrobat reader, you can view, search, and print the
+	document in it's original form complete with graphics, color,
+	and original fonts.  You can't view these documents on-line
+	(yet) without having a seperate viewer program, but it's 
+	the best way to download really graphically intense documents.  <P>
+
+	<A HREF="/acro.html">Click here to download the Adobe viewer for your system.</A><P>
+</UL>
+
+Some of our documents (mostly found on our gopher links) are stored 
+in native word processer (ie: MS Word or WordPerfect) or other application 
+formats (ie: MS Excel, PK ZIP, etc).  This is occasionally unavoidable.  
+To download these files without attempting to load an associated program, press the &lt;SHIFT&gt; key then click on the document pointer.  This should (on most browsers) force the browser to save that document to your local disk.<P>  
+ 
+<H3>Movies</H3>
+
+We have adopted Apple's Quicktime format for any digital movies we distribute.
+Why?  It works better, and it's compatible with both Mac and DOS based systems.
+You will need to download Apple's Quicktime for Windows software in order to
+play these movies on Windows.  Mac systems should already have the Quicktime
+software. Windows users will need the <A HREF="http://quicktime.apple.com/winlicense.html">QuickTime for Windows</A>
+software from Apple.<P> 
+<HR>
+<H6>Last updated January 30, 1996<BR>
+Send Questions or Comments to:<A HREF="mailto:webmaster@www.dot.gov">webmaster@www.dot.gov</A></H6>
+</BODY>
+</HTML>
+</DOC>

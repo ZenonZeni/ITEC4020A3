@@ -1,0 +1,67 @@
+
+<DOC>
+<DOCNO>WT02-B25-3</DOCNO>
+<DOCOLDNO>IA067-000404-B015-70</DOCOLDNO>
+<DOCHDR>
+http://www.dsnt.com:80/hacker.html 207.78.30.85 19970112210105 text/html 1757
+HTTP/1.0 200 Document follows
+Date: Sun, 12 Jan 1997 21:02:23 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>NetFortress</title>
+<body background="homebg3.gif" bgcolor="#ffffff" text="#eeeeee" link="#774422">
+
+<table border=0 width=100% cellpadding=0 cellspacing=0>
+<tr>
+	<td valign=top><img align=top src="netfort.gif"></td>
+	<td rowspan=5 valign=top><img src="cubebox.gif" ></td>
+</tr>
+<tr>
+	<td valign=bottom align=center>
+	<a href="nf2.html"><img vspace=2 src="netbut1.gif" border=0></a><br>
+	<a href="nf1.html"><img vspace=2 src="netbut2.gif" border=0></a><br>
+	<a href="whitepaper.html"><img vspace=2 src="whitepaper.gif" border=0></a><br>
+	<a href="comparison1.html"><img vspace=2 src="comp_std.gif" border=0></a><br>
+	<a href="nf3.html"><img vspace=2 src="netbut3.gif" border=0></a><br>
+	<a href="evaluation.html"><img vspace=2 src="netbut4.gif" border=0></a><br>
+	</td>
+</tr>
+</table>
+<BR>
+<BR>
+
+
+<!-- NAV BAR -->
+
+<center><a href="nav.map"><img src="nunav.gif" border=0 USEMAP="#navbarmap" ISMAP></a></center>
+<MAP NAME="navbarmap">
+<AREA SHAPE="CIRCLE" COORDS="33,35,45" HREF="index.html">
+<AREA SHAPE="CIRCLE" COORDS="102,35,45" HREF="hacker.html">
+<AREA SHAPE="CIRCLE" COORDS="169,35,45" HREF="news.html">
+<AREA SHAPE="CIRCLE" COORDS="240,35,45" HREF="links.html">
+<AREA SHAPE="CIRCLE" COORDS="308,35,45" HREF="contact.html">
+</MAP>
+
+<!-- END NAV BAR -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<MAP NAME="HACKER">
+<AREA SHAPE="RECT" COORDS="0,0,145,18" HREF="nf1.html">
+<AREA SHAPE="RECT" COORDS="0,24,145,48" HREF="nf2.html">
+<AREA SHAPE="RECT" COORDS="0,54,145,71" HREF="nf3.html">
+<AREA SHAPE="RECT" COORDS="0,77,160,94" HREF="evaluation.html">
+</MAP>
+
+
+</body>
+</html>
+</DOC>

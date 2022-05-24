@@ -1,0 +1,448 @@
+
+<DOC>
+<DOCNO>WT03-B24-129</DOCNO>
+<DOCOLDNO>IA053-000895-B047-403</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/national.html 129.174.40.15 19970123200633 text/html 12900
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:05:15 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 07 Dec 1995 23:00:19 GMT
+Content-type: text/html
+Content-length: 12716
+</DOCHDR>
+<html>
+<head>
+<link rev="made" href="mailto:jya@pipeline.com"> 
+</head>
+<body>
+
+   <title>Commercial Cryptography Ideas
+      for Success.</title>
+
+National Semiconductor's "Commercial Cryptography Ideas
+      for Success." This contains the CAKE program and a
+      "Proposed NIST Escrow Certificate Heirarchy." 
+<p>
+   [Handout at Key Escrow Issues Meeting, at NIST,
+   Gaithersburg, Maryland, September 6, 1995]
+
+
+<p>
+   [Page 1]
+
+   [Header all pages] Commercial Key Escrow Issues
+
+
+<p>
+   Commercial Cryptography Ideas For Success
+
+<p><pre>
+   Bill Sweet
+   Director of Marketing
+   iPower Business Unit
+   National Semiconductor
+   1090 Kifer Road, M/S 16-225
+   Sunnyvale CA 94086-3737
+   408-721-51 93 (voice)
+   408-245-7906 (fax)
+</pre>
+<hr>
+<pre>
+   New Government Software Export Criteria
+
+   Export criteria [*and comments*] for software:
+
+   1.   Unclassified algorithms up to 64 bits with an
+        acceptable key escrow system [*DES. IDEA, CAST... ?*]
+
+   2.   Must be designed to prevent multiple encryptions
+        (triple DES) [*O.K if escrow access for each pass?*]
+
+   3.   System must not operate until approved key escrow
+        agent is selected [*factory-installed default O.K.?*]
+
+   4.   Messages must contain easy pointers to the proper
+        escrow agent and keys so access will always be
+        available for authorized requests
+
+   5.   The key escrow mechanism must be resistant to user
+        modification (strong binding strength)
+
+   6.   If the key escrow mechanism is illegally modified, the
+        system should cease to work
+
+   7.   The key escrow system must allow access at either the
+        sender's or the receiver's end of the messaging
+        process [*Sender picks escrow agent? -- negotiated key
+        if simultaneous conversation?*]
+
+   8.   The escrow system should not require repeated escrow
+        agent involvement for multiple messages during the
+        period of authorized access [*automated sequence
+        through escrow agent's computer O.K.?*]
+
+   9.   Systems sold in the US need to be escrow-enabled, or
+        have the capability for escrow agents to be selectable
+        (rekeyed) [*certificate upload in the factory or field
+        O.K.?*]
+
+   10.  The escrow agents must be approved by the U.S.
+        Government, or a foreign government with reciprocal
+        national security and law enforcement access for the
+        U.S. Government [*a list of likely early candidates
+        would help ...*]
+
+
+   [Page 3]
+
+   Export Requirement #11 (Industry Request)
+
+   The stronger the escrow binding mechanism, the stronger the
+   encryption allowed to be exported...
+
+   Why is this important?
+
+   +  Encryption strength is a moving target
+
+   +  High end security applications need triple DES or other
+      strong encryption algorithm and are willing to pay for
+      it
+
+   +  Domestic manufacturers need to compete with foreign
+      unescrowed strong encryption (e.g., triple DES)
+
+   +  Government wants stronger binding mechanisms (you get
+      what you reward...)
+
+
+   [Page 4]
+
+   Commercial Automated Key Escrow (CAKE)
+
+   Combines the TIS Commercial Key Escrow scheme with a
+   powerful National PersonaCard 201 CAKE token providing
+   strong encryption with a secure escrow mechanism
+
+   +  The card will automatically create a Data Recovery Field
+      (DRF) by encrypting the message key and sender ID with
+      the public key of a Data Recovery Center (DRC) and
+      attaching the DRC's plaintext identity
+
+   +  This DRF is attached to the message envelope and goes
+      anywhere the encrypted message goes including archival
+      storage
+
+   +  DRF discipline is enforced at both sender and receiver
+      locations
+
+   +  Users register with the DRC of their choice via
+      uploading a DRC certificate
+
+   +  Any organization in good standing should be able to
+      possess its own DRC
+
+   Unlike strong software encryption, the CAKE token:
+
+   +  Is tamper-proof and counterfeit-proof to all users
+
+   +  Cannot be spoofed by software-masquerading-as-a-token
+
+   +  Can securely enforce escrowing, even with corrupt host
+      software
+
+   +  Can be export-controlled (cannot be copied & distributed
+      over the Internet)
+
+
+   [Page 5]
+
+   CAKE Cryptographic Details
+
+   1.   Sender's CAKE token creates a random block-encryption
+        message key (typically DES) and encrypts a message.
+
+   2.   Sender's token encrypts the message key with each
+        receiver's public key creating N lockboxes (encrypted
+        keys)
+
+   3.   It uses the Data Recovery Center's (DRC) public key to
+        encrypt the message key and the sender's identity, and
+        attaches the DRC's plaintext identifier to create a
+        Data Recovery Field (DRF)
+
+   4.   Sender's token hashes the message to obtain a message
+        digest
+
+   5.   Sender's token encrypts the message digest with
+        sender's private key, creating a digital signature
+
+   6.   Sender & token transmit his certificate, the DRC
+        certificate, receivers' lockboxes (encrypted keys),
+        DRF, encrypted message, and signature to receiver
+
+   7.   Receiver obtains certificates, lockboxes, DRF,
+        encrypted message, and signature. Receiver's token
+        verifies the two certificate issuers' signatures with
+        the issuers' public keys and obtains sender's and
+        DRC's authenticated public keys
+
+   8.   Receiver's token unlocks his lockbox containing the
+        message key with his private key (ignoring the other
+        receivers' lockboxes)
+
+   9.   Receiver's token calculates the anticipated DRF using
+        information from the certificates and the message key
+
+   10A. If the newly calculated DRF does not match the
+        transmitted DRF, the receiver's token will not decrypt
+        the message or disclose ths message key
+
+   10B. If the DRF is correct, the receiver's token decrypts
+        the message with the message key
+
+   11.  Receiver's token hashes the message to obtain a
+        message digest
+
+   12.  Receiver's token decrypts the signature with the
+        sender's public key to obtain the sender's message
+        digest
+
+   13.  Receiver's token compares its message digest with the
+        sender's and determines if the signature (and message)
+        are valid
+
+
+   [Box]
+
+   Data Recovery Center
+
+      A user, corporation or government can determine the Data
+      Recovery Center's ID(s) from the DRF(s) attached to
+      locked (encrypted) file(s) and request that file(s) be
+      unlocked. Upon proper authentication, the DRC uses its
+      private key to decrypt the DRF(s) and deliver the
+      decrypted message key(s) to the requesting party, who
+      then decrypts the message(s)
+
+   [Box]
+
+   Verify-Me Challenge
+
+      In a "who are you" challenge, the challenging party
+      sends the challenged token a random number, which the
+      challenged token returns encrypted with the Verify-Me
+      private key and the factory certificate authenticating
+      the Verify-Me public key and the device identity. If the
+      random number is decrypted with the factory-certified
+      public key, the challenged token proves its identity
+      (and that the device is hardware, model # xxxx).
+
+
+   [Page 6]
+
+   Some Evident Truths To Ponder
+
+   +  Public key encryption is the commercial wave of the
+      future (secret key systems don't scale)
+
+   +  Hardware and software products need a simple way of
+      designating and redesignating escrow agents
+
+   +  The simplest way to implement escrow agent designations
+      is via expiration-dated certificates digitally signed by
+      authorities (organizations) certified by the U.S.
+      Government
+
+   +  This means NIST should maintain the root key for escrow
+      certificates
+
+   +  In order to provide for escrow agent decertification,
+      the U.S. Government needs to maintain an on-line
+      Internet database of approved escrow agent certificates,
+      as well as certificate revocation lists
+
+
+   [Page 7]
+
+   Proposed NIST Escrow Certificate Hierarchy
+
+   [Chart]
+
+   NIST Root Key (Public Key) (*Key Escrow Certification
+   Authority*)
+
+   [Lines from Root key to four columns]
+
+   [Column 1]
+
+   Trusted Information Systems Commercial Key Escrow System
+
+      TIS Administrator's Certificate
+
+         Certificate Version
+         Serial Number
+         Signature Algorithm
+         Issuer (NIST Escrow Authority)
+         Validity Dates
+         Subject (owner=TIS Admin)
+         TIS DRC Admin's Public Key
+         Certifying Signature (NIST)
+
+      [Line down to]
+
+      Data Recovery Center (DRC) Certificate (*TIS
+      Franchisee*)
+
+         Certificate Version
+         Serial Number
+         Signature Algorithm
+         Issuer (TIS Admin)
+         Validity Dates
+         Subject (owner=DRC Admin)
+         Data Recovery Ctr Public Key
+         Signature (TIS Admin)
+
+
+   [Column 2]
+
+   Independent Key Escrow Agents (e.g., Other Government
+   Agencies)
+
+      Independent Key Escrow Agent's Certificate (*NIST
+      Franchisee e.g., Other Government Agencies*)
+
+         Certificate Version
+         Serial Number
+         Signature Algorithm
+         Issuer (NIST Escrow Authority)
+         Validity Dates
+         Subject (owner=Escrow Agent)
+         Escrow Agent's Public Key
+         Certifying Signature (NIST)
+
+
+   [Column 3]
+
+   Bankers Trust Commercial Key Escrow System
+
+      Bankers Trust Administrator's Certificate
+
+         Certificate Version
+         Serial Number
+         Signature Algorithm
+         Issuer (NIST Escrow Authority)
+         Validity Dates
+         Subject (BT Administrator)
+         IOO's Public Key
+         Certifying Signature (NIST)
+
+      [Line down to]
+
+      Key Escrow Agent Certificate (*BT Franchisee*)
+
+         Certificate Version
+         Serial Number
+         Signature Algorithm
+         Issuer (BT Administrator)
+         Validity Dates
+         Subject (owner=Escrow Agent)
+         Escrow Agent's Public Key
+         Signature (BT Admin)
+
+   [Column 4]
+
+   Other Commercial Key Escrow System
+
+      Other Administrator's Certificate
+
+         Certificate Version
+         Serial Number
+         Signature Algorithm
+         Issuer (NIST Escrow Authority)
+         Validity Dates
+         Subject (owner=Other Admin)
+         SECURExchange's Public Key
+         Certifying Signature (NIST)
+
+      [Line down to]
+
+      Key Escrow Agent Certificate (*Other Franchisee*)
+
+         Certificate Version
+         Serial Number
+         Signature Algorithm
+         Issuer (Other Admin)
+         Validity Dates
+         Subject (owner=Escrow Agent)
+         Escrow Agent's Public Key
+         Signature (Other Admin)
+
+
+   [Page 8]
+
+   Electronic Commerce Infrastructure Problems
+
+   +  Lack of an exportable strong encryption capability to
+      compete in global markets
+
+   +  Lack of a global certificate hierarchy
+
+   +  Lack of rational crypto standards
+
+      +  NIST promotes Skipjack and secret KEA key exchange
+         and DSS signaturing standards
+
+      +  Industry uses RSA key exchange and signaturing, and
+         prefers DES and triple DES
+
+      +  A rational escrow standard (or two) needs defining
+         *fast*.
+
+   +  Lack of government & industry cooperation means:
+
+      +  U.S. industry is *not* taking a leadership role in
+         world electronic commerce markets in the area of
+         security
+
+      +  If U.S. industry is *not*, then the U.S. Government
+         is *not*, because U.S. industry dominance is the
+         government's *only* effective weapon for control of
+         global crypto systems
+
+
+   [Page 9]
+
+   A Proposal: Government/Industry Cooperation
+
+   +  NIST should recognize commercial, government & popular
+      foreign crypto standards
+
+   +  Industry should build personality-agile crypto products
+
+      +  Choice of algorithms, key exchange systems,
+         signature standards, escrow schemes and
+         price/performance alternatives
+
+   +  NIST should maintain root keys and certificate/CRL
+      databases for *both* escrow and user certification
+      systems
+
+   +  U.S. Government should help establish international
+      standards & systems (root keys, standards, certification
+      & legal issues)
+
+   +  Both plan on a *global* scale
+
+
+   [End]
+</pre>
+
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 8, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

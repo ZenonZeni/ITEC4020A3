@@ -1,0 +1,167 @@
+
+<DOC>
+<DOCNO>WT01-B09-237</DOCNO>
+<DOCOLDNO>IA090-000968-B015-62</DOCOLDNO>
+<DOCHDR>
+http://ivf.com:80/ask.html 206.185.60.251 19970123211012 text/html 10591
+HTTP/1.0 200 OK
+Date: Thu, 23 Jan 1997 21:11:33 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 10419
+Last-modified: Thu, 19 Dec 1996 03:32:00 GMT
+</DOCHDR>
+<BODY BGCOLOR="FFFFFF" TEXT="730000" LINK="0000DA" VLINK="006B00" ALINK="000000"><HTML>
+<!--
+Author:	Mark Perloe
+Date:	January 6, 1996
+-->
+<TITLE>Ask a question?</TITLE>
+<HEAD>
+<form method=POST action="http://www.ivf.com/ivf/cgi-bin/question.pl">
+
+<img src="newarhc.gif"><h1 align=center>If only I could get more info...</h1>
+</HEAD>
+<BODY><h2 align=center><IMG SRC="bluegreline.gif"></h2>
+You can. You can get more info....<I>from</I> <B><a href="mpmd.html">Dr. Mark Perloe</a></B> <I>and the</I> <I><B>Atlanta Reproductive Health Centre</B></I>. Before submitting a question, you may wish to review the information provided on this WebSite. Frequently you can find the answer to your question in the material provided.<p>
+
+This form will generate an automatic response when you click the submit button. This opportunity to submit a question should be for <B>general questions only</B> and requests for treatment recommendations. It is not intended to replace consultation with a physician.  If you would like to arrange a visit to our clinic in Atlanta or a formal record review so that I can make treatment recommendations, please <a href="mpmd.html#REVIEW">request more information</a> below or <a href="mpmd.html">call</a> our office at 404-265-3662. <p> 
+
+
+
+<B>The ARHC WWW has gone shareware.</B> As this site has grown in popularity, it has become harder to respond to all questions. I spend a significant amount of time to review your background and your question and then attempt, respond appropriately. Please take a moment and consider what you have spent purchasing medical books and how much time, money and effort you might spend trying to get a simple question answered at your "offline" physician's office. By educating yourself and learning what questions to ask, you can enhance the value of your physician visit. Armed with the information contained in this WWW you can become a better healthcare consumer and save money.  Shareware means visit this site, take advantage of its many resources, and if you find this site and the information you receive valuable, become an ARHC WWW Supporter by making a voluntary contribution. Please complete the information at the bottom of this page, enter your<b> correct e-mail address</b> and submit your question.  
+
+<P>
+To better respond to your request for information, I would like to know a little about you.<I>(None of this goes anywhere, it's just my natural curiosity.)</I> If you are not asking a question related to infertility, please skip those questions that do not apply. <P>
+<h2 align=center><IMG SRC="bluegreline.gif"></h2>
+
+
+Are you <INPUT TYPE="radio" NAME="sex" VALUE="male"> Male or <INPUT TYPE="radio" NAME="sex" VALUE="female"> Female?<P>
+Your approximate <b>age</b>:
+<INPUT NAME="Age" MAXLENGTH="2" SIZE="2"><P>
+How long have you been trying to conceive? <Input name="howlong" size="2"><br><i>(Enter "0" if you are not trying.)</i><p>
+How many times have you been pregnant?  <INPUT NAME="Num_pregnancies" MAXLENGTH="2" SIZE="2"><br><i>(include miscarriages, ectopics & terminations)</i><p>
+
+How many times have you delivered a liveborn baby?  <INPUT NAME="Num_deliveries" MAXLENGTH="2" SIZE="2"><P>
+How many pregnancies has your partner fathered?   <INPUT NAME="Num_fathered" MAXLENGTH="2" SIZE="2"><P> 
+Please describe your <b>previous pregnancies</b>.  Enter the year they occurred.(Year) How many weeks did you carry the pregnancy(Duration)? Did you deliver (DEL), have a cesarean (CS), miscarriage (SPAB) ectopic pregnancy (ECT) or terminate the pregnancy(TAB)? Enter the appropriate outcome.  Did you have fertility problems(Infertility)? Enter Y/N. And, did your present partner father that pregnancy(Present) Enter Y/N.<P>
+<pre><font size="-1">Year  Duration(wks)  (DEL CS SPAB ECT TAB)  Infertility  Present male</font><br><TEXTAREA NAME="prevpregnancy" ROWS=5 COLS=80>
+</TEXTAREA> </pre><P>
+Where do you live? (<b>City State Country</b>)
+<input name="Residence"><p>
+Where did you hear about this WWW Site? <INPUT NAME="WWW_info" maxlenth="30" size="12"> <P>
+I would like to see your WWW Site include more information on: <br>
+<input name="moreinfo" size="50"><P>
+<h2 align=center><IMG SRC="wavy.gif"></h2>
+
+<b><u>Reproductive Medicine Problems</u></b><br> (To choose more than one item, hold down <I>Control</I> while selecting or deselecting individual items.)<p>
+<DL>
+<DD> 
+<SELECT NAME="Reproductive-problems" MULTIPLE SIZE=6>
+<OPTION>Endometriosis
+<OPTION>Pelvic adhesions
+<OPTION>Previous ectopic pregnancy
+<OPTION>Absent/blocked fallopian tube(s)
+<OPTION>Absent/irregular periods
+<OPTION>Abnormal semen analysis
+<OPTION>Recurrent pregnancy loss
+<OPTION>Premature menopause
+<OPTION>Abnormal postcoital test
+<OPTION>Fibroid tumors
+<OPTION>PMS
+<OPTION>Breast discharge
+<OPTION>Abnormal FSH, TSH, Prolactin or progesterone levels
+<OPTION>Immune abnormalities
+</SELECT></dl>
+<P>
+<h2 align=center><IMG SRC="wavy.gif"></h2>
+<b><u>Fertility Treatments</u></b> <u>you have tried include (please check all that apply)</u>:<p>
+
+<img align=top src="grey.gif">   Clomid, Serophene, clomiphene<dd>How many cycles?<br>
+<dd><INPUT TYPE="radio" NAME="Clom" VALUE="0">0<dd>  <INPUT TYPE="radio" NAME="Clom" VALUE="1-3">1 to 3   <dd><INPUT TYPE="radio" NAME="Clom" VALUE="4-6">4 to 6   <dd><INPUT TYPE="radio" NAME="Clom" VALUE="7-12">7 to 12   <dd><INPUT TYPE="radio" NAME="Clom" VALUE="more">More than 12<P>
+
+
+<img align=top src="grey.gif">   Pergonal, Metrodin or Humegon
+<dd>How many cycles?<br>
+<dd><INPUT TYPE="radio" NAME="hmg" VALUE="0">0<dd>  <INPUT TYPE="radio" NAME="hmg" VALUE="1-2">1 to 2   <dd><INPUT TYPE="radio" NAME="hmg" VALUE="3-4">3 to 4   <dd><INPUT TYPE="radio" NAME="hmg" VALUE="5-6">5 to 6   <dd><INPUT TYPE="radio" NAME="hmg" VALUE="more">More than 6<P>
+<p>
+
+<img align=top src="grey.gif">   Intrauterine insemination.<dd>  How many cycles? <i>(Total all cycles, without ovulation induction, clomiphene and pergonal/metrodin cycles).</i><br>
+<dd><INPUT TYPE="radio" NAME="iui" VALUE="0">0<dd>  <INPUT TYPE="radio" NAME="iui" VALUE="1-3">1 to 3   <dd><INPUT TYPE="radio" NAME="iui" VALUE="4-6">4 to 6   <dd><INPUT TYPE="radio" NAME="iui" VALUE="7-12">7 to 12   <dd><INPUT TYPE="radio" NAME="iui" VALUE="more">More than 12<P><p>
+
+
+<img align=top src="grey.gif">   IVF, GIFT, ZIFT.<dd>  How many cycles?<br>
+<dd><INPUT TYPE="radio" NAME="ivf" VALUE="0">0<dd>  <INPUT TYPE="radio" NAME="ivf" VALUE="1-2">1 to 2   <dd><INPUT TYPE="radio" NAME="ivf" VALUE="3-4">3 to 4   <dd><INPUT TYPE="radio" NAME="ivf" VALUE="5-6">5 to 6   <dd><INPUT TYPE="radio" NAME="ivf" VALUE="more">More than 6<p>
+
+<img align=top src="grey.gif">  Donor sperm   <INPUT TYPE="checkbox" NAME="AID" VALUE="yes"> <p>
+
+<img align=top src="grey.gif">  Donor Egg   <INPUT TYPE="checkbox" NAME="Donor Egg" VALUE="yes"> <p>
+<img align=top src="grey.gif"> Laparoscopic surgery  <INPUT TYPE="checkbox" NAME="Laparoscopy" VALUE="yes"><P>
+<h2 align=center><IMG SRC="wavy.gif"></h2>
+
+<b>Type your question in the Email response box (150 words or less).</b><br>
+<pre><TEXTAREA NAME="positive" ROWS=12 COLS=75></TEXTAREA> </pre><P>
+
+
+<b>Confidentiality</b><br>
+Many times the questions that are asked may provide valuable information for teaching others.  Please let me know if I can share this information and whether you wish to remain anonymous. 
+<dd><INPUT TYPE="radio" NAME="confidential" VALUE="Share">Distribute question and response.
+<dd><INPUT TYPE="radio" NAME="confidential" VALUE="Share-but">You may share this info anonymously.
+<dd><INPUT TYPE="radio" NAME="confidential" VALUE="E-Mail">Respond E-Mail only.
+
+<P><b><i>The information provided in return is not intended as a substitute for medical advice of physicians. The reader should regularly consult a physician in matters relating to your health and particularly with respect to any symptoms that may require diagnosis or medical attention.</i></b><p>
+
+<h2 align=center><IMG SRC="bluegreline.gif"></h2>
+What is <b><I><U>YOUR</U></I> First & Last Name <font size="-1"><I>(This field is required.)</font></b><br><input name="Name" size="60" maxlength="60"><P>
+
+<B>Street Address</B> <br><input name="addr1" size="60"><br><input 
+name="addr2" size="60"><br>
+<input name="addr3" size="60"><P> 
+
+<B>Daytime phone number</B> with area code <font size="-1"><I>(U.S. only)</I></font><br><input name="phone" size="30"><br><p>
+<b>Email address</b> <font size="-1"><I>(This field is required for a response. Please check for accuracy)</I></font><br> <input NAME="email" 
+size="30"maxlength="40">
+</dl><h2 align=center><IMG SRC="bluegreline.gif"></h2>
+
+<a name="contribution"><p><H2><b>Making a Voluntary Contribution to the ARHC WWW</b></H2></a>
+
+
+<dl><B>Please provide the following information:</B> <P>
+<dd>Please enter the amount of your contribution in US$: 
+<input name="last4cc" size="4"><P>
+
+<dd><input type="radio" name="payment" value="onfile">If you prefer, you can <A href="faxform.html">FAX</A> your credit card information to <b>(404) 265-4276</b>, or call us at <b>(404)-265-3662.</b> <P>
+<dd><input type="radio" name="payment" value="send_check">Send a check to: ARHC WWW, 285 Boulevard, NE, Suite 320, Atlanta, GA, USA 30312<P>
+
+<dd><input type="radio" name="payment" value="bill4questions">
+Bill me for using the credit card information below. <br></dl>
+
+
+<dl><dl>
+<dd><B>Visa <input type="radio" name="cctype" value="visa">      
+MasterCard <input type="radio" name="cctype" value="mc">Discover <input type="radio" name="cctype" value="discover"></B><br>
+
+<dd><B>Account Number</B> <input name="ccnumber" size="19">  <B>Expiration Date</B> <input name="expdate" size="5"><br>
+<dd><B>Name</B> <I>(exactly as it appears on credit card)</I> <input name="cardname" size="60"><P>
+</dl>
+<B>You are now ready to submit your question. <I>(Only once per question please or your computer might explode!.)</I> <P></B>
+<center><input type="Submit" value="Now Hear This"><input type="reset" value="Oops"></center></form><br><center>Submit this form.</center> 
+<br>
+
+</FORM>
+<h2 align=center><IMG SRC="bluegreline.gif"></h2>
+<a href="index.html">Return to Dr. Perloe's ARHC Homepage</a>
+<font size="-1"><B>This page, and all contents, are Copyright (C) 1996 by Mark Perloe,
+M.D., P.C. Atlanta, GA, USA.</B><P></font></h2>
+
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+</DOC>

@@ -1,0 +1,253 @@
+
+<DOC>
+<DOCNO>WT03-B24-140</DOCNO>
+<DOCOLDNO>IA053-000892-B033-221</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/research/ARPA-ONR/N00014-92-J-4038.html 129.174.40.15 19970123190553 text/html 10724
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:04:43 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 28 Jul 1994 08:10:12 GMT
+Content-type: text/html
+Content-length: 10540
+</DOCHDR>
+<HTML><HEAD><STRONG>ONR Progess Report</STRONG>
+<TITLE>ONR Progress Report</TITLE>
+</HEAD>
+ 
+<BODY>
+ 
+<H1>ProjectTitleLine:</H1>
+<B>Information Integration and Interchange:  A Federated Systems Approach</B>
+<TITLE>ONR Progess Report:  N00014-92-J-4038  AO8977</TITLE>
+<H2>ContractPeriodOfPerformance:</H2> August 1992 - July 1995
+ 
+<H2>ContractNumber:</H2>  N00014-92-J-4038  AO8977
+ 
+<H2>R&T:</H2> 3331003knw03
+ 
+<H2>InvestigatorsLine:</H2>  Larry Kerschberg, Sushil Jajodia, Hassan Gomaa, Ami
+hai Motro
+ 
+<H2>InstitutionLine:</H2>  George Mason University
+ 
+<H2>POC:</H2> kersch@gmu.edu
+ 
+<H2>Objective:</H2>
+ 
+This research addresses information integration and interchange in a 
+federation of heterogeneous information systems.  Individual systems 
+may have distinct naming conventions, different meanings for similar 
+data entities, differing time measurement schemes, and diverse 
+uncertainty management schemes.  The goal is to investigate a 
+federated architecture that allows individual systems to retain 
+autonomy and responsibility over data and knowledge, while still 
+sharing information with the other members of the federation.  
+ 
+<H2>Approach:</H2>
+ 
+The federation architecture consists of a <I>Federation Manager</I> to
+handle the formulation, planning and processing of global queries,
+and Federation Interface Managers (FIMs) to serve as agents for
+local information systems, called federation constituents.  Local
+users have access to their respective local information systems,
+and perform the operations defined therein.  Each FIM contains an
+object-oriented specification of the data and services the local
+information system will provide to the federation.  FIMs may
+communicate directly with each other, or may request assistance
+from the Federation Manager to resolve different types of
+inconsistencies, specifically terminology, time units and temporal
+data model inconsistencies, and inconsistencies in answers provided
+by different databases.  The Federation Manager contains several
+cooperating modules that help to resolve inconsistencies:  an
+active intelligent thesaurus to resolve semantic heterogeneity, a
+temporal mediator to resolve temporal inconsistencies arising from
+different temporal granularities in constituent databases, and a
+harmony agent the integrates conflicting information from
+constituent databases.
+ 
+<H2>Hardware_Software_Prototypes_Available:</H2>
+ 
+The Knowledge-Based Software Engineering Environment (KBSEE) has
+been developed by Drs. Gomaa and Kerschberg under a NASA-sponsored
+research project.  This environment is used for the domain modeling
+portion of the I3 research.  The KBSEE runs on Sun Sparcstations
+under Sun OS, and requires NASA's TAE user interface manager and
+CLIPS expert system shell, as well as IDE's Software through
+Pictures.  NASA has installed the KBSEE at Goddard Space Flight
+Center in Code 520 for evaluation.  The key technologies being
+exported are:  1) domain-independent tools for specifying domain
+models, and 2) knowledge-based tools to generate target system
+specifications from selected system features.  
+ 
+ 
+<H2>Transitions:</H2>
+ 
+<H3>Process Engineer's Expert Advisor</H3>
+ 
+The KBSEE was used on a grant from the Virginia Center of Excellence
+for Software Reuse and Technology Transfer, a Center of Excellence
+funded by ARPA and located at the Software Productivity Consortium
+(SPC) in Herndon, Virginia.    A domain model was specified for the
+family of software process models that can be "generated" from the
+Evolutionary Spiral Model (ESP) developed at SPC.  The KBSEE was
+used to specify the domain model and the Knowledge-based
+Requirements Elicitation Tool, KBRET, assists a Process Engineer to
+select the requirements of a particular project, and then generate
+the process model and the activities best suited to the project
+requirements.  
+ 
+<H3>Earth Observing System Data and Information System (EOSDIS)</H3>
+ 
+The KBSEE is being used to create a domain model of the EOSDIS 
+Core System, under a contract with Hughes Applied Information Systems.  
+The goal is to characterize the major components of the EOSDIS Core 
+System (ECS) and then map the domain model to a client/server model 
+that can drive a performance analysis model. <p> 
+Several information integration issues are also addressed; 
+specifically EOSDIS must interchange data with other agengies 
+such as NOAA, International Partners, and associated data centers.  
+Information integration and interchange is important to the 
+generation of EOS Standard Products as well as for supporting 
+user-specified derived products.  EOSDIS must support the concept of 
+a <EM>federation</EM> of cooperating information systems.
+ 
+<H3>Center for Information Systems Integration and Evolution</H3>
+ 
+The Center for Information Systems Integration and Evolution is 
+a <i>new</i> center at George Mason University which will focus 
+on the important research and development issues confronting the 
+nation in areas such as business process re-engineering, data, 
+information and knowledge interchange, information integration in 
+large-scale systems, and information systems evolution.<p>
+We are witnessing the <i>right-sizing</i> and <i>re-engineering </i>of 
+organizations to better address customer needs and to meet business 
+imperatives for inserting information technology solutions.  
+New architectures are being investigated which bring the computing 
+resource to customers so as to capture information at its source, 
+and to share that information as a corporate resource.  <p>
+Moreover, there is a need to address <i>national challenges</i> such 
+as health care, advanced manufacturing technology, the national 
+information infrastructure and crisis management, all of which require 
+inter-disciplinary approaches to the problem, therefore bringing together 
+domain experts as well as information-, computer- and software- scientists 
+and engineers to create new information system paradigms.  <p>
+Large-scale systems require the integration and interchange of information 
+from heterogeneous autonomous data systems. Examples are: the Logistics 
+Anchor Desk involving collaborative planning among distinct agencies and 
+the integration of information from multiple heterogeneous databases, 
+the Human Genome Project, the Earth Observing System Data Information System 
+(EOSDIS), and the Defense Information Systems Agency's efforts 
+to integrate and evolve existing information systems. <p>
+The Center's Director is Dr. Larry Kerschberg and the 
+Associate Director is Dr. Hassan Gomaa. 
+Please contact Dr. Kerschberg (kersch@gmu.edu) for more information.<p>
+ 
+<H2>LookingForTransitionOpportunities:</H2>
+ 
+Larry Kerschberg participated in an ARPA Working Group to develop ideas for a 
+new ARPA Initiative called the Logistics Anchor-Desk.  The Working Group 
+meeting was held in conjunction with ARPA Planning Initiative PI Meeting 
+held at Tucson, Arizona, February 23-25, 1994.
+ 
+There has been considerable interest within the ARPA I3 community in 
+our plan to provide independent agents that will interact with other systems 
+to help them resolve information inconsistencies (and other possible 
+services related to information uncertainty). Specifically, we 
+have agreed to cooperate with the following projects:  
+ 
+<OL>
+<LI>Project SIMS at ISI (Yigal Arens)
+<LI>Project CoBase at UCLA (Wesley Chu)
+<LI>Project at SRI (Xiaolei Qian)
+</OL>
+ 
+<H2>HonorsReceived: </H2>
+ 
+<H3>Journal Editorships:</H3>
+ 
+<UL>
+<LI>Larry Kerschberg, Editor-in-Chief, <I>Journal of Intelligent Information Sys
+tems</I>, Kluwer Academic Publishers.
+<LI>Sushil Jajodia, Editor-in-Chief, <I>Journal of Computer Security</I>, IOS Pr
+ess, Amsterdam.
+<LI>Sushil Jajodia, Associate Editor, <I>Journal of Intelligent and Cooperative 
+Information Systems</I>.
+<LI>Amihai Motro, Editorial Board Member, <I>Journal of Intelligent Information 
+Systems</I>.
+</UL>
+<H3>Conference Committees:</H3>
+<H4>Larry Kerschberg</H4>
+ 
+<UL>
+<LI><B>General Chair</B>, <I>1993 ACM-SIGMOD International Conference on Managem
+ent of Data</I>, held at the Omni Shoreham Hotel, Washington, D.C., May 1993.  
+</UL>
+<B>Program Committee Member:</B> 
+<UL>
+<LI><I>Knowledge Discovery in Databases</I>, American Association for Artificial
+ Intelligence (AAAI), July 1993 and July 1994.
+<LI><I>IEEE Workshop on Interoperability in Multidatabase Systems</I>, April 199
+3.
+<LI><I>IEEE Research Issues in Data Engineering - Active Database Systems<I>, Ap
+ril 1994.  
+</UL>
+<H4>Sushil Jajodia</H4>
+ 
+<UL>
+<LI><B>Chair of Steering Committee</B> for <I>International Conference on 
+Parallel and Distributed Information Systems</I> (Issues, Architectures, 
+and Algorithms). The 3rd PDIS conference will be held October 1994 in Austin, TX
+.
+</UL>
+<B>Program Committee Member:</B> 
+<UL>
+<LI><I>2nd ACM Conference on Computer and Communications Security</I>, Nov. 2-4,
+1994. 
+<LI><I>IEEE Symposium on Research in Security and Privacy</I>, Oakland, CA, May,
+ 1994. 
+<LI><I>20th Very Large Data Base Conference</I>, Santiago, Chile, Sept. 12-15, 1
+994. 
+<LI><I>3rd European Symp. on Research in Computer Security</I>, Brighton, U.K., 
+Nov. 7-9,  1994. 
+<LI><I>International Conference on Information Systems and Management of Data</I
+>, Madras, India, Oct. 25-27, 1994. 
+<LI><I>International Symp. on Object-Oriented Methodologies and Systems</I>, Pal
+ermo, Italy, Sept. 21-22, 1994. 
+<LI><I>IEEE International Conference on Parallel and Distributed Information Sys
+tems</I>, Austin, TX, Oct. 1994. 
+<LI>13th IEEE Symposium on Reliable Distributed Systems, Irvine, CA, Oct. 25-27,
+ 1994. 
+<LI>ACM SIGMOD International Conference on Management of Data, San Jose, CA, 199
+5.
+</UL>
+<H4>Hassan Gomaa</H4>
+ 
+<B>Program Committee Member:</B>
+<UL>
+<LI><I>Second International Workshop on Configurable Distributed Systems</I>, Pi
+ttsburgh, PA, March 1994.  
+<LI><I>Third International Conference on Software Reuse</I>, To be held in Rio d
+e Janeiro, Nov. 1994.
+</UL>
+<H4>Amihai Motro</H4> 
+ 
+<UL>
+<LI><B>Co-organizer:</B> NSF/ESPRIT Workshop on Uncertainty Management in Inform
+ation Systems (UMIS), Avalon (Santa Catalina), CA, April 1993.
+</UL>
+<B>Program Committee Member:</B>  
+<UL>
+<LI><I>ACM-SIGMOD 93</I>, International Conference on Management of Data, Washin
+gton, DC, May 1993.
+<LI><I>AAAI 93 Workshop on Knowledge Discovery in Databases</I>, Washington, DC,
+ July 1993.
+<LI><I>20th International Conference on Very Large Data Bases</I>, Santiago, Chi
+le, Sept. 1994.
+</UL> 
+ 
+</BODY>
+ 
+<STRONG>End of ONR Progress Report</STRONG>
+
+</DOC>

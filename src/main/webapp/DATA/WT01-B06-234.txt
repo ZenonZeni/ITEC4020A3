@@ -1,0 +1,300 @@
+
+<DOC>
+<DOCNO>WT01-B06-234</DOCNO>
+<DOCOLDNO>IA087-000625-B005-120</DOCOLDNO>
+<DOCHDR>
+http://www.sema.org:80/prods.html 207.171.2.114 19970122034930 text/html 12604
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 03:45:10 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 12432
+Last-modified: Sat, 16 Nov 1996 00:43:38 GMT
+</DOCHDR>
+<html>
+<head><title>SEMA Search by Product R.2.0</title></head>
+<body bgcolor=#ffffff>
+<IMG SRC="/pics/newlogo.gif" ALT="SEMA LOGO" ALIGN="BOTTOM"> <BR>
+
+<Center>
+
+<h1>Search Manufacturers by Product Type</h1><hr>
+<form method=post action=cgi-bin/psearch.cgi>
+<b>
+A product category search returns<br>
+all companies that produce the chosen product or any<br>
+company in that product type whose name begins with a specific letter.</b>
+<select name=catagory>
+<option selected value=ALL>All Categories
+<option value=AC320>Accessories, personal, sunglasses, gloves, mugs, etc.
+<option value=CC120>Additives: cooling system
+<option value=CC105>Additives: fuel, oil
+<option value=CC125>Additives: transmission
+<option value=AC105>Aerodynamics, ground effects kits
+<option value=CO105>Air conditioning, heaters, parts
+<option value=AC110>Air fresheners
+<option value=EL125>Alternators, generators, starters, voltage regulators
+<option value=EE140>Antennas
+<option value=AC305>Apparel, caps, T-shirts
+<option value=AG100>Art, graphics, posters
+<option value=AS100>Associations, promoters, sanctioning bodies
+<option value=EE130>Audio: sound systems, radios, CBs, accessories
+<option value=SPC01>Awnings
+<option value=EL110>Batteries
+<option value=EL155>Battery chargers, accessories, tools
+<option value=EN105>Bearings
+<option value=AC165>Bedliners: truck/van
+<option value=EN110>Belts, hoses, pulleys
+<option value=BC105>Body parts, replacements
+<option value=BC170>Body repair
+<option value=BC110>Body trim, molding
+<option value=CH115>Brake system, conversion (kits)
+<option value=CH110>Brake systems, components (air)
+<option value=CH120>Brake systems, components (disc)
+<option value=CH105>Brake systems, components (hydraulic)
+<option value=AC175>Brushes, scrapers, squeegees
+<option value=BC115>Bumpers, guards
+<option value=SPC02>Bus conversions
+<option value=DR110>Camper shells, van tops, related accessories
+<option value=EN120>Camshafts
+<option value=SE110>Cans: gas, oil, fuel
+<option value=AC405>Caps: fuel, oil, radiator
+<option value=IF115>Carburetors, components (OEM replacement)
+<option value=IF110>Carburetors, components (performance)
+<option value=AC145>Carriers: luggage, ski, bike, tire, ladders
+<option value=EE145>Cellular phones
+<option value=CC115>Chemicals: cleaners, rust-proofing, sealers
+<option value=CC115>Chemicals: tire sealant, undercoating, deicers, assorted
+<option value=SA130>Child restraints
+<option value=AC310>Clocks, chronographs, compasses, watches
+<option value=DR105>Clutches, flywheels
+<option value=EE120>Computer chips, PROMs
+<option value=EE115>Computers: performance, navigation
+<option value=EE135>Computers: software, hardware
+<option value=EN115>Connecting rods, bearings, crankshafts, cylinder heads
+<option value=AC120>Convertible tops, top conversions
+<option value=CO125>Coolants, anti-freeze
+<option value=CO110>Coolers: oil, transmission, engine
+<option value=AC125>Covers: car, truck, boat, fender, bra, landaus, boots
+<option value=AC115>CV assemblies, driveshafts, axles
+<option value=AC205>Dashboard: covers, overlays
+<option value=AC330>Decals, emblems
+<option value=AC130>Deflectors/screens
+<option value=CC130>Defoggers, defrosters
+<option value=RE120>Dent removal, glass repair, vinyl repair
+<option value=EN210>Diesel engines/components
+<option value=MS102>Displays, P.O.P.s, signs, support services
+<option value=MS109>Drain containers
+<option value=MS110>Economic development
+<option value=EL120>Electrical: wire, fuses, flashers, circuit breakers, terminals
+<option value=EE110>Electronic control modules
+<option value=EX115>Emission-system components
+<option value=AC410>Engine accessories: chrome and others
+<option value=EN400>Engine rebuild kits
+<option value=EN300>Engine stands, hoists
+<option value=EN200>Engines
+<option value=EX105>Exhaust: headers and accessories
+<option value=EX110>Exhaust: mufflers, pipes, converters, manifolds, repair
+<option value=CO115>Fans: thermostatic, electric, related products
+<option value=BC120>Fasteners/hardware: nuts, clamps, bolts, etc.
+<option value=TW145>Fender flares, splash guards, flaps
+<option value=CC200>Filters: air, oil, fuel
+<option value=SA110>Fire extinguishers
+<option value=WE100>Fixtures: store, warehouse
+<option value=EL150>Flashlights, batteries
+<option value=AC210>Floor mats, carpeting, trunk liners
+<option value=IF125>Fuel injection systems, components
+<option value=IF120>Fuel lines, fittings, tanks, regulators
+<option value=IF105>Fuel systems, auxiliary
+<option value=MS112>Funnels
+<option value=EN130>Gaskets, seals
+<option value=AC215>Gauges, instruments
+<option value=EN135>Gears, gear drives, timing chains
+<option value=BC125>Grilles
+<option value=CH320>Handling kits, anti-sway bars
+<option value=EN140>Harmonic balancers
+<option value=EL105>Headlights, sealed beams
+<option value=HV100>Heavy-vehicle products
+<option value=EL145>Horns
+<option value=IG115>Ignition distributors
+<option value=IG105>Ignition system components
+<option value=IG110>Ignition system components (electronic)
+<option value=IF150>Induction components: scoops, boxes
+<option value=MS103>Insulating products
+<option value=IF145>Intake manifolds, adapters
+<option value=AC420>Interiors: kits, headliners, door panels
+<option value=MS105>Inventory-control systems
+<option value=SE105>Jacks, jack-stands, ramps
+<option value=AC135>Lenses: headlights/taillights
+<option value=BC135>Light bars, push bars, grille guards
+<option value=EL130>Lighting: driving, auxiliary, fog, accessories
+<option value=EL140>Lighting: interior
+<option value=AC185>Litter baskets, containers
+<option value=AC140>Louvers, sun visors, shades
+<option value=AC150>Mirrors
+<option value=MS106>Motorcycle/moped parts
+<option value=IF130>Nitrous oxide systems
+<option value=AC315>Novelties, license frames, key fobs
+<option value=CC110>Octane boosters
+<option value=EN145>Oil pans, timing chain covers
+<option value=CC300>Oil: motor, penetrating, general purpose, grease
+<option value=OEM01>Original Equipment Mfg
+<option value=BC130>Paint, refinishing supplies
+<option value=PA100>Parts for imports: full line
+<option value=AC325>Pins, badges
+<option value=EN150>Pistons, rings
+<option value=PL100>Plating processes
+<option value=AC230>Power accessories: windows, door locks
+<option value=AC430>Premiums
+<option value=MI105>Publications: magazines, books, videos
+<option value=EN155>Pumps: air, fuel, oil, water
+<option value=AC450>Racks: permanent, roof, or deck
+<option value=EE125>Radar detectors
+<option value=CO120>Radiators
+<option value=MI115>Repair manuals
+<option value=RE110>Restoration Products
+<option value=MS104>Retail/wholesale support services
+<option value=SA135>Rollbars
+<option value=BC140>Running boards, accessories
+<option value=SA145>Safety equipment/accessories: apparel, helmets, blankets
+<option value=SA145>Safety equipment/accessories: harnesses, seat belts, parachutes
+<option value=SA140>Scatter shields/guards
+<option value=AC240>Seat covers, seat cushions, sheepskins, etc.
+<option value=AC235>Seats, accessories
+<option value=EE105>Security/alarm systems
+<option value=SE100>Service: hoists/repair/balancing equipment
+<option value=DR125>Shifters, accessories
+<option value=SE115>Shop equipment, lathes, welders
+<option value=AC250>Snack trays, tables, consoles
+<option value=TW140>Snow chains
+<option value=MS101>Snowplows, ice-control equipment
+<option value=IG120>Spark plugs
+<option value=AC435>Speed controls
+<option value=MS113>Spouts
+<option value=CH200>Steering system components
+<option value=AC255>Steering wheels, covers
+<option value=SR100>Street rod parts, accessories
+<option value=AC155>Striping, body decals, graphics
+<option value=BC145>Sunroofs, moonroofs, T-tops
+<option value=IF135>Superchargers, components
+<option value=CH305>Suspension: lift kits, shackles, body lifts, lowering kits
+<option value=CH325>Suspension: shocks, struts
+<option value=CH310>Suspension: springs, boosters
+<option value=EL115>Switches, accessories
+<option value=BC175>Tape: friction, masking, stripping
+<option value=SE120>Test/tune-up equipment
+<option value=CO130>Thermostats
+<option value=AC160>Tie downs, tow ropes, straps
+<option value=TW165>Tire pumps
+<option value=TW155>Tire-changing equipment
+<option value=TW105>Tires, tire repair, tubes
+<option value=SE130>Tool boxes, creepers
+<option value=SE125>Tools: hand and power
+<option value=DR120>Torque convertors
+<option value=MI110>Trailers, trailer and towing accessories
+<option value=DR130>Transfer cases, components
+<option value=DR135>Transmissions, differentials, components
+<option value=AC170>Truck bed accessories
+<option value=AC425>Truck cab accessories
+<option value=IF140>Turbochargers, components
+<option value=MS107>Vacuum cleaners
+<option value=AC415>Valve covers, air cleaners
+<option value=EN160>Valve-train components, rocker arms
+<option value=AC260>Van furniture, accessories
+<option value=AC350>Washing/cleaning: chamois, sponges, towels, wash
+<option value=CC400>Waxes, polishes, cleaners
+<option value=TW175>Wheel-alignment products/equipment
+<option value=TW130>Wheels: aluminum
+<option value=TW115>Wheels: covers, lug nuts, accessories
+<option value=TW135>Wheels: dual
+<option value=TW125>Wheels: steel
+<option value=AC180>Winches, accessories
+<option value=BC160>Window blinds, curtains
+<option value=BC150>Window film, tint
+<option value=BC155>Windows, vents
+<option value=BC165>Wiper blades, washers, accessories, repair kits
+</select>
+<p>
+<font size=+1>
+
+<input type=submit name=stype value="Show all entries in the above category"> or just<br>
+<input type=submit name=stype value="Show those that begin with the letter:">
+<select name=letter>
+<option selected>A<option>B<option>C<option>D<option>E<option>F<option>G<option>H<option>I
+<option>J<option>K<option>L<option>M<option>N<option>O<option>P<option>Q<option>R<option>S
+<option>T<option>U<option>V<option>W<option>X<option>Y<option>Z
+</select>
+<br>
+<h3>OR<p>
+
+ Enter a keyword to search for company name, ZIP code, city or state (two-letter postal abbreviation)</h3>
+<input type=text name=keyword size=40 maxlength=40><br>
+<input type=submit name=stype value="Search"><p>
+
+
+</font>
+</form>
+</center>
+
+
+<hr>
+<h3>Search Engine Behavior</h3>
+<ol>
+<li>Searches are performed across several fields:
+<ol type=A>
+<li>company name
+<li>city
+<li>state (two-letter postal abbreviation)
+<li>ZIP Code
+</ol>
+<li>The engine can take as many keywords as you can fit into the box.  Separate keywords
+with a space.
+<li>If a match of any of your keywords occurs with any field in the master database, the engine will display the match.
+<li>Matches are not restricted to whole-word matches.  For example, if you use
+"<strong>wis</strong>" as your keyword, you'll pull up matches with "<strong>Wis</strong>dom"
+and "Le<strong>wis</strong>."
+<li>The engine is not case-sensitive.
+</ol>
+<h3>Tips for Searching</h3>
+<ol>
+<li>Try to use one or two keywords that are unique to the company you are searching for.
+<li>"Less is More"&#151 The fewer characters you use in the search, the more matches you'll get.
+<li>If you want to find only those companies in your ZIP code, simply type
+in your ZIP code.  Do likewise for area code, city and state.  However, searching by these
+methods, especially by the two-letter state abbreviation, will bring up other matches that
+really shouldn't be included.  For example, a search for "<strong>CA</strong>" will bring up every company that has the letters "C" and "A" in its name.
+</ol>
+<!--FOOTER START-->
+<table>
+<tr><td width=550>
+<BR CLEAR=ALL>
+<center>
+<HR>
+<A HREF="/index.html"><IMG border=0 SRC="/pics/b_home.gif" ALT="[SEMA]"></A>
+
+<A HREF="/cgi-html/contact.html"><IMG border=0 SRC="/pics/b_mail.gif" ALT="[Mail]"></A>
+
+<A HREF="/searchsema.html"><IMG border=0 SRC="/pics/b_find.gif" ALT="[Site Search]"></A>
+
+<A HREF="/postit/"><IMG border=0 SRC="/pics/b_bbs.gif" ALT="[Message Boards]"></A>
+
+<A HREF="/cgi-html/list.html"><IMG border=0 SRC="/pics/b_email.gif" ALT="[E-Mail List]"></A>
+
+</center>
+
+<br>
+<FONT SIZE=-1>
+ Last updated: Nov. 15, 1996 by <a href="mailto:aland@sema.org">Webmaster.</a><Br>
+Copyright &copy Specialty Equipment Market Association (SEMA)-All rights reserved.<br>
+<align=right>
+<em><strong>This site is brought to you by...<br></strong></em>
+ <a href="http://www.ibcc.com">The Internet Business Consulting Company</A><br>
+ </FONT SIZE>
+</td></tr>
+</table>
+</center>
+<!--11/15/96 4.00 AD-->
+<!--FOOTER END-->
+</body></html>
+
+</DOC>

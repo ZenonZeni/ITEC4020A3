@@ -1,0 +1,206 @@
+
+<DOC>
+<DOCNO>WT02-B18-104</DOCNO>
+<DOCOLDNO>IA031-000660-B046-312</DOCOLDNO>
+<DOCHDR>
+http://minerva.forestry.umn.edu:80/SSiF/index.html 128.101.70.48 19970209094628 text/html 6171
+HTTP/1.0 200 Document follows
+Date: Sun, 09 Feb 1997 ? GMT
+Server: NCSA/1.4.1
+Content-type: text/html
+Last-modified: Thu, 06 Feb 1997 ? GMT
+Content-length: 6009
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Social Sciences Bibliography</TITLE>
+</HEAD>
+
+<BODY>
+<CENTER>
+
+<TABLE>
+<TR>
+	
+	<TD><FONT SIZE=+3><B>Social Sciences in Forestry Bibliography</B><BR></FONT><FONT SIZE=+2>Updated December 1996<P>Jean Albrecht, Editor and Compiler<BR>Patricia Rodkewich, Contributor<BR>Laura Hutchinson, Data Entry<BR><BR>Forestry Library<BR>College of Natural Resources<BR>University of Minnesota<BR>St. Paul, MN<p></FONT></TD>
+</TR>
+</TABLE>
+
+</CENTER>
+		    
+<BR><BR>
+		    
+"Social Sciences in Forestry" is an annotated bibliography distributed by the Forestry Library, College of Natural Resources, University of Minnesota, St. Paul, MN.<P>
+
+The hierarchy implemented here is of the form Whole Database --> <A HREF="subject.html">Subject Areas (43 areas)</A> --> Publication Issues --> Citations. You can browse a subject area for a particular issue or do full text searching for the database as a whole. At present, 48 issues (March 1985 - December 1996) have been put on-line (30880 citations). Note that the subject area name and number are part of each citation so that either may be included in search specifications.<P>
+
+Loans or xerox copies of publications indexed in Social Sciences in Forestry are available from the Interlibrary Loan Division, St. Paul Campus Libraries, 1984 Buford Avenue, St. Paul, MN 55108. FAX (612) 624-9245. USDA employees, please use Standard Form AD-245 in submitting your requests. Others, please submit requests on the standard interlibrary loan forms through your nearest library.<P>
+
+This bibliography will be updated quarterly on line.<P>
+
+<BR>
+
+<FONT SIZE=+2>
+Search the Social Sciences Bibliography and retrieve citation links<BR>
+</FONT>
+<FORM ACTION="gopher://minerva.forestry.umn.edu/77/SSiF/SSiF.index">
+<DL>
+	<DT><DD><INPUT NAME="ISINDEX" SIZE=40> <INPUT TYPE="SUBMIT" VALUE="Search"> <A HREF="help1.html">HELP</A>
+</DL>
+</FORM>
+
+<BR>
+
+<FONT SIZE=+2>
+Search the Social Sciences Bibliography and retrieve full citations<BR>
+</FONT>
+
+<form method=POST action="/cgi-bin/isearch">
+<input name="DATABASE" type=hidden value="SSIF">
+<input name="SEARCH_TYPE" type=hidden value="BOOLEAN">
+<input name="FIELD_1" type=hidden value="FULLTEXT">
+<input name="FIELD_2" type=hidden value="FULLTEXT">
+<input name="WEIGHT_1" type=hidden value="1">
+<input name="WEIGHT_2" type=hidden value="1">
+<input name="ELEMENT_SET" type=hidden value="B">
+
+<DL>
+<DT>
+<DD>
+	<input name="TERM_1">
+	<select name="OPERATOR">
+		<option selected>AND
+		<option>OR
+		<option>ANDNOT
+	</select>
+	<input name="TERM_2">
+<!	<input type="submit" value="Search"> <! <A HREF="help2.html">HELP</A> 
+<DD>	<FONT SIZE="-1">Sorry, only simple boolean searches at the moment</FONT>
+<DD>	Enter maximum number of hits to retrieve: <input size=4 name="MAXHITS" value="50">
+</DT>
+</DL>
+
+</form>
+
+<BR>	
+			
+<FONT SIZE=+2>
+Browse the Social Sciences Bibliography<P>
+</FONT>
+
+<FORM METHOD="GET" ACTION="http://minerva.forestry.umn.edu/cgi-bin/ssif">
+
+<TABLE>
+
+<TR>
+
+<TD><B>CHOOSE: Subject Area</B></TD>
+<TD><B>Year</B></TD>
+<TD><B>Issue</B></TD>
+
+</TR>
+
+<TR>
+
+<TD>
+<SELECT NAME="subject">
+	<OPTION SELECTED VALUE="00">General Publications
+	<OPTION VALUE="01">Forest Resources: Regional, Natl., Internatl.
+	<OPTION VALUE="02">History
+	<OPTION VALUE="03">Legislation
+	<OPTION VALUE="04">Policy
+	<OPTION VALUE="05">Planning
+	<OPTION VALUE="06">Appraisal and Valuation
+	<OPTION VALUE="07">Investment and Finance
+	<OPTION VALUE="08">Taxation
+	<OPTION VALUE="09">Subsidization
+	<OPTION VALUE="10">Economic Development
+	<OPTION VALUE="11">Social and Communal Forestry
+	<OPTION VALUE="12">Agroforestry
+	<OPTION VALUE="13">Sector Analysis
+	<OPTION VALUE="14">Professional Activities, Education, Employment
+	<OPTION VALUE="15">Research Evaluation and Methodology
+	<OPTION VALUE="15a">Technology Transfer and Extension
+	<OPTION VALUE="16">Environmental Concerns
+	<OPTION VALUE="16a">Social and Cultural Impacts
+	<OPTION VALUE="17">Forest Management - General
+	<OPTION VALUE="18">Multiple Use Management
+	<OPTION VALUE="19">Ownership - General Aspects
+	<OPTION VALUE="20">Ownership - Public Lands
+	<OPTION VALUE="21">Ownership - Private - General
+	<OPTION VALUE="22">Ownership - Private - Industrial
+	<OPTION VALUE="23">Ownership - Pri. Forestry - Indust. & Nonindust.
+	<OPTION VALUE="24">Labor Considerations - Work Studies
+	<OPTION VALUE="25">Protection
+	<OPTION VALUE="26">Outdoor Recreation
+	<OPTION VALUE="27">Wilderness Mgt. - Nature Cons. - Natl. Parks
+	<OPTION VALUE="28">Range Management
+	<OPTION VALUE="29">Urban Forestry
+	<OPTION VALUE="30">Watershed Management
+	<OPTION VALUE="31">Wildlife and Fish
+	<OPTION VALUE="32">Wood Production - General
+	<OPTION VALUE="33">Wood Production - Timber Harvesting
+	<OPTION VALUE="34">Wood Production - Timber Supply
+	<OPTION VALUE="35">Wood Production - Timber Sales
+	<OPTION VALUE="36">Wood-Using Industries
+	<OPTION VALUE="37">Non-Industrial Forest Products
+	<OPTION VALUE="37a">Fuelwood - Wood Energy
+	<OPTION VALUE="38">Markets - Marketing Trade
+	<OPTION VALUE="39">Transportation
+</SELECT> 
+</TD>
+
+<TD>
+<SELECT NAME="year">
+	<OPTION VALUE="85">1985
+	<OPTION VALUE="86">1986
+	<OPTION VALUE="87">1987
+	<OPTION VALUE="88">1988
+	<OPTION VALUE="89">1989
+	<OPTION VALUE="90">1990
+	<OPTION VALUE="91">1991
+	<OPTION VALUE="92">1992
+	<OPTION VALUE="93">1993
+	<OPTION VALUE="94">1994
+	<OPTION VALUE="95">1995
+	<OPTION VALUE="96" SELECTED>1996
+</SELECT>
+</TD>
+
+<TD>
+<SELECT NAME="issue">
+	<OPTION SELECTED VALUE="1_">1
+	<OPTION VALUE="2_">2
+	<OPTION VALUE="3_">3
+	<OPTION VALUE="4_">4
+</SELECT>
+</TD>
+
+</TR>
+</TABLE>
+
+<BR>
+
+<INPUT TYPE="submit" VALUE="Retrieve Document Titles">
+
+</FORM>
+
+
+<HR>
+<BR>
+
+<CENTER>
+Copyright 1996<BR>
+Regents of the University of Minnesota<BR>
+All Rights Reserved<p>
+</CENTER>
+
+The University of Minnesota is committed to the policy that all persons
+shall have equal access to its programs, facilities, and employment
+without regard to race, religion, color, sex, national origin, handicap,
+age, veteran status or sexual orientation.<P>
+
+
+</BODY>
+</HTML>
+</DOC>

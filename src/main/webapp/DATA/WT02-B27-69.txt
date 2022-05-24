@@ -1,0 +1,104 @@
+
+<DOC>
+<DOCNO>WT02-B27-69</DOCNO>
+<DOCOLDNO>IA070-000440-B030-26</DOCOLDNO>
+<DOCHDR>
+http://ltl4.gse.buffalo.edu:80/FAS/TShuell/TFL/CogAp/cogcomp 128.205.103.135 19970208170644 text/html 9065
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <af222c00.10517@ltl4.gse.buffalo.edu.>
+Date: Saturday, 08-Feb-97 13:11:28 GMT
+Last-Modified: Wednesday, 04-Dec-96 12:02:48 GMT
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+
+<TITLE>Potentials of Computers</TITLE>
+
+<!-- Date: Wednesday, December 4, 1996 -->
+</HEAD>
+
+<BODY BGColor="#CCFFFF">
+
+<H2 ALIGN=CENTER>Potentials of Computer Technology</H2>
+<FONT SIZE=-1>Developed by <A HREF="../Students#SG">Sue Gerber</A></FONT><BR>
+<HR> 
+<BR>
+The increased prevalence of computers in the classroom makes them and their utilization an issue in almost  every aspect of teaching.  With respect to cognitive apprenticeships, technology may be a potential means for addressing some of the  issues relating to implementation of programs.  For instance,  computer programs could function in part as the expert modeler,  freeing the teacher to provide individual assistance on an as needed basis.  Students could also work in small groups on one computer, thereby facilitating cooperative learning and deeper understanding.<BR>
+<BR>
+LOGO, a computer programming language created by <A HREF="cogref#Logo">Seymour Papert</A> for teaching children geometry, is one technique that fits many aspects of the cognitive apprenticeship model.  The theoretical foundation for LOGO is aligned with the work of both Piaget and VanHiele, and is therefore constructivist and deals with stages or levels of thinking.  Both theorists discuss the resolution of some type of cognitive conflict  in which the child's explanation of a process or construct does not coincide with his or her observation of reality.  The resolution of these conflicts is very much akin to what is involved in <A HREF="cogexam#Change">conceptual change</A>.<BR>
+<BR>
+In LOGO, students issue commands that direct the movement of the cursor (shaped like a turtle)  to create geometric objects.  For instance, to draw a square a child may need to command the turtle to move fd 50 (forward 50),  rt 90 (turn right 90 degrees), fd 50, rt 90, and so forth.  Through practice and exploration, students begin to understand the abstract principles of geometry and geometric concepts.  Several researchers and theorists have discussed additional benefits of using LOGO such as increased problem solving ability and socioemotional growth.<BR>
+<BR>
+Although it has not been labeled a cognitive apprenticeship model, almost all of the principles fundamental to cognitive apprenticeships are also apparent with LOGO.  The only aspect that is not specifically discussed on the literature is the modeling-coaching-fading.  True, this is the fundamental principle of cognitive apprenticeship, but because it has not been framed in such a manner, does not mean that the features do not apply.<BR>
+<BR>
+As with all instructional techniques, the utility of LOGO depends upon the manner in which  teachers implement the program.  In order to be most beneficial, it seems that implementation will involve some degree of modeling.  Although Papert envisioned students being involved in almost total discovery learning, most classroom uses have employed guided discovery.<BR>
+<BR>
+For instance, teachers must first introduce the concept of the LOGO programming language, and provide the students with the necessary fundamentals to use the program.  Proponents of LOGO also suggest that lessons may begin with small group or whole class discussions, brainstorming as to approaches to solve a problem, and then implementation.  Several research and practical articles discuss other elements of effective lesson.  (Click <A HREF="cogref#Logo">here</A> for a list of references.)<BR>
+<BR>
+Interaction with the computer provides the students with the practice necessary to gain an understanding of abstract geometric principles and constructs.  Children can also utilize the program to test hypotheses.   Once these principles are learned, the child is no longer dependent upon the computer -- he or she can discuss geometric concepts in the abstract.  Thus, modeling, coaching, and fading may be appropriate ways in which to frame discussions regarding LOGO.<BR>
+<BR>
+The other features of cognitive apprenticeships are much more readily apparent:<BR>
+<UL>
+<LI> Cooperation and Dialogue<BR>
+<BR>
+One of the hallmarks of LOGO programs is that children work in pairs or groups.  Sharing one computer, students must ideally discuss how to accomplish a task and agree upon a method for doing so before "jumping in" with no plan.  They must also hypothesize the reasons a particular approach may not be working and suggest possible solutions.<BR>
+<BR>
+<LI> Generalization<BR>
+<BR>To some extent, the purpose of most of teaching is to foster generalization of isolated facts and skills to their underlying principles.  LOGO programming  makes the conditions for generalization inviting.   For instance, having to repeat the commands fd 50 rt 90 four times to create a square, the child will (hopefully) see a pattern.  In fact, LOGO allows one to write macros.  That is, a child could give this combination of commands a name, and then direct the computer to draw a square by "telling" it to repeat this combination four times.<BR>
+<BR>
+<LI> Global first, then local<BR>
+<BR>
+Children are usually presented with a task or game worded in the finished form -- e.g., draw a square.  Thus, they are aware of the larger goal.  In addition, when working through a problem, they can focus on macro concepts first, and then attend to the micro aspects later.  Confronted with the task of drawing an isosceles triangle, for instance, a student may first work on creating any triangle, and then explore means of refining it.<BR>
+<BR>
+<LI> Reflection<BR>
+<BR>
+Reflection occurs as the result of many aspects of the LOGO method.  In explaining their hypothesized reasons for errors to the other(s), for instance,  children must  reflect upon other viewpoints in order to defend their own.   Also, in proposing courses of action, they must translate their thoughts and strategies into programming steps.<BR>
+<BR>
+<LI> Scaffolding<BR>
+<BR>
+Scaffolding can occur on several levels.  The existence of the computer frees up the teacher to rotate among the students, assessing their current knowledge and ability.  He or she can then, through carefully chosen feedback, assist students on an individual basis, which is much more efficient.  Students can also scaffold one another when working in groups.  It may also be possible, depending upon the way in which activities are developed an implemented, that the computer be the scaffolder at times.<BR>
+<BR>
+<LI> Simple first, then complex<BR>
+<BR>
+Because of the capacity of the computer and the LOGO language, it is easy for teachers to create a series of assignments which build upon one another in complexity.<BR>
+<BR>
+<LI> Metacognitive Strategies<BR>
+<BR>
+The debugging phase of the problem solving process of LOGO programming encourages monitoring in students, as was discussed in the reflections and cooperation points of this page.<BR>
+</UL>
+The use of technology for cognitive apprenticeships may also alleviate some of the difficulties or issues involved in implementing cognitive apprenticeship programs:<BR>
+<UL>
+<LI>Making thoughts visible<BR>
+<BR>
+By requiring the students to program the computer to draw a square, for instance, their intuitive understanding of the properties of the square are concretized.  The must actually write down that they intuitively know to be the properties of a square -- four equal sides separated by 90 degree angles.<BR>
+<BR>
+<LI>Number of students/time constraints<BR>
+<BR>
+Computers have a strange ability to captivate both children and adults.  Therefore, the use of the computers may actually keep children more on task, and permit the teacher to rotate through the class, giving help when needed.  He or she does not, in other words, need to be commanding the attention of all students at any given time.   This alleviates some of the difficulties inherent in having an apprenticeship in which there is one master working with 30 novices.<BR>
+</DL>
+Click <A HREF="cogref#Logo">here</A> for a list of LOGO and other computer related references.<BR>
+<BR>
+<HR>
+<!-GERBER -BEGIN  FEEDBACK  HTML------------------------------------->
+We would be interested in your comments and/or feedback on this page.  Please 
+type your comments, name, and email address in the boxes below.  THANK YOU!<p>
+<form method=post action="http://www.hway.net/iasoft/cgi-local/shuell1.pl">
+</font size><strong><textarea name="feedback" rows=10 cols=70>
+</textarea><p>
+</font size><strong>Realname</strong>: <input name="RealName" size=20,50>
+</font size><strong>email address</strong>: <input name="Email" size=30,50><p>
+<input type="submit" value="Send in feedback">
+</form>
+<!-------------END FEEDBACK HTML ---------------------------------->
+<HR>
+<center>
+<font size=4><A HREF="Cog.home">Cognitive Apprenticeship Home Page</A><BR>
+<A HREF="../../TFL.home">Teaching for Learning Home Page</A>
+</font></center>
+
+</BODY>
+</HTML>
+</DOC>

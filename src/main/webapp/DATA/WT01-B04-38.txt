@@ -1,0 +1,64 @@
+
+<DOC>
+<DOCNO>WT01-B04-38</DOCNO>
+<DOCOLDNO>IA080-000557-B034-256</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/TRProgram.html 137.79.14.197 19970103071222 text/html 8549
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f286.318@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:17:26 GMT
+Last-Modified: Monday, 29-Jan-96 18:05:06 GMT
+Content-type: text/html
+Content-length: 8305
+</DOCHDR>
+<TITLE>JPL ROVER AND TELEROBOTICS PROGRAM</title>
+<img src="logo.gif"><p>
+<H1>ROVER AND TELEROBOTICS PROGRAM:</h1>
+<H2><I>ACCOMPLISHMENTS AND TECHNOLOGY TRANSFER - January 1996</i></h2><img src="TRGRP2.GIF"><img src="ROVGRP2.GIF">
+<H2>Point of Contact:	C. R. Weisbin, Program Manager</h2>
+<H4>					Charles.R.Weisbin@jpl.nasa.gov</h4>
+
+<H3>INTRODUCTION</h3>
+The JPL Rover and Telerobotics Technology Program, sponsored by the National Aeronautics and Space Administration (NASA), responds to opportunities presented by NASA space missions and systems, and seeds commercial applications of the emerging robotics technology.  The primary goals of the JPL program, listed below, are derived from the overall NASA Telerobotics Program goals.<p>
+<blockquote>
+<B><I>Develop, integrate, and demonstrate the science and technology of remote telerobotics leading to increases in operational capability, safety, cost effectiveness, and probability of success of NASA missions<p>
+Develop and demonstrate the required technology so that a significant number of operations in Earth orbit and on planetary surfaces may be conducted telerobotically.</b></i><p>
+</blockquote>
+The scope of the JPL Rover and Telerobotics Technology program ranges from basic research, through synthesis of complete systems, and to evaluation in realistic ground and flight experiments.  Emerging technologies have important dual uses in support of NASA thrusts in space and in such commercial areas as medical robotics.  <p>
+The Rover and Telerobotics Technology Program comprises four major segments of activity:  robotic systems for planetary exploration, robotic systems for on-orbit servicing tasks, robotic systems for terrestrial and commercial applications, and technology for non-NASA sponsors, Significant technical achievements have been reached in each of these areas, including complete telerobotic system prototypes that have been built and tested in realistic scenarios relevant to prospective users.  In addition, the program has conducted complementary basic research and created innovative technology and terrestrial applications, as well as enabled a variety of commercial spin-offs.<p>
+The Rover and Telerobotics Technology Program is an element of NASA's ongoing research program under the Office of Space Access and Technology.  Universities and industrial partners are major participants in the JPL program.  An operating division of the California Institute of Technology, JPL performs research, development, and related activities for NASA and plays a key role as NASA's lead center for the robotic exploration of space.<p>
+This summary provides selected highlights of the technical achievements of the JPL program.  <p>
+<img src="bullet.gif"><a href="Planetrobs.html"><B>Planetary Robotics:</b></a>This segment of the Rover and Telerobotics Technology Program develops robots to satisfy the planned requirements for exploring planetary surfaces:  Exploring potential landing sites and areas of scientific interest, placing science instruments, and gathering samples for analysis and possible return to Earth.  the robots for such operations will require high levels of local autonomy, including the ability to perform local navigation, identify areas of potential scientific  interest, regulate onboard resources, and schedule activities --all with limited ground command intervention.  These robots must be low-cost and miniaturized to satisfy stringent mass and volume constraints.  Specific applications include the Mars Pathfinder Project and the Mars surveyor Program.  Technology developed for planetary rovers will also enable technological options for other efforts such as inner-planet and small-body exploration.<p>
+<a href="ExRobs.html"><B>Exploration Robotics:  Archive</b></a><p>
+<img src="bullet.gif"><a href="Platformrobs.html"><B>Platform Robotics:</b></a>
+This segment of the Rover and Telerobotics Technology Program develops technology for application to on-orbit satellite and large-platform servicing by both free-flying and platform-attached servicing robots.  The target applications emphasize ground control and include such tasks as remote surface inspection of Earth-orbiting platforms using telerobotic systems, and dual-arm autonomous manipulator control for free-flying servicing (such as the Ranger Flight Experiment).<p>
+<a href="Servicing.html"><B>On-orbit servicing:  Archive</b></a><p>
+<img src="bullet.gif"><a href="Techcom.html"><B>Technology Commercialization:</b></a>This segment of the Rover and Telerobotics Technology Program provides a means to test and demonstrate space-targeted technologies in realistic terrestrial settings and additionally includes tasks intended to rapidly move program-developed technology to commercial applications.  These tasks are jointly conducted by JPL and industrial partners to create and demonstrate full-system prototypes that offer solutions to terrestrial problems; such solutions can positively impact significant areas of the national economy.  Illustrative initiatives include a micromanipulator for retinal surgery and advanced manipulator control methods for high-precision robots.<p>
+<a href="TerrComm.html"><B>Terrestrial and Commercial Applications:  Archive</b></a><p>
+<img src="bullet.gif"><a href="Non-NASA.html"><B>Non-NASA Tasks:</b></a>
+This segment of the Rover and Telerobotics Technology Program --typically about 20 percent of the total program-- develops technologies in areas of national importance, in support of non-NASA sponsors.  Examples are machine vision for autonomous ground vehicles, and biologically inspired vehicles.  These technologies have important concurrent applications to NASA missions.<p>
+<a href="Comptech.html"><B>Component technology:  Archive</b></a><p>
+<a href="Spinoffs.html"><B>Spin-offs and Commercialization:  Archive</b></a><p>
+
+<H3>CONCLUSIONS</h3>
+While the JPL Rover and Telerobotics Program has built a record of substantial achievement, important technical and programmatic challenges remain.  The ultimate goal is to build autonomous robots that can significantly assist humans in space and that can, with little direct human intervention, explore remote planetary surfaces.<p>
+
+<H4>Near-Term Technical and Programmatic Goals</h4>
+<UL>
+<LI>Enable next-generation affordable rover missions to Mars (for example, as part of Mars Surveyor Program)<p>
+<LI>Reduce landed mass over Mars Pathfinder rover of at least a factor of two (demonstrate feasibility of a less-than-5-kilogram rover).<p>
+<LI>Achieve higher science return in rover missions by enabling many short-to-medium range traverses, active and passive power management, and effective science site exploration and sampling.  Such tasks would include confirming and mapping science targets, retrieving fresh rock and other samples, and accurate deployment and pointing of instruments.<p>
+<LI>Enable ground controls of dexterous telerobotics operating in Earth-orbiting missions and flight experiments, such as teh space shuttle and the space station.
+</ul>
+<H4>Long-Term Challenges</h4>
+<UL>
+<LI>Develop a robot explorer with the ability to autonomously confirm goal success, combine skills to achieve complex tasks, and learn and discover new and important information.
+<LI>Fly a human-like robot that can autonomously retrieve, service, and repair satellites in Earth orbit, incorporating the capabilities of three-dimensional autonomous navigation, vision- and touch-guided rendezvous and docking, and satellite grappling.<p>
+</ul>
+An important future goal is to broaden the range of applications of telerobotics in space.  Emphasis on manipulators for servicing tasks and mobile robots for surface operations has resulted in significant opportunities for flight experiments and missions.  Telerobotics technology can however enable a much broader range of missions, such as Venus flyer robotis, and robotic devices for asteroid sample retrieval.  Synthesizing new classes of robot configurations for such missions, and evaluating the corresponding benefits also pose an important future challenge.  In addition, terrestrial and commercial applications will continue to be important program thrusts.<p>
+
+More information available  from  <a href= http://robotics.jpl.nasa.gov>Automation and Control</a> Section Homepage
+
+</DOC>

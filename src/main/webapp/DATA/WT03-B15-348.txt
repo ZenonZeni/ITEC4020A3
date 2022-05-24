@@ -1,0 +1,90 @@
+
+<DOC>
+<DOCNO>WT03-B15-348</DOCNO>
+<DOCOLDNO>IA074-000483-B006-435</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Sample.html 128.125.48.102 19970125003724 text/html 4620
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:35:59 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 4389
+Last-Modified: Wed, 15 Jan 1997 22:12:32 GMT
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML 2.0//EN">
+<!-- Lines that start like this line are comments that don't appear on your pag e in a browser------- -->
+<!-- --------------------------------------------------------Start Document---- --><!doctype html public "html2.0">
+<html>
+<head>
+<!-- --------------------------------------------------------document identific ation -->
+<title>Document title goes here - used by web search tools to identify this document.</title>
+<meta name="abstract" content="Describe your document in English here">
+<meta name="keywords" content="Enter searchable keywords here separated by spaces">
+<meta name="owner"    content="Put your email address here">
+<meta name="review"   content="Put a date YYYYMMDD here for when this document should be reviewed">
+<meta name="security" content="public">
+<!-- --------------------------------------------------------begin body----   -->
+<!-- --------------------------------------------------------begin heading----  -->
+</head>
+
+<body>
+<!-- In the next line, replace "sampmast.gif" with the name of your own image file
+ and replace "Text Logo" with a text  message that will appear if the user's viewer can't do images. -->
+<img src="/Admin/sampmast.gif" height=92 width=490 alt="Sample Home Page">
+<h1>Document title (This is a size 1 header)</h1>
+<!-- Next line shows how to insert a seperator line-->
+<HR>
+
+<!-- --------------------------------------------------------end heading -->
+
+<H2>Document Body (This is a size 2 header)</H2>
+This is an example of a simple Home Page.  This is the first paragraph.   To see the HTML source that generates this document, use your browser's command to view HTML source.  You can save this document in HTML source format and then modify it to create
+your own document.<p>
+<hr>
+<H3>Links (This is a size 3 header)</H3>
+This paragraph shows a text link to another document.
+This is a link that will take you to the
+<a href="http://www.ics.raleigh.ibm.com">Internet Connection Family Web Site</a>.<p>
+This paragraph shows an image link to another document. To go back to the Front Page,
+click on this image:<BR>
+<a href="/Frntpage.html">
+<img src="/Admin/go2first.gif" ALIGN="BOTTOM" alt="Image Link"></a>
+<P>
+ <!-- To make a link within the same document work, you must also insert a "name=anchorname" attribute in the definitio  n of the link you are jumping to.  For an example, see the "Administration Page" anchor in the footer of this document. -->
+This paragraph shows a text link to another point within this document - the footer at the bottom of this page. This is a link that will scroll the page down to the <A HREF="#Footer">Footer</A>.  <P>
+<hr>
+<H3>Text (This is a size 3 header)</H3>
+Here is an example of a word in <I>italics</I>.  Here is an example of a word in <B>bold</B>.  <P>
+This is an example of an in-line (in a text line) GIF image: <IMG SRC="/Admin/graphic4.gif" alt="Sample Inline Image">.   It is not a link, it is just an illustration that is embedded inside a text paragraph. <P>
+Sometimes you need text to align vertically. You can use fixed width fonts. Here is an example:<P>
+<PRE>
+   Row one: column1 column2 column3
+   Row two: column1 column2 column3
+</PRE><p>
+This is an unordered list with three items:<P>
+<UL>
+<LI> item one
+<LI> item two
+<LI> item three
+</UL>
+This is a numbered list:<P>
+<OL>
+<LI> item one
+<LI> item two
+<LI> item three
+</OL>
+<!-- --------------------------------------------------------begin footer -->
+<hr>
+<H3>Footers  (This is a size 3 header)</H3>
+Below is an example of a footer that can be placed at the bottom of your document.
+It contains examples of links you might want to include in a footer.
+<hr>
+<a href="/Frntpage.html" name="Footer"><img src="/Admin/go2first.gif" alt="Front Page |"></a> <a href="/admin-bin/cfgin/initial"><img src="/Admin/skycfg.gif" alt="Configuration and Administration Page |"></a> <img src="/Admin/greyhome.gif" alt="Sample Home Page |">
+<a href="http://www.ics.raleigh.ibm.com/"><img src="/Admin/skyres.gif" alt="WebMaster Resource List |"></a><a href="/Docs/icsurmst.html"><img src="/Admin/skydoc.gif" alt=" Documentation"></a>
+
+<!-- --------------------------------------------------------end body- -->
+</body>
+<!-- --------------------------------------------------------End of Document-   -->
+</html>
+</DOC>

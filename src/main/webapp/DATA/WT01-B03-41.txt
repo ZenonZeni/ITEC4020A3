@@ -1,0 +1,92 @@
+
+<DOC>
+<DOCNO>WT01-B03-41</DOCNO>
+<DOCOLDNO>IA097-001048-B043-408</DOCOLDNO>
+<DOCHDR>
+http://mspiggy.etl.noaa.gov:80/othr/codar.htm 140.172.33.2 19970215104531 text/html 4717
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 05:43:02 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Wed, 27 Nov 1996 17:20:25 GMT
+Content-length: 4543
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<title>Surface Wave Radar</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+</head>
+<font face=arial>
+
+<body bgcolor="#88BBBB">
+<p><a href="http://www.doc.gov">Commerce</a> / <a href="http://www.noaa.gov">NOAA</a> / <a href="http://www.oar.noaa.gov">OAR </a>/ <a href="http://www.erl.noaa.gov">ERL</a> / <a href="http://www.etl.noaa.gov">ETL</a> / <a href="http://www1.etl.noaa.gov">Oceans</a> / <strong>Surf</strong></p>
+<h1 align=center><font color="ffffff">Surface-Wave Radar Oceanography</font><br>
+</h1>
+<p align=center><img src="gifs/3dline.gif" align=bottom width=555 height=10> </p>
+<blockquote>
+<p><img src="/gifs/why.gif" align=bottom> NOAA needs better ways to <strong>map ocean surface currents in coastal zones</strong>, such as 
+estuaries, fisheries, and harbors. An <strong>HF radar</strong> system that maps surface currents was conceived 
+and developed in this laboratory 20 years ago. It was known as CODAR (Coastal Ocean 
+Dynamics Applications Radar). By 1984, the Codar Transition Engineering Program, supported 
+by the NOAA <a href="http://www.nos.noaa.gov">National Ocean Service</a>, had resulted in a commercial product. Descendents of 
+that system are now on the market that have been tested in many different coastal settings. </p>
+<p>Although reliable current maps can be produced under certain conditions, tests have shown that 
+these radars' performance can be degraded by obstacles in their field of view and in the vicinity 
+of the radar antennas. Therefore, <strong>questions </strong>remain that undermine confidence in all HF 
+current-mapping radars and stand in the way of their operational acceptance. We have undertaken a 
+new program to <strong>re-evaluate this technology</strong> and to establish guidelines by which confidence in 
+their measurements can be assessed in practice. Specifically:<br>
+</p>
+<dl>
+<dd><img src="/gifs/noaabullet.gif" align=bottom hspace=5> Under what conditions can we expect a surface-wave radar to produce reliable 
+current maps? </dd>
+<dd><img src="/gifs/noaabullet.gif" align=bottom hspace=5> What specific precautions must be taken during radar deployment and operation to 
+ensure reliable current measurements? </dd>
+<dd><img src="/gifs/noaabullet.gif" align=bottom hspace=5> What quality controls can be built into radar-derived currents? </dd>
+<dd><img src="/gifs/noaabullet.gif" align=bottom hspace=5> How reliable are measurements made with a compact antenna compared with those 
+obtained using a real aperture array? </dd>
+<dd><img src="/gifs/noaabullet.gif" align=bottom hspace=5> What are the barriers to operational use of such systems by NOAA and others? </dd>
+</dl>
+<hr size=4>
+<h3>How does an HF Current-Mapping Radar Work?</h3>
+<p><a href="gifs/cope1.gif"><img src="gifs/cope100.gif" border=1 hspace=20 height=100 width=100 align=left></a>Two shore-based radars, spaced about 30 km apart, illuminate a common ocean surface area 
+using line-of-sight and groundwave propagation. Typical frequencies used are 12 and 25 MHz. 
+Each radar measures the Doppler shift of echoes from Bragg-resonant ocean waves, typically 
+6-m long (see <a href="gifs/curr.gif">illustration</a>). Surface currents that transport the waves impose an extra Doppler 
+shift that is proportional to the radial current component. By combining the information from two 
+radars, current vectors can be mapped with nominal 1-km resolution over coastal areas of a 
+thousand square kilometers or more. The current map shown here was acquired during the Coastal Ocean Probing Experiment (COPE) off the Oregon coast.</p>
+<hr size=4>
+<p><font size=4><strong>Field Observing Programs</strong></font></p>
+<ul>
+<li>Monterey Bay HF Radar Consortium </li>
+<li>Coastal Processes Studies with Oregon State University</li>
+<li>Coatal Ocean Probing Experiment (COPE)<ul>
+<li><a href="gifs/0930movie.qt">Movie</a> of surface currents off the Oregon coast (480K QT) </li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<hr size=4>
+<p><strong>For more information</strong>, E-mail Jack Harlan <a href="mailto:jharlan@etl.noaa.gov">jharlan@etl.noaa.gov</a> </p>
+<HR size=4>
+
+<center><a href="/index.html">Ocean Remote Sensing Home Page</a> | <a href="http://www.etl.noaa.gov">ETL Home Page</a></center>
+
+
+<hr size=4>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide this
+document.write ("Last updated on " + document.lastModified)
+// end hide -->
+</SCRIPT>
+
+</body>
+
+</html>
+</DOC>

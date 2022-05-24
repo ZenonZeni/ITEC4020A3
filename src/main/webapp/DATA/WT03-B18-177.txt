@@ -1,0 +1,61 @@
+
+<DOC>
+<DOCNO>WT03-B18-177</DOCNO>
+<DOCOLDNO>IA040-000755-B021-294</DOCOLDNO>
+<DOCHDR>
+http://pisces.ucsd.edu:80/www/server_stat.html 132.239.190.110 19970303060203 text/html 1077
+HTTP/1.0 200 Sending Processed HTML         
+Content-length: 946
+MIME-version: 1.0
+Server: OSU/2.1a
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD><title>Server Stats</title></HEAD>
+<BODY>
+
+<H2>PISCES Lab WWW Server Statistics</H2>
+
+The crosses show the daily total number of accesses and total bytes transfered.
+The yellow line is a one week sliding average of the points.<p>
+
+<img src = "/~rlehmer/usage.gif">
+<P>
+
+Hopefully, this is computed nightly.  If the date doesn't match, then there's
+a problem.<P>
+
+This plot is generated using IDL.<P>
+
+<hr>
+
+<a href="/~rlehmer/logs/">
+Directory of Server Logs</a><P>
+
+<hr>
+<center>
+
+<a href="/htbin/ncsa_imagemap/www/go-back.map">
+<IMG SRC="/www/go-back.gif" ISMAP border=0></A><P>
+
+<font size="-1">
+<a href="/www/index.html">
+HOME</a>
+ | <a href="/www/pisces/pisces.html">
+PISCES</A>
+ | <a href="/www/railroads/railroads.html">
+TRAINS</A>
+ | <a href="/demo/">
+VMS</A>
+ | <a href="/www/server_stat.html">
+Stats</A><P>
+Webmaster: <a href="mailto:webmaster@pisces.ucsd.edu">Ron Lehmer</a><P>
+</font>
+</center>
+
+<P>
+
+873
+</body>
+</html>
+</DOC>

@@ -1,0 +1,684 @@
+
+<DOC>
+<DOCNO>WT03-B16-9</DOCNO>
+<DOCOLDNO>IA074-000483-B008-253</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg012.html 128.125.48.102 19970125004420 text/html 28849
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:42:49 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 28617
+Last-Modified: Wed, 15 Jan 1997 02:01:30 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDRSSL" HREF="icswg011.html#PToC_764">Using Secure Sockets Layer (SSL)</A></H1>
+Using SSL
+This chapter explains how to use SSL
+to make the server's communications secure.
+<P>
+For an overview of security and an explanation
+of SSL, see <A HREF="icswg011.html#HDRSEC">"Making your communications secure"</A>.
+<P>
+<P><A HREF="icswgmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_765 HREF="#Header_765" >Overview of SSL security</A>
+<LI><A NAME=PToC_766 HREF="#HDRSSLSET" >Step 1. Setting up SSL</A>
+<MENU>
+<LI><A NAME=PToC_767 HREF="#HDRSSLCONF" >Fill in Security Configuration form</A>
+<LI><A NAME=PToC_770 HREF="#Header_770" >Fill in Create Key and Request Certificate form</A>
+<LI><A NAME=PToC_787 HREF="#HDRRECCERT" >Fill in Receive Certificate Form</A>
+</MENU>
+<LI><A NAME=PToC_790 HREF="#Header_790" >Step 2. Specifying SSL client authentication in protection setups and ACL files</A>
+<LI><A NAME=PToC_791 HREF="#HDRSSLUSE" >Step 3. Using SSL with your server</A>
+</MENU><HR><P>
+<HR>
+<H2><A NAME="Header_765" HREF="#PToC_765">Overview of SSL security</A></H2>
+<P>
+HTTPS is a unique protocol that combines SSL and HTTP.
+You need to specify <B>https&#58;//</B> as an anchor in HTML
+documents that link to SSL-protected documents.
+A client user can also open a URL by specifying <B>https&#58;//</B>
+to request an SSL-protected documents.
+<P>
+Because HTTPS (HTTP + SSL) and HTTP are different protocols and
+usually use different ports (443 and 80, respectively), you can
+run both SSL and non-SSL requests at the same time.
+As a result, you can choose to provide information to all users
+using no security, and specific information only to browsers who
+make secure requests.
+This is how a retail company on the Internet can allow users to
+look through the merchandise without security, but then fill
+out order forms and send their credit card numbers using security.
+<P>
+A browser that does not have support for HTTP over SSL will
+naturally not be able to request URLs using HTTPS.
+The non-SSL browsers will not allow submission of forms that
+need to be submitted securely.
+<HR>
+<H2><A NAME="HDRSSLSET" HREF="#PToC_766">Step 1. Setting up SSL</A></H2>
+<P>
+To implement security you need to specify the port
+you'll use for secure network communications.
+If the server needs to ensure who a client is before responding,
+you need to set up SSL client authentication.
+When you set up SSL client authentication, the server requests
+a client's certificate whenever the client makes an
+<B>https</B> request.
+<P>
+Also, the server must have a
+public-private key pair and a certificate.
+<P>
+The server uses its private key to sign messages to clients.
+The server sends its public key to clients so that they
+can encrypt messages to the server, which the server decrypts
+with its private key.
+<P>
+To send its public key to clients, the server needs a certificate.
+The certificate contains the server's public key, the Distinguished
+Name associated with the server's certificate, the serial number
+of the certificate, and the expiration date of the certificate.
+<P>
+A certificate is issued by a certification authority (CA),
+who verifies that you are who you say you are.
+<P>
+To conduct commercial business on the Internet, you would
+use a CA, such as VeriSign, Inc.,
+who is widely known by clients and servers to get a server
+certificate.
+If you plan to implement SSL client authentication, clients can
+also get their certificates from a CA such as Verisign.
+The VeriSign home
+page at <B>https://www.verisign.com/enroll.s</B> contains instructions
+for how clients can obtain certificates.
+<P>
+For a private Web network within your own company, university,
+or group, you could, with your Internet Connection Secure Server, be your own CA.
+To learn how to become your own CA and process
+certificates for this server and other clients and servers,
+see <A HREF="icswg013.html#HDROWNCA">"Acting as a certification authority for a private Web network"</A>.
+<P>
+Use the following <B>Configuration and Administration forms</B>
+to set up SSL security:
+<UL COMPACT>
+<LI>Security Configuration form to specify the port that will be
+used for SSL
+<LI>Create Key and Request Certificate form to create the server's
+public-private key pair and certificate request
+<LI>Receive Certificate form to receive the server's certificate
+into a key ring so that the server can use it
+for secure network communications
+</UL>
+<P>
+To access the Configuration and Administration forms:
+<OL>
+<P><LI>Go to the front page of your server and
+click <B>Configuration and Administration forms</B>.
+<P><LI>You are prompted for your user name and password.
+Type them in and click <B>OK</B>.
+<P><LI>The <B>Configuration and Administration forms</B> page appears.
+Page down until you find the topic Security.
+To access any security form listed, click its name.
+</OL>
+<P>
+<H3><A NAME="HDRSSLCONF" HREF="#PToC_767">Fill in Security Configuration form</A></H3>
+<P>
+Use the <B>Security Configuration</B> form
+to specify some of the security
+information needed for your server.
+<P>
+<H4><A NAME="Header_768">1. Specify connection options</A></H4>
+<P>
+Use the first part of the <B>Security Configuration</B>
+form to specify your connection for SSL and to set up SSL
+client authentication.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b01.gif" ALT="* Figure icsl0b01 not displayed."><BR></B><BR>
+<P>
+<P>
+Check the box to allow SSL connections and, optionally,
+to allow HTTP connections.
+In addition, if the server needs to verify who a client is
+before responding, you can check the box to
+set up SSL client authentication.
+Authenticating clients increases network traffic.
+If you set up SSL client authentication, the server requests
+a certificate when a client makes an <B>https</B> request.
+<P>
+<H4><A NAME="Header_769">2. Process your request</A></H4>
+<P>
+Check your form and make sure you entered each item correctly.
+Click <B>Apply</B> to process the form.
+<P>
+You receive a Confirmation that the form was successfully processed.
+You can make changes to other Configuration and Administration forms.
+However, when you are ready for the changes
+you've made to this form to take effect,
+you must stop the server and then start it again.
+The server will not pick up your changes if you only restart it.
+<P>
+For SSL, the server must have a public-private key pair
+and a certificate.
+<P>
+<H3><A NAME="Header_770" HREF="#PToC_770">Fill in Create Key and Request Certificate form</A></H3>
+<P>
+These instructions tell you how to use this form
+to do one of the following:
+<UL>
+<P><LI>Create a key pair and request a certificate
+for the server from VeriSign.
+<P><LI>Create a key pair and request a certificate
+for the server from a CA other than VeriSign.
+The other CA could be some other outside CA.
+Or, someone within your organization could act
+as a CA for a private Web network; for example,
+you might act as your own CA and the CA for others in your group.
+If you are acting as a CA, you need to follow
+the instructions in <A HREF="icswg013.html#HDROWNCA">"Acting as a certification authority for a private Web network"</A>.
+The chapter tells how to become a CA and
+how to process certificate requests.
+</UL>
+<P>
+To create the server's public-private key pair
+and request a certificate, use:
+<UL>
+<P><LI>The Create Key and Request Certificate form to choose your CA
+<P><LI>One of the following forms, depending on the CA you choose,
+to create the server's keys and request its certificate:
+<UL COMPACT>
+<LI>VeriSign Low Assurance Certificate
+<LI>VeriSign Secure Server Certificate
+<LI>Other Certificate
+</UL>
+</UL>
+<P>
+<H4><A NAME="Header_771">1. Choose a CA</A></H4>
+<P>
+Use the Create Key and Request Certificate form to specify
+the CA from whom you want to obtain a certificate.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b02.gif" ALT="* Figure icsl0b02 not displayed."><BR></B><BR>
+<P>
+<P>
+VeriSign is a widely known CA.
+Choose one:
+<UL>
+<P><LI><B>VeriSign (Low Assurance Certificate)</B>: The
+level of proof required to get a low assurance
+certificate is less than for a secure server certificate.
+You might want to get a low assurance certificate
+to do a beta test of security with your clients
+or for some other non-commercial purpose.
+<P><LI><B>VeriSign (Secure Server Certificate)</B>: To
+conduct commercial business on the Internet,
+you want a secure server certificate.
+The level of proof required to get a secure server certificate is
+higher than for a low assurance certificate.
+<P><LI><B>Other</B>:  This is any other CA.
+For example, for a private Web network, your organization
+could choose to act as its own CA.
+</UL>
+<P>
+<H4><A NAME="Header_772">2. Process your request</A></H4>
+<P>
+Click <B>Apply</B> to process this part
+of the Create Key and Request Certificate form.
+<P>
+Another part of the Create Key and Request Certificate
+form appears, depending on which CA you choose:
+<UL COMPACT>
+<LI>VeriSign Low Assurance Certificate
+<LI>VeriSign Secure Server Certificate
+<LI>Other Certificate
+</UL>
+<P>
+<H4><A NAME="Header_773">3. Create public-private key pair</A></H4>
+<P>
+Use <B>Create Key</B> to create a key pair.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o09.gif" ALT="* Figure icsl0o09 not displayed."><BR></B><BR>
+<P>
+<P>
+<H5><A NAME="Header_774">Specify key name</A></H5>
+<P>
+Specify a meaningful, unique name to identify the key pair.
+The <B><I>key name</I></B> is the label that identifies
+the key pair and certificate in the key ring.
+You may use non-alphanumeric characters in key names; however,
+keep in mind that some platforms have special uses for
+some of these characters.
+<P>
+<H5><A NAME="Header_775">Specify key ring</A></H5>
+<P>
+Specify the fully qualified path and file name for the key ring file.
+A <B><I>key ring</I></B> is a file where the server
+keeps one or more key pairs and certificates.
+If you specify a file that doesn't exist,
+the server creates the file for you.
+<P>
+<H5><A NAME="Header_776">Specify the size of the key pair</A></H5>
+<P>
+Specify the size of the key pair in bits
+after considering these factors:
+<UL>
+<P><LI>The more bits you specify for the key pair,
+the more secure your communications.
+<P><LI>The more bits you specify, the more processing time
+required for encryption and decryption.
+<P><LI>With export versions of the server,
+you can create a key pair up to 512 bits.
+With U.S.-Canadian versions, you can create a larger key pair
+up to 1024 bits; however, if you want clients outside
+the United States to encrypt messages to the server,
+U.S. export rules require that the key pair be no larger
+than 512 bits.
+If you want clients outside the United States only to verify your
+server's signature or sign messages,
+the key pair can be larger than 512 bits.
+</UL>
+<P>
+<H4><A NAME="Header_777">4. Specify key ring password</A></H4>
+<P>
+Use this part of the form to specify the password that protects
+the key ring.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b03.gif" ALT="* Figure icsl0b03 not displayed."><BR></B><BR>
+<P>
+<P>
+The password must be from the U.S. English character set.
+<P>
+The password is important because
+it protects the server's private key.
+The server's private key is the only key that can decrypt
+messages encrypted with the server's public key.
+Also, the server signs documents with its private key.
+<P>
+The security of the server's private key
+depends upon this password.
+Here are some commonly accepted rules for specifying passwords:
+<UL>
+<P><LI>Make the password at least six characters.
+<P><LI>Make sure the password doesn't spell a word.
+<P><LI>Make sure the password doesn't consist of publicly
+obtainable information about you; for example,
+the initials and birth date for you, your spouse, or children.
+<P><LI>Include at least two, nonconsecutive numbers in the password.
+</UL>
+<P>
+Type the password twice to ensure
+that you have typed it correctly.
+<P>
+If you must record the password, make sure
+it is stored in a well-secured place.
+<P>
+The key ring password must be specified when the server is started.
+Check <B>Automatic login</B> if you want the server to stash
+the password and specify it for you whenever the server is started.
+To stash the password, the server
+encrypts the key ring password and puts it in a file
+that has the same name as the key ring file,
+except the extension is .sth.
+<P>
+Stashing your password is less secure so
+it's generally a good practice not to stash it.
+However, there may be cases where you need to stash the password;
+for example, if you have a remote server and you want it to
+automatically restart after a power failure.
+<P>
+Next, to request the server's certificate,
+fill in the rest of the form.
+<P>
+<H4><A NAME="Header_778">5. Specify Distinguished Name</A></H4>
+<P>
+Specify the Distinguished Name you want associated with the server's
+certificate and used to identify the server's public key.
+In it's simplest form, a Distinguished Name is someone's name.
+<P>
+The information you provide for Distinguished Name depends upon
+whether you want a:
+<UL>
+<P><LI>VeriSign Low Assurance Certificate.
+See <A HREF="#HDRDNLOWS">"Specify Distinguished Name for low assurance certificate"</A>.
+<P><LI>VeriSign Secure Server Certificate or Other Certificate.
+See <A HREF="#HDRDNHIGHS">"Specify Distinguished Name for secure server or other certificate"</A>.
+</UL>
+<P>
+<H5><A NAME="HDRDNLOWS">Specify Distinguished Name for low assurance certificate</A></H5>
+<P>
+For this certificate, the Distinguished Name is the full name
+of the user for whom the certificate is being requested.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b04.gif" ALT="* Figure icsl0b04 not displayed."><BR></B><BR>
+<P>
+<P>
+For <B>User's full name</B>, specify the user's full name
+and make sure it is unique.
+For example, if you request more than one certificate for Mary Ann
+Jones, you might specify Mary Ann Jones1 for the first
+request and Mary Ann Jones2 for the second request.
+<P>
+<B>User's e-mail address</B> should contain the user's address
+where you want VeriSign to mail the certificate.
+<P>
+Next, you need to provide mailing information,
+as described in <A HREF="#HDRMAILTOS">"6. Specify mailing option"</A>.
+<P>
+<H5><A NAME="HDRDNHIGHS">Specify Distinguished Name for secure server or other certificate</A></H5>
+<P>
+For these certificates, the Distinguished Name
+is the server name and the location of the server.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b11.gif" ALT="* Figure icsl0b11 not displayed."><BR></B><BR>
+<P>
+<P><B>Note: </B>The text for Distinguished Name will vary, depending on
+whether you're on the VeriSign Secure Server Certificate form or
+the Other Certificate form.
+Also, the User's e-mail address field, which is on the
+Other Certificate form, is not on the VeriSign
+Secure Server Certificate form.
+<P>
+You may use non-alphanumeric characters in Distinguished Name;
+however, keep in mind that some platforms have special uses
+for some of these characters.
+Provide the following information for Distinguished Name:
+<UL>
+<P><LI>Server Name:  The X.500 common name of the server.
+Usually, it is the TCP/IP fully qualified host name;
+for example, www.ibm.com.
+For a VeriSign secure server certificate request,
+it must be the fully qualified host name.
+<P><LI>Organizational Unit:  Optionally, the organizational unit.
+For example, you might specify the division of your company.
+<P><LI>Organization:  The name of your organization, such as
+the name of your company.
+For a secure server certificate, if you already have an account
+with VeriSign, the name in this field should match the name on
+that account.
+<P><LI>Locality/City:  Optionally, the city or locality where your
+server resides.
+<P><LI>State/Province:  The state or province where the server resides.
+You must specify at least <B>three</B> characters.
+<P><LI>Postal Code:  The postal code or zip code where the server resides.
+<P><LI>Country:  The two-character country code for the
+country in which the server resides.
+</UL>
+<P>
+On the Other Certificate form, <B>User's e-mail address</B>
+should contain the user's address where
+you want the CA to mail the certificate.
+If you're requesting this server's certificate, which you plan to
+process as a CA, leave this field blank.
+<P>
+<H4><A NAME="HDRMAILTOS">6. Specify mailing option</A></H4>
+<P>
+The mailing option depends on the kind of certificate being requested:
+<UL>
+<P><LI>For a VeriSign low assurance certificate,
+see <A HREF="#HDRMAILLS">"Mailing option for low assurance certificate"</A>.
+<P><LI>For a VeriSign secure server certificate,
+see <A HREF="#HDRMAILHS">"Mailing option for secure server certificate"</A>.
+<P><LI>For an Other certificate,
+see <A HREF="#HDRMAILOS">"Mailing option for other certificate"</A>.
+</UL>
+<P>
+<H5><A NAME="HDRMAILLS">Mailing option for low assurance certificate</A></H5>
+<P>
+A VeriSign low assurance certificate request must be
+electronically mailed to VeriSign.
+If you are behind a firewall, verify with your system administrator
+what you need to do to electronically mail this request.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b06.gif" ALT="* Figure icsl0b06 not displayed."><BR></B><BR>
+<P>
+<P>
+<P>
+Go to <A HREF="#HDRCOPYS">"7. Save copy of certificate request"</A> for a description
+of what you need to do next.
+<P>
+<H5><A NAME="HDRMAILHS">Mailing option for secure server certificate</A></H5>
+<P>
+There is no mailing option on the form for a VeriSign secure server
+certificate.
+A secure server certificate request must be saved in a file
+and manually mailed to VeriSign.
+The VeriSign home page, <B>https:;//www.verisign.com/enroll.s</B>,
+has instructions on what you need to provide in order
+to obtain a secure server certificate from VeriSign.
+Some e-mail programs may alter files and should not be used
+to send a certificate request.
+For example, some programs may pad the lines of a certificate
+request with blanks and invalidate it.
+Also, if you are behind a firewall, verify with your system administrator
+what you need to do to electronically mail this request.
+<P>
+Go to <A HREF="#HDRCOPYS">"7. Save copy of certificate request"</A> for a description
+of what you need to do next.
+<P>
+<H5><A NAME="HDRMAILOS">Mailing option for other certificate</A></H5>
+<P>
+For an Other certificate, you need to consult with your CA
+to determine how to mail the certificate request.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0b07.gif" ALT="* Figure icsl0b07 not displayed."><BR></B><BR>
+<P>
+<P>
+After consulting with your CA, choose one:
+<UL>
+<P><LI><B>Mail to</B>:  Choose this option and enter
+the electronic address of your CA
+if you want to electronically mail the certificate request.
+If you are behind a firewall, verify with your system administrator
+what you need to do to electronically mail this request.
+<P><LI><B>Don't mail</B>:  Choose this option
+if you plan to act as your own CA for this server's certificate
+or if you don't want to electronically mail the certificate
+request to another CA at this time.
+You can manually mail the certificate request later;
+however, some e-mail programs may alter files and
+should not be used to send a certificate request.
+For example, some programs may pad the lines
+of a certificate request with blanks and invalidate it.
+Also, if you are behind a firewall, verify with your system administrator
+what you need to do to electronically mail this request.
+</UL>
+<P>
+<H4><A NAME="HDRCOPYS">7. Save copy of certificate request</A></H4>
+<P>
+It's a good idea to save the certificate request in a file.
+If you're requesting a VeriSign secure server certificate,
+you must save the request to file and manually mail it later.
+If you're acting as your own CA for this server's certificate,
+you also must save the certificate request in a file.
+(After you complete this form, you can
+use the instructions in <A HREF="icswg013.html#HDROWNCA">"Acting as a certification authority for a private Web network"</A> to become
+a CA and to process this server's certificate.)
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o10.gif" ALT="* Figure icsl0o10 not displayed."><BR></B><BR>
+<P>
+<P>
+<P><B>Note: </B>The text on this form for Save Copy will vary,
+depending on whether you're on the VeriSign low assurance,
+VeriSign secure server, or Other certificate form.
+<P>
+Specify a unique fully qualified path and file name
+for the file where you want to keep the certificate request.
+If you specify a file that doesn't exist,
+the server creates the file for you.
+<P>
+<H4><A NAME="Header_786">8. Process your request</A></H4>
+<P>
+Check your form and make sure you entered each item correctly.
+Click <B>Apply</B> to process the form.
+You receive a Confirmation that the form was successfully processed.
+<P>
+The server:
+<UL>
+<P><LI>Stores the key pair in an encrypted format on the key ring and
+adds the default trusted roots that are shipped with the product
+to the key ring.
+<P><LI>If you specified <B>Automatic login</B>,
+encrypts the key ring password and puts it in a file
+that has the same name as the key ring file,
+except the extension is .sth.
+<P><LI>Creates the certificate request and stores it in the file
+you specified and:
+<UL>
+<P><LI>For a low assurance certificate, the certificate request is
+electronically mailed to VeriSign.
+<P><LI>For a secure server certificate, you have to manually mail
+the certificate request to VeriSign.
+Go to the VeriSign home page, <B>https:;//www.verisign.com/enroll.s</B>,
+for instructions on what you need to provide in order
+to obtain a secure server certificate from VeriSign.
+<P><LI>For an other certificate, if you're acting as your own CA
+for this server's certificate,
+you need to process the certificate request.
+Go to <A HREF="icswg013.html#HDROWNCA">"Acting as a certification authority for a private Web network"</A> for instructions on how to
+become a CA and for how to process this server's certificate.
+For any other CA, follow its instructions.
+</UL>
+</UL>
+<P>
+The CA processes your certificate request.
+When the CA is satisfied that you have met all of its requirements,
+it electronically mails a certificate to you.
+Next, you need to receive the server's certificate
+into the key ring that contains the public-private key pair.
+<P>
+<H3><A NAME="HDRRECCERT" HREF="#PToC_787">Fill in Receive Certificate Form</A></H3>
+<P>
+Use the Receive Certificate form to receive
+into the key ring the certificate
+electronically mailed to you by your CA.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o11.gif" ALT="* Figure icsl0o11 not displayed."><BR></B><BR>
+<P>
+<P>
+<H4><A NAME="Header_788">1. Specify Receive Certificate information</A></H4>
+<P>
+Before filling in this form, use your e-mail program to
+receive the certificate into a unique file.
+Some e-mail programs may alter files and
+should not be used to receive certificates.
+For example, some programs pad the lines of the certificate
+with trailing blanks, which invalidates it.
+<P>
+For the Receive Certificate form, provide:
+<UL>
+<P><LI><B>Name of file containing certificate</B>:  The
+fully qualified path and file name of the
+file that contains the certificate.
+<P><LI><B>Key ring</B>:  The fully qualified path and
+file name of the key ring.
+This is the key ring you specified on the Create Key and
+Request Certificate form when you created the server's
+public-private key pair and the request for this certificate.
+<P><LI><B>Key ring password</B>:  The password for the key ring.
+This is the password you specified on the Create Key and
+Request Certificate form when you created the server's
+public-private key pair and the request for this certificate.
+</UL>
+<P>
+<H4><A NAME="Header_789">2. Process your request</A></H4>
+<P>
+Check your form and make sure you entered each item correctly.
+Click <B>Apply</B> to process the form.
+<P>
+You receive a Confirmation that the form was successfully processed.
+<P>
+The server stores the certificate in the key ring.
+It is referenced in the key ring with the <B>key name</B>
+you specified on the Create Key and Request Certificate form.
+<P>
+After you receive your Confirmation for the Receive Certificate form,
+you can make changes to other Configuration and Administration forms.
+However, when you are ready for the changes
+you've made to any security forms to take effect,
+you must stop the server and then start it again.
+The server will not pick up your changes if you only restart it.
+<P>
+When you start the server, you will be prompted for
+the key ring password unless you stashed it
+by selecting <B>Automatic login</B>
+on the Create Key and Request Certificate form.
+<HR>
+<H2><A NAME="Header_790" HREF="#PToC_790">Step 2. Specifying SSL client authentication in protection setups and ACL files</A></H2>
+<P>
+With SSL V3, you can set up your server for SSL client
+authentication.
+The server requests a certificate from any client
+making an <B>https</B> request.
+The server establishes a secure connection whether or not the
+client has a valid certificate.
+<P>
+You can restrict who can access documents by
+using password files and/or user or group authentication in protection
+setups as described in <A HREF="icswg009.html#HDRPRT">"Protecting your server"</A>.
+You can further restrict who can access documents by coding
+SSL client authentication parameters on protection setups,
+ACL files, or both.
+See <A HREF="icswg009.html#HDRSSLPROT">"Creating protection setups for SSL client authentication"</A>
+for more information on coding protection setups.
+See <A HREF="icswg009.html#HDRUSEACLF">"Step 5. Limiting access to individual files"</A>
+for more information on coding ACL files.
+<HR>
+<H2><A NAME="HDRSSLUSE" HREF="#PToC_791">Step 3. Using SSL with your server</A></H2>
+<P>
+Once you have a key pair and a signed certificate, you can begin
+serving SSL protected documents to SSL browsers.
+<P>
+Before you begin using SSL, you should consider doing the
+following:
+<UL>
+<P><LI>Set up a proxy server.
+See <A HREF="icswg003.html#HDRPROXY">"Running your server as a proxy"</A> for information on how
+to set up your server as a proxy.
+<P><LI>If you are writing CGI programs, make use
+of the following SSL environment variables:
+<UL COMPACT>
+<LI>HTTPS
+<LI>HTTP_KEYSIZE
+</UL>
+</UL>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg011.html">Previous Page</A> &#124; <A HREF="icswg013.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

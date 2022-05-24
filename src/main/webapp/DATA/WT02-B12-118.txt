@@ -1,0 +1,173 @@
+
+<DOC>
+<DOCNO>WT02-B12-118</DOCNO>
+<DOCOLDNO>IA087-000631-B023-278</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.148.html 130.91.195.242 19970122065742 text/html 8668
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:57:42 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 8497
+Last-modified: Tue, 22 Nov 1994 06:33:11 GMT
+</DOCHDR>
+ Panel discussion on cryptography policy -- Pugwash Panel <p>
+
+From: jporten@sas.upenn.edu (Jeffrey A. Porten)
+  Newsgroups: alt.org.pugwash
+  Subject: Panel discussion on cryptography policy
+  Date: 12 Mar 1994 05:50:57 GMT
+  Organization: University of Pennsylvania
+  Lines: 143
+  Message-ID: &lt;2lrl81$48k@netnews.upenn.edu&gt;
+  NNTP-Posting-Host: mail.sas.upenn.edu
+  X-Newsreader: TIN [version 1.2 PL2] <p>
+
+Panel discussion on cryptography <p>
+
+Dr. Peter Tygar <p>
+
+Cryptography transforms plaintext into cyphertext --
+  normal text into a format that is unreadable.  This is done
+  through a key, the computer equivalent of a secret decoder ring.
+  Cryptography is essential for military operations; crucial
+  elements of the Allied victory in Europe and Japan were due to
+  cryptographic breakthroughs against the German Enigma system and
+  the Japanese Purple system, including winning the Battle of
+  Midway.
+        Truman formed the National Security Agency after WWII;
+  for years it was said that that stood for "no such agency."
+  Funded better than CIA, works to monitor international
+  communications.
+        NSA issued a call for public encryption standards, and
+  IBM's Lucifer was adopted as the Data Encryption Standard in 1976
+  for ten years; an extension was reluctantly approved for five
+  years.  Encryption is still not widely available on the Internet,
+  but it is slowly being deployed through data communications.
+        DES is widely believed to be too insecure to use --
+  hardware advances eventually outstrip the algorithm's security.
+  The NSA developed a new system called Skipjack, details of which
+  are kept secret by the NSA.  Skipjack uses a larger key and is
+  theoretically more secure, but since the standards are not known
+  it is impossible to verify.
+        Skipjack is being made available through "black box"
+  implementation -- a sealed hardware chip that makes it impossible
+  to see the algorithm.  (Intel claims the ability to reverse
+  engineer the chip.)  Skipjack can be broken through a key-escrow
+  system, which stores keys for each chip in government
+  repositories.  With the government key, the user key can be
+  deciphered. Two agencies share the repositories, and both must
+  give access before the key can be broken.
+        Another form of cryptography is called public-key
+  cryptography, which has two keys for cyphertext -- a public key
+  which is used for encryption, and a private key that is used for
+  decryption.  The RSA algorithm is an example of this.  The system
+  is slower than single-key systems.
+        Cryptographic algorithms are included on the
+  not-for-export list, which precludes international trade in
+  commercial encryption.  The government has been unwilling to
+  relax this prohibition, but has indicated a willingness to allow
+  export of Clipper.  It is unclear how well the international
+  community would accept a cryptographic key that could be broken
+  by the US government. <p>
+
+Dr. Thomas Longstaff <p>
+
+Longstaff is a member of the Computer Emergency Response
+  Team, which focuses on security issues on the Internet.  As a
+  DARPA-funded group, they can't take a position on Clipper, but
+  since they concentrate on Internet they have been able to remain
+  neutral.
+        CERT was recently involved in an alert where user
+  passwords were frequently stolen and used for break-ins.  Since
+  there is no host-to-host encryption standard, passwords are sent
+  around as cleartext across links that are easily monitored.  It
+  is very difficult to put encryption on the Internet, since it
+  surpasses national boundaries.  Most algorithms have found their
+  way overseas, but strictly speaking an American cannot provide
+  the system.
+        Unless you deliberately encrypt a message, your e-mail is sent
+  as cleartext.  Some standards to change that are underway, such as the
+  government-funded Privacy Enhanced Mail.  Unfortunately, the tools are
+  difficult to install and it has not been widely adopted.
+        A grassroots effort called Pretty Good Privacy has been
+  distributed since the author did not know about the export laws
+  -- it's now been taken over by a group in Finland and can be
+  found on many platforms.
+        RSA holds a lock on all public-key uses, so it can't be
+  used without a licensing fee -- all in all, it's hard to use any
+  encryption on Internet.
+        Cryptography is mostly used by college students, security
+  professionals, and criminals.  International law enforcement
+  agencies are struggling with criminals who have PCs that produce
+  essentially unbreakable codes.  An unpublished study tracked
+  crypto use, and found that all uses were by students and people
+  using e-mail for unauthorized business use.
+        Clipper algorithms may find their way onto the net. Older
+  algorithms can still be of use, since the sheer volume of
+  encrypted traffic if widely used would preclude cracking the
+  entire stream to find the desired cleartext. <p>
+
+David Sobel <p>
+
+Clipper is the first battle over the design of the
+  information infrastructure and the security safeguards it will
+  include.  The underlying principle will lay the groundwork for
+  the future information environment.
+        Health care is an excellent example of the need for
+  privacy, since any centralized system will have electronic
+  transmission as a centerpiece of the plan.
+        Fundamental questions of what sort of society do we want
+  to have, and what values will guide the development of the
+  National Information Infrastructure?  This is a political issue
+  of surveillance and wiretapping; 80% of those polled are opposed
+  to Clipper and the concept of the government having the absolute
+  ability to conduct surveillance.  Within recent history the
+  government has shown inability to responsibly conduct these
+  investigations without abuse.  The NSA specifically was found to
+  have conducted widescale illegal investigations of the
+  communications of American citizens.
+        Congress debated in 1987 who should take responsibility
+  for civilian computer security; it was decided that the NSA, a
+  secret organization, was inappropriate for this work.  NSA was
+  given control of military tech, and National Institute for
+  Standards and Technology given the civilian side.
+        NIST proposed a digitial signature standard on 1991,
+  which was later found to have been developed by NSA, despite
+  deliberate firewall set up by Congress by Computer Security Act
+  of 1987.  Again with the Clipper chip, the NSA has overstepped
+  its bounds and is providing major thrust behind civilian security
+  policy.
+        NSA operates without the oversight of civilian agencies.
+  Since the algorithm is classified, it can't be checked for
+  strength -- worse still, there is major cause for concern in
+  basing our communications infrastructure on classified
+  technology.
+        Clipper goes against the values of the First Amendment.
+  There must be concern when the government attempts to regulate
+  the means of our communication.  The Fourth Amendment protects
+  against unreasonable searches and seizures; the FBI argues that
+  cryptography will make investigation difficult, but the
+  Constitution's intent is to make investigation of citizens
+  difficult and subservient to our rights.  Forcing people to
+  divulge keys as a precondition of communication is a violation of
+  Fifth Amendment rights.
+        The ability to wiretap did not exist at the time of the
+  drafting of the Constitution -- there were no wires to tap, and
+  hence communication was private.  A technological development
+  made it easier for investigations to take place from the time of
+  the development of the telephone until today -- encryption
+  returns privacy to the status quo intended by the Founding
+  Fathers.
+        Further, no government agency has ever documented that
+  encryption has made their work more difficult.  On average, 900
+  wiretap warrants are issued per year; the government is arguing
+  that telecommunications infrastructure must be redesigned to
+  protect 900 wiretaps per year against a speculative danger. <p>
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ For help information, send email                     NetNews Filtering Server
+ with word 'help' in message body                      netnews@db.stanford.edu
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= <p>
+
+</DOC>

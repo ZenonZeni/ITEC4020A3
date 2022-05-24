@@ -1,0 +1,313 @@
+
+<DOC>
+<DOCNO>WT03-B18-32</DOCNO>
+<DOCOLDNO>IA085-000610-B039-102</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/vehicle.htm 150.145.4.16 19970216120438 text/html 12707
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:05:30 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 14:35:23 GMT
+Content-Length: 12508
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy: Robotics Dept.: Underwater Vehicles</title>
+<base href="http://www.ian.ge.cnr.it/robotics/vehicle.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b><b><blink>
+        UUV Prototypes</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="6" cellspacing="6">
+    <tr>
+        <td width="200"><p align="center"><font size="5"><strong><img
+        src="../icons/bluebull.gif" width="14" height="14"></strong></font><a
+        href="#ROBY"><font size="4"><strong>ROBY</strong></font></a></p>
+        </td>
+        <td width="200"><p align="center"><font size="4"><strong><img
+        src="../icons/bluebull.gif" width="14" height="14"></strong></font><a
+        href="#ROBY2"><font size="4"><strong>ROBY2</strong></font></a></p>
+        </td>
+        <td width="200"><p align="center"><font size="4"><strong><img
+        src="../icons/bluebull.gif" width="14" height="14"></strong></font><a
+        href="#ROMEO"><font size="4"><strong>ROMEO</strong></font></a></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<hr>
+
+<h3 align="center"><a name="ROBY" </a><font color="#408080"
+size="5">ROBY</font></a></h3>
+
+<table border="0" cellpadding="3" cellspacing="1">
+    <tr>
+        <td valign="top"><p align="left"><img
+        src="pictures/roby.gif" align="left" hspace="0"
+        width="297" height="224"></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        </td>
+        <td><font size="3">Completed in 1990, ROBY is the Robotics
+        Department's first prototype vehicle. It was conceived as
+        a &quot;Virtual AUV&quot;, i.e. an ROV featuring a particularly
+        high-powered control console and an underwater module
+        with remarkable sensorial and operational capabilities.
+        The resulting architecture is a distributed MASTER/SLAVE
+        system, where the SLAVE (on board the vehicle) is
+        initially used for communication management, data acquisition
+        and execution of elementary control actions, whereas the
+        MASTER (in the control console) is dedicated to the management of
+        the operator interface and to all analysis and control
+        functions related to tasks. One advantage offered by this kind
+        of structure is great flexibility in the MASTER
+        configuration, which can therefore be a network of
+        processing units.</font></td>
+    </tr>
+    <tr>
+        <td valign="top" colspan="2"><font size="3">Roby is an
+        open-frame vehicle featuring a stainless steel frame that
+        supports all the modules and accessories. The vehicle
+        weighs approximately 130 kg in air and measures 79 x 79 x
+        75 cm. It is equipped with a 300 m cable and can dive to
+        a maximum depth of 100 m.</font></td>
+    </tr>
+</table>
+
+<p><font size="4">Technical Specifications</font></p>
+
+<ul type="disc">
+    <li><font size="3">4 double-bladed propellers with 4 24V 100W
+        permanent magnet motors.</font></li>
+    <li><font size="3">4 channel TX/RX equipment</font></li>
+    <li><font size="3">TDM multiplexer</font></li>
+    <li><font size="3">SLAVE computer based on VMEbus with a
+        Motorola 68020 CPU.</font></li>
+    <li><font size="3">Colour TV camera.</font></li>
+    <li><font size="3">Colour TV camera for image processing .</font></li>
+    <li><font size="3">Computer controlled power system.</font></li>
+</ul>
+
+<blockquote>
+    <p><font size="3">&nbsp;</font><font size="4">Sensor package </font></p>
+</blockquote>
+
+<blockquote>
+    <ul type="circle">
+        <li><font size="3">2-axial variable capacitor
+            inclinometer (SCHAEVITZ-Accustar)</font></li>
+        <li><font size="3">fluxgate compass (KVH-ROV 103)</font></li>
+        <li><font size="3">angular accelerometer (Columbia SR-107
+            RFR)</font></li>
+        <li><font size="3">gyrometer</font></li>
+        <li><font size="3">3-axial piezoresistive linear
+            accelerometer (ENTRAN-EGCSY3-A-5)</font></li>
+        <li><font size="3">two (internal/external) thermilinear
+            thermistors (YSI-44202)</font></li>
+        <li><font size="3">sonar altimeter (DATASONICS-PSA900)</font></li>
+        <li><font size="3">piezoresistive pressure meter
+            (KELLER-PA-7-10)</font></li>
+        <li><font size="3">two power supply voltmeters &amp;
+            amperometers</font></li>
+    </ul>
+</blockquote>
+
+<h4 align="center">More about: *<a href="archit.htm"> control
+architecture</a> *<a href="undernav.htm"> underwater navigation </a>*
+Sensors *</h4>
+
+<hr>
+
+<h3 align="center"><a name="ROBY2" </a><font color="#408080"
+size="5">ROBY2</font></a></h3>
+
+<p>Roby2 was developed in 1992 and tested in 1993, both in
+swimming pools and in the Mediterranean. </p>
+
+<p>In spring 1993, Roby2 was modified in preparation for the
+expedition to <a href="scienapp.htm#ANTARCTICA">Antarctica</a>,
+which took place in winter 1993/94; the mechanics were adapted
+and the hardware was perfected to cope with extreme environmental conditons. </p>
+
+<p>The study of suitable control algorithms for ROBY2 has relied
+heavily on the development ROBYSIM, a simple dynamic AUV
+simulator. ROBYSIM can supply qualitative guidelines for the
+design of various control strategies, the study of navigational
+algorithms and on-line path planning, the simulation of sensors
+and the construction of a user-friendly man-machine interface.
+ROBYSIM features a central nucleus formed by a generic solid body
+model floating in fluid and a numeric integrator which can
+integrate differential equations of dynamics; it also features an operator
+interface, routines for the simulation of sensors and actuators
+and, finally, control, planning and sensor-filtering routines,
+which can be transferred unmodified to the real vehicle. </p>
+
+<p><font size="4">Technical specifications</font></p>
+
+<ul type="disc">
+    <li>4 two/double-bladed propellers with 4 48V 400W permanent
+        magnet motors.</li>
+    <li>4 channel TX/RX equipment</li>
+    <li>TDM multiplexer</li>
+    <li>SLAVE computer based on VMEbus with a Motorola 68020 CPU.</li>
+    <li>Colour TV camera.</li>
+    <li>B/W hi-res TV camera for image processing .</li>
+    <li>Computer controlled power system.<br>
+        </li>
+</ul>
+
+<blockquote>
+    <p><font size="4">Sensor package</font></p>
+</blockquote>
+
+<ul type="circle">
+    <li>2-axial variable capacitor inclinometer
+        (SCHAEVITZ-Accustar)</li>
+    <li>fluxgate compass (KVH-ROV 103)</li>
+    <li>angular accelerometer (Columbia SR-107 RFR)</li>
+    <li>gyrometer (currently being acquired)</li>
+    <li>3-axial piezoresistive linear accelerometer
+        (ENTRAN-EGCSY3-A-5)</li>
+    <li>two (internal/external) thermilinear thermistors
+        (YSI-44202)</li>
+    <li>sonar altimeter (DATASONICS-PSA900)</li>
+    <li>piezoresistive pressure meter (KELLER-PA-7-10)</li>
+    <li>two power supply voltmeters &amp; amperometers<br>
+        </li>
+</ul>
+
+<h4 align="center">More about: *<a href="archit.htm"> control
+architecture</a> *<a href="undernav.htm"> underwater navigation </a>*
+Sensors *</h4>
+
+<hr>
+
+<h3 align="center"><a name="ROMEO" </a><font color="#408080"
+size="5">ROMEO</font></a></h3>
+
+<p>A new underwater prototype, named ROMEO, is currently under
+construction. The new vehicle expands the approach adopted for
+the architecture of the previous prototypes, which has produced
+satisfactory results, and seeks to overcome the limitations
+encountered in the past. The aim is to produce a highly flexible,
+easy-to-use testbed vehicle that will lend itself to a variety of
+applications both in robotics and marine science. </p>
+
+<p>Prospects for practical application are the guiding principle
+in the ROMEO project, in consideration of the substantial investment
+and effort required to develop and test new tools that can solve
+the complex problems typical of the subsea environment. Besides
+assisting scientists, ROMEO is also to serve as a testbed for the
+development of UUV technology, particularly in the areas of
+autonomous systems control and sensing. For both operational and research purposes,
+the vehicle must be capable of high performance in attitude,
+trajectory and hovering control and is required to handle
+repetitive missions in a well-defined location on the sea bottom. </p>
+
+<p>ROMEO has the same open-frame structure as the ROBY family,
+which is easy to modify and maintain. The principle is to combine
+small size and low weight with substantial payload capacity.
+Great attention is being devoted to propulsion, seeking to ensure
+maximum controllability and precision on the horizontal plane
+while keeping pitch and roll to a miminum. Four symmetric
+horizontal thrusters permit heading and hovering control and
+horizontal motion in all directions; four vertical thrusters
+allow depth and attitude control. The open-frame structure and
+the propeller configuration make ROMEO more suitable for fine
+manoeuvring rather than long-range autonomous navigation, allowing
+it for instance to remain parallel to the sea bottom, at least up
+to a certain inclination. </p>
+
+<p>One of ROMEO's distinctive features is improved payload
+capacity. The vehicle will be used for a variety of scientific applications,
+such as real-time computer-assisted analysis of the sea bottom,
+video recording and photo imaging, water measurement and
+sampling, and seabed sampling. ROMEO is being constructed with an
+eye to accommodating any special device needed by the final user.
+Although the systems involved are widely available, they
+generally require modification to take account of space
+constraints and conditions in the underwater world. ROMEO's
+payload chassis is designed to allow users to develop their own
+system and easily mount it onto the vehicle. Chassis can be
+removed and replaced without complex technical operations, thus
+making it possible for users to mount several different chassis in sequence
+onto to the vehicle during the same testing campaign. </p>
+
+<p><font size="4">The vehicle's main features are</font>: </p>
+
+<ul type="disc">
+    <li>open frame</li>
+    <li>8 thrusters </li>
+    <li>buoyancy system</li>
+    <li>2 main cylinders for the electronics </li>
+    <li>2 cylinders for the batteries</li>
+    <li>interchangeable payload chassis<br>
+        </li>
+</ul>
+
+<p><font size="4">Physical specifications</font></p>
+
+<p>- size: 130 x 90 x 90 cm (lwh)<br>
+- weight: approx 300 k in air </p>
+
+<p><strong>Permanent sensor package</strong></p>
+
+<ul>
+    <li>gyro compass</li>
+    <li>depth meter</li>
+    <li>downward/upward looking sonars</li>
+    <li>pencil-beam profiling sonar</li>
+    <li>video camera and still camera</li>
+    <li>MRU</li>
+</ul>
+
+<h4 align="center">More about:*<a href="archit.htm"> control
+architecture</a> *<a href="undernav.htm"> underwater navigation </a>*
+Sensors *</h4>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

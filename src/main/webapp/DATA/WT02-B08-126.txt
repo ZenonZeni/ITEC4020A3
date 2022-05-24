@@ -1,0 +1,56 @@
+
+<DOC>
+<DOCNO>WT02-B08-126</DOCNO>
+<DOCOLDNO>IA003-000025-B016-154</DOCOLDNO>
+<DOCHDR>
+http://robot0.ge.uiuc.edu:80/~spong/ge222/clist.html 128.174.127.217 19961231232037 text/html 1730
+HTTP/1.0 200 OK
+Date: Tuesday, 31-Dec-96 23:23:11 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<BODY BGCOLOR='#FFFFFF'>
+<TITLE>GE 222 Checklist for Exam Number 1</TITLE>
+<BR>
+
+<H1>Checklist for Exam Number 1</H1>
+<BR>
+
+<P>
+The following is a list of the important keywords and concepts that we have
+learned so far in this course.  You can use this as a study guide for 
+the exam on October 3rd.
+
+<H3>Systems</H3>
+<P>
+feedback, system, plant, compensator, sensor, actuator, input, reference input, output,
+disturbance, transfer function, linearity, superposition,  block diagram.
+<BR>
+<H3>Laplace Transforms</H3>
+<BR>
+Laplace Transforms, complex numbers, complex plane, real and imaginary parts, s-plane,
+magnitude and phase angle,
+unit impulse, unit step, impulse response, step response, transfer 
+function, Final Value Theorem, differential equation, initial conditions, 
+residue, partial fraction expansion, poles and zeros, convolution. 
+<BR>
+<H3>Modeling</H3>
+<BR>
+modeling, circuits, Kirchoff's Laws, Laplace Transform, operational amplifier, impedance,
+mechanical system, electrical systems, dc-servo motor, linearization of nonlinear systems.
+<BR>
+
+<P>
+It is important that you understand what a simple block diagram means,
+what information the impulse response and the step response give you and
+how to compute them.  You will need to know how to derive the equations
+for simple electrical and mechanical systems and to derive the transfer
+functions relating inputs and outputs.  There will be no Matlab
+questions, nor will you have to memorize Laplace Transform pairs.  You
+will be given a short table of Laplace Transforms.  In addition you are
+allowed a single page of notes.
+</BODY>
+</HTML>
+</DOC>

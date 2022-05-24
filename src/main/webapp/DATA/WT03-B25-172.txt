@@ -1,0 +1,121 @@
+
+<DOC>
+<DOCNO>WT03-B25-172</DOCNO>
+<DOCOLDNO>IA070-000437-B007-280</DOCOLDNO>
+<DOCHDR>
+http://gardnerweb.com:80/prod/prod_articles/099608.html 206.112.192.204 19970120204500 text/html 9033
+HTTP/1.0 200 OK
+Date: Mon, 20 Jan 1997 20:44:58 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+Content-length: 8862
+Last-modified: Wed, 25 Sep 1996 20:17:50 GMT
+</DOCHDR>
+<HTML>
+
+<HEAD><TITLE>Automotive Production, September 96, "Software, Computers, Etc: Seamless JIT Doesn't Just Happen"</TITLE>
+<CONTENT="September 1996, Automotive Production">
+</HEAD>
+
+
+<BODY>
+<A NAME="top">
+<BODY BGCOLOR="#ffffff">
+
+<CENTER>
+<A HREF="http://www.gardnerweb.com"><IMG SRC="/home_graphics/gw_small.gif" WIDTH=250 HEIGHT=56 BORDER=0></A><BR><BR>
+
+<IMG SRC="/prod/prod_graphics/prod_sml_hdr.gif"><BR CLEAR=ALL><P>
+
+<HR>
+
+<!------------------------------------------------------>
+<H1>
+Seamless JIT Doesn't Just Happen</H1>
+<FONT SIZE="-1">
+<BLOCKQUOTE><B>
+Whatever your reference point to JIT (just-in-time)<BR>
+inventory control, delivery, manufacturing <BR>
+(some yet maintain that JIT simply isn'tthat it's more myth than matter), <BR>when it does happen, it's not by accident. <BR>It's through careful planning, hard work, and constant monitoring.
+</BLOCKQUOTE></B>
+</CENTER>
+<HR>
+</FONT>
+<CENTER>
+<P><I>
+By ROBIN YALE BERGSTROM, Senior Features Editor</I><P>
+</CENTER>
+<BLOCKQUOTE>
+<P>To hear Mike Alge, engineering manager, Setex Inc. (St. Marys, OH), tell it, his company is no different than any other JIT company. Actually, that's precisely the way he describes it: &quot;no different.&quot; Is this humility? Modesty?
+
+<P>Possibly. Probably. Certainly, understatement.
+
+<P><B>A Case In Point</B>. Setex manufactures seats for automobiles. Specifically, Honda, which is about an hour away in Marysville, Ohio. And as you might expect, Honda doesn't want its seats delivered willy-nilly, in whatever lot scheme or arrangement the manufacturer might find comfortable. It wants seat-set delivery timed with auto body assembly: if a red Honda is going down the line and ready for seat insertion, a corresponding red seat set had better be there. And Honda's not going to go to its 
+inventory and pulsl the seats, because Honda's not going to hold any inventory in seats (with the exception of those in 
+process conveyance).
+
+<P>The challenge, then, is to time Setex's manufacturing , inventory control, and delivery with/to Honda's assembly 
+consumption capacity. Which means that Setex has to know Honda's production schedule. And, just as important, Setex has to know--in real time--if Honda is actually producing to schedule. For example, Honda, for production and scheduling, normally builds in lots of 30 at Marysville. What if, for one reason or another (ultra-high humidity affecting the paint process, for example--not an entirely unlikely prospect in the Ohio Miami Valley in August), they only build 22? What happens to the other 8 seat sets? Are they just set aside? Do they go forward? Are they held? Where? What, specifically, happens to the seat sequencing algorithm? 
+
+<P>Now, fold in incidental factors. Like transportation issues. For example, hauling by trailer truck the 55 miles between the two plants. Little things like this can become large issues: Setex ships on trailers that are two-tiered (meaning they can handle 60 seat sets, two high). Honda's receiving system (until just this past July 4th plant shut-down) was a single-tier system. Which meant Setex transportation costs (as in number of physical truck trips per day to meet Honda's 800 seat sets/day appetite) could be twice what they needed to be (a trucking company's charges are going to be what they're going to be, 
+regardless whether there's two seat sets aboard or 60).
+
+<P>The over-riding concern for people in Alge's position is not to inconvenience the customer. Certainly never to hold up or delay the assembly line--not over seat set deliveries. When a particular car body reaches the assembly line at Honda, which happens every 63 seconds, the appropriate seats had better be there.
+
+<P><B>A JIT Response</B>. One might think that being 55 miles away from your customer would be close enough to fulfill just-in-time delivery. But in the Honda case this is not the case. Alge explains that when Setex receives Honda's broadcast (its actual production as opposed to scheduled production) indicating which car is entering the assembly line, right that minute, real-time (this is done &quot;live&quot; through a PC network, co-designed by Setex and Mathews Conveyor [Danville, KY]), there's about a 
+four-hour &quot;window&quot; for Setex to get the right seat sets to the Honda assembly line. Now, if you calculate the hour or so tied up in tractor trailer delivery time, and another hour of conveyor time once the seats arrive at Honda, plus the possibility of something disrupting the production plan, it was clear to Setex that an interim, insurance step was needed.
+
+<P>(An aside: know that Setex has always, since 1988, used an interim warehouse close to Honda. In fact, this was a facility it shared with a competitor, both of whom supplied Honda with seats [which may strike U.S. manufacturers as 
+odd--sharing facilities with one's competitors. But this is Japanese business-as-usual. If Honda wants you to share a facility with your competitor, you share a facility.] In 1992, however, that changed: Setex won the exclusive contract for one of Honda's assembly lines, which required it to set up its own warehousing facilities.)
+
+<P>Wherein comes NEX, Nippon Express Company, a warehouse facility that's two-to-three miles from the Marysville plant and that handles a lot of the bulk freight going in and out of the Honda facility. Setex leased space from NEX, and in conjunction with Mathews designed, built, and installed a completely automated (there is one operator required) JIT conveyor and communications system. Run-off for the customer was in June of 1992, just six months from initial concept and design. Since that time, Setex has maintained a flawless record of delivery of seat sets to Honda.
+
+<P>The seat sets are now trucked in lots of 60 from Setex to NEX where they are received by a double-deck conveyor. The NEX facility holds up 240 completed seat sets, which is about four hours production at Honda. The sets are automatically conveyed to a transfer car that loads the seats into one of 16 appropriate (as determined by a bar code established by Honda's production schedule and applied at Setex) gravity-flow storage lanes, each with a 
+capacity of 15 seat sets per lane. The sets are then actually &quot;pulled&quot; by a second transfer car, according to the real-time broadcast, into one of two shipping lanes (in reverse order of installation) where they are then conveyed onto a computerized trailer for shipment to Honda's receiving area.
+
+<P>All pretty slick, all pretty (and actually) just-in-time.
+
+<P>But what happens when there's a glitch--either in Honda's actual production or in the material handling/inventory control system at NEX (which has happened only twice)? If the glitch is big--let's say Honda's only able to build 22 cars in a lot instead of the projected 30. The issue raised above about the eight seat sets in limbo is handled via an SQR (schedule quantity remaining) lane, where the excess sets are off-loaded, to be picked individually as their type again comes up in production schedule.
+
+<P>And what if the system &quot;goes down&quot; for some reason? Setex dispatches a crew to NEX to repair the system and to manually operate it so that delivery is not interrupted. The two main transfer cars, for example, can be disengaged from the system and pushed about manually from the storage lanes to the shipping lanes.
+
+<P><B>Losing Sleep, Hair</B>. So, what's the most important thing in operating JIT? According to Alge, never failing the customer, which means designing, building, and installing a system that's predictably reliable. Which means building to your customer's production schedule but being able to switch &quot;on the fly&quot; to meet a change in broadcast. Which, further, means holding no inventory yourself. And none of which means you won't be losing sleep worrying about these issues. You will. This is called being vigilant about your customer's needs. 
+
+</BLOCKQUOTE>
+<P>
+<!------------------------------------------------------>
+<HR>
+<P>
+<CENTER>
+<A HREF="#top">Return to Top of Page</A> | 
+<A HREF="/prod/aptr.html">Return to AP Technical Resource Center Page</A>
+</CENTER>
+
+
+<HR><BR>
+
+<CENTER>
+<TT><B>
+<FONT SIZE="3">
+[ <A HREF="http://www.gardnerweb.com">GardnerWeb Home</A> | 
+<A HREF="http://www.gardnerweb.com/visitors/visitors.html">Visitors Center</A> | 
+<A HREF="http://www.hansergardner.com">Bookstore</A> ]<BR>
+[ <A HREF="http://www.gardnerweb.com/pf/pf.html">Finishing Resource Center</A> | 
+<A HREF="http://www.gardnerweb.com/mms/mms.html">Metalworking Resource Center</A> ]
+</FONT>
+</B></TT>
+
+<P>
+<HR WIDTH=50%>
+
+<FONT SIZE="-2">
+Serving the Metalworking and Finishing Industries. <I>Since 1928</I>.<BR>
+GardnerWeb and all contents are properties of Gardner Publications, Inc.<BR>
+All Rights Reserved. 1995-1996.</FONT><P>
+
+</CENTER>
+
+
+</BODY>
+</HTML>
+</DOC>

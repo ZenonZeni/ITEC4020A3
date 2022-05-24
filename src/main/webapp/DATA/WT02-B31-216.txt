@@ -1,0 +1,411 @@
+
+<DOC>
+<DOCNO>WT02-B31-216</DOCNO>
+<DOCOLDNO>IA078-000530-B017-374</DOCOLDNO>
+<DOCHDR>
+http://www.merlan.ca:80/software/order.html 206.116.73.58 19970211020510 text/html 15392
+HTTP/1.0 200 OK
+Date: Tue, 11 Feb 1997 02:05:14 GMT
+Server: Apache/1.0.0
+Content-type: text/html
+Content-length: 15220
+Last-modified: Fri, 03 Jan 1997 02:52:59 GMT
+</DOCHDR>
+<HTML>
+<!-- This Web page and JavaScript was created by Jason Hammerschmidt of Hammerschmidt Software www.tap.net/~hammer if you use this code, please tell me where and how you will be using it -->
+<!-- Interactive forms, Scripts, CGI's, and Web Pages all done by Hammerschmidt Software www.tap.net/~hammer -->
+<HEAD><TITLE>On-Line Order Form  Canadian Residents Only</TITLE>
+<!-- computeShipping is compute shipping based on a shiping value entered by user computeamout computes on prebased shipping values -->
+<SCRIPT LANGUAGE="LiveScript">
+<!-- Hiding
+	function OpenWindow() {
+		open("orderingautodesk.html","DisplayWindow","toolbar=yes,directories=no,menubar=no,scrollbars=yes,resize=yes");
+	}
+	function computeShipping(form) {
+		if (form.Amount1.value && form.Amount1.value >0) {
+			SubTotal=eval(form.Amount1.value);
+			Shipping=eval(form.Shipping.value);
+			}
+		else	{
+			SubTotal=0;
+			Shipping=0;
+			}
+		if (form.Amount2.value && form.Amount2.value >0) {
+			SubTotal=eval(form.Amount1.value)+eval(form.Amount2.value);
+			}
+		if (form.Amount3.value && form.Amount3.value >0) {
+			SubTotal=eval(form.Amount1.value)+eval(form.Amount2.value)+eval(form.Amount3.value);
+			}
+		if (form.Amount4.value && form.Amount4.value >0) {
+			SubTotal=eval(form.Amount1.value)+eval(form.Amount2.value)+eval(form.Amount3.value)+eval(form.Amount4.value);
+			}
+		form.SubTotal1.value=SubTotal;
+		form.SubTotal2.value=SubTotal+Shipping;
+		form.GST.value=eval((SubTotal+Shipping)*.07);
+		if (form.Province.selectedIndex==4) {
+			form.PST.value=eval((SubTotal+Shipping)*.08);
+			form.Total.value=eval((SubTotal+Shipping)*1.15);
+			}
+		else 	{
+			form.PST.value=0;
+			form.Total.value=eval((SubTotal+Shipping)*1.07);
+			}
+	
+	}
+	function computeamount(form) {
+		if (form.Amount1.value && form.Amount1.value >0) {
+			SubTotal=eval(form.Amount1.value);
+			Shipping=15;
+			}
+		else	{
+			SubTotal=0;
+			Shipping=0;
+			}
+		if (form.Amount2.value && form.Amount2.value >0) {
+			SubTotal=eval(form.Amount1.value)+eval(form.Amount2.value);
+			Shipping=18;
+			}
+		if (form.Amount3.value && form.Amount3.value >0) {
+			SubTotal=eval(form.Amount1.value)+eval(form.Amount2.value)+eval(form.Amount3.value);
+			Shipping=22;
+			}
+		if (form.Amount4.value && form.Amount4.value >0) {
+			SubTotal=eval(form.Amount1.value)+eval(form.Amount2.value)+eval(form.Amount3.value)+eval(form.Amount4.value);
+			Shipping=25;
+			}
+		form.SubTotal1.value=SubTotal;
+		if (form.Province.selectedIndex==10 || form.Province.selectedIndex==11) {
+			Shipping=Shipping+20;
+			}
+		form.Shipping.value=Shipping;
+		form.SubTotal2.value=SubTotal+Shipping;
+		form.GST.value=eval((SubTotal+Shipping)*.07);
+		if (form.Province.selectedIndex==4) {
+			form.PST.value=eval((SubTotal+Shipping)*.08);
+			form.Total.value=eval((SubTotal+Shipping)*1.15);
+			}
+		else 	{
+			form.PST.value=0;
+			form.Total.value=eval((SubTotal+Shipping)*1.07);
+			}
+
+	}
+	
+// -->
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#2222AA">
+<CENTER><IMG SRC="../images/merlan.gif" BORDER=0 WIDTH=171 HEIGHT=55 ALT="Merlan Scientific ltd." ><H1>Ordering</H1><FONT SIZE="-1">(This page makes use of JavaScript and will take some time to download.)</FONT></CENTER>
+<BR>
+<CENTER>
+<TABLE BGCOLOR="#EEEEEE" CELLSPACING="0" CELLPADDING="1" WIDTH=640 BORDER="1"><TR WIDTH=100%><TD><!-- SPACING TABLE-->
+<TABLE BORDERCOLOR="#222222" BORDER="0" CELLSPACING="1" CELLPADDING="1" ALIGN="DEFAULT" WIDTH="100%">
+<TR BGCOLOR="#008888"><TD ALIGN=LEFT><FONT SIZE=3 FACE="Geneva,Arial"><B>INSTRUCTIONS</B></FONT></TD></TR></TABLE>
+<BR>
+<B>1.</B> You can print this order form and complete the necessary information and
+fax or mail to Merlan Scientific along with a copy of your Student/Faculty/Staff status (ID Card, and class schedule or school letter).
+<BR>
+<BR><CENTER><B>OR</B></CENTER>
+<BR>
+<B>2.</B> You can complete this electronic order form and then fax or mail a copy
+of your Student/Faculty/Staff status (ID Card, and class schedule or school
+letter).  You must also submit payment - certified cheque or money order by
+mail.  VISA and MC information can be called into our order desk.<BR><BR>
+
+Order desk 1-800-387-2474 ext 107.<BR>
+Fax to Merlan Scientific 905-877-0929<BR>
+Mail to Merlan Scientific, 247 Armstrong Avenue, Georgetown, ON, L7G 4X6<BR>
+<BR>
+<FONT COLOR="RED">Note:</FONT> If you are ordering an Autodesk or Addison-Wesley Product you must also print out the Autodesk Certification & Purchase <A HREF="orderingautodesk.html">Application</A>.
+<BR>
+<BR>
+<FONT COLOR="RED">Note:</FONT> You must submit payment seperately from this electronic form (certified cheque or money order by mail, VISA/MC by phone or mail), and you must also submit your Student/Faculty/Staff status.
+<BR>
+<FORM NAME="Order" METHOD="POST" ACTION="http://www.merlan.ca/mailing-lists/mail.cgi?catalogue">
+<INPUT TYPE="hidden" NAME="ignore:subject" VALUE="Ordered Product">
+
+<TABLE BORDERCOLOR="#222222" BORDER="0" CELLSPACING="1" CELLPADDING="1" ALIGN="DEFAULT" WIDTH="100%">
+<TR BGCOLOR="#008888"><TD COLSPAN=2 ALIGN=LEFT><FONT SIZE=3 FACE="Geneva,Arial"><B>PERSONAL INFORMATION</B></FONT></TD></TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Name:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="require:from-name" SIZE="40">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Student#:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="Student#" SIZE="40">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Institution:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="require:Institution" SIZE="40">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Department:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="Department" SIZE="40">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Name of Degree Seeking:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="DegreeName" SIZE="40">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Address:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<TEXTAREA NAME="require:Address" COLS="40" ROWS="2"></TEXTAREA>
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">City:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="require:City" SIZE="40">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Province:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<SELECT NAME="Province">
+<OPTION VALUE="New Brunswick">New Brunswick</OPTION>
+<OPTION VALUE="Prince Edward Island">Prince Edward Island</OPTION>
+<OPTION VALUE="Newfoundland">Newfoundland</OPTION>
+<OPTION VALUE="Nova Scotia">Nova Scotia</OPTION>
+<OPTION VALUE="Ontario" SELECTED="SELECTED">Ontario</OPTION>
+<OPTION VALUE="British Columbia">British Columbia</OPTION>
+<OPTION VALUE="Alberta">Alberta</OPTION>
+<OPTION VALUE="Saskatchewan">Saskatchewan</OPTION>
+<OPTION VALUE="Manitoba">Manitoba</OPTION>
+<OPTION VALUE="Quebec">Quebec</OPTION>
+<OPTION VALUE="NWT">NorthWest Territories</OPTION>
+<OPTION VALUE="Yukon">Yukon</OPTION>
+</SELECT>
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Postal Code:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="require:Zipcode" MAXLENGTH="7" SIZE="7">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Telephone Number:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="require:Telephone">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Fax Number:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="Fax">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">E-Mail:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<INPUT TYPE="TEXT" NAME="from-email" SIZE="40">
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+<TABLE BORDERCOLOR="#222222" BORDER="0" CELLSPACING="1" CELLPADDING="1" ALIGN="DEFAULT" WIDTH="100%">
+<TR BGCOLOR="#008888"><TD COLSPAN=3 ALIGN=LEFT><FONT SIZE=3 FACE="Geneva,Arial"><B>PRODUCT INFORMATION</B></FONT></TD></TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%"><FONT COLOR="Red"><B></B></FONT>
+<P><FONT COLOR="Red"><B> PART #</B></FONT></P>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="50%"><FONT COLOR="Red"><B></B></FONT>
+<P><FONT COLOR="Red"><B>PRODUCT DESCRIPTION</B></FONT></P>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%"><FONT COLOR="Red"><B></B></FONT>
+<P><FONT COLOR="Red"><B>AMOUNT</B></FONT></P>
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%">
+<INPUT TYPE="TEXT" NAME="require:Part#1">
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="50%">
+<INPUT TYPE="TEXT" NAME="ProdDesc#1" SIZE="40">
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%">
+$<INPUT TYPE="TEXT" NAME="Amount1" SIZE="7" VALUE="0" onChange="computeamount(this.form)">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%">
+<INPUT TYPE="TEXT" NAME="Part#2">
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="50%">
+<INPUT TYPE="TEXT" NAME="ProductDesc#2" SIZE="40">
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%">
+$<INPUT TYPE="TEXT" NAME="Amount2" SIZE="7" onChange="computeamount(this.form)">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%">
+<INPUT TYPE="TEXT" NAME="Part#3">
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="50%">
+<INPUT TYPE="TEXT" NAME="ProductDesc#3" SIZE="40">
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%">
+$<INPUT TYPE="TEXT" NAME="Amount3" SIZE="7" onChange="computeamount(this.form)">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%">
+<INPUT TYPE="TEXT" NAME="Part#4">
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="50%">
+<INPUT TYPE="TEXT" NAME="ProductDesc#4" SIZE="40">
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH="25%">
+$<INPUT TYPE="TEXT" NAME="Amount4" SIZE="7">
+<INPUT TYPE="button" NAME="Calculate" VALUE="(Re)Calculate" onclick="computeamount(this.form)">
+</TD>
+</TR>
+</TABLE>
+<BR>
+<TABLE BORDERCOLOR="#222222" BORDER="0" CELLSPACING="1" CELLPADDING="1" ALIGN="RIGHT" WIDTH=50%>
+<TR BGCOLOR="#008888"><TD COLSPAN=2 ALIGN=LEFT><FONT SIZE=3 FACE="Geneva,Arial"><B>TOTAL INFORMATION</B></FONT></TD></TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Sub Total:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+$<INPUT TYPE="TEXT" NAME="SubTotal1" SIZE="7">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Shipping &amp; Handling: (look below)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+$<INPUT TYPE="TEXT" NAME="Shipping" SIZE="7" onChange="computeShipping(this.form)">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Sub Total before Taxes:</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+$<INPUT TYPE="TEXT" NAME="SubTotal2" SIZE="7">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">P.S.T 8% (Ontario ONLY)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+$<INPUT TYPE="TEXT" NAME="PST" SIZE="7">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">G.S.T 7% (on Sub Total before Taxes)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+$<INPUT TYPE="TEXT" NAME="GST" SIZE="7">
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP"><B></B>
+<P><B>Total Amount</B></P>
+</TD>
+<TD ALIGN="LEFT" VALIGN="TOP">
+$<INPUT TYPE="TEXT" NAME="Total" SIZE="7">
+</TD>
+</TR>
+</TABLE></CENTER>
+
+
+<TABLE BORDERCOLOR="#222222" BORDER="0" CELLSPACING="1" CELLPADDING="1" ALIGN="DEFAULT" WIDTH=50%>
+<TR BGCOLOR="#008888"><TD ALIGN=LEFT><FONT SIZE=3 FACE="Geneva,Arial"><B>PAYMENT INFORMATION</B></FONT></TD></TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP"><B></B>
+<P><B>CHEQUES PAYABLE TO: MERLAN SCIENTIFIC LTD</B></P>
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<P>
+<INPUT TYPE="radio" NAME="Paytype" VALUE="VISA" CHECKED="CHECKED">
+VISA<BR>
+<INPUT TYPE="radio" NAME="Paytype" VALUE="MasterCard">
+Master Card<BR>
+<INPUT TYPE="radio" NAME="Paytype" VALUE="Cheque">
+Certified Cheque or Money Order </P>
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Card Holders Name: 
+<INPUT TYPE="TEXT" NAME="CardHolder" SIZE="33"><BR>Signature (if printed/fax format used):__________________________
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Note: Credit Card Payment information should be diclosed by telephone or fax to Merlan Scientific Ltd.</TD>
+</TR>
+</TABLE>
+<P></P>
+
+<TABLE BORDERCOLOR="#222222" BORDER="0" CELLSPACING="1" CELLPADDING="1" ALIGN="DEFAULT" WIDTH="100%">
+<TR BGCOLOR="#008888"><TD ALIGN=LEFT><FONT SIZE=3 FACE="Geneva,Arial"><B>MISCELLANEOUS INFORMATION</B></FONT></TD></TR>
+<TR><TD>
+<B>Shipping and Handling Costs</B><BR>
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="5" ALIGN="DEFAULT" >
+<TR><TD># of items</TD><TD>1</TD><TD>2</TD><TD>3</TD><TD>4</TD><TD>5 or more</TD></TR>
+<TR><TD>Cost</TD><TD>$15</TD><TD>$18</TD><TD>$22</TD><TD>$25</TD><TD><A HREF="../reachus.html">Call</A></TD></TR>
+</TABLE>
+<BR><FONT SIZE="-1">NorthWest &amp; Yukon Territories add on additional $20.<BR>
+JavaScript takes into account number of items and place of shipping address in calculating the Shipping costs.  Discounts or additions to Shipping costs may be entered in manually by typing amount in Shipping &amp; Handling box and hitting the Tab key.  Clicking on (Re)Calculate will cause JavaScript to (re)calculat amount for all fields including Shipping &amp; Handling.</FONT>
+</TD></TR>
+<BR><BR><P></P>
+<TR><TD>
+<B>How Did You Hear About Merlan Scientific?</B><BR>
+<SELECT NAME="HeardAboutUsFrom">
+<OPTION VALUE="Surfing" SELECTED>Surfing</OPTION>
+<OPTION VALUE="CampusBoards">Campus Boards</OPTION>
+<OPTION VALUE="Teacher">Teacher</OPTION>
+<OPTION VALUE="Friend">Friend</OPTION>
+<OPTION VALUE="EducationForumMagazine">Education Forum Magazine</OPTION>
+<OPTION VALUE="LightwaveMagazine">Lightwave Magazine</OPTION>
+<OPTION VALUE="ProjectMagazine">Project Magazine</OPTION>
+<OPTION VALUE="Other">Other</OPTION>
+</SELECT>
+</TD></TR>
+<TR><TD>
+<B>Is this your first time ordering from Merlan Scientific?</B><BR>
+<INPUT TYPE="radio" NAME="FirstTimeOrdering" VALUE="Yes" CHECKED="CHECKED"> Yes<BR>
+<INPUT TYPE="radio" NAME="FirstTimeOrdering" VALUE="No"> No<BR>
+</TD></TR>
+<TR><TD>
+<B>Comments:</B>
+<TEXTAREA NAME="Comments" ROWS="4" COLS="70"></TEXTAREA>
+</TD></TR>
+</TABLE>
+
+<BR>
+<TABLE BORDERCOLOR="#222222" BORDER="0" CELLSPACING="1" CELLPADDING="1" ALIGN="DEFAULT" WIDTH="100%">
+<TR BGCOLOR="#008888"><TD ALIGN=LEFT><FONT SIZE=3 FACE="Geneva,Arial"><B>AUTODESK INFORMATION</B></FONT></TD></TR>
+<TR><TD>
+<B>Are you ordering an Autodesk or Addison-Wesley Product?</B><BR>
+<INPUT TYPE="radio" NAME="AutodeskProduct" VALUE="Yes" onClick = "OpenWindow()"> Yes<BR>
+<INPUT TYPE="radio" NAME="AutodeskProduct" VALUE="No" CHECKED="CHECKED"> No<BR>
+</TD></TR>
+</TABLE>
+
+<BR>
+<TABLE BORDERCOLOR="#222222" BORDER="0" CELLSPACING="1" CELLPADDING="1" ALIGN="DEFAULT" WIDTH="100%">
+<TR BGCOLOR="#008888"><TD ALIGN=LEFT><FONT SIZE=3 FACE="Geneva,Arial"><B>ORDER IT!</B></FONT></TD></TR></TABLE>
+<BR><CENTER>
+<INPUT TYPE="submit" VALUE="Send Order">
+<INPUT TYPE="reset" VALUE="Clear"></CENTER>
+</FORM>
+</TD></TR></TABLE>
+<BR>
+<HR NOSHADE>
+ <CENTER>
+[ <A HREF="http://www.merlan.ca/software/pricelist.html">Price List</A> | <A HREF="http://www.merlan.ca/software">On-Line Catalogue</A> | <A HREF="http://www.merlan.ca">Home</A> | <A HREF="../student.html">Student Home Page</A> | <A HREF="http://www.merlan.ca/mailing-lists">Mailing-Lists</A> | <A HREF="http://www.merlan.ca/mailing-lists/catalogue.html">FREE Catalogue</A> ]
+ </CENTER>
+
+</BODY>
+</HTML>
+</DOC>

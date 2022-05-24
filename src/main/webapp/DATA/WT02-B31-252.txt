@@ -1,0 +1,265 @@
+
+<DOC>
+<DOCNO>WT02-B31-252</DOCNO>
+<DOCOLDNO>IA020-000210-B032-449</DOCOLDNO>
+<DOCHDR>
+http://sandcastle-ltd.com:80/papers.html 199.35.141.30 19970107121215 text/html 11833
+HTTP/1.0 200 OK
+Date: Tue, 07 Jan 1997 12:13:40 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 11661
+Last-modified: Fri, 20 Dec 1996 02:08:14 GMT
+</DOCHDR>
+<html>
+<head> 
+	<title>Published Papers</title>
+</head>
+
+<body bgcolor="#ffffff" TEXT="#000000" LINK="#0000ff" ALINK="#ff0000" VLINK="#175A73">
+
+
+<center>
+<table>
+        <tr>
+                <td align=right valign=top><img src="Objects/leftsq.gif"></td>
+                <td align=center valign=top><h1><i>Published Papers</i></h1></td>
+                <td align=left valign=top><img src="Objects/rightsq.gif"></td>
+        </tr>
+</table>
+</center>
+
+<table border="1" width="100%">
+	<tr>
+    <td><font size=+1><a target="reference" href="http://ciac.llnl.gov/cgi-bin/index/documents">
+		CIAC Security Documents</a></font><br>
+		<i>U.S. Department of Energy</i>
+	</td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="Papers/phrack_tracks.ps.gz">
+		Covering Your Tracks</A></font><br>	
+		<I>Phrack Vol. 4 Issue #43;  GZip'd Postscript;  16k</I><br>
+		<font size=-1><br>
+		A Phrack article describing the unix system logs and how it is possible to reduce the
+		footprint and visibility of unauthorized access.</td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="Papers/covert.tcp.txt">
+		Covert Channels in the TCP/IP Protocol Suite</A></font> <br>	
+		<I>Craig H. Rowland;  14 November 1996; ASCII Text;  53k</I>
+		<a target="reference" href="http://www.psionic.com/papers"><font size=-1>Original & Source Code</font></a><br>
+		<font size=-1><br>
+		<p>This paper demonstrates several methods of encoding secret data into the
+		headers of the TCP/IP protocol. Main topics of interest include:</p>
+		<ul>
+		<li>Encoding data into IP headers.</li>
+		<li>Encoding data into TCP headers.</li></ul>
+
+		<p>Specific areas of focus allow encoding of data into the IP
+		identification fields and TCP sequence number fields for clandestine
+		transmission of data to a remote host. Packets of data appear normal to
+		network sniffers and packet filters, yet can contain hidden messages in
+		either plaintext or ciphertext.</p>
+
+		<p>Other methods revealed include a new technique where forged packets can
+		be "bounced" off any Internet connected site to establish a
+		communication path that appears to originate from the "bounced" host. 
+		Additionally, several methods are discussed regarding bypassing of
+		packet filters with encoded data for communication with hosts inside a
+		protected network.</p>
+
+		<p>This paper contains actual demonstrations as well as source code for
+		Linux 2.x systems to allow encoded transmissions between sites to be
+		tested.</font></td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="Papers/phrack_shadow_crack.ps.gz">
+		Cracking Shadowed Password Files</A></font></br>
+		<I>Phrack Vol. 5 Issue #46 GZip'd Postscript;  19k</I></br>
+		<font size=-1><br>
+		A Phrack article describing how to use the system call password function to bypass
+		the shadow password file.</td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="Papers/firewallPerformance.html">
+		Firewall Performance Measurement Techniques: A scientific approach</a></font></br>
+		<i>Marcus J. Ranum; V-ONE Corporation; HTML</i>
+		</td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="http://www.alw.nih.gov/Security/first-papers.html">
+		FIRST Security Documents</a></font><br>
+		<i>Forum of Incident Response and Security Teams</i></td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="Papers/Interop-eng96-1.0.ps.gz">
+		A High Speed Firewall Architecture for ATM/OC-3c</a> 
+		</font><br>
+		<i>James Hughes; Network Systems Corporation; 1996; GZip'd Postscript; 32k</i>
+		<a target="reference" href="http://www.network.com/~hughes"><font size=-1>Original</font></a><br>
+		<font size=-1><br>
+		The goal of ATM is high-performance wide area connectivity both site to site and
+		end-point to end-point.  Moving ATM from the labs and LANs to the MANs and WANs is
+		not possible for many because of a lack of data stream policy, audit, commercial
+		privacy, data integrity, and authentication within existing ATM switches, end-points
+		or network offerings.  This paper describes a device whose intended purpose is to
+		add these security features while maintaining the end-to-end high-performance
+		nature of ATM and to create the general direction that high-performance network
+		security may take in the future.</font></td>	
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="http://www.v-one.com/newpages/fwpick.html">
+		How to pick an Internet Firewall</a></font><br>
+		<i>Marcus J. Ranum; V-ONE Corporation; HTML</i>
+		</td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html">
+        Improving the Security of Your Site by Breaking Into it</a></font><br>
+		<i>Dan Farmer; Sun Microsystems; HTML; 52k</i><br>
+		<font size=-1><br>
+		Every day, all over the world, computer networks and hosts are being broken into. The
+		level of sophistication of these attacks varies widely; while it is generally believed
+		that most break-ins succeed due to weak passwords, there are still a large number of
+		intrusions that use more advanced techniques to break in. Less is known about the latter
+		types of break-ins, because by their very nature they are much harder to detect. 
+	</td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="Papers/improving_security_sri.ps.gz">
+		Improving the Security of your Unix System</A></font><br>
+		<I>David Curry; SRI International;  1990;  GZip'd Postscript;  99k</I><br>
+		<font size=-1><br>
+		This is the somewhat well known SRI Report on Unix Security.  It's a good solid starting
+		place for securing a Unix box.</td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="http://www.coast.net/%7Eemv/tubed/spoofing.html">
+                Internet Spoofing Reference</a></font><br>	
+		<i>COAST Reference Page</i></td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="http://doe-is.llnl.gov/nitb/ids.html">
+                Intrusion Detection Systems</a></font><br>	
+		<i>Lawrence Livermore National Laboratory and Sandia National Laboratory; October 1996</i>
+		<br><font size=-1><br>National Info-Sec draft on intrusion detections and response.  Includes
+		 links to on-line references and ID systems.
+	</td>
+	</tr>
+	<tr>
+    	<td><font size=+1><a target="reference" href="Papers/INET.html">
+		IP Security, Creating Secure Intranets over the Internet</a></font><br>
+		<i>James Hughes; Network Systems Corporation; 1996; HTML</i>
+		<a target="reference" href="http://www.network.com/~hughes/INET.html"><font size=-1>Original</font></a><br>
+		<font size=-1><br>
+		The technology to create interoperable secure encrypted tunnels over the internet is now
+		possible.  Secure intranets over the internet is an intriguing cost savings solution to
+		replace high cost leased lines or frame relay services while at the same time increasing
+		the security of that traffic.
+	<tr>
+    <td><font size=+1><a target="reference" href="Papers/molitor.html">
+		Measuring Firewall Performance</a></font><br>
+		<i>Andrew Molitor; Network Systems Corporation; HTML</i><br>
+		<font size=-1><br>
+		In this paper, we develop some terminology to describe performance measurements, and
+		develop an experiment to compare packet filtering against a proxy approach. The single
+		limited case of FTP transactions is our primary focus. The results suggest that the
+		maximum rate at which FTP sessions can be set up and torn down is unaffected by packet
+		filtering, but approximately halved by a proxy. The bulk data transfer throughput
+		is a little worse than halved by the packet filter used, and cut to one-fifth by the
+		proxy used. Thus, it appears that proxies to perform substantially worse than packet
+		filters. However, the actual results also suggest that with reasonably available fast
+		hardware, throughputs quite close to wire rate, at least for the tests conducted, would
+		be perfectly possible with either approach.</td>
+	</tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="Papers/nfs_trace.txt">
+		NFS Tracing by Passive Network Monitoring</A></font><br>
+		<I>Matt Blaze;  1992;  ASCII Text</I><br>
+		<font size=-1><br>
+		Blaze, now famous for cracking the Clipper chip while at Bell Labs, wrote this paper
+		while he was a PhD candidate at Princeton.
+    </td>
+	</tr>
+	<tr>
+		<td><font size=+1><a target="reference" href="Papers/packets_found_bellovin.ps.gz">
+				Packets Found on an Internet</A></font><br>
+				<I>Steven M. Bellovin;  1993;  GZip'd Postscript;  32k</I><br>
+		<font size=-1><br>
+				A very interesting paper describing the various attacks, probes, and
+				 miscellaneous packets floating past AT&T Bell Labs' net connection.
+		</td>
+	</tr>
+	<tr>
+		<td><font size=+1><a target="reference" href="http://csrc.ncsl.nist.gov/secpubs/rainbow/">
+                Rainbow Books</a></font><br>
+				<i>National Computer Security Center</i>
+		</td>
+	</tr>	
+	<tr>
+    	<td><font size=+1><a target="reference" href="http://www.trouble.org/survey/">
+        	Shall We Dust Moscow?<br>(Security Survey of Key Internet Hosts & Various Semi-Relevant Reflections)</a></font> <img src="Images/new.gif" alt="New!"><br>
+        <I>Dan Farmer; 18 December 1996; HTML</I><br>
+		<font size=-1><br>
+	This is a writeup on a security survey of approximately 2200 computing systems on
+  the Internet that I did in November-December of 1996. I performed
+  the survey out of curiosity, but I'm writing this report in an attempt to disseminate my
+  rather startling and depressing results.	
+		</td>
+	<tr>
+		<td><font size=+1><a target="reference" href="http://www.cert.dfn.de/eng/resource/ietf/ssh/">
+		Site Security Handbook</a></font><br>
+			<i>Barbara Fraser; March 1996; SEI/CMU</i></td>
+	</tr>
+	<tr>
+        <td><font size=+1><a target="reference" href="Papers/dragons_bellovin.ps.gz">
+			There Be Dragons</A></font><br>
+			<I>Steven M. Bellovin;  1992;  GZip'd Postscript;  58k</I><br>
+		<font size=-1><br>
+			Another Bellovin paper discussing the various attacks made on att.research.com.
+        </td>
+    </tr>
+	<tr>
+		<td><font size=+1><a target="reference" href="http://world.std.com/~jimf/nt-security.html">
+                Windows NT Security</a></font><br>
+				<i>Jim Frost; 1995</i></td>
+	</tr>
+	<tr>
+		<td><font size=+1><a target="reference" href="Papers/unix_security_checklist.txt">
+				Unix Computer Security Checklist</a></font><br>
+				<i>AUSCERT, Australian Computer Emergency Response Team; 1995;
+				 ASCII Text; 89k</i><br>
+		<font size=-1><br>
+     			A comprehensive checklist for securing your Unix box. 	
+		</td>
+	</tr>
+	<tr>
+		<td><font size=+1><a target="reference" href="Papers/skey_white_paper.html">
+				Vulnerabilities in the S/KEY one time password system</a></font><br>
+				<i>Mudge, L0pht Heavy Industries (aka l0pht.com)
+				 ASCII Text; 13k</i> <a target="reference" href="http://l0pht.com/~mudge/skey_white_paper.html">
+				<font size=-1>Original</font></a><br>
+		<font size=-1><br>
+     			This text attempts to touch upon several vulnerabilities found in One
+				Time Password (OTP) implementations such as S/Key.
+		</td>
+	</tr>
+</table>
+<table width="100%">
+    <tr>
+        <td align="center" colspan="3"><font size="2">
+        Copyright &copy; 1996 <a href="http://www.SandCastle-Ltd.com">SandCastle Ltd.</a> All rights reserved.
+        <br>
+        Use this information at your own risk.<BR>
+        Neither SandCastle Ltd. nor any of its employees shall be liable<BR>
+        for any damage or losses inccured by using the information provided here
+.
+        </font></td>
+    </tr>
+</table>
+
+<a href="docs.html"><img src="Images/back.gif" alt="Previous" border=0></a>
+</body>
+</html>
+</DOC>

@@ -1,0 +1,1516 @@
+
+<DOC>
+<DOCNO>WT03-B26-8</DOCNO>
+<DOCOLDNO>IA029-000311-B015-106</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/meetings/china.htm 138.44.40.1 19970114162429 text/html 38518
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:22:32 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 30 Sep 1996 07:35:57 GMT
+Content-length: 38343
+</DOCHDR>
+<HTML>
+
+<HEAD>
+
+    <TITLE>International workshop on multiangular remote sensing: measurements, models &amp; applications</TITLE>
+
+    <META NAME="GENERATOR" CONTENT="Internet Assistant for Word 1.0Z">
+
+    <META NAME="AUTHOR" CONTENT="pc-8">
+
+    <META NAME="OPERATOR" CONTENT="Jeff Kingwell">
+
+</HEAD>
+
+<BODY>
+
+<P><CENTER><HR></CENTER>
+
+<H2><CENTER>International workshop on multiangular remote sensing:<BR>
+
+measurements, models &amp; applications</CENTER>
+
+</H2>
+
+<H3><CENTER>September 13-18, 1996<BR>
+
+Beijing, P.R. China</CENTER>
+
+</H3>
+
+<BR>
+
+<HR><BR>
+
+<B>WORKSHOP REPORT</B><BR>
+
+<BR>
+
+David L B Jupp<BR>
+
+CSIRO Earth Observation Centre<BR>
+
+<BR>
+
+<HR>
+
+<H3><BR>
+
+1. Changchun</H3>
+
+<BR>
+
+On Friday September 13 a variety of international BRDF people met at the
+
+Youyi Binguan (Friendship Hotel) in Beijing, registered and readied themselves
+
+for a two-part meeting - the first International Workshop On Multiangular
+
+Remote Sensing (Measurements, Models And Applications).<BR>
+
+<BR>
+
+The Meeting was organised by members of the Institute of Remote Sensing
+
+Applications (IRSA) of the Chinese Academy of Sciences (CAS) and of the
+
+Beijing Normal University. There was international help as well, especially
+
+from Alan Strahler's group at Boston University. The first part of the Meeting
+
+was held in Changchun, a city to the north of Beijing in Jilin. It is known
+
+as the Detroit of China due to its vehicle production industry and historically
+
+it is remembered as the Capital of Manchu Guo, the puppet state set up by
+
+Japan in 1931 with the last emperor Pu Yi as head. But neither of these
+
+brought us there. Near Changchun is the Jingyuetan Remote Sensing Test Site.<BR>
+
+<BR>
+
+Operated by the CAS, the Test Site has a wide range of land covers and has
+
+been the site of many field experiments and validation campaigns. Since
+
+1980, an extensive laboratory facility has been developed. In particular,
+
+we came to see the indoor Solar Simulation Laboratory. This is a large scale
+
+goniometer with an artificial source to simulate the sun and moveable positions
+
+for sun/sensor effects measurement. The target measured is a square metre
+
+of anything you can fit in a square meter. A small table top instrument
+
+has also been developed to allow multi-angular measurements of reflectance
+
+and transmittance at the scale of leaves.<BR>
+
+<BR>
+
+We saw the site in operation and the data processed in quick time as 3D
+
+plots. There was considerable discussion of the various edge effects and
+
+conditions that make this type of facility similar or different to <I>in
+
+situ</I> measurements. We were all impressed by the facility. I wish we
+
+had one even if only to calibrate our field panels! But not all is lost,
+
+since we are welcome to define and conduct experiments at Jingyuetan. Indeed,
+
+if field campaigns were made at the general site, example patches could
+
+be tested for complete BRDF at the same time. It beats using a Spectron
+
+SE590 out in the weather while the sun and sky change around you. Meanwhile,
+
+a graduate student can be measuring the leaves as well!<BR>
+
+<BR>
+
+Nearby is a solar observatory on a hill top with a dome roof that opens
+
+allowing a range of continuous sun photometer and irradiance device data
+
+to be collected. Quite an investment has been made and in principle a high
+
+level of characterisation could be had at Jingyuetan - to a level we have
+
+no hope of matching in Australia at this time.<BR>
+
+<BR>
+
+After a good lunch on Sunday September 15 (which by itself was probably
+
+enough to justify further collaboration and cooperative development) we
+
+flew back to (warmer) Beijing for the next phase of the Workshop.<BR>
+
+<H3>2. Beijing</H3>
+
+<BR>
+
+On the morning of Monday September 16 the talking and discussion part of
+
+the Workshop began. We were welcomed by a group of very senior and distinguished
+
+people from the CAS and the State Science and Technology Commission. Juhan
+
+Ross, the 'grand old man' of radiation in plant canopies and Alan Strahler
+
+(who is still quite young) gave Keynote Addresses which set the scene for
+
+the Meeting.<BR>
+
+<BR>
+
+There followed two days (two half days and one full day) of very intensively
+
+packed presentations. The program as presented, with speaker (bolded) and
+
+topic is attached for you to read. The papers will be available in the near
+
+future for you to look more carefully at talks that are especially relevant
+
+to you. In this Report, I will limit my discussion to general impressions
+
+plus a detailed set of notes on the outcomes Discussion that occurred on
+
+Wednesday September 18<BR>
+
+<BR>
+
+Of course, a primary outcome for such meetings is for people working in
+
+a field to meet, get to know each other if that has not happened before,
+
+exchange ideas both during sessions and at any other time that is available
+
+and jointly develop their ideas of the directions that need to be pursued
+
+into the future. All of these happened.<BR>
+
+<H3>3. General Notes &amp; Impressions</H3>
+
+<H4>3.1 Parametric BRDF</H4>
+
+<BR>
+
+It was very comforting to see how the recent simplifications to BRDF models
+
+(the 'kernel' and similar simple models) were performing well as tools in
+
+atmospheric correction and image brightness correction at airborne, TM and
+
+AVHRR data scales. Simplified models and linearity are obviously fashionable
+
+but also provide very practical tools to describe and use BRDF for applications
+
+such as those above and others such as panel characterisation. Obviously,
+
+the scope for such techniques is about to increase with the launch of ADEOS
+
+carrying POLDER and will further increase as MODIS and MISR data start to
+
+come on line in a more distant time frame.<BR>
+
+<BR>
+
+These developments were outlined in Talks [1-8], [2-5], [3-3], [3-5], [3-6]
+
+and [4-2]<BR>
+
+<H4>3.2 Hospot Specific Instrumentation</H4>
+
+<BR>
+
+Sig Gerstl [1-2] provided advance notice for an innovative mission to utilise
+
+the hotspot region from space using an active laser and tethered receivers.
+
+It is 'Bi-static Lidar' I guess and the technology is feasible. All that
+
+is needed is for the extra value of the information to be proven over not
+
+doing it! His ideas are not alone in that.<BR>
+
+<H4>3.3 Field and Laboratory Instrumentation</H4>
+
+<BR>
+
+There was a strong emphasis on field and laboratory measurement. In summarising
+
+his session, Juhan Ross said that the main advances have been in computer
+
+technology and in constructing measurement instruments. Instrumentation
+
+and measurement protocols are very difficult but essential components of
+
+the research and also of the applications. The ideas included field data
+
+for structural characterisation as well as radiometric measurements. In
+
+addition to the Changchun site, there is a goniometer in Italy at the European
+
+Goniometric Observatory (EGO) which is also producing many detailed studies
+
+of BRDF at the one square metre plot scale. It was clear, however, that
+
+the leaf measurements being taken at Changchun were the envy of most and
+
+we all hope to see outcomes being published and information made available
+
+in the future.<BR>
+
+<BR>
+
+There is still a lot to be done relative to the 'scattering phase functions'
+
+of the objects that different user models and radiative models want and
+
+can deal with. Leaf measurements need to be linked to high spectral resolution
+
+data and plant physiological information (such as chlorophyll and pigments)
+
+as well. However, the tools are emerging to do this which did not previously
+
+exist. At the 'module' or 'branch' scale, Juhan Ross described an instrument
+
+for measuring scattering that is being used in Estonia (the 'Shoot Goniometer')
+
+and for short crops and other covers, the large indoor Goniometers at Changchun
+
+and ISPRA are obviously filling a need.<BR>
+
+<BR>
+
+However, in order to relate models, measurements and the objectives of the
+
+users there is still some work to be done in describing and recording structure
+
+in the non-homogeneous canopies we mostly work with. Juhan Ross and Tiit
+
+Nilson were especially adamant of the need to introduce such protocols of
+
+field description and measurement and emphasised that they need to relate
+
+to the end use. Given the limited relationships between (say) traditional
+
+forestry data and radiation data this may mean the definition of a set of
+
+new phytometrical measurements. The Chinese work by Xiang Yueqin and Wang
+
+Jindi ([1-11], [1-12]) is very interesting in this regard.<BR>
+
+<BR>
+
+Other talks covering this area were: [1-1], [1-4], [1-5], [1-9], [1-10],
+
+[2-9] and [3-1]<BR>
+
+<H4>3.4 Modelling &amp; Inversion</H4>
+
+<BR>
+
+The recent main advances in modelling seem to have been computational rather
+
+than by changes in the physics and/or mathematics. There are now a well
+
+defined set of models that can adequately describe the BRDF of structured
+
+land covers. What is not so common are the parameters of the component properties
+
+of the models (such as leaf phase functions!) and there is still scope for
+
+computational simplifications and more robust techniques for inversion.<BR>
+
+<BR>
+
+Andres Kuusk and others described a number of uses of parameter inversion
+
+with Landsat TM and AVHRR data. With Landsat TM data, Kuusk was inverting
+
+chlorophyll content using relationships obtained from field and laboratory
+
+measurements. Inversion is obviously the aim of this work and has still
+
+to be made simpler and more robust.<BR>
+
+<BR>
+
+As a complete test base for models and measurements associated with the
+
+EGO, Michel Verstraete described the Monte-Carlo RayTran model which has
+
+been running on a supercomputer at ISPRA. Able to be linked to an L-System
+
+model of the land surface it provides a good base for model testing and
+
+data interpretation. He also described work in which the leaf structure
+
+is modelled by simple geometric forms (cylinders, spheres and sheets). He
+
+was keen to form an 'Observation Protocol' for the data that will be generated
+
+in the future.<BR>
+
+<BR>
+
+Such work obviously sits at the interface between measurement and modelling.
+
+At this advancing stage of the development of the BRDF research the two
+
+are clearly dependent and complementary.<BR>
+
+<BR>
+
+Related Talks were: [2-1], [2-2], [2-3], [2-6], [2-7], [2-8], [3-1], [3-2],
+
+[3-3], [3-4], [3-5], [3-6], [3-8], [3-9] and [4-1].<BR>
+
+<H4>3.5 Remotely Sensed Data</H4>
+
+<BR>
+
+There were many data types discussed. These ranged from the use of existing
+
+data types, such as aerial photography, Landsat TM, AVHRR and airborne data
+
+(such as Daedalus data) to simulations of the emerging data types such as
+
+POLDER, MISR and MODIS.<BR>
+
+<BR>
+
+Quite a variety of airborne instruments exist now which can obviously be
+
+used for research as well as for their prime objective as development tools
+
+for space borne instruments. These include ASAS, the POLDER simulator and
+
+MISR Airborne Simulator (MAS). These can be regarded separately as tools
+
+for mapping just as the final spaceborne tools will be. Their advantages
+
+are those of airborne data - flexible deployment, control over calibration
+
+and ancillary data.<BR>
+
+<BR>
+
+Papers discussion these include: [1-6], [1-7], [1-8], [3-2], [3-3], [3-4],
+
+[3-5], [3-8] and [3-9].<BR>
+
+<H4>3.6 Scale</H4>
+
+<BR>
+
+There were many ranges of scale presented at the workshop. Information was
+
+obtained and models discussed for the sub-millimetre scale of ice crystals,
+
+through soil grain, leaf, branch, crown and canopy up to AVHRR scale. It
+
+seemed to be unquestioned that BRDF and Hotspot effects translated easily
+
+through these scale changes.<BR>
+
+<BR>
+
+I believe the area of BRDF and Hotspot effects is perhaps almost unique
+
+in the way its significant invariants do transfer across scales. Yet it
+
+is not all so easy. There are many issues of scale that are as yet neglected.
+
+Relationships between phase functions for the 'grains' listed above and
+
+those of the components making them up have no complete theory and this
+
+is a major challenge. Not wanting to push a barrow necessarily, I would
+
+mention that this scaling undoubtedly involves at least spatial variance
+
+and correlations and that the 'mean' effects we call BRDF and the Hotspot
+
+are not themselves sufficient to describe the scaling.<BR>
+
+<BR>
+
+There were papers involving many scales but none on 'scale'. There was one
+
+which discussed variance [2-4].<BR>
+
+<H4>3.7 The Hunter and the Dog</H4>
+
+<BR>
+
+Juhan Ross pointed out that in Estonia in the forestry and ecology 'hunts'
+
+it has been traditional to regard the Forester or Ecologist as the Hunter
+
+and the physicist as the Dog. However, he noted that the traditional forestry
+
+and ecology cannot handle the information our science is able to provide
+
+nor cope with the scales we can encompass. He claimed that in radiation
+
+ecology it is time for the physicist to become the Hunter and the Dog.<BR>
+
+<BR>
+
+I agree. In other cases we have for years been asked by climate modellers
+
+and others to provide crude summarising parameters for models whose handling
+
+of the radiation fields would make any remote sensing specialist weep. Our
+
+science is moving into data spaces unknown to our 'Hunter' buddies. It is
+
+time to hunt down what <I>we</I> can find out about the world that no one
+
+else can reach and then also drop it on their clean boots with wagging tails!<BR>
+
+<H3>4. The Closing Discussion of September 18</H3>
+
+<BR>
+
+The following discussion is an expansion of the set of notes provided and
+
+taken by Alan Strahler as Chair and facilitator of this important discussion.
+
+He is thanked for the privilege he gave me to use his notes but is not to
+
+blame for the [embellishments].
+
+<H4><BR>
+
+4.1 Initial Discussion Starter.<BR>
+
+</H4>
+
+<B>4.1.1 Why Study BRDF in Remote Sensing?</B><BR>
+
+<BR>
+
+(i) Improve understanding of physical scattering mechanisms of surface covers
+
+and interaction with soil and atmosphere;<BR>
+
+<BR>
+
+(ii) Retrieval of surface parameters by inversion. But which parameters?
+
+See below ...<BR>
+
+<BR>
+
+[Maybe not just inversion but also by interpretation and pattern recognition]<BR>
+
+<BR>
+
+(iii) Correction of angular effects in imagery allowing users to make their
+
+own inferences.<BR>
+
+<BR>
+
+[Users often want to apply image processing to mosaics. Image processing
+
+implies spatial stationarity which angular variations disrupt. We need the
+
+make the data at least 'quasi-stationary]<BR>
+
+<BR>
+
+Key Problem: &quot; ... the main limiting factor remains - obtained by remote
+
+sensing, vegetation parameters quite poorly express the main biological
+
+processes - photosynthesis, respiration, transpiration, allocation etc of
+
+growing vegetation.&quot; (Juhan Ross)<BR>
+
+<BR>
+
+That is, Radiation Parameters are not the same as Ecological Parameters.<BR>
+
+<BR>
+
+[However, Ross has the view that the fault is not with RS but there needs
+
+to be a re-appraisal of measurement models on both the ecological and remote
+
+sensing sides. That is, it is time the Dog became the Hunter and the Dog.
+
+This is not just the case in vegetation cover. Linking the user scene measurement/descriptive
+
+model with the radiative scene measurement/descriptive model is the Key
+
+issue in most applications.]<BR>
+
+<BR>
+
+<B>4.1.2 What is Needed?</B><BR>
+
+<BR>
+
+Models:	Not a problem<BR>
+
+		Inversion strategies can use improvement<BR>
+
+<BR>
+
+[There was not complete agreement here. Bernard Pinty, the Modeller's Modeller
+
+(i.e. a Modeller who is such a Modeller that even Modellers call him a Modeller),
+
+felt that better models are still needed. Personally, I think the current
+
+models are advanced enough and are not what is pushing the boundary. It
+
+is a common statement in water radiation models and atmosphere radiation
+
+models that the current limitations are not in the models but in our knowledge
+
+of the physical parameters and properties that are needed to run the models.
+
+Land models are not as well established but the statement is, I think, the
+
+same. Better <I>Inversion</I> theory, of course, can provide many of these
+
+properties in addition to the scene parameters.]<BR>
+
+<BR>
+
+Data:		&quot;Point&quot; measurements for model development and validation<BR>
+
+			Lab:	Leaf scattering measurements<BR>
+
+				Goniometric measurements of targets<BR>
+
+			Field:	Goniometric measurements of real targets in the <BR>
+
+				atmosphere<BR>
+
+		&quot;Area&quot; measurements to extend information spatially<BR>
+
+			Field campaigns, aircraft data<BR>
+
+			Satellite data - AVHRR, POLDER, MODIS, MISR &amp;<BR>
+
+			Spot-Vegetation<BR>
+
+<BR>
+
+[Measurement and Validation issues are a major issue and provide the current
+
+challenge. At all stages and scales it is also important to introduce the
+
+correct environmental information so that the radiation scene models and
+
+the user scene models can be related. For example, are leaf measurements
+
+useful without pigment and high spectral data measurements? Can fluorescence
+
+data provide the link? In each case above there is an issue of standardisation
+
+and information cataloguing. What is the minimal data set and descriptors
+
+such that the data can be used by others? What standardisation is needed
+
+in measurement techniques as well as information recording? Is a field reflectance
+
+useful if (at least) the fraction of diffuse radiation is not recorded?
+
+Is a leaf scattering reading useful if leaf absorption spectrum and/or fluorescence
+
+spectrum is/are not recorded?]<BR>
+
+<BR>
+
+Mechanisms		
+
+<BLOCKQUOTE>Sharing models?<BR>
+
+Sharing Data?</BLOCKQUOTE>
+
+<BR>
+
+[The above applies. There need to be common bases for model and data comparison
+
+and validation. Perhaps there are standard targets which can be used to
+
+test instruments and standard scenes to test models. But how do you adequately
+
+define and parametrise these? The suggestion is recorded later for some
+
+form of email discussion area. Maybe a listserver is a good start. However,
+
+perhaps a full Web Site is what is needed with pointers to data owners and
+
+sites, model owners and sites plus a compendium of proposed standards and
+
+methods for model and field analysis. The EOC is starting such a beast.
+
+For people who are not on the internet, an HTML version could be supplied
+
+regularly by diskette for off-line browsing!]<BR>
+
+<BR>
+
+<B>4.1.3 What's Next for This Workshop?</B><BR>
+
+<BR>
+
+Biennial Meetings?<BR>
+
+		1998 in ISPRA or Toulouse<BR>
+
+<BR>
+
+[I suggest also that the regular slot at IGARSS be maintained as a continuity
+
+placer meeting. This plus the 'Web' site may be enough to keep the Beijing
+
+momentum going forward.]
+
+<H4><BR>
+
+4.2 General Discussion</H4>
+
+<BR>
+
+The general discussion that followed was recorded in point form by Alan
+
+Strahler. I have repeated the points with some expansion but usually without
+
+[embellishment] as I remember them from the time. Where a change may change
+
+the meaning I have recorded it in [brackets]. In addition, I have re-ordered
+
+the points and collected them under a number of headings reflecting my viewpoint
+
+and interests.<BR>
+
+<BR>
+
+[The classification arises from my way of describing what most of the modellers
+
+and measurers are going through. That is, they decide on a 'grain' for their
+
+objects, define a set of properties or functions attributable to the grains
+
+and arrangement and geometric properties attributable to the collection
+
+of grains. The complete system is the scene model. This &quot;grain&quot;
+
+model must be relatable to both the radiation model and the user model of
+
+the world if the activity is to be completely successful. When they go out
+
+to measure the world, the relationship between the measurements and this
+
+scene model is the measurement model. If the data are to be useful there
+
+must be a good base measurement model.<BR>
+
+<BR>
+
+For example, in plant canopies, you must decide if you are working at the
+
+leaf and stem level, the 'shoot' or 'module' level, or whether you can start
+
+at the crown level, or stand level or community level. Foresters tend to
+
+think of forests as collections of tree trunks with aggregate basal areas
+
+and stem size distributions and make appropriately scaled measurements,
+
+but ecologists have a bit more flexibility. Crop modelling is usually best
+
+done at the leaf and stem level although recent data suggest the architecture
+
+of the way these group on plants is also of significance for modelling.<BR>
+
+<BR>
+
+In each case, if you are an ecologist, for example, you must ensure the
+
+description is rich enough in scene model grain and measurement model scale
+
+to accommodate the outputs of interest such as CO2 flux, water flux or energy
+
+balance components. It must be powerful enough to accommodate dynamics (such
+
+as succession) if this is the objective. For the remote sensor, it must
+
+be equally flexible and sufficient if these outputs are the objectives but
+
+it must particularly be sufficient to describe the radiation <I>measurement</I>
+
+model and link to the sensor <I>measurement</I> model.<BR>
+
+<BR>
+
+The relationship between the user scene model and the radiation scene model
+
+involves measurement scale. The measurement scale may be finer or coarser
+
+than the user scene model and this relationship is important for choice
+
+of analytical approach. In the Strahler et al. terminology, the radiation
+
+measurement model may be (Low) L- or (High) H-resolution relative to the
+
+scene model.<BR>
+
+<BR>
+
+Using these ideas, the points people have made are collected under four
+
+headings:<BR>
+
+<BR>
+
+1. Relationships Between User and Radiation Models<BR>
+
+<BR>
+
+2. Tools for Measurement of Properties &amp; Structure<BR>
+
+<BR>
+
+3. Radiation Measurement Models &amp; Inversion<BR>
+
+<BR>
+
+4. Infrastructure Issues<BR>
+
+<BR>
+
+The collection 1. is of special significance and is the longest. It includes
+
+how to describe the scene as well as the issues of Standards, User Viewpoints
+
+and User Attitudes. Typical management views in some of the programs may
+
+reflect user views and question whether BRDF based methods really work,
+
+whether there are too many models and too few products and complain that
+
+there are too few standards and less quality control. What are the products?<BR>
+
+<BR>
+
+Bernard Pinty made the suggestion that it is too early for standards. I
+
+fear that if it is too early then it is already too late.<BR>
+
+<BR>
+
+As a final category I have listed Infrastructure Issues. These are things
+
+we can do as a &quot;BRDF Community&quot; to take things forward.]<BR>
+
+<BR>
+
+<B>4.2.1 Relationships Between User and Radiation Models</B><BR>
+
+<BR>
+
+Sig Gerstl: Parameter match must be made. Ecologists see the [same] &quot;sun&quot;
+
+for their applications. We need to locate the same phenomena that give the
+
+biological effect and the radiation effect. Canopy architecture is an overlap
+
+area. We need structure-based vegetation classifications.<BR>
+
+<BR>
+
+Andres Kuusk: Chemical composition of leaves from spectral measurements
+
+is [an] overlap area.<BR>
+
+<BR>
+
+[An optical classification exists based on pigments. Is it as discriminating
+
+as the optical classification for algae in water quality modelling and measurement?]<BR>
+
+<BR>
+
+Tiit Nilson: The ground [model] has plant communities involving spatial
+
+distributions and patterns which depend on scale. At small scales they may
+
+be regular and at large scales clumped. Also, the mutual influences of plants
+
+are important but rarely used in models. [Tiit suggested that these relationships
+
+would help the over-parameterised models.]<BR>
+
+<BR>
+
+DLBJ: In ecology there are a range of models for succession called 'Gap
+
+Models' which are based on an effectively continuous canopy with 'holes'.
+
+These should be able to be modelled and used to interpret broad scale images.
+
+The individual trees are not actually considered.<BR>
+
+<BR>
+
+Xiang Yueqin: It is important to develop descriptions of structure of the
+
+different types of crop such as wheat and corn. We need to work out how
+
+to scale structure. There is a problem in measurement at points due to different
+
+types, times of planting etc. Need to characterise the variance for agricultural
+
+applications.<BR>
+
+<BR>
+
+Bernard Pinty: Connecting radiation with ecology. For example, with LAI
+
+it has been mostly done from spectral data. There is [apparently] no need
+
+for angular data. But what is the error in LAI? We can get LAI by inversion
+
+[of BRDF] but in the end this will only reduce error which may not be very
+
+interesting to the end users. We need to develop more [unique outputs].
+
+Eg LAI+Structure+... For combined wavelength we have the same [structural]
+
+parameters, the same state variables so there is a lot more information
+
+but a more difficult inference.<BR>
+
+<BR>
+
+DLBJ: Sophisticated scene and measurement models for remote sensing have
+
+often had to deliver simple products for less sophisticated biophysical
+
+models - eg SEB. But this is changing. The demands from modellers are becoming
+
+more sophisticated and spatial variation in CO2, water and energy fluxes
+
+are being tackled by modellers. Demands for better products will come. We
+
+must anticipate these requests for structural data and have the answers
+
+ready.<BR>
+
+<BR>
+
+Wolfgang Wanner: About the &quot;gap&quot;. Remote sensing provides a huge
+
+knowledge [base] about the Earth's vegetation and spatial structure. So
+
+maybe RS can help extend ecologists thinking to scales they cannot reach
+
+with plot data. For example, a new LC classification based on BRDF and the
+
+way large areas green up etc.<BR>
+
+<BR>
+
+Phillip Lewis: Remotely sensed information may often be at the wrong scale.
+
+Ecologists often need fine scale information.<BR>
+
+<BR>
+
+Don Deering: Scale is a problem. Now ecologists are interested in detailed
+
+information such as process studies, stomatal closure for CO2 etc.<BR>
+
+<BR>
+
+[Why is everyone forgetting airborne data? Multi-spectral, multi-angle data
+
+with pixels &lt; 1 metre is no problem!]<BR>
+
+<BR>
+
+Sig Gerstl: Why do we limit ourselves? We should be extending the ecologists
+
+point of view. This is the &quot;Pretty Picture&quot; syndrome. We should
+
+now be extending the view using polarisation and detecting stress at a global
+
+scale. First signs of stress are not spectral but wilting - structural changes.<BR>
+
+<BR>
+
+Alfred Chang: Microwave may be more sensitive to such stress. Physics unites
+
+all our science. The same equations but different approximations. We need
+
+to study detection efficiency.<BR>
+
+<BR>
+
+Juhan Ross: Ecologists cannot help us. We need to educate ourselves as to
+
+what is needed and how to get it. [We must be both Hunter and Dog].<BR>
+
+<BR>
+
+Don Deering: Do we need any more models?<BR>
+
+<BR>
+
+DLBJ: Maybe we have enough models and what we really need are some standards?<BR>
+
+<BR>
+
+Sig Gerstl: We need a 'super-model' of the standard models structured by
+
+application.<BR>
+
+<BR>
+
+Bernard Pinty: Maybe we need more data. It is too early for standards.<BR>
+
+<BR>
+
+Don Deering: We are not focussed clearly on a product. LAI at a global scale
+
+has a focus which BRDF does not have yet. Even then different models are
+
+needed for different areas.<BR>
+
+<BR>
+
+<B>4.2.2 Tools for Measurement of Properties &amp; Structure</B><BR>
+
+<BR>
+
+Don Deering: Need to make use of the forward scattered light to increase
+
+spectral information.<BR>
+
+<BR>
+
+[Maybe it is almost mandatory to measure reflectance and transmittance of
+
+translucent materials. It is certainly the case that only measuring leaf
+
+reflectance of Australian trees misses more than half the information]<BR>
+
+<BR>
+
+Juhan Ross: Need to add other regions of the spectrum - microwave, thermal
+
+etc. In microwave the is information about [the same] leaves, stems etc.
+
+and no cloud problem. We need medium sized goniometric apparatus for Shoot
+
+measurements and bridge the gap between leaf and canopy. This could use
+
+a laser beam. Maybe this would cost about $300K.<BR>
+
+<BR>
+
+Prof. Kawata: Polarised light is important now that scanning polarised sensors
+
+are becoming available. Need ground and vegetation measurements to support
+
+POLDER.<BR>
+
+<BR>
+
+Shunlin Liang: Canopy polarisation is 2-3% but soils polarise to 10-15%
+
+so may be more important than vegetation as an opportunity for POLDER.<BR>
+
+<BR>
+
+<B>4.2.3 Radiation Measurement Models &amp; Inversion</B><BR>
+
+<BR>
+
+Juhan Ross: For architecture, the use of fractals and L-Systems should be
+
+increased.<BR>
+
+<BR>
+
+Shunlin Liang: Can BRDF help in remote sensing of water and soils?<BR>
+
+<BR>
+
+DLBJ: In remote sensing of water the angular distribution of the emerging
+
+radiation field is highly indicative of water properties - especially in
+
+more turbid waters. Clumps of algae or other particles have a strong effect
+
+known as the 'Packet' effect in water literature.<BR>
+
+<BR>
+
+Xu Xiru: Need to use thermal infrared data. The question is how to use it?
+
+Need Effective Emissivity (thermal BRDF) models [the models need to be effective
+
+as well!]. This is significant in CO2 flux.<BR>
+
+<BR>
+
+Juhan Ross: Need to connect TIR data to the heat balance and surface energy
+
+balance.<BR>
+
+<BR>
+
+<B>4.2.5 Infrastructure Issues</B><BR>
+
+<BR>
+
+Juhan Ross: Next meeting we should invite microwave specialist[s].<BR>
+
+<BR>
+
+Alan Strahler: Lets invite water people to the next meeting.<BR>
+
+<BR>
+
+Don Deering: Being pragmatic - lets get people from the ecological community
+
+here to talk about structure - perhaps a &quot;Tutorial&quot;.<BR>
+
+<BR>
+
+Don Deering: There is an email based &quot;Plant Canopy Network&quot;. Do
+
+we want to develop an internet network? May need special funding for someone
+
+to manage it. Can start with a User Group on the internet.<BR>
+
+<BR>
+
+[The issues raised are clearly ones we must cooperate to resolve. We all
+
+need to consider the end users and 'markets' as a common area to develop
+
+and we must all display the quality we know our work can provide. When the
+
+demand is there we can all compete as to who can meet it best or most efficiently
+
+or for the lowest cost - but until it exists our competition is probably
+
+destructive. The development of a network for the BRDF community is a very
+
+important step and regular meetings are an equally important step. A lot
+
+of ground was covered in this Meeting and quite a lot was turned over as
+
+well. I look forward to the next.]<BR>
+
+<BR>
+
+<BR>
+
+<HR>
+
+<H2><CENTER><BR>
+
+Agenda<BR>
+
+</CENTER>
+
+</H2>
+
+<BR>
+
+ <B>INTERNATIONAL WORKSHOP ON MULTIANGULAR REMOTE SENSING: MEASUREMENTS,
+
+MODELS AND APPLICATIONS.<BR>
+
+</B><BR>
+
+September 16-18, 1996<BR>
+
+Beijing, P.R. China<BR>
+
+<BR>
+
+<I>OPENING SESSION</I><BR>
+
+Monday, September 16<BR>
+
+Chairman: Guo Huadong, IRSA, CAS, Beijing, China.<BR>
+
+<BR>
+
+Welcome:<BR>
+
+Xu Guanhua, Alan H. Strahler, Chen Shupeng, Don W. Deering, Qin Dahe.<BR>
+
+<BR>
+
+Keynote Addresses:<BR>
+
+<BR>
+
+PRESENT STATUS AND PERSPECTIVES OF REMOTE SENSING OF VEGETATION.<BR>
+
+<B>Juhan Ross</B>, Tartu Observatory, Teravere, Estonia.<BR>
+
+<BR>
+
+OVERVIEW AND HIGHLIGHT OF KEY ISSUES.<BR>
+
+<B>Alan H. Strahler</B>, Boston University, Boston, USA.<BR>
+
+<BR>
+
+<I>SESSION I: MEASUREMENT</I><BR>
+
+Monday, September 16<BR>
+
+Chair: <B>Xu Xiru</B>, RS&amp;GIS Institute, Peking University, China.<BR>
+
+<BR>
+
+[1-1] BIDIRECTIONAL REFLECTANCE CHARACTERIZATIONS FOR A VARIETY EARTH'S
+
+LAND SURFACE COVERS.<BR>
+
+<B>Don. W. Deering</B>, NASA/GSFC, Greenbelt, USA.<BR>
+
+<BR>
+
+[1-2] A MEASUREMENT CONCEPT FOR HOT SPOT BRDFs FROM SPACE.<BR>
+
+<B>Siegfried A. W. Gerstl</B>, Los Alamos National Lab., Los Alamos, USA.<BR>
+
+<BR>
+
+<I>SESSION I (Continued): MEASUREMENT</I><BR>
+
+Monday, September 16<BR>
+
+Chair: <B>David L B Jupp</B>, CSIRO Earth Observation Centre, Canberra ACT,
+
+Australia.<BR>
+
+<BR>
+
+[1-4] RADIATIVE TRANSFER IN CONIFEROUS TREES.<BR>
+
+<B>Juhan Ross</B> and M. Sulev, Tartu Observatory, EE2444 Teravere, Estonia.<BR>
+
+<BR>
+
+[1-5] MULTIANGLE OBSERVATIONS OF DIRECTIONAL REFLECTANCE OF SNOW FIELD.<BR>
+
+<B>Alfred T. C. Chang</B>, NASA/GSFC, Greenbelt, USA.<BR>
+
+<BR>
+
+[1-6] THE BRDFs OF LAND SURFACES ESTIMATED BY THE AIRBORNE POLDER DATA.<BR>
+
+<B>Yoshiyuki Kawata</B>, K. Takemata and T. Yonekura, Kanazawa Institute
+
+of Technology, Kanazawa, Japan.<BR>
+
+<BR>
+
+[1-7] DIAGNOSTIC ASSESSMENTS OF PLANT CONDITIONS USING MULTIANGULAR REMOTE
+
+SENSING MEASUREMENTS AND BRDF MODELS.<BR>
+
+<B>Qi Jiaguo</B>, Paul Pinter Jr., T. Clarke, and Susan Moran, USDA- ARS
+
+Water Conservation Laboratory, Phoenix, Arizona, USA.<BR>
+
+<BR>
+
+[1-8] THE NON-LAMBERTIAN PROBLEM IN THE DYNAMIC MONITORING OF VEGETATION
+
+BY NOAA-AVHRR.<BR>
+
+<B>Xu Xiru</B>, Li Bing, Liu Qinhuo, Peking University, Beijing, China.<BR>
+
+<BR>
+
+[1-9] THE EUROPEAN GONIOMETRIC OBSERVATORY.<BR>
+
+<B>Michel M. Verstraete</B>, EU Joint Research Centre, ISPRA, Italy.<BR>
+
+<BR>
+
+[1-10] THE REFLECTION AND TRANSMISSION CHARACTERISTICS OF HEALTHY GREEN
+
+LEAVES <I>IN VIVO</I>.<BR>
+
+<B>Zhang Hong</B>, Zhu Qijiang, Beijing Normal University, Beijing, China.<BR>
+
+<BR>
+
+[1-11] MEASUREMENTS OF RADIATION TRANSMITTANCE AND REFLECTANCE OF DISCONTINUOUS
+
+CANOPIES.<BR>
+
+<B>Xiang Yueqin</B>, Zhou Yunhua, Institute of Geography, CAS, Beijing ,
+
+China; Wang Jindi, Liu Yi, IRSA, CAS, Beijing China; Zhu Qijiang, Beijing
+
+Normal University, Beijing, China.<BR>
+
+<BR>
+
+[1-12] INDIRECT METHODS FOR MEASURING CANOPY STRUCTURE AND THEIR VALIDATION.<BR>
+
+<B>Wang Jindi</B>, Li Xiaowen, IRSA, CAS, Beijing , China; Xiang Yueqin,
+
+Institute of Geography, Beijing, China, Alan H. Strahler, BU, Boston, USA.<BR>
+
+<BR>
+
+<BR>
+
+<I>SESSION II: MODELS, VALIDATION, INVERSION</I><BR>
+
+Tuesday, September 17<BR>
+
+Chair: <B>Juhan Ross</B>, Tartu Observatory, EE2444 Teravere, Estonia.<BR>
+
+<BR>
+
+[2-1] ADVANCED MODELS FOR MULTIANGULAR REMOTE SENSING DATA INTERPRETATION.<BR>
+
+<B>Bernard Pinty</B>, Michel M. Verstraete, Ola Engelsen, Nadine Gobron,
+
+John V. Martonchik, Space Apps. Inst. ,EC-JRC, ISPRA, Italy.<BR>
+
+<BR>
+
+[2-2] A BRDF MODEL FOR FORESTS.<BR>
+
+<B>Tiit Nilson</B>, Tartu Observatory, EE2444 Teravere, Estonia.<BR>
+
+<BR>
+
+[2-3] TOPOGRAPHIC EFFECTS ON SURFACE BIDIRECTIONAL REFLECTANCE SCALING.<BR>
+
+<B>Shunlin Liang</B>, Ralph Dubayah and Dave Shirey, University of Maryland,
+
+USA; Phillip Lewis, Univ. College London, UK.<BR>
+
+<BR>
+
+[2-4] MODELLING DIRECTIONAL VARIANCE AND VARIOGRAMS USING GEO- OPTICAL MODELS.<BR>
+
+<B>David L B Jupp</B>, CSIRO Earth Observation Centre, Canberra ACT, Australia.<BR>
+
+<BR>
+
+[2-5] SHORTWAVE RADIATION TRANSFER OF CONIFER BOREAL FORESTS DURING BOREAS
+
+:RESULTS OF MEASUREMENT AND MODELING.<BR>
+
+<B>Jean-Louis Roujean</B>, Meteo France/CNRM, Toulouse, France.<BR>
+
+<BR>
+
+[2-6] A MODIFIED GEOMETRIC OPTICAL RADIATIVE TRANSFER APPROACH FOR BIDIRECTIONAL
+
+REFLECTANCE OF DISCONTINUOUS PLANT CANOPY.<BR>
+
+<B>Ni Weijin</B>, Li Xiaowen, Curtis E. Woodcock and Alan H. Strahler, Boston
+
+University, Boston, USA.<BR>
+
+<BR>
+
+[2-7] UNCERTAINTY AND SENSITIVITY MATRIX OF PARAMETERS IN INVERSION OF PHYSICAL
+
+BRDF MODEL.<BR>
+
+<B>Yan Guangjian</B>, Li Xiaowen, Liu Yi, IRSA, CAS, Beijing, China.<BR>
+
+<BR>
+
+[2-8] THE CALCULATION OF THE REFLECTANCE OF THE FOUR COMPONENTS.<BR>
+
+<B>Zhu Qijiang</B>, Fan Shaohua, Zhang Hong, Zhao Liping, Beijing Normal
+
+University, Beijing, China.<BR>
+
+<BR>
+
+[2-9] PROCESS SYSTEM OF MEASURED BIDIRECTIONAL REFLECTANCE IN CHANGCHUN
+
+LABORATORY.<BR>
+
+<B>Gao Feng</B>, Nanjing Inst. of Geography and Limnology, CAS, Nanjing,
+
+China; Zhu Qijiang, Beijing Normal University, Beijing, China.<BR>
+
+<BR>
+
+<BR>
+
+<I>SESSION III: MODELS, VALIDATION, INVERSION, Continued</I><BR>
+
+Tuesday, September 17<BR>
+
+Chair: <B>Siegfried A. W. Gerstl</B>, Los Alamos National Lab., Los Alamos,
+
+USA.<BR>
+
+<BR>
+
+[3-1] EVALUATION OF A 3-D RADIATIVE TRANSFER MODEL AGAINST GONIOMETER MEASUREMENTS
+
+ON AN ARTIFICIAL TARGET.<BR>
+
+<B>Michel M. Verstraete</B>, Y.M. Govaerts, and Brian Hosgood, IRSA, ISPRA,
+
+Italy.<BR>
+
+<BR>
+
+[3-2] RETRIEVAL OF BIDIRECTIONAL REFLECTANCE FACTORS AND DIRECTIONAL-HEMISPHERICAL
+
+REFLECTANCES USING SPACE-BASED AND AIRBORNE MULTI-ANGLE OBSERVATIONS.<BR>
+
+<B>John V. Martonchik</B>, California Institute of Technology, Pasadena,
+
+USA.<BR>
+
+<BR>
+
+[3-3] GLOBAL BRDF AND ALBEDO FROM THE EOS MODIS AND MISR SENSORS.<BR>
+
+<B>Wolfgang Wanner</B>, Alan H. Strahler, Hu Baoxin, Phillip Lewis, Li Xiaowen,
+
+and J.-P. Muller, Boston University, Boston, USA.<BR>
+
+<BR>
+
+[3-4] ENHANCED DISCRIMINATION OF BOREAL FOREST COVERS USING DIRECTIONAL
+
+SIGNATURES MEASURED BY THE AIRBORNE POLDER INSTRUMENT.<BR>
+
+<B>Marc Le Roy</B>, P. Bicheron and O. Hautecoeur, CESBIO, Toulouse, France.<BR>
+
+<BR>
+
+[3-5] AVHRR BRDF INVERSION FOR AFRICA.<BR>
+
+<B>Phillip Lewis</B> and E. Vives Ruiz de Lope, Univ. College London, London,
+
+UK.<BR>
+
+<BR>
+
+[3-6] RETRIEVAL OF LAND-SURFACE PARAMETERS FOR METEOROLOGICAL MODELS FROM
+
+MULTIANGULAR OPTICAL MEASUREMENTS.<BR>
+
+<B>Jean-Louis Roujean</B>, Meteo France/CNRM, Toulouse, France.<BR>
+
+<BR>
+
+[3-8] MONITORING OF LAI AND CHLOROPHYLL CONTENT BY THE INVERSION OF A CR
+
+ANALYTICAL MODEL.<BR>
+
+<B>Andres Kuusk</B>, Tartu Observatory, EE2444 Teravere, Estonia; Zhang
+
+Renhua, Institute of Geography, Chinese Academy of Sciences, Beijing, China.<BR>
+
+<BR>
+
+[3-9] AN INVERTING APPROACH OF BRDF FOR WHEAT IN NORTH CHINA USING NOAA-AVHRR
+
+IMAGE.<BR>
+
+<B>Zhang Renhua</B>, Chen Gang, Institute of Geography, CAS, Beijing, China;
+
+Andres Kuusk, Tartu Observatory, EE2444 Teravere, Estonia; Alan H. Strahler,
+
+Boston University, Boston, USA; Li Xiaowen, IRSA, CAS, Beijing, China.<BR>
+
+<BR>
+
+<BR>
+
+<I>SESSION IV: ATMOSPHERE-SURFACE BRDF INTERACTION</I><BR>
+
+Wednesday, September 18<BR>
+
+Chair: <B>Don W. Deering</B>, NASA/GSFC, Greenbelt, USA.<BR>
+
+<BR>
+
+[4-1] USING BRDFs FOR ACCURATE ALBEDO CALCULATIONS AND ADJACENCY EFFECT
+
+CORRECTIONS.<BR>
+
+<B>Christopher C. Borel</B> and Siegfried A. W. Gerstl, Los Alamos National
+
+Lab., Los Alamos, USA.<BR>
+
+<BR>
+
+[4-2] THE EFFECT OF SURFACE BRDF ON ATMOSPHERIC CORRECTION.<BR>
+
+<B>Wolfgang Wanner</B>, Hu Baoxin, Alan H. Strahler, Boston University,
+
+Boston, USA; Li Xiaowen, IRSA, CAS, Beijing, China.<BR>
+
+<BR>
+
+[4-3] PROCEDURES FOR REGISTERING POLDER AIRBORNE SIMULATED MULTIANGULAR
+
+IMAGES.<BR>
+
+<B>Zhu Chongguang</B>, Guo Jun, Yu Fangfang, IRSA, CAS, Beijing, China.<BR>
+
+<BR>
+
+<BR>
+
+<I>CLOSING SESSION</I><BR>
+
+Wednesday, September 18<BR>
+
+Chair: <B>Alan H. Strahler</B>, Boston University, Boston, USA.<BR>
+
+Vice-Chair: <B>Tian Guoliang</B>, IRSA, CAS, Beijing, China.<BR>
+
+<BR>
+
+Subject: Key Issues in Future BRDF and Related Research.<BR>
+
+<BR>
+
+<HR><A HREF="../eoc.htm"><IMG SRC="../../gifs/eochome.gif" WIDTH="150" 
+
+HEIGHT="36" ALIGN="BOTTOM" NATURALSIZEFLAG="3"></A><HR> 
+
+</BODY>
+
+</HTML>
+
+</DOC>

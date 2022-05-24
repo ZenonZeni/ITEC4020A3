@@ -1,0 +1,236 @@
+
+<DOC>
+<DOCNO>WT02-B11-287</DOCNO>
+<DOCOLDNO>IA086-000618-B042-346</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.015.html 130.91.195.242 19970122052812 text/html 9258
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:28:06 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 9087
+Last-modified: Tue, 22 Nov 1994 06:30:57 GMT
+</DOCHDR>
+<TITLE>ACTIVIST ALERT - The Government Is Messin' With Your Privacy!</TITLE>
+<H1>ACTIVIST ALERT - The Government Is Messin' With Your Privacy!</H1>
+
+<PRE>
+Date: Fri, 24 Sep 1993 17:35:54 -0400
+To: eff-news-send@eff.org, cypherpunks@toad.com, com-priv@lists.psi.com
+From: ssimpson@eff.org (Sarah L Simpson)
+Subject: ACTIVIST ALERT
+Cc: eff-board@eff.org, eff-staff@eff.org, banisar@washofc.cpsr.org,
+        mrotenberg@washofc.cpsr.org
+</PRE>
+
+Computer Professionals for Social Responsibility (CPSR) posted the
+following call for comments to the Net.  As the deadline for comments on
+the proposed Escrow Encryption Standard (CLIPPER/SKIPJACK) looms near, EFF
+wholeheartedly supports CPSR's work to bring attention to the proposal and
+encourages everyone who reads this to respond with comments. <p>
+
+We have added a sample letter and additional information at the end of the
+CPSR post. <p>
+
+text of CPSR post follows
+<HR>
+
+<H2>Call for Clipper Comments</H2>
+
+The National Institute of Standards and Technology (NIST) has
+issued a request for public comments on its proposal to establish
+the "Skipjack" key-escrow system as a Federal Information
+Processing Standard (FIPS).  The deadline for the submission of
+comments is September 28, 1993.  The full text of the NIST notice
+follows. <p>
+
+CPSR is urging all interested individuals and organizations to
+express their views on the proposal and to submit comments
+directly to NIST.  Comments need not be lengthy or very detailed;
+all thoughtful statements addressing a particular concern will
+likely contribute to NIST's evaluation of the key-escrow proposal. <p>
+
+The following points could be raised about the NIST proposal
+(additional materials on Clipper and the key escrow proposal may
+be found at the CPSR ftp site, cpsr.org): <p>
+
+<UL>
+<LI> The potential risks of the proposal have not been assessed and
+many questions about the implementation remain unanswered.  The
+NIST notice states that the current proposal "does not include
+identification of key escrow agents who will hold the keys for the
+key escrow microcircuits or the procedures for access to the
+keys."  The key escrow configuration may also create a dangerous
+vulnerability in a communications network.  The risks of misuse of
+this feature should be weighed against any perceived benefit. <p>
+
+<LI> The classification of the Skipjack algorithm as a "national
+security" matter is inappropriate for technology that will be used
+primarily in civilian and commercial applications.  Classification
+of technical information also limits the computing community's
+ability to evaluate fully the proposal and the general public's
+right to know about the activities of government. <p>
+
+<LI> The proposal was not developed in response to a public concern
+or a business request.  It was put forward by the National
+Security Agency and the Federal Bureau of Investigation so that
+these two agencies could continue surveillance of electronic
+communications. It has not been established that is necessary for
+crime prevention.  The number of arrests resulting from wiretaps
+has remained essentially unchanged since the federal wiretap law
+was enacted in 1968. <p>
+
+<LI> The NIST proposal states that the escrow agents will provide the
+key components to a government agency that "properly demonstrates
+legal authorization to conduct electronic surveillance of
+communications which are encrypted."  The crucial term "legal
+authorization" has not been defined.  The vagueness of the term
+"legal authorization" leaves open the possibility that court-
+issued warrants may not be required in some circumstances.  This
+issue must be squarely addressed and clarified. <p>
+
+<LI> Adoption of the proposed key escrow standard may have an adverse
+impact upon the ability of U.S. manufacturers to market
+cryptographic products abroad.  It is unlikely that non-U.S. users
+would purchase communication security products to which the U.S.
+government holds keys. <p>
+</UL>
+
+Comments on the NIST proposal should be sent to: <p>
+
+<PRE>
+Director, Computer Systems Laboratory
+ATTN: Proposed FIPS for Escrowed Encryption Standard
+Technology Building, Room B-154
+National Institute of Standards and Technology
+Gaithersburg, MD 20899
+</PRE>
+
+Submissions must be received by September 28, 1993.  CPSR has
+asked NIST that provisions be made to allow for electronic
+submission of comments. <p>
+
+Please also send copies of your comments on the key escrow
+proposal to CPSR for inclusion in the CPSR Internet Library, our
+ftp site.  Copies should be sent to &lt;clipper@washofc.cpsr.org&gt;. <P>
+
+end of CPSR post
+<HR> 
+
+EFF joins with CPSR in urging you to send your comments to NIST as soon as
+possible.  To help get your creative juices flowing, we're attaching a
+sample letter.  You will probably want to personalize any letter you
+actually send. <p>
+
+And because time is so tight, EFF has set up an Internet address where you
+can send your electronic comments in lieu of mailing them through the U.S.
+Postal Service.  Send your letters to: <p>
+
+cryptnow@eff.org <p>
+
+We will be printing out all letters and hand-delivering them before the
+deadline, so please make sure to send us any letter you want included no
+later than 8pm on Monday, September 27. <p>
+
+If you would like additional background materials, you can browse the
+pub/EFF/crypto area of our anonymous ftp site (ftp.eff.org).  The original
+solicitation of comments can be found there and is called
+NIST-escrow-proposal. <p>
+
+DO NOT WAIT TO WRITE YOUR COMMENTS!  TIME IS SHORT! <p>
+
+======================
+<PRE>
+&lt;&lt;your name&gt;&gt;
+&lt;&lt;your organization&gt;&gt;
+&lt;&lt;your street address&gt;&gt;
+&lt;&lt;your city, state, zip&gt;&gt;
+</PRE>
+
+&lt;&lt;date&gt;&gt; <p>
+
+National Institute for Standards and Technology (NIST)
+ATTN:  Proposed FIPS for Escrowed Encryption Standard
+Technology Building, Room B-154
+National Institute of Standards and Technology
+Gaithersburg, MD  20899 <p>
+
+Mr. Director: <p>
+
+I am writing to oppose the Proposed Federal Information Processing Standard
+(FIPS) for and Escrowed Encryption Standard, docket # 930659-3159. <p>
+
+Encryption is vital for the protection of individual privacy in the
+Information Age.  As more and more personal information flows around
+electronic networks, we all need strong encryption to safeguard information
+from unwanted intrusion <p>
+
+NIST should not be moving forward with technical standards specification
+until critical policy decisions are made.  These policy issues include: <p>
+
+<UL>
+<LI> Continued Legal Use of All Forms of Encryption:  When the Clinton
+Administration announced the Clipper Chip, it assured the public that this
+would be a purely voluntary system.  We must have legal guarantees that
+Clipper isn't the first step toward prohibition against un-escrowed
+encryption. <p>
+
+<LI> Legal Rights of Escrow Users:  If people choose to deposit their
+keys with the government or any other escrow agent, they must have some
+legal recourse in the event that those keys are improperly released.  The
+most recent draft of the escrow procedures specifically states, however: <p>
+
+<BLOCKQUOTE><I>
+"These procedures do not create, and are not intended to create,
+any substantive rights for individuals intercepted through electronic
+surveillance, and noncompliance with these procedures shall not provide the
+basis for any motion to suppress or other objection to the introduction of
+electronic surveillance evidence lawfully acquired."</I>
+</BLOCKQUOTE>
+
+Leaving users with no recourse will discourage use of the system
+and is a tacit acceptance of unscrupulous government behavior. <p>
+
+<LI> Open Standards:  People won't use encryption unless they trust it.
+Secret standards such as Clipper cannot be evaluated by independent experts
+and do not deserve the public trust. <p>
+
+In addition, the current proposed technical standard is incomplete.
+ It should not be approved until futher comment on the complete proposal is
+possible <p>
+
+<LI> Operating Procedures Unclear:  The full operating procedures for
+the escrow agents has yet to be issued.  Public comment must be sought on
+the complete procedures, not just the outline presented in the draft FIPS.
+Even the government-selected algorithm review group has declared that it
+needs more information on the escrow process. <p>
+
+<LI> Identity of Escrow Agents:  The identity of one or both of the
+escrow agents has not been firmly established. <p>
+
+<LI> Algorithm Classified:  Asking for comments on an algorithm that is
+classified makes a mockery of citizen participation in government
+decision-making. <p>
+</UL>
+
+NIST will be involved in making many critical decisions regarding the
+National Information Infrastructure.  The next time NIST solicits public
+comments, it should be ready to accept reply by electronic mail in addition
+to paper-based media. <p>
+
+Sincerely, <p>
+
+<PRE>
+&lt;&lt;name&gt;&gt;
+&lt;&lt;title&gt;&gt;
+******************************
+Sarah L. Simpson
+Membership Coordinator
+Electronic Frontier Foundation
+1001 G Street, NW
+Suite 950 East
+Washington, DC  20001
+202/347-5400 tel
+202/393-5509 fax
+</PRE>
+</DOC>

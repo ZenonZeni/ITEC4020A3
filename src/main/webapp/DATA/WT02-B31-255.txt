@@ -1,0 +1,95 @@
+
+<DOC>
+<DOCNO>WT02-B31-255</DOCNO>
+<DOCOLDNO>IA020-000210-B033-39</DOCOLDNO>
+<DOCHDR>
+http://sandcastle-ltd.com:80/reviews.html 199.35.141.30 19970107121302 text/html 3601
+HTTP/1.0 200 OK
+Date: Tue, 07 Jan 1997 12:14:21 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3430
+Last-modified: Thu, 21 Nov 1996 02:23:18 GMT
+</DOCHDR>
+<html>
+<head>
+        <title>Firewall Reviews</title>
+</head>
+
+<body bgcolor="#ffffff" TEXT="#000000" LINK="#0000ff" ALINK="#ff0000" VLINK="#175A73">
+
+<center>
+<table>
+	<tr>
+       <td align=right valign=top><img src="Objects/leftsq.gif"></td>
+       <td align=center valign=top><h1><i>Firewall Reviews</i></h1></td>
+       <td align=left valign=top><img src="Objects/rightsq.gif"></td>
+    </tr>
+</table>
+</center>
+
+<table border="1" width="100%">
+   <tr align="center" valign="top">
+	<tr>
+		<td><font size=+1><a target="reference" href="http://www.lantimes.com/96jun/606b033b.html">
+				Routers Get Security-Savvy</a></font><br>
+				LAN Times, 24 June 1996
+		</td>
+	</tr>
+	<tr>
+		<td><font size=+1><a target="reference" href="http://www.lantimes.com/96jun/pcfirewl.html">
+				Comparison: Firewalls</a></font></br>
+				LAN Times, 17 June 1996<p></p>
+				<font size=-1>ANS InterLock, CheckPoint Firewall-1, Digital Firewall for Unix,
+				IBM Secured Network Gateway for AIX, Raptor Eagle, Secure Computing Sidewinder,
+				and TIS Gauntlet.</br></font>
+		</td>
+	</tr>
+	<tr>
+        <td><font size=+1><a target="reference" href="http://www.infoworld.com/cgi-bin/displayArchives.pl?96067.firewall.htm">
+				Group of 15 firewalls hold up under security scrutiny</a></font></br>
+                InfoWorld, 7 June 1996<p></p>
+				<font size=-1>Atlantic Systems Group, Border Network Technologies,
+				Digital Equipment Corp., Global Technology Associates Inc,
+				Harris Computer Systems Corp., IBM, Livermore Software Laboratories Intl.,
+				Milkyway Networks Inc., On Technology Corp., Technologic Inc., Trusted
+				Imformation Systems Inc., Radguard Systems Inc., Raptor Systems Inc.,
+				and Sun Microsystems Inc.</font><br>
+        </td>
+    </tr>
+	<tr>
+    <td><font size=+1><a target="reference" href="http://www.willamette.edu/~dlabar/firewall.html">
+        Packet Filtering in Internet Firewalls</a></font><br>
+        by <a target="reference" href="http://www.willamette.edu/~dlabar">Derek LaBar</a></br><p></
+p>
+        <font size=-1><b>Abstract</b><br>
+        Firewalls are becoming a popular method of protecting private networks
+        that wish to connect to the Internet. Many firewalls feature screening
+        routers with packet filtering measures as an important security 
+        mechanism. <br><br>
+
+        This paper briefly states the basic ideas behind security policies
+        followed by firewalls. It then summarizes why firewalls are justified,
+        what they protect, and what they do not protect. The discussion proceeds
+        to emphasize packet filtering implementations, particularly filtering by
+        IP addresses, TCP ports, and protocols.  Specific examples of filtering
+        services such as FTP, X11, DNS, Telnet, and NTP are examined. Then
+        popular firewall architectures involving screening routers are
+        discussed pointing out the advantages and disadvantages of each type.
+        Finally, future filtering strategies such as dynamic filtering and
+        non-linear filtering methods are addressed. </font>
+    </td>
+</tr>
+</table>
+<table width="100%">
+    <tr>
+        <td align="center" colspan="3"><font size="2">
+        Copyright &copy; 1996 <a href="http://www.SandCastle-Ltd.com">SandCastle Ltd.</a>
+		All rights reserved.
+        </font></td>
+    </tr>
+</table>
+<a href="news.html"><img src="Images/back.gif" alt="Previous" border=0></a>
+</body>
+</html>
+</DOC>

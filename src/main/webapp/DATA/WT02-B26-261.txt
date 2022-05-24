@@ -1,0 +1,169 @@
+
+<DOC>
+<DOCNO>WT02-B26-261</DOCNO>
+<DOCOLDNO>IA097-001047-B045-325</DOCOLDNO>
+<DOCHDR>
+http://www.science.ca:80/quiz/ 142.58.111.137 19970215091822 text/html 5580
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 09:18:36 GMT
+Server: NCSA/1.5
+Content-type: text/html
+</DOCHDR>
+<HTML>
+
+<!----------------------------------------------------------------->
+<!--     Welcome to the Great Canadian Scientists Quiz v2.5      -->
+<!----------------------------------------------------------------->
+<!--                                                             -->
+<!--  Written by Gordon Ross (gordonr@cs.sfu.ca) October 1996    -->
+<!--   ... with many thanks to...                                -->
+<!--                                                             -->
+<!--            Gordon "Lance" Niguma                            -->
+<!--            Wayne "Wayner" Pinette                           -->
+<!--            Rick Rupp                                        -->
+<!--            Osmar Zaiane                                     -->
+<!--            Adam "Roomie" Wood-Gaines                        -->
+<!--            Ian Wojtowicz                                    -->
+<!--            Barry Shell                                      -->
+<!--                                                             -->
+<!--        for code, advice, and help...                        -->
+<!--                                                             -->
+<!--                   Enjoy the quiz!                           -->
+<!--                                                             -->
+<!----------------------------------------------------------------->
+
+<HEAD>
+<TITLE>Quiz!</TITLE>
+<BODY BGCOLOR="#ffffff" ALINK="#ffffff" VLINK="#ff0000"> 
+
+<CENTER>
+<BR>
+<IMG SRC="../graphics/banner.gif"><BR>
+<IMG SRC="../graphics/quiz.gif"><P>
+</CENTER>
+<HR NOSHADE>
+
+<CENTER>
+<FONT SIZE="+2"><B>Welcome to the Great Canadian Scientists Quiz!</B></FONT>
+</CENTER>
+<HR NOSHADE>
+
+<BLOCKQUOTE>
+<IMG SRC="quiz_button.gif" ALIGN=RIGHT>
+Get ready to test your knowledge of Great Canadian Scientists! This multiple
+choice quiz works when you select one of the four choices below and then 
+click on <B>Submit Answer</B>. You will receive <B>500 points for a right 
+answer</B> and <B>0 points for a wrong answer</B> (for now that is!). We 
+now have <B>170 questions</B>! 
+Good luck!<P>
+
+Thanks to all of those who partcipated in our special one day event
+on October the 18th. High-scorers have been notified. For results, please
+read our <A HREF="../quiz_release.html">press release</A>.
+
+Be sure to enjoy the rest of 
+<B><A HREF="http://www.schoolnet.ca/nstw">Canada's National Science 
+and Technology Week</A></B>.<P>
+
+
+<B>NOTE:</B>The Great Canadian Scientists Quiz v2.0 requires 
+<A HREF="http://www.netscape.com">Netscape Navigator</A> v2.0 and up.
+If you do not have this browser, you will still be able to play the quiz, but
+you will not be entered into the high-scores database.<P>
+
+There have also been some problems with <B>proxy's</B> and the quiz keeping
+track of multiple users behind one proxy. If you are in a classroom running
+a proxy, you may have difficulties.<P>
+
+This quiz is always undergoing development. If you have problems with it
+or have any questions, please send email to <A HREF="mailto:gordonr@cs.sfu.ca">
+Gordon Ross</A>.<P>
+
+
+
+</BLOCKQUOTE>
+
+
+
+
+<HR>
+
+<CENTER>
+<FORM METHOD=POST ACTION="/quiz/quiz2.cgi"> 
+<FONT SIZE=+1> How does the thymus "train" T-Cells? </FONT><BR> 
+
+<INPUT TYPE=radio NAME=128 VALUE=a> It shows them pieces of the enemy
+<INPUT TYPE=radio NAME=128 VALUE=b> It programs their DNA
+<INPUT TYPE=radio NAME=128 VALUE=c> It kills those that react to bits of healthy body
+<INPUT TYPE=radio NAME=128 VALUE=d> It sends them to boot camp
+
+<BR> 
+
+<INPUT TYPE=hidden NAME=scientist VALUE="Mak
+">
+<INPUT TYPE=hidden NAME=known VALUE="void">
+<INPUT TYPE=hidden NAME=name VALUE="">
+<INPUT TYPE=hidden NAME=email VALUE="">
+<INPUT TYPE=hidden NAME=score VALUE="">
+<INPUT TYPE=hidden NAME=right VALUE="">
+<INPUT TYPE=hidden NAME=wrong VALUE="">
+
+<INPUT TYPE=submit VALUE="Submit Answer"> 
+
+
+</FORM> 
+
+
+<CENTER> 
+
+Hit <B>Reload</B> for a new question <BR> 
+
+<P> 
+
+
+    <CENTER>
+	<FORM METHOD="POST" ACTION="high.cgi">
+	<INPUT TYPE=hidden NAME=top VALUE="15">
+	<INPUT TYPE=submit VALUE="High Scores">
+	</FORM>
+       <P>
+    </CENTER>
+
+
+<HR NOSHADE>
+<CENTER>
+<!-- GCS Button Bar -->
+<P>
+<A HREF="../home.html"><IMG BORDER="0" SRC="../graphics/buttonbar/homepage.gif" ALT="Homepage"></A>
+<A HREF="../search.html"><IMG BORDER="0" SRC="../graphics/buttonbar/search.gif" ALT="Search"></A>
+<A HREF="../feedback.html"><IMG BORDER="0" SRC="../graphics/buttonbar/feedback.gif" ALT="Feedback"></A>
+<A HREF="../profiles.html"><IMG BORDER="0" SRC="../graphics/buttonbar/profiles.gif" ALT="Profiles"></A>
+<A HREF="../reference.html"><IMG BORDER="0" SRC="../graphics/buttonbar/reference.gif" ALT="Reference"></A>
+<A HREF="../ask.html"><IMG BORDER="0" SRC="../graphics/buttonbar/ask.gif" ALT="Ask a Scientist"></A>
+<A HREF="../games.html"><IMG BORDER="0" SRC="../graphics/buttonbar/games.gif" ALT="Games"></A>
+<IMG BORDER="0" SRC="../graphics/buttonbar/quiz_grey.gif" ALT="Quiz">
+<P>
+<!-- GCS Button Bar -->
+
+<TABLE>
+<TR><TD WIDTH="250" VALIGN="top" ALIGN="center">
+<H5>Web facilities provided courtesy of the<BR>
+<A HREF="http://fas.sfu.ca/css">Centre for Systems Science</A> 
+at <A HREF="http://www.sfu.ca">Simon Fraser University</A></H5><P>
+</TD><TD WIDTH="250" VALIGN="top" ALIGN="center"> 
+<H5>Creative web juices provided courtesy of:<BR>
+The <A HREF="../credits.html">GCS Team</A></H5>
+</TD></TR>
+<TR>
+<TD COLSPAN="2" ALIGN="center">
+<H5>&copy; 1994, 1995, 1996 GCS Research Society</H5>
+</TD>
+</TR>
+</TABLE>
+<P>
+
+</CENTER>
+</HTML>
+
+
+</DOC>

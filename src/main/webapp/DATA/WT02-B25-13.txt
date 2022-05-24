@@ -1,0 +1,264 @@
+
+<DOC>
+<DOCNO>WT02-B25-13</DOCNO>
+<DOCOLDNO>IA067-000404-B015-367</DOCOLDNO>
+<DOCHDR>
+http://www.dsnt.com:80/comparison1.html 207.78.30.85 19970112210333 text/html 9716
+HTTP/1.0 200 Document follows
+Date: Sun, 12 Jan 1997 21:04:55 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html>
+<title>Comparison Study: Private Line WANS vs. DSN Secured VPN's</title>
+<center><img src="dsnlogo_white2.gif"></center>
+<p>
+<br>
+<br>
+<body bgcolor="#ffffff" text="#000000">
+
+	<h4>Comparison Study: Private Line WANS vs. DSN Secured VPN's</h4>
+
+	‘<font size=+2>N</font>etYears’ ago, plain old telephone companies operated (and still do) as WANS. They provided standard, high cost network solutions such as Frame relay and T1 leased line services to their clients.  Such solutions  were also perceived as secure.  But the facts are that:
+	<ul>
+	<li>Traditional corporate networks using such network solutions are expensive to set up, maintain and expand.
+	<li>Telecommunications costs historically rise, placing added burden on managers charged with cost reduction.  
+	<li>The competitive marketplace forces the telco’s to forge alliances to cut costs - passing   corporate ‘private line’ data across shared network facilities. Control, and security of the data, are virtually impossible to protect.  
+	</ul>
+	<p>
+	How important have the issues of network growth, security, and cost become to corporations and those  who manage their environments?  
+	<p>
+	Consider the results of a recent Gartner Group survey of Information Technology managers on the following:
+	<p>
+	<ul>
+	<li>Percent of time allocated to network management
+	<li>Percent of budget allocated to networks
+	<li>Measure of importance: network security
+	</ul>
+	<p>
+	<b>Network Management Issues:</b>
+	<p>
+	<table border=1 cellpadding=5 cellspacing=0>
+	<tr>
+		<td>&nbsp;</td>
+		<td align=center>% of I.T.<br>Time</td>
+		<td align=center>% of I.T.<br>Budget</td>
+		<td align=center>%<br>Ranking</td>
+	</tr>
+	<tr>
+		<td>‘Network %’  to Total Time Allocated</td>
+		<td align=center>45%</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>‘Network %’ to Total Budget Allocated</td>
+		<td>&nbsp;</td>
+		<td align=center>60%</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Measure of Importance Network to Security</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td align=center>91%</td>
+	</tr>
+	</table>
+	<font size=1>Source:  DataQuest / Gartner Survey: June, 1996</font>
+	<p>
+	DSN looked at the multi-billion dollar, telecommunications market with the intent on providing a low cost, secure, low maintenance alternative. 
+	<p>
+	<font size=+1><b>50% Cost Savings Achieved</b></font>
+	<p>
+	The DSN NetFortress offers the option of using the public Internet as the data transfer medium between local networks, providing significant cost savings over  private line topologies. How much savings can be achieved? A recent tariff and rates study of long distance carriers and Internet Service Providers (ISP’s), indicate 33% - 50%. Consider these two typical network topology comparisons:
+	<p>
+	<br>
+	<center>
+	<font size=+1>Example #1 - A: Four city location with Private Long Distance Pricing:</font><br>
+	<font size=+2>T1 Mesh Network (Any to Any @T1 Speed) Frame Relay</font>
+	<p>
+	<img src="fig1.gif">
+	<p>
+	<table border=1 cellpadding=5 cellspacing=0>
+	<tr>
+		<td>
+	 	<center><b>AT&T Monthly Costs:</b></center><p>
+		(4)  Routers @ $225 =  $900<br>
+		(4) T1 Ports @ $2470 = $9880<br>
+		(6) PVC’s @ @2227 = $13362<br>
+		(4) Local Loop @ $700 = $2800<p>
+		<center><b>Total: $26,942</b></center>
+		</td>
+
+		<td>
+		<center><b>CompuServe  Monthly Costs:</b></center><p>
+		(4)  Routers @ $225 =  $900<br>
+		(4) T1 Ports @ $1880 = $7520<br>
+		(6) PVC’s @ @2304 = $13824<br>
+		(4) Local Loop @ $700 = $2800<p>
+		<center><b>Total: $25,044</b></center>
+		</td>
+	</tr>
+	</table>
+	</center>
+	<p>
+	<br>
+	<b>Total monthly savings of 50%:  $13, 000 monthly / $155,000 yearly. (*)</b>
+	<p>
+	<font size=-1>(*) Costs quoted directly from long distance carriers and I.S.P.’s . Effective July, 1996</font>
+	<p>
+	<br>
+	<br>
+	<br>
+	<center>
+	<font size=+1>Example #2 - B: Four city location with Internet Service Provider Pricing:</font><br>
+	<font size=+2>T1 Mesh Network (Any to Any @T1 Speed) Internet</font>
+	<p>
+	<p>
+	<img src="fig2.gif">
+	<p>
+	<table border=1 cellpadding=5 cellspacing=0>
+	<tr>
+		<td>
+	 	<center><b>PSINet Monthly Costs:</b></center><p>
+		(4)  Routers  Included. =  $0<br>
+		(4) T1 Ports @ $2295 = $9180<br>
+		(4) Local Loop @ $700 = $2800<p>
+		<center><b>Total: $11,280</b></center>
+		</td>
+
+		<td>
+		<center><b>UUNet Monthly Costs:</b></center><p>
+		(4)  Routers June Special: Included<br>
+		(4) T1 Ports @ $3000 = $12000<br>
+		(4) Local Loop @ $700 = $2800<p>
+		<center><b>Total: $14,800</b></center>
+		</td>
+
+	
+	</tr>
+	</table>
+	</center>
+	<p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<center>
+	<font size=+1>Examples #1 - A & B: Single T1 Circuit  - Private Long Distance &<br>Internet Service Providers</font><br>
+	<font size=+2>Point to Point Frame Relay or Internet Connection</font>
+	<p>
+	LA <-------------------------------------------------------> NY
+	<p>
+	<br>
+	<table border=1 cellspacing=5 cellpadding=5>
+	<tr>
+		<td align=top>
+		<center><b>SPRINT Monthly T1 Frame Relay</b></center><p>
+		Local Loop: 2 @ $700 = $1400<br>
+		Port 2 @ 1620 = 3240<br>
+		PVC 1 @ $2208<br>
+		Routers 2 @ $225 = $450<p>
+		<center><b>Total: $7,298</b></center>
+		</td>
+		<td align=top>
+		<center><b>AT&T Monthly T1 Frame Relay</b></center><p>
+		Local Loop: 2 @ $700 = $1400<br>
+		Port 2 @ 2479 = 4940<br>
+		PVC 1 @ $2227<br>
+		Routers: 2 @ $225 = $450<p>
+		<center><b>Total: $9,017</b></center>
+		</td>
+	</tr>
+	<tr>
+		<td align=top>
+		<center><b>PSINet Monthly T1 Internet<br>Connection</b></center><p>
+		Local Loop: 2 @ $700 = $1400<br>
+		Port 2 @ 2295 = 4590<br>
+		Routers: Included<p>
+		<center><b>Total: $5,990</b></center>
+		</td>
+
+		<td align=top>
+		<center><b>UUNet Monthly T1 Internet<br>Connection</b></center><p>
+		Local Loop: 2 @ $700 = $1400<br>
+		Port 2 @ $3000 = $6000<br>
+		Routers: Included<p>
+		<center><b>Total: $7,400</b></center>
+		</td>
+	</tr>
+	</table>
+	</center>
+	<p>	
+	<br>
+	<b>Total monthly savings of up to 50%: $3,027 monthly / $36,324 yearly. (*)</b>
+	<p>
+	<font size=-1>(*) Costs quoted directly from long distance carriers and I.S.P.’s . Effective July, 1996</font>
+	<p>
+	<br>
+	<br>
+	<br>
+	<b>A Secure Intranet Solution</b>
+	<p>
+	While Virtual Private Networks (VPN’s) run over the public Internet backbone can produce dramatic cost savings, they do not necessarily provide a secure solution. And cost savings becomes an insignificant issue - compared to the real cost to a firm, should corporate data be compromised or stolen. 
+	<p>
+	<b>A  NetFortress Secured VPN</b>
+	<p>
+	The NetFortress, when placed between two or more points of the VPN, creates a secure path for Internet and Intranet traffic. The NetFortress based secure tunnel provides:
+	<p>
+	<ul>
+	<li>Powerful 512-bit  network layer encryption - protecting important  network information at lower layer packet levels than other security solutions.
+	<li>Public / Private key authentication between client and server - the private key is never divulged over the network, and is changed at automatic intervals.
+	<li>Superior secure data exchange - using ‘IDEA" based algorithms which are over twice as powerful, and faster, than traditional ‘DES’  encryption. 
+	</ul>
+	<p>
+	<b>Cost Savings - Maintenance</b>
+	<p>
+	Older generation security solutions and firewall based technology 
+	provided limited protection - but also carried a high maintenance price. These included administrative costs, usually in the form of one (or more) technical administration staff. But additional expense, such as software support fees and hardware maintenance fees, add to the total cost.
+	<p>
+	The NetFortress is also designed with the objective of reducing the cost and effort of labor intensive security solutions. ‘Set up’ consists of simply plugging the units between the router and the hub. Configuration is automatic and permanent. 
+	<p>
+	<b>Summary</b>
+	<p>
+	Businesses MUST take advantage of Intranet  / Web technology just to stay current with their competition. Firms are moving to Web technology as a growing percentage of their technology application portfolios and budgets. A recent survey of I.T. managers and corporate executives indicates that 89% intend to install Intranet technology at an average budget of $2.6 million.
+	<p>
+	Cost savings can be achieved and security will be enhanced in the development of VPN’s.  Savings of 33% - 50% are realistic. But an insecure Intranet is not an asset…it’s a liability. The NetFortress was designed with the limitations of the current generation of security products in mind,  providing powerful,   cost effective security for Intranets and VPN’s. 
+	<p>
+	<br>
+	<br>
+	<center>	
+	</center>
+	<p>
+	<br>
+	<br>
+<center>
+<img src="dsnlogo_white2.gif">
+<p>
+<img src="box_white.gif">
+<p>
+<br>
+<br>
+<font size=+1><b>Digital Secured Networks Technology</b></font><br>
+INTERNET: <a href="http://www.dsnt.com/">http://www.dsnt.com</a> · E-MAIL: <a href="mailto:info@dsnt.com">info@dsnt.com</a>
+<p>
+Corporate Headquarters: TEL: 201.568.3232 · FAX: 201.568.3131<br>
+580 Sylvan Avenue, Englewood Cliffs, NJ 07632<br>
+<p>
+Technical Operations and Customer Service:  TEL: 516.467.0400 · FAX: 516.467.4045<br>
+3505 Veterans Memorial Highway, Suite Q, Ronkonkoma, NY 11779<br>
+<p>
+<br>
+<br>
+<a href="index.html">[ Home ]</a>
+<a href="hacker.html">[ Products ]</a>
+<a href="news.html">[ News ]</a>
+<a href="links.html">[ Links ]</a>
+<a href="contact.html">[ Contact ]</a>
+</center
+
+		
+
+</body>
+</html>
+</DOC>

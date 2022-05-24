@@ -1,0 +1,323 @@
+
+<DOC>
+<DOCNO>WT03-B24-53</DOCNO>
+<DOCOLDNO>IA053-000891-B004-3</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/hotlist.html 129.174.40.15 19970123190919 text/html 12678
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:08:05 GMT
+Server: NCSA/1.5.2
+Last-modified: Sun, 08 Dec 1996 23:26:26 GMT
+Content-type: text/html
+Content-length: 12494
+</DOCHDR>
+<HTML>
+<head>
+<TITLE>Pat Farrell's Hotlist </TITLE>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+<body BACKGROUND="./ihn_back.gif">
+
+
+<A HREF="http://march.tico.com">
+<IMG
+SRC="./efm-logo.jpg"
+ALT="Electronic Freedom March on Washington" align=left border=3
+></A>
+
+<a href="http://www.eff.org/BlueRibbon/sites.html">
+<img border=0 align=right src="./blueribn.gif" alt="EFF Anti-Censorship campaign"></a>
+<H1>Pat's Hotlist</H1>
+<P>
+It reflects my current interests
+in politics, technology and  and other fun ways to waste time.
+Of course, hotlists, which were really hot six months ago, are
+Obsolete.
+DEC's <a href="#Altavista">Altavista search engine</a>
+can find anything you want, instantly. There is no need for me
+to maintain a list of my favorite security sources, you can
+simply ask Altavista.
+<h2>Index to Pat's hotlist</h2>
+<CENTER>
+ <TABLE border=10 cellspacing=8>  <!-- a table of buttons -->
+  <TR>
+   <TD> <A HREF="#ReturnOfClipper">Return of Clipper</A>                 </TD>
+   <TD> <A HREF="#LocalLinks">Local Links and GMU info</A> </TD>
+   <TD> <A HREF="./objects.html">OO Information</A>     </TD>
+   <TD> <A HREF="./crypto.html"> Cryptography & Security</a>  </td>
+   <TD> <A HREF="./netbiz.html">Electronic Commerce</A>   </TD>
+   <TD> <A HREF="#NetworkingInfo">Networking</A>   </TD> </tr>
+<tr>
+   <TD> <A HREF="./ntinfo.html">WindowsNT</A>   </TD>
+   <td> <a href="#Fun">Fun</a> </td>
+    <td> <a href="#Sex">Sex</a> </td>
+   <td> <a href="#WebInfo">Making WebPages</a> </td>
+   <td> <a href="#TechInfo">Tech. Info.</a> </td>
+   <td> <a href="#Friends">Friends' pages</a> </td>
+  </TR>
+ </TABLE>
+</CENTER>
+<hr>
+<a name="ReturnOfClipper">
+
+<h2>The Return of Clipper</h2>
+The Clinton Administration is revising parts of the ill fated Clipper 
+initiative, <a href="./nist/clipper2.html">aka Clipper II</a> . 
+This new version is equally ill advised. It is a threat to both
+the competitiveness of the US software industry, and to civil liberties.
+<a href="./nist/clipper2.html">Follow this link for 
+a recap of the September meeting, presentations, press coverage,
+and information on the next steps</a>
+
+<a name="GMUInformation">
+<H2>Here are a few local links: </H2>
+<dl>
+<li>The GMU <a href="http://apollo.gmu.edu/">Registrar's office</a>
+<li><A HREF="http://www.isse.gmu.edu/faculty/ofut/ofut.html"> My PhD advisor's homepage</A>
+<li><A HREF="http://www.isse.gmu.edu/index.html"> GMU's ISSE department homepage</A>
+<li>Local <a href="http://www.intellicast.com/weather/dca/">DC-Metro area 
+weather</a> and Bob Ryan's <a href="http://wxnet4.nbc4.com/">Channel 4
+weather</a>
+<li><A HREF="http://www.cs.gmu.edu"> GMU's CS department homepage</A>
+<li><A HREF="http://cne.gmu.edu/"> GMU's Center for the New Engineer</A>
+<li><A HREF="http://www.site.gmu.edu"> GMU's SITE department homepage</A>
+<li><A HREF="http://bigdipper.umd.edu:8080/gmu-public/gmu-map.html"> GMU 
+campus map</A>
+<li>My own <a href="./metrics.html">Software Metrics page </a> (after all,
+that is my dissertation topic :-)
+</dl>
+<P>
+<IMG alt="_____" SRC="./color_line.gif">
+<P>
+<H2>Good sources of information:</H2>
+<dl>
+<li><A HREF="http://ricis.cl.uh.edu/virt-lib/se_programs.html">
+Software Engineering Programs </A>
+<li><a href="http://www-soe.stanford.edu/soe/ieee/eesites.html">
+Stanford's list of EE/CS sites</a>
+<li><A HREF="http://www.ncsa.uiuc.edu:80/General/Internet/WWW/">
+Index of /General/Internet/WWW/</A>
+<li><A HREF="http://www.w3.org/hypertext/DataSources/bySubject/Overview.html"> The World-Wide Web Virtual Library: Subject Catalogue</A>
+<li><A HREF="http://www.ora.com/cgi-bin/ora/currency"> Currency Conversions</A>
+<li><a href="./research.html">Pointers to research sites</a>
+<li>CMU's online dictionary, <a href="http://c.gp.cs.cmu.edu:5103/prog/webster">
+Webster</a>
+<li>The Census Bureau has interesting <a href="http://tiger.sensus.gov">
+Mapping software</a>
+</dl>
+
+<P>
+<IMG alt="_____" SRC="./color_line.gif">
+<P>
+<a name="CryptoSecurity">
+<H2>Cryptographic and Security links</h2>
+<a href="./crypto.html">
+Cryptographic sources, PGP keys, assorted cryptoanarchy pointers</a>
+<p>
+The <a href="./dccp/index.html">unofficial DC-area Cypherpunks (dccp)</a>
+home page.
+<P>
+<h2><a href="./security.html">Security sources</a></h2>
+<br>
+<P>
+<hr>
+<a name="NetworkingInfo">
+<H2>General Networking pointers</H2>
+<P>
+<ul>
+<li>A search form for 
+<a href="http://web.nexor.co.uk/rfc-index/rfc-index-search-form.html">
+How to find RFC documents</a>
+<li><a href="http://www.winternet.com/~khayes/tcpipfaq.html">TCP/IP FAQ</A>
+<li>John Marulowich's list of 
+<a href="http://www.cais.com/makulow/iaptable.html"> 
+Local DC/Balt area ISP/IAP</a>
+<li>Ray Daly's <a href="http://www.cris.com/~raydaly/plexacce.html">
+NetPlex Internet Access Providers List</a>
+<li><a href="./isp.html">ISPs run/owned/employing friends of mine</a>
+<li><A HREF="./legal.html">Sources for Legal information</A>
+<li><A HREF="./politics.html">Sources for Political information</A>
+<li><A HREF="ftp://rs.internic.net/templates/domain-template.txt"> 
+How to get your own domain registered</A>
+<li><A HREF="ftp://rs.internic.net/templates/internet-number-template.txt">
+How to get your own IP addresses from Internic</A>
+<li><A HREF="ftp://rs.internic.net/policy/rfc950.txt">
+How to subnet your network (RFC950)</A>
+<li><A HREF="ftp://rs.internic.net/policy/rfc1466.txt">
+Guidelines for management of an IP Address Space (RFC1466)</A>
+<li><a href="./censorusenet.html">Information to circumvent
+censorship of UseNet groups</a> 
+<li><a href="http://www.cref.net/dank/isdn/">ISDN pointers</a>
+</ul>
+<P>
+<IMG alt="_____" SRC="./color_line.gif">
+<P>
+<H2>Follow this link for <a href="./news.html">online News</a></h2>
+<P>
+
+You have to wonder how long non-online news will be interesting.
+<P>
+<IMG alt="_____" SRC="./color_line.gif">
+<P>
+<H2>Government WEB pages:</H2>
+Since I've lived most of my life "inside the Beltway" I think that
+the Government deserves its own set of pointers. Follow this
+link to <a href="./government/usgov.html">Pointers to the US Government</a>
+<p>
+Yohoo has<a href="http://www.yahoo.com/Government">
+Lots of US Government</a> pages.
+<P>
+<IMG alt="_____" SRC="./color_line.gif">
+<a name="Fun">
+<H2>Fun places to go:</H2>
+<ul>
+<li>Dec's
+<a href="http://www.altavista.digital.com">Altavista search engine</a>
+is awesome. It is more complete and much faster than 
+<A HREF="http://www.yahoo.com">Yahoo!</A> Search engine or 
+<a href="http://www.lycos.com/">Lycos search engine</a>
+
+<li> A direct link, taken from 
+<a name="Altavista">
+Altavista's tip page
+<FORM method=GET action="http://altavista.digital.com/cgi-bin/query">
+<INPUT TYPE=hidden NAME=pg VALUE=q>
+<B>Search <SELECT NAME=what>
+<OPTION VALUE=web SELECTED>the Web
+<OPTION VALUE=news>Usenet
+</SELECT>
+and Display the Results <SELECT NAME=fmt>
+<OPTION VALUE="" SELECTED>in Standard Form
+<OPTION VALUE=c>in Compact Form
+<OPTION VALUE=d>in Detailed Form
+</SELECT></B><BR>
+<INPUT NAME=q size=55 maxlength=200 VALUE="">
+<INPUT TYPE=submit VALUE=Submit>
+</FORM>
+
+ 
+<li><A HREF = "http://www.infi.net/cool.html">The Cool Site of the Day</A>
+<li>A cool site for <a href="http://clunix.cl.msu.edu/weather/">weather</a>
+<li>An updated North American 
+<a href="http://clunix.cl.msu.edu/weather/Lsa.gif">weather map</a>
+<li><A HREF="http://bigdipper.umd.edu"> Black Hole,  </A>
+An interesting, anti-establishment Web connection. 
+<li><A HREF="http://www.unitedmedia.com/comics/dilbert/">
+Today's Dilbert</A>
+<li>The <a href="http://web.cnam.fr/Jargon/">online Jargon dictionary</a>
+<li><A HREF="http://www.itis.com/deckmaster/magic">Magic: the Gathering</A> warning, this is Crack for Gamers
+<li><A HREF="http://www.galcit.caltech.edu/~ta/barney/barney.html"> The Barney Page</A>
+<li><A HREF="http://web.syr.edu/~rsholmes/dead.html"> The Dead People Server</A>
+<li><A HREF="http://shuttle.nasa.gov">NASA Shuttle shots</A>
+<li>Taking a hint from Dave Barry, this clown uses 
+<a href="http:/http://ghg.ecn.purdue.edu/">LOX (liquid Oxygen) to light his charcoal.</a>
+</ul>
+
+<a name="WebInfo">
+<H1> WWW Information </H1>
+<A HREF="./webinfo.html">Making a homepage</A>
+<P>
+<IMG alt="_____" SRC="./color_line.gif">
+<a name="Sex">
+<H1>SEX on the Internet</H1>
+<P>
+As Senator Exon knows, Sex is the most popular thing on the Internet.
+So here are some pointers to `hot' sites, snicker....
+<ul>
+<li><a href="http://www.playboy.com">Playboy</a> is still open, but much less
+hot than before the CDA.
+<li><a href="http://www.penthousemag.com/home.html">Penthouse</a> has
+gone commercial and restricted.
+<li>Yahoo censored most of its
+Sex information as soon as the CDA was signed, Still available is the
+ <a href="http://www.yahoo.com/Entertainment/Magazines/Sex/">
+Directory of Sexy magazines </a>
+</ul>
+I can't believe those clueless politicians think their law (CDA) will have
+any effect, other than clogging the courts with unenforcable 
+cases and constitutional appeals. Sigh.
+<p>
+GMU Professor Brad Cox has a 
+<a href="http://www.virtualschool.edu/mon/CyberPorn.html">
+great collection of articles </a>on
+<a href="http://www.cmu.edu">CMU</a> student 
+Martin Rimm's
+idiotic Cyberporn "study" and the Time cover story that was "based" on it.
+<p>
+<h3><a href="./censorusenet.html">
+Instructions on getting arround UseNet "censorship" attempts</a></h3>
+<IMG alt="_____" SRC="./color_line.gif">
+<H1> End the monopoly</H1>
+<P>
+If you live in Fairfax County, you probably hate Media General Cable as 
+I do. Here is a group that is trying to end the monopoly,
+<a href="http://www.his.com/~tle/FCCFCChm.html">FCCFCC</a>
+<p>
+Or, you can look into getting a DBS (Direct Brodcast Satellite) dish. They are
+only 18" in size, so you might be able to install one
+in your subdivision. Here is a URL to a vendor: 
+<a href=http://www.dbs.digifix.com/DBS/">Digital Broadcast OnLine</a>
+<IMG alt="_____" SRC="./color_line.gif">
+<a name="TechInfo">
+<H1> Technical Information </H1>
+<P>
+<ul>
+<li>Slirp is a free package that lets you talk TCI/IP over
+a dumb serial line. Here is 
+<a href="http://www.ece.gatech.edu/users/flur/slirp/slirp.html">
+the Slirp Manual</a>
+<li>One of the hotest topics in software engineering today
+<a href="./objects.html">Object Oriented Everything</a>
+<li>A list of more <A HREF="./misctech.html">Technical Information</A>
+<li>My favorite machines were DEC's 
+<a href="http://www.inwap.com/pdp10">PDP-10</a> 
+and DECsystem-20.
+<li>I like Windows NT and have collected some
+<a href="./ntinfo.html">Assorted software and technical info on NT</a>
+</ul>
+<P>
+<a name="Friends">
+<H2>Other Home pages</H2>
+<ul>
+<li>My <a href="http://www.geocities.com/hollywood/7718">wiz-kid child's page</a>
+</ul>
+<ul>
+<h3>Friends</h3>
+<li>Former co-worker and now Metrics guru
+<a href="http://www.pitt.edu/~business/faculty/kemerer.html">Chris Kemerer</a>
+<li><A HREF="http://www.clark.net/pub/cme/home.html"> Carl Ellison's page</A>
+<li><A HREF="http://www.eskimo.com/~weidai"> Wei Dai</A> Author of the C++ Crypto library
+<li> Long-time ago co-worker at First Data, where we worked
+on DECSYSTEM-10 timesharing machines, 
+<a href="   http://www.wwa.com/~jeverett">John Everett</a>
+<h3>The AMS Intranet</h3>
+I worked at AMS for 18+ years. I know lots and lots of good people
+there. Here are some web pages are run by technically oriented folks at AMS
+as part of the AMS-Intranet.
+<p>
+Note: the amsinc.com domain pages are not visible outside the amsinc.com
+domain.
+<h4>friends</h4>
+<li><a href="http://osf1.gmu.edu/~jnylund">Joel Nylund</a> who worked with me
+at AMS and also is  a GMU student.
+<li><A HREF="http://goldings.amsinc.com"> Chris Tatem's Linux server</A>
+<li><a href="http://stout.amsinc.com">AJ's vax</a>
+<li><A HREF="http://fmsaix.amsinc.com"> The FMS project's page</A>
+<h4>AMSers with non-AMS pages</h4>
+<li><a href="http://gwis2.circ.gwu.edu/~bmk/bk.html">Bryan Kearney</a>,
+<H3>Other people you may find interesting</H3>
+<li><A HREF="http://osf1.gmu.edu/~bnicks">Brian Nicks @ OSF11</a> 
+<li><A href="http://web.gmu.edu/bcox">Brad Cox</a> of GMU's PSOL
+<li>a guy who really doesn't like GMU is <a href="http://www.mal.com/~rob/">
+Robert Shvern (aka RobLINK)</a>
+<li><A href="http://www.cosc.georgetown.edu/~denning/">Dorothy Denning</a>
+<li><A href="http://www.cs.gmu.edu/faculty/denning.html">Peter Denning</a>
+</ul>
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a>
+December 8, 1996.  
+Backto <a href="./hotlist.html">Pat's hotlist</a> Backto <a href="./index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

@@ -1,0 +1,564 @@
+
+<DOC>
+<DOCNO>WT02-B12-74</DOCNO>
+<DOCOLDNO>IA087-000631-B019-79</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.104.html 130.91.195.242 19970122063922 text/html 25888
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:39:21 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 25716
+Last-modified: Tue, 22 Nov 1994 06:32:27 GMT
+</DOCHDR>
+I decided to post this in spite of an excess on IP of crypto postings over the past few days (additional distribution only with author's consent -- read the end especially) <p>
+
+From: WHMurray@DOCKMASTER.NCSC.MIL <p>
+
+The Five Great Inventions of Twentieth Century Cryptography <p>
+
+William Hugh Murray <p>
+
+Preface <p>
+
+[This talk was presented as the keynote address at the 1994 RSA Security
+Conference, Redwood City, CA] Foreword <p>
+
+Two years ago I opened the first of these conferences. <p>
+
+Jim Bidzos invited me to "kick it off;" nothing so formal as a "keynote."
+While I wore this same suit, I just sort of got up here to shoot the
+breeze with a few of my friends and colleagues. No notes, just sort of
+"off-the-cuff." He did not even tell me how long I could talk. As far as I
+know there were no reporters present; nothing that I said got me in
+trouble. <p>
+
+After the morning session was over, Jim hosted a lunch for some of the
+speakers and panelists. Whit Diffie sat beside me, with his notes, and
+began to quiz me on my sources and authorities for my comments. He even
+told me that some of my best stories were apocryphal (though he conceded
+me the points that I made with them). <p>
+
+Well, I see the same friends, but there are far more colleagues. The
+program is more formal, Diffie still has his pad and pencil, the press is
+here, my remarks are styled as a "keynote," they are sufficiently arguable
+that I need to choose my words very carefully, and I have a fixed time to
+end. Prudence suggests that I use notes. <p>
+
+Introduction <p>
+
+Cryptography, the art of secret communication, is almost as old as
+writing. Indeed, it has been suggested that, at least for a while, writing
+itself was a relative secret. Certainly it was esoteric and its use was
+reserved to an initiated elite. <p>
+
+Cryptography and recording and communicating technologies have played leap
+frog through the pages of history. It is my thesis that both have changed
+so radically during the nineteenth and twentieth centuries as to
+constitute a new era. <p>
+
+On the recording and communicating side we have photography, telegraphy,
+telephony, radio, phonography, cinema, television, and
+telecommunications.hy, telephony, radio, cinema, television, and the
+computer. Collectively, and even individually, these technologies
+constitute a dramatic change in our ability to make a mark across time and
+space. <p>
+
+We have seen a similar advance in our ability to conceal those records and
+messages from all but a chosen few. <p>
+
+Modern cryptography has its origins between the two great wars of the
+twentieth century. .It was driven as much by the use of radio on the
+battlefield as by any other single influence, but there are an infinite
+number of important recording and communicating applications that simply
+cannot be done in clear text. <p>
+
+While more sparingly used and less well known, the advances in
+cryptography have been no less dramatic than those in recording and
+communications. <p>
+
+I propose to consider five inventions of the twentieth century that have
+defined modern cryptography and that set it apart from ancient or
+traditional cryptography. <p>
+
+The impact of these technologies has been to simplify the use of codes,
+reduce their cost, and increase by orders of magnitude the cost to a
+cryptanalyst of recovering information protected by the codes. <p>
+
+What constitutes an invention or sets it apart from other inventions is
+somewhat arbitrary. Some of the inventions that I propose to discuss could
+be considered as a group of other inventions; the members of the group
+might or might not be significant by themselves. <p>
+
+I have limited myself to a discussion of inventions rather than
+accomplishments, and to cryptography rather than to cryptanalysis. <p>
+
+Many of the accomplishments of the century have been in cryptanalysis and
+may have been greater than the inventions in cryptography. However,
+greatness is in the eye of the beholder. Certainly all the inventions have
+not been limited to cryptography. <p>
+
+For example, if cryptanalysts did not invent the modern computer, they
+certainly gave it a major boost. They have lived to see the advantage that
+it provides shift, with its scale, from them to the cryptographer. <p>
+
+Automated Encoding and Decoding <p>
+
+Modern cryptography begins in 1917 with the invention by Gilbert S.
+Vernam, an employee of the American Telephone &amp; Telegraph Company, of the
+Vernam System. <p>
+
+Vernam used two paper tape readers, one for the message and the other for
+the key. He added the two (bit-wise and modulo 2) to produce the
+ciphertext. <p>
+
+Moreover, he used the standard information technology of his day to
+automate the encoding and decoding of information. <p>
+
+Modern cryptography is automatic. Translation from plaintext to ciphertext
+and back again is performed automatically, that is by a machine or
+automaton. <p>
+
+While there may be a separate step, the conversion from one code to the
+other is done by a machine rather than by a person. <p>
+
+Today that conversion can be done by almost any single user computer. With
+appropriate controls and for some applications it can be done in a
+multi-user computer. <p>
+
+Before computers, this encoding was done in special purpose machines. The
+Enigma and Purple machines were both early and famous examples of such
+machines. <p>
+
+The requirement to manually convert from natural language to secret codes
+has always been a limitation. It tended to limit both the amount of
+traffic encrypted and the complexity of the encoding schemes used. <p>
+
+Therefore, encryption machines of any kind increase the complexity and
+effectiveness of the codes available. <p>
+
+At one level, the modern computer can be viewed as a general purpose code
+conversion machine. That is, it converts information called input into a
+new representation called output. <p>
+
+The relationship between the input and the output can be simple or
+complex, obvious or obscure, public or secret, and reversible or
+irreversible. <p>
+
+If the conversion is complex, obscure, secret, and reversible, then the
+computer can be viewed as an encryption machine. <p>
+
+But for want of a small amount of readily available software, all of the
+hundred million general purpose computers in the world are encryption
+engines of immense power. <p>
+
+At some price in performance, the relationship between input and output
+can be arbitrarily complex and obscure and thus arbitrarily effective in
+concealing the meaning of the output. <p>
+
+The cost of computer performance has been falling steadily and rapidly for
+fifty years. It has now become so cheap that most capacity is not used for
+the convenience of having it ready when it is wanted. The result is that
+the use of secret codes can be viewed as almost free. <p>
+
+So cheap is automatic coding and encoding that some applications do it by
+default and globally, concealing it completely from the user. Since the
+difference in cost between public codes and secret codes is vanishing and
+can be paid in a currency, computer cycles, that might otherwise be
+wasted, secret codes can be used by default. <p>
+
+Independent Long Key Variable <p>
+
+The major weakness of Vernam's system was that it required so much key
+material. This was compensated for by Lyman Morehouse who used two key
+tapes of 1000 and 999 characters, about eight feet each in length, in
+combination to produce an effective key tape of 999,000 characters,
+effectively 8000 feet in length. Morehouse had used a long key. <p>
+
+Modern cryptography is tailored to a particular use by a key variable, or
+simply a key. The key is a large integer that tailors the behavior of the
+standard algorithm and makes it generate a cipher that is specific to that
+number. <p>
+
+The requirement for secrecy is limited to this number. The problem of
+protecting the data reduces to the simpler one of protecting the key. <p>
+
+Access to the cleartext requires access to the combination of the
+ciphertext, the base mechanism, usually a computer and a program, and the
+key. <p>
+
+Since the rest are readily available, the efficiency of any use depends
+upon the fact that it is more expensive or difficult to obtain the key
+than to obtain the protected data by other means. <p>
+
+All other things being equal, the longer the key, the more secure the
+mechanism. Key length is a trade off against the complexity and the
+secrecy of the algorithm. <p>
+
+The longer the key, the simpler and more obvious can be the mechanism or
+algorithm. <p>
+
+If the key is as long as the message, statistically random in appearance,
+and used only once (one-time pad), then such a simple and obvious
+mechanism as modulo addition will still provide effective security. <p>
+
+For practical reasons, short keys and more complex mechanisms are
+preferred. <p>
+
+Complexity Based Cryptography (The Data Encryption Standard) <p>
+
+In May 1973 the US National Bureau of Standards advertised in the Federal
+Register for a proposal for an encryption mechanism to be employed as a
+standard mechanism for all of the needs of the civilian sectors of the
+government. <p>
+
+The ad stated that the successful proposal would be for a mechanism that
+would be secure for at least five years in spite of the fact that the
+mechanism would be public and published. <p>
+
+The resulting Data Encryption Standard was proposed by the IBM
+Corporation. It was invented by a team led by Walter Tuchman and was based
+upon a concept originated by Horst Feistel of IBM's Yorktown Research
+Laboratory. <p>
+
+This mechanism, which can be implemented on a chip and completely
+described in a few 8.5"X11'' pages, changed the nature of cryptography
+forever. <p>
+
+The security of modern encryption mechanisms like the DES is rooted in
+their complexity rather than in their secrecy. <p>
+
+While traditional encryption relied upon the secrecy of the mechanism to
+conceal the meaning of the message, these modern mechanisms employ
+standard and public algorithms. <p>
+
+These mechanisms are standard in the sense that they are of known strength
+or have a known cost of attack. However, the trade-off is that their
+effectiveness can not, must not, depend upon their secrecy. <p>
+
+Rather, it relies upon the complexity of the mechanism. The complexity of
+modern ciphers is such that they can be effective even though most of
+their mechanism is public. <p>
+
+The most well known, trusted, and widely used of all modern ciphers is the
+Data Encryption Standard. Because of the intended breadth and duration of
+the use of this cipher, the sponsors specified that it should be assumed
+to be public. <p>
+
+Its effectiveness should rely upon the secrecy only of the key (see the
+next section). It has been public for more than fifteen years, but its
+effectiveness is such that trying all possible keys with known plain and
+cipher text is still the cheapest practical attack. <p>
+
+[The DES belongs to a class of ciphers known as Feistel ciphers. These
+ciphers are also known as block product ciphers. They are called block
+ciphers because they operate on a fixed length block of bits or
+characters. They are called product ciphers because they employ both
+substitution and transposition.] <p>
+
+Automatic Key Management <p>
+
+The same key must exist at both ends of the communication. Historically,
+keys were distributed by a separate channel or path than the one by which
+the encrypted traffic passed. <p>
+
+The initial distribution and installation of the keys must be done in such
+a way as not to disclose them to the adversary. <p>
+
+When this is done manually, it represents a significant opportunity for
+the compromise of the system. <p>
+
+Because they were attempting to combine cryptography and computing in a
+novel manner, Tuchman and his team understood this problem very well. <p>
+
+The products that they based upon the DES algorithm addressed it, in part,
+by automating the generation, distribution, installation, storage,
+control, and timely changing of the keys. <p>
+
+Their elegant system is described in two papers published in the IBM
+Systems Journal Vol. 17(2) pp. 106-125 (1978) and covered by a number of
+fundamental patents based upon it. [While NSA had automated some key
+management operations, and while Rosenblum was awarded a patent for a "key
+distribution center," these were ad hoc. This work is the first that
+describes and implements a complete and integrated automatic system.] <p>
+
+The impact of this concept on the effectiveness, efficiency, and ease of
+application of modern cryptography is immense. However, it may also the
+the least understood and appreciated. <p>
+
+For example, much of the analysis of the strength of the DES is made in
+the context of the primitive DES. However, the DES rarely appears as a
+primitive. Instead it appears in implementations which use it in such a
+way as to compensate for its inherent limitations. <p>
+
+For example, automatic generation of the keys avoids the use of weak or
+trivial keys. (the DES has four known weak keys and four semiweak keys.) <p>
+
+Since automatic key management systems permit so many keys,
+they also reduce the exposure to "known plaintext" attacks. <p>
+
+History suggests that codes are most often broken because the user fails
+to apply them with the necessary rigor and discipline, particularly when
+choosing, distributing, and installing keys. <p>
+
+Automating of these steps provides much of the necessary discipline and
+rigor. <p>
+
+Automatic key distribution and installation increases the effectiveness by
+protecting the keys from disclosure during distribution, and by making the
+system resistant to the insertion of keys known to attackers. <p>
+
+When keys are installed manually they become known to the human agent who
+installs them. He is in a position to provide a copy of the key to others.
+To the extent that this agent is vulnerable to coercion or bribery, the
+system is weakened by this knowledge. <p>
+
+Therefore, the system may be strengthened by automatic mechanisms which
+provide the agent with beneficial use of the key without granting him
+knowledge of it. <p>
+
+For example, systems available from IBM and Motorola provide for the key
+to be distributed in smartcards and automatically installed in the target
+machine. <p>
+
+The key can be encrypted in the smartcard or destroyed by the installation
+process. In either case, the agent can use it, but cannot copy it or give
+it to another. <p>
+
+Just as the use of automata for encoding and decoding reduces the cost and
+inconvenience of using secret codes, the use of automata for key
+management reduces the cost and inconvenience of changing the keys
+frequently. <p>
+
+By changing the key frequently, e.g., for each, file, session, message, or
+transaction, the value to an adversary of obtaining a key is reduced, and
+the effectiveness of the mechanism is improved. <p>
+
+One way of looking at automated key management is that it increases the
+effective length of the key, or makes it approach the length of the data
+protected. <p>
+
+Asymmetric Key Cryptography <p>
+
+However, even though most of the key management can be automated, most
+such systems require some prearrangement. In any-to-any communications in
+a large open population, this requirement can quickly become overwhelming. <p>
+
+For example, in a population of two hundred people, the number of key
+pairs and secret exchanges would be in the thousands with many
+opportunities for keys to be compromised. Moreover, with traditional keys,
+the initial distribution of keys must be done in such a way as to maintain
+their secrecy, practically impossible in a large population. <p>
+
+These problems are addressed, in part, by public key, or asymmetric key,
+cryptography. This mechanism was proposed by Whitfield Diffee, Martin
+Hellman, and Ralph Merkle. It may be the single most innovative idea in
+modern cryptography. <p>
+
+The best known and most widely used implementation is the RSA algorithm
+invented by Ronald Rivest, Adi Shamir, and Leonard Adelman. <p>
+
+[In this mechanism the key has two parts, only one of which must be kept
+secret. The two parts have the special property that what is encrypted
+with one can only be decrypted with the other. <p>
+
+One half of the key-pair, called the private key, is kept secret and is
+used only by its owner. <p>
+
+The other half, called the public key, is published and is used by all
+parties that want to communicate with the private key owner. <p>
+
+It can be published and does not need to be distributed secretly. <p>
+
+Since the public key, by definition, is available to anyone, then anyone
+can send a message to the owner that only he can read.] <p>
+
+With a minimum of pre-arrangement, this function provides the logical
+analog of an envelope that can only be opened by one person. The larger
+the communicating population, and the more hostile the environment, the
+greater is its advantage over symmetric key cryptography. <p>
+
+This concealment from all but the intended recipient is the traditional
+use of cryptography. However, asymmetric key cryptography has another use. <p>
+
+A message encrypted using the private key can be read by anyone with
+access to the public key, but it could only have been encrypted by the
+owner of the corresponding private key. This use is analogous to a digital
+signature. <p>
+
+It provides confidence that the message originates where it appears to
+have originated. Since if even a bit of the message is changed it will not
+decrypt properly, this mechanism also provides confidence that the message
+has not been either maliciously or accidentally altered. <p>
+
+In part, this is also true as between the two parties to a message that is
+sent using symmetric key cryptography. That is, the recipient of the
+message knows with a high degree of confidence that it originated with the
+other holder of the key; he knows it, but he cannot prove it to another. <p>
+
+However, with asymmetric key cryptography, he can demonstrate it to a
+third party. If the owner of the key pair has acknowledged the public part
+of the key to the third party, then he cannot plausibly deny any message
+that can be decrypted with it. <p>
+
+[The concept of the digital signature is such a novel concept as to easily
+qualify as an invention on its own. However, it is so closely bound in
+origin and literature to asymmetric key cryptography that I elect to
+simply treat them as one.] <p>
+
+These two abstractions, the logical envelope and the logical signature,
+can be composed so as to synthesize any and all of the controls that we
+have ever been able to achieve by more traditional means. <p>
+
+They can be used for payments, contracts, testaments, and high integrity
+journals and logs. <p>
+
+They provide us with a higher degree of security in an electronic
+environment than we were ever able to achieve in a paper environment. <p>
+
+They provide protection in an open environment that is nearly as high as
+that which we can achieve in an open one. The Impact of the Great
+Inventions <p>
+
+The impact of these inventions is to provide us with secret codes that are
+cheap enough to be used by default, and arbitrarily strong. <p>
+
+Given assumptions about the quantity of data to be protected, the length
+of time that it must remain secret, its value to an adversary, and the
+resources available to the adversary, it is possible to apply modern
+cryptography in such a way as to be as strong as required. <p>
+
+While it is possible to state a problem in such a way as to defy such a
+solution, it is difficult to identify such a problem in the real world. <p>
+
+That is, It is possible to specify so much data to be encrypted under a
+single key, of such high value and which must remain safe for such a long
+time that we cannot say with confidence that the mechanism can stand for
+that time and cost. <p>
+
+For example, we cannot say with confidence how to encrypt several hundred
+gigabytes worth several trillion dollars and keep it safe for a
+millennium. On the other hand, we are not aware of any real problems that
+meet such a specification. <p>
+
+Put another way, we can always ensure that the cost of obtaining the
+information by cryptanalysis is higher than the value of the data or the
+cost of obtaining it by alternative means. <p>
+
+While any code can be broken at some cost, modern codes are economically
+unbreakable, at least in the sense that the cost of doing so can be made
+to exceed the value of doing it. <p>
+
+A very small increase in the cost to the cryptographer can result in
+astronomical increases in the cost to a potential adversary. <p>
+
+Perhaps just as important, these mechanisms are now sufficiently
+convenient to use, that, within bounds, they can be widely and easily
+applied. <p>
+
+Given that the more data that is encrypted with a single mechanism, the
+greater the value in breaking it, the more compromising information is
+available to an adversary, and that the more a mechanism is used the
+greater the opportunity for a compromising error in its use, we should
+continue to apply cryptography only to data that can profit from its use. <p>
+
+On the other we need never again be inhibited from using it by issues of
+cost or convenience. <p>
+
+Cryptography and Government Policy <p>
+
+It should be obvious to a qualified observer that, announcements here to
+the contrary not withstanding, we are losing the battle for security and
+privacy in the computerized and networked world. <p>
+
+We could have secret codes imbedded in all software of interest for free.
+This assertion assumes only that all such software is produced by those
+represented here, who have already paid for licenses and absorbed much of
+the necessary development cost, and that the cost of a marginal cycle on
+the desktop approaches zero. <p>
+
+That we do not, is the result of ambivalent government policy. While one
+agency of government has sponsored the use of standard cryptography,
+another has tried to undermine confidence in those standards. <p>
+
+While one agency has asserted that public standards are essential, another
+has sponsored secret ones, and a third has used public funds to further
+such secret standards. <p>
+
+While one agency has insisted that trusted codes are essential to world
+prosperity, another has imposed restrictions on their export and
+undermined confidence in those that are exported. <p>
+
+While one agency recognizes that national security depends upon world
+prosperity, another believes that signals intelligence is more important.
+Those of you who have seen my comments in Risks, sci.crypt , and the
+Communications of the ACM, know my position. <p>
+
+It is that the prime mover behind all of these initiatives is NSA, that
+their motive is the preservation of their jobs and power by protecting the
+efficiency of signals intelligence, that their strategy is to discourage
+by every means that they can get away with all private and most commercial
+use of cryptography. That they have infiltrated the departments of State
+and Commerce and the White House staff, and that they are using the
+Department of Justice. <p>
+
+While they know that they cannot be fully successful, they also know that
+they do not have to be. <p>
+
+Nor is this simply paranoia on my part. It is the only explanation that
+accounts for all of the government's actions. It also meets the tests
+proposed by Machiavelli, Willie Sutton and "Deep Throat." <p>
+
+While most of the government confesses that cryptography is essential to
+personal privacy in the modern era, the administration is not prepared to
+admit that even the current sparse use is consistent with the government's
+responsibility to preserve public order. <p>
+
+Let me stress that the problem is government policy, not public policy and
+not administration or congressional policy. This policy has been made in
+secret and has been resistant to public input. <p>
+
+It is the policy of the bureaucracy and not of any individuals. I know
+most of the players in the development of this policy. I know none that
+are pursuing a personal agenda, like the results, or are proud of their
+roles in it. <p>
+
+They are simply doing the best that they know how in the face of agency
+momentum, administration consent, and the absence of congressional
+guidance. However, the momentum behind these policies is such that the
+good intentions and professionalism of the individuals is not sufficient
+to resist it. <p>
+
+While the administration has aligned itself with the initiatives, it is
+not their author. While the initiatives have sponsors within the
+administration, they were here before the administration and they expect
+to be here when it is gone. <p>
+
+They believe that the policy is important and that the administration is
+not. <p>
+
+While some committees of the congress have held hearings on the issues and
+even decried the arbitrary actions of the bureaucracy, their hearings
+always conclude with executive sessions with the NSA and no legislative
+initiatives to curb the excesses. <p>
+
+Forgive me a closing political observation not intended to be partisan.
+This government is too large, over-zealous and under-effective. It is
+committed to nothing so much as its own survival. <p>
+
+It may be too late to influence it, but if it is not influenced, not only
+will we not enjoy the fruits of modern cryptography, but we may not enjoy
+those of telecommunications, trade, our labors, or even those of freedom. <p>
+
+Bibliography <p>
+
+Ehrsam, W. F., Matyas, S. M., Meyer, C. H., and Tuchman, W. L., "A
+Cryptographic Key Management System for Implementing the Data Encryption
+Standard," IBM Systems Journal Vol. 17(2) pp. 106-125 (1978). <p>
+
+Kahn, D., The Codebreakers, Macmillan Co., New York (1967). <p>
+
+Matyas, S. M., Meyer, C. H., "Generation, Distribution, and Installation
+of Cryptographic Keys," IBM Systems Journal Vol. 17(2) pp. 126-137 (1978). <p>
+
+</DOC>

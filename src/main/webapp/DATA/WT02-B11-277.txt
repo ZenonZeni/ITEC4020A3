@@ -1,0 +1,385 @@
+
+<DOC>
+<DOCNO>WT02-B11-277</DOCNO>
+<DOCOLDNO>IA086-000618-B041-275</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.005.html 130.91.195.242 19970122052127 text/html 17873
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:21:14 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 17701
+Last-modified: Tue, 22 Nov 1994 06:30:47 GMT
+</DOCHDR>
+THE CLIPPER INITIATIVE in three parts - 1 of 3 <p>
+
+THE CLIPPER INITIATIVE <p>
+
+All Americans have a Right to Privacy!
+                                  But Key Escrow Won't Help <p>
+
+Stephen T. Walker1
+                              Trusted Information Systems, Inc. <p>
+
+August 31, 1993 <p>
+
+1.     Summary <p>
+
+On April 16, 1993, the President announced "a voluntary program
+to improve the security and privacy of telephone communications
+while meeting the legitimate needs of law enforcement."2  This
+announcement contains the very strong statement that: <p>
+
+"The Administration is committed to policies that protect
+       all Americans' right to privacy [emphasis added] while also
+       protecting them from those who break the law." <p>
+
+The announcement describes a new encryption algorithm that is
+"more powerful" than many in commercial use today while
+preserving "the ability of federal, state, and local law
+enforcement agencies to lawfully intercept the phone
+conversations of criminals" through the use of a "key-escrow"
+system. <p>
+
+This paper summarizes my review of the information presented to
+the Computer System Security and Privacy Advisory Board (CSSPAB)
+in public testimony and related publicly available information
+concerning the President's "Clipper Chip" Initiative. <p>
+
+Based on this review I have concluded that: <p>
+
+     Key escrow technology will NOT protect Americans "from
+              those who break the law." <p>
+
+     For Administration policies to "protect all Americans'
+              right to privacy," the Administration will have to
+              acknowledge the worldwide availability of good quality
+              cryptography and stop denying Americans the use of
+              technologies that are freely available to others in the
+              name of protecting us "from those who break the law." <p>
+
+The real issue confronting us in the President's Clipper Chip
+Initiative is obtaining an appropriate balance between: <p>
+
+     legitimate law enforcement and national security
+              concerns with intercepting communications that are not
+              in the best interests of the U.S., and <p>
+
+     legitimate concerns with protecting U.S. Government and
+              commercial sector sensitive information and preserving
+              the U.S. economic position. <p>
+
+For too long, the law enforcement and national security interests
+have controlled the dialog in this debate through their special
+positioning in the Executive Branch of the Government.  Now with
+advances in technology and worldwide availability of cryptography
+threatening to impede the ability to easily listen to others,
+these agencies are proposing potentially highly invasive measures
+that have little prospect of improving law enforcement and
+national security intercept capabilities, while having a
+significant negative impact on U.S. commercial capabilities and
+interests. <p>
+
+Meanwhile, requirements to protect U.S. Government and commercial
+sensitive information and maintain U.S. strength in the computer
+industry remain restricted without a voice in the debate. <p>
+
+While there may be a strong desire to slow the erosion in our
+technical communications intercept capabilities, this paper will
+show that the new key escrow approach will have little positive
+impact because it will see little use beyond the government. <p>
+
+However, if the Administration were to acknowledge today's
+worldwide availability of good quality encryption capabilities,
+such as the Data Encryption Standard (DES), our Government and
+commercial interests in protecting U.S. sensitive data would be
+vastly improved.  In so doing, our ability to intercept others
+could be marginally hurt, but many feel the gains outweigh the
+losses. <p>
+
+We must have a balanced review representing both sides of this
+national dilemma.  Such a debate cannot occur exclusively within
+the Executive Branch of the Government because of its close
+affiliation with the law enforcement and national security
+communities and the absence of any effective representation for
+U.S. commercial interests. <p>
+
+The Congress is the only organization that represents all
+constituencies affected by such a debate.  In the interest of
+reaching a fair and timely resolution of this national issue, I
+strongly encourage the Congress to act swiftly to establish a
+national policy regarding the use of cryptography to resolve this
+dilemma and clarify all Americans' right to privacy. <p>
+
+2.     Background <p>
+
+In the fall of 1992, AT&amp;T announced a telephone security device
+that would provide high quality security using the DES algorithm
+to protect the public's sensitive phone calls.3  Orders were
+taken for delivery in early 1993.  When the devices arrived,
+purchasers were told they were only "on loan" and would be
+replaced by a "better" device in "April 1993." <p>
+
+According to Dr. Clinton Brooks of NSA, AT&amp;T came to NSA asking
+if they should use DES in these devices.4  NSA realized that if
+it did not want DES to become widely used in such devices, it
+would have to accelerate the availability of technology it
+already had under development (now known as Clipper) that would
+give higher security than DES but with key escrow5 capabilities
+to protect the interests of the law enforcement community.
+Apparently, AT&amp;T decided to go along with NSA so long as the
+Clipper technology was made available on a timely basis.  On the
+same day in April that the President proclaimed the Clipper
+Initiative, "AT&amp;T announced it would use the new chip in all its
+secure non-government telephones."6 <p>
+
+But the chips that implement Clipper have been delayed through
+manufacturing difficulties.  So in early August AT&amp;T announced
+immediate availability of two new non-Clipper, non-key escrow
+telephone security devices, using AT&amp;T proprietary algorithms,
+one approved for export, the other not.  At the same time,
+Cylink, a manufacturer of security equipment, announced a DES-
+based phone security device. <p>
+
+It would seem that in a little less than a year, we have come
+full circle.  Once again there are telephone security devices
+(DES and non-DES) on the market, this time in open competition
+with the Government's proposed key escrow system that was
+intended to replace an earlier DES-based offering. <p>
+
+3.     What are the Real Issues with Key Escrow <p>
+
+What impact will these new products have on the Government's
+voluntary program to have key escrow systems become widely used?
+Will the law abiding public prefer to buy secure phones with or
+without key escrow, or just not buy them at all?  And where is
+all of this headed in the computer communications world? Do we
+need/want key escrow capabilities for our communications? Can we
+afford the price we will have to pay for them? Before we can
+answer these questions we need to examine a number of difficult
+issues from practical, economic, and philosophical perspectives. <p>
+
+Law Enforcement's Wiretap Capabilities <p>
+
+An analysis of the prospects for the law enforcement community
+being able to maintain its present level of wiretap capability is
+contained in Appendix A.  Through examination of a series of
+scenarios ranging from doing nothing to mandatory enforcement of
+key escrow cryptography for all phones in the U.S., it becomes
+clear that irreversible advances in digital telephony technology
+and growing availability of encryption will make it increasingly
+difficult to wiretap the communications of sophisticated criminal
+elements, with or without key escrow capabilities. <p>
+
+Conclusion: <p>
+
+With respect to the feasibility of law enforcement's being
+       able to continue present day telephone wiretaps of illegal
+       activities: <p>
+
+     Over the next few years, the law enforcement
+                    community will probably lose the technical ability
+                    to wiretap sophisticated criminal activities,
+                    regardless of whether we install key escrow systems
+                    or not, and conversely, <p>
+
+     the law enforcement community will almost certainly
+                    retain the technical ability to wiretap law abiding
+                    citizens and unsophisticated criminals, regardless
+                    of whether we install key escrow systems or not. <p>
+
+Key Escrow Applied to Telephones and Computer Communications <p>
+
+The limited available information concerning how key escrow
+techniques will work for telephone and computer communications
+systems is analyzed in Appendix B.  Key escrow techniques appear
+relatively straight forward in simple point-to-point telephone
+situations, but their application to sophisticated computer
+communications environments is much more complex.  While
+technically feasible, these applications will be subject to a
+wide variety of software bypasses of the hardware-only key escrow
+provisions that will defeat their effectiveness.  They will also
+impose a unique hardware expense on the user which will be
+unacceptable in most situations. <p>
+
+Conclusion: <p>
+
+With respect to the use of key escrow for telephone
+       communications: <p>
+
+     The emergence of the non-key escrow telephone
+                    security devices (such as the new AT&amp;T and Cylink
+                    devices) will confuse the market place and deprive
+                    the Government of its hoped for widespread
+                    voluntary use of key escrow. <p>
+
+With respect to the use of key escrow for computer network
+communications: <p>
+
+     Significant technical and legal complications
+                    confront the use of key escrow in computer
+                    applications.  The Government's hardware-only
+                    restrictions for key escrow systems cannot be
+                    achieved in computer systems where software
+                    controls the basic applications for file transfer,
+                    electronic mail, and electronic commerce.  No
+                    specific requirement for law enforcement wiretap of
+                    computer communications has been identified.
+                    Conventional search warrant procedures may be
+                    adequate for obtaining computer data rather than
+                    key escrowed wiretaps. <p>
+
+International Acceptance of Key Escrow <p>
+
+The issues of international acceptance and use of key escrow
+techniques seem to have been poorly thought out in the Clipper
+plan.  The sharing of escrowed keys with other governments opens
+technological, political, and psychological issues that are
+likely to be insurmountable.  One need only consider the feelings
+of a U.S. citizen whose encryption keys were available to a
+collection of foreign interests to recognize that foreign
+interests will feel the same way about U.S. Government key
+escrow.  While one can understand how individual governments
+might see advantages in such sharing, it is difficult to see how
+individual citizens anywhere will find the use of key escrow
+acceptable.  In a world of growing multinational economies, key
+escrow arrangements among individual governments seem sadly out
+of place. <p>
+
+The Skipjack7 Algorithm and Key Escrow Control Procedures <p>
+
+The Government's Skipjack review team found8 that the algorithm
+used in the Clipper chip is sound and not subject to easy defeat
+by exhaustive key search9 or shortcut attacks.  I am fully
+prepared to accept this team's findings both because of the
+quality of people who performed the analysis and the belief that
+NSA would not introduce a flaw in an algorithm of this type.  But
+the problem with Clipper, if there is one, will not be in the
+algorithm itself but with the key escrow control procedures which
+the Government is developing to grant law enforcement access to
+the Clipper keys. <p>
+
+The key escrow control procedures, which are still not fully
+worked out, are intended to provide law enforcement with rapid
+access to keys while protecting the public from improper
+disclosure to unauthorized individuals.  As described to the
+CSSPAB on July 29, 1993, the procedures appear to provide very
+limited protection against a government official who might be
+operating in an illegal manner. <p>
+
+Constitutional Rights Issues <p>
+
+Many people have discussed concerns about possible violations of
+the Constitutional rights of individual citizens by the use of
+key escrow procedures.  I will defer such questions to others
+with a legal background. <p>
+
+I do have one concern regarding the comment in the President's
+April 16 announcement that "the Administration is committed to
+policies that protect all Americans' right to privacy while also
+protecting them from those who break the law."  These two goals
+seem impossible to achieve at the same time.  This seems to be
+more a "right to privacy from everyone but the Government," which
+is a long way from the Bill of Rights. <p>
+
+Overall Conclusion: <p>
+
+Key escrow technology will NEITHER advance the public's
+       right to privacy NOR protect it "from those who break the
+       law." <p>
+
+As desirable as those goals may be to the Government, the
+technical, economic, and personal privacy aspects of key escrow
+techniques will limit them from playing a significant role in our
+future telephone and computer communications systems. <p>
+
+As our communication technologies continue their rapid evolution,
+we must be careful not to hamstring them with restrictive
+"solutions" to issues that have been overtaken by technology. <p>
+
+4.     But what about protecting "all Americans' right to privacy"? <p>
+
+Even if key escrow can't assure the protection of Americans "from
+those who break the law," we can make progress on the other theme
+of the Clipper announcement, the protection of "all Americans'
+right to privacy"! <p>
+
+There are several issues to be considered here: <p>
+
+     Good cryptography (of the quality of DES) is already
+              available worldwide and attempts to contain it in the
+              U.S. are only hurting U.S. users and vendors. <p>
+
+     Because of export restrictions, U.S. manufacturers are
+              reluctant to integrate good cryptography into their
+              products since they cannot sell them to the majority of
+              their markets.  This has multiple negative effects,
+              such as: <p>
+
+-  denying U.S. users good quality integrated
+                      encryption products even for use only in the
+                      U.S., <p>
+
+-  denying U.S. computer vendors significant
+                      overseas sales which automatically go to foreign
+                      vendors, and thus, <p>
+
+-  exporting U.S. jobs in computer related
+                      industries to foreign countries. <p>
+
+An ongoing study of foreign availability of cryptography10 has in
+only a few weeks found several hundred products, most of them
+DES-based, that are available just about anywhere in the world.
+Many of these products, being sold in the U.S., are from foreign
+manufacturers since many countries' export laws, while claiming
+to be similar to those of the U.S., make it quite easy to get
+export licenses to the U.S.  Several German DES products are
+routinely sold here through a blanket export license.  But once
+here, those products cannot leave the U.S.   This situation
+effectively guarantees that whatever worldwide business there
+will be in  products that use cryptography will go to those
+companies in those countries that can readily export their
+products.  The U.S. is losing this very important and rapidly
+growing market. <p>
+
+And it's not just the sale of products that use cryptography that
+we are losing.  When U.S. companies cannot supply reasonable
+cryptography fully integrated into their entire product line,
+they are losing the sale of major information systems, of which
+the cryptographic products may be only a small portion. <p>
+
+Mass market software is one of the few industries where the U.S.
+holds a significant technological and commercial advantage.  Yet
+U.S. producers are reluctant to incorporate cryptography into
+their products, solely because of U.S. export uncertainty.  The
+Software Publishers Association, in a major shift in U.S. export
+policy in 1992, obtained blanket export permission for encryption
+products using keys limited to 40-bit key lengths.  However, the
+world market, which already has ready access to 56-bit key DES
+products, recognizes the weakness of 40-bit keys and simply will
+not accept them. <p>
+
+Government officials11 complain that industry cannot provide an
+economic analysis of how much business is being lost through the
+imposition of export controls on cryptography.  They have a right
+to complain, but they must understand that this is a rapidly
+emerging economic environment.  Once we can document in detail
+what we are losing or have lost, the situation will be so far
+along that we will be out of the game and unable to recover.  We
+must look at the indicators and adjust our strategy based on them
+or we will lose much more than the sale of a few cryptographic
+devices. <p>
+
+DES is not in the public domain? <p>
+
+The U.S. Department of State has declared that information about
+cryptography that is not in the public domain cannot be exported.
+When faced with the question, "Isn't DES in the public domain?"
+they insist that it is not.  To do otherwise, of course, would be
+to admit that DES could be readily exported, which they are
+determined not to allow.  If exportability of good quality
+encryption products were not a critical issue for the U.S.
+computer industry, this U.S. Government policy would be just one
+more case where policy ignores reality.  Unfortunately, it's much <p>
+
+</DOC>

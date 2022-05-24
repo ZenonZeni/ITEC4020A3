@@ -1,0 +1,99 @@
+
+<DOC>
+<DOCNO>WT02-B12-108</DOCNO>
+<DOCOLDNO>IA087-000631-B022-338</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.138.html 130.91.195.242 19970122065339 text/html 3715
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:53:39 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3544
+Last-modified: Tue, 22 Nov 1994 06:33:00 GMT
+</DOCHDR>
+relative costs of breaking Clipper <p>
+
+Posted-Date: Fri, 25 Feb 1994 18:28:21 -0500
+Path:
+netnews.upenn.edu!dsinc!ub!news.kei.com!sol.ctr.columbia.edu!howland.reston.
+ans.net!europa.eng.gtefsd.com!MathWorks.Com!transfer.stratus.com!galt.sw.str
+atus.com!cme
+From: cme@galt.sw.stratus.com (Carl Ellison)
+Newsgroups:
+alt.2600,alt.activism,alt.activism.d,alt.politics.datahighway,alt.privacy,al
+t.privacy.clipper,alt.security.pgp,comp.org.eff.talk
+Subject: relative costs of breaking Clipper
+Date: 24 Feb 1994 20:37:24 GMT
+Organization: Stratus Computer, Marlboro MA
+Lines: 62
+Distribution: inet
+Nntp-Posting-Host: galt.sw.stratus.com
+Xref: netnews.upenn.edu alt.2600:2451 alt.activism:63526
+alt.activism.d:12618 alt.politics.datahighway:1741 alt.privacy:12435
+alt.privacy.clipper:2769 alt.security.pgp:9346 comp.org.eff.talk:28131
+Apparently-To: farber@pcpond.cis.upenn.edu <p>
+
+In article &lt;CLqD6B.EIo@nrtpa22.bnr.ca&gt; kpm@n8pph56.nt.com (Keith Mancus) writes:
+&gt;
+&gt;In article &lt;199402232157.QAA26990@eff.org&gt;, mech@eff.org (Stanton McCandlish)
+&gt;writes, quoting NIST:
+&gt;
+&gt;|&gt;                    They found that the algorithm provides
+&gt;|&gt; significant protection and that it will be 36 years until the cost
+&gt;|&gt; of breaking the EES algorithm will be equal to the cost of breaking
+&gt;|&gt; the current Data Encryption Standard. <p>
+
+&gt;  This is meaningless.  Could someone please make a more meaningful
+&gt;comparison of EES with Triple DES or IDEA?  DES is clearly out of date.
+&gt;Oh, I forgot, we're not allowed to see the EES. :-) <p>
+
+You don't need to see EES for this "expert computation". <p>
+
+Processor speeds double every 1.5 years (thanks to chip technology
+improvements -- also affecting speed of Wiener's chips). <p>
+
+Brute force attack of Clipper's 80-bit keys takes 2^(80-56) times as
+many trials.  If you want to wait until chip technology makes that as
+fast as current DES breaking, you need to wait  (80-56)*1.5 years. <p>
+
+Triple DES (of the form ECB|ECB|ECB) with three independent keys has
+3*56 bits of key and it will take (3*56-80)*1.5 years before you can
+break triple-DES in the same time you break Clipper today. <p>
+
+IDEA has a 128-bit key, so it will take (128-80)*1.5 years before
+you can break IDEA in the same time as you could break Clipper today. <p>
+
+If you want brute force protection, of course, you can use my <p>
+
+DES|TRAN|nDES|TRAN|DES          (call it DTnDTD) <p>
+
+suggestion from a day or two ago (on sci.crypt) and get ((n+2)*56-80)*1.5
+years lead on Clipper -- practical for n up to about 500, given today's
+message sizes. <p>
+
+Summary: <p>
+
+to break X in the same time (cost) as breaking Clipper today,
+        you need to wait: <p>
+
+X               time <p>
+
+DES             - 36 years
+        IDEA            72 years
+        triple-DES      132 years
+        (DTnDTD, n=16)  1392 years <p>
+
+Meanwhile, I would *far* prefer single DES over Clipper, to protect against
+organized crime attacks on my privacy.  I don't believe OrgCrime would be
+able to build a Wiener machine (or better) and get known plaintext from my
+traffic without a huge ramp-up time in staffing and research -- but
+stealing keys, bribing escrow agents, etc., is something OrgCrime is
+already very skilled at. <p>
+
+--
+ Carl M. Ellison                                     cme@sw.stratus.com
+ RIPEM MD5OfPublicKey: 39D9860686A9F075A9A83D49589C677A
+ Stratus Computer Inc.                               TEL: (508)460-2783
+ 55 Fairbanks Boulevard ; Marlborough MA 01752-1298  FAX: (508)624-7488 <p>
+
+</DOC>

@@ -1,0 +1,105 @@
+
+<DOC>
+<DOCNO>WT03-B15-61</DOCNO>
+<DOCOLDNO>IA094-001014-B044-281</DOCOLDNO>
+<DOCHDR>
+http://www.rosl.com:80/contact.htm 206.216.148.51 19970121062849 text/html 5026
+HTTP/1.0 200 OK
+Date: Tue, 21 Jan 1997 06:25:11 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 4855
+Last-modified: Thu, 19 Sep 1996 09:13:05 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<title>Robot Simulations Ltd - Contact Us</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+</head>
+<body BGCOLOR="WHITE" link="#00FF00">
+<h1 align=center><IMG SRC="gif/mhirsl.gif" border=0></h1>
+<h1 align=center>Contact Us</h1>
+<p>Robot Simulations Ltd. always welcomes enquiries from existing or potential customers or from people interested in the field of 
+computer simulation. We also would like to here from you if you wish to make a link to or from our Website.</p>
+<h2 align=center>How to contact us</h2>
+<center>
+<address>Robot Simulations Ltd<br>
+Lynnwood Business Centre<br>
+Lynnwood Terrace<br>
+Newcastle-upon-Tyne<br>
+NE4 6UL<br>
+England<br>
+Telephone +44 (0)191 272 3673<br>
+Fax +44 (0)191 272 0121<br>
+<a href="MAILTO:sales@rosl.demon.co.uk">sales@rosl.demon.co.uk</a><br>
+<a href="MAILTO:support@rosl.demon.co.uk">support@rosl.demon.co.uk</a></address>
+</center>
+<p><h3>Alternatively please fill in the form below:</h3></p>
+<FORM METHOD="post" ACTION="/my-cgi-bin/formmail.cgi">
+<input type=hidden name="recipient" value="sales@rosl.demon.co.uk">
+<input type=hidden
+ name="subject" value="WWW form response">
+<input type=hidden name="sort" value="order:first,last,company,address1,address2,city,state,zip,country,phone,fax,email,AreaOfInterest,UserofRobots,PurchaseRobots,RobotsandQuantity,Applications,Demonstration">
+<input type=hidden name="return_link_url" 
+				     value="http://www.rosl.com">
+<input type=hidden name="return_link_title" value="Back to Robot Simulations Homepage">
+
+<input type=hidden name="bgcolor" value="#FFFFFF">
+<input type=hidden name="text_color" value="#000000">
+
+<P>
+</P>
+<B>Please fill in your name and address:</B><BR><PRE>
+<B>First Name:       </B> <INPUT TYPE="text" NAME="first" VALUE=""><BR>
+<B>Last Name:         </B><INPUT TYPE="text" NAME="last" VALUE=""><BR>
+<B>Company/University:</B><INPUT TYPE="text" NAME="company" VALUE="" SIZE="50"><BR>
+<B>Address1:          </B><INPUT TYPE="text" NAME="address1" VALUE="" SIZE="50"><BR>
+<B>Address2:          </B><INPUT TYPE="text" NAME="address2" VALUE="" SIZE="50"><BR>
+<B>City:             </B> <INPUT TYPE="text" NAME="city" VALUE=""><BR>
+<B>State:             </B><INPUT TYPE="text" NAME="state" VALUE=""><BR>
+<B>Post code/Zip code:</B><INPUT TYPE="text" NAME="zip" VALUE="">    <B>Country: </B><INPUT
+ TYPE="text" NAME="country" VALUE=""><BR>
+<B>Phone:             </B><INPUT TYPE="text" NAME="phone" VALUE=""><B>         Fax:</B><INPUT TYPE="text" NAME="Fax" VALUE=""><BR>
+<B>E-mail:            </B><INPUT TYPE="text" NAME="email" VALUE=""></PRE>
+<P><B>Indicate main area(s) of interest:<BR>
+<PRE><INPUT TYPE="checkbox" NAME="AreaOfInterest" VALUE="Simulation"> Simulation 
+<INPUT TYPE="checkbox" NAME="AreaOfInterest" VALUE="Calibration"> Calibration
+<INPUT TYPE="checkbox" NAME="AreaOfInterest" VALUE="OfflineProgramming"> Off-line programming</PRE> 
+<P><B>Are you a user of robots?<BR>
+<PRE>
+<INPUT TYPE="RADIO" NAME="UserofRobots" VALUE="Yes">Yes<BR>
+<INPUT TYPE="RADIO" NAME="UserofRobots" VALUE="No">No
+</PRE></B></P>
+<P><B>Are you looking to use/purchase robots in the future?<BR>
+<PRE>
+<INPUT TYPE="RADIO" NAME="PurchaseRobots" VALUE="Yes">Yes<BR>
+<INPUT TYPE="RADIO" NAME="PurchaseRobots" VALUE="No">No</PRE></B></P>
+<P><B>Quantity and make of robots:<BR><PRE>
+<TEXTAREA NAME="RobotsandQuantity" ROWS="3" COLS="50"></TEXTAREA></PRE>
+<P><B>Please descibe the applications you use/plan to use robots for:<BR><PRE>
+<TEXTAREA
+NAME="Applications" ROWS="3" COLS="50"></TEXTAREA></PRE>
+<P><B>Our engineers will only be too pleased to demonstrate and discuss how Workspace can be applied to actual manufacturing situations. Would you like Robot Simulations to contact you and organise a demonstration (which can be at your or our premises)?: <BR><PRE><INPUT
+TYPE="RADIO" NAME="Demonstration" VALUE="Yes">Yes<BR><INPUT
+TYPE="RADIO" NAME="Demonstration" VALUE="No">No</PRE></B></P>
+<INPUT NAME="Submit" TYPE="submit" VALUE="Submit">   <INPUT NAME="reset" TYPE="reset" VALUE="reset"></FORM>
+
+<center><IMG SRC="gif/line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG BORDER=0 SRC="gif/home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<p align=center><br>
+<img src="gif/line_col.gif" alt="[IMAGE]" align=bottom width=585 height=1> </p>
+<h6 align=center><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+<h6 align=center>UK Patent Application Number 952006.4</h6>
+<h6 align=center>US Patent Application Number 952006.4 (Applied for)</h6>
+<h6 align=center>Copyright &#169; 1996 Robot Simulations Ltd</h6>
+<h6 align=center>Last revision September 1996</h6>
+</body>
+
+</html>
+</DOC>

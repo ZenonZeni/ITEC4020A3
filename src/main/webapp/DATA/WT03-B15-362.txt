@@ -1,0 +1,188 @@
+
+<DOC>
+<DOCNO>WT03-B15-362</DOCNO>
+<DOCOLDNO>IA074-000483-B007-322</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icsur012.html 128.125.48.102 19970125004050 text/html 9396
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:39:23 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 9165
+Last-Modified: Mon, 13 Jan 1997 17:13:00 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Quick Beginnings</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSURMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 20 Dec 1996 at 16:44:30                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Fri, 20 Dec 1996 16:44:14">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->
+<!--                                                                 -->
+<!-- FUNCTIONS:                                                      -->
+<!--                                                                 -->
+<!-- ORIGINS:  27                                                    -->
+<!--                                                                 -->
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->
+<!-- All Rights Reserved                                             -->
+<!-- Licensed Materials - Property of IBM                            -->
+<!--                                                                 -->
+<!-- US Government Users Restricted Rights - Use, duplication or     -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                 -->
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<BR>
+<HR>
+<H1><A NAME="HDRBIB" HREF="icsur007.html#PToC_75">Appendix D. Bibliography</A></H1>
+<P>This bibliography lists the
+books related to the Internet Connection Secure Server Version 4.2.
+<HR>
+<H2><A NAME="Header_76" HREF="icsur007.html#PToC_76">For AIX</A></H2>
+<UL>
+<P><LI><CITE>Quick Beginnings</CITE>, GC31-8482
+<P>Explains how to plan for, install, start your server using
+the default configuration settings, and stop your server.
+Also explains how to view online help and print online books.
+<P><LI><CITE>Webmaster's Guide for AIX, HP-UX, and Solaris</CITE>, GC31-8487
+<P>Explains how to change the default configuration settings to
+meet your needs, either by using the built-in configuration utility
+or by editing the configuration file.
+Also explains how to control and track users' access to your server, how
+to include dynamic information in the files your server returns to
+users, and how to set up a secure
+environment for your users to conduct business.
+<P><LI><CITE>Web Programming Guide</CITE> (available in HTML format
+from your server's Front Page or in PDF format from this URL:
+http://www.ics.raleigh.ibm.com)
+<P>Explains how to write external programs that interact with the
+Internet Connection Secure Server, via either the Common Gateway Interface (CGI) or the
+Internet Connection API (ICAPI).
+For example, you can write a CGI program
+to generate a dynamic response to user input, or you can write an
+ICAPI program to customize the way errors are handled.
+</UL>
+<HR>
+<H2><A NAME="Header_77" HREF="icsur007.html#PToC_77">For HP-UX</A></H2>
+<UL>
+<P><LI><CITE>Quick Beginnings</CITE>, GC31-8483
+<P>Explains how to plan for, install, start your server using
+the default configuration settings, and stop your server.
+Also explains how to view online help and print online books.
+<P><LI><CITE>Webmaster's Guide for AIX, HP-UX, and Solaris</CITE>, GC31-8487
+<P>Explains how to change the default configuration settings to
+meet your needs, either by using the built-in configuration utility
+or by editing the configuration file.
+Also explains how to control and track users' access to your server, how
+to include dynamic information in the files your server returns to
+users, and how to set up a secure
+environment for your users to conduct business.
+<P><LI><CITE>Web Programming Guide</CITE> (available in HTML format
+from your server's Front Page or in PDF format from this URL:
+http://www.ics.raleigh.ibm.com)
+<P>Explains how to write external programs that interact with the
+Internet Connection Secure Server, via either the Common Gateway Interface (CGI) or the
+Internet Connection API (ICAPI).
+For example, you can write a CGI program
+to generate a dynamic response to user input, or you can write an
+ICAPI program to customize the way errors are handled.
+</UL>
+<HR>
+<H2><A NAME="Header_78" HREF="icsur007.html#PToC_78">For OS/2 Warp</A></H2>
+<UL>
+<P><LI><CITE>Quick Beginnings</CITE>, GC31-8481
+<P>Explains how to plan for, install, start your server using
+the default configuration settings, and stop your server.
+Also explains how to view online help and print online books.
+<P><LI><CITE>Webmaster's Guide</CITE>, GC31-8486
+<P>Explains how to change the default configuration settings to
+meet your needs, either by using the built-in configuration utility
+or by editing the configuration file.
+Also explains how to control and track users' access to your server, how
+to include dynamic information in the files your server returns to
+users, and how to set up a secure
+environment for your users to conduct business.
+<P><LI><CITE>Web Programming Guide</CITE> (available in HTML format
+from your server's Front Page or in PDF format from this URL:
+http://www.ics.raleigh.ibm.com)
+<P>Explains how to write external programs that interact with the
+Internet Connection Secure Server, via either the Common Gateway Interface (CGI) or the
+Internet Connection API (ICAPI).
+For example, you can write a CGI program
+to generate a dynamic response to user input, or you can write an
+ICAPI program to customize the way errors are handled.
+<P><LI><CITE>SystemView for OS/2 Version 1.1 Up and Running!</CITE>, SH19-4184
+<P>Explains the concepts of systems management
+in a LAN workgroup environment.
+Also explains how to install and configure SystemView for OS/2, and
+includes user scenarios to show you how to get started with
+day-to-day systems management and software distribution.
+</UL>
+<HR>
+<H2><A NAME="Header_79" HREF="icsur007.html#PToC_79">For Solaris</A></H2>
+<UL>
+<P><LI><CITE>Quick Beginnings</CITE>, GC31-8484
+<P>Explains how to plan for, install, start your server using
+the default configuration settings, and stop your server.
+Also explains how to view online help and print online books.
+<P><LI><CITE>Webmaster's Guide for AIX, HP-UX, and Solaris</CITE>, GC31-8487
+<P>Explains how to change the default configuration settings to
+meet your needs, either by using the built-in configuration utility
+or by editing the configuration file.
+Also explains how to control and track users' access to your server, how
+to include dynamic information in the files your server returns to
+users, and how to set up a secure
+environment for your users to conduct business.
+<P><LI><CITE>Web Programming Guide</CITE> (available in HTML format
+from your server's Front Page or in PDF format from this URL:
+http://www.ics.raleigh.ibm.com)
+<P>Explains how to write external programs that interact with the
+Internet Connection Secure Server, via either the Common Gateway Interface (CGI) or the
+Internet Connection API (ICAPI).
+For example, you can write a CGI program
+to generate a dynamic response to user input, or you can write an
+ICAPI program to customize the way errors are handled.
+</UL>
+<HR>
+<H2><A NAME="Header_80" HREF="icsur007.html#PToC_80">For Windows NT</A></H2>
+<UL>
+<P><LI><CITE>Quick Beginnings</CITE>, GC31-8485
+<P>Explains how to plan for, install, start your server using
+the default configuration settings, and stop your server.
+Also explains how to view online help and print online books.
+<P><LI><CITE>Webmaster's Guide</CITE>, GC31-8488
+<P>Explains how to change the default configuration settings to
+meet your needs, either by using the built-in configuration utility
+or by editing the configuration file.
+Also explains how to control and track users' access to your server, how
+to include dynamic information in the files your server returns to
+users, and how to set up a secure
+environment for your users to conduct business.
+<P><LI><CITE>Web Programming Guide</CITE> (available in HTML format
+from your server's Front Page or in PDF format from this URL:
+http://www.ics.raleigh.ibm.com)
+<P>Explains how to write external programs that interact with the
+Internet Connection Secure Server, via either the Common Gateway Interface (CGI) or the
+Internet Connection API (ICAPI).
+For example, you can write a CGI program
+to generate a dynamic response to user input, or you can write an
+ICAPI program to customize the way errors are handled.
+</UL>
+<HR>
+<H2><A NAME="Header_81" HREF="icsur007.html#PToC_81">Related publications</A></H2>
+<UL>
+<P><LI><CITE>OS/390 MVS System Management Facilities</CITE>,
+GC28-1783
+</UL>
+<BR>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icsur011.html">Previous Page</A> &#124; <A HREF="icsurmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

@@ -1,0 +1,85 @@
+
+<DOC>
+<DOCNO>WT03-B15-110</DOCNO>
+<DOCOLDNO>IA092-000993-B033-10</DOCOLDNO>
+<DOCHDR>
+http://www.rosl.com:80/wwwboard/messages/26.html 206.216.148.51 19970121065605 text/html 4429
+HTTP/1.0 200 OK
+Date: Tue, 21 Jan 1997 06:52:18 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 4258
+Last-modified: Fri, 07 Jun 1996 09:19:33 GMT
+</DOCHDR>
+<html>
+  <head>
+    <title>Re: Moving views &amp; dynamics</title>
+  </head>
+  <body>
+    <center>
+      <h1>Re: Moving views &amp; dynamics</h1>
+    </center>
+<hr size=7 width=75%>
+<center>[ <a href="#followups">Follow Ups</a> ] [ <a href="#postfp">Post Followup</a> ] [ <a href="http://www.rosl.com/wwwboard/wwwboard.html">Workspace User Group</a> ] [ <a href="http://www.rosl.com/wwwboard/faq.html">FAQ</a> ]</center>
+<hr size=7 width=75%><p>
+Posted by <a href="mailto:james@rosl.demon.co.uk">James Potter</a> on June 07, 1996 at 02:19:33:<p>
+In Reply to: <a href="25.html">Info</a> posted by Tiberio Grasso on June 06, 1996 at 05:00:43:<p>
+: -Is it possible to have some modifications in the <br>: standard software?<br>: -In particular:<br>: we need two 'virtual cameras' attached to a specific<br>: reference frame, fixed or moving with respect to base.<br>: Note that in this case a perspective view is needed, and<br>: also a specific window where to input the relevant data.<br>: -As regards forward and inverse dynamics, I know that<br>: with the use of a DLL it is possible to perform these<br>: operations. But what must I write in these DLLs?<p>1. VIRTUAL CAMERAS (ATTACHED TO MOVING OBJECT)<br>A Geometry Point is attached to the moving object, there <br>is a Workspace command (VIEW) that sets the position/<br>direction of eye.  A background track is run that <br>continually checks the GP's position and adjusts the <br>view accordingly.<p>2. PERSPECTIVE. <br>This is available in Workspace.<p>5. INPUT WINDOW<br>Reading from user (PROMPTUSER command) is possible.<p>4. DYNAMICS.<br>We supply an example pascal dynamics file (to <br>be compiled to a dll).I will fax section from the <br>Workspace User Guide on "Writing your own dynamics <br>routines".<p>
+<br>
+<br><hr size=7 width=75%><p>
+<a name="followups">Follow Ups:</a><br>
+<ul><!--insert: 26-->
+</ul><!--end: 26-->
+<br><hr size=7 width=75%><p>
+<a name="postfp">Post a Followup</a><p>
+<form method=POST action="http://www.rosl.com/my-cgi-bin/wwwboard.cgi">
+<input type=hidden name="followup" value="25,26">
+<input type=hidden name="origname" value="James Potter">
+<input type=hidden name="origemail" value="james@rosl.demon.co.uk">
+<input type=hidden name="origsubject" value="Re: Moving views &amp; dynamics">
+<input type=hidden name="origdate" value="June 07, 1996 at 02:19:33">
+Name: <input type=text name="name" size=50><br>
+E-Mail: <input type=text name="email" size=50><p>
+Subject: <input type=text name="subject"value="Re: Moving views &amp; dynamics" size=50><p>
+Comments:<br>
+<textarea name="body" COLS=50 ROWS=10>
+: : -Is it possible to have some modifications in the 
+: : standard software?
+: : -In particular:
+: : we need two 'virtual cameras' attached to a specific
+: : reference frame, fixed or moving with respect to base.
+: : Note that in this case a perspective view is needed, and
+: : also a specific window where to input the relevant data.
+: : -As regards forward and inverse dynamics, I know that
+: : with the use of a DLL it is possible to perform these
+: : operations. But what must I write in these DLLs?
+
+: 1. VIRTUAL CAMERAS (ATTACHED TO MOVING OBJECT)
+: A Geometry Point is attached to the moving object, there 
+: is a Workspace command (VIEW) that sets the position/
+: direction of eye.  A background track is run that 
+: continually checks the GP's position and adjusts the 
+: view accordingly.
+
+: 2. PERSPECTIVE. 
+: This is available in Workspace.
+
+: 5. INPUT WINDOW
+: Reading from user (PROMPTUSER command) is possible.
+
+: 4. DYNAMICS.
+: We supply an example pascal dynamics file (to 
+: be compiled to a dll).I will fax section from the 
+: Workspace User Guide on &quot;Writing your own dynamics 
+: routines&quot;.
+
+</textarea>
+<p>
+Optional Link URL: <input type=text name="url" size=50><br>
+Link Title: <input type=text name="url_title" size=48><br>
+Optional Image URL: <input type=text name="img" size=49><p>
+<input type=submit value="Submit Follow Up"> <input type=reset>
+<p><hr size=7 width=75%>
+<center>[ <a href="#followups">Follow Ups</a> ] [ <a href="#postfp">Post Followup</a> ] [ <a href="http://www.rosl.com/wwwboard/wwwboard.html">Workspace User Group</a> ] [ <a href="http://www.rosl.com/wwwboard/faq.html">FAQ</a> ]</center>
+</body></html>
+</DOC>

@@ -1,0 +1,290 @@
+
+<DOC>
+<DOCNO>WT03-B24-120</DOCNO>
+<DOCOLDNO>IA053-000896-B001-130</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/vtwover.html 129.174.40.15 19970123200758 text/html 11805
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:06:44 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 07 Dec 1995 22:50:05 GMT
+Content-type: text/html
+Content-length: 11621
+</DOCHDR>
+<html>
+<head>
+<title>VTW BillWatch Issue 17: Overview on Clipper II</title>
+<!author=Sender: shabbir@panix.com>
+</head>
+<body>
+<hr>
+<h2>ACTION ALERTS</h2>
+
+<h3>Clipper II is here, and you should be mad.</h3>
+
+This week <a href="http://www.vtw.org/>VTW</a> traveled to Maryland to the National Institute of
+Standards and Technology (NIST) to voice our opposition to the new Son
+of Clipper plan being proposed by the White House.  Lucky for us, we
+were not alone.  An army of industry representatives came to nervously
+show their opposition as well.  VTW was allowed 4-6 minutes to present
+our problems with the key escrow program.  The full text of 
+<a href="./vtw.html">our comments
+is available</a>, and a copy is being included into the NIST workshop
+report. 
+
+<hr>
+CHANGES IN US CRYPTOGRAPHY POLICY
+<p>
+In BillWatch (Issue #14) we described the background surrounding the
+announcement of the government's new "Key Escrow" proposal.  In this
+issue we give a report on the outcome of the NIST Key Escrow workshop
+(Sep. 6th and 7th in Gaithersberg MD) where the trial lead balloon of
+Clipper II was presented to industry and the public.
+
+<p>
+<h1>	Clipper II: Don't trip over the dogs and ponies</h1>
+
+<p>
+INTRODUCTION
+<p>
+Last year many people announced that "Clipper is dead".  Contrary to
+that belief, several civil liberties organizations warned that 
+although the use of the Clipper Chip is probably dead, the public had
+not heard the last from the government on their war on your right to
+have a private conversation.  Indeed, as predicted, the government
+proposed a new program this summer called Commercial Key Escrow ("Son
+of Clipper" or "Clipper II").
+
+<p>
+WHAT IS COMMERCIAL KEY ESCROW?
+<p>
+Remember the Clipper Chip?  It was a scheme that allowed you to have a
+private conversation (encrypted) with any other person, except that the
+government would have a built-in way of decoding that conversation.  Many
+people found it unacceptable to have government-designed built-in back
+doors to telephones and software.
+
+<p>
+Under Clipper II, the government still requires those back doors be built
+into the products.  However the encryption key that scrambles your
+conversation would be held by a third party, another company called a
+"commercial escrow agent".  When law enforcement wanted to decrypt
+your files or your communications they would go to the escrow agent and
+demand the keys to decrypt your information.
+
+<p>
+This is even worse than the original Clipper for a number of reasons
+outlined in the presentations given by civil liberties advocates.
+Instead of the government telling you that you had to let them listen
+to your conversations, under commercial key escrow they require that
+both they and an "escrow company" have access to your encryption keys.
+
+<p>
+Both public advocates and industry representatives viewed this as just as
+unacceptable as the original Clipper proposal.
+
+<p>
+NIST HOLDS SOMETHING AKIN TO A PUBLIC FORUM
+<p>
+This week (Sep 6th and 7th) NIST (National Institute of Standards and
+Technology) conducted a key escrow workshop" in Gaithersburg Maryland.
+Advertised as a place for industry to bring their concerns over key
+escrow but "open to the public", it was heavily attended by industry
+representatives.  A few advocates of the public interest crashed the
+party anyway and to NIST's credit, we were not turned away and even
+allowed to present our dissenting views.  Representatives from the ACLU
+(American Civil Liberties Union), CDT (Center for Democracy and
+Technology), EPIC (Electronic Privacy Information Center) and VTW
+(Voters Telecommunications Watch) all were in attendance to critique
+the proposal.  A transcript of VTWs testimony is available at the end
+of this document. [actually, I split the document into smaller parts.
+Follow this link for <a href="./vtw.html">VTW's comments on Escrow</a>]
+
+<p>
+Here's how the workshop worked:
+First, NIST, in concert with the law enforcement and intelligence
+communities, came up with a set of ten criteria for a commercial key
+escrow system and for certifying escrow agents.  No public input was
+solicited.
+
+<p>
+Second, while representatives of the White House uttered the mantras of
+"export decontrol" and "foreign markets", industry representatives were
+shown a complicated scheme whereby law enforcement would have access
+to the keys, all while consumers would still be allowed to encrypt their
+data.
+
+<p>
+At the workshop, industry representatives were broken up into groups and
+charged with examining and improving the standards for commercial key
+escrow proposed by the Administration.
+
+<p>
+As expected, this scheme backfired.  As each group reported back to the
+larger audience, industry representatives fell over each other to ensure
+that no one considered their attendance at this workshop an endorsement
+of commercial key escrow.  Two of the groups experienced what could best
+be described as revolts.  In one group several individuals, led by an
+representative from the ACLU, tried to pass a resolution to remove the
+restrictions on export of cryptography, something clearly unacceptable to
+the government.  It was defeated on a tie vote of 7-7.
+
+<p><a name="breakspeach">
+A second industry working group made their report and published the
+following statement,
+
+<p>
+<i>	[..] There is a concern that we will be viewed as endorsing the
+	[government proposal].  Specifically, we are worried that a
+	report from these meetings will reflect a consensus and
+	endorsement of the policy proposals put forth by the government
+	when this is not the case.  The process is driven too much by
+	the concerns of law enforcement and national security.  It is
+	not industry led and market driven.  We see little attempt to
+	find the common ground that meets market export needs, law
+	enforcement and national security.
+
+<p>
+	The best next step is to table the criteria and work with
+	industry organizations to further define what can and cannot
+	work.  Crippled cryptography will be a commercial flop for
+	everybody.
+
+<p>
+	We are also concerned that FIPS will be decided on the 15th and
+	the entire exercise will be slam dunk.  [..]
+</i>
+<p>
+
+
+WHY THE RUSH?
+<p>
+Industry representatives, while not repeating the mantra "My attendance
+should not constitute an endorsement of key escrow", were all asking "Why
+are we in such a hurry?"  The answer may lie in a review of key escrow
+history.
+
+<p>
+When the original Clipper plan was announced many suspected it was
+because a manufacturer was about to release an encrypting telephone
+device of DES (Data Encryption Standard) strength.  Dissuaded from
+releasing that product, they were convinced to allow the government to
+try their hand at a Clipper version of that product.
+
+<p>
+Similar rumors were thick at the workshop this week.  The rumor mill
+suggested that another company is about to release a secure telephone
+product domestically that does not have a built-in government back door. 
+
+<p>
+However noting the lack of marketplace enthusiasm for Clipper products,
+the company is not rumored to be waiting for a key escrow proposal to be
+finished.  They will simply be releasing the product for the domestic
+market only.  Keep an eye out for product announcements to see if this
+rumor is true.
+
+<p>
+IS CLIPPER II OR COMMERCIAL KEY ESCROW A "SLAM DUNK"?
+<p>
+Many have critiqued the administrations cryptography policy as being
+too dominated by law enforcement and national security interests.
+Indeed the original Clipper proposal proposed by NIST went through a
+period of public comment.  NIST received 185 comments on the proposal,
+183 of them opposing it.  Over the objections of the public and
+industry and with the support of only law enforcement and the
+intelligence community, NIST went ahead and made the Clipper proposal a
+standard.
+
+<p>
+Even before the workshop was over, the question of whether the
+commercial key escrow proposal would become a FIPS (Federal Information
+Processing Standard) standard was answered.  The "shoe dropped" twice
+on the first day of the workshop.  The first indication came when a
+high-profile NSA representative admitted during a break that the
+government was going to go forward with Clipper II as an experiment,
+hoping it would be acceptable by the marketplace.
+
+<p>
+The second, more public, indication that Clipper II would become a
+national standard came during a session wrapup given by NIST staffer Ed
+Roback.  In talking about the possibility of Clipper II becoming a
+standard, Mr. Roback confessed on the podium, "Well, it's been more or
+less decided that it's going to happen."
+
+<p>
+DO PUBLIC ADVOCATES HAVE A SENSE OF HUMOR?
+<p>
+The futility of stopping such an unpopular proposal set a Kafka-esque
+tone to the proceedings.  Attendee Carl Ellison suggested the following
+alternative to the government's key escrow proposal.  The NSA and the
+FBI could each generate a PGP key which he would sign.  Those public
+keys would each be include in products.  When you as a user of such
+products are encrypting stored data or a communication, you will have
+the option of choosing whether or not to store an encryption key
+available for those two agencies.
+<p>
+
+It certainly fits the model of a voluntary system.  Users who do not
+wish to voluntarily use the system simply choose not to enclose a copy
+of their keys for law enforcement and the intelligence community.
+Somehow we expect it will not be embraced by the White House.
+
+<p>
+WHAT CAN YOU DO?
+<p>
+Within a few weeks NIST will issue a request for comments on making
+Clipper II (Commercial Key Escrow) a FIPS standard (Federal Information
+Processing Standard).  It is most important that when that happens you
+submit an objection to the standard.  Having this record of public
+opposition to the proposal will serve public advocates well in the debates
+over such schemes in the future.  Take some time to review the testimony
+below and watch for announcements about the standards process.
+
+<p>
+WHERE CAN I LEARN MORE?
+<p>
+You can follow this link to <a href="./vtw.html"> 
+find VTW's testimony on the Clipper II proposal.</a>
+Testimony from the Center for Democracy and Technology should be available soon at:
+
+<p>
+	<a href="http://www.cdt.org/"> URL:http://www.cdt.org/</a>
+
+<p>
+
+<hr>
+<pre>
+SUBSCRIPTION AND REPRODUCTION INFORMATION
+
+      *** Know of someone ANYWHERE with a fax machine but without net ***
+      *** access that's interested in VTW's issues?  Tell them to     ***
+      *** call and get on our weekly fax distribution list at         ***
+      *** (718) 596-2851 (or email us their fax number.		      ***
+
+         To get on the distribution list for BillWatch, send mail to
+      listproc@vtw.org with "subscribe vtw-announce Firstname Lastname"
+			     in the subject line.
+
+	To unsubscribe from BillWatch (and all other VTW publications)
+	send mail to listproc@vtw.org with "unsubscribe vtw-announce"
+			     in the subject line.
+
+         Email vtw@vtw.org with "send billwatch" in the SUBJECT LINE
+		  to receive the latest version of BillWatch
+
+	For permission to reproduce VTW alerts contact vtw@vtw.org
+
+____________________________________________________________________________
+    End VTW BillWatch Issue #17, Date: Thu Sep  7 22:35:25 EDT 1995
+<hr>
+</pre>
+
+
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 11, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

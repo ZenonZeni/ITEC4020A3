@@ -1,0 +1,68 @@
+
+<DOC>
+<DOCNO>WT03-B16-69</DOCNO>
+<DOCOLDNO>IA072-000459-B012-369</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/ers/sar.slc.html 137.132.32.55 19970121023611 text/html 2131
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 13:00:59 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 20-Dec-96 18:31:04 GMT
+Content-length: 1950
+</DOCHDR>
+<HEAD>
+<TITLE>ERS1.SAR.SLC CCT FORMAT SPECIFICATIONS</TITLE>
+</HEAD>
+<BODY>
+<H1>SAR Single Look Complex Image</H1>
+
+This product presents SAR data following preprocessing, but retains every sample as complex data. The product is single-look
+(i.e. no speckle reduction by multi-look processing), and in slant range. Phase continuity is preserved within the image. 
+<p>Three
+areas of application are:<br>
+<ul>
+<li>testing of SAR processing algorithms 
+<li>development of techniques using phase preservation, e.g. SAR interferometry 
+<li>application of SAR post-processing algorithms, e.g. geocoding from complex, slant-range data 
+</ul>
+There are two forms of the single-look complex product: 
+<p>
+<b>ERS-1.SAR.SLCF</b> - a full-scene product.  
+<p>
+<b>ERS-1.SAR.SLC</b> - a product of quarter scenes or quadrants.  
+<p><hr><p>
+<pre>
+<h2>Product characteristics</h2>
+                                ERS-1.SAR.SLC           ERS-1.SAR.SLCF 
+
+Scene size (range)              2500 samples            4992 samples
+           (azimuth)            15000 lines             26368 lines
+Pixel depth                     16I, 16Q complex        16I, 16Q complex 
+Product location accuarcy       200 m                   200 m 
+Total volume                    ~ 150 Mbytes            ~ 530 Mbytes 
+Projection                      slant range             slant range 
+Number of looks                 1                       1 
+
+</pre>
+<h2>Media</h2> 
+<ul>
+<li>CCT (Not for ERS-1.SAR.SLCF)
+<li>Exabyte 8200 
+<li>Exabyte 8500
+<li>CDROM 
+</ul>
+<p><hr><p>
+
+<H1>ERS1.SAR.SLC FORMAT SPECIFICATIONS</H1>
+<DL>
+<DT><DD><A HREF="slc_intro.html">1. INTRODUCTION</A> 
+<DT><DD><A HREF="slc_vol.html">2. VOLUME DIRECTORY FILE FORMAT DEFINITION</A> 
+<DT><DD><A HREF="slc_lead.html">3. LEADER FILE FORMAT DEFINITION</A> 
+<DT><DD><A HREF="slc_data.html">4. DATA SET FILE FORMAT DEFINITION</A> 
+<DT><DD><A HREF="slc_null.html">5. NULL VOLUME FILE FORMAT DEFINITION</A> 
+</DL>
+</BODY>
+
+</DOC>

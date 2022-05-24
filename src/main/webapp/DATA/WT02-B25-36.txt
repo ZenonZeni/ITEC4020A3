@@ -1,0 +1,330 @@
+
+<DOC>
+<DOCNO>WT02-B25-36</DOCNO>
+<DOCOLDNO>IA008-000082-B044-269</DOCOLDNO>
+<DOCHDR>
+http://www.nami.org:80/joinform.htm 38.250.129.71 19970222095609 text/html 6022
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 09:54:34 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+
+
+<html>
+
+
+
+<head>
+
+<title>NAMI Membership Application</title>
+
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+
+</head>
+
+
+
+<body bgcolor="#FFFFFF" text="#000000" link="#0000EE" vlink="#551A8B" alink="#FF0000">
+
+<body    bgcolor="#ffffff"  text="#000000"  link="#0000ee" vlink="551a8b" alink="ff0000">
+
+<center>
+
+<H6><I>
+
+<A HREF = "/index.html" target="_top">NAMI</A> /
+
+<A HREF="/about.htm">About</A> /
+
+<A HREF="/book.htm">Books</A> /
+
+<A HREF="/confer.htm">Conferences</A> /
+
+<A HREF="/outlook.htm">Outlook</A> /
+
+<A HREF="/medical.htm">Medical</A> /
+
+<A HREF="/update.htm">Updates</A>
+
+</H6><A HREF="/index.html" target="_top">
+
+<p align=center><img src="/graphics/blulogo3.gif" align=middle border=0> </p></a></h6>
+
+<h6>
+
+<A HREF = "mailto:barbara@nami.org,namiofc@aol.com">Comment</A> /
+
+<A HREF="/help.htm">Help</A> /
+
+<A HREF="/toc.htm">Index</A> /
+
+<A HREF="/joinform.htm">Membership</A> /
+
+<A HREF="/noframes.htm" TARGET="_top">Noframes</A> /
+
+<A HREF="/search.htm">Search</A> /
+
+<A HREF="/stats">Statistics</A>
+
+</H6>
+
+</I></center>
+<!-- NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI -->
+<!-- NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI -->
+<!-- NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI -->
+
+<hr>
+
+<h2 align=center><font color="#0000A0">NAMI Membership Application</font></h2>
+
+<hr>
+<h4 align=center><font color="#0000FF"><i>Why should you join NAMI?</i></font></h4>
+<P>
+<ol>
+<li> Because you can become a part of the largest national group of patients with severe mental illnesses and their families who are working 
+together to end the ignorance, stigma, and discrimination against brain illnesses like schizophrenia, and manic-depressive illness and OCD.
+<P>
+<li> Because we need your help to change policies that adversely impact on people with serious brain disorders and their families, such as 
+private health insurance discrimination.
+<P>
+<li> Receive newest information about research and policies that affect people with severe mental illness.
+<P>
+<li> Because NAMI is the largest national organization for consumers and family members around the country who have faced serious mental illness.
+<P>
+<li> Find support from other consumers and family members around the country who have faced serious mental illness.
+<P>
+<li> Become part of legislative network that educates law-makers and policy-makers.  Learn about important congressional actions so that you can
+make your voice heard.  JOIN TODAY!
+
+</ol>
+<hr>
+<form action="/cgi-bin/joinform.pl" method="POST">
+
+<h6 align=center><font color="#0000FF"><font size=2><strong><i>Please place a check in the box that corresponds to the membership category of your choosing: </i></strong></font></font></h6>
+
+<h5 align=left><input type=radio checked name="category" value="Supporting Membership"> Please make me a <strong>Supporting Member</strong> of NAMI. Please bill me for the <i>$25</i> annual membership. </h5>
+
+<h5 align=left><input type=radio name="category" value="Professional Associate"> Please make me a <strong>Professional Associate</strong> Member of NAMI. Please bill me for the <i>$40</i> annual membership. </h5>
+
+<h5 align=left><input type=radio name="category" value="Agency Member"> Please make my organization an <strong>Agency Member</strong> of NAMI. Please bill me for the <i>$100</i> annual membership. <font color="#FF0000"><strong><i>Note: $70 
+
+of the $100 dues payment is tax-deductible.</i></strong></font><strong> </strong></h5>
+
+<h5 align=left><input type=radio name="category" value="Complimentary Start-up Kit"> Please send me a <strong>Complimentary Start-up Kit</strong>. I am interested in starting and/or facilitating a local NAMI-affiliated 
+
+support group. </h5>
+
+<hr>
+
+<h4 align=left>Name: <input type=text size=50 maxlength=256 name="name" value=" "></h4>
+
+<h4 align=left>Agency: <input type=text size=48 maxlength=256 name="agency" value=" "> (if appropriate)</h4>
+
+<h4 align=left>Address: <input type=text size=47 maxlength=256 name="address" value=" "></h4>
+
+<h4 align=left>City: <input type=text size=25 maxlength=256 name="city" value=" "> State: <input type=text size=15 maxlength=256 name="state" value=" "></h4>
+
+<h4 align=left>ZIP: <input type=text size=11 maxlength=256 name="zip" value=" "> Phone: <input type=text size=20 maxlength=256 name="phone" value=" "></h4>
+
+<h4 align=left>E-Mail: <input type=text size=50 maxlength=256 name="email" value=" "></h4>
+
+<h5 align=left>Please send info about: <input type=text size=40 maxlength=256 name="info" value=" "> </h5>
+
+<h5 align=left>To which discipline do you belong: <select name="discipline" size=1>
+
+<option>rehabilitation</option>
+
+<option>social work</option>
+
+<option>occupational therapy</option>
+
+<option>psychiatry</option>
+
+<option>psychology</option>
+
+<option>other branch of medicine</option>
+
+<option>nursing</option>
+
+<option>family therapy/education</option>
+
+<option>other</option>
+
+</select></h5>
+
+<h5 align=left><input type=checkbox name="share">If you would like us to share your name and address with our state organizations or local affiliate please check here.</h5>
+
+<p align=center><input type=submit value="Submit Membership"> <input type=reset value="Reset/Clear"> </p>
+
+</form>
+
+<hr><h6>
+<p align=center><a href="/poc.htm">CONTACT</a> | <a href="/joinform.htm">MEMBERSHIP</a> | <a href="mailto:barbara@nami.org">WEBMASTER</a></p></h6>
+<P><P>
+<center><H6>Copyright &copy 1996 <a href="/index.html" target=_top>National Alliance for the Mentally Ill</a> - All Rights Reserved</H6>
+</center></body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+</DOC>

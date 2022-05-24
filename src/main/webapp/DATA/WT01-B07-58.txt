@@ -1,0 +1,344 @@
+
+<DOC>
+<DOCNO>WT01-B07-58</DOCNO>
+<DOCOLDNO>IA068-000417-B010-402</DOCOLDNO>
+<DOCHDR>
+http://www.aivc.org:80/air_latt.html 194.217.120.80 19970113032740 text/html 15054
+HTTP/1.0 200 OK
+Date: Mon, 13 Jan 1997 03:27:40 GMT
+Server: Apache/0.8.14
+Content-type: text/html
+Content-length: 14881
+Last-modified: Mon, 21 Oct 1996 12:25:17 GMT
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+
+<TITLE>Introduction</TITLE>
+
+<META NAME="AUTHOR" CONTENT="Air Infiltration and Ventilation Centre">
+
+<META NAME="DOCCOMM" CONTENT="r        ">
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT="Inte >
+<META NAME="CREATIM" CONTENT="1996:3:1:15:55:">
+
+<META NAME="VERSION" CONTENT="1">
+
+</HEAD>
+
+<BODY>
+<HR>
+
+<H1>Lattice Gas Methods - Fluid Dynamics from Particle Collisions
+</H1>
+<HR>
+
+<P>
+by Malcolm Orme,
+<P>
+<A HREF="address.html" >Air Infiltration and Ventilation Centre  
+</A>
+<MENU>
+<LI><A HREF="#Introduction" >Introduction  </A>
+<LI><A HREF="#Geometry" >Lattice Geometry  </A>
+<LI><A HREF="#Collision" >Collision Rules  </A>
+<LI><A HREF="#Boundaries" >Boundaries  </A>
+<LI><A HREF="#Interpretation" >Interpretation of Lattice Dynamics  
+</A>
+<LI><A HREF="#Initialising" >Initialising a Simulation  </A>
+<LI><A HREF="#Example" >An Air Flow Example  </A>
+<LI><A HREF="#Conclusions" >Conclusions  </A>
+<LI><A HREF="#References" >References  </A>
+</MENU>
+
+<H2><A NAME="Introduction">Introduction</A></H2>
+
+<P>
+Lattice gas methods have been devised to assist in understanding
+the properties of real fluids. Potentially, therefore, they could
+provide an alternative to conventional computational fluid dynamic
+(CFD) analysis for predicting air flow patterns. This new approach
+approximates reality by constraining motions and collisions of
+fluid 'particles' to a 'lattice', where each particle represents
+a finite mass of fluid. Simplification takes place by reducing
+the near infinite motion characteristics of a real fluid to a
+very restricted set of discrete particle speeds and directions.
+<P>
+A typical lattice for flow in 2-dimensions is illustrated in Figure
+1. Particles are restricted to moving along propagation lines
+and collide only at the intersections ('nodes') of these lines.
+Each collision must observe Newton's laws of motion, namely that
+momentum and mass are conserved. Various outcomes of particle
+collisions are possible. In some cases the direction of particle
+flow changes, while in others no change in direction occurs. Typically,
+the solution algorithm incorporates a 'look-up table', in which
+all the possible outcomes of collisions are stored.
+<P>
+
+<IMG SRC="lat_fig1.gif" ALIGN="BOTTOM" >
+
+<P>
+<I>Figure 1 Example hexagonal lattice</I>
+<P>
+This article presents an example of the application of the lattice
+gas approach, and outlines some of the essential concepts. The
+example is based on a method proposed by <A HREF="#Frisch" >Frisch, Hasslacher, and Pomeau (1986)  
+</A>, known as an FHP model.
+<H2>Lattice <A NAME="Geometry">Geometry</A></H2>
+
+<P>
+A highly symmetric lattice is needed to ensure that vorticity
+(rotational motion of a fluid) is realistically simulated. <A HREF="#Hardy" >Hardy et al (1972, 1973, 1976)  
+</A>showed that a basic rectangular lattice is inadequate for
+this purpose. However, <A HREF="#Frisch" >Frisch et al (1986)  
+</A>concluded that for flow in 2-dimensions, a hexagonal lattice,
+illustrated in Figure 1, is satisfactory. Three-dimensional flow
+is more difficult to model, but has been simulated using a 'face
+centred hyper-cubic' (FCHC) lattice. (See <A HREF="#Rivet" >Frisch et al, 1987  
+</A>.) Although particles must move along the propagation lines,
+the velocity (i.e. speed and direction) components can nevertheless
+be resolved to generate the full flow field.
+<P>
+Analogous to wind tunnel experiments, lattice flow has to be scaled
+to correspond to the correct flow regime (i.e. laminar, transitional,
+or turbulent flow). This is characterised by the Reynolds number.
+By increasing the number of nodes, and hence the Reynolds number,
+features such as the onset and development of turbulence automatically
+emerge. A disadvantage is that turbulent flow currently requires
+many thousands of nodes.
+<H2><A NAME="_Toc337880800"></A><A NAME="Collision"></A>Collision
+Rules</H2>
+
+<P>
+A set of collision rules must be specified. These fall into the
+categories of 'trivial' collisions, which result in no change
+in direction of colliding particles, and 'non-trivial' collisions,
+involving a change of direction of some or all of the particles.
+Collisions throughout the entire lattice are assumed to occur
+simultaneously and at 'unit' time steps. Following collision,
+they then arrive at their new nodes. The resultant propagation
+of particles simulates the movement of fluid throughout the space.
+<P>
+In 2 dimensions, using an FHP model, there are 64 possibilities
+for a collision at each node. The outcome of each possible collision
+is chosen so that the number of particles present before and after
+is preserved. In addition, the total of the momenta of all the
+particles involved remains constant. The number of particles and
+the momentum should be the only conserved quantities in any collision.
+As a consequence, some collisions result in more than one outcome.
+When this happens, the outcome is selected at random. The complete
+set of non-trivial collision rules, as proposed by <A HREF="#Hénon" >Hénon (1987)  
+</A>, is given as follows, and results in up to 72 distinct outcomes:
+<OL>
+<LI>head-on (2 particles) - 3 possibilities, each with 2 possible
+outcomes (see Figure 2a),
+<LI>triple (3 particles) - 2 possibilities, each with 2 possible
+outcomes (including 1 trivial, see Figure 2b),
+<LI>head-on with spectator (3 particles) - 12 possibilities, each
+with 1 possible outcome (see Figure 2c), and
+</OL>
+
+<OL>
+<LI>binary head-on (4 particle) - 3 possibilities, each with 2
+possible outcomes (see Figure 2d).
+</OL>
+
+<P>
+
+<IMG SRC="lat_fig2.gif" ALIGN="BOTTOM" >
+
+<P>
+<I>Figure 2 Collision rules - any orientation</I>
+<H2><A NAME="Boundaries">Boundaries</A></H2>
+
+<P>
+Perimeter obstructions to flow (e.g. walls, floors, and ceilings)
+and internal obstructions (e.g. furniture and people) are realised
+by setting 'solid boundary nodes'. Implementing the condition
+of 'no-slip' (i.e. zero parallel fluid velocity) at such boundaries
+is illustrated in Figure 3. On reaching a solid surface, particles
+are returned along the same propagation line.
+<P>
+
+<IMG SRC="lat_fig3.gif" ALIGN="BOTTOM" >
+
+<P>
+<I>Figure 3 Implementation of no-slip condition at solid boundaries
+</I>
+<P>
+Flow boundaries (e.g. open doors, windows, ventilation systems)
+are represented by a variety of means. For example, it is possible
+to introduce 'forcing rules' to simulate a linear pressure gradient,
+as shown in Figure 4. This involves imposing directional flow
+on the lattice particles by introducing additional <I>x</I>-momentum
+at random lattice locations. The strength of pressure gradient
+is increased by adding to the number of nodes and the number of
+time steps at which forcing is applied. The mass flow rate into
+the space (i.e. the number of particles entering the lattice per
+time step) must be balanced by an identical mass flow rate out
+of the space.
+<P>
+
+<IMG SRC="lat_fig4.gif" ALIGN="BOTTOM" >
+
+<P>
+<I>Figure 4 Forcing rules to simulate a pressure gradient</I>
+<H2><A NAME="Interpretation">Interpretation</A> of Lattice Dynamics
+</H2>
+
+<P>
+In order to convert the discrete motions of particles into physically
+meaningful quantities, it is useful to partition the lattice into
+a number of rectangular 'domains'. For each domain, the average
+mass and momentum densities of particles must be determined. The
+average mass density of particles is given by the number of particles
+within a domain divided by the number of domain nodes. (For a
+2-dimensional hexagonal lattice, the overall value should be between
+0 and 3 particles per node, otherwise the fluid would have unphysical
+behaviour.) The average momentum density is determined by summing
+the spatial co-ordinate components of the momentum of all the
+particles within a domain and, again, dividing by the number of
+domain nodes. An evaluation of the average particle velocity within
+each domain is then made from these quantities.
+<P>
+Viscosity is the resistance to flow that a fluid exerts on itself
+when adjacent regions of the fluid move with different velocities.
+For any lattice gas model, the viscosity and hence Reynolds number
+of the fluid depends on the average mass density.
+<H2><A NAME="Initialising">Initialising</A> a Simulation</H2>
+
+<P>
+The lattice must be sized to set the characteristic Reynolds number
+of the problem to be studied. For this model, the maximum obtainable
+Reynolds number for a given lattice size occurs when there is
+an average of about 2.0 particles per node, for the complete set
+of collision rules stated above. An initial particle distribution
+defining the true mass density of the lattice is established.
+This implies an initial momentum distribution, from which the
+calculation proceeds by running the model over a number of unit
+time steps.
+<P>
+In general, simulations must be run until transient disturbances
+caused by the initial conditions have disappeared. This is likely
+to be a large multiple (e.g. greater than 10) of the number of
+time steps taken for a particle, moving at the average velocity,
+to have 'propagated through the system'. At this stage a consistent
+pattern of flow may begin to emerge.
+<H2>An Air Flow <A NAME="Example">Example</A></H2>
+
+<P>
+The above concepts have been incorporated into a simplistic 2-dimensional
+example, as illustrated in Figure 5. A 2-dimensional office space
+is modelled using 400 x 400 lattice nodes, and 40 x 40 domains
+(each of 10 x 10 lattice nodes). The average mass density of the
+lattice is 2.4 particles per node, yielding low Reynolds number
+flow.
+<P>
+The upper and lower boundaries are solid, and there is a no-slip
+condition at these edges. Particles reaching one side of the lattice
+are fed back into the other side, with identical velocity and
+at the same <I>y</I>-value. A block of three adjacent solid rectangles
+provides an internal obstacle to flow, which is a crude representation
+of a person sitting at a desk. A no-slip condition is also present
+at these boundaries.
+<P>
+The air flows under isothermal forced convection, as provided,
+for example, by a balanced mechanical ventilation system. The
+driving force for the flow is provided by a linear pressure gradient
+(in the <I>x</I>-direction in Figure 5), implemented with the
+forcing rules shown in Figure 4.
+<P>
+Figure 5 shows the resultant velocity field after 100000 unit
+time steps (which required approximately 4 hours computation time
+on a 100 MHz Intel Pentium based computer). It should be noted
+that the Reynolds number is perhaps too low for a full-scale ventilation
+system. Clearly, therefore, this example is very idealised, but
+nevertheless the potential for predicting flow using this approach
+is demonstrated.
+<P>
+
+<IMG SRC="lat_fig5.gif" ALIGN="BOTTOM" >
+
+<P>
+<I>Figure 5 Example simulation</I>
+<H2><A NAME="Conclusions">Conclusions</A></H2>
+
+<P>
+The lattice gas method presented may be used to produce qualitative
+features of physical fluid behaviour. In the short term, the method
+is likely to be limited to low Reynolds number applications. In
+the longer term, current limitations imposed by the high storage
+and processing requirements needed for turbulent flow analysis
+must be overcome. This may be possible by compressing the data
+stored to represent the lattice. Current work to overcome high
+processing requirements includes using lattice models with parallel
+computers (e.g. <A HREF="#Krafczyk" >Krafczyk and Rank, 1995  
+</A>), to which they are well-suited.
+<P>
+The method has the positive characteristic that, subject to the
+constraint of the discrete nature of the lattice, arbitrarily
+complex boundaries can be included without increasing the time
+needed for computations. It is also possible to track either individual
+or groups of particles, so that, for instance, pollutant transport
+may be studied. This approach dispenses with the need to solve
+the Navier-Stokes equations. Furthermore, since turbulence develops
+naturally in lattice gas methods, artificial turbulence models,
+as incorporated into conventional CFD techniques, are unnecessary.
+To conclude, the lattice gas technique may prove to be a useful
+tool for air flow analysis, especially with recent developments
+allowing for the inclusion of buoyancy effects (e.g. see <A HREF="#Chen" >Chen et al, 1989  
+</A>, and <A HREF="#Burges" >Burges and Zaleski, 1987  </A>).
+<H2><A NAME="References">References</A></H2>
+<OL>
+<LI><A NAME="Burges">Burges</A> C, and Zaleski S, &quot;Buoyant
+Mixtures of Cellular Automaton Gases&quot; <I>Complex Systems
+</I>, Vol 1, No 1, pp 31 - 49, 1987.
+<LI><A NAME="Chen"></A>Chen S, Lee M, Zhao K H, and Doolen G D, &quot;A Lattice Gas
+Model with Temperature&quot;, Physica D, Vol 37, pp 42 - 59, 1989.
+<LI><A NAME="Frisch">Frisch</A> U, Hasslacher B, and Pomeau Y,
+&quot;Lattice-Gas Automata for the Navier-Stokes Equation&quot;
+<I>Physical Review Letters </I>, Vol 56, No 14, pp 1505 - 1508,
+1986.
+<LI>Frisch U, d'Humi&egrave;res D, Hasslacher B, Lallemand P,
+Pomeau Y, and <A NAME="Rivet">Rivet</A> J-P &quot;Lattice Gas
+Hydrodynamics in Two and Three Dimensions&quot; <I>Complex Systems
+</I>, Vol 1, No 4, pp 649 - 707, 1987.
+<LI><A NAME="Hardy">Hardy</A> J, and Pomeau Y, &quot;Thermodynamics
+and Hydrodynamics for a Modelled Fluid&quot; <I>Journal of Mathematical
+Physics </I>, Vol 13, p 1042, 1972.
+<LI>Hardy J, Pomeau Y, and de Pazzis O, &quot;Time Evolution of
+a Two-Dimensional Model System: I. Invariant States and Time Correlation
+Functions&quot; <I>Journal of Mathematical Physics</I>, Vol 14,
+p 1746, 1973.
+<LI>Hardy J, de Pazzis O, and Pomeau Y, &quot;Molecular Dynamics
+of a Classical Lattice Gas: Transport Properties and Time Correlation
+Functions &quot; <I>Physical Review A</I>, Vol 13, p 1949, 1976.
+<LI><A NAME="Hénon">H&eacute;non</A> M, &quot;Isometric Collision
+Rules for the Four-Dimensional FCHC Lattice Gas&quot; <I>Complex
+Systems</I>, Vol 1, No 3, pp 475 - 494, 1987.
+<LI><A NAME="Krafczyk">Krafczyk</A> M and Rank E, &quot;A Parallelized
+Lattice-Gas Solver for Transient Navier-Stokes-Flow: Implementation
+and Simulation Results&quot;, International Journal for Numerical
+Methods in Engineering, Vol 38, pp 1243 - 1258, 1995.
+</OL>
+<HR>
+
+<P>
+<A HREF="#Introduction" >Return to beginning  </A>
+<P>
+<A HREF="elecair.html" >AIR front page  </A>
+</BODY>
+
+</HTML>
+</DOC>

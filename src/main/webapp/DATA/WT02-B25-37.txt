@@ -1,0 +1,399 @@
+
+<DOC>
+<DOCNO>WT02-B25-37</DOCNO>
+<DOCOLDNO>IA008-000082-B044-295</DOCOLDNO>
+<DOCHDR>
+http://www.nami.org:80/search.htm 38.250.129.71 19970222095627 text/html 4571
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 09:54:50 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<HTML>
+
+<HEADER>
+
+<TITLE>NAMI Search Page</TITLE>
+
+</HEADER>
+
+<body    bgcolor="#ffffff"  text="#000000"  link="#0000ee" vlink="551a8b" alink="ff0000">
+
+<center>
+
+<H6><I>
+
+<A HREF = "/index.html" target="_top">NAMI</A> /
+
+<A HREF="/about.htm">About</A> /
+
+<A HREF="/book.htm">Books</A> /
+
+<A HREF="/confer.htm">Conferences</A> /
+
+<A HREF="/outlook.htm">Outlook</A> /
+
+<A HREF="/medical.htm">Medical</A> /
+
+<A HREF="/update.htm">Updates</A>
+
+</H6><A HREF="/index.html" target="_top">
+
+<p align=center><img src="/graphics/blulogo3.gif" align=middle border=0> </p></a></h6>
+
+<h6>
+
+<A HREF = "mailto:barbara@nami.org,namiofc@aol.com">Comment</A> /
+
+<A HREF="/help.htm">Help</A> /
+
+<A HREF="/toc.htm">Index</A> /
+
+<A HREF="/joinform.htm">Membership</A> /
+
+<A HREF="/noframes.htm" TARGET="_top">Noframes</A> /
+
+<A HREF="/search.htm">Search</A> /
+
+<A HREF="/stats">Statistics</A>
+
+</H6>
+
+</I></center>
+<!-- NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI -->
+<!-- NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI -->
+<!-- NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI NAMI -->
+
+<hr>
+
+
+
+<form method=POST action="/cgi-bin/wwwwais.cgi">
+
+<B><I>Search for:</I></B> <input type=text name="keywords" size=40>
+
+<input type=submit value="Submit">
+
+<input type=reset value="Reset"><br>
+
+
+
+<B><I>Search Category:</I></B> <select name="selection">
+
+<option value="nami">All NAMI Pages
+
+<option value="medical">Medical
+
+<option value="helpline">Helpline
+
+<option value="about">About NAMI
+
+<option value="books">Book Reviews
+
+<option value="confer">Conferences & Meetings
+
+<option value="disord">Disorders & Illnesses
+
+<option value="meds">Medications
+
+<option value="research">Research 
+
+<option value="updates">Updates & What's New
+
+<option value="outlook">Washington Outlook
+
+</select>
+
+
+
+<B> <I>and sort by:</I></B> <select name="sorttype">
+
+<option>score
+
+<option>lines
+
+<option>bytes
+
+<option>title
+
+<option>type
+
+</select>
+
+</form>
+
+<BR>
+
+<I>Hint:</I> To search for all documents containing <b>NAMI</b> use <B>NAM*</B>, <B>NAMI</B>, <B>NA*</B>, etc.   
+
+<H3>Other Search Engines:</H3>
+
+<HR ALIGN="CENTER">
+
+<center>
+
+
+
+<form method="POST" 
+
+action="http://www.cmhc.com/mhn/AT-MHNsearch.cgi">
+
+<input type="hidden" name="mode" value="concept">
+
+<input type="hidden" name="sp" value="sp">
+
+<input size="35" type=text maxlength="120" name="search" value="">
+
+<input type="image" name="SearchButton" border="0" 
+
+width="110" height="27" align="absmiddle" 
+
+src="http://www.cmhc.com/images/findit.gif">
+
+</form>
+
+<HR ALIGN="CENTER" SIZE="4">
+
+<P>
+<form action="http://www.medexplorer.com/medweb/search" METHOD="POST">
+
+<b>Enter Keywords (Up to three (3) keywords) to search
+MedExplorer:</b><br>
+<input size="35" name="WORDS"> <input type="submit" value="Submit">
+<INPUT NAME="ALL" TYPE="hidden"> </form>
+
+<HR ALIGN="CENTER" SIZE="4">
+
+
+
+<P>
+
+<form method=GET action="http://www.mckinley.com/extsearch.cgi">
+
+<IMG SRC="type.gif" ALIGN=MIDDLE>
+
+<B>Search for:  </B> <input type=text name=query size=30 value="">
+
+<INPUT type=submit value="Search">
+
+</form>
+
+<HR ALIGN="CENTER" SIZE="4">
+
+
+
+<P>
+
+<I>
+
+<A HREF = "http://www.altavista.digital.com/">[AltaVista]</A>
+
+<A HREF = "http://www.yahoo.com/Computers_and_Internet/Internet/World_Wide_Web/Searching_the_Web/Search_Engines/">[Yahoo]</A>
+
+<A HREF = "http://www2.infoseek.com">[Infoseek]</A>
+
+<A HREF = "http://www1.hotbot.com:5555/">[Hotbot]</A>
+
+<A HREF = "http://www.excite.com">[Excite]</A>
+
+<A HREF = "http://webcrawler.com">[WebCrawler]</A>
+
+<A HREF="http://www.lycos.com">[Lycos]</A>
+
+<A HREF="http://galaxy.einet.net">[EINet Galaxy]</A>
+
+<A HREF = "http://www.opentext.com:8080/">[Open Text]</A>
+
+<A HREF = "http://inktomi.cs.berkeley.edu:1234/">[Inktomi]</A>
+
+<A HREF = "http://www.dejanews.com/forms/dnq.html">[DejaNews]</a><br>
+
+</I>
+
+</center>
+
+<hr><h6>
+<p align=center><a href="/poc.htm">CONTACT</a> | <a href="/joinform.htm">MEMBERSHIP</a> | <a href="mailto:barbara@nami.org">WEBMASTER</a></p></h6>
+<P><P>
+<center><H6>Copyright &copy 1996 <a href="/index.html" target=_top>National Alliance for the Mentally Ill</a> - All Rights Reserved</H6>
+</center></body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</DOC>

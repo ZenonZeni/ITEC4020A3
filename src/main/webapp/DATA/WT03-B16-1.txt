@@ -1,0 +1,174 @@
+
+<DOC>
+<DOCNO>WT03-B16-1</DOCNO>
+<DOCOLDNO>IA074-000483-B007-425</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg004.html 128.125.48.102 19970125004145 text/html 8179
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:40:20 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 7948
+Last-Modified: Wed, 15 Jan 1997 02:01:14 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDRSTR" HREF="icswg003.html#PToC_39">Starting and stopping your server</A></H1>
+Starting and Stopping Your Server
+<P>
+This chapter contains basic instructions
+for starting and stopping your server.
+It also describes the first tasks you will
+probably want to perform after installation.
+<P>
+<P><A HREF="icswgmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_40 HREF="#HDRSTRSTO" >Starting the server</A>
+<MENU>
+<LI><A NAME=PToC_41 HREF="#Header_41" >Starting automatically from the OS/2 startup folder</A>
+<LI><A NAME=PToC_42 HREF="#Header_42" >Starting from the Internet Connection Secure Server icon</A>
+<LI><A NAME=PToC_43 HREF="#Header_43" >Starting from the command prompt</A>
+<LI><A NAME=PToC_44 HREF="#Header_44" >Starting multiple instances of the server</A>
+<LI><A NAME=PToC_45 HREF="#Header_45" >Restarting from the Internet Connection Secure Server Window</A>
+<LI><A NAME=PToC_46 HREF="#Header_46" >Restarting from the Configuration and Administration Forms</A>
+</MENU>
+<LI><A NAME=PToC_47 HREF="#Header_47" >Stopping the server</A>
+</MENU><HR><P>
+<P>
+<HR>
+<H2><A NAME="HDRSTRSTO" HREF="#PToC_40">Starting the server</A></H2>
+<P>
+This section describes how to start and stop your server
+after you have finished installing it.
+If you think the server is running but you do not see the window
+for it on your OS/2 Desktop, press <B>Ctrl+Esc</B>
+to see the list of active OS/2 programs.
+If the Window List contains an entry for the server, double click
+the entry to bring the server's window into view.
+<P>
+If you are running a non-secure server,
+you will see the message
+<TT>Security not available. <VAR>filename</VAR>.dll did not load</TT>.
+This message lets you know that you are not running the Internet Connection Secure Server.
+You do not need to do anything in response to the message.
+<P>
+<H3><A NAME="Header_41" HREF="#PToC_41">Starting automatically from the OS/2 startup folder</A></H3>
+<P>
+If during installation you checked Auto Start Server at Bootup,
+the server has been added to your OS/2 Startup folder.
+Each time you start or reboot your system, the server will start.
+If you rebooted your system after installing the server,
+the server should be running now.
+<P>
+When you start the server automatically,
+it uses the current configuration settings.
+If you have not changed the server configuration since installation,
+the current configuration is based on the information you
+entered during installation along with defaults.
+<P>
+<H3><A NAME="Header_42" HREF="#PToC_42">Starting from the Internet Connection Secure Server icon</A></H3>
+<P>
+The installation procedure creates an Internet Connection Secure Server
+folder on your OS/2 Desktop.
+Inside the folder is an icon for the Internet Connection Secure Server.
+To start the server, double click the icon.
+<P>
+The server starts with the current configuration settings.
+If you have not changed the server configuration since installation,
+the current configuration is based on the information you
+entered during installation along with defaults.
+<P>
+<H3><A NAME="Header_43" HREF="#PToC_43">Starting from the command prompt</A></H3>
+<P>
+You can start the server from any OS/2 command prompt by entering:
+<P>&nbsp;
+<PRE>
+<B>httpd</B>
+</PRE>
+<P>
+This starts the server with the current configuration settings.
+If you have not changed the server configuration since installation,
+the current configuration is based on the information you
+entered during installation along with defaults.
+<P>
+The httpd command also accepts various options for changing
+configuration settings at run time.
+For details on the httpd command options,
+see <A HREF="icswg015.html#HDRHTTPD">"httpd command"</A>.
+<P>
+<H3><A NAME="Header_44" HREF="#PToC_44">Starting multiple instances of the server</A></H3>
+<P>
+You can start multiple instances of the server,
+but each instance must listen on a separate port.
+All instances, other than the first, can be started
+by entering the following command from a command prompt:
+<P>
+<B>httpd -r <VAR>other_rule_file</VAR></B>
+<P>
+where <VAR>other_rule_file</VAR> is a configuration file that
+specifies the individual port.
+<P>
+<H3><A NAME="Header_45" HREF="#PToC_45">Restarting from the Internet Connection Secure Server Window</A></H3>
+<P>
+You can restart your server from the Internet Connection Secure Server window
+by selecting <B>Restart</B>
+from the <B>Server</B> pull-down menu on the menu bar.
+The server reloads the configuration settings from
+the configuration file it was originally started with.
+<P>
+Most changes you have made to the configuration file
+will be used by the server after it restarts.
+However, if you changed a port setting or security settings, you need
+to stop your server and start it again for those changes to take effect.
+<P>
+<H3><A NAME="Header_46" HREF="#PToC_46">Restarting from the Configuration and Administration Forms</A></H3>
+<P>
+When using the Configuration and Administration Forms, you are sometimes
+given the option of restarting the server after you apply changes.
+See <A HREF="icswg003.html#HDRUSING">"Using the Configuration and Administration forms"</A> for more information.
+<HR>
+<H2><A NAME="Header_47" HREF="#PToC_47">Stopping the server</A></H2>
+<P>
+You can stop the server the same ways you stop other OS/2 programs.
+Do any of the following:
+<UL>
+<P><LI>Go to the Internet Connection Secure Server window and double click
+the small icon in the top left corner.
+<P><LI>Go to the Internet Connection Secure Server window and select <B>Exit</B> from the
+<B>Server</B> pull-down menu on the menu bar.
+<P><LI>Go to the Internet Connection Secure Server window and press <B>F3</B>.
+<P><LI>Press <B>Ctrl+Esc</B>.
+With the right mouse button click the Window List entry for the Internet Connection Secure Server.
+Click <B>Close</B>.
+</UL>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg003.html">Previous Page</A> &#124; <A HREF="icswg005.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

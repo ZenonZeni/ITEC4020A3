@@ -1,0 +1,89 @@
+
+<DOC>
+<DOCNO>WT02-B25-21</DOCNO>
+<DOCOLDNO>IA067-000406-B020-406</DOCOLDNO>
+<DOCHDR>
+http://www.dsnt.com:80/septplweb.html 207.78.30.85 19970112210715 text/html 10776
+HTTP/1.0 200 Document follows
+Date: Sun, 12 Jan 1997 21:08:36 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html>
+<body>
+
+<font size=6>Web Developer Magazine Article:</font>
+<p>
+<font size=3>Publication date: September, 1996</font><p>
+<font size=3>Author: Peter H. Salus</font><p>
+<font color="#ff0000" size=4>E N D - T O - E N D &nbsp; &nbsp; S E C U R I T Y</font><p>
+<b><font color="#ff0000" size=5>Private Data Across The Internet</font></b><br>
+<p>
+
+Picture this: You're the network administrator of a business with three widely separated regional offices, each with its own Local Area Network (LAN). How do you keep them connected? And how can you make sure that the distant workers can share information seamlessly as if everyone was on one Wide Area Network?
+<p>
+Linking distant LANs via leased lines can be expensive to set up as well as an ongoing budget drain. For businesses with three or more distant LANs, maintaining multiple leased lines becomes even more costly. And for many small businesses, a leased line can be impractical, providing more bandwidth than is needed at too high a price.
+<p>
+A virtual private network (VPN) is a relatively inexpensive way to solve these problems. A VPN simulates a leased line bridging two LANs by sending inter-LAN data across the Internet. Rather than maintaining an expensive point-to-point leased line, a company can bridge the gap by connecting each LAN to a local Internet service provider, and routing the data through the Internet.
+<p>
+<strong>Why Bother?</strong><br>
+Using a public network instead of a private one to share data within your company may seem odd, but VPNs do offer features unavailable with leased-line Wide Area Networks (WANs). VPNs are not limited to linking two LANs; any number of local networks and nodes can be included in the virtual wide area network. For a company with numerous sites to link, a VPN can mean a significant savings over maintaining far-reaching leased lines.
+<p>
+Virtual private networks can offer other advantages. For instance, VPNs can be set up to work at speeds slower than possible with leased lines. Not everyone needs 56 Kbps for their WAN; a small company could use 28.8 Kbps modems and cheap Internet accounts to create a worldwide, private network for as low as $40 a month.
+<p>
+A VPN doesn't necessarily need to be permanent. You can create a dial-on-demand virtual network using analog modems or ISDN. In this configuration, when a user on a LAN needs to access the WAN, a modem or router automatically connects to a nearby ISP and starts sending data across the Internet. On the remote side, the other ISP dials the second LAN to establish the link. Although this means slower connection times, this can be an inexpensive way to link sites that do not need a full-time connection. When dealing with remote contractors (such as graphic artists, programmers, or Web page designers), a temporary VPN may be just what you need to insure both confidentiality and good connectivity.
+<p>
+Of course, there are a few disadvantages. VPNs may be less stable than their point-to-point counterparts; with a VPN, your WAN is at the mercy of Internet traffic. When Internet slowdowns and brownouts happen -- and they do happen, however infrequently -- your WAN's connectivity will suffer. Traditional leased-line connections also go down, but they can be easier to troubleshoot.
+<p>
+An Internet-based VPN does not lock you into using a specific program or protocol to transfer data across the WAN: a correctly-configured VPN will let you use whatever clients and servers you already use, such as UNIX-based TCP/IP tools, Novell Netware, or Netscape Navigator.
+<p>
+If your existing network is not TCP/IP based, you can utilize "tunneling" to send your data over the Internet. Tunneling means using software to encode non-TCP/IP information within TCP/IP packets for routing through the Internet. At the receiving end, software removes the data from the TCP/IP packets for delivery on the LAN. Users of Novell or AppleTalk networks, for instance, can use tunneling to exchange data over the Internet. 
+<p>
+<strong>Privacy, Please</strong><br>
+The key word in "virtual private network" is private. If you're sharing corporate secrets, sensitive Web logs, or payroll records among your sites, you don't want that information moving as plain text across the Internet, at the mercy of every cracker with a packet sniffer. A virtual network needs some form of authentication, and to be secure, it needs encryption. There are several ways to secure a virtual network; cost and difficulty of setup vary from choice to choice.<p>
+All LANs that are part of a VPN must be configured to share a common encryption method. Encryption choices include International Data Encryption Algorithm (IDEA), Data Encryption Standard (DES), Triple DES, and Encapsulated Security Payload. DES is a 20-year old Uncle Sam-approved encryption method, regarded as less secure than more recent encryption systems (Triple DES corrects many of the flaws of the original version). Encapsulated Security Payload encrypts data while using a checksum to verify its integrity.
+<p>
+Several software and hardware products for encrypting tunnels are available, from Digital Equipment Corp., Morning Star Technologies, PSINet and other firms. For example, Digital offers Internet <a href="http://altavista.software.digital.com/products/tunnel/intro.htm">Digital Tunnel</a>, which uses RSA public key encryption for authentication and RC4-based secret key technology for data encryption. During data transmission, the tunnel client and server regularly pass new encryption keys back and forth to decode transmitted data, making it virtually impossible to break the encryption code.
+<p>
+Due to United States export rules, international encryption cannot be as secure as U.S.-only communication -- a concern for international VPN administrators, no matter what products they use. In the United States, the Internet Digital Tunnel uses 128-bit key encryption, while the international version uses a (theoretically easier to crack) 40-bit key.
+<p>
+For the other issue, authentication of users, you'll need a firewall, a word that strikes fear and loathing into the hearts of some network administrators (after all, firewalls can be expensive and difficult to maintain). But firewalls are an easy way to create non-encrypted VPNs: In a simple example, each Internet-connected LAN can have a firewall which keeps out packets from everywhere other than specified sites.
+<p>
+If your LAN needs Internet connectivity as well as a VPN, you should carefully consider the options. Remember, although a VPN uses the Internet, it is effectively a point-to-point connection. If you need Internet access as well as WAN access, you will probably need a second Internet feed, and you may want to configure that connection with its own, more liberal firewall.
+<p>
+<strong>The Magic Black Box</strong><br>
+A new generation of security products allows creation of a secure VPN without the hassle of creating a traditional firewall. For instance, the NetFortress by <a href="http://www.dsnt.com/hacker.html">DSN Technology Inc.</a> is a hardware product that limits outside access to a LAN to users on other authorized LANs. By placing a NetFortress between each LAN and its Internet connection, the product prevents access from Internet sites that aren't part of approved remote LANs. The system encrypts at the network layer, using a key that changes automatically.
+<p>
+The NetFortress is as close to plug-and-play as you can get: Connect one to each LAN, open a connection from one LAN to the other to force the units to exchange keys, and that's it -- you've got a virtual private network. You can use the system to easily connect any number of LANs, but at $4,995 per LAN, the NetFortress' ease of use comes at a price.
+<p>
+Another option is <a href="http://www.telecommerce.com/users/t/telchome/telchome.mw1/PoD.htm">Privacy on Demand (PoD) from TeleCommerce</a>. The company offers a $2,500 hardware package for companies that don't want Internet access, which includes a multi-protocol bridge/router with integrated firewall.  Data privacy using IDEA, DES, and Triple DES is available. Other options are available for companies that want to provide Internet access in addition to a VPN. 
+<p>
+<strong>Tunneling And Mobile Networking</strong><br>
+Having a VPN doesn't even mean that all the nodes have to stay put. A mobile user can be part of a VPN by dialing in from the road and accessing the LAN just as if he or she were sitting in the office. Point-to-Point Tunneling Protocol (PPTP) is one such system. Proposed by Microsoft, 3Com, Ascend, ECI Telematics, and U.S. Robotics, the new protocol has been submitted to the Internet Engineering Task Force as a proposed standard.
+<p>
+PPTP is an extension of Remote Access Services in Windows NT and DialUp Networking in Windows 95. When connecting to a LAN through an ISP that is configured for PPTP, Windows NT and 95 users will be able to use PPTP without any additions or changes to the client software they already have. Just dial in, enter a password, and you're on your home LAN. PPTP is multi-protocol, so it doesn't matter if your LAN uses Novell IPX/SPX, NetBEUI, or TCP/IP. The URL for Microsoft's Web page about PPTP is <a href="http://www.microsoft.com/ntserver/pptppr.htm">http://www.microsoft.com/ntserver/pptppr.htm</a>, while the PPTP technical specifications can be found at <a href="http://www.microsoft.com/intdev/inttech/pptp.htm">http://www.microsoft.com/intdev/inttech/pptp.htm</a>.
+<p>
+According to Microsoft, PPTP will be a part of Windows NT 4.0 in both server and workstation products, and will be available later for Windows 95. The protocol includes both encryption and compression, though the version to be included in Windows NT 4.0 is designed for mobile workers, not as a site-to-site protocol. Microsoft plans to eventually introduce a server-to-server version in addition to the current client-server implementation.    
+<P>
+<hr>
+Kevin M. Savetz (<a href="mailto:savetz@northcoast.com">savetz@northcoast.com</a>) is author of MBONE: Multicasting Tomorrow's Internet, published by IDG books and waiting patiently on a bookshelf near you.
+<hr>
+<em>Reprinted from</em> <A href="http://www.iworld.com/wd-online/">Web Developer</a> <em>magazine, Vol. 2 No. 3 July/August 1996 (c) 1996 <A href="http://www.iworld.com/help/meckler.html">Mecklermedia Corporation</a>. All rights reserved.</em>
+</blockquote></blockquote>
+<p>
+<P>
+
+
+<center>
+<a href="index.html">[ Home ]</a>
+<a href="hacker.html">[ Products ]</a>
+<a href="news.html">[ News ]</a>
+<a href="links.html">[ Links ]</a>
+<a href="contact.html">[ Contact ]</a>
+</center>
+
+</body>
+</html>
+
+
+</DOC>

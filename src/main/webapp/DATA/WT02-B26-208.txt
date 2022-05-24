@@ -1,0 +1,135 @@
+
+<DOC>
+<DOCNO>WT02-B26-208</DOCNO>
+<DOCOLDNO>IA005-000053-B022-372</DOCOLDNO>
+<DOCHDR>
+http://camelot.es.anl.gov:80/htmls/fluid.bed.html 146.139.76.150 19970221172559 text/html 5102
+HTTP/1.0 200 OK
+Date: Friday, 21-Feb-97 17:26:20 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Wednesday, 19-Feb-97 16:57:47 GMT
+Content-length: 4919
+</DOCHDR>
+<HEAD>
+<HTML>
+<TITLE> Fluidized-Bed Erosion Modeling Page </TITLE>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<CENTER>
+<TABLE>
+<TR>
+<TD>
+<H2>Model Characterizes Metal Erosion in Fluidized-Bed Systems</H2>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<P>
+<B>Problem/Opportunity</B>
+<P>
+In fluidized-bed reactors, boilers, and transport lines, metal loss occurs in varying degrees on the walls of vessels and internal components such as heat exchangers.  Metal loss is plaguing the effective operation of these units by causing shutdowns for unscheduled maintenance/refurbishing, which cost millions of dollars in lost revenues each year.  Erosion rates of 3 mm/1000 hours for reactor walls are not uncommon in conventional fluidized-bed boilers.  Similar rates have also been reported in petroleum fluid cracking units and silicone product reactors.  New software can be used to mitigate metal erosion in fluidized-bed reactors, which reduces costs and improves reactor design and operation.
+<P>
+<P>
+<B>Approach</B>
+<P>
+Argonne National Laboratory participated in a cost-sharing consortium with fluidized-bed boiler manufacturers and with governmental/private research agencies such as the DOE's Morgantown Energy Technology Center, the Electric Power Research Institute (EPRI), and the Tennessee Valley Authority.
+<P>
+<CENTER>
+<IMG SRC="../gifs/fluid.bed.gif"><BR>
+<P>
+<B>Predicted erosion rates vs. the fluidizing velocity for several Geldart's class B particle sizes.</B>
+</CENTER>
+<P>
+Using its advanced computational fluid dynamic capabilities, Argonne provided a mechanical understanding of metal erosion in fluidized-bed systems by computing solids motion and assessing its impact on erosion of reactor vessels and internals.  From these virtual reactor simulations, new effective sets of design guidelines were formulated to help industry mitigate and, in some instances, eliminate solids particle erosion in fluidized-bed systems.  
+<P>
+The erosion mitigation software is based on fluid-solids hydrodynamic models which can predict, for a given reactor, three-dimensional distributions of solids loading, gas and solids velocities, pressures, and temperatures.  These programs are based on the solution of Navier-Stokes multiphase equations using the IMF (implicit multi-field) numerical technique.  The computer program can simulate dense ebulliated reactors as well as very dilute, short-contact-time reactors such as those used in the petroleum cracking industry.
+<P>
+<P>
+<B>Results</B>
+<P>
+The erosion-reduction methodology developed at Argonne has been validated with proprietary data from a large-scale plant, which makes this methodology unique, proven, and directly usable by industry.  Through these solutions, companies can now save up to $2 million/yr on a large production-scale fluidized-bed process, by either refurbishing, modifying, and improving present processes and/or mitigating erosion problems.  With Argonne's advanced methodology, companies can also do a better job of designing and operating new fluidized-bed units with reduced erosion.
+<P>
+Foreign customers from emerging economies are seeking new reactor designs, and technology transfer plans are being formulated with private sector software companies.
+<P>
+<P>
+<B>Future Plans</B>
+<P>
+A world leader in silicone manufacturing is considering developing Computational Fluid Dynamic (CFD) software capabilities for fluidized-bed systems which are directly tailored to its needs.  
+<P>
+<CENTER>
+<TABLE>
+
+<TR>
+<TD ALIGN=CENTER>
+<B>Principal Investigator(s):</B>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=CENTER>
+<A HREF="http://wp.anl.gov:8888/Rcn%3dMichael%20Petrick%2c%20ou%3dEnergy%20Systems%2c%20o%3dArgonne%20National%20Laboratory%2c%20c%3dUS">
+Michael Petrick,	Senior Chemical Engineer</A>
+</TR>
+
+<TR>
+</TR>
+
+</TABLE>
+</CENTER>
+
+<CENTER>
+<TABLE BORDER=5>
+<TR>
+
+<TD>
+<A HREF="http://www.es.anl.gov">
+<IMG SRC="../jpegs/navbar.esdhome.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/division.html">
+<IMG SRC="../jpegs/navbar.aboutesd.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/esdstaff.html">
+<IMG SRC="../jpegs/navbar.staff.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/esd.construction.html">
+<IMG SRC="../jpegs/navbar.facilities.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/information.html">
+<IMG SRC="../jpegs/navbar.info.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/whatsnew.html">
+<IMG SRC="../jpegs/navbar.whatsnew.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/projects.html">
+<IMG SRC="../jpegs/navbar.businessneeds.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+<TD>
+<A HREF="../htmls/sitemap.html">
+<IMG SRC="../jpegs/navbar.sitemap.jpeg" BORDER=0 ALIGN=RIGHT VALIGN=CENTER></A>
+</TD>
+
+</TR>
+</TABLE>
+</CENTER>
+
+<P>
+19Feb97
+<HR SIZE=2 WIDTH=95%>
+</BODY>
+</HTML>
+</DOC>

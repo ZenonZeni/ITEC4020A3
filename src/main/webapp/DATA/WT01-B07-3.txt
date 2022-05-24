@@ -1,0 +1,309 @@
+
+<DOC>
+<DOCNO>WT01-B07-3</DOCNO>
+<DOCOLDNO>IA039-000745-B024-55</DOCOLDNO>
+<DOCHDR>
+http://www.rss.chalmers.se:80/WWW_rsg/biennial.htm 129.16.35.18 19970210104521 text/html 15769
+HTTP/1.0 200 Document follows
+Date: Mon, 10 Feb 1997 10:45:31 GMT
+Server: NCSA/1.5.1
+Last-modified: Thu, 21 Nov 1996 11:55:59 GMT
+Content-type: text/html
+Content-length: 15585
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Untitled</TITLE>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Microsoft Word 2.0z">
+</HEAD>
+<BODY>
+<H1><CENTER>Biennial Report Remote Sensing Group<BR>
+July 1994 - July 1996</CENTER></H1>
+<H3><A HREF="#Introduction">Introduction</A></H3>
+<H3><A HREF="#INSAR">Developments in INSAR technology. </A></H3>
+<H3><A HREF="#Seaice">Remote Sensing of Sea Ice</A></H3>
+<H3><A HREF="#Forestry">Remote Sensing of land cover and Forestry</A>
+</H3>
+<H3><A HREF="#Atmosphere">Remote Sensing of the middle atmosphere</A>
+</H3>
+<H3><A HREF="publications.htm">Publications</A><BR>
+</H3>
+<H2><A NAME="Introduction">Introduction</A></H2>
+<P>
+The Remote Sensing Group is active in applications for remote
+sensing using sensors in the frequency band from VHF to sub millimetre
+waves. The aim is to develop applications of new sensors for environmental
+monitoring. Satellite applications dominate but airborne and ground-based
+techniques are also of interest.
+<H2><A NAME="INSAR">Developments in INSAR technology. </A></H2>
+<P>
+An ESA project for calibration and validation of the SAR for the
+future Envisat satellite has been ongoing. Methods for calibration
+of the VHF SAR CARABAS have been developed.
+<P>
+Using two or more SAR images over the same area it is possible
+to extract two parameters, coherence and phase. The coherence
+is related to the stability on the scale of the radar wavelength
+and phase is related to the location of the imaged object. Coherence
+has been shown to be a useful tool for classification of different
+land covers, see below. 
+<P>
+For interferometric SAR methods for slope corrections of the radar
+backscatter have been developed.
+<P>
+The phase measurements have been shown to be an accurate measure
+of the ground topography in an area in Northern Sweden.
+<P>
+A semi-automatic differential INSAR processor has been developed
+where the inputs are two SAR images and one DEM (Digital Elevation
+Model).
+<P>
+Many of the INSAR developments have been carried out under an
+ESA contract co-ordinated by Matra Cap Systems for studying applications
+of interferometric SAR. The Remote Sensing Group has had the main
+responsibility for forestry.
+<H3>Coherence estimation</H3>
+<P>
+A very important step in INSAR is to estimate coherence and phase
+correctly. Coherence estimation is often biased for low coherence.
+The bias depends on window size and assumed ground topography
+over the window. There is a trade-off between overestimation and
+underestimation of the coherence. Overestimation can be decreased
+using larger windows but then assumptions of the ground topography
+will not longer be valid and that will underestimate the coherence.
+Using an available digital elevation model, DEM, will more or
+less eliminate the effect of underestimation. Current efforts
+are to further analyse the statistics of the images and the known
+estimators in order to reduce the bias.
+<H3>Temporal and volume decorrelation</H3>
+<P>
+In the case of a time interval between image acquisitions (repeat-pass
+interferometry), the ground area is likely to change, thus causing
+temporal decorrelation. Volume decorrelation occurs over areas
+which have scatterers distributed over different heights e.g.
+in crown, trunk and undergrowth layers in forests. Under many
+conditions it is impossible to discriminate between temporal and
+volume decorrelation, but when the two images are taken from almost
+the same position (within about 100 metres) the volume correlation
+becomes negligible,  leaving the temporal decorrelation. Our studies
+show that the temporal decorrelation is the major discriminating
+factor in INSAR images. The temporal changes can be split into
+two factors; geometrical and dielectric changes. Geometrical changes
+(due mostly to wind) are believed to be the major cause of decorrelation
+in forests on a short time scale (almost instantaneous) while
+dielectric changes will work on longer time scales (over a few
+days, depending mainly on changes in weather conditions). Tropospheric
+influence on INSAR
+<P>
+For accurate phase measurements the error due to the atmospheric
+delay is an important factor, and an investigation of the atmospheric
+influence on the accuracy of derived DEM:s from INSAR has started
+based on the long experience of water vapour radiometer observations
+as well as GPS observations.
+<H2><A NAME="Seaice">Remote Sensing of Sea Ice</A></H2>
+<H3>Modelling of SAR signatures from sea ice</H3>
+<P>
+An extensive program on modelling of the radar backscatter from
+sea ice has been ongoing for validation of satellite remote sensing
+using synthetic aperture radar. Models help in understanding risks
+of misinterpretation of single sensor signatures. Level and deformed
+ice, frazil, frost flowers, new ice, leads etc. have been studied.
+Of special interest has been ice ridges due to the problems associated
+with ship navigation, and signatures of frost flowers etc. giving
+rise to similar signatures as deformed ice. 
+<H3>Baltic Sea Ice</H3>
+<H4>EMAC'95</H4>
+<P>
+For increased information about radar scattering properties multi
+frequency is important. Optimal frequency combinations for future
+satellite missions are also important to investigate.
+<P>
+As part of the European Multi-Sensor Airborne Campaign (EMAC-95)on
+Snow and Ice 1995 in Finland radar signatures of smooth low-salinity
+level ice in the Gulf of Bothnia were measured by means of a ship
+mounted scatterometer operating at L, S, C, and X-band. Utilising
+the ranging capability of the scatterometer system the dominant
+scattering contributions as function of depth in the ice were
+located for the different frequencies. Together with <I>in situ</I>
+ice and snow observations and using radar scattering modelling
+it was found that the X-band scattering is caused by volume inhomogeneities
+in the uppermost part of the ice, the C- and S-band scattering
+by the roughness of the snow-ice interface, while at L-band dominant
+radar returns originate also from the ice-water interface. In
+conclusion C- and L-band would be complementary for SAR sea ice
+monitoring in the Baltic.
+<H4>Sea ice displacements by INSAR</H4>
+<P>
+Interferometric SAR technique, INSAR, can be used to measure surface
+displacements between acquisitions. This has attracted much interest
+for earthquake and landslide monitoring. It can also be used to
+measure displacements over fast ice. 
+<P>
+Over the fast ice in the Bay of Bothnia, we have measured displacements
+on the cm level over approx. 2010 km<SUP>2</SUP>. Such measurements
+are believed to be unique. Current efforts are to model the ice
+displacements and compare with INSAR measurements.
+<H3>Arctic Sea Ice</H3>
+<H4>Ice type classification</H4>
+<P>
+Ice concentration in the Arctic derived from ERS-1 SAR and the
+SSM/I together with field observations consisting of ship observations
+and helicopter video from the Arctic-91 expedition were compared.
+The studied areas were characterised by melting conditions and
+new ice formation with frost flowers. For interpretation temporal
+sequences of the SAR images and meteorological information was
+used. It was found that SSM/I may underestimate the ice concentration
+by 20 per cent due to thin ice formation and melting conditions
+while SAR may overestimate. This illustrates the importance of
+combining information from different sensors. By using the SAR
+estimate of different ice classes it is believed to be possible
+to increase the accuracy of the ice concentration. 
+<H4>Ice motion derivation</H4>
+<P>
+ Optical flow and other algorithms have been derived in the group
+for ice motion derivation. The basic assumptions in the optical
+flow analysis are that image brightness is stationary and the
+velocity field is constant within a small neighbourhood. An error
+analysis is made and two criteria introduced for testing the possibility
+of using the optical flow method. Some smoothing has to take place
+in order to increase the estimate accuracy of sea ice motion.
+To avoid an ill-conditioned problem a conditioning number is introduced.
+A test of the non-uniformity of the velocity field is also introduced.
+The two criteria are used for choosing the spatial resolution
+suitable for an automatic optical flow analysis. The method has
+been applied to three image pairs from Arctic-91 and with a pixel
+spacing of 200 m. The rms. error between the automatic method
+and manually identified control points in the images was found
+to vary between 640 and 730 meters. The same area (the Yermak
+plateau) has been observed during the expedition in 1996 and the
+work will continue using these images when available. 
+<P>
+ A matching algorithm based on a similarity measure, the sum-of-squared
+difference (SSD), has also been tested with the same three image
+pairs as used in the optical flow method. The experimental results
+obtained with both optical flow method and SSD method are in a
+good agreement. Arctic Ocean Expedition 1996
+<H4>Arctic Ocean Expedition 1996</H4>
+<P>
+Preparations for the Arctic Ocean Expedition 1996 has been ongoing
+during the period of the biennial report. A team consisting of
+participants from Alfred Wegener Institute, Chalmers University
+of Technology, Helsinki University, Helsinki University of Technology,
+and SMHI carried out a program in Remote Sensing and Sea Ice in
+July - September 1996. Synthetic aperture radar images from RADARSAT
+and ERS-2 are provided by support from the Canadian and European
+Space Agencies, respectively. 
+<H2><A NAME="Forestry">Remote Sensing of land cover and Forestry</A>
+</H2>
+<H3>Forestry using CARABAS</H3>
+<P>
+Microwave SAR signatures are saturated at relatively low stem
+volumes. Lower frequencies have increased potential to estimate
+high stem volumes or biomass. CARABAS is an airborne VHF synthetic
+aperture radar system developed by the National Defence Research
+Organisation. Images have been provided from Ottenbylund, &Ouml;land,
+and from Maine, USA. Field investigations have taken place at
+Ottenbylund and it has been shown that the sensitivity for stem
+volume has not saturated like higher frequency SAR systems for
+the observed stem volume (up to 210 m<SUP>3</SUP>/ha). References
+[117-119, 216, 218].
+<P>
+A program for developing models for the radar scattering is ongoing.
+Compared to models developed at higher frequencies it is important
+to investigate what forest properties dominate the scattering,
+to what extent coherent interactions take place and to what extent
+ground penetration takes place. 
+<H3>INSAR Forestry applications and land cover applications</H3>
+<P>
+In order to understand INSAR images over forested areas, it is
+important to develop models which relate geophysical parameters
+to the parameters in the images, i.e. coherence and phase. The
+current forest model is an extension of the &quot;water cloud
+model&quot; developed for normal SAR images. It includes the volume
+and temporal decorrelation of the forests and also gives a phase
+measure. 
+<P>
+Observations illustrate that the coherence and interferometric
+height varies in different images. A model has been developed
+based on how the scattering from the forest layers is combined
+with ground scattering from areas within the forest, either attenuated
+by the canopy or not. Crucial information is the percentage of
+open areas within the forest and the attenuation through the canopy
+together with the temporal stability of the canopy scattering.
+Available information on these properties is limited and uncertain,
+but best estimates result in reasonable agreement between theory
+and observations. 
+<P>
+Using the coherence together with the intensity it is possible
+to classify different land covers. Results indicate that the separation
+of forest from non-forest areas is much easier using coherence
+measurements than in intensity images. However, the coherence
+results indicate a difficulty in discriminating between open fields
+and clear cut areas of forest. In this case the intensity information
+can be used to complement coherence measurements. Although we
+have concentrated on boreal forests, initial results from an area
+in the Amazon rain forest indicate that coherence can still be
+used for the important task of identifying areas of cutting within
+forested regions.
+<H3>DEM production</H3>
+<P>
+INSAR images can also be used to produce accurate digital height
+maps (Digital Elevation Models). An important problem is that
+less accurate measurements are derived over forests due to the
+low coherence and that the forest will give a contribution to
+the height measurement. This effect can be modelled by the above
+forest model. However, it is still possible to produce DEM:s from
+INSAR images. Over an area in Northern Sweden covered partly with
+boreal forests, we have achieved an accuracy of 5 m RMS error
+(using 20 m pixel size) for the DEM (compared to a real DEM) for
+one INSAR image. Of course, by using several INSAR images the
+error will decrease. The bias between the ground level DEM and
+the INSAR measured DEM is caused by the forest height. 
+<H2><A NAME="Atmosphere">Remote Sensing of the middle atmosphere</A>
+</H2>
+<P>
+In the group the retrieval of vertical profiles from passive radiometric
+observations of the middle atmosphere is studied. This work is
+performed to analyse the measurements from a ground-based instrument
+under construction at Onsala Space Observatory (22.2 and 110-116
+GHz) and the aeronomical measurements of the Odin satellite (480-580
+GHz). None of the sensors is yet working operationally and the
+work has been concentrated on simulating system properties and
+estimating different error sources. 
+<P>
+To study the profile retrieval accuracy of the future observations
+is of course of general interest but it can also be a help in
+the construction work because the importance of different instrumental
+limitations is revealed in the theoretical examination. 
+<P>
+Simulation of a ground-based observation is relatively straightforward
+and focus has been put to comparing the performance of different
+retrieval methods. The methods have been studied both theoretically
+and practically by inverting simulated spectra. Several important
+differences were found but no method was found to be superior
+in all occasions, the choice of retrieval scheme must be selected
+according to the purpose of the observation. The influence of
+different error sources has also been examined. The importance
+of suppressing the baseline ripple to enable ozone in the lower
+stratosphere to be satisfactory retrieved was shown. 
+<P>
+To simulate a satellite limb sounding observation is more complex.
+A model of the radiative transfer in the atmosphere and the most
+important instrumental characteristics of the sensor has been
+implemented and observations have been successively simulated.
+The expected retrieval accuracy has been studied for different
+observation conditions and a number of species, including O<SUB>3</SUB>,
+ClO, HNO<SUB>3</SUB>, and H<SUB>2</SUB>O. It was found that the
+fixed design of the Odin sub-mm receiver enables simultaneous
+observation of at least four species and suggestions on suitable
+instrumental settings for observations in the stratosphere and
+the mesosphere have been given.
+<H3><A HREF="publications.htm">Publications</A><BR>
+</H3>
+<HR>
+<P>
+<A HREF="rsg.htm">Back to main page</A><BR>
+</BODY>
+</HTML>
+</DOC>

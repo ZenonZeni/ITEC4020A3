@@ -1,0 +1,59 @@
+
+<DOC>
+<DOCNO>WT02-B11-299</DOCNO>
+<DOCOLDNO>IA086-000618-B044-318</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.026.html 130.91.195.242 19970122054231 text/html 2775
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:42:33 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 2604
+Last-modified: Tue, 22 Nov 1994 06:31:08 GMT
+</DOCHDR>
+RISKs of trusting e-mail <p>
+
+From: tmplee@tis.com (Theodore M.P. Lee) <p>
+
+Until such time as either the general population learns what to expect or
+digital authentication (such as PEM) becomes widespread, I suspect we will
+hear more of this kind of incident. This academic year the University of
+Wisconsin started providing e-mail accounts to all students at its Madison
+campus. (6,000?, maybe) The students, both technical and non-technical, are
+being encouraged to use e-mail as a way of interacting with their instructors.
+They access the accounts either through University-supplied machines scattered
+throughout the campus or through dial-up Serial Link Protocol (SLIP)
+connections. A mix of Macintosh's, PC's and other assorted workstations are
+involved. <p>
+
+Last week (note how early in the school year) a group of five students,
+several from the Honors floor of one of the freshman dorms, were caught having
+forged several pieces of e-mail. Most potentially damaging was a note saying
+it was from the Director of Housing, to the Chancellor of the University,
+David Ward; note that the previous Chancellor is now Pres.  Clinton's
+Secretary of HHS, so the present Chancellor is new to the job.  The forged
+message was a submission of resignation. Ward's secretary had just returned
+from vacation and apparently assumed the proferred resignation was legitimate.
+The secretary accepted it and started to act upon it -- it was only during the
+course of that that it was discovered to be a fake. <p>
+
+The students also sent messages purporting to be from the Chancellor to
+other students asking them to pay their tuition. They also forged a message
+from the Chancellor (my information doesn't say who it went to) saying he
+was going to "come out of the closet" and announce it Sept. 25. <p>
+
+The students were only caught through a combination of circumstances.  First,
+since they used one of the dial-in connections there were logs of who dialed
+in when. Secondly, during the course of their experiments they botched some
+addresses which caused enough traffic to go to the dead-letter office that the
+investigation could narrow what was happening. (It should be pointed out that
+the forgery was fairly easy to accomplish using the Eudora mail client on a
+Macintosh: the user has complete choice over the "from:" field of a message.) <p>
+
+The FBI is investigating whether any federal crime was involved and,
+needless-to-say, the students are likely to be expelled at the least. <p>
+
+Ted Lee, Trusted Information Systems, Inc., PO Box 1718, Minnetonka, MN  55345
+   612-934-5424   tmplee@tis.com <p>
+
+</DOC>

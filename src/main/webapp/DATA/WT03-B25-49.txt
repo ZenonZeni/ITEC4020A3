@@ -1,0 +1,73 @@
+
+<DOC>
+<DOCNO>WT03-B25-49</DOCNO>
+<DOCOLDNO>IA008-000084-B024-65</DOCOLDNO>
+<DOCHDR>
+http://thor.aps.rwth-aachen.de:80/ecm/termine/termin_d.htm 137.226.180.78 19970222102405 text/html 2571
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Saturday, 22-Feb-97 08:58:13 GMT
+Content-Type: text/html
+Content-Length: 2364
+Last-Modified: Wednesday, 17-Apr-96 18:47:59 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML VERSION="2.0">
+<HEAD>
+<!-- WEBMAGIC VERSION NUMBER="2.0" -->
+<!-- WEBMAGIC TRANSLATION NAME="ServerRoot" SRC="/var/www/htdocs/" DST="/" -->
+<!-- WEBMAGIC TRANSLATION NAME="ProjectRoot" SRC="./" DST="" -->
+<TITLE>Internationaler Terminkalender </TITLE>
+</HEAD>
+<BODY>
+<FORM METHOD="QUERY" ACTION="/cgi-bin/danke_d.exe">
+<H2><IMG SRC="./../images/melogo.gif" ALIGN="MIDDLE" WIDTH="128" HEIGHT="142" HSPACE="20" SGI_SETWIDTH SGI_SETHEIGHT SGI_FULLPATH="/disk02/local/www/ecm/images/melogo.gif">Internationaler Terminkalender</H2>
+<HR>
+<P>Der folgende Terminkalender bietet eine Auswahl an internationalen Konferenzen, Workshops und Veranstaltungen aus den Bereichen Elektrotechnik, Maschinenbau und Informatik. Benutzen Sie bitte das Formular am Ende des Dokuments, um weitere Informationen zu den einzelnen Veranstaltungen zu erhalten. <A HREF="/ecm/ecm/lage_d.htm">Kontaktieren Sie uns</A>, wenn weitere Ereignisse in diese Liste aufgenommen werden sollen. 
+<HR>
+<H4><INPUT TYPE="CHECKBOX" NAME="termind_w1" VALUE="off"> <A HREF="hannover.htm">Industriemesse Hannover 96</A></H4>
+<P>
+<HR>
+<H4><INPUT TYPE="CHECKBOX" NAME="termind_w1" VALUE="off"> <A HREF="iecon96.htm">IEEE - IECON96</A></H4>
+<P><I>5 bis 9 August 1996 in Taipei, Taiwan</I> 
+<P>IECON96 ist eine internationale Konferenz zu industriellen Applikationen in den Bereichen Leistungselektronik, Regelungssysteme, Robotik, Signalverarbeitung, K&uuml;nstliche Intelligenz und darauf basierende Anwendungstechnolgie. 
+<P><BR>
+ 
+<HR>
+<H4>Bitte schicken Sie mir Informationen zu den angekreuzten Veranstaltungen:</H4>
+<PRE>
+Firma    <INPUT TYPE="TEXT" NAME="company" SIZE="68">
+
+Name     <INPUT TYPE="TEXT" NAME="name" SIZE="68">
+
+Position <INPUT TYPE="TEXT" NAME="position" SIZE="68">
+
+Stra&szlig;e   <INPUT TYPE="TEXT" NAME="street" SIZE="68">
+
+Land   <INPUT TYPE="TEXT" NAME="country" SIZE="4"> - PLZ <INPUT TYPE="TEXT" NAME="pc" SIZE="10"> Ort <INPUT TYPE="TEXT" NAME="city" SIZE="42">
+
+
+
+</PRE>
+<P><INPUT TYPE="SUBMIT" SIZE="30" VALUE="Abschicken"> <INPUT TYPE="RESET" SIZE="30" VALUE="Einträge löschen"> 
+<PRE>
+
+</FORM>
+
+
+
+</PRE>
+<HR>
+<PRE>
+
+</PRE>
+<P><A HREF="./../ecm_d.htm"><IMG SRC="./../images/back.gif" WIDTH="40" HEIGHT="40" SGI_SETWIDTH SGI_SETHEIGHT SGI_FULLPATH="/disk02/local/www/ecm/images/back.gif"></A> 
+<PRE>
+
+
+
+</PRE>
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,94 @@
+
+<DOC>
+<DOCNO>WT01-B06-228</DOCNO>
+<DOCOLDNO>IA087-000625-B003-208</DOCOLDNO>
+<DOCHDR>
+http://www.sema.org:80/searchsema.html 207.171.2.114 19970122034235 text/html 2669
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 03:38:20 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 2498
+Last-modified: Thu, 31 Oct 1996 15:47:31 GMT
+</DOCHDR>
+<html>
+ <head>
+  <title>SEMA Sitewide Search</title>
+ </head>
+ <body bgcolor=#FFFFFF text=#000000>
+<IMG SRC="/pics/newlogo.gif" ALT="SEMA LOGO" ALIGN="BOTTOM"> <BR>
+  <center>
+   <h1>SEMA Site Wide Search</h1>
+ 
+Use the form below to search SEMA Online!<p></center>
+<hr size=7 width=75%><p>
+<form method=POST action="/cgi-bin/searchsema.cgi">
+<center>
+<tr>
+<th>Text to Search For: </th><th><input type=text name="terms" size=40><br>
+</tr><tr>
+<th>Boolean: <select name="boolean">
+<option>AND
+<option>OR
+</select> </th> <th>Case <select name="case">
+<option>Insensitive
+<option>Sensitive
+</select><br>
+<p>
+<th colspan=2><input type=submit value="Search The Site For A Keyword!"> <input type=reset><br></th>
+</tr></table></form></center>
+
+<hr>
+<h3>Search Engine Behavior</h3>
+<ol>
+<li> Searches are performed throughout the SEMA Site:
+<li> The engine can take as many keywords as you can fit into the box.  Separate keywords
+with a space.
+<li> If a match of any of your keywords occurs with any of the database entries, the engine
+will display the hit.
+<li> Matches are not restricted to whole-word matches.  For example, if you use
+"<strong>wis</strong>" as your keyword, you'll pull up matches with "<strong>Wis</strong>dom"
+and "Le<strong>wis</strong>."
+<li> The engine is not case-sensitive.
+</ol>
+<h3>Tips for Searching</h3>
+<ol>
+<li> Try to use one or two keywords that are unique to the company you are searching for.
+<li> "Less is More"&#151 The fewer characters you use in the search, the more hits you'll get.
+</ol>
+
+<!--FOOTER START-->
+<table>
+<tr><td width=550>
+<BR CLEAR=ALL>
+<center>
+<HR>
+<A HREF="/index.html"><IMG border=0 SRC="/pics/b_home.gif" ALT="[SEMA]"></A>
+
+<A HREF="/cgi-html/contact.html"><IMG border=0 SRC="/pics/b_mail.gif" ALT="[Mail]"></A>
+
+<A HREF="/searchsema.html"><IMG border=0 SRC="/pics/b_find.gif" ALT="[Site Search]"></A>
+
+<A HREF="/postit/"><IMG border=0 SRC="/pics/b_bbs.gif" ALT="[Message Boards]"></A>
+
+<A HREF="/cgi-html/list.html"><IMG border=0 SRC="/pics/b_email.gif" ALT="[E-Mail List]"></A>
+
+</center>
+
+<br>
+<FONT SIZE=-1>
+ Last updated: Oct. 31, 1996 by <a href="mailto:aland@sema.org">Webmaster.</a><Br>
+Copyright &copy Specialty Equipment Market Association (SEMA)-All rights reserved.<br>
+<align=right>
+<em><strong>This site is brought to you by...<br></strong></em>
+ <a href="http://www.ibcc.com">The Internet Business Consulting Company</A><br>
+ </FONT SIZE>
+</td></tr>
+</table>
+</center>
+<!--10/31/96 4.00 AD-->
+<!--FOOTER END-->
+</body></html>
+
+
+</DOC>

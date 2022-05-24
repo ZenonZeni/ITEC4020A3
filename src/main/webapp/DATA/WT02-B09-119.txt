@@ -1,0 +1,70 @@
+
+<DOC>
+<DOCNO>WT02-B09-119</DOCNO>
+<DOCOLDNO>IA057-000945-B041-292</DOCOLDNO>
+<DOCHDR>
+http://computerline.libertynet.org:80/form.htm 204.170.205.49 19970208053718 text/html 3163
+HTTP/1.0 200 OK
+Date: Saturday, 08-Feb-97 05:37:27 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE html PUBLIC "-//Netscape Comm. Corp.//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Service Form</TITLE>
+</HEAD>
+ <body bgcolor="#ffffff" text="#32001C" link="#CD583D" vlink="#BC736B" alink="#551A00"><H2><CENTER><FONT COLOR="#FF0000">SERVICE FORM</FONT></CENTER></H2><IMG SRC="enter.gif" align="left"><form method=POST action="mailto:denise@computerline.com">
+Please feel free to fill out the service form below to request a call from our technicians.  The service department will be able to more readily process your requests in this fashion.<hr>
+<B><CENTER><FONT COLOR="#000000">If you are not currently a ComputerLine customer we are offering your first hour of service free of charge! Simply fill out the form below! </CENTER></FONT><CENTER></B><hr><p>We are also offering a<BLINK><FONT COLOR="#ff0000"> ONE TIME SPECIAL</FONT></BLINK> for new customers.  With the purchase of a 20 hour block of service hours, your firm will receive an additional 5 hours of service, free of charge.  <p>
+Name:  <INPUT type="Text" name="Name" size=35 maxlength="127"><br>
+Email:     <INPUT type="text" name="Email" size=35 maxlength="127"><br>
+Phone: <INPUT type="text" name="Phone" size=35 maxlength="127"><br>
+Fax #:     <INPUT type="text" name="Fax" size=35 maxlength="127"><br><br>
+Addr:    <INPUT type="text" name="Address" size=35 maxlength="127"><br>
+City:        <INPUT type="text" name="City" size=35 maxlength="127"><br>
+State:   <INPUT type="text" name="State" size=35 maxlength="127"><br>
+Zip:         <INPUT type="text" name="Zip" size=35 maxlength="127"><br>
+<br></center>
+
+<p>What type of service contract do you currently have?<br>
+<ul>
+<dt><input type="checkbox" name="contract" value="Full Service">Comprehensive
+<dt><input type="checkbox" name="contract" value="Hourly">Hourly
+<dt><input type="checkbox" name="contract" value="PM">Preventive Maintenance
+<br>
+</ul><p>Problem:<select name="sub">
+<option> Network Error
+<option> Workstation Problem
+<option> Printing Problem
+<option> Dead Parts
+<option> HDD Error
+<option> Software Problems
+<option> Software Upgrades
+<option> HD Upgrade
+<option> Memory Upgrade
+<option> Monitor Problems
+<option> Windows 95 Errors
+<option> Preventive Maintenance
+<option> Notebook/Laptop Problems
+<option> Battery
+<option> Modem Difficulties
+<option>Other (explain in description)
+</select>
+<p>Additional information that will help our technicians better serve you. <br>
+Please list all problems that you are having specifically.  Please include the model of hardware/software that you are experiencing problems with.  Feel free to include any additional information that will help in getting you the service you need in an expedient fashion.<br>
+<textarea rows=10 cols=69 name="comment"></textarea>
+<BR>
+
+<p>
+<input type="submit" value="Send it in">
+ <input type="reset" value="Clear the form">
+
+<p>Your request will be processed as soon as possible.<p>
+<A HREF="index.htm"><IMG SRC="bl02.gif" BORDER="0">Home Page</A>
+</CENTER>
+</FORM>
+</BODY>
+</HTML>
+</DOC>

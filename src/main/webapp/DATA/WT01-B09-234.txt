@@ -1,0 +1,60 @@
+
+<DOC>
+<DOCNO>WT01-B09-234</DOCNO>
+<DOCOLDNO>IA090-000968-B014-257</DOCOLDNO>
+<DOCHDR>
+http://ivf.com:80/search.html 206.185.60.251 19970123210816 text/html 1281
+HTTP/1.0 200 OK
+Date: Thu, 23 Jan 1997 21:09:53 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 1110
+Last-modified: Sun, 12 Jan 1997 12:50:41 GMT
+</DOCHDR>
+
+You can make a
+ <A HREF="/cgi-bin/aglimpse/01">formless search</A> if your browser doesn't supports forms.
+
+<FORM ACTION="/cgi-bin/aglimpse/15/u/www00261/www">
+
+<B>What would you like to search for?</B> <INPUT NAME="query" size="40"><br>
+(example of a Boolean search:  'good;bad'   will find all lines 
+containing both 'good' AND 'bad')
+<P>
+<INPUT NAME="case" TYPE="checkbox">Case insensitive
+<INPUT NAME="whole" TYPE="checkbox">Allow partial match to a word
+<P>
+Number of misspellings allowed:
+<SELECT NAME="errors">
+<OPTION>Best match
+<OPTION>0
+<OPTION>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>5
+<OPTION>6
+<OPTION>7
+<OPTION>8
+</SELECT>
+<P>Maximum number of files returned:
+<INPUT NAME="maxfiles" VALUE="30" size="2">
+<P>Maximum number of matches per file returned:
+<INPUT NAME="maxlines" VALUE="10" size="2">
+<P>
+
+<INPUT TYPE="submit" VALUE="Search">
+
+<INPUT TYPE="reset" VALUE="Reset">
+
+</FORM>
+
+<h2 align=center><IMG SRC="bluegreline.gif"></h2>
+<ADDRESS>
+<A HREF="mailto:webhelp@mindspring.com">
+Web Help<BR>
+webhelp@mindspring.com</A><BR>
+</ADDRESS>
+
+</BODY>
+</DOC>

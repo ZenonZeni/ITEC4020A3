@@ -1,0 +1,57 @@
+
+<DOC>
+<DOCNO>WT02-B16-256</DOCNO>
+<DOCOLDNO>IA060-000330-B031-141</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/absorption.html 205.168.79.27 19970115045507 text/html 2251
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 04:55:09 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:44 GMT
+Content-length: 2077
+</DOCHDR>
+<html>
+<head>
+<title>How It All Works</title>
+</head>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<p><h2>How It All Works</h2>
+<p><strong>Absorption and Conduction</strong>
+
+<p>In a PV cell, photons are absorbed in the p layer.  It's very important to "tune" this layer to the
+properties of the incoming photons to absorb as many as possible and thereby free as many
+electrons as possible.  Another challenge is to keep the electrons from meeting up with holes and
+"recombining" with them before they can escape the cell.  To do this, we design the material so
+that the electrons are freed as close to the junction as possible, so that the electric field can help
+send them through the "conduction" layer (the n layer) and out into the electric circuit.  By
+maximizing all these characteristics, we improve the <a href="conveff.html">conversion efficiency</a>
+of the PV cell.
+
+<p><img border=0 align=middle vspace=10 src="images/absorption.gif">
+<br clear=all>
+ 
+<font color="#F79D00">To make an efficient solar cell, we try to maximize absorption,
+minimize reflection and recombination, and thereby maximize conduction.</font>
+
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>
+[<a href="pvhistory.html">History: The PV Effect</a>]
+[<a href="howworks.html">How It All Works</a>]
+[<a href="cells.html">From Cells to Arrays</a>]
+[<a href="flatplate.html">Flat-Plate Systems</a>]
+[<a href="concentrators.html">Concentrator Systems</a>]
+[<a href="balance.html">Balance of System</a>]
+[<a href="lightsun.html">Light and the Sun</a>]
+<p><em>U.S. Department of Energy Photovoltaics Program, 1996</em>
+</font>
+</center>
+</body>
+</html>
+</DOC>

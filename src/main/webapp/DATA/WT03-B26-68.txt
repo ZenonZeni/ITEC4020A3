@@ -1,0 +1,119 @@
+
+<DOC>
+<DOCNO>WT03-B26-68</DOCNO>
+<DOCOLDNO>IA029-000311-B020-302</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdf2.htm 138.44.40.1 19970114165103 text/html 6487
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:49:24 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:08 GMT
+Content-length: 6313
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>Image Brightness &amp; BRDF Workshop Issues<BR>
+<HR></H2>
+<H4><BR>
+1. ATMOSPHERIC &amp; SCENE BRIGHTNESS VARIATIONS</H4>
+Optical, shortwave and thermal image data from airborne and satellite platforms
+have varying degrees of angle dependent brightness variation which change
+with the sun position, atmospheric conditions, land surface type and sensor
+characteristics. If left uncorrected, these broad level variations can make
+it difficult to use the data with standard image processing and interpretation
+methods.<BR>
+<BR>
+For example, a Daedalus airborne scanner has a scan angle of &#177;38&#176;
+and if flown with the sun at an azimuth away from 'in front' or 'behind'
+(i.e. away from the Principal Plane) this will result in significant image
+brightness variations created by the atmospheric component phase functions
+and any surface angle dependent reflectance effects. The reflectance function
+describing the surface effects is the Bi-Directional Reflectance Distribution
+Function, or BRDF. These atmospheric and surface effects are present in
+all satellite data as well as aerial photography and video data to a greater
+or lesser degree depending on the variation in the phase angle between the
+sun, target and sensor among the pixels in the resulting image. Topography
+enters into the equation in a way that depends on scale (or pixel size)
+leading to quite complex variations in an image being scanned as illustrated
+in <B><A HREF="brdff1.htm">Figure 1</A> </B>even if the surface type were
+homogeneous.<BR>
+<BR>
+The atmosphere contributes to the total effect partly due to the varying
+path length at different parts of the scan and partly to the atmospheric
+scattering phase variation described by the composite phase function of
+the atmospheric constituents. This describes the way radiation is scattered
+out of a volume relative to the direction it enters. In optical remote sensing,
+air molecules and aerosols account for much of the scattering and the effects
+are greatest at shorter wavelengths. Hence, if the aerosol atmospheric turbidity
+is high, the atmospheric brightening in (say) the blue-green will be visible
+and significant in most remotely sensed data. In the thermal bands, the
+angular variation is almost all due to the changing path length and the
+major atmospheric effect is due to water vapour on the path.<BR>
+<BR>
+The land surface contributes to the broad level brightness variations common
+to all remotely sensed images. The base 'colour' and brightness is a function
+of the spectral properties of the material types making up the scene (e.g.
+leaf reflectances and transmittances or soil grain mineralogy) plus structural
+effects which give rise to the angular variations. The angular effects can
+be ascribed to three main factors - the volume effect, the occlusion (or
+hotspot) effect and the specular or glint effect: 
+<UL>
+<LI><B>Volume Effect</B>: Because of the changes in path lengths and extinction
+in complex surfaces as the relative sun and look angles change, there is
+a volume BRDF which has some similarity to the atmospheric phase function
+induced variations. It will depend on surface structure and in vegetation
+it depends on factors like leaf density variations and angle distributions
+as well as total leaf area. 
+<LI><B>Occlusion Effect</B>: The occlusion effect is a more specific effect
+induced by the fact that the shadows cast by the sun represent parts of
+the surface that are not 'seen' by the sun. The areas that are not 'seen'
+by the sensor which are also not 'seen' by the sun are the common areas
+between shadow cast by the sun if it were in the two positions. The varying
+overlap induces a brightness variation as when the sun and sensor are aligned,
+no shadows are 'seen' and the scene seems bright and when the look angle
+is opposite to the sun many shadows are 'seen' leading to lower brightness.
+<LI><B>Specular (or Glint) Effect</B>: The specular or glint effect is most
+pronounced on water surfaces. It refers to the surface 'mirror' (or Fresnel)
+reflectance in which the radiation is usually unaltered by the surface material
+from which it is reflected. On land surfaces it is a composite of reflections
+diffused from facets of varying angular positions and specularity. In Australia,
+Eucalypt leaves are especially specularly reflective due to their waxy coating.
+On water, glint is probably the major component of the BRDF and the hotspot
+effect does not occur. 
+</UL>
+The sum of these effects in remotely sensed data is an image brightness
+variation that is a sum of the atmospheric brightness and the scene brightness.
+The atmospheric and surface effects also interact to provide a composite
+effect that varies with sun, target &amp; sensor geometry. The effects are
+more obvious in aerial photography and video images where the central perspective
+means that at high sun angles the hotspot and specular points are within
+the angular radius of the frame. For airborne scanners and satellite borne
+scanners it is possible to avoid the brightest hotspot and glint points
+by careful consideration of the scan geometry but since the variations are
+significant for all angles the effects cannot be ignored in any image.<BR>
+<BR>
+The scene and atmospheric brightness variations are all minimised for a
+scanner if the sensor data are scanned at right angles to the 'principal
+plane'. The principal plane is the plane formed by the vectors joining the
+earths centre to the sensor and to the sun. For an airborne scanner, this
+means flying level, with the sun in front or behind the flight line. If
+the hotspot or specular points need to be avoided at high sun times, the
+scanning sensor is sometimes tilted forward or back to ensure it. These
+'avoiding' strategies are not easily used with photography or video images.<BR>
+<BR>
+<HR><A HREF="brdf1.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"><IMG SRC="../gifs/previous.gif" WIDTH=
+"150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="brdf3.htm"><IMG SRC=
+"../gifs/next.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+</A><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<HR>
+</BODY>
+</HTML>
+</DOC>

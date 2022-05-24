@@ -1,0 +1,126 @@
+
+<DOC>
+<DOCNO>WT02-B21-180</DOCNO>
+<DOCOLDNO>IA052-000883-B029-265</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/interfer/elev.html 137.229.31.144 19970210141225 text/html 4702
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:12:37 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Saturday, 01-Feb-97 02:37:03 GMT
+Content-length: 4520
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML> 
+<HEAD>
+<TITLE>Interferometry at ASF/STEP: Elev</TITLE> 
+</HEAD> <BODY BGCOLOR="#FFDEAD" TEXT="#00008F" LINK="#008B00" VLINK="#580000"
+BACKGROUND="../res/backgrounds/asf_tile.gif"> 
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> | 
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> | 
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> | 
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> |
+<A HREF="http://www.images.alaska.edu/interfer/">Interferometry</A> 
+<h1 align=center>
+Elev (DEM generation)
+</h1>
+
+<DL>
+<DT><H2>Introduction</H2></DT>
+<DD>
+Elev calculates an elevation from an unwrapped phase file. The elevation file
+will have the same geolocation and geometry information as the unwrapped
+phase file.
+<P>
+To use th elev program, you will also need a baseline file (see <a
+href="resolve.html">resolve</a> or <a href="refine.html">refine_base</a>), the
+CEOS metadata files, and a masking file that indicates how the phase was
+unwrapped.  If you are using the ASF/STEP interferometry software, <a
+href="escher.html"> escher</a> creates, along with the unwrapped phase, a
+masking file.  If you do not have a masking file, you can create one.  (See <a
+href="#create">below</a>.)  Elev only generates height values for those pixels
+that have been unwrapped.  All other values are set to -1.
+</DD>
+
+<DT><H2>Example</H2></DT>
+<DD>
+For details on the command line syntax, please see the <a 
+href="http://www.images.alaska.edu/cgi-bin/man-request.pl?asftool=elev&amp;section=1">man page</a>.
+<P>
+A sample run looks like the following:
+<P><PRE>
+sparc1k [52]: elev uwp12.phase base.1 asc1 uwp12.phase.mask elev12.ht 571 1501 387.195
+opening unwrapped phase file uwp12.phase...
+ Seed values:
+	Location(x,y): 571, 1501
+	Phase: -88.669487
+	Elevation: 387.195007
+reading in baseline values from base.1...
+ Baselines:
+	Normal: 170.019882, delta: 4.462993
+	Parallel: -52.584679, delta: 1.533228
+Obtaining CEOS metadata...
+Calculating incidence angles...
+ Near range inc angle 22.437846 deg
+ Near range 851535.156250 m
+ Far range inc angle 25.226508 deg
+ Far range 867639.465332 m
+ Delta inc angle 0.001089 deg
+ ... Wrote out row  2560
+Total wall clock time = 15 seconds.
+</pre></p>
+Note that the line <I>... Wote out row...</I> updates as the program processes.
+</DD>
+
+<DT><A NAME="create"><H2>Creating a Mask File</H2></DT>
+<DD>
+A mask file is a two dimensional array of unsigned char bytes with the same
+dimensions as the unwrapped phase file..  During the unwrapping process bits are
+continually set and unset.  For each phase pixel, elev checks to see if the
+corresponding mask pixel is set as an unwrapped pixel.  If you do not have a
+mask file, you can just create one in which every pixel has the correct bit set.
+<P>
+The value you need to set each pixel is 0x10 hex (16 decimal).  If you do this,
+every pixel will get a height value calculated including the non-integrated
+points. Bad data will not be set to -1 for elev will believe all the data is
+good data.
+</DD>
+
+<DT><H2>Next Step</H2></DT>
+<DD>
+As far as the ASF/STEP interferometry software is concerned, creating an
+elevation file is the last step.  However, as a researcher and investigator, you
+will probably want to continue processing your new elevation file.  For
+instance, if you are using ASF data, all your images are in slant range.  They
+need to be corrected to ground range and eventually placed in a map projection.
+While the members of STEP are looking into this process, we do not have software
+available yet to help you.  However, do not let this discourage you.
+Interferometry can be exciting as well as infuriating.  And if you do design
+software or have a suggestion, please let us know.  We would like to incorporate
+whatever ideas or code you have into the interferometry software.
+</DD>
+</DL>
+
+<P>
+<a href="iter.html">
+<img src="../res/buttons/leftarrow.gif" alt="[Go Back]" WIDTH=29 HEIGHT=30>
+</a>
+<P>
+<CENTER>
+<IMG ALT="[---------]" SRC="../res/lines/ice_blue_line.gif" WIDTH=85%>
+</CENTER>
+<H4>
+Created by <A HREF="mailto:mshindle@images.alaska.edu">Mike Shindle</a><br> 
+Last Updated: January 23,1997<BR> 
+Last Updated By: <A 
+HREF="http://www.images.alaska.edu/users/mike/mike.html">Michael 
+Shindle</A><BR> If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="http://www.images.alaska.edu/comments.html">comment</A>. 
+</H4> 
+</BODY>
+</HTML> 
+
+</DOC>

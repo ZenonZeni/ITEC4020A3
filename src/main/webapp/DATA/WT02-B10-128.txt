@@ -1,0 +1,117 @@
+
+<DOC>
+<DOCNO>WT02-B10-128</DOCNO>
+<DOCOLDNO>IA017-000185-B023-326</DOCOLDNO>
+<DOCHDR>
+http://complimed.com:80/complimed/contact.html 207.66.215.5 19970106091930 text/html 3759
+HTTP/1.0 200 OK
+Date: Mon, 06 Jan 1997 09:34:15 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3588
+Last-modified: Tue, 05 Nov 1996 19:35:51 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Complimed: Orders & Contact</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+<A HREF="subheader.map"><IMG SRC="subheader.gif" ALT="Complimed: Complementary Medical Research Group" BORDER=0 ISMAP></A>
+<H2>Ordering Information & Contacting Us</H2>
+
+<I><B>How to Order</B></I><BR>
+Our office hours are Monday - Friday, 8 a.m. to 5 p.m., Pacific time. Call, fax or mail in your orders. If you need information or have any questions, feel free to use the form below.<P>
+<CENTER>
+<B>1-800-232-4005</B> or <B>1-360-384-5656</B> (after-hours voicemail)<BR>
+Fax: 1-360-384-1140, 24 hrs. a day<BR>
+1441 West Smith Road, Ferndale, WA 98248<P>
+
+
+<FORM METHOD="POST" ACTION="/cgi-bin/complimed/complimed.cgi">
+<!-- Hidden Variables for client.cgi script -->
+  <input type=hidden name="required" value="business,phone">
+  <input type=hidden name="recipient" value="dwitte@cssnw.com">
+  <input type=hidden name="subject" 
+value="Faxback from the CompliMed Website">
+  <input type=hidden name="sort" value="order:business,DEA,contact,address,city,phone,fax,credapp,message">
+  <input type=hidden name="title" value="Thank You For Your Response">
+  <input type=hidden name="return_link_url" 
+				 value="http://www.complimed.com/">
+  <input type=hidden name="return_link_title" value="Back to the First Page">
+  <input type=hidden name="bgcolor" value="#FFFFFF">
+
+<TABLE BORDER=2 CELLSPACING=2 CELLPADDING=5 ALIGN=CENTER WIDTH=85%>
+  
+<TR>
+    <TD COLSPAN=2 ALIGN=CENTER>
+      <B>Business Name</B><BR>
+      <INPUT TYPE="text" NAME="business" SIZE="60"><BR></TD>
+  </TR>
+  <TR>
+    <TD COLSPAN=2 ALIGN=CENTER>
+      <B>DEA or State License Number</B><BR>
+      <INPUT TYPE="text" NAME="DEA" SIZE="60"><BR></TD>
+  </TR>
+  <TR>
+    <TD COLSPAN=2 ALIGN=CENTER>
+      <B>Contact, Title/Discipline</B><BR>
+      <INPUT TYPE="text" NAME="contact" SIZE="60"><BR></TD>
+  </TR>
+  <TR>
+    <TD ALIGN=CENTER>
+      <B>Address</B><BR>
+      <INPUT TYPE="text" NAME="address" SIZE="30"><BR></TD>
+    <TD ALIGN=CENTER>
+      <B>City, State, Zip</B><BR>
+      <INPUT TYPE="text" NAME="city" SIZE="30"><BR></TD>
+  </TR>
+  <TR>
+    <TD ALIGN=CENTER>
+      <B>Phone, with area code</B><BR>
+      <INPUT TYPE="text" NAME="phone" SIZE="30"><BR></TD>
+    <TD ALIGN=CENTER>
+      <B>Fax, if applicable</B><BR>
+      <INPUT TYPE="text" NAME="fax" SIZE="30"><BR></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=2 ALIGN=CENTER>
+  		<INPUT TYPE="CHECKBOX" NAME="credapp" VALUE="Need a credit application">Check here if you need a credit application for future orders<BR>
+  </TR>
+  <TR>
+    <TD ALIGN=CENTER COLSPAN=2>
+      <B>Message Box</B>-
+      Please enter any questions or comments below.<BR>
+      <TEXTAREA NAME="message" ROWS="10" COLS="60" WRAP></TEXTAREA></TD>
+  </TR>
+  <TR>
+    <TD ALIGN=CENTER>
+      <INPUT TYPE="reset" VALUE="Clear Entries"></TD>
+    <TD ALIGN=CENTER>
+      <INPUT TYPE="submit" VALUE="Send Information"></TD>
+  </TR>
+</TABLE>
+</FORM>
+
+</CENTER>
+
+<CENTER>
+<HR WIDTH=75%>
+<H5>
+[<A HREF="resource.html">Resources</A>] 
+[<A HREF="new.html">What's New</A>] 
+[<A HREF="article.html">Recent Article</A>] <BR>
+[<A HREF="alt.html">Integration of Alternative Therapies</A>] 
+[<A HREF="products.html">Product Listing</A>] <BR>
+[<A HREF="profile.html">Profile</A>] 
+[<A HREF="contact.html">Ordering & Contact</A>] 
+</H5>
+<H6>Copyright Complimed 1996<BR>
+This Internet site prepared by <A HREF="http://www.prosser.com/">Media Access.</A><BR>
+If you have any comments about your visit to this site, please write 
+<A HREF="mailto:webninja@prosser.com">webninja@prosser.com</A></H6>
+
+</CENTER>
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,402 @@
+
+<DOC>
+<DOCNO>WT02-B11-119</DOCNO>
+<DOCOLDNO>IA086-000622-B010-50</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0141.html 130.91.195.242 19970122041710 text/html 19617
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:16:58 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 19445
+Last-modified: Tue, 05 Dec 1995 06:50:54 GMT
+</DOCHDR>
+<!-- received="Mon Dec  4 15:31:21 1995 EST" -->
+<!-- sent="Mon, 04 Dec 1995 15:30:21 -0500" -->
+<!-- name="Dave Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="IP: Gates: Jiffy Iffy Crypto" -->
+<!-- id="2.2b8.32.19951204203021.00ae9444@linc.cis.upenn.edu" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: IP: Gates: Jiffy Iffy Crypto</title>
+<h1>IP: Gates: Jiffy Iffy Crypto</h1>
+Dave Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Mon, 04 Dec 1995 15:30:21 -0500</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#141">[ date ]</a><a href="thread.html#141">[ thread ]</a><a href="subject.html#141">[ subject ]</a><a href="author.html#141">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0142.html">Dave Farber: "IP: 2nd International Cryptogrpahy Experiment (ICE) [worth"</a>
+<li> <b>Previous message:</b> <a href="0140.html">Dave Farber: "IP: INTERNET SECURITY RISKS FOR CONSUMERS OVERBLOWN"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+Date: Sat, 25 Nov 1995 16:06:40 +0100<br>
+To: cypherpunks@toad.com<br>
+From: nobody@replay.com (Anonymous)<br>
+<p>
+<p>
+<i>&gt;From "The Road Ahead," by Bill Gates, with Nathan</i><br>
+Myhrvold and Peter Rinearson, Viking, 1995.<br>
+<p>
+<p>
+[Paths to the Highway, pp. 106-111]<br>
+<p>
+Governments have long understood the importance of<br>
+keeping information private, for both economic and<br>
+military reasons. The need to make personal, commercial,<br>
+military, or diplomatic messages secure (or to break into<br>
+them) has attracted powerful intellects through the<br>
+generations. It is very satisfying to break an encoded<br>
+message. Charles Babbage, who made dramatic advances in<br>
+the art of code breaking in the mid-1800s, wrote:<br>
+"Deciphering is, in my opinion, one of the most<br>
+fascinating of arts, and I fear I have wasted upon it<br>
+more time than it deserves." I discovered its fascination<br>
+as a kid when, like kids everywhere, a bunch of us played<br>
+with simple ciphers. We would encode messages by<br>
+substituting one letter of the alphabet for another. If<br>
+a friend sent me a cipher that began "ULFW NZXX," it<br>
+would be fairly easy to guess that this represented "DEAR<br>
+BILL," and that U stood for D, and L for E, and so forth.<br>
+With those seven letters it wasn't hard to unravel the<br>
+rest of the cipher fairly quickly.<br>
+<p>
+Past wars have been won or lost because the most powerful<br>
+governments on earth didn't have the cryptological power<br>
+any interested junior high school student with a personal<br>
+computer can harness today. Soon any child old enough to<br>
+use a computer will be able to transmit encoded messages<br>
+that no government on earth will find easy to decipher.<br>
+This is one of the profound implications of the spread of<br>
+fantastic computing power.<br>
+<p>
+When you send a message across the information highway it<br>
+will be "signed" by your computer or other information<br>
+appliance with a digital signature that only you are<br>
+capable of applying, and it will be encrypted so that<br>
+only the intended recipient will be able to decipher it.<br>
+You'll send a message, which could be information of any<br>
+kind, including voice, video, or digital money. The<br>
+recipient will be able to be almost positive that the<br>
+message is really from you, that it was sent at exactly<br>
+the indicated time, that it has not been tampered with in<br>
+the slightest, and that others cannot decipher it.<br>
+<p>
+The mechanism that will make this possible is based on<br>
+mathematical principles, including what are called<br>
+"one-way functions" and "public-key encryption." These<br>
+are quite advanced concepts, so I'm only going to touch<br>
+on them. Keep in mind that regardless of how complicated<br>
+the system is technically, it will be extremely easy for<br>
+you to use. You'll just tell your information appliance<br>
+what you want it to do and it will seem to happen<br>
+effortlessly.<br>
+<p>
+A one-way function is something that is much easier to do<br>
+than undo. Breaking a pane of glass is a one-way<br>
+function, but not one useful for encoding. The sort of<br>
+one-way function required for cryptography is one that is<br>
+easy to undo if you know an extra piece of information<br>
+and very diffficult to undo without that information.<br>
+There are a number of such one-way functions in<br>
+mathematics. One involves prime numbers. Kids learn about<br>
+prime numbers in school. A prime number cannot be divided<br>
+evenly by any number except 1 and itself. Among the first<br>
+dozen numbers, the primes are 2, 3, 5, 7, and 11. The<br>
+numbers 4, 6, 8, and 10 are not prime because 2 divides<br>
+into each of them evenly. The number 9 is not prime<br>
+because 3 divides into it evenly. There are an infinite<br>
+number of prime numbers, and there is no known pattern to<br>
+them except that they are prime. When you multiply two<br>
+prime numbers together, you get a number that can be<br>
+divided evenly only by those same two primes. For<br>
+example, only 5 and 7 can be divided evenly into 35.<br>
+Finding the primes is called "factoring" the number.<br>
+<p>
+It is easy to multiply the prime numbers 11,927 and<br>
+20,903 and get the number 249,310,081, but it is much<br>
+harder to recover from the product, 249,310,081, the two<br>
+prime numbers that are its factors. This one-way<br>
+function, the difficulty of factoring numbers, underlies<br>
+an ingenious kind of cipher: the most sophisticated<br>
+encryption system in use today. It takes a long time for<br>
+even the largest computers to factor a really large<br>
+product back into its constituent primes. A coding system<br>
+based on factoring uses two different decoding keys, one<br>
+to encipher a message and a different but related one to<br>
+decipher. With only the enciphering key, it's easy to<br>
+encode a message, but deciphering it within any practical<br>
+period of time is nearly impossible. Deciphering requires<br>
+a separate key, available only to the intended recipient<br>
+of the message -- or, rather, to the recipient's<br>
+computer. The enciphering key is based on the product of<br>
+two huge prime numbers, whereas the deciphering key is<br>
+based on the primes themselves. A computer can generate<br>
+a new pair of unique keys in a flash, because it is easy<br>
+for a computer to generate two large prime numbers and<br>
+multiply them together. The enciphering key thus created<br>
+can be made public without appreciable risk, because of<br>
+the difficulty even another computer would have factoring<br>
+it to obtain the deciphering key.<br>
+<p>
+The practical application of this encryption will be at<br>
+the center of the information highway's security system.<br>
+The world will become quite reliant on this network, so<br>
+it is important that security be handled competently. You<br>
+can think of the information highway as a postal network<br>
+where everyone has a mailbox that is impervious to<br>
+tampering and has an unbreakable lock. Each mailbox has<br>
+a slot that lets anyone slide information in, but only<br>
+the owner of a mailbox has the key to get information<br>
+out. (Some governments may insist that each mailbox have<br>
+a second door with a separate key that the government<br>
+keeps, but we'll ignore that political consideration for<br>
+now and concentrate on the security that software will<br>
+provide.)<br>
+<p>
+Each user's computer or other information appliance will<br>
+use prime numbers to generate an enciphering key, which<br>
+will be listed publicly, and a corresponding deciphering<br>
+key, which only the user will know. This is how it will<br>
+work in practice: I have information I want to send you.<br>
+My information appliance/computer system looks up your<br>
+public key and uses it to encrypt the information before<br>
+sending it. No one can read the message, even though your<br>
+key is public knowledge, because your public key does not<br>
+contain the information needed for decryption. You<br>
+receive the message and your computer decrypts it with a<br>
+private key that corresponds to your public key.<br>
+<p>
+You want to answer. Your computer looks up my public key<br>
+and uses it to encrypt your reply. No one else can read<br>
+the message, even though it was encrypted with a key that<br>
+is totally public. Only I can read it because only I have<br>
+the private deciphering key. This is very practical,<br>
+because no one has to trade keys in advance.<br>
+<p>
+How big do the prime numbers and their products have to<br>
+be to ensure an effective one-way function?<br>
+<p>
+The concept of public-key encryption was invented by<br>
+Whitfield Diffie and Martin Hellman in 1977. Another set<br>
+of computer scientists, Ron Rivest, Adi Shamir, and<br>
+Leonard Adelman, soon came up with the notion of using<br>
+prime factorization as part of what is now known as the<br>
+RSA cryptosystem, after the initials of their last names.<br>
+They projected that it would take millions of years to<br>
+factor a 130-digit number that was the product of two<br>
+primes, regardless of how much computing power was<br>
+brought to bear. To prove the point, they challenged the<br>
+world to find the two factors in this 129-digit number,<br>
+known to people in the field as RSA 129:<br>
+<p>
+   114,381,625,757,888,867,669,235,779,976,146,612,010,<br>
+   218,296,721,242,362,562,561,842,935,706,935,245,733,<br>
+   897,830,597,123,563,958,705,058,989,075,147,599,290,<br>
+   026,879,543,541<br>
+<p>
+They were sure that a message they had encrypted using<br>
+the number as the public key would be totally secure<br>
+forever. But they hadn't anticipated either the full<br>
+effects of Moore's Law, as discussed in chapter 2, which<br>
+has made computers much more powerful, or the success of<br>
+the personal computer, which has dramatically increased<br>
+the number of computers and computer users in the world.<br>
+In 1993 a group of more than 600 academics and hobbyists<br>
+from around the world began an assault on the 129-digit<br>
+number, using the Internet to coordinate the work of<br>
+various computers. In less than a year they factored the<br>
+number into two primes, one 64 digits long and the other<br>
+65. The primes are as follows:<br>
+<p>
+   3,490,529,510,847,650,949,147,849,619,903,898,133,<br>
+   417,764,638,493,387,843,990,820,577<br>
+<p>
+and<br>
+<p>
+   32,769,132,993,266,709,549,961,988,190,834,461,413,<br>
+   177,642,967,992,942,539,798,288,533<br>
+<p>
+And the encoded message says: "The magic words are<br>
+squeamish and ossifrage."<br>
+<p>
+One lesson that came out of this challenge is that a<br>
+129-digit public key is not long enough if the<br>
+information being encrypted is really important and<br>
+sensitive. Another is that no one should get too cocksure<br>
+about the security of encryption.<br>
+<p>
+Increasing the key just a few digits makes it much more<br>
+difficult to crack. Mathematicians today believe that a<br>
+250-digit-long product of two primes would take millions<br>
+of years to factor with any foreseeable amount of future<br>
+computing power. But who really knows? This uncertainty<br>
+-- and the unlikely but conceivable possibility that<br>
+someone could come up with an easy way of factoring big<br>
+numbers -- means that a software platform for the<br>
+information highway will have to be designed in such a<br>
+way that its encryption scheme can be changed readily.<br>
+<p>
+One thing we don't have to worry about is running out of<br>
+prime numbers, or the prospect of two computers'<br>
+accidentally using the same numbers as keys. There are<br>
+far more prime numbers of appropriate length than there<br>
+are atoms in the universe, so the chance of an accidental<br>
+duplication is vanishingly small.<br>
+<p>
+Key encryption allows more than just privacy. It can also<br>
+assure the authenticity of a document because a private<br>
+key can be used to encode a message that only the public<br>
+key can decode. It works like this: If I have information<br>
+I want to sign before sending it to you, my computer uses<br>
+my private key to encipher it. Now the message can be<br>
+read only if my public key -- which you and everyone else<br>
+knows -- is used to decipher it. This message is<br>
+verifiably from me, because no one else has the private<br>
+key that could have encrypted it in this way.<br>
+<p>
+My computer takes this enciphered message and enciphers<br>
+it again, this time using your public key. Then it sends<br>
+this double-coded message to you across the information<br>
+highway.<br>
+<p>
+Your computer receives the message and uses your private<br>
+key to decipher it. This removes the second level of<br>
+encoding but leaves the level I applied with my private<br>
+key. Then your computer uses my public key to decipher<br>
+the message again. Because it really is from me, the<br>
+message deciphers correctly and you know it is authentic.<br>
+If even one bit of information was changed, the message<br>
+would not decode properly and the tampering or<br>
+communications error would be apparent. This<br>
+extraordinary security will enable you to transact<br>
+business with strangers or even people you distrust,<br>
+because you'll be able to be sure that digital money is<br>
+valid and signatures and documents are provably<br>
+authentic.<br>
+<p>
+Security can be increased further by having time stamps<br>
+incorporated into encrypted messages. If anyone tries to<br>
+tinker with the time that a document supposedly was<br>
+written or sent, the tinkering will be detectable. This<br>
+will rehabilitate the evidentiary value of photographs<br>
+and videos, which has been under assault because digital<br>
+retouching has become so easy to do.<br>
+<p>
+My description of public-key encryption oversimplifies<br>
+the technical details of the system. For one thing,<br>
+because it is relatively slow, it will not be the only<br>
+form of encipherment used on the highway. But publickey<br>
+encryption will be the way that documents are signed,<br>
+authenticity is established, and the keys to other kinds<br>
+of encryption are distributed securely.<br>
+<p>
+<p>
+[Critical Issues, pp. 265-66, 270-71]<br>
+<p>
+This versatility will be the strength of the network, but<br>
+it will also mean we will become reliant on it.<br>
+<p>
+Reliance can be dangerous. During the New York City<br>
+blackouts in 1965 and 1977, millions of people were in<br>
+trouble -- at least for a few hours -- because of their<br>
+dependence on electricity. They counted on electric power<br>
+for light, heat, transport, and security. When<br>
+electricity failed, people were trapped in elevators,<br>
+traffic lights stopped working, and electric water pumps<br>
+quit. Anything really useful is missed when you lose it.<br>
+<p>
+A complete failure of the information highway is worth<br>
+worrying about. Because the system will be thoroughly<br>
+decentralized, any single outage is unlikely to have a<br>
+widespread effect. If an individual server fails, it will<br>
+be replaced and its data restored. But the system could<br>
+be susceptible to assault. As the system becomes more<br>
+important, we will have to design in more redundancy. One<br>
+area of vulnerability is the system's reliance on<br>
+cryptography -- the mathematical locks that keep<br>
+information safe.<br>
+<p>
+None of the protection systems that exist today, whether<br>
+steeringwheel locks or steel vaults, are completely<br>
+fail-safe. The best we can do is make it as difficult as<br>
+possible for somebody to break in. Despite popular<br>
+opinions to the contrary, computer security has a very<br>
+good record. Computers are capable of protecting<br>
+information in such a way that even the smartest hackers<br>
+can't get at it readily unless someone entrusted with<br>
+information makes a mistake. Sloppiness is the main<br>
+reason computer security gets breached. On the<br>
+information highway there will be mistakes, and too much<br>
+information will get passed along. Someone will issue<br>
+digital concert tickets that prove to be forgeable, and<br>
+too many people will show up. Whenever this sort of thing<br>
+happens, the system will have to be reworked and laws may<br>
+have to be revised.<br>
+<p>
+Because both the system's privacy and the security of<br>
+digital money depend on encryption, a breakthrough in<br>
+mathematics or computer science that defeats the<br>
+cryptographic system could be a disaster. The obvious<br>
+mathematical breakthrough would be development of an easy<br>
+way to factor large prime numbers. Any person or<br>
+organization possessing this power could counterfeit<br>
+money, penetrate any personal, corporate, or governmental<br>
+file, and possibly even undermine the security of<br>
+nations, which is why we have to be so careful in<br>
+designing the system. We have to ensure that if any<br>
+particular encryption technique proves fallible, there is<br>
+a way to make an immediate transition to an alternate<br>
+technique. There's a little bit of inventing still to be<br>
+done before we have that perfected. It is particularly<br>
+hard to guarantee security for information you want kept<br>
+private for a decade or more.<br>
+<p>
+[Good section on privacy protection elided]<br>
+<p>
+At the same time technology is making it easier to create<br>
+video records, it is also making it possible to keep all<br>
+your personal documents and messages totally private.<br>
+Encryption-technology software, which anyone can download<br>
+from the Internet, can transform a PC into a virtually<br>
+unbreakable code machine. As the highway is deployed,<br>
+security services will be applied to all forms of digital<br>
+information -- phone calls, files, databases, you name<br>
+it. As long as you protect the password, the information<br>
+stored on your computer can be held under the strongest<br>
+lock and key that has ever existed. This allows for the<br>
+greatest degree of information privacy any individual has<br>
+ever had.<br>
+<p>
+Many in government are opposed to this encryption<br>
+capability, because it reduces their ability to gather<br>
+information. Unfortunately for them, the technology can't<br>
+be stopped. The National Security Agency is a part of the<br>
+U.S. government defense and intelligence community that<br>
+protects this country's secret communications and<br>
+decrypts foreign communications to gather intelligence<br>
+data. The NSA does not want software containing advanced<br>
+encryption capabilities to be sent outside the United<br>
+States. However, this software is already available<br>
+throughout the world, and any computer can run it. No<br>
+policy decision will be able to restore the tapping<br>
+capabilities governments had in the past.<br>
+<p>
+Today's legislation that prevents the export of software<br>
+with good encryption capability could harm U.S. software<br>
+and hardware companies. The restrictions give foreign<br>
+companies an advantage over U.S. competitors. American<br>
+companies almost unanimously agree that the current<br>
+encryption export restrictions don't work.<br>
+<p>
+-----<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0142.html">Dave Farber: "IP: 2nd International Cryptogrpahy Experiment (ICE) [worth"</a>
+<li> <b>Previous message:</b> <a href="0140.html">Dave Farber: "IP: INTERNET SECURITY RISKS FOR CONSUMERS OVERBLOWN"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

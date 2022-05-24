@@ -1,0 +1,213 @@
+
+<DOC>
+<DOCNO>WT02-B08-21</DOCNO>
+<DOCOLDNO>IA070-000444-B019-256</DOCOLDNO>
+<DOCHDR>
+http://www.chelsea.co.uk:80/ci_form.html 194.72.155.58 19970120215137 text/html 10126
+HTTP/1.0 200 OK
+Date: Mon, 20 Jan 1997 21:51:36 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 9955
+Last-modified: Mon, 13 Jan 1997 09:41:55 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+
+<TITLE>CHELSEA INSTRUMENTS ENQUIRY FORM</TITLE>
+</HEAD>
+<BODY>
+<BODY BACKGROUND="images/ci_yelbk.jpg" BGCOLOR="#ffff7a" TEXT="#000000" LINK="#0000ff"  ALINK="#00ffff" VLINK="#0000ff">
+
+
+<!***** LINKS *****>
+
+<P ALIGN=CENTER>
+<FONT SIZE="5"><A NAME="TOP"><A HREF="index.html"><B>Index</B></A>
+<BR><FONT SIZE="4"><A HREF="ci_senso.html">Sensors</A><FONT SIZE="7"> .<FONT SIZE="4"> <A HREF="ci_vehic.html">Vehicles</A><FONT SIZE="7"> . <FONT SIZE="4"> <A HREF="ci_decks.html">Deck Units</A><FONT SIZE="7"> . <FONT SIZE="4"><A HREF="ci_systm.html">Systems </A><FONT SIZE="7"> . <FONT SIZE="4"><A HREF="ci_other.html">Other Services</A><BR><FONT SIZE="3"><A HREF="ci_info.html">Company  Information</A><FONT SIZE="6"> . <FONT SIZE="3"><A HREF="ci_news.html">News</A><FONT SIZE="6"> . <FONT SIZE="3"><A HREF="ci_reps.html">Representatives Details</A><FONT SIZE="6"> . <FONT SIZE="3"><A HREF="ci_form.html">Enquiry Form </A><HR>
+<P ALIGN=CENTER><A HREF="#BOTTOM">Bottom of the page</A>
+
+<P ALIGN=CENTER><IMG SRC="images/ci_logo.gif" WIDTH="100" HEIGHT="143" ALT="Chelsea Instruments"></P>
+<CENTER><H1>Chelsea Instruments Enquiry Form</H1>
+
+<H2>For further product or service information, please complete this form and press send</H2>
+
+</CENTER>
+
+<FORM METHOD=POST ACTION="http://icg.resnet.upenn.edu/mailto.cgi">
+<!INPUT TYPE="hidden" NAME="to" SIZE="30" Value="minotaur@mistral.co.uk">
+<INPUT TYPE="hidden" NAME="to" SIZE="30" Value="100731.2345@compuserve.com">
+<INPUT TYPE=HIDDEN NAME="subject" SIZE="30" Value="WWW Product Enquiry">
+<INPUT TYPE="hidden" NAME="continue_url" VALUE="http://www.chelsea.co.uk/index.html"><BR>
+<INPUT TYPE="hidden" NAME="continue_text" VALUE="Go back to Chelsea Instruments Index Page" SIZE=30>
+<INPUT TYPE="hidden" NAME="00 **** FOR THE ATTENTION OF " VALUE=" ELLEN KEEGAN *****">
+
+<CENTER>
+<TABLE BORDER="0">
+<TH>	<TD COLSPAN=4 ROWSPAN=1 ALIGN=LEFT><B><FONT SIZE="5"> ENQUIRY FORM 	</FONT></B></TD></TR>
+
+<TR>	
+<TD ALIGN=LEFT ROWSPAN=1 COLSPAN=1>Title</TD>
+<TD ALIGN=LEFT ROWSPAN=1 COLSPAN=1><INPUT TYPE="TEXT" NAME="01 title" SIZE="15" value="Mr/Mrs/Dr..."></TD>
+
+<TR>
+<TD ALIGN=LEFT ROWSPAN=1 COLSPAN=1>First Name<TD ALIGN=LEFT COLSPAN=1 ROWSPAN=1><INPUT TYPE="TEXT" NAME="02 First name" SIZE="30 MAXLENGTH="30">
+</TR>
+
+<TR>
+<TD ALIGN=LEFT ROWSPAN=1 COLSPAN=1>Last Name
+<TD ALIGN=LEFT COLSPAN=8 ROWSPAN=1><INPUT TYPE="TEXT" NAME="03 name" SIZE="30 MAXLENGTH="30">
+</TR>
+
+<TR>	<TD ROWSPAN=1 colspan=1 ALIGN=LEFT>Position
+	<TD ALIGN=LEFT COLSPAN=5 ROWSPAN=1><INPUT TYPE="TEXT" NAME="04 position" 		SIZE="40" MAXLENGTH="40"></TD>
+</TR>
+<TR>	<TD COLSPAN=1 ROWSPAN=1 ALIGN=LEFT>Organisation
+	<TD COLSPAN=7 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="05 organisation" 	SIZE="40" MAXLENGTH="40"></TD>
+</TR>
+<TR>	<TD ROWSPAN=1 colspan=1 ALIGN=LEFT>Department
+	<TD COLSPAN=7 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="06 department" 	SIZE="40" MAXLENGTH="40"></TD>
+</TR>
+<TR>
+<TR>	<TD>Address
+	<TD COLSPAN=4 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="07 addr1" SIZE="30" MAXLENGTH="30"></TD>
+</TR>
+
+<TR>	<TD><TD COLSPAN=4 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="08 addr2" 	SIZE="30" MAXLENGTH="30"></TD>
+</TR>
+
+<TR>	<TD><TD COLSPAN=4 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="09 addr3" 	SIZE="30" MAXLENGTH="30"></TD>
+</TR>
+
+
+<TR>	<TD>City<TD COLSPAN=4 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="10 addr4" 	SIZE="30" MAXLENGTH="30"></TD>
+</TR>
+
+<TR>	<TD>County/Area
+	<TD COLSPAN=3 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="11 addr5" SIZE="30" 	MAXXLENGTH="30">
+	<TD COLSPAN=2 ROWSPAN=1 ALIGN=RIGHT>Postcode/Zip
+	<TD COLSPAN=1 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="12 addr6" SIZE="10" MAXLENGTH="10"></TD>
+</TR>
+<TR></TR>
+<TR>	<TD>Country
+	<TD COLSPAN=4 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="13 addr7" SIZE="25" 	MAXLENGTH="25"></TD>
+</TR>
+
+<TR>
+<TD>Phone<TD COLSPAN=3 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="14 phone" SIZE="25" MAXLENGTH="25">
+</TR>
+<TR>
+<TD ALIGN=LEFT COLSPAN=1>Fax<TD COLSPAN=4 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="15 fax" SIZE="25" 	MAXLENGTH="25"></TD>
+</TR>
+<TR>	<TD ALIGN=LEFT>E-Mail
+	<TD COLSPAN=2 ROWSPAN=1 ALIGN=LEFT><INPUT TYPE="TEXT" NAME="16 from" SIZE="30">
+	<!TD COLSPAN=5 ROWSPAN=1 ALIGN=LEFT(You must enter this!)><!/TD>
+</TR>
+
+</Table>
+</CENTER>
+<BR>
+<BR>
+<H2>I am interested in further details on these products... </H2>
+<CENTER>
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD COLSPAN=3 ALIGN=CENTER><B><FONT SIZE="5">SENSORS</FONT></B></TR></TD>
+<TR><TD><INPUT TYPE="checkbox" NAME="17 aquatracka mk III" VALUE="yes"><B>Aquatracka Mark III </B><TD><FONT SIZE="3">  Lightweight fluorimeter for chlorophyll-<I>a</I> determination, rhodamine dye tracking or turbidity measurements. </FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="18 logging aquatracka" VALUE="yes"><B>Logging Aquatracka </B><TD><FONT SIZE="3"> Compact, lightweight submersible logging fluorimeter.</FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="19 UV aquatracka" VALUE="yes"><B>UV Aquatracka </B><TD><FONT SIZE="3"> In-situ PMT fluorimeter for hydrocarbon and gelbstoff detection.</FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="20 Minitracka" VALUE="yes"><B>Minitracka</B><TD><FONT SIZE="3"> Small, light weight, low power consumption, submersible fluorimeter.</FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="21 Fastracka" VALUE="yes"><B>Fastracka</B><TD><FONT SIZE="3">Fast Repetition Rate Fluorimeter.</FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="22 alphatracka mk II" VALUE="yes"><B>Alphatracka Mark II </B><TD><FONT SIZE="3"> High accuracy measurement of suspended and dissolved solids throughout the water column. </FONT> </TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="23 aquapack" VALUE="yes"><B>Aquapack </B><TD><FONT SIZE="3"> Multi-parameter system for environmental monitoring in oceans, rivers lakes and reservoirs.</FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="24 aqualink" VALUE="yes"><B>Aqualink CTD </B><TD><FONT SIZE="3"> Conductivity/temperature/depth monitoring to depths of 6000 metres. </FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="25 glowtracka" VALUE="yes"><B>Glowtracka </B><TD><FONT SIZE="3"> Measures Bioluminescence for toxic blooms and biomass studies to continental shelf depths (200 metres).</FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="26 aquatrace" VALUE="yes"><B>Aquatrace </B><TD><FONT SIZE="3"> Multi-parameter electro-chemical sensor pack.</FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="27 powerline modem" VALUE="yes"><B>Powerline Modem</B><TD><FONT SIZE="3"> Integrated system which allows power and bi-directional digital communications to submersible equipment over the same cable.</FONT></TD></TR>
+
+
+
+</TABLE>
+<BR>
+<TABLE BORDER="1" WIDTH=600 ALIGN="TOP">
+<TR><TD COLSPAN=2 ALIGN=CENTER><B><FONT SIZE="5">TOWED VEHICLES</FONT></B></TR></TD>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="28 aquashuttle III" VALUE="yes" ALIGNTEXT="RIGHT"><B>Aquashuttle Mark III</B><TD><FONT SIZE="3"> Stable high speed undulating vehicle towed at controllable depths (typically 0-150 metres) and capable of carrying a wide range of instruments.</FONT></TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="29 Nu Shuttle" VALUE="yes"><B>Nu-Shuttle </B><TD><FONT SIZE="3"> Towed undulating oceanographic vehicle, large versatile payload, suitable for ships of opportunity</FONT> </TD></TR>
+
+<TR><TD><INPUT TYPE="checkbox" NAME="30 seasoar mkII" VALUE="yes" ALIGN=TOP><B>SeaSoar Mark II</B><TD><FONT SIZE="3"> Undulating towed body which carries a large suite of sensors at speeds of up to 10 knots and to depths of 500 metres. </FONT></TD></TR>
+</TABLE>
+<BR>
+
+<TABLE BORDER="1" WIDTH=600>
+<TR><TD COLSPAN=3 ALIGN=CENTER><B><FONT SIZE="5">DECK UNITS</FONT></B></TR></TD>
+
+<TR><TD COLSPAN=1><INPUT TYPE="checkbox" NAME="31 md_unit" VALUE="yes"><B>Marine Deck Unit </B><TD><FONT SIZE="3"> A direct link to analogue instruments for logging, display and power.</FONT></TD></TR>
+
+<TR><TD COLSPAN=1><INPUT TYPE="checkbox" NAME="32 Standard I/F" VALUE="yes"><B>Standard Interface unit</B><TD><FONT SIZE="3">Provides power and data links over oceanographic<BR>cables up to 1000 metres. </FONT></TD></TR>
+
+<TR><TD COLSPAN=1><INPUT TYPE="checkbox" NAME="33 Portable I/F" VALUE="yes"><B>Portable Interface Unit</B><TD><FONT SIZE="3">For programming internally recording instruments prior to <BR>deployment, and data extraction on completion of trials. </FONT></TD></TR>
+</TABLE>
+<BR>
+
+<TABLE BORDER="1" WIDTH=600>
+<TR><TD COLSPAN=1 ALIGN=CENTER><B><FONT SIZE="5">SYSTEMS</FONT></B></TR></TD>
+<TR><TD><INPUT TYPE="checkbox" NAME="34 CTD Sensor" VALUE="yes"><B>CTD Sensor Chain</B></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="35 Flow Cells" VALUE="yes"><B>Oceanographic Flow Cells</B></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="36 Autonomous Underwater Vehicle" VALUE="yes"><B>Autonomous Underwater Vehicle</B></TR>
+
+</TABLE>
+<BR>
+
+<TABLE BORDER="1" WIDTH=600>
+<TR><TD COLSPAN=1 ALIGN=CENTER><B><FONT SIZE="5">OTHER SERVICES</FONT></B></TR></TD>
+<TR><TD><INPUT TYPE="checkbox" NAME="37 Calibration" VALUE="yes"><B>Calibration services</B></TD></TR>
+</TABLE>
+
+
+<H3>Comments</H3>
+<TEXTAREA COLS=60 ROWS=10 NAME="body">comments</TEXTAREA><P>
+
+<INPUT TYPE="SUBMIT" VALUE="Send enquiry to Chelsea Instruments">
+</CENTER>
+</FORM>
+
+<A NAME="BOTTOM">
+
+<HR><BR>
+<CENTER><FONT SIZE="3">
+<B>Chelsea Instruments Ltd.</B> 2/3 Central Avenue, West Molesey, Surrey, KT8 2QZ, UK.<BR>
+Tel: 0181 941 0044, Fax: 0181 941 9319<BR><FONT SIZE="3">
+International Tel: +44 181 941 0044, Fax: +44 181 941 9319<BR><BR>
+E-Mail : <A HREF=mailto:100731.2345@compuserve.com>100731.2345@compuserve.com</A><BR><BR></FONT>
+<FONT SIZE="2"><A HREF="#TOP">top of page</A><BR><BR>
+<A NAME="BOTTOM"></A>
+<HR>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</DOC>

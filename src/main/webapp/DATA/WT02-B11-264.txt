@@ -1,0 +1,91 @@
+
+<DOC>
+<DOCNO>WT02-B11-264</DOCNO>
+<DOCOLDNO>IA086-000618-B040-288</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/topic.regulation.meng.html 130.91.195.242 19970122051352 text/html 3570
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:13:53 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3399
+Last-modified: Tue, 22 Nov 1994 06:33:39 GMT
+</DOCHDR>
+<TITLE>Regulation - Technological/Social Aspects</TITLE>
+<H1>Regulation - Technological/Social Aspects</H1>
+
+<UL>
+<LI> Clipper proposal is also formally known as FIPS 185. <P>
+<LI> The bottom line is, now that encryption technology is in the
+     hands of the users, there is <B>nothing</B> the government can do
+     <I>even today</I> to spy on its citizens. <P>
+<LI> The Clipper Chip, however, is not about giving the government the
+     right to spy on its citizens; first of all it is restricted to
+     the telephone system, and secondly it is volutnary.  In Dorothy
+     Denning's words,
+<BLOCKQUOTE>
+<I>
+The standard (FIPS 185) is not a standard for the Internet or any
+other high speed computer network. It is for the telephone system.
+Quoting from FIPS 185: "Data for purposes of this standard includes
+voice, facsimile and computer information communicated in a telephone
+system. A telephone system for purposes of this standard is limited to
+a system which is circuit switched and operating at data rates of
+standard commercial modems over analog voice circuits or which uses
+basic-rate ISDN or a similar grade wireless service." <P>
+
+The standard will not make it any easier to tap phones, let alone
+computer networks.  All it will do is make it technically possible to
+decrypt communications that are encrypted with the standard, assuming
+the communications are not superencrypted with something else. <P>
+</I></BLOCKQUOTE>
+<LI> The obvious question, then, is "when will the other shoe drop?" <P>
+     Clearly even the NSA alone is clearsighted enough to realize
+     criminals and the like, who would be targets of wiretapping,
+     would either superencrypt over Clipper, or use alternative
+     technologies entirely.  Therefore FIPS 185 must be the precursor
+     to legislation which would outlaw strong non-government-approved
+     encryption entirely. <P>
+
+</UL>
+
+<H2> A Brief Overview of PGP, and Patented Algorithms </H2>
+     <UL>
+     <LI> RSA patented by PKP, which holds almost <B>all</B> useful
+          public-key strong encryption patents.  They produce RIPEM. <P>
+     <LI> patent violations of RSA have not to date been taken to
+          court; a lawyer's letter has usually sufficed to get the
+          offending software (PGP) removed from public access. <P>
+     <LI> most recently however a company which has been licensed by PKP
+	  has been in touch with Zimmerman, and a legal version of PGP may
+	  be on the horizon. <P>
+</UL>
+
+<H2> digital telephony bill </H2>
+
+    Though not specifically listed as a target in the proposal, many people are
+calling Digital Telephony "Son of S. 266," a failed Senate bill that required
+the same "dumbing-down" for encryption as the F.B.I. proposal does for phone
+systems. In other words, makers of encryption devices or software were to be
+required to leave a "back door" open for law -enforcement and security agencies
+that wanted to decode encrypted communication. <P>
+
+<hr>
+
+<H2><A NAME="colophon">Colophon</A></H2>
+
+<UL>
+<LI> last modified 940317
+<LI> this file is being maintained by <A
+     HREF="http://www.seas.upenn.edu/~mengwong/meng.html">Meng Weng
+     Wong</A>.  please email <B>mengwong@seas.upenn.edu</B> with
+     corrections.
+</UL>
+
+<B>
+Disclaimer: This document in no way represents the University of
+Pennsylvania.  All opinions and errors are mine alone.
+</B>
+
+<ADDRESS>mengwong@seas.upenn.edu</ADDRESS>
+</DOC>

@@ -1,0 +1,99 @@
+
+<DOC>
+<DOCNO>WT02-B11-120</DOCNO>
+<DOCOLDNO>IA086-000622-B010-66</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0138.html 130.91.195.242 19970122041727 text/html 5336
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:17:26 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 5165
+Last-modified: Tue, 05 Dec 1995 02:41:02 GMT
+</DOCHDR>
+<!-- received="Mon Dec  4 14:40:00 1995 EST" -->
+<!-- sent="Mon, 04 Dec 1995 14:39:29 -0500" -->
+<!-- name="Dave Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="How to steal ecash (was: Questions/Comments on ecash protocol)" -->
+<!-- id="2.2b8.32.19951204193929.00badf8c@linc.cis.upenn.edu" -->
+<!-- inreplyto="" -->
+<title>Daily Chat on CIS899: How to steal ecash (was: Questions/Comments on ecash protocol)</title>
+<h1>How to steal ecash (was: Questions/Comments on ecash protocol)</h1>
+Dave Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Mon, 04 Dec 1995 14:39:29 -0500</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#138">[ date ]</a><a href="thread.html#138">[ thread ]</a><a href="subject.html#138">[ subject ]</a><a href="author.html#138">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0139.html">Dave Farber: "Re: Meeting notes from ANSI X.9 Meeting on Electronic Payment"</a>
+<li> <b>Previous message:</b> <a href="0137.html">Dave Farber: "try http://www.mktmkt.com/ic.html for lot of credit card"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+<i>&gt;Posted-Date: 4 Dec 1995 14:08:33 -0500</i><br>
+<i>&gt;To: cypherpunks@toad.com</i><br>
+<i>&gt;Path: not-for-mail</i><br>
+<i>&gt;From: iagoldbe@calum.csclub.uwaterloo.ca (Ian Goldberg)</i><br>
+<i>&gt;Newsgroups: csc.lists.cypherpunks</i><br>
+<i>&gt;Subject: How to steal ecash (was: Questions/Comments on ecash protocol)</i><br>
+<i>&gt;Date: 4 Dec 1995 14:08:33 -0500</i><br>
+<i>&gt;Organization: University of Waterloo Computer Science Club</i><br>
+<i>&gt;Lines: 40</i><br>
+<i>&gt;Distribution: csc</i><br>
+<i>&gt;References: &lt;199512012222.OAA18230@netcom14.netcom.com&gt;</i><br>
+&lt;199512030127.RAA03496@cory.EECS.Berkeley.EDU&gt;<br>
+<i>&gt;Reply-To: iang@cs.berkeley.edu</i><br>
+<i>&gt;Sender: owner-cypherpunks@toad.com</i><br>
+<i>&gt;</i><br>
+<i>&gt;In article &lt;199512030127.RAA03496@cory.EECS.Berkeley.EDU&gt;,</i><br>
+<i>&gt;Ian Goldberg  &lt;iang@cory.EECS.Berkeley.EDU&gt; wrote:</i><br>
+<i>&gt;&gt;Since the payer_code is not supposed to be sent around, how is it sent to</i><br>
+<i>&gt;&gt;the bank in order to cancel a payment?  The document says "This allows him</i><br>
+<i>&gt;&gt;to cancel the payment (deposit in his account)...", which seems to indicate</i><br>
+<i>&gt;&gt;that a cancellation is just a deposit (made out to someone else), accompanied</i><br>
+<i>&gt;&gt;by an appropriate payer_code.  It is important that an eavesdropper not</i><br>
+<i>&gt;&gt;be able to ever see the payer_code that corresponds to a payment, or</i><br>
+<i>&gt;&gt;else she could present both to the bank and say "cancel this payment",</i><br>
+<i>&gt;&gt;and get the money "back".</i><br>
+<i>&gt;</i><br>
+<i>&gt;After reading the responses to my questions/comments, it seems that, if</i><br>
+<i>&gt;Charlie (the customer) wants to cancel a payment, his ecash client sends</i><br>
+<i>&gt;a copy of the payment, including the payer_code field (which evidently was</i><br>
+<i>&gt;not in the original payment), to the mint.  The mint accepts the payment</i><br>
+<i>&gt;because the payer_code was supplied.  However, the payer_code is sent</i><br>
+<i>&gt;_in the clear_.</i><br>
+<i>&gt;</i><br>
+<i>&gt;Thus: How to steal ecash:</i><br>
+<i>&gt;</i><br>
+<i>&gt;This method can be used by Mitch, an active eavesdropper, though all he really</i><br>
+<i>&gt;needs to be able to do is selectively remove or delay packets in transit.</i><br>
+<i>&gt;</i><br>
+<i>&gt;Mitch taps either his target, or, better yet, the mint, and watches for</i><br>
+<i>&gt;deposits to the mint that have the payer_code filled in (a cancelled payment).</i><br>
+<i>&gt;He delays that packet, and sends the identical deposit to the mint himself</i><br>
+<i>&gt;(with his own userID in the userhdr, of course).  The mint, being unable</i><br>
+<i>&gt;to know who withdrew the coin originally, has no reason to believe it wasn't</i><br>
+<i>&gt;Mitch, and so happily deposits the money "back" in Mitch's account.</i><br>
+<i>&gt;Mitch is then free to release the delay on the original packet, and</i><br>
+<i>&gt;Charlie's deposit fails (as the coin has already been deposited).</i><br>
+<i>&gt;</i><br>
+<i>&gt;So:  do I &lt;a href="<a href="http://www.digicash.com/ecash/suggestion-box.html">http://www.digicash.com/ecash/suggestion-box.html</a>"&gt;win&lt;/a&gt;</i><br>
+<i>&gt;anything?   :-)</i><br>
+<i>&gt;</i><br>
+<i>&gt;Disclaimer: Don't do this.  Then again, is it illegal to copy ecash?  I doubt</i><br>
+<i>&gt;  it's considered counterfeiting.  What about creating ecash out of thin air</i><br>
+<i>&gt;  (say I had a magic factoring box (like a quantum computer (well, not yet)))?</i><br>
+<i>&gt;</i><br>
+<i>&gt;   - Ian "IANAL, but IAA security-wise net.citizen..."</i><br>
+<i>&gt;</i><br>
+<i>&gt;</i><br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0139.html">Dave Farber: "Re: Meeting notes from ANSI X.9 Meeting on Electronic Payment"</a>
+<li> <b>Previous message:</b> <a href="0137.html">Dave Farber: "try http://www.mktmkt.com/ic.html for lot of credit card"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

@@ -1,0 +1,117 @@
+
+<DOC>
+<DOCNO>WT02-B12-22</DOCNO>
+<DOCOLDNO>IA087-000625-B043-198</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.053.html 130.91.195.242 19970122060643 text/html 5004
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:06:44 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 4833
+Last-modified: Tue, 22 Nov 1994 06:31:37 GMT
+</DOCHDR>
+Notes from RSA Data Security Conference <p>
+
+To: farber@central.cis.upenn.edu
+Subject: For Interesting People
+Date: Tue, 18 Jan 94 16:57:23 -0500
+From: Stephen Walker &lt;steve@tis.com&gt; <p>
+
+Notes from RSA Data Security Conference <p>
+
+Stephen Walker
+                 Trusted Information Systems
+                    January 18, 1994 <p>
+
+Over 400 people attended the third RSA Data Security Conference
+on January 12-14, 1994, at the Hotel Sofitel in Redwood City, CA. <p>
+
+William Murray, of Deloitte &amp; Touche, gave the keynote
+presentation in which he described the major developments in
+cryptography in this century. He stated that cryptography is now
+cheap enough to be used by default but warned that the quantity
+of information that could benefit from use of cryptography is
+going up faster than its use. He cited "ambivalent government
+policies" as the main impediment to wide use of cryptography but
+added that these issues will not be decided by government but by
+the public, as individuals buy specific cryptographic products. <p>
+
+Over a dozen major companies announced a wide array of products
+that are now or will soon be available using RSA technologies.
+Among them were Hewlett-Packard, National Semiconductor, Apple,
+McCaw Cellular, and Novell. <p>
+
+A Cryptographers Expert Panel headed by Peter Neumann came to the
+tentative conclusion that the best follow-on to the Data
+Encryption Standard (DES) may well be triple DES (in the encrypt-
+decrypt-encrypt mode). There would be no need to search for a new
+standard. The fifteen or more years of confidence building
+analysis already applied to DES would be immediately applicable.
+The extra cost of running triple DES could be recovered in
+improved hardware speeds. <p>
+
+Following a question as to how to provide a means for recovering
+encrypted data for which the key has been lost (the locksmith
+function), it was pointed out that there is a big difference
+between encryption used for data communications and that used for
+data storage. The assumption is that encrypted messages in
+transit have little value since if they are lost they can be re-
+sent. Encrypted data in storage, on the other hand, has great
+value. The cryptographic community has not spent enough effort
+developing techniques for these storage issues. This is a major
+topic that cryptographers will have to tackle in the future. <p>
+
+In a Government panel, Lynn McNulty of NIST summarized the status
+of NIST's standards efforts: <p>
+
+-    DES recertified for five years, <p>
+
+-    FIPS 140-1, Security Requirements for Cryptographic
+          Modules has been approved, and <p>
+
+-    Nothing to say on the Digital Signature Standard (DSS)
+          or the Escrowed Encryption Standard, but perhaps
+          something will happen soon. <p>
+
+Bruce Heiman, of Preston Gates, summarized the industry
+objections to the present government export rules, and Whit
+Diffie, standing in for Clint Brooks, of NSA, who could not
+attend, gave a briefing on what he thought Clint might have
+wanted to say concerning the national security side of the
+cryptography argument. <p>
+
+Dave Sobel, of CPSR, in discussing the Clipper initiative, stated
+that he did not believe that Congress intended in the Computer
+Security Act of 1987 that NIST put forth a classified encryption
+algorithm for protecting the public's unclassified
+communications. He also brought out several Constitutional
+arguments regarding Clipper. As a first amendment issue, he cited
+problems with any government activity that attempts to regulate
+how we communicate. As the fourth amendment issue, in answering
+the question "Can the government seek to ensure its ability to
+collect information by imposing new restrictions such as key
+escrow?", he stated a basic premise of the Bill of Rights that,
+to protect average citizens from an overzealous government, "law
+enforcement is supposed to be difficult."  As a fifth amendment
+issue regarding the prohibition against self incrimination, he
+stated that key escrow amounts to a surrender of this right in
+order to communicate. <p>
+
+Steve Kent, of BBN, described the ACM-sponsored Cryptographic
+Policy Panel, which started last fall and will issue a report
+"mid-year."  The panel will not issue recommendations but,
+rather, a better articulation of the issues, attempting to
+separate facts, opinions, and future speculations. <p>
+
+Rumors flowed freely that "within two weeks" the government would
+proceed with the licensing of the Digital Signature Algorithm to
+Public Key Partners.  This would result in the promulgation of
+the DSS inspite of overwhelming public comment opposing it. <p>
+
+Rumors aside, it is clear from this conference that a substantial
+portion of the market place has decided to use RSA-based public
+key cryptography in a wide spectrum of generally available
+products. <p>
+
+</DOC>

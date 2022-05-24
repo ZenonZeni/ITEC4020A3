@@ -1,0 +1,243 @@
+
+<DOC>
+<DOCNO>WT02-B27-147</DOCNO>
+<DOCOLDNO>IA007-000073-B033-359</DOCOLDNO>
+<DOCHDR>
+http://www.euthanasia.org:80/history.html 194.88.132.128 19970222052108 text/html 10130
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 05:29:08 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+
+<!--------------------------------------------------------------->
+<!--     AUTHOR:   Chris Docker                         -->
+<!--     E-MAIL:   didmsnj@easynet.co.uk                -->
+<!--     CREATED:  January 1996                        -->
+<!--     MODIFIED: August 1996                  -->
+<!--     FILE:     http://www.netlink.co.uk/users/vess/history.html -->
+<!--     PURPOSE:  History of the Scottish Voluntary Euthanasia Society  -->
+<!--------------------------------------------------------------->
+
+
+<HEAD><title>VESS Chronlogy</title></head>
+
+          
+<BODY BGCOLOR="B0C1FF" TEXT="000000" LINK="0041FF" VLINK="808080" ALINK="FFFFFF" onLoad="startclock()">     
+
+<CENTER>
+
+<form name="clock" onSubmit="0">
+<input type="text" name="face" size=12 value="">
+
+
+<script Language="JavaScript">
+
+// Navigation - Stop
+// Netscapes Clock - Start
+// this code was taken from Netscapes JavaScript documentation at
+// www.netscape.com on Jan.25.96
+
+var timerID = null;
+var timerRunning = false;
+
+function stopclock (){
+        if(timerRunning)
+                clearTimeout(timerID);
+        timerRunning = false;
+}
+
+function showtime () {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds()
+        var timeValue = "" + ((hours >12) ? hours -12 :hours)
+        timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+        timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+        timeValue += (hours >= 12) ? " P.M." : " A.M."
+        document.clock.face.value = timeValue;
+        // you could replace the above with this
+        // and have a clock on the status bar:
+        // window.status = timeValue;
+        timerID = setTimeout("showtime()",1000);
+        timerRunning = true;
+}
+
+function startclock () {
+        // Make sure the clock is stopped
+        stopclock();
+        showtime();
+}
+
+</script>
+<BR><br>
+
+
+
+<a href="fastaccs.html"><img src="blleft.gif" border=0></a>
+<a href="vess.html"><img src="blup.gif" border=0></a>
+<a href="index.html"><img src="bluup.gif" border=0></a>
+<a href="sd.html"><img src="blright.gif" border=0></a>
+<a href="Feedback.HTML"><img src="blcommnt.gif" alt="comment" border=0></a>
+<br>
+
+
+<A HREF="index.html"><IMG SRC="pxhome.gif" ALT="home" BORDER=0 HEIGHT=21 WIDTH=76></A></A>
+<A HREF="new_app.html"><IMG SRC="pxnewapp.gif" ALT="help us" BORDER=0 HEIGHT=21 WIDTH=86></A>
+<A HREF="a_z.html"><IMG SRC="pxaz.gif" ALT="A-Z" BORDER=0 HEIGHT=21 WIDTH=58></A>
+<A HREF="books.html"><IMG SRC="pxbooks.gif" ALT="books" BORDER=0 HEIGHT=21 WIDTH=82></A>
+<A HREF="feedback.html"><IMG SRC="pxfeedbk.gif" ALT="feedback" BORDER=0 HEIGHT=21 WIDTH=100></A>
+<A HREF="mailto:vess&euthanasia.org"><IMG SRC="pxemail.gif" ALT="email" HEIGHT=21 border=0></A>
+<A HREF="http://www.netlink.co.uk/users/vess/fastaccs.html"><IMG SRC="pxfast.gif" ALT="FastAccess" HEIGHT=21 WIDTH=119 BORDER=0></A>
+
+<h1>Welcome to the VESS history page. </h1>
+You are the 619th visitor since 2 Feb 1996  using the <a href="counter.html"> above URL. </a>
+</center>
+
+<hr>
+<TABLE BORDER=0 WIDTH=520>
+<TR>
+<TD WIDTH=150 ALIGN=MIDDLE VALIGN=TOP></TD>
+<TD WIDTH=350>
+
+<FONT SIZE=4>
+
+<li><B>1935</B> Formation of a voluntary euthanasia society 
+in England (later known as "Exit" or "The Voluntary Euthanasia 
+Society") by Lord Moynihan & Dr Killick Millard.
+<a name="dawson">
+<li><B>1936</B> King George V receives euthanasia from Lord 
+Dawson unofficially.
+<li>Voluntary Euthanasia Bill  presented to the House of 
+Lords: rejected.
+<li><B>1969</B> Voluntary Euthanasia Bill debated again in the 
+Lords and again rejected.
+<a name="kutner">
+<li>The term "living will" is coined by Luis Kutner 
+to describe an advance refusal of medical treatment.
+<li><B>1973</B> Voluntary Euthanasia societies formed in the 
+Netherlands.
+<a name="mairc">
+<li><B>1974</B> Dr George Mair publishes "Confessions of a Surgeon" 
+giving details of voluntary euthanasia practised in a hospital. 
+<li><B>1976</B> Voluntary Euthanasia societies formed in Japan 
+and Germany. 1st international conference of voluntary euthanasia 
+societies, in Tokyo.
+<li><B>1977</B> Dutch Medical Council officially accepts V.E.
+<li><B>1978</B> Derek Humphry's "Jean's Way" published in London, 
+telling how his wife had made a pact with him to end her own life.
+<li><B>1979</B> British V.E. Society votes to publish a guide 
+to self-deliverance. Membership quadruples. Publication delayed until 1981 by legal and other obstacles, and the book subsequently withdrawn 
+after further legal problems.
+<HR>
+<li><B>1980</B> Scottish Exit (later known as VESS) assumes 
+independence under the auspices of George Mair and Sheila Little, 
+and publishes "How to Die With Dignity" - the first suicide guide 
+to be published in the world.
+<li>Official formation of the World Federation of Right-to-Die 
+Societies.
+<a name="reed">
+<li><B>1981</B> Nicholas Reed, of the English V.E. Society, 
+is sentenced to prison for assisting suicides.
+<li>A Rotterdam court states conditions under which aiding 
+suicide and administering Voluntary Euthanasia will not lead to prosecution 
+in the Netherlands.
+<li><B>1983</B> Legal worries over publication of the English 
+Society's guide to self-deliverance continue. The Attorney General 
+unsuccessfully seeks an injunction to prevent distribution.
+<li><B>1984</B> The Supreme Court of the Netherlands declares 
+that V.E. is acceptable subject to ten clearly defined conditions.
+<a name="jenkins">
+<li><B>1985</B> Lord Jenkins presents a Bill to the Lords to 
+repeal a relevant clause of the English Suicide Act: defeated.
+<HR>
+<li><B>1990</B> Roland Boyes MP presents a Bill to Parliament 
+for euthanasia: defeated.
+<a name="psda">
+<li><B>1991</B> US Congress passes the "Patient Self-Determination 
+Act", compelling hospitals to respect Living Wills.
+<li>Derek Humphry's book on self-deliverance, "Final Exit," 
+tops an American best-seller list for several weeks. 
+<li>Washington State Initiative Bill legalising voluntary 
+euthanasia narrowly defeated. 
+<a name="cox">
+<li><B>1992</B> Dr Cox is tried for administering euthanasia 
+to Mrs Boyes and receives a suspended sentence.
+<a name="bma1">
+<li>The British Medical Association declares its support 
+for living wills.
+<li><B>1993</B> The Law Lords allow the feeding tube of Tony 
+Bland, who is in persistent vegetative state, to be removed.
+<li>Sue Rodriguez, a young woman with Lou Gehrig's disease, 
+seeks permission from the Supreme Court of Canada for assistance to 
+die, and is refused by a narrow majority.
+<li>Formation of the International Drugs Consensus Working 
+Party and publication by VESS of "Departing Drugs," the first scientifically 
+researched international self-deliverance guide.
+<li>Formation of the House of Lords Select Committee to 
+investigate euthanasia and living wills. 
+<a name="bma2">
+<li><B>1994</B> First international collection of living wills 
+published (by VESS).
+<li>The Council of the British Medical Association declares 
+support (in principle) for legislation regulating living wills. 
+<li>Oregon USA passes a law to allow doctors to prescribe 
+lethal drugs, but an injunction prevents it from taking effect.
+<a name="bma3">
+<HR>
+<li><B>1995</B> The British Medical Association produce a Code 
+of Practice on Living Wills.
+<li>The Law Commission propose legislation covering living 
+wills and health care proxies.
+<li>VESS distributes a radical new living will form after 
+much research, anticipating the BMA guidelines, and also introduces 
+the values history document to the UK.
+<a name="irish">
+<li>The Irish Supreme Court decides that the feeding tube 
+may be removed from a woman who has lain in a vegetative state for 
+over 20 years, so that she may die.
+<li>Northern Territory, Australia, passes the first law 
+in the world to allow active voluntary euthanasia, allowing doctors 
+to administer a lethal injection. The law is linked to improvement 
+of palliative care and will takes some months before it is fully operational.
+<HR>
+<li><B>1996</B> The Nine Circuit Court of Appeal in the United States over-rules earlier judgements and upholds the constitutionality of assisted suicide, and also Oregon's Death With Dignity law on assisted suicide. The Second Circuit also comes out in support of assisted suicide.
+<a name="jj">
+<li>The Scottish Courts decide, in Scotland's first &quot;right-to-die&quot; case, that Mrs Johnstone, who has been in a coma for 
+four years, may have her feeding tube removed to allow her her to die.
+<li>Completion of "Sometimes a Small
+                     Victory" - A year long intensive study
+                     by Glasgow Univerity's Institute of
+                     Law & Ethics in Medicine on the
+                     feasibility of legal reform on physician
+                     assisted suicide. Includes a draft bill
+                     (legislative template).
+<hr>
+ <li><b>                      1997</b> Supreme Court of America to
+                     rule on the constitutionality of
+                     physician assisted suicide. 
+</FONT>
+</TD>
+</tr>
+</table>
+<HR>
+<FONT SIZE=3>
+
+<center>
+<P>Copyright &copy 1996 Chris Docker. URL: http://www.euthanasia.org/history.html<BR>
+
+<hr>
+<A HREF="index.html"><IMG SRC="home.gif" height=31 ALT="[VESS Homepage]"></a>
+<A HREF="new_app.html"><IMG SRC="subscribe.gif" height=31 ALT="[Subscribe]"></a>
+<A HREF="a_z.html"><IMG SRC="index.gif" height=31 ALT="[A-Z]"></a>
+<A HREF="books.html"><IMG SRC="library.gif" height=31 ALT="[Books]"></a>
+<A HREF="feedback.html"><IMG SRC="comments.gif" height=31 ALT="[Comments]"></a>
+<A HREF="MAILTO:didmsnj@easynet.co.uk"><IMG SRC="email.gif" height=31 ALT="[Email]"></a>
+<A HREF="fastaccs.html"><IMG SRC="fasticon.gif" height=31 ALT="[FastAccess]"></a>
+
+</center>
+</BODY>
+</HTML>
+</DOC>

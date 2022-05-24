@@ -1,0 +1,82 @@
+
+<DOC>
+<DOCNO>WT02-B20-94</DOCNO>
+<DOCOLDNO>IA001-000011-B031-260</DOCOLDNO>
+<DOCHDR>
+http://www.cec.sped.org:80/ericec/listserv.htm 204.168.19.228 19970101075451 text/html 2877
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.1
+Date: Wednesday, 01-Jan-97 07:54:57 GMT
+Last-modified: Tuesday, 17-Sep-96 14:11:00 GMT
+Content-length: 2685
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<body bgcolor="#ffffff">
+
+
+<center><h2>HOW TO JOIN A LISTSERV</h2></center><P>
+
+E-mail lists, often known as listservs, are interactive computer-based communications. 
+E-mail lists can be manually administered by humans, or they can be automated by
+servers such as listserv, or majordomo.<P>
+
+<B><I>Subscribing to a Manually Administered List</B></I><P>
+
+To subscribe to (join) a manually administered list, send a regular e-mail message to
+the administrator or owner of the list.<P>
+
+<B><I>Subscribing to an Automated List</B></I><P>
+
+Automated lists have at least two accounts--one for the server (the list ADDRESS) and
+one for the actual list (the list NAME).  To subscribe to (join) an automated list, send an
+e-mail message to the list ADDRESS, not the list NAME, for the server to recognize the
+command.  Examples are given for two of the more common types of automated
+lists listserv and majordomo. <P>
+
+<b>For listserv lists:</B><BR>
+<ul><LI>Leave the Subject: line blank
+<LI> In the body of the message, type only the following line:<BR>
+
+          <i>subscribe {listname} {yourfirstname} {yourlastname}</I><br>
+     ex:  subscribe l-hcap Happy Golucky</ul><P>
+       
+<b>For majordomo lists:</B>  Majordomo lists do not require {yourfirstname} and
+{yourlastname} in the message.<br>
+<ul><LI>Leave the Subject: line blank
+<LI> In the body of the message, type only the following line:<BR>
+
+      <i>subscribe {listname}</I><BR>
+      subscribe spedtalk</UL><P>
+       
+<B><I>Posting Messages to a List</B></I><P>
+
+To post a message to the list, send it to the NAME of the list in the TO: field.<P>
+
+<table width=475>
+<tr><td width=200 valign=top><b>Example:</b></td><td width=300><b> TO:  spedtalk@virginia.edu</b></td></tr></table><P>
+
+<b><i>To Find a List of Lists</b></i><P>
+A quick way to find a list of (the thousands of) lists is as follows:<P>
+
+<table width=475>
+<tr><td width=200 valign=top>Send message to:</td><td width=300>listserv@listserv.net</td></tr>
+<tr><td width=200 valign=top>With command in body: </td><td width=300>lists global</td></tr>
+<tr><td width=200 valign=top> Or: </td> <td width=300>         lists global/[keyword]</td></tr></table>
+where [keyword] is the topic of your choice (e.g., disability).<P>
+
+<a href="#top"> Top of Page </a>
+<img src="/gif/space.gif" HEIGHT=1 WIDTH=18 BORDER=0>
+<a href="/er-menu.htm"> Back to Menu </a>
+<img src="/gif/space.gif" HEIGHT=1 WIDTH=18 BORDER=0>
+<a href="/home.htm"> Back Home </a>
+
+<P>
+<hr>
+<center><i>copyright &#169; 1996 <br>
+ERIC Clearinghouse on Disabilities and Gifted Education <br>
+Last updated: September 17, 1996 <br>
+URL:  http://www.cec.sped.org/ericec.htm</i></center><P>
+</body>
+</html>
+</DOC>

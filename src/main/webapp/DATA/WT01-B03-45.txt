@@ -1,0 +1,66 @@
+
+<DOC>
+<DOCNO>WT01-B03-45</DOCNO>
+<DOCOLDNO>IA097-001048-B046-497</DOCOLDNO>
+<DOCHDR>
+http://mspiggy.etl.noaa.gov:80/radiom/mradiom.htm 140.172.33.2 19970215105927 text/html 4287
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 05:57:10 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 25 Oct 1996 22:38:12 GMT
+Content-length: 4113
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> Microwave Radiometry</TITLE>
+</HEAD>
+<BODY bgcolor="#88bbbb">
+<font face=arial>
+<a href="http://www.doc.gov">Commerce</a> / <a href="http://www.noaa.gov">NOAA</a> / <a href="http://www.oar.noaa.gov">OAR</a> / <a href="http://www.erl.noaa.gov">ERL</a> / <a href="http://www.etl.noaa.gov">ETL</a> / <a href="http://www1.etl.noaa.gov">Oceans</a> / <strong>Microwave</strong>
+
+
+<center><h1><font color="ffffff">Microwave Radiometry</font><br></h1><img src="gifs/3dline.gif">
+</center><P>
+
+<img src="../../gifs/why.gif"> Remote sensors can be broadly classified as either <strong>active</strong> or <strong>passive</strong>. Active sensors send out a beam of acoustic or electromagnetic energy and measure how the medium perturbs it. Passive sensors emit no energy of their own. By listening at microwave frequencies, it is possible to measure the roughness of the ocean surface or moisture content of the atmosphere. Ground-based, airborne, and space-based microwave radiometers are used in climate and atmospheric modification studies, cloud physics, and ocean-surface sensing.<P>
+
+<hr size=4>
+
+<h3>How does Atmospheric Radiometry work?</h3><p>
+Atmospheric radiometers <strong>measure the emissions of the atmosphere itself</strong>. For example, a microwave antenna pointed into the air receives an abundance of thermal radio emissions from the atmosphere's various constituents. Each constituent possesses a unique emission spectrum that corresponds exactly to its absorption spectrum. Radiometers "listen" at frequencies selected to best sort the constituents out.<P>
+
+<h3>Measuring Integrated Water Content</h3>
+By monitoring microwave emissions from the zenith at 23 and 31 GHz, it is possible to measure both the <strong>total water-vapor content</strong> and the <strong>liquid-water content</strong> of a vertical atmospheric column. Because the 23-GHz channel is near a water-vapor emission line, the vapor emission is about twice as strong as for liquid water. At 31 GHz, on the other hand, the ratio is roughly inverted. Thus, a <strong>dual-frequency radiometer</strong> provides the information required to solve two equations for the two unknown quantities. <P>
+
+
+
+<img src="gifs/kingair.jpg" width=314 height=172 border=2 hspace=20 align=left>
+<P><h3>An airborne two-channel microwave radiometer</h3><p>
+This instrument, operating at 23.87 and 31.65 GHz,  was designed at ETL 
+to provide a detailed knowledge of the <strong>spatial distribution of cloud liquid</strong> for
+research in meteorological areas such as cloud physics, climatology, severe storms,
+and aircraft icing. A modified antenna system permits measurements of microwave radiance 
+over ocean and land. The instrument can look upward, downward, or cycle between  upward and downward. The system has been designed to operate on
+either the NOAA P-3 or the King Air aircraft, shown here.<P> 
+
+<hr size=4>
+<strong>For more information</strong>, contact Leonard Fedor, <a href="mailto:lfedor@etl.noaa.gov">lfedor@etl.noaa.gov</a>
+<hr size=4>
+
+<h3>How does Ocean-Surface Radiometry work?</h3>
+
+The brightness temperature of the ocean surface at microwave frequencies is observed to increase with ocean-surface roughness. Empirical calibration of microwave emissivity  permits estimates of <strong>ocean-surface wind speed</strong>, within certain limits. The Special Sensor Microwave Imager (<a href="http://140.90.191.231/oceanwinds1.html">SSM/I</a>) on the DMSP military satellites uses this principle to map ocean surface wind speeds globally. Recent polarimetric and multi-look tests with airborne radiometers at various angles of incidence on the ocean surface show promise for determining <strong>surface-wind direction</strong>, as well. <p>
+<hr size=4>
+<strong>For more information</strong>, contact Dr. Alex Voronovich, <a href="mailto:avoronovich@etl.noaa.gov">avoronovich@etl.noaa.gov</a>
+<HR size=4>
+
+<center><a href="/index.html">Ocean Remote Sensing Home Page</a> | <a href="http://www.etl.noaa.gov">ETL Home Page</center>
+
+
+<hr size=4>
+
+
+</BODY>
+</HTML>
+</DOC>

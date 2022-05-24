@@ -1,0 +1,56 @@
+
+<DOC>
+<DOCNO>WT03-B24-85</DOCNO>
+<DOCOLDNO>IA053-000895-B042-245</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/objects.html 129.174.40.15 19970123194342 text/html 2028
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:42:31 GMT
+Server: NCSA/1.5.2
+Last-modified: Mon, 01 Apr 1996 18:44:48 GMT
+Content-type: text/html
+Content-length: 1845
+</DOCHDR>
+<HTML>
+<head>
+<TITLE>Pat's Pointer to Object Oriented Everything</TITLE>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+<H1>My Cat is Object Oriented</h1>
+Object Oriented Programming (OOP) is (with the exception of Java)
+one of the, if not THE, hottest
+buzzwords in programming. It is also mostly hot air. See 
+<i>No Silver Bullets</i> by Frederick Brooks, IEEE 1978[?].
+OO is simply a fashionable way to implement the data abstraction 
+and information hiding ideas of C.A. Hoare, Dijkstra, 
+and others recommended twenty years ago.
+<p>
+Here are some pointers to useful OO stuff.
+<ul>
+<li>The <a href="http://st-www.cs.uiuc.edu/users/patterns/patterns.html">Patterns homepage</a>
+<li>Coplien and Schmidt's 
+<a href="http://st-www.cs.uiuc.edu/users/patterns/Books.html#Coplien">
+Pattern Languages and Program Design</a>
+<li>Doug <a href="http://www.cs.wustl.edu/~schmidt/">Schmidt's</a> 
+wonderful and Free <a href="http://www.cs.wustl.edu/~schmidt/ACE.FAQ.html">
+ACE wrappers </a>(C++ classes for communications)
+<li>htmlized <a href="http://www.cs.wustl.edu/~schmidt/acewindex.html">
+Documentation for ACE</a>
+<li>James Grimm's 
+<a href="http://www.mit.edu:8001/people/grimm/Int/Int.home.html">
+Big Integer classes for C++</a>
+<li><A HREF="http://www.ezl.com/~mpotter/ntclass.html">NTClass
+ver 1.3</a>If you are a Visual C++
+programmer using MFC to tame Windows NT, you should treat yourself to a growing
+set of classes that will make your life easier. This includes set of
+classes for 64-bit integer aritmetic.
+<li>a new OO magazine: 
+<a href="http://www.sigs.com/objectcurrents/">Object Currents</a>
+</ul>
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a> 
+April  1, 1996  Backto <a href="./hotlist.html">Pat's hotlist</a> Backto <a href="./index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

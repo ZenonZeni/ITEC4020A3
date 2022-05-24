@@ -1,0 +1,81 @@
+
+<DOC>
+<DOCNO>WT01-B08-213</DOCNO>
+<DOCOLDNO>IA096-001028-B015-4</DOCOLDNO>
+<DOCHDR>
+http://www.bxa.doc.gov:80/supp4.htm 207.96.70.148 19970215010020 text/html 3250
+HTTP/1.0 200 OK
+Date: Fri, 14 Feb 1997 21:01:12 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3079
+Last-modified: Wed, 08 Jan 1997 00:53:56 GMT
+</DOCHDR>
+<html>
+<head>
+<title>Supplement No. 4 to Part 742--Key Escrow or Key Recovery Products 
+Criteria</title>
+</head>
+<body bgcolor="FFFFFF">
+<pre>
+Supplement No. 4 to Part 742--Key Escrow or Key Recovery Products 
+Criteria
+
+Key Recovery Feature
+
+    (1) The key(s) or other material/information required to decrypt 
+ciphertext shall be accessible through a key recovery feature.
+    (2) The product's cryptographic functions shall be inoperable 
+until the key(s) or other material/information required to decrypt 
+ciphertext is recoverable by government officials under proper legal 
+authority and without the cooperation or knowledge of the user.
+    (3) The output of the product shall automatically include, in an 
+accessible format and with a reasonable frequency, the identity of 
+the key recovery agent(s) and information sufficient for the key 
+recovery agent(s) to identify the key(s) or other material/
+information required to decrypt the ciphertext.
+    (4) The product's key recovery functions shall allow access to 
+the key(s) or other material/information needed to decrypt the 
+ciphertext regardless of whether the product generated or received 
+the ciphertext.
+    (5) The product's key recovery functions shall allow for the 
+recovery of all required decryption key(s) or other material/
+information required to decrypt ciphertext during a period of 
+authorized access without requiring repeated presentations of access 
+authorization to the key recovery agent(s).
+
+Interoperability Feature
+
+    (6) The product's cryptographic functions may interoperate with:
+    (i) Other key recovery products that meet these criteria, and 
+shall not interoperate with products whose key recovery feature has 
+been altered, bypassed, disabled, or otherwise rendered inoperative; 
+and
+    (ii) Non-key recovery products only when the key recovery 
+product permits access to the key(s) or other material/information 
+needed to decrypt ciphertext generated or received (i.e., one 
+direction at a minimum) by the key recovery product.
+
+Design, Implementation and Operational Assurance
+
+    (7) The product shall be resistant to efforts to disable or 
+circumvent the attributes described in criteria one through six.
+    (8) The product's cryptographic function's key(s) or other 
+material/information required to decrypt ciphertext shall be 
+escrowed with a key recovery agent(s) (who may be a key recovery 
+agent(s) internal to the user's organization) acceptable to BXA, 
+pursuant to the criteria in Supplement No. 5 to Part 742. Since the 
+establishment of a key management infrastructure and key recovery 
+agents may take some time, BXA will, while the infrastructure is 
+being built, consider exports of key recovery encryption products 
+which facilitate establishment of the key management infrastructure 
+before a key recovery agent is named.
+    Exporters of products described in this Supplement No. 4 to part 
+742 are required to furnish the name of an agent by December 31, 
+1998.
+
+</pre>
+</body>
+</html>
+
+</DOC>

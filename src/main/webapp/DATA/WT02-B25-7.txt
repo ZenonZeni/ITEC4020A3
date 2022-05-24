@@ -1,0 +1,65 @@
+
+<DOC>
+<DOCNO>WT02-B25-7</DOCNO>
+<DOCOLDNO>IA067-000404-B015-164</DOCOLDNO>
+<DOCHDR>
+http://www.dsnt.com:80/evaluation.html 207.78.30.85 19970112210157 text/html 1404
+HTTP/1.0 200 Document follows
+Date: Sun, 12 Jan 1997 21:03:13 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Free Evaluation Units</TITLE>
+</HEAD>
+<BODY background="grid.gif" bgcolor="#ffffff" text="#eeeeee" LINK="#ff9900" ALINK="#00ffff" vlink="#ff9900">
+
+
+<center><image src="nfbox.gif"></center>
+<center><font size=+3><strong>Free Evaluation Units</strong></font></center>
+<hr width=50%>
+<BR>
+
+<center>
+<font size=+1 color=#ffff66>
+DSN is currently providing NetFortress evaluation units to qualified companies.
+Sign-up here!
+</font>
+<br>
+<br>
+<form action="register.html" method=get>
+	<input type="submit" value="Sign me up!">
+</form>
+</center>
+<br>
+<br>
+
+
+<!-- NAV BAR -->
+
+<center><a href="nav.map"><img src="nunav.gif" border=0 USEMAP="#navbarmap" ISMAP></a></center>
+<MAP NAME="navbarmap">
+<AREA SHAPE="CIRCLE" COORDS="33,35,45" HREF="index.html">
+<AREA SHAPE="CIRCLE" COORDS="102,35,45" HREF="hacker.html">
+<AREA SHAPE="CIRCLE" COORDS="169,35,45" HREF="news.html">
+<AREA SHAPE="CIRCLE" COORDS="240,35,45" HREF="links.html">
+<AREA SHAPE="CIRCLE" COORDS="308,35,45" HREF="contact.html">
+</MAP>
+
+<!-- END NAV BAR -->
+
+
+
+<br>
+<br>
+
+<!--
+<script>
+document.write("Email comments on this page to: <a href='mailto:feedback@thru.net?subject=" + location.href + "'>" + "feedback@thru.net</a>")
+</script>
+-->
+</BODY>
+</HTML>
+
+</DOC>

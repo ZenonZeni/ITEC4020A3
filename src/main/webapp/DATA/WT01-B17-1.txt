@@ -1,0 +1,272 @@
+
+<DOC>
+<DOCNO>WT01-B17-1</DOCNO>
+<DOCOLDNO>IA043-000785-B032-176</DOCOLDNO>
+<DOCHDR>
+http://www.alternativemedicine.com:80/alternativemedicine/information-feedback.shtml 206.12.188.18 19970305083516 text/html 7953
+HTTP/1.0 200 OK
+Date: Wed, 05 Mar 1997 08:32:48 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<html>
+
+<!-- 
+
+  information-feedback.shtml
+  11/12/1996 by chris knight
+
+  -->
+
+<head>
+<title>Alternative Medicine - Website Feedback Form</title>
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#c80000" vlink="#c80000" alink="#ffffff" leftmargin="0" topmargin="0">
+<basefont name="Arial" size="4">
+
+<a name="top"></a>
+
+<center>
+ <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ee0000">
+  <tr valign="middle">
+   <td align="left" bgcolor="#ee0000"><a href="/alternativemedicine/"><img src="/alternativemedicine/images/navbar_home.gif" width="63" height="20" border="0" alt="[home]"></a><a href="/alternativemedicine/digest/"><img src="/alternativemedicine/images/navbar_interactiveindex.gif" width="135" height="20" border="0" alt="[interactive index]"></a><a href="/alternativemedicine/books.shtml"><img src="/alternativemedicine/images/navbar_books.gif" width="69" height="20" border="0" alt="[books]"></a><a href="/alternativemedicine/subscription.shtml"><img src="/alternativemedicine/images/navbar_subscriptions.gif" width="119" height="20" border="0" alt="[subscriptions]"></a><a href="/alternativemedicine/discussionarea/"><img src="/alternativemedicine/images/navbar_discussion.gif" width="133" height="20" border="0" alt="[discussion area]"></a> <a href="/alternativemedicine/healthcenter/index.shtml"><img src="/alternativemedicine/images/navbar_healthcenter.gif" width="111" height="20" alt="[HealthCenter]" border=0></a></td>
+   <td align="left" bgcolor="#ee0000" width="58"><a href="/alternativemedicine/information.shtml"><img src="/alternativemedicine/images/navbar_help.gif" width="50" height="20" border="0" alt="[help]"></a></td>
+  </tr>
+ </table>
+</center>
+
+<!-- The Title Table -->
+
+<table width="100%">
+ <tr>
+  <td align="left" valign="top">
+   <img src="/alternativemedicine/images/altmed_help.gif" width="367" height="125" border="0" alt="Alternative Medicine Subscriptions">
+  </td>
+  <td align="right" valign="top" width="40%">
+   <font size="-1" face="Arial">
+    <b>Website Feedback Form </b>
+   </font>
+  </td>
+ </tr>
+</table>
+
+<!-- Start of Form and Table -->
+
+<center>
+<form action="/alternativemedicine/cgi-bin/feedbackform" method="post"><table width="80%" cellpadding="0" cellspacing="0" bgcolor="#000000"><tr><td align="center">
+<table width="100%" cellpadding="2" cellspacing="1">
+
+<!-- Website Feedback Form Title -->
+
+<tr>
+ <td colspan="2" bgcolor="#e18485" valign="middle" align="center">
+  <font size="+1"><b>Website Feedback Form</b></font>
+ </td>
+</tr>
+
+<!-- Learn how to use the Form -->
+
+<tr>
+ <td colspan="2" bgcolor="#f1b4b5" valign="middle" align="center">
+  Please leave any comments that you have regarding the website here.  
+  Responses to this form are submitted to the Alternative Medicine <a href="mailto:webmaster@alternativemedicine.com">webmaster</a>.
+ </td>
+</tr>
+
+<!-- Name and Email Address Part -->
+
+<tr>
+ <td bgcolor="#f0ebe8" colspan="2">
+  <table>
+   <tr>
+    <td valign="middle" align="right">Your Name:</td>
+    <td valign="middle" align="left"><input name="Name" type="text" size="30"></td>
+   </tr>
+   <tr>
+    <td valign="middle" align="right">Your Email Address:</td>
+    <td valign="middle" align="left"><input name="Email" type="text" size="30"></td>
+   </tr>
+   <tr>
+    <td valign="top" align="right">Your Comments:</td>
+    <td valign="middle" align="left"><textarea name="Comment_Site" cols="30" rows="7" wrap="soft"></textarea></td>
+   </tr>
+  </table>
+ </td>
+</tr>
+
+<!-- Please Rate each Section: -->
+
+<tr>
+ <td colspan="2" bgcolor="#f1b4b5" valign="middle" align="center">
+  Please rate each of our sections and leave a few comments:
+ </td>
+</tr>
+
+
+<!-- Interactive Index -->
+
+<tr>
+ <td colspan="2" bgcolor="#e18485" valign="middle" align="center">
+  <b>Interactive Index</b><br>
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8">
+  Your Rating:
+ </td>
+ <td bgcolor="#f0ebe8">
+  Your Comments:
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8" valign="top">
+  <input type="radio" value="Good" name="Rate_II">Good<br>
+  <input type="radio" value="Average" name="Rate_II">Average<br>
+  <input type="radio" value="Bad" name="Rate_II">Bad<br>
+ </td>
+ <td bgcolor="#f0ebe8">
+  <textarea name="Comment_II" cols="50" rows="3" wrap="soft"></textarea>
+ </td>
+</tr>
+
+<!-- Books -->
+
+<tr>
+ <td colspan="2" bgcolor="#e18485" valign="middle" align="center">
+  <b>Alternative Medicine Books</b><br>
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8">
+  Your Rating:
+ </td>
+ <td bgcolor="#f0ebe8">
+  Your Comments:
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8" valign="top">
+  <input type="radio" value="Good" name="Rate_Book">Good<br>
+  <input type="radio" value="Average" name="Rate_Book">Average<br>
+  <input type="radio" value="Bad" name="Rate_Book">Bad<br>
+ </td>
+ <td bgcolor="#f0ebe8">
+  <textarea name="Comment_Book" cols="50" rows="3" wrap="soft"></textarea>
+ </td>
+</tr>
+
+<!-- Subscriptions -->
+
+<tr>
+ <td colspan="2" bgcolor="#e18485" valign="middle" align="center">
+  <b>Subscriptions</b><br>
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8">
+  Your Rating:
+ </td>
+ <td bgcolor="#f0ebe8">
+  Your Comments:
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8" valign="top">
+  <input type="radio" value="Good" name="Rate_Sub">Good<br>
+  <input type="radio" value="Average" name="Rate_Sub">Average<br>
+  <input type="radio" value="Bad" name="Rate_Sub">Bad<br>
+ </td>
+ <td bgcolor="#f0ebe8">
+  <textarea name="Comment_Sub" cols="50" rows="3" wrap="soft"></textarea>
+ </td>
+</tr>
+
+<!-- Discusison Area -->
+
+<tr>
+ <td colspan="2" bgcolor="#e18485" valign="middle" align="center">
+  <b>Discussion Area</b><br>
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8">
+  Your Rating:
+ </td>
+ <td bgcolor="#f0ebe8">
+  Your Comments:
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8" valign="top">
+  <input type="radio" value="Good" name="Rate_Dis">Good<br>
+  <input type="radio" value="Average" name="Rate_Dis">Average<br>
+  <input type="radio" value="Bad" name="Rate_Dis">Bad<br>
+ </td>
+ <td bgcolor="#f0ebe8">
+  <textarea name="Comment_Dis" cols="50" rows="3" wrap="soft"></textarea>
+ </td>
+</tr>
+
+<!-- Help & Info -->
+
+<tr>
+ <td colspan="2" bgcolor="#e18485" valign="middle" align="center">
+  <b>Help & Information</b><br>
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8">
+  Your Rating:
+ </td>
+ <td bgcolor="#f0ebe8">
+  Your Comments:
+ </td>
+</tr>
+<tr>
+ <td bgcolor="#f0ebe8" valign="top">
+  <input type="radio" value="Good" name="Rate_Help">Good<br>
+  <input type="radio" value="Average" name="Rate_Help">Average<br>
+  <input type="radio" value="Bad" name="Rate_Help">Bad<br>
+ </td>
+ <td bgcolor="#f0ebe8">
+  <textarea name="Comment_Help" cols="50" rows="3" wrap="soft"></textarea>
+ </td>
+</tr>
+  
+<!-- Submit -->
+
+<tr>
+ <td colspan="2" bgcolor="#e18485" valign="middle" align="center">
+  <input type="Submit" value="Submit Comments to the Webmaster">
+ </td>
+</tr>
+
+
+<!-- The End of the Table -->
+
+</table>
+</td></tr></table>
+</form>
+</center>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr bgcolor="#ee0000">
+    <td align="left" valign="middle"><a href="/alternativemedicine/disclaimer.shtml"><img src="/alternativemedicine/images/navbar_disclaimer.gif" width="95" height="20" border="0" alt="Disclaimer"></a></td>
+
+    <td>
+     <center>
+      <font color="#FFFFFF" face="arial" size="1">
+       Alternative Medicine Online &copy; 1996 by <b>Future Medicine Publishing</b>.<br>
+       <!-- Web site design and hosting by <b>dotcom marketing corp.</b> (http://www.hdmdigital.com/) -->
+      </font>
+     </center>
+    </td>
+
+    <td align="right" valign="middle"><a href="mailto:info@alternativemedicine.com"><img src="/alternativemedicine/images/navbar_queries.gif" width=76 height=20 border=0 alt="Queries"></a></td>
+
+    <td align="right" valign="middle">
+     <a href="#top"><img src="/alternativemedicine/images/top.gif" width="20" height="20" border="0" alt="top"></a>
+    </td>
+   </tr>
+  </table>
+</DOC>

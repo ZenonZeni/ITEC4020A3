@@ -1,0 +1,47 @@
+
+<DOC>
+<DOCNO>WT03-B14-84</DOCNO>
+<DOCOLDNO>IA057-000944-B027-1</DOCOLDNO>
+<DOCHDR>
+http://gw.sentin.com:80/mailtour.htm 206.26.168.119 19970109200843 text/html 1989
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Thursday, 09-Jan-97 20:16:03 GMT
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+  <TITLE>Associate Guided Tour </TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" text="000000">
+<FORM METHOD="POST" ACTION="http://www.esoft-inc.com/cgi-bin/TourForm">
+  <INPUT TYPE="hidden" NAME="TourExe" VALUE="ftp://www.environ.com/pub/ess/products/associates/tour.exe">
+  <INPUT TYPE="hidden" NAME="FaxBackName" VALUE="gawee">
+  <INPUT TYPE="hidden" NAME="subject" VALUE="Associate Guided Tour">
+  <INPUT TYPE="hidden" NAME="Distributor" VALUE="Sentinel"> <B><U>GUIDED TOUR
+  DOWNLOAD</U></B><BR>
+  We are happy to provide you with an Associate Guided Tour. Please provide
+  <U>ALL</U> of the following information.
+  <P>
+  <B>Your e-mail address is used to send you a password. &nbsp;</B>After filling
+  out the form, you can download the Associate Guided Tour. Feel free to contact
+  us at <B><A HREF="mailto:sentinel@traveller.com">support</A></B> or 205/534-9800
+  for further assistance. If your prefer to have a free diskette shipped to
+  you, make a note in the comments below.
+  <PRE>Name: <INPUT SIZE="40" MAXLENGTH="100" NAME="Name" TYPE="text">
+Company: <INPUT SIZE="40" MAXLENGTH="100" NAME="Company" TYPE="text">
+Mailing Address: <INPUT SIZE="40" MAXLENGTH="100" NAME="Address" TYPE="text">
+City: <INPUT SIZE="20" NAME="City" TYPE="text"> State/Province: <INPUT SIZE="15" NAME="State" TYPE="text">
+ZIP:  <INPUT SIZE="15" NAME="Zip" TYPE="text">      Country:        <INPUT SIZE="15" NAME="Country" TYPE="text" VALUE="USA">
+Phone Number: <INPUT SIZE="40" MAXLENGTH="100" NAME="Phone" TYPE="text">
+Fax Number: <INPUT SIZE="40" MAXLENGTH="100" NAME="Fax" TYPE="text">
+E-mail: <INPUT SIZE="40" MAXLENGTH="100" NAME="username" TYPE="text"><BR>
+Comments (or special instructions):
+<TEXTAREA NAME="Comments" ROWS="3" COLS="60"></TEXTAREA>
+</PRE>
+  <P>
+  <INPUT TYPE="submit" VALUE="Download"> 
+  <INPUT TYPE="reset" VALUE="Reset Form">
+</FORM>
+</BODY></HTML>
+</DOC>

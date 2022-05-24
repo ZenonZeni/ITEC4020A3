@@ -1,0 +1,197 @@
+
+<DOC>
+<DOCNO>WT02-B08-38</DOCNO>
+<DOCOLDNO>IA070-000444-B020-248</DOCOLDNO>
+<DOCHDR>
+http://www.chelsea.co.uk:80/ci_sen8a.html 194.72.155.58 19970120215642 text/html 6991
+HTTP/1.0 200 OK
+Date: Mon, 20 Jan 1997 21:56:36 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 6820
+Last-modified: Thu, 16 Jan 1997 15:10:27 GMT
+</DOCHDR>
+
+<HTML>
+<HEAD>
+<TITLE>Power Line Modem</TITLE>
+<META NAME="AUTHOR" CONTENT="Simon Watmore">
+</HEAD>
+<BODY>
+<BODY TEXT="000000" LINK="0000ff"  ALINK="00ffff" VLINK="0000ff">
+<BODY BACKGROUND="images/ci_shtbk.jpg">
+
+
+<!***** LINKS *****>
+
+<P ALIGN=CENTER>
+<FONT SIZE="5"><A NAME="TOP"><A HREF="index.html"><B>Index</B></A>
+<BR><FONT SIZE="4"><A HREF="ci_senso.html">Sensors</A><FONT SIZE="7"> .<FONT SIZE="4"> <A HREF="ci_vehic.html">Vehicles</A><FONT SIZE="7"> . <FONT SIZE="4"> <A HREF="ci_decks.html">Deck Units</A><FONT SIZE="7"> . <FONT SIZE="4"><A HREF="ci_systm.html">Systems </A><FONT SIZE="7"> . <FONT SIZE="4"><A HREF="ci_other.html">Other Services</A><BR><FONT SIZE="3"><A HREF="ci_info.html">Company  Information</A><FONT SIZE="6"> . <FONT SIZE="3"><A HREF="ci_news.html">News</A><FONT SIZE="6"> . <FONT SIZE="3"><A HREF="ci_reps.html">Representatives Details</A><FONT SIZE="6"> . <FONT SIZE="3"><A HREF="ci_form.html">Enquiry Form </A><HR>
+
+
+<!***** LOGO DESCRIPTION AND MAIN IMAGE *****>
+
+<P ALIGN=CENTER><A HREF="#BOTTOM"><FONT SIZE="2">Bottom of page.</A>
+<P ALIGN=left><IMG SRC="images/ci_logo.gif" WIDTH="100" HEIGHT="143" ALT="Chelsea Instruments" ALIGN=LEFT HSPACE="55"><P></A><BR><BR><FONT SIZE = "7"><B>POWER LINE MODEM</B> <BR><FONT SIZE="3">Integrated system which allows power and bi-directional digital communications to submersible equipment over the same cable. <BR CLEAR=LEFT><BR>
+<! no image yet<!IMG SRC="images/ci_trans.gif" ALIGN="LEFT" > <!IMG SRC="images/sens01.jpg" WIDTH="338" HEIGHT="340" ALIGN="LEFT">
+
+
+<!***** APPLICATIONS *****>
+
+<FONT SIZE="5"><B>APPLICATIONS</B><BR>
+<FONT SIZE="4">
+
+<UL>
+<LI>Chelsea Instruments originally developed the Power Line Modem to provide flexibility in the payload for its range of towed vehicles, but it has wider applications in oceanographic systems.<BR>
+<LI>The use of the Modem enables the vehicles to be operated either on a single coax cable, or on multi-core cables allowing the full use to be made of the conductors available.<BR>
+<LI>The Modem has the advantage of being able to work under varying load conditions, thus providing flexibility in the payload design.   It is equally applicable to buoyed, moored and profilled systems.<BR>
+<LI>
+The physical construction and electronic design techniques used ensure that the Modem can be used in a diverse range of survey applications, whether on land or sea.
+
+<BR>
+
+</UL>
+</P>
+
+
+
+<!***** PRODUCT DESCRIPTION *****>
+<BR CLEAR=LEFT>
+<P ALIGN=left><FONT SIZE="4"><B>POWER LINE MODEM</B><BR>
+Power Line Modem is an integrated system which allows power and bi-directional digital communications to submersible equipment over the same cable. The system is made up of two parts: the Interface Unit for use on-board surface vehicles and the Submersible Modem which is mounted in a robust pressure housing.
+<BR><BR>
+The Modem is based on proven telecommunications modem hardware, with all the advantages of the modern technological improvements in this field to enable optimum data transfer. The Interface Unit allows both RS232 and RS422 communications, and provides the primary power for both modems and remote instrumentation.<BR><BR>
+<BR>
+
+
+<!***** SPECIFICATION TABLE 1 *****>
+
+<CENTER>
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD COLSPAN=2><FONT SIZE="5"><B>SPECIFICATION :</B></TD><FONT SIZE="4">
+<TR><TD COLSPAN=2><FONT SIZE="3"><B>INTERFACE UNIT</B></TD><BR>
+<TR><TD><B>Height</B><TD>135mm</TD>
+<TR><TD><B>Width</B><TD>216mm</TD>
+<TR><TD><B>Depth</B><TD>300mm</TD>
+<TR><TD><B>Weight</B><TD>5 Kg</TD>
+<TR><TD><B>Power Input</B><TD>Mains supply via IEC socket with integral EMC filter.<BR>220/240 Vac 50/60Hz or 110 Vac 50/60HZ selected on filter.</TD>
+<TR><TD><B>Power Output</B><TD>72 VDC via sea cable connector on rear of case.<BR>1 amp max rating when used with modem.<BR>
+In-line fused at 1.6 amps.</TD>
+<TR><TD><B>Interface Type</B><TD>RS232 via standard 25 way D type socket.<BR>	
+RS422 via Sea cable connector.
+</TD>
+<TR><TD><B>Front Panel</B><TD>Led indication for:-<BR>
+DC Power On<BR>
+Modem Line Ready<BR>
+Transmit and Receive Data
+</TD>
+<TR><TD><B>Sea Cable</B><TD>Connections via  heavy duty sealed bayonet coupling to<BR>
+MIL-C-50515.<BR>
+AB 14S-6P.
+</TD>
+<TR><TD><B>Data Rate</B><TD>300 to 57600 Baud communications to Modem(9600 standard).<BR><BR>
+Modem Carrier maximum 14400 baud. The number of	characters per second depends on the line quality available to the Modem and the level of compression possible with the type of data presented. 
+</TD>
+<TR><TD><B>Protocol</B><TD>The modem supports MNP and LAPM protocols, and also provides V42bis error correction to ensure maximum data transfer possible. </TD>
+<TR><TD><B>Handshake</B><TD>RTS/CTS Hardware flow control option.<BR>
+Xon/Xoff flow control option.
+</TD>
+</TABLE>
+<BR>
+
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD COLSPAN=2><FONT SIZE="3"><B>SUBMERSIBLE MODEM</B></TD><BR>
+<TR><TD><B>Length</B><TD>310mm</TD>
+<TR><TD><B>Diameter</B><TD>90mm</TD>
+<TR><TD><B>Weight in Air</B><TD>3 Kg</TD>
+<TR><TD><B>Weight in Water</B><TD>1.2 Kg</TD>
+<TR><TD><B>Housing Material</B><TD>Titanium</TD>
+<TR><TD><B>Depth Rating</B><TD>1Km limited by cable length / resistance.<BR>
+Housing rated at 6000 metres. Tested to 60Bar.
+</TD>
+<TR><TD><B>Power Input</B><TD>DC supply via 2 way submersible connector.
+<BR>Reverse polarity protected.<BR>For mating part use Impulse LPMIL-2-FS</TD>
+<TR><TD><B>Power Output</B><TD>DC supply to Instrumentation via 7 way submersible connector.<BR>
+For mating part use Impulse LPMIL-7-MP<BR>
+This allows direct connection to Chelsea Instrument’s standard products such as Aquapack (CTD-Fluorimeter) and towed vehicle servo units.
+</TD>
+<TR><TD><B>Interface Type</B><TD>RS422 via 7 way Impulse connector.</TD>
+<TR><TD><B>Handshake</B><TD>Xon/Xoff flow control option.
+</TD>
+<TR><TD><B>Cable</B><TD>Maximum Cable Length 1Km.<BR>
+Maximum Cable dissipation = 36 watt<BR>
+i.e.<72 Ohms return resistance @ 0.5 amp<BR>
+<36 Ohms return resistance @ 1 amp (max)
+</TD>
+</TABLE>
+<BR>
+ 
+
+<FONT SIZE ="1">In view of our continual improvement, the designs and specifications of our products may vary from those described.</FONT><BR>
+<BR>
+
+<BR><CENTER>
+<HR><BR>
+<CENTER><FONT SIZE="3">
+<B>Chelsea Instruments Ltd.</B> 2/3 Central Avenue, West Molesey, Surrey, KT8 2QZ, UK.<BR>
+Tel: 0181 941 0044, Fax: 0181 941 9319<BR><FONT SIZE="3">
+International Tel: +44 181 941 0044, Fax: +44 181 941 9319<BR><BR>
+E-Mail : <A HREF=mailto:100731.2345@compuserve.com>100731.2345@compuserve.com</A><BR><BR></FONT>
+<FONT SIZE="2"><A HREF="#TOP">top of page</A><BR><BR>
+<A NAME="BOTTOM"></A>
+<HR>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</DOC>

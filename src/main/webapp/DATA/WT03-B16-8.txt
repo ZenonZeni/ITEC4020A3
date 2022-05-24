@@ -1,0 +1,719 @@
+
+<DOC>
+<DOCNO>WT03-B16-8</DOCNO>
+<DOCOLDNO>IA074-000483-B008-213</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg011.html 128.125.48.102 19970125004354 text/html 29641
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:42:28 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 29409
+Last-Modified: Wed, 15 Jan 1997 02:01:30 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="Header_725" HREF="icswgmst.html#ToC_725">Security</A></H1>
+<HR>
+<H1><A NAME="HDRSEC" HREF="icswg010.html#PToC_726">Making your communications secure</A></H1>
+Security
+<P>
+If you have a secure server, you can use the
+security built into it to provide a secure environment
+for you and your users to conduct business transactions.
+<P>
+This chapter provides an overview of security and explains
+the different security protocols.
+<P>
+<P><A HREF="icswgmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_727 HREF="#Header_727" >Security concepts</A>
+<MENU>
+<LI><A NAME=PToC_728 HREF="#Header_728" >The Internet is a postal service</A>
+<LI><A NAME=PToC_729 HREF="#Header_729" >What is security?</A>
+<LI><A NAME=PToC_734 HREF="#Header_734" >What is encryption?</A>
+<LI><A NAME=PToC_735 HREF="#Header_735" >What is authentication?</A>
+</MENU>
+<LI><A NAME=PToC_736 HREF="#Header_736" >Using the security built into the server</A>
+<LI><A NAME=PToC_737 HREF="#Header_737" >Managing your keys, certificates, and trusted roots</A>
+<MENU>
+<LI><A NAME=PToC_738 HREF="#Header_738" >Working with keys</A>
+<LI><A NAME=PToC_743 HREF="#Header_743" >Setting the default key</A>
+<LI><A NAME=PToC_746 HREF="#HDRDK" >Deleting a key</A>
+<LI><A NAME=PToC_749 HREF="#HDREXPORT" >Exporting a key</A>
+<LI><A NAME=PToC_753 HREF="#Header_753" >Importing a key</A>
+<LI><A NAME=PToC_756 HREF="#Header_756" >Obtaining a certificate</A>
+<LI><A NAME=PToC_759 HREF="#Header_759" >Using trusted root keys</A>
+<LI><A NAME=PToC_760 HREF="#Header_760" >Designating a key as a trusted root</A>
+<LI><A NAME=PToC_762 HREF="#Header_762" >Removing a trusted root key</A>
+</MENU></MENU><HR><P>
+<HR>
+<H2><A NAME="Header_727" HREF="#PToC_727">Security concepts</A></H2>
+<P>
+The Internet was not originally designed
+to protect sensitive or confidential data.
+However, with the advent of electronic commerce, such as online
+shopping and online bill paying, information privacy becomes necessary.
+In addition, intra-company communications over the Internet
+often contain confidential product information
+that needs to be protected from general access.
+Routing computers can listen to and record
+any communications that pass through.
+<P>
+<H3><A NAME="Header_728" HREF="#PToC_728">The Internet is a postal service</A></H3>
+<P>
+Think of the Internet as a new postal service.
+This new service operates at blinding speed, sorting and routing
+messages through various post offices in seconds.
+<P>
+Unfortunately, this new postal service has an awkward twist to it.
+Anyone and everyone can be a postmaster, and there is nothing
+to prevent a postmaster from reading, copying, and even
+altering the mail as it passes through the post office.
+Another drawback is the lack of receiver accountability, for items
+such as registered letters that require signatures or return receipts.
+As a result, you cannot be sure that
+the intended recipient received the mail you sent.
+<P>
+Because the Internet was designed to be an open system,
+it allows any computer on the network
+to see the messages passing through.
+You can safely estimate that 20% of the messages you send
+on the Internet will be copied and stored somewhere
+by someone else for future reference.
+Because most messages are sent as plain block text,
+there is no limit to the different software platforms
+that can read, copy, and possibly alter the messages you send.
+<P>
+<H3><A NAME="Header_729" HREF="#PToC_729">What is security?</A></H3>
+<P>
+You would never think of sending your medical records
+or paying your bills by postcard.
+By the same token, few people want to use the Internet, in its
+present form, for commercial exchanges without additional security.
+<P>
+You can consider an information transaction to be secure
+if it has these characteristics:
+<UL COMPACT>
+<LI>Confidentiality
+<LI>Integrity
+<LI>Accountability
+<LI>Authenticity
+</UL>
+<P>
+<H4><A NAME="Header_730">Confidentiality</A></H4>
+<P>
+Confidentiality means that the contents of the messages
+remain private as they pass through the Internet.
+Without confidentiality, your computer broadcasts the message to the
+network, similar to shouting the information across a crowded room.
+<B><I>Encryption</I></B> ensures confidentiality.
+<P>
+<H4><A NAME="Header_731">Integrity</A></H4>
+<P>
+Integrity means that messages are not altered while being transmitted.
+Any router along the way can insert or delete text
+or garble the message as it passes by.
+Without integrity, you have no guarantee
+that the message you sent matches the message received.
+Encryption and <B><I>digital signature</I></B> ensure integrity.
+<P>
+<H4><A NAME="Header_732">Accountability</A></H4>
+<P>
+Accountability means that both the sender and
+the receiver agree that the exchange took place.
+Without accountability, the addressee
+can easily say the message never arrived.
+Digital signature also ensures accountability.
+<P>
+<H4><A NAME="Header_733">Authenticity</A></H4>
+<P>Authenticity means that you know who you are talking to
+and that you can trust that person.
+Without authenticity, you have no way
+to be sure that anyone is who they say they are.
+<B><I>Authentication</I></B> ensures authenticity.
+<P>
+<H3><A NAME="Header_734" HREF="#PToC_734">What is encryption?</A></H3>
+<P>
+Encryption in its simplest form is scrambling a message so that it
+cannot be read until it is unscrambled later by the receiver.
+The sender uses an algorithmic pattern, or <B><I>key</I></B>,
+to scramble, or encrypt, the message.
+The receiver has the decryption key.
+Encryption ensures confidentiality in transmissions
+sent over the Internet.
+<P>
+There are two kinds of keys that can be used for encryption
+(as well as for digital signature and authentication):
+<UL COMPACT>
+<LI>Symmetric
+<LI>Asymmetric
+</UL>
+<B><I>Symmetric</I></B> keys follow an age-old model
+of the sender and receiver sharing some kind of pattern.
+This same pattern is then used by the sender to encrypt the message
+and by the receiver to decrypt the message.
+You may have used this model when you decoded the secret message
+on the back of a cereal box using your secret decoder ring.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0s03.gif" ALT="* Figure icsl0s03 not displayed."><BR></B><BR>
+<P>
+<P>
+The risk involved with symmetric keys is that you have to find a
+safe transportation method to use when sharing your secret
+key with the people with which you want to communicate.
+<P>
+With <B><I>asymmetric</I></B> keys, you create a <B><I>key pair</I></B>.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0s04.gif" ALT="* Figure icsl0s04 not displayed."><BR></B><BR>
+<P>
+The key pair is made up of a <B><I>public key</I></B> and a
+<B><I>private key</I></B>, which are different from each other.
+The private key holds more of the
+secret encryption pattern than the public key.
+<P>
+As a sender, you can then broadcast your public key
+to whomever you want to communicate securely.
+You hold on to the private key and protect it with a password.
+<P>
+Unlike symmetric keys, the private key and
+the public key are not the same.
+As a result, only you can decrypt a message that has been encrypted
+with your public key, because only you have the private key.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0s05.gif" ALT="* Figure icsl0s05 not displayed."><BR></B><BR>
+<P>
+<P>
+A protocol like Secure Sockets Layer (SSL) uses both public key
+cryptography and symmetric key cryptography.
+Public key cryptography is used for the TCP/IP handshake.  During
+the handshake the master key is passed from the client to the
+server.  The client and server make their own session keys using
+the master key.  The session keys are used to encrypt and decrypt
+data for the remainder of the session.
+<P>
+<H3><A NAME="Header_735" HREF="#PToC_735">What is authentication?</A></H3>
+<P>
+Authentication is the process used to verify identity,
+so that you can make sure that others are who they say they are.
+There are two ways in which the server uses authentication:
+<UL COMPACT>
+<LI>Digital signature
+<LI>Digital certificates
+</UL>
+<P>
+A digital signature is a unique mathematically computed signature
+that ensures accountability.
+You can think of a digital signature as being like a credit card
+with your picture on it.
+But how do you know if the person sending you a message
+is who he says he is?
+<P>
+You look at the sender's <B><I>digital certificate</I></B>.
+A digital certificate is like a credit card with a picture
+of the bank president with his arm around you.
+A merchant will trust you more because not only do you look like
+the picture on the credit card, the bank president trusts you, too.
+<P>
+You base your trust for the authenticity of the sender
+on whether you trust the third party
+(a person or agency) that certified the sender.
+The third party or <B><I>certification authority (CA)</I></B>
+issues digital certificates.
+<P>
+A certificate is made up of:
+<UL COMPACT>
+<LI>The public key of the person being certified
+<LI>The name and address of the person being certified,
+also known as the <B><I>Distinguished Name</I></B>
+<LI>The digital signature of the CA
+<LI>The issue date
+<LI>The expiration date
+</UL>
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0s14.gif" ALT="* Figure icsl0s14 not displayed."><BR></B><BR>
+<P>
+<P>
+The Distinguished Name is the name and
+address of a person or organization.
+At a minimum, it is someone's name.
+You enter your Distinguished Name as part of requesting a certificate.
+The digitally-signed certificate includes not only your own
+Distinguished Name, but the Distinguished Name of the CA.
+<P>
+CAs broadcast their public key and Distinguished Name
+bundled together so that people will add them as
+a <B><I>trusted root</I></B> key to their Web servers and browsers.
+When you designate the public key and certificate
+from a certification authority to be a trusted root key means
+that your server will trust anyone who has a certificate
+from that certification authority.
+You may have many trusted roots as part of your server.
+In fact, the server includes several default trusted root keys,
+and you can add others as needed.
+<P>
+In order to communicate securely, the receiver in a transmission
+must trust the CA that issued the certificate that the sender is using.
+This is true whether the receiver is a Web server or browser.
+As a result, any time a sender signs a message,
+the receiver must have the corresponding CA certificate
+and public key designated as a trusted root key.
+<HR>
+<H2><A NAME="Header_736" HREF="#PToC_736">Using the security built into the server</A></H2>
+<P>
+SSL is a security protocol that was developed
+by Netscape Communications Corporation,
+along with RSA** Data Security, Inc.
+This protocol ensures that data transferred
+between a client and a server remains private.
+It allows the client to authenticate the identity of the server.
+In addition, SSL V3 allows the server to authenticate a client.
+If SSL client authentication is set up, the server requests
+the client's certificate for any <B>https</B> request.
+The server establishes a secure session whether or not the client
+has a valid certificate.
+SSl client authentication parameters can be specified in
+protection setups, ACL files, or both
+as described in <A HREF="icswg009.html#HDRPRT">"Protecting your server"</A>.
+If you specify SSL client authentication parameters, the
+server validates the DN information in the parameters with
+the DN information in the client's certificate before serving
+the document.
+<P>
+Once your server has a digital certificate, SSL-enabled browsers
+like the IBM Secure WebExplorer and Netscape** Navigator can
+communicate securely with your server using SSL.
+With SSL, you can easily establish a security-enabled Web site on
+the Internet or on your corporate TCP/IP network.
+<P>
+SSL uses a security handshake to initiate the TCP/IP connection
+between the client and the server.
+During the handshake, the client and server agree on the
+security keys that they will use for the session and
+the algorythms they will use for encryption and to compute message
+digests or hashes.
+The client authenticates the server.
+In addition,
+if the client requests a document protected by
+SSL client authentication, the server requests the
+client's certificate.
+After the handshakes, SSL is used to encrypt and decrypt all of
+the information in both the <B>https</B> request
+and the server response, including:
+<UL>
+<P><LI>The URL the client is requesting
+<P><LI>The contents of any form being submitted
+<P><LI>Access authorization information like user names and passwords
+<P><LI>All data sent between the client and the server
+</UL>
+<P>
+For more information on how to use SSL,
+see <A HREF="icswg012.html#HDRSSL">"Using Secure Sockets Layer (SSL)"</A>.
+<P>
+<HR>
+<H2><A NAME="Header_737" HREF="#PToC_737">Managing your keys, certificates, and trusted roots</A></H2>
+<P>
+The server uses the public key cryptography from RSA Data Security, Inc.,
+for encryption, message digest, and authentication.
+RSA public key cryptography is commonly used in the computer industry.
+<P>
+We provide forms that you can use to manage your keys,
+<B><I>key ring</I></B> file passwords, certificates, and trusted roots.
+A key ring file is a file where you keep public keys, private keys,
+certificates, and trusted root keys.
+<P>
+<H3><A NAME="Header_738" HREF="#PToC_738">Working with keys</A></H3>
+<P>
+As discussed earlier in this chapter,
+public key cryptography uses a pair of asymmetric keys
+for encryption and decryption.
+<P>
+When you create a key pair, you are asked to provide the
+name of the key ring where you want to keep the key pair
+and a password for the key ring.
+Then, whenever you want to use a Key Management form,
+such as Designate Trusted Root Keys,
+you'll be asked for the key ring password.
+<P>
+The default trusted root keys that are part of the server will
+automatically be added any time you create a key ring.
+<P>
+The server also provides you with the ability to:
+<UL COMPACT>
+<LI>Change your key ring password
+<LI>Set a private key as the default
+<LI>Delete keys
+<LI>Export a key by copying it to a file
+<LI>Import a key from an exported copy and add it to a key ring
+</UL>
+<P>
+You can access these key management functions from the
+Key Management form.
+To access this form:
+<OL>
+<P><LI>Go to the front page of your server and
+click <B>Configuration and Administration forms</B>.
+<P><LI>You are prompted for your user name and password.
+Type them in and click <B>OK</B>.
+<P><LI>The Configuration and Administration forms page appears.
+Page down until you find the topic Security.
+Select <B>Key Management</B>.
+</OL>
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o01.gif" ALT="* Figure icsl0o01 not displayed."><BR></B><BR>
+<P>
+<P>
+The key management forms require that you enter the
+key ring password before you can use them.
+If you have multiple key rings, always make sure that
+you are making changes to the correct key ring by checking the
+key file name and path displayed on the form.
+When you complete your key management tasks, always make sure
+that the key ring that contains the server's keys you want
+to use for secure communications is the current key ring.
+You can use the Security Configuration form
+to designate a key ring as the current key ring.
+<P>
+When you apply the changes you've made to a security form, you
+will receive a confirmation message that the changes have been
+successfully completed.
+You can make changes to other Configuration and Administration forms.
+However, when you are ready for the changes
+you've made to any security forms to take effect,
+you must stop the server and then start it again.
+The server will not pick up your changes if you only restart it.
+<P>
+<H4><A NAME="Header_739">Changing your key ring password</A></H4>
+<P>
+Use the Change Password form to change
+the password for the current key ring file.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o02.gif" ALT="* Figure icsl0o02 not displayed."><BR></B><BR>
+<P>
+<P>
+The current key ring file name is displayed.
+To change your password:
+<P>
+<H5><A NAME="Header_740">Old password</A></H5>
+<P>Enter the current password used to protect the key ring file.
+<P>
+<H5><A NAME="Header_741">Specify a new password</A></H5>
+<P>
+Use this part of the form to specify
+the new password to protect your key ring.
+The password must be from the U.S. English character set.
+<P>
+The password is important because it protects a private key.
+The server uses its private key to decrypt messages
+from clients and to sign messages to clients.
+The CA private key is used to sign the client and
+server certificates processed by the certutil command.
+<P>
+The security of a private key depends
+upon this password.
+Here are some commonly accepted rules for specifying passwords:
+<UL>
+<P><LI>Make your password at least six characters.
+<P><LI>Make sure your password doesn't spell a word.
+<P><LI>Make sure your password doesn't consist of publicly
+obtainable information about you; for example,
+the initials and birth date for you, your spouse, or children.
+<P><LI>Include at least two, nonconsecutive numbers in your password.
+</UL>
+<P>
+Type the password twice to ensure
+that you have typed it correctly.
+<P>
+If you must record the password,
+make sure it is stored in a well-secured place.
+<P>
+The key ring password must be specified when
+the server is started.
+Check <B>Automatic login</B> if you want the server to stash
+the password and specify it for you whenever the server is started.
+To stash the password, the server
+encrypts the key ring password and puts it in a file
+that has the same name as the key ring file,
+except the extension is .sth.
+<P>
+Stashing the server's key ring password is less secure so
+it's generally a good practice not to stash it.
+However, there may be cases where you need to stash the password;
+for example, if you have a remote server and you want it to
+automatically restart after a power failure.
+<P>
+If you are changing the CA key ring password, do not stash it.
+<P>
+<H5><A NAME="Header_742">Expiration</A></H5>
+<P>Select whether you want the password to never expire or
+the length of time you want the password to be active.
+If you do select an expiration date, a message is written
+to the error log when the password expires.
+<P>
+<H3><A NAME="Header_743" HREF="#PToC_743">Setting the default key</A></H3>
+<P>
+Use the Manage Keys form to set a private key as the default key.
+The default key should be the private key
+the server uses for its secure communications.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o03.gif" ALT="* Figure icsl0o03 not displayed."><BR></B><BR>
+<P>
+<P>
+<P>
+The current key ring file name and default key are displayed.
+To set a key as the default:
+<P>
+<H5><A NAME="Header_744">Specify key</A></H5>
+<P>Select the key you want to set as default,
+as long as it is not a trusted root key.
+You cannot set a trusted root key as a default because
+trusted root keys cannot send and receive messages.
+The trusted roots are marked with an asterisk (*).
+<P>
+<H5><A NAME="Header_745">Set as default</A></H5>
+<P>Select this radio button to set the key as the default.
+<P>
+<H3><A NAME="HDRDK" HREF="#PToC_746">Deleting a key</A></H3>
+<P>
+Use the Manage Keys form to delete a key
+from the current key ring file.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o04.gif" ALT="* Figure icsl0o04 not displayed."><BR></B><BR>
+<P>
+<P>
+The current key ring file name and default key are displayed.
+To delete a key:
+<P>
+<H5><A NAME="Header_747">Specify key</A></H5>
+<P>Select the key you want to delete.
+The default trusted roots are marked with an asterisk (*).
+<P>
+<H5><A NAME="Header_748">Delete</A></H5>
+<P>Select this radio button to delete the key.
+<P>
+<H3><A NAME="HDREXPORT" HREF="#PToC_749">Exporting a key</A></H3>
+<P>
+If you need to transfer a key pair or certificate
+to another computer, you can export it to a file.
+On the other computer, you can import it into a key ring.
+<P>
+Use the Export Keys form to export a key pair or
+certificate to a file.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o05.gif" ALT="* Figure icsl0o05 not displayed."><BR></B><BR>
+<P>
+<P>
+To export:
+<P>
+<H5><A NAME="Header_750">Specify key</A></H5>
+<P>Select the key pair or certificate that you want to export.
+Trusted root keys are designated with an "*".
+You may need to transfer a key pair for your own use; however,
+keep in mind that a key pair contains the private key,
+which should never be transmitted to others.
+The private key is what the server uses to sign messages
+and also to decrypt messages that clients have encrypted
+with the server's public key.
+If you are acting as your own CA for a private Web network,
+the CA private key is used to sign the certificates you process as CA.
+If the CA private key is compromised, then all the certificates
+issued by you as a CA are also compromised.
+<P>
+<H5><A NAME="Header_751">Export to file</A></H5>
+<P>Enter the name of the file to which you want
+to export the key pair or certificate.
+<P>
+<H5><A NAME="Header_752">Armor password</A></H5>
+<P>Enter the password you want use to protect the export file.
+Then enter it again for verification.
+The export file will be encrypted using this password.
+<P>
+<H3><A NAME="Header_753" HREF="#PToC_753">Importing a key</A></H3>
+<P>
+Use the Import Keys form to import a key pair or
+certificate from a file and add it to a key ring file.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o06.gif" ALT="* Figure icsl0o06 not displayed."><BR></B><BR>
+<P>
+<P>
+To import a key pair or certificate:
+<P>
+<H5><A NAME="Header_754">Name of file to import</A></H5>
+<P>Enter the name of the file from which you want
+to import the key pair or certificate.
+<P>
+<H5><A NAME="Header_755">Armor password</A></H5>
+<P>Enter the password that was used to protect the export file.
+<P>
+<H3><A NAME="Header_756" HREF="#PToC_756">Obtaining a certificate</A></H3>
+<P>
+Your public key must be tied to
+a digitally signed certificate from a (CA).
+There are two different ways that you can obtain a certificate:
+<UL COMPACT>
+<LI>Buy a certificate from a CA
+<LI>Issue yourself a certificate using the certutil command
+</UL>
+<P>
+It's not a good practice to share certificates among servers.
+As you'll see later, the server's keys are kept on a key ring
+with the server's certificate.
+You do not want servers to share a private key, particularly
+if they are running on different machines.
+A private key should never be communicated to others.
+<P>
+VeriSign** certificates can't be shared among servers
+on different machines.
+<P>
+<H4><A NAME="Header_757">Buying a certificate from a CA</A></H4>
+<P>
+You can buy a signed certificate by submitting a
+certificate request to a CA.
+VeriSign, Inc. will issue certificates to Internet Connection Secure Server customers.
+We expect that there may be
+other certification authorities over time.
+<P>
+VeriSign will expect you to prove who you are
+before they will issue you a certificate.
+Although the approval process is necessary to protect you,
+your organization, and VeriSign, it may take longer than
+you would like.
+VeriSign will digitally sign your certificate request and return
+the unique certificate to you through e-mail.
+After you have received the certificate into the file system,
+you can use the Configuration and Administration
+forms to receive the certificate into a key ring.
+<P>
+For more detailed step-by-step information on
+how to request a certificate,
+see <A HREF="icswg012.html#HDRSSL">"Using Secure Sockets Layer (SSL)"</A>.
+<P>
+<H4><A NAME="Header_758">Issuing certificates yourself</A></H4>
+<P>
+If you act as a CA, you can sign your own or anyone else's
+certificate request.
+This is a good choice if you only need the certificates within your
+private Web network and not for outside Internet commerce.
+Clients must have browsers, such as Secure WebExplorer and Netscape Navigator,
+that can receive your CA certificate and designate it as a
+a trusted root.
+<P>
+For example, if your company is working on a top secret
+project and you want to allow access only to a carefully
+controlled group of key people, you might want to issue them
+certificates so that they can share information covertly and safely.
+<P>
+If you choose to issue your own certificates, you will need to give
+the file that contains the signed certificate to users.
+They can then use read the certificate and designate it
+as an additional trusted root.
+<P>
+For more detailed step-by-step information on
+how to issue certificates, see <A HREF="icswg013.html#HDROWNCA">"Acting as a certification authority for a private Web network"</A>.
+<P>
+<H3><A NAME="Header_759" HREF="#PToC_759">Using trusted root keys</A></H3>
+<P>
+In order for the server to trust a request coming from a client, it
+must trust the CA that issued the client certificate.
+If you want to trust certificates coming from a CA
+other than the default trusted roots included with the server,
+you must receive a certificate from that CA
+and designate it as a trusted root.
+<P>
+With the remote configuration forms, you can:
+<UL COMPACT>
+<LI>Designate a public key and certificate as a trusted root key
+<LI>Remove trusted root status from a public key and certificate
+</UL>
+<P>
+You can access these trusted root functions from the
+Key Management form.
+To access this form:
+<OL>
+<P><LI>Go to the front page of your server and
+click <B>Configuration and Administration forms</B>.
+<P><LI>You are prompted for your user name and password.
+Type them in and click <B>OK</B>.
+<P><LI>The Configuration and Administration forms page appears.
+Page down until you find the topic Security.
+Select the Key Management form.
+</OL>
+<P>
+<H3><A NAME="Header_760" HREF="#PToC_760">Designating a key as a trusted root</A></H3>
+<P>
+Use the Designate Trusted Root Keys form
+to designate a trusted root key.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o07.gif" ALT="* Figure icsl0o07 not displayed."><BR></B><BR>
+<P>
+<P>
+The current key ring file is displayed.
+To designate a trusted root key:
+<P>
+<H5><A NAME="Header_761">Specify key</A></H5>
+<P>Select the key you want to designate as a trusted root.
+Do not designate keys as trusted root keys if you want the
+server to use them for secure communications.
+Trusted root keys cannot send or receive messages.
+<P>
+<H3><A NAME="Header_762" HREF="#PToC_762">Removing a trusted root key</A></H3>
+<P>
+You may choose not to accept client requests from clients that have
+certificates issued by a specific CA.
+<P>
+Use the Remove Trusted Root Keys form
+to remove trusted root status from a key.
+<P><B>Note: </B>This does not delete the key from your key ring file.
+See <A HREF="#HDRDK">"Deleting a key"</A> to delete a key.
+<P><BR>
+<P><BR>
+<B><BR><IMG SRC="icsl0o08.gif" ALT="* Figure icsl0o08 not displayed."><BR></B><BR>
+<P>
+<P>
+The current key ring file is displayed.
+To remove trusted root status from a key:
+<P>
+<H5><A NAME="Header_763">Specify key</A></H5>
+<P>Select the key you want to remove as a trusted root.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg010.html">Previous Page</A> &#124; <A HREF="icswg012.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

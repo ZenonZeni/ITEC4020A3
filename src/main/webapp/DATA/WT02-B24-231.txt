@@ -1,0 +1,85 @@
+
+<DOC>
+<DOCNO>WT02-B24-231</DOCNO>
+<DOCOLDNO>IA077-000525-B039-219</DOCOLDNO>
+<DOCHDR>
+http://supply.econ.lsa.umich.edu:80/labdocs/homepage.html 141.211.12.150 19970211020733 text/html 2539
+HTTP/1.0 200 OK
+Date: Tue, 11 Feb 1997 02:07:40 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+Content-length: 2368
+Last-modified: Wed, 28 Aug 1996 20:52:23 GMT
+</DOCHDR>
+<HEADER>
+<TITLE>UM-Economics: Creating your own Homepage</TITLE>
+</HEADER>
+
+<BODY>
+
+
+<H2>Creating your own Homepage</H2>
+
+These instructions are for faculty and graduate students with an account
+in the Econometrics Lab.  Other UMich users should refer to 
+<A HREF="http://www.umich.edu/hpgw/how-to-homepage.html">
+these instructions</A> for creating their own homepage.
+<P>
+<HR>
+
+<P>By popular demand, the World-Wide Web server has been updated
+to allow users to make their own home pages.
+
+
+<P>Simply make a directory called <B><CODE>public_html</CODE></B> in your
+home directory, and make sure that that directory, the documents in it,
+and your home directory are permitted world-readable (since, after all,
+you are letting the world read them on the web).  You don't have to permit
+the files in your home directory to do this, but other users on the system
+will be able to see what files you have (except for IFS files, since IFS
+does permissions by directories only, not by files!). 
+
+
+<P>To do this, type <B><CODE>chmod 755 ~</CODE></B> (note the tilde) and
+<B><CODE>chmod 755 public_html</CODE></B>, as well as <CODE><B>chmod 644
+filename</CODE></B> where <B><CODE>filename</CODE></B> is the name of any
+file in your <CODE><B>public_html</CODE></B> directory. 
+
+
+<P>If your home directory is in IFS, type <CODE><B>fs sa ~ system:anyuser
+rl</B></CODE> and <B><CODE>fs sa public_html system:anyuser rl</CODE></B>. 
+The unix file permissions aren't a problem for IFS directories, as long as
+the owner (you) can read the files. 
+
+
+<P>Your home page should be called <B><CODE>index.html</CODE></B>.  Look
+at other pages on this server for examples of how to construct html
+documents (to see the underlying HTML code, choose <VAR>Source...</VAR>
+from the <B>Go</B> menu in Netscape), and/or look at the URL: <VAR> 
+<A HREF="http://www.ncsa.uiuc.edu/General/Internet/WWW/HTMLPrimer.html">
+http://www.ncsa.uiuc.edu/General/Internet/WWW/HTMLPrimer.html</A> </VAR>
+for a tutorial. 
+
+
+<P>Your home page will show up as
+<VAR>http://www.econ.lsa.umich.edu/~uniqname/</VAR> .  For example:
+<A HREF="http://www.econ.lsa.umich.edu/~danno">
+<VAR>http://www.econ.lsa.umich.edu/~danno</VAR></A>.
+
+<P>
+
+<HR>
+<ADDRESS>
+Comments or questions on this server?  Please see the
+<A HREF="feedback.html">Feedback Page</A>.
+
+<BR>
+Most recent update:  August 28, 1996
+</ADDRESS>
+
+</BODY>
+
+
+
+
+</DOC>

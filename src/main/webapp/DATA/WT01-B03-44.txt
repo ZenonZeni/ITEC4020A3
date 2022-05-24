@@ -1,0 +1,105 @@
+
+<DOC>
+<DOCNO>WT01-B03-44</DOCNO>
+<DOCOLDNO>IA097-001048-B044-425</DOCOLDNO>
+<DOCHDR>
+http://mspiggy.etl.noaa.gov:80/radiom/irradiom.htm 140.172.33.2 19970215104912 text/html 5806
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 05:46:35 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 14 Nov 1996 22:37:43 GMT
+Content-length: 5632
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Infrared Radiometry</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.0Gold (Win95; I) [Netscape]">
+</HEAD>
+<BODY BGCOLOR="#88BBBB">
+
+<P><FONT FACE="arial"><A HREF="http://www.doc.gov">Commerce</A>
+/ <A HREF="http://www.noaa.gov">NOAA</A> / <A HREF="http://www.oar.noaa.gov">OAR</A>
+/ <A HREF="http://www.erl.noaa.gov">ERL</A> / <A HREF="http://www.etl.noaa.gov">ETL</A>
+/ <A HREF="http://www1.etl.noaa.gov">Oceans</A> / <B>Infrared</B> </FONT></P>
+
+<center><H1><FONT FACE="arial"><FONT COLOR="#FFFFFF">Infrared Radiometry</FONT></FONT></H1><IMG SRC="gifs/3dline.gif" HEIGHT=10 WIDTH=555 ALIGN=BOTTOM></center>
+
+<blockquote>
+<P><IMG SRC="gifs/why.gif" HEIGHT=28 WIDTH=59 ALIGN=BOTTOM><FONT FACE="arial">
+The world around us is glowing in the infrared. Gases and clouds in the
+atmosphere, the ocean, and nearly everything else around us emits infrared
+radiation. Infrared radiometers are <B>passive</B> sensors that emit no
+energy of their own, but instead measure the &quot;brightness&quot; of
+the naturally occurring infrared radiation in the environment. Spectral,
+angular, or other variations in this brightness can then be used to tell us
+the <b>amount of atmospheric constituents</b>, the physical <b>properties of clouds</b>, or the <b>roughness of the ocean surface</b>. </FONT></P>
+
+<P>
+<HR size=4></P>
+
+<H3><FONT FACE="arial">How does Infrared Radiometry work?</FONT></H3>
+
+<P><FONT FACE="arial"><a href="gifs/planck4.gif"><img src="gifs/planck4_120.gif" ALT="Planck curves" width=120 height=125 hspace=15 border=3 align=right> </a>All objects at temperatures above absolute zero radiate
+energy because of molecular and atomic motion. The brightness of such <b>"blackbody
+radiation" depends on temperature and electromagnetic wavelength</b>.
+As temperature increases, blackbody radiation moves to shorter wavelengths.
+For example, at 300 K (roughly room temperature) an object radiates maximum
+energy at a wavelength of 10 &#181;m, whereas at 6000 K (such as our
+sun) an object radiates maximum energy at a wavelength near 0.5 &#181;m.
+Therefore, an infrared radiometer operating at wavelengths near 10 &#181;m
+is good for measuring the &quot;brightness temperature&quot; of typical
+terrestrial objects. The brightness temperature is equal to the physical
+temperature for a perfect blackbody (an object with 100% absorption), but
+is less than the physical temperature for an object with lower absorption.</FONT></P>
+
+<P>
+<HR size=4></P>
+
+<H3><FONT FACE="arial">Infrared Spectro-Radiometry</FONT></H3>
+
+<P><a href="gifs/ftir4.gif"><IMG SRC="gifs/ftir1_120.gif" HSPACE=20 border=3 HEIGHT=82 WIDTH=120 ALIGN=LEFT></a><FONT FACE="arial">We
+have developed a multi-channel spectro-radiometer for measuring spectra
+of atmospheric emission. This instrument is based on a commercial Fourier
+Transform InfraRed (FTIR) spectrometer. It measures emission over the frequency
+range of approximately 500 cm<SUP>-1</SUP> (20-&#181;m wavelength) to
+2000 cm<SUP>-1</SUP> (5-&#181;m wavelength) in steps of 1 cm<SUP>-1</SUP>.
+We are using these emission spectra to <b>improve radiative transfer models</b>,
+to quantify the <b>effect of water vapor on climate</b>, and to investigate the
+<b>radiative properties of clouds</b>. <p>
+
+Our measurements recently resulted in creation of a <b>new model (<a href="ftp://ftp.aer.com/pub/aer_contnm_ckd/README">CKD_2.1</a>) for the water vapor continuum in the atmospheric transmission window near 10 microns</b>.  The new model was created by <a href="http://www.aer.com/aer.groups.rc.manager.html">Dr. S.A. Clough</a> of <a href="http://www.aer.com">AER</a>, Inc.  The improvement made by this model is equivalent to the radiative effect of doubling the amount of carbon dioxide in the atmosphere. Many atmospheric radiative transfer codes, including  <a href="http://www.ontar.com/additional.html#modwin">Lowtran/Modtran</a>, <a href="http://www.ontar.com/additional.html#lnwin">Fascode</a>, and <a href="http://www.aer.com">LBLRTM</a>, now use the new continuum model. You can find out more about the FTIR <a href="ftir.html">instrument </a>and the FTIR <a href="data.htm">data</a>. </FONT></P>
+
+<H3>
+<hr size=4>
+<p><FONT FACE="arial">Single-Band Infrared Radiometry</FONT></H3>
+ 
+<a href="gifs/tb.gif"><IMG SRC="gifs/tb_150.gif" border=3 HSPACE=20 HEIGHT=108 WIDTH=150 ALIGN=LEFT></a><FONT FACE="arial">
+<p>We
+also use commercial radiometers that measure the radiance integrated over
+a particular spectral band. Typically, these radiometers have a filter
+that limits the spectral band to some portion of the 8-12 &#181;m &quot;window,&quot;
+where the atmospheric emission is relatively low. Such radiometers are
+useful for measuring the <b>brightness temperature of the atmosphere, of clouds,
+or of the ocean surface</b>. We are experimenting with using these radiometers
+to measure the polarization of emissions from a rough ocean surface, which might be useful for measuring <b>sea-surface roughness</b> or
+for determining <b>wind speed and direction</b>.</FONT></P>
+<FONT FACE="arial"></FONT>
+<P>
+<HR size=4></P>
+
+<P><FONT FACE="arial"><B>For more information</B>, contact Dr. Joseph Shaw,
+<A HREF="mailto:jshaw@etl.noaa.gov">jshaw@etl.noaa.gov</A> </FONT></P>
+
+<P>
+<HR size=4><CENTER><A HREF="/index.html">Ocean Remote Sensing
+Home Page</A> | <A HREF="http://www.etl.noaa.gov">ETL Home Page</A></CENTER>
+<HR size=4>
+<SCRIPT>
+document.write ("Last updated on " + document.lastModified)
+</SCRIPT>
+</blockquote>
+</BODY>
+</HTML>
+</DOC>

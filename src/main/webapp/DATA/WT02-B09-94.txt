@@ -1,0 +1,174 @@
+
+<DOC>
+<DOCNO>WT02-B09-94</DOCNO>
+<DOCOLDNO>IA096-001034-B044-212</DOCOLDNO>
+<DOCHDR>
+http://aeropure.com:80/appo1.htm 205.254.229.1 19970215052305 text/html 7470
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 05:19:26 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 7299
+Last-modified: Tue, 20 Aug 1996 07:23:11 GMT
+</DOCHDR>
+	<html>
+<head>
+   <title></title>
+   <meta name="Author" content="">
+   <meta name="GENERATOR" content="Mozilla/2.01Gold (Win32)">
+</head>
+<body text="#000000" bgcolor="#87ceff" link="#0000EE" vlink="#551A8B" alink="#FF0000">
+
+<center><p><!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.2//EN"></p></center>
+
+<center><p><img src="oval2.gif" border=0 height=160 width=249></p></center>
+
+<center><p><font SIZE=+4>Placing an Order</font></p></center>
+<hr width=100%>
+<p><b><font SIZE=+1>To place an order:</font></b> 
+<br></p>
+
+<ol>
+<li><font SIZE=+1>Find the model you want by scrolling through the models
+in the selection box under the &quot;Model&quot; column heading below (by
+clicking on the box's up/down scrolling arrows).</font></li>
+
+<li><font SIZE=+1>Once the name of the model you want appears in the box,
+highlight it by clicking on it.</font></li>
+
+<li><font SIZE=+1>Then, type a number in the corresponding &quot;Quantity&quot;
+box to the right indicating how many you would like to purchase.</font></li>
+
+<li><font size=+1>If you need a voltage and/or plug different from those used in the United 
+States, type this information in the "Country/Voltage" column. Otherwise, leave it blank.</li>
+
+<li><font size=+1>Finally, fill in the information at the bottom of this form (e.g., name,
+address, etc.) and press the "send order" button. We will use this latter information to
+contact you (most likely by phone) and complete the order.</li>
+</ol>
+
+<p><font SIZE=+1>Up to three <i>different</i> models can be ordered at
+one time (one model per &quot;item&quot; line). If you need 
+<br>to order more than 3 different models, send another order with the
+additional items.</font></p>
+<p><hr width=100%></p>
+<p><font COLOR="#0000ff" SIZE=+1>Note: If you would rather not conduct
+a business transaction over the internet, you can call our 24-Hour, toll
+free phone number: 1-888-AEROPURE (or 1-888-237-6787). Please tell the sales representative
+you got the phone number from the Aero<b>&#183;</b>Pure website.</font></p>
+
+
+<hr width=100%></p>
+<!form action="mailto:wich@psych.ucsb.edu" method="post" enctype="text/plain"!>
+
+<form action="/cgi-bin/formmail.pl" method=POST>
+<input type=hidden name=recipient value="sales@aeropure.com">
+<input type=hidden name=subject value="Mail Form Post">
+
+
+
+<center>
+<table>
+<tr>
+<th>&nbsp;</th><th width=50>Model</th><th>Quantity</th><th>Country/Voltage(if not U.S.)</th></tr>
+<tr>
+<td><font SIZE=+1>Item 1:</font></td>
+
+<td><select name="Order_item_1" multiple size=1><option>ZN-51
+<option>Beauty 100 <option>990 <option>Wizard 2 <option>Topline 9 <option>Falcon
+52 <option>Beauty 200 <option>Falcon 50 <option>Beauty 300 <option>Decon
+51 <option>Decon 52 <option>Ion-B15 <option>Ion-C15 <option>Farm-Air MO-5
+<option>Farm-Air MO-2 <option>Electrostatic Filter</select></td>
+
+<td align=center> <input name="Quantity_1" size=3 maxlength=3 Type="text"></td>
+<td><input name="Country/Voltage_1" size=18 type="text"></td>
+</tr>
+<tr>
+<td><font SIZE=+1>Item 2:</font></td>
+<td><select name="Order_item_2" multiple size=1><option>ZN-51
+<option>Beauty 100 <option>990 <option>Wizard 2 <option>Topline 9 <option>Falcon
+52 <option>Beauty 200 <option>Falcon 50 <option>Beauty 300 <option>Decon
+51 <option>Decon 52 <option>Ion-B15 <option>Ion-C15 <option>Farm-Air MO-5
+<option>Farm-Air MO-2<option>Electrostatic Filter</select></td>
+
+<td align=center><input name="Quantity_2" size=3 maxlength=3 Type="text"></td>
+<td><input name="Country/Voltage_1" size=18 type="text"></td>
+</tr>
+<tr>
+<td><font SIZE=+1>Item 3:</font></td>
+<td><select name="Order_item_3" multiple size=1><option>ZN-51
+<option>Beauty 100 <option>990 <option>Wizard 2 <option>Topline 9 <option>Falcon
+52 <option>Beauty 200 <option>Falcon 50 <option>Beauty 300 <option>Decon
+51 <option>Decon 52 <option>Ion-B15 <option>Ion-C15 <option>Farm-Air MO-5
+<option>Farm-Air MO-2<option>Electrostatic Filter</select></td>
+<td align=center><input name="Quantity_3" maxlength=3 size=3 Type="text"></td>
+<td><input name="Country/Voltage_1" size=18 type="text"></td>
+</tr>
+</table>
+</center>
+<p>&nbsp;</p>
+<center><p><a href="apprice.htm"><img src="chkprice.gif"></a>
+<br><font size=+0>(This button is provided for your convenience.<br> Use the "previous page" button
+or your browser's "back" button to return to this page.)</font></p></center>
+
+<hr width=100%></p></center>
+
+<center><p><font SIZE=+1>To fill your order, we will need the following
+information about you:</font></p></center>
+
+<center><p><font SIZE=+1>Name: </font><input name="Name" size=20 Type="text"></p></center>
+
+<center><p><font SIZE=+1>Street/Apt: </font><input name="Street_Apt" size=30 type="text"></p></center>
+
+<center><p><font SIZE=+1>City: <input name="City" size=14 type="text">State:
+<input name="State" size=10 type="text">Zip Code: </font><input name="Zip_Code" size=5 type="text"></p></center>
+
+<font size=+1>
+<center><P>Work Phone No.:
+<INPUT name="Work_Phone_Area_Code" size=3 maxlength=3 Type="text"><INPUT name="Work_Phone_Number" size=8 Type="text"></P></center>
+<center><P>Home Phone No.:
+<INPUT name="Home_Phone_Area_Code" size=3 maxlength=3 Type="text"><INPUT name="Home_Phone_Number" size=8 maxlength=8 Type="text"></P></center>
+<center><p>Email:</font>
+<input name="Email_Address" size=30 Type="text"></p></center>
+
+<center><p><INPUT name="special_week_offer" value="yes" type="checkbox"><font size=+1>Please tell me about
+the "special offer of the week"</font></p></center>
+
+
+<table cellpadding=10>
+<tr>
+<td>
+<center><p><input value="Send Order" type="submit"></p></center>
+</td>
+
+<td>
+<center><p><input value="Reset All Entries" type="reset"></p></center>
+</td>
+</tr>
+</table>
+</form>
+<p><hr width=100%></p>
+<p>Our sales department will call you for payment information. We accept Visa, Master Card
+ and Discover cards. Additionally, we can offer 18 month financing.
+ BE SURE TO ASK ABOUT OUR SPECIAL OFFER OF THE WEEK.</p>
+
+<p>
+<hr width="100%"></p>
+
+<p><a href="mailto:sales@aeropure.com"><img src="email.gif" border=0 height=26 width=89></a></p>
+
+<p><font color="0000ff">Please email us any comments and/or suggestions you have
+about our website<br> and the information it contains.</font></p>
+
+<center><p><img usemap="#menu1" src="menu1.gif" border=0 usemap="#menu1" usemap="#menu1" usemap="#menu1" usemap="#menu1" height=158 width=248></p></center>
+
+<p><map name="menu1"><area shape="rect" alt="Indoor Air Pollution" coords="63,28,191,41" href="apmpi.htm"><area shape="rect" alt="Product Info" coords="18,71,107,85" href="zn51.htm"><area shape="rect" alt="Place an Order" coords="135,64,222,78" href="appo.htm"><area shape="rect" alt="Air Purification" coords="74,90,172,105" href="apap.htm"><area shape="rect" alt="Product Index" coords="80,111,170,126" href="appidx.htm"><area shape="rect" alt="Free Tape/Trial" coords="81,132,181,147" href="apft.htm"><area shape="rect" href="quikindx.htm" coords="0,0,247,157"></map></p>
+
+<center><p><font SIZE=-1>&copy;1996 Aero<b>·</b>Pure Company. All rights
+reserved. 
+<br>Toll Free: 1-888-AEROPURE</font></p></center>
+<p><a href="goodlife.htm"><img src="goodbye.gif" border=0 height=30 width=80></a></p>
+
+</body>
+</html>
+</DOC>

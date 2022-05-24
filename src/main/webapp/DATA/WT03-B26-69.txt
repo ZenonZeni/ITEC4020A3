@@ -1,0 +1,68 @@
+
+<DOC>
+<DOCNO>WT03-B26-69</DOCNO>
+<DOCOLDNO>IA029-000311-B020-339</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdf3.htm 138.44.40.1 19970114165151 text/html 2928
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:49:44 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:08 GMT
+Content-length: 2754
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>Image Brightness &amp; BRDF Workshop Issues<BR>
+<HR></H2>
+<H4>2. APPLICATIONS DEMANDING ATTENTION</H4>
+Applications using images which have wide scan angles or are captured when
+the sun and observer positions are such that these angular variations are
+significant must take them into account or correct the images for them in
+some way. Examples are: 
+<UL>
+<LI>Single scenes where classification and other image processing is predicated
+on consistent values from similar target land or water types; 
+<LI>Mosaics of images which are intended to produce a consistent composite
+image on which spectral (location independent) image processing can be done;
+and 
+<LI>Multiple images, such as time series where the data must be compared
+for change in the surface that must be detectable over changes due to image
+brightness differences within and/or between images. 
+</UL>
+In a sense, the objective is to ensure a spatial and temporal 'stationarity'
+in which a given target with given unchanging reflectance will be the same
+at all locations and in all images over the time series. Obviously, the
+degree to which this needs to be accomplished depends on the application,
+and the value of spending time and effort on image correction depends on
+the value put on the final product by the client.<BR>
+<BR>
+From the economic perspective, there will always be 
+<BLOCKQUOTE>1. project planning and management costs;<BR>
+2. image and ancillary data acquisition costs;<BR>
+3. data base processing costs;<BR>
+4. value adding costs;<BR>
+5. data integration costs; and<BR>
+6. product presentation costs.</BLOCKQUOTE>
+The total cost must reflect the value of the product to the end user. If
+the emphasis is on low costs the effort justified by correcting for, or
+using, effects like image brightness variations may be small. On the other
+hand, if the accuracy of the product is crucial and the value of the information
+is high then extra effort in correcting for image brightness may be fully
+justified. In the face of this, there are a range of approaches and methods
+that can be used to model or correct the type of brightness variations described
+above. Which among them is 'best' will depend on the application and value
+of the data.<BR>
+<HR><A HREF="brdf1.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="brdf2.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="brdf4.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif"
+WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><HR>
+</BODY>
+</HTML>
+</DOC>

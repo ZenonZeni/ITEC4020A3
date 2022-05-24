@@ -1,0 +1,173 @@
+
+<DOC>
+<DOCNO>WT02-B32-182</DOCNO>
+<DOCOLDNO>IA072-000466-B001-308</DOCOLDNO>
+<DOCHDR>
+http://wlib.com:80/familycardreg.html 165.254.203.4 19970208221100 text/html 7707
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.1
+Date: Sunday, 09-Feb-97 01:09:39 GMT
+Last-modified: Tuesday, 28-Jan-97 17:33:34 GMT
+Content-length: 7518
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<TITLE>WLIB: Family Card</TITLE>
+<BODY BGCOLOR="FFE800" BACKGROUND="wlibbgpat.gif" LINK="ff0000" ALINK="ffe800" VLINK="008c00">
+<CENTER>
+<IMG ALIGN="top" SRC="familycardheader.gif">
+<P>
+
+<B><FONT SIZE="5">WLIB FAMILY CARD APPLICATION</FONT></B><P>
+Please fill out the following form completely:<BR> 
+(Note:  You must be at least 18 years of age.)
+
+<FORM METHOD="POST" ACTION="/cgi-bin/familycardreg.cgi">
+
+<A NAME="form">
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
+
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Salutation:</TD><TD><SELECT NAME="salutation">
+<OPTION SELECTED>Mr.
+<OPTION>Mrs.
+<OPTION>Ms.
+</SELECT></TD></TR>
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">First Name:</TD><TD><INPUT NAME="firstname" SIZE="30"></TD> </TR>
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Last Name:</TD><TD><INPUT NAME="lastname" SIZE="30"></TD></TR>
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Email address:</TD><TD><INPUT NAME="emailaddress" SIZE="30"></TD></TR>
+
+<TR><TD COLSPAN="2" ALIGN="center"> <HR><B>Home information</B></TD></TR>
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Street address:</TD><TD>  <INPUT NAME="street" TYPE="text" SIZE="30"></TD> </TR>
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">City:</TD><TD>  <INPUT NAME="city" TYPE="text" SIZE="30"></TD> </TR>
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">State:</TD><TD><INPUT NAME="state" TYPE="text" SIZE="2"></TD></TR>
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Zip:</TD><TD><INPUT NAME="zip" TYPE="text" SIZE="10"></TD></TR>
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Phone:</TD><TD><INPUT NAME="phone" TYPE="text" SIZE="30"></TD></TR>
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Borough/County:</TD><TD><INPUT NAME="borough" TYPE="text" SIZE="30"></TD></TR>
+
+<TR><TD COLSPAN="2" ALIGN="center"> <HR><B>Business information</B></TD></TR>
+<TR><TD ALIGN="right">Street address:</TD><TD>  <INPUT NAME="bstreet" TYPE="text" SIZE="30"></TD> </TR>
+<TR><TD ALIGN="right">City:</TD><TD><INPUT NAME="bcity" TYPE="text" SIZE="30"></TD> </TR>
+<TR><TD ALIGN="right">State:</TD><TD><INPUT NAME="bstate" TYPE="text" SIZE="2"></TD></TR>
+<TR><TD ALIGN="right">Zip:</TD><TD><INPUT NAME="bzip" TYPE="text" SIZE="10"></TD></TR>
+<TR><TD ALIGN="right">Phone:</TD><TD><INPUT NAME="bphone" TYPE="text" SIZE="30"></TD></TR>
+<TR><TD ALIGN="right">Borough/County:</TD><TD><INPUT NAME="bborough" TYPE="text" SIZE="30"></TD></TR>
+
+</TABLE>
+<HR><B>Personal information</B><BR>
+All information is used for internal demographic purposes only and is kept <BR>
+strictly confidential. Filling out the personal information is optional.<HR>
+
+<TABLE BORDER="0">
+
+
+
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Sex:</TD><TD><SELECT NAME="sex">
+<OPTION SELECTED>Male
+<OPTION>Female
+</SELECT></TD></TR>
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Date of Birth (month/day/year):</TD><TD><INPUT NAME="month" SIZE="2">-<INPUT NAME="day" SIZE="2">-<INPUT NAME="year" SIZE="2"></TD> </TR>
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Marital Status:</TD><TD><SELECT NAME="marital">
+<OPTION SELECTED>Single
+<OPTION>Married
+<OPTION>Divorced
+</SELECT></TD></TR>
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Number of Children:</TD><TD><INPUT NAME="numchildren" SIZE="30"></TD></TR>
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Ethnicity:</TD><TD><SELECT NAME="ethnicity">
+<OPTION SELECTED>??
+<OPTION>Black
+<OPTION>Caribbean
+<OPTION>Hispanic
+<OPTION>Asian
+<OPTION>White
+</SELECT> or:<BR>
+<INPUT NAME="otherethnic" SIZE="15"> (other)</TD></TR>
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Education:</TD><TD><SELECT NAME="education">
+<OPTION SELECTED>High School
+<OPTION>Associate Degree
+<OPTION>College Grad
+<OPTION>Grad School
+</SELECT></TD></TR>
+
+
+
+<TR><TD HEIGHT="9" WIDTH="90" ALIGN="right">Annual Household Income:</TD><TD><SELECT NAME="income">
+<OPTION SELECTED>Less than $20,000
+<OPTION>$20,000 - 29,999
+<OPTION>$30,000 - 39,999
+<OPTION>$40,000 - 49,999
+<OPTION>$50,000 - 74,999
+<OPTION>$75,000 - 99,000
+<OPTION>Over $100,000
+</SELECT></TD></TR>
+
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Home Ownership:</TD><TD><INPUT TYPE="radio" NAME="home" VALUE="rent" CHECKED>Rent <INPUT TYPE="radio" NAME="home" VALUE="own">Own</TD> </TR>
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Do you own a car?</TD><TD><INPUT TYPE="radio" NAME="car" VALUE="yes" CHECKED>Yes<INPUT TYPE="radio" NAME="car" VALUE="no">No</TD></TR>
+
+<TR><TD WIDTH="90" HEIGHT="9" ALIGN="right">Are you self-employed?</TD><TD><INPUT TYPE="radio" NAME="selfemployed" VALUE="yes" CHECKED>Yes<INPUT TYPE="radio" NAME="selfemployed" VALUE="no">No</TD> </TR>
+
+
+
+<TR><TD HEIGHT="9" WIDTH="90" ALIGN="right">What was the last major purchase you made?</TD><TD><INPUT NAME="lastpurchase" TYPE="text" SIZE="30"></TD></TR>
+
+<TR><TD HEIGHT="9" WIDTH="90" ALIGN="right">What year was your last vacation?</TD><TD><INPUT NAME="lastvacation" TYPE="text" SIZE="30"></TD></TR>
+
+<TR><TD HEIGHT="9" WIDTH="90" ALIGN="right">Where did you go?</TD><TD><INPUT NAME="where" TYPE="text" SIZE="30"></TD></TR>
+
+<TR><TD HEIGHT="9" WIDTH="90" ALIGN="right">How often do you dine out in a month?</TD><TD><SELECT NAME="dineout">
+<OPTION>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>over 4 times
+</SELECT></TD> </TR>
+
+<TR><TD HEIGHT="9" WIDTH="90" ALIGN="right">How often do you go to the movies in a month?</TD><TD><SELECT NAME="movies">
+<OPTION>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>over 4 times
+</SELECT></TD> </TR>
+
+<TR><TD HEIGHT="9" WIDTH="90" ALIGN="right">When do you listen to WLIB:?</TD></TR>
+<TR><TD ALIGN="right"></TD><TD><INPUT TYPE="checkbox" NAME="monday" VALUE="Monday">Monday</TD></TR>
+<TR><TD ALIGN="right"></TD><TD><INPUT TYPE="checkbox" NAME="tuesday" VALUE="Tuesday">Tuesday</TD></TR>
+<TR><TD ALIGN="right"></TD><TD><INPUT TYPE="checkbox" NAME="wednesday" VALUE="Wednesday">Wednesday</TD></TR>
+<TR><TD ALIGN="right"></TD><TD><INPUT TYPE="checkbox" NAME="thursday" VALUE="Thursday">Thursday</TD></TR>
+<TR><TD ALIGN="right"></TD><TD><INPUT TYPE="checkbox" NAME="friday" VALUE="Friday">Friday</TD></TR>
+<TR><TD ALIGN="right"></TD><TD><INPUT TYPE="checkbox" NAME="saturday" VALUE="Saturday">Saturday</TD></TR>
+<TR><TD ALIGN="right"></TD><TD><INPUT TYPE="checkbox" NAME="sunday" VALUE="Sunday">Sunday</TD></TR>
+</TD> </TR>
+
+<TR><TD ALIGN="right">What time?</TD><TD><INPUT NAME="time" TYPE="text" SIZE="8"></TD></TR>
+
+</TABLE>
+<BR>
+<HR WIDTH="400"><INPUT TYPE="submit" VALUE="Submit info"> 
+<INPUT TYPE="reset" VALUE="Clear">
+</FORM>
+
+
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
+<TR>
+<TD>
+<A HREF="index.html"><IMG BORDER="0" ALIGN="top" SRC="wlibbtn1.gif"></A></TD><TD><A HREF="station.html"><IMG BORDER="0" ALIGN="top" SRC="stationbtn.gif"></A></TD><TD><A HREF="music.html"><IMG BORDER="0" ALIGN="top" SRC="musicbtn.gif"></A></TD><TD><A HREF="events.html"><IMG BORDER="0" ALIGN="top" SRC="eventsbtn.gif"></A></TD><TD><A HREF="newstalk.html"><IMG BORDER="0" ALIGN="top" SRC="newstalkbtn.gif"></A></TD><td><A HREF="contests.html"><img border="0" align ="top" src="contestsyellow.gif"></a></td><TD><A HREF="familycard.html"><IMG BORDER="0" ALIGN="top" SRC="familycardbtnon.gif"></A></TD>
+</TR>
+</TABLE><BR><P><P><TT>
+| <A HREF="index.html">WLIB</A> | <A HREF="station.html">The Station</A> | <A HREF="music.html">Music</A> | <A HREF="events.html">Events</A> | <A HREF="newstalk.html">News & Talk</A> | <A HREF="contests.html">Contests</A> | <A HREF="familycard.html">Family Card</A> |</TT></CENTER>
+<P>
+<CENTER><HR width=100>
+Copyright &#169 1995-1996<BR>
+Inner City Broadcasting Corp.<BR>
+All rights reserved.<p></body>
+</HTML>
+</DOC>

@@ -1,0 +1,41 @@
+
+<DOC>
+<DOCNO>WT03-B26-146</DOCNO>
+<DOCOLDNO>IA059-000318-B041-13</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/pubs/dest_la/www/tutorial/endless.htm 138.44.40.1 19970114182137 text/html 1034
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 18:19:56 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Wed, 14 Feb 1996 00:27:25 GMT
+Content-length: 861
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word 1.0Z">
+<META NAME="AUTHOR" CONTENT="Wildlife & Ecology">
+</HEAD>
+
+<BODY>
+
+<P>
+<B>The endless truth.</B> 
+<P>
+Any involvement with satellite data rapidly generates a realisation
+of the immense volumes of data that are required to create, store,
+and then recreate images. Let's work through an example using
+the full Landsat MSS scene that contained the introductory wildfire.
+<P>
+This image comprised ~2 600 lines, each of which was made up of
+~2 600 pixels. This image is best visualised as an array of 2
+600 columns and 2 600 rows giving a total of ~7 000 000 locations
+or cells in the array. For Landsat MSS with 4 wavebands, this
+gives a total of 28 000 000 numbers to represent one image. 
+</BODY>
+
+</HTML>
+</DOC>

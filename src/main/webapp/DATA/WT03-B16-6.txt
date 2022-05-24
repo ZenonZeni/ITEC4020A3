@@ -1,0 +1,1263 @@
+
+<DOC>
+<DOCNO>WT03-B16-6</DOCNO>
+<DOCOLDNO>IA074-000483-B008-152</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg009.html 128.125.48.102 19970125004333 text/html 53673
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:42:04 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 53441
+Last-Modified: Wed, 15 Jan 1997 02:01:26 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDRPRT" HREF="icswg007.html#PToC_681">Protecting your server</A></H1>
+Protecting Your Server
+<P>
+This chapter describes
+how to protect the data and files on your
+server and includes the following topics:
+<P>
+<P><A HREF="icswgmst.html#ToC">Partial Table-of-Contents</A>
+<MENU>
+<LI><A NAME=PToC_682 HREF="#HDRDEFEN" >Protection methods</A>
+<LI><A NAME=PToC_683 HREF="#HDRACTPROT" >Step 1. Activating protection</A>
+<LI><A NAME=PToC_684 HREF="#Header_684" >Step 2. Passing the requests</A>
+<LI><A NAME=PToC_685 HREF="#Header_685" >Step 3. Deciding what type of protection to use</A>
+<MENU>
+<LI><A NAME=PToC_686 HREF="#Header_686" >User name and password protection</A>
+<LI><A NAME=PToC_687 HREF="#Header_687" >Address template protection</A>
+<LI><A NAME=PToC_688 HREF="#Header_688" >How the server processes requests</A>
+</MENU>
+<LI><A NAME=PToC_689 HREF="#Header_689" >Step 4. Creating protection setups</A>
+<MENU>
+<LI><A NAME=PToC_690 HREF="#Header_690" >Identifying the protection setup to requesters</A>
+<LI><A NAME=PToC_692 HREF="#Header_692" >Specifying the type of authentication</A>
+<LI><A NAME=PToC_694 HREF="#Header_694" >Pointing to the password file</A>
+<LI><A NAME=PToC_696 HREF="#Header_696" >Pointing to a server group file</A>
+<LI><A NAME=PToC_698 HREF="#HDRUMASK" >Specifying valid user names, groups, and addresses</A>
+<LI><A NAME=PToC_700 HREF="#HDRSSLPROT" >Creating protection setups for SSL client authentication</A>
+</MENU>
+<LI><A NAME=PToC_703 HREF="#HDRUSEACLF" >Step 5. Limiting access to individual files</A>
+<LI><A NAME=PToC_704 HREF="#HDRUSGF" >Using server group files</A>
+<LI><A NAME=PToC_706 HREF="#HDRUACLF" >Using Access Control List (ACL) files</A>
+<LI><A NAME=PToC_710 HREF="#HDRPROTEX" >Protection example (without SSL client authentication)</A>
+<LI><A NAME=PToC_711 HREF="#HDRPROTSLC" >Protection example (with SSL client authentication)</A>
+</MENU><HR><P>
+<P>
+For information on providing security for server data
+on the Internet,
+see <A HREF="icswg011.html#HDRSEC">"Making your communications secure"</A>.
+<HR>
+<H2><A NAME="HDRDEFEN" HREF="#PToC_682">Protection methods</A></H2>
+<P>
+You announce to the world that you want people
+to come look at the documents on your server.
+But once you publicize your server to the Internet, you risk
+attracting unwanted attention to the system on which it runs.
+Unauthorized people may try to guess passwords, update files,
+execute files, or tap into confidential data.
+Part of the attraction of the World Wide Web is its openness.
+However, the Web is open to both positive use and abuse.
+<P>
+There are several ways that you can protect
+your system:
+<UL>
+<P><LI>
+Place a server meant for public access in a network
+that is separate from your local or internal network.
+<P><LI>
+Disable Telnet, rlogin, and finger clients on the system
+that is running the server.
+In particular, consider disabling Telnet and TN3270.
+<P><LI>
+Use packet filtering and firewalls.
+<P>
+Packet filtering allows you
+to define
+where data can come from and where it can go.
+You can configure your system to reject
+certain source&#47;destination combinations.
+<P>
+A firewall provides
+a way to separate an internal network
+from a publicly accessible network, such as the Internet.
+The firewall can be a group of computers or a single computer
+that acts as a gateway in both directions, regulating and
+tracking the traffic passing through it.
+An example of firewall software is the
+IBM Internet Connection Secured Network Gateway.
+<P>
+You can configure your server as a proxy server through a firewall.
+This way, internal users can get out to the Internet,
+but outside Internet travelers cannot get in.
+Using a proxy server also ensures that any access to the
+Internet by internal browsers is done anonymously.
+Because all of the requests to the Internet are made by the proxy
+server on the part of the internal user, the remote host does not
+have access to the name of the specific host that is on the inside
+of the firewall.
+For information on configuring your server as a caching proxy,
+see <A HREF="icswg003.html#HDRPROXY">"Running your server as a proxy"</A>.
+For information on using your server on a firewall machine, see
+the documentation for your firewall software.
+<P><LI>Protect access to CGI scripts.
+<P>
+Using CGI scripts on a Web server
+can create a security exposure.
+If you use CGI scripts, you need to protect them
+by controlling who has access to them.
+<P>
+It is possible to write CGI scripts
+that display all environment variables.
+At times these variables may include sensitive data
+such as user IDs and passwords.
+So you must be careful about displaying environment variables
+in your CGI scripts and control access to your CGI scripts.
+Make sure you know what a CGI program does
+before you make it available on your server.
+<P><LI>Protect user directories on your server.
+<P>
+By allowing local users to have Web pages,
+you may be creating a security exposure.
+You need to carefully control access to the pages
+on local users' machines.
+You may choose not to allow any local users
+to have executable CGI scripts.
+For more information, see <A HREF="icswg005.html#HDRUSER">"User directories"</A>.
+</UL>
+<P>
+The following sections describe how you control who has access
+to the various files you keep on your server.
+The steps first tell you how to set up protection
+by editing the configuration file.
+When appropriate, the steps tell you which Configuration and
+Administration forms you can use to perform the same task.
+<HR>
+<H2><A NAME="HDRACTPROT" HREF="#PToC_683">Step 1. Activating protection</A></H2>
+<P>
+The first step to controlling access to your
+server&#39;s resources is to activate protection.
+You activate protection based on the content
+of requests that clients send to your server.
+<P>
+This document refers to a <B><I>request</I></B> as
+the part of a full URL that follows your server host name.
+For example, if your server is named fine.feathers.com
+and a requester enters the following URL on a browser:
+<PRE>
+<B>http://fine.feathers.com/waterfowl/schedule.html</B>
+</PRE>
+<P>
+The request your server receives is:
+/waterfowl/schedule.html
+<P>
+You can use Protect directives to specify
+which requests should activate protection.
+Each Protect directive has a request template.
+The server activates protection when it receives a request
+that matches a request template on a Protect directive.
+The Protect directive also either identifies
+or contains the protection setup to be used.
+<P>
+See <A HREF="icswg005.html#HDRDOCUM">"Access control - Set up access control for the server"</A> for details on how to use Protect directives.
+<P>
+You can also use the Configuration and Administration forms
+to specify which requests should activate protection.
+From the Configuration and Administration forms page,
+click <B>Document protection</B>.
+<HR>
+<H2><A NAME="Header_684" HREF="#PToC_684">Step 2. Passing the requests</A></H2>
+<P>
+Besides activating protection for the requests, you must also
+tell your server which requests to accept for processing.
+<P>
+Use Pass and Exec directives to specify
+which requests you want your server to accept.
+The Pass and Exec directives map requests to actual directories
+and files on your server (the information you are protecting).
+<P>
+Like the Protect directive, each Pass and Exec directive
+contains a request template.
+After the server checks to see if a request activates protection,
+it goes through its list of Pass and Exec directives
+to determine if it should accept the request.
+If the request matches a request template on a Pass or Exec directive,
+the server <B><I>accepts</I></B> the request.
+If protection was activated, the server uses the protection setup
+to determine whether it should <B><I>complete</I></B> the request.
+<P>
+So for protection to work properly, you must ensure
+that your Pass and Exec directives accept the requests
+that your Protect directives activate protection for.
+Use Pass directives to accept document requests.
+Use Exec directives to accept CGI program requests.
+<P>
+See <A HREF="icswg005.html#HDRMAPPI">"Resource mapping - Redirect URLs"</A> for details on how
+to use the Pass and Exec directives.
+<P>
+<B>Attention:</B>  You must put your Protect directives
+before any Pass or Exec directives in your configuration file.
+<P>
+You can also use the Configuration and Administration forms
+to specify which requests to accept and how to map them
+to your actual resources.
+From the Configuration and Administration forms page,
+click <B>Request Routing</B>.
+<HR>
+<H2><A NAME="Header_685" HREF="#PToC_685">Step 3. Deciding what type of protection to use</A></H2>
+<P>
+You can use two types of protection to control access
+to your resources through the server&#58;
+<UL COMPACT>
+<LI>User name and password protection
+<LI>Address template protection.
+</UL>
+<P>
+You can use one type of protection by itself or both together.
+You can use either or both types of protection in
+protection setups and Access Control List (ACL) files.
+It is helpful to understand these two different types of protection
+before you create your protection setups or ACL files.
+<P>
+The following two sections describe each type of protection.
+Following those two sections is a section describing
+how the server processes requests based on the type of
+protection being used.
+<P>
+<H3><A NAME="Header_686" HREF="#PToC_686">User name and password protection</A></H3>
+<P>
+With this type of protection, you create user names that you want
+requesters to use to access your protected resources.
+You define each user name and assign it a password in a password file.
+<P>
+After you define a user name, you can use it
+within protection setups and ACL files to specify
+which user names are valid for different types of requests.
+<P>
+When the server receives a request that activates
+this type of protection, the server prompts the requester
+for a user name and password.
+In order for the request to complete, the requester must return a
+user name and password that meet the following criteria:
+<UL>
+<P><LI>The user name must be defined in the protection setup or ACL file
+as valid for the type of request being made.
+<P><LI>The password must match the one defined
+for the user name in the password file.
+</UL>
+<P>
+<H3><A NAME="Header_687" HREF="#PToC_687">Address template protection</A></H3>
+<P>
+With this type of protection, you use address templates to specify
+valid requester addresses for the different types of requests.
+You can use address templates in protection setups and ACL files.
+<P>
+When the server receives a request that activates this type of
+protection, it compares the address of the requester to the templates
+to determine if the request comes from a valid address.
+The server can use either the IP address of the requester
+(for example, 9.67.97.103) or the host name of the requester
+(for example, any.host.name.com) when comparing against the templates.
+<P><B>Note: </B>In order to compare the requester host names against address
+templates, you must set the DNS-Lookup directive to <TT>On</TT>.
+If the DNS-Lookup directive is set to <TT>Off</TT>
+(the default), your server can compare only the IP address
+of the requester to the address templates.
+See <A HREF="icswg005.html#HDRDNSLOOK">"DNS-Lookup - Specify whether you want to look up host names of clients"</A>.
+<P>
+<H3><A NAME="Header_688" HREF="#PToC_688">How the server processes requests</A></H3>
+<P>
+Following is a description of how the server
+processes a request that has already activated protection
+and been accepted by a Pass or Exec directive.
+The description assumes that all protection is defined in the
+protection setup (no ACL file exists on the protected directory).
+<P>
+Read over the description now to help you decide
+what type of protection you want to use.
+You may want to read again in more detail after
+going through the steps for creating protection setups.
+<OL>
+<P><LI>
+Based on the HTTP method of the request, the server refers to the
+appropriate mask subdirective (DeleteMask, GetMask, Mask,
+PostMask, or PutMask) in the protection setup.
+The mask subdirective specifies valid user names,
+groups, or address templates.
+<P><LI>
+If any items on the mask subdirective use only address
+template protection, the server compares the address
+of the requester against the address templates.
+<P>
+Items that use only address template protection
+start with either <TT>@</TT>, <TT>Anybody@</TT>,
+<TT>Anyone@</TT>, or <TT>Anonymous@</TT>,
+followed by one or more address templates.
+Group names on the subdirective might also contain
+items that use only address template protection.
+<P>
+If there is a match, the server completes the request
+withoutprompting for a user name or password.
+<P>
+If there is not a match or no items
+use address template protection only,
+the process continues with the next step.
+<P><LI>
+If any items on the mask subdirective are
+user names or group names, the server prompts
+the requester for a user name and password.
+<P><LI>
+The server checks the user name sent by
+the requester against the valid user names.
+Valid user names are either the individual user names on
+the mask subdirective or user names defined as being part
+of a group that is on the mask subdirective.
+<P>
+If there is a match, the process continues with the next step.
+<P>
+If there is not a match, the process ends and the server returns
+a message to the requester saying that authorization failed.
+<P><LI>
+If the user name sent by the requester is also associated
+with an address template, the server checks
+the address of the requester against the template.
+The mask subdirectives and group files use the at sign
+character (@) to associate user names or group names
+with address templates.
+<P>
+If there is a match, the process continues with the next step.
+<P>
+If there is not a match, the process ends and the server returns
+a message to the requester saying that authorization failed.
+<P><LI>
+The server checks the user name sent by the requester against the
+user names in the password file that the protection setup points to.
+<P>
+If there is a match, the process continues with the next step.
+<P><B>Note: </B>It is important to note that the password file must contain an
+entry for the user name that the requester sends to the server.
+You make up the user names that are in the password file.
+The names themselves do not have any relation
+to the addresses of the requesters.
+<P>
+If there is not a match, the process ends and the server returns
+a message to the requester saying that authorization failed.
+<P><LI>
+The server checks the password sent by the requester against
+the password defined for the user name in the password file.
+Each user name in the password file has one valid password.
+<P>
+If there is a match, the server completes the request.
+<P>
+If there is not a match, the process ends and the server returns
+a message to the requester saying that authorization failed.
+</OL>
+<HR>
+<H2><A NAME="Header_689" HREF="#PToC_689">Step 4. Creating protection setups</A></H2>
+<P>
+When a Protect directive activates protection for a request,
+it also either identifies the protection setup to use
+or defines the protection setup as part of the directive.
+A <B><I>protection setup</I></B> is a group of protection subdirectives.
+The subdirectives work together to define how the server
+should control access to the resources being protected.
+You can create protection setups three different ways:
+<UL>
+<P><LI>
+You can create protection setups within the configuration file
+as part of Protection, Protect, or DefProt directives.
+<P>
+When you create a protection setup on a Protection directive,
+you give the setup a label that you can point to later from
+Protect and DefProt directives.
+<P>
+When you create a protection setup on a DefProt or
+Protect directive, the protection setup is used only for
+that directive.
+The setup cannot be pointed to by other DefProt or Protect directives.
+This type of protection setup is called an <B><I>in-line</I></B> protection
+setup.
+<P>
+You indicate you are including a protection setup
+as part of a Protection, Protect, or DefProt directive
+by making the last character on the line that contains
+the directive a left brace character (&#123;).
+On each following line you put one protection subdirective and its value.
+You indicate the end of the protection setup by putting
+a right brace character (&#125;) by itself
+on the line following the last protection subdirective.
+You cannot use comments within the protection setup.
+<P>
+See <A HREF="icswg005.html#HDRDOCUM">"Access control - Set up access control for the server"</A> for more information and examples
+of creating protection setups in the configuration file.
+<P><LI>
+You can create separate protection setup files that you can then
+point to from Protect and DefProt directives.
+A protection setup file is a plain text file.
+Within the file, each line contains one
+protection subdirective and the value for that subdirective.
+<P><LI>
+You can use the Configuration and Administration forms
+to create protection setups within the configuration file.
+From the Configuration and Administration forms page,
+click <B>Document protection</B> and
+specify you want to create an in-line protection setup.
+Or, from the Configuration and Administration forms page,
+click <B>Protection setups</B> to add, change,
+or delete named protection setups.
+</UL>
+<P>
+Within the protection setup, the protection subdirectives
+control access to the directory or files being protected.
+The following sections describe how to use each
+of the protection subdirectives.
+<P>
+<H3><A NAME="Header_690" HREF="#PToC_690">Identifying the protection setup to requesters</A></H3>
+<P>
+For user name and password protection,
+use the ServerID subdirective to specify a name you want
+to use to identify the protection setup to requesters.
+The name does not need to be a real machine name.
+<P>
+When the server sends a requester a prompt for user name and password,
+it also includes the name you specify on ServerID.
+Most browsers display this name with the prompt.
+Because different protection setups can use different
+password files, having a name associated with the protection setup
+can help the requester decide which user name and password to send back.
+Many browsers also attempt to automatically send a user name and
+password if the requester has previously responded to a prompt
+from a protection setup with the same name.
+<P>
+If the protection setup is using address template protection only,
+you do not need to use the ServerID subdirective.
+<P>
+If you are using the Configuration and Administration forms,
+you specify this name in the <B>Server identifier</B> field
+on the Protection Setup form.
+<P>
+<H5><A NAME="Header_691">Example:</A></H5>
+<PRE>
+   ServerID restricted
+</PRE>
+<P>
+<H3><A NAME="Header_692" HREF="#PToC_692">Specifying the type of authentication</A></H3>
+<P>
+The AuthType subdirective specifies the type of authentication
+to use when a client sends a password to the server.
+For user name and password protection, you must use
+the AuthType subdirective with a value of <TT>Basic</TT>.
+With basic authentication, passwords are sent
+to the server as plain text.
+They are encoded, but not encrypted.
+<P>
+If the protection setup is using address
+template protection only, you do not need to use the
+AuthType subdirective.
+<P>
+<H5><A NAME="Header_693">Example:</A></H5>
+<PRE>
+   AuthType Basic
+</PRE>
+<P>
+<H3><A NAME="Header_694" HREF="#PToC_694">Pointing to the password file</A></H3>
+<P>
+For user name and password protection, use the PasswdFile
+subdirective to specify the path and name of the password file
+that you want the protection setup to use.
+<P>
+Each password file contains a list of user names and passwords.
+Each user name has one valid password defined for it.
+The requester must send back a user name and password that exactly
+matches a user name and password in the password file.
+<P>
+If the protection setup is using address
+template protection only, you do not need to use the
+PasswdFile subdirective.
+<P>
+If you are using the Configuration and Administration forms, you
+specify the file path and name of the password file in the
+<B>Password file</B> field on the Protection Setup form.
+<P>
+You create and maintain password files using the htadm command.
+See <A HREF="icswg015.html#HDRHTADM">"htadm command"</A> for information on
+how to create and maintain password files.
+<P><B>Note: </B>The user names in the password file do not have
+any relation to the addresses of the requesters.
+You make up the user names and passwords.
+<P>
+<H5><A NAME="Header_695">Example:</A></H5>
+<PRE>
+   PasswdFile  c&#58;\WWW\restrict.password
+</PRE>
+<P>
+<H3><A NAME="Header_696" HREF="#PToC_696">Pointing to a server group file</A></H3>
+<P>
+If you want to use group names in the protection setup,
+use the GroupFile subdirective to specify the path and
+file name of the server group file that contains
+the group definitions you want to use.
+The groups defined within the server group file can then be used by:
+<UL>
+<P><LI>
+Any mask subdirectives that are part of the protection setup.
+(The mask subdirectives are DeleteMask, GetMask, Mask,
+PostMask, and PutMask.)
+<P><LI>
+Any ACL file on a directory that is protected by the protection setup.
+</UL>
+<P>
+See <A HREF="#HDRUSGF">"Using server group files"</A> more information about server group files.
+<P>
+If you are using the Configuration and Administration forms, you
+specify the file path and name in the <B>Group file</B>
+field on the Protection Setup form.
+<P>
+<H5><A NAME="Header_697">Example:</A></H5>
+<PRE>
+   GroupFile d&#58;\docs\WWW\restrict.group
+</PRE>
+<P>
+<H3><A NAME="HDRUMASK" HREF="#PToC_698">Specifying valid user names, groups, and addresses</A></H3>
+<P>
+Use the mask subdirectives to specify valid user names,
+groups, and address templates for different types of requests.
+The mask subdirectives protect the entire directory
+that the request is mapped to.
+<P>
+Each request to your server contains an HTTP method
+field that identifies the type of request being made.
+See <A HREF="icswg005.html#HDRMETHO">"Methods - Set method acceptance"</A> for a description of the HTTP methods
+supported by the server.
+Choose which mask subdirectives to use based on the
+types of requests you want to authorize.
+For a protection setup to be valid, it must contain at least
+one of the following mask subdirectives:
+<UL>
+<P><LI>DeleteMask - to authorize DELETE requests.
+<P><LI>GetMask - to authorize GET requests.
+<P><LI>PostMask - to authorize POST requests.
+(Most HTML forms use the POST method.)
+<P><LI>PutMask - to authorize PUT requests.
+<P><LI>Mask - to authorize requests using any enabled methods
+not covered by the other mask subdirectives.
+Other mask subdirectives take precedence over
+the Mask subdirective if both are present in the protection setup.
+For example, if a protection setup contains a DeleteMask
+subdirective and a Mask subdirective, DELETE requests are covered
+by the DeleteMask subdirective and all other requests are covered by
+the Mask subdirective.
+</UL>
+<P>
+<H4><A NAME="HDRURULZ">Rules for specifying user names, group names, and address templates</A></H4>
+<P>
+Following are explanations and examples of the different ways
+you can specify user names, group names, and address templates
+on mask subdirectives.
+The same rules also apply for specifying user names, group
+names, and address templates in server group files and ACL files.
+If you are using the Configuration and Administration forms, the
+same rules apply to the values you can enter in the
+Get, Put, Post, Delete, and All fields on the Protection Setup form.
+<UL>
+<P><LI>You can specify a user name without an address template.
+The user name must be defined in the protection setup password file.
+If the requester returns the user name with the correct password,
+the server completes the request.
+<PRE>
+   GetMask  swandude
+</PRE>
+<P><LI>
+You can specify an address template without a user name.
+If the requester address matches the address template,
+the server completes the request without prompting the requester
+for a user name and password.
+<P>
+The address template can be based on either IP address or host name.
+Use the asterisk character (*) as a wildcard
+in any part or the template.
+To indicate you want to use address template protection only,
+precede the template with one of the following:
+<TT>@</TT>,
+<TT>Anybody@</TT>, <TT>Anyone@</TT>, or <TT>Anonymous@</TT>.
+<PRE>
+   GetMask    Anybody@123.45.2.*
+   PostMask   @96.*.*.*
+   DeleteMask Anonymous@walden.pond.*.*
+</PRE>
+<P><B>Note: </B>In order to compare the requester host names against address
+templates, you must set the DNS-Lookup directive to <TT>On</TT>.
+If the DNS-Lookup directive is set to <TT>Off</TT>
+(the default), your server can compare only the IP address
+of the requester to the address templates.
+See <A HREF="icswg005.html#HDRDNSLOOK">"DNS-Lookup - Specify whether you want to look up host names of clients"</A>.
+<P><LI>
+You can specify a user name with an address template.
+The user name must be defined in the protection setup password file.
+Separate the user name from the address template
+with the at sign character (@).
+If the requester returns the user name with the correct password and
+the requester address matches the address template,
+the server completes the request.
+<PRE>
+   GetMask   webfoot@96.96.*.*
+   PostMask  billface@*.ibm.com
+</PRE>
+<P><LI>
+You can use the value <TT>All</TT> or <TT>Users</TT>
+with or without an address template
+to represent all user names defined in the password file.
+If the requester returns any user name and password defined
+in the protection setup password file, and
+the requester address matches any address templates,
+the server completes the request.
+<PRE>
+  GetMask    All
+  PostMask   All@(96.*.*.*,*.ibm.com,123.45.2.*)
+</PRE>
+<P><LI>
+You can specify a group name that is defined in the
+server group file specified on the GroupFile subdirective
+(see <A HREF="#HDRUSGF">"Using server group files"</A>).
+<P>
+A group name can include user names, other group names,
+and address templates in any of the same formats
+allowed on masking subdirectives.
+To be valid, any user names included in the group name
+must also be defined in the protection setup password file.
+If the requester returns a valid user name
+and password and any address templates are matched,
+the server completes the request.
+<PRE>
+   GetMask   ducks
+   PostMask  geese
+</PRE>
+<P><LI>
+You can use the values <TT>Anybody</TT>, <TT>Anyone</TT>,
+or <TT>Anonymous</TT> without an address template or
+with an address template of <TT>(*)</TT>
+to indicate you do not want to use
+any protection for requests covered by the subdirective.
+The server completes requests without prompting for a user name and
+password and without checking the address of the requester.
+<PRE>
+   GetMask  Anybody
+   PutMask  Anyone@(*)
+</PRE>
+<P><LI>
+You can specify multiple items on each subdirective.
+Separate each item with a comma.
+The comma is treated as a logical or.
+<PRE>
+   GetMask   swandude@96.96.*.*,geese,ducks,Anyone@walden.pond.*.*
+</PRE>
+<P><LI>
+You can continue a list of user and group names onto a new line by
+ending the previous line with a comma.
+<PRE>
+   GetMask   swandude@96.96.*.*,webfoot@water.fowl.com,
+             geese,billface
+</PRE>
+<P><LI>
+You can use parentheses to keep user names and group names together
+or address templates together.
+<PRE>
+   GetMask   (gooduser,webfoot)@96.96.*.*,
+             billface@(water.fowl.com,123.45.2.*),
+             (goosegg,bagel,elnada)@(98.*,146.*)
+</PRE>
+</UL>
+<P>
+If you are using the Configuration and Administration forms, you
+specify user names, groups and address templates in the
+<B>Delete mask</B>, <B>Get mask</B>, <B>Post mask</B>,
+and <B>Put mask</B> fields on the Protection Setup form.
+You use the same rules as explained above.
+<P>
+<H3><A NAME="HDRSSLPROT" HREF="#PToC_700">Creating protection setups for SSL client authentication</A></H3>
+<P>
+<A HREF="icswg012.html#HDRSSL">"Using Secure Sockets Layer (SSL)"</A> describes how to use Secure Sockets Layer (SSL)
+with a secure server.  If you set up your server for SSL client
+authentication, the server requests a certificate from any client
+making an <B>https</B> request.
+The server establishes a secure connection whether or not the
+client has a valid certificate.
+<P>
+You can restrict who can access documents by
+using password files and/or user or group authentication in protection
+setups as described in <A HREF="#HDRPRT">"Protecting your server"</A>.
+You can further restrict who can access documents by coding
+SSL client authentication parameters on protection setups,
+ACL files, or both.
+(Coding SSL client authentication parameters on protection
+setups is described in this topic; coding them in ACL files is
+described in <A HREF="#HDRUSEACLF">"Step 5. Limiting access to individual files"</A>.)
+For SSL client authentication parameters, you
+can specify all or part of the Distinguished Name (DN) of a client
+or of the certification authority (CA) who issued the client's
+certificate.
+You can also specify DN information for multiple clients or CAs on
+a given subdirective.
+<P>
+<P>
+When you use SSL client authentication parameters,
+the server first compares any DN information in a protection setup and
+then compares any DN information in an ACL file
+with the DN information in the client's certificate.
+If the DN information matches, the server serves the document.
+<P>
+You can use the Protection Setup Configuration and Administration
+form to specify the SSL client
+authentication parameters or you can specify the following
+on the Protection or Protect directive:
+<UL>
+<P><LI>All or any of the following parameters that make up a
+client's Distinguished Name in the client's certificate:
+<UL COMPACT>
+<LI>CommonName - the client's common name
+<LI>Country - the country in which the client resides
+<LI>Locality - the locality in which the client resides
+<LI>StateOrProvince - the state or province in  which the client
+resides
+<LI>Organization - the organization of the client
+<LI>OrgUnit - the organizational unit of the client
+</UL>
+<P><LI>All or any of the following subdirectives that make up the
+CA's Distinguished Name in the client's certificate:
+<UL COMPACT>
+<LI>IssuerCommonName - the CA's common name
+<LI>IssuerCountry - the country in which the CA resides
+<LI>IssuerLocality - the locality in which the CA resides
+<LI>IssuerStateOrProvince - the state or province in  which the CA
+resides
+<LI>IssuerOrganization - the organization of the CA
+<LI>IssuerOrgUnit - the organizational unit of the CA
+</UL>
+</UL>
+<P>
+<H5><A NAME="Header_701">Examples:</A></H5>
+<PRE>
+Protect  /topsecret/*   {
+CommonName="Dr Sheila A. Jones"
+Organization="RTP Quick Care Center"
+}
+</PRE>
+<P>
+In the above example of an inline Protect directive,
+SSL client authentication must be set up, and the client must be making
+an <B>https</B> request and have a certificate with a common
+name of Dr Sheila A. Jones and an organization of
+RTP Quick Care Center to access the document.
+<P>
+<PRE>
+Protect  /topsecret/*   {
+CommonName="Dr Sheila A. Jones","Dr Harry S. Smith"
+Organization="RTP Quick Care Center"
+}
+</PRE>
+<P>
+In the above example, SSL client authentication must be set up,
+and the client must be making an <B>https</B> request and
+have a certificate with a common name of
+Dr Sheila A. Jones or Dr Harry S. Smith and
+an organization of RTP Quick Care Center to access the document.
+<P>
+<H4><A NAME="Header_702">Hints and tips for coding SSL client authentication parameters</A></H4>
+<UL COMPACT>
+<LI>Specify any or all of a client or CA's DN.
+<LI>Specify the DN information for multiple clients or
+CAs on a given parameter.  The DN information should be
+separated by a comma (as shown in the above example).
+<LI>Enclose DN information that contains blanks or
+special characters in
+double quotes (as shown in the above example).
+<LI>Make sure the DN information matches the DN information
+in the client's certificate.
+This information is case sensitive and must have the same
+punctuation.
+<LI>Do not use wildcard characters for any of the parameters.
+</UL>
+<HR>
+<H2><A NAME="HDRUSEACLF" HREF="#PToC_703">Step 5. Limiting access to individual files</A></H2>
+<P>
+Perform this step only if you want to limit access to specific
+files on directories already protected by the protection setup.
+<P>
+To limit access to specific files on a protected directory, you
+create an Access Control List (ACL) file and place it on the directory.
+The ACL file must be named &#46;www_acl.
+<P>
+Normally, the mask subdirectives in the protection setup
+define the first level of access control and then the
+ACL file further limits access.
+However, if you want all control to come from the ACL file,
+use the ACLOverride subdirective with a value of <TT>On</TT>
+in the protection setup.
+This causes the mask subdirectives
+in the protection setup to be ignored.
+All access control is passed to the ACL file.
+<P>
+See <A HREF="#HDRUACLF">"Using Access Control List (ACL) files"</A> for more information about ACL files.
+<P>
+If you are using the Configuration and Administration forms,
+you can specify that you want the protection setup to give
+all control to ACL files by
+checking the <B>Allow ACL file to override masks</B> box
+on the Protection Setup form.
+<HR>
+<H2><A NAME="HDRUSGF" HREF="#PToC_704">Using server group files</A></H2>
+<P>
+You can use group files to classify users into groups.
+<P>
+Protection setups can point to a server group file.
+The protection setup can then use the groups defined
+in the server group file on mask subdirectives.
+If a protected directory contains an ACL file,
+the rules in the ACL file can also use
+the groups defined in the server group file.
+<P>
+You can create as many server group files as you need.
+Create each in a separate text file.
+Within the server group file, each line contains a group definition
+using the following format:
+<PRE>
+   <VAR>groupname</VAR> : <VAR>user1</VAR>&#91;,<VAR>user2</VAR>&#91;,<VAR>user3...</VAR>&#93;&#93;
+</PRE>
+<P>
+<DL>
+<P><DT><VAR>groupname</VAR>
+<P><DD>
+Any name you want to use to identify the group you are defining.
+This name can be used on:
+<UL>
+<P><LI>
+Mask subdirectives within protection setups
+that point to the server group file.
+(The mask subdirectives are DeleteMask, GetMask, Mask,
+PostMask, and PutMask.)
+<P><LI>
+Access rules within ACL files on directories that are protected
+with a protection setup that points to the server group file.
+<P><LI>
+Subsequent group definitions within the same server group file.
+</UL>
+<P><DT>
+<VAR>user1</VAR>&#91;,<VAR>user2</VAR>&#91;,<VAR>user3...</VAR>&#93;&#93;
+<P><DD>
+This can actually be any combination of user names,
+group names, and address templates.
+Separate each item with a comma.
+<P>
+For user names to be valid, they must be defined in the
+password file that the protection setup points to.
+Group names must be defined on previous
+group definition statements in the same group file.
+<P>
+Generally, the items you specify have to follow the same rules
+described under <A HREF="#HDRURULZ">"Rules for specifying user names, group names, and address templates"</A>.
+</DL>
+<P>
+<H5><A NAME="Header_705">Examples:</A></H5>
+<PRE>
+   ducks  : (webfoot,billface)@96.96.3.1,swandude
+   geese  : goosegg,bagel@(walden.pond.*.*,123.*.*.*)
+   flock  : ducks,geese
+   webbed : All@water.fowl.*
+</PRE>
+<P>
+In the above example, notice that once
+the groups named ducks and geese are defined,
+they can be included as part of the group named flock.
+<HR>
+<H2><A NAME="HDRUACLF" HREF="#PToC_706">Using Access Control List (ACL) files</A></H2>
+<P>
+This section describes how to "hand code" ACL files.
+You can also create ACL files using the
+Configuration and Administration forms.
+From the Configuration and Administration forms page, click
+<B>Access Control Lists</B>.
+<P>You can use ACL files to limit access
+to specific files on a protected directory.
+<P>
+Each protected directory can have only one ACL file.
+The ACL file must be named &#46;www_acl and
+be present on the protected directory.
+<P>
+Normally, the mask subdirectives in the protection setup
+define the first level of access control and then the
+ACL file further limits access to individual files.
+However, if you want all control to come from the ACL file,
+use the ACLOverride subdirective with a value of <TT>On</TT>
+in the protection setup.
+This causes the mask subdirectives in the protection setup
+to be ignored when a protected directory contains an ACL file.
+<P>
+Within the ACL file, each line contains a rule limiting access based
+on file name, HTTP method, and authorized users, groups, or addresses.
+The server processes the rules in the ACL file
+from top to bottom.
+The server compares the three elements of each rule to the request
+until a match is found or until the end of the file is reached.
+<P>
+The format for rules in ACL files is&#58;
+<PRE>
+   <VAR>file</VAR> &#58; <VAR>method</VAR> &#58; &#91;<VAR>SSLauth</VAR>,&#93; <VAR>user</VAR>
+</PRE>
+<DL>
+<P><DT><VAR>file</VAR>
+<P><DD>
+A file name or a template for the files you want
+to protect with this rule.
+Each file template can contain one asterisk (*) wildcard character.
+<P>
+The server denies any requests for files
+that are not listed or covered by a template.
+<P><DT><VAR>method</VAR> or
+<VAR>method1</VAR>&#91;,<VAR>method2</VAR>&#91;,<VAR>method3...</VAR>&#93;&#93;
+<P><DD>
+An HTTP method or list of methods, separated by commas.
+The methods define what kind of requests the authorized users are
+allowed to make for the protected files.
+Any method you specify must also be enabled.
+See <A HREF="icswg005.html#HDRMETHO">"Methods - Set method acceptance"</A> for an explanation of
+the HTTP methods supported by the server and how to enable them.
+<P><DT><VAR>SSLauth</VAR>
+<P><DD>
+If you have implemented SSL client authentication, you can code
+ACL files that specify any or all parts of the Distinguished
+Name of a client or the CA who issued the client's certificate.
+You can also include more than one client or CA parameter in
+a given ACL.
+The server requests the client's certificate.
+The server compares the DN information in the certificate first
+to DN information in protection setups and then to DN information in
+ACL files.
+If the DN information matches, the server returns the document.
+<P>
+The ACL can specify any of all of the following parts of the
+<UL>
+<P><LI>Client's Distinguished Name in the client's certificate:
+<UL COMPACT>
+<LI>&#33;CommonName - the client's common name
+<LI>&#33;Country - the country in which the client resides
+<LI>&#33;Locality - the locality in which the client resides
+<LI>&#33;StateOrProvince - the state or province in  which the client
+resides
+<LI>&#33;Organization - the organization of the client
+<LI>&#33;OrgUnit - the organizational unit of the client
+</UL>
+<P><LI>CA's Distinguished Name in the client's certificate:
+<UL COMPACT>
+<LI>&#33;IssuerCommonName - the CA's common name
+<LI>&#33;IssuerCountry - the country in which the CA resides
+<LI>&#33;IssuerLocality - the locality in which the CA resides
+<LI>&#33;IssuerStateOrProvince - the state or province in  which the CA
+resides
+<LI>&#33;IssuerOrganization - the organization of the CA
+<LI>&#33;IssuerOrgUnit - the organizational unit of the CA
+</UL>
+</UL>
+<P><DT><VAR>user</VAR> or
+<VAR>user1</VAR>&#91;,<VAR>user2</VAR>&#91;,<VAR>user3...</VAR>&#93;&#93;
+<P><DD>
+This can actually be any combination
+of user names, group names, and IP address templates.
+Separate each item with a comma.
+<P>
+For user names to be valid, they must be defined in the
+password file that the protection setup points to.
+Group names must be defined in the server
+group file the protection setup points to.
+<P>
+The items you specify have to follow the same rules
+as you use to specify user names, group names,
+and address templates on mask subdirectives.
+See <A HREF="#HDRURULZ">"Rules for specifying user names, group names, and address templates"</A>.
+</DL>
+<P>
+<H5><A NAME="Header_707">Examples:</A></H5>
+<PRE>
+   *             &#58; GET             &#58;  All
+   *.html        &#58; GET,POST        &#58;  geese
+   golden.*      &#58; GET,POST        &#58;  geese,@bean.stalk.*
+   welcome.html  &#58; GET,POST,DELETE &#58;  webfoot@123.34.14.2
+</PRE>
+<P>
+In the above example, any valid user name and password
+can be used to GET any file on the directory.
+User names defined for the group geese can be used
+to POST to any HTML files.
+From IP address 123.34.14.2, the user name webfoot
+can be used to DELETE the welcome.html file.
+<P>
+<H5><A NAME="Header_708">Example</A></H5>
+<PRE>
+patientA.html : GET : &#33;CommonName="Dr Shelia A. Jones" 9.67.*.*
+</PRE>
+In the above example, SSL client authentication must be set up, and
+the client must be making an <B>https</B> request from an IP
+address beginning with 9.67 and have a client certificate with a
+common name of Dr Shelia A. Jones to access the patientA.html document.
+<P>
+<PRE>
+patientA.html : GET : &#33;CommonName=("Dr Shelia A. Jones","Dr Harry S. Smith") 9.67.*.*
+</PRE>
+In the above example, SSL client authentication must be set up, and
+the client must be making an <B>https</B> request from an IP
+address beginning with 9.67 and have a client certificate with a
+common name of Dr Shelia A. Jones or Dr Harry S. Smith
+to access the patientA.html document.
+<P>
+<H4><A NAME="Header_709">Hints and tips for coding SSL client authentication parameters</A></H4>
+<UL COMPACT>
+<LI>Specify any or all of a client or CA's DN.
+<LI>Specify the DN information for multiple clients or
+CAs on a given parameter.  The DN information should be
+separated by a comma and enclosed in parentheses
+(as shown in the above example).
+<LI>Enclose DN information that contains blanks or
+special characters in
+double quotes (as shown in the above example).
+<LI>Make sure the DN information matches the DN information
+in the client's certificate.
+This information is case sensitive and must have the same
+punctuation.
+<LI>All of the ACL rule must be on one line.
+<LI>Do not use wildcard characters for any of the parameters.
+</UL>
+<HR>
+<H2><A NAME="HDRPROTEX" HREF="#PToC_710">Protection example (without SSL client authentication)</A></H2>
+<P>
+Following are examples of the files you can use
+for protecting your server resources.
+These files do not use any
+of the secure network communications functions.
+In the files where they are allowed,
+comments begin with the pound sign (#) in the first column.
+<P>
+Following is an example of the protection related portion of
+a server's configuration file.
+<PRE>
+   Protection    POND-PROT &#123;
+     ServerID    Feathered
+     Authtype    Basic
+     PasswdFile  C&#58;\tcpip\etc\flying.pwd
+     GroupFile   C&#58;\tcpip\etc\nesters.group
+     GetMask     All@*.swimmer.org
+     PutMask     quacks,billface
+     DeleteMask  bigbird@pond.hq.swimmer.org
+   &#125;
+   #
+   # The above Protection directive defines a protection setup named
+   # POND-PROT.  The Protection directive must be placed before any
+   # Protect or DefProt directives that point to it. The Mask
+   # subdirectives restrict access as follows:
+   # o Any requester from a host name ending with .swimmer.org can
+   #   GET files.  They must be able to enter any user name and
+   #   password defined in the C&#58;\TCPIP\etc\flying.pwd password file.
+   # o To PUT files, the requester must match the restrictions
+   #   defined for the group named quacks in the
+   #   C&#58;\TCPIP\etc\nesters.group server group file.
+   #   Or, the requester must enter the user name billface and the
+   #   password defined for it in the C&#58;\TCPIP\etc\flying.pwd
+   #   password file.
+   # o To DELETE files, the requester must be from the host named
+   #   pond.hq.swimmer.org.  The requester must enter the user name
+   #   bigbird and the password defined for it in the
+   #   C&#58;\TCPIP\etc\flying.pwd password file.
+   #
+   Protect   /wetland/creatures/*   POND-PROT
+   #
+   # Any request beginning with /wetland/creatures/
+   # activates protection as defined in the protection setup
+   # labeled POND-PROT
+   #
+   Protect   /vegetation/*        C&#58;\WWW\proset\webster.setup
+   #
+   # Any request beginning with /vegetation/ activates protection
+   # defined in the separate protection setup file named
+   # C&#58;\WWW\proset\webster.setup
+   #
+   Protect   /flocks/*   &#123;
+     DeleteMask   @9.67.84.5
+     MASK         Anybody@9.67.*.*
+   &#125;
+   #
+   # The above Protect directive contains an in-line protection setup.
+   # Any request beginning with /flocks/ activates protection
+   # defined as part of the Protect directive.  The mask subdirectives
+   # restrict access as follows:
+   # o To delete files, the requester must be at the host with
+   #   IP address 9.67.84.5
+   # o To use any other enabled HTTP method, the requester must
+   #   be at a host with an IP address beginning with 9.67.
+   # (@ by itself and Anybody@ both mean the same thing.)
+   # Since only address protection is being used, there is no need for
+   # the Authtype, ServerID, PasswdFile, and GroupFile subdirectives.
+   #
+   Pass  /wetland/creatures/*   D&#58;\freshwater\animals\*
+   #
+   # For requests beginning with /wetland/creatures/, the server
+   # goes to the d&#58;\freshwater\animals\ directory to find the file.
+   #
+   Pass  /*   D&#58;\SServer\HTML\&#42;
+   #
+   # For any requests not matching other Pass directives, the server
+   # goes to the D&#58;\SServer\HTML\ directory (the document root
+   # directory).  For example, if the server received the request
+   # /vegetation/cattail.html,  it would look for the cattail.html
+   # file on D&#58;\SServer\HTML\vegetation.
+   #
+</PRE>
+<P>
+Following is an example of what the
+c&#58;\WWW\proset\webster.setup file might look like:
+<PRE>
+   ServerID    Webby
+   Authtype    Basic
+   PasswdFile  C&#58;\TCPIP\etc\flying.pwd
+   GroupFile   C&#58;\TCPIP\etc\nesters.group
+   GetMask     All@(123.45.*,water.*)
+   PutMask     goosegg,webfooter,nest
+   DeleteMask  (swandude,billface)@(water.fowl.com,123.45.2.*)
+   ACLOverride On
+   #
+   # The mask subdirectives restrict access based on a combination of
+   # user names and passwords and address templates.  However, since
+   # ACLOverride is on, these subdirectives are ignored and the ACL
+   # file is used.  For user name and password protection, the ACL file
+   # must use the C&#58;\TCPIP\etc\flying.pwd password file and the
+   # C&#58;\TCPIP\etc\nesters.group server group file.
+   #
+</PRE>
+<P>
+Following is an example of what the
+C&#58;\TCPIP\etc\flying.pwd file might look like:
+<PRE>
+   bigbird&#58;vfzDlIeUzFzCt&#58;The big guy
+   duckman&#58;PVz1Y6YFI8IY3&#58;The duck
+   swandude&#58;FexekemFhY7q8&#58;Swanee
+   billface&#58;ZereWePF0YJqK&#58;Orange nosed one
+   goosegg&#58;dh*ySyZJPOqrw&#58;Shut out
+</PRE>
+<P><B>Note: </B>When you look at the contents of the password file, you cannot see
+the passwords because they are encrypted.
+To manage the password file you must use the htadm command.
+Do not edit password files with a text editor.
+<P>
+Following is an example of what the
+C&#58;\TCPIP\etc\nesters.group file might look like:
+<PRE>
+   ducks  &#58; (webfoot,billface)@96.96.3.1,swandude
+   geese  &#58; goosegg,bagel@(walden.pond.*.*,123.*.*.*)
+   quacks &#58; ducks,geese,Anybody@43.234.*
+   nest   &#58; All@(water.fowl.*,nesting.*.*)
+   #
+   # The quacks group demonstrates how you can use previously
+   # defined groups in a subsequent group definition.  The quacks
+   # group includes both the ducks and geese groups.  Additionally,
+   # the quacks group includes address template protection for any
+   # requests from hosts with an IP address beginning with 43.234.
+   # Requests from matching hosts would not be prompted for a user
+   # name and password.
+</PRE>
+<P>
+Following is an example of what the &#46;www_acl file
+on D&#58;\SServer\HTML\vegetation might look like.
+<PRE>
+   *             &#58; GET             &#58;  All
+   *.html,       &#58; GET,POST        &#58;  nest
+   billed.html   &#58; GET,POST        &#58;  duckman,geese
+   welcome.html  &#58; GET,POST,DELETE &#58;  bigbird
+   #
+   # All restrictions come from the ACL file because the protection
+   # setup specified ACLOverride On.  The user names and groups used
+   # in the ACL file must be defined in the password and server group
+   # file identified in the protection setup.
+</PRE>
+<HR>
+<H2><A NAME="HDRPROTSLC" HREF="#PToC_711">Protection example (with SSL client authentication)</A></H2>
+<P>
+You can restrict who can access documents by
+using password files and/or user or group authentication in protection
+setups as shown in the examples in <A HREF="#HDRPROTEX">"Protection example (without SSL client authentication)"</A>.
+You can further restrict who can access documents by coding
+SSL client authentication parameters in protection setups,
+ACL files, or both.
+<P>
+The following examples assume that SSL client authentication has been set
+up by specifying SSL client authentication on the Security Configuration
+form or by coding the SSLClientAuth directive in the configuration
+file.
+<P>
+<PRE>
+Protection SSL_CLIENT_AUTH {
+   CommonName="Dr Sheila A. Jones","Dr Harry S. Smith"
+   Country=US
+   Organization="RTP Quick Care"
+}
+</PRE>
+<P>
+For a server to serve the document, the server authenticates the client
+by requesting and ensuring the client has a valid certificate.
+In this case, for the certificate to be valid, the Distinguished Name
+of the client must be made up of a Common Name of either Dr Sheila A.
+Jones or Dr Harry S. Smith, an organization of RTP Quick Care Center,
+and a country of US.
+<P>
+If you want to allow all persons with an organization unit of
+Pediatrics to access the documents protected by th SSL_CLIENT_AUTH
+protection setup, you could specify:
+<PRE>
+Protection SSL_CLIENT_AUTH {
+   OrgUnit=Pediatrics
+}
+</PRE>
+<P>
+The Protect directive that maps the request to the protection setup
+follows the protection setup:
+<P>
+<PRE>
+Protect \secure_docs\* SSL_CLIENT_AUTH
+</PRE>
+<P>
+Any request beginning with secure_docs activates protection as
+defined in the protection setup SSL_CLIENT_AUTH.
+<P>
+<P><B>Note: </B>If you code SSL client authentication parameters in ACL files
+and not in protection setups, you must also have a Protect statement
+like the one in the above example.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg008.html">Previous Page</A> &#124; <A HREF="icswg010.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

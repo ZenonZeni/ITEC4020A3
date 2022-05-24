@@ -1,0 +1,64 @@
+
+<DOC>
+<DOCNO>WT01-B08-67</DOCNO>
+<DOCOLDNO>IA062-000352-B048-177</DOCOLDNO>
+<DOCHDR>
+http://www.falkland-malvinas.com:80/suscriba.html 207.32.88.17 19970115202808 text/html 2097
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 20:21:10 GMT
+Server: Apache/1.0.3
+Content-type: text/html
+Content-length: 1926
+Last-modified: Sun, 29 Dec 1996 15:40:31 GMT
+</DOCHDR>
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>suscriba</title>
+</head>
+
+<body bgcolor="#FFFFF2">
+
+<p><img src="images/stamp.jpg" align="middle" width="120"
+height="82">&nbsp;<img src="images/correo.gif" align="middle"
+width="300" height="50"></p>
+
+<form action="http://www.intr.net/cgi-bin/action.cgi"
+method="POST">
+    <input type="hidden" name="URL"
+    value="http://www.falkland-malvinas.com/gracias.html"><input
+    type="hidden" name="template"
+    value="www.falkland-malvinas.com/template"><p><strong>Nombre
+    : </strong><input type="text" size="30" maxlength="256"
+    name="first"></p>
+    <p><strong>Apellido :</strong><input type="text" size="30"
+    maxlength="256" name="last"></p>
+    <h3><strong>Dirección Postal </strong></h3>
+    <p><strong>Calle : </strong><input type="text" size="50"
+    maxlength="256" name="street"></p>
+    <p><strong>Ciudad : </strong><input type="text" size="30"
+    maxlength="256" name="city"> <strong>Código Postal : </strong><input
+    type="text" size="10" maxlength="256" name="zip"></p>
+    <p><strong>Estado :</strong> <input type="text" size="20"
+    maxlength="256" name="state"></p>
+    <p><strong>País :</strong> <input type="text" size="20"
+    maxlength="256" name="country"></p>
+    <p><strong>Correo electrónico :</strong> <input type="text"
+    size="50" maxlength="256" name="email"></p>
+    <p><strong>Comentarios : </strong></p>
+    <p><textarea name="comment" rows="5" cols="63"></textarea></p>
+    <p><input type="submit" name="submit" value="Envio"><input
+    type="reset" name="reset" value="Restablecer"></p>
+</form>
+
+<p><a href="indexe.html" target="_top"><img
+src="images/atras.gif" align="middle" border="0" width="50"
+height="50"><strong> Volver</strong></a></p>
+
+<p>&nbsp;</p>
+</body>
+</html>
+</DOC>

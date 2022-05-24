@@ -1,0 +1,475 @@
+
+<DOC>
+<DOCNO>WT02-B12-141</DOCNO>
+<DOCOLDNO>IA087-000631-B026-195</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.171.html 130.91.195.242 19970122071308 text/html 25239
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 07:13:10 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 25067
+Last-modified: Tue, 22 Nov 1994 06:33:32 GMT
+</DOCHDR>
+My Testimony before the Committee on Science, Space and Technology 3 May 1994 <p>
+
+Testimony before the
+Committee on Science, Space and Technology
+Subcommittee on Technology, Environment and Aviation
+U.S. House of Representatives <p>
+
+Hearing on
+Communications and Computer Surveillance, Privacy and Security <p>
+
+May 3, 1994 <p>
+
+David J. Farber
+The Alfred Fitler Moore Professor of Telecommunication Systems
+University of Pennsylvania
+200 S. 33 rd Street
+Philadelphia PA 19104-6389
+Net: farber@cis.upenn.edu <p>
+
+I.      Introduction <p>
+
+Good morning Mr. Chairman and members of the subcommittee. I want to thank
+the Committee for inviting me to testify today. <p>
+
+I should start off by stating that the views I will give are my own, and
+not necessarily those of any organizations that I am affiliated with --
+although I hope they agree with my views. I am speaking merely as a
+professional with long experience in the computer and communications
+field. <p>
+
+My background has been focused on the understanding of and the development
+of technology in the computer and communications area. I started my career
+in 1956 with a BS in General Engineering from Stevens Institute of
+Technology. Due to the influence of a friend, I interviewed Bell Telephone
+Laboratories even though I was accepted into graduate school. I accepted a
+very challenging job at Bell Labs helping design the worlds first
+electronic switching system which was later installed at Morris,
+Illinois. It was the ENIAC of the computer-based telephone systems we have
+today. I later went on to do pioneer work in programming languages and
+after a period at the RAND Corp. I left industry to join the University of
+California at Irvine (UCI) as a faculty member. At UCI I was responsible
+for the conceptualization of the first operational distributed computer
+system sponsored by the NSF -- the DCS system which was the first use of
+client-server ideas, along with the first micro kernel and the first
+ring-type Local Area Network. On my journey to the University of
+Pennsylvania where I hold the Chair of The Alfred Fitler Moore Professor
+of Telecommunication Systems, I collaborated in the creation and operation
+of CSNET and the NREN as well as co-authoring the  proposal for the
+Gigabit Testbeds. I have served on more industrial and government advisory
+committees than is reasonable and am a Fellow of the IEEE. I serve on the
+Board of Trustees of both the Electronic Frontier Foundation and the
+Internet Society. <p>
+
+My career has been focused on the understanding of, and the development
+of, technology in the communications area. I have co-founded several of
+the data networks which have led to the National Information
+Infrastructure and have taken part in the creation of some of the
+technology that makes it possible. For the last several years I have also
+been increasingly involved with the policy problems and opportunities
+that this technology has created. So while my remarks will focus largely
+on the technical aspects of the Clipper and the Digital  Telephony
+initiatives I would like to start out by expressing some of my views on
+policy and also my views as a concerned citizen. <p>
+
+II.     Public Policy Challenges Posed By New Information &amp; Communication
+Technologies <p>
+
+We are at a critical stage in the evolution of a capability that could
+rival the industrial revolution in bringing both  good and bad to the
+citizens of this nation. The industrial revolution brought unheard of
+prosperity to parts of the world and pain and suffering also. The
+information revolution, and it is a revolution, can bring a burst of
+prosperity and vigor to a world which is increasingly stuck in a morass of
+slow growth, regionalization and trade conflicts. <p>
+
+The information revolution is a stew based on a blend made possible by
+increasingly complex communications technology mixed with increasingly
+more powerful computers. The National Information Infrastructure (NII) and
+it's sister the Global Information  Infrastructure (GII) are among the
+exciting developments arising out of this technology "stew". All in all,
+we have an unprecedented transfer of power into the hands of the public
+and the government that results from these technologies. Computer power
+that served the entire technical staff of Bell Labs when I was there is
+now available in my hand. Communications capabilities only dreamed of in
+the Saturday movie serials is now readily available worldwide. This vastly
+increased power in the hands of the public has created difficulties for
+the policy makers. While technology increases in power at a rate of two
+times per year, our ability to understand the policy  implications of
+this, sadly, grows very slowly. <p>
+
+This has shown itself recently in the debate about the Clipper encryption
+initiative and the Digital Telephony proposals both put forward by the
+Clinton/Gore administration and backed heavily by the law enforcement
+community. A careful look at each of these initiatives illuminates the
+fundamental national issues that are being fought out. <p>
+
+It is critical that this discussion be brought out into that part of the
+policymaking process which has always represented the citizens -- the
+Congress.  I take as one of my guidelines in thinking about these issues,
+a quote by Ben Franklin -- the Founder of the University I am at -- "They
+that can give up essential liberty to obtain a little temporary safety
+deserve neither liberty nor safety." <p>
+
+A.      Clipper and the proposed escrow system <p>
+
+The proposed key escrow system that is part of the "Clipper" proposal for
+providing securable telephony has been subject to many and often loud
+debates in the press and in the Internet world. Many worry that such an
+escrow system could be vulnerable to misuse by a future administration or
+overzealous law enforcement organizations.  The result of any such misuse
+would be a major blow to the privacy rights of our citizens. The
+counter-argument is based on arguments that it is no worse than we now
+have -- namely no cryptographic protection in widespread use, and a fear
+of increasing difficulties due to technology and the ease of computer
+supported voice encryption. Clearly the issues are basic to the way we
+will live in the future that is, what will happen to both our liberty and
+our safety. Currently the discussants have taken extreme positions -- as
+is normal for the beginning of such a critical discussion. Neither side is
+capable of explaining to the other the reasons for their support of or
+concerns about the proposal. <p>
+
+Thus I believe that we must carefully examine the proposed escrow system
+to insure that we have not done the trade that Franklin warned us about,
+but rather, that we have used all available technology to ensure that we
+end up with more safety and more liberty. <p>
+
+The Administration's Clipper proposal to create an escrowed cryptographic
+system for  telephony came out of the blue, at least as far as my
+community is concerned. When I sent out the first announcement of the
+Clipper proposal to my "interesting people" mailing list (a list that goes
+widely to senior people in academia, government and industry) my only
+comment was "basically the issue is 'do you trust your government'". One
+of the replies I received from a 23 year old person I know well said that
+"to my generation, the term 'trust government' has no meaning". Sad but
+true!!. <p>
+
+The Clipper announcement was sketchy, lacking substance and real form. We
+all "waited for the beef" but there was unfortunately no such beef. The
+main ingredient of the initiative and it's most controversial aspect --
+the escrow system -- was not yet really designed. The reaction was, to put
+it mildly, mostly shock and outrage and even sadness. There were
+insufficient details about the Clipper system to enable us to make a
+competent technical evaluation of the overall security of the proposal,
+including all of its escrow management procedures. Those of us in industry
+and in academe, see our role as helping to assess for both the corporate
+community and individual users, the security and privacy of computer and
+communications systems. To this date, we have been unable to perform this
+function because most of the details of Clipper are shrouded in secrecy. <p>
+
+B.      Where are we and where can we go <p>
+
+One of the facts of life in the Information Age is that powerful tools
+such as encryption are and will be increasingly more available to
+law-abiding citizens, business users, people all over the world, and, of
+course, to criminals.  This does pose challenges to law enforcement, but
+there's nothing we can do to stop this technology.  All that the
+government can do is to slow things down.  We have to face it. Perhaps we
+can slow it down and leave it to our children to face these facts of life.
+But in my view we have created the world that presents these challenges
+and we should attempt to solve the problems and to leave a better world to
+our children. <p>
+
+We should not, however, underestimate the depth of the problem that
+sophisticated encryption technology and the information age thrusts upon
+us.  On the one hand, individual citizens and large corporations
+desperately need encryption to protect their personal privacy and
+corporate security.  On the other hand, this same technology, if used by
+criminals, can make law enforcements efforts to conduct investigations
+more difficult.  So, we need technology and public policy in response to
+this dilemma which assure privacy and security, enables law enforcement to
+continue to do its job, and, at the same time, respects fundamental civil
+liberties which are at the heart of our constitutional system of
+government. In my technical judgment, the solution to this problem will
+not come easily and will certainly not come in one simple step. <p>
+
+The position of the Administration worries many in the technical community
+since they feel it is but the first step to the banning of any form of
+encryption except that approved and escrowed by the government. The
+Clinton Administration says "not on our watch" and I believe them.
+However, our grandchildren will not have them on the watch when they grow
+up. So, we need a lasting and effective solution to this problem, not a
+quick fix that is technologically unsound and unwise as a matter of public
+policy. <p>
+
+C.      Open Technical Processes Are Best For Solving Hard Problems <p>
+
+Even those of us who disagee about Clipper, agree that we are faced with a
+hard technical and policy problem.  So, the question we should be asking
+is: how does the communications world solve hard problems and are we on
+track with Clipper? A long history of setting technical standards in the
+communications industry has shown that solving hard technical problems
+requires an open design process.  The protocols which are the basis of the
+Internet were not created by ten people in a "smoke-filled room". They
+evolved openly and sometimes noisily in a highly stressed and highly
+productive set of interactions. They took over the world and created the
+basis for the National Information Infrastructure. An examination of the
+internet standards activity clearly shows the payoff in openness. <p>
+
+The Internet Engineering Task Force (IETF), an open organization attended
+by all the players with stakes in internet developments, has often faced
+the situation where two group develop their ideas in different fashions:
+One group meets in an open public fashion, with constant interactions with
+different ideas and different economic imperatives of those
+participating.   Another group goes off and sits in  smoke-filled rooms
+designing alternatives in a closed environment. When both are shown to the
+IETF as a whole, the open design always wins. It has all the rough spots
+smoothed out and arguments done prior to disclosure. The closed design
+gets sunk on having to do the smoothing when it is too late. Multimedia
+Mail, a major future use of the NII, is a good case in point. There are
+many others examples. <p>
+
+Clipper is in the same boat. While I recognize that a small part of
+cryptography will always be classified, most of the development of the
+proposed escrow system has been taking place in those room ( not
+smoke-filled any more). This process must be brought out into the sunshine
+of the technical and policy community. Proposals like Clipper must be
+evolved, if they are to have any chance of success, with the co-operation
+and understanding of the industrial and academic community and their
+enthusiastic cooperation rather than their mistrust. This penchant for
+openness must not be seen as a power struggle between industry and
+government, or as an excuse for revisiting a decision that technologists
+dislike for political reasons.  Rather it is a reflection of a deep faith
+in open design processes and a recognition that closed processes
+invariably lead to solutions which are too narrow and don't last. <p>
+
+A Strawman Proposal <p>
+
+To make my thinking more concrete I have included  a much abbreviated
+design that  is predicated on a desire to properly control and
+authenticate the use of taps and decryption devices to ensure their use
+only under proper judicial supervision. It is intended to provide a
+greatly improved and protected mechanism to ensure that proper judicial
+control is kept and that auditable records exist. I personally believe
+there are technical safeguards that can be engineered into a key escrow
+system that could greatly increase privacy and security for users, while
+ensuring that legitimate law enforcement access is maintained. <p>
+
+The approach requires a change in the warrant mechanism as well as other
+changes that may require legislative action.  I firmly believe that an
+approach toward the creation of a freely exportable cryptographic system
+that allows and perhaps even encourages, but does not demand, escrowed
+keys could, given the right actions on the part of the congress greatly
+improve the first amendment rights and the custom of personal privacy that
+exists in the United States and at the same time provide law enforcement
+with all the lawful access to crypto protected communications that our
+constitution allows. <p>
+
+The proposed design allows the user of an escrowed crypto-device (ECD) to
+choose to have his keys escrowed with a set of escrow approved  holding
+organizations (EAHO). An EAHO must conform to a set of rules and audits
+that define its proper handling of key security, physical and electronic
+security, management strength, and the ability to obtain a bond to protect
+the owners of the ECD from illegal actions on the part of EAHO employees.
+Thus the credibility of the EAHO is examined by the accrediting agency and
+the organization which provides bonding. <p>
+
+Given that the component keys (CK) have been transported to the chosen
+EAHOs, the rest of this note describes the process that would be followed
+in my proposed approach. <p>
+
+When a law enforcement organization (LEO) wants to decrypt a protected
+conversation, it go through the normal mechanism to find the ECD units
+being used. The main difference from the existing process is that the
+warrant they must obtain in order for the EAHOs to release their component
+keys is as follows. <p>
+
+The LEO obtains a warrant from a judicial source. This warrant is
+registered as to the date of issue (could use the Bellcore spin-off
+company) and contains within the warrant the specifics of ECD that will be
+monitored as well as the length of time of thevalidity of the
+authorization. The warrant is electronic in form and is then encrypted and
+signed by the judicial source. It is sent to the LEO. The LEO then sends
+the warrant along with its additional information to each of the escrow
+organizations -- this transmission signed by the LEO. The EAHOs check the
+validity of the LEO, and decrypt the warrant for validity, date and
+duration. Given this is OK, it sends its part of the key along with the
+original warrant back to the LEO encrypted under the LEO's public key and
+signed by the EAHO. <p>
+
+The LEO now can authenticate the EAHO. When the LEO has all parts of the
+component keys, it ships the messages obtained from the EAHOs -- namely
+the key parts and the warrant to the decryption "box" where the validity
+of the warrant, its time of origination and length is again checked before
+any decryption taking place. If any of these conditions fail, the request
+for decryption is rejected. <p>
+
+This alternative to Clipper will protect user privacy, ensure legitimate
+law enforcement access, and has the important advantage of allowing
+technology and standards to develop in an open, market-drive process. <p>
+
+I would note, too, that the Clinton Administration has shown some interest
+in pursuing open solutions such as the one I have outlined here.  This
+sentiment is extremely encouraging to me and I would urge the subcommittee
+to explore this option further with Administration officials.1 <p>
+
+D.      What's my bottom line on Clipper <p>
+
+Escrow key systems may offer a middle of the road solution to blend the
+imperatives of technology with the stated but as yet un-substantiated
+needs of law enforcement. However, in no case, should an escrow system be
+considered unless it: <p>
+
+* results in an environment which considerable increases the citizens
+protection against illegal wiretaps <p>
+
+and <p>
+
+* provides for enabling laws, which would be necessary to establish the
+electronic warrant system and auditability, must legislate against the
+mandatory use of clipper technology <p>
+
+and <p>
+
+* removes export controls  on cryptography so as to establish a viable
+market for American companies to produce products. <p>
+
+III. Digital Telephony <p>
+
+I will enumerate my objections to the proposal from a technical/economic
+point of view. I join others in attacking it from a
+privacy/freedom/necessity standpoint. <p>
+
+In the Clipper controversy, one could find some benefits to the nation in
+a properly designed system. In the case of the Digital Telephony proposal
+it is difficult to see where there can be a silver lining. <p>
+
+The Digital Telephony proposal calls for the manufacturers of telephone
+central office switches, tandom switches and SS7 signaling systems to make
+major design changes to their software systems. These changes would
+provide, to law enforcement at remote sites, electronic notification of
+calls to and from selected numbers/individuals as the individuals wander
+through the complex communications structure that has been created in the
+United States. <p>
+
+I, and many others, expect that the law would have to be extended to cover
+PBXs and even personal computers as they are used more and more as
+personal communications devices. <p>
+
+As a colleague of mine has often said "What guarantees that the job of law
+enforcement should be easy?". Yet law enforcement noting the increased
+complexity of the telecommunications systems and maybe even noticing the
+ability of all the components of the NII to carry such communications, has
+demanded the right to peek into our minds and to easily find out whom we
+call and who calls us. <p>
+
+I have often been credited with using the term "the Full Software
+Employment Act of 1994" when I talk about the Digital Telephony proposal.
+The proposers talk about costs in the multi hundreds of millions of
+dollars to be borne by the Government for the first three years. After
+that all is left open. <p>
+
+As one who has in his time designed and built complex systems and who
+understands the structure of the current telecommunications structure my
+reactions are as follows. <p>
+
+Rational estimates obtained from sources in the industry talk about
+numbers from $1.5 to $3 billion  per year. I consider that low. The
+complexity of just the Plain Old Telephone System software is enormous.
+Re-designing large and often the most complex parts of it will not be easy
+nor inexpensive. One must potentially re-engineer the cellular system with
+its multiple manufacturers plus the local and toll and tandem switching
+centers. The fact that they are programmed devices makes it feasible but
+not cheap.  The potential for decreased reliability of the national
+telephone grid caused by the large scale changes (presently undefined)  to
+the software architecture could cause major dangers to the health and
+economy of the country. If you watch the bugs (errors) that are
+distributed in well tested and much similar systems (like DOS or MACOS)
+you can appreciate the opportunities for chaos -- and it must be done in
+three years. <p>
+
+One should carefully note that the national communications system is
+marginally reliable at this time. A National Research Council report on it
+cautioned that it was poorly equipped to survive in the event of
+catastrophies. The recent set of fiber cuts and the resultant severe
+disruption of the nation's business is a portent for the future. To spend
+money that is in short supply satisfying a poorly articulated and poorly
+justified "problem" with wire tapping is to place the nation's economic
+health in danger, for communication is the veins that carry the nation's
+economic blood -- information. <p>
+
+&gt;From the standpoint of the future evolution of our NII, the Digital
+Telephony proposal presents a major drag. Whenever a new feature is being
+considered for implementation and marketing, one very important issue will
+be how much  it will cost to implement it in such a manner as to pass the
+hurdles of the proposal. That could price many good ideas that would
+improve the usefulness of our NII off the feasibility horizon. Not only
+would our citizens not have access to these new and useful services but
+they would not be implemented in US manufactured systems and thus could
+make our systems less sellable in competition with those of foreign
+manufacturers of communications equipment for off shore sales. Note that
+off shore sales in the developing parts of the globe represent major
+markets which we could lose. <p>
+
+IV. Summary <p>
+
+*       The Information Age poses hard problems for privacy protection,
+security
+and law enforcement <p>
+
+*       Increasing amounts of personally sensitive and proprietary information
+on global, digital networks creates need for security through encryption. <p>
+
+*       Technical knowledge of how to create powerful and practically
+unbreakable encryption technology is available throughout the world. <p>
+
+*       Powerful encryption poses real challenges for law enforcement and
+national security efforts. <p>
+
+*       These challenges will not be solved by just a single chip such as
+Clipper or even just a single legislative act such as the proposed Digital
+Telephony bill. <p>
+
+*       As a closed, secret, inflexible standard, Clipper will not be widely
+accepted by the market <p>
+
+*       Security systems must be trusted by the broad user community.  Clipper
+will never be so trusted because the design of its internal algorithm is
+secret <p>
+
+*       Open systems are the only lasting solution to hard technical problems <p>
+
+*       The history of the computer and communications industry has shown that
+hard technical problems require open flexible solutions arrived at in an
+open manner. <p>
+
+*       The federal government should lead the way toward an open solution,
+rather than trying in vain to force a closed solution on the problem. <p>
+
+*       Real alternative to publicly revealed Clipper system design exist,
+which
+meet law enforcement goals while protecting privacy, civil liberties and
+preserving technological flexibility. <p>
+
+V. Conclusion <p>
+
+There should be no doubt that new computer and communciations
+technologies pose challenges for the law enforcement and national security
+communities.  By the same token, for the National Information
+Infrastructure to succeed, and for US companies to be able to compete in
+the world market -- the Global Information Infrastructure -- user security
+and privacy must be protected through robust, open cryptography standards.
+The Congress and the Administration should lead the way toward solutions
+that are open, provide for flexibility in the future, and seek an
+appropriate balance of individual privacy and the legitimate needs of law
+enforcement. I thank this subcommittee again for its foresight and
+guidance in holding this hearing and look forward to working with you in
+the future. <p>
+
+FOOTNOTE <p>
+
+1 I would like to explicitly support an idea originated by Steve Walker of
+Trusted Information Systems, who proposes the voluntary establishment of
+software interface standards to crypto devices and crypto software so that
+manufacturers around the world, but especially in the United States, can
+create software systems that can be used with nationally required crypto
+systems around the world. Such an initiative would greatly enhance the
+privacy of individuals and the market for such systems. It would also
+create a major opportunity for American companies to market to the world.
+Such an initiative would assist in the creation of the GII supported by
+the Vice President <p>
+
+</DOC>

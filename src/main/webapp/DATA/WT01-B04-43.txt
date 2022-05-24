@@ -1,0 +1,76 @@
+
+<DOC>
+<DOCNO>WT01-B04-43</DOCNO>
+<DOCOLDNO>IA080-000557-B034-352</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Servicing.html 137.79.14.197 19970103071324 text/html 12159
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f2c4.323@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:18:28 GMT
+Last-Modified: Monday, 29-Jan-96 18:06:50 GMT
+Content-type: text/html
+Content-length: 11914
+</DOCHDR>
+<TITLE>ON-ORBIT SERVICING</title>
+<img src="logo.gif"><img src="SURFINSP.gif">
+<H1>ON-ORBIT SERVICING ROBOTS:  ARCHIVE - DEC. 1994</h1><p>
+
+Significant accomplishments have resulted from JPL activities in remote control of semi-autonomous robots.  The thrust of these activities has been to learn how to operate a remote system from a local control site.  A series of laboratory telerobotic systems have been built at JPL, and experiments have been conducted, since the early 1980's.  The spectrum of human machine interaction varies from direct operator control (i.e. teleoperation) with computer assistance to more autonomous operation with fail-safe back to a human operator to cope with conditions beyond our current technological capability in autonomous operations.  The term telerobotics refers to system capability which integrates both of these approaches.  Advanced teleoperation is particularly well suited for non-repetitive, less well modeled tasks, such as repair operations.  For more autonomous systems, the objective is to embed enough intelligence in the remote robot so that it can respond correctly to high-level commands from the operator.  The operator then assumes a supervisory role in commanding the remote robotic system.<p>
+<B>A. Surface Inspection Robot</b><a href="rsi-movie">(Movie)</a>
+<p>
+Complex missions require routine and unscheduled inspection for safe operation.  The purpose of research in this task is to  facilitate structural inspection of the planned Space Station while mitigating the need for EVA, and giving the operator supervisory control over detailed and somewhat mundane, but important tasks.  The telerobotic system enables inspection relative to a given reference (e.g. the status of the facility at the time of the last inspection) and alerts the operator to potential anomalies for verification and action.  One example might be the inspection of truss struts for micrometeoroid damage and visible cracks on the thermal radiator surface.  Simulation of realistic dynamic lighting is included.  In addition, configuration control of manipulators with redundant degrees of freedom has been developed and implemented to assure dexterous manipulation near complex structures.  To assure safe operation, collision detection and avoidance algorithms are used to monitor the arm motion while the operator commands the arm during the inspection.<p>
+<img src="cupola.gif">
+<H5>JPL-17787 Ac</h5><p>
+<H4>Fig. 5 Surface Inspection Robot Control Station<p>
+<img src="RSI.gif">
+<H5>JPL-23600 Bc</h5><p>
+Fig. 6 Surface Inspection Remote Manipulator System</h4><p>
+
+A multi-sensor end-effector includes a gas sensor for detection of gas leaks and a pyrometer to measure surface temperatures, in addition to CCD cameras.  This end-effector also houses two proximity sensors to provide collision avoidance and a force/torque sensor for safe contact with the environment.  Algorithms for flaw detection based on real-time image differencing with appropriate registration to account for variable lighting and manipulator/camera position have been developed and validated.  Several of the developed technologies within this task have successfully been transferred to the Johnson Space Center (JSC) for realistic tests in a high fidelity robotics laboratory with evaluation by astronauts.<p>
+
+<H5>Point of Contact:  S. Hayati, (818) 354-8273, hayati@telerobotics.jpl.nasa.gov</h5><p>
+
+<B>B. Ground Operator Environment</b><p>
+There are two primary objectives of this project:  To develop technologies that enable well-integrated NASA ground-to-orbit telerobotics operations, and to develop a prototype common architecture workstation which implements these capabilities for other NASA technology projects and planned NASA flight applications.<p>
+This task develops and supports three telerobot control modes which are applicable to time delay operation:  Preview teleoperation, teleprogramming, and supervised autonomy.  Preview teleoperation provides a graphical robot simulation which moves in real time according to the operator’s motion input to a hand controller.  This same teleoperation motion is sent to the real robotic system for execution.  In teleprogramming, the operator’s manual interaction with a 3-D virtual environment (physically identical to preview teleoperation) is symbolically interpreted by computer software  (e.g. for a grasping operation) to a low-bandwidth, low-level sequence of autonomous commands that are synchronously transmitted to the remote site, which has a simple sensor-referenced behavioral control capability.  The best features of dexterous teleoperation are preserved, while providing greatly increased operational robustness against extended (2-10 secs.) and possibly intermittent time delay.  The operator’s graphical workstation environment can be automatically updated based upon modeled sensor data feedback from the remote site, and robot sensor data is used instantaneously at the remote site to behaviorally compensate operator motion errors and positioning uncertainties.  Finally, supervised autonomy provides capability to generate high-level autonomous command sequences via either a graphically programmed operator interaction with the modeled environment, or using conventional menus.<p>
+The ground control capability is targeted to support as a first user, the Dexterous Orbiter Servicing System (DOSS), a dexterous manipulator for the Orbiter payload bay. It is a sidewall mounted robot that operates from a fixed base or from the end of the Remote Manipulator System (RMS).  This arm will provide the crew and mission controllers with an alternative to EVA for performing payload bay operations.  These activities include EVA worksite setup, payload operations, and many contingency operations (e.g., repairs).  The DOSS is designed for repetitive flights and can be used as a baseline operational capability similar to the RMS.  It can also function as a testbed for future telerobotic experiments.  The DOSS will utilize many technologies developed within NASA’s Telerobotics  Program, including robot control from Langley Research Center, remote surface inspection from JPL, and  ground operator control from JPL.<p>
+<H5>Point of Contact:  S. Hayati, hayati@telerobotics.jpl.nasa.gov</h5><p>
+
+<B>C. Distributed Space Telerobotics</b><p>
+This effort is being developed as a cooperative research and development activity between NASA-JPL and MITI-Electrotechnical Laboratory (ETL) of Tsukuba, Japan.  The main technical thrust of the project is safe ground control of orbital robots under operational uncertainties caused by impaired remote viewing, communication time delay, and tasking contingencies.  Each of these technological areas manifest themselves in respective application interests; the main Japanese application interest is in space assembly, while the U.S. focus is in space servicing.<p>
+There are two key research areas currently under development.  Intelligent Viewing Control (IVC) involves computerized planning and sequencing of multi-camera views which are fused with calibrated 3-D virtual workspace presentations.  This capability includes software facilities for interactive modeling, i.e., the capture of new workspace features, their rendering/presentation, and calibration, intended to improve  workspace perception and facilitate camera management.  Intelligent Motion Control (IMC) or teleprogramming has already been mentioned in the previous section.  The teleprogrammed mode is intended to extend time-delay teleoperation to useful LEO applications, and provides a mission resource for contingency tasking in partially structured environments (having geometric uncertainties).<p>
+Initial interface specifications have already been developed resulting in successful remote operation of robots in the collaborating country.<p>
+<H5>Point of Contact:  P. Schenker, schenker@telerobotics.jpl.nasa.gov</h5><p>
+
+<B>D. supervised Telerobotics in the 1980's</b><p>
+In the 1980's, this program developed a substantial technology base and experience that constitutes the foundation for today's program.  Important lessons learned during this period are: 
+<UL>
+<LI>Near-term  system  demonstrations  are  needed to  build  user  confidence
+<LI>Robust  performance is a prerequisite to acceptance 
+<LI>Rapid prototyping yields faster investment return and stimulates use of     cutting edge technology 
+</ul>
+Prime examples of telerobotic systems built during the 1980's include: the JPL Telerobotics Testbed; the Supervised Telerobotics Laboratory; and the Advanced Teleoperation Laboratory for Satellite Repair. <p>
+
+<B>1. Telerobotics Testbed:  </b>The JPL telerobotics testbed was one of the most complete research telerobotic systems ever built.  Its main goal was to augment teleoperation with semi-autonomous capabilities at the robot site.  Typical demonstrations conducted with this system included that of satellite grappling with two arms and ORU replacement, as shown respectively in Fig. 7.  Technical areas of emphasis included:  Coordinated dual arm manipulation, force-reflecting operator control, and use of AI tools for task sequence planning and execution.  Major accomplishments included:  Synthesis of one of the most complete laboratory telerobots ever built; integration of AI and robot control techniques in control architecture; fast robot motion planners for collision avoidance; execution of dexterous tasks targeted to space; performance evaluation and demonstration in realistic servicing scenarios.<p>
+<img src="grap.gif">
+<H5>JPL-452</h5><p>
+<H4>Fig. 7 Satellite Grappling Demonstration</h4><p>
+<H5>Point of Contact:  S. Hayati, hayati@telerobotics.jpl.nasa.gov</h5><p>
+
+<B>2. Supervised Telerobotics Laboratory:  </b>This laboratory was a focus for the JPL research in supervisory control of servicing telerobots, targeting Space Station as its intended application.  Its main accomplishments were:  Development of a complete system for dual arm supervisory control operations, a generalized-compliant-motion primitive for dual arm robot programming, and a modular control architecture for ground remote operations.  It demonstrated several complex tasks in ORU replacement during telerobotic satellite servicing.  It also produced experimental data for use in design of Space Station robotics operations.<p>
+<img src="ORU.GIF">
+<H5>JPL-15585 Ac</h5><p>
+<H4>Fig. 8 ORU Replacement in Supervised Telerobotics Laboratory</h4>
+<H5>Point of Contact:  P. Backes, backes@telerobotics.jpl.nasa.gov</h5><p>
+
+<B>3. Solar Max Repair by Advanced Teleoperation:  </b>The advanced teleoperation laboratory was used extensively to evaluate and demonstrate a number of important capabilities:  Use of force reflection in teleoperation, predictive displays for task preview; and compensation for time-delay in conduct of remote operations.  The NASA 1984 Solar Maximum Satellite EVA Repair operation was used as the basis for an experimental paradigm.  Tasks that were performed in 1984 by two astronauts were duplicated in the laboratory.  These tasks included replacement of the modular attitude control subsystem and the main electronics box on the Solar Max Satellite.  The research revealed information about suitable tasks for teleoperated repairs, training in virtual environments, and teleoperation of redundant manipulators.<p>
+<img src="control.gif"><img src="SatRep.gif">
+<H5>from P-42661 Ac</h5><p>
+<H4>Fig. 9 Solar Max Repair Ground Demonstration Using Teleoperation</h4><p>
+The system is illustrated in Fig. 9.  Effort is directed toward giving the operator a feeling of being at the remote site, by using a variety of sensors and displays.  Sensor feedback includes force reflection, audio, and video images.  In addition, graphics displays of non-visual sensory information are provided.<p>
+<H5>Point of Contact:  A. Bejczy, bejczy@telerobotics.jpl.nasa.gov</h5><p>
+
+
+</DOC>

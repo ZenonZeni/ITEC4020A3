@@ -1,0 +1,96 @@
+
+<DOC>
+<DOCNO>WT02-B12-40</DOCNO>
+<DOCOLDNO>IA087-000625-B045-263</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.070.html 130.91.195.242 19970122062052 text/html 3983
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:20:52 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3812
+Last-modified: Tue, 22 Nov 1994 06:31:54 GMT
+</DOCHDR>
+Background on the Administation's encryption policy announcements <p>
+
+Subject: for interesting people
+Date: Sat, 05 Feb 94 14:23:27 -0500
+From: Stephen Walker &lt;steve@tis.com&gt; <p>
+
+Background on the Administation's encryption policy announcements <p>
+
+On Friday Feb 4 the Clinton Administration held a press conference
+to announce a progress report on the interagency review of cryptography.
+Their review is not finished but the following was made public: <p>
+
+- approval of the Escrow Encryption Standard and thus formalization
+of the Clipper key escrow process. <p>
+
+The EES (now FIPS 185) is the first "classified" Federal Information
+Processing Standard. The standard describes two classified "R21 Informal
+Technical Reports" that "will be required to assure interoperability
+of EES devices." "Organizations holding an  appropriate security clearance
+and entering into a Memorandum of Agreement with the National Security
+Agency regarding implementation of the standard will be provided access
+to the classified specifications. Inquires may be made regarding the
+Technical Reports and this program to Director, National Security Agency,
+Fort George G. Meade, MD 20755-6000, ATTN: R21." <p>
+
+This is the first time in the history of FIPS (dating back to 1965 or so)
+that clearances are required to implement a federal standard. This is a
+direct consequence of using a classifed algorithm and classified key escrow
+procedure to protect unclassified information. <p>
+
+The approval of the EES was made over the nearly unanimous objections
+(several hundred to two) received during the public comment period. The
+rationale for why the overwhelming public comments were overruled will
+most likely not be made available since it is classified. <p>
+
+It was announced that Clipper devices with key escrow will be able
+to be exported. <p>
+
+When asked about the international acceptability of key escrow, the comment
+was made that "little progress has been made" in discussions with other
+governments that have taken place even "as little as three weeks ago". <p>
+
+- procedures for export control of already exportable
+cryptographic products will be relaxed. <p>
+
+However, there will be no change in what can and cannot be exported.
+If your product cannot be exported today, it will not be able to be
+exported tomorrow. <p>
+
+Apparently the growing body of information concerning the foreign
+availability of DES and related products and the ease with which
+other countries allow the export of DES products has, thus far, had no
+influence on government policy makers. <p>
+
+- details on key escrow agents (NIST and Treasury (it seemed
+important to someone to point out that neither of these were "law
+enforcement" related agencies)) and key escrow procedures were announced. <p>
+
+- establishment of an interagency working group on encryption and
+telecommunication policy. <p>
+
+- a decision not to proceed with the licensing of the Digital
+Signature Algorithm to Public Key Partners, a proposal put forward last
+June which met with another overwhelming public (including foreign
+governments) condemnation. <p>
+
+Apparently the fact that this exclusive licensing would be at considerable
+cost to the public is now viewed as not in the government's best interest. <p>
+
+Unfortunately, little was said about what would happen to the Digital
+Signature Standard. The government will proceed down three paths: <p>
+
+- attempting to negotiate a deal with Public Key Partners,
+   - resorting to "other legal" approaches, and/or
+   - defining a new algorithm for the DSS. <p>
+
+When asked if these alternatives would take a long time to resolve, the
+answer was the government expects this matter to be resolved quickly. <p>
+
+Nothing in all that was announced at the conference was other than
+voluntary for the general public. <p>
+
+</DOC>

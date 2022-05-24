@@ -1,0 +1,60 @@
+
+<DOC>
+<DOCNO>WT01-B11-12</DOCNO>
+<DOCOLDNO>IA062-000357-B014-479</DOCOLDNO>
+<DOCHDR>
+http://www.monito.com:80/wankel/j-wankel.html 206.86.185.198 19970116014643 text/html 1562
+HTTP/1.0 200 OK
+Date: Thu, 16 Jan 1997 01:46:46 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 1380
+Last-modified: Sun, 26 May 1996 22:20:23 GMT
+</DOCHDR>
+<HTML>
+
+<HEAD>
+
+<TITLE>   Wankel Rotary Engines - Rotary Combustion (Java)   </TITLE>
+
+<META Name="description" Content="Working model Java demo of Wankel
+rotary combustion engine.">
+
+<META Name="keywords" Content="Wankel rotary combustion engine Java
+Demonstration Demo">
+
+</HEAD>
+
+<BODY background="../Textures/monito-logo-bkgd.gif" bgcolor="#F0F0F0"
+	text="#000000" link="#0000FF" alink="#00FF00" vlink="#00B000">
+
+<A HREF = "wankel.html"> Wankel Home </A> |
+<A HREF = "rce.html"> Back to Theory </A>
+
+<H1> Working Model of Rotary Combustion </H1>
+
+<APPLET CODE="Wankel.class" WIDTH=500 HEIGHT=430
+	CODEBASE=".">
+	<PARAM NAME=FramesPerSec VALUE=15>
+</APPLET>
+
+<P> Bugs: 1) Spark plug doesn't fire every time it should because of
+frame sampling.  2) Open rotor tips that vary due to combination of
+roundoff errors and awt.graphics arc drawing method that uses integer
+arc angles.
+
+<P> <A HREF = "wankel.html"> Wankel Home </A> |
+<A HREF = "rce.html"> Back to Theory </A>
+
+<P> <A HREF="../disclaim.html">Copyright</A> &#169; 1996 <A HREF =
+"../index.html">Alan Marr</A>.  This update notice was last updated
+April 28, 1996.  Do you <A HREF = "../version.html">not see the
+monkey</A> in the rotor background?  <A HREF = "submit.html">You can
+help</A>.  You may send your comments or questions to <A HREF =
+"mailto:rce@monito.com"> <KBD>rce@monito.com</KBD></A>.
+
+</BODY>
+
+</HTML>
+</DOC>

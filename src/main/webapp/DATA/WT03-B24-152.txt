@@ -1,0 +1,237 @@
+
+<DOC>
+<DOCNO>WT03-B24-152</DOCNO>
+<DOCOLDNO>IA053-000896-B001-60</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/sample_solutions.html 129.174.40.15 19970123200724 text/html 9385
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:06:12 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 07 Dec 1995 23:22:04 GMT
+Content-type: text/html
+Content-length: 9202
+</DOCHDR>
+<html>
+<head>
+<title>
+   Example Potential Solutions for the Draft Export Criteria
+   for Software Key Escrow Encryption
+</title>
+</head>
+<body>
+   [Handout at Key Escrow Issues Meeting, at NIST,
+   Gaithersburg, Maryland, September 6, 1995.]
+<p>
+
+<h1>   Key Escrow Issues Meeting, September 6-7, 1995
+   Discussion Paper #4</h1>
+
+
+<p>
+<b>   Example Potential Solutions for the Draft Export Criteria
+   for Software Key Escrow Encryption</b>
+
+<p>
+
+   Example solutions to the export criteria are identified
+   below to help give a better feel for the approaches that
+   implementors may take to satisfy the criteria. The
+   information in this paper is not intended to represent
+   fail-safe, cookie cutter solutions to the criteria, but
+   only to generate more detailed discussions.
+
+<p>
+   [Note: the numbered articles are the ten key escrow
+   criteria proposed by the Government in Discussion Papers 1,
+   2 and 3. The *comments* are the solutions suggested by the
+   Government in this Paper #4.]
+
+<p>
+   1.   The product shall use an unclassified encryption
+        algorithm (e.g. DES, RC4) with a key length not to
+        exceed 64 bits.
+
+<p>
+<i>        It is important to understand that key in this
+        context is related to the number of bits needed to
+        decrypt a message which are not available over the
+        communications channel. For some encryption algorithms
+        the key is defined to be a number of bits which are
+        kept secret and a number of bits which are transmitted
+        in the clear (message key / initialization vector /
+        salt). This criterion only specifies the number of
+        secret bits.</i>
+
+<p>
+   2.   The product shall be designed to prevent multiple
+        encryption (e.g. triple-DES).
+
+<p>
+        <i>One way to do this would be for the encryption
+        program to store the ciphertextfile name and the first
+        n (e.g. 16) bytes of cipher for the last k (e.g. 8)
+        encryptions. When the encryption routine is called,
+        the program checks to see if the input file name is in
+        the ciphertextfile list or the first n bytes of the
+        file match any of the k cipher text streams stored.
+        Likewise, a plaintext header could be appended to each
+        ciphertextfile which says the file is encrypted. The
+        encryption program would look for this header before
+        encryption; if found, the program would not proceed
+        with the encryption. These are just examples of what
+        could be done. Each vendor's constraints will be
+        different.</i>
+
+<p>
+   3.   The key required to decrypt each message or file shall
+        be accessible through a key escrow mechanism in the
+        product, and such keys will be escrowed during
+        manufacture in accordance with #10. If such keys are
+        not escrowed during manufacture, the product shall be
+        inoperable until the key is escrowed in accordance
+        with #10.
+
+<p>
+        <i>One way of doing this is for each user to have a
+        Public and Private Escrow Key. The public escrow key
+        is bound in a certificate signed by the Escrow
+        Agent(s). This certificate would contain a key ID, the
+        escrow agents's ID and the Public Escrow key. A header
+        of the encrypted message could contain this
+        certificate along with the message key, encrypted
+        using the Public Escrow key. If the product is not
+        escrowed during manufacture, the software will check
+        to see if it has a valid escrow key prior to
+        encrypting messages.</i>
+
+<p>
+   4.   The key escrow mechanism shall be designed to include
+        with each encrypted message or file, in a format
+        accessible by authorized entities, the identity of the
+        key escrow agent(s), and information sufficient for
+        the escrow agent(s) to identify the key or key
+        components required to decrypt that message.
+
+<p>
+        <i>Following the example for criterion #3, the
+        certificate that contained the user's escrow key would
+        also contain the identity of the escrow agents holding
+        the corresponding pffvate escrow key.</i>
+
+<p>
+   5.   The product shall be resistant to any alteration that
+        would disable or circumvent the key escrow mechanism,
+        to include being designed so that the key escrow
+        mechanism cannot be disabled by a static patch (i.e.
+        the replacement of a block of code by a modified
+        block).
+
+<p>
+        <i>Probably the most important aspect of this criterion
+        is that source code for a product should not be
+        available. Also it is important that the cryptography
+        be integrated into the application in some nontrivial
+        way. One way of achieving this criterion is for the
+        application to store a hash or checksum of the
+        cryptographic code in several places and check the
+        cryptographic code several times during its use. One
+        can prevent a static patch by making the hash or
+        checksums dependent on a program ID code or something
+        else that is unique about that copy of the software.
+        Perhaps one of the best ways to defeat hackers from
+        "patching around" the escrow would be a commitment
+        from vendors to make each new release of the software
+        be immune to existing static patches and patch
+        programs.</i>
+
+<p>
+   6.   The product shall not decrypt messages or files
+        encrypted by non-escrowed products, including products
+        whose key escrow mechanisms have been altered or
+        disabled.
+
+<p>
+        <i>If one follows the steps outlined under criterion #3,
+        a receiving program could verify the escrow
+        certificate contained in the message header, extract
+        the escrow public key, and verify that the encrypted
+        message decryption key is also found in the header. If
+        it is not there, decryption does not proceed.</i>
+
+<p>
+   7.   The key escrow mechanism allows access to a user's
+        encrypted information regardless of whether that user
+        is the sender or the intended recipient of the
+        encrypted information.
+
+<p>
+        <i>The message header could contain the decryption key
+        encrypted under both the sender's public escrow key
+        and the recipient's public escrow key. Then access to
+        either the sender's or recipient's private escrow key
+        would allow access to the decryption key.</i>
+
+<p>
+   8.   The key escrow mechanism shall not require repeated
+        involvement by the escrow agents for the recovery of
+        multiple decryption keys during the period of
+        authorized access.
+
+<p>
+        <i>If the public and private escrow keys are unique to
+        users, then the escrow agents could turn over the
+        private escrow keys to the authorized parties. The
+        private escrow key would allow access to keys
+        encrypted with the corresponding public escrow key and
+        not require repeated involvement with the escrow
+        agents.</i>
+
+<p>
+   9.   In the event any such product is or may be available
+        in the United States, each production copy of the
+        software shall either have a unique key required for
+        decrypting messages or files that is escrowed in
+        accordance with #10, or have the capability for its
+        escrow mechanism to be re-keyed and any new key to be
+        escrowed in accordance with #l0.
+
+<p>
+        <i>Following the example in criterion #3, the software
+        could accept the load of a new escrow certificate. The
+        software could store a "root" public key which is used
+        to verify a certificate containing the escrow agent
+        public key which in turn is used to sign the
+        individual user's escrow certificate. Hence the header
+        might contain both the escrow agent certificate signed
+        by the root and the user certificate signed by the
+        escrow agent(s). Once escrowed, the software could
+        store the ID of the escrow agents and not accept loads
+        of new escrow keys except from those agents.</i>
+
+<p>
+   10.  The product shall accept escrow of its key(s) only
+        with escrow agent(s) certified by the U.S. Government
+        or by foreign governments with which the U.S.
+        Government has formal agreements consistent with US
+        law enforcement and national security requirements.
+
+<p>
+        <i>Following the example in criterion #9, if the "root"
+        authority only signed the certificates of escrow
+        agents (foreign and domestic) approved by the U.S.
+        Government then only keys escrowed by approved escrow
+        agents will be accepted as valid by the software
+        packages.</i>
+
+<p>
+   [End]
+
+<p>
+Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> September 10, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

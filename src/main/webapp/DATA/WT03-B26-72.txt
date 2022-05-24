@@ -1,0 +1,218 @@
+
+<DOC>
+<DOCNO>WT03-B26-72</DOCNO>
+<DOCOLDNO>IA029-000311-B021-42</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdf6.htm 138.44.40.1 19970114165307 text/html 12710
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:51:28 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 24 May 1996 01:57:42 GMT
+Content-length: 12535
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>Image Brightness &amp; BRDF Workshop Issues<BR>
+<HR></H2>
+<BR>
+<B>3.2.2 Analytic BRDF Models<BR>
+</B><BR>
+Assuming the atmospheric correction can be done (and the surface interaction
+needs to be flagged here as the coupling means the atmospheric correction
+and surface BRDF estimation are not independent) the surface BRDF can sometimes
+be defined by an analytic model.<BR>
+<BR>
+Among the many models for the volume effect are the Suits and Sail models
+as well as many more sophisticated ones such as the hotspot based model
+described (as an example) in Qin and Jupp (1993). The literature is vast
+(Myneni and Ross, 1990 provides a very good review although it is becoming
+dated!). <BR>
+<BR>
+The hotspot effect is a geometric or occlusion effect and from among the
+many papers that exist describing it the following text has been editied
+and extracted from Jupp and Walker (1996).<BR>
+<BR>
+&quot;A simple model for the remote sensing of a canopy is the Geometric
+Optical (GO) model. The simple GO (or hotspot) model for scenes which describe
+open forest or woodland areas is based on the one described in Jupp et al.
+(1986), Strahler and Jupp (1991a&amp;b) and Li and Strahler (1992). In this
+model, there are four kinds of ground cover 'visible' from a given direction.
+These are referred to as scene components and consist of sunlit canopy (symbol
+sc), shaded canopy (shc), sunlit background (sb), and shaded background
+(shb). Each component is assumed to have a characteristic radiance and the
+radiance of a pixel is modelled as the area weighted combination (or linear
+mixture) of the characteristic component radiances. That is, the observed
+radiance of a single pixel (rs) is modelled as:<BR>
+<P><CENTER><IMG SRC="symbols/image32.gif" WIDTH="279" HEIGHT="20" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>where the subscripts sc, shc, sb, and shb indicate the radiances of the
+four components as named above, Rj represents the (mean) radiance of component
+'j' and k indicates the sensed proportion of each component within the pixel
+from the given view direction.<BR>
+<BR>
+The mean radiance over the scene (Rs), assuming the view and sun directions
+are constant, can be written as:<BR>
+<P><CENTER><IMG SRC="symbols/image31.gif" WIDTH="304" HEIGHT="20" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>where, capital Kj represents the mean or expected value of the varying
+proportions kj over the scene for j as the components sc, shc, sb or shb.
+The mean value (Rs), as a function of sun and observer position, defines
+the BRDF of the scene.<BR>
+<BR>
+In order for the scene BRDF model to be computed, a description of the size
+and shapes of the objects, their density and how they are distributed over
+the background is needed and the geometrical relationships between the objects
+and the expected values of the four components must be established. Jupp
+et al. (1986), Strahler and Jupp (1991a&amp;b) and Li and Strahler (1992)
+describe such a model for spheroidal crown (not necessarily opaque) volumes
+which is valid for any view or illumination angles using the 'Boolean' model
+of Serra (1982). In the Boolean model, the object 'centres' are assumed
+to be randomly distributed in a 'Poisson' distribution. By defining the
+geometry and the distributions, expressions for Kj may be derived. Strahler
+and Jupp (1991a&amp;b) use a simple model for spheroids which is adequate
+for moderate sun and view zenith angles and Li and Strahler (1992) provide
+some more general alternative models for resolving the Kj. These basic scene
+BRDF models are quite simple and are easily implemented in various forms
+such as mathematical packages or spreadsheets.<BR>
+<BR>
+In the woodlands and open forest areas typical of the area of Australia
+where the model studies have been made, the pixel to pixel behaviour of
+the image is conveniently (if not as accurately) described by a simpler
+form of the model in which the shaded background, sunlit (but still relatively
+dark) tree and shaded tree components are combined into one so that:<BR>
+<P><CENTER><IMG SRC="symbols/image33.gif" WIDTH="167" HEIGHT="20" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>where X is a composite component combining sunlit and shaded tree and
+shaded background and RX. is computed as:<BR>
+<P><CENTER><IMG SRC="symbols/image35.gif" WIDTH="237" HEIGHT="46" ALIGN=
+bottom NATURALSIZEFLAG="0"></CENTER>
+<P>The simpler model has the advantage for this discussion that it shows
+clearly how, in many woodlands, the image pixel to pixel variation is driven
+primarily by the variation in the proportion of sunlit background which
+is visible in the pixels and the contrast between this sunlit background
+and the other components. It also provides a simple estimate for ksb from
+images where Rsb and RX are known for an appropriate image channel, or channel
+combination, as: <BR>
+<P><CENTER><IMG SRC="symbols/image36.gif" WIDTH="106" HEIGHT="45" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>For such a model, the mean radiance (ie BRDF) over all pixels in a patch
+with the same basic underlying type of cover and structure is therefore:<BR>
+<P><CENTER><IMG SRC="symbols/image37.gif" WIDTH="232" HEIGHT="20" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>where Ksb is the mean value of ksb, or the expected proportion of visible
+sunlit background for the particular sun and view positions. <BR>
+<P><CENTER><A HREF="brdff2.htm"><IMG SRC="brdff2s.gif" WIDTH="150" HEIGHT=
+"113" ALIGN=bottom NATURALSIZEFLAG="3"></A></CENTER>
+<P>
+<P><CENTER><A HREF="brdff2.htm">Figure 2. DATM Hotspot effect and models</A></CENTER>
+<P>This simple model has been found to be adequate to describe the data
+obtained by a Daedalus scanner over woodlands, Figure 2 shows the data averaged
+over many scanlines for the aircraft scanning in and across the principal
+plane. The models shown vary the ratio of tree crown diameter to tree height.
+As can be seen, the models are very sensitive to this ratio which has been
+independently confirmed at the site by ground measurements.<BR>
+<BR>
+Linear end-member analysis is similar to the estimation of components described
+above. It has been the subject of useful research and application in Australia
+(Pech et al. 1986, Pickup and Foran 1987) and at regional scales where all
+pixels are mixtures of land covers of interest (Cross et al., 1991). End-member
+analysis assumes each pixel to be a composition, or mixing, of a few base
+components or 'end-members'. The pixel signature is assumed to be a linear
+sum of reflectances from each of n end-members weighted in proportion to
+its cover (kj) in the pixel:<BR>
+<P><CENTER><IMG SRC="symbols/image40.gif" WIDTH="126" HEIGHT="126" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>End-member analysis seeks to invert this mixing by deriving the proportions
+(kj) of each component in the pixel signature. This can feasibly be derived
+from the remotely sensed data provided that if there are n components (trees,
+shrubs, grass etc) then there are at least (n-1) channels of data that separate
+the end-members spectrally. The key assumptions built into the end-member
+method are that: 
+<BLOCKQUOTE>a) The end-members (pure examples of total cover by trees, shrubs,
+grass and background) are spectrally consistent between sites and <BR>
+<BR>
+b) Reflectance values for end members (Rj) are available from remotely sensed
+data or can be accurately derived by other means (such as field spectral
+measurements).</BLOCKQUOTE>
+There has been considerable work aimed at deriving end-members from the
+data (a form of principal components analysis, see Boardman, 1990) and employing
+high spectral resolution data to effect separation of more than a few components
+(Adams et al., 1989). However, with a lack of available high resolution
+spectral data, this linear approach suffers from several significant limitations
+to its applicability in Australia: 
+<BLOCKQUOTE>1. Available broad band signatures of the tree and shrub crowns
+over much of Australia whilst different, are not markedly spectrally distinct.
+<BR>
+2. Even if spectrally distinct crowns did exist for the available bands,
+their distinction is confounded by the effects of shadowing within crowns
+and cast shadow on the background (with bigger plants shading smaller plants).
+This makes the signature of the end-members difficult to estimate as the
+signature depends on the proportions of crowns and shadows present and variations
+in sun and look angles.<BR>
+3. Relatively low covers of trees and shrubs, together with shadowing, introduce
+such high spectral variance into the data relative to the spectral contrasts
+between end-members that the numerical methods used in the end member analysis
+become highly unstable.</BLOCKQUOTE>
+<BR>
+Shadow effects obviously depend primarily on the sun angle. Although the
+crown cover is the same, lower sun angles clearly decrease image brightness.
+Differences due to shadowing can be taken into account in end-member analysis,
+provided the end-member values are recalculated for each temporal image
+and one or more components labelled 'shade' are added to the list. However,
+its successful application still depends on an assumption of linear scaling
+along cover gradients due to sun positional and sensor view angle changes.
+These assumptions in practice are erroneous in structured vegetation (e.g.
+vegetation with discontinuous cover of trees or shrubs), and this limits
+the application of such methods to general synoptic estimates of change
+in cover.<BR>
+<BR>
+It is therefore better to model vegetation cover directly as an assemblage
+of various sizes and shapes of 3-dimensional objects (trees, shrubs, grass
+tussocks, herbs, etc.) scattered on a background that may be uniform or
+heterogeneous (Li and Strahler 1985, Jupp et al. 1986). The GO model may
+then be used to model the bidirectional reflectance of the canopies. In
+this approach, the effects due to shadowing on the overall reflectance (or
+infrared temperature) from a scene become important and useful features
+and the correlated interactions between shaded and sunlit components are
+built into the analysis - although it now becomes nonlinear. The directional
+radiance of the vegetation is then a mixture of four components (sunlit
+and shaded tree crowns, and sunlit and shaded backgrounds) that is seen
+from a given viewing angle. The areal proportions of these four components,
+for given illumination and viewing directions (which can be off-nadir),
+will be a function of the sizes, shapes, orientations and placements of
+the objects (i.e. individual plants) within the scenes.<BR>
+<BR>
+A GO model is most appropriate to woodlands or vegetation in which the vegetative
+cover is discontinuous, that is, where tree and shadowed background interactions
+account for a large proportion of the variance in the image. The further
+advantage of these models is that they are also potentially invertible to
+provide structural as well as cover information. The invertibility of GO
+models was demonstrated by Strahler et al. (1988), Franklin and Strahler
+(1988) and Wu and Strahler (1993) in which tree size and density were estimated
+from reflectance data. When size, shape and orientation are fixed or characterised
+by distributions of known parameters, and the object centres are randomly
+distributed, then the proportions of the four components can be estimated
+using the Boolean model of Serra (1982). This GO model is termed the Boolean
+version (Strahler and Jupp, 1991a&amp;b; Li and Strahler, 1992). It accounts
+for the changes in proportions that occur with random overlapping objects
+as the density of objects increases and can easily model scale effects and
+changing sun and view directions. The GO aspect of the model implies that
+multiple scattering of radiation in the vegetation layer is neglected. While
+the evidence of our eyes supports this, there are wavelengths (in particular
+the near infrared) where multiple scattering is very significant. This has
+been recently addressed by Li et al. (1995).&quot;<BR>
+<BR>
+<HR><A HREF="brdf1.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="brdf5.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="brdf7.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif"
+WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><HR>
+</BODY>
+</HTML>
+</DOC>

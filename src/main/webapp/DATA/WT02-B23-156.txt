@@ -1,0 +1,56 @@
+
+<DOC>
+<DOCNO>WT02-B23-156</DOCNO>
+<DOCOLDNO>IA022-000241-B014-15</DOCOLDNO>
+<DOCHDR>
+http://in234a.iit.edu:80/~mmaewww/ab110696.html 198.37.23.181 19970108050021 text/html 2232
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Wednesday, 08-Jan-97 05:05:32 GMT
+Content-Type: text/html
+Content-Length: 2027
+Last-Modified: Monday, 21-Oct-96 20:51:03 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<title>ab111396</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+</head>
+
+<body>
+<p align=left>&nbsp;</h1>
+<h2 align=center><font size=4><strong>Prof. Arif Masud</strong></font></h2>
+<p align=center><font size=3><em>Assistant Professor of Mechanics and Materials</em></font></p>
+<p align=center><font size=3><em>Department of Civil and Materials Engineering</em></font></p>
+<p align=center><font size=3><em>University of Illinois at Chicago</em></font></p>
+<p align=center><font size=3><em>Chicago, IL 60607</em></font></p>
+<hr>
+<p><em><strong></strong></em>&nbsp;</p>
+<p><em><strong>Title</strong></em><strong>. </strong> A Stabilized Space-Time Formulation of the Navier-Stokes Equations for Moving Domain Problems </p>
+<p><em><strong>Abstract</strong></em><strong>. </strong>
+A space-time finite element formulation of the Navier-Stokes equations
+is presented for the analysis of flows over moving and deforming domains.
+The variational equation is based on time discontinuous Galerkin method 
+and employs the physical entropy variables. A least-squares operator is 
+added to the formulation to improve the stability of the method and 
+to account for unresolved internal and boundary layers. In this 
+formulation the elements can be oriented in time to accommodate the 
+spatial deformations.  If they are oriented along the particle paths,
+the method is Lagrangian and if they are held fixed in time, it is Eulerian.
+Consequently this formulation is analogous to the arbitrary 
+Lagrangian-Eulerian techniques. 
+Exploiting the idea of arbitrary orientation in time of the space-time
+elements, a novel mesh rezoning technique is proposed.
+This technique  adapts the fluid mesh to the moving domain with 
+deforming boundaries. The approach is quite general and can be applied
+to structured and unstructured meshes.
+Numerical results are presented to show the performance of the method.
+</p>
+</body>
+
+</html>
+</DOC>

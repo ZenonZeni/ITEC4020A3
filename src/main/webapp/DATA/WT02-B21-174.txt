@@ -1,0 +1,130 @@
+
+<DOC>
+<DOCNO>WT02-B21-174</DOCNO>
+<DOCOLDNO>IA052-000883-B029-140</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/interfer/igram.html 137.229.31.144 19970210141105 text/html 5017
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:11:19 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Wednesday, 29-Jan-97 23:08:23 GMT
+Content-length: 4834
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML> 
+<HEAD>
+<TITLE>Interferometry at ASF/STEP: Igram</TITLE> 
+</HEAD> <BODY BGCOLOR="#FFDEAD" TEXT="#00008F" LINK="#008B00" VLINK="#580000"
+BACKGROUND="../res/backgrounds/asf_tile.gif"> 
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> | 
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> | 
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> | 
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> |
+<A HREF="http://www.images.alaska.edu/interfer/">Interferometry</A> 
+<H1 ALIGN=CENTER>
+Igram
+</H1>
+<DL>
+<DT><H2>Introduction</H2></DT>
+<DD>
+Igram is the program that actually interferes the two images. As is the case 
+with most things, igram is the simplest of them all. Igram requires for input a 
+source amp and phase image and a target amp and phase image. Igram will 
+interfere and combine the two images into one output amp and phase image. On the 
+command line, you specify the basename of the source and target image. Igram 
+will append the necessary extensions. (<I>Note: Your source and target images 
+must have the correct extensions. In this case, your amplitude image must have 
+the extension .amp while your phase image must have the extension .phase.</I>)
+<P>
+The equations igram uses to interfere the two images are
+<p>
+<pre>
+        output_amp = sqrt(source_amp * target_amp);    
+        output_phase = source_phase - target_phase;
+</pre>
+<p>
+The amplitude is square root of the product of the two input amplitudes. The 
+phase is the difference of the two input phases. One of the reasons we use polar 
+format is because interference is easier to calculate.
+
+<DT><H2>Example</H2></DT>
+<DD>
+For details on the command line syntax, please see the <a 
+href="http://www.images.alaska.edu/cgi-bin/man-request.pl?asftool=igram&amp;sect
+ion=1">man page</a>.
+<P>
+A sample run looks like the following:
+<P>
+<pre>
+sparc1k [51]: igram asc1 asc2 asc12
+igram:
+        read count = 132, total bytes read = 104857600
+	starting igram
+igram:  Ends successfully
+Total wall clock time = 173 seconds.
+</pre>
+<P>
+Note that the line <I>read count...</I> will update as each line is read.
+<img src="asc12amp.jpg" alt="[Interferogram Amplitude Image]" Width=128 
+Height=800 align=right></img>
+
+<DT><H2>Description</H2></DT>
+<DD>
+We pass asc1.amp and asc1.phase as our source image and asc2.amp and asc2.phase 
+as our target image. Igram interferes these images and creates two output files, 
+asc12.amp and asc12.phase. These files have the same dimensions as the input 
+files (2048 columns x 12800 rows) and the same data size, 4 byte float.
+<P>
+You can see by looking at the image on the right that the amplitude image looks 
+stretched vertically. This stretching is caused by the fact that the SAR CCSD 
+data does not have the same resolution horizontally as it does vertically. In 
+fact the vertical resolution is about 20m while the horizontal resolution is 5m. 
+(<I>These values are only approximate. For more information and specifics about 
+ASF data, see the <a href="http://www.asf.alaska.edu/">ASF WWW site</a>.</I>) We 
+will correct this problem using a technique called multilooking when we run the 
+program <a href="ml.html">ml</a>. This image is displayed so that the user can 
+cross-check their results with ours. To obtain the exact same image, you will 
+need to follow these examples using our test data. Contact <a 
+href="mailto:rguritz@images.alaska.edu">Rick Guritz</a> for more information 
+about obtaining the test data.
+</DD>
+
+<DT><H2>Next Step</H2></DT>
+<DD>
+The next step in interferometry processing is <a href="deramp.html">deramp</a>. 
+Before multilooking, we need to correct for the flat-earth model. The <a 
+href="deramp.html">deramp</a> program performs these corrections on the phase 
+file (e.g. asc12.phase). The amplitude file can be put aside until we begin 
+multilooking. At this time asc1.amp, asc2.amp, asc1.phase, and asc2.phase can be 
+taken offline. You will not need to rerun the igram program unless you 
+reregister the input data.
+</DD>
+</DL>
+
+ 
+<P>
+<a href="ifmshift.html">
+<img src="../res/buttons/leftarrow.gif" alt="[Go Back]" WIDTH=29 HEIGHT=30>
+</a>
+<a href="deramp.html">
+<img src="../res/buttons/rightarrow.gif" alt="[Go Ahead]" WIDTH=29 HEIGHT=30>
+</a>
+<P>
+<CENTER>
+<IMG ALT="[---------]" SRC="../res/lines/ice_blue_line.gif" WIDTH=85%>
+</CENTER>
+<H4> 
+Created By: <a href="mailto:mshindle@images.alaska.edu">Michael Shindle</a><br>
+Last Updated: January 23,1997<BR> 
+Last Updated By: <A 
+HREF="http://www.images.alaska.edu/users/mike/mike.html">Michael 
+Shindle</A><BR> If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="http://www.images.alaska.edu/comments.html">comment</A>. 
+<H4> 
+</BODY>
+</HTML> 
+
+</DOC>

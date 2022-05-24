@@ -1,0 +1,369 @@
+
+<DOC>
+<DOCNO>WT01-B07-51</DOCNO>
+<DOCOLDNO>IA068-000417-B010-45</DOCOLDNO>
+<DOCHDR>
+http://www.aivc.org:80/allard.html 194.217.120.80 19970113032153 text/html 16608
+HTTP/1.0 200 OK
+Date: Mon, 13 Jan 1997 03:21:46 GMT
+Server: Apache/0.8.14
+Content-type: text/html
+Content-length: 16435
+Last-modified: Fri, 06 Sep 1996 13:55:55 GMT
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+
+<META NAME="AUTHOR" CONTENT="Air Infiltration and Ventilation Centre">
+
+<META NAME="DOCCOMM" CONTENT="r                             ">
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GEN >
+<META NAME="CREATIM" CONTENT="1996:9:6:12:19:">
+
+<META NAME="VERSION" CONTENT="1">
+
+</HEAD>
+
+<BODY>
+
+<P>
+Air Infiltration Review, Volume 17, No 4, September 1996, World
+Wide Web Edition
+<P>
+&#169; Copyright Oscar Faber PLC on behalf of the International
+Energy Agency, 1996<HR>
+
+<H1>Natural Ventilation Studies within the EC PASCOOL Joule II
+Project<A NAME="Beginning"></A></H1>
+<HR>
+
+<H3>F. Allard&#176;, E. Dascalaki*, K. Limam &#176;and M. Santamouris*
+</H3>
+
+<P>
+&#176; University of Athens, Physics Department (Greece), * L.E.P.T.A.B,
+University of La Rochelle (France)
+<MENU>
+<LI><A HREF="#Introduction" >Introduction </A>
+<LI><A HREF="#Aims" >Aims and Strategies of the Ventilation PASCOOL Task  
+</A>
+<LI><A HREF="#Final" >Final Products and Main Results of the PASCOOL Natural Ventilation Task  
+</A>
+<LI><A HREF="#Single" >Single Sided Ventilation </A>
+<LI><A HREF="#Cross" >Cross Ventilation </A>
+<LI><A HREF="#Air" >Air Flow Predictions </A>
+<LI><A HREF="#Conclusion" >Conclusion </A>
+<LI><A HREF="#References" >References </A>
+</MENU>
+
+<H2><A NAME="Introduction">Introduction</A></H2>
+
+<P>
+As revealed by the last ZEPHYR competition <A HREF="#References" >(1)  
+</A>, natural ventilation is the first design strategy used by
+architects or designers to reduce building cooling loads and improve
+indoor comfort in Mediterranean countries where air conditioning
+systems do not represent a systematical and realistic alternative.
+Unfortunately, if the effects of natural ventilation on the energy
+balance of a room or on the perceived comfort of the occupant
+have been extensively described and can be experienced by anyone,
+the prediction and design of natural ventilation and its integration
+in building design as a passive cooling strategy is not really
+well dominated. In order to fill these existing gaps, natural
+ventilation phenomena have been extensively studied in the framework
+of the PASCOOL research project <A HREF="#References" >(2) </A>.
+The coordinated efforts of research groups from Belgium (BBRI),
+France (University of La Rochelle and ENTPE), Greece (University
+of Athens), Italy ( University of Milano), Portugal (University
+of Porto), Spain (University of Malaga) and Switzerland (EPFL)
+have made this PASCOOL task one of the most significant contributions
+to natural ventilation studies in the recent years.
+<H2><A NAME="Aims">Aims </A>and Strategies of the Ventilation
+PASCOOL Task</H2>
+
+<P>
+Based on a huge experimental programme, various different aspects
+of the problem were covered during the PASCOOL project:
+<UL>
+<LI>single sided ventilation
+<LI>cross ventilation/
+<LI>airflow through large openings
+<LI>night ventilation and the coupling with thermal mass.
+</UL>
+
+<P>
+More than a hundred single sided and cross ventilation experiments
+were performed in various buildings and test cells located in
+different countries in Europe. In order to evaluate the ventilation
+flow rates, experimental techniques using tracer gases have been
+experienced and tested in natural ventilation configuration as
+well as energy balance approaches. Various geometrical and climatic
+configurations have been tested. Combined ventilation and thermal
+mass experiments have also been performed to study air flow patterns
+in multizone buildings presenting important stack effects.&lt;R&gt;
+<P>
+Various models have also been tested in order to predict natural
+ventilation air flows in buildings. New models resulting from
+the experiments have been proposed and integrated in a new air
+flow model PASSPORT-Air based on a network approach. In order
+to feed this code with realistic data, the group has developed
+CPCALC+ <A HREF="#References" >(3) </A> a new method predicting
+the pressure coefficients on building surfaces for various shapes
+of building and roofs. Wind tunnel experiments using three boundary
+layer profiles have been used to obtain regression curves for
+the determination of the pressure coefficient distribution.
+<P>
+Finally a new approach using zonal modelling has been proposed
+in order to assess air flow patterns in naturally ventilated rooms.
+<H2><A NAME="Final">Final </A>Products and Main Results of the
+PASCOOL Natural Ventilation Task</H2>
+
+<P>
+All the results of the Ventilation task are presented in the &#171;Ventilation-Thermal
+Mass Subtask Final Report&#187; <A HREF="#References" >(2) </A>organised
+into six chapters describing the contributions of the PASCOOL
+Group to the various aspects of natural ventilation. In this short
+presentation, we will focus on three main contributions, Single
+Sided Ventilation, Cross Ventilation and Air Flow Modelling.
+<H2><A NAME="Single">Single </A>Sided Ventilation</H2>
+
+<P>
+Single sided ventilation experiments were carried out in real
+buildings located in Athens, Madrid and Lyon, and in fully equipped
+test cells . Two of them in Athens and BBRI were developed within
+the frame of the PASSYS Project. A third one located in Porto
+has also been used. Most of the experiments were performed using
+tracer gas decay techniques.
+<P>
+A total of 76 experiments were performed in Greece composing the
+largest data base on single sided ventilation. From this data
+base, a model has been proposed introducing a correction factor,
+CF by which the theoretical flow equations of the network model
+have to be multiplied to give more realistic results. Furthermore,
+a correlation giving CF in terms of thermal and flow characteristics
+has been proposed.
+<P>
+CF = 0.08 (Gr / (Re^2) )^-0.38 (1)
+<P>
+With Gr: Grashof number calculated on the height of the opening
+and the reference temperature difference, and Re, Reynolds number
+calculated using the reference velocity and the depth of the cavity.
+<P>
+This model has been validated using the results of other single
+sided ventilation and it is convenient when the inertial flow
+due to wind speed is the driving phenomenon. In the case of higher
+temperature differences between outdoor and indoor conditions,
+experiments carried out by BBRI in Belgium have demonstrated that
+a multi term model is more efficient. This model takes into account
+each physical contribution to the air flow by means of a new formulation.
+<P>
+Q = (Q_net(Cd, Delta_T)^2 + (aAV)^2 + (bA)^2)^0.5 (2)
+<P>
+With Q_net air flow rate calculated by the network model using
+Cd = 0.66, A opening area (m^2), V Wind speed (m/s), a, b wind
+and turbulence parameters related to investigated environment.
+<P>
+It has also been shown in the BBRI experiments that the heterogeneity
+of the concentration field is an important source of uncertainty
+when evaluating air flow rates due to natural ventilation. A thermal
+balance of the room is certainly, when possible, a more accurate
+way.
+<P>
+Indeed, as said before, these models are certainly limited to
+a reduced number of conditions (wind direction, wind speed and
+temperature differences), and further investigation is now needed
+to extend their applicability domain.
+<H2><A NAME="Cross">Cross </A>Ventilation</H2>
+
+<P>
+From a literature review, various models have been investigated
+<H3>Global air flow rate prediction</H3>
+
+<P>
+Aynsley's Model (1977) <A HREF="#References" >(4) </A><BR>
+Vickery's Model (1987) <A HREF="#References" >(5) </A><BR>
+Global resistance approach (Aynsley 1988) <A HREF="#References" >(6)  
+</A><BR>
+Virtual Stream tube method (Murakami 1991) <A HREF="#References" >(7)  
+</A>
+<H3>Velocity Coefficient Approaches</H3>
+
+<P>
+Gouin (1984) <A HREF="#References" >(8) </A><BR>
+Givonni (1988) <A HREF="#References" >(9) </A><BR>
+Ernest (1991) <A HREF="#References" >(10) </A>
+<P>
+This review shows that there is a wide range of uncertainty in
+these various models. In most cases the applicability limits are
+not well described, and they can be very difficult to extend to
+general cases.
+<P>
+In order to study a wide range of configurations, different experimental
+facilities have been used in Belgium, Greece, Spain and Switzerland.
+The resulting experiments were carried out using either constant
+injection or decay methods.
+<P>
+Single zone and two zone experiments carried out in Athens used
+the Aynsley model to identify the discharge coefficient of the
+openings. A low value of .2 has been identified and does not seem
+to be influenced by the thermal conditions. In these experiments,
+the mixing of the tracer gas was found to be very good. This result
+is surprising and disagrees with Murakami's description of an
+inertial flow crossing the room.
+<P>
+On the contrary, the experiments carried out in Mendillory building
+in Spain showed a real difficulty in assessing a good homogeneity
+of the tracer gas in cross ventilation configuration. In this
+case, the decay method appears to be more appropriate than the
+constant injection.
+<P>
+Givonni's model giving the mean velocity within the cell has also
+been used in order to propose various correlations. Nevertheless,
+the whole experience of cross ventilation studies carried out
+during the PASCOOL Project clearly shows that specific experimental
+facilities are now necessary to go a step further. The boundary
+conditions have to be controlled very carefully in order to give
+a strict indication of the limits of applicability of the various
+existing models.
+<H2><A NAME="Air">Air </A>Flow Predictions</H2>
+
+<P>
+During the PASCOOL Project, the modelling activities were split
+into two main contributions. On the one hand, a multizone air
+flow model PASSPORT-Air adapted to natural ventilation conditions
+has been developed and evaluated through the large experimental
+PASCOOL data base. On the other hand, a new approach using zonal
+modelling has been investigated. PASSPORT-Air is based on a nodal
+concept, each zone of a building is represented by a pressure
+node. Boundary nodes are also representing the outside environment,
+and flow equations are used to calculate the air flows through
+each flow path. Cracks, windows, doors and shafts are considered,
+and special care has been devoted to the prediction of natural
+ventilation flows.<BR>
+
+<P>
+<I><A NAME="Table_1">Table 1</A>: Correlation coefficients for
+inter-model comparison<BR>
+</I>
+<P>
+<TT>Tool_____ESP______Passport_AIRNET___COMIS____NORMA____BREEZE
+<BR>
+Passport_0.99_____1.00_____0.98_____1.00_____0.98_____0.99<BR>
+AIRNET___0.98_____0.98_____1.00_____0.98_____0.93_____0.99<BR>
+COMIS____0.99_____1.00_____0.98_____1.00_____0.98_____0.99<BR>
+NORMA____0.98_____0.98_____0.93_____0.98_____1.00_____0.96<BR>
+BREEZE___0.99_____0.99_____0.99_____0.99_____0.96_____1.00<BR>
+ESP______1.00_____0.99_____0.98_____0.99_____0.98_____0.99</TT>
+<P>
+This model has been evaluated by comparison with five other airflow
+models, namely ESP, COMIS, BREEZE, AIRNET, and NORMA. Almost similar
+airflow rates are predicted by all tools when assuming regular
+air flow equations as shown in <A HREF="#Table_1" >Table 1 </A>.
+Nevertheless the introduction of the Correction Factor significantly
+improves the accuracy of the prediction. The correlation coefficient
+between experimental values and numerical prediction goes from
+0.4 without CF to 0.75 with CF correction. <A HREF="#Figure_1" >Figure 1  
+</A>presents this result. Further validation of the model is obviously
+necessary to confirm this result, and special care in cross ventilation
+prediction will be required.<BR>
+
+<P>
+<I><A NAME="Figure_1">Figure 1</A>: Comparison of numerical predictions
+with experimental results<BR>
+<BR>
+
+<IMG SRC="allafig.gif" ALIGN="BOTTOM" >
+</I>
+<P>
+The limits of airflow network models are well known. While they
+can predict the air flow rates between the zones of a building
+and the outdoors, they are not able to give any information about
+airflow patterns and velocity field within the rooms although
+these data are obviously necessary when dealing with comfort prediction
+or natural ventilation efficiency. CFD codes could be used for
+this purpose, however they are very heavy to use and the results
+are sometimes questionnable when using a limited number of nodes
+or wall functions. An intermediate concept has been developed
+over few years introducing an empirical description of a cavity
+in dominant flows: boundary layers, jets or plumes. These flows
+can be described by analytical functions or empirical correlations
+and mass balance and energy balance in each zone of the room are
+then sufficient to predict air flow patterns and heat flows <A HREF="#References" >(12)  
+</A>. During the PASCOOL Project this concept has been used in
+order to predict natural ventilation flow patterns within a room.
+The results obtained in comparison with those of CFD prediction
+are encouraging and further research in this field is very promising.
+<H2><A NAME="Conclusion">Conclusion</A></H2>
+
+<P>
+A large research effort in the field of natural ventilation has
+been carried out during the PASCOOL E.C. Project. Various aspects
+of the problem such as single sided ventilation, cross ventilation,
+airflow prediction, night ventilation or large internal openings
+have been studied, and an important confrontation of experimental
+knowledge and theroretical analysis has led to a real improvement
+of experience in this domain. Nevertheless, necessary studies
+have also been identified in order to improve the description
+of outdoor conditions around buildings and of heterogeneous indoor
+environment. Furthermore, another important effort is also necessary
+to transform the scientific knowledge acquired during such a project
+into efficient design tools and guidelines for architects and
+engineers.
+<H2><A NAME="References">References</A></H2>
+
+<OL>
+<LI>E. Fitzgerald, J. Owen Lewis, Passive Cooling European Architectural
+Ideas Competition ZEPHYR, International Symposium Passive Cooling
+of Buildings, Athens, Greece, 19-20 June 1995.pp; 393-400.
+<LI>K. Limam, F. Allard, Ventilation-Thermal Mass Subtask, Final
+Report, PASCOOL CE Project JOU2-CT92-0013, D.G. XII, Brussels,
+1995.
+<LI>Grosso M. Manual of CPCALC+, , PASCOOL CE Project JOU2-CT92-0013,
+D.G. XII, Brussels, Edit. M.Santamouris and A. Argiriou, 1995.
+<LI>Aynsley R.M., W. Melbourne and B.J. Vickery, Architectural
+Aerodynamics, Applied Science Publisher Ltd, London, U.K., 1977.
+<LI>Vickery B.J. and C. Karakatsanis, External Wind Pressure Distributions
+and Induced Internal Ventilation Flow in Low Rise Industrial and
+Domestic Structures, ASHRAE Transactions, Vol. 93, Part 2, 1987.
+<LI>Aynsley R.M., Aresistance approach to estimate airflow through
+buildings with large openings due to wind, ASHRAE Transactions,
+vol. 94, pp. 1661-1669, 1988.
+<LI>Murakami S. et alii, Wind Tunnel test on Velocity-Pressure
+Field of cross Ventilation with Open Windows, ASHRAE Transactions,
+pp; 525-538, 1991.
+<LI>Gouin G., Contribution a&eacute;rodynamique &agrave; l'&eacute;tude
+de la ventilation naturelle de l'habitat en climat tropical humide,
+Th&egrave;se de Doctorat, Universit&eacute; de Nantes, 1984.
+<LI>Givonni B., l'homme, l'Architecture et le Climat, Eyrolles
+Edit. , Paris, 1978.
+<LI>Ernest, DR, F.S. Bauman, E.A Arens, The prediction of indoor
+air motion for occupant cooling in naturally ventilated buildings,
+ASHRAE Transactions, pp; 539-552, 1991.
+<LI>E. Dascalaki and M. Santamouris, PASSPORT-Air: an Airflow
+Model for Natural Ventilation, International Symposium Passive
+Cooling of Buildings, Athens, Greece, 19-20 June 1995.pp 183-192.
+<LI>F. Allard and C. Inard, Natural and Mixed Convection in Rooms,
+Prediction of Thermal stratification and Heat Transfer By Zonal
+Models, ISRACVE, Tokyo, 22-24/07/92, pp. 335-342.
+</OL>
+<HR>
+
+<P>
+<A HREF="#Beginning" >Beginning of article  </A>
+<P>
+<A HREF="elecair.html" >AIR front page  </A>
+</BODY>
+
+</HTML>
+</DOC>

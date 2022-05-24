@@ -1,0 +1,113 @@
+
+<DOC>
+<DOCNO>WT01-B09-127</DOCNO>
+<DOCOLDNO>IA038-000736-B034-31</DOCOLDNO>
+<DOCHDR>
+http://www.calstart.org:80/about/pngv/pngv-0701.html 207.104.9.100 19970210061257 text/html 5696
+HTTP/1.0 200 Document follows
+Date: Mon, 10 Feb 1997 06:05:10 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>CALSTART -- DARPA Consortia EV and Hybrid EV Technology Projects</title>
+</head>
+
+<body bgcolor=#FFFFFF><center><a href="/misc/ypsubmitform.html" onMouseOver="window.status='Get Listed Today!'; return true"><img alt="For Free Yellow Pages Listing Info, click here" border=0 src="/image/yptag1.gif"></a></center><p>
+
+
+<h2 align = "center">DARPA Consortia EV and Hybrid EV Technology Projects<br>
+<a href = "/cgi-bin/imagemap/image/maps/about.map"><img border src = "/image/toolbar.gif" ismap alt ="CALSTART Toolbar"></a></h2>
+<hr><p>
+
+<h3>Northeast Alternative Vehicle Consortium</h3><p>
+
+<blockquote>
+
+<B>Project Title: High Voltage Variable Speed AC to AC Motor Drive (traction drive inverter demonstration)<p>
+Performing Organization: D.C. Transformation
+</B>
+
+
+<P><B>Program Description</B></P>
+
+<P>D.C. Transformation, Inc. (DCT) has an innovative inverter topology that can be readily adapted to meet the power conditioning
+requirements of a traction drive vehicle. A high power inverter that can accept variable frequency AC input voltage and produce a
+variable frequency AC output at high efficiency can be achieved using DCT's Power Conditioning System (PCs). Preliminary
+discussions with motor generator manufacturers have pointed out that a matched motor generator pair operators at an optimum
+voltage of approximately 3kV can achieve an efficiency in excess of 98.5%. The PCS technology is well suited for operation at or
+above the 3kV point with power levels ruing into the megawatts.</P>
+
+<P>A prototype system is being built in a laboratory environment for proof of principle purposes and for validation of the analytical
+model. In the current configuration, facility power of 580 VAC will now through a 300kva three phase full­wave bridge rectifier to
+be converted to ­4OOVDC. The 144kW inverter will transform the 400 VDC to 440 VAC. The output voltage will be adjustable
+from a minimum of 17S VAC to a maximum of 440vAC. The output frequency will be variable from DC to 80Hz. The conversion
+rate, which directly affects the output voltage, will vary from approximately 200Hz to 2880Hz. The inverter is comprised of three
+homogeneous two-stage modules. Each rnodule has two complimentary stages operating 180 degrees out of phase at a
+frequency of 1440 Hz. The output waveform is therefore reconstructed at a frequency of 2880 Hz. The higher Inversion rate
+significantly reduces the filter requirements and improves the output power quality.</P>
+
+<P>The inversion process is composed of three cycles, sequential­resonant charging, inverse and discharge. Each cycle is currently
+configured to occur in series. The charging cycle draws energy from the source and resonantly charges a set of capacitors. The
+inversion cycle complements the purity d a one or two of the charging capacitors, depending on the AC output phase angle. The
+discharge cycle then delivers the energy to the load through a output LC filter. For this demonstration a unity power factor load
+will be used.</P>
+
+<P>This innovative circuit uses a moderate frequency soft­switching technique which continuous y draws power form the AC source.
+The smooth and continuous flowv of current ensures this inverter will meet the IEEE­519 standard regarding the production of
+harmonics on the AC input line. The output voltage is conditioned with a 200Hz low pass filter which provides an AC Waveform
+with a very low ripple content.</P>
+
+<P>The OCT inverter topology is significantly less noisy than an equivalent IGBT based system. The electrically quiet nature of this
+circuit leads to greater efficiency. The advantage comes from the provident use of thyristors. These devices are used in
+configuration that incorporates self commutation. Meaning they are typically turned off under zero current conditions, thereby
+eliminating the need for lossy snubber circuits.
+</P>
+<P>Integral to the 144kW inverter is the digital control system. The hybrid system combines the computational capability of a
+microprocessor With the speed and dependable of programmable logic. A digital Canal processor (DSP) handles data flow contra
+by interfacing to a variety IIO modules. A microcontroller generates adaptive pulse trains Rich are fed to an erasable
+programmable logic device (EPLD). This device supplies triggering signals to the solid state switches.</P>
+
+<P>The PCS device is instrumented with a variety of sensors to ensure fail­safe operation and internal fault detection. Sensors are
+placed at cortical locations to monitor the operating voltage and current. The controller samples these signals to determine the
+health and status of the device under test. This system can be regulated The output power is calculated on a pulse to pulse basis
+and compared to a desired setpoint. The pulse repetition rate, consequently the power throughput, is adjusted to bring the system
+into specification. </P>
+
+
+</blockquote>
+
+<p><h3>Return to the <a href="pngv-0200.html">Table of Contents</a> for Northeast Alternative Vehicle Consortium
+</h3></p>
+
+<p><hr>
+
+<h5 align = "center">| <a href="/">HOME</a> | 
+<a href="/misc/search.html">SEARCH</a> | 
+<a href="/news/">NEWS</a> | 
+<a href="/participants/">PARTICIPANTS ONLY</a> | 
+<a href="/misc/feedback.html">FEEDBACK</a> | 
+<a href="/reference/yellowpages/">YELLOW PAGES</a> | 
+<a href="/help/about.html">HELP</a> |
+</h5><p>
+
+
+<h6><address>&copy Copyright 1996 CALSTART, Inc. All Rights Reserved. Please send comments and suggestions to: <A HREF="mailto:feedback@calstart.org">feedback@calstart.org</A>
+
+</address></h6>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+</DOC>

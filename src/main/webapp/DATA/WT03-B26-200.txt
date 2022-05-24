@@ -1,0 +1,120 @@
+
+<DOC>
+<DOCNO>WT03-B26-200</DOCNO>
+<DOCOLDNO>IA055-000922-B005-128</DOCOLDNO>
+<DOCHDR>
+http://www.vital-info.com:80/hsd-ordf.htm 204.69.248.245 19970208010026 text/html 2931
+HTTP/1.0 200 OK
+Date: Sat, 08 Feb 1997 01:11:33 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 2760
+Last-modified: Thu, 24 Oct 1996 22:13:37 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Vital Information - Hot Stocks Digest Application</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.0b6Gold (Win95; I) [Netscape]">
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFE0">
+
+<H1 ALIGN=CENTER>Hot Stocks Digest</H1>
+
+<H3 ALIGN=CENTER>Subscription Application</H3>
+
+<CENTER><P><B><FONT COLOR="#FF0000"><FONT SIZE=+1>50% OFF<I> Special </I>Savings
+Certificate</FONT></FONT></B></P></CENTER>
+
+<P><B><FONT COLOR="#FF0000"><FONT SIZE=+1>YES!</FONT></FONT></B> I want
+to make even more money with the help of the top-performing <B><I>HOT STOCKS
+DIGEST.</I></B> Please enter my money-back guaranteed subscription as checked
+below.<FORM METHOD="POST" ACTION="/cgibin/hsd-ordf.cgi"></P>
+
+<TABLE BORDER=1 >
+<TR>
+<TD>Name:</TD>
+
+<TD><INPUT type="text" name="name" size=30>First, Last</TD>
+</TR>
+
+<TR>
+<TD>Address:</TD>
+
+<TD><INPUT type="text" name="addr1" size=30>Street<BR>
+<INPUT type="text" name="addr2" size=30><BR>
+<INPUT type="text" name="city" size=30>City<BR>
+<INPUT type="text" name="state" size=3>ST<INPUT type="text" name="zip" size=6>Zip</TD>
+</TR>
+
+<TR>
+<TD>Phone:</TD>
+
+<TD><INPUT type="text" name="phone" size=30>Daytime Number<BR>
+<INPUT type="text" name="fax" size=30>Fax</TD>
+</TR>
+
+<TR>
+<TD>Email:<BR>
+<B>(required)</B></TD>
+
+<TD><INPUT TYPE="TEXT" NAME="email" size=30>Internet Email<BR>
+</TD>
+</TR>
+
+<TR>
+<TD>Credit Card:</TD>
+
+<TD><SELECT NAME="card"><OPTION SELECTED>Visa<OPTION>Mastercharge<OPTION>American
+Express<OPTION>Check</SELECT><BR>
+<INPUT type="text" name="cardnum" size=30>Number<BR>
+<INPUT type="text" name="cardexp" size=30>Expires (mm/yy)
+<P>You may also call in your Credit Card number (1-800-237-8400 Ext 114)<BR>
+If paying by check, please make checks payable to Vital Information.</P>
+</TD>
+</TR>
+
+<TR>
+<TD>Delivery Option:<BR>
+(check one)</TD>
+
+<TD><INPUT TYPE="radio" NAME="delivery" VALUE="fax" CHECKED>Fax<BR>
+<INPUT TYPE="radio" NAME="delivery" VALUE="internet">Internet<BR>
+</TD>
+</TR>
+
+<TR>
+<TD>Subscription Option:<BR>
+(pick one)</TD>
+
+<TD>
+<TABLE>
+<TR>
+<TD><INPUT TYPE="radio" NAME="subscribe" VALUE="4w"></TD>
+
+<TD>I prefer to pay as I go by having $49 drafted from my credit card each
+month (no money back guarantee for monthly subscriptions)</TD>
+</TR>
+
+<TR>
+<TD><INPUT TYPE="radio" NAME="subscribe" VALUE="26w"></TD>
+
+<TD>I prefer 26 weekly issues for just $299 (regularly $599) and save $300</TD>
+</TR>
+
+<TR>
+<TD><INPUT TYPE="radio" NAME="subscribe" VALUE="52w" CHECKED></TD>
+
+<TD>I prefer 52 weekly issues for just $499 (regularly $999) and save $500,
+locking these low rates</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+
+<P><INPUT TYPE="submit" VALUE="Send Order"><INPUT TYPE="reset" VALUE="Clear the form"></FORM></P>
+
+</BODY>
+</HTML>
+</DOC>

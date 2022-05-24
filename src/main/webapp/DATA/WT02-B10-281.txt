@@ -1,0 +1,74 @@
+
+<DOC>
+<DOCNO>WT02-B10-281</DOCNO>
+<DOCOLDNO>IA093-000995-B028-441</DOCOLDNO>
+<DOCHDR>
+http://www.nyspi.cpmc.columbia.edu:80/NYSPI/RESPAPRS/RSP_INDX.HTM 156.111.80.30 19970121072218 text/html 2927
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: GLACI/2.01
+Date: Tue Jan 21 02:26:25 1997
+Content-Type: text/html
+Content-Length: 2797
+</DOCHDR>
+<TITLE>NYSPI - Research Materials</TITLE>
+
+
+<BODY BACKGROUND="/IMAGES/MARBLE.JPG">
+
+<H1>NYSPI - Research Materials</H1>
+<HR>
+<H2>Medical Genetics</H2>
+<p>
+<H3>"Naming norms for brief environmental sounds: Effects of age and dementia"</H3>
+<P>
+By:
+<BR>
+Monica Fabiani, Victoria A. Kazmerski, Yael M. Cycowicz,
+and David Friedman
+<BR>Cognitive Electrophysiology Laboratory
+<BR>New York State Psychiatric Institute
+<P>
+Psychophysiology, in press
+<P><P>
+Brief non-tonal sounds are used in electrophysiology in
+the novelty oddball paradigm.  These sounds vary in the
+brain activity they elicit and in the degree to which they can
+be identified, named, and remembered.  Because ease of sound
+identification may influence sound processing, naming and
+conceptual norms were determined for 100 sounds for 77 young
+adults.  Naming ability decreases in normal and pathological
+aging.  Therefore, norms were also derived for older adults and
+for probable Alzheimer's disease patients.  With respect to the
+young, perseverative naming behavior increased in these groups,
+and sound and picture naming performance were correlated.
+Finally, The sound naming performance of children aged 5-6,
+9-11 and 14-16 years was compared.  Name and conceptual
+agreements improved with age, whereas perseverative behavior
+decreased. These normative data should be useful in guiding sound
+selection in future studies and help clarify the relationships
+between sound naming and other variables, including direct and
+indirect memory performance.
+<P>
+This paper contains the following 6 files:
+<P>
+   1)   <A HREF="ftp://156.111.80.180/sys/users/rfmh/pub/research/readme.txt">README.TXT (this file)</A>
+<P>
+2-4)  <A HREF="ftp://156.111.80.180/sys/users/rfmh/pub/research/snd.zip">SND.ZIP</A>,<A HREF="ftp://156.111.80.180/sys/users/rfmh/pub/research/wav.zip"> WAV.ZIP</A>, and <A HREF="ftp://156.111.80.180/sys/users/rfmh/pub/research/wav(scl).zip">WAV(SCL).ZIP</A> which are, respectively, the sound files
+     in Neuroscan format (*.snd), the sounds in wave format, and the scaled
+     (i.e.volume adjusted) sounds in wave format.  Note that the norms were
+     derived on the basis of the *.snd sound files.  The wave files are not
+     identical due to translation factors.
+<P>
+5)  <A HREF="ftp://156.111.80.180/sys/users/rfmh/pub/research/scaling.txt">SCALING.TXT</A> contains the scaling factors to use with Neuroscan to obtain
+     a volume of 92 dB.  Note that the wave and scaled wave sounds need to be
+     calibrated for volume, because their actual intensity was not tested in
+     our study.
+<P>
+6)   <A HREF="ftp://156.111.80.180/sys/users/rfmh/pub/research/sounddb.zip">SOUNDDB.ZIP</A> contains the sound norm database in Paradox (db) format.
+
+</BODY>
+
+
+
+</DOC>

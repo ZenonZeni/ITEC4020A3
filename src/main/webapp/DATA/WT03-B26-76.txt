@@ -1,0 +1,71 @@
+
+<DOC>
+<DOCNO>WT03-B26-76</DOCNO>
+<DOCOLDNO>IA029-000311-B021-168</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdf10.htm 138.44.40.1 19970114165503 text/html 3350
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:53:20 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:08 GMT
+Content-length: 3176
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>Image Brightness &amp; BRDF Workshop Issues<BR>
+<HR></H2>
+<H4>4. THE ISSUE OF SCALE</H4>
+The BRDF models mentioned above and used to develop the kernels are general
+'average' scene models that apply to spatially averaged data over homogeneous
+target areas. They do not model the image variance (which is also angle
+dependent) nor do they apply to a single object in a scene. The BRDF of
+a single tree is different from that of a stand of trees and the BRDF of
+a stand of trees is different from that of an open soil area.<BR>
+<BR>
+Scaling affects the basis for image stratification. The tree and gap structure
+at one scale provides different functions for a stand and bare area delineation.
+At a broad scale, the composite of tree and gap merges into stands and at
+another stands and clearings merge in a 'woodland' category. At each level,
+th BRDF of the separated components will be different from each other and
+the composite land cover.<BR>
+<BR>
+This leads to the consideration of some issues most important in an approach
+to correcting high resolution images for BRDF effects. The atmospheric effect
+is very smooth having been 'filtered' by an MTF with a size of about 200
+metres in most cases. However, the BRDF is highly variable. Consider a photograph
+with a wide field of view and the solar hotspot near to its centre. A tree
+near the nadir view and a similar one near the edge will have different
+brightnesses but the difference will not be as great as the overall brightening
+due to volume and hotspot effects. In particular, there will be much more
+shadow at the edges reached away from the hotspot direction and path lengths
+for volume scattering will be longer through the canopy than at the geometric
+centre of the frame. The 'colour' of shadow near the edges will also be
+slightly darker than at the nadir but not very different. In this case,
+applying an overall BRDF correction function will tend to change the colour
+of shadows and tree crowns at the edge in a way that may be quite wrong
+- even though the overall area average may be 'balanced'. Obviously, what
+works at one scale may not help at another.<BR>
+<BR>
+Even if an H-resolution (high resolution) approach is taken in which the
+BRDF of the objects is modelled (trees for example), the fact will still
+be that the image contains different geometric proportions of scene objects
+and components in a way that depends on the phase angles between the sun,
+the target object(s) and the view. Perhaps the only perfect way to resolve
+the issue is by 3D stereo modelling. This is unlikely to be cost-effective
+with video or digitised aerial photograph data.<BR>
+<BR>
+<HR><A HREF="brdf1.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="brdf9.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="brdf11.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif" WIDTH="150" HEIGHT="36"
+ALIGN=bottom NATURALSIZEFLAG="3"></A><HR>
+</BODY>
+</HTML>
+</DOC>

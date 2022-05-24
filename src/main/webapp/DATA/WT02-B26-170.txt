@@ -1,0 +1,111 @@
+
+<DOC>
+<DOCNO>WT02-B26-170</DOCNO>
+<DOCOLDNO>IA075-000495-B006-383</DOCOLDNO>
+<DOCHDR>
+http://hyun.seri.re.kr:80/Projects/ASBB.html 150.183.108.63 19970122015352 text/html 4553
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 01:48:20 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 10 Jun 1996 06:42:31 GMT
+Content-length: 4379
+</DOCHDR>
+<html>
+
+<title>
+	A Study on Building up Basic Co-research Environment of the Visual Information Processing Project	
+</title>
+
+<br><br>
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Title of the Study
+</h2>
+<ul>
+<h3>
+	"A Study on Building up Basic Co-research Environment of the Visual Information Processing Project"
+</h3>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Objective of the Study 
+</h2>
+<ul>
+<p>
+   The objectives of  this study is providing of basic  co-research environment for Korean scientists in the field of  image processing, artificial intelligence, and computer vision for  their research.  The implementation  for the  study is  devided  into three parts as follows :
+     <ul>
+     a. Image and character database condtruction<br>
+     b. Recognition of drawings<br>
+     c. Knowledge-based recognition of electric circuit drawings<br>
+     </ul>
+   In  the field  of the  image  and character  database construction,  the  objectives is construction of Korean standard image and character database for national scientist in the field of image  processing and pattern recognition. Standard  image and character database provides  the  standard  for objective  estimation  of  proposed  algorithm  in the  image processing, the test pattern for input and output device, and the prevention for redundant investment.<br>
+   In the field of the recognition of electronic circuit, the objectives of 3rd year study are commercialization of a drawing recognition system based on 1st and 2nd year study.<br>
+   In the  field of  knowledge-based recognition of  electronic circuit, the  objective is developing  algorithms for  segmention  of connected  characters  occured  in hand-written circuit  drawings.  Mis-segmentation of  connected  characters  makes  heavy  in fluences on recognition.
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Contents and Scope of the Study	  
+</h2>
+<ul>
+<p>
+     a. In the field of the image and character database construction
+      <ul>
+      - A survey and import of foreign standar image and character database<br>
+      - Collection and scanning of printed character date<br>
+      - Collection and scanning of document data<br>
+      - Collection and scanning of hand-written character data<br>
+      - Construction of Korean character and document database as standards<br>
+      </ul>
+     b. In the field of the recognition of drawing
+      <ul>
+      - Commercialization of the recognition system of engineering systems<br>
+      - Segmentation of character string<br>
+      - Recognition of geometric elements<br>
+      - system integration<br>
+      - Applying a knowledge-based system to electric circuit drawings<br>
+      </ul>
+     c. In the field of knowledge-based recognition of electric circuit drawings
+      <ul>
+      -  Developement  of  extracting  technique of  basic  element  in  the  el ectric  circuit drawings<br>
+      - Development of string extraction techniques<br>
+      </ul>
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Results and Recommandations 
+</h2>
+<ul>
+<p>
+     a. In the field of the image and character fatabase construction
+     <ul>
+     Constructed Korean character and  document database(named 'Gul-mo-eum') is compose of printed  character data(approximately 700,000  characters), general documents (235  samples), 253 hand-writting sets of  2350 character samples(approximately 600,000 characters), and 2347 hand-writting sets of 600 character samples(approximately 1,410,000 characters).
+     </ul>
+     b. In the field of the recognition of drawings
+     <ul>
+   Three  years study  enables us  develope a  commercialized drawings  recognition system running on UNIX system, a segmentation algorithm of drawing components, and a recognition algorithm  of geometric  elements.  To  commercialize the  domestic  softwares, government, developer and end-user must altogether cooperate.
+     </ul>
+     c. In the field of knowledge-based recognition of electric circuit drawings     <ul>
+   The proposed technique of character segmentation of strings can make improvement in the recognition accuracy of drawings.
+     </ul>
+</p>
+</ul><br>
+
+<hr><br>
+
+<ul>
+<h3>
+<address>
+<a href="../projects.html"><img alt="" src="../Icons2/Arrows/larrow.gif" width=10% height=8%></a> Go Back One Step!
+</address>
+</h3>
+</ul><br><br>
+
+
+</html>
+</DOC>

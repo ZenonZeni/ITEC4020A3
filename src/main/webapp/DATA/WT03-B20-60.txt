@@ -1,0 +1,3514 @@
+
+<DOC>
+<DOCNO>WT03-B20-60</DOCNO>
+<DOCOLDNO>IA005-000051-B017-17</DOCOLDNO>
+<DOCHDR>
+http://lacebark.ntu.edu.au:80/j_mitroy/sid101/oil/gasoline.html 138.80.61.12 19970221151439 text/html 186228
+HTTP/1.0 200 OK
+Date: Fri, 21 Feb 1997 14:43:12 GMT
+Server: Apache/1.1.3
+Content-type: text/html
+Content-length: 186055
+Last-modified: Tue, 09 Jul 1996 02:25:44 GMT
+</DOCHDR>
+
+<title>
+F-Body Homepage: Automotive Gasoline FAQ
+</title>
+<center>
+<h1>
+This file is made available to you by the<br>
+<A HREF="http://ram.chem.tulane.edu:8080/f-body/fbody.html">
+<FONT SIZE="+3">F-B</FONT><FONT SIZE="+2">ODY </FONT>
+<FONT SIZE="+3">H</FONT><FONT SIZE="+2">OMEPAGE</FONT></A>
+<br></h1>
+<i>Converted to html by Kyle Hamar</i>
+</center>
+<pre>
+Last-modified: 18 Jan 1995
+Version: 1.00
+</pre>
+<center>
+           <h1>FAQ: Automotive Gasoline</h1>
+<i>                  Bruce Hamilton<br>
+                B.Hamilton@irl.cri.nz<br>
+</i>
+</center>
+<hr>
+
+<h3>Subject: 1. Introduction and Intent
+</h3>
+The intent of this FAQ is to provide some basic information on gasolines and
+other fuels for spark ignition engines used in automobiles. The toxicity and
+environmental reasons for recent and planned future changes to gasoline are
+discussed, along with recent and proposed changes in composition of gasoline.
+This FAQ intended to help readers choose the most appropriate fuel for
+vehicles, assist with the diagnosis of fuel-related problems, and to
+understand the significance of most gasoline properties listed in fuel
+specifications. I make no apologies for the fairly heavy emphasis on
+chemistry, it is the  only sensible way to describe the oxidation of
+hydrocarbon fuels to produce energy, water, and carbon dioxide.<p>
+<hr>
+
+<h3>Subject: 2. Table of Contents
+</h3>
+<pre>
+        1. Introduction and Intent
+        2. Table of Contents
+        3. What Advantage will I gain from reading this FAQ?
+        4. What is Gasoline?
+          4.1  Where does crude oil come from?.
+          4.2  When will we run out of crude oil?.
+          4.3  What is the history of gasoline?
+          4.4  What are the hydrocarbons in gasoline?
+          4.5  What are oxygenates?
+          4.6  Why were alkyl lead compounds added?
+          4.7  Why not use other organometallic compounds?
+          4.8  What do the refining processes do?
+          4.9  What energy is released when gasoline is burned?
+          4.10 What are the gasoline specifications?
+          4.11 What are the effects of the specified fuel properties?
+          4.12 Are brands different?
+          4.13 What is a typical composition?
+          4.14 Is gasoline toxic or carcinogenic?
+          4.15 Is unleaded gasoline more toxic than leaded?
+        5. Why is Gasoline Composition Changing?
+          5.1  Why pick on cars and gasoline?
+          5.2  Why are there seasonal changes?
+          5.3  Why were alkyl lead compounds removed?
+          5.4  Why are evaporative emissions a problem?
+          5.5  Why control tailpipe emissions?
+          5.6  Why do exhaust catalysts influence fuel composition?
+          5.7  Why are "cold start" emissions so important?
+          5.8  When will the emissions be "clean enough"?
+          5.9  Why are only some gasoline compounds restricted?
+          5.10 What does "renewable" fuel/oxygenate mean?
+          5.11 Will oxygenated gasoline damage my vehicle?
+          5.12 What does "reactivity" of emissions mean?
+          5.13 What are "carbonyl" compounds?
+          5.14 What are "gross polluters"?
+        6. What do Fuel Octane ratings really indicate?
+          6.1  Who invented Octane Ratings?
+          6.2  Why do we need Octane Ratings?
+          6.3  What fuel property does the Octane Rating measure?
+          6.4  Why are two ratings used to obtain the pump rating?
+          6.5  What does the Motor Octane rating measure?
+          6.6  What does the Research Octane rating measure?
+          6.7  Why is the difference called "sensitivity"?
+          6.8  What sort of engine is used to rate fuels?
+          6.9  How is the Octane rating determined?
+          6.10 What is the Octane Distribution of the fuel?
+          6.11 What is a "delta Research Octane number"?
+          6.12 How do other fuel properties affect octane?
+          6.13 Can higher octane fuels give me more power?
+          6.14 Does low octane fuel increase engine wear?
+          6.15 Can I mix different octane fuel grades?
+          6.16 What happens if I use the wrong octane fuel?
+          6.17 Can I tune the engine to use another octane fuel?
+          6.18 How can I increase the fuel octane?
+          6.19 Are aviation gasoline octane numbers comparable?
+        7. What parameters determine octane requirement?
+          7.1  What is the effect of Compression ratio?
+          7.2  What is the effect of changing the air/fuel ratio?
+          7.3  What is the effect of changing the ignition timing
+          7.4  What is the effect of engine management systems?
+          7.5  What is the effect of temperature and Load?
+          7.6  What is the effect of engine speed?
+          7.7  What is the effect of engine deposits?
+          7.8  What is the Road octane requirement of an vehicle?
+          7.9  What is the effect of air temperature?.
+          7.10 What is the effect of altitude?.
+          7.11 What is the effect of humidity?.
+          7.12 What does water injection achieve?.
+        8. How can I identify and cure other fuel-related problems?
+          8.1  What causes an empty fuel tank?
+          8.2  Is knock the only abnormal combustion problem?
+          8.3  Can I prevent carburetter icing?
+          8.4  Should I store fuel to avoid the oxygenate season?
+          8.5  Can I improve fuel economy by using quality gasolines?
+          8.6  What is "stale" fuel, and should I use it?
+          8.7  How can I remove water in the fuel tank?
+          8.8  Can I use unleaded on older vehicles?
+        9. Alternative Fuels and Additives
+          9.1  Do fuel additives work?
+          9.2  Can a quality fuel help a sick engine?
+          9.3  What are the advantages of alcohols and ethers?
+          9.4  Why are CNG and LPG considered "cleaner" fuels.
+          9.5  Why are hydrogen-powered cars not available?
+          9.6  What are "fuel cells" ?
+          9.7  What is a "hybrid" vehicle?
+          9.8  What about other alternative fuels?
+          9.9  What about alternative oxidants?
+       10. Historical Legends
+         10.1  The myth of Triptane
+         10.2  From Honda Civic to Formula 1 winner.
+       11. References
+         11.1  Books and Research Papers
+         11.2  Suggested Further Reading
+</pre><hr>
+<h3>
+Subject: 3. What Advantage will I gain from reading this FAQ?
+</h3>
+This FAQ is intended to provide a fairly technical description of what
+gasoline contains, how it is specified, and how the properties affect the
+performance in your vehicle. The regulations governing gasoline have
+changed, and are continuing to change. These changes have made much of the
+traditional lore about gasoline obsolete. Motorists may wish to understand
+a little more about gasoline to ensure they obtain the best value, and the
+most appropriate fuel for their vehicle. There is no point in prematurely
+destroying your second most expensive purchase by using unsuitable fuel,
+just as there is no point in wasting hard-earned money on higher octane
+fuel that your automobile can not utilize. Note that this FAQ does not
+discuss the relative advantages of specific brands of gasolines, it is
+only intended to discuss the generic properties of gasolines.
+<p><hr>
+<h3>
+Subject: 4. What is Gasoline?
+<p>
+<b>4.1  Where does crude oil come from?.
+</b>
+</h3>
+The generally-accepted origin of crude oil is from plant life up to 3
+billion years ago, but predominantly from 100 to 600 million years ago [1].
+"Dead vegetarian dino dinner" is more correct than "dead dinos".
+The molecular structure of the hydrocarbons and other compounds present
+in fossil fuels can be linked to the leaf waxes and other plant molecules of
+marine and terrestrial plants believed to exist during that era. There are
+various biogenic marker chemicals such as isoprenoids from terpenes,
+porphyrins and aromatics from natural pigments, pristane and phytane from
+the hydrolysis of chlorophyll, and normal alkanes from waxes, whose size
+and shape can not be explained by known geological processes [2]. The
+presence of optical activity and the carbon isotopic ratios also indicate a
+biological origin [3]. There is another hypothesis that suggests crude oil
+is derived from methane from the earth's interior. The current main
+proponent of this abiotic theory is Thomas Gold, however abiotic and
+extraterrestrial origins for fossil fuels were also considered at the turn
+of the century, and were discarded then.
+<p>
+<h3>
+4.2  When will we run out of crude oil?
+</h3>
+It has been estimated that the planet contains over 1.4 x 10^15 tonnes of
+petroleum, however much of this is too dilute or inaccessible for current
+technology to recover [4]. The petroleum industry uses a measure called
+the Reserves/Production ratio (R/P) to monitor how production and
+exploration are linked. This is based on the concept of "proved" reserves
+of crude oil, which are generally taken to be those quantities which
+geological and engineering information indicate with reasonable certainty
+can be recovered in the future from known reservoirs under existing economic
+and operating conditions. The Reserves/Production ratio is the above
+reserves divided by the production in the last year, and the result is the
+length of time that those remaining reserves would last if production were
+to continue at the current level [5]. It is important to note those
+definitions, as the price of oil increases, marginal fields become "proved
+reserves", thus we are unlikely to "run out" of oil, as more fields will
+become economic as the price rises. If the price exceeds $30/bbl then
+alternative fuels may become competitive, and at $50-60/bbl coal-derived
+liquid fuels are economic, as are many biomass-derived fuels and other
+energy sources [6]. One barrel of oil equals 0.158987 m3. The current price
+for Brent Crude is approx. $18/bbl. The R/P ratio has increased from 27
+years (1979) to 43.1 years (1993) [5]. Now, some numbers. <p>
+<pre>( billion = 1 x 10^9. trillion = 1 x 10^12 ).
+
+Crude Oil              Proved Reserves                  R/P Ratio
+Middle East                89.6 billion tonnes           95.1 year
+USA                         4.0                           9.9 years
+Total World               136.7                          43.1 years
+
+Coal                   Proved Reserves                  R/P Ratio
+USA                       240.56 billion tonnes         267 years
+Total World             1,039.182                       236 years
+
+Natural Gas            Proved Reserves                  R/P Ratio
+USA                         4.7 trillion cubic metres     8.8 years
+Total World               142.0                          64.9 years.
+</pre>
+<h3>
+4.3  What is the history of gasoline?
+</h3>
+In the late 19th Century the most suitable fuels for the automobile
+were coal tar distillates and the lighter fractions from the distillation
+of crude oil. During the early 20th Century the oil companies were
+producing gasoline as a simple distillate from petroleum, but the
+automotive engines were rapidly being improved and required a more
+suitable fuel. During the 1910s, laws prohibited the storage of gasolines
+on residential properties, so Charles F. Kettering ( yes - he of ignition
+system fame ) modified an IC engine to run on kerosine. However the
+kerosine-fuelled engine would "knock" and crack the cylinder head and
+pistons. He assigned Thomas Midgley Jr. to confirm that the cause was
+from the kerosine droplets vaporising on combustion as they presumed .
+Midgley demonstrated that the knock was caused by a rapid rise in
+pressure after ignition, not during preignition as believed [7]. This
+then lead to the long search for anti-knock agents, culminating in
+tetra ethyl lead [8]. Typical mid-1920s gasolines were 40 - 60 Octane [9].
+<p>
+Because sulfur in gasoline inhibited the octane-enhancing effect
+of the alkyl lead, the sulfur content of the thermally-cracked refinery
+streams for gasolines was restricted. By the 1930s, the petroleum
+industry had determined that the larger hydrocarbon molecules (kerosine)
+had major adverse effects on the octane of gasoline, and were developing
+consistent specifications for desired properties. By the 1940s catalytic
+cracking was introduced, and gasoline compositions became fairly consistent
+between brands during the various seasons.
+<p>
+The 1950s saw the start of the increase of the compression ratio, requiring
+higher octane fuels. Lead levels were increased, and some new refining
+processes ( such as hydrocracking ), specifically designed to provide
+hydrocarbons components with good lead response and octane, were introduced.
+Minor improvements were made to gasoline formulations to improve yields and
+octane until the 1970s - when unleaded fuels were introduced to protect
+the exhaust catalysts that were also being introduced for environmental
+reasons. From 1970 until 1990 gasolines were slowly changed as lead was
+phased out. In 1990 the Clean Air Act started forcing major compositional
+changes on gasoline, and these changes will continue into the 21st Century
+because gasoline is a major pollution source.
+<p>
+<h3>
+4.4  What are the hydrocarbons in gasoline?
+</h3>
+Hydrocarbons ( HCs ) are any molecules that just contain hydrogen and
+carbon, both of which are fuel molecules that can be burnt ( oxidised )
+to form water ( H2O ) or carbon dioxide ( CO2 ). If the combustion is
+not complete, carbon monoxide ( CO ) may be formed. As CO can be burnt
+to produce CO2, it is also a fuel.
+<p>
+The way the hydrogen and carbons hold hands determines which hydrocarbon
+family they belong to. If they only hold one hand they are called
+"saturated hydrocarbons" because they can not absorb additional hydrogen.
+If the carbons hold two hands they are called "unsaturated hydrocarbons"
+because they can be converted into "saturated hydrocarbons" by the
+addition of hydrogen to the double bond. Hydrogens are omitted from the
+following, but if you remember C = 4 hands, H = 1 hand, and O = 2 hands,
+you can draw the full structures of most HCs.
+<p>
+Gasoline contains over 500 hydrocarbons that may have between 3 to 12
+carbons, and gasoline used to have a boiling range from 30C to 220C at
+atmospheric pressure. The boiling range is narrowing as the initial boiling
+point is increasing, and the final boiling point is decreasing, both
+changes are for environmental reasons. Detailed descriptions of structures
+can be found in any chemical or petroleum text discussing gasolines [10].
+<p>
+<h4>
+4.4.1 Saturated hydrocarbons ( aka paraffins, alkanes )
+</h4>
+<UL>
+<LI> stable, the major component of gasolines
+<LI> tend to burn in air with a clean flame
+</UL>
+<i>
+alkanes </i><p>
+<pre>
+  normal = continuous chain of carbons ( Cn H2n+2 )
+
+    normal heptane	C-C-C-C-C-C-C                    C7H16
+
+  iso = branched chain of carbons  ( Cn H2n+2 )
+
+    iso octane =                       C   C
+    ( aka 2,2,4-trimethylpentane )     |   |
+                                     C-C-C-C-C           C8H18
+                                       |
+                                       C
+
+  cyclic = circle of carbons  ( Cn H2n )
+  ( aka Naphthenes )
+
+    cyclohexane  =                 C
+                                  / \
+                                 C   C
+                                 |   |                   C6H12
+                                 C   C
+                                  \ /
+                                   C
+
+</pre>
+<h4>
+4.4.2 Unsaturated Hydrocarbons
+</h4>
+<UL>
+<LI> Unstable, are the remaining component of gasoline.
+<LI> Tend to burn in air with a smoky flame.
+</UL>
+<i>Alkenes ( aka olefins, have carbon=carbon double bonds ) </i><br>
+These are unstable, and are usually limited to a few %.<p>
+<pre>
+
+                                 C
+                                 |                       C5H10
+          2-methyl-2-butene    C-C=C-C
+</pre>
+<i>Alkynes ( aka acetylenes, have carbon-carbon triple bonds )</i><br>
+These are even more unstable, are only present in
+trace amounts, and only in some poorly-refined gasolines.<p>
+<pre>
+                                 _
+          Acetylene             C=C                      C2H2
+</pre>
+<i>Arenes  ( aka aromatics )</i><br>
+Used to be up to 40%, gradually being reduced to <20%.<p>
+<pre>
+                        C                       C
+                      // \                    // \
+                     C    C                C-C    C
+           Benzene   |   ||      Toluene     |   ||
+                     C    C                  C    C
+                      \\ /                    \\ /
+                        C                       C
+
+                      C6H6                    C7H8
+</pre>
+<i>Polynuclear Aromatics   ( aka PNAs or PAHs )</i><br>
+These are high boiling, and are only present in small amounts
+in gasoline. They contain benzene rings joined together, and
+the simplest is Naphthalene. The multi-ringed PNAs are highly
+toxic, and are not present in gasoline.<p>
+<pre>
+                                  C    C
+                                // \ / \\
+                               C    C    C
+           Naphthalene         |    ||   |               C10H8
+                               C    C    C
+                                \\ / \ //
+                                  C    C
+
+</pre>
+<h3>
+4.5  What are oxygenates?
+</h3>
+Oxygenates are just preused hydrocarbons :-). They contain oxygen, which
+can not provide energy, but their structure provides a reasonable
+anti-knock value, thus they are good substitutes for aromatics, and
+they may also reduce the smog-forming tendencies of the exhaust gases [11].
+  <p>
+<pre>
+    Ethanol                                  C-C-O-H      C2H5OH
+
+                                               C
+                                               |
+    Methyl tertiary butyl ether              C-C-O-C      C4H90CH3
+    (aka tertiary butyl methyl ether )         |
+                                               C
+</pre>
+
+They can be produced from fossil fuels eg methanol (MeOH), methyl tertiary
+butyl ether (MTBE), tertiary amyl methyl ether (TAME), or from biomass, eg
+ethanol(EtOH), ethyl tertiary butyl ether (ETBE)). Most oxygenates used in
+gasolines are either alcohols ( Cx-O-H ) or ethers (Cx-O-Cy), and contain
+1 to 6 carbons. MTBE is produced by reacting methanol ( from natural gas )
+with isobutylene in the liquid phase over an acidic ion-exchange resin
+catalyst at 100C. The isobutylene was initially from refinery catalytic
+crackers or petrochemical olefin plants, but these days larger plants
+produce it from butanes. Production has increased at the rate of 10 to 20%
+per year, and the spot market price in June 1993 was around $270/tonne [11].
+The  "ether" starting fluids for vehicles are usually diethyl ether
+( liquid ) or dimethyl ether ( aerosol ). Note that " petroleum ether " is
+actually a volatile hydrocarbon fraction, it is not a Cx-O-Cy compound.
+<p>
+Oxygenates are added to gasolines to reduce the reactivity of emissions,
+but they are only effective if the hydrocarbon fractions are carefully
+modified to utilise the octane and volatility properties of the oxygenates.
+If the hydrocarbon fraction is not correctly modified, oxygenates can
+increase the undesirable smog-forming and toxic emissions. The major
+reduction in the reactivity of exhaust and evaporative emissions will occur
+with reformulated gasolines, due to be introduced in January 1995, which
+have oxygenates and major composition changes to the hydrocarbon component.
+Oxygenates do not necessarily reduce all individual exhaust toxins, nor
+are they intended to.
+<p>
+Oxygenates have significantly different physical properties to hydrocarbons,
+and the levels that can be added to gasolines are controlled by the EPA in
+the US, with waivers being granted for some combinations. The change to
+reformulated gasoline requires oxygenates, but also that the hydrocarbon
+composition must be significantly more modified than the existing
+oxygenated gasolines to reduce unsaturates, volatility, benzene, and the
+reactivity of emissions.
+<p>
+Oxygenates that are added to gasoline function in two ways. Firstly they
+have high blending octane, and so can replace high octane aromatics
+in the fuel. These aromatics are responsible for disproportionate amounts
+of CO and HC exhaust emissions. This is called the "aromatic substitution
+effect". Oxygenates also cause engines without sophisticated engine
+management systems to move to the lean side of stoichiometry, thus reducing
+emissions of CO ( 2% oxygen can reduce CO by 16% ) and HC ( 2% oxygen
+can reduce HC by 10%). However, on vehicles with engine management systems,
+the fuel volume will be increased to bring the stoichiometry back to
+the preferred optimum setting. Oxygen in the fuel can not contribute
+energy, consequently the fuel has less energy content. For the same
+efficiency and power output, more fuel has to be burnt, and the slight
+improvements in efficiency that oxygenates provide on some engines usually
+do not completely compensate for the oxygen [12].
+<p>
+There are huge number of chemical mechanisms involved in the pre-flame
+reactions of gasoline combustion. Although both alkyl leads and oxygenates
+are effective at suppressing knock, the chemical modes through which they
+act are entirely different. MTBE works by retarding the progress of the low
+temperature or cool-flame reactions, consuming radical species, particularly
+OH radicals and producing isobutene. The isobutene in turn consumes
+additional OH radicals and produces unreactive, resonantly stabilised
+radicals such as allyl and methyl allyl, as well as stable species such as
+allene, which resist further oxidation [13,14].
+<p>
+<h3>
+4.6  Why were alkyl lead compounds added?
+</h3>
+The efficiency of a spark-ignited gasoline engine can be related to the
+compression ratio up to at least compression ratio 17:1 [15]. However any
+"knock" caused by the fuel will rapidly mechanically destroy an engine, and
+General Motors was having major problems trying to improve engines without
+inducing knock. The problem was to identify economic additives that could
+be added to gasoline or kerosine to prevent knock, as it was apparent that
+engine development was being hindered. The kerosine for home fuels soon
+became a secondary issue, as the magnitude of the automotive knock problem
+increased throughout the 1910s, and so more resources were poured into the
+quest for an effective "anti-knock". A higher octane aviation gasoline was
+required urgently once the US entered WWI, and almost every possible
+chemical ( including melted butter ) was tested for anti-knock ability [16].
+<p>
+Originally, iodine was the best anti-knock available, but was not a practical
+gasoline additive, and was used as the benchmark. In 1919 aniline was found
+to have superior antiknock ability to iodine, but also was not a practical
+additive, however aniline became the benchmark anti-knock, and various
+compounds were compared to it. The discovery of tetra ethyl lead, and the
+scavengers required to remove it from the engine were made by teams lead by
+Thomas Midgley Jr. in 1922 [7,8,16]. They tried selenium oxychloride which
+was an excellent antiknock, however it reacted with iron and "dissolved" the
+engine. Midgley was able to predict that other organometallics would work,
+and slowly focused on organoleads. They then had to remove the lead, which
+would otherwise accumulate and coat the engine and exhaust system with lead.
+They discovered and developed the halogenated lead scavengers that are still
+used in leaded fuels. The scavengers, ( ethylene dibromide and ethylene
+dichloride ), function by providing halogen atoms that react with the lead
+to form volatile lead halide salts that can escape out the exhaust. The
+quantity of scavengers added to the alkyl lead concentrate is calculated
+according to the amount of lead present. If sufficient scavenger is added
+to theoretically react with all the lead present, the amount is called one
+"theory". Typically, 1.0 to 1.5 theories are used, but aviation gasolines
+must only use one theory. This ensures there is no excess bromine that could
+react with the engine. The alkyl leads rapidly became the most cost-effective
+method of enhancing octane.
+<p>
+The development of the alkyl leads ( tetra methyl lead, tetra ethyl lead )
+and the toxic halogenated scavengers meant that petroleum refiners could
+then configure refineries to produce hydrocarbon  streams that would
+increase octane with small quantities of alkyl lead. If you keep adding
+alkyl lead compounds, the lead response of the gasoline decreases, and so
+there are economic limits to how much lead should be added.
+<p>
+Up until the late 1960s, alkyl leads were added to gasolines in increasing
+concentrations to obtain octane. The limit was 1.14g Pb/l, which is well
+above the diminishing returns part of the lead response curve for most
+refinery streams, thus it is unlikely that much fuel was ever made at that
+level. I believe 1.05 was about the maximum, and articles suggest that 1970
+100 RON premiums were about 0.7-0.8 g Pb/l and 94 RON regulars 0.6-0.7 g
+Pb/l, which matches published lead response data [17] eg.
+<p>
+<pre><b>
+For             Catalytic Reformate           Straight Run Naphtha.
+Lead g/l                    Research Octane Number</b>
+   0                   96                           72
+  0.1                  98                           79
+  0.2                  99                           83
+  0.3                 100                           85
+  0.4                 101                           87
+  0.5                 101.5                         88
+  0.6                 102                           89
+  0.7                 102.5                         89.5
+  0.8                 102.75                        90
+</pre>
+The alkyl lead anti-knocks work in a different stage of the pre-combustion
+reaction to oxygenates. In contrast to oxygenates, the alkyl lead interferes
+with hydrocarbon chain branching in the intermediate temperature range
+where HO2 is the most important radical species. Lead oxide, either as
+solid particles, or in the gas phase, reacts with HO2 and removes it from
+the available radical pool, thereby deactivating the major chain branching
+reaction sequence that results in undesirable, easily-autoignitable
+hydrocarbons [13,14].
+<p>
+<h3>
+4.7  Why not use other organometallic compounds?
+</h3>
+As the toxicity of the alkyl lead and the halogenated scavengers became of
+concern, alternatives were considered. The most famous of these is
+methylcyclopentadienyl manganese tricarbonyl (MMT), which was used in the
+USA until banned by the EPA from 27 Oct 1978 [18], but is approved for use
+in Canada and Australia. It is more expensive than alkyl leads and has been
+reported to increase unburned hydrocarbon emissions and block exhaust
+catalysts [19]. Other compounds that enhance octane have been suggested,
+but usually have significant problems such as toxicity, cost, increased
+engine wear etc.. Examples include dicyclopentadienyl iron and nickel
+carbonyl.
+<p>
+<h3>
+4.8  What do the refining processes do?
+</h3>
+Crude oil contains a wide range of hydrocarbons, organometallics and other
+compounds containing sulfur, nitrogen etc. The HCs contain between 1 and 60
+carbon atoms. Gasoline requires hydrocarbons with carbon atoms between 3 and
+12, arranged in specific ways to provide the desirable properties. Obviously,
+a refinery has to either sell the remainder as marketable products, or
+convert the larger molecules into smaller gasoline molecules.
+<p>
+A refinery will distill crude oil into various fractions and, depending on
+the desired final products, will further process and blend those fractions.
+Typical final products could be:- gases for chemical synthesis and fuel
+(CNG), liquified gases (LPG), butane, aviation and automotive gasolines,
+aviation and lighting kerosines, diesels, distillate and residual fuel oils,
+lubricating oil base grades, paraffin oils and waxes. Many of the common
+processes are intended to increase the yield of blending feedstocks for
+gasolines.
+<p>
+Typical modern refinery processes for gasoline components include<p>
+<UL>
+<LI>Catalytic cracking - breaks larger, higher-boiling, hydrocarbons into
+  gasoline range product that contains 30% aromatics and 20-30% olefins.
+<LI>Hydrocracking - cracks and adds hydrogen to molecules, producing a
+  more saturated, stable, gasoline fraction.
+<LI>Isomerisation - raises gasoline fraction octane by converting straight
+  chain hydrocarbons into branched isomers.
+<LI>Reforming - converts saturated, low octane, hydrocarbons into higher octane
+  product containing about 60% aromatics.
+<LI>Alkylation - reacts gaseous olefin streams with isobutane to produce liquid
+  high octane iso-alkanes.
+</UL>
+The changes that the Clean Air Act and other legislation ensures that the
+refineries will continue to modify their processes to produce a less
+volatile gasoline with fewer toxins and toxic emissions. Options include:-<P>
+<UL>
+<LI>Reducing the "severity" of reforming to reduce aromatic production.
+<LI>Distilling the C5/C6 fraction from reformer feeds and treating that
+  stream to produce non-aromatic high octane components.
+<LI>Distilling the higher boiling fraction ( which contains 80-100% of
+  aromatics that can be hydrocracked ) from catalytic cracker product [20].
+<LI>Convert butane to isobutane or isobutylene for alkylation or MTBE feed.
+</UL>
+<h3>
+4.9  What energy is released when gasoline is burned?
+</h3>
+It is important to note that the theoretical energy content of gasoline
+when burned in air is only related to the hydrogen and carbon contents.
+Octane rating is not fundamentally related to the energy content, and the
+actual hydrocarbon and oxygenate components used in the gasoline will
+determine both the energy release and the anti-knock rating.
+<P>
+Two important reactions are:-<P>
+<OL>
+<LI>          C + O2 = CO2
+<LI>          H + O2 = H2O
+</OL>
+The mass or volume of air required to provide sufficient oxygen to achieve
+this complete combustion is the "stoichiometric" mass or volume of air.
+Insufficient air = "rich", and excess air = "lean", and the stoichiometric
+mass of air is related to the carbon:hydrogen ratio of the fuel. The
+procedures for calculation of stoichiometric air/fuel ratios are fully
+documented in an SAE standard [21].
+<P>
+Atomic masses used are:- Hydrogen = 1.00794, Carbon = 12.011,
+Oxygen = 15.994, Nitrogen = 14.0067, and Sulfur = 32.066.
+<P>
+The composition of sea level air ( 1976 data, hence low CO2 value ) is<p>
+<pre>
+<b>Gas            Fractional      Molecular Weight         Relative
+Species          Volume            kg/mole                Mass</b>
+N2              0.78084             28.0134             21.873983
+O2              0.209476            31.9988              6.702981
+Ar              0.00934             39.948               0.373114
+CO2             0.000314            44.0098              0.013919
+Ne              0.00001818          20.179               0.000365
+He              0.00000524           4.002602            0.000021
+Kr              0.00000114          83.80                0.000092
+Xe              0.000000087        131.29                0.000011
+CH4             0.000002            16.04276             0.000032
+H2              0.0000005            2.01588             0.000001
+                                                        ---------
+Air                                                     28.964419
+</pre>
+For normal heptane C7H16 with a molecular weight = 100.204 <p>
+<pre>           C7H16 + 11O2 = 7CO2 + 8H2O</pre>
+thus 1.000 kg of C7H16 required 3.513 kg of O2 = 15.179 kg air.<p>
+
+The chemical stoichiometric combustion of hydrocarbons with oxygen
+can be written as:-
+<p>
+<pre>CxHy + (x + (y/4))O2  ->  xCO2 + (y/2)H2O</pre>
+Often, for simplicity, the remainder of air is assumed to be nitrogen,
+which can be added to the equation when exhaust compositions are required.
+As a general rule, maximum power is achieved at slightly rich, whereas
+maximum fuel economy is achieved at slightly lean. <p>
+
+The energy content of the gasoline is obtained by burning all the fuel
+inside a bomb calorimeter and measuring the temperature increase.
+The energy available depends on what happens to the water produced from the
+combustion of the hydrogen. If the water remains as a gas, then it cannot
+release the heat of vaporisation, thus producing the Nett Calorific Value.
+If the water were condensed back to the original fuel temperature, then
+Gross Calorific Value of the fuel, which will be larger, is obtained.<p>
+
+The calorific values are fairly constant for families of HCs, which is not
+surprising, given their fairly consistent carbon/hydrogen ratios. For liquid
+( l ) or gaseous ( g ) fuel converted to gaseous products - except for the
+2-methylbutene-2, where only gaseous is reported. * = Blending Octane Number<p>
+Typical Heats of Combustion are [22]:-<p>
+<pre>
+<b>
+Fuel     State  Heat of Combustion      Research        Motor
+                    MJ/kg                Octane         Octane	</b>
+n-heptane  l        44.592                  0              0
+           g        44.955
+i-octane   l        44.374                100            100
+           g        44.682
+toluene    l        40.554                124*           112*
+           g        40.967
+2-methylbutene-2    44.720                176*           141*
+  </pre>
+Because all the data is available, the calorific value of fuels can be
+estimated quite accurately from hydrocarbon fuel properties such as the
+density, sulfur content, and aniline point ( which indicates the aromatics
+content ).<p>
+
+It should be noted that because oxygenates contain oxygen that can
+not provide energy, they will have significantly lower energy contents.
+They are added to provide octane, not energy. For an engine that can be
+optimised for oxygenates, more fuel is required to obtain the same power,
+but they can burn slightly more efficiently, thus the power ratio is not
+identical to the energy content ratio. They also require more energy to
+vaporise.<p>
+<pre><b>
+            Energy Content   Heat of Vaporisation   Oxygen Content
+              Nett MJ/kg          MJ/kg                   wt%</b>
+Methanol        19.95             1.154                  49.9
+Ethanol         26.68             0.913                  34.7
+MTBE            35.18             0.322                  18.2
+ETBE            36.29             0.310                  15.7
+TAME            36.28             0.323                  15.7
+Gasoline       42 - 44            0.297                   0.0
+</pre>
+
+Typical values for commercial fuels in megajoules/kilogram are [23]:- <p>
+<pre>
+<b>
+                                Gross        Nett      </b>
+Hydrogen                        141.9       120.0
+Carbon to Carbon monoxide        10.2          -
+Carbon to Carbon dioxide         32.8          -
+Sulfur to sulfur dioxide          9.16         -
+Natural Gas                      53.1         48.0
+Liquified petroleum gas          49.8         46.1
+Aviation gasoline                46.0         44.0
+Automotive gasoline              45.8         43.8
+Kerosine                         46.3         43.3
+Diesel                           45.3         42.5
+</pre>
+Obviously, for automobiles, the nett calorific value is appropriate. The
+calorific value is the maximum energy that can be obtained from the fuel,
+but the reality of modern SI engines is that efficiencies of 20-40% may be
+obtained, this limit being due to engineering and material constraints
+that prevent optimum combustion conditions being used. The CI engine can
+achieve higher efficiencies, usually over a wider operating range as well.
+<p>
+<h3>
+4.10  What are the gasoline specifications?
+</h3>
+Gasolines are usually defined by government regulation, where properties and
+test methods are clearly defined. In the US, several government and state
+bodies can specify gasoline properties. The US gasoline specifications and
+test methods are listed in several readily available publications, including
+the Society of Automotive Engineers (SAE) [24], and the American Society for
+Testing Materials (ASTM) [25]. The 1994 ASTM edition has:-<p>
+
+D4814-93a Specification for Automotive Spark-Ignition Engine Fuel.<p>
+
+This specification lists various properties that all fuels have to comply
+with, and may be updated throughout the year. Typical properties are:- <p>
+<h4>
+4.10.1	Vapour Pressure and Distillation Classes.
+</h4>
+<i>6 different classes according to location and/or season.</i><p>
+As gasoline is distilled, the temperatures at which various fractions are
+evaporated are calculated. Specifications define the temperatures at which
+various percentages of the fuel are evaporated. Distillation limits
+include maximum temperatures that 10% is evaporated (50-70C), 50% is
+evaporated (110-121C), 90% is evaporated (185-190C), and the final boiling
+point (225C). A minimum temperature for 50% evaporated (77C), and a maximum
+amount of Residue (2%) after distillation.  Vapour pressure limits for
+each class ( 54, 62, 69, 79, 93, 103 kPa ) are also specified. Note that the
+EPA has issued a waiver that does not require gasoline/ethanol blends to
+meet the required specifications.<p>
+<h4>
+4.10.2 Vapour Lock Protection Classes
+</h4>
+5 classes for vapour lock protection, according to location and/or season.
+The limit is a maximum Vapour/Liquid ratio of 20 at test temperatures of
+41, 47, 51, 56, 60C.<p>
+<h4>
+4.10.3 Antiknock Index   ( aka (RON+MON)/2, "Pump Octane" )
+</h4>
+<i>The ( Research Octane Number + Motor Octane Number ) divided by two.</i> Limits
+are not specified, but changes in engine requirements according season and
+location are discussed. Fuels with an Antiknock index of 87, 89, 91
+( Unleaded), and 88 ( Leaded ) are listed as typical for the US.<p>
+
+<h4>4.10.4 Lead Content</h4>
+Leaded = 1.1 g Pb / L maximum, and Unleaded = 0.013 g Pb / L maximum.
+<p>
+<h4>
+4.10.5 Copper strip corrosion
+</h4>
+<i>Ability to tarnish clean copper, indicating the presence of any corrosive
+sulfur compounds </i>
+<p>
+<h4>
+4.10.6 Maximum Sulfur content
+</h4>
+Sulfur adversely affects exhaust catalysts and fuel hydrocarbon lead
+response, and also may be emitted as polluting sulfur oxides.
+<p>
+Leaded = 0.15 %mass maximum, and Unleaded = 0.10 %mass maximum.
+<p>
+Typical US gasoline levels are 0.03 %mass.
+<p>
+<h4>
+4.10.7 Maximum Existent Gum
+</h4>
+<i>Limits the amount of gums present in fuel at the time of testing to
+5 mg/100mls.</i> The results do not correlate well with actual engine deposits
+caused by fuel vaporisation [26].
+<p>
+<h4>
+4.10.8 Minimum Oxidation Stability
+</h4>
+This ensures the fuel remains chemically stable, and does not form additional
+gums during periods in distribution systems, which can be up to 3-6 months.
+The sample is heated with oxygen inside a pressure vessel, and the delay
+until significant oxygen uptake is measured.
+ <p>
+<h4>
+4.10.9 Water Tolerance
+</h4>
+<i>Highest temperature that causes phase separation of oxygenated fuels.</i>
+The limits vary according to location and month. For Alaska - North of 62
+latitude, it changes from -41C in Dec/Jan to 9C in July, but remains 10C all
+year in Hawaii.<p>
+
+As well as the above, there are various restrictions introduced by the Clean
+Air Act and state bodies such as California's Air Resources Board (CARB) that
+often have more stringent limits for the above properties, as well as
+additional limits. The Clean Air Act also specifies some regions that exceed
+air quality standards have to use reformulated gasolines (RFGs) all year,
+starting January 1995. Other regions are required to use oxygenated
+gasolines for four winter months, beginning November 1992. The RFGs also
+contain oxygenates. Metropolitan regions with severe ozone air quality
+problems must use reformulated gasolines in 1995 that;- contain at least
+2.0 wt% oxygen, reduce 1990 volatile organic carbon compounds by 15%, and
+reduce specified toxic emissions by 15% (1995) and 25% (2000). Metropolitan
+regions that exceeded carbon monoxide limits were required to use gasolines
+with 2.7 wt% oxygen during winter months, starting in 1992. <p>
+
+Because phosphorus adversely affects exhaust catalysts, the EPA limits
+phosphorus in all gasolines to 0.0013 gP/L.<p>
+
+The 1990 Clean Air Act (CAA) amendments and CARB phase 2 (1996)
+specifications for reformulated gasoline establish the following limits,
+compared with typical 1990 gasoline. Because of a lack of data, the EPA
+were unable to define the CAA required parameters , so they instituted
+a two-stage system. The first stage, the "Simple Model" is an interim
+stage that run from 1/Jan/1995 to 1/May/1997. The second stage, the
+"Complex Model" would be developed, with the following parameters likely
+to be controlled - reid vapour pressure, benzene, oxygen, sulfur, olefins
+distillation ( 90% Evaporated ), and aromatics. Each refiner must have
+their RFG recertified using the Complex model by 1/May/1997 [27].<p>
+<pre><b>
+                       1990           Clean Air Act       CARB</b>
+benzene                 2 %              1 % maximum      1.0 vol% maximum
+oxygen                  0.2 %            2 % minimum    1.8-2.0 mass%
+sulfur                150 ppm            no increase     40 ppm
+aromatics              32.0 %           25 % maximum     25 vol% maximum
+olefins                 9.9 %            5 % maximum      6 vol% maximum
+reid vapour pressure   60 kPa           56 kPa (north)   48 kPa
+                                        50 kPa (south)
+90% evaporated        170 C              -              149 C
+</pre>
+These regulations also specify emissions criteria. eg CAA specifies no
+increase in nitric oxides (NOx) emissions, reductions in VOC by 15% during
+the ozone season, and specified toxins by 15% all year. These criteria
+indirectly establish vapour pressure and composition limits that refiners
+have to meet. Note that the EPA also can issue CAA Section 211 waivers that
+allow refiners to choose which oxygenates they use. In 1981, the EPA also
+decided that fuels with up to 2% alcohols and ethers (except methanol) were
+"substantially similar" to 1974 unleaded gasoline, and thus were not "new"
+gasoline additives. That level was increased to 2.7 wt% in 1991. Some other
+oxygenates have also been granted waivers, eg ethanol to 3.5 wt% in
+1979/1982, and tert-butyl alcohol to 3.5 wt% in 1981. <p>
+<h3>
+4.11 What are the effects of the specified fuel properties?
+</h3>
+<i>Volatility</i> <p>
+This affects evaporative emissions and driveability, it is the property that
+must change with location and season. Fuel for mid-summer Arizona would be
+difficult to use in mid-winter Alaska. The US is divided into zones,
+according to altitude and seasonal temperatures, and the fuel volatility is
+adjusted accordingly. Incorrect fuel may result in difficult starting in
+cold weather, carburetter icing, vapour lock in hot weather, and crankcase
+oil dilution. Volatility is controlled by distillation and vapour pressure
+specifications. The higher boiling fractions of the gasoline have significant
+effects on the emission levels of undesirable hydrocarbons and aldehydes,
+and a reduction of 40C in the final boiling point will reduce the levels of
+benzene, butadiene, formaldehyde and acetaldehyde by 25%, and will reduce
+HC emissions by 20% [28].<p>
+
+<i>Combustion Characteristics
+</i><p>
+As gasolines contain mainly hydrocarbons, the only significant variable
+between different grades is the octane rating of the fuel, as most other
+properties are similar. Octane is discussed in detail in Section 6. There
+are only slight differences in combustion temperatures ( most are around
+2000C in isobaric adiabatic combustion [29]). Note that the actual
+temperature in the combustion chamber is also determined by other factors,
+such as load and engine design. The addition of oxygenates changes the
+pre-flame reaction pathways, and also reduces the energy content of the fuel.
+The levels of oxygen in the fuel is regulated according to regional air
+quality standards.<p>
+
+<i>Stability<p>
+</i>Motor gasolines may be stored up to six months, consequently they must not
+form gums which may precipitate. Gums are usually the result of
+copper-catalysed reactions of the unsaturated HCs, so antioxidants and metal
+deactivators are added. Existent Gum is used to measure the gum in the fuel
+at the time tested, whereas the Oxidation Stability measures the time it
+takes for the gasoline to break down at 100C with 100psi of oxygen. A 240
+minutes test period has been found to be sufficient for most storage and
+distribution systems.<p>
+
+<i>Corrosiveness<p>
+</i>Sulfur in the fuel creates corrosion, and when combusted will form corrosive
+gases that attack the engine, exhaust and environment. Sulfur also adversely
+affects the alkyl lead octane response and may poison exhaust catalysts. The
+copper strip corrosion test and the sulfur specification are used to ensure
+fuel quality. The copper strip test measures active sulfur, whereas the
+sulfur content reports the total sulfur present.<p>
+
+<h3>4.12 Are brands different?
+</h3>
+Yes. The above specifications are intended to ensure minimal quality
+standards are maintained, however as well as the fuel hydrocarbons, the
+manufacturers add their own special ingredients to provide additional
+benefits. A quality gasoline additive package would include:-<p>
+<UL>
+<LI>octane-enhancing additives ( improve octane ratings )
+<LI>anti-oxidants ( inhibit gum formation, improve stability )
+<LI>metal deactivators ( inhibit gum formation, improve stability )
+<LI>deposit modifiers ( reduce deposits, spark-plug fouling and
+  preignition )
+<LI>surfactants ( prevent icing, improve vaporisation, inhibit deposits,
+  reduce NOx emissions )
+<LI>freezing point depressants ( prevent icing )
+<LI>corrosion inhibitors ( prevent gasoline corroding storage tanks )
+<LI>dyes ( product colour for safety or regulatory purposes ).
+</UL>
+During the 1980s significant problems with deposits accumulating on intake
+valve surfaces occurred as new fuel injections systems were introduced.
+These intake valve deposits (IVD) were different to the injector deposits,
+in part because the valve can reach 300C. Engine design changes that prevent
+deposits usually consist of ensuring the valve is flushed with liquid
+gasoline, and provision of adequate valve rotation. Gasoline factors that
+cause deposits are the presence of alcohols or olefins. Gasoline
+manufacturers now routinely use additives that prevent IVD and also maintain
+the cleanliness of injectors. These usually include a surfactant and light
+oil to maintain the wetting of important surfaces. A more detailed
+description of additives is provided in Section 9.1.<p>
+
+Texaco demonstrated that a well-formulated package could improve fuel
+economy, reduce NOx emissions, and restore engine performance because, as
+well as the traditional liquid-phase deposit removal, some additives can
+work in the vapour phase to remove existing engine deposits without
+adversely affecting performance ( as happens when water is poured into a
+running engine to remove carbon deposits:-) )[30]. Most suppliers of quality
+gasolines will formulate similar additives into their products, and cheaper
+lines are less like to have such additives added. As different brands use
+different additives and oxygenates, it is probable that important parameters,
+such as octane distribution, are different, even though the pump octane
+ratings are the same. <p>
+
+So, if you know your car is well-tuned, and in good condition, but the
+driveability is pathetic on the correct octane, try another brand. Remember
+that the composition will change with the season, so if you lose
+driveability, try yet another brand. As various Clean Air Act changes are
+introduced over the next few years, gasoline will continue to change.
+<h3>
+4.13 What is a typical composition?
+</h3>
+There seems to be a perception that all gasolines of one octane grade are
+chemically similar, and thus general rules can be promulgated about "energy
+content ", "flame speed", "combustion temperature" etc. etc.. Nothing is
+further from the truth. The behaviour of manufactured gasolines in octane
+rating engines can be predicted, using previous octane ratings of special
+blends intended to determine how a particular refinery stream responds to an
+octane-enhancing additive. Refiners can design and reconfigure refineries to
+efficiently produce a wide range of gasolines feedstocks, depending on
+market and regulatory requirements.<p>
+
+The last 10 years of various compositional changes to gasolines for
+environmental and health reasons have resulted in fuels that do not follow
+historical rules, and the regulations mapped out for the next decade also
+ensure the composition will remain in a state of flux. The reformulated
+gasoline specifications, especially the 1/May/1997 Complex model, will
+probably introduce major reductions in the distillation range, as well as
+the various limits on composition and emissions.<p>
+
+I'm not going to list all 500+ HCs in gasolines, but the following are
+representative of the various classes typically present in a gasoline. The
+numbers after each chemical are:- Research Blending Octane : Motor Blending
+Octane : Boiling Point (C): Density (g/ml @ 15C) : Minimum Autoignition
+Temperature (C). It is important to realise that the Blending Octanes are
+derived from a 20% mix of the HC with a 60:40 iC8:nC7 base, and the
+extrapolation of this 20% to 100%. This is different from rating the pure
+fuel, which often requires adjustment of the test engine conditions outside
+the acceptable limits of the rating methods. Generally the actual octanes of
+the pure fuel are similar for the alkanes, but are up to 30 octane numbers
+lower than the blending octanes for the aromatics and olefins [31].  <p>
+
+A traditional composition I have dreamed up would be like the following,
+whereas newer oxygenated fuels reduce the aromatics and olefins, narrow the
+boiling range, and add oxygenates up to about 12-15% to provide the octane.<p>
+<pre><b>
+15% n-paraffins                       RON   MON    BP      d     AIT</b>
+        n-butane                      113 : 114 :  -0.5:  gas  : 370
+        n-pentane                      62 :  66 :  35  : 0.626 : 260
+        n-hexane                       19 :  22 :  69  : 0.659 : 225
+        n-heptane (0:0 by definition)   0 :   0 :  98  : 0.684 : 225
+        n-octane                      -18 : -16 : 126  : 0.703 : 220
+     ( you would not want to have the following alkanes in gasoline,
+       so you would never blend kerosine with gasoline )
+        n-decane                      -41 : -38 : 174  : 0.730 : 210
+        n-dodecane                    -88 : -90 : 216  : 0.750 : 204
+        n-tetradecane                 -90 : -99 : 253  : 0.763 : 200
+<b>30%  iso-paraffins</b>
+        2-methylpropane               122 : 120 : -12  :  gas  : 460
+        2-methylbutane                100 : 104 :  28  : 0.620 : 420
+        2-methylpentane                82 :  78 :  62  : 0.653 : 306
+        3-methylpentane                86 :  80 :  64  : 0.664 :  -
+        2-methylhexane                 40 :  42 :  90  : 0.679 :
+        3-methylhexane                 56 :  57 :  91  : 0.687 :
+        2,2-dimethylpentane            89 :  93 :  79  : 0.674 :
+        2,2,3-trimethylbutane         112 : 112 :  81  : 0.690 : 420
+        2,2,4-trimethylpentane        100 : 100 :  98  : 0.692 : 415
+          ( 100:100 by definition )
+<b>12% cycloparaffins</b>
+        cyclopentane                  141 : 141 :  50  : 0.751 : 380
+        methylcyclopentane            107 :  99 :  72  : 0.749 :
+        cyclohexane                   110 :  97 :  81  : 0.779 : 245
+        methylcyclohexane             104 :  84 : 101  : 0.770 : 250
+<b>35% aromatics</b>
+        benzene                        98 :  91 :  80  : 0.874 : 560
+        toluene                       124 : 112 : 111  : 0.867 : 480
+        ethyl benzene                 124 : 107 : 136  : 0.867 : 430
+        meta-xylene                   162 : 124 : 138  : 0.868 : 463
+        para-xylene                   155 : 126 : 138  : 0.866 : 530
+        ortho-xylene                  126 : 102 : 144  : 0.870 : 530
+        3-ethyltoluene                162 : 138 : 158  : 0.865 :
+        1,3,5-trimethylbenzene        170 : 136 : 163  : 0.864 :
+        1,2,4-trimethylbenzene        148 : 124 : 168  : 0.889 :
+<b>8% olefins</b>
+        2-pentene                     154 : 138 :  37  : 0.649 :
+        2-methylbutene-2              176 : 140 :  36  : 0.662 :
+        2-methylpentene-2             159 : 148 :  67  : 0.690 :
+        cyclopentene                  171 : 126 :  44  : 0.774 :
+    ( the following olefins are not present in significant amounts
+      in gasoline, but have some of the highest blending octanes )
+        1-methylcyclopentene          184 : 146 :  75  : 0.780 :
+        1,3 cyclopentadiene           218 : 149 :  42  : 0.805 :
+        dicyclopentadiene             229 : 167 : 170  : 1.071 :
+</pre>
+<b>Oxygenates</b> <p>
+Published octane values vary a lot because the rating conditions are
+significantly different to standard conditions, for example the API Project
+45 numbers used above for the hydrocarbons, reported in 1957, gave MTBE
+blending RON as 148 and MON as 146, however that was based on the lead
+response, whereas today we use MTBE in place of lead.<p>
+<pre>
+        methanol                      133 : 105 :  65  : 0.796 : 385
+        ethanol                       129 : 102 :  78  : 0.794 : 365
+        iso propyl alcohol            118 :  98 :  82  : 0.790 : 399
+        methyl tertiary butyl ether   116 : 103 :  55  : 0.745 :
+        ethyl tertiary butyl ether    118 : 102 :  72  : 0.745 :
+        tertiary amyl methyl ether    111 :  98 :  86  : 0.776 :
+</pre>
+There are some other properties of oxygenates that have to be considered
+when they are going to be used as fuels, particularly their ability to
+form very volatile azeotropes that cause the fuel's vapour pressure to
+increase, the chemical nature of the emissions, and their tendency to
+separate into a separate water/oxygenate phase when water is present.
+The reformulated gasolines address these problems more successfully than
+the original oxygenated gasolines.<p>
+
+Before you rush out to make a highly aromatic or olefinic gasoline to
+produce a high octane fuel, remember they have other adverse properties,
+eg the aromatics attack elastomers and generate smoke, and the olefins are
+unstable ( besides smelling foul ) and form gums. The art of correctly
+formulating a gasoline that does not cause engines to knock apart, does not
+cause vapour lock in summer - but is easy to start in winter, does not form
+gums and deposits, burns cleanly without soot/residues, and does not dissolve
+or poison the car catalyst or owner, is based on knowledge of the gasoline
+composition.<p>
+<h3>
+4.14 Is gasoline toxic or carcinogenic?
+</h3>
+There are several known toxins in gasoline, some of which are confirmed
+human carcinogens. The most famous of these toxins are lead and benzene, and
+both are regulated. The other aromatics and some toxic olefins are also
+controlled. Lead alkyls also require ethylene dibromide and/or ethylene
+dichloride scavengers to be added to the gasoline, both of which are
+suspected human carcinogens. In 1993 an International Symposium on the Health
+Effects of Gasoline was held [32]. Major review papers on the carcinogenic,
+neurotoxic, reproductive and developmental toxicity of gasoline, additives,
+and oxygenates were presented. The oxygenates are also being evaluated for
+carcinogenicity, and even ethanol and ETBE may be carcinogens. It should
+be noted that the oxygenated gasolines were not expected to reduce the
+toxicity of the emissions, however the reformulated gasolines will produce
+different emissions, and specific toxins must be reduced by 15% all year.<p>
+
+There is little doubt that gasoline is full of toxic chemicals, and should
+therefore be treated with respect. However the biggest danger remains the
+flammability, and the relative hazards should always be kept in perspective.
+The major toxic risk from gasolines comes from breathing the tailpipe,
+evaporative, and refuelling emissions, rather than occasional skin contact
+from spills. Breathing vapours and skin contact should always be minimised.<p>
+<h3>
+4.15 Is unleaded gasoline more toxic than leaded?
+</h3>
+The short answer is no. However that answer is not global, as some countries
+have replaced the lead compound octane-improvers with aromatic or olefin
+octane-improvers without introducing exhaust catalysts. Some aromatics are
+more toxic that paraffins. Unfortunately, the manufacturers of alkyl lead
+compounds have embarked on a worldwide misinformation campaign in countries
+considering emulating the lead-free US. The use of lead precludes the use of
+exhaust catalysts, thus the emissions of aromatics are only slightly
+diminished, and other pollutants can not reduced by exhaust catalysts. <p>
+
+The use of unleaded on modern vehicles with engine management systems and
+catalysts can reduce aromatic emissions to 10% of the level of vehicles
+without catalysts [33]. Alkyl lead additives can only substitute for some of
+the aromatics in gasoline, consequently they do not eliminate aromatics,
+which will produce benzene emissions [34]. Alkyl lead additives also require
+toxic organohalogen scavengers, which also react in the engine to form and
+emit other organohalogens, including highly toxic dioxin [35]. Leaded fuels
+emit lead, organohalogens, and much higher levels of regulated toxins
+because they preclude the use of exhaust catalysts. In the USA the gasoline
+composition is being changed to reduce fuel toxins ( olefins, aromatics )
+as well as emissions of specific toxins. <p>
+
+<hr>
+<h3><b>
+Subject: 5. Why is Gasoline Composition Changing?</b><p>
+5.1  Why pick on cars and gasoline?
+</h3>
+Cars emit several pollutants as combustion products out the tailpipe,
+(tailpipe emissions), and as losses due to evaporation (evaporative
+emissions, refuelling emissions). The volatile organic carbon (VOC)
+emissions from these sources, along with nitrogen oxides (NOx) emissions
+from the tailpipe, will react in the presence of ultraviolet light
+(wavelengths of less than 430nm) to form ground-level (tropospheric) ozone,
+which is one of the major components of photochemical smog [36]. Smog has
+been a major pollution problem ever since coal-fired power stations were
+developed in urban areas, but their emissions are being cleaned up. Now it's
+the turn of the automobile.<p>
+
+Cars currently use gasoline that is derived from fossil fuels, thus when
+gasoline is burned to completion, it produces additional CO2 that is added
+to the atmospheric burden. The effect of the additional CO2 on the global
+environment is not known, but the quantity of man-made emissions of fossil
+fuels must cause the system to move to a new equilibrium. Even if current
+research doubles the efficiency of the IC engine/gasoline combination, and
+reduces HC, CO, NOx, SOx, VOCs, particulates, and carbonyls, the amount of
+carbon dioxide from the use of fossil fuels may still cause global warming.
+More and more scientific evidence is accumulating that warming is occurring
+[37]. The issue is whether it is natural, or induced by human activities.
+There are international agreements to limit CO2 emissions to 1990 levels,
+a target that will require more efficient, lighter, or appropriately-sized
+vehicles, - if we are to maintain the current usage. One option is to use
+"renewable" fuels in place of fossil fuels. Consider the amount of
+energy-related CO2 emissions for selected countries in 1990 [38].<p>
+<pre><b>
+                              CO2 Emissions
+                         ( tonnes/year/person )</b>
+USA                               20.0
+Canada                            16.4
+Australia                         15.9
+Germany                           10.4
+United Kingdom                     8.6
+Japan                              7.7
+New Zealand                        7.6
+</pre>
+The number of new vehicles provides an indication of the magnitude of the
+problem. Although vehicle engines are becoming more efficient, the distance
+travelled is increasing, resulting in a gradual increase of gasoline
+consumption. The world production of vehicles (in thousands) over the last
+few years was [39];-<p>
+<pre><b>
+Cars
+
+Region                       1990      1991     1992     1993
+</b>
+Africa                        222       213      194      201
+Asia-Pacific               12,064    12,112   11,869   11,467
+Central & South America       800       888    1,158    1,524
+Eastern Europe              2,466       984    1,726    1,783
+Middle East                    35        24      300      377
+North America               7,762     7,230    7,470    8,172
+Western Europe             13,688    13,286   13,097   11,124
+Total World                37,039    34,739   35,815   34,649
+<b>
+Trucks ( including heavy trucks and buses )
+
+Region                       1990      1991     1992    1993
+</b>
+Africa                        133       123      108     109
+Asia-Pacific                5,101     5,074    5,117   5,054
+Central & South America       312       327      351     417
+Eastern Europe                980       776      710     708
+Middle East                    36        28      100     110
+North America               4,851     4,554    5,371   6,037
+Western Europe              1,924     1,818    1,869   1,345
+Total World                13,336    12,701   13,627  13,779
+</pre>
+To fuel all operating vehicles, considerable quantities of gasoline
+and diesel have to be consumed. Major consumption in 1993 of gasoline
+and middle distillates ( which may include some heating fuels, but
+not fuel oils ) in million tonnes.<p>
+<pre><b>
+                             Gasoline    Middle Distillates</b>
+USA                           335.6            233.9
+Canada                         25.0             24.4
+Western Europe                166.0            264.0
+Japan                          56.4             89.6
+Total World                   802.0            989.0
+</pre>
+The USA consumption of gasoline increased from 294.4 (1982) to 335.6 (1989)
+then dipped to 324.2 (1991), and has continued to rise since then to reach
+335.6 million tonnes in 1993. In 1993 the total world production of crude oil
+was 3164.8 million tonnes, of which the USA consumed 787.5 million tonnes
+[40]. Transport is a very significant user of crude oil products, thus
+improving the efficiency of utilisation, and minimising pollution from
+vehicles, can produce immediate reductions in emissions of CO2, HCs, VOCs,
+CO, NOx, carbonyls, and other chemicals. <p>
+<h3>
+5.2  Why are there seasonal changes?
+</h3>
+Only gaseous hydrocarbons burn, consequently if the air is cold, then the
+fuel has to be very volatile. But when summer comes, a volatile fuel can
+boil and cause vapour lock, as well as producing high levels of evaporative
+emissions. The solution was to adjust the volatility of the fuel according
+to altitude and ambient temperature. This volatility change has been
+automatically performed for decades by the oil companies without informing
+the public of the changes. It is one reason why storage of gasoline through
+seasons is not a good idea. Gasoline volatility is being reduced as modern
+engines, with their fuel injection and management systems, can automatically
+compensate for some of the changes in ambient conditions - such as altitude
+and air temperature, resulting in acceptable driveability using less volatile
+fuel.<p>
+<h3>
+5.3  Why were alkyl lead compounds removed?
+</h3>
+" With the exception of one premium gasoline marketed on the east coast
+and southern areas of the US, all automotive gasolines from the mid-1920s
+until 1970 contained lead antiknock compounds to increase antiknock quality.
+Because lead antiknock compounds were found to be detrimental to the
+performance of catalytic emission control system then under development,
+U.S. passenger car manufacturers in 1971 began to build engines designed to
+operate satisfactorily on gasolines of nominal 91 Research Octane Number.
+Some of these engines were designed to operate on unleaded fuel while others
+required leaded fuel or the occasional use of leaded fuel. The 91 RON was
+chosen in the belief that unleaded gasoline at this level could be made
+available in quantities required using then current refinery processing
+equipment. Accordingly, unleaded and low-lead gasolines were introduced
+during 1970 to supplement the conventional gasolines already available.<p>
+
+Beginning with the 1975 model year, most new car models were equipped
+with catalytic exhaust treatment devices as one means of compliance with
+the 1975 legal restrictions in the U.S. on automobile emissions. The need
+for gasolines that would not adversely affect such catalytic devices has
+led to the large scale availability and growing use of unleaded gasolines,
+with all late-model cars requiring unleaded gasoline."[41].<p>
+
+There was a further reason why alkyl lead compounds were subsequently
+reduced, and that was the growing recognition of the highly toxic nature of
+the emissions from a leaded-gasoline fuelled engine. Not only were toxic
+lead emissions produced, but the added toxic lead scavengers ( ethylene
+dibromide and ethylene dichloride ) could react with hydrocarbons to produce
+highly toxic organohalogen emissions such as dioxin. Even if catalysts were
+removed, or lead-tolerant catalysts discovered, alkyl lead compounds would
+remain banned because of their toxicity and toxic emissions [42].
+<h3>
+5.4  Why are evaporative emissions a problem?
+</h3>
+As tailpipe emissions are reduced due to improved exhaust emission control
+systems, the hydrocarbons produced by evaporation of the gasoline during
+distribution, vehicle refuelling, and from the vehicle, become more and
+more significant. A recent European study found that 40% of man-made
+volatile organic compounds came from vehicles [43]. Many of the problem
+hydrocarbons are the aromatics and olefins that have relatively high octane
+values. Any sensible strategy to reduce smog and toxic emissions will attack
+evaporative and tailpipe emissions. <p>
+
+The health risks to service station workers, who are continuously exposed
+to refuelling emissions remain a concern [44]. Vehicles will soon be
+required to trap the refuelling emissions in larger carbon canisters, as
+well as the normal evaporative emissions that they already capture. This
+recent decision went in favour of the oil companies, who were opposed by the
+auto companies. The automobile manufacturers felt the service station
+should trap the emissions. The activated carbon canisters adsorb organic
+vapours, and these are subsequently desorbed from the canister and burnt in
+the engine during normal operation, once certain vehicle speeds and coolant
+temperatures are reached. A few activated carbons used in older vehicles
+do not function efficiently with oxygenates.<p>
+<h3>
+5.5  Why control tailpipe emissions?
+</h3>
+Tailpipe emissions were responsible for the majority of pollutants in the
+late 1960s after the crankcase emissions had been controlled. Ozone levels
+in the Los Angeles basin reached 450-500ppb in the early 1970s, well above
+the typical background of 30-50ppb [45].<p>
+
+Tuning a carburetted engine can only have a marginal effect on pollutant
+levels, and there still had to be some frequent, but long-term, assessment
+of the state of tuning. Exhaust catalysts offered a post-engine solution
+that could ensure pollutants were converted to more benign compounds. As
+engine management systems and fuel injection systems have developed, the
+volatility properties of the gasoline have been tuned to minimise
+evaporative emissions, and yet maintain low exhaust emissions.<p>
+
+The design of the engine can have very significant effects on the type and
+quantity of pollutants, eg unburned hydrocarbons in the exhaust originate
+mainly from combustion chamber crevices, such as the gap between the piston
+and cylinder wall, where the combustion flame can not completely use the HCs.
+The type and amount of unburned hydrocarbons are related to the fuel
+composition (volatility, olefins, aromatics, final boiling point), as well
+as state of tune, engine condition, and age/condition of the engine
+lubricating oil [46]. Particulate emissions, especially the size fraction
+smaller than ten micrometres, are a serious health concern. The current
+major source is from compression ignition ( CI = diesel ) engines, and the
+modern SI engine system has no problem meeting regulatory requirements.<p>
+
+The ability of reformulated gasolines to actually reduce smog has not yet
+been confirmed. The composition changes will reduce some compounds, and
+increase others, making predictions of environmental consequences extremely
+difficult. Planned future changes, such as the CAA 1997 Complex model
+specifications, that are based on several major ongoing government/industry
+gasoline and emission research programmes, are more likely to provide
+unambiguous environmental improvements. The rules for tailpipe emissions
+will continue to become more stringent as countries try to minimise local
+problems ( smog, toxins etc.) and global problems ( CO2 ). Reformulation
+does not always lower all emissions, as evidenced by the following aldehydes
+from an engine with an adaptive learning management
+system [33]. <p>
+<pre><b>
+                           FTP-weighted emission rates (mg/mi)
+                                Gasoline      Reformulated</b>
+Formaldehyde                      4.87           8.43
+Acetaldehyde                      3.07           4.71
+</pre>
+The type of exhaust catalyst and management system can have significant
+effects on the emissions [33].<p>
+<pre><b>
+                           FTP-weighted emission rates. (mg/mi)
+                         Total Aromatics          Total Carbonyls
+                     Gasoline  Reformulated    Gasoline  Reformulated</b>
+Noncatalyst          1292.45     1141.82        174.50     198.73
+Oxidation Catalyst    168.60      150.79         67.08      76.94
+3-way Catalyst        132.70       93.37         23.93      23.07
+Adaptive Learning     111.69      105.96         17.31      22.35
+</pre>
+If we take the five compounds listed  as toxics under the Clean Air Act,
+then the beneficial effects of catalysts are obvious [33].<p>
+<pre><b>
+                        FTP-weighted emission rates. (mg/mi)
+                      Benzene       Formaldehyde      Acrolein
+                    Gas   Reform    Gas   Reform     Gas   Reform</b>
+Noncatalyst       156.18  138.48   73.25   85.24    11.62   13.20
+Oxidation Cat.     27.57   25.01   28.50   35.83     3.74    3.75
+3-way Catalyst     19.39   15.69    7.27    7.61     1.11    0.74
+Adaptive Learn.    19.77   20.39    4.87    8.43     0.81    1.16
+<b>
+                    Acetaldehyde    1,3 Butadiene
+                    Gas   Reform    Gas   Reform</b>
+Noncatalyst        19.74   21.72    2.96    1.81
+Oxidation Cat.     11.15   11.76    0.02    0.33
+3-way Catalyst      4.43    3.64    0.07    0.05
+Adaptive Learn.     3.07    4.71    0.00    0.14
+</pre>
+The author reports analytical problems with the 1,3 Butadiene, and only
+Noncatalyst values are considered reliable.<p>
+<b>
+Emission Standards<p>
+</b>
+There are several bodies responsible for establishing standards, and they
+promulgate test cycles, analysis procedures, and the % of new vehicles that
+must comply each year. The test cycles and procedures do change ( usually
+indicated by an anomalous increase in the numbers in the table ), and I
+have not listed the percentages of the vehicle fleet that are required to
+comply. This table is only intended to convey where we have been, and where
+we are going. It does not cover any regulation in detail - readers are
+advised to refer to the relevant regulations. Additional limits for other
+pollutants, such as formaldehyde and particulates, are omitted. The 1994
+tests signal the transition from 50,000 to 75,000 mile compliance testing,
+and I have not listed the subsequent 50,000 mile limits [47,48].<p>
+<pre><b>
+Year                    Federal                      California
+                HCs    CO    NOx    Evap       HCs    CO    NOx    Evap
+               g/mi   g/mi  g/mi   g/test     g/mi   g/mi  g/mi   g/test</b>
+Before regs   10.6   84.0   4.1    47        10.6   84.0   4.1    47
+add crankcase +4.1                           +4.1
+1966                                          6.3   51.0   6.0
+1968           6.3   51.0   6.0
+1970           4.1   34.0                     4.1   34.0           6
+1971           4.1   34.0                     4.1   34.0   4.0     6
+1972           3.0   28.0                     2.9   34.0   3.0     2
+1973           3.0   28.0   3.0               2.9   34.0   3.0     2
+1974           3.0   28.0   3.0               2.9   34.0   2.0     2
+1975           1.5   15.0   3.1     2         0.90   9.0   2.0     2
+1977           1.5   15.0   2.0     2         0.41   9.0   1.5     2
+1980           0.41   7.0   2.0     6         0.41   9.0   1.0     2
+1981           0.41   3.4   1.0     2         0.39   7.0   0.7     2
+1993           0.41   3.4   1.0     2         0.25   3.4   0.4     2
+1994 50,000    0.26   3.4   0.3     ?   TLEV  0.13   3.4   0.4
+1994 75,000    0.31   4.2   0.6     ?
+1997                                    LEV   0.08   3.4   0.2
+1997                                    ULEV  0.04   1.7   0.2
+1998                                    ZEV   0.0    0.0   0.0
+2004           0.13   1.8   0.16    ?
+</pre>
+It's also worth noting that exhaust catalysts also emit platinum, and the
+soluble platinum salts are some of the most potent sensitizers known.
+Early research [49] reported the presence of 10% water-soluble platinum in
+the emissions, however later work on monolithic catalysts has determined the
+quantities of water soluble platinum emissions are negligible [50]. The
+particle size of the emissions has also been determined, and the emissions
+have been correlated with increasing vehicle speed. Increasing speed also
+increases the exhaust gas temperature and velocity, indicating the emissions
+are probably a consequence of physical attrition.<p>
+<pre><b>
+           Estimated Fuel                           Median Aerodynamic
+Speed       Consumption         Emissions           Particle Diameter
+km/h          l/100km            ng/m-3                    um</b>
+60              7                  3.3                     5.1
+100             8                 11.9                     4.2
+140            10                 39.0                     5.6
+US Cycle-75                        6.4                     8.5
+</pre>
+Using the estimated fuel consumption, and about 10m3 of exhaust gas per
+litre of gasoline, the emissions are 2-40ng/km. These are 2-3 orders
+of magnitude lower than earlier reported work on pelletised catalysts.
+These emissions may be controlled directly in the future. They are currently
+indirectly controlled by the cost of platinum, and the new requirement for
+the catalyst to have an operational life of at least 100,000 miles.<p>
+<h3>
+5.6  Why do exhaust catalysts influence fuel composition?
+</h3>
+Modern adaptive learning engine management systems control the combustion
+stoichiometry by monitoring various ambient and engine parameters, including
+exhaust gas recirculation rates, the air flow sensor, and exhaust oxygen
+sensor outputs, This closed loop system using the oxygen sensor can
+compensate for changes in fuel content and air density. The oxygen sensor
+is also known as the lambda sensor, because the stoichiometric mass Air/Fuel
+ratio is known as lambda. Typical stoichiometric air/fuel ratios are [51]:- <p>
+<pre>
+ 6.4  methanol
+ 9.0  ethanol
+11.7  MTBE
+12.1  ETBE, TAME
+14.6  gasoline without oxygenates
+</pre>
+The engine management system rapidly switches the stoichiometry between
+slightly rich and slightly lean, except under wide open throttle conditions
+- when the system runs open loop. The  response of the oxygen sensor to
+composition changes is about 3 ms, and closed loop switching is typically
+1-3 times a second, going between 50mV ( lambda = 1.05 (Lean)) to  900mV
+(lambda = 0.99 ( Rich)). The catalyst oxidises about 80% of the H2, CO,
+and HCs, and reduces the NOx [47]. <p>
+<pre>
+Typical reactions that occur in a modern 3-way catalyst are:-
+                2H2 + O2  ->  2H2O
+                2CO + O2  ->  2CO2
+    CxHy + (x + (y/4))O2  ->  xCO2 + (y/2)H2O
+               2CO + 2NO  ->  N2 + 2CO2
+   CxHy + 2(x + (y/4))NO  ->  (x + (y/4))N2 + (y/2)H2O + xCO2
+               2H2 + 2NO  ->  N2 + 2H2O
+                CO + H20  ->  CO2 + H2
+             CxHy + xH2O  ->  xCO + (x + (y/2))H2
+</pre>
+The use of exhaust catalysts have resulted in reaction pathways that can
+accidentally be responsible for increased pollution. An example is the
+CARB-mandated reduction of fuel sulfur. A change from 450ppm to 50ppm, which
+will reduce HC & CO emissions by 20%, may increase formaldehyde by 45% [19]. <p>
+
+The requirement that the exhaust catalysts must now endure for 10 years or
+100,000 miles will also encourage automakers to push for lower levels of
+known catalyst "poisons" such as sulfur and phosphorus in both the gasoline
+and lubricant. Modern catalysts are unable to reduce the relatively high
+levels of NOx that are produced during lean operation down to approved
+levels, thus preventing the application of lean-burn engine technology.
+Recently Mazda has announced they have developed a "lean burn" catalyst,
+which may enable automakers to move the fuel combustion towards the lean
+side, and different gasoline properties may be required to optimise the
+combustion and reduce pollution. Mazda claim that fuel efficiency is
+improved by 5-8% while meeting all emission regulations [52] . <p>
+
+Catalysts also inhibit the selection of gasoline octane-improving and
+cleanliness additives ( such as MMT and phosphorus-containing additives )
+that may result in refractory compounds known to physically coat the
+catalyst and increase pollution. <p>
+<h3>
+5.7  Why are "cold start" emissions so important?
+</h3>
+The catalyst requires heat to reach the temperature ( >300-350C ) where it
+functions most efficiently, and the delay until it reaches operating
+temperature can produce more hydrocarbons than would be produced during
+the remainder of many typical urban short trips. It has been estimated that
+70-80% of the non-methane HCs that escape conversion by the catalysts
+are emitted during the first two minutes after a cold start. As exhaust
+emissions have been reduced, the significance of the evaporative emissions
+increases. Several engineering techniques are being developed, including the
+Ford Exhaust Gas Igniter ( uses a flame to heat the catalyst - lots of
+potential problems ), zeolite hydrocarbon traps, and relocation of the
+catalyst closer to the engine [47]. <p>
+
+Reduced gasoline volatility and composition changes, along with cleanliness
+additives and engine management systems, can help minimise cold start
+emissions, but currently the most effective technique appears to be rapid,
+deliberate heating of the catalyst, and the new generation of low thermal
+inertia  "fast light-up" catalysts reduce the problem, but further research
+is necessary [53].<p>
+
+As the evaporative emissions are also starting to be reduced, the emphasis
+has shifted to the refuelling emissions. These will be mainly controlled
+on the vehicle, and larger canisters may be used to trap the vapours emitted
+during refuelling. <p>
+<h3>
+5.8  When will the emissions be "clean enough"?
+</h3>
+The California ZEV regulations effectively preclude IC vehicles, because
+they stipulate zero emissions. However, the concept of regulatory forcing
+of alternative vehicle propulsion technology may have to be modified to
+include hybrid or fuel-cell vehicles, as the major failing of EVs remains
+the lack of a cheap, light, safe, and  easily-rechargeable electrical
+storage device [54,55]. There are several major projects intending to
+further reduce emissions from automobiles, mainly focusing on vehicle mass
+and engine fuel efficiency, but gasoline specifications and alternative
+fuels are also being investigated. It may be that changes to IC engines and
+gasolines will enable the IC engine to continue well into the 21st century
+as the prime motive force for personal transportation. <p>
+<h3>
+5.9  Why are only some gasoline compounds restricted?
+</h3>
+The less volatile hydrocarbons in gasoline are not released in significant
+quantities during normal use, and the more volatile alkanes are considerably
+less toxic than many other chemicals encountered daily. The newer gasoline
+additives also have potentially undesirable properties before they are even
+combusted. Most hydrocarbons are very insoluble in water, with the lower
+aromatics being the most soluble, however the addition of oxygen to
+hydrocarbons significantly increases the mutual solubility with water.<p>
+<pre><b>
+                      Compound in Water            Water in Compound
+                      % mass/mass @  C             % mass/mass @  C </b>
+normal decane            0.0000052  25               0.0072      25
+iso-octane               0.00024    25               0.0055      20
+normal hexane            0.00125    25               0.0111      20
+cyclohexane              0.0055     25               0.010       20
+1-hexene                 0.00697    25               0.0477      30
+toluene                  0.0515     25               0.0334      25
+benzene                  0.1791     25               0.0635      25
+
+methanol                complete    25              complete     25
+ethanol                 complete    25              complete     25
+MTBE                     4.8        20               1.4         20
+TAME                      -                          0.6         20
+</pre>
+The concentrations and ratios of benzene, toluene, ethyl benzene, and xylenes
+( BTEX ) in water are often used to monitor groundwater contamination from
+gasoline storage tanks or pipelines. The oxygenates and other new additives
+may increase the extent of water and soil pollution by acting as co-solvents
+for HCs. <p>
+
+Various government bodies ( EPA, OSHA, NIOSH ) are charged with ensuring
+people are not exposed to unacceptable chemical hazards, and maintain
+ongoing research into the toxicity of liquid gasoline contact, water and soil
+pollution, evaporative emissions, and tailpipe emissions [56]. As toxicity
+is found, the quantities in gasoline of the specific chemical ( benzene ),
+or family of chemicals ( alkyl leads, aromatics, olefins ) are regulated.<p>
+
+The recent dramatic changes caused by the need to reduce alkyl leads,
+halogens, olefins, aromatics has resulted in whole new families of compounds
+( ethers, alcohols ) being introduced into fuels without prior detailed
+toxicity studies being completed. If adverse results appear, these compounds
+are also likely to be regulated to protect people and the environment. <p>
+
+Also, as the chemistry of emissions is unravelled, the chemical precursors
+to toxic tailpipe emissions ( such as higher aromatics that produce benzene
+emissions ) are also controlled, even if they are not toxic.<p>
+<h3>
+5.10 What does "renewable" fuel/oxygenate mean?
+</h3>
+The general definition of "renewable" is that the carbon originates from
+recent biomass, and thus does not contribute to the increased CO2 emissions.
+A truly "long-term" view could claim that fossil fuels are "renewable" on a
+100 million year timescale :-). There is currently a major battle between
+the ethanol/ETBE lobby ( agricultural, corn growing ), and the methanol/MTBE
+lobby ( oil company, petrochemical ) over an EPA mandate demanding that a
+specific percentage of the oxygenates in gasoline are produced from
+"renewable" sources [57].  <p>
+
+Unfortunately, "renewable" ethanol is not cost competitive when crude oil
+is $18/bbl, so a federal subsidy ( $0.54/US Gallon ) and additional state
+subsidies ( 11 states - from $0.08(Michigan) to $0.66(Tenn.)/US Gal.) are
+provided. A judgement on the use of "renewable" oxygenates is expected in
+early 1995.<p>
+<h3>
+5.11 Will oxygenated gasoline damage my vehicle?
+</h3>
+The following comments assume that your vehicle was designed to operate on
+unleaded, if not, then damage like valve seat recession may also occur.
+Damage should not occur if the gasoline is correctly formulated, and you
+select the appropriate octane, but oxygenated gasoline will hurt your pocket.
+In the first year of mandated oxygenates, it appears some refiners did not
+carefully formulate their oxygenated gasoline, and driveability and emissions
+problems occurred. Most reputable brands are now carefully formulated.
+Some older activated carbon canisters may not function efficiently with
+oxygenated gasolines, but this is a function of the type of carbon used.
+How your vehicle responds to oxygenated gasoline depends on the engine
+management system and state of tune. A modern system will automatically
+compensate for all of the currently-permitted oxygenate levels, thus your
+fuel consumption will increase. Older, poorly-maintained, engines may
+require a tune up to maintain acceptable driveability.<p>
+
+Be prepared to try several different brands of reformulated gasolines to
+identify the most suitable brand for your vehicle, and be prepared to change
+again with the seasons. This is because the refiners can choose the
+oxygenate they use to meet the regulations, and may choose to set some fuel
+properties, such as volatility, differently to their competitors. <p>
+
+Most stories of corrosion etc, are derived from anhydrous methanol corrosion
+of light metals (aluminum, magnesium), however the addition of either 0.5%
+water to pure methanol, or corrosion inhibitors to methanol/gasoline blends
+will prevent this. If you observe corrosion, talk to your gasoline supplier.
+Oxygenated fuels may either swell or shrink some elastomers on older cars,
+depending on the aromatic and olefin content of the fuels. Cars later than
+1990 should not experience compatibility problems, and cars later than 1994
+should not experience driveability problems, but they will experience
+increased fuel consumption, depending on the state of tune and engine
+management system.  <p>
+<h3>
+5.12 What does "reactivity" of emissions mean?
+</h3>
+The traditional method of exhaust regulations was to specify the actual HC,
+CO, NOx, and particulate contents. With the introduction of oxygenates and
+reformulated gasolines, the volatile organic carbon (VOC) species in the
+exhaust also changed. The "reactivity" refers to the ozone-forming potential
+of the VOC emissions when they react with NOx, and is being introduced as a
+regulatory means of ensuring that automobile emissions do actually reduce
+smog formation. The ozone-forming potential of chemicals is defined as the
+number of molecules of ozone formed per VOC carbon atom, and this is called
+the Incremental Reactivity. Typical values ( big is bad :-) ) are [45]:<p>
+<pre><b>
+Maximum Incremental Reactivities as mg Ozone / mg VOC
+</b>
+                  carbon monoxide           0.054
+alkanes           methane                   0.0148
+                  ethane                    0.25
+                  propane                   0.48
+                  n-butane                  1.02
+olefins           ethylene                  7.29
+                  propylene                 9.40
+                  1,3 butadiene            10.89
+aromatics         benzene                   0.42
+                  toluene                   2.73
+                  meta-xylene               8.15
+                  1,3,5-trimethyl benzene  10.12
+oxygenates        methanol                  0.56
+                  ethanol                   1.34
+                  MTBE                      0.62
+                  ETBE                      1.98
+</pre>
+<h3>
+5.13 What are "carbonyl" compounds?
+</h3>
+Carbonyls are produced in large amounts under lean operating conditions,
+especially when oxygenated fuels are used. Most carbonyls are toxic, and the
+carboxylic acids can corrode metals. The emission of carbonyls can be
+controlled by combustion stoichiometry and exhaust catalysts.  <p>
+Typical carbonyls are:-<p>
+<UL>
+<LI>aldehydes ( containing -CHO ),
+  <UL>
+	<LI>formaldehyde (HCHO) - which is formed in large amounts during lean
+                          combustion of methanol [58].
+	<LI>acetaldehyde (CH2CHO) - which is formed during ethanol combustion.
+	<LI>acrolein (CH2=CHCHO) - a very potent irritant.
+  </UL>
+<LI>ketones ( containing C=0 ),
+<LI>acetone (CH3COCH3)
+<LI>carboxylic acids ( containing -COOH ),
+  <UL>
+	<LI>formic acid (HCOOH) - formed during lean methanol combustion.
+	<LI>acetic acid (CH3COOH).
+  </UL>
+</UL>
+<h3>
+5.14 What are "gross polluters"?
+</h3>
+It has always been known that the EPA emissions tests do not reflect real
+world conditions. There have been several attempts to identify vehicles on
+the road that do not comply with emissions standards. Recent remote sensing
+surveys have demonstrated that the highest 10% of CO emitters produce over
+50% of the pollution, and the same ratio applies for the HC emitters - which
+may not be the same vehicles [59,60,61]. 20% of the CO emitters are
+responsible for 80% of the CO emissions, consequently modifying gasoline
+composition is only one aspect of pollution reduction. The new additives can
+help maintain engine condition, but they can not compensate for out-of-tune,
+worn, or tampered-with engines.<p>
+
+The most famous of these remote sensing systems is the FEAT ( Fuel Efficiency
+Automobile Test ) team from the University of Denver [62]. This team is
+probably the world leader in remote sensing of auto emissions to identify
+grossly polluting vehicles. The system measures CO/CO2 ratio, and the
+HC/CO2 ratio in the exhaust of vehicles passing through an infra-red light
+beam crossing the road 25cm above the surface. The system also includes a
+video system that records the licence plate, date, time, calculated exhaust
+CO, CO2, and HC. The system is effective for traffic lanes up to 18 metres
+wide, however rain, snow, and water spray can cause scattering of the beam.
+Reference signals monitor such effects and, if possible, compensate. The
+system has been comprehensively validated, including using vehicles with
+on-board emissions monitoring instruments.<p>
+
+They can monitor up to 1000 vehicles an hour and, as an example,they were
+invited to Provo, Utah to monitor vehicles, and gross polluters would be
+offered free repairs [63]. They monitored over 10,000 vehicles and mailed
+114 letters to owners of vehicles newer than 1965 that had demonstrated high
+CO levels. They received 52 responses and repairs started in Dec 1991, and
+continued to Mar 1992. They offered to purchase two vehicles at blue book
+price.  They were declined, and so attempted to modify those vehicles, even
+though their condition did not justify the expense. <p>
+<pre><b>
+ The entire monitored fleet at Provo (Utah) during Winter 1991/1992
+ Model year               Grams CO/gallon            Number of
+                    (Median value) (mean value)      Vehicles </b>
+   92                    40             80              247
+   91                    55                            1222
+   90                    75                            1467
+   89                    80                            1512
+   88                    85                            1651
+   87                    90                            1439
+   86                   100            300             1563
+   85                   120                            1575
+   84                   125                            1206
+   83                   145                             719
+   82                   170                             639
+   81                   230                             612
+   80                   220            500              551
+   79                   350                             667
+   78                   420                             584
+   77                   430                             430
+   76                   770                             317
+   75                   760            950              163
+   Pre 75               920           1060              878
+</pre>
+As observed elsewhere, over half the CO was emitted by about 10% of the
+vehicles. If the 47 worst polluting vehicles were removed, that achieves
+more than removing the 2,500 lowest emitting vehicles from the total tested
+fleet.<p>
+
+Surveys of vehicle populations have demonstrated that emissions systems had
+been tampered with on over 40% of the gross polluters, and an additional 20%
+had defective emission control equipment [64]. No matter what changes are
+made to gasoline, if owners "tune" their engines for power, then the majority
+of such "tuned" vehicle will become gross polluters. Professional repairs to
+gross polluters usually improves fuel consumption, resulting in a low cost to
+owners ( $32/pa/Ton CO year ). The removal of CO in the Provo example above
+was costed at $200/Ton CO, compared to Inspection and Maintenance programs
+($780/Ton CO ), and oxygenates ( $1034-$1264/Ton CO in Colorado 1991-2 ), and
+UNOCALs vehicle scrapping programme ( $1025/Ton of all pollutants ).<p>
+
+Thus, identifying and repairing or removing gross polluters can be far more
+cost-effective than playing around with reformulated gasolines and
+oxygenates.
+
+<hr>
+<h2>Subject: 6. What do Fuel Octane ratings really indicate?</h2>
+<h3>
+6.1  Who invented Octane Ratings?
+</h3>
+Since 1912 the spark ignition internal combustion engine's compression ratio
+had been constrained by the unwanted "knock" that could rapidly destroy
+engines. "Knocking" is a very good description of the sound heard from an
+engine using fuel of too low octane. The engineers had blamed the "knock"
+on the battery ignition system that was added to cars along with the
+electric self-starter. The engine developers knew that they could improve
+power and efficiency if knock could be overcome. <p>
+
+Kettering assigned Thomas Midgley, Jr. to the task of finding the exact
+cause of knock [16]. They used a Dobbie-McInnes manograph to demonstrate
+that the knock did not arise from preignition, as was commonly supposed, but
+arose from a violent pressure rise _after_ ignition. The manograph was not
+suitable for further research, so Midgley and Boyd developed a high-speed
+camera to see what was happening. They also developed a "bouncing pin"
+indicator that measured the amount of knock [7]. Ricardo had developed an
+alternative concept of HUCF ( Highest Useful Compression Ratio ) using a
+variable-compression engine. His numbers were not absolute, as there were
+many variables, such as ignition timing, cleanliness, spark plug position,
+engine temperature. etc.<p>
+
+In 1926 Graham Edgar suggested using two hydrocarbons that could be produced
+in sufficient purity and quantity [9]. These were "normal heptane", that
+was already obtainable in sufficient purity from the distillation of Jeffrey
+pine oil, and " an octane, named 2,4,4-trimethyl pentane " that he first
+synthesized. Today we call it " iso-octane " or 2,2,4-trimethyl pentane. The
+octane had a high anti-knock value, and he suggested using the ratio of the
+two as a reference fuel number. He demonstrated that all the commercially-
+available gasolines could be bracketed between 60:40 and 40:60 parts by
+volume heptane:iso-octane.<p>
+
+The reason for using normal heptane and iso-octane was because they both
+have similar volatility properties, specifically boiling point, thus the
+varying ratios 0:100 to 100:0 should not exhibit large differences in
+volatility that could affect the rating test.<p>
+<pre><b>
+                                                           Heat of
+               Melting Point  Boiling Point  Density    Vaporisation
+                     C              C          g/ml         MJ/kg </b>
+normal heptane    -90.7           98.4       0.684          0.365 @ 25C
+iso octane       -107.45          99.3       0.6919         0.308 @ 25C
+</pre>
+Having decided on standard reference fuels, a whole range of engines and
+test conditions appeared, but today the most common are the Research Octane
+Number ( RON ), and the Motor Octane Number ( MON ).<p>
+<h3>
+6.2  Why do we need Octane Ratings?
+</h3>
+To obtain the maximum energy from the gasoline, the compressed fuel/air
+mixture inside the combustion chamber needs to burn evenly, propagating out
+from the spark plug until all the fuel is consumed. This would deliver an
+optimum power stroke. In real life, a series of pre-flame reactions will
+occur in the unburnt "end gases" in the combustion chamber before the flame
+front arrives. If these reactions form molecules or species that can
+autoignite before the flame front arrives, knock will occur [13,14].<p>
+
+Simply put, the octane rating of the fuel reflects the ability of the
+unburnt end gases to resist spontaneous autoignition under the engine test
+conditions used. If autoignition occurs, it results in an extremely rapid
+pressure rise, as both the desired spark-initiated flame front, and the
+undesired autoignited end gas flames are expanding. The combined pressure
+peak arrives slightly ahead of the normal operating pressure peak, leading
+to a loss of power and eventual overheating. The end gas pressure waves are
+superimposed on the main pressure wave, leading to a sawtooth pattern of
+pressure oscillations that create the "knocking" sound.<p>
+
+The combination of intense pressure waves and overheating can induce piston
+failure in a few minutes. Knock and preignition are both favoured by high
+temperatures, so one may lead to the other. Under high-speed conditions
+knock can lead to preignition, which then accelerates engine destruction
+[17].<p>
+<h3>
+6.3  What fuel property does the Octane Rating measure?
+</h3>
+The fuel property the octane ratings measure is the ability of the unburnt
+end gases to spontaneously ignite under the specified test conditions.
+Within the chemical structure of the fuel is the ability to withstand
+pre-flame conditions without decomposing into species that will autoignite
+before the flame-front arrives. Different reaction mechanisms, occurring at
+various stages of the pre-flame compression stroke, are responsible for the
+undesirable, easily-autoignitable, end gases.<p>
+
+During the oxidation of a hydrocarbon fuel, the hydrogen atoms are removed
+one at a time from the molecule by reactions with small radical species
+(such as OH and HO2), and O and H atoms. The strength of carbon-hydrogen
+bonds depends on what the carbon is connected to. Straight chain HCs such as
+normal heptane have secondary C-H bonds that are significantly weaker than
+the primary C-H bonds present in branched chain HCs like iso-octane [13,14].   <p>
+
+The octane rating of hydrocarbons is determined by the structure of the
+molecule, with long, straight hydrocarbon chains producing large amounts of
+easily-autoignitable pre-flame decomposition species, while branched and
+aromatic hydrocarbons are more resistant. This also explains why the octane
+ratings of paraffins consistently decrease with carbon number. In real life,
+the unburnt "end gases" ahead of the flame front encounter temperatures up
+to about 700C due to piston motion and radiant and conductive heating, and
+commence a series of pre-flame reactions. These reactions occur at different
+thermal stages, with the initial stage ( below 400C ) commencing with the
+addition of molecular oxygen to alkyl radicals, followed by the internal
+transfer of hydrogen atoms within the new radical to form an unsaturated,
+oxygen-containing species. These new species are susceptible to chain
+branching involving the HO2 radical during the intermediate temperature
+stage (400-600C), mainly through the production of OH radicals. Above 600C,
+the most important reaction that produces chain branching is the reaction of
+one hydrogen atom radical with molecular oxygen to form O and OH radicals.<p>
+
+The addition of additives such as alkyl lead and oxygenates can
+significantly affect the pre-flame reaction pathways. Anti-knock additives
+work by interfering at different points in the pre-flame reactions, with
+the oxygenates retarding undesirable low temperature reactions, and the
+alkyl lead compounds react in the intermediate temperature region to
+deactivate the major undesirable chain branching sequence [13,14]. <p>
+
+The antiknock ability is related to the "autoignition temperature" of the
+hydrocarbons. Antiknock ability is _not_ substantially related to:-<p>
+<OL>
+<LI>The energy content of fuel, this should be obvious, as oxygenates have
+   lower energy contents, but high octanes.
+<LI>The flame speed of the conventionally ignited mixture, this should be
+   evident from the similarities of the two reference hydrocarbons.
+   Although flame speed does play a minor part, there are many other factors
+   that are far more important. ( such as compression ratio, stoichiometry,
+   combustion chamber shape, chemical structure of the fuel, presence of
+   antiknock additives, number and position of spark plugs, turbulence etc.)
+   Flame speed does not correlate with octane.
+</OL>
+<h3>
+6.4  Why are two ratings used to obtain the pump rating?
+</h3>
+The correct name for the (RON+MON)/2 formula is the "antiknock index",
+and it remains the most important quality criteria for motorists [25].<p>
+
+The initial octane method developed in the 1920s was the Motor Octane method
+and, over several decades, a large number of octane test methods appeared.
+These were variations to either the engine design, or the specified operating
+conditions [65]. During the 1950-1960s attempts were made to internationally
+standardise and reduce the number of Octane Rating test procedures.<p>
+
+During the late 1930s - mid 1960s, the Research method became the important
+rating because it more closely represented the octane requirements of the
+motorist using the fuels/vehicles/roads then available. In the late 1960s
+German automakers discovered their engines were destroying themselves on
+long Autobahn runs, even though the Research Octane was within specification.
+They discovered that either the MON or the Sensitivity ( the numerical
+difference between the RON and MON numbers ) also had to be specified. Today
+it is accepted that no one octane rating covers all use. In fact, during
+1994, there have been increasing concerns in Europe about the high
+Sensitivity of some commercially-available unleaded fuels.<p>
+
+The design of the engine and car significantly affect the fuel octane
+requirement for both RON and MON. In the 1930s, most vehicles would run on
+the specified Research Octane fuel, almost regardless of the Motor Octane,
+whereas most 1990s engines have a 'severity" of one, which means the engine
+is unlikely to knock if a changes of one RON is matched by an equal and
+opposite change of MON [19].<p>
+<h3>
+6.5  What does the Motor Octane rating measure?
+</h3>
+The conditions of the Motor method represent severe, sustained high speed,
+high load driving. For most hydrocarbon fuels, including those with either
+lead or oxygenates, the motor octane number (MON) will be lower than the
+research octane number (RON).<p>
+<pre>
+Test Engine conditions                Motor Octane
+Test Method                         ASTM D2700-92 [66]
+Engine                       Cooperative Fuels Research ( CFR )
+Engine RPM                               900 RPM
+Intake air temperature                    38 C
+Intake air humidity           3.56 - 7.12 g H2O / kg dry air
+Intake mixture temperature               149 C
+Coolant temperature                      100 C
+Oil Temperature                           57 C
+Ignition Advance - variable     Varies with compression ratio
+                                 ( eg 14 - 26 degrees BTDC )
+Carburettor Venturi                       14.3 mm
+</pre>
+<h3>
+6.6  What does the Research Octane rating measure?
+</h3>
+The Research method settings represent typical mild driving, without
+consistent heavy loads on the engine.<p>
+<pre>
+Test Engine conditions               Research Octane
+Test Method                         ASTM D2699-92 [67]
+Engine                       Cooperative Fuels Research ( CFR )
+Engine RPM                               600 RPM
+Intake air temperature       Varies with barometric pressure
+                           ( eg 88kPa = 19.4C, 101.6kPa = 52.2C )
+Intake air humidity           3.56 - 7.12 g H2O / kg dry air
+Intake mixture temperature            Not specified
+Coolant temperature                      100 C
+Oil Temperature                           57 C
+Ignition Advance - fixed            13 degrees BTDC
+Carburettor Venturi           Set according to engine altitude
+                           ( eg 0-500m=14.3mm, 500-1000m=15.1mm )
+</pre>
+<h3>
+6.7  Why is the difference called "sensitivity"?
+</h3>
+RON - MON = Sensitivity. Because the two test methods use different test
+conditions, especially the intake mixture temperatures and engine speeds,
+then a fuel that is sensitive to changes in operating conditions will have
+a larger difference between the two rating methods. Modern fuels typically
+have sensitivities around 10. The US 87 (RON+MON/2) unleaded gasoline is
+required to have a 82+ MON, thus preventing very high sensitivity fuels [25]. <p>
+<h3>
+6.8  What sort of engine is used to rate fuels?
+</h3>
+Automotive octane ratings are determined in a special single-cylinder engine
+with a variable compression ratio ( CR 4:1 to 18:1 ) known as a Cooperative
+Fuels Research ( CFR ) engine. The cylinder bore is 82.5mm, the stroke is
+114.3mm, giving a displacement of 612 cm3. The piston has four compression
+rings, and one oil control ring. The intake valve is shrouded. The head and
+cylinder are one piece, and can be moved up and down to obtain the desired
+compression ratio.  The engines have a special four-bowl carburettor that
+can adjust individual bowl air/fuel ratios. This facilitates rapid switching
+between reference fuels and samples. A magnetorestrictive detonation sensor
+in the combustion chamber measures the rapid changes in combustion chamber
+pressure caused by knock, and the amplified signal is measured on a
+"knockmeter" with a 0-100 scale [66,67]. A complete Octane Rating engine
+system costs about $200,000 with all the services installed. Only one
+company manufactures these engines, the Waukesha Engine Division of Dresser
+Industries, Waukesha. WI 53186.<p>
+<h3>
+6.9  How is the Octane rating determined?
+</h3>
+To rate a fuel, the engine is set to an appropriate compression ratio that
+will produce a knock of about 50 on the knockmeter for the sample when the
+air/fuel ratio is adjusted on the carburettor bowl to obtain maximum knock.
+Normal heptane and iso-octane are known as primary reference fuels. Two
+blends of these are made, one that is one octane number above the expected
+rating, and another that is one octane number below the expected rating.
+These are placed in different bowls, and are also rated with each air/fuel
+ratio being adjusted for maximum knock. The higher octane reference fuel
+should produce a reading around 30-40, and the lower reference fuel should
+produce a reading of 60-70. The sample is again tested, and if it does not
+fit between the reference fuels, further reference fuels are prepared, and
+the engine readjusted to obtain the required knock. The actual fuel rating
+is interpolated from the knockmeter readings [66,67].  <p>
+<h3>
+6.10 What is the Octane Distribution of the fuel?
+</h3>
+The combination of vehicle and engine can result in specific requirements
+for octane that depend on the fuel. If the octane is distributed differently
+throughout the boiling range of a fuel, then engines can knock on one brand
+of 87 (RON+MON/2), but not on another brand. This "octane distribution" is
+especially important when sudden changes in load occur, such as high load,
+full throttle, acceleration. The fuel can segregate in the manifold, with
+the very volatile fraction reaching the combustion chamber first and, if
+that fraction is deficient in octane, then knock will occur until the less
+volatile, higher octane fractions arrive [17]. <p>
+
+Some fuel specifications include delta RONs, to ensure octane distribution
+throughout the fuel boiling range was consistent. Octane distribution was
+seldom a problem with the alkyl lead compounds, as the tetra methyl lead
+and tetra ethyl lead octane volatility profiles were well characterised, but
+it can be a major problem for the new, reformulated, low aromatic gasolines,
+as MTBE boils at 55C, whereas ethanol boils at 78C. Drivers have discovered
+that an 87 (RON+MON/2) from one brand has to be substituted with an 89
+(RON+MON/2) of another, and that is because of the combination of their
+driving style, engine design, vehicle mass, fuel octane distribution, fuel
+volatility, and the octane-enhancers used.<p>
+<h3>
+6.11 What is a "delta Research Octane number"?
+</h3>
+To obtain an indication of behaviour of a gasoline during any manifold
+segregation, an octane rating procedure called the Distribution Octane
+Number was used. The rating engine had a special manifold that allowed
+the heavier fractions to be separated before they reached the combustion
+chamber [17]. That method has been replaced by the "delta" RON procedure. <p>
+
+The fuel is carefully distilled to obtain a distillate fraction that boils
+to the specified temperature, which is usually 100C. Both the parent fuel
+and the distillate fraction are rated on the  octane engine using the
+Research Octane method [68]. The difference between these is the delta
+RON(100C), usually just called the delta RON.<p>
+<h3>
+6.12 How do other fuel properties affect octane?
+</h3>
+Several other properties affect knock. The most significant determinant of
+octane is the chemical structure of the hydrocarbons and their response to
+the addition of octane enhancing additives. Other factors include:-<p>
+<UL>
+<LI><b>Front End Volatility - </b>Paraffins are the major component in gasoline, and
+  the octane number decreases with increasing chain length or ring size, but
+  increases with chain branching. Overall, the effect is a significant
+  reduction in octane if front end volatility is lost, as can happen with
+  improper or long term storage. Fuel economy on short trips can be improved
+  by using a more volatile fuel, at the risk of carburettor icing and
+  increased evaporative emissions.
+<LI><b>Final Boiling Point.- </b>Decreases in the final boiling point increase fuel
+  octane. Aviation gasolines have much lower final boiling points than
+  automotive gasolines. Note that final boiling points are being reduced
+  because the higher boiling fractions are responsible for disproportionate
+  quantities of pollutants and toxins.
+
+<LI><b>Preignition tendency - </b>both knock and preignition can induce each other.
+</UL>
+<h3>
+6.13 Can higher octane fuels give me more power?
+</h3>
+Not if you are already using the proper octane fuel. The engine will be
+already operating at optimum settings, and a higher octane should have no
+effect on the management system. Your driveability and fuel economy will
+remain the same. The higher octane fuel costs more, so you are just throwing
+money away. If you are already using a fuel with an octane rating slightly
+below the optimum, then using a higher octane fuel will cause the engine
+management system to move to the optimum settings, possibly resulting in
+both increased power and improved fuel economy. You may be able to change
+octanes between seasons ( reduce octane in winter ) to obtain the most
+cost-effective fuel without loss of driveability. <p>
+
+Once you have identified the fuel that keeps the engine at optimum settings,
+there is no advantage in moving to an even higher octane fuel. The
+manufacturer's recommendation is conservative, so you may be able to
+carefully reduce the fuel octane. The penalty for getting it badly wrong,
+and not realising that you have, could be expensive engine damage. <p>
+<h3>
+6.14 Does low octane fuel increase engine wear?
+</h3>
+Not if you are meeting the octane requirement of the engine. If you are not
+meeting the octane requirement, the engine will rapidly suffer major damage
+due to knock. You must not use fuels that produce sustained audible knock,
+engine damage will occur. If the octane is just sufficient, the engine
+management system will move settings to a less optimal position, and the
+only major penalty will be increased costs due to poor fuel economy.
+Whenever possible, engines should be operated at the optimum position for
+long-term reliability. Engine wear is mainly related to design,
+manufacturing, maintenance and lubrication factors. Once the octane and
+run-on requirements of the engine are satisfied, increased octane will have
+no beneficial effect on the engine. The quality of gasoline, and the
+additive package used, would be more likely to affect the rate of engine
+wear, rather than the octane rating. <p>
+<h3>
+6.15 Can I mix different octane fuel grades?
+</h3>
+Yes, however attempts to blend in your fuel tank should be carefully
+planned. You should not allow the tank to become empty, and then add 50% of
+lower octane, followed by 50% of higher octane. The fuels may not completely
+mix immediately, especially if there is a density difference. You may get a
+slug of low octane that causes severe knock. You should refill when your
+tank is half full. In general the octane response will be linear for most
+hydrocarbon and oxygenated fuels eg 50:50 of 87 and 91 will give 89. <p>
+
+Attempts to mix leaded high octane to unleaded high octane to obtain higher
+octane are useless. The lead response of the unleaded fuel does not overcome
+the dilution effect, thus 50:50 of 96 leaded and 91 unleaded will give 94.
+Some blends of oxygenated fuels with ordinary gasoline can result in
+undesirable increases in volatility due to volatile azeotropes, and that
+some oxygenates can have negative lead responses. Also note that the octane
+requirement of some engines is determined by the need to avoid run-on, not
+to avoid knock.<p>
+<h3>
+6.16 What happens if I use the wrong octane fuel?
+</h3>
+If you use a fuel with an octane rating below the requirement of the engine,
+the management system may move the engine settings into an area of less
+efficient combustion, resulting in reduced power and reduced fuel economy.
+You will be losing both money and driveability. If you use a fuel with an
+octane rating higher than what the engine can use, you are just wasting
+money by paying for octane that you can not utilise. Forget the stories
+about higher octanes having superior additive packages - they do not. If
+your vehicle does not have a knock sensor, then using an octane significantly
+below the requirement means that the little men with hammers will gleefully
+pummel your engine to pieces. <p>
+
+You should initially be guided by the vehicle manufacturer's recommendations,
+however you can experiment, as the variations in vehicle tolerances can
+mean that Octane Number Requirement for a given vehicle model can range
+over 6 Octane Numbers. Caution should be used, and remember to compensate
+if the conditions change, such as carrying more people or driving in
+different ambient conditions. You can often reduce the octane of the fuel
+you use in winter because the temperature decrease and possible humidity
+changes may significantly reduce the octane requirement of the engine.<p>
+
+Use the octane that provides cost-effective driveability and performance,
+using anything more is waste of money, and anything less could result in
+an unscheduled, expensive visit to your mechanic.<p>
+<h3>
+6.17 Can I tune the engine to use another octane fuel?
+</h3>
+In general, modern engine management systems will compensate for fuel octane,
+and once you have satisfied the optimum octane requirement, you are at the
+optimum overall performance area of the engine map. Tuning changes to obtain
+more power will probably adversely affect both fuel economy and emissions.
+Unless you have access to good diagnostic equipment that can ensure
+regulatory limits are complied with, it is likely that adjustments may be
+regarded as illegal tampering by your local regulation enforcers. If you are
+skilled, you will be able to legally wring slightly more performance from
+your engine by using a dynamometer in conjunction with engine and exhaust gas
+analyzers and a well-designed, retrofitted, performance engine management
+chip.<p>
+<h3>
+6.18 How can I increase the fuel octane?
+</h3>
+Not simply, you can purchase additives, however these are not cost-effective
+and a survey in 1989 showed the cost of increasing the octane rating of one
+US gallon by one unit ranged from 10 cents ( methanol ), 50 cents (MMT),
+$1.00 ( TEL ), to $3.25 ( xylenes ) [69]. It is preferable to purchase a
+higher octane fuel such as racing fuel, aviation gasolines, or methanol.
+Sadly, the price of chemical grade methanol has almost doubled during 1994.
+If you plan to use alcohol blends, ensure your fuel handling system is
+compatible, and that you only use dry gasoline by filling up early in the
+morning when the storage tanks are cool. Also ensure that the service station
+storage tank has not been refilled recently. Retailers are supposed to wait
+several hours before bringing a refilled tank online, to allow suspended
+undissolved water to settle out, but they do not always wait the full period. <p>
+<h3>
+6.19 Are aviation gasoline octane numbers comparable?
+</h3>
+Aviation gasolines were all highly leaded and graded using two numbers, with
+common grades being 80/87, 100/130, and 115/145 [70]. The first number is the
+Aviation rating ( aka Lean Mixture rating ), and the second number is the
+Supercharge rating ( aka Rich Mixture rating ). In the 1970s a new grade,
+100LL ( low lead = 0.53mlTEL/L instead of 1.06mlTEL/L) was introduced to
+replace the 80/87 and 100/130. Soon after the introduction, there was a
+spate of plug fouling, and high cylinder head temperatures resulting in
+cracked cylinder heads [71]. The old 80/87 grade was reintroduced on a
+limited scale.  The Aviation rating is determined using the automotive Motor
+Octane test procedure, and then corrected to an Aviation number using a
+table in the method - it's usually only 1 - 2 Octane units different to the
+Motor value up to 100, but varies significant above that eg 110MON = 128AN.<p>
+
+The second Avgas number is the Rich Mixture method Performance Number ( PN
+- they are not commonly called octane numbers when they are above 100 ), and
+is determined on a supercharged version of the CFR engine which has a fixed
+compression ratio. The method determines the dependence of the highest
+permissible power ( in terms of indicated mean effective pressure ) on
+mixture strength and boost for a specific light knocking setting. The
+Performance Number indicates the maximum knock-free power obtainable from a
+fuel compared to iso-octane = 100. Thus, a PN = 150 indicates that an engine
+designed to utilise the fuel can obtain 150% of the knock-limited power of
+iso-octane at the same mixture ratio. This is an arbitrary scale based on
+iso-octane + varying amounts of TEL, derived from a survey of engines
+performed decades ago. Aviation gasoline PNs are rated using variations of
+mixture strength to obtain the maximum knock-limited power in a supercharged
+engine. This can be extended to provide mixture response curves which define
+the maximum boost ( rich - about 11:1 stoichiometry ) and minimum boost
+( weak about 16:1 stoichiometry ) before knock [71].<p>
+
+The 115/145 grade is being phased out, but even the 100LL has more octane
+than any automotive gasoline. <p>
+
+<hr>
+<h3><b>
+Subject: 7. What parameters determine octane requirement?
+</b>
+7.1  What is the effect of Compression ratio?
+</h3>
+Most people know that an increase in Compression Ratio will require an
+increase in fuel octane for the same engine design. Increasing the
+compression ratio increases the theoretical thermodynamic efficiency of an
+engine according to the standard equation<p>
+<pre>
+Efficiency = 1 - (1/compression ratio)^gamma-1
+</pre>
+where gamma = ratio of specific heats at constant pressure and constant
+volume of the working fluid ( for most purposes air is the working fluid,
+and is treated as an ideal gas ). There are indications that thermal
+efficiency reaches a maximum at a compression ratio of about 17:1 [15].<p>
+
+The efficiency gains are best when the engine is at incipient knock, that's
+why knock sensors ( actually vibration sensors ) are used. Low compression
+ratio engines are less efficient because they can not deliver as much of the
+ideal combustion power to the flywheel. For a typical carburetted engine,
+without engine management [17,24]:-<p>
+<pre>
+   Compression       Octane Number    Brake Thermal Efficiency
+     Ratio            Requirement         ( Full Throttle )
+      5:1                 72                      -
+      6:1                 81                     25 %
+      7:1                 87                     28 %
+      8:1                 92                     30 %
+      9:1                 96                     32 %
+     10:1                100                     33 %
+     11:1                104                     34 %
+     12:1                108                     35 %
+</pre>
+Modern engines have improved significantly on this, and the changing fuel
+specifications and engine design should see more improvements, but
+significant gains may have to await improved engine materials and fuels.<p>
+<h3>
+7.2  What is the effect of changing the air/fuel ratio?
+</h3>
+Traditionally, the greatest tendency to knock was near 13.5:1 air/fuel
+ratio, but was very engine specific. Modern engines, with engine management
+systems, now have their maximum octane requirement near to 14.5:1. For a
+given engine using gasoline, the relationship between thermal efficiency,
+air/fuel ratio, and power is complex. Stoichiometric combustion ( Air/Fuel
+Ratio = 14.7:1 for a typical non-oxygenated gasoline ) is neither maximum
+power - which occurs around A/F 12-13:1 (Rich), nor maximum thermal
+efficiency - which occurs around A/F 16-18:1 (Lean). The air-fuel ratio is
+controlled at part throttle by a closed loop system using the oxygen sensor
+in the exhaust. Conventionally, enrichment for maximum power air/fuel ratio
+is used during full throttle operation to reduce knocking while providing
+better driveability [24]. If the mixture is weakened, the flame speed is
+reduced, consequently less heat is converted to mechanical energy, leaving
+heat in the cylinder walls and head, potentially inducing knock. It is
+possible to weaken the mixture sufficiently that the flame is still present
+when the inlet valve opens again, resulting in backfiring.<p>
+<h3>
+7.3  What is the effect of changing the ignition timing
+</h3>
+The tendency to knock increases as spark advance is increased, eg 2 degrees
+BTDC requires 91 octane, whereas 14 degrees BTDC requires 96 octane.
+If you advance the spark, the flame front starts earlier, and the end gases
+start forming earlier in the cycle, providing more time for the autoigniting
+species to form before the piston reaches the optimum position for power
+delivery, as determined by the normal flame front propagation. It becomes a
+race between the flame front and decomposition of the increasingly-squashed
+end gases. High octane fuels produce end gases that take longer to
+autoignite, so the good flame front reaches and consumes them properly. <p>
+
+The ignition advance map is partly determined by the fuel the engine is
+intended to use. The timing of the spark is advanced sufficiently to ensure
+that the fuel/air mixture burns in such a way that maximum pressure of the
+burning charge is about 15-20 degree after TDC. Knock will occur before
+this point, usually in the late compression/early power stroke period.
+The engine management system uses ignition timing as one of the major
+variables that is adjusted if knock is detected. If very low octane fuels
+are used ( several octane numbers below the vehicle's requirement at optimal
+settings ), both performance and fuel economy will decrease.<p>
+
+The actual Octane Number Requirement depends on the engine design, but for
+some 1978 vehicles using standard fuels, the following (R+M)/2 Octane
+Requirements were measured. "Standard" is the recommended ignition timing
+for the engine, probably a few degrees before Top Dead Centre [24].<p>
+<pre>
+     <b>                     Basic Ignition Timing</b>
+Vehicle   Retarded 5 degrees    Standard     Advanced 5 degrees
+  A              88                91               93
+  B              86                90.5             94.5
+  C              85.5              88               90
+  D              84                87.5             91
+  E              82.5              87               90
+</pre>
+The actual ignition timing to achieve the maximum pressure from normal
+combustion of gasoline will depend mainly on the speed of the engine and the
+flame propagation rates in the engine. Knock increases the rate of the
+pressure rise, thus superimposing additional pressure on the normal
+combustion pressure rise. The knock actually rapidly resonates around the
+chamber, creating a series of abnormal sharp spikes on the pressure diagram.
+The normal flame speed is fairly consistent for most gasoline HCs, regardless
+of octane rating, but the flame speed is affected by stoichiometry. Note that
+the flame speeds in this FAQ are not the actual engine flame speeds. A 12:1
+CR gasoline engine at 1500 rpm would have a flame speed of about 16.5 m/s,
+and a similar hydrogen engine yields 48.3 m/s, but such engine flame speeds
+are also very dependent on stoichiometry.  <p>
+<h3>
+7.4  What is the effect of engine management systems?
+</h3>
+Engine management systems are now an important part of the strategy to
+reduce automotive pollution. The good news for the consumer is their ability
+to maintain the efficiency of gasoline combustion, thus improving fuel
+economy. The bad news is their tendency to hinder tuning for power. A very
+basic modern engine system could monitor and control:- mass air flow, fuel
+flow, ignition timing, exhaust oxygen ( lambda oxygen sensor ), knock
+( vibration sensor ), EGR, exhaust gas temperature, coolant temperature, and
+intake air temperature. The knock sensor can be either a nonresonant type
+installed in the engine block and capable of measuring a wide range of knock
+vibrations ( 5-15 kHz ) with minimal change in frequency, or a resonant type
+that has excellent signal-to-noise ratio between 1000 and 5000 rpm [72].<p>
+
+A modern engine management system can compensate for altitude, ambient air
+temperature, and fuel octane. The management system will also control cold
+start settings, and other operational parameters. There is a new requirement
+that the engine management system also contain an on-board diagnostic
+function that warns of malfunctions such as engine misfire, exhaust catalyst
+failure, and evaporative emissions failure. The use of fuels with alcohols
+such as methanol can confuse the engine management system as they generate
+more hydrogen which can fool the oxygen sensor [47] .<p>
+
+The use of fuel of too low octane can actually result in both a loss of fuel
+economy and power, as the management system may have to move the engine
+settings to a less efficient part of the performance map. The system retards
+the ignition timing until only trace knock is detected, as engine damage
+from knock is of more consequence than power and fuel economy. <p>
+<h3>
+7.5  What is the effect of temperature and load?
+</h3>
+Increasing the engine temperature, particularly the air/fuel charge
+temperature, increases the tendency to knock. The Sensitivity of a fuel can
+indicate how it is affected by charge temperature variations. Increasing
+load increases both the engine temperature, and the end-gas pressure, thus
+the likelihood of knock increases as load increases.<p>
+<h3>
+7.6  What is the effect of engine speed?.
+</h3>
+Faster engine speed means there is less time for the pre-flame reactions
+in the end gases to occur, thus reducing the tendency to knock. On engines
+with management systems, the ignition timing may be advanced with engine
+speed and load, to obtain optimum efficiency at incipient knock. In such
+cases, both high and low engines speeds may be critical.<p>
+<h3>
+7.7  What is the effect of engine deposits?
+</h3>
+A new engine may only require a fuel of 6-9 octane numbers lower than the
+same engine after 25,000 km. This Octane Requirement Increase (ORI) is due to
+the formation of a mixture of organic and inorganic deposits resulting from
+both the fuel and the lubricant. They reach an equilibrium amount because
+of flaking, however dramatic changes in driving styles can also result in
+dramatic changes of the equilibrium position. When the engine starts to burn
+more oil, the octane requirement can increase again. ORIs up to 12 are not
+uncommon, depending on driving style [17,19]. The deposits produce the ORI
+by several mechanisms:- <p>
+ - they reduce the combustion chamber volume, effectively increasing the
+   compression ratio.
+ - they also reduce thermal conductivity, thus increasing the combustion
+   chamber temperatures.
+ - they catalyse undesirable pre-flame reactions that produce end gases with
+   low autoignition temperatures.
+<h3>
+7.8  What is the Road Octane requirement of an vehicle?
+</h3>
+The actual octane requirements of a vehicle is called the Octane Number
+Requirement ( ONR ), and is determined by using standard octane fuels that
+can be blends of iso-octane and normal heptane, or commercial gasolines.
+The vehicle is tested under a wide range of conditions and loads, using
+different octane fuels until trace knock is detected. The conditions that
+require maximum octane are not consistent, but often are full-throttle
+acceleration from low starting speeds using the highest gear available. They
+can even be at constant speed conditions [17]. Engine management systems
+that adjust the octane requirement may also reduce the power output on low
+octane fuel, resulting in increased fuel consumption. The maximum ONR is of
+most interest, as that usually defines the recommended fuel.<p>
+
+The octane rating engines do not reflect actual conditions in a vehicle,
+consequently there are standard procedures for evaluating the performance
+of the gasoline in an engine. The most common are:-
+1. The Modified Uniontown Procedure. Full throttle accelerations are made
+   from low speed using primary reference fuels. The ignition timing is
+   adjusted until trace knock is detected at some stage. Several reference
+   fuels are used, and a Road Octane Number v Basic Ignition timing graph is
+   obtained. The fuel sample is tested, and the ignition timing setting is
+   read from the graph to provide the Road Octane Number. This is a rapid
+   procedure but provides minimal information.
+2. The Modified Borderline Knock Procedure. The automatic spark advance is
+   disabled, and a manual adjustment facility added. Accelerations are
+   performed as in the Modified Uniontown Procedure, however trace knock is
+   maintained throughout the run. A map of ignition advance v engine speed
+   is made for several reference fuels and the sample fuels. This procedure
+   can show the variation of road octane with engine speed. <p>
+<h3>
+7.9  What is the effect of air temperature?
+</h3>
+An increase in ambient air temperature of 5.6C increases the octane
+requirement of an engine by 0.44 - 0.54 MON [17,24]. When the combined effects
+of air temperature and humidity are considered, it is often possible to use
+one octane grade in summer, and use a lower octane rating in winter. The
+Motor octane rating has a higher charge temperature, and increasing charge
+temperature increases the tendency to knock, so fuels with low Sensitivity
+( the difference between RON and MON numbers ) are less affected by air
+temperature.<p>
+<h3>
+7.10  What is the effect of altitude?
+</h3>
+The effect of increasing altitude may be nonlinear, with one study reporting
+a decrease of the octane requirement of 1.4 RON/300m from sea level to 1800m
+and 2.5 RON/300m from 1800m to 3600m [17]. Other studies report the octane
+number requirement decreased by 1.0 - 1.9 RON/300m without specifying
+altitude [24]. Modern engine management systems can accommodate this
+adjustment, and in some recent studies, the octane number requirement was
+0.2 - 0.5 Antiknock Index/300m. The reduction on older engines was due to:-<p>
+ - reduced air density provides lower combustion temperature and pressure.
+ - fuel is metered according to air volume, consequently as density decreases
+   the stoichiometry moves to rich, with a lower octane number requirement.
+ - manifold vacuum controlled spark advance, and reduced manifold vacuum
+   results in less spark advance.
+<h3>
+7.11  What is the effect of humidity?.
+</h3>
+An increase of absolute humidity of 1.0 g water/ kg of dry air lowers the
+octane requirement of an engine by 0.25 - 0.32 MON [17,24].<p>
+<h3>
+7.12  What does water injection achieve?.
+</h3>
+Water injection was used in WWII aviation engine to provide a large increase
+in available power for very short periods. The injection of water does
+decrease the dew point of the exhaust gases. This has potential corrosion
+problems. The very high specific heat and heat of vaporisation of water
+means that the combustion temperature will decrease. It has been shown that
+a 10% water addition to methanol reduces the power and efficiency by about
+3%, and doubles the unburnt fuel emissions, but does reduce NOx by 25% [73].
+A decrease in combustion temperature will reduce the theoretical maximum
+possible efficiency of an otto cycle engine that is operating correctly,
+but may improve efficiency in engines that are experiencing abnormal
+combustion on existing fuels.<p>
+
+Some aviation SI engines still use boost fluids. The water/methanol mixtures
+are used to provide increased power for short periods, up to 40% more -
+assuming adequate mechanical strength of the engine. The 40/60 or 45/55
+water/methanol mixtures are used as boost fluids for aviation engines because
+water would freeze. Methanol is just "preburnt" methane, consequently it only
+has about half the energy content of gasoline, but it does have a higher heat
+of vaporisation, which has a significant cooling effect on the charge.
+Water/methanol blends are more cost-effective than gasoline for combustion
+cooling. The high Sensitivity of alcohol fuels has to be considered in the
+engine design and settings.<p>
+
+Boost fluids are used because they are far more economical than using the
+fuel. When a supercharged engine has to be operated at high boost, the
+mixture has to be enriched to keep the engine operating without knock. The
+extra fuel cools the cylinder walls and the charge, thus delaying the onset
+of knock which would otherwise occur at the associated higher temperatures.<p>
+
+The overall effect of boost fluid injection is to permit a considerable
+increase in knock-free engine power for the same combustion chamber
+temperature. The power increase is obtained from the higher allowable boost.
+In practice, the fuel mixture is usually weakened when using boost fluid
+injection, and the ratio of the two fuel fluids is approximately 100 parts
+of avgas to 25 parts of boost fluid. With that ratio, the resulting
+performance corresponds to an effective uprating of the fuel of about 25%,
+irrespective of its original value. Trying to increase power boosting above
+40% is difficult, as the engine can drown because of excessive liquid [71].<p>
+
+Note that for water injection to provide useful power gains, the engine
+management and fuel systems must be able to monitor the knock and adjust
+both stoichiometry and ignition to obtain significant benefits. Aviation
+engines are designed to accommodate water injection, most automobile engines
+are not. Returns on investment are usually harder to achieve on engines that
+do not normal extend their performance envelope into those regions. Water
+injection has been used by some engine manufacturers - usually as an
+expedient way to maintain acceptable power after regulatory emissions
+baggage was added to the engine, but usually the manufacturer quickly
+produces a modified engine that does not require water injection.<p>
+
+<hr>
+<h3><b>
+Subject: 8. How can I identify and cure other fuel-related problems?
+</b>
+8.1  What causes an empty fuel tank?
+</h3>
+<UL>
+<LI>You forgot to refill it.
+<LI>Your friendly neighbourhood thief "borrowed" the gasoline - the unfriendly
+  one took the vehicle.
+<LI>The fuel tank leaked.
+<LI>Your darling child/wife/husband/partner/mother/father used the car.
+<LI>The most likely reason is that your local garage switched to an oxygenated
+  gasoline, and the engine management system compensated for the oxygen
+  content, causing the fuel consumption to increase significantly.
+</UL>
+<h3>
+8.2  Is knock the only abnormal combustion problem?
+</h3>
+No. Many of the abnormal combustion problems are induced by the same
+conditions, and so one can lead to another.<p>
+
+Preignition occurs when the air/fuel mixture is ignited prematurely by
+glowing deposits or hot surfaces - such as exhaust valves and spark plugs.
+If it continues, it can increase in severity and become Run-away Surface
+Ignition (RSI) which prevents the combustion heat being converted into
+mechanical energy, thus rapidly melting pistons. The Ricardo method uses an
+electrically-heated wire in the engine to measure preignition tendency. The
+scale uses iso-octane as 100 and cyclohexane as 0. <p>
+Some common fuel components:-<p>
+<pre>
+             paraffins       50-100
+             benzene           26
+             toluene           93
+             xylene          >100
+             cyclopentane      70
+             di-isobutylene    64
+             hexene-2         -26
+</pre>
+There is no direct correlation between anti-knock ability and preignition
+tendency, however high combustion chamber temperatures favour both, and so
+one may lead to the other. An engine knocking during high-speed operation
+will increase in temperature and that can induce preignition, and conversely
+any preignition will result in higher temperatures than may induce knock.<p>
+
+Misfire is commonly caused by either a failure in the ignition system, or
+fouling of the spark plug by deposits. The most common cause of deposits
+was the alkyl lead additives in gasoline, and the yellow glaze of various
+lead salts was used by mechanics to assess engine tune. From the upper
+recess to the tip, the composition changed, but typical compounds ( going
+from cold to hot ) were PbClBr; 2PbO.PbClBr; PbO.PbSO4; 3Pb3(PO4)2.PbClBr.<p>
+
+Run-on is the tendency of an engine to continue running after the ignition
+has been switched off. It is usually caused by the spontaneous ignition of
+the fuel/air mixture, rather than by surface ignition from hotspots or
+deposits, as commonly believed. The narrow range of conditions for
+spontaneous ignition of the fuel/air mixture ( engine speed, charge
+temperature, cylinder pressure ) may be created when the engine is switched
+off. The engine may refire, thus taking the conditions out of the critical
+range for a couple of cycles, and then refire again, until overall cooling
+of the engine drops it out of the critical region. The octane rating of the
+fuel is the appropriate parameter, and it is not rare for an engine to
+require a higher Octane fuel to prevent run-on than to avoid knock [17]. <p>
+<h3>
+8.3  Can I prevent carburetter icing?
+</h3>
+Yes, carburettor icing is caused by the combination of highly volatile fuel,
+high humidity and low ambient temperature. The extent of cooling, caused by
+the latent heat of the vaporised gasoline in the carburettor, can be as much
+as 20C, perhaps dropping below the dew point of the charge. If this happens,
+water will condense on the cooler carburettor surfaces, and will freeze if
+the temperature is low enough. The fuel volatility can not always be reduced
+to eliminate icing, so anti-icing additives are used.<p>
+
+Two types of additive are added to gasoline to inhibit icing:- <p>
+- surfactants that form a monomolecular layer over the metal parts that
+  inhibits ice crystal formation. These are usually added at concentrations
+  of 30-150 ppm.
+- cryoscopic additives that depress the freezing point of the condensed water
+  so that it does not turn to ice. Alcohols ( methanol, ethanol, iso-propanol,
+  etc. ) and glycols ( hexylene glycol, dipropylene glycol ) are used at
+  concentrations of 0.03% - 1%.
+
+If you have icing problems, the addition of 100-200mls of methanol to a full
+tank of dry gasoline will prevent icing under most conditions. If you believe
+there is a small amount of water in the fuel tank, add 500mls of isopropanol
+as the first treatment. Oxygenated gasolines using alcohols can also be used.<p>
+<h3>
+8.4  Should I store fuel to avoid the oxygenate season?
+</h3>
+No. The fuel will be from a different season, and will have significantly
+different volatility properties that may induce driveability problems. You
+can tune your engine to perform on oxygenated gasoline as well as it did on
+traditional gasoline, however you will have increased fuel consumption due
+to the useless oxygen in the oxygenates. Some engines may not initially
+perform well on some oxygenated fuels, usually because of the slightly
+different volatility and combustion characteristics. A good mechanic should
+be able to recover any lost performance or driveability, providing the engine
+is in reasonable condition. <p>
+<h3>
+8.5  Can I improve fuel economy by using quality gasolines?
+</h3>
+Yes, several manufacturers have demonstrated that their new gasoline additive
+packages are more effective than traditional gasoline formulations. Texaco
+claim their new vapour phase fuel additive can reduce existing deposits by
+up to 30%, improve fuel economy, and reduce NOx tailpipe emissions by 15%,
+when compared to other advanced liquid phase additives. These claims appear
+to have been verified in independent tests [30]. Other reputable gasoline
+brands will have similar additive packages in their quality products.
+Quality gasolines, of whatever octane ratings, will include a full range of
+gasoline additives designed to provide consistent fuel quality.<p>
+
+Note that oxygenated gasolines must decrease fuel economy for the same power.
+If your engine is initially well-tuned on hydrocarbon gasolines, the
+stoichiometry will move to lean, and maximum power is slightly rich, so
+either the management system ( if you have one ) or your mechanic has to
+increase the fuel flow. The minor improvements in combustion efficiency that
+oxygenates may provide, can not compensate for 2+% of oxygen in the fuel
+that will not provide energy.         <p>
+<h3>
+8.6  What is "stale" fuel, and should I use it?
+</h3>
+"Stale" fuel is caused by improper storage, and usually smells sour. The
+gasoline has been allowed to get warm, thus catalysing olefin decomposition
+reactions, and perhaps also losing volatile material in unsealed containers.
+Such fuel will tend to rapidly form gums, and will usually have a significant
+reduction in octane rating. The fuel can be used by blending with twice the
+volume of new gasoline. Some stale fuels can drop several octane numbers, so
+be generous with the dilution.<p>
+<h3>
+8.7  How can I remove water in the fuel tank?
+</h3>
+If you only have a small quantity of water, then the addition of 500mls of
+dry isopropanol (IPA) to a near-full 30-40 litre tank will absorb the water,
+and will not significantly affect combustion. Once you have mopped up the
+water with IPA. Small, regular doses of any anhydrous alcohol will help
+keep the tank dry. This technique will not work if you have very large
+amounts of water, and the addition of greater amounts of IPA may result in
+poor driveability. <p>
+
+Water in fuel tanks can be minimised by keeping the fuel tank near full, and
+filling in the morning from a service station that allows storage tanks to
+stand for several hours after refilling before using the fuel. Note that
+oxygenated gasolines have greater water solubility, and should cope with
+small quantities of water.<p>
+<h3>
+8.8  Can I used unleaded on older vehicles?
+</h3>
+Yes, providing the octane is appropriate. There are some older engines that
+cut the valve seats directly into the cylinder head ( eg BMC minis ). The
+absence of lead, which lubricated the valve seat, causes the very hard
+oxidation products of the valve to wear down the seat. This valve seat
+recession is usually corrected by installing seat inserts. Most other
+problems arise because the fuels have different volatility, or the reduction
+of combustion chamber deposits. These can usually be cured by reference to
+the vehicle manufacturer, who will probably have a publication with the
+changes. Some vehicles will perform as well on unleaded with a slightly
+lower octane than recommended leaded fuel, due to the significant reduction
+in deposits from modern unleaded gasolines.<p>
+
+<hr>
+<h3>
+<b>
+Section: 9. Alternative Fuels and Additives
+</b>
+9.1  Do fuel additives work?
+</h3>
+Most aftermarket fuel additives are not cost-effective. These include the
+octane-enhancer solutions discussed in section 6.18. There are various other
+pills, tablets, magnets, filters, etc. that all claim to improve either fuel
+economy or performance. Some of these have perfectly sound scientific
+mechanisms, unfortunately they are not cost-effective. Some do not even have
+sound scientific mechanisms. Because the same model production vehicles can
+vary significantly, it's expensive to unambiguously demonstrate these
+additives are not cost-effective. If you wish to try them, remember the
+biggest gain is likely to be caused by the lower mass of your wallet/purse.<p>
+
+There is one aftermarket additive that may be cost-effective, the lubricity
+additive used with unleaded gasolines to combat valve seat recession on
+engines that do not have seat inserts. The long-term solution is to install
+inserts at the next top overhaul.<p>
+
+Some other fuel additives work, especially those that are carefully
+formulated into the gasoline by the manufacturer at the refinery.<p>
+A typical gasoline may contain [17,19,24]:-<p>
+* Oil-soluble Dye, initially added to leaded gasoline at about 10 ppm to
+        prevent its misuse as an industrial solvent
+* Antioxidants, typically phenylene diamines or hindered phenols, are
+        added to prevent oxidation of unsaturated hydrocarbons.
+* Metal Deactivators, typically about 10ppm of chelating agent such as
+        N,N'-disalicylidene-1,2-propanediamine is added to inhibit copper,
+        which can rapidly catalyze oxidation of unsaturated hydrocarbons.
+* Corrosion Inhibitors, about 5ppm of oil-soluble surfactants are added
+        to prevent corrosion caused either by water condensing from cooling,
+        water-saturated gasoline, or from condensation from air onto the
+        walls of almost-empty gasoline tanks that drop below the dew point.
+        If your gasoline travels along a pipeline, it's possible the pipeline
+        owner will add additional corrosion inhibitor to the fuel.
+* Anti-icing Additives, used mainly with carburetted cars, and usually either
+        a surfactant, alcohol or glycol.
+* Anti-wear Additives, these are used to control wear in the upper cylinder
+        and piston ring area that the gasoline contacts, and are usually
+        very light hydrocarbon oils. Phosphorus additives can also be used
+        on engines without exhaust catalyst systems.
+* Deposit-modifying Additives, usually surfactants.
+  1. Carburettor Deposits, additives to prevent these were required when
+        crankcase blow-by (PCV) and exhaust gas recirculation (EGR) controls
+        were introduced. Some fuel components reacted with these gas streams
+        to form deposits on the throat and throttle plate of carburettors.
+  2. Fuel Injector tips operate about 100C, and deposits form in the
+        annulus during hot soak, mainly from the oxidation and polymerisation
+        of the larger unsaturated hydrocarbons. The additives that prevent
+        and unclog these tips are usually polybutene succinimides or
+        polyether amines.
+  3. Intake Valve Deposits caused major problems in the mid-1980s when
+        some engines had reduced driveability when fully warmed, even though
+        the amount of deposit was below previously acceptable limits. It is
+        believed that the new fuels and engine designs were producing a more
+        absorbent deposit that grabbed some passing fuel vapour, causing lean
+        hesitation. Intake valves operate about 300C, and if the valve is
+        is kept wet deposits tend not to form, thus intermittent injectors
+        tend to promote deposits. Oil leaking through the valve guides can be
+        either harmful or beneficial, depending on the type and quantity.
+        Gasoline factors implicated in these deposits include unsaturates and
+        alcohols. Additives to prevent these deposits contain a detergent
+        and/or dispersant in a higher molecular weight solvent or light oil
+        whose low volatility keeps the valve surface wetted.
+  4. Combustion Chamber Deposits have been targeted in the 1990s, as they
+        are responsible for significant increases in emissions. Recent
+        detergent-dispersant additives have the ability to function in both
+        the liquid and vapour phases to remove existing carbon and prevent
+        deposit formation.
+* Octane Enhancers, these are usually formulated blends of alkyl lead
+        or MMT compounds in a solvent such as toluene, and added at the
+        100-1000  ppm levels. They have been replaced by hydrocarbons with
+        higher octanes such as aromatics and olefins. These hydrocarbons
+        are now being replaced by a mixture of saturated hydrocarbons and
+        and oxygenates.
+
+If you wish to play with different fuels and additives, be aware that
+some parts of your engine management systems, such as the oxygen sensor,
+can be confused by different exhaust gas compositions. An example is
+increased quantities of hydrogen from methanol combustion.<p>
+<h3>
+9.2  Can a quality fuel help a sick engine?
+</h3>
+It depends on the ailment. Nothing can compensate for poor tuning and wear.
+If the problem is caused by deposits or combustion quality, then modern
+premium quality gasolines have been shown to improve engine performance
+significantly. The new generation of additive packages for gasolines include
+components that will dissolve existing carbon deposits, and have been shown
+to improve fuel economy, NOx emissions, and driveability.<p>
+<h3>
+9.3  What are the advantages of alcohols and ethers?
+</h3>
+This section discusses only the use of high ( >80% ) alcohol or ether fuels.
+Alcohol fuels can be made from sources other than imported crude oil, and the
+nations that have researched/used alcohol fuels have mainly based their
+choice on import substitution. Alcohol fuels can burn more efficiently, and
+can reduce photochemically-active emissions. Most vehicle manufacturers
+favoured the use of liquid fuels over compressed or liquified gases. The
+alcohol fuels have high research octane ratings, but also high sensitivity
+and high latent heats [6,17,51,74].<p>
+<pre>
+<b>
+                                Methanol       Ethanol     Unleaded Gasoline</b>
+RON                               106            107           92 - 98
+MON                                92             89           80 - 90
+Heat of Vaporisation    (MJ/kg)     1.154          0.913        0.3044
+Nett Heating Value      (MJ/kg)    19.95          26.68        42 - 44
+Vapour Pressure @ 38C    (kPa)     31.9           16.0         48 - 108
+Flame Temperature        ( C )   1870           1920          2030
+Stoich. Flame Speed.    ( m/s )     0.43           -             0.34
+Minimum Ignition Energy ( mJ )      0.14           -             0.29
+Lower Flammable Limit   ( vol% )    6.7            3.3           1.3
+Upper Flammable Limit   ( vol% )   36.0           19.0           7.1
+Autoignition Temperature ( C )    460            360          260 - 460
+Flash Point              ( C )     11             13          -43 - -39
+</pre>
+The major advantages are gained when pure fuels ( M100, and E100 ) are used,
+as the addition of hydrocarbons to overcome the cold start problems also
+significantly reduces, if not totally eliminates, any emission benefits.
+Methanol will produce significant amounts of formaldehyde, a suspected
+human carcinogen, until the exhaust catalyst reaches operating temperature.
+Ethanol produces acetaldehyde. The cold-start problems have been addressed,
+and alcohol fuels are technically viable, however with crude oil at
+<$30/bbl they are not economically viable, especially as the demand for then
+as precursors for gasoline oxygenates has elevated the world prices.
+Methanol almost doubled in price during 1994. There have also been trials
+of pure MTBE as a fuel, however there are no unique or significant advantages
+that would outweigh the poor economic viability [11].<p>
+<h3>
+9.4  Why are CNG and LPG considered "cleaner" fuels.
+</h3>
+CNG ( Compressed Natural Gas ) is usually around 70-90% methane with 10-20%
+ethane, 2-8% propanes, and decreasing quantities of the higher HCs up to
+butane. The fuel has a high octane and usually only trace quantities of
+unsaturates. The emissions from CNG have lower concentrations of the
+hydrocarbons responsible for photochemical smog, reduced CO, SOx, and NOx,
+and the lean misfire limit is extended [75]. There are no technical
+disadvantages, providing the installation is performed correctly. The major
+disadvantage of compressed gas is the reduced range. Vehicles may have
+between one to three cylinders ( 25 MPa, 90-120 litre capacity), and they
+usually represent about 50% of the gasoline range. As natural gas pipelines
+do not go everywhere, most conversions are dual-fuel with gasoline. The
+ignition timing and stoichiometry are significantly different, but good
+conversions will provide about 85% of the gasoline power over the full
+operating range, with easy switching between the two fuels [76].<p>
+
+CNG has been extensively used in Italy and New Zealand ( NZ had 130,000
+dual-fuelled vehicles with 380 refuelling stations in 1987 ). The conversion
+costs are usually around US$1000, so the economics are very dependent on the
+natural gas price. The typical 15% power loss means that driveability of
+retrofitted CNG-fuelled vehicles is easily impaired, consequently it is not
+recommended for vehicles of less than 1.5l engine capacity, or retrofitted
+onto engine/vehicle combinations that have marginal driveability on gasoline.
+The low price of crude oil, along with installation and ongoing CNG
+tank-testing costs, have reduced the number of CNG vehicles in NZ. The US
+CNG fleet continues to increase in size ( 60,000 in 1994 ).<p>
+
+LPG ( Liquified Petroleum Gas ) is predominantly propane with iso-butane
+and n-butane. It has one major advantage over CNG, the tanks do not have
+to be high pressure, and the fuel is stored as a liquid. The fuel offers
+most of the environmental benefits of CNG, including high octane.
+Approximately 20-25% more fuel is required, unless the engine is optimised
+( CR 12:1 ) for LPG, in which case there is no decrease in power or increase
+in fuel consumption [17,76].<p>
+<pre><b>
+                                  methane        propane        iso-octane</b>
+RON                                 120            112           100
+MON                                 120             97           100
+Heat of Vaporisation    (MJ/kg)       0.5094         0.4253        0.2712
+Net Heating Value       (MJ/kg)      50.0           46.2          44.2
+Vapour Pressure @ 38C   ( kPa )       -               -           11.8
+Flame Temperature        ( C )     1950           1925          1980
+Stoich. Flame Speed.    ( m/s  )      0.45           0.45          0.31
+Minimum Ignition Energy  ( mJ )       0.30           0.26           -
+Lower Flammable Limit   ( vol% )      5.0            2.1           0.95
+Upper Flammable Limit   ( vol% )     15.0            9.5           6.0
+Autoignition Temperature  ( C )    540 - 630       450           415
+</pre>
+<h3>
+9.5  Why are hydrogen-powered cars not available?
+</h3>
+<b>
+The Hindenburg.
+</b>
+The technology to operate IC engines on hydrogen has been investigated in
+depth since before the turn of the century. One attraction was to
+use the hydrogen in airships to fuel the engines instead of venting it.
+Hydrogen has a very high flame speed ( 3.24 - 4.40 m/s ), wide flammability
+limits ( 4.0 - 75 vol% ), low ignition energy ( 0.017 mJ ), high autoignition
+temperature ( 520C ), and flame temperature of 2050 C. Hydrogen has a very
+high specific energy ( 120.0 MJ/kg ), making it very desirable as a
+transportation fuel.  The problem has been to develop a storage system that
+will pass all safety concerns, and yet still be light enough for automotive
+use. Although hydrogen can be mixed with oxygen and combusted more
+efficiently, most proposals use air [73,77].<p>
+
+Unfortunately the flame temperature is sufficiently high to dissociate
+atmospheric nitrogen and form undesirable NOx emissions. The high flame
+speeds mean that ignition timing is at TDC, except when running lean, when
+the ignition timing is advanced 10 degrees. The high flame speed, coupled
+with a very small quenching distance mean that the flame can sneak past
+inlet narrow inlet valve openings and cause backfiring. The advantage of a
+wide range of mixture strengths and high thermal efficiencies are matched
+by the disadvantages of pre-ignition and knock unless weak mixtures, clean
+engines, and cool operation are used.<p>
+
+Interested readers are referred to the group sci.energy.hydrogen for details
+about this fuel.<p>
+<h3>
+9.6  What are "fuel cells" ?
+</h3>
+Fuel cells are electrochemical cells that directly oxidise the fuel at
+electrodes producing electrical and thermal energy. The oxidant is usually
+oxygen from the air and the fuel is usually gaseous, with hydrogen
+preferred. There has, so far, been little success using low temperature fuel
+cells ( < 200C ) to perform the direct oxidation of hydrocarbon-based liquids
+or gases. Methanol can be used as a source for the hydrogen by adding an
+on-board reformer. The main advantage of fuel cells is their high fuel-to-
+electricity efficiency of about 40-60% of the nett calorific value of the
+fuel. As fuel cells also produce heat that can be used for vehicle climate
+control. Fuel Cells are the most likely candidate to replace the IC engine
+as a primary energy source. Fuel cells are quiet and produce virtually no
+toxic emissions, but they do require a clean fuel ( no halogens, CO, S, or
+ammonia ) to avoid poisoning. They currently are expensive to produce, and
+have a short operational lifetime, when compared to an IC engine [78,79].<p>
+<h3>
+9.7  What is a "hybrid" vehicle?
+</h3>
+A hybrid vehicle has three major systems [80].<p>
+<OL>
+<LI>A primary power source, either an IC engine driven generator where the
+   IC engine only operates in the most efficient part of it's performance
+   map, or alternatives such as fuel cells and turbines.
+<LI>A power storage unit, which can be a flywheel, battery, or ultracapacitor.
+<LI>A drive unit, almost always now an electric motor that can used as a
+   generator during braking. Regenerative braking may increase the
+   operational range about 8-13%.
+</OL>
+Battery technology has not yet advanced sufficiently to economically
+substitute for an IC engine, while retaining the carrying capacity, range,
+performance, and driveability of the vehicle. Hybrid vehicles may enable
+this problem to be at least partially overcome, but they remain expensive,
+and the current ZEV proposals exclude fuel cells and hybrids systems, but
+this is being re-evaluated.
+<p>
+<h3>
+9.8  What about other alternative fuels?
+</h3>
+<h4>
+9.8.1 Ammonia
+</h4>
+Anhydrous ammonia has been researched because it does not contain any carbon,
+and so would not release any CO2. The high heat of vaporisation requires
+a pre-vaporisation step, preferably also with high jacket temperatures
+( 180C ) to assist decomposition. Power outputs of about 70% of that of
+gasoline under the same conditions have been achieved [73].<p>
+<h4>
+9.8.2 Water
+</h4>
+Mr Gunnerman has been promoting his patents that claim mixing one part of
+gasoline with 2 parts water can provide as much power from an IC engine as
+the same flow rate of gasoline. He claims the increased efficiency is from
+catalysed dissociation of water to H2 and 02, as the combustion chamber of
+the test engine contained a catalyst. It takes the same amount of energy to
+dissociate water, as you reclaim when you burn the H2 with 02. So he has to
+use heat energy that is normally lost. He appears to have modified his
+claims a little with his new A55 fuel.  A recent article claims a 29%
+increase in fuel economy for a test bus in Reno, but also claims that his
+fuel combusts so efficiently that it can pass an emissions test without
+requiring a catalytic converter [81]. Caterpillar are working with
+Gunnerman to evaluate his claims and develop the product.<p>
+<h3>
+9.9  What about alternative oxidants?
+</h3>
+<h4>
+9.9.1 Nitrous Oxide
+</h4>
+Nitrous oxide ( N2O ) contains 33 vol% of oxygen, consequently the combustion
+chamber is filled with less useless nitrogen. It is also metered in as a
+liquid, with can cool the incoming charge further, thus effectively
+increasing the charge density. With all that oxygen, a lot more fuel can
+be squashed into the combustion chamber. The advantage of nitrous oxide is
+that it has a flame speed, when burned with hydrocarbon and alcohol fuels,
+that can be handled by current IC engines, consequently the power is
+delivered in an orderly fashion, but rapidly. The same is not true for
+pure oxygen combustion with hydrocarbons, so leave that oxygen cylinder on
+the gas axe alone :-). The following are for common premixed flames [82].<p>
+<pre>
+<b>
+                               Temperature     Flame Speed
+  Fuel         Oxidant            ( C )           ( m/s )</b>
+Acetylene        Air               2400         1.60 - 2.70
+   "         Nitrous Oxide         2800             2.60
+   "            Oxygen             3140         8.00 - 24.80
+Hydrogen         Air               2050         3.24 - 4.40
+   "         Nitrous Oxide         2690             3.90
+   "            Oxygen             2660         9.00 - 36.80
+Propane          Air               1925             0.45
+Natural Gas      Air               1950             0.39
+</pre>
+Nitrous oxide is not yet routinely used on standard vehicles, but the
+technology is well understood.<p>
+<h4>
+9.9.2 Membrane Enrichment of Air
+</h4>
+Over the last two decades, extensive research has been performed on the
+use of membranes to enrich the oxygen content of air. Increasing the oxygen
+content can make combustion more efficient due to the higher flame
+temperature and less nitrogen. The optimum oxygen concentration for existing
+automotive engine materials is around 30 - 40%. There are several commercial
+membranes that can provide that level of enrichment. The problem is that the
+surface area required to produce the necessary amount of enriched air for an
+SI engine is very large. The membranes have to be laid close together, or
+wound in a spiral, and significant amounts of power are required to force
+the air along the membrane surface for sufficient enriched air to run a
+slightly modified engine. Most research to date has centred on CI engines,
+with their higher efficiencies. Several systems have been tried on research
+engines and vehicles, however the higher NOx emissions remain a problem
+[83,84].<p>
+
+<hr>
+<h3><b>
+Subject: 10. Historical Legends
+</b>
+10.1  The myth of Triptane
+</h4>
+<blockquote><i>
+  This post is an edited version of some posted after JdA posted some claims
+  from a hot-rod enthusiast reporting that triptane + 4cc TEL had a rich
+  power octane rating of 270. This was followed by another that claimed the
+  unleaded octane was 150.</i>
+</blockquote>
+In WWII there was a major effort to increase the power of the aviation
+engines continuously, rather than just for short periods using boost fluids.
+Increasing the octane of the fuel had dramatic effects on engines that could
+be adjusted to utilise the fuel ( by changing boost pressure ). There was a
+12% increase in cruising speed, 40% increase in rate of climb, 20% increase
+in ceiling, and 40% increase in payload for a DC-3, if the fuel went from 87
+to 100 Octane, and further increases if the engine could handle 100+ PN fuel
+[85]. A 12 cylinder allison aircraft engine was operated on a 60% blend of
+triptane ( 2,2,3-trimethylbutane ) in 100 octane leaded gasoline to produce
+2500hp when the rated take-off horsepower with 100 octane leaded was 1500hp
+[10].<p>
+
+Triptane was first shown to have high octane in 1926 as part of the General
+Motors Research Laboratories investigations [86]. As further interest
+developed, gallon quantities were made in 1938, and a full size production
+plant was completed in late 1943. The fuel was tested, and the high lead
+sensitivity resulted in power outputs up to 4 times that of iso-octane, and
+as much as 25% improvement in fuel economy over iso-octane [10].<p>
+
+All of this sounds incredibly good, but then, as now, the cost of octane
+enhancement has to be considered, and the plant producing triptane was not
+really viable. the fuel was fully evaluated in the aviation test engines,
+and it was under the aviation test conditions - where mixture strength is
+varied, that the high power levels were observed over a narrow range of
+engine adjustment. If turbine engines had not appeared, then maybe triptane
+would have been used as an octane agent in leaded aviation gasolines.
+Significant design changes would have been required for engines to utilise
+the high anti-knock rating.<p>
+
+As an unleaded additive, it was not that much different to other isoalkanes,
+consequently the modern manufacturing processes for aviation gasolines are
+alkylation of unsaturated C4 HCs with isobutane, to produce a highly
+iso-paraffinic product, and/or aromatization of naphthenic fractions to
+produce aromatic hydrocarbons possessing excellent rich-mixture antiknock
+properties.<p>
+
+So, the myth that triptane was the wonder anti-knock agent that would provide
+heaps of power arose. In reality, it was one of the best of the iso-alkanes
+( remember we are comparing it to iso-octane which just happened to be worse
+than most other iso-alkanes), but it was not _that_ different from other
+members. It was targeted, and produced, for supercharged aviation engines
+that could adjust their mixture strength, used highly leaded fuel, and wanted
+short period of high power for takeoff, regardless of economy.<p>
+
+The blending octane number, which is what we are discussing, of triptane
+is designated by the American Petroleum Institute Research Project 45 survey
+as 112 Motor and 112 Research [31]. Triptane does not have a significantly
+different blending number for MON or RON, when compared to iso-octane.
+When TEL is added, the lead response of a large number of paraffins is well
+above that of iso-octane ( about +45 for 3ml TEL/US Gal ), and this can lead
+to Performance Numbers that can not be used in conventional automotive
+engines [10].<p>
+<h3>
+10.2  From Honda Civic to Formula 1 winner.
+</h3>
+<blockquote><i>
+The following is edited from a post in a debate over the advantages of
+water injection. I tried to demonstrate what modifications would be required
+to convert my own 1500cc Honda Civic into something worthwhile :-).</i>
+</blockquote>
+
+There are many variables that will determine the power output of an engine.
+High on the list will be the ability of the fuel to burn evenly without
+knock. No matter how clever the engine, the engine power output limit is
+determined by the fuel it is designed to use, not the amount of oxygen
+stuffed into the cylinder and compressed. Modern engines designs and
+gasolines are intended to reduce the emission of undesirable exhaust
+pollutants, consequently engine performance is mainly constrained by the
+fuel available.<p>
+
+My Honda Civic uses 91 RON fuel, but the Honda Formula 1 turbocharged 1.5
+litre engine was only permitted to operate on 102 Research Octane fuel, and
+had limits placed on the amount of fuel it could use during a race, the
+maximum boost of the turbochargers was specified, as was an additional
+40kg penalty weight. Standard 102 RON gasoline would be about 96 R+M/2 if
+sold as a pump gasoline. The normally-aspirated 3.0 litre engines could use
+unlimited amounts of 102RON fuel. The F1 race duration is 305 km or 2 hours,
+and it's perhaps worth remembering that Indy cars run at 7.3 psi boost.<p>
+<pre>
+<b>
+Engine                 Standard                Formula One
+Year                     1986              1987            1989</b>
+Size                   1.5 litre         1.5 litre       1.5 litre
+Cylinders                 4                 12              12
+Aspiration              normal            turbo           turbo
+Maximum Boost             -               58 psi           36.3 psi
+Maximum Fuel              -              200 litres       150 litres
+Fuel                    91 RON           102 RON          102 RON
+Horsepower @ rpm      92 @ 6000         994 @ 12000      610 @ 12500
+Torque (lb-ft @ rpm)  89 @ 4500         490 @  9750      280 @ 10000
+
+</pre>
+Lets consider the transition from Standard to Formula 1, without considering
+materials etc.<p>
+<OL>
+<LI>Replace the exhaust system. HP and torque climb to 100.
+<LI>Double the rpm while improving breathing, you now have 200hp
+   but still only about 100 torque.
+<LI>Boost it to 58psi which equals 4 such engines, so 1000hp and 500 torque.
+<br>
+Simple?, not with 102RON fuel, the engine would detonate to pieces. so..
+<br>
+<LI>Lower the compression ratio to 7.4:1, and the higher rpm is a
+   big advantage - there is much less time for the end gases to
+   ignite and cause detonation.
+<LI>Optimise engine design. 80 degree bank angles V for aerodynamic
+   reasons and go to six cylinders = V-6
+<LI>Cool the air. The compression of 70F air at 14.7psi to 72.7psi
+   raises its temperature to 377F. The turbos churn the air and
+   although they are about 75% efficient the air is now at 479F.
+   The huge intercoolers could reduce the air to 97F, but that
+   was too low to properly vaporise the fuel.
+<LI>Bypass the intercoolers to maintain 104F.
+<LI>Change the Air:Fuel ratio to 23% richer than stoichiometric
+   to reduce combustion temperature.
+<LI>Change to 84:16 toluene/heptane fuel, harder to vaporise, but
+   complies with the 102 RON requirement
+<LI>Add sophisticated electronic timing and engine manangement controls
+   to ensure reliable combustion with no detonation.
+</OL>
+You now have a six-cylinder, 1.5 litre, 1000hp Honda Civic.<p>
+
+For subsequent years the restrictions were even more severe, 150 litres
+and 36.3 maximum boost, in a still vain attempt to give the 3 litre,
+normally-aspirated engines a chance. Obviously Honda took advantage
+of the reduced boost by increasing CR to 9.4:1, and only going to 15%
+rich air/fuel ratio. They then developed an economy mode that involved
+heating the liquid fuel to 180F to improve vaporisation, and increased
+the air temp to 158F, and leaned out the air-fuel ratio to just 2% rich.
+The engine output dropped to 610hp @ 12,500 ( from  685hp @ 12,500 and
+about 312 lbs-ft of torque @ 10,000 rpm ), but 32% of the energy in
+the fuel was converted to mechanical work. The engine still had crisp
+throttle response, and still beat the normally aspirated engines that
+did not have the fuel limitation. So turbos were banned. No other
+F1 racing engine has ever come close to converting 32% of the fuel
+energy into work [87].<p>
+<hr>
+<h3><b>
+Subject: 11. References
+</b><p>
+11.1  Books and Research Papers
+</h3>
+<pre>
+   1.  Modern Petroleum Technology - 5th edition.
+       Editor, G.D.Hobson.
+       Wiley. ISBN 0 471 262498 (1984).
+       - Chapter 1. G.D.Hobson.
+
+   2.  Hydrocarbons from Fossil Fuels and their Relationship with Living
+       Organisms.
+       I.R.Hills, G.W.Smith, and E.V.Whitehead.
+       J.Inst.Petrol., v.56 p.127-137 (May 1970).
+
+   3.  Reference 1.
+       - Chapter 9. R.E.Banks and P.J.King.
+
+   4.  Ullmann's Encyclopedia of Industrial Chemistry - 5th edition.
+       Editor, B.Elvers.
+       VCH. ISBN 3-527-20123-8 (1993).
+       - Volume A23. Resources of Oil and Gas.
+
+   5.  BP Statistical Review of World Energy - June 1994.
+       - Proved Reserves at end 1993. p.2.
+
+   6.  Kirk-Othmer Encyclopedia of Chemical Technology - 4th edition.
+       Editor M.Howe-Grant.
+       Wiley. ISBN 0-471-52681-9 (1993)
+       - Volume 1. Alcohol Fuels.
+
+   7.  Midgley: Saint or Serpent?.
+       G.B.Kauffman.
+       Chemtech, December 1989. p.717-725.
+
+   8.  ?
+       T.Midgley Jr., T.A.Boyd.
+       Ind. Eng. Chem., v.14 p.589,849,894 (1922).
+
+   9.  Measurement of the Knock Characteristics of Gasoline in terms of a
+       Standard Fuel.
+       G. Edgar.
+       Ind. Eng. Chem., v.19 p.145-146 (1927).
+
+  10.  The Effect of the Molecular Structure of Fuels on the Power and
+       Efficiency of Internal Combustion Engines.
+       C.F.Kettering.
+       Ind. Eng. Chem., v.36 p.1079-1085 (1944).
+
+  11.  Experiments with MTBE-100 as an Automobile Fuel.
+       K.Springer, L.Smith.
+       Tenth International Symposium on Alcohol Fuels.
+       - Proceedings, v.1 p.53 (1993).
+
+  12.  Oxygenates for Reformulated Gasolines.
+       W.J.Piel, R.X.Thomas.
+       Hydrocarbon Processing, July 1990. p.68-73.
+
+  13.  The Chemical Kinetics of Engine Knock.
+       C.K.Westbrook, W.J. Pitz.
+       Energy and Technology Review, Feb/Mar 1991. p.1-13.
+
+  14.  The Chemistry Behind Engine Knock.
+       C.K.Westbrook.
+       Chemistry & Industry (UK), 3 August 1992. p.562-566.
+
+  15.  A New Look at High Compression Engines.
+       D.F.Caris and E.E.Nelson.
+       SAE Paper 812A. (1958)
+
+  16.  Problem + Research + Capital = Progress
+       T.Midgley,Jr.
+       Ind. Eng. Chem., v.31 p.504-506 (1939).
+
+  17.  Reference 1.
+       - Chapter 20. K.Owen.
+
+  18.  Automotive Gasolines - Recommended Practice
+       SAE J312 Jan93.
+       - Section 3.
+       SAE Handbook, volume 1. ISBN 1-56091-461-0 (1994).
+
+  19.  Reference 6.
+       - Volume 12. Gasoline and Other Motor Fuels
+
+  20.  Refiners have options to deal with reformulated gasoline.
+       G.Yepsin and T.Witoshkin.
+       Oil & Gas Journal, 8 April 1991. p.68-71.
+
+  21.  Stoichiometric Air/Fuel Ratios of Automotive Fuels - Recommended
+       Practice.
+       SAE J1829 May92.
+       SAE Handbook, volume 1. ISBN 1-56091-461-0 (1994).
+
+  22.  Chemical Engineers' Handbook - 5th edition
+       R.H.Perry and C.H.Chilton.
+       McGraw-Hill. ISBN 07-049478-9 (1973)
+       - Chapter 3.
+
+  23.  Alternative Fuels
+       E.M.Goodger.
+       MacMillan. ISBN 0-333-25813-4 (1980)
+       - Appendix 4.
+
+  24.  Automotive Gasolines - Recommended Practice.
+       SAE J312 Jan93.
+       SAE Handbook, volume 1. ISBN 1-56091-461-0 (1994).
+
+  25.  Standard Specification for Automotive Spark-Ignition Engine Fuel.
+       ASTM D 4814-93a.
+       Annual Book of ASTM Standards v.05.03 (1994).
+
+  26.  Criteria for Quality of Petroleum Products.
+       Editor, J.P. Allinson.
+       Applied Science. ISBN 0 85334 469 8
+       - Chapter 5. K.A.Boldt and S.T.Griffiths.
+
+  27.  Meeting the challenge of reformulated gasoline.
+       R.J. Schmidt, P.L.Bogdan, and N.L.Gilsdorf.
+       Chemtech, February 1993. p.41-42.
+
+  28.  The Relationship between Gasoline Composition and Vehicle Hydrocarbon
+       Emissions: A Review of Current Studies and Future Research Needs.
+       D. Schuetzle, W.O.Siegl, T.E.Jensen, M.A.Dearth, E.W.Kaiser, R.Gorse,
+       W.Kreucher, and E.Kulik.
+       Environmental Health Perspectives Supplements v.102 s.4 p.3-12. (1994)
+
+  29.  Reference 23.
+       - Chapter 5.
+
+  30.  Texaco to introduce clean burning gasoline.
+       Oil & Gas Journal, 28 February 1994. p.22-23.
+
+  31.  Knocking Characteristics of Pure Hydrocarbons.
+       ASTM STP 225. (1958)
+
+  32.  Health Effects of Gasoline.
+       Environmental Health Perspectives Supplements v.101. s.6 (1993)
+
+  33.  Speciated Measurements and Calculated Reactivities of Vehicle Exhaust
+       Emissions from Conventional and Reformulated Gasolines.
+       S.K.Hoekman.
+       Environ. Sci. Technol., v.26 p.1206-1216 (1992).
+
+  34.  Effect of Fuel Structure on Emissions from a Spark-Ignited Engine.
+       2. Naphthene and Aromatic Fuels.
+       E.W.Kaiser, W.O.Siegl, D.F.Cotton, R.W.Anderson.
+       Environ. Sci. Technol., v.26 p.1581-1586 (1992).
+
+  35.  Determination of PCDDs and PCDFs in Car Exhaust.
+       A.G.Bingham, C.J.Edmunds, B.W.L.Graham, and M.T.Jones.
+       Chemosphere, v.19 p.669-673 (1989).
+
+  36.  Volatile Organic Compounds: Ozone Formation, Alternative Fuels and
+       Toxics.
+       B.J.Finlayson-Pitts and J.N.Pitts Jr..
+       Chemistry and Industry (UK), 18 October 1993. p.796-800.
+
+  37.  The rise and rise of global warming.
+       R.Matthews.
+       New Scientist, 26 November 1994. p.6.
+
+  38.  Energy-related Carbon Dixode Emissions per Capita for OECD Countries
+       during 1990.
+       International Energy Agency. (1993)
+
+  39.  Market Data Book - 1991, 1992, 1993 and 1994 editions.
+       Automobile News
+       - various tables
+
+  40.  BP Statistical Review of World Energy - June 1994.
+       - Crude oil consumption p.7.
+
+  41.  Automotive Gasolines - Recommended Practice
+       SAE J312 Jan93.
+       - Section 4
+       SAE Handbook, volume 1. ISBN 1-56091-461-0 (1994).
+
+  42.  The Rise and Fall of Lead in Petrol.
+       IDG Berwick
+       Phys. Technol., v.18 p.158-164 (1987)
+
+  43.  E.C. seeks gasoline emission control.
+       Hydrocarbon Processing, September 1990. p.43.
+
+  44.  Health Effects of Gasoline Exposure. I. Exposure assessment for U.S.
+       Distribution Workers.
+       T.J.Smith, S.K.Hammond, and O.Wong.
+       Environmental Health Perspectives Supplements. v.101 s.6 p.13 (1993)
+
+  45.  Atmospheric Chemistry of Tropospheric Ozone Formation: Scientific and
+       Regulatory Implications.
+       B.J.Finlayson-Pitts and J.N.Pitts, Jr.
+       Air & Waste, v.43 p.1091-1100 (1993).
+
+  46.  Trends in Auto Emissions and Gasoline Composition.
+       R.F.Sawyer
+       Environmental Health Perspectives Supplements. v.101 s.6 p.5 (1993)
+
+  47.  Reference 6.
+       - Volume 9. Exhaust Control, Automotive.
+
+  48.  Achieving Acceptable Air Quality: Some Reflections on Controlling
+       Vehicle Emissions.
+       J.G.Calvert, J.B.Heywood, R.F.Sawyer, J.H.Seinfeld
+       Science v261 p37-45 (1993).
+
+  49.  Radiometric Determination of Platinum and Palladium attrition from
+       Automotive Catalysts.
+       R.F.Hill and W.J.Mayer.
+       IEEE Trans. Nucl. Sci., NS-24, p.2549-2554 (1977).
+
+  50.  Determination of Platinum Emissions from a three-way
+       catalyst-equipped Gasoline Engine.
+       H.P.Konig, R.F.Hertel, W.Koch and G.Rosner.
+       Atmospheric Environment, v.26A p.741-745 (1992).
+
+  51.  Alternative Automotive Fuels - SAE Information Report.
+       SAE J1297 Mar93.
+       SAE Handbook, volume 1. ISBN 1-56091-461-0 (1994).
+
+  52.  Lean-burn Catalyst offers market boom.
+       New Scientist, 17 July 1993. p.20.
+
+  53.  Catalysts in cars.
+       K.T.Taylor.
+       Chemtech, September 1990. p.551-555.
+
+  54.  Advanced Batteries for electric vehicles.
+       G.L.Henriksen, W.H.DeLuca, D.R.Vissers.
+       Chemtech, November 1994. p.32-38.
+
+  55.  The great battery barrier.
+       IEEE Spectrum, November 1992. p.97-101.
+
+  56.  Exposure of the general Population to Gasoline.
+       G.G.Akland
+       Environmental Health Perspectives Supplements. v.101 s.6 p.27-32 (1993)
+
+  57.  Court Ruling Spurs Continued Debate Over Gasoline Oxygenates.
+       G.Peaff.
+       Chemical & Engineering News, 26 September 1994. p.8-13.
+
+  58.  The Application of Formaldehyde Emission Measurement to the
+       Calibration of Engines using Methanol as a Fuel.
+       P.Waring, D.C.Kappatos, M.Galvin, B.Hamilton, and A.Joe.
+       Sixth International Symposium on Alcohol Fuels.
+       - Proceedings, v.2 p.53-60 (1984).
+
+  59.  Emissions from 200,000 vehicles: a remote sensing study.
+       P.L.Guenther, G.A.Bishop, J.E.Peterson, D.H.Stedman.
+       Sci. Total Environ., v.146/147 p.297-302 (1994)
+
+  60.  Remote Sensing of Vehicle Exhaust Emissions.
+       S.H.Cadle and R.D.Stephens.
+       Environ. Sci. Technol., v.28 p.258A-264A. (1994)
+
+  61.  Real-World Vehicle Emissions: A Summary of the Third Annual CRC-APRAC
+       On-Road Vehicle Emissions Workshop.
+       S.H.Cadle, R.A.Gorse, D.R.Lawson.
+       Air & Waste, v.43 p.1084-1090 (1993)
+
+  62.  IR Long-Path Photometry: A Remote Sensing Tool for Automobile
+       Emissions.
+       G.A.Bishop, J.R.Starkey, A.Ihlenfeldt, W.J.Williams, and D.H.Stedman.
+       Analytical Chemistry, v.61 p.671A-677A (1989)
+
+  63.  A Cost-Effectiveness Study of Carbon Monoxide Emissions Reduction
+       Utilising Remote Sensing.
+       G.A.Bishop, D.H.Stedman, J.E.Peterson, T.J.Hosick, and P.L.Guenther
+       Air & Waste, v.42 p.978-985 (1993)
+
+  64.  A presentation to the California I/M Review Committee of results of
+       a 1991 pilot programme.
+       D.R.Lawson, J.A.Gunderson
+       29 January 1992.
+
+  65.  Methods of Knock Rating. 15. Measurement of the Knocking
+       Characteristics of Automotive Fuels.
+       J.M.Campbell, T.A.Boyd.
+       The Science of Petroleum. Oxford Uni. Press. v.4 p.3057-3065 (1938).
+
+  66.  Standard Test Method for Knock Characteristics of Motor and Aviation
+       Fuels by the Motor Method.
+       ASTM D 2700 - 92. IP236/83
+       Annual Book of ASTM Standards v.05.04 (1994).
+
+  67.  Standard Test Method for Knock Characteristics of Motor Fuels by the
+       Research Method.
+       ASTM D 2699 - 92. IP237/69
+       Annual Book of ASTM Standards v.05.04 (1994).
+
+  68.  Preparation of distillates for front end octane number ( RON 100C )
+       of motor gasoline
+       IP 325/82
+       Standard Methods for Analysis and Testing of Petroleum and Related
+       Products. Wiley. ISBN 0 471 94879 9 (1994).
+
+  69.  Octane Enhancers.
+       D.Simanaitis and D.Kott.
+       Road & Track, April 1989. p.82,83,86-88.
+
+  70.  Specification for Aviation Gasolines
+       ASTM D 910 - 93
+       Annual Book of ASTM Standards v.05.01 (1994).
+
+  71.  Reference 1.
+       - Chapter 19. R.A.Vere
+
+  72.  Automotive Sensors Improve Driving Performance.
+       L.M.Sheppard.
+       Ceramic Bulletin, v.71 p.905-913 (1992).
+
+  73.  Reference 23.
+       - Chapter 7.
+
+  74.  Investigation of Fire and Explosion Accidents in the Chemical, Mining
+       and Fuel-Related Industries - A Manual.
+       Joseph M. Kuchta.
+       US Dept. of the Interior. Bureau of Mines Bulletin 680 (1985).
+
+  75.  Natural Gas as an Automobile Fuel, An Experimental study.
+       R.D.Fleming and J.R.Allsup.
+       US Dept. of the Interior. Bureau of Mines Report 7806 (1973).
+
+  76.  Comparative Studies of Methane and Propane as Fuels for Spark Ignition
+       and Compression Ignition Engines.
+       G.A.Karim and I.Wierzba.
+       SAE Paper 831196. (198?).
+
+  77.  The Outlook for Hydrogen.
+       N.S.Mayersohn.
+       Popular Science, October 1993. p.66-71,111.
+
+  78.  Reference 6.
+       - Volume 11. Fuel Cells.
+
+  79.  The Clean Machine.
+       R.H.Williams.
+       Technology Review, April 1994. p.21-30.
+
+  80.  Hybrid car promises high performance and low emissions.
+       M. Valenti.
+       Mechanical Engineering, July 1994. p.46-49.
+
+  81.  ?
+       Automotive Industries Magazine, December 1994.
+
+  82.  Instrumental Methods of Analysis - 6th edition.
+       H.H.Willard, L.L.Merritt, J.A.Dean, F.A.Settle.
+       D.Van Nostrand. ISBN 0-442-24502-5 (1981).
+
+  83.  Research into Asymmetric Membrane Hollow Filter Device for Oxygen-
+       Enriched Air Production.
+       A.Z.Gollan. M.H.Kleper.
+       Dept.of Energy Report DOE/ID/12429-1 (1985).
+
+  84.  New Look at Oxygen Enrichment. I. The diesel engine.
+       H.C.Watson, E.E.Milkins, G.R.Rigby.
+       SAE Technical Paper 900344 (1990)
+
+  85.  Thorpe's Dictionary of Applied Chemistry - 4th edition.
+       Longmans. 1949.
+       - Petroleum
+
+  86.  Detonation Characteristics of Some Paraffin Hydrocarbons.
+       W.G.Lovell, J.M.Campbell, and T.A.Boyd.
+       Ind. Eng. Chem., v.23 p.26-29. (1931)
+
+  87.  Secrets of Honda's horsepower heroics.
+       C. Csere.
+       Road & Track/Car & Driver?, May 1991. p.29.
+
+</pre>
+<h3>
+11.2  Suggested Further Reading
+</h3>
+<pre>
+   1.  Modern Petroleum Technology - any edition.
+       Editor, G.D.Hobson.
+       Wiley. ISBN 0 471 262498 (5th=1984).
+
+   2.  Hydrocarbon Fuels.
+       E.M.Goodger.
+       MacMillan. (1975)
+
+   3.  Alternative Fuels
+       E.M.Goodger.
+       MacMillan. ISBN 0-333-25813-4 (1980)
+
+   4.  Kirk-Othmer Encyclopedia of Chemical Technology - 4th edition.
+       Editor, M.Howe-Grant.
+       Wiley. ISBN 0-471-52681-9 (1993)
+       - especially Alcohol Fuels, Gasoline and Other Motor Fuels, and
+         Fuel Cells chapters.
+
+   5.  The Automotive Handbook. - any edition.
+       Bosch.
+
+   6.  SAE Handbook, volume 1. - issued annually.
+       SAE. ISBN 1-56091-461-0 (1994).
+       - especially J312, and J1297.
+
+   7.  Proceedings of the xxth International Symposium on Alcohol Fuels.
+       - Held every two years and most of the 10 conferences have lots of
+         good technical information, especially the earlier ones.
+       - various publishers.
+
+   8.  Alternative Transportation Fuels - An Environmental and Energy
+       solution.
+       Editor, D.Sperling.
+       Quorum Books. ISBN 0-89930-407-9 (1989).
+
+   9.  The Gasohol Handbook.
+       V. Daniel Hunt.
+       Industrial Press. ISBN 0-8311-1137-2 (1981).
+
+</pre>
+</DOC>

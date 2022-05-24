@@ -1,0 +1,130 @@
+
+<DOC>
+<DOCNO>WT03-B24-102</DOCNO>
+<DOCOLDNO>IA053-000895-B045-103</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/tge.html 129.174.40.15 19970123195512 text/html 6022
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:54:01 GMT
+Server: NCSA/1.5.2
+Last-modified: Thu, 07 Dec 1995 22:55:36 GMT
+Content-type: text/html
+Content-length: 5839
+</DOCHDR>
+<HTML>
+<head>
+<TITLE>NIS&T FIPS PUB standard meeting for Key Escrow </TITLE>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+
+<H1> Tom Edwards report on the FIPS PUB meeting on Key Escrow</H1>
+This report was prepared by 
+<a href="mailto:tedwards@Glue.umd.edu"> 
+ Thomas Grant Edwards <tedwards@Glue.umd.edu> </a>
+<p>
+
+I went to the NIST "Developing Key Escrow Encryption Standards Workshop" 
+held in Gaithersburg, MD on Sept. 15, 1995.  It turns out I know the guy
+who was running the conference so I knew I couldn't miss it...and I knew I
+had to wear my Cypherpunks t-shirt to show the flag (and it stood out, as
+there were few without suits there). I got to meet Dorothy Denning for the
+first time.  I was mentioning how government key-escrow doesn't sound too
+bad to some in the libertarian/cypherpunk world, say for instance to
+ensure FOIA requests are not encrypted away.  She said that would never be
+a problem, just getting the government to give you FOIA documents in the
+first place is the problem. 
+<p>
+In a nutshell, this was a conference to begin work on a FIPS for software 
+key encryption escrow.  Industry people there felt that a FIPS would be a 
+great way to standardize key escrow for data recovery.  However, except 
+for one guy at IBM who said they tap employees phones alot, most industry 
+people felt that it was not needed for tapping their real-time 
+communications.  There was a lot of talk from government people about the 
+need for Law Enforcement to get access to encrypted real-time 
+communication between government employees.  This, to say the least, 
+squicked many attendees, and there seemed to be much tension between the 
+sides on that issue.
+<p>
+I asked a couple of industry people and privacy advocates the question "Am
+I just paranoid, or is this FIPS a trial balloon for mandated civillian
+key escrow?"  I got many "yes" answers.  I also heard the occasional "this
+sounds like son-of-clipper" comments in the breakout groups. 
+<p>
+One noteworthy point is that RSA sent in a position paper to try to get 
+the Digital Signature Standard replaced by RSA signatures for inclusion 
+in key escrow FIPS due to its "virtual non-availability in commercial 
+products," and noted that the US Govt. has free use of RSA sigs.
+<p>
+Another noteworthy point is that NIST made clear that the key escrow FIPS 
+should _not_ involve SECRET algorithms.  
+<p>
+The Workshop consisted of a discussion of goals and objectives by Ray
+Kammer (Deputy Director, NIST) and some initial thoughts on standards
+development by Miles Smid (NIST).  Here is the gist of the overhead
+slides: 
+<p>
+The Goals of the workshop were based on the August 17 announcement by the
+Administration to allow for exportability of 64-bit software key escrow
+encryption, plans to allow Federal agencies to use Escrowed Encryption
+Standards compliant hardware devices for data communications, and the
+development of a FIPS for key escrow, implementable in software.  This
+escrow FIPS would be used by Federal agencies in conjunction with
+FIPS-approved encryption techniques.  This workshop was held to help 
+begin the FIPS development.  The workshop goals included 
+<ol>
+<li> Providing 
+input to the govt. on drafting a software key escrow encryption standard; 
+<li> Helping govt. to identify additional policy and technical issues that 
+need to be addressed and 
+<li> providing the govt. with thoughts on drafting 
+and follow-up
+</ol>
+
+The FIPS process involves developing the draft FIPS, a 90 day comment 
+period, then addressing comments, and then it goes to the Secretary of 
+Commerce for signature, and becomes effective six months after the 
+signature.  
+<p>
+The purpose of the New Escrow FIPS is to foster a wider use of escrow 
+technology...this means: no requirement for SECRET algorithms, software 
+and hardware implementations, and exportability.  It also will provide a 
+government validation of escrow systems meeting the 
+standard...theoretically allowing for security, integrity, and availability.
+<p>
+Threats examined included compromise (unauthorized disclosure of keys and 
+data recovery), and denial of service (modification or loss of keys, use 
+of bogus recovery fields, and improper system operation).
+<p>
+The FIPS will provide common formats and procedures which will facilitate 
+data recovery and lower cost.  Applicability of the FIPS will include the 
+US Govt. and contractors.  Applications include both stored and 
+transmitted data.  Encryption algorithms must be FIPS approved.  And 
+finally desirable features include: auditing, configuration control, 
+backup capability, and efficiency.
+<p>
+The questions asked to the breakout groups included:
+<ol>
+<li> Is a standard interface for the release of keys desirable?
+<li> What documentation is required?
+<li> How will operational procedures be developed?
+<li> How will conformance be validated?
+<li> Will security be evaluated?  If so, under what criteria and by whom?
+<li> How will configuration control be maintained?
+<li> Are new FIPS-approved algorithms necessary?
+<li> Should escrowing be built into the Public Key Infracstructure?
+<li> Is a standard escrow system identification field needed?
+<li> Is split knowledge required?
+<li> Do systems which permit data to be encrypted for both storage and 
+transmission need to provide for both kinds of escrow?
+<li> Does the government require special features (2-hour access, 
+continuous real-time decryption, etc.)?
+</ol>
+<p>Back to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nist/clipper2.html">
+Clipper II </a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a> 
+Novermber 9, 1995  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

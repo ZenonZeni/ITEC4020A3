@@ -1,0 +1,36 @@
+
+<DOC>
+<DOCNO>WT01-B02-61</DOCNO>
+<DOCOLDNO>IA054-000904-B032-455</DOCOLDNO>
+<DOCHDR>
+http://stargate.jpl.nasa.gov:1083/html/pcreadme.htm 137.79.108.182 19970210185129 text/html 1225
+HTTP/1.0 200 OK
+Date: Mon, 10 Feb 1997 18:50:14 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE HTML SYSTEM "html.dtd">
+<TITLE>IGARSS '94 Electronic Digest Software Installation Instructions</TITLE>
+<H1>IGARSS '94 Electronic Digest Software Installation Instructions</H1>
+ 
+<P>Be sure to read the <A HREF="aareadme.htm">Read Me First</A> file
+(aareadme.txt) and <A HREF="aboutcd.htm">About the IGARSS '94 CD</A>
+(aboutcd.txt).</P>
+<H2>PC With Windows Platform</H2>   
+<OL>
+<LI>Install Acrobat(TM) Reader  <UL>
+<LI>Execute SOFTWARE/PCAPPS/VIEWERS/ACROREAD/AASETUP.EXE
+</LI></UL></LI>     
+<LI>Install NCSA Mosaic
+<UL>
+<LI>Read SOFTWARE/PCAPPS/WNMOS20A4/INSTALL.TXT file for  complete NCSA
+Mosaic installation instructions</LI></UL></LI>        
+</OL>
+<P><B>Note:</B> The current release of Mosaic for Windows (2.0A4) will
+not launch the Adobe Acrobat (TM) Reader in local mode.  When this
+problem is fixed, you can download a new version of Mosaic from the
+Internet via anonymous ftp at ftp.ncsa.uiuc.edu.  In the meantime, you
+will need to open PDF versions of the papers from within Adobe
+Acrobat(TM).</P>
+<HR><A HREF="../igarss.htm"><IMG  WIDTH=108 HEIGHT=45 SRC="back_ig.gif"></A>
+</DOC>

@@ -1,0 +1,54 @@
+
+<DOC>
+<DOCNO>WT02-B31-190</DOCNO>
+<DOCOLDNO>IA046-000823-B035-175</DOCOLDNO>
+<DOCHDR>
+http://www.greaterunion.com.au:80/scripts/area.cgi 203.17.138.43 19970119071614 text/html 2495
+HTTP/1.0 200 Document follows
+Date: Sun, 19 Jan 1997 07:16:13 GMT
+Server: NCSA/1.4.2
+Content-type: text/html
+</DOCHDR>
+<html><head><title>Greater Union  -  Selection</title></head>
+<body bgcolor="#040592" text="#ffffff" link="#ffde29" alink="#ffffff" vlink="#ffde29">
+<nobr><center><img src=/heads/fgublue.gif width=510 height=120></nobr><br>
+<img src=/heads/bwhatsbyar.gif width=327 height=33 align=top></center>
+<blockquote>
+<form method="POST" action=area.cgi>
+<input type=hidden name=next_url value=area.cgi>
+<b>For a list of all films currently showing near you, please select 
+your state, then click on 'Show Screenings':</b><P>
+<center><table border=0 width=80%><tr>
+<td><input type=radio name=area value="Queensland">
+<FONT SIZE=4>Queensland</FONT></td>
+<TD><input type=radio name=area value="New_South_Wales">
+<FONT SIZE=4>New South Wales</FONT></td>
+<td><input type=radio name=area value="Victoria">
+<FONT SIZE=4>Victoria</FONT></td></tr>
+<tr><td><input type=radio name=area value="ACT">
+<FONT SIZE=4>ACT</FONT></td>
+<td><input type=radio name=area value="South_Australia">
+<FONT SIZE=4>South Australia</FONT></td>
+<td><input type=radio name=area value="Western_Australia">
+<FONT SIZE=4>Western Australia</FONT></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type=radio name=area value="Northern_Territory">
+<FONT SIZE=4>Northern Territory</FONT></td>
+<td>&nbsp;</td></tr>
+</table><p>
+<p><input type=submit value="Show Screenings">
+</form><p>
+</blockquote>
+<hr width=500>
+<nobr><A HREF=area.cgi><IMG border=0 alt="Whats On by Area" width=64 height=81 SRC=/navbuts/whats1blue.gif></A>
+<A HREF=movie.cgi><IMG border=0 alt="Whats On by Movie" width=63 height=81 SRC=/navbuts/whats2blue.gif></A>
+<A HREF=/deals.html><IMG border=0 alt="Deals" width=62 height=81 hspace=10 SRC=/navbuts/dealblue.gif></A>
+<A HREF=/chat.html><IMG border=0 alt="Chat" width=62 height=81 hspace=2 SRC=/navbuts/chatblue.gif></A>
+<A HREF=/mag.html><IMG border=0 alt="Movie Magazine" width=62 height=81 hspace=8 SRC=/navbuts/movblue.gif></A>
+<A HREF=/quiz.html><IMG border=0 alt="Quiz" width=62 height=81 hspace=2 SRC=/navbuts/quizblue.gif></A>
+<A HREF=/links.html><IMG border=0 alt="Links" width=62 height=81 SRC=/navbuts/linkblue.gif></A></nobr>
+<HR WIDTH=500><P>
+<a href=/index.html><img src=/extras/litlogoblue.gif align=top border=0></a><p>
+For further information about <br>Greater Union presentations, or about<br>this site please email <a href="mailto:spike@mpx.com.au">spike@mpx.com.au</a></center><p><br>
+</body></html>
+</DOC>

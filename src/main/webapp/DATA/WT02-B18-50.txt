@@ -1,0 +1,32 @@
+
+<DOC>
+<DOCNO>WT02-B18-50</DOCNO>
+<DOCOLDNO>IA031-000660-B041-440</DOCOLDNO>
+<DOCHDR>
+http://minerva.forestry.umn.edu:80/SSiF/help1.html 128.101.70.48 19970209092738 text/html 1246
+HTTP/1.0 200 Document follows
+Date: Sun, 09 Feb 1997 ? GMT
+Server: NCSA/1.4.1
+Content-type: text/html
+Last-modified: Wed, 05 Feb 1997 ? GMT
+Content-length: 1084
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Search Help for Gopher-Type Searching</TITLE>
+</HEAD>
+
+<BODY>
+
+<h1>Search Help</h1>
+
+<BR>
+<FONT SIZE="+1">
+Items in <i>italics</i> represent what you might type.<P>
+
+For this search option type the words you want to search on into the text box and click on the Search button. By default the words are assumed to be separated by the boolean operator AND so typing <i>analysis recreation</i> is the same as typing <i>analysis and recreation</i> and would retrieve citations that have both the words analysis and recreation. The boolean operators available are {AND OR NOT}. Typing <i>analysis not recreation</i> would retrieve citations that have the word analysis but don't have the word recreation. Operator order is from left to right so typing <i>analysis or study and recreation</i> would retrieve documents that have the words analysis and recreation or the words study and recreation. The search engine used recognizes words of the same root so a
+document with the words studies and recreation would also be retrieved by the last search.<P>
+
+</BODY>
+</HTML>
+</DOC>

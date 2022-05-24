@@ -1,0 +1,178 @@
+
+<DOC>
+<DOCNO>WT01-B08-215</DOCNO>
+<DOCOLDNO>IA096-001028-B015-78</DOCOLDNO>
+<DOCHDR>
+http://www.bxa.doc.gov:80/supp6.htm 207.96.70.148 19970215010048 text/html 8950
+HTTP/1.0 200 OK
+Date: Fri, 14 Feb 1997 21:01:51 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 8779
+Last-modified: Wed, 08 Jan 1997 00:32:24 GMT
+</DOCHDR>
+<html>
+<head>
+<title>Supplement No. 6 to Part 742--Guidelines for Submitting a 
+Classification Request for a Mass Market Software Product That Contains 
+Encryption </title>
+</head>
+<body bgcolor="FFFFFF">
+<pre>
+
+Supplement No. 6 to Part 742--Guidelines for Submitting a 
+Classification Request for a Mass Market Software Product That Contains 
+Encryption
+
+    Classification requests for release of certain mass market 
+encryption software from EI controls must be submitted on Form BXA-
+748P, in accordance with Sec. 748.3 of the EAR. To expedite review 
+of the request, clearly mark the envelope ``Attn.: Mass Market 
+Encryption Software Classification Request''. In Block 9: Special 
+Purpose of the Form BXA-748P, you must insert the phrase ``Mass 
+Market Encryption Software. Failure to insert this phrase will delay 
+processing. In addition, the Bureau of Export Administration 
+recommends that such requests be delivered via courier service to: 
+Bureau of Export Administration, Office of Exporter Services, Room 
+2705, 14th Street and Pennsylvania Ave., N.W., Washington, D.C. 
+20230.
+    (a) Requests for mass market encryption software that meet the 
+criteria in paragraph (a)(2) of this Supplement will be processed in 
+seven (7) working days from receipt of a properly completed request. 
+Those requests for mass market encryption software that meet the 
+criteria of paragraph (a)(1) of this Supplement only will be 
+processed in fifteen (15) working days from receipt of a properly 
+completed request. When additional information is requested, the 
+request will be processed within 15 working days of the receipt of 
+the requested information.
+    (1) A mass market software product that meets all the criteria 
+established in this paragraph will be processed in fifteen (15) 
+working days from receipt of the properly completed request:
+    (i) The commodity must be mass market software. Mass market 
+software is computer software that is available to the public via 
+sales from stock at retail selling points by means of over-the-
+counter transactions, mail order transactions, or telephone call 
+transactions;
+    (ii) The software must be designed for installation by the user 
+without further substantial support by the supplier. Substantial 
+support does not include telephone (voice only) help line services 
+for installation or basic operation, or basic operation training 
+provided by the supplier; and
+    (iii) The software includes encryption for data confidentiality.
+    (2) A mass market software product that meets all the criteria 
+established in this paragraph will be processed in seven working 
+days from receipt of the properly completed request:
+    (i) The software meets all the criteria established in paragraph 
+(a)(1) (i) through (iii) of this Supplement;
+    (ii) The data encryption algorithm must be RC4 and/or RC2 with a 
+key space no longer than 40 bits. The RC4 and RC2 algorithms are 
+proprietary to RSA Data Security, Inc. To ensure that the subject 
+software is properly licensed and correctly implemented, contact RSA 
+Data Security, (415) 595-8782;
+    (iii) If both RC4 and RC2 are used in the same software, their 
+functionality must be separate. That is, no data can be operated 
+sequentially on by both routines or multiply by either routine;
+    (iv) The software must not allow the alteration of the data 
+encryption mechanism and its associated key spaces by the user or 
+any other program;
+    (v) The key exchange used in data encryption must be:
+    (A) A public key algorithm with a key space less than or equal 
+to a 512 bit modulus and/or;
+    (B) A symmetrical algorithm with a key space less than or equal 
+to 64 bits; and
+    (vi) The software must not allow the alteration of the key 
+management mechanism and its associated key space by the user or any 
+other program.
+    (b) Instructions for the preparation and submission of a 
+classification request that is eligible for seven day handling are 
+as follows:
+    (1) If the software product meets the criteria in paragraph 
+(a)(2) of this Supplement, you must call the Department of Commerce 
+on (202) 482-0092 to obtain a test vector. This test vector must be 
+used in the classification process to confirm that the software has 
+properly implemented the approved encryption algorithms.
+    (2) Upon receipt of the test vector, the applicant must encrypt 
+the test plain text input provided using the commodity's encryption 
+routine (RC2 and/or RC4) with the given key value. The applicant 
+should not pre-process the test vector by any compression or any 
+other routine that changes its format. Place the resultant test 
+cipher text output in hexadecimal format on an attachment to form 
+BXA-748P.
+    (3) You must provide the following information in a cover letter 
+to the classification request:
+    (i) Clearly state at the top of the page ``Mass Market 
+Encryption Software--7 Day Expedited Review Requested'';
+    (ii) State that you have reviewed and determined that the 
+software subject to the classification request meets the criteria of 
+paragraph (a)(2) of this Supplement;
+    (iii) State the name of the single software product being 
+submitted for review. A separate classification request is required 
+for each product;
+    (iv) State how the software has been written to preclude user 
+modification of the encryption algorithm, key management mechanism, 
+and key space;
+    (v) Provide the following information for the software product:
+    (A) Whether the software uses the RC2 and/or the RC4 algorithm 
+and how the algorithm(s) is used. If both of these algorithms are 
+used in the same product, also state how the functionality of each 
+is separated to assure that no data is operated on by both 
+algorithms;
+    (B) Pre-processing information of plain text data before 
+encryption (e.g. the addition of clear text header information or 
+compression of the data);
+    (C) Post-processing information of cipher text data after 
+encryption (e.g. the addition of clear text header information or 
+packetization of the encrypted data);
+    (D) Whether a public key algorithm or a symmetric key algorithm 
+is used to encrypt keys and the applicable key space;
+    (E) For classification requests regarding source code:
+    (1) Reference the applicable executable product that has already 
+received a one-time review;
+    (2) Include whether the source code has been modified by 
+deleting the encryption algorithm, its associated key management 
+routine(s), and all calls to the algorithm from the source code, or 
+by providing the encryption algorithm and associated key management 
+routine(s) in object code with all calls to the algorithm hidden. 
+You must provide the technical details on how you have modified the 
+source code;
+    (3) Include a copy of the sections of the source code that 
+contain the encryption algorithm, key management routines, and their 
+related calls; and
+    (F) Provide any additional information which you believe would 
+assist in the review process.
+    (c) Instructions for the preparation and submission of a 
+classification request that is eligible for 15 day handling are as 
+follows:
+    (1) If the software product meets only the criteria in paragraph 
+(a)(1) of this supplement, you must prepare a classification 
+request. Send the original to the Bureau of Export Administration. 
+Send a copy by Express Mail to:
+    Attn.: 15 day Encryption Request Coordinator P.O. Box 246 
+Annapolis Junction, MD 20701-0246.
+    (2) You must provide the following information in a cover letter 
+to the classification request:
+    (i) Clearly state at the top of the page ``Mass Market Software 
+and Encryption--15 Day Expedited Review Requested'';
+    (ii) State that you have reviewed and determined that the 
+software subject of the classification request, meets the criteria 
+of paragraph (a)(1) of this Supplement;
+    (iii) State the name of the single software product being 
+submitted for review. A separate classification request is required 
+for each product;
+    (iv) State that a duplicate copy, in accordance with paragraph 
+(c)(1) of this Supplement, has been sent to the 15 day Encryption 
+Request Coordinator; and
+    (v) Ensure that the information provided includes brochures or 
+other documentation or specifications relating to the software, as 
+well as any additional information which you believe would assist in 
+the review process.
+    (3) Contact the Bureau of Export Administration on (202) 482-
+0092 prior to submission of the classification to facilitate the 
+submission of proper documentation.
+
+</pre>
+</body>
+</html>
+
+
+</DOC>

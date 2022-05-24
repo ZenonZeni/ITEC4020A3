@@ -1,0 +1,731 @@
+
+<DOC>
+<DOCNO>WT03-B16-82</DOCNO>
+<DOCOLDNO>IA072-000461-B018-39</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/ers/raw_lead.html 137.132.32.55 19970121032447 text/html 50061
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 13:42:58 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 20-Dec-96 18:31:03 GMT
+Content-length: 49879
+</DOCHDR>
+<HEAD>
+<TITLE>3. LEADER FILE FORMAT DEFINITION </TITLE>
+</HEAD>
+<BODY>
+
+<H1>3. LEADER FILE FORMAT DEFINITION</H1>
+<P>
+<H2></H2>
+<P>
+<P>
+<H3>TABLE  3.1      SARLEADER FILE - FILE DESCRIPTOR RECORD (FIXED SEGMENT)</H3>
+<P>
+<P>
+
+<PRE>FIELD  BYTES    FORMAT  DESCRIPTION AND/OR CONTENT                                CONTENT             
+
+1      1-4      B4      Record sequence number                                        (1)
+2      5        B1      1-st record sub-type code                                    (63) 
+3      6        B1      Record type code                                            (192) 
+4      7        B1      2-nd record sub-type code                                    (18)
+5      8        B1      3-rd record sub-type code                                    (18)
+6      9-12     B4      Length of this record                                       (720)
+7      13-14    A2      ASCII/EBCDIC flag                                              A$ 
+8      15-16    A2      blanks                                                         $$ 
+9      17-28    A12     Format control document ID for this data file        CEOS-SAR-CCT
+                        format 
+10     29-30    A2      Format control document revision level                         $B 
+11     31-32    A2      File design descriptor revision letter                         $B 
+12     33-44    A12     Generating software release and revision level           <......>
+13     45-48    I4      File number                                                  $$$1 
+14     49-64    A16     File name                                        ERS1.SAR.RAWLEAD 
+15     65-68    A4      Record sequence and location type flag                       FSEQ 
+16     69-76    I8      Sequence number location                                 $$$$$$$1 
+17     77-80    I4      Sequence number field length                                 $$$4 
+18     81-84    A4      Record code and location type flag                           FTYP
+19     85-92    I8      Record code location                                     $$$$$$$5
+20     93-96    I4      Record code field length                                     $$$4 
+21     97-100   A4      Record length and location type flag                         FLGT
+22     101-108  I8      Record length location                                   $$$$$$$9 
+23     109-112  I4      Record length field length                                   $$$4 
+24     113      A1      Reserved                                                 <$....$> 
+25     114      A1      Reserved                                                 <$....$> 
+26     115      A1      Reserved                                                 <$....$>
+27     116      A1      Reserved                                                 <$....$>
+28     117-180  A64     Reserved segment                                         <$....$>     </PRE>
+<P>
+<P>
+<P>
+<P>
+<H3>TABLE  3.2      SARLEADER FILE - FILE DESCRIPTOR RECORD VARIABLE SEGMENT</H3>
+<P>
+<P>
+
+<PRE>FIELD  BYTES    FORMAT  DESCRIPTION                                               CONTENT   
+                                                                                
+29     181-186  I6      Number of data set summary records                         $$$$$1 
+30     187-192  I6      Data set summary record length                             $$1886
+31     193-198  I6      Number of map projection data records                      $$$$$0 
+32     199-204  I6      Map projection record length                               $$$$$0 
+33     205-210  I6      Number of platform pos. data records                     <......>
+34     211-216  I6      Platform position record length                          <......>
+35     217-222  I6      Number of attitude data records                            $$$$$0
+36     223-228  I6      Attitude data record length                                $$$$$0   
+37     229-234  I6      Number of radiometric data records                         $$$$$0  
+38     235-240  I6      Radiometric record length                                  $$$$$0  
+39     241-246  I6      Number of rad. compensation records                      <......>
+40     247-252  I6      Radiometric compensation rec. length                     <......>
+41     253-258  I6      Number of data quality summary records                     $$$$$0  
+42     259-264  I6      Data quality summary record length                         $$$$$0  
+43     265-270  I6      Number of data histograms records                          $$$$$0  
+44     271-276  I6      Data histogram record length                               $$$$$0  
+45     277-282  I6      Number of range spectra records                            $$$$$0  
+46     283-288  I6      Range spectra record length                                $$$$$0  
+47     289-294  I6      Number of DEM descriptor records                           $$$$$0  
+48     295-300  I6      DEM descriptor record length                               $$$$$0  
+49     301-306  I6      Number of Radar par. update records                      <......>
+50     307-312  I6      Radar par. update record length                          <......>
+51     313-318  I6      Number of Annotation data records                          $$$$$0  
+52     319-324  I6      Annotation data record length                              $$$$$0  
+53     325-330  I6      Number of Det.processing records                           $$$$$0  
+54     331-336  I6      Det.processing record length                               $$$$$0  
+55     337-342  I6      Number of Calibration records                              $$$$$0  
+56     343-348  I6      Calibration record length                                  $$$$$0  
+57     349-354  I6      Number of GCP records                                      $$$$$0  
+58     355-360  I6      GCP record length                                          $$$$$0  
+59     361-366  I6      spare                                                    <$....$>
+60     367-372  I6      spare                                                    <$....$>
+61     373-378  I6      spare                                                    <$....$>
+62     379-384  I6      spare                                                    <$....$>
+63     385-390  I6      spare                                                    <$....$>
+64     391-396  I6      spare                                                    <$....$>
+65     397-402  I6      spare                                                    <$....$>
+66     403-408  I6      spare                                                    <$....$>
+67     409-414  I6      spare                                                    <$....$>
+68     415-420  I6      spare                                                    <$....$>
+69     421-426  I6      Number of Facility data records    (max 2)               <......>  
+70     427-432  I6      Facility data record maximum length (max 12288)          <......> 
+71     433-720  A288    blanks                                                   <$....$>    </PRE>
+<P>
+<P>
+<H3>TABLE  3.3        DATA SET SUMMARY RECORD</H3>
+<P>
+
+<PRE>                                                                                                         
+FIELD  BYTES      FORMAT  DESCRIPTION                                            CONTENT
+                                                                                                            
+1      1-4        B4      Record Sequence Number                                     (2)
+2      5          B1      1-st record sub-type code                                 (10) 
+3      6          B1      Record type code                                          (10)
+4      7          B1      2-nd record sub-type code                                 (31)
+5      8          B1      3-rd record sub-type code                                 (20) 
+6      9-12       B4      Length of this record                                   (1886) 
+7      13-16      I4      Data set Summary Record sequence number (starts at 1) 
+8      17-20      I4      SAR channel indicator                                      (1)
+                                                                                                            
+                          SCENE PARAMETERS                                                     
+9      21-36      A16     reserved                                              <$....$>
+10     37-68      A32     Scene reference number (ORBIT=....-FRAME=....)        <......>
+11     69-100     A32     Input scene centre time (UTC)                         <......>
+                          &lt;YYYYMMDDhhmmssttt$$$$$$$$$$$$$>
+                          where : YYYY = year ; MM = month ; DD =day;
+                          hh = hours ; mm = minutes ; ss = seconds ; 
+                          ttt = milliseconds   
+12     101-116    A16     spare                                                 <$....$>
+13     117-132    F16.7   Processed scene centre geodetic latitude defined as   <......>
+                          positive to the north of the equator and negative to
+                          the south (deg)
+14     133-148    F16.7   Processed scene centre geodetic longitude defined as  <......>
+                          positive to the east of the prime meridian and 
+                          negative to the west. (deg.)   
+15     149-164    F16.7   Processed scene centre true heading as calculated     <......>
+                          relative to North (deg) 
+16     165-180    A16     Ellipsoid designator                                  <......>
+17     181-196    F16.7   Ellipsoid semimajor axis (km)   - (R)                 <......>
+18     197-212    F16.7   Ellipsoid semiminor axis (km)                         <......>
+19     213-228    F16.7   Earth"s mass times Gravitational constant  - (M*G)    <......>
+20     229-244    A16     spare                                                 <$....$>
+21     245-260    F16.7   Ellipsoid J2 parameter                                <......>
+22     261-276    F16.7   Ellipsoid J3 parameter                                <......>
+23     277-292    F16.7   Ellipsoid J4 parameter                                <......>
+24     293-308    A16     spare                                                 <$....$>
+25     309-324    F16.7   reserved                                              <$....$>
+26     325-332    I8      Scene centre line number (the line number             <......>
+                          at the scene centre including zero fill)                             
+27     333-340    I8      Scene centre pixel number (the pixel number           <......>
+                          at the scene centre including zero fill)                 
+28     341-356    F16.7   Processed scene length including zero fill            <......>
+29     357-372    F16.7   Processed scene width (km) including zero fill        <......>
+30     373-388    A16     spare                                                 <$....$>
+31     389-392    I4      Number of SAR channels                                    $$$1
+32     393-396    A4      spare                                                 <$....$>
+33     397-412    A16     Sensor platform mission identifier                    ERS1$..$
+34     413-444    A32     Sensor ID: and mode of operation for this channel     <......>
+                          &lt;AAAAAA-BB-CC-DD-EF> where:
+                          AAAAAA = sensor identifier; BB = SAR band;
+                          CC = resolution mode code;  DD = imaging mode code;
+                          E  = transmit polarization; F  = receiver polarization
+35     445-452    A8      Orbit number                                          <......> 
+36     453-460    F8.3    Sensor Platform geodetic Latitude at nadir (positive  <......> 
+                          to north) corresponding to Scene Center (deg)                   
+37     461-468    F8.3    Sensor Platform geodetic Longitude at nadir (positive <......> 
+                          to east) corresponding to Scene Center (deg)     
+38     469-476    F8.3    Sensor Platform Heading at nadir corresponding        <......> 
+                          to Scene Center(deg)     
+39     477-484    F8.3    Sensor clock angle as measured relative to sensor     <......> 
+                          platform flight direction   
+40     485-492    F8.3    Incidence angle at scene centre as derived from sesor <......>
+                          platform orientation   
+41     493-500    F8.3    Radar frequency (GHz)                                 <......> 
+42     501-516    F16.7   Radar wavelength (meters)                             <......> 
+43     517-518    A2      Motion compensation indicator                         <......> 
+                          "00" = no compensation, "01" = on board compensation 
+                          "10" = in processor compensation,
+                          "11" = both on board and in processor  
+44     519-534    A16     Range pulse code specifier                            <......>
+45     535-550    E16.7   Range pulse (chirp) amplitude coefficient             <......>
+                          constant term (offset from DC) (Hz)) nominal value
+46     551-566    E16.7   Range pulse (chirp)amplitude coefficient              <......>
+                          linear term ( sec-1))nominal value                                 
+47     567-582    E16.7   Range pulse (chirp) amplitude coefficient             <......>
+                          quadratic term ( sec-2) nominal value
+48     583-598    E16.7   Range pulse (chirp) amplitude coefficient             <......>
+                          cubic term ( sec-3) nominal value
+49     599-614    E16.7   Range pulse (chirp)amplitude coefficient              <......>
+                          quartic term ( sec-4) nominal value
+50     615-630    E16.7   Range pulse (chirp) phase coefficient                 <......>
+                          constant term (offset in cycles)
+51     631-646    E16.7   Range pulse (chirp) phase coefficient                 <......> 
+                          linear term (Hz) nominal value
+52     647-662    E16.7   Range pulse (chirp) phase coefficient                 <......>
+                          quadratic term (Hz/sec) nominal value
+53     663-678    E16.7   Range pulse (chirp) phase coefficient                 <......>
+                          cubic term  (Hz/sec-2) nominal value
+54     679-694    E16.7   Range pulse (chirp) phase coefficient                 <......>
+                          quartic term (Hz/sec-3) nominal value
+55     695-702    I8      Down linked data chirp extraction index (in samples)  <......> 
+56     703-710    A8      spare                                                 <$$..$$> 
+57     711-726    F16.7   Sampling rate (MHz)                                   <......>
+58     727-742    F16.7   Range gate delay at early edge (in time)              <......> 
+                          at the start of the image (µsec)                        
+59     743-758    F16.7   Range pulse length (µsec)                              <......>
+60     759-762    A4      reserved                                              <$....$>
+61     763-766    A4      Range compressed flag (yes = range compressed data)   <$....$> 
+62     767-782    F16.7   reserved                                              <$....$>
+63     782-798    F16.7   reserved                                              <$....$>
+64     799-806    I8      Quantization in bits per channel (5I 5Q/6I 6Q         <......>
+                          for OGRC/OBRC) 
+65     807-818    A12     Quantizer descriptor (eg:"UNIFORM$I,Q$")              <......>
+66     819-834    F16.7   DC Bias for I-component                               <......>
+67     835-850    F16.7   DC Bias for Q-component                               <......>
+68     851-866    F16.7   Gain imbalance for I & Q                              <......>
+69-70  867-898    A32     spare                                                 <$....$>
+71     899-914    F16.7   reserved                                              <$....$>
+72     915-930    F16.7   Antenna mechanical boresight relative to platform     <......>
+                          vertical axis at the start of the image positive to
+                          the right negative to the left.(deg)       
+73     931-934    A4      reserved                                              <$....$>
+74     935-950    F16.7   Nominal PRF (Hz)                                      <......>
+75     951-966    F16.7   reserved                                              <$....$>
+76     967-982    F16.7   reserved                                              <$....$>
+                               
+                        SENSOR SPECIFIC PARAMETERS
+
+77      983-998   I16   Satellite encoded binary time code                      <......>
+78      999-1030  A32   Satellite clock time &lt;YYYYMMDDhhmmssttt$$$...$>         <......>
+79      1031-1038 I8    Satellite clock increment (nano-secs))                  <......>
+80      1039-1046 A8    spare                                                   <$....$>
+81      1047-1062 A16   Processing facility identifier                          <......>
+82      1063-1070 A8    Processing system identifier                            <......>
+83      1071-1078 A8    Processing version identifier                           <......>
+84      1079-1094 A16   reserved                                                <$....$>
+85      1095-1110 A16   reserved                                                <$....$>
+86      1111-1142 A32   Product type specifier                                  <......>
+87      1143-1174 A32   Processing algorithm identifier (e.g. Range-Doppler)    <......>
+88      1175-1190 F16.7 Nominal number of looks processed in Azimuth            <......>
+89      1191-1206 F16.7 Nominal effective number of looks processed in Range    <......>
+90      1207-1222 F16.7 Bandwidth per look in Azimuth ( Hz )                    <......>
+91      1223-1238 F16.7 Bandwidth per look in Range ( MHz )                     <......>
+92      1239-1254 F16.7 Total processor bandwidth in Azimuth (Hz)               <......>
+93      1255-1270 F16.7 Total procesgor bandwidth in Range (MHz)                <......>
+94      1271-1302 A32   Weighing function designator in Azimuth                 <......>
+95      1303-1334 A32   Weighing function designator in Range                   <......>
+96      1335-1350 A16   Data input source (eg:HDDT identifier)                  <......>
+97      1351-1366 F16.7 Nominal resolution equal to 3dB points in               <......>
+                        ground range (meter)
+98      1367-1382 F16.7 Nominal resolution in Azimuth (meter)                   <......>
+99-100  1383-1414 A32   reserved                                                <$....$>
+101     1415-1430 F16.7 Along track Doppler frequency constant term at
+                        early edge of the image (Hz)                            <......>
+102     1431-1446 F16.7 Along track Doppler frequency rate linear               <......>
+                        term at early edge of the image (Hz/sec)
+103     1447-1462 F16.7 Along track Doppler frequency rate quadratic            <......>
+                        term at early edge of the image (Hz/sec/sec)
+104     1463-1478 A16   spare                                                   <$....$>
+105     1479-1494 F16.7 Cross track Doppler frequency rate constant term        <......>
+                        at early edge of the image (Hz)
+106     1495-1510 F16.7 Cross track Doppler frequency rate linear term          <......>
+                        relative to early edge of the image (Hz/sec)
+107     1511-1526 F16.7 Cross track Doppler frequency rate quadratic term       <......>
+                        at early edge of the image (Hz/pixel/sec)
+108     1527-1534 A8    Time direction indicator along pixel direction          <......>
+                        (ie:"INCREASE" -ing or "DECREASE"-ing)
+109     1535-1542 A8    Time direction indicator along line direction           <......>
+                        (ie:"INCREASE" -ing or "DECREASE"-ing)
+110     1543-1558 F16.7 Along track Doppler frequency rate constant term        <......>
+                        at early edge of the image (Hz/sec)     
+111     1559-1574 F16.7 Along track Doppler frequency rate linear term          <......>
+                        at early edge of the image (Hz/sec/sec)
+112     1575-1590 F16.7 Along track Doppler frequency rate quadratic            <......>
+                        term at early edge of the image (Hz/sec/sec/sec)
+113     1591-1606 A16   spare                                                   <$....$>
+114     1607-1622 F16.7 Cross track Doppler frequency rate constant term        <......>
+                        at near edge of the image (Hz/sec)
+115     1623-1638 F16.7 Cross track Doppler frequency rate linear term          <......>
+                        relative to near edge of the image (Hz/sec/sec)
+116     1639-1654 F16.7 Cross track Doppler frequency rate quadratic term       <......>
+                        relative to near edge of the image (Hz/sec/sec/sec)
+117     1655-1670 A16   spare                                                   <$....$>
+118     1671-1678 A8    Line content indicator                                  <......>
+119     1679-1682 A4    Clutter lock applied flag                               <......>
+120     1683-1686 A4    Autofocussing applied flag                              <......>
+121     1687-1702 F16.7 Line spacing (meters)                                   <......>
+122     1703-1718 F16.7 Pixel spacing ( in range )(meters)                      <......>
+123     1719-1734 A16   Processor range compression designator                  <......>
+124-125 1735-1766 2A16  spare                                                   <$....$>
+
+                         SENSOR SPECIFIC LOCAL USE SEGMENT
+
+126     1767-1814 3F16.7 Zero-doppler range time of first range pixel (msec)    <......>
+                         Zero-doppler range time of centre range pixel (msec)   <......>
+                         Zero-doppler range time of last range pixel (msec)     <......>
+        1815-1886 3A24   Zero-doppler azimuth time of first azimuth pixel (UTC) <......>
+                         Zero-doppler azimuth time of centre azimuth pixel(UTC) <......>
+                         Zero-doppler azimuth time of last azimuth pixel (UTC)  <......>
+                         as : dd-MMM-YYYY hh:mm:ss.ttt where
+                         dd   = day
+                         MMM  = month (e.g. JAN)
+                         yyyy = year
+                         hh   = hour
+                         mm   = minuts
+                         ss   = seconds
+                         ttt  = milliseconds
+</PRE>
+<P>
+<H3>TABLE 3.4    PLATFORM POSITION DATA RECORD</H3>
+<P>
+<P>
+
+<PRE>
+FIELD   BYTES   FORMAT  DESCRIPTION                                     CONTENT
+
+1       1-4     B4      Record sequence number                          (4)
+2       5       Bl      l-st record sub-type code                       (10)
+3       6       Bl      Record type code                                (30)
+4       7       Bl      2-nd record sub-type code                       (31)
+5       8       Bl      3-rd record sub-type code                       (20)
+6       9-12    B4      Length of this record                           <......>
+7       13-44   A32     reserved                                        <$....$>
+8-13    45-140  6F16.7  reserved                                        <$....$>
+14      141-144 I4      Number of data points (up to 64)                <......>
+15      145-148 I4      Year of data point (YYYY)                       <....>
+16      149-152 I4      Month of data point ($$MM)                      <$$..>
+17      153-156 I4      Day of data point ($$DD)                        <$$..>
+18      157-160 I4      Day in the year (GMT) (lst January = day l)
+19      161-182 D22.15  Seconds of day (GMT) of data                    <......>
+20      183-204 D22.15  Time interval between DATA points (sec)         <......>
+21      205-268 A64     Reference coordinate system                     <......>
+22      269-290 D22.15  Greenwich mean hour angle (degrees)             <......>
+23      291-306 F16.7   Along track position error (meters)
+24      307-322 F16.7   Across track position error (meters)            <......>
+25      323-338 F16.7   Radial position error (meters)                  <......>
+26-28   339-386 3F16.7  reserved                                        <$....$>
+
+FIRST POSITIONAL DATA POINT
+
+29      387-452 3D22 15 1st data point position vector  as              <......>
+                        latitude, longitude and altitude for
+                        airborne sensor platform, and as (X,Y,Z)
+                        coordinates for spaceborne sensor platform
+                        in a reference system such as CTS (meters)
+30      453-518 3D22 15 1st data point velocity vector in airborne      <......>
+                        coordinates (meters/second &amp; degrees/second)
+                        for airborne sensor platform or (X',Y',Z') in 
+                        a reference system such as CTS for spaceborne
+                        sensor platforms
+31-     519-    6D22 15 2nd, 3rd, data point position                   <......>
+                        velocity vectors (repetition of fields
+                        29-30 as specified by the number of
+                        points in field #14)
+&lt;tbd> &lt;tbd>-EOR A&lt;tbd>  blanks                                          <......>
+</PRE>
+<P>
+<H3>TABLE 3.5 RADIOMETRIC COMPENSATION DATA RECORD</H3>
+<P>
+<P>
+
+<PRE>
+FIELD    BYTES   FORMAT DESCRIPTION                                     CONTENT
+
+1        1-4     B4     Sequence number                                 (n)
+2        5       Bl     1-st record sub-type code                       (10)
+3        6       Bl     Record type code                                (51)
+4        7       Bl     2-nd record sub-type code                       (31)
+5        8       Bl     3-rd record sub-type code                       (20)
+6        9-12    B4     Length of this record                           <......>
+7        13-16   I4     Rad. compensation record Sequence number        <......>
+8        17-20   I4     SAR channel indicator                           <......>
+9        21-28   I8     Number of radiometric compensation data sets    <......>
+                        in the record
+10       29-36   I8     Compensation data set size (bytes)              <......>
+11       37-44   A8     Compensation data type designator               <......>
+                        (eg: "RANGE" "AZIMUTH" "PIXEL" "LINE")
+12       45-76   A32    Compensation data descriptor (eg: "elevation    <......>
+                        antenna pattern", "range attenuation", "resolution 
+                        cell size", "azimuth attenuation", etc.)
+13       77-80   I4     Number of compensation records                  <......>
+14       81-84   I4     Sequence number in the full compensation table  <......>
+                        of the table contained in this record
+15       85-92   I8     Total number of compensation pairs in the       <......>
+                        full compensation table
+16       93-100  I8     Data pixel number corresponding to first        <......>
+                        correction value in compensation table
+17       101-108 I8     Data pixel number corresponding to last         <......>
+                        correction value in compensation table
+18       109-116 I8     Compensation pixel group size (pixels)          <......>
+19       117-132 F16.7  Min. table Offset value (dB)                    <......>
+20       133-148 F16.7  Min. table Gain value (dB)                      <......>
+21       149-164 F16.7  Min. table Offset value (dB)                    <......>
+22       165-180 F16.7  Min. table Gain value (dB)                      <......>
+23       181-196 A16    spare                                           <$....$>
+
+                        RADIOMETRIC COMPENSATION TABLE VALUES
+
+24       197-204 I8     Number of compensation table entries (up to     <......>
+                        256 samples/record in example)
+25       205-220 F16.7  1-st compensation sample Offset (dB)            <......>
+26       221-236 F16.7  1-st compensation sample Gain (dB)              <......>
+27       237-252 F16.7  2-nd compensation sample Offset (dB)            <......>
+28       253-268 F16.7  2-nd compensation sample Gain (dB)              <......>
+
+535     8365-8380 F16.7 256-th compensation sample Offset (dB)          <......>
+536     8381-8396 F16.7 256-th compensation sample Gain (dB)            <......>
+537     8397-8600 A204  blanks                                          <$....$>
+</PRE>
+<P>
+<H3>TABLE 3.6 RADAR PARAMETER UPDATE DATA RECORD</H3>
+<P>
+<P>
+
+<PRE>FIELD   BYTES  FORMAT DESCRIPTION                                     CONTENT
+
+1       1-4     B4      Record seguence number                          (n)
+2       5       Bl      l-st record sub-type code                       (10)
+3       6       Bl      Record type code                                (100)
+4       7       Bl      2-nd record sub-type code                       (31)
+5       8       Bl      3-rd record sub-type code                       (20)
+6       9-12    B4      Length of this record = &lt;tbd>                   <......>
+7       13-16   I4      Radar parameter record sequence number          <......>
+8       17-20   A4      spare                                           <......>
+9       21-28   I8      Number of radar parameter update data stes      <......>
+                        in the record 
+10      29-36   I8      Radar parameter update data set size (bytes)    <......>
+
+        1-ST    RADAR   PARAMETER UPDATE DATA SET
+
+11      37-56   A20     GMT of Change &lt;YYYYMMDD-hhmmssttt$$>            <......>
+12      57-60   A4      SAR channel indicator                           <......>
+13      61-68   I8      Radar data line number where this update        <......>
+                        takes effect
+14      69-76   I8      Radar data sample number where this update      <......>
+                        takes effect
+15      77-108  A32     Parameter descriptor field, one of:             <......>
+                        "RECEIVER GAIN (dB)             ="
+                        "RECORD WINDOW POSITION (Vsec)  ="
+                        "ELECTRONIC BORESIGHT (degrees) ="
+                        "PRF (Hz)                       ="
+                        "PULSE BANDWIDTH (Hz)           ="
+                        "PULSE DURATION (µsec)          ="
+                        "QUANTIZATION (bits)    
+                        etc.
+16      109-124 E16.7   Parameter value                                 <......>
+
+        2-ND,. RADAR    PARAMETER UPDATE DATA SET
+
+20      125-... ...     The radar parameter update data set 
+                        (fields 11-16) are repeated as many times as
+                        indicated by the data set counter (field# 9)
+&lt;tbd> &lt;tbd>-EORA&lt;tbd>   spares                                          <$....$>
+</PRE>
+<P>
+<H3>TABLE       3.7     FACILITY RELATED DATA RECORD GENERAL TYPE</H3>
+<P>
+
+<PRE>
+FIELD   BYTES           FORMAT  DESCRIPTION                                     CONTENT
+
+1       1-4             B4      Sequence number                                 (n)
+2       5               Bl      1-st record sub-type code                       (10)
+3       6               Bl      Record type code                                (200)
+4       7               Bl      2-nd record sub-type code                       (31)
+5       8               Bl      3-rd record sub-type code                       (50)
+6       9-12            B4      Length of this record                           12288
+7       13-76           A64     name of this facility related data record       "FACILITY"
+                                "$RELATED$DATA$RECORD$GENERAL$TYPE$..$
+8       77-82           A6      Date of the last release of QC software as      <......>
+                                YYMMDD, where:  
+                                YY = last two digits of year
+                                MM = month of the year
+                                DD = day of the month
+9       83-84           A2      spare                                           <$....S>
+10      85-90           A6      Date of the last calibration update as YYMMDD
+                                (field 8 format)
+
+                                SAR QA Summary Flags:
+
+11      91-94           I4      Overall QA Summary Flag (0/1)                   <......>
+12      95-98           I4      PRF code change Flag (0/1)                      <......>
+13      99-102          I4      Sampling Window change Flag (0/1)               <......>
+14      103-106         I4      Cal system &amp; Receiver gain change Flag (0/1)    <......>
+15      107-110         I4      Chirp replica quality Flag (0/1)                <......>
+16      111-114         I4      Input data statistic Flag (0/1)                 <......>
+17      115-118         I4      Doppler centroid confidence measure Flag (0/1)  <......>
+18      119-122         I4      Doppler centroid value Flag ( 0 or l)           <......>
+19      123-126         I4      Doppler ambiguity confidence measure Flag (0/1) <......>
+20      127-130         I4      Output data Mean Flag                           <......>
+
+                                SAR QA Parameters:
+
+21      131-134         I4      OGRC/OBRC flag (0/1)                            <......>
+22      135-138         I4      Number of PRF code changes                      <......>
+23      139-142         I4      Number of sampling window time changes          <......>
+24      143-146         I4      Number of calibration subsystems gain changes   <......>
+25      147-150         I4      Number of missing lines                         <......>
+26      151-154         I4      Number of receiver gain changes                 <......>
+27      155-170         F16.7   3-dB pulse width of ( first ) Chirp (samples)   <......>
+                                Replica Autocorrelation Function (ACF)          <......>
+28      171-186         F16.7   first side-lobe level of Chirp ACF (dB)         <......>
+29      187-202         F16.7   ISLR of Chirp ACF function (dB)                 <......>
+30      203-218         F16.7   Doppler Centroid confidence measure (processor  <......>
+                                specific) (value normalised such that it takes 
+                                a value between zero and one as worst and best case)
+31      219-234         F16.7   Doppler ambiguity confidence measure (processor <......>
+                                specific)
+32      235-250         F16.7   Estimated Mean of I input data                  <......>
+33      251-266         F16.7   Estimated Mean of Q input data                  <......>
+34      267-282         F16.7   Estimated Standard deviation of I input data    <......>
+35      283-298         F16.7   Estimated Standard deviation of Q input data    <......>
+36      299-314         F16.7   Calibration system gain                         <......>
+37      315-330         F16.7   First Receiver Gain Read                        <......>
+38      331-346         F16.7   Doppler Ambiguity Number                        <......>
+39      347-362         A16     spare
+
+                                Internal Calibration
+
+40      363-378         F16.7   bias correction applied to I channel            <......>
+41      379-394         F16.7   bias correction applied to Q channel            <......>
+42      395-410         F16.7   Gain imbalance correction applied to I channel  <......>
+43      411-426         F16.7   Gain imbalance correction applied to Q channel  <......>
+44      427-442         F16.7   I/Q Non-orthogonality correction applied to Q   <......>
+                                channel
+45      443-458         A16     spare                                           <$....$>
+46      459-474         F16.7   Estimated noise power                           <......>
+47      475-490         I16     calibration pulse time delay (nanoseconds)      <......>
+48      491-494         I4      Number of valid calibration pulses              <......>
+49      495-498         I4      Number of valid noise pulses                    <......>
+50      499-502         I4      Number of valid replica pulses                  <......>
+51      503-518         F16.7   first sample in replica (CEI) (samples)         <......>
+52      519-534         F16.7   Mean Cal pulse power                            <......>
+53      535-550         F16.7   Mean noise power                                <......>
+54      551-566         F16.7   range compression normalisation factor          <......>
+55      567-582         F16.7   replica power                                   <......>
+56      583-598         F16.7   incidence angle at first range pixel            <......>
+                                (at mid-azimuth,deg)
+57      599-614         F16.7   incidence angle at centre range pixel           <......>
+                                (at mid-azimuth,deg)
+58      615-630         F16.7   incidence angle at last range pixel             <......>
+                                (at mid-azimuth,deg)
+59      631-646         F16.7   normalisation reference range Ro ( in Km )      <......>
+                                ( set to 0 for ERS.SAR.SLC )
+60      647-658         A12     spare                                           <$....$>
+61      659-662         I4      antenna elevation gain pattern flag ( 0 or l)   <......>
+62      663-678         F16.7   absolute calibration constant K ( scalar )      <......>
+63      679-694         F16.7   Upper bound K (+3 std dev )                     <......>
+64      695-710         F16.7   Lower bound K (-3 std dev )                     <......>
+65      711-726         F16.7   estimated noise equivalent sigma deg. (dB)      <......>
+66      727-732         A6      Date on which K was generated as YYMMDD         <......>
+                                ( see field 7 format)
+67      733-736         A4      K version number as XXYY where                  <......>
+                                XX refers to a K update implemented across
+                                the ground segment
+                                YY refers to an upgrade only at the source PAF
+                                ( as may arise in case of local software updates )
+68      737-740         I4      number of duplicated input lines                <......>
+69      741-756         F16.7   estimated bit error rate                        <......>
+70      757-768         A12     spare
+71      769-784         F16.7   output image mean                               <......>
+72      785-800         F16.7   output image standard deviation                 <......>
+73      801-816         F16.7   output image maximum value                      <......>
+74      817-840         A24     time of raw data first input range line (UTC)   <......>
+                                &lt;dd-MMM-yyy hh:mm:ss.ttt>
+75      841-864         A24     time of ascending node state vectors (UTC)      <......>
+                                (same format as field 74)
+76      865-886         D22.15  ascending node position vector X component (m)  <......>
+77      887-908         D22.15  ascending node position vector Y component (m)  <......>
+78      909-930         D22.15  ascending node position vector Z component (m)  <......>
+79      931-952         D22.15  ascending node velocity vector Vx component(m/s)<......>
+80      953-974         D22.15  ascending node velocity vector Vy component(m/s)<......>
+81      975-996         D22.15  ascending node velocity vector Vz component(m/s)<......>
+82      997-1000        I4      output pixel bit length (bits)
+83      1001-1016       F16.7   processor gain parameter 1
+84      1017-1032       F16.7   processor gain parameter 2
+85      1033-1048       F16.7   processor gain parameter 3
+86      1049-1052       I4      peak location of cross correlation function     <......>
+                                between first extracted chirp and nominal 
+                                chirp (samples)
+87      1053-1068       F16.7   3-dB width of CCF between last extracted chirp 
+                                and nominal chirp (samples)
+88      1069-1084       F16.7   first side lobe level of chirp (CCF) between    <......>
+                                last extracted chirp and nominal chirp (dB)
+89      1085-1100       F16.7   ISLR of CCF between last extracted chirp        <......>
+                                and nominal chirp (dB)
+90      1101-1104       I4      peak location of CCF betwee last extracted      <......>
+                                chirp and nominal chirp (samples)
+91      1105-1108       I4      Roll Tilt Mode flag (0 = not in roll tilt mode) <......>
+92      1109-1112       I4      raw data correction flag (0 = correction with   <......>
+                                default parameters)
+93      1113-1116       I4      look detection flag (1 = power detected and     <......>
+                                summed)
+94      1117-1120       I4      doppler ambiguity estimation flag               <......>
+                                (0 = no estimation done)
+95      1121-1124       I4      azimuth baseband conversion flag                <......>
+                                (0 = no conversion done)
+96      1125-1128       I4      samples per line used for the raw data analysis <......>
+97      1129-1132       I4      range lines skip factor for raw data analysis   <......>
+98      1133-1156       A24     time of input state vectors (UTC) used to       <......>
+                                process the image (same format as field 74)
+99      1157-1178       D22.15  input state vector position X component (m)     <......>
+100     1179-1200       D22.15  input state vector position Y component (m)     <......>
+101     1201-1222       D22.15  input state vector position Z component (m)     <......>
+102     1223-1244       D22.15  input state vector velocity Vx component (m/s)  <......>
+103     1245-1266       D22.15  input state vector velocity Vy component (m/s)  <......>
+104     1267-1288       D22.15  input state vector velocity Vz component (m/s)  v
+105     1289-1292       I4      input state vector type flag                    <......>
+                                (0 = ascending node state vectors, predicted orbit;
+                                1 = near scene state vectors, restituted orbit)
+106     1293-1308       F16.7   window coefficient for range-matched filter     <......>
+107     1309-1324       F16.7   window coefficient for azimuth-matched filter   <......>
+108     1325-1328       I4      update period of range-matched filter (chirps)  <......>
+109     1329-1456       8F16.7  look scalar gains (up to 8 looks)               <......>
+110     1457-1460       I4      sampling window start time bias (nanoseconds)   <......>
+111     1461-1482       D22.15  doppler centroid cubic coefficient(Hz/sec3)     <......>
+112     1483-1486       I4      PRF code of first range line (telemetry value)  <......>
+113     1487-1490       I4      PRF code of last range line (telemetry value)   <......>
+114     1491-1494       I4      sampling window start time code of first range  <......>
+                                line (telemetry value)
+115     1495-1498       I4      sampling window start time code of last range   <......>
+                                line
+116     1499-1502       I4      calibration system gain of last processed line  <......>
+                                (telemetry value)
+117     1503-1506       I4      receiver gain of last processed line (telemetry <......>
+                                value)
+118     1507-1510       I4      first processed range sample                    <......>
+119     1511-1514       I4      azimuth FFT/IFFT ratio                          <......>
+120     1515-1518       I4      number of azimuth blocks processed              <......>
+121     1519-1526       I8      number of input raw data lines                  <......>
+122     1527-1530       I4      initial doppler ambiguity number                <......>
+123     1531-1578       3F16.7  chirp quality thresholds
+                                -Pulse width of the chirp CCF (10-3 pixels)     <......>
+                                -First sidelobe of the chirp CCF (10-3 dB)      <......>
+                                -ISLR of the chirp CCF (10-3 dB)                <......>
+        1579-1642       4F16.7  input data statistic thresholds
+                                -mean of input I data in fraction of maximum    <......>
+                                 absolute of input data (10-3)
+                                -mean of input Q data in fraction of maximum    <......>
+                                 absolute of input data (10-3)
+                                -standard deviation of input I data in fraction <......>
+                                 of maximum absolute of input data (10-3)
+                                -standard deviation of input Q data in fraction <......>
+                                 of maximum absolute of input data (10-3)
+        1643-1674       2F16.7  doppler ambiguity confidence thresholds (10-3)  <......>
+        1675-1706       2F16.7  output data statistic thresholds
+                                -mean of outout data (10-3)                     <......>
+                                -standard deviation of output data (10-3)       <......>
+124     1707-1722       I16     satellite binary time of first range line       <......>
+                                (telemetry value)
+125     1723-1726       I4      number of valid pixels per range line           <......>
+                                (the remaining pixels are zero padded)
+126     1727-1730       I4      number of range samples discarded during        <......>
+                                processing interpolations
+127     1731-1746       F16.7   I/Q gain imbalance lower bound                  <......>
+128     1747-1762       F16.7   I/Q gain imbalance upper bound                  <......>
+129     1763-1778       F16.7   I/Q quadrature departure lower bound (degrees)  <......>
+130     1779-1794       F16.7   I/Q quadrature departure upper bound (degrees)  <......>
+131     1795-1810       F16.7   3-dB look bandwidth (HZ)
+132     1811-1826       F16.7   3-dB processed doppler bandwidth (Hz)           <......>
+133     1827-1830       I4      range spreading loss compensation flag          <......>
+                                (0 = no compensation)
+134     1831-1831       I1      datation flag (1 = azimuth timing improved      <......>
+                                based on timing information of range line 
+                                specified in field 136)
+135     1832-1838       I7      maximum error of range line timing (nanoseconds)<......>
+136     1839-1845       I7      format number of range line used to synchronize <......>
+                                azimuth timing
+137     1846-1846       I1      automatic look scal gain flag                   <......>
+                                (1 = automatically calculated)
+138     1847-1850       I4      maximum value of look scalar gain before the    <......>
+                                look scalar gains are normalised
+139     1851-1854       I4      replica normalisation method flag               <......>
+                                (0 = normalised by replica power,i.e.
+                                Z' = Z* (c/Ar) where Ar is the replica
+                                power and c is specified in field 54;
+                                1 = normalised by the square root of replica
+                                power, Z' = Z /Ar )
+140     1855-1934       4E20.10 4 coefficients of the ground range to slant range
+                                conversion polynamial
+141     1935-2034       5E20.10 5 coefficients of the antenna elevation
+                                pattern polynomial
+142     2035-2050       E16.7   range time of origin of antenna elevation (sec)<......>
+                                pattern polynomial
+143     2051-12288 A10238       spare
+</PRE>
+<P>
+<H3>TABLE 3.8           FACILITY RELATED DATA RECORD PCS QUALITY TYPE</H3>
+<P>
+<P>
+
+<PRE>
+FIELD   BYTES           FORMAT  DESCRIPTION                                     CONTENT
+
+1       1-4             B4      Sequence number                                 (n)
+2       5               Bl      1-st record sub-type code                       (10)
+3       6               Bl      Record type code                                (200)
+4       7               Bl      2-nd record sub-type code                       (31)
+5       8               Bl      3-rd record sub-type code                       (50)
+6       9-12            B4      Length of this record                           (12288)
+7       13-76           A64     name of this facility related data record       "FACILITY"
+                                "$RELATED DATA RECORD PCS QUALITY TYPE$...$"
+
+8       77-12288        B       reserved
+</PRE>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<HR>
+</DOC>

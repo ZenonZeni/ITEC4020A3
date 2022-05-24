@@ -1,0 +1,104 @@
+
+<DOC>
+<DOCNO>WT01-B03-126</DOCNO>
+<DOCOLDNO>IA097-001038-B030-361</DOCOLDNO>
+<DOCHDR>
+http://www.fintrend.com:80/feedback.htm 206.205.42.66 19970215062747 text/html 3695
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 06:28:07 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>Feedback Form</title>
+<meta name="FORMATTER" content="Microsoft FrontPage 2.0">
+</head>
+
+<body background="images/paper13l.gif" bgcolor="#C0C0C0"
+text="#000080"
+stylesrc="http://comptech/FinancialTrendForecaster/_private/style.htm">
+<!--webbot bot="Include"
+u-include="http://comptech/FinancialTrendForecaster/_private/logo.htm"
+tag="BODY" startspan -->
+
+<p align="center"><img src="images/FTFlogo.gif" width="414"
+height="100"></p>
+<!--webbot bot="Include" endspan i-checksum="19550" -->
+
+<p><!--webbot bot="PurpleText"
+preview="Customize the form below to collect the information you need. By default, the form data is saved to a text file on the web server using the WebBot Save Results component. Edit the Form Properties to change this behavior."
+--> </p>
+
+<h1>Feedback Form</h1>
+
+<hr>
+
+<p>Tell us what you think about our web site, our products, our
+organization, or anything else that comes to mind. We welcome all
+of your comments and suggestions.</p>
+
+<form action="mailto:FinTrend@aol.com" method="POST">
+    <p><strong>What kind of comment would you like to send?</strong></p>
+    <dl>
+        <dd><input type="radio" name="MessageType"
+            value="Complaint">Complaint <input type="radio"
+            name="MessageType" value="Problem">Problem <input
+            type="radio" checked name="MessageType"
+            value="Suggestion">Suggestion <input type="radio"
+            name="MessageType" value="Praise">Praise</dd>
+    </dl>
+    <p><strong>What about us do you want to comment on?</strong></p>
+    <dl>
+        <dd><select name="Subject" size="1">
+                <option selected>Web Site</option>
+                <option>Company</option>
+                <option>Products</option>
+                <option>Store</option>
+                <option>Employee</option>
+                <option>(Other)</option>
+            </select> Other: <input type="text" size="26"
+            maxlength="256" name="SubjectOther"></dd>
+    </dl>
+    <p><strong>Enter your comments in the space provided below:</strong></p>
+    <dl>
+        <dd><textarea name="Comments" rows="5" cols="42"></textarea></dd>
+    </dl>
+    <p><strong>Tell us how to get in touch with you:</strong></p>
+    <dl>
+        <dd><pre>Name     <input type="text" size="35"
+maxlength="256" name="UserName">
+E-mail   <input type="text" size="35" maxlength="256" name="UserEmail">
+Tel      <input type="text" size="35" maxlength="256"
+name="UserTel">
+FAX      <input type="text" size="35" maxlength="256"
+name="UserFAX"> </pre>
+        </dd>
+    </dl>
+    <dl>
+        <dd><input type="checkbox" name="ContactRequested"
+            value="ContactRequested"> Please contact me as soon
+            as possible regarding this matter.</dd>
+    </dl>
+    <p><input type="submit" value="Submit Comments"> <input
+    type="reset" value="Clear Form"></p>
+</form>
+
+<hr>
+
+<h5>Send Questions or Comments to <a href="mailto:lmm320@aol.com"><!--webbot
+bot="Substitution" s-variable="webmasteremail" startspan -->lmm320@aol.com<!--webbot
+bot="Substitution" endspan i-checksum="26585" --></a><br>
+Copyright © 1996 Bonanza Press. All rights reserved.<br>
+Revised: <!--webbot bot="TimeStamp" s-type="EDITED"
+s-format="%B %d, %Y" startspan -->November 02, 1996<!--webbot
+bot="TimeStamp" endspan i-checksum="41274" -->.</h5>
+</body>
+</html>
+</DOC>

@@ -1,0 +1,119 @@
+
+<DOC>
+<DOCNO>WT02-B18-47</DOCNO>
+<DOCOLDNO>IA031-000660-B041-362</DOCOLDNO>
+<DOCHDR>
+http://minerva.forestry.umn.edu:80/trps/ 128.101.70.48 19970209092655 text/html 3208
+HTTP/1.0 200 Document follows
+Date: Sun, 09 Feb 1997 ? GMT
+Server: NCSA/1.4.1
+Content-type: text/html
+Last-modified: Wed, 05 Feb 1997 ? GMT
+Content-length: 3046
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Tropics Bibliography</TITLE>
+</HEAD>
+
+<BODY>
+<CENTER>
+
+<TABLE>
+<TR>
+
+	<TD><FONT SIZE=+3><B>Tropical Forest Conservation and Development: A Bibliography</B><BR></FONT><FONT SIZE=+2>Updated July 1996<P>Jean Albrecht<BR>Forestry Library<BR>College of Natural Resources<BR>University of Minnesota<BR>St. Paul, MN<p></FONT></TD>
+</TR>
+</TABLE>
+
+</CENTER>
+		    
+<BR><BR>
+		    
+This bibliography pulls together, from various disciplines, literature relating to the conservation and sustainable development of tropical forests. All of the publications cited are in the collections of the University of Minnesota Libraries and are available (photocopy or loan) from Interlibrary Loan Division, St. Paul Campus Libraries, 1984 Buford Avenue, St. Paul, MN 55108. FAX (612) 624-9245.<P>
+
+This bibliography will be updated annually on line.<P>
+
+<BR>
+
+<FONT SIZE=+2>
+Search the Tropics Bibliography and retrieve citation links<BR>
+</FONT>
+<FORM ACTION="gopher://minerva.forestry.umn.edu/77/trps/tropics.index">
+<DL>
+	<DT><DD><INPUT NAME="ISINDEX" SIZE=40> <INPUT TYPE="SUBMIT" VALUE="Search"> <A HREF="help1.html">HELP</A>
+</DL>
+</FORM>
+
+<BR>
+
+<FONT SIZE=+2>
+Search the Tropics Bibliography and retrieve full citations<BR>
+</FONT>
+
+<form method=POST action="/cgi-bin/isearch">
+<input name="DATABASE" type=hidden value="TRPS">
+<input name="SEARCH_TYPE" type=hidden value="BOOLEAN">
+<input name="FIELD_1" type=hidden value="FULLTEXT">
+<input name="FIELD_2" type=hidden value="FULLTEXT">
+<input name="WEIGHT_1" type=hidden value="1">
+<input name="WEIGHT_2" type=hidden value="1">
+<input name="ELEMENT_SET" type=hidden value="B">
+
+<DL>
+<DT>
+<DD>
+	<input name="TERM_1">
+	<select name="OPERATOR">
+		<option selected>AND
+		<option>OR
+		<option>ANDNOT
+	</select>
+	<input name="TERM_2">
+	<input type="submit" value="Search"> <A HREF="help2.html">HELP</A>
+<DD>	<FONT SIZE="-1">Sorry, only simple boolean searches at the moment</FONT>
+<DD>	Enter maximum number of hits to retrieve: <input size=4 name="MAXHITS" value="50">
+</DT>
+</DL>
+
+</form>
+
+<BR>	
+			
+<FONT SIZE=+2>
+Browse the Tropics Bibliography<P>
+</FONT>
+
+<UL>
+
+	<LI><A HREF="dat/01/">Forest Resources</A>
+	<LI><A HREF="dat/02/">Deforestation</A>
+	<LI><A HREF="dat/03/">Conservation and Sustainable Development</A>
+	<LI><A HREF="dat/04/">Indigenous Peoples</A>
+	<LI><A HREF="dat/05/">Management, Policy, and Planning</A>
+	<LI><A HREF="dat/06/">Trade and Industrial Development</A>
+	<LI><A HREF="dat/07/">Nontimber Forest Products</A>
+	<LI><A HREF="dat/08/">Research, Education, and Training</A>
+	<LI><A HREF="dat/09/">History</A>
+	<LI><A HREF="dat/10/">Bibliographies and General Works</A>
+
+</UL>
+
+<HR>
+<BR>
+
+<CENTER>
+Copyright 1996<BR>
+Regents of the University of Minnesota<BR>
+All Rights Reserved<p>
+</CENTER>
+
+The University of Minnesota is committed to the policy that all persons
+shall have equal access to its programs, facilities, and employment
+without regard to race, religion, color, sex, national origin, handicap,
+age, veteran status or sexual orientation.<P>
+
+
+</BODY>
+</HTML>
+</DOC>

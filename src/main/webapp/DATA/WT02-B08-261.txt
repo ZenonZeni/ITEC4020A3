@@ -1,0 +1,62 @@
+
+<DOC>
+<DOCNO>WT02-B08-261</DOCNO>
+<DOCOLDNO>IA069-000427-B024-331</DOCOLDNO>
+<DOCHDR>
+http://www.spri.cam.ac.uk:80/rsg/awb.htm 131.111.118.70 19970113090219 text/html 2368
+HTTP/1.0 200 Document follows
+Date: Mon, 13 Jan 1997 09:03:00 GMT
+Server: NCSA/1.4.2
+Content-type: text/html
+Last-modified: Thu, 29 Aug 1996 11:26:45 GMT
+Content-length: 2192
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Data synergies</TITLE>
+</HEAD>
+<BODY background = "bkgrnd.gif">
+
+<h2>Data synergies in the remote sensing of glaciers</h2>
+
+Data synergy involves the combination of independent datasets to extract new or to 
+obtain more accurate information. Work by the <a href="home.htm">SPRI 
+Remote Sensing Group</a> is currently aimed at measuring
+<ul>
+<LI> surface topography,
+<LI> surface morphology,
+<LI> surface temperature
+</ul>
+of terrestrial ice masses using synergistic remote sensing techniques.<BR>
+<BR>
+A topographic map of Nordaustlandet, a small ice cap in north Svalbard, is shown 
+here<BR>
+<b>Image to follow</b><br>
+This map was derived using a combination of both visible-wavelength and altimetric 
+data. The surface topography was derived using a shape-from-shading algorithm on 
+LANDSAT Multispectral Scanner (MSS) data, with ERS-1 altimetric data being used to 
+provide suitable tie points. Such a map would be impossible to generate using either dataset 
+alone; the shape-from-shading method does not work well at low spatial frequencies, 
+and the altimetric dataset does not include high frequencies.<BR>
+<BR>
+LANDSAT visible-wavelength data provide information about the 'chemical' properties 
+of a glacier and ERS-1 SAR the physical properties. The RSG is developing techniques 
+to merge these datasets to improve the mapping of surface facies on glaciers and 
+ice caps.<br>
+<b>Image to follow</b><br>
+This figure shows an unsupervised classification of a merged LANDSAT TM and ERS-1 
+SAR scene of Finsterwalderbreen, a glacier on Svalbard.<BR>
+<BR>
+The categories in the classification contain both chemical and physical description 
+and are thus more representative of the actual surface facies. A technique to acquire 
+accurate surface temperatures, and hence the position of the freeze/thaw line, using 
+ERS-1 ATSR and SAR data is currently under development.
+<HR>
+<A HREF="rsgglac.htm">Go to Remote Sensing Group - Ice Sheets and Glaciers page</A><BR>
+<A HREF="rsghome.htm">Go to RSG home page</A><BR>
+<A HREF="../home.htm">Go to SPRI home page</A><BR><BR>
+This page was written by Andy Bingham, HTML by Dr. Gareth Rees, August 1996
+<HR>
+</BODY>
+</HTML>
+</DOC>

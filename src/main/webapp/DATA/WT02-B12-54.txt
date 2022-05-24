@@ -1,0 +1,78 @@
+
+<DOC>
+<DOCNO>WT02-B12-54</DOCNO>
+<DOCOLDNO>IA087-000625-B047-156</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.084.html 130.91.195.242 19970122063019 text/html 3181
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:30:18 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 3010
+Last-modified: Tue, 22 Nov 1994 06:32:07 GMT
+</DOCHDR>
+"I support HR3627" -- privacy in communications <p>
+
+Date: Wed, 9 Feb 94 07:37 EST
+From: "Robert G. Moskowitz" &lt;0003858921@mcimail.com&gt;
+To: cantwell &lt;cantwell@eff.org&gt;
+To: US president &lt;president@whitehouse.gov&gt;
+To: US vice-president &lt;vice-president@whitehouse.gov&gt;
+Subject: I support HR3627 <p>
+
+It seems to me that privacy in communications requires three things: <p>
+
+-  Authentication/non-reputiation
+-  Guarantied data content
+-  Encryption of data <p>
+
+Authentication/non-reputiation is not only a security item, i.e. am I
+communicating with the person I want to, but also a legal issue.  If someone
+says that they will do something in a non-reputiable message and doesn't,
+they later cannot deny that they made the statement as it is non-reputiable. <p>
+
+The data content must be guarantied, as not only might it be maliciously
+corrupted, but computer programs that forward data have been known to do
+things wrong, and communication links have been known to alter a byte or
+two. <p>
+
+Data encryption allows for private communications over public servers. <p>
+
+The Clipper chip only addresses the last item.  And then only over a
+private, point-to-point link.  The Clipper chip on a third party provider's
+communication link is no assurance that one of the data forwarding systems
+on the data path has not been comprimised and my data is still being
+'watched'. <p>
+
+There is an INTERNATIONAL, GATT based standard for EMail that addresses
+this.  It is called X.509.  X.509 combines Public Key cryptography and
+message hashing to meet all three requirements.  According to many people
+that know the legal side better than me, X.509 has been agreed to by the US
+government at a treaty level and thus needs to be supported and allowed by
+the US government.  Thus the US government cannot take a unilateral position
+of saying that the Clipper Chip technology is the only communications
+security the public needs. <p>
+
+It is also incumbant on the US government to encourage its citizens to
+produce the best X.509 products possible to maintain a competitive edge in
+the messaging software arena.  Thus a bill like HR3627 is a key bill. <p>
+
+I know that there are limitations and implementation issues to X.509.  Also
+X.509 does not well address real time and interactive communications.  There
+are other efforts in various standard bodies that are addressing this;
+Privacy Enhance Mail for INTERNET 822 mail, Kerberos (tm) security for the
+Distributed Computing Environment to name two.  The US government needs to
+nuture technologies like these; they meet critical needs of corporate users
+of data communications.  And again Clipper chip technology does nothing for
+them. <p>
+
+To this end, I ask the US government to pass HR3627 and to scale back the
+Clipper Chip push.  The Clipper chip should be relegated to voice and fax
+communication at best.  There are better, more functional technologies for
+data communications. <p>
+
+Robert G Moskowitz
+15210 Sutherland
+Oak Park, MI 48237 <p>
+
+</DOC>

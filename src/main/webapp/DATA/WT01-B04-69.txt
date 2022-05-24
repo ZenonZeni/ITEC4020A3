@@ -1,0 +1,380 @@
+
+<DOC>
+<DOCNO>WT01-B04-69</DOCNO>
+<DOCOLDNO>IA060-000328-B015-96</DOCOLDNO>
+<DOCHDR>
+http://www.ethiolist.com:80/faq.htm 206.86.13.106 19970115022352 text/html 13624
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 02:23:40 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 13441
+Last-modified: Tue, 07 Jan 1997 04:13:53 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<title>Ehiolist FAQ</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+</head>
+
+<body background="bkg1.gif" bgcolor="#FFFFFF" text="#FFFFFF">
+<p align=left><img src="logo4.gif" align=bottom width=225 height=50> </p>
+<hr noshade>
+<h1 align=center><font color="#000000"><font size=7><strong>FAQ</strong></font><strong> </strong></font></h1>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p><font color="#000000">Below is the Ethiolist FAQ (Frequently Asked Question) </font></p>
+<h2><font color="#000000">1. How many forums are there on Ethiolist Server?</font></h2>
+<p><font color="#000000">Ethiolist Services has the following forums : </font></p>
+<ul>
+<li><font color="#000000">EthioForum </font></li>
+<li><font color="#000000">EthioPolitics </font></li>
+<li><font color="#000000">EthioCulture </font></li>
+<li><font color="#000000">EthioHistory </font></li>
+<li><font color="#000000">EthioMusic </font></li>
+<li><font color="#000000">EthioScience </font></li>
+<li><font color="#000000">EthioBooks </font></li>
+<li><font color="#000000">EthioBusiness </font></li>
+<li><font color="#000000">EthioSports </font></li>
+<li><font color="#000000">Ethio-Humor </font></li>
+<li><font color="#000000">Ethio-Art </font></li>
+<li><font color="#000000">EthioNews </font></li>
+</ul>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2 align=left><font color="#000000">2. How would I post to these forums?</font></h2>
+<p align=left><font color="#000000">First you need to subscribe to the Ethiolist Services by sending a request e-mail to 
+Ethiolist-Request@Ethiolist.com. Once the subscription is processed, then posting 
+to any one of the above forums is simple and direct. For example, to post to 
+EthioMusic subscribers are requested to send their mails to 
+EthioMusic@Ethiolist.com. And, to post EthioCulture the address to use is 
+EthioCulture@Ethiolist.com. The domain name for all the forums is the same - 
+@Ethiolist.com. The only thing that changes is the forum name. So, the format 
+[forum name]@Ethiolist.com works for all postings. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">3. Why all these forums, is it not going to be 
+confusing for subscribers?</font></h2>
+<p><font color="#000000">The forums were designed to reflect different interest areas. For example, those 
+interested in discussions of sports may send their messages to sports forum, and 
+those interested in the Ethiopian culture will direct their postings to the EthioCulture 
+forum. Having such kind of setup really benefits subscribers. As more Ethiopians 
+get e-mail access, more postings will show, and it will be time consuming for a 
+subscriber to sort through all the incoming mails. The current set-up can be used as 
+a preliminary sorting method. If a subscriber does not want to get mails from a 
+given forum he/she would unsubscribe from that particular forum while still being 
+able to get information in other areas of interest (other forums). </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">4. What do I need to do to archive files?</font></h2>
+<p><font color="#000000">Postings sent to Ethiolist server are automatically archived and can be accessed by 
+sending a request to the request alias. The request alias for the Ethiolist services is : 
+Ethiolist-Request@Ethiolist.com Since the archiving is done for each forum 
+separately different commands should be used for each forum. However, all 
+requests can be made in a single request mail. The following example shows how to 
+use the request alias to get archive mails. The first thing you need to do is address 
+your request to the proper alias. In the case, the request would be addressed to 
+Ethiolist-Request@Ethiolist.com , so, the mail header would look like this: </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<pre><font color="#000000">
+
+</font><font color="#000040"><strong>		To: Ethiolist-Request@Ethiolist.com
+		From: Your address (this is entered automatically)
+		Date: (This is automatic)
+		Subject: (what ever you want it to be)
+
+		SEND EthioForum
+		SEND EthioMusic
+		SEND EthioCulture
+		SEND Ethio-Art
+		SEND Ethio-Humor</strong></font><font color="#000000">
+
+</font></pre>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p><font color="#000000">As you see, the command for retrieving archives is the SEND command. Other 
+commands also follow the same format. We are currently working on adding more 
+features onto the system . </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">5. If I send the an e-mail to all the forums at the 
+same time, would subscribers get that many 
+duplicate mails - provided that they have 
+subscribed to all the forums?</font></h2>
+<p><font color="#000000">If a mail is sent to ALL the forums at the SAME time, subscribers should not be 
+getting multiple copies and , the incoming mail shows the tags indicating which 
+forum the mail was sent to. If mails are sent at time intervals, then, subscribers might 
+get multiple copies. So, if you want to reach ALL Ethiolist subscribers without 
+sending duplicate mails, then, what you really need to do is, address your e-mail to 
+one forum and carbon copy all the remaining forums. Since it is one mail 
+composition, the server should not send SAME mail to the same person more than 
+one time. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">6. Are there other commands that subscribers 
+may use?</font></h2>
+<p><font color="#000000">We are currently working on a set of commands that would grant list maintainers 
+access to the Ethiolist server. As the needs comes we will be adding more 
+commands that could also be utilzed by subscribers to get more information on their 
+subscrption and also allow them to access the archives in a better efficient way. By 
+design, the Ethiolist server would allow us to add more commands as the needs 
+come in the future. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">7. What is the objective of Ethiolist?</font></h2>
+<p><font color="#000000">Our objective is to open and strengthen an open electronic forum for Ethiopians 
+and those who promote the interests of Ethiopians. We sincerely believe that open 
+communication and exchange of diverse ideas is a prerequisite for a consensus on 
+issues at hand. Hence, we encourage discussions on different issues to be open and 
+sincere. The Ethiolist managing team has no political partisanship, however, we 
+sincerely believe that our strength rests on our unity. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">8. Who pays for all these service? Is there any 
+plan to share the cost?</font></h2>
+<p><font color="#000000">This question was raised by a number of subscribers. Ethiolist is maintained by the 
+postmaster and managed by a team of Ethiopians. There is a monthly fee that is 
+paid to the service provider for access to their machine. That fee is ONLY for a 
+limited use of the service provider's resources. For instance every time we exceed 
+the limitation (disk space) we are required to pay extra money. This can happen 
+very frequently considering the increasing number of subscribers. Every activity on 
+the Ethiolist server is logged in addition to the actual e-mails that are also saved on 
+the server. And that eats-up disk space. Ethiolist requests subscribers to share the 
+burden. We will be asking for small contribution to continue the service. The 
+subscription and start-up fee is a little over $2 per month per subscriber for a total 
+of $25/year. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">9. Where would I send my contribution to?</font></h2>
+<p><font color="#000000">Contributions to Ethiolist Services can be sent (in check or money order) to the 
+following address: </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<dl>
+<dt><font color="#000000"><strong>Ethiolist Services </strong></font></dt>
+<dt><font color="#000000"><strong>3245 S. White Rd. Suite 155 </strong></font></dt>
+<dt><font color="#000000"><strong>San Jose, CA 95148</strong></font></dt>
+</dl>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p><font color="#000000">Check or money order payable to: Ethiolist. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">10. How &quot;OLD&quot; is Ethiolist?</font></h2>
+<p><font color="#000000">Ethiolist came into being on March 14, 1994. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">11. How would I get a copy of the most recent 
+FAQ?</font></h2>
+<p><font color="#000000">FAQs can be obtained from the server via the request alias : 
+Ethiolist-Request@Ethiolist.com. Address your mail to this alias and in the body of 
+your request mail mail type SEND FAQ. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">12. File Transfer</font></h2>
+<h2><font color="#000000"><i>VIA FTP</i></font></h2>
+<p><font color="#000000">Some files on the Ethiolist Server can be accessed via the FTP mechanism. To 
+download files via FTP, use ftp ftp.netcom.com directory /ftp/pub/tx/txt4. From the 
+'txt4' directory you would more subdirectories for the forums we maintain. Go to 
+the forum of your choise and check tha available file out (if any) </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000"><i>WITHOUT FTP</i></font></h2>
+<p><font color="#000000">Ethiolist also has an E-mail based File Transfer service for binary files. These files 
+can be saved on the server via e-mail remotely and can also be retrieved via e-mail 
+remotely. Files and programs can be saved to AAU on the Ethiolist system and 
+people in Ethiopia can access these files via e-mails. To use this feature interested 
+parties need to contact the postmaster (txt4@Ethiolist.com). Due to limited disk 
+space, this feature may not be available to all at this time. However, interested 
+parties are encouraged to contact the postmaster. This feature is what was talked 
+about on the AAU connectivity project. Well, it is here now. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<h2><font color="#000000">13. What is new?</font></h2>
+<p><font color="#000000">-Three more forums have been added! </font></p>
+<p><font color="#000000">Ethio-Art Ethio-Humor EthioNews </font></p>
+<p><font color="#000000">The managing team has just added three more forums - Ethio-Art and 
+Ethio-Humor. Ethio-Art is intended to enhance discussions related to Ethiopians 
+arts, and Ethio-Humor serves as a forum for discussions regarding Ethiopian 
+humors. Jokes that are not based on ethnicity and that are not divisive are very 
+welcome. Homor and/or jokes that undermine the integrity of ANY of the 
+Ethiopian ethnic groups are NOT allowed! EthioNews is a news forum that is 
+directly from Ethiopia. Ethiolist has made arrangement with news providers in 
+Ethiopia and the postings to this forum are obtained directly from these news 
+sources. In the future the sources will be expanded and not limited to sources in 
+Ethiopia only. EthioNews is a moderated forum. </font></p>
+<p><font color="#000000">****** Ethiolist has aquired its new domain name - Ethiolist.com - in January 
+1996. In addition to the new domain name Ethiolist also has its own Wbe page on 
+the Internet. The URL for the Ethiolist WWW site is : 
+http://www.ethiolist.com/welcome.html Please look us up for your information 
+needs. </font></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<p><img src="logo4.gif" align=bottom width=225 height=50></p>
+</body>
+
+</html>
+</DOC>

@@ -1,0 +1,188 @@
+
+<DOC>
+<DOCNO>WT03-B15-359</DOCNO>
+<DOCOLDNO>IA074-000483-B007-239</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icsur009.html 128.125.48.102 19970125004013 text/html 8789
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:38:36 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 8558
+Last-Modified: Mon, 13 Jan 1997 17:12:58 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Quick Beginnings</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSURMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 20 Dec 1996 at 16:44:30                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Fri, 20 Dec 1996 16:44:14">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="Header_65" HREF="icsurmst.html#ToC_65">Part 4. Appendixes</A></H1>
+<HR>
+<H1><A NAME="HDRCIDSYSL" HREF="icsur007.html#PToC_66">Appendix A. Installing with SystemView</A></H1>
+Installing with SystemView
+<P>You can use SystemView to install the Internet Connection Server on
+unattended workstations using the statements included in
+two files called a <I>software profile</I> and a
+<I>response file</I>.
+A software profile is used by SystemView to
+invoke an application installation program.
+A response file is used by the installation program to get all of the
+data it needs during the installation process.
+<P>
+Using SystemView, you specify the information for the software profile
+and response files when you customize the application definition
+file, which defines how to install and configure the Internet Connection Server.
+This file is shipped with the Internet Connection Server.
+<P>Refer to the SystemView documentation for a complete description
+of software profiles and response files.
+<HR>
+<H2><A NAME="Header_67" HREF="icsur007.html#PToC_67">Overview</A></H2>
+<P>To install the Internet Connection Server on server workstations
+using SystemView, you need to:
+<UL>
+<P><LI>Copy the Internet Connection Server files to the code server
+<P><LI>Add the Internet Connection Server information to the SystemView software library
+<P><LI>Configure the Internet Connection Server in the SystemView software library
+by placing it into the catalog at the distribution server
+<P><LI>Distribute and install the resulting software object
+using SystemView on target server workstations
+</UL>
+<P>These tasks are described in the following sections.
+If you need additional assistance to perform these
+tasks, use the online help or refer to
+<CITE>SystemView Up and Running&#33;</CITE> for more information.
+<HR>
+<H2><A NAME="Header_68" HREF="icsur007.html#PToC_68">Copying the Internet Connection Server to the Code Server</A></H2>
+<P>
+To set up the code server so that you can install the Internet Connection Server
+using SystemView, enter the XCOPY command.
+<P>
+For example, to copy the files from the CD-ROM located in the
+E&#58; drive to the D&#58; drive, you would enter this command:
+<PRE>
+XCOPY E&#58;\*.* D&#58;\CID\IMG\WEB /S
+</PRE>
+<P>
+This command copies the files from the root directory
+on the CD-ROM in the E: drive to the D: drive,
+putting the files under the directory \CID\IMG\WEB.
+<P>
+The /S indicates that all of the subdirectories and their contents
+and the contents of the root directory should be copied.
+<HR>
+<H2><A NAME="Header_69" HREF="icsur007.html#PToC_69">Adding the Internet Connection Server to the Software Library</A></H2>
+<P>
+To add the Internet Connection Server to the software library, do the following steps:
+<UL>
+<P><LI>Start SystemView.
+<P><LI>Double-click on the <B>SystemView Service Manager</B> icon.
+<P><LI>Double-click on the <B>CID Software Preparation</B> icon.
+<P><LI>Double-click on the <B>Software Library</B> icon.
+<P><LI>Select <B>Software</B> from the menu bar
+on the Software Library window.
+<P><LI>Select <B>New&#46;&#46;&#46;</B>.
+<P><LI>Select <B>Find...</B>.
+<P><LI>In the Find definition file window, select:
+<UL COMPACT>
+<LI>The drive letter, where the CD-ROM is located,
+in the <B>Drive</B> list
+<LI>\ in the <B>Directory</B> list
+<LI>www.adf in the <B>File</B> list
+</UL>
+<P>
+This copies the remote installation files (.ADF, .VAR, and .MRF)
+from the CD-ROM to the subdirectory where SystemView resides (\SWLIB).
+<P><LI>Select <B>Add</B> to associate the application
+definition file with the Internet Connection Server.
+</UL>
+<HR>
+<H2><A NAME="HDRCONFSR" HREF="icsur007.html#PToC_70">Configuring the Internet Connection Server</A></H2>
+<P>To configure the Internet Connection Server, do the following steps:
+<UL>
+<P><LI>Double-click on the Internet Connection Server icon in the Software Library window.
+<P><LI>Select <B>Configuration</B> from the menu bar on the
+Software Configuration window and then select
+<B>New&#46;&#46;&#46;</B> from the pull-down window.
+</UL>
+<P>
+The Settings notebook is displayed.
+You need to define how the Internet Connection Server will be installed
+on the target server workstation.
+<P>On each page of the notebook,
+select each of the items in the <B>Variables</B>
+list and choose the setting.
+A description of each variable is displayed in the
+<B>Explanation</B> field of the notebook page.
+When you have completed all of the pages of the notebook,
+click on <B>OK</B>.
+If you are ready to distribute the Internet Connection Server, select <B>Yes</B>
+when asked <B>Do you want to catalog the database?</B>.
+<P>
+Here is an overview of just a few of the pages you will fill in.
+<DL>
+<P><DT><B>Configuration Page
+</B><DD>
+Use to define both an identifier needed to catalog
+the Internet Connection Server uniquely and a name that is a short description
+for the configuration you are creating.
+For example, the identifier may be <TT>EUROSERV</TT>
+and the name may be <TT>Definition for the servers in Europe</TT>.
+<P><DT><B>Code Server Page
+</B><DD>
+Use to associate the configuration with the redirection
+mechanism to be used during CID installation.
+Define the code server aliases and the CID directory
+aliases that let the target workstation (where you want to
+install the Internet Connection Server) access the code server images.
+You also indicate whether an existing or new response
+file will be used.
+<P><DT><B>Response File Page
+</B><DD>
+Use to specify the name and directory where the existing
+response file is located.
+</DL>
+<P>The remaining pages of the Settings notebook configure
+the Internet Connection Server at the target server workstation.  SystemView uses
+the information from the notebook to create the settings
+for the Internet Connection Server variables in the response file.
+Refer to the comments in the response file itself
+(websrvr.rsp.) for more information about response file keywords.
+<HR>
+<H2><A NAME="Header_71" HREF="icsur007.html#PToC_71">Installing the Internet Connection Server on a Remote Server Workstation</A></H2>
+<P>
+To install the Internet Connection Server on a workstation, you can either use
+the Event Scheduler or the Remote System Manager.
+Refer to
+<CITE>SystemView Up and Running&#33;</CITE> for
+information on how to use the Event Scheduler
+and the Remote System Manager.
+This book also contains information about changing
+variables at installation time.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icsur008.html">Previous Page</A> &#124; <A HREF="icsur010.html">Next Page</A> &#124; <A HREF="icsurmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

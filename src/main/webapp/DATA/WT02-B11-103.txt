@@ -1,0 +1,603 @@
+
+<DOC>
+<DOCNO>WT02-B11-103</DOCNO>
+<DOCOLDNO>IA086-000622-B008-346</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis899/ 130.91.195.242 19970122041209 text/html 23751
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 04:12:08 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 23625
+</DOCHDR>
+<TITLE>CIS 899: Electronic Commerce</TITLE>
+<H1>CIS 899: Electronic Commerce with Farber</H1>
+
+<H2>Contents</H2>
+
+<UL>
+<LI> <A HREF="aboutclass">About This Class</A>
+<LI> <A HREF="#otherwww">Other Resources On The Net</A>
+<LI> <A HREF="#bibliography">A Bibliography</A>
+<LI> <A HREF="#othercontrib">Other Contributions</A>
+<LI> <A HREF="#pagehistory">History of this Page</A>
+</UL>
+
+<H2>About This Class</H2>
+
+CIS899 is an experimental seminar for Fall 1995, led by <A
+HREF="http://macpond.cis.upenn.edu/">Dave Farber</A> at the
+<A HREF="http://www.upenn.edu/">University of
+Pennsylvania.</A> This page attempts to reflect the class in
+as many ways as possible.  Feedback should go to <A
+HREF="mailto:mengwong@pobox.com">Meng Weng Wong</A>.  <P>
+
+To subscribe to the class mailing list, send a subscribe
+request to majordomo@icg.resnet.upenn.edu that contains the message
+body
+    <BLOCKQUOTE>
+    subscribe cis899
+    </BLOCKQUOTE> <P>
+
+The mailing list is <A HREF="/hypermail/cis899/">archived through hypermail.</A> <P>
+
+The class meets in DRL 3W2 on T/R 1:30-3pm. <P>
+
+<H2><A NAME="otherwww">Other Resources On The Net</A></H2>
+
+    The following are sources for more infomation on
+    e-commerce.
+
+    <UL>
+    <LI> <A HREF="http://www.dice.ucl.ac.be/~dhem/card.html">http://www.dice.ucl.ac.be/~dhem/card.html</A>
+    <LI> <A HREF="http://www.cis.ohio-state.edu/hypertext/faq/usenet/cryptography-faq/part10/faq.html">http://www.cis.ohio-state.edu/hypertext/faq/usenet/cryptography-faq/part10/faq.html</A>
+    <LI> <A HREF="http://www.commerce.net/">http://www.commerce.net/</A>
+    <LI> <A HREF="http://www.cybercash.com/">http://www.cybercash.com/</A>
+    <LI> <A HREF="http://www.digicash.com/">http://www.digicash.com/</A>
+    <LI> <A HREF="http://www.eff.org">http://www.eff.org</A>
+    <LI> <A HREF="http://www.eff.org/pub/GII_NII/ (mostly not relevant, but some of it is.)">http://www.eff.org/pub/GII_NII/ (mostly not relevant, but some of it is.)</A>
+    <LI> <A HREF="http://www.eff.org/pub/Intellectual_property/">http://www.eff.org/pub/Intellectual_property/ </A>
+    <LI> <A HREF="http://www.eff.org/pub/Privacy/Digital_money/">http://www.eff.org/pub/Privacy/Digital_money/</A>
+    <LI> <A HREF="http://www.eft.bankone.com/">http://www.eft.bankone.com/</A>
+    <LI> <A HREF="http://www.mantis.co.uk/pgp/pgp.html">http://www.mantis.co.uk/pgp/pgp.html</A>
+    <LI> <A HREF="http://www.phantom.com/~skapp/crypto.html">http://www.phantom.com/~skapp/crypto.html </A>
+    <LI> <A HREF="http://www.realtime.net/~crypto/">http://www.realtime.net/~crypto/ </A>
+    <LI> <A HREF="http://www.rsa.com/rsalabs/faq/faq_ref.html">http://www.rsa.com/rsalabs/faq/faq_ref.html </A>
+    <LI> <A HREF="http://www.sims.berkeley.edu/~hal/InfoEcon.html">http://www.sims.berkeley.edu/~hal/InfoEcon.html</A>
+    <LI> <A HREF="http://www.swiss.ai.mit.edu/6095/articles/cyphernomicon/CP-FAQ">http://www.swiss.ai.mit.edu/6095/articles/cyphernomicon/CP-FAQ </A>
+    <LI> <A HREF="http://www.tele.rma.ac.be/crypto.html">http://www.tele.rma.ac.be/crypto.html </A>
+    <LI> <A HREF="http://www.tis.com/">http://www.tis.com/</A>
+    </UL>
+
+<H2><A NAME="bibliography">A Bibliography</A></H2>
+
+The contributions of
+<UL>
+<LI> L. Jean Camp &lt;lc2m+@andrew.cmu.edu&gt;
+<LI> Danny Cohen &lt;cohen@rand.org&gt;
+<LI> Laurence I. Press &lt;lpress@ISI.EDU&gt;
+<LI> Hal Varian &lt;hal@alfred.sims.berkeley.edu&gt;
+<LI> <I>et alia</I>
+</UL>
+are gratefully acknowledged. <P>
+
+    <UL>
+
+    <LI>ABA Electronic Data Exchange and Information Technology
+	Division Section of Science and Technology, Model
+	Electronic Payments Agreement and Commentary for
+	Domestic Credit Transfers, American Bar Association;
+	Chicago, Illinois; 1994 <P>
+
+    <LI>Angell, W.  D., "Statements to the Congress", Federal
+	Reserve Bulletin, Vol.  76 No.  4, pp.  211-215, Apr
+	1990 <P>
+
+    <LI>Bacon, K., "Federal regulators draft new rules for
+	community investment by banks", Wall Street Journal,
+	C13:5, 16 November 1993 <P>
+
+    <LI>Benaloh, J., Verifiable secret-ballot elections,
+	dissertation, Department of Computer Science, Yale
+	University; New Haven, CN; 1987 <P>
+
+    <LI>Bezanson, R.P., "The right of privacy revisited:
+	privacy, news, and social change, 1890-1990", California
+	Law Review, Vol.  80, No.  5, pp.  1133-1175, October
+	1992 <P>
+
+    <LI>Booker, E., "Pizza Hut: Making It Great with imaging,
+	EDI", Computerworld, Vol.  26, No.  4, pp.  67 - 72, 27
+	January 1992 <P>
+
+    <LI>Branscomb A., 1990, ~Rogue computer programs and
+	computer rouges~, Rutgers Computer and Technology Law
+	Journal, Vol.  16, pp.  1-61, Spring 1990 <P>
+
+    <LI>Business Week, "ATM shouldn't stand for 'artfully taken
+	money'", Business Week (Industrial/Technology Edition),
+	No.  3321, pp.  110, 31 May 1993 <P>
+
+    <LI>Camp, L.J.  &amp; Tygar, J.D., "Providing auditing while
+	protecting privacy", The Information Society, Vol.  10,
+	pp.  59-71, March 1994 <P>
+
+    <LI>Chaum, D.  &amp; Pedersen, T.P.; CWI, Amsterdam,
+	Netherlands, "Transferred cash grows in size", Advances
+	in Cryptology - EUROCRYPT '92.  Workshop on the Theory
+	and Applications of Cryptographic Techniques.
+	Proceedings; Balatonfured, Hungary, pp.  390-407, 24-28
+	May 1992 <P>
+
+    <LI>Chaum, D. &amp; Evertse, J., ~Cryptanalysis of DES with a
+	Reduced Number of Rounds, Sequences of Linear Factors in
+	Block Ciphers,~ Advances in Cryptology - CRYPTO '85
+	Proceedings; Santa Barbara, CA, USA; 192-211, Aug. 1985 <P>
+
+    <LI>Chaum, D., 1985, "Security Without Identification:
+	Transaction Systems to Make Big Brother Obsolete",
+	Communications of the ACM, No 10, Vol.  28, pp.
+	1030-1044, October 1985 <P>
+
+    <LI>Chaum, D., 1992, ~Achieving electronic privacy~,
+	Scientific American, Vol.  267, No.  2, pp.  76-81 <P>
+
+    <LI>Chaves, C., "The death of personal privacy",
+	Computerworld, pp.  25 - 27, January 1992 <P>
+
+    <LI>Churbuck, David C, "Oops!", Forbes, Vol.  151, No.  13,
+	pp.  234, 21 June 1993 <P>
+
+    <LI>Clukey, L.L., 1988, "The Electronic Communications
+	Privacy Act of 1986: The Impact on Software
+	Communication Technologies", Software Law Journal,
+	Vol. 2, Spring, pp.  243- 263 <P>
+
+    <LI>Cohen, Danny.  "Computerized Commerce", IFIP'89, San
+	Francisco, August 1989, pp.1095-1100. <P>
+
+    <LI>Cohen, Danny.  "Electronic Commerce", ISI/RR-89-244,
+	USC/ISI (4676 Admiralty Way, Marina del Rey, CA 90292),
+	October 1989. <P>
+
+    <LI>Colford, S.W., "States take the lead from Congress on
+	privacy", Advertising Age, Vol.  64, No.  7, pp.  36, 15
+	February 1993 <P>
+
+    <LI>Compaine B.  J., Issues in New Information Technology,
+	Ablex Publishing; Norwood, NJ; 1988 <P>
+
+    <LI>Cubby v Compuserve Inc., 1991, 776 F.  Supp.  135
+	(S.D.N.Y.  1991) <P>
+
+    <LI>Daniel v Dow Jones, 520 NYS2d 334, 338, 1987 <P>
+
+    <LI>Davies, The Security of Data in Networks, IEEE Computer
+	Society Press; Los Angeles, CA; 1981 <P>
+
+    <LI>Davis, K., "Bills that don't stop coming", Kiplinger's
+	Personal Finance Magazine, Vol.  47, No.  3, pp.  36-37,
+	March 1993 <P>
+
+    <LI>Denning, D., Cryptography and Data Security,
+	Addison-Wesley Publishing; Reading, MA; 1982 <P>
+
+    <LI>Dibbell, J., "Everything changes money", Village Voice,
+	Vol.  38, No.  16, pp.  46, 20 April 1993 <P>
+
+    <LI>Diffie, W.  &amp; Hellman, M.  E., "Privacy and
+	authentication: an introduction to cryptography",
+	Proceedings of the IEEE, Vol.  67, pp.  18-48, 1979 <P>
+
+    <LI>Douglas, J.  L., "FDIC's powers face growing challenge",
+	National Law Journal, Vol.  15, No.  44, pp.  18 - 21, 5
+	July 1993 <P>
+
+    <LI>E.L. Rubin &amp; R. Cooter, 1994, The Payment System: Cases
+	Materials and Issues, West Publishing Co.; St. Paul, MN,
+	~ 1994 <P>
+
+    <LI>Emmett, A., "In real life: a user's frustration with
+	inventory", Computerworld, Vol.  26, No.  31, pp.  85, 3
+	August 1992 <P>
+
+    <LI>Ermann, M.  D., et.  al.  Computers, Ethics, and
+	Society, Oxford University Press; New York, N.Y.; 1990 <P>
+
+    <LI>Feige, U., Fiat, A.  &amp; Shamir, A., "Zero knowledge
+	proofs of identity", Proceedings of the 19th ACM
+	Symposium on Theory of Computing, pp.  210-217, 1987 <P>
+
+    <LI>Fenner, E, "How mortgage lenders can peek into your
+	files", Money, pp.  44-48, April 1993 <P>
+
+    <LI>Fernandez, E.  B., Summers, R.  C., &amp; Wood, C., Database
+	Security and Data Integrity, Addison Wesley Publishing
+	Co.; Reading, MA; 1981 <P>
+
+    <LI>Finkle, K., "Big brother and your credit file", Canadian
+	Consumer, Vol.  23, No.  1, pp.  28-31, January 1993 <P>
+
+    <LI>Fischer, M.J., "Focus on industry", Journal of
+	Accountancy, pp.  130-134, June 1988 <P>
+
+    <LI>Gargiulo J.L.  &amp; Jones, J.L.R.; "Smart Postage
+	Dispenser: a self-service postal system using smart
+	cards", Smart Card 2000.  Selected Papers from the
+	Second International Smart Card 2000 Conference;
+	Amsterdam, Netherlands; pp.  71-76, 4-6 October.  1989 <P>
+
+    <LI>Gattuso, G., "Panel: USPS violates Privacy and law",
+	Direct Marketing, Vol.  55, No.  10, pp.  10-11,
+	February 1993 <P>
+
+    <LI>Haddon, A.C., A Survey of Primitive Money, Methuen &amp;
+	Co. Ltd., London; 1949 <P>
+
+    <LI>Heggestad, A., Regulation of Consumer Financial
+	Services, Abt Books, Cambridge, MA, 1993 <P>
+
+    <LI>Herlihy, M.P.  &amp; Tygar, J.D., ~How to make replicated
+	data secure~, Advances in Cryptography-CRYPTO ~87, ed.
+	Pomerance, Springer-Verlag; Berlin; 1987 <P>
+
+    <LI>Herlihy, M.P.  &amp; Tygar, J.D., ~Implementing distributed
+	capacities without a trusted kernel~, Dependable
+	Computing for Critical Applications, ed.  A.  Avizienis
+	&amp; J.C.  Caprie; Springer-Verlag; Berlin; 1991 <P>
+
+    <LI>Hochwald, L., "The privacy keepers", Folio: The Magazine
+	for Magazine Management, Vol.  22, No.  12, pp.  62-63,
+	1 July 1993 <P>
+
+    <LI>Hoffman L.  &amp; Clark P., "Imminent policy considerations
+	in the design and management of national and
+	international computer networks", IEEE Communications
+	Magazine, pp.  68-74, February, 1991 <P>
+
+    <LI>Home-Office Computing, "IRS experiments with electronic
+	payments", Home-Office Computing, Vol.  11, No.  1, pp.
+	12, January 1993 <P>
+
+    <LI>Howard, B., "Don't bank on it--yet", PC Magazine, Vol.
+	12, No.  13, pp.  105, July 1993 <P>
+
+    <LI>Kailar, R., 1995, Reasoning about accountability in
+	protocols for electorni commerce" <P>
+
+    <LI>Kaplan, E.H., "Needles that kill: modeling human
+	immunodeficiency virus transmission via shared drug
+	injection equipment in shooting galleries", Reviews of
+	Infectious Diseases, Vol.  11, pp.  289-298, 1991 <P>
+
+    <LI>Karasik E., "A normative analysis of disclosure, privacy
+	and computers: the state cases", Computer Law Journal,
+	Vol.  10, pp.  603-634, 1990 <P>
+
+    <LI>Kaufman, H.M.  ,Financial Institutions, Financial
+	Markets and Money, Harcourt Brace Jonanovich, Inc.; NY
+	NY, ~1983 <P>
+
+    <LI>Kaylin J., "When the needles do the talking", Yale, pp.
+	34-37, April 1992 (on the use of pseudonyms) <P>
+
+    <LI>Low, S., Maxemchuk, N.F.  &amp; Paul, S., "Anonymous credit
+	cards" First ACM Conference on Computer and
+	Communications Security, November 1993 <P>
+
+    <LI>MacNeil, H., Without consent : the Ethics of Disclosing
+	Personal Information in Public Archives, Society of
+	American Archivists; Metuchen, N.J.; Scarecrow Press;
+	1992 <P>
+
+    <LI>Madsen, W., Handbook of Personal Data Protection,
+	Stockton Press; New York, N.Y.; 1992 <P>
+
+    <LI>Marx, G., "Chapter 9: The iron fist and the velvet
+	glove", The Social Fabric: Dimensions and Issues, ed J.
+	E.  Short; Sage Publications; Beverly Hills CA; pp.
+	135-162, 1986 <P>
+
+    <LI>McCrindle, J., Smart Cards, Springer-Verlag; New York,
+	N.Y.; 1990 <P>
+
+    <LI>Medvinsky G.  &amp; Neuman B.C., "Netcash: a design for
+	practical electronic currency on the Internet",
+	Proceedings of the First ACM Conference on Computer and
+	Communications Security, November 1993 <P>
+
+    <LI>Meyer, C.  &amp; Matayas, S., Cryptography: A Primer, Wiley;
+	New York, N.Y.; 1982 <P>
+
+    <LI>Micali, S.  &amp; Rogaway, P., "Secure computation :
+	preliminary report" Technical Report.  Massachusetts
+	Institute of Technology.  Laboratory for Computer
+	Science, MIT/LCS/TR-511 Massachusetts Institute of
+	Technology.  Laboratory for Computer Science; Cambridge,
+	MA.; 1991 <P>
+
+    <LI>Miles, M., "Cashless convenience", American School &amp;
+	University, Vol.  63 No.  10, 36d, June 1991 <P>
+
+    <LI>Moreau, Daniel, "Sending cash in a flash", Changing
+	Times, Vol.  45, No.  6, pp.  35-37, June 1991 <P>
+
+    <LI>Muckian, M., "Connecting to the future", Credit Union
+	Magazine, Vol.  59, No.  7, pp.  46-52, July 1993 <P>
+
+    <LI>Mundt K.  H., "New dimensions in data security"
+	Proceedings of the 15th National Computer Security
+	Conference, Gaithersburg, MA, pp.  438-447, 1992 <P>
+
+    <LI>National Bureau of Standards, Federal Information
+	Processing Publication 46: Specifications for the
+	Digital Encryption Standard, United States Government
+	Printing Office; Gaithersburg, MA; 1977 <P>
+
+    <LI>National Computer Security Center, Trusted Network
+	Interpretation Environments Guideline NCSC-TG-011,
+	United States Government Printing Office; Gaithersburg,
+	MA; 1990 <P>
+
+    <LI>Newberg, P., New Directions In Telecommunications
+	Policy, Duke University Press; Durham, NC; 1989 <P>
+
+    <LI>Office of Technology Assessment, 1990, Computer Software
+	&amp; Intellectual Property, OTA-BP-CIT-61, US Government
+	Printing Office, Washington DC., 1990 <P>
+
+    <LI>Office of Technology Assessment, Electronic Surveillance
+	and Civil Liberties OTA-CIT-293, Office of Technology
+	Assessment; Washington, D.C., 1985 <P>
+
+    <LI>Office of Technology Assessment,, Management, Security
+	and Congressional Oversight OTA-CIT-297; Office of
+	Technology Assessment; Washington D.C., 1986 <P>
+
+    <LI>Pool, I.S., Technologies of Freedom, Harvard University
+	Press, Cambridge, MA, 1983 <P>
+
+    <LI>Press Larry has written a couple of articles-- one
+	called something like, Commercializatons of the Internet
+	and another called something like The Net and
+	Interactive TV, two cultures.  Both were published in
+	CACM, and the latter revised for a meeting in Canada.
+	You can find them at <A
+	HREF="http://som1.csudh.edu/lpress/lp.htm">http://som1.csudh.edu/lpress/lp.htm</A> under the recent publication menu.  (there is also one there called McLuhan meets the net, but that is not directly related to commerce.) <P> <P>
+
+    <LI>Prosser, W.L., Handbook of the Law of Torts, West
+	Publishing Co., St.  Paul, MN, 1941 <P>
+
+    <LI>Rabin, M.  &amp; Tygar, J.  D., An Integrated Tool Kit for
+	Operating Systems Security, TR-88-05, revised 1990,
+	Aiken Laboratory Technical Report, Harvard University;
+	Cambridge, MA; 1988 <P>
+
+    <LI>Rabin, T and Ben-Or, M., ~Verifiable secret sharing and
+	multiparty protocols with honest majority~, Proceedings
+	of the Twenty-first Annual ACM Symposium on the Theory
+	of Computing, Seattle, WA, May 1989 <P>
+
+    <LI>Randell, B.  &amp; Dobson, J., ~Reliability and security
+	issues in distributed computing systems~, Proceedings of
+	the Fifth Symposium on Reliability in Distributed
+	Software and Database Systems, 1986 <P>
+
+    <LI>Randell, B.,~Recursively structured distributed
+	computing systems~, Proceedings, Third Symposium on
+	Reliability in Distributed Software and Database Systems
+	1983 <P>
+
+    <LI>Reid, M.  A.  &amp; Madam, M.  S., ~IC Card Design:
+	Technology Issues~, Information Age, Vol.  11, No 4, pp.
+	211-216, 1989 <P>
+
+    <LI>Rivest, R.  L., Shamir, A.  &amp; Adleman, L., "A method for
+	obtaining digital signatures and public-key
+	cryptosystems", Communications of the ACM, Vol.  21, pp.
+	158-164, 1978 <P>
+
+    <LI>Roberds, W., "The rise of electronic payments networks
+	and the future role of the Fed with regard to payment
+	finality", Economic Review (Federal Reserve Bank of
+	Atlanta), Vol.  78, No.  2, pp.  1-22, March 1993 <P>
+
+    <LI>Rose L &amp; Wallace J., Syslaw, Second Edition, LOL
+	Productions &amp; PC Information Group, Winona MN, 1992 <P>
+
+    <LI>Rotenburg, M., Protecting the Privacy of Social Security
+	Numbers and Records, Testimony before the US Senate
+	Subcommittee on Social Security and Family Policy;
+	Committee on Finance, 28 February.  1991 <P>
+
+    <LI>Samuelson P., "Copyright law and electronic data
+	compilations", Communications of the ACM, Vol.  35, pp.
+	27-32, 1992 <P>
+
+    <LI>Samuelson P., "Information as property", Catholic
+	University Law Review, Vol.  38, pp.  365-400, 1989 <P>
+
+    <LI>Schmerken, I., "Safeguarding the electronic
+	marketplace", Wall Street &amp; Technology, Vol.  10, No.
+	11, pp.  58-64, June 1993 <P>
+
+    <LI>Schoeman, F.D., Privacy and social freedom, Cambridge
+	studies in philosophy and public policy, Cambridge
+	University Press; New York, N.Y.; 1992 <P>
+
+    <LI>Schwartz E.I, "It~s time to clean up credit reporting",
+	Business Week, pp.  52, 18 May 1992 <P>
+
+    <LI>Shamir, A., "How to share a secret", Communications of
+	the ACM, Vol.  22, pp.  612-613, 1979 <P>
+
+    <LI>Shoars v Epson Am Inc., 1991, BC007036 Superior Ct.  of
+	Cal., filed 12 March 1991 <P>
+
+    <LI>Sirbu, M., &amp; Tygar, J.D., 1995,~NetBill: An Internet
+	Commerce System Optimized for Network Delivered
+	Services, IEEE ConCom,, San Francisco, CA; March 6 <P>
+
+    <LI>Sirbu, M., 1994, "Internet Billing Server design and
+	prototype implementation", Intellectual Property Project
+	Proceedings, Vol.  1, No 1, 1994 <P>
+
+    <LI>Sproull L.  &amp; Kiesler S, Connections, The MIT Press,
+	Cambridge, MA, 1991 <P>
+
+    <LI>Stacey, R., "Consumers to control trading of personal
+	data", Direct Marketing, Vol.  55, No.  11, pp.  40-41,
+	March 1993 <P>
+
+    <LI>Stern, L., "CheckFree: The good, the bad, and the
+	zealots", Home-Office Computing, Vol.  10, No.  9, pp.
+	40-44, September 1992 <P>
+
+    <LI>Sutherland, Ivan. "Computerized Commerce", Rand report
+	P-5515, September 1975 <P>
+
+    <LI>Tygar, J.  D.  &amp; Yee, B.  "Strongbox", Camelot and
+	Avalon: A Distributed Transaction Facility including the
+	Avalon Language ed.  Eppinger; Carnegie Mellon
+	University; Pittsburgh, PA.; pp.  381-400, 1991b <P>
+
+    <LI>Tygar, J.  D.  &amp; Yee, B., "Strongbox: A system for self
+	securing programs", CMU Computer Science: A 25th
+	Anniversary Commemorative, ed.  R.  Rashid,
+	Addison-Wesley and ACM Press; New York, N.Y., pp.
+	163-198, 1991a <P>
+
+    <LI>Tygar, J.D.  &amp; Yee, B., "Cryptography: it's not just for
+	electronic mail anymore", CMU-CS-93-107, Carnegie Mellon
+	School of Computer Science Technical Report Series,
+	Carnegie Mellon University; Pittsburgh, PA.; 1993 <P>
+
+    <LI>Tygar, J.D.  &amp; Yee, B., Dyad: A System for Using
+	Physically Secure Coprocessors Journal of Interactive
+	Multimedia Association Intellectual Privacy Project,
+	1:1, 19 January 1984 <P>
+
+    <LI>US v Thomas, C.A.  9 (Cal.) 893 F 2nd 1066, certiorari
+	denied 111 S.  Ct.  80, 112 L Ed 2nd 53, 1990 <P>
+
+    <LI>US v US District Court of Central Los Angeles, Los
+	Angeles, C.A.  9 (Cal.) 858 F 2nd 534, 1988 <P>
+
+    <LI>Walker, G., The Information Environment : A Reader,
+	Maxwell Macmillan International; New York, NY; 1992 <P>
+
+    <LI>Warren S.  &amp; Brandies L., "The right to privacy",
+	Harvard Law Review, Vol.  4, pp.  193-220, 1890 <P>
+
+    <LI>Wood, J.C.  &amp; Smith, D.S., "Electronic transfer of
+	government benefits", Federal Reserve Bulletin, Vol.
+	77, No.  4, pp.  203-217, Apr 1991 <P>
+
+    <LI>Woodyard C., "Lungren joins suit accusing TRW of illegal
+	practices", Los Angeles Times, 1:5, 9 July 1991 <P>
+
+    <LI>Woolley, S.  "A little plastic can help small companies,
+	too", Business Week, No.  3106, pp.  180, 22 May 1989 <P>
+
+    <LI>Woolley, S.  "Plastic--for a pretty penny", Business
+	Week, No.  3266, pp.  118, 18 May 1992 <P>
+
+    <LI>Yee, Bennet S., 1994, Using Secure Coprocessors,
+	Carnegie Mellon University. School of Computer Science,
+	CMU-CS-94-149 ; Pittsburgh, Pa. : School of Computer
+	Science, Carnegie Mellon University <P>
+
+    </UL>
+
+<H2><A NAME="othercontributions">Other Contributions</A></H2>
+
+<PRE>From: hoffman@colette.ogsm.Vanderbilt.Edu (Donna Hoffman)
+To: farber@central.cis.upenn.edu</PRE> <P>
+
+<BLOCKQUOTE>
+For the marketing perspective, we have prepared the most comprehensive
+bibliography that I know of - it includes 345 references to scholarly and 
+popular press articles and hypertext links to those which exist on the Web: <P>
+
+<A HREF="http://www2000.ogsm.vanderbilt.edu/references.cgi">http://www2000.ogsm.vanderbilt.edu/references.cgi</A> <P>
+
+Additionally, the syllabus for my new course, "Marketing in Computer-Mediated
+Environments," the first MBA course of its kind at a major business school, 
+is up at: <P>
+
+<A HREF="http://www2000.ogsm.vanderbilt.edu/cme.seminar.fall.1995/syllabus.html">http://www2000.ogsm.vanderbilt.edu/cme.seminar.fall.1995/syllabus.html</A> <P>
+
+I'm focusing on the marketing issues surrounding commercialization of the Web,
+with the view that commercial development of this emerging medium needs
+to follow the demand ("demand pull") instead of being driven by "gold fever."
+The course is part of an overall effort to help prepare tomorrows MBAs for
+careers as "Digital Commerce" marketing managers. <P>
+
+We are analyzing and evaluating the most important marketing issues facing
+firms today who wish to compete in this revolutionary and dynamic new media
+environment. <P>
+
+The format consists of lecture, case study, guest speakers, and computer lab
+assignments.  The heart of the course is a demanding Web-based marketing
+team project - students have chosen from an exciting array of marketing
+problems and issues facing real firms involved on the bleeding edge of
+digital commerce. <P>
+
+Almost all of the course is online and updated continuously.  The syllabus
+links to numerous articles and readings. <P>
+
+Best wishes, <P>
+
+DLH
+</BLOCKQUOTE>
+<PRE>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Professor Donna L. Hoffman                  hoffman@colette.ogsm.vanderbilt.edu
+Owen Graduate School of Management          615-343-6904 voice
+Vanderbilt University                       615-343-7177 fax
+Nashville, TN 37203                         
+
+Project 2000:      <A HREF="http://www2000.ogsm.vanderbilt.edu/">http://www2000.ogsm.vanderbilt.edu/</A>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</PRE>
+
+<HR SIZE-50%>
+
+<PRE>Newsgroups: talk.politics.crypto,sci.crypt,comp.org.eff.talk
+From: pfarrell@netcom.com (Pat Farrell)
+Subject: WEB summary of NIS&T KeyEscrow/Export meeting available
+Date: Fri, 15 Sep 1995 17:15:38 GMT</PRE>
+
+I have built a Web page with all the information that I can find
+on the Sept 6 and 7th MIS&T meeting on Encryption Export/Key Escrow.
+The URL: is <A HREF="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">http://www.isse.gmu.edu/~pfarrell/nistmeeting.html</A> <P>
+
+On it are all the official Government handouts, copies of all the
+slides and presentations that are public and on the net, and
+my "official" report on the two breaksessions that I was the
+"official" recorder. <P>
+
+Pat <P>
+
+<PRE>Pat Farrell      grad student        http://www.isse.gmu.edu/students/pfarrell
+Infor. Systems and Software Engineering, George Mason University, Fairfax, VA
+PGP key available via WWW or request           #include standard.disclaimer</PRE>
+
+<H2><A NAME="pagehistory">History of this Page</A></H2>
+
+<OL>
+<LI> September 17 - page started.
+</OL>
+
+<hr>
+
+<H2><A NAME="colophon">Colophon</A></H2>
+
+<UL>
+<LI> last modified 950917
+<LI> this file is maintained by <A
+     HREF="http://pobox.com/~mengwong/">Meng Weng
+     Wong</A>.  please email <B>mengwong@pobox.com</B> with
+     corrections.
+</UL>
+
+<ADDRESS>mengwong@pobox.com</ADDRESS>
+</DOC>

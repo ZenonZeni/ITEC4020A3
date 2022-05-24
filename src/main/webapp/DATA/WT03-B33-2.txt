@@ -1,0 +1,489 @@
+
+<DOC>
+<DOCNO>WT03-B33-2</DOCNO>
+<DOCOLDNO>IA059-000323-B024-325</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/ec87.html 205.156.212.5 19970114221856 text/html 20471
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 22:17:07 GMT
+Last-modified: Thursday, 24-Oct-96 22:47:09 GMT
+Content-length: 20284
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/ec87.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+MAINFRAME COMPUTING via NewsNet <BR>
+January 1996<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><A HREF = "#1"><LI>ALPHASERVER 8400 ARRAY PERFORMANCE&nbsp;SIMILAR TO MAINFRAME'S POWER</A>&nbsp&nbsp&nbsp<NOBR>(962 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><A HREF = "#2"><LI>UNIX SERVERS REPLACE MAINFRAMES&nbsp;IN NEW GLOBAL RESERVATION SYSTEM</A>&nbsp&nbsp&nbsp<NOBR>(998 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#3"><A HREF = "#3"><A HREF = "#3"><LI>ALISA SYSTEMS SOLVES COMMUNICATION PROBLEMS&nbsp;BETWEEN MAINFRAME AND PERSONAL COMPUTERS&nbsp;FOR WASHINGTON DEPARTMENT OF TRANSPORTATION</A>&nbsp&nbsp&nbsp<NOBR>(390 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#4"><A HREF = "#4"><LI>VAX AND RISC-6000 NOW COMMUNICATE WITH PERSONAL&nbsp;COMPUTER E-MAIL SYSTEMS AT CARPET MANUFACTURER</A>&nbsp&nbsp&nbsp<NOBR>(346 words)</NOBR></LI>
+</UL>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+MAINFRAME COMPUTING via NewsNet
+January 1996
+
+ALPHASERVER 8400 ARRAY PERFORMANCE
+SIMILAR TO MAINFRAME'S POWER
+
+Digital Equipment Corporation has announced new technology,
+PCI Memory Channel interconnect, that enables its highly
+scalable AlphaServer systems to deliver new levels of
+affordability and price/performance for the technical
+computing market. Digital has showcased these new capabilities
+in an array of eight AlphaServer 8400 systems with a total of
+96 Alpha 64-bit processors running 64-bit Digital UNIX.
+
+"Digital's new scalable AlphaServer 8400 array offers a
+preview of the next generation in enterprise supercomputing,"
+said Gary Smaby, president, Smaby Group, Inc. "By linking
+dozens of its blazingly fast Alpha microprocessors through a
+robust memory interconnect architecture, Digital has
+constructed a mainframe-class computing platform for high-end
+technical users tackling applications that benefit from
+parallel processing. The system leverages the cost benefits of
+commodity componentry to deliver a compelling
+price/performance alternative to traditional supercomputers
+and MPPs."
+
+Digital makes high performance affordable for compute-
+intensive, technical applications such as computational fluid
+dynamics, computational chemistry, weather modeling, and
+molecular and genetics research. Digital delivers outstanding
+price/ performance by taking advantage of standard,
+high-volume, low-cost components including a high-speed
+interconnect and optimized software. As each processor
+delivers 600 MFLOPS, a 96 processor system delivers 57.6
+GFLOPS of computing power -- for only $4.5 million.
+
+This combination of affordable price and high performance
+enables a wide variety of users to attain performance levels
+previously available only with expensive, specialized
+supercomputers. Users who would never have been able to afford
+supercomputer-class power can now do so with Digital's
+systems.
+
+"Digital is making high-performance computing affordable for
+more applications than ever before," said Dr. Michael Levine,
+scientific director, Pittsburgh Supercomputing Center. "We're
+finding that Digital's approach to connecting AlphaServers is
+elegantly simple, and both very powerful and very cost
+effective. We can connect AlphaServers of different sizes,
+which is important to us because it enables us to match our
+systems and applications most efficiently. We're currently
+using the system for molecular dynamics, visualization, finite
+element and simulated annealing code, and think this
+technology prepares us for the future of high-performance
+computing."
+
+Standards-based Commodity Components for Outstanding
+Performance and Affordability
+
+Digital delivers these new levels of price/performance by
+leveraging commodity hardware and software components. A
+standards- based PCI bus Memory Channel interconnect is used
+to link multiple AlphaServer systems. This low-latency (less
+than 5 microseconds), high-bandwidth (100 Mbytes/sec)
+interconnect provides high-speed, memory-to-memory
+communications among up to eight AlphaServer 8400 systems,
+which allows the multiple systems to operate essentially as a
+single system with 57.6 GFLOPS of power. The Memory Channel
+interconnect can also link lower-cost AlphaServer 2000
+systems for extremely cost-effective high-performance
+solutions.
+
+Digital also provides a suite of software tools that allows
+technical users to optimize their applications for the new
+technology. The software includes:
+
+o Digital UNIX, the industry's only 64-bit UNIX operating
+system, which provides greater standards-compliance and higher
+performance than any other available UNIX operating system.
+
+o High Performance Fortran (HPF), which allows the arrayed
+systems to be programmed as easily as a single system. HPF
+automatically optimizes communications among processors for
+maximum performance and allows the system to be easily scaled
+for a variable number of processors.
+
+o Parallel Software Environment (PSE), which provides the
+runtimes for HPF, and performance analysis and debugging tools
+for developing parallel applications.
+
+o Digital PVM (Parallel Virtual Machine), an enhanced version
+of public domain PVM, which facilitates the creation of
+parallel applications.
+
+o MPI (Message Passing Interface), software developed with
+Edinburgh Parallel Computing Centre, which enables users to
+create parallel applications for these systems using an
+optimized version of the industry-standard software for
+message passing.
+
+Digital's use of these standards-based, off-the-shelf hardware
+and software components allow it to deliver systems that are
+lower cost, easier to expand and simpler to program than
+competitive systems.
+
+"Digital is the leading provider of high-performance UNIX
+solutions, as demonstrated by the industry's first
+implementation of 64-bit UNIX in 1993, our Very Large Memory
+systems last spring, and now the new level of price and
+performance of arrayed systems," said Pauline Nist, vice
+president, AlphaServer Business Segment, Digital Equipment
+Corp. "Through our Technical Solutions Initiative, we have the
+high-level expertise to deliver solutions that meet the unique
+needs of users in the technical segment. The technology in
+these AlphaServer arrays leverages the fastest processors,
+the best interconnect, proven, shipping, software and low-cost
+commodity components to deliver the best available
+high-performance solutions for technical computing."
+
+Digital's Very Large Memory (VLM) technology dramatically
+improves application performance by increasing the amount of
+information that can be stored in memory. Digital is the only
+company delivering high-performance 64-bit servers,
+AlphaServer systems, and a 64-bit operating system, Digital
+UNIX, which together make VLM64 possible. Whereas 32-bit
+systems are limited to 2 Gbytes of memory, AlphaServer 8400
+systems can store up to 14 Gbytes of data in memory, for fast
+access to large amount of data.
+
+Digital's Technical Solutions Initiative provides customers in
+engineering and scientific environments with complete
+application solutions.
+
+Through the Technical Solutions Initiative, Digital provides
+AlphaStation and AlphaServer customers in mechanical design
+and analysis, electronic design and analysis, geographic
+information systems, technical CASE and science and research
+with industry- leading application performance and
+price-performance advantages.
+
+Pricing and Availability
+
+The hardware and software components in the AlphaServer array
+will be available in January, 1996. The AlphaServer 8400
+array with 96 processors; 4 gigabytes of memory; 32 gigabytes
+of disk space; PCI Memory Channel interconnect; Digital UNIX,
+HPF, PSE and Digital PVM is priced at $4.5 million. Other
+complete configurations begin at $70,000, such as a system
+with an AlphaServer 2000 array with 2 processors; 256 Mbytes
+of memory; 4 gigabytes of disk space; PCI Memory Channel
+interconnect; Digital UNIX, HPF, PSE and Digital PVM.
+
+More information is available at
+http://www.digital.com/info/hpc/hpc.html.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+MAINFRAME COMPUTING via NewsNet
+January 1996
+
+UNIX SERVERS REPLACE MAINFRAMES
+IN NEW GLOBAL RESERVATION SYSTEM
+
+Best Western International, Inc., the world's largest hotel
+brand, has selected multiple AlphaServer 8400 "TurboLaser"
+systems, the world's most powerful servers, together with
+thousands of Digital personal computers, to power Best
+Western's new worldwide central reservation system (CRS).
+
+When fully implemented, the deal will be worth more than $12
+million in Digital revenue. A total of 10 AlphaServer 8400
+systems will power Best Western's operations center central
+host server, located in Phoenix, Ariz., as well as BWI's
+reservation centers located in Phoenix, Wichita, Kan., Dublin,
+Ireland, and Milan, Italy. The new servers will run Oracle7
+relational database management system with the 64-bit Digital
+UNIX operating system, handling in excess of 2,000
+transactions per second. AlphaServer systems will replace
+outdated and over-extended mainframes.
+
+In addition, Digital will deliver some 3,500 Digital Venturis
+535 PCs to every Best Western property worldwide, where they
+will provide a full range of inventory and rate management
+capabilities. This part of the system will enable hoteliers to
+enroll in Best Western marketing programs and create their own
+programs and pricing packages.
+
+"Today we unveil the hotel industry's most ambitious, advanced
+customer reservation system. We selected the
+Digital/Oracle/UNIX solutions because of its superior
+performance, flexibility, and growth potential -- at one-tenth
+the cost of competing systems," said William S. Watson, Best
+Western International's executive vice president.
+
+"We expect the Digital/Oracle solution to dramatically improve
+our ability to respond more rapidly to customer needs, to
+quickly provide our client agents more and more relevant
+information on our customers' travel preferences, to increase
+our sales and revenues, and to enhance our company's image,"
+Watson added.
+
+The new system is expected to to generate more than $50
+million in incremental annual room revenue and will
+significantly reduce corporate and property level operating
+costs.
+
+Pace-setting Global Reservation System
+
+Best Western's new central reservations systems, scheduled for
+a March 15, 1996, start-up, offers unprecedented features and
+functions, both at the property level and at the Best Western
+central reservations offices. It will be a service
+enhancement for the 40 million travelers worldwide who stay at
+Best Western hotels each year.
+
+
+With the new CRS, Best Western will be the only hotel chain to
+provide comprehensive geographic, pictorial, and textual
+information to its reservation sales agents. These features
+will enable guests who call a Best Western central reservation
+office from any location, whether at home or on the road, to
+find the Best Western hotel that is closest to their desired
+destination.
+
+The new system will enable Best Western to provide detailed
+guest histories, group booking capabilities, revenue
+management service, travel agent commission data, and a wide
+range of property-specific and destination information.
+
+Yet the new system is much more than a traditional
+transaction- oriented network. It will provide the business
+tools to more clearly target and service BWI's existing and
+future customers.
+
+"Best Western recognizes that emerging technologies will bring
+radical changes to the way products are distributed to its
+customers. This vision led Best Western to select Digital and
+Oracle as technology partners for the new millennium," said
+Pauline Nist, Digital vice president of the AlphaServer
+Business Segment. "While Best Western customers may never know
+what's 'under the hood' of the new reservation system, Best
+Western managers will sleep better knowing our systems are
+providing those customers the fastest, most reliable services
+in the travel industry."
+
+Digital's AlphaServer 8400 Systems
+
+AlphaServer 8400 systems are based on the world's fastest
+microprocessor, the 300 MHz Alpha 21164. They support up to 12
+service, travel agent commission data, and a wide range of
+property-specific and destination information.
+
+Yet the new system is much more than a traditional
+transaction- oriented network. It will provide the business
+tools to more clearly target and service BWI's existing and
+future customers.
+
+"Best Western recognizes that emerging technologies will bring
+radical changes to the way products are distributed to its
+customers. This vision led Best Western to select Digital and
+Oracle as technology partners for the new millennium," said
+Pauline Nist, Digital vice president of the AlphaServer
+Business Segment. "While Best Western customers may never know
+what's 'under the hood' of the new reservation system, Best
+Western managers will sleep better knowing our systems are
+providing those customers the fastest, most reliable services
+in the travel industry."
+
+Digital's AlphaServer 8400 Systems
+
+AlphaServer 8400 systems are based on the world's fastest
+microprocessor, the 300 MHz Alpha 21164. They support up to 12
+64-bit processors and 14 Gbytes of memory, and can be
+clustered for far greater performance.
+
+Recently, Digital and Oracle together shattered the
+transaction processing world performance record in benchmark
+testing (tpcC) defined and audited by the independent
+Transaction Processing Performance Council. This was
+accomplished on an AlphaServer 8400, Digital UNIX operating
+system, and Oracle 7 database system. The Digital/Oracle
+solution bested the previous record held by Hewlett Packard by
+75 percent, and was far better than the best systems from IBM,
+Sun, AT&T, and Tandem.
+
+Taken together, the 64-bit Alpha technology, 64-bit Digital
+UNIX, and 64-bit databases such as Oracle7 enable the
+breakthrough performance and price/performance of VLM64.
+Digital is unique in the industry in its ability to deliver
+this capability to customers today.
+
+Applications such as data warehousing, financial management,
+and online transaction processing take particular advantage
+of VLM64 solutions. This is because more than 4 billion times
+more data can be stored in memory than even the most powerful
+mainframe systems, at a fraction of the cost. This provides
+dramatic improvements in processing speed, application
+performance, and system affordability.
+
+Digital's Venturis PCs
+
+Digital Venturis is Digital's value-oriented desktop PC family
+designed to meet the computing requirements of general
+business users in standard office applications, as well as
+those of users in a client/server environment. Ideal for the
+volume purchaser, Venturis systems are simple to install, easy
+to use and easy to maintain, while providing room to expand as
+computing needs evolve.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+MAINFRAME COMPUTING via NewsNet
+January 1996
+
+ALISA SYSTEMS SOLVES COMMUNICATION PROBLEMS
+BETWEEN MAINFRAME AND PERSONAL COMPUTERS
+FOR WASHINGTON DEPARTMENT OF TRANSPORTATION
+
+The Bridge Design Office in the Washington State Department of
+Transportation had a serious E-Mail problem. Three
+incompatible electronic mail systems were being used in the
+department which made inter-sectional communication difficult.
+
+"We had installed a VAX-based system in our Bridge Design
+Office, but NetWare and AppleTalk systems were being installed
+in the rest of the department," recalled Dick Stoddard of the
+Department of Transportation. "We used VMS Mail internally and
+didn't worry about talking to other offices because phone and
+conventional mail was the normal way of doing business,"
+Stoddard said.
+
+Stoddard, who works in the office that is responsible for
+design calculations and "putting out bridge plans", was
+becoming increasingly concerned about the E-Mail compatibility
+problem because the department was changing the way it did
+business. Department E-mail was becoming a critical tool for
+administrators and designers. "We just had no integration tool
+between VMS Mail and other department mail systems," said
+Stoddard. The Bridge Design Office needed to integrate their
+VMS mail system with the Microsoft Mail being used on
+AppleTalk and NetWare networks without spending a huge sum of
+money to install a unified mail system. Luckily for them, they
+found Alisa Systems.
+
+Alisa Systems was referred to the Department by several
+different companies as an expert in electronic mail
+integration. Alisa's AlisaMail software is designed to work
+with all of the major mail systems in use today and can be
+installed as a central post office.
+
+Alisa sent in a systems engineer who set up the program and
+the result was better communication between the Bridge Design
+Office and the rest of the department.
+
+"I think it does a very good translation and connection," said
+Stoddard. "The connection into the Apple side was almost
+transparent. If there's any VMS users out there that need to
+communicate with NetWare and MicroSoft Mail, the connections
+work very well." Stoddard added, adding, "It's great when an
+entire department gets plugged into compatible mail systems."
+
+Alisa Systems was able to provide the Department of
+Transportation with a small, cost-effective solution that
+allowed their systems to be compatible. The AlisaMail software
+was not the only aspect of Alisa Systems that Stoddard was
+pleased with. "Their technical staff and their support was
+very prompt," he said.
+
+For more information, call Alisa Systems at (800)628-3274.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+MAINFRAME COMPUTING via NewsNet
+January 1996
+
+VAX AND RISC-6000 NOW COMMUNICATE WITH PERSONAL
+COMPUTER E-MAIL SYSTEMS AT CARPET MANUFACTURER
+
+Manufacturing depends on the right machinery to get the job
+done, but the "machinery" may not always be the kind that
+actually makes the product. In addition to manufacturing
+hardware, production relies heavily on communication for the
+product to get out the door on time.
+
+Shaw Industries, in Dalton Georgia, the world's largest carpet
+manufacturer, was having a difficult time keeping up with its
+production schedule because departments housed in separate
+buildings couldn't communicate. The departments weren't
+ignoring each other; their computers were speaking different
+languages. Instead of instantaneous E-mail, Shaw was
+inefficiently "snail mailing" messages between departments on
+foot. The disadvantages were obvious.
+
+"Our company is international, having branches in Great
+Britain, Mexico and Australia and also working with outside
+vendors and outside clients," said Martha Roberts, a Technical
+Specialist for the company. "We have many internal
+E-mail systems including ccMail and MicroSoft Mail.  We also
+have a large 34-node DEC VAX system and an IBM RISC-6000
+computer, each with more E-mail users," she continued.  All
+these systems needed to be able to E-mail back and forth
+between users corporate-wide. Manufacturing needed to send
+production reports and other information to distribution and
+we didn't have the local infrastructure in place to where you
+could do that easily," Roberts recalled.
+
+Rather than making a huge investment in a single compatible
+computer system, Shaw contacted Alisa Systems of Pasadena,
+Calif. Alisa brought its technical support engineer on-site
+and integrated the company's computers in record time.
+
+"We were up and running in three days," said Roberts, adding,
+"I have 2200 AlisaMail users here and corporate-wide. I'd say,
+overall, we've got 40,000 users. Reporting time has been
+dramatically reduced because it's been automated through the
+AlisaMail system," Roberts added. Shaw Industries has also
+been extremely pleased with Alisa's technical support staff.
+"They're always there when we need them and the training
+classes were great," Roberts said enthusiastically.
+
+Needless to say, with AlisaMail, departments at Shaw
+Industries are talking to each other again and production is
+back on schedule.
+
+For more information, cal 800-628-3274.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

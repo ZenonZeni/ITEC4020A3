@@ -1,0 +1,53 @@
+
+<DOC>
+<DOCNO>WT03-B15-219</DOCNO>
+<DOCOLDNO>IA024-000255-B009-300</DOCOLDNO>
+<DOCHDR>
+http://206.216.148.51:80/telemani.htm 206.216.148.51 19970108135309 text/html 2872
+HTTP/1.0 200 OK
+Date: Wed, 08 Jan 1997 13:49:50 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 2701
+Last-modified: Thu, 04 Apr 1996 08:00:06 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>The Telemanipulation  option for Workspace</TITLE> 
+</HEAD>
+<BODY background="paper3.gif">
+<H1 align=center>The Telemanipulation  option for Workspace</H1>
+
+<P>The Workspace telemanipulation option allows a user to monitor the status of  a real work-cell graphically. This feature allows robots to be operated remotely, with the operator using Workspace to view the current robot status.</P>
+
+<P>The user first creates a model of the real work-cell using the Workspace CAD system (IGES/DXF data can be imported if so desired). The robot models they require to build this virtual world can be selected from a library of over 140 robots (they can alternatively create their own robots).</P>
+
+<P>Data from the real world is accessed via a Dynamic-Link Library (DLL). The user has access to the source code which creates the DLL and they insert their own software modules into the DLL to bring external data into the PC. This external data could for example, be joint encoder data from a real robot describing the positions of robot joints or robot auxiliary axes within the real work-cell.</P>
+
+<P>The code interface to the DLL from Workspace allows up to 9 robot models or mechanisms to be controlled by external data. When the telelmanipulation option is set in motion Workspace passes into the DLL either a robot's current position, a robot's current joint angles or a robot's current gripper status. This data is combined with the external data in a user definable way to provide a set of demanded positions (or joint angles) which are then passed back into Workspace for the robot models to achieve.</P>
+
+<P>The viewing mode can be either wire-frame, hidden-line or solid-shade. With more complex viewing modes like solid-shade the refresh speed for the graphical display decreases. Wire-frame has the quickest refresh rate.</P>
+
+<P>To modify the DLL the user needs a software compiler capable of creating Workspace compatible DLLs. The code we supply to create the telemanipulation DLL is designed for use with Borland Pascal v7.0. </P>
+<P>DLLs can also be generated using C and we can supply C code for Borland C v4.0  to create compatible DLLs.</P>
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG SRC="home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<center><h6><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+
+<h6>Copyright &copy; 1996 Robot Simulations Ltd</h6>
+<h6>Last revision 3 April 1996</h6></center>
+</P>
+
+
+
+</BODY>
+
+</HTML>
+
+</DOC>

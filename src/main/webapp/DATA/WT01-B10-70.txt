@@ -1,0 +1,114 @@
+
+<DOC>
+<DOCNO>WT01-B10-70</DOCNO>
+<DOCOLDNO>IA054-000906-B046-166</DOCOLDNO>
+<DOCHDR>
+http://ivf.com:80/endosource.html 206.185.60.251 19970123213148 text/html 6882
+HTTP/1.0 200 OK
+Date: Thu, 23 Jan 1997 21:33:27 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 6711
+Last-modified: Sun, 12 Jan 1997 13:29:01 GMT
+</DOCHDR>
+<html><head><title>Endometriosis Sourcebook</title>
+<form method=POST action="http://www.ivf.com/ivf/cgi-bin/source.pl">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Beginning of JavaScript Applet -------------------
+function scrollit_r2l(seed)
+{
+        var jd1  = "Be sure to visit the ARHC WWW homepage at www.ivf.com ";
+        var jd2  = "and check all the endometriosis links on Dr. Perloe's Endometriosis page........";
+        var jd3  = "Please make sure that you sign our guestbook!....";
+ 
+          var msg=jd1+jd2+jd3;
+        var out = " ";
+        var c   = 1;
+
+        if (seed > 100) {
+                seed--;
+                var cmd="scrollit_r2l(" + seed + ")";
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 100 && seed > 0) {
+                for (c=0 ; c < seed ; c++) {
+                        out+=" ";
+                }
+                out+=msg;
+                seed--;
+                var cmd="scrollit_r2l(" + seed + ")";
+                    window.status=out;
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 0) {
+                if (-seed < msg.length) {
+                        out+=msg.substring(-seed,msg.length);
+                        seed--;
+                        var cmd="scrollit_r2l(" + seed + ")";
+                        window.status=out;
+                        timerTwo=window.setTimeout(cmd,100);
+                }
+                else {
+                        window.status=" ";
+                        timerTwo=window.setTimeout("scrollit_r2l(100)",75);
+                }
+        }
+}
+// -- End of JavaScript code -------------- -->
+</script>
+<meta="keywords" content="endometriosis, endometriosis association, women's health, laparosocopy">
+</head>
+<BODY><Body onLoad="timerONE=window.setTimeout('scrollit_r2l(100)',500);" text="#46385D" bgcolor="#FFFFFF" link="#0000E4" vlink="#930000" alink="#005000">
+<TABLE BORDER WIDTH="85%">
+<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=3>
+<TR><TD><img src="arhc.gif"></td><td><h3 align="right"><i>This comprehensive book is an invaluable tool for every woman with endometriosis. I highly recommend it to all my patients.</i><br><font size="-1">Dr. Mark Perloe</font></h3></td></tr></table> <h1 align=center>The Endometriosis Sourcebook</h1>
+<h2 align="center"><IMG SRC="bluegreline.gif"></h2>
+<center><TABLE BORDER WIDTH="85%">
+<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=3>
+<TR><TD><img src="endobook.gif"></td><td><h2>The definitive guide to current treatment options, the latest research, common myths about the disease, and coping strategies - both physical and emotional by <B>Mary Lou Ballweg</B> and the <B>Endometriosis Association</B>.</h2></td>
+</table></center>
+Written for women by women, <I>The Endometriosis Sourcebook</I> is the most comprehensive resource available on <a href="endohtml.html">endometriosis</a>, a chronic, debilitating, and very confusing disease. An indispensable compilation of current information and more, this sourcebook provides you with everything you need to know: the most up-to-date research; new treatments, both surgical and medical; alternative treatments, including nutrition; common myths about the disease; pregnancy, labor and postpartum experiences of women with endometriosis; advice for coping physically and emotionally; and inspirational personal case histories of women sharing their struggles and successes. <p>
+This excellent reference has been compiled by the <a hrerf="endoassn.html">Endometriosis Association</a>, the nation's formost and most trusted organization serving those with endometriosis. Filled with essential information and invaluable advice, <I>The Endometriosis Sourcebook</I> will guide you in overcoming this very serious disease.
+<h2 align="center"><IMG SRC="bluegreline.gif"></h2>
+
+<p><H2><b>How to Order Your Copy of <I>The Endometriosis Sourcebook</I></b></H2>
+All purchases must be paid in US$. The cost is $15 for each copy plus $7 for shipping and handling. Your order should arrive within two weeks. If you are outside the United States you must order with a credit card and your shipping charges will vary.<p> 
+
+<dl><B>Please provide the following information:</B> <P>
+
+<b><I><U>SHIP TO:</U></I> First & Last Name <font size="-1"><I>(This field is required.)</font></b><br><input name="Name" size="60" maxlength="60"><P>
+
+<B>Street Address</B> <br><input name="addr1" size="60"><br><input 
+name="addr2" size="60"><br>
+<input name="addr3" size="60"><P> 
+
+<B>Daytime phone number</B> with area code <font size="-1"><I>(U.S. only)</I></font><br><input name="phone" size="30"><br><p>
+<b>Email address</b> <font size="-1"><I>(This field is required for a response. Please check for accuracy)</I></font><br> <input NAME="email" 
+size="30"maxlength="40"><p></dl>
+<dd>Please enter the number of copies your would like to order: 
+<input name="last4cc" size="4"><P>
+
+<dd><TABLE BORDER WIDTH="85%">
+<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=3><tr><td>
+<input type="radio" name="payment" value="onfile"> If you prefer, you can FAX your credit card information to <b>(404) 265-4276</b>, or call us at <b>(404) 265-3662.</b></td></tr><tr><td><input type="radio" name="payment" value="send_check"> Send a check to: ARHC WWW, 285 Boulevard, NE, Suite 320, Atlanta, GA, USA 30312. Be sure to include your Email address and shipping information with your order.</td></tr><tr><td>
+<input type="radio" name="payment" value="bill4questions"> Bill me using the credit card information below. </td></tr></table></dl>
+
+
+<dl><dd><B>Name</B> <I>(exactly as it appears on credit card)</I> <input name="cardname" size="60"><DL><dd><B><input type="radio" name="cctype" value="visa">  Visa           
+<dd><input type="radio" name="cctype" value="mc">  MasterCard           
+<dd><input type="radio" name="cctype" value="discover">  Discover      
+</B></DL><br>
+
+<dd><B>Account Number</B> <input name="ccnumber" size="19">  <B>Expiration Date</B> <input name="expdate" size="5"><br>
+<P>
+</dl></dl>
+<B>You are now ready to submit your order. <I>(Hit the submit button only once per order please or your computer might explode!)</I> <P></B>
+<center><input type="Submit" value="Submit My Order"><input type="reset" value="Let me try again"></center></form><p>
+
+<h2 align="center"><IMG SRC="bluegreline.gif"></h2>
+<a href="http://ayup.limey.net/~xine/endobooks.html">Other endometriosis books</a><p>
+<hr> <a href="index.html">Return to Dr. Perloe's Homepage</a> </a><P><font size="-2">This page, and all contents, are Copyright (C) 1996 by Mark Perloe
+M.D., P.C. Atlanta, GA, USA. </font>
+</BODY>
+</HTML>
+</DOC>

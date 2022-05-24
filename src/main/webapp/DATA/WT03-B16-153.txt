@@ -1,0 +1,134 @@
+
+<DOC>
+<DOCNO>WT03-B16-153</DOCNO>
+<DOCOLDNO>IA006-000056-B001-21</DOCOLDNO>
+<DOCHDR>
+http://viam.com:80/backform.html 207.82.65.35 19970221173921 text/html 5054
+HTTP/1.0 200 OK
+Date: Fri, 21 Feb 1997 17:36:54 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+Content-length: 4883
+Last-modified: Mon, 20 Jan 1997 21:04:59 GMT
+</DOCHDR>
+<!-- created by Robert Chiappetta for Viam Communications Group Ltd., July 1996 -- >
+<!-- last updated 12 January 1997 -- >
+
+
+<html>
+
+
+<head>
+<title>VBJ Back Issue Form</title>
+</head>
+
+
+<body bgcolor="#FFFFFF">
+
+
+<center><img src="graphics/banner.gif" alt="The Vietnam Business Journal"></center><br>
+
+
+<body>
+
+
+<center> <table border=0>
+<tr><td valign="middle"><img src="graphics/check.gif"></td><td align="right"> <b><font size=+4>Yes</font></b>, I want to order back issues of<br><b>T<small>HE</small> V<small>IETNAM</small> B<small>USINESS</small> J<small>OURNAL</small></b><br>for US$15.00 an issue.</td></table>
+<br><br>
+</center>
+
+
+<form method="post" action="http://viam.com/cgi-bin/viam.com/backissues.cgi">
+
+<pre>
+			<input type="radio" name="title1" value="mr" checked> Mr.  <input type="radio" name="title1" value="mrs"> Mrs.  <input type="radio" name="title1" value="ms"> Ms.  <input type="radio" name="title1" value="dr"> Dr.
+Name 			<input name="name" size="60">
+Title			<input name="title2" size="60">
+Company			<input name="company" size="60"><br>
+Type of Position 	<select name="position">
+<option value="Senior_Manager">senior management
+<option value="Middle_Manager">middle management
+<option value="Junior_Mananger">junior management
+<option value="Government">government
+<option value="Education">education
+<option value="Professional">professional
+<option value="other">other
+<option value="no_choice_made" selected>select a position
+</select>
+Type of Business 	<select name="business_type">
+<option>manufacturing/wholesale/retail/fashion
+<option>import/export/trading
+<option>shipping/transportation/distribution
+<option>banking/financial/investment
+<option>insurance/real estate
+<option>agriculture/forestry/fishing/plantation
+<option>oil/chemicals/petrochemicals/mining
+<option>building/construction/engineering
+<option>power/energy/water/public utilities
+<option>travel/tourism/hotels/food services
+<option>other business services
+<option>education
+<option>government/military
+<option>media/entertainment/communications
+<option>other personal services
+<option>technology &amp; telecommunications
+<option>other
+<option value="no_choice_made" selected>select a type of business
+</select>
+
+
+Delivery Address	<input name="address_line1" size="60">
+			<input name="address_line2" size="60">
+City			<input name="city" size="60">
+Province/State		<input name="state" size="60">
+Country			<input name="country" size="23">    Postal Code <input name="zipcode" size="19">
+
+
+Telephone		<input name="telephone" size="60">
+Fax			<input name="fax" size="60">
+E-mail Address		<input name="email" size="60">
+
+Select Issues (at US$15.00 per issue)<p>
+			<input type="checkbox" name="vol4number6_issue"> Vol 4, No 6 -- December 1996
+			<input type="checkbox" name="vol4number5_issue"> Vol 4, No 5 -- October 1996
+			<input type="checkbox" name="vol4number4_issue"> Vol 4, No 4 -- August 1996
+			<input type="checkbox" name="vol4number3_issue"> Vol 4, No 3 -- June 1996
+			<input type="checkbox" name="vol4number2_issue"> Vol 4, No 2 -- April 1996
+			<input type="checkbox" name="vol4number1_issue"> Vol 4, No 1 -- February 1996
+
+			<input type="radio" name="payment_type" value="VISA" checked> VISA   <input type="radio" name="payment_type" value="MasterCard"> MasterCard   <input type="radio" name="payment_type" value="AMEX"> AMEX
+Card Number		<input name="card_number" size="60">
+Expiration Date		<input name="expiration_date" size="60">
+
+
+				<input type="submit" value="Submit Order">   <input type="reset" value="Reset Order Form">
+</pre>
+</form>
+
+
+<center><br><br>
+<i>If you prefer, you may fax or mail your request<br>with a US$ check made payable to VIAM Communications to:</i><p>
+<b>VIAM Communications Group Ltd.</b><br>c/o Archives Department<br>114 East 32nd Street, Suite 1010<br>New York, NY 10016 USA<br>Fax (1-212) 725-8160<br><br>Please send inquires regarding back issues by e-mail to <a href="maito:archives@viam.com">archives@viam.com</a>.<br><br><b>Thank you for your interest in <b>T<small>HE</small> V<small>IETNAM</small> B<small>USINESS</small> J<small>OURNAL</small></b>!</b></center>
+
+
+<center>
+<br><br><nobr>
+<a href="about.html"><img src="graphics/buttons/viam_but.gif" border=0 align=middle alt="about VIAM"></a>
+<a href="subform.html"><img src="graphics/buttons/order_but.gif" border=0 align=middle alt="Subscribe"></a>
+<a href="index.html"><img src="graphics/vbj_but.gif" border=0 align=middle alt="VBJ Home"></a>
+<a href="mailto:vbj@viam.com"><img src="graphics/buttons/email_but.gif" border=0 align=middle alt="Send E-mail"></a>
+<a href="masthead.html"><img src="graphics/buttons/staff_but.gif" border=0 align=middle alt="The VBJ Staff"></a>
+</nobr></center>
+
+
+<hr width=260 noshade>
+<font size=-2>
+<center>
+last updated 12 January 1997<br>
+<a href="copyright.html">&copy; 1997 VIAM Communications Group Ltd.</a>
+</font>
+
+
+</body>
+</html>
+</DOC>

@@ -1,0 +1,70 @@
+
+<DOC>
+<DOCNO>WT03-B15-74</DOCNO>
+<DOCOLDNO>IA095-001015-B002-28</DOCOLDNO>
+<DOCHDR>
+http://www.rosl.com:80/rtrkspec.htm 206.216.148.51 19970121063807 text/html 2743
+HTTP/1.0 200 OK
+Date: Tue, 21 Jan 1997 06:34:23 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 2572
+Last-modified: Thu, 04 Apr 1996 07:58:50 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Robotrak/Workspace robot calibration features and technical specifications</TITLE> 
+<BODY background="paper3.gif">
+<H1>Robotrak/Workspace robot calibration features and technical specifications</H1> 
+</HEAD>
+<center><IMG SRC="rtrk1.gif" ALT="[IMAGE]"></center>
+
+<H2>How Robotrak works</H2>
+
+<P>Robotrak is a 3d measuring device used for calibrating robots. Three cords extend from drums fixed in the cell in a triangle arrangement to meet at the end of the robot. The extensions of each cord is measured by optical encoder on the drum which report the rotation of the drum. Given the lengths of the three cords and the distances between the drums which is discovered during the self-calibration setup for Robotrak it is possible to calculate the true position of the endpoint of the robot.</P>
+<P>The software for setting up and using Robotrak is embedded in Workspace and compares measurements taken using Robotrak to the teachpoints for the same positions recorded by the robot. Workspace then extracts the errors in the nominal controller model of the robot to produce a filter which sits between the simulation and the robot and fools the inaccurate robot into achieving going accurately to the desired position.</P>
+
+<H2>Parameters calibrated for</H2>
+
+<UL>
+<LI>Joint zero positions
+<LI>Link lengths
+<LI>Misalignment of successive joints
+<LI>Tool offset
+<LI>Position and orientation of the measuring system (Robotrak)
+<LI>Joint compliance due to weight of payload and links
+</UL>
+
+<H2>Other technical data</H2>
+<UL>
+<LI>Repeatability of Robotrak - 0.3mm
+<LI>Kinematic model used - 5 parameter DH model
+<LI>Repeatability of uncalibrated Robot - typically 0.1mm
+<LI>Accuracy of uncalibrated robot - between 15mm and 2mm
+<LI>Accuracy of calibrated robot - 1mm
+<LI>Overall time taken for setup and robot calibration - 30 to 60 minutes
+</UL>
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+<P ALIGN=center> <A HREF="calib.htm">Calibration using Workspace and Robotrak in more detail</A> </P> 
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG SRC="home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<center><h6><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+
+<h6>Copyright &copy; 1996 Robot Simulations Ltd</h6>
+<h6>Last revision 3 April 1996</h6></center>
+</P>
+
+
+
+</BODY>
+
+</HTML>
+
+</DOC>

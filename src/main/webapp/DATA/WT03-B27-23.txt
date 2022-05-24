@@ -1,0 +1,96 @@
+
+<DOC>
+<DOCNO>WT03-B27-23</DOCNO>
+<DOCOLDNO>IA057-000945-B047-430</DOCOLDNO>
+<DOCHDR>
+http://www.pjp.com:80/tickets.html 198.5.254.122 19970208042430 text/html 3073
+HTTP/1.0 200 Document follows
+Date: Sat, 08 Feb 1997 04:24:10 GMT
+Server: NCSA/1.4.1
+Content-type: text/html
+Last-modified: Tue, 27 Feb 1996 05:21:44 GMT
+Content-length: 2897
+</DOCHDR>
+<HTML><HEAD><TITLE>Fred Meyer Challenge Ticket Ordering</TITLE></HEAD><body background="back.jpg"> 
+<CENTER><IMG ALT="Fred Meyer Challenge" SRC="fmc_med.gif"></CENTER> 
+<P>
+<H2><B><CENTER>ONLINE TICKET ORDERING</B></H2></CENTER>
+<h5>
+<hr size=1>
+You have a choice of Season or Single Day tickets for The Challenge:
+<ul>
+<li>Season Ticket -- $110<br>
+<ul>
+<li>Three-Day Tournament Pass  
+<li>Peter's Golf Revue Sunday and Monday
+<li>Clubhouse Privileges
+</ul>
+<P>
+<LI>Good-Any-Day Ticket -- $40<br>
+<ul>
+<li>One Day Admission, Grounds Only
+<li>Good Sunday, Monday or Tuesday
+<li>Includes Peter's Golf Revue Sunday OR Monday
+</ul></ul>
+<p>
+<H4><center><b>Order tickets by calling 503-526-9331 or 503-224-8499</center></b>
+<H5>
+<hr size=1>
+<p>
+You will be able to order here as soon as we have our secure server in place, which will assure the security of your credit card number.
+<p>
+ <pre>
+<FORM METHOD=POST ACTION="mailto:jaudette@mmgco.com>
+Name:		<INPUT TYPE="text" NAME="name" SIZE="40"><br>
+Address:	<INPUT TYPE="text" NAME="addr" SIZE="40"><br>
+City:		<input type="text" name="city" size=20>   State:  <INPUT TYPE="text" name=state" size=2>   Zip:  <input type="text" name="zip" size=5><br>
+Telephone:	<INPUT TYPE="text" NAME="phone"SIZE="30"><br>
+E-mail:		<input type="text" name="email" size="30">
+
+
+Check Credt Card Type:	<INPUT TYPE="radio" NAME="categorya" VALUE="VISA">VISA  <INPUT TYPE="radio" NAME="categorya" VALUE="master">Mastercard  <INPUT TYPE="radio" NAME="categorya" VALUE="discover">Discover<br>
+Card Number:	<input type="text" name="ccnumber" size="25">   Expires:  <input type="date" name="expire" size="8"><br>
+
+Enter Ticket Quantity Below:
+
+<inpuT TYPE="number" NAME="season" SIZE="3">  SEASON TICKETS @ $110 Each<br>
+<INPUT TYPE="number" NAME="gad" SIZE="3">  GOOD-ANY-DAY TICKETS @ $40 Each<br>
+
+</pre>
+<center><! INPUT TYPE="submit" VALUE="Submit Order Form"!>
+<INPUT TYPE="reset" VALUE="Clear"></center>
+<P>
+<center>Thank you for your order!<br>
+We will confirm your order via your e-mail address and you will receive your tickets shortly.   
+<PRE>
+</PRE>
+
+<HR SIZE=1>
+<H6><CENTER>
+<CENTER><A HREF="../../cgi-bin/htimage/nav_c.map">
+<IMG SRC="navbar_c.gif" BORDER=0 ISMAP></A></CENTER>
+<P>
+<a href="tickets.html">[Tickets]</a>
+<a href="bios.html">[Players]</a>
+<a href="sponsors.html">[Sponsors]</a>
+<A HREF="scoring.html">[Scoring]</A>
+<A HREF="media.html">[Media Guide]</A>
+<A HREF="charity.html">[Charities]</A>
+<BR>
+<a href="http://www.golf.com/course/or/">[Course Directory]</a>
+<a href="fmc.html">[Challenge Home]</a>
+<a href="pjp.html>[PJP Info]</a>
+<A HREF="index.html">[Home]</A>
+</center>
+<HR SIZE=1>
+<H6>
+<B>Created and Developed by:  <A HREF="http://www.mmgco.com">Multimedia Marketing Group Inc</A></B>
+<BR>
+&copy Copyright 1995, 1996 All Rights Reserved
+
+</BODY>
+</HTML>
+
+
+
+</DOC>

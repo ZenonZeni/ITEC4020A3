@@ -1,0 +1,148 @@
+
+<DOC>
+<DOCNO>WT02-B16-318</DOCNO>
+<DOCOLDNO>IA060-000333-B044-339</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/hydrogen/2hybrid.htm 205.168.79.27 19970115053004 text/html 3654
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 05:30:09 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 08 Jul 1996 22:35:20 GMT
+Content-length: 3480
+</DOCHDR>
+<HTML>
+<head>
+
+<title>Hydrogen InfoNet</title>
+
+</head>
+
+<body>
+
+<B>Hybrid Vehicle Studies and Optimized Engine Design;<br>
+
+S. Aceves, Principal Investigator,<br>
+<a href="http://www.llnl.gov"> Lawrence Livermore National 
+Laboratory</B></a>
+
+<P>
+
+We are studying hybrid vehicles that have high power-train efficiencies 
+and optimized 
+
+hydrogen engines that are projected to have efficiencies of 45% or more 
+with extremely low 
+
+emissions.  The relatively low efficiency of the conventional power 
+train (approximately 18%) 
+
+and modest efficiency of current gasoline-fueled spark ignition engines 
+(with a peak efficiency of 
+
+about 32%) opens the door for hydrogen as a realistic near-term 
+transportation fuel.  For this to 
+
+happen, we must develop an automobile that has a comparable fuel cost 
+per mile and lower 
+
+emissions.  We are studying hydrogen hybrid vehicles that meet the goals 
+of the next generation 
+
+of vehicles (with a fuel efficiency of 80 miles per gallon equivalent 
+and a 380-mile range).  Our 
+
+results indicate that such a vehicle appears feasible with an optimized 
+hydrogen engine.
+
+<P>
+
+<b><I>Recent Advances</I>:</b>
+
+<P>
+
+The experimental engine data obtained at Sandia National Laboratories
+
+have been analyzed and the results have been used for validating
+
+and adjusting the parameters on the heat transfer correlation
+
+used in the simplified, zero-dimensional (lumped) engine model.
+
+ Good agreement has been obtained between the model and the experimental
+
+
+results.
+
+<P>
+
+The validated engine model has been extended to include a friction
+
+model and a supercharger model, so that the engine model can be
+
+used in predicting engine brake thermal efficiency (net work 
+output/chemical
+
+energy input).  Supercharging is necessary for increasing the
+
+power output of the engine, which would otherwise be very limited
+
+due to the low equivalence ratio.  The extended model has also
+
+been used in generating an engine performance map.  It is assumed
+
+that an automotive engine is built with four cylinders like the
+
+cylinders of an Onan engine.  The engine has almost 2 liters of
+
+displacement, and can be used in conventional and hybrid vehicles.
+
+<P>
+
+A conventional vehicle has only one degree of freedom for controlling
+
+the output torque at any given speed:  the inlet manifold pressure.
+
+ A hydrogen engine has two degrees of freedom, because equivalence
+
+ratio can also be varied.  Generating an engine map therefore
+
+requires specifying a control strategy that states how to adjust
+
+these two parameters to obtain the desired torque for a given
+
+engine speed.  In this analysis, an optimizer is used to determine
+
+the combination of equivalence ratio and inlet manifold pressure
+
+that satisfies the torque requirement while providing the maximum
+
+engine brake thermal efficiency.  Engine NO<sub>x</sub> emissions are 
+restricted
+
+to less than 10 ppm under all operating conditions.  An engine
+
+generating 10 ppm of NO<sub>x</sub> is within the proposed CARB EZEV 
+standards
+
+if it is installed in a vehicle with a fuel economy of 40 mpg
+
+or higher.  Engine efficiency remains reasonably high as torque
+
+is decreased, because the low power can be obtained by reducing
+
+equivalence ratio rather than throttling, reducing the pumping
+
+losses.  The engine can be applied to both a conventional car
+
+and a series hybrid car.  Either of these vehicles should have
+
+a high efficiency and low (well under EZEV) emissions.
+
+<P>
+
+</body>
+
+</HTML>
+
+</DOC>

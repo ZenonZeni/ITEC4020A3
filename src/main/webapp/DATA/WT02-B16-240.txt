@@ -1,0 +1,74 @@
+
+<DOC>
+<DOCNO>WT02-B16-240</DOCNO>
+<DOCOLDNO>IA060-000329-B023-112</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/thinfilms2.html 205.168.79.27 19970115040915 text/html 3664
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 04:09:19 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:51 GMT
+Content-length: 3490
+</DOCHDR>
+<html>
+<head>
+<title>Types of Materials</title>
+</head>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>Polycrystalline Thin Films</h2>
+
+<p><strong>Cell Structure</strong>
+
+<p>Unlike most single-crystal cells, the typical thin-film device does not use a metal grid for the top
+<a href="econtacts.html">electrical contact</a>.  Instead, it uses a thin layer of a transparent
+conducting oxide (such as tin oxide).  These oxides are highly transparent and conduct
+electricity very well.  A separate antireflection coating may be used to top off the device, or the
+transparent conducting oxide may serve this function as well.
+
+<p>Polycrystalline thin-film cells comprise many tiny crystalline grains of semiconductor materials. 
+The materials used in polycrystalline thin-film cells have properties that are different from those
+of silicon, so it has proven to be better to create the <a href="ptype.html">electric field</a> with an
+interface between two different semiconductor materials.  This type of interface is called a
+heterojunction ("hetero" because it is formed from two different materials, in comparison to the
+"homojunction" formed by two doped layers of the same material, such as the one in silicon
+solar cells).
+
+<p><img border=0 align=left hspace=15 vspace=3 src="images/0633336.gif"> 
+<br clear=all>
+<p><font color="#F79D00">Polycrystalline thin-film cells have a heterojunction structure, in
+which the top layer is made of a different semiconductor material than the bottom semiconductor
+layer.  The top layer, usually <a href="ptype.html">n-type</a>, is a window that allows almost all of
+the light through to the absorbing layer, usually p-type. An "ohmic contact" is often used to provide
+a good electrical connection to the substrate.</font>
+
+<p>The typical polycrystalline thin film has a very thin (less than 0.1 micron) layer on top called the
+"window" layer.  The window layer's role is to absorb light energy from only the high-energy
+end of the <a href="lightsun.html">spectrum</a>. It must be thin enough and have a wide
+enough <a href="bandgaps.html">band gap</a> (2.8 eV or more) to let all the available light
+through the interface (heterojunction) to the absorbing layer.  The absorbing layer under the
+window, usually doped <a href="ptype.html">p-type</a>, must have a high absorptivity (ability to
+absorb photons) for high current and a suitable band gap to provide a good voltage. Still, it is
+typically just 1 to 2 microns thick.
+
+<p align=right><a href="thinfilms3.html"><em>More . . .</em> The Materials</a>
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>[<a href="bandgaps.html">About Gand Gaps</a>]
+[<a href="sipolysi.html">Silicon</a>]
+[<a href="amorphous.html">Amorphous Silicon</a>]
+[<a href="thinfilms.html">Pollycrystalline Thin Films</a>]
+[<a href="gallium.html">Gallium Arsenide</a>]
+[<a href="multijunction2.html">Multijunction Cells</a>]
+[<a href="econtacts.html">Electrical Contacts</a>]
+<p>[<em>U.S. Department of Energy Photovoltaics Program, 1996</em>]
+</font>
+</center>
+</body>
+</html>
+</DOC>

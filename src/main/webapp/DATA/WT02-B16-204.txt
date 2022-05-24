@@ -1,0 +1,68 @@
+
+<DOC>
+<DOCNO>WT02-B16-204</DOCNO>
+<DOCOLDNO>IA060-000328-B015-322</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/bandgaps.html 205.168.79.27 19970115022630 text/html 3459
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 02:26:24 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:45 GMT
+Content-length: 3285
+</DOCHDR>
+<html>
+<head>
+<title>Types of Materials</title>
+</head>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>About Band Gaps</h2>
+
+<p><font size=+2>W</font>hen photons of <a href="lightsun.html">sunlight</a> strike a PV cell, only the photons with a certain level of energy are
+able to <a href="howworks.html">free electrons</a> from their atomic bonds to produce an electric current. This level of
+energy, known as the band-gap energy, is defined as the amount of energy required to dislodge an
+electron from its convalent bond and allow it to become part of an electrical circuit.  The
+energy that photons possess is called the "photon energy."  This energy must be at least as high
+as the band-gap energy for a photon to free an electron.  However, photons with energy higher
+than the band-gap energy will expend the extra energy as heat when freeing the electrons.  So,
+it's important for a PV cell to be "tuned" (through slight modifications to the semiconductor's
+molecular structure) to maximize the photon energy.  After all, one key to obtaining an 
+<a href="conveff.html">efficient PV cell</a> is to convert as much sunlight into electricity as possible.  
+
+<p>Effective PV semiconductors have band-gap energies ranging from 1.0 to 1.6 electron-volts
+(eV).  (An electron-volt is equal to the energy an electron acquires when it passes through a
+potential of 1 volt in a vacuum.)   That's because this level of energy is good for freeing
+electrons without causing extra heat.  For example, crystalline silicon's band-gap energy is 1.1
+eV.
+
+<p>The photon energy of light, also measured in eV, varies according to the different wavelengths
+of light. The entire spectrum of sunlight, from infrared to ultraviolet, covers a range of about 0.5
+eV to about 2.9 eV. For example, red light has an energy of about 1.7 eV, and blue light has an
+energy of about 2.7 eV.  About
+55% of the energy of sunlight cannot be used by most PV cells because this energy is either
+below the band gap or carries excess energy.
+
+<p><img border=0 vspace=3 src="images/bandgaps.gif"> 
+<p><font color="#F79D00">Different PV materials have different characteristic energy band
+gaps.  Photons with energy greater than the band gap may be absorbed to create free electrons. 
+Photons with energy less than the band gap pass through the material or create heat.</font>
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>[<a href="bandgaps.html">About Gand Gaps</a>]
+[<a href="sipolysi.html">Silicon</a>]
+[<a href="amorphous.html">Amorphous Silicon</a>]
+[<a href="thinfilms.html">Pollycrystalline Thin Films</a>]
+[<a href="gallium.html">Gallium Arsenide</a>]
+[<a href="multijunction2.html">Multijunction Cells</a>]
+[<a href="econtacts.html">Electrical Contacts</a>]
+<p>[<em>U.S. Department of Energy Photovoltaics Program, 1996</em>]
+</font>
+</center>
+</body>
+</html>
+</DOC>

@@ -1,0 +1,78 @@
+
+<DOC>
+<DOCNO>WT02-B27-38</DOCNO>
+<DOCOLDNO>IA097-001048-B006-164</DOCOLDNO>
+<DOCHDR>
+http://www.science.ca:80/css/gcs/quiz.cgi 142.58.111.137 19970215093648 text/html 1691
+HTTP/1.0 200 Document follows
+Date: Sat, 15 Feb 1997 09:37:04 GMT
+Server: NCSA/1.5
+Content-type: text/html
+</DOCHDR>
+
+<HTML> 	
+<HEAD> 
+<TITLE> QUIZ! </TITLE> 
+</HEAD> 
+
+<BODY> 
+<IMG SRC=http://fas.sfu.ca/I/css/gcs/graphics/frieze.gif> 
+<BR> 
+<IMG SRC=http://fas.sfu.ca/I/css/gcs/graphics/boy-stop.gif ALIGN=LEFT> 
+<IMG SRC=http://fas.sfu.ca/I/css/gcs/graphics/Quiz.gif ALIGN=RIGHT> 
+
+<FONT SIZE=+2> <B> <I> 
+<CENTER> Test Your Knowledge </CENTER> 
+</B> </I> </FONT> 
+
+<HR WIDTH=50%> 
+<CENTER> 
+
+
+
+How much do you know about Canadian Scientists and their science?<BR> 
+You can use this quiz to find out. <P> 
+</CENTER> 
+
+<BR CLEAR=ALL> 
+
+<HR> 
+
+
+
+<FORM METHOD=POST ACTION=http://fas.sfu.ca/css/cgi-postin/quiz-good.cgi> 
+<FONT SIZE=+1> What is Roger Daley's job title? </FONT><BR> 
+
+<INPUT TYPE=radio NAME=9 VALUE=a> Professor 
+<INPUT TYPE=radio NAME=9 VALUE=b> Chief Scientist 
+<INPUT TYPE=radio NAME=9 VALUE=c> Director 
+<INPUT TYPE=radio NAME=9 VALUE=d> Inspector 
+
+<BR> 
+
+<INPUT TYPE=hidden NAME=scientist VALUE=Daley
+ > 
+<INPUT TYPE=submit VALUE="Submit Answer"> 
+
+</FORM> 
+
+<HR> 
+
+<CENTER> 
+
+Hit <B>Reload</B> for a new question <BR> 
+
+<P> 
+
+<A HREF="http://fas.sfu.ca/css/cgi/imagemap.cgi/main">
+<IMG SRC="http://fas.sfu.ca/I/css/gcs/graphics/main_bar.gif" BORDER=0 ISMAP ALT=" "></A><P> 
+
+<B> 
+<A HREF=http://fas.sfu.ca/7g/css/gcs/search> Search </A> | <A HREF=http://fas.sfu.ca/css/gcs/feedback.html> Feedback </A> | <A HREF=http://fas.sfu.ca/css/gcs/credits.html> Credits </A> | <A HREF=http://fas.sfu.ca/css/gcs/contents.html> Contents </A> | <A HREF=http://fas.sfu.ca/css/gcs/main.html> HomePage </A> | <! A HREF=http://fas.sfu.ca/css/gcs/quiz.html> Quiz </A></B> 
+
+</CENTER> 
+</HTML> 
+
+
+
+</DOC>

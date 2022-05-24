@@ -1,0 +1,216 @@
+
+<DOC>
+<DOCNO>WT02-B12-147</DOCNO>
+<DOCOLDNO>IA087-000631-B026-392</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/classnote.940203.html 130.91.195.242 19970122071627 text/html 6448
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 07:16:26 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 6277
+Last-modified: Tue, 22 Nov 1994 06:30:40 GMT
+</DOCHDR>
+<TITLE>CIS590: Feb 3rd 1994</TITLE>
+<H1>CIS590: Feb 3rd 1994</H1>
+
+Guest speakers were decided upon.
+
+Prof. Farber give an overview of the issues surrounding the Clipper
+chip, and a syllabus was arrived at:
+<UL>
+<LI> Technology
+<LI> Regulation
+<LI> Export Control
+<LI> Privacy Law
+<LI> Privacy Application
+<LI> Cultural Ethics
+<LI> Intellectual Property
+</UL>
+
+<HR><H2>Technology</H2>
+
+<UL>
+<LI> Clipper: what is involved
+<LI> RSA and Diffie-Hellman public key systems
+     <UL>
+     <LI> described more fully in <A HREF="reading.66.txt">the PGP
+          documentation</A>.
+     </UL>
+<LI> DES, the Data Encryption Standard
+<LI> Public Domain Systems
+<LI> Digital Signature Standard
+<LI> Spread Spectrum
+     <UL>
+     <LI> A signal is broken up and redundantly distributed across
+	  certain channels in a spectrum.  A receiving unit can
+	  reassemble the message if it knows which channels to listen
+	  to.  This isn't exactly encryption but works in the same
+	  spirit.  Nontrivial to tap.
+     <LI> Used in cordless phone systems, etc.
+     </UL>
+</UL>
+
+<HR><H2>Regulation of Cryptography</H2>
+
+<UL>
+<LI> National (within USA)
+     <UL>
+     <LI> there may be weak controls during wartime, but there is nothing
+	  very strong.
+     </UL>
+<LI> International (non USA)
+     <UL>
+     <LI> in France, any use of cryptography is illegal, save whichever
+	  schemes are approved by the government, and for which a set of
+	  decoding keys are registered with and held by the government.
+     </UL>
+</UL>
+
+<HR><H2>Export Control</H2>
+
+<UL>
+<LI> It is illegal in the USA to export any cryptography technology,
+     except some really weak stuff.  [I believe this is under a
+     munitions act. -meng]
+<LI> also, there are export contorls on high performance electronics:
+     the Pentium qualifies as high performance.
+<LI> COCOM is a group of largely Western governments agreeing not to
+     sell technology to hostile countries.
+<LI> <B>Import</B> controls on the other hand are much weaker.  One
+     may import stuff which one may not export.
+<LI> As a result, USA companies are in a bad situation commercially.
+     It makes no sense to create two sets of software, one which may
+     be exported, the other for USA use only.
+<LI> Export controls are well nigh impossible to implement: consider
+     the ease of FTP.
+</UL>
+
+<HR><H2>Privacy Law</H2>
+
+There are several overlapping levels and areas in which privacy laws
+apply.  Note that in fields as new as this, the law is what courts
+decide, not what is written.  Relevant legislation are the Electronic
+Communication Privacy Act, and the Electronic Communicaton Mail Act.
+The former is worded to send a clear message: government employees
+charged under the Act may <B>not</B> use federal funds to help defend
+their cases.  This is significant because normally the Justice
+Department helps defray costs.  Here, one is left to hang.
+
+<UL>
+<LI> Constitutional
+<UL>
+<LI> Nothing in the Constution mentions the right to privacy.
+     <LI> Relevant Amendments, however, do have a bearing:
+	  <UL>
+	  <LI> First Amendment: the right to free speech would imply
+	       that one has also the right to the converse: the right
+	       to not be overheard.
+	  <LI> Fourth Amendment: illegal search and seizure could
+	       conceivably extend to information.
+	  <LI> Fifth Amendment: the right not to incriminate oneself.
+	  </UL>
+     </UL>
+<LI> State
+<LI> Federal
+</UL>
+
+<HR><H2>Privacy Application</H2>
+
+There are a number of distinct places in which different laws and
+standards apply.  Three are of interest:
+
+<UL>
+<LI> Home.  Maximal privacy is expected.
+<LI> Workplace.  Less privacy.  There are two subcases:
+     <UL>
+     <LI> Real workplaces, in a job setting.  Does the employer have the
+	  right to monitor employee communication?  "Common sense" says no,
+	  but courts may differ.  The computer is owned by the company.
+     <LI> Schools.  Universities, unlike high schools and elementary
+	  schools, do not have the right of "loco parentis".  Students are
+	  paying customers, and part of what they pay for is an email account.
+     </UL>
+<LI> Public Spaces.  Very little privacy can be expected.
+</UL>
+
+<HR><H2>Cultural Ethics</H2>
+
+Unlike the rapid pace of case law, popular opinion is very slow to
+change.  A study of attitudes in American history is relevant.
+
+<HR><H2>Intellectual Property</H2>
+
+What is ownership?  In cyberspace, vessels of value are wholly
+intangible.  <A HREF="reading.063.html">John Perry Barlow's article</A>
+is very relevant to this issue.
+
+<HR><H2>Miscellaneous Topics</H2>
+
+<H3>Economics</H3>
+
+At least three economic issues are relevant:
+<UL>
+<LI> Cost to maintain the system
+<LI> Cost to install the chip
+<LI> Cost of using the system
+</UL>
+
+<HR>
+
+2 hour presentations will be given in the major topics:
+<MENU>
+<LI> Technology (Feb 17)
+     <UL>
+     <LI> Alex Mallet, ale@seas
+     <LI> Derron Simon, dsimon@seas
+     <LI> Terri Bissonette, bissonne@gradient.cis.upenn.edu
+     </UL>
+
+<LI> Regulation (Feb 24)
+     <UL>
+     <LI> Nathan Gasser, gasser@seas
+     <LI> Meng Weng Wong, mengwong@seas
+     <LI> Karla Eusebio, karla@gradient.cis
+     </UL>
+<LI> Export Control (March 17)
+     <UL>
+     <LI> Lisa Weitzman, weitzmal@gradient.cis.upenn.edu
+     <LI> Mary Palan, mpalan@gradient.cis.upenn.edu
+     </UL>
+<LI> Privacy Law (March 24)
+     <UL>
+     <LI> Phil Kovacs, kovacs@ben.dev.upenn.edu
+     <LI> Sam Alcoff, alcoff@eniac.seas.upenn.edu
+     </UL>
+<LI> Privacy Application (March 31)
+     <UL>
+     <LI> Mahesh Prakriya, prakriya@gradient.cis
+     <LI> Nizar Hirani, hirani@gradient.cis.upenn.edu
+     </UL>
+<LI> Intellectual Property (April 7)
+     <UL>
+     <LI> Scott Herskowitz, srh@seas
+     <LI> Sang Lee, lees@seas
+     <LI> Chris Chang, chrisc@seas
+     </UL>
+<LI> Cultural Ethics (unassigned)
+
+<P>
+<LI> Other (unassigned)
+     <UL>
+     <LI> Andrew Hooper, ahooper@eniac.seas.upenn.edu (absent)
+     <LI> Jeff Chung, jdchung@seas (late)
+     <LI> Dhaneesh kumbhani@seas (absent)
+     <LI> Dave millar@pobox (absent)
+     <LI> Sarah pong@seas (floated off)
+     <LI> Carter Page, cpage@seas (floated off)
+     </UL>
+</MENU>
+
+<hr>
+<MENU>
+<LI> <A HREF="clipper.html">go back to main CIS590 page</A>
+<LI> <A HREF="classnotes.html">go back to class notes page</A>
+</MENU>
+</DOC>

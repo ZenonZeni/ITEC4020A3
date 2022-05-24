@@ -1,0 +1,242 @@
+
+<DOC>
+<DOCNO>WT02-B08-280</DOCNO>
+<DOCOLDNO>IA021-000219-B022-92</DOCOLDNO>
+<DOCHDR>
+http://tethys.jpl.nasa.gov:80/wff_OscDrift.html 128.149.33.75 19970107090858 text/html 13677
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 07-Jan-97 09:08:41 GMT
+Last-modified: Monday, 22-Jul-96 18:28:03 GMT
+Content-length: 13492
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>Error in TOPEX Oscillator Drift Correction</title>
+<center>
+<table border=0 width=100%><tr><td width=64  rowspan=2><img src="gifs/wff_topexlogo.gif" 
+alt="WFF TOPEX Project"></td>
+<td align=center halign=middle><font size=5><b>
+Error in TOPEX Oscillator Drift Correction
+<p><font size=3>D.W. Hancock III and G. S. Hayne<br>
+NASA GSFC Wallops Flight Facility<br>
+Observational Science Branch<br>
+Wallops Flight Facility, Wallops Island, VA 23337<br>
+10 July 1996<p>
+</tr>
+</font></table>
+</center>
+</head>
+<hr size=6>
+<body>
+An error was called to our attention in the TOPEX Algorithm S1034 which
+corrects altimeter data for oscillator drift.   We have confirmed the
+additive height correction should have been
+<blockquote>
+      delta height = [ (Rutc/Rref) - 1]*H,<p>
+</blockquote>
+where H is the uncorrected height estimate, Rutc is the measured
+spacecraft clock interval, and Rref is the nominal spacecraft clock
+interval.  In the current S1034 (used in the original processing of 
+ all TOPEX data through cycle 132)
+however, the expression (Rutc/Rref) was erroneously inverted. The Rutc and Rref
+are very close in values (parts in 10^8), therefore the upside down division
+effectively gives a change in sign to the correction.
+<p>
+This error was found by Ouan-Zan Zanife, Philippe Escudier, and Patrick
+Vincent, and we are grateful to them for communicating this information
+directly to Phil Callahan who forwarded it to us.  Two important issues
+can be explained by the error: 1) much of the sea-level change
+discrepancy between TOPEX and Poseidon should disappear, and 2) the
+approximately 13 cm bias of TOPEX relative to Poseidon will be removed.
+<p>
+If there were no correction for the oscillator drift made to the TOPEX
+range estimate, the range after mid 1993 would become shorter with time.
+The current (about cycle 132) range drift rate induced by the oscillator
+is about 5 mm per year.  The Algorithm S1034 error because of its sign
+doubles this rate, so that the TOPEX data product range is shorter (or
+the surface height greater) by about 10 mm per year.
+<p>
+The initial oscillator offset from the frequency used for the range
+conversion coefficient requires about a 65 mm range correction.  This
+correction was applied with the wrong sign because of the S1034 error. 
+After correcting the TOPEX range for this effect, the TOPEX range will
+be increased by about 13 cm.
+<p>
+The following table gives the range correction, in millimeters,
+which should be ADDED to the TOPEX range values already processed by JPL
+to:  i) remove the effects of the S1034 error; and ii) correctly account for
+the oscillator drift. This correction is directly proportional to the
+value of the satellite height, and the table's values were produced assuming
+the height to be 1347 kilometers.  (The TOPEX/Poseidon height varies
+from about 1340 kilometers at the equator to 1354 kilometers at the
+latitude extreme values.)
+Again, because of nearly identical values for Rutc and 
+Rref, the additive correction for the error is approximately double the value
+of the true oscillator drift calibration value. Because sea surface height (SSH) reported on the
+TOPEX GDRs is given by
+<blockquote>
+SSH = Altitude - Range ,
+</blockquote>
+the range correction given in the table should be SUBTRACTED from the GDR SSH:
+<blockquote>
+TOPEX GDR SSH corrected for Osc Drift error = 
+ GDR_SSH - additive_GDR_range_corr .
+</blockquote>
+The midpoint times in the table are calculated, not actual, but should
+be good to within about 10 seconds of the actual values.
+<p>
+Users of the Merged GDR, whether PO-DAAC or AVISO, should correct the range
+before forming the SSH. The correction should be applied to all the originally
+processed TOPEX data for
+cycles 1 through 132.  Data from cycle 133 onward will be corrected for
+this effect as well as having revised software for tides and other
+algorithms as previously announced.  
+<p>
+<pre>
+ Cycle       Cycle midpoint          Cycle midpoint      Additive corr to
+               date & time           J2000 seconds         GDR range, mm
+ ----       -----------------          ----------          ------------
+  001       1992-272T02:37:21          -229080159             130.60
+  002       1992-282T00:35:53          -228223447             130.10
+  003       1992-291T22:34:24          -227366736             129.63
+  004       1992-301T20:32:56          -226510024             129.16
+  005       1992-311T18:31:28          -225653312             128.72
+  006       1992-321T16:29:59          -224796601             128.32
+  007       1992-331T14:28:31          -223939889             127.95
+  008       1992-341T12:27:02          -223083178             127.59
+  009       1992-351T10:25:34          -222226466             127.23
+  010       1992-361T08:24:05          -221369755             126.89
+  011       1993-005T06:22:37          -220513043             126.59
+  012       1993-015T04:21:08          -219656332             126.33
+  013       1993-025T02:19:40          -218799620             126.09
+  014       1993-035T00:18:11          -217942909             125.85
+  015       1993-044T22:16:43          -217086197             125.65
+  016       1993-054T20:15:15          -216229485             125.46
+  017       1993-064T18:13:46          -215372774             125.31
+  018       1993-074T16:12:18          -214516062             125.18
+  019       1993-084T14:10:49          -213659351             125.07
+  020       1993-094T12:09:21          -212802639              SSALT
+  021       1993-104T10:07:52          -211945928             124.86
+  022       1993-114T08:06:24          -211089216             124.76
+  023       1993-124T06:04:55          -210232505             124.66
+  024       1993-134T04:03:27          -209375793             124.57
+  025       1993-144T02:01:58          -208519082             124.48
+  026       1993-154T00:00:30          -207662370             124.40
+  027       1993-163T21:59:01          -206805659             124.33
+  028       1993-173T19:57:33          -205948947             124.29
+  029       1993-183T17:56:05          -205092235             124.27
+  030       1993-193T15:54:36          -204235524             124.26
+  031       1993-203T13:53:08          -203378812              SSALT
+  032       1993-213T11:51:39          -202522101             124.29
+  033       1993-223T09:50:11          -201665389             124.33
+  034       1993-233T07:48:42          -200808678             124.37
+  035       1993-243T05:47:14          -199951966             124.45
+  036       1993-253T03:45:45          -199095255             124.53
+  037       1993-263T01:44:17          -198238543             124.62
+  038       1993-272T23:42:48          -197381832             124.72
+  039       1993-282T21:41:20          -196525120             124.82
+  040       1993-292T19:39:51          -195668409             124.94
+  041       1993-302T17:38:23          -194811697              SSALT
+  042       1993-312T15:36:55          -193954985             125.18
+  043       1993-322T13:35:26          -193098274             125.31
+  044       1993-332T11:33:58          -192241562             125.43
+  045       1993-342T09:32:29          -191384851             125.56
+  046       1993-352T07:31:01          -190528139             125.70
+  047       1993-362T05:29:32          -189671428             125.85
+  048       1994-007T03:28:04          -188814716             126.01
+  049       1994-017T01:26:35          -187958005             126.17
+  050       1994-026T23:25:07          -187101293             126.34
+  051       1994-036T21:23:38          -186244582             126.52
+  052       1994-046T19:22:10          -185387870             126.72
+  053       1994-056T17:20:42          -184531158             126.93
+  054       1994-066T15:19:13          -183674447             127.15
+  055       1994-076T13:17:45          -182817735              SSALT
+  056       1994-086T11:16:16          -181961024             127.60
+  057       1994-096T09:14:48          -181104312             127.83
+  058       1994-106T07:13:19          -180247601             128.06
+  059       1994-116T05:11:51          -179390889             128.30
+  060       1994-126T03:10:22          -178534178             128.53
+  061       1994-136T01:08:54          -177677466             128.75
+  062       1994-145T23:07:25          -176820755             128.98
+  063       1994-155T21:05:57          -175964043             129.21
+  064       1994-165T19:04:28          -175107332             129.45
+  065       1994-175T17:03:00          -174250620              SSALT
+  066       1994-185T15:01:32          -173393908             129.94
+  067       1994-195T13:00:03          -172537197             130.19
+  068       1994-205T10:58:35          -171680485             130.46
+  069       1994-215T08:57:06          -170823774             130.73
+  070       1994-225T06:55:38          -169967062             131.00
+  071       1994-235T04:54:09          -169110351             131.27
+  072       1994-245T02:52:41          -168253639             131.54
+  073       1994-255T00:51:12          -167396928             131.84
+  074       1994-264T22:49:44          -166540216             132.20
+  075       1994-274T20:48:15          -165683505             132.56
+  076       1994-284T18:46:47          -164826793             132.85
+  077       1994-294T16:45:18          -163970082             133.12
+  078       1994-304T14:43:50          -163113370             133.41
+  079       1994-314T12:42:22          -162256658              SSALT
+  080       1994-324T10:40:53          -161399947             134.09
+  081       1994-334T08:39:25          -160543235             134.41
+  082       1994-344T06:37:56          -159686524             134.68
+  083       1994-354T04:36:28          -158829812             134.95
+  084       1994-364T02:34:59          -157973101             135.24
+  085       1995-009T00:33:31          -157116389             135.59
+  086       1995-018T22:32:02          -156259678             135.96
+  087       1995-028T20:30:34          -155402966             136.30
+  088       1995-038T18:29:05          -154546255             136.61
+  089       1995-048T16:27:37          -153689543             136.91
+  090       1995-058T14:26:09          -152832831             137.24
+  091       1995-068T12:24:40          -151976120              SSALT
+  092       1995-078T10:23:12          -151119408             138.02
+  093       1995-088T08:21:43          -150262697             138.38
+  094       1995-098T06:20:15          -149405985             138.70
+  095       1995-108T04:18:46          -148549274             139.00
+  096       1995-118T02:17:18          -147692562             139.34
+  097       1995-128T00:15:49          -146835851              SSALT
+  098       1995-137T22:14:21          -145979139             140.11
+  099       1995-147T20:12:52          -145122428             140.45
+  100       1995-157T18:11:24          -144265716             140.76
+  101       1995-167T16:09:55          -143409005             141.07
+  102       1995-177T14:08:27          -142552293             141.40
+  103       1995-187T12:06:59          -141695581              SSALT
+  104       1995-197T10:05:30          -140838870             142.16
+  105       1995-207T08:04:02          -139982158             142.52
+  106       1995-217T06:02:33          -139125447             142.86
+  107       1995-227T04:01:05          -138268735             143.21
+  108       1995-237T01:59:36          -137412024             143.59
+  109       1995-246T23:58:08          -136555312             144.01
+  110       1995-256T21:56:39          -135698601             144.42
+  111       1995-266T19:55:11          -134841889             144.80
+  112       1995-276T17:53:42          -133985178             145.14
+  113       1995-286T15:52:14          -133128466             145.49
+  114       1995-296T13:50:45          -132271755              SSALT
+  115       1995-306T11:49:17          -131415043             146.26
+  116       1995-316T09:47:49          -130558331             146.66
+  117       1995-326T07:46:20          -129701620             146.99
+  118       1995-336T05:44:52          -128844908             147.31
+  119       1995-346T03:43:23          -127988197             147.63
+  120       1995-356T01:41:55          -127131485             148.00
+  121       1995-365T23:40:26          -126274774             148.41
+  122       1996-010T21:38:58          -125418062             148.80
+  123       1996-020T19:37:29          -124561351             149.17
+  124       1996-030T17:36:01          -123704639             149.49
+  125       1996-040T15:34:32          -122847928             149.84
+  126       1996-050T13:33:04          -121991216              SSALT
+  127       1996-060T11:31:36          -121134504             150.68
+  128       1996-070T09:30:07          -120277793             151.10
+  129       1996-080T07:28:39          -119421081             151.47
+  130       1996-090T05:27:10          -118564370             151.82
+  131       1996-100T03:25:42          -117707658             152.18
+  132       1996-110T01:24:13          -116850947             152.58
+</pre>
+<p>
+<hr size=6>
+<I> This page was copied from the 
+<A HREF=http://osb3.wff.nasa.gov/topex/OscDrift.html> Wallops facility's home page </A> </I>
+<P>
+<A HREF=http://topex-www/> Back to JPL's TOPEX Home</A></td></tr>
+</body>
+</html>
+</DOC>

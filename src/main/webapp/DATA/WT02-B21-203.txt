@@ -1,0 +1,262 @@
+
+<DOC>
+<DOCNO>WT02-B21-203</DOCNO>
+<DOCOLDNO>IA060-000333-B021-328</DOCOLDNO>
+<DOCHDR>
+http://www.survey.net:80/sv-oj3.htm 204.107.221.240 19970115054419 text/html 8060
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 05:38:02 GMT
+Server: Apache-SSL-US/1.0.3+1.1
+Content-type: text/html
+Content-length: 7878
+Last-modified: Mon, 25 Nov 1996 20:26:48 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>SURVEY.NET - OJ Survey #3 (The Aftermath)</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" VLINK="#00007F">
+
+<P ALIGN=CENTER><A HREF="http://www.survey.net/index.html"><IMG BORDER=0
+SRC="http://www.survey.net/g/svlogo0.gif" ALT="Survey.Net Logo"></A><BR>
+<B><I>Your source for information, opinions & demographics from the Net
+Community!</I></B>
+
+<BLOCKQUOTE>
+<H5>
+<FONT COLOR="#FF0000">ANNOUNCING</FONT>: The Internet's finest interactive, totally-automated,
+immediate survey system.  We can take any form and instantly create a
+dynamic demographic database and show you the results as soon as you
+complete the survey!
+</H5>
+
+<H2 align=CENTER>O.J. Survey #3</H2></CENTER>
+
+<FORM METHOD="POST" ACTION="http://www.survey.net/mpr/survey?oj3">
+
+<H4 align=center>With the trial over, it seems opinions and attitudes are
+more heated than ever.</H4>
+
+<h3 align=center>What do you think of the verdict?</H3>
+
+<P align=CENTER><IMG SRC="images/rule.gif" WIDTH=325 HEIGHT=10
+ALIGN=bottom>
+<P>
+
+<OL>
+
+<LI>What do you think of the media coverage?<BR>
+<SELECT NAME="01_MEDIA">
+<OPTION>No Answer
+<OPTION>The trial should not have been on TV
+<OPTION>There was too much coverage
+<OPTION>There was not enough coverage
+<OPTION>I didn't mind the coverage
+<OPTION>I really could not care less
+</SELECT>
+<BR><BR>
+
+<LI>Was 'Justice Served?'<BR>
+<SELECT NAME="02_FAIR">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+<OPTION>Do not know
+</SELECT>
+<BR><BR>
+
+<LI>Do you think race was a factor in the outcome?<BR>
+<SELECT NAME="03_RACE">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>No
+<OPTION>Do not know
+</SELECT>
+<BR><BR>
+
+<LI>If you were a juror, how would you have voted?<BR>
+<SELECT NAME="04_GUILTY">
+<OPTION>No Answer
+<OPTION>Not Guilty
+<OPTION>Guilty (1st Degree, Nicole & Ron)
+<OPTION>Guilty (1st Degree Nicole, 2nd Degree Ron)
+<OPTION>Guilty (2nd Degree, Nicole & Ron)
+<OPTION>Guilty (2nd Degree Nicole, 1st Degree Ron)
+<OPTION>Do not know
+</SELECT>
+<BR><BR>
+
+<LI>What did you predict would be the outcome of the case?<BR>
+<SELECT NAME="05_OUTCOME">
+<OPTION>No Answer
+<OPTION>Guilty
+<OPTION>Not Guilty/Acquittal
+<OPTION>Mis-trial
+<OPTION>Hung jury
+</SELECT>
+<BR><BR>
+
+<LI>How has the trial affected you?<BR>
+<SELECT NAME="06_ATT">
+<OPTION>No Answer
+<OPTION>It was entertainment, nothing more
+<OPTION>It has shaken my faith in the Justice system
+<OPTION>It has restored my faith in the Justice system
+<OPTION>Shakespeare was right!
+<OPTION>No effect
+</SELECT>
+<BR><BR>
+
+<LI>If OJ didn't do it, who did?<BR>
+<SELECT NAME="06_WHODID">
+<OPTION>No Answer
+<OPTION>OJ did do it
+<OPTION>OJ's son
+<OPTION>Mark Furhman
+<OPTION>Columbian drug dealers
+<OPTION>Some random criminal
+<OPTION>Aliens from another planet
+</SELECT>
+<BR><BR>
+
+<LI>In your opinion, which side had presented the best case?<BR>
+<SELECT NAME="07_WHICHSIDE">
+<OPTION>No Answer
+<OPTION>Defense
+<OPTION>Prosecution
+</SELECT>
+<BR><BR>
+
+<LI>Judge the Judge: How would you rate Judge Ito's performance?<BR>
+<SELECT NAME="08_JUDGE">
+<OPTION>No Answer
+<OPTION>He's doing great
+<OPTION>He's doing the best he can in the circumstances
+<OPTION>His performance is satisfactory
+<OPTION>He's a sad excuse for a judge
+</SELECT>
+<BR><BR>
+
+<LI>How would you rate the prosecution's performance?<BR>
+<SELECT NAME="09_RATEPROC">
+<OPTION>No Answer
+<OPTION>They're the sleaziest bunch ever seen - GREAT JOB!
+<OPTION>They're organized and professional
+<OPTION>They're doing their job
+<OPTION>Aside from not following the rules on occasion, they are OK
+<OPTION>They're an embarassement to legal professionals around the world
+</SELECT>
+<BR><BR>
+
+<LI>How would you rate the defense's performance?<BR>
+<SELECT NAME="10_RATEDEF">
+<OPTION>No Answer
+<OPTION>They're the sleaziest bunch ever seen - GREAT JOB!
+<OPTION>They're organized and professional
+<OPTION>They're doing their job
+<OPTION>Aside from not following the rules on occasion, they are OK
+<OPTION>They're an embarassement to legal professionals around the world
+</SELECT>
+<BR><BR>
+
+<LI>What do you think was the main motivation for the jury's verdict?<BR>
+<SELECT NAME="11_VERDICT">
+<OPTION>No Answer
+<OPTION>They found 'reasonable doubt'
+<OPTION>Mark Furhman's purgery
+<OPTION>They were tired of serving and wanted to end it
+<OPTION>A protest vote against the LAPD
+<OPTION>A statement of the issue of race
+<OPTION>They must have been influenced in some other manner
+<OPTION>Do not know
+</SELECT>
+<BR><BR>
+
+
+<LI>What laywer(s) do you think did a good job (<I>Just pick one or a few</I>)?<BR><BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="Johnny Cochrane"> - Johnny Cochrane (D)<BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="F Lee Bailey"> - F Lee Bailey (D)<BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="Christopher Darden"> - Christopher Darden (P)<BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="Robert Shapiro"> - Robert Shapiro (D)<BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="Marcia Clark"> - Marcia Clark (P)<BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="Alan Derschewitz"> - Alan Derschewitz (D)<BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="Hank Goldberg"> - Hank Goldberg (D)<BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="Barry Schef"> - Barry Schef (D)<BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="Rockney Harmon"> - Rockney Harmon (P)<BR>
+<INPUT TYPE="checkbox" NAME="14_LIKELAW" VALUE="Others"> - Others<BR>
+<BR>
+
+<LI>What laywer(s) do you think did a bad job (<I>Just pick one or a few</I>)?<BR><BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="Johnny Cochrane"> - Johnny Cochrane (D)<BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="F Lee Bailey"> - F Lee Bailey (D)<BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="Christopher Darden"> - Christopher Darden (P)<BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="Robert Shapiro"> - Robert Shapiro (D)<BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="Marcia Clark"> - Marcia Clark (P)<BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="Alan Derschewitz"> - Alan Derschewitz (D)<BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="Hank Goldberg"> - Hank Goldberg (D)<BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="Barry Schef"> - Barry Schef (D)<BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="Rockney Harmon"> - Rockney Harmon (P)<BR>
+<INPUT TYPE="checkbox" NAME="15_HATELAW" VALUE="Others"> - Others<BR>
+<BR>
+
+<LI>If OJ Simpson has a pay-per-view interview show, would you watch it?<BR>
+<SELECT NAME="16_PPV">
+<OPTION>No Answer
+<OPTION>Yes
+<OPTION>Only if I didn't have to pay
+<OPTION>No
+</SELECT>
+<BR><BR>
+
+<LI>Who should get custody of Nicole Brown-Simpson's children?<BR>
+<SELECT NAME="17_CUSTODY">
+<OPTION>No Answer
+<OPTION>OJ Simpson
+<OPTION>The Brown family
+<OPTION>Someone else
+</SELECT>
+<BR><BR>
+
+<LI>If you have any comments on the trial, add them below:  (Enter a few sentences; do not press ENTER
+unless you're ready to submit your entire survey.)<BR>
+<INPUT NAME="CMT_OJ" SIZE=60>
+<BR>
+
+</OL>
+
+<H3 align=CENTER><I>Thanks very much for participating in the
+survey!</I></H3>
+
+<H4 align=center>
+To submit your survey choices, select: <BR>
+<INPUT TYPE="submit" value="        SUBMIT SURVEY         ">
+<P>
+or <INPUT TYPE="reset" value="Reset survey settings">
+</FORM>
+<P>
+You can view the latest survey results after you submit your answers.
+</H4>
+
+<H4>
+We hope you will also participate in other surveys online as well.  Please note that you should
+only complete each survey <B><U>once</U></B>.<BR>
+</H4>
+<P>
+
+<CENTER>
+<IMG BORDER=0 SRC="http://www.survey.net/images/rule.gif">
+</CENTER>
+
+<H5 ALIGN=CENTER>Copyright &copy;1996, <A HREF="http://www.icorp.net"><img
+src="http://www.icorp.net/icorp/g/ic-logo.gif" BORDER=0 ALIGN=ABSMIDDLE ALT="ICorp"></A>/InterCommerce
+Corporation,<BR>
+<I>All rights reserved worldwide</I><BR>
+Send comments to 
+<A HREF="mailto:webmaster@survey.net"><I>Webmaster@Survey.net</I></A><BR>
+</H5>
+
+</CENTER>
+
+</BODY>
+</HTML>
+</DOC>

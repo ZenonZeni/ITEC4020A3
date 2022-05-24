@@ -1,0 +1,255 @@
+
+<DOC>
+<DOCNO>WT03-B08-2</DOCNO>
+<DOCOLDNO>IA087-000634-B046-318</DOCOLDNO>
+<DOCHDR>
+http://telnet.newsnet.com:80/libiss/la15.html 205.156.212.5 19970122033211 text/html 10809
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Wednesday, 22-Jan-97 03:30:19 GMT
+Last-modified: Monday, 20-Jan-97 17:38:59 GMT
+Content-length: 10622
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/la15.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+<A HREF="../index.html"><IMG BORDER=0 SRC="/plweb/icons/nn_home.gif" ALT="NewsNet Home Page"></A><BR>
+Copyright <BR>
+LAW OFFICE TECHNOLOGY REVIEW via NewsNet <BR>
+January 29, 1996<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><LI>3D Fax: A Fix to an Imperfect Mode of Communication</A>&nbsp&nbsp&nbsp<NOBR>(1290 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><LI>Crimefighter's Handbook</A>&nbsp&nbsp&nbsp<NOBR>(194 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#3"><LI>Web of the Week</A>&nbsp&nbsp&nbsp<NOBR>(57 words)</NOBR></LI>
+</UL>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+LAW OFFICE TECHNOLOGY REVIEW via NewsNet
+January 29, 1996
+
+3D Fax: A Fix to an Imperfect Mode of Communication
+
+Summary: 3D Fax provides increased capability and security and
+lowered transmission times for lawyers and clients who really
+should be using e-mail, instead.  But if you must use fax to
+transfer long, confidential documents, 3D Fax provides an
+interesting way to do it better.
+
+                    ==========================
+
+     We're certain that e (for "electronic") mail will be the
+most important mode of non-verbal law office communications some
+day soon. It might have happened much sooner had inexpensive and
+easy to use "fax" machines not arisen to take e-mail's rightful
+place in the communications pantheon.  But fax is only as secure
+as the sending and receiving machines and all you get is a paper
+copy of whatever message or document was sent; if you want to
+revise the document, you still have to get it into your computer.
+     This week we'll look at 3D Fax Professional, a program that
+converts computer files of all sorts to easily faxable graphics,
+then reads the graphics and converts them back to computer files.
+The program is not particularly easy to work with, but may
+present a solution, of sorts, to some of the inherent weaknesses
+of the fax communication process.
+
+[3D Fax]
+     3D Fax Professional converts any computer file, including a
+word processor or spreadsheet document or even a program, to
+blocks of gray looking graphics, and eventually converts those
+graphics blocks back to its original form.  The program's
+standard format divides the 8-1/2 by 11 inch page into quarters,
+with one  block occupying each quarter. A "fast" mode, usable
+only in computer to computer setups, sends one large block on
+each page.
+     The user can send a graphics file from a computer fax card
+to the recipient's computer fax board, or to the recipient's fax
+machine.  If the latter, the recipient must scan the fax printout
+to her computer, using a minimum of a 300 dots per inch (dpi)
+scanner; the manual suggests a Hewlett Packard Scanner or
+compatible, or any scanner conforming to the Twain standard.
+
+[Installation / Documentation / Support]
+      An automatic installation program run under Windows 95
+placed about 1.25 Megabytes of programs and sample data on our
+hard disk.  For some reason, 3D Fax wouldn't work with TSFax from
+Commworks, fax support program we had been using.   Customer
+support suggested we re-install the fax software; instead, we
+installed Delrina's WinFax Pro 4, which worked without
+difficulty.
+     Toll free telephone support is available Monday through
+Saturday from 7:00 AM to Midnight, Eastern time, however the
+manual notes that the service is free only for two calls, at a
+maximum of 10 minutes each.  In fact, we called several times
+without difficulty.  The first time we called, the support person
+could not answer our questions, took our telephone number and
+called back with the answers a couple of hours later.
+     A 150 page manual and good Windows help system provided
+reasonable documentation.
+
+
+[Using 3D Fax]
+     3D Fax comes with a "macro installer" which provides macros
+to use the program with Ami Pro, WordPerfect, or Microsoft Word 2
+or 6.  (The installed doesn't really install a macro for
+WordPerfect, but does tell the user how to do it.) We didn't
+bother with these frills, but proceeded to work with files we had
+previously saved.
+     We loaded the 3D Fax "Send" module and selected the file we
+wished to send.  3D Fax converted the file and "sent" it to the
+previously selected WinFax Pro, launching that program.  We gave
+the fax program the phone number of the intended recipient and
+the graphics file was sent to the recipient fax machine.  We then
+attempted to fax the pages back to the computer, but the 3D Fax
+"Receive" module was unable to deal with those files.  We tried
+printing the original graphics file to our laser printer and
+faxing that back to the computer, but that didn't work either.
+     The publisher told us a 300 dpi scanner was required.  We
+hooked one up and after some image adjustment were able to deal
+both with the laser printed and  faxed version.  We're not sure
+why a 300 dpi scanner is needed to scan what is basically no more
+than a 200 dpi fax paper printout, but that appears to be the
+case.  We were not able to achieve 100 percent results, and
+sometimes had to rescan the faxed printout to obtain the results
+we wanted.
+     Reading the scanned file required firing up the 3D Fax
+Receive module, selecting the scanned file, then saving the
+reconverted files back to our hard disk.
+
+[Computer to Computer]
+     Fax card to fax card operation worked without fail.  We
+achieved the same result by converting a computer file to the 3D
+Fax format and simply sending the file as a binary file, then
+reconverting with the Read module.
+     The vendor claims advantages of compression in conversion
+from computer file to graphics.  To test this we created a 50
+page ASCII text file, approximately 149,300 bytes long.  We ran
+this file through 3D Fax Send and WinFax Pro 4, ending up with a
+52 kilobyte graphics file which faxed to 3 pages of four blocks
+each, and a last page consisting of one block. The full pages
+took about 70 seconds, each, to fax from computer to a fax
+machine, or less than five minutes for the entire package.
+Faxing the 50 pages of text would have taken the better part of
+an hour; of course, sending the uncompressed text file between
+two 14,400 kilobit per second modems would have taken less than
+three minutes. With standard compression, we might have reduced
+transmission time to less than a minute.
+     3D Fax Pro also boasts a password security feature. The
+publisher is quick to note that the program does not use the 8
+character password to encrypt the file as it converts it to
+graphics, but merely sets the header to require the password
+before 3D Fax will reconvert the file to its original computer
+format.  We assume that one out of three high school students
+could easily bypass the password requirement, but it should be
+sufficient to prevent most secretaries and mail room attendants
+from viewing the text until the password is supplied.
+     3D Fax comes in three flavors: a free version has a limited
+Send module, but can receive from all versions of the product.  A
+one hundred dollar "standard" version is not limited in the size
+of the file that may be sent, but does not have the password,
+compression, redundancy and other advanced features of the two
+hundred dollar "professional" version.
+     3D Fax adds security, cuts transmission time, permits
+transfer of computer programs and complex data, as well as
+letters and contracts, over common phone lines to unattended fax
+machines maintained by clients and other attorneys who are not
+yet equipped for e-mail.  Of course, a scanner will be needed at
+the other end to actually read the text.  We still prefer e-mail,
+but if your correspondents don't, we suggest you play with a copy
+of the free version of 3D Fax and see whether it meets your
+needs, and theirs.
+
+[Details]
+     3D Fax Professional, Version 1.5.  Requires IBM PC or
+compatible running Microsoft Windows 3.1 or higher,  4 megabytes
+free hard disk space, fax modem, scanner, fax machine. Price:
+$199.00. Standard Version, $99.00. InfoImaging,Inc., 3977 East
+Bayshore Road,
+Palo Alto, CA 94303.  Phone: (800) 966-1140 or (415) 960 0100.
+Fax:(415) 960 0200. WWW:
+URL = http://www.infoimaging.com The free version of 3D Fax
+mention in this column is available on the publisher's web page,
+http://www.infoimaging.com.  If you don't have internet access,
+send a formatted disk and a self addressed stamped envelope to
+Law Office Technology Review, P O Box 2577, Homewood, IL 60430.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+LAW OFFICE TECHNOLOGY REVIEW via NewsNet
+January 29, 1996
+
+Crimefighter's Handbook
+
+Summary: Computer Crime: a Crimefighter's Handbook is designed
+for computer crime investigators, but should prove valuable to
+any lawyer engaged in the representation of clients using
+computers.
+
+                  ==============================
+
+     The criminal bar is increasingly called upon to prosecute
+and defend "computer crime" matters, and corporate lawyers are,
+no doubt, being asked for advice involving delicate computer
+matters.   According to the preface, Computer Crime, the book,
+began life as an FBI training manual. The book is authoritative
+and reads well, and  includes listings of state and federal
+computer crime laws, a sample search warrant, instructions on how
+to execute the warrant, how to obtain computer evidence
+(including evidence on how and why to gather than computer itself
+as evidence).  We don't agree with all of the advice, but suspect
+that the book will be getting wide circulation in law enforcement
+circles, making it particularly important for lawyers on "the
+other side".
+
+[Details]
+     Computer Crime, a Crimefighter's Handbook, by David Icove,
+Karl Seger and William VonStorch. 437 pages, paper. Price:
+$24.94. ISBN 1-56592-086-4.    O'Reilly & Associates, Inc., 103
+Morris St., Sebastapol CA 95472. Phone: (800) 338-6887 or (707)
+829-0515. Fax: (707) 829-0104. Internet: order@ora.com.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+LAW OFFICE TECHNOLOGY REVIEW via NewsNet
+January 29, 1996
+
+Web of the Week
+
+     We are pleased to note that the Securities and Exchange
+Commission has taken over the Internet dissemination of EDGAR
+files.  We haven't had a chance to thoroughly review the SEC Home
+Page, but on first blush it seems well thought out and easy to
+use. The downloads, of course, are free of charge.  The URL is
+http://www.sec.gov.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

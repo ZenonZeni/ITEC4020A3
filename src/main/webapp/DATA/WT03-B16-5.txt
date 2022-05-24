@@ -1,0 +1,821 @@
+
+<DOC>
+<DOCNO>WT03-B16-5</DOCNO>
+<DOCOLDNO>IA074-000483-B008-120</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icswg008.html 128.125.48.102 19970125004319 text/html 36317
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:41:54 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 36085
+Last-Modified: Wed, 15 Jan 1997 02:01:26 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Webmaster's Guide</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSWGMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 21 Dec 1996 at 08:27:39                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Sat, 21 Dec 1996 08:21:42">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->        
+<!--                                                                 -->        
+<!-- FUNCTIONS:                                                      -->        
+<!--                                                                 -->        
+<!-- ORIGINS:  27                                                    -->        
+<!--                                                                 -->        
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->        
+<!-- All Rights Reserved                                             -->        
+<!-- Licensed Materials - Property of IBM                            -->        
+<!--                                                                 -->        
+<!-- US Government Users Restricted Rights - Use, duplication or     -->        
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->      
+<!--                                                                 -->        
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="Header_658" HREF="icswg007.html#PToC_658">Rating Web sites and serving rated Web information</A></H1>
+Rating Web Sites and Information
+<P>Using the Platform for Internet Content Selection (PICS),
+users of Internet applications, such as the World Wide Web, FTP, and
+Gopher,
+can filter the material they
+encounter and accept or reject the material based on its ratings.
+This filtering
+allows parents, businesses, schools, or discerning individuals
+to block the access to inappropriate and objectionable material.
+For the most up-to-date PICS information, see
+the World Wide Web Consortium's PICS Web site
+(http://www.w3.org/pub/WWW/PICS/).
+The specifications published at this Web site enable:
+<UL>
+<P><LI>Content providers (people who publish
+information on the Web) to rate and label their own
+documents.  These can be HTML files, or other files
+that contain images, sound, or animations.
+<P><LI>Independent rating services
+to rate and label documents published by other Web sites and
+to distribute the labels to whomever requests them.
+<P><LI>Internet users (browsers and other clients) to request these
+labels and determine how to handle rated and unrated information.
+</UL>
+<P>The Internet Connection Secure Server makes it easy for you to store and
+serve the rating
+labels for the documents you publish.  It also allows you to
+act as a rating service or label bureau
+by providing a means for you to maintain and
+distribute rating labels for other Web sites.
+<HR>
+<H2><A NAME="Header_659" HREF="icswg007.html#PToC_659">Who can rate Web sites</A></H2>
+<P>
+Web sites can rate themselves or be rated by a third party, called a
+<B><I>rating service</I></B>.  A rating service evaluates Web
+content according to their own published criteria
+and then distributes the labels
+through a <B><I>label bureau</I></B>.  Often a rating service acts
+as its own label bureau and distributes its own labels.
+<P>Some rating services will also
+give you assistance in assessing
+and labeling your own site and documents.
+The World Wide Web Consortium publishes a list of PICS self-rating
+services at
+http://www.w3.org/pub/WWW/PICS/selfrat.htm.
+<P>
+The PICS specification does not determine who can or will act as
+a rating service.
+The World Wide Web Consortium publishes a list of PICS third-party
+rating services
+at http://www.w3.org/pub/WWW/PICS/pics.htm.
+In addition, anyone who wants to
+can set up a rating service.  You can set up such a service by:
+<UL COMPACT>
+<LI>Deciding on a rating system
+<LI>Publishing the rating system
+<LI>Rating documents and creating the rating labels
+<LI>Establishing a Web site (URL) that clients can access to
+get your labels
+</UL>
+<P>A rating service can choose any criteria on which to rate Web sites.
+While some might
+rate Web sites for their violence or sexual content,
+others could choose to rate educational content, political correctness,
+or even how "cool" the site is.  Also, a rating service can
+rate any and all Web sites that it wants to rate.
+<P>
+Having your Web site and pages rated is often desirable.
+In fact, it may even be necessary for your Web site
+to be rated in order to be viewed by a PICS-enabled client.
+Understanding how Web clients use the PICS labels and ratings
+will help make this clear.
+<HR>
+<H2><A NAME="Header_660" HREF="icswg007.html#PToC_660">How Web clients use PICS</A></H2>
+<P>PICS-enabled clients allow the users to determine which rating
+services they want to use and, for each rating service, which
+ratings are acceptable and which are unacceptable.
+<P>
+For example,
+a family might choose a rating service that rates documents
+according to their sexual content.  The rating service might have a low
+rating for romance, a higher rating for passionate kissing,
+and yet higher ratings for more explicit sexual activity.
+The parents might
+decide that documents containing romance are the highest acceptable
+rating for their household.
+They would then configure their browser to
+reject all documents that are unrated or contain a higher
+rating from this rating service.
+<P>In another example, the Hi-Tek Systems Corporation could label its
+own documents with a "For Hi-Tek Use Only" and could equip all its
+employees with browsers configured to accept only documents with
+that rating.
+<P>There are several steps in this process:
+<DL>
+<P><DT><B>The client sends a request
+</B><DD>
+When a PICS-enabled client requests a document,
+it indicates in the request
+which rating services are of interest.
+For example, assume these parents had configured their
+browser to evaluate rating labels
+from <CITE>The Best</CITE> rating service.
+When their children click a link to an
+HTML document, the browser
+request would also ask for the rating labels that were assigned to
+the document by this rating service.
+<P><DT><B>The server sends a response
+</B><DD>
+Assume the PICS-enabled server has a copy of
+the labels the client is requesting.
+When the server receives the client's request, it
+sends the labels along with the requested document.
+However, if the server does not support PICS or does not have copies of
+labels from that particular rating service,
+it sends the requested document anyway.
+<P><DT><B>The client checks the server response first
+</B><DD>
+The client first checks to see if the requested ratings labels
+are imbedded in the document (in the meta information)
+or if they were sent along with the document.
+Some clients might accept
+rating information that is imbedded in the file.
+Others might require a separate label from a registered rating
+service and a guarantee that it was created by that service.
+If the client successfully finds the label
+information it wanted, it evaluates
+the rating and either displays the document or blocks it and displays a
+message.
+<P><DT><B>The client contacts the rating service, if necessary
+</B><DD>
+If the client does not receive the label information with the requested
+document from the server, it might send a subsequent
+request directly to the rating service asking
+for the label information for that document.
+This requires a second connection, which
+takes longer and can discourage future visits to that site.
+The browser waits until the label information is returned before
+it displays <B>any</B> data.
+<P>
+Faster response time is the main reason why
+rating labels for a site should reside <B>at the site</B>.
+</DL>
+<HR>
+<H2><A NAME="Header_661" HREF="icswg007.html#PToC_661">How the Internet Connection Secure Server helps you manage PICS labels</A></H2>
+<P>
+Whether your Web server publishes Web documents
+or you are a rating service and want
+to provide the labels for other Web sites, the Internet Connection Secure Server
+can help you manage PICS labels.
+<P>
+<H3><A NAME="Header_662" HREF="icswg007.html#PToC_662">PICS for Web site administrators</A></H3>
+<P>As more browsers are configured to block access to
+unrated documents, it behooves you to have your
+Web site rated.  And because it saves time when a browser can get
+the ratings when it sends its initial request, it
+behooves you to store the ratings for your pages
+on your own server.
+With the Internet Connection Secure Server's PICS support,
+you can manage the labels from one central file and serve them
+with requested pages and documents.
+These labels can be:
+<UL>
+<P><LI>Self-assessed according to your own criteria
+<P>If you are establishing your own rating service, you can rate
+your own site according to your published criteria.
+<P><LI>Self-assessed
+according to the published criteria of a voluntary rating service
+<P>
+Voluntary rating services, such as SafeSurf (http://www.safesurf.com)
+trust Web administrators to be honest in
+the assessment of their own pages.
+<P><LI>Assessed by a third-party rating service according to the service's
+criteria
+<P>
+In this case, you might contact the rating service and request
+that they rate your Web site (if they have not already done so)
+and send you the label information.
+In fact, you might want to contact several
+rating services to have your site rated for different subject
+criteria.
+If the third-party rating services have the Internet Connection Secure Server,
+this process can be simplified with an electronic request.  See
+<A HREF="#HDRRPL">"How to request PICS label information"</A>.
+</UL>
+Once the ratings are established,
+Web administrators can do one of three things:
+<UL>
+<P><LI>Manually edit each of their HTML files, inserting the rating
+information in the headers.
+See <A HREF="#HDRMPL1">"Managing PICS labels for your Web site in each document"</A>.
+<P><LI>Use the label information to create PICS-compliant rating labels,
+store the labels in their file system, and
+use the Internet Connection Secure Server's
+PICS configuration file to manage and transmit them.
+See <A HREF="#HDRMPL2">"Managing PICS labels for your Web site from a central file"</A>.
+<P><LI>Let the system automatically store the transmitted rating labels
+and update your PICS configuration file for you.  This can only
+be done when electronically requesting labels for a third-party
+rating service that has the Internet Connection Secure Server.
+See <A HREF="#HDRRPL">"How to request PICS label information"</A>.
+</UL>
+<P>
+<H4><A NAME="HDRMPL1">Managing PICS labels for your Web site in each document</A></H4>
+<P>You can edit
+each of your HTML files and embed PICS ratings
+information in the meta element of the document header.
+This process is entirely manual and therefore time-consuming,
+error-prone, and difficult to maintain.  It does not incorporate
+any of the security mechanisms (message digest, digital signature, etc.)
+that would guarantee the validity
+of the label, if this is important to the requesting client.
+The PICS specification (http://www.w3.org/pub/WWW/PICS/)
+explains how you can embed rating information
+in each document.  It is not covered here.
+<P>
+<H4><A NAME="HDRMPL2">Managing PICS labels for your Web site from a central file</A></H4>
+<P>
+The Internet Connection Secure Server's
+PICS support allows you to store the rating labels
+for all the documents on your Web site and manage them from
+a central file.  The labels are sent
+along with your Web pages when a client requests them.
+<P>In addition to the rating labels,
+you must also have a PICS-compliant rating system description
+file that describes the rating system
+used to rate your documents.  These are called RAT files, and
+rating services will provide them along with their labels.
+<P>
+Once you have both the labels and the RAT file, you can use the
+PICS configuration file
+to manage these labels from a central point.
+See <A HREF="#HDRMCF">"How to manage PICS labels from a central file"</A>.
+<P>
+<H3><A NAME="Header_665" HREF="icswg007.html#PToC_665">PICS for rating services and label bureaus</A></H3>
+<P>Because many Web sites will want their pages rated, you have
+an opportunity to provide a service to a large number of Web sites.
+<UL>
+<P><LI>
+Content providers will contact your organization to request that you
+rate their Web site and provide them with the labels so that
+they will be able to
+serve the labels along with their Web documents themselves.
+<P><LI>
+Clients will connect to your server electronically to
+request labels for pages they are attempting to view only when
+they <B><I>cannot</I></B> get the label information with the
+requested pages.
+</UL>
+<P>
+The PICS configuration file provides you with the means to manage
+the labels for other Web sites and transmit them when requested.
+<P>
+The PICS specifications allow anyone
+to set up a rating service, define the criteria by which they rate
+Web sites and documents, and then provide the ratings.
+With the Internet Connection Secure Server's PICS support,
+you can
+establish your server as a rating service
+and maintain and distribute labels for other Web sites.
+You can rate
+documents at a Web site individually or use wildcard characters to
+quickly assign the same rating to all or part of a Web site's offerings.
+You will need to create these labels and your own RAT file.
+The RAT file is a PICS-compliant rating
+file that describes the rating system
+used to rate documents.
+Once you have both the labels and the RAT file, you can use the
+PICS configuration file
+to manage these labels from a central point.
+Your server will then be able to automatically send the
+rating labels you have assigned when a client requests them.
+See <A HREF="#HDRMCF">"How to manage PICS labels from a central file"</A>.
+<P>
+If a Web site that you have rated requests the labels for their
+pages, you can also provide them with all their current ratings.
+Unfortunately,
+the World Wide Web Consortium has not yet defined a standard
+for the label bureaus or rating services to send a Web site
+all their label information.
+This means that the method
+for this exchange will have to be determined by the
+rating services and the Web sites that ask for them.
+<P>
+If the Web sites and the rating service (or label bureau) both
+have the Internet Connection Secure Server, they can electronically exchange
+rating labels and label entries for their PICS configuration file.
+In this case, the rating labels will be automatically stored on the
+server and the PICS configuration file will be updated so that it
+can transmit the labels with the requested documents.
+<P>
+If not, we are assuming that the rating services will send a
+file of all the required label information to the Web site
+administrators.
+Once the administrators receive this information,
+they will use whatever method is available on their server
+to create PICS rating labels and enable their server to transmit them
+with the requested documents.
+<HR>
+<H2><A NAME="HDRMCF" HREF="icswg007.html#PToC_666">How to manage PICS labels from a central file</A></H2>
+<P>
+Managing PICS labels on the Internet Connection Secure Server
+requires three things:
+<OL>
+<P><LI>A rating (RAT) file that describes the ratings
+<P>If you are starting your own rating service or label bureau,
+you will need to create a file that describes your rating system.
+This file must be in the
+machine-readable format detailed in the PICS
+technical specifications and it should
+have the <B>.rat</B> extension.
+If you are getting your labels from a third-party
+rating service, you must also get a copy of their RAT file.
+<P><LI>The rating labels themselves
+<P>
+Whether you are maintaining labels for your own Web site or, as a rating
+service, maintaining labels for other sites,  you will need to store the
+labels in your server's file system, one label per file.
+Rating services will rate documents on the Internet and create
+the rating label files themselves.  Web sites will either rate their
+own site and create the label files or they will request the rating
+labels from third-party rating services.
+<P>
+If you are getting your rating labels
+from a third-party rating service that
+also has the Internet Connection Secure Server, you can request the labels
+electronically and they will be sent and stored directly on your
+system for you.  Otherwise, you may need to do some editing of the
+information you receive before creating rating labels to store in your
+file system.
+<P>
+When creating PICS rating labels, be sure to follow the PICS
+specification.
+See <A HREF="#HDRCPL">"How to create PICS labels"</A>.
+We recommend you use <B>.lbl</B> for the
+extension on your label files and we have included
+a predefined AddType directive in the configuration file
+for this extension.
+<P><LI>The PICS configuration file
+<P>This file provides a mapping between the actual rating labels
+and the documents they rate.  It enables the server to quickly respond
+to HTTP, FTP, and Gopher requests.
+If you are getting your rating labels
+from a third-party rating service that
+also has the Internet Connection Secure Server, your PICS configuration file
+will automatically be updated with entries for the labels you receive.
+If you are a
+rating service or if you receive rating labels from
+third-party rating services that have a different server, you
+will need to maintain the PICS configuration file yourself.
+You can use the online Configuration and Administration Forms
+to update and maintain this file or you can edit it manually.
+See <A HREF="#HDRUCF">"How to update the PICS configuration file"</A>.
+</OL>
+<P>
+<H3><A NAME="Header_667" HREF="icswg007.html#PToC_667">Storing the PICS files on your server</A></H3>
+<P>You will need to
+store both the RAT file and rating labels in files on your server.
+<P>
+The RAT file should be available from
+a rating service's Web site.
+The rating labels must be stored one label per file.
+<P>
+You can use any directories, subdirectories, and file names that
+make sense at your site and for your implementation.  We recommend that
+Web sites
+have a separate directory or subdirectory for each third-party
+rating service that they use.  This is <B>required</B>
+for automatic updates when requesting
+labels from rating services that have the Internet Connection Secure Server.
+<P>
+Our examples
+use a file extension of <B><I>.lbl</I></B> on each rating label file.
+This is also the extension for any label files the Internet Connection Secure Server
+transmits electronically.
+<P>
+<H3><A NAME="Header_668" HREF="icswg007.html#PToC_668">Managing PICS labels for your own Web site</A></H3>
+<P>
+Follow these steps to store rating labels in your file system
+and
+configure your server so it sends these labels when clients
+request them.
+<OL>
+<P><LI>Obtain a copy of the RAT file from the
+rating services you want to use and store it in your file system on
+your server.
+<P><LI>If you are getting rating labels from a third-party rating service
+that has the Internet Connection Secure Server:
+<UL>
+<P><LI>
+Use the
+online Configuration and Administration Forms to request the
+labels and the entries for your PICS configuration file electronically.
+When you receive these files, your server will automatically be updated
+for you.
+See <A HREF="#HDRRPL">"How to request PICS label information"</A>.
+</UL>
+<P>If you are <B>not</B>
+getting rating labels from a third-party rating service
+that has the Internet Connection Secure Server:
+<UL>
+<P><LI>Obtain the ratings from the third-party rating service
+or rate your own documents.
+<P><LI>Create labels
+according to the format published in the PICS specification.
+See <A HREF="#HDRCPL">"How to create PICS labels"</A>.
+<P><LI>Store the labels in separate files, one label per file,
+in your server's file system.
+<P><LI>Tell your server which documents are rated,
+where the actual rating labels can be found, and which rating service
+provided the labels.
+You do this by adding entries to the PICS
+configuration file to associate the rated documents with their
+label files.
+You can use the online Configuration and Administration Forms to
+update and maintain this file or you can edit it manually.
+See <A HREF="#HDRUCF">"How to update the PICS configuration file"</A>.
+</UL>
+</OL>
+<P>
+<H3><A NAME="Header_669" HREF="icswg007.html#PToC_669">Starting a PICS rating service and label bureau</A></H3>
+<P>
+Follow these steps to configure your server as a PICS rating service,
+store rating labels for other Web sites, and serve them in response to
+client requests.
+<OL>
+<P><LI>
+Define a rating system and create your own RAT file.
+Check the World Wide Web Consortium's PICS specification
+(http://www.w3.org.PICS/services.html)
+for instructions on how to do this.  It includes the
+syntax for the machine-readable format of the RAT file.
+<P><LI>
+Establish two URLs for your rating service.  One URL identifies your
+service by name.  Include this URL in your
+RAT file.  The other URL is for label requests.
+You must direct all the label requests that come to your server to
+this specific URL.
+<P>
+The PICS
+specification has no requirements regarding these URLs;
+you may choose any URL that you like.
+<P>
+Add the <TT>Service</TT> directive to inform the server that you
+are a PICS service and specify where to direct the PICS rating label
+requests.  For example:
+<PRE>
+     Service /Ratings INTERNAL&#58;PICS-Ratings
+</PRE>
+<P>Replace <VAR>/Ratings</VAR> with the path and file name portion of the
+URL you will use for label requests.  For example, if you publish
+the URL http&#58;//www.coolratings.com/CoolSite, you would only
+inlcude /CoolSite in the Service directive.
+<P><LI>Rate documents and Web sites according to your established
+rating system.
+<P><LI>Create rating labels for these documents and sites
+and store them in your server's file system, one label per file.
+See <A HREF="#HDRCPL">"How to create PICS labels"</A>.
+<P><LI>Tell your server which documents you have rated, what host serves
+them, and where the labels can be found in your file system.
+You do this by putting entries in the PICS
+configuration file that associates the rated documents and their
+specific label files.
+You can use the online Configuration and Administration Forms to
+update and maintain this file or you can edit it manually.
+See <A HREF="#HDRUCF">"How to update the PICS configuration file"</A>.
+<P><LI>Make the URL you will use for label requests known to the public.
+<P>
+Notify all your subscribers and users to send their requests for
+rating labels to this URL.
+PICS-enabled clients and servers will use this URL to
+contact your server for labels.
+</OL>
+<HR>
+<H2><A NAME="HDRCPL" HREF="icswg007.html#PToC_670">How to create PICS labels</A></H2>
+<P>
+In general, a label file is a text file containing a label.
+Carefully review the format
+of labels given by the
+PICS Rating Services and Rating Systems specification
+(http://www.w3.org/pub/WWW/PICS/services.html).
+<P>
+<H3><A NAME="Header_671" HREF="icswg007.html#PToC_671">PICS label extensions</A></H3>
+<P>
+The Internet Connection Secure Server has added extensions to this format
+to save you repetitious data entry and to allow you to add comments.
+<DL>
+<P><DT><B>Comments for your own use
+</B><DD>
+You can insert comments for your own use
+into label files.  Begin these comment lines with '#'.
+Lines beginning
+with '#' are not sent to clients.
+This type of comment is an
+addition to the &quot;comment&quot; statements used
+inside labels.
+&quot;Comment&quot;
+statements in labels are sent to clients.
+<P><DT><B>Additional variables
+</B><DD>
+The Internet Connection Secure Server
+has also defined some variables that you can insert
+in label files.
+<DL>
+<P><DT><B>%%URL%%
+</B><DD>The current URL will be substituted for this variable.
+When the server receives a request for a rating label that
+contains <TT>for %%URL%%</TT>, it replaces
+this variable with the correct <TT>for</TT> statement
+before sending the label.
+<P><B>Note: </B>Do not use this variable on generic labels (those that apply to
+multiple files).
+<P><DT><B>%%SERVICENAME%%
+</B><DD>The service name requested will be substituted for this variable.
+When the server receives a request for a rating label that
+contains <TT>for %%SERVICENAME%%</TT>, it replaces
+this variable with the correct service statement
+before sending the label.
+</DL>
+</DL>
+<HR>
+<H2><A NAME="HDRRPL" HREF="icswg007.html#PToC_672">How to request PICS label information</A></H2>
+<P>
+If a third-party rating service has
+the Internet Connection Secure Server, you can electronically request rating
+labels for all the documents on your Web site that the
+third-party service has rated.
+As a response to that request, you will receive both rating labels and
+PICS configuration file label entries.  Both types of information
+will automatically be
+stored on your server.
+<P>To electronically request rating label and
+entries for automatic update:
+<OL>
+<P><LI>From the default home page (Frntpage.html), select
+<B>Configuration and Administration Forms</B>.
+When prompted, enter the administration user ID and
+password you have set up.
+<P><LI>Select <B>PICS Services Configuration</B>.
+This displays the PICS Services Configuration main page.
+<P><LI>Select
+<B> Request Label Entries from Third-Party Rating Service</B>.
+</OL>
+<P><B>Note: </B>The third-party rating service <B>must</B> have the Internet Connection Secure Server
+for you to use this feature.
+If not, the request fails.
+<P>If the third-party rating service has rated your Web site, it will
+return both the rating labels and label entries for your PICS
+configuration file.  The rating labels will be stored in the directory
+you specified on the form.  The label entries will automatically be
+added to your PICS configuration file.
+<P>If the third-party rating service has not rated your Web site, it will
+return a response indicating that it does not have the information
+you requested.
+<HR>
+<H2><A NAME="HDRUCF" HREF="icswg007.html#PToC_673">How to update the PICS configuration file</A></H2>
+<P>
+The Internet Connection Secure Server provides the PICS configuration file
+for you to manage PICS labels from
+a central point and serve them when clients request them.
+You can use the online Configuration and Administration forms
+to add, modify, and delete the label entries in the
+PICS configuration file, or you can edit the file and
+maintain the data manually.
+<P>
+<H3><A NAME="Header_674" HREF="icswg007.html#PToC_674">Using the online Configuration and Administration forms</A></H3>
+<OL>
+<P><LI>From the default home page (Frntpage.html), select
+<B>Configuration and Administration Forms</B>.
+When prompted, enter the administration user ID and
+password you have set up.
+<P><LI>Select <B>PICS Services Configuration</B>.
+This displays the PICS Services Configuration main page.
+<P><LI>If you are maintaining labels for your own Web site:
+<OL>
+<P><LI>Select <B>Register Third-Party Rating Services</B> to register
+the services that have sent you labels and identify their RAT files.
+With the PICS example files, initially
+you will have one entry for the The Best rating service,
+<B>http://www.coolness.raleigh.ibm.com/ratings/V1.html</B>,
+along with its RAT file, coolness.rat.
+<P><LI>Select <B>Maintain PICS Label Entries for Your Web Site</B>
+to view, add, modify,
+or delete the entries that associate specific documents or pages with
+your rating labels.
+</OL>
+<P>If you are maintaining labels for other Web sites:
+<OL>
+<P><LI>Ensure that you have your RAT file stored in your file system.
+<P><LI>Select <B>Register Your Own Rating Service</B> to register
+the location of your RAT file on your server.
+<P><LI>Select <B>Maintain PICS Label Entries for Other Web Sites</B>
+to view, add, modify, or delete the entries that associate
+specific documents or pages with your rating labels.
+</OL>
+</OL>
+<P>
+<H3><A NAME="Header_675" HREF="icswg007.html#PToC_675">Editing the PICS configuration file manually</A></H3>
+<P>
+The exact name and location of the PICS configuration file is
+<VAR>ETC</VAR>/ICS_PICS.CNF
+(where <VAR>ETC</VAR> represents the directory specified by the
+ETC environment variable in the CONFIG.SYS configuration file).
+<P>
+The configuration file consists of a list of paragraphs.
+There are three types of paragraphs.
+<UL>
+<P><LI><B>LabelsFor</B>
+<P>
+Specifies the ratings given
+by a particular rating service for documents on a given Web server.
+For example, one LabelsFor paragraph could cover ratings according
+to the RSAC rating system for documents on the local server,
+while another paragraph could cover ratings according to the
+The Best rating system for documents on the local server.
+<P><LI><B>DefineService</B>
+<P>Lists local label files associated with a third-party rating service.
+<P><LI><B>DefineLBService</B>
+<P>Lists local label files associated with your
+own label bureau or rating service.
+</UL>
+<P>
+<P><B>Note: </B>The PICS configuration file associates
+Web documents with files containing labels. The labels themselves
+are stored in separate files, not in the PICS configuration file.
+<P>
+<H4><A NAME="Header_676">PICS configuration file syntax</A></H4>
+<P>
+<P>
+<H5><A NAME="Header_677">LabelsFor</A></H5>
+<P>
+The first line of the paragraph consists of the keyword
+<TT>LabelsFor</TT>,
+the name of the server on which the rated documents are found,
+the name of the rating service, and an opening brace.
+The body of the paragraph specifies labels for sets of documents.
+Each paragraph ends with a closing brace.
+<P>
+<PRE>
+LabelsFor servername servicename {
+    /WebPath1/document1    /path/LabelFile1
+    /WebPath2/document2    /path/LabelFile2
+    ...and so on...
+}
+</PRE>
+<DL>
+<P><DT><I>servername
+</I><DD>This can be the keyword <TT>LOCAL</TT>
+to indicate documents on this server,
+or it can be a full URL if documents on remote servers are being rated.
+Only servers acting as label bureaus (rating services)
+will need to use a
+hostname other than <TT>LOCAL</TT>.
+When your server is providing labels for
+the documents it hosts, you should always use the keyword
+<TT>LOCAL</TT> for the hostname.
+Note that you must specify the protocol and hostname without
+a trailing slash; thus, <TT>http://www.xyz.com</TT>
+is acceptable as a hostname on a LabelsFor line, but
+<TT>http://www.xyz.com/</TT> is not.
+<P><DT><I>servicename
+</I><DD>The full URL where clients will send their label requests.
+<P><DT><I>/WebPath/document
+</I><DD>The Web path and name of the document being rated.
+This is the path a
+Web client would use when requesting the document. For example,
+if the Naughty/Image1.gif was on the server <TT>www.rated.xyz.com</TT>,
+then a Web client would request
+<TT>http://www.rated.xyz.com/Naughty/Image1.gif</TT>.
+<P><B>Note: </B>You can use wildcard characters (*)
+to rate multiple documents at once.
+See <A HREF="#HDRUSEWC">"Using wildcards in the PICS configuration file"</A>.
+<P><DT><I>/path/LabelFile
+</I><DD>The fully qualified name of the label file in your
+file system.
+(This includes the drive name.)
+<P>
+You cannot use wildcard characters in file names.
+<P>
+<P>A special keyword, <TT>NOTLABELED</TT>,
+can be used in place
+of a label file name. This indicates that the given file(s) cannot be
+labeled; it serves as a shorthand way of creating a label file that
+contains a "not-rated" label. In the example above, a not-rated
+error message will be returned to any
+clients who request a rating for the file /Unknown.html.
+</DL>
+<P>For example,
+an actual LabelsFor paragraph might look like this:
+<P>
+<PRE>
+LabelsFor LOCAL http://www.rsac.org/ratingsv01.html {
+    /Naughty/Image1.gif  d&#58;\www\pics\labels\AdultsOnly.lbl
+    /Clean/*.html        d&#58;\www\pics\labels\AllAges.lbl
+    /Unknown.html        NOTLABELED
+}
+</PRE>
+<P>
+<H5><A NAME="Header_678">DefineService</A></H5>
+<P>
+The first line of the paragraph consists of the keyword
+<TT>DefineService</TT>,
+the rating service URL, the quoted name of the rating service,
+the location and name of the service's RAT file,
+and an opening brace.
+The body of the paragraph lists
+the label files associated with this service,
+specifying each one with the keyword <TT>LABELFILE</TT>.
+Each paragraph ends with a closing brace.
+<PRE>
+DefineService servicename "name-of-service" ratingfile {
+     LABELFILE  /path/LabelFile1 "description"
+     LABELFILE  /path/LabelFile2 "description"
+     ...and so on...
+}
+</PRE>
+<DL>
+<P><DT><I>servicename
+</I><DD>The name (URL) of the rating service.
+<P><DT><I>name-of-service
+</I><DD>The name (text) of the rating service, in quotes.
+<P><DT><I>ratingfile
+</I><DD>The fully qualified name of the service's RAT file in your
+file system.
+(This includes the drive name.)
+<P><DT><I>/path/LabelFile
+</I><DD>The fully qualified name of the label file in your
+file system.
+(This includes the drive name.)
+<P><DT><I>description
+</I><DD>A text description of the label, in quotes.
+</DL>
+<P>For example,
+an actual DefineService paragraph might look like this:
+<P>
+<PRE>
+DefineService http://www.abc.org/rate.html "The ABC's of Ratings" d:\www\pics\rat\abc.rat {
+    LABELFILE  d&#58;\www\pics\labels\AdultsOnly.lbl  "rated XXX"
+    LABELFILE  d&#58;\www\pics\labels\AllAges.lbl     "rated GGG"
+}
+</PRE>
+<P>
+<H5><A NAME="Header_679">DefineLBService</A></H5>
+<P>This paragraph has the same syntax and format as the
+<TT>DefineService</TT> paragraph.  The only difference is that
+it uses the <TT>DefineLBService</TT> keyword and the RAT file and
+labels that it lists are for your own label bureau and rating service.
+<P>
+<H3><A NAME="HDRUSEWC" HREF="icswg007.html#PToC_680">Using wildcards in the PICS configuration file</A></H3>
+<P>You can use an asterisk (*) as a wildcard only in the LabelsFor
+paragraphs of the PICS configuration file.
+When using wildcards, remember that
+the order of entries within a paragraph is important.
+For each paragraph, the Internet Connection Secure Server
+breaks the list of rated documents into two parts: those that
+contain wildcards, and those that do not contain wildcards.
+<UL>
+<P><LI>When the server looks for labels for
+a document, it will first try to find the document in the "no-wildcards"
+list. Order is <B>unimportant</B> here.  Without wildcards, each
+entry in the list refers to exactly one document.
+<P><LI>If the server cannot find a match in the "no-wildcards" list,
+it will try to match the document name
+against the entries that contain wildcards.
+Order is <B>important</B>  The server
+tries to match the requested document against the wildcard entries
+in the order in which they appear in the configuration file
+and will use the first entry that matches.
+</UL>
+<P>
+For example, if you want an entry that
+gives <TT>/*</TT> as the WebPath/document, serving as a catchall
+for documents that don't have another rating, then make this
+the last entry in the paragraph.
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icswg007.html">Previous Page</A> &#124; <A HREF="icswg009.html">Next Page</A> &#124; <A HREF="icswgmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

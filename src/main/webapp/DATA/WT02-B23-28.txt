@@ -1,0 +1,221 @@
+
+<DOC>
+<DOCNO>WT02-B23-28</DOCNO>
+<DOCOLDNO>IA019-000204-B032-488</DOCOLDNO>
+<DOCHDR>
+http://hypatia.confluence.com:80/products-FundStation.htm 206.5.118.102 19970106235724 text/html 7726
+HTTP/1.0 200 OK
+Date: Mon, 06 Jan 1997 23:45:10 GMT
+Server: Microsoft-Internet-Information-Server/1.0
+Content-Type: text/html
+Last-Modified: Thu, 25 Jul 1996 02:55:18 GMT
+Content-Length: 7526
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>FundStation Overview</TITLE>
+</HEAD>
+<BODY>
+<BODY BGCOLOR="#ffffff">
+<H1><IMG SRC="graphics/cti-fundstation.jpg" ALT="FundStation"> </H1>
+
+<P>
+Most outsiders probably think that the fund accountant's work
+is done once the funds' NAVs or unit values are cut each afternoon.
+In fact, if you manage the fund accounting team, you know that
+some of the most critical work still remains to be done: getting
+the correct information to the people and systems that need it.
+<P>
+FundStation was built for this purpose. FundStation collects,
+calculates and distributes all the information to all the places
+it needs to go. This information includes NAVs, yields, expense
+ratios, and total rates of return and FundStation distributes
+it regardless of whether that information needs to arrive on paper,
+fax, e-mail or in a data file.
+<H2><A HREF="detail-addedvalue.htm" >Benefits </A></H2>
+
+<P>
+Consider some of the benefits you can realize with FundStation:
+<UL>
+<LI>Elimination of repeated manual data entry to multiple systems
+<LI>Elimination of data entry errors
+<LI>Increased control over end-of-day processing; reduced stress
+<LI>Quicker delivery of information to clients
+<LI>Customized delivery of information to clients
+<LI>Quicker delivery of pricing data to other systems (shareholder
+recordkeeping, et al)
+<LI>Accurate and timely calculations of yields and total rates
+of return
+<LI>Automated preparation and delivery of reports/data to third-party
+agencies
+<LI>Ability to process increased volumes without increasing staff
+
+</UL>
+
+<H2>Process Overview </H2>
+
+<P>
+FundStation achieves these benefits by automating many of the
+processes currently performed manually by the fund accounting
+or transfer agency teams. FundStation performs the following tasks:
+<UL>
+<LI>Extract pricing data from the fund accounting system(s)
+<LI>Calculate yields for the previous one, seven and thirty days
+<LI>Calculate total rates of return for a large range of time
+periods
+<LI>Transfer NAVs and income amounts to the shareholder recordkeeping
+system(s)
+<LI>Transfer NAVs and distribution amounts to other systems (trust,
+defined contribution, voice response units)
+<LI>Distribute fund pricing data daily via the Daily Fund Profile
+(DFP) to external clients via FAX, E-mail, hardcopy or direct
+file transmission 
+<LI>Provide a repository of descriptive and historical pricing
+data to facilitate regulatory and third-party reporting (Lipper,
+Morningstar, ICI, NASDAQ) 
+</UL>
+
+<H2>Diagram </H2>
+
+<P>
+The following illustration represents some of the many ways that
+FundStation can improve your operations. 
+<P>
+<IMG SRC="graphics\fs-overview.jpg" ALT="FundStation Overview" BORDER="1">
+<H2>Features </H2>
+
+<P>
+FundStation provides many features that can improve your operations.
+These include:
+<H3>Data Extract from Fund Accounting </H3>
+
+<P>
+Extract mutual fund NAVs and rates from the fund accounting system.
+No changes are required to the existing fund accounting system.
+<H3>Data Feeds to Other Systems </H3>
+
+<P>
+Transfer data from the fund accounting system into other applications,
+including shareholder recordkeeping, trust accounting, participant
+recordkeeping or voice response systems. This can often be done
+without changes to existing systems. FundStation will also transfer
+data to PC applications like spreadsheets and databases in a variety
+of formats.
+<H3><A HREF="detail-AvailableYields.htm" >Yield Calculations </A>
+</H3>
+
+<UL>
+<LI>Calculate 1, 7, and 30 day yields, plus 1 month and 1 year
+yields. 
+<LI>Yields include simple and effective yields.
+<LI>Yields can include or exclude capital gains.
+<LI>Yields can include or exclude the fund's load. 
+</UL>
+
+<H3><A HREF="detail-AvailableReturns.htm" >Total Rates of Return Calculations </A>
+</H3>
+
+<UL>
+<LI>Calculate total rates of return from 1 month through 10 years
+and since inception of the fund. 
+<LI>RORs can include or exclude the fund's load, whether front
+or back-end loads.
+<LI>Month-to-date, year-to-date and fiscal year-to-date RORs are
+also available.
+<LI>RORs can be calculated daily or at month end. 
+</UL>
+
+<H3>Customized Presentation </H3>
+
+<P>
+Use a different presentation format of the Daily Fund Profile
+for each fund and each fund group. Users control the design and
+layout of the report template, including any desired calculations
+or graphics.
+<H3>Automated Distribution </H3>
+
+<P>
+Specify different distributions to each client:
+<UL>
+<LI>the funds on which to report, 
+<LI>the type of delivery (print, FAX, file, e-mail, special transmission),
+
+<LI>the format of the data (which data and in what layout)
+<LI>when to distribute the data (as soon as each fund's data is
+received from fund accounting, as soon as all data for all of
+a recipient's funds are available, at a specified time of day,
+or only upon manual initiation). 
+</UL>
+
+<H3>Nasdaq Interface </H3>
+
+<P>
+FundStation will automatically submit NAVs and Money Market yields
+to the NASDAQ system. This feature will be available in the Second
+Quarter of 1995.
+<H3>Third Party Reporting </H3>
+
+<P>
+FundStation provides the data and the reporting mechanisms to
+automate the constant flow of information required by third-party
+agencies. Information can be provided daily, weekly, monthly or
+on other frequencies.
+<H3>User-defined Fields </H3>
+
+<P>
+FundStation provides over one-hundred and twenty user-defined
+fields of various types. Users have tremendous flexibility in
+customizing their use of FundStation.
+<H3>On-line, Real-time Status </H3>
+
+<P>
+FundStation provides users with an instantaneous status of each
+fund and each client. Users see at a glance what work has been
+completed and what still remains.
+<H3>Data Repository </H3>
+
+<P>
+FundStation stores historical NAVs, rates and other pricing data
+for as long as required. Reports and data files can be recreated
+on an historical basis. Yields and rates of return can be calculated
+as of any date stored in the database.
+<H3>Flexible Reporting </H3>
+
+<P>
+FundStation provides the tools to create both predefined and ad-hoc
+reports using any of the data stored in FundStation. Reports are
+easy to build, even easier to run and can be set up to run right
+from FundStation's main menu. Confluence is available to assist
+in building additional reports, as needed.
+<H3>System Calendar </H3>
+
+<P>
+Specify processing and non-processing days for each fund. FundStation
+uses the calendars to determine the number of days for which a
+rate is valid, based on weekend, end-of-the-month, and dividend
+cycle considerations.
+<H3>System Security </H3>
+
+<P>
+Restrict users to only authorized activities and funds. Access
+is maintained by a System Administrator.
+<H3>Process Control </H3>
+
+<P>
+During daily processing, users can require that each fund must
+be manually released prior to FundStation distributing any of
+its data. On-line review of tolerance reports and Daily Fund Profiles
+ensure that all data is correct prior to its release. FundStation
+also keeps an audit trail of all system activity. Authorized users
+can determine what activities happened, when they happened and
+who performed them.
+<H3>Data Conversion </H3>
+
+<P>
+Confluence will convert historical data from any existing system
+to FundStation. This allows for calculation of yields and rates
+of return on the first day of live processing. 
+</BODY>
+
+</HTML>
+</DOC>

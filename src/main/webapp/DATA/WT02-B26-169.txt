@@ -1,0 +1,198 @@
+
+<DOC>
+<DOCNO>WT02-B26-169</DOCNO>
+<DOCOLDNO>IA075-000495-B006-302</DOCOLDNO>
+<DOCHDR>
+http://hyun.seri.re.kr:80/Projects/ASDC.html 150.183.108.63 19970122015245 text/html 7468
+HTTP/1.0 200 Document follows
+Date: Wed, 22 Jan 1997 01:46:55 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Mon, 10 Jun 1996 06:42:31 GMT
+Content-length: 7294
+</DOCHDR>
+<html>
+
+<title>
+	A Study for Development of the Computerized Tactical Terrain Analysis System for the Battlefield Operation	
+</title>
+
+<br><br>
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Title of the Study
+</h2>
+<ul>
+<h3>
+	"A Study for Development of the Computerized Tactical Terrain Analysis System for the Battlefield Operation"
+</h3>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Objective of the Study 
+</h2>
+<ul>
+<p>
+   Recently Large  amount of  spatial data have  been easily  handled due to the significant increase in the computing speed and memory space of workstations and, development of input devices such as scanners, digitizers and storage media such as optical disks.<br>
+  The  developed  countries  such as  USA  and  Germany  have  been  using  Geo graphic Information Systems(GIS) which  can manipulate data collection, update, analysis ,  display and data management  in terrain analysis.   Our military forces, having  relatively less computing power, need to develop their own tactical terrain analysis system.<br>
+  The objective of this study is to develop a scientific tactical terrain analysis system which can combine GIS, image processing and graphics technology to support field commanders who have to  set up strategic tactics  in battlefield operations.   This terrain analysis  system will reduce uncertainty in troop manenvering,  fire planning, and  communications.  The  accurate information produced  by the terrain analysis system will be able to enhance the combat capability of a military  unit and  efficiency of weapon systems  and also support military officers to make a prompt decision and operation plan. Therefore,  it is  necessary  to build  our own terrain analysis  system  that suits  to  our circumstances.  Especially,  it is important to build Korean menu driven system that can be easily utilized by military officers in operational mode.
+
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Contents and Scope of the Study	  
+</h2>
+<ul>
+<p>
+   The contents and scope of  this study are 1) development of the scientific  t errain analysis system for  the battlefield  operation, 2)  development of  utilities and user interface, and  3) development of  graphics editor.   The following  researches had  been performed during  the year 1992.<br><br>
+1.  Development of the Terrain Analysis Software
+   <ul>
+   A. Surface Analysis
+      <ul>
+      o Covered area<br>
+      o Concealed area<br>
+      o Slope gradient classification<br>
+      o Contour generation<br>
+      o Elevation classification<br>
+      o Field mobility<br>
+      </ul>
+   B. Line of Sight Coverage
+      <ul>
+      o Analysis of fire zone<br>
+      o Visible area analysis<br>
+      o Candidate site for communication<br>
+      o RASIT capability analysis<br>
+      </ul>
+   C. 3D Display Software<br>
+   D. Radar Coverage Analysis<br>
+   E. Logistic Route Analysis
+      <ul>
+      o River information<br>
+      o Road information<br>
+      o Bridge information<br>
+      </ul>
+   F. Atmospheric Phenomena/Sunrise, Sunset, Moon Phase
+      <ul>
+      o Moon phase BMNT, EENT analysis<br>
+      o past atmospheric data analysis<br>
+      </ul>
+   G. Enemy Information Analysis
+      <ul>
+      o Enemy troop disposition<br>
+      o Doctrine template<br>
+      </ul>
+   </ul>
+
+2.  Development of the Utility Software
+   <ul>
+   A. Unit Conversion
+      <ul>
+      o Coordinate conversion(UTM, GK, Geographic Coordinate)<br>
+      o Time conversion(local time, world time, special local time)<br>
+      o Special unit conversion(length, area, volume, weight, temperature, press ure, speed)<br>
+      </ul>
+   B. Data Format Conversion<br>
+   C. File Deletion<br>
+   D. Image Store<br>
+   </ul>
+3.  Development of the Graphics Editor
+   <ul>
+   A. Cursor Coordinate Display<br>
+   B. File Manipulation
+      <ul>
+      o Load(display)<br>            
+      o Save image<br>
+      o Save partial image <br>
+      o Quit<br>
+      </ul>
+   C. Options
+      <ul>
+      o Initialize environment<br>    
+      o Cut image and display<br>
+      o Ignore changes and display original image<br>
+      o Display full screen image<br>
+      o Save image on buffer<br>
+      </ul>
+   D. Basic Graphics Primitives
+      <ul>
+      o Line, rectangle, circle, connected lines, free draw<br>
+      o Annotation<br>
+      o Symbol drawing<br>
+      </ul>
+   E. Image Manipulation
+      <ul>
+      o Cut<br>
+      o Paste<br>
+      o Erase<br>
+      o Rotate<br>
+      o Zoom/unzoom<br>
+      </ul>
+   F. Setting
+      <ul>
+      o Line width<br>
+      o Color<br>
+      o Font<br>
+      o Zoom size<br>
+      </ul>
+   </ul>
+</p>
+</ul>
+
+<h2>
+   <img src="../Icons2/Balls/rd_ball.gif">
+   Results of the Study 
+</h2>
+<ul>
+<p>
+   The computerized tactical terrain analysis system that has  been developed in this study is to provide military officers with terrain information necessary for  efficient battlefield operation and troop movement.  Thus, the system  puts great emphasis on  user interface for military officers to use this system easily.  In this context OSF/Motif, which is industry standard and has good portability, has been  selected for the user interface. For the Same Reason, X-lib is used for graphics display on X window.<br>
+  This System  can be  divided into  three major  sections, which  are the  terrain analysis software, utilities and  graphics editor. The  detailed lists of the  result of this year's study are as follows:<br><br>
+1.  Development of the terrain analysis software
+    <ul>
+    o Analyzing land-surface  including covered area, concealed area,  slope gra dient, contour, elevation, and field mobility<br>
+    o Analyzing visible area, communication relay station, RASIT capability<br>
+    o Generation 3D perspective view<br>    
+    o Analyzing radar coverage<br>
+    o Analyzing logistic routes<br>
+    o Analyzing atmospheric phenomena, sunrise, sunset, moon phase<br>
+    o Analyzing enemy information<br>
+    </ul>
+2.  Development of the utility software
+    <ul>
+    o Coordinate conversion(UTM, GK, Geographic Coordinate)<br>
+    o Time conversion(local time, world time, special local time)<br>
+    o Special unit conversion(length, area, volume, weight, temperature, pressur e, speed)<br>
+    o Data format conversion<br>
+    o File deletion<br>
+    o File deletion<br>
+    o Image store<br>
+    </ul>
+3.  Development of the graphics editor which includes
+    <ul>
+    o Cursor coordinate'<br>
+    o File  manipulation such as "load"("display"),  "save image", "save partial image", and " quit<br>
+    o Options such as " initialize environment", "cut  image and display", "igno re changes and display original image", "display full screen image", and "save image on b uffer"<br>
+    o  Basic graphics  primitives such  as line,  rectangle, circle,  connecting lines,  and free drawing<br>
+    o Annotation<br>
+    o Symbol drawing<br>
+    o Image maniqulation such as "cut", "paste", " erase", "rotate", and "zoom/u nzoom"<br>
+    o Setting of line width, color, font, and zoom size<br>
+    </ul>
+</p>
+</ul><br>
+
+<hr><br>
+
+<ul>
+<h3>
+<address>
+<a href="../projects.html"><img alt="" src="../Icons2/Arrows/larrow.gif" width=10% height=8%></a> Go Back One Step!
+</address>
+</h3>
+</ul><br><br>
+
+
+</html>
+</DOC>

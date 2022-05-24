@@ -1,0 +1,373 @@
+
+<DOC>
+<DOCNO>WT03-B24-98</DOCNO>
+<DOCOLDNO>IA053-000892-B034-133</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/~csis/faculty/publications.html 129.174.40.15 19970123190807 text/html 13848
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:06:57 GMT
+Server: NCSA/1.5.2
+Last-modified: Wed, 22 Jan 1997 21:42:45 GMT
+Content-type: text/html
+Content-length: 13664
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Selected Publications</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#5C3317"
+      LINK="#9F5F9F" VLINK="#22AA22" ALINK="#0077FF">
+<p>
+<center>
+<h1>Selected Publications:</h1></center>
+<font size=4>
+<ul>
+<li> <A HREF="#books">Books and Edited Volumes</A>
+<li> <A HREF="#temporal">Temporal Databases</A>
+<li> <A HREF="#semantics">Formal Methods and Semantics-based Concurrency Control</A>
+<li> <A HREF="#replicated">Replicated Databases</A>
+<li> <A HREF="#general">Databases - General</A>
+<li> <A HREF="#security">Information Systems Security</A> 
+</ul>
+</font>
+<center><img src="color_line.gif"></center><p><p>
+
+<A NAME="books"><h3>Books and Edited Volumes:</h3></A><p>
+<font size=4>
+<ul> 
+<li> S. Jajodia and L. Kerschberg, eds.,
+ Advanced Transaction Models and Architectures, Kluwer, 1997, In preparation.
+
+<li> V. S. Subrahmanian and S. Jajodia, eds., 
+ ``Multimedia Database Systems: Issues and Research Directions,'' 
+ Springer-Verlag Artificial Intelligence Series, 1996.
+
+<li> M. Abrams, S. Jajodia, H. Podell, eds.  
+ ``Information Security: An Integrated Collection of Essays,'' 
+ IEEE Computer Soceity Press, 1995.  
+
+<li> A. U. Tansel, J. Clifford, S. Gadia, S. Jajodia,
+ A. Segev, and  R. Snodgrass, eds.
+ ``Temporal Databases: Theory, Design, and Implementation,''
+ Benjamin/Cummings (1993).
+
+</ul> 
+</font>
+<p>
+<center><img src="color_line.gif"></center><p>
+<p>
+
+<A NAME="temporal"><h2>Temporal Databases:</h2></A><p>
+<font size=4>
+<ul> 
+<li> X. S. Wang, C. Bettini, A. Brodsky, and S. Jajodia,
+ ``Logical design for temporal databases with multiple
+ temporal types,''
+ ACM Trans. on Database Systems, To appear.
+  
+<li> C. Bettini, X. S. Wang, and S. Jajodia,
+ ``Temporal semantic assumptions and their use in 
+ database query evaluation,''
+ IEEE Trans. on Knowledge and Data Engineering, To appear.
+
+<li> C. Bettini, X. S. Wang,  and S. Jajodia,
+ ``Testing complex temporal relationships involving 
+ multiple granularities  and its application to data mining,''
+ Proc. 15th ACM PODS Symp., Montreal, Canada, June 1996,
+ pages 68-78. <A HREF="../publications/pods-96.ps">PS file</A>
+
+<li> C. Bettini, X. S. Wang,  and S. Jajodia,
+ ``A general framework and reasoning models for time granularity,''
+ Proc. 3rd Int'l. Workshop on Temporal Representation and Reasoning,
+ Key West, FL, May 1996. <A HREF="../publications/time96.ps">PS file</A>
+
+<li> X. S. Wang, S. Jajodia, V. S. Subrahmanian, 
+ ``Temporal Modules: An Approach Toward Federated Temporal Databases,'' 
+ Information Sciences, Vol. 82, 1995, pages 103--128.   
+
+<li> G. Wiederhold, S. Jajodia, and W. Litwin, ``Integrating temporal
+data in a heterogeneous environment,'' in Temporal Databases,
+A. Tansel et al., eds., Benjamin/Cummings (1993), pages 563--579.
+
+</ul> 
+</font>
+<p>
+<center><img src="color_line.gif"></center><p>
+<p>
+
+<A NAME="semantics"><h2>Formal Methods and Semantics-based Concurrency Control:</h2></A><p>
+<font size=4>
+<ul> 
+<li> P. Ammann, S. Jajodia, and I. Ray,
+ ``Applying formal methods to semantic-based decomposition
+ of transactions,''
+ ACM Trans. on Database Systems, To appear.
+ <A HREF="../publications/tods96.ps">PS file</A>
+
+<li> P. Ammann, S. Jajodia,  I. Ray, 
+ ``Using formal methods to reason about semantics-based 
+ decompositions of transactions,'' Proc. VLDB Conf.,
+ Zurich, Switzerland, September 1995, pages 218--227.
+ <A HREF="../publications/vldb95.ps">PS file</A>
+
+</ul> 
+</font>
+<p>
+<center><img src="color_line.gif"></center><p>
+<p>
+
+<A NAME="replicated"><h2>Replicated Databases:</h2></A><p>
+<font size=4>
+<ul> 
+
+<li> O. Wolfson, S. Jajodia, and Y. Huang,
+ ``An adaptive data replication algorithm,''
+ ACM Trans. on Database Systems, To appear.
+ <A HREF="http://www.eecs.uic.edu/~wolfson/mobile_ps/rev10.ps">PS file</A>
+
+<li> O. Wolfson, S. Jajodia,   
+ ``An algorithm for dynamic data allocation in distributed systems,''  
+ Information Processing Letters, Vol. 53, No. 2, 1995, pages 113--119. 
+                          
+<li> S. Jajodia and D. Mutchler, 
+ ``Dynamic voting algorithms for maintaining the consistency of a replicated database,''
+ ACM Trans. on Database Systems, Vol. 15, No. 2, June 1990, pages 230-280.
+
+
+</ul> 
+</font>
+<p>
+<center><img src="color_line.gif"></center><p>
+<p>
+
+<A NAME="general"><h2>Databases - General:</h2></A><p>
+<font size=4>
+<ul> 
+
+<li> P. Ammann, S. Jajodia, and P. Frankl,
+ ``Globally consistent event ordering in one-directional 
+ distributed environments,''
+ IEEE Trans. on Parallel and Distributed Systems, 
+ Vol. 7, No. 6, June 1996, pages 665-670.
+
+<li> P. Ammann, S. Jajodia, and P. Mavuluri, 
+ ``On-the-fly reading of entire databases,'' 
+ IEEE Trans. on Knowledge and Data Engineering, 
+ Vol. 7, No. 5, 1995, pages 834--838. 
+  
+<li> P. Ammann, V. Atluri,  and S. Jajodia, 
+ ``The partitioned synchronization rule for planer partial orders,'' 
+ IEEE Trans. on Knowledge and Data Engineering, 
+ Vol. 7, No. 5, 1995, pages 797--809.  
+ 
+<li> P. Ammann, S. Jajodia, 
+ ``Distributed timestamp generation in planar lattice networks,'' 
+ ACM Trans. on Computer Systems, Vol. 11, No. 3, August 1993, pages 205--225. 
+                          
+<li> S. Jajodia, R. Mukkamala, ``Reduction in transaction conflicts
+using semantics-based concurrency control,'' in  Performance of
+Concurrency Control Mechanisms in Centralized Database Systems,
+V. Kumar, ed., Prentice-Hall (1995), pages 387--405.
+
+
+</ul> 
+</font>
+<p>
+<center><img src="color_line.gif"></center><p>
+<p>
+
+<A NAME="security"><h2>Information Systems Security:</h2></A><p>
+<font size=4>
+<ul> 
+
+<li> E. Bertino, P. Samarati, and S. Jajodia, 
+ ``An Extended Authorization Model for Relational Databases'',
+ IEEE Transactions on Knowledge and Data Engineering, Vol. 9(1), 
+ January 1997 
+ <A HREF="../publications/ieee-97.ps">PS file </A>
+
+<li>  E. Bertino, S. Jajodia, L. Mancini, and I. Ray,
+ ``Advanced transaction processing in multilevel 
+ secure file stores,''
+ IEEE Trans. on Knowledge and Data Engineering, To appear.
+ <A HREF="../publications/tkde96.ps">PS file</A>
+
+<li> P. Samarati, E. Bertino, A. Ciampichetti, and S. Jajodia,
+ ``Information flow control in object-oriented systems,''
+ IEEE Trans. on Knowledge and Data Engineering, To appear.
+
+<li> S. Jajodia, P. Samarati, V. S. Subrahmanian, and E. Bertino,
+ ``A Unified Framework for Enforcing Multiple Access Control Policies,''
+ Proc. ACM SIGMOD Int'l. Conf.
+ on Management of Data, May 1997, To appear.
+
+<li>Vijay Atluri, Sushil Jajodia, Tom Keefe, Cathy McCollum and Ravi
+Mukkamala, "Multilevel Secure Transaction Processing: Status and
+Prospects", Database Security X: Status and Prospects, P. Samarati and
+R. Sandhu eds. Chapman and Hall, London 1997. <A
+HREF="../publications/mlstp-survey.ps">PS file</A>
+
+<li> V. Atluri, S. Jajodia and E. Bertino, 
+ ``Alternative correctness criteria for concurrent
+ execution of transactions in multilevel secure databases,''
+ IEEE Trans. on Knowledge and Data Engineering, 
+ Vol. 8, No. 5, October 1996, pages 839-854.
+
+<li> P. Samarati, E. Bertino, and S. Jajodia,
+ ``An authorization model for a distributed hypertext system,''
+ IEEE Trans. on Knowledge and Data Engineering, August 1996,
+ Vol. 8, No. 4, August 1996, pages 555--562.
+
+<li> P. Samarati, P. Ammann, and S. Jajodia,
+ ``Maintaining replicated authorizations in distributed 
+ database systems,''
+ Data & Knowledge Engineering, Vol. 18, No. 1, February 1996, pages
+ 55--84.
+
+<li> K. P. Smith, B. T. Blaustein, S. Jajodia, and L. Notargiacomo,
+``Correctness criteria for multilevel transactions,''
+ IEEE Trans. on Knowledge and Data Engineering, 
+ Vol. 8, No. 1, February 1996, pages 32--45.
+
+<li> P. Ammann, S. Jajodia, and I. Ray,
+ ``Ensuring atomicity of multilevel transactions,''
+ Proc. IEEE Symp. on Research in Security and Privacy,
+ Oakland, Calif., May 1996, pages 74-84. <A
+HREF="../publications/oklnd96-indrksi.ps">PS File</A>
+
+<li> E. Bertino, S. Jajodia, and P. Samarati,
+ ``Supporting multiple access control policies in database systems,''
+ Proc. IEEE Symp. on Research in Security and Privacy,
+ Oakland, Calif., May 1996, pages 94-107.<A
+HREF = "../publications/oklnd96-samarati.ps">PS File</A>
+
+<li> I. Ray, E. Bertino, S. Jajodia, and L. Mancini,  
+ ``An advanced commit protocol for MLS distributed database systems,'' 
+  Proc. 3rd ACM Conf. on Computer and Communications Security 
+  New Delhi, India, March 1996, pages 119--128. <A
+HREF="../publications/acm-india.ps">PS file</A>
+  
+<li>  E. Bertino, S. Jajodia, and P. Samarati,
+  ``A non-timestamped authorization model for relational databases,''
+  Proc. 3rd ACM Conf. on Computer and Communications Security 
+  New Delhi, India, March 1996, pages 169-178.
+  
+<li>  K. S. Candan, Sushil Jajodia and V.S. Subrahmanian,
+  ``Secure mediated databases,''
+   Proc. 12th Int'l. Conf. on Data Engineering, 1996, pages 28--37 . 
+  <A HREF="../publications/de95.ps">PS file</A>
+
+<li> D. G. Marks, A. Motro, S. Jajodia, 
+ ``Enhancing the controlled disclosure of sensitive information,'' 
+ Proc. European Symp. on Research in Computer Security,
+ Rome, Italy, September, 1996.
+
+<li> E. Bertino, S. Jajodia, and P. Samarati,
+ ``Database security: Research and practice,''
+ Information Systems, Vol. 20, No. 7, 1995, pages 537--556.                
+                          
+<li> P. Ammann, F. Jaeckle, and S. Jajodia,
+ ``Concurrency control in a secure multi-level database via 
+ a two-snapshot algorithm,''
+ Jour. of Computer Security, Vol. 3, No. 2,3, 1994/1995, pages pages 87--113.
+
+<li> P. Ammann, S. Jajodia, 
+ ``Distributed timestamp generation in planar lattice networks,'' 
+ ACM Trans. on Computer Systems, Vol. 11, No. 3, August 1993, pages 205--225. 
+                          
+<li> V. Atluri, E. Bertino, S. Jajodia, 
+ ``Degrees of isolation, concurrency control protocols, and commit
+ protocols,''
+ Database Security VIII: Status and Prospects, (J. Biskup et al., eds.), 
+ North-Holland, 1994, pages 259--274.
+                           
+<li> P. Ammann,  S. Jajodia, 
+ ``An efficient multiversion algorithm for secure servicing of transaction reads,'' 
+ Proc. 2nd ACM Conf. on Computer & Communications Security, 
+ November 1994, pages 118--125.
+                           
+<li> P. Samarati, P. Ammann, S. Jajodia, 
+ ``Propagation of authorizations in distributed database  systems,'' 
+ Proc. 2nd ACM Conf. on Computer & Communications Security, 
+ November 1994, pages 136--147.
+                           
+<li> A. Motro, D. Marks, S. Jajodia, 
+ ``Aggregation in Relational Databases: 
+ Controlled Disclosure of Sensitive Information,'' 
+ Springer-Verlag LNCS, Vol. 875, 1994, pages 431--445.
+                           
+<li> E. Bertino, L. V. Mancini, S. Jajodia, 
+ ``Collecting garbage in multilevel secure object stores,'' 
+ Proc. IEEE Symp. on Research in Security and Privacy, 
+ May 1994, pages 106--120. 
+ 
+<li> P. Ammann,  S. Jajodia, 
+ ``Planer lattice security structures for multilevel replicated databases,'' 
+ Database Security VII: Status and Prospects, 
+ (T. F. Keefe and C. E. Landwehr, eds.), 
+ North-Holland, 1994, pages 125--134.
+ 
+<li> V. Atluri, E. Bertino,  S. Jajodia, 
+ ``Achieving stricter correctness requirements in multilevel secure
+ databases,''
+ Jour. of Computer Security, Vol. 2, No. 4, 1993, pages 311--351.
+
+
+<li> S. Jajodia, B. Kogan, and R. Sandhu, ``A multilevel-secure
+object-oriented data model,'' in  Readings in Object-Oriented
+Systems and Applications, D. Rine, ed., IEEE Computer Society Press
+(1995), pages 206--215.
+
+<li> S. Jajodia and R. Sandhu, ``Toward a multilevel secure relational
+data model,'' in Information Security: An Integrated Collection of
+Essays, M. Abrams et al., eds., IEEE Computer Society Press (1995),
+pages 460--492.
+
+<li> S. Jajodia, R. Sandhu, and B. T. Blaustein, ``Solutions to the
+polyinstantiation problem,'' in Information Security: An Integrated
+Collection of Essays, M. Abrams et al., eds., IEEE Computer Society
+Press (1995), pages 493--529.
+
+<li> C. Meadows and S. Jajodia, ``Integrity in multilevel secure
+database management systems,'' in Information Security: An Integrated
+Collection of Essays, M. Abrams et al., eds., IEEE Computer Society
+Press (1995), pages 530--541.
+
+<li> S. Jajodia and C. Meadows, ``Inference problems in multilevel
+secure database management systems,'' in Information Security: An
+Integrated Collection of Essays, M. Abrams et al., eds., IEEE Computer
+Society Press (1995), pages 570--584.
+
+<li> S. Jajodia, S. Gadia, and G. Bhargava, ``Logical design of audit
+information in relational databases,'' in Information Security: An
+Integrated Collection of Essays, M. Abrams et al., eds., IEEE Computer
+Society Press (1995), pages 585--595.
+
+<li> S. Jajodia, B. Kogan, and R. Sandhu, ``A multilevel-secure
+object-oriented data model,'' in Information Security: An Integrated
+Collection of Essays, M. Abrams et al., eds., IEEE Computer Society
+Press (1995), pages 596--616.
+
+<li> R. Sandhu and S. Jajodia, ``Integrity mechanisms in database
+management systems,'' in in Information Security: An Integrated
+Collection of Essays, M. Abrams et al., eds., IEEE Computer Society
+Press (1995), pages 617--634.
+
+<li> E. Bertino, S. Jajodia, and P. Samarati, ``Access Controls in
+Object-Oriented Database Systems -- Some Approaches and Issues,'' in
+Advanced Database Systems, N. R. Adam and B. Bhargava, eds.,
+Springer-Verlag Lecture Notes in Computer Science, Vol. 759 (1993),
+pages 17--44.
+
+<li> R. S. Sandhu and S. Jajodia, ``Data base security controls.''  in
+Handbook of Information Security Management, H. F. Tipton, and Z. A.
+Ruthberg, eds., Auerbach Publishers (1993), pages 481--499.
+<p>
+</font>
+<center><img src="color_line.gif"></center><p>
+</ul>
+</font>
+</body>
+</html>
+ 
+</DOC>

@@ -1,0 +1,59 @@
+
+<DOC>
+<DOCNO>WT03-B16-67</DOCNO>
+<DOCOLDNO>IA072-000459-B012-302</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/ers/annsara.html 137.132.32.55 19970121023456 text/html 1500
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 12:59:44 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 20-Dec-96 18:31:00 GMT
+Content-length: 1319
+</DOCHDR>
+<HEAD>
+<TITLE>ERS1.SAR.RAW CCT FORMAT SPECIFICATIONS</TITLE>
+</HEAD>
+<BODY>
+<H1>SAR Annotated Raw Data</H1>
+
+This product consists of the SAR telemetry data corresponding to 16 seconds of data collection; it also contains all required
+auxiliary data necessary for data processing. 
+<p>
+The product serves two purposes:
+<ul>
+<li>the testing of ERS-1 SAR processors independently from the HDDR system 
+<li>Users interested in full SAR data processing.
+</ul>
+
+<p><hr><p>
+<h2>Product characteristics </h2>
+<pre>
+Scene area (range)          100 km 
+           (azimuth)        110 km 
+Scene size (range)          5616 samples per line  
+           (azimuth)        27000 lines  
+Pixel depth                 16 bits (8 bits I, 8 bits Q) 
+Total product volume        ~ 300 Mbytes 
+Projection                  slant range 
+
+</pre>
+<h2>Media</h2> 
+<ul>
+<li>Exabyte 8200 
+<li>Exabyte 8500
+<li>CDROM 
+</ul>
+<p><hr><p>
+<H1>ERS1.SAR.RAW FORMAT SPECIFICATIONS</H1>
+<dl>
+<DT><dd><A HREF="raw_intro.html">1. INTRODUCTION </A> 
+<DT><dd><A HREF="raw_vol.html">2. VOLUME DIRECTORY FILE FORMAT DEFINITION </A> 
+<DT><dd><A HREF="raw_lead.html">3. LEADER FILE FORMAT DEFINITION </A> 
+<DT><dd><A HREF="raw_data.html">4. DATA SET FILE FORMAT DEFINITION</A> 
+<DT><dd><A HREF="raw_null.html">5. NULL VOLUME FORMAT DEFINITION</A> 
+</dl>
+</BODY>
+
+</DOC>

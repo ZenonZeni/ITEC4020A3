@@ -1,0 +1,95 @@
+
+<DOC>
+<DOCNO>WT03-B15-118</DOCNO>
+<DOCOLDNO>IA093-000999-B026-35</DOCOLDNO>
+<DOCHDR>
+http://www.rosl.com:80/komat2.htm 206.216.148.51 19970121092341 text/html 4036
+HTTP/1.0 200 OK
+Date: Tue, 21 Jan 1997 09:19:21 GMT
+Server: Apache/1.0.2
+Content-type: text/html
+Content-length: 3865
+Last-modified: Thu, 04 Apr 1996 07:57:24 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Komatsu UK - Design of a new arc welding workcell</TITLE> 
+</HEAD>
+<body background="paper3.gif">
+<H1>Komatsu UK - Design of a new arc welding workcell</H1> 
+
+<H2>Workspace user profile</H2>
+
+<P>Komatsu UK manufacture and export a range of excavators worldwide. Their production line is highly automated, using robots to improve quality in the construction of large, steel components.</P>
+
+<H2>The challenge</H2>
+
+<P>Komatsu needed to build a new workcell for a component that previously had to be welded by hand. The component has a number of difficult seams to weld, requiring the welding torch to fit into a confined space.</P>
+
+<P>The component is approximately 2m long and is constructed using steel plate. The welding seams must lie horizontally with the welding torch making an angle of 45 degrees between adjacent faces.</P>
+
+<P>The torch moves at about 15cm per minute, so the part must be positioned carefully for a good weld.</P>
+
+<P>The weld illustrated as A-B in the diagram opposite is a particularly difficult one since the welding torch must fit between two plates to get to the seam.</P>
+
+<H2>Project Aims</H2>
+<P>Weld at least 80% of the seams by robot</P>
+
+<P>Design and evaluate an appropriate positioning device</P>
+
+<P>Evaluate the robot's welding torch design</P>
+
+<P>Test for collisions</P>
+
+<H2>The solution</H2>
+<P>The Komatsu robot (KHY660) was modelled on Workspace and the component was imported in the form of a DXF file. Once this was done a model of a positioner was created.</P>
+
+<P>Originally, a positioner with 3 axes was to be built especially for this task. However, since this was expensive, Komatsu wished to evaluate a spare positioner they had at the plant. This NEI Thompson 2-axis positioner was left over from a previous job but did not appear to offer the same flexibility as the original positioner design.</P>
+
+<P>Workspace was used to test whether this positioner could place the component correctly for all welding seams.</P>
+
+<P>Here is a diagram of the final proposed workcell:-</P>
+ 
+<P>(Note that the clamps used to secure the part to the positioner are not shown.)</P>
+
+<P>The robot work envelope is shown hatched in the diagram to the right and the torch is shown on the weld A-B.</P>
+
+<P>On attempting to "weld" the part, Workspace demonstrated that part of the robot tool would collide with the component in the proposed layout. By interactively changing the positioner joint angles it was discovered that there was one position where the tool could perform the weld without collisions.</P>
+
+<P>The new design (using the 2-axis positioner) was proved to be more effective than the original proposal.</P>
+
+<P>All welds were found to be within reach, although the welding torch length was to be reduced to provide adequate clearance along seam A-B.</P>
+
+<P>The 2-axis positioner exceeded expectations, since it was also capable of carrying a different component for another task within the same workcell setup.</P>
+
+<H2>Komatsu's financial justification for Workspace</H2>
+
+<P>By recycling an unused positioner, cost savings in excess of £60,000 were made.</P>
+
+<P>Time to develop the system was significantly reduced.</P>
+
+<P>Komatsu kept full control over the design process.</P>
+
+1994 Robot Simulations Ltd.
+C.G.Ariss
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<P ALIGN=center><A HREF="index.htm"><IMG SRC="home.gif" ALT="[IMAGE]"></a>[ <A HREF="index.htm">Return to Home Page</A> ]</P> 
+
+<center><IMG SRC="line_col.gif" ALT="[IMAGE]"></img></center>
+
+
+<center><h6><b>Workspace</b> and <b>Robotrak</b> are registered trademarks of Robot Simulations Ltd.</h6>
+
+<h6>Copyright &copy; 1996 Robot Simulations Ltd</h6>
+<h6>Last revision 3 April 1996</h6></center>
+</P>
+
+
+
+</BODY>
+
+</HTML>
+
+</DOC>

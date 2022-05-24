@@ -1,0 +1,112 @@
+
+<DOC>
+<DOCNO>WT03-B19-92</DOCNO>
+<DOCOLDNO>IA064-000379-B004-307</DOCOLDNO>
+<DOCHDR>
+http://www.mainstream-mag.com:80/subscrib.html 206.170.113.62 19970112093004 text/html 3559
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 12 Jan 1997 09:29:26 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Wed, 18 Sep 1996 06:38:05 GMT
+Content-Length: 3361
+</DOCHDR>
+<HTML>
+<head>
+<TITLE> Subscription Info </TITLE>
+</head>
+
+<body>
+
+<center>
+<img width=450 height=158 border=0
+        src=/pics/ms_logo2.gif alt="MAINSTREAM On-Line">
+<p>
+MAINSTREAM Magazine: Subscription Form
+</center>
+
+<form method="post" action="/cgi-oso/mainstream-order.pl">
+<p>
+<hr>
+<tt><b>Billing Info</b></tt><br>
+<p>
+The section is to designate name and address so that we may process your 
+subscription.  If you are sending this subscription to a different location,
+you may enter that information in the <tt>delivery section</tt>.
+<p>
+
+<pre>
+      First Name:  <INPUT NAME="fname" size=20>
+       Last Name:  <INPUT NAME="lname" size=20>
+       Address 1:  <INPUT NAME="add1" size=41>
+       Address 2:  <INPUT NAME="add2" size=41>
+            City:  <INPUT NAME="city" size=20> State/Province: <input name="state" size=2>
+         Country:  <INPUT NAME="country" size=30>
+ Zip/Postal Code:  <INPUT NAME="zip" size=13>
+   Email Address:  <INPUT NAME="email" size=30>
+    Phone Number:  <INPUT NAME="voicephone" size=15>
+      FAX Number:  <INPUT NAME="faxphone" size=15>
+</pre>
+<p>
+
+<hr>
+<tt><b>Subscription Info</b></tt><br>
+<p>
+Price in U.S.: $24.00 (1 Year, 10 Issues), $44 (2 years, 20 Issues) U.S. 
+dollars.  Canada $44 (U.S.) for one year; other non-U.S. nations 
+$52 for one year.
+ 
+<pre>
+   Quantity   Media                  Length
+   <INPUT NAME=quantp value=0 size=5>     Print                   <select name=lenp> <option value=1>1 Year ($24.00) US Only <option value=2>2 Year ($44.00) US Only <option value=3>1 Year ($44.00) Canada Only <option value=4> 1 Year ($52.00) All Other Nations </select>
+   <INPUT NAME=quanta value=0 size=5>     Audio                   <select name=lena> <option value=1>1 Year ($24.00) US Only <option value=2>2 Year ($44.00) US Only <option value=3>1 Year ($44.00) Canada Only <option value=4> 1 Year ($52.00) All Other Nations </select>
+   <INPUT NAME=quantd value=0 size=5>     <select name=disktype> <option>Mac<option>PC</select>Computer Disk    <select name=lend> <option value=1>1 Year ($24.00) US Only <option value=2>2 Year ($44.00) US Only <option value=3>1 Year ($44.00) Canada Only <option value=4> 1 Year ($52.00) All Other Nations </select> 
+</pre>
+
+<p>
+
+<hr>
+<tt><b>Delivery Info</b></tt><br>
+<p>
+If you would like this subscription delivered to different address than above,
+please use the following section to let us know.
+
+<pre>
+      First Name:  <INPUT NAME="dfname" size=20>
+       Last Name:  <INPUT NAME="dlname" size=20>
+       Address 1:  <INPUT NAME="dadd1" size=41>
+       Address 2:  <INPUT NAME="dadd2" size=41>
+            City:  <INPUT NAME="dcity" size=20> State/Province: <input name="dstate" size=2>
+         Country:  <INPUT NAME="dcountry" size=30>
+ Zip/Postal Code:  <INPUT NAME="dzip" size=13>
+</pre>
+<p>
+
+<hr>
+<tt><b>Payment Info</b></tt><br>
+<p>
+Thank you for patronage.  Please seend your payment in the form of 
+Cash, Check, or Money Order to ...
+
+	Send to:
+	<ul>
+		<b>Mainstream</b><br>
+		2973 Beech Street, Suite I<br>
+		San Diego, CA 92102<br>
+		Telephone: (619) 234-3138<br>
+		FAX: (619) 234-3155<br>
+	</ul>
+<p>
+
+<input type="submit" value="Submit Your Order!"> </form>
+</form>
+
+<p>
+<hr>
+<a href="index.html"> Back to the MAINSTREAM Home page </a>
+
+</body>
+</html>
+
+</DOC>

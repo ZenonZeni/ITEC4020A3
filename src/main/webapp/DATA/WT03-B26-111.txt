@@ -1,0 +1,407 @@
+
+<DOC>
+<DOCNO>WT03-B26-111</DOCNO>
+<DOCOLDNO>IA028-000298-B042-42</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/pubs/dest_la/www/chap2b.htm 138.44.40.1 19970114175040 text/html 19182
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 17:48:36 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Tue, 27 Feb 1996 04:47:46 GMT
+Content-length: 19007
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word 1.0Z">
+<META NAME="AUTHOR" CONTENT="Wildlife & Ecology">
+</HEAD>
+
+<BODY>
+<HR>
+
+<H3>Quantifying The Disturbance. </H3>
+<HR>
+
+<P>
+Space data was the only data type that met the requirements for
+conducting this assessment within the resources available; as
+argued earlier in <A HREF="chap1d.htm">The View From Space </A>.
+<P>
+A commercially available, geocoded digital mosaic of Landsat MSS
+data for the entire continent formed the primary dataset for quantifying
+the location, severity and extent of landcover disturbance. The
+strategy and associated methodology are now described.
+<P>
+The principal dimensions of this dataset were two - spectral and
+spatial. There was no temporal dimension. This dataset was taken
+as a time slice of the continental landcover conditions as of
+approximately 1991. No change detection was applied to images
+of different dates. The only time dimension in this analysis was
+an implied one: all (significant) change detected using the 1991
+dataset was assumed to have occurred in the last 200 years. Exactly
+when this change occurred cannot be directly inferred from this
+satellite dataset alone.
+<P>
+The project set out to answer one question - what is the current
+state of the continental landcover?
+<P>
+This we hold, makes a small but significant contribution to a
+national understanding of the severity and location of biotic
+erosion. Another significant contribution will come from quantifying
+the dynamics of landcover change; the rate and location of habitat
+disturbance across the continent. There are limits to this second
+question. The high spatial and temporal resolution of landcover
+change is only possible using satellite data since 1972; eg see
+<A HREF="refs.htm">Graetz et al (1992), Sivertsen (1994), Wilson et al (1993)</A>.
+The rates of clearing can be determined further into the past
+using archived aerial photography and surveyor's maps; eg <A HREF="refs.htm">Hobbs et al (1993)</A>.
+<HR>
+
+<P>
+<A HREF="photocd/0149_007.gif"><IMG SRC="photocds/0149_007.gif" ALIGN="BOTTOM"></A>
+<HR>
+
+<P>
+The spatial dimension of this dataset was determined by its resolution;
+ie by the size of the ultimate unit of data capture and representation,
+or pixel. The pixel size of the supplied dataset was 0.001 x 0.001&#176;,
+or approximately 1 hectare. Thus the continental aggregate represented
+a very large data volume to process. What is more important, this
+fine spatial resolution was far, far greater than that of the
+Natural Vegetation dataset. The latter was published at a scale
+of 1:5,000,000 and appears to have an intrinsic resolution of,
+at best, 1 km2, or more realistically 25 km2. Thus, this basic
+dataset was 2500 times more coarse than the Landsat source dataset.
+Therefore, the Landsat MSS dataset was resampled to 0.005 x 0.005&#176;
+(&#152;500 x 500 m or 25 ha) for the analysis and further resampled
+to exactly 1 x 1 km for reporting.
+<P>
+The de-focusing of the satellite dataset may, at a superficial
+glance, seem to reduce the acceptance of the findings. Hectare-sized
+patches of landscape are human-scaled and easily experienced.
+An area twenty-five times larger is less easily imagined in the
+mind's eye, and therefore commands less validity. Nonetheless,
+the use of coarse (25 ha) rather than a finer-grained (1 ha) pixel
+size introduces insignificant error in the overall assessment.
+<HR>
+
+<P>
+<A HREF="reptill/brisbane.gif"><IMG SRC="reptills/brisbane.gif" ALIGN="BOTTOM"></A>
+<P>
+<I>The 1: 1, 000, 000 scale map sheet BRISBANE covering the city
+of Brisbane, the nearby coast and inland; total area approximately
+120, 000 km2. Even with a pixel size of 25 ha, there is an abundance
+of detail in the image. Fine details of the dunes and sand blowouts
+on Fraser Island are detectable, as are subtle and obvious patterns
+within the landscape as a whole. Overall, a visual appreciation
+of the extent of clearing and fragmentation of the original vegetation
+is easily obtained. If you can do this, then you have instinctively
+learned to assimilate both the spectral (colour) and spatial (grain)
+dimensions of satellite images. The computer techniques used in
+this project imitate the analysis and assessment that you have
+just made. </I><HR>
+
+<P>
+The final dimension of the satellite dataset - the spectral dimension
+- was the most critical because it determines what information
+can be derived. MSS data has four spectral channels, traditionally
+labelled from #4 to #7, each giving four values for the reflected
+light from each pixel regardless of its size. For most landcover
+types, these four wavebands are highly correlated and can be reduced
+to two: a measure of cover and of greenness. Cover includes both
+the cover of dark foliage over the brighter soils and the shadows
+within a canopy. Greenness is a measure of the abundance of young
+and vigorous leaves within the canopy, be they trees, shrubs or
+the herbaceous understorey.
+<P>
+Under dry conditions, ie with no preceding rainfall, the cover
+of live vegetation is linearly but inversely related to the brightness
+of one channel, the reflected red radiation recorded as MSS #5.
+In this waveband, the intact woody canopy is dark whereas that
+of the replacement crop, pasture, or even bare soil, is bright.
+In addition, for the interpreter digitally interacting with this
+image, there are both spectral and spatial clues to what is cleared,
+and what is uncleared woody vegetation. It is remarkably easy
+for a human to correctly interpret a complex image. It is considerably
+more difficult to achieve the same result using a computer. The
+concepts discussed above are illustrated using an image of the
+Armidale area of eastern Australia.<HR>
+
+<P>
+<A HREF="reptill/armidale.gif"><IMG SRC="reptills/armidale.gif" ALIGN="BOTTOM"></A>
+<P>
+<I>The 1: 1, 000, 000 scale map sheet ARMIDALE; total area approximately
+120, 000 km2. Setting aside the unnatural or false colours of
+the image, just using the clues of tone (light to dark) and the
+spatial pattern or texture within the image makes a rapid interpretation
+of what is undisturbed natural vegetation, and what has been cleared
+for pastures and crops. Much of the remnant natural vegetation
+is restricted to areas of significant topographic relief: here
+in the ILZ, relief is the most frequent protection against future
+clearing. The intensity of the red colour indicates the level
+of greenness in the landcover. In this scene, both remnant natural
+vegetation and some of the pastures were green on the ground and
+were thus portrayed as red in this image. The several smoke plumes
+and their location indicate the continuing nature of landcover
+disturbance.</I><HR>
+
+<H4>Clearing </H4>
+
+<P>
+All spectral channels of the satellite dataset were used to understand
+and interpret the images for all vegetation types. For the Intensive
+Landuse Zone, the objective of the assessment was to allocate
+each pixel into one of five disturbance classes; uncleared, thinned,
+cleared, indeterminate, and other.
+<P>
+The uncleared class was characterised by having an intact canopy;
+this being determined relative to all the remnants of any landcover
+type. The uncleared class may be disturbed by grazing but within
+the ILZ, this was disturbance that could not be separated from
+clearing.<HR>
+
+<P>
+<A HREF="photocd/0508_016.gif"><IMG SRC="photocds/0508_016.gif" ALIGN="BOTTOM"></A>
+<HR>
+
+<P>
+For the landcover types with an open and sparse canopy, ie projected
+foliage cover (pfc) &lt; 30%, it was difficult to separate clearing,
+the loss of the overstorey, from the effects of acute overgrazing,
+the loss of the understorey. This difficulty was one of the two
+principal sources of error; see below.<HR>
+
+<P>
+<A HREF="photocd/0152_032.gif"><IMG SRC="photocds/0152_032.gif" ALIGN="BOTTOM"></A>
+<HR>
+
+<P>
+The cleared class was characterised by the effective replacement
+of the canopy with a herbaceous layer of crop or pasture plants.
+Here the overstorey cover was assessed to be reduced to &lt; 5%;
+ie scattered or no trees. The thinned class was determined to
+be an intermediate class of tree cover between uncleared and cleared.
+It was included to increase understanding of the severity of clearing.
+It is our contention that, in terms of biotic erosion, thinned
+and cleared are effectively equivalent.<HR>
+
+<P>
+<A HREF="photocd/0149_016.gif"><IMG SRC="photocds/0149_016.gif" ALIGN="BOTTOM"></A>
+<HR>
+
+<P>
+The indeterminate class was assigned by the analyst to two situations.
+The most common was where an allocation to clearing was not ecologically
+meaningful; eg for a naturally occurring grassland. More rarely,
+it was used to indicate that isolated clearing could be detected
+by the interpreter but not consistently detected by computer analysis.
+This occurred principally in the Northern Territory where what
+little clearing has occurred was scattered within a very seasonally
+dynamic landscape. The other class was reserved for lakes mapped
+within the Natural Vegetation dataset.
+<P>
+Overall the procedure was straightforward. The allocation decision
+rules were based on the expert judgement of the analyst (Graetz)
+after intensive examination of the satellite data in digital format.
+Decisions were made only after a visual reconnaissance of the
+scene and a consultation of ancillary data (maps, etc.).
+<P>
+After prolonged exploration of the image data for any one vegetation
+type, the analyst selected MSS #5 values that separated uncleared
+from thinned, and thinned from cleared. Those values and this
+channel alone were used to allocate each pixel into one of these
+three disturbance classes. Since the Landsat MSS #5 data were
+continuous in nature with no obvious thresholds, the choice of
+MSS #5 values varied by landcover type and by climatic region.
+Thus expert judgement was critical in assigning values to classes.
+The allocation process was then computerised.
+<P>
+We reiterate the point that even at the finest spatial resolution
+of 0.001 x 0.001&#176;, a pixel contains a mixture of landscape
+elements - tree canopies, shadows, understorey and so forth. This
+was particularly so with the pixel size used here, 0.005 x 0.005&#176;,
+where the full spectra of mixtures of overstorey and understorey
+are possible. The category thinned was created to capture the
+most uncleared part of this spectrum where the canopy was approximately
+half that of the uncleared state. The category of cleared will
+also comprise spectrum mixtures from totally treeless to sparse
+scattered trees. The broad classification was adequate for the
+focus of this project; ie quantifying that area of landcover that
+was uncleared.
+<P>
+Because of the nature of the number of decision classes and artefacts
+within the MSS dataset, there are uncertainties associated with
+the assessment values derived. These errors are most usefully
+discussed in relation to the uncleared category as being either
+errors of commission, where the true value for the uncleared category
+is inflated, or omission, where actual value for this category
+is diminished. Both error types were unavoidably included in the
+analyses reported here.<HR>
+
+<P>
+<A HREF="photocd/1863_028.gif"><IMG SRC="photocds/1863_028.gif" ALIGN="BOTTOM"></A>
+<HR>
+
+<P>
+A large and consistently occurring error of commission results
+from the cleared grassy landscapes often being green and actively
+growing at the time of image acquisition. This tends to darken
+them towards the signature of cleared woody canopies with the
+result that a proportion of the cleared class was allocated to
+uncleared. One example of this error of commission is in Armidale
+image where green actively growing pasture (reddish in colour)
+occurs in a N-S strip just to the west of the Great Dividing Range.
+This landcover is obviously non-woody canopy, being quite distinct
+to the eye from the neighbouring forested upland remnants. Nonetheless,
+it was impossible to set decision rules that consistently separated
+this green pasture from the surrounding forest remnants because
+those to the east were also green and actively growing (reddish
+in colour) while those remnants to the west were not.
+<P>
+This source of uncertainty was inherent in the dataset and intensive
+and systematic efforts to remove it failed. Moreover, careful
+selection of decision rules to minimise this error lead to the
+converse omission error in the drier, less dense canopies. Overall,
+a strategy was followed to minimise the size of the error and
+to stabilise its sign; ie consistently to one of commission or
+omission. The decision rules for the uncleared category were always
+set not only to achieve the smallest uncertainty possible in the
+situation, but also to keep the error consistently one of commission.
+Furthermore, the emphasis was on getting the values correct for
+the more mesic landcover types, the forests and woodlands. This
+strategy was hampered by significant variation within the dataset
+that was not related to the surface. The net result was that there
+were both errors of commission and omission in the results reported
+here. The difficulty is illustrated by the Albany image. <HR>
+
+<P>
+<A HREF="reptill/albany.gif"><IMG SRC="reptills/albany.gif" ALIGN="BOTTOM"></A>
+<P>
+<I>The south-west of Western Australia. This area experiences
+both high rainfall and cloud cover almost all the year. As a consequence,
+the cleared areas of crops and pastures, are usually green. Under
+these conditions, it was far more difficult to separate uncleared
+from cleared for landcovers near the coast than it was in the
+drier inland. Significant errors of commission and omission were
+possible with small changes in the decision rules set for this
+scene that is a spectacular example of loss and fragmentation
+of natural vegetation.</I><HR>
+
+<H4>Grazing And Burning </H4>
+
+<P>
+The objective for the Extensive Landuse Zone of the continent
+was to use satellite data to allocate part or whole of each vegetation
+type to one of the following disturbance categories: slight, substantial,
+significant, indeterminate, and other.
+<P>
+The allocation was to reflect the contemporary level of disturbance
+imposed by the two principal agents of landuse; grazing by domestic
+stock, and to a much smaller extent, repeated burning. The impact
+of grazing is by far the most influential in generating both systemic
+and cumulative landcover changes.
+<P>
+The temporary and cumulative impacts of grazing on the landcover
+can be detected and interpreted using satellite data for most
+vegetation types. Similarly, even though the dataset used was
+uni-temporal, some appreciation of the nature of the fire regimes
+can be interpreted, but this was far less certain than that for
+grazing.<HR>
+
+<P>
+<A HREF="photocd/1865_076.gif"><IMG SRC="photocds/1865_076.gif" ALIGN="BOTTOM"></A>
+<HR>
+
+<P>
+The critical difference between the assessment of grazing and
+burning, and that for clearing, was that the former cannot be
+implemented by computer. The assessment of the disturbance level
+can only be based on expert decision and opinion; a decision that
+was reached only after detailed interpretation of the spectral
+and spatial patterns within the image, and the integration of
+ancillary data.
+<P>
+The subjective component of this assessment was thus higher than
+that involved in the assessment of clearing. To maintain a high
+level of transparency, the source document contains example images
+that explain and support the decision taken for each vegetation
+type. <HR>
+
+<P>
+The nature of the evidence and its interpretation is exemplified
+by the Rawlinna image.
+<P>
+<A HREF="reptill/rawlinna.gif"><IMG SRC="reptills/rawlinna.gif" ALIGN="BOTTOM"></A>
+<P>
+<I>The Nullarbor Plain near Rawlinna, Western Australia, pastorally
+occupied and a part of the ELZ. The predominant landcover type
+is a low open chenopod shrubland - bluebush and saltbush country
+- with sparse mulga inland. The landcover consequences of pastoralism
+are quite obvious from 900 km in space and with a coarse ground
+resolution of 25 ha. The landcover change within whole paddocks
+and around watering points can easily be detected and assessed
+by eye. The level of disturbance here ranges from substantial
+to significant. However, when this relatively small area of this
+landcover type was considered along with the all the others not
+within this scene, the disturbance level was assessed overall
+as substantial.</I><HR>
+
+<P>
+Where natural grasslands (xG) were designated by the Natural Vegetation
+dataset within the ILZ, they were allocated to the indeterminate
+class for the clearing assessment and manually interpreted for
+the ELZ.
+<P>
+Finally, there is no category for undisturbed. There is no vegetation
+type that was absolutely undisturbed by the direct (landuse) or
+indirect (feral animal) effects of human activity. Therefore we
+used a relative scale: by definition landcover types that were
+designated unused or protected by tenure were used as benchmarks
+for the assessment and were always set to disturbance category
+1, slight.
+<P>
+Furthermore, the disturbance rating that was finally assigned
+took into account local variations in disturbance level, such
+as shown in the <B>Rawlinna image </B>above, as well as the condition
+of the landcover type that occurred within the ILZ but was not
+actually cleared.<HR>
+
+<H4>Doing It Yourself </H4>
+
+<P>
+At this point, the reader may be less than convinced that all
+of this interpretation and assessment of landcover disturbance
+is possible using satellite data.
+<P>
+It is not easy to illustrate this without drowning the argument
+with images. Therefore we have included a set of images covering
+the continent in a section called <A HREF="ausindex.htm">Exploring Your Country</A>.
+Each image covers one sheet of the excellent 1:1, 000, 000 map
+sheet series and are named accordingly. We recommend that you
+explore your country using each of these images (5&#176; x 6&#176;
+in size) and try to interpret the type and level of landcover
+disturbance that you can detect.
+<P>
+For the ILZ, the interesting areas are in the south-western corner
+of Western Australia, New South Wales and Queensland. For the
+ELZ, the interesting areas are South Australia, the Northern Territory,
+Queensland and Western Australia.
+<P>
+If you have a particular interest in the state of the national
+forests, then examine New South Wales, Victoria and Tasmania.
+<HR>
+
+<P>
+<A HREF="contents.htm"><IMG SRC="contents.gif" ALIGN="BOTTOM"></A>
+<A HREF="chap2a.htm"><IMG SRC="previous.gif" ALIGN="BOTTOM"></A>
+<A HREF="chap2c.htm"><IMG SRC="next.gif" ALIGN="BOTTOM"></A> 
+<HR>
+
+</BODY>
+
+</HTML>
+</DOC>

@@ -1,0 +1,2598 @@
+
+<DOC>
+<DOCNO>WT02-B05-91</DOCNO>
+<DOCOLDNO>IA095-001027-B015-99</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/ciec/transcripts/April_12_Vezza.html 205.177.10.31 19970215013049 text/html 84751
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 01:29:26 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>Testimony of Dr. Albert Vezza</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<H2>Testimony of Dr. Albert Vezza, MIT and the World Wide Web 
+Consortium</H2>
+<STRONG>April 12, 1996</STRONG> 
+<PRE>
+
+    14                                 AFTERNOON SESSION
+
+    15                    THE CLERK:  All rise.
+
+    16                    JUDGE SLOVITER:  Good afternoon.  
+
+    17                    JUDGE DALZELL:  Good afternoon.
+
+    18                    JUDGE SLOVITER:  I hope you are virtually, if not
+
+    19           actually nourished.  
+
+    20                    MR. MORRIS:  Good afternoon, your Honor, I'm John
+
+    21           Morris, counsel for the ALA plaintiffs and somewhat out of
+
+    22           turn, we are presenting Dr. Albert Vezza as our next witness,
+
+    23           he -- next and final witness in this portion of the
+
+    24           proceeding. 
+
+    25                    ALBERT VEZZA, Plaintiffs' Witness, Sworn.
+
+                                                                           145
+
+     1                    THE CLERK:  Please state and spell your name.
+
+     2                    THE WITNESS:  My name is Albert Vezza, V-E-Z-Z-A.
+
+     3                    MR. MORRIS:  Plaintiffs would at this time move that
+
+     4           Mr. Vezza's declaration, signed and submitted to the Court on
+
+     5           April 9th, be accepted as his direct testimony in this case.
+
+     6                    MR. BARON:  Your Honors, good afternoon.  Jason R.
+
+     7           Baron for the Justice Department.  We do not object to Mr.
+
+     8           Vezza's declaration being put into evidence, subject to the
+
+     9           caveat that I will be asking Mr. Vezza questions regarding
+
+    10           his technical expertise on PICs, as opposed to his general
+
+    11           familiarity with PICs, during the course of my 
+
+    12           cross-examination and his declaration will be submitted
+
+    13           subject to his expertise as an expert on the areas that I
+
+    14           question him about.
+
+    15                    JUDGE SLOVITER:  Fine.  Our rulings have been
+
+    16           consistent on this matter.
+
+    17                    MR. MORRIS:  He is now available for examination by
+
+    18           defendants and the Court.
+
+    19                                 CROSS-EXAMINATION
+
+    20           BY MR. BARON:
+
+    21           Q   Good afternoon, Mr. Vezza.
+
+    22           A   Good afternoon, Mr. Baron.
+
+    23           Q   Would you please tell the Court what the W-3 Consortium
+
+    24           is?
+
+    25           A   The W-3C or W-3 Consortium is a consortium of about 130-
+
+                                                                           146
+
+     1           135 companies worldwide that have joined the consortium and
+
+     2           the goal of the consortium is to further the protocols in the
+
+     3           standards -- the de facto standards, if you would.
+
+     4                    JUDGE SLOVITER:  Speak up, please.
+
+     5                    JUDGE BUCKWALTER:  Yes.
+
+     6                    THE WITNESS:  The de facto standards of the
+
+     7           Worldwide WEB.
+
+     8           BY MR. BARON:
+
+     9           Q   And your declaration indicates that you are chairman of
+
+    10           the Worldwide WEB Consortium?
+
+    11           A   That's correct.
+
+    12           Q   The consortium is comprised of a number of companies,
+
+    13           correct?
+
+    14           A   That's correct.
+
+    15           Q   And Microsoft is part of it?
+
+    16           A   Microsoft is a member of the consortium.
+
+    17           Q   Netscape?
+
+    18           A   Netscape is a member of the consortium.
+
+    19           Q   America On Line?
+
+    20           A   America On Line is a member of the consortium.
+
+    21           Q   CompuServe?
+
+    22           A   CompuServe is a member of the consortium.
+
+    23           Q   Prodigy?
+
+    24           A   Prodigy is a member of the consortium.
+
+    25           Q   Could you look at Exhibit 167 in the binder that I've
+
+                                                                           147
+
+     1           provided to you and I believe binders have been provided to
+
+     2           the Court, as well, of defendants' exhibits, starting at 167. 
+
+
+
+     3                    JUDGE BUCKWALTER:  Did you say 167?
+
+     4                    MR. BARON:  Yes, it's a smaller black binder, your
+
+     5           Honors.
+
+     6                    JUDGE SLOVITER:  Here it is, the black.
+
+     7                    JUDGE BUCKWALTER:  Sorry, I had it upside down.
+
+     8           Go ahead.
+
+     9           BY MR. BARON:
+
+    10           Q   At the back of Exhibit 167, there's a listing titled
+
+    11           members of the W-3 Consortium, it's the last three pages of
+
+    12           the exhibit, do you see that listing?
+
+    13           A   Yes.
+
+    14           Q   And you testified at your deposition last Friday that
+
+    15           this was a "pretty good list in terms of accuracy", correct?
+
+    16           A   I said that it was, as of that date it was a pretty good
+
+    17           list.  We try and keep it up to date.  I can't tell you today
+
+    18           whether this list is accurate or not.
+
+    19           Q   Okay.  Now, you would agree, would you not, that there
+
+    20           are benefits to companies in joining the consortium, correct?
+
+    21           A   There is one benefit.
+
+    22           Q   And what is that?
+
+    23           A   You get to sit at the table and argue about what and how
+
+    24           the Worldwide WEB standards should evolve. But in point of
+
+                                                                           148
+
+     1           fact, we give everything away to non-members also.
+
+     2           Q   In fact, at your deposition last Friday, you said that
+
+     3           the benefit was and I quote, that's Page 18, Line 22, I'll
+
+     4           just read it to you, Mr. Vezza, if it's okay.  "You get to
+
+     5           sit at the table and discuss with all of the other members,
+
+     6           the evolution of the protocols of the Worldwide WEB",
+
+     7           correct?
+
+     8           A   That's correct.
+
+     9           Q   There are conferences and advisory meetings and workshops
+
+    10           on the evolution of standards and protocols, correct?
+
+    11           A   That's correct.
+
+    12           Q   Some of the workshop topics have included security and
+
+    13           payment issues, correct?
+
+    14           A   That's correct.
+
+    15           Q   And PICs, correct?
+
+    16           A   That's correct.
+
+    17           Q   We'll get to PICs in a few minutes.  You've had a number
+
+    18           of payment workshops, including one in which VISA, MasterCard
+
+    19           and Microsoft attended to discuss various ideas on payment
+
+    20           mechanisms for credit cards, correct?
+
+    21           A   That's correct.
+
+    22           Q   In fact, on that specific topic, you told me at your
+
+    23           deposition, that there are anticipated other ways of making
+
+    24           payment on the net, including CyberCash, DigitCash and debit
+
+    25           cards, correct?
+
+                                                                           149
+
+     1           A   There will likely be such ways of making payment on the
+
+     2           WEB.
+
+     3           Q   And work on protocols to enable those to occur is
+
+     4           ongoing, correct?
+
+     5           A   That's correct.
+
+     6           Q   And the W-3 Consortium has frequently taken the lead
+
+     7           and/or has made recommendations for the way certain protocols
+
+     8           have evolved on the WEB, correct?
+
+     9           A   Sometimes we lead, sometimes we follow.
+
+    10           Q   And sometimes you make recommendations?
+
+    11           A   And sometimes we make recommendations, that is correct.
+
+    12           Q   The W-3 Consortium is currently working on furtherance of
+
+    13           HTTP, the HyperText Transport Protocol, correct?
+
+    14           A   That's correct.
+
+    15           Q   And W-3C is working on HTML, specifically how to put in
+
+    16           mathematical formulas into HTML documents, correct?
+
+    17           A   That's correct.
+
+    18           Q   And as I indicated before, W-3C has taken the lead on
+
+    19           PICs, correct?
+
+    20           A   That is correct.
+
+    21           Q   Just as a preliminary matter, you agree, Mr. Vezza, with
+
+    22           the proposition that standards are at the heart of the
+
+    23           Internet, correct?
+
+    24           A   Yes, they -- without standards we wouldn't have any
+
+    25           operability.
+
+                                                                           150
+
+     1           Q   With respect to the Internet, if you don't have
+
+     2           predictability, if you don't have a standard, then everything
+
+     3           fragments, correct?
+
+     4           A   That is correct.
+
+     5           Q   And as a general statement subject to exceptions, you
+
+     6           would agree that for the Internet, you have to have a
+
+     7           protocol that suppliers and vendors, platforms and
+
+     8           communication providers adhere to, so that there can be
+
+     9           intercommunication on the Internet --
+
+    10           A   Yes.
+
+    11           Q   -- correct?
+
+    12           A   That's correct.
+
+    13           Q   It's also true, is it not, that the U.S. Government was
+
+    14           heavily involved in the creation of the Internet, correct?
+
+    15           A   Well, let's back up a minute.  I'm not sure that that's 
+
+    16           -- they were involved, but all the people involved were
+
+    17           technical people.  The fact of the matter is the Government
+
+    18           funded lots of the work, early work on the ARPA net.  But it
+
+    19           was the technical people in the university community and in
+
+    20           the laboratories that did all the work of ironing out all the
+
+    21           standards, okay.  The Government supplied the money, it did
+
+    22           not mandate, do it this way.  
+
+    23           Q   You're familiar with the Advanced Research Project
+
+    24           Agency?
+
+    25           A   I am very familiar with the Advanced Research Project
+
+                                                                           151
+
+     1           Agency.
+
+     2           Q   And the acronym for that is ARPA?
+
+     3           A   That's correct.
+
+     4           Q   And ARPA funded the development of the ARPA net through
+
+     5           the 70s and 80s, correct?
+
+     6           A   That is correct.
+
+     7           Q   And the U.S. Government has funded the IETF, correct?
+
+     8           A   They have provided some funding to that, I believe, yes.
+
+     9           Q   And the U.S. Government has funded the creation of the
+
+    10           Internet Society, correct?
+
+    11           A   That is correct, although lots of funding for the
+
+    12           Internet Society now comes from private sources.
+
+    13           Q   And the U.S. Government through the National Science
+
+    14           Foundation, NASA and DOD continues to fund lots of work
+
+    15           today, correct, on the Internet?
+
+    16           A   It funds work associated with the Internet.
+
+    17           Q   Indeed, the U.S. Government also supplied seed money to
+
+    18           the W-3 Consortium itself, correct?
+
+    19           A   That is correct.
+
+    20           Q   ARPA gave 1.5 million for research to M.I.T., of which 50
+
+    21           to $100,000 went to the consortium, correct?
+
+    22           A   That's correct.
+
+    23           Q   Now, your role at W-3C is that of chairman, right?
+
+    24           A   Yes.
+
+    25           Q   And what are your duties?
+
+                                                                           152
+
+     1           A   My duties basically are to make sure that we behave in
+
+     2           the manner that doesn't get us into trouble with our members. 
+
+     3           Okay.  It's very easy to do that.  We are -- we -- develop 
+
+     4           pre-competitive standards software and we try and remain
+
+     5           neutral to the industrial community at large.  And doing that
+
+     6           requires some sophistication, both technically and
+
+     7           managerially and executive-wise.  And that's my role.
+
+     8           Q   You said at your deposition that your responsibilities
+
+     9           would be for what "most people would call marketing", that
+
+    10           is, your responsible for going out and explaining to people
+
+    11           what W-3C does, correct?
+
+    12           A   That's one of the responsibilities, yes.
+
+    13           Q   You have a technical staff at W-3C that works on PICs,
+
+    14           right?
+
+    15           A   Yes, I do.  Not only at W-3C, but at other companies,
+
+    16           also, have contributed heavily to PICs.
+
+    17           Q   And Timothy Burners Lee (ph) runs the team that does all
+
+    18           the technical work, correct?
+
+    19           A   That's correct.
+
+    20           Q   You don't consider yourself one of the technical experts
+
+    21           on the minute details of PICs, correct?
+
+    22           A   That is true.
+
+    23           Q   And you don't purport to having designed any of the exact
+
+    24           structures, of labels or exact structures of the syntax for
+
+    25           servers that's used on PICs, correct?
+
+                                                                           153
+
+     1           A   That is correct.
+
+     2           Q   And you don't claim that you could -- you could design
+
+     3           these structures, correct?
+
+     4           A   I don't claim that I -- I have better staff that can do
+
+     5           it better than I.  I use them to do that.
+
+     6           Q   In fact, you haven't designed any software related to
+
+     7           PICs, that's not your function, correct?
+
+     8           A   That is not my function.
+
+     9           Q   And you haven't designed or constructed any software for
+
+    10           the purpose of labeling documents on the Worldwide WEB or the
+
+    11           Internet, apart from the PICs project, correct?
+
+    12           A   Say that again, I'm sorry.
+
+    13           Q   You haven't designed or constructed any software for the
+
+    14           purpose of labeling documents on the Worldwide WEB or the
+
+    15           Internet, apart from the PICs project?
+
+    16           A   That is correct.
+
+    17           Q   Out of all the documents that appear on the WEB site for
+
+    18           PICs, involving technical specifications, you have authored
+
+    19           only some "presentations", correct?
+
+    20           A   Yes.
+
+    21           Q   Would Defendants' Exhibit 174 be an example of one of
+
+    22           these presentations.  If you turn to that?
+
+    23           A   Let me clarify that.  This presentation, the graphics was
+
+    24           done by someone at Netscape.  I crafted most of the language
+
+    25           that went with it, with some help from the technical staff.  
+
+                                                                           154
+
+     1           Q   You had some input into this?
+
+     2           A   Had a lot of input into it.
+
+     3           Q   Now, you informed me at your deposition that the idea for
+
+     4           PICs came up at an early advisory committee meeting of the W-
+
+     5           3 Consortium around December 14, 1994, correct?
+
+     6           A   That is correct.
+
+     7           Q   And the idea was broached at that meeting about a rating
+
+     8           system like the movie rating system, correct?
+
+     9           A   That is correct.
+
+    10           Q   And thereafter, in July of 1995, there was an article
+
+    11           about pornography on the Internet and many of the W-3C
+
+    12           members started calling up and inquiring about the idea of
+
+    13           putting labels on content, correct?
+
+    14           A   That's correct, but we were working on it before that,
+
+    15           because we had a different idea about labeling.  I mean, the
+
+    16           PICs labeling scheme is a general scheme.  
+
+    17           Q   You told me that, "we've had it in the hopper as some
+
+    18           activity", that was the statement you made at the time,
+
+    19           correct?
+
+    20           A   That's correct.
+
+    21           Q   And there was a workshop in August, '95 where members of
+
+    22           the W-3C set out in earnest to work out on developing the PIC
+
+    23           standard platform for labeling content?
+
+    24           A   Slight correction to that.  There were members of the W-
+
+    25           3C team there, but there were also a number of
+
+                                                                           155
+
+     1           representatives from companies who were not members.  And the
+
+     2           reason they were there was because we felt that they were a
+
+     3           necessary ingredient in this activity.  That is, the content
+
+     4           -- many of the content providers.
+
+     5           Q   And it's your testimony, Mr. Vezza, is it not, that the
+
+     6           issue of pornography on the Internet was and I quote, "one of
+
+     7           the major reasons for going forward", with the PICs project,
+
+     8           correct?
+
+     9           A   It was one of the major reasons why our companies thought
+
+    10           we should go forward with it, not the reasons why we thought
+
+    11           we should go forward with it.
+
+    12           Q   And you were going forward with it whether or not the
+
+    13           July, '95 article came out, correct?
+
+    14           A   That's correct.
+
+    15           Q   But the article had the effect of speeding up the time
+
+    16           frame, correct, for going forward?
+
+    17           A   That's true.
+
+    18           Q   The July article gave you a strong reason for
+
+    19           accelerating PICs development, correct?
+
+    20           A   It gave us a strong reason for -- it gave the companies a
+
+    21           strong reason for asking us to accelerate.
+
+    22           Q   Given the article, W-3C member companies that it would be
+
+    23           a good idea for the industry to come together with a labeling
+
+    24           scheme, correct?
+
+    25           A   I would say that's a fair statement.  
+
+                                                                           156
+
+     1           Q   I'd like to turn to Page 56 of your deposition, which
+
+     2           I've given you.  Let me read a statement from your deposition
+
+     3           about what PICs is and ask you whether you agree with it. 
+
+     4           It's Page 56, Line 6.  I will read the text in the six lines. 
+
+     5           "PICs is a set of protocols which" -- this is your testimony. 
+
+     6           "PICs is a set of protocols which allow a label -- a service
+
+     7           to describe its labeling system -- that's one aspect of it --
+
+     8            to a client or to the recipient of a communication.  It is a
+
+     9           method by which, if all of the vendors adhere to the PIC
+
+    10           standard, then all of the browsers that they develop will be
+
+    11           able to understand a labeling system or rating system, if you
+
+    12           will."  Was that your testimony?
+
+    13           A   It goes on further, but I believe that that's the intent
+
+    14           of it.
+
+    15           Q   But that statement is accurate?
+
+    16           A   Mm-hmm.
+
+    17           Q   And if you turn to Page 58, Line 9, you were talking
+
+    18           about the mission of PICs in your deposition and let me quote
+
+    19           a statement and see if you agree with it.  You said, "If
+
+    20           you're going to label something and you want a piece of
+
+    21           software to take action on that label, the software has to
+
+    22           understand what the label means.  And that's the mission of
+
+    23           PICs.  Is it to allow the software at either a proxy server,
+
+    24           an on line server, Internet access provider or the actual
+
+    25           home computer to understand the label and take the actions
+
+                                                                           157
+
+     1           whether or not to allow the content to be viewed by the
+
+     2           viewer or to block it."  Do you agree with that statement?
+
+     3           A   Yes, but let me read the first part of it.
+
+     4           Q   All right.
+
+     5           A   I think that the sentence before it begins -- is also
+
+     6           important -- a couple sentences.  I used the term browser
+
+     7           understanding and I used it in generic form.  By that, I mean
+
+     8           not only the browser, but all the software beneath it that
+
+     9           accesses the Internet.
+
+    10           Q   And why is that important?
+
+    11           A   Well, because the -- the blocking may occur either in the
+
+    12           browser itself or in some software underneath the browser
+
+    13           that's the actual access port to the Internet.
+
+    14           Q   If you could turn to Exhibit 174, this is the
+
+    15           presentation I referred to earlier.  It is not my intention
+
+    16           to have you walk through the presentation this afternoon, Mr.
+
+    17           Vezza, I just have a couple of questions about it.  If you
+
+    18           would turn to the page that says, ideally, at the top.  
+
+    19                    JUDGE BUCKWALTER:  Ideally?
+
+    20                    MR. BARON:  "Ideally, children use the Internet with
+
+    21           their parents."  It's six pages in.
+
+    22                    JUDGE BUCKWALTER:  What exhibit are we on?
+
+    23                    MR. BARON:  174.  Six pages into the exhibit.
+
+    24                    JUDGE DALZELL:  Defendants' Exhibit 174.
+
+    25                    JUDGE SLOVITER:  Yes.  I'm just commenting that we
+
+                                                                           158
+
+     1           didn't have this before.  This is new to us, right, these
+
+     2           exhibits?
+
+     3                    MR. BARON:  That is correct, your Honor.
+
+     4                    JUDGE DALZELL:  Yes, we haven't referred to this
+
+     5           before?
+
+     6                    MR. BARON:  That is correct, your Honor.
+
+     7                    JUDGE SLOVITER:  We just got it?
+
+     8                    MR. BARON:  Yes.
+
+     9                    JUDGE SLOVITER:  Okay, so we haven't been through
+
+    10           it?
+
+    11                    MR. BARON:  That's right, but this is impeachment
+
+    12           exhibits for purpose of cross-examination.
+
+    13                    JUDGE SLOVITER:  I understand that.  It's just that
+
+    14           --
+
+    15                    MR. BARON:  We do intend to submit this particular
+
+    16           exhibit with other exhibits in our case.
+
+    17                    JUDGE SLOVITER:  I'm not questioning the exhibit,
+
+    18           I'm just saying that I don't know about my colleagues, but
+
+    19           we're looking at it fresh and therefore, don't have -- I
+
+    20           don't have anything intelligent to ask or question, but that
+
+    21           may not matter.  It may not be even if I had it.
+
+    22                    MR. BARON:  Well, if the Court desired at the end of
+
+    23           the question, we could certainly walk through the exhibit or
+
+    24           any other exhibits.
+
+    25                    THE COURT:  Well, that's why -- that's the only
+
+                                                                           159
+
+     1           reason I asked.  But, go ahead, you conduct your examination.
+
+     2                    MR. BARON:  All right, okay.
+
+     3           BY MR. BARON:
+
+     4           Q   Could you explain to the Court what this page, which says
+
+     5           "Ideally, children use the Internet with their parents"  and
+
+     6           the next page were purporting to represent?
+
+     7           A   Purports to represent a child sitting with a parent
+
+     8           making -- having access to the Internet.  And the next page
+
+     9           says but parents may not always be present and children may
+
+    10           run into an inappropriate material.
+
+    11           Q   You told me at your deposition that with respect to the
+
+    12           second page, we show -- well, with respect to these two
+
+    13           pages, we show a child using the Internet -- this is Page 89,
+
+    14           Line 7 of the deposition -- "We show a child using the
+
+    15           Internet with a parent supervising and that's an ideal
+
+    16           situation.  Unfortunately, that ideal situation is not always
+
+    17           the case, very often a child is using the Internet without a
+
+    18           parent's supervision."  Do you agree with that statement?
+
+    19           A   Where is that?
+
+    20           Q   You made it in your deposition at Page 89, Line 7.
+
+    21           A   Line 7.  Yes.
+
+    22           Q   Could you turn to a couple of pages after this in Exhibit
+
+    23           174.  There is a scenario, one --
+
+    24           A   Where?
+
+    25           Q   It's three -- three pages after the last page we referred
+
+                                                                           160
+
+     1           to.  
+
+     2           A   Yes.
+
+     3           Q   Could you tell the Court briefly what this scenario is
+
+     4           getting at?
+
+     5           A   The scenario is getting at a parent using a system of
+
+     6           Netscape and create -- or Microsoft Explore and creating a
+
+     7           profile for the child, so that the child can only access
+
+     8           materials that the parent deemed is appropriate for the child
+
+     9           to see.  
+
+    10           Q   If you look at the next page, could you explain what the
+
+    11           box that's checked block unrated sites means in the context
+
+    12           of this page?
+
+    13           A   In the context of this page, the parent has decided that
+
+    14           this ten year old child is not -- does not have the
+
+    15           sophistication or the maturity to handle material that is --
+
+    16           might have some sexual connotation, but that has not been
+
+    17           rated yet and therefore, has checked block unrated sites, so
+
+    18           that the only material a child will be able to have access to
+
+    19           is that material which is specifically rated.
+
+    20           Q   In a PICs --
+
+    21           A   According to the child's criteria.
+
+    22           Q   -- in a PICs compatible format?
+
+    23           A   In a PICs compatible format.
+
+    24           Q   And that's one way PICs works.  And PICs also works --
+
+    25           that's correct, right?  One way it block all --
+
+                                                                           161
+
+     1           A   That's one way --
+
+     2           Q   -- unrated sites?
+
+     3           A   -- right.  And another way would be not to check that and
+
+     4           if you look further on in this presentation for the 16 year
+
+     5           old child, the parent has chosen not to check block unrated
+
+     6           sites, because the parent has a feeling that the child is
+
+     7           mature enough to know the family's values and how to avoid
+
+     8           that material.
+
+     9           Q   Okay, that's all I'm going to have with that exhibit. 
+
+    10           Now, PICs allows a content provider to place a label on the
+
+    11           content of a document, correct?
+
+    12           A   That's correct.
+
+    13           Q   And it also allows a third party to rate content,
+
+    14           correct?
+
+    15           A   A third party may rate content.  He may give it to the
+
+    16           content provider or he may put it in a bureau.
+
+    17           Q   When a content provider is rating his or her own content
+
+    18           on the Internet, that's referred to as self-rating, correct?
+
+    19           A   That is correct.
+
+    20           Q   Now, it's your view that where a PICs label is put in a
+
+    21           document is immaterial, correct?  
+
+    22           A   No, I went back and checked the specs after my deposition
+
+    23           and it appears in two places if it's put in the document. 
+
+    24           It's either put in the HTTP header or it's put into MediTech,
+
+    25           you're right, Mr. Baron.
+
+                                                                           162
+
+     1           Q   Let's look at Page 62 of your deposition, Line 7 and
+
+     2           through 16.  And I understand that what you've stated just
+
+     3           now -- let me give you a chance to read --
+
+     4           A   Line?
+
+     5           Q   -- that passage - from Line 7 to 16.  Let me read it for
+
+     6           the Court.  "Answer" -- well, a question, "Could you describe
+
+     7           the technical steps of where a label would be put?"  "Answer: 
+
+     8           Where a label is put is immaterial.  All that has to happen
+
+     9           is that when a client reaches for a particular activity, a
+
+    10           particular URL and says, give me that content, that the label
+
+    11           arrive at the client before the content or that the -- that's
+
+    12           not even necessary, depending upon how the folks who build
+
+    13           browsers decide to do it.  All that's required is that the
+
+    14           label arrive at the Browser and the Browser examined the
+
+    15           label and determined whether to show that URL -- the contents
+
+    16           of that URL."  Now, aside from the tag or where it's put in
+
+    17           the header and that is the rest of that passage, correct?
+
+    18           A   Well, the issue here is whether or not it's attached to
+
+    19           the document that's coming or whether there's a label bureau
+
+    20           that supplies the label by itself.  In other words, you reach
+
+    21           for the document and you say, well, wait a minute, go off the
+
+    22           Label Bureau, get the labels for that document and bring him
+
+    23           back.  And then get the document if the label is okay.'  So,
+
+    24           that's what I was trying to drive at when I made those
+
+    25           comments.
+
+                                                                           163
+
+     1           Q   Okay.  Now, with respect to is there content creators in
+
+     2           the first way, the self-writing method.  The method of
+
+     3           labeling may vary from place to place.  For example, Company
+
+     4           A might automatically prompt you to label a page when you
+
+     5           start creating it and place the label somewhere, is that
+
+     6           correct, that's one methodology?
+
+     7           A   Say that -- I'm sorry, I'm missing --
+
+     8           Q   Well, you -- you testified that there were different
+
+     9           methods of labeling for PICs compatible labels.  And one
+
+    10           method, that is in your deposition, one would be where you
+
+    11           might automatically be prompted to label a page when you
+
+    12           start creating it and in a different methodology, a different
+
+    13           institution might require the labeling based on a set of HTML
+
+    14           creating tools, is that correct?
+
+    15           A   Are we talking about -- I'm missing something here -- are
+
+    16           we talking about creating labels when you're creating a
+
+    17           document or are we talking about when labels come down to be
+
+    18           read by a browser or the client software, to be interpreted
+
+    19           as to whether or not to show that software?  I don't
+
+    20           understand the question.
+
+    21           Q   Why don't you look at Page 63, Lines 16 through 23 of
+
+    22           your deposition?  Tell the Court what you were getting at
+
+    23           there?
+
+    24           A   What I was getting at there, in this instance here, the
+
+    25           question was "How" -- let's look at the question.  I -- the
+
+                                                                           164
+
+     1           way I understood the question was how would labels be
+
+     2           created?  And what I responded to here is that it's up to the
+
+     3           people who create the software, who allow you to create
+
+     4           documents for the Worldwide WEB or the Internet, as to how
+
+     5           they will prompt you to create the label.
+
+     6           Q   Okay.  
+
+     7           A   And that's all I'm saying.  And it could happen, I mean -
+
+     8           -
+
+     9           Q   In a variety of way?
+
+    10           A   -- in a variety of ways.
+
+    11           Q   Right.
+
+    12           A   And that each of the designs would be fine.
+
+    13           Q   Okay.  PICs compatible self-labeling is not in widespread
+
+    14           use today, correct?
+
+    15           A   That is correct.
+
+    16           Q   In fact, you don't personally know of anyone who has
+
+    17           actually self-labeled their own site with PICs, as of today,
+
+    18           correct?
+
+    19           A   That is correct.
+
+    20           Q   How many different ratings systems are possible in PICs?
+
+    21           A   Many rating systems are possible, but I don't think that
+
+    22           that will happen in the market place.
+
+    23           Q   PICs doesn't rate sites on a single number or value,
+
+    24           correct?
+
+    25           A   That is correct.  In PICs, you are able to distinguish
+
+                                                                           165
+
+     1           between literature which might have some explicit content in
+
+     2           it or just pornography.  In fact, PICs is general  enough so
+
+     3           that you could use the Dewey Decimal System, you could use
+
+     4           the Library of Congress system.  You can use any kind of
+
+     5           system you'd like to provide a label.  And that's its
+
+     6           flexibility and its power.
+
+     7           Q   There are innumerable numbers or values possible under
+
+     8           PICs, correct?
+
+     9           A   That is correct.
+
+    10           Q   The categories in PICs can be quite complex, correct?
+
+    11           A   The categories in PICs are meant to differentiate
+
+    12           subtleties in all of the material that's on line.
+
+    13           Q   Can you look at Defendants' Exhibit 175.  It's a document
+
+    14           that has a title, Rating Services and Rating Systems and
+
+    15           their machine readable descriptions.
+
+    16           A   Yes.
+
+    17           Q   Do you recall my showing you this exhibit at your
+
+    18           deposition?
+
+    19           A   Yes.
+
+    20           Q   And you had seen earlier versions of this document,
+
+    21           correct?
+
+    22           A   I have seen earlier versions of this document, that's
+
+    23           correct.
+
+    24           Q   Can you turn to Appendices -- well, look at A, B and C,
+
+    25           but start with A?  It's --
+
+                                                                           166
+
+     1                    JUDGE DALZELL:  Appendix A to Exhibit 175?
+
+     2                    MR. BARON:  Yes, it's Page 7 of 12, at the lower 
+
+     3           left-hand corner. 
+
+     4           BY MR. BARON:
+
+     5           Q   This is a hypothetical rating service called Good Clean
+
+     6           Fun, correct?
+
+     7           A   That is correct.
+
+     8           Q   It is presented to be in PICs compatible format, correct?
+
+     9           A   That's correct.
+
+    10           Q   And the document says this is, "one of the simplest
+
+    11           possible rating systems, using a single-category, minimum
+
+    12           recommended age, we present the machine description for a
+
+    13           fictional service that uses this rating system."  Do you see
+
+    14           where it says that?
+
+    15           A   Yes.
+
+    16           Q   And that would be one of the simplest possible rating
+
+    17           systems, correct?
+
+    18           A   It's a simple rating system, that's correct.
+
+    19           Q   You told me at your deposition that with respect to
+
+    20           Appendix B, that you had a passing acquaintance with the RSAC
+
+    21           rating service?
+
+    22           A   Yes, I've talked to the folks there about it.  I talked
+
+    23           to our own staff about it.
+
+    24           Q   Could you explain for the Court what -- how this rating
+
+    25           service works in terms of being in the PICs compatible
+
+                                                                           167
+
+     1           format?
+
+     2           A   That the example here is in PICs compatible format, okay. 
+
+     3           Now, I'm --
+
+     4           Q   The number of categories.
+
+     5           A   -- do you want me to go through line by line?
+
+     6           Q   No, but there are a number of categories here described
+
+     7           as values that you didn't put in PICs, right?
+
+     8           A   Oh, sure.  There's -- well, let's look down, there's a
+
+     9           lot of -- one of the labels is the amount of violence.
+
+    10           Q   Well, why don't we go down to the bottom of the page
+
+    11           where there is nudity and sex?
+
+    12           A   Okay.
+
+    13           Q   And there are label descriptions in categories, none or
+
+    14           values 0, 1, 2, 3, correct?
+
+    15           A   Yes.
+
+    16           Q   And 4 on the next page?
+
+    17           A   That's correct.
+
+    18           Q   And they're -- different standards apply to the labels?
+
+    19           A   And the different standards apply.
+
+    20           Q   Okay.
+
+    21           A   None is zero, revealing attire is number one.  Partial
+
+    22           nudity is number two.  Frontal nudity is number three. 
+
+    23           Provocative frontal nudity is number four.
+
+    24           Q   And you told me that with respect to Appendix C, the same
+
+    25           self-writing system you weren't familiar with that one?
+
+                                                                           168
+
+     1           A   I'm not as familiar with it, no, I'm not.
+
+     2           Q   But looking at it, it does look like it's more detailed
+
+     3           than Appendix B and A, correct?  In terms of the number of
+
+     4           values assigned to the labels?
+
+     5           A   Yes, in terms of the number of values, that's true.
+
+     6           Q   With respect to -- that's all I'm going to do with that
+
+     7           exhibit.  With respect to all of these ratings, PICs will
+
+     8           allow a content rater or a third party rater to rate a whole
+
+     9           site, correct?
+
+    10           A   That is correct.
+
+    11           Q   Or individual pages within a site, correct.
+
+    12           Q   Or files.
+
+    13           A   Or files.
+
+    14           A   You can ave --
+
+    15                    JUDGE SLOVITER:  What was that word?
+
+    16                    MR. BARON:  Granularity.
+
+    17                    MR. BARON:  Maybe you can explain it to Judge
+
+    18           Sloviter.
+
+    19                    JUDGE SLOVITER:  Nobody else can -- everybody else
+
+    20           can stop listening.  
+
+    21                    MR. BARON:  And to the rest of us?
+
+    22                    THE WITNESS:  We talk about granularity when we say
+
+    23           if you're going to rate a site or a generic label for the
+
+    24           whole site, then you should apply the label to that site,
+
+    25           which is the most conservative label for the whole site.  If
+
+                                                                           169
+
+     1           you want to then go down deeper and label pieces of that
+
+     2           site, we say that's more granular labeling and you can label
+
+     3           a variety of pieces of that site.  In fact, you can label all
+
+     4           -- every place where you can have an entry point you can
+
+     5           label.
+
+     6                    JUDGE DALZELL:  I mean, you could ultimately label
+
+     7           every single word, so says Dr. Olsen.
+
+     8                    THE WITNESS:  No, when we say label, what we mean is
+
+     9           label where you can get at it by a URL or some entry point.
+
+    10                    MR. BARON:  Only a select number of third party
+
+    11           rating systems --
+
+    12                    JUDGE SLOVITER:  Judge Sloviter thanks you.  
+
+    13                    MR. BARON:  Thank you, your Honor.  
+
+    14           BY MR. BARON:
+
+    15           Q   Only a select number of third party rating systems out
+
+    16           there -- there are only a select number at present, correct?
+
+    17           A   Yes, there are, you know, half a dozen or thereabouts
+
+    18           that I'm aware of, there may be more.
+
+    19           Q   That you're personally aware of?
+
+    20           A   That I'm personally aware of.
+
+    21           Q   And you don't know how many sites have been rated out on
+
+    22           the Internet, correct?
+
+    23           A   I do not know at this time how many sites have been rated
+
+    24           on the Internet.
+
+    25           Q   It isn't very realistic that third party rating systems
+
+                                                                           170
+
+     1           can rate all of the sites on the Internet, correct?
+
+     2           A   Depends upon really the business model the third party
+
+     3           rating service is going to employ.  Some rating services, I
+
+     4           anticipate, will employ people who will go out and do
+
+     5           ratings.  And they will probably be interested in a certain
+
+     6           segment of the Internet which they will rate very carefully. 
+
+     7           There will be other parties who will make contracts with
+
+     8           people and say, I will let you -- here is my criteria for
+
+     9           rating, rate yourself.  And we'll sign a contract with you
+
+    10           and we'll do spot checks and if you -- if the -- if you break
+
+    11           my contract, I'll yank my rating from you.  Or I may even
+
+    12           take you into court and sue you.  There may be some penalties
+
+    13           associated with that.  If you take that kind of a business
+
+    14           model, many sites can be rated.  Those that -- by a third
+
+    15           party rating service.  And there are many business models
+
+    16           that one could employ.  And I don't know which ones are going
+
+    17           to flourish and which ones are going to be good.  But
+
+    18           certainly, a lot of sites can be rated fairly rapidly under
+
+    19           certain business models.
+
+    20           Q   At your deposition last Friday, I asked you a question,
+
+    21           "How realistic is the statement" -- this is at Page 128, Line
+
+    22           16 -- "How realistic is the statement that, for example, the
+
+    23           hypothetical rating service, Good Clean Fun, rates all the
+
+    24           material on the Internet, how realistic is that?"  "Answer: 
+
+    25           Not realistic."
+
+                                                                           171
+
+     1           A   That's Good Clean Fun.  That's a specific rating system. 
+
+     2           We didn't talk anything about a business model.  Somewhere in
+
+     3           this deposition I also pointed out to you that how many sites
+
+     4           could be rated would depend upon a business model that a
+
+     5           third party rating service would employ.
+
+     6           Q   You agree with Mr. Bradner, who has previously testified
+
+     7           in this action, that the Internet is doubling every nine
+
+     8           months, correct?
+
+     9           A   I believe I stated that it's possible, but that I
+
+    10           couldn't -- I couldn't verify it.
+
+    11           Q   And that the Worldwide WEB is experiencing phenomenal
+
+    12           growth?
+
+    13           A   That's correct.
+
+    14           Q   The W-3 Consortium doesn't keep track of how many sites
+
+    15           are being rated by third parties, correct?
+
+    16           A   At the current time, we do not.
+
+    17           Q   I asked you at your deposition, if you have 22 million
+
+    18           URLs on the Internet covered by Alta Vista today and a rating
+
+    19           service has rated 5,000 sites and you turned the blocking
+
+    20           mechanism to the toggle where it's blocking all unrated
+
+    21           sites, then you have effectively shut down 99 percent of the
+
+    22           Internet, do you recall that question?
+
+    23           A   I recall that question.
+
+    24           Q   And you answered, "That's the user's choice though,
+
+    25           that's me as the user, my choice to do that for my children
+
+                                                                           172
+
+     1           or my choice to let them see it."
+
+     2           A   That is correct.  The parent can decide for the child
+
+     3           whether or not he wants to block unrated sites.  The other
+
+     4           aspect of that is that many of the sites that children would
+
+     5           be interested in, would likely be rated very quickly.  The
+
+     6           third aspect of it is there's lots of stuff out there that
+
+     7           children don't care about.  I have tons of stuff on the WEB
+
+     8           site at my laboratory at M.I.T. that would be of zero
+
+     9           interest to children under the age of about 14 or 15. 
+
+    10           Furthermore, I could go to any of the ratings services and
+
+    11           say, give me a label, this is what's on it.  They'd probably
+
+    12           give me a label for the site and we'd be done with it.  I
+
+    13           don't think it's a big problem.  I mean, I think this is a
+
+    14           start-up problem.
+
+    15           Q   And you understand --
+
+    16           A   It's not the -- it's a start up problem, it's not a
+
+    17           problem in the long run.
+
+    18           Q   Well, you don't dispute the notion that if there are
+
+    19           5,000 sites rated today and they are 22 million URLs and
+
+    20           you're blocking all unrelated sites in that option, you're
+
+    21           blocking 99 percent of the Internet, correct?
+
+    22           A   I don't dispute that.
+
+    23           Q   Okay, let's talk about self-rating schemes.  Put aside
+
+    24           PICs for the moment.  You would agree that it could be
+
+    25           arranged to have a tag or a label put on a variety of
+
+                                                                           173
+
+     1           Internet applications, correct?
+
+     2           A   Yes.
+
+     3           Q   There's some generic tag that's possible for UseNet,
+
+     4           correct?
+
+     5           A   PICs is one of those?
+
+     6           Q   The same for UseNet postings?
+
+     7           A   Yes.
+
+     8           A   And a standard tag for browsers to pick up for documents
+
+     9           on the WEB could be created, correct?
+
+    10           A   PICs is one of those tags.
+
+    11           Q   And there are other tagging schemes that are possible?
+
+    12           A   That's correct.
+
+    13           Q   And the same for FTP, correct?
+
+    14           A   That's correct.
+
+    15           Q   Could be arranged?
+
+    16           A   Yes.
+
+    17           Q   And same for IRCs, correct?
+
+    18           A   Yes.
+
+    19           Q   In fact, if the attacking scheme was a simple four
+
+    20           character set consisting of a label or a tag.  For the
+
+    21           Worldwide WEB, let's stay on that.  The Microsofts and
+
+    22           NetScapes of the world could reconfigure their browsers to
+
+    23           pick up the four character tag in short order, correct?
+
+    24           A   Not -- from my perspective, that's not a rational
+
+    25           solution, it gives you --
+
+                                                                           174
+
+     1           Q   I didn't ask that.
+
+     2           A   Okay.
+
+     3           Q   I asked whether they could, as a technical matter --
+
+     4           A   Was a technical matter.
+
+     5           Q   -- was pick up the tag in short order. 
+
+     6           A   Yes.
+
+     7           Q   And your answer is?
+
+     8           A   Yes.
+
+     9           Q   In some cases, it could be hours or days, correct.
+
+    10           A   Well, I don't know.  It would be depend upon where and
+
+    11           how they would have to modify their browser and making the
+
+    12           change is usually the simplest part.  Testing it is usually -
+
+    13           - takes all the time.  
+
+    14           Q   I just have a few more questions, Mr. Vezza.  If I didn't
+
+    15           know the address or the URL for a platform for Internet
+
+    16           contents selections home page, would you agree that one way
+
+    17           to search for the PICs home page would be to type in the word
+
+    18           PICs?
+
+    19           A   That's one way of doing it.
+
+    20           Q   And you could use any search engine to that?
+
+    21           A   You could use a variety of search engines to do that.
+
+    22           Q   You've used various search engines like Yahoo and Alta
+
+    23           Vista in the past, correct?
+
+    24           A   I've used mainly Alta Vista, but I've used Yahoo,yes.
+
+    25           Q   You also told me at your deposition you've used WEB
+
+                                                                           175
+
+     1           Crawler once or twice, correct?
+
+     2           A   I did not.  I am not familiar with it.
+
+     3           Q   Well, you -- you -- 
+
+     4           A   Where is that?
+
+     5           Q   At Page --
+
+     6           A   I said I know what a WEB Crawler is, I have not used that
+
+     7           particular --
+
+     8           Q   I think the -- it's Page 212, Line 14 -- Line 13, I
+
+     9           asked, "Question:  You're familiar with WEB Crawler, though?" 
+
+    10           Your answer:  "Not particularly, no, I may have used it once
+
+    11           or twice, but I use hundreds of things."  Do you see where I
+
+    12           said that?
+
+    13           A   Where is that?
+
+    14           Q   Page 212, Line 13, 14, 15.
+
+    15           A   Line 12 says not that one.  
+
+    16           Q   Well, I --
+
+    17           A   Not the one I use, I use Alta Vista.
+
+    18           Q   Line 13, "Question:  You're familiar with WEB Crawler
+
+    19           though?
+
+    20           A   I said not particularly, no.
+
+    21           Q   No.  And then, I may have used it once or twice, but I
+
+    22           use hundreds of things?
+
+    23           A   Well, I may have.  I honestly don't know whether I have
+
+    24           or not.
+
+    25           Q   Would you turn to Exhibit 179?  
+
+                                                                           176
+
+     1           A   Yes.
+
+     2           Q   Do you recall my showing you this exhibit at your
+
+     3           deposition?
+
+     4           A   I sure do.
+
+     5           Q   Do you see the Line 48 or where it's numbered 048 down --
+
+     6            this -- my representation to the Court is that this was a
+
+     7           down loaded page, using WEB Crawler under a search-PICs.  Do
+
+     8           you see where Platform for Internet Content selection is
+
+     9           listed?
+
+    10           A   Yes, I do.
+
+    11           Q   And there are a number of other listings on this page?
+
+    12           A   There are a number of other listings on this page.  
+
+    13           Q   That's all I'll say on that.  Last question, Mr. Vezza. 
+
+    14           At that time I deposed you last Friday, you did not recognize
+
+    15           the name Donna Hoffman, correct?
+
+    16           A   That is correct.
+
+    17           Q   Or Scott Bradner, correct?
+
+    18           A   That is correct.
+
+    19           Q   You asked me, could you tell me who they are, correct?
+
+    20           A   Yes.
+
+    21                    MR. BARON:  That's it, that's all my questions.
+
+    22                    MR. MORRIS:  Just a few questions, your Honor.
+
+    23                    JUDGE SLOVITER:  Thank you.
+
+    24                                REDIRECT EXAMINATION
+
+    25           BY MR. MORRIS:
+
+                                                                           177
+
+     1           Q   Mr. Vezza, on the question of your expertise, you're very
+
+     2           familiar with the PICs specification, is that correct?
+
+     3           A   Yes.
+
+     4           Q   And to use Mr. Baron's terms, there perhaps are some
+
+     5           minute details that you may not be familiar with, is that
+
+     6           correct?
+
+     7           A   That is correct.
+
+     8           Q   But, with the specification documents, both the labeling
+
+     9           specification documents and the rating service specification
+
+    10           document, you are very familiar with those?
+
+    11           A   I'm -- I'm familiar with the -- very familiar with those. 
+
+    12           I've been through them the last few days.
+
+    13           Q   Let me go back.  Mr. Bradner -- I mean, Mr. Baron asked
+
+    14           you about a four character string and you indicated that that
+
+    15           was not a rational approach.  Was there something that you
+
+    16           had wanted to add?
+
+    17           A   Yes, the problem with that is there is very little
+
+    18           granularity to be -- for someone to express the fact of what
+
+    19           this material is.  I'll give you the example and which was
+
+    20           raised by the jurists here, that of showing something to do
+
+    21           with AIDS and an erect penis.  You could, in fact, in PICs
+
+    22           say this is educational.  Okay.  This is educational, this is
+
+    23           what the educational activity is.  And a parent may be able
+
+    24           to set up or would be able to set up a browser to discern
+
+    25           that, so that in fact, a 15 year old would be able to down
+
+                                                                           178
+
+     1           load that information because it would specifically say this
+
+     2           is educational.  Or in the case of the National Geographic,
+
+     3           all of those things.  I was struck by the fact that you kept
+
+     4           asking the previous witness, what would you tell your parent
+
+     5           -- what would you tell those people how to deal with it? 
+
+     6           Well, I mean if we have to -- if everybody has to go to an
+
+     7           authority to try and get a decision about how to deal with
+
+     8           material they want to put on the Net, we're going to have a
+
+     9           lot of authorities making decisions like that.  Why don't we
+
+    10           let other folks bring in a whole group of people that can
+
+    11           help make those decisions.  And that's what the PICs labeling
+
+    12           system is about.  It is to allow a lot of granularity and
+
+    13           allow people who know how to do that to actually create the
+
+    14           labels appropriately.
+
+    15           Q   And the PICs specifications aren't limited to just
+
+    16           labeling sexually oriented material, is that correct?
+
+    17           A   That's correct.  The PICs specification are a general
+
+    18           labeling scheme.  We looked at it and we said what we need is
+
+    19           something that will deal with the Dewey Decimal System, deal
+
+    20           with the Library of Congress.  Or deal with any other kinds
+
+    21           of labeling schemes that we might think of in the future. 
+
+    22           And that's what it's all about.  It's going to be used for a
+
+    23           variety of reasons.  Whether or not it's used for rating or
+
+    24           not, it's got a life of its own already.  
+
+    25           Q   And so, if you hypothesize that there might be a desire
+
+                                                                           179
+
+     1           to label content by its sexual -- sexual levels.  And then
+
+     2           there might also be a desire to label content -- a different
+
+     3           content according to whether I dealt with racial issues or
+
+     4           Nazism or things like that, PICs would be able to label -- to
+
+     5           be used in all those situations.
+
+     6           A   PICs would be able to be used in all those situations. 
+
+     7           We have -- we have behind us the Internet community that the
+
+     8           industry that's putting software out there to use PICs, we
+
+     9           have evangelized this around the world.  I just came back
+
+    10           from the Far East.  Jim Miller just came back from Europe. 
+
+    11           We;re talking to all of those folks, they're all interested
+
+    12           in the idea of labeling.  They are all interested in using
+
+    13           this system.  
+
+    14                    It has another advantage in that a rating system
+
+    15           here in the United States could rate foreign sites according
+
+    16           to the U.S. values.  And foreign sites could rate U.S. sites
+
+    17           according to their values. If you -- if you go to some
+
+    18           European countries, they think that our violence is
+
+    19           abhorrent.  Okay, they just --they say how can you have so
+
+    20           much violence in your pictures and what not.  So, I think a
+
+    21           value is local and that has to be taken into account and PICs
+
+    22           allows for that value to be local.  Q   Now, Mr. Baron asked
+
+    23           you a number of questions about the block unrated sites
+
+    24           option that the PICs specifications allow.  Would this option
+
+    25           interfere with an adult's ability --
+
+                                                                           180
+
+     1                    JUDGE SLOVITER:  I would suggest you might get a
+
+     2           little closer or talk a little louder.  Not too close,
+
+     3           because it's --
+
+     4                    MR. MORRIS:  Thank you, your Honor.  
+
+     5           BY MR. MORRIS:
+
+     6           Q   Would this option, the block unrated sites option within
+
+     7           the PICs specification, would it interfere with an adult's
+
+     8           ability to access content on the Internet?
+
+     9           A   No, I mean, the adult could change it to not to block
+
+    10           unrated sites and so they could access anything they wanted.
+
+    11           Q   So, an adult would have access to the full range of
+
+    12           content on the Internet?
+
+    13           A   That's correct.
+
+    14           Q   And would the block unrated sites option mean that minors
+
+    15           could never, ever get access to unrated sites?
+
+    16           A   No, in fact, if you go through the scenario, one of the -
+
+    17           - one of the things in the scenario, the child says I need --
+
+    18           gets to an unrated site, the child says I need this for my
+
+    19           homework.  The mother comes back and gives the child
+
+    20           permission.  So, in fact, with the child's -- with the
+
+    21           parent's supervision, a child could get at it.
+
+    22           Q   And under the block unrated sites option, would a parent
+
+    23           be able to sit down with her children and access the Internet
+
+    24           together?
+
+    25           A   Yes.
+
+                                                                           181
+
+     1           Q   And in that method, they'd be able to --
+
+     2           A   To control the situation.
+
+     3           Q   And get access to the whole range of content on the
+
+     4           Internet?
+
+     5           A   That's correct.
+
+     6           Q   Now, but with the -- if you -- if a parent were to turn
+
+     7           the block unrated sites option on to activate that option and
+
+     8           to block unrated sites, would the parent be able to protect
+
+     9           their children from indecent or patently offensive sites that
+
+    10           didn't have a label?
+
+    11           A   That's correct, that's exactly what that option is for.
+
+    12           Q   And this protection would protect United States citizens
+
+    13           from foreign sites.
+
+    14           A   That's correct.
+
+    15           Q   Foreign content.
+
+    16           Q   And that's under the PICs standard, a child could be
+
+    17           protected form indecency and patently offensive material
+
+    18           without any requirement that labeling be done mandatorily
+
+    19           across the Internet?
+
+    20           A   That is correct.
+
+    21                    MR. MORRIS:  No further questions, your Honor.
+
+    22                    MR. BARON:  No further questions at this time.
+
+    23                    JUDGE BUCKWALTER:  Here is a question.  You said
+
+    24           PICs are tabs?
+
+    25                    THE WITNESS:  I'm sorry?
+
+                                                                           182
+
+     1                    JUDGE BUCKWALTER:  Are PICs --
+
+     2                    THE WITNESS:  Are PICs tabs?
+
+     3                    JUDGE BUCKWALTER:  No, are PICs tags, I'm sorry.
+
+     4                    THE WITNESS:  Oh, no.  PICs are -- PIC stands for
+
+     5           Platform for Internet Content Selection.  
+
+     6                    THE COURT:  Right.
+
+     7                    THE WITNESS:  It's a standard by which a rating
+
+     8           service can express how they will rate things.  And it's also
+
+     9           a standard for how labels should appear.
+
+    10                    JUDGE BUCKWALTER:  Yes.  
+
+    11                    THE WITNESS:  Okay.
+
+    12                    JUDGE BUCKWALTER:  And what are tags, then?
+
+    13                    THE WITNESS:  Oh -- 
+
+    14                    JUDGE BUCKWALTER:  I thought you said --
+
+    15                    THE WITNESS:  -- that was a detail that Mr. Baron
+
+    16           asked me about in my deposition as to whether or not a PICs
+
+    17           label could appear in a Meta tag of an HTML document.  And I,
+
+    18           it was late and I didn't remember and I didn't know and I
+
+    19           said, no, I don't think so.  But in fact, he was right.
+
+    20                    JUDGE BUCKWALTER:  Okay.  All right, I --
+
+    21                    THE WITNESS:  That it can appear there.
+
+    22                    JUDGE BUCKWALTER:  -- I didn't quite get that
+
+    23           exchange and I wanted to be sure I understood it.  The other
+
+    24           thing you mentioned was about PICs will be, you said words to
+
+    25           the effect, successful if all vendors adhere.  What's the
+
+                                                                           183
+
+     1           chance of that happening?
+
+     2                    THE WITNESS:  Extremely high.
+
+     3                    JUDGE BUCKWALTER:  Mm-hmm, okay.
+
+     4                    THE WITNESS:  Netscape is going to have PICs. 
+
+     5           Microsoft has already announced that they are releasing PICs
+
+     6           compatible explorer in June.  I can't believe that Netscape
+
+     7           would be far behind.  In fact, Netscape may even beat them to
+
+     8           the punch.  Certainly Spyglass will.  Spyglass -- both
+
+     9           Netscape, Microsoft and Spyglass helped us with these
+
+    10           specifications.  Most of the ratings services that I know
+
+    11           that are out there, area already, Surfwatch, are changing to
+
+    12           a PICs compatible spec rating scheme.  So, I think the
+
+    13           chances are very high that --
+
+    14                    JUDGE BUCKWALTER:  Okay.
+
+    15                    THE WITNESS:  -- it will all happen.
+
+    16                    JUDGE BUCKWALTER:  Thank you.
+
+    17                    JUDGE DALZELL:  I mean, the reason is because there
+
+    18           are enormously powerful market forces that are driving that,
+
+    19           are there not?
+
+    20                    THE WITNESS:  That's correct.
+
+    21                    JUDGE DALZELL:  And you know that from your meetings
+
+    22           of the W-3C, right?
+
+    23                    THE WITNESS:  I know that from the meetings of the 
+
+    24           W-3C and I know that from the meetings of the people who keep
+
+    25           urging us to quickly get PICs out and get it into the net.
+
+                                                                           184
+
+     1                    JUDGE DALZELL:  So, that they can say to parents
+
+     2           like me, for example, who have small children, don't worry.  
+
+     3                    THE WITNESS:  That's correct.
+
+     4                    JUDGE DALZELL:  Come on line with us, your kids
+
+     5           won't see what's in Mr. Coppolino's book.  
+
+     6                    THE WITNESS:  We hope so.  I mean, AOL is there,
+
+     7           Prodigy is there.  
+
+     8                    JUDGE SLOVITER:  We'll be forever now on this.
+
+     9                    THE WITNESS:  They're all there.
+
+    10                    JUDGE DALZELL:  Well, looking at Defendants' Exhibit
+
+    11           167 and the members of the W-3 Consortium, am I correct that
+
+    12           there is no Government member of that?  That is to say, no
+
+    13           United States Government member?
+
+    14                    THE WITNESS:  That's correct.  They have a lot of
+
+    15           input into the process, but there's not really -- they're not
+
+    16           really members.  And I have to tell you the reason.  The
+
+    17           reason is because we give everything away.  In our contracts
+
+    18           with our members talks about how we deal with the
+
+    19           intellectual property that we developed.  And the Government
+
+    20           doesn't know how to deal with the way we want to give stuff
+
+    21           away.  And when you have several members that want to be.  We
+
+    22           have several Government agencies, can we be a member.  I said
+
+    23           if you can sign the standard contract, you can be a member. 
+
+    24           But they don't want to sign the standard contract, they want
+
+    25           to give us a bunch of FARs (ph), which those FARs countermand
+
+                                                                           185
+
+     1           the standard contract intellectual property clauses.
+
+     2                    JUDGE DALZELL:  FARs?
+
+     3                    THE WITNESS:  Federal Acquisition Regulations.
+
+     4                    JUDGE DALZELL:  Okay.  So, I am correct then and I
+
+     5           asked Mr. Bradner about this when he was here.  You now know
+
+     6           who Mr. Bradner is?
+
+     7                    THE WITNESS:  I know that he testified.
+
+     8                    JUDGE DALZELL:  Okay, good.  That in fact, the
+
+     9           Worldwide WEB is a creature completely divorced in its
+
+    10           creation from any government, isn't that right?
+
+    11                    THE WITNESS:  Almost true.  Almost true.  The fact
+
+    12           of the matter is Tim Burners Lee did it when he was a staff
+
+    13           member at Cerne (ph), which is a particle physics laboratory
+
+    14           in Geneva, which is funded by the European Governments.
+
+    15                    JUDGE DALZELL:  By the European governments?
+
+    16                    THE WITNESS:  European governments, that's correct.
+
+    17                    JUDGE DALZELL:  But Cerne is funded by it, but it's
+
+    18           not an agency of any government?
+
+    19                    THE WITNESS:  It's not an agency of a government. 
+
+    20           In fact, there's a lot of United States participation in
+
+    21           Cerne activities.  One of our faculty members from M.I.T. is
+
+    22           a big player in the Cerne activity.  
+
+    23                    JUDGE DALZELL:  All right, so --
+
+    24                    THE WITNESS:  And spends a lot of time there.
+
+    25                    JUDGE DALZELL:  So, in truth, it would not be fair
+
+                                                                           186
+
+     1           to say that with respect to the Worldwide Web  that
+
+     2           Government has "nurtured it".  
+
+     3                    THE WITNESS:  I think --
+
+     4                    JUDGE DALZELL:  As in the sense of a mother
+
+     5           nurturing a child.
+
+     6                    THE WITNESS:  That is true of the Worldwide WEB.  
+
+     7                    JUDGE DALZELL:  OKay.  Now, we have been told with
+
+     8           respect to IP address blocking, okay.  That address blocking
+
+     9           requires that the user's computer have stored on it's hard
+
+    10           disc a list of all IP addresses which should be blocked. And
+
+    11           then it goes on to say that the more you have on there, the
+
+    12           more space you're using on the disk.  Ergo, the user will
+
+    13           soon run out of disk space to block, true or false?
+
+    14                    THE WITNESS:  I don't know what was being said by IP
+
+    15           blocking.  Certainly PICs does not work that way.
+
+    16                    JUDGE DALZELL:  So, PICs would not use up all the
+
+    17           disk space?
+
+    18                    THE WITNESS:  It certainly wouldn't.
+
+    19                    JUDGE DALZELL:  Why not?
+
+    20                    THE WITNESS:  Because the label could come with the
+
+    21           document or it could be down loaded from a service.  It may
+
+    22           be stored on a disk.  I mean, we admit that that can happen,
+
+    23           but it's not necessary that happened that way.
+
+    24                    JUDGE DALZELL:  When do you estimate, as practical
+
+    25           matter, the market will adopt PICs in a ubiquitous way.
+
+                                                                           187
+
+     1                    THE WITNESS:  I think that when Microsoft announces
+
+     2           in June or they've already announced, but when they release
+
+     3           in June, they will release an Explorer III with PICs
+
+     4           compatible blocking software.  I think Netscape will be
+
+     5           shortly behind that.  And at that point, it's been adopted.
+
+     6                    JUDGE DALZELL:  All right.
+
+     7                    JUDGE SLOVITER:  I'd like to understand how it works
+
+     8           from the -- again -- or mae more specifically, when you say -
+
+     9           - when you say that the parent can say block all unrated
+
+    10           sites.  And then in the colloquy that took place, the
+
+    11           analysis was that all patently indecent sites would --
+
+    12           patently offensive and indecent sites would be blocked.  But
+
+    13           they would be blocked, would they not, along with everything
+
+    14           else. And is there any way -- I mean, I'm not sure how one
+
+    15           would pick out from the rating, sites that are patently
+
+    16           offensive.  Is that what you suggested?
+
+    17                    THE WITNESS:  No, I didn't suggest that.   
+
+    18                    JUDGE SLOVITER:  I mean, is that what you were?
+
+    19                    THE WITNESS:  The question went to what happens if
+
+    20           you check block unrated sites?  What would happen then is you
+
+    21           would block sites that did not come with a label or did not
+
+    22           have a label to associate with him.  YOu would only allow
+
+    23           information into computers that had a label.  
+
+    24                    JUDGE SLOVITER:  Okay, but all I'm suggesting is
+
+    25           there is no way in which that you know of or through PICS,m
+
+                                                                           188
+
+     1           in which you can identify marginal material?
+
+     2                    THE WITNESS:  Marginal material is always in the eye
+
+     3           of the beholder.  And it's the person who's doing the rating
+
+     4           that's going to decide what kind of a rating they're going to
+
+     5           place on that material.  
+
+     6                    JUDGE SLOVITER:  All I'm saying is when you block
+
+     7           unrated material, you block it all?
+
+     8                    THE WITNESS:  That's correct.
+
+     9                    JUDGE SLOVITER:  That's what I wasn't clear on.
+
+    10                    THE WITNESS:  Block all material that's unrated.
+
+    11                    JUDGE SLOVITER:  That's right.  All unrated
+
+    12           material.  Whether it is for children or --
+
+    13                    THE WITNESS:  It could be pictures of ducks.  
+
+    14                    JUDGE SLOVITER:  That's right.
+
+    15                    THE WITNESS:  You would be blocking them, too.  
+
+    16                    JUDGE SLOVITER:  No, that was my point.  That's just
+
+    17           the point, there was in the colloquy some possible ambiguity
+
+    18           that what you would be blocking was only material that was
+
+    19           unrated that could be considered questionable?
+
+    20                    THE WITNESS:  Yeah.  
+
+    21                    JUDGE SLOVITER:  And I gather that that's not what
+
+    22           you're testifying.
+
+    23                    THE WITNESS:  That's not what I'm testifying.
+
+    24                    JUDGE SLOVITER:  It's everything, no matter how
+
+    25           innocuous, would be unavailable to -- once that button or
+
+                                                                           189
+
+     1           once that tag was pushed.  
+
+     2                    THE WITNESS:  That's correct.  However, if it were a
+
+     3           child and the child wanted to see that material, he could ask
+
+     4           his parent.
+
+     5                    JUDGE SLOVITER:  Oh, no.  I understand that.
+
+     6                    THE WITNESS:  Okay.
+
+     7                    JUDGE SLOVITER:  That's not the -- it was the
+
+     8           technicality of what was being asked.  Okay.  Does counsel
+
+     9           have anymore?
+
+    10                    MR. BARON:  Just a couple questions, your Honor?
+
+    11                    JUDGE SLOVITER:  Sure.
+
+    12                                RECROSS-EXAMINATION
+
+    13           BY MR. BARON:
+
+    14           Q   Mr. Vezza, Judge Dalzell referred to enormously powerful
+
+    15           market forces that are driving adoption of PICs.  If all the
+
+    16           browsers in the world support PICs, then self-labeling with
+
+    17           Pics would work, will it not?
+
+    18           A   That's a complicated question and requires a complex
+
+    19           answer if you'll allow me.  Self labeling, everybody labeling
+
+    20           their own way is going to be chaos and I think everybody will
+
+    21           recognize that. But self-labeling, according to some, a few,
+
+    22           half a dozen, dozen rating mechanisms will work. 
+
+    23           Q   And just to be clear, you were talking about how there is
+
+    24           this drive towards adoption of PICS and PICs compatible
+
+    25           architecture.  That adoption of PICS compatible architecture,
+
+                                                                           190
+
+     1           in terms of the market place, is a different issue and poses
+
+     2           different problems than the actual rating of sites using PICs
+
+     3           compatible architecture, correct?
+
+     4           A   Repeat that?
+
+     5           Q   First there's the adoption of the architecture. 
+
+     6           A   Right.
+
+     7           Q   But the question of rating sites on the Internet, on the
+
+     8           Worldwide WEB, that's a different issue?
+
+     9           A   That's a different issue and it's going on and it will --
+
+    10            the minute there are browsers out there, there will be lots
+
+    11           of folks that will be getting into the game.  And they're
+
+    12           different business models will cause sites to be rated.  Some
+
+    13           sites will be rated slowly by one business model, but more
+
+    14           carefully.  Other sites will be rated very rapidly, but
+
+    15           perhaps no as carefully.
+
+    16                    MR. BARON:  That's all I have.
+
+    17                    JUDGE SLOVITER:  This is a relatively unique and
+
+    18           novel experiment in information, isn't it?
+
+    19                    THE WITNESS:  Yes.
+
+    20                    JUDGE SLOVITER:  And with the exception of the movie
+
+    21           rating system which has -- 
+
+    22                    THE WITNESS:  It's a one rating system.
+
+    23                    JUDGE SLOVITER:  -- which doesn't do anything at all
+
+    24           like this because so simple in the sense to this.  There's
+
+    25           really nothing out there, is there, that you can use as an
+
+                                                                           191
+
+     1           analog.  
+
+     2                    THE WITNESS:  That's correct.  In fact, we looked at
+
+     3           the moving rating system carefully and said, gee, it will not
+
+     4           capture the kinds of material that we'd like to have ratings
+
+     5           posted to.  It will not capture the essence of literature. 
+
+     6           It will not capture the essence of art, it will not capture
+
+     7           the essence of education.  It just won't capture those things
+
+     8           and this is one of the reasons why we have come up with a
+
+     9           relatively sophisticated system.
+
+    10                    JUDGE SLOVITER:  But to work, isn't it so that there
+
+    11           has to be a commitment to continue this indefinitely because
+
+    12           there is material that will be coming on to the Internet and
+
+    13           Worldwide WEB indefinitely.
+
+    14                    THE WITNESS:  That's true, but we only have -- I
+
+    15           don't know any other way around it.
+
+    16                    JUDGE DALZELL:  And your point, I think, well, to me
+
+    17           or Judge Sloviter was in a lot of sites, this issue is simply
+
+    18           beside the point?
+
+    19                    THE WITNESS:  That's correct.
+
+    20                    JUDGE DALZELL:  If you're in the area of
+
+    21           microbiology, I mean, if you were to raise this subject, I
+
+    22           assume they'd look at you as though you're speaking Ordu or
+
+    23           Sanskrit?
+
+    24                    THE WITNESS:  Right, that's correct.
+
+    25                    JUDGE DALZELL:  It's totally irrelevant to them?
+
+                                                                           192
+
+     1                    THE WITNESS:  It's irrelevant.  I mean, you know,
+
+     2           you could -- I deal in microbiology.  I have, you know, 500
+
+     3           gigabytes of microbiology information here and you'll
+
+     4           probably get a label that says microbiology and everybody
+
+     5           will forget about it.
+
+     6                    JUDGE DALZELL:  And much of those 22 million sites
+
+     7           are of that nature?
+
+     8                    THE WITNESS:  Is that kind of information, that's
+
+     9           correct.  That's exactly -- that's exactly correct.  I mean,
+
+    10           I have tons of stuff at M.I.T. under my control that nobody
+
+    11           would care about.  I mean, it's just not -- it's not relevant
+
+    12           -- it's a rating and you just slap a label on it and it says
+
+    13           this is what this is and be done with it.  
+
+    14                    JUDGE SLOVITER:  Well, really maybe all material
+
+    15           coming out of the science labs at the University of
+
+    16           Pennsylvania, for example?
+
+    17                    JUDGE DALZELL:  So, that would have a label that
+
+    18           would just be say academic.
+
+    19                    THE WITNESS:  Well, you have to be a little careful
+
+    20           about that.  You noticed there were some EDU sites.
+
+    21                    JUDGE DALZELL:  I sure did.
+
+    22                    THE WITNESS:  Okay, so I'm not going to -- I'm not
+
+    23           going to bite on that one that easily. 
+
+    24                    JUDGE SLOVITER:  What you're saying is that for
+
+    25           practical purposes was the exception of possibilities that
+
+                                                                           193
+
+     1           specific material may begin to draw and get closer to the
+
+     2           line, that the -- well, you're, I guess answering my question
+
+     3           is, that the amount of material that needs the kind of
+
+     4           attention that would be required to be satisfactory is more
+
+     5           limited than all of the material on it, but nonetheless,
+
+     6           there would have to be some care.
+
+     7                    THE WITNESS:  There is some gradation that has to
+
+     8           take place in terms of that marginal material from -- not
+
+     9           marginal to marginal to patently offensive.
+
+    10                    JUDGE SLOVITER:  Okay, thank you.  Anymore?
+
+    11                    JUDGE DALZELL:  Anymore questions based on our
+
+    12           questions?
+
+    13                    JUDGE SLOVITER:  No, thank you.
+
+    14                    (Witness excused.)
+
+    15                    JUDGE SLOVITER:  Do you want to break now?
+
+    16                    JUDGE DALZELL:  Yes, it's a good time to take a
+
+    17           break.
+
+    18                    JUDGE SLOVITER:  All right, we will break now before
+
+    19           the next witness.  And I think counsel should be prepared to
+
+    20           stay late.  If those -- some of you have trains, I don't know
+
+    21           how long the next witness will be.  But if some of you -- oh,
+
+    22           do you want to talk to them?
+
+    23                    JUDGE DALZELL:  Yes, may I just see counsel briefly?
+
+    24                    (Court in recess at 3:05 o'clock p.m.)
+
+</PRE>
+<HR><A HREF="index.html">Back to Hearing Transcripts index</A><BR>
+<A HREF="../index.html">Back to Citizens Internet Empowerment 
+Coalition Page</A><BR>
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,129 @@
+
+<DOC>
+<DOCNO>WT01-B01-222</DOCNO>
+<DOCOLDNO>IA089-000955-B046-92</DOCOLDNO>
+<DOCHDR>
+http://vif196.icair.iac.org.nz:80/scar-meetings/registration.html 199.190.182.196 19970110024147 text/html 3853
+HTTP/1.1 200 OK
+Date: Fri, 10 Jan 1997 02:39:07 GMT
+Server: Apache/1.2b2
+Connection: close
+Content-Type: text/html
+Last-Modified: Mon, 18 Nov 1996 20:00:54 GMT
+ETag: "2e045-e1d-3290c076"
+Content-Length: 3613
+Accept-Ranges: bytes
+</DOCHDR>
+<!docTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<head>
+<title>II International Biology Symposium Registration Information </title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<p>
+<CENTER>
+<H2>VII SCAR Biology Symposium</H2>
+August 31 - September 4 1998 <br>
+<P>
+</H2>
+
+<H3>PRE-REGISTRATION INFORMATION</H3>
+</CENTER>
+<FONT COLOR="#ff0000">
+<FONT SIZE=4>
+Please complete and submit this form if you wish to recieve the second circular and registration forms which
+will be sent out in late 1997.
+</FONT>
+</FONT>
+<HR>
+
+<CENTER>
+<FORM ACTION="/cgi-bin/registration.pl">
+
+<TABLE CELLPADDING=5 CELLSPACING=3 width=100%>
+<TR><TD><b>Title:</TD><TD><INPUT size =40type="text" name="title"></TD></TR>
+<TR><TD><b>Surname:</TD><TD><INPUT SIZE=40 type="text" name="surname"></TD></TR>
+<tr><TD><b>First Names:</TD><TD><INPUT SIZE=40 type="text" name="first"></TD></TR>
+<TR><TD><b>Address:</TD><TD><INPUT SIZE=40 type="text" name="address1"></TD></TR>
+<TR><TD><b></TD><TD><INPUT SIZE=40 type="text" name="address2"></TD></TR>
+<TR><TD><b></TD><TD><INPUT SIZE=40 type="text" name="address3"></TD></TR>
+<TR><TD><b></TD><TD><INPUT SIZE=40 type="text" name="address4"></TD></TR>
+<TR><TD><b>Email address:</TD><TD><INPUT SIZE=40 type="text" name="email"></TD></TR>
+<TR><TD><b>Fax number:</TD><TD><INPUT SIZE=40 type="text" name="fax"></TD></TR>
+</TABLE>
+</CENTER>
+<b>Do you intend to present a paper? (poster or oral)
+<INPUT NAME="paper" TYPE="radio" VALUE="yes"><b>Yes
+<INPUT NAME="paper" TYPE="radio" VALUE="no" CHECKED>No
+<P>
+<b>Sub-theme that best describes your work
+<SELECT NAME="subtheme">
+	<OPTION>1.1 Energetics
+ 	<OPTION>1.2 Ecological Genetics
+	<OPTION>1.3 Trophic interactions
+	<OPTION>1.4 Nutrient Dynamics
+	<OPTION>2.1 Life History adaptations
+	<OPTION>2.2 Biochemical adaptations
+	<OPTION>2.3 Physiological adaptations
+	<OPTION>2.4 Morphological adaptations
+	<OPTION>3.1 Faunal and floral history
+	<OPTION>3.2 Speciation and micro-evolution
+	<OPTION>3.3 Colonisation and recruitment
+	<OPTION>3.4 Community development
+	<OPTION>4.1 Climate Change
+	<OPTION>4.2 Sub-decadal climate variability
+	<OPTION>4.3 Increasing UV-B
+	<OPTION>4.4 Long-term ecological research
+	<OPTION>5.1 Environmental monitoring
+	<OPTION>5.2 Environmental management
+	<OPTION>5.3 Management of living resources
+	<OPTION>5.4 Pollution, ecotoxicology and introduced biota
+	</SELECT>
+<P>
+<b>Will you be bringing accompanying persons?
+<INPUT NAME="accom" TYPE="radio" VALUE="yes"><b>Yes
+<INPUT NAME="accom" TYPE="radio" VALUE="no" CHECKED>No
+<P>
+Accomodation type preferred
+<SELECT NAME="accom_type">
+	<OPTION>Hotel
+	<OPTION>Motel
+	<OPTION>University Halls
+	<OPTION>Not required
+	</SELECT>
+<P>
+Would you be interested in further information on any of the following
+post-conference tours?<br>
+<TABLE width=80%>
+<TR><TD>1. Guided Nature Tour</TD>
+<TD><INPUT NAME="tour1" TYPE="radio" VALUE="yes"><b>Yes
+<INPUT NAME="tour1" TYPE="radio" VALUE="no" CHECKED>No</TD></TR>
+<TR><TD>2. Self Drive Nature Watch Tour</TD>
+<TD><INPUT NAME="tour2" TYPE="radio" VALUE="yes"><b>Yes
+<INPUT NAME="tour2" TYPE="radio" VALUE="no" CHECKED>No</TD></TR>
+<TR><TD>3. Ski Tour 5 days for beginners</TD>
+<TD><INPUT NAME="tour3" TYPE="radio" VALUE="yes"><b>Yes
+<INPUT NAME="tour3" TYPE="radio" VALUE="no" CHECKED>No</TD></TR>
+<TR><TD>4. Ski Tour 8 days for experienced skiers</TD>
+<TD><INPUT NAME="tour4" TYPE="radio" VALUE="yes"><b>Yes
+<INPUT NAME="tour4" TYPE="radio" VALUE="no" CHECKED>No</TD></TR>
+</TABLE>
+<P>
+<HR>
+<P>
+
+<CENTER>
+<INPUT TYPE="submit" NAME="submit" VALUE="Submit Form"> <INPUT TYPE="reset" NAME="reset" VALUE="Reset Form">
+
+</FORM>
+</BODY>
+   
+</HTML>
+    
+
+
+
+</DOC>

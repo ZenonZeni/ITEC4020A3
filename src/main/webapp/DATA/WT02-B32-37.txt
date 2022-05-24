@@ -1,0 +1,108 @@
+
+<DOC>
+<DOCNO>WT02-B32-37</DOCNO>
+<DOCOLDNO>IA031-000655-B046-240</DOCOLDNO>
+<DOCHDR>
+http://afpc11.rdg.ac.uk:80/people/pnoble/search.htm 134.225.165.16 19970122115135 text/html 3342
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.13
+Date: Wednesday, 22-Jan-97 12:55:05 GMT
+Last-modified: Tuesday, 10-Sep-96 13:36:10 GMT
+Content-length: 3149
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Search The Internet </TITLE>
+</HEAD>
+<Body bACKGROUND="/textures/cn.jpg">
+
+<a href="http://www.altavista.digital.com/"><IMG align=left SRC="altavist.gif" ALT="Alta Vista" WIDTH=138 HEIGHT=54> 
+
+<a href="http://www.excite.com/"><IMG hspace=200 align=middle SRC="excite.gif" ALT="Excite" WIDTH=84 HEIGHT=33> 
+<a href="http://www.infoseek.com/"><IMG align=right SRC="infoseek.gif" ALT="Infoseek" WIDTH=144 HEIGHT=43> <br> <br>
+
+<Center> <a href="http://www.lycos.com/"><IMG hspace=50 SRC="lycos.gif" ALT="Lycos" WIDTH=158 HEIGHT=78 </A></Center>
+<A HREF="http://www.yahoo.com/"><IMG align=right SRC="yahoo2.gif" ALT="Yahoo!" WIDTH=186 HEIGHT=44>   &nbsp &nbsp &nbsp <br>
+<a href="http://www.webcrawler.com/"><IMG ALIGN=middle  SRC="webcrawl.gif" ALT="Web Crawler" WIDTH=256 HEIGHT=64></A><br> <br>  <br> <Br>
+
+
+<BR clear=all>
+
+<TABLE BORDER=5 Width=100%>
+
+<TR><TD rowspan=4 colspan=2><form action="http://www.stpt.com/cgi-bin/searcher" method="post"><a href="http://www.stpt.com/"><img src="http://www.stpt.com/stpthalf.gif" border=0 width=139 height=43 align=left alt="Starting Point"></a></TR><TD><BR>
+
+<TR><TD>Search for:
+   <input type="text" name="SearchFor" value="" size=40 maxlength=70>
+   <input type="submit" name="S" value="Find">
+   </form></TR></TD></TABLE>
+
+<TABLE BORDER=5 Width=100%>
+<TR><TD rowspan=2 colspan=2 align=left><a href="http://www.shareware.com"><img border=0 SRC="swc.gif" width=120 height=90 align=left></a>
+<font size=3><BR><tt>
+Search hundreds of thousands of files at shareware.com--the way to find software on the Internet.
+</tt>
+</font></TD></TR><BR>
+
+<TR><TD><form action="http://search.shareware.com/code/engine/Find">
+
+<input type=hidden name=frame value=none>
+<input type=hidden name=logop value=and>
+<input type=hidden name=cfrom value=quick>
+<input type=hidden name=orfile value=True>
+
+
+<select name="category" size=1>
+<option selected>MS-Windows(all)
+<option>MS-Windows3.x
+<option>MS-Windows95
+<option>MS-WindowsNT
+<option>Macintosh
+<option>DOS
+<option>OS2
+<option>UNIX
+<option>Amiga
+<option>Atari
+<option>PC-Games
+<option>Novell-Netware
+<option>Source-Code
+<option>All-Categories
+</select>
+
+<input name="search" size=20>
+<input type="submit" value="search">
+<br>
+
+</form></TR></TD></TABLE><BR>
+
+
+<TABLE BORDER=5 Width=100%>
+<TR><TD align=center rowspan=2 colspan=2><form method=GET action="http://www.mckinley.com/extsearch.cgi">
+<A HREF="http://www.mckinley.com/"><IMG SRC="type.gif" height=30></A></TD></TR>
+
+<TR><TD>
+     <B>Search for:  </B> <input type=text name=query size=30 value="">
+     <INPUT type=submit value="Search">
+     </form></TD></TR>
+</TABLE><BR> <BR> <BR> <HR>
+
+<IMG hspace=10 align=middle SRC="b_arrow.gif" WIDTH=33 HEIGHT=35>  <A HREF="index.htm">Back to index Page</A><BR><BR><HR>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide stuff from old browsers
+        var theDate = ""
+        theDate = document.lastModified
+        document.write("Last Updated:");
+        document.write(theDate);
+        document.write();
+// -->
+</SCRIPT>
+<BR><BR><HR>
+</BODY>
+
+
+
+</BODY>
+</HTML>
+</DOC>

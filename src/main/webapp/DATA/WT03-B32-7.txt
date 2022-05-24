@@ -1,0 +1,825 @@
+
+<DOC>
+<DOCNO>WT03-B32-7</DOCNO>
+<DOCOLDNO>IA059-000323-B021-220</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/ec21.html 205.156.212.5 19970114215910 text/html 36931
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 21:57:22 GMT
+Last-modified: Thursday, 24-Oct-96 22:46:39 GMT
+Content-length: 36744
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/ec21.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet <BR>
+January 1, 1996<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><A HREF = "#1"><LI>COMPUTER SECURITY: HOW TO HACKER-PROOF YOUR COMPUTER SYSTEMS; MCI PROVIDES&nbsp;TOP 10 TIPS TO HELP PROTECT COMPUTER SYSTEMS FROM UNWANTED INTRUSIONS</A>&nbsp&nbsp&nbsp<NOBR>(1273 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><A HREF = "#2"><A HREF = "#2"><LI>WINDOWS 95: REMOVE-IT FOR WINDOWS 95 SHIPS JANUARY 1; VERTISOFT SYSTEMS&nbsp;INC. DELIVERS THE SAFEST & EASIEST WAY TO UNINSTALL APPLICATIONS IN&nbsp;WINDOWS 95.</A>&nbsp&nbsp&nbsp<NOBR>(766 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#3"><LI>HTML: EASILY CREATE INTERNET HTML FILES WITH ROBOHELP 95</A>&nbsp&nbsp&nbsp<NOBR>(368 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#4"><LI>ACQUISITION: HP TO ACQUIRE ELSEWARE</A>&nbsp&nbsp&nbsp<NOBR>(256 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#5"><A HREF = "#5"><LI>ANTI VIRUS: CHEYENNE SHIPS INOCULAN 1.01 FOR WINDOWS NT SERVERS &&nbsp;WORKSTATION; INDUSTRY'S FIRST REAL-TIME VIRUS SCANNING FOR WINDOWS NT</A>&nbsp&nbsp&nbsp<NOBR>(542 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#6"><A HREF = "#6"><LI>VIRTUAL OFFICE: FOR BUSINESSMEN CONSTANTLY ON THE GO: CHICAGO COMPANY&nbsp;CREATES FIRST VIRTUAL OFFICE FOR THEIR NEEDS</A>&nbsp&nbsp&nbsp<NOBR>(225 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#7"><A HREF = "#7"><LI>CHIPS: CYRIX TO WRITE OFF 486 PROCESSOR INVENTORY; COMPANY TO FOCUS EFFORT&nbsp;ON FLAGSHIP 6X86 PROCESSOR FOR 1996</A>&nbsp&nbsp&nbsp<NOBR>(214 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#8"><A HREF = "#8"><LI>INTERNET ACCESS: BLUE SKY SOFTWARE EASES THE CREATION OF INTERNET WEB&nbsp;SITES</A>&nbsp&nbsp&nbsp<NOBR>(377 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#9"><A HREF = "#9"><LI>INTERNET ACCESS: NETSCAPE ADOPTS EXCITE FOR ITS NET DIRECTORY; EXCITE&nbsp;SERVICE REPLACES YAHOO!</A>&nbsp&nbsp&nbsp<NOBR>(264 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#10"><A HREF = "#10"><LI>WINDOWS 95: VERTISOFT ZIP-IT SHIPS JANUARY 1; POWERFUL NEW UTILITY FOR&nbsp;WINDOWS 95 & WINDOWS 3.X ELIMINATES FILE COMPRESSION DRUDGERY</A>&nbsp&nbsp&nbsp<NOBR>(625 words)</NOBR></LI>
+</UL>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+COMPUTER SECURITY: HOW TO HACKER-PROOF YOUR COMPUTER SYSTEMS; MCI PROVIDES
+TOP 10 TIPS TO HELP PROTECT COMPUTER SYSTEMS FROM UNWANTED INTRUSIONS
+
+During the holiday season, it's especially important to review the
+security precautions for business computer systems that are connected to
+the Internet. Ongoing reviews by MCI's Internet Security Department
+indicate widespread attempts by ill-intentioned hackers to break into
+business computer systems via the Internet.  With this in mind, MCI's
+Internet security experts have developed some security guidelines that
+will help businesses protect their systems.
+
+"It is important for companies to do a thorough security audit of their
+computer systems and to keep these systems up-to-date in order to thwart
+computer hackers," said Robert Hagens, director of Internet Engineering
+for MCI's Data Services Division.  "Computer hackers are constantly
+sharpening their skills and inventing new schemes to break into company
+computer systems.  Businesses also need to ensure that they continue to
+stay one step ahead of the bad guys in securing their systems."
+
+According to MCI's Internet Security Department, most of the successful
+computer break-ins are the result of exercising old, known weaknesses in
+operating systems which system administrators and managers have not
+remedied.  Despite the best efforts of the Computer Emergency Response
+Team (CERT) and others, many system operators have shown remarkable
+complacence about security until they are hit by a hacker.  MCI hopes this
+message will encourage more pro-active efforts by managers of systems on
+the Internet.
+
+MCI has identified the Top 10 Threats that businesses should be aware of
+and the Top 10 Precautions that businesses can take to protect their
+computer systems.
+
+TOP 10 THREATS
+1. FIREWALL & SYSTEM PROBING
+Hackers are using sophisticated, automated tools to scan for
+vulnerabilities of a company's corporate firewall and systems behind the
+firewall.  These hacker tools have proved to be quite effective, with the
+average computer scan taking less than three minutes to identify and
+compromise security.
+
+Companies can prevent this by ensuring that their systems sit behind a
+network firewall and any services available through this firewall are
+carefully monitored for potential security exposures.
+
+2. NETWORK FILE SYSTEMS (NFS) APPLICATION ATTACKS
+Hackers attempt to exploit well known vulnerabilities in the Network File
+System application which is used to share files between systems.  These
+attacks, usually through network firewalls, can result in compromised
+administrator access.
+
+To combat this, ensure systems do not allow NFS through the firewall, and
+enable NFS protections to restrict who can access files.
+
+3. ELECTRONIC MAIL ATTACKS
+Hackers can compromise network systems by simply sending an e-mail to it.
+Companies who accept e-mail from the Internet and who have exposed
+versions of the sendmail program are potential targets from this attack.
+Last year more than 20,000 systems were compromised due to this exposure.
+
+To prevent this from occurring, check with vendors to ensure systems are
+running a correct version of sendmail or some more secure mail product.
+
+4. VENDOR DEFAULT PASSWORD ATTACKS
+Systems of all types come with vendor installed usernames and passwords.
+Hackers are well educated on these default usernames and passwords and use
+these accounts to gain unauthorized administrative access to systems.
+
+Protect systems by ensuring that all vendor passwords have been changed.
+
+5. SPOOFING, SNIFFING, FRAGMENTATION & SPLICING ATTACKS
+Recently computer hackers have been using sophisticated techniques and
+tools at their disposal to identify and expose vulnerabilities on Internet
+networks.  These tools and techniques can be used to capture names and
+passwords, as well as compromise trusted systems through the firewall.
+
+To protect systems from this type of attack, check with computer and
+firewall vendors to identify possible security precautions.
+
+6. SOCIAL ENGINEERING ATTACKS
+Hackers will attempt to gain sensitive or confidential information from
+companies by placing calls to employees and pretending to be another
+employee.  These types of attacks can be effective in gaining usernames
+and passwords as well as other sensitive information.
+
+Train employees to use a "call-back" procedure to verify the distribution
+of any sensitive information over the phone.
+
+7. EASY-TO-GUESS PASSWORD COMPROMISE
+Most passwords that are easy to remember are also easy to guess. These
+include words in the dictionary, common names, slang words, song titles,
+etc.  Computer hackers will attempt to gain access to systems using these
+easy-to-guess passwords usually via automated attacks.
+
+Protect systems by ensuring that passwords are not easy to guess, that
+they are at least eight characters long, contain special characters and
+utilize both uppercase and lowercase characters.
+
+8. DESTRUCTIVE COMPUTER VIRUSES
+Computer viruses can infect systems on a widespread basis in a very short
+period of time.  These viruses can be responsible for erasing system data.
+
+Protect systems from computer viruses by using anti-virus software to
+detect and remove computer viruses.
+
+9. PREFIX SCANNING
+Computer hackers will be scanning company telephone numbers looking for
+modem lines, which they can use to gain access to internal systems.  These
+modem lines bypass network firewalls and usually bypass most security
+policies.  These "backdoors" can easily be used to compromise internal
+systems.
+
+Protect against this intrusion by ensuring modems are protected from brute
+force attacks.  Place these modems behind firewalls; make use of one-time
+passwords; or have these modems disabled.
+
+10. TROJAN HORSES
+Hackers will install "backdoor" or "Trojan Horse" programs on businesses
+computer systems, allowing for unrestricted access into internal systems,
+which will bypass security monitoring and auditing policies.
+
+Conduct regular security analysis audits to identify potential security
+vulnerabilities and to identify security exposures.
+
+TOP 10 SECURITY PRECAUTIONS
+1. FIREWALL SENSITIVE SYSTEMS
+Ensure corporate systems are protected from Internet attacks. Deploy a
+firewall between these systems and the Internet to guard against network
+scans and intrusions.
+
+2. OBTAIN SECURITY ALERT INFORMATION
+Subscribe to security alert mailing lists to identify potential security
+exposures before they become problems.  CERT (Computer Emergency Response
+Team at Carnegie Mellon University) is a good place to start.  The URL for
+CERT's Web site is cert-advisory-requestcert.org.  The e-mail address is
+certcert.org.
+
+3. REVIEW SYSTEM AUDIT TRAILS REGULARLY
+Regularly check logging data and audit trails to look for unusual or
+suspicious activity.
+
+4. BACKUP DATA
+Don't be a victim of accidental or malicious data erasure. Backup all
+sensitive data on a regular basis.
+
+5. PURCHASE & DEPLOY ANTI-VIRUS SOFTWARE
+Computer viruses can spread throughout a system in minutes. Check systems
+for viruses on a regular basis.
+
+6. CHANGE PASSWORDS ON A REGULAR ROTATIONAL BASIS
+Don't pick easy to remember passwords and change them often. Consider the
+use of one-time password tokens to avoid password compromise threats.
+
+7. DEPLOY VENDOR SECURITY PATCHES
+Consult with vendors and obtain any system security patches that can be
+used to add additional layers of protection.
+
+8. ESTABLISH & ENFORCE A SECURITY POLICY
+Develop and enforce a company-wide computer and physical security policy.
+
+9. EMPLOYEE AWARENESS
+Ensure all employees and management are briefed regularly on security
+threats, policies, corrective measures and incident reporting procedures.
+
+10. MAKE USE OF PUBLIC DOMAIN SECURITY TOOLS
+A wide variety of public domain security tools exist on the Internet, many
+of which can be used to assist in the protection of computer systems.
+
+The above information was developed by MCI's Internet Security Department.
+To find additional information on security checklists and resources
+available to combat security threats, view the MCI security homepage at
+http://www.security.mci.net.
+
+MCI, headquartered in Washington, D.C., is one of the world's largest and
+fastest-growing diversified communications companies. With annual revenue
+of more than $13 billion, MCI offers consumers and businesses a broad
+portfolio of services including long distance, wireless, local access,
+paging, Internet software and access, information services, outsourcing,
+business software, advanced global telecommunications services, and music
+distribution and merchandising.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+WINDOWS 95: REMOVE-IT FOR WINDOWS 95 SHIPS JANUARY 1; VERTISOFT SYSTEMS
+INC. DELIVERS THE SAFEST & EASIEST WAY TO UNINSTALL APPLICATIONS IN
+WINDOWS 95.
+
+Vertisoft Systems Inc., a recognized innovator in utilities software, will
+ship Remove-IT for Windows 95, a new 32-bit version of its top-rated
+uninstall utility on January 1.
+
+Remove-IT 95 is the most comprehensive removal system available to safely
+and accurately remove any 32-bit or 16-bit application. Remove-IT 95 fully
+supports long filenames, the Windows 95 System Registry, drag-and-drop and
+other Windows 95 features.
+
+"Users may not realize that their computers are being bombarded with
+garbage until one day the whole system starts to slow down, or they begin
+to run out of resources," explained Elliott Lowe, vice president/marketing
+at Vertisoft Systems Inc.  "But every time you install an application, go
+online, install a CD-ROM or receive a fax, you can wind up with useless
+bits of electronic debris that can quickly clutter up your hard drive.
+That's why you need Remove-IT 95.  It's the best way to safely clean up
+that garbage and keep your system at peak performance."
+
+Remove-IT 95 is now completing beta testing, and will be on store shelves
+nationwide about January 1.  Remove-IT 95 is expected to retail for
+$39.95; the retail package includes Remove-IT 95, Remove-IT 2 for Windows
+3.X and the Upgrade Assistant which helps users upgrade from Windows 3.X
+to Windows 95.  Registered users who purchased Remove-IT 2 at retail after
+November 1 will receive a free upgrade to Remove-IT 95.  In addition,
+users who purchase Remove-IT 95 between January 1 and March 30 will
+receive a $10 manufacturer's mail-in rebate coupon and a certificate that
+allows them to purchase Vertisoft Zip-IT or Name-IT at half-price.
+
+Remove-IT was originally introduced in 1994; Remove-IT 95 is the third
+product release in the series.  Remove-IT has consistently earned rave
+reviews from editors and end users alike.  Remove-IT has also achieved
+significant sales milestones, earning the No. 1 spot in PC Magazine's
+retail software survey in August, 1995, and was a finalist in the 1995 MVP
+Awards sponsored by PC/Computing.
+
+NEW FEATURES IN REMOVE-IT 95
+Like the award-winning Remove-IT 2, Remove-IT 95 allows users to increase
+hard disk space by safely removing unnecessary applications, duplicate
+files, unneeded fonts, orphan and garbage files, etc.  New and enhanced
+features in Remove-IT 95 include:
+
+Enhanced Clean-IT now tracks Cyber-Junk as a result of downloads from
+online services, the Internet and received faxes.
+
+New Move-IT function allows for easy movement of applications to any
+directory or drive -- including network drives.
+
+Enhanced Log-IT Monitor automatically records both 32-bit and 16-bit
+program installations as well as changes made to the Windows System
+Registry.
+
+Enhanced Smart Disk Agent notifies users if system resources get too low,
+if applications or files go unused too long, and if unneeded files get too
+numerous.  Users set thresholds for each type of alert.
+
+Find-IT and the new Find-IT Assistant locate duplicate files and help to
+determine which duplicates to keep and which can be safely removed.
+
+One of the most valuable features in Remove-IT 95, Lowe adds, is the
+ability to compress an application while leaving the icon active.
+Remove-IT 95's unique active application archiving saves hard disk space
+by creating a compressed backup while leaving the program icon on the
+desktop.  To run the application, just double-click on the icon.
+
+Remove-IT 95 automatically retrieves it from the archive, decompresses it
+on the fly, and has things ready to run in seconds. When it's time to
+close the application, Remove-IT 95 offers the option of returning the
+application to "cold storage" by returning it to the archive, or leaving
+it decompressed and active.
+
+Founded in 1988, Vertisoft is a leading developer and marketer of PC
+utility software.  Other popular titles from Vertisoft Systems Inc.
+include Remove-IT 2 (the No. 1 rated intelligent storage management
+utility and uninstaller), Vertisoft Zip-IT (the easiest way to zip and
+unzip files in Windows 95, Windows 3.X and Windows NT), and Name-IT (the
+seamless way to use long filenames in Windows 3.X applications running
+under Windows 95).  Vertisoft has licensed technology to Microsoft for use
+in its operating systems, used by millions worldwide.
+
+Vertisoft is one of the few utility software companies to offer consumers
+a no-questions-asked satisfaction guarantee on its products.  Users who
+are unhappy for any reason can return products within 30 days for a prompt
+refund.
+
+For more information about Remove-IT 95 or any other product from
+Vertisoft, contact Vertisoft Systems Inc., Four Embarcadero Center, Suite
+3470, San Francisco, CA 94111, (800) 466-5875, fax: (800) 466-4719,
+E-mail: (71333.433compuserve.com), CompuServe (GO VERTISOFT), America
+Online (Keyword: Vertisoft) or Internet (http://www.vertisoftsys.com).
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+HTML: EASILY CREATE INTERNET HTML FILES WITH ROBOHELP 95
+
+Blue Sky Software Thursday announced the new 32-bit RoboHELP HTML Plug-in
+for RoboHELP 95, award-winning Help authoring tool for Windows 95 and
+Windows NT.
+
+The new RoboHELP HTML Plug-in used with RoboHELP 95 turns Microsoft Word 7
+and Word 6 32-bit into full-featured hypertext authoring tools capable of
+creating HTML files and Windows Help systems simultaneously.
+
+RoboHELP 95 is the only Help authoring tool supporting this
+state-of-the-art plug-in architecture, thereby providing simultaneous Help
+and HTML creation from a single source.
+
+With the new RoboHELP HTML Plug-in based on Blue Sky Software's unique
+Help-to-HTML technology, there is no learning curve to create HTML files.
+The new RoboHELP HTML Plug-in automates the process of creating HTML files
+needed to build World Wide Web (WWW) sites.
+
+NEW HTML SUPPORT
+RoboHELP's visual environment provides an easy way to create Windows Help
+features such as jumps, topics, graphics, multiple hotspot graphics,
+Contents Tab, and more.  The RoboHELP HTML Plug-in automatically converts
+these Help features into corresponding HTML features -- no programming is
+needed!
+
+The RoboHELP HTML Plug-in automatically creates:
+o An HTML Home Page based on the Contents Tab or the Contents Topic of a
+Windows Help file;
+
+o An HTML file for each Help topic;
+o Links to HTML files based on Help topic jumps and pop-ups;
+o A Web graphic file (GIF) for each bitmap;
+o A Web graphic file (GIF) with corresponding image map files for each
+hotspot graphic.
+
+HELP-TO-HTML KIT
+The RoboHELP HTML Plug-in is part of the new Help-to-HTML Kit, which also
+includes the Help-to-HTML Converter.  The Help-to-HTML Converter is based
+on the same Help-to-HTML technology as used by the RoboHELP HTML Plug-in.
+However, the Help-to-HTML Converter converts any Windows 3.1 or Windows 95
+Help files into HTML files, regardless of the Help authoring tool used to
+create them.
+
+PRICING & AVAILABILITY
+The Help-to-HTML Kit will be available in January 1996 at a $199
+introductory price (list price:  $398).  RoboHELP 95 is now available at a
+suggested retail price of $499.  Special competitive upgrade pricing is
+now available for users of competitors' Help authoring tools.
+
+FMI: Blue Sky Software at 800/459-2356; international 619/459-6365; fax
+619/459-6366; http://www.blue-sky.com; Internet salesblue-sky.com.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+ACQUISITION: HP TO ACQUIRE ELSEWARE
+
+Hewlett-Packard Company and ElseWare Corp. announced that HP has acquired
+ElseWare.  Seattle-based ElseWare develops printing and publishing
+software.  Terms of the agreement were not disclosed.
+
+The acquisition of ElseWare is part of HP's strategy to introduce laser
+printers that deliver more capability at a lower price.  It will enhance
+HP's ability to offer customers improved performance and ease of use for
+its industry-leading LaserJet printers.
+
+The FontSmart product, which ElseWare developed for HP, delivers software
+that contains innovative font-compression technology and font-management
+capability.  FontSmart was introduced with HP's LaserJet 5L, 5P and 5Si
+printers and provides Windows customers with 110 fonts and easy-to-use
+font-management capability -- all in the space of a single disc.  ElseWare
+technology also offers opportunities for future enhancements to HP's
+LaserJet printer solutions.
+
+"Software solutions are becoming increasingly important to HP's
+laser-printer strategy," said Richard L. Raimondi, general manager of HP's
+Business LaserJet Division.  "ElseWare's software-development expertise
+and the quality of its management and technical staff will contribute
+significantly to our ability to satisfy LaserJet printer customers."
+
+"This acquisition broadens our opportunity to provide ElseWare software
+technology to a wide range of customers," said Ben Bauermeister, ElseWare
+founder and president.  "We're pleased that these customers will benefit
+from the combination of our software technology and HP's LaserJet
+printers."
+
+Ben Bauermeister and Clyde McQueen, who had worked together at Aldus,
+founded ElseWare in 1990.  The company has 20 employees and is expected to
+remain in Seattle.  It now is a research-and-development section of HP's
+Business LaserJet Division.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+ANTI VIRUS: CHEYENNE SHIPS INOCULAN 1.01 FOR WINDOWS NT SERVERS &
+WORKSTATION; INDUSTRY'S FIRST REAL-TIME VIRUS SCANNING FOR WINDOWS NT
+
+Cheyenne Software, Inc., a world leader in the development of
+enterprise-wide software solutions, today shipped InocuLAN 1.01 for the
+Microsoft Windows NT Operating System.  This latest version of InocuLAN,
+which just received the "Designed for Microsoft BackOffice" logo, is the
+first product on the market with the ability to scan Windows NT based
+computers for viruses in real-time. InocuLAN is the first and only
+anti-virus solution to receive the "Designed for Microsoft BackOffice"
+designation.
+
+InocuLAN 1.01 sets the standard for Windows NT-based virus protection.
+Like the previous version of the product (Version 1.0 - Windows NT
+Magazine's Editor's Choice award, Oct.  '95), the new release is a 32-bit,
+multithreaded, client/server application that protects against over 6000
+viruses, including virtually all viruses 'found in the wild'.  The new
+version not only scans in real-time, it is also able to scan compressed
+files - allowing viruses to be detected without users having to risk
+decompressing those files. InocuLAN 1.01 runs on Windows NT for Intel,
+MIPS and Alpha platforms. "Windows NT Server provides a secure, reliable
+operating system for distributed computing," said Rich Tong, general
+manager in the business systems division at Microsoft.  "By delivering a
+real-time virus detection product Cheyenne is helping further strengthen
+this promise.  And because InocuLAN carries the Microsoft BackOffice logo
+customers can be assured that it will integrate into their BackOffice
+environment."
+
+Behind InocuLAN's Windows 95-like interface is a state of the art,
+heuristic-based, polymorphic scanner that detects nearly all known viruses
+as certified by the National Software Testing Laboratories (NSTL).
+InocuLAN detects, identifies and cures -- boot, file, multipartite,
+stealth, polymorphic, and macro viruses.  When a virus is detected,
+InocuLAN notifies the user immediately, as well as sends an alert via
+Microsoft Mail, alphanumeric pager, SNMP, network broadcast, fax, or
+printed trouble ticket.  InocuLAN maintains a detailed activity log of all
+virus scans across the network.  The product also records to the Windows
+NT system event log.
+
+InocuLAN 1.01 for Windows NT is unique in that it allows administrators to
+manage an entire network of InocuLAN hosts from a central Windows NT
+Server or Workstation.  Unlike competitive products, it is implemented as
+a service that can provide enterprise-wide remote management, including
+unattended remote virus scans, even when the remote workstation is not
+logged into the network.  In addition, InocuLAN further integrates with
+Microsoft BackOffice by supporting long file names and Universal Naming
+Convention (UNC) and is Unicode compliant.  InocuLAN utilizes a kernel
+mode device driver to allow it to scan incoming and outgoing files in
+real-time.
+
+"Cheyenne's expertise in providing enterprise tools allows us to take the
+lead in helping administrators deploy anti-virus measures across the
+enterprise", said Rei Jane Huai, president and CEO for Cheyenne Software.
+"Cheyenne will continue to work closely with Microsoft to make BackOffice
+a secure environment and to support mission critical applications."
+
+Cheyenne Software, Inc. is an international developer of essential
+software solutions for NetWare, Windows NT, UNIX, Macintosh and OS/2
+networks.  Its enterprise-wide offerings include an array of storage
+management, security and communications products, including Cheyenne HSM,
+JETserve, InocuLAN, FAXserve, Monitrix and its flagship product line, the
+ARCserve family of network backup software.  Cheyenne can be contacted at
+(800) 243-9462 (US or Canada) or (516) 282-5110.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "6"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+VIRTUAL OFFICE: FOR BUSINESSMEN CONSTANTLY ON THE GO: CHICAGO COMPANY
+CREATES FIRST VIRTUAL OFFICE FOR THEIR NEEDS
+
+There is nothing like the Office Club.
+
+They are opening all over the country.  They will have local virtual
+offices (not necessary though because a client never visits the Office
+Club).  Here's how it works:
+
+You are assigned an e-mail number, voice mail box and fax number.
+Hypothetically, you are a national sales manager for a company that is
+based in New York and you are in San Francisco.  You can e-mail the Office
+Club with copy for a new contract that needs to go to a prospective
+customer.  They will type, overnight, fax or e-mail (serve as your
+office).  There is no need to talk with the Office Club; everything can be
+done by e-mail.  A copy of the contract is e-mailed back to your mailbox
+so you know it has been done.  The Office Club customer messages and faxes
+are e-mailed to the customer.
+
+The Office Club home page has doors assigned to different services:
+hotels, restaurants, voice mail, e-mail, fax, airlines. The client opens
+the home page door to one of these services and e-mails to the Office Club
+which will arrange (like their office would do), receive e-mail, make a
+hotel reservation, etc.
+
+Al Misale, founder, has taken a HQ concept or a home office and made it
+virtual/interactive.
+
+FMI: Linda Muskin, 708/291-8420 ext. 275
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "7"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+CHIPS: CYRIX TO WRITE OFF 486 PROCESSOR INVENTORY; COMPANY TO FOCUS EFFORT
+ON FLAGSHIP 6X86 PROCESSOR FOR 1996
+
+Cyrix Corp. will report a loss for the quarter ending Dec. 31, 1995, due
+to poor pricing and sales of 486 products and a write-off of remaining 486
+inventory.
+
+While the amount of the fourth quarter loss has not been determined, the
+company expects that it could exceed $0.40 per share. Cyrix reported net
+income for the nine months ended Sept. 30, 1995, of $25.5 million, or
+$1.28 per share.
+
+"While this first-time loss for Cyrix is a tremendous disappointment, and
+it will put us into default of covenants contained in our credit
+agreements, we have taken action to close out the 486 business and begin
+1996, a year that will depend almost entirely on the market strength of
+the 6x86 processor," said Cyrix President and Chief Executive Officer
+Jerry Rogers.  "We can now concentrate on producing and selling as many
+6x86 processors as possible in 1996."
+
+Cyrix Corp., headquartered in Richardson, is a leading supplier of
+high-performance processors to the personal computer industry. Founded in
+1988, the company designs, manufactures and markets innovative, x86
+software-compatible processors for the desktop and mobile computer
+markets.
+
+The financial report of company operations for the Dec. 31, 1995, quarter
+will be distributed on Jan. 18, 1996, after the close of the market.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "8"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+INTERNET ACCESS: BLUE SKY SOFTWARE EASES THE CREATION OF INTERNET WEB
+SITES
+
+Blue Sky Software announced the new 32-bit Help-to-HTML Converter for
+Windows 95 and Windows NT.
+
+Based on Blue Sky Software's unique Help-to-HTML technology, the new
+Help-to-HTML Converter automatically converts any Windows 3.1 or Windows
+95 Help file into a Web site.  No Internet publishing experience is needed
+to easily create Internet Web sites!
+
+With the new Help-to-HTML Converter, you can now take advantage of the
+many similarities between Windows Help and HyperText Markup Language
+(HTML).  You can use all currently available Help authoring environments,
+from low-end shareware products to high-end products such as RoboHELP to
+create Help files and easily and quickly convert them into HTML and Web
+graphics files with the Help-to-HTML Converter.
+
+HELP-TO-HTML CONVERSION
+The Help-to-HTML Converter automatically converts Help features into
+corresponding HTML and Web graphic files (GIF).  No programming is needed!
+The Help-to-HTML Converter automatically:
+
+o Converts the Contents Tab or the Contents Topic of a Windows Help file
+into an HTML Home Page;
+o Transforms each Help topic into an HTML file;
+o Converts jumps and pop-ups into HTML links;
+o Converts each bitmap into a Web graphic file (GIF);
+o Transforms each hotspot graphic into a Web graphic file (GIF) with
+corresponding image map files.
+
+HELP-TO-HTML KIT
+The Help-to-HTML Converter is part of the new Help-to-HTML Kit, which also
+includes the RoboHELP HTML Plug-in for RoboHELP 95, award-winning Help
+authoring tool for Windows 95 and Windows NT.
+
+ROBOHELP HTML PLUG-IN
+With the new RoboHELP HTML Plug-in, RoboHELP 95 now supports the creation
+of both a Help system and a Web site from a single source. The new
+RoboHELP HTML Plug-in used with RoboHELP 95 allows users to easily create
+Help systems and their corresponding HTML files while remaining in
+RoboHELP's user-friendly, visual environment.
+
+RoboHELP 95 is the only Help authoring tool providing simultaneous Help
+and HTML creation from a single source.
+
+PRICING & AVAILABILITY
+The Help-to-HTML Kit will be available in January 1996 at an introductory
+price of $199 (list price is $398).  RoboHELP 95 is now available at a
+suggested retail price of $499.  Special competitive upgrade pricing is
+now available for users of competitors' Help authoring tools.
+
+FMI: Blue Sky Software, 800/459-2356; international 619/459-6365; fax
+619/459-6366; http://www.blue-sky.com; Internet salesblue-sky.com.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "9"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+INTERNET ACCESS: NETSCAPE ADOPTS EXCITE FOR ITS NET DIRECTORY; EXCITE
+SERVICE REPLACES YAHOO!
+
+Architext Software, Inc., Thursday announced that Netscape Communications,
+Inc. has adopted Excite for its Internet directory services.
+
+This means that users clicking the "Net Directory" button of the Netscape
+browser will be directly linked to the Excite media navigation service.
+
+Excite was launched in early October of this year as the first
+next-generation media navigation service.  It combines a concept-based
+search engine with a full complement of net reviews which are developed by
+a team of thirty or so editors all working together in a "virtual
+newsroom." Since the launch of Excite, Architext acquired City.Net for
+local and regional media navigation and has added many features, including
+the Internet's first interactive political cartoon series, which was
+launched in its beta form in November.
+
+"The power of the Net is not just to connect people with miscellaneous
+pieces of data, but to connect people with people, people with content,
+and content with people," said Joe Kraus, Architext founder and president.
+"We are confident that this Netscape relationship will enable our service
+to connect even more people and content."
+
+Kraus said Excite is currently experiencing about two million hits a day,
+with the number increasing rapidly.
+
+Based in Mountain View, CA, Architext Software, Inc., is the first company
+to offer a next generation Media Navigation Service. Architext was founded
+in 1993 and is funded by a combination of corporate investment and venture
+capital.
+
+Investors include Kleiner Perkins Caufield & Byers, Institutional Venture
+Partners, Charles Rivers Ventures and International Data Group.  Excite
+can be located on the Internet at http://www.excite.com.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "10"></A>Copyright
+EDGE: WORK-GROUP COMPUTING REPORT via NewsNet
+January 1, 1996
+
+WINDOWS 95: VERTISOFT ZIP-IT SHIPS JANUARY 1; POWERFUL NEW UTILITY FOR
+WINDOWS 95 & WINDOWS 3.X ELIMINATES FILE COMPRESSION DRUDGERY
+
+Vertisoft Systems Inc., the recognized innovator in utilities software,
+has begun shipments of Vertisoft Zip-IT, the easiest way to zip and unzip
+files in Windows 95, Windows 3.X and Windows NT.  Many files can be
+reduced in size by as much as 98 percent -- a big savings in hard drive
+space or upload/download time.
+
+"Anyone who uses online services or the Internet knows that file
+compression is an absolute necessity," says Elliott Lowe, vice
+president/marketing at Vertisoft Systems Inc.  "Until now, however, file
+compression was anything but simple.  Vertisoft Zip-IT changes that.
+Zip-IT represents a tremendous advance in the ease-of-use for file
+compression utilities.  There's nothing like it available anywhere else."
+
+Vertisoft Zip-IT will be on store shelves nationwide about January 1,
+1996, and is expected to retail for $39.95.  In a special promotion during
+January, February and March, 1996, users who purchase Vertisoft's
+Remove-IT 95 at retail (expected street price: $39.95) can purchase Zip-IT
+for half-price.
+
+VERTISOFT ZIP-IT
+Vertisoft Zip-IT makes managing compressed files simple.  No other file
+compression utility is as comprehensive and easy-to-use. Zip-IT
+automatically adds itself to the Windows 95 Explorer and the Windows 3.X
+File Manager interface, so file compression, viewing or extraction is a
+simple point-and-click operation.
+
+Vertisoft Zip-IT lets users view files within any archive without having
+to extract them.  For the first time, users can view, edit or even run
+files that are still zipped.  "Users familiar with old-fashioned DOS-based
+compression utilities are amazed when they see Zip-IT," Mr. Lowe adds.
+"Everything is a simple point-and-click operation.
+
+"You can work with multiple ZIP files at the same time.  If you want to
+get a single file out of an entire ZIP archive, just point-and-click on
+the file you want.  And if you need to work with extra-large files, just
+use Zip-IT's Span Disk feature to automatically back up zipped archives
+across multiple diskettes."
+
+VERTISOFT ZIP-IT GIVES USERS:
+o Simple drag-and-drop file compression.
+
+o Exclusive Zip-IT Plus feature to create self-extracting ZIP files that
+are executable under Windows and DOS -- so co-workers and friends don't
+need their own file compression utility.
+
+o 100% compatibility with the PKZIP standard, so users can unzip files
+with PKZIP or Zip-IT, regardless of which application was used to zip
+them.
+
+o View, edit and run zipped files from within Vertisoft Zip-IT. Zip-IT
+includes a built-in viewer or allows access to Windows 95's QuickView.
+
+o Point-and-click file unzipping.
+
+o Integration with the Windows 3.X File Manager or Windows 95 Explorer.
+
+o A built-in Search feature to help locate files inside the ZIP files on
+your hard drive in a flash.
+
+o Zip Options menu to let users customize the way files are archived.
+
+Founded in 1988, Vertisoft is a leading developer and marketer of PC
+utility software.  Other popular titles from Vertisoft Systems Inc.
+include Remove-IT 2 (the No. 1 rated intelligent storage management
+utility and uninstaller), Remove-IT 95 (the most comprehensive removal
+system available to safely and accurately remove any 32-bit or 16-bit
+application), and Name-IT (the seamless way to use long filenames in
+Windows 3.X applications running under Windows 95).  Vertisoft has
+licensed technology to Microsoft for use in its operating systems, used by
+millions worldwide.
+
+Vertisoft is one of the few utility software companies to offer consumers
+a no-questions-asked satisfaction guarantee on its products.  Users who
+are unhappy for any reason can return products within 30 days for a prompt
+refund.
+
+For more information about Vertisoft Zip-IT or any other product from
+Vertisoft, contact Vertisoft Systems Inc., Four Embarcadero Center, Suite
+3470, San Francisco, CA 94111, 800/466-5875, fax: 800/466-4719, E-mail:
+(71333.433compuserve.com), CompuServe (GO VERTISOFT), America Online
+(Keyword: Vertisoft) or Internet (http://www.vertisoftsys.com).
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

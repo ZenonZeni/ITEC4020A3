@@ -1,0 +1,206 @@
+
+<DOC>
+<DOCNO>WT03-B20-143</DOCNO>
+<DOCOLDNO>IA018-000193-B026-15</DOCOLDNO>
+<DOCHDR>
+http://www.rssl.co.uk:80/enquiry.html 194.159.251.194 19970106150650 text/html 5772
+HTTP/1.0 200 OK
+Date: Mon, 06 Jan 1997 15:06:51 GMT
+Server: Apache/0.8.14
+Content-type: text/html
+Content-length: 5600
+Last-modified: Tue, 08 Oct 1996 08:05:02 GMT
+</DOCHDR>
+<HEAD>
+<HTML>
+<TITLE>RSSL:Enquiry Form</TITLE>
+</HEAD>
+
+
+
+<BODY BGCOLOR="#00458c" text="#ffffff" link="#ffff00" vlink="#66ff99">
+
+<BR>
+<BR>
+
+<IMG  SRC="RSSLlogo.gif" alt=RSSL Logo align=bottom>
+
+<BR>
+
+<HR SIZE=1 NOSHADE>
+<P><H1>RSSL Enquiry Form</H1></P>
+<HR SIZE=1 NOSHADE>
+
+
+
+
+<P>This form enables you to request more information about RSSL&#39;s services. <p><em>Note : </em>This is an HTML form.  If your browser does not support forms, send mail directly to <A HREF="mailto:Lynn.M.White@rssl.sprint.com">Lynn.M.White@rssl.sprint.com</A>, or telephone us on +44 118 986 8541. Alternatively print out the form, fill in, and fax back on +44 118 986 8932.</P>
+
+
+<HR>
+
+<form method="POST" action="http://www.rssl.co.uk/cgi-bin/rssl/enquiry.pl">
+
+
+<P><H2>Information request</H2></P>
+
+
+<P><STRONG>Please check the boxes of the services that  you would like to receive more information on.</STRONG></P>
+
+<BR>
+<BR>
+
+
+<P>Research</P>
+<OL>
+<LI> <INPUT TYPE="checkbox" NAME="brewing">The brewing & beverage industry</LI>
+<LI> <INPUT TYPE="checkbox" NAME="healthcare" >The healthcare industry</LI>
+<LI> <INPUT TYPE="checkbox" NAME="chemical">The chemical industry</LI>
+<LI> <INPUT TYPE="checkbox" NAME="oils">Oils and fats industry </LI>
+</OL>
+
+<P>Analysis</P>
+<OL>
+<LI> <INPUT TYPE="checkbox" NAME="microbiology">Microbiology</LI>
+<LI> <INPUT TYPE="checkbox" NAME="composition">Composition / nutrition / product labelling</LI>
+<LI> <INPUT TYPE="checkbox" NAME="pesticide">Pesticide residues</LI>
+<LI> <INPUT TYPE="checkbox" NAME="fruit">Fruit juice authenticity</LI>
+<LI> <INPUT TYPE="checkbox" NAME="sensory">Sensory evaluation</LI>
+<LI> <INPUT TYPE="checkbox" NAME="environmental">Environmental</LI>
+<LI> <INPUT TYPE="checkbox" NAME="foreign">Foreign bodies</LI>
+<LI> <INPUT TYPE="checkbox" NAME="taints">Taints and off-flavours</LI>
+<LI> <INPUT TYPE="checkbox" NAME="mycotoxins">Mycotoxins</LI>
+<LI> <INPUT TYPE="checkbox" NAME="microscopy">Microscopy</LI>
+<LI> <INPUT TYPE="checkbox" NAME="particle">Particle characterisation</LI>
+<LI> <INPUT TYPE="checkbox" NAME="rheology">Rheology</LI>
+<LI> <INPUT TYPE="checkbox" NAME="consumerpro">Consumer products</LI>
+<LI> <INPUT TYPE="checkbox" NAME="spectroscopy">Spectroscopy</LI>
+</OL>
+
+<P>Consultancy</P>
+<OL>
+<LI> <INPUT TYPE="checkbox" NAME="ers">Emergency Response Service</LI>
+<LI> <INPUT TYPE="checkbox" NAME="productdev">Product development</LI>
+<LI> <INPUT TYPE="checkbox" NAME="haccp">HACCP consultancy</LI>
+<LI> <INPUT TYPE="checkbox" NAME="consumer">Consumer & Market Research</LI>
+<LI> <INPUT TYPE="checkbox" NAME="information">Information Services</LI>
+<LI> <INPUT TYPE="checkbox" NAME="training">Training</LI>
+<LI> <INPUT TYPE="checkbox" NAME="selectqa">Select QA - Supplier Quality Assurance</LI>
+</OL>
+
+
+<TR>
+<td width="40%" valign=top align=right>Other Information</td>
+<td width="60%" valign=top align=left><TEXTAREA ROWS=6 COLS=60 TYPE="text"  NAME="otherinfo"></TEXTAREA></td>
+</TR>
+
+
+
+<P><H2>Personal details</H2></P>
+
+<P><STRONG>Please enter your personal details in the fields below.</STRONG></P>
+
+
+<table width="100%" border=0>
+<tr>
+<td width="40%" valign=top align=right>Title</td>
+<td width="60%" valign=top align=left>
+
+<SELECT NAME="title">
+<OPTION>Mr
+<OPTION>Ms
+<OPTION>Mrs
+<OPTION>Miss
+<OPTION>Dr
+<OPTION>Prof
+<OPTION>Other
+</SELECT>
+
+
+
+<TR>
+<td width="40%" valign=top align=right>First name</td>
+<td width="60%" valign=top align=left><INPUT SIZE=25 TYPE="text" NAME="Firstname"></td>
+</TR>
+
+<TR>
+<td width="40%" valign=top align=right>Surname</td>
+<td width="60%" valign=top align=left><INPUT SIZE=25 TYPE="text" NAME="Surname"></td>
+</TR>
+
+<TR>
+<td width="40%" valign=top align=right>Job Title</td>
+<td width="60%" valign=top align=left><INPUT SIZE=35 TYPE="text" NAME="Jobtitle"></td>
+</TR>
+
+<TR>
+<td width="40%" valign=top align=right>Company</td>
+<td width="60%" valign=top align=left><INPUT SIZE=30 TYPE="text" NAME="Company"></td>
+</TR>
+
+
+<TR>
+<td width="40%" valign=top align=right>Address 1</td>
+<td width="60%" valign=top align=left><INPUT SIZE=30 TYPE="text" NAME="address1"></td>
+</TR>
+
+<TR>
+<td width="40%" valign=top align=right>Address 2</td>
+<td width="60%" valign=top align=left><INPUT SIZE=30 TYPE="text" NAME="address2"></td>
+</TR>
+
+<TR>
+<td width="40%" valign=top align=right>Address 3</td>
+<td width="60%" valign=top align=left><INPUT SIZE=30 TYPE="text" NAME="address3"></td>
+</TR>
+<TR>
+
+<TR>
+<td width="40%" valign=top align=right>Address 4</td>
+<td width="60%" valign=top align=left><INPUT SIZE=30 TYPE="text" NAME="address4"></td>
+</TR>
+
+<TR>
+<td width="40%" valign=top align=right>Postcode/Zip</td>
+<td width="60%" valign=top align=left><INPUT SIZE=30 TYPE="text" NAME="postcodezip"></td>
+</TR>
+
+<TR>
+<td width="40%" valign=top align=right>Country</td>
+<td width="60%" valign=top align=left><INPUT SIZE=30 TYPE="text" NAME="country"></td>
+</TR>
+
+<TR>
+<td width="40%" valign=top align=right>E-mail</td>
+<td width="60%" valign=top align=left><INPUT SIZE=35 TYPE="text" NAME="email"></td>
+</TR>
+
+
+</table>
+
+
+
+
+
+<P><INPUT TYPE="checkbox" NAME="call">Please call me to discuss.</P>
+<P><INPUT TYPE="checkbox" NAME="regular">Please send me information about RSSL's services on a regular basis.</P>
+
+<input name="nickname"
+value="marketing"
+type="hidden">
+
+<HR>
+
+Click <input type="submit" value="register"> to register your enquiry.
+<P> Click <input type="reset" value="reset"> to clear
+your form.
+
+<IMG ALIGN=RIGHT SRC="swslogo200.gif" alt=sws logo align=bottom>
+<BR><BR><BR><BR>
+</FORM>
+</BODY>
+
+<HR SIZE=1 NOSHADE>
+<P>&copy;<A HREF="http://www.inpress.co.uk/"> In Press PR Ltd</A>1996
+<HR SIZE=1 NOSHADE>
+</DOC>

@@ -1,0 +1,169 @@
+
+<DOC>
+<DOCNO>WT03-B18-47</DOCNO>
+<DOCOLDNO>IA085-000610-B040-38</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/archit/marius.htm 150.145.4.16 19970216120804 text/html 7391
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:08:56 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 14:39:19 GMT
+Content-Length: 7193
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy Robotics Dept.: Control Architectures</title>
+<base href="http://www.ian.ge.cnr.it/robotics/archit/marius.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b><b><blink>
+        Control Architectures Data Base</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<h1 align="center"><i>MARIUS</i></h1>
+
+<h2><i>MARIne Utility System</i></h2>
+
+<h3 align="center">Portugal, Denmark, France - EC MAST Project</h3>
+
+<hr>
+
+<p><img src="f-marius.gif" align="center" width="379"
+height="253"> <img src="marius-c.gif" align="center" width="364"
+height="382"> <img src="marius-g.gif" align="center" width="420"
+height="351"> </p>
+
+<hr>
+
+<p>The vehicle&#146;s architecture comprises several systems:
+Support System: the energy distribution and monitoring module; its
+task is also to handle emergency situations by surfacing the
+vehicle. Propulsion System: controls propellers and rudders,
+tracks a series of set points provided by the Dynamic Control
+System; it also feeds back propulsion data to the Dynamic Control
+System for closed loop control, and to the Mission Supervisor for
+assessment of vehicle status. Dynamic Control System: accepts the
+reference trajectory from the Mission Supervisor and the
+information coming from the Navigation System and sends commands
+to the Propulsion System. Environmental Inspection System: a series
+of sensors for environmental data acquisition. Communications
+System: manages communications between the vehicle and the human
+operator, via exchange of messages, instructions, warnings and so
+on; it is also responsible for the encoding and decoding of
+messages. Navigation System: provides accurate estimates of
+vehicle position and speed; it sends data to the Dynamic Control
+System and to the Mission Supervisor for vehicle status and
+performance assessment. Mission Supervisor: coordinates the
+execution of mission tasks in accordance with the mission plan provided
+by the operator; it is composed of three blocks: a Task
+Scheduler, which performs task management on the basis of
+operator&#146;s instructions and system status; a System
+Coordination Module, to manage the exchange of information within
+system modules; and a Status Assessment Module, which determines
+vehicle status by examining data from the other modules. </p>
+
+<p>The proposed control structure derives from the analysis of
+the global system organization of the MARIUS AUV. In order to
+achieve a well-defined plan and control mechanism, a hierarchical
+structure is proposed, which to some extent recalls the concept
+of Increasing Intelligence with Decreasing Precision. The
+structure has a dynamic configuration capability: the system can
+dynamically configure the connections between modules and store
+information about the state of this configuration, in order to
+allow the most suitable translations of planned actions into
+commands. Moreover, the hierarchical structure allows the use of
+some reactive behaviours, whose purpose is to handle safety and
+integrity actions: they do not represent planned actions, but are
+activated in certain conditions. </p>
+
+<p>Three different layers are proposed. Organization level: the
+Mission Planner uses a well defined language and grammar to
+generate mission plans (waypoints and attitudes) on the basis of
+the mission doctrine; Path Planner refines mission path in order
+to obtain feasible trajectories; Mission Supervisor performs
+mission monitoring, teleoperations and interaction with the
+operator. Coordination level: coordinates the execution of
+activities related to the accomplishment of mission goals; Plan
+Interpreter generates a detailed action plan on the basis of
+sensor information about the vehicle and the environment; Plan
+Supervisor schedules the tasks for execution by the appropriate
+functional modules and reacts to emergency conditions;
+Architecture Coordinator manages the configuration of links
+between the different modules of the functional layer: different
+configurations may be scheduled depending on the evolution of the
+mission situation, and the best available alternative is chosen;
+dynamic adaptation of architecture to changing environmental conditions
+is performed to maintain operational consistency; Task Refinement
+transforms specified tasks into sequences of actions, according
+to the mission context; Global Exception Handler is a high level
+manager of error conditions and is invoked when lower level
+modules are not able to cope with errors. Functional modules:
+primitive modules are responsible for sensing and actuation, and
+are connected according to decisions at the Coordination level; reactive
+system behaviours correspond to different connections between
+these modules; complex functional modules are composed of groups
+of primitive modules in order to achieve higher level behaviours,
+and to increase system modularity and expandability. </p>
+
+<hr>
+
+<h4>Bibliography</h4>
+
+<ul>
+    <li>Borges Sousa J. , Lobo Pereira F. ,<i> A Dynamically
+        Configurable Architecture for the Control of Autonomous
+        Underwater Vehicles</i>, Oceans 94, Proceedings, Volume
+        II, Brest, France, 13-16 September 1994, p.131 </li>
+    <li>Pascoal A. , <i>The AUV MARIUS: Mission Scenarios,
+        Vehicle Design, Construction and Testing, Mobile Robots
+        for Subsea Environments</i>, Monterey, CA (USA), 2-6 May
+        1994 . </li>
+</ul>
+
+<hr>
+
+<h5><i>The Naval Automation Institute is NOT responsible for
+information related to the selected machine: all data have been
+retrieved from the bibliography included; any problem or
+suggestion should be notified to </i><a
+href="mailto:virgili@ian.ge.cnr.it"><i>virgili@ian.ge.cnr.it</i></a></h5>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

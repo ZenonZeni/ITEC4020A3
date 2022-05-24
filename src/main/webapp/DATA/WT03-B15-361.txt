@@ -1,0 +1,449 @@
+
+<DOC>
+<DOCNO>WT03-B15-361</DOCNO>
+<DOCOLDNO>IA074-000483-B007-300</DOCOLDNO>
+<DOCHDR>
+http://acc123.usc.edu:80/Docs/icsur011.html 128.125.48.102 19970125004037 text/html 20191
+HTTP/1.1 200 Document follows. 
+Server: IBM-Secure-Export-ICS/v970115 Beta
+Date: Fri, 24 Jan 1997 21:39:10 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Content-Length: 19959
+Last-Modified: Mon, 13 Jan 1997 17:12:58 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>Internet Connection Secure Server Quick Beginnings</TITLE>
+<!-- Begin Header Records  ========================================== -->
+<!-- ICSURMST SCRIPT A converted by B2H R2.4 (262) (CMS-OS2) by       -->
+<!-- KETRING at RALVM13 on 20 Dec 1996 at 16:44:30                    -->
+<META HTTP-EQUIV="security"  CONTENT="public">
+<META HTTP-EQUIV="updated"  CONTENT="Fri, 20 Dec 1996 16:44:14">
+<META HTTP-EQUIV="review"  CONTENT="2000">
+<META HTTP-EQUIV="expires"  CONTENT="2000">
+</HEAD><BODY>
+<!-- COMPONENT_NAME: web                                             -->
+<!--                                                                 -->
+<!-- FUNCTIONS:                                                      -->
+<!--                                                                 -->
+<!-- ORIGINS:  27                                                    -->
+<!--                                                                 -->
+<!-- (C) COPYRIGHT International Business Machines Corp. 1995, 1997  -->
+<!-- All Rights Reserved                                             -->
+<!-- Licensed Materials - Property of IBM                            -->
+<!--                                                                 -->
+<!-- US Government Users Restricted Rights - Use, duplication or     -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                 -->
+<!-- End Header Records  ============================================ -->
+<A NAME=Top_Of_Page>&nbsp;</A>
+<HR>
+<H1><A NAME="HDRGLO" HREF="icsur007.html#PToC_74">Appendix C. Glossary</A></H1>
+<P>
+This glossary defines terms used by the Internet Connection Secure Server.
+<DL>
+<P><DT>accessory script
+<DD>A CGI script program that processes SEARCH, POST, PUT, or DELETE
+requests.
+The accessory scripts process requests that are not explicitly
+mapped to a CGI script program named on an EXEC directive.
+<P><DT>address
+<DD>The unique code assigned to each device or
+workstation connected to a network.
+A standard Internet address (or IP address) is a 32-bit address field.
+This field contains two parts.
+The first part is the network address;
+the second part is the host number.
+See also <I>IP address</I>.
+<P><DT>agent
+<DD>
+In systems management, a user that, for a particular interaction,
+has assumed an agent role.
+<DD>
+An entity that represents one or more managed objects by
+(a) emitting notifications regarding the objects and
+(b) handling requests from managers for management operations
+to modify or query the objects.
+<P><DT>alias
+<DD>A name assigned to a server.
+The alias makes the server independent of the name of its host machine.
+The alias must be defined in the domain name server.
+<P><DT>asymmetric keys
+<DD>In secure communications, the two keys in a key pair.
+The keys are called asymmetric because one key holds more of the
+encryption pattern than the other does.
+See <I>key pair</I>.
+<P><DT>authentication
+<DD>In secure communications, a means of verifying the identity
+of a server or browser (client) with whom you wish to communicate.
+A sender's authenticity is demonstrated
+by the digital certificate issued to the sender.
+See also <I>certificate</I>.
+<P><DT>browser
+<DD>A client program that initiates requests to a server
+and displays the returned information.
+<P><DT>cache
+<DD>A special-purpose buffer storage, smaller and faster than main
+storage, used to hold a copy of data that may be frequently accessed.
+Use of a cache reduces access time,
+but may increase memory requirements.
+<P><DT>caching proxy server
+<DD>A proxy server that can store the documents it retrieves
+from other servers in a local cache.
+The server can then respond to subsequent requests for the
+same documents without having to retrieve them from other servers.
+This can improve response time.
+<P><DT>CERN
+<DD>Conseil Europeen pour la Recherche Nucleaire (European Laboratory
+for Particle Physics).
+Located in Geneva, CERN initiated the World Wide Web,
+and was the first to create a Web server.
+The CERN Web server is the basis for many commercially
+available servers, such as IBM's Internet Connection Secure Server.
+<P><DT>certificate
+<DD>In secure communications, a digital document that binds
+an encryption key to the identity of the certificate owner,
+so that the certificate owner can be authenticated.
+A certificate is issued by a certification authority (CA).
+See also <I>encryption</I>, <I>certificate</I>, and
+<I>certification authority (CA)</I>.
+<P><DT>certification authority (CA)
+<DD>In secure communications,
+a trusted third party (such as VeriSign, Inc.)
+or a designated internal authority who issues certificates.
+See also <I>certificate</I>.
+<P><DT>CGI (common gateway interface)
+<DD>A standard interface between Web servers and external programs.
+CGI scripts are programs that use this interface to perform tasks
+not usually done by the server, such as form processing.
+<P><DT>CGI program
+<DD>A program that uses the common gateway interface (CGI)
+to perform tasks not usually done by the server, such as form processing.
+CGI programs can be written in any language supported by the operating
+system on which the server is run.
+The language can be a scripting language or a programming language.
+<P><DT>client
+<DD>A computer system or process that requests a service of
+another computer system or process.
+For example, a workstation or personal computer
+requesting HTML documents from an IBM Internet Connection Secure Server
+is a client of the IBM Internet Connection Secure Server it connects to.
+<P><DT>configuration file
+<DD>A file that describes the devices, optional features, communications
+parameters, and programs installed on a workstation.
+For Internet Connection Secure Server, the configuration file is named httpd.cnf
+and by default is put in the path specified
+on the SET ETC statement in your CONFIG.SYS file.
+The configuration file contains directives
+that define the various settings for the server.
+<P><DT>cookie
+<DD>A general mechanism that server-side connections, such as
+CGI scripts, can use to store information on the
+client side of the connection for later retrieval.
+For example, a retail Web site can
+store per-user preferences on the client, and have the client supply
+those preferences every time that site is connected to.  A cookie
+is introduced to the client in a Set-Cookie header, which is included
+as part of an HTTP response.
+<P><DT>default
+<DD>A value, attribute, or option that is assumed
+when none is explicitly specified.
+<P><DT>directive
+<DD>A statement used in the Internet Connection Secure Server configuration file
+to define a particular setting for the server.
+<P><DT>directory
+<DD>A named grouping of files in a file system.
+<P><DT>Distinguished Name
+<DD>In secure communications, the name and address of the person
+and organization to whom a certificate has been issued.
+See also <I>certificate</I>.
+<P><DT>document root directory
+<DD>The primary directory where a Web server stores accessible documents.
+When the server receives requests that do not point to a specific
+directory, it tries to serve the request from this directory.
+<P><DT>domain
+<DD>In an internet, a part of the naming hierarchy.
+A domain name consists of a sequence
+of names (labels) separated by periods (dots).
+<P><DT>domain name
+<DD>A name of a host system in a network.
+A domain name consists of a sequence
+of names (labels) separated by periods (dots).
+<P><DT>domain name server
+<DD>A server program that supplies address-to-name
+translation by mapping Internet addresses to domain names.
+Use of a domain name server allows users
+to request services of another computer using a symbolic name,
+which is easier to remember than an Internet address.
+<P><DT>dotted-decimal notation
+<DD>The syntactical representation for a 32-bit integer that consists of
+four 8-bit numbers, written in base 10 and separated by periods (dots).
+It is used to represent IP addresses.
+<P><DT>dynamic link library (DLL)
+<DD>A file containing executable code and data bound to a program
+at load time or run time.  The code and data in a dynamic link
+library can be shared by several applications simultaneously.
+<P><DT>encryption
+<DD>In secure communications, a means of scrambling data
+to prevent the data from being read by
+anyone other than the intended recipient.
+The sender uses a key to encrypt the message;
+the recipient uses the decryption key.
+See also <I>key</I> and <I>key pair</I>.
+<P><DT>file extension
+<DD>The last part of a file&#39;s name, following the period (dot).
+For example, in the filename welcome.html, the file extension is html.
+<P><DT>firewall
+<DD>A computer that connects a private network, such as a business,
+to a public network, such as the Internet.
+It contains programs that limit the access between two networks.
+See also <I>proxy gateway</I>.
+<P><DT>FTP (File Transfer Protocol)
+<DD>An application protocol used for transferring files to
+and from host computers.
+FTP requires a user ID, and a password to allow
+access to files on a remote host system.
+<P><DT>gateway
+<DD>A functional unit that connects a local data network with
+another network.
+See also <I>proxy gateway</I>.
+<P><DT>Gopher
+<DD>The protocol, developed at the University of Minnesota,
+that provides a menu-driven interface for accessing files
+and information on other computers.
+<P><DT>home page
+<DD>The welcome page on the document root directory of a Web server.
+Commonly used as the entry point for the contents of the server.
+See also <I>welcome page</I>.
+<P><DT>host
+<DD>A computer, connected to a network, which provides
+an access point to that network.
+A host can be a client, a server, or a client and server
+simultaneously.
+<P><DT>host name
+<DD>A name, such as tcpipidd.raleigh.ibm.com, that is defined
+for an IP address, such as 9.67.97.103.
+<P><DT>HTML (Hypertext Markup Language)
+<DD>A language used to create hypertext documents.
+Hypertext documents can include links to other related documents.
+HTML controls the format of text and position of form input areas,
+for example, as well as the navigable links.
+<P><DT>HTML document
+<DD>A document written in HTML that may contain links to other documents
+that contain additional information about related terms or subjects.
+<P><DT>HTTP (Hypertext Transfer Protocol)
+<DD>The protocol used to transfer and display hypertext documents.
+<P><DT>HTTP method
+<DD>An action used by the Hypertext Transfer Protocol.
+For example, HTTP methods include GET, POST, and PUT.
+<P><DT>icon
+<DD>A graphical representation of an object (a file or program),
+consisting of an image, image background, and a label.
+<P><DT>Internet
+<DD>A wide area network connecting thousands of disparate networks
+in industry, education, government, and research.
+The Internet network uses TCP/IP as the standard
+for transmitting information.
+<P><DT>IP address
+<DD>The unique 32-bit address that specifies the actual location
+of each device or workstation in the Internet.
+For example, 9.67.97.103 is an IP address.
+<P><DT>key
+<DD>In secure communications,
+an algorithmic pattern used by a sender to encrypt messages,
+and by a recipient to decrypt messages.
+See also <I>encryption</I>, <I>key pair</I>, and
+<I>key ring</I>.
+<P><DT>key pair
+<DD>In secure communications, a public key and a private key.
+The sender uses the private key to encrypt the message;
+the recipient uses the public key to decrypt the message.
+Because the private key holds more of the encryption pattern
+than the public key does, the key pair is called asymmetric.
+See also <I>public key</I> and <I>private key</I>.
+<P><DT>key ring
+<DD>In secure communications, a file that contains public keys,
+private keys, trusted roots, and certificates.
+See also <I>public key</I>, <I>private key</I>,
+<I>trusted root</I>, and <I>certificate</I>.
+<P><DT>managed node
+<DD>
+In Internet communications, a workstation, server, or router
+that contains a network management agent.
+In the Internet Protocol (IP), the managed node usually contains a
+Simple Network Management Protocol (SNMP) agent.
+<P><DT>method
+<DD>An action used by the Hypertext Transfer Protocol.
+For example, HTTP methods include GET, POST, and PUT.
+<P><DT>MIB
+<DD>
+Management Information Base.
+A collection of objects that can be accessed by means of
+a network management protocol.
+<DD>
+A definition for management information that specifies
+the information available from a host or gateway
+and the operations allowed.
+<P><DT>MIME (Multipurpose Internet Mail Extensions)
+<DD>An Internet standard for multimedia e-mail,
+including graphics, audio, and fax.
+<P><DT>name server
+<DD>A host that provides name resolution for a network.
+Name servers translate symbolic names assigned to networks
+and hosts into the Internet (IP) addresses used by machines.
+<P><DT>network management station
+<DD>
+In the Simple Network Management Protocol (SNMP),
+a station that executes management application programs
+that monitor and control network elements.
+<P><DT>password
+<DD>In secure communications, a string of characters that you use
+to protect access to your key ring.
+See also <I>key ring</I>.
+<P><DT>path
+<DD>A statement that indicates where a file is stored
+on a particular drive.
+The path consists of all the directories
+that must be opened to get to a particular file.
+The directory names are separated by the backslash (\).
+<P><DT>persistent connection
+<DD>A TCP/IP connection that allows the server to accept multiple
+requests and to sent responses over the same connection.
+<P><DT>PICS
+<DD>Platform for Internet Content Selection.
+An evolving set of specifications governing the creation and
+use of ratings for Web information, including HTML files, as well
+as image, sound, and animation files.  Content providers can rate
+and label their own Web information; also, independent rating
+services can rate Web information.  Internet users can then request
+the ratings as a way to preview and filter Web information for
+acceptable content.
+<P><DT>port
+<DD>An end point for communication between applications,
+generally referring to a logical connection.
+A port provides queues for sending and receiving data.
+Each port has a port number for identification.
+When the port number is combined with an Internet address,
+it is called a socket address.
+<P><DT>private key
+<DD>In secure communications, an algorithmic pattern used
+to encrypt messages that can be decrypted only
+by the corresponding public key.
+A private key is also used to decrypt messages
+that were encrypted by the corresponding public key.
+You keep your private key on your own system in a key
+ring, protected by a password.
+See also <I>encryption</I>, <I>public key</I>,
+and <I>key ring</I>.
+<P><DT>protection setup
+<DD>A group of protection subdirectives that work together
+to define how the server should control access to
+the resources being protected.
+You can define protection setups within the configuration file,
+in separate protection setup files, or by using the
+Configuration and Administration forms.
+<P><DT>protocol
+<DD>The set of rules governing the operation of functional units of a
+communication system if communication is to take place.
+Protocols can determine low-level details of machine-to-machine
+interfaces, such as the order in which bits from a byte are sent;
+they can also determine high-level exchanges
+between application programs, such as file transfer.
+<P><DT>proxy gateway
+<DD>A type of firewall that protects computers in a business network
+from access by users outside that network.
+See also <I>firewall</I>.
+<P><DT>proxy server
+<DD>A server that can retrieve documents from other servers for
+its clients.
+<P><DT>public key
+<DD>In secure communications, an algorithmic pattern used
+to decrypt messages that were encrypted
+by the corresponding private key.
+A public key is also used to encrypt messages
+that can only be decrypted by the corresponding private key.
+You broadcast your public key to everyone who will
+need to exchange encrypted messages with you.
+See also <I>encryption</I>, <I>private key</I>, and
+<I>key ring</I>.
+<P><DT>README file
+<DD>A file containing information and instructions for using the
+associated program or programs
+<P><DT>request
+<DD>The part of a URL that follows the protocol and server host name.
+For example, in the URL http://www.server.com/rfoul/sched.html,
+the request is: /rfoul/sched.html
+<P><DT>server
+<DD>A computer that provides shared services to other computers
+over a network;
+for example, a file server, a print server, or a mail server.
+<P><DT>server root directory
+<DD>The directory where the Internet Connection Secure Server program is installed.
+By default, the server root directory is
+C&#58;\WWW\BIN.
+<P><DT>server-side includes (SSI)
+<DD>A facility for including dynamic information in documents sent
+to clients, such as current date, the file's last modification date,
+and the size or last modification of other files.
+<P><DT>SSL
+<DD>Secure Sockets Layer.
+SSL is a popular security scheme developed by Netscape Communications
+Corp., along with RSA Data Security, Inc.
+SSL allows the client to authenticate the server and all
+data and requests to be encrypted.
+The URL of a secure server protected by
+SSL begins with https (rather than http).
+See also <I>authentication</I>.
+<P><DT>subdirectory
+<DD>A directory contained within another directory in a file
+system hierarchy.
+<P><DT>thread
+<DD>The smallest unit of operation performed within a process.
+<P><DT>thread pool
+<DD>The threads that are either being used or available to Internet Connection Secure Server.
+<P><DT>trusted root
+<DD>In secure communications, the public key and
+associated Distinguished Name of a certification authority (CA).
+See also <I>public key</I>, <I>Distinguished Name</I>, and
+<I>certification authority (CA)</I>.
+<P><DT>URL (Uniform Resource Locator)
+<DD>The address convention that indicates the location of an item on
+the World Wide Web.
+It includes the protocol followed by the fully-qualified host name,
+and the request.
+The server typically maps the request
+portion of the URL to a path and file name.
+For example, http://www.ibm.com/index.html
+<P><DT>virtual host
+<DD>One of several host names that you can define for a single
+IP address in the domain name server.  That IP address can then
+serve multiple files, rather than requiring different IP addresses
+for different files.
+<P><DT>WAIS (Wide Area Information Service)
+<DD>A network information system that enables
+clients to search documents on the World Wide Web.
+<P><DT>Web
+<DD>The World Wide Web:  the network of HTTP
+servers that contain programs and files,
+such as hypertext documents that contain links to other
+documents on HTTP servers.
+<P><DT>Web server
+<DD>A server on the World Wide Web.
+See also <I>Web</I>.
+<P><DT>welcome page
+<DD>A document that is returned by a Web server in response to
+a request that points to a directory but does not contain a file name.
+Each accessible directory on the server can have a welcome page.
+See also <I>home page</I>.
+<P><DT>wildcard character
+<DD>An asterisk (*) used in a template.
+For the template to be matched, an asterisk can be replaced
+by any character string or single character.
+A question mark must be replaced by one single character.
+</DL>
+<P><HR><B>&#91; <A HREF="#Top_Of_Page">Top of Page</A> &#124; <A HREF="icsur010.html">Previous Page</A> &#124; <A HREF="icsur012.html">Next Page</A> &#124; <A HREF="icsurmst.html#ToC">Table of Contents</A> &#93;</B>
+<A NAME=Bot_Of_Page>&nbsp;</A>
+</BODY></HTML>
+
+</DOC>

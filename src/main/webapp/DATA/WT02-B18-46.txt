@@ -1,0 +1,130 @@
+
+<DOC>
+<DOCNO>WT02-B18-46</DOCNO>
+<DOCOLDNO>IA031-000660-B041-334</DOCOLDNO>
+<DOCHDR>
+http://minerva.forestry.umn.edu:80/trls/ 128.101.70.48 19970209092635 text/html 4415
+HTTP/1.0 200 Document follows
+Date: Sun, 09 Feb 1997 ? GMT
+Server: NCSA/1.4.1
+Content-type: text/html
+Last-modified: Mon, 03 Feb 1997 ? GMT
+Content-length: 4253
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Trails Bibliography</TITLE>
+</HEAD>
+
+<BODY>
+<CENTER>
+
+<TABLE>
+<TR>
+	<TD><IMG SRC="trails.jpg"></TD>
+	<TD><FONT SIZE=+3><B>Trail Planning, Construction and Maintenance: A Bibliography Supplement</B><BR></FONT><FONT SIZE=+2>Updated July 1996<P>Jean Albrecht<BR>Forestry Library<BR>College of Natural Resources<BR>University of Minnesota<BR>St. Paul, MN<p></FONT></TD>
+</TR>
+</TABLE>
+
+</CENTER>
+		    
+<BR><BR>
+		    
+This is a WWW server for a supplement to "Trail Planning, Construction, and Maintenance: A Bibliography," published in 1984 as University of Minnesota Agricultural Experiment Station Miscellaneous Publ. No. 26. The purpose of the bibliography is to bring together literature that will enable trail planners, managers, and users to benefit from what others have learned through research and experience. Print copies of the 1984 and 1992 trail bibliographies are available from Jean Albrecht, University of Minnesota Forestry Library, 2003 Upper Buford Circle, St. Paul, MN 55108.<P>
+
+Loans or xerox copies of publications indexed in this bibliography are available from the Interlibrary Loan Division, St. Paul Campus Libraries, 1984 Buford Avenue, St. Paul, MN 55108. FAX (612) 624-9245. USDA employees, please use Standard Form AD-245 in submitting your requests. Others, please submit requests on the standard interlibrary loan forms through your nearest library.<P>
+
+This bibliography will be updated annually on line.<P>
+
+<BR>
+
+<FONT SIZE=+2>
+Search the Trails Bibliography and retrieve citation links<BR>
+</FONT>
+<FORM ACTION="gopher://minerva.forestry.umn.edu/77/trls/trails.index">
+<DL>
+	<DT><DD><INPUT NAME="ISINDEX" SIZE=40> <INPUT TYPE="SUBMIT" VALUE="Search"> <A HREF="help1.html">HELP</A>
+</DL>
+</FORM>
+
+<BR>
+
+<FONT SIZE=+2>
+Search the Trails Bibliography and retrieve full citations<BR>
+</FONT>
+
+<form method=POST action="/cgi-bin/isearch">
+<input name="DATABASE" type=hidden value="TRLS">
+<input name="SEARCH_TYPE" type=hidden value="BOOLEAN">
+<input name="FIELD_1" type=hidden value="FULLTEXT">
+<input name="FIELD_2" type=hidden value="FULLTEXT">
+<input name="WEIGHT_1" type=hidden value="1">
+<input name="WEIGHT_2" type=hidden value="1">
+<input name="ELEMENT_SET" type=hidden value="B">
+
+<DL>
+<DT>
+<DD>
+	<input name="TERM_1">
+	<select name="OPERATOR">
+		<option selected>AND
+		<option>OR
+		<option>ANDNOT
+	</select>
+	<input name="TERM_2">
+	<input type="submit" value="Search"> <A HREF="help2.html">HELP</A>
+<DD>	<FONT SIZE="-1">Sorry, only simple boolean searches at the moment</FONT>
+<DD>	Enter maximum number of hits to retrieve: <input size=4 name="MAXHITS" value="50">
+</DT>
+</DL>
+
+</form>
+
+<BR>	
+			
+<FONT SIZE=+2>
+Browse the Trails Bibliography<P>
+</FONT>
+
+<UL>
+
+	<LI><A HREF="dat/01/">Trail Uses: Bicycle Trails</A>
+	<LI><A HREF="dat/02/">Trail Uses: Snowmobile Trails</A>
+	<LI><A HREF="dat/03/">Trail Uses: Other ORV Trails</A>
+	<LI><A HREF="dat/04/">Trail Uses: Ski Touring Trails</A>
+	<LI><A HREF="dat/05/">Trail Uses: Hiking Trails</A>
+	<LI><A HREF="dat/06/">Trail Uses: Equestrian Trails</A>
+	<LI><A HREF="dat/07/">Trail Uses: Interpretive Trails</A>
+	<LI><A HREF="dat/08/">Trail Uses: Fitness Trails</A>
+	<LI><A HREF="dat/09/">Trail Uses: Trails for the Handicapped</A>
+	<LI><A HREF="dat/10/">Trail Use Studies: Trails</A>
+	<LI><A HREF="dat/11/">Trail Use Studies: Users</A>
+	<LI><A HREF="dat/12/">Planning Documents: Federal</A>
+	<LI><A HREF="dat/13/">Planning Documents: Municipal, State, Regional</A>
+	<LI><A HREF="dat/14/">General Trail Development: Trail Aquisition</A>
+	<LI><A HREF="dat/15/">General Trail Development: Financing</A>
+	<LI><A HREF="dat/16/">General Trail Development: Planning/Design</A>
+	<LI><A HREF="dat/17/">General Trail Development: Construction</A>
+	<LI><A HREF="dat/18/">General Trail Development: Maintenance/Management</A>
+	<LI><A HREF="dat/19/">General</A>
+
+</UL>
+
+<HR>
+<BR>
+
+<CENTER>
+Copyright 1996<BR>
+Regents of the University of Minnesota<BR>
+All Rights Reserved<p>
+</CENTER>
+
+The University of Minnesota is committed to the policy that all persons
+shall have equal access to its programs, facilities, and employment
+without regard to race, religion, color, sex, national origin, handicap,
+age, veteran status or sexual orientation.<P>
+
+
+</BODY>
+</HTML>
+</DOC>

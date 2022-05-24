@@ -1,0 +1,160 @@
+
+<DOC>
+<DOCNO>WT01-B13-83</DOCNO>
+<DOCOLDNO>IA018-000196-B048-306</DOCOLDNO>
+<DOCHDR>
+http://www.kemper.com:80/about/kempernews/contact_about.html 198.152.185.42 19970106171818 text/html 3967
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Monday, 06-Jan-97 17:14:18 GMT
+Last-modified: Thursday, 12-Sep-96 15:27:44 GMT
+Content-length: 3783
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Contact Kemper</TITLE>
+</HEAD>
+
+<BODY BACKGROUND="../../gifs/contact_bk.gif" BGCOLOR="#FFBE32">
+
+<IMG SRC="../../gifs/headers/date_hd.gif" ALIGN=LEFT ALT="Kemper.com">
+
+<IMG SRC="../../gifs/headers/search_spacer_hd.gif" ALIGN=LEFT WIDTH="12" HEIGHT="12">
+<A HREF="../../search.html">
+<IMG BORDER=0 SRC="../../gifs/headers/search_hd.gif" ALIGN=LEFT ALT="Search" WIDTH="35" 
+HEIGHT="12"></A>
+
+<IMG SRC="../../gifs/headers/contact_wht_hd.gif" ALIGN=RIGHT ALT="Contact Kemper" 
+WIDTH="83" HEIGHT="12">
+
+<IMG SRC="../gifs/headers/slash_gry_hd.gif" ALIGN=RIGHT ALT="/" WIDTH="6" HEIGHT="12">
+
+<A HREF="kempernews.html">
+<IMG SRC="gifs/headers/kempernews_gry_hd.gif" ALIGN=RIGHT BORDER="0" 
+ALT="Kemper News"></A>
+
+<BR CLEAR=ALL>
+<BR>
+<NOBR>
+<A HREF="../../prospectus.html"><IMG SRC="../../gifs/link_ltyel_prospectuses.gif" ALIGN=LEFT BORDER=0 ALT="Prospectuses And Important Information"></A>
+<IMG SRC="../../gifs/link_spacer.gif" BORDER=0 ALT=" ">
+<A HREF="../../sitemap.html"><IMG SRC="../../gifs/link_ltyel_sitemap.gif" BORDER=0 ALT="Site Map"></A>
+</NOBR>
+<BR CLEAR=ALL>
+<BR>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0> 
+<TR> <TD VALIGN=TOP> 
+<IMG SRC="../../gifs/contact_head.gif" WIDTH="472" HEIGHT="235" ALT="Contect Kemper"></TD> 
+</TR> 
+<TR> 
+<TD VALIGN=TOP> 
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR> 
+<TD VALIGN=TOP>
+<IMG SRC="../../gifs/contact_dotarc.gif" WIDTH="66" HEIGHT="171"></TD>
+<TD VALIGN=TOP NOWRAP WIDTH=10></TD>
+<TD VALIGN=TOP> 
+
+
+<FORM METHOD=POST ACTION="/cgi-bin/contact_about">
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD ALIGN=RIGHT VALIGN=TOP>Your first name:</TD>
+<TD NOWRAP WIDTH=12 ROWSPAN=12></TD>
+<TD VALIGN=TOP><INPUT NAME="fname" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD ALIGN=RIGHT VALIGN=TOP>Your last name:</TD><TD VALIGN=TOP><INPUT NAME="lname" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD ALIGN=RIGHT VALIGN=TOP>Your media organization:</TD><TD VALIGN=TOP><INPUT NAME="org" TYPE="text" SIZE="30"></TD>
+</TR>
+<TR>
+<TD ALIGN=RIGHT VALIGN=TOP>Your e-mail address:</TD><TD VALIGN=TOP><INPUT NAME="email" TYPE="text" SIZE="30"></TD>
+</TR>
+</TABLE>
+
+<BR>
+How would you prefer us to respond to your inquiry? (Check one)
+<BR>
+<INPUT TYPE="radio" NAME="contact" VALUE="email"> By e-mail
+
+<BR>
+<INPUT TYPE="radio" NAME="contact" VALUE="phone"> By telephone - Your telephone number
+<INPUT NAME="phone">
+<BR>
+<INPUT TYPE="radio" NAME="contact" VALUE="fax"> By fax - Your fax number
+<INPUT NAME="fax">
+
+<P>
+
+Your inquiry: <BR>
+<TEXTAREA NAME="inquiry" ROWS="8" COLS="60"></TEXTAREA>
+
+
+
+<BR>
+<BR>
+Deadline date:<INPUT NAME="deadline" TYPE="text" SIZE="30"> <BR>
+<BR>
+Would you like to be added to our e-mail mailing list? <BR>
+<INPUT TYPE="radio" VALUE="yes" NAME="elist" CHECKED> Yes
+<INPUT TYPE="radio" VALUE="no" NAME="elist"> No
+<BR>
+<BR>
+Thanks for your interest. We'll respond to your inquiry as quickly as possible.
+
+<P>
+
+<CENTER>
+<INPUT TYPE="submit" NAME="xxxxxxx" VALUE=" Send this information ">
+&nbsp;&nbsp;
+<INPUT TYPE="reset" NAME="xxxxxxx" VALUE=" Clear this form ">
+</CENTER>
+
+</FORM>
+
+<P><BR>
+
+<FONT SIZE=1>&copy; Copyright Kemper Distributors, Inc. 1996 - All
+rights reserved.</FONT></TD> 
+</TR>
+</TABLE></TD>
+</TR>
+</TABLE> 
+
+<BR CLEAR=LEFT><BR>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<TR>
+<TD VALIGN=TOP ALIGN=RIGHT>
+  <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+  <TR>
+  <TD VALIGN=TOP COLSPAN=2>
+  <A HREF="../../menu.html">
+  <IMG BORDER=0 SRC="../../gifs/icons/kemper_blkltyel.gif"></A></TD>
+  </TR>
+  <TR>
+  <TD VALIGN=TOP>
+	<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+	<TR>
+	<TD VALIGN=TOP NOWRAP WIDTH=45></TD>
+	<TD VALIGN=TOP><BR><FONT SIZE=-1>1011430-A</FONT></TD>
+	</TR>
+	</TABLE>  
+  </TD>
+  </TR>
+  </TABLE></TD>
+</TR>
+</TABLE>
+
+
+<BR CLEAR=ALL><BR>
+
+
+</BODY>
+</HTML>
+</DOC>

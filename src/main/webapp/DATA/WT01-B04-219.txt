@@ -1,0 +1,58 @@
+
+<DOC>
+<DOCNO>WT01-B04-219</DOCNO>
+<DOCOLDNO>IA048-000838-B036-74</DOCOLDNO>
+<DOCHDR>
+http://www.gtsduratek.com:80/mailform.htm 204.177.32.133 19970119160610 text/html 2530
+HTTP/1.0 200 Document follows
+Date: Sun, 19 Jan 1997 16:03:28 GMT
+Server: NCSA/1.4.1
+Content-type: text/html
+Last-modified: Mon, 04 Nov 1996 16:19:33 GMT
+Content-length: 2354
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE> Information Request Form </TITLE>
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+<CENTER><IMG SRC="/graphics/ailogo1.jpg" WIDTH=229 HEIGHT=45></CENTER>
+<H2><CENTER><FONT  COLOR=#000065><STRONG>Information Request Form</CENTER></STRONG></FONT></H2>
+
+<hr><B>Directions: Fill out the information on this form to be included in our mailing list.</B><HR>
+<FORM METHOD="POST" ACTION="/cgi-bin/info-req">
+<Input type="hidden" NAME="TITLE" VALUE="Standard Data Input Forms for Data Submission">
+<Input type="hidden" NAME="NAME" VALUE="GTS Duratek Information Form">
+<P><B>Your Name: </B><br><Input type="text" name="realname"  size=40><BR>
+<B>Street Address: (Line#1)</B><br><Input type="text" name="streetadd1" size=50><br>
+<B>Street Address: (Line#2)</B><br><Input type="text" name="streetadd2" size=50><br>
+<B>City:</B><br><Input type="text" name="city"size=25><br>
+<B>State:</B><br><Input type="text" name="state" size=25><br>
+<B>Zip Code:</B><br><Input type="text" name="zip" size=10><br>
+<B>Your E-Mail Address: </b><bR>
+<INPUT TEXT NAME="email" size=46><br>
+<B>Your Phone Number: </b><br>
+<INPUT TEXT NAME="phone" size=46><P>
+Please check the information you would like:<BR>
+<B>Annual Report</B><INPUT NAME="Annual Report" TYPE="CHECKBOX" VALUE="yes" ALIGN=left><BR>
+<B>Form 10-K</B><INPUT NAME="Form 10-K" TYPE="CHECKBOX" VALUE="yes" ALIGN=left><BR>
+<B>Form 10-Q Current</B><INPUT NAME="Form 10-Q Current" TYPE="CHECKBOX" VALUE="yes" ALIGN=left><BR>
+<B>Press Releases</B><INPUT NAME="Press Releases" TYPE="CHECKBOX" VALUE="yes" ALIGN=left><BR>
+<B>Newsletter</B><INPUT NAME="Newsletter" TYPE="CHECKBOX" VALUE="yes" ALIGN=left><BR>
+<B>Technical Capabilites</B><INPUT NAME="Technical Capabilities" TYPE="CHECKBOX" VALUE="yes" ALIGN=left><BR>
+
+<P><B>Enter Your Comments</b><br><textarea name="comments" rows=8 cols=70></textarea>
+<Input type="hidden" NAME="FEED" VALUE="gtsweb@gtsd.com"><P><INPUT type="submit" value="Send Form"><input type="reset" value="Clear Form"><form method="GET" ACTION="/cgi-bin/info-req"></FORM>
+<BR>
+
+<A HREF="index.html"><IMG SRC="/graphics/home.jpg" ALT="Go to Home Page" HEIGHT=34 WIDTH=120 BORDER=NONE ALIGN=RIGHT></A><BR>
+<BR><BR>
+
+<HR>
+<p> <CENTER>Copyright 1996 GTS Duratek, Inc.                                     e-mail: rwisniew@gtsduratek.com</CENTER>
+
+
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,195 @@
+
+<DOC>
+<DOCNO>WT01-B05-21</DOCNO>
+<DOCOLDNO>IA035-000697-B043-54</DOCOLDNO>
+<DOCHDR>
+http://lars.nrel.gov:80/email5.html 192.174.52.126 19970111001541 text/html 9955
+HTTP/1.0 200 Request fulfilled
+Server: WN/1.02
+Date: Saturday, 11-Jan-97 00:15:42 GMT
+Last-Modified: Sunday, 28-May-95 01:24:24 GMT
+Content-type: text/html
+Content-length: 9706
+Title:  Email3
+Link: <mailto:wlord@lars.nrel.gov>; rev="Made"
+</DOCHDR>
+<title> Email3</title>
+
+<H1>Tour de Sol Email from the Race</H1>
+
+
+Date: Sat, 27 May 1995
+From: Michael H Bianchi <bianchi@bellcore.com>
+
+<H3>Subject: American Tour de Sol, 1995: Solectria Sunrise </H3>
+<P>
+<hr width=40%)
+<p>
+<br>
+
+I caught James Worden, CEO of Solectria, who is here with the Solectria
+Sunrise, an all composite purpose built EV.  Solectria is also represented by
+at least a couple of their E-10 pickup trucks (conversions of the Chevy S-10)
+and no fewer than 4 Forces (conversions of the Geo Metro and Metro LSI).<p>
+
+        I asked him what the state of the Universal Motor Controller (UMoC,
+pronounced "You-Mock").  He announced this all-software controlled controller
+design a couple of years ago, and I have been asking where it was in its
+development every time I run into him or any of the engineers from Solectria.
+As it turns out, the first beta version has shown up here at the American Tour
+de Sol (ATdS) in Tom Hopper's "Hopper EV", number 94.  Tom swapped out the
+brushless DC motor and controller and has installed the UMoC and an AC
+induction motor.  James says that Tom wants to eventually go back to the
+brushless DC motor, but when he does, he will be able to simply reprogram an
+Erasable Programmable Memory (EPROM) through the serial port on the
+controller.  In fact, that is the "universal" part of the UMoC.  The idea is
+that the operational logic for controllers for all sorts of motors (brushed
+DC, brushless DC, AC induction) of all sorts of power ranges could be built in
+a single, mass produced (and hence inexpensive) logic unit which would be
+attached to a power unit suitable to the task at hand (low, medium, high
+power; single or multi-phase).  James expects that the Solectria trucks will
+have the UMoC by the end of the year.  He also expects it to be for sale to
+the EV conversion market in the fall.<p>
+
+        The Sunrise is the all composite vehicle that Solectria announced at
+EVS-12 last December.  The car is bright yellow with a tan "skirt" around the
+bottom fifth of the side and back.  It is very rounded and very smooth 2 door,
+4 passenger car that weighs 1694 pounds; gross weight capacity is 2376 pounds
+giving a 682 pound payload.  It has one 42 kW nominal/50 kW peak AC induction
+motor and front wheel drive.  It has the Ovonic nickel metal hydride battery
+and James says that their goal is to break 200 miles per charge during the
+race.  (They in fact did that on Thursday with 228.1 miles on a charge.  That
+is the NESEA number from Friday morning's data sheet.  James was saying that
+it was 238.  Both maybe right if James drove farther after the official lap
+was completed, but the NESEA number most likely to be quoted since it was
+refereed.)<p>
+
+        I had heard that even the springs were composite, but that is not the
+case.  "We haven't gone to the very extremes," says James, "but we are trying
+to take weight out as practically as possible without going to too many high
+cost methods."  They already had a pretty light drive train, but managed to
+shave some more weight off it.  The body is a mix of all different composites
+and plastics, some aluminum and a tiny, tiny bit of steel.  One of the tricks
+for keeping weight down is to make parts serve two and three purposes.  So a
+fender may also serve as insulation and as an interior panel.<p>
+
+        The goal is to build a comfortable four passenger vehicle with very
+high efficiency.  The people who are interested in making this happen like
+Boston Edison, the Northeast Alternative Vehicle Consortium (NAVC), and ARPA
+think that a tiny car is not going to be as salable as mid-sized or full-sized
+car, which the Sunrise is.<p>
+
+        The vehicle in the race is a prototype to learn if these things can
+actually be done and made to work.  As such, there are some peculiarities in
+this car that would not exist when it is done for real.  For instance, the
+roof has simulated solar cells on it, although a solar panel sits on the rear
+deck under the rear window and powers an air circulating fan.  The door
+windows do not roll down, so air conditioning is absolutely a must.  The
+Hughes MagnaCharge paddle socket was not yet in place under the license plate
+in the rear, although the 110 VAC and the 220 VAC charging plugs were.  (I
+understand that the Sunrise is actually being charged using the MagnaCharge
+system, but obviously not in the final configuration.  The MagnaCharge people
+have been following us throughout the race.]) The body appears seamless, with
+the only lines being those around the small hood, the small trunk lid, and the
+rather large doors.  There are no strips of chrome to hide the fact that two
+body panels are mating.  It is actually made of several pieces, but "the goal
+is to keep the part count down because that keeps the joints and the weight
+down and hopefully makes it simple to build as opposed to making millions of
+parts cheap and having it expensive to build." "Steel is good, it has been
+proven to be safe, even in electric vehicles, but these materials can get
+better safety with considerably less weight."<p>
+
+        The Sunrise is using the same control system as was in the Solectria
+Force.  The drive train was developed for this project, but it is now being
+put in the new Force cars.  A lot of work went into making the interior very
+quite (I suspect because you don't have the engine noise to mask all the
+other noises sources) and also into making the doors work exactly right.  The
+doors "slam" differently from most cars, because the are so much less massive.
+But the mate to the door opening perfectly and latch with the slightest
+pressure.  James indicated that it took a lot of work to get that just right,
+but of course it is absolutely essential to give a quality look and feel to
+the car.<p>
+
+        Looking under the hood is almost disappointing.  Things are so
+uncluttered and simple it doesn't look complicated.  (Of course that is good,
+but it is so much easier to be impressed by all the stuff under the hood of a
+high-power car.) The usual Solectria controller is there, the usual looking
+Solectria motor, although with a special dual shock dampener that isolates
+motor vibration from the body, and the other few support components such as
+the power brake pump and the DC-DC converter for the 12 Volt loads.<p>
+
+        All the batteries are in a tunnel that runs down the center of the car
+and between the left and right passengers.  A cooling fan forces air down the
+tunnel when the batteries get warm, and turns off automatically when they cool.<p>
+
+        I tried to draw a comparison between this and the GM Impact.  James
+immediately said, "no.  This is a much bigger car."  The aerodynamic shapes
+are similar, but the fact that the Impact is 2 passenger and the Sunrise is 4
+puts them in very different classes.<p>
+
+       There is no separate bumper, but James said that the car will meet the
+Department of Transportation tests, including the 5 mph bumper where no damage
+that costs money can be inflicted.<p>
+
+        The second Sunrise is being built now and it will be crash tested this
+summer.  The third will be built as refined prototype based on what is learned
+from the first two.<p>
+
+        James made very clear that he was indebted to his sponsors.  Boston
+Edison, NAVC and ARPA.  Their interest in this and other related projects,
+such as earlier drive train projects, accelerated this work considerably.
+Nick Karditsas is from Ovonic, the company that provided the Nickel Metal
+Hydride batteries in the Sunrise.  It is an advanced battery for EVs,
+developed under funding of the United States Advanced Battery Consortium.
+Nickel Metal Hydride batteries have an energy density of about 75 Watt-hours
+per kilogram, as compared to 25 Wh/kg for lead acid batteries.  The Sunrise
+has a 25 kWh pack composed of 18 10-cell, 12 Volt, 120 amp-hour modules in a
+single Volt string.  Beyond that, the power train is the usual Solectria AC
+induction motor system.  The charger uses the Hughes MagnaCharge inductive
+coupler system.<p>
+
+        An unusual aspect of NiMH batteries is that the discharge chemistry is
+actually slightly endothermic;  the chemistry actually > cools < the battery
+as it discharges.  According to Nick, the effect is apparent at a C/6 (20
+ampere) rate.<p>
+
+For more great stuff on the American Tour de Sol, check out NESEA's home page:
+http://nesea.nrel.gov which contains route maps,
+weather conditions, race standings, background pieces and other material.  The
+ATdS Home Page is produced by Bill Lord with facilities donated by the
+National Renewable Energy Laboratory in Colorado.
+<p>
+<hr width=40%>
+<p>
+
+The above is copyright Michael H. Bianchi.  Permission to copy is granted
+provided the entire article is presented without modification and this notice
+remains attached.<P>
+
+
+Official American Tour de Sol information is available from the sponsor,
+the Northeast Sustainable Energy Association (NESEA) at 413-774-6051 and through these web pages<P>
+
+All media enquiries should be addressed to ...<P>
+<pre>  
+	        Jack Groh
+        	Groh Associates
+        	Sustainable Public Relations
+        	email: GrohPR@aol.com
+        	(401)732-1551 tel
+        	(401)732-0547 fax
+</pre>
+<p>
+
+<hr>
+<p>
+
+<center>
+<table border=2>
+<tr><td><A HREF="nesea_index.html">Homepage</A></td><td><A HREF="background.html">Background</A></td><td><A HREF="rules.html">Rules</A></td><td><A HREF="routemap.html">Route & Events</A></td><td><A HREF="entries.html">Entries</A></td><td><A HREF="results.html">Results</A></td><td><A HREF="nesea.html">Fact Sheets</A></td><td><A HREF="weather.html">Weather</A></td><td><A HREF="extra.html">Extra!</A></td>
+</tr>
+</table>
+</center>
+<p>
+
+</DOC>

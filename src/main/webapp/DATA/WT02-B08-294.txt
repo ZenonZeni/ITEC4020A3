@@ -1,0 +1,46 @@
+
+<DOC>
+<DOCNO>WT02-B08-294</DOCNO>
+<DOCOLDNO>IA021-000219-B022-278</DOCOLDNO>
+<DOCHDR>
+http://tethys.jpl.nasa.gov:80/Annette/how_it_works.html 128.149.33.75 19970107091235 text/html 2147
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 07-Jan-97 09:12:19 GMT
+Last-modified: Friday, 28-Jun-96 20:42:44 GMT
+Content-length: 1963
+Content-type: text/html
+</DOCHDR>
+<html>
+<HEAD>
+<TITLE>TOPEX/Poseidon Prime Mission Results</TITLE></HEAD>
+<! BODY background = "background/how_it_works_bckgd.gif">
+<BODY LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" background = "background/how_it_works_bckgd.gif" >
+<H1>How TOPEX/Poseidon Works</H1>
+<p>
+<p>
+<h3>
+Every 10 days, TOPEX/Poseidon measures more than 90% of the world's ice-free oceans and completes 127 revolutions, or orbits, around the Earth.
+<p>
+The shape of the sea surface is influenced by both gravity and ocean circulation.  To find the surface caused by ocean circulation, we remove the sea height caused by gravity and create maps of ocean <a href=topo_def.html>topography.</a>   We then calculate the speed and direction of ocean currents similar to how meteorologists use atmospheric pressure maps to calculate winds.   
+<p>
+<p><center><img src="images/meas_sys.gif" alt="TOPEX/Poseidon Measurement System">
+</center>
+<p>
+To measure sea surface height we need: the satellite's position in its orbit and the height between the satellite and the ocean's surface,  measured with the radar<a href=alt_def.html> altimeter.</a>
+<p>
+Three systems are used to measure the satellite's position:  the Laser Retroreflector Array, the DORIS beacon, and the <a href=gps.html>Global Positioning System</a>.  We can locate the spacecraft to less than 3 centimeters (about 1.1 inches... about half the length of a stick of chewing gum!)  
+</h4>
+<p><h2>Learn more about how TOPEX/Poseidon works....</h2>
+<dl>
+<h4><ul>
+<li>The <a href=harvest_platform.html>Platform Harvest</a>, an oil platform that is used to verify the satellite's altimeter measurements.  
+<li><a href=orb_maintenance.html>"Orbit Maintenance"</a> is one of our ongoing challenges.<br></li></ul></h4>
+<p>
+<address><a href=whats_climate.html>Forward to What is Climate?</a></address>
+<address><a href=intro.html>Back to TOPEX/Poseidon Prime Mission Results Introduction</a></address>
+<ul>
+</BODY>
+</html>
+
+</DOC>

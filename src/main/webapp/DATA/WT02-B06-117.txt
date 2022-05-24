@@ -1,0 +1,221 @@
+
+<DOC>
+<DOCNO>WT02-B06-117</DOCNO>
+<DOCOLDNO>IA095-001027-B018-124</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/ciec/facts3.html 205.177.10.31 19970215014059 text/html 11374
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 01:39:41 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>Methods to Communicate over the Internet</title>
+</head>
+<body>
+<h2>Methods to Communicate over the Internet</h2>
+
+<font size = +1>
+
+<p>52.  Once an individual has access to the Internet,
+there are a wide variety of different methods of communication
+and information exchange over the network.  These numerous
+methods of communication and information retrieval are constantly
+evolving and are therefore difficult to categorize concisely. 
+The most common methods of communications on the Internet (as
+well as within the major online services) can be roughly grouped
+into six categories:  one-to-one messaging (such as "e-mail"),
+one-to-many messaging (such as "listserv"), distributed message
+databases (such as "USENET newsgroups"), real time communication
+(such as "Internet Relay Chat"), real time remote computer
+utilization (such as "telnet"), and remote information retrieval
+(such as "ftp," "gopher," and the "World Wide Web").  Most of
+these methods of communication can be used to transmit text,
+data, computer programs, sound, or visual images.
+
+<p>53.  <strong>One-to-one messaging.</strong>  The simplest method of
+communication on the Internet is via electronic mail, or "e-
+mail," the modern equivalent to a first class letter.  An
+individual can address and transmit a message to one or more
+specific other individuals.  E-mail on the Internet is not routed
+through any central control point, and can take numerous and
+varying paths to the recipients.  Unlike postal mail, simple e-
+mail is not "sealed" or secure, and can be accessed or viewed on
+intermediate computers between the sender and recipient (unless
+the message is encrypted).
+
+<p>54.  <strong>One-to-many messaging.</strong>  The Internet also contains
+automatic mailing list services (such as "listserv") that allow
+simple and efficient communications about particular subjects of
+interest.  For example, individuals can subscribe to a "listserv"
+mailing list on a particular topic of interest to them.  The
+individual can submit messages on the topic to the listserv that
+are automatically forwarded (via e-mail) to anyone who has
+subscribed to the mailing list.  A recipient of such a message
+can reply to the message and have the reply also distributed to
+everyone on the mailing list.  This service provides the
+capability to keep abreast of developments or events in a
+particular subject area.  Most listserv-type mailing lists
+automatically forward all incoming messages to all mailing list
+subscribers.  There are thousands of such mailing list services
+on the Internet, collectively with hundreds of thousands of
+subscribers.
+
+<p>55.  <strong>Distributed message databases.</strong>  Similar in
+function to listservs -- but quite different in how
+communications are transmitted -- are distributed message
+databases such as "USENET newsgroups."  Like listservs,
+newsgroups are open discussions and exchanges on particular
+topics.  Users, however, need not subscribe to the discussion
+mailing list in advance, but can instead access the database at
+any time.  An individual user can post a message to a newsgroup,
+and the message is then automatically forwarded to all other
+computers that furnish access to the newsgroups (but not to any
+individual users).  The messages are temporarily stored on each
+receiving computer, where they are available for review and
+response.  The messages are automatically and periodically purged
+from each system to make room for new messages.  Responses to
+messages -- like the original messages -- are automatically
+distributed to all other computers receiving the newsgroup. 
+There are newsgroups on more than fifteen thousand different
+subjects.  In 1994, approximately 70,000 messages were posted to
+newsgroups each day, and those messages were distributed to the
+approximately 190,000 computers or computer networks that
+participate in the USENET newsgroup system.  Messages posted to
+newsgroups are not stored on or channelled through any central
+computer or location.
+
+<p>56.  <strong>Real time communication.</strong>  In addition to
+transmitting messages that can be later read or accessed,
+individuals on the Internet can engage in an immediate dialog --
+in "real time" -- with other individuals on the Internet.  In its
+simplest forms, "talk" allows one-to-one communications and
+"Internet Relay Chat" allows two or more individuals to type
+messages to each other that almost immediately appear on the
+other individuals' computer screens.  In addition, commercial
+online services such as America Online, CompuServe, eWorld, the
+Microsoft Network, and Prodigy have their own "chat" systems
+allowing their members to converse. 
+
+<p>57.  <strong>Real time remote computer utilization.</strong>  Another
+method to utilize information on the Internet is to access and
+control remote computers using "telnet."  For example, using
+telnet, a researcher at a university would be able to utilize the
+computing power of a supercomputer located at a different
+university.  A student can use telnet to connect to a remote
+library to access the library's online card catalog program.  Or,
+individuals can link via telnet to a computer to interact
+directly and communicate with other users linked to the same
+computer.  Accessing a computer via telnet occurs in "real time,"
+and content and communication accessed via telnet is often
+created only at the time of the communication.
+
+<p>58.  <strong>Remote information retrieval.</strong>  The final major
+category of communication may be the most important and well
+known use of the Internet -- the search for and retrieval of
+information located on remote computers.  There are numerous
+methods to locate and retrieve information on the Internet.  A
+simple method uses "ftp" (or file transfer protocol) to list the
+names of computer files available on a remote computer, and to
+transfer one or more of those files to an individual's local
+computer.  Another approach uses a program and format named
+"gopher" to guide an individual's search through the resources
+available on a remote computer.  A third approach, and fast
+becoming the most well known on the Internet, is the "World Wide
+Web."  The Web utilizes a "hypertext" formatting language called
+hypertext markup language (HTML), and programs that "browse" the
+Web can display HTML documents containing text, images, and
+sound.  Any HTML document can include links to other types of
+information or resources, so that while viewing an HTML document
+that, for example, describes resources available on the Internet,
+an individual can "click" using a computer mouse on the
+description of the resource and be immediately connected to the
+resource itself.  Such "hyperlinks" allow information to be
+accessed and organized in very flexible ways, and allow
+individuals to locate and efficiently view related information
+even if the information is stored on numerous computers all
+around the world.
+
+<p>59.  With the exception of point-to-point mail, no
+information flows through cyberspace to a particular individual
+unless the individual requests the information.  Listservs,
+newsgroups, chat lines, telnet, ftp, gopher and the World Wide
+Web all require an affirmative request by the Internet user prior
+to the user receiving information over the Internet.  Further-
+more, when a user makes such an affirmative request it is usually
+clear what type of content will be delivered.  Thus, unlike radio
+or television, there is no significant risk that a user will be
+"assaulted" with unsolicited and undesired content.
+
+<p>60.  The vast majority of transmissions of content from
+specific sites on the Internet are in response to electronic
+requests the user could not have anticipated more than a few
+seconds or moments before making the request.  Because
+information is located on millions of computers around the world,
+with no central organization or control, a user cannot possibly
+know which computers might have useful information until starting
+a search.  Instead, the user could access any of dozens of
+different search databases, obtain a list of sites that might be
+of interest, and then immediately link to one or more of the
+sites.  Indeed, the very theory of "hyperlinks" and the hypertext
+markup language (HTML) (the foundation of the World Wide Web) is
+that the user can jump from site to site to site without ever
+needing to know where physically in the world the next site is
+located.  Thus, there is no way for a user to pre-register with
+every computer that might contain useful content on a particular
+topic.  Moreover, when an individual is researching a topic on
+the Internet, he or she might access dozens of newsgroups, telnet
+computers, and ftp, gopher, and Web sites around the world in a
+matter of minutes.  If a researcher was required to request
+access from content providers prior to actually viewing the
+information (and prove to the provider that the researcher was
+not a minor), the Internet would be transformed from a dynamic
+and instantaneous content searching tool into a cumbersome,
+multi-step, much slower, and much less useful research tool.  The
+vibrancy and immediacy that sparked the Internet's recent
+extraordinary expansion and development would be lost.
+
+<p>61.  The inability to predict where on the Internet a
+user would want to access information is not limited to research,
+and applies equally to any attempt by a user to access
+information on the Internet when the individual does not know in
+advance the precise location of that information.  There are
+millions of computers on the Internet that contain content, and
+it would be practically and economically impossible for the tens
+of millions of Internet users to pre-register with each of those
+millions of content sites, and equally impossible for those
+millions of content sites to maintain and instantaneously update
+lists of registered users.
+
+<p>62.  For both the speaker and the listener,
+communications on the Internet bear virtually no similarity to
+communications on television and radio.  With radio and
+television, the number of speakers is limited by the available
+spectrum, the ability to speak is limited by the high cost of
+speaking, and listeners are merely passive recipients of the
+communications.  With the Internet, the number of speakers is
+boundless, anyone can speak for pennies a day (or for free at his
+or her public library), and listeners can respond and engage the
+speaker in an interactive and on-going dialogue.  Furthermore,
+unlike television and radio, on the Internet viewers and
+listeners generally receive only the communications they
+affirmatively request, and are not a passive or "captive"
+audience.  Moreover, unlike with television and radio, on the
+Internet a speaker can reach the entire world (at no additional
+cost) yet at the same time can direct his or her speech to
+individuals who share an interest in a particular subject.  In
+the twenty-first century, the Internet -- if allowed to flourish
+unhindered by government censorship -- can revive the now-little-
+used public square and convert it into a global medium of
+communication and discourse.
+</font>
+
+<hr>
+
+<p>Go back to the <a href = "complaint.html">index</a>.
+<br>Go to <a href = "facts4.html">next section</a>.
+
+</body>
+</html>
+</DOC>

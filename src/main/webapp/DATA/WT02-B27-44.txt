@@ -1,0 +1,53 @@
+
+<DOC>
+<DOCNO>WT02-B27-44</DOCNO>
+<DOCOLDNO>IA070-000440-B028-106</DOCOLDNO>
+<DOCHDR>
+http://ltl4.gse.buffalo.edu:80/FAS/AlumniUpdate 128.205.103.135 19970208170048 text/html 1331
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <af222a9e.10489@ltl4.gse.buffalo.edu.>
+Date: Saturday, 08-Feb-97 13:05:34 GMT
+Last-Modified: Wednesday, 01-May-96 15:31:01 GMT
+Content-type: text/html
+Content-length: 1083
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>GSE Alumni</TITLE>
+
+</HEAD>
+
+
+<BODY BGColor="#FFFFFF">
+<CENTER><IMG  Align=Center SRC="AlumniTitle.GIF"></CENTER>
+<HR>
+
+<CENTER><BLOCKQUOTE>Please enter the following information to update your alumni file.</BLOCKQUOTE></CENTER><BR>
+
+<FORM ACTION="mailto:cmcneil@acsu.buffalo.edu" METHOD="POST">
+
+<CENTER>Name and address:<BR>
+<TEXTAREA NAME ="Addr" ROWS=6 COLS=30></TEXTAREA></CENTER><P>
+
+<CENTER>Class (month/year) information: <BR>
+<INPUT TYPE="Text" NAME="Class" SIZE=5></CENTER><P>
+
+<CENTER>Type any personal information you wish to update below.</CENTER><BR>
+<CENTER><TEXTAREA NAME ="Personal" ROWS=5 COLS=30></TEXTAREA></CENTER><P>
+
+<CENTER><INPUT TYPE="submit"><INPUT TYPE="reset"></CENTER><P>
+</FORM>
+<CENTER><BLOCKQUOTE>This information will be forwarded to the Dean's Office<BR>
+of the Graduate School of Education. Thank you.</BLOCKQUOTE></CENTER><BR>
+<HR>
+<A HREF="/NEWS/GSENews">GSE Alumni Newsletter</A>
+<!-- Link Tag --><A HREF="FASIndex">GSE Faculty, Students, and Alumni</A>
+<!-- Link Tag --><A HREF="/Main">GSE Homepage</A>
+
+
+</BODY>
+</HTML>
+
+</DOC>

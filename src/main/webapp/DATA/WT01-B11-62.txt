@@ -1,0 +1,219 @@
+
+<DOC>
+<DOCNO>WT01-B11-62</DOCNO>
+<DOCOLDNO>IA062-000357-B014-165</DOCOLDNO>
+<DOCHDR>
+http://www.monito.com:80/wankel/vehicle-data.html 206.86.185.198 19970116014205 text/html 9384
+HTTP/1.0 200 OK
+Date: Thu, 16 Jan 1997 01:42:09 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 9202
+Last-modified: Thu, 23 May 1996 19:00:53 GMT
+</DOCHDR>
+<HTML>
+
+<HEAD>
+
+<TITLE>   Wankel Rotary Engines - Vehicles Data Comparison  </TITLE>
+
+<META Name="description" Content="Engine, Performance, and Dimensional
+Data for Vehicles powered by Wankel rotary combustion engines.">
+
+<META Name="keywords" Content="Vehicles, cars, performance, dimensions,
+Wankel rotary combustion engine, Mazda, NSU">
+
+</HEAD>
+
+<BODY background="../Textures/monito-logo-bkgd.gif" bgcolor="#F0F0F0"
+	text="#000000" link="#0000FF" alink="#00FF00" vlink="#00B000">
+
+<A HREF = "wankel.html"> Wankel Home </A> |
+<A HREF = "annotated.html"> => Annotated Sites </A>
+
+<HR>
+
+<H1> RCE Vehicle Data Comparisons </H1>
+
+<P> Categories are <A HREF="#Engine">Engine Data</A>, <A
+HREF="#Performance">Performance Data</A> and <A
+HREF="#Dimensions">Dimensions</A>.  Vehicles are Mazda unless otherwise
+noted.
+
+<H2> <A NAME = "Engine"> Engine Data </H2>
+
+<PRE>
+Yr Model               Cap.   Comp  HP @ RPM  Torq @
+                                                 RPM
+
+64     NSU Spider        498   8.6   64 5000   54 3000
+67-69  NSU Ro80          996   9.0  129 5500  112 4500
+70-74  NSU Ro80          996   9.0  115 5500  121 4500 DIN
+67     Cosmo 110S L10A   982   9.4  110 7000   96 3500
+68     Cosmo 110S L10B   982   9.4  128 7000  103 5000
+70-71  R100              982   9.4  100 7000   92 4000 SAE gross
+70-71  RX-2 Coupe/Sedan  982   9.4  120 gross
+72     R100              982   9.4   77 6000   80 4000 SAE net
+72     RX-2             1146   9.4  102 6800   98 4000 SAE net
+72     RX-3 Cp/Sdn/Wgn  1146   9.4   90 6000   96 4000
+74     RX-4 Coupe       1308   9.2  110 6000  117 3500
+74     Rotary Pickup    1308   9.2  110 6000  117 3500
+76     RX-5 Cosmo       1308   9.2  110 6000  120 4000
+79     RX-7             1146   9.4  100 6000  105 4000
+82     RX-7 P815(US GSL) 1146  9.4  100 6000  105 4000
+84     RX-7 P132(GSL-SE) 1308  9.4  135 6000  133 2750
+84     RX-7 P132(Turbo) 1146   8.5  165 6500  166 4000 JIS
+85     MX-03 3rotor exp 1962   8.5  320 7000  290      JIS
+86-88  RX-7 GXL         1308   9.4  146 6500  138 3500
+86-88  RX-7 Turbo II    1308        182
+89-91  RX-7 GTU,GXL,cvt 1308        160
+89     RX-7 Turbo II    1308   9.0  200 6500  196 3500
+91     787B Le Mans     2616        700 9000  448 6500
+93     RX-7 Twin Turbo  1308   9.0  255 6500  217 5000
+93     RX-7 TT auto     1308   9.0  255 6200  217 5000
+94     RX-7 Twin Turbo  1308   9.1? 255 6500  217 5000
+94     RX-7 TT auto     1308   9.1? 255 6200  217 5000
+95     RX-7 Twin Turbo  1308   9.0  255 6500  217 5000
+95     RX-7 TT auto     1308   9.0  255 6200  217 5000
+93     RX-7 Ptr Farrell 1308        330 6500  265 4300
+93     HR-X Hydro. RCE              100
+       Cosmo SX         1308        230ps 6500  30.0kgm 3500
+</PRE>
+
+<H2> <A NAME = "Performance"> Performance Data </H2>
+
+<PRE>
+Yr Model               Wt    Skid  HP/   0-60  QuarterMile  Top  Brk  Fuel
+                       lb    g     100lb  sec  sec    mph   Spd  70-0  MPG
+                                                                 ft
+
+64     NSU Spider       1543        4.15  14.6  21.2   71     95       28
+67-69  NSU Ro80         2668        4.84  12.2  20.4   71.6  112
+70-74  NSU Ro80         2822        4.08                               21
+67     Cosmo 110S L10A  2072  0.77  5.31   8.8  16.9   86    104  233  24 obs
+68     Cosmo 110s L10B  2183        5.86   NA   NA     NA     NA       NA obs
+70-72  R100             2065
+70-71  RX-2 Coupe
+70-71  RX-2 Sedan       2270
+71     R100             2010        4.98  12.4  18.6   74     99       22 obs
+72     RX-2 4sp         2315        4.41  10.4  17.5   79    120       15-18obs
+       RX-2 auto                          12.1  18.8                   17
+72     RX-3 Coupe       2060        4.37  10.9  17.8   79    112       18 obs
+72     RX-3 Sedan       2090
+72     RX-3 Wagon       2170
+73     RX-2 Coupe       2325
+73     RX-2 Sedan       2355
+73     RX-3 Coupe       2150
+73     RX-3 Sedan       2180
+73     RX-3 Wagon       2265
+74     RX-3 Coupe man.  2510
+74     RX-3 Coupe auto  2530
+74     RX-3 Sedan man.  2540
+74     RX-3 Sedan auto  2560
+74     RX-3 Coupe man.  2335
+74     RX-3 Coupe auto  2360
+74     RX-3 Wagon man.  2450
+74     RX-3 Wagon auto  2475
+74     RX-4 Coupe man.  2610        4.21   9.7  17.4   82    117       18 obs
+74     RX-4 Coupe auto  2635        4.17
+74     RX-4 Sedan man.  2680        4.10
+74     RX-4 Sedan auto  2700        4.07
+74     RX-4 Wagon man.  2875        3.83
+74     RX-4 Wagon auto  2900        3.79
+74     Rotary Pickup    2865        3.84  11.0  18.3   78.5  103       17 obs
+76     RX-5 Cosmo       2795  0.73  3.94   9.3  17.1   81.3  112  199 21(18/29)
+79     RX-7 S           2350        4.26
+79     RX-7 GS 5spd     2385  0.78  4.19   9.2  17.0   83.0  122       22 obs
+82     RX-7 P815(US GSL) 2345       4.26
+84     RX-7 P132(GSL-SE) 2640       5.11   8.5  16.4   84.0  126       19 obs
+84     RX-7 P132(Turbo) 2270        7.27
+85     MX-03 3rotor exp 2535       12.62                     186est
+86     RX-7 GXL Manual  2625        5.56   7.9  16.1   87.5  128       17/24EPA
+86     RX-7 Auto        2695        5.42
+87     RX-7 Manual      2700        5.41
+87     RX-7 Auto        2735        5.34
+87     RX-7 Turbo       2850        6.39
+88     RX-7 Manual      2720        5.37
+88     RX-7 Auto        2750        5.31
+88     RX-7 Turbo       2850        6.39
+88     RX-7 convertible 3003        4.86  10.3
+89     RX-7 Turbo II    2987        6.70   6.7  15.1   91    140+      16/24EPA
+91     787B Le Mans     1831 ~1.5  38.23
+93     RX-7 Twin Turbo  2789  0.95  9.14   5.0  13.7  101    159  155  17/25EPA
+93     RX-7 TT auto     2857        8.93                               18/24EPA
+93     RX-7 Ptr Farrell 2920       11.3    4.6  12.9  109    167
+94     MX-5 Hydro. RCE  3080?             13.0                93
+94-95  RX-7 Twin Turbo  2826        9.02                               17/25EPA
+94-95  RX-7 TT auto     2881        8.85                               18/24EPA
+</PRE>
+
+<H2> <A NAME = "Dimensions"> Dimensions </H2>
+
+<PRE>
+Yr Model               Len     Wid    Ht     WB    Track       Wheel
+                       in.     in.    in.    in.   Frt   Rear
+                       (m)     (m)    (m)    (m)
+
+64     NSU Spider       140.9   59.8   49.6   79.5  49.1  48.3  12
+67-69  NSU Ro80         188     69     55.5  112.5  58.5  56.5  14
+70-74  NSU Ro80         188.2   69.3   55.5  112.6  58.3  56.5  14
+67     Cosmo 110S L10A  163.0   62.8   45.9   86.6  49.2  48.8  14
+68     Cosmo 110s L10B  162.6   62.8   45.9   92.5  49.6  49.2  15
+71     R100             150.8   58.3   53.0   89.0  47.2  46.9  14
+72     RX-2             163.2   62.2   54.9   97.2  50.6  50.3  13
+72     RX-3 Coupe       160.0   63.0   54.2   91.0  51.2  50.4  13
+74     RX-2 Coupe       173     62     56     97    51    51    13
+74     RX-2 Sedan       173     62     55     97    51    51    13
+74     RX-3 Coupe       168     63     53     91    51    51    13
+74     RX-3 Wagon       170     63     55     91    51    51    13
+74     RX-4 Coupe       177.0   66.0   54.0   99.0  54.0  54.0  13
+74     RX-4 Sedan       179     65     56     99.0  54.0  54.0  13
+74     RX-4 Wagon       184     65     56     99.0  54.0  54.0  13
+74     Rotary Pickup    173.0   67.0   61.0  104.0  57.0  56.0  14
+76     RX-5 Cosmo       182.0   66.0   52.0   99.0  54.0  54.0  14
+79     RX-7             168.7   65.0   49.6   95.3  55.9  55.1  13
+78     RX-7 X605(US GS) 167.9   65.0   49.6   95.3  55.9  55.1  13
+82     RX-7 P815(US GSL) 170.1  65.7   49.6   95.3  55.9  55.1  13
+83     RX-7 Ltd Edition                                         15
+84     RX-7 P132(GSL-SE) 170.1  65.7   49.6   95.3  55.9  55.1  14
+84     RX-7 P132(Turbo) 170.1   65.7   49.6   95.3  55.9  55.1  14
+85     MX-03 3rotor exp 177.6   70.7   47.2  106.7  60.6  59.4
+86     RX-7 GXL         168.9   66.5   49.8   95.7  57.1  56.7  14 or 15
+89     RX-7 Turbo II    169.9   66.5   49.8   95.7  57.1  56.7  15
+91     787B Le Mans     188.3   78.5         104.8  60.4  59.2  18
+93     RX-7 Twin Turbo  168.5   68.9   48.4   95.5  57.5  57.5  16
+94     RX-7 Twin Turbo  168.5   68.9   48.4   95.5  57.5  57.5  16
+95     RX-7 Twin Turbo  168.5   68.9   48.4   95.5  57.7  57.5  16
+93     RX-7 Ptr Farrell 168.5   68.9   48.4   95.5              17
+       Cosmo SX (Japan) 4.815  1.795  1.305  2.750
+</PRE>
+
+<HR>
+
+<H2> Footnotes </H2>
+
+<P> 1964 NSU Spider: weight 1534 or 1510.  Power 64hp @ 5000 SAE or 50
+PS @ 6000 DIN.  Torque 52 lbs-ft at 2500 DIN or 54 SAE at 3000.
+Compression 8.5 or 8.6.
+
+<P> RX-5 Cosmo: 2795 or 2820 lbs, 0-60 mph 9.3 or 10.7 or 11.2 sec, 1/4
+mi. 18.1 @ 76.0 or 17.1 @ 81.3 or 17.8 @ 77.5, top speed 111 or 112 or
+114 mph.
+
+<HR>
+
+<A HREF = "wankel.html"> Wankel Home </A> |
+<A HREF = "annotated.html"> => Annotated Sites </A>
+
+<P> <A HREF="../disclaim.html">Copyright</A> &#169; 1996 <A HREF =
+"../index.html">Alan Marr</A>.  This update notice was last updated
+April 14, 1996.  Do you <A HREF = "../version.html">not see the
+monkey</A> in the rotor background?  <A HREF = "submit.html">You can
+help</A>.  You may send your comments or questions to <A HREF =
+"mailto:rce@monito.com"> <KBD>rce@monito.com</KBD></A>.
+
+</BODY>
+
+</HTML>
+</DOC>

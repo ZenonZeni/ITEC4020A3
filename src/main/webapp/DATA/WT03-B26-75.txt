@@ -1,0 +1,131 @@
+
+<DOC>
+<DOCNO>WT03-B26-75</DOCNO>
+<DOCOLDNO>IA029-000311-B021-131</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdf9.htm 138.44.40.1 19970114165428 text/html 6469
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:52:44 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:09 GMT
+Content-length: 6295
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>Image Brightness &amp; BRDF Workshop Issues<BR>
+<HR></H2>
+<BR>
+<B>3.3.3 Kernel-Driven Models <BR>
+</B><BR>
+A complete kernel-driven semiempirical model is formulated as a linear combination
+of kernels. Most suitably it has the form<BR>
+<P><CENTER><IMG SRC="symbols/image69.gif" WIDTH="141" HEIGHT="17" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>which is derived from adding appropriate choices of geometric-optical
+surface-scattering and radiative-transfer volume-scattering kernels, each
+multiplied by a proportion <IMG SRC="symbols/image70.gif" WIDTH="11" HEIGHT=
+"9" ALIGN=middle NATURALSIZEFLAG="3">or <IMG SRC="symbols/image71.gif" 
+WIDTH="34" HEIGHT="15" ALIGN=middle NATURALSIZEFLAG="3">that weights the
+contribution of each model. These proportions may be regarded as the areal
+proportions of land cover types exhibiting each type of scattering (neglecting
+multiple scattering between the two components), or as mixing proportions
+for land cover types that display both a volume-scattering and a geometric-optical
+contribution to the BRDF. The quantities <I>kgeo</I> and <I>kvol</I> are
+the respective kernels; the factors <I>fgeo</I> and <I>fvol</I> are their
+respective weights; and the term <I>fiso</I> is the isotropic contribution.
+Using the kernels presented above, there will be two choices for <I>kvol</I>
+and three for <I>kgeo</I>, providing six possible models (disregarding here
+the four sets of internal parameters used for the Li kernels). The formulae
+for <I>fiso</I>, <I>fgeo</I>, and <I>fvol</I> are shown in <A HREF="#anchor4966489">Table
+4.</A> <BR>
+<BR>
+In the inversion and fitting of a semiempirical model to data, estimates
+of the weights <I>f </I>are retrieved from bidirectional reflectances and
+specification of viewing and illumination positions. Although this objective
+satisfies many of the goals of the BRDF/Albedo product, the existence of
+formulae for the weights <I>f </I>in terms of physical parameters could
+provide for direct inference of physical parameters from the weight values
+fitted (see <A HREF="#anchor5015771">Section 3.3.5</A>). This possibility
+will be explored in the postlaunch phase as a research topic. <BR>
+<BR>
+<A NAME="anchor5014790"></A><B>3.3.4 The Modified Walthall Model</B> <BR>
+<BR>
+Empirical models can be understood as being of the kernel-driven model type
+as well, where the kernels are empirical functions. An example is the modified
+Walthall model, derived by Walthall et al. (1985) and improved by Nilson
+and Kuusk (1989). It has the form<BR>
+<P><CENTER><IMG SRC="symbols/image73.gif" WIDTH="221" HEIGHT="23" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>Note that this is the same form as the semiempirical models discussed
+above-it is comprised of a weighted superposition of functions of angles,
+and the weights <IMG SRC="symbols/image74.gif" WIDTH="28" HEIGHT="15" ALIGN=
+middle NATURALSIZEFLAG="3">are the parameters of the model. As a consequence,
+models like the modified Walthall model can be processed along with linear
+semiempirical models by the same linear inversion scheme.<BR>
+<BR>
+<A NAME="anchor5015771"></A><B>3.3.5 Advantages of Linear Models <BR>
+</B><BR>
+Linear models have a number of advantages in the context of global data
+processing. Linearity in BRDF models is comprehensively discussed by Lewis
+(in preparation) and demonstrated with the modified Walthall model. A first
+advantage is that any linear model can be inverted analytically through
+matrix inversion for the system of equations obtained by setting the derivative
+of the error function to zero (see <A HREF="brdf5.htm#anchor3868792">Section
+3.2.1</A>). This provides direct estimates of the parameters <I>fiso, fgeo</I>
+and <I>fvol</I> while avoiding numerical inversion problems. <BR>
+<BR>
+Second, both the directional-hemispherical and bihemispherical integrals
+of the BRDF (black-sky and white-sky albedos) may be precalculated for each
+kernel individually. The albedo of a model then is simply the sum of the
+kernel albedos, weighted by <I>f</I> values. By using a look-up table, numerical
+integration of the models can thus be avoided. <BR>
+<BR>
+Third, linear BRDF models scale linearly in space if adjacency effects are
+assumed to be small. This allows for mixed pixel cases, as indicated by
+the areal proportion parameter <IMG SRC="symbols/image75.gif" WIDTH="11"
+HEIGHT="9" ALIGN=middle NATURALSIZEFLAG="3">in the model factors listed
+above. This feature also allows scaling BRDF and albedo from one spatial
+resolution up to a coarser one, e.g., to a particular resolution needed
+for a climate model. Finally, since some of the parameters driving the models
+are dependent on wavelength while others are not (e.g., structural parameters),
+it may be possible to extract all or some of them from multiband analysis,
+making assumptions about the others. <BR>
+<BR>
+<HR><A NAME="anchor4966489"></A><B>Table 4. Semiempirical weight formulas<BR>
+</B><BR>
+Ross-thin + Roujean 
+<BLOCKQUOTE><IMG SRC="symbols/image76.gif" WIDTH="136" HEIGHT="71" ALIGN=
+bottom NATURALSIZEFLAG="3"></BLOCKQUOTE>
+<BR>
+<BR>
+Ross-thick + Roujean 
+<BLOCKQUOTE><IMG SRC="symbols/image77.gif" WIDTH="174" HEIGHT="72" ALIGN=
+top NATURALSIZEFLAG="3"></BLOCKQUOTE>
+Ross-thin + Li-sparse 
+<BLOCKQUOTE><IMG SRC="symbols/image78.gif" WIDTH="133" HEIGHT="64" ALIGN=
+bottom NATURALSIZEFLAG="3"></BLOCKQUOTE>
+<BR>
+Ross-thick + Li-sparse 
+<BLOCKQUOTE><IMG SRC="symbols/image79.gif" WIDTH="170" HEIGHT="66" ALIGN=
+bottom NATURALSIZEFLAG="3"></BLOCKQUOTE>
+Ross-thin + Li-dense 
+<BLOCKQUOTE><IMG SRC="symbols/image80.gif" WIDTH="133" HEIGHT="71" ALIGN=
+bottom NATURALSIZEFLAG="3"></BLOCKQUOTE>
+<BR>
+Ross-thick + Li-sparse 
+<BLOCKQUOTE><IMG SRC="symbols/image81.gif" WIDTH="170" HEIGHT="72" ALIGN=
+bottom NATURALSIZEFLAG="3"></BLOCKQUOTE>
+<HR><A HREF="brdf1.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="brdf8.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="brdf10.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif"
+WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><HR>
+</BODY>
+</HTML>
+</DOC>

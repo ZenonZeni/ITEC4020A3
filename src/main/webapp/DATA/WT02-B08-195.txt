@@ -1,0 +1,327 @@
+
+<DOC>
+<DOCNO>WT02-B08-195</DOCNO>
+<DOCOLDNO>IA069-000427-B016-181</DOCOLDNO>
+<DOCHDR>
+http://www.spri.cam.ac.uk:80/stats.htm 131.111.118.70 19970113083545 text/html 13859
+HTTP/1.0 200 Document follows
+Date: Mon, 13 Jan 1997 08:36:20 GMT
+Server: NCSA/1.4.2
+Content-type: text/html
+Last-modified: Mon, 13 Jan 1997 05:10:05 GMT
+Content-length: 13682
+</DOCHDR>
+<html>
+<head><title>Web Server Statistics for The Scott Polar Research Institute</title></head>
+<body>
+<h1><a NAME="Top"><IMG src="http://www.statslab.cam.ac.uk/~sret1/analog/analog/analogo.gif" alt=""> Web Server Statistics</a> for <a HREF="http://www.spri.cam.ac.uk/">The Scott Polar Research Institute</a></h1>
+
+<hr>
+Program started at Mon-13-Jan-1997 05:10 local time.
+<br>Analysed requests from Sun-01-Sep-1996 18:52 to Mon-13-Jan-1997 03:49
+  (133.4 days).
+
+<p><b>Total completed requests:</b> 58 156 (2 282)
+<br><b>Total failed requests:</b> 1 291 (70)
+<br><b>Total redirected requests:</b> 43 (3)
+<br><b>Average requests per day:</b> 446 (336)
+<br><b>Number of distinct files requested:</b> 222 (129)
+<br><b>Number of distinct hosts served:</b> 5 610 (333)
+<br><b>Number of new hosts served in last 7 days:</b> 252
+<br><b>Corrupt logfile entries:</b> 102
+<br><b>Total bytes transferred:</b> 649 842 963 (26 347 695)
+<br><b>Average bytes transferred per day:</b> 4 872 350 (3 763 956)
+<br>(Figures in parentheses refer to the last 7 days).
+
+<p>(<b>Go To</b>: <a HREF="#Monthly">Monthly report</a>: <a HREF="#Weekly">Weekly report</a>: <a HREF="#Hourly">Hourly summary</a>: <a HREF="#Domain">Domain report</a>: <a HREF="#Directory">Directory report</a>: <a HREF="#Request">Request report</a>)
+<hr>
+<h2><a NAME="Monthly">Monthly Report</a></h2>
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly report</a>: <a HREF="#Hourly">Hourly summary</a>: <a HREF="#Domain">Domain report</a>: <a HREF="#Directory">Directory report</a>: <a HREF="#Request">Request report</a>)
+
+<p>Each <code>+</code> represents 500 requests, or part thereof.
+
+<pre width=65>
+   month: #reqs
+--------  -----
+Sep 1996:  8429: +++++++++++++++++
+Oct 1996: 21175: +++++++++++++++++++++++++++++++++++++++++++
+Nov 1996: 17382: +++++++++++++++++++++++++++++++++++
+Dec 1996:  7926: ++++++++++++++++
+Jan 1997:  3244: +++++++
+</pre>
+
+<hr>
+<h2><a NAME="Weekly">Weekly Report</a></h2>
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Monthly">Monthly report</a>: <a HREF="#Hourly">Hourly summary</a>: <a HREF="#Domain">Domain report</a>: <a HREF="#Directory">Directory report</a>: <a HREF="#Request">Request report</a>)
+
+<p>Each <code>+</code> represents 200 requests, or part thereof.
+
+<pre width=65>
+week beg.: #reqs
+---------  -----
+ 1/Sep/96:  2262: ++++++++++++
+ 8/Sep/96:  2574: +++++++++++++
+15/Sep/96:  1744: +++++++++
+22/Sep/96:  1400: +++++++
+29/Sep/96:  1602: +++++++++
+ 6/Oct/96:  7403: ++++++++++++++++++++++++++++++++++++++
+13/Oct/96:  6499: +++++++++++++++++++++++++++++++++
+20/Oct/96:  3472: ++++++++++++++++++
+27/Oct/96:  3237: +++++++++++++++++
+ 3/Nov/96:  6757: ++++++++++++++++++++++++++++++++++
+10/Nov/96:  3581: ++++++++++++++++++
+17/Nov/96:  3121: ++++++++++++++++
+24/Nov/96:  3334: +++++++++++++++++
+ 1/Dec/96:  2433: +++++++++++++
+ 8/Dec/96:  2133: +++++++++++
+15/Dec/96:  1944: ++++++++++
+22/Dec/96:   893: +++++
+29/Dec/96:  1407: ++++++++
+ 5/Jan/97:  2178: +++++++++++
+12/Jan/97:   182: +
+</pre>
+
+<hr>
+<h2><a NAME="Hourly">Hourly Summary</a></h2>
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Monthly">Monthly report</a>: <a HREF="#Weekly">Weekly report</a>: <a HREF="#Domain">Domain report</a>: <a HREF="#Directory">Directory report</a>: <a HREF="#Request">Request report</a>)
+
+<p>Each <code>+</code> represents 100 requests, or part thereof.
+
+<pre width=65>
+hr: #reqs
+--  -----
+ 0:  1243: +++++++++++++
+ 1:  1341: ++++++++++++++
+ 2:  1164: ++++++++++++
+ 3:  1065: +++++++++++
+ 4:  1072: +++++++++++
+ 5:   837: +++++++++
+ 6:   858: +++++++++
+ 7:  1198: ++++++++++++
+ 8:  1800: ++++++++++++++++++
+ 9:  2257: +++++++++++++++++++++++
+10:  3121: ++++++++++++++++++++++++++++++++
+11:  3847: +++++++++++++++++++++++++++++++++++++++
+12:  4280: +++++++++++++++++++++++++++++++++++++++++++
+13:  4035: +++++++++++++++++++++++++++++++++++++++++
+14:  4244: +++++++++++++++++++++++++++++++++++++++++++
+15:  4612: +++++++++++++++++++++++++++++++++++++++++++++++
+16:  3960: ++++++++++++++++++++++++++++++++++++++++
+17:  4167: ++++++++++++++++++++++++++++++++++++++++++
+18:  3364: ++++++++++++++++++++++++++++++++++
+19:  2524: ++++++++++++++++++++++++++
+20:  1906: ++++++++++++++++++++
+21:  2056: +++++++++++++++++++++
+22:  1778: ++++++++++++++++++
+23:  1427: +++++++++++++++
+</pre>
+
+<hr>
+<h2><a NAME="Domain">Domain Report</a></h2>
+
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Monthly">Monthly report</a>: <a HREF="#Weekly">Weekly report</a>: <a HREF="#Hourly">Hourly summary</a>: <a HREF="#Directory">Directory report</a>: <a HREF="#Request">Request report</a>)
+<p>Printing all domains with any traffic, sorted by amount of traffic,
+and requested subdomains with at least 0.20% of the traffic.
+
+<pre> #reqs :  %bytes : domain
+-------  --------  ------
+ 23190 :  28.31% : .uk (United Kingdom)
+(15396): (14.06%):     cam.ac.uk (University of Cambridge)
+(12825): ( 9.85%):       spri.cam.ac.uk
+  6536 :  12.17% : [unresolved numerical addresses]
+  5468 :  10.19% : .com (Commercial (mainly USA))
+  2504 :   8.61% : .au (Australia)
+  3162 :   6.06% : .net (Network)
+  2996 :   5.37% : .edu (USA Educational)
+  2186 :   5.31% : .de (Germany)
+  1512 :   2.51% : .ca (Canada)
+   926 :   2.39% : .is (Iceland)
+   933 :   2.23% : .nl (Netherlands)
+  1033 :   1.96% : .se (Sweden)
+   806 :   1.52% : .no (Norway)
+   877 :   1.48% : .gov (USA Government)
+   658 :   1.35% : .dk (Denmark)
+   469 :   1.26% : .at (Austria)
+   738 :   1.06% : .fr (France)
+   462 :   1.06% : .org (Non-Profit Making Organisations)
+   453 :   1.02% : .fi (Finland)
+   496 :   0.94% : .jp (Japan)
+   500 :   0.73% : .ch (Switzerland)
+   406 :   0.71% : .it (Italy)
+   221 :   0.55% : .es (Spain)
+   240 :   0.48% : .mil (USA Military)
+   194 :   0.45% : .ie (Ireland)
+   156 :   0.37% : .us (United States)
+   152 :   0.23% : .nz (New Zealand)
+    91 :   0.17% : .be (Belgium)
+    39 :   0.16% : .hr (Croatia)
+    98 :   0.15% : .za (South Africa)
+    78 :   0.13% : .pt (Portugal)
+    42 :   0.10% : .pl (Poland)
+    29 :   0.10% : .sg (Singapore)
+    29 :   0.07% : .br (Brazil)
+    17 :   0.07% : .lu (Luxembourg)
+     9 :   0.07% : .id (Indonesia)
+    41 :   0.07% : .su (Former USSR)
+    21 :   0.07% : .ru (Russian Federation)
+    17 :   0.06% : .mx (Mexico)
+    62 :   0.05% : .kr (South Korea)
+    16 :   0.05% : .bm (Bermuda)
+    23 :   0.04% : .si (Slovenia)
+    25 :   0.04% : .ee (Estonia)
+     7 :   0.04% : .ar (Argentina)
+    27 :   0.04% : .il (Israel)
+    21 :   0.03% : .arpa (Old style Arpanet)
+    24 :   0.03% : .gl (Greenland)
+    34 :   0.03% : .cz (Czech Republic)
+    19 :   0.02% : .gr (Greece)
+    18 :   0.02% : [unknown]
+    14 :   0.02% : .hu (Hungary)
+    33 :   0.01% : .cl (Chile)
+     6 :   0.01% : .pa (Panama)
+    15 :   0.01% : .gb (Great Britain)
+     7 :   0.01% : .int (International)
+     5 :   0.01% : .do (Dominican Republic)
+     5 :         : .bn (Brunei Darussalam)
+     1 :         : .tr (Turkey)
+     3 :         : .pe (Peru)
+     2 :         : .bg (Bulgaria)
+     1 :         : .co (Colombia)
+     1 :         : .ve (Venezuela)
+     2 :         : .tw (Taiwan)
+</pre>
+
+<hr>
+<h2><a NAME="Directory">Directory Report</a></h2>
+
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Monthly">Monthly report</a>: <a HREF="#Weekly">Weekly report</a>: <a HREF="#Hourly">Hourly summary</a>: <a HREF="#Domain">Domain report</a>: <a HREF="#Request">Request report</a>)
+<p>Printing all directories to depth 1 with at least 0.01% of the traffic, 
+sorted by amount of traffic.
+
+<pre>#reqs: %bytes: directory
+-----  ------  ---------
+15379: 57.97%: /jok/
+26816: 17.47%: /images/
+ 7770:  8.29%: [root directory]
+ 2256:  5.58%: /sig/
+ 1228:  4.33%: /lib/
+ 1111:  2.74%: /rsg/
+ 2572:  2.16%: /people/
+  651:  1.22%: /bob/
+  359:  0.21%: /scar/
+   11:  0.03%: /users/
+</pre>
+
+<hr>
+<h2><a NAME="Request">Request Report</a></h2>
+
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Monthly">Monthly report</a>: <a HREF="#Weekly">Weekly report</a>: <a HREF="#Hourly">Hourly summary</a>: <a HREF="#Domain">Domain report</a>: <a HREF="#Directory">Directory report</a>)
+<p>Printing all pages with at least 10 requests, sorted by number of requests.
+
+<pre>#reqs: %bytes: filename
+-----  ------  --------
+ 5749:  8.54%: <a HREF="/jok/jok.htm">/jok/jok.htm</a>
+ 4077:  2.92%: <a HREF="/">/</a>
+  536:  0.59%: <a HREF="/staff.htm">/staff.htm</a>
+  497:  0.29%: <a HREF="/wdcc.htm">/wdcc.htm</a>
+  491:  0.46%: <a HREF="/home.htm">/home.htm</a>
+  353:  0.07%: <a HREF="/sig/sighome.htm">/sig/sighome.htm</a>
+  331:  3.94%: <a HREF="/lib/museums.htm">/lib/museums.htm</a>
+  322:  0.06%: <a HREF="/lib/libhome.htm">/lib/libhome.htm</a>
+  310:  0.26%: <a HREF="/links.htm">/links.htm</a>
+  270:  0.18%: <a HREF="/rsg/rsghome.htm">/rsg/rsghome.htm</a>
+  220:  0.19%: <a HREF="/archmus.htm">/archmus.htm</a>
+  217:  2.50%: <a HREF="/review.htm">/review.htm</a>
+  179:  0.07%: <a HREF="/sig/projects.htm">/sig/projects.htm</a>
+  168:  0.03%: <a HREF="/alumni.htm">/alumni.htm</a>
+  165:  0.25%: <a HREF="/stats.htm">/stats.htm</a>
+  157:  0.01%: <a HREF="/map.htm">/map.htm</a>
+  142:  0.06%: <a HREF="/scar/wwg.htm">/scar/wwg.htm</a>
+  140:  0.14%: <a HREF="/people/ojm21/home.htm">/people/ojm21/home.htm</a>
+  140:  0.45%: <a HREF="/publist.htm">/publist.htm</a>
+  136:  0.12%: <a HREF="/people/dlf20/home.htm">/people/dlf20/home.htm</a>
+  126:  0.03%: <a HREF="/narnold.htm">/narnold.htm</a>
+  126:  0.05%: <a HREF="/lib/remote.htm">/lib/remote.htm</a>
+  124:  0.07%: <a HREF="/people/wgr2/home.htm">/people/wgr2/home.htm</a>
+  117:  0.05%: <a HREF="/polstud.htm">/polstud.htm</a>
+  115:  0.04%: <a HREF="/sig/staff.htm">/sig/staff.htm</a>
+  115:  0.08%: <a HREF="/rsg/rsgglac.htm">/rsg/rsgglac.htm</a>
+  111:  0.09%: <a HREF="/sig/publish.htm">/sig/publish.htm</a>
+  110:  0.05%: <a HREF="/people/mrh1005/home.htm">/people/mrh1005/home.htm</a>
+  103:  0.02%: <a HREF="/sig/students.htm">/sig/students.htm</a>
+  103:  0.03%: <a HREF="/new.htm">/new.htm</a>
+  102:  0.10%: <a HREF="/bob/perisib.htm">/bob/perisib.htm</a>
+  102:  0.08%: <a HREF="/bob/npolshp.htm">/bob/npolshp.htm</a>
+  101:  0.08%: <a HREF="/lib/sprilib.htm">/lib/sprilib.htm</a>
+  101:  0.14%: <a HREF="/jok/jok2.htm">/jok/jok2.htm</a>
+   96:  0.04%: <a HREF="/lib/visitors.htm">/lib/visitors.htm</a>
+   96:  0.20%: <a HREF="/bob/periant.htm">/bob/periant.htm</a>
+   93:  0.04%: <a HREF="/people/mrh1005/wwwmrh2.htm">/people/mrh1005/wwwmrh2.htm</a>
+   89:  0.06%: <a HREF="/bob/statn2.htm">/bob/statn2.htm</a>
+   86:  0.05%: <a HREF="/terence.htm">/terence.htm</a>
+   85:  0.03%: <a HREF="/rsg/rsgice.htm">/rsg/rsgice.htm</a>
+   80:  0.03%: <a HREF="/hist.htm">/hist.htm</a>
+   76:  0.06%: <a HREF="/sig/oldhome.htm">/sig/oldhome.htm</a>
+   76:  0.03%: <a HREF="/friends.htm">/friends.htm</a>
+   75:  0.08%: <a HREF="/lib/overview.htm">/lib/overview.htm</a>
+   70:  0.02%: <a HREF="/people/wjm13/home.htm">/people/wjm13/home.htm</a>
+   70:  0.02%: <a HREF="/bob/delong.htm">/bob/delong.htm</a>
+   69:  0.03%: <a HREF="/bob/terrpol.htm">/bob/terrpol.htm</a>
+   68:  0.71%: <a HREF="/bob/protect.htm">/bob/protect.htm</a>
+   64:  0.02%: <a HREF="/lectures.htm">/lectures.htm</a>
+   61:  0.04%: <a HREF="/rsg/rsgveg.htm">/rsg/rsgveg.htm</a>
+   60:  0.02%: <a HREF="/lib/lect97a.htm">/lib/lect97a.htm</a>
+   59:  0.07%: <a HREF="/devel.htm">/devel.htm</a>
+   58:       : <a HREF="/people/dlf20/man.htm">/people/dlf20/man.htm</a>
+   57:  0.03%: <a HREF="/scar/wgg.htm">/scar/wgg.htm</a>
+   55:  0.01%: <a HREF="/bob/cambpole.htm">/bob/cambpole.htm</a>
+   54:  0.01%: <a HREF="/sig/ex_sig.htm">/sig/ex_sig.htm</a>
+   53:  0.02%: <a HREF="/lib/timesave.htm">/lib/timesave.htm</a>
+   50:  0.01%: <a HREF="/info.htm">/info.htm</a>
+   49:  0.03%: <a HREF="/lib/staff.htm">/lib/staff.htm</a>
+   48:  0.01%: <a HREF="/people/ojm21/friends.htm">/people/ojm21/friends.htm</a>
+   48:  0.01%: <a HREF="/sig/siglinks.htm">/sig/siglinks.htm</a>
+   44:  0.02%: <a HREF="/people/wjm13/keyguide.htm">/people/wjm13/keyguide.htm</a>
+   36:  0.02%: <a HREF="/people/wgr2/recent.htm">/people/wgr2/recent.htm</a>
+   31:       : <a HREF="/rsg/kola.htm">/rsg/kola.htm</a>
+   31:  0.04%: <a HREF="/people/wjm13/publicat.htm">/people/wjm13/publicat.htm</a>
+   29:  0.09%: <a HREF="/scar/ukrep.htm">/scar/ukrep.htm</a>
+   27:  0.01%: <a HREF="/rsg/dlf.htm">/rsg/dlf.htm</a>
+   26:  0.01%: <a HREF="/scar/eismint.htm">/scar/eismint.htm</a>
+   24:  0.01%: <a HREF="/rsg/awb.htm">/rsg/awb.htm</a>
+   22:  0.02%: <a HREF="/people/nkent.htm">/people/nkent.htm</a>
+   21:       : <a HREF="/people/wjm13/forthcom.htm">/people/wjm13/forthcom.htm</a>
+   21:  0.03%: <a HREF="/people/wgr2/old.htm">/people/wgr2/old.htm</a>
+   19:  0.01%: <a HREF="/people/mrh1005/">/people/mrh1005/</a>
+   18:       : <a HREF="/rsg/moncheg.htm">/rsg/moncheg.htm</a>
+   17:       : <a HREF="/rsg/tuly_mon.htm">/rsg/tuly_mon.htm</a>
+   16:       : <a HREF="/rsg/pics_for_grae/piccys.htm">/rsg/pics_for_grae/piccys.htm</a>
+   16:       : <a HREF="/rsg/class.htm">/rsg/class.htm</a>
+   15:  0.01%: <a HREF="/newhome.htm">/newhome.htm</a>
+   15:       : <a HREF="/rsg/norilsk.htm">/rsg/norilsk.htm</a>
+   14:       : <a HREF="/srcheng.htm">/srcheng.htm</a>
+   13:       : <a HREF="/lib/timesav2.htm">/lib/timesav2.htm</a>
+</pre>
+
+<hr>
+<i>This analysis was produced by <a HREF="http://www.statslab.cam.ac.uk/~sret1/analog/">analog1.2.6</a>.
+<br><b>Running time:</b> 4 seconds.</i>
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Monthly">Monthly report</a>: <a HREF="#Weekly">Weekly report</a>: <a HREF="#Hourly">Hourly summary</a>: <a HREF="#Domain">Domain report</a>: <a HREF="#Directory">Directory report</a>: <a HREF="#Request">Request report</a>)
+
+</body>
+</html>
+</DOC>

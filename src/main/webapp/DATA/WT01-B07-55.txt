@@ -1,0 +1,395 @@
+
+<DOC>
+<DOCNO>WT01-B07-55</DOCNO>
+<DOCOLDNO>IA068-000417-B010-256</DOCOLDNO>
+<DOCHDR>
+http://www.aivc.org:80/pcsim.html 194.217.120.80 19970113032459 text/html 14417
+HTTP/1.0 200 OK
+Date: Mon, 13 Jan 1997 03:24:57 GMT
+Server: Apache/0.8.14
+Content-type: text/html
+Content-length: 14244
+Last-modified: Tue, 11 Jun 1996 13:53:22 GMT
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+
+<META NAME="AUTHOR" CONTENT="Air Infiltration and Ventilation Centre">
+
+<META NAME="DOCCOMM" CONTENT="r              ">
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word ">
+<META NAME="BUILD" CONTENT="Feb 10 1995">
+<META NAME="GENERATOR" CONTENT >
+<META NAME="CREATIM" CONTENT="1996:6:10:15:18:">
+
+<META NAME="VERSION" CONTENT="1">
+
+</HEAD>
+
+<BODY>
+<HR>
+
+<H1>Pressure Coefficient Simulation Program</H1>
+<HR>
+
+<H3>by B. Knoll, J.C. Phaff and W.F. de Gids<BR>
+<A HREF="http://www.tno.nl/instit/bouw/home.html" >TNO Building and Construction Research
+</A>, Delft, The Netherlands<BR>
+</H3>
+
+<MENU>
+<LI><A HREF="#Synopsis" >Synopsis</A>
+<LI><A HREF="#Introduction" >Introduction</A>
+<LI><A HREF="#Basics" >Basics Of The Program</A>
+<LI><A HREF="#Input" >Program Input</A>
+<LI><A HREF="#Output" >Program Output</A>
+<LI><A HREF="#First" >First Evaluation</A>
+<LI><A HREF="#Future" >Future Improvements</A>
+<LI><A HREF="#Orders" >Orders and Requests for Additional Information
+</A>
+<LI><A HREF="#References" >References</A><BR>
+
+</MENU>
+
+<H2><A NAME="Synopsis">Synopsis</A></H2>
+
+<P>
+A computer program named &quot;Cp Generator&quot;, has been developed
+to predict the wind pressure coefficients, Cp, on the facades
+and roofs of block shaped buildings.
+<P>
+The program is based on fits of measured data, including wind
+shielding by obstacles and terrain roughness.
+<P>
+The main advantages of the program are:
+<UL>
+<LI>it needs no expertise in wind pressures;
+<LI>the input is simple. It exists of building and obstacle coordinates
+and orientations;
+<LI>generating Cp values for ventilation model calculations needs
+no separate action. By linking the pressure simulation program
+and the ventilation calculation program as well as their input,
+wider application of ventilation programs for non-experts becomes
+possible.
+</UL>
+
+<P>
+The accuracy of the predicted wind pressures in the first version
+of the pressure simulation program is promising. Some development
+is still needed, however, in particular complex building shapes
+and surroundings have to be dealt with more carefully, as well
+as increasing wind velocities in small passages. Detailed improvements
+are also necessary, for example, to account for sloped roofs and
+the position of ventilation provisions above roof level.
+<P>
+Consequently, generation and implementation of additional wind
+tunnel data is planned, to improve the present version of the
+program.
+<H2>1. <A NAME="Introduction">Introduction</A></H2>
+
+<P>
+A good prediction of wind pressure coefficients, Cp, on facades
+and roofs with ventilation provision, is vital for natural ventilation
+calculations. The accuracy of the ventilation calculations can
+highly depend on it, if wind is the dominant driving force.
+<P>
+The use of wind tunnel experiments to predict Cp values is a proven,
+but expensive method. The use of Cp estimations from data bases
+is a cheaper, but less accurate alternative and in the case of
+surrounding obstacles almost impossible.
+<P>
+In both methods, generating Cp-values is an expert job, to be
+performed separately, before the actual ventilation calculations.
+This is found to be a disadvantage for operating applications
+with ventilation models by non-expert users.
+<P>
+The organisation for applied scientific research TNO is developing
+an automatic control system for natural ventilation of industrial
+buildings for the Dutch ventilation company BRAKEL-ATMOS. The
+control system calculates and sets optimum grill positions, depending
+on meteo conditions, inside temperature, required ventilation
+flow and allowable draught.
+<P>
+For this application the need for implicit prediction of wind
+pressure coefficients became urgent. Due to the knowledge of most
+of its users, the input needs to be simple data of the building
+to be ventilated and its surroundings.
+<P>
+The lack of such a tool led to the development of the first version
+of a wind pressure simulation program, described in this paper.
+<P>
+The pressure simulation program is a computer program, written
+in Pascal and running under MS-DOS.
+<P>
+The pressure simulation program may be applied for:
+<UL>
+<LI>simple building structures (to be simplified to rectangular
+shaped facades with flat roofs);
+<LI>with ventilation provisions on variable position within the
+facades and roof;
+<LI>in different surroundings per orientation;
+<LI>with common terrain roughnesses (z0 = 0.35 to 7 m);
+<LI>and several local obstacles (also more or less block shaped).
+</UL>
+
+<H2>2. <A NAME="Basics">Basics</A> Of The Program</H2>
+
+<P>
+The pressure simulation program is based on measured data <A HREF="#References" >[1], [2]
+</A>. It concerns wind tunnel experiments:
+<UL>
+<LI>on typical block shaped buildings,
+<LI>in different terrain roughnesses,
+<LI>with and without obstacles on systematically varying distances.
+</UL>
+
+<P>
+Because of the systematic set-up of these measurements, it was
+possible to fit the data to a set of mathematical expressions.
+For parameters describing the data additional references <A HREF="#References" >[3], [4] and [5]
+</A> are applied.
+<P>
+The start of the fits is a formula, describing the general relation
+of wind pressure and wind direction for an unshielded object.
+The relation is presented by different researchers (<A HREF="#References" >Phaff [1], Walker and Wilson [4]
+</A> and ASHRAE).
+<P>
+With a set of additional formulas, containing the building dimensions
+and the terrain roughness as relevant parameters, the wind pressures
+on different spots of the roof and each facade are predicted.
+<P>
+The next stage was to add the influence of nearby obstacles.
+<P>
+For the main orientation of each obstacle to the building, a correction
+on the unshielded Cp was determined, using both the distance between
+obstacle and building and the leeward side Cp of the obstacle
+itself. The obstacle leeward Cp was calculated using the same
+procedure as used for the unshielded building, but now using of
+course the obstacle dimensions.
+<P>
+After calculating the Cp correction for the main obstacle direction,
+the correction for surrounding directions is determined, using
+the &quot;shielding angle&quot; of the obstacle to the building.
+<P>
+To ease the use of the program, a set of formulas has been added,
+calculating input parameters like dimensions and angles from a
+minimum of building and obstacle coordinates, to be entered by
+the user.
+<H2>3. Program <A NAME="Input">Input</A></H2>
+
+<P>
+To allow the program to be used by non-experts, the input is restricted
+to measurable dimensions of the building, nearby obstacles and
+their positions.
+<P>
+To prevent a time consuming, over-detailed input, a simple instruction
+points out what kind of details are relevant. An example is the
+criteria for obstacles further away than 5 x their height. These
+are not considered to be of importance for the local shielding
+but may contribute to the terrain roughness.
+<P>
+An example of a part of the input is given in the text block and
+the building lay-out (<A HREF="#Figure1" >Figure 1</A>).<BR>
+
+<P>
+<TT>____________________________________________________</TT>
+<P>
+<TT>obstacles (position in metres)<BR>
+____________________________________________________</TT>
+<P>
+<TT>terrain level above sea: 0<BR>
+roof height of the building: 8.2<BR>
+</TT>
+<P>
+<TT>name: HOUSE<BR>
+x, y: 0, 0<BR>
+l, b, z: 22.6, 8.5, 8 (actual gutter height = 5.4)<BR>
+</TT>
+<P>
+<TT>name:<BR>
+x, y: 20, -10<BR>
+l, b, z: 0.1, 0.1, 10<BR>
+</TT>
+<P>
+<TT>name:<BR>
+x, y: 14.6, 0<BR>
+azimut: 270<BR>
+l, b, z: 22.6, 2.15, 3<BR>
+</TT>
+<P>
+<TT>name:<BR>
+x, y: 18.3, 0<BR>
+azimut: 270<BR>
+l, b, z: 8.5, 34.2, 8.5<BR>
+____________________________________________________</TT>
+<P>
+
+<IMG SRC="pc1.gif" ALIGN="BOTTOM" >
+
+<P>
+<EM><A NAME="Figure1">Figure 1</A>: Input lay-out with a marked
+edge on floor level of each building. Turning left first defines
+dimension x and secondly y. Azimuth is given for the first facade.
+</EM>
+<H2>4. Program <A NAME="Output">Output</A></H2>
+
+<P>
+The output of the pressure simulation program is an array of pressure
+data. The pressure data files may be linked directly to a ventilation
+calculation program.
+<P>
+The output may also be expressed graphically. An example of a
+graphical output is given in <A HREF="#Figure2" >Figure 2</A>.
+<P>
+The upper figures show the Cp -values per wind direction in the
+unshielded situation (imaginary), the local shielding correction
+(black filling) and their combined result, presenting the actual
+Cp -values. In the lower figures Cp is plotted polar on a map
+with the building lay-out. From this plot the influence of each
+obstacle on Cp may be seen directly.
+<P>
+
+<IMG SRC="pc2.gif" ALIGN="BOTTOM" >
+
+<P>
+<EM><A NAME="Figure2">Figure 2</A>: Output graph for the rear
+facade. '+'= unshielded, Bar=obstacle correction 'o'=resulting
+Cp. Below given as a polar diagram.</EM>
+<H2>
+<IMG SRC="pc3.gif" ALIGN="BOTTOM" >
+</H2>
+
+<H2>5. <A NAME="First">First</A> Evaluation</H2>
+
+<P>
+For the output example shown, a data set of wind-tunnel Cp values
+is available. The data set has proved to fit well with actual
+on-site measurements.
+<P>
+A comparison of these data and the Cp-values calculated with the
+pressure simulation program is presented in <A HREF="#Figure3" >Figure 3
+</A>, <A HREF="#Figure4" >Figure 4</A> and <A HREF="#Figure5" >Figure 5
+</A>.
+<P>
+
+<IMG SRC="pc4.gif" ALIGN="BOTTOM" >
+
+<P>
+<EM><A NAME="Figure3">Figure 3</A>: Comparison measured and calculated
+Cp for the front facade.</EM>
+<P>
+The comparison shows a rather good agreement for both facades.
+Most remarkable in these characteristics is the change of calculated
+windward into leeward pressures happening too fast. An over-estimation
+of the contraction effect (under-estimation of the velocity increase)
+in the case of small passages is held responsible for this.
+<P>
+
+<IMG SRC="pc5.gif" ALIGN="BOTTOM" >
+
+<P>
+<EM><A NAME="Figure4">Figure 4</A>: Comparison measured and calculated
+Cp for the rear facade</EM>
+<P>
+The comparison for the roof pressure shows a worse agreement,
+especially for wind directions between 180&#186; and 330&#186;.
+The slope of the roof and the position of the ventilation duct
+within the roof is held responsible for this difference. The pressure
+simulation program doesn't account for sloped roofs yet.
+<P>
+One should realise that a rather preliminary tool is used and
+that a rather complex configuration of obstacles is concerned.
+<P>
+
+<IMG SRC="pc6.gif" ALIGN="BOTTOM" >
+
+<P>
+<EM><A NAME="Figure5">Figure 5</A>: Comparison measured and calculated
+Cp for the roof pitch</EM>
+<P>
+Also, one should realise that minor differences in Cp, especially
+over a wind direction sector, and at steep changes, will have
+less effect in reality. This is due to normal fluctuations of
+the actual wind direction. Therefore the results of the comparison
+are considered to be hopeful. If some essential corrections are
+added, the pressure simulation program is expected to be a useful
+tool. Hence, further development of the tool is recommended.
+<H2>6. <A NAME="Future">Future</A> Improvements</H2>
+
+<P>
+To end up with a useful and sufficiently accurate pressure simulation
+program, improvements are recommended on:
+<UL>
+<LI>complex building shapes (non-block shaped, like sloped roofs,
+building extensions or combined obstacles, sloped surfaces, seasonal
+corrections for vegetation);
+<LI>contraction effects depending on passage width.
+</UL>
+
+<P>
+Apart from this, extracting a version for correction of local
+meteo data is recommended. When local meteo data is used to control
+ventilation, the correction for local effects is often poor. This
+badly affects ventilation control. The obstacle corrections of
+the pressure simulation program may also be utilised to correct
+these data.
+<H2><A NAME="Orders">Orders</A> and Requests for Additional Information
+</H2>
+
+<P>
+Two new tools are available from TNO; the &quot;Cp Generator&quot;
+and the &quot;Grill Optimiser&quot;.
+<P>
+To place an order for calculations with the &quot;Cp Generator&quot;
+or the &quot;Grill Optimiser&quot;, or to request a special order
+in this field or other information, send enquiries to:
+<P>
+<A HREF="http://www.tno.nl/instit/bouw/home.html" >TNO Building and Construction Research  
+</A>, Department of Indoor Environment, Building Physics and Systems,
+PO Box 49, 2600 AA Delft, The Netherlands
+<P>
+Contact B Knoll or J C Phaff
+<P>
+Tel: +31 15 2608470 or +31 15 2608462 Fax: +31 15 2608432
+<P>
+email: b.knoll@bouw.tno.nl or j.phaff@bouw.tno.nl
+<H2><A NAME="References">References</A></H2>
+
+<OL>
+<LI>Phaff, J.C. Model tests of the wind pressure distribution
+on some common building shapes. Delft (NL), TNO report C403 (in
+Dutch) November 1977.
+<LI>Phaff, J.C. Continuation of model tests of the wind pressure
+distribution on some common building shapes. Delft (NL), TNO report
+C429 (in Dutch), June 1979/
+<LI>Bottema M. Wind Climate and Urban Geometry. TU Eindhoven (NL),
+1993.
+<LI>Walker, I.S. and D.J. Wilson Practical Methods for Improving
+Estimates of Natural Ventilation Rates. <A HREF="reports.html#Conference" >15th AIVC Conference Proceedings  
+</A>, 1994.
+<LI>Wolfseher, U. and K. Gertis. Literature based estimation of
+the local wind distribution on shielded and unshielded surface
+(&quot;Darstellung der lokalen Windverhaltnisse uber unbebauten
+und bebauten Flachen auf Grund vorhandener Literatur&quot;). Gesundheits-Ingenieur
+99, pages 321 - 352 (in German), 1978.
+</OL>
+
+<P>
+This article first appeared in the <A HREF="reports.html#Conference" >16th AIVC Conference Proceedings  
+</A>, September 1995.<HR>
+
+<P>
+<A HREF="elecair.html" >Return to AIR Front Page  </A>
+</BODY>
+
+</HTML>
+</DOC>

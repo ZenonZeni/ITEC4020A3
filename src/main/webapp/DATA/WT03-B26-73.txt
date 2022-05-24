@@ -1,0 +1,78 @@
+
+<DOC>
+<DOCNO>WT03-B26-73</DOCNO>
+<DOCOLDNO>IA029-000311-B021-72</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdf7.htm 138.44.40.1 19970114165329 text/html 3994
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:51:49 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:09 GMT
+Content-length: 3820
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>Image Brightness &amp; BRDF Workshop Issues<BR>
+<HR></H2>
+<H4>3.3 Semi-empirical Methods</H4>
+Semi-empirical models have also been developed which are empirical but are
+based on physical models and often contain parameters that relate to surface
+parameters. They offer the means of using the mosaic approach and 'empirical'
+model fitting but also enable surface parameters to be extracted. The methods
+are called 'semi-empirical' because they generally assume atmospheric correction
+can be done and also often have forms that involve earth surface parameters.
+The main class of these models is that of the 'kernel' models.<BR>
+The following text describing the kernel approach was extracted from the
+MODIS-Land ATBD (Strahler et al., 1995; or at the following web site: <A HREF="http://spso.gsfc.nasa.gov/atbd/modistables.html">http://spso.gsfc.nasa.gov/atbd/modistables.html</A>).<BR>
+<BR>
+<B>3.3.1 Theoretical Description<BR>
+</B><BR>
+Kernel-driven models for the bidirectional reflectance distribution function
+of vegetated land surfaces attempt to describe the BRDF as a linear superposition
+of a set of kernels that describe basic BRDF shapes, with the coefficients
+or weights chosen to adapt the sum of the kernels to the given case. Typically,
+semiempirical kernels are based either on one of several possible approximations
+to a radiative transfer scenario of light scattering in a horizontally homogeneous
+plant canopy (e.g., a crop canopy), or on one of several approximations
+feasible in a geometric-optical model of light scattering from a surface
+covered with vertical projections that cast shadows (e.g., a forest canopy).
+Deriving a kernel of this nature requires simplifying and manipulating a
+model for the BRDF until it reaches the form:<BR>
+<P><CENTER><IMG SRC="symbols/image41.gif" WIDTH="66" HEIGHT="30" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>in which k is a function only of view and illumination geometry, c1 and
+c2 are constants containing physical parameters, and R is the modeled value
+of the true BRDF, <IMG SRC="symbols/rho.gif" WIDTH="14" HEIGHT="14" ALIGN=
+middle NATURALSIZEFLAG="3">.<BR>
+<BR>
+Semiempirical kernels can be of two types. First, they may contain only
+geometric terms, but no physical parameters. The complete model then is
+linear, and may be scaled to arbitrary scales even for mixed scenes; neglecting
+adjacency effects, the weights of the kernels will be linear functions of
+the areal proportions of the subpixel weights. The so-called Ross-kernels,
+which are approximations to the radiative transfer theory in plant canopies
+of Ross (1981) described below, belong to this class, as does the so-called
+Roujean geometric-optical kernel (Roujean et al., 1992). In the second case,
+kernels contain one or very few physical parameters and thus instead of
+having one kernel, provide a family of kernels depending on these parameters.
+The geometric-optical Li-kernels (Wanner et al., 1995) belong to this type.
+In order to reduce them to the form given in (5), the kernel-internal parameters
+are fixed to a selection of a few values each. The following discussion
+presents each of the kernels used in the BRDF/Albedo algorithm. For more
+complete information on the theory and derivation of the kernels, see Wanner
+et al. (1995).<BR>
+<BR>
+<HR><A HREF="brdf1.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="brdf6.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="brdf8.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif"
+WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><HR>
+</BODY>
+</HTML>
+</DOC>

@@ -1,0 +1,144 @@
+
+<DOC>
+<DOCNO>WT03-B26-71</DOCNO>
+<DOCOLDNO>IA029-000311-B021-25</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdf5.htm 138.44.40.1 19970114165248 text/html 7482
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:51:08 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:09 GMT
+Content-length: 7308
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>Image Brightness &amp; BRDF Workshop Issues<BR>
+<HR></H2>
+<H4>3.2 Measurement Model Approach</H4>
+3<A NAME="anchor3868792"></A><B>.2.1 Atmospheric Correction &amp; Reflectance
+Normalisation</B><BR>
+<BR>
+It would clearly be an advantage to model the atmospheric and BRDF effects
+by physical models and estimate the corrected image in terms of a normalised
+reflectance factor. The added value would be the link this gives to physical
+models of the relationship between earth parameters of interest and the
+measured reflectance. Obviously, a reflectance is closer to a material property
+and therefore resolves the problem of monitoring.<BR>
+<BR>
+If reference targets in the image have measured reflectances (ie the invariant
+or pseudo-invariant targets) it is possible to get close to reflectances
+from the empirical approach. However, it will never be clear how much residual
+atmosphere and BDRF effect remains. Obviously, most natural targets chosen
+as 'invariant' will have some BRDF which may not be known and that effect
+will be folded into the final image data.<BR>
+<BR>
+Assuming the data are accurately calibrated to radiances, there are different
+ways to describe the process of correction. One is as follows:<BR>
+<BR>
+An equation relating the recorded radiance sensed at altitude h above the
+target to the target reflectance factor is:<BR>
+<P><CENTER><IMG SRC="symbols/image3.gif" WIDTH="312" HEIGHT="52" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>where: 
+<BLOCKQUOTE><IMG SRC="symbols/image4.gif" WIDTH="72" HEIGHT="15" ALIGN=
+bottom NATURALSIZEFLAG="3">is the radiance observed by the instrument from
+altitude h, with look (or view) direction <IMG SRC="symbols/sym18.gif" 
+WIDTH="13" HEIGHT="9" ALIGN=middle NATURALSIZEFLAG="3">and sun direction
+<IMG SRC="symbols/sym17.gif" WIDTH="13" HEIGHT="9" ALIGN=middle NATURALSIZEFLAG=
+"3">at wavelength <IMG SRC="symbols/lam1.gif" WIDTH="7" HEIGHT="10" ALIGN=
+middle NATURALSIZEFLAG="3">;<BR>
+<BR>
+<IMG SRC="symbols/image5.gif" WIDTH="13" HEIGHT="16" ALIGN=bottom NATURALSIZEFLAG=
+"3">is the effective irradiance at the target, or <BR>
+<P><CENTER><IMG SRC="symbols/image6.gif" WIDTH="80" HEIGHT="31" ALIGN=bottom
+NATURALSIZEFLAG="3"></CENTER>
+</BLOCKQUOTE>
+<BR>
+where: 
+<BLOCKQUOTE><IMG SRC="symbols/image7.gif" WIDTH="31" HEIGHT="13" ALIGN=
+middle NATURALSIZEFLAG="3">is the irradiance at the target for a 'black'
+earth;<BR>
+s is the sky hemispherical albedo; and<BR>
+<IMG SRC="symbols/rho.gif" WIDTH="14" HEIGHT="14" ALIGN=middle NATURALSIZEFLAG=
+"3">* is the background earth albedo.<BR>
+<IMG SRC="symbols/image8.gif" WIDTH="48" HEIGHT="15" ALIGN=middle NATURALSIZEFLAG=
+"3">is the beam transmittance through the layer between the surface and
+altitude h in direction mv;<BR>
+<IMG SRC="symbols/rhot.gif" WIDTH="9" HEIGHT="11" ALIGN=middle NATURALSIZEFLAG=
+"3">is the target directional reflectance factor;<BR>
+<IMG SRC="symbols/image9.gif" WIDTH="20" HEIGHT="15" ALIGN=middle NATURALSIZEFLAG=
+"3">is the environmental reflectance due to the background albedo or:<BR>
+<P><CENTER><IMG SRC="symbols/image10.gif" WIDTH="128" HEIGHT="36" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P><IMG SRC="symbols/image11.gif" WIDTH="52" HEIGHT="15" ALIGN=bottom NATURALSIZEFLAG=
+"3">is the diffuse transmittance for a layer of thickness h and for initial
+beam direction mv.<BR>
+<IMG SRC="symbols/image12.gif" WIDTH="74" HEIGHT="16" ALIGN=middle NATURALSIZEFLAG=
+"3">is the path radiance of light which did not interact with the surface;
+and<BR>
+<IMG SRC="symbols/image13.gif" WIDTH="73" HEIGHT="16" ALIGN=middle NATURALSIZEFLAG=
+"3">is the glint term that is most significantly present over water covered
+targets and is sometimes present over land targets.</BLOCKQUOTE>
+<BR>
+If the atmosphere is characterised then it is possible to retrieve the directional
+reflectance factor (<IMG SRC="symbols/rhot.gif" WIDTH="9" HEIGHT="11" ALIGN=
+middle NATURALSIZEFLAG="3">) for each pixel. This term needs careful definition
+as there are many different types of 'reflectance' used.<BR>
+<BR>
+The directional reflectance factor (<IMG SRC="symbols/rhot.gif" WIDTH="9"
+HEIGHT="11" ALIGN=middle NATURALSIZEFLAG="3">) as used here is defined as:<BR>
+<P><CENTER><IMG SRC="symbols/image14.gif" WIDTH="152" HEIGHT="31" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>in which the irradiance (<IMG SRC="symbols/image15.gif" WIDTH="13" HEIGHT=
+"16" ALIGN=middle NATURALSIZEFLAG="3">) is the sum of diffuse and direct
+terms and the fraction of diffuse (fd) is included as a parameter. The assumption
+that the irradiance can be characterised in this context by the sun position
+and the fraction of diffuse radiation is one that needs evaluation. The
+value of using this form of reflectance is that it corresponds to what is
+measured in the field using an irradiance radiometer or a reference standard.<BR>
+<BR>
+The physical approach depends on two steps. The first is to determine this
+reflectance factor for a surface by atmospheric correction. In atmospheric
+correction, the atmospheric terms are modelled and measured from image and
+ancillary data. The reflectance factor in an image may be obtained iteratively
+if the atmospheric turbidity makes the adjacency and other atmosphere/surface
+interactions significant. The second step is to normalise the reflectance
+factor in some way to account for its BRDF variation.<BR>
+<BR>
+In order to go from the reflectance factor to such a corrected value, however,
+we effectively need to assume that:<BR>
+<P><CENTER><IMG SRC="symbols/image16.gif" WIDTH="188" HEIGHT="17" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>where <IMG SRC="symbols/image17.gif" WIDTH="69" HEIGHT="15" ALIGN=middle
+NATURALSIZEFLAG="3">is the angular variation function that is assumed to
+characterise the land surface type and be normalised to 1.0 at a reference
+pair of sun and view angles and standard atmosphere. Then 'corrected' data
+are reachable as:<BR>
+<P><CENTER><IMG SRC="symbols/image18.gif" WIDTH="120" HEIGHT="31" ALIGN=
+bottom NATURALSIZEFLAG="3"></CENTER>
+<P>The value of getting to this point is that both <IMG SRC="symbols/image19.gif"
+WIDTH="30" HEIGHT="17" ALIGN=middle NATURALSIZEFLAG="3">and <IMG SRC="symbols/image20.gif"
+WIDTH="69" HEIGHT="15" ALIGN=middle NATURALSIZEFLAG="3">can be interfaced
+with radiative transfer models to obtain parameters for the earth's surface
+by inversion. The inversion may be simple (such as end member methods) or
+sophisticated (such as complete nonlinear modelling).<BR>
+<BR>
+This physical approach is obviously highly sophisticated but demands a level
+of data quality and time in value adding that sometimes cannot economically
+be committed. However, if the end products are of high information value
+and valued by the client it is clearly an approach that could be pursued.<BR>
+<BR>
+<HR><A HREF="brdf1.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="brdf4.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="brdf6.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif"
+WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><HR>
+</BODY>
+</HTML>
+</DOC>

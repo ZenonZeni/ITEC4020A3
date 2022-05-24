@@ -1,0 +1,36 @@
+
+<DOC>
+<DOCNO>WT01-B04-57</DOCNO>
+<DOCOLDNO>IA080-000557-B035-173</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Smldst.html 137.79.14.197 19970103071619 text/html 6669
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f374.337@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:21:24 GMT
+Last-Modified: Tuesday, 28-Nov-95 00:49:06 GMT
+Content-type: text/html
+Content-length: 6424
+</DOCHDR>
+<H3>Small Deep Space Transponder</h3><p>
+<H5>Point of Contact:  Steve Townes</h5><p>
+<img src="Townes.GIF">
+The object is to develop a miniature X-band deep space transponder, building upon the technology base established by the Pluto Fast Flyby Advanced Technology Insertion Activity. This involves two major technology developments, one being a digital X-band receiver using advanced GaAs Monolithic Microwave Integrated Circuit (MMIC) technology, and the other involves development of miniature high-frequency high-density electronic packaging technology. The combination of these two technology advances will enable a new miniature transponder with unsurpassed performance:<p>
+<UL>
+<LI>Narrow bandwidth Phase Lock Loop (<20Hz) with a carrier tracking threshold  of -158 dBm.
+<LI>Wide dynamic range (>70 dB)
+<LI>Command Detector functionality (for multi-user compatibility)
+<LI>Total mass <2.5 kg.
+</ul>
+In the past, deep space telecommunication systems for spacecraft have been developed individually to fit the requirements of each spacecraft project. Since past spacecraft tended to be heavy, expensive, and power hungry, telecommunication systems based on past spacecraft designs are inappropriate for use on new miniaturized spacecraft. For Mars Landers launched from Med-Lite launch vehicles, mass, power and volume are precious commodities, and it is crucial that a truly miniaturized, high efficiency telecommunication system be developed for this kind of application. The Mars Exploration Office has defined such a development as their #1 technology need.<p>
+
+Over the past couple of years, the Pluto Fast Flyby Advanced Technology Insertion (ATI) effort initiated the development of an advanced miniature X-Band digital receiver which is a major portion of a miniature telecommunication transponder. TRW won a competitive contract to develop this critical technology. However, they could not complete the work within the allocated funding and the effort was left unfinished. Nevertheless, the Pluto ATI effort successfully demonstrated the RF front-end functionality using advanced GaAs Monolithic Microwave Integrated Circuit (MMIC) technology. Also it was shown that the mass goal of less than one kilogram was indeed a feasible target. But the digital architecture was not completed nor was the integration of the miniature front-end with  advanced high-frequency multichip module (MCM) packaging. In our work, we will support advances in digital receiver and high frequency high density packaging technology to a prototype readiness level which will allow the Mars Exploration Office  to decide whether or not  to proceed with procurement of flight hardware.<p>
+One part of the proposed program is completion of the digital architecture and integration of the miniature front-end with advanced high-frequency multichip module (MCM) packaging. The goal of this effort is to develop a state-of-the-art digital X-Band receiver technology which employs advanced GaAs MMIC and high-frequency packaging to achieve unsurpassed performance.<p>
+
+The second part of the program involves the use of high density packaging technology to achieve miniaturization of the transponder. Although considerable effort and funds have been invested in high density packaging, very little of these resources are being invested in high frequency (> 200 MHz) applications and these packaging techniques are usually not suitable for use at high frequencies.  Consequently, NASA must lead and stimulate the development of miniature high-frequency high-density packaging technology.   Microelectronic packaging provides four basic functions: (1) Power Distribution, (2) Heat Dissipation, (3) Signal Distribution, and (4) Environmental Protection. High density electronic packaging implies incorporation of multiple integrated circuits, as bare die and passive components on a common interconnecting substrate. This format is commonly referred to as a multichip module (MCM).  Significant improvements in circuit density are attainable (10-30X), as compared with printed circuit board technology. For high density, high frequency (defined to be the microwave and millimeter wave range, covering 1 GHz to 100 GHz) packages) the performance requirements are much more stringent than for low frequency packaging for digital technology. Signal distribution becomes a major challenge as the frequency and packaging densities increase. Stray (RF) radiation in the form of cross-talk and package moding become limiting factors which must be addressed in order to preserve performance.  The interconnecting networks into and out of the package must have low loss characteristics and be matched to the impedances of the adjacent networks.  3D high density formats which use multi-layer materials systems and embedded components further complicate signal propagation characteristics and thermal management issues. Thermal management of Monolithic Microwave Integrated Circuits (MMICs) used for high frequency applications is a significant development issue in high density package design and can severely affect package reliability and performance. This task will include the development and demonstration of new cooling techniques which are critical for this application and while addressed mainly to high frequency applications, will be of benefit to all high density electronic packaging. The passive cooling approach will involve utilizing a very high thermal conductivity substrate to reduce the temperature of high power devices and the circuit in general by rapidly spreading and conducting the heat away. Methods for bonding the substrate to the devices will have to be developed. The performance and temperatures of various parts of the circuit will be compared to those obtained with a conventional substrate (such as alumina or Kovar).<p>
+A single milestone occurs  on 10/1/95 when it is expected that the RF MCM will be demonstrated. This may or may not include the final form of the MCM including thermal control but the analysis for the final form will be done. The digital receiver will be demonstrated to the extent it can be depending on which contractor is selected. However, the technologies will be demonstrated at a readiness level which will allow the Mars Exploration Office to decide whether or not to include this innovative transponder in its plans for the 98 Lander mission.<p>
+
+<A HREF="Mars.html">Return to menu</a>
+
+</DOC>

@@ -1,0 +1,110 @@
+
+<DOC>
+<DOCNO>WT03-B26-195</DOCNO>
+<DOCOLDNO>IA055-000922-B005-159</DOCOLDNO>
+<DOCHDR>
+http://www.vital-info.com:80/gsr-ordf.htm 204.69.248.245 19970208010200 text/html 2949
+HTTP/1.0 200 OK
+Date: Sat, 08 Feb 1997 01:13:16 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 2778
+Last-modified: Sat, 15 Jun 1996 18:51:03 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Vital Information - Growth Stocks Report Application</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFE0" TEXT="#000000">
+
+<CENTER>
+<H1>Growth Stocks Report</H1>
+<H3>Subscription Application</H3>
+</CENTER>
+
+<CENTER>
+<B><FONT SIZE=4 COLOR=#FF0000>50% OFF<I> Special</I>Savings Certificate</FONT></B>
+</CENTER>
+<P>
+<B><FONT SIZE=4 COLOR=#FF0000> YES!</FONT></B>
+Sign me up so I can start doubling my money every 2-3 years.<P>
+
+<FORM METHOD="POST" ACTION="/cgibin/gsr-ordf.cgi">
+
+<TABLE BORDER=1>
+<TR>
+  <TD>Name:</TD>
+  <TD><input type="text" name="name" size=30> First, Last</TD>
+</TR>
+<TR>
+  <TD>Address:</TD>
+  <TD><input type="text" name="addr1" size=30> Street <BR>
+      <input type="text" name="addr2" size=30> <BR>
+      <input type="text" name="city" size=30> City <BR>
+      <input type="text" name="state" size=3> ST
+      <input type="text" name="zip" size=6> Zip
+  </TD>
+</TR>
+<TR>
+  <TD>Phone:</TD>
+  <TD><input type="text" name="phone" size=30> Daytime Number<BR>
+      <input type="text" name="fax" size=30> Fax
+  </TD>
+</TR>
+<TR>
+  <TD>Email:<BR><B>(required)</B></TD>
+  <TD><INPUT TYPE="TEXT" NAME="email" size=30>Internet Email<BR>
+  </TD>
+</TR>
+<TR>
+  <TD>Credit Card:</TD>
+  <TD><SELECT NAME="card">
+      <OPTION SELECTED> Visa
+      <OPTION> Mastercharge
+      <OPTION> American Express
+      <OPTION> Check
+      </SELECT>
+      <BR>
+      <input type="text" name="cardnum" size=30> Number <BR>
+      <input type="text" name="cardexp" size=30> Expires (mm/yy) <P>
+      You may also call in your Credit Card number (1-800-237-8400 Ext 115)<BR>
+      If paying by check, please make checks payable to Vital Information.
+  </TD>
+</TR>
+<TR>
+  <TD>Delivery Option:<BR>(check one)</TD>
+  <TD><INPUT TYPE="radio" NAME="delivery" VALUE="fax"> Fax<BR>
+      <INPUT TYPE="radio" NAME="delivery" VALUE="internet"> Internet<BR>
+      <INPUT TYPE="radio" NAME="delivery" VALUE="usmail" CHECKED> First Class Mail
+  </TD>
+</TR>
+<TR><TD>Subscription Option:<BR>(pick one)</TD>
+    <TD>
+    <TABLE BORDER=0>
+      <TR>
+        <TD><INPUT TYPE="radio" NAME="subscribe" VALUE="trial"></TD>
+        <TD>3 month trial for $49. (Please note, there are no refunds and no bonuses with the trial offer)
+        </TD>
+      </TR>
+      <TR>
+        <TD><INPUT TYPE="radio" NAME="subscribe" VALUE="1yr"></TD>
+        <TD>1 year at $199 (regularly $399) plus 4 parts of 7 part
+            Investors Wealth Kit
+        </TD>
+      </TR>
+      <TR>
+        <TD><INPUT TYPE="radio" NAME="subscribe" VALUE="2yr" CHECKED></TD>
+        <TD>2 years at $349 (regularly $699) plus 7 part Investors Wealth Kit
+        </TD>
+      </TR>
+    </TABLE>
+  </TD>
+</TR>
+</TABLE>
+<P>
+<INPUT TYPE="submit" VALUE="Send Order">
+<INPUT TYPE="reset" VALUE="Clear the form">
+</FORM>
+</BODY>
+</HTML>
+</DOC>

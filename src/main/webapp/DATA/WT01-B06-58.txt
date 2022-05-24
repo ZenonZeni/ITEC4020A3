@@ -1,0 +1,121 @@
+
+<DOC>
+<DOCNO>WT01-B06-58</DOCNO>
+<DOCOLDNO>IA053-000894-B002-76</DOCOLDNO>
+<DOCHDR>
+http://www.aaii.org:80/ci/brain.html 206.30.246.237 19970111222718 text/html 14186
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Saturday, 11-Jan-97 22:30:15 GMT
+Last-modified: Wednesday, 12-Jun-96 01:16:27 GMT
+Content-length: 13997
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>American Association of Individual Investors</title>
+
+<META HTTP-EQUIV="CVS-file"     CONTENT="$RCSfile: brain.html,v $">
+<META HTTP-EQUIV="CVS-revision" CONTENT="$Revision: 1.7 $">
+<META HTTP-EQUIV="CVS-date"     CONTENT="$Date: 1996/06/12 01:16:26 $ UTC">
+</head>
+
+<body background="../gif/aaiiback.gif">
+
+
+
+<P ALIGN="center">
+<A HREF="../map/head.map"><IMG SRC="../gif/head_comp.gif" ALT="header" WIDTH=600 HEIGHT=64 BORDER=0 ISMAP></A>
+<BR>
+<H2 ALIGN="center"> @BRAIN <BR>
+Talon Development Corporation </H2>
+<hr>
+
+<STRONG>Reviewed by Lyle Johnson</STRONG><P>
+
+@BRAIN is a neural network development system for creating neural networks in the DOS release of Lotus 1-2-3 for both version 2.X and 3.X. It functions as an add-in to create, manage and run neural networks directly from worksheet cells. An add-in is a program that works with Lotus 1-2-3 to provide additional spreadsheet capabilities that are not included in the regular program. It works seamlessly and naturally with Lotus 1-2-3, and is powerful, fast, and easy to use for anyone who is comfortable with spreadsheets. <P>
+
+Neural networks have received a lot of publicity recently with all the talk about being mathematical models that emulate the way a brain works. A more meaningful way to think of a neural network is as a statistical method of modeling non-linear relationships. A neural network is a complex form of regression that has the potential to provide an effective approach to a broad spectrum of applications. <P>
+
+Neural networks are especially effective at modeling solutions to problems involving patterns, including situations where it is known that certain inputs are related to outputs, but it is difficult to predict the output with any certainty based on the input that is, the relationships are noisy or fuzzy. These fuzzy relationships may be recognizable visually but difficult to define mathematically. Many investors believe that stock prices and stock market indicators exhibit these properties. <P>
+
+A neural net consists of three parts: the inputs, the outputs, and a parallel processing structure that has a number of processors (neurons) with many interconnections. The power of the neural net lies in the tremendous number of interconnections between neurons. <P>
+
+Neural nets are not programmed in the traditional sense; they learn by example. When you build a neural network, you start with a blank sheet of paper. The neural network trains itself on the data that you provide, making literally millions of calculations. It creates the model by finding the statistical relationship between the input (independent) variables that you have defined and the output (dependent) variable or variables. The model is then tested against additional data to confirm that it has produced a generalized relationship and has not just fitted a curve to the training data. When a model has been developed that performs well on the testing data, that model can be used to predict future outcomes using live data. A word of caution: Don't think that you can throw a lot of random data at a neural net and expect to get usable results. The job of the neural network is to find the pattern or model that exists in the data. If no pattern exists, none will be found. The model produced can only be as good as the data. The model formulation should be just as carefully composed with neural nets as with any other analysis tool. <P>
+
+@BRAIN is by far the quickest and easiest to use of the three neural network products I have investigated, the other two being Brainmaker and Neuralyst for Excel. Talon Development has made it relatively easy to implement  neural network models. First, they have incorporated the most widely used spreadsheet, Lotus 1-2-3, as a platform, making it possible to carry out all the steps involved in building the model and analyzing the results directly in Lotus 1-2-3. Second, they have incorporated several advanced features into @BRAIN, such as testing while training, having multiple networks in a single Lotus 1-2-3 worksheet, and accessing trained networks that were created in a different worksheet. To highlight the significance of these features, we will look at the process that is used to develop a neural network model using @BRAIN by constructing a simple model to forecast the S&P 500. <P>
+
+The first step in modeling any relationship is selecting the input and output variables. I've chosen to predict the weekly change in the S&P 500 as our output variable. To keep things simple, our input variables are the weekly changes in the S&P 500 for each of the previous 13 weeks. I start by creating a worksheet containing a column of the weekly closing values for the S&P 500 for the period January 3, 1986, through March 5, 1993. <P>
+
+Statistical data, such as that we're using to forecast the S&P 500, usually has to be modified or preprocessed. Neural networks, when forecasting time series of data such as the S&P 500, prefer data expressed in differences or percents of change, rather than actual values. Some investors incorporate moving averages and other technical indicators as part of the input data set. I have chosen to express our data as weekly percent change. Our independent variables are the weekly percent change for each of the previous 13 weeks. @BRAIN is going to forecast the following week's percent change. Our database thus consists of 375 data points (rows) for the weeks ending January 3, 1986 through March 5, 1993. Each row contains 15 columns: the 13 percent changes representing the input variables, the latest percent change, which represents the output variable, and a blank column for @BRAIN's forecast. Spreadsheets are ideal for preprocessing data and are frequently employed by users of stand-alone neural network products to preprocess data. Since we are working within Lotus 1-2-3, we don't have to transfer the preprocessed data to another program and can, if we like, easily experiment with different methods of preprocessing to find the one that best fits our needs. <P>
+
+A simple diagram of our neural network model is shown in Figure 1. <P>
+
+Figure 1<BR>
+Simplified Diagram<BR>
+of S&P 500 Forecasting Model<P>
+
+Inputs -<BR>
+Thirteen consecutive weekly percent changes in the S&P 500<P>
+
+Solution  Model -<BR>
+One or more layers of interconnected processing nodes (neurons) <P>
+
+Output -<BR>
+Next week's percent change in the S&P 500<P>
+
+
+The next step is to define our training, testing, and model evaluation databases. The accepted procedure is to withhold the most recent data points for evaluating the forecasting capabilities of our model and use a 10% to 20% random sample of the remaining data for testing. With @BRAIN, we are able to have just one database for all of our data. We will reserve the last 25 weeks (September 18, 1992, to March 5, 1993) for evaluating our model this is the live data we will use to determine how well it forecasts the weekly change in the S&P 500. Each column of our database represents a variable and has a variable name at the top of the column. Each row represents a single data point, containing one set of input data and the output data point or points that our network will be trained to predict. We will use Lotus 1-2-3's random number function to help us select which rows of data will be used for training and which will be used for testing. An additional column is created in our database and filled with random numbers between 0 and 1. Thus, each data point (spreadsheet row) now contains a random number generated by Lotus 1-2-3. I withhold 10% of our data for testing and use Lotus 1-2-3 commands to tell @BRAIN to use those data points that contain a random number less than or equal to 0.10 for testing; the remaining 90% of the data points will be used for training. I also create a definition range that tells @BRAIN which variables (columns) are input variables and which are output variables. <P>
+
+The next step is to structure the neural network, which means giving our neurons the parameters that are needed for them to function. For most neural network products there are four such parameters, two network configuration parameters and two parameters used to tune the network during training. These parameters function just like additional input variables in that their values affect how well the network performs. @BRAIN has simplified two of these and eliminated the other two. The two network configuration parameters specify the number of layers of processors used to construct the solution model and the number of processors (neurons) in each layer. The minimum configuration is one layer and one processor in that layer. The appropriate number of layers seems to be a function of both the problem being solved and the particular neural net software being used. However, it is seldom necessary to use more than two layers. There seems to be more variation in selecting the number of processors in each layer. Neural net practitioners have developed various rules of thumb for arriving at a good set of network configuration parameters, which is simplified by @BRAIN. @BRAIN will analyze your data and recommend what it judges to be an appropriate network configuration. You can, if you prefer, override this suggested configuration and select one yourself. Most neural network products require that the user specify the learning rate and the momentum. These two tuning parameters regulate the flow of information through the layers of the network. While rules of thumb have been developed for these also, arriving at an optimal solution usually requires tinkering with one or both of them. However, @BRAIN has no network tuning parameters; it tunes the network automatically. <P>
+
+The bane of most neural network developers is an overtrained network. An overtrained network is one that gives excellent results on the training data, but which does not perform well on the test data. The model developed doesn't have the capability to generalize or forecast and is thus worthless. This frequently happens when the stop-training error tolerance is set too tight and when the data set contains noisy or fuzzy data such as stock prices and market indexes. @BRAIN has a built-in safeguard called best-test to prevent this potentially disastrous result. The best-test criteria will stop training when the test data has minimum error. This effectively eliminates overtraining. Therefore, I specify the use of best-test in our model. <P>
+
+Now that we have a trained network what do we do with it? If we were using a stand-alone product, we would probably import our results into a spreadsheet, convert our forecast of percent differences back into S&P 500 values, calculate some statistics, and graph the results. Since we're already in Lotus 1-2-3, we can eliminate step one and proceed with the post-processing and analysis of our results. <P>
+
+How good was our simple model? Let's look at some results. I made several runs, varying the random number pattern each time to see which set of training/testing inputs would produce the model with the best forecast accuracy. Our final model correctly predicted the direction of the next week's change in the S&P 500 18 times for the 25 weeks of evaluation data. Considering the simplicity of the model, these are good results. I've included a graph comparing predicted results with actual results for the evaluation period (see Figure 3). <P>
+
+@BRAIN has filtered out the noise in the input data and identified the underlying pattern inherent in the data. This is graphically illustrated by the frequency distribution of the actual and @BRAIN forecasted weekly percent differences (see figure 2). Notice the tighter distribution of forecasted values. The average actual weekly percent difference is 0.23%; the forecast is 0.21%, close to the actual. However, let's look at the standard deviations of the actual and @BRAIN forecast. Standard deviation measures the amount of the dispersion of a data set around its average value. The standard deviation of the actual is 2.16%, but the standard deviation of the forecast is only 0.51%.<P>
+
+By now you may have guessed that I like this product. Product support is strong; the individual who developed the product is among those available for consultation. I did my evaluation using version 2.4 of Lotus 1-2-3. A Microsoft Excel version is in the works. <P>
+
+@BRAIN is used in a number of areas, including manufacturing, medical research, scientific analysis, academic research and investing. Customers include companies, traders, professional investors, money managers, universities, and individuals. <P>
+
+If you are interested in using neural nets, are a current user who is not totally satisfied with your current product, or are interested in getting more speed, ease of use, and advanced features, you should consider @BRAIN. The product has a 30-day money back guarantee. <P>
+
+Lyle Johnson is a long-time AAII member who has contributed several reviews to Computerized Investing. <P>
+
+@BRAIN<P>
+
+<PRE>Rating:  Performance   X X X X X<BR>
+         Usefulness    X X X X X<BR>
+         Documentation X X X - -<BR>
+         Ease of Use   X X X X -<BR>
+         Value         X X X X -<P></PRE>
+
+Price:   $495.00 (20% AAII discount through July 31, 1993) <P>
+Systems: Required: IBM PC/XT or AT or compatible; Lotus 1-2-3 2.X or 3.X; <BR>
+         640K RAM after Lotus 1-2-3 loads; hard drive with at least 1M free space<BR>
+         Recommended: math coprocessor; expanded memory and memory manager <BR>
+         (Lotus 1-2-3 2.X); extended memory (Lotus 1-2-3 3.X) <P>
+Contact: Talon Development Corporation<BR>
+         P. O. Box 11069<BR>
+         Milwaukee, WI 53211-0069<BR>
+         (414) 962-7246<P>
+
+<HR>
+
+<p align=center><A HREF="../home.html">AAII Home</A> |
+<A HREF="../index.html">Index Page</A> | <A HREF="mailto:aaiimembr@aol.com">Email</a> |
+<A HREF="http://networth.galt.com">NETworth Home</A></p><hr>
+<!TAIL>
+
+
+
+<!/TAIL>
+
+
+
+</body>
+</html>
+</DOC>

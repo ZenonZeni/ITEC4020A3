@@ -1,0 +1,65 @@
+
+<DOC>
+<DOCNO>WT01-B04-54</DOCNO>
+<DOCOLDNO>IA080-000557-B035-116</DOCOLDNO>
+<DOCHDR>
+http://lmooradian.jpl.nasa.gov:80/Lowthide.html 137.79.14.197 19970103071533 text/html 7929
+HTTP/1.0 200 OK
+MIME-Version: 1.0
+Server: MacHTTP/2.2
+Message-ID: <aef1f345.334@lmooradian.jpl.nasa.gov.>
+Date: Friday, 03-Jan-97 07:20:37 GMT
+Last-Modified: Tuesday, 28-Nov-95 00:46:46 GMT
+Content-type: text/html
+Content-length: 7684
+</DOCHDR>
+<TITLE>Lo Temp, Hi Dens Elec</title>
+<H3>Low Temperature, High Density Electronics</h3><p>
+<H5>Point of Contact:  Nicholas  Moore</h5><p>
+<img src="nchip.gif"><p>
+The objective of this work is to assure that the new breakthroughs in high density electronic packaging now becoming available, which were designed for warm applications, can survive the Martian night in a state-of-the-art thermal enclosure.  The approach to survivable electronics will be to develop models for the physical processes that cause failure under thermal cycling, and to verify these through test.  This will allow us to assess the survivability of present designs under various thermal stresses, as well as to propose alternative designs for high density flight electronics that avoid these failure modes.<p>
+
+This task will produce specific designs, including materials, for high density electronics that will survive on Mars or in other extreme temperature environments. Existing design/material combinations for high density electronics are being evaluated using a probabilistic physics of failure methodology to provide a point of departure from which to define new configurations that will survive in extreme temperature environments. An integral part of this effort is pioneering work in the characterization and modeling of failure mechanisms of high density electronics hardware.<p>
+
+Miniaturized flight electronics are needed which can operate on the surface of Mars. Multi-Chip Modules (MCMs) are under development for warm electronics which will offer significant reductions in size and weight. There are two questions: (1) Will these electronic packages survive and function on the surface of Mars, and if not, (2) how can their design be modified to make them survivable.<p>
+
+Conventional approaches to evaluating and controlling failure risk of electronic components are not effective for critical failure modes of Multi-Chip Modules (MCMs). It is not possible, by testing alone, to verify acceptable low failure risk for critical damage-accumulation failure modes that are indigenous to MCMs. However, failure risk due to damage-accumulation failure modes can be effectively evaluated and controlled using a Probabilistic Physics of Failure (P2oF) approach that incorporates both testing and analytical modeling based on fundamental analyses of the physics and mechanics of failure mechanisms.<p>
+
+In P2oF, probabilistic models based on the physics of failure phenomena provide a framework for incorporating information from materials and component testing, inspection (NDE/NDI), and environmental characterization, even when such information is vague, approximate, sparse, or uncertain.<p>
+
+MCM-D technology appears to be the most promising high density packaging technology for space applications, and it is being developed by a number of manufacturers, primarily for warm electronics applications. This technology takes several forms, such as metal/polymer based packages, and n-Chip (Al/SiO2 layered substrate). This will provide the starting point for our work.<p> 
+
+MCM-D multi-chip module packaging technology will be evaluated to determine probabilities of failure when subjected to thermal cycling characteristic of the Mars surface, and specific failure modes and associated design aspects will be identified. The probabilities of failure will be determined as a function of the thermal variations to which the electronics are subjected. <p>
+
+In the unlikely event that it will be found that the electronics (designed for warm environments) will function adequately in the Mars environment, nothing further need be done. In the more likely event that the probability of failure is too high to be acceptable, we will do two things:<p>
+
+(i) Specify the maximum allowable range of thermal variation (as achieved by advanced thermal control) to meet adequate standards of reliability.<p>
+
+(ii) Specify specific design changes in the multi-chip module packaging technology which will eliminate or significantly reduce the probability of major failure modes, thus significantly improving reliability in a Mars-like environment.<p>
+
+<H4>FY 95 Achievements</h4><p> 
+The major achievements of the task, "Low Temperature Survivability of High Density Electronics," during FY'95 were 1) the development of a general method for evaluating life of high density electronics packaging (HDEP) subjected to severe thermal cycling and 2) the application of that methodology to characterize stress and evaluate fatigue life of aluminum/silicon dioxide HDEP structures.  This thin film fatigue life evaluation method includes stress characterization by means of finite element modeling which incorporates x-ray rocking curve stress measurements.  In this method, a fatigue life simulation is carried out using a probabilistic fracture mechanics model which can consider average temperature, thermal cycle amplitude, geometry, material fracture mechanics properties, initial flaw size, and uncertainties about values of governing parameters and accuracy of stress and flaw growth models.  The probabilistic approach enables sensitivity analyses to be performed to identify the most important service life and failure risk drivers, so that development work can be focused more effectively to achieve life goals.<p>
+The initial results of stress characterization and fatigue life simulation for the aluminum/silicon dioxide HDEP structure indicate that high residual stresses in the aluminum interconnect lines coupled with stress cycling due to thermal cycles drive the propagation of small initial flaws that result from void formation during stress relaxation and from manufacturing defects.  Design or manufacturing process changes that may improve thermal cycling fatigue life will be investigated in the ongoing work.
+<H4>FY96 Milestones</h4><p> 
+In FY'96, other materials and designs will be evaluated for use in extreme thermal environments.  This work will be focused on the investigation of the thermal cycling fatigue life of HDEP structures using copper/polymer substrate technology.  The evaluation of copper/polymer substrate technology will be conducted in a collaborative effort among Caltech/JPL, General Electric, Lockheed Martin, and Auburn University.
+<H4>FY97 Milestones</h4><p>
+<UL>
+<LI>Develop probabilistic life prediction model for metal/polymer substrates based on the physics of low temperature failure mechanisms and processes characterized in FY96.   
+<LI>Validate the metal/polymer physics-of-failure models in collaboration with industry.   
+<LI>Formulate analysis procedure for evaluating life and failure risk of electronic systems containing multiple high density electronic modules, based on P2oF model output.
+</ul>
+<H4>FY98 Milestones</h4><p>
+<UL>
+<LI>Specify the thermal cycling limits that are required for  present metal/polymer based MCM-D designs to survive on  Mars.   
+<LI>Define design sensitivities of metal/polymer based MCM-D  substrates using the P2oF model that includes substrate characterizations.   
+<LI>Based on sensitivity analysis results, develop a recommended  metal/polymer substrate design(s) for survival on Mars.
+</ul>
+<H4>FY99 Milestones</h4><p>
+<UL>
+<LI>Evaluate alternative MCM-D technologies to identify those best suited for low-temperature survival.   
+<LI>Assess life and failure risk of electronic systems consisting of multiple MCM-D units, based on aggregation of P2oF model results.   
+<LI>Transfer to industry the technology and tools for design evaluation and life prediction of high density electronic packaging technology, including probabilistic physics-of-failure models.  
+</ul>
+<A HREF="Mars.html">Return to menu</a><p>
+<p>
+</DOC>

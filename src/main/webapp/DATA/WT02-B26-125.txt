@@ -1,0 +1,85 @@
+
+<DOC>
+<DOCNO>WT02-B26-125</DOCNO>
+<DOCOLDNO>IA074-000481-B029-298</DOCOLDNO>
+<DOCHDR>
+http://ads.barrons.com:80/CIRCULATION/PAGES/subscribe.html 143.131.194.10 19970125041028 text/html 2755
+HTTP/1.0 200 OK
+Server: Netscape-Communications/1.1
+Date: Saturday, 25-Jan-97 04:14:42 GMT
+Last-modified: Wednesday, 11-Dec-96 16:41:45 GMT
+Content-length: 2562
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD><TITLE>Subscription</TITLE></HEAD>
+<BODY bgcolor="330066" text="ffffff" link="ffffff" vlink="ffffff"> 
+
+<img src="../IMAGES/header.gif"><br><br><br>
+
+<table width=550 cellpadding=5 border=0>
+<tr>
+<td width=174 valign=top align=right></td>
+<td 376 valign=top><H3>Free four-week trial subscription</H3></td>
+</tr>
+<tr>
+<td width=174 valign=top align=right><font size=2>
+<a href="frontplate.html"> 
+<img src="../IMAGES/back.gif" border=0></a>
+<br><br>
+<a href="../../index.html"> 
+<img src="../IMAGES/home.gif" border=0></a>
+</font>
+</td>
+<td 376 valign=top align=left>
+<FORM METHOD=GET ACTION="subscribe.cgi">
+
+
+<INPUT NAME="recipient" VALUE="barrons.neworder@cor.dowjones.com" TYPE="hidden">
+<INPUT NAME="magazine" VALUE="Barrons" TYPE="hidden">
+
+Every week Barron's delivers vital statistics, in-depth analysis,
+investigative reporting, company profiles and everything else you need to
+keep tabs on the investment world.<p>
+
+Now you can get a FREE four-week trial subscription to Barron's by filling
+out the form below.
+<BR><BR>
+<INPUT TYPE="checkbox" name="FreeFour" VALUE="Yes">
+Please send me a FREE four-week trial subscription.
+
+<BR><BR>
+If you decide Barron's is not for you, just write "cancel" on your invoice and send it back.  Otherwise, you will receive 13 additional weeks -- making 17 weeks in all -- for only $37.  That's the regular price of a 13-week subscription, so your first four weeks cost you nothing.<BR>
+<p>
+<font size=2>This offer is valid for new subscribers only for a limited
+time and only in the continental United States.  Sales tax may apply.
+<p>
+<p>
+
+
+First Name/Last Name:<BR><INPUT TYPE="TEXT" NAME="FirstName" SIZE="19">
+<INPUT TYPE="TEXT" NAME="LastName" SIZE="19"><BR>
+Company Name (optional):<BR><INPUT TYPE="text" NAME="Company" SIZE="40"><BR>
+Delivery Address:<BR><INPUT TYPE="text" NAME="DelivAddress" 
+SIZE="40"><BR>
+Apartment or Suite:<BR><INPUT TYPE="text" NAME="AptSuite" SIZE="40"><BR>
+City/State/Zip:<BR>
+<INPUT TYPE="text" NAME="City" SIZE="25">
+<INPUT TYPE="text" NAME="State" SIZE="2">
+<INPUT TYPE="text" NAME="Zip" SIZE="9"><BR>
+Area Code and Phone #:<BR><INPUT TYPE="text" NAME="AreaCode"
+SIZE="4">
+<INPUT TYPE="text" NAME="Phone" SIZE="10"><BR>
+E-Mail:<BR><INPUT TYPE="TEXT" NAME="Email" SIZE="14"><BR><BR><BR>
+
+<INPUT TYPE="submit" VALUE="Submit Entry"><br><BR><BR><BR>
+
+For rates and information outside the Continental United States, send inquiries to: <A HREF ="mailto:barrons.service@cor.dowjones.com">barrons.service@cor.dowjones.com</A></font><BR>
+
+</td>
+</tr>
+</TABLE>
+
+</BODY> 
+</HTML> 
+</DOC>

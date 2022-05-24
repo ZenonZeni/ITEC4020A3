@@ -1,0 +1,179 @@
+
+<DOC>
+<DOCNO>WT03-B15-14</DOCNO>
+<DOCOLDNO>IA060-000337-B002-276</DOCOLDNO>
+<DOCHDR>
+http://www.atemi.com:80/connect.html 206.148.208.105 19970115073339 text/html 7128
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 07:32:13 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Set-Cookie: Apache=widener18979853313533897; path=/
+Content-length: 6904
+Last-modified: Thu, 02 Jan 1997 23:38:45 GMT
+</DOCHDR>
+<!doctype html public "-//W30//DTD W3 HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE> AtemiConnect(TM): LAN Across the Internet </TITLE>
+</HEAD><BODY BGCOLOR="#ffffff" TEXT="#000000"><H1><CENTER>AtemiConnect<SUP>(TM)</SUP>:
+LAN Across the Internet
+</CENTER>
+</H1><P><HR WIDTH=90%
+SIZE=4>
+<P>
+<H2>Page Contents:
+</H2><UL><LI><A href="#whatis">What is
+AtemiConnect?</A>
+<LI><A HREF="#business">How can I use AtemiConnect?</A>
+<LI><A HREF="#ARA">How is AtemiConnect different from Apple
+Remote Access?</A>
+<LI><A href="#intersec">Aren't there serious security concerns
+associated with Internet networking?</A>
+<LI><A href="#integrate">Can
+AtemiConnect's technology be integrated into other applications?</A>
+</UL><P><HR WIDTH=90%
+SIZE=4>
+
+<A name="whatis"></A>
+<H2><A name="whatis">What is AtemiConnect?</A>
+</H2><P><A name="whatis">AtemiConnect is a utility that
+lets you establish an AppleTalk network connection over the Internet.  This
+product lets you connect your Macintosh to a remote AppleTalk LAN via the
+Internet, giving you access to all the data, programs and services on that
+LAN.
+When used with NetShade(TM), Atemi's network security utility, AtemiConnect
+sets
+up a <B>secure virtual network</B> across the Internet.  File sharing, remote
+backups, groupware, LAN-based e-mail, printing, etc. -- anything that you
+can do
+over your AppleTalk LAN can now be done over the Internet as well.  (The
+client
+and server must both be running the AtemiConnect software before the link
+can be
+established, and the remote LAN's AppleShare security settings will apply
+to the
+link.)</A>
+<P><A name="whatis"></A>
+<P><A name="whatis"> <HR WIDTH=90% SIZE=4> <A name="business"></A></A>
+<H2><A name="whatis">How can I use AtemiConnect?</A>
+</H2><P><A name="whatis"> AtemiConnect is designed to bridge the gap between
+LAN and
+Internet networking.  The old mindset for Internet use is
+that the network services available over the Internet are limited -- FTP,
+Web
+browsers, etc. -- and that you need special Internet-specific programs to
+use
+them.  With AtemiConnect, anything you can do over a LAN can be done across
+the
+Internet, using the same LAN-based applications that you use today.  In the
+short
+term, this product will save you money on long-distance modem connections
+and
+FAXes.  In the long term, it will help your organization share its resources
+more
+effectively and efficiently.</A>
+<P><A name="whatis"> </A>AtemiConnect offers a number of useful applications,
+including:
+<UL><LI>Replacement of ARA for telecommuting. &nbsp;The telecommuter can
+place a local call to a service provider instead of a long distance phone
+call. &nbsp;Also, if high speed lines are available, AtemiConnect can take
+advantage of the higher throughputs.
+<LI>Replacement of Fax. &nbsp;You can select remote Appletalk printers the
+same way as file servers. &nbsp;So, instead of sending faxes, you can print
+directly to a printer at a remote location. &nbsp;This allows for high
+resolution, color, and no long distance charges.
+<LI>Database applications. &nbsp;Use LAN-based database products over the
+Internet without modification.
+<LI>Games. &nbsp;Some LAN games (such as F18 Hornet) can be played head-to-head
+with people across the world.
+</UL><P><A name="whatis"><HR WIDTH=90% SIZE=4> </A>
+<H2><A NAME=ARA>How is AtemiConnect different from
+Apple Remote Access?</A>
+</H2><P><A name="whatis">There are two important distinctions between these
+two
+products. ARA uses your modem and a telephone line to exchange AppleTalk
+data,
+whereas AtemiConnect uses the Internet to accomplish the same purpose.  Since
+the
+cost of an Internet connection is usually much less than the cost of a
+long-distance phone call -- especially if you are connecting to someone in
+another country -- AtemiConnect is a much more cost-effective way to share
+information than ARA.</A>
+<P><A name="whatis"> The second major difference is connectivity.  If you
+want to allow multiple remote users to connect to your AppleTalk network
+at once,
+ARA requires you to purchase a "multiport server" -- an expensive piece of
+hardware that allows you to make multiple modem connections to a server at
+the
+same time -- and a modem for each simultaneous connection you wish to allow.
+ By
+contrast, AtemiConnect doesn't require any extra hardware at all; multiple
+users
+can use AtemiConnect to establish simultaneous AppleTalk sessions with a
+single
+server.</A>
+<P><A name="whatis"></A>
+<P><A name="whatis"> <HR WIDTH=90% SIZE=4>
+
+<A name="intersec"></A></A>
+<H2><A name="whatis">Aren't there serious security concerns associated with
+Internet networking?</A>
+</H2><P><A name="whatis">Yes.  The Internet is a notoriously insecure
+medium, and just about anything you send over it can easily be read by an
+intruder.  Most experts agree that if you plan to send any important business
+information over the Internet, you will need a way to keep it safe from outside
+eyes.</A>
+<P><A name="whatis"> Fortunately, there is a simple way to keep your AtemiConnect
+sessions
+private.  By combining this utility with Atemi's
+<A
+href="netshade.html">NetShade</A> network security software, your
+AtemiConnect data will be sent over a <B>secure virtual link</B>.  NetShade
+is designed
+to protect all the AppleTalk data sent from your Macintosh, making it an
+ideal
+way to keep AtemiConnect sessions out of the hands of intruders.  (Once
+installed, NetShade will automatically protect your ARA and LAN data as well;
+see
+the description of <A href="netshade.html">NetShade v1.1</A> for more
+information.)</A>
+<P>
+<P> <HR WIDTH=90% SIZE=4>
+
+<A name="integrate"></A>
+<H2><A name="integrate">Can AtemiConnect's technology be integrated into
+other
+applications?</A>
+</H2><P><A name="integrate">Yes, easily.  Application developers will find
+AtemiConnect to
+be the easiest way to add Internet support to any LAN-based application.</A>
+<P><A name="integrate">
+AtemiConnect is designed to operate independently of all types of applications,
+so this technology can be bundled onto any LAN application just by adding
+AtemiConnect to that application's installation disk.  This will add value
+not
+only to the application, which will now be able to communicate across the
+Internet, but also to your customers' Internet connections: they will be
+able to
+use the Internet to share data and resources around the world.  For more
+information on our licensing programs, contact
+<A
+href="mailto:support@atemi.com">Atemi Corporation</A>.</A>
+<P> 
+<P>
+<CENTER><HR WIDTH=65%></CENTER>
+<CENTER></CENTER>
+</P><CENTER><TABLE BORDER CELLPADDING="2"><TR><TD><CENTER><A 
+HREF="overview.html">Home</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="free_stuff.html">Free Stuff</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="sales_info.html">Sales</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="product_info.html">Product Info</A>
+</CENTER>
+</TD><TD><CENTER><A HREF="links.html">Links</A>
+</CENTER>
+</TD></TR></TABLE></CENTER><P><HR>
+</BODY></HTML>
+</DOC>

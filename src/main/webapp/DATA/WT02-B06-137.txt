@@ -1,0 +1,84 @@
+
+<DOC>
+<DOCNO>WT02-B06-137</DOCNO>
+<DOCOLDNO>IA096-001029-B018-288</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/nist2.html 205.177.10.31 19970215020519 text/html 2401
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 02:04:03 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>NIST Discussion Paper #2 Desirable Characteristics for Key Escrow Agents</title>
+</head>
+<body>
+
+<pre>
+
+Key Escrow Issues Meeting, September 6-7, 1995
+Discussion Paper #2
+
+
+                      Discussion Issues:
+         Desirable Characteristics for Key Escrow Agents
+
+
+In the government's recent announcement of its intent to allow
+the export of 64-bit software key escrow encryption products, one
+stipulation was that the keys would be escrowed with an approved
+key escrow agent.(*1)  Exactly what qualifications/considerations
+are appropriate for approval as a key escrow agent have not been
+defined.  Some of the issues which need to be discussed and
+resolved include the following:
+
+*    What kinds of organizations should be excluded from
+     consideration as approved key escrow agents?
+
+*    What sort of legal agreement between the government and the
+     key escrow agent is necessary to stipulate the
+     responsibilities of the agent?  Should this include the
+     terms and conditions under which release of a key is
+     required?
+
+*    How will liability for unauthorized release of key be
+     handled?
+
+*    Should, for example, intentionally misreleasing or
+     destroying a key be criminalized?  Should this include other
+     actions?
+
+*    How can the government's needs for confidentiality of key
+     release be handled?
+
+*    Should approval of key escrow agents be tied to a public key
+     infrastructure (for digital signatures and other purposes)?
+
+*    What procedures need to be developed for the storage and
+     safeguarding of keys?
+
+*    What are the acceptable performance criteria (e.g., around-
+     the-clock availability, accessibility, reliability, etc.)
+     for approved key escrow agents?
+
+*    Under what circumstances will key escrow agents in foreign
+     countries be approved?
+
+*    What process will be used to approve escrow agents?
+     Costs/who pays?
+---------
+(*1)  "Approved," for the purposes of this discussion, means that
+the government (or its agent) has formally granted permission for
+an organization to hold keys for exportable encryption products.
+
+</pre>
+<hr size = 2>
+Return to the <a href = "index.html">CDT Crypto Page</a><br>
+Return to the <a href = "../index.html">CDT Home Page</a>
+
+
+
+</body>
+</html>
+</DOC>

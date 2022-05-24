@@ -1,0 +1,203 @@
+
+<DOC>
+<DOCNO>WT03-B25-183</DOCNO>
+<DOCOLDNO>IA070-000437-B008-240</DOCOLDNO>
+<DOCHDR>
+http://gardnerweb.com:80/prod/prod_articles/119604.html 206.112.192.204 19970120204819 text/html 19110
+HTTP/1.0 200 OK
+Date: Mon, 20 Jan 1997 20:48:15 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+Content-length: 18938
+Last-modified: Tue, 05 Nov 1996 20:01:58 GMT
+</DOCHDR>
+<HTML>
+
+<HEAD><TITLE>Automotive Production, November 96, "Production Equipment: Strong Arms and More"
+</TITLE>
+<CONTENT="November 1996, Automotive Production">
+</HEAD>
+
+
+<BODY>
+<A NAME="top">
+<BODY BGCOLOR="#ffffff">
+
+<CENTER>
+<A HREF="/index.html"><IMG SRC="/home_graphics/gw_small.gif" WIDTH=250 HEIGHT=56 BORDER=0></A><BR><BR>
+
+<IMG SRC="/prod/prod_graphics/prod_sml_hdr.gif"><BR CLEAR=ALL><P>
+
+<HR>
+
+<!------------------------------------------------------>
+<H1>
+Strong Arms and More
+</H1>
+<FONT SIZE="-1">
+<BLOCKQUOTE><B>
+The robot industry is launching an array of new products on the market. Not only are these the now-familiar manipulators, but in many cases the software behind the scenes that are making the machines more usable. Here's a look at some of what's out there...
+</BLOCKQUOTE></B>
+</CENTER>
+<HR>
+</FONT>
+<CENTER>
+<P><I>
+By GARY S. VASILASH, <B>Editor-In-Chief</B> 
+</I><P>
+</CENTER>
+<BLOCKQUOTE>
+<H2>
+Moves at Motoman
+</H2>
+<P>Motoman Inc. (West Carrollton, OH) has been making some big moves into the auto industry of late, both at the OEM and supplier levels. Although largely known for its innovative arc welding-based systems, it is looking at some innovative applications of arms. One is with its NYII series of robots, which are big and strong. There are three in the line. The NY170L-II has a payload capacity of 170 kg (374.8 lb) and a reach of 3,026 mm (119.13 in.). The NY300-II has a 300-kg (61.4-lb) capacity and a 2,533-mm (99.72-in.) reach. Finally, there's what Motoman engineers say is the robot with the highest payload 
+capacity in the business, the NY400S-II, which can handle 400 kg (881.8 lb) and has a 2,047-mm (80.59-in.) reach. The repeatability of all of the robots is &#177;0.5 mm (&#177;0.02 in.).
+
+<P>In one installation, a NY300-II is being used in a casting application. As people familiar with the robot industry will remember, casting is one of the original applications for robots. Of course, those were hydraulic robots. The NYII series is fitted with compact, low-maintenance AC servo motors. And whereas those early applications tended to be material handling, the NY300-II is being used in a machining operation: it is picking up six-cylinder manifold castings, which weigh approximately 40 lb., then presenting the aluminum parts to a saw, that 
+removes the gates from the castings. The conventional approaches are to have a dedicated cutoff machine, which minimizes (at best) changeover opportunities, or to have strong operators manhandle the parts. Apparently, by doing the job with the robot, the company in question realized a payback in seven months.
+
+<P>The reason that this job can be done with a robot, explains Craig Jennings, Motoman executive vice president, is not just because it can pick up 40-lb. parts cycle after cycle after cycle. &quot;The gears of earlier robots would have been simply destroyed by all of the vibration that would be created during the cutting,&quot; he says. So a stiff arm is as important as a strong one.
+
+<P>Motoman is paying careful attention to making its robots more functional in operation, with an array of products such as ComArc III, a non-contact through the arc seam tracker that allows accurate arc welding at speeds up to 60 ipm and Labyrinth, which assures alignment of the welding torch and therefore better welds. It is also making it easier to get them going, such as with Visual Pallet, a Windows-based software package for optimizing palletizing operations, and to keep them going, as with RobotPro, a PC-based diagnostic expert maintenance system.
+
+<P>One of the more notable systems of late is ROTSYRobot Off-Line Teaching System of Yaskawa (Yaskawa is the parent company of Motoman). Simply stated, it is a Windows-based (Windows `95 or NT) package that can be run on a PC (486 SX or higher) and allows the development of 3D robot cell layouts, program simulation and cycle-time analysis, and off-line programming. Part information can be loaded via DXF; Dynamic Link Library (DLL) permits the modeling of conveyors and the like. So what this all means is that users can simulate a workcell and actually create the necessary program to run the robots--all on a PC screen.
+
+<P>&quot;We're offering this for just $10,000,&quot; Motoman president and CEO Phil Monnin points out with a certain amount of pride, noting that other simulation packages tend to be workstation-based and much more dollar-intensive.
+
+<P>
+<H2>
+Action at Adept
+</H2>
+<P>Brian Carlisle is certainly pleased with a new robot that Adept Technology, Inc. (San Jose, CA), the company he heads, has just introduced. It is the AdeptThree-XL direct-drive robot, based on the SCARA design of the AdeptThree robot. Whereas the AdeptThree-MV can make a straight-line move from point A to B and back with a 9-kg payload in 1.08 sec standard, the XL is 17% faster. The MV has a 7-ft diameter work envelope; the XL's is 10% larger. The standard joint 4 inertial load for the MV is 
+200 lb-in.2; the maximum is 2,500 lb-in.2. Double it for the XL. The XL, like the MV, can handle 55-lb payloads and position them with a repeatability of &#177;0.002 in.&quot;Good enough for some assembly operations,&quot; Carlisle comments.
+
+<P>Carlisle, chairman, CEO and co-founder of Adept, is convinced that this robot has excellent application opportunities in installations where there are medium-sized components that need to be handled with speed and accuracy, such as in transmission plants.
+
+<P>Yet in addition to the obvious enthusiasm that he has while watching the AdeptThree-XL going through its motions, Carlisle is more emphatic about the importance of why people just shouldn't think about robot arms but, rather, take into account the larger system. Carlisle points out that all things considered, if there is a robot and a cell built around it, chances are good that the arm accounts for about 25% of the total price. The ancillary equipment and the systems integration accounts for the rest. The price of the arm pales when the tab for the system is considered.
+
+<P>So one of the things that Carlisle and his company are doing is more than creating robots that have become benchmarks in the industry. They are vigorously working on developing the means by which robots can be installed and up and running quickly. &quot;Rapid Deployment Automation&quot; is Adept-speak for this program.
+
+<P>But as Carlisle describes it, it is a whole lot more than slick rhetoric: &quot;Historically, it has taken about 18 months from the time a customer makes an initial call to the time that a line is running on the floor. My goal with Rapid is two months. A 10:1 time compression.&quot; How are they doing? &quot;Most jobs, on average, take nine to ten months.&quot; So the compression is well underway.
+
+<P>In Carlisle's scenario, there are basically four layers. First there is the design layer, the creation of what the cell or system will look like. Then once that's done, the information is passed on to the second layer, product knowledge. In Adept's case, the core expertise is in the area of assembly, so it helps provide the reusable tools that can help here for off-line logic development, or programming. Then, there is the third layer, real-time control. Finally, there is the fourth layer, which not only consists of robot arms, but such things as flexible parts feeders and material handling devices, and so on.
+
+<P>Last year Adept merged with SILMA, a simulation company, which brings AdeptRapid simulation capability (available on PCs). For a number of years Adept has been working on developing menu-driven application packages for programming (e.g., AIM MotionWare). It has a line of MV controllers (&quot;We've taken something the size of a refrigerator,&quot; Carlisle says, &quot;and have brought it down to the size of a breadbox--and smaller.&quot;). And in addition to an assortment of robots, it has linear modules and a programmable parts feeder.
+
+<P>To be sure, arms are important. But only part of the automation solution.
+
+<H2>
+ABB Activities
+</H2>
+<P>The big news from ABB Flexible Automation (New Berlin, WI): new robots in the IRB 2400 line. There's the IRB 2400L, which has a 70-in. reach and a 11- to 15-lb load capacity. A good application for this unit is arc welding. There's the IRB 2400/10, which has a 59-in. reach, a 22-lb rated load capacity, and unlimited motion in its 6th axis, which means that the tool can quickly travel directly from point to point as required. This is useful for cutting, deburring, and adhesive application. Then there's the 
+IRB 2400/16, which has a 59-in. reach and a 35-lb capacity. Material handling and machine tending are obvious candidates for this robot. Each of these robots has been designed and built with 40% fewer parts than previous models, which helps improve reliability.
+
+<P>ABB, too, is emphasizing software tools. It has a suite called RobotWare, which includes four classes: BaseWare (basic operating system), Process-Ware (for specific applications, like welding and painting), DeskWare (for programming and performing training and analysis on a desktop PC), and FactoryWare (for communicating between PCs and factory controllers).
+
+<P>And it is developing specific packages. For example, the Welding Systems Div. has launched ARCITEC, a robotic arc welding system that consists of (a) the robot and (b) the control cabinet. The power supply is integrated into the controller, as is the inverter power source. The wire feeder is mounted right on the robot arm. Programming is simplified not only because the operator works with plain-language messages, but also because the power source is 
+pre-programmed for various filler materials and welders.
+
+<P>
+<H2>
+Now at Nachi
+</H2>
+<P>Nachi Robotic Systems (Novi, MI) personnel are justifiably proud of receiving the Chrysler Gold Pentastar award in June. This is not only because of the 41 companies that received it this year, just 21 are equipment suppliers, but because this is the second year that the company has received it.
+
+<P>The key areas for the Gold Penta-star are quality, delivery, price, and technology.
+
+<P>Nachi has recently added two robots to its line: the SC35 and the SC50, both of which are six-axis units. The numbers in their names reference their payload capacity in kilograms. Both machines are designed with a compact, narrow configuration, which allows the positioning of more robots within a given area. All hoses, air lines and coolant lines are internally routed, thereby helping provide a clean design.
+
+<P>The SC35 provides a position repeatability of &#177;0.2 mm. Its application possibilities include arc welding, sealing, cutting, assembly, material handling, and palletizing. The SC50 has a position repeatability of &#177;0.3 mm and can be used for the 
+same tasks.
+
+<P>
+<H2>
+Factoring in FANUC
+</H2>
+<P><I>Smaller</I>. That's the word for the LR Mate 100i, a tabletop robot from FANUC Robotics North America (Auburn Hills, MI). The footprint of the robot base measures just 9.8 in. &#215; 7.5 in. It weighs 70.5 lb. It provides a 11-lb. payload capacity. It is quick: axis speeds up to 270o per second. It is said to be useful for machine load/unload applications, welding, assembly, and material handling tasks.
+
+<P><I>Faster</I>. That's the term for the M-6i, a six-axis robot that FANUC people maintains offers &quot;the highest motion speeds in its class.&quot; How fast? It's like this. Axis 1 has a 330&#176; range; it can move at 120&#176;/sec. Axis 2 has a 210&#176; range and a 120&#176;/sec speed. More range for axis 3, 299&#176;, but the same 120&#176;/sec. Axis 4 has a 380&#176; range and a speed of 360&#176;/sec. Axis five: 280&#176; range and 360&#176;/sec speed. Axis 6 really moves: a 640&#176; range and a speed of 450&#176;/sec. The work envelope includes a 3.9-in. reach and a 37-in. horizontal stroke. The maximum load: 13.2 lb.
+
+<P><I>Bigger</I>. Certainly descriptive of the M-710i. It has a 99-lb payload. Its double-jointed arm can move out 67 in., a horizontal stroke that FANUC people say is the largest in its class. This double-jointed configuration permits the robot to reach behind itself; that, combined with the possibility of mounting it on the floor, inverted, on the wall, at an angle, or on a shelf opens up all sorts of processing possibilities. The machine is comparatively quick, with the slowest axis, 2, moving at 120&#176;/sec and the fastest, 6, rotating at 340&#176;/sec. Last year Adept merged with SILMA, a simulation company, which brings AdeptRapid simulation capability (now available on PCs). For a number of years Adept has been working on developing menu-driven application packages for programming (e.g., AIM MotionWare). It has a line of MV controllers (&quot;We've taken something the size of a refrigerator,&quot; Carlisle says, &quot;and have brought it down to the size of a breadbox---and smaller.&quot;). And in addition to an assortment of robots, it has linear modules and a programmable parts feeder (&quot;In an assembly system, 
+about 30% of the cost is often in custom-engineered bowl feeders. Our unit permits fast changeover. We have one customer that is changing its line every two hours,&quot; Carlisle says.).
+
+<P>To be sure, arms are important. But only part of the automation solution.
+
+<P>
+<H2>
+Factoring in FANUC
+</H2>
+<P><I>Smaller</I>. That's the word for the LR Mate 100i, a tabletop robot from FANUC Robotics North America (Auburn Hills, MI). The footprint of the robot base measures just 9.8 in. &#215; 7.5 in. It weighs 70.5 lb. It provides a 11-lb. payload capacity. It is quick: axis speeds up to 270&#176; per second. It is said to be useful for machine load/unload applications, welding, assembly, and 
+material handling tasks.
+
+<P><I>Faster</I>. That's the term for the M-6i, a six-axis robot that FANUC people maintains offers &quot;the highest motion speeds in its class.&quot; How fast? It's like this. Axis 1 has a 330&#176; range; it can move at 120&#176;/sec. Axis 2 has a 210&#176; range and a 120&#176;/sec speed. More range for axis 3, 299&#176;, but the same 120&#176;/sec. Axis 4 has a 380&#176; range and a speed of 360&#176;/sec. Axis five: 280&#176; range and 360&#176;/sec speed. Axis 6 really moves: a 640&#176; range and a speed of 450&#176;/sec. The work envelope includes a 3.9-in. reach and a 37-in. horizontal stroke. The maximum load: 13.2 lb.
+
+<P><I>Bigger</I>. Certainly descriptive of the M-710i. It has a 99-lb payload. Its double-jointed arm can move out 67 in., a horizontal stroke that FANUC people say is the largest in class. This double-jointed configuration permits the robot to reach behind itself; that, combined with the possibility of mounting it on the floor, inverted, on the wall, at an angle, or on a shelf opens up all sorts of processing possibilities. The machine is comparatively quick, with the slowest axis, 2, moving at 120&#176;/sec and the fastest, 6, rotating at 340&#176;/sec.
+
+<P>
+<H2>
+Now at Nachi
+</H2>
+<P>Nachi Robotic Systems (Novi, MI) personnel are justifiably proud of receiving the Chrysler Gold Pentastar award in June. This is not only because of the 41 companies that received it this year, just 21 are equipment suppliers, but because this is the second year that the company has received it.
+
+<P>The key areas for the Gold Penta-star are quality, delivery, price, and technology.
+
+<P>Speaking of technology...
+
+<P>Nachi has recently added two robots to its line: the SC35 and the SC50, both of which are six-axis units. The numbers in their names reference their payload capacity in kilograms. Both machines are designed with a compact, narrow configuration, which allows the positioning of more robots within a given area. All hoses, air lines and coolant lines are internally routed, thereby helping provide a clean design.
+
+<P>The SC35 provides a position repeatability of &#177;0.2 mm. Its application possibilities include arc welding, sealing, cutting, assembly, material handling, and palletizing. The SC50 has a position repeatability of &#177;0.3 mm and can be used for the 
+same tasks.
+
+<P>Both robots are fitted with the AR Controller, which employs a 32-bit microprocessor and fully digital servo drives. This controller can simultaneously control up to 12 axes and permits making on-line program changes during production.
+
+<P>
+<H2>
+ABB Activities
+</H2>
+<P>The big news from ABB Flexible Automation (New Berlin, WI): new robots in the IRB 2400 line. There's the IRB 2400L, which has a 70-in. reach and a 11- to 15-lb load capacity. A good application for this unit is arc welding. There's the IRB 2400/10, which has a 59-in. reach, a 22-lb rated load capacity, and unlimited motion in its 6th axis, which means that the tool can quickly travel directly from point to point as required. This is useful for cutting, deburring, and adhesive application. Then there's the 
+IRB 2400/16, which has a 59-in. reach and a 35-lb capacity. Material handling and machine tending are obvious candidates for this robot. Each of these robots has been designed and built with 40% fewer parts than previous models, which helps 
+improve reliability.
+
+<P>ABB, too, is emphasizing software tools. It has a suite called RobotWare, which includes four classes: BaseWare (basic operating system), ProcessWare (for specific applications, like welding and painting), DeskWare (for programming and performing training and analysis on a desktop PC), and FactoryWare (for communicating between PCs and factory controllers).
+
+<P>And it is developing specific packages. For example, the Welding Systems Div. has launched ARCITEC, a robotic arc welding system that consists of (a) the robot and (b) the control cabinet. The power supply is integrated into the controller, as is the inverter power source. The wire feeder is mounted right on the robot arm. Programming is simplified not only because the operator works with plain-language messages, but also because the power source is 
+pre-programmed for various filler materials and welders.
+
+</BLOCKQUOTE>
+<P>
+<!------------------------------------------------------>
+<HR>
+<P>
+<CENTER>
+<A HREF="#top">Return to Top of Page</A> | 
+<A HREF="/prod/aptr.html">Return to AP Technical Resource Center Page</A>
+</CENTER>
+
+
+<HR><BR>
+
+<CENTER>
+<TT><B>
+<FONT SIZE="3">
+[ <A HREF="http://www.gardnerweb.com">GardnerWeb Home</A> | 
+<A HREF="http://www.gardnerweb.com/visitors/visitors.html">Visitors Center</A> | 
+<A HREF="http://www.hansergardner.com">Bookstore</A> ]<BR>
+[ <A HREF="http://www.gardnerweb.com/pf/pf.html">Finishing Resource Center</A> | 
+<A HREF="http://www.gardnerweb.com/mms/mms.html">Metalworking Resource Center</A> ]
+</FONT>
+</B></TT>
+
+<P>
+<HR WIDTH=50%>
+
+<FONT SIZE="-2">
+Serving the Metalworking and Finishing Industries. <I>Since 1928</I>.<BR>
+GardnerWeb and all contents are properties of Gardner Publications, Inc.<BR>
+All Rights Reserved. 1995-1996.</FONT><P>
+
+</CENTER>
+
+
+</BODY>
+</HTML>
+</DOC>

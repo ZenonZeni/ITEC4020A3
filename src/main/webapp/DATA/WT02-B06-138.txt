@@ -1,0 +1,197 @@
+
+<DOC>
+<DOCNO>WT02-B06-138</DOCNO>
+<DOCOLDNO>IA096-001029-B019-54</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/plewis.html 205.177.10.31 19970215020557 text/html 9038
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 02:04:41 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>Peter Lewis -- On The Net, Monday September 11, 1995</title>
+</head>
+<body>
+<p>
+<p>
+On The Net Column<br>
+Monday, Sept. 11, 1995<br>
+Peter H. Lewis<br>
+<p>
+(Posted With Permission From The Author)
+<p>
+In terms of its ability to raise the nation's blood pressure, the
+debate over data encryption has not yet reached the same levels as gun
+control.
+<p>        
+But last week the Clinton Administration appeared to set the stage
+for an equally divisive national debate over the rights of businesses and
+individuals to keep secrets when using telephones, computers and other
+forms of electronic communications.
+<p.        
+In two days of public hearings last week in Gaithersburg, Md., home
+of the National Institute of Standards and Technology (NIST), the
+Administration in effect unveiled its long-awaited proposals to relax
+restrictions on the export of cryptographic software.
+<p> 
+In effect, the Administration drew a line in the virtual sands of
+cyberspace, signaling that it is willing to permit Americans to put
+stronger cryptographic locks on their electronic data only if a spare key
+to those locks is made available on demand to law enforcement agencies.
+<p>       
+There looms the conflict. Although the current debate is about
+export controls on an esoteric form of software that most Americans do not
+use, the "export" issue is ultimately irrelevant in today's era of global
+electronic voice and data networks, where passwords, not passports, are
+checked at the gates. Simply placing a common privacy program on an
+Internet-connected computer in Austin, Tex., is effectively no different
+from sending a shrink-wrapped copy of the program to Moscow.
+<p>       
+The real issue is how much privacy the Government is willing to
+allow its own citizens, and the latest word from the Clinton Administration
+is that the right to electronic privacy, like the right to bear arms, is
+not absolute.
+<p>        
+<center>***</center>
+<p>
+Cryptography is the science of secret writing. In this digital era,
+secret writing applies not just to notes handed from one spy to another,
+but also to telephone calls between individuals, funds transfers between
+banks, bank and credit card records, electronic mail, faxes, and an endless
+variety of computer files.
+<p>
+The Clinton Administration has been clear and consistent in
+outlining its basic position on cryptographic systems. The goal is to allow
+American citizens and companies to use the strongest possible cryptographic
+technology, while at the same time preserving the ability of law
+enforcement agencies to perform court-authorized wiretaps as part of the
+effort to catch drug dealers, terrorists, child pornographers and other
+miscreants.
+<p>        
+In other words, it favors strong cryptography, but not too strong.
+<p>       
+One way to measure the strength of cryptographic software is the
+length of the software key necessary to encode and decode a message. The
+longer the key, in terms of digital bits, the harder it is for an
+unauthorized user to decipher the message.
+<p>        
+In recent years, the Government has generally permitted Americans
+to export cryptographic software with key lengths up to 40 bits. Experts
+say that 40-bit keys are secure from casual snooping, but will fall quickly
+to a determined codebreaker. The fact that the Government allows 40-bit
+encryption systems to be exported is a pretty good indication that the
+National Security Agency can break them easily.
+<p>        
+There are literally hundreds of stronger cryptography programs
+readily available outside the United States, and these stronger programs
+are attractive to businesses that want to safeguard their data from
+Internet bandits and corporate and government spies.
+<p>        
+Last week, after more than a year of intense analysis of the
+software export controls issue, the Government unveiled what it said was
+the best possible compromise.
+<p>        
+Under the new policy, companies can export encryption algorithms
+using 64-bit keys, which are much more secure, but only if spare keys are
+made available to law enforcement agents under standard legal procedures.
+Otherwise, the 40-bit limit continues to apply.
+<p>        
+The "spare key" technology, officially known as key escrow, is
+anathema to many privacy advocates who fear Government abuses. The
+Government first proposed a key escrow system with its so-called Clipper
+Chip, a technology that failed to win acceptance even as a voluntary
+standard.
+<p>        
+Unlike Clipper, which was based on a classified algorithm called
+Skipjack that only a few people outside the Government were allowed to
+examine, the new policy allows people to use any algorithm they choose --
+as long as it uses a key no larger than 64 bits, and as long as the keys
+are entrusted to a domestic third party accessible to the Government, and
+as long as the key escrow mechanisms cannot be readily altered or bypassed.
+<p>        
+Also unlike Clipper, which required a special tamper-proof
+microprocessor that would have added cost, complexity and extra power
+requirements to communications devices, the new proposals can be
+implemented entirely in software.
+<p>        
+Key escrow systems make a lot of sense for most American companies,
+at least for internal use. Having a spare set of keys lessens the risk of a
+disgruntled employee or saboteur locking up vital company files.
+<p>        
+But key escrow is also unpopular with American computer and
+software companies, who say it prevents them from competing against foreign
+companies that have no similar constraints, and with many multinational
+corporations, who say it prevents them from working with foreign companies
+that don't especially care for the idea of Uncle Sam holding the keys to
+their data banks.
+<p>        
+"If this was intended to be any sort of compromise, I don't think
+it achieved its end," said Whitfield Diffie, a Distinguished Engineer at
+Sun Microsystems who attended the meetings. "I didn't see anybody who was
+enthusiastic."
+<p>
+<center>***</center>
+<p>
+Raymond G. Kammer, deputy director of NIST, suggested that the
+hearings last week were intended to elicit public comment, and that the
+Administration's final position on cryptographic policy are still under
+analysis.
+<p>        
+However, the emergence of key escrow issues at the NIST proceedings
+suggest that key escrow is emerging as a non-negotiable demand by some
+factions of the Clinton Administration, especially the Justice Department
+and the Federal Bureau of Investigation, led by Louis Freeh. Mr. Freeh
+sincerely believes that data encryption is a weapon, and has publicly
+called for domestic restrictions on civilian cryptography.
+<p>        
+"If this fails," said one observer familiar with the Administration's 
+thinking on the proposed change in cryptographic policy, "it's going to 
+lead to a very devisive debate. And the irony, for libertarians who 
+oppose key escrow, is that if it fails, I am convinced that Louis Freeh 
+cannot be true to his job without proposing domestic
+controls on data encryption."
+<p>        
+"He's not going to give up without a fight, and neither is the
+Justice Department," said the observer, who spoke on the condition he not
+be identified.
+<p>
+Others say they do not think the Clinton Administration has yet
+arrived at a concrete position, even after more than a year of study and
+debate. "I don't think it's a final offer," said John Gilmore, a member of
+the board of directors of Cygnus Support Inc., a computer company in
+Mountain View, Calif. "It looks to me like a weak strawman, a first offer,
+a proposal to dance."
+<p>        
+The question is whether American citizens and businesses have the
+patience to wait for the music to start. And the issue may be moot, anyway.
+<p>        
+"The Internet Architecture Board has specifically decided to ignore
+export controls in designing the security infrastructure for the next
+generation of Internet protocols," Mr. Gilmore said. "The Internet of 1998
+will provide automatic, secure, and fully private communication, without
+key escrow, internationally. The protocols will be implemented
+independently in a dozen different countries."
+<p>        
+In other words, the international Internet community is already
+planning to jump over the new line in the sand drawn last week by the
+Clinton Administration. Cryptography that is stronger and better than the
+Government's proposed system will become an integral part of the Internet,
+and American companies and individuals would be foolish not to use it.
+<p> 
+At that point, millions of Americans will come in direct conflict
+with Government policy, and the popular gun-control bumper sticker may be
+replaced by one that says, "If cryptography is outlawed, only outlaws will
+have cryptography."
+<p>
+<p>
+<hr size = 2>
+Return to the <a href = "index.html">CDT Crypto Page</a><br>
+Return to the <a href = "../index.html">CDT Home Page</a>
+
+
+
+</body>
+</html>
+</DOC>

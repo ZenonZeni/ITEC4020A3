@@ -1,0 +1,310 @@
+
+<DOC>
+<DOCNO>WT01-B06-20</DOCNO>
+<DOCOLDNO>IA044-000801-B015-333</DOCOLDNO>
+<DOCHDR>
+http://samsara.law.cwru.edu:80/comp_law/ 129.22.184.108 19970118135419 text/html 10495
+HTTP/1.0 200 OK
+Date: Sat, 18 Jan 1997 13:58:12 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 10323
+Last-modified: Tue, 31 Dec 1996 17:12:05 GMT
+</DOCHDR>
+<html>
+<head>
+   <title>Computers and the Law</title>
+</head>
+
+<body>
+
+ <script language="JavaScript">
+ <!--hide script from old browsers
+ document.write("<center><font size=-2>This page was last modified: " +
+ document.lastModified + "</font></center>");
+ // end hiding -->
+ </script>
+
+
+<p>
+<a name="Top"></a>
+
+<center><h1> Computers and the Law </h1></center>
+</p>
+
+<p>
+<center> This site will always be under construction.</center>
+</p>
+
+<a name="intro"></a>
+<p><hr>
+<a href="#toc">Go to</a> Table of Contents
+<hr><p>
+Eventually this site will contain materials for use in, or that are
+relevant to, the course in Computers and the Law taught by Peter
+D. Junger at CWRU Law School.  But at the moment it needs extensive
+revision.
+
+The most important current issue involves the conflict between the export
+regulations on cryptographic software and the freedoms of speech and of
+the press, and as to this matter there is now a
+separate web page collecting all the materials relating to <a
+href="crypto_export/">Free Speech and the Export of Crypto</a>.
+<p><hr>
+
+<p>
+The materials will eventually include law cases, legislative
+materials, reports, and other textual materials that are stored on
+this server as well as links to materials stored on other servers.
+<p><hr>
+<ul>
+<li>Draft of <a href="why1.html"><strong>Article</strong></a> on 
+              Understanding Law and Computers
+<li><strong><a href="interimreg.txt">Commerce Department Interim Regulations
+    Replacing the ITAR</a></strong> from Federal Register for 12/30/96
+<li><a href="commerce.proposed.regs.html">Commerce Department's Proposed
+     Crypto Regulations</a>
+<li><a href="marchregs.html">Commerce Department's Export Administration 
+     Regulations,</a> 61 Fed. Reg. 12713-13041 (03/25/96) (long:
+     2445062 bytes)
+<li><a href="ThePressRelease.html">Executive Order and Memorandum</a>
+     Directing Transfer of Authority over Crypto to Commerce Dep't
+<li><a href="ann/">Announcements for Computers and the Law</a>
+<li><a href="ftp://samsara.law.cwru.edu/pub/uuxxcode/uudeview.exe">Download</a> 
+     UUDEVIEW uudecoder for DOS
+<li><a href="http://www.nwlink.com/~tigger/altair.html">Link to Altair
+     and IMSAI emulators</a>
+<li><a href="twi.xxx">TWI.XXX</a> a dummy version of my 111 byte MSDOS
+     encryption program (which I can't post here because I don't have a
+     license from the federal government under the ITAR permitting me to
+     do so).  Use this together with DEBUG to create TWI.COM, the working
+     version of the encryption program.
+<li><a href="myrisks.txt">My Article in Risks</a> which contains a 
+     <em>Secret Message</em>
+</ul>
+
+<p><hr>
+<p>
+Go back to <a href="/index.html">Samsara</a>'s Web Page.
+
+<p><hr>
+<a name="toc"></a>
+<p><center><h2>Table of Contents</h2></center>
+
+<p>
+<ul>
+<li><a href="#intro">Introduction and Announcements</a>
+<li><a href="#toc">Table of Contents</a>
+<li><a href="#IT">Materials Relating to the International Traffic 
+    in Arms Regulations</a>
+<li><a href="#PAT">Materials Relating to Patents in General</a>
+<li><a href="#SP">
+     Materials Relating to Patenting Software</a>
+<li> <a href="#CP">
+     Materials Relating to Copyright in General</a>
+<li> <a href="#CPSW">
+     Materials Relating to Copyrighting Software</a>
+<li> <a href="#CPSL">
+     Materials Relating to Copyright and ``Shrinkwrap Licenses''</a>
+<li> <a href="#CompCrime">Materials Relating to Computer Crimes</a>
+<li> <a href="#FreeSpeech">Materials Relating to Freedom of 
+     Speech on the Internet</a>
+     <ul>
+     <li> <a href="#CDA">
+            Materials Relating to the Computer Decency Act</a>
+     <li> <a href="#radikal">Materials Relating to the <em>Radikal</em>
+            affair</a>
+      </ul>
+</ul>
+<p>
+Go back to the<a href="/comp_law/index.html#Top"> beginning</a> of this page.
+
+<p><hr>
+
+<p>
+<a name="IT"></a>
+<h4>Materials Relating to the International Traffic in Arms Regulations</h4>
+
+<p><a name="jvc_call"></a>
+<ul>
+<li><a href="jvc/index.html"><i>Junger</i> v. <i>Christopher</i></a>: 
+    My suit to enjoin the cryptographic provisions of the ITAR.
+<li><a href="/aeca.html">The Arms Export Control Act</a>
+<li> <a href="/itar.html">ITAR</a>
+<li><a href="http://www2.nap.edu/htbin/document/docid=00805F50FE7B:835384777
+&glob=cryptography&srchcol=-1&title=Cryptography%27s+Role+in+Securing+the+Inform
+ation+Society&path=/ext5&name=cryptpre.rdo&start=1">
+Link to NRC Report on Cryptography's Role in Securing the Information 
+Society</a>
+<li><a href="http://online.offshore.com.ai/arms-trafficker/itar.html">
+ Link to Web Site Discussing ITAR and Cryptography</a>
+<li>Cases
+  <ul>
+  <li><a href="/comp_law/bern.html"><em>Bernstein</em> v. <em>U.S. Department
+      of State</em></a>
+  <li><a href="/comp_law/karn.html"><em>Karn</em> v. <em>U.S. Department
+      of State</em></a>
+  </ul>
+</ul>
+
+<p> Related to this portion of the course is the suit that I have
+brought, with the aid of Gino Scarselli, Raymond Vasvari, and Kevin
+O'Neill to enjoin the enforcement of those provisions of the
+International Traffic in Arms Regulations (the <a href="/itar.html">
+"ITAR"</a>) that require one to obtain a license or a waiver of
+jurisdiction--that is, a so-called ``Commodity Jurisdiction
+Determination''--before one may publish or otherwise disclose
+information about cryptography to a foreign person or transmit such
+information outside the United States. <em>See</em><a href="jvc">
+<em>Junger</em> v. <em>Christopher</em></a>. 
+
+<p>
+Here is an explanation of the problem that I have with the ITAR and a
+short description of how I got involved with it:
+
+B
+<ul>
+<li> <a href="/comp_law/ITAR_and_I.html">The 
+ITAR and I</a>
+</ul>
+<p>
+Go back to the<a href="/comp_law/index.html#Top"> beginning</a> of this page.
+
+<p><hr>
+
+<p><a name="PAT"></a>
+<h4>Materials Relating to Patents in General</h4>
+
+<p><ul>
+<li> <a href="http://www.law.cornell.edu/uscode/35/">United
+      States Patent Act</a> (Searchable; from Cornell)
+</ul>
+
+<p><hr>
+
+<p><a name="SP"></a>
+<h4>Materials Relating to Patenting Software</h4>
+
+<p><ul>
+<li> <a href="/gottdoc.html"><i>Gottschalk</i> v. <i>Benson</i></a>
+<li> <a href="benson.html">In Re <i>Benson</i></a>
+</ul>
+
+<p>
+Go back to the<a href="/comp_law/index.html#Top"> beginning</a> of this page.
+<p><hr>
+
+
+<p><a name="CP"></a>
+<h4>Materials Relating to Copyright in General</h4>
+<ul>
+<li> <a href="http://www.law.cornell.edu/usc/17/overview.html">United 
+      States Copyright Act</a> (Searchable; from Cornell)
+<li>Link to Stanford University Libraries
+    <a href="http://fairuse.stanford.edu/">Copyright & Fair Use</a> Site
+<li><a href="http://www.law.cornell.edu/treaties/berne/overview.html">
+     Link to Berne Convention</a> for the Protection of
+     Literary and Artistic Works (Paris Text 1971) (searchable)
+<li>Link to <a href="http://www2.echo.lu/legal/en/ipr/database/database.html">
+     European Union Directive on the Protection of Databases</a>
+<li>Link to <a href="http://www.uspto.gov/web/ipnii/">Intellectual Property 
+    and the National Information Infrastructure</a> NII Task Force:
+    The Report of the Working Group on Intellectual Property Rights
+<li>Link to <a href="http://www.hotwired.com/wired/whitepaper.html">Professor
+    Pamuela Samuelson's Article</a> in HotWired on NII Task Force's White
+    Paper on Intellectual Property
+</ul>
+<p>
+Go back to the<a href="/comp_law/index.html#Top"> beginning</a> of this page.
+<p><hr>
+
+<p><a name="CPSW"></a>
+<h4>Materials Relating to Copyrighting Software</h4>
+<ul>
+<li><a href="/comp_law/apple.html"><em>Apple</em> v. <em>Franklin</em>
+<li><a href="lotus.html"><em>Lotus</em> v. <em>Borland</em>
+</ul>
+
+<p>
+Go back to the<a href="/comp_law/index.html#Top"> beginning</a> of this page.
+
+<p><hr>
+
+<p><a name="CPSL"></a>
+<h4>Materials Relating to Copyright and ``Shrinkwrap Licenses''</h4>
+<ul>
+<li> <a href="/procd.dist.html"> <i>ProCD</i>
+v. <i>Zeidenberg</i> in the District Court</a>.
+</ul>
+
+<p>
+Go back to the<a href="/comp_law/index.html#Top"> beginning</a> of this page.
+
+<p><hr>
+
+
+<p><a name="CompCrime"></a>
+<h4>Materials Relating to Computer Crimes</h4>
+<ul>
+<li><a href="/wisc.compcrim.html">The Wisconsin 
+Computer Crime Act</a>
+</ul>
+<p>
+Go back to the<a href="/comp_law/index.html#Top"> beginning</a> of this page.
+
+<p><hr>
+
+<p><a name="FreeSpeech"></a>
+<h4>Materials Relating to Freedom of Speech on the Internet </h4>
+
+<p><a name="CDA"></a>
+<ul>
+<li>Materials Relating to the Computer Decency Act
+    <ul>
+    <li><a href="ftp://samsara.law.cwru.edu/pub/cda.decision.txt">The
+        Decision in <i>ACLU</i> v. <i>Reno</i></a>
+    <li><a href="http://www.newshare.com/Reporter/decision.html">The
+        Decision in <i>Shea</i> v. <i>Reno</i></a>
+    </ul>
+<a name="radikal"></a>
+<li>Materials Relating to the <em>Radikal</em> Affair
+    <ul>
+    <li><a href="http://www.anwalt.de/ictf/p960901d.htm">
+        Mitteilung der Internet Content Task Force (ICTF) vom 03.09.1996</a>
+    <li><a href="http://www.anwalt.de/ictf/p960901e.htm">
+        Internet Content Task Force (ICTF), Press Release of Sep. 03, 1996</a>
+    <li>The ``pamphlet'' <em>verboten</em> under suspicion of promoting 
+        a terrorist organization 
+        <ul>
+        <li><a href="http://www.serve.com/spg/154/">Getting <em>Radikal</em> 
+             issue 154 from www.serve.com
+        <li><a href="http://www.xs4all.nl/~tank/radikal//154/">Getting
+             <em>Radikal</em> issue 154 from www.xs4all.nl
+        <li><a href="http://ourworld.compuserve.com/homepages/angela1/radilink.htm">
+             Getting <em>Radikal</em> issue 154 from 
+             ourworld.compuserve.com</a>  <strong>This link has been shut 
+             down.</strong>So try this <a 
+             href="http://www.anwalt.de/ictf/mirror/radilink.htm"> 
+             mirror</a> (but unfortunately the link to the issue of Radikal
+             itself has been removed to avoid consequences under the criminal
+             law [``zur
+               Vermeidung strafrechtlicher Konsequenzen''])
+        </ul>
+    <li><a href="http://www.xs4all.nl/~tank/radikal/"><em>Radikal</em>, the
+         journal on line</a>
+    <li><a href="">
+    </ul>
+</ul>
+<p>
+Go back to the<a href="/comp_law/index.html#Top"> beginning</a> of this page.
+
+<p> 
+<hr>
+
+<p>
+Go back to <a href="/index.html">Samsara</a>'s Web Page.
+
+
+</body>
+</html>
+</DOC>

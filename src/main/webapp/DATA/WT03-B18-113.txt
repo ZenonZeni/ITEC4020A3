@@ -1,0 +1,229 @@
+
+<DOC>
+<DOCNO>WT03-B18-113</DOCNO>
+<DOCOLDNO>IA018-000200-B031-498</DOCOLDNO>
+<DOCHDR>
+http://www.rwt.com:80/wsinfo/wsfaq.htm 199.227.153.245 19970106223002 text/html 13838
+HTTP/1.0 200 OK
+Date: Mon, 06 Jan 1997 22:35:40 GMT
+Server: Stronghold/1.3.2 Ben-SSL/1.3 Apache/1.1.1
+Content-type: text/html
+Content-length: 13637
+Last-modified: Fri, 20 Dec 1996 19:07:01 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>RWT: Workspace Info</TITLE> 
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word 1.0Z">
+<META NAME="AUTHOR" CONTENT="John Lapham">
+<META NAME="OPERATOR" CONTENT="John Lapham">
+</HEAD> 
+<BODY BACKGROUND="wall.gif" BGCOLOR="FFFFFF" LINK="FF0000" VLINK="0000FF">
+<H1 ALIGN="CENTER"><B>Workspace<FONT
+SIZE="-1">&#174;</FONT> Frequently Asked Questions</B>
+</H1>
+<P>Below is a listing of the most commonly asked questions about Workspace<FONT
+SIZE="-1">&#174;</FONT> and robot simulation in general. There are also links
+to other pages that provide more information on a particular topic. At the
+bottom of this page is a link that allows you to download free sample animations
+created with Workspace, as well as the Workspace demo program.</P>
+<TABLE><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P><B><FONT SIZE="+2">What
+<I>is</I> Workspace?
+</FONT></B><BR><IMG ALIGN="BOTTOM" SRC="20space.gif">Workspace is a graphical
+three-dimensional robot simulation and off-line programming software program. It
+allows users to construct workcells and write programs for robots. Once this has
+been done, Workspace has a number of analysis tools for a user to check the
+feasibility of a workcell. These tools include reach and envelope analysis,
+collision detection, throughput, and cycle time analysis.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P>
+
+<B><FONT SIZE="+2">What is unique about Workspace?</FONT></B><BR>
+<IMG ALIGN="BOTTOM" SRC="20space.gif">Workspace is unique for two main reasons.
+First, <B>Workspace runs on a PC</B>. Most graphical robot simulation programs
+require high-end (and very expensive) graphics workstations (like those made by
+Silicon Graphics) to operate. Workspace will operate on any mainstream
+IBM-compatible personal computer.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">Second, <B>Workspace writes robot
+programs in the native language of the robot</B>. Each robot manufacturer has
+it's own robot programming language. All other robot simulation programs require
+you to work in a &quot;simulator language&quot; that is similar to, but unlike,
+all robot languages.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P><B><FONT SIZE="+2">Why
+would I want a robot simulation program to run on a PC?
+</FONT></B><BR><IMG ALIGN="BOTTOM" SRC="20space.gif">The ability to run on a
+PC, or notebook, is important for two reasons. The first, obviously, is price.
+PCs, even high-end PCs, are significantly cheaper than a graphics workstation.
+Because of this, virtually every employee has one on his/her desk already. Even
+engineers with graphic workstations also have a PC on their desk. The reason is
+obvious, most mainstream programs, like word-processing, e-mail, spreadsheets,
+etc. are more easily obtained for PCs. We don't feel you should have to buy a
+special computer just to run complex three-dimensional workcell simulations. 
+<BR><IMG
+ALIGN="RIGHT" SRC="shear.gif" BORDER="1" VSPACE="10" HSPACE="10" WIDTH="200" HEIGHT="137"><IMG
+ALIGN="BOTTOM" SRC="20space.gif">Another advantage of running on a PC is it
+allows you to take the simulation to the factory floor. If you are off-line
+programming a robot, it is important for the simulation to closely match what
+really exists in the real world. The only way to do this is to take the
+simulation to the actual workcell. With graphics workstations this is not only
+difficult, but most people do not want to take an expensive piece of equipment
+(a graphics workstation) to an environment it might get damaged. Workspace can
+run on a portable computer, allowing a user to easily take Workspace to the
+factory floor with a minimal amount of hassle.</P></TD></TR><TR><TD
+VALIGN="TOP" COLSTART="1"><IMG ALIGN="TOP" SRC="pingreen.gif"></TD><TD
+COLSTART="2"><P>
+
+<B><FONT SIZE="+2">Why is programming in the native language of the robot
+important?</FONT></B><BR><IMG ALIGN="BOTTOM" SRC="20space.gif">There are
+several reasons why robots should be programmed in their native language. The
+most important reason is compatibility with the robot controller. With Workspace
+it is very easy to send programs to the robot controller. There are no
+post-processors to add more steps, and more complications, to the process. Once
+a program is written in Workspace, it can be run immediately on the robot
+controller. Working in the native language of the robot also allows currently
+running programs to be easily brought into, and edited, in Workspace, without
+any pre-processing.<BR>
+<IMG ALIGN="BOTTOM" SRC="20space.gif"> Another advantage of programming in the
+native language is it gets the user closer to the robot. The person creating the
+simulation will know more about the capabilities of the robot, and a person who
+is already familiar with the robot programming language will have no problem
+adapting to using Workspace.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P><B><FONT SIZE="+2">
+Which robot models are available for Workspace?
+</FONT></B><BR>
+<IMG ALIGN="BOTTOM" SRC="20space.gif">Most robots from ABB to Unimation are
+available for Workspace. There are
+<A HREF="http://www.rwt.com/wsinfo/rbtlib/rbtlib.htm" target="Main">over 150 robot models
+available.</A>  If the robot you use is not on the list, contact us and we will
+be happy to model it for you.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P><B><FONT SIZE="+2">Which
+languages are available?</FONT></B>
+<BR>
+<IMG ALIGN="BOTTOM" SRC="20space.gif">There are
+<A HREF="http://www.rwt.com/wsinfo/rbtlang/rbtlang.htm" target="Main">24 robot languages
+currently available</A> for Workspace. These range from the older VAL languages
+to the new ABB Rapid language. If there is a language you need that is not on
+our list, contact us.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P>
+<B><FONT SIZE="+2">How do I bring in my CAD drawings?</FONT></B><BR><IMG
+ALIGN="BOTTOM" SRC="20space.gif">Workspace allows you to bring in CAD drawings
+from any package through DXF (r12) or IGES (5.1). Both import/export formats are
+included free with each copy of Workspace.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P><B><FONT SIZE="+2">What
+if I don't already have a CAD package?</FONT></B><BR>
+<IMG ALIGN="BOTTOM" SRC="20space.gif">Workspace has an integrated three
+dimensional solid CAD modeler built in. CAD drawings created in Workspace can
+also be exported using DXF and IGES.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P>
+<B><FONT SIZE="+2">Can I simulate other things besides robots?</FONT></B><BR><IMG
+ALIGN="BOTTOM" SRC="20space.gif">Robots are only a few of the machines that can
+be simulated in Workspace. Virtually any mechanism can also be simulated. This
+is very useful, since few robots operate by themselves without interaction with
+conveyors, turntables, positioners, etc.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P>
+<B><FONT SIZE="+2">I've tried off-line programming before, and it hasn't
+worked. Why?</FONT></B><BR><IMG ALIGN="BOTTOM" SRC="20space.gif">The reason
+most off-line programming systems have failed in the past is because of a lack
+of understanding of the fundamental problem with robots:  inaccuracy.
+<A HREF="http://www.rwt.com/wsinfo/accrep/accrep.htm" target="Main">Robots are built to be
+highly repeatable, but little consideration is being given to their accuracy.</A>
+This really isn't a problem when using a teach pendant because the operator
+positions the robot visually exactly like he/she wants it. What the actual x, y,
+z coordinates are really doesn't matter.<BR>
+<IMG
+ALIGN="LEFT" SRC="jclinden.gif" BORDER="1" VSPACE="10" HSPACE="10" WIDTH="200" HEIGHT="137"><IMG
+ALIGN="BOTTOM" SRC="20space.gif">This is a different story if you are off-line
+programming. When you off-line program, you have a CAD drawing of where
+everything is positioned, and you base the coordinates of the teachpoints on
+this. This, in turn, is where the robot will move to. Off-line programming is
+totally based on the x,y,z coordinates.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif"> Due to manufacturing tolerances and
+stack-up, each robot is built slightly different. Since the robot manufacturers
+make no effort to measure what these differences are, each robot controller
+thinks it has a perfect robot connected to it. Therefore, when you send the
+robot to a specific x,y,z coordinate, there is no guarantee that it makes it
+there. In fact, robots are inaccurate by about 15 mm (0.59 inches), on average.
+
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P>
+<B><FONT SIZE="+2">How does Workspace correct for robot inaccuracies?</FONT></B>
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">There are two ways Workspace correct
+for a robot's inaccuracy. The first is to account for the inaccuracies found in
+the robot itself. This is done with a device called
+<A HREF="http://www.rwt.com/wsinfo/robotrak/robotrak.htm" target="Main">Robotrak&#153;</A>.
+Robotrak measures the differences between a robot's theoretical structure with
+what the robot really looks like. This definition of what the robot looks like
+is called the robots <B>&quot;signature,&quot;</B> and like a person's
+signature, varies from example to example. Then, using Calibration+, a software
+option in Workspace, a filter is placed in Workspace to insure that all
+teachpoints in Workspace will be created in the correct x,y,z position.
+<BR><IMG
+ALIGN="RIGHT" SRC="robotrak.gif" BORDER="1" VSPACE="10" HSPACE="10" WIDTH="200" HEIGHT="142"><IMG
+ALIGN="BOTTOM" SRC="20space.gif">The second method to improve a robots accuracy
+is to more accurately define where the fixtures are relative to the robot.
+Usually a workcell is designed in Workspace, and then it is assembled on the
+factory floor. The actual, final position of the various fixtures are never
+exactly the same as they were designed, and this affects where the teachpoints
+are generated. The solution to this is to use a signatured robot to measure the
+location of three well defined points on the fixture. By bringing these
+positions into Workspace (as teachpoints), the model can be adjusted accordingly
+to re-position the fixture in the exact location of the real fixture. This, in
+turn, improves the accuracy of the final program.
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">The best thing about these two
+methods is that the software to use them is seamlessly integrated into
+Workspace. There are no separate programs to learn or third-party developers you
+have to work with. One solution from one supplier.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P>
+<B><FONT SIZE="+2">How do I share my simulations with others?
+</FONT></B><BR>
+<IMG ALIGN="BOTTOM" SRC="20space.gif">If another company you work with, like a
+system integrator or installer, also has Workspace, then you can simply exchange
+Workspace models and programs. This allows two companies to work closely
+developing and implementing a robotic workcell.<BR>
+<IMG ALIGN="BOTTOM" SRC="20space.gif">Most of the time, however, the people you
+would like to share your simulations with do not have Workspace. In that case,
+you can create an animation, or short movie, of the Workspace simulation. This
+is done by using the AVI file format to create an
+animation from within Workspace that<IMG
+ALIGN="LEFT" SRC="wjet.gif" BORDER="1" VSPACE="10" HSPACE="10" WIDTH="200" HEIGHT="139">
+can be replayed on any PC with Microsoft Windows 3.1 or higher, whether they
+have Workspace or not. Any animation created in Workspace
+can be replayed on any PC. This allows for
+real-time playback of an animation.<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">Animation
+files can be used to show a prospective customer how you plan to construct
+his/her workcell, or as part of a proposal to get a new project approved. It is
+also a very helpful way to convey the sometimes difficult task of how you plan
+to operate a workcell. Looking at a three dimensional simulation is a lot more
+descriptive than trying to decipher a two dimensional blueprint. Be sure to
+download some sample animations below to see how this works.
+</P></TD></TR><TR><TD VALIGN="TOP" COLSTART="1"><IMG
+ALIGN="TOP" SRC="pingreen.gif"></TD><TD COLSTART="2"><P>
+<B><FONT SIZE="+2">What is the best way to learn how to use Workspace?</FONT></B>
+<BR><IMG ALIGN="BOTTOM" SRC="20space.gif">The best way to learn how to use
+Workspace is by coming to one of our
+<A HREF="http://www.rwt.com/wsinfo/training/schedule.html" target="Main">training classes</A>.
+Training is offered once a month in 
+<A HREF="http://www.wbbhtv.com/weather.htm" target="Main">
+sunny Southwest Florida.</A>
+</P></TD></TR>    
+</TABLE>
+
+<P><A HREF="http://www.rwt.com" target="_parent"><IMG
+ALIGN="MIDDLE" SRC="home.gif" ALT="Home" HSPACE="10" BORDER="0"></A>Back to
+<A HREF="http://www.rwt.com" target="_parent">RWT Home Page</A></P> 
+<H6><a href="../copyright.html" target="Main">Copyright &#169; 1996 Robotic
+Workspace Technologies, Inc. All rights reserved.</a><BR>
+For more information, contact RWT at <A HREF="mailto:info@rwt.com"><EM>info@rwt.com</EM></A><BR></H6>
+
+</BODY></HTML>
+</DOC>

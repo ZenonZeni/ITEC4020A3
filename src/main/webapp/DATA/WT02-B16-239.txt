@@ -1,0 +1,63 @@
+
+<DOC>
+<DOCNO>WT02-B16-239</DOCNO>
+<DOCOLDNO>IA060-000329-B023-75</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/econtacts2.html 205.168.79.27 19970115040857 text/html 3152
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 04:08:13 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:47 GMT
+Content-length: 2978
+</DOCHDR>
+<html>
+<head>
+<title>Types of Materials</title>
+</head>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<h2>Electrical Contacts</h2>
+<p><strong>Transparent Conductors</strong>
+
+<p>An alternative to grid contacts is a transparent conducting oxide (TCO) such
+as tin oxide (SnO<sub>2</sub>). The advantage of TCOs is that they are nearly invisible to incoming light, 
+yet form a good bridge from the semiconductor to the external circuit. TCOs are very useful in 
+manufacturing processes when a glass "superstrate" is used for depositing layers of 
+<a href="thinfilms.html">thin films</a> (such
+as those of amorphous silicon and cadmium telluride). In this process, the TCO is generally deposited
+as a thin film on the glass superstrate before the semiconducting layers. These layers are then
+deposited, followed by a metallic contact that will actually be the bottom of the cell. In this 
+manner, the cell is actually "built" upside down, from the top to the bottom.
+
+<p>But the construction technique isn't the only thing that determines whether a metallic grid or TCO is
+best for a certain cell design. The "sheet resistance" of the semiconductor is also an important 
+consideration. In crystalline silicon, for example, the semiconductor carries charge (electrons) well enough to
+reach a finger of the metallic grid. Because the metal conducts electricity better than a TCO does, 
+shadowing losses are less than the losses that would be associated with using a TCO. <a href="
+amorphous.html">Amorphous silicon</a>, on the other hand, conducts very poorly in the horizontal 
+direction and therefore benefits from having a TCO over every bit of its surface.
+
+<p><img border=0 align=left hspace=15 vspace=3 src="images/doe1c6.gif">
+<font color="#F79D00">In silicon (a), horizontal electron movement is sufficient to reach a finger
+of the metallic grid, making the grid contact preferable. Amorphous silicon (b) conducts very poorly
+in the horizontal direction and therefore benefits from having a TCO layer over its entire surface.</font>
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>[<a href="bandgaps.html">About Gand Gaps</a>]
+[<a href="sipolysi.html">Silicon</a>]
+[<a href="amorphous.html">Amorphous Silicon</a>]
+[<a href="thinfilms.html">Pollycrystalline Thin Films</a>]
+[<a href="gallium.html">Gallium Arsenide</a>]
+[<a href="multijunction2.html">Multijunction Cells</a>]
+[<a href="econtacts.html">Electrical Contacts</a>]
+<p>[<em>U.S. Department of Energy Photovoltaics Program, 1996</em>]
+</font>
+</center>
+</body>
+</html>
+</DOC>

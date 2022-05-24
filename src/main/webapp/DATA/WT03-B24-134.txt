@@ -1,0 +1,521 @@
+
+<DOC>
+<DOCNO>WT03-B24-134</DOCNO>
+<DOCOLDNO>IA053-000895-B046-78</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/tech/smallplus.html 129.174.40.15 19970123195853 text/html 24339
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:57:42 GMT
+Server: NCSA/1.5.2
+Last-modified: Wed, 20 Dec 1995 18:38:44 GMT
+Content-type: text/html
+Content-length: 24155
+</DOCHDR>
+<HTML>      
+<BODY bgcolor="FFFF80">
+<head>
+<title>Pat Farrell's Views on C++ versus Smalltalk</title>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+Under Construction. Feedback welcome.
+<h1>Language Wars Considered Harmful</h1>
+Many folks within AMS think that Smalltalk is "the AMS Standard."
+This is simply not true. What is true is that the first version 
+of Object Core was written in Smalltalk, and some of 
+the early OO work at AMS was written in one or another flavor of
+Smalltalk. However, AMS uses lots 
+of tools to build systems.
+<p>
+Popular tools used by AMS include:
+<ul>
+<li>C++
+<li>PowerBuilder
+<li>Visual Basic
+<li>plain old C
+<li>Cobol
+</ul>
+There is currently a large effort to build C++ ObjectCore. The first 
+release was shipped to internal AMS projects on September 1, 1995.
+<p>
+<h2>Abstract</h2>
+It is counterproductive to talk about comparing the <strong>languages</strong>
+C++ and Smalltalk. We do not develop in a language, we develop in
+a programming environment. 
+The programming environment includes obvious components such as
+the language, compiler, debugger, 
+editor, source code revision system.
+It also includes any existing program code such as copylibs, macros or
+pre-existing objects.
+<p>
+Mathematician and Computer Science
+pioneer Alan Turing proved that all languages are effectively identical,
+their results can be mapped to a Turing machine. What is important to
+managers and developers is the effectiveness of the programming environment.
+<p>
+I believe that the decision to select a specific tool is often
+flawed because the decision makers do not understand the impact of
+two critical factors:
+<ul>
+<li>The selection of criteria and their weighting drives the selected 
+solution without regard to the merit of the competing products. Once
+the criteria are selected, so it the answer. And
+<li>The decision can only be made according to the facts that are true
+at that single point in time. The rapid advances in the computer industry
+frequently result in changes that obsolete the analysis within months
+of its completion.
+</ul>
+The global AMS community is slowly beginning to realize 
+that the 1992 Smalltalk versus C++
+decision was not final. Most of the folks who took part
+in that decision process knew this then.
+This paper is a modest attempt to bring 
+that discussion into a more current realistic perspective and distribute 
+it to a wider audience.
+<h2>History</h2>
+AMS' decision to implement early OO systems in Smalltalk was strongly 
+influenced <i>Criteria for Comparing OO Languages</i>  by 
+John Baker and Jim Talvitie, published internally on May 21, 1992.
+This paper presents criteria for analysis in the style of Milt Hess' famous 
+<i>Writing Decision Paper</i> guide.
+<p>
+Unfortunately, Baker and Talvitie's paper did more than just define
+the criteria. It also attempted to make some judgment of the competing
+products. I believe that when there are large numbers of criteria (in this
+case, more than 20 pages of them), that the specification of
+the criteria and the evaluation of alternatives against those criteria
+should be separate activities. As they said in their paper:
+<pre>
+    "In many cases, these guidelines are contradictory and more
+     elaborate criteria must be considered."
+</pre>
+<p>
+With the paper, Baker and Talvitie presented the following criteria "as a
+starting point."
+<ol>
+<li>Productivity
+<li>Development Environment
+<li>Simplicity
+<li>Support for Distributed Processing
+<li>Interoperability with other Languages
+<li>Flexibility
+<li>Portability
+<li>Reusability of Code
+<li>Performance
+<li>Encapsulation
+<li>Database Support
+<li>Integration with GUI Tools
+<li>Prepackaged Code Libraries
+<li>Industry Acceptance.
+</ol>
+While I feel that this list has considerable duplication that results in 
+<a href=#Biases>biases[1],</a> <a name="backBiases">
+and that the <a href=#Ordering>ordering[2]</a>
+<a name="backOrdering">implies a relative weight that is inconsistent
+with AMS' real-world implementation experiences, this list can serve
+as a valid <i>starting point</i>.
+<p>
+One critical problem is that some of these criteria are extremely time
+sensitive. The developments of the past three and a half years
+have not been kind to their assessments on criteria such as 
+"Integration with GUI Tools,"  "Prepackaged Code Libraries," and
+"Industry Acceptance." 
+<p>
+There is a more fundamental problem with Baker and Talvitie's criteria and 
+subsequent analysis: they suggest that execution performance is not the
+most vital criteria. As I pointed out at the time, AMS' experience
+has shown that run-time execution speed of the application is critical.
+Slow application are not accepted by users. Batch systems that take twenty
+hours to do the "nightly" processing are not accepted. Performance counts.
+It is not the only criteria, but it has always been vital for success,
+and will remain so
+for the foreseeable future. 
+<h1>It is not the language, it is the development environment</h1>
+Since it is impossible to evaluate languages, we have to evaluate
+specific products that implement the language. I have <a href=#Experience>
+professional experience[3]</a>
+ with<a name="backExperience">:
+<ul>
+<li>Microsoft Visual C++
+<li>Borland C++
+<li>ParcPlace VisualWorks
+</ul>
+Within this document, I will differentiate between artifacts of the
+specific implementation, and differences that are architectural.
+Of course, as IBM's release of VisualAge (a true compiler for
+their Smalltalk implementation) shows, even the architectures can change.
+<h2>Performance</h2>
+In their paper's section on performance, Baker and Talvitie write:
+<p>
+"One cannot easily compare languages on performance <i>per se,</i>
+since performance depends upon how the language is used. A badly performing
+system can be written in any language."
+<p>
+These two sentences are true. But they imply that it is acceptable
+to ignore the essential performance differences between implementations.
+A more reasonable evaluation can be made if you ask a question similar to:
+"What are the differences between the execution performance of 
+implementations that are identical except for the tools used? If we code
+two solutions to the same problem, and expend a 
+<a href=#SimilarEffort>similar amount[4] </a> 
+<a name="backSimilarEffort">
+of tuning effort, can we expect to see significant 
+differences?" This is the question
+that is critical when (and it is not a question of "if") the 
+performance of the system becomes
+an acceptance issue.
+<p>
+The performance characteristics of the implementations depends on a lot of
+issues. I would not place nearly as much importance on "degree of support
+for static binding" as did Baker and Talvitie. This discussion assumes
+that the algorithms are implemented with relative 
+parity (not O(n^2) for one language against O(n ln n) for the other).
+<p>
+For modern computer systems, I believe that the most important
+criteria are:
+<ul>
+<li>Compatibility with the Operating Systems process/thread 
+scheduling and management. 
+<li>Compatibility with the Operating System's virtual memory management
+(VMM) system. All AMS programs are huge. Virtual memory is effective when the 
+program has good locality of reference.
+<li>Compatibility with the advanced features of modern CPUs, including
+parallel instruction execution, speculative execution, register
+renaming, etc.
+</ul>
+VisualWorks has a very arrogant approach to the Operating System. It 
+essentially ignores it. It has its own scheduler and process implementation.
+Because of its "polling" approach to window and process scheduling,
+it is effectively impossible to multi-task VisualWorks with other
+applications on a single CPU, even when the operating system supports
+preemptive multitasking. VisualWorks simply consumes 100% of the available
+CPU. The stories of folks expecting to support many users with X-Terminals
+on a Unix system and discovering the feature that a practical limit is
+three or four images are legendary.
+<p>
+It is unclear whether any OO development tool makes any provisions to 
+consider compatibility with any VMM.
+<p>
+All modern C++ compilers know to eliminate the considerable call/return
+setup overhead for inlined functions. For small functions, the resulting
+code has better locality than it would if they were executed as
+traditional subroutines.
+<p>
+Modern CPUs can only reach their impressive speeds when the code is tuned
+for the specific characteristics of the CPU. Hand coded assembler is 
+no longer the way to write fast code, only an optimizing compiler can
+perform the instruction scheduling, loop unrolling, and graph analysis
+functions that are needed to reach peak speed.
+<p>
+My Smalltalk experience was with VisualWorks, an implementation of Smalltalk that
+"compiles" source code into "byte-code" which is a machine independent
+encoding that is more compact and faster to execute than pure source code.
+This approach was called "p-code" by the UCSD Pascal system. A similar
+approach is used by Sun Microsystem's <a href="./java.html">JAVA</a> language. 
+Regardless
+of the quality of the virtual machine, the execution time will not
+approach that of native, compiled code.
+There is simply no way that an interpreted language's virtual machine
+can perform the required optimizations. 
+The Intel Pentium Pro has a nine stage pipeline. Only when all nine stages
+are consistently filled can it approach its performance potential.
+With the small size of OO routines (in either language) there
+will be processor stalls even if all of the functions of the routine
+were converted into optimal assembly instructions. The optimization must
+look at larger units of work.
+Modern CPU performance requires
+optimizing compilers. Note: this is an implementation issue, not a language 
+issue. VisualWorks, <a href="./java.html">JAVA</a>, and UCSD Pascal are three separate languages.
+Additionally, I've been told that IBM's VisualAge Smalltalk actually
+produces code that is compiled into true, optimizable, machine instructions.
+<p>
+<h2>With the benefit of hindsight</h2>
+Let's revisit the three that have not aged well. They are:
+<ul>
+<li>Integration with GUI Tools
+<li>Prepackaged Code Libraries
+<li>Industry Acceptance.
+</ul>
+and look at them in some detail.
+In 1992, when the paper was written, C++ had some
+impact into the Unix world, but the Unix world was
+still populated by large, expensive multi-user systems and high-end
+workstations.
+In the PC world, C++ was virtually invisible,
+GUI development was done in C using the Windows SDK -- hardly an OO 
+environment. Today, the picture is completely changed. While the
+quantitative lead in PC GUI development is held by tools such as
+VisualBasic and PowerBuilder, serious work is done with C++, specifically
+Microsoft's Visual C++.
+
+<h3>Integration with GUI Tools</h3>
+In 1992, C++ GUI tool integration was essentially non-existent.
+Today, there are essentially no differences in the ease of design and
+implementation of GUI code between the
+current Visual C++ (release 4.0) and Smalltalk.
+<p>
+One could even argue that a complete switch has occured due to Visual C++'s
+support for VBX controls. There is a rich market of third party
+products that make GUI building in both Visual C++ and VisualBasic
+much more productive than the language products themselves.
+<h3>Prepackaged Code Libraries</h3>
+Code Libraries for C++ are standardized today in a way
+few could have foreseen in 1992. Then, Baker and Talvitie 
+accurately characterized it as "fairly chaotic." Today, the class library
+for mainstream C++ programmers is Microsoft's MFC (Microsoft Foundation 
+Classes). I'm not about to try to defend MFC's many warts here, that 
+would be clearly out of scope for this document.
+<p>
+Rather, we need to simply observe the market acceptance of MFC. It is offered
+by Microsoft for Windows 3.1x, Windows NT, Windows 95, and for the Macintosh.
+It is licensed by several competing compiler vendors including Watcom and
+Symatec. It has been ported to the X-Windows/Unix world by 
+<a href="./bristol.txt">Bristol Technologies,</a>
+and is currently being ported to VMS by Digital.
+<a href=" http://www.infoworld.com/pageone/testcenter/49altsol.htm">
+(For a mini-review of MFC/Bristol's approach, follow this link)</a>
+<p>
+Additionally, it is no longer necessary to pick only one class library.
+ANSI strings are now part of C++, as are the Standard Template Library
+collections. These are supported by all modern C++ compilers. The issue
+of code libraries has been replaced by worries about Microsoft's
+dominance.
+<p>
+The concept of focusing on the class library may be outdated. This view that
+the libraries are important is traditional for pure OO languages. 
+Microsoft's OLE is designed to use a different pattern:  reuse
+components that stay encapsulated in separate executables. This allows
+reuse between programs written in dissimilar languages. Given the difficulty
+of reaching consensus on language choise (see Baker and Talvitie or even this
+document as proof), perhaps code libraries are obsolete.
+<p>
+I expect that until a totally new programming model, such as <a href="./java.html">JAVA</a> on
+the Web, can displace Microsoft's overwhelming popularity, MFC is the answer
+when the question is "what class library do I use for my C++ work?"
+<h3>Industry Acceptance.</h3>
+Baker and Talvitie wrote
+"At the moment, it seems clear that C++ has wider acceptance, especially, but
+not only, in the Unix world." I believe that in today's PC world, MS Visual 
+C++ has vastly greater acceptance than all flavors of Smalltalk combined.
+<p>
+Baker and Talvitie's closing statement in their paper is "The Ultimate
+ability of either Smalltalk or C++ to penetrate the
+commercial world of AMS clients will probably be decided by factors other
+than pure technical merit." I have to give them credit for accurately
+forecasting the future. It is Microsoft's marketing power, together with
+a couple of lucky breaks (such as adding VBX support into Visual C++)
+that have changed the penetration numbers. For now, Smalltalk is
+relegated to niche markets.
+<h2>Additional criteria to consider</h2>
+In addition to the criteria suggested by Baker and Talvitie, I suggest
+that any evaluation that takes place now consider the following:
+<ul>
+<li>Compliance with the native Operating System look and feel. Windows 95 has
+a very different look-and-feel. While acceptance has been slow, in a few
+years it will be on our customer's desks. VisualWorks did not provide
+an accurate Windows look and feel in the four years between Windows 3.0 
+release (May 1990) and when I stopped developing using the package (December
+1994). How long will our customers be willing to delay requiring Win95?
+<li>Timeliness of the vendor's acceptance of new industry developments.
+Microsoft's pushes into new technology for component reuse,
+such as OLE, OLE automation, and
+distributed OLE, will be expected by our customers.
+When will the toolsuite support these developments?
+<li>Cost premium afforded skilled staff with experience with the tools.
+Staff experienced with OO tools are expensive. What level of premium 
+are we willing to pay? How do we trade off these premiums against
+vendors' claims of increased productivity?
+</ul>
+<h2>Dead Issues</h2>
+Issues that only fan the flames rather than showing light.
+<p>
+Over the past few years, the C++ community has liberally copied good ideas 
+that were once exclusively the property of Smalltalk. C++ has 
+run-time-type-interface (RTTI) which provides the delayed binding
+that Smalltalk provides. Even before it supported RTTI, Microsoft's Visual C++
+provided a dynamic runtime facility.
+The class browser of Microsoft's Visual C++ 4.0
+is comparable to that on VisualWorks. Several companies offer products that
+replace the C++ memory management system with a Smalltalk-style
+garbage collection system. For example, look at
+<a href="http://www.geodesic.com">Geodesic system's</a>
+<p>
+Similarly, the speed of the edit-compile-link-debug cycle has improved
+dramatically in C++ implementations with the use of precompiled headers, 
+incremental compilation and incremental linkers. Smalltalk, like other 
+interpreted languages used to have a substantial advantage. I recently timed
+the compile-link-debug cycle time at less than six seconds 
+for a Windows program using MSVC4.0 on
+my old 486/66. 
+The program used all of the huge Win32 header heirarchy, which takes a very
+long time to compile from scratch. Smart implementations have removed this
+as an effective criteria for discrimination. 
+<p>
+One prime issue used to be that C++ supported multiple inheritance (MI).
+This issue has considerably less interest today. MI
+is at best a very dangerous tool. I've worked on two projects that
+tried to use MI, both pulled it out as unworkable.
+
+<h2>An Issue that I wish were dead: portability</h2>
+Portability is a major issue. It is much more of an issue for
+AMS than for most other software developers because of the nature
+of our client base. A large percentage of AMS' customers are
+in one of the following groups:
+<ul>
+<li>The US Federal Government;
+<li>Telecommunications firms; and
+<li>Educational Institutions.
+</ul>
+These three groups are about the only computer users in existance that still
+think that Unix is viable on the desktop. The majority of the rest
+of the industry simply puts a version of Windows on the desk and moves
+on.
+<p>
+Portability is expensive. It is easy for the customers to specify, and
+it is very hard to deliver.
+<p>
+Portability of the desktop application is an area that Smalltalk claimed to
+own when Baker and Talvitie's paper was written.
+And at a high level, VisualWorks Smalltalk delivered. It was possible
+to take a Smalltalk image (program) file, move it to a new platform, and
+execute it. There were very few changes needed, demonstrably better than
+any C or C++ implementation that I've worked with.
+
+<p>
+This portability came at a significant price, primarily performance
+and compliance with the native look-and-feel. As mentioned above, 
+VisualWorks only approximated the native look and feel of the underlying
+operating system. The application worked the same on all platforms. 
+It never matched the
+expected look and feel of other, native applications. This became a serious
+acceptance criteria when FMS was delivered to Columbia University.
+<p>
+The current C++ Object Core development team is committed to delivering
+identical functionality on three platforms, Sun Sparc with Solarias, 
+HP PA with HP/UX, and Windows NT. While we don't have exact figures
+on the cost of writing, porting, testing, and maintaining the codebase
+on the three platforms, I estimate it as at least 30% of the total project
+effort. I could believe that it has cost as much at 50% of the total
+project effort. What I can't tell is whether or not this increase
+in cost was worthwhile. In a year, I expect that the penetration of
+Windows NT Servers will be significant. Would a decision to write only 
+for Windows NT appear better then? Only time will tell.
+
+<h2>Where are we now, using the 30 month old criteria?</h2>
+In the interest of time, I haven't revisited every criteria. You can either
+accept my quick assessment, or invent your own. You might even
+be able to convince me to change some of these.
+<p>
+The fact that this document doesn't go into depth on a criteria doesn't mean
+that it should be ignored. For example, I feel that the 
+encapsulation that C++ compilers
+require for "private" functions and variables is much more powerful
+than the Smalltalk protocol of labeling a group of functions "private" and
+hoping that no programmer looks behind the curtain.
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD>Critieria for Comparing OO Languages.
+</td><td>MSVC++</td>
+<td>Visual Works</td></TR>
+<TR><TD>Productivity</td><td> = </td><td> =  </td></tr>
+<TR><TD>Development Environment</td><td> = </td><td> = </td></tr>
+<TR><TD>Simplicity</td><td> - </td><td>  + </td></tr>
+<TR><TD>Support for Distributed Processing</td><td> + </td><td> . </td></tr>
+<TR><TD> Interoperability with other Languages</td><td> + </td><td>only C-style</td></tr>
+<TR><TD> Flexibility</td><td> + </td><td> . </td></tr>
+<TR><TD>Portability</td><td> +  </td><td> ++ </td></tr>
+<TR><TD>Reusability of Code</td><td> = </td><td> = </td></tr>
+<TR><TD> Performance</td><td> ++  </td><td> - </td></tr>
+<TR><TD> Encapsulation</td><td> + </td><td> . </td></tr>
+<TR><TD>Database Support</td><td> + </td><td> . </td></tr>
+<TR><TD>Integration with GUI Tools  </td><td>= </td><td> = </td></tr>
+<TR><TD>Prepackaged Code Libraries  </td><td>= </td><td> = </td></tr>
+<TR><TD>Industry Acceptance. </td><td>  +++ </td><td> -  </td></tr>
+</TABLE>
+</CENTER>
+Then adding in the additional criteria described in this paper.
+
+
+
+<CENTER>
+<TABLE COLSPEC="C20 C20 C20 C20" BORDER=2>
+<TR><TD>New Critieria for Comparing OO Languages.
+</td><td>MSVC++</td>
+<td>Visual Works</td></TR>
+<TR><TD>OS scheduling and management. </td><td> + </td><td> -  </td></tr>
+<TR><TD>virtual memory management(VMM).</td><td> + </td><td> - </td></tr>
+<TR><TD>Optimizing compiler</td><td> + </td><td>  - </td></tr>
+<TR><TD>OS Native Look and Feel</td><td> ++ </td><td> - </td></tr>
+<TR><TD>Timeliness of new developments</td><td> + </td><td> - </td></tr>
+<TR><TD>Cost premium for Staff</td><td> ? </td><td> ? </td></tr>
+</TABLE>
+</CENTER>
+<h2>Conclusion</h2>
+It is counterproductive to talk about comparing the <strong>languages</strong>
+C++ and Smalltalk. We do not develop in a language, we develop in
+a programming environment. 
+The programming environment includes obvious components such as
+the language, compiler, debugger, 
+editor, source code revision system.
+It also includes any existing program code such as copylibs, macros or
+pre-existing objects.
+<p>
+Given the competitive nature of the computer industry, rapid advances
+are being made in the quality of development environments. We must be aware
+that we are shooting at a moving target. Even this document is probably
+dated as it is written. After a few months pass, any product specific
+information will be outdated.
+<p>
+The global AMS community is slowly beginning to realize 
+that the 1992 Smalltalk versus C++
+decision was not final. Most of the folks who took part
+in that decision process knew this then.
+This paper is a modest attempt to bring 
+that discussion into a more current and realistic perspective.
+By using the WWW, I hope to distribute 
+it to a wider audience.
+<hr>
+<h2>Footnotes</h2>
+<a name="Biases">
+[1]<br>
+For example, if the weighting is uniform, then by repeating areas
+such as productivity, simplicity, and Integration with GUI tools
+as three separate topics, they have three times the weight as
+a topic, such as performance, that is not repeated. If the weightings
+are ordered more heavily towards the top of the list, since productivity is
+number one, and simplicity is number three, the effect is even stronger.
+<a href=#backBiases>Back to the text</a><br>
+<a name="Ordering">
+[2]<br>
+I find the placement of Performance as 8th out of 14 as
+wildly inconsistent with AMS experience. And making Industry
+Acceptance dead last would imply that we prefer to build everything
+ourselves -- hardly a prescription for reuse.
+<a href=#backOrdering>Back to the text</a><br>
+<a name="Experience">
+[3]<br>
+I define professional experience as AMS paying me to write programs in a specific 
+language.
+<a href=#backExperience>Back to the text</a><br>
+<a name="SimilarEffort">
+[4]<br>
+Here is an example of how criteria are interdependent.
+If one tool provides superior productivity, it is possible that
+the development will be done much more quickly, allowing
+for a greater amount of tuning effort without exceeding the
+development budget. This assumes that we haven't already
+spent the development savings elsewhere.
+<a href=#backSimilarEffort>Back to the text</a><br>
+
+
+<hr>
+Copyright (c) 1995, Patrick Farrell, all rights reserved.
+<hr>
+<A HREF="./disclaimer.html"> PDF</a> 
+December 18, 1995  
+  Backto <a href="./default.htm">Pat's AMS Intranet page</a>
+  Backto <a href="./hotlist.html">Pat's hotlist</a> 
+  Backto <a href="./biopage.html">Pat's Biographic page </a>
+</body>
+</HTML>
+</DOC>

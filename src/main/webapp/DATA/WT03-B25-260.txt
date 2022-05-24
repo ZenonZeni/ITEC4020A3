@@ -1,0 +1,162 @@
+
+<DOC>
+<DOCNO>WT03-B25-260</DOCNO>
+<DOCOLDNO>IA029-000311-B010-179</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/eocpln8.htm 138.44.40.1 19970114160714 text/html 9166
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:05:31 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:06 GMT
+Content-length: 8992
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>EOC SCIENCE PROJECTS PLAN</TITLE>
+</HEAD>
+<BODY>
+<H2>4. EOC SCIENCE PROJECTS PLAN<BR>
+<HR></H2>
+The EOC Science Plan has been based on the recommendations of the Simpson
+Report (Simpson <I>et al</I>., 1995), the Draft Science Plan Discussion
+Document (Graetz <I>et al</I>., 1995), and a document supporting the appointment
+of the Science Program Leader (Jupp, 1995). These have lead to the formulation
+of the EOC Strategic Science Plan. The Science Projects Plan has also been
+based on the document supporting the common software initiative (Prata,
+1996) and incorporates ideas presented in a document presented at the AVHRR
+Working Group at the 8th Australasian Remote Sensing Conference on the implementation
+of standards (Jupp, 1996b, McVicar, 1996). All of these documents may be
+accessed at the EOC WWW site (http://www.eoc.csiro.au).<BR>
+<BR>
+Some EOC Tasks exist already and others have already progressed through
+the Working Group phase and are initial Tasks for the EOC to address. The
+most pressing of these is in the area of AVHRR processing which can be classed
+as forming an Implementation Team to resolve the problem of there being
+no accepted CSIRO standard of processing. It is therefore proposed that
+a primary initial new EOC task be defined to address the AVHRR processing
+issue and that proposals for Working Groups be invited to develop the project
+portfolio for the EOC. The AVHRR area has already been examined by a Working
+Group (Prata <I>et al</I>., 1996) and its recommendations form a basis for
+the steps outlined below. 
+<H3><A NAME="anchor15458863"></A>4.1 Existing Projects</H3>
+The existing projects and special budget items are: 
+<BLOCKQUOTE>1. Global change<BR>
+2. Global 1km data archive<BR>
+3. Support for international project &amp; working group activities<BR>
+4. Support for TERSS &amp; WASTAC<BR>
+5. Data acquisition &amp; Networks<BR>
+6. Information Products<BR>
+7. Information Management Systems<BR>
+8. CIGSN<BR>
+9. GMS Pathfinder<BR>
+10. EOC Calibration and Spectral Laboratory Development<BR>
+11. Various small applications projects</BLOCKQUOTE>
+CIGSN will be invited to merge with the new developments in CalVal, GMS
+Pathfinder will merge with the generic studies and CalVal and the small
+applications will be invited to refine their activities in the light of
+EOC objectives and activities.<BR>
+<BR>
+The area of Data Acquisition and Networks will be reviewed after an EOC/DIT
+Working Group has examined possible utilisation of the DHPC CRC data network.
+The Information Management Systems may be reviewed after the CEOS Plenary.<BR>
+<BR>
+Funds will continue to support attendance at PI/AO or other scientific meetings,
+CEOS &amp; MODIS Working Groups, support an EOC Fellow and provide contributions
+to various data collection enterprises. 
+<H3><A NAME="anchor15459543"></A>4.2 AVHRR Processing Implementation</H3>
+As a result of recommendations by the COSSA Steering Committee, the operations
+in AVHRR data acquisition and processing at Aspendale and Hobart have been
+assessed to increase effectiveness and maximise the benefits of the work
+that has been done at the two sites for the benefit of the respective Divisions
+and CSIRO.<BR>
+<BR>
+As initial steps in this process, it was decided to phase out data acquisition
+at Aspendale and data are now supplied from the facility at Hobart. Data
+from Hobart, Townsville, Darwin, Manila and Casey are also being supplied
+to and archived through the Global One-kilometre data project in Canberra.
+However, it is clear that the process has further to go and must involve
+a development of a common base of software (Prata, 1996) and the definition
+and incorporation of best practice algorithms. This will provide a proving
+ground for CSIRO's approach to the data archiving and dissemination it needs
+and to the development of a strong and complementary relationship between
+CSIRO research and the operational data management activities of the Bureau
+of Meteorology.<BR>
+<BR>
+As an initial project focus that builds on the established base of the COSSA/MDP19/EOC
+progression and to meet the urgent user driven need to develop consistent
+and high quality standards in AVHRR processing it is proposed to: 
+<BLOCKQUOTE>1. Decide on the operation of the Hobart AVHRR receiving facility,
+including possible EOC management and relationship with Aspendale. Review
+cost structures and establish a cost effective source for raw data until
+it can be provided by a Bureau of Meteorology based data supply which is
+suitable for CSIRO researchers.<BR>
+2. With the Bureau of Meteorology and other data users and suppliers, implement
+and support the established new common data format. This has been established
+by cooperation between CSIRO and BoM.<BR>
+3. Establish a focused Science Team to specify in detail actions will support
+the short and long term common software and software engineering and developmental
+environment (CAPS) which has been proposed in the AVHRR Working Group (Prata,
+1996). The result will be an ATBD including algorithms specified in an industry
+standard Algorithm Description Language.<BR>
+4. Establish and demonstrate a base processing capability which consistently
+and measurably achieves 1km Root Mean Square (RMS) navigation errors and
+5% RMS calibration error levels. This will form the standard Base Product
+which has been developed as one which (if consistently produced to a certifiable
+standard) will satisfy a major class of end users.<BR>
+5. Actively promote the standards set with other data suppliers. In particular,
+AIMS, BoM and WASTAC. The achievement of these standards may not be by use
+of CSIRO common software although this is a desirable option.<BR>
+6. Establish and demonstrate the best CSIRO recommended options for cloud
+masking and removal of cloud and cloud shadow contaminated pixels. Establish
+and demonstrate the options available for NDVI image generation. Actively
+promote these with other data suppliers.<BR>
+7. Establish the CSIRO recommended advanced algorithms, publish them in
+an ATBD in the Algorithm Description Language and implement selected products
+in the CAPS system.<BR>
+8. Interact closely with AVHRR product suppliers, standards organisations
+and end users to define the best and most practical validation procedures
+currently available for AVHRR products.<BR>
+9. Establish the set of measurable standards for base and advanced processing
+and establish the sites and tools to demonstrate the benefits of following
+well defined standards to Australian and other users.<BR>
+10. Develop the One-kilometer data set as an Australian continent and Extended
+Economic Zone (EEZ) wide base data set to the established consistent base
+standard in the new format. Promote the eventual operation and management
+of the facility as an Agency responsibility provided the time series remains
+accessible to CSIRO researchers.</BLOCKQUOTE>
+Activities 4, 6, 7 and 10 will be developed in the Canberra EOC Headquarters
+with collocated staff from Hobart, Aspendale and Canberra. Activity 9 will
+be done in conjunction with the EOC calibration &amp; validation activity.
+The common software base for product development will be available to the
+participating groups for future work in AVHRR applications meeting the client
+needs of the Divisions and the make-up of the advanced algorithm set will
+be defined with close cooperation and participation of CSIRO Divisions and
+other contributing groups.<BR>
+<BR>
+The lack of a consistent base standard in Australia is a national problem
+that CSIRO can show leadership to resolve. It will provide an underpinning
+base for the advanced CSIRO products and the advanced end user oriented
+product development that will meet the needs of CSIRO Sector clients.<BR>
+The plan for this activity is to satisfy the immediate needs by setting
+a small group to work within an adequate but short timeframe to complete
+and demonstrate the base processing software standards within the first
+year of full EOC operation (1996/97). The goals can be achieved with a critical
+mass of scientists and support staff that currently exist at the EOC and
+in Divisions and are engaged at least partially in this activity. The advanced
+algorithms will be implemented in the second year. At present as described
+in the Simpson Report (Simpson <I>et al</I>., 1995), AVHRR processing activity
+is variable, research fragmented and the products not fully effective. This
+is especially the case with software where the existence and operation of
+widely varying software suites (sometimes evolving from the same initial
+base) has created many problems.<BR>
+<BR>
+<HR><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="eocpln7.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="eocpln8a.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" 
+HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<HR>
+</BODY>
+</HTML>
+</DOC>

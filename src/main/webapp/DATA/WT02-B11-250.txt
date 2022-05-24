@@ -1,0 +1,381 @@
+
+<DOC>
+<DOCNO>WT02-B11-250</DOCNO>
+<DOCOLDNO>IA086-000618-B039-181</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/hypermail/cis899/0012.html 130.91.195.242 19970122050507 text/html 19940
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 05:04:59 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 19768
+Last-modified: Sun, 24 Sep 1995 00:50:26 GMT
+</DOCHDR>
+<!-- received="Wed Sep 20 06:31:00 1995 EDT" -->
+<!-- sent="Wed, 20 Sep 1995 06:30:53 -0400" -->
+<!-- name="David Farber" -->
+<!-- email="farber@central.cis.upenn.edu" -->
+<!-- subject="1994 online debate between John Perry Barlow of the" -->
+<!-- id="v02110113ac859d96bb26@[130.91.88.102]" -->
+<!-- inreplyto="" -->
+<title>CIS 899: Electronic Commerce: 1994 online debate between John Perry Barlow of the</title>
+<h1>1994 online debate between John Perry Barlow of the</h1>
+David Farber (<i>farber@central.cis.upenn.edu</i>)<br>
+<i>Wed, 20 Sep 1995 06:30:53 -0400</i>
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0013.html">David Farber: "THE CLIPPER CHIP: A TECHNICAL SUMMARY"</a>
+<li> <b>Previous message:</b> <a href="0011.html">David Farber: "Getting Started with MacPGP"</a>
+<!-- nextthread="start" -->
+</ul>
+<!-- body="start" -->
+March 10, 1994 online debate between John Perry Barlow of the Electronic<br>
+Frontier Foundation, and Dr. Dorothy Denning, over the Clipper Chip<br>
+scheme, from the Time Online forum of America On Line.<br>
+<p>
+<p>
+<p>
+3/10/94 8:49:41 PM Opening "Chat Log 3/10/94 CLIPPER" for recording.<br>
+<p>
+<p>
+<p>
+OnlineHost  : Good evening and welcome to the Time Online Odeon! Tonight we<br>
+look from both sides at the Clipper Chip, a semiconductor device that the<br>
+National Security Agency developed and wants installed in every telephone,<br>
+computer modem and fax machine.<br>
+<p>
+OnlineHost  : In his article in the current issue of TIME, Philip<br>
+Elmer-DeWitt writes: "The chip combines a powerful encryption algorithm<br>
+with a ''back door'' -- the cryptographic equivalent of the master key that<br>
+opens schoolchildren's padlocks when they forget their combinations. A<br>
+''secure'' phone equipped with the chip could, with proper authorization,<br>
+be cracked by the government.<br>
+<p>
+OnlineHost: "Law-enforcement agencies say they need this capability to keep<br>
+tabs on drug runners, terrorists and spies. Critics denounce the Clipper --<br>
+and a bill before Congress that would require phone companies to make it<br>
+easy to tap the new digital phones -- as Big Brotherly tools that will<br>
+strip citizens of whatever privacy they still have in the computer age.<br>
+<p>
+OnlineHost: "Lined up on one side are the three-letter cloak-and-dagger<br>
+agencies -- the NSA, the CIA and the FBI -- and key policymakers in the<br>
+Clinton Administration (who are taking a surprisingly hard line on the<br>
+encryption issue). Opposing them is an equally unlikely coalition of<br>
+computer firms, civil libertarians, conservative columnists and a strange<br>
+breed of cryptoanarchists who call themselves the cypherpunks."<br>
+<p>
+RPTime: Lined up on our stage tonight are John Perry Barlow, Dr. Dorothy<br>
+Denning and Philip Elmer-DeWitt. Barlow is co-founder of the Electronic<br>
+Frontier Foundation, which promotes freedom in digital media. A recognized<br>
+commentator on computer security, he is arguing against the Clipper Chip<br>
+Dr. Denning is the chairperson of the Computer Science Department at<br>
+Georgetown University. A leading expert on cryptography and data security,<br>
+she favors the adoption of the Clipper Chip. Philip Elmer-DeWitt, TIME's<br>
+technology editor will lead the questioning of our guests. Audience<br>
+questions may be sent up using the Interact with Host function....Phil?<br>
+<p>
+PhilipED: Dr. Denning, could you *briefly* make the case for why we need<br>
+the key escrow encryption system.<br>
+<p>
+DDenning: The government needs a new encryption standard to replace DES.<br>
+They came up with a very strong algorithm called SKIPJACK. In making that<br>
+available, they didn't want to do it in a way that could ultimately prove<br>
+harmful to society. So they came up with the idea of key escrow so that if<br>
+SKIPJACK were used to conceal criminal activity, they would be able to get<br>
+access to the communications.<br>
+<p>
+PhilipED: THanks. Mr. Barlow, could you briefly make the case *against*<br>
+Clipper. We'll see if I can be brief. We oppose Clipper in large part<br>
+because of the traffic analysis which it makes possible. We believe that it<br>
+is in the functional nature of the chip as designed to greatly enhance the<br>
+ability of government to observe who we are calling, when, and from where,<br>
+all fairly automatically and centrally. We also oppose Clipper because of<br>
+the many way in which we believe the escrow system could be compromised, by<br>
+people and institutions both inside and outside of government.<br>
+<p>
+PhilipED: Dr. Denning, what about John's contention that Clipper makes it<br>
+easier to detect calling patterns.<br>
+<p>
+DDenning: I don't buy this. First off, for law enforcement to access any<br>
+communications, they need a court order. Even if the communications are<br>
+encrypted. Second, with a court order, they can get access to call setup<br>
+information and find out what other lines the subject of the investigation<br>
+is talking to. This is of much more use than anything in the encrypted<br>
+stream.<br>
+<p>
+PhilipED: John, is Dorothy right that you need a court order for call set<br>
+up info?<br>
+<p>
+Barlow1: Dorothy, the government asked for and received over 100,000<br>
+calling records last year without a court order. I see nothing in the<br>
+Clipper documents which indicates that they would require a court order to<br>
+get this kind of information, which each chip would make readily available<br>
+to the entire network.<br>
+<p>
+DDenning: You need a court order to do implement pen registers and dialed<br>
+number recorders in order to find out who is talking to whom.<br>
+<p>
+Barlow1: Furthermore, my faith in court orders has been eroded by 30 years<br>
+of government wiretap abuse.<br>
+<p>
+PhilipED: Aren't we talking about three different hurdles here, one for a<br>
+wiretap...<br>
+<p>
+Barlow1: But that's only with the present system where putting a pen<br>
+register on a line requires physical entrance to a phone company site.<br>
+<p>
+PhilipED: One for a pen register (to track calling patterns in real time)<br>
+and one for phone records.<br>
+<p>
+RPTime: Let's take a question from the audience... How would you guarantee<br>
+that this facility will never be misused? If you can't make that guarantee,<br>
+why should a democratic society, with a prohibition against prior<br>
+restraint, consent to this? John Barlow?<br>
+<p>
+Barlow1: There are three different sources of information, as you say. But<br>
+there are not three "hurdles." That sounds like a question for Dorothy. I<br>
+don't think we should, obviously.<br>
+<p>
+RPTime: Dr. Denning?<br>
+<p>
+DDenning: First of all, there has been no evidence of widespread abuse of<br>
+wiretaps since passage of the 1968 and 1978 wiretap statutes. Second, there<br>
+are a lot of security mechanisms going into it to protect against abuse.<br>
+Third, it will provide much greater protection against illegal wiretaps<br>
+than we have now, since almost all phone conversations are in the clear. It<br>
+will make virtually all illegal wiretaps impossible. Fourth, if for some<br>
+reason it doesn't provide adequate protection, we can destroy the key<br>
+databases and everyone will have absolute privacy against government<br>
+wiretaps. I don't think our society will tolerate that kind of abuse.<br>
+<p>
+PhilipED: John, isn't Dorothy right that you're better off with compromised<br>
+encryption than none?<br>
+<p>
+Barlow1: Gee, where to begin... First of all, there was plenty of abuse<br>
+after 1968. Remember Watergate, Dorothy? Second, I believe that Clipper in<br>
+the Net will dramatically *enhance* certain powers of...<br>
+<p>
+DDenning: I was talking specifically about wiretap abuses. And there hasn't<br>
+been any evidence since the 1978 law.<br>
+<p>
+Barlow1: surveillance over current technical abilities. One of the reasons<br>
+that wiretap hasn't been more abused is the bureaucratic overhead of<br>
+current practices. Make it so that it doesn't require 50 agents to conduct<br>
+a wire tap and you'll see a lot more of it. And Watergate included quite a<br>
+number of wiretap violations. Indeed, the burglers were caught trying to<br>
+install one. As to the assertion that we can always back up and destroy the<br>
+databases if we don't like it, I can't imagine that someone as bright as<br>
+yourself would believe that this is possible. Technology and power ratchet<br>
+into positions which almost never retract without a complete change in the<br>
+system of authority<br>
+<p>
+RPTime: Care to respond Dr. Denning?<br>
+<p>
+DDenning: Clipper would prevent the watergate burglars from getting<br>
+anywhere since they wouldn't have a court order. Clipper will not make<br>
+wiretaps cheaper or easier. Wiretaps are becoming more diffiults. And there<br>
+will always be more agents involved becasue they have to follow exacting<br>
+procedures, including minimization (throw out all conversations that are<br>
+not specific to the crime at hand).<br>
+<p>
+Barlow1: Dorothy, they were from the *Government* remember? I can't imagine<br>
+that Nixon wouldn't have been able to find a sympathetic ear from somebody<br>
+at NIST and somebody else at Treasury. Further, you're not talking about<br>
+the truly insidious element of this, which is dramatically improved traffic<br>
+analysis. Content is less important than context, and most agents will<br>
+support this.<br>
+<p>
+RPTime: Another question from the audience. JCMaille asks... Does the<br>
+government have a constitutional right of access to my personal<br>
+communications? Dr. Denning, why don't you go first?<br>
+<p>
+DDenning: The Supreme Court ruled that wiretaps with a court order are<br>
+Constitutional. At one time, communications were not even protected under<br>
+the 4th Amendment. The government could wiretap without a court order! Now<br>
+a court order is required.<br>
+<p>
+PhilipED: To put the question another way, do citizens have a right to use<br>
+powerful encryption?<br>
+<p>
+DDenning: Right now there are no laws preventing the use of any encryption.<br>
+Clipper is voluntary. You can still use something else.<br>
+<p>
+RPTime: We have to apologize. John Barlow has temporarily lost his<br>
+connection...<br>
+<p>
+PhilipED: Dr. Denning, in your opinion... would a law outlawing powerful<br>
+encryption be unconstitutional?<br>
+<p>
+DDenning: I don't think so. But that doesn't mean it will happen.<br>
+<p>
+RPTime: John Barlow is back with us. Sorry for the interruption! Barlow,<br>
+Denning just said she didn't think a law banning powerful encryption would<br>
+be unconstitutional What do you say? Hi folks. Don't know what happened.<br>
+Gald to be back Gald indeed!<br>
+<p>
+Barlow1: Actually, I believe that our current export embargoes are a<br>
+violation of the 1st Amendment which specify speech without regard to the<br>
+manner of speech. If we could restrict manner of speech, it would be<br>
+constitutional to require that everyone speak English. Which of course it<br>
+isn't<br>
+<p>
+PhilipED: John, can you make the case why ordinary law-abiding citizens<br>
+need powerful encryption?<br>
+<p>
+Barlow1: Because it is in the nature of digitally networked communications<br>
+to be quite visible. Everytime we make any sort of transaction in a digital<br>
+environment, we smear our fingerprints all over Cyberspace. If we are to<br>
+have any privacy in the future, we will need virtual "walls" made of<br>
+cryptography.<br>
+<p>
+RPTime: Another audience question... Isn't this like the gun argument? If<br>
+guns are outlawed only criminals will have guns? Well, if clipper is<br>
+standardized, won't criminals be the ones NOT using it?<br>
+<p>
+RPTime: Dr. Denning? If Clipper becomes the de facto standard, then it will<br>
+be the chief method of encryption. That would be what you'd get at Radio<br>
+Shack. What criminals use will depend on what is readily available and what<br>
+their cohorts are using. Both parties of a conversation have to use the<br>
+same thing. Criminals also talk to a lot of people outside their immediate<br>
+circle - e.g., to buy goods and services. Also, they can be quite stupid at<br>
+times. But the main thing is that criminals will not be able to take<br>
+advantage of the SKIPJACK algorithm as a way of concealing their<br>
+conversations. This is the whole point. It is not to catch criminals. It is<br>
+to allow people access to a really high quality algorithm in a way that<br>
+someone cannot use it to conceal criminal activity.<br>
+<p>
+Barlow1: The gun analogy is excellent up to a point. I can't for the life<br>
+of me imagine why we would think that even a stupid criminal would use<br>
+Clipper if something else were available. And when I talk to people in the<br>
+administration their big hobgoblin is the "nuclear-armed" terrorist. Any<br>
+fanatic smart enough to assemble and detonate a nuclear device is going to<br>
+be smart enough to download PGP from a bulletin board somewhere. Also, I'd<br>
+like to point out that the gun analogy doesn't go the whole distance.<br>
+Crypto is by its nature a purely *defensive* technology. You can't shoot<br>
+people with it.<br>
+<p>
+PhilipED: Speaking of PGP, Dr. Denning, is that encryption system secure,<br>
+in your opinion?<br>
+<p>
+DDenning: I don't know of anyone who's been able to break the IDEA<br>
+algorithm that it uses.<br>
+<p>
+RPTime: Back to the audience for a question from Steve HW.. This is for Dr.<br>
+Denning. What is the evidence of harm if the Clipper proposal is not<br>
+adopted?<br>
+<p>
+DDenning: The harm would be to the government. They would not be able to<br>
+use it and would have to resort to something less secure. Also, Clipper is<br>
+part of a larger project to make hardware available for encryption and<br>
+digital signatures. This will be used, for example, in the Defense Message<br>
+System. The goverment needs a new standard. I personally believe that<br>
+making really powerful encryption like SKIPJACK available without key<br>
+escrow could be harmful to society. Wiretaps have been essential for<br>
+preventing and solving many serious crimes and terrorist activities.<br>
+<p>
+Barlow1: Why on earth would the government have to use something else if<br>
+they failed to get the rest of rest of us to buy into this folly? Hey, they<br>
+are already using SKIPJACK. It's a government algorithm and has been in use<br>
+for a...<br>
+<p>
+DDenning: CPSR and others are asking the government to drop Clipper.<br>
+<p>
+Barlow1: long time. There are plenty other algorithms which we can use<br>
+which are truly protected... unless of course, this is only the first step<br>
+in a process which will outlaw other forms of crypto. And I believe that it<br>
+must be. Makes absolutely no sense otherwise. EFF is not asking the<br>
+Government to drop Clipper, though we would vastly prefer they did. We're<br>
+merely asking that no steps be taken to require it either by law or<br>
+practice...as, for example, would be the case if you had to use a Clipper<br>
+chip to file your tax return.<br>
+<p>
+PhilipED: Dr. Denning, do you think this is the "first step in a process to<br>
+outlaw crypto"?<br>
+<p>
+DDenning: No I do not. The government has not been using SKIPJACK to my<br>
+knowledge. The Clipper initiative represents the first time that the<br>
+government has put one of their really good algorithms out there in the<br>
+unclassified arena. They are trying to do this in a way that won't backfire<br>
+against the public. Other NSA developed algorithms are not available for<br>
+purchase by the public.<br>
+<p>
+Barlow1: I appreciate their willingness to make some of that crypto<br>
+research available to a public which has paid so much for it, but I'm<br>
+afraid that I would never trust an algorithm which was given to me by any<br>
+government. And I certainly don't trust a classified algorithm like<br>
+Skipjack, even without a back door which everyone can see. I think I'll<br>
+stick to systems which have been properly vetted to be clear of such<br>
+compromises, like RSA. I hope others will do likewise and that RSA will<br>
+become the standard which Clipper shouldn't be.<br>
+<p>
+RPTime: Time for one more question from our audience... To John Barlow.<br>
+Isn't society becoming increasingly vulnerable to concerted<br>
+criminal/terrorist disruption, requiring *stronger* law enforcement tools?<br>
+<p>
+Barlow1: Gee. I don't know. It's a scary world. However, I'm willing to<br>
+take my chances with the few terrorists and drug lords there are out there<br>
+rather than trusting government with the kind of almost unlimited<br>
+surveillance power which Clipper and Digital Telephony would give them.<br>
+It's a touch choice. But when you look at the evil perpetrated by<br>
+government over this century in the name of stopping crime, it far exceeds<br>
+that done by other organized criminals.<br>
+<p>
+RPTime: Dr. Denning, hasn't remote listening technology enhanced police<br>
+abilities to eavesdrop to the point... where the loss of a few wire taps<br>
+won't mean much?<br>
+<p>
+DDenning: No. They need to get the cooperation of the service providers to<br>
+implement a wiretap. The loss of some wiretaps could be costly indeed. As<br>
+an example, wiretaps were used to help solve a case that involved plans by<br>
+a Chicago gang from shooting down a commercial airliner. There have been 2<br>
+cases where they helped save the lives of kids who were going to be<br>
+kidnaped for the making of a snuff murder film. They helped solve a case<br>
+where a man's house was going to be bombed. I could go on. If we take<br>
+John's arguments about law enforcement to their logical conclusion, we'd<br>
+just get rid of law enforcement. I think it's better to have it. The people<br>
+in law enforcement hate it as much as the rest of us when some member of<br>
+the community does something wrong. And they correct it, design new<br>
+procedures and laws where necessary, and go on.<br>
+<p>
+Barlow1: Oh, please. I'm not proposing eliminating police. I'm opposing<br>
+giving them unlimited powers. Also,these are the same cases cited over and<br>
+over by everyone from you to Judge Freeh. Surely, we aren't going to<br>
+fundamentally change the balance of power in this country because of these<br>
+two (undocumented, to my knowledge) stories.<br>
+<p>
+DDenning: Clipper is not going to change the balance of power. It does not<br>
+give law enforcement any additional authority to do wiretaps.<br>
+<p>
+Barlow1: Well, this is where we basically disagree, Dorothy. If we could<br>
+continue the same level of LE capacity we presently have, I'd have no<br>
+objection. But I believe, for reasons I'm not sure we have the bandwidth to<br>
+discuss here, that we are talking about dramatically enhancing their<br>
+abilities. For one thing, we would greatly reduce the bureaucratic overhead<br>
+involved in wiretap, which is what keeps it under 900 cases nationwide at<br>
+the present.<br>
+<p>
+RPTime: And that will have to be the last word on the matter for tonight...<br>
+<p>
+DDenning: The overhead of a wiretap is more likely to increase, not decrease.<br>
+<p>
+PhilipED: Not quite! Maybe not! ;-)<br>
+<p>
+RPTime: THAT will be the final word!<br>
+<p>
+Barlow1: Well, let's get together and talk, Dorothy.<br>
+<p>
+RPTime: TIME thanks Dr. Dorothy Denning and John Perry Barlow for being<br>
+with us tonight... along with Philip Elmer-DeWitt. Thank you all, and<br>
+goodnight! Thank you both. This was very interesting.<br>
+<p>
+DDenning: Thank you for the opportunity to be here!<br>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0013.html">David Farber: "THE CLIPPER CHIP: A TECHNICAL SUMMARY"</a>
+<li> <b>Previous message:</b> <a href="0011.html">David Farber: "Getting Started with MacPGP"</a>
+<!-- nextthread="start" -->
+</ul>
+</DOC>

@@ -1,0 +1,250 @@
+
+<DOC>
+<DOCNO>WT02-B31-200</DOCNO>
+<DOCOLDNO>IA046-000824-B048-232</DOCOLDNO>
+<DOCHDR>
+http://www.greaterunion.com.au:80/survey.html 203.17.138.43 19970119072032 text/html 9618
+HTTP/1.0 200 Document follows
+Date: Sun, 19 Jan 1997 07:20:28 GMT
+Server: NCSA/1.4.2
+Content-type: text/html
+</DOCHDR>
+<HTML><HEAD><TITLE>Greater Union Online Survey</TITLE></HEAD>
+<BODY bgcolor="#040592" text="#FFFFFF" LINK="#ffde29" aLINK="#FFFFFF"  VLINK="#ffde29">
+<CENTER><IMG width=510 height=120 SRC="heads/fgublue.gif"><BR><BR>
+<IMG SRC="heads/survey.gif">
+</CENTER>
+<blockquote>
+
+The Greater Union WWW site has enjoyed enormous success since it was launched just three months ago, and we are committed to expanding and improving it in the near future. However, we need your help. Please take a moment to complete the following questionnaire. Your answers will determine what features and facilities should be added to make the Greater Union experience online as enjoyable as it is in any of our cinemas!<BR>
+
+
+
+<form method="POST" action="scripts/FormMail.cgi">
+<input type=hidden name=recipient value="spike@mpx.com.au">
+<input type=hidden name=redirect value="http://www.greaterunion.com.au/thanks.html">
+<input type=hidden name=errorpage value="http://www.greaterunion.com.au/error.html">
+<input type=hidden name=subject value="Survey Form">
+<input type=hidden name="origin" value="from Greater Union (www.greaterunion.com.au)">
+<input type=hidden name=email-text 
+value="Thanks for your valuable input! 
+
+And don't forget, the Greater Union Homepage is updated every week
+with new links, movie promos, and of course, new session times.
+So please make sure you visit us again soon!
+
+Greater Union Cinemas">
+<input type=hidden name=sort value="order:I-first-heard-about-the-Greater-Union-website-through,I-visit-this-website,Rating-for-Movie-Listing-by-Title,Rating-for-Movie-Listing-by-Area,Rating-for-Greater-Deals,Rating-for-Movie-Quiz,Rating-for-Movie-Magazine-Gossip,Rating-for-WWW-Movie-Links,Rating-for-Upcoming-releases,What-I-would-like-to-see-added-to-this-site,I-go-to-the-movies,If-online-ticketing-was-available-I-would-be,Sending-my-credit-card-details-via-net-is,I-been-surfin-da-net,Hours-I-spend-online-per-week,I-usually-access-the-net-from,Sex,First-name,Last-name,Street-PO-Box,Town-Suburb,State,Post-Code">
+
+
+
+<PRE>
+How did you first hear of the Greater Union World Wide Web (WWW) site?
+
+    <INPUT name="I-first-heard-about-the-Greater-Union-website-through" type="checkbox" value="Television advertising"> Television advertising
+
+    <INPUT name="I-first-heard-about-the-Greater-Union-website-through" type="checkbox" value="Newspaper cinema listing"> Newspaper cinema listing
+
+    <INPUT name="I-first-heard-about-the-Greater-Union-website-through" type="checkbox" value="Newspaper/magazine article"> Newspaper/magazine article
+
+    <INPUT name="I-first-heard-about-the-Greater-Union-website-through" type="checkbox" value="Link from another site"> Link from another site
+
+    <INPUT name="I-first-heard-about-the-Greater-Union-website-through" type="checkbox" value="Link from an Internet search engine"> Link from an Internet search engine
+
+Other (Please specify):
+    <TEXTAREA name="I-first-heard-about-the-Greater-Union-website-through" COLS=60 ROWS=4></TEXTAREA>
+
+How often do you visit the Greater Union WWW site:
+
+    <INPUT name="I-visit-this-website" type="radio" value="Daily"> Daily
+    <INPUT name="I-visit-this-website" type="radio" value="Weekly"> Weekly
+    <INPUT name="I-visit-this-website" type="radio" value="Intermittently"> Intermittently
+    <INPUT name="I-visit-this-website" type="radio" value="This is my first visit"> This is my first visit
+
+Rate from 1 to 10 (10 being highest) the following features on the site.
+
+Movie listing by Title: <SELECT NAME="Rating-for-Movie-Listing-by-Title">
+<OPTION>10
+<OPTION>9
+<OPTION>8
+<OPTION>7
+<OPTION>6
+<OPTION>5
+<OPTION>4
+<OPTION>3
+<OPTION>2
+<OPTION>1
+</SELECT>
+
+Movie Listing by Area:  <SELECT NAME="Rating-for-Movie-Listing-by-Area">
+<OPTION>10
+<OPTION>9
+<OPTION>8
+<OPTION>7
+<OPTION>6
+<OPTION>5
+<OPTION>4
+<OPTION>3
+<OPTION>2
+<OPTION>1
+</SELECT>
+
+Greater Deals:          <SELECT NAME="Rating-for-Greater-Deals">
+<OPTION>10
+<OPTION>9
+<OPTION>8
+<OPTION>7
+<OPTION>6
+<OPTION>5
+<OPTION>4
+<OPTION>3
+<OPTION>2
+<OPTION>1
+</SELECT>
+
+Movie Quiz:             <SELECT NAME="Rating-for-Movie-Quiz">
+<OPTION>10
+<OPTION>9
+<OPTION>8
+<OPTION>7
+<OPTION>6
+<OPTION>5
+<OPTION>4
+<OPTION>3
+<OPTION>2
+<OPTION>1
+</SELECT>
+
+Movie Magazine/Gossip:  <SELECT NAME="Rating-for-Movie-Magazine-Gossip">
+<OPTION>10
+<OPTION>9
+<OPTION>8
+<OPTION>7
+<OPTION>6
+<OPTION>5
+<OPTION>4
+<OPTION>3
+<OPTION>2
+<OPTION>1
+</SELECT>
+
+WWW Movie Links:        <SELECT NAME="Rating-for-WWW-Movie-Links">
+<OPTION>10
+<OPTION>9
+<OPTION>8
+<OPTION>7
+<OPTION>6
+<OPTION>5
+<OPTION>4
+<OPTION>3
+<OPTION>2
+<OPTION>1
+</SELECT>
+
+Upcoming releases:      <SELECT NAME="Rating-for-Upcoming-releases">
+<OPTION>10
+<OPTION>9
+<OPTION>8
+<OPTION>7
+<OPTION>6
+<OPTION>5
+<OPTION>4
+<OPTION>3
+<OPTION>2
+<OPTION>1
+</SELECT>
+
+What other features would you like to see on this site?
+    <TEXTAREA name="What-I-would-like-to-see-added-to-this-site" COLS=60 ROWS=4></TEXTAREA>
+
+How often do you go to the movies?
+
+    <INPUT name="I-go-to-the-movies" type="radio" value="Less than once a month"> Less than once a month
+    <INPUT name="I-go-to-the-movies" type="radio" value="More than once a month"> More than once a month
+    <INPUT name="I-go-to-the-movies" type="radio" value="Once a week or more"> Once a week or more
+
+
+If online ticketing was available through the Greater Union WWW site, 
+you would be:
+
+    <INPUT name="If-online-ticketing-was-available-I-would-be" type="radio" value="Very interested"> Very interested
+    <INPUT name="If-online-ticketing-was-available-I-would-be" type="radio" value="Reasonably interested"> Reasonably interested
+    <INPUT name="If-online-ticketing-was-available-I-would-be" type="radio" value="Not interested"> Not interested
+
+When it comes to online transactions, transmitting my credit card 
+or other details over the Net is:
+
+    <INPUT name="Sending-my-credit-card-details-via-net-is" type="radio" value="A big concern"> A big concern
+    <INPUT name="Sending-my-credit-card-details-via-net-is" type="radio" value="A reasonable concern"> A reasonable concern
+    <INPUT name="Sending-my-credit-card-details-via-net-is" type="radio" value="Not a concern"> Not a concern
+
+How long have you been 'surfing' the Net?
+
+    <INPUT name="I-been-surfin-da-net" type="radio" value="A month or less"> A month or less
+    <INPUT name="I-been-surfin-da-net" type="radio" value="Two to six months"> Two to six months
+    <INPUT name="I-been-surfin-da-net" type="radio" value="Seven months to a year"> Seven months to a year
+    <INPUT name="I-been-surfin-da-net" type="radio" value="Over a year"> Over a year
+
+How many hours per week, on average, do you spend online?
+
+    <INPUT name="Hours-I-spend-online-per-week" type="radio" value="Less than one hour"> Less than one hour
+    <INPUT name="Hours-I-spend-online-per-week" type="radio" value="1-5 hours"> 1-5 hours
+    <INPUT name="Hours-I-spend-online-per-week" type="radio" value="5-10 hours"> 5-10 hours
+    <INPUT name="Hours-I-spend-online-per-week" type="radio" value="10-20 hours"> 10-20 hours
+    <INPUT name="Hours-I-spend-online-per-week" type="radio" value="More than 20 hours"> More than 20 hours
+
+From where do you access the Net most often?
+
+    <INPUT name="I-usually-access-the-net-from" type="radio" value="Home"> Home
+    <INPUT name="I-usually-access-the-net-from" type="radio" value="Office"> Office
+    <INPUT name="I-usually-access-the-net-from" type="radio" value="School/University"> School/University
+    <INPUT name="I-usually-access-the-net-from" type="radio" value="Library"> Library
+
+
+The following personal details are optional:
+
+You are:
+
+    <INPUT name="Sex" type="radio" value="Male"> Male
+    <INPUT name="Sex" type="radio" value="Female"> Female
+
+
+How old are you?  <SELECT NAME="title">
+<OPTION> Age
+<OPTION> 12 - 17
+<OPTION> 18 - 25
+<OPTION> 26 - 35
+<OPTION> 36 - 45
+<OPTION> 46 - 55
+<OPTION> 56 - 65
+<OPTION> Over 65
+</SELECT> 
+
+
+First Name:      <INPUT name="First-name" size=50>
+
+Last Name:       <INPUT name="Last-name" size=50>
+
+E-mail:          <INPUT name="email" size=50>
+
+Street/P.O. Box: <INPUT name="Street-PO-Box" size=50>
+
+Town/Suburb:     <INPUT name="Town-Suburb" size=50>
+
+State:           <INPUT name="State" size=10>                 Post Code: <INPUT name="Post-Code" size=10>
+
+<input type="submit" value="Send">  <input type="reset" value="Clear and Redo">
+
+</PRE></form>
+</BLOCKQUOTE>
+<P>
+<hr width=500>
+<CENTER><NOBR><A HREF = "scripts/area.cgi"><IMG border=0 alt="Whats On by Area" width=64 height=81 SRC="navbuts/whats1blue.gif"></A><A HREF = "scripts/movie.cgi"><IMG border=0 alt="Whats On by Movie" width=63 height=81 SRC="navbuts/whats2blue.gif"></A><A HREF = "deals.html"><IMG border=0 alt="Deals" hspace=10 width=62 height=81 SRC="navbuts/dealblue.gif"></A><A HREF = "chat.html"><IMG border=0  hspace=2 alt="Chat" width=62 height=81 SRC="navbuts/chatblue.gif"></A><A HREF = "mag.html"><IMG border=0  hspace=8 alt="Movie Magazine" width=62 height=81  SRC="navbuts/movblue.gif"></A><A HREF = "quiz.html"><IMG border=0 alt="Quiz"  hspace=2 width=62 height=81    SRC="navbuts/quizblue.gif"></A><A HREF = "links.html"><IMG border=0 alt="Links"  hspace=10 width=62 height=81  SRC="navbuts/linkblue.gif"></A></NOBR></CENTER><HR WIDTH=500>
+<P>
+<CENTER><A HREF = "index.html"><IMG Align=Top border=0 width=155 height=71 SRC="extras/litlogoblue.gif"></A><P>
+For further information about <BR>Greater Union presentations,
+or about<BR>this site please e-mail <a href=mailto:spike@mpx.com.au>spike@mpx.com.au</a></CENTER>
+<P><BR>
+</BODY>
+</HTML>
+</DOC>

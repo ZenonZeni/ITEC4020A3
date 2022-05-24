@@ -1,0 +1,224 @@
+
+<DOC>
+<DOCNO>WT02-B23-9</DOCNO>
+<DOCOLDNO>IA060-000333-B020-266</DOCOLDNO>
+<DOCHDR>
+http://www.survey.net:80/sv-inet1.htm 204.107.221.240 19970115054006 text/html 11464
+HTTP/1.0 200 OK
+Date: Wed, 15 Jan 1997 05:33:52 GMT
+Server: Apache-SSL-US/1.0.3+1.1
+Content-type: text/html
+Content-length: 11281
+Last-modified: Mon, 25 Nov 1996 20:26:48 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>SURVEY.NET - Internet Questionnaire #1</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" VLINK="#00007F">
+
+<P ALIGN=CENTER><A HREF="http://www.survey.net/index.html"><IMG BORDER=0
+SRC="http://www.survey.net/g/svlogo0.gif" ALT="Survey.Net Logo"></A><BR>
+<B><I>Your source for information, opinions & demographics from the Net
+Community!</I></B>
+
+<BLOCKQUOTE>
+<H5>
+<FONT COLOR="#FF0000">ANNOUNCING</FONT>: The Internet's finest interactive, totally-automated,
+immediate survey system.  We can take any form and instantly create a
+dynamic demographic database and show you the results as soon as you
+complete the survey!
+</H5>
+
+<H2 align=CENTER>Internet Questionaire #1</H2>
+
+<FORM METHOD="POST" ACTION="http://www.survey.net/mpr/survey?inet1">
+
+<H3 align=CENTER><I>This survey is about you, the Internet and what you use
+it for.</I></H3>
+
+<P align=CENTER><IMG SRC="images/rule.gif" WIDTH=325 HEIGHT=10
+ALIGN=bottom>
+<P>
+
+<OL>
+<LI>Your Age Group:<BR>
+<input type="radio" name="01_Age" value="under 12"> (under 12)<BR>
+<input type="radio" name="01_Age" value="13-16"> (13-16)<BR>
+<input type="radio" name="01_Age" value="17-18"> (17-18)<BR>
+<input type="radio" name="01_Age" value="19-21"> (19-21)<BR>
+<input type="radio" name="01_Age" value="22-25"> (22-25)<BR>
+<input type="radio" name="01_Age" value="26-30" CHECKED> (26-30)<BR>
+<input type="radio" name="01_Age" value="31-35"> (31-35)<BR>
+<input type="radio" name="01_Age" value="36-40"> (36-40)<BR>
+<input type="radio" name="01_Age" value="41-50"> (41-50)<BR>
+<input type="radio" name="01_Age" value="51-60"> (51-60)<BR>
+<input type="radio" name="01_Age" value="61-70"> (61-70)<BR>
+<input type="radio" name="01_Age" value="71+"> (71+)<BR>
+<P>
+
+<LI>Your Sex:<BR>
+<input type="radio" name="02_Sex" value="Male" CHECKED> Male<BR>
+<input type="radio" name="02_Sex" value="Female"> Female<BR>
+<P>
+
+<LI>Your Education:<BR>
+<input type="radio" name="03_Education" value="Some High School"> Some High School (not graduated)<BR>
+<input type="radio" name="03_Education" value="High School Graduate"> High School graduate<BR>
+<input type="radio" name="03_Education" value="College" CHECKED> College (2yr degree, not completed or still in school)<BR>
+<input type="radio" name="03_Education" value="College Graduate/Bachelors Degree"> College Graduate/Bachelors<BR>
+<input type="radio" name="03_Education" value="College Graduate/Masters Degree"> College Graduate/Masters<BR>
+<input type="radio" name="03_Education" value="College Graduate/PhD+"> College Graduate/PhD+<BR>
+<P>
+
+<LI>Your Occupation/Status:<BR>
+<input type="radio" name="04_Occupation" value="Student" CHECKED> Student<BR>
+<input type="radio" name="04_Occupation" value="Blue Collar"> Blue Collar<BR>
+<input type="radio" name="04_Occupation" value="Professional"> Professional<BR>
+<input type="radio" name="04_Occupation" value="Retired"> Retired<BR>
+<P>
+
+<LI>Is your business directly associated with the Computer Industry?<BR>
+<input type="checkbox" name="04_CompInd" value="Computer industry-related"> Yes<BR>
+<P>
+
+<LI>Your Occupational Industry/Category:<BR>
+<input type="radio" name="05_Industry" value="Education/Student" CHECKED> Education/Student<BR>
+<input type="radio" name="05_Industry" value="Government"> Government<BR>
+<input type="radio" name="05_Industry" value="Sales"> Sales<BR>
+<input type="radio" name="05_Industry" value="Manufacturing"> Manufacturing<BR>
+<input type="radio" name="05_Industry" value="Arts/Creative"> Arts/Creative (manufacturing)<BR>
+<input type="radio" name="05_Industry" value="Publishing"> Publishing (information/all media types)<BR>
+<input type="radio" name="05_Industry" value="Service"> Service/Distribution/Consulting<BR>
+<input type="radio" name="05_Industry" value="Other/Unemployed"> Other/Unemployed<BR>
+<P>
+
+<LI>What do you use the internet primarily for?<BR>
+<input type="radio" name="06_Main_Internet_Use" value="Research" CHECKED> Research<BR>
+<input type="radio" name="06_Main_Internet_Use" value="Entertainment"> Entertainment<BR>
+<input type="radio" name="06_Main_Internet_Use" value="Education"> Education<BR>
+<input type="radio" name="06_Main_Internet_Use" value="Sales/Marketing/PR"> Sales/Marketing/PR<BR>
+<input type="radio" name="06_Main_Internet_Use" value="Communication"> Communication<BR>
+<P>
+
+<LI>In your opinion, what is the internet's <U>best</U> attribute?<BR>
+<input type="radio" name="07_Best_Feature1" value="Size of the network" CHECKED> Size of the network<BR>
+<input type="radio" name="07_Best_Feature1" value="Cost to use"> Cost to use<BR>
+<input type="radio" name="07_Best_Feature1" value="Quality of information"> Quality of information available<BR>
+<input type="radio" name="07_Best_Feature1" value="Array of features/client applications"> Array of features/client applications<BR>
+<input type="radio" name="07_Best_Feature1" value="Lack of regulation"> Lack of regulation<BR>
+<input type="radio" name="07_Best_Feature1" value="Multi-cultural/world-wide"> Multi-cultural/world-wide<BR>
+<input type="radio" name="07_Best_Feature1" value="Communication speed/performance"> Communication speed/performance<BR>
+<P>
+
+<LI>In your opinion, what is the internet's <U>second best</U> attribute?<BR>
+<input type="radio" name="08_Best_Feature2" value="Size of the network" CHECKED> Size of the network<BR>
+<input type="radio" name="08_Best_Feature2" value="Cost to use"> Cost to use<BR>
+<input type="radio" name="08_Best_Feature2" value="Quality of information"> Quality of information available<BR>
+<input type="radio" name="08_Best_Feature2" value="Array of features/client applications"> Array of features/client applications<BR>
+<input type="radio" name="08_Best_Feature2" value="Lack of regulation"> Lack of regulation<BR>
+<input type="radio" name="08_Best_Feature2" value="Multi-cultural/world-wide"> Multi-cultural/world-wide<BR>
+<input type="radio" name="08_Best_Feature2" value="Communication speed/performance"> Communication  speed/performance<BR>
+<P>
+
+<LI>On the internet, what application do you use most? <BR>
+<input type="radio" name="09_Application1" value="E-Mail">E-Mail<BR>
+<input type="radio" name="09_Application1" value="WWW"> World-Wide-Web<BR>
+<input type="radio" name="09_Application1" value="Newsgroups"> Newsgroups<BR>
+<input type="radio" name="09_Application1" value="Gopher"> Gopher<BR>
+<input type="radio" name="09_Application1" value="Telnet"> Telnet (including MUDs, etc.)<BR>
+<input type="radio" name="09_Application1" value="Ftp"> Ftp<BR>
+<input type="radio" name="09_Application1" value="IRC"> IRC/Chat<BR>
+<input type="radio" name="09_Application1" value="Other"> Other<BR>
+<P>
+
+<LI>What is the <U>second</U> most-used application?<BR>
+<input type="radio" name="10_Application2" value="E-Mail" CHECKED> E-Mail<BR>
+<input type="radio" name="10_Application2" value="WWW"> World-Wide-Web<BR>
+<input type="radio" name="10_Application2" value="Newsgroups"> Newsgroups<BR>
+<input type="radio" name="10_Application2" value="Gopher"> Gopher<BR>
+<input type="radio" name="10_Application2" value="Telnet"> Telnet (including MUDs, etc.)<BR>
+<input type="radio" name="10_Application2" value="Ftp"> Ftp<BR>
+<input type="radio" name="10_Application2" value="IRC"> IRC/Chat<BR>
+<input type="radio" name="10_Application2" value="Other"> Other<BR>
+<P>
+
+<LI>Do you do any of the following on the Internet? (check all that apply)<BR>
+<input type="checkbox" name="11_Use" value="Send/Receive Video"> Send/Receive Video<BR>
+<input type="checkbox" name="11_Use" value="Write/setup web pages"> Write/setup web pages<BR>
+<input type="checkbox" name="11_Use" value="Decode binary images in newsgroups"> Decode binary images in newsgroups<BR>
+<input type="checkbox" name="11_Use" value="Download/decode erotic imagery"> Download/decode erotic imagery<BR>
+<input type="checkbox" name="11_Use" value="Moderate a newsgroup"> Moderate a newsgroup<BR>
+<input type="checkbox" name="11_Use" value="Run a network"> Run a network<BR>
+<input type="checkbox" name="11_Use" value="Promote a business"> Promote a business<BR>
+<input type="checkbox" name="11_Use" value="Develop software/applications"> Develop software/applications<BR>
+<input type="checkbox" name="11_Use" value="Have a personal web page"> Have a personal web page online<BR>
+<P>
+
+<LI>Are you a: (check all that apply)<BR>
+<input type="checkbox" name="12_User" value="BBS sysop"> BBS sysop (not on the internet)<BR>
+<input type="checkbox" name="12_User" value="BBS caller"> BBS caller (not on the internet)<BR>
+<input type="checkbox" name="12_User" value="AOL subscriber"> AOL subscriber<BR>
+<input type="checkbox" name="12_User" value="Prodigy subscriber"> Prodigy subscriber<BR>
+<input type="checkbox" name="12_User" value="Compuserve subscriber"> Compuserve subscriber<BR>
+<input type="checkbox" name="12_User" value="Subscriber/other service"> Subscriber/other major service (non internet)<BR>
+<input type="checkbox" name="12_User" value="US Citizen"> US Citizen<BR>
+<P>
+
+<LI>Have you: (check all that apply)<BR>
+<input type="checkbox" name="13_Has" value="Purchased a product online"> Purchased a product online?<BR>
+<input type="checkbox" name="13_Has" value="Bought a product advertised online"> Bought a product you heard about online?<BR>
+<input type="checkbox" name="13_Has" value="Registered a Shareware program"> Registered a Shareware program?<BR>
+<input type="checkbox" name="13_Has" value="Used a Shareware program/not register"> Continued to use a Shareware program/not intending to register?<BR>
+<input type="checkbox" name="13_Has" value="Downloaded a pirated program"> Downloaded a pirated program?<BR>
+<input type="checkbox" name="13_Has" value="Seen illegal activity conducted/promoted online"> Seen any illegal activities conducted/promoted online?<BR>
+<input type="checkbox" name="13_Has" value="Been responsible for others getting on the internet"> Been responsible for others getting on the internet?<BR>
+<input type="checkbox" name="13_Has" value="Tried to hack another system"> Tried to hack into another system?<BR>
+<input type="checkbox" name="13_Has" value="Dated somebody you met online"> Ever dated somebody you met online?<BR>
+<P>
+
+<LI>What else do you do on the Internet that wasn't mentioned: (Enter a few
+sentences; do not press ENTER unless you're ready to submit your entire
+survey.)<BR>
+
+<input size=50 name="CMT_INETCOMMENT">
+<P>
+
+</OL>
+
+<H3 align=CENTER><I>Thanks very much for participating in the
+survey!</I></H3>
+
+<H4 align=center>
+To submit your survey choices, select: <BR>
+<INPUT TYPE="submit" value="        SUBMIT SURVEY         ">
+<P>
+or <INPUT TYPE="reset" value="Reset survey settings">
+</FORM>
+<P>
+You can view the latest survey results after you submit your answers.
+</H4>
+
+<H4>
+We hope you will also participate in other surveys online as well.  Please note that you should
+only complete each survey <B><U>once</U></B>.<BR>
+</H4>
+<P>
+
+<CENTER>
+<IMG BORDER=0 SRC="http://www.survey.net/images/rule.gif">
+</CENTER>
+
+<H5 ALIGN=CENTER>Copyright &copy;1996, <A HREF="http://www.icorp.net"><img
+src="http://www.icorp.net/icorp/g/ic-logo.gif" BORDER=0 ALIGN=ABSMIDDLE ALT="ICorp"></A>/InterCommerce
+Corporation,<BR>
+<I>All rights reserved worldwide</I><BR>
+Send comments to 
+<A HREF="mailto:webmaster@survey.net"><I>Webmaster@Survey.net</I></A><BR>
+</H5>
+
+</CENTER>
+
+</BODY>
+</HTML>
+</DOC>

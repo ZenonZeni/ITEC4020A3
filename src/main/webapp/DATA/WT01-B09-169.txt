@@ -1,0 +1,47 @@
+
+<DOC>
+<DOCNO>WT01-B09-169</DOCNO>
+<DOCOLDNO>IA037-000725-B008-174</DOCOLDNO>
+<DOCHDR>
+http://www.calstart.org:80/cgi-bin/search.pl?dir_about=about 207.104.9.100 19970210055106 text/html 2059
+HTTP/1.0 200 Document follows
+Date: Mon, 10 Feb 1997 05:43:16 GMT
+Server: NCSA/1.5.2
+Content-type: text/html
+</DOCHDR>
+<html> <head> <title> CALSTART Search </title> </head>
+<body bgcolor=#FFFFFF>
+<h1 align = "center">CALSTART Search<br>
+<a href = "/cgi-bin/imagemap/image/maps/toolbar.map">
+<img border src = "/image/toolbar.gif" ismap alt = "CALSTART Toolbar"></a></h1>
+<hr> <P>
+<FORM ACTION = "/cgi-bin/find.pl">
+What would you like to search for? <INPUT NAME="query"> <a href="/misc/search/options.html">  Advanced Search</a><p>
+<INPUT TYPE="submit" VALUE="Begin this search"><INPUT TYPE="reset" VALUE="Reset this form">
+<p> <P> <b>Search selected Departments:</b><br>
+(Leave unchecked to search entire site)<ul>
+<UL>
+<INPUT TYPE="checkbox" NAME="dir_about" VALUE="about" CHECKED>About CALSTART<br>
+<INPUT TYPE="checkbox" NAME="dir_discussion" VALUE="discussion" >Discussion Groups<br>
+<INPUT TYPE="checkbox" NAME="dir_help" VALUE="help" >Help<br>
+<INPUT TYPE="checkbox" NAME="dir_news" VALUE="news" >News<br>
+Reference Library:<br><ul><INPUT TYPE="checkbox" NAME="dir_glossary" VALUE="glossary" >Glossary<br>
+<INPUT TYPE="checkbox" NAME="dir_papers" VALUE="papers" >Technical Papers<br>
+<INPUT TYPE="checkbox" NAME="dir_participant" VALUE="participants" >Participant Yellow Pages<br>
+<INPUT TYPE="checkbox" NAME="dir_nonparticipant" VALUE="nonparticipants" >Non-Participant Yellow Pages<br>
+</ul>
+<INPUT TYPE="checkbox" NAME="dir_services" VALUE="services" >Vehicle Services<p> </ul> </ul>
+</FORM>
+<p> <hr>
+<h5 align = "center">| <a href="/index.html">HOME</a> |
+<a href="/cgi-bin/search.pl">SEARCH</a> |
+<a href="/news/">NEWS</a> |
+<a href="/participants/index.html">PARTICIPANTS ONLY</a> |
+<a href="/misc/feedback.html">FEEDBACK</a> |
+<a href="/reference/yellowpages/index.html">YELLOW PAGES</a> |
+<a href="/help/index.html">HELP</a> |
+</h5> <p>
+<h6><address>&copy Copyright 1996 CALSTART, Inc.  All rights reserved.  Please send comments and suggestions to: <a href="mailto:feedback@calstart.org">feedback@calstart.org</a>
+</address></h6>
+</body> </html>
+</DOC>

@@ -1,0 +1,67 @@
+
+<DOC>
+<DOCNO>WT03-B25-45</DOCNO>
+<DOCOLDNO>IA008-000084-B024-27</DOCOLDNO>
+<DOCHDR>
+http://thor.aps.rwth-aachen.de:80/ecm/studies/ 137.226.180.78 19970222102349 text/html 4016
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Saturday, 22-Feb-97 08:58:01 GMT
+Content-Type: text/html
+Content-Length: 3810
+Last-Modified: Thursday, 28-Mar-96 19:15:09 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML VERSION="2.0">
+<HEAD>
+<!-- WEBMAGIC VERSION NUMBER="2.0" -->
+<!-- WEBMAGIC TRANSLATION NAME="ServerRoot" SRC="/var/www/htdocs/" DST="/" -->
+<!-- WEBMAGIC TRANSLATION NAME="ProjectRoot" SRC="./" DST="" -->
+<TITLE>Aktuelle Studien- und Diplomarbeiten</TITLE>
+</HEAD>
+<BODY>
+<H1><IMG SRC="/ecm/images/melogo.gif" ALIGN="MIDDLE" WIDTH="128" HEIGHT="142" HSPACE="20" SGI_SETWIDTH SGI_SETHEIGHT SGI_FULLPATH="/disk02/local/www/ecm/images/melogo.gif">Studien- und Diplomarbeiten</H1>
+<P>
+<HR>
+<OL>
+<LI><A HREF="#Fromm_1">Entwicklung einer intelligenten 4-Quadranten Motorregelung f&uuml;r Elektrorollst&uuml;hle (Diplomarbeit)</A> 
+<LI><A HREF="#Fromm_2">Realisierung eines Drehmomentsensors (Studien-/Diplomarbeit)</A> 
+</OL>
+<HR>
+<H4><A NAME="Fromm_1">Thema: Entwicklung einer intelligenten 4-Quadranten Motorregelung f&uuml;r Elektrorollst&uuml;hle</A></H4>
+<P><I>Hardware, Leistungselektronik, Mikrocontroller</I> 
+<P>Zur Unterst&uuml;tzung des Benutzers eines Aktivrollstuhls soll ein Elektroantrieb bestehend aus zwei Radnabenmotoren, einer 4-Quadranten Motorregelung und einem Mikrocontroller eingesetzt werden. Abh&auml;ngig von der aktuellen Fahrbewegung (Beschleunigung, Bremsen, etc.) und den frei w&auml;hlbaren Benutzerparametern (Dauerunterst&uuml;tzung, Aktivierung bei Steigungen, etc) soll der Antrieb zugeschaltet werden bzw. als Generator die Batterien aufladen. Zur Ansteuerung der Motorregelung wird ein kommerzieller Mikrocontroller eingesetzt. Die Speisung der Motoren erfolgt aus einer gemeinsamen Batterie.
+<P>Schwerpunkt der Arbeit ist Entwicklung der Motorregelung. Folgende Funktionen der Motorregelung sind vorzusehen:
+<UL>
+<LI>Individuelle Einstellung des Quadranten f&uuml;r jeden der beiden Motoren 
+<LI>Vorgabe der Solldrehzahl/Solldrehmoment der Motoren bei Antrieb 
+<LI>Vorgabe des Bremsdrehmomentes der Motoren bei R&uuml;ckspeisebetrieb 
+<LI>Ausgabe der Betriebscharakteristika an den Mikrocontroller 
+</UL>
+<P>Bei der Entwicklung ist auf einen guten Wirkungsgrad der Regelung sowie die Wahl einer geeigneten Schnittstelle zum Mikrocontroller zu achten. Die Arbeit umfa&szlig;t insbesondere folgende Arbeitspakete: 
+<UL>
+<LI>Entwicklung der Schaltung f&uuml;r die Regelung mit dem Programm ORCAD 
+<LI>Realisierung eines ersten Prototypen 
+<LI>Integration des Prototypen in einen Rollstuhl und Testen des Systems 
+<LI>Basierend auf den praktischen Erfahrungen Verbesserung des Prototypen 
+<LI>Dokumentation der Arbeit 
+</UL>
+<P><B>Ansprechpartner: Dipl.-Ing. Peter Fromm, Tel. 8864-246</B> 
+<H4><A NAME="Fromm_2">Thema: Realisierung eines Drehmomentsensors</A></H4>
+<P><I>Hardware, Sensorik, Me&szlig;technik</I> 
+<P>Im Rahmen eines Forschungsvorhabens soll ein Hybridantrieb f&uuml;r einen Aktivrollstuhl entwickelt werden. Hierzu soll das vom Benutzer aufgebrachte Antriebsmoment gemessen werden und gegebenenfalls ein Elektroantrieb zugeschaltet werden. Die Messung des Antriebsmomentes soll &uuml;ber einen im Greifrad integrierten Drehmomentsensor erfolgen.
+<P>Schwerpunkt der Arbeit ist die mechanische Entwicklung des Drehmomentsensors und die Implementierung einer geeigneten Signalverarbeitung auf einem handels&uuml;blichen Mikrocontroller unter C. Die Arbeit umfa&szlig;t insbesondere folgende Arbeitspakete: 
+<UL>
+<LI>Entwicklung der Sensormechanik 
+<LI>&Uuml;berwachung der Fertigung eines ersten Prototypen 
+<LI>Integration des Prototypen in einen Rollstuhl und Testen des Systems 
+<LI>Entwicklung der Signalverarbeitung 
+<LI>Dokumentation der Arbeit 
+</UL>
+<P><B>Ansprechpartner: Dipl.-Ing. Peter Fromm, Tel. 8864-246</B> 
+<HR>
+<P><A HREF="/ecm/ecm_d.htm"><IMG SRC="/ecm/images/back.gif" WIDTH="40" HEIGHT="40" SGI_SETWIDTH SGI_SETHEIGHT SGI_FULLPATH="/disk02/local/www/ecm/images/back.gif"></A> 
+</BODY>
+</HTML>
+</DOC>

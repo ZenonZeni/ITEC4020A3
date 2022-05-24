@@ -1,0 +1,63 @@
+
+<DOC>
+<DOCNO>WT02-B16-276</DOCNO>
+<DOCOLDNO>IA060-000329-B024-341</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/pvgenerator2.html 205.168.79.27 19970115041718 text/html 2685
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 04:17:23 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:50 GMT
+Content-length: 2511
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<title>DOE PV - Simple PV Systems</title>
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word 1.0Z">
+<META NAME="AUTHOR" CONTENT="nrel">
+</HEAD>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+
+<H2>PV With Generators</H2>
+<p><strong>Advantages</strong>
+<p>Systems using several types of electrical generation 
+combine the advantages of each. Engine generators can produce electricity 
+anytime. Thus, they provide an excellent backup for the PV modules, which 
+produce power only during daylight hours, when power is needed at night or 
+on cloudy days. On the other hand, PV operates quietly and inexpensively, 
+and it does not pollute. Using PV and generators together can also reduce the 
+initial cost of the system. If no other form of generation is available, 
+the PV array and the battery storage must be large enough to supply nighttime 
+electrical needs. However, having an engine generator as backup means fewer 
+PV modules and batteries are necessary to supply power whenever it is needed. 
+
+<p>Including generators makes designing PV systems more complex, but they are 
+still easy to operate. In fact, modern <a href="balance4.html">electronic controllers</a>
+allow such systems to operate automatically. Controllers can be set to 
+automatically switch generators, to supply <a href="acdc.html">ac or dc</a> 
+loads, or do some of each. In addition to engine generators, electricity from wind generators, small
+hydro plants, and any other source of electrical energy can be added to make a larger
+<a href="hybrid.html">hybrid</a> power system. 
+
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>
+[<a href="simplepv.html">Simple PV Systems</a>]
+[<a href="pvbattery.html">PV With Batteries</a>]
+[<a href="pvgenerator.html">PV With Generators</a>]
+[<a href="pvutility.html">PV With Utilities</a>]
+[<a href="utilityscale.html">Utility-Scale PV</a>]
+[<a href="hybrid.html">Hybrid Systems</a>]
+<p>[<em>U.S. Department of Energy Photovoltaics Program, 1996</em>]
+</font>
+</center>
+</body>
+</HTML>
+</DOC>

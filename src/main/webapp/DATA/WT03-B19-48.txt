@@ -1,0 +1,360 @@
+
+<DOC>
+<DOCNO>WT03-B19-48</DOCNO>
+<DOCOLDNO>IA001-000005-B023-307</DOCOLDNO>
+<DOCHDR>
+http://gator.seaspace.com:80/glossary.html 192.150.113.150 19970101040903 text/html 13797
+HTTP/1.0 200 OK
+Date: Wednesday, 01-Jan-97 04:07:50 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Monday, 23-Sep-96 21:40:30 GMT
+Content-length: 13613
+</DOCHDR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<HEAD> <TITLE> Glossary of Terms</TITLE> </HEAD> <BODY> <TABLE BORDER=5 WIDTH=100%> <TR> <TD ALIGN=CENTER> <H1> Glossary of Remote Sensing Terminology and Acronyms </H1> </TD> </TR> </TABLE> <BR> <IMG SRC="/artwork/line.avhrr1.gif"><BR>
+
+<DL>
+
+<DT><H2><A NAME="albedo">albedo</A></H2>
+<DD>Same as <A HREF="#reflectivity">reflectivity</A>.  Expressed as the percent of visible radiation reflected from a surface.
+
+<DT><H2><A NAME="apogee">apogee</A></H2>
+<DD>The point in a satellite's orbit farthest from the Earth.
+
+<DT><H2><A NAME="argument of perigee">argument of perigee</A></H2>
+<DD>Number of degrees from the ascending node where <A HREF="#perigee">perigee</A> occurs.
+
+<DT><H2><A NAME="ascending node">ascending node</A></H2>
+<DD>Intersection of a satellite's orbital plane with the Earth's equatorial plane.
+
+<DT><H2><A NAME="AVHRR">AVHRR</A></H2>
+<DD>Advanced Very High Resolution Radiometer.  Device on board <A HREF="#NOAA">NOAA</A> <A HREF="#polar_orbit">polar orbiters</A> (part of the <A HREF="#TIROS">TIROS</A> series 
+of satellites) which senses passive radiation emitted from Earth and its atmosphere.
+<BR>
+<TABLE BORDER>
+<TH align=right>Ground coverage <TD>2700 km <TR>
+<TH align=right>Maximum scan angle <TD>+-55.4 degrees<TR>
+<TH align=right>IFOV <TD>1.39 - 1.51 mrad <TR>
+<TH align=right>Ground resolution (nadir) <TD>1.1 km <TR>
+<TH align=right>Ground resolution <TD>2.4 km along track <TR>
+<TH align=right>(Maximum off-nadir) <TD>6.9 km across track <TR>
+<TH align=right>Channels <TD>(um) <TR>
+<TH align=right>1 <TD>0.58 - 0.68 <TR>
+<TH align=right>2 <TD>0.725 - 1.1<TR>
+<TH align=right>3 <TD>3.55 - 3.93 <TR>
+<TH align=right>4 <TD>10.3 - 11.3<TR>
+<TH align=right>5 <TD>11.5 - 12.5<TR>
+<TH align=right>Data precision <TD>10 bits 
+</TABLE>
+
+<DT><H2><A NAME="azimuth">azimuth</A></H2>
+<DD>Angle measured in the horizontal plane from true north to target.
+
+<DT><H2><A NAME="blackbody">blackbody</A></H2>
+<DD>A perfect radiator and absorber of electromagnetic energy.  A blackbody
+has an emissivity of 1, and its <A HREF="#NOAA">NOAA</A> IR channel temperature will be equivalent to its actual temperature.
+
+<DT><H2><A NAME="DMSP">DMSP</A></H2>
+<DD>Defense Meteorological Satellite Program<BR>
+<IMG SRC="/logos/DMSP.gif" ALIGN=bottom>For more information on the DMSP program, click <A HREF="http://web.ngdc.noaa.gov/dmsp/source/dmspdesc.html">here</A>.<BR>
+For more information on DMSP data and sensors, click <A HREF="http://web.ngdc.noaa.gov/dmsp/source/data-overview.html">here</A>.
+
+<DT><H2><A NAME="Doppler effect">Doppler effect</A></H2>
+<DD>If an electromagnetic source moves relative to an observer, there is a shift in the observed frequency.  Also known as Red Shift, if the source is receding from the observer, the observed frequency will appear to decrease.
+
+<DT><H2><A NAME="dropout">dropout</A></H2>
+<DD>The loss of data from one or more scan lines.
+
+<DT><H2><A NAME="eccentricity">eccentricity</A></H2>
+<DD>Description of the shape of a satellite's orbit.  A circular orbit has an eccentricity of 0.0, the closer to 1.0 the eccentricity, the more elliptical an orbit is. Most artificial satellite orbits have an eccentricity less than 0.01, essentially circular.
+
+<DT><H2><A NAME="ecliptic">ecliptic</A></H2>
+<DD>The great circle around the sky on which the sun appears to move through the year as the earth rotates around it.  The ecliptic plane is the plane of the earth's orbit.  The orbit's of the other planets also lie close to this plane.
+
+<DT><H2><A NAME="emissivity">emissivity</A></H2>
+<DD>The ratio of energy emitted by a material to that which would be emitted
+by a <A HREF="#blackbody">blackbody</A> at the same temperature.
+
+<DT><H2><A NAME="epoch">epoch</A></H2>
+<DD>Year, Month, Day of orbital elements.
+
+<DT><H2><A NAME="equatorial plane">equatorial plane</A></H2>
+<DD>An imaginary plane through the center of the Earth and the Earth's equator.
+
+<DT><H2><A NAME="ERS">ERS</A></H2>
+<DD>European Remote Sensing Satellite
+
+<DT><H2><A NAME="FOV">Field of View</A></H2>
+<DD>Essentially the synthesis of the <A HREF="#IFOV">IFOV</A> from the scanning process of the radiometer.
+
+<DT><H2><A NAME="GAC">GAC</A></H2>
+<DD>Recorded <A HREF="#HRPT">HRPT</A> data at low resolution (4 km).
+
+<DT><H2><A NAME="geostationary_orbit">geostationary orbit</A></H2>
+<DD>An orbit whose period equals the rotation period of the Earth. Artificial satellites are usually placed in geosynchronous at 35,800km altitude.
+
+<DT><H2><A NAME="GMS">GMS</A></H2>
+<DD>Geostationary Meteorological Satellite
+
+<DT><H2><A NAME="GMT">GMT</A></H2>
+<DD>Greenwich Mean Time, also known as Zulu time, UTC (Coordinated Universal Time), it is the local time at Greenwich Observatory, England (0 degrees longitude).
+
+<DT><H2><A NAME="GOES">GOES</A></H2>
+<DD>Geostationary Operational Environmental Satellite<BR>
+<IMG SRC="/logos/GOES.gif" ALIGN=bottom>For more information on GOES click <A HREF="http://www.noaa.gov/news_flash/GOES.html">here</A>.
+
+<DT><H2><A NAME="HIRS">HIRS</A></H2>
+<DD>High Resolution Infrared Radiation Sounder
+
+<DT><H2><A NAME="HRPT">HRPT</A></H2>
+<DD>High Resolution Picture Transmission.  A telemetry found on board the <A HREF="#NOAA">NOAA</A> <A HREF="#TIROS">TIROS-N</A> satellites.
+
+<DT><H2><A NAME="IFOV">IFOV</A></H2>
+<DD>Instantanoues Field of View.  The solid angle through which a detector is sensitive to radiation. It forms one limit to the resolution of an imaging system.
+
+<DT><H2><A NAME="inclination">inclination</A></H2>
+<DD>The angle between the orbit plane and the Earth's equatorial plane, measured counter-clockwise.  A zero inclination orbit would mean the satellite is orbiting directly over the equator, an inclination of 90 degrees is a perfectly <A HREF="#polar_orbit">polar orbit</A>.
+
+<DT><H2><A NAME="LAC">LAC</A></H2>
+<DD>Local Area Coverage, recorded <A HREF="#HRPT">HRPT</A> data (1.1 km). 
+
+<DT><H2><A NAME="LANDSAT">LANDSAT</A></H2>
+<DD>Land Remote Sensing Satellite
+<BR>
+<TABLE BORDER>
+<TH align=right>Inclination of Orbit <TD>98.91 - 99.1 degrees <TR>
+<TH align=right>Satellite Height <TD>916.6 km <TR>
+<TH align=right>Orbits per day <TD>14 <TR>
+<TH align=right>Orbital period <TD>103.3 min <TR>
+<TH align=right>Latitudal Coverage <TD>82 N - 82 S <TR>
+<TH align=right>Cycle duration <TD>18 day
+</TABLE>
+
+<DT><H2><A NAME="luminosity">luminosity</A></H2>
+<DD>Total power output of a source of radiation, usually measured in units of the sun's luminosity, which is 4X10^26 Watts.
+
+<DT><H2><A NAME="mean anomaly">mean anomaly</A></H2>
+<DD>Represents the angular distance from the <A HREF="#perigee">perigee</A> point to the satellites mean position.  Measured in degrees along the orbital plane in the direction of motion.
+
+<DT><H2><A NAME="mean motion">mean motion</A></H2>
+<DD>Number of complete revolutions the satellite makes in one day.
+
+<DT><H2><A NAME="METEOSAT">METEOSAT</A></H2>
+<DD>Meteorology Satellite
+
+<DT><H2><A NAME="MSS">MSS</A></H2>
+<DD>Multispectral Scanner.  Device on board the <A HREF="#LANDSAT">LANDSAT</A> <A HREF="#polar_orbit">polar orbiters</A> which senses visible portions of the EM spectrum.
+<BR>
+<TABLE BORDER>
+<TH align=right>Ground coverage <TD>185 km <TR>
+<TH align=right>Maximum scan angle <TD>+-5.78 degrees<TR>
+<TH align=right>IFOV <TD>0.086 mrad <TR>
+<TH align=right>Ground resolution (nadir) <TD>79 m <TR>
+<TH align=right>Ground resolution <TD>79.5 m along track <TR>
+<TH align=right>(Maximum off-nadir) <TD>80 m across track <TR>
+<TH align=right>Channels <TD>(um) <TR>
+<TH align=right>4 <TD>0.5 - 0.6 <TR>
+<TH align=right>5 <TD>0.5 - 0.7 <TR>
+<TH align=right>6 <TD>0.7 - 0.8 <TR>
+<TH align=right>7 <TD>0.8 - 1.0 <TR>
+<TH align=right>Data precision <TD>6 or 7 bits 
+</TABLE>
+
+<DT><H2><A NAME="MSU">MSU</A></H2>
+<DD>Microwave Sounding Unit
+
+<DT><H2><A NAME="NOAA">NOAA</A></H2>
+<DD>National Oceanic and Atmospheric Administration<BR>
+<IMG SRC="/logos/NOAA.gif" ALIGN=bottom>For more information on NOAA click <A HREF="http://www.noaa.gov/">here</A>.
+
+<DT><H2><A NAME="nadir">nadir</A></H2>
+<DD>The point on the ground vertically beneath the satellite.
+
+<DT><H2><A NAME="OLS">OLS</A></H2>
+<DD>Operational Line Scanner<BR>
+For more information on OLS click <A HREF="http://web.ngdc.noaa.gov/dmsp/source/ols.html">here</A>.
+
+<DT><H2><A NAME="orbital elements">orbital elements</A></H2>
+<DD>A collection of quantities that, together, describe the size, shape, and orientation of an orbit.
+
+<DT><H2><A NAME="PDUS">PDUS</A></H2>
+<DD>Primary Data User Stations consisting of mainly a ground station and an image processing system.
+
+<DT><H2><A NAME="perigee">perigee</A></H2>
+<DD>The point in a satellite's orbit where it is closest to the Earth.
+
+<DT><H2><A NAME="polar_orbit">polar orbit</A></H2>
+<DD>An orbit whose path crosses the poles. 
+
+<DT><H2><A NAME="reflectivity">reflectivity</A></H2>
+<DD>Same as <A HREF="#albedo">albedo</A>.  Expressed as the percent of visible radiation reflected from a surface.
+
+<DT><H2><A NAME="retrograde">retrograde</A></H2>
+<DD>Satellite orbit motion which is opposite to the Earth's direction of rotation, also defined as an orbit with an inclination greater than 90 degrees
+
+<DT><H2>right ascension of ascending node</H2>
+<DD>The angular distance from the vernal equinox measured eastward in the equatorial plane to the point of intersection of the orbit
+plane where the satellite crosses the equatorial plane on the ascending node.  
+
+<DT><H2><A NAME="SAR">SAR</A></H2>
+<DD>Synthetic Aperature Radar
+
+<DT><H2><A NAME="SeaWiFS">SeaWiFS</A></H2>
+<DD>Sea-viewing Wide Field Sensor<BR>
+<IMG SRC="/logos/SEAWIFS.gif" ALIGN=bottom>For more information on SeaWiFS, click <A HREF="http://seawifs.gsfc.nasa.gov/SEAWIFS.html">here</A>.
+
+<DT><H2><A NAME="SPOT">SPOT</A></H2>
+<DD>Satellite Pour l'Observation de la Terre
+
+<DT><H2><A NAME="SBUV">SBUV</A></H2>
+<DD>Solar Backscattered Ultraviolet system/ Version 2
+
+<DT><H2><A NAME="shimmer">shimmer</A></H2>
+<DD>An effect produced by the movement of masses of air with differing refractive indices.  Shimmer results in the blurring of remote sensed images, and is
+the ultimate control over the resolution.
+
+<DT><H2><A NAME="SSIES">SSIES</A></H2>
+<DD>Icon Scintillation Monitor on board the <A HREF="#DMSP">DMSP</A> satellites
+For more information on SSIES click <A HREF="http://web.ngdc.noaa.gov/dmsp/source/ssies.html">here</A>.
+
+<DT><H2><A NAME="SSM">SSM</A></H2>
+<DD>Magnetometer on board the <A HREF="#DMSP">DMSP</A> satellites.<BR>
+For more information on SSM Click <A HREF="http://web.ngdc.noaa.gov/dmsp/source/ssm.html">here</A>.
+
+<DT><H2><A NAME="SSMJ4">SSMJ/4</A></H2>
+<DD>Precipitating Electron and Icon Spectrometer on board the <A HREF="#DMSP">DMSP</A> satellites.<BR>
+For more information on SSMJ/4 click <A HREF="http://web.ngdc.noaa.gov/dmsp/source/ssj4.html">here</A>.
+
+<DT><H2><A NAME="SSMI">SSM/I</A></H2>
+<DD>Special Sensor Microwave Imager on board the <A HREF="#DMSP">DMSP</A> satellites.<BR>
+For more information on SSM/I click <A HREF="http://web.ngdc.noaa.gov/dmsp/source/ssmi.html">here</A>.
+
+<DT><H2><A NAME="SSMT1">SSM/T1</A></H2>
+<DD>Special Sensor Microwave Temperature sounder on board the <A HREF="#DMSP">DMSP</A> satellites.<BR>
+For more information on SSM/T click <A HREF="http://web.ngdc.noaa.gov/dmsp/source/ssmt.html">here</A>.
+
+<DT><H2><A NAME="SSMT2">SSMT/2</A></H2>
+<DD>Special Sensor Microwave water vapor profiler on board the <A HREF="#DMSP">DMSP</A> satellites.<BR>
+For more information on SSMT/2 click <A HREF="http://web.ngdc.noaa.gov/dmsp/source/ssmt2.html">here</A>.
+
+<DT><H2><A NAME="SST">SST</A></H2>
+<DD>Sea Surface Temperature
+
+<DT><H2><A NAME="SSU">SSU</A></H2>
+<DD>Stratospheric Sounder Unit
+
+<DT><H2><A NAME="TIROS">TIROS</A></H2>
+<DD>Television Infrared Operational System.  A series of meteorological satellites put up by <A HREF="#NOAA">NOAA</A>.
+<BR>
+<TABLE BORDER>
+<TH align=right>Inclination of Orbit <TD>99.092 degrees <TR>
+<TH align=right>Satellite Height <TD>833 km <TR>
+<TH align=right>Orbits per day <TD>14.2 <TR>
+<TH align=right>Orbital period <TD>102 min <TR>
+<TH align=right>Latitudal Coverage <TD>90 N - 90 S <TR>
+<TH align=right>Cycle duration <TD>1 day
+</TABLE>
+
+<DT><H2><A NAME="TM">TM</A></H2>
+<DD>Thematic Mapper
+
+<DT><H2><A NAME="TOVS">TOVS</A></H2>
+<DD><A HREF="#TIROS">TIROS</A> Operational Vertical Sounder.  A device found on <A HREF="#TIROS">TIROS</A> series satellites.
+
+<DT><H2><A NAME="vernal equinox">vernal equinox</A></H2>
+<DD>Point where the sun crosses the Earth's equator going south to north
+in the northern hemisphere spring.
+
+<DT><H2><A NAME="VISSR">VISSR</A></H2>
+<DD>Visible Infrared Spin-Scan Radiometer
+
+<DT><H2><A NAME="WEFAX">WEFAX</A></H2>
+<DD>Weather Facsimile
+
+
+</DL>
+
+<HR>
+<BR>
+<BR>
+<P>
+This glossary is by no means complete and most definitions are verbatim from the following sources, occasionally altered to fit the context of remote sensing.
+</P>
+
+<CITE>A Guide to Remote Sensing:  Interpreting Images of the Earth</CITE>  by S.A. Drury.  1990.<BR>
+
+<CITE>Physical Principles of Remote Sensing</CITE> by W.G. Rees.  1990. <BR>
+
+<CITE>The New Solar System</CITE>  by J. Kelly Beatty and Andrew Chaiken (editors).  1990.<BR>
+</I>
+
+
+<BR> <BR> <A HREF= "/index.html"><IMG SRC= "/artwork/arrow.marble.up.gif" ALIGN=middle>   Return to SeaSpace Home Page   </A><BR><BR> <IMG SRC="/artwork/line.avhrr1.gif"><BR> <ADDRESS> SeaSpace Corporation<BR> </ADDRESS> <H5> For information about SeaSpace products contact <A HREF="mailto:info@seaspace.com">info@seaspace.com</A><BR> For information about this site contact <A HREF="mailto:sean@seaspace.com">sean@seaspace.com</A><BR> </H5>
+</DOC>

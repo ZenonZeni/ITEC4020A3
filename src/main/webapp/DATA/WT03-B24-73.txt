@@ -1,0 +1,385 @@
+
+<DOC>
+<DOCNO>WT03-B24-73</DOCNO>
+<DOCOLDNO>IA053-000895-B042-271</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/crypto.html 129.174.40.15 19970123194352 text/html 18435
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:42:39 GMT
+Server: NCSA/1.5.2
+Last-modified: Sat, 23 Nov 1996 19:01:42 GMT
+Content-type: text/html
+Content-length: 18251
+</DOCHDR>
+<HTML>
+<head>
+<TITLE>Pat's Crypto Sources Hotlist </TITLE>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+<body BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#00008F" VLINK="#8F0000">
+
+
+<H1>Crypto Sources, etc.</H1>
+<a href="http://www.privacy.org/ipc"><img align=center src="./gk7.gif" alt=Golden Key></a><p>
+
+This file contains cryptographic information and pointers. For specific 
+information about the US Government's encryption policy, see
+<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+my pages on the NIST GAK meetings</a>
+<P>
+<ul>
+<li><a href="./nist/kmi.html">The latest from NIS&T on key escrow</a>
+<li>The National Research Council has released its long-awaited report on
+encryption policy.  The 
+<a href="http://pwp.usa.pipeline.com/~jya/nrcindex.htm">ASCII version
+of the NRC report</a>
+
+<li>Pat's <A HREF="http://www.isse.gmu.edu/~pfarrell/pgpkey.txt"> PGP key, </A>
+it is also on the usual key servers.
+A good one to use is MIT's
+ <a href="http://pgp.ai.mit.edu/~bal/pks-commands.html"> PGP Keyserver</a>
+<li>MIT now has a <a href="http://web.mit.edu/network/pgp.html">
+PGP homepage</a>
+<li>Eric Bach, et al's 
+<A HREF="ftp://rtfm.mit.edu/pub/usenet/news.answers/cryptography-faq">
+Cryptography FAQ</A>
+<li><A HREF="ftp://ftp.csn.net/mpj/getpgp.asc"> the PGP "where to get" FAQ</A>
+<li>If your browser has forms capability, you can automate the process of
+<a href="http://vinca.cnidr.org/software/pgp/pgp.html"> GETing PGP </a>
+<li>Warlord's <a href="http://www.mit.edu:8001/people/warlord/pgp-faq.html">
+PGP FAQ, Buglist, Fixes, and Improvements Page</a> 
+                                                            
+<li><a href="http://www.viacrypt.com">ViaCrypt's 
+commercial PGP</a>
+<li><A HREF="http://www.rsa.com"> RSA Data Security</A> aka PKP a 
+shell company that owns critical patents. 
+<li>A paper on which countries atempt to controll domestic crypto
+is available from 
+<a href="http://cwis.kub.nl/~frw/CRI/projects/bjk/lawsurvy.html"> 
+Bert-Jaap Koops</a>
+<li>A consortium of 20+ European companies are behind
+<a href="http://semper.darmstadt.gmd.de/~semper">SEMPER</a>
+Additional information is available <a href="<http://www.zurich.ibm.com/Technology/Security/extern/semper/">HERE</a>
+<li>a paper on <a href="http://www.w3.org/hypertext/WWW/Protocols/HTTP1.0/draft-ietf-http-spec.html#AA">
+How netscape authenticates passwords</a>
+<li>Bert-Japp Koops's 
+<a href="http://cwis.kub.nl/~frw/CRI/projects/bjk/lawsurvy.htm">
+Survey of allowable Crypto</a>
+<li>The German <a href="http://www.informatik.uni-hildesheim.de/~sirene">
+SIRENE Crypto Research Center</a> has lots of neat papers. 
+It is a professional research organization. The papers are avilable in both English and German.
+<li>SIRENE's 
+<a href="http://www.informatik.uni-hildesheim.de/~sirene/lit/abstr94.html">
+1994 literature catalog</a>
+<li>A simple, but clear <a href="./crypto/enigma.txt">description of how Enigma</a> machines work
+<li>Information on the (unsuccessful, original) cypherpunk 
+<a href="http://dcs.ex.ac.uk/~aba/brute-rc4.html">RC4-40 brute force attack</a>
+<li>Since the first brute-force effort is over,  information on 
+<a href="http://www.brute.cl.cam.ac.uk/brute/">Second generation brute
+force attack</a> which was <B> successful!!!</b>
+<li>a nice mathematical treatment of 
+<a href="http://gatekeeper.dec.com/pub/DEC/SRC/research-reports/abstracts/src-rr-083.html">
+trust</a>
+<li>A paper on <a href="ftp://toxicwaste.mit.edu/pub/pgpsign/scaleweb.txt">
+scaling the web of trust</a> by Derek Atkins and Jeff Schiller.
+<li>Lots of information on <a href="ftp://toxicwaste.mit.edu/pub/rsa129">
+MIT's break RSA-129</a> project.
+<li>Some history of <a href="http://www.fas.org/pub/gen/fas/irp/nsa/">NSA written
+by the Federation of American Scientists</a>
+<li>John Pike's 
+<a href="http://www.fas.org/pub/gen/iswg/cyberstr.html">CyberStrategies</a>
+<li>Bruce Scheier's 
+<a href="http://www.openmarket.com/info/cryptography/applied_cryptography.html">
+ Applied Cryptography</a>
+<li>Want to talk long distance for free, with security? See 
+<a href="http://rpcp.mit.edu/~asears/speakfree">Speek Freely for Windows</a>
+<li> Mark Manasse's paper on Millicent is                                    
+    <a href="http://www.w3.org/pub/Conferences/WWW4/Papers/246/">The Millicent  
+        Protocol for Inexpensive Electronic Commerce</a>                        
+Of all the various payment protocols I've seen, this was one of the few         
+that studied the available protocol bandwidth before designing a protocol.      
+Folks with an engineering slant should appreciate the work here.    
+<li>The Center For Democracy and Technology's (CDT) <a href =
+"http://www.cdt.org/crypto.html">Crypto Issues Page</a>. Contains position
+papers, relevant documents, and other material on US Cryptography policy.
+<a href="http://www.cdt.org/">CDT</a> 
+is a non-profit public interest organization based in Washington DC.
+<li>The presentation I made at the November 16, 1996 
+<a href="./dccp/index.html">DCCP</a> meeting on 
+<a href="./dccp/dccpsetcrypto.ppt">Crypto protocols in SET</a> (~202KB)
+<h3>Crypto source code</h3>
+<li><a href="http://www.eskimo.com/~weidai/">Wei Dai</a> author of the C++
+CryptoLib
+<li>A JAVA implementation of several standard encryption algorithms,
+including <a href="http://www.cs.utexas.edu/users/achou/JCrypt/packages.html">
+DES, RC4, RSA, and Diffie-Hellman key exchange</a>
+<h3>
+Essays.</h3>
+
+<li>Dr. Dorothy Denning's essay on crypto and the 
+<a href="http://guru.cosc.georgetown.edu/~denning/crypto/Future.html">
+Future</a>
+
+<li>Hal Finney's essay on 
+<a href="http://www.portal.com/~hfinney/web_of_trust.html">
+Why the Web of Trust doesn't work
+<li>Doug Barnes' paper on 
+<a href="http://www.communities.com/paper/agnostic.html">
+Chaum's blinding patent</a>
+<h3>Politics</h3>
+<li>I've pulled in a 
+<a href="./crypto/CP-FAQ">local copy of the cypherpunks FAQ</a>
+also known as Tim May's 
+<A HREF="ftp://ftp.netcom.com/pub/tc/tcmay/CP-FAQ"> Cyphernomicon</A> 
+ from Netcom, as it is too hard to get netcom's anon FTP server to answer.
+This version is unchanged from Tim's last update.
+<a href="http://www.oberlin.edu/~brchkind/cyphernomicon/">Another copy</a>
+<li>Tim May's 
+<a href="./crypto.manifesto.html"> Crypto-Anarchist Manifesto</a>
+<li>MIT's <A HREF="http://bs.mit.edu:8001/pgp-form.html">PGP Access Form</A>
+<h3>Government Policy</h3>
+<li>Clipper II, it's back. Read about it on
+<a href="./nistmeeting.html">NIS&T Key Escrow/export/crypto meeting page</a>
+<li>The International Chamber of Commerce's 
+<a href="http://www.isse.gmu.edu/~pfarrell/crypto/crypto_policy_report_12.95">
+ Report of the Business-Government Forum on Global Cryptogoraphy Policy </a>
+Note: the attendee list contains many names that are familiar, including
+government and commercial folks.
+<li><A HREF="http://www.bsa.org/bsa"> US Commerce Deptartment survey of crypto policy </A>
+<li><A HREF="ftp://miyako.dorm.duke.edu"> Tom Bryce's archive </A>
+<li><A HREF="http://www.ens.fr/equipes_dmi/grecc/loi.html"> Info on French crypto</A>
+<li><A HREF="http://www.cnam.fr/Network/Crypto/survey.html"> 
+Info on European crypto</A>
+<h2>IETF documents relating to cryptography and security</h2>
+<LI>IETF documents that may be interesting from a crypto viewpoint include:
+
+Internet-Drafts are available by anonymous FTP to ds.internic.net in the
+directory internet-drafts.  Other places, too -- don't ask me, tho; for
+questions, please mail to Internet-Drafts@cnri.reston.va.us.
+<p>
+The first two seem interesting even if SKIP has no future in IPng.
+The last is useful because people keep pushing GSSAPI as a standard crypto
+API. :)
+<pre>
+       Title     : Encoding of an Unsigned Diffie-Hellman Public Value     
+       Author(s) : A. Aziz, T. Markson, H. Prafullchandra
+       Filename  : <a href="ftp://ds.internic.net/internet-drafts/draft-ietf-ipsec-skip-udh-00.txt"> draft-ietf-ipsec-skip-udh-00.txt</a>
+       Pages     : 6
+       Date      : 12/22/1995
+</pre>
+It is useful to be able to communicate public keys in the absence of a 
+certificate hierarchy and a signature infrastructure.  This document 
+describes a method by which certificates which communicate Diffie-Hellman 
+public values and parameters may be encoded and securely named.            
+<p>
+<pre>                                                        
+       Title     : Certificate Discovery Protocol                          
+       Author(s) : A. Aziz, T. Markson, H. Prafullchandra
+       Filename  : <a href="ftp://ds.internic.net/internet-drafts/draft-ietf-ipsec-skip-udh-00.txt"> draft-ietf-ipsec-cdp-00.txt</a>
+       Pages     : 13
+       Date      : 12/22/1995
+</pre>
+Use of Public key cryptography is becoming widespread on the Internet in 
+such applications as electronic mail and IP Security (IPSEC).  Currently, 
+however, a common public key certificate infrastructure does not exist 
+which is interoperable with other systems and ubiquitous.  In light of 
+this, we describe a protocol which may be used to exchange or retrieve 
+certificates (essentially signed public keys) with or from another entity. 
+The protocol may be used to request certificates from a directory/name 
+server or from the entity who owns the certificate.                        
+<p>
+<pre>
+       Title     : The Simple Public-Key GSS-API Mechanism (SPKM)          
+       Author(s) : C. Adams
+       Filename  : <a href="ftp://ds.internic.net/internet-drafts/draft-ietf-cat-spkmgss-05.txt"> draft-ietf-cat-spkmgss-05.txt</a>
+       Pages     : 42
+       Date      : 12/22/1995
+</pre>
+This specification defines protocols, procedures, and conventions to be 
+employed by peers implementing the Generic Security Service Application 
+Program Interface (as specified in RFCs 1508 and 1509) when using the 
+Simple Public-Key Mechanism.
+<h2>Other miscellaneous information</h2>
+<li><a href="http://obscura.com/~loki/Welcome.html"> Mixmaster remailer</a> 
+information
+<li><a href="http://www.netresponse.com/zldf"> Phil Zimmermann's Legal Defense
+Fund </A>
+<li><a href="http://www.hks.net/~cactus/cactus.html">Cactus's homepage</a>
+Home of Todd Masco's <a href="http://www.hks.net/~cactus/Crypto.html">
+Crypto and Privacy Page</a> and the 
+<a href="http://www.hks.net/cpunks/index.html">cypherpunks archives.</a>
+<li><a href="ftp://ftp.psy.uq.oz.au/pub/Crypto/SSL/">
+A sample SSL implementation</a> is in progress (this is in Austrailia, so 
+expect the link to be slow. And ask a laywer about inporting crypto
+software to the US.)
+<li>Other  URLs from Eric Young's austrailian effort include 
+<a href="http://www.psy.uq.oz.au/~ftp/Crypto/">general info</a>, 
+<a href="ftp://ftp.psy.uq.oz.au/pub/Crypto/SSL ">his SSL implemantation</a>,
+ and <a href="ftp://ftp.psy.uq.oz.au/pub/Crypto/SSLapps">apps that use SSL</a>
+<li> U.S. Army Special Operations Center
+<a href="http://otserver.soc.mil/docs/security/cryptography.html"> Cryptography policy </a>
+<li>Visit <a href="http://www.nsa.gov:8080/museum">National Cryptographic
+Museum</a>
+<li><a href="http://www.quadralay.com/www/Crypt/Crypt.html">Quadralay Cpropration's crypto page</a>
+<li><a href="http://www.kub.nl:2080/FRW/CRI/projects/bjk/lawsurvy.htm">
+A crypto legal centre</a>
+<li>Phil Karn's latest arguments with our enlightened government
+over the export of 
+<a href="http://www.qualcomm.com/people/pkarn/export/index.html">
+software published in Bruce S' Applied Cryptography</a>
+
+
+<li>From: Michael Paul Johnson <mpj@netcom.com> 
+Weak keys in Diamond Encryption Algorithm fixed.
+<p>
+There is a class of weak keys in the Diamond Encryption Algorithm.  These are
+the ones that result in all of the individual substitution arrays being the
+same.  This has a probability of about 2^-40 of happening, and is not the
+basis of a practical attack, but it is interesting, anyway.  Thanks to
+Colin Plumb for pointing this out. 
+<p>
+This weakness has been eliminated in the Diamond2 Encryption Algorithm.
+See ftp://ftp.csn.net/mpj/public/diamond2.ps.gz for details.  If you are in
+the USA or Canada, there is a reference implementation (as well as the above
+document) in
+ftp://ftp.csn.net/mpj/I_will_not_export/crypto_???????/file/diamond2.zip,
+where the ??????? is revealed in ftp://ftp.csn.net/mpj/README along with
+an export warning.
+<p>
+MPJ has also put an updated description of another algorithm, the Sapphire II
+Stream Cipher, in ftp://ftp.csn.net/mpj/public/sapphire.ps.gz and a reference
+implementation in
+ftp://ftp.csn.net/mpj/I_will_not_export/crypto_???????/file/sapphire.zip
+<h2>MOSS</h2>
+MIME Object Security Services. Supporters say it's a 
+technically superior alternative          
+to PGP, but one with an uncertain future. It's not being actively
+developed by anyone other than TIS, and their TISMOSS prototype
+implementation is far from being generally usable.
+For more <a href="http://ds.internic.net/rfc/rfc1848.txt">
+information on the standard, see RFC 1848:</a>
+For more <a href="http://www.tis.com/docs/Research/moss.html">
+information on the TIS effort</a>
+<h2>Reputations, economics, etc.</h2>
+<li> <a href="http://www.webcom.com/agorics/dsr.html"
+>network routing system based on microcurrency and positive reputations  </a>
+<h2>Foriegn sources for crypto information</h2>
+<li><a href="ftp://ftp.dsi.unimi.it/pub/security/crypt/">
+University of Milan, Italy, this site has lots of cool stuff, 
+MD5 sources, etc.</a>
+<li><a href="ftp://ftp.ox.ac.uk/pub/crypto/">UK</a>
+<li><a href="http://pgp.rasip.fer.hr/">Croatia</a>
+<li><a href="ftp://ftp.darmstadt.gmd.de/pub/crypto/">Germany</a>
+<li>Another <a href="http://iaks=www.ira.uka.de/subjects/crypto.html">
+German site with links</a>
+<li><a href="http://psych.psy.uq.oz.au/~ftp/Crypto/">Australia</a>
+<li><a href="http://www.cs.hut.fi/ssh/crypto/">Finland</a>
+<H2>Crypto related Hacks:</H2>
+<li>Send <a href="http://www.c2.org/remail/by-www.html">Anonymous Mail</a> 
+without needing to know anything.
+<li>Adam Back's <A href="http://dcs.ex.ac.uk/~aba/rsa/"> RSA in perl</a> and shirt ordering info
+<P>
+<h3>Crypto from NSA and related sources </h3>
+<li>NSA's set of <a href="http://www.omg.org/public-doclist.html">
+Cryptographic APIs</a>
+<h3>Home pages of serious crypto researchers and professionals</h3>
+<li><a href="http://www.clark.net/pub/cme/home.html">
+Carl Ellison</a> of  Cybercash
+<li> <a href="http://www.crypto.com">Matt Blaze </a> at Bell Labs.
+He also has useful stuff at <a href="ftp://research.att.com/dist/mab">
+ftp://research.att.com/dist/mab</a>
+<li><a href="http://www-swiss.ai.mit.edu/~bal/bal-home.html">
+Brian LaMaccia</a> at MIT
+<li>Bob Stratton
+<li>Doug <a href="http://www.digex.net">"Digex"</a> Humphery
+<li><A href="http://www.qualcomm.com/people/pkarn">Phil Karn</a>
+<li>MIT's <a href="http://theory.lcs.mit.edu/~rivest/">Ron Rivest</a>
+<li><A href="http://www.counterpane.com">Bruce Schneier</a> author of
+<i>APPLIED CRYPTOGRAPHY</i> and chief guru of 
+Counterpane Systems 
+
+<h3>Serious amateur crypto folks</h3>
+<li>My former co-worker Tony Patti is publisher of the
+<a href="http://www.neumann.edu/tpatti"> <i>Cryptosystems Journal</i></a>
+
+<h3>Timestamp and timeservers</h3>
+<li><a href="http://www.surety.com">Surity digital timestamp</a> service
+<li><a href="http://www.bellcore.com">Bellcore may have a timestamp</a>service
+<h3>Legal/Crypto pointers</h3>
+Any serious discussion of cryptography quickly gets into areas
+where you need legal advice. Here are <a href="./legal.html">some legal
+pointers</a>
+</ul>
+<hr>
+<a name="cypherpunks">
+<h2>Cypherpunks</h2>
+Of course serious crypto discussions occur (too rarely) on the 
+sci.crypt newsgroup, and on the <a href="ftp://ftp.csua.berkeley.edu/pub/cypherpunks/Home.html">cypherpunks</a> mailing list. 
+<P>
+Send email to <a href="mailto:majordomo@toad.com">majordomo@toad.com</a>
+ with the body saying 
+"subscribe cypherpunks" to become a cypherpunk.
+Be forewarned: the the list is very active, be prepared for 100+ email
+messages a day. And sadly, the signal to noise ratio on c'punks is pretty
+poor. Still, a critical resource.
+<p>
+There are a couple of lower volume alternatives.
+<ul>
+<li>Eric Blossom has a commercial 
+<a href="mailto:eb@comsec.com">Cypherpunks Lite</a>
+He redistributes the best 10% or so of cyppherpunks. He also charges
+a modest fee, something like $20 a year. For a sample, look
+at his <a href="ftp://ftp.crl.com/users/co/comsec/cp-lite">
+Cypherpunk-lite archive</a>
+<li>
+"Cpunks Frog Forwards". 
+is a similar service, with the following provisos:
+<ul>
+<li>There's no fee (unless you want to donate ecash)
+<li>No digest format available
+<li>Approximately the same statistics as Cpunks Lite (5-10% of
+   all incoming messages, depending on content)
+<li>No archives of previous mailings available for public review
+   to aid in consumer choice
+</ul>
+To be added or removed, send
+a polite request to the 
+<a href="mailto:frogfarm@yakko.cs.wmich.edu">
+human behind this address.</a>
+<li>
+Ray Arachelian <sunder@dorsai.dorsai.org>
+runs a free filtering service of the same sort... basically stick to news and 
+technical stuff, as well as other miscalenous interesting stuff, but don't 
+forward whole threads, or flames, etc...
+<p>
+If you want in, 
+<a href="mailto:sunder@dorsai.dorsai.org">
+let Ray know in email and he'll add you to the list.</a>
+<li>Alan Clegg also has an unmoderated digest of the cypherpunks
+list. This simply reduces the volume of separate messages. 
+Subscribe by sending email to <a href="mailto:majordomo@gateway.com">
+majordomo@gateway.com</a> (This is a standard majordomo list, send
+"help" in the body for information.)
+</ul>
+
+<p>
+There is an informal Mid-Atlantic area Cypherpunks group that 
+has been holding monthly meetings for a couple of months.
+The group calls itself 
+<a href="./dccp/index.html">dccp (DC-area CypherPunks)</a>
+<hr>
+<h3>Press on Cypherpunks</h3>
+<ul>
+<li><a href="http://www.nando.net/newsroom/ntn/info//101095/info446_33.html">  
+ Cypherpunks article in The Nando Times</a>
+<li>A Boston Globe article quoting some 
+<a href="http://nytsyn.com/live/Features1/284_101195_072917_2683.html">
+DC-area cypherpunks</a>
+</ul>
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a> 
+November 9,  1996  Backto <a href="./hotlist.html">Pat's hotlist</a> 
+</body>
+</HTML>
+</DOC>

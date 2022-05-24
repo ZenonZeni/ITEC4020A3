@@ -1,0 +1,239 @@
+
+<DOC>
+<DOCNO>WT02-B17-260</DOCNO>
+<DOCOLDNO>IA060-000326-B034-108</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/Harvest/brokers/queryhelp.html 205.168.79.27 19970115010534 text/html 8884
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 01:05:16 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 07 Sep 1995 21:17:02 GMT
+Content-length: 8710
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Help for Broker Queries</TITLE>
+</HEAD>
+<BODY>
+<H1>Help for Broker Queries</H1>
+<HR>
+<P>
+The 
+<a href="http://harvest.cs.colorado.edu/">Harvest</a> 
+Broker handles many types of queries.  The simplest query is
+a single keyword, such as:
+<pre>
+	lightbulb
+</pre>
+Searching for common words (like "computer" or "html") may take a lot of
+time.  Please be considerate of other users.
+<P>
+Particularly for large Brokers, it is often helpful to use more powerful
+queries.  Harvest supports many different index/search engines, with
+varying capabilities.  At present, our most powerful (and commonly used)
+search engine is <a href="http://glimpse.cs.arizona.edu:1994/">Glimpse</a>,
+which supports:
+<UL>
+<LI> case-insensitive and case-sensitive queries;
+
+<LI> the ability to match parts of words, whole words, or multiple word
+phrases (like "resource discovery");
+
+<LI> Boolean (AND/OR) combinations of keywords;
+
+<LI> approximate matches (e.g., allowing spelling errors);
+
+<LI> structured queries (which allow you to constrain matches to certain
+fields);
+
+<LI> the ability to show matched lines or entire matching records (e.g.,
+for citations);
+
+<LI> the ability to specify limits on the number of matches returned; and
+
+<LI> a limited form of regular expressions (e.g., allowing "wild card"
+expressions that match all words ending in a particular suffix).
+
+</UL>
+The different types of queries (and how to use them) are discussed below.
+Note that you use the same syntax regardless of what index/search engine is
+running in a particular Broker, but that not all engines support all of the
+above features.  In particular, some of the Brokers use WAIS, which
+sometimes searches faster than Glimpse but supports only Boolean keyword
+queries and the ability to specify result set limits.
+
+<p>
+The different options -
+case-sensitivity,
+approximate matching,
+the ability to show matched lines vs. entire matching records,
+and the ability to specify match count limits -
+can all be specified with buttons and menus in the Broker query forms.
+<p>
+A structured query has the form: 
+<pre>
+	tag-name : value
+</pre>
+<p>
+where <i>tag-name</i> is a Content Summary attribute name, and <i>value</i>
+is the search value within the attribute.  If you click on a Content
+Summary, you will see what attributes are available for a particular
+Broker.  A list of common attributes is shown 
+<A HREF="#attrs">here</A>.
+<p>
+Keyword searches and structured queries can be combined using Boolean 
+operators (AND and OR) to form complex queries.  Lacking parentheses, 
+logical operation precedence is based left to right.
+For multiple word phrases or regular expressions, you need to enclose the
+string in double quotes, e.g.,
+<pre>
+	"internet resource discovery"
+or
+	"discov.*"
+</pre>
+
+<H2>Examples</H2>
+Simple keyword search query: 
+<pre>
+	Arizona</pre>
+This query will return all objects in the Broker containing 
+the word <B>Arizona</B>.<p>
+Boolean query: 
+<pre>
+	Arizona AND desert</pre>
+This query will return all objects in the Broker that contain both words
+anywhere in the object in any order.<p>
+
+Phrase query: 
+<pre>
+	"Arizona desert"</pre>
+This query will return all objects in the Broker that contain 
+<B>Arizona desert</B> as a phrase.  Notice that you need to put
+double quotes around the phrase.<p>
+
+Boolean queries with phrases: 
+<pre>
+	"Arizona desert" AND windsurfing</pre>
+Simple Structured query: 
+<pre>
+	Title : windsurfing</pre>
+This query will return all objects in the Broker where the <b>Title</b>
+attribute contains the value <b>windsurfing</b>. <p>
+
+Complex query: 
+<pre>
+	"Arizona desert" AND (Title : windsurfing)</pre>
+This query will return all objects in the Broker that contain the phrase 
+<b>Arizona desert</b> and where 
+the <b>Title</b> attribute of the same object 
+contains the value <b>windsurfing</b>. <p>
+
+<h2>Query options selected by menus or buttons</h2>
+<p>These checkboxes allow some control of the query specification.
+
+<dl>
+<dt><b>Case insensitive:</b>
+<dd>
+By selecting this checkbox the query will become case insensitive (lower
+case and upper case letters differ).  Otherwise, the query will be case
+senstive.  The default is case insensitive.
+
+<dt><b>Keywords match on word boundaries:</b>
+<dd>
+By selecting this checkbox, keywords will match on word boundaries.
+Otherwise, a keyword will match part of a word (or phrase).  For example,
+"network" will matching "networking", "sensitive" will match "insensitive",
+and "Arizona desert" will match "Arizona desertness".  The default is to
+match keywords on word boundaries.
+
+<dt><b>Number of errors allowed:</b>
+<dd>
+Glimpse allows the search to contain a number of errors.  An error is
+either a deletion, insertion, or substitution of a single character.
+The Best Match option will find the match(es) with the least number of
+errors.  The default is 0 (zero) errors.
+
+<i>Note:</i> The previous three options do not apply to attribute names.
+Attribute names are always case insensitive and allow no errors.
+</dl>
+
+<h2>Result set presentation</h2>
+<p>These checkboxes allow some control of presentation of the query return.
+
+<dl>
+<dt><b>Display matched lines (from content summaries):</b>
+<dd>
+By selecting this checkbox, the result set presentation will contain the
+lines of the Content Summary that matched the query.  Otherwise, the
+matched lines will not be displayed.  The default is to display the matched
+lines.
+
+<dt><b>Display object descriptions (if available):</b>
+<dd>
+Some objects have short, one-line descriptions associated with them.  By
+selecting this checkbox, the descriptions will be presented.  Otherwise,
+the object descriptions will not be displayed.  The default is to display
+object descriptions.
+
+<dt><b>Verbose display:</b>
+<dd>
+This checkbox allows you to set whether results are displayed listing
+the filename, host, path, and Content Summary each on separate lines, or
+just with two lines listing the filename (without a label) and the
+Content Summary (with a label).  The default is verbose.
+</dl>
+
+
+<H2>Regular Expressions</H2>
+Some types of regular expressions are supported by Glimpse.
+A regular expression search can be much slower that other searches.
+The following is a partial list of possible patterns.
+(For more details see the
+<a href="http://glimpse.cs.arizona.edu:1994/glimpse.html">Glimpse manual pages</a>.)
+<ul>
+<li> <kbd>^joe</kbd> will match "joe" at the beginning of a line.
+<li> <kbd>joe$</kbd> will match "joe" at the end of a line.
+<li> <kbd>[a-ho-z]</kbd> matches any character between a and h or 
+between o and z.
+<li> <kbd>.</kbd> matches any single character except newline.
+<li> <kbd>c*</kbd> matches zero or more occurrences of the character "c"
+<li> <kbd>.*</kbd> matches any number of wild cards
+<li> <kbd>\*</kbd> matches the character "*"  (\ escapes any of the above
+special characters).
+</ul>
+
+Regular expressions are currently limited to approximately 30 characters,
+not including meta characters.  Regular expressions will generally not
+cross word boundaries (because only words are stored in the index).  So,
+for example, "lin.*ing" will find "linking" or "flinching," but not "linear
+programming."
+
+<H2><A NAME="attrs">List of Common Attribute Names</A></H2>
+<p>
+Each Broker can support different attributes, depending on the data it
+holds.  Below we list a set of the most common attributes. Clicking on a
+hypertext link below will provide a brief explanation about each.
+<p>
+<UL>
+<LI><a href="/Harvest/brokers/Attributes.html#Abstract">Abstract</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Author">Author</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Description">Description</a>
+<LI><a href="/Harvest/brokers/Attributes.html#File-Size">File-Size</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Full-Text">Full-Text</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Gatherer-Host">Gatherer-Host</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Gatherer-Name">Gatherer-Name</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Gatherer-Version">Gatherer-Version</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Keywords">Keywords</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Last-Modification-Time">Last-Modification-Time</a>
+<LI><a href="/Harvest/brokers/Attributes.html#MD5">MD5</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Refresh-Rate">Refresh-Rate</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Time-to-Live">Time-to-Live</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Title">Title</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Type">Type</a>
+<LI><a href="/Harvest/brokers/Attributes.html#URL-References">URL-References</a>
+<LI><a href="/Harvest/brokers/Attributes.html#Update-Time">Update-Time</a>
+</ul>
+</body>
+</HTML>
+</DOC>

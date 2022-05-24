@@ -1,0 +1,145 @@
+
+<DOC>
+<DOCNO>WT02-B10-288</DOCNO>
+<DOCOLDNO>IA038-000734-B027-157</DOCOLDNO>
+<DOCHDR>
+http://zippo.com:80/drnhelp.htm 205.185.79.4 19970210062519 text/html 9981
+HTTP/1.0 200 Document follows
+Date: Mon, 10 Feb 1997 06:27:21 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Sat, 07 Dec 1996 02:14:59 GMT
+Content-length: 9807
+</DOCHDR>
+<!DOCTYPE HTML SYSTEM "html.dtd">
+<HTML><HEAD><TITLE>The Daily News Service</TITLE></HEAD>
+<body background=paper.gif>
+<center><IMG SRC="tdn.gif" ALIGN="BOTTOM"></center>
+<hr>
+<center><h2>Zippo News Service's Direct Read News ™ </h2></center>
+<center><table width=600>
+<tr>
+<td>
+<h3>Overview</h3>
+<ul>
+<li><strong>Zippo Direct Read News (tm)</strong> is a method of sorting, selecting, decoding, and reading Usenet News on a realtime basis, without using a news reader. <strong>Direct Read News</strong> is not a database of news articles. Our servers receive news on a continual basis, 24 hours each day. Direct Read News provides immeddiate access to all articles. <p>
+The following help items explain how to navigate through the news systems and get the most information, with the fewest steps. Where appropriate, we also explained some of the common elements of Usenet News.<p></li>
+</ul>
+<h3>The Super Zippo Home Page, and Related Web Pages</h3>
+<ul>
+<li>There are actually four types of service available through the Zippo Home Page:</li><p>
+<ul>
+<li><strong>Direct Read News</strong>, which provides access to Usent News Groups. Whenever you click on a News Group Link, Direct Read News takes you to that section of Usenet News and displays; group lists, articles headers and content. Direct Read News handles all decode, multipart file assembly and disply chores for the user.</li><p>
+<li><strong>Web Ftp</strong>, which moves software and image files from the Zippo Systems to the user's system. Clicking on a link in this section, connects the user to the correct file, and prompts the user with further instructions, prior to downloading the files to the user's system.</li><p>
+<li><strong>Direct Ftp</strong> connection which requires an Ftp client, and can be used to download large software program and utility files.</li><p>
+<li><strong>Direct NNTP News</strong> for users that prefer direct newsreader connection to the Zippo Systems. The nntp host name is <strong>snews.zippo.com</strong><p>
+</ul>
+<li>All of these services can be reached by clicking on the applicable Icon. The Zippo Direct Read News Server manages connections to these various protocols for you.</li>
+</ul>
+<h3>Newsgroup Selections</h3><p>
+<ul>
+<li>The newsgroup selections cover all newsgroups carried on  the Zippo News Server. The group list may be selected in total, or by newsgroup category, from the hyperlinks on the web pages. Listing will appear in several formats.</li><p>
+<ul>
+<li><IMG SRC="newsgrp.gif"> <strong> Bionet</strong> There are numerous links of this type on the home page. Clicking on one will take you to the applicable news category.
+<li><IMG SRC="newsgrp.gif"> <strong>29 alt.books.*</strong> This level is displayed after a category selectionhad been made. Whenever a listing is followed by an asterisk, it means there are other related groups within the same major heading. In the case of this example, there are 29 individual newsgroups that fit into  the alt.books.* category. Clicking on the hypertext entry will display the newsgroups within the category.<p></li>
+<li><IMG SRC="newsgrp.gif"> <strong>   45 alt.bored</strong> is a single newsgroup heading, there is no following asterisk, and there are 45 individual articles within the group. Clicking on the hypertext entry will display the individual articles within the newsgroup.<p></li>
+</ul>
+</ul>
+<h3>Within A Specific News Group:</h3><p>
+<ul>
+<li><IMG SRC="newsgrp.gif"> <strong>alt.binaries.pictures.animals</strong> Clicking on the newsgroup icon will return you to the next highest level of the group hierarchy. In the case of this newsgroup, the icon would take you back to alt.binaries.pictures.* and all specific newsgroups under this listing.</li><p>
+</ul>
+<ul>
+<li><strong>Page Controls</strong></li><p>
+<ul>
+<li><IMG SRC="oldart.gif"> Sort list by earliest article number</li><p>
+<li><IMG SRC="newart.gif"> Sort list by the newest article number</li><p>
+<li><IMG SRC="subj.gif"> Sort article list by subject</li><p>
+<li><IMG SRC="auth.gif"> Sort article list by author</li><p>
+<li><IMG SRC="olddate.gif"> Sort article list by earliest date</li><p>
+<li><IMG SRC="newdate.gif"> Sort article list by newest date</li><p>
+<li><IMG SRC="thread.gif"> Display  threaded article list, newest date first</li><p>
+<li><IMG SRC="binonly.gif"> Display headers for binary files only, newest date first</li><p>
+<li><IMG SRC="post.gif"> Post an article, new or in response</li><p>
+<li><IMG SRC="postbi.gif"> Post a binary file, new</li><p>
+<li><IMG SRC="postx.gif"> Post an article, new or in response - with x-archive instruction, requesting Internet Archive services to not store article</li><p>
+<li><IMG SRC="postxb.gif"> Post a binary file, new - with x- archive instruction, requesting Internet Archive services to not store article</li><p>
+<li><IMG SRC="prev.gif"> Jump to the previous list screen within the newsgroup, or previous article</li><p>
+<li><IMG SRC="next.gif"> Jump to the next list screen within the newsgroup, or next article</li><p>
+</ul>
+</ul>
+<ul>
+<li> <IMG SRC="newstext.gif"> <strong>  00018 02/08 GINA  2 hi friends</strong>The leading icon defines the file type <p>
+<ul>
+<li><IMG SRC="newstext.gif"> Text</li>
+<li><IMG SRC="photo.gif"> GIF, BMP, TIF</li>
+<li><IMG SRC="newsbin.gif"> Binary Exec, Zip, UUE.</li>
+<li><IMG SRC="video.gif"> AVI. MPG, MOV </li><p>
+</ul>Icons are interactive, with the exception of "Text". Clicking on image Icons will decode the applicable article and display the image. Clicking on a Bin Icon will decode the file and download it to your system.<p>
+<strong>00018</strong> This is the article number which is established when the article arrives at the server. <p>
+<strong>02/08</strong> This is the date the article was originally posted to Usenet News. At times, either due to the number of systems the article passed through as it was propagated throughout the Internet, or if was just delayed in reaching an outbound feed to the Internet, this date may be earlier than the current date.<p>
+<strong> GINA</strong> This is the name of the posting author<p>
+<strong>2</strong> This is the number of lines of data posted within the article, other than header information.<p>
+<strong> hi friends</strong> This is the article subject as defined by the author<p>
+<strong>00018 02/08 GINA </strong>Combined in hypertext format,  clicking on this information will allow you to view the actual text of the article and display additional information about the article. As an example, you can initiate an e-mail response to the author of the article, reference cross postings, and display the full news header.<p>
+</li>
+</ul>
+<h3>Building Custom Group Lists and Lookups with Direct Read News</h3>
+
+You can "subscribe" to News Groups by bookmarking individual newsgroup pages, or by linking multiple groups or hierarchies to make custom lists as bookmarks. <p>
+If you click on the Zippo news group list on the home page, you will get a list of the major zippo newsgroups and this URL will appear in your browser window -<br>
+<center><strong>http://sdrn.zippo.com/news-bin/wwwnews?zippo.*</strong></center> <br>
+The first part of the string, "http://sdrn.zippo.com/news-bin/wwwnews?", is a list query statement to the specific site you are using, and the "zippo.*" indicates the news hierarchy list to be retrieved. If you substitute "comp.*" for "zippo.*", Direct Read News will generate a list of all groups within the comp hierarchy. After this list is displayed, the page could be bookmarked for future list. <p>
+Using a variety of symbols, lists  can be generated based on many sorts and selections, and each list may be bookmarked. <p>
+The active symbols as of this writing are:<p>
+<ul>
+<li>* is a wild card search character. *.sports.* would find news groups that have sports in the group name, but do not start with the word sports. sports.* would find all groups that start with the word sports, and *.sports would find all groups that end with the word sports.</li><p>
+<li> | is used to join multiple searches. As an example sports.*|*.sports would list all groups that started with sports or ended with sports. It could also be used as in alt.sports.*|rec.sports.* to find all sports in the alt or rec news hierarchies.</li><p>
+<li> & is a limiting character, meaning the search will yield only groups with one word beyond the & symbol.</li><p>
+<ul>Examples (list are abbreviated in  examples)<p>
+<li> comp.* would list all comp newsgroups in the comp hierarchy - </li><br>
+comp.forsale<br>
+comp.pc.forsale<br>
+comp.pc.ibm.forsale<br>
+comp.misc<p>
+<li>*.pc.* would list any group on the server with pc as a whole word anywhere in the name  - </li><br>
+comp.binaries.ibm.pc.d<br>
+comp.binaries.ibm.pc.wanted<br>
+comp.ibm.pc.hardware<br>
+comp.sys.ibm.pc.games.*<br>
+comp.sys.ibm.pc.hardware.*<br>
+comp.sys.ibm.pc.misc<br>
+comp.sys.ibm.pc.programmer<br>
+comp.sys.pc.hardware.misc<br>
+demon.ip.support.pc.announce<br>
+fido7.hardw.pc.cpu<br>
+ger.pc.dos<br>
+ger.pc.hard<br>
+ger.pc.os2<br>
+ger.pc.win<br>
+<li>comp.& would all comp hierarchy groups with only one more descriptive word in the group name - </li><br>
+comp.forsale<br>
+comp.misc<br>
+<li> comp*|*.pc.* would list all comp hierarchy groups, plus all pc groups, regardless the hierarchy - </li><br>
+comp.windows.x.motif<br>
+comp.windows.x.pex<br>
+compuserve.announce<br>
+compuserve.general<br>
+demon.ip.support.pc.announce<br>
+fido7.hardw.pc.cpu<br>
+ger.pc.dos<br>
+ger.pc.hard<br>
+ger.pc.os2<br>
+ger.pc.win<br>
+in.pc.mac<br>
+</ul>
+</ul>
+</td>
+</tr>
+</table></center>
+<center><h6><a href="zcopy.htm">© 1995,1996 </a>Zippo Dot Com Incorporated<br> All rights reserved</h6>
+</center>
+</body></html>
+
+
+</DOC>

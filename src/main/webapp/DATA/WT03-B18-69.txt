@@ -1,0 +1,83 @@
+
+<DOC>
+<DOCNO>WT03-B18-69</DOCNO>
+<DOCOLDNO>IA085-000610-B041-193</DOCOLDNO>
+<DOCHDR>
+http://srvnt2.ian.ge.cnr.it:80/robotics/mmi/mmi_ar.htm 150.145.4.16 19970216121241 text/html 3105
+HTTP/1.0 200 OK
+Server: Microsoft-IIS/3.0
+Date: Sun, 16 Feb 1997 12:13:31 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Mon, 20 Jan 1997 15:45:04 GMT
+Content-Length: 2907
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>CNR-IAN Genoa, Italy Robotics Dept.: MMI Architecture</title>
+<base href="http://www.ian.ge.cnr.it/robotics/mmi/mmi_ar.htm">
+</head>
+
+<body background="/icons/cnrfilig.gif">
+<div align="center"><center>
+
+<table border="4" cellpadding="4">
+    <tr>
+        <td width="600"><p align="center"><a
+        href="http://www.ian.ge.cnr.it"><font size="4"><b>CNR-IAN</b></font></a><font
+        size="4"><b> <img src="/icons/arrow.gif" width="18"
+        height="18"> </b></font><a
+        href="http://www.ian.ge.cnr.it/robotics"><font size="4"><b>Robotics
+        Department </b></font></a><font size="4"><b><img
+        src="/icons/arrow.gif" width="18" height="18"></b></font><a
+        href="/robotics/amadeus.htm"><font size="4"><b> AMADEUS </b></font></a><font
+        size="4"><b><img src="/icons/arrow.gif" width="18"
+        height="18"></b><b><blink> MMI</blink></b></font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<h2><i>Architecture</i></h2>
+
+<p align="center"><img src="mmi2.gif" align="center" width="586"
+height="290"> </p>
+
+<p align="left">The global MMI structure is composed of a series
+of different modules: a nucleus (kernel), several independent processes
+and a Common Memory Area (MECON). The <a href="mmi_nuc.htm">nucleus </a>contains
+all functions related to the management of work sessions, data
+storage and general graphic interface functions. The independent
+processes are related to specific activities and each refers to a
+particular window. The <a href="mmi_ap.htm">Application Processes</a>
+are a series of concurrent processes which are regulated and
+managed by kernel modules. MECON stores all data which can be
+used by more than one module and by processes, and all messages
+which can be exchanged with the &#145;actuation&#146; parts of
+the gripper. All communications between modules are provided via
+a series of queues, and conflicts between concurrent processes are
+managed by appropriate regulation mechanisms (semaphores). </p>
+
+<hr>
+
+<table border="0" cellpadding="8" cellspacing="20">
+    <tr>
+        <td width="500"><a href="../../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO </strong><a
+        href="/Welcome.html"><strong>CNR-IAN</strong></a> </td>
+        <td width="500"><a href="../Welcome.html"><img
+        src="file:///E:/frontpage/clipart/Pulsanti/Grigio smussato.gif"
+        border="0" width="32" height="25"></a> <strong>BACK TO
+        the </strong><a href="/robotics/Welcome.html"><strong>ROBOTICS
+        DEPT.</strong></a></td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

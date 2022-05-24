@@ -1,0 +1,126 @@
+
+<DOC>
+<DOCNO>WT03-B26-12</DOCNO>
+<DOCOLDNO>IA029-000311-B015-250</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/tasks/task2.htm 138.44.40.1 19970114162626 text/html 6673
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:24:46 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Tue, 27 Aug 1996 23:45:26 GMT
+Content-length: 6499
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE>CSIRO Earth Observation Centre Strategic Science Plan</TITLE>
+</HEAD>
+<BODY>
+<H2></H2>
+<BR>
+<BR>
+<B>2. PRIMARY THREAD: EARTH OBSERVATION DATA CONSISTENCY &amp; STANDARDISATION<BR>
+<BR>
+</B>The development and demonstration of 'best practice' base data streams
+and value added products from Earth Observation data forms a primary issue
+for both research scientists and end users. As defined in the Simpson Report
+(Simpson <I>et al</I>., 1995), the data streams available today vary considerably
+in level of processing and usefulness from raw information from sensors
+(Level 0) through various degrees of reformatting and sensor correction
+or formatting (Level 1 and 1.5) to scientifically and applicable data streams
+(Levels 2 and 3).<BR>
+<BR>
+The effective use of Earth Observation data for research or commerce to
+map and monitor the Earth retrospectively or prospectively requires a base
+level of consistency &amp; standardisation of both the geophysical data
+(Level 2) and Value Added Product (Level 3) type. By 'geophysical' data
+(Level 2) are generally meant time series of geolocated (and possibly mosaicked)
+images of derived physical parameters such as surface temperature, wavelength
+dependent emissivity, wavelength dependent reflectance and possibly some
+integrated and derived products such as albedo or BRDF.<BR>
+<BR>
+A useful distinction can also be made between 'primary' geophysical data
+(Level 2) and 'secondary' geophysical data (Level 2.5) according to whether
+the parameter is derived only from the remotely sensed data or uses ancillary
+(eg meteorological or GIS) data.<BR>
+<BR>
+By Value Added (or Level 3) Products are generally meant products that address
+the applications products that are driving the user end of the process.
+Products such landcover attributes, soil moisture or evaporation, ocean
+productivity and phytoplankton distribution and dynamics, cropping stress,
+fertiliser levels and potential yield are such examples. Sometimes the products
+are quantitative physical measures but as often they are indices or nominal
+categories. The time series of consistent and standardised geophysical (Level
+2) data plus appropriate ancillary data are the material on which they depend.<BR>
+<BR>
+The methods that produce consistent and validated series of either base
+Level 2 or value added Level 3 products will be the nominated 'best practice'
+methods. They are a base for researchers and users alike to start from even
+though researchers and users often emphasise different aspects of the series.
+Realising consistent, standardised and accurate data streams involves a
+combination of operational calibration and validation activities as well
+as the establishment of effective base algorithms and processing pathways.<BR>
+<BR>
+All methods and products involved in producing these series require definable
+and reachable standards as well as estimates of reliability if they are
+to serve the more sophisticated needs of the researchers and users in the
+growing Earth Observation area. But users often emphasise consistency where
+researchers emphasise accuracy (Jupp, 1996a). In the Thread being defined
+here, we will demand that the consistency be applicable to the base of existing
+data and the accuracy be sufficient for the information to be combined with
+models.<BR>
+<BR>
+The Thread consists of: 
+<BLOCKQUOTE>1. A base of well managed field and laboratory instrumentation<BR>
+2. Instrumented and established calibration sites and field campaigns<BR>
+3. Well established sensor, atmosphere &amp; scene models<BR>
+4. Well defined validation processes for the methods<BR>
+5. A data base of satellite and ancillary data<BR>
+6. Data management for the data volumes entailed <BR>
+7. Effective algorithms and processing tools<BR>
+8. A delivery mechanism for standardised, quality output products</BLOCKQUOTE>
+The need for such an end-to-end system has been often stated by end users.
+For example, see McVicar (1996). The reason can be illustrated by considering
+the following apparently simple 'requirements': 
+<BLOCKQUOTE>1. The same top of the atmosphere radiance should give the same
+'value' - that is the data should be consistently calibrated and Level 1.5
+calibrated data should therefore be consistent.<BR>
+2. If the actual geophysical parameters associated with a scene target do
+not change the Level 2 data do not change - that is the processing should
+be consistent</BLOCKQUOTE>
+It is a measure of the need for focused EOC activity that these very basic
+requirements generally cannot be met using the available data streams. To
+meet the first requirement involves maintaining calibration of the particular
+space borne instrument by 'vicarious' means for most satellite systems.
+The second involves the specification and validation of intermediate processing
+methods. The process may involve empirical reference sites as briefly described
+below or it may involve more complex atmospheric correction but whatever
+method is used, in order to be useful it needs to be consistent and to meet
+a standard against which the products can be assessed.<BR>
+<BR>
+The objective of the set of EOC Tasks outlined here is to demonstrate the
+means to establish these and other requirements in a way that ensures quality
+Level 2 products in a selected set of cases and implies a generic approach
+to ensuring quality is available in future data streams.<BR>
+<BR>
+Initial EOC Threads in Jupp (1996c) which are being addressed through this
+initial integrated Thread are: 
+<BLOCKQUOTE>EnvSat Standardisation Thread (except for Software Tools)<BR>
+Cal&amp; Val Thread<BR>
+Surface/Atmosphere Measurement Models Thread<BR>
+GMS Pathfinder Thread<BR>
+Data Management [&amp; Integration] Thread</BLOCKQUOTE>
+In the following, the component Task are outlined. To start this integrated
+set of Tasks, the 'blue touchpaper' is to decide the candidate geophyisical
+parameters and value added products and to decide the actual data sets that
+are the grist to the process. This topic will be high on the agenda at the
+second Task Definition Meeting in Hobart on August 29/30.<BR>
+<P><CENTER><HR><A HREF="../eoc.htm"><IMG SRC="../../gifs/eochome.gif" WIDTH=
+"150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="task1.htm"><IMG SRC=
+"../../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="task3.htm"><IMG SRC="../../gifs/next.gif" WIDTH="150" 
+HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><BR>
+<HR></CENTER>
+</BODY>
+</HTML>
+</DOC>

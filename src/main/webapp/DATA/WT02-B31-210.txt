@@ -1,0 +1,82 @@
+
+<DOC>
+<DOCNO>WT02-B31-210</DOCNO>
+<DOCOLDNO>IA046-000824-B049-174</DOCOLDNO>
+<DOCHDR>
+http://www.greaterunion.com.au:80/subscribe.html 203.17.138.43 19970119072509 text/html 3768
+HTTP/1.0 200 Document follows
+Date: Sun, 19 Jan 1997 07:25:09 GMT
+Server: NCSA/1.4.2
+Content-type: text/html
+</DOCHDR>
+<HTML><HEAD><TITLE>Greater Union Movie Magazine</TITLE></HEAD>
+<BODY bgcolor="#040592" text="#FFFFFF" LINK="#ffde29" aLINK="#FFFFFF"  VLINK="#ffde29">
+<CENTER><NOBR><IMG width=510 height=120 SRC="heads/fgu.gif"></NOBR><P>
+</center>
+<BLOCKQUOTE><FONT SIZE=4>For the latest film news, gossip and star profiles, subscribe to 'Movie'.
+Simply complete the following form and you will be invoiced shortly before
+the delivery of your first issue.  </FONT><br></BLOCKQUOTE>
+
+
+<BLOCKQUOTE>
+
+
+<form method="POST" action="scripts/FormMail.cgi">
+<input type=hidden name=recipient value="spike@mpx.com.au">
+<input type=hidden name=redirect value="http://www.greaterunion.com.au/thanksub.html">
+<input type=hidden name=errorpage value="http://www.greaterunion.com.au/errorsub.html">
+<input type=hidden name=subject value="Movie Magazine Subscription Form">
+<input type=hidden name="origin" value="from Greater Union (www.greaterunion.com.au)">
+<input type=hidden name=email-text 
+
+value="Thank you! We will invoice you shortly before the delivery of your first issue.  
+
+Until then, remember the Greater Union Homepage is updated every week 
+with new links, movie promos, and of course, new session times. 
+
+So please make sure you visit us again soon!
+
+Greater Union Cinemas">
+
+<input type=hidden name=required value="title,lastname,email,street,suburbcity,state,postcode,country">
+<input type=hidden name=sort value="order:subject,subscribe,title,firstname,lastname,email,street,suburbcity,state,country,telephone">
+
+<pre>I wish to subscribe to Movie magazine  
+for 6 issues at AUS$23.00 including postage<FONT SIZE=2>*</FONT>:
+<FONT SIZE=2>(*Additional postage charges for overseas subscription upon application).</FONT> 
+
+Title:               <SELECT NAME="title">
+<OPTION> Mr
+<OPTION> Mrs
+<OPTION> Miss
+<OPTION> Ms
+
+<OPTION> Dr
+
+</SELECT>  or other: <input name="title" size=10><p>
+First name:          <input name="firstname" size=42>  <P>
+Last name:           <input name="lastname" size=42><p>
+Your e-mail address: <input name="email" size=42><p>
+Postal address (with daytime telephone number):<p>
+Street/PO Box:       <input name="street" size=42><p>
+Suburb/City:         <input name="suburbcity" size=42><p>
+State/Province:      <input name="state" size=17>    Postcode: <input name="postcode/zip" size=10><p>
+Country:             <input name="country" size=42><p>
+Telephone:           <input name="telephone" size=42><p>
+</pre>
+<input type=submit value="Send">
+<input type=reset value="Clear and Re-do"><p>
+</form>
+
+</BLOCKQUOTE>
+<P>
+<hr width=500>
+<CENTER><NOBR><A HREF = "scripts/area.cgi"><IMG border=0 alt="Whats On by Area" width=64 height=81 SRC="navbuts/whats1.gif"></A><A HREF = "scripts/movie.cgi"><IMG border=0 alt="Whats On by Movie" width=63 height=81 SRC="navbuts/whats2.gif"></A><A HREF = "deals.html"><IMG border=0 alt="Deals" hspace=10 width=62 height=81 SRC="navbuts/deals.gif"></A><A HREF = "chat.html"><IMG border=0  hspace=2 alt="Chat" width=62 height=81 SRC="navbuts/chat.gif"></A><A HREF = "mag.html"><IMG border=0  hspace=8 alt="Movie Magazine" width=62 height=81  SRC="navbuts/movie.gif"></A><A HREF = "quiz.html"><IMG border=0 alt="Quiz"  hspace=2 width=62 height=81    SRC="navbuts/quiz.gif"></A><A HREF = "links.html"><IMG border=0 alt="Links"  hspace=10 width=62 height=81  SRC="navbuts/links.gif"></A></NOBR></CENTER><HR WIDTH=500>
+<P>
+<CENTER><A HREF = "index.html"><IMG Align=Top border=0 width=155 height=71 SRC="extras/litlogo.gif"></A><P>
+For further information about <BR>Greater Union presentations,
+or about<BR>this site please e-mail <a href=mailto:spike@mpx.com.au>spike@mpx.com.au</a></CENTER>
+<P><BR>
+</BODY>
+</HTML>
+</DOC>

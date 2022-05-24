@@ -1,0 +1,68 @@
+
+<DOC>
+<DOCNO>WT02-B16-260</DOCNO>
+<DOCOLDNO>IA060-000329-B024-371</DOCOLDNO>
+<DOCHDR>
+http://www.eren.doe.gov:80/pv/pvutility2.html 205.168.79.27 19970115041731 text/html 2826
+HTTP/1.0 200 Document follows
+Date: Wed, 15 Jan 1997 04:17:36 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Thu, 09 Jan 1997 21:16:50 GMT
+Content-length: 2652
+</DOCHDR>
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<title>DOE PV - PV with Generators</title>
+</HEAD>
+<body bgcolor="#29005c" text="#FFFFFF" link="#F7DC00" vlink="#F7DC00">
+
+<H2>PV Connected to Utilities</H2>
+<p><strong>How It Works</strong>
+<P>Utilities are required to buy power from owners of PV systems
+(and other independent producers of electricity) under the Public
+Utilities Regulatory Policy Act of 1978 (PURPA). An approved,
+utility-grade <a href="balance4.html">inverter</a> converts the dc power from PV modules into
+ac power that exactly matches the voltage and frequency of the
+electricity flowing in the utility line, and also meets the
+utility's safety and power-quality requirements. Safety switches
+in the inverter automatically disconnect the PV system from the
+line if utility power fails. This safety disconnect protects
+utility repair personnel from being shocked by electricity
+flowing from the PV array into what they would expect to be a
+"dead" utility line. 
+
+<P>In addition to cooperating under PURPA, utilities are
+establishing rate structures that may make PV grid-connected
+systems more economical. (At today's prices, when the cost of
+installing a utility-connected PV system is divided by the amount
+of electricity it will produce over 30 years, PV-generated
+electricity is almost always more expensive than power supplied
+by the utility.) For example, some utilities charge higher prices
+at certain times of the day. In some parts of the country, the
+highest charges for electricity under this time-of-day pricing
+structure are now nearly equal to the cost of energy from PV. The
+better the match between the electrical output of the PV modules
+and the time of highest prices, the more effective the system
+will be in reducing utility bills. 
+
+<table border=0><tr><td><p><br><a target="_parent" href="index.html"><img border=0 hspace=20 src="images/home.gif"></a></td><td align=right><p align=right>Questions? <a href="mailto:webmaster.doepv@eren.doe.gov">webmaster.doepv@eren.doe.gov</a></td></tr></table>
+<p><center>
+<font size=1>
+[<a target="_parent" href="aboutpv.html">About PV</a>]
+[<a target="_parent" href="newsinfo.html">News & Info</a>]
+[<a target="_parent" href="program.html">About Our Program</a>]
+<p>
+[<a href="simplepv.html">Simple PV Systems</a>]
+[<a href="pvbattery.html">PV With Batteries</a>]
+[<a href="pvgenerator.html">PV With Generators</a>]
+[<a href="pvutility.html">PV With Utilities</a>]
+[<a href="utilityscale.html">Utility-Scale PV</a>]
+[<a href="hybrid.html">Hybrid Systems</a>]
+<p>[<em>U.S. Department of Energy Photovoltaics Program, 1996</em>]
+</font>
+</center>
+</body>
+</HTML>
+</DOC>

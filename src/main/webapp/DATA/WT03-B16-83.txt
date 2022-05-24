@@ -1,0 +1,179 @@
+
+<DOC>
+<DOCNO>WT03-B16-83</DOCNO>
+<DOCOLDNO>IA072-000461-B018-90</DOCOLDNO>
+<DOCHDR>
+http://www.crisp.nus.sg:80/ers/raw_data.html 137.132.32.55 19970121032510 text/html 9532
+HTTP/1.0 200 OK
+Date: Tuesday, 21-Jan-97 13:49:47 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 20-Dec-96 18:31:03 GMT
+Content-length: 9351
+</DOCHDR>
+<HEAD>
+<TITLE>4. DATA SET FILE FORMAT DEFINITION</TITLE>
+</HEAD>
+<BODY>
+
+<H1>4. DATA SET FILE FORMAT DEFINITION</H1>
+<P>
+<P>
+<H2></H2>
+<P>
+<P><STRONG>TABLE 4.1 SAR DATA FILE - FILE DESCRIPTOR RECORD (FIXED SEGMENT)</STRONG>
+<P>
+
+<PRE>FIELD   BYTES  FORMAT  DESCRIPTION                                                 CONTENT
+
+1       1-4     B4      Record sequence number                                              (1)
+2       5       B1      l-st record sub-type code                                          (63)
+3       6       B1      Record type code                                                  (192)
+4       7       B1      2-nd record sub-type code                                          (18)
+5       8       B1      3-rd record sub-type code                                          (18)
+6       9-12    B4      Length of this record                                           (11644)
+7       13-14   A2      ASCII/EBCDIC flag                                                    A$
+8       15-16   A2      blanks                                                               $$
+9       17-28   A12     Format control document ID for this data file format       CEOS-SAR-CCT
+10      29-30   A2      Format control document revision level                               $B
+11      31-32   A2      File design descriptor revision letter                               $B
+12      33-44   A12     Generating software release and revision level                 <......>
+13      45-48   I4      File number                                                        $$$2
+14      49-64   A16     File name                                              ERS1.SAR.RAWIMGY
+15      65-68   A4      Record sequence and location type flag                             FSEQ
+16      69-76   I8      Sequence number location                                       $$$$$$$1
+17      77-80   I4      Sequence number field length                                       $$$4
+18      81-84   A4      Record code and location type flag                                 FTYP
+19      85-92   I8      Record code location                                           $$$$$$$5
+20      93-96   I4      Record code field length                                           $$$4
+21      97-100  A4      Record length and location type flag                               FLGT
+22      101-108 I8      Record length location                                         $$$$$$$9
+23      109-112 I4      Record length field length                                         $$$4
+24      113     B1      Reserved                                                       <$....$>
+25      114     B1      Reserved                                                       <$....$>
+26      115     B1      Reserved                                                       <$....$>
+27      116     B1      Reserved                                                       <$....$>
+28      117-180 A64     Reserved segment                                               <$....$>
+</PRE>
+<P><STRONG>TABLE 4.2 SAR DATA IMAGERY OPTIONS FILE DESCRIPTOR RECORD (VARIABLE SEGMENT)</STRONG>
+<P>
+
+<PRE>FIELD   BYTES   FORMAT DESCRIPTION                                                 CONTENT
+
+29      181-186 I6      Number of SAR DATA records (nominal)                             $27000
+30      187-192 I6      SAR DATA record length (bytes)                                   $11644
+31      193-216 A24     Reserved (blanks)                                              <$....$>
+
+                        SAMPLE GROUP DATA
+
+32      217-220 I4      Number of bits per sample                                          $$16
+33      221-224 I4      Number of samples per data group (or pixels)                       $$$1
+34      225-228 I4      Number of bytes per data group (or pixel)                          $$$2
+35      229-232 A4      Justification and order of samples within data group
+
+                        SAR RELATED DATA IN THE RECORD
+
+36      233-236 I4      Number of SAR channels in this file                                $$$1
+37      237-244 I8      Number of lines per data set (nominal)                         <......>
+38      245-248 I4      Number of left border pixels per line                              $$$0
+39      249-256 I8      Total number of data groups per line per SAR channel           $$$$5616
+40      257-260 I4      Number of right border pixels per line                             $$$0
+41      261-264 I4      Number of top border lines                                         $$$0
+42      265-268 I4      Number of bottom border lines                                      $$$0
+43      269-272 A4      Interleaving indicator                                             BSQ$
+
+                        RECORD DATA IN THE FILE
+
+44      273-274 I2      Number of physical records per line                                  $1
+45      275-276 I2      Number of physical records per multi-channel line                    $$
+46      277-280 I4      Number of bytes of prefix data per record                          $400
+47      281-288 I8      Number of bytes of SAR data (or pixel data) per record         $$$11232
+                        (nominal)
+48      289-292 I4      Number of bytes of suffix data per record                          $$$0
+49-55   293-340 A48     reserved                                                       <$....$>
+56      341-368 A28     blanks                                                         <$....$>
+57-60   369-400 A32     reserved                                                       <$....$>
+61      401-428 A28     SAR Data format type identifier              COMPLEX SIGNED$INTEGER$..$
+62      429-432 A4      SAR Data format type code                                          CIS2
+63      433-436 I4      Number of left fill bits within pixel                              $$$0
+64      437-440 I4      Number of right fill bits within pixel                             $$$0
+65      441-448 I8      Maximum data range of pixel                                    $$$$$255
+                        (max-min value for I and Q)
+66      449-11644 A10196 spare                                                         <$....$>
+</PRE>
+<P><STRONG>TABLE 4.3 IMAGERY OPTIONS FILE - SIGNAL DATA RECORD DEFINITION</STRONG>
+<P>
+
+<PRE>FIELD   BYTES   FORMAT  DESCRIPTION                                                     CONTENT
+
+1       1-4     B4      Record sequence number                                             (n)
+2       5       B1      1-st record sub-type code                                           50
+3       6       B1      Record type code                                                    10
+4       7       B1      2-nd record sub-type code                                           18
+5       8       B1      3-rd record sub-type code                                           20
+6       9-12    B4      Length of this record                                          (11644)
+
+                PREFIX DATA - GENERAL INFORMATION
+
+7       13-16   B4      SAR image data line number                                       (....)
+8       17-20   B4      SAR image data record index (indicates the                       (....)
+                        record sequence number of the image line)
+9       21-24   B4      Actual count of left-fill pixels                                    (0)
+10      25-28   B4      Actual count of data pixels (samples)                            (5616)
+11      29-32   B4      Actual count of right-fill pixels                                   (0)
+
+                PREFIX DATA - SENSOR PARAMETERS
+
+12-27   33-84   B52     reserved                                                        
+28      85-88   B4      spare                                                           <$...$>
+29      89-92   B4      spare                                                           <$...$>
+30-37   93-124  B32     reserved
+38      125-128 B4      spare
+
+                PREFIX DATA PLATFORM REFERENCE INFORMATION
+
+39-50   129-192 B64
+
+                PREFIX DATA - SENSOR/FACILITY SPECIFIC, AUXILIARY DATA
+
+51     193-412  B220     Sensor/Facility specific auxiliary information 
+                         such as down linked auxiliary data ( i.e. pulse 
+                         replicas, etc. ) and data quality information
+
+                B1       fixed code = AA in Hexadecimal notation
+                B1       OGRC/OBRC flag 1 or 0)
+                B4       ICU on board time
+                B2       activity task
+                B4       image format counter
+                B2       sampling window start time
+                B2       pulse repetition interval
+                B1       calibration attenuation setting
+                B1       receiver gain attenuation setting
+                130B1    spare
+                36B2     36 calibration pulses as 
+                         (4bit spare 6bit Q 6bit I from MSB down to LSB)
+
+                         SAR RAW SIGNUL DATA
+
+52      413-414 B2       first sample I and Q values                    (n)
+53      415-416 B2       second sample I and Q values                   (n)
+
+..      ....... B2       ...... sample I and Q values                   (n)
+
+5667    11643-11644B2    last sample I and Q values                     (n)
+  
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+
+</DOC>

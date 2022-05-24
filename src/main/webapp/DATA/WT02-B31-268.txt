@@ -1,0 +1,996 @@
+
+<DOC>
+<DOCNO>WT02-B31-268</DOCNO>
+<DOCOLDNO>IA020-000210-B034-297</DOCOLDNO>
+<DOCHDR>
+http://sandcastle-ltd.com:80/sun_security_bulletin_136.html 199.35.141.30 19970107122315 text/html 42308
+HTTP/1.0 200 OK
+Date: Tue, 07 Jan 1997 12:24:29 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 42136
+Last-modified: Sat, 12 Oct 1996 16:55:14 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Sun Security Bulletin #136</TITLE>
+</HEAD>
+<BODY>
+<PRE>
+
+
+=============================================================================
+	 SUN MICROSYSTEMS SECURITY BULLETIN: #00136, 9 Oct 1996
+=============================================================================
+
+BULLETIN TOPICS
+
+In this bulletin Sun discusses the TCP-based "SYN flood" denial-
+of-service attack. We suggest ways to tune most <strong>Solaris</strong>/SunOS systems
+to make them more resistant, and explain which releases and
+configurations stand up best. We also discuss which customers are most
+likely to be affected, and the degree to which firewalls and similar
+insulating arrangements can protect an enterprise from this attack.
+
+This Bulletin also describes the patches and other changes Sun commits
+to making in the future in response to the emergence of such attacks.
+
+This denial-of-service attack, which affects all operating systems
+which implement the TCP protocol, has previously been discussed in
+CERT(sm) Advisory CA-96.21, issued on 19 September 96. Attacks against
+several prominent service providers have been well documented in the
+last several weeks in Time magazine, the Wall Street Journal, and many
+other national and international periodicals.
+
+I.   What has Happened, Who is Affected, What to Do
+
+II.  Understanding the Vulnerability
+
+III. Technical Recommendations
+
+IV.  Plans and Schedules
+
+
+
+APPENDICES
+
+A.   Queuing Capacity Vs. Attack Rates
+
+B.   How to obtain Sun security patches
+
+C.   How to report or inquire about Sun security problems
+
+D.   How to obtain Sun security bulletins or short status updates
+
+
+	 Send Replies or Inquiries To:
+
+	 Mark Graff
+         Sun Security Coordinator
+         MS MPK17-103
+         2550 Garcia Avenue
+         Mountain View, CA 94043-1100
+
+	 Phone: 415-786-5274
+         Fax:   415-786-7994
+         E-mail: security-alert@Sun.COM
+
+
+Keywords:       TCP, SYN, denial-of-service
+Patchlist:
+Cross-Ref:      CERT CA-96.21
+
+				-----------
+
+Permission is granted for the redistribution of this Bulletin, so long
+as the Bulletin is not edited and is attributed to Sun Microsystems.
+Portions may also be excerpted for re-use in other security advisories
+so long as proper attribution is included.
+
+Any other use of this information without the express written consent
+of Sun Microsystems is prohibited. Sun Microsystems expressly disclaims
+all liability for any misuse of this information by any third party.
+
+=============================================================================
+	 SUN MICROSYSTEMS SECURITY BULLETIN: #00136, 9 Oct 1996
+=============================================================================
+
+
+I.   What has Happened, Who is Affected, What to Do
+
+    A. What has Happened
+
+    Late this summer, an electronic "hacker journal" published complete
+    source code for a program to mount a so-called "TCP SYN flood"
+    attack, in which a targeted system is bombarded with requests for a
+    certain kind of network connection. Such an attack cannot
+    compromise the security of a targeted system--no one can "break in"
+    using it--but it can tie up the system, making it unavailable to
+    respond to legitimate users. Some systems may even crash, if key
+    system resources are exhausted.
+
+    Within a few weeks after the release of the source code, several
+    Internet service providers had been victimized by this "denial-of-
+    service" attack. To date, published reports indicate that several
+    dozen such attacks have been carried out, not only against
+    commercial service providers but also popular non-profit sites,
+    such as the Internet Chess Club.
+
+    Because the complete source to the program, with instructions for
+    use, was published, it takes little technical knowledge to mount
+    the attack.  Further, because the program takes steps to conceal
+    which system is sending the packets, it's proved difficult (though
+    not impossible) to trace an attack to its source. For these
+    reasons--and although relatively few sites out of the Internet's
+    tens of millions have been affected--Sun, along with many other
+    software makers and computer security experts around the world, has
+    worked hard since the day the attacks were announced to evaluate
+    both the attack and the many countermeasures which have been
+    proposed.
+
+    This bulletin summarizes what we have learned, and gives the best
+    advice we have today about which Sun customers may be vulnerable
+    --and what those sites can do to protect themselves.
+
+    B. Who is Affected
+
+    The only systems which are vulnerable to this attack are those
+    (such as Web servers, FTP servers, or mail servers) which directly
+    accept TCP connection requests from other systems on the Internet.
+
+    Most systems behind firewalls are safe. However, some firewalls are
+    configured to pass through connection requests on particular ports
+    to server systems behind the firewall. In such cases the server
+    could well be vulnerable to a SYN flood attack.
+
+    If you are not sure whether your systems accept TCP conection
+    requests directly from systems on the Internet, check with your
+    Network Administrator.
+
+    C. What to Do
+
+    If your <strong>Solaris</strong>/SunOS systems are vulnerable to the TCP SYN flood
+    attack, there are several immediate steps you may be able to take
+    to protect them.
+
+    1. Apply the parametric adjustments and other changes described in
+       our "Technical Recommendations" section as soon as possible.
+       (Note that some of the changes require access to source code.)
+       When patches become available, as described under "Plans and
+       Schedules", obtain and install them.
+
+    2. Consider adding additional physical memory to any systems which,
+       as described in section II.D.3, would benefit from it.
+
+    3. If your system is running one of the older versions of the SunOS
+       operating system, such as SunOS 4.1.3, 4.1.3_U1, or 4.1.4, or
+       5.3 (<strong>Solaris</strong> 2.3), consider upgrading to a later release.
+
+       <strong>Solaris</strong> 2.4, 2.5, and 2.5.1 systems stand up to this attack much
+       better than earlier releases, especially after tuning, because
+       of the cumulative effect of several TCP-related improvements.
+       The earlier releases can withstand only very light attacks, if
+       any. Some details are provided under "Understanding the
+       Vulnerability".
+
+    4. Review which incoming ports your system services. Pare that
+       list down to essentials. One way to determine which ports your
+       system is currently listening to by executing a command such
+       as:
+
+          netstat -a -f inet | grep LISTEN
+
+       On <strong>Solaris</strong> 2.4 and later systems, you can obtain much the same
+       information with the simpler command:
+
+          ndd /dev/tcp tcp_listen_hash
+
+       To reduce the number of ports listened to by inetd, edit the
+       file /etc/inetd.conf and comment out any unneeded entries.
+
+    5. Consider installing--especially if you are a 4.1.x customer--a
+       firewall, or a hardware filter, or one of the new third-party
+       software packages. (Sun has not tested and does not currently
+       endorse any of the new products, such as Checkpoint's
+       "SYNDefender", now being marketed to defend against this
+       attack.)
+
+
+II.  Understanding the Vulnerability
+
+    A. How the SYN Flood Attack Works
+
+       The attack exploits a basic design element of the "TCP
+       protocol", a set of rules developed many years ago to govern a
+       certain class of conversations between computers. Here is a
+       description, extracted from the recent CERT advisory CA-96.21.
+
+	  When a system (called the client) attempts to establish a TCP
+	  connection to a system providing a service (the server), the
+	  client and server exchange a set sequence of messages. This
+	  connection technique applies to all TCP connections--telnet,
+	  Web, email, etc.
+
+	  The client system begins by sending a SYN message to the
+	  server. The server then acknowledges the SYN message by
+	  sending SYN-ACK message to the client. The client then
+	  finishes establishing the connection by responding with an
+	  ACK message. The connection between the client and the server
+	  is then open, and the service-specific data can be exchanged
+	  between the client and the server. Here is a view of this
+	  message flow:
+
+
+                Client                  Server
+                ------                  ------
+                SYN--------------------&gt;
+
+                   &lt;--------------------SYN-ACK
+
+                ACK--------------------&gt;
+
+                     Client and server can now
+                     send service-specific data
+
+
+	 The potential for abuse arises at the point where the server
+	 system has sent an acknowledgment (SYN-ACK) back to the client
+	 but has not yet received the ACK message....
+
+	 The attacking system sends [a flood of] SYN messages to the
+	 victim server system; these appear to be legitimate but in
+	 fact reference a client system that is unable to respond to
+	 the SYN-ACK messages.
+         
+       Bombarding a system with, say, dozens of falsified connection
+       requests a minute can seriously degrade its ability to give
+       service to legitimate connection requests. This is why the
+       attack is said to "deny service" to the system's users.
+
+    B. How To Tell If Your System Is Under Attack
+
+       1. Checking for Connections in the "SYN_RCVD" State
+
+       A system under attack may appear to be running normally in most
+       respects. Outgoing connections, for example, and logged-in users
+       may be serviced normally. The symptoms of the attack will most
+       likely be noticed when someone attempts an incoming connection
+       --for example, by trying to reach a Web site on the target
+       system.  Depending on the rate of attack (and how resistant it
+       is), the system will react sluggishly, or not at all, to such
+       incoming connection requests.
+
+       One way a system administrator can check to see whether an
+       attack is in progress is to monitor the number of TCP
+       connections in the "SYN_RCVD" state, via a command such as the
+       following.       
+
+          netstat -an -f inet | grep SYN_RCVD | wc -l
+
+       Comparing the value returned by this command to a known-normal
+       value will give a good indication of whether the system is under
+       attack.
+
+       2. Using TCP Transaction Statistics
+
+       The above check for the "SYN_RCVD" state will work for all
+       <strong>Solaris</strong>/SunOS systems. More refined tools are available under
+       <strong>Solaris</strong> 2.x systems, which maintain TCP transaction statistics.
+
+       Display the TCP transaction statistics with a command such as:
+
+          netstat -s -P tcp
+
+       The "tcpTimRetransDrop" parameter shows the number of aborts
+       since boot time due to abort timer expirations. This count
+       includes both SYN requests and established TCP connections.
+
+       The "tcpListenDrop" parameter, introduced in <strong>Solaris</strong> 2.5.1,
+       shows the number of SYN requests that have been refused since
+       boot time due to "backlog full" conditions.
+
+       You may see occasional "tcpListenDrop" incidents on a normal,
+       busy 2.5.1 system. (This can happen, for example, when the
+       loaded system is not able to schedule the server daemon soon
+       enough to service incoming SYN requests, so that they fill up
+       the daemon's backlog queue.) But if you see the "tcpListenDrop"
+       count going up very quickly, with "tcpTimRetransDrop" events
+       following that rise, your system may well be under a <strong>SYN
+       attack</strong>.
+
+    C. Our Testing
+
+       The first incidents were announced a few weeks ago. Since then
+       Sun has obtained several versions of SYN flood attack software,
+       and tested the most effective of them against every supported
+       SunOS version.  A complex mix of hardware configurations were
+       included in the testing, being combined with the different
+       operating system releases to produce a test matrix with dozens
+       of combinations.
+
+       Basing our trials on publicly and privately obtained information
+       about the rates and durations of the attacks, we reproduced in
+       our testing two common modes. The "light" attack consisted of a
+       few falsified SYN requests a second. The "heavy" attack
+       consisted of hundreds (even thousands) such packets per second.
+
+    D. How Sun Systems Stand Up
+
+       Our testing indicates that even a light SYN flood attack will
+       often succeed against <strong>Solaris</strong>/SunOS systems which have not been
+       either shielded from it or hardened against it. After such steps
+       have been taken, newer and larger systems can generally
+       withstand even a heavy attack; systems running older releases of
+       SunOS--especially those with relatively small amounts of memory,
+       say 64 MB--still succumb.
+
+       We have seen the following regularities apply.
+
+       1. Faster hardware does better than slower hardware. The CPU
+	  time required to handle the flood of connection requests
+	  represents less of a resource drain.
+
+       2. Newer versions of SunOS react much better than older
+	  versions.  Specifically, we have found that <strong>Solaris</strong> 2.5.1,
+	  2.5, and 2.4 (SunOS 5.5.1, 5.5, and 5.4) perform better under
+	  attack than SunOS 5.3, 4.1.4, 4.1.3_U1, and 4.1.3.
+
+       3. Systems with plenty of physical memory react better than
+	  systems with less memory, so long as the operating system is
+	  able to make use of the extra memory to create and manage a
+	  sizable queue. Systems with only 64 MB of memory may well
+	  benefit from an increase. Systems already at 128 MB or above
+          might not. See appendix A for a formula you can use to help
+	  make this determination.
+
+	  SunOS 4.1.x systems cannot effectively make use of more than
+	  2 MB of memory for queue entries, because of a systemic
+	  limitation in the management of "mbufs". For this reason
+	  adding extra memory will not help harden a 4.1.x system to
+	  this attack.
+
+	  SunOS 5.3 (<strong>Solaris</strong> 2.3) also fares little better under this
+	  attack with "extra" memory, though for different reasons.
+	  The capacity to cope with memory demands dynamically was one
+	  of the features improved in <strong>Solaris</strong> 2.4. It shows.
+
+       4. Systems which do not need to service legitimate connection
+	  requests over slow asynchronous lines fare much better than
+	  those which do. This is because setting a very low timeout
+	  value for connection requests helps the system clean up fake
+	  requests quickly, but may cause an unacceptably high timeout
+	  rate for legitimate connections over slow links.
+
+       Our conclusion after testing: without adjustment, no version of
+       <strong>Solaris</strong>/SunOS can be relied upon to withstand a heavy (hundreds
+       of packets a second) SYN flood attack. After parametric tuning,
+       <strong>Solaris</strong> 2.4 and later releases stand up very well. Earlier
+       versions, including <strong>Solaris</strong> 2.3, may withstand a very light
+       attack but remain susceptible to moderate and heavy ones.
+
+
+III. Technical Recommendations
+
+The two most effective adjustments which you can make quickly to
+protect your <strong>Solaris</strong>/SunOS systems against the SYN flood attack are to
+(1) shorten the value of the abort timer, and (2) lengthen the backlog
+queue for those TCP ports which might be bombarded. On <strong>Solaris</strong> 2.x
+systems, these changes can be made using the ndd program. Rebuilding
+the kernel is required to adjust the behavior of 4.1.x systems.
+
+The two changes each increase the capacity of the system to queue and
+process all TCP connection requests, whether valid or invalid.
+
+Increasing the length of the backlog queue will have no effect unless
+you also make an adjustment involving the listen() call on the affected
+port(s). You will need to either rebuild from source the listener
+applications your systems use, or patch the binaries.  See paragraph C
+below for some more information.
+
+Lowering the abort timeout is a very effective measure to take against
+SYN attacks.  Changing this parameter, however, will have a side effect
+that some sites may find unacceptable: outgoing connection requests,
+initiated by users already on the adjusted system, will time out in
+less time than before. This side effect occurs because the system uses
+the same abort timer for both incoming and outgoing connections.
+
+Will adding physical memory improve your system's ability to withstand
+the attack? It's possible; the answer depends on how much memory your
+system has now, how many ports service incoming connections, how low
+you can set the abort timer value, and which version of the operating
+system (see section II.D.3) your system is running.
+
+See Appendix A for a more detailed discussion of the relationship between
+the effects of queue length, abort timeout, and available memory. 
+
+For information about more sophisticated, design-level approaches we
+are working on (which all involve source code changes), see section
+IV.
+
+    A. Decreasing the Abort Timeout Value
+
+       <strong>Solaris</strong>/SunOS systems are distributed with timeout values set
+       either to four minutes (SunOS 5.3 and earlier 5.x) or three
+       minutes (SunOS 5.4 and later). For 4.1.x the timeout is 75
+       seconds. These values were selected to ensure reasonable
+       performance over slow asynchronous lines, which can incur very
+       long delays.
+
+       Lower values allow the system to purge falsified connection
+       requests faster. In our testing, values in the range of ten
+       seconds gave the best results in configurations which did not
+       include asynchronous lines. However, setting the abort timer to
+       such a low value may very likely cause unsatisfactory results if
+       connections involving asynchronous lines must be serviced. In
+       those cases, a value in the range of one minute may give more
+       satisfactory results.
+
+       1. Instructions for <strong>Solaris</strong> 2.x systems.
+
+          On <strong>Solaris</strong> 2.x systems, you can set the abort timer value with a
+          command similar to:
+
+	  ndd -set /dev/tcp tcp_ip_abort_cinterval 10000
+
+          The timeout value, here ten seconds, is given in milliseconds.
+          To make the change permanent, add the command to the file
+          /etc/init.d/inetinit.
+
+          Note that, as described above, this new value will also affect
+          outgoing connections.
+
+       2. Instructions for SunOS 4.1.x systems.
+
+	  We list here two possible approaches. Each involves rebuilding
+	  the kernel.
+
+	  Note that because the value is interpreted here as being in
+	  half-second units, you must change the parametric value to
+	  20 to reduce the timeout to, for example, 10 seconds.
+
+	  a. Place the value of the abort timer in a variable, so that
+	  it can be changed with adb. This approach is the one we
+	  expect to take in an upcoming 4.1.x kernel patch.
+
+	  Here are diff files (the example is taken from our 4.1.4
+	  source) showing one way to effect that change.
+
+             tcp_input.c:
+             &gt; /* adjustable variable to replace TCPTV_KEEP_INIT */
+             &gt; int tcptv_keep_init = TCPTV_KEEP_INIT;
+             444c446
+             &lt;               tp-&gt;t_timer[TCPT_KEEP] = TCPTV_KEEP_INIT;
+             ---
+             &gt;               tp-&gt;t_timer[TCPT_KEEP] = tcptv_keep_init;
+
+	  After editing the file, you would need to put the modified
+	  tcp_input.c file in /sys/netinet and rebuild a kernel.
+
+	  b. Change the abort timer value parameter, TCPTV_KEEP_INIT,
+	  and rebuild the kernel. The parameter is defined in the
+	  header file /sys/netinet/tcp_timer.h. 
+
+          This approach is slightly simpler but has the side effect
+          on outgoing connections discussed earlier.
+
+	  After editing the header file, you would need to rebuild
+          a kernel, ensuring that the tcp_input.c was re-compiled.
+
+    B. Lengthening the Per-Port Backlog Queue
+
+       <strong>Solaris</strong> 2.4 and 2.3 systems, and 4.1.x systems, are distributed
+       with a maximum backlog queue length of 5. For <strong>Solaris</strong> 2.5 and
+       2.5.1, the value was increased to 32. To harden your system
+       against SYN flood attacks, you probably need a value in the
+       thousands.
+
+       In the examples below we show how to set the actual per-port max
+       value to 8,192. During our testing the number of queue entries
+       never exceeded this number, no matter how fast we bombarded the
+       system with SYN requests.
+             
+       1. Instructions for <strong>Solaris</strong> 2.x systems.
+
+	  Lengthening the backlog queue is a two-step process. Before
+	  increasing the value of the parameter which controls how many
+	  connections may be queued per port, it is necessary to change
+	  the maximum value the system will range-check the new setting
+	  against.
+
+          a. First, change the upper limit the system will enforce. This
+          can be done with adb. One approach is to effect the change in
+          a startup file, then reboot the system. To change the upper
+          limit to a value of 10,240, append the following line to the
+          file /etc/init.d/inetinit:
+
+	  echo "tcp_param_arr+14/W 0t10240" | adb -kw /dev/ksyms /dev/mem
+
+	  b. Next, change the system parameter specifying the per-port
+	  backlog queue length. This can be done with the ndd program.
+
+          ndd -set /dev/tcp tcp_conn_req_max 8192
+
+          The parametric value you specify must be less than or equal to
+          the upper limit set in the previous step (as in this case the
+          value of 8,192 is less than the upper limit of 10,240).
+          
+	  After executing the ndd command, you will need to restart the
+	  listener daemons for the change to tcp_conn_req_max to have
+	  any effect. The queue data structures are created at the time
+	  the listen() call is handled.
+
+          To make the change permanent, add the command to the file
+          /etc/init.d/inetinit.
+
+       2. Instructions for SunOS 4.1.x systems.
+
+	  We list here three possible approaches. The first two are
+	  equivalent. All involve rebuilding the kernel.
+
+	  What is the best value for SOMAXCONN, the maximum per-port
+	  backlog queue value parameter? The answer will vary,
+	  depending on how your system is used. Values between 100-500
+	  are good places to start. Just how high a value can safely be
+	  used depends primarily on how many ports are likely to be
+	  attacked.
+
+	  In SunOS 4.1.x systems only 2MB of memory can be allocated
+	  for mbufs. A heavy attack into a long queue can exhaust the
+	  system's supply of mbufs quickly.
+
+	  Since SOMAXCONN is used to limit the queue length for each
+	  port, a value of 1,000 may be safe if connections to only one
+	  port (to a Web server,for example) are passed through by a
+	  packet-filtering firewall or router.
+
+	  A conservative approach, then, might be to mininimize the
+	  number of incoming ports serviced (N), then set SOMAXCONN so
+	  that
+
+	     N * SOMAXCONN &lt; 1000
+
+          Since each queue entry consumes about 600 bytes of memory,
+          the total amount of memory dedicated to queue entries when
+          the system was under attack would then be 600,000--more than
+          one-fourth the total mbuf allocation.
+
+          a. Change the maximum per-port backlog queue value parameter,
+          SOMAXCONN, and rebuild the kernel. The parameter is defined
+          in the header file /sys/sys/socket.h.
+
+	  b. Place the value in a variable, so that it can easily be
+	  changed with adb. This more flexible approach is the one we
+	  expect to take in an upcoming 4.1.x kernel patch.
+
+	  Here are diff files (again from 4.1.4) showing one way to
+	  effect that change.
+
+             uipc_socket.c:
+             &gt; /* adjustable variable to replace SOMAXCONN */
+             &gt; int somaxconn = SOMAXCONN;
+             &gt; 
+             119c122
+             &lt;       so-&gt;so_qlimit = MIN(backlog, SOMAXCONN);
+             ---
+             &gt;       so-&gt;so_qlimit = MIN(backlog, somaxconn);
+
+
+          After editing the files, you would need to put the modified
+          uipc_socket.c in /sys/os and the modified tcp_input.c in
+          /sys/netinet and rebuild a kernel.
+
+	  Note that since so_qlimit (the receive queue limit) is the
+	  MIN() of the application-specified backlog value and
+	  somaxconn, listening applications must be restarted after a
+	  change to the new variable somaxconn is made.
+
+	  c. Modify the kernel code which uses SOMAXCONN, causing it
+          to disregard the application-specified backlog and substitute
+          the same (presumably higher) value for each port. We have
+          not tested this approach under production conditions and
+          stop short, at this point, of recommending it.
+
+             uipc_socket.c:
+             &gt; /* adjustable variable to replace SOMAXCONN */
+             &gt; int somaxconn = SOMAXCONN;
+             &gt; 
+             119c122
+             &lt;       so-&gt;so_qlimit = MIN(backlog, SOMAXCONN);
+             ---
+             &gt;       so-&gt;so_qlimit = somaxconn; /* NOT RECOMMENDED */
+
+    C. Increasing the Number of Connections the Listener Processes Can Service
+
+       As stated earlier, increasing the length of the backlog queue
+       will have no effect unless you also make an adjustment involving
+       the listen() call on the affected port(s). That is, listening
+       applications will need to be rebuilt to increase the requested
+       backlog value, so that the new SOMAXCONN value is reflected in
+       so_qlimit.
+
+       Three listening applications found on most UNIX systems are
+       in.named, sendmail, and inetd. (Many sites also run their own
+       customer applications.) So one example of a listener program
+       which will need to be changed is inetd, which issues the
+       listen() call on behalf of the daemons for which it watches
+       ports.
+
+       We expect to issue a patch for inetd in the near future (see
+       section IV.D). That patch is likely to add to inetd the ability
+       to specify on the command line the number of connections to
+       which inetd will listen on a particular port.
+
+       Until such a patch is available, customers with source licenses
+       may want to rebuild inetd, implementing either the new feature
+       described above or the following, simpler change. The change
+       is once again shown with reference to SunOS 4.1.4 source.
+
+             inetd.c:
+             656c656
+             &lt;               listen(sep-&gt;se_fd, 10);
+             ---
+             &gt;               listen(sep-&gt;se_fd, 1000000);
+             705c705
+             &lt;               listen(sep-&gt;se_fd, 10);
+             ---
+             &gt;               listen(sep-&gt;se_fd, 1000000);
+             1247c1276
+             &lt;                       qlen = 10;
+             ---
+             &gt;                       qlen = 1000000;
+             1324c1353
+             &lt;                       listen(sep-&gt;se_fd, 10);
+             ---
+             &gt;                       listen(sep-&gt;se_fd, 1000000);
+             1365c1394
+             &lt;                       qlen = 10;
+             ---
+             &gt;                       qlen = 1000000;
+             1433c1462
+             &lt;               listen(sep-&gt;se_fd, 10);
+             ---
+             &gt;               listen(sep-&gt;se_fd, 1000000);
+
+       The effect of these edits would be to cause inetd to always
+       specify in the listen() call that it could handle 1,000,000
+       simultaneous connections. The effective value would thus be
+       the system's upper limit.
+       
+
+IV.  Plans and Schedules
+
+The parametric adjustments we have discussed can bring about
+significant improvement. But they do not represent a complete solution
+to the problems posed by the SYN flood attack.  The principal drawbacks
+are:
+
+1. Lowering the abort timer value to small values (on the order of ten
+seconds) is not practical when slow asynchronous lines must be
+serviced. Service providers may find this dilemma particularly
+difficult to resolve--unless all access to their systems is via slow
+lines, in which case the attack rate will be low, and long timeouts
+values may be acceptable.
+
+2. Increasing the backlog queue to very large (on the order of 10K)
+means that, when the system is under attack, falsified requests will
+consume several megabytes of memory. This memory, and the CPU cycles
+needed to handle the requests and operate the timeouts, are resources
+wasted when the system must treat every request in the same way.
+
+3. Modifying system parameters to allow a larger maximum backlog queue
+length has no effect without other changes. The kernel will only insert
+into a port's queue however many connection requests the servicing
+application announced it could handle at the time it issued the
+listen() system call. In some applications, the listen backlog size is
+configurable. In others, the size is hard-coded. Unfortunately, for
+inetd (a program which itself serves as a listener on behalf of other
+programs) the value used for the backlog size is hard-coded. So inetd
+must be re-compiled in order for a change in the system maximum to have
+any effect on ports on which inetd is listening.
+
+Better solutions require algorithmic re-design at the source level.
+
+    A. Design-Level Changes Being Considered
+
+       Sun is currently testing several possible new algorithms to deal
+       with SYN flood and similar attacks. Many of these possible
+       changes were suggested and analyzed in the informal discussions
+       that have arisen amongst experts worldwide seeking defensive
+       countermeasures.
+
+       Some of the methods being considered for inclusion in some
+       <strong>Solaris</strong>/SunOS releases are:
+
+       1. Implement an algorithm (perhaps a combination of "random
+          drop" and "oldest drop") to drop queue members when the backlog
+          queue is full.
+
+       2. Tune the networking code to handle large numbers of SYN
+	  requests more efficiently by (for example) changing the
+	  listener queue to use more efficient data structures, such as
+	  hash tables.
+
+       3. Give priority to requests which originate from sources
+	  with which successful handshakes have already been concluded
+	  in the past.
+
+       In addition, many of the above methods might be combined with an
+       adaptive approach to produce behavior which varies depending on
+       whether or not the system seems to be under attack.
+
+    B. OS Versions For Which Algorithmic Changes Are Being Developed
+
+       Sun will develop and adopt defensive techniques, similar to
+       those outlined above, in a future release of <strong>Solaris</strong>/SunOS. Some
+       of these techniques are already being tested in our development
+       labs for possible inclusion in the next release.
+
+       In addition, Sun commits to producing patches representing an
+       appropriate subset of such techniques for the following versions
+       of <strong>Solaris</strong>/SunOS: <strong>Solaris</strong> 2.5.1, 2.5, and 2.4 (SunOS 5.5.1, 5.5,
+       and 5.4 respectively). Patches will be supplied for all
+       supported hardware platforms.
+
+    C. OS Versions For Which No Algorithmic Changes Are Planned
+
+       No design-level algorithmic changes are planned for the
+       following versions of <strong>Solaris</strong>/SunOS: 5.3 (<strong>Solaris</strong> 2.3), 4.1.4,
+       4.1.3_U1, and 4.1.3. This decision was reached after careful
+       study of several engineering options and their concomitant
+       benefits, resource commitments, and risks.
+
+       Sun will produce patches for these releases in the near future,
+       however, which make it possible for customers without source
+       code to implement the parametric adjustments described in the
+       Technical Recommendations section.
+
+       We also encourage all customers who may be affected by this new
+       attack to investigate third-party solutions such as those
+       alluded to earlier.
+
+       Note that the SYN flood attack is not the result of any system
+       bug, defect, or flaw, nor any error in implementing the TCP
+       protocol.  Rather, it represents the stark difference between
+       the world in which TCP was designed and the Internet environ-
+       ment we work in and live in today. The decision to not develop
+       algorithmic changes for these older releases does not represent
+       any change in Sun's commitment to provide fixes, free of charge,
+       for all security bugs in supported releases.
+
+    D. Schedule of Upcoming Patches
+
+       Sun will produce patches in the near future to facilitate the
+       application of parametric changes to SunOS 4.1.x systems.  We
+       expect that these patches, which will appply to the kernel and
+       to inetd, will be available in two weeks or less.
+
+       Sun will also produce inetd patches for all supported <strong>Solaris</strong>
+       2.x releases.  We expect these patches to be available within
+       three weeks.
+
+       As described earlier, Sun will also release kernel patches for
+       <strong>Solaris</strong> 2.4 and later releases which implement design-level
+       changes. We will give these changes an extremely high priority
+       in the development and patch processes. Official patches may
+       take as long as two or even three months to produce, as a result
+       of the testing required of every kernel patch; but preliminary
+       patches should be available within 30 days for testing by
+       interested customers.
+
+       All of the patches described above will be announced via our
+       usual methods. In addition, we will issue within 30 days a
+       supplemental Sun Bulletin detailing the algorithms we have
+       selected and the exact dates we expect the patches to be
+       available. 
+
+
+APPENDICES
+
+A.   Queuing Capacity Vs. Attack Rates
+
+    1. The arithmetical relationships
+
+    The relationship between the effects of queue length, abort timeout,
+    and available memory is shown by the following calculations. Each
+    entry in the backlog queue takes up roughly 600 bytes. Let:
+
+       T = the setting of the abort timer, in seconds;
+       L = the backlog limit of the listener queue, per port, in bytes;
+       N = the number of ports which must service SYN connections;
+       R = the rate of all incoming SYN requests on a given port; and
+       RTT = Round-trip-time between the client and the server.
+
+    Then we can calculate the total amount of memory potentially consumed by
+    a full-out <strong>SYN attack</strong> on all ports, filling all queues, as:
+
+       N * L * ~600
+
+    So the total for, say, 25 ports with queues 8,192 entries long would be
+
+       25 ports  *  8,192 entries  *  ~600  bytes/entry
+
+    or about 120MB. This calculation shows why an increase from 64 MB to
+    128 MB may help your system cope with an attack, and also why it is
+    important to determine and reduce the number of listening ports.
+
+    2. Memory limits
+
+    On <strong>Solaris</strong> 2.x systems, the memory the system allocates to the
+    queues comes from the kernel heap. Adding physical memory beyond 64
+    MB may not increase the size of the heap, which is itself allocated
+    from the virtual address space available to the kernel. The maximum
+    memory available to the kernel varies depending on the hardware
+    platform.  Some common values are 100MB for sun4m machines,
+    240-250MB for sun4d machines, and more than 2GB for sun4u
+    processors.
+
+    On SunOS 1.x systems, of course, the allocation must come from the
+    2MB mbuf limit.
+
+    3. Queue overflow and timeouts
+
+    If a port is under attack, and the queue is filling up, then all
+    incoming SYN requests (good or faked) will continue to be queued so
+    long as
+
+       L/T &gt; R
+
+    When the SYN arriving rate R is greater than L/T, however, then
+    R - L/T packets/sec will be dropped. At that point, therefore,
+    a legitimate SYN request may be lost in the flood of fakes.
+
+    Of course, for any request, if RTT &gt; T, the request will time out.
+
+B.   How to obtain Sun security patches
+
+    1. If you have a support contract
+
+    Customers with Sun support contracts can obtain any patches listed
+    in this bulletin (and any other patches--and a list of patches)
+    from:
+
+       - SunSolve Online
+       - Local Sun answer centers, worldwide
+       - SunSITEs worldwide
+
+    The patches are available via World Wide Web at
+    <A HREF="http://sunsolve1.sun.com">http://sunsolve1.sun.com</A>.
+
+    You should also contact your answer center if you have a support
+    contract and:
+
+       - You need assistance in installing a patch
+       - You need additional patches
+       - You want an existing patch ported to another platform
+       - You believe you have encountered a bug in a Sun patch
+       - You want to know if a patch exists, or when one will be ready
+
+    2. If you do not have a support contract
+
+    Customers without support contracts may now obtain security
+    patches, "recommended" patches, and patch lists via SunSolve
+    Online.
+
+    Sun does not furnish patches to any external distribution sites
+    other than the ones mentioned here. The ftp.uu.net and ftp.eu.net
+    sites are no longer supported.
+
+    3. About the checksums
+
+    So that you can quickly verify the integrity of the patch files
+    themselves, we supply in each bulletin checksums for the tar
+    archives.
+
+    Occasionally, you may find that the listed checksums do not match
+    the patches on the SunSolve or SunSite database. This does not
+    necessarily mean that the patch has been tampered with. More
+    likely, a non-substantive change (such as a revision to the README
+    file) has altered the checksum of the tar file. The SunSolve patch
+    database is refreshed nightly, and will sometimes contain versions
+    of a patch newer than the one on which the checksums were based.
+
+    In the future we may provide checksum information for the
+    individual components of a patch as well as the compressed archive
+    file. This would allow customers to determine, if need be, which
+    file(s) have been changed since we issued the bulletin containing
+    the checksums.
+
+    In the meantime, if you would like assistance in verifying the
+    integrity of a patch file please contact this office or your local
+    answer center.
+
+
+C.   How to report or inquire about Sun security problems
+
+If you discover a security problem with Sun software or wish to inquire
+about a possible problem, contact one or more of the following:
+
+   - Your local Sun answer centers
+   - Your representative computer security response team, such as CERT
+   - This office. Address postal mail to:
+
+         Sun Security Coordinator
+         MS MPK17-103
+         2550 Garcia Avenue
+         Mountain View, CA 94043-1100
+
+	 Phone: 415-786-5274
+         Fax:   415-786-7994
+         E-mail: security-alert@Sun.COM
+
+We strongly recommend that you report problems to your local Answer
+Center. In some cases they will accept a report of a security bug even
+if you do not have a support contract. An additional notification to
+the security-alert alias is suggested but should not be used as your
+primary vehicle for reporting a bug.
+
+
+D.   How to obtain Sun security bulletins or short status updates
+
+    1. Subscription information
+
+    Sun Security Bulletins are available free of charge as part of our
+    Customer Warning System. It is not necessary to have a Sun support
+    contract in order to receive them.
+
+    To receive information or to subscribe or unsubscribe from our
+    mailing list, send mail to security-alert@sun.com with a subject
+    line containing one of the following commands.
+
+
+	Subject         Information Returned/Action Taken
+	-------         ---------------------------------
+
+	HELP            An explanation of how to get information
+
+	LIST            A list of current security topics
+
+	QUERY [topic]   The mail containing the question is relayed to
+			a Security Coordinator for a response.
+
+	REPORT [topic]  The mail containing the text is treated as a
+			security bug report and forwarded to a Security
+			Coordinator for handling. Please note that this
+			channel of communications does not supersede
+			the use of Sun Solution Centers for this
+			purpose.  Note also that we do not recommend
+			that detailed problem descriptions be sent in
+			plain text.
+
+	SEND topic      Summary of the status of selected topic. (To
+			retrieve a Sun Security Bulletin, supply the
+			number of the bulletin, as in "SEND #103".)
+
+	SUBSCRIBE       Sender is added to the CWS (Customer
+			Warning System) list.  The subscribe feature
+			requires that the sender include on the subject
+			line the word "cws" and the reply email
+			address.  So the subject line might look like
+			the following:
+
+				SUBSCRIBE cws graff@sun.com
+
+	UNSUBSCRIBE     Sender is removed from the CWS list.
+
+
+    Should your email not fit into one of the above subjects, a help
+    message will be returned to you.
+
+    Due to the volume of subscription requests we receive, we cannot
+    guarantee to acknowledge requests. Please contact this office if
+    you wish to verify that your subscription request was received, or
+    if you would like your bulletin delivered via postal mail or fax.
+
+    2. Obtaining old bulletins
+
+    Sun Security Bulletins are available via the security-alert alias
+    and on SunSolve. Please try these sources first before contacting
+    this office for old bulletins.
+
+				------------
+
+
+</PRE>
+</BODY>
+</HTML>
+</DOC>

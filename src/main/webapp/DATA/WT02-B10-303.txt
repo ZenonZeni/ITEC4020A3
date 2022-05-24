@@ -1,0 +1,183 @@
+
+<DOC>
+<DOCNO>WT02-B10-303</DOCNO>
+<DOCOLDNO>IA011-000111-B041-104</DOCOLDNO>
+<DOCHDR>
+http://www.takeout-info.com:80/ 206.184.157.62 19970216170357 text/html 3665
+HTTP/1.0 200 OK
+Date: Sun, 16 Feb 1997 17:04:10 GMT
+Server: BESTWWWD/1.0
+MIME-version: 1.0
+Content-type: text/html
+Content-length: 3483
+Last-modified: Thu, 02 Jan 1997 22:02:55 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+  <TITLE> Internet Takeout Place -- Takeout-Info.COM </TITLE>
+
+  <META Name="description" Content="Restaurant takeout guide by category and
+              takeout location.  Menu, Pricing and directions are also
+              provided.">
+
+  <META Name="keywords" Content="food, restaurant, food delivery, takeout,
+              eating, drinking, menu, directions, fast food, coctails,
+              healthy eating, health, restaurants, search, find, look up,
+              local food, local places">
+
+
+<!-- BODY BGCOLOR="00F0F0" -->
+<BODY>
+<CENTER>
+<H1>
+<FONT color="FF0000" SIZE=+3>
+<EM>
+<!-- Title on home page -->
+     Takeout-Info.COM  <br>
+</EM>
+</FONT>
+</H1>
+</CENTER>
+
+
+<CENTER>
+<EM>
+For more info: (408) 736-5852 <BR>
+</EM>
+</CENTER>
+
+<br>
+<br>
+
+<H3>
+We are building an international network of takeout restaurants that deliver,
+to enable computer users everywhere to order from restaurants for delivery.
+If  we
+do not yet list your favorite takeout restaurant, please take a moment to 
+<a href="mailto:moricz@best.com"> nominate it. </a>
+This will help us grow.
+</H3> 
+<br>
+<HR>
+<br>
+<H2>To order a nice hot meal...</H2>
+<P>
+Please provide us with your zip code and telephone number below.  We will 
+list the participating restaurants in your area.  You may then click on the 
+restaurant of your choice and examine their home page and delivery menu.
+<BR>
+</P>
+
+
+<br>
+<hr>
+
+
+<FORM METHOD="POST" 
+      ACTION="http://www.takeout-info.com/takeout/cgi-bin/food_new.cgi">
+
+  <table cellpadding=2>
+    <tr>
+      <th align="left">
+        <b> Enter your Zip or Postal Code: </b>
+        <br>
+      <th align="left">
+        <table border>
+        <tr><td width=120><INPUT NAME="zip" SIZE="10" VALUE="94041">
+        </table>
+        <br>
+    <tr>
+      <th align="left">
+        <b> Your Telephone Area Code:</b>
+        <br>
+      <th align="left">
+        <table border>
+        <tr><td width=88><INPUT NAME="areacode" SIZE="3" MAXLENGTH="3" VALUE="408">
+        </table>
+        <br>
+    <tr>
+      <th align="left">
+        <b> the first 3 digits of your phone number: </b>
+        <br>
+      <th align="left">
+        <table border>
+        <tr><td width=88><INPUT NAME="phonexch" SIZE="3" MAXLENGTH="3" VALUE="736">
+        </table>
+        <br>
+
+
+    <tr>
+      <th align="left">
+        <B> Choose a selection from menu </B>
+        <br>
+      <th align="left">
+        <table border>
+        <!-- INPUT TYPE="text" NAME="selection" VALUE="Chinese" SIZE=20 -->
+        <tr><td width=120>
+        <SELECT NAME="selection">
+        <OPTION> American
+        <OPTION> Sandwiches
+        <OPTION> Japanese
+        <OPTION> Chinese
+        <OPTION> Italian
+        <OPTION> Indian
+        <OPTION> Mexican
+        </SELECT>
+        </table>
+
+    <tr>
+      <th align="left">
+      <th align="left">
+        <INPUT TYPE="reset">
+        <INPUT TYPE="submit" NAME="Action" VALUE="Send">
+        <br>
+
+  </table>
+</FORM>
+<P>
+
+
+
+<br>
+<hr>
+<br>
+
+<center>
+<h3>
+<font size=+1>
+
+While you are waiting for your order to be delivered,
+<A HREF="vitamins/index.html">
+         please visit the website on herbal alternatives ...
+</A>
+
+</font>
+</h3>
+</center>
+
+
+
+<!-- br -->
+<!-- hr -->
+<!-- br -->
+<!-- p -->
+<!-- h3 -->
+<!-- This is where we are located: -->
+<!-- h3 -->
+<!-- br -->
+
+<!-- center -->
+<!-- IMG BORDER=0 WIDTH=425 HEIGHT=250  SRC="office_map.gif" -->
+<!-- /center -->
+
+
+
+
+<br>
+
+</body>
+<address>
+<!--  Copyright &#169 1996 , by F. Chan  -->
+</address>
+</html>
+</DOC>

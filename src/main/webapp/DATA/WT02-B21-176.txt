@@ -1,0 +1,203 @@
+
+<DOC>
+<DOCNO>WT02-B21-176</DOCNO>
+<DOCOLDNO>IA052-000883-B029-175</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/interfer/ml.html 137.229.31.144 19970210141126 text/html 7718
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:11:38 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Thursday, 30-Jan-97 23:46:22 GMT
+Content-length: 7536
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML> 
+<HEAD>
+<TITLE>Interferometry at ASF/STEP: ml</TITLE> 
+</HEAD> <BODY BGCOLOR="#FFDEAD" TEXT="#00008F" LINK="#008B00" VLINK="#580000"
+BACKGROUND="../res/backgrounds/asf_tile.gif"> 
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> | 
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> | 
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> | 
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> |
+<A HREF="http://www.images.alaska.edu/interfer/">Interferometry</A> 
+<H1 ALIGN=CENTER>
+Ml
+</H1>
+
+<DL>
+<DT><H2>Introduction</H2></DT>
+<DD>
+Ml or multilooking has two main functions. 
+<P>
+<OL>
+<LI>Square the pixels. ASF SLC (Single Look Complex) images have a resolution of 
+approximately of 20m by 4 meters. The most noticeable effect of this pixel 
+resolution is the stretching of the image as seen in the example of the program 
+<a href="igram.html">igram</a>. Multilooking will <I>square</I> the pixels to 
+create a pixel resolution about 20 meters by 20 meters.</LI>
+<P>
+<LI>Perform a minor filter of the interferogram. As ml steps through the image 
+squaring the pixels, ml averages the pixels in its step area which is by default 
+1 column by 5 rows. We can increase the area from which ml averages its pixels 
+by increasing the look line and look sample attributes. Increasing the look area 
+does not change how ml steps through the image nor does it change the output 
+image size. However, it does change the pixel resolution. (<I>Note: When 
+processing, if you change the look area, make sure the dimensions are maintain 
+the same ratio. by default the look area is 1 column by 5 rows. If you want to 
+double the look area, you should increase the look area to 2 columns and 10 rows 
+and not 10 columns and 2 rows.</I>)</LI>
+</OL>
+</DD>
+
+<DT><H2>Example</H2></DT>
+<DD>
+For details on the command line syntax, please see the <a 
+href="http://www.images.alaska.edu/cgi-bin/man-request.pl?asftool=ml&amp;section
+=1">man page</a>.
+<P>
+A sample run looks like the following:
+<P><PRE>
+sparc1k [3]: ml -l 10 -s 2 asc12 asc12d ml12
+
+ml:
+ Calculated values:
+ total = 48203556.000000	avg = 470.737854
+Skipping every 1 col and 5 row
+Looking at every 2 col and 10 row
+	Wrote line: 2560
+	done with multilook
+writing out LAS/RGB image file
+	creating and writing band 1
+	creating and writing band 2
+	creating and writing band 3
+Total wall clock time = 770 seconds.
+</PRE><P>
+Note that the line <I>Wrote line...</I> will update as each line is finished.
+<P>
+<CENTER>
+<TABLE BORDERS=0>
+<TR align=center>
+<TD COLSPAN=2>
+  Click on the images to see full-res versions.<BR>
+  These image are over 4 MB in size.
+</TD>
+
+<TR>
+<TD>
+  <a href="ml12ifmfs.gif">
+  <IMG SRC="ml12ifm.gif" WIDTh=256 HEIGHT=320 ALT="[Interferogram]"></IMG>
+  </a>
+</TD>
+<TD>
+   <a href="ml12ampfs.gif">
+   <img src="ml12amp.gif" WIDTH=256 HEIGHT=320 ALT="[Amplitude]"></IMG>
+   </a>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD>
+   Colorized Interferogram. ML12.IMG
+</TD>
+<TD>
+   Greyscale Amplitude Image. ML12.AMP
+</TD>
+</TR>
+
+</TABLE>
+</CENTER>
+</DD>
+
+<DT><H2>Description</H2></DT>
+<DD>
+We pass asc12.amp as our amplitude file and asc12d.phase as our phase file. Ml 
+transforms the float-valued amplitude file into the byte range 0 - 255. In order 
+to do this, ml calculates the average value of the amplitude file and converts 
+this value to 128. Ml then creates a ratio where
+<P><PRE>
+                   pixel value             byte value
+                   -----------      =      ----------
+                     average                  128
+</PRE><P>
+<I>Pixel value</I> is the value of the current pixel and <I>byte value</I> is 
+the corresponding value between 0 and 255.
+<P>
+This amplitude determines brightness whereas the phase determines color. <img 
+src="wheel.gif" width=128 height=128 alt="[Color Wheel]" Align=right></img>The 
+phase which has a value between 0 and 2 pi is divided into 6 colors. 0 radians 
+starts on the right hand side and increases counter clockwise. See image to 
+right.
+<P>
+In this example we have increased the number of look lines from 5 to 10 and the 
+number of look samples from 1 to 2. From previous experience I know that the 
+CCSD data is a tad noisy and I want to perform a filter in order to increase 
+coherence. This will also decrease the number of singularities and increase 
+integration when I perform unwrapping with <a href="escher.html">escher</a>.
+<P>
+I could have also increased the number of step lines and samples to 10 and 2 
+respectively. However, I wanted to keep my pixel spacing at 20 meters by 20 
+meters. Do not confuse pixel spacing and resolution. Resolution determines how 
+far apart 2 objects on the ground have to be in order for the satellite to 
+distinguish them as 2 discrete objects. Pixel spacing refers to the amount of 
+ground each pixel covers. Whenever you filter an image, you decrease your 
+resolution. However, filtering does not always destroy your pixel spacing. Also, 
+pixel spacing cannot be greater than your resolution.
+<P>
+The two images above are the outputs from ml. If you are using the test data set 
+and following the same naming convention, you will find them as ml12.img and 
+ml12.amp. Ml also creates two more files ml12.ddr and ml12.phase. Ml12.phase is 
+your phase file which you will need for unwrapping, and ml12.ddr is a data 
+display record used with the <b>Xid</b> imaging program. The greyscale image was 
+converted into a byte file, then into a PGM file using <b>rawtopgm</b>, and 
+finally displayed with <b>xv</b>. While brightness and contrast may differ, you 
+should get the same general image regardless of which imaging tool you use.
+<P>
+The colorized interferogram shows a lot of banding across the image. (<I>The 
+resampled version here may be hard to see. Either download the full size gif 
+version or look at your own image if you are using the test data set.</I>) These 
+bands are the result of incorrect baseline parameters. We will need to refine 
+our baseline parameters using a program called <a 
+href="refine.html">refine_base</a>. (To view a correctly deramped interferogram, 
+see the page <a href="iter.html">Iterations</a>. However, if you are new to 
+interferometry, I would suggest you not skip ahead.) Once we correct our 
+baseline and deramp again, our interferogram should show us some "pretty" phase 
+bands. 
+</DD>
+
+<DT><H2>Next Step</H2></DT>
+<DD>
+The next step in interferometry processing is <a href="escher.html">escher</a>. 
+Escher will unwrap your phase file, ml12.phase, and get us ready for refining 
+our baseline parameters. Escher is also run if you wish to determine an 
+elevation from our interferogram. DEM generation from interferograms require the 
+use of an unwrapped phase file. 
+</DD>
+</DL>
+
+<P>
+<a href="deramp.html">
+<img src="../res/buttons/leftarrow.gif" alt="[Go Back]" WIDTH=29 HEIGHT=30>
+</a>
+<a href="escher.html">
+<img src="../res/buttons/rightarrow.gif" alt="[Go Ahead]" WIDTH=29 HEIGHT=30>
+</a>
+<P>
+<CENTER>
+<IMG ALT="[---------]" SRC="../res/lines/ice_blue_line.gif" WIDTH=85%>
+</CENTER>
+<H4>
+Created By: <a href="mailto:mshindle@images.alaska.edu">Michael Shindle</a><br>
+Last Updated: January 23,1997<BR> 
+Last Updated By: <A 
+HREF="http://www.images.alaska.edu/users/mike/mike.html">Michael 
+Shindle</A><BR> If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="http://www.images.alaska.edu/comments.html">comment</A>. 
+<H4> 
+</BODY>
+</HTML> 
+
+</DOC>

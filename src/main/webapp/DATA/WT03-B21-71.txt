@@ -1,0 +1,308 @@
+
+<DOC>
+<DOCNO>WT03-B21-71</DOCNO>
+<DOCOLDNO>IA048-000838-B040-471</DOCOLDNO>
+<DOCHDR>
+http://www.cabotm.com:80/test.html 204.167.107.17 19970119153615 text/html 4941
+HTTP/1.0 200 Document follows
+MIME-Version: 1.0
+Server: CERN/3.0
+Date: Sunday, 19-Jan-97 15:36:12 GMT
+Content-Type: text/html
+Content-Length: 4738
+Last-Modified: Tuesday, 14-Jan-97 00:37:32 GMT
+</DOCHDR>
+<html>
+<head>
+<title>Cabot's Quick and Easy Financial Planning Quiz</title> 
+</head>
+<body>
+<CENTER>
+<H2><font face="arial,futura" color="#000080">Cabot's Quick and Easy<BR>
+Financial Planning Quiz</font></H2>
+<H3><font face="arial,futura" color="#0000FF"><i>90 Seconds To Your Investment Plan</i></font></H3>
+</center>
+<HR>
+<P>
+
+<FORM METHOD=POST ACTION="http://www.cabotm.com/bin/test.pl">
+
+<B>1. When do you expect to begin withdrawing money<BR>
+from your investment portfolio(s):</b>
+
+<select name="question1">
+
+ <option VALUE="0" selected>currently - 2 years
+
+ <option VALUE="3">3 - 5 years
+
+ <option VALUE="7">6 - 10 years
+
+ <option VALUE="10">10+ years
+
+ </select>
+
+<P>
+
+
+
+<b>2. How many years until you retire:</b>
+
+ <select name="question2">
+
+ <option VALUE="0" selected>0 - 2 years
+
+ <option VALUE="4">3 - 5 years
+
+ <option VALUE="7">6 - 10 years
+
+ <option VALUE="10">10+ years
+
+ </select>
+
+<P>
+
+
+
+<B>3. How much savings have you set aside for emergency situations:</B>
+
+<DL>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question3" VALUE="0"> little outside savings
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question3" VALUE="4"> adequate savings (3 months living expenses)
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question3" VALUE="10"> more than adequate savings (3+ months living expenses)
+
+</DD>
+
+</DL>
+
+<P>
+
+
+
+<P>
+
+<b>4. What are you plans for contributions or withdrawals<BR>
+from your investment portfolio:</b>
+
+ <select name="question4">
+
+ <option VALUE="0" selected>withdraw money periodically
+
+ <option VALUE="5">neither add nor withdraw
+
+ <option VALUE="10">add money periodically
+
+ </select>
+
+
+
+<P>
+
+<b>5. What are your Personal Investment Goals:</b>
+
+ <select name="question5">
+
+ <option VALUE="0" selected>Capital Preservation
+
+ <option VALUE="3">Income
+
+ <option VALUE="6">Balanced
+
+ <option VALUE="10">Long-Term Growth
+
+</select>
+
+
+
+
+
+<P>
+
+<B>6. Great News! You just won a big prize!  Which one would you choose?</B>
+
+<DL>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question6" VALUE="0"> $2,000 cash
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question6" VALUE="5"> a 50% chance to win $5,000
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question6" VALUE="10"> a 20% chance to win $15,000
+
+</DD>
+
+</DL>
+
+<P>
+
+
+
+<B>7. A stock in which you have a modest position and a large gain drops 
+20%.  Nothing has changed with the fundamentals.  Would you:</B>
+
+<DL>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question7" VALUE="10"> Add to the position on price weakness
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question7" VALUE="0"> Ring the register before they take away all your gains
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question7" VALUE="5"> do nothing
+
+</DD>
+
+</DL>
+
+<P>
+
+
+
+<B>8. Things go in your favor. Three months after buying a stock, its price increases 20%.  Assuming nothing has fundamentally changed at the company, what would you do?</B>
+
+<DL>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question8" VALUE="0"> sell it to lock in your gains
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question8" VALUE="5"> do nothing
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question8" VALUE="10"> buy more, it may go higher
+
+</DD>
+
+</DL>
+
+<P>
+
+
+
+
+
+
+
+<P>
+
+<B>9. How do you feel about market volatility, loss of capital and long-term investment strategies:</B>
+
+<DL>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question9" VALUE="0"> I can’t tolerate any loss or volatility
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question9" VALUE="2"> I'm able to tolerate some volatility but little loss of capital
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question9" VALUE="5"> I'm able to endure a reasonable level of fluctuation in total annual returns
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question9" VALUE="7"> I'm willing to accept occasional negative returns in the interest of building capital
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question9" VALUE="10"> I believe investing is a long-term process and volatility is not a problem
+
+</DD>
+
+</DL>
+
+
+
+
+
+<P>
+
+<B>10. Which statement describes you best?</B>
+
+<DL>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question10" VALUE="0"> I'm a nervous nelly. Honestly, this market scares me.
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question10" VALUE="5"> I'm a middle of the road kind of person. Not too fast, not too slow.
+
+</DD>
+
+<DD>
+
+<INPUT TYPE="RADIO" Name="question10" VALUE="10"> It's only money. Let's go for it. Make it work for me.
+
+</DD>
+
+</DL>
+
+
+
+<P>
+
+
+
+<P>
+
+<P><INPUT TYPE="submit" Name="submit-a" Value =" CALCULATE SCORE ">
+
+</FORM>
+<HR>
+<HR>
+<BR>
+</BODY>
+</HTML>
+
+</DOC>

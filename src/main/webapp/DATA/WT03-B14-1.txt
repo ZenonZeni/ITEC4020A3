@@ -1,0 +1,582 @@
+
+<DOC>
+<DOCNO>WT03-B14-1</DOCNO>
+<DOCOLDNO>IA086-000622-B041-145</DOCOLDNO>
+<DOCHDR>
+http://telnet.newsnet.com:80/libiss/te117.html 205.156.212.5 19970122052500 text/html 33329
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Wednesday, 22-Jan-97 05:22:59 GMT
+Last-modified: Monday, 20-Jan-97 17:37:33 GMT
+Content-length: 33142
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/te117.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+<A HREF="../index.html"><IMG BORDER=0 SRC="/plweb/icons/nn_home.gif" ALT="NewsNet Home Page"></A><BR>
+Copyright <BR>
+TELECOM PERSPECTIVES via NewsNet <BR>
+January, 1996   <BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><A HREF = "#1"><LI>PLAYING FOLLOW THE LEADER&nbsp;IN OSS</A>&nbsp&nbsp&nbsp<NOBR>(1598 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><LI>CELLULAR DATA ...READY TO TAKE OFF AT LAST?</A>&nbsp&nbsp&nbsp<NOBR>(2136 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#3"><LI>CREATIVE DESTRUCTION IN GLOBAL PUBLIC NETWORKS</A>&nbsp&nbsp&nbsp<NOBR>(988 words)</NOBR></LI>
+</UL>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+TELECOM PERSPECTIVES via NewsNet
+January, 1996   
+
+PLAYING FOLLOW THE LEADER
+IN OSS
+
+By:
+Gayle Gaddis
+
+Today's operations support systems vendors need a role model. Those vendors
+who have taken the largest share of the OSS market in the past--most of
+them network equipment vendors like AT&T, Bellcore, Nortel, Siemens,
+Ericsson, and Alcatel--have suddenly found themselves in a changed OSS
+market, one that values service over technology, one that expects
+guarantees, and one that does not need to be told what its needs are. For
+these traditional vendors--many of whom still believe that providing the
+technology is the same as providing service--a new market strategy must be
+found. They could develop this new strategy on their own, but that would be
+reinventing the wheel; Andersen Consulting (along with some smaller
+independent network management vendors) has already begun to set the
+paradigm that OSS vendors will need to follow into the year 2000.
+Certainly it would seem that Andersen, which has entered the telecom market
+through the side door (i.e., business consulting), would have little to
+teach AT&T, which practically founded the U.S. telecom market and has the
+largest installed base of operations support systems to date. Yet AT&T,
+like some of its fellow manufacturers, still suffers from an
+equipment-based mentality that does not encompass service arrangements like
+risk-sharing or joint marketing with customers. Andersen, on the other
+hand, has pioneered some of these arrangements for OSS. Vendors like AT&T
+also suffer (although AT&T less than some other OSS vendors) from an
+attachment to the concept of management systems, rather than frameworks.
+Alcatel still wants to sell the customer a box, where newer software
+companies and integrators like OSI and TCSI want to sell the customer a
+foundation upon which applications can be built (and thus are not selling
+the customer any applications it does not need). Essentially, the OSS
+market is moving in directions dictated by customers, and no longer by
+vendors. And now that AT&T et al. can no longer tell customers what they
+should need for OSS, they would do well to follow the lead of
+customer-driven players like Andersen.
+
+Changing the Rules
+It is the OSS customers themselves--the local and global service providers,
+whether wireline, wireless, or cable--that have instigated the
+transformation of OSS, by beginning to demand the same types of guarantees
+on performance and delivery from their vendors that end customers are
+demanding from them. Until only a year or two ago, most telecom
+carriers--and particularly wireline carriers, many of whom already had
+years of engineering expertise upon which to rely--did a substantial amount
+of their OSS development or customization in-house, thus reducing the need
+for vendors to be concerned with customized approaches to OSS. Recently,
+however, most of these carriers doing substantial portions of OSS work
+internally have begun seeking outside sources, not only for systems, but
+for customized applications. BellSouth, for instance, is now in transition
+from having done 90% of OSS work internally to doing only 60% internally
+and 40% on a contracted basis. With the drive to improve bottom lines,
+carriers are seeking outside solutions in order to reduce the cost of OSS
+development on the books. Given this fact, carriers are very sensitive to
+cost issues for OSS, and price has become one of the key points on which
+carriers are demanding guarantees, especially in light of the hidden costs
+that had become a frequent occurrence as OSS contracts became more
+complex.
+   BT, for instance, found out first-hand that certain vendors would rather
+tell the customer what it wants to hear about time and cost than risk
+losing business by giving an accurate, if costly, estimate. BT purchased
+products with the understanding that they represented a full, end-to-end
+OSS solution, only to hear later from the vendor that additional equipment
+or software would be required, thus adding both cost and time to the
+implementation. Ultimately, the vendor lost business by telling the
+customer what it wanted to hear, and increasingly, all OSS vendors with
+this mentality will similarly be losing key clients. Stentor faced similar
+situations with vendors, specifically with vendors who began to neglect
+customer service once they had established a strong, embedded position in
+the market (again, traditional manufacturers like AT&T and Bellcore, and
+computing vendors like IBM and Digital are the chief culprits). As a
+result, Stentor is now in the process of introducing supplier
+reviews--which it characterizes as like a report card--to keep vendors on
+their toes and let them know when service is beginning to slip. Such
+stringent attention to service, cost, and time commitments will become the
+norm as the decade wears on. Carriers today have had to become far too
+service-conscious and technology-savvy in their own customer contracts to
+simply accept what they are given by vendors.
+
+Setting an Example
+In order to meet these newly stringent requirements, OSS vendors must
+significantly change the ways in which they do business, devising specific
+schemes by means of which they can provide customized service and
+guarantees to customers without compromising their own economies of scale
+or their bottom lines. One such scheme is risk-sharing, which can take
+different forms but nearly always results in increased customer
+satisfaction. One form might simply involve project time-tables. If the
+vendor completes the project (satisfactorily, of course) earlier than the
+agreed-upon date, it receives a bonus. Completing the project later than
+the agreed-upon date results in a penalty. GTE is beginning to require such
+agreements with its OSS vendors, with an eye to the strict timetables under
+which it plans to complete its business process re-engineering. Another
+version of risk-sharing can result in a bigger payback for both carrier and
+vendor alike, but also involves greater risk--that of joint development and
+joint marketing of an OSS product or platform. It is in this latter form
+that Andersen has taken a lead and provides a strong example for vendors
+that are grappling with ways to both increase customer service and stay
+lean in the OSS market.
+   Co-development and marketing of a product not only allows customers more
+control over the OSS development process at a point at which they would
+otherwise feel control was being lost (with the cuts in funds for internal
+development), it also increases customers' trust in the vendor. Under other
+circumstances, the vendor has a perfect opportunity to resell an
+application developed for a specific customer many times over. This makes
+use of the customer's specs and expertise, but cuts the customer out of the
+additional profits. While a great way for vendors to create economies of
+scale, it has angered some customers. Because Andersen works so closely
+with customers, however, getting to know their business organizations
+intimately, it has recognized hot buttons like these, and hence has
+capitalized on strategies (like risk-sharing) which avoid them. Andersen
+has a steadily growing list of cost- and profit-sharing agreements with
+high-profile carriers: Pacific Bell, Bell Atlantic, and BellSouth among
+them (Andersen in fact does business with all the U.S. RBOCs; BellSouth was
+the last holdout).
+   Similarly, smaller, independent vendors of OSS software and services
+have something to teach the traditional vendors as well. By necessity these
+providers have a strong customer service ethic like that of Andersen, only
+on a smaller scale. When one large carrier makes up a full 10%-20% of the
+customer base--as is the case with some smaller vendors--clearly everything
+possible must be done to keep that customer happy. These small vendors
+offer another lesson as well to vendors like Siemens or Alcatel: how to
+build economies of scale in an increasingly customized OSS market. The
+answer is in the development of management frameworks, rather than the
+traditional boxes that these more established vendors are accustomed to
+selling.
+   OSI, for instance, a vendor which is just beginning to make a name for
+itself in OSS, has already begun to capture a significant portion of the
+emerging market for wireless OSS. This is not because it built a system
+specific to the management of wireless networks, but because it built a
+platform on which wireless management applications could be built, as could
+applications for legacy integration on wireline networks, or applications
+for emerging network technologies, like AIN (OSI's NetExpert platform has
+in fact been used for several AIN implementations already). To address the
+same variety of applications, Ericsson would require that a customer
+implement several different versions of the same system, and some other
+vendors might require multiple different systems and still not be able to
+address emerging applications such as PCS or AIN. (AT&T's ability to do
+this particular OSS juggling act is still in question; the slow progress of
+its OneVision platform suggests that this capability may be down the
+road.)
+
+At a Standstill?
+While Andersen, OSI, and a few other vendors have taken these steps toward
+increasing customer involvement and satisfaction, they constitute a
+minority in doing so. Exhibit 1 illustrates the position of various OSS
+vendors vis vis increased levels of customer service and willingness to
+partner with the customer through risk-sharing arrangements (i.e., the
+willingness to actually put their money where their mouths are, rather than
+simply calling any contract a "partnership"). The cluster of vendors
+scoring low on both fronts should question their long-term viability in the
+OSS market; there is no doubt that their customers are. And long-term
+viability is nearly as important to OSS customers as customer service
+itself. These vendors should take their cues from players like Andersen,
+which itself will undoubtedly be in the market for a very long time.
+
+
+Illustration(s):
+Illustration: Evolution of OSS Vendors in Terms of Customer Orientation
+Source: Northern Business Information.
+
+Copyright 1996 The McGraw-Hill Companies
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+TELECOM PERSPECTIVES via NewsNet
+January, 1996   
+
+CELLULAR DATA ...READY TO TAKE OFF AT LAST?
+
+By:
+Mirva Anttila
+
+The wireless data market has not taken off as quickly as many industry
+experts predicted. The rapid growth of cellular voice subscribership to
+date has not led to a similar expansion of cellular data usage.
+   Cellular data users (both circuit- and packet-switched) represent a
+small portion of total cellular voice subscribership. Despite anticipated
+growth over the next few years, cellular data users will remain a small
+subset of the larger cellular voice subscriber population (see Exhibit 2).
+Reasons for slower-than-expected development of cellular data are numerous:
+the existence of multiple wireless data platforms (making it difficult and
+confusing for customers to choose the right one); the unreliability of
+circuit-switched data transmission; lack of standards for Cellular Digital
+Packet Data (CDPD) software development; non-ubiquitous data network
+coverage; clumsy, heavy end-user devices (some with no communications
+capability and some with awkward handwriting recognition technologies);
+incompatible modems; high-priced service; and a lack of cooperation in the
+industry.
+   Moreover, cellular data service differs greatly from cellular voice, and
+the two services simply cannot be promoted in the same manner. The sales
+cycle for wireless data solutions is much longer than the sales cycle for
+voice users. Most of today's data users are corporations that must
+cost-justify expensive new technology, with the result that the technology
+must live up to its promise. At the same time, both users and cellular data
+salespeople must be educated about the need for, and utility of, cellular
+data solutions.
+
+What Cellular Data Users Need To Know
+The following items are the minimum requirements for cellular data users:
+  -- Ubiquity of Service: Interconnect to wireline tele-phone networks or
+to (other) packet-switched networks; use with a variety of termin-als;
+adaptability to current in-house protocols (systems).
+  -- Coverage: In-building capabilities.
+  -- Portability: Small, light-weight terminals; reasonable battery life.
+  -- Features: Voice backup; privacy and security; wide range of data
+capabilities and applications.
+  -- Price: Low pricing for ser-vices and terminals.
+  -- Circuit-switched Data Problems and Solutions
+Having been created for voice communications, analog cellular networks are
+vulnerable to interference that causes fading and breakup, and that can
+result in dropped calls. For voice communications this is irritating, but
+for data communications these problems are fatal since the signal may
+become so corrupted by interference that some information is lost. The
+success rate on each data transfer attempt is estimated to be only about
+55-60%, and if the user moves during a data call, normal circuit-switched
+data transfer will be disrupted. Digital signals convert the analog wave
+form into a numerical code (1 or 0) and are therefore more resistant to
+errors. When signal corruption does occur, error-correction logic at the
+receiving end can often reconstruct the corrupted signal. The digital
+environment also allows the use of processing techniques that improve
+signal strength without requiring any increase in power, so signals can be
+transmitted over longer distances.
+   To improve the success ratio, circuit-switched data transmission
+cellular carriers have begun to install modem pools at mobile switching
+centers in major metropolitan markets, thereby increasing the reliability
+and transmission speed of circuit-switched data service. This development
+enables cellular users with dissimilar modems to exchange data at speeds
+comparable to landline rates.
+   Operators are also introducing new pricing approaches. To date,
+operators have been pricing circuit-switched data transmission in
+one-minute increments (like cellular voice). However, this tariff structure
+is not economical for users sending large numbers of short messages that
+are less than one minute in duration. So operators are exploring the
+possibility of offering specialized pricing packages for circuit-switched
+cellular data. For example, Cellular One in Buffalo (an AT&T
+Wireless/Southwestern Bell Mobile Systems joint venture) introduced a
+separate pricing plan for cellular data. The "Data Gateway" service is
+available for $4.95/month plus airtime fees: $0.15/minute during peak times
+and $0.03/minute during off-peak hours. The network uses modem pool
+technology developed by Primary Access Corp. that can differentiate between
+voice and data calls for the purpose of separate billing.
+
+CDPD Problems and Solutions
+It's now widely recognized that technology developers are often prone to
+overlook the marketing aspects of new services rollout and behave as if the
+mere existence of a new product or technology is all that is required to
+ensure market demand. A few years ago, CDPD was widely heralded as the
+"next big thing" in wireless. However, as has been the case with other
+heavily hyped new telecom technologies, the market has not developed yet.
+Thus far, the primary barriers to the spread of CDPD services have been the
+lack of ubiquitous network coverage and the lack of standards for wireless
+data applications development. Recently, however, cellular carriers have
+gotten the message and have begun to implement solutions.
+
+Ubiquitous Network Coverage
+CDPD had been commercially deployed in 41 U.S. markets by October 1995.
+This translates to approximately 14% penetration in the country's 306
+Metropolitan Statistical Areas. As illustrated in Exhibit 3, five of the
+top nine U.S. cellular carriers have deployed CDPD. Nevertheless, the
+establishment of an effective nationwide CDPD "network" has proceeded
+slowly. To date, only two interoperability or "visiting" agreements have
+been formed among the carriers. In mid-1995, GTE Mobilnet and Ameritech
+Cellular entered into an agreement to provide CDPD service in each other's
+markets, initially covering Chicago, Detroit, St. Louis, Houston, and San
+Francisco. In late 1995, GTE Mobilnet and Bell Atlantic NYNEX Mobile (BANM)
+concluded a similar agreement including all of GTE's metropolitan markets
+and BANM's Connecticut market. BANM plans to expand its area in 1996,
+pending regulatory approval. Under these agreements, each company retains
+its own tariff structure but customers receive only one bill from their
+home service provider. Before seamless nationwide network coverage can be
+achieved, however, the cellular operators must coordinate their CDPD
+billing and accounting efforts. Several operators forecast that 1996 will
+be a big year for interoperability agreements and that a nationwide CDPD
+network could be in place in late 1996 or early 1997.
+   Most operators agree that it is vitally important for the carriers to
+work together to create seamless nationwide data coverage instead of
+fighting against each other. Nevertheless, several of the largest cellular
+carriers--AirTouch Communications, BellSouth Cellular, Southwestern Bell
+Mobile Systems (SBMS), and U S West--are not "sold" on CDPD. Most cite lack
+of market demand as the major reason for not deploying CDPD. Some are also
+not convinced that CDPD will ever be the packet data technology choice for
+them. AirTouch and U S West, both deploying CDMA in their cellular
+networks, are exploring CDMA's data transmission capabilities. Similarly,
+BellSouth and SBMS are reviewing packet data options using TDMA, their
+chosen digital cellular standard. Moreover, BellSouth has an ownership
+stake in RAM Mobile Data, which provides wireless packet data services on a
+Mobitex-standard network, and views CDPD as a competing technology.
+   Lack of Standards for Wireless Data Applications Development
+In the short term, the success of wireless data depends on the software
+developers' ability to create applications that satisfy customers' needs.
+Circuit-switched data technology allows the modification of wireline
+applications fairly easily, but CDPD currently lacks the software standards
+that would encourage developers to create programs. A major industry
+problem is that most software applications are specifically created for
+certain wireless data platforms. Consequently, some customers are afraid
+that once they sign up for certain CDPD applications, they will be stuck
+with them (and who knows if CDPD is going to be around in five years).
+Wireless data applications today can be divided into vertical (industry
+specific, database/host connectivity), horizontal (messaging, fax,
+information/news services, file transfer, Internet backbone
+communications), and networking (desktop, LAN, and database access). Most
+of today's CDPD solutions are specialized applications for vertical
+markets, but the demand for horizontal applications is growing.
+   One solution to the software problem may be the emergence of middleware,
+a software engine that allows data applications to run on multiple, diverse
+networks. Middleware bridges surface incompatibilities between different
+mobile technologies that all have different protocols. Middleware also
+fosters cooperation by allowing multiple applications to run concurrently.
+   Some middleware solutions are broadly oriented toward creating fully
+open-system telecom platforms with a common application programming
+interface; others simply enable land-line applications over wireless or
+target multi-platform applications for specific activities like electronic
+commerce. Middleware is also helpful for networks employing the same
+protocol. It can be used to provide sign-in scripts that suit different
+types of CDPD modems. Most wireless data carriers support the middleware
+concept because it encourages applications development and gets more
+customers into the wireless data mode. In the future, middleware functions
+are likely to be integrated into network protocols as carriers realize the
+importance of allowing customers to access multiple networks.
+
+End-user Device Problems and Solutions
+User-friendly hardware is as important as service reliability, ubiquitous
+coverage, and reasonably priced service. The cellular data market will
+develop hand-in-hand with the growth of the notebook/laptop computer
+market. Some of these products have been streamlined and simplified during
+the last few years. Instead of using external modems and interfaces, many
+notebook computers today employ Personal Computer Memory Card International
+Association (PCMCIA) modems. The cellular phone is connected to this
+credit-card sized modem via a slim cable and quick-release data cradle that
+holds the phone during data transmission. In the future, the cellular radio
+chip-set may even be incorporated into the PCMCIA modem card. Another way
+to integrate the cellular data device and the radio is to design products
+like IBM's PC Radio, which has an RF data unit comprising a cellular radio,
+modem, and antenna.
+   One of the first attempts to combine computing and communications
+functions was the introduction of Personal Digital Assistants (PDAs) in
+spring 1993. The early PDAs, such as Apple's "Newton Message Pad,"
+EO/AT&T's "EO-Personal Communicator," Tandy's "Zoomer," and Motorola's
+"Envoy," had the form factor of a handheld computer. The products were not
+successful due to premature launching. Early end-user device developers and
+promoters made many mistakes with the technology, overhyped the industry,
+set unrealistic expectations, and targeted the wrong market (the consumer
+instead of the business market). Many of these mistakes were typical of the
+early stages of high-tech product development.
+   Most early PDAs were too awkward to use, too bulky and too heavy to
+carry around, and too expensive. They were like sophisticated electronic
+organizers with limited communications features, primarily allowing users
+to write notes, keep appointment calendars, and maintain telephone/address
+lists. In some cases, users could send and receive wireline and wireless
+e-mail and faxes with optional modems and cellular phones, but the devices
+did not provide wireless connectivity as a standard feature. The problem
+with these early PDAs was that they were not designed for communications
+and both end-user devices and applications were computing- and
+data-centric. Some of the new products (to be introduced in 1996), such as
+Compaq Computer's "WinPad," still concentrate on the computer form factor
+and emphasize the backward compatibility with corporate desktops.
+   One step in the right direction was the introduction of a cellular
+phone-type device. In late 1994, BellSouth rolled out "Simon," a product
+combining voice and data functionality. However, Simon was still too
+awkward to use, relied on inadequate handwriting recognition, lacked a
+clear screen display, and had insufficient battery capacity.
+   Motorola's newest versions of "Envoy" and "Marco," and PCSI's new
+prototype "PAL," can also be included in this category of
+communications-centric devices. In late 1995, Air Communications Inc.
+introduced an "AirCommunicator" device that combines cellular voice, data
+messaging, and fax functionalities. Several operators, including AirTouch
+Communications, Ameritech Cellular, Sprint Cellular, and U S West Cellular,
+decided to bundle their analog cellular services with this multi-function
+communicator. For the cellular data market to take off significantly,
+additional voice-centric devices, more appropriate for the largely untapped
+mobile executive market, must be available.
+
+Systems Integrators to the Rescue?
+To expand usage of cellular data services, carriers can increase network
+coverage, introduce additional features, support the development of
+user-friendly devices, and intensify their marketing efforts to better
+reach the target business user market. However, the carriers cannot do this
+alone. Cellular operators will rely increasingly on systems integrators to
+provide a complete service solution. Systems integrators will package the
+various elements: the cellular data service, the communications device
+(cellular phone, cellular/radio modem, pager, etc.), communications
+"middleware" (interfaces computing environment to communications
+environment), applications software (horizontal, vertical, networking), and
+central processing unit (CPU). To ensure the widest possible distribution
+for wireless data solutions, systems integrators have certified resellers
+who in turn sell the solution to the marketplace. Unlike cellular voice
+service (which appears to "sell itself"), cellular data service,
+particularly CDPD, requires more coordinated efforts on the part of
+hardware and applications developers, distribution agents, and the cellular
+operators themselves.
+
+
+Illustration(s):
+Illustration: Cellular Data Subscriptions, 1994-1999
+Source: Northern Business Information estimates.
+Illustration: CDPD Deployment by Operator
+Source: CDPD Forum and Northern Business Information.
+
+Copyright 1996 The McGraw-Hill Companies
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+TELECOM PERSPECTIVES via NewsNet
+January, 1996   
+
+CREATIVE DESTRUCTION IN GLOBAL PUBLIC NETWORKS
+
+By:
+Michael Arellano, Vern Mackall, and Courtney Munroe
+
+The title of this article is taken from Josef Schumpeter, a 19th Century
+economist who said that entrepreneurs create "new combinations" that can
+rapidly create wealth for risk-takers and, in the process, undermine the
+position of established competitors. Overall, economic activity increases
+and wealth is created, but competitors who cannot adapt fast enough will
+see their assets decline markedly in value: hence, "creative destruction"
+or "productive chaos."
+   These phrases are apt descriptions of today's global public network
+market in the sense that established and emerging carriers, in the U.S. and
+globally, seek to expand their current service portfolios to provide voice
+(both local and long distance), video, high-speed data, home shopping and
+banking, and other types of communications services. As operators seek to
+enter new markets and protect their positions in their existing markets,
+old ways of doing business, as well as the infrastructure used to deliver
+services, will undergo radical transformation.
+   Given regulatory changes and technological development, stable
+monopolies and guaranteed market share are things of the past.
+
+U.S. Local Services Market
+In the U.S. market, the long-awaited reform of the telecommunications
+industry appears increasingly close to reality. As a result, telecom
+operators can become "one-stop shops," offering customers several different
+types of services, provided they can raise the capital for the necessary
+network upgrades.
+   Exhibit 4 illustrates what is at stake in terms of revenue. Although the
+pie is getting bigger, competition means that the current size of each type
+of operator's slice is not guaranteed. Exhibits 5 and 6 show the same set
+of services by carrier group market share in 1995 and 2000, respectively.
+Local exchange carriers (LECs) provide local phone service (the first four
+rows); interexchange carriers (IXCs) offer long distance service;
+Competitive Access Providers (CAPs) also offer local service; and Multiple
+System Operators (MSOs) are large cable TV operators.
+   These carriers currently operate primarily within their own well-defined
+markets, but distinctions between the different carrier groups will become
+less meaningful following the implementation of telecom reform. Indeed,
+combinations between operators from different groups are inevitable. The
+IXCs will compete in the local access market by offering local loop and
+wireless bypass solutions. The LECs will lose billions of dollars as IXCs
+target business markets with private line alternatives and, eventually,
+provide switched access for both wired and wireless communications.
+   In the residential market, LECs will continue to lose market share in
+the toll call segment to IXCs. Pacific Bell, which already faces
+competition in the toll call segment, has experienced revenue declines in
+this area as new rivals exert pricing pressure. The same pattern will no
+doubt be repeated in the other Local Access Transport Areas (LATAs).
+
+International Service Markets
+A similar transformation will take place in international markets. Exhibit
+7 presents global telecom service revenues and shows that wired voice and
+data services, the "bread and butter" markets of incumbent operators
+(PTTs), will represent the major source of revenue over the next five
+years. However, many incumbent national operators' markets are being
+transformed by liberalization, modernization, and competition. Other
+Licensed Operators (OLCs) such as Mercury in the United Kingdom and Optus
+in Australia, as well as Global Carriers (GCs) such as Concert (MCI and BT)
+and WorldPartners (AT&T and other carriers), are challenging the economics
+and cost structure of the traditional monopoly telecom operator.
+   Exhibits 8 and 9 illustrate each carrier group's share of the different
+telecom service segments in 1995 and 2000, indicating that as
+liberalization and competition proceed worldwide global carriers and other
+licensed operators will make substantial gains at the expense of the
+traditional PTTs. As a result, incumbent operators are preparing their
+strategic responses, which include privatization (both to augment financial
+resources and to increase managerial flexibility), new business practices,
+introduction of new services, and entry into new lines of business. Some
+incumbent operators are also positioning themselves as global carriers. For
+example, Deutsche Telekom is gearing up for competition in Germany while
+working with France Telecom and Sprint as part of the Phoenix global
+carrier alliance. Incumbent operators such Deutsche Telekom and France
+Telecom will rapidly lose wired voice and data market share to the
+competition, and will lose it much faster than AT&T did in the United
+States. The global competitors have the advantage of greater experience and
+agility in scaling national boundaries, while other licensed competitors
+will have the advantage of newer, state-of-the-art networks.
+   Service operators' responses to loss of market share and management of
+potential new opportunities will be key to their success and survival. The
+main issue is for carriers to move from high-cost/low-revenue sectors to
+high-margin sectors. This will vary depending on market sector and
+position. New entrants must target the low-cost, high-revenue customers.
+Incumbent operators whose monopolies are being attacked must, at a minimum,
+ensure that their service tariffs match their cost structures. Operators in
+markets that are already competitive must understand potential entrants'
+cost structures and increase their service differentiation and price
+competition efforts. For new entrants in all types of markets, the name of
+the game is "cream skimming," at least in the early days. The creative
+destruction wrought by telecom reform, market liberalization, and
+competition will result in short- to medium-term turmoil, with many new
+players. In the end, however, we could see a case of "deja vu all over
+again," with "supercarriers" providing all types of services to all
+customers.
+
+
+Illustration(s):
+Illustration: U.S. Service Revenues, 1995 and 2000
+Source: Northern Business Information estimates.
+
+Illustration: U.S. Share by Carrier Group, 1995
+Source: Northern Business Information estimates.
+
+Illustration: U.S. Share by Carrier Group, 2000
+Source: Northern Business Information estimates.
+Illustration: Global Service Revenues, 1995 and 2000
+Source: Northern Business Information estimates.
+
+Illustration: Global Share by Carrier Group, 1995
+Source: Northern Business Information estimates.
+
+Illustration: Global Share by Carrier Group, 2000
+Source: Northern Business Information estimates.
+
+Copyright 1996 The McGraw-Hill Companies
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

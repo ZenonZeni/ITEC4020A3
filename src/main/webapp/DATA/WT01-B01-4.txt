@@ -1,0 +1,123 @@
+
+<DOC>
+<DOCNO>WT01-B01-4</DOCNO>
+<DOCOLDNO>IA073-000475-B029-2</DOCOLDNO>
+<DOCHDR>
+http://www.city.geneva.ny.us:80/marsend.htm 192.108.245.124 19970121041454 text/html 2371
+HTTP/1.0 200 OK
+Date: Tue, 21 Jan 1997 04:13:51 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 2200
+Last-modified: Fri, 20 Sep 1996 17:42:54 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Marsh Creek Waste Water Treatment Plant E-Mail</TITLE>
+</HEAD>
+
+<body bgcolor="#ffff999" text="#006635" link="#993300" vlink="#CC0099">
+
+<A NAME="top"></A>
+
+
+<CENTER>
+<H1>Contact Marsh Creek</H1>
+</CENTER>
+
+<center><img src="marbarf.gif"></center>
+<br clear="all">
+
+<BR> 
+<FONT SIZE=+1>
+<center>
+Enter your message in the areas provided below.<BR>
+Please fill out all of the fields.
+</center>
+</FONT>
+</CENTER>
+
+
+<FORM ACTION="http://205.232.34.1/spider/cgi-bin/formmail.pl" METHOD=POST>
+<INPUT TYPE="hidden" VALUE="gpe@vivanet.com" NAME="recipient">
+<INPUT TYPE="hidden" VALUE="From Marsh Creek HomePage" NAME="subject">
+<INPUT TYPE="hidden" VALUE="http://www.city.geneva.ny.us/marconfirm.html" NAME="redirect">
+
+<FONT SIZE=+1>
+<table border=0 cellpadding=3 cellspacing=3>
+<tr>
+<td>Your Name: </td>
+<td><input value="" size=60 name="name"></td>
+</tr>
+
+<tr>
+<td>Your Institution or Organization: </td>
+<td><input value="" size=60 name="instorg"></td>
+</tr>
+
+<tr>
+<td>Your E-Mail Address: </td>
+<td><input value="" size=60 name="from"></td>
+</tr>
+
+<tr>
+<td>Your Telephone Number:</td>
+<td><input value="" size=60 name="tele"></td>
+</tr>
+
+<tr>
+<td>Your FAX Number:</td>
+<td><input value="" size=60 name="fax"></td>
+</tr>
+
+<tr>
+<td>Your Postal Address:</td>
+<td><textarea name="address" rows=5 cols=60></textarea></td>
+</tr>
+
+<tr>
+<td>Subject of Message:</td>
+<td><input value="" size=60 name="usersubject"></td>
+</tr>
+
+<tr>
+<td>Your Message:</td>
+<td><textarea name="message" rows=10 cols=60></textarea></td>
+</tr>
+</table>
+
+<p>
+
+<CENTER><input type="submit" value="Send Message"> 
+<input type="reset" value="Clear Message"></CENTER>
+</FORM>
+</FONT>
+
+
+<P><BR><P>  
+
+
+<p>
+
+<center> <font size="+1">
+|<a href="index.htm#top"> Lead Page </a> |<a href="mar2.htm#top">  The Process </a>
+
+|<a href="mar3.htm#top"> The Product </a>
+
+|<a href="marsend.htm#top"> E-mail </a> |<a href="marfax.htm#top"> Fax </a>|<br>
+</font></center>
+
+<p> 
+
+<center><img src="marbar.gif"></center>
+
+<center><font size="2">
+Copyright 1996:<a href="http://www.spidergraphics.com"> Spider Graphics Corporation</a>
+ 
+<img src="line.gif" align="bottom"> Last updated June, 1996
+</font>
+</center>
+
+</body>
+</html>
+</DOC>

@@ -1,0 +1,76 @@
+
+<DOC>
+<DOCNO>WT01-B08-123</DOCNO>
+<DOCOLDNO>IA069-000435-B026-24</DOCOLDNO>
+<DOCHDR>
+http://www.whitneyfarm.com:80/smell.htm 206.163.112.59 19970208174308 text/html 1991
+HTTP/1.1 200 OK
+Date: Sat, 08 Feb 1997 17:43:16 GMT
+Server: Apache/1.2b6
+Connection: close
+Content-Type: text/html
+Last-Modified: Tue, 09 Jul 1996 16:47:01 GMT
+ETag: "403a5-703-31e28d05"
+</DOCHDR>
+<HTML>
+<BODY>
+<HEAD>
+<TITLE>SMELL</TITLE>
+<BODY BACKGROUND="POOBG.gif" TEXT="000000"
+      LINK="008000" VLINK="000080" ALINK="0000FF">
+</HEAD>
+<BR>
+<BR>
+<BR>
+<CENTER><A HREF="smell1.htm"><IMG SRC="POOTIT.gif" BORDER=0></A></CENTER>
+<CENTER><A HREF="smell1.htm"><IMG SRC="MANURE.gif" BORDER=0></A></CENTER>
+<CENTER><FONT SIZE=+1>Here at Whitney Farms, we have a saying: "If it doesn't smell, it
+doesn't work!"  And believe you me, <A HREF="product.htm">Chicken Manure</A> works VERY WELL.  And Hoo boy, does it also work on your sinuses! But it's all worth it
+in the quest for a great garden!  Now we want to know, what's the
+worst thing YOU ever smelled (in your garden?) </FONT></CENTER>
+<BR>
+<p> 
+<FORM METHOD=POST
+ACTION="http://www.whitneyfarm.com/cgi-bin/mailmerge.cgi/action.tmp">
+
+Your Name: <INPUT NAME="name" TYPE="TEXT" SIZE="40">
+
+<P>
+
+<input type="hidden" name="nexturl"
+value="http://www.whitneyfarm.com/post.htm">
+
+E-Mail Address: <input name="whom" type="text" size="40">
+
+<p>
+
+Describe the smell:
+
+<br>
+
+<TEXTAREA NAME="message" COLS=64 ROWS=10></TEXTAREA>
+
+<P>
+
+<INPUT NAME="Send" TYPE="SUBMIT" Value="Post this Message"><INPUT
+NAME="Clear" value="Clear fields and start over" TYPE="RESET">
+
+
+</center>
+</FORM>
+<BR>
+<CENTER><A HREF="smell1.htm"><IMG SRC="smellani.gif" BORDER=0></A></CENTER>
+<CENTER><FONT SIZE=+1>To make sure that you are capable of being a judge of what smells bad,
+we need to examine your olfactory powers.  Press <A HREF="smell1.htm"><B>HERE</A></B> to start a comprehensive test.
+<BR>
+<BR>
+<CENTER><IMG SRC="BOTTOM.gif"></CENTER>
+<BR>
+<CENTER>[ <A HREF="order.htm"> ORDER</A> | 
+<A HREF="index.htm">HOME </A>| 
+<A HREF="mailto:feedback@whitneyfarm.com"> FEEDBACK</A> ]
+
+</FONT>
+</BODY>
+</HTML>
+</DOC>

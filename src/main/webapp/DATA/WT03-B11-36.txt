@@ -1,0 +1,650 @@
+
+<DOC>
+<DOCNO>WT03-B11-36</DOCNO>
+<DOCOLDNO>IA086-000622-B034-237</DOCOLDNO>
+<DOCHDR>
+http://telnet.newsnet.com:80/libiss/te51.html 205.156.212.5 19970122044326 text/html 29620
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Wednesday, 22-Jan-97 04:41:32 GMT
+Last-modified: Monday, 20-Jan-97 17:37:59 GMT
+Content-length: 29433
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/te51.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+<A HREF="../index.html"><IMG BORDER=0 SRC="/plweb/icons/nn_home.gif" ALT="NewsNet Home Page"></A><BR>
+Copyright <BR>
+BROADBAND NETWORKING NEWS via NewsNet <BR>
+January 9, 1996<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<UL>
+<A HREF = "#1"><LI>1995 YEAR-END BROADBAND NETWORKING REVIEW</A>&nbsp&nbsp&nbsp<NOBR>(1074 words)</NOBR></LI>
+</UL>
+<BR>
+<UL>
+<A HREF = "#2"><LI>ON THE MOVE FROM BROADBAND NETWORKING NEWS</A>&nbsp&nbsp&nbsp<NOBR>(263 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>INTERNATIONAL PROFILE</H3>
+<UL>
+<A HREF = "#3"><LI>RACAL GETS BARGAIN BRITISH NETWORK</A>&nbsp&nbsp&nbsp<NOBR>(540 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>ATM FORUM</H3>
+<UL>
+<A HREF = "#4"><LI>SPECIFICATION WORK CONTINUES, ATM FORUM CONTEMPLATES GOALS FOR 1996</A>&nbsp&nbsp&nbsp<NOBR>(580 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>INTERANTIONAL SCENE</H3>
+<UL>
+<A HREF = "#5"><LI>BT SETS NEW SPEED RECORD FOR FIBER.  </A>&nbsp&nbsp&nbsp<NOBR>(190 words)</NOBR></LI>
+<A HREF = "#6"><LI>TELSTRA SEEKS SUPERHIGHWAY VENDORS.  </A>&nbsp&nbsp&nbsp<NOBR>(127 words)</NOBR></LI>
+<A HREF = "#7"><LI>BT, MCI EXTEND CONCERT FRAME RELAY NETWORK.  </A>&nbsp&nbsp&nbsp<NOBR>(110 words)</NOBR></LI>
+<A HREF = "#8"><LI>ASCOM BUILDS CAMBRIDGE ATM NETWORK.  </A>&nbsp&nbsp&nbsp<NOBR>(643 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>YEAR IN REVIEW</H3>
+<UL>
+<A HREF = "#9"><LI>LAN SWITCHING HUB MARKET GROWING: GOOD NEWS FOR CARRIER ATM SALES</A>&nbsp&nbsp&nbsp<NOBR>(400 words)</NOBR></LI>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+BROADBAND NETWORKING NEWS via NewsNet
+January 9, 1996
+
+1995 YEAR-END BROADBAND NETWORKING REVIEW
+
+     Upon reviewing the developments in the 1995 broadband networking
+market, the differences in terms of market acceptance and technical
+development of each broadband technology -- frame relay, switched
+multimegabit data service (SMDS), and asynchronous transfer mode (ATM)
+-- are dramatic.  Each networking solution occupies a different
+position on the acceptance curve, and carriers and vendors pursued
+numerous strategies in 1995 to spur the adoption of the technologies.
+     It is not news to BROADBAND NETWORKING NEWS' readers that frame
+relay had an incredibly successful 1995.  Carriers increased the
+robustness of their networks to meet clamoring demand, pursued a
+variety of pricing strategies designed to capture greater market
+shares, and offered enhanced frame relay services to satisfy more
+sophisticated users.  All three measures reflect the technology's
+maturity and mass market acceptance as a wide area networking
+solution.
+
+  ...Frame Relay Pricing Approaches
+
+     AT&T, Sprint Corp., and MCI Communications Corp. all unveiled new
+frame relay pricing strategies in 1995.  AT&T -- hoping to leverage
+what it saw as a trend toward meshed networks and encourage users to
+add more network sites -- lowered the price of permanent virtual cir-
+cuits (PVCs) by 65 percent to 85 percent and raised its frame relay
+port charges by 35 percent to 45 percent (See BNN, April 18, 1995).  
+     Sprint pursued a different pricing tactic to attract customers,
+offering a very low-cost, zero committed information rate (CIR)
+service for users needing no more than four PVCs (See BNN, June 27,
+1995).  
+     MCI took yet a third track.  The carrier eliminated the mileage
+bands that had been associated with its service and offered usage-
+based billing, which should prove attractive to low-usage customers
+(See BNN, Oct. 3, 1995).  Expect more pricing changes in 1996 as
+carriers continue to seek new methods for luring customers to their 
+networks and as the FCC has required that all facilities-based
+carriers file frame relay tariffs.
+     Carriers also increased the robustness of their frame relay
+services. In 1995, LDDS Worldcom was the most aggressive of the long
+distance carriers at pursing network-to-network interface (NNI) agree-
+ments with local and international providers.  Worldcom offers NNI
+service in 31 domestic cities via interconnections with all of the
+regional holding companies and other local carriers.  Some
+international agreements are also in place.  The links allow Worldcom
+to extend its network reach and to provide customers with lower cost
+local access.
+     AT&T unveiled a strong suite of frame relay disaster recovery
+options, while Sprint launched a managed frame relay access device
+(FRAD) service for Systems Network Architecture (SNA) users.  MCI
+sought to expand customer access to its frame relay network by
+offering a wide array of remote access options.  (See BNN, Nov. 28,
+1995; Oct. 3, 1995; and Nov. 14, 1995)
+
+  ...ATM Infrastructure Buildout
+
+     In the wide area ATM arena, carriers continued building their
+initial infrastructures in preparation for expected customer demand. 
+LDDS Worldcom, Sprint, Ameritech Corp., GTE Corp., and MFS Datanet
+were among those that upgraded their ATM networks in 1995.  ATM also
+proved to be a successful carrier backbone solution for transporting
+frame relay traffic.
+     Although few customers actually are buying native ATM services,
+carriers experimented with new service offerings designed to make ATM
+easier to use and to tempt customers to test the service.  Sprint
+launched low-speed T-1 ATM as well as a frame relay-to-ATM service
+interworking offering.  Both services provide a migration strategy for
+frame relay users that may need additional capacity in their congested
+sites and also offer users a lower-cost option for experimenting with
+ATM.  Other carriers are expected to launch similar services.
+     Worldcom became the first carrier to offer available bit rate
+(ABR) ATM based on StrataCom's early implementation of ABR
+capabilities on its BPX switch.  As the ATM Forum's traffic management
+specifications solidify in 1996, expect additional vendors and
+carriers to roll out products and services based on the much
+anticipated ABR spec.
+     MFS Datanet took a unique approach to running voice traffic over
+its ATM backbone.  Although MFS Datanet's WAVE offering is based on a
+proprietary solution that utilizes Nortel's Magellan Passport ATM
+switch, the service demonstrates MFS' ability to develop easy-to-use
+ATM solutions.  Customers don't have to change their networks, but can
+continue using their existing PBX systems and data networking
+equipment to transport data and voice traffic over variable bit rate
+(VBR) ATM (See BNN, Sept. 5, 1995).
+     This ability to make ATM transparent to users will be critical
+for attracting customers to the service.  Carriers and vendors that do
+this well will have an advantage in 1996, and recognition of this fact
+is demonstrated by the surge of interest that developed in the second
+half of 1995 for wide area ATM access products. Several vendors
+including ADC Kentrox, OnStream Networks, and Premisys  began shipping
+or unveiled plans to produce wide area ATM access products.  This
+trend is sure to continue in 1996.
+
+  ...Offering End-to-End Solutions
+
+    Another key trend that evolved throughout 1995 in the ATM arena
+was the importance of offering customers end-to-end solutions that
+encompass both local and wide area networks.  Some vendors, Newbridge
+Networks for example, concentrated on developing their own products
+that span both the LAN and WAN, while others like FORE Systems and
+Nortel pursued partnerships that involved joint product development as
+well as co-marketing.  Acquisitions and partnerships are likely to
+continue in 1996.  Smaller firms likely will attempt to increase their
+market presence by merging with each other, and large companies will
+gobble up startups with unique and innovative products.
+
+  ...SMDS, The Sleeper Service
+
+    Although SMDS is not expected to achieve frame relay's popularity,
+several developments in 1995 will help spur additional sales.  Many
+local carriers rolled out low-speed SMDS, which should prove popular
+with firms wanting to add remote sites to the corporate network.  
+    The growth of image intensive applications in the printing and
+medical communities is expected to continue in 1996, and SMDS has
+proven popular in these industries.  Pricing changes by MCI, which
+eliminated the service's usage minimums, also should lower the
+barriers to entry for companies wanting to move to the new service.  
+    The Internet proved a boon to all three broadband technologies in
+1995, as companies bought circuits from carriers for access and
+vendors sold products to build high-speed Internet backbones.  As
+local telcos continue their move into the Internet access business in
+1996, vendors and carriers with products and services that perform
+well in the Internet environment are expected to prosper.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+BROADBAND NETWORKING NEWS via NewsNet
+January 9, 1996
+
+ON THE MOVE FROM BROADBAND NETWORKING NEWS
+
+*  FORE Systems plans to buy LAN switch manufacturer ALANTEC Corp. in
+a one-for-one stock swap that Montgomery Securities values at over
+$750 million.  The deal, subject to stockholder and regulatory
+approval, should be complete in March.  George Archuleta, chairman and
+CEO of ALANTEC, will sit on FORE's board.  The acquisition will
+further strengthen FORE's ability to migrate customers from their
+legacy LAN systems to ATM.
+
+*  ADC Telecommunications (ADCT) has realigned its business under two
+new units.  Lynn Davis was named president of the Broadband
+Connectivity Group, which is comprised of ADC's copper- and fiber-
+based systems for end-to-end network connectivity and AOFR Pty.
+   Frederick Lawrence is now president of the Transmission Group,
+comprised of ADC Kentrox, ADC Fibermux, ADC Video Systems, Access
+Platforms Systems Division, Network Services Division, Wireless
+Systems Division, and Shanghai ADC Telecommunications Equipment Co.
+
+*  Pacific Bell will deploy StrataCom's BPX switch and AXIS interface
+shelves to expand the capacity of its Internet Network Access Point. 
+The carrier will offer Internet access providers ATM backbone links at
+speeds ranging from 45 Mbps to 155 Mbps.
+   Racal Network Services is deploying StrataCom's IGX ATM switches in
+its U.K. infrastructure.
+
+*  MMC Networks, a manufacturer of ATM chip sets, has raised an
+additional $7.2 million in financing from Kleiner Perkins Caufield &
+Byers and JAFCO.  Cisco Systems will use the new chip sets in its
+family of ATM switches.
+
+*  AT&T has named Donald K. Peterson as executive vice president and
+CFO of the new systems and technology company that will be formed
+after AT&T's restructuring.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+BROADBAND NETWORKING NEWS via NewsNet
+January 9, 1996
+
+RACAL GETS BARGAIN BRITISH NETWORK
+
+     Racal Electronics has beaten four or five other would-be buyers
+on the Department of Transport's shortlist with a successful bid to
+acquire BR Telecommunications (BRT) from the British Railways Board. 
+Racal will pay Pounds 132.75 million ($204.5 million) to acquire BRT.
+    BRT's business principally consists of providing
+telecommunications services to Railtrack and the railway operating
+companies.  With some 6,900 miles of trunk cable and 10,000 miles of
+branch cables, BRT is the largest telecommunications infrastructure
+network operator in the U.K. other than British Telecom, Mercury, and
+military establishments. 
+    The BRT network provides voice, data, and radio network services;
+private circuits; and a range of customer premise equipment.  The
+company employs around 2,800 people based at some 180 locations
+throughout the U.K.  The business is divided into four operating
+sections: 
+    *  Networks. Provides and manages fixed and mobile
+telecommunications network services.
+    *  Carrier Services. Provides dark fiber, management of tele-
+communications wayleaves, and management of pay phones and other
+property-based assets.
+    *  Maintenance. Provides maintenance of equipment and
+telecommunications and electronic systems.
+    *  Projects and Works. Comprises a project engineering and
+installation service for the supply of telecommunications networks,
+systems, and equipment.
+
+  ...Competitive Position Strengthened
+
+    BRT will become a separate subsidiary within the Racal Network
+Services
+group, managed on a fully integrated basis with the other businesses. 
+The acquisition is expected to strengthen Racal's competitive position
+to provide managed network services and to enhance the prospects for
+the Racal Group as a whole.  BRT's fiber-based network will provide
+access to extensive telecommunications circuits and telecommunications
+wayleaves over Railtrack and British Railways Board property.  The
+integration of BRT with other Racal Network Services businesses will
+result in cost savings through improved utilization of BRT capacity,
+sharing of assets, and avoiding duplication of functions within the
+enlarged group.
+    Ownership of the BRT network and its capabilities will enhance the
+prospect of securing substantial and strategically important
+commercial and government contracts.  Racal's existing work force will
+be strengthened through the addition of the skilled engineering and
+national maintenance staff employed by BRT.
+    Commenting on the acquisition, Racal Chairman Sir Ernest Harrison
+said, "There is considerable growth potential for BRT in both the rail
+community and other related markets within the fast-moving managed
+telecommunications sector, where Racal has an outstanding record... 
+As the turnkey contractor responsible for the installation and
+maintenance of the entire voice and data communications infrastructure
+for the Channel tunnel, Racal has particular expertise in the rail
+environment, and we believe that the acquisition of BRT will bring
+substantial benefits to both parties."
+    Racal won the contract to establish the Government Data Network --
+which remains one of Europe's largest private data network -- in 1989,
+and also manages the communications requirements of a growing number
+of major companies. Despite losing out to Mercury to provide managed
+communications services for the police and for NatWest Bank, Racal
+gained a full telecom license in 1994, and has in excess of 300,000
+customers for its voice, data, and messaging services.
+    Because BRT is a member (with a 7.7 percent share) of the
+pan-European rail communications consortium, which is building an
+optical network, there will be opportunities for Racal to expand into
+continental Europe as well.  (Contact: Racal, +44 1734 66 99 69)
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+BROADBAND NETWORKING NEWS via NewsNet
+January 9, 1996
+
+SPECIFICATION WORK CONTINUES, ATM FORUM CONTEMPLATES GOALS FOR 1996
+
+     With an eye toward sending its work out for final vote at the
+February meeting, the traffic management, signaling, and private
+network-to-network interface working groups of the ATM Forum addressed
+the initial round of straw vote comments received regarding their
+respective specifications.  Work on all three documents is progressing
+in tandem so that the provisions in each will align.
+    George Dobrowski, chairman of the technical committee and director
+of broadband switching and signaling for Bell Communications Research,
+reported that group members clarified various points in all three
+specs.  Regarding the provisions for allowed cell rate, members
+decided that ATM switches, rather than network interface cards, would
+be responsible for governing allowed cell rates. 
+    "By putting the function in the switch, it allows us to eliminate
+two quality of service (QOS) parameters, so it simplifies the traffic
+management and signaling procedures.  It also reduces the cost of
+implementation in the network interface cards," Dobrowski said.  He
+added that switches can better bear those implementation costs because
+they are spread over more users.
+
+  ...International Interoperability Addressed
+
+    The groups determined that support for the internationally defined
+QOS classes (i.e. A,B,C,D) is mandatory, whereas the parameter
+approach defined by the ATM Forum will be optional.  However, as
+Dobrowski explained, "If you do specify [the parameters] and the
+device is able to understand them, then the parameter approach will
+take precedence over QOS classes because it gives you more precision." 
+He added that the QOS class approach is the only one included in the
+international standards and that vendors wanting to sell equipment in
+Europe need to use an internationally recognized standard.  "This
+addresses the interoperability concerns that people had between
+equipment based on ITU standards versus ATM Forum implementations,"
+Dobrowski said.
+    In the signaling arena, the group solidified negotiation
+procedures.  "With the previous release of the signaling spec, if the
+connection point couldn't accept your request, you had to start the
+connection all over again," Dobrowski explained.  "Now, some
+negotiation will be possible.  Users can access or reject or adjust
+downward their initial request and go forward with it."   The result
+is faster connections, as users won't need to resend certain signaling
+messages if network capacity is not available to meet their bandwidth
+requirements.
+    Other specs out for final ballot include the DS-3 direct mapping
+physical layer interface, an addendum to the 155 unshielded twisted
+pair (UTP) physical layer interface, the native ATM services semantic
+description (or ATM application programming interface), the Protocol
+Implementation Conformance Statement (PIC) for UTP 3, and the
+conformance abstract test suite for AAL type 5.  A clarifying LAN
+emulation addendum also was released.
+
+  ...Reevaluation Underway
+
+    As work nears completion on many critical issues before the ATM
+Forum, members are closely examining the role the body will take in
+the future.  "We are going through a strategic planning process,
+identifying potential work areas or what holes exist in providing end-
+to-end ATM connections.  We will go through a debate and voting
+process to pick out high priority items," Dobrowski said.  He said
+that so far the group has identified 21 potential work areas, and that
+in April the technical committee will restructure its working groups
+and make new assignments.  Although he wouldn't commit the committee
+to any specific areas, Dobrowski noted that, "The item which received
+the most attention at the last meeting was wireless ATM.  It's still
+early to say, but that seemed to have very broad support and...that is
+a candidate for new work."
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+BROADBAND NETWORKING NEWS via NewsNet
+January 9, 1996
+
+BT SETS NEW SPEED RECORD FOR FIBER.  
+
+    Scientists and engineers at BT Laboratories, Martlesham, have used
+photonic technology to shatter world speed records for broadband
+superhighways.  They have designed a new type of telecommunications
+network, based entirely on the transmission of laser beams through
+optical fiber, using devices that almost completely can eliminate
+conventional electronic circuits.
+    Key elements for this "supernet of the 21st century" are new
+photonic components invented and built at Martlesham.  These include
+an optical transistor, which BT claims is capable of processing
+information at 80 Gbps, and a high-speed optical switch many times
+smaller than existing designs.
+    These are the basic building blocks used to construct an
+all-optical telephone exchange that can read information from a packet
+of data at a rate of 100 Gbps, decode the identity of the intended
+recipient, and switch the packet onto its destination path.  BT
+anticipates bringing this technology out of the lab during 1996, and
+building a working prototype photonic network.  The prototype network
+will use the existing optical fiber linking six towns in South East
+England to allow the new devices to be tested in real working
+conditions.  (Contact: BT Labs, +44 1473 647 448)
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "6"></A>Copyright
+BROADBAND NETWORKING NEWS via NewsNet
+January 9, 1996
+
+TELSTRA SEEKS SUPERHIGHWAY VENDORS.  
+
+    Australian-based Telstra last month invited 21 vendors to submit
+proposals for the carrier's planned $40 million interactive broadband
+services pilot project.  Telstra is seeking vendors with expertise in
+broadband switching, digital media servers, network operating system
+software, digital set-top boxes, and service management systems.  
+    The carrier will build a trial network in Gungahlin, Canberra,
+which is expected to be operational in late 1996.  The project will
+test the market and technical viability of interactive broadband
+services delivered to consumers' television sets and computers. 
+Telstra plans to test cable modem technology as part of the project. 
+The initial pilot applications in the areas of education, shopping,
+banking, and directory services are targeted for delivery in mid-1997. 
+Applications are due at the end of this month.  (Contact: Telstra,
+415/922-5452)
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "7"></A>Copyright
+BROADBAND NETWORKING NEWS via NewsNet
+January 9, 1996
+
+BT, MCI EXTEND CONCERT FRAME RELAY NETWORK.  
+
+    Concert frame relay services -- offered by MCI Communications
+Corp. and British Telecom (BT) -- now are available in Colombia,
+Indonesia, Israel, Taiwan, and Venezuela.  With the additions, Concert
+customers have access to frame relay in more than 500 cities in 31
+countries.  Also, BT reported that the Mediterranean Shipping Company
+last month became the 500th customer buying Concert frame relay
+service.
+    In addition to expanding its network, Concert also has enhanced
+its frame relay offerings by adding a remote LAN access option.  The
+new offering enables customers to dial into the nearest Concert Packet
+Service access point and connect to their corporate LAN via frame
+relay.  (Contact: MCI, 914/934-6484)
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "8"></A>Copyright
+BROADBAND NETWORKING NEWS via NewsNet
+January 9, 1996
+
+ASCOM BUILDS CAMBRIDGE ATM NETWORK.  
+
+    Ascom Timeplex, in cooperation with Switzerland-based research
+division Ascom Tech, has designed and built an ATM network for the
+Language Center at the University of Cambridge.  The basic ring
+operates at 1.25 Gbps across existing dark fiber.  It provides 25 Mbps
+ATM to desktop PCs via a broadband solution that includes
+transmission, switching, access, servers, and multimedia applications.
+    The network, installed as part of a European Commission RACE
+project called HIPERNET, is designed to facilitate language learning
+through technology and involves equipment and support from IBM,
+GEC-Marconi, VTT, AND Software, CAP SESA, and the University of
+Cambridge.  While currently only serving seven PCs and a server,
+located at five sites spanning a total path of about 15 kilometers,
+the project eventually will address the problems of using ATM across a
+campus extending 50 kilometers, and a user base of several hundred. 
+(Contact: Ascom Timeplex, 201/391-1111)
+
+
+
+WHAT'S NEW IN BROADBAND PRODUCTS
+
+KEY:Company Name
+    Product
+    Contact Number
+    Price
+    Availability
+
+StrataCom
+A new system software upgrade will support ATM switched virtual
+    circuits (SVCs) for T-1/E-1, T-3/E-3, and OC-3/STM-1 user-to-
+    network interfaces (UNIs).  ATM SVCs for frame UNI and ATM inverse
+    multiplexing also will be available as well as new security
+    features that include address screening.
+408/882-2521
+Not Announced
+Q1 1996 beta test 2nd half of 1996 for general availability
+
+Telematics
+PCP 800 Access Switch for frame relay concentration and multiservice
+    access features 24 Mbps throughput and supports 84 high-speed
+    ports.
+305/351-4475
+$38,000
+Immediate
+
+First Virtual Corp.
+FIRST Multimedia Switch supports 25 Mbps ATM, Ethernet, Token Ring,
+    and 155 ATM for server or backbone switch access.; - FIRST
+    Multimedia Gateway Server is an ATM-telecom gateway which
+    distributes H.320 videoconferencing steams from the WAN to the
+    desktop.
+408/988-7070
+Switch: $7,000-$16,000; Server: $12,000
+January
+
+Cisco Systems
+CFRAD serial-only frame relay access devices (models 2520CF, 2521CF
+    feature three serial access ports; 2522CF, 2523CF feature nine
+    serial access ports and a single high-speed frame relay port).;
+    - LAN FRAD provides serial and LAN access (models 2501LF, 2502LF
+    feature one serial access port; 2520LF, 2521LF feature three
+    serial access ports; 2522LF, 2523LF feature nine ports).
+    ; -LightStream 1010 Workgroup/Campus ATM Switch features 32 ports
+    and 5 Gbps nonblocking throughput. Interfaces include 25 Mbps, DS-
+    3 (45 Mbps), OC-3 (155 Mbps), and OC-12 (622 Mbps), and the switch
+    supports the P-NNI and ABR specs.
+408/526-4000
+CFRAD: $1,595-$3,995; LAN FRAD: $2,195-$4,695; LightStream 1010:
+    $19,000 (base), per-port prices start at $1,195 
+Q1 1996; Q1 1996; Q2 1996
+
+Motorola
+Vanguard 100 PC is a PC serial card-based FRAD that supports PC, LAN
+    and SNA traffic.
+508/261-4378
+$749
+Immediate
+
+Madge Networks
+The new Collage 25 Mbps ATM products include the: 250 Workgroup ATM
+    Switch, which can support up to 144 25 Mbps ATM ports to the
+    desktop; the 280 Workgroup ATM Switch, which supports Ethernet and
+    25 Mbps ATM; the 25 PCI Adapter; and the 155 PCI Adapter.
+408/383-1014
+250: $6,995; 280: $7,795; 25 PCI: $430; 155 PCI: $1,295
+Q1 1996
+
+Newbridge Networks
+VIVID Blue Ridge Token Ring-to-ATM edge device, designed to work with
+    the VIVID Workgroup Switch, performs packet forwarding into the
+    ATM fabric for up to 10 Token Ring ports at full wire speed. It
+    can operate at four or 16 Mbps, and can be configured with one or
+    two OC-3 155 Mbps links.
+703/318-5761
+$18,500
+Immediate
+
+Level One
+Two versions of high bit-rate digital subscriber line (HDSL) data pump
+    chipsets now are available: 1) 784 Kpbs for T-1 transport over
+    two-wire pairs; 2) 1168 Kbps for E-1 transport.
+916/855-5000
+T-1 - $81.25;  E-1 - $83.13 (for orders of 1,000 units)
+Immediate (samples)
+
+Cascade Communications
+The Cascade 500 ATM switch featuring 2.5, 5, and 10 Gbps capacity and
+    supporting speeds of 45, 155, and 622 Mbps is now shipping for
+    beta testing.
+508/952-1280
+$25,000 base; typical system $150,000-$200,000
+Q1 1996
+
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "9"></A>Copyright
+BROADBAND NETWORKING NEWS via NewsNet
+January 9, 1996
+
+LAN SWITCHING HUB MARKET GROWING: GOOD NEWS FOR CARRIER ATM SALES
+
+     According to a new report by The Insight Research Corp., "The LAN
+to WAN Interface: LAN Switching Hubs and the Advance of ATM Networking
+1995-2000," the growth in the LAN hub market is an indicator of the
+future potential of ATM switch sales and of wide area ATM sales by
+carriers.  Insight believes that the growing LAN switching hub market
+is good news for the ATM industry because such hubs provide a
+migration path to ATM, while still allowing companies to maximize the
+use of their legacy systems. 
+    "LAN switching hubs are the immediate solution and will provide an
+easy migration to ATM switching platforms when their use becomes
+widespread toward the end of the decade," said Robert Rosenberg,
+president of Insight.
+    The research firm predicts that shipments of LAN hubs in the
+United States will grow from $4.6 billion in 1995 to $14.9 billion by
+the year 2000.  Worldwide hub revenues are targeted to increase from
+$6.2 billion to $19.7 billion in 2000 (see box).  In its report,
+Insight outlines a variety of strategies that carriers can use to
+capture a piece of this growing market.
+
+  ...Technical Cooperation Encouraged 
+
+    Carriers are encouraged to promote close alliances with switch
+manufacturers and to freely exchange technical information with
+vendors.  "If the switch manufacturer has access to the technical
+details of the carrier's network operations, the switch manufacturer
+can then design products which work well with the carrier's public
+data service," writes Insight.  "The user would be assured of both the
+network performance and the compatibility between the carrier's
+network and the LAN switch."
+    Insight also believes that using wide area ATM to support a LAN
+interconnection service offers carriers significant opportunities for
+growth.  It recommends that service providers:
+    *  Strictly adhere to ATM standards.  Compliance will ensure that
+procedures such as congestion control are uniform across both local
+and long-distance networks and that interconnection is transparent to
+users.
+    *  Provide cost-effective ATM service pricing.  The cost of
+deploying ATM needs to be justifiable initially for data traffic only.
+    *  Use flexible connections.  Provide a simple tariff based on
+port bandwidth capacity and avoid the complexities of frame relay
+pricing.
+    *  Provide competitive differentiation.  Value-added features and
+industry-specific applications can help carriers distinguish their
+services from pure ATM transport offerings.  
+    A complete copy of the report is available from Insight Research
+for $3,495.  For more information, call Insight at 201/605-1400.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

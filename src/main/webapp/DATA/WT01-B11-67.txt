@@ -1,0 +1,159 @@
+
+<DOC>
+<DOCNO>WT01-B11-67</DOCNO>
+<DOCOLDNO>IA026-000286-B010-383</DOCOLDNO>
+<DOCHDR>
+http://stjosephinstitute.org:80/Guest.htm 207.86.133.50 19970113232040 text/html 8255
+HTTP/1.0 200 OK
+Date: Mon, 13 Jan 1997 23:21:53 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 8084
+Last-modified: Tue, 17 Sep 1996 07:32:20 GMT
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//W3O/DTD HTML//EN">
+
+<html>
+<head>
+<title>Guest Book</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+<meta name="FORMATTER" content="Microsoft FrontPage 1.1">
+</head>
+<body background="images/Sjibg1.gif" bgcolor="#FFFFFF"
+text="#0000A0" link="#808080" vlink="#800040" alink="#008000">
+<table cellpadding="0" cellspacing="0" width="600">
+    <tr>
+        <td valign="top" width="170"><MAP NAME="FrontPageMap"><AREA SHAPE="POLYGON" COORDS="5, 387, 146, 357, 146, 399, 81, 400" HREF="index.htm"><AREA SHAPE="POLYGON" COORDS="5, 366, 146, 335, 146, 357, 5, 387" HREF="WhatsNew.htm"><AREA SHAPE="POLYGON" COORDS="5, 345, 146, 315, 146, 335, 5, 366" HREF="Guest.htm"><AREA SHAPE="POLYGON" COORDS="5, 323, 146, 293, 146, 315, 5, 345" HREF="Contact.htm"><AREA SHAPE="POLYGON" COORDS="5, 303, 148, 273, 146, 293, 5, 323" HREF="Links.htm"><AREA SHAPE="POLYGON" COORDS="4, 284, 146, 254, 148, 273, 5, 303" HREF="Alumni.htm"><AREA SHAPE="POLYGON" COORDS="4, 265, 143, 235, 146, 254, 4, 284" HREF="News.htm"><AREA SHAPE="POLYGON" COORDS="4, 245, 142, 214, 143, 235, 4, 265" HREF="Sat.htm"><AREA SHAPE="POLYGON" COORDS="4, 224, 142, 194, 142, 214, 4, 245" HREF="Calendar.htm"><AREA SHAPE="POLYGON" COORDS="4, 204, 142, 174, 142, 194, 4, 224" HREF="informat.htm"><AREA SHAPE="POLYGON" COORDS="142, 154, 142, 174, 4, 204, 4, 155" HREF="Services.htm"><AREA SHAPE="RECT" COORDS="9, 14, 142, 143" HREF="index.htm"></MAP><a
+        href="/cgi-bin/imagemap/SJI/_vti_map/Guest.htm.map"><img
+        align="bottom" src="images/Imap3.gif" width="150" ismap
+        usemap="#FrontPageMap" height="403" border="0"></a><img
+        src="images/point09.gif" align="bottom" width="8"
+        height="403">
+        <p>&#160;</p>
+        </td>
+        <td valign="top">&#160; 
+        <p align="center"><img src="images/sji-logo2.gif"
+        align="bottom" width="293" height="121"> </p>
+        <h2 align="left">Guest Book </h2>
+        <p align="left">Thanks for visiting! We would love to
+        hear from you! Please fill in any information below you
+        would like to share... Please be aware that any
+        information you submit over the internet via this form is
+        insecure and could be observed by a third party while in
+        transit. All information is for St. Joseph Institute use
+        only. Thank you for signing our on-line Guest Book, and
+        please come back! </p>
+        <p align="left"><img src="images/Image50.gif"
+        align="bottom" width="318" height="231"> </p>
+        <form action="/cgi-sys/formmail.pl" method="POST">
+            <input type="hidden" name="env_report"
+            value="REMOTE_ADDR,HTTP_USER_AGENT"><input
+            type="hidden" name="print_config"
+            value="email,subject"><input type="hidden"
+            name="recipient" value="guest@stjosephinstitute.org"><input
+            type="hidden" name="redirect"
+            value="http://www.stjosephinstitute.org/thanks.htm"><input
+            type="hidden" name="sort" value="alphabetic"><input
+            type="hidden" name="subject"
+            value="SJI Guest Book Signature">
+            <table width="100%">
+                <tr>
+                    <td align="right"><font size="2">Name</font></td>
+                    <td valign="top"><input type="text" size="25"
+                    maxlength="40" name="o01_Name"></td>
+                </tr>
+                <tr>
+                    <td align="right"><font size="2">Address</font></td>
+                    <td valign="top"><input type="text" size="35"
+                    maxlength="80" name="o02_Address1"></td>
+                </tr>
+                <tr>
+                    <td align="right"><font size="2">City/State/Zip</font></td>
+                    <td valign="top"><input type="text" size="35"
+                    maxlength="80" name="o03_Address2"></td>
+                </tr>
+                <tr>
+                    <td align="right"><font size="2">Country</font></td>
+                    <td valign="top"><input type="text" size="20"
+                    maxlength="40" name="o04_Country" value="USA"></td>
+                </tr>
+                <tr>
+                    <td align="right"><font size="2">Telephone</font></td>
+                    <td valign="top"><input type="text" size="20"
+                    maxlength="40" name="o05_Telephone"></td>
+                </tr>
+                <tr>
+                    <td align="right"><font size="2">E-mail
+                    Address</font></td>
+                    <td valign="top"><input type="text" size="35"
+                    maxlength="80" name="o06_Email"></td>
+                </tr>
+                <tr>
+                    <td valign="bottom" colspan="2">
+                    <p align="left"><font size="2"><br>
+                    Suggest a URL link here for us to add to our
+                    Link Page<br>
+                    </font><input type="text" size="40"
+                    maxlength="120" name="o07_URL"> </p>
+                    <p align="left"><strong>Other Information</strong>
+                    (for SJI use only)<br>
+                    Please check all that apply: </p>
+                    <p align="left"><input type="checkbox"
+                    name="o08_guest" value="Adult_HI">Adult who
+                    is hearing impaired<br>
+                    <input type="checkbox" name="o08_guest"
+                    value="Alumni">St. Joseph Institute Alumni<br>
+                    <input type="checkbox" name="o08_guest"
+                    value="Parent_of_HI_child">Parent or guardian
+                    of a child who is hearing impaired<br>
+                    <input type="checkbox" name="o08_guest"
+                    value="Enrolled at SJI">Child is currently
+                    enrolled at SJI facility<br>
+                    <input type="checkbox" name="o08_guest"
+                    value="Grandparent of HI child">Grandparent
+                    of a child who is hearing impaired </p>
+                    <p align="left"><input type="checkbox"
+                    name="o09_guest" value="University Student">University/College
+                    Student<br>
+                    <input type="checkbox" name="o09_guest"
+                    value="Audiologist">Audiologist<br>
+                    <input type="checkbox" name="o09_guest"
+                    value="Auditory-Oral Therapist">Auditory-Oral
+                    Therapist<br>
+                    <input type="checkbox" name="o09_guest"
+                    value="Speech-Language Pathologist">Speech-Language
+                    Pathologist<br>
+                    <input type="checkbox" name="o09_guest"
+                    value="Teacher of the HI">Teacher of the
+                    hearing impaired<br>
+                    <input type="checkbox" name="o09_guest"
+                    value="Interpreter">Interpreter<br>
+                    <input type="checkbox" name="o09_guest"
+                    value="Physician">Physician<br>
+                    <input type="checkbox" name="o10_guest"
+                    value="Other">Other (please specify)<br>
+                    <input type="text" size="20" maxlength="40"
+                    name="o11_specify_other"> </p>
+                    <p align="left">Comments: </p>
+                    <p align="left">
+                    <textarea name="o12_Comments" rows="10"
+                    cols="40"></textarea>
+                    </p>
+                    <p>&#160; </p>
+                    <hr>
+                    <p align="center"><input type="submit"
+                    name="Send" value="Send Form"> <input
+                    type="reset" name="Cancel" value="Clear Form"> </p>
+                    <hr>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <p align="left">&#160; </p>
+        <p align="left">&#160; </p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+</DOC>

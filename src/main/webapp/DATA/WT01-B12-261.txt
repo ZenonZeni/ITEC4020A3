@@ -1,0 +1,128 @@
+
+<DOC>
+<DOCNO>WT01-B12-261</DOCNO>
+<DOCOLDNO>IA018-000196-B047-15</DOCOLDNO>
+<DOCHDR>
+http://www.kemper.com:80/lite/curious/compareindices.html 198.152.185.42 19970106171122 text/html 3501
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Monday, 06-Jan-97 17:07:21 GMT
+Last-modified: Friday, 01-Nov-96 21:54:50 GMT
+Content-length: 3319
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Compare Market Indices</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<IMG ALIGN=LEFT SRC="../gifs/headers/date_hd.gif" ALT="Kemper.com">
+<IMG ALIGN=LEFT SRC="../gifs/headers/search_spacer_hd.gif">
+<A HREF="../search.html"><IMG ALIGN=LEFT BORDER=0 SRC="../gifs/headers/search_hd.gif" ALT="Search"></A>
+
+<IMG ALIGN=RIGHT SRC="gifs/headers/compareindices_wht_hd.gif" 
+ALT="Compare Market Indices">
+<IMG ALIGN=RIGHT SRC="gifs/headers/slash_gry_hd.gif" 
+ALT="/">
+<A HREF="market_indices.html">
+<IMG ALIGN=RIGHT BORDER=0 SRC="gifs/headers/indices_gry_hd.gif" 
+ALT="Market Indices"></A>
+
+<BR CLEAR=ALL>
+<HR>
+<NOBR>
+<A HREF="../prospectus.html"><IMG SRC="../gifs/link_wht_prospectuses.gif" ALIGN=LEFT BORDER=0 ALT="Prospectuses And Important Information"></A>
+<A HREF="../learn/contact_learn.html"><IMG SRC="../gifs/link_wht_contactkemper.gif" BORDER=0 ALT="Contact Kemper"></A>
+<A HREF="../sitemap.html"><IMG SRC="../gifs/link_wht_sitemap.gif" BORDER=0 ALT="Site Map"></A>
+</NOBR>
+<BR CLEAR=ALL>
+<BR>
+
+<BLOCKQUOTE>
+
+<IMG SRC="gifs/compareindices_head.gif" ALT="Compare Market Indices">
+
+<P>
+
+<STRONG>Which broad market indices would you like to compare?</STRONG>
+<P>
+
+<FORM METHOD="POST" ACTION="http://kemper.adj.com/cgi-bin/test/lite/compareindices">
+
+Select a broad market index you'd like to compare:
+<BR>
+<SELECT NAME="fund">
+<OPTION VALUE="1" SELECTED>Consumer Price Index
+<OPTION VALUE="2">Dow Jones Industrial Average
+<OPTION VALUE="12">FT/S&#38;P - Actuaries World Index - Europe
+<OPTION VALUE="8">Lehman Brothers Aggregate Bond
+<OPTION VALUE="3">Lehman Brothers Government/Corporate Bond
+<OPTION VALUE="9">Lehman Brothers Municipal Bond
+<OPTION VALUE="4">Morgan Stanley Capital International EAFE
+<OPTION VALUE="10">Russell 1000 Growth
+<OPTION VALUE="5">Russell 2000 Growth
+<OPTION VALUE="6">Standard & Poor's 500
+<OPTION VALUE="11">Salomon Brothers World Government Bond
+<OPTION VALUE="7">Wilshire Large Company Growth
+</SELECT>
+
+<P>
+
+Select another broad market index to compare it with:
+<BR>
+<SELECT NAME="index">
+<OPTION VALUE="1">Consumer Price Index
+<OPTION VALUE="2">Dow Jones Industrial Average
+<OPTION VALUE="12">FT/S&#38;P - Actuaries World Index - Europe
+<OPTION VALUE="8">Lehman Brothers Aggregate Bond
+<OPTION VALUE="3">Lehman Brothers Government/Corporate Bond
+<OPTION VALUE="9">Lehman Brothers Municipal Bond
+<OPTION VALUE="4">Morgan Stanley Capital International EAFE
+<OPTION VALUE="10">Russell 1000 Growth
+<OPTION VALUE="5">Russell 2000 Growth
+<OPTION VALUE="6" SELECTED>Standard & Poor's 500
+<OPTION VALUE="11">Salomon Brothers World Government Bond
+<OPTION VALUE="7">Wilshire Large Company Growth
+</SELECT>
+
+<P>
+
+<CENTER>
+<INPUT TYPE="submit" VALUE=" Compare the two indices ">
+</CENTER>
+</FORM>
+
+<P>
+
+
+<FONT SIZE=1>&copy; Copyright Kemper Distributors, Inc. 1996 - All
+rights reserved.</FONT SIZE=1>
+
+</BLOCKQUOTE>
+
+<P>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<TR>
+<TD VALIGN=TOP ALIGN=RIGHT>
+  <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+  <TR>
+  <TD VALIGN=TOP>
+  <A HREF="../menu.html">
+  <IMG BORDER=0 SRC="../gifs/icons/kemper_blkwht.gif"
+  ALT="Kemper Funds - Principal Underwriter: Kemper Distributors, Inc."></A><BR>
+  <IMG SRC="../gifs/icons/kemper_spacer.gif"><FONT SIZE=-1></FONT></TD>
+  </TR>
+  </TABLE></TD>
+</TR>
+</TABLE>
+
+<P>
+
+</BODY>
+</HTML>
+
+
+</DOC>

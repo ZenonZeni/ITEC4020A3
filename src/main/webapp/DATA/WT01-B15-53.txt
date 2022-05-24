@@ -1,0 +1,148 @@
+
+<DOC>
+<DOCNO>WT01-B15-53</DOCNO>
+<DOCOLDNO>IA018-000188-B025-378</DOCOLDNO>
+<DOCHDR>
+http://www.compulinks.com:80/investor/register.html 198.53.175.8 19970106121145 text/html 8751
+HTTP/1.0 200 OK
+Date: Mon, 06 Jan 1997 12:11:44 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<html><head>
+<title>The Informed Investor - Free Registration</title>
+
+<script language="JavaScript"><!--
+
+function calcObjectives(form, se, ee) {
+	var te=se+ee; var v=0;
+	for (var x=se; x<te;x++) {
+		if (form.elements[x].value=="") form.elements[x].value=0;
+		v = v + parseInt(form.elements[x].value);}
+	form.elements[te].value=v;
+}
+
+//-->
+</script>
+
+</head>
+<body background="images/tbltile.gif" bgcolor=#ffffff link=#297b63 vlink=#297b63 alink=#31ad84>
+
+<form method=post action=/cgi-bin/mailit>
+<input type=hidden name=login value="cwebster">
+<input type=hidden name=subject value="Informed Investor Registration">
+<input type=hidden name=reply value="http://www.compulinks.com/investor/accepted.html">
+<input type=hidden name=template value="investor/investor.txt">
+
+<input type=hidden name=secured value="no">
+<input type=hidden name=browser value="ia_archiver/1.5">
+
+<h4><font size=+2>The Informed Investor - Free Registration!</font><hr></h4>
+<font size=+2>T</font>here are many special benefits available to registered users of The Informed Investor web site, including full access to The Informed Investor Newsletter (normal subscription $89.00). It takes just a couple of minutes and, best of all, it's <b>free</b> and without obligation! All we need is some information about you and your investment habits. If you use Netscape, you're welcome to use our <b><a href="https://www.islandnet.com/~cwebster/investor/sregister.html">secure commerce server</a></b> for sending this information.
+
+<hr>
+<b>Select the special benefits you wish to receive:</b><p>
+<center>
+<table border=0 cellspacing=0 cellpadding=3>
+<tr><td colspan=3 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+<tr><td> &nbsp &nbsp &nbsp &nbsp </td><td><input type="checkbox" name=current checked> Full access to current Informed Investor Newsletters.<br>
+<input type=checkbox name=notify> Notification of Informed Investor web site updates.<br>
+<input type=checkbox name=topfunds> Top performing funds list.<br>
+<input type=checkbox name=reports> Special fund/manager reports.<br>
+<input type=checkbox name=guru> The Guru's Opinion!</td><td> &nbsp </td></tr>
+<tr><td colspan=3 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+</table></center><p>
+
+<hr>
+<b>The following data will not be distributed or used for soliciting in any way!</b><p><blockquote>
+<center>
+<table border=0 cellspacing=0 cellpadding=3>
+<tr><td colspan=4 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+<tr><td rowspan=5> &nbsp </td><td align=right><b><font size=-1>E-Mail Address:</td><td><input name=eaddress size=39></td><td rowspan=5> &nbsp </td></tr>
+<tr><td align=right><b><font size=-1>Name (First/M/Last):</td><td><input name=fname size=15><input name=mname size=2><input name=lname size=16></td></tr>
+<tr><td align=right><b><font size=-1>Street Address:</td><td><input name=street size=39></td></tr>
+<tr><td align=right><b><font size=-1>(City/Prov/Code):</td><td><input name=city size=15><input name=prov size=2><input name=code size=16></td></tr>
+<tr><td align=right><b><font size=-1>Country:</td><td><input name=country size=15></td></tr>
+<tr><td colspan=4 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+</table></center></blockquote>
+
+<hr>
+
+<b>The following data is for aggregate demographic analysis only!</b><p><blockquote>
+<center>
+<table border=0 cellspacing=0 cellpadding=3>
+<tr><td colspan=4 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+<tr><td rowspan=2> &nbsp </td><td colspan=2><b><font size=-1>Investment Interests (select up to 2):</td><td rowspan=2> &nbsp </td></tr>
+<tr><td colspan=2 align=center><input name=mfunds type=checkbox>Mutual funds &nbsp <input name=stocks type=checkbox>Stocks &nbsp <input name=bonds type=checkbox>Bonds &nbsp <input name=commodities type=checkbox>Commodities</td></tr>
+
+<tr><td colspan=4 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+
+<tr><td rowspan=6> &nbsp </td><td colspan=2><b><font size=-1>Investment Objectives (totals 100%):</td><td rowspan=6> &nbsp </td></tr>
+<tr><td align=right><b><font size=-1>Income:</td>
+<td><input name=oincome value=0 size=5 onBlur="calcObjectives(this.form, 24, 4)"> %</td></tr>
+<tr><td align=right><b><font size=-1>Short term capital gains (less than 3 months):</td>
+<td><input name=oshort value=0 size=5 onBlur="calcObjectives(this.form, 24, 4)"> %</td></tr>
+<tr><td align=right><b><font size=-1>Medium term capital gains (3 to 9 months):</td>
+<td><input name=omedium value=0 size=5 onBlur="calcObjectives(this.form, 24, 4)"> %</td></tr>
+<tr><td align=right><b><font size=-1>Long term capital gains (over 9 months):</td>
+<td><input name=olong value=0 size=5 onBlur="calcObjectives(this.form, 24, 4)"> %</td></tr>
+<tr><td align=right><b><font size=-1>Total (self calculating in Netscape 2+):</td>
+<td><input name=ototal value=0 size=5 onBlur="calcObjectives(this.form, 24, 4)"> %</td></tr>
+
+<tr><td colspan=4 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+
+<tr><td rowspan=5> &nbsp </td><td colspan=2><b><font size=-1>Risk Factors (totals 100%):</td><td rowspan=5> &nbsp </td></tr>
+<tr><td align=right><b><font size=-1>Low:</td>
+<td><input name=rlow value=0 size=5 onBlur="calcObjectives(this.form, 29, 3)"> %</td></tr>
+<tr><td align=right><b><font size=-1>Medium:</td>
+<td><input name=rmedium value=0 size=5 onBlur="calcObjectives(this.form, 29, 3)"> %</td></tr>
+<tr><td align=right><b><font size=-1>High:</td>
+<td><input name=rhigh value=0 size=5 onBlur="calcObjectives(this.form, 29, 3)"> %</td></tr>
+<tr><td align=right><b><font size=-1>Total (self calculating in Netscape 2+):</td>
+<td><input name=rtotal value=0 size=5 onBlur="calcObjectives(this.form, 29, 3)"> %</td></tr>
+
+<tr><td colspan=4 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+
+<tr><td rowspan=5> &nbsp </td><td colspan=2><b><font size=-1>Do you use a (totals 100%):</td><td rowspan=5> &nbsp </td></tr>
+<tr><td align=right><b><font size=-1>Full Service Advisor:</td>
+<td><input name=ufull value=0 size=5 onBlur="calcObjectives(this.form, 33, 3)"> %</td></tr>
+<tr><td align=right><b><font size=-1>Discount Broker:</td>
+<td><input name=udiscount value=0 size=5 onBlur="calcObjectives(this.form, 33, 3)"> %</td></tr>
+<tr><td align=right><b><font size=-1>No Load Mutual Fund:</td>
+<td><input name=unoload value=0 size=5 onBlur="calcObjectives(this.form, 33, 3)"> %</td></tr>
+<tr><td align=right><b><font size=-1>Total (self calculating in Netscape 2+):</td>
+<td><input name=utotal value=0 size=5 onBlur="calcObjectives(this.form, 33, 3)"> %</td></tr>
+
+<tr><td colspan=4 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+</table>
+
+<table border=0 cellspacing=0 cellpadding=3>
+<tr><td rowspan=5> &nbsp </td><td align=right><b><font size=-1>Investment Knowledge:</td>
+<td><select name=knowledge><option>___ <option>None<option>Fair<option>Good<option>Excellent</select></td><td rowspan=5> &nbsp </td></tr>
+<tr><td align=right><b><font size=-1>Education:</td>
+<td><select name=education><option>___ <option>Grade School<option>College<option>University Grad.<option>Post Grad.<option>Professional/Technical</select></td></tr>
+<tr><td align=right><b><font size=-1>Investment Assets:</td>
+<td><select name=assets><option>___<option>less than $25,000<option>$25,000 - $50,000<option>$50,000 - $100,000<option>greater than $100,000</select></td></tr>
+<tr><td align=right><b><font size=-1>Family Income:</td>
+<td><select name=income><option>___<option>less than $25,000<option>$25,000 - $50,000<option>$50,000 - $100,000<option>greater than $100,000</select></td></tr>
+<tr><td align=right><b><font size=-1>Year of Birth:</td>
+<td><input name=birthyear size=7></td></tr>
+
+<tr><td colspan=4 align=center><img src="images/line.gif" width=462 height=4></td></tr>
+
+<tr><td colspan=4> &nbsp </td></tr>
+<tr><td> &nbsp </td><td colspan=2 align=center><input type=submit value=" Submit Registration "></td><td> &nbsp </td></tr>
+</table>
+</form>
+</blockquote>
+
+<hr><center><address><font size=-1>
+Site design by <a href="http://www.compulinks.com">CompuLink Services</a>.<br>
+Contact <a href="mailto:webmaster@compulinks.com">webmaster@compulinks.com</a> with comments.<br>
+<a href="http://www.compulinks.com"><img src="../images/smllogo.gif" width=171 height=26 border=0 vspace=5 alt="CompuLink Services"></a>
+</address></font></center><p>
+<font color=#ffffff size=1>
+778
+<script language="JavaScrip"></script>
+</body></html>
+</DOC>

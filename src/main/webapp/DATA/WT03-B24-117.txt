@@ -1,0 +1,262 @@
+
+<DOC>
+<DOCNO>WT03-B24-117</DOCNO>
+<DOCOLDNO>IA053-000895-B047-353</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/nist/denning.html 129.174.40.15 19970123200544 text/html 10460
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 20:04:32 GMT
+Server: NCSA/1.5.2
+Last-modified: Tue, 02 Jan 1996 16:15:30 GMT
+Content-type: text/html
+Content-length: 10276
+</DOCHDR>
+<html>
+<title>D.E.R.Denning's Comments on Draft Criterial</title>
+<body>
+<pre>
+   [Handout at Key Escrow Issues Meeting, at NIST,
+   Gaithersburg, Maryland, September 6, 1995.]
+
+
+   *Comments* on Draft Criteria for Software Key Escrow
+   Exportability
+
+   Dorothy E. Denning
+
+   Sept. 5, 1995
+
+
+   1.   The product will use an unclassified encryption
+        algorithm (e.g., DES, RC4) with a key length not to
+        exceed 64 bits. [No comment]
+
+   2.   The product shall be designed to prevent multiple
+        encryption (e.g., triple-DES). [No comment]
+
+   3.   The key required to decrypt each message or file shall
+        be accessible through a key escrow mechanism in the
+        product, and such keys will be escrowed during
+        manufacture in accordance with #10. If such keys are
+        not escrowed during manufacture, the product shall be
+        inoperable until the key is escrowed in accordance
+        with #10.
+
+        *Comment. The requirement as written suggests a
+        Clipper-like model where each product has its own
+        individual escrowed key. With some key escrow systems,
+        for example, TIS's CKE and Fortress's KISS, the keys
+        held in escrow are master keys shared by multiple
+        products/users. A product encrypts the session/file
+        key (or, in the case of KISS, the user's private key)
+        under this master key. The master key could be
+        pre-loaded into the product (e.g, as with KISS) or it
+        could be downloaded into the product during program
+        initialization (e.g., TIS). Further, we do not want to
+        prevent a product from operating at all prior to
+        escrow. As with the TIS or Banker's Trust (BT)
+        proposals, the product needs to operate in order to be
+        initialized with keys! All that's needed is to prevent
+        data encryption. Finally, the requirement as written
+        does not make it clear that the product in question is
+        the one that was used to encrypt the data (which,
+        strictly speaking, may be something other than a
+        message or file, e.g, an image object). The following
+        is a possible rewrite:
+
+          The key required to decrypt data that has been
+          encrypted by a product shall be accessible through
+          a key escrow mechanism in the product. A product
+          shall not encrypt data unless the key needed for
+          decryption has been escrowed in accordance with
+          #10.*
+
+   4.   The key escrow mechanism shall be designed to include
+        with each encrypted message or file, in a format
+        accessible by authorized entities, the identity of the
+        key escrow agent(s), and information sufficient for
+        the escrow agent(s) to identify the key or key
+        components required to decrypt that message.
+
+        *Comment. It is not necessary to identify the escrow
+        agents as long as there is information that will
+        readily lead to their identity. For example, the BT
+        proposal identifies the user and the user's escrow
+        center. The escrow center has a record of the escrow
+        agents used by that user. As another possibility, a
+        product might be designed to always use a particular
+        escrow agent(s), so knowing the name of the product
+        would be sufficient to identify the agents (as in the
+        case of Clipper). Possible rewrite:
+
+          The key escrow mechanism shall be designed to
+          include with each encrypted message or file, in a
+          format accessible by authorized entities,
+          information that readily leads to the identity of
+          the key escrow agent(s), and information sufficient
+          for the escrow agent(s) to identify the key or key
+          components required to decrypt that message.*
+
+   5.   The product shall be resistant to any alteration that
+        would disable or circumvent the key escrow mechanism,
+        to include being designed so that the key escrow
+        mechanism cannot be disabled by a static patch, (i.e.,
+        the replacement of a block of code by a modified
+        block).
+
+        *Comment. The product should also be resistant to
+        circumvention without alteration, for example, by
+        passing in special parameters. Possible rewrite:
+
+          The product shall be resistant to any use or
+          alteration that would disable or circumvent the key
+          escrow mechanism, to include being designed so that
+          the key escrow mechanism cannot be disabled by a
+          static patch (i.e., the replacement of a block of
+          code by a modified block).*
+
+   6.   The product shall not decrypt messages or files
+        encrypted by non-escrowed products, including products
+        whose key escrow mechanisms have been altered or
+        disabled.
+
+        *Comment. For generality, change to:
+
+          The product shall not decrypt data encrypted by
+          non-escrowed products, including products whose key
+          escrow mechanisms have been altered or disabled.*
+
+   7.   The key escrow mechanism allows access to a user's
+        encrypted information regardless of whether that user
+        is the sender or the intended recipient of the
+        encrypted inforrnation.
+
+        *Comment. Does it matter whose keys are used, i.e.,
+        sender's or receiver's? As worded, this would allow
+        for the use of either. If it can be either, then it
+        may be necessary to go to many escrow agents to
+        decrypt a subject's communications, for example, the
+        escrow agent for each person who sends a message to
+        the subject. They might be in foreign countries. If
+        the intent is to restrict it to the key of the subject
+        of an investigation, it might be reworded as:
+
+          The key escrow mechanism allows access to a user's
+          encrypted information using only the keys
+          associated with the user regardless of whether that
+          user is the sender or the intended recipient of the
+          encrypted information.*
+
+   8.   The key escrow mechanism shall not require repeated
+        involvement by the escrow agents for the recovery of
+        multiple decryption keys during the period of
+        authorized access.
+
+        *Comment. What is meant by involvement? Participation
+        by individuals? What if the escrow agents provide an
+        automated way of obtaining keys after an initial
+        start-up (e.g., through a TIS data recovery center)?*
+
+   9.   In the event any such product is or may be available
+        in the United States, each production copy of the
+        software shall either have a unique key required for
+        decrypting messages or files that is escrowed in
+        accordance with #10, or have the capability for its
+        escrow mechanism to be rekeyed and any new key to be
+        escrowed in accordance with #10.
+
+        *Comment. Is the purpose of this to ensure that if a
+        key is compromised, all program copies are not
+        compromised with it -- thus, a single copy can be
+        tossed or an entire product line can be rekeyed?*
+
+   10.  The product shall accept escrow of its key(s) only
+        with escrow agents certified by the U.S. Government or
+        by foreign governments with which the U.S. Government
+        has formal agreements consistent with U.S. law
+        enforcement and national security requirements. [No 
+comment]
+
+
+   [End first section of comments]
+
+
+   Comments on Issues for Key Escrow Agents
+
+   *Comment. Where do entities such as the Bankers Trust
+   escrow center (which is involved in the escrow process and
+   is needed to find out what escrow agents to go to get keys)
+   or the Fortress KISS archive center (which performs an
+   auditing/archiving role) fit into this? They don't hold
+   keys, but their performance is critical to the system. It
+   would seem that any entity that is operationally involved
+   in key escrow should satisfy certain properties.*
+
+   1.   What kinds of organizations should be excluded from
+        consideration as approved key escrow agents? [NC]
+
+   2.   What sort of legal agreement between the government
+        and the key escrow agent is necessary to stipulate the
+        responsibilities of the agent? Should this include the
+        terms and conditions under which release of a key is
+        required? [NC]
+
+   3.   How will liability for unauthorized release of key be
+        handled? [NC]
+
+   4.   Should, for example, intentionally misreleasing or
+        destroying a key be criminalized? Should this include
+        other actions?
+
+        *Comment. It should be a criminal offense to:
+
+        a)  make a key available to someone knowing that that
+            person does not have lawful authority to use the
+            key,
+
+        b)  obtain or use a key without lawful authority,
+
+        c)  obstruct, impede, or prevent the use of keys when
+            there is lawful authority*
+
+   5.   How can the government's needs for confidentiality of
+        key release be handled? [NC]
+
+   6.   Should approval of key escrow agents be tied to a
+        public key infrastructure (for digital signatures and
+        other purposes)?
+
+        *Comment. Should use of the public key infrastructure
+        be conditioned on using key escrow encryption?*
+
+   7.   What procedures need to be developed for the storage
+        and safeguarding of keys? [NC]
+
+   8.   What are the acceptable performance criteria (e.g.,
+        around-the-clock availability, accessibility,
+        reliability, etc.) for approved key escrow agents? [NC]
+
+   9.   Under what circumstances will key escrow agents in
+        foreign countries be approved? [NC]
+
+   10.  What process will he used to approve escrow agents?
+        Costs/who pays? [NC]
+
+   [End]
+
+
+
+
+
+
+</pre>
+
+BÿBack to Pat's<a href="http://www.isse.gmu.edu/~pfarrell/nistmeeting.html">
+NIS&T Key Escrow/Export Meeting</a> page.
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> 
+PDF</a> 
+January 2, 1996  Backto <a href="http://www.isse.gmu.edu/~pfarrell/hotlist.html">Pat's hotlist</a> Backto <a href="http://www.isse.gmu.edu/~pfarrell/index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

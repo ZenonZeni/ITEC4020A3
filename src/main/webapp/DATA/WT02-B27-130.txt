@@ -1,0 +1,311 @@
+
+<DOC>
+<DOCNO>WT02-B27-130</DOCNO>
+<DOCOLDNO>IA007-000073-B031-269</DOCOLDNO>
+<DOCHDR>
+http://www.euthanasia.org:80/indexx.html 194.88.132.128 19970222051445 text/html 10962
+HTTP/1.0 200 OK
+Date: Sat, 22 Feb 1997 05:22:48 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<HTML>
+
+<!--------------------------------------------------------------->
+<!--     AUTHOR:   Chris Docker                         -->
+<!--     E-MAIL:   vess@euthanasia.org                -->
+<!--     CREATED:  December 1995                       -->
+<!--     MODIFIED: September 1996                  -->
+<!--     FILE:     http://www.euthanasia.org/index.html -->
+<!--     PURPOSE:  Homepage of the Scottish Voluntary Euthanasia Society  -->
+<!--------------------------------------------------------------->
+
+<HEAD>
+
+<TITLE>Scottish Voluntary Euthanasia Society - euthanasia, assisted suicide, living wills, advance directives, self-deliverance</TITLE>
+<META name="keywords" content="euthanasia, living wills, advance directives, assisted suicide, self-deliverance, Departing Drugs">
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!--
+/*
+ Copyright (C) 1996  Frequency Graphics  All Rights Reserved.
+   Feel free to reuse this code snippet
+   provided this header remains in tact
+   Andy Augustine 3.17.96 [www.FreqGrafx.com/411/]
+   send comments to <mohammed@freqgrafx.com>
+*/
+
+// You can add as many MESSAGEn (n being a number) strings 
+// as you would like, 1 for each unique scrollbar. 
+// 
+// To start a new scrollbar with the
+// default message, use: "scrollID = scrollerSetup()".
+// For each new message, use "scrollID = scrollerSetup(MESSAGEn)".        
+//  
+// To pause the scroller when the mouse is over a link, use:
+//  <A HREF="url" onMouseOver="scrollerPause()">linktext</A>
+//
+// To allow visitors to stop the scroller, use a button or link:
+// <FORM>
+//   <INPUT TYPE="button" VALUE="stop" onClick="scrollerStop()">
+// </FORM>
+// <A HREF="url" onMouseOver="scrollerStop()">linktext</A>
+//
+//-------------------------------------------------------------
+//   THESE ARE THE ONLY VARIABLES YOU SHOULD NEED TO CHANGE
+//-------------------------------------------------------------
+var POSITION = 100       //  how wide is the scroller?
+var DELAY    = 31        //  milliseconds between shifts
+var MESSAGE  = "22 Sept 1996: first known person to die under the Australian euthanasia law...      "
+             + " VESS website contains over 3 MB of info on euthanasia             "
+             + " Documents and info from the Living Will & Values History Project           "
+             + " Latest! World v.e. forum. See NEW on FastAccess           "
+var MESSAGE2  = "This is a secondary message that could be"
+             + "  used to provide extra info on a link or topic!"
+var LINK_PAUSE = 200    //  how long will a link pause the scroller?
+//-------------------------------------------------------------
+
+function statusMessageObject() {
+  this.msg = MESSAGE
+  this.out = " "
+  this.pos = POSITION
+  this.delay = DELAY
+  this.i     = 0
+  this.reset = clearMessage
+}
+
+function clearMessage() {
+  this.pos = POSITION
+}
+
+//-------------------------------------------------------------
+var scrollID = Object      
+var scrolling = false    
+var killScroll = false       // set this to true to kill the scroller
+var pauseScroll = false      // set this to true to pause scroller
+//-------------------------------------------------------------
+
+var scroll = new statusMessageObject()
+
+function scroller() {
+  //
+  //  check to see if the scroll should be stopped.
+  //
+      if (killScroll) {return}
+  //
+  //  if a link has the mouse over it, pause the scroller.
+  //   
+      if (pauseScroll) {
+        scrollID = setTimeout('scroller()',scroll.delay)
+        return
+      }
+  //
+  // add spaces to beggining of message
+  //
+  for (scroll.i = 0; scroll.i < scroll.pos; scroll.i++) {
+    scroll.out += " "
+  }
+  
+  // 
+  // if you're still have leading spaces, just 
+  // add custom string to tail of message
+  // OR else if the string is running off the
+  // screen, only add the characters left
+  //
+  if (scroll.pos >= 0)
+   scroll.out += scroll.msg
+  else scroll.out = scroll.msg.substring(-scroll.pos,scroll.msg.length)
+
+  window.status = scroll.out
+
+  // set parameters for next run
+  scroll.out = " "
+  scroll.pos--
+  
+  // if you're at the end of the message,
+  // reset parameters to start again
+  if (scroll.pos < -(scroll.msg.length)) {
+   scroll.reset()
+  }
+  
+  scrollID = setTimeout ('scroller()',scroll.delay)
+}
+
+
+function scrollerPause() {
+ pauseScroll=true
+ setTimeout('pauseScroll=false',LINK_PAUSE)
+}
+
+function scrollerStop() {
+ killScroll=true
+ scrolling=false
+ window.defaultStatus=''
+ var killID = setTimeout('killScroll=false',DELAY+1)
+}
+
+function scrollerSetup() {
+ if (scrolling) {  
+  // if (!confirm('Re-initialize scroller?'))
+  // return      
+  killScroll = true
+  scroll.reset()
+  if (scrollerSetup.arguments.length == 1) scroll.msg = scrollerSetup.arguments[0]
+  var killID = setTimeout('killScroll=false',DELAY+1)
+ }
+ scrolling = true   
+ scrollID = setTimeout('scroller()',DELAY+5)
+}
+
+// -->
+
+</SCRIPT>
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Beginning of JavaScript Applet -------------------
+
+/*  Fade Script v0.1 by Kouichirou@Eto.com 1996
+
+ * Copyright (c) 1996 Kouichirou Eto. All Rights Reserved.
+ * You can freely copy, use, modify this script,
+ * if the credit is given in the source.
+ * If you would like to get information for this script,
+ * please access <http://eto.com/JavaScript/>
+
+ */
+
+function makearray(n) {
+    this.length = n;
+    for(var i = 1; i <= n; i++)
+        this[i] = 0;
+    return this;
+}
+hexa = new makearray(16);
+for(var i = 0; i < 10; i++)
+    hexa[i] = i;
+hexa[10]="a"; hexa[11]="b"; hexa[12]="c";
+hexa[13]="d"; hexa[14]="e"; hexa[15]="f";
+function hex(i) {
+    if (i < 0)
+        return "00";
+    else if (i > 255)
+        return "ff";
+    else
+        return "" + hexa[Math.floor(i/16)] + hexa[i%16];
+}
+function setbgColor(r, g, b) {
+    var hr = hex(r); var hg = hex(g); var hb = hex(b);
+    document.bgColor = "#"+hr+hg+hb;
+}
+function fade(sr, sg, sb, er, eg, eb, step) {
+    for(var i = 0; i <= step; i++) {
+        setbgColor(
+        Math.floor(sr * ((step-i)/step) + er * (i/step)),
+        Math.floor(sg * ((step-i)/step) + eg * (i/step)),
+        Math.floor(sb * ((step-i)/step) + eb * (i/step)));
+    }
+}
+/* Usage:
+ *   fade(inr,ing,inb, outr,outg,outb, step);
+ * example.
+ *   fade(0,0,0, 255,255,255, 255);
+ * fade from black to white with very slow speed.
+ *   fade(255,0,0, 0,0,255, 50);
+ *   fade(0xff,0x00,0x00, 0x00,0x00,0xff, 50); // same as above
+ * fade from red to blue with fast speed.
+ * step 2 is very fast and step 255 is very slow.
+ */
+function fadein() {
+    fade(0, 0, 0, 255, 255, 255, 93);
+}
+function fadeout() {
+    /*fade(0,0,0, 255,255,255, 64); */
+}
+/* do fadein */
+fadein();
+/***** end fade script *****/
+// -- End of JavaScript code -------------- -->
+
+</SCRIPT>
+</head>
+
+
+<BODY onLoad="scrollerSetup()">
+
+
+<center>
+<img src="ball.gif"> <font size=-2>Note: This site is best viewed with Netscape <A href="http://home.netscape.com/comprod/mirror/client_download.html">2.0</a> and better. 
+Other browsers may wish to use the <a href="fastacct.html"><cite>text only version of FastAccess</cite></a></font>
+<hr>
+
+
+
+<A HREF="index.html"><IMG SRC="pxhome.gif" ALT="home" BORDER=0 HEIGHT=21 WIDTH=76></A></A>
+<A HREF="new_app.html"><IMG SRC="pxnewapp.gif" ALT="help us" BORDER=0 HEIGHT=21 WIDTH=86></A>
+<A HREF="a_z.html"><IMG SRC="pxaz.gif" ALT="A-Z" BORDER=0 HEIGHT=21 WIDTH=58></A>
+<A HREF="books.html"><IMG SRC="pxbooks.gif" ALT="books" BORDER=0 HEIGHT=21 WIDTH=82></A>
+<A HREF="feedback.html"><IMG SRC="pxfeedbk.gif" ALT="feedback" BORDER=0 HEIGHT=21 WIDTH=100></A>
+<A HREF="mailto:vess&euthanasia.org"><IMG SRC="pxemail.gif" ALT="email" HEIGHT=21 border=0></A>
+<A HREF="http://www.netlink.co.uk/users/vess/fastaccs.html"><IMG SRC="pxfast.gif" ALT="FastAccess" HEIGHT=21 WIDTH=119 BORDER=0></A>
+
+
+</center>
+
+<HR>
+
+<CENTER>
+
+
+<H2><a href="vess.html"><IMG vspace=8 SRC="vessbn.gif" align=left height=72 ALT="[Scottish Voluntary Euthanasia Society masthead]"></a></h2>
+<h2><a href="wfmap.html"><img src="earth_s.gif" align=right height=61 width=61 border=0></a></h2>
+<H2><cite><font color="#4F542C">v.e. - living wills - self-deliverance</font></cite>
+</center>
+Scottish Voluntary Euthanasia Society</H2>
+
+<font size=-1>Welcome to the VESS homepage and site, several megabytes of information on euthanasia and hundreds of links. Please use the links at the top of the page, or <a href="fastaccs.html">FastAccess</a> as a starting point for 
+info on all aspects of euthanasia and living wills. Click <a href="contents.html">Contents</a> for a quick overview of VESS online, or <a href="books.html">books</a> for our self-deliverance literature. Researchers visit the <a href="quotes.html">Students Page</a> (long download), and those looking at living wills especially visit the <a href="lwvh.html">Living Will &amp Values History Project</a>. Follow the VESS symbol or <a href="vess.html">link</a> for info on our organization & general subject intro. The VESS <a href="wwwmarks.html">Hotlist</a> contains valuable links to other subjects. These pages are being continuously expanded.</font>
+
+<center>
+
+<a href="fastaccs.html"><img src="fasticon.gif" border=0 width=418 height=31 alt="fastaccess"></a>
+<br>
+<a href="vess.html"><img src="vessbn.gif" border=0 height=40 alt="vess"></a>
+<br>
+<a href="lwvh.html"><img src="lwvhl.gif" border=0 height=40 alt="living wills"></a><BR>
+<a href="contents.html"><img src="contentt.gif" border=0 height=40 alt="contents"></a>
+<a href="books.html"><img src="books.gif" border=0 height=40 alt="books"></a>
+<a href="wwwmarks.html"><img src="hotlistt.gif" border=0 height=40 alt="hotlist"></a>
+<a href="new_app.html"><img src="join.gif" border=0 height=40 alt="subscribe"></a>
+<a href="quotes.html"><img src="research.gif" border=0 height=40 alt="research"></a>
+<a href="a_z.html"><img src="a_z.gif" border=0 height=40 alt="a-z"></a>
+
+<P>
+<center>
+<a href="wf.html"><IMG SRC="wfp.gif" ALT="[WFRTDS logo]" height=93></a>
+<BR><i>exploring the options for dying with dignity...</i>
+<HR>
+[<a href="fastaccs.html">FastAccess</a>] 
+[<a href="vess.html">About VESS</a>] 
+[<a href="lwvh.html">Living Wills</a>] 
+[<a href="contents.html">Contents</a>] 
+[<a href="books.html">Books</a>] 
+[<a href="wwwmarks.html">Hotlist</a>] 
+[<a href="new_app.html">Subscribe/Join</a>] 
+[<a href="quotes.html">Research</a>] 
+[<a href="a_z.html">A-Z Index</a>] 
+
+</center>
+
+<HR>
+<H6>euthanasia euthanasia euthanasia euthanasia euthanasia euthanasia euthanasia euthanasia euthanasia euthanasia euthanasia euthanasia</h6>
+<P>Copyright &copy 1995 <a href="resume.html">Chris Docker</a>. URL: http://www.euthanasia.org/<BR>
+</CENTER>
+</BODY>
+</HTML>
+</DOC>

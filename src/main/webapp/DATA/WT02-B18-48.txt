@@ -1,0 +1,135 @@
+
+<DOC>
+<DOCNO>WT02-B18-48</DOCNO>
+<DOCOLDNO>IA031-000660-B041-387</DOCOLDNO>
+<DOCHDR>
+http://minerva.forestry.umn.edu:80/urb/ 128.101.70.48 19970209092710 text/html 3788
+HTTP/1.0 200 Document follows
+Date: Sun, 09 Feb 1997 ? GMT
+Server: NCSA/1.4.1
+Content-type: text/html
+Last-modified: Fri, 31 Jan 1997 ? GMT
+Content-length: 3626
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Urban Forestry Bibliography</TITLE>
+</HEAD>
+
+<BODY>
+<CENTER>
+
+<TABLE>
+<TR>
+	<TD><IMG SRC="urban.jpg"></TD>
+	<TD><FONT SIZE=+3><B>Urban Forestry: A Bibliography</B><BR></FONT><FONT SIZE=+2>Updated December 1996<P>Jean Albrecht<BR>Forestry Library<BR>College of Natural Resources<BR>University of Minnesota<BR>St. Paul, MN<p></FONT></TD>
+</TR>
+</TABLE>
+
+</CENTER>
+		    
+<BR><BR>
+		    
+The literature relating to urban forestry is interdisciplinary in
+nature. Because of this, there is no single index or abstracting
+service which fully covers the subject. The purpose of this
+bibliography is to pull together literature from the various
+disciplines.<P>
+
+All of the publications cited in the bibliography are in the collections
+of the University of Minnesota Libraries. Loans or photocopies of these
+publications are available through the Interlibrary Loan Office, St. Paul
+Campus Libraries, 1984 Buford Avenue, St. Paul, MN 55108. FAX (612) 624-9245.<P>
+
+This bibliography will be updated annually on line.<P>
+
+<BR>
+
+<FONT SIZE=+2>
+Search the Urban Forestry Bibliography and retrieve citation links<BR>
+</FONT>
+<FORM ACTION="gopher://minerva.forestry.umn.edu/77/urb/urban.index">
+<DL>
+	<DT><DD><INPUT NAME="ISINDEX" SIZE=40> <INPUT TYPE="SUBMIT" VALUE="Search"> <A HREF="help1.html">HELP</A>
+</DL>
+</FORM>
+
+<BR>
+
+<FONT SIZE=+2>
+Search the Urban Forestry Bibliography and retrieve full citations<BR>
+</FONT>
+
+<form method=POST action="/cgi-bin/isearch">
+<input name="DATABASE" type=hidden value="URB">
+<input name="SEARCH_TYPE" type=hidden value="BOOLEAN">
+<input name="FIELD_1" type=hidden value="FULLTEXT">
+<input name="FIELD_2" type=hidden value="FULLTEXT">
+<input name="WEIGHT_1" type=hidden value="1">
+<input name="WEIGHT_2" type=hidden value="1">
+<input name="ELEMENT_SET" type=hidden value="B">
+
+<DL>
+<DT>
+<DD>
+	<input name="TERM_1">
+	<select name="OPERATOR">
+		<option selected>AND
+		<option>OR
+		<option>ANDNOT
+	</select>
+	<input name="TERM_2">
+	<input type="submit" value="Search"> <A HREF="help2.html">HELP</A>
+<DD>	<FONT SIZE="-1">Sorry, only simple boolean searches at the moment</FONT>
+<DD>	Enter maximum number of hits to retrieve: <input size=4 name="MAXHITS" value="50">
+</DT>
+</DL>
+
+</form>
+
+<BR>	
+			
+<FONT SIZE=+2>
+Browse the Urban Forestry Bibliography<P>
+</FONT>
+
+<UL>
+
+	<LI><A HREF="dat/02/">Urban Forestry Concepts and Definitions</A>
+	<LI><A HREF="dat/03/">History and Legislation</A>
+	<LI><A HREF="dat/04/">Information, Education, and Training</A>
+	<LI><A HREF="dat/06/">Aesthetic Benefits of Urban Forests</A>
+	<LI><A HREF="dat/07/">Recreation in the Urban Forest</A>
+	<LI><A HREF="dat/08/">Wildlife in the Urban Forest</A>
+	<LI><A HREF="dat/09/">Economic Benefits of Urban Forests</A>
+	<LI><A HREF="dat/10/">Physical Benefits of Urban Forests</A>
+	<LI><A HREF="dat/12/">Selection</A>
+	<LI><A HREF="dat/13/">Planting</A>
+	<LI><A HREF="dat/14/">Maintenance</A>
+	<LI><A HREF="dat/15/">Removal and Utilization</A>
+	<LI><A HREF="dat/17/">Planning the Urban Forest</A>
+	<LI><A HREF="dat/18/">Managing the Urban Forest</A>
+	<LI><A HREF="dat/20/">Urban Forestry Programs</A>
+	<LI><A HREF="dat/21/">Urban Forestry Research</A>
+	<LI><A HREF="dat/22/">Bibliographies and General Works</A>
+
+</UL>
+
+<HR>
+<BR>
+
+<CENTER>
+Copyright 1996<BR>
+Regents of the University of Minnesota<BR>
+All Rights Reserved<p>
+</CENTER>
+
+The University of Minnesota is committed to the policy that all persons
+shall have equal access to its programs, facilities, and employment
+without regard to race, religion, color, sex, national origin, handicap,
+age, veteran status or sexual orientation.<P>
+
+
+</BODY>
+</HTML>
+</DOC>

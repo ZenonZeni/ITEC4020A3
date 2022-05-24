@@ -1,0 +1,216 @@
+
+<DOC>
+<DOCNO>WT01-B03-121</DOCNO>
+<DOCOLDNO>IA097-001038-B030-228</DOCOLDNO>
+<DOCHDR>
+http://www.fintrend.com:80/subscription.htm 206.205.42.66 19970215062629 text/html 7388
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 06:26:52 GMT
+Server: Apache/1.0.5
+Content-type: text/html
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>FTF Subscription Form Page</title>
+<meta name="FORMATTER" content="Microsoft FrontPage 2.0">
+</head>
+
+<body background="images/paper13l.gif" bgcolor="#C0C0C0"
+text="#000080" stylesrc="_private/style.htm">
+<!--webbot bot="Include" u-include="_private/logo.htm"
+tag="BODY" startspan -->
+
+<p align="center"><img src="images/FTFlogo.gif" width="414"
+height="100"></p>
+<!--webbot bot="Include" endspan i-checksum="19550" -->
+
+<h1>Subscriptions</h1>
+
+<p>Please fill out the following form to subscribe or to request
+more information.</p>
+
+<p>You may also contact us by these other methods:</p>
+
+<table border="1">
+    <tr>
+        <td width="25%"><strong>Telephone</strong></td>
+        <td width="25%">804-929-6732</td>
+    </tr>
+    <tr>
+        <td width="25%"><strong>FAX</strong></td>
+        <td width="25%">804-929-6732</td>
+    </tr>
+    <tr>
+        <td width="25%"><strong>Mail</strong></td>
+        <td width="25%">P.O. Box 273, Monroe, VA 24574, USA</td>
+    </tr>
+    <tr>
+        <td width="25%"><em><strong>e-mail</strong></em></td>
+        <td width="25%"><a href="mailto:FinTrend@aol.com"><!--webbot
+        bot="Substitution" s-variable="companyemail" startspan
+        -->FinTrend@aol.com<!--webbot bot="Substitution" endspan
+        i-checksum="52814" --></a></td>
+    </tr>
+</table>
+<!--webbot bot="GeneratedScript" preview=" " startspan --><script
+language="JavaScript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+
+  if (theForm.UserName.value == "")
+  {
+    alert("Please enter a value for the \"UserName\" field.");
+    theForm.UserName.focus();
+    return (false);
+  }
+
+  if (theForm.UserName.value.length > 256)
+  {
+    alert("Please enter at most 256 characters in the \"UserName\" field.");
+    theForm.UserName.focus();
+    return (false);
+  }
+
+  if (theForm.UserEmail.value == "")
+  {
+    alert("Please enter a value for the \"UserEmail\" field.");
+    theForm.UserEmail.focus();
+    return (false);
+  }
+
+  if (theForm.UserEmail.value.length > 256)
+  {
+    alert("Please enter at most 256 characters in the \"UserEmail\" field.");
+    theForm.UserEmail.focus();
+    return (false);
+  }
+
+  if (theForm.CreditCard.value.length > 256)
+  {
+    alert("Please enter at most 256 characters in the \"CreditCard\" field.");
+    theForm.CreditCard.focus();
+    return (false);
+  }
+
+  var checkOK = "0123456789-";
+  var checkStr = theForm.CreditCard.value;
+  var allValid = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the \"CreditCard\" field.");
+    theForm.CreditCard.focus();
+    return (false);
+  }
+  return (true);
+}
+//--></script><!--webbot bot="GeneratedScript" endspan -->
+<form action="mailto:FinTrend@aol.com" method="POST"
+onsubmit="return FrontPage_Form1_Validator(this)"
+name="FrontPage_Form1">
+    <h2>Subscriber Information</h2>
+    <blockquote>
+        <pre><em>   Name </em><!--webbot bot="Validation"
+s-data-type="String" b-value-required="TRUE"
+i-maximum-length="256" --><input type="text" size="35"
+maxlength="256" name="UserName"></pre>
+    </blockquote>
+    <blockquote>
+        <pre><em>Address</em> <input type="text" size="20"
+maxlength="256" name="Address"></pre>
+        <pre><em>   City</em> <input type="text" size="20"
+maxlength="256" name="City"> <em>State/Province</em> <input type="text"
+size="20" maxlength="256" name="State"></pre>
+    </blockquote>
+    <pre><em>  Postal Code </em><input type="text" size="20"
+maxlength="256" name="PostalCode"><em> Country </em><input type="text"
+size="20" maxlength="256" name="Country"></pre>
+    <pre>    Telephone <input type="text" size="20" maxlength="256"
+name="UserTel"> e-mail <!--webbot bot="Validation"
+b-value-required="TRUE" i-maximum-length="256" --><input
+type="text" size="35" maxlength="256" name="UserEmail"></pre>
+    <pre>  Credit Card <!--webbot bot="Validation" s-data-type="Integer"
+s-number-separators="x" i-maximum-length="256" --><input
+type="text" size="30" maxlength="256" name="CreditCard"> Expiration Date <input
+type="text" size="20" maxlength="256" name="ExpirationDate"></pre>
+    <blockquote>
+        <pre>Please check one of the following:&nbsp; </pre>
+        <table border="0" cellspacing="5">
+            <tr>
+                <td width="50%"><input type="checkbox"
+                name="MoreInfo" value="ON"> Please send me more
+                information.</td>
+                <td width="50%"><input type="checkbox"
+                name="OneYearPaper" value="ON"> One Year Paper
+                Subscription $69</td>
+            </tr>
+            <tr>
+                <td width="50%"><input type="checkbox"
+                name="trial" value="ON">3 Month Online
+                Subscription $16</td>
+                <td width="50%"><input type="checkbox"
+                name="TwoYearPaper" value="ON"> Two Year Paper
+                Subscription $129</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Year" value="ON">6
+                Month Online Subscription at $30</td>
+                <td><input type="checkbox" name="ThreeYearPaper"
+                value="ON"> Three Year Paper Subscription $199</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="year2"
+                value="ON">1 Year Online Subscription $59</td>
+                <td><input type="checkbox" name="TrialPaper"
+                value="ON"> 6 Month Paper Subscription $30</td>
+            </tr>
+        </table>
+    </blockquote>
+    <p>&nbsp;</p>
+    <p><input type="submit" name="Submit" value="Submit Form"> <input
+    type="reset" value="Reset Form"> </p>
+</form>
+<!--webbot bot="Include" tag="BODY"
+u-include="_private/navbar.htm" startspan -->
+
+<p align="center">[ <a href="index.htm">HOME</a> | <a
+href="cpi-u/cpi-u.htm">CPI-U</a> | <a href="Charts/charts.htm">CHARTS</a>
+| <a href="Newsletters/newsltr.htm">NEWSLETTERS</a> | <a
+href="FTF_TOC.htm">TOC</a> ]<br>
+[ <a href="ftfsearch.htm">SEARCH</a> | <a href="ftforder.htm">SUBSCRIPTIONS</a>
+|<a href="feedback.htm"> FEEDBACK</a> ]</p>
+<!--webbot bot="Include" endspan i-checksum="52355" -->
+
+<address>
+    Send questions or comments to <a
+    href="mailto:FinTrend@aol.com"><!--webbot bot="Substitution"
+    s-variable="companyemail" startspan -->FinTrend@aol.com<!--webbot
+    bot="Substitution" endspan i-checksum="52814" --></a><br>
+    Copyright © 1996 Bonanza Press. All rights reserved.<br>
+    Last updated <!--webbot bot="TimeStamp" s-type="EDITED"
+    s-format="%B %d, %Y" startspan -->November 07, 1996<!--webbot
+    bot="TimeStamp" endspan i-checksum="41294" -->. 
+</address>
+</body>
+</html>
+</DOC>

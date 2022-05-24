@@ -1,0 +1,142 @@
+
+<DOC>
+<DOCNO>WT01-B10-161</DOCNO>
+<DOCOLDNO>IA074-000488-B041-321</DOCOLDNO>
+<DOCHDR>
+http://www.primehealth.co.uk:80/quote.htm 194.72.154.168 19970209015243 text/html 2451
+HTTP/1.0 200 OK
+Date: Sun, 09 Feb 1997 01:52:54 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Set-Cookie: Apache=widener4329855453174475; path=/
+Content-length: 2228
+Last-modified: Wed, 14 Aug 1996 16:42:52 GMT
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>Prime Health</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<!--
+COPYRIGHT (C) 1995 INTERACTIVE INVESTOR(TM)
+CREATED BY: BILL K.
+DATE: 01 AUGUST 1996 10:44:56 AM
+MODIFIED: CHIEF DUDE
+DATE: 08-08-96
+REASON/CHANGES: TIDYING AND EMBEDDING
+-->
+
+<CENTER>
+
+<TABLE WIDTH=95% BORDER=0>
+<TR>
+	<TD VALIGN=TOP>
+	<H2><IMG SRC="icons/quote2.gif" ALT="Premium Quotation"></H2>
+	</TD>
+
+	<TD ALIGN=RIGHT VALIGN=TOP>
+	<A HREF=""><IMG WIDTH=154 HEIGHT=44 BORDER=0 SRC="icons/prime_hth.gif"></A>
+	</TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH=95% BORDER=0 CELLSPACING=5>
+<TR>
+	<TD COLSPAN=2 VALIGN=TOP>
+	<H2>Calculate Your Premium</H2>
+	</TD>
+</TR>
+
+<FORM ACTION="/primehth-cgi/sl_primecare_calc" METHOD="POST">
+<TR>
+	<TD ALIGN=RIGHT>
+	<H3>If you are under 60 years of age:</H3>
+	Enter Your Age:
+	</TD>
+	<TD ALIGN=LEFT VALIGN=BOTTOM>
+	<SELECT NAME="Age" SIZE=1>
+	<OPTION>18-29
+	<OPTION>30-39
+	<OPTION>40-49
+	<OPTION>50-59
+	</SELECT>
+	</TD>
+</TR>
+
+<TR>
+	<TD ALIGN=RIGHT>
+	Cover Option Required:
+	</TD>
+	<TD ALIGN=LEFT>
+	<SELECT NAME="Covertype" SIZE=1>
+	<OPTION>Single
+	<OPTION>Single Parent Family
+	<OPTION>Married
+	<OPTION>Family
+	</SELECT>
+	</TD>
+</TR>
+<TR>
+	<TD>
+	<BR>
+	</TD>
+	<TD ALIGN=LEFT>
+	<INPUT TYPE=SUBMIT NAME="Submit" VALUE="Calculate Premium">
+	</TD>
+</TR>
+</FORM>
+
+<FORM ACTION="/primehth-cgi/sl_primecare_calc" METHOD="POST">
+<TR>
+	<TD ALIGN=RIGHT>
+	<H3>If you are over 60 years of age:</H3>
+	Enter Your Age:
+	</TD>
+	<TD ALIGN=LEFT VALIGN=BOTTOM>
+	<SELECT NAME="Age" SIZE=1>
+	<OPTION>60-64
+	<OPTION>65-69
+	<OPTION>70-74
+	</SELECT>
+	</TD>
+</TR>
+
+<TR>
+	<TD ALIGN=RIGHT>
+	Cover Option Required:
+	</TD>
+	<TD ALIGN=LEFT>
+	<SELECT NAME="Covertype" SIZE=1>
+	<OPTION>Single
+	<OPTION>Married
+	</SELECT>
+	</TD>
+</TR>
+<TR>
+	<TD>
+	<BR>
+	</TD>
+	<TD ALIGN=LEFT>
+	<INPUT TYPE=SUBMIT NAME="Submit" VALUE="Calculate Premium">
+	</TD>
+</TR>
+</FORM>
+</TABLE>
+
+<P>
+
+<A HREF="maps/primehealth.map"><IMG SRC="icons/navbar.gif" BORDER=0 ISMAP></A>
+<P>
+<FONT SIZE=1>
+<A HREF="">Prime Health Home</A> |
+<A HREF="about.htm">About Prime Health</A> |
+<A HREF="primecare.htm">Prime Care</A> |
+<A HREF="quote.htm">Premium Quotation</A> |
+<A HREF="savings.htm">Savings &amp; Discounts</A> |
+<A HREF="apply.htm">Apply Now</A>
+</FONT>
+</CENTER>
+
+</BODY>
+</HTML>
+</DOC>

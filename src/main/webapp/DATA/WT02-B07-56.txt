@@ -1,0 +1,254 @@
+
+<DOC>
+<DOCNO>WT02-B07-56</DOCNO>
+<DOCOLDNO>IA096-001029-B018-96</DOCOLDNO>
+<DOCHDR>
+http://www.cdt.org:80/crypto/12_5_95.nisttest.html 205.177.10.31 19970215020333 text/html 24148
+HTTP/1.0 200 OK
+Date: Sat, 15 Feb 1997 02:02:13 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+</DOCHDR>
+<html>
+<head>
+<title>CDT Testimony at Dec 5, 1995 NIST Crypto Meeting</title>
+</head>
+<body>
+<p>
+<h2><center>Testimony of Daniel J. Weitzner, Deputy Director
+<p>
+on behalf of the
+<p>
+Center for Democracy and Technology
+<p>
+on
+<p>
+NIST's Proposed Key Escrow Export Criteria and<br>
+the Search for a National Cryptography Policy
+<p>
+<p>
+December 5, 1995
+<p>
+National Institute of Standards and Technology<br>
+Gaithersburg, MD</center></h2>
+<p>
+<p>
+<h3>I. 	Introduction</h3>
+<p>
+Good afternoon, my name is Daniel Weitzner, Deputy Director of the Center for  Democracy and Technology ("CDT"). The Center is pleased to have this opportunity to  comment on the Administration's proposed private key escrow export criteria. CDT is  an independent, non-profit public interest policy organization in Washington, D.C. The Center's mission is to develop and implement public policies to protect and advance  individual liberty and democratic values in new digital communications media. The  Center achieves its goals through policy development, public education, and coalition  building. CDT also coordinates the Digital Privacy and Security Working Group  (DPSWG), an ad hoc coalition of more than 50 computer, communications, and public interest organizations and associations working on communications privacy issues. In the past, members of the Working Group have strongly opposed the Administration's Clipper Chip proposal and have worked on the Digital Telephony bill passed into law last fall.
+<p>
+CDT is pleased to be here again as part of the Administration's continuing 
+efforts to engage industry and the public in a discussion of U.S. cryptography policy.   We are particularly concerned that the voice of Internet users be heard in this forum.  Unfortunately, today we must once again deliver the same message that civil liberties organizations, industry groups, and the cryptography user community have been repeating with increasing urgency over the last several years: this is the wrong approach to cryptography policy.  A cryptography policy based upon a narrow national security perspective that ignores the security needs of individual users is unlikely to form the sound basis for a secure worldwide communications infrastructure.  A cryptography policy without explicit privacy protections will never gain the trust of users 
+or be embraced by the international marketplace.
+<p>
+	CDT believes that the Administration's proposal fails to meet the needs of the  user community.   Our chief concern is that the Global Information Infrastructure (GII) be a safe and secure place for those who use it. The Administration's proposal will not give users the security and privacy they need, and will keep the market from giving it to them as well. The NIST proposal will not provide adequate security, promote secure communications worldwide, or guarantee user privacy: 
+<p>
+<ul><li><b>Inadequate security in the near-term -- </b>Does not provide any short-term  liberalization of the insecure 40-bit key length limits on exports.<p>
+<li><b>No viable policy framework for the long-term -- </b>Limits exportable key escrow systems to 64-bit keys lengths that many anticipate will soon be vulnerable;  has little to offer in a market where 56-bit non-escrow products are readily available.<p>
+<li><b>Hinders the deployment of globally interoperable secure systems --</b> Delays the development of standards for secure communications due to its strict interoperability requirements.<p>
+<li><b>Not necessarily voluntary  -- </b>In practice, could act to coerce both the domestic and international markets for cryptography.<p>
+<li><b>Not viable in the marketplace -- </b>Given that overseas users are unlikely to adopt its restrictions when strong, non-escrowed foreign cryptography products are readily available.<p>
+<li><b>No constitutional privacy protections --</b> Provides no standards for the release of escrowed keys, for certifying key agents, or for liability for the improper release of keys.<p>
+<li><b>Will not meet the needs of law enforcement --</b> Will not deny criminals or terrorists access to strong encryption, the stated objective of the policy.
+</ul><p>
+The firestorm of protest that greeted the introduction of the Clipper Chip 
+proposal suggests the pitfalls of a policy approach driven largely by national security and law enforcement concerns. The latest NIST criteria continue to make policy within this narrow framework. The failure of this approach suggests that a broader view is appropriate. Forty participants in CDT's Digital Privacy and Security Working Group (DPSWG) have written to Vice President Gore protesting this latest cryptography initiative and committing to a six month collective policy development process, aimed at framing a more comprehensive cryptography policy that better recognizes the 
+realities of the global marketplace and the privacy concerns of users. We look forward to working with the Administration in this process over the coming months.
+<p>
+<p>
+<h3>II.	Users Urgently Need Security, Privacy, and a More Comprehensive Approach to Cryptography Policy</h3>
+<p>
+A secure, private, and trusted Global Information Infrastructure (GII) is essential to promote economic growth and meet the needs of Information Age society.  Developing that secure and trusted GII will require strong, flexible, widely-available cryptography. Individuals need to have confidence in the GII if they are to realize its full democratic potential for promoting free association and personal communications. 
+<p>
+Competitive businesses need to protect proprietary information as it flows across insecure global communications networks. To realize that democratic potential, individual users need the privacy protections that cryptography offers; to protect their proprietary communications, business users need the security only strong encryption can provide.
+<p>
+In recent months, however, the public has been made increasingly aware of the dangers of computer crime and the vulnerability of current cryptography 
+implementations. Rapid advances in the speed and sophistication of hardware and software have already laid siege to the 40-bit key systems currently approved for export, as well as the popular 56-bit DES algorithm. If we are to maintain the trust of the public and realize the full potential of the GII, a more comprehensive long-term approach to cryptography is needed -- one which particularly reflects the impact of technological change, of a global economy,  and of the increasingly important information infrastructure.
+<p>
+The GII will simply not continue to develop without such a global approach to cryptography. The lack of any international standard for strong cryptography has already hindered the deployment of highly secure systems worldwide. Moreover, national and regional governments are increasingly considering regulations on the use of cryptography, just as the Council of Europe recently did.  Such actions threaten to create a patchwork of international regulations which would hinder the deployment 
+of secure global communications and leave users without the security and privacy they need.
+<p>
+In this context, the sole focus on national security needs embodied in the 
+Administration's cryptography proposal is unlikely to meet the needs of GII users.  By maintaining the 40-bit key length restrictions on exports, it leaves users hamstrung with insecure systems. By proposing unattractive interoperability restrictions and minimal privacy protections for key escrow systems, it discourages the deployment of secure systems in U.S. products. Rather than being seamlessly incorporated into popular products, secure communications will remain out of reach for less sophisticated GII users. The resulting loss of security can be expected to have a chilling effect on the development of electronic commerce and the information infrastructure as the privacy and security needs of users are not met.
+<p>
+<p>
+<h3>III.	The NIST Criteria Have Been Widely Criticized by Industry, Public  Interest Groups, and the User Community For Not Meeting GII 
+Security and Privacy Demands</h3>
+<p>
+The vast majority of individuals and organizations who have expressed an 
+opinion on the recent Administration initiative have been overwhelmingly dissatisfied with the proposal.  The NIST criteria have met with increasing criticism concerning security, privacy, technical feasibility, and marketplace viability.  In a series of letters this fall, individual companies, trade associations, and citizens groups, from an array of industries and across the political spectrum, have expressed their concern that the Administration's proposal will not meet the needs of GII users.  Some of the public 
+interest groups critical of the NIST criteria include --  
+<p><ul>
+<li>Conservative and taxpayer reform groups, including Americans for Tax Reform and officials from the Cato Institute, the Institute for Justice, the NRA, and Reason magazine -- "The Administration's approach is the wrong policy for  today's marketplace. . . . It's anti-consumer", "anti-marketplace", "anti-American business", and "anti-progress." (Ad Hoc Taxpayer Coalition for Computer Privacy Letter to House Speaker Gingrich, Nov. 8, 1995)
+<p>
+<li>American Civil Liberties Union -- "The Administration should abandon its fruitless and unconstitutional efforts to control the export of encryption 
+technology." (ACLU's Position on the Administration's Current Key Escrow 
+Proposal, Oct. 4, 1995 Cyber_Liberties Alert)
+<p>
+<li>The Electronic Frontier Foundation, Electronic Privacy Information Center, and Voters Telecommunications Watch -- All have issued online statements critical of the NIST criteria.
+</ul>
+<p>
+The NIST criteria have also been criticized by industry trade associations 
+representing  dozens of companies directly involved in providing the goods and services that form the basis for the GII.  Some of the organizations expressing their concern that the criteria will not allow them to meet the needs of GII users include-- 
+<P>
+<ul>
+<li><b>Business Software Alliance --</b> "After careful and serious deliberation by our members, we have concluded that the Administration's approach is fatally flawed and cannot be the basis for progress in this area." (BSA Letter to Vice President Gore, Nov. 9, 1995)
+<p>
+<li><b>Software Publisher's Association -- </b>"There are severe and fundamental flaws in the criteria proposed for exportable key escrow systems." (SPA Letter to Vice President Gore, Sept. 26, 1995)
+<p>
+<li><b>Information Technology Industry Council --</b> "ITI believes the proposal does not adequately meet the needs of industry or users, not does it sufficiently recognize the importance of information security to economic growth and industrial society in the information age." (ITI Letter to Vice President Gore, Oct. 10, 1995)
+<p>
+<li><b>The Information Technology Association of America  --</b> "[I]ts restrictive policies on the export of encryption technology has created a major barrier to realizing the Administration's vision. . . [T]he Administration's key escrow encryption proposal .announced on August 17, 1995 has some fundamental flaws." (ITAA Letter to Vice President Gore, Sept. 27, 1995)
+</ul>
+<p>
+Finally, a broad group containing forty members of the Digital Privacy and 
+Security Working Group (DPSWG), including companies, trade associations, and public interest groups, together wrote to the Vice President:
+</ul><p>
+<li><b>Digital Privacy and Security Working Group (DPSWG) --</b> "[T]he proposed initiative is no substitute for a comprehensive national cryptography policy.  To the extent that the current policy becomes a substitute for a more comprehensive policy, the initiative actually risks hindering the development of a secure and trusted GII." (DPSWG Letter to Vice President Gore, Nov. 8, 1995) 
+</ul>
+<p>
+This letter was signed by individual companies from across several industry 
+groups, and included America Online, Apple Computer, AT&T, Dun & 
+Bradstreet, MCI, Microsoft, Oracle, Sybase, and Tandem, along with public 
+interest groups such as CDT, EFF, and the Media Institute. These DPSWG 
+members also pledged to commence "a process of collective fact-finding and 
+policy deliberation, aimed at building consensus around a more comprehensive cryptography framework." A copy of the DPSWG Letter to Vice President Gore is attached as an Appendix to this testimony.
+<p>
+<p>
+<h3>IV.	The NIST Proposal Will Not Meet the Cryptography Needs of Users,  Such as Adequate Security, Privacy, International Acceptance or 
+Voluntary Use</h3>
+<p>
+The 40 DPSWG participant companies, trade associations, and public interest 
+groups who together wrote to Vice President Gore in November also presented a set of goals for a more comprehensive cryptography policy.  These goals included:
+<p><ul>
+<li><b>Robust security:</b>  access to levels of encryption sufficient to address domestic and international security threats, especially as advances in computing power make currently deployed cryptography systems less secure.
+<p>
+<li><b>International interoperability:  </b>the ability to securely interact worldwide.
+<p>
+<li><b>Voluntary use: </b>freedom for users to choose encryption solutions, developed in the marketplace, that meet their particular needs.
+<p>
+<li><b>Acceptance by the marketplace: </b>commercial viability and ability to meet the expressed needs of cryptography users.
+<P>
+<li><b>Constitutional privacy protections:</b> safeguards to ensure basic Fourth Amendment privacy protection and regulation of searches, seizures, and interceptions.
+<p>
+<li><b>Respect for the legitimate needs of law enforcement and national security, </b>while recognizing the reality that determined criminals will have access to virtually unbreakable encryption.
+</ul>
+<p>
+Many of these organizations and companies have argued individually that various aspects of the NIST criteria do not meet these goals.  Taken together, these arguments provide a compelling critique of the Administration's cryptography policy:
+<p>
+<b>A.	The NIST criteria will not provide adequate security.</b>
+<p>
+Widely-accessible strong cryptography is the cornerstone of a secure and 
+trusted GII, and is essential to promote electronic commerce and communication.  The provisions of the Administration's proposal that impose a 64-bit key length limit for key escrow systems, and retain 40-bit key length limits for non-escrowed systems, present a real challenge to user needs for adequate security both in the short- and long-term.
+<p>
+<ul><b>The NIST proposal provides no immediate liberalization of the insecure 40-bit key length limit</b>
+<p>
+<ul>
+<li>The 40-bit key lengths widely available and exportable today have proven 
+increasingly insecure. Stories in the popular press continue to point out 
+network and application vulnerabilities.  As a result users remain distrustful, 
+hindering the development of the nascent but important economic promise 
+of the GII. Moreover, domestic hardware, software, and communications 
+companies remain hamstrung by the export criteria in the face of competing 
+foreign products that already contain the sorts of security valued in the 
+marketplace.  
+<p>
+<li>Even if the NIST criteria were to be adopted, it will take some time before the details of key escrow systems can be worked out -- including the technical 
+development of systems meeting the NIST criteria, the standards for and 
+certification of escrow agents, the adoption of privacy guidelines, and the 
+integration of such systems into widely-used software products. Individuals 
+and industry need immediate relief to allow for a much-needed upgrade of 
+security on the GII and the development of competitive products that meet 
+security needs today. As the SPA recently stated, "The key escrow policy 
+process will necessarily be protracted. Meanwhile, there remains -- more 
+strongly than it did in 1992 -- an immediate commercial need for the 
+exportability of non-escrow encryption that can complete in the global 
+marketplace. . . ." (SPA Letter to Vice President Gore, Sept. 26, 1995)
+</ul>
+<b>64-bit key escrow is not a secure long-term policy. </b>
+<p><ul>
+<li>The popular 56-bit DES algorithm has proven increasingly susceptible to 
+brute-force attack. Advances in computational power have led experts to 
+question the security of 64-bit keys beyond the near term.  As the ITAA 
+noted,  "[E]nd-users' confidence in 56-bit encryption is weakening and even 
+DES may soon be obsolete. . . . Even [decontrol of 64-bit encryption] will 
+have to be addressed again in the not too distant future given the march of 
+technology and rapid increases in computing power." (ITAA Letter to Vice 
+President Gore, Sept. 27, 1995)
+ <p>
+<li>Users are unlikely to choose 64-bit key escrow systems when non-escrow 
+56-bit DES and stronger foreign products are readily available. As SPA 
+noted in it's letter to the Vice President, "[K]ey escrow systems will simply not 
+be marketable in a world in which non-escrow encryption is widely available 
+at strengths stronger than 40 bits." (SPA Letter to Vice President Gore, Sept. 
+26, 1995)
+</ul></ul>
+<p>
+<b>B.  The NIST criteria will hinder international interoperability and the 
+development of an international cryptography standard.</b>
+<p>
+Under the NIST criteria, exportable key escrow systems would not be 
+permitted to interoperate with strong systems that do not meet the criteria. These restrictions impede international interoperability in several ways. The 
+interoperability restrictions would immediately create a barrier between those 
+who obey the criteria and those who use some other form of strong encryption.  In addition, the continuation of a U.S. export control policy similarly creates a two-tier market with a barrier between products available in the U.S. and products available outside of it. Finally, it is unlikely that foreign users will embrace the NIST criteria as a standard when there is conveniently available non-escrow encryption of similar or greater strength available. All of these, taken together, will serve to hinder the development of global standards for the use of cryptography.
+<p>
+<b>C.	The NIST criteria act to use export controls to coerce the domestic cryptography markets.</b>
+ <p>
+Interoperability restrictions and other criteria may function as an attempt 
+to use export restrictions to influence the domestic market in an effort to solve domestic law enforcement problems. Domestic users will be forced to meet the export criteria if they wish to communicate with systems outside of the U.S. that also meet the criteria. If, for example, a domestic corporation using Eudora mail software with strong encryption wanted to communicate with a foreign affiliate using the same U.S.-made software, both versions of the software would have to meet the NIST export criteria.
+<p>
+Furthermore, the desire of companies to sell product lines that 
+interoperate with each other, taken together with NIST's interoperability 
+restrictions and export limits, could work to force the adoption of a cryptography standard based on the NIST criteria. As BSA noted in its letter to the Vice President, "The Administration appears to be trying to leverage our companies' desire to export their programs in order to force those companies to include features in the programs they sell abroad and in the U.S. . . .  Thus, in the name of 'national security,' it appears that the Administration really is attempting to satisfy domestic law enforcement concerns -- without industry input, public debate, or congressional involvement." (BSA Letter to Vice President Gore, Nov. 9, 1995)
+<p>
+<b>D.  Products meeting the NIST criteria will not be viable in the 
+international marketplace.</b>
+ <p>
+The NIST criteria fail to recognize that equally secure, non-escrowed 
+foreign encryption products are readily available overseas.  Foreign products 
+are already adopting 56-bit or better encryption, without having to meet the 
+NIST requirements.  (For example, Trusted Information Systems, Inc. has 
+documented the availability of 179 foreign products incorporating the popular 
+56-bit DES.) 
+<p> 
+Moreover, international users are much more likely to adopt products 
+without the NIST criteria. Requirements such as NIST-imposed interoperability restrictions, or key escrow criteria that provide no due process and privacy guarantees, will make U.S. products less attractive than foreign products with similar or better security.
+<p>
+<b>E. 	The NIST criteria do not include any constitutional privacy 
+protections.</b>
+ <p>
+The export criteria contain no explicit provisions for constitutional  
+privacy safeguards to govern the use of key escrow systems. The criteria do 
+not offer any guidelines for obtaining escrowed keys, nor are there any 
+requirements for notifying users whose keys have been accessed. No 
+standards are presented for how key escrow agents will be "certified by the 
+government", or what redress will be available against escrow agents that 
+improperly release keys. Moreover, the criteria provide no explanation of how the standards will be applied to foreign citizens, or by foreign countries that support individual privacy in ways that may be radically different from the protections guaranteed under the U.S. Constitution.
+<p>
+<b>F.	NIST criteria may not actually promote the needs of law 
+enforcement.</b>
+ <p>
+Any system which expects to solve law enforcement problems must be 
+attractive enough to users to be adopted widely.  Interoperability restrictions, 
+weak security, and missing privacy protections make it less likely that users will adopt a U.S. key escrow system. As the ITAA also noted,  "[E]xport restrictions that do not reflect marketplace realities may drive U.S. companies to move their encryption work off shore . . . defeating the very purpose of the restrictions." (ITAA Letter to Vice President Gore, Sept. 27, 1995)
+<p>
+Moreover, the international nature of the Internet makes it virtually 
+impossible to ever guarantee that determined individuals will not have access to strong cryptography. While criminals will always have privacy, the users with insecure networks will be individuals and organizations forced to adopt the NIST criteria.
+<p>
+<p>
+<h3>IV. 	Conclusion: The Urgent Need for a More Comprehensive Approach</h3>
+<P>
+A comprehensive approach to cryptography policy -- one that provides real 
+security, is truly voluntary, contains explicit privacy protections, and is acceptable to the international market  -- is greatly needed to smooth the emergence of a secure and trusted information infrastructure. Unfortunately, the Administration's proposal does not meet this need.  This most recent NIST proposal comes at a time of great urgency in the development of electronic commerce, digital communication, and the GII.  GII users 
+are searching for tools to provide the privacy and security they need to realize the full democratic, and commercial, potential of the emerging information age society.  Last year, Vice President Gore's letter to Representative Maria Cantwell held out hope for the user community by laying out a set of guiding principles for a more comprehensive approach to national cryptography policy. Perhaps these goals can form the starting point for a renewed look at cryptography policy.  
+<p>
+In their November letter to Vice President Gore, members of the Digital Privacy and Security Working Group pledged to work together over the next six months to seek a consensus around just such a more comprehensive cryptography policy. CDT invites all who are interested to participate in this open process of collective fact-finding and policy debate over the next several months. We thank NIST for continuing this dialogue, and look forward to working with the Administration in the months ahead.
+<p>
+<p>
+<hr>
+Return to the <a href = "index.html">CDT Crypto Page</a><br>
+Return to the <a href = "../index.html">CDT Home Page</a><br>
+
+</body>
+</html>
+</DOC>

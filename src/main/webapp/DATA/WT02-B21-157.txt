@@ -1,0 +1,293 @@
+
+<DOC>
+<DOCNO>WT02-B21-157</DOCNO>
+<DOCOLDNO>IA052-000883-B027-253</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/swdesc.html 137.229.31.144 19970210140615 text/html 9465
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:06:30 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Monday, 22-Jul-96 19:23:02 GMT
+Content-length: 9285
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF/DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+<TITLE>ASF/STEP Program Reference</TITLE>
+</HEAD>
+<BODY BGCOLOR="#888888" TEXT="#00008F" LINK="#840084" VLINK="#580000"
+BACKGROUND="res/backgrounds/recycledpaper.jpg">
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> |
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> |
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> |
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> 
+<P>
+<H1>ASF/STEP Software Program Information</H1>
+The following list of programs were created at the <A
+HREF="http://www.asf.alaska.edu">Alaska SAR Facility</A> and are available
+by anonymous ftp. Programs can also be obtained from this document by
+clicking on the appropriate link in the <EM>Program Description</EM>
+section. <EM>(<B>NOTE:</B> The links point to the directory where each
+file is located. These directories may contain other programs. These
+directories will include the source code plus pre-compiled binaries for
+the supported platforms. If you are unsure of which file to download,
+please use the <A HREF="download.html">download form</A>.)</EM>
+<P>
+Any question about these programs can be sent to <A
+HREF="users/rguritz/home.html">Rick Guritz</A>, <A
+HREF="users/mike/mike.html">Mike Shindle</A>, or <A
+HREF="users/tlogan/home.html">Tom Logan</A>. 
+<P>
+<IMG width=100% SRC="res/lines/rainbowbar.gif" ALT="-----------">
+<CENTER>
+<H2>Program List</H2>
+<TABLE COLSPEC="C12 C12">
+<tr>
+<td>
+<UL>
+<LI><A HREF="#accum">accum_offset</A>
+<LI><A HREF="#asm">auto_sar_mosaic</A>
+<LI><A HREF="#asw">auto_swath_mosaic</A>
+<LI><A HREF="#cal">calibrate</A>
+<LI><A HREF="#concat">concat</A>
+<LI><A HREF="#concatm">concatm</A>
+<LI><A HREF="#dspddr">dspddr</A>
+<LI><A HREF="#dump">dump_multi_volume</A>
+<LI><A HREF="#geom1p">geom1p</A>
+<LI><A HREF="#gps_vector">gps_vector</A>
+<LI><A HREF="#lib">libraries</A>
+<LI><A HREF="#metadata">metadata</A>
+</UL>
+</td>
+<td>
+<UL>
+<LI><A HREF="#orb_pred">orb_pred</A>
+<LI><A HREF="#polyfit">polyfit</A>
+<LI><A HREF="#prereg">prereg</A>
+<LI><A HREF="#projprm">projprm</A>
+<LI><A HREF="#resamp">resample</A>
+<LI><A HREF="#sarauto">sarautoreg</A>
+<LI><A HREF="#sargeo">sargeoin</A>
+<LI><A HREF="#sarin">sarin</A>
+<LI><A HREF="#sartps">sartpsgrid</A>
+<LI><A HREF="#tie">tiemerge</A>
+<LI><A HREF="#trancoord">trancoord</A>
+<LI><A HREF="#twoway">twoway</A>
+</UL>
+</td>
+</tr>
+</OL>
+</TABLE>
+</CENTER>
+<P>
+<IMG width=100% SRC="res/lines/rainbowbar.gif" ALT="-----------">
+<CENTER>
+<H2>Program Description</H2>
+</CENTER>
+<DL>
+<DT>
+<A NAME="accum"></A><A
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/accum_image_offset">
+accum_offset</A>
+<DD>
+Determine line and sample difference of a sequence of images relative to
+the first image.
+<P>
+
+<DT>
+<A NAME="asm"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/large_scale_mosaic">
+auto_sar_mosaic</A>
+<DD>Automatic large scale mosaicking.<P>
+<DT>
+<A NAME="asw"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/along_track_mosaic">
+auto_swath_mosaic</A>
+<DD>
+Automatic mosaicking along satellite flight path.
+<P>
+
+<DT>
+<A NAME="cal"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/radiometric_calibration">
+calibrate</A>
+<DD>
+Performs radiometric calibration on ASF type 100, 200, 300, or 400 SAR
+images.  Modified previous calibrate to work for geocoded images.
+<P>
+
+<DT>
+<A NAME="concat"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/concat_image">concat</A>
+<DD>
+Concatenates LAS 6.0 images into a single file, while retaining valid DDR
+information.  Will only work for images with valid DDR geographic
+information (geocoded).  Converted from a LAS routine.
+<P>
+
+<DT>
+<A NAME="concatm"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/concat_image">concatm</A>
+<DD>
+Concatenates LAS 6.0 images into a single file based upon user input. User
+must specify dimensions of final image plus placement of individual images
+into final image. Converted from a LAS routine.
+<P>
+
+<DT><A NAME="dspddr"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/display_ddr">dspddr</A>
+<DD>
+Display all information located in the DDR (.ddr) file.
+<P>
+
+<DT>
+<A NAME="dump"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/general_tape_reader">
+dump_multi_volume</A>
+<DD>
+Reads ASF ground station product tapes and stages the files to disk.
+<P>
+
+<DT><A NAME="geom1p"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">geom1p</A>
+<DD>
+Performs geometric rectification of an image as specified by an input
+mapping grid.
+<P>
+
+<DT>
+<A NAME="gps_vector"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">gps_vector</A>
+<DD>
+Creates a LAS 6.0 byte image of either ice-motion vectors or grids. An
+image can be resampled and/or have the vectors enlarged. Also, a mean vector
+(either calculated or supplied) can be subtracted from each vector.
+<P>
+
+<DT><A NAME="lib"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/libraries">libraries</A>
+<DD>
+Subroutines, functions, and header files common to the ASF/STEP programs
+can be found in one of these libraries. The libraries are: 
+<UL>
+<LI><A HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/libraries/asf_geolib.src.tar.Z">asf_geolib</A>
+<LI><A HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/libraries/asf_inc.src.tar.Z">asf_inc</A>
+<LI><A HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/libraries/asf_las.src.tar.Z">asf_las</A>
+<LI><A HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/libraries/asf_lt.src.tar.Z">asf_lt</A>
+<LI><A HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/libraries/asf_sar.src.tar.Z">asf_sar</A>
+<LI><A HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/libraries/asf_tm.src.tar.Z">asf_tm</A>
+</UL>
+<P>
+
+<DT><A NAME="metadata"></A><A
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/ceos_metadata">
+metadata</A>
+<DD>Displays specified metadata record for an image. This function replaces
+the get_facdr_data and get_mpdrec_data programs.
+<P>
+
+<DT><A NAME="orb_pred"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/orbit_prediction">
+orb_pred</A>
+<DD>
+Determine orbit revolution values for a specific orbit phase by inputting
+ground coordinates.
+<P>
+
+<DT><A NAME="polyfit"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">polyfit</A>
+<DD>
+Creates a geometric mapping grid file from a file of tie point locations.
+<P>
+
+<DT><A NAME="prereg"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">prereg</A>
+<DD>
+Preregister a SAR image for terrain correction.
+<P>
+
+<DT><A NAME="projprm"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">projprm</A>
+<DD>
+Creates a proection parameter table file.
+<P>
+
+<DT><A NAME="resamp"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/resample">resample</A>
+<DD>
+Resamples the input image to the desired output resolution. Can read
+original SAR images or LAS 6.0 format images as input.  Images are
+downsized and low-pass filtered to keep as much original information as
+possible.  Converted from a LAS routine.
+<P>
+
+<DT><A NAME="sarauto"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/auto_geocode">
+sarautoreg</A>
+<DD>
+Automatically geocodes either high or low resolution SAR files.
+<P>
+
+<DT><A NAME="sargeo"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">sargeoin</A>
+<DD>
+Converts geocoded SAR images (.dat files) to LAS 6.0 images. Retains
+geographic information from SAR metadata files in the output DDR file. 
+Converted from a LAS routine.
+<P>
+
+<DT><A NAME="sarin"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">sarin</A>
+<DD>
+Converts any of the basic types of ASF SAR images to LAS images.  These
+include type 100, 200, 300, and 400 SAR images.  If the image is geocoded
+(type 300 or 400) the map projection data record is interrogated to
+produce a valid geographic location f or the image in its DDR file.
+Converted from a LAS routine.
+<P>
+
+<DT><A NAME="sartps"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">sartpsgrid</A>
+<DD>
+Creates a search and reference tie point select file for a grid of points
+within a user specified SAR image. Converted from a LAS routine. Used in
+automatic geocoding.
+<P>
+
+<DT><A NAME="tie"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">tiemerge</A>
+<DD>
+Merges two input tie point select files into a single tie point file and a
+tie point location file for use in the modelling process. Used in
+automatic geocoding.<P>
+
+<DT><A NAME="trancoord"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/misc">trancoord</A>
+<DD>
+Converts points found in the tie point select file from its original
+projection to a new projection. Used in automatic geocoding.
+<P>
+
+<DT><A NAME="twoway"></A><A 
+HREF="ftp://sparc1k.images.alaska.edu/pub/ucsl/local/image_to_geo_coord">
+twoway</A>
+<DD>
+Converts image coordinates to/from geographic coordinates.
+<P>
+
+</DL>
+</BODY>
+<ADDRESS>
+<HR>
+Last Updated: July 22, 1996<BR>
+Last Updated By: <A HREF="users/mike/mike.html">Michael Shindle</A><BR>
+If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="comments.html">comment</A>.
+<P>
+</ADDRESS>
+</HTML>
+
+</DOC>

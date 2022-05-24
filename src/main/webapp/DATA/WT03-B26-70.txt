@@ -1,0 +1,160 @@
+
+<DOC>
+<DOCNO>WT03-B26-70</DOCNO>
+<DOCOLDNO>IA029-000311-B020-369</DOCOLDNO>
+<DOCHDR>
+http://gaia.cossa.csiro.au:80/eoc/brdf4.htm 138.44.40.1 19970114165231 text/html 8952
+HTTP/1.0 200 Document follows
+Date: Tue, 14 Jan 1997 16:50:40 GMT
+Server: NCSA/1.5
+Content-type: text/html
+Last-modified: Fri, 17 May 1996 06:09:08 GMT
+Content-length: 8778
+</DOCHDR>
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H2>Image Brightness &amp; BRDF Workshop Issues<BR>
+<HR></H2>
+<H4>3. TYPOLOGY OF APPROACHES</H4>
+The general approach to image brightness is to 'correct' it in some way.
+Correction means changing a pixel spectrum so that it is what would have
+been measured if the sun and sensor geometry were a fixed standard pair
+rather than a varying pair of angles over the image extent. As discussed
+later, this action may be valid as an average over a spatial area but can
+be a difficult concept at the scale of a single tree crown or soil clump.<BR>
+We will outline three main approaches to scene brightness modelling and
+'correction'. They are the empirical methods, the measurement modelling
+methods and the semi-empirical methods. 
+<H4>3.1 Empirical Methods</H4>
+Empirical methods involve fitting the variation in general brightness ascribed
+to the atmosphere and BRDF effects by a parametric function (using least
+squares or some other criterion) and then normalising by some combination
+of additive and multiplicative image transformation. The simplest methods
+involve fitting polynomials to average variations over scanlines or frames
+and subtracting or dividing out the general level to 'flatten' the data.
+These methods are well known and have been used with single frame photographs
+or scanner runs prior to other image processing operations.<BR>
+<BR>
+For mosaics, brightness normalisation has a strict analogy with geometric
+mosiacking where images are geometrically matched to the ground by ground
+control points (ie GCPs) and to other images by tie points. At tie points,
+in geometric mosaicking, the constraint is that the same feature must be
+located at the same point in the geometric frame model. In the same way,
+in brightness normalisation, there may be targets in some frames of known
+reflectance. These are sometimes called 'invariant targets'. When their
+reflectance is only assumed from previous work they are sometimes called
+'pseudo-invariant' targets. These are analogous to GCPs. In the overlap
+between frames, the analogy to tie points are patches or features that are
+assumed to have the same corrected spectra. For a given functional form
+of brightness model, the estimation reduces to a linear 'bundle adjustment'.<BR>
+<BR>
+The greatest problems with the simple empirical approach are image variance
+and heterogeneity. It is often extremely difficult to determine which components
+of the variation are atmospheric or BRDF brightening and which are differences
+in surface type. The high image spatial variance that is most obvious in
+high resolution images also makes fitting functions very difficult. Another
+problem is to decide which effects are additive and which are multiplicative.
+As long as the variation is not too great, the additive approximation is
+not too bad but when raw uncalibrated data are used, the interaction between
+additive and multiplicative effects can be a problem.<BR>
+<BR>
+For example, calibration and atmospheric correction are linear effects but
+the atmospheric terms are angle dependent and vary with incident (<IMG SRC=
+"symbols/sym1.gif" WIDTH="15" HEIGHT="11" ALIGN=middle NATURALSIZEFLAG=
+"3">) and view (<IMG SRC="symbols/sym2.gif" WIDTH="13" HEIGHT="9" ALIGN=
+bottom NATURALSIZEFLAG="3">) directions. That is, even if the surface were
+lambertian (with a flat BRDF) the digital data recorded by a scanner in
+waveband j (<IMG SRC="symbols/sym11.gif" WIDTH="13" HEIGHT="12" ALIGN=middle
+NATURALSIZEFLAG="3">) will be related to the reflectance (<IMG SRC="symbols/sym9.gif"
+WIDTH="14" HEIGHT="14" ALIGN=middle NATURALSIZEFLAG="3">) by:
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE><IMG SRC="symbols/sym3.gif" WIDTH="189" HEIGHT="55" ALIGN=bottom
+NATURALSIZEFLAG="3"><BR>
+hence:<BR>
+<IMG SRC="symbols/sym4.gif" WIDTH="168" HEIGHT="35" ALIGN=bottom NATURALSIZEFLAG=
+"3"></BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+where 
+<BLOCKQUOTE><IMG SRC="symbols/sym5.gif" WIDTH="11" HEIGHT="14" ALIGN=bottom
+NATURALSIZEFLAG="3">is the radiance recorded in waveband j;<BR>
+<IMG SRC="symbols/sym6.gif" WIDTH="14" HEIGHT="12" ALIGN=middle NATURALSIZEFLAG=
+"3">is the sun or 'incident' radiation direction;<BR>
+<IMG SRC="symbols/sym7.gif" WIDTH="13" HEIGHT="16" ALIGN=middle NATURALSIZEFLAG=
+"3">is the total irradiance at the target; and<BR>
+<IMG SRC="symbols/sym8.gif" WIDTH="13" HEIGHT="16" ALIGN=middle NATURALSIZEFLAG=
+"3">is the radiation scattered into the sensor from the atmosphere.</BLOCKQUOTE>
+The brightness variation described here (which has no surface BRDF effect
+in that <IMG SRC="symbols/sym9.gif" WIDTH="14" HEIGHT="14" ALIGN=middle
+NATURALSIZEFLAG="3">is not dependent on sun or view angles) obviously has
+both additive and multiplicative terms which are complex functions of the
+incident and view angles. When the surface target itself has a strong BRDF
+effect the variability will compound.<BR>
+In the face of this, the empirical methods are generally constrained to
+be of low order functional forms that still have the structure of the variation
+being fitted. In this way, it is hoped that variance and image heterogeneity
+are 'orthogonal' to the function being fitted. In addition, the fitting
+is best done in the physical framework of the brightness variation - that
+is in terms of the phase angles between sun and sensor view angle and between
+sensor view angle and the specular vector. There have been many functions
+of this type developed such as Walthall, Hapke, Roujean and others. These
+will be addressed below in the section of semi-empirical methods.<BR>
+For the purely empirical approach and for small frames such as occur with
+aerial photography and video data (or even single scanner runs) the main
+problem is scene heterogeneity. There will be scene variations that occur
+at spatial scales near to or greater than the image and it is very difficult
+to separate these effects from atmospheric and broad BRDF effects. To illustrate
+this you can consider an image to be roughly approximated by:<BR>
+<P><CENTER><IMG SRC="symbols/sym10.gif" WIDTH="103" HEIGHT="32" ALIGN=bottom
+NATURALSIZEFLAG="3"></CENTER>
+<P>where <IMG SRC="symbols/sym14.gif" WIDTH="12" HEIGHT="12" ALIGN=middle
+NATURALSIZEFLAG="3">is the high spatial frequency component, <IMG SRC="symbols/sym12.gif"
+WIDTH="12" HEIGHT="13" ALIGN=bottom NATURALSIZEFLAG="3">is the low frequency
+component and <IMG SRC="symbols/sym13.gif" WIDTH="11" HEIGHT="13" ALIGN=
+middle NATURALSIZEFLAG="3">is the angular brightness variation. In many
+images, over the extent of a single frame, the low frequency and angular
+components are not in any way orthogonal. Hence it is near impossible to
+estimate the angular function from the single frame data. Moving to models
+based on view geometry and semi-empirical functions can help (Pickup et
+al., 1995) but essentially some way to bring in the wider spatial context
+is needed.<BR>
+<BR>
+Among empirical methods are also 'referencing' methods. In the case of image
+digitising, a reference approach is to scan an image and scan a reference
+(white lambertian) standard sheet with the same illumination. The image
+is then 'normalised' by subtracting or dividing the reference from the image
+to remove lighting based view angle effects. In reconnaissance image data
+this is not possible unless a large reference target were to exist and scene
+BRDF effects would still remain. <BR>
+<BR>
+Hick and Ong (Ong et al., 1995) have used a referencing method to extract
+brightness variations from video frames by referencing against the background
+of a Landsat TM image. It may be possible to fit empirical functions to
+the residual between the individual frame and the reference image. In this
+way, the problem of heterogeneity and correlated spatial frequencies described
+above could be reduced significantly.<BR>
+<BR>
+It is worth mentioning here that as soon as the empirical methods extend
+from simple functional forms to ones involving image and sun geometry, the
+processing methods start to become more costly. The cost is in extra work
+registering images and/or in extra costs associated with collecting attitude
+and position (eg INS and GPS) information for the platform. If it is worth
+this extra cost then it may be worth some extra modelling as discussed below.
+<BR>
+<BR>
+<HR><A HREF="brdf1.htm"><IMG SRC="../gifs/contents.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="brdf3.htm"><IMG SRC=
+"../gifs/previous.gif" WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG=
+"3"></A><A HREF="brdf5.htm"><IMG SRC="../gifs/next.gif" WIDTH="150" HEIGHT=
+"36" ALIGN=bottom NATURALSIZEFLAG="3"></A><A HREF="eoc.htm"><IMG SRC="../gifs/eochome.gif"
+WIDTH="150" HEIGHT="36" ALIGN=bottom NATURALSIZEFLAG="3"></A><HR><BR>
+</BODY>
+</HTML>
+</DOC>

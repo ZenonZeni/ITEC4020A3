@@ -1,0 +1,129 @@
+
+<DOC>
+<DOCNO>WT01-B12-123</DOCNO>
+<DOCOLDNO>IA018-000194-B037-210</DOCOLDNO>
+<DOCHDR>
+http://www.kemper.com:80/lite/learn/introduce.html 198.152.185.42 19970106160659 text/html 3509
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.1
+Date: Monday, 06-Jan-97 16:03:01 GMT
+Last-modified: Thursday, 22-Aug-96 03:54:36 GMT
+Content-length: 3325
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>May We Introduce You?</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<IMG ALIGN=LEFT SRC="../gifs/headers/date_hd.gif" ALT="Kemper.com">
+<IMG ALIGN=LEFT SRC="../gifs/headers/search_spacer_hd.gif">
+<A HREF="../search.html"><IMG ALIGN=LEFT BORDER=0 SRC="../gifs/headers/search_hd.gif" ALT="Search"></A>
+
+<IMG ALIGN=RIGHT SRC="gifs/headers/introduce_wht_hd.gif" 
+ALT="May We Introduce You">
+<IMG ALIGN=RIGHT SRC="gifs/headers/slash_gry_hd.gif" ALT="/">
+<A HREF="learn.html">
+<IMG ALIGN=RIGHT BORDER=0 SRC="gifs/headers/learn_gry_hd.gif" 
+ALT="To Learn More"></A>
+
+<BR CLEAR=ALL>
+<HR>
+<NOBR>
+<A HREF="../prospectus.html"><IMG SRC="../gifs/link_wht_prospectuses.gif" ALIGN=LEFT BORDER=0 ALT="Prospectuses And Important Information"></A>
+<A HREF="contact_learn.html"><IMG SRC="../gifs/link_wht_contactkemper.gif" BORDER=0 ALT="Contact Kemper"></A>
+<A HREF="../sitemap.html"><IMG SRC="../gifs/link_wht_sitemap.gif" BORDER=0 ALT="Site Map"></A>
+</NOBR>
+<BR CLEAR=ALL>
+<BR>
+
+<IMG SRC="gifs/introduce_image.gif">
+<IMG SRC="gifs/introduce_head.gif">
+<BR>
+<BLOCKQUOTE>
+
+Kemper Funds believes that working with financial representatives is an
+investor's best approach for achieving his or her goals in today's complex
+and global investment markets. 
+<P>
+
+Would you like to work with a financial representative but don't know who
+to call? We would be happy to introduce you to someone in your area.
+<P>
+
+Just fill out the following information and we'll be in touch as soon as 
+possible. Thank you for your interest in Kemper Funds. Here's hoping that
+this is the start of a productive relationship! 
+
+<P>
+
+<FORM METHOD="POST" ACTION="/cgi-bin/lite/introduce">
+
+<TD VALIGN=TOP>Your first name:</TD><TD VALIGN=TOP><INPUT NAME="fname" TYPE="text" SIZE="30"><BR>
+
+Your last name:</TD><TD VALIGN=TOP><INPUT NAME="lname" TYPE="text" SIZE="30"><BR>
+
+Street address or P.O. Box:</TD><TD VALIGN=TOP><INPUT NAME="address" TYPE="text" SIZE="30"><BR>
+
+City:</TD><TD VALIGN=TOP><INPUT NAME="city" TYPE="text" SIZE="30"><BR>
+
+State:</TD><TD VALIGN=TOP><INPUT NAME="state" TYPE="text" SIZE="30"><BR>
+
+ZIP:</TD><TD VALIGN=TOP><INPUT NAME="zip" TYPE="text" SIZE="30"><BR>
+
+E-mail:</TD><TD VALIGN=TOP><INPUT NAME="email" TYPE="text" SIZE="30">
+
+<P>
+
+How would you prefer to be contacted? (Check one) 
+<BR>
+<INPUT TYPE="radio" VALUE="phone" NAME="contact" CHECKED="true">
+By telephone - Your telephone number: <INPUT NAME="phone" TYPE="text" SIZE="20"><BR>
+
+<INPUT TYPE="radio" VALUE="mail" NAME="contact"> By mail </TD>
+
+<P>
+
+Comments?<BR>
+<TEXTAREA COLS="60" ROWS="4" NAME="inquiry"></TEXTAREA>
+
+
+<P>
+
+<CENTER>
+<INPUT TYPE="submit" NAME="xxxxxxx" VALUE=" Send this information ">
+
+<INPUT TYPE="reset" NAME="xxxxxxx" VALUE=" Clear this form ">
+</CENTER>
+
+<P>
+
+<FONT SIZE=1>&copy; Copyright Kemper Distributors, Inc. 1996 - All
+rights reserved.</FONT SIZE=1>
+
+</BLOCKQUOTE>
+
+
+<BR>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<TR>
+<TD VALIGN=TOP ALIGN=RIGHT>
+  <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+  <TR>
+  <TD VALIGN=TOP>
+  <A HREF="../menu.html">
+  <IMG BORDER=0 SRC="../gifs/icons/kemper_blkwht.gif"
+  ALT="Kemper Funds - Principal Underwriter: Kemper Distributors, Inc."></A><BR>
+  <IMG SRC="../gifs/icons/kemper_spacer.gif"><FONT SIZE=-1>1010240</FONT></TD>
+  </TR>
+  </TABLE></TD>
+</TR>
+</TABLE>
+
+
+</BODY>
+</HTML>
+</DOC>

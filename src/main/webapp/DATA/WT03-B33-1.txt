@@ -1,0 +1,1013 @@
+
+<DOC>
+<DOCNO>WT03-B33-1</DOCNO>
+<DOCOLDNO>IA059-000323-B024-286</DOCOLDNO>
+<DOCHDR>
+http://newsnet.com:80/libiss/ec77.html 205.156.212.5 19970114221836 text/html 39641
+HTTP/1.0 200 OK
+Server: Netscape-Commerce/1.12
+Date: Tuesday, 14-Jan-97 22:16:41 GMT
+Last-modified: Thursday, 24-Oct-96 22:47:06 GMT
+Content-length: 39454
+Content-type: text/html
+</DOCHDR>
+<HTML>
+<HEAD>
+<TITLE>/data/webdev/libiss/ec77.html Sample Issue</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<FONT SIZE = 3>
+<A NAME=HeadList"></A>
+Copyright <BR>
+SNA COMMUNICATIONS REPORT via NewsNet <BR>
+January 11, 1990<BR>
+SAMPLE ISSUE HEADLINES<BR><BR><BR>
+<BR>
+<H3>*LATEST NEWS*</H3>
+<UL>
+<A HREF = "#1"><A HREF = "#1"><LI>APPN COMPLEXITY, TOKEN RING THROUGHPUT LEAVE AS/400 OUT OF&nbsp;NETWORKING GAME</A>&nbsp&nbsp&nbsp<NOBR>(891 words)</NOBR></LI>
+<A HREF = "#2"><LI>IBM WILL CHANGE THE 3745, BUT MAYBE NOT UNTIL 1992</A>&nbsp&nbsp&nbsp<NOBR>(940 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*OFFICE AUTOMATION*</H3>
+<UL>
+<A HREF = "#3"><LI>IBM RINGS IN NEW MULTIVENDOR OFFICE CONNECTIONS WITH SOFT SWITCH</A>&nbsp&nbsp&nbsp<NOBR>(724 words)</NOBR></LI>
+<A HREF = "#4"><LI>THE IBM COOPERATIVE SOFTWARE PROGRAM</A>&nbsp&nbsp&nbsp<NOBR>(118 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*FDDI*</H3>
+<UL>
+<A HREF = "#5"><LI>IBM PUTS WEIGHT BEHIND FDDI PUSH WITH SMT FORUM MEMBERSHIP</A>&nbsp&nbsp&nbsp<NOBR>(598 words)</NOBR></LI>
+<A HREF = "#6"><LI>SMT AGREEMENT WOULD MARK MAJOR FDDI MILESTONE</A>&nbsp&nbsp&nbsp<NOBR>(240 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*VIEWPOINT*</H3>
+<UL>
+<A HREF = "#7"><LI>1990: HOTTER THAN USUAL?</A>&nbsp&nbsp&nbsp<NOBR>(819 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*CONSULTANT NOTEBOOK*</H3>
+<UL>
+<A HREF = "#8"><LI>MOBILE COMPUTER SYSTEM COMING SOON, GARTNER SAYS</A>&nbsp&nbsp&nbsp<NOBR>(211 words)</NOBR></LI>
+<A HREF = "#9"><LI>SNA WILL REMAIN IBM'S BABY DESPITE GROWING OSI INVESTMENT</A>&nbsp&nbsp&nbsp<NOBR>(253 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*IBM ROUNDUP*</H3>
+<UL>
+<A HREF = "#10"><LI>KNOWLEDGE-BASED SOFTWARE TOOL UNVEILED</A>&nbsp&nbsp&nbsp<NOBR>(127 words)</NOBR></LI>
+<A HREF = "#11"><LI>IBM, OTHERS SUBMIT PROPOSAL TO OSF</A>&nbsp&nbsp&nbsp<NOBR>(83 words)</NOBR></LI>
+<A HREF = "#12"><LI>PS/2 GETS X.25 CO-PROCESSOR SUPPORT</A>&nbsp&nbsp&nbsp<NOBR>(83 words)</NOBR></LI>
+<A HREF = "#13"><LI>IBM ANNOUNCES NETWORK SERVICES</A>&nbsp&nbsp&nbsp<NOBR>(68 words)</NOBR></LI>
+</UL>
+<BR>
+<H3>*NEWS BRIEFS*</H3>
+<UL>
+<A HREF = "#14"><LI>KODAK SELECTS IBM TO MANAGE WORLDWIDE SNA NETWORK</A>&nbsp&nbsp&nbsp<NOBR>(74 words)</NOBR></LI>
+<A HREF = "#15"><A HREF = "#15"><LI>MADGE NETWORKS INTRODUCES SOFTWARE DRIVER FOR SMART AT, MC&nbsp;RINGNODES</A>&nbsp&nbsp&nbsp<NOBR>(105 words)</NOBR></LI>
+<A HREF = "#16"><A HREF = "#16"><LI>IMS-NV -- NETVIEW SUPPORT AVAILABLE FOR CROSSCOMM'S ILAN LAN-WAN&nbsp;BRIDGES</A>&nbsp&nbsp&nbsp<NOBR>(85 words)</NOBR></LI>
+<A HREF = "#17"><LI>SIMWARE INTRODUCES SIMHLLAPI</A>&nbsp&nbsp&nbsp<NOBR>(59 words)</NOBR></LI>
+</UL>
+</FONT>
+<BR><BR>
+<HR>
+<PRE>
+<A NAME = "1"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+APPN COMPLEXITY, TOKEN RING THROUGHPUT LEAVE AS/400 OUT OF
+NETWORKING GAME
+
+Difficulties in implementing Advanced Peer to Peer Networking
+(APPN) and slow Token Ring interfaces are causing the AS/400
+minicomputer to fall short of its communications potential,
+experts said this week.
+
+Despite its advanced functions, IBM's 18-month-old AS/400 has not
+yet become much more than a file server or terminal controller.
+Users and analysts say that many of the unit's more advanced
+capabilities, such as APPN, are far too complicated for the
+smaller companies installing it.  The real test, they say, will
+come when the AS/400 enters larger SNA networks.
+
+When it introduced the AS/400 in June 1988, IBM made many
+communications promises, including to support multiple
+architectures such as SNA, OSI, and TCP/IP.  IBM said the
+minicomputer would communicate and operate with both IBM and
+non-IBM products.
+
+To back up its promises, IBM introduced OS/400, the AS/400
+operating system.  OS/400 contains built-in support for Advanced
+Program-to-Program Communications (APPC, also known as LU 6.2),
+APPN, Distributed Data Management (DDM), Token Ring, and a host of
+office information architectures.
+
+According to most observers, the AS/400 can fulfill IBM's promises
+under the current OS/400 release.  But putting these capabilities
+into practical use is no easy task.
+
+COMPLEXITY NOT AVOIDED
+
+"The need to support a confusing array of protocols and approaches
+to data communication had to be satisfied without creating a
+system that was difficult to program, operate, or use," stated a
+1989 report from ADM Inc. (Cheshire, Conn.), an AS/400
+consultancy.  "The AS/400 must support SNA while avoiding the
+complexity associated with management of an SNA network."
+
+However, most AS/400 users do not use its advanced communications
+features.  Observers say that although OS/400 has the potential to
+support distributed communications, APPC and APPN are too complex
+to be useful to smaller users.
+
+"APPN requires a major programming effort, and once it's done,
+it's very specialized -- not for the common user," observed Bruce
+Armstrong of Link Computer Corp. (Altoona, Pa.), an AS/400
+remarketer.  "There's no question that APPN could solve many
+problems we are seeing, but I don't seeing it solving anything
+soon.  The simplicity just isn't there."
+
+Armstrong said his company has yet to install any AS/400s in the
+APPN or Token Ring environments.
+
+TOKEN RINGS NOT THERE, EITHER
+
+"There are a lot of AS/400 systems out there that have been
+developed without a network design.  They're not set up to
+[interconnect]," Armstrong said.  "We had a situation recently
+where a company had 300 terminals and a mixture of PCs, but no
+Token Ring activity."
+
+One reason for the lack of Token Ring implementations may be
+throughput problems, noted Armstrong.  "There are problems with
+AS/400s on a Token Ring -- it has been brought up at Common [IBM's
+small systems user group] meetings.  IBM still has a ways to go in
+trying to get PC networks [to link with] AS/400s."
+
+Others familiar with the AS/400's networking capabilities agreed.
+
+"We are just starting to see Token Rings attaching to AS/400s.  We
+have just gotten many clients off of coaxial cable onto twisted
+pair.  Now it will be easy for them to go to Token Ring," said
+George Woodring, director of technical services at ADM.  "Token
+Ring takes planning and knowledge of what it can do to be
+effective.  There's not that much expertise out there in the
+AS/400 world."
+
+ADM recently installed its first APPN network.
+
+"The customer was afraid once the switch was made to APPN, he
+would lose performance.  [The customer wasn't] too familiar with
+what APPN could do," Woodring said.  "We did find that 9600 baud
+wasn't cutting it with 16 to 18 communication lines, but we upped
+it to 19.2 Kbps, and it worked fine."
+
+LITTLE CRITICALS
+
+Other companies -- such as the Travelers Insurance Companies
+(Hartford, Conn.) and Mobil Oil (New York, N.Y.) -- have installed
+APPN, but they are few and far between, according to analysts.
+And even large corporations that can afford APPN networks are
+doing very little mission-critical work on them.
+
+The few AS/400s that handle communications tasks today act
+as hosts in small environments or replace IBM's aging 43XX
+mainframe computers.  Even there, the AS/400 serves primarily
+as a stand-alone unit.
+
+"We have 18 remote sites in the U.S. and Canada, basically spread
+out in a star formation with links back to Lincoln," explained
+John Edson, manager of administrative services and information
+systems for Norden Laboratories (Lincoln, Neb.), a distributor of
+veterinary health products.
+
+Norden's network is based on SNA protocols, Edson said, and the
+AS/400 has never had a problem communicating in that environment.
+
+Woodring said the AS/400s he has installed have worked well in the
+SNA environment.
+
+"The biggest problem there has been [is with] customers trying to
+implement it without first-hand knowledge of what it can do,"
+Woodring commented.  "The initial release of OS/400 was
+unforgiving if you made a mistake.  Now, it's much easier.  But
+none of it is easy without some experience."
+
+Still, within the larger SNA environment, the AS/400 cannot act as
+a control point, but only as a controller.  In that role, it has
+performed well, according experts.  The AS/400 will eventually
+play an important role in bringing about the move to APPN,
+analysts said, but it's not doing it yet.  (Michael Cooney)
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "2"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+IBM WILL CHANGE THE 3745, BUT MAYBE NOT UNTIL 1992
+
+Some potential customers are re-thinking their decisions to
+purchase the IBM 3745 Communication Controller because of a
+rumored forklift upgrade.  Observers say the fear of major changes
+in the front-end processor could be justified, but those changes
+probably will not happen in 1990.
+
+Although it has been on the market for two years, the 3745 has not
+made tremendous inroads in SNA networks, observers say.  Since new
+technology is making product cycles shorter and IBM has no great
+stake in maintaining the 3745, some potential customers are
+getting skittish.
+
+"We had a couple of customers who were worried about IBM pulling
+the plug on the 3745," commented Thad Kemp at computer lessor
+Stamford Computing Group, (Stamford, Conn.).  "A couple of months
+ago, that perception was a real problem, but it doesn't seem to be
+bothering anyone now.  Word is that the 3745 won't be changed that
+radically until 1992."
+
+Other observers concurred with that forecast.
+
+"We see IBM coming out with its follow-on
+mainframe -- Summit -- in 1992, so we would expect to
+see a new communication box sometime after that," stated
+Bill Husband, senior consultant with the Meridian Group
+(Deerfield, Ill.), also a computer lessor.  "The rule of thumb
+we use is that for every MIP added to the machine, customers
+can add 10 communications lines.  With the four to eight-fold
+increase we foresee in power over the next couple years, we'll
+have to see some sort of upgrade."
+
+NOT TIME TO DUMP THE FAMILY
+
+Since it was enhanced last May, the 3745 family covers most
+customers' requirements, noted Dave Wolff, executive vice
+president of El Camino Resources (Northridge, Calif.).  For most
+users, however, the Network Control Program (NCP) operating system
+still has a way to go.
+
+"It is conceivable IBM could change the 3745 again, but not in the
+near term," Wolff said.  "The 3745 is selling at a reasonable
+clip, and the high end isn't losing to the competition like it
+used to."
+
+Indeed, IBM does not lose to too many competitors in the front-end
+processor market.  According to Computer Intelligence (La Jolla,
+Calif.), IBM has an 88 percent market share.  NCR Comten holds a 6
+percent share, and Amdahl holds a 2 percent share.
+
+Of this 88 percent, the 3725 still makes up the bulk of the
+installed base (40 percent), with the older 3704 and 3705 coming
+in second (20 percent).  The low-end 3720 comes in third (10
+percent), and the 3745 thus far has garnered only 6 percent.
+
+"It's been a slow, steady migration to the new models," observed
+Ralph Busch of Computer Intelligence.  "[But] we haven't seen any
+slowdown recently that would indicate a problem."
+
+3725 IN VOGUE
+
+Busch recommended that customers worried about the 3745 -- or
+perhaps not ready to spend the money to upgrade -- should look at
+buying a used 3725, which his numbers show being worth only about
+10 percent of its original value.
+
+"If all a customer needs is a little more channel space, then it
+should look that way," Busch said.
+
+Kemp pointed out that if customers are worried about floor space,
+they should move to the 3745.  "The 3725  has a floor space
+problem -- you'll need 3 or 4 of them to do what one 3745 does.
+We know some customers who will move to the 3745 for that reason
+alone."
+
+Wolff said that if IBM changed the architecture, 3745 customers
+would likely receive a field upgrade before a forklift upgrade.
+But he also said the 3725 suffices for many current users.
+
+"The 3725 is a living boat anchor that will be around for a long
+time.  There is nothing that the market is crying for right now.
+IBM needs to get customers to use the 3745 more for now," Wolff
+said.
+
+Some customers are turning away from IBM entirely.  Donovan Data
+Systems (New York, N.Y.), for example, went to the NCR Comten
+5565.  This accounting and data processing service company is
+primarily a Comten shop, but has looked at the 3745.
+
+"Basically, [the 3745] couldn't provide the flexibility we
+needed," said Ron Block, vice president at Donovan.  "We needed
+multiple front ends in our VTAM [Virtual Telecommunications Access
+Method] environment, which IBM couldn't do."
+
+Although Comten and Amdahl generally offer better flexibility than
+Big Blue, observers said the plug-compatible vendors in the 3745
+arena are not affecting the big controller much.
+
+1990 OR 1992?
+
+IBM is battling itself on the 3745 issue, experts say.  The
+front-end device may need some changes, such as higher speeds and
+water cooling to help it handle growing SNA traffic.  The unit
+will need these features when it becomes an APPN node, experts
+said.
+
+"With the increased amount of 80386 -- and now 80486 -- computers
+to attach to it, the 3745 will have to change.  For that and other
+reasons, I don't think it will last the year," projected Brian
+Jeffery, managing director of the International Technology Group
+(Los Altos, Calif.).  "IBM has a lot of communication products in
+the pipeline, and the new [processor] hardware coming out will
+force IBM to change the 3745 soon."
+
+Others have said the 3745 was a short-term machine to begin with
+and will fade away with the advent of APPN.
+
+"Customers expect forklift upgrades from time to time, and product
+cycles have sped up," commented David Passmore, a partner at
+Network Strategies/Ernst and Young (Fairfax, Va.).  "But the time
+for a forklift upgrade of the 3745 is at least two years away."
+(Michael Cooney)
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "3"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+IBM RINGS IN NEW MULTIVENDOR OFFICE CONNECTIONS WITH SOFT SWITCH
+
+IBM recently rang out the old by dumping its Office Interconnect
+Facility (OIF) and rang in the new by signing Soft Switch Inc. to
+provide multivendor office systems connectivity in IBM
+environments.
+
+IBM signed Soft Switch (Wayne, Pa.) under its Cooperative Software
+Program (CSP) to provide host-based links between its OfficeVision
+system and Digital Equipment Corp.'s All-In-One, Wang Office,
+Hewlett-Packard's Desk Manager, and other office systems.
+
+Soft Switch provides these connections through its Soft Switch
+Central MVS or VM software.  Soft Switch describes Central as a
+"full blown networking product" with "post offices" that interface
+with SNA Distribution Services (SNADS), X.400, Simple Mail
+Transfer Protocol (SMTP), DECnet, and other protocols.
+
+STOPGAP STOPS DEAD
+
+Soft Switch Central replaces OIF, which IBM said was never
+shipped.
+
+Originally announced in October 1989, OIF was designed to allow
+users to exchange electronic mail messages between VM PROFS
+(Professional Office System), MVS Personal Services/Customer
+Information Control System (PS/CICS), and Distributed Office
+Support System (DISOSS), DEC, and Wang.
+
+At the time, observers labeled OIF a stopgap measure, but it never
+even got that far.
+
+"The OIF product would not meet our customers' requirements in the
+required time span," an IBM spokesman said.  "The development
+effort with Aratek [Toronto, Canada] never brought a product to
+market, so we withdrew it and replaced it with Soft Switch."
+
+Aratek did not respond by press time to questions about the
+developments.
+
+The Soft Switch product will meet customer needs better than OIF
+would have, according to analysts.  The OIF product did not
+support X.400, and it was not robust, commented one observer.
+
+While Soft Switch Central contains an X.400 interface, it is not
+the same one the company introduced in October 1989.  The 400 Link
+is a dedicated X.400 gateway between PROFS and/or SNADS and other
+X.400-compatible systems.  Soft Switch said it might eventually
+put 400 Link on Central, but the X.400 interface is not a
+requirement today.
+
+"The death of OIF isn't going to cause any large scale mourning
+throughout the industry," observed Brian Jeffery, managing
+director for the International Technology Group (Los Altos,
+Calif.).  "Soft Switch is a standard in the industry, and IBM
+representatives who were called upon to provide these types of
+connections would have called Soft Switch anyway.  The Soft Switch
+product is just so much more functional [than OIF]."
+
+SOLIDIFYING OFFICEVISION
+
+Soft Switch's product is also important to OfficeVision's
+long-term success because it will allow customers to mix and match
+multivendor office offerings -- something OfficeVision does not
+provide, analysts said.
+
+"The point of the whole product is that OfficeVision won't care
+what the other system it's communicating with is," said Donald
+Fisher, vice president of open systems at Soft Switch.  "The
+current release of OfficeVision doesn't hold much new for PROFS
+users, but the next release will have an impact.  This product
+will add to that."
+
+In addition to OfficeVision/MVS and /VM, Soft Switch supports
+AS/400 Office through a SNADS gateway and said it plans to offer
+support for OfficeVision/400 by June.  It will also support
+OfficeVision/2 at the low end in the near future, according to
+Fisher.  "We are working with IBM now to set a development
+schedule, [but] I would anticipate seeing something in 1990," he
+stated.
+
+OfficeVision itself is being held up by the delayed OS/2 Extended
+Edition (EE), which was slated to appear last November but is now
+scheduled for March 30.  OfficeVision/2 will get much of its
+functionality from OS/2 EE.
+
+"The whole push to homogeneous computing is happening on the front
+lines of many offices today.  Any package that can move
+information around without the user knowing what kind of system
+it's coming from is a valuable asset," commented Peter Kastner,
+vice-president of the Aberdeen Group (Boston, Mass.).  "The
+biggest problem is that the whole OfficeVision kit and caboodle is
+on hold until OS/2 EE and the LAN Server [also due March 30] are
+released."  (Michael Cooney)
+
+PRODUCT:
+Soft Switch Central
+
+DESCRIPTION:
+Software package combining IBM's OfficeVision/MVS and
+OfficeVision/VM environments with multivendor office packages such
+as Digital Equipment Corp.'s All-In-One and Data General's CEO.
+
+PRICING:
+$40,000 to $250,000, depending on configuration.
+
+AVAILABILITY:
+All products are available now, except for connections to
+OfficeVision/2.  That interface will probably appear in 1990.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "4"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+THE IBM COOPERATIVE SOFTWARE PROGRAM
+
+Formed as a pilot program in June 1987 and initiated in January
+1988, IBM's Cooperative Software Program has grown to include
+approximately 75 software vendors in the U.S.
+
+CSP's purpose is to bring in established third-party software
+vendors to provide solutions in niche areas where IBM does not
+offer a product.
+
+Both IBM and its software partner (in this case, Soft Switch) sell
+the programs, though IBM is not responsible for product licensing,
+terms, conditions, or pricing.  The third party provides service
+and training as well.
+
+"CSP gives the software company greater exposure [to the business
+world], and we get to offer our customers an established solution
+for their networks," an IBM spokesman said.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "5"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+IBM PUTS WEIGHT BEHIND FDDI PUSH WITH SMT FORUM MEMBERSHIP
+
+IBM last month boosted its support of Fiber Distributed Data
+Interface (FDDI) standards by joining the SMT (Station Management)
+Development Forum, an organization advocating the rapid and
+uniform development of SMT and FDDI.
+
+The SMT protocol provides the intelligence that links workstations
+to a network and allows those stations to be centrally managed.
+SMT is the only portion of the 100 Mbps FDDI standard still
+undefined by the American National Standards Institute (ANSI).
+Once SMT is resolved, vendors could begin developing interoperable
+FDDI systems (see sidebar).
+
+SMT Development Forum members will jointly define interoperable
+design specifications for FDDI SMT, according to Synernetics Inc.
+(North Billerica, Mass.), the FDDI LAN management specialist that
+initiated the forum.  The SMT Forum specification will build on
+the ANSI standard, but will provide additional details necessary
+for actual product development, Synernetics said.
+
+"The Forum provides members the benefits of a large, focused
+development team at a fraction of the total cost required for
+individual design specification development efforts," said Bruce
+McClure, president and co-founder of Synernetics.  "The resulting
+open specification will be available to all Forum members."
+
+PUSHING FIBER
+
+IBM's forum participation is part of its recent push into the FDDI
+arena.  Last January, Big Blue invested in PCO Inc. (Chatsworth,
+Calif.), a fiber optic interface company.  In September, IBM
+scientists announced two experimental FDDI computer chips capable
+of transmitting and receiving a billion bits per second.
+
+"FDDI is a hot topic for IBM, and 1990 will make it even hotter,"
+commented Frank Dzubeck, president of Communications Network
+Architects (Washington, D.C.).  "I expect to see some FDDI
+products in IBM's LAN environment by the end of the year."
+
+Analysts say fiber will be the primary medium in many
+organizations' future backbones as well as between LANs in campus
+environments.
+
+Big Blue's graphics-oriented data systems division (DSD, Kingston,
+N.Y.) is IBM's official forum member, leading some observers to
+predict that IBM will initially push FDDI in the mainframe arena.
+DSD makes the 3090.
+
+LOSING THAT COPPER BUILD-UP
+
+An IBM executive said last year that users could eventually see
+fiber "anyplace a copper cable is now."  Big Blue also said fiber
+may eventually show up inside -- or at least between -- IBM
+mainframes.  Analysts note that the promised peer-oriented host of
+the future certainly could use the extra bandwidth and speed of a
+fiber optic network.
+
+"There are many broad requirements for integrating corporate LANs,
+relational databases, and networks," commented Bob Simko,
+executive director of the International Technology Group (Los
+Altos, Calif.).  "This forum  offers and promotes interoperability
+between all the vendors out there.  This is very much an issue
+with the end user."
+
+Simko said the forum will help IBM spread the new technology and
+vault back into a technological leadership role that it slipped
+from in the late 1980s.
+
+"IBM wants to strongly apply the concept of an enterprise
+information system, and it will be taking advantage of these new
+types of technologies to promote that," Simko stated.  "Right now,
+IBM is working to coexist with [the other members] of the forum
+with the long-term goal of converging them."
+
+Other members of the SMT Development Forum include Apple, Advanced
+Micro Devices, the CERN Laboratory for Particle Physics,
+Interphase Corp., Lawrence Berkeley Laboratory, National
+Semiconductor Corp., SBE Inc., and Sumitomo Electric.
+
+The forum did not offer a schedule for completing the
+implementation specification.  Synernetics did say it will offer
+its customers full documentation, complete integration support,
+and SMT software updates as the FDDI standard evolves.  (Michael
+Cooney)
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "6"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+SMT AGREEMENT WOULD MARK MAJOR FDDI MILESTONE
+
+The Station Management (SMT) document, the stumbling block in
+passing the Fiber Distributed Data Interface (FDDI) standard,
+should be ready for approval within a few months, according to
+Floyd Ross, chairman of the American National Standards Institute
+(ANSI) SMT working group.
+
+FDDI, which is being defined by the American National Standards
+Institute (ANSI) X3T9.5 committee, is an emerging local area
+network (LAN) standard for 100 megabit per second (Mbps)
+transmission over fiber optic media.
+
+Chairman Ross predicted that by April, the SMT committee will have
+a document that will essentially be the SMT standard. "There are
+only details to work out [in the next few months]," he said.
+
+However, with a fair amount of red tape still ahead, Ross said the
+standard will not be officially completed until early 1991.
+
+According to Ross, the station manager is the focal point of
+network interoperability.  "The station manager acts as the
+interface between any other management entity, monitors station
+activity, monitors station configuration and capabilities, and
+reconfigures the stations if there is a failure on the network."
+
+There are four documents that make up the proposed standard:
+Physical (PHY), Physical Media Dependent (PMD), Media Access
+Control (MAC), and  Station Management (SMT).  Each segment
+defines a different set of specifications for a different aspect
+of the standard.
+
+The PHY, PMD, and MAC define hardware specifications and are
+already in final draft form at ANSI.  (Caryn Fox)
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "7"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+1990: HOTTER THAN USUAL?
+
+Unlike the weather over the holiday season, SNA should get a
+number of "hot" developments in 1990 to warm the cockles of many
+an IBM customer's heart.
+
+Of course everything can't be warm and fuzzy, but the year should
+prove interesting for a number of reasons.
+
+One of the hottest topics for 1990 won't even be SNA, but Open
+Systems Interconnect (OSI).  With IBM's OSI/Communication
+Subsystem (OSI/CS) for MVS coming out in March and a VM version
+due in June, the OSI acronym will fly around Armonk in '90.
+
+OSI/CS will support OSI layers 3 through 7 and let NetView manage
+local and remote OSI systems without NetView/PC, among other
+functions.  Just seeing that idea on paper seems strange to many
+IBM watchers.
+
+June will also bring IBM's OSI/File Services for MVS.  As an
+OSI/CS application, File Services provide OSI File Transfer,
+Access, and Management (FTAM) functions for the host.  A VM
+version will be shipped in September.
+
+All of these new products will give U.S. users a chance to see
+exactly how IBM really performs in the OSI realm.  It's been a
+long time coming.
+
+SMOKY NETWORK MANAGEMENT
+
+Network management will be a hot '90 SNA topic, although IBM's
+specific plans are a little hazy.  The ability to manage non-IBM
+OSI devices via OSI/CS is quite a breakthrough, but how much will
+it help non-OSI customers?  Probably not much.
+
+Most network management experts say IBM will improve its
+management of non-SNA devices, but none can say when that will
+happen.  Until then, most customers will be left to roll their own
+solutions or use NetView/PC (more on that later).
+
+Third parties will continue to develop direct interfaces to
+NetView without using NetView/PC, and users will benefit from more
+efficient management of non-IBM devices.  The price tag, however,
+may be high.
+
+A Blue graphical user interface will be here in 1990, making the
+recently-purchased NetCenter Graphic Network Monitor a potential
+dinosaur.  Whatever happens, a big, colorful, graphic NetView
+monitor is definitely in the cards for '90.
+
+Many large network managers starving for a database repository
+remained hungry in 1989.  This year should provide a few more
+glimpses of IBM's direction for this lukewarm offering.  However,
+since Big Blue only issued a statement of direction in '89, it
+will probably be 1991 before actual products take shape.
+
+Without question, network management issues will be hot in 1990.
+Time will tell if the pot will just simmer or really boil over.
+
+ALSO SIMMERING...
+
+Also heating up in first quarter 1990 will be OS/2 and IBM's
+OfficeVision products.
+
+OS/2 Extended Edition (EE) 1.2 is scheduled to ship on March 30,
+and with it will come a whole new array of goodies -- an SNA
+gateway, Ethernet support, and a variety of other options.
+
+From the LAN end, OfficeVision will join with OS/2 EE to sprout a
+whole new crop of applications based on distributed processing.
+
+Many observers say OfficeVision could replace IBM's Professional
+Office System (PROFS) and Distributed Office Support System
+(DISOSS), two key staples of the SNA network environment.  That
+probably won't happen in too many shops this year, but the
+possibility makes it a hot topic for 1990.
+
+This year users should begin to reap the spoils of IBM's
+all-out assault on the Transmission Control Protocol/Internet
+Protocol (TCP/IP) market in 1989.  Experts watching the TCP/IP
+field say IBM can offer TCP/IP support just about anywhere these
+days -- so look for it in a network near you.
+
+WHAT'S NOT HOT
+
+Of course, everything can't be red hot in the Blue arena.  With
+diminishing demand, the old dumb 3270 terminal will lose more face
+in 1990.  Experts have been stomping on the resilient 3270
+terminal for years without much real damage.  But in 1990, with
+OS/2 finally showing some signs of life and some reasonable PS/2
+and PC prices hitting the market, the growth of 3270 hardware will
+slow even more.  Of course, "death" in this case may still mean 3
+to 4 percent growth, but there are certainly some nails in its
+coffin.
+
+Another traditional slam-taker, NetView/PC, will continue taking
+those slams despite picking up some new supporters in 1989.  Most
+customers and third-party vendors are spending their time finding
+ways to bypass NetView/PC.  Some observers go as far to say IBM
+will officially pull the plug on this product in 1990.
+
+IBM activity in the voice/data integration field cooled off in
+1989, and will likely continue that route in 1990.  There could be
+some interesting treaties with Northern Telecom and its peers, but
+autumn is here for this area.
+
+All in all, there seems to be more in IBM's oven than in
+its deep freeze. IBM watchers predict 1990 will produce some hot
+items -- at least enough to keep most customers warm.  (Michael
+Cooney)
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "8"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+MOBILE COMPUTER SYSTEM COMING SOON, GARTNER SAYS
+
+IBM may announce a mobile computer for the transportation industry
+as early as the end of the quarter, according to a Gartner Group
+analyst.
+
+Mobile computers are essentially ruggedized laptops connected to a
+transceiver and antenna.  IBM would not manufacture the latter
+components, only the computer itself, said John Pemberton, an
+analyst at Gartner (Stamford, Conn.).  Current mobile systems
+generally use a non-intelligent terminal, rather than computer,
+for data entry.
+
+By switching to intelligent mobile systems, users could implement
+distributed mobile applications, Pemberton noted.  If IBM made
+them Systems Application Architecture (SAA) compatible, mobile
+systems would become more useful to IBM customers, he said.
+
+IBM planned to enter the market in the third quarter, but moved up
+the announcement to the first quarter, Pemberton said.  The
+machines will ship no later than first quarter 1991, but IBM is
+aiming to beat that deadline, he added.
+
+To be successful in the field, the systems must be accepted by the
+major communication companies.  IBM has been courting Qualcomm,
+American Mobil Satellite Corp., Telsat Mobile Inc., Geostar, and
+other satellite communications companies to ensure this
+acceptance, according to Pemberton.  Negotiations with Locstar
+will be critical to the system's success in western Europe, he
+observed.  (Dan Carney and Michael Cooney)
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "9"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+SNA WILL REMAIN IBM'S BABY DESPITE GROWING OSI INVESTMENT
+
+IBM will continue to pour the majority of its research and
+development (R&D) dollars into SNA, but the computer giant has
+made a definitive investment in OSI, according to a recent Neil
+Miles Ltd. (New York, N.Y.) research report.
+
+"IBM is never going to do what some of its competitors are doing,
+like DEC  [Digital Equipment Corp.] and HP [Hewlett-Packard Co.],
+and that is replace its proprietary network protocols with OSI.
+IBM will offer the ability to mix and match [SNA and OSI]," said
+report author Rob Garretson.
+
+The "Gateway To The Future" report does not break down the dollar
+proportions spent on R&D for SNA and OSI, Garretson said, but it
+does say while IBM has started a multi-million dollar OSI effort,
+it will continue to spend billions on SNA development.
+
+"I would say the proportion of development resources is at least
+10 to one SNA to OSI," Garretson said.  He added that IBM spends
+"tens of billions of dollars in R&D with a very wide palette of
+research" but R&D is still heavily weighted towards SNA.
+
+"Though IBM is making its first real definitive investment in OSI,
+SNA is still [IBM's] baby," said Garretson.
+
+Big Blue will provide multivendor portals to all customers who
+want them, according to the report.  Garretson said an IBM
+customer will have the option of using X.25 as the main transport
+protocol across its SNA network, replacing IBM's Synchronous Data
+Link Control (SDLC) protocol for wide area networking. (Beth
+Bacheldor)
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "10"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+KNOWLEDGE-BASED SOFTWARE TOOL UNVEILED
+
+IBM last week announced The Integrated Reasoning Shell (TIRS), an
+application enabling tool that will help businesses create and use
+knowledge-based applications within Big Blue's AD/Cycle and
+Systems Application Architecture (SAA) frameworks.
+
+IBM said the shell will make it easer for customers to
+build specialized libraries of information and apply them to
+problem-solving situations.  These knowledge bases can be
+developed on OS/2 or AIX and run on the PS/2, AIX/RT, and S/370 VM
+or MVS using the Runtime System.
+
+Scheduled to be available in July, TIRS will cost $7,500 for the
+Development System and $750 for the Runtime System on the PS/2 and
+RT.  System/370 prices will range from $11,000 to $113,000 for the
+Development System and $3,000 to $28,000 for the Runtime system.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "11"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+IBM, OTHERS SUBMIT PROPOSAL TO OSF
+
+IBM, Hewlett-Packard's Apollo Systems division, Locus Computing
+Corp., and Transarc Corp. Monday proposed DEcorum -- an integrated
+set of software components for use in multivendor networked
+environments -- to the Open Software Foundation.
+
+According to the companies, DEcorum's uniform distributed
+architecture supports integration of the different software
+technologies -- each chosen for its unique functionality -- and
+the ability to work across heterogeneous environments.  DEcorum
+will also allow Unix users and systems managers to distribute
+implementations of Unix services and facilities.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "12"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+PS/2 GETS X.25 CO-PROCESSOR SUPPORT
+
+IBM recently announced the X.25 Co-Processor Support Program,
+which allows PS/2 Models 50 and above to link with X.25 networks
+via an IBM X.25 Interface Co-Processor/2 board.
+
+The software will support X.21 and X.21bis at speeds up to 64 Kbps
+full duplex.  According to IBM, the adapter code senses the type
+of attachment interface and adjusts accordingly.  Each link can
+support up to 250 logical channels, including Switched or
+Permanent Virtual Circuits.  The program will be available in
+September for $337.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "13"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+IBM ANNOUNCES NETWORK SERVICES
+
+IBM Wednesday announced the formation of the IBM Systems Services
+organization to help customers manage their information processing
+and network operations.
+
+The new division will focus on reducing customer's data processing
+operations costs and increasing their information processing
+capabilities, IBM said.  It will do this by managing key aspects
+of the user's network operations. IBM will also provide customized
+solutions for those customers who desire it.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "14"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+KODAK SELECTS IBM TO MANAGE WORLDWIDE SNA NETWORK
+
+Eastman Kodak announced Monday that it has selected IBM to manage
+its worldwide SNA network.  Under terms of the agreement, IBM will
+manage day-to-day network operations at Kodak locations in
+Rochester, N.Y., Colorado, and Canada, as well as regional and
+district locations.
+
+Big Blue will provide all network connectivity services for
+Kodak's new data center, including Business Recovery Services for
+disaster recovery.  Digital Equipment Corp. will manage Kodak's
+voice and data facilities.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "15"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+MADGE NETWORKS INTRODUCES SOFTWARE DRIVER FOR SMART AT, MC
+RINGNODES
+
+Madge Networks Inc. (San Jose, Calif.) has introduced a software
+driver that it says gives its 4 Mbps Smart AT and MC Ringnodes the
+performance of IBM's 16 Mbps Token Ring.  Madge's Smart Server
+software uses the IBM PS/2's busmaster capabilities and leaves the
+CPU free by offloading low-level network activity onto the Token
+Ring adapter.
+
+The Smart Server automatically configures itself to the interrupts
+and I/O of the Smart Ringnode and is compatible with Micro Channel
+and AT-style PCs, Madge said.  Scheduled to be available this
+quarter, Smart Server will be offered free to current Madge Smart
+AT and MC Ringnode users.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "16"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+IMS-NV -- NETVIEW SUPPORT AVAILABLE FOR CROSSCOMM'S ILAN LAN-WAN
+BRIDGES
+
+CrossComm Corp. (Marlboro, Mass.) announced the availability of
+IMS-NV -- NetView support for its ILAN LAN-WAN bridges.  CrossComm
+said the new support will let IBM customers use a single 327X
+terminal and application software to manage IBM and CrossComm
+equipment.
+
+ILAN is a multi-function modular bridge that supports Ethernet,
+Token Ring, and StarLAN LANs.  CrossComm manages these bridges
+with its own IMS software.  NV-IMS will be available this month
+for $4,950, which includes the IMS-NV software and an Ethernet or
+Token Ring controller.
+
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+<A NAME = "17"></A>Copyright
+SNA COMMUNICATIONS REPORT via NewsNet
+January 11, 1990
+
+SIMWARE INTRODUCES SIMHLLAPI
+
+Simware (Ottowa, Canada) introduced SimHLLAPI, a high-level
+language API allowing peer-to-peer communications between an IBM
+host and PC applications.  SimHLLAPI allows users to access
+applications other than the traditional 3270 terminal
+applications.  Built-in drivers handle communication with the
+mainframe, while the PC is free to use its own intelligence and
+processing power.  The product is available immediately for $200.
+
+
+
+<A HREF ="#HeadList">Back to Headline List</A><BR>
+<HR>
+</PRE>
+</BODY>
+</HTML>
+</DOC>

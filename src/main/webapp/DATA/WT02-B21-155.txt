@@ -1,0 +1,126 @@
+
+<DOC>
+<DOCNO>WT02-B21-155</DOCNO>
+<DOCOLDNO>IA052-000883-B027-203</DOCOLDNO>
+<DOCHDR>
+http://sparc1k.images.alaska.edu:80/download.html 137.229.31.144 19970210140543 text/html 4539
+HTTP/1.0 200 OK
+Date: Monday, 10-Feb-97 14:05:58 GMT
+Server: NCSA/1.3
+MIME-version: 1.0
+Content-type: text/html
+Last-modified: Friday, 31-Jan-97 01:29:58 GMT
+Content-length: 4359
+</DOCHDR>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+<TITLE>ASF Tools Software Request</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#00008A" LINK="#008A00" VLINK="#A47B7E"
+BACKGROUND="res/backgrounds/asf_tile.gif">
+<A HREF="http://www.asf.alaska.edu/">ASF Home Page</A> |
+<A HREF="http://www.images.alaska.edu/STEP.html">STEP</A> |
+<A HREF="http://www.images.alaska.edu/software.html">Software Info</A> |
+<A HREF="http://www.images.alaska.edu/download.html">Download Software</A> 
+<P>
+<H1>ASF Tools Software Request Form</H1>
+Please fill out this form to request a specific tool or package. You may
+also visit our anonymous <A
+HREF="ftp://www.images.alaska.edu/pub/ucsl/local">ftp site</A> to download
+<A HREF="http://www.images.alaska.edu/STEP.html">ASF STEP</A> tools. 
+<P>
+<EM>Choose either a tool or program, not both!</EM>
+<P>
+<HR>
+<FORM METHOD="POST" ACTION="http://www.images.alaska.edu/cgi-bin/download.pl">
+<P>
+Would you like pre-compiled programs or source code?
+<SELECT SIZE=1 NAME="format">
+<OPTION SELECTED VALUE="">Choose format</OPTION>
+<OPTION VALUE="bin">Pre-compiled/Binaries</OPTION>
+<OPTION VALUE="src">Source Code</OPTION>
+</SELECT>
+<P>
+What platform/system do you run?
+<SELECT SIZE=1 NAME="system">
+<OPTION SELECTED VALUE="">Choose system</OPTION>
+<OPTION VALUE="irix">SGI/IRIX 5.x</OPTION>
+<OPTION VALUE="solaris">Solaris 2.x</OPTION>
+<OPTION VALUE="sunos">SunOS 4.1.3</OPTION>
+</SELECT>
+<P>
+<B>Choose a tool or</B> 
+<SELECT SIZE=1 NAME="tool">
+<OPTION SLECTED VALUE="">Choose software tool</OPTION>
+
+<OPTION VALUE="accum_image_offset/accum_offset">Accumulated Image Offset  
+</OPTION>
+<OPTION VALUE="along_track_mosaic/auto_swath_mosaic">Along Track Mosaicking
+</OPTION>
+<OPTION VALUE="auto_geocode/sarautoreg">Automatic Geocoding</OPTION>
+<OPTION VALUE="display_ddr/dspddr">Display DDR</OPTION>
+<OPTION VALUE="general_tape_reader/dump_multi_volume">General Tape 
+Reader</OPTION>
+<OPTION VALUE="image_to_geo_coord/twoway">Image/Geo Coord. Transform</OPTION>
+<!OPTION VALUE="interferometry/interferometry"><!Interferometry</OPTION>
+<OPTION VALUE="large_scale_mosaic/auto_sar_mosaic">Large Scale 
+Mosaicking</OPTION>
+<OPTION VALUE="libraries/libraries">ASF Libraries</OPTION>
+<OPTION VALUE="ceos_metadata/metadata">Metadata Reader</OPTION>
+<OPTION VALUE="orbit_prediction/orb_pred">Orbit Prediction</OPTION>
+<OPTION VALUE="radiometric_calibration/calibrate">Radiometric Calibration
+</OPTION>
+<OPTION VALUE="resample/resample">Resample Images</OPTION>
+<OPTION VALUE="terrain_correction/terrcorr">Terrain Correction</OPTION>
+</SELECT>
+<P>
+
+<B>a software program.</B>
+<SELECT SIZE=1 NAME="sw">
+<OPTION SELECTED VALUE="">or software program</OPTION>
+<OPTION VALUE="accum_image_offset/accum_offset">accum_offset</OPTION>
+<OPTION VALUE="libraries/asf_inc">asf_inc</OPTION>
+<OPTION VALUE="libraries/asf_las">asf_las</OPTION>
+<OPTION VALUE="libraries/asf_lt">asf_lt</OPTION>
+<OPTION VALUE="libraries/asf_sar">asf_sar</OPTION>
+<OPTION VALUE="libraries/asf_tm">asf_tm</OPTION>
+<OPTION VALUE="large_scale_mosaic/auto_sar_mosaic">auto_sar_mosaic</OPTION>
+<OPTION VALUE="along_track_mosaic/auto_swath_mosaic">auto_swath_mosaic
+</OPTION>
+<OPTION VALUE="radiometric_calibration/calibrate">calibrate</OPTION>
+<OPTION VALUE="concat_image/concat">concat</OPTION>
+<OPTION VALUE="concat_image/concatm">concatm</OPTION>
+<OPTION VALUE="display_ddr/dspddr">dspddr</OPTION>
+<OPTION VALUE="general_tape_reader/dump_multi_volume">dump_multi_volume
+</OPTION>
+<OPTION VALUE="ceos_metadata/ex_corners">ex_corners</OPTION>
+<OPTION VALUE="fix_ccsd/fix_ccsd">fix_ccsd</OPTION>
+<OPTION VALUE="ceos_metadata/metadata">metadata</OPTION>
+<OPTION VALUE="orbit_prediction/orb_pred">orb_pred</OPTION>
+<OPTION VALUE="resample/resample">resample</OPTION>
+<OPTION VALUE="auto_geocode/sarautoreg">sarautoreg</OPTION>
+<OPTION VALUE="terrain_correction/terrcorr">terrcorr</OPTION>
+<OPTION VALUE="image_to_geo_coord/twoway">twoway</OPTION>
+</SELECT>
+
+<P>
+<HR>
+<P>
+<INPUT TYPE="reset" VALUE="Clear Form">
+<INPUT TYPE="submit" VALUE="Download Software">
+</FORM>
+<P>
+</BODY>
+<ADDRESS>
+<HR>
+Last Updated: July 23, 1996 <BR>
+Last Updated By: <A HREF="users/mike/mike.html">Michael Shindle</A><BR>
+If you have any questions, please feel free to email <A
+HREF="mailto:mshindle@images.alaska.edu">me</A> or send us a <A
+HREF="comments.html">comment</A>.
+<P>
+</ADDRESS>
+</HTML>
+
+</DOC>

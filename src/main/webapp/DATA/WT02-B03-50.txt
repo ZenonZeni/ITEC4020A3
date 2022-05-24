@@ -1,0 +1,186 @@
+
+<DOC>
+<DOCNO>WT02-B03-50</DOCNO>
+<DOCOLDNO>IA002-000022-B023-156</DOCOLDNO>
+<DOCHDR>
+http://www.questercorp.com:80/ukeelpap.html 204.174.117.37 19961231213741 text/html 16196
+HTTP/1.0 200 OK
+Date: Tue, 31 Dec 1996 21:37:48 GMT
+Server: Stronghold/1.3.2 Ben-SSL/1.3 Apache/1.1.1
+Content-type: text/html
+Content-length: 15995
+Last-modified: Tue, 24 Dec 1996 18:46:33 GMT
+</DOCHDR>
+<HTML><head>
+<title>Quester Tangent Under Keel Clearance Guide - Paper at  Canadian Hydrographic Conference, 1996</title>
+
+</head>
+<body  bgcolor="#ffffff" BACKGROUND="graphics/paper4.jpg"  text="#333399" link="#00A000" alink="#EE0000" vlink="#861C8E">
+
+
+
+<IMG  ALIGN=LEFT HSPACE= 15 SRC="graphics/ques2.gif" alt=" ">
+<H1>Paper presented at Canadian Hydrographic Conference, 1996</H1>
+<BR CLEAR=ALL>
+
+
+<TABLE BORDER=0>
+<TR><TD><IMG ALIGN=LEFT HSPACE=8 SRC="graphics/spacer.jpg" alt=" "></TD><TD>
+<H2>An Under Keel Clearance Guide for Ports and Waterways</H2>
+
+
+<H4>Paul Lacroix and James Kightley<BR>
+Quester Tangent Corporation<BR>
+Sidney, British Columbia, Canada</H4>
+
+<H3>Abstract</H3>
+The Under Keel Clearance Guide (UKCG) is a new element in a modern VTMS system. The UKCG integrates bathymetry, weather and sophisticated tide, current and squat models to provide predictive vessel clearance information. Operating on a networked work station, it provides both real-time and forecast products and planning tools to the user. It is able to display forecast clearance along a route and allows trade-offs to be made during loading, regarding planned draught, departure time and route selection.<P>
+<H3>Introduction</H3>
+As ports and waterways infrastructure becomes more integrated, ship operators, port operators and pilots are requiring that more information be available on-line and on-demand.  This article describes a new element of a Vessel Traffic Management System (VTMS) which is providing, among other products, water depth, water column current and vessel under keel clearance. Integrating a number of technologies for the first time, this system provides information for any area in the port or waterway, including forecast information for a 12 hour period.
+At present, vessel operators and pilots rely upon tide tables, paper or electronic charts, and local knowledge to determine acceptable draughts for vessels, and to plan berthing procedures. While reliable, these sources of information are not optimal, and cannot easily take account of day to day changes. While tidal effects dominate water column current and depth, other non-tidal effects can be quite significant. The technology described here incorporates these effects to improve capabilities to forecast water depths, currents, and under keel clearance in the port area.<P>
+The Under Keel Clearance Guide (UKCG) is based upon accurate forecast and now-cast water depth and current information. It integrates vessel hull shape, speed and other information to provide a forecast tool and alarm system component of the VTMS. The technology is delivered as a work station that runs database and modeling software, and delivers reports through an easy to use Graphical User Interface (GUI).<P>
+This technology helps to optimize berthing and loading operations, while enhancing safety. As described below, forecasts of safe transit windows are routinely provided and tools for emergencies are available. The technology offers significant advantages in ports with draught limitations or strong currents, and also those ports with lightering operations.  <P>
+The Under Keel Clearance Guide is an integration of technologies from several disciplines.  A sophisticated Digital Tidal Atlas (DTA) is a major module.  This atlas, with integrated wind, air pressure and water density elements, is derived from decades of research by oceanographers working in coastal regions.  The vessel squat model is a second key element.  Finally, accurate digital bathymetry with tools for validation and editing is a third essential module.  To be useful, this system can be delivered as an integral part of a VTMS.  Operating as part of a Local Area Network, the Under Keel Clearance Guide accepts data from the VTMS system as well as from other oceanographic and meteorological sensors, and provides status information, planning tools, and emergency alarms. Alternatively, the system can operate as a stand-alone unit alongside existing port information systems. <P>
+The implementation described here is supplied by Quester Tangent as an element of a VTMS system being delivered by Lockheed Martin to a major oil port.<P>
+<H3>System Design</H3>
+The design of the Under Keel Clearance Guide is described in terms of the flow charts shown as Figures 1, 2, and 3.  For example, the Digital Tidal Atlas Predictor (DTA) accepts requests for water depth or current information from the system, and provides actual and forecast conditions throughout the port or along a route.  The Atlas is based upon a 3-D finite element model which is tuned and run in the port area.  The DTA uses the constituents from the tidal model, and incorporates seasonal water density variability and actual winds and air pressure to estimate the water level. Permanently installed sensors such as acoustic Doppler current meters, tide gauges and meteorological sensors are used to update and validate the water depth and water column current forecasts from the DTA.  
+<P>
+
+<CENTER><IMG ALIGN=TOP SRC="graphics/keelp1.gif" alt=" "><BR>
+<STRONG>Figure 1 Digital Tidal Atlas Predictor</STRONG></CENTER>
+<BR CLEAR=ALL>
+The vessel squat predictor requires water depth/current information, bathymetric data, information about the vessel hull shape, and actual or forecast speed, heading, and draught information.
+<P>
+<CENTER><IMG ALIGN=TOP SRC="graphics/keelp2.gif" alt=" "><BR>
+<STRONG>Figure 2 Vessel Squat Predictor</STRONG></CENTER>
+<BR CLEAR=ALL>
+
+
+
+The Under Keel Clearance Predictor combines the above results.  Taking forecast squat plus forecast water depth, and adding digital bathymetry, it produces a forecast of the under keel clearance for the vessel.  The predictor incorporates its knowledge of the vessel dimensions and the surrounding bathymetry to return both the forecast clearance and a confidence level.<P>
+This design supports the operator requests illustrated in Figure 4.  Based upon modern GUI technology supported by on-line help, and alarm and status indicators, the operator can request information under the general headings of current, water depth, and clearance.  <P>
+Water column currents, surface currents and time series of currents can be displayed at any point in the port region.  Current information is similarly available when a request specifies the time, depth range, and the geographic region of interest.  All of this nowcast and forecast information is validated by tide and current information provided by on-line sensors in the port area.  <P>
+The remaining information products include both planning and real-time monitoring tools.  For example, "Cross Flow over Route" provides a forecast of currents along a planned route.  "Clearance over Route" provides a graphical display of the forecast clearance as a function of time and position along the planned route.  In addition, as the vessel is transiting this route, real-time position and speed along the route is used to provide a real-time clearance forecast, including an alarm system which alerts the operator of a potential hazardous situation ahead of the vessel being tracked.
+<P>
+<CENTER><IMG ALIGN=TOP SRC="graphics/keelp3.gif" alt=" "><BR>
+<STRONG>Figure 3 Under Keel Clearance Predictor</STRONG></CENTER>
+<BR CLEAR=ALL>
+
+
+<TABLE CELLSPACING=3 CELLPADDING=3  BORDER=1>
+<TH>FUNCTION</TH><TH>OUTPUT</TH><TH>INPUTS</TH><TR><TD ALIGN=TOP>Water Column Current
+</TD>
+<TD WIDTH=35%>current vector profile over water column
+</TD>
+<TD WIDTH=35%>position, time
+</TD></TR>
+<TR><TD ALIGN=TOP>
+Current Vector Field
+</TD>
+<TD>
+current vectors over rectangular area
+</TD>
+<TD>
+area extent, depth, time
+</TD></TR>
+<TR><TD ALIGN=TOP>
+Current Time Series
+</TD>
+<TD>
+current vector over time period
+</TD>
+<TD>
+position, depth, time period
+</TD></TR>
+<TR><TD ALIGN=TOP>Depth Time Series</TD>
+<TD>water depth over time period</TD>
+<TD>position, time period
+</TD></TR>
+<TR><TD ALIGN=TOP>Tidal Height Table</TD>
+<TD>hourly tidal heights over calendar month</TD>
+<TD>
+position, month
+</TD></TR>
+<TR><TD ALIGN=TOP>Tidal Current Table
+</TD>
+<TD>hourly tidal currents over calendar month</TD>
+<TD>position, depth, month
+</TD></TR>
+<TR><TD ALIGN=TOP>Cross Flow over Route</TD>
+<TD>cross flow current speed as function of time/position</TD>
+<TD>route, depth, start time</TD></TR>
+<TR><TD ALIGN=TOP>Water Depth over Route
+</TD>
+<TD>water depth as function of time/position</TD>
+<TD>route, start time</TD></TR>
+<TR><TD ALIGN=TOP>Vessel Squat
+</TD>
+<TD>maximum vessel squat depth
+</TD>
+<TD>position, time, vessel ID, static draught, speed, heading
+</TD></TR>
+<TR><TD ALIGN=TOP>Clearance over Route
+</TD>
+<TD>under keel clearance as function of time/position
+</TD>
+<TD>route, start time, vessel ID, static draught
+</TD></TR>
+<TR><TD ALIGN=TOP>Safe Passage Window
+</TD>
+<TD>time windows during which it is safe to sail 
+</TD>
+<TD>route, earliest and latest start times, vessel ID, vessel static draught, safe clearance limit
+</TD></TR>
+<TR><TD ALIGN=TOP>Clearance During Loading
+</TD>
+<TD>under keel clearance as function of time
+</TD>
+<TD>position, start time, vessel ID, initial static draught, loading rate, load remaining
+</TD></TR>
+</TABLE>
+<CENTER>
+<STRONG>Figure 4  Operator Requests</STRONG></CENTER>
+<BR CLEAR=ALL>
+
+
+The "Safe Passage Window" and "Clearance during Loading" functions are used as planning tools.  Based upon vessel status and forecast conditions, they allow quick investigations of trade-offs between additional cargo and delayed sailing, and quicker departure with a lighter cargo.  <P>
+<H3>System Architecture</H3>
+The Under Keel Clearance Guide is implemented on a powerful work station, with real-time data flow as illustrated in Figure 5.  Here we see a Local Area Network connecting the port VTMS system with remote terminals and displays and the UKCG system.  
+<P>
+<CENTER><IMG ALIGN=TOP SRC="graphics/keelp5.gif" alt=" "><BR>
+<STRONG>Figure 5 Under Keel Clearance and Digital Tidal Atlas Real-Time Data Flow</STRONG></CENTER>
+<BR CLEAR=ALL>
+
+On the right-hand side of this diagram, the manual and automated input of sensor and other data are shown.  During an initial configuration and validation period, the data bases shown in the diagram are installed and tested.  A vessel data base describing hull form and vessel identification is required.  The tides/currents and non-tidal effects data bases are developed by running the models described above as customized for the port area.  Finally the bathymetric data base is collected, validated and installed from new surveys or existing charts and digital data.  After initial validation, these data bases are maintained and edited as required.  <P>
+The remainder of Figure 5 shows the three main processing modules described earlier,  and their interfaces to the data bases and the GUI which handles information requests.<P>
+Recognizing that the technology described here involves on-going evolution and improvement after installation, the system incorporates validation software tools, editing and Quality Assurance procedures, and a plan for regular review of performance.  In addition, training is an essential component of a successful long term implementation.  Including these elements within the system ensures that advanced technology like the UKCG continues to be a useful tool in the hand of the trained operators on a continuing basis.<P>
+
+<H3>Implementation</H3>
+
+The system is implemented on a DEC Alpha UNIX work station and requires 100 Mb of disc space and 40 Mb of virtual memory during operation.  A detailed interface specification was designed and implemented to ensure ease of integration of the UKCG into the Lockheed VTMS.  The system receives real-time data from both oceanographic and meteorological sensors via the VTMS local area network.  Four bottom mounted acoustic doppler current meters are being installed in the port area. Wind and air pressure data will be received from five existing meteorological stations located in the general area of the port.
+<P>
+The tidal data base has been constructed using existing bathymetry and coastline, together with the historical tide and current meter data.  A 3-D finite element model generated the tidal constituents data base with over 16,000 nodes each with 11 depth levels.  The nontidal effects data base was statistically generated using the observed meteorological and oceanographic data.  The bathymetry data base includes all of the over 300,000 data points provided by the Port.  Vessel hull characteristics are obtained from an on-line Lloyds data base of ships or from the system operators.
+<P>
+In order to access the system performance the validation software tool was used to verify correct operation. This validation tool uses either operator entered commands or command files to exercise the UKCG system and provide a quantitative assessment of the system performance. The historical oceanographic and meteorological data were played back and water level and current forecasts calculated for up to 48 hours in the future.  These DTA predictions were compared with the observed data to validate operation.  The vessel under keel clearance and loading functions were tested with information of ships known to visit the port transiting through the port traffic corridors.  These results were compared with manual observations.
+<P>
+Results from the validation process show that the UKCG provides significantly improved forecasts of water levels and vessel clearance forecasts over existing procedures up to 12 or 18 hours in the future.  It was found that non-tidal effects on water levels in the area of interest were up to 60 cm.  Typical vessel squat estimates for oil tankers underway in the port area were 50 cm.  The present port standing orders provide for a fixed safety allowance of 152 cm above the tidal predicted water level at the shoalest point of the vessel traffic corridor.  Considering these figures it is expected that UKCG will provide information which potentially would allow vessels to be loaded to optimal draughts 50 to 100 cm greater than currently used depending upon local conditions.<P>
+<H3>Conclusions</H3>
+The Under Keel Clearance Guide represents another tool for the safe and efficient management of modern port operations.  Integrating real-time and forecast winds and currents, digital bathymetry, and sophisticated models, the system provides detailed forecast and now-cast tools in the port area.  Graphical tools which allow a display of the forecast clearance as a vessel transits a route are provided.  The tools allow quick analyses of safe draughts for vessels while loading or entering the port, under actual current, tidal, and vessel speed conditions.  The technology will be particularly valuable in ports with limited clearance, or having strong currents, and where lightering operations are required.
+<P>
+At present, this technology is delivered as part of an integrated VTMS.  In the future, it will be implemented with remote portable terminals based upon a lap-top computer and a communications link with the VTMS.  This will allow pilots aboard vessels to access under keel clearance products in real-time.  <P>
+
+</TD><TD>&#160;&#160;</TD></TR></TABLE>
+<IMG ALIGN=LEFT HSPACE=8  SRC="graphics/spacer.jpg" alt=" "><HR SIZE=4><BR CLEAR=ALL>
+<A HREF="index.html"><IMG  HSPACE=15 Border=0 Align=Left SRC="graphics/queshome.gif"></A>
+<TABLE  BORDER=0>
+<TR><TD><FONT SIZE=4>Go to <BR><A HREF="index.html">HOME PAGE</A>
+<P></TD><TD>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<P></TD>
+<TD><strong>How to reach us:<BR>
+
+&#160;&#160;&#160;&#160;Phone: 1-250-656-6677 <br>
+&#160;&#160;&#160;&#160;Fax: 1-250-655-4696<BR>
+&#160;&#160;&#160;&#160;E-mail: <a href=mailto:sales@questercorp.com>sales@questercorp.com</a></strong></FONT></TD></TR></TABLE>
+<IMG ALIGN=LEFT HSPACE=8  VSPACE=30 SRC="graphics/spacer.jpg" alt=" "><HR SIZE=4><FONT SIZE="-1">Copyright &#169; 1996 by QUESTER TANGENT CORPORATION<BR>
+9865 West Saanich Road, Sidney, B.C. Canada V8L 3S1</BLOCKQUOTE>
+</body></html>
+</DOC>

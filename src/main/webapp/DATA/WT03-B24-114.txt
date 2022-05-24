@@ -1,0 +1,91 @@
+
+<DOC>
+<DOCNO>WT03-B24-114</DOCNO>
+<DOCOLDNO>IA053-000895-B043-96</DOCOLDNO>
+<DOCHDR>
+http://isse.gmu.edu:80/students/pfarrell/censorusenet.html 129.174.40.15 19970123194623 text/html 3225
+HTTP/1.0 200 Document follows
+Date: Thu, 23 Jan 1997 19:45:13 GMT
+Server: NCSA/1.5.2
+Last-modified: Wed, 17 Jan 1996 20:33:47 GMT
+Content-type: text/html
+Content-length: 3042
+</DOCHDR>
+<HTML>
+<head>
+<TITLE>Intsructions on avoiding censorship of UseNet</TITLE>
+<link rev="made" href="mailto:pfarrell@isse.gmu.edu">
+</head>
+<body>
+<body BACKGROUND="./ihn_back.gif">
+<H1>UseNet Censorship Workarrounds</H1>
+<ul>
+<li>This gopher site has a <a href="gopher://gopher.msu.edu"> 
+full uncensored UseNet feed</a>
+<li>Community ConneXion, founded in June of 1994, is the leading provider
+of privacy on the Internet. They provide anonymous and pseudonymous
+Internet access and web pages in addition to powerful web service,
+virtual hosts, and web design consultation.  Information is available
+from their web pages at 
+<a href="http://www.c2.org/"> http://www.c2.org/. </a>
+More information on the uncensored promotion is available at 
+<a href="http://www.c2.org/uncensored/"> http://www.c2.org/uncensored/.</a>
+<li>
+Cheaper still (and more compatible with GUI newsreaders) try AltNet:
+<pre>
+   > telnet news.alt.net nntp
+   Trying 204.137.156.2...
+   Connected to tofu.alt.net.
+   Escape character is '^]'.
+   200 Mail <a href="mailto:info@alt.net">info@alt.net</a> for info about $5/month NNTP access (posting ok).
+</pre>
+
+If you can't afford $5/month, you can't afford Compu$erve.
+<li>Duncan Frissell <frissell@panix.com>'s 
+<a href="http://www.cs.umass.edu/~lmccarth/cypherpunks/banned.html">
+Idiots Guide to Reading Banned Newsgroups via CompuServe</a> aka
+<a href="http://www.cs.umass.edu/~lmccarth/cypherpunks/banned.html">
+http://www.cs.umass.edu/~lmccarth/cypherpunks/banned.html</a>
+</ul>
+<h3>Instructions on getting arround UseNet "censorship" attempts</h3>
+
+From: Duncan Frissell <frissell@panix.com> <br>
+To: cypherpunks@toad.com <br>
+Subject: Compuserve *hasn't* banned newsgroups<br>
+<p>
+So I'd heard that CompuServe had banned access to all those naughty
+newsgroups including my favorite alt.binaries.erotic.senior-citizens.  Could
+this be true?  I fired up my CompuServe Internet Dialer (the PPP software
+packaged with WinCim and logged on to the nets.  Sure enough.  The popular
+binaries groups were missing from news.compuserve.com.  But not to be
+deterred...
+<p>
+I grabbed a copy of the Free Agent newsreader available at:
+<br>
+<a href="http://www2.interpath.net/forte/agent/freagent.htm">
+http://www2.interpath.net/forte/agent/freagent.htm</a>
+<br>
+or
+<br>
+<a href="ftp.forteinc.com/pub/free_agent/fagent10.zip">
+ftp.forteinc.com/pub/free_agent/fagent10.zip</a>
+<p>
+I grabbed the latest list of open NNTP Servers from:
+<br>
+<a href="http://dana.ucc.nau.edu/~jwa/open-sites.html">
+http://dana.ucc.nau.edu/~jwa/open-sites.html</a>
+<p>
+I pointed my copy of Free Agent at CPCNET's open news server (198.70.185.5)
+and grabbed a list of groups sure enough, there were the seasoned citizens
+in all their glory.  And I was checking out those binaries via CompuServe.
+<p>
+Don't tell the Bavarians. 
+<p>
+</ul>
+<hr>
+<A HREF="http://www.isse.gmu.edu/students/pfarrell/disclaimer.html"> PDF</a>
+January 15, 1996.  
+Backto <a href="./hotlist.html">Pat's hotlist</a> Backto <a href="./index.html">Pat's homepage</a>
+</body>
+</HTML>
+</DOC>

@@ -1,0 +1,367 @@
+
+<DOC>
+<DOCNO>WT02-B12-101</DOCNO>
+<DOCOLDNO>IA087-000631-B022-80</DOCOLDNO>
+<DOCHDR>
+http://res2.resnet.upenn.edu:80/cis590/reading.131.html 130.91.195.242 19970122065038 text/html 20741
+HTTP/1.0 200 OK
+Date: Wed, 22 Jan 1997 06:50:37 GMT
+Server: Apache/1.1.1
+Content-type: text/html
+Content-length: 20569
+Last-modified: Tue, 22 Nov 1994 06:32:54 GMT
+</DOCHDR>
+McCandlish responds to Denning (and White), re: Clipper (fwd) <p>
+
+Forwarded message:
+&gt;From mech  Wed Feb 23 16:29:09 1994
+From: Stanton McCandlish &lt;mech&gt;
+Message-Id: &lt;199402232129.QAA26181@eff.org&gt;
+Subject: McCandlish responds to Denning (and White), re: Clipper
+To: hwhite@ccs.neu.edu (Howard White)
+Date: Wed, 23 Feb 1994 16:29:07 -0500 (EST)
+Cc: denning@cs.cosc.georgetown.edu, denning@guvax.acc.georgetown.edu,
+        mech@eff.org
+In-Reply-To: &lt;199402182202.RAA28617@denali.ccs.neu.edu&gt; from "Howard White"
+at Feb 18, 94 05:02:50 pm
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 19010 <p>
+
+&gt; from Howard White
+&gt; &gt;
+&gt; &gt; Your responses to the Campaign and Petition Against Clipper document were
+&gt; &gt; good. Thank you for the attention to the topic. I'd like to ask one
+&gt; &gt; question of my own. Why has the EFF seeminglly taken such a strong stand
+&gt; &gt; against Clipper? <p>
+
+[Denning replies:] <p>
+
+&gt; Thanks for your kind words.  I don't know why really, but I speculate that
+&gt; they just don't take seriously what the FBI and NSA say about law enforcement
+&gt; and national security concerns.  The EFF founders have been opposing these
+&gt; parts of the government since their youth.  EFF was originally started
+&gt; to defend hackers against over-zealous law enforcers.
+&gt;
+&gt; Dorothy <p>
+
+Hmm, well Howard, Dr. Denning, last I looked, is not an EFF spokesperson,
+so I wouldn't put too much weight on her comments about what EFF does and
+does not take seriously. <p>
+
+Casting aspersions on people's allegedly wilder youths has no
+relevance to current policy matters.  By such reasoning, Dr. Denning
+should also be opposed to Clipper, since the head of the govt. pushing
+Clipper admits to having smoked marijuana, and may have even dodged the
+draft back in the hippie era. <p>
+
+Also EFF was not founded as a hacker defense organization.  It was founded
+to protect, and help define, civil liberties in the realm of computers and
+telecommunications.  That some of these cases are cases of alleged system
+crackers is not surprising, but it hardly indicates that EFF is limited
+to, or began as, "hacker defense".  Such [lack of] logic is tatamount to
+saying that the US welfare system is a Black support fund, because more
+African-Americans are using it that Anglos, Asians, or Hispanics. <p>
+
+Avoiding such diversions, and getting back to the real issue here:
+for the record, EFF is indeed concerned with national security and law
+enforcement, but does not see that Clipper will in any way serve legitimate
+law enforcement or national security needs.  It was publicly known, right from
+day one, that Clipper is tappable by LE and intelligence agencies, and
+that the keys are held by govt. institutions.  Criminals, spies and
+terrorists are highly unlikely to use Clipper or other Skipjack-based
+"products" like Capstone and Tessera.  The "products" threaten the
+viability of US businesses, as do the current crypto export regulations;
+not to mention that the govt. is not in the business of being in business,
+and competing in a cryptography product marketplace - the govt. is
+supposed to be in the business of governing (protecting US citizens from
+depradations of those that would harm their person or property, and
+protecting the US from foreign invasion.) <p>
+
+The privacy risks involved with a scheme like the Clipper EES system far
+outweigh the gains for (legitmate) law enforcement and intelligence
+efforts, particulary given the following: <p>
+
+* the "authorization" required to get Clipper keys is left entirely undefined
+* proof of this authorization will supposedly only be required to be *faxed*,
+  leaving the entire escrow system wide open for abuse
+* the algorithm is classified, and thus is not open to the public scrutiny
+  necessary to see if it is adequate security, even without key escrow
+* key escrow is, conceptually, no different from a requirement that police
+  and spies have copies of all of your house and car keys, your computer
+  passwords, and your safe combinations - key escrow is un-American and
+  unconsitutional.
+* the NSA, in direct countervention of the spirit, if not the word, of
+  legislation prohibiting it's involvement in domestic surveillance, has
+  been the primary driving force behind Clipper from the outset.
+* the keys, as of the most recent White House briefings, are to be held by
+  agencies that are closely related to the very law enforcement and
+  intelligence bodies the split-key escrow system is supposed to protect
+  users from
+* any security system with a security hole (like key escrow) is, by very
+  definition, insecure.  Relying upon an insecure system thought to
+  be secure is often more dangerous that having little or no security (and
+  being well aware of the fact, and able to plan accordingly)
+* referring to "key escrow" as "escrow" at all is misleading.  A true escrow
+  system would hold users keys *for the users*.  The current Clipper plans
+  would hold users keys *for police and intelligence agents*.  The "key
+  escrow" scheme is actually a key *surrender* scheme.
+* under current Dept. of Justice regulations for obtaining escrowed keys,
+  there is no mechanism in place to ensure that the keys requested are
+  relevant to the case at all, belong to the person the requesting agencies
+  think they do, or are destroyed after the monitoring ceases.  Furthermore,
+  there is no way to enforce the cessation of monitoring after the legally
+  "authorized" cut-off date, nor are any procedures in place for assuring
+  that the unscrupulous do not begin building "collections" of keys,
+  surrepetitiously.  Even more disturbing, though, is that possession
+  of the keys allows agents to decrypt *all* communications, even from
+  years past, made with that key, regardless of whether or not the
+  communications are relevant to the case at hand.
+* worse yet, the regulations conclude with a notice that basically says that
+  *even if the key [and thus the evidence] is obtained by breaking every
+  single rule of the procedure, illegally* that the evidence is still
+  admissible in court.  This attempts to get around all legal restriction
+  regarding what is and is not proper evidence.  Such a [lack of]
+  regulation could easily subvert the entire judicial process, and make a
+  mockery of the democracy this country was founded on.  This system
+  dangerously sets up a system of "rules" that can be broken with impunity,
+  while still allowing the rulebreaker to "win the game."  To be viable,
+  the system would have to ensure that, like the rest of the
+  evidence-gathering process, use of escrowed keys most be done properly for
+  evidence to be admissable, and that agents and agencies that abuse the
+  system are liable for their criminal behaviour.
+* because only privacy-careless law abiding citizens, and very stupid
+  criminals, would use Clipper, Clipper appears to be designed with
+  the monitoring of non-criminals in mind.  The only way that Clipper would
+  be of any use in catching the "terrorists, drug dealers, and child
+  molesters" govt. spokespersons wave before the public like scarecrows
+  [shades of "the Reds are coming, the Reds are coming!], would be if all
+  non-key-escrow crypto is outlawed.  The Administration, today, says it
+  has no plans to ban non-EES cryptographic applications.  However the
+  Administration also promised a full report on the viability of Clipper, and
+  instead simply announced it's intentions, despite clear majority opinion
+  against Clipper, to proceed full steam ahead, with out the necessary
+  legislative involvement; no report has yet been issued.  Keep in mind also
+  that the Clinton Administration is unlikely to last beyond the next 3 years.
+  The Admin. that follows may very well decide to ban non-Clipper crypto.
+  The Administration's assurances on this matter, then, are the farthest
+  thing from comforting or sufficient.  Logically, Clipper is either designed
+  with the intent to rid the US of cryptography that the NSA cannot peek
+  through, or it is designed for cloak-and-dagger monitoring of those who
+  are not even criminals (perhaps those with unpopular religious or political
+  views).  There are simply no other reasonable explanations.
+* and, finally, wiretaps are not as useful to law enforcement as law
+  enforcement would like people to believe.  Only about 1000, often fewer,
+  wiretaps are done each year in the US.  Only a small fraction of them
+  yield convictions.  Certain agencies of the govt. would like to compromise
+  the privacy, security, and civil liberties of the entire populace to
+  preserve one of the least-used and least-effective investigative methods
+  available to law enforcement. <p>
+
+&gt; Thanks for your answer. I've been reading books and articles about the EFF
+&gt; for several years now and I've met Mitch Kapor through cyberspace so I
+&gt; think my understanding of the EFF is well rounded and mature. My take on
+&gt; the EFF is that the founders saw that law enforcement blundering around in
+&gt; cyperspace using the current legal standards which were highly
+&gt; inappropriate. The test cases have clearly shown that law enforcement has
+&gt; made huge errors. The EFF has stated many times that theft and/or
+&gt; distribution of passwords, credit card numbers, phone access codes, and the
+&gt; like is clearly illegal. The EFF clearly wants illegal activities stopped.
+&gt; But law enforcement practices that dictated total confiscation of computer
+&gt; equipment that is only suppected of containing illegal information seems a
+&gt; bit much. Besides, as the EFF has said, the legal costs of even proscuting
+&gt; kids (hackers) for exploration and adventure is something most tax paying
+&gt; citizens would blast is very waistful. If business and government can't
+&gt; protect themselves against children playing around in the networks then
+&gt; tough. The government does not take way a child's bike for a traffic
+&gt; violation even though damage to property and lives are very much a reality.
+&gt; The EFF, I think, is just trying to bring some sanity to the situation.
+&gt;
+&gt; Sorry about the ranting. I think that it is a GOOD THING that, in your
+&gt; words, the "EFF was originally started to defend hackers against
+&gt; OVER-ZEALOUS law enforcers." OVER-ZEALOUS is a BAD THING in absolute terms.
+&gt; Clipper seems to me to be over-zealous, because it gives absolute power to
+&gt; government law enforcement agencies. Even I can easily imagine each
+&gt; government law enforcement agency forming independant super secret groups
+&gt; that do nothing but snoop around the net examining and acting on any
+&gt; information they see. <p>
+
+Well said, Howard!  Saved me a lot of typing! <p>
+
+&gt; Thanks very much for your time.
+&gt;
+&gt; Howard
+&gt;
+&gt; At 11:54 AM 2/18/94 -0500, Dorothy Denning wrote:
+&gt; &gt;I helped with the defense of one of the major cases in the beginning -
+&gt; &gt;Craig Neidorf.  Later I went and interviewed some of the people in law
+&gt; &gt;enforcement who were working hacker cases.  What I discovered was that
+&gt; &gt;whereas there were indeed a few cases that were mismanaged, the vast
+&gt; &gt;majority of the cases were handled extremely well in accordance with
+&gt; &gt;the deeds done.  Unfortunately, that side of it never got out, so readers
+&gt; &gt;on the net never heard about anything other than the few bad cases.  And
+&gt; &gt;even then, some of the "facts" presented were wrong.
+&gt; &gt;
+&gt; &gt;Dorothy <p>
+
+Please quote us some of these '"facts"'.  If you are talking about general
+Usenet chatter, well, of course some facts are wrong.  That's Usenet.  It
+appears to me, however, that you imply that EFF and similar organizations
+have been actively disseminating misinformation.  If that is indeed the
+gist, please defend this assertion. <p>
+
+&gt; I may have seen your name in some of the books and articles over the past
+&gt; few years. Many of the errors that I'm speaking of were those in the late
+&gt; eighties. Clifford Stolls story and the "Great Hacker Crackdown". It wasn't
+&gt; just the errors of over-zealousness. <p>
+
+Clifford Stoll's story had nothing to do with the EFF and related hacker
+cases you are referring to, nor with Operation Sundevil.  Stoll's book
+dealt with the case of a German spy working for the KGB.  Maybe it's time
+you did a re-read? <p>
+
+&gt; Getting law enforcement to pay
+&gt; attention also was nearly impossible at times too. It still is. It seems as
+&gt; if the government agencies have no foot soldiers and can only drop the bomb
+&gt; when brought into potential computer crime cases. <p>
+
+I don't think any of us will accept that as a valid excuse.  If the
+problem is manpower, perhaps they should hire more cops, or better yet,
+stop trying to prosecute people for consensual, victimless, and
+perpetrator-as-sole-victim crimes.  If the problem is funding, see
+previous sentence.  If the problem is ignorance of technical topics, there
+are such things as books and classes. <p>
+
+&gt; And I don't blame the government. I blame the inherent anarchy of computers
+&gt; and computing. Electronic computing by its very nature is uncontrollable.
+&gt; Trying to control computing technologies is just like trying to control
+&gt; people's minds or trying to control people's writings. <p>
+
+Absolutely. <p>
+
+&gt; When you try to
+&gt; control computing its only the unknowing who are hurt. The informed
+&gt; computer community will know how to neutralize Clipper with other public
+&gt; domain encryption standards like PGP and RIPEM. And maybe the public domain
+&gt; stuff is not as tough as Clipper, none of this is really the point for me. <p>
+
+The use of PD crypto, or any non-EES crypto, could easily be outlawed.
+This is NOT a valid assurance, no matter how much the Administration likes
+to pretend it is. <p>
+
+&gt; I've seen how misunderstanding computing technologies can be the ruin of
+&gt; information structures and information systems. Computers are not well
+&gt; understood yet. After ten years of implementation, personal computers are
+&gt; just starting to be understood by institutions and organizations. It will
+&gt; be twenty years more before the general public begins to have a feel for
+&gt; what computers and computing can truly do. At the same time computing has
+&gt; gone from the horse'n buggy to the jet plane by comparison. And tomorrow,
+&gt; users will be flying at light speed in outer space by comparison. Dec's
+&gt; Alpha chip and IBM/Apple/Motarola's PowerPC will put supercomputing speeds
+&gt; on the desktop. The speed of light speed limit, which was supposed to have
+&gt; kicked in by now, does not seem to be slowing chip engineers down in the
+&gt; least. Every eighteen months chip cycle speeds double and chip prices go
+&gt; down by half. Humankind will have access to practically unlimited computer
+&gt; power early in the twenty-first century.  Remember Television. How proud
+&gt; are we of our low resolution video standard now. There is no need to rush
+&gt; any encryption technology into place as a standard right now. <p>
+
+That's a very rousing statement, and one I fully agree with. <p>
+
+&gt; Most computer users don't know how to truly use what computing power they
+&gt; have now. And worse, Clipper seems to establish a process which trys to
+&gt; limit some aspect of the unlimitable right now. As time goes on,
+&gt; governments will make it a habit of putting limits in place and fewer
+&gt; citizens will even notice those limits. <p>
+
+Yes, and the worst danger is that limits placed on future technology don't
+just limit what we predict is coming; they limit all the new things we
+haven't thought of yet, for generations, maybe forever. <p>
+
+&gt; And once again human kind world
+&gt; wide will experience government inefficiency and bureaucracy without even
+&gt; having to thinking about it. When will governments learn they can't limit
+&gt; the mind, NOR CAN GOVERNMENTS LIMIT TOOLS OF THE MIND. Governments are only
+&gt; successful when they educate their people about GOOD THINGS; i.e. unlimited
+&gt; computing access. Our government seems to be showing off this encryption
+&gt; standard as a politically timed event for some crime bill, rather than
+&gt; focusing political energy on the huge education task at hand. <p>
+
+Here I'll have to differ with you: govt. that is truly efficient is
+dangerous.  Witness Hitler's regime.  Don't confuse interference with
+inefficiency. A non-interfering govt. that is inefficient is desirable.
+Personally I don't think any govt. is effective or successful at
+education, only at propagandizing in the name of education.  The function
+of govt. is to physically protect (and, if you are not a fan of
+unregulated free markets, to ensure competition, prevent monopoly, and a
+few other such functions.)  Private education is almost universally more
+effective that govt.-run education.  IMNERHO. <p>
+
+&gt; The Clipper chip would be almost a petty thing if it weren't for the way in
+&gt; which the FBI and NSA seem to be involved behind the scenes. I'd probably
+&gt; be content to sit and watch this whole thing blow over if it weren't for
+&gt; the FBI and NSA's involvement. Those two organizations could, and probably
+&gt; have started wars. The NSA is really scary. Everything I've ever read about
+&gt; the NSA shows it to be completely structured around secrecy. The Secret
+&gt; Service, the FBI, and the CIA have had plenty of light blasting through
+&gt; their cobwebs and catacombs. The NSA is a polished black sphere of solid
+&gt; granite by comparison. Throughout history organizations that form around
+&gt; secrecy always spoil and rot from the inside out. The government will have
+&gt; its Clipper protected secrets and everyone else's Clipper protected secrets
+&gt; too. Something smells fishy to me. Hell! This stinks to high heaven...
+&gt; Sorry, my nose kind of got out of control there. <p>
+
+Yes, No Such Agency's involvement is what makes the scheme dangerous,
+because NSA has a lot of weight to throw around, and skeleton keys to the
+chambers of the highest (phrases like "national security" and "terrorist
+threat" tend to open plenty of metaphorical doors.)  If Clipper had been
+cooked up entirely by Clinton and Gore, it would be a laugh, since as a
+product it is doomed.  As an NSA-sponsored govt. standard, it is very much
+a threat. <p>
+
+&gt; The Clipper chip standard could itself be a very GOOD THING. Solid data and
+&gt; voice security for everyone. Designed, established and implemented by the
+&gt; government for the good of the public. Promoted and sold to the tax paying
+&gt; citizens of country by our elected leaders... That's how things should
+&gt; work! <p>
+
+Eh...I'd disagree, personally.  Perhaps the Skipjack algorithm is secure
+(which I personally doubt very seriously), but the Clipper system is a
+bust, and it is not the place of our govt. to be selling us products.
+That's what Viacrypt and PKP/RSADSI are for.  I certainly don't feel like
+paying AGAIN for something developed with my tax dollars. <p>
+
+&gt; But the process by which this encryption standard is being
+&gt; implemented may continue on for hundreds of years. A process of a
+&gt; government hastily volunteering a broad technology standard this early in
+&gt; the computing age is probably not a wise thing. A process that involves
+&gt; secret and semi-secret law enforcement agencies behind the scenes feels,
+&gt; looks and smells like a very BAD THING.
+&gt;
+&gt; Howard White
+&gt; PC Technology Coordinator
+&gt; Northeastern University
+&gt; Information Services
+&gt; 360 Huntington Ave
+&gt; 275 Richards Hall
+&gt; Boston, MA 02115
+&gt; Phone:840-3881 or Temp. 373-2206
+&gt; FAX: 373-5121 <p>
+
+Gotta agree with that.  I think everyone at EFF agrees with that,
+regardless what one Clipper apologist or another has to say about the matter. <p>
+
+--
+Stanton McCandlish * mech@eff.org * Electronic Frontier Found. OnlineActivist
+F O R   M O R E   I N F O,    E - M A I L    T O:     I N F O @ E F F . O R G
+O  P  E  N    P  L  A  T  F  O  R  M     O  N  L  I  N  E    R  I  G  H  T  S
+V  I   R   T   U   A   L   C  U   L   T   U   R   E      C  R   Y   P   T   O <p>
+
+--
+Stanton McCandlish * mech@eff.org * Electronic Frontier Found. OnlineActivist
+F O R   M O R E   I N F O,    E - M A I L    T O:     I N F O @ E F F . O R G
+O  P  E  N    P  L  A  T  F  O  R  M     O  N  L  I  N  E    R  I  G  H  T  S
+V  I   R   T   U   A   L   C  U   L   T   U   R   E      C  R   Y   P   T   O <p>
+
+</DOC>
