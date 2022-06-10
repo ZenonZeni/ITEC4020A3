@@ -27,15 +27,10 @@ Note: if you encounter errors.
  - You can skip documentProcessor Program if you have our Search Program and INDEX Folder and Data Folder
  - Need support contact Christopher at ZenonZeni@hotmail.com or zenon@my.yorku.ca
 
-You can access our WEB System Program Files by SSH
-ssh root@78.138.17.118
-password: Atcf3MxCS*a9U# 
-cd /var/lib/tomcat8/webapps/ITEC4020A3
-
 Web System Program uses TOMCAT
 - It uses Lucenehandler.java to handle post request from.jsp files to create a query and send info to the searcher program then returns string of info.
 - Our web System program imports all jars into project and implements the searcher program.
 
 For the meta-search GUI, use this link below, which is deployed in Chris's personal server.
-https://78-138-17-118.cloud-xip.io/ITEC4020A3/Search.jsp
+https://zenonzeni.com/ITEC4020A3/Search.jsp
 You can type in the Topic number along with your query to use our search engine, relevant files will be retrieved and displayed. You can also click the "link" button to view the file details.
